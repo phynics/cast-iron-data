@@ -1,0 +1,50 @@
+name: corpus
+
+# Checks every pull request against the format: references resolve, and every file is in
+# canonical form.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: corpus-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  # The Cast Iron revision whose `cast-iron-corpus` reads this corpus. Change it in the same
+  # pull request that migrates the corpus to a newer format.
+  CAST_IRON_REV: 0f65ae8bc0bd35a5f65266ae6d464d6273d85e60
+  # The Rust toolchain: the version in Cast Iron's rust-toolchain.toml at that revision.
+  RUST_TOOLCHAIN: 1.99.1
+
+jobs:
+  corpus:
+    name: check and fmt --check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install Rust
+        run: >
+          rustup toolchain install "$RUST_TOOLCHAIN" --profile minimal --no-self-update &&
+          rustup default "$RUST_TOOLCHAIN"
+      - name: Cache the tool
+        id: tool
+        uses: actions/cache@v6
+        with:
+          path: ${{ runner.temp }}/cargo-tool
+          key: cast-iron-corpus-${{ env.CAST_IRON_REV }}-${{ env.RUST_TOOLCHAIN }}
+      - name: Build cast-iron-corpus
+        if: steps.tool.outputs.cache-hit != 'true'
+        run: >
+          cargo install --locked --root "$RUNNER_TEMP/cargo-tool"
+          --git https://github.com/phynics/cast-iron --rev "$CAST_IRON_REV"
+          cast-iron-corpus
+      - name: Check
+        run: $RUNNER_TEMP/cargo-tool/bin/cast-iron-corpus check .
+      - name: Formatting
+        run: $RUNNER_TEMP/cargo-tool/bin/cast-iron-corpus fmt --check .
