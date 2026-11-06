@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must successfully cast a conjuration (healing) spell on an ally after being hit by an attack of opportunity, or have the Battle (oracle), Chaplain (inquisitor), or Healed (cleric) class background."
-benefit = "You automatically succeed at concentration checks for conjuration (healing) spells caused by taking damage."
+benefit = "When attempting a concentration check caused by receiving damage (including ongoing damage), you reduce the damage taken by 50% for the purposes of determining the concentration check DC."
 +++
 
 ## Battlefield Healer (Story)
