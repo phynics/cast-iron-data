@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat", "Critical"]
-prerequisites = "Mythic Critical Focus, Critical Mastery."
-benefit = "When using Critical Mastery, increase the number of critical feats you may apply by every 3 tiers that you possess."
+prerequisites = "Critical Focus, any two critical feats, 14th-level fighter."
+benefit = "When you score a critical hit, you can apply the effects of two critical feats in addition to the damage dealt."
 normal = "You can only apply the effects of one critical feat to a given critical hit in addition to the damage dealt."
 +++
 

@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Deepsight."
-benefit = "The range of your darkvision increases by 10 feet per tier."
+prerequisites = "Darkvision 60 feet."
+benefit = "Your darkvision has a range of 120 feet."
 normal = "Darkvision normally extends 60 or 90 feet."
 +++
 

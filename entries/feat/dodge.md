@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Dex 13."
-benefit = "You gain a +1 dodge bonus to your AC. This bonus increases to +5 against attacks of opportunity caused when you move out of or within a threatened tile. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat."
+benefit = "You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat."
 +++
 
 ## Dodge (Combat)

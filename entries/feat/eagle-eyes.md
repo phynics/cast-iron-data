@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Eagle Eyes."
-benefit = "You ignore up to -10 in penalties due to distance on visual Perception checks, instead of the normal -5. As a swift action, you can expend one use of mythic power to ignore all penalties due to distance on visual Perception checks for 1 round."
+prerequisites = "Wis 13, keen senses racial trait."
+benefit = "You ignore up to -5 in penalties due to distance on visual Perception checks, allowing you to see accurately at much greater distances than most."
 +++
 
 **Sources:** Advanced Player's Guide pg 158

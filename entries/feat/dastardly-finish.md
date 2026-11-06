@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dastardly Finish."
-benefit = "You can deliver a coup de grace to dazed and staggered non-mythic opponents. In addition, when any creature makes a Fortitude saving throw to survive one of your coup de grace attempts, it takes a penalty to that saving throw equal to your tier."
+prerequisites = "Sneak attack +5d6."
+benefit = "You can deliver a coup de grace to cowering or stunned targets."
 normal = "You can only coup de grace helpless targets."
 +++
 

@@ -10,9 +10,9 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Weapon Focus."
+prerequisites = "Weapon Focus, proficiency with the selected weapon."
 prerequisite_feats = ["ref/feat/weapon-focus"]
-benefit = "While wielding a weapon from the group in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an Intimidate check to demoralize all foes within 30 feet who can see your display."
+benefit = "While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an Intimidate check to demoralize all foes within 30 feet who can see your display."
 +++
 
 ## Dazzling Display (Combat)

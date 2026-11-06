@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Defensive Combat Training, 4th mythic tier."
-benefit = "Add half your tier to your CMD."
+benefit = "You treat your total Hit Dice as your base attack bonus when calculating your Combat Maneuver Defense."
 +++
 
 ## Defensive Combat Training (Combat)
