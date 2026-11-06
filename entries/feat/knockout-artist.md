@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Knockout Artist."
-benefit = "When you use your unarmed strike to deal nonlethal damage and sneak attack damage to an opponent, roll d8s for each sneak attack die instead of d6s."
+prerequisites = "Sneak attack class feature, Improved Unarmed Strike."
+benefit = "When you use your unarmed strike to deal nonlethal damage and sneak attack damage to an opponent denied his Dexterity bonus to AC, you gain a +1 bonus on the damage roll per each sneak attack damage die you roll."
 +++
 
 **Sources:** Ultimate Combat pg 106

@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Improved Stonecunning."
-benefit = "You gain stone tell as a spell-like ability usable once per day with a caster level equal to twice your tier."
+prerequisites = "Wis 13, dwarf, stonecunning racial trait."
+benefit = "You receive a +4 bonus on Perception checks to notice unusual stonework. This bonus replaces the stonecunning ability's normal bonus on Perception checks."
 +++
 
 **Sources:** Advanced Player's Guide pg 163
