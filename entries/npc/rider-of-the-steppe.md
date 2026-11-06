@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "13"
 +++
 
 **Rider of the Steppe**

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "9"
 +++
 
 **Mother of Beasts**

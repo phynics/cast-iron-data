@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "9"
 +++
 
 _The blistering cold doesn't seem to touch this raven-haired woman's skin. She holds a spear tipped

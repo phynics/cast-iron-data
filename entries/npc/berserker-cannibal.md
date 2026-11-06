@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "3"
 +++
 
 _This howling berserker has milky white eyes and an enormous axe wielded by muscular arms._

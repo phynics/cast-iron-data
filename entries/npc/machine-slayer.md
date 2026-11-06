@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "8"
 +++
 
 _Battered scraps of metal hang from this battle-scarred archer's necklace, trophies of the fierce

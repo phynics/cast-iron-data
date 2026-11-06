@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "10"
 +++
 
 **Elven Honorblade**

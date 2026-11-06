@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "4"
 +++
 
 _This woman's face shows a stern expression. Frost clings to her skin and clothes, though she

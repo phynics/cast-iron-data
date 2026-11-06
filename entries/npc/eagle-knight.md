@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "2"
 +++
 
 _Golden eagles shine proudly on the steel armor of this blue-uniformed soldier._

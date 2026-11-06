@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "1/2"
 +++
 
 _This rugged character is clad in colorful, mismatched clothing, his hair tied back in a bandana._

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "5"
 +++
 
 _Clad in multicolored silks, this fierce-looking woman seems ready to unleash devastating sorcery

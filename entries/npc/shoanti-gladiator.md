@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "2"
 +++
 
 _This shaven-headed brute wields a massive spiked hammer and bears scars from dozens of battles._

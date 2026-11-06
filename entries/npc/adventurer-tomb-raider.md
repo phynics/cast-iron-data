@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "5"
 +++
 
 **Adventurer (Tomb Raider)**

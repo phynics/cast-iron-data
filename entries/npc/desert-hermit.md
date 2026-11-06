@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "8"
 +++
 
 _This weathered-looking desert dweller is dressed from head to toe in tan, loose-fitting robes._

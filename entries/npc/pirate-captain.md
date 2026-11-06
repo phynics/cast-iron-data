@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "5"
 +++
 
 _This confident-looking bearded man is dressed in rich and flamboyant clothing, an ornate, sheathed

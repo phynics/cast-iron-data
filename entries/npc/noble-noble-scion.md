@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "2"
 +++
 
 **Noble (Noble Scion)**

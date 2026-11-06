@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "10"
 +++
 
 _This bulky, gray-skinned dwarf is armored like a fortress._

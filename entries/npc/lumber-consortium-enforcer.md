@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "3"
 +++
 
 _This beefy human brawler has the bearing of a thug._

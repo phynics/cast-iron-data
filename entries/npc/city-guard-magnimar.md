@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "1/2"
 +++
 
 _Clad in blue-tinted scale mail and carrying a halberd, this guard patrols the city with a keen

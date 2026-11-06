@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "2"
 +++
 
 _Every step this fashionable Varisian takes seems like part of a dance, her dozens of strange

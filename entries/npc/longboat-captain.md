@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "4"
 +++
 
 _This proud Ulfen captain stands alert on the deck of her dragonprowed longship, bow at the ready._

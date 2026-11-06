@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "26"
 creature_type = "outsider"
 subtypes = ["evil", "extraplanar", "kyton", "lawful"]
 size = "colossal"

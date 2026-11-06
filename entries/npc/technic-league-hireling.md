@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "3"
 +++
 
 _This woman's once-fine garments are tattered and stained with unnatural fluids, but her protective

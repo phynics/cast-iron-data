@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "4"
 +++
 
 _Dents and nicks fail to dull the shine of this knight's armor. A sword and starburst decorate her

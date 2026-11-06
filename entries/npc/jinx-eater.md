@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "2"
 +++
 
 _Black feathers cover this crow-headed swashbuckler, his hands and legs ending in powerful talons.

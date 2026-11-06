@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "9"
 +++
 
 **Merchant (Merchant Prince)**

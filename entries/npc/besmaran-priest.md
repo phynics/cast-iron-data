@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "4"
 +++
 
 _Clad in black silk and a chain shirt, this bold woman has a strong stance and wields a masterfully

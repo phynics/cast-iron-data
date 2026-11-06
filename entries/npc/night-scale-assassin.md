@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "5"
 +++
 
 _This lithe half-elven woman wields a hand crossbow and is bedecked in dark leather that blends in
