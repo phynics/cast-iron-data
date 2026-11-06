@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have had a valuable item (worth at least 1,000 gp per character level) stolen by a former ally, have been left for dead by a former ally, or have the [Wrong Enemy](rule/bad_beginnings) conflict background."
-benefit = "You grow more confident in reading others, if not exactly more trusting of them. Your allies and enemies no longer provide cover bonuses on attacks you make against other creatures. You also gain a 20% miss chance against any attacks of opportunity made against you, as long as an ally is threatening the creature making the attack."
+benefit = "When you are in a harmful area of effect created by an ally (through a spell or other means), you can roll your saving throw twice and take the better result. If you do so, your shaken trust means you do not provide flanking bonuses to any allies for 1 hour."
 +++
 
 ## Betrayed (Story)
