@@ -10,9 +10,9 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Proficiency with at least one weapon from the selected weapon group, base attack bonus +8."
-benefit = "When using any weapon from the selected group, your threat range is doubled."
-special = "You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new weapon group."
+prerequisites = "Proficient with weapon, base attack bonus +8."
+benefit = "When using the weapon you selected, your threat range is doubled."
+special = "You can gain Improved Critical multiple times. The effects do not stack. Each time you take the feat, it applies to a new type of weapon. This effect doesn't stack with any other effect that expands the threat range of a weapon."
 +++
 
 ## Improved Critical (Combat)

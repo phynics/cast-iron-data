@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Guided Hand."
-benefit = "When making attacks with your deity's favored weapon, you can add your Wisdom modifier instead of your Strength or Dexterity modifier on damage rolls."
+prerequisites = "Channel energy class feature, Channel Smite, proficiency with your deity's favored weapon."
+benefit = "With your deity's favored weapon, you can use your Wisdom modifier instead of your Strength or Dexterity modifier on attack rolls."
 +++
 
 **Sources:** Ultimate Combat pg 103
