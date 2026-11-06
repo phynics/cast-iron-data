@@ -6,7 +6,7 @@ WebAssembly toolchain.
 
 The corpus is one Markdown file per rules entry (`entries/...`) and a few TOML files. The
 full specification is
-[`docs/corpus-format.md`](https://github.com/phynics/cast-iron/blob/0f65ae8bc0bd35a5f65266ae6d464d6273d85e60/docs/corpus-format.md)
+[`docs/corpus-format.md`](https://github.com/phynics/cast-iron/blob/20e6a31af342cb5f7899cdb7e039022f5bae5de8/docs/corpus-format.md)
 in the Cast Iron repository. This page is the short version: three rules, the tool, and one
 recipe for each common edit.
 
@@ -45,7 +45,7 @@ A merged fix is not in the app yet. It reaches readers when Cast Iron pins a new
 Install it once, from the revision this corpus pins (see `.github/workflows/corpus.yml`):
 
 ```sh
-cargo install --locked --git https://github.com/phynics/cast-iron --rev 0f65ae8bc0bd35a5f65266ae6d464d6273d85e60 cast-iron-corpus
+cargo install --locked --git https://github.com/phynics/cast-iron --rev 20e6a31af342cb5f7899cdb7e039022f5bae5de8 cast-iron-corpus
 ```
 
 Then, from the root of this repository:
@@ -57,8 +57,8 @@ cast-iron-corpus fmt --check .    # change nothing; name the first line that is 
 ```
 
 `check` fails with a message like `entries/rule/ambush.md:14: unknown link target
-`ref/skill/stealh``. The message names the file and line. It also lists fields that disagree
-with the body as warnings; those do not fail the run.
+`ref/skill/stealh``. The message names the file and line. It also fails when a typed field
+disagrees with the body, and names both places.
 
 `fmt` is safe to run at any time. It re-wraps paragraphs, trims table cells, renumbers lists
 to `1.`, and adds a `{#anchor}` to a heading that a link reaches. Run it after every edit,
