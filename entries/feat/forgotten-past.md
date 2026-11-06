@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have suffered permanent memory loss or have the Reincarnated circumstance background."
-benefit = "You roll twice whenever you attempt a saving throw against a mind-affecting effect, keeping the better result."
+benefit = "The duration of mind-affecting spells (even beneficial ones) is halved for you, to a minimum of 1 round. Your inquisitive nature gives you a +2 bonus on Perception checks. If you have 10 or more ranks in Perception, this bonus increases to +4."
 special = "Restoration of memories by means less significant than miracle or wish does not qualify for the prerequisite."
 +++
 

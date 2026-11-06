@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have reverted to savage behavior through a traumatic event or extended period in the wilderness, or have the Raised by Beasts background (either the [adoption](rule/birth_circumstances_and_more) or [druid](rule/class_background_tables) version)."
-benefit = "Delay the penalties for the exhausted, fatigued, shaken, and sickened conditions for 1 round after first receiving them. If you already have the condition in question and it is applied again, this feat provides no benefit. Despite ignoring the penalties you do still have the condition. For example, if you become shaken again while benefiting from this feat, you become frightened as normal."
+benefit = "Whenever you receive a morale bonus on Strength or attack rolls (such as from heroism or the barbarian rage class feature), you receive a +2 bonus on Dexterity- and Strength-based ability and skill checks and a +1 bonus on Reflex saves until the morale bonus effect ends."
 +++
 
 ## Feral Heart (Story)

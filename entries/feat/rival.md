@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have at least one enemy who wishes to outdo you. If you have multiple rivals, the GM may keep the specific rival secret, or have many of your enemies work together against you. If your rival is not already a challenging foe, it either advances to become one or allies itself with others one or more creatures who are."
-benefit = "Once per day, you can take 20 on a single skill check as a standard action if the skill check is one that would allow you to take 20."
+benefit = "Your striving pushes you to become ever more skillful. When you gain this feat, and every 2 character levels thereafter, either you gain 1 skill point or your Fame score increases by 1."
 +++
 
 ## Rival (Story)

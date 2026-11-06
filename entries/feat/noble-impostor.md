@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "Must not be a member of an established family or a member of nobility."
-benefit = "You gain followers as if you had the Leadership feat. If you also have the Leadership feat, increase your Leadership score by 3 for the purpose of determining how many followers you have."
+benefit = "You gain a +2 bonus on Bluff and Knowledge (nobility) checks and these skills are class skills for you."
 +++
 
 ## Noble Impostor (Story)

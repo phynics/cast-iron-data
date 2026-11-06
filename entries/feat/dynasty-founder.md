@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have lived in the chosen city for at least 1 year or be the heir of a former city leader."
-benefit = "You gain control of the settlement (see the [settlement rules](rule/urban)). Upon gaining this benefit and once per year thereafter, you can attempt to alter the settlement in one of the following ways by attempting a DC 25 Diplomacy check modified by the settlement's Society modifier or a DC 25 Intimidate check modified by its Law modifier:"
+benefit = "You gain followers as if you had the Leadership feat, although you cannot attract followers of a level higher than your level - 2. If you also have the Leadership feat, increase your Leadership score by 3 for the purpose of determining how many followers you have."
 special = "For groups using the kingdom-building rules, you can optionally use the rules for establishing a settlement to complete the goal of this story feat."
 +++
 

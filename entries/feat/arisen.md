@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have been slain and brought back from the dead, or have the [Left to Die or Cursed Birth](rule/birth_circumstances_and_more) circumstance background."
-benefit = "You gain a +2 bonus on saving throws against death effects and fear effects. In addition, the caster level of any conjuration (healing) spell that is cast on you increases by 1 for the purposes of its effects on you alone."
+benefit = "You don't die until your negative hit point total is equal to or greater than 4 + your Constitution score. Once per day as a standard action, you can force yourself to carry on by strength of will alone, gaining 1 temporary hit point per hit die. These temporary hit points last for 10 minutes."
 normal = "You die when your negative hit point total is equal to or greater than your Constitution score."
 +++
 

@@ -24,7 +24,7 @@ will = "+10"
 melee = "bite +18 (2d6+10 plus grab), 2 claws +18 (1d8+8 plus grab), tail slap +13 (1d8+12), 2 wings +13 (1d6+4)"
 special_attacks = "breath weapon (40-ft. cone, 6d10 fire, Reflex DC 19 half, usable every 1d4 rounds), lingering breath (2d6 fire, 5 rounds), mythic power (5/day, surge +1d8), swallow whole (1d6 bludgeoning and 1d6 fire damage, AC 18, 16 hp)"
 special_qualities = "dragon cantrips"
-abilities = ["27", "12", "19", "12", "13, Cha 14", "-"]
+abilities = ["27", "12", "19", "12", "13", "14"]
 +++
 
 ::: statblock
@@ -54,7 +54,7 @@ At will-_[detect magic](ref/spell/detect-magic)_
 Sorcerer spells known: (CL 1st; concentration +3)\
 1st (3/day)-_[shield](ref/spell/shield)_, _[true strike](ref/spell/true-strike)_\
 0 (at will)-_[mage hand](ref/spell/mage-hand)_, _[message](ref/spell/message)_, _[prestidigitation](ref/spell/prestidigitation)_, _[read magic](ref/spell/read-magic)_
-Ability Scores: Str 27, Dex 12, Con 19, Int 12, Wis 13, Cha 14, Cha -
+Ability Scores: Str 27, Dex 12, Con 19, Int 12, Wis 13, Cha 14
 Base Atk: +11
 CMB: +20 (+24 grapple)
 CMD: 31 (35 vs. trip)

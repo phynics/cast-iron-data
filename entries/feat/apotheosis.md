@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have had direct contact with a deity or god-like being, or have been risen from the dead at the personal behest of a deity or god-like being."
-benefit = "Once per day as an immediate action, you can cause any die roll made by a creature within 100 feet of you to be rerolled. You choose which result you prefer. You must decide to use this ability after the first roll is made but before the results are revealed by the GM."
+benefit = "You gain a +2 bonus on Constitution checks to stabilize while dying. Anytime you or an ally who worships the god that contacted you casts augury or a similar effect, your chance of receiving a meaningful reply is increased by 5% (to a maximum of 95%)."
 +++
 
 ## Apotheosis (Story)

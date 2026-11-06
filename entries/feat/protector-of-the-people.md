@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "Your community has come under persecution and requires considerable defense."
-benefit = "You gain Craft Construct as a bonus feat without meeting its prerequisites and can use it for any purpose. The cost to build any construct that normally costs less than the cost of your donated golem is permanently reduced by 10%; the cost of the base materials is not reduced, however."
+benefit = "You temporarily gain the Craft Construct feat for the purposes of building one golem to satisfy the goal of this story feat. You do not need to meet Craft Construct's prerequisites, and it can't be used as a prerequisite for any other crafting endeavor."
 +++
 
 ## Protector of the People (Story)

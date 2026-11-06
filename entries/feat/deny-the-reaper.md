@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have witnessed the death of a close companion in battle - a death that could have been prevented, such as from bleeding, failure to stabilize, or ongoing poison damage - or have the Death in the Family or The War [major childhood event background](rule/birth_circumstances_and_more)."
-benefit = "You and each ally within 10 feet of you gain a +2 bonus on saves against death effects. In addition, once per day you can spontaneously convert any 5th-level or higher conjuration (healing) spell into *breath of life."
+benefit = "You gain a +2 bonus on Heal checks. If you have 10 or more ranks in Heal, this bonus increases to +4. You can apply first aid as a move action and don't take a penalty when treating deadly wounds without a healer's kit."
 +++
 
 ## Deny the Reaper (Story)

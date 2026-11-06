@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have a familiar, and you must either be a member of House Merrosett or have the Initiated (witch) or Storied Lineage (wizard) background."
-benefit = "You may either choose and apply a second animal aspect to your familiar or apply an evolution from the 1-point evolutions available to a summoner's eidolon. The familiar must conform to any limitations of the evolution (such as being one size category larger than its rider to serve as a mount). Once selected, this decision cannot be changed, but if your familiar dies it loses these abilities and you may choose new abilities if you take a new familiar. If your familiar breeds with its original kind, it has the potential to pass on these extra abilities as permanent traits."
+benefit = "When you gain this feat, choose an animal aspect granted by the hunter's animal focus class ability and apply it to your familiar. Your hunter level for this ability is 1st, and you cannot change this ability once you have selected it. If your familiar dies, it loses its aspect and you may choose a new aspect if you take a new familiar. Your familiar's form is altered by superficial changes appropriate to its aspect."
 +++
 
 ## Victory Through Unity (Story)

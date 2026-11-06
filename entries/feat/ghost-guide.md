@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You have encountered a ghost or haunt."
-benefit = "You retain the normal benefit. Additionally, you increase your effective caster level by 2 when determining the effects of *call spirit, speak with haunt, speak with dead.* Finally, when a spirit lies to you, you can confront the spirit about the lie and force it to roll another saving throw against the spell's DC. If the spirit fails the saving throw, you receive an additional question to replace the one where the spirit gave a false answer."
+benefit = "Whenever you communicate with a ghost or haunt, whether while adventuring or through use of spells such as call spirit, speak with haunt, and speak with dead, or seances and talking boards, you gain a +2 bonus on Diplomacy and Sense Motive checks. The GM can also extend this benefit to any intelligent undead creature that has an interest in being laid to rest. If you have more than 10 ranks in either these skills, you instead gain a +4 bonus on the appropriate skill."
 +++
 
 ## Ghost Guide (Story)

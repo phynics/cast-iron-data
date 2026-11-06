@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must either have sold five or more self-created works of art worth a total of at least 5,000 gp, have performed at least five performances for audiences of 50 or more while achieving a great performance result or better on your Perform check, or have the [Virtuoso](rule/class_background_tables) bard background."
-benefit = "You gain a +5 bonus on skill checks made with your chosen skill, and a +2 bonus on all other Craft and Perform checks for which you have at least 1 rank."
+benefit = "Choose a single Craft or Perform skill. Whenever you take 10 with this skill, treat your die result as a 15 instead."
 +++
 
 ## Magnum Opus (Story)
