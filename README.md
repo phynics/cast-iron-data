@@ -72,7 +72,13 @@ reads the same bytes. Tags are never moved. A fix ships as a new tag:
 
 The first tag, `v0.1.0`, is the corpus exactly as it was exported from Cast Iron.
 
-## Contact
+## Report a problem
 
-Report a mistake in an entry, or a licensing concern, at
-<https://github.com/phynics/cast-iron-data/issues>.
+Report a mistake in an entry with the [problem form](https://github.com/phynics/cast-iron-data/issues/new?template=data-problem.yml).
+Issues with the label `data` are fixed in this repository: [CONTRIBUTING.md](CONTRIBUTING.md)
+explains how an issue becomes a fix. A fix reaches the app when Cast Iron bumps its pin to a new
+tag. Until then, the app shows the previous text.
+
+Problems with the app itself (layout, search, install, offline use) go to the
+[Cast Iron issues](https://github.com/phynics/cast-iron/issues). Report a licensing concern as a
+plain issue here.

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Problem with the Cast Iron app
+    url: https://github.com/phynics/cast-iron/issues
+    about: Layout, search, install, offline use, and other app bugs belong in the app repository.
