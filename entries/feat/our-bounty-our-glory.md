@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "Be a member of House Denzarni, or have The Omen birth circumstance background, or the Bloodthirsty (barbarian), Tree Tender (druid), or Unsuspecting Master (monk) class background."
-benefit = "Once per day, you can use heroes' feast as a spell-like ability with a caster level equal to your character level, although your feast does not grant the effects of neutralize poison or remove disease."
+benefit = "You add 1 day to the time you can go without food or water before making Constitution checks and you add +4 to Constitution checks to stave off the effects of starvation and thirst."
 +++
 
 ## Our Bounty, Our Glory (Story)

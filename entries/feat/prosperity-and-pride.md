@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "Be a member of House Corcina, or have the Inheritance [major childhood event](rule/birth_circumstances_and_more) background, Worldshaker (bard) class background, or the Craftsperson or Well-Connected Friend [background](rule/influential_associates_table)."
-benefit = "You teach others how to get the most out of their equipment. Three times per day as a standard action, you can increase the armor bonus provided by a suit of nonmagical armor, the circumstance bonus to a skill provided by a tool or skill kit, or the shield bonus provided by a nonmagical shield by 1. This bonus lasts for 1 hour and doesn't stack with other uses of this ability."
+benefit = "When in a settlement the size of a large city or smaller, you receive a +2 bonus on Appraise checks and Diplomacy checks. If you have 10 or more ranks in one of these skills, the bonus on that skill increases to +4."
 +++
 
 ## Prosperity and Pride (Story)

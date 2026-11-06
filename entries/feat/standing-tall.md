@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "Be a member of House Fahlspar, or have [The Hunter](rule/influential_associates_table), Nature (oracle), or Tree Tender (druid) background."
-benefit = "You may now use the above benefit three times per day, and the benefit also applies on saving throws against paralysis, poison, polymorph, sleep, and stunning effects."
+benefit = "Once per day as a move action, you gain a +2 bonus on saving throws against mind-affecting effects for 1 minute."
 +++
 
 ## Standing Tall (Story)
