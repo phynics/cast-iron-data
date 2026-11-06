@@ -10,7 +10,6 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Blind-Fight."
 benefit = "In melee, every time you miss because of concealment, you can reroll your miss chance percentile roll one time to see if you actually hit."
 normal = "Regular attack roll modifiers for invisible attackers trying to hit you apply, and you lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies."
 special = "The Blind-Fight feat is of no use against a character who is the subject of a blink spell."

@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 prerequisites = "Survival 3 ranks."
 benefit = "You can create a false trail in the wilderness via a combination of misleading footprints, discarded items, torn scraps of clothing, and other signs. When you create a false trail, you determine the direction it leads. A creature tracking you must succeed at a Perception or Survival check (DC = 10 + half your character level + your Wisdom modifier) to determine the trail is fake when first encountering it. On a success, the creature can continue to track you as normal. The effect of a failure to identify the trail as false depends on the time and effort spent making it."
-normal = "] A normal false trail takes 1 hour to complete. A creature that fails to identify the trail as false follows it for 1d4 miles."
+normal = "A normal false trail takes 1 hour to complete. A creature that fails to identify the trail as false follows it for 1d4 miles."
 +++
 
 **Sources:** Ultimate Wilderness pg 111
