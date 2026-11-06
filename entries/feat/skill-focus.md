@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Skill Focus."
-benefit = "You can always take 10 or 20 on checks with your choice of skill for Skill Focus, even when you are rushed or threatened."
-special = "You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Skill Focus feat."
+benefit = "You get a +3 bonus on all checks involving the chosen skill. If you have 10 or more ranks in that skill, this bonus increases to +6."
+special = "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new skill."
 +++
 
 **Sources:** PRPG Core Rulebook pg 134

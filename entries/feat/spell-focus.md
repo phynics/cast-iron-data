@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Spell Focus."
-benefit = "Choose a school of magic you already have Spell Focus in. The bonus to save DCs provided by Spell Focus and Greater Spell Focus for that school increases by 1. You can expend one use of mythic power as part of casting a spell from your chosen school to force any of the spell's targets to roll their saving throws twice, taking the lower result."
-special = "You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Spell Focus feat."
+benefit = "Add +1 to the Difficulty Class for all saving throws against spells from the school of magic you select."
+special = "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new school of magic."
 +++
 
 **Sources:** PRPG Core Rulebook pg 134

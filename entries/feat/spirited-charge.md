@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Ride 1 rank, Mounted Combat, Ride-By Attack."
+prerequisites = "Ride 1 rank, Mounted Combat."
 prerequisite_feats = ["ref/feat/mounted-combat", "ref/feat/ride-by-attack"]
 benefit = "When mounted and using the charge action, you deal double damage with a melee weapon (or triple damage with a lance)."
 +++

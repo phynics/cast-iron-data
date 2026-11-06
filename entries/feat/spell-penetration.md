@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Spell Penetration."
-benefit = "Add half your tier to caster level checks to overcome spell resistance. If you have Greater Spell Penetration, add your full tier instead."
+benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance."
 +++
 
 **Sources:** PRPG Core Rulebook pg 134

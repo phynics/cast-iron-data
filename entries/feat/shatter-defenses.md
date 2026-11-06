@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dazzling Display, base attack bonus +6."
+prerequisites = "Weapon Focus, Dazzling Display, base attack bonus +6, proficiency with weapon."
 prerequisite_feats = ["ref/feat/dazzling-display"]
 benefit = "Any shaken, frightened, or panicked opponent hit by you this round is flat-footed to your attacks until the end of your next turn. This includes any additional attacks you make this round."
 +++

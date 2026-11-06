@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Selective Channeling."
-benefit = "When you channel energy, the damage you heal or deal increases by a number of points equal to twice the number of targets you excluded from your channeled energy. You can expend one use of mythic power to increase the number of targets you exclude from your channeled energy by half your tier."
+prerequisites = "Cha 13, channel energy class feature."
+benefit = "When you channel energy, you can choose a number of targets in the area up to your Charisma modifier. These targets are not affected by your channeled energy."
 normal = "All targets in a 30-foot burst are affected when you channel energy. You can only choose whether or not you are affected."
 +++
 

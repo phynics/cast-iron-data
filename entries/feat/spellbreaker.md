@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Spellbreaker."
-benefit = "Any non-mythic creature you threaten provokes an attack of opportunity from you whenever it uses a spell or spell-like ability, even when casting defensively or casting a quickened spell."
+prerequisites = "Disruptive, 10th-level fighter."
+benefit = "Enemies in your threatened area that fail their checks to cast spells defensively provoke attacks of opportunity from you."
 normal = "Enemies that fail to cast spells defensively do not provoke attacks of opportunity."
 +++
 

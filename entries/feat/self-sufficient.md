@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Self-Sufficient."
-benefit = "The bonus on Heal and Survival skill checks from Self-Sufficient increases by 2. In addition, you can expend one use of mythic power to treat a Heal or Survival check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
+benefit = "You get a +2 bonus on all Heal checks and Survival checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
 +++
 
 **Sources:** PRPG Core Rulebook pg 133
