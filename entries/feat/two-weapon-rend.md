@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dex 17, Double Slice, Greater Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11."
+prerequisites = "Dex 17, Double Slice, base attack bonus +11."
 prerequisite_feats = ["ref/feat/double-slice", "ref/feat/greater-two-weapon-fighting", "ref/feat/two-weapon-fighting"]
 benefit = "If you hit an opponent with both your primary hand and your off-hand weapon, you deal an additional 1d10 points of damage plus 1-1/2 times your Strength modifier. You can only deal this additional damage once each round."
 +++

@@ -12,7 +12,7 @@ kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Dex 15, Two-Weapon Fighting."
 prerequisite_feats = ["ref/feat/two-weapon-fighting"]
-benefit = "When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are using [defensive stance](rule/combat_errata) or using the total defense action, this shield bonus increases to +2."
+benefit = "When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are fighting defensively or using the total defense action, this shield bonus increases to +2."
 +++
 
 ## Two-Weapon Defense (Combat)
