@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Quick Draw."
-benefit = "You can use Quick Draw to draw items of any kind, not just weapons, provided they are stored or concealed on your person. As a move action, you can expend one use of mythic power to retrieve up to two hidden items. You must have two hands free to do so."
+prerequisites = "Base attack bonus +1."
+benefit = "You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon (see the Sleight of Hand skill) as a move action. A character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow). Alchemical items, potions, scrolls, and wands cannot be drawn quickly using this feat."
 normal = "Without this feat, you may draw a weapon as a move action, or (if your base attack bonus is +1 or higher) as a free action as part of movement. Without this feat, you can draw a hidden weapon as a standard action."
 +++
 

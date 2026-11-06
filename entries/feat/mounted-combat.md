@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Mounted Combat."
-benefit = "You can negate an additional number of hits against your mount per round equal to your tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a Ride check for a single Reflex saving throw your mount must make."
+prerequisites = "Ride 1 rank."
+benefit = "Once per round when your mount is hit in combat, you may attempt a Ride check (as an immediate action) to negate the hit. The hit is negated if your Ride check result is greater than the opponent's attack roll."
 +++
 
 ## Mounted Combat (Combat)

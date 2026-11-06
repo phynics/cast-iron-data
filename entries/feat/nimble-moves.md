@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Nimble Moves."
-benefit = "For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by Nimble Moves and Acrobatic Steps."
+prerequisites = "Dex 13."
+benefit = "Whenever you move, you may move through 5 feet of difficult terrain each round as if it were normal terrain. This feat allows you to take a 5-foot step into difficult terrain."
 +++
 
 **Sources:** PRPG Core Rulebook pg 131

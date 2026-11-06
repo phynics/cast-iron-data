@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Pinpoint Targeting."
-benefit = "You can use this feat even if you move this round, but only if the distance you move is equal to or less than 5 feet per tier."
+prerequisites = "Dex 19, Improved Precise Shot, Precise Shot, base attack bonus +16."
+benefit = "As a standard action, make a single ranged attack. The target does not gain any armor, natural armor, or shield bonuses to its Armor Class. You do not gain the benefit of this feat if you move this round."
 +++
 
 ## Pinpoint Targeting (Combat)

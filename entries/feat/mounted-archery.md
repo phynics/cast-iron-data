@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Mounted Archery."
-benefit = "When using the Ride skill to use your mount as cover, you can still make a single ranged weapon attack as a standard action. While your mount is moving, you can expend one use of mythic power to negate the penalties for making ranged weapon attacks while mounted until the beginning of your next turn."
+prerequisites = "Ride 1 rank, Mounted Combat."
+benefit = "The penalty you take when using a ranged weapon while mounted is halved: -2 instead of -4 if your mount is taking a double move, and -4 instead of -8 if your mount is running."
 +++
 
 ## Mounted Archery (Combat)

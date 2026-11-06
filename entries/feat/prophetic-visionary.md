@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Prophetic Visionary."
-benefit = "You can use Prophetic Visionary's *augury* ability at will, spending 10 minutes in a deep trance each time. Your chance of a successful *augury* increases by 1% per tier. A successful *augury* made by using this feat also grants you the benefits of guidance, but the bonus is equal to your tier and is an insight bonus instead of a competence bonus."
+prerequisites = "Mystery class feature."
+benefit = "Once per day, you can enter a deep trance to receive a vision of the future. The trance lasts for 10 minutes, during which time you can take no other actions. If you are interrupted, you must begin again. When you come out of the trance, you know whether a particular action in the immediate future will bring good or bad results, as an augury spell with a 70% chance of success."
 +++
 
 **Sources:** Ultimate Magic pg 154

@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dex 13, Dodge, Shot on the Run, base attack bonus +6."
+prerequisites = "Dex 13, Dodge, Mobility, Shot on the Run, base attack bonus +6."
 prerequisite_feats = ["ref/feat/dodge", "ref/feat/shot-on-the-run"]
 benefit = "Once per encounter, when using the withdraw action, you can make a single ranged attack at any point during your movement."
 normal = "You cannot attack when using the withdraw action."

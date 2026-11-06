@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Powerful Shape."
-benefit = "You can apply the giant simple template (quick rules version) to any form you take with wild shape. This replaces the benefit from Powerful Shape."
+prerequisites = "Wild shape class feature, druid level 8th."
+benefit = "When in wild shape, treat your size as one category larger for the purpose of calculating CMB, CMD, carrying capacity, and any size-based special attacks you use or that are used against you (such as grab, swallow whole, and trample)."
 +++
 
 **Sources:** Ultimate Magic pg 154
