@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "Bloodline, eidolon, mystery, phantom, spirit animal, or witch's familiar class feature and you must have an unknown secret about your magic or family history (even if you do not yet know the topic of the secret) or have the One of a Kind (sorcerer), the Outsider's Lineage (summoner), or the Unknown (witch) background."
-benefit = "Select one Knowledge skill or the Use Magic Device skill. This is now a class skill for you."
+benefit = "Select a class feature from the following list: one bloodline power, eidolon evolutions, one revelation, phantom abilities, spirit animal, or witch's familiar. The feature must be from a class you have at least 1 level in, and you must have the class feature. You can treat either your class level as being 1 higher, or your Intelligence, Wisdom, or Charisma score as 2 higher, for the purpose of calculating the effect of the selected power. This impacts only the calculations of your existing powers that are based on class level or the appropriate ability score. It does not grant you early access to abilities gained at higher levels."
 +++
 
 ## Magical Enigma (Story)

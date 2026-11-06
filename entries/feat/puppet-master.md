@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have survived an encounter with a challenging foe without suffering significant harm by striking a deal (regardless of whether the deal was with the challenging foe or not), or have the Boss, the Liege Lord, or the Well-Connected Friend [background](rule/influential_associates_table)."
-benefit = "If you succeed at a Diplomacy check to make a request of a creature, the DCs of additional requests you attempt increase by 1 per request, rather than 5."
+benefit = "If you succeed at a Diplomacy check to make a request of a creature by 5 or more, the DCs of additional requests you attempt increase by 1 per request, rather than 5."
 +++
 
 ## Puppet Master (Story)
