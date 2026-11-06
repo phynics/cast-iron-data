@@ -200,5 +200,5 @@ tag.
 4. Close the issues that the release fixes, with a comment that names the tag.
 
 Cast Iron then updates its pin in `sources/corpus.toml`: the tag, the commit, and the tree hash
-that `cargo xtask corpus-tree-hash` prints. A fix is live in the app only after that update is
+that `cargo xtask corpus-tree-hash <extracted dir>` prints for the extracted tag archive. A fix is live in the app only after that update is
 merged and Cast Iron is published.

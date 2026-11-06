@@ -62,9 +62,9 @@ A pull request must pass `check` and `fmt --check`. The `corpus` workflow runs b
 ## Versions
 
 A frozen version of the corpus is a Git tag named `vX.Y.Z`. Cast Iron pins a tag by its commit and
-by the SHA-256 hash of the tag's archive
-(`https://codeload.github.com/phynics/cast-iron-data/tar.gz/refs/tags/vX.Y.Z`), so a build always
-reads the same bytes. Tags are never moved. A fix ships as a new tag:
+by a SHA-256 tree hash over the extracted files (`sources/corpus.toml` in Cast Iron), so a build
+always reads the same content. The archive bytes are not pinned, because GitHub does not promise
+that a generated archive stays byte-identical. Tags are never moved. A fix ships as a new tag:
 
 - patch (`v0.1.1`): corrections to entries that change no id;
 - minor (`v0.2.0`): added entries, or added data files;
