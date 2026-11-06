@@ -10,10 +10,10 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Weapon Focus with selected weapon group, fighter level 4th."
+prerequisites = "Proficiency with selected weapon, Weapon Focus with selected weapon, fighter level 4th."
 prerequisite_feats = ["ref/feat/weapon-focus"]
 benefit = "You gain a +2 bonus on all damage rolls you make using the selected weapon."
-special = "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new weapon group."
+special = "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon."
 +++
 
 ## Weapon Specialization (Combat)

@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Improved Shield Bash, Shield Proficiency, Shield Slam, Two-Weapon Fighting, base attack bonus +11."
+prerequisites = "Improved Shield Bash, Shield Proficiency, Shield Slam, base attack bonus +11."
 prerequisite_feats = ["ref/feat/improved-shield-bash", "ref/feat/shield-proficiency", "ref/feat/shield-slam", "ref/feat/two-weapon-fighting"]
 benefit = "You do not suffer any penalties on attack rolls made with a shield while you are wielding another weapon. Add your shield's enhancement bonus to attacks and damage rolls made with the shield as if it was a weapon enhancement bonus."
 +++

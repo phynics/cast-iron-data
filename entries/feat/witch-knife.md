@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Witch Knife."
-benefit = "You can use your *witch knife* as an additional focus component for all your witch spells, not just your patron spells, adding 1 to their DC. This bonus stacks with the bonus to patron spells granted by Witch Knife, granting your patron spells a total +2 bonus to their DC. Additionally, the hand holding the *witch knife* is still considered free for the purpose of casting spells and delivering touch attacks."
+prerequisites = "Witch class."
+benefit = "Each day, when you prepare your spells, you can select a masterwork or magical dagger, transforming it into a witch knife, which serves as an additional focus component for witch patron spells. Add +1 to the DC of all your patron spells."
 +++
 
 **Sources:** Ultimate Magic pg 159

@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dex 13, Precise Shot."
+prerequisites = "Point-Blank Shot."
 prerequisite_feats = ["ref/feat/precise-shot"]
 benefit = "When making a full-attack action with a ranged weapon, you can fire one additional time this round at your highest bonus. All of your attack rolls take a -2 penalty when using Rapid Shot."
 +++

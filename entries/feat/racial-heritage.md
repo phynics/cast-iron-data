@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Racial Heritage."
-benefit = "You gain a single racial trait of your choice from the race you picked when you took non-mythic Racial Heritage. That racial trait can't modify your size or ability scores. You also gain the racial language of the race (if any) if you don't already know it. For races with multiple racial languages, you gain all of them."
+prerequisites = "Human."
+benefit = "Choose another humanoid race. You count as both human and that race for any effects related to race. For example, if you choose dwarf, you are considered both a human and a dwarf for the purpose of taking traits, feats, how spells and magic items affect you, and so on."
 +++
 
 **Sources:** Advanced Player's Guide pg 168

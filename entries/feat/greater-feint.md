@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Deft Maneuvers, base attack bonus +6, Int 13."
+prerequisites = "Combat Expertise, Improved Feint, base attack bonus +6, Int 13."
 benefit = "Whenever you use feint to cause an opponent to lose his Dexterity bonus, he loses that bonus until the beginning of your next turn, in addition to losing his Dexterity bonus against your next attack."
 normal = "A creature you feint loses its Dexterity bonus against your next attack."
 +++

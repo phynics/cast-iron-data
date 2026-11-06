@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Animal Affinity."
-benefit = "The bonus on Handle Animal and Ride skill checks from Animal Affinity increases by 2. In addition, you can expend one use of mythic power to speak with animals as the spell. Your caster level for this effect is equal to twice your tier."
+benefit = "You get a +2 bonus on all Handle Animal and Ride skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
 +++
 
 **Sources:** PRPG Core Rulebook pg 118

@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Improved Sunder."
-benefit = "You gain a bonus equal to half your tier on checks to sunder, and to your CMD when an opponent tries to sunder an object used by you. These bonuses stack with those granted by Improved Sunder."
+prerequisites = "Str 13, Power Attack, base attack bonus +1."
+benefit = "You do not provoke an attack of opportunity when performing a sunder combat maneuver. In addition, you receive a +2 bonus on checks made to sunder an item. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to sunder your gear."
 normal = "You provoke an attack of opportunity when performing a sunder combat maneuver."
 +++
 

@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Wis 13, change shape or wild shape class feature."
-benefit = "You can complete the verbal and somatic components of spells while using change shape or wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell."
+prerequisites = "Wis 13, wild shape class feature."
+benefit = "You can complete the verbal and somatic components of spells while using wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell."
 +++
 
 **Sources:** PRPG Core Rulebook pg 131

@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Trample."
-benefit = "Your mount can make two hoof attacks against an opponent you knock down with an overrun, instead of one. You can expend one use of mythic power when you score a critical hit with one or more of those hoof attacks. When you do, the critical is automatically confirmed. If both scored critical hits, expending one use of mythic power automatically confirms both."
+prerequisites = "Ride 1 rank, Mounted Combat."
+benefit = "When you attempt to overrun an opponent while mounted, your target may not choose to avoid you. Your mount may make one hoof attack against any target you knock down, gaining the standard +4 bonus on attack rolls against prone targets."
 +++
 
 ## Trample (Combat)

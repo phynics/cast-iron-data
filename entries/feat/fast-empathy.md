@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Fast Empathy."
-benefit = "You can use wild empathy as a swift action."
+prerequisites = "Handle Animal 5 ranks, wild empathy class feature."
+benefit = "Using wild empathy is a standard action for you."
 normal = "Using wild empathy requires 1 minute."
 +++
 

@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Powerful Maneuvers, base attack bonus +6, Str 13."
-benefit = "You receive a +2 bonus on checks made to bull rush a foe. This bonus stacks with the bonus granted by Powerful Maneuvers. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you)."
+prerequisites = "Improved Bull Rush, Power Attack, base attack bonus +6, Str 13."
+benefit = "You receive a +2 bonus on checks made to bull rush a foe. This bonus stacks with the bonus granted by Improved Bull Rush. Whenever you bull rush an opponent, his movement provokes attacks of opportunity from all of your allies (but not you)."
 normal = "Creatures moved by bull rush do not provoke attacks of opportunity."
 +++
 

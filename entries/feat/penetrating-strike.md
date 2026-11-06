@@ -10,9 +10,9 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Weapon Focus, base attack bonus +1, 12th-level fighter"
+prerequisites = "Weapon Focus, base attack bonus +1, 12th-level fighter, proficiency with weapon."
 prerequisite_feats = ["ref/feat/weapon-focus"]
-benefit = "Your attacks with weapons from the group in which you have Weapon Focus ignore up to 5 points of damage reduction. This feat does not apply to damage reduction without a type (such as DR 10/-)."
+benefit = "Your attacks with weapons selected with Weapon Focus ignore up to 5 points of damage reduction. This feat does not apply to damage reduction without a type (such as DR 10/-)."
 +++
 
 ## Penetrating Strike (Combat)

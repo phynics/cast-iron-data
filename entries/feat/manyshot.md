@@ -10,9 +10,9 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dex 17, Precise Shot, Rapid Shot, base attack bonus +6."
+prerequisites = "Dex 17, Rapid Shot, base attack bonus +6."
 prerequisite_feats = ["ref/feat/precise-shot", "ref/feat/rapid-shot"]
-benefit = "When making a full-attack action with a bow, crossbow, or sling, your first attack fires two projectiles. If the attack hits, both arrows, bolts, or bullets hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Strength bonuses apply to each projectile, as do other damage bonuses, such as a ranger's favored enemy bonus. Damage reduction and resistances apply separately to each arrow, bolt, or bullet."
+benefit = "When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger's favored enemy bonus. Damage reduction and resistances apply separately to each arrow."
 +++
 
 ## Manyshot (Combat)

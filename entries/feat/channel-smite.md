@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Channel Smite."
-benefit = "When using Channel Smite, you gain a bonus on your attack roll equal to the number of d6s granted by your channel energy class feature. This is either a sacred bonus (if channeling positive energy) or a profane bonus (if channeling negative energy). If your attack misses the target, you can expend one use of mythic power as a free action to release the channeled energy, producing the normal effects of your channel energy class feature centered on the creature you were attempting to smite."
+prerequisites = "Channel energy class feature."
+benefit = "Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a Will save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect."
 +++
 
 ## Channel Smite (Combat)

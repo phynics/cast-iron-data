@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Str 17, Distance Thrower."
-benefit = "Thrown weapons wielded by you have twice their normal range."
+prerequisites = "Str 13."
+benefit = "With a thrown weapon, you reduce your penalty on ranged attack rolls due to range by 2."
 +++
 
 ## Distance Thrower (Combat)

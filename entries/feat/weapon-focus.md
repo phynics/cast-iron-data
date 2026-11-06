@@ -10,9 +10,9 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Proficiency with at least one weapon from the selected weapon group, base attack bonus +1."
-benefit = "You gain a +1 bonus on all attack rolls you make using any weapon from the selected group."
-special = "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new weapon group."
+prerequisites = "Proficiency with selected weapon, base attack bonus +1."
+benefit = "You gain a +1 bonus on all attack rolls you make using the selected weapon."
+special = "You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of weapon."
 +++
 
 ## Weapon Focus (Combat)

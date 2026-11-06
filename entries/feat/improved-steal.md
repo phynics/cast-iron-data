@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Improved Steal."
-benefit = "You gain a bonus equal to half your tier on checks to attempt a steal combat maneuver, and to your CMD when an opponent attempts a steal combat maneuver on you. These bonuses stack with those granted by Improved Steal."
+prerequisites = "Int 13, Combat Expertise."
+benefit = "You do not provoke an attack of opportunity when performing a steal combat maneuver. In addition, you receive a +2 bonus on checks made to steal an item from a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to steal an item from you."
 normal = "You provoke an attack of opportunity when performing a steal combat maneuver."
 +++
 

@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Rhetorical Flourish."
-benefit = "When you successfully use Rhetorical Flourish against a non-mythic creature, the bonus on your Diplomacy check increases by your tier. If the target is a mythic creature, you instead increase the bonus by half your tier."
+prerequisites = "Cha 13, Persuasive."
+benefit = "When using the Diplomacy skill to make a request or change a creature's attitude, you can use verbal misdirection. To do so, make a Bluff check against that creature. If you succeed, you gain a +4 bonus on your next Diplomacy check against that creature if the check is made within the next minute. If you fail by 5 or more, you instead take a -2 penalty on your next Diplomacy check against that creature."
 +++
 
 **Sources:** Ultimate Combat pg 116

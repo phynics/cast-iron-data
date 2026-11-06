@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Improved Unarmed Strike."
-benefit = "You can add half your tier to your damage with unarmed strikes. As a swift action, you can expend one use of mythic power to overcome the hardness of objects with your unarmed strikes. This effect last for a number of rounds equal to your tier. If an object's hardness is greater than 15, you don't ignore any of its hardness."
+benefit = "You are considered to be armed even when unarmed - you do not provoke attacks of opportunity when you attack foes while unarmed. Your unarmed strikes can deal lethal or nonlethal damage, at your choice."
 normal = "Without this feat, you are considered unarmed when attacking with an unarmed strike, and you can deal only nonlethal damage with such an attack."
 +++
 

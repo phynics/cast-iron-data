@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Stealthy."
-benefit = "The bonus on Escape Artist and Stealth skill checks from Stealthy increases by 2. In addition, you can expend one use of mythic power to treat an Escape Artist or Stealth check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
+benefit = "You get a +2 bonus on all Escape Artist and Stealth skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill."
 +++
 
 **Sources:** PRPG Core Rulebook pg 135

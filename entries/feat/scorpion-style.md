@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Scorpion Style."
-benefit = "Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell slow, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds."
+prerequisites = "Improved Unarmed Strike."
+benefit = "To use this feat, you must make a single unarmed attack as a standard action. If this unarmed attack hits, you deal damage normally, and the target's base land speed is reduced to 5 feet for a number of rounds equal to your Wisdom modifier unless it makes a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier)."
 +++
 
 ## Scorpion Style (Combat)

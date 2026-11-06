@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Mobility."
-benefit = "Whenever you use Mobility, you gain a +6 dodge bonus to AC instead of the normal +4. In addition, once per round when an attack of opportunity provoked by your movement misses you, you may move 5 feet as a free action. This movement doesn't count against your total overall movement for the round, but it does provoke attacks of opportunity."
+prerequisites = "Dex 13, Dodge."
+benefit = "You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area. A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses."
 +++
 
 ## Mobility (Combat)

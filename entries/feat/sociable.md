@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Sociable."
-benefit = "You grant and benefit from the +2 bonus on Diplomacy checks from Sociable constantly without having to spend a move action. You can spend a move action to increase the bonus to +4 for a number of rounds equal to your tier."
+prerequisites = "Cha 13, half-elf."
+benefit = "As a move action, you grant all friendly creatures within 30 feet who can see or hear you (including yourself) a +2 bonus on Diplomacy checks for a number of rounds equal to your Charisma modifier (minimum 1 round)."
 +++
 
 **Sources:** Advanced Player's Guide pg 170

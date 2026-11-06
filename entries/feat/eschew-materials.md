@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Eschew Materials."
-benefit = "You can cast any spell with a material component costing 10 gp per tier or less without providing that component. If you expend one use of mythic power while casting a spell that requires a material component costing 50 gp per tier or less, you can cast it without providing that component. Expending two uses of mythic power instead allows you to cast a spell that requires a material component costing 100 gp per tier or less without providing that component."
+benefit = "You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal."
 +++
 
 **Sources:** PRPG Core Rulebook pg 123

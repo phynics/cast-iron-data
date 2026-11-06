@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Detect Expertise."
-benefit = "You gain the benefit of Detect Expertise immediately (without needing to observe a creature for 3 rounds) when using the divinations listed in Detect Expertise. Non-mythic creatures cannot attempt a Will save to resist this effect."
+prerequisites = "Int 13; ability to cast detect chaos, detect evil, detect good, detect law, or detect magic."
+benefit = "When you use any of the spells listed in this feat's prerequisites to detect a creature's alignment or its magic, you have a chance of detecting what spellcasting expertise it has. After you observe a creature with the detect spell for 3 rounds, it must make a Will save (DC 10 + 1/2 your caster level + your Intelligence modifier). If it fails the saving throw, you learn what bloodlines, domains, hexes, schools, or mysteries (if any) the creature possesses. If the creature makes its save, it is immune to the effects of this feat for 24 hours."
 +++
 
 **Sources:** Ultimate Magic pg 148

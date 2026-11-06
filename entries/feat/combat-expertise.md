@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Combat Expertise."
-benefit = "Whenever you use Combat Expertise, you gain an additional +2 dodge bonus to your Armor Class. You can expend one use of mythic power to negate the penalties on melee attack rolls and combat maneuver checks caused by using Combat Expertise for 1 minute."
+prerequisites = "Int 13."
+benefit = "You can choose to take a -1 penalty on melee attack rolls and combat maneuver checks to gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by -1 and the dodge bonus increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn."
 +++
 
 ## Combat Expertise (Combat)

@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Ride-By Attack]."
-benefit = "When you successfully strike an opponent as part of a Ride-By Attack, you can continue to make attacks against successive targets. You can make one additional attack per 3 tiers you possess, but you can't make more attacks than you could if you were making a full attack. Successive attacks use the lower bonus for multiple attacks, as when making a full attack. You must move at least 10 feet between each attack."
+prerequisites = "Ride 1 rank, Mounted Combat."
+benefit = "When you are mounted and use the charge action, you may move and attack as if with a standard charge and then move again (continuing the straight line of the charge). Your total movement for the round can't exceed double your mounted speed. You and your mount do not provoke an attack of opportunity from the opponent that you attack."
 +++
 
 ## Ride-By Attack (Combat)

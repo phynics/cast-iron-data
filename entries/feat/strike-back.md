@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Strike Back."
-benefit = "When you make a melee attack as a readied action against a foe outside your melee reach, you can take a 5-foot step toward that foe. If you expend one use of mythic power, you can move your speed toward the foe instead. Neither of these counts toward the movement made during your turn."
+prerequisites = "Base attack bonus +11."
+benefit = "You can ready an action to make a melee attack against any foe that attacks you in melee, even if the foe is outside of your reach."
 +++
 
 ## Strike Back (Combat)

@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Intimidating Prowess."
-benefit = "You gain a bonus on Intimidate checks equal to your tier against non-mythic creatures, or half your tier against mythic creatures. If you also have the Mythic Persuasive feat, you can expend one use of mythic power to treat the Intimidate check as if you had rolled a natural 20. You must decide to use this ability before the roll is made."
+benefit = "Add your Strength modifier to Intimidate skill checks in addition to your Charisma modifier."
 special = "An animal companion can't take both Ferocious Beast and Intimidating Prowess."
 +++
 

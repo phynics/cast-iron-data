@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Tripping Staff."
-benefit = "You add half your tier to CMD against trip maneuvers and on combat maneuver checks to trip with a quarterstaff. When you're wielding a quarterstaff and an opponent you threaten attempts to trip you and fails, it provokes an attack of opportunity from you. You must use your staff for this attack of opportunity."
+prerequisites = "Int 13, Combat Expertise, Improved Trip, base attack bonus +6."
+benefit = "You treat quarterstaves as if they had the trip special feature."
 special = "If you are a magus with the staff magus archetype, you can use spellstrike on any trip combat maneuver you make with the staff."
 +++
 

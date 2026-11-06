@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Improved Familiar."
-benefit = "For every 3 tiers you possess, your familiar gains a +2 bonus to an ability score of your choice. These bonuses stack. Your familiar adds your tier to its natural armor bonus and to its spell resistance (if it has spell resistance)."
+prerequisites = "Ability to acquire a new familiar, compatible alignment, sufficiently high level."
+benefit = "When choosing a familiar, the creatures listed here are also available to you. You may choose a familiar with an alignment up to one step away on each alignment axis (lawful through chaotic, good through evil)."
 +++
 
 **Sources:** PRPG Core Rulebook pg 127

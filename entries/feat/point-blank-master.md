@@ -10,9 +10,9 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Weapon Specialization with selected weapon group."
+prerequisites = "Weapon Specialization with selected ranged weapon."
 prerequisite_feats = ["ref/feat/weapon-specialization"]
-benefit = "Choose the bows, crossbows, or thrown group listed under the fighter's Weapon Training class feature. You do not provoke attacks of opportunity when firing the selected weapon while threatened."
+benefit = "Choose one type of ranged weapon. You do not provoke attacks of opportunity when firing the selected weapon while threatened."
 normal = "Using a ranged weapon while you are threatened provokes attacks of opportunity."
 special = "Starting at 6th level, a ranger with the archery combat style may select Point Blank Master as a combat style feat, but he must have Weapon Focus instead of Weapon Specialization in the selected weapon."
 +++

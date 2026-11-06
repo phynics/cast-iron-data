@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Fire Music."
-benefit = "When you use Fire Music to change any of the damage dealt by a bard spell to fire damage, that damage ignores fire resistance up to your tier."
+prerequisites = "Spellcraft 5 ranks, ability to cast bard spells, ability to cast an arcane fire spell from some other spellcasting class."
+benefit = "When you cast a bard spell that deals damage, you may replace the spell's normal damage with fire damage or split the spell's damage so that half of it is the normal damage type and half is fire damage."
 +++
 
 **Sources:** Ultimate Magic pg 150

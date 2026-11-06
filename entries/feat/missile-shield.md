@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Missile Shield."
-benefit = "When using Missile Shield, you can deflect an additional number of ranged attacks per round equal to half your tier. You can expend one use of mythic power as an immediate action to deflect a single ray from a ray spell or effect targeting you."
+prerequisites = "Dex 13, Shield Focus."
+benefit = "You must be using a light, heavy, or tower shield to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon (not including spell effects, natural attacks, or massive ranged weapons), you may deflect it so that you take no damage, as if you had the Deflect Arrows feat. You must be aware of the attack and not flat-footed."
 +++
 
 ## Missile Shield (Combat)

@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Undead Master."
-benefit = "When you cast *animate dead* or use the Command Undead feat, add your tier to your caster level when determining the number of Hit Dice of undead you animate. This stacks with the increased caster level of Undead Master. When you cast *command undead,* your duration is tripled rather than doubled."
+prerequisites = "Spell Focus (necromancy), the ability to cast animate dead or command undead."
+benefit = "When you cast animate dead or use the Command Undead feat, you are considered to be four levels higher when determining the number of Hit Dice you animate. When you cast command undead, your duration is doubled."
 +++
 
 **Sources:** Ultimate Magic pg 158

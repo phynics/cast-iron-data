@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Deadly Aim."
-benefit = "When you use Deadly Aim, you gain a +3 bonus on ranged damage rolls instead of +2. When your base attack bonus reaches +4, and every +4 thereafter, the bonus on ranged damage rolls increases by +3 rather than +2."
+prerequisites = "Dex 13, base attack bonus +1."
+benefit = "You can choose to take a -1 penalty on all ranged attack rolls to gain a +2 bonus on all ranged damage rolls. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by -1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage."
 +++
 
 ## Deadly Aim (Combat)

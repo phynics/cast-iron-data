@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Fleet."
-benefit = "Your base land speed increases by 5 feet, regardless of what armor you wear or whether you're encumbered. This bonus stacks with the bonus gained from Fleet."
-special = "You can take this feat multiple times, but no more than the number of times you've taken non-mythic Fleet. The effects stack."
+benefit = "While you are wearing light or no armor, your base speed increases by 5 feet. You lose the benefits of this feat if you carry a medium or heavy load."
+special = "You can take this feat multiple times. The effects stack."
 +++
 
 **Sources:** PRPG Core Rulebook pg 124

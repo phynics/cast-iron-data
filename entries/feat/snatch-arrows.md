@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dex 15, Deflect Arrows, Unarmed Combatant."
+prerequisites = "Dex 15, Deflect Arrows, Improved Unarmed Strike."
 prerequisite_feats = ["ref/feat/deflect-arrows"]
 benefit = "When using the Deflect Arrows feat you may choose to catch the weapon instead of just deflecting it. Thrown weapons can immediately be thrown back as an attack against the original attacker (even though it isn't your turn) or kept for later use."
 +++

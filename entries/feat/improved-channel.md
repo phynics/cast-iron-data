@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Improved Channel."
-benefit = "Non-mythic creatures that take damage from your channel energy must roll their saving throws twice and take the lower result."
+prerequisites = "Channel energy class feature."
+benefit = "Add 2 to the DC of saving throws made to resist the effects of your channel energy ability."
 +++
 
 **Sources:** PRPG Core Rulebook pg 126

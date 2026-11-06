@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Improved Initiative."
-benefit = "The bonus on initiative checks granted by Improved Initiative increases by an amount equal to your tier. This bonus stacks with the bonus from Improved Initiative. In addition, instead of rolling initiative, you can expend one use of mythic power to treat your roll as a natural 20."
+benefit = "You get a +4 bonus on initiative checks."
 +++
 
 ## Improved Initiative (Combat)

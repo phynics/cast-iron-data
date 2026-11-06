@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Deft Maneuvers, base attack bonus +6, Int 13."
-benefit = "You receive a +2 bonus on checks made to disarm a foe. This bonus stacks with the bonus granted by Deft Manauvers. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction."
+prerequisites = "Combat Expertise, Improved Disarm, base attack bonus +6, Int 13."
+benefit = "You receive a +2 bonus on checks made to disarm a foe. This bonus stacks with the bonus granted by Improved Disarm. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction."
 normal = "Disarmed weapons and gear land at the feet of the disarmed creature."
 +++
 

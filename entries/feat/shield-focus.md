@@ -12,7 +12,7 @@ kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Shield Proficiency, base attack bonus +1."
 prerequisite_feats = ["ref/feat/shield-proficiency"]
-benefit = "Increase the AC bonus granted by any shield you are using by 1. This bonus increases to 5 against ranged attacks (not including spell effects, natural attacks, or massive ranged weapons)."
+benefit = "Increase the AC bonus granted by any shield you are using by 1."
 +++
 
 ## Shield Focus (Combat)

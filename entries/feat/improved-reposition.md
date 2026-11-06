@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Improved Reposition."
-benefit = "You gain a bonus equal to half your tier on checks to attempt a reposition combat maneuver, and to your CMD when an opponent attempts to perform a reposition combat maneuver against you. These bonuses stack with those granted by Improved Reposition."
+prerequisites = "Int 13, Combat Expertise."
+benefit = "You do not provoke an attack of opportunity when performing a reposition combat maneuver. In addition, you receive a +2 bonus on checks made to reposition a foe. You also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to reposition you."
 normal = "You provoke an attack of opportunity when performing a reposition combat maneuver."
 +++
 

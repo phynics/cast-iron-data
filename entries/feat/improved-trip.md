@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Improved Trip."
-benefit = "You gain a bonus equal to half your tier on checks to trip, and to your CMD when an opponent tries to trip you. These bonuses stack with those granted by Improved Trip."
+prerequisites = "Int 13, Combat Expertise."
+benefit = "You do not provoke an attack of opportunity when performing a trip combat maneuver. In addition, you receive a +2 bonus on checks made to trip a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to trip you."
 normal = "You provoke an attack of opportunity when performing a trip combat maneuver."
 +++
 

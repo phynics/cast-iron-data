@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Saving Shield."
-benefit = "The shield bonus you grant an ally with Saving Shield increases to +3. If you use Saving Shield to successfully negate an attack against an adjacent ally, you can immediately make an attack of opportunity against the attacker so long as it is within your melee reach."
+prerequisites = "Shield Proficiency."
+benefit = "Whenever an adjacent ally is the target of an attack, you can, as an immediate action, grant that adjacent ally a +2 shield bonus to AC. You must be wielding a light shield, heavy shield, or tower shield to use this feat."
 +++
 
 ## Saving Shield (Combat)

@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 prerequisites = "Augment Summoning."
-benefit = "Any creature you summon using a *summon* spell is considered mythic for the purpose of interacting with other mythic creatures. It doesn't gain any mythic abilities or power, but is affected by mythic spells and abilities as if it were a 1st-tier mythic creature. Additionally, if the creature summoned has damage reduction, its damage reduction becomes DR/epic."
+benefit = "Each creature you conjure with any summon spell gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it."
 +++
 
 **Sources:** PRPG Core Rulebook pg 118

@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Weapon Finesse."
-benefit = "When using Weapon Finesse, you may also use your Dexterity modifier instead of your Strength modifier on your damage rolls. If you carry a shield, its armor check penalty doesn't apply to either the attack rolls or the damage rolls."
+benefit = "With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls."
 special = "Natural weapons are considered light weapons."
 +++
 

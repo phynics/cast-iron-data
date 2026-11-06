@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Spell Mastery."
-benefit = "You can prepare spells you have selected with Spell Mastery as a full-round action. You must spend the appropriate amount of time preparing other spells you have not mastered. As a full-round action, you can expend one use of mythic power to prepare all your spells that you have selected with Spell Mastery."
+prerequisites = "1st-level wizard"
+benefit = "Each time you take this feat, choose a number of spells that you already know equal to your Intelligence modifier. From that point on, you can prepare these spells without referring to a spellbook."
 normal = "Without this feat, you must use a spellbook to prepare all your spells, except read magic."
 +++
 

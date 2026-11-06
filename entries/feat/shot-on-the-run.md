@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dex 13, Dodge, Precise Shot, base attack bonus +4."
+prerequisites = "Dex 13, Dodge, Mobility, base attack bonus +4."
 prerequisite_feats = ["ref/feat/dodge", "ref/feat/precise-shot"]
 benefit = "As a full-round action, you can move up to your speed and make a single ranged attack at any point during your movement."
 normal = "You cannot move before and after an attack with a ranged weapon."

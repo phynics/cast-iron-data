@@ -10,9 +10,9 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Dex 15, Two-Weapon Fighting, base attack bonus +6."
+prerequisites = "Dex 19, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11."
 prerequisite_feats = ["ref/feat/two-weapon-fighting"]
-benefit = "In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a -5 penalty. When your base attack bonus reaches +11, you also gain a third attack with your off-hand weapon, albeit at a -10 penalty."
+benefit = "You get a third attack with your off-hand weapon, albeit at a -10 penalty."
 normal = "Without this feat, you can only get a single extra attack with an off-hand weapon."
 +++
 
