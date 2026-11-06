@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "class"
+class_type = "alternate"
 hit_die = "d8"
 skill_ranks = "8 + Int modifier"
 +++
