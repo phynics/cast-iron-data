@@ -13,7 +13,6 @@ feat_types = ["Combat"]
 prerequisites = "Dex 19, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11."
 prerequisite_feats = ["ref/feat/two-weapon-fighting"]
 benefit = "You get a third attack with your off-hand weapon, albeit at a -10 penalty."
-normal = "Without this feat, you can only get a single extra attack with an off-hand weapon."
 +++
 
 ## Greater Two-Weapon Fighting (Combat)

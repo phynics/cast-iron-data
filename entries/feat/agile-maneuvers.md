@@ -12,7 +12,6 @@ kind = "feat"
 feat_types = ["Combat"]
 benefit = "You add your Dexterity bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus instead of your Strength bonus."
 normal = "You add your Strength bonus to your base attack bonus and size bonus when determining your Combat Maneuver Bonus."
-special = "With or without this feat, when you are using a finesse weapon, you may use your Dexterity bonus in place of your Strength bonus when attempting a disarm, sunder, or trip maneuver."
 +++
 
 ## Agile Maneuvers (Combat)

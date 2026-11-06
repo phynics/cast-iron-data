@@ -10,8 +10,6 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Precise Shot."
-prerequisite_feats = ["ref/feat/precise-shot"]
 benefit = "You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet."
 +++
 

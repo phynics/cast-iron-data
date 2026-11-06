@@ -9,7 +9,6 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Great Fortitude."
 benefit = "You get a +2 bonus on all Fortitude saving throws."
 +++
 

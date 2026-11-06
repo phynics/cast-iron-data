@@ -10,7 +10,6 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Throw Anything."
 benefit = "You do not suffer any penalties for using an improvised ranged weapon. You receive a +1 circumstance bonus on attack rolls made with thrown splash weapons."
 normal = "You take a -4 penalty on attack rolls made with an improvised weapon."
 +++

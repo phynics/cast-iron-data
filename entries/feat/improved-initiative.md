@@ -10,7 +10,6 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Improved Initiative."
 benefit = "You get a +4 bonus on initiative checks."
 +++
 
