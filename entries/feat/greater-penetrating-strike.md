@@ -12,7 +12,7 @@ kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Penetrating Strike, Weapon Focus, 16th-level fighter."
 prerequisite_feats = ["ref/feat/penetrating-strike", "ref/feat/weapon-focus"]
-benefit = "Your attacks with weapons from the group in which you have Weapon Focus ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-)."
+benefit = "Your attacks with weapons selected with Weapon Focus ignore up to 10 points of damage reduction. This amount is reduced to 5 points for damage reduction without a type (such as DR 10/-)."
 +++
 
 ## Greater Penetrating Strike (Combat)

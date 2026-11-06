@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Gnome Trickster."
-benefit = "You gain the following spell-like abilities: 1/day-blur and vanish."
+prerequisites = "Cha 13, gnome, gnome magic racial trait."
+benefit = "In addition to your normal gnome spell-like abilities, you also gain the following spell-like abilities: 1/day-mage hand and prestidigitation."
 +++
 
 **Sources:** Advanced Player's Guide pg 161
