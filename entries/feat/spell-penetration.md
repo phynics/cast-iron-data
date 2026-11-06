@@ -9,7 +9,6 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Spell Penetration."
 benefit = "You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's spell resistance."
 +++
 

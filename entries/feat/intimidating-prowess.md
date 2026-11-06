@@ -10,7 +10,6 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Intimidating Prowess."
 benefit = "Add your Strength modifier to Intimidate skill checks in addition to your Charisma modifier."
 special = "An animal companion can't take both Ferocious Beast and Intimidating Prowess."
 +++

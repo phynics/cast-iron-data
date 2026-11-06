@@ -11,7 +11,6 @@ provenance = [
 kind = "feat"
 prerequisites = "Cha 13, must be taken at 1st level."
 benefit = "You gain a +2 bonus on all Knowledge (nobility) checks, and that chosen Knowledge skill is always considered a class skill for you."
-special = "You cannot take this feat if you have the [Taldor variant](feat/noble_scion_taldor_variant) of this feat, and vice versa."
 +++
 
 **Sources:** Inner Sea World Guide pg 288

@@ -9,7 +9,6 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Iron Will."
 benefit = "You get a +2 bonus on all Will saving throws."
 +++
 

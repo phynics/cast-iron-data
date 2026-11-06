@@ -9,7 +9,6 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Lightning Reflexes."
 benefit = "You get a +2 bonus on all Reflex saving throws."
 +++
 

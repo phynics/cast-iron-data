@@ -9,7 +9,6 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Strong Comeback."
 benefit = "Whenever you are allowed to reroll an ability check, a skill check, or a saving throw, you gain a +2 circumstance bonus on the reroll."
 +++
 
