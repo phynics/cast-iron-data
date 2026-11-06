@@ -16,7 +16,7 @@ benefit = "Each creature you conjure with any summon spell gains a +4 enhancemen
 **Sources:** PRPG Core Rulebook pg 118
 
 Your summoned creatures are more powerful and robust.\
-**Prerequisites** [Spell Focus](ref/feat/spell-focus) (conjuration).\
+**Prerequisites:** [Spell Focus](ref/feat/spell-focus) (conjuration).\
 **Benefit:** Each creature you conjure with any
 _[summon](ref/carried/bestiary/rules/universal-monster-rules/summon)_ spell gains a +4 enhancement
 bonus to Strength and Constitution for the duration of the spell that summoned it.
