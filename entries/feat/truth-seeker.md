@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have visited a ruin or forgotten place that has been abandoned for at least five times as long as you've been alive."
-benefit = "Whenever you pass within 10 feet of a secret door, you receive an immediate Perception check to notice the passage. This check should be made in secret by the GM. In addition, whenever you attempt a Will save to disbelieve an illusion, you may roll twice and take the better result."
+benefit = "You gain a +2 bonus on all Knowledge (history) checks. If you have 10 or more ranks in Knowledge (history), this bonus increases to +4."
 +++
 
 ## Truth-Seeker (Story)

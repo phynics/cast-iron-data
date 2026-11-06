@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have crossed at least 30 miles of wilderness without map or guide."
-benefit = "You and one ally per 3 ranks of Survival can move overland without being slowed by difficult terrain (allies must remain within 30 feet of you to be affected). Once per day, you can make a preternaturally accurate estimate regarding your path, as if you had cast find the path on yourself (caster level equals your character level)."
+benefit = "You can provide twice as much food and water for other people when attempting a Survival check to get along in the wild. In addition, you gain a +2 bonus on all Knowledge (geography) checks. If you have 10 or more ranks in Knowledge (geography), increase your bonus to +4."
 +++
 
 ## Explorer (Story)

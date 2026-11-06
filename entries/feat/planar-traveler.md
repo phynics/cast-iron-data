@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must be related to an outsider or have been born on a plane other than the Material Plane."
-benefit = "Whenever you cast a spell or use a magic item to travel to another plane, you always arrive exactly where you had intended. In addition, when identifying portals with the first benefit of this feat, you gain a glimpse of what you would see, hear, and smell upon arriving on the other end of the portal."
+benefit = "You gain a +2 bonus on Survival checks when outside your home plane. You can identify portals and other planar connections as well as where they lead by sight or touch with a successful DC 20 Perception check."
 +++
 
 ## Planar Traveler (Story)

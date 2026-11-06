@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have been defeated and robbed of at least half your possessions by a particular group of humanoids or monstrous humanoids, or have the An Eye for an Eye (ranger), Hated Foe (barbarian), or Vengeance (barbarian) class background, or the Raiders [childhood event background](rule/birth_circumstances_and_more). You may choose a specific race, such as duergar, or a broader group, such as goblinoids. At the GM's discretion, you may instead choose residents of a particular country, settlement, or tribe."
-benefit = "You gain the benefits of the Improved Critical feat on attacks made against members of your chosen race. Your dodge bonus to AC against such foes increases to +2."
+benefit = "The save DCs for any of your spells or abilities increase by 1 when used against the chosen group, and you receive a +1 dodge bonus to AC against their attacks."
 +++
 
 ## Foeslayer (Story)
