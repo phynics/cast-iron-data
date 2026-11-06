@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Combat Reflexes."
-benefit = "You can make any number of additional attacks of opportunity per round. As a swift action, you can expend one use of mythic power to, until the start of your next turn, make attacks of opportunity against foes you've already made attacks of opportunity against this round if they provoke attacks of opportunity from you by moving."
+benefit = "You may make a number of additional attacks of opportunity per round equal to your Dexterity bonus. With this feat, you may also make attacks of opportunity while flat-footed."
 normal = "A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed."
 special = "The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round."
 +++

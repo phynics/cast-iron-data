@@ -9,8 +9,8 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Aspect of the Beast."
-benefit = "Your bestial nature manifests itself in one of the following ways. You choose the manifestation when you choose the feat, and you can't change it."
+prerequisites = "wild shape class feature, see Special."
+benefit = "Your bestial nature manifests itself in one of the following ways. You choose the manifestation when you choose the feat, and then you cannot change it."
 special = "A character that has contracted lycanthropy can take this feat without having to meet the prerequisites. A ranger who selects the natural weapon combat style can take this feat without having to meet the prerequisites (even if he does not select Aspect of the Beast as a bonus feat)."
 +++
 

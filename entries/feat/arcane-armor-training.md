@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Arcane Armor Training."
-benefit = "You don't have to spend a swift action to gain the reduction to arcane spell failure chance from Arcane Armor Training. Furthermore, if you're wearing light armor, reduce your arcane spell failure chance by 20%."
+prerequisites = "Light Armor Proficiency, caster level 3rd."
+benefit = "As a swift action, reduce the arcane spell failure chance due to the armor you are wearing by 10% for any spells you cast this round."
 +++
 
 ## Arcane Armor Training (Combat)
