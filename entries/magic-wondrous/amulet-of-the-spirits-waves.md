@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "8,000 gp (Heavens), 8,000 gp (Wind), 10,000 gp (Flame), 10,000 gp (Stone), 10,000 gp (Waves), 12,000 gp (Battle), 12,000 gp (Bones), 12,000 gp (Life)"
 weight = "1 lb."
 slot = "neck"

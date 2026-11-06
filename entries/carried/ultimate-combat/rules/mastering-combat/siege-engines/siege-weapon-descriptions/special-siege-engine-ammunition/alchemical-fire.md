@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Siege Engines"
 +++
 
 This hard, ceramic canister of alchemist's fire can be used as ammunition in catapults and

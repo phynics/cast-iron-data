@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Technological Gear"
 price = "1,000 gp (black), 50,000 gp (blue), 500 gp (brown), 4,000 gp (gray), 30,000 gp (green), 60,000 gp (orange), 90,000 gp (prismatic), 40,000 gp (red), 2,000 gp (white)"
 weight = "1 lb. (all)"
 slot = "none"

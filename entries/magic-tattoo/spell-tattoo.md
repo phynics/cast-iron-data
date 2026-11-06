@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Magic Tattoos"
 price = "varies"
 weight = "-"
 slot = "none"

@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "shoulders"
+category = "Other Magic Items"
 price = "Varies"
 weight = "1 lb."
 slot = "shoulders"

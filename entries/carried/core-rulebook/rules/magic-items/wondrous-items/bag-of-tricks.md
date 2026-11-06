@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "3,400 gp (gray); 8,500 gp (rust); 16,000 gp (tan)"
 slot = "none"
 aura = "faint (gray or rust) or moderate (tan) conjuration"

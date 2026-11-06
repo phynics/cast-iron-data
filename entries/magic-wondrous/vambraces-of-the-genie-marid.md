@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "14,400 gp (Efreeti), 18,900 gp (Djinni), 18,900 gp (Marid), 18,900 gp (Shaitan)"
 weight = "3 lbs."
 slot = "wrists"

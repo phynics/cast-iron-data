@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Magic Weapons"
 price = "2,282 gp (slaying arrow) or 4,057 gp (greater slaying arrow)"
 weight = "1/10 lb."
 slot = "none"

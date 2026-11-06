@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Spellbooks"
 +++
 
 ### Level 2 Diviner

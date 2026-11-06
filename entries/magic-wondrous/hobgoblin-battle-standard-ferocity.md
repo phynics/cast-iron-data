@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "45,000 gp (Iron Resolve), 50,000 gp (Despair), 60,000 gp (Ferocity)"
 weight = "3 lbs."
 slot = "none"

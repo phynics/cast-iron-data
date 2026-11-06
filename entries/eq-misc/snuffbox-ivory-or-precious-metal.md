@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "25 gp (bone or tortoise shell), 300 gp (ivory or precious metal), 5 gp (tin or wood)"
 weight = "- (bone or tortoise shell), - (ivory or precious metal), - (tin or wood)"
 +++

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Special Materials"
 +++
 
 **Sources:** Armor Master's Handbook pg 31, The Dragon's Demand pg 35

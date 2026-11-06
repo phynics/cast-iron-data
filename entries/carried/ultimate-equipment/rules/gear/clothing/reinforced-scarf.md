@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Item"
+category = "Clothing"
 price = "10 gp"
 weight = "1 lb.*"
 attributes = [

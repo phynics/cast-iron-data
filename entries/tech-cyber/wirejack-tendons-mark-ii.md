@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Cybertech"
 price = "8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)"
 weight = "10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)"
 slot = "body"

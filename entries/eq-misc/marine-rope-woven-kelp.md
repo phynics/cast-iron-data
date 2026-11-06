@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "10 gp (treated hemp), 20 gp (woven kelp)"
 weight = "12 lbs. (treated hemp), 5 lbs. (woven kelp)"
 +++

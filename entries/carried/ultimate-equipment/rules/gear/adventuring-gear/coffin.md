@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Item"
+category = "Adventuring Gear"
 attributes = [
   { label = "Gear Type", value = "Item" },
   { label = "Common: Price", value = "10 gp" },

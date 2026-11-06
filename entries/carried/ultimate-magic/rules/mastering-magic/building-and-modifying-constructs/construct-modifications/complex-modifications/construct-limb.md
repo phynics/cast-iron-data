@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Construct Modifications"
 attributes = [
   { label = "Construct Limb: CR Increase", value = ": none" },
   { label = "Construct Limb: Cost", value = ": 27,000 gp" },

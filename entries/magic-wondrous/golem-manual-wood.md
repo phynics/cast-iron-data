@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "3,000 gp (Junk), 4,000 gp (Wax), 5,000 gp (Ice), 6,000 gp (Wood), 8,000 gp (Flesh), 10,000 gp (Alchemical), 10,000 gp (Glass), 12,000 gp (Bone), 12,000 gp (Clay), 15,000 gp (Sand), 17,500 gp (Coral), 20,000 gp (Lead), 22,000 gp (Stone), 30,000 gp (Carrion), 35,000 gp (Clockwork), 35,000 gp (Iron), 37,500 gp (Fossil), 40,000 gp (Crystal), 40,000 gp (Obsidian), 44,000 gp (Stone Guardian), 55,000 gp (Brass), 60,000 gp (Cannon), 65,000 gp (Dragonhide), 65,000 gp (Gold), 70,000 gp (Blood), 75,000 gp (Viridium), 80,000 gp (Mithral), 90,000 gp (Inubrix), 125,000 gp (Adamantine), 150,000 gp (Quintessence)"
 weight = "5 lbs."
 slot = "none"

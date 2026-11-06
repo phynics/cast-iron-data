@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "4,500 gp (battle), 2,200 gp (honor), 4,500 (parley)"
 weight = "1 lb."
 slot = "none"

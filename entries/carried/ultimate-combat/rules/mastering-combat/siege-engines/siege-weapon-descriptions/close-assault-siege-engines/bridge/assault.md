@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Close Assault Engines"
+category = "Siege Engines"
 attributes = [
   { label = "Colossal: Price", value = "250 gp" },
   { label = "Gear Type", value = "Close Assault Engines" },

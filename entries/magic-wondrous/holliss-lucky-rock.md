@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "35,000 gp"
 slot = "none"
 aura = "moderate enchantment and evocation"

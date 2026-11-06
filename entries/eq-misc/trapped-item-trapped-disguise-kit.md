@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "50 gp (trapped disguise kit), 40 gp (trapped scroll case)"
 weight = "8 lbs. (trapped disguise kit), 1 lb. (trapped scroll case)"
 +++

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "5 cp (common), 12 gp (Nex gecko)"
 weight = "2 oz. (common), 4 oz. (Nex gecko)"
 +++

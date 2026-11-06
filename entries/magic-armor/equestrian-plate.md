@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Magic Armor"
 price = "10,650 gp"
 weight = "50 lbs. (full plate), 35 lbs. (banded mail), 70 lbs. (barding)"
 slot = "armor"

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire)"
 weight = "- (decoy pressure switch), - (decoy trap door), - (decoy tripwire)"
 +++

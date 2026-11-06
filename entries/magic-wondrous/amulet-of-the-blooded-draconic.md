@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "10,000 gp (Destined), 10,000 gp (Fey), 12,000 gp (Abyssal), 12,000 gp (Accursed), 12,000 gp (Celestial), 12,000 gp (Draconic), 12,000 gp (Elemental), 12,000 gp (Infernal), 12,000 gp (Undead), 15,000 gp (Aberrant)"
 weight = "1 lb."
 slot = "neck"

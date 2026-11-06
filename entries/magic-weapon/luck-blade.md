@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Magic Weapons"
 price = "0 wishes (22,060 gp), 1 wish (62,360 gp), 2 wishes (102,660 gp), 3 wishes (142,960 gp)"
 weight = "2 lbs."
 slot = "none"

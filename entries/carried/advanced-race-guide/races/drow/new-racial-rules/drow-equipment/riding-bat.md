@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Mount"
+category = "Mounts and Related Gear"
 attributes = [
   { label = "Gear Type", value = "Mount" },
   { label = "Weight", value = "—" },

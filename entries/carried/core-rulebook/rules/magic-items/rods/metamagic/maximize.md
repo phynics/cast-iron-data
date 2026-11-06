@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Rods"
 price = "14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater)"
 weight = "5 lbs."
 slot = "none"

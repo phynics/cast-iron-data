@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "6,000 gp (Eyes), 8,000 gp (Hair), 8,000 gp (Horn), 9,000 gp (Claws), 9,000 gp (Scales), 12,000 gp (Bones), 12,000 gp (Teeth)"
 weight = "-"
 slot = "neck"

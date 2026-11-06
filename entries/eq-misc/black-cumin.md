@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "15 gp (Black cumin), 20 gp (Flaming sumac), 30 gp (Golden cardamom), 100 gp (Striped nutmeg), 15 gp (Sunrise cinnamon), 25 gp (Tiger cloves), 5 gp (Violet salt)"
 weight = "-"
 +++

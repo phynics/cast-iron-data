@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "1,000 gp (1st-level), 4,000 gp (2nd-level), 9,000 gp (3rd-level), 16,000 gp (4th-level), 25,000 gp (5th-level), 36,000 gp (6th-level), 49,000 gp (7th-level), 64,000 gp (8th-level), 81,000 gp (9th-level)"
 weight = "-"
 slot = "none"

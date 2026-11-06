@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "1 gp, 2,501 gp (mithral)"
 weight = "5 lbs., 2-1/2 lbs. (mithral)"
 +++

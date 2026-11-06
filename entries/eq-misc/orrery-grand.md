@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium)"
 weight = "12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs. (standard), 2 lbs. (tellurium)"
 +++

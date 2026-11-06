@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Rings"
 price = "14,800 gp"
 slot = "ring"
 aura = "moderate abjuration and enchantment"

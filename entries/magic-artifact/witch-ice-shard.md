@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Artifacts"
 price = "lesser artifact"
 weight = "-"
 slot = "none"

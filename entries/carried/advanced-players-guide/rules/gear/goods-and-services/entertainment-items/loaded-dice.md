@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Entertainment Items"
+category = "Entertainment and Trade Goods"
 attributes = [
   { label = "Gear Type", value = "Entertainment Items" },
   { label = "Weight", value = "—" },

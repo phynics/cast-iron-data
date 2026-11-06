@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "25 gp (Cantrip), 150 gp (1st-level Spell), 375 gp (2nd-Level Spell), 700 gp (3rd-Level Spell), 1,125 gp (4th-Level Spell), 1,650 gp (5th-Level Spell), 2,275 gp (6th-Level Spell), 3,000 gp (7th-Level Spell), 3,825 gp (8th-Level Spell)"
 weight = "1 lb."
 slot = "none"

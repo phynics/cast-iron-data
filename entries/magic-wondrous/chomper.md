@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 weight = "15 lbs."
 slot = "none"
 aura = "strong conjuration"

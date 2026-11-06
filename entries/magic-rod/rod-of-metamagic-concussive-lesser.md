@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Rods"
 price = "9,000 gp (lesser [up to 3rd-level spells]), 32,500 gp (normal [up to 6th-level spells]), 73,000 gp (greater [all spells])"
 weight = "5 lbs."
 slot = "none"

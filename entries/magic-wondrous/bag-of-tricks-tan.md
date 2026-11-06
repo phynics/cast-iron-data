@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "3,400 gp (Gray), 4,500 gp (Aquamarine), 8,500 gp (Rust), 16,000 gp (Tan)"
 weight = "1 lb."
 slot = "none"

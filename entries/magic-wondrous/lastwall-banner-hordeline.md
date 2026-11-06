@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "7,500 gp (Hordeline), 15,000 gp (Harchist), 125,000 gp (Sunwall)"
 weight = "3 lbs."
 slot = "none"

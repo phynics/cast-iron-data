@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Construct Modifications"
 aura = "moderate necromancy"
 caster_level = "7th"
 +++

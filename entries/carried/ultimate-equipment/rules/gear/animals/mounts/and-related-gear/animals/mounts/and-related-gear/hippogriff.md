@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Mounts and Related Gear"
 price = "5,000 gp"
 weight = "500 lbs."
 +++

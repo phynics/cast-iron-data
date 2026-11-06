@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "257 gp (abberation), 224 gp (fey), 232 gp (ooze), 202 gp (regular)"
 weight = "15 1/2 lbs. (abberation), 15 1/2 lbs. (fey), 17 lbs. (ooze), 15 lbs. (regular)"
 +++

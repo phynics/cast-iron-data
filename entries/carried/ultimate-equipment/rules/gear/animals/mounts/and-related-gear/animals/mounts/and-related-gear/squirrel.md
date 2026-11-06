@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Animal"
+category = "Mounts and Related Gear"
 attributes = [
   { label = "Gear Type", value = "Animal" },
   { label = "Flying: Price", value = "20 gp" },

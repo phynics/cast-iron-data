@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "5,000 gp (10-ft.-by-15-ft.), 15,000 gp (15-ft.-by-30-ft.), 20,000 gp (15-ft.-by-40-ft.), 32,000 gp (20-ft.-by-50-ft.)"
 weight = "20-50 lbs."
 slot = "none"
