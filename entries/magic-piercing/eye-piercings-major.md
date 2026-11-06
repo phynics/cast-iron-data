@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Piercings"
 weight = "&mdash;"
 slot = "eye; Price 6,000 gp (Minor), 18,000 gp (Major), 32,000 gp (Greater)"
 aura = "faint transmutation CL 5th"

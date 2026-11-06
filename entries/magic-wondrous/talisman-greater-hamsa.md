@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "50 gp (Lesser, Beneficial Winds), 450 gp (Lesser, Akoben), 450 gp (Lesser, Sealed Summons), 450 gp (Lesser, Warrior's Courage), 600 gp (Lesser, Arrow Protection), 600 gp (Lesser, Pentacle), 600 gp (Lesser, Scarab), 600 gp (Lesser, Trickelion), 750 gp (Lesser, Danger Sense), 900 gp (Lesser, Freedom), 1,250 gp (Lesser, Ankh), 1,250 gp (Lesser, Protection from Flames), 1,680 gp (Lesser, Good Fortune), 2,400 gp (Lesser, Healing Power), 3,000 gp (Lesser, Hamsa), 3,500 gp (Lesser, Life's Breath), 500 gp (Greater, Beneficial Winds), 4,500 gp (Greater, Akoben), 4,500 gp (Greater, Sealed Summons), 4,500 gp (Greater, Warrior's Courage), 6,000 gp (Greater, Arrow Protection), 6,000 gp (Greater, Pentacle), 6,000 gp (Greater, Scarab), 6,000 gp (Greater, Triskelion), 7,500 gp (Greater, Danger Sense), 9,000 gp (Greater, Freedom), 12,500 gp (Greater, Ankh), 12,500 gp (Greater, Protection from Flames), 16,800 gp (Greater, Good Fortune), 24,000 gp (Greater, Healing Power), 30,000 gp (Greater, Hamsa), 35,000 gp (Greater, Life's Breath)"
 weight = "1 lb."
 slot = "neck"

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp (worker)"
 weight = "140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)"
 +++

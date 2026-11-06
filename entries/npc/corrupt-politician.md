@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "4"
 +++
 
 _This woman wears colorful clothing of fine cut and cloth, and carries a satchel of documents._

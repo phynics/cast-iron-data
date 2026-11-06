@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Special Materials"
 +++
 
 **Sources:** Qadira, Gateway to the East pg 25

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "6"
 +++
 
 **City Watch (Watch Captain)**

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "40,000 gp (discriminating cube), 56,000 gp (cube of varied force walls), 62,000 gp (cube of force), 70,000 gp (independent cube of force, rechargeable cube of force, remote activation cube)"
 weight = "1/2 lb."
 slot = "none"

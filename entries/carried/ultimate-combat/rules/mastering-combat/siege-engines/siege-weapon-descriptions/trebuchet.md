@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Siege Engines"
 price = "1,500 gp"
 attributes = [
   { label = "Heavy: Aim", value = "3" },

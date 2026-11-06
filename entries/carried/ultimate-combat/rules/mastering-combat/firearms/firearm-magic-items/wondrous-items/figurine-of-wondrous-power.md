@@ -11,6 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 slot = "none; price 10,000 gp; weight 1 lb."
 aura = "moderate transmutation"
 caster_level = "11th"

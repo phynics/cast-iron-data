@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp (Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp (Campsite), 500 gp (Ram), 500 gp (Whip), 600 gp (Tar and Feathers), 1,000 gp (Siege Tower)"
 weight = "1 lb."
 slot = "-"

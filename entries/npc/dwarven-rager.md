@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "1"
 +++
 
 **Dwarven Rager**

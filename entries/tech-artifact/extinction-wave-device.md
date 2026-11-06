@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Technological Artifacts"
 weight = "1,000 lbs."
 slot = "none"
 +++

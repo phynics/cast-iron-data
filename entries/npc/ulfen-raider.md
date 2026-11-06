@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "1/2"
 +++
 
 _This fur-clad and fiercely rugged barbarian stands ready to do battle with a deadly looking

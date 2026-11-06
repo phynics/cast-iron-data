@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Technological Gear"
 price = "varies"
 weight = "4 lbs."
 slot = "none"

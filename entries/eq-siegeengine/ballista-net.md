@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Siege Engines"
 weight = "15 lbs."
 +++
 

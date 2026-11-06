@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Fleshcraft"
 price = "9,000 gp"
 slot = "neck"
 +++

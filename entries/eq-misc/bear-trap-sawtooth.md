@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth)"
 weight = "10 lbs. Bear trap (offset), 20 lbs. Bear trap (sawtooth)"
 +++

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "3"
 creature_type = "magicalBeast"
 size = "large"
 alignment = "neutral good"

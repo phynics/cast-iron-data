@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Special Materials"
 +++
 
 **Sources:** Technology Guide pg 56

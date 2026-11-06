@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "body"
+category = "Cybertech"
 price = "varies"
 weight = "10 lbs."
 slot = "body"

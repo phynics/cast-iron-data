@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "10 gp per day (masterful), 3 gp per day (skilled), 1 gp per day (trained), 3 sp per day (untrained)"
 weight = "- (masterful), - (skilled), - (trained), - (untrained)"
 +++

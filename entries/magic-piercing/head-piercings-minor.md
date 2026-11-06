@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Piercings"
 price = "3,750 gp (Minor), 6,000 gp (Major), 33,600 gp (Greater)"
 weight = "&mdash;"
 slot = "head"

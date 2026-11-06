@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Ioun Stones"
 price = "20,000 gp (pale lavender), 40,000 gp (lavender and green)"
 weight = "&mdash;"
 slot = "none"

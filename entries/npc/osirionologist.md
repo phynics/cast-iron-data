@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "7"
 +++
 
 _This human adventurer wears a long, light-colored leather coat, a wide-brimmed hat, and a belt that

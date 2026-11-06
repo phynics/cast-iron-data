@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Construct Modifications"
 attributes = [
   { label = "Crafter's Eyes: CR Increase", value = ": none" },
   { label = "Crafter's Eyes: Cost", value = ": 8,000 gp" },

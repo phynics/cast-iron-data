@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Item"
+category = "Alchemical Tools"
 attributes = [
   { label = "Gear Type", value = "Item" },
   { label = "Weight", value = "1/2 lb." },

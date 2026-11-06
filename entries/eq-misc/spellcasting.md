@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "caster level &times; spell level &times; 10 gp"
 weight = "-"
 +++

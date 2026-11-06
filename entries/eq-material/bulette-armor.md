@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Special Materials"
 +++
 
 **Sources:** Dungeon Denizens Revisited pg 7

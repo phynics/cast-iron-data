@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "10 gp (average), 25 gp (good), 2 gp (simple), 75 gp (superior)"
 weight = "- (average), - (good), - (simple), - (superior)"
 +++

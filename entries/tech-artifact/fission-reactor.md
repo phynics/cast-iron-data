@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Technological Artifacts"
 +++
 
 **Sources:** Technology Guide pg 63\

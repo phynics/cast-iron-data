@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Special Materials"
 +++
 
 **Sources:** PRPG Core Rulebook pg 175

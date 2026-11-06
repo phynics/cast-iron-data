@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Item"
+category = "Alchemical Tools"
 attributes = [
   { label = "Simple: Price", value = "2 gp" },
   { label = "Simple: Craft DC", value = "15" },

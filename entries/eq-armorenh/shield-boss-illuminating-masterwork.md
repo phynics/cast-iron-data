@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Armor Modifications"
 price = "120 gp (breakaway), 80 gp (hooked), 35 gp (illuminating), +50 gp (masterwork), 30 gp (reinforcing boss)"
 weight = "10 lbs. (breakaway), 10 lbs. (hooked), 10 lbs. (illuminating), - (masterwork), 10 lbs. (reinforcing boss)"
 +++

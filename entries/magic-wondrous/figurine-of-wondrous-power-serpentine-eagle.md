@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "3,800 gp (Silver Raven), 6,000 gp (Coral Hippocampus), 7,000 gp (Emerald Frog), 7,500 gp (Lapis Camel), 7,600 gp (Pearl Dolphin), 9,000 gp (Ruby Butterfly), 9,100 gp (Black Jade Raven, Serpentine Eagle, Serpentine Owl), 10,000 gp (Bronze Griffon, Ebony Fly, Hematite Courgar, Slate Spider), 13,000 gp (Tin Imp), 14,000 gp (Glass Walrus), 15,000 gp (Obsidian Raven), 15,500 gp (Onyx Dog), 16,500 gp (Golden Lions), 17,000 gp (Marble Elephant), 21,000 gp (Ivory Goats), 28,500 gp (Obsidian Steed), 60,000 gp (Basalt Dragon)"
 weight = "1 lb."
 slot = "none"

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Special Materials"
 +++
 
 **Sources:** Ultimate Equipment pg 49, Advanced Race Guide pg 27

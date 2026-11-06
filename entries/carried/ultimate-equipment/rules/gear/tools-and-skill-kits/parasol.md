@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Item"
+category = "Tools and Skill Kits"
 weight = "2 lbs."
 attributes = [
   { label = "Gear Type", value = "Item" },

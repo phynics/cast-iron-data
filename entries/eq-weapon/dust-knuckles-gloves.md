@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Weapons"
 price = "1.25 gp, 25 gp (diamond dust vial), 25 gp (gloves)"
 weight = "- (1 vial), - (diamond dust vial), 0.5 lb. (gloves)"
 +++

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "4 cp (ceremonial, cup), 2 cp (cup)"
 weight = "1/2 lb. (ceremonial, cup), 1/2 lb. (cup)"
 +++

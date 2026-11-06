@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "armor"
+category = "Magic Armor"
 price = "39,165 gp (ogre), 46,665 gp (hill giant), 59,165 gp (troll), 54,165 gp (stone, fire, or frost giant), 69,165 gp (cloud giant), 76,665 gp (storm giant)"
 weight = "25 lbs."
 slot = "armor"

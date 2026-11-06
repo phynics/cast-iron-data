@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "class"
+class_type = "npc"
 hit_die = "d6."
 +++
 

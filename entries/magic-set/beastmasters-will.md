@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Item Sets"
 +++
 
 **Sources:** Chronicle of Legends pg 25

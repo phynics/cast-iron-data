@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "3,200 gp"
 weight = "5 lbs. per banner"
 slot = "none"

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak)"
 weight = "600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)"
 +++

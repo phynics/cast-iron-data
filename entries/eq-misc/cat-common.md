@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Miscellaneous Equipment"
 price = "3 cp (common), 6 gp (Osirian wise-eye)"
 weight = "8 lbs. (common), 8 lbs. (Osirian wise-eye)"
 +++

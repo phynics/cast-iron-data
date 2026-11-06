@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "6"
 +++
 
 _This hard-eyed stranger holds a strange weapon in his hand that resembles a pistol but glows with a

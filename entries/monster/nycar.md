@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "2"
 creature_type = "dragon"
 subtypes = ["aquatic"]
 size = "tiny"

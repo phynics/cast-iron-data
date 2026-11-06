@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Magic Poisons"
 price = "900 gp"
 weight = "&mdash;"
 aura = "faint enchantment"

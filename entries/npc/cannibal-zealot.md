@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "6"
 +++
 
 _Crude designs painted in what can only be dried blood cake the face and the hide clothing of this

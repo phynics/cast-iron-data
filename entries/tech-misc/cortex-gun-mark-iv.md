@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Technological Gear"
 price = "30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV), 151,250 gp (mark V)"
 weight = "1 lb. (all)"
 slot = "none"

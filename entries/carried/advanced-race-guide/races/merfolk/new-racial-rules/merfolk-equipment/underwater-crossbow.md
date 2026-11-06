@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Ranged Weapons"
+category = "Weapons"
 attributes = [
   { label = "Heavy: Weight", value = "8 lbs." },
   { label = "Heavy: Price", value = "100 gp" },

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "1"
 +++
 
 _This thuggish Varisian wears black garb and tattered rags that conceal his myriad small blades and

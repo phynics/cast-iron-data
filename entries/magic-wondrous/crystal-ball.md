@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "42,000 gp (Normal), 50,000 gp (See Invisibility), 51,000 gp (Detect Thoughts), 70,000 gp (Telepathy), 80,000 gp (True Seeing)"
 weight = "7 lbs."
 slot = "none"

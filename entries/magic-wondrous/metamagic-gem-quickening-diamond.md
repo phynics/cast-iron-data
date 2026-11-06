@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "1,000 gp (Enlarging Amethyst), 1,000 gp (Extending Garnet), 1,000 gp (Silent Spinel), 1,000 gp (Still Amber), 2,000 gp (Empowering Topaz), 4,000 gp (Maximizing Sapphire), 4,000 gp (Widening Emerald), 8,000 gp (Quickening Diamond)"
 weight = "-"
 slot = "none"

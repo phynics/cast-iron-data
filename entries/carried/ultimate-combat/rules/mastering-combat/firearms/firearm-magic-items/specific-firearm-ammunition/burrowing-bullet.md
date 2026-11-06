@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Magic Weapons"
 price = "1,722 gp (burrowing bullet) or 3,447 gp (greater burrowing bullet)"
 weight = "—"
 slot = "none"

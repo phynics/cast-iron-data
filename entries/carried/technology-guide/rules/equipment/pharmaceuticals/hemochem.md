@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Pharmaceuticals"
 price = "250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grade V)"
 attributes = [
   { label = "Construction: Facilities", value = "medical lab" },

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Alchemical Reagents"
 +++
 
 **Sources:** Plane-Hopper's Handbook pg 11

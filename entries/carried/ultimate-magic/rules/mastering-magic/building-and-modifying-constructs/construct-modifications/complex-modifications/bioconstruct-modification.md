@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Construct Modifications"
 attributes = [
   { label = "Bioconstruct Modification: CR Increase", value = ": +1" },
   { label = "Bioconstruct Modification: Cost", value = ": 22,750 gp" },

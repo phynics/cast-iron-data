@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "8"
 +++
 
 _This stout, gray-skinned warrior sits astride an enormous spider._

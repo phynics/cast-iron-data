@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Magic Armor"
 price = "10,200 gp"
 weight = "30 lbs."
 aura = "no aura (nonmagical)"

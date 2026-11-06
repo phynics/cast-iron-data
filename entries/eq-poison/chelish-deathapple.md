@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Poisons"
 price = "200 gp"
 weight = "1/2 lb."
 +++

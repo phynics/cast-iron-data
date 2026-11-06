@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "1/2"
 creature_type = "humanoid"
 size = "medium"
 alignment = "neutral good"

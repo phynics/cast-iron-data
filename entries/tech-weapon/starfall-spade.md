@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Technological Weapons"
 weight = "12 lbs."
 aura = "moderate evocation"
 caster_level = "7th"

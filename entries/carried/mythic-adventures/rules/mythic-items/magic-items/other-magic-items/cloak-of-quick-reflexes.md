@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Other Magic Items"
 price = "Varies"
 attributes = [
   { label = "Construction Requirements: +2 bonus/+3 Reflex", value = "3,000 gp" },

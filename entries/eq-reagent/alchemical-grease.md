@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Alchemical Reagents"
 +++
 
 **Sources:** Adventurer's Armory pg 26

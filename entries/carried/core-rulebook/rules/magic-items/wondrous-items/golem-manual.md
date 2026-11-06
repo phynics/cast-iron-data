@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "12,000 gp (clay), 8,000 gp (flesh), 35,000 gp (iron), 22,000 gp (stone), 44,000 gp (stone guardian)"
 weight = "5 lbs."
 slot = "none"

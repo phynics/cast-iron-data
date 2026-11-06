@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "4"
 +++
 
 _Richly attired in noble's garbs, this savvy man boasts a colorful cloak, a bulging coin purse, and

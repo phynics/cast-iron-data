@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "Item"
+category = "Food, Drink, and Lodging"
 price = "varies"
 weight = "—"
 attributes = [

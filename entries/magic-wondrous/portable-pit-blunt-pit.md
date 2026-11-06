@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "2,890 gp (Blunt pit), 5,410 gp (Spiked pit), 10,090 gp (Acid pit), 14,410 gp (Persistent pit), 16,210 gp (Hungry pit)"
 weight = "1 lb."
 slot = "none"

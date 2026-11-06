@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "800 gp (Leaf Leshy), 1,125 gp (Gourd Leshy), 1,875 gp (Fungus Leshy), 3,600 gp (Seaweed Leshy)"
 weight = "5 lbs."
 slot = "none"

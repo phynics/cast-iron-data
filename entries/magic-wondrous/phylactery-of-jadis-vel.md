@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "135,000 gp"
 slot = "headband"
 aura = "moderate necromancy [evil]"

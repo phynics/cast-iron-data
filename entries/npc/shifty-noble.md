@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "2"
 +++
 
 _This well-dressed noble carries herself with poise, and her eyes seem to catalog everything she

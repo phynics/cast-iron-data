@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "5"
 +++
 
 _This warrior's armor resembles the carapace of a mighty beetle. She wields a khopesh in one hand

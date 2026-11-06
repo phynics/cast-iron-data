@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Armor"
 weight = "45 lbs."
 attributes = [
   { label = "Leather: Price", value = "60 gp" },

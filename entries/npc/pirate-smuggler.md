@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "2"
 +++
 
 _This shady-looking sailor has a knowing glint in his eyes, which shift from side to side as he

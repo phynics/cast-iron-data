@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Armor"
 price = "&times;4 (Large creature), &times;2 (Medium creature)"
 weight = "&times;2 (Large creature), &times;1 (Medium creature)"
 +++

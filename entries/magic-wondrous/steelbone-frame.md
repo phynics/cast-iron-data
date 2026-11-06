@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Wondrous Items"
 price = "6,000 gp"
 weight = "35 lbs."
 slot = "armor"

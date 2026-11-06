@@ -10,6 +10,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Alchemical Weapons"
 +++
 
 ::: paragraph indented

@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Special Materials"
 +++
 
 **Sources:** Heroes of the Darklands pg 24, Kobolds of Golarion pg 29

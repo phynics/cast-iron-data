@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "item"
-category = "material"
+category = "Special Materials"
 +++
 
 ::: statblock

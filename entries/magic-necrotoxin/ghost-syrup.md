@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Necrotoxins"
 price = "6,000 gp"
 weight = "&mdash;"
 aura = "strong necromancy"

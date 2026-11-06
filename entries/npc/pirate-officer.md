@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "3"
 +++
 
 _Armed with a rapier and wearing leather armor, this half-elf possesses an amiable demeanor and a

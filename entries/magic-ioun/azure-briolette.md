@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "item"
+category = "Ioun Stones"
 price = "14,000 gp"
 aura = "strong enchantment and necromancy"
 caster_level = "12th"

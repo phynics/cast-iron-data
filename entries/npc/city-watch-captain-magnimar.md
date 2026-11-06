@@ -9,6 +9,7 @@ provenance = [
 
 [fields]
 kind = "creature"
+cr = "4"
 +++
 
 _Confident and careful, this guard captain has a determined gait and wields a crossbow in addition
