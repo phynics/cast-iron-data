@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have explored and claimed an area of at least 100 square miles."
-benefit = "You gain a +2 bonus on initiative checks, attack rolls, and saving throws while in the area you have claimed."
+benefit = "When in either unclaimed wilderness or land under your own control, you receive a +2 bonus on Perception checks, Stealth checks, and Survival checks. If you have 10 or more ranks in one of these skills, the bonus on that skill increases to +4."
 +++
 
 ## Nation Builder (Story)
