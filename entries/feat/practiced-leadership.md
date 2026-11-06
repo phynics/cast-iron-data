@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 prerequisites = "Leadership, membership in the same organization as your cohort."
 prerequisite_feats = ["ref/feat/leadership"]
-benefit = "If you are a follower of the Prophecies of Kalistrade with the Practiced Leadership feat and your cohort is a fellow Kalistocrat, once per day she can roll either an Appraise or Bluff check twice and take the higher result. If your cohort is instead a member of the Mercenary League, once per day she can roll either an Intimidate check or a Sense Motive check twice and take the higher result. Your cohort must announce the use of this ability before attempting the check."
+benefit = "As long as you and your cohort maintain membership in good standing within the same organization, your cohort gains a +4 morale bonus on Will saves against enchantment spells and effects. Additionally, your cohort is treated as though she possessed the same teamwork feats you do for the purpose of determining whether you receive a bonus from your teamwork feats. Your cohort doesn't receive any bonuses from these feats unless she actually possesses the feats."
 +++
 
 **Sources:** Champions of Balance pg 15

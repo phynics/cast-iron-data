@@ -11,7 +11,7 @@ provenance = [
 kind = "feat"
 feat_types = ["Story"]
 prerequisites = "You must have intentionally left your noble family and changed your name or appearance afterward."
-benefit = "Your bonus on attack rolls and damage rolls from this feat increases to +2 and applies to anyone who threatens your allies or your new noble legacy."
+benefit = "You gain a +2 bonus on Disguise checks, and Disguise is a class skill for you. You gain a +1 bonus on attack rolls and damage rolls against members of your former family."
 +++
 
 ## Self-Exiled Noble (Story)

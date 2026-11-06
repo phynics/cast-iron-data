@@ -10,8 +10,8 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Base attack bonus +10."
-benefit = "Whenever you sicken a foe with pain using a spiked chain (whether by flensing, as a dirty trick combat maneuver, or otherwise), the victim must succeed at a Fortitude save (DC = 10 + 1/2 your character level + your Wisdom bonus) or be nauseated for the first round of the duration."
+prerequisites = "Must worship a single patron deity that has an established divine fighting technique."
+benefit = "You can use your patron deity's fighting technique and receive any benefit associated with that technique for which you qualify, as described in the Divine Fighting Techniques section below."
 special = "A cleric, inquisitor, or warpriest who worships a deity can choose to give up either the first power of one of her domains or a minor blessing benefit to gain access to her god's divine fighting technique without having to meet the technique's prerequisites (including the Divine Fighting Technique feat). In addition, a warpriest can give up a major blessing to gain the advanced benefit without meeting its prerequisites."
 +++
 
