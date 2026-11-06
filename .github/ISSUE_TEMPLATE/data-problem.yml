@@ -1,0 +1,62 @@
+name: Problem in an entry
+description: Report a wrong, missing, or broken piece of a rules entry.
+title: "[Data] "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. One report per entry helps us fix it fast.
+        Issues with the label `data` are fixed in this repository. Problems with the app itself
+        (layout, search, install, offline use) belong in the
+        [Cast Iron issues](https://github.com/phynics/cast-iron/issues).
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: >
+        The Cast Iron address of the entry (copy it from the address bar), or its `ref/` id.
+      placeholder: ref/spell/fog-cloud
+    validations:
+      required: true
+  - type: dropdown
+    id: problem-type
+    attributes:
+      label: Problem type
+      options:
+        - Missing link
+        - Wrong link
+        - Typo or wording
+        - Wrong stat or value
+        - Missing or extra content
+        - Table problem
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current-text
+    attributes:
+      label: The text as it appears
+      description: Copy the text from the entry so we can find it. Leave it empty if content is missing.
+  - type: textarea
+    id: expected-text
+    attributes:
+      label: What it should be
+      description: Write the text, link, or value that you expect.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Book and page
+      description: The book title and page number, if you know them.
+      placeholder: Core Rulebook, page 123
+    validations:
+      required: false
+  - type: checkboxes
+    id: verified
+    attributes:
+      label: Checked against a source
+      options:
+        - label: I checked the printed book or another official source.
+          required: false

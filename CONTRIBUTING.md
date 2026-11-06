@@ -10,6 +10,26 @@ full specification is
 in the Cast Iron repository. This page is the short version: three rules, the tool, and one
 recipe for each common edit.
 
+## From an issue to a fix
+
+A reader reports a problem with the `data` label. To fix it:
+
+1. **Find the file.** The issue names an entry by its `ref/` id or by its Cast Iron address
+   (`#/entry/ref/spell/fog-cloud`). The file is the id without `ref/`, under `entries/`, with
+   `.md` added: `ref/spell/fog-cloud` is `entries/spell/fog-cloud.md`. An old id (for example
+   `advanced-players-guide/classes/alchemist`) is an `old` row in `aliases.toml`; its `target` is
+   the current id.
+2. **Edit it.** Change only what the issue describes. The [recipes](#recipes) below show the
+   usual edits: a typo, a link, a paragraph break, a table row, a stat value, a new entry.
+3. **Run the tool.** `cast-iron-corpus fmt .`, then `cast-iron-corpus check .`. See
+   [The tool](#the-tool) for the install command.
+4. **Open a pull request.** Put `Fixes #N` in the description, where `N` is the issue number, so
+   the issue closes when the pull request merges. Cite the book title and page if the fix
+   depends on them.
+
+A merged fix is not in the app yet. It reaches readers when Cast Iron pins a new tag (see
+[Releasing a new version](#releasing-a-new-version)).
+
 ## The three rules
 
 1. **Enter inside a paragraph is a space.** A paragraph may wrap over many lines. A blank
@@ -159,3 +179,26 @@ write them in `relations`.
 `corpus.toml` says which format the corpus is in. A newer tool refuses an older corpus and
 names the command: `cast-iron-corpus migrate`. A format change is applied as one mechanical
 pull request that changes nothing else, followed by `fmt`.
+
+## Releasing a new version
+
+A version is a Git tag named `vX.Y.Z`. Tags are never moved or deleted. Only a maintainer cuts a
+tag.
+
+1. Check that `main` is green: the `corpus` workflow passed on the commit you tag.
+2. Choose the number:
+   - patch (`v0.1.1`): corrections to entries that change no id;
+   - minor (`v0.2.0`): added entries, or added data files;
+   - major (`v1.0.0`): a change of corpus format (`corpus.toml` `format`).
+3. Create and push an annotated tag on that commit:
+
+   ```sh
+   git tag -a vX.Y.Z -m "vX.Y.Z: <one line that says what changed>"
+   git push origin vX.Y.Z
+   ```
+
+4. Close the issues that the release fixes, with a comment that names the tag.
+
+Cast Iron then updates its pin in `sources/corpus.toml`: the tag, the commit, and the tree hash
+that `cargo xtask corpus-tree-hash <extracted dir>` prints for the extracted tag archive. A fix is live in the app only after that update is
+merged and Cast Iron is published.
