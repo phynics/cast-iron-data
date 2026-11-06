@@ -1,0 +1,53 @@
++++
+id = "ref/spell/damp-powder"
+kind = "spell"
+title = "Damp Powder"
+source_ids = ["ultimate-combat"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "damp_powder", path = "json/spells3.json" },
+]
+
+[fields]
+kind = "spell"
+school = "transmutation"
+levels = [
+  { class = "Arcanist", level = 1 },
+  { class = "Druid", level = 1 },
+  { class = "Hunter", level = 1 },
+  { class = "Red Mantis Assassin", level = 1 },
+  { class = "Sorcerer", level = 1 },
+  { class = "Witch", level = 1 },
+  { class = "Wizard", level = 1 },
+]
+casting_time = "1 standard action"
+components = "V, S, M/DF (a damp piece of cotton)"
+range = "close (25 ft. + 5 ft./2 levels)"
+effects = [
+  { label = "Target", value = "1 loaded firearm" },
+]
+duration = "instantaneous"
+saving_throw = "Will negates (object)"
+spell_resistance = "yes (object)"
++++
+
+::: statblock
+title = "Spell statistics"
+School: transmutation
+Level: 1: Arcanist, Druid, Hunter, Red Mantis Assassin, Sorcerer, Witch, Wizard
+Casting time: 1 standard action
+Components: V, S, M/DF (a damp piece of cotton)
+Range: close (25 ft. + 5 ft./2 levels)
+Duration: instantaneous
+Saving throw: Will negates (object)
+Spell resistance: yes (object)
+Target: 1 loaded firearm
+:::
+
+**Sources:** Ultimate Combat pg 226
+
+This spell causes ammunition already loaded into the target firearm is ruined with moisture. Any
+attempt to fire that ammunition fails, with no chance for misfire, and the user must then take a
+full-round action to clear the weapon before reloading and firing it. If aware of this spell's
+effect prior to firing the altered ammunition (a DC 16 Spellcraft check to identify the spell being
+cast or similar effect), the firearm's user can spend a standard action to clear the altered
+ammunition from the firearm. Doing so destroys that ammunition.

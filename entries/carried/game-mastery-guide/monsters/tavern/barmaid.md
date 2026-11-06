@@ -1,0 +1,74 @@
++++
+id = "ref/carried/game-mastery-guide/monsters/tavern/barmaid"
+kind = "creature"
+title = "Barmaid"
+source_ids = ["game-mastery-guide"]
+section = ["Monsters", "Tavern"]
+tags = ["humanoid", "npc", "medium"]
+provenance = [
+  { dataset = "psrd-data", record = "pfsrd://Game Mastery Guide/Monsters/Tavern/Barmaid", path = "game_mastery_guide/creature/npc/barmaid.json" },
+]
+
+[fields]
+kind = "creature"
+cr = "1/2"
+creature_type = "Humanoid"
+size = "Medium"
+alignment = "N"
+ac = "11, touch 11, flat-footed 10 (+1 Dex)"
+hp = "7 (2d6)"
+fortitude = "+0"
+reflex = "+1"
+will = "-1"
+melee = "serving tray +1 (1d4) or frying pan +1 (1d6 plus 1 fire [if hot])"
+ranged = "drinking glass +2 (1d4 plus dazzled 1 round [drink in eyes])"
+abilities = ["10", "12", "11", "10", "9", "13"]
++++
+
+::: statblock
+CR: 1/2
+XP: 200
+Alignment: N
+Size: Medium
+Type: Humanoid
+Race: human commoner 2
+Init: +1
+Senses: Perception +4
+AC: 11, touch 11, flat-footed 10 (+1 Dex)
+hp: 7 (2d6)
+Fort: +0
+Ref: +1
+Will: -1
+Speed: 30 ft.
+Melee: serving tray +1 (1d4) or frying pan +1 (1d6 plus 1 fire \[if hot\])
+Ranged: drinking glass +2 (1d4 plus dazzled 1 round \[drink in eyes\])
+Ability Scores: Str 10, Dex 12, Con 11, Int 10, Wis 9, Cha 13
+Base Atk: +1
+CMB: +1
+CMD: 12
+Feats: Catch Off-Guard, Throw Anything
+Skills: Perception +4, Perform (dance) +3, Profession (barmaid) +4, Profession (cook) +3, Sleight of Hand +2
+Languages: Common
+Combat Gear: antitoxin (2)
+Other Gear: serving tray or frying pan, drinking glasses (2 to 4)
+Boon: A barmaid can get PCs a free round of drinks or whisper the local gossip (granting a +2 bonus on the PCs' next Diplomacy check to gather information in that community).
+:::
+
+Barmaids are serving wenches, dancing girls, and even harried cooks in inns and taverns throughout
+the cities and towns of the world. Although usually young, some barmaids are older goodwives working
+in the family business.
+
+A barmaid might also be used as a farmer's, fisherman's, or shopkeep's wife, or any type of servant,
+whether in an inn or a noble's manor. Changing a barmaid's Profession skills can create any type of
+servant needed. Profession (courtesan) creates an inexperienced prostitute, or simply a serving girl
+who works in a brothel.
+
+While skilled in improvised weapons, changing a barmaid's feats can create a servant with other
+useful skills. Alertness or Skill Focus (Perception) makes a barmaid good at overhearing
+conversations, while a barmaid working in a dangerous dive might carry a concealed dagger and have
+the Improved Unarmed Strike and Weapon Finesse feats.
+
+A typical small tavern may have only a barkeep and a pair of barmaids (CR 4), while a large inn
+might have half a dozen barmaids serving the barkeep, with a street thug bouncer for protection (CR
+6). A barmaid is often found in the company of a pair of farmers or shipmates (CR 2) or a noble
+scion (CR 3), or two barmaids might serve a pair of drunkards, street thugs, or vagabonds (CR 4).

@@ -1,0 +1,31 @@
++++
+id = "ref/soctalent/always-prepared"
+kind = "rule"
+title = "Always Prepared"
+source_ids = ["chronicle-of-legends"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "always_prepared", path = "json/class_ability_social_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Always Prepared (Ex)&FN&**
+
+**Ability:** The vigilante gains the [Brilliant Planner](ref/feat/brilliant-planner) feat except he
+can spend up to 100 gp per character level for his brilliant plan fund and only requires 1 minute to
+enact his brilliant plan.
+
+In addition, while in a settlement for at least 1 week, he can spend 24 hours and up to 500 gp per
+character level to create a stash somewhere within the settlement. Once per day, the vigilante can
+take 1 hour to retrieve a stash, retrieving any number of items that would have been available in a
+settlement he visited at the time of making the stash, regardless of the weight of the items. Once
+he retrieves a stash in this way, he subtracts the price of the items from the stash's value and the
+stash is exhausted and lost, regardless if he used the full value of the stash.
+
+**Flavor:** The vigilante can set aside resources to plan for future contingencies.
+
+**Special:** The vigilante can maintain any number of stashes, but a stash is lost if he does not
+spend 1 hour to maintain the stash at least once per month. A vigilante's stash is well-hidden and
+only the vigilante knows the location of a stash he creates.

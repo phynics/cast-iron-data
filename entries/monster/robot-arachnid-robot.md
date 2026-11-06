@@ -1,0 +1,140 @@
++++
+id = "ref/monster/robot-arachnid-robot"
+kind = "creature"
+title = "Arachnid Robot"
+source_ids = ["numeria-land-of-fallen-stars"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "robot_arachnid_robot", path = "json/monsters20.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "construct"
+subtypes = ["robot"]
+size = "small"
+alignment = "neutral"
+ac = "14/12/13"
+hp = "15~1d10+10"
+fortitude = "+0"
+reflex = "+1"
+will = "+1"
+melee = "2 claws +3 (1d3-1)"
+special_attacks = "explode~plasma torch"
+abilities = ["9", "13", "-", "10", "12", "1"]
++++
+
+_This dog-sized, spider-like robot has a plasma torch mounted on a stinger-like limb and gripping
+claws on its forelegs._
+
+**Arachnid Robot**
+
+**Challenge rating:** 1/2
+
+**Type:** construct
+
+**dv:** 60
+
+**Initiative:** +1
+
+**Sense:** Llv
+
+**Alignment:** Neutral
+
+**Perception:** +5
+
+**Size:** small
+
+**source:** Numeria, Land of Fallen Stars/56
+
+**Subtype:** Robot
+
+**Experience points:** 200
+
+**Armor class:** 14/12/13
+
+**Fort:** +0
+
+**Hit points:** 15 (1d10+10)
+
+**Immune:** [construct traits](ref/umr/construct-traits)
+
+**Mod:** +1 Dex, +2 natural, +1 size
+
+**Ref:** +1
+
+**Resist:** fire 5
+
+**Vulner:** electricity
+
+**Weaknesses:** fragile, vulnerable to critical hits
+
+**Will:** +1
+
+**Offense**
+
+**Speed:** 40 ft., climb 20 ft.
+
+**Melee:** 2 claws +3 (1d3-1)
+
+**Spec Att:** explode, plasma torch
+
+**Statistics**
+
+**Ability scores:** Str 9, Dex 13, Con -, Int 10, Wis 12, Cha 1
+
+**Base attack bonus:** +1
+
+**Combat maneuver bonus:** -1
+
+**Combat maneuver defense:** 10 (18 vs. trip)
+
+**Feats:** Weapon Finesse
+
+**Skills:** Climb +7, Disable Device +10, Perception +5, Stealth +10
+
+**Racial Modifiers:** +5 Disable Device, +5 Stealth
+
+**Languages:** Common, Hallit
+
+**Ecology**
+
+**Environment:** any (Numeria)
+
+**Organization:** solitary, pair, or colony (3-12)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Explode (Ex)** If an arachnid robot is destroyed or takes damage while below half its maximum hit
+points, it must attempt a Fortitude saving throw with a DC equal to the amount of damage taken. If
+it fails, the robot explodes, dealing 2d4 points of plasma damage to all targets in a 10-foot-radius
+burst (Reflex DC 10 half). Half the damage dealt by plasma is fire damage, and half is electricity
+damage. This destroys the robot if it was still animate. The save DC is Dexterity-based.
+
+**Fragile (Ex)** When badly damaged, arachnid robots function poorly. An arachnid robot reduced to
+fewer than half its maximum hit points is staggered and moves at half speed. Further damage may
+cause the robot to explode.
+
+**Plasma Torch (Ex)** An arachnid robot can use its arm-mounted plasma torch in two ways. First, it
+can use the torch to make a ranged touch attack against a target within 15 feet, dealing 1d6 points
+of plasma damage on a successful hit. Alternatively, the robot can emit a 15-foot cone from its
+torch, dealing 1d4 points of plasma damage to all targets in the area of effect (Reflex DC 10 half).
+The robot's plasma torch requires 1 full round to recharge between uses. Half the damage dealt by
+plasma is fire damage, and half is electricity damage.
+
+### Description
+
+Ubiquitous pets of Numerian technologists, arachnid robots also serve as sentinels and spies.
+Arachnid robots come equipped with a plasma welding torch that resembles a scorpion's tail stinger
+and doubles as a weapon. Under stress, an arachnid robot's plasma core can overload, destroying the
+robot in a fiery blast. This tendency inspired the practice of using the robots as suicide drones.
+An arachnid robot is intelligent enough to have a sense of self-preservation, however, and one can
+be made to undertake such a mission only through trickery.
+
+Despite their scorpion-like appearance, arachnid robots' ability to use their claws as an additional
+pair of legs when climbing or moving quickly has earned the robots the name "spiderbots" among
+Kellid natives. Their small size makes them the most likely robots to be found outside of Numeria,
+as they are the ones most easily smuggled past watchful Technic League agents.
+
+**Family:** [Robot](ref/family/robot)

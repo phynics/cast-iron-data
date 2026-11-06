@@ -1,0 +1,29 @@
++++
+id = "ref/feat/sacrificial-aid"
+kind = "feat"
+title = "Sacrificial Aid"
+source_ids = ["antiheros-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sacrificial_aid", path = "json/feat13.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Teamwork"]
+benefit = "When you attempt to disable a trap, an ally who also has this feat can bolster your efforts. The ally rolls 1d20 and adds either her total bonus on Disable Device checks or her character level, whichever is higher; if the result of the ally's roll is 10 or greater, you gain a +4 bonus on your Disable Device check. If you trigger the trap, your ally is the target of the trap's effects. In the case of a trap with multiple targets, your ally takes the effects both for herself and for you (potentially taking damage twice or attempting saving throws twice)."
+normal = "You can use the aid another action only if you are able to attempt the skill check in question. The bonus provided is only +2."
++++
+
+## Sacrificial Aid (Teamwork)
+
+**Sources:** Antihero's Handbook pg 10
+
+You convince an ally to help you disable a trap, but the ally takes the damage if you fail.\
+**Benefit:** When you attempt to disable a trap, an ally who also has this feat can bolster your
+efforts. The ally rolls 1d20 and adds either her total bonus on Disable Device checks or her
+character level, whichever is higher; if the result of the ally's roll is 10 or greater, you gain a
++4 bonus on your Disable Device check. If you trigger the trap, your ally is the target of the
+trap's effects. In the case of a trap with multiple targets, your ally takes the effects both for
+herself and for you (potentially taking damage twice or attempting saving throws twice).\
+**Normal:** You can use the [aid another](ref/rule/aid-another) action only if you are able to
+attempt the skill check in question. The bonus provided is only +2.

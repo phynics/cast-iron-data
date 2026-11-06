@@ -1,0 +1,42 @@
++++
+id = "ref/magic-weapon/oathbow"
+kind = "item"
+title = "Oathbow"
+source_ids = ["ultimate-equipment", "core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "oathbow", path = "json/magic_weapon2.json" },
+]
+
+[fields]
+kind = "item"
+price = "25,600 gp"
+weight = "3 lbs."
+slot = "none"
+aura = "strong evocation"
+caster_level = "15th"
++++
+
+**Sources:** Ultimate Equipment pg 158, PRPG Core Rulebook pg 471\
+**Aura** strong evocation; **CL** 15th\
+**Slot** none; **Price** 25,600 gp; **Weight** 3 lbs.
+
+Of elven make, this white +2 [composite longbow](ref/eq-weapon/composite-longbow) (+2 Str bonus)
+whispers "Swift defeat to my enemies" in Elven when nocked and pulled. Once per day, if the archer
+swears aloud to slay her target (a free action), the bow's whisper becomes the shout "Death to those
+who have wronged me!" Against such a sworn enemy, the bow has a +5 enhancement bonus, and arrows
+launched from it deal an additional 2d6 points of damage (and ×4 on a critical hit instead of the
+normal ×3). After an enemy has been sworn, the bow is treated as only a
+[masterwork weapon](ref/rule/masterwork-weapons) against all foes other than the sworn enemy, and
+the archer takes a -1 penalty on attack rolls with any weapon other than the oathbow. These bonuses
+and penalties last for 7 days or until the sworn enemy is slain or destroyed by the wielder of the
+oathbow, whichever comes first.
+
+The oathbow may only have one sworn enemy at a time. Once the wielder swears to slay a target, he
+cannot make a new oath until he has slain that target or 7 days have passed. Even if the wielder
+slays the sworn enemy on the same day that he makes the oath, he cannot activate the oathbow's
+special power again until 24 hours have passed from the time he made the oath.
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
+an elf; **Price** 13,100 gp

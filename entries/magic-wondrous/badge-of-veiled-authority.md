@@ -1,0 +1,40 @@
++++
+id = "ref/magic-wondrous/badge-of-veiled-authority"
+kind = "item"
+title = "Badge of Veiled Authority"
+source_ids = ["merchants-manifest"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "badge_of_veiled_authority", path = "json/magic_wondrous_slotless01.json" },
+]
+
+[fields]
+kind = "item"
+price = "3,500 gp"
+weight = "-"
+slot = "none"
+aura = "faint illusion"
+caster_level = "3rd"
++++
+
+**Sources:** Merchant's Manifest pg 14\
+**Aura** faint illusion; **CL** 3rd\
+**Slot** none; **Price** 3,500 gp; **Weight** -
+
+This golden badge has a snake etched onto it that shimmers slightly in the sunlight. Twice per day
+as a standard action, the wearer can tap the badge. When she does, the badge transforms into one
+identical to those worn by the local law enforcement of the city or town in which the wearer is
+located. This effect lasts for 3 hours each time it is activated, though the wearer can dismiss the
+effect as a free action. Additionally, while this badge's magic is active, it provides the wearer
+with a +5 competence bonus on [Bluff](ref/skill/bluff) checks. Once the badge's magic has been
+activated, any creature can wear it in its transformed form and receive the bonus on Bluff checks,
+though only the original wearer can end the effect before its duration has elapsed.
+
+If members of the town or city's law enforcement do not wear badges, activating this item has no
+physical effect, but the wearer still receives the bonus on Bluff checks while the effect lasts. A
+creature that interacts with the badge while its magic is active (such as by examining it closely or
+touching it) can recognize that the badge is fake with a successful DC 14 Will saving throw.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[disguise self](ref/spell/disguise-self); **Cost** 1,750 gp

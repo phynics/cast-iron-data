@@ -1,0 +1,44 @@
++++
+id = "ref/rule/tagalong"
+kind = "rule"
+title = "Tagalong"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "tagalong", path = "json/rules_gm02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 77
+
+The tagalong isn't so much a player type as he is a distraction. He might be the significant other
+of one of the players that shows up each week to spend quality time with his gaming better half.
+Perhaps he's a player's best friend from high school who is stopping over. Maybe he's even one of
+the players' children. No matter the relationship, the tagalong is by definition bored by the game
+and serves as a distraction to the rest of the players. Here's how to prepare for that eventuality.
+
+If the tagalong proves interested in gaming but has never played before, have him observe a game
+session or take on a minor role, such as the squire, familiar, or assistant of another player, or
+one of your minor NPCs. If gradually teaching him the game and encouraging this interest works, he
+may eventually want to create his own character and join the campaign, and chances are good that at
+least the player who brought him is excited to have him at the table.
+
+If the tagalong has no interest in gaming, even after watching the proceedings for a bit, it's
+probably best to find some other activity to keep him entertained over the course of the game. If
+there is a separate room where he can watch TV or read a book, the chances of keeping everyone's
+attention on the game are much higher. Find out what the tagalong likes to do, and if possible
+provide him with the resources and equipment he needs to stay entertained. Ultimately, the
+responsibility for keeping the tagalong happy and distractions to a minimum lies with the player who
+brought him. Don't be afraid to privately enforce this responsibility.
+
+Children too young to join the game are the most challenging form of tagalongs, as they require both
+supervision and attention, not to mention a good degree of childproofing for the gaming area. Polite
+parents should ask the group whether their children are too distracting for gaming, and if it's
+clear that young children aren't welcome, quietly excuse themselves during the weeks when they can't
+find a babysitter. But if a group is willing to try - particularly if multiple players have tagalong
+children - you may be able to play through the distraction caused by children. The important thing
+is to make sure everyone's on board, as the presence of children can drive some gamers away from the
+game permanently. Approach this topic respectfully, but be sure to hear from all players before
+determining the best course of action.

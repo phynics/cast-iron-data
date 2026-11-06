@@ -1,0 +1,42 @@
++++
+id = "ref/rule/adapting-scaling-items"
+kind = "rule"
+title = "Adapting Scaling Items"
+source_ids = ["pathfinder-128-songbird-scion-saboteur"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "adapting_scaling_items", path = "json/rules_opt_magic01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 78
+
+Relics work much like [scaling items](ref/rule/scaling-items), with the exceptions that they don't
+cost a share of your treasure and they scale up due to story events rather than at certain levels.
+This makes it easy to adapt the scaling items from that book to use as relics, either to replace
+ones listed here that don't suit your group in War for the Crown or to use in a different campaign.
+Doing so requires the following adjustments, in addition to adding thematic background elements to
+the items to tie them to the triumphs of your game.
+
+**Remove Cost, Price, and Scaling Category:** Because relics can't be crafted and aren't typically
+bought or sold, they don't have cost or price entries. Similarly, the scaling progression (bauble,
+prize, or wonder) is not usually relevant for relics. However, you might want to restrict yourself
+to only prizes and wonders when converting scaling items, since baubles aren't as impressive as
+relics should be.
+
+**Determine Minimum PC Level:** Since the abilities of a relic aren't explicitly tied to character
+levels, it's important to limit PCs' access to relics that would be too powerful for their level. In
+general, PCs should not gain access to a relic until their character level is at most 2 levels lower
+than the lowest-level ability of the scaling item on which that relic is based.
+
+**Combine Lower-Level Scaling Abilities:** Determine what level the PCs will likely be when they
+attain the relic. If this is higher than one or more of the item's scaling levels, combine all those
+levels' abilities into the base abilities of the item.
+
+**Turn Unlockable Abilities into Triumph Abilities:** Any remaining unlockable abilities can be
+unlocked by attaining triumphs rather than reaching a certain level. Look at your plans for what
+events will count as triumphs, because you might need to combine multiple unlockable abilities into
+one. This can happen if there's a long level gap between triumphs and you need to make each one
+stronger to catch up with the PCs' expected level.

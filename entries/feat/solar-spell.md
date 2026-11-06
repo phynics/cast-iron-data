@@ -1,0 +1,35 @@
++++
+id = "ref/feat/solar-spell"
+kind = "feat"
+title = "Solar Spell"
+source_ids = ["cohorts-and-companions"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "solar_spell", path = "json/feat14.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Metamagic"]
+benefit = "Any spell you cast with the light descriptor is fortified with the cleansing energies of the sun. If the spell creates an area of light, all creatures are dazzled for as long as they remain within the spell's area. Oozes, fungal creatures, creatures from the Shadow Plane, and undead must also succeed at a Will save (DC 10 + the spell level + your Wisdom or Charisma bonus) or take a -2 penalty on attack rolls, damage rolls, saving throws, skill checks, and ability checks for as long as they remain within the spell's area. If the spell normally dazzles or blinds affected creatures with a duration other than instantaneous or permanent, the duration of that effect is increased by a number of rounds equal to the spell's original level. Saving throws to remove the effect early still apply and can bypass this increase."
++++
+
+## Solar Spell (Metamagic)
+
+**Sources:** Cohorts and Companions pg 15
+
+Your spells erupt with the searing light of the sun, blinding or burning creatures of evil.\
+**Benefit:** Any spell you cast with the light descriptor is fortified with the cleansing energies
+of the sun. If the spell creates an area of light, all creatures are [dazzled](ref/misc/dazzled) for
+as long as they remain within the spell's area. Oozes, fungal creatures, creatures from the Shadow
+Plane, and undead must also succeed at a Will save (DC 10 + the spell level + your Wisdom or
+Charisma bonus) or take a -2 penalty on attack rolls, damage rolls, saving throws, skill checks, and
+ability checks for as long as they remain within the spell's area. If the spell normally dazzles or
+[blinds](ref/misc/blinded) affected creatures with a duration other than instantaneous or permanent,
+the duration of that effect is increased by a number of rounds equal to the spell's original level.
+Saving throws to remove the effect early still apply and can bypass this increase.
+
+If the spell deals more damage against oozes, fungal creatures, creatures from the Shadow Plane, or
+undead with a specific vulnerability to sunlight, the spell deals 1 additional point of damage per
+die against such creatures.
+
+A solar spell uses up a spell slot 1 level higher than the spell's actual level.

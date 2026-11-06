@@ -1,0 +1,24 @@
++++
+id = "ref/trait/burned"
+kind = "trait"
+title = "Burned"
+source_ids = ["quests-and-campaigns"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "burned", path = "json/traits03.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Drawback"
++++
+
+**Type:** Drawback
+
+**Flavor:** You were badly burned once by volcanic ash, torch-wielding mobs, or some fiery accident,
+and the scars pain you terribly you whenever you are too near to fire.
+
+**Benefit:** You take a -1 penalty on saving throws against fire effects. In addition, whenever you
+are adjacent to open flames or are on fire, you take a -1 penalty on all attack rolls, saving
+throws, and skill checks until you spend an entire round away from fire. These penalties are not
+cumulative. (An instantaneous fire effect adjacent to you or affecting you causes this penalty to
+apply until 1 round after it is gone.)

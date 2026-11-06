@@ -1,0 +1,37 @@
++++
+id = "ref/magic-weapon/karusetsu-the-cutting-light"
+kind = "item"
+title = "Karusetsu, the Cutting Light"
+source_ids = ["pathfinder-54-the-empty-throne"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "karusetsu_the_cutting_light", path = "json/magic_weapon2.json" },
+]
+
+[fields]
+kind = "item"
+price = "67,500 gp"
+weight = "8 lbs."
+slot = "none"
+aura = "strong evocation"
+caster_level = "13th"
++++
+
+**Sources:** Pathfinder \#54: The Empty Throne pg 60\
+**Aura** strong evocation; **CL** 13th\
+**Slot** none; **Price** 67,500 gp; **Weight** 8 lbs.
+
+This exquisitely detailed +3 [nodachi](ref/eq-weapon/nodachi) comes sheathed in a black-lacquered
+scabbard with gold filigree. Its hilt is wrapped in red [dragonhide](ref/eq-material/dragonhide),
+and a single golden feather hangs from the pommel. Karusetsu enables its wielder to execute a
+flourishing slash three times per day in the direction of a single distant opponent (i.e., one not
+already engaged in melee combat with the wielder) up to 60 feet away. This flourishing slash
+projects a plane of scintillating force across the intervening distance, functioning as a ranged
+attack with a thrown weapon using the wielder's highest base attack bonus. On a successful hit, the
+blade's cutting light deals 4d6+3 points of force damage to the target, with a threat range of 18-20
+and a critical multiplier of ×2. In addition, a creature struck by the cutting light must succeed at
+a DC 14 Reflex save or be [blinded](ref/misc/blinded) for 1d4 rounds.
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
+[mage's sword](ref/spell/mages-sword), [searing light](ref/spell/searing-light); **Price** 33,930 gp

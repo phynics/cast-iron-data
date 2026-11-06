@@ -1,0 +1,18 @@
++++
+id = "ref/slayertalent/extra-earthcraft"
+kind = "rule"
+title = "Extra Earthcraft"
+source_ids = ["elemental-masters-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "extra_earthcraft", path = "json/class_ability_slayer_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Extra Earthcraft&FN&**
+
+**Ability:** The slayer gains 2 additional earthcraft points each day.
+
+**Prereq:** [Earthcraft](ref/arc-rogue/earthshadow) ability

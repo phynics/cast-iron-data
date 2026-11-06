@@ -1,0 +1,42 @@
++++
+id = "ref/rule/countering-influence"
+kind = "rule"
+title = "Countering Influence"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "countering_influence", path = "json/rules_subsystems04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Intrigue pg 106
+
+A character can attempt an influence check with the goal of lowering an enemy's influence level over
+an NPC rather than raising her own. The DC for this kind of influence check is based on the enemy's
+influence level with the NPC in question. The sabotaging character gains a +2 bonus on these checks
+if she has minor sway over that NPC, a +4 bonus if she has moderate sway, or a +6 bonus if she has
+major sway. Sabotaging an NPC's influence level requires as many successes as the enemy would need
+to increase his influence level with that NPC. A sabotaging character who knows of an NPC's
+strengths can use that knowledge to ascribe unfavorable characteristics to the enemy she hopes to
+sabotage. If these disparaging descriptions are true (or if the NPC believes them to be true), the
+saboteur gains a +2 bonus per strength on influence checks to counter the enemy's influence.
+
+This mechanic is appropriate when the saboteur and the enemy she is trying to sabotage are on
+roughly equal footing, or when the saboteur has a higher level of influence. A saboteur wishing to
+erode the influence of a far more trusted individual, such as a group seeking to convince a queen
+that her closest advisor is betraying her, either cannot attempt to lower the trusted individual's
+influence level without first gathering substantial evidence against the advisor, or might not be
+able to lower the advisor's influence level at all in some circumstances.
+
+For example, suppose Merisiel has achieved moderate sway over the mayor, and Ezren has achieved
+minor sway over the mayor. The DC for Ezren to influence the mayor with Diplomacy is 23, with two
+successful checks required, and the DC for Merisiel to influence the mayor with Diplomacy is 27,
+with three successful checks required (since it is harder for her to move from holding moderate sway
+to major sway). If Merisiel wanted to lower Ezren's influence over the mayor from minor sway to no
+sway, she would need to succeed at two DC 23 Diplomacy checks, with a +4 bonus from her moderate
+sway, to make a persuasive case that Ezren should not be trusted. Since the mayor is deeply
+religious, Merisiel reminds the mayor of Ezren's detachment from religion to gain another +2 bonus.
+On the other hand, if Ezren wanted to lower Merisiel's influence level with the mayor, he would need
+to succeed at three DC 27 Diplomacy checks, with a +2 bonus from his minor sway.

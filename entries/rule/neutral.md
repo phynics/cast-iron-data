@@ -1,0 +1,31 @@
++++
+id = "ref/rule/neutral"
+kind = "rule"
+title = "Neutral"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "neutral", path = "json/rules_basics01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 135
+
+Our whims and desires are irrelevant, compared to the turning wheel of the world. I am who I am.
+Trust no one but your friends and family. The wheel turns in spite of us. Systems come and go. All
+empires fade. Time is a healer. The seasons never change. The sun does not care what it rises over.
+
+**Core Concepts:** Balance, cycles, equality, harmony, impartiality, inevitability, nature, seasons
+
+A neutral character is unusual in that she may have one of two distinct philosophies: she may be a
+person who is neutral because of distrust or apathy toward others, or one who wishes to have a truly
+neutral stance in the world and rejects extremism.
+
+A neutral character could seem selfish or disinterested. She might be driven primarily by an
+acceptance of fate, and the most extreme followers of this alignment become hermits, hiding from the
+zealots of the world. Some neutral characters, however, strive openly for neutrality, and shun any
+act that veers too extremely toward any alignment. This type of neutral character prides herself on
+navigating her way between law and chaos, evil and good. She may have a fatalistic view in the face
+of nature and the fundamental power of night and day.

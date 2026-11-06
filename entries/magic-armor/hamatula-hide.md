@@ -1,0 +1,41 @@
++++
+id = "ref/magic-armor/hamatula-hide"
+kind = "item"
+title = "Hamatula Hide"
+source_ids = ["ultimate-equipment"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "hamatula_hide", path = "json/magic_armor.json" },
+]
+
+[fields]
+kind = "item"
+price = "44,215 gp"
+weight = "12 lbs."
+slot = "armor"
+aura = "moderate transmutation"
+caster_level = "9th"
++++
+
+**Sources:** Ultimate Equipment pg 127\
+**Aura** moderate transmutation; **CL** 9th\
+**Slot** armor; **Price** 44,215 gp; **Weight** 12 lbs.
+
+Crafted from the flayed skin of a [barbed devil](ref/monster/devil-barbed-devil-hamatula), this
+imposing +2 [spiked](ref/eq-armorenh/armor-spikes) [hide](ref/eq-armor/hide) armor weighs half the
+normal weight. When its wearer rages, the armor's spikes elongate and the hide bonds to her skin,
+providing fire resistance 10. Any creature that strikes the wearer with a melee weapon, unarmed
+strike, or a natural weapon while the spikes are elongated takes 1d8+6 points of piercing damage
+from the armor's barbs (unless using a weapon with reach). While the wearer is enraged, spells that
+cause additional damage to evil outsiders deal that increased damage to her.
+
+A barbarian with fiend totem rage powers gains additional benefits from hamatula hide. If she has
+the lesser fiend totem rage power, she gains a +1 profane bonus to Armor Class while raging. If she
+has the fiend totem rage power, the damage caused by her barbs increases to 2d8+6 and stacks with
+the barbed defense granted by the armor. If she has the greater fiend totem ability, she gains fire
+resistance 20 when raging.
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
+[polymorph](ref/spell/polymorph), [resist energy](ref/spell/resist-energy) (fire); **Price** 22,215
+gp

@@ -1,0 +1,42 @@
++++
+id = "ref/magic-wondrous/armigers-panoply"
+kind = "item"
+title = "Armiger's Panoply"
+source_ids = ["knights-of-the-inner-sea"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "armigers_panoply", path = "json/magic_wondrous_shoulders_wrists.json" },
+]
+
+[fields]
+kind = "item"
+price = "7,200 gp"
+weight = "1 lbs."
+slot = "wrists"
+aura = "faint transmutation"
+caster_level = "3rd"
++++
+
+**Sources:** Knights of the Inner Sea pg 30\
+**Aura** faint transmutation; **CL** 3rd\
+**Slot** wrists; **Price** 7,200 gp; **Weight** 1 lbs.
+
+An armiger's panoply is a magic item set made up of one pair of bracers and a large leather sack.
+The bracers are normally forearm guards made in the style of [masterwork](ref/rule/masterwork-armor)
+[padded](ref/eq-armor/padded) or [quilted cloth](ref/eq-armor/quilted-cloth) armor. They are often
+made of silk or high-quality linen, though they can also be crafted of leather or even chain links.
+A command word is normally inscribed on the inside of one of the bracers. The sack can be used to
+store a single suit of armor, including a shield. The armor retains its normal weight when stored.
+If items other than a suit of armor and a shield are put in the sack, they immediately fall through.
+
+Three times per day, the wearer of the bracers can speak the panoply's command word to have the suit
+of armor and shield stored in the sack teleport onto the wearer. The sack must be within 500 feet of
+the wearer of the bracers in order to function. If the wearer is already in a suit of armor, it is
+teleported into the sack at the same time the new armor is teleported onto the user's body. As long
+as the armor to be worn is the same size as the user, it fits perfectly and doesn't interfere with
+anything else worn or hindering the user, including any grapple or tight space the wearer might be
+trapped in.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[effortless armor](ref/spell/effortless-armor); **Cost** 3,600 gp

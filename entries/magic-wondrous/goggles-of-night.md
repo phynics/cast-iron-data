@@ -1,0 +1,32 @@
++++
+id = "ref/magic-wondrous/goggles-of-night"
+kind = "item"
+title = "Goggles of Night"
+source_ids = ["ultimate-equipment", "core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "goggles_of_night", path = "json/magic_wondrous_eyes_feet_hands.json" },
+]
+
+[fields]
+kind = "item"
+price = "12,000 gp"
+weight = "-"
+slot = "eyes"
+aura = "faint transmutation"
+caster_level = "3rd"
++++
+
+**Sources:** Ultimate Equipment pg 226, PRPG Core Rulebook pg 515\
+**Aura** faint transmutation; **CL** 3rd\
+**Slot** eyes; **Price** 12,000 gp; **Weight** -
+
+The lenses of this item are made of violet crystal. Even though the lenses are opaque, when placed
+over the eyes of the wearer, they enable him to see normally and also grant him 60-foot
+[darkvision](ref/rule/darkvision).
+
+Both lenses must be worn for the magic to be effective.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[darkvision](ref/spell/darkvision); **Cost** 6,000 gp

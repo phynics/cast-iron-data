@@ -1,0 +1,27 @@
++++
+id = "ref/rule/spells-known"
+kind = "rule"
+title = "Retraining Spells Known"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "spells_known", path = "json/rules_adv_pc01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 191
+
+If you are a spontaneous spellcaster (such as a bard, oracle, sorcerer, or summoner), you can
+retrain a spell known. This retraining takes 2 days per spell level of the new spell (or 1 day in
+the case of a cantrip or orison) and requires a trainer who can cast the spell you want. The trainer
+must cast the same kind of spells as you do (arcane or divine).
+
+The spell with which you're replacing the previous spell must be another from your class spell list.
+The new spell must be one you could place in the old spell's spell slot. Note that this retraining
+is unrelated to the ability of sorcerers (or other spontaneous spellcasters) to learn a new spell in
+place of an old one at certain class levels. That class ability is free, happens instantly when the
+character gains an appropriate level in the spellcasting class, doesn't require a trainer, and can
+happen only once for any appropriate class level. Retraining a spell known requires you to spend gp,
+takes time, requires a trainer, and can happen as often as you want.

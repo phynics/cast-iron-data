@@ -1,0 +1,29 @@
++++
+id = "ref/trait/fruits-of-your-labor"
+kind = "trait"
+title = "Fruits of Your Labor"
+source_ids = ["blood-of-the-ancients"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "fruits_of_your_labor", path = "json/traits03.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Religion"
++++
+
+**Type:** Religion
+
+**Religion:** [Jaidi](ref/faith/jaidi)
+
+**Flavor:** You take pride in providing for your community.
+
+**Benefit:** Once per day you can serve a meal comprising food you have produced, purchased, or
+foraged to yourself and up to six other creatures. Serving and consuming this meal takes 10 minutes,
+during which the other participants can also partake in light activity such as conversation,
+reading, and keeping watch.
+
+Each creature regains 1d3 hit points at the end of the meal, and gains a +1 trait bonus on its next
+d20 roll using the [aid another](ref/rule/aid-another) action to assist other creatures who consumed
+the meal. The +1 trait bonus lasts 24 hours, and a creature can gain that bonus on its next d20 roll
+to assist other creatures from this trait only once per day.

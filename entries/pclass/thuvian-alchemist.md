@@ -1,0 +1,156 @@
++++
+id = "ref/pclass/thuvian-alchemist"
+kind = "prestige_class"
+title = "Thuvian Alchemist"
+source_ids = ["people-of-the-sands"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "thuvian_alchemist", path = "json/prestige_classes3.json" },
+]
+
+[fields]
+kind = "class"
+class_type = "prestige"
+hit_die = "d6."
++++
+
+**Sources:** People of the Sands pg 26
+
+Thuvian alchemy evolved from the herbalism and horticulture of the ancient Tekritanin League. Their
+cultivars and gardeners were renowned, but such peaceful pursuits waned in prominence when the
+expansionist pharaohs of Osirion remade the land into a staging ground for war against the Jistka
+Imperium to the west. The old ways nearly became extinct, yet the lore of the desert's delicate
+blooms never entirely disappeared.
+
+Though the great libraries and conservatories were gone, simple tribal botanists passed what they
+could from generation to generation. Even the most warlike clan chiefs realized careful cultivation
+was the key to survival in this harsh and unforgiving land. Then, when Artokus Kirran discovered the
+[sun orchid elixir](ref/magic-artifact/sun-orchid-elixir) in 1140 AR, the long-neglected art of
+herbalism and the reinvigorated science of alchemy intertwined to create something entirely new - a
+practice that has since flourished in modern Thuvia and given rise to the renowned Thuvian
+alchemists.
+
+### Requirements
+
+To qualify to become a Thuvian alchemist, a character must fulfill all the following criteria.
+
+**Feat:** [Brew Potion](ref/feat/brew-potion).\
+**Skills:** Craft (alchemy) 5 ranks, Knowledge (nature) 5 ranks, Profession (herbalist) 5 ranks,
+Spellcraft 5 ranks.\
+**Special:** Ability to cast 2nd-level arcane spells or create 2nd-level extracts.
+
+### Class Skills
+
+The Thuvian Alchemist's class skills are [Heal](ref/skill/heal) (Wis),
+[Knowledge (nature)](ref/skill/knowledge-nature) (Int), [Spellcraft](ref/skill/spellcraft) (Int),
+[Survival](ref/skill/survival) (Wis), and [Use Magic Device](ref/skill/use-magic-device) (Cha).
+
+**Skill Points at each Level:** 2 + Int modifier.\
+**Hit Die:** d6.
+
+### Class Features
+
+|Level|Base Attack Bonus|Fort Save|Ref Save|Will Save|Special|Spells Per Day|
+| --- | --- | --- | --- | --- | --- | --- |
+|1st|+0|+0|+0|+1|Healing solution|+1 level of arcane spellcasting class|
+|2nd|+1|+1|+1|+1|Thuvian discovery|+1 level of arcane spellcasting class|
+|3rd|+1|+1|+1|+2|Bombs, curative enhancement|+1 level of arcane spellcasting class|
+|4th|+2|+1|+1|+2|Thuvian discovery|+1 level of arcane spellcasting class|
+|5th|+2|+2|+2|+3|Curative enhancement|+1 level of arcane spellcasting class|
+|6th|+3|+2|+2|+3|Bombs, Thuvian discovery|+1 level of arcane spellcasting class|
+|7th|+3|+2|+2|+4|Curative enhancement|+1 level of arcane spellcasting class|
+|8th|+4|+3|+3|+4|Thuvian discovery|+1 level of arcane spellcasting class|
+|9th|+4|+3|+3|+5|Bombs, curative enhancement|+1 level of arcane spellcasting class|
+|10th|+5|+3|+3|+5|Eternal youth|+1 level of arcane spellcasting class|
+
+The following are class features of the Thuvian alchemist prestige class.
+
+**Weapon and Armor Proficiency:** A Thuvian alchemist gains no additional weapon or armor
+proficiencies.
+
+**Extracts or Spells per Day:** When a Thuvian alchemist gains a level, she gains new extracts or
+spells per day as if she had also gained a level in [alchemist](ref/class/alchemist) or in an arcane
+spellcasting class to which she belonged before adding the prestige class. She does not, however,
+gain other benefits a character of that class would have gained, except for additional extracts or
+spells per day, spells known (if she is a spontaneous caster), and an increased effective caster
+level for extracts or spells. If she had more than one arcane spellcasting class before becoming a
+Thuvian alchemist, or had the alchemist class and an arcane spellcasting class, she must decide to
+which class she adds the new level for the purpose of determining extracts or spells per day.
+
+**Healing Solution (Su):** A Thuvian alchemist learns how to convert magical reagents into
+life-giving admixtures. As a full-round action, she can convert the magical energies of two extracts
+or spells of 1st level into a special extract of [cure light wounds](ref/spell/cure-light-wounds).
+This acts as an infused extract, but it must be used before the end of her next turn or its power is
+lost. At 3rd level and every 2 levels thereafter, a Thuvian alchemist gains the ability to convert
+extracts or spells into more powerful forms of curative magic:
+3rd-[cure moderate wounds](ref/spell/cure-moderate-wounds);
+5th-[cure serious wounds](ref/spell/cure-serious-wounds);
+7th-[cure critical wounds](ref/spell/cure-critical-wounds);
+9th-[breath of life](ref/spell/breath-of-life). In all cases, the Thuvian alchemist must expend two
+extracts or spells of the same level as the curative spell in order to complete the conversion.
+
+**Thuvian Discovery:** At 2nd level and again at 4th, 6th, and 8th level, a Thuvian alchemist gains
+a new alchemist discovery from one of the rare Thuvian discoveries below or from the following list:
+bottled ooze, combine extracts, dilution, elixir of life, enhance potion, eternal potion, extend
+potion, healing touch, infusion, mummification, preserve organs, sandstone solution, or spontaneous
+healing. The Thuvian alchemist must still meet all prerequisites for a Thuvian discovery, including
+level restrictions. Thuvian alchemist class levels stack with alchemist levels for the purpose of
+qualifying for and using these discoveries (but not others). Thuvian discoveries cannot be selected
+by characters without Thuvian alchemist levels.
+
+> **Bottled Elemental (Su):** This functions like the bottled ooze discovery, but allows the Thuvian
+> alchemist to instead reconstitute an elemental that bursts forth when the bottle is broken.
+> Creating a bottled elemental requires an extract 1 level lower than the elemental's CR (minimum
+> 1st level). The Thuvian alchemist must have the bottled ooze discovery and be at least 8th level
+> before selecting this Thuvian discovery.
+>
+> **Capture Elemental (Sp):** A Thuvian alchemist can capture an elemental inside a specially
+> prepared bottle, vial, or flask, as if using [trap the soul](ref/spell/trap-the-soul) as a
+> [spell-like ability](ref/umr/spell-like-abilities), though this ability affects only elementals.
+> Preparing the bottle costs 500 gp per Hit Die of the elemental to be trapped and takes 1 day per
+> 1,000 gp of value. If the Thuvian alchemist tries to capture an elemental with too many Hit Dice,
+> the bottle shatters. The Thuvian alchemist must have the bottled elemental discovery and be at
+> least 12th level before selecting this Thuvian discovery.
+>
+> **Extra Curative Enhancement (Ex):** The Thuvian alchemist can select one additional curative
+> enhancement that she can incorporate into her healing solution.
+>
+> **Shared Infusion (Su):** When a Thuvian alchemist creates an infusion extract of a spell that
+> normally affects multiple targets, the extract can affect a number of targets equal to her
+> Intelligence bonus (up to the maximum normally allowed for the spell), though each creature must
+> use a standard action to imbibe the extract. Only creatures that drink from the extract within 1
+> round of when the first imbiber starts drinking it are affected. A Thuvian alchemist must have the
+> infusion discovery before selecting this discovery.
+
+**Bombs:** At 3rd level and every 3 levels thereafter, a Thuvian alchemist adds 1d6 points of damage
+to her bomb damage, gains one additional bomb per day, and treats her alchemist level as 1 higher
+for the purpose of qualifying for discoveries that affect her bombs. A character without alchemist
+levels gains the bombs ability of an alchemist whose level is equal to 1/3 her Thuvian alchemist
+level.
+
+**Curative Enhancement (Su):** At 3rd level and every 2 levels thereafter, a Thuvian alchemist can
+select one curative enhancement. Whenever the Thuvian alchemist creates a healing solution by
+expending two extracts or spells, she may reduce the amount of hit point damage cured by one step
+(reducing a healing solution of cure moderate wounds to one of cure light wounds, for instance) in
+order to apply any number of her curative enhancements to her healing solution. These enhancements
+can remove conditions caused by curses, diseases, or poisons even if they do not remove the
+underlying affliction itself; the conditions return after 1 hour unless the curative enhancement
+actually removes the affliction that causes the condition.
+
+At 3rd level, a Thuvian alchemist can select one of the following conditions that her healing
+solution can remove: fatigued, shaken, or sickened.
+
+At 5th level, she can also select dazed, diseased (as [remove disease](ref/spell/remove-disease)),
+or staggered.
+
+At 7th level, she can also select cursed (as [remove curse](ref/spell/remove-curse)), exhausted
+(must already have selected fatigued), frightened (must already have selected shaken), nauseated
+(must already have selected sickened), or poisoned (as neutralize poison).
+
+At 9th level, she can also select blinded, deafened, paralyzed, or stunned.
+
+Once chosen, a curative enhancement cannot be changed, but the Thuvian alchemist can choose which
+enhancements (if any) she incorporates each time she prepares a healing solution.
+
+**Eternal Youth (Su):** At 10th level, a Thuvian alchemist learns how to formulate an imperfect
+duplicate of the sun orchid elixir that affects only her. This functions as the eternal youth grand
+discovery.

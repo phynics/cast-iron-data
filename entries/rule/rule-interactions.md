@@ -1,0 +1,67 @@
++++
+id = "ref/rule/rule-interactions"
+kind = "rule"
+title = "Rule Interactions"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "rule_interactions", path = "json/rules_campaign_types08.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Occult Adventures pg 205
+
+Several different mechanics allow a creature to influence or control another creature, and sometimes
+it isn't clear how these competing effects should play out, whether it be possession versus
+compulsion or even possession versus possession. These systems interact in the following ways.
+
+Possession versus Charm and Compulsion: Possession overrides charms and compulsions that are in
+control of another creature. Neither type of effect prevents the other from functioning, but
+possession bypasses the mind and takes direct physical control of the body - which may result in a
+possessor enslaving an intelligence that is essentially helpless already because of a compulsion.
+Compulsion and charm effects move with the mind or soul of the creature originally targeted. For
+example, if you cast [mind swap](ref/spell/mind-swap) on a dominated creature, the domination effect
+remains active but transfers with the originally dominated mind to its new host body, and a
+dominated creature capable of possession could possess another creature while still remaining
+dominated.
+
+If the host's mind or soul is not displaced from the body, a dominating creature can still
+telepathically interact with its now-possessed target, even though the target is helpless within its
+own hijacked body. The dominating creature can even command the target to explain what the host body
+is doing, if the host has access to its senses.
+
+Conversely, a caster can target a possessing creature with a compulsion or charm effect. If the
+possessing creature is the only mind or soul in the host body, the compulsion or charm effect works
+on the possessing creature normally. If the possessing creature is later evicted from the body, the
+compulsion or charm effect remains active on the possessing creature when it returns to its original
+body. For instance, if a mesmerist is using _[mind swap](ref/spell/mind-swap)_ on a bard, and a
+[succubus](ref/monster/demon-succubus) uses her [dominate monster](ref/spell/dominate-monster)
+[spell-like ability](ref/umr/spell-like-abilities) when she meets the possessed bard, the mesmerist
+must attempt a saving throw against the spell. If he fails, the mesmerist becomes dominated by the
+succubus, and when his possession ends and he returns to his body, he remains at the mercy of his
+new mistress.
+
+When both the host creature and a possessing creature occupy a body at the same time, a charm or
+compulsion effect can target either one. However, the caster must be aware of the possessing
+creature's presence in the host body in order to target it. Otherwise, the effect targets the host
+by default, generally with limited effect.
+
+Possession versus Divination Effects: Possession does nothing to obfuscate or block most divination
+spells. For example, if an evil mesmerist is possessing a paladin,
+[detect evil](ref/spell/detect-evil) will sense the presence of an evil creature when the paladin's
+body enters the area of effect. The Hidden Presence feat can assist a possessing creature in foiling
+divinations. If a creature's body and soul are in two different locations, as in the case of a
+caster of [magic jar](ref/spell/magic-jar), divination spells that depend on location, such as
+[locate creature](ref/spell/locate-creature) or [scrying](ref/spell/scrying), fail to produce
+results. The exception is [discern location](ref/spell/discern-location); this powerful spell
+provides both locations unless the body and soul are protected by [mind blank](ref/spell/mind-blank)
+or a deity.
+
+Possession versus Possession: If you attempt to possess a creature that is already possessed, the
+possessing creature must succeed at the [possession](ref/spell/possession) spell's save or be
+ejected, allowing you to enter the host. If the possessing creature voluntarily fails its save,
+first that creature is automatically ejected and then the host attempts the Will save instead. A
+possession effect that doesn't allow a saving throw automatically causes the possessing creature to
+be ejected.

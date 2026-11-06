@@ -1,0 +1,103 @@
++++
+id = "ref/magic-artifact/synchrony-device"
+kind = "item"
+title = "Synchrony Device"
+source_ids = ["pathfinder-126-beyond-the-veiled-past"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "synchrony_device", path = "json/magic_artifact3.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "16,800 lbs."
+slot = "none"
+aura = "overwhelming conjuration"
+caster_level = "21st"
++++
+
+**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 66\
+**Aura** overwhelming conjuration; **CL** 21st\
+**Slot** none; **Price** -; **Weight** 16,800 lbs.
+
+The Synchrony Device is a large, spherical mass of intertwining, spinning rings, each covered in
+complex runes and sigils. Designed by the Spindle Solution prior to Earthfall as a weapon of mass
+destruction, the device currently rests in a secure research facility known as the Compass.
+
+Activating the Synchrony Device involves manipulating the confusing, and often unlabeled, controls
+on the control dais beneath the device while attempting a variety of Knowledge and Disable Device
+checks, all of which have a minimum DC of 35. When doing so, the user sets the device's target,
+selecting any location eligible as the target of a [greater teleport](ref/spell/teleport-greater)
+spell, and the plane to which the device is to be attuned from the following options: Negative
+Energy Plane, Plane of Air, Plane of Earth, Plane of Fire, Plane of Water, and Positive Energy
+Plane.
+
+When it detonates, the device creates a 500-mile-radius [burst](ref/misc/burst), the effects of
+which depend on which plane it was attuned to when activated (as detailed below). The effects of the
+device are instantaneous unless otherwise noted.
+
+#### Negative Energy Plane
+
+When attuned to the Negative Energy Plane, the Synchrony Device fills its area of effect with raw
+negative energy, dealing 20d6 points of negative energy damage to all living creatures each round
+for 1 day. Any creature killed in this way is raised as a [zombie](ref/template/zombie) 2d6 minutes
+after its death. Creatures with 7 or more Hit Dice may instead become other types of undead, at the
+GM's discretion.
+
+#### Plane of Air
+
+A violent, concussive explosion issues from the Synchrony Device when it detonates while attuned to
+the Plane of Air. This burst deals 20d6 points of bludgeoning damage, deals double damage against
+objects, and bypasses objects' [hardness](ref/umr/hardness). For 1d6 weeks after detonation, the
+entire area of effect is filled with [powerful winds](ref/rule/winds), ranging in intensity from
+severe to hurricane force, with occasional [tornadoes](ref/rule/severe-events) spinning out from
+this mass, at the GM's discretion.
+
+#### Plane of Earth
+
+When the Synchrony Device is attuned to the Plane of Earth, the entire area of effect is
+instantaneously filled with solid stone upon detonation, except where earth or stone already exists.
+The sheer weight of this much earth crushes everything beneath or within it, save for creatures with
+the [earth glide](ref/umr/earth-glide) special ability or a burrow speed capable of burrowing
+through solid stone. Even then, all air within the area of effect is replaced with earth, smothering
+any creature that might survive the ordeal unless it can find a new source of air before it
+[suffocates](ref/rule/suffocation). If the Synchrony Device is detonated in water, the displaced
+water may flood land not directly in the area of effect. At the GM's discretion, this may
+additionally cause large-scale [earthquakes](ref/rule/earthquake) or
+[volcanic activity](ref/rule/volcano).
+
+#### Plane of Fire
+
+Roaring flames fill the area of effect of the Synchrony Device when it is attuned to the Plane of
+Fire. These flames deal 20d6 points of fire damage each round for 1 day, thoroughly immolating all
+creatures and structures within the burst. Additionally, any water within the area of effect is
+instantly vaporized and all oxygen is consumed, causing creatures with fire immunity that still need
+to breathe to [suffocate](ref/rule/suffocation).
+
+#### Plane of Water
+
+Attuning the Synchrony Device to the Plane of Water summons a veritable ocean centered on the point
+of detonation. This water floods the entire area of effect, drowning non-aquatic creatures, and
+potentially reshaping the landscape. Because water flows, and it is not restricted by the bounds of
+the device's target area, this effect may cause [landslides](ref/rule/avalanches),
+[severe flooding](ref/rule/floods), [tsunamis](ref/rule/tsunamis), and other disasters far beyond
+the initial target. Changing sea levels, creating new lakes or inland seas, and rerouting rivers are
+all possible as effects of the excess water.
+
+#### Positive Energy Plane
+
+Infusing the Material Plane with the overwhelming essence of the Positive Energy Plane may seem like
+the least destructive use of the Synchrony Device, but it comes with dire consequences many users
+may not consider. All undead in the area of effect take 20d6 points of positive energy damage per
+round for 1 day. All living creatures in the area of effect gain
+[fast healing](ref/umr/fast-healing) 5 as a special ability and gain 5 additional
+[temporary hit points](ref/rule/temporary-hit-points) each round. These temporary hit points fade
+1d20 rounds after a creature leaves the area of effect or the effects of the detonation expire. Each
+round during which a creature has temporary hit points above its total hit points, it must succeed
+at a DC 20 Fortitude saving throw or explode in a riot of radiant energy, which kills it.
+
+### Destruction
+
+The Synchrony Device must be carefully disassembled and each ring destroyed individually before the
+following ring is removed until reaching the device's [abysium](ref/eq-material/abysium) core, which
+must be contained and disposed of separately. Activating the device also destroys it.

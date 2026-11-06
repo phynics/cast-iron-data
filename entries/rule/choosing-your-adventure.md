@@ -1,0 +1,53 @@
++++
+id = "ref/rule/choosing-your-adventure"
+kind = "rule"
+title = "Choosing Your Adventure"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "choosing_your_adventure", path = "json/rules_gm04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 172
+
+Specifics of storytelling style and ongoing plots aside, all adventures find common elements in the
+settings where their action unfolds. In the Pathfinder RPG, certain settings come up again and
+again: taverns where heroes meet for the first time and rest between adventures, dungeons rife with
+traps and monsters, untamed wilds full of mystery and danger, cities teeming with cutpurses and
+political subtlety, vast seas where swashbucklers and cutthroats sail into the unknown, and
+otherworldly planes where the impossible takes shape. While adventures certainly might occur in
+other venues, most conform in one way or another to the general settings described here - including
+the microcosm of the tavern, due to its traditional importance in the game.
+
+When planning or playing an adventure, it often helps to have an understanding of what type of
+locale forms the setting for your adventure. Most of the time this proves obvious; when the PCs are
+shopping and carousing, they're likely in an urban setting, but when they're exploring the back
+country, they're probably in the wilderness. Such settings bring with them a variety of concerns and
+rules elements that the GM should be familiar with (or at least have on hand) as the adventure
+unfolds. If an adventure calls for the PCs to fight against privateers, for example, the GM should
+have the rules for swimming and drowning handy; it can also be helpful to know the parts of a ship
+and what creatures might randomly appear from the water. A major goal of this section is to collect
+these details and point the GM toward other useful pieces of information, providing much of the
+relevant details he needs to run a convincing adventure.
+
+Just because an adventure takes place in a standard setting doesn't mean that location always acts
+like a typical example of its kind. If the PCs find themselves slinking through the alleys of a drow
+city, the location likely functions much more like a dungeon than a city. By the same token, a
+forest under the effects of powerful fey magic might behave less like part of the wilderness and
+more akin to a plane unto itself. In such cases, rules not commonly associated with that type of
+setting might apply, driving home a sense of strangeness or menace that can help a setting feel all
+the more distinct. Thus, some of the most interesting and memorable uses of such elements might
+occur when they arise outside their typical settings.
+
+Once the GM knows what type of adventure he wants to run, consulting the details and special rules
+in this section and the Pathfinder RPG Core Rulebook can help highlight those aspects that make the
+chosen location unique. Players should be able to feel that adventuring in a dungeon, underwater,
+and on the planes are all distinctly different experiences, presenting unique challenges and
+choices. Melding the descriptions of such settings with game components that help drive home the
+feel and personality of an adventure site can add variation and detail to any story. If the GM can
+meld both the descriptive and rules elements of the game - whether through creativity, rules
+knowledge, well-reasoned improvisation, quick reference, or a combination of these traits - the
+players' roleplaying experiences will be all the richer.

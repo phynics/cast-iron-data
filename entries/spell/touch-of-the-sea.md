@@ -1,0 +1,55 @@
++++
+id = "ref/spell/touch-of-the-sea"
+kind = "spell"
+title = "Touch of the Sea"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "touch_of_the_sea", path = "json/spells10.json" },
+]
+
+[fields]
+kind = "spell"
+school = "transmutation"
+levels = [
+  { class = "Alchemist", level = 1 },
+  { class = "Arcanist", level = 1 },
+  { class = "Bloodrager", level = 1 },
+  { class = "Druid", level = 1 },
+  { class = "Hunter", level = 1 },
+  { class = "Investigator", level = 1 },
+  { class = "Red Mantis Assassin", level = 1 },
+  { class = "Sorcerer", level = 1 },
+  { class = "Wizard", level = 1 },
+]
+casting_time = "1 standard action"
+components = "V, S, M (a fish scale)"
+range = "touch"
+effects = [
+  { label = "Target", value = "creature touched" },
+]
+duration = "1 minute/level"
+saving_throw = "Fortitude negates (harmless)"
+spell_resistance = "yes (harmless)"
++++
+
+::: statblock
+title = "Spell statistics"
+School: transmutation
+Level: 1: Alchemist, Arcanist, Bloodrager, Druid, Hunter, Investigator, Red Mantis Assassin, Sorcerer, Wizard
+Casting time: 1 standard action
+Components: V, S, M (a fish scale)
+Range: touch
+Duration: 1 minute/level
+Saving throw: Fortitude negates (harmless)
+Spell resistance: yes (harmless)
+Target: creature touched
+:::
+
+**Sources:** Advanced Player's Guide pg 250
+
+You cause webs to grow between the target's fingers and its feet to transform into flippers,
+granting a swim speed of 30 feet along with the standard +8 bonus on Swim checks and the ability to
+take 10 even if distracted or endangered. You can also use the run action while swimming, provided
+you swim in a straight line. This transformation causes any boots or gloves the target is wearing to
+meld into its form (although magic items with a continuous effect continue to function). This spell
+does not grant the target any ability to breathe water.

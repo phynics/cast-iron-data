@@ -1,0 +1,44 @@
++++
+id = "ref/magic-wondrous/harborwing-cloak"
+kind = "item"
+title = "Harborwing Cloak"
+source_ids = ["merchants-manifest"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "harborwing_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
+]
+
+[fields]
+kind = "item"
+price = "5,200 gp"
+weight = "1 lb."
+slot = "shoulders"
+aura = "faint transmutation"
+caster_level = "3rd"
++++
+
+**Sources:** Merchant's Manifest pg 22\
+**Aura** faint transmutation; **CL** 3rd\
+**Slot** shoulders; **Price** 5,200 gp; **Weight** 1 lb.
+
+This white-hooded cloak is trimmed with seagull feathers. The cloak billows in the slightest breeze,
+and when the hood is drawn over the wearer's head, the cloak repels rainwater and seaspray, keeping
+the wearer dry. Harborwing cloaks were made by Varisian
+[mystery cultists](ref/pclass/mystery-cultist) (and put to less-sacred uses by Sczarni bandits) for
+centuries before Magnimar's founding, though they are used more widely today. Many who worship
+Ylimancha, empyreal lord of coastal waters, fisherfolk, and flying creatures, wear these cloaks.
+
+Three times per day, whenever the wearer of this cloak falls more than 5 feet, she can spend an
+immediate action to gain the benefits of _[feather fall](ref/spell/feather-fall)._ In addition, once
+per day, the wearer can command the cloak as a standard action to become a sheet of rippling,
+flowing water, causing attacks against her to take a 20% miss chance. While the cloak is in this
+liquid-like state, the wearer can use the [Stealth](ref/skill/stealth) skill to hide in rainy
+conditions (or similar areas, such as the spray of a waterfall) even if she is being observed, and
+she gains a +5 circumstance bonus on Stealth checks in such conditions. This effect lasts for 3
+minutes, and the duration need not be used all at once, but it must be used in 1-minute increments.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[create water](ref/spell/create-water), [feather fall](ref/spell/feather-fall),
+[invisibility](ref/spell/invisibility), creator must worship [Ylimancha](ref/faith/ylimancha);
+**Cost** 2,600 gp

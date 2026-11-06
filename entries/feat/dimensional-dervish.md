@@ -1,0 +1,30 @@
++++
+id = "ref/feat/dimensional-dervish"
+kind = "feat"
+title = "Dimensional Dervish"
+source_ids = ["ultimate-combat"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "dimensional_dervish", path = "json/feat04.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Ability to use the abundant step class feature or cast dimension door, Dimensional Agility, Dimensional Assault, base attack bonus +6."
+prerequisite_feats = ["ref/feat/dimensional-agility", "ref/feat/dimensional-assault"]
+benefit = "You can take a full-attack action, activating abundant step or casting *dimension door* as a swift action. If your do, you can teleport up to twice your speed (up to the maximum distance allowed by the spell or ability), dividing this teleportation into increments you use before your first attack, between each attack, and after your last attack. You must teleport at least 5 feet each time you teleport."
+special = "A monk can use additional points from his ki pool to increase his speed before determining the total speed for this teleportation."
++++
+
+**Sources:** Ultimate Combat pg 96
+
+You teleport with a mere thought, savaging your opponents as you flash in and out of reality.\
+**Prerequisites:** Ability to use the abundant step class feature or cast
+[dimension door](ref/spell/dimension-door), [Dimensional Agility](ref/feat/dimensional-agility),
+[Dimensional Assault](ref/feat/dimensional-assault), base attack bonus +6.\
+**Benefit:** You can take a full-attack action, activating abundant step or casting
+_[dimension door](ref/spell/dimension-door)_ as a swift action. If your do, you can teleport up to
+twice your speed (up to the maximum distance allowed by the spell or ability), dividing this
+teleportation into increments you use before your first attack, between each attack, and after your
+last attack. You must teleport at least 5 feet each time you teleport.\
+**Special:** A monk can use additional points from his ki pool to increase his speed before
+determining the total speed for this teleportation.

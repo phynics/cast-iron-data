@@ -1,0 +1,28 @@
++++
+id = "ref/rule/race-builder"
+kind = "rule"
+title = "Race Builder"
+source_ids = ["advanced-race-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "race_builder", path = "json/rules_gm07.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Advanced Race Guide pg 214
+
+There comes a point in nearly every campaign when someone - either one of the players or the GM -
+wants to create a new race. Sometimes the GM needs a new race to fill a story or ecological niche in
+her campaign world. Such races may be as simple as elves who dwell in an arctic climate or as
+complex as clockwork giants from another plane of existence. Perhaps a player wants to play a
+monstrous race, or has been inspired by some piece of fiction or flight of creative fancy and wants
+to create a race for a new character concept not yet seen in Pathfinder. The following rules allow
+GMs, or even players with GM oversight, to create new races that are balanced and mesh with the core
+races.
+
+In addition, these rules allow you to create powerful races meant to take on more challenging
+encounters than those typically faced by the core races. You can create new races, model a race
+after an existing monster, or even "power up" core races in order to play those races side-by-side
+with more powerful new races.

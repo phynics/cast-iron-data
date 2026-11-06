@@ -1,0 +1,49 @@
++++
+id = "ref/rule/flake"
+kind = "rule"
+title = "Flake"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "flake", path = "json/rules_gm02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 73
+
+The flake player is one that proves his type over a period of time. He might initially show up on
+time, fired up and ready to take on the world, but by the fourth game session he's apologizing for
+not showing up the week before. Suddenly he's showing up every third session, probably late, and
+looking to pick up where he left off.
+
+Now the GM has a potential conflict. While the flake has been gone, the other players have advanced
+their characters a few levels and he's behind them with an unresolved subplot. What should you do?
+
+First off, talk privately to the player to determine the reasons he hasn't been showing up.
+Sometimes life demands that we shift our attention elsewhere, and other players are generally
+understanding of those situations. Maybe there are interparty conflicts or a particular storyline
+that's been making the game less appealing. It's all about communication; no player should make
+other players wait 30 minutes to see if he's going to show up this week. Respecting other people's
+time goes a long way toward cultivating goodwill.
+
+Since any player can potentially turn into a flake, it's useful to avoid creating adventures that
+revolve around every player being present. It's fine to assume that a particular character
+participates in the adventure (run by you, if need be), but hinging everyone's fun on any one
+character makes it easy to be disappointed.
+
+It's good to have explicit rules for how you want to handle missing players. You might assign a
+penalty on earned experience if a player misses a game session, while letting him stay fairly close
+to the rest of the group in terms of advancement even when circumstances conspire to keep him away.
+This generally balances itself out over time, and everyone ends up fairly close in experience
+(making it much easier for you to plan encounters).
+
+To be respectful of others, try using e-mail or other electronic means to have players RSVP to the
+gaming session. This lets everyone know who is showing up. And if something happens at the last
+minute, players can contact everyone to let the group know.
+
+If a player missing out on sessions truly cripples a group, consider using NPCs to fill the same
+role. The rest of the party can temporarily adopt or hire these NPCs to make up for missing skills,
+and the NPC's wages are a small price to pay for a well-timed fireball or backstab - especially if
+they come out of the missing character's share of treasure.

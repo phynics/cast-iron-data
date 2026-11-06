@@ -1,0 +1,48 @@
++++
+id = "ref/eq-misc/bear-trap-offset"
+kind = "item"
+title = "Bear trap (offset)"
+source_ids = ["adventurers-armory-2"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "bear_trap_offset", path = "json/equipment_misc.json" },
+]
+
+[fields]
+kind = "item"
+price = "3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth)"
+weight = "10 lbs. Bear trap (offset), 20 lbs. Bear trap (sawtooth)"
++++
+
+## Bear Trap
+
+**Sources:** Adventurer's Armory 2 pg 16\
+**Price** 3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth); **Weight** 10 lbs. Bear trap
+(offset), 20 lbs. Bear trap (sawtooth)
+
+An **offset** bear trap is a specialized variety of a bear trap constructed with offset jaws coated
+in resin. It inflicts less damage on captured creatures but holds them more securely, and is
+therefore primarily used by trappers or bounty hunters who do not want to risk killing their prey.
+Offset bear traps are almost always secured to the ground by a heavy spike and chain so the captured
+creature can't wander far.
+
+A **sawtooth** bear trap has vicious jaws and tighter springs. Used primarily against humanoids or
+monsters rather than animals, sawtooth bear traps are often painted in camouflaged colors to blend
+in with the trap site. Most include locking plates over the spring mechanisms to prevent tampering
+by intelligent victims.
+
+> **Offset Bear Trap - CR 1/2**\
+> **Type** mechanical; **Perception** DC 15; **Disable Device** DC 20\
+> **Effects**\
+> **Trigger** location; **Reset** manual\
+> **Effect** Atk +10 melee (1d6+2); jaws spring shut around the creature's ankle and hold the
+> creature immobile; the creature can escape with a DC 20 Disable Device check, DC 24 Escape Artist
+> check, or DC 28 Strength check.
+>
+> **Sawtooth Bear Trap - CR 5**\
+> **Type** mechanical; **Perception** DC 25; **Disable Device** DC 25\
+> **Effects**\
+> **Trigger** location; **Reset** manual\
+> **Effect** Atk +15 melee (3d6+9); serrated jaws spring shut around the creature's ankle and halve
+> the creature's base speed (or hold the creature immobile if the trap is attached to a solid
+> object); the creature can escape with a DC 25 Disable Device check, DC 28 Escape Artist check, or
+> DC 32 Strength check.

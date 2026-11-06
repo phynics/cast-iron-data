@@ -1,0 +1,74 @@
++++
+id = "ref/npc/tribe-shaman"
+kind = "creature"
+title = "Tribe (Shaman)"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "tribe_shaman", path = "json/npcs2.json" },
+]
+
+[fields]
+kind = "creature"
++++
+
+**Tribe (Shaman)**
+
+**Challenge rating:** 5
+
+**Sources:** GameMastery Guide pg 307\
+**XP** 1,600\
+Human [adept](ref/npcclass/adept) 7\
+N Medium humanoid\
+**Init** -1; **Senses** Perception +1
+
+### Defense
+
+**AC** 12, touch 9, flat-footed 12 (+3 armor, -1 Dex)\
+**hp** 31 (7d6+7)\
+**Fort** +3, **Ref** +1, **Will** +6
+
+### Offense
+
+**Speed** 30 ft.\
+**Melee** mwk sickle +4 (1d6)\
+**Adept Spells Prepared** (CL 7th; concentration +8)\
+_2nd_-cure moderate wounds, [web](ref/spell/web) (DC 13)\
+_1st_-[bless](ref/spell/bless), [command](ref/spell/command) (DC 12),
+[cure light wounds](ref/spell/cure-light-wounds), [obscuring mist](ref/spell/obscuring-mist)\
+_0_-[guidance](ref/spell/guidance), [stabilize](ref/spell/stabilize),
+[touch of fatigue](ref/spell/touch-of-fatigue) (DC 11)
+
+### Statistics
+
+**Str** 10, **Dex** 8, **Con** 12, **Int** 12, **Wis** 13, **Cha** 11\
+**Base Atk** +3; **CMB** +3; **CMD** 12\
+**Feats** [Brew Potion](ref/feat/brew-potion), [Combat Casting](ref/feat/combat-casting),
+[Craft Wand](ref/feat/craft-wand), [Improved Familiar](ref/feat/improved-familiar),
+[Self-Sufficient](ref/feat/self-sufficient)\
+**Skills** Craft (alchemy) +10, Heal +12, Knowledge (history) +6, Knowledge (local) +6, Knowledge
+(nature) +6, Knowledge (religion) +6, Profession (herbalist) +10, Spellcraft +6, Survival +13\
+**Languages** Common, Ignan\
+**SQ** summon familiar (smoke mephit)\
+**Combat Gear** wand of [burning hands](ref/spell/burning-hands) (CL 5, 50 charges), wand of
+[cure moderate wounds](ref/spell/cure-moderate-wounds) (50 charges),
+[alchemist's fire](ref/eq-weapon/alchemists-fire) (2); **Other Gear** masterwork
+[studded leather](ref/eq-armor/studded-leather), masterwork [sickle](ref/eq-weapon/sickle),
+[wooden holy symbol](ref/eq-misc/wooden-holy-symbol), 4 gp\
+**Boon** A shaman can craft potions for PCs at a 10% discount or make up to three knowledge checks
+on their behalf. A shaman can also give them a sacred token that grants a +2 circumstance bonus on
+Diplomacy checks with tribes within a 20-mile radius.
+
+### Description
+
+Shamans are the keepers of wisdom, myth, and medicine, the watchers over birth, life, and death
+within primitive tribes. They keep the ancient rites and appease the nature spirits, reading the
+signs in the smoke and tending the pyres of the honored dead while calling down a burning wrath upon
+those who would violate the tribe's territory and way of life.
+
+Shamans may tend to good or neutral tribes with long histories and heroic traditions, or might be
+sinister witch doctors urging depraved cannibal tribes to darker evils. They are usually found in
+the wilds, but may be encountered in towns or cities, particularly if drawn there by visions or the
+voices of the spirits.
+
+A shaman may keep a gladiator, monster hunter, or raider as her bodyguard (CR 7), or might have two
+doomsayers as apprentice shamans (CR 6).

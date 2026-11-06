@@ -1,0 +1,57 @@
++++
+id = "ref/spell/sirocco"
+kind = "spell"
+title = "Sirocco"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sirocco", path = "json/spells9.json" },
+]
+
+[fields]
+kind = "spell"
+school = "evocation"
+descriptors = ["air", "fire"]
+levels = [
+  { class = "Arcanist", level = 6 },
+  { class = "Druid", level = 6 },
+  { class = "Hunter", level = 6 },
+  { class = "Magus", level = 6 },
+  { class = "Occultist", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Wizard", level = 6 },
+]
+casting_time = "1 standard action"
+components = "V, S, M/DF (handful of fine sand cast into the air)"
+range = "medium (100 ft. + 10 ft./level)"
+effects = [
+  { label = "Area", value = "cylinder (20-ft. radius, 60 ft. high)" },
+]
+duration = "1 round/level (D)"
+saving_throw = "Fortitude partial, see text"
+spell_resistance = "yes"
++++
+
+::: statblock
+title = "Spell statistics"
+School: evocation
+Level: 6: Arcanist, Druid, Hunter, Magus, Occultist, Sorcerer, Wizard
+Casting time: 1 standard action
+Components: V, S, M/DF (handful of fine sand cast into the air)
+Range: medium (100 ft. + 10 ft./level)
+Duration: 1 round/level (D)
+Saving throw: Fortitude partial, see text
+Spell resistance: yes
+Area: cylinder (20-ft. radius, 60 ft. high)
+Descriptors: air, fire
+:::
+
+**Sources:** Advanced Player's Guide pg 244
+
+A blast of furnace-hot wind blasts downward, inflicting 4d6 fire damage +1 point per caster level to
+all creatures in the area and knocking them prone. A successful Fortitude save halves the fire
+damage and negates being knocked prone. Flying creatures forced into the ground by the powerful
+downdraft take damage as if they fell unless they make a DC 15 Fly check, in which case they remain
+at their original altitude. Any creature that takes damage from a sirocco becomes fatigued (or
+exhausted, if already fatigued, such as from a previous round of exposure to a sirocco spell).
+Creatures with the water subtype take a -4 penalty on all saving throws against this spell and take
+double normal damage.

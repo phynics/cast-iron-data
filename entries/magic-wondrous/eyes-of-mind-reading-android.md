@@ -1,0 +1,40 @@
++++
+id = "ref/magic-wondrous/eyes-of-mind-reading-android"
+kind = "item"
+title = "Eyes of Mind Reading (Android)"
+source_ids = ["inner-sea-races"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "eyes_of_mind_reading_android", path = "json/magic_wondrous_eyes_feet_hands.json" },
+]
+
+[fields]
+kind = "item"
+price = "11,000 gp"
+weight = "1/2 lb."
+slot = "eyes"
+aura = "faint divination"
+caster_level = "3rd"
++++
+
+**Sources:** Inner Sea Races pg 231\
+**Aura** faint divination; **CL** 3rd\
+**Slot** eyes; **Price** 11,000 gp; **Weight** 1/2 lb.
+
+The following wondrous item is generally available only to members of the indicated race or
+ethnicity.
+
+These large goggles feature adjustable lenses. When calibrated correctly, they sense the thoughts of
+a particular creature and send them into the wearer's mind. If the wearer spends 3 rounds studying a
+creature, spending a standard action each round to calibrate the lenses, she may scan a target's
+surface thoughts as if she had spent 3 rounds studying the target with
+_[detect thoughts](ref/spell/detect-thoughts)._ The target can attempt a DC 13 Will save to negate
+the effect. The wearer must spend three consecutive standard actions each time she wishes to read
+the mind of a new creature.
+
+If the wearer is an [android](ref/race/android), he can spend a nanite surge to immediately detect
+surface thoughts instead of concentrating for 3 rounds.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[detect thoughts](ref/spell/detect-thoughts), creator must be an android; **Cost** 5,500 gp

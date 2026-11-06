@@ -1,0 +1,26 @@
++++
+id = "ref/feat/lesser-spell-synthesis"
+kind = "feat"
+title = "Lesser Spell Synthesis"
+source_ids = ["chronicle-of-legends"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "lesser_spell_synthesis", path = "json/feat10.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Combined spells class feature."
+benefit = "Once per day as a full-round action, you can cast two spells, each from a different spellcasting class. Both spells must have a casting time of 1 standard action and must be a spell level equal to or lower than the level of spells you can prepare with the combined spells ability. You can make any decisions concerning the spells, such as the spells' targets, independently."
+special = "You can gain this feat multiple times. Each time you take the feat, you can use this ability one additional time per day."
++++
+
+**Sources:** Chronicle of Legends pg 9
+
+Your skill in two different branches of magic allows you to combine your powers in unorthodox ways.\
+**Prerequisites:** Combined spells class feature.\
+**Benefit:** Once per day as a full-round action, you can cast two spells, each from a different
+spellcasting class. Both spells must have a casting time of 1 standard action and must be a spell
+level equal to or lower than the level of spells you can prepare with the combined spells ability.
+You can make any decisions concerning the spells, such as the spells' targets, independently.\
+**Special:** You can gain this feat multiple times. Each time you take the feat, you can use this
+ability one additional time per day.

@@ -1,0 +1,41 @@
++++
+id = "ref/magic-wondrous/incense-of-corporeality"
+kind = "item"
+title = "Incense of Corporeality"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "incense_of_corporeality", path = "json/magic_wondrous_slotless03.json" },
+]
+
+[fields]
+kind = "item"
+price = "1,400 gp"
+weight = "1/2 lb."
+slot = "none"
+aura = "moderate abjuration"
+caster_level = "7th"
++++
+
+**Sources:** Occult Adventures pg 259\
+**Aura** moderate abjuration; **CL** 7th\
+**Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
+
+Little distinguishes this bitter-smelling stick of incense from normal incense until it is lit. In
+still air, the incense's smoke permeates a 40-foot-by-40-foot area to a height of 20 feet. Within
+that area, incorporeal creatures take on a measure of substance, such that they can no longer pass
+through objects and take full damage from all attacks (even nonmagical ones). Incorporeal touch
+attacks within this area resolve as melee attacks, but the incorporeal creatures add their Charisma
+bonus on such attacks. Incorporeal creatures still lack cohesion and mass. They retain the ability
+to fly as well as their immunity to combat maneuvers and critical hits. They can pick up and
+manipulate physical objects as though they had Strength scores equal to their Charisma scores, but
+they are still not solid enough to wear equipment.
+
+Moderate [wind](ref/rule/winds) halves the area of incense of corporeality. Strong wind disperses
+the incense, rendering it ineffective as long as the wind continues. A single stick of incense of
+corporeality burns for 1 hour. If extinguished, the remaining incense loses effectiveness.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[dimensional anchor](ref/spell/dimensional-anchor), [ghostbane dirge](ref/spell/ghostbane-dirge);
+**Cost** 700 gp

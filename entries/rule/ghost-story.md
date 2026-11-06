@@ -1,0 +1,75 @@
++++
+id = "ref/rule/ghost-story"
+kind = "rule"
+title = "Ghost Story"
+source_ids = ["horror-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "ghost_story", path = "json/rules_campaign_types03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Horror Adventures pg 194
+
+These stories feature ghosts - whether they're actual spirits or the characters simply believe in
+those spirits. Usually relatively short tales, stories in this subgenre focus on wayward souls and
+the tragic events that keep them from passing on. They usually feature a haunted place - such as the
+archetypical haunted house - but this might be any location, object, person, or other element that
+is somehow tied to the spirit's unfortunate past. The protagonists of a ghost story tend to be
+latecomers to the tragedy. By entering the zone of spiritual fallout, they either embroil themselves
+in healing residual scars or try to escape before becoming the next victims.
+
+**Storytelling:** Ghost stories make fantastic single-adventure plots because they typically link an
+atmospheric story with a specific location. The tie between a ghost and its haunting grounds means
+that PCs can indulge in a ghost story without it necessarily interfering with a wider campaign.
+
+Ghosts come in an enormous variety, but for horror adventures, the two most useful are ghosts that
+want something and violent ghosts. The former might be sorrowful entities that make the PCs their
+agents in the hopes of being set free. The latter are vicious things, incarnations of madness and
+violence that take their wrath out on any who dare trespass on their haunting grounds. In neither
+case does a ghost need to be a sympathetic character, but in both, the spirit's origins affect its
+appearance, abilities, and behavior. While revealing the lore behind a haunting might be story
+enough, in a typical Pathfinder ghost story, learning the spirit's background and using it to put
+the ghost to rest is central to the plot.
+
+With the wealth of ghost stories in fiction and film, a GM can plunder existing works for
+inspiration and experiment with the definitions of "ghost" and "haunting." She might also consider
+giving the ghost story a trigger, an event that activates a dormant haunting. Perhaps the return of
+a family member to his ancestral home or a PC gazing through an orb that reveals the spirit world
+sparks a full-blown ghost story.
+
+**Monsters and Threats:** Obviously, these tales focus on ghosts, but in the Pathfinder RPG, "ghost"
+might mean a variety of things, not just the monster of the same name. However, a
+[ghost](ref/template/ghost) is an excellent choice of monster due to its rejuvenation ability, which
+means the spirit can only be truly defeated if the PCs discover the correct means. This ability
+forces the PCs to involve themselves in a ghost story to defeat their foe. A GM might use any number
+of ghostly spirits to create specific sorts of ghost stories - for instance,
+[banshees](ref/monster/banshee) terrorize barren moors, [poltergeists](ref/monster/poltergeist)
+disturb peaceful households, and [yuki-onnas](ref/monster/yuki-onna) haunt snowy vistas. Looking up
+creatures with the [incorporeal subtype](ref/subtype/incorporeal) can point to strong ghost story
+candidates. Ghosts don't need to be incorporeal. [Phantom armors](ref/family/phantom-armor),
+[revenants](ref/monster/revenant), [skeletal champions](ref/template/skeletal-champion), and
+[zuvembies](ref/monster/zuvembie), for example, all make fine corporeal threats. A "ghost" also
+doesn't need to be undead, especially as the line between spirit and outsider is often blurry.
+Consider having any of a variety of fiends - such as [owbs](ref/monster/owb) or
+[vulnudaemons](ref/monster/daemon-vulnudaemon) - haunt a ghost story. For story purposes, a GM
+shouldn't hesitate to give non-ghosts the rejuvenation ability as well, but only so long as the
+threat stays bound to a single plot-rich locale. More so than in other subgenres,
+[haunts](ref/rule/haunts) make obvious choices. Spectral beings (especially
+[geists](ref/monster/geist)) teamed with a variety of flavorful haunts can work together to create a
+wider and more satisfying haunting.
+
+**Basic Plots:** The destruction of a local asylum releases years of pent-up mental trauma as an
+allip or caller in darkness, the dominant personality of which wants nothing more than to visit the
+sea once more. The ghost of a golemcrafter intimidates a young trespasser into reactivating her
+laboratory and creating a soulbound body for her to inhabit. A painting from a far-off land drags
+the ghost of the portrait's subject with it, a noble but frustrated foreign warrior who speaks only
+his native language.
+
+**Advanced Plots:** A ghost becomes the PCs' patron, offering its treasure (or home) if they
+complete what it left undone. A violent, mute ghost the PCs thought exorcised reappears - could they
+have mistaken its identity? The ghost of a defeated villain or a fallen ally becomes linked to one
+of the PCs' pieces of equipment, though the connection seems to be stronger than simply that between
+victim and murder weapon.

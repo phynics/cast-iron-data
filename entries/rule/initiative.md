@@ -1,0 +1,36 @@
++++
+id = "ref/rule/initiative"
+kind = "rule"
+title = "Initiative"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "initiative", path = "json/rules_combat01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 178
+
+At the start of a battle, each combatant makes an initiative check. An initiative check is a
+Dexterity check. Each character applies his or her Dexterity modifier to the roll, as well as other
+modifiers from feats, spells, and other effects. Characters act in order, counting down from the
+highest result to the lowest. In every round that follows, the characters act in the same order
+(unless a character takes an action that results in his or her initiative changing; see Special
+Initiative Actions).
+
+If two or more combatants have the same initiative check result, the combatants who are tied act in
+order of total initiative modifier (highest first). If there is still a tie, the tied characters
+should roll to determine which one of them goes before the other.
+
+**Flat-Footed:** At the start of a battle, before you have had a chance to act (specifically, before
+your first regular turn in the initiative order), you are flat-footed. You can't use your Dexterity
+bonus to AC (if any) while flat-footed. Barbarians and rogues of high enough level have the uncanny
+dodge extraordinary ability, which means that they cannot be caught flat-footed. Characters with
+uncanny dodge retain their Dexterity bonus to their AC and can make attacks of opportunity before
+they have acted in the first round of combat. A flat-footed character can't make attacks of
+opportunity, unless he has the [Combat Reflexes](ref/feat/combat-reflexes) feat.
+
+**Inaction:** Even if you can't take actions, you retain your initiative score for the duration of
+the encounter.

@@ -1,0 +1,158 @@
++++
+id = "ref/monster/su"
+kind = "creature"
+title = "Su"
+source_ids = ["bestiary-5"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "su", path = "json/monsters22.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+size = "medium"
+alignment = "chaotic evil"
+ac = "21/15/16"
+hp = "114~12d10+48"
+fortitude = "+11"
+reflex = "+12"
+will = "+6"
+melee = "bite +16 (1d8+4 plus 1d6 bleed), 2 claws +16 (1d6+4/19-20 plus grab)"
+special_attacks = "prehensile tail~whelp magic"
+special_qualities = "whelp family"
+abilities = ["19", "19", "16", "7", "14", "16"]
++++
+
+_This emaciated quadruped has a mouth full of jagged teeth and a cluster of bald, mewling offspring
+clinging to its back._
+
+**Su**
+
+**Challenge rating:** 8
+
+**Sense:** Aav
+
+**Alignment:** Chaotic evil
+
+**dv:** 60
+
+**Initiative:** +4
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Size:** medium
+
+**Perception:** +10
+
+**Sense:** Scent
+
+**source:** Bestiary 5/238
+
+**Experience points:** 4,800
+
+**Armor class:** 21/15/16
+
+**Dr:** 10/magic
+
+**Fort:** +11
+
+**Hit points:** 114 (12d10+48)
+
+**Immune:** disease
+
+**Improved evasion:** present
+
+**Mod:** +4 Dex, +1 dodge, +6 natural
+
+**Ref:** +12
+
+**Will:** +6
+
+**Offense**
+
+**Speed:** 40 ft., climb 40 ft.
+
+**Bleed:** 1d6
+
+**Melee:** bite +16 (1d8+4 plus 1d6 bleed), 2 claws +16 (1d6+4/19-20 plus [grab](ref/umr/grab))
+
+**Pounce:** present
+
+**Rake:** 2 claws +16, 1d6+4
+
+**Spec Att:** prehensile tail, whelp magic
+
+**Psychic Magic**
+
+**Caster level:** 12
+
+**Concentration:** +15
+
+**Power points:** 0
+
+**Psychoactive powers:**
+
+- id insinuation II, 3 PE, DC 16, mind thrust III, 3 PE, DC 16, thought shield II, 3 PE
+
+**Statistics**
+
+**Ability scores:** Str 19, Dex 19, Con 16, Int 7, Wis 14, Cha 16
+
+**Base attack bonus:** +12
+
+**Combat maneuver bonus:** +16 (+20 grapple)
+
+**Combat maneuver defense:** 31 (35 vs. trip)
+
+**Feats:** Critical Focus, Dodge, Improved Critical (claw), Mobility, Nimble Moves, Toughness
+
+**Skills:** Acrobatics +14, Climb +12, Perception +10, Stealth +11 (+19 in forests)
+
+**Racial Modifiers:** +4 Acrobatics, +8 Stealth in forests
+
+**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+
+**Special qualities:** whelp family
+
+**Ecology**
+
+**Environment:** any forests
+
+**Organization:** solitary, pair, or troop (3-6)
+
+**Treasure:** Incidental
+
+### Special Abilities
+
+**Whelp Family (Su)** A su always carries 3-6 (1d4+2) Diminutive infant su on its back that share a
+telepathic bond with their parent, acting as extra eyes for the adult. Area effects target the su
+and not its whelps, but individual whelps can be targeted with attacks (AC 18; 4 hp). If the su
+dies, its whelps die as well. A helpless su's whelps can be easily killed or removed from the su
+(removing them from the su also immediately kills them). If all of a su's whelps are slain, the su
+immediately loses its all-around vision and improved evasion and is sickened until it regains at
+least one new whelp. A su replaces lost whelps at a rate of one whelp per week.
+
+**Prehensile Tail (Ex)** A su can use its tail to attempt a dirty trick, disarm, steal, or trip
+combat maneuver against an adjacent opponent as a swift action that does not provoke an attack of
+opportunity.
+
+**Whelp Magic (Sp)** Su whelps possess psychic powers that fade with age. As a swift action, a su
+can command one of its whelps to activate a psychic spell using the psychic magic special ability. A
+whelp can also maintain concentration on a spell, provided the su spends a swift action. Any spells
+that grant bonuses to their target apply to the su as well as its whelps. The whelps have a pool of
+3 PE per whelp, and each time a whelp dies the remaining pool reduces by 3. A su with no whelps
+can't use psychic magic.
+
+### Description
+
+Hateful and melancholic, the psychic marsupials called su can feel their minds weaken as they
+mature, and take out their frustration on any creatures who enter their forests.
+
+All su bear young. After mating, they implant each other's back-pouches with oily, tumor-like eggs
+which hatch over the next year into tiny, psychically gifted humanoids. These young su cling to
+their parents' backs, feeding on parasites and scraps. Born at the apex of their psychic abilities,
+baby su slowly change shape and lose their powers over their first year-by the time they reach their
+full predatory form, all psychic magic has vanished. These furious new adults then leave to become
+providers for their own whelps. A grown su is 5 feet long and 90 pounds.

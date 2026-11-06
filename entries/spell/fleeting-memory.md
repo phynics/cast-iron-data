@@ -1,0 +1,64 @@
++++
+id = "ref/spell/fleeting-memory"
+kind = "spell"
+title = "Fleeting Memory"
+source_ids = ["black-markets"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "fleeting_memory", path = "json/spells4.json" },
+]
+
+[fields]
+kind = "spell"
+school = "enchantment"
+subschools = ["Compulsion"]
+descriptors = ["mind-affecting"]
+levels = [
+  { class = "Arcanist", level = 4 },
+  { class = "Bard", level = 3 },
+  { class = "Skald", level = 3 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Wizard", level = 4 },
+]
+casting_time = "1 standard action"
+components = "V"
+range = "close (25 ft. + 5 ft./2 levels)"
+effects = [
+  { label = "Target", value = "one creature" },
+]
+duration = "1 round/level (D)"
+saving_throw = "Will partial"
+spell_resistance = "yes"
++++
+
+::: statblock
+title = "Spell statistics"
+School: enchantment
+Level: 3: Bard, Skald\
+4: Arcanist, Sorcerer, Wizard
+Casting time: 1 standard action
+Components: V
+Range: close (25 ft. + 5 ft./2 levels)
+Duration: 1 round/level (D)
+Saving throw: Will partial
+Spell resistance: yes
+Target: one creature
+Subschool: Compulsion
+Descriptors: mind-affecting
+:::
+
+**Sources:** Black Markets pg 24
+
+You create a gap in the target's memory, preventing the target from remembering anything that
+happens from the moment you cast this spell until the moment its complete duration ends. Fleeting
+memory doesn't wipe out its target's memories until the end of its duration, so the target can
+remember the preceding rounds until the spell's duration ends. If the spell ends prematurely, either
+because you dismiss it or because it is dispelled, it disperses without affecting its target's
+memory.
+
+Whether or not the target's save is successful, the target forgets that you cast a spell.
+
+### Mass Fleeting Memory
+
+**Sources:** Black Markets pg 25
+
+This spell functions as fleeting memory, except that it affects multiple creatures.

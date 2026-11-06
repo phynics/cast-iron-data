@@ -1,0 +1,156 @@
++++
+id = "ref/pclass/daggermark-poisoner"
+kind = "prestige_class"
+title = "Daggermark Poisoner"
+source_ids = ["paths-of-prestige"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "daggermark_poisoner", path = "json/prestige_classes.json" },
+]
+
+[fields]
+kind = "class"
+class_type = "prestige"
+hit_die = "d8."
++++
+
+**Sources:** Paths of Prestige pg 18
+
+Poison is a common weapon of cultures and nations across Golarion, but the craft reaches its acme in
+the city of Daggermark, the festering heart of the chaotic and war-torn River Kingdoms. Members of
+the Daggermark Poisoners' Guild and aspiring hopefuls experiment with their craft constantly,
+creating hundreds of potent toxins either to sell or use for their own nefarious purposes.
+
+### Requirements
+
+To qualify to become a Daggermark poisoner, a character must fulfill all of the following criteria.
+
+**Skills:** Craft (alchemy) 5 ranks, Craft (traps) 5 ranks, Heal 5 ranks, Sleight of Hand 5 ranks.\
+**Special:** Poison use class ability. The character must craft at least 1,000 gp worth of poisons
+and donate them to the Daggermark Poisoners' Guild.
+
+### Class Skills
+
+The Daggermark Poisoner's class skills are [Bluff](ref/skill/bluff) (Cha),
+[Disguise](ref/skill/disguise) (Cha), [Escape Artist](ref/skill/escape-artist) (Dex),
+[Heal](ref/skill/heal) (Wis), [Sleight of Hand](ref/skill/sleight-of-hand) (Dex), and
+[Stealth](ref/skill/stealth) (Dex).
+
+**Skill Points at each Level:** 4 + Int modifier.\
+**Hit Die:** d8.
+
+### Class Features
+
+|Level|Base Attack Bonus|Fort Save|Ref Save|Will Save|Special|
+| --- | --- | --- | --- | --- | --- |
+|1st|+0|+1|+0|+0|Master poisoner, poison resistance +2, quick poisoning|
+|2nd|+1|+1|+1|+1|Toxic apothecary, toxic trick|
+|3rd|+2|+2|+1|+1|Toxic manufactory, trapster +1|
+|4th|+3|+2|+1|+1|Poison resistance +4, toxic trick|
+|5th|+3|+3|+2|+2|Sneak attack +1d6, treacherous toxin|
+|6th|+4|+3|+2|+2|Swift poisoning, toxic trick, trapster +2|
+|7th|+5|+4|+2|+2|Poison resistance +6|
+|8th|+6|+4|+3|+3|Instantaneous toxicology, toxic trick|
+|9th|+6|+5|+3|+3|Poison immunity, trapster +3|
+|10th|+7|+5|+3|+3|Sneak attack +2d6, toxic trick|
+
+The following are class features of the Daggermark poisoner prestige class.
+
+**Weapon and Armor Proficiency:** A Daggermark poisoner gains no additional weapon or armor
+proficiencies.
+
+**Master Poisoner (Ex):** A Daggermark poisoner adds 1/2 her level on Craft (alchemy) checks dealing
+with poison. In addition, she can use Craft (alchemy) to change the type of a poison with 1 hour of
+work and an alchemist's lab. If the Craft (alchemy) check (DC equals the poison's save DC) is
+successful, the poison's type changes to contact, ingested, inhaled, or injury; on a failed check,
+the poison is ruined.
+
+**Poison Resistance (Ex):** A Daggermark poisoner gains a +2 bonus on saves against poison,
+increasing to +4 at 4th level, +6 at 7th level, and total immunity at 9th level.
+[Alchemist](ref/class/alchemist) levels stack with Daggermark poisoner levels when determining the
+effect of this ability.
+
+**Quick Poisoning (Ex):** A Daggermark poisoner can poison a weapon as a move action. She can create
+poisons with the Craft (alchemy) skill in half the normal amount of time.
+
+**Toxic Apothecary (Ex and Sp):** At 2nd level, a Daggermark poisoner can use
+[detect poison](ref/spell/detect-poison) at will (range 5 feet, caster level equal to the Daggermark
+poisoner's class level) as a swift action. She gains a bonus equal to 1/2 her class level on Heal
+checks dealing with poison, and on a successful check she adds this bonus to the save bonus she
+provides her patient against the treated poison.
+
+**Toxic Trick:** At 2nd level and every two levels thereafter, a Daggermark poisoner learns a toxic
+trick. She can use a number of toxic tricks each day equal to her Intelligence modifier + 1/2 her
+class level. The save DC of any saving throw called for by a toxic trick is equal to 10 + the
+Daggermark poisoner's class level + her Intelligence modifier.
+[Spell-like abilities](ref/umr/spell-like-abilities) have a caster level equal to her class level.
+
+> **Choking Bomb (Su):** As the [ninja trick](ref/ninjatrick/choking-bomb), but with a DC as noted
+> above.
+>
+> **Combine Poison (Ex):** A Daggermark poisoner can combine two different poisons without reducing
+> their efficacy, applying them to the same weapon, object, or trap. A creature exposed to the
+> poisons must save against both.
+>
+> **Concentrate Poison (Su):** As the alchemist [discovery](ref/discovery/concentrate-poison).
+>
+> **Launch Trap (Ex):** As the ranger's [trapper](ref/arc-ranger/trapper) archetype class feature.
+>
+> **Poison Bomb (Ex or Su):** As the [ninja trick](ref/ninjatrick/poison-bomb). A Daggermark
+> poisoner must possess the _smoke bomb_ toxic trick before selecting this trick.
+>
+> **Poison Conversion (Su):** As the alchemist [discovery](ref/discovery/poison-conversion).
+>
+> **Poison Trap (Ex or Su):** As the [ranger trap](ref/rangertrap/poison-trap).
+>
+> **Slow-Acting Poison (Ex):** When crafting a poison, a Daggermark poisoner may choose to create it
+> with a delayed onset time. This delay must be at least 1 round but cannot be longer than 1 minute
+> per class level.
+>
+> **Smoke Bomb (Ex or Su):** As the [ninja trick](ref/ninjatrick/smoke-bomb), but no ki points are
+> required.
+>
+> **Tailored Toxin (Ex):** Choose one creature type (and subtype, for humanoids or outsiders).
+> Poisons a Daggermark poisoner uses are particularly effective against creatures of this type,
+> increasing the save DC by 2. This trick can be taken more than once; each time it applies to a
+> different creature type (or subtype).
+>
+> **Toxic Magic (Sp):** Choose one of the following spells or alchemical extracts as a spell-like
+> ability: [accelerate poison](ref/spell/accelerate-poison), [delay poison](ref/spell/delay-poison),
+> [pernicious poison](ref/spell/pernicious-poison),
+> [transmute potion to poison](ref/spell/transmute-potion-to-poison), or
+> [venomous bolt](ref/spell/venomous-bolt). This trick can be taken more than once; each time it
+> grants a different [spell-like ability](ref/umr/spell-like-abilities).
+
+**Toxic Manufactory (Ex):** At 3rd level, when creating poisons or antitoxins a Daggermark poisoner
+can create a number of doses equal to her Intelligence modifier at one time (minimum 1). These
+additional doses do not increase the time required, but do increase the raw material cost
+accordingly. In addition, she uses the item's gp value as its sp value when determining progress
+made with her Craft (alchemy) checks. If the Daggermark poisoner has the
+[Master Alchemist](ref/feat/master-alchemist) feat, she may create a number of doses of poison or
+antitoxin at one time equal to twice her Intelligence modifier and uses the item's pp value as its
+sp value when determining progress with her Craft (alchemy) checks.
+
+**Trapster (Ex):** At 3rd level, a Daggermark poisoner adds her class level on Perception skill
+checks made to locate traps and on Craft and Disable Device checks made with poisonous traps. A
+Daggermark poisoner also adds a +1 bonus on attack rolls, save DCs, and Perception and Disable
+Device DCs for poisoned traps she creates. This bonus increases by 1 at 6th level and again at 9th
+level.
+
+**Sneak Attack (Ex):** This is exactly like the [rogue ability](ref/ability/sneak-attack) of the
+same name. The extra damage dealt increases by +1d6 at 5th level and again at 10th. If a Daggermark
+poisoner gets a sneak attack bonus from another source, the bonuses on damage stack.
+
+**Treacherous Toxin (Ex):** At 5th level, when a Daggermark poisoner makes a sneak attack with a
+poisoned weapon, she may forgo some of her sneak attack damage to increase the save DC of her
+poison, increasing the poison's save DC by 1 for every 1d6 points of sneak attack damage she
+forgoes.
+
+**Swift Poisoning (Ex):** At 6th level, a Daggermark poisoner can draw a vial of poison from her bag
+and apply it to a weapon as a swift action. This action does not provoke attacks of opportunity as
+long as she has at least one hand free.
+
+**Instantaneous Toxicology (Ex):** At 8th level, a Daggermark poisoner can create a poison as a
+full-round action if she succeeds at the Craft (alchemy) check and has the appropriate resources on
+hand to pay the creation cost. Poisons crafted in this way last up 10 minutes per class level before
+losing their potency. In addition, she can instead create an unstable toxin. An unstable toxin costs
+1/10 its normal price (rather than 1/3), but is ruined if not used by the end of her next turn.

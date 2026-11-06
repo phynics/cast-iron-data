@@ -1,0 +1,211 @@
++++
+id = "ref/monster/mirror-serpent"
+kind = "creature"
+title = "Mirror Serpent"
+source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "mirror_serpent", path = "json/monsters17.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+subtypes = ["aquatic"]
+size = "large"
+alignment = "neutral"
+ac = "18/12/15"
+hp = "57~6d10+24"
+fortitude = "+9"
+reflex = "+8"
+will = "+4"
+melee = "bite +12 (1d8+10 plus grab)"
+special_attacks = "thrash (1d8+10, 20 ft.)"
+special_qualities = "amphibious"
+abilities = ["24", "17", "18", "7", "14", "15"]
++++
+
+_The body of this enormous serpent is covered in mirror-like scales, and a pair of luminous blue
+eyes gazes from a horned head that ends in an elongated, toothy snout._
+
+**Mirror Serpent**
+
+**Challenge rating:** 5
+
+**dv:** 60
+
+**Initiative:** +3
+
+**Size:** large
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +8
+
+**source:** Pathfinder \#125: Tower of the Drowned Dead/86
+
+**Subtype:** Aquatic
+
+**Experience points:** 1,600
+
+**Armor class:** 18/12/15
+
+**Defensive abilities:** natural invisibility, reflective skin
+
+**Dr:** 5/magic
+
+**Fort:** +9
+
+**Hit points:** 57 (6d10+24)
+
+**Mod:** +3 Dex, +6 natural, -1 size
+
+**Ref:** +8
+
+**Resist:** cold 5, electricity 5
+
+**Sr:** 16
+
+**Vulner:** sonic
+
+**Will:** +4
+
+**Offense**
+
+**Speed:** 40 ft., swim 40 ft., fly 60 ft. (good)
+
+**Melee:** bite +12 (1d8+10 plus [grab](ref/umr/grab))
+
+**Reach:** 10
+
+**Space:** 10
+
+**Spec Att:** thrash (1d8+10, 20 ft.)
+
+**Statistics**
+
+**Ability scores:** Str 24, Dex 17, Con 18, Int 7, Wis 14, Cha 15
+
+**Base attack bonus:** +6
+
+**Combat maneuver bonus:** +14 (+18 when grappling)
+
+**Combat maneuver defense:** 27 (can't be tripped)
+
+**Feats:** Flyby Attack, Power Attack, Vital Strike
+
+**Skills:** Acrobatics +6, Fly +10
+
+**Languages:** Azlanti (can't speak)
+
+**Special qualities:** [amphibious](ref/umr/amphibious)
+
+**Ecology**
+
+**Environment:** any coastlines
+
+**Organization:** solitary
+
+**Treasure:** Standard
+
+### Special Abilities
+
+**Natural Invisibility (Su)** A mirror serpent has the ability turn its body transparent. It remains
+invisible until it makes an attack, or it can become visible as a free action.
+
+**Reflective Skin (Su)** When a spell (4th level or lower) that targets a mirror serpent fails to
+penetrate its [spell resistance](ref/rule/spell-resistance), the mirror serpent can reflect that
+spell back onto the caster or another creature within 10 feet of the caster as an immediate action.
+The mirror serpent can't use this ability when it's invisible.
+
+**Thrash (Ex)** A mirror serpent can violently thrash a grappled creature in its mouth before it
+throws the creature away. When a mirror serpent succeeds at a combat maneuver check to maintain a
+grapple, the mirror serpent can deal the target damage as normal as well as throw the creature 20
+feet in a random direction. The target must succeed at a DC 16 Reflex saving throw upon hitting the
+ground or else it takes 2d6 points of falling damage. A target that successfully saves can then
+attempt an additional DC 15 Acrobatics check to avoid landing prone. The save DC is Dexterity-based.
+
+### Description
+
+Mirror serpents are large snake-like beasts that soar as easily through air as they do water. Ages
+ago, Azlanti sorcerers employed these serpents to guard their sanctums and vaults. Over the
+millennia since Earthfall, mirror serpents have grown feral and fiercely territorial. Because they
+lack the ability to reproduce and grow their number, mirror serpents are quite rare. The arcane
+knowledge of their creation rituals hasn't resurfaced in the current age; if anyone has discovered
+it, they have kept it a closely guarded secret. Most surviving mirror serpents reside within the
+ruins of Azlant, staying near the places they were once tasked to guard. Their original purpose as
+sentinels has imprinted on them a fascination for treasure. Mirror serpents typically live several
+centuries, unless they suffer a violent fate, but death does not necessarily spell an end to their
+existence, which is a constant cycle of death and rebirth. Mirror serpents grow much larger and
+wiser as they age beyond their first century.
+
+A mirror serpent's body stretches out to a length of 15 feet and weighs 400 pounds.
+
+Unlike most other creatures, mirror serpents don't permanently die unless their remains are
+purposefully destroyed to prevent rebirth. Each mirror serpent carries within its body an egg that
+holds the seed of its next life and matures along with its natural aging. If a mirror serpent dies
+prematurely, the egg within it simply decays along with the rest of the creature's internal organs.
+When a mirror serpent dies of natural causes, however, its soft tissue is absorbed into the egg as a
+final act of fertilization, leaving the egg amid the hollow husk of the serpent's reflective skin.
+Water is the most ideal location for the egg's 13-month incubation to take place, and thus when
+dying, most mirror serpents head for the nearest large body of water. The egg has an exceptionally
+hard, crystalline shell that protects it from predatory fauna and other dangers while it incubates.
+Additionally, shortly after an egg is fertilized, it becomes naturally invisible as a defense
+mechanism. If the egg remains intact, it eventually hatches, releasing a young mirror serpent into
+its predecessor's territory. While the newborn mirror serpent has its own personality, some echoes
+remain of the previous incarnation, such as intuitions on safe and dangerous areas nearby and an
+instinctual gravitation toward its old lair.
+
+While mirror serpents resemble snakes in many regards, their snouts are elongated and toothy, like
+the face of a gharial, and pair of crystalline horns crowns their brows. The reflective sheen of a
+mirror serpent's scales can be quite dazzling in bright sunlight as it dives into or leaps out of
+water, chasing birds and fish with equal prowess. The structure of a mirror serpent's scales
+resembles that of actual glazed mirrors, making the creatures vulnerable to sonic attacks. Mirror
+serpent flesh is hardy and resembles cloudy glass, and they bleed slightly luminescent blue liquid
+when they're wounded.
+
+Mirror serpents' primary diet consists of amphibian and avian animals that live in or near their
+territories, though they are typically not opposed to eating those humanoids foolish enough to
+blunder into their domains, especially if the mirror serpent guards treasure of particular power,
+secrecy, or value. These serpents rarely fight to the death unless they feel there's no other
+choice. One function of their hunting is to keep major predators away from their territory so that
+when the mirror serpent dies, its egg has a better chance of surviving its incubation period. Mirror
+serpents use their natural invisibility when investigating whether creatures are food or a threat.
+When they choose to fight, mirror serpents make sudden attacks and retreats, turning invisible in
+order to hide their movements and strike from a new vantage point. They use their savage bites to
+separate their foes and attempt to fling them into water, where the serpents can take advantage of
+their superior mobility.
+
+### Habitat
+
+Most mirror serpents lair near or within ancient Azlanti ruins so they can seek out and collect
+treasures and trinkets that lie forgotten among Earthfall's devastation. Each lair is usually
+located near a body of water, and its opening is most likely overlooking or hiding below the water's
+surface. A common place for a den is on the side of a natural cliff or a part of a ruined tower that
+has no other access points. Even when the entrance is below the surface, the actual living area is
+situated above water level. When in their lairs, mirror serpents lie curled in the center, while
+their treasure is spread against the surrounding walls. Not all of the treasure - or even most of
+it - is of actual monetary value, since items need only to gleam and be beautiful to catch the
+attention of the serpents. Mirrored scales, or even a complete husk, are often found among the piled
+treasure as the newest incarnation has dragged the glittering remains of the previous mirror serpent
+into the lair.
+
+Mirror serpents hate creatures that defile nature or deface structures within their domain, causing
+them to become violent from the outset. It's possible to communicate with mirror serpents by
+speaking Azlanti; the knowledge of that language was imbued in the creatures during the ritual of
+their creation and remains with them through each rebirth. Once a person has entered the territory
+of a mirror serpent, there's a small window of opportunity to speak up in order to keep it from
+attacking and driving the intruder away. An offering of treasure or ornate trinkets goes a long way
+toward appeasing a mirror serpent to allow swift safe passage through its domain. If the territories
+of two mirror serpents are adjacent to each other, minor clashes may arise between the two beasts.
+Such fights rarely lead to death, as one them eventually yields to the more powerful rival,
+accepting defeat over endangering even its greatest enemy's cycle of rebirth.
+
+Mirror serpent scales are a valued material for those who craft magical armor. With proper
+techniques, it's possible to forge a suit of scale mail that retains a portion of the
+spell-reflecting ability that mirror serpents have. If a person comes upon a mirror serpent egg, she
+can attempt to train the newly hatched serpent and turn it into a guardian or a companion. However,
+the echoes of lifetimes it has spent free in the wild make this a challenge.

@@ -1,0 +1,26 @@
++++
+id = "ref/rule/draw-or-sheathe-a-weapon"
+kind = "rule"
+title = "Draw or Sheathe a Weapon"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "draw_or_sheathe_a_weapon", path = "json/rules_combat01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 186
+
+Drawing a weapon so that you can use it in combat, or putting it away so that you have a free hand,
+requires a move action. This action also applies to weapon-like objects carried in easy reach, such
+as wands. If your weapon or weapon-like object is stored in a pack or otherwise out of easy reach,
+treat this action as retrieving a stored item.
+
+If you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined
+with a regular move. If you have the [Two-Weapon Fighting](ref/feat/two-weapon-fighting) feat, you
+can draw two light or one-handed weapons in the time it would normally take you to draw one.
+
+Drawing ammunition for use with a ranged weapon (such as arrows, bolts, sling bullets, or shuriken)
+is a free action.

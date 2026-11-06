@@ -1,0 +1,41 @@
++++
+id = "ref/magic-artifact/runewell-amulet-greed"
+kind = "item"
+title = "Runewell Amulet (Greed)"
+source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-6-spires-of-xin-shalast"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "runewell_amulet_greed", path = "json/magic_artifact.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "-"
+slot = "neck"
+aura = "strong transmutation"
+caster_level = "20th"
++++
+
+**Sources:** Rise of the Runelords Anniversary Edition pg 425, Pathfinder \#6: Spires of Xin-Shalast
+pg 65\
+**Aura** strong transmutation; **CL** 20th\
+**Slot** neck; **Price** -; **Weight** -
+
+This amulet of gold and red crystal grants the wearer a +5 enhancement bonus to her natural armor.
+In addition, the wearer becomes attuned to both the
+[runewell of greed](ref/magic-artifact/runewell-of-greed) and the
+[soul lens](ref/magic-artifact/soul-lens) that controls it - allowing the wearer to benefit from the
+fragmentary souls gathered and absorbed by the runewell. As long as the runewell functions, the
+wearer does not [age](ref/rule/age) and has no need for food or water. In addition, she can fly at a
+speed of 60 feet with perfect maneuverability and gains [fast healing](ref/umr/fast-healing) 10. If
+the runewell amulet is removed, the wearer loses all of these abilities. While this does mean the
+wearer begins aging normally and must eat and drink, she does not suffer any ill effect from the
+years that passed or the meals she missed while she wore the amulet.
+
+### Destruction
+
+A runewell amulet must be thrown into an active runewell of an opposing magic (a _runewell of lust_
+or a _runewell of pride_ in the case of this particular amulet)-doing so causes the amulet to
+shatter into four fragments, which then scatter throughout the region that was once Thassilon. If
+these four fragments can be gathered and placed back in the associated runewell (the _runewell of
+greed_ in this case), the amulet reforms and returns to full use.

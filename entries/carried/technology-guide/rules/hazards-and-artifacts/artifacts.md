@@ -1,0 +1,128 @@
++++
+id = "ref/carried/technology-guide/rules/hazards-and-artifacts/artifacts"
+kind = "rule"
+title = "Artifacts"
+source_ids = ["technology-guide"]
+section = ["Rules", "Hazards and Artifacts"]
+parent = "ref/carried/technology-guide/rules/hazards-and-artifacts"
+provenance = [
+  { dataset = "psrd-data", record = "pfsrd://Technology Guide/Rules/Hazards and Artifacts/Artifacts", path = "technology_guide/rules/hazards_and_artifacts.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+## Technological Artifacts {#technological-artifacts}
+
+In the case of technological items, artifact status refers to an item that is beyond the means of
+anyone within the campaign setting to create or replicate, as well as beyond conventional measures
+of value. Unlike magical artifacts, technological artifacts can be destroyed just as other items
+could, and indeed may be quite fragile.
+
+::: entry-link
+target = "ref/tech-artifact/autodoc"
+title = "Autodoc"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/extinction-wave-device"
+title = "Extinction Wave Device"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/powered-armor"
+title = "Powered Armor"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/psychic-imprinter"
+title = "Psychic Imprinter"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/rebirthing-chamber"
+title = "Rebirthing Chamber"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/temporal-accelerator"
+title = "Temporal Accelerator"
+:::
+
+## Power Generators {#power-generators}
+
+Power generators are a specific type of technological artifact capable of providing large amounts of
+sustained energy, and that can supply charges to entire compounds. Every robot has a dedicated power
+generator within it that provides enough energy to run that robot and nothing more. Generators that
+are free-standing devices or built into complexes can be used to charge technological items capable
+of being recharged. A device hooked directly to a functioning power generator uses the generator's
+energy rather than its own stored energy.
+
+Generators are large, cumbersome devices that are difficult, if not impossible, to move. They must
+be built on site or into vehicles large enough to transport their heavy bulks. Most of the
+generators have long since fallen into disrepair, and those few that still function are jealously
+defended. Some wonder if portable generators exist, but no one has found evidence of any.
+
+The total amount of energy a generator can provide is known as it's yield—the number of charges it
+generates per hour. A portion of this yield may be dedicated to devices directly wired into it, such
+as keeping infrastructure running in a complex—this is referred to as dedicated yield. Dedicated
+yield isn't available for other purposes while it's providing power to those devices. A generator's
+available yield is what's left over, and can be used to power or recharge devices that can be
+removed.
+
+Two items can be used to draw power from a generator—a power cable and a power receiver. A
+generator's integrated power transmitter can broadcast power to a receiver within 1,000 feet unless
+otherwise noted. This distance is halved for every 5 feet of metal or 20 feet of solid stone between
+the generator and the receiver.
+
+An item that uses a set number of charges per hour reduces a generator's available yield by that
+amount, making the yield dedicated while the item is attached, as if the item is hard-wired into the
+generator. An item that uses 1 or more charges each time it's activated (such as most weapons)
+reduces the generator's yield by that amount each time it is activated. For example, a laser pistol
+would consume 1 charge from the yield each time it's fired. A nuclear resonator, on the other hand,
+consumes 5 charges each time it's fired—thus, when attached to a generator, it consumes 5 charges
+from the generator's yield each time it's used.
+
+A generator can be forced to exceed its yield, but this can result in disaster. Whenever charges are
+drawn from a generator in excess of its yield, the generator must attempt a Fortitude saving throw
+(DC = 10 + 1 per charge over that hour's yield + 5 per incidence of exceeded yield in the past
+hour). Success indicates that the generator outputs the additional charges (with a 5% chance that
+the item glitches as though it were timeworn). Failure indicates that the generator doesn't deliver
+the additional charges and the item doesn't activate. If it fails by 5 or more, the generator shuts
+down, cutting off all power to all items using it, and cannot be restarted for 1 hour. (Restarting a
+generator that's shut down in this way requires a successful DC 25 Disable Device check, but other
+actions may be necessary as well at the GM's discretion.) If a generator fails this Fortitude save
+by 10 or more, it explodes—the details of this explosion vary by generator type. (Other
+circumstances may cause a generator to explode, with the DC at the GM's discretion.)
+
+All generators have [hardness](ref/umr/hardness) and hit points. An active generator that is reduced
+to 0 hit points must succeed at a DC 20 Fortitude saving throw or explode. All generators are
+Colossal objects, and thus have an AC of -5. Most generators emit a lot of noise, steam, and other
+distracting elements, penalizing Perception checks attempted to perceive anything within 60 feet
+(other than the generator) by the indicated amount.
+
+::: entry-link
+target = "ref/tech-artifact/fission-reactor"
+title = "Fission Reactor"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/fusion-reactor"
+title = "Fusion Reactor"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/geothermal-generator"
+title = "Geothermal Generator"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/graviton-reactor"
+title = "Graviton Reactor"
+:::
+
+::: entry-link
+target = "ref/tech-artifact/solar-generator"
+title = "Solar Generator"
+:::

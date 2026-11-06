@@ -1,0 +1,75 @@
++++
+id = "ref/emotionalfocus/jealousy"
+kind = "rule"
+title = "Jealousy"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "jealousy", path = "json/class_ability_emotional_focus.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Occult Adventures pg 83\
+A phantom with this emotional focus is covetous of everything - its master, those who wish to do it
+harm, and any who do not pay attention to it. It demands to be the center of attention at all times.
+The forms these phantoms take are as diverse as the forms of jealousy in life. Often they take
+pleasing forms, wishing to draw others in. Other times they take the form of crawling and lurching
+things, grasping at all they covet when they come within reach. The auras of these needy phantoms
+quickly change in color, going from an oily green to orange, to brownish red as they swirl through
+emotions in their efforts to gain the objects of their dark desires.
+
+**Skills**
+
+**Details:** The phantom gains a number of ranks in [Appraise](ref/skill/appraise) and
+[Bluff](ref/skill/bluff) equal to its Hit Dice. While confined in its spiritualist's consciensness,
+it grants the spiritualist [Skill Focus](ref/feat/skill-focus) in each of those skills.
+
+**Good Saves**
+
+**Details:** Reflex and Will
+
+**Deceitful**
+
+**Ability:** The phantom gains [Deceitful](ref/feat/deceitful) as a bonus feat.
+
+**Jealous Combatant (Su)**
+
+**Ability:** Each time the phantom hits a creature with a melee attack, for 1 round that creature
+takes a -2 penalty on all attack rolls made against anyone other than the phantom. This effect does
+not stack with itself.
+
+**Resentful Aura (Su)**
+
+**Gained:** At 7th Level
+
+**Special:** Ending the aura is a **free action**. The phantom can use this ability in either
+ectoplasmic or incorporeal form.
+
+**Swift:** The phantom can emit a 20-foot-radius aura that forces enemies within the aura who make
+an attack or cast a spell that does not include the phantom in its effect to succeed at a Will
+saving throw (DC = 10 + 1/2 the phantom's Hit Dice + the phantom's Charisma modifier) or become
+[staggered](ref/misc/staggered) until the end of the enemy's next turn.
+
+**Retribution (Su)**
+
+**Ability:** Each time a creature attacks the phantom's master, whether that attack hits or misses,
+it enrages the phantom. Until the end of the phantom's next turn, any attack the phantom makes that
+hits the creature that has attacked her deals 2d8 extra points of damage. This extra damage is
+precision damage.
+
+**Gained:** At 12th Level
+
+**Mine to Take (Su)**
+
+**Immediate:** Once per day, just before the phantom's master is about to attempt a saving throw or
+be targeted by an attack roll, the phantom and the spiritualist can swap places as long as both are
+on the same plane and the phantom is aware of the attack or effect. After the swap occurs, the
+phantom is targeted by the attack or effect that triggered this ability, though the phantom may be
+immune or resistant to the effect.
+
+**Gained:** At 17th Level
+
+**Special:** This is a teleportation effect. The phantom can use this ability in either ectoplasmic
+or incorporeal form.

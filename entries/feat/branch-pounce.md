@@ -1,0 +1,33 @@
++++
+id = "ref/feat/branch-pounce"
+kind = "feat"
+title = "Branch Pounce"
+source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "branch_pounce", path = "json/feat02.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Climb 3 ranks, Stealth 3 ranks."
+benefit = "When charging a target by jumping down from above (such as when jumping out of a tree), you can soften your fall with a melee attack. If the attack at the end of your charge hits, the attack deals damage as normal and you also deal the amount of falling damage appropriate to your fall to the target (1d6 points for a 10-foot fall, 2d6 points for a 20-foot fall, and so on). This falling damage is not multiplied on a critical hit. You land in an unoccupied square of your choosing adjacent to the target, and you take falling damage as if your fall had been 10 feet shorter. You can attempt an Acrobatics check as normal to treat the fall as an additional 10 feet shorter for the purpose of determining the damage you take from the fall. If your attack misses, you land prone in a random square adjacent to the target and automatically take the full amount of falling damage."
++++
+
+## Branch Pounce (Combat)
+
+**Sources:** Ultimate Wilderness pg 107, Heroes of the Wild pg 22
+
+You are adept at exploiting higher ground to its greatest advantage in battle, and can leap from
+above to deal incredible damage to your foes.\
+**Prerequisites:** Climb 3 ranks, Stealth 3 ranks.\
+**Benefit:** When charging a target by jumping down from above (such as when jumping out of a tree),
+you can soften your fall with a melee attack. If the attack at the end of your charge hits, the
+attack deals damage as normal and you also deal the amount of [falling damage](ref/rule/falling)
+appropriate to your fall to the target (1d6 points for a 10-foot fall, 2d6 points for a 20-foot
+fall, and so on). This falling damage is not multiplied on a critical hit. You land in an unoccupied
+square of your choosing adjacent to the target, and you take falling damage as if your fall had been
+10 feet shorter. You can attempt an Acrobatics check as normal to treat the fall as an additional 10
+feet shorter for the purpose of determining the damage you take from the fall. If your attack
+misses, you land [prone](ref/rule/prone) in a random square adjacent to the target and automatically
+take the full amount of falling damage.

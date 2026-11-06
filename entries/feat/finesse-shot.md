@@ -1,0 +1,43 @@
++++
+id = "ref/feat/finesse-shot"
+kind = "feat"
+title = "Finesse Shot"
+source_ids = ["weapon-masters-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "finesse_shot", path = "json/feat07.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Weapon Mastery"]
+prerequisites = "Marksman's Utility, base attack bonus +7, weapon training class feature with a ranged weapon."
+prerequisite_feats = ["ref/feat/marksmans-utility"]
+benefit = "In addition to the options allowed by the utility shot gunslinger deed, you gain access to the following utility shots."
++++
+
+## Finesse Shot (Weapon Mastery)
+
+**Sources:** Weapon Master's Handbook pg 21
+
+You can use ranged attacks to perform actions that require finesse.\
+**Prerequisites:** [Marksman's Utility](ref/feat/marksmans-utility), base attack bonus +7, weapon
+training class feature with a ranged weapon.\
+**Benefit:** In addition to the options allowed by the [utility shot](ref/deed/utility-shot)
+gunslinger deed, you gain access to the following utility shots.
+
+> **Open/Close Object:** You can use a ranged attack to open or close an object as a standard
+> action. You make an attack roll against an unattended and unlocked door, window, or container
+> within the first range increment of your weapon. Such an object has an AC equal to 3 + the
+> object's size modifier (minimum +0) + its [hardness](ref/umr/hardness). If you hit, the object
+> opens if it is closed or closes if it is open. Otherwise, this ability functions as the
+> [open/close](ref/spell/open-close) spell.
+>
+> **Triggering Shot:** You can use a ranged attack to trigger a trap. You make a ranged attack
+> against a trap you are aware of that is within your weapon's first range increment. The trap's AC
+> is equal to 10 + its Disable Device DC. If you hit, the trap automatically triggers as if its
+> trigger condition had been met.
+>
+> **Use Object:** You can attempt to use a simple object by shooting it as a standard action. This
+> ability functions as the _scoot unattended object_ use of the utility shot deed, except you pull
+> or push the object in such a way that it activates. For example, you can shoot an unattended
+> lever, causing it to activate and lower a drawbridge.

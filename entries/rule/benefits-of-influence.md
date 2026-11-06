@@ -1,0 +1,51 @@
++++
+id = "ref/rule/benefits-of-influence"
+kind = "rule"
+title = "Benefits of Influence"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "benefits_of_influence", path = "json/rules_subsystems04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Intrigue pg 105
+
+In a single encounter, the goal is often to convince an NPC to perform a specific favor. In
+longer-term social engagements, the PCs may need to build toward larger goals. Each time the PCs
+sway an NPC using the influence rules (gaining the number of successes listed in the NPC's social
+stat block), they increase their influence level over that NPC by one step. For instance, if the PCs
+are unknown to an NPC who requires 3 successes to influence, after 3 successes, the PCs succeed in
+winning some of their target's trust and thus increase their influence level from no sway to minor
+sway. An NPC the PCs have not yet influenced typically treats them as strangers.
+
+**No Sway:** The NPC treats the PCs as any group of strangers.
+
+**Minor Sway:** The NPC might perform small favors for the PCs that do not involve a significant
+expenditure of resources. The NPC speaks favorably about the PCs to others. The NPC does not
+interfere in the PCs' plans unless they conflict with her goals.
+
+**Moderate Sway:** The NPC might perform favors for the PCs that require some of her own resources
+or are time-consuming, as long as they do not threaten the NPC's overall interests. The NPC actively
+seeks to convince people to work with the PCs. If the NPC's plans conflict with the PCs' goals, the
+NPC tries to work with the PCs to find a mutually acceptable resolution to the conflict.
+
+**Major Sway:** The NPC assists the PCs with tasks that pose a significant risk to her position or
+status, and depending upon the circumstances, may risk her safety for them. The NPC advocates for
+the PCs, even when doing so is unpopular, and she undermines the PCs' enemies. The NPC concedes a
+personal goal in order to allow the PCs to move forward with one of their plans, as long as they
+provide a suitable alternative.
+
+Not all favors are reasonable, no matter how much sway the PCs gain over an NPC. For example, asking
+a cleric to betray her deity typically falls outside of the bounds of influence. Similarly, reaching
+the higher levels of influence should become increasingly difficult; the check DCs and the number of
+successes required increases by 2 for each progressive level of influence. Just as some NPCs are
+impossible to influence in a certain encounter, some NPCs will never become particularly friendly
+with the PCs, who cannot exercise more than moderate or even minor sway over them.
+
+GMs also can use the influence system instead of Diplomacy to modify NPC attitudes. In this case,
+rather than using influence levels, each time the PCs successfully sway an NPC, the NPC's attitude
+toward the PCs improves by one step. Most NPCs start at indifferent or unfriendly. An NPC whose
+attitude is not at least indifferent will always refuse requests for aid.

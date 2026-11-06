@@ -1,0 +1,144 @@
++++
+id = "ref/monster/xorn"
+kind = "creature"
+title = "Xorn"
+source_ids = ["bestiary"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "xorn", path = "json/monsters41.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "outsider"
+subtypes = ["earth", "extraplanar"]
+size = "medium"
+alignment = "neutral"
+ac = "21/10/21"
+hp = "66~7d10+28"
+fortitude = "+8"
+reflex = "+2"
+will = "+5"
+melee = "bite +10 (4d6+3), 3 claws +10 (1d4+3)"
+abilities = ["17", "10", "17", "10", "11", "10"]
++++
+
+_This squat beast is as wide as it is tall. Strangely symmetrical, it has three arms, three legs,
+three eyes, and one huge mouth._
+
+**Xorn**
+
+**Challenge rating:** 6
+
+**Sense:** Aav
+
+**dv:** 60
+
+**Initiative:** +0
+
+**Size:** medium
+
+**Alignment:** Neutral
+
+**Type:** outsider
+
+**Perception:** +14
+
+**source:** Pathfinder RPG Bestiary/284
+
+**Subtype:** Earth, Extraplanar
+
+**tremorsense:** 60
+
+**Experience points:** 2,400
+
+**Armor class:** 21/10/21
+
+**Dr:** 5/bludgeoning
+
+**Fort:** +8
+
+**Hit points:** 66 (7d10+28)
+
+**Immune:** cold, fire, [flanking](ref/rule/flanking)
+
+**Mod:** +11 natural
+
+**Ref:** +2
+
+**Resist:** electricity 10
+
+**Will:** +5
+
+**Offense**
+
+**Speed:** 20 ft., burrow 20 ft.
+
+**Melee:** bite +10 (4d6+3), 3 claws +10 (1d4+3)
+
+**Sp Extra:** earth glide
+
+**Statistics**
+
+**Ability scores:** Str 17, Dex 10, Con 17, Int 10, Wis 11, Cha 10
+
+**Base attack bonus:** +7
+
+**Combat maneuver bonus:** +10
+
+**Combat maneuver defense:** 20 (22 vs. trip)
+
+**Feats:** Cleave, Improved Bull Rush, Power Attack, Toughness
+
+**Skills:** Appraise +10, Intimidate +10, Knowledge (dungeoneering) +10, Perception +14
+
+**Racial Modifiers:** +4 Perception
+
+**Languages:** Common, Terran
+
+**Ecology**
+
+**Environment:** any ([Plane of Earth](ref/rule/plane-of-earth))
+
+**Organization:** solitary, pair, or cluster (3-6)
+
+**Treasure:** Standard; precious metals, gems, and magic gems or jewelry only
+
+### Special Abilities
+
+**All-Around Vision (Ex)** A xorn sees in all directions at the same time, giving it a +4 racial
+bonus on Perception checks. A xorn cannot be flanked.
+
+**Earth Glide (Ex)** A xorn can glide through any sort of natural earth or stone as easily as a fish
+swims through water. Its burrowing leaves no sign of its passage nor hint at its presence to
+creatures that don't possess [tremorsense](ref/umr/tremorsense). A move earth spell cast on an area
+containing a xorn moves the xorn back 30 feet, stunning the creature for 1 round unless it succeeds
+on a DC 15 Fortitude save.
+
+### Description
+
+Strange creatures as big around as they are tall, xorns have little interest in natives of the
+Material Plane - except for the gems and precious metals they might be carrying. Lurking beneath the
+surface for what might seem long stretches of time to humans, a xorn might wait months, even years,
+for the right treat to come along, assaulting the being carrying its favorite meal, such as a
+certain gemstone or the right sort of silver. Adventurers who frequent regions inhabited by xorns
+often carry with them small chunks of raw ore or relatively inexpensive gemstones or crystals to use
+as bribes. While the price of a gemstone or piece of metal is often in direct proportion to the
+object's flavor and desirability as a meal, most xorns are quite gluttonous and prefer quantity over
+quality when it comes to food
+
+Treasure found carried by a xorn or stashed in its lair amounts to little more than snacks set aside
+for another day. An offering of a particularly delicious (and expensive) jewel or piece of precious
+metal can swiftly secure a xorn's temporary allegiance. Since xorns can swim through solid rock with
+ease, they make excellent guides in underground regions. Xorns grow in size as they age. The
+youngest xorns are approximately 3 feet in size, and can be represented by applying the young simple
+template to the statistics presented here. The most commonly encountered xorns are about 5 feet tall
+(and wide), while the largest are 8 feet or more and weigh upward of 9,000 pounds. These elder xorns
+are giant advanced xorns, but some even greater xorns exist as well, with upward of 15 Hit Dice.
+
+Often, an elder xorn possesses class levels as well. These creatures are generally leaders, heroes,
+or even outcasts or villains in xorn society. A classed elder xorn typically has levels in barbarian
+or rogue. Xorns aren't particularly religious, but those who do have deep faith are typically druids
+(though such xorns rarely, if ever, take animal companions, as such followers cannot follow through
+solid rock, and instead choose to take the Earth domain). Xorn bards and sorcerers are not unheard
+of either, with bards favoring Perform (sing) as their focus, and sorcerers almost invariably having
+the Elemental (earth) bloodline.

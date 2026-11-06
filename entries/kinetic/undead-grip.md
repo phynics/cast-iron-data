@@ -1,0 +1,32 @@
++++
+id = "ref/kinetic/undead-grip"
+kind = "rule"
+title = "Undead Grip"
+source_ids = ["psychic-anthology"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "undead_grip", path = "json/class_ability_kinetic_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+## Undead Grip (Sp)
+
+**Element:** void
+
+**Type:** utility (Sp)
+
+**Level:** 3
+
+**Burn:** 0
+
+**Saving throw:** Will negates
+
+**Spell resistance:** yes
+
+**Source:** Psychic Anthology/23
+
+This functions as [elemental grip](ref/kinetic/elemental-grip), except it works on a single undead
+creature as per [halt undead](ref/spell/halt-undead). Unintelligent undead must succeed at a saving
+throw with a -4 penalty to negate the effects.

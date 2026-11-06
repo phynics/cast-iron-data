@@ -1,0 +1,28 @@
++++
+id = "ref/feat/fearsome-spell"
+kind = "feat"
+title = "Fearsome Spell"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "fearsome_spell", path = "json/feat07.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Metamagic"]
+benefit = "When a creature takes damage from a fearsome spell, if that creature failed its save against the spell, it becomes shaken for a number of rounds equal to the spell's original level. If the spell doesn't allow a save, creatures harmed by it can attempt a Will save (against the same DC the spell would have if it did allow a save) to negate the shaken effect. If the spell effect already causes creatures to become shaken, on a failed save, add the duration of this metamagic effect to the duration of the shaken condition imposed by the spell. A fearsome spell can't cause a creature to become frightened, even if that creature is already shaken. A fearsome spell uses up a spell slot 2 levels higher than the spell's actual level."
++++
+
+## Fearsome Spell (Metamagic)
+
+**Sources:** Occult Adventures pg 134
+
+Your spells inspire great fear in those harmed by them.\
+**Benefit:** When a creature takes damage from a fearsome spell, if that creature failed its save
+against the spell, it becomes [shaken](ref/misc/shaken) for a number of rounds equal to the spell's
+original level. If the spell doesn't allow a save, creatures harmed by it can attempt a Will save
+(against the same DC the spell would have if it did allow a save) to negate the shaken effect. If
+the spell effect already causes creatures to become shaken, on a failed save, add the duration of
+this metamagic effect to the duration of the shaken condition imposed by the spell. A fearsome spell
+can't cause a creature to become [frightened](ref/misc/frightened), even if that creature is already
+shaken. A fearsome spell uses up a spell slot 2 levels higher than the spell's actual level.

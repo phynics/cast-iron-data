@@ -1,0 +1,77 @@
++++
+id = "ref/rule/type-e-weapons"
+kind = "rule"
+title = "Random Magic Weapons"
+source_ids = ["ultimate-equipment"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "type_e_weapons", path = "json/rules_adv_gm05.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Equipment pg 135
+
+### Table 3-7: Magic Weapon Table
+
+|d%|Lesser Minor Weapon|
+| --- | --- |
+|01-80|+1 weapon|
+|81-100|Lesser minor specific weapon|
+
+|d%|Greater Minor Weapon|
+| --- | --- |
+|01-26|+1 weapon|
+|27-53|+2 weapon|
+|54-80|+1 weapon with one +1 special ability|
+|81-100|Greater minor specific weapon|
+
+|d%|Lesser Medium Weapon|
+| --- | --- |
+|01-10|+1 weapon|
+|11-20|+2 weapon|
+|21-32|+3 weapon|
+|33-44|+1 weapon with one +1 special ability|
+|45-56|+1 weapon with two +1 special abilities|
+|57-68|+1 weapon with one +2 special ability|
+|69-80|+2 weapon with one +1 special ability|
+|81-100|Lesser medium specific weapon|
+
+|d%|Greater Medium Weapon|
+| --- | --- |
+|01-10|+2 weapon|
+|11-22|+3 weapon|
+|23-32|+1 weapon with one +1 special ability|
+|33-44|+1 weapon with one +2 special ability|
+|45-56|+2 weapon with one +1 special ability|
+|57-68|+2 weapon with one +2 special ability|
+|69-80|+3 weapon with one +1 special ability|
+|81-100|Greater medium specific weapon|
+
+|d%|Lesser Major Weapon|
+| --- | --- |
+|01-10|+3 weapon|
+|11-22|+4 weapon|
+|23-32|+1 weapon with one +2 special ability|
+|33-44|+1 weapon with one +3 special ability|
+|45-56|+2 weapon with one +2 special ability|
+|57-68|+3 weapon with one +1 special ability|
+|69-80|+4 weapon with one +1 special ability|
+|81-100|Lesser major specific weapon|
+
+|d%|Greater Major Weapon|
+| --- | --- |
+|01-10|+4 weapon|
+|11-20|+5 weapon|
+|21-30|+4 weapon with one +1 special ability|
+|31-38|+4 weapon with one +2 special ability|
+|39-46|+4 weapon with one +3 special ability|
+|47-51|+4 weapon with one +4 special ability|
+|52-59|+5 weapon with one +1 special ability|
+|60-67|+5 weapon with one +2 special ability|
+|68-71|+5 weapon with one +3 special ability|
+|72-74|+5 weapon with one +4 special ability|
+|75-77|+5 weapon with one +4 special ability and one +1 special ability|
+|78-80|+5 weapon with one +3 special ability and one +2 special ability|
+|81-100|Greater major specific weapon|

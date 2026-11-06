@@ -1,0 +1,160 @@
++++
+id = "ref/monster/devil-erinyes"
+kind = "creature"
+title = "Erinyes (Devil)"
+source_ids = ["bestiary"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "devil_erinyes", path = "json/monsters07.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "outsider"
+subtypes = ["devil", "evil", "extraplanar", "lawful"]
+size = "medium"
+alignment = "lawful evil"
+ac = "23/17/16"
+hp = "94~9d10+45"
+fortitude = "+11"
+reflex = "+12"
+will = "+7"
+melee = "+1 longsword +15/+10 (1d8+8/19-20)"
+ranged = "+1 flaming composite longbow +14/+14/+9 (1d8+6/&times&3 plus 1d6 fire) or rope +15 touch (entangle)"
+abilities = ["20", "23", "21", "14", "18", "21"]
++++
+
+_Some calamity has befallen this angelic warrior. Wings stained black shear the air as her merciless
+eyes search for a target._
+
+**Erinyes**
+
+**Challenge rating:** 8
+
+**dv:** 60
+
+**Initiative:** +6
+
+**Alignment:** Lawful evil
+
+**Size:** medium
+
+**Type:** outsider
+
+**Perception:** +16
+
+**Senses:** True seeing
+
+**Sense:** Sid
+
+**source:** Pathfinder RPG Bestiary/75
+
+**Subtype:** Devil, Evil, Extraplanar, Lawful
+
+**Experience points:** 4,800
+
+**Armor class:** 23/17/16
+
+**Dr:** 5/good
+
+**Fort:** +11
+
+**Hit points:** 94 (9d10+45)
+
+**Immune:** fire, poison
+
+**Mod:** +6 Dex, +1 dodge, +6 natural
+
+**Ref:** +12
+
+**Resist:** acid 10, cold 10
+
+**Sr:** 19
+
+**Will:** +7
+
+**Offense**
+
+**Speed:** 30 ft., fly 50 ft. (good)
+
+**Melee:** +1 longsword +15/+10 (1d8+8/19-20)
+
+**Ranged:** +1 flaming composite longbow +14/+14/+9 (1d8+6/&times&3 plus 1d6 fire) or rope +15 touch
+(entangle)
+
+**Spell-Like Abilities**
+
+**Caster level:** 12
+
+**Constant:**
+
+- true seeing
+
+**At will:**
+
+- fear, single target, DC 19, greater teleport, self plus 50 lbs. of objects only, minor image, DC
+  17, unholy blight, DC 19
+
+**Per day:**
+
+- 1/day: &S level 3; 2 [bearded devils](ref/monster/devil-bearded-devil-barbazu); 50%
+
+**Statistics**
+
+**Ability scores:** Str 20, Dex 23, Con 21, Int 14, Wis 18, Cha 21
+
+**Base attack bonus:** +9
+
+**Combat maneuver bonus:** +14
+
+**Combat maneuver defense:** 31
+
+**Feats:** Combat Reflexes, Dodge^B^, Mobility^B^, Point-Blank Shot, Precise Shot, Rapid Shot, Shot
+on the Run
+
+**Skills:** Acrobatics +18, Bluff +17, Diplomacy +14, Sense Motive +10, Stealth +15
+
+**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+
+###### B {#footnote-b}
+
+Bonus feat.
+
+**Ecology**
+
+**Environment:** any ([Hell](ref/rule/hell))
+
+**Organization:** solitary or trio
+
+**Treasure:** Triple (+1 longsword, +1 flaming cl+5); rope
+
+### Special Abilities
+
+**Entangle (Su)** Each erinyes carries a 50-foot-long rope that entangles opponents of any size as
+an [animate rope](ref/spell/animate-rope) spell (CL 16th, DC 20). An erinyes can hurl its rope 30
+feet with no range penalty. An erinyes's rope functions only for the erinyes who made it and no
+other. The save DC is Dexterity-based.
+
+### Description
+
+Known by many names - the Fallen, the Ash Wings, and the Furies - the devils called erinyes mock the
+form of the angelic hosts in their exaction of vengeance and bloody justice. Executioners, not
+judges, erinyes alight upon the bladed eaves of Dis, Hell's cosmopolitan second layer, ever
+attentive for chances to soar into battle, whether in defense of Hell, on the whims of diabolical
+masters, or at the impassioned summons of jilted mortal summoners. All erinyes weave deadly living
+ropes from their own hair, which they use in battle to lift their foes into the air, mocking and
+condemning their victims for their transgressions before dropping them from great heights.
+
+Erinyes appear as darkly beautiful angels, augmenting their sensuality with deliberate bruises and
+scars. Yet despite their beauty, erinyes are not seducers - they lack the subtlety and patience
+required for such fine emotional manipulations, and instead vastly prefer to solve their problems
+with swift and excruciating violence. Often, an erinyes will stay her hand before attempting to slay
+a foe simply so she can draw out the victim's suffering. Death is usually the only way to escape an
+erinyes's not-so-tender attentions, and the most powerful of these devils excel at keeping their
+enemies alive but helpless so as to extend their torment - many going as far as to keep their
+victims alive with magic. Rumors hold that the most powerful erinyes torturers have skills that
+allow their torment to continue even after their subject has died from their attentions.
+
+Most erinyes stand just under 6 feet tall and weigh approximately 140 pounds, even with their
+black-feathered wings that stretch over 10 feet wide.
+
+**Family:** [Devil](ref/family/devil)

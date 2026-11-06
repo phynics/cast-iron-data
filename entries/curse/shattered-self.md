@@ -1,0 +1,36 @@
++++
+id = "ref/curse/shattered-self"
+kind = "rule"
+title = "Shattered Self"
+source_ids = ["horror-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shattered_self", path = "json/curses.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Horror Adventures pg 139
+
+**Type:** Curse
+
+**Save:** Will DC 20
+
+**Frequency:** no more than 1/day (see effect text)
+
+**Effect:** he victim's mind splits into two coexisting personas, one normal, the other malicious
+and self-destructive. When in control, the self-destructive persona sabotages the victim's efforts
+and plots the demise of the victim's friends and loved ones. It takes care to conceal its actions
+and intent from others. The normal persona has no sense of missing time. Exactly when the alternate
+persona takes control is up to the GM, but it does so no more than once per day. Each time the
+alternate persona surfaces, the victim must succeed at a save or the alternate persona takes control
+for 1d6 minutes. Normally these takeovers happen when the victim is alone or with just one person,
+but moments of extreme stress can force the victim to attempt a save against this effect as well.
+The alternate persona has full access to the normal persona's memories and abilities, and it
+receives a +10 bonus on Bluff checks to conceal its presence. Despite the malevolent nature of this
+affliction, the victim's alignment remains unchanged when under the curse's effects, so for
+instance, the self-destructive persona could still use a paladin victim's abilities.
+
+**Cure:** Shattered self can be cured only by successfully casting remove curse and either heal,
+greater restoration, or psychic surgery on the victim within 1 minute of each other.

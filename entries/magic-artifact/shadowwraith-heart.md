@@ -1,0 +1,38 @@
++++
+id = "ref/magic-artifact/shadowwraith-heart"
+kind = "item"
+title = "Shadowwraith Heart"
+source_ids = ["mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shadowwraith_heart", path = "json/magic_artifact2.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "3 lbs."
+slot = "none"
+aura = "strong necromancy"
+caster_level = "20th"
++++
+
+**Sources:** Mythic Adventures pg 167\
+**Aura** strong necromancy; **CL** 20th\
+**Slot** none; **Price** -; **Weight** 3 lbs.
+
+This strangely shaped, ebon-colored rock streaked with deep purple veins is actually the petrified
+heart of a long-forgotten mythic hero. Over the centuries, the heart has appeared as an amulet, the
+head of a staff, and a mace head. Regardless of its form, the Shadowwraith Heart functions the same.
+The heart seeks out the location of the nearest source of mythic power - either a creature or
+place - and when brought to the source devours its power. As soon as it comes within a
+60-foot-radius of a mythic creature, it begins to leech off that creature's mythic power. Each round
+a mythic creature remains within the area of effect, it must succeed at a DC 25 Fortitude save or
+lose 1d4 uses of mythic power. If the heart drains a mythic creature of all its daily uses of mythic
+power, the creature loses a mythic tier. The tier loss is semi-permanent, remaining until the
+creature successfully completes one trial.
+
+### Destruction
+
+Implanting the Shadowwraith Heart into the chest of a dying mythic hero reanimates the heart,
+restoring the hero as the [heal](ref/spell/heal) spell (CL 15th), though the hero loses all mythic
+tiers.

@@ -1,0 +1,235 @@
++++
+id = "ref/monster/daemon-anisydaemon"
+kind = "creature"
+title = "Anisydaemon"
+source_ids = ["pathfinder-142-gardens-of-gallowspire"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "daemon_anisydaemon", path = "json/monsters02.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "outsider"
+subtypes = ["daemon", "evil", "extraplanar"]
+size = "large"
+alignment = "neutral evil"
+ac = "28/13/24"
+hp = "172~15d10+90"
+fortitude = "+15"
+reflex = "+11"
+will = "+14"
+melee = "2 claws +23 (1d8+9), 2 bites +23 (2d6+9 plus bleed)"
+special_attacks = "devour soul~shadow possession"
+special_qualities = "compression, hide in plain sight"
+abilities = ["28", "19", "22", "17", "16", "21"]
++++
+
+_This fiend has pitch-black, rubbery skin pulled taut over an immense frame. Arms tipped with
+glistening claws hang past the creature's knees, and two constantly whispering mouths rest on its
+eyeless face._
+
+**Anisydaemon**
+
+**Challenge rating:** 13
+
+**aura:** worry (30 ft., DC 22)
+
+**blindsight:** 60
+
+**Initiative:** +8
+
+**Size:** large
+
+**Alignment:** Neutral evil
+
+**Type:** outsider
+
+**Perception:** +21
+
+**Senses:** Arcane sight, Detect good
+
+**source:** Pathfinder \#142: Gardens of Gallowspire/84
+
+**Subtype:** Daemon, Evil, Extraplanar
+
+**Experience points:** 25,600
+
+**Armor class:** 28/13/24
+
+**Dr:** 10/good and silver
+
+**Fort:** +15
+
+**Hit points:** 172 (15d10+90)
+
+**Immune:** acid, death effects, disease, poison
+
+**Mod:** +15 natural, +4 Dex, -1 size
+
+**Ref:** +11
+
+**Resist:** cold 10, electricity 10, fire 10
+
+**Weaknesses:** sunlight weakness
+
+**Will:** +14
+
+**Offense**
+
+**Speed:** 30 ft.
+
+**Bleed:** 1d4 Wisdom
+
+**Melee:** 2 claws +23 (1d8+9), 2 bites +23 (2d6+9 plus bleed)
+
+**Spec Att:** devour soul, shadow possession
+
+**Spell-Like Abilities**
+
+**Caster level:** 15
+
+**Concentration:** +20
+
+**Constant:**
+
+- arcane sight, detect good, tongues
+
+**At will:**
+
+- detect thoughts, DC 17, greater teleport, self plus 50 lbs. of objects only, invisibility
+
+**Per day:**
+
+- 3/day: crushing despair, DC 19, deeper darkness, nightmare, DC 20, suggestion, DC 18
+- 1/day: eyebite, DC 22, &S level 4; 2d4 [ceustodaemons](ref/monster/daemon-ceustodaemon) 80% or 1
+  anisydaemon 35%
+
+**Psychic Magic**
+
+**Caster level:** 15
+
+**Concentration:** +20
+
+**Power points:** 10
+
+**Psychoactive powers:**
+
+- babble, 3 PE, DC 18, ego whip V, 7 PE, DC 22, mental block, 2 PE, DC 17, murderous command, 1 PE,
+  DC 16, psychic crush III, 7 PE, DC 22
+
+**Statistics**
+
+**Ability scores:** Str 28, Dex 19, Con 22, Int 17, Wis 16, Cha 21
+
+**Base attack bonus:** +15
+
+**Combat maneuver bonus:** +25
+
+**Combat maneuver defense:** 39
+
+**Feats:** Combat Reflexes, Improved Initiative, Intimidating Prowess, Iron Will, Lightning
+Reflexes, Power Attack, Stealthy, Skill Focus (Stealth)
+
+**Skills:** Acrobatics +22, Bluff +23, Intimidate +32, Knowledge (planes) +21, Perception +21, Sense
+Motive +21, Spellcraft +21, Stealth +32
+
+**Languages:** Abyssal, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.,
+_[tongues](ref/spell/tongues)_
+
+**Special qualities:** [compression](ref/umr/compression), hide in plain sight
+
+**Ecology**
+
+**Environment:** any ([Abaddon](ref/rule/abaddon))
+
+**Organization:** solitary, pair, or lurk (3-7)
+
+**Treasure:** Standard
+
+### Special Abilities
+
+**Aura of Worry (Su)** Anisydaemons project a 30-foot aura of anxiety and insecurity. Each creature
+within 30 feet of the daemon must succeed at a DC 22 Will save or be affected by
+_[crushing despair](ref/spell/crushing-despair)_ for as long as it remains within the aura.
+Creatures that fail their save remain affected by the aura for 1d4+1 rounds after leaving the
+radius. The anisydaemon gains [fast healing](ref/umr/fast-healing) 5 for as long as at least one
+creature is affected by its aura. Additionally, creatures that fail their save cannot sleep or
+receive any benefits of rest while under the effects of the aura. An anisydaemon can activate or
+deactivate this ability as a free action. The save DC is Charisma-based.
+
+**Devour Soul (Ex)** Any creature that dies while affected by one of the anisydaemon's
+mind-affecting abilities - including its aura of worry - has its soul devoured by the fiend's second
+mouth. That creature cannot be resurrected by any effect short of [miracle](ref/spell/miracle),
+[wish](ref/spell/wish), or direct intervention from a deity while the anisydaemon lives. Creatures
+whose souls have been devoured by an anisydaemon can be resurrected normally if the anisydaemon is
+slain.
+
+**Hide in Plain Sight (Ex)** An anisydaemon can use the Stealth skill even while being observed. As
+long as it's standing in an area of at least dim light or shadow, an anisydaemon can hide itself
+from view without actually hiding behind anything. This ability has no effect if the anisydaemon is
+not in an area of at least dim light or in an area of shadow of at least Medium size.
+
+**Shadow Possession (Ex)** As a standard action that provokes an attack of opportunity if the target
+is aware of the daemon, an anisydaemon can enter the shadow of any creature to which it is currently
+adjacent. While within a shadow, the anisydaemon is considered to be sharing its target's space,
+though while the daemon is within a shadow, neither creature takes any penalties from
+[squeezing](ref/misc/squeezing). The anisydaemon can still affect creatures within 30 feet of itself
+with its aura of worry, though the daemon can target only the shadow's owner with its psychic magic
+or [spell-like abilities](ref/umr/spell-like-abilities). While within a shadow, an anisydaemon is
+considered [incorporeal](ref/umr/incorporeal) and takes half damage from spells and magic weapons.
+[Ghost touch](ref/magic-enh/ghost-touch-weapon) weapons affect it normally. An anisydaemon that dies
+while possessing a creature's shadow is immediately ejected to a random empty space adjacent to the
+creature. An anisydaemon can leave a shadow it is possessing as a move action that does not provoke
+attacks of opportunity. If it does so, it is ejected into a free space of its choice adjacent to the
+creature whose shadow it was possessing. When an anisydaemon is possessing a creature's shadow, that
+creature cannot benefit from morale bonuses of any kind. An anisydaemon can use its Stealth skill to
+hide while within a shadow.
+
+**Sunlight Weakness (Ex)** An anisydaemon exposed to natural sunlight is unable to use any of its
+psychic magic or [spell-like abilities](ref/umr/spell-like-abilities) and cannot project its aura of
+worry. An anisydaemon possessing a creature's shadow does not count as being in direct sunlight,
+even if the creature whose shadow it's possessing is.
+
+### Description
+
+Anisydaemons, or "worry daemons," represent death by stress and anxiety. Their work can be seen in
+the artisan who drives herself to death because she fears her work will never be good enough, or
+through the husband making himself sick wondering if his partner secretly has a lover and analyzing
+every detail of every interaction until his mind can no longer take the strain.
+
+Anisydaemons average around 14 feet tall and weigh about 1 ton. Occasionally, some anisydaemons
+reach truly monstrous sizes after coaxing countless victims to their deaths. These fiends often grow
+additional mouths on other parts of their bodies, such as their hands or torsos, which magnify the
+power of their psychic whispers. Despite their bulk, those attempting to escape an anisydaemon
+discover the fiends can squeeze into impossibly small spaces in pursuit.
+
+Anisydaemons are most often found in slave cities in Abaddon, stalking the mortal populace and
+keeping their minds too worn down to foster hope and too distracted by the problems their own minds
+produce to consider rebellion. However, they sometimes take sabbaticals on the Material Plane to
+find fresh souls to torment and devour.
+
+The fiends have smooth, hairless, almost rubbery black skin. They're bipedal, with arms and legs
+that end in claws as sharp as a surgeon's blade. But by far, their most disturbing feature is their
+eyeless faces adorned with two wide maws. From the top maw comes a constant susurrus of whispers
+that seems to access any listeners' deepest worries and insecurities, while the bottom mouth waits
+to snatch the souls of the creature's victims.
+
+### Habitat
+
+While they originate in Abaddon and are most often found there, anisydaemons can be found in any
+location with large amounts of people. They typically do their work alone, and they see others of
+their kind or of a comparable strength more as rivals for the same resources than as allies.
+Anisydaemons have been known to work in groups of up to seven of their own kind, but only when
+commanded to do so by a summoner or a daemon even more powerful than the group of them together.
+
+Anisydaemons can be found working in the interests of any of the Horsemen. For the Horseman of War,
+they often help drive up levels of anxiety and paranoia between different groups, eventually
+culminating in each group believing that their best hope for survival is to eliminate the others.
+For the Horseman of Famine, anisydaemons often target the wealthy in times of scarcity and press
+upon their worries of starvation, leading them to hoard what little food is available and allowing
+countless poor to starve. The Horseman of Pestilence uses these daemons during outbreaks of sickness
+to convince the healthy their only hope of survival is to eliminate the sick, as such violence often
+ends up helping sickness spread anyway. Under the Horseman of Death, these fiends whisper of the
+horrible fates that await mortals after death and watch as the subsequent worry leads mortals to
+commit heinous acts to lengthen their life spans, ironically leading their souls closer to Abaddon
+in the process.

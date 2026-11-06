@@ -1,0 +1,28 @@
++++
+id = "ref/feat/dazing-spell"
+kind = "feat"
+title = "Dazing Spell"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "dazing_spell", path = "json/feat04.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Metamagic"]
+benefit = "You can modify a spell to daze a creature damaged by the spell. When a creature takes damage from this spell, they become dazed for a number of rounds equal to the original level of the spell. If the spell allows a saving throw, a successful save negates the daze effect. If the spell does not allow a save, the target can make a Will save to negate the daze effect. If the spell effect also causes the creature to become dazed, the duration of this metamagic effect is added to the duration of the spell. A dazing spell uses up a spell slot three levels higher than the spell's actual level. Spells that do not inflict damage do not benefit from this feat."
++++
+
+## Dazing Spell (Metamagic)
+
+**Sources:** Advanced Player's Guide pg 157
+
+You can daze creatures with the power of your spells.\
+**Benefit:** You can modify a spell to daze a creature damaged by the spell. When a creature takes
+damage from this spell, they become [dazed](ref/misc/dazed) for a number of rounds equal to the
+original level of the spell. If the spell allows a saving throw, a successful save negates the daze
+effect. If the spell does not allow a save, the target can make a Will save to negate the daze
+effect. If the spell effect also causes the creature to become dazed, the duration of this metamagic
+effect is added to the duration of the spell. A dazing spell uses up a spell slot three levels
+higher than the spell's actual level. Spells that do not inflict damage do not benefit from this
+feat.

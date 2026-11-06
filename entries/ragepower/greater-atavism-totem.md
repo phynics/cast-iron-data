@@ -1,0 +1,18 @@
++++
+id = "ref/ragepower/greater-atavism-totem"
+kind = "rule"
+title = "Greater Atavism Totem"
+source_ids = ["villain-codex"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "greater_atavism_totem", path = "json/class_ability_rage_powers.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Greater Atavism Totem (Su)&FN&**
+
+**Ability:** The barbarian gains [trample](ref/umr/trample).
+
+**Prereq:** [Atavism totem](ref/ragepower/atavism-totem), 10th-level barbarian

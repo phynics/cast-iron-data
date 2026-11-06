@@ -1,0 +1,33 @@
++++
+id = "ref/eq-misc/perfume-cologne"
+kind = "item"
+title = "Perfume/Cologne"
+source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting", "curse-of-the-crimson-throne-players-guide", "ultimate-equipment", "adventurers-armory"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "perfume_cologne", path = "json/equipment_misc4.json" },
+]
+
+[fields]
+kind = "item"
+price = "1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare)"
+weight = "- Perfume (common), - Perfume (exotic), - Perfume (rare)"
++++
+
+**Sources:** Inner Sea World Guide pg 293, Pathfinder Campaign Setting pg 213, Curse of the Crimson
+Throne Player's Guide pg 12\
+**Price** 1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare);
+**Weight** - Perfume (common), - Perfume (exotic), - Perfume (rare)
+
+Perfume and cologne are common accessories for those who hope to avoid offending through scent.
+Exotic scents are sold in vials containing 10 applications, with a single dose lasting for 24 hours
+during which its wearer gains a +2 circumstance bonus on all Diplomacy checks (save for those
+against creatures who, at the GM's discretion, would not be swayed by scent).
+
+## Perfume/cologne
+
+**Sources:** Ultimate Equipment pg 57, Adventurer's Armory pg 19\
+**Price** 5 gp; **Weight** -\
+**Category** Adventuring Gear
+
+Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may
+(at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks.

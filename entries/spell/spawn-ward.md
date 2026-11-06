@@ -1,0 +1,54 @@
++++
+id = "ref/spell/spawn-ward"
+kind = "spell"
+title = "Spawn Ward"
+source_ids = ["advanced-race-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "spawn_ward", path = "json/spells9.json" },
+]
+
+[fields]
+kind = "spell"
+school = "necromancy"
+levels = [
+  { class = "Cleric", level = 5 },
+  { class = "Inquisitor", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Warpriest", level = 5 },
+]
+casting_time = "1 standard action"
+components = "V, S"
+range = "touch"
+effects = [
+  { label = "Target", value = "creature touched" },
+]
+duration = "10 minutes/level"
+saving_throw = "none"
+spell_resistance = "no"
++++
+
+::: statblock
+title = "Spell statistics"
+School: necromancy
+Level: 5: Cleric, Inquisitor, Oracle, Warpriest
+Casting time: 1 standard action
+Components: V, S
+Range: touch
+Duration: 10 minutes/level
+Saving throw: none
+Spell resistance: no
+Target: creature touched
+:::
+
+**Sources:** Advanced Race Guide pg 101
+
+> _[Dhampirs](ref/race/dhampir) have access to the following spell._
+
+The target becomes resistant to the effects of energy drain and blood drain attacks made by undead
+creatures, and cannot be made into undead spawn if killed while the spell is in effect.
+
+If the attacking undead's Hit Dice is less than or equal to your caster level, the blood drain or
+energy drain has no effect. If the attacking undead's Hit Dice are greater than your caster level,
+the undead must make a Fortitude save (against the DC of the spell) with each attack for those
+special abilities to have any effect. The spell only prevents the Constitution damage from blood
+drain and negative levels from energy drain, but not any other effects of these attacks.

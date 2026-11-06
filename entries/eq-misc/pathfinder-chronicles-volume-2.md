@@ -1,0 +1,29 @@
++++
+id = "ref/eq-misc/pathfinder-chronicles-volume-2"
+kind = "item"
+title = "Pathfinder Chronicles - Volume 2"
+source_ids = ["pathfinder-society-primer"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "pathfinder_chronicles___volume_2", path = "json/equipment_misc4.json" },
+]
+
+[fields]
+kind = "item"
+price = "100 gp"
+weight = "1 lb."
++++
+
+**Sources:** Pathfinder Society Primer pg 26\
+**Price** 100 gp; **Weight** 1 lb.\
+**Category** [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+
+The second entry into the Pathfinder Chronicles includes Durvin Gest's thorough cataloging of 31
+siege castles in the Cairnlands surrounding Absalom and notes from Borden Thalian on his journey up
+the Vanji River in the Mwangi Expanse to a fantastic city of jade he reportedly discovered at its
+headwaters.
+
+### Skill Bonuses
+
+- Navigate the many treacherous dungeons beneath and within the Cairnlands' siege castles (Knowledge
+  \[dungeoneering\] +2)
+- Travel on a river with more efficiency and safety (Profession \[sailor\] +2)

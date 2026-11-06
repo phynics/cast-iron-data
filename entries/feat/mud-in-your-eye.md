@@ -1,0 +1,35 @@
++++
+id = "ref/feat/mud-in-your-eye"
+kind = "feat"
+title = "Mud in Your Eye"
+source_ids = ["heroes-of-the-streets"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "mud_in_your_eye", path = "json/feat11.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Throw Anything."
+prerequisite_feats = ["ref/feat/throw-anything"]
+benefit = "As a standard action when in urban or subterranean terrain, you can scoop filth, sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack with a range increment of 5 feet. If the attack hits, you can immediately attempt a dirty trick combat maneuver against the target as a free action; this dirty trick can be used only to blind the target. As a ranged touch attack, this action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke such attacks (such as via the Improved Dirty Trick feat)."
+special = "A character with favored terrain (as the ranger class feature) can use this feat when in any of his favored terrains in addition to urban and subterranean."
++++
+
+## Mud in Your Eye (Combat)
+
+**Sources:** Heroes of the Streets pg 29
+
+You are used to fighting in muck and slime, and happily hurl it in your foes' eyes in the heat of
+battle.\
+**Prerequisites:** [Throw Anything](ref/feat/throw-anything).\
+**Benefit:** As a standard action when in urban or subterranean terrain, you can scoop filth,
+sewage, mud, or similar grime off a nearby surface and hurl it at a foe as a ranged touch attack
+with a range increment of 5 feet. If the attack hits, you can immediately attempt a
+[dirty trick](ref/rule/dirty-trick) combat maneuver against the target as a free action; this dirty
+trick can be used only to [blind](ref/misc/blinded) the target. As a ranged touch attack, this
+action provokes attacks of opportunity, even if your dirty trick attempts normally wouldn't provoke
+such attacks (such as via the [Improved Dirty Trick](ref/feat/improved-dirty-trick) feat).\
+**Special:** A character with [favored terrain](ref/ability/favored-terrain) (as the ranger class
+feature) can use this feat when in any of his favored terrains in addition to urban and
+subterranean.

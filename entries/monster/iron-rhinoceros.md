@@ -1,0 +1,210 @@
++++
+id = "ref/monster/iron-rhinoceros"
+kind = "creature"
+title = "Iron Rhinoceros"
+source_ids = ["pathfinder-95-anvil-of-fire"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "iron_rhinoceros", path = "json/monsters33.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "construct"
+size = "huge"
+alignment = "neutral"
+ac = "25/9/24"
+hp = "131~14d10+54"
+fortitude = "+6"
+reflex = "+7"
+will = "+4"
+melee = "gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus grab)"
+special_attacks = "grasping chains~powerful drag"
+abilities = ["28", "12", "-", "1", "11", "5"]
++++
+
+_Dangling chains cover the riveted iron body of this massive rhinoceros like thick, woolly fur. Its
+hollow eyes glow - windows into a mighty furnace - and smoke that smells suspiciously like burning
+flesh billows from its smokestack horns._
+
+**Iron Rhinoceros**
+
+**Challenge rating:** 11
+
+**Type:** construct
+
+**dv:** 60
+
+**Size:** huge
+
+**Initiative:** +1
+
+**Sense:** Llv
+
+**Alignment:** Neutral
+
+**Perception:** +14
+
+**source:** Pathfinder \#95: Anvil of Fire/86
+
+**Experience points:** 12,800
+
+**Armor class:** 25/9/24
+
+**Dr:** 10/adamantine
+
+**Fort:** +6
+
+**Hit points:** 131 (14d10+54)
+
+**Immune:** [construct traits](ref/umr/construct-traits), fire
+
+**Mod:** +1 Dex, +16 natural, -2 size
+
+**Ref:** +7
+
+**Will:** +4
+
+**Offense**
+
+**Speed:** 40 ft.
+
+**Melee:** gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus [grab](ref/umr/grab))
+
+**Pow Ch:** gore, 6d8+16 or scooping charge
+
+**Reach:** 10
+
+**Reach P:** 20 ft. with chains
+
+**Space:** 15
+
+**Spec Att:** grasping chains, powerful drag
+
+**Swallow:** 2d6 fire damage, AC 18, 13 hp
+
+**Trample:** 2d6+8 plus grasping chains, DC 26
+
+**Statistics**
+
+**Ability scores:** Str 28, Dex 12, Con -, Int 1, Wis 11, Cha 5
+
+**Base attack bonus:** +14
+
+**Combat maneuver bonus:** +25 (+29 grapple)
+
+**Combat maneuver defense:** 36 (40 vs. trip)
+
+**Feats:** Great Fortitude, Improved Critical (gore), Intimidating Prowess, Lightning Reflexes,
+Multiattack, Power Attack, Toughness
+
+**Skills:** Intimidate +4, Perception +14
+
+**Ecology**
+
+**Environment:** warm mountains or underground
+
+**Organization:** solitary
+
+**Treasure:** None
+
+### Special Abilities
+
+**Grasping Chains (Ex)** An iron rhinoceros is covered in animated chains that grasp at its enemies.
+It doesn't gain the grappled condition when using its chains to grapple enemies, and can maintain a
+grapple using its chains as a free action, though doing so prevents it from attacking with that
+chain. An iron rhinoceros may have up to two creatures grappled in its chains at a time.
+Additionally, the chains seek to ensnare creatures the rhino tramples. The chains entangle any
+creature that fails its saving throw against the rhinoceros's trample attack, or that chooses to
+forgo its save in order to make an attack of opportunity against the rhinoceros. An entangled
+creature can escape from the chains as a standard action by succeeding on a DC 26 Strength check or
+a DC 20 Escape Artist check. Each chain has AC 12, [hardness](ref/umr/hardness) 10, and 15 hit
+points. Creatures entangled in the chains can't move farther than 20 feet away from the rhinoceros.
+If the rhinoceros moves farther than 20 feet from an entangled target, the tethering chain breaks,
+but the target remains entangled.
+
+**Powerful Drag (Ex)** An iron rhinoceros can use the drag combat maneuver to savagely scrape its
+foes across the ground. As a full-round action, an iron rhinoceros can attempt a single drag combat
+maneuver against every creature currently tethered to its grasping chains. This deals 1d6 points of
+damage for every 5 feet dragged, and the chains tethered to any creature more than 20 feet away
+break. The dragging damage may increase depending on the terrain, at the GM's discretion. Creatures
+dragged any distance are knocked prone.
+
+**Scooping Charge (Ex)** An iron rhinoceros can unhinge its snout in order to scoop enemies into the
+furnace-like cavity within its belly. When making a powerful charge, the iron rhinoceros can forgo
+dealing damage in order to gain the grab and fast swallow abilities with its gore attack. The
+rhinoceros must make this choice at the beginning of its charge.
+
+**Swallow Whole (Ex)** An iron rhinoceros's belly functions as a furnace, dealing 2d6 points of fire
+damage to swallowed creatures. Hatches on the rhinoceros's sides allow it to swallow creatures
+grappled in its chains. In order to take swallowed creatures prisoner without dealing fire damage,
+the rhinoceros can suppress (or activate) the flames within its furnace as a swift action. When the
+rhinoceros is suppressing the flames, the furnace instead fills with smoke, forcing swallowed
+creatures to succeed at a DC 17 Fortitude save each round or be sickened for as long as they remain
+in the rhinoceros's belly. This save DC is Constitution-based. Creatures attempting to cut their way
+out of the iron rhinoceros's belly must overcome the durability of the thick furnace walls
+([hardness](ref/umr/hardness) 10).
+
+### Description
+
+The brutality of fire giants is matched only by their ingenuity at crafting devices of war. Of all
+their creations, however, few match the ruthless efficiency or raw power of the iron rhinoceros.
+Built to sate the fire giants' endless desire for slaves, iron rhinoceroses serve as both tireless
+mounts for giant warlords campaigning against lesser races and as temporary prisons for troublesome
+captives.
+
+An iron rhinoceros measures 18 feet long from snout to tail and stands 12 feet tall at the shoulder.
+
+It is a quirk of fate that fire giants, the most rigid and militaristic of the giant races, created
+a construct as willful and obstinate as the iron rhinoceros. Early prototypes for the creature
+borrowed techniques from golem manufacturing and relied on bound elementals to provide the
+construct's animating force. The results were initially promising, as these unintelligent creatures
+obeyed without hesitation and executed their orders with mechanical precision. However, they also
+inherited their golem forebears' tendency to go berserk in battle. Few generals were willing to ride
+a mount that might turn on its rider, and so these first creations were deemed unreliable and most
+were broken down for scrap.
+
+For the second generation of iron rhinoceroses, fire giant blacksmiths bound the spirits of animals
+rather than elementals into the construct's frame. The results were surprisingly lifelike. When not
+in use as mounts or engines of war, these new iron rhinoceroses rest and graze as normal
+rhinoceroses do, even without the need for food or sleep. They "eat" combustible materials, such as
+wood and coal, to fuel their internal furnaces, and seek warm places to lie down. They also share
+their living cousins' aggressive tendencies, and attack unfamiliar creatures on sight.
+
+An iron rhinoceros is only truly loyal to its maker, or to an individual whom its maker designates
+at the time of its creation. At best, it tolerates the presence of other creatures, and more often
+displays barely constrained hostility toward its master's servants. An iron rhinoceros prefers not
+to allow riders other than its master, and such riders take a -4 penalty on Ride checks to control
+it in battle.
+
+### Habitat
+
+Iron rhinoceroses are rarely found outside of fire giant camps. Although any sufficiently
+experienced and equipped spellcaster can create one, something in the mechanical beasts'
+construction predisposes them to favor giants over other creatures. While they might remain loyal to
+their creator, iron rhinoceroses display aggression toward any other non-giant creature they meet.
+These tendencies, combined with the creatures' immense size and strength, make them dangerous to
+keep in even lightly civilized areas.
+
+Among some fire giant communities, iron rhinoceroses are a mark of status and power. Many fire
+giants assume that a general who possesses and commands one has been successful enough at war to
+afford the exorbitant cost of the beast's creation. Because iron rhinoceroses cannot (or will not)
+bond with a new master after their creation, elders rarely pass them down along family lines or to
+successors. Up-and-coming fire giant generals are expected to produce their own iron rhinoceroses to
+prove their worth as military commanders. In truth, few iron rhinoceroses survive their masters, as
+both tend to fall in battle against more powerful enemies. On the rare occasion when an iron
+rhinoceros does outlast its owner, the construct is placed within its master's tomb to serve as a
+guardian for his body and grave goods. Desperate or foolish young commanders sometimes attempt to
+steal iron rhinoceroses from the tombs of their ancestors, hoping to gain the prestige that comes
+with ownership without first proving themselves in war. These young generals more often than not end
+up impaled, making their attempted theft readily apparent to whatever unfortunate giants must clean
+up the mess.
+
+### Construction
+
+An iron rhinoceros is made of 6,000 pounds of forgehardened iron and steel that costs 5,000 gp.
+
+**CL** 15th; **Price** 117,500 gp\
+**Requirements** [Craft Construct](ref/feat/craft-construct), [geas/quest](ref/spell/geas-quest),
+[limited wish](ref/spell/limited-wish), [resist energy](ref/spell/resist-energy),
+[summon nature's ally V](ref/spell/summon-natures-ally-5), creator must be caster level 15th;
+**Skill** Craft (armor) or Craft (weapons) DC 25; **Cost** 61,250 gp

@@ -1,0 +1,76 @@
++++
+id = "ref/rule/crowd-attitudes"
+kind = "rule"
+title = "Crowd Attitudes"
+source_ids = ["ultimate-combat"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "crowd_attitudes", path = "json/rules_adv_gm01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Combat pg 153
+
+While combatants do the actual fighting in performance combat, the crowd remains an active
+participant in these bouts. The audience can bolster or demoralize the competitors with their
+enthusiasm or scorn for what they see on the battlefield, with serious results.
+
+A crowd's attitude is similar to a non-player character's attitude when a character uses the
+Diplomacy skill. The DC of performance combat checks to improve crowd reaction is tied to the
+crowd's starting or current attitude. Each time the combatants do something spectacular on the
+battlefield, they have the opportunity to parlay that success into a better crowd reaction, but
+missteps can also create contempt among the crowd.
+
+During performance combat, it is important for the GM to keep track of the crowd's attitude toward
+each side of the combat. Given that a crowd is filled with many people shouting, clapping, booing,
+hissing, or otherwise showing their pleasure or displeasure, the exact crowd reaction changes from
+moment to moment based on events on the battlefield, but groups of combatants always have a
+reasonable idea of what the crowd thinks of their performance at any given time.
+
+The following are the general categories of crowd reaction and attitude. They are listed from lowest
+regard to highest.
+
+**Hostile:** The crowd does not like what it is seeing. Hostile crowds demoralize combatants in a
+performance combat. In these battles, while the crowd is hostile toward a given side, those
+combatants take a -2 penalty on all attack rolls, combat maneuver checks, ability checks, skill
+checks, and saving throws. This is a mind-affecting effect.
+
+If the crowd is hostile toward a side of the combat and a member of that side fails a performance
+combat check by 5 or more, that side automatically loses the performance part of the combat. This
+can be important for the story of the game, or if the PCs are participating in serialized
+performance combats.
+
+**Unfriendly:** While still biased against a side, the crowd reserves its most vocal disdain for
+failed performance combat checks. Unfriendly crowds demoralize combatants in a performance combat.
+In these battles, while the crowd is unfriendly toward a given side, those combatants take a -1
+penalty on all attack rolls, combat maneuver checks, ability checks, skill checks, and saving
+throws. This is a mind-affecting effect.
+
+**Indifferent:** The crowd is waiting for something exciting to happen. Audience members show little
+emotion other than anticipation and a desire for daring feats of combat to occur.
+
+**Friendly:** The crowd is beginning to be swayed toward one side in the fray. Audience members
+cheer when that side achieves some impressive feat in the combat, and their reaction grants a +1
+morale bonus on all attack rolls, combat maneuver checks, ability checks, skill checks, and saving
+throws for their chosen side. This is a mind-affecting effect.
+
+**Helpful:** The crowd loves what it is seeing from a given side. Audience members stand up, chant,
+cheer, and scream for the combatants to push on toward ultimate success. A helpful crowd grants its
+chosen champions a +2 morale bonus on all attack rolls, combat maneuver checks, ability checks,
+skill checks, and saving throws. This is a mind-affecting effect.
+
+If the crowd is helpful toward one side of the combat and a member of that side succeeds at a
+performance combat check, that side gains a victory point.
+
+### Crowd's Starting Attitude
+
+The first thing a GM must do in a performance combat is determine the crowd's starting attitude.
+Typically a crowd starts out with an indifferent attitude toward each side, but it could start with
+an attitude that's a step higher or lower based on other circumstances. Favored champions of a
+fighting pit or a city may start at a higher attitude step, while outsiders, prisoners of war, or
+criminals may start at a lower attitude step. If you are running a series of combats, a crowd may
+start with a higher or lower starting attitude based on a combatant's or a group of combatants'
+performance in the last bout, which is determined by the number of victory points the individual or
+group has (see [Serialized Performance Combats](ref/rule/serialized-performance-combat)).

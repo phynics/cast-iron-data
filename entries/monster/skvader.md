@@ -1,0 +1,156 @@
++++
+id = "ref/monster/skvader"
+kind = "creature"
+title = "Skvader"
+source_ids = ["pathfinder-61-shards-of-sin"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "skvader", path = "json/monsters22.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+size = "tiny"
+alignment = "neutral"
+ac = "14/14/12"
+hp = "6~1d10+1"
+fortitude = "+3"
+reflex = "+4"
+will = "+1"
+melee = "bite +5 (1d3-1 plus attach)"
+abilities = ["8", "15", "13", "4", "13", "6"]
++++
+
+_This small creature has the forequarters and hind legs of a hare, and the wings and tail of a wood
+grouse._
+
+**Skvader**
+
+**Challenge rating:** 1/2
+
+**dv:** 60
+
+**Initiative:** +2
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +1
+
+**source:** Pathfinder \#61: Shards of Sin/86
+
+**Size:** tiny
+
+**Experience points:** 200
+
+**Armor class:** 14/14/12
+
+**Fort:** +3
+
+**Hit points:** 6 (1d10+1)
+
+**Mod:** +2 Dex, +2 size
+
+**Ref:** +4
+
+**Will:** +1
+
+**Offense**
+
+**Speed:** 40 ft., fly 40 ft. (poor)
+
+**Melee:** bite +5 (1d3-1 plus attach)
+
+**Reach:** 0
+
+**Space:** 2-1/2
+
+**Statistics**
+
+**Ability scores:** Str 8, Dex 15, Con 13, Int 4, Wis 13, Cha 6
+
+**Base attack bonus:** +1
+
+**Combat maneuver bonus:** +1
+
+**Combat maneuver defense:** 10 (14 vs. trip)
+
+**Feats:** Weapon Finesse
+
+**Skills:** Stealth +14
+
+**Ecology**
+
+**Environment:** temperate forest and hills
+
+**Organization:** solitary, pair, family (3-12), or pack (1 [wolpertinger](ref/monster/wolpertinger)
+and 3-12 skvaders)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Attach (Ex)** When a skvader hits with its bite attack, it automatically grapples its foe, dealing
+automatic bite damage each round. An attached skvader loses its Dexterity bonus to AC and has an AC
+of 12.
+
+### Description
+
+A combination of hare and grouse, skvaders boast features and mannerisms of both animals. At first
+glance, a skvader appears to be a common hare, though its shorter ears distinguish it from the
+longer-eared rabbits. Its wings, hindquarters, and tail usually have a coloration similar to its
+fur, and its bird-like features are only easily distinguishable up close. Skvaders are twitchy and
+nervous, constantly on the lookout for predators. They switch between standing stock still upon
+sensing danger and quickly bolting to escape. While generally docile, skvaders become dangerous if
+cornered.
+
+A skvader is about 1-1/2 feet long and weighs around 10 pounds.
+
+Skvaders live primarily in temperate forests, though they are also found in hillier regions with
+enough vegetation to provide them easy sustenance. They're also drawn to open, low-lying areas,
+particularly farm fields and plains covered in an abundance of tall grasses upon which they can
+feed.
+
+Their high metabolisms give these herbivores voracious appetites, which force them to consume such
+large quantities of plants that they pose significant threats to farmers' livelihoods. A family of
+skvaders infesting a farmer's fields can lay waste to his crops in just a couple of weeks. Once
+they've destroyed the vegetation in an area, the skvaders move on to nearby farms and continue
+feeding.
+
+If cornered, a skvader emits a shrill screech that can be heard as far as a mile away. Other
+skvaders in the area immediately rush to its aid, causing a confrontation with a lone skvader to
+quickly escalate into a fight with a ferocious group of the creatures. When in combat, a skvader
+prefers to single out a threat and attach itself to that target.
+
+Scholars postulate that skvaders are a lesser form of their wolpertinger cousins, a variant that
+never fully developed into the greater threat the wolpertinger is. Others believe that the skvader
+is a distant precursor to the owlbear, citing the combination of mammalian and avian features,
+though on a much smaller scale. These scholars believe skvaders might have been an early experiment
+to combine two creatures into one, undertaken by the same lunatic wizard who supposedly created the
+owlbear.
+
+### Habitat
+
+To protect themselves and secure a safe birthing environment, skvaders often dig small burrows. A
+large enough skvader population frightens off other small herbivores, which leave their burrows
+behind for the skvaders to claim. They sometimes have to spend some time expanding the burrow's
+size, particularly if one or more wolpertingers are among the pack.
+
+In skvader families, adult females care for the young and the males dig the burrows, patrol for
+predators, and offer protection when their mates deliver a litter. Skvaders mate for life, though if
+one of a mated pair dies, the other seeks a new mate after a mourning period. Skvader young often
+stay with their parents for the first year of life. Multiple skvader families in the same region
+generally coexist peacefully. If one family grows significantly larger than the others, the smaller
+family simply moves on to new feeding grounds.
+
+### Skvaders and Wolpertingers as Familiars
+
+While most skvaders and wolpertingers prefer the company of their families and packs, occasionally
+the more adventurous among them come to serve as familiars. Service to a powerful spellcaster brings
+with it protection and long-term companionship, which these creatures take advantage of. A neutral
+spellcaster can gain a skvader as a familiar at 3rd level by taking the
+[Improved Familiar](ref/feat/improved-familiar) feat, and a neutral spellcaster can gain a
+wolpertinger as a familiar at 5th level by taking the Improved Familiar feat.

@@ -1,0 +1,43 @@
++++
+id = "ref/feat/ritual-hex"
+kind = "feat"
+title = "Ritual Hex"
+source_ids = ["occult-origins"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "ritual_hex", path = "json/feat13.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Knowledge (arcana) 4 ranks, Knowledge (history) 4 ranks, hex class feature."
+benefit = "You learn to perform a special occult ritual known as Beseeching the Patron, which temporarily grants you a hex you don't already know how to use. You always believe that your ritual is a success, so the GM should roll the required skill checks in secret, revealing the result only when you try to use your newly acquired hex."
++++
+
+**Sources:** Occult Origins pg 24
+
+You are well versed in ancient secrets and forbidden curses, and know how to petition powers with
+which you are already in contact for additional knowledge.\
+**Prerequisites:** Knowledge (arcana) 4 ranks, Knowledge (history) 4 ranks, hex class feature.\
+**Benefit:** You learn to perform a special [occult ritual](ref/rule/occult-rituals) known as
+Beseeching the Patron, which temporarily grants you a hex you don't already know how to use. You
+always believe that your ritual is a success, so the GM should roll the required skill checks in
+secret, revealing the result only when you try to use your newly acquired hex.
+
+### Beseeching the Patron
+
+**School** divination; **Level** 4\
+**Casting Time** 40 minutes\
+**Components** V, F (a book of occult lore worth at least 150 gp)\
+**Skill Checks** Knowledge (arcana) DC 20, 2 successes; Knowledge (history) DC 20, 2 successes\
+**Range** personal\
+**Duration** 24 hours\
+**Saving Throw** no; **SR** no
+
+**Backlash** The caster is fatigued for 1 hour.
+
+**Failure** All of the caster's spells suffer a 10% spell failure chance for 24 hours.
+
+**Effect:** The caster gains access to one additional hex for which she qualifies. This ritual can
+be used to acquire a major hex (increasing the DCs of the ritual's skill checks by 10) or grand hex
+(increasing the DCs by 20) if desired. The caster can have only one additional hex from this ritual
+at a time.

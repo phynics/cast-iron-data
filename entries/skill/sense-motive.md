@@ -1,0 +1,165 @@
++++
+id = "ref/skill/sense-motive"
+kind = "rule"
+title = "Sense Motive"
+source_ids = ["core-rulebook", "occult-adventures", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sense_motive", path = "json/skills.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 104
+
+**Associated Skill**
+
+**Details:** Wisdom
+
+**Trained Only**
+
+**Details:** No
+
+**Armor Check Penalty**
+
+**Details:** No
+
+**Optional Unchained Skill**
+
+**Details:** No
+
+**Optional Background Skill**
+
+**Details:** No
+
+### Check
+
+A successful check lets you avoid being bluffed (see the [Bluff](ref/skill/bluff) skill). You can
+also use this skill to determine when "something is up" (that is, something odd is going on) or to
+assess someone's trustworthiness.
+
+|Task|Sense Motive DC|
+| --- | --- |
+|Hunch|20|
+|Sense enchantment|25 or 15|
+|Discern secret message|Varies|
+
+#### Hunch
+
+This use of the skill involves making a gut assessment of the social situation. You can get the
+feeling from another's behavior that something is wrong, such as when you're talking to an impostor.
+Alternatively, you can get the feeling that someone is trustworthy.
+
+#### Sense Enchantment
+
+You can tell that someone's behavior is being influenced by an enchantment effect even if that
+person isn't aware of it. The usual DC is 25, but if the target is dominated (see
+[dominate person](ref/spell/dominate-person)), the DC is only 15 because of the limited range of the
+target's activities.
+
+#### Discern Secret Message
+
+You may use Sense Motive to detect that a hidden message is being transmitted via the Bluff skill.
+In this case, your Sense Motive check is opposed by the Bluff check of the character transmitting
+the message. For each piece of information relating to the message that you are missing, you take a
+-2 penalty on your Sense Motive check. If you succeed by 4 or less, you know that something hidden
+is being communicated, but you can't learn anything specific about its content. If you beat the DC
+by 5 or more, you intercept and understand the message. If you fail by 4 or less, you don't detect
+any hidden communication. If you fail by 5 or more, you might infer false information.
+
+### Action
+
+Trying to gain information with Sense Motive generally takes at least 1 minute, and you could spend
+a whole evening trying to get a sense of the people around you.
+
+### Try Again
+
+No, though you may make a Sense Motive check for each Bluff check made against you.
+
+### Special
+
+A ranger gains a bonus on Sense Motive checks when using this skill against a
+[favored enemy](ref/ability/favored-enemy).
+
+If you have the [Alertness](ref/feat/alertness) feat, you get a bonus on Sense Motive checks.
+
+### Occult Skill Unlocks
+
+[Occult skill unlocks](ref/rule/occult-skill-unlocks) are available to those using the occult rules
+and meet certain requirements.
+
+#### Prognostication
+
+**Sources:** Occult Adventures pg 196
+
+You are skilled in means of folk divination. The most common methods are cartomancy (reading cards),
+cheiromancy (reading a creature's palms), crystallomancy (crystal-gazing), extispicy (reading animal
+entrails), horoscopy (reading a creature's birth stars), oneiromancy (interpreting dreams),
+osteomancy (reading cast bones), and pyromancy (reading flames).
+
+##### Check
+
+Once per day, you can predict a creature's fortune for the near future. You spend 10 minutes
+interpreting the divination means at your disposal. The GM then attempts a secret Sense Motive check
+with a DC modified by the subject's Hit Dice (see the table below). The result of the check can give
+you basic insight into the subject's nature, including its alignment, class, and levels or Hit Dice,
+and might reveal clues to the creature's immediate future. Determining the immediate future as an
+[augury](ref/spell/augury) spell has a chance of successfully interpreting meaningful readings equal
+to 60% plus 5% for every point by which the check result exceeds the DC (to a maximum of 90%). With
+a single check, you determine all the information whose DC you meet. For instance, if you had a
+result of 22 when telling the fortune of a creature with 2 HD, you would learn that creature's
+alignment and class, but not its level, HD, or fortune.
+
+|Task|DC|
+| --- | --- |
+|Determine alignment|15 + creature's HD|
+|Determine class|20 + creature's HD|
+|Determine level or HD|25 + creature's HD|
+|Determine fortune as _[augury](ref/spell/augury)_ spell|25 + creature's HD|
+
+##### Action
+
+Reading a creature's fortune requires 10 minutes of uninterrupted contemplation, and the subject
+creature must be present.
+
+##### Try Again
+
+Yes. You can attempt to read a particular creature's fortune repeatedly, but only once per 24 hours.
+
+##### Special
+
+Specially crafted items purchased for the exclusive use of this skill grant a +2 circumstance bonus
+on Sense Motive checks to prognosticate.
+
+### Unchained Rogue Skill Unlocks
+
+**Sources:** Pathfinder Unchained pg 86\
+If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Sense Motive, you earn
+the following.
+
+**5 Ranks**
+
+**Details:** If you were aware of an opponent before rolling initiative (such as when you ambush an
+enemy or negotiations break down into combat, but not when both sides happen upon each other or you
+are surprised), you can attempt a Sense Motive check as part of your initiative check (DC = 11 + the
+highest Bluff modifier among your opponents or DC 15, whichever is higher). If you succeed, you gain
+a +1 bonus on the initiative check, plus an additional +1 for every 5 by which you exceeded the DC.
+
+**10 Ranks**
+
+**Details:** After 1 minute of conversation, you can read a creature's surface thoughts (as
+[detect thoughts](ref/spell/detect-thoughts)) by attempting a Sense Motive check at a -20 penalty
+opposed by the creature's Bluff check.
+
+**15 Ranks**
+
+**Details:** You can read surface thoughts as above after 1 round. In addition, when attacked, you
+can attempt a Sense Motive check as an **immediate action** opposed by your target's attack roll. A
+successful check grants a +2 insight bonus to your AC against attacks from that specific opponent
+for 1 minute.
+
+**20 Ranks**
+
+**Details:** You can read surface thoughts as above as a **standard action**. A successful check to
+gain an insight bonus to your AC also negates the attack that triggered it.

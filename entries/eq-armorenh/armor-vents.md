@@ -1,0 +1,25 @@
++++
+id = "ref/eq-armorenh/armor-vents"
+kind = "item"
+title = "Armor vents"
+source_ids = ["people-of-the-sands"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "armor_vents", path = "json/equipment_armor_enhancements.json" },
+]
+
+[fields]
+kind = "item"
+price = "+100 gp"
+weight = "-5 lbs."
++++
+
+**Sources:** People of the Sands pg 28\
+**Price** +100 gp; **Weight** -5 lbs.\
+**Category** Adventuring Gear
+
+Armor vents can be built into a suit of medium or heavy armor to allow for better ventilation and
+reduce the wearer's fatigue in hot environs. The vents can be slid open at the discretion of the
+user to ensure proper air flow during the day and then closed up at night to better preserve heat. A
+suit of armor with armor vents imposes only a -2 penalty (instead of -4) on Fortitude saves to avoid
+taking nonlethal damage from [heat exposure](ref/rule/heat-dangers), but also has 10 fewer hit
+points than normal because of its more intricate construction.

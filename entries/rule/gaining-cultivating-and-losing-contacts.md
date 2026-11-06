@@ -1,0 +1,61 @@
++++
+id = "ref/rule/gaining-cultivating-and-losing-contacts"
+kind = "rule"
+title = "Gaining, Cultivating, and Losing Contacts"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "gaining_cultivating_and_losing_contacts", path = "json/rules_subsystems01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 151
+
+The GM may allow you to begin the campaign with one contact (typically with a Trust score of 2 or
+3), but otherwise you gain contacts through roleplaying over the course of an entire campaign. To
+gain a new contact, you must first establish the NPC's trust through repeated positive interactions
+or a single profound one.
+
+Positive interactions include things such as regular patronage of the NPC's business, providing the
+NPC with some form of additional compensation for his efforts, performing a deed on his behalf, or
+using your personal influence to help the contact gain a position of greater power or prestige.
+Profound interactions include saving the life of the NPC or someone the NPC loves, protecting his
+reputation against ruinous slander, or preventing loss of his property or finances. Once you accrue
+at least five positive interactions or one profound interaction with an NPC, you can treat him as a
+contact. This means you can ask him to help you, and you can attempt to improve his Trust score with
+you.
+
+A relationship with a contact develops as you spend time with him. Each time you have a positive or
+profound interaction with the contact (but no more than once at each of your character levels),
+attempt a Diplomacy check to improve the contact's Trust score by 1. If the interaction is profound
+rather than merely positive, you gain a +5 bonus on this Diplomacy check. The DC of the check
+depends on the contact's Trust score with you.
+
+|NPC Trust (Score)|Diplomacy DC\*|
+| --- | --- |
+|Wary (1)|20|
+|Skeptical (2)|15|
+|Reliable (3)|10|
+|Trustworthy (4)|15|
+|Confidant (5)|20|
+
+\* If the contact has a bonus on Diplomacy checks made to negotiate with you from failing or
+abandoning a task, add that bonus to this DC.
+
+At the GM's discretion, if you're away from the contact for a month or longer, that contact's Trust
+score with you might decrease as he forgets about you. If this happens, attempt a Diplomacy check
+against the above DC. Success means the contact's Trust level remains the same, and failure means it
+decreases by 1 (minimum 1). At the GM's discretion, some contacts with special relationships to you,
+such as childhood friends or old mentors, might not lose Trust in this manner, or you could have to
+make these checks only once per year instead of once per month.
+
+Ending a relationship with a contact can be easy or difficult, depending on who the contact is and
+what kind of relationship he has with you. How you end a relationship with a contact can impact the
+Trust scores of your other contacts. In some cases, avoiding a contact for long enough (so his Trust
+score drops to 1) is enough to end the relationship with no hard feelings. It is up to the GM to
+determine what you must do to lose a contact in a way that does not affect the Trust score for your
+other contacts, but the GM should err on the side of leniency - if you made the effort to gain many
+contacts, you shouldn't be punished with reduced Trust scores for all contacts just because you stop
+interacting with some of them.

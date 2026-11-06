@@ -1,0 +1,28 @@
++++
+id = "ref/feat/targeted-blow"
+kind = "feat"
+title = "Targeted Blow"
+source_ids = ["weapon-masters-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "targeted_blow", path = "json/feat16.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Weapon Mastery"]
+prerequisites = "Str 13, Power Attack, base attack bonus +9, weapon training class feature with a melee weapon."
+prerequisite_feats = ["ref/feat/power-attack"]
+benefit = "As a standard action, you can make a single melee attack with an appropriate weapon while targeting a specific body part of your foe. On a successful attack, you affect the target as if you had used the targeting gunslinger deed. You can use this ability two times per day, plus one additional time per day when your base attack bonus reaches +10, +15, and +20."
++++
+
+## Targeted Blow (Weapon Mastery)
+
+**Sources:** Weapon Master's Handbook pg 22
+
+You can inflict special injuries on your foes by attacking specific areas.\
+**Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +9, weapon
+training class feature with a melee weapon.\
+**Benefit:** As a standard action, you can make a single melee attack with an appropriate weapon
+while targeting a specific body part of your foe. On a successful attack, you affect the target as
+if you had used the targeting gunslinger deed. You can use this ability two times per day, plus one
+additional time per day when your base attack bonus reaches +10, +15, and +20.

@@ -1,0 +1,33 @@
++++
+id = "ref/rule/choosing-a-spell"
+kind = "rule"
+title = "Choosing a Spell"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "choosing_a_spell", path = "json/rules_basics04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 206
+
+First you must choose which spell to cast. If you're a cleric, druid, experienced paladin,
+experienced ranger, or wizard, you select from among spells prepared earlier in the day and not yet
+cast (see Preparing Wizard Spells and Preparing Divine Spells).
+
+If you're a bard or sorcerer, you can select any spell you know, provided you are capable of casting
+spells of that level or higher.
+
+To cast a spell, you must be able to speak (if the spell has a verbal component), gesture (if it has
+a somatic component), and manipulate the material components or focus (if any). Additionally, you
+must concentrate to cast a spell.
+
+If a spell has multiple versions, you choose which version to use when you cast it. You don't have
+to prepare (or learn, in the case of a bard or sorcerer) a specific version of the spell.
+
+Once you've cast a prepared spell, you can't cast it again until you prepare it again. (If you've
+prepared multiple copies of a single spell, you can cast each copy once.) If you're a bard or
+sorcerer, casting a spell counts against your daily limit for spells of that spell level, but you
+can cast the same spell again if you haven't reached your limit.

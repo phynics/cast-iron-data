@@ -1,0 +1,57 @@
++++
+id = "ref/spell/firefall"
+kind = "spell"
+title = "Firefall"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "firefall", path = "json/spells4.json" },
+]
+
+[fields]
+kind = "spell"
+school = "transmutation"
+descriptors = ["fire"]
+levels = [
+  { class = "Arcanist", level = 4 },
+  { class = "Bloodrager", level = 4 },
+  { class = "Magus", level = 4 },
+  { class = "Red Mantis Assassin", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Wizard", level = 4 },
+]
+casting_time = "1 standard action"
+components = "V, S, M (one fire source)"
+range = "long (400 ft. + 40 ft./level)"
+effects = [
+  { label = "Target", value = "one fire source, up to a 20-foot cube" },
+]
+duration = "instantaneous"
+saving_throw = "Will negates and Reflex negates, see text"
+spell_resistance = "no"
++++
+
+::: statblock
+title = "Spell statistics"
+School: transmutation
+Level: 4: Arcanist, Bloodrager, Magus, Red Mantis Assassin, Sorcerer, Wizard
+Casting time: 1 standard action
+Components: V, S, M (one fire source)
+Range: long (400 ft. + 40 ft./level)
+Duration: instantaneous
+Saving throw: Will negates and Reflex negates, see text
+Spell resistance: no
+Target: one fire source, up to a 20-foot cube
+Descriptors: fire
+:::
+
+**Sources:** Advanced Player's Guide pg 222
+
+Firefall causes a fire to erupt into a geyser of dazzlingly bright liquid flame. The spell uses one
+fire source, which is immediately extinguished. A fire larger than a 20-foot cube is only partly
+extinguished. Magical fires are not extinguished, but a creature of the fire subtype used as the
+source takes 1 point of damage per caster level (no saving throw).
+
+The coruscating rain of fire fills a hemispherical burst with a radius of 60 feet. All creatures and
+objects in the area take 5d6 points of fire damage and catch on fire. Creatures who make successful
+Reflex saves take half damage and don't catch on fire. Creatures within 120 feet of the original
+fire source are blinded for 1d4+1 rounds (Will negates).

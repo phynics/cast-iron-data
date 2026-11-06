@@ -1,0 +1,37 @@
++++
+id = "ref/feat/taskmaster"
+kind = "feat"
+title = "Taskmaster"
+source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "taskmaster", path = "json/feat16.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Demoralizing Lash, Intimidate 5 ranks, hobgoblin."
+prerequisite_feats = ["ref/feat/demoralizing-lash"]
+benefit = "As a standard action, you spur an ally, who must have fewer Hit Dice than yourself, to reckless effort. For 1 minute, the ally gains a +1 morale bonus on attack rolls, weapon damage rolls, and Will saves against mind-affecting effects. However, the ally also takes a -2 penalty to AC and on skill checks. To affect an unwilling ally, you must succeed at an Intimidate check with the same DC used to demoralize your ally."
+special = "If you have 10 or more ranks in Intimidate, the morale bonus increases to +2."
++++
+
+## Taskmaster (Combat)
+
+**Sources:** Advanced Race Guide pg 124
+
+You intimidate weaker allies into reckless ferocity.\
+**Prerequisites:** [Demoralizing Lash](ref/feat/demoralizing-lash), Intimidate 5 ranks,
+[hobgoblin](ref/race/hobgoblin).\
+**Benefit:** As a standard action, you spur an ally, who must have fewer Hit Dice than yourself, to
+reckless effort. For 1 minute, the ally gains a +1 morale bonus on attack rolls, weapon damage
+rolls, and Will saves against mind-affecting effects. However, the ally also takes a -2 penalty to
+AC and on skill checks. To affect an unwilling ally, you must succeed at an Intimidate check with
+the same DC used to demoralize your ally.\
+**Special:** If you have 10 or more ranks in Intimidate, the morale bonus increases to +2.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 133\
+When using this feat, you can spend 5 stamina points to affect a creature with up to 5 more Hit Dice
+than you possess.

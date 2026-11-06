@@ -1,0 +1,66 @@
++++
+id = "ref/spell/mirror-hideaway"
+kind = "spell"
+title = "Mirror Hideaway"
+source_ids = ["advanced-class-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "mirror_hideaway", path = "json/spells14.json" },
+]
+
+[fields]
+kind = "spell"
+school = "transmutation"
+levels = [
+  { class = "Arcanist", level = 2 },
+  { class = "Occultist", level = 2 },
+  { class = "Psychic", level = 2 },
+  { class = "Red Mantis Assassin", level = 2 },
+  { class = "Sorcerer", level = 2 },
+  { class = "Witch", level = 2 },
+  { class = "Wizard", level = 2 },
+]
+casting_time = "1 standard action"
+components = "V, S, M (a glass or metal marble and a twisted loop of parchment)"
+range = "touch"
+effects = [
+  { label = "Target", value = "one mirror" },
+]
+duration = "1 hour/level (D)"
+saving_throw = "none"
+spell_resistance = "no"
++++
+
+::: statblock
+title = "Spell statistics"
+School: transmutation
+Level: 2: Arcanist, Occultist, Psychic, Red Mantis Assassin, Sorcerer, Witch, Wizard
+Casting time: 1 standard action
+Components: V, S, M (a glass or metal marble and a twisted loop of parchment)
+Range: touch
+Duration: 1 hour/level (D)
+Saving throw: none
+Spell resistance: no
+Target: one mirror
+:::
+
+**Sources:** Advanced Class Guide pg 188
+
+You transform a mirror into a portal to an extradimensional space. The space can hold as many as
+eight Medium creatures. Creatures that enter this space are hidden and beyond the reach of spells
+(including divinations), unless those spells work across planes. If the mirror is covered (such as
+by a cloth, or by being placed face down or against a wall), the portal becomes inactive. If the
+mirror is broken or moved more than 5 feet from where it was when you cast the spell, the spell
+ends; any creatures within the extradimensional space are expelled from it (see below) and become
+nauseated for 1d6 rounds.
+
+Spells cannot be cast across the extradimensional interface, nor can area effects cross it. Those in
+the space can see and hear through it as if looking through an open window the same size as the
+mirror. Creatures outside the extradimensional space see only what is normally reflected in the
+mirror. Any creature in the space can make itself visible in the reflection of the mirror for 1
+round at a time, however creatures outside the space cannot hear any sounds that originate inside.
+
+Anything inside the extradimensional space is expelled when the spell ends (even if the mirror is
+covered). Only one creature at a time can enter the mirror, and creatures can enter only if they can
+fit through an opening the same size as the mirror. For example, a hand mirror isn't big enough for
+a Small or larger creature to use it as a portal. Objects can enter the extradimensional space only
+if brought by a creature able to fully pass through the mirror.

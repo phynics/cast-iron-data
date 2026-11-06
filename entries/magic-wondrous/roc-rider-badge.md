@@ -1,0 +1,38 @@
++++
+id = "ref/magic-wondrous/roc-rider-badge"
+kind = "item"
+title = "Roc Rider Badge"
+source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "roc_rider_badge", path = "json/magic_wondrous_neck.json" },
+]
+
+[fields]
+kind = "item"
+price = "17,000 gp"
+weight = "5 lbs."
+slot = "neck"
+aura = "moderate abjuration"
+caster_level = "11th"
++++
+
+**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 53\
+**Aura** moderate abjuration; **CL** 11th\
+**Slot** neck; **Price** 17,000 gp; **Weight** 5 lbs.
+
+This giant-sized silver brooch is fashioned in the shape of a [roc's](ref/monster/roc) head
+inscribed inside a circle. A roc rider badge automatically neutralizes the energy field around
+Ironcloud Keep in a 200-foot-radius sphere around the wearer, allowing the wearer and his mount (if
+any) to freely move through the field. In addition, the wearer gains a +2 competence bonus on
+[Handle Animal](ref/skill/handle-animal) and [Ride](ref/skill/ride) checks dealing with aerial
+mounts. A roc rider badge also allows its wearer to improve the initial attitude of birds of all
+kinds, as if the wearer had the [wild empathy](ref/ability/wild-empathy) ranger class feature. If
+the wearer already has the wild empathy class feature, the roc rider badge grants the wearer a +5
+competence bonus on wild empathy checks against birds. A roc rider badge occupies the neck slot on
+Large or Huge creatures, but a Medium creature can wear the badge as a pectoral in the chest slot.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[antimagic field](ref/spell/antimagic-field), [charm animal](ref/spell/charm-animal); **Cost** 8,500
+gp

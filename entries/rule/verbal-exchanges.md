@@ -1,0 +1,42 @@
++++
+id = "ref/rule/verbal-exchanges"
+kind = "rule"
+title = "Verbal Exchanges"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "verbal_exchanges", path = "json/rules_adv_gm01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Intrigue pg 180
+
+Verbal duels are fought in a series of exchanges. Each exchange is an argumentative back-and-forth
+in which each duelist attempts to gain the upper hand over her opponent and decrease the opponent's
+determination to continue the debate. The end of an exchange might signal the end of the verbal duel
+or mark a change in the flow of the debate's conversation.
+
+At the start of each exchange, one of the duelists chooses a tactic as an opening, makes his
+associated skill check for that tactic, increases the ante of the exchange from 0 to 1, and sets the
+current exchange DC to the result of his check. The ante of the exchange is an ever-changing
+(usually increasing) value within an exchange; the duelist who either loses the exchange or decides
+to end the exchange reduces his determination by an amount equal to the exchange's ante.
+
+At this point, the opponent must decide whether to counter the opening or end the exchange. If she
+still has 1 or more determination remaining, she can then choose to open a new exchange or concede
+the duel. If she decides to counter the opening, she first increases the ante by 1, then chooses a
+tactic, and attempts the associated skill check. If that skill check exceeds the current DC of the
+exchange, the exchange continues. That roll sets the new exchange DC for the original duelist to
+counter if he decides not to end the exchange. If the countering duelist's check does not exceed the
+current DC of the exchange, she loses the exchange (reducing her determination as appropriate),
+though she can spend one or more of her edges to reroll the associated skill check, potentially
+multiple times. If she decides to end the exchange, she reduces her determination by the exchange's
+ante, and her opponent gains 1 edge.
+
+Duelists repeat this cycle until one decides to end an exchange, a duelist fails to counter her
+opponent's tactic, or the duel otherwise ends. When a duelist decides to end an exchange or fails to
+counter her opponent's tactic, her determination is reduced by an amount equal to the current ante
+of the exchange. Whichever duelist ends an exchange or fails to counter her opponent's tactic can
+either open a new exchange or concede the verbal duel if she still has determination remaining.

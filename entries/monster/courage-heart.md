@@ -1,0 +1,235 @@
++++
+id = "ref/monster/courage-heart"
+kind = "creature"
+title = "Courage Heart"
+source_ids = ["pathfinder-68-the-shackled-hut"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "courage_heart", path = "json/monsters_unique.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "outsider"
+subtypes = ["chaotic", "extraplanar", "good"]
+size = "medium"
+alignment = "chaotic good"
+ac = "30/13/27"
+hp = "195~17d10+102"
+fortitude = "+18"
+reflex = "+18"
+will = "+14"
+melee = "+3 anarchic morningstar +29/+24/+19/+14 (1d8+11)"
+ranged = "+1 anarchic dart +26/+21/+16/+11 (1d4+9)"
+special_attacks = "bloody rose"
+special_qualities = "change shape (owl or mouse)#C, martyr's blood, tactician"
+abilities = ["23", "23", "22", "22", "21", "24"]
++++
+
+_This woman with vaguely half-elven features wears a wooden breastplate and wields a wooden
+morningstar in one hand. In her other hand she holds a thorny red rose; blood from that hand
+trickles down her arm._
+
+**Courage Heart**
+
+**Challenge rating:** 15
+
+**aura:** rebellious aura (60 ft.)
+
+**Alignment:** Chaotic good
+
+**dv:** 60
+
+**Initiative:** +10
+
+**Sense:** Llv
+
+**Size:** medium
+
+**Type:** outsider
+
+**Perception:** +27
+
+**source:** Pathfinder \#68: The Shackled Hut/84
+
+**Subtype:** Chaotic, Extraplanar, Good
+
+**Experience points:** 51,200
+
+**Armor class:** 30/13/27
+
+**Dr:** 10/lawful
+
+**Fh:** 10
+
+**Fort:** +18
+
+**Hit points:** 195 (17d10+102)
+
+**Immune:** fear
+
+**Mod:** +10 armor, +3 Dex, +7 natural
+
+**Ref:** +18
+
+**Resist:** acid 20, cold 20, electricity 20, fire 20
+
+**Will:** +14
+
+**Offense**
+
+**Speed:** 30 ft., fly 30 ft. (average)
+
+**Fav En:** evil outsiders +6, humans +2, lawful outsiders +8, undead +4
+
+**Melee:** +3 [anarchic](ref/magic-enh/anarchic) morningstar +29/+24/+19/+14 (1d8+11)
+
+**Ranged:** +1 anarchic dart +26/+21/+16/+11 (1d4+9)
+
+**Spec Att:** bloody rose
+
+**Spell-Like Abilities**
+
+**Caster level:** 17
+
+**Concentration:** +24
+
+**At will:**
+
+- aid, chaos hammer, remove fear, holy smite
+
+**Per day:**
+
+- 3/day: cure moderate wounds, [darkvision](ref/rule/darkvision), dimension door, dispel law, magic
+  vestment, magic weapon, neutralize poison, peasant armaments, protection from arrows, shield
+  other, status
+- 1/day: martyr's last blessing, mass invisibility, telepathic bond
+
+**Statistics**
+
+**Ability scores:** Str 23, Dex 23, Con 22, Int 22, Wis 21, Cha 24
+
+**Base attack bonus:** +17
+
+**Combat maneuver bonus:** +23
+
+**Combat maneuver defense:** 39
+
+**Feats:** Blind-Fight, Dazzling Display, Deflect Arrows, Improved Initiative, Improved Iron Will,
+Iron Will, Lookout, Outflank, Point-Blank Shot, Rapid Shot, Swap Places, Vital Strike, Weapon Focus
+(morningstar)
+
+**Skills:** Bluff +19, Climb +23, Intimidate +29, Knowledge (local) +25, Perception +27, Perform
+(oratory) +19, Ride +13
+
+**Languages:** Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+
+**Special qualities:** [change shape](ref/umr/change-shape) (owl or mouse)\#C, martyr's blood,
+tactician
+
+###### C {#footnote-c}
+
+No spell equivalent was provided.
+
+**Ecology**
+
+**Environment:** any land ([Elysium](ref/rule/elysium))
+
+**Organization:** solitary
+
+**Treasure:** Standard (+4 MD breastplate); other treasure
+
+### Special Abilities
+
+**Bloody Rose (Su)** At will as a free action, the herald can create a thorny red rose. She may use
+this rose as a +1 anarchic dart as if she had the [Quick Draw](ref/feat/quick-draw) feat. The rose
+loses all its powers 1 round after it leaves the herald's hand.
+
+**Darkwood Breastplate (Su, Ex)** The herald's +4 darkwood breastplate has all the normal properties
+of darkwood but is as hard and strong as steel (similar to wood created with an ironwood spell).
+
+**Favored Enemy (Ex)** The herald has the [favored enemy](ref/ability/favored-enemy) ability of a
+17th-level ranger.
+
+**Imbue with Power (Su)** The herald can imbue an ally with a portion of her power. This ability
+functions like imbue with spell ability, except she may transfer uses of the following
+[spell-like abilities](ref/umr/spell-like-abilities) as if they were cleric spells: cure moderate
+wounds, magic weapon, peasant armaments, protection from arrows, shield other, and status. Using
+this ability reduces the number of times per day she can use that spell-like ability until she
+dismisses the transfer or the recipient expends it (for example, if she imbues a target with cure
+moderate wounds, thereafter she can only use that spell-like ability twice per day).
+
+**Martyr's Blood (Su)** By marking an ally with her blood, the herald can transfer part of her
+[fast healing](ref/umr/fast-healing) ability to that ally. The herald's fast healing decreases by 1
+(minimum 0), and the ally gains fast healing 1 for 1 hour. This ability has no effect if the target
+already has fast healing.
+
+**Rebellious Aura (Su)** The herald's aura grants allies within 60 feet the effects of good hope and
+a paladin's aura of courage. The effects of this ability are included in the herald's stat block.
+
+**Tactician (Ex)** The herald has the tactician ability of a 17th-level cavalier (4/day, one
+teamwork feat, all allies within 30 feet, 11 rounds). She may use this ability with any of her
+teamwork feats (Lookout, Outflank, Swap Places).
+
+### Description
+
+Courage Heart is a weapon against tyranny and a mighty spark that kindles the fires of hope in
+mortal hearts. Once a mortal ranger in the service of Milani, she was an early champion of Galt's
+Red Revolution when its purpose was to depose evil Chelish nobles, but when that movement become
+more about chaos and vengeance, she fought against it instead. Eventually branded a Chelish
+sympathizer by the Revolutionary Council, she allowed herself to be captured in order to allow her
+allies to escape. She was executed with a final blade, which trapped her soul within it.
+
+Milani, having spent a century communicating directly with her followers, saw the merits of having a
+divine champion like other deities, and plucked the woman's soul from the artifact and made her a
+herald. Now the martyred hero keeps her original name secret so her living relatives in Galt do not
+become targets by association, and calls herself Courage Heart. Her mission is twofold: to attack
+the powerful enemies of the church (especially immortal undead who would subjugate the common folk
+and conjured outsiders used to strike fear into mortal hearts), and to inspire hope among mortals so
+they can find the strength to turn against tyrants.
+
+As Courage Heart opposes slavery and unjust imprisonment, she has made it her personal crusade to
+steal all the final blades and free the souls within them. Milani must look at the bigger picture,
+so the herald has to make progress toward this goal when she can. Courage Heart has been trying to
+get Pharasma's herald, the Steward of the Skein, to join her cause, as preventing souls from
+reaching the Boneyard is of interest to the Lady of Graves, but that herald's strange nature and the
+recent creation of the final blades (relative to the history of civilization) means she has made
+little headway in establishing that alliance to date.
+
+### Ecology
+
+As she has only been immortal for a few decades, Courage Heart still acts and feels like a mortal
+woman. She loves her homeland, cares deeply for her mortal relatives (most of whom have some elven
+blood and were alive when she was murdered), and enjoys worldly delights such as music and stories.
+Though she has an instinctive knowledge of the people and places near her, she has perfect recall of
+such things in Galt and feels great sorrow when she discovers that a building or person she knew in
+life has been destroyed or has died. She collects remnants of Galt's history, such as travel
+journals about its settlements, songs about its people, and sketches of its locations and
+inhabitants.
+
+Having died for her beliefs holding no expectation of ever returning, Courage Heart considers it an
+honor to die again and again in her goddess' service, especially if doing so advances the cause or
+saves mortal lives. The only thing she fears is torture, but she knows her immortal flesh is
+resistant to punishment and she has magic at her disposal to help her escape almost any confinement.
+
+Though she does not need to eat or drink, she still feels the urge to do so, and favors traditional
+Galtan food. A priest who calls her and has a Galtan meal ready for her is much more likely to get
+help than one who offers no such courtesy and expects immediate compliance.
+
+### Habitat & Society
+
+Though the herald tries hard to not play favorites, she loves Galt and her extended family, and
+often checks up on her friends and relatives by lurking in mouse or owl form. Milani's small
+following and the herald's recent elevation to immortal status means they both are inclined to push
+the boundaries of what the divine laws allow for direct intervention on Golarion. To bypass these
+restrictions and watch over her revolution-corrupted homeland, Courage Heart often asks Milani to
+incarnate her as a mortal ranger (usually of 4th to 7th level) so she can lend a hand where she is
+needed. In these incarnations she may be male or female and of nearly any human ethnicity or
+features, but she generally prefers light armor and wields a morningstar. In this mortal shell, she
+is more careful with her life-not out of any sense of self-preservation, but because she doesn't
+want her death to upset anyone she befriends. She prefers to show up in a settlement, deal with a
+problem, then leave before there are too many questions.
+
+Among the other celestial servitors of Milani, Courage Heart is beloved as a comrade and leader. She
+often gathers teams of like-minded celestials to ambush and slay devils, undead, and minions of
+Zon-Kuthon, then retires with these comrades to Milani's realm in Elysium to tell stories of each
+other's bravery and virtue.

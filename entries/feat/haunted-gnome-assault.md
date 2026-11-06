@@ -1,0 +1,39 @@
++++
+id = "ref/feat/haunted-gnome-assault"
+kind = "feat"
+title = "Haunted Gnome Assault"
+source_ids = ["ultimate-combat", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "haunted_gnome_assault", path = "json/feat08.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Cha 13, gnome magic racial trait, Haunted Gnome, Knowledge (arcana) 3 ranks."
+prerequisite_feats = ["ref/feat/haunted-gnome"]
+benefit = "You gain one use of your gnome magic that is independent of your gnome magic spell-like abilities. When you wish to cast a gnome magic spell-like ability for which you have no daily uses remaining, you can expend this independent use to do so."
++++
+
+## Haunted Gnome Assault (Combat)
+
+**Sources:** Ultimate Combat pg 104
+
+Discharging your disturbing glamer as you strike a telling blow, you haunt a foe with lingering
+fear.\
+**Prerequisites:** Cha 13, gnome magic racial trait, [Haunted Gnome](ref/feat/haunted-gnome),
+Knowledge (arcana) 3 ranks.\
+**Benefit:** You gain one use of your gnome magic that is independent of your gnome magic
+[spell-like abilities](ref/umr/spell-like-abilities). When you wish to cast a gnome magic spell-like
+ability for which you have no daily uses remaining, you can expend this independent use to do so.
+
+Further, while you are under the effect of [haunted fey aspect](ref/spell/haunted-fey-aspect), you
+can discharge that spell as a free action after you hit an opponent with a charge attack or score a
+critical hit against an opponent. If you do, that opponent becomes [shaken](ref/misc/shaken) for 1
+round.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 122\
+When you hit an opponent with a charge attack or confirm a critical hit, you can spend 2 stamina
+points to make the target of the attack shaken for 1 round without discharging haunted fey aspect.

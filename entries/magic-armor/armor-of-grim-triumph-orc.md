@@ -1,0 +1,51 @@
++++
+id = "ref/magic-armor/armor-of-grim-triumph-orc"
+kind = "item"
+title = "Armor of Grim Triumph (Orc)"
+source_ids = ["inner-sea-races"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "armor_of_grim_triumph_orc", path = "json/magic_armor.json" },
+]
+
+[fields]
+kind = "item"
+price = "14,300 gp"
+weight = "40 lbs."
+slot = "armor"
+aura = "moderate necromancy"
+caster_level = "7th"
++++
+
+**Sources:** Inner Sea Races pg 224\
+**Aura** moderate necromancy; **CL** 7th\
+**Slot** armor; **Price** 14,300 gp; **Weight** 40 lbs.
+
+> _The following suit of armor is generally available only to members of the indicated race or
+> ethnicity._
+
+Spikes of impractical length adorn this +1 [spiked](ref/eq-armorenh/armor-spikes)
+[breastplate](ref/eq-armor/breastplate). The armor's enhancement bonus applies on attack rolls and
+damage rolls for attacks made with the armor spikes, as well as to its armor bonus to AC.
+
+As a full-round action, the wearer can claim a trophy from a slain foe and mount it on the armor's
+spikes, gaining a +1 competence bonus on Intimidate checks and a +1 morale bonus on Will saves
+against fear. Each additional trophy mounted on the armor's spikes increases these bonuses by 1. As
+an immediate action before rolling to confirm a critical hit, the wearer can call upon the armor to
+gain a morale bonus on the attack roll to confirm the critical hit equal to the total number of
+trophies on the armor. Doing so consumes one of the trophies.
+
+The armor can hold up to four trophies. To provide any benefit, trophies must be from creatures that
+were slain by the wearer and whose Hit Dice were equal to at least half of the wearer's total Hit
+Dice. The armor's magic keeps the trophies from rotting away completely, but does nothing to keep
+them fresh or hide the stench of rotting flesh.
+
+Suits of armor of grim triumph find use mainly among the [orcs](ref/race/orc) of Belkzen and the
+Darklands. In the Mwangi Expanse, orcs use the similar _hide of grim triumph,_ which is +1 spiked
+[hide](ref/eq-armor/hide) armor crafted from tanned animal hides and foot-long thorns. Reduce the
+cost and price of a hide of grim triumph by 185 gp and the weight by 10 pounds.
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
+[fear](ref/spell/fear), [gentle repose](ref/spell/gentle-repose), creator must be an orc; **Price**
+7,500 gp

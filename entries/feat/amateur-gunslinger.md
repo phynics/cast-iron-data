@@ -1,0 +1,40 @@
++++
+id = "ref/feat/amateur-gunslinger"
+kind = "feat"
+title = "Amateur Gunslinger"
+source_ids = ["ultimate-combat", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "amateur_gunslinger", path = "json/feat01.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "You have no levels in a class that has the grit class feature."
+benefit = "You gain a small amount of grit and the ability to perform a single 1st-level deeds from the gunslinger deed class feature. At the start of the day, you gain 1 grit point, though throughout the day you can gain grit points up to a maximum of your Wisdom modifier (minimum 1). You can regain grit using the rules for the gunslinger's grit class feature. You can spend this grit to perform the 1st-level deed you chose upon taking this feat, and any other deed you have gained through feats or magic items."
+special = "If you gain levels in a class that grants the grit class feature, you can immediately trade this feat for the Extra Grit feat."
++++
+
+## Amateur Gunslinger (Combat)
+
+**Sources:** Ultimate Combat pg 89
+
+Although you are not a gunslinger, you have and can use grit.\
+**Prerequisites:** You have no levels in a class that has the grit class feature.\
+**Benefit:** You gain a small amount of grit and the ability to perform a single 1st-level deeds
+from the gunslinger deed class feature. At the start of the day, you gain 1 grit point, though
+throughout the day you can gain grit points up to a maximum of your Wisdom modifier (minimum 1). You
+can regain grit using the rules for the [gunslinger's](ref/class/gunslinger) grit class feature. You
+can spend this grit to perform the 1st-level deed you chose upon taking this feat, and any other
+deed you have gained through feats or magic items.\
+**Special:** If you gain levels in a class that grants the grit class feature, you can immediately
+trade this feat for the [Extra Grit](ref/feat/extra-grit) feat.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 113\
+Choose a second 1st-level gunslinger deed. You can spend grit to use this deed, or you can spend 5
+stamina points to use either of your deeds in place of grit. If you gain levels in a class that
+grants the grit class feature, you retain the ability to spend 5 stamina points in place of grit
+when using any of your 1st-level deeds, and this becomes a combat trick of the Extra Grit feat (even
+though that feat is not a combat feat).

@@ -1,0 +1,31 @@
++++
+id = "ref/trait/the-lawbringer"
+kind = "trait"
+title = "The Lawbringer"
+source_ids = ["tyrants-grasp-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "the_lawbringer", path = "json/traits03.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Campaign"
++++
+
+**Type:** Campaign
+
+**Campaign:** Tyrant's Grasp
+
+**Flavor:** The frontier is a land of risk and disorder, and while people are welcome to brave those
+elements themselves, they all too often bring pain down upon folk who never wanted such a risk. You
+might serve on the town guard or as part of a detachment of soldiers supported by Vigil, or you
+could be simply a concerned farmer who endures when others cannot, but your purpose is to stand as a
+bulwark against the cruel whims of fate for anyone who needs it.
+
+**Benefit:** You gain a +2 trait bonus on saving throws against fear effects. If you have the _aura
+of courage_ class feature, the bonus provided by your aura increases by 1.
+
+Your courage is inspiring; the first time each day you are knocked unconscious or killed, all allies
+within 30 feet of you immediately gain a number of
+[temporary hit points](ref/rule/temporary-hit-points) equal to your level plus your Charisma
+modifier, as they rally to your defense. These temporary hit points last for 1 minute.

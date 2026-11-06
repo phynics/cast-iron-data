@@ -1,0 +1,40 @@
++++
+id = "ref/magic-ring/saltspray-ring"
+kind = "item"
+title = "Saltspray Ring"
+source_ids = ["pathfinder-121-the-lost-outpost"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "saltspray_ring", path = "json/magic_ring.json" },
+]
+
+[fields]
+kind = "item"
+price = "4,500 gp"
+weight = "-"
+slot = "ring"
+aura = "faint conjuration and transmutation"
+caster_level = "5th"
++++
+
+**Sources:** Pathfinder \#121: The Lost Outpost pg 54\
+**Aura** faint conjuration and transmutation; **CL** 5th\
+**Slot** ring; **Price** 4,500 gp; **Weight** -
+
+This [mithral](ref/eq-material/mithral) ring is engraved with a pattern of rolling waves that
+encircles the entire band. The saltspray ring is immune to rust, both from natural oxidation and
+rust caused by magical effects.
+
+Upon command, the ring causes a thick vapor to continuously surround its owner as per
+_[obscuring mist](ref/spell/obscuring-mist),_ except the mist has a 10-foot radius from the wearer
+and the area of effect moves with the wearer. This mist is exceedingly wet and extinguishes all
+nonmagical fires within its area. Magical fires and creatures with the fire subtype are not
+dispelled or adversely affected by the mist, though such creatures find being in the fog to be an
+uncomfortable experience. The mist does not permit aquatic creatures without the amphibious special
+quality to breathe out of water, but creatures that must remain wet or suffer a negative effect or
+condition have that requirement satisfied by the ring's effect. This effect can be dismissed as a
+standard action. The ring has no effect whatsoever underwater.
+
+### Construction
+
+**Requirements** [Forge Ring](ref/feat/forge-ring), [obscuring mist](ref/spell/obscuring-mist),
+[quench](ref/spell/quench); **Cost** 2,250 gp

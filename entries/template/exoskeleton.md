@@ -1,0 +1,134 @@
++++
+id = "ref/template/exoskeleton"
+kind = "rule"
+title = "Exoskeleton"
+source_ids = ["bestiary-6"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "exoskeleton", path = "json/monster_template1.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Exoskeleton**
+
+**Acquired:** present
+
+**Challenge rating:** Varies
+
+**Source:** Bestiary 6/124
+
+Found skittering through forgotten tombs, crawling through deep forests, and filling damp caverns,
+exoskeletons are animated carapaces of arthropods and other [vermin](ref/type/vermin). Most
+exoskeletons are the intentional creations of necromancers, but some of these undead monstrosities
+arise spontaneously from places awash with negative energy or are created by malfunctioning
+artifacts. Sometimes, the simple act of feeding on freshly destroyed undead creatures is enough to
+transform an insect into an exoskeleton upon its eventual death. Though exoskeletons are just as
+mindless as they were when they were living, they have become infused with an evil instinct in their
+new unlife that drives them to relentlessly attack all living creatures on sight, exploding in a
+burst of dusty remains when destroyed.
+
+A spellcaster can create an exoskeleton using [animate dead](ref/spell/animate-dead). An exoskeleton
+can be created from a mostly intact dead vermin that has an exoskeleton. This includes arachnids,
+crustaceans, insects, and even some mollusks, but not soft-bodied vermin such as jellyfish and
+leeches.
+
+"Exoskeleton" is an acquired template that can be added to any corporeal vermin that has an
+exoskeleton (referred to hereafter as the base creature).
+
+**CR:** Depends on Hit Dice, as follows.
+
+|Hit Dice|CR|XP|
+| --- | --- | --- |
+|1|1/4|100|
+|2|1/2|200|
+|3-4|1|400|
+|5-6|2|600|
+|7-8|3|800|
+|9-10|4|1,200|
+|11-12|5|1,600|
+|13-15|6|2,400|
+|16-17|7|3,200|
+|18-20|8|4,800|
+|21-24|9|6,400|
+|25-28|10|9,600|
+
+**Alignment:** Always neutral evil.
+
+**Type:** The creature's type changes to [undead](ref/type/undead). It retains any subtype except
+for alignment subtypes and subtypes that indicate kind. It does not gain the augmented subtype. It
+uses the base creature's abilities except as noted below.
+
+**AC:** The base creature's natural armor changes as follows.
+
+|Exoskelton Size|Natural Armor Bonus|
+| --- | --- |
+|Tiny or smaller|+0|
+|Small|+1|
+|Medium|+2|
+|Large|+3|
+|Huge|+4|
+|Gargantuan|+7|
+|Colossal|+11|
+
+**Hit Dice:** An exoskeleton retains the number of Hit Dice the base creature had, and gains a
+number of additional Hit Dice as noted on the following table. If the base creature has more than 20
+Hit Dice, it can't be made into an exoskeleton by the [animate dead](ref/spell/animate-dead) spell.
+An exoskeleton uses its Charisma modifier (instead of its Constitution modifier) to determine bonus
+hit points.
+
+|Exoskelton Size|Bonus Hit Dice|
+| --- | --- |
+|Tiny or smaller|-|
+|Small or Medium|+1|
+|Large|+2|
+|Huge|+4|
+|Gargantuan|+6|
+|Colossal|+10|
+
+**Saves:** Base save bonuses are Fort +1/3 Hit Dice, Ref +1/3 Hit Dice, and Will +1/2 Hit Dice + 2.
+
+**Defensive Abilities:** Exoskeletons lose their defensive abilities and gain all of the qualities
+and immunities granted by the undead type. In addition, exoskeletons gain DR 5/bludgeoning.
+
+**Speed:** Exoskeletons retain all movement speeds. They can still fly but their maneuverability
+drops to clumsy.
+
+**Attacks:** An exoskeleton retains all of its natural weapons. If the base creature didn't have any
+natural weapons, it gains a [slam attack](ref/umr/natural-attacks) that deals damage as if it were
+one size category larger than its actual size.
+
+**Special Attacks:** An exoskeleton loses all of its special attacks that rely on a living biology
+(such as poison), but it retains any others.
+
+**Abilities:** An exoskeleton's Strength increases by 2. The exoskeleton has no Constitution or
+Intelligence score, and its Wisdom and Charisma scores change to 10.
+
+**BAB:** An exoskeleton's base attack bonus is equal to 3/4 of its Hit Dice.
+
+**Skills:** Though most vermin are mindless and have no skill ranks, the exoskeleton loses all skill
+ranks if it had any, and it doesn't retain any racial bonuses it had.
+
+**Feats:** An exoskeleton loses all feats that the base creature had and doesn't gain feats as its
+Hit Dice increase, but it does gain [Toughness](ref/feat/toughness) as a bonus feat.
+
+**Special Qualities:** An exoskeleton loses most special qualities of the base creature. It retains
+any extraordinary special qualities that improve its melee or ranged attacks. An exoskeleton gains
+the following special quality.
+
+> **Burst (Ex):** When an exoskeleton is destroyed, its desiccated husk bursts, releasing the dusty
+> remains of the vermin's insides into the surrounding air. Any creature adjacent to an exoskeleton
+> when it bursts must succeed at a Fortitude save or become [staggered](ref/misc/staggered) for 1
+> round as it coughs and sneezes. Creatures that don't need to breathe are immune to this effect. If
+> the exoskeleton has 10 or more Hit Dice, the victim is instead [nauseated](ref/misc/nauseated) for
+> 1 round. The save DC is equal to 10 + half the exoskeleton's Hit Dice + its Charisma modifier.
+
+### Haunted Exoskeleton
+
+Rarely, an exoskeleton is haunted by the lost spirit of a stubborn soul. This wreaks havoc on the
+spirit, wiping away most of its memories but giving the exoskeleton an Intelligence score of 10,
+along with all of the feats and skill ranks its Hit Dice would afford. [Climb](ref/skill/climb),
+[Fly](ref/skill/fly), [Perception](ref/skill/perception), and [Swim](ref/skill/swim) are class
+skills for haunted exoskeletons. A haunted exoskeleton typically understands one language (usually
+Common) but cannot speak.

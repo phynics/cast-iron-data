@@ -1,0 +1,44 @@
++++
+id = "ref/rule/portrait-of-evil"
+kind = "rule"
+title = "Portrait of Evil"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "portrait_of_evil", path = "json/rules_campaign_types08.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Occult Adventures pg 225
+
+The PCs are tasked with looking into a series of disappearances in a major city. During their
+investigation, they accidentally come across evidence that implicates a local noble. While the
+evidence is conclusive in their eyes, it's inadmissible to the local courts, and they soon find
+themselves at odds with the accused. The PCs are unaware that their suspect is the owner of a
+[soul portrait](ref/magic-artifact/soul-portrait).
+
+**Discovery:** As the PCs delve into the background of the accused, they learn that despite her
+youthful appearance, she is well into her seventies. Further research reveals that a series of her
+acquaintances, competitors, and family members disappeared in the years following her thirtieth
+birthday. Detailed investigation discovers the accused's obsession with a portrait commissioned in
+her late twenties, a portrait that some visitors describe as a vision of a rare and radiant beauty,
+and others speak of only in haunted whispers.
+
+**Adversary:** The accused noble is defended by a legion of mercenaries who are too powerful for the
+PCs to assault directly. The soul portrait prevents divinations that would reveal her true nature,
+projecting the image of her innocent younger self. While the PCs are sure she is the cause of the
+disappearances and other crimes, the noble deflects any blame by means of her sizable wealth and
+perceived charitable nature. When the PCs truly become a threat to her, the noble attacks those
+closest to them using various forms of harassment and torture. The PCs have to contend with a foe
+empowered by the (mistaken) belief that she can suffer no consequences from her actions. Eventually,
+unless the PCs find a way to catch the accused in a situation where her portrait can't protect her,
+they are forced to take the law into their own hands.
+
+**Further Adventures:** When the accused is defeated, her image moves to the background of the soul
+portrait, and the PCs are left with the unsavory task of deciding what to do with the artifact. Less
+scrupulous PCs may decide to take it for themselves, commissioning an artist to add their likenesses
+to the canvas, having learned of the powers bequeathed by the portrait. PCs with stronger morals
+might seek to destroy the artifact, but will soon learn that only the owner of a soul portrait can
+destroy it- and at the high cost of another's life.

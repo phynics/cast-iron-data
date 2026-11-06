@@ -1,0 +1,27 @@
++++
+id = "ref/rule/caster-level"
+kind = "rule"
+title = "Caster Level"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "caster_level", path = "json/rules_basics04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 208
+
+A spell's power often depends on its caster level, which for most spellcasting characters is equal
+to her class level in the class she's using to cast the spell.
+
+You can cast a spell at a lower caster level than normal, but the caster level you choose must be
+high enough for you to cast the spell in question, and all level-dependent features must be based on
+the same caster level.
+
+In the event that a class feature or other special ability provides an adjustment to your caster
+level, that adjustment applies not only to effects based on caster level (such as range, duration,
+and damage dealt), but also to your caster level check to overcome your target's
+[spell resistance](ref/rule/spell-resistance) and to the caster level used in dispel checks (both
+the dispel check and the DC of the check).

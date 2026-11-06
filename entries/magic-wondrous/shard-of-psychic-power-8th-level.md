@@ -1,0 +1,40 @@
++++
+id = "ref/magic-wondrous/shard-of-psychic-power-8th-level"
+kind = "item"
+title = "Shard of Psychic Power (8th-level)"
+source_ids = ["psychic-anthology"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shard_of_psychic_power_8th_level", path = "json/magic_wondrous_slotless05.json" },
+]
+
+[fields]
+kind = "item"
+price = "1,000 gp (1st-level), 4,000 gp (2nd-level), 9,000 gp (3rd-level), 16,000 gp (4th-level), 25,000 gp (5th-level), 36,000 gp (6th-level), 49,000 gp (7th-level), 64,000 gp (8th-level), 81,000 gp (9th-level)"
+weight = "-"
+slot = "none"
+aura = "strong transmutation"
+caster_level = "17th"
++++
+
+## Shard of Psychic Power
+
+**Sources:** Psychic Anthology pg 9\
+**Aura** strong transmutation; **CL** 17th\
+**Slot** none; **Price** 1,000 gp (1st-level), 4,000 gp (2nd-level), 9,000 gp (3rd-level), 16,000 gp
+(4th-level), 25,000 gp (5th-level), 36,000 gp (6th-level), 49,000 gp (7th-level), 64,000 gp
+(8th-level), 81,000 gp (9th-level); **Weight** -
+
+This shard of quartz is roughly the size of a human finger and covered in flowing sigils. It
+contains the knowledge of a psychic spell (chosen by the creator when the item is crafted). If the
+bearer is a psychic spellcaster and has that spell on her class spell list, she can use her spell
+slots to cast that spell as if it were one of her spells known. A shard of psychic power is priced
+based on the spell's psychic spell level. If the spell does not appear on the psychic's spell list,
+it is based on the highest spell level it has on any other spell list. For example, a spell that is
+on the 1st-level medium list and the 2nd-level spiritualist list is priced as a 2nd-level spell.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to cast
+the spell contained in the shard; **Cost** 500 gp (1st-level), 2,000 gp (2nd-level), 4,500 gp
+(3rd-level), 8,000 gp (4th-level), 12,500 gp (5th-level), 18,000 gp (6th-level), 24,500 gp
+(7th-level), 32,000 gp (8th-level), 40,500 gp (9th-level)

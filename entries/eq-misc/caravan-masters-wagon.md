@@ -1,0 +1,31 @@
++++
+id = "ref/eq-misc/caravan-masters-wagon"
+kind = "item"
+title = "Caravan master's wagon"
+source_ids = ["villain-codex"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "caravan_masters_wagon", path = "json/equipment_misc.json" },
+]
+
+[fields]
+kind = "item"
+price = "1,000 gp"
++++
+
+**Sources:** Villain Codex pg 116\
+**Price** 1,000 gp; **Price of Passage** (per mile) -\
+**Category** Transport, Land
+
+The caravan master's wagon is similar in most respects to a high-quality heavy
+[smuggler's wagon](ref/eq-misc/smugglers-wagon), but it additionally allows for a hidden
+[portable hole](ref/magic-wondrous/portable-hole) (price not included above) secreted within in it.
+The portable hole rests upon the surface of the wagon bed, with a second layer of wooden planks laid
+atop it and fastened into place with nuts and bolts so they appear to be a normal part of the wagon.
+Thus the portable hole sits between the layers of wood like a thin cut of meat between two slices of
+bread. Those who know about the portable hole can fill it with illicit goods and then fasten the
+second layer of decking in place and load normal cargo atop it. The wagon weighs no more than it
+should. This setup allows for the transport of live cargo (rendered suitably silent or unconscious,
+if necessary), as the planks atop the opening of the portable hole are spaced just far enough apart
+to allow in breathable air, if the smugglers leave the hole open and attached. Unless someone knows
+what to look for, a successful DC 30 Perception check is necessary to discover the hidden second
+layer.

@@ -1,0 +1,204 @@
++++
+id = "ref/monster/melfesh-monster"
+kind = "creature"
+title = "Melfesh Monster"
+source_ids = ["pathfinder-61-shards-of-sin"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "melfesh_monster", path = "json/monsters35.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "plant"
+subtypes = ["extraplanar"]
+size = "medium"
+alignment = "neutral evil"
+ac = "21/12/19"
+hp = "67~9d8+27"
+fortitude = "+9"
+reflex = "+7"
+will = "+5"
+melee = "2 slam +10 (1d6+4)"
+special_attacks = "envelop~poison cloud"
+abilities = ["18", "15", "16", "13", "14", "17"]
++++
+
+_Covered with mossy growths and creeping vines, this towering creature glides effortlessly across
+the ground. A hood of damp moss and crusty bark conceals the monster's face._
+
+**Melfesh Monster**
+
+**Challenge rating:** 6
+
+**Sense:** Aav
+
+**Initiative:** +6
+
+**Sense:** Llv
+
+**Size:** medium
+
+**Alignment:** Neutral evil
+
+**Perception:** +16
+
+**Type:** plant
+
+**Senses:** See invisibility
+
+**source:** Pathfinder \#61: Shards of Sin/84
+
+**Subtype:** Extraplanar
+
+**Experience points:** 2,400
+
+**Armor class:** 21/12/19
+
+**Fort:** +9
+
+**Hit points:** 67 (9d8+27)
+
+**Immune:** [plant traits](ref/umr/plant-traits), poison
+
+**Mod:** +2 Dex, +9 natural
+
+**Ref:** +7
+
+**Regen:** 5 (acid)
+
+**Resist:** electricity 10, fire 10
+
+**Will:** +5
+
+**Offense**
+
+**Speed:** 30 ft., fly 60 ft. (perfect)
+
+**Melee:** 2 slam +10 (1d6+4)
+
+**Spec Att:** envelop, poison cloud
+
+**Spell-Like Abilities**
+
+**Caster level:** 8
+
+**Concentration:** +11
+
+**Constant:**
+
+- see invisibility
+
+**At will:**
+
+- scare, DC 15, scorching ray
+
+**Per day:**
+
+- 3/day: blur, nondetection
+
+**Statistics**
+
+**Ability scores:** Str 18, Dex 15, Con 16, Int 13, Wis 14, Cha 17
+
+**Base attack bonus:** +6
+
+**Combat maneuver bonus:** +10
+
+**Combat maneuver defense:** 22
+
+**Feats:** Alertness, Flyby Attack, Improved Initiative, Lightning Reflexes, Point-Blank Shot
+
+**Skills:** Fly +14, Knowledge (planes) +3, Perception +16, Sense Motive +10, Stealth +14
+
+**Languages:** Infernal, Sylvan; [telepathy](ref/umr/telepathy) 100 ft.
+
+**Ecology**
+
+**Environment:** any (Varisia)
+
+**Organization:** solitary
+
+**Treasure:** None
+
+### Special Abilities
+
+**Envelop (Ex)** The Malfesh Monster can wrap a Medium or smaller creature in its vines as a
+standard action. The Melfesh Monster attempts a grapple that does not provoke an attack of
+opportunity. If it wins the grapple check, it establishes a hold and deals 1d4 points of Wisdom
+damage if the target fails a DC 17 Fortitude save. Attacks that hit the Melfesh Monster while it has
+a target enveloped deal half their damage to the monster and half to the trapped victim.
+
+**Poison Cloud (Ex)** The Melfesh Monster can exude a cloud of poisonous gas in a 20-foot radius up
+to 3 times per day. Creatures in the area must succeed at a DC 17 Fortitude save or be nauseated for
+1d4 rounds and sickened for 1d4 hours afterward. This is a poison effect, and the save DC is
+Constitution-based.
+
+### Description
+
+The sleepy town of Melfesh has endured threats ranging from a gang of displaced troglodytes causing
+havoc to the strained political ramifications of having a drawbridge controlling trade through
+southeastern Varisia, but none trouble the place like the Melfesh Monster. Miners working the
+foothills of the Fenwall Mountains and farmers in the countryside surrounding Melfesh speak in
+hushed tones of a strange and malevolent monster that haunts the area. Those who claim to have
+encountered the thing return from their encounters pale and ill, speaking of a bizarre plant-like
+creature with burning red eyes, and twisted limbs that shoot jets of flame. A stench like acrid,
+burning dung follows the monster. Some who encounter the creature stumble out of the woods
+addlepated, raving of a hovering creature and its fire and poisonous mist. Adults away from the
+safety of town aren't the only ones terrorized by the creature, as parents use embellished stories
+of the Melfesh Monster to frighten children into behaving properly.
+
+### Ecology
+
+Very little information is recorded about the Melfesh Monster, since so few have seen the creature.
+A handful of researchers enamored with studying monsters have written about the creature on their
+travels through Varisia, though no two accounts agree on its true nature. Some think it to be from
+another world or dimension, while others believe it is a plant creature of magical sentience, akin
+to a corrupted treant or some dark, feystricken creature. Even the camp claiming otherworldly origin
+is split on the details. Some say the Malfesh Monster hails from the horrid wastes of Abaddon, and
+others insist the First World birthed this frightening creature. Both its form and behavior could
+easily suit either of these theories.
+
+The Melfesh Monster never consumes its kills; it simply leaves charred corpses, twisted by fear, in
+its wake. Victims of the Melfesh Monster are found curled into a fetal position and burned so
+thoroughly they are barely recognizable to even their closest friends and relatives. Some speculate
+the creature feeds on strong feelings of agony, despair, and terror.
+
+Most who encounter the Melfesh Monster are solitary travelers, miners, hunters, or farmers. This
+suggests the creature prefers to prey upon single targets, but a few stories tell of it attacking a
+wagon full of farmers returning from a day at the market or a trio of teenage boys playing around in
+the woods at night. Either way, as of late, most citizens of Melfesh and the surrounding countryside
+don't go out alone after dark for long.
+
+### Habitat
+
+Officially, the Melfesh Monster exists only in the minds of drunkards and those prone to fanciful
+daydreams. The sparse evidence of the creature has yet to compel the local militia (or any of the
+nearby [Hellknights](ref/rule/aff-lawknights)) to mobilize any significant hunting party to
+eradicate the creature, and authorities who are shown places scorched by the monster's fiery jets
+write them off as merely small-scale wildfires caused by lightning or out-of-control campfires left
+by local hunters or miners. When would-be monster hunters show up in Melfesh, the locals have no
+shortage of stories to tell about the monster - usually heard from a distant cousin or a friend of a
+friend who claimed to have seen it. Several unscrupulous merchants in the area made a small industry
+of selling bits of slag supposedly resulting from the monster's fire, or maps to various caves and
+lairs the monster might inhabit. With little credible information to go on, and the creature's
+ability to fly making it impossible to track, most of the hunters give up the chase after having
+their purses lightened at nearby inns and taverns.
+
+To date, no lair thought to belong to the creature has been found, nor have any tracks of the
+Melfesh Monster been accurately identified (just the scorch marks from its jets of flame). In
+Melfesh, sketches of the creature hang on the walls in taverns and inns, some drawn by those who
+encountered the creature and lived, and others sketched by those interested in the monster and the
+stories about it. All of these depictions are roughly the same, though some contain certain
+embellishments or exaggerations, such as extra appendages, varying color schemes, or inflated body
+size. Some inn owners sell these drawings to monster hunters for prices that fluctuate wildly,
+seemingly set only by how severely the inn owners think they can gouge any particular buyer. Just
+last fall, a group hailing from Korvosa bought a skillfully drawn illustration of the Melfesh
+Monster from a tavern for 10 gold pieces, though it was little help to the group in finding the
+monster.
+
+Though the monster has became a major nuisance only in the last 30 years, stories with details
+matching recent accounts of the Melfesh Monster circulated among the Varisian wanderers as long as
+600 years ago. These tales, told around campfires as a warning to the traveling people, hint that a
+creature like the monster - or even the monster itself - has been a threat in the region for a long
+time. No one knows what made the creature lie dormant for so long, and frankly, the frightened
+populace is merely waiting until this particular bit of local folklore fades into the past.

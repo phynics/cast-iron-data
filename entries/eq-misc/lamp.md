@@ -1,0 +1,24 @@
++++
+id = "ref/eq-misc/lamp"
+kind = "item"
+title = "Lamp"
+source_ids = ["ultimate-equipment", "core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "lamp", path = "json/equipment_misc2.json" },
+]
+
+[fields]
+kind = "item"
+price = "1 sp"
+weight = "1 lb."
++++
+
+**Sources:** Ultimate Equipment pg 57, PRPG Core Rulebook pg 158\
+**Price** 1 sp; **Weight** 1 lb.\
+**Category** Adventuring Gear
+
+A common lamp illuminates a small area, providing normal light in a 15-foot radius and increasing
+the [light level](ref/rule/vision-and-light) by one step for an additional 15 feet beyond that area
+(darkness becomes dim light and dim light becomes normal light). A lamp does not increase the light
+level in normal light or bright light. A lamp burns for 6 hours on 1 pint of [oil](ref/eq-misc/oil).
+You can carry a lamp in one hand.

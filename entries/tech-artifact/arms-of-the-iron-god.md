@@ -1,0 +1,41 @@
++++
+id = "ref/tech-artifact/arms-of-the-iron-god"
+kind = "item"
+title = "Arms of the Iron God"
+source_ids = ["pathfinder-90-the-divinity-drive"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "arms_of_the_iron_god", path = "json/equipment_tech_artifacts.json" },
+]
+
+[fields]
+kind = "item"
+weight = "28 lbs."
+slot = "arms (cybernetic)"
++++
+
+**Sources:** Pathfinder \#90: The Divinity Drive pg 60\
+**Slot** arms (cybernetic); **Weight** 28 lbs.\
+**Capacity** -; **Usage** -\
+**Install** DC 38; **Implantation** 4
+
+_The Arms of the Iron God_ replace the arms, shoulders, and much of the recipient's spine. They
+double the creature's lifting and carrying capacity, grant a +5 circumstance bonus on Climb checks,
+and grant a +5 bonus to CMD against disarm attempts. The Arms also grant the user a +4 enhancement
+bonus to Strength.
+
+Each arm ends in an electrified claw that grants the wielder a claw attack that deals 1d8 points of
+damage. These claw attacks are always primary attacks, even while a one-handed weapon is wielded and
+the other claw is used to make an additional attack. The claws function as +3
+[shocking burst](ref/magic-enh/shocking-burst) weapons. As a free action, one of the claws can be
+transformed into a +3 shocking burst battleaxe - returning it to its claw form is a move action.
+When the claw transforms, any item held in or worn on that hand drops. Attacks made with this
+battleaxe gain a +2 bonus on damage rolls, but it cannot be wielded with two hands.
+
+The Arms also function as a divine focus for spellcasting if the user worships Unity - even for
+unusually expensive divine focuses, such as the focus needed for
+[destruction](ref/spell/destruction).
+
+### Destruction
+
+Once Unity is destroyed, the Arms of the Iron God can be destroyed as a normal item
+([hardness](ref/umr/hardness) 15, hp 120).

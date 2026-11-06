@@ -1,0 +1,46 @@
++++
+id = "ref/magic-armor/vibrant-frog-hide"
+kind = "item"
+title = "Vibrant Frog Hide"
+source_ids = ["down-the-blighted-path"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "vibrant_frog_hide", path = "json/magic_armor.json" },
+]
+
+[fields]
+kind = "item"
+price = "28,165 gp"
+weight = "25 lbs."
+slot = "armor"
+aura = "moderate transmutation"
+caster_level = "7th"
++++
+
+**Sources:** Down the Blighted Path pg 63\
+**Aura** moderate transmutation; **CL** 7th\
+**Slot** armor; **Price** 28,165 gp; **Weight** 25 lbs.
+
+Cut from the colorful flesh of an enormous frog, this +1 [hide](ref/eq-armor/hide) armor squishes
+thickly and tightly around the body as it is donned. Light sheens brightly off the slippery skin,
+revealing vivid patterns in myriad hues.
+
+Five times per day as a swift action, the wearer of a vibrant frog hide can cause the armor to ooze
+a virulent toxin. The next creature that touches the wearer must succeed at a DC 16 Fortitude save
+or take 1d3 points of [Wisdom damage](ref/rule/ability-damage-drain) every round for 4 rounds. A
+poisoned creature can attempt the save again at the beginning of each of its turns, and is cured
+after one successful save. Successful unarmed strikes and natural weapon attacks made by or against
+the wearer count as touching. The wearer is immune to his own vibrant frog hide's poison.
+
+After being worn for 24 hours, a suit of vibrant frog hide armor causes the wearer to grow a
+frog-like tongue. The tongue acts as a [whip](ref/eq-weapon/whip) for the purposes of damage, reach,
+and special features, except that it is a natural weapon with which the wearer is automatically
+proficient. In addition to its normal trip and disarm weapon features, the tongue may also be used
+to perform a [drag](ref/rule/drag) combat maneuver with a +2 circumstance bonus, but only to pull a
+creature closer to the wearer (the wearer cannot step back as part of this attack). The wearer
+cannot speak or cast spells with verbal components for 1 round after he uses his new tongue to
+attack (including any attacks of opportunity).
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
+[beast shape II](ref/spell/beast-shape-2), [poison](ref/spell/poison); **Price** 14,000 gp

@@ -1,0 +1,32 @@
++++
+id = "ref/rule/reserve-army"
+kind = "rule"
+title = "Reserve Army"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "reserve_army", path = "json/rules_campaign_types05.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 246
+
+The costs in this section assume an active, deployed army. You may instead convert an army into a
+reserve army, placing it in a settlement. This reduces the Consumption cost for the army to once per
+month (or kingdom turn) instead of once per week. A commander has to spend only 3 days per month
+with a reserve army to remain active with it. The Morale penalty for an absent commander happens
+every month instead of every week.
+
+The size of an army you can put in reserve depends on the buildings you have available in the
+settlement. A Watchtower can hold a Small or smaller reserve army, a Barracks can hold Medium or
+smaller, a Castle can hold Large or smaller, and a Garrison Huge or smaller. A Gargantuan or
+Colossal army can't be put in reserve: it must remain deployed (though it can be indefinitely
+deployed in one of your own hexes). A Temple counts as a Watchtower for the purpose of holding
+special religious troops (clerics, druids, inquisitors, or paladins), and a Cathedral counts as a
+Barracks in those cases. You may split an army (see [Splitting an Army](ref/rule/splitting-an-army))
+to allow you to divide its units among several buildings.
+
+If you move the army outside the settlement, it immediately counts as an active army and the costs
+must be paid per week as normal.

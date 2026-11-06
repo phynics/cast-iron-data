@@ -1,0 +1,49 @@
++++
+id = "ref/rule/enhanced-components"
+kind = "rule"
+title = "Enhanced Components"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "enhanced_components", path = "json/rules_gm04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 115
+
+An enhanced component is a specialized reagent used to improve a spell. The exact effects of such a
+component are up to the GM, but may include a small increase to save DC, caster level, damage,
+range, or duration. Particularly rare enhanced components may even provide the benefits of metamagic
+feats. In addition, enhanced components used in long-duration spells often make them significantly
+harder to dispel.
+
+The power of a component is strongly influenced by the means by which it was obtained. For most
+magic, the most powerful components are those freely given, rather than taken by force, thievery, or
+magical compulsion. A vial of dragon's tears wept during a masterful performance may well hold more
+magic than a vial of blood taken from that same dragon's ravaged corpse. The same is not true for
+darker magics. For such spells, components obtained in profane and blasphemous rituals are the most
+powerful by far.
+
+Symbolism is key in obtaining enhanced components. A wizard seeking the last light of an eclipse to
+enhance a [sunburst](ref/spell/sunburst) might catch the sun's rays in a mirror, while a druid might
+gather the nectar of morning glories that bloomed in the day's light and shut in the darkness of the
+eclipse for the same spell. Neither is literally the last light of the sun, but the principle of
+contagion suffices to enhance the spell.
+
+Before introducing enhanced components into your game, consider the implications of allowing casters
+to increase their abilities without investing in metamagic feats or permanent magic items. To
+preserve their rare and exotic feel, enhanced components should not be easily obtainable or fixed in
+price. Finding a source for an enhanced component is an adventure in itself, and the quantities
+available should be limited to just a few castings. Two examples are as follows:
+
+**Dragon's Tears:** These yellowish drops extend the duration of any spell that influences emotion,
+such as [heroism](ref/spell/heroism) or [rage](ref/spell/rage). If the tears are both genuine and
+freely given, the duration is increased by 50%. If obtained by trickery or magic, the increase is
+only 20%.
+
+**Vampire Dust:** The carefully sifted dust of a destroyed vampire enhances spells fueled by
+negative energy. A single vampire yields only 1d4+1 uses of dust. Spells infused with vampire dust
+receive a +1 bonus to caster level. If the caster personally slew the vampire, the dust increases
+save DCs by +1 as well.

@@ -1,0 +1,92 @@
++++
+id = "ref/rule/offensive"
+kind = "rule"
+title = "Offensive"
+source_ids = ["pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "offensive", path = "json/rules_adv_gm03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Pathfinder Unchained pg 236
+
+These magic options are most useful for aggressive monsters that use their spells to deal damage.
+
+**Bestow Major Condition:** As a standard action, the monster makes a melee touch attack against one
+creature it can reach. On a hit, the target gains the condition (dazed, paralyzed, or stunned) that
+was chosen when the monster gained this option. Each round, the target can attempt a Will save (DC =
+the monster's ability DC - 5) to end the condition.
+
+**Bestow Minor Condition:** As a standard action, the monster makes a melee touch attack against one
+creature it can reach. On a hit, the target gains the condition (dazzled, deafened, fatigued,
+shaken, or sickened) that was chosen when the monster gained this option. Each round, the target can
+attempt a Will save (DC = the monster's ability DC - 5) to end the condition.
+
+**Bestow Moderate Condition:** As a standard action, the monster makes a melee touch attack against
+one creature it can reach. On a hit, the target gains the condition (blinded, exhausted, frightened,
+or nauseated) that was chosen when the monster gained this option. Each round, the target can
+attempt a Will save (DC = the monster's ability DC - 5) to end the condition.
+
+**Bypass DR:** The monster's attacks count as being magic, of a particular alignment, or of a
+particular material for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).
+Each time the monster gains this option, choose two from the following: adamantine, chaotic, cold
+iron, evil, good, lawful, magic, or silver.
+
+**Channel Destruction:** Choose one energy type: acid, cold, electricity, or fire. The monster's
+weapon attacks deal an additional 1d6 points of damage of the chosen type for every 4 CR the monster
+has.
+
+**Energy Explosion:** Choose one of the following: acid, cold, electricity, fire, force, or sonic.
+Once per day as a standard action, the monster can create a 20-foot-radius burst of energy within 60
+feet. This deals an amount of damage equal to 1d6 + the monster's CR of the chosen type to all
+creatures in the burst. A successful Reflex save halves the damage.
+
+**Energy Infusion:** Choose one of the following: acid, cold, electricity, fire, force, or sonic.
+Each time the monster uses a spell, [spell-like ability](ref/umr/spell-like-abilities), or
+supernatural ability that deals energy damage, it can choose to change the energy damage type dealt
+by that ability to the chosen type instead.
+
+**Evil Eye:** As a standard action, the monster chooses one creature within 30 feet that it can see.
+The target takes a -2 penalty on either ability checks, attack rolls, saving throws, skill checks,
+or to AC for 1 minute. If the target succeeds at a Will save, the effect lasts for 1 round instead.
+
+**Magic Attack:** As a standard action, the monster makes a ranged touch attack against one creature
+within 30 feet of it. On a hit, the attack inflicts the monster's high weapon damage of one of the
+following types (chosen when the monster gains this option): bludgeoning, cold, electricity, fire,
+force, piercing, slashing, or sonic. For force damage, use the low damage value instead of high
+damage value.
+
+**Misfortune:** As a standard action, the monster targets one creature within 30 feet. The next time
+the target attempts an ability check, attack roll, saving throw, or skill check before the end of
+the monster's next turn, the target must roll twice and use the lower result.
+
+**Potent Magic Damage:** Choose a spell subschool or descriptor, such as fire or phantasm. The
+monster's spells and [spell-like abilities](ref/umr/spell-like-abilities) of the chosen type deal an
+additional 1 point of damage per damage die.
+
+**Sacrilegious Aura:** The monster emits an aura of intense evil and negative energy in a 30-foot
+radius. The aura functions as the [desecrate](ref/spell/desecrate) spell cast on an altar. In
+addition, any creature that attempts to use a positive energy effect in this area must succeed at a
+[concentration](ref/rule/concentration) check or the positive energy has no effect.
+
+**Smite:** Choose chaotic, evil, good, or lawful. With one attack per day, the monster can deal
+additional damage equal to its CR against a creature of the chosen type. The number of uses per day
+increases by one for every 3 CR the monster has.
+
+**Spell Combat:** The monster's attacks use the low attack value, but when it makes a full attack
+the monster can also cast any spell it knows that has a casting time of 1 standard action.
+
+**Spell Penetration:** The monster gains a +2 bonus on caster level checks to overcome a creature's
+[spell resistance](ref/rule/spell-resistance). At CR 11, the bonus increases to +4.
+
+**Spellstrike:** Whenever the monster casts a spell with a range of touch, it can deliver the spell
+as part of a melee attack. The monster makes the melee attack in place of the spell's touch attack.
+On a hit, the attack deals normal damage and the spell takes effect.
+
+**Turn Undead:** As a standard action, this monster forces each undead creature within 30 feet of it
+to attempt a Will save (DC = the monster's ability DC - 5). On a failed saving throw, the target
+flees from the monster for 1 minute as if panicked. Intelligent undead receive a new saving throw
+each round to end the effect.

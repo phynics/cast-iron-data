@@ -1,0 +1,37 @@
++++
+id = "ref/feat/contagious-spell"
+kind = "feat"
+title = "Contagious Spell"
+source_ids = ["horror-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "contagious_spell", path = "json/feat03.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Metamagic"]
+benefit = "A caster level check to dispel or remove a contagious spell that fails by 5 or more causes it to spread from the original target to the creature that attempted to remove it. The spell spreads to the new target regardless of its normal range or any special targeting requirement like a melee or ranged touch attack. The spell is treated as if you had just cast it on the new target. The new target receives a saving throw or the benefit of spell resistance (if applicable) if the spell normally allows it."
+special = "A contagious spell can be identified normally as it is being cast with a successful Spellcraft check. Identifying whether a spell is contagious by its effect, however, requires the use of the analyze dweomer spell or a similar effect."
++++
+
+## Contagious Spell (Metamagic)
+
+**Sources:** Horror Adventures pg 84
+
+Your spells are dangerous to dispel and likely to backfire upon those who try.\
+**Benefit:** A caster level check to [dispel](ref/spell/dispel-magic) or remove a contagious spell
+that fails by 5 or more causes it to spread from the original target to the creature that attempted
+to remove it. The spell spreads to the new target regardless of its normal range or any special
+targeting requirement like a melee or ranged touch attack. The spell is treated as if you had just
+cast it on the new target. The new target receives a saving throw or the benefit of
+[spell resistance](ref/rule/spell-resistance) (if applicable) if the spell normally allows it.
+
+You can apply Contagious Spell only to targeted spells that are harmful to their target and don't
+have a range of personal; a contagious spell never spreads to someone who would benefit from being
+the target of the spell. A contagious spell uses up a spell slot 2 levels higher than the spell's
+actual level.
+
+**Special:** A contagious spell can be identified normally as it is being cast with a successful
+[Spellcraft](ref/skill/spellcraft) check. Identifying whether a spell is contagious by its effect,
+however, requires the use of the [analyze dweomer](ref/spell/analyze-dweomer) spell or a similar
+effect.

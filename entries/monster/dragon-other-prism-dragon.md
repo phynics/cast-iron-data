@@ -1,0 +1,242 @@
++++
+id = "ref/monster/dragon-other-prism-dragon"
+kind = "creature"
+title = "Prism Dragon"
+source_ids = ["occult-bestiary"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "dragon_other_prism_dragon", path = "json/monsters42.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "dragon"
+subtypes = ["extraplanar"]
+size = "huge"
+alignment = "chaotic neutral"
+ac = "35/9/34"
+hp = "283~21d12+147"
+fortitude = "+21"
+reflex = "+15"
+will = "+17; +4 vs. psychic spells"
+melee = "bite +30 (2d6+10/19-20), 2 claws +29 (1d8+10), tail slap +27 (2d6+5), 2 wings +27 (1d8+5)"
+special_qualities = "dazzling presence, razor sharp"
+abilities = ["31", "12", "25", "20", "21", "26"]
++++
+
+_The facets of this crystalline dragon's body reflect fascinating and sparkling patterns._
+
+**Prism Dragon**
+
+**Challenge rating:** 17
+
+**blindsight:** 30
+
+**Alignment:** Chaotic neutral
+
+**Type:** dragon
+
+**dv:** 60
+
+**Size:** huge
+
+**Initiative:** +5
+
+**Sense:** Llv
+
+**Perception:** +28
+
+**source:** Occult Bestiary/42
+
+**Subtype:** Extraplanar
+
+**Experience points:** 102,400
+
+**Aav:** present
+
+**Armor class:** 35/9/34
+
+**Defensive abilities:** psychic resilience, ray reflection
+
+**Dr:** 15/magic
+
+**Fort:** +21
+
+**Hit points:** 283 (21d12+147)
+
+**Immune:** acid, electricity, paralysis, sleep
+
+**Mod:** +1 Dex, +26 natural, -2 size
+
+**Ref:** +15
+
+**Sr:** 28
+
+**Vulner:** sonic
+
+**Will:** +17; +4 vs. psychic spells
+
+**Offense**
+
+**Speed:** 60 ft., climb 30 ft., fly 200 ft. (poor)
+
+**Br Weap:** 100-ft. line, 20d6 fire, Reflex DC 27 half, usable every 1d4 rounds
+
+**Melee:** bite +30 (2d6+10/19-20), 2 claws +29 (1d8+10), tail slap +27 (2d6+5), 2 wings +27 (1d8+5)
+
+**Reach:** 15
+
+**Space:** 15
+
+**Spell-Like Abilities**
+
+**Caster level:** 21
+
+**Concentration:** +29
+
+**At will:**
+
+- analyze aura, color spray, DC 19, glitterdust, DC 20, mirror image, DC 19
+
+**Per day:**
+
+- 3/day: invisibility, DC 20, major image, DC 21, rainbow pattern, DC 22
+- 1/day: phantasmal killer, DC 22, prismatic spray, DC 25
+
+**Psychic Magic**
+
+**Caster level:** 21
+
+**Concentration:** +29
+
+**Power points:** 20
+
+**Psychoactive powers:**
+
+- aura alteration, 3 PE, DC 21, emotive block, 3 PE, DC 21, greater possession, 8 PE, DC 26, id
+  insinuation V\#X, 6 PE, DC 24, instigate psychic duel, 2 PE, DC 20, mass synesthesia, 6 PE, DC 24,
+  psychic surgery, 5 PE, DC 25, suggestion, 3 PE, DC 21, synaptic scramble, 4 PE, DC 22
+
+###### X {#footnote-x}
+
+This spell has not been published, but is presumably an enhanced version of
+[id insinuation IV](ref/spell/id-insinuation-4).
+
+**Statistics**
+
+**Ability scores:** Str 31, Dex 12, Con 25, Int 20, Wis 21, Cha 26
+
+**Base attack bonus:** +21
+
+**Combat maneuver bonus:** +33
+
+**Combat maneuver defense:** 44
+
+**Feats:** Deceitful, Great Fortitude, Improved Critical (bite), Improved Initiative, Improved Vital
+Strike, Lightning Reflexes, Multiattack, Power Attack, Psychic Combatant, Vital Strike, Weapon Focus
+(bite)
+
+**Skills:** Bluff +35, Climb +31, Intimidate +31, Knowledge (dungeoneering, history, nobility) +28,
+Perception +28
+
+**Languages:** Aklo, Auran, Common, Draconic, Elven, Terran
+
+**Special qualities:** dazzling presence, razor sharp
+
+**Ecology**
+
+**Environment:** any mountain or underground
+
+**Organization:** solitary
+
+**Treasure:** Triple
+
+### Special Abilities
+
+**Breath Weapon (Su)** Once every 1d4 rounds as a standard action, a prism dragon can fire a beam of
+scintillating light in a 100-foot line. Creatures caught in this line take 20d6 points of fire
+damage and are blinded for 2d6 rounds. A successful DC 27 Reflex save halves the damage and negates
+the blindness. As a full-round action, a prism dragon can instead fire a prismatic beam; every
+creature within the line of effect who fails its Reflex save is also affected as if targeted by a
+prismatic spray spell. Using this ability expends the prismatic dragon's daily use of its prismatic
+spray [spell-like ability](ref/umr/spell-like-abilities).
+
+**Dazzling Presence (Su)** In areas of dim or brighter light, a prism dragon's body catches and
+refracts light into brilliant patterns and colors within 100 feet around its body. This effect
+renders illusions more potent, increasing the save DC of all illusion spells cast within the area of
+effect by 2. In addition, as a swift action, the prism dragon may move any dancing lights, daylight,
+light, or visual illusion spells within the area of its dazzling presence to any other point within
+100 feet.
+
+**Razor Sharp (Ex)** All of a prism dragon's natural attacks deal slashing damage.
+
+**Ray Reflection (Ex)** A prism dragon's scales reflect ray spells back on the ray's source if the
+ray fails to overcome the dragon's [spell resistance](ref/rule/spell-resistance).
+
+### Description
+
+Hailing from an unknown location in the Great Beyond, prism dragons delight in manipulation for its
+own sake, shaping mortal societies and the world around them for little more than the fun doing so
+offers, distracting themselves from the tedium of ageless existence. Most prism dragons view
+humanoid creatures as parts of their hoard, as treasured and precious as any gem or goblet. Gifted
+with potent psychic abilities and the power to generate and warp illusions, prism dragons gravitate
+toward mastermind roles, and prefer to claim territories that overlap with complicated
+cultures-large cities, trade routes, and monster-infested ruins-where they can scheme and coax other
+intelligent creatures to dance to a particular tune. Prism dragons adore overelaborate schemes-not
+because they expect victory, but because complication gives so many things a chance to go wrong,
+allowing the dragons to test their quick wits and adaptability in addition to their planning skills.
+They detest physical confrontation, and only engage in it when left with no other recourse or when
+troublesome humanoids spoil their games. Chaos and change keep eternity exciting, but prismatic
+dragons are sore losers.
+
+Prism dragons dislike undisguised truths, as they consider relating unvarnished facts to be boring
+and beneath them. As such, they rarely reveal themselves for what they are, even among cultures such
+as kobolds that revere dragons. For a prism dragon to reveal its true self is a sign of respect, but
+even then, the dragon is unlikely to communicate in a straightforward manner, feeling that doing so
+would be insulting the intelligence of its conversational partner. Prism dragons are fond of using
+illusions to appear as powerful visitors, or possessing long-standing members of the community and
+using their hosts' resources to begin shaping their new homes to their liking. Their sense of fair
+play compels them to get permission from a host before possessing it, but a host who has answered an
+innocuous-seeming question from a stranger in the affirmative or nodded in agreement with a
+statement made by another patron at the local tavern is often unaware that she has consented.
+Indeed, whether permission has been received via the means many prism dragons employ is often a
+distinction without a difference to anyone else. Prism dragons view their inability to shapeshift as
+a special challenge, and no two members of their kind deal with this handicap the same way - a rare
+few use polymorph magic, but more commonly they rely on invisibility or subterfuge, or hide in plain
+sight by posing as exotic statuary while using their psychic abilities to coax their playthings to
+action. Eventually, they reshape alliances between groups of monsters or stir up courtly intrigue,
+leading to squabbling, infighting, and even war. Many prismatic dragons lair in the rubble of cities
+they claim to have ruined in ages long past.
+
+As solitary creatures, prism dragons avoid one another. Though conflicts over territory are common,
+the haughty beasts never deign to battle each other in vulgar combat. Instead, the dragons wage
+intricate proxy wars against each other to settle bizarre wagers - betting that one of the dragons
+can get a certain nation to invade another, or that the other dragon can convince a king to
+willingly throw away his crown - or else concoct elaborate schemes to expose each other as
+impostors. Whatever the outlandish victory conditions of the contest, one rule is always in force:
+the draconic opponents can't take a direct hand in the events, and can act only through proxies and
+agents. This leads to complicated webs of intrigue that develop over years or even decades as the
+dragons' plots gradually come to fruition. The dragons, who are as fascinated by the behavioral
+patterns of intelligent creatures as they are by the scintillating patterns of light on treasure,
+find these contests immensely enjoyable, even despite the high (and sometimes deadly) stakes. They
+are not completely without the capacity for sympathy, however, and may make recompense to one who
+argues eloquently enough.
+
+A prism dragon maintains its hoard carefully, though its system might not seem apparent to others at
+first. The puzzle-loving dragons invariably catalog their hoards (and any associated traps hidden
+therein) in some clever way, and looting a defeated prism dragon's hoard without this master
+document can be as dangerous as facing the dragon itself. For example, traps in a prism dragon's
+lair might deactivate only when the dragon stands in a certain spot and refracts the light in just
+the right way. Other prism dragons might organize their treasure by color, but lay traps based on
+aura, rather than physical hues, fooling self-congratulatory adventurers who have no way of
+detecting the pattern.
+
+Planar travelers report prism dragons on the Material Plane, the Astral Plane, the Ethereal Plane,
+and in lesser numbers across the Outer Planes, but to date none have reported young or infant
+versions of these shimmering beasts. Prism dragons themselves claim to be immortal, primeval dragons
+spawned at the dawn of the multiverse and serving as Apsu's template to create the other, "lesser"
+draconic races. True dragons dispute this origin, and given prism dragons' grandiose claims in all
+other affairs, this story likely bears little more than a grain of truth. Prism dragons share no
+apparent family connection to the crystal dragons of the Elemental Plane of Earth, despite their
+outward resemblance to them.
+
+A fully grown prism dragon is 25 feet long and weighs more than 13,000 pounds.

@@ -1,0 +1,86 @@
++++
+id = "ref/emotionalfocus/desperation"
+kind = "rule"
+title = "Desperation"
+source_ids = ["elemental-masters-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "desperation", path = "json/class_ability_emotional_focus.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Elemental Master's Handbook pg 13\
+A phantom with this emotional focus died desperate and panicking - a victim of drowning,
+suffocation, or some other inexorable and traumatic death. The phantom relives its horrific demise
+over and over, futilely clawing at its foes to save itself and dragging them down with it.
+Desperation phantoms often hold power over water, though a phantom that died in a cave-in might
+display powers that are reminiscent of pressing rock instead. Desperation phantoms eschew coherent
+forms, usually appearing as a cloud of grasping hands and screaming faces. A blue-gray aura tends to
+surround these phantoms when they manifest.
+
+**Skills**
+
+**Details:** The phantom gains a number of ranks in [Acrobatics](ref/skill/acrobatics) and
+[Escape Artist](ref/skill/escape-artist) equal to its Hit Dice. While confined in its spiritualist's
+consciensness, it grants the spiritualist [Skill Focus](ref/feat/skill-focus) in each of those
+skills.
+
+**Good Saves**
+
+**Details:** Reflex and Will
+
+**Combat Reflexes**
+
+**Ability:** The phantom gains [Combat Reflexes](ref/feat/combat-reflexes) as a bonus feat.
+Furthermore, when the phantom is within its master's consciousness, it grants the benefits of Combat
+Reflexes to its master (if its master doesn't have that feat).
+
+**Frantic Grip (Ex)**
+
+**Ability:** The phantom can add its Dexterity modifier instead of its Strength modifier to its
+combat maneuver bonus when attempting to [grapple](ref/rule/grapple). When the phantom is below half
+its total hit points, it gains a +4 bonus on grapple attempts and to its CMD against grapple combat
+maneuvers.
+
+**Aura of Desperation (Su)**
+
+**Gained:** At 7th Level
+
+**Special:** This is a mind-affecting effect. Deactivating the aura is a **free action**.
+
+**Swift:** The phantom can emit a 10-foot-radius aura that fills its foes with the sensation of
+drowning, suffocation, or another terrible impending death. Enemies attempting to cast a spell with
+a verbal component within the aura must succeed at a [concentration](ref/rule/concentration) check
+(DC = 10 + half the phantom's Hit Dice + the level of the spell being cast) or lose the spell.
+
+**Clutch of Terror (Su)**
+
+**Gained:** At 12th Level
+
+**Standard:** The phantom can summon a mass of hands to grapple an enemy within 60 feet. The hands
+immediately attempt a grapple combat maneuver against the target using the phantom's statistics
+(including the phantom's CMB), except the hands are collectively considered to be the same size as
+the target. On following rounds, the hands attempt to maintain the grapple (the hands cannot pin the
+target, however).
+
+Each round that the hands successfully grapple a target, the hands also deal the phantom's normal
+slam damage to the target. The hands immediately disappear and the effect ends if the hands fail to
+grapple their target, if the target escapes the grapple or dies, or if the phantom ceases to be
+manifested. The effect also ends if the phantom uses this ability against a different target.
+
+**Usage:** Three times/day
+
+**Usage:** Three times/day
+
+**Burst of Desperation (Sp)**
+
+**Gained:** At 17th Level
+
+**Special:** The duration of this ability must be used all at once, and any of the effect's
+remaining rounds per day are lost after this ability is dismissed.
+
+**Standard:** Once per day, the phantom can affect itself and the spiritualist with the effects of
+[haste](ref/spell/haste). The caster level of this effect is equal to the spiritualist's caster
+level. The phantom or the spiritualist can dismiss this effect as a **free action**.

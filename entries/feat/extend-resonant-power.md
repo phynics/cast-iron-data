@@ -1,0 +1,31 @@
++++
+id = "ref/feat/extend-resonant-power"
+kind = "feat"
+title = "Extend Resonant Power"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "extend_resonant_power", path = "json/feat06.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Caster level 7th, mental focus class feature."
+benefit = "Select an implement school. When you place mental focus points into an implement of that school, you can choose to gain benefits from the resonant power as if you had placed only half as many points of mental focus into the implement. If you do, you can extend the same benefits to one additional ally within 30 feet at the time you invest mental focus. If the ally moves outside of the extended power's range, the power is suppressed, but it resumes functioning once the ally moves within range again. You can spend 1 point of mental focus from your implement to pass the effect to a new target, so long as both the original target and the new one are within 30 feet. This feat can affect only one implement from a given school at a time, even if you have selected the same implement school more than once."
+special = "You can take this feat multiple times. Each time you take the feat, select a different implement school."
++++
+
+**Sources:** Occult Adventures pg 133
+
+You can share the benefits of your resonant focus powers with nearby allies.\
+**Prerequisites:** Caster level 7th, mental focus class feature.\
+**Benefit:** Select an [implement school](ref/ability/implements). When you place mental focus
+points into an implement of that school, you can choose to gain benefits from the resonant power as
+if you had placed only half as many points of mental focus into the implement. If you do, you can
+extend the same benefits to one additional ally within 30 feet at the time you invest mental focus.
+If the ally moves outside of the extended power's range, the power is suppressed, but it resumes
+functioning once the ally moves within range again. You can spend 1 point of mental focus from your
+implement to pass the effect to a new target, so long as both the original target and the new one
+are within 30 feet. This feat can affect only one implement from a given school at a time, even if
+you have selected the same implement school more than once.\
+**Special:** You can take this feat multiple times. Each time you take the feat, select a different
+implement school.

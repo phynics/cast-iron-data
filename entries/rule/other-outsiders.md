@@ -1,0 +1,25 @@
++++
+id = "ref/rule/other-outsiders"
+kind = "rule"
+title = "Other Outsiders"
+source_ids = ["ultimate-magic"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "other_outsiders", path = "json/rules_adv_magic01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Magic pg 110
+
+While the groups above detail all the major types of outsiders, the Great Beyond is called great for
+a reason, and there are countless other outsiders that a potential binder can call. In theory, any
+outsider can be called and a binder can attempt to press that creature into service, though the
+proper strategy for doing so is contingent on the abilities, desires, and goals of the particular
+outsider.
+
+There is one group of outsiders that it is more difficult to bind: the native outsider. A native
+outsider cannot be called and bound from the Material Plane. In order to call any outsider, it must
+be on a different plane from the binder. Native outsiders (or other outsiders currently manifesting
+on the Material Plane) can only be called and bound by spellcasters on a different plane.

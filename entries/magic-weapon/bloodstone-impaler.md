@@ -1,0 +1,37 @@
++++
+id = "ref/magic-weapon/bloodstone-impaler"
+kind = "item"
+title = "Bloodstone Impaler"
+source_ids = ["giants-revisited"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "bloodstone_impaler", path = "json/magic_weapon2.json" },
+]
+
+[fields]
+kind = "item"
+price = "23,302 gp"
+weight = "9 lbs."
+slot = "none"
+aura = "strong transmutation"
+caster_level = "11th"
++++
+
+**Sources:** Giants Revisited pg 61\
+**Aura** strong transmutation; **CL** 11th\
+**Slot** none; **Price** 23,302 gp; **Weight** 9 lbs.
+
+This +1 [keen](ref/magic-enh/keen) [spear](ref/eq-weapon/spear) has a crimson haft made of petrified
+redwood, and its blackened stone head sports numerous vicious barbs on each side. Once per day when
+the wielder confirms a critical hit against a creature with this weapon, in addition to dealing
+damage, he can command the spear to turn the struck creature to stone. The creature struck must
+succeed at a DC 19 Fortitude save or instantly become a mindless statue as
+_[flesh to stone](ref/spell/flesh-to-stone)._ This effect traps the bloodstone impaler in the
+process, making it unusable as long as it remains embedded in the statue. A bloodstone impaler may
+be removed from a lapidified creature by a humanoid capable of wielding it who succeeds at a DC 25
+Strength check; doing so is a full-round action that provokes attacks of opportunity. Removing a
+bloodstone impaler from a petrified victim instantly changes the creature back to its original form.
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
+[flesh to stone](ref/spell/flesh-to-stone), [keen edge](ref/spell/keen-edge); **Price** 18,802 gp

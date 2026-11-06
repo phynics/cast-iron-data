@@ -1,0 +1,33 @@
++++
+id = "ref/feat/surprise-follow-through"
+kind = "feat"
+title = "Surprise Follow-Through"
+source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "surprise_follow_through", path = "json/feat15.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Str 13, Cleave, Power Attack, base attack bonus +1."
+prerequisite_feats = ["ref/feat/cleave", "ref/feat/power-attack"]
+benefit = "When using Cleave or Great Cleave, the second foe you attack on your turn is denied its Dexterity bonus against you."
++++
+
+## Surprise Follow-Through (Combat)
+
+**Sources:** Advanced Race Guide pg 57
+
+When striking one opponent, you catch its ally off guard.\
+**Prerequisites:** Str 13, [Cleave](ref/feat/cleave), [Power Attack](ref/feat/power-attack), base
+attack bonus +1.\
+**Benefit:** When using Cleave or [Great Cleave](ref/feat/great-cleave), the second foe you attack
+on your turn is denied its Dexterity bonus against you.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 133\
+When you hit a foe that has been denied its Dexterity bonus by this feat, you can spend 2 stamina
+points to deal an extra 1d6 points of damage. This damage is precision damage and is not multiplied
+on a critical hit.

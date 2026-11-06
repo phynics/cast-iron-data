@@ -1,0 +1,193 @@
++++
+id = "ref/monster/lar"
+kind = "creature"
+title = "Lar"
+source_ids = ["pathfinder-27-what-lies-in-dust"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "lar", path = "json/monsters34.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "outsider"
+subtypes = ["good", "incorporeal", "lawful", "native"]
+size = "medium"
+alignment = "lawful good"
+ac = "17/17/14"
+hp = "39~6d10+6"
+fortitude = "+3"
+reflex = "+7"
+will = "+4"
+melee = "---"
+special_attacks = "suggestion"
+special_qualities = "genius loci, naturally invisible, statua"
+abilities = ["10", "17", "13", "12", "15", "14"]
++++
+
+_A stirring in the air and rustle through the room reveals a presence - a subtle aura both cautious
+and curious._
+
+**Lar**
+
+**Challenge rating:** 5
+
+**dv:** 60
+
+**Initiative:** +3
+
+**Alignment:** Lawful good
+
+**Sense:** Llv
+
+**Size:** medium
+
+**Type:** outsider
+
+**Perception:** +13
+
+**source:** Pathfinder \#27: What Lies in Dust/86
+
+**Subtype:** Good, Incorporeal, Lawful, Native
+
+**Experience points:** 1,600
+
+**Armor class:** 17/17/14
+
+**Fort:** +3
+
+**Hit points:** 39 (6d10+6)
+
+**Mod:** +2 deflection, +3 Dex, +2 size
+
+**Ref:** +7
+
+**Regen:** 1 (in statua)
+
+**Will:** +4
+
+**Offense**
+
+**Speed:** 0 ft., fly 30 ft. (perfect)
+
+**Melee:** ---
+
+**Reach:** 0
+
+**Space:** 2-1/2
+
+**Spec Att:** suggestion
+
+**Spell-Like Abilities**
+
+**Caster level:** 7
+
+**At will:**
+
+- create water, detect evil, ghost sound, guidance, lullaby, mage hand, mending, message,
+  open/close, prestidigitation, purify food and drink
+
+**Per day:**
+
+- 3/day: bless, bless water, dancing lights, produce flame, protection from evil, sanctuary, DC 13,
+  unseen servant
+- 1/day: calm emotions, continual flame, gust of wind, pyrotechnics, whispering wind
+
+**Statistics**
+
+**Ability scores:** Str 10, Dex 17, Con 13, Int 12, Wis 15, Cha 14
+
+**Base attack bonus:** +6
+
+**Combat maneuver bonus:** +6
+
+**Combat maneuver defense:** 19
+
+**Feats:** Alertness, Improved Lightning Reflexes, Lightning Reflexes
+
+**Skills:** Craft (any two) +10, Heal +11, Knowledge (local) +10, Perception +13, Sense Motive +13
+
+**Languages:** telepathy (100 ft.)
+
+**Special qualities:** genius loci, naturally invisible, statua
+
+**Ecology**
+
+**Environment:** any
+
+**Organization:** solitary
+
+**Treasure:** None
+
+### Special Abilities
+
+**Genius Loci (Su)** As a free action, a lar can possess any inanimate object with which it comes
+into contact, thereby animating it under its control. The object and lar merge, taking on the
+statistics of an animated object of the same size. A lar may possess any object of Tiny to Large
+size. If the animated object is destroyed or targeted by dispel good, the lar is expelled and takes
+1d6 points of damage per size category of the possessed object-1d6 for a Tiny object, 2d6 for a
+Small object, and so on. The lar is then free to possess another object, if one is available. If a
+lar is reduced to 0 hit points or fewer, it is banished to its statua for 24 hours, after which it
+is fully healed. If the lar does not have a statua, or the statua is destroyed while it is at 0 or
+fewer hit points, the lar is killed.
+
+**Natural Invisibility (Su)** This ability is constant, allowing a lar to remain invisible even when
+attacking. This ability is inherent and not subject to the invisibility purge spell.
+
+**Statua (Su)** All lares rely on a small stone figure, known as a statua, for survival. This
+figurine serves as a lar's home, resting place, and tie to the Material Plane. Lares typically rest
+within their statua, finding it a comfortable place from which to oversee their surroundings. For
+every round a lar spends doing nothing besides resting within its statua, it regenerates 1 point of
+damage. However, being separated from the statua for extended periods of time weakens the lar. For
+every 5 hours a lar remains outside of its statua, it takes 1d6 points of nonlethal damage. Only
+returning to the statua can heal this damage. If a lar falls to 0 hit points, even from nonlethal
+damage, it is banished back to the Upper Planes. While a lar's statua exists, the connected lar is
+treated as a native outsider. Any attempt to banish the lar-through dismissal or a similar
+spell-merely transports the creature back to its statua. If the statua is destroyed, a lar can be
+dismissed from the Material Plane as normal.
+
+**Suggestion (Sp)** A lar can influence creatures as per the spell suggestion, with some variations,
+at will. First, to influence a creature in this manner, a lar must occupy the same square as its
+target. The lar is considered to be able to speak any language and communicate with any creature -
+even animals and vermin (which are usually immune to mind-affecting effects) - for the purposes of
+this effect. The target may attempt to resist a lar's suggestion by making a DC 17 Will save. The
+save DC is Charisma-based and includes a +2 racial bonus.
+
+### Description
+
+Sometimes referred to as "watchsouls," lares are subtle, benevolent spirits that prefer to spend
+their existence on the Material Plane minding the homes and fortunes of deserving mortals. Kind but
+aloof, lares watch over their mortal wards and help only when they are most needed. Yet where their
+homes are intruded upon or their charges imperiled, they prove frighteningly effective guardians,
+turning everything in their tiny dominions into living weapons.
+
+Lares are innately invisible, making the nature of their existence something of a mystery.
+Originating from the Upper Planes, these spirits have no true bodies and appear only as vague
+spectral eddies to those capable of seeing invisible beings. Yet while their forms prove vague,
+their blessings are undeniable.
+
+### Summoning a Lar
+
+A tradtion said to have been created and passed down since the days of lost Azlant, many families,
+homes, and even shops and public buildings along the Inner Sea invite lares to take up residence,
+seeking the blessings of the divine. Few, however, know when their invitations have been accepted,
+though, as a lar might prove aloof for months or years as it gauges its new wards. In order to
+welcome such spirits, families construct tiny effigies called statuae in the shapes of honored
+ancestors, regional heroes, or fanciful creatures, in which the spirits might come and reside. These
+statuae are non-magical effigies, typically composed of stone or fine wood and anointed with fine
+lacquers and oils, requiring 2 days, a successful DC 20 Craft check, and 40 gp to create. Once
+created, these Diminuative figures typically have a [hardness](ref/umr/hardness) of 5 and 10 hit
+points. If destroyed, a statua may be recreated in this same method.
+
+Summoning a lar is a more elaborate affair, requiring nightly prayers and small offerings of fruit,
+incense, flowers, and similar gifts to the statuae. For each night one prays to the figure for their
+home or family's protection there is a cumulative 1% chance a lar hears and turns its attention to
+the petitioner. This attention doesn't mean that a lar will aid a home, but merely that it has heard
+the prayer, and it might yet decide that its philosophies and virtues are incompatible with the
+supplicant. If such is the case, the lar quietly ignores the prayer, and the petitioner's chance to
+gain a lar's attention resets to 0%, all entirely unknown to the mortal.
+
+When a lar does accept an invitation, it may immediately plane shift to the associated statua,
+claiming it as its own. A lar typically makes some subtle acknowledgement that it has come, perhaps
+slightly altering its statua's appearance or lighting candles upon its arrival. It still often takes
+months, even years, for a lar to become intimate with a family and make its presence actively known,
+and some never do.

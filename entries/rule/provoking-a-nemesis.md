@@ -1,0 +1,58 @@
++++
+id = "ref/rule/provoking-a-nemesis"
+kind = "rule"
+title = "Provoking a Nemesis"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "provoking_a_nemesis", path = "json/rules_adv_gm01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Intrigue pg 136
+
+The tale of a character and her nemesis is a back-and-forth exchange in which both always try to
+gain the upper hand. This leads to the nemesis plotting stratagems of escalating severity until one
+individual decisively defeats the other - often by killing or otherwise ruining the foe. Likewise,
+nemeses actively strive to foil, sabotage, and otherwise hinder the PCs by employing stratagems - a
+representation of the plans they implement and resources they possess.
+
+Each stratagem is an event, an encounter, or an adventure in which the nemesis takes action against
+the PCs. If there is a social aspect to the situation, consider making the struggle between the PCs
+and their nemesis a [social conflict](ref/rule/social-conflicts). After each stratagem plays out,
+the PCs might exploit an opportunity, allowing them to strike back against their foe. This exchange
+might occur numerous times over the course of a long-term campaign.
+
+To reflect the intensity of his rivalry with the PCs, every nemesis has a Nemesis Score. This score
+measures the number of setbacks that the PCs have inflicted upon their nemesis (such as by
+exploiting an opportunity successfully; see the Opportunities section), and it determines the
+severity of the nemesis's stratagems against the PCs. Even if the PCs don't realize why they've
+earned a nemesis's initial enmity, a particular nemesis's score always starts at 1 or higher; if the
+nemesis has no reason to be upset with the PCs' actions, he wouldn't waste resources on stratagems
+against the PCs. Particularly spectacular setbacks might increase the Nemesis Score by 2. The PCs
+can have multiple nemeses, but the ongoing back-and-forth struggle between the PCs and each
+individual nemesis has its own separate score.
+
+As a rivalry matures, the Nemesis Level of the PCs' foe increases. The nemesis's opposition of the
+PCs progresses through three levels, as described below.
+
+**Simmering:** The PCs have come to the attention of the nemesis, who considers them a threat that's
+minor but nonetheless needs to be resolved. The nemesis begins to collect information on the PCs and
+utilize stratagems, but he isn't yet deeply invested in the rivalry.
+
+**Engaged:** The PCs have clashed with the nemesis often enough that he considers them a significant
+problem. The nemesis knows the PCs' abilities and goes out of his way to tailor stratagems
+specifically to hinder them when his plans oppose theirs.
+
+**Intense:** The PCs and their rival have foiled each other so often that the nemesis knows the PCs'
+capabilities in intimate detail. He is now willing to use whatever means necessary to end their
+meddling, once and for all. This means the PCs' defeat has become one of the nemesis's main goals,
+potentially secondary only to the main goal that the PCs keep foiling.
+
+|Nemesis Score|Nemesis Level|
+| --- | --- |
+|4 or lower|Simmering|
+|5-8|Engaged|
+|9 or higher|Intense|

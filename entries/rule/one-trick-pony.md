@@ -1,0 +1,46 @@
++++
+id = "ref/rule/one-trick-pony"
+kind = "rule"
+title = "One-Trick Pony"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "one_trick_pony", path = "json/rules_gm02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 75
+
+A player who falls into the one-trick pony type has a preference for playing a particular character
+or filling a specific role. She might always be the paladin, standing on the front lines and
+charging evil every time she sees it. Or maybe she's the wizard specialized in evocation who blasts
+enemies to bits. She has a play style she likes, and she tends to stick with it.
+
+The one-trick pony tends to keep a certain role locked down, preventing other players from
+experiencing the game from that perspective. Her insistence also has the effect of forcing other
+players to approach the campaign in a certain way. For example, players can never sneak in to attack
+the boss by surprise if the paladin always charges forward into every combat.
+
+Of course, there's nothing inherently wrong with indulging a one-trick pony as long as everyone is
+having fun and you're able to take your campaign to its final destination. But at the same time, you
+aren't required to maintain the status quo just because that's the way it's always been. When the
+time comes to shake things up, embrace the change and communicate it to everyone. One way to address
+this situation is by announcing the main campaign story before players roll up characters, and
+requiring everyone to come up with characters that fit into it. If you're running a thieves' guild
+campaign that requires stealth and trickery, it's fine to disallow certain classes or require select
+skills.
+
+A second type of one-trick pony is the player who uses a specific tactic against enemies again and
+again during the campaign. This player has found an effective combo or strategy and uses it whenever
+possible, to the exclusion of all others. Again, while not technically wrong, this play style can
+quickly get old, and there are a few ways to address it. Before you do so, however, stop and make
+sure there's actually a problem. Is the player's strategy boring the other party members? Or are you
+merely frustrated by its effectiveness? Don't punish players for being good at what they do;
+instead, try exploring counter strategies, and enlist other players and GMs outside of the game if
+you need tactical help. If you have recurring villains, it only makes sense that they'd quickly
+learn to defend against their enemies' greatest weapons, or turn the party's pet tactic around and
+begin using it against them. There's no strategy for which a defense cannot be devised, and if the
+one-trick pony complains that the enemy seems unduly prepared, let him know that's the danger of
+predictability.

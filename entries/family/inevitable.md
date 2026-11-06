@@ -1,0 +1,106 @@
++++
+id = "ref/family/inevitable"
+kind = "rule"
+title = "Inevitable"
+source_ids = ["bestiary-2"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "inevitable", path = "json/monster_families2.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Bestiary 2
+
+Originally invented and forged in the Outer Planes by the [axiomites](ref/monster/axiomite),
+inevitables are living machines whose sole purpose is to seek out and destroy agents of chaos
+wherever they can.
+
+During the height of the first war between law and chaos, while the Outer Planes were still forming
+from the raw chaos of the primal reality, inevitables were constructed by the axiomites as an
+unflinching army - soldiers powerful and devoted enough to march on the madness-inducing hordes of
+[proteans](ref/family/protean) who sought to unmake reality and return it all to the primal chaos
+they so adored. While this war has long since cooled to a simmer, and the reality of the Outer
+Planes is now not so easily threatened by the entropic influence of the proteans and their home
+plane, the defense of the axiomites' home plane remains the inevitables' primary goal. Despite the
+proteans' subsequent adaptation and study of how best to make themselves more resistant to the
+inevitables' attacks, these constructed soldiers remain imposingly effective.
+
+Today, many inevitables - almost all of those encountered on the Material Plane - pursue a new
+aspect of their original mission: tracking down those who flagrantly flout the forces of law and
+redeeming them or, more often, eliminating the threat they present to the ordered nature of the
+multiverse. Matched on the side of chaos by the manipulative
+[imentesh](ref/monster/protean-imentesh) proteans, new inevitables awake to find themselves locked
+in a proxy war, knowing that losing the Material Plane to chaos would place their masters in a
+dangerous position.
+
+Genderless, incorruptible, and caring nothing for power or personal advancement, inevitables are
+cunning and valiant shock troops in the service of law. Though they regularly interact with their
+creator race on their home plane, they have no society of their own, and are almost always
+encountered singly on other planes, each more than capable of pursuing its own mission. These
+individual crusades range from enforcing important or high-profile contracts and laws to forcibly
+correcting those mortals who would seek to cheat death. How they deal with the guilty varies
+according to the transgression: sometimes this means a simple [geas](ref/spell/geas-quest) or
+[mark of justice](ref/spell/mark-of-justice) to ensure that the target works to right his wrongs or
+never again strays from the path of law, but just as often an offense worthy of an inevitable's
+attention is severe enough that only immediate execution will suffice. Such decisions are not always
+popular - for the kindly priest who transcends mortality and the freedom fighter who battles the
+evil-yet-rightful king are every bit as guilty as grave-robbing necromancers and demon-worshipers -
+but the inevitables are always just, and few dare stand in the way of their judgment. Those
+inevitables who have completed a given mission often wander through whatever society they find
+themselves in, seeking other lawbreakers worthy of their ministrations. Brave souls with a worthy
+cause are always welcome to approach an inevitable and present their case, but should be wary of
+invoking the help of such powerful, single-minded beings - for an inevitable may not see the
+situation the same way they do, and though all inevitables do their best to preserve innocent life,
+they're not above sacrificing a few allies or innocents in an effort to bring down a greater
+villain.
+
+Physically, inevitables often have humanoid forms or aspects, but their bodies appear somewhere
+between clockwork constructs and fine statues in the greatest classical tradition. Constructed of
+stone, [adamantine](ref/eq-material/adamantine), and even more precious materials, each inevitable
+is brought to sentience in the axiomites' forges already programmed with the details of its first
+target. Though they know that all beings outside of the lawful planes harbor chaos in their hearts,
+inevitables also understand that such conflicted creatures may yet be forces for law as much as for
+chaos, and thus overlook all but the most flagrant offenses. The most commonly recognized types of
+inevitables are as follows.
+
+> **Arbiters** Scouts and diplomats, often assigned to wizards as familiars in the hopes of
+> directing such individuals to the cause of law.
+>
+> **Kolyaruts** Cloaked and stealthy humanoid warriors who track and punish those who break
+> contracts.
+>
+> **Lhaksharuts** Juggernauts who search for permanent breaches and links between planes and
+> invasions from one dimension to another.
+>
+> **Maruts** Towering beings of stone, steel, and storm who bring a fitting end to those mortals who
+> try to cheat death in attempts to live forever.
+>
+> **Zelekhuts** Winged, centaur-like constructs who track down those who flee just and legal
+> punishment, returning them to their rightful judges or carrying out the sentence themselves.
+
+### Primal Inevitables
+
+While the lhaksharuts are generally thought of as the most powerful caste of inevitable, there exist
+others of even greater skill and strength - these are known as the primal inevitables. These
+goliaths were among the first weapons of war forged by the axiomites to fight the protean menace -
+the methods to create more have long been lost to the axiomites, and those few primals who remain
+alive to this day have become legendary. None have been encountered in living memory, but the
+possibility of a primal's emergence is enough to give the proteans second thoughts when ideas of
+invading the inevitables' home plane arise.
+
+### Members of This Family:
+
+- [Arbiter](ref/monster/inevitable-arbiter)
+- [Hykariut](ref/monster/inevitable-hykariut)
+- [Impariut](ref/monster/inevitable-impariut)
+- [Kastamut](ref/monster/inevitable-kastamut)
+- [Kolyarut](ref/monster/inevitable-kolyarut)
+- [Lhaksharut](ref/monster/inevitable-lhaksharut)
+- [Marut](ref/monster/inevitable-marut)
+- [Novenarut](ref/monster/inevitable-novenarut)
+- [Rokyamut](ref/monster/inevitable-rokyamut)
+- [Valharut](ref/monster/inevitable-valharut)
+- [Yarahkut](ref/monster/inevitable-yarahkut)
+- [Zelekhut](ref/monster/inevitable-zelekhut)

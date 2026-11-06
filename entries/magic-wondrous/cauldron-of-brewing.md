@@ -1,0 +1,32 @@
++++
+id = "ref/magic-wondrous/cauldron-of-brewing"
+kind = "item"
+title = "Cauldron of Brewing"
+source_ids = ["ultimate-equipment", "advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "cauldron_of_brewing", path = "json/magic_wondrous_slotless01.json" },
+]
+
+[fields]
+kind = "item"
+price = "3,000 gp"
+weight = "5 lbs."
+slot = "none"
+aura = "faint transmutation"
+caster_level = "5th"
++++
+
+**Sources:** Ultimate Equipment pg 287, Advanced Player's Guide pg 302\
+**Aura** faint transmutation; **CL** 5th\
+**Slot** none; **Price** 3,000 gp; **Weight** 5 lbs.
+
+A cauldron of brewing looks like a fine cooking pot with four stout legs. The cauldron is capable of
+heating any liquid placed in it to a precise temperature (anywhere from just above room temperature
+to hot enough to boil salt water) and maintaining it indefinitely while still remaining only
+slightly warm to the touch on the outside. A cauldron of brewing provides a +5 competence bonus on
+[Craft (alchemy)](ref/skill/craft-any) skill checks.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be trained in
+Craft (Alchemy); **Cost** 1,500 gp

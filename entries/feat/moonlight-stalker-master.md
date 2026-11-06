@@ -1,0 +1,37 @@
++++
+id = "ref/feat/moonlight-stalker-master"
+kind = "feat"
+title = "Moonlight Stalker Master"
+source_ids = ["ultimate-combat", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "moonlight_stalker_master", path = "json/feat11.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Int 13, Blind-Fight Combat Expertise, Improved Feint, Moonlight Stalker, Moonlight Stalker Feint, Bluff 9 ranks, darkvision or low-light vision racial trait."
+prerequisite_feats = ["ref/feat/improved-feint", "ref/feat/moonlight-stalker", "ref/feat/moonlight-stalker-feint"]
+benefit = "While you have concealment, your opponents' miss chance against you increases by 10%. If an opponent misses you due to your concealment, you can spend an immediate action to move 5 feet, this movement does not provoke attacks of opportunity and does not count as a 5-foot step."
++++
+
+## Moonlight Stalker Master (Combat)
+
+**Sources:** Ultimate Combat pg 110
+
+You leave your opponents swinging at shadows while you slide elusively through the darkness.\
+**Prerequisites:** Int 13, [Blind-Fight](ref/feat/blind-fight)
+[Combat Expertise](ref/feat/combat-expertise), [Improved Feint](ref/feat/improved-feint),
+[Moonlight Stalker](ref/feat/moonlight-stalker),
+[Moonlight Stalker Feint](ref/feat/moonlight-stalker-feint), Bluff 9 ranks,
+[darkvision](ref/rule/darkvision) or [low-light vision](ref/rule/low-light-vision) racial trait.\
+**Benefit:** While you have [concealment](ref/rule/concealment), your opponents' miss chance against
+you increases by 10%. If an opponent misses you due to your concealment, you can spend an immediate
+action to move 5 feet, this movement does not provoke attacks of opportunity and does not count as a
+5-foot step.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 127\
+When an opponent makes an attack against you while you have concealment, you can spend 5 stamina
+points to increase that attack's miss chance by an additional 20%.

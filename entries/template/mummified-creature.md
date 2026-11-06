@@ -1,0 +1,235 @@
++++
+id = "ref/template/mummified-creature"
+kind = "rule"
+title = "Mummified Creature"
+source_ids = ["bestiary-4", "pathfinder-81-shifting-sands"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "mummified_creature", path = "json/monster_template3.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Mummified Creature**
+
+**Acquired:** present
+
+**Challenge rating:** +1 or +2
+
+**Source:** Bestiary 4/197
+
+Many ancient cultures mummify their dead, preserving the bodies of the deceased through lengthy and
+complex funerary and embalming processes. While the vast majority of these corpses are mummified
+simply to preserve the bodies in the tombs where they are interred, some are mummified with the help
+of magic to live on after death as mummified creatures. A mummified creature appears much as other
+[mummies](ref/monster/mummy) do - a dusty corpse, desiccated and withered, swathed in a funeral
+shroud of linen wrappings adorned with hieroglyphs - but a spark of malign intelligence gleams in
+its unliving eyes.
+
+Mummified creatures differ from the standard mummy with regard to how and why they are created. Most
+standard mummies are created as simple tomb guardians; they gain abilities such as an aura of
+despair and mummy rot, but they usually lose their free will, much of their intelligence, and the
+abilities they possessed in life. A mummified creature, on the other hand, retains its intelligence,
+memories, and many of its other abilities. A mummified creature does not spread the curse of mummy
+rot, nor does the sight of it paralyze the living with fear, but its touch can reduce a living
+creature to dust and its very presence is frightening. Though slow and clumsy in undeath, a
+mummified creature is nonetheless capable of surprising bursts of speed and ferocity. Because of its
+creation process, however, a mummified creature is susceptible to energy damage, though determining
+an individual mummified creature's vulnerability is not always easy.
+
+Many mummified creatures are created to guard the tombs of important figures, but some powerful
+beings - rulers, high priests, mighty wizards, or even wealthy aristocrats - arrange to be
+transformed into mummified creatures upon their deaths. Unwilling to give up their lives and
+knowledge to the whims of fate, these people bind their souls to the dried husks of their dead
+bodies, trading oblivion for endless centuries of unlife. The truly wealthy sometimes arrange for
+their most favored spouses, concubines, servants, or guards to be mummified with them, enabling them
+to hold court in dusty tombs in an undead mockery of their old lives centuries after they perished.
+
+To create a mummified creature, a corpse must be prepared through embalming, with its internal
+organs replaced with dried herbs and flowers and its dead skin preserved through the application of
+sacred oils. Unlike with standard mummies, a mummified creature's brain is not removed from its
+skull after death. Injected with strange chemicals and tattooed with mystical hieroglyphs, a
+mummified creature's brain retains the base creature's mind and abilities, though the process does
+result in the loss of some mental faculties. Once this process is complete, the body is wrapped in
+special purified linens marked with hieroglyphs that grant the mummified creature its new abilities
+(as well as its weakness). Finally, the creator must cast a
+[create greater undead](ref/spell/create-greater-undead) spell to give the mummified creature its
+unlife.
+
+"Mummified creature" is an acquired template that can be added to any living corporeal creature
+(hereafter referred to as the base creature). A mummified creature uses all of the base creature's
+statistics except as noted here.
+
+**CR:** Same as the base creature +1.
+
+**Alignment:** Any evil.
+
+**Type:** The creature's type changes to [undead](ref/type/undead)
+([augmented](ref/subtype/augmented)). It retains any other subtypes as well, except for alignment
+subtypes and subtypes that indicate kind. Do not recalculate class HD, BAB, saves, or skill points.
+
+**Senses:** A mummified creature gains [darkvision](ref/rule/darkvision) 60 feet.
+
+**Aura:** A mummified creature gains a [frightful presence](ref/umr/frightful-presence) aura with a
+range of 30 feet and a duration of 1d6 rounds.
+
+**AC:** Natural armor improves by +4.
+
+**Hit Dice:** Change all racial Hit Dice to d8s. Class Hit Dice are unaffected. As an undead, a
+mummified creature uses its Charisma modifier to determine bonus hit points (instead of
+Constitution).
+
+**Defensive Abilities:** A mummified creature gains DR 5/- and the defensive abilities granted by
+the undead type.
+
+**Weaknesses:** The mummification process leaves a mummified creature
+[vulnerable](ref/umr/vulnerabilities) to a single energy type. Choose or determine randomly from the
+following list.
+
+|d10|Energy|
+| --- | --- |
+|1|Electricity|
+|2-3|Acid|
+|4-7|Fire|
+|8-9|Cold|
+|10|Sonic|
+
+As a fail-safe in case of rebellion, a mummified creature is subtly marked during the ritual process
+with a hieroglyph someplace inconspicuous on its body or wrappings that identifies the particular
+energy type to which it is vulnerable. A successful DC 20 [Perception](ref/skill/perception) check
+is needed to find the mark, but a successful DC 25 [Linguistics](ref/skill/linguistics) check is
+still required to decipher the hieroglyph's meaning.
+
+**Speed:** Decrease all speeds by 10 feet (to a minimum of 5 feet). If the base creature has a
+flight speed, its maneuverability changes to clumsy.
+
+**Attacks:** The mummification process hardens the mummified creature's bones to a stone-like
+density, granting the mummified creature a powerful [slam attack](ref/umr/natural-attacks) if the
+base creature has no other natural attacks. This slam attack deals damage based on the mummified
+creature's size, treating the creature as if it were one size category larger.
+
+**Special Attacks:** A mummified creature gains the following special attacks.
+
+> **Burst of Vengeance (Su):** Despite its slow, lumbering nature, a mummified creature is capable
+> of lurching forward to attack with a short but surprising explosion of speed. Twice per day as a
+> swift action, a mummified creature may act as if affected by a [haste](ref/spell/haste) spell for
+> 1 round.
+>
+> **Dust Stroke (Su):** A creature killed by a mummified creature's natural attack or slam attack is
+> disintegrated into a cloud of dust and ash, completely destroying the victim's body (as
+> [disintegrate](ref/spell/disintegrate)).
+
+**Abilities:** Str +4, Int -2 (minimum 1). As an undead creature, a mummified creature has no
+Constitution score.
+
+**Feats:** A mummified creature gains [Toughness](ref/feat/toughness) as a bonus feat, and
+[Improved Natural Attack](ref/feat/improved-natural-attack) as a bonus feat for each of the base
+creature's natural attacks.
+
+**Skills:** A mummified creature gains a +4 racial bonus on [Stealth](ref/skill/stealth) checks.
+
+### Variant Mummy Special Abilities
+
+**Sources:** Pathfinder \#81: Shifting Sands pg 71
+
+The abilities of a mummy reflect the circumstances of its creation. Mummies that arise from
+traditionally embalmed corpses usually exhibit standard abilities; those arising from natural
+mummification or more exotic embalming rituals may not.
+
+Several variant mummy abilities replace a mummy's basic despair or mummy rot abilities, as described
+in the ability, and do not alter its CR. Exceptional mummies may gain additional abilities instead
+of having their powers replaced. GMs modifying mummies with additional or variant abilities should
+check the final monster and adjust the CR appropriately.
+
+**These abilities can also be applied to undead with the mummified creature template.** For purposes
+of variant abilities, any ability that replaces despair can replace _burst of vengeance,_ and any
+ability that replaces mummy rot can replace _dust stroke._ Optionally, to create a mummified
+creature with the same special abilities as a traditional mummy, simply replace the mummified
+creature's burst of vengeance with despair, or replace its dust stroke with mummy rot.
+
+**Chilling Touch (Su):** This mummy's touch carries the chill of glaciers and mountain heights. Its
+slam attack deals an additional 1d6 points of cold damage, and creatures struck by it are
+[slowed](ref/spell/slow) for 1d4 rounds (Fortitude negates). The save DC is equal to 10 + 1/2 the
+mummy's Hit Dice + the mummy's Charisma modifier. This ability replaces mummy rot.
+
+**Entangling Wrappings (Su):** A mummy with entangling wrappings can unravel and detach some of its
+linen strips to make a [grapple](ref/rule/grapple) check against a creature up to 10 feet away (or
+twice the mummy's reach for larger mummies). This attack doesn't provoke an attack of opportunity.
+It can [constrict](ref/umr/constrict) for an amount of damage equal to its slam attack with a
+successful grapple check. The linen strips remain wrapped around the victim and attempt a grapple
+check to pin each round on the mummy's turn. They continue to deal constrict damage on a successful
+grapple check. The wrappings cannot be damaged by any attack or effect while detached, but turn to
+dust if their victim escapes or dies, or if the mummy is destroyed. If the mummy still lives, its
+wrappings reappear at the end of its next turn.
+
+The mummy is not inconvenienced in any way while its wrappings are detached and grappling, but it
+cannot use its wrappings to entangle again until they return. This ability replaces either despair
+or mummy rot.
+
+**Infested (Ex):** An infested mummy carries a [scarab swarm](ref/monster/scarab-swarm) inside its
+body cavity. The mummy can release its swarm as a standard action, or it can do so as an immediate
+action after taking damage from a slashing weapon. The swarm is completely under the mummy's
+control, and can't be harmed while inside the mummy, though it streams out of the mummy's body if
+the mummy is destroyed. If the swarm is destroyed, a new swarm grows to replace it in 24 hours. For
+variation, instead of carrying a scarab swarm, an infested mummy can hold any swarm of CR 3 or
+lower. An infested mummy's CR is 1 higher than that of a normal mummy, or this ability can replace
+despair and mummy rot and not affect the mummy's final CR.
+
+**Spellscribed Mummy (Sp):** When scrolls and magical texts are used in place of linen wrappings,
+the result is a spellscribed mummy. A spellscribed mummy has the complete text of up to three spells
+written on its wrappings. The total spell levels scribed cannot exceed the mummy's Hit Dice, and the
+spells must be of a level no higher than half the mummy's Hit Dice. This allows a standard 8 HD
+mummy spells of up to 4th level that add up to no more than 8 levels. The spells need not be from
+the same spell list, and arcane and divine spells can both be used in the creation of a spellscribed
+mummy. Individual spells cannot be repeated. The mummy can use each spell scribed in its wrappings
+once per day as a [spell-like ability](ref/umr/spell-like-abilities), with a caster level equal to
+its Hit Dice. Save DCs are Charisma-based. A spellscribed mummy's CR is 1 higher than that of a
+normal mummy.
+
+> **Lesser:** A lesser spellscribed mummy bears a single 1st- or 2nd-level spell in its wrappings,
+> usable once per day with a caster level equal to half its Hit Dice. Its CR does not increase.
+>
+> **Greater:** A greater spellscribed mummy operates as a normal spellscribed mummy, but its
+> wrappings can hold as many spells as it has Hit Dice. The total spell levels scribed cannot exceed
+> twice its Hit Dice, and the spells must be of a level no higher than half its Hit Dice. Spells
+> cannot be repeated, but spells of a level no higher than one-quarter the mummy's hit dice can be
+> used 3 times per day instead of 1. (For example, a standard greater spellscribed mummy with 8 Hit
+> Dice can have up to 8 different spells, of no higher than 4th level, and a total of not more than
+> 16 spell levels. It can use spells of 2nd level or lower 3 times per day, and spells of higher
+> levels once per day.)
+>
+> In addition, a greater spellscribed mummy has [spell resistance](ref/rule/spell-resistance) equal
+> to its adjusted CR + 11. A greater spellscribed mummy's CR is 2 higher than that of a normal
+> mummy.
+>
+> **Creating a Spellscribed Mummy:** Spellscribed abilities are added to a mummy in a manner similar
+> to magic item creation. The cost is equal to a command-word item that's usable once per day: 1,800
+> gp × the spell level × spell's caster level × 5. For example, spellscribing a mummy with fireball
+> costs 1,800 × 3 × 8 (the mummy's HD) × 5, for a total of 3,375 gp. The creator of a spellscribed
+> mummy must possess the [Scribe Scroll](ref/feat/scribe-scroll) feat.
+
+**Variant Mummy Rot (Su):** Those afflicted with the dreaded mummy's curse wither and fade,
+resisting all healing until they finally crumble into dust. Other forms of mummy rot exist,
+affecting the victim in the same fashion as classic mummy rot except where otherwise noted.
+Typically, the method of mummification determines which type of rot the mummy causes. These
+alternate strains of mummy rot do not alter the mummy's CR.
+
+> **Corpse Chills:** Corpse chills manifest as bitter cold and frostbite. Those suffering from
+> corpse chills gain vulnerability to cold and resist fire 10. Immunity to cold prevents and
+> suppresses corpse chills, but does not cure the disease if it has already been contracted.
+>
+> **Grave Ichor:** Water saturates the skin of victims of grave ichor until their very flesh breaks
+> down and sloughs off their bodies. Grave ichor deals 1d4 points of
+> [Dexterity, Constitution, and Charisma damage](ref/rule/ability-damage-drain). The loose skin
+> caused by grave ichor grants the victim a +4 bonus to CMD against grappling.
+>
+> **Phantom Infestation:** The victim's skin breaks out in welts, but it exhibits no other trace of
+> infestation until the body bursts in an eruption of scarab beetles at the instant of the victim's
+> death. Phantom infestation imposes a -2 penalty on all ability and skill checks.
+>
+> **Swamp Crumble:** This affliction causes 1d3 points of Dexterity, Constitution, and Charisma
+> damage. The disease dissolves the bones, leaving behind a putrid mass of skin and organs after
+> death. Bludgeoning weapons and effects deal 1 additional point of damage per die against those
+> afflicted with swamp crumble. As the diseases progresses, the victim's hair turns the color of
+> fresh-spilled blood.

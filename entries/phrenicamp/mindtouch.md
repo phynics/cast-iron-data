@@ -1,0 +1,27 @@
++++
+id = "ref/phrenicamp/mindtouch"
+kind = "rule"
+title = "Mindtouch"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "mindtouch", path = "json/class_ability_phrenic_amplifications.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Mindtouch (Su)&FN&**
+
+**Ability:** The psychic can spend 1 point from her phrenic pool to probe one target's mind if that
+creature is affected by the linked spell. If the target of the linked spell fails its saving throw
+or is hit by the spell, the psychic detects its surface thoughts (as the 3rd-round effect of
+[detect thoughts](ref/spell/detect-thoughts)). If the linked spell doesn't already require an attack
+roll or allow a saving throw, the target can attempt a Will saving throw to avoid the
+thought-detection effect only; the DC is calculated using the linked spell's level (and all other
+bonuses that would apply if the linked spell allowed a Will save).
+
+**Special:** This amplification can be linked only to spells that affect a target or an area. If the
+linked spell can affect more than one creature, the psychic can attempt to detect more than one
+target's thoughts by spending 1 additional point per creature beyond the first. She must select
+these targets when she casts the spell and spends the points. This is a mind-affecting effect.

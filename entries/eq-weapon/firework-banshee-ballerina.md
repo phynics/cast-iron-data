@@ -1,0 +1,29 @@
++++
+id = "ref/eq-weapon/firework-banshee-ballerina"
+kind = "item"
+title = "Firework (banshee ballerina)"
+source_ids = ["ultimate-equipment"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "firework_banshee_ballerina", path = "json/equipment_weapons.json" },
+]
+
+[fields]
+kind = "item"
+price = "75 gp"
+weight = "-"
++++
+
+**Sources:** Ultimate Equipment pg 107\
+**Price** 75 gp; **Weight** -\
+**Category** Alchemical Weapons
+
+This small firework burns brightly and makes a loud, eerie whistling sound. It can be thrown to
+target an intersection as a [splash weapon](ref/rule/throw-splash-weapon). Any creatures within 5
+feet of the noise are effectively [deafened](ref/misc/deafened) while they remain in the area, as
+even the loudest sounds they make are drowned out by the piercing sound. A banshee ballerina
+firework burns for 1d4+1 rounds before extinguishing itself with a quiet puff of smoke. Crafting
+this item is a DC 30 Craft (alchemy) check.
+
+### Construction
+
+Craft (Alchemy) DC 30

@@ -1,0 +1,51 @@
++++
+id = "ref/magic-wondrous/robe-of-magma"
+kind = "item"
+title = "Robe of Magma"
+source_ids = ["heroes-of-the-darklands"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "robe_of_magma", path = "json/magic_wondrous_belt_body_chest.json" },
+]
+
+[fields]
+kind = "item"
+price = "112,000 gp"
+weight = "1 lb."
+slot = "body"
+aura = "strong conjuration"
+caster_level = "15th"
++++
+
+**Sources:** Heroes of the Darklands pg 31\
+**Aura** strong conjuration; **CL** 15th\
+**Slot** body; **Price** 112,000 gp; **Weight** 1 lb.
+
+These striking black robes are lined with glowing cracks, and resemble flows of partially cooled
+magma. They allow the wearer not only to survive within areas of lava and magma, but also to conjure
+molten rock from the earth. The wearer gains fire resistance 20 and immunity to fire damage from
+lava and magma. Additionally, while submerged in lava or magma, the wearer can breathe normally,
+gains a +5 bonus on [Swim](ref/skill/swim) checks, and can see through the substance as clearly as
+if it were water.
+
+Once per day as a full-round action, the wearer of a robe of magma can conjure a great burst of
+magma from deep below the surface. This ability can be used only while the wearer is on the Material
+Plane, and only while on solid ground on a planetary body. The deeper beneath a planet's surface the
+wearer is, the sooner the magma arrives. If the wearer uses this ability while 8,000 feet (or more)
+below the surface, the magma arrives instantaneously. If she uses it between 2,000 and 8,000 feet
+below the surface, the magma arrives at the beginning of the wearer's next turn. If she uses it on
+the surface or down to 2,000 feet below the surface, the magma arrives in 1d4 rounds. Once the magma
+arrives, it bursts from the ground in a geyser that sprays up to 40 feet in height and showers a
+20-foot radius centered on the location of the wearer when this ability was activated. This deals
+20d6 points of fire damage to creatures in the area (Reflex DC 22 half) and creates a shallow pool
+of lava in the area of the burst. The magma geyser continues for 1d3 rounds. For each round that the
+geyser continues, the pool of lava expands its radius by 10 feet. Creatures that enter the pool of
+lava or begin their turn in this area take 2d6 points of fire damage. Once the magma geyser stops,
+this pool cools and hardens over the course of 1d3 rounds. The magma arrives through an
+extradimensional space and does not impact any features or terrain located under its point of
+conjuration.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[protection from energy](ref/spell/protection-from-energy), [wall of lava](ref/spell/wall-of-lava);
+**Cost** 56,000 gp

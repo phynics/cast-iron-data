@@ -1,0 +1,32 @@
++++
+id = "ref/rule/research-facts-and-lore"
+kind = "rule"
+title = "Research Facts and Lore"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "research_facts_and_lore", path = "json/rules_subsystems02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 86
+
+You can use downtime and capital to learn more about the campaign or the game world. This is similar
+to the gather information activity, except instead of looking for rumors and gossip in town, you are
+consulting with sages, perusing historical documents, or using magic to unearth information. Instead
+of a Diplomacy check, attempt one or more Knowledge checks appropriate to the intended subject.
+These checks can be for the same or different topics (and can use different Knowledge skills), and
+you can expend one of the rolls you haven't used yet to reroll a Knowledge check you failed during
+this activity. You have three options for researching information.
+
+**Thorough Research:** By spending 1 day of downtime, you can thoroughly converse with several
+knowledgeable individuals or study several reliable sources over the course of the day. You can
+attempt up to three Knowledge checks to discover information.
+
+**Influential Research:** By spending 1 day of downtime and 1 point of Influence, you may attempt up
+to three Knowledge checks, each with a +5 bonus.
+
+**Magical Research:** By spending 1 day of downtime and 1 point of Magic, you may attempt up to
+three Knowledge checks, each with a +5 bonus.

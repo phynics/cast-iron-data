@@ -1,0 +1,48 @@
++++
+id = "ref/rule/wounds-threshold-feats"
+kind = "rule"
+title = "Wounds Threshold Feats"
+source_ids = ["pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "wounds_threshold_feats", path = "json/rules_opt_combat01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Pathfinder Unchained pg 137
+
+The following feats are either new feats or Core Rulebook feats adapted to work with the wound
+threshold system. Though the system doesn't require their use, they're a great way to expand the
+role of wound thresholds in your game.
+
+### Critical Cure
+
+Your healing is more effective if your patient is badly injured.
+
+**Benefit:** When you cast a conjuration (healing) spell, it cures 1 additional hit point if the
+recipient of the healing is grazed, wounded, or critical. The additional healing increases by an
+additional 1 point at caster level 6th, and every 6 caster levels thereafter.
+
+### Endurance
+
+Harsh conditions or long exertions do not easily tire you.
+
+**Benefit:** You reduce the penalty from being grazed, wounded, or critical by 1 (to -0, -1, and -2,
+respectively). In addition, you gain a +4 bonus on the following checks and saves: Swim checks to
+resist nonlethal damage from exhaustion, Constitution checks to continue running, Constitution
+checks to avoid nonlethal damage from a forced march, Constitution checks to hold your breath,
+Constitution checks to avoid nonlethal damage from starvation or thirst, Fortitude saves to avoid
+nonlethal damage from hot or cold environments, and Fortitude saves to resist damage from
+suffocation. You can sleep in light or medium armor without becoming fatigued.
+
+**Normal:** A character without this feat who sleeps in medium or heavier armor is fatigued the next
+day.
+
+### Twist the Knife (Combat)
+
+You're especially dangerous against enemies who are suffering from injuries.
+
+**Benefit:** You gain a +1 bonus on attack and damage rolls against grazed, wounded, or critical
+enemies.

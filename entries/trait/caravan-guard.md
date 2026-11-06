@@ -1,0 +1,29 @@
++++
+id = "ref/trait/caravan-guard"
+kind = "trait"
+title = "Caravan Guard"
+source_ids = ["jade-regent-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "caravan_guard", path = "json/traits02.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Campaign"
++++
+
+**Type:** Campaign
+
+**Campaign:** Jade Regent
+
+**Flavor:** You recently hired on to Sandru's caravan to serve as a guard, but the job, while it
+paid well, gave you little chance to scratch the adventuring itch, since the caravan never really
+ventured into dangerous territory. You understand why Sandru avoided the more dangerous routes, of
+course, but that didn't help assuage your urge to seek adventure. You've just told Sandru that
+you're quitting the job in order to try your hand at adventuring; he seemed to understand, and even
+gave you some good tips on how best to survive potential challenges.
+
+**Benefit:** You gain a +1 trait bonus on [Survival](ref/skill/survival) checks, and Survival
+becomes a class skill for you.
+
+- **NPC Choices:** Sandru.

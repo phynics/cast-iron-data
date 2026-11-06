@@ -1,0 +1,40 @@
++++
+id = "ref/feat/implant-bomb"
+kind = "feat"
+title = "Implant Bomb"
+source_ids = ["ultimate-magic"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "implant_bomb", path = "json/feat08.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Heal 5 ranks, delayed bomb alchemist discovery."
+benefit = "You may implant a bomb in a willing or helpless creature (a mindless creature under your control, such as a zombie, counts as willing for this purpose). This takes 1 hour and expends 1 use of your bomb ability for the day. When the implanted creature dies or is destroyed, the bomb detonates in the creature's square as if it were a delayed bomb set by you (though you can set the bomb's damage to less than your normal bomb damage). You can use any bomb-affecting discoveries on this implanted bomb (acid bomb, frost bomb, smoke bomb, and so on) as normal. The bomb automatically detonates 24 hours after you implant it in the creature."
++++
+
+**Sources:** Ultimate Magic pg 152
+
+You can attach a bomb to a creature that explodes when the creature dies or after 24 hours.\
+**Prerequisites:** Heal 5 ranks, [delayed bomb](ref/discovery/delayed-bomb) alchemist discovery.\
+**Benefit:** You may implant a bomb in a willing or helpless creature (a mindless creature under
+your control, such as a [zombie](ref/template/zombie), counts as willing for this purpose). This
+takes 1 hour and expends 1 use of your bomb ability for the day. When the implanted creature dies or
+is destroyed, the bomb detonates in the creature's square as if it were a delayed bomb set by you
+(though you can set the bomb's damage to less than your normal bomb damage). You can use any
+bomb-affecting discoveries on this implanted bomb ([acid bomb](ref/discovery/acid-bomb),
+[frost bomb](ref/discovery/frost-bomb), [smoke bomb](ref/discovery/smoke-bomb), and so on) as
+normal. The bomb automatically detonates 24 hours after you implant it in the creature.
+
+If you expend 150 gp worth of alchemical reagents per die of the bomb's damage (for example, 750 gp
+for a 5d6 bomb), the bomb does not automatically detonate after 24 hours, and only detonates if the
+creature dies or is destroyed (24 hours after implantation, this bomb no longer counts toward your
+daily total).
+
+Implanting a bomb is as invasive as using the [Heal](ref/skill/heal) skill to treat deadly wounds
+and leaves surgical scars unless the creature is healed by magic or abilities such as
+[regeneration](ref/umr/regeneration) or [fast healing](ref/umr/fast-healing). Some creatures (such
+as oozes, elementals, and creatures with the incorporeal quality) cannot have bombs implanted in
+them. Removing an implanted bomb requires a Heal check to treat deadly wounds, followed by a
+[dispel magic](ref/spell/dispel-magic) spell or Disable Device check to neutralize the bomb (DC =
+11 + alchemist's caster level).

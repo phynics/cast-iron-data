@@ -1,0 +1,33 @@
++++
+id = "ref/tech-weapon/grenade-launcher"
+kind = "item"
+title = "Grenade launcher"
+source_ids = ["technology-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "grenade_launcher", path = "json/equipment_tech_weapons.json" },
+]
+
+[fields]
+kind = "item"
+weight = "8 lbs."
++++
+
+**Sources:** Technology Guide pg 21
+
+**Cost** 8,000 gp\
+**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 8 lbs.\
+**Damage** Varies (small), Varies (medium); **Damage Type** Varies; **Critical** —\
+**Range** 100 ft.; **Capacity** 20 (5 grenades); **Usage** 1 grenade and 1 charge; **Special**
+[Slow-firing](ref/misc/slow-firing)
+
+A grenade launcher is a bulky weapon that can fire any [grenade](ref/tech-weapon/grenade) a great
+distance. Grenades propelled by a launcher can be set to detonate upon impact or at the start of the
+wielder's next turn. A grenade launcher requires charges to fire, but unless the weapon is also
+loaded with a grenade, any charges that are consumed are wasted. A grenade launcher can hold up to 5
+grenades at a time. Loading a single grenade into a grenade launcher is a move action.
+
+### Construction
+
+**Craft DC** 28; **Cost** 4,000 gp\
+[Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
+[military lab](ref/rule/crafting-laboratories)

@@ -1,0 +1,37 @@
++++
+id = "ref/feat/stabbing-shot"
+kind = "feat"
+title = "Stabbing Shot"
+source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "stabbing_shot", path = "json/feat15.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Rapid Shot, elf."
+prerequisite_feats = ["ref/feat/rapid-shot"]
+benefit = "When adjacent to an opponent and making a full-attack action with a longbow or shortbow (including composite bows), you may choose to make a melee attack against that opponent with a drawn arrow rather than firing it. If the attack hits - whether or not it does damage - your target is pushed back 5 feet away from you. You can then fire arrows from your bow normally, at the original target, or at another target within range. This melee attack replaces the extra attack from Rapid Shot, and all of your attack rolls for the round (the melee attack and the ranged attacks) take a -2 penalty. If your initial attack leaves you with no enemies threatening you, you can make the subsequent ranged attack or attacks without provoking attacks of opportunity."
++++
+
+## Stabbing Shot (Combat)
+
+**Sources:** Advanced Player's Guide pg 170
+
+You can clear the way to continue using your bow.\
+**Prerequisites:** [Rapid Shot](ref/feat/rapid-shot), [elf](ref/race/elf).\
+**Benefit:** When adjacent to an opponent and making a full-attack action with a longbow or shortbow
+(including composite bows), you may choose to make a melee attack against that opponent with a drawn
+arrow rather than firing it. If the attack hits - whether or not it does damage - your target is
+pushed back 5 feet away from you. You can then fire arrows from your bow normally, at the original
+target, or at another target within range. This melee attack replaces the extra attack from Rapid
+Shot, and all of your attack rolls for the round (the melee attack and the ranged attacks) take a -2
+penalty. If your initial attack leaves you with no enemies threatening you, you can make the
+subsequent ranged attack or attacks without provoking attacks of opportunity.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 132\
+When using this feat, you can spend 2 stamina points to negate the -2 penalty on all attacks for 1
+round.

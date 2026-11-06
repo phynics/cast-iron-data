@@ -1,0 +1,19 @@
++++
+id = "ref/talent/cutting-edge"
+kind = "rule"
+title = "Cutting Edge"
+source_ids = ["pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "cutting_edge", path = "json/class_ability_rogue_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Cutting Edge (Ex)&FN&**
+
+**Ability:** A rogue with this ability immediately selects two additional skills with her _rogue's
+edge_ ability.
+
+**Special:** She can select this advanced talent multiple times.

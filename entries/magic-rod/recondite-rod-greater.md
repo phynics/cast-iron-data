@@ -1,0 +1,43 @@
++++
+id = "ref/magic-rod/recondite-rod-greater"
+kind = "item"
+title = "Recondite Rod (greater)"
+source_ids = ["psychic-anthology"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "recondite_rod_greater", path = "json/magic_rod.json" },
+]
+
+[fields]
+kind = "item"
+price = "5,000 gp (lesser [up to 3rd-level spells]), 18,000 gp (normal [up to 6th-level spells]), 40,500 gp (greater [all spells])"
+weight = "5 lbs."
+slot = "none"
+aura = "strong (no school)"
+caster_level = "17th"
++++
+
+## Recondite Rod
+
+**Sources:** Psychic Anthology pg 8\
+**Aura** strong (no school); **CL** 17th\
+**Slot** none; **Price** 5,000 gp (lesser \[up to 3rd-level spells\]), 18,000 gp (normal \[up to
+6th-level spells\]), 40,500 gp (greater \[all spells\]); **Weight** 5 lbs.
+
+This odd, 2-foot-long rod appears to be made out of solidified ectoplasm shot through with energy
+that pulses brightly at regular intervals, almost like a heartbeat. Three times per day, this rod
+allows its wielder to cast a psychic spell that could be undercast (such as
+[ego whip](ref/spell/ego-whip-1) or _mind thrust_) at 1 level higher, even if the wielder doesn't
+know the higher-level spell or can't cast spells of that level. The spell uses the same spell slot
+and save DC as that of the lower-level spell, but creates the effects of the higher-level spell. For
+example, the wielder could use this rod to cast [mind thrust I](ref/spell/mind-thrust-1), with the
+effect of [mind thrust II](ref/spell/mind-thrust-2). This rod can't be used to cast the
+highest-level spell of a particular group. The wielder must the able to cast the lower-level spell
+to use this rod. Using this rod is part of the action of casting the modified spell. A lesser
+recondite rod can be used with spells of 3rd level or lower. A recondite rod can be used with spells
+of 6th level or lower. A greater recondite rod can be used with spells of 8th level or lower.
+
+### Construction
+
+**Requirements** [Craft Rod](ref/feat/craft-rod), [Empower Spell](ref/feat/empower-spell), the
+creator must know at least one spell that can be undercast; **Cost** 2,500 gp (lesser), 9,000 gp
+(normal), 20,250 gp (greater)

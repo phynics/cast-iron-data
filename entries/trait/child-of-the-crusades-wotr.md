@@ -1,0 +1,38 @@
++++
+id = "ref/trait/child-of-the-crusades-wotr"
+kind = "trait"
+title = "Child of the Crusades (WotR)"
+source_ids = ["wrath-of-the-righteous-players-guide", "demon-hunters-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "child_of_the_crusades_wotr", path = "json/traits03.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Campaign"
++++
+
+**Type:** Campaign
+
+**Campaign:** Wrath of the Righteous
+
+**Flavor:** Your parents were members of the crusade, as were their parents before them. (If you are
+an elf, gnome, or other long-lived race, these could be brothers or cousins instead, since it's
+possible that the Worldwound simply didn't exist at a time before you were born.) The righteousness
+of the crusades sometimes feels as if it runs in your very blood, and it bolsters you against
+demonic influence. Your parents may be alive still, or they may have perished on a mission - that
+choice is up to you. You grew up knowing them, though, and their zeal and devotion to the crusade is
+the primary reason you feel the same way. They've told you of other family members who have also
+been involved in the crusade, and it's not uncommon for you to meet a distant cousin or long-lost
+aunt, uncle, or other family member while traveling among the border towns of Mendev. This strong
+family tie bolsters your mind and sense of belonging to the crusade.
+
+**Benefit:** Once per day when you fail a saving throw against an effect created by a
+[demon](ref/family/demon) that would possess or incapacitate you mentally, you may immediately
+reroll that saving throw as a **free action**. You must take the second result, even if it is worse.
+
+**Associated Mythic Path:** Marshal.
+
+**Multiple Characters:** If other characters take this trait, you should all be related - you can be
+siblings, cousins, or even more distant relations, but you should all be aware of this shared
+lineage.

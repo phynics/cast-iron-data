@@ -1,0 +1,36 @@
++++
+id = "ref/trait/friend-of-the-family"
+kind = "trait"
+title = "Friend of the Family"
+source_ids = ["jade-regent-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "friend_of_the_family", path = "json/traits02.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Campaign"
++++
+
+**Type:** Campaign
+
+**Campaign:** Jade Regent
+
+**Flavor:** Your family has been close friends with the Mvashtis for as long as you've been alive.
+Old Niska Mvashti's recent death wasn't all that unexpected - she must have been over a hundred
+years old, as far as you know - but it was a sobering moment nonetheless. What no one else in your
+family knows, though, is that in the weeks before her death, Niska must have known that her days
+were numbered, because she called you to her house one day and made you make a promise: If her
+daughter Koya ever went on a long trip, you would go with her to ensure her safety. Although the
+chances of Koya going on a long trip seem remote (she must be at least 60 years old, after all),
+you've made a promise to Niska to accompany her daughter if such an event comes to pass. Ever since
+you made this promise, you've felt a strange sense of destiny looming in your future - you might
+even think that Niska is now watching over your shoulder, just as she asked you to watch over her
+daughter. As a result of this eerie sense of being watched over, you've been able to react to
+dangerous situations more quickly than ever.
+
+**Benefit:** As long as Koya remains alive, you gain a +1 trait bonus on
+[Perception](ref/skill/perception) checks, and Perception becomes a class skill for you. In
+addition, you gain a +1 trait bonus on all attack rolls against foes that threaten Koya.
+
+- **NPC Choices:** Koya.

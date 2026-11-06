@@ -1,0 +1,207 @@
++++
+id = "ref/monster/serpopard"
+kind = "creature"
+title = "Serpopard"
+source_ids = ["pathfinder-81-shifting-sands"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "serpopard", path = "json/monsters21.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+size = "medium"
+alignment = "chaotic neutral"
+ac = "20/15/15"
+hp = "85~9d10+36"
+fortitude = "+10"
+reflex = "+11"
+will = "+7"
+melee = "bite +14 (1d6+4/19-20), 2 claws +14 (1d4+4 plus grab)"
+special_attacks = "dune step~limber neck"
+special_qualities = "far wanderer"
+abilities = ["19", "21", "18", "10", "14", "17"]
++++
+
+_The muscles beneath the spotted fur of this sleek feline tense, poised to pounce. Its long, sinuous
+neck stretches over twice the length of its body, ending in a snarling leopard's head._
+
+**Serpopard**
+
+**Challenge rating:** 7
+
+**Alignment:** Chaotic neutral
+
+**dv:** 60
+
+**Initiative:** +9
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Size:** medium
+
+**Perception:** +10
+
+**Sense:** Scent
+
+**source:** Pathfinder \#81: Shifting Sands/86
+
+**Experience points:** 3,200
+
+**Armor class:** 20/15/15
+
+**Fort:** +10
+
+**Hit points:** 85 (9d10+36)
+
+**Mod:** +5 Dex, +5 natural
+
+**Ref:** +11
+
+**Will:** +7
+
+**Offense**
+
+**Speed:** 40 ft.
+
+**Melee:** bite +14 (1d6+4/19-20), 2 claws +14 (1d4+4 plus [grab](ref/umr/grab))
+
+**Pounce:** present
+
+**Rake:** bite +14, 1d6+4; 2 claws +14, 1d4+4
+
+**Reach:** 5
+
+**Reach P:** 15 ft. with bite
+
+**Space:** 5
+
+**Spec Att:** dune step, limber neck
+
+**Statistics**
+
+**Ability scores:** Str 19, Dex 21, Con 18, Int 10, Wis 14, Cha 17
+
+**Base attack bonus:** +9
+
+**Combat maneuver bonus:** +13
+
+**Combat maneuver defense:** 28 (32 vs. trip)
+
+**Feats:** Combat Reflexes, Improved Critical (bite), Improved Initiative, Iron Will, Weapon Finesse
+
+**Skills:** Acrobatics +10 (+14 when jumping), Bluff +9, Climb +8, Knowledge (geography) +5,
+Perception +10
+
+**Racial Modifiers:** +4 Acrobatics when jumping, +4 Bluff, +4 Stealth
+
+**Languages:** Common
+
+**Special qualities:** far wanderer
+
+**Ecology**
+
+**Environment:** warm deserts or plains
+
+**Organization:** solitary or pair
+
+**Treasure:** Standard
+
+### Special Abilities
+
+**Dune Step (Su)** Three times per day as part of a move action, a serpopard can instantaneously
+leap from one dune to any other dune within 1 mile as if by dimension door. The serpopard must begin
+and end this movement in an area of dunes. Using this ability does not provoke attacks of
+opportunity.
+
+**Far Wanderer (Ex)** Knowledge (geography) and Survival are class skills for serpopards.
+
+**Limber Neck (Ex)** A serpopard can use its long neck to make bite attacks as part of a rake attack
+against grappled opponents. In addition, a serpopard doesn't take the usual -2 penalty on attack
+rolls when it makes a bite attack while grappling.
+
+### Description
+
+Avistani naturalists named this creature serpopard because they saw it as possessing features of
+both a leopard and a serpent, though this creature is also widely known by its Osiriani name sedja,
+meaning "one who travels from afar." Serpopards earn this appellation because of their supernatural
+ability to leap from one dune to another, an ability they call "one who travels from afar."
+
+Some scholars speculate that the pharaohs of old bred this ability into the serpopards in order to
+create scouts and messengers able to cross the harsh terrain of their vast empires quickly and
+efficiently, but this creature is not one that has been created or influenced by humankind. Though
+rare, serpopards are naturally occurring beasts native to the deserts of northern Garund.
+Superstitious folk who believe that the gods' hands touch everything beneath the blistering Osirian
+sun see the serpopard as a cursed creature, marked with snake-like features by Apep and forced to
+wander eternally through the desert, never to find rest or sanctuary. On the other hand, carvings on
+ceremonial plates, on uncovered artifacts, and in ruined temples make it clear that the god-kings of
+Ancient Osirion once kept serpopards as pets or servants, as depictions of these creatures in the
+oldest of Osirion's ruins often show them chained or collared, bowing obediently to human masters.
+
+Serpopards stand approximately 3 feet tall at the shoulder; when their necks are fully extended,
+they can measure up to 20 feet long from nose to tail. Serpopards weigh anywhere from 150 to 200
+lbs.
+
+Though serpopards are most common in the deserts of northern Garund, travelers in such far-off
+locales as the Meraz Desert in Qadira, the Cinderlands of Varisia, and the vast expanse of Shaguang
+in Tian Xia to the east have spotted creatures matching the serpopards' description. Some sages
+hypothesize that the most powerful or ancient serpopards can cross greater distances with their dune
+step ability, and thus travel through it to distant deserts across Golarion. Such experts say it's
+therefore likely that all deserts hold populations of serpopards, though they may be few in number
+or very isolated.
+
+Serpopards are largely nocturnal, preferring to hunt at night when they can use the cover of
+darkness to approach prey undetected. When hunting, they rely on their speed and powerful claws to
+take down large quarry, and then use the additional reach provided by their unusually long necks to
+defend their kills from scavengers and competing hunters. Serpopards are not averse to eating
+intelligent beings, and hunt humanoids if the opportunity or need arises, but they aren't cruel;
+serpopards gain no pleasure from such acts beyond the satisfaction of a fresh meal.
+
+On average, serpopards have a lifespan of about 50 years, but rumors exist of serpopards living much
+longer than this. One town along the northern coast of Rahadoum claims a single serpopard has
+visited its outskirts once every decade for the past 100 years.
+
+### Habitat
+
+Serpopards are mainly solitary creatures. Very rarely do they travel in pairs, and then only during
+mating season or in the case of littermates who chose not to separate at adulthood. When living as
+mated pairs, the father stays only until the cubs are able to run, but the mother stays with the
+cubs much longer, teaching them how to hunt and use their special ability to travel between the
+dunes. Mothers also pass on to the cubs their understanding of the land, instructing them as to
+which areas are good for hunting or exploring, what kinds of places to avoid, and how to find fresh
+water. Young serpopards separate from their mother individually, leaving as soon as they mature and
+feel confident navigating their way through the desert alone.
+
+When traveling, serpopards range anywhere from 50 to 100 miles per day, stopping only to hunt, rest,
+or (more rarely) explore some aged ruin. No one knows what fascination these ancient works hold for
+the serpopards, but the creatures' interest in such locations is undeniable. An old poem involving
+serpopards claims that the creatures visit these ancient ruins because they are pining for the lost
+empire of Ancient Osirion.
+
+Serpopards are clever liars and frustrating conversationalists, and hold a reputation among other
+races as skilled deceivers. In rural parts of Osirion, those with a gift for deception are often
+said to have "the tongue of a sedja," while young children caught in a lie are warned that their
+"necks are growing" with each lie they tell. Despite this potential untrustworthiness, many people
+still seek the aid of serpopards. Few creatures know the deserts of Osirion as well as serpopards,
+and for the right price many are willing to guide groups of people across the desert. It's usually
+best to ensure the serpopard is well fed before undertaking such a journey, however, for a hungry
+serpopard may turn on its traveling companions if it thinks it can make a quick meal out of them.
+Serpopards have little use for gold and rarely accept it as payment for their services, though some
+apparently take a liking to jewelry, as travelers report the creatures as frequently wearing
+necklaces and bracelets when encountered. Food and hospitality are always acceptable payments, for
+those two things are in short supply in the harsh expanse of the desert. For those wishing to earn a
+serpopard's true faith and loyalty, however, one form of compensation stands above all
+others-divination magic. Serpopards are unceasingly curious about what their futures hold, and put
+great stock in the words of those who can tell fortunes or predict events to come.
+
+Serpopards attack most sphinxes on sight, often fighting at least long enough to get in a few solid
+blows before retreating between the dunes to safety. The only exception to this is androsphinxes,
+which most serpopards fear for some unknown reason. Only the bravest or most desperate serpopards
+face down such creatures in combat without aid; most flee immediately once they spot these mighty
+sphinxes. Sphinxes are aware of this antipathy and treat serpopards accordingly. Perhaps as a
+consequence of their antipathy toward sphinxes, serpopards also hate riddles and word games, and
+prefer to twist their words with lies and omissions rather than making a game out of conversation.
+Ignorant travelers who confuse the two creatures and try to engage the serpopard in a bout of
+riddling can find themselves in a dangerous predicament.

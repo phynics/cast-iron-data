@@ -1,0 +1,35 @@
++++
+id = "ref/feat/crane-riposte"
+kind = "feat"
+title = "Crane Riposte"
+source_ids = ["ultimate-combat", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "crane_riposte", path = "json/feat03.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Crane Style, Crane Wing, Dodge, Improved Unarmed Strike, base attack bonus +8 or monk level 7th."
+prerequisite_feats = ["ref/feat/crane-style", "ref/feat/crane-wing", "ref/feat/dodge", "ref/feat/improved-unarmed-strike"]
+benefit = "You take only a -1 penalty on attack rolls for fighting defensively. Whenever you deflect an opponent's attack using Crane Wing or lose the dodge bonus from Crane Wing because an attack missed you by 4 or less, you can make an attack of opportunity against the attacker after the attack misses."
++++
+
+## Crane Riposte (Combat)
+
+**Sources:** Ultimate Combat pg 93
+
+You use your defensive abilities to make overpowering counterattacks.\
+**Prerequisites:** [Crane Style](ref/feat/crane-style), [Crane Wing](ref/feat/crane-wing),
+[Dodge](ref/feat/dodge), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base attack
+bonus +8 or monk level 7th.\
+**Benefit:** You take only a -1 penalty on attack rolls for
+[fighting defensively](ref/misc/fighting-defensively). Whenever you deflect an opponent's attack
+using Crane Wing or lose the dodge bonus from Crane Wing because an attack missed you by 4 or less,
+you can make an attack of opportunity against the attacker after the attack misses.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 116\
+At the start of a turn when you are fighting defensively, you can spend 2 stamina points to take no
+penalty on your attack rolls from fighting defensively. This lasts until the start of your turn.

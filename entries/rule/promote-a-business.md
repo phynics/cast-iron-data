@@ -1,0 +1,35 @@
++++
+id = "ref/rule/promote-a-business"
+kind = "rule"
+title = "Promote a Business"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "promote_a_business", path = "json/rules_subsystems02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 85
+
+You can spend 1 day of downtime to increase interest in a business, temple, organization, or other
+local fixture. You can also spend one type of capital, depending on how you want to promote the
+business. For example, if you want to promote a bakery, you can spend Goods giving out free pastries
+to people in town, Influence to get the mayor to visit the bakery and praise its food, Labor to hire
+workers to stand with signboards advertising the bakery, or Magic for a memorable illusion that
+draws people to the bakery.
+
+The promotion increases activity at the site for 1d6 days. Choose one capital the building
+generates, then attempt a skill check for using skilled work to earn capital, using Diplomacy,
+Knowledge (local), or Spellcraft. Add 5 to your check result for every 1 point of Goods, Influence,
+Labor, or Magic you spent to promote the business, then use the skilled work option to determine how
+many additional resources the business generates over the course of this increased activity. If
+you're promoting an organization without a physical building, each Good, Influence, Labor, or Magic
+adds only 2 to the check instead of 5 - it's harder to encourage people to be patrons of something
+they can't physically visit.
+
+The business you promote with this downtime activity doesn't have to be one you own.
+
+If the building or organization does not generate capital (such as charity that takes care of war
+orphans), the promotion generates either gp or Influence (your choice).

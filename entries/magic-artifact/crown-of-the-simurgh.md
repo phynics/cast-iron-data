@@ -1,0 +1,45 @@
++++
+id = "ref/magic-artifact/crown-of-the-simurgh"
+kind = "item"
+title = "Crown of the Simurgh"
+source_ids = ["artifacts-and-legends", "pathfinder-24-the-final-wish"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "crown_of_the_simurgh", path = "json/magic_artifact.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "1 lb."
+slot = "head"
+aura = "strong divination and transmutation [good]"
+caster_level = "18th"
++++
+
+**Sources:** Artifacts and Legends pg 57, Pathfinder \#24: The Final Wish pg 87\
+**Aura** strong divination and transmutation \[good\]; **CL** 18th\
+**Slot** head; **Price** -; **Weight** 1 lb.
+
+A crown of the simurgh grants the wearer the protection of the [simurgh](ref/monster/simurgh) who
+created it. The crown only works for a single creature for whom the crown was specifically crafted.
+A simurgh can create one crown of the simurgh every 500 years.
+
+While wearing a crown of the simurgh, the wearer is constantly affected by the spell
+[protection from evil](ref/spell/protection-from-evil). Once per day, the wearer of this crown can
+spend a full-round action concentrating to mentally contact the simurgh who created the crown. If
+the simurgh allows this connection to be made, the wearer instantly knows the distance and direction
+of the simurgh and can communicate with it as per the spell [sending](ref/spell/sending). Should the
+simurgh be on the same plane and both parties wish it, the crown's wearer can teleport to the
+simurgh's location. Ten minutes after teleporting to the simurgh's side, however, the crown's wearer
+teleports back to wherever he was before teleporting (or the nearest safe square), whether he wishes
+to or not.
+
+As a final effort or in a time of great need, the wearer can take a full-round action to hold the
+crown to the sun and call out to the simurgh that created it. This summons the simurgh as per the
+spell [summon monster IX](ref/spell/summon-monster-9). The simurgh remains for 1 minute, and follows
+the wearer's commands. At the end of this time, the simurgh vanishes and the crown is destroyed.
+
+### Destruction
+
+Aside from making use of the crown of the simurgh's summoning ability, this artifact is also
+destroyed if it is taken onto the Plane of Shadow.

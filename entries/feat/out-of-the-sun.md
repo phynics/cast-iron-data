@@ -1,0 +1,33 @@
++++
+id = "ref/feat/out-of-the-sun"
+kind = "feat"
+title = "Out of the Sun"
+source_ids = ["ultimate-wilderness", "people-of-the-sands"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "out_of_the_sun", path = "json/feat11.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Teamwork"]
+prerequisites = "Bluff 3 ranks, Stealth 3 ranks."
+benefit = "When you hit with a melee attack, you can attempt a Bluff check as a move action to feint. You do not gain the benefits of this feint; instead, if you succeed at your Bluff check, an ally with this feat who is adjacent to you or your opponent gains the benefits, such that the opponent is denied its Dexterity bonus to AC (if any) against your ally's next melee attack against that opponent. This attack must be made before the end of your ally's next turn. You gain a +2 circumstance bonus on your Bluff check in bright light. This bonus increases to +4 in natural sunlight. You cannot use this feat in dim light or darkness."
+special = "If you have the Improved Feint feat, you can feint with Out of the Sun as a swift action after you hit with a melee attack."
++++
+
+## Out of the Sun (Teamwork)
+
+**Sources:** Ultimate Wilderness pg 117, People of the Sands pg 9
+
+You and your allies use the sun's glare to your advantage.\
+**Prerequisites:** Bluff 3 ranks, Stealth 3 ranks.\
+**Benefit:** When you hit with a melee attack, you can attempt a [Bluff](ref/skill/bluff) check as a
+move action to feint. You do not gain the benefits of this [feint](ref/rule/feint); instead, if you
+succeed at your Bluff check, an ally with this feat who is adjacent to you or your opponent gains
+the benefits, such that the opponent is denied its Dexterity bonus to AC (if any) against your
+ally's next melee attack against that opponent. This attack must be made before the end of your
+ally's next turn. You gain a +2 circumstance bonus on your Bluff check in bright light. This bonus
+increases to +4 in natural sunlight. You cannot use this feat in
+[dim light](ref/rule/vision-and-light) or darkness.\
+**Special:** If you have the [Improved Feint](ref/feat/improved-feint) feat, you can feint with Out
+of the Sun as a swift action after you hit with a melee attack.

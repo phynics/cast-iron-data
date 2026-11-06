@@ -1,0 +1,37 @@
++++
+id = "ref/rule/examples-of-bargaining"
+kind = "rule"
+title = "Examples of Bargaining"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "examples_of_bargaining", path = "json/rules_subsystems01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 139
+
+Orshok has a jeweled idol worth 1,800 gp he mistakenly appraised at 2,000 gp. He tries to sell it to
+an art collector at an _Asking Price_ of 2,200 gp, knowing the collector will counter with a lower
+price. The collector succeeds at her Appraise check and realizes the idol's actual value. The
+collector attempts a Bluff check against Orshok's Sense Motive check and succeeds by 1, so her
+_Undercut Percentage_ is 3% (base 2% plus 1% for exceeding the check by 1). Because the collector
+thinks the idol is worth less than Orshok's price, her _Initial Offer_ is 6% less than her estimate
+of the value (1,692 gp) and her _Final Offer_ is 3% less than her estimate (1,746 gp). When she
+makes her _Initial Offer,_ Orshok counters with a price of 2,000 gp. This is higher than the
+collector's _Final Offer,_ so Orshok attempts a Diplomacy check whose DC equals 25 + the buyer's
+Charisma modifier to keep the buyer's interest. He succeeds at the check, so the buyer counteroffers
+1,740 gp (between her _Initial_ and _Final Offers_). Orshok doesn't think the collector will go much
+higher, and decides to find another buyer.
+
+Later, Orshok tries to sell the idol to a spice merchant who finds it interesting but knows nothing
+about art. Orshok again starts with a price of 2,200 gp. The merchant's Sense Motive check beats
+Orshok's Bluff check, so she realizes he isn't offering a fair price. The merchant attempts a Bluff
+check opposed by Orshok's Sense Motive check and succeeds by 4, which makes her _Undercut
+Percentage_ 6% (base 2% plus 4% for exceeding the check by 4). The merchant's _Initial Offer_ is 12%
+less than Orshok's price (1,936 gp), and her _Final Offer_ is 6% less than Orshok's price (2,068
+gp). Orshok counters with a price of 2,000 gp. This is less than the merchant's _Final Offer,_ so
+Orshok attempts a Diplomacy check (DC 15 + the buyer's Charisma modifier). He succeeds, so the
+merchant accepts Orshok's counteroffer and buys the item for 2,000 gp.

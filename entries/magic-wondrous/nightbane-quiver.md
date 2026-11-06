@@ -1,0 +1,35 @@
++++
+id = "ref/magic-wondrous/nightbane-quiver"
+kind = "item"
+title = "Nightbane Quiver"
+source_ids = ["daughters-of-fury"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "nightbane_quiver", path = "json/magic_wondrous_slotless04.json" },
+]
+
+[fields]
+kind = "item"
+price = "16,000 gp"
+weight = "3 lbs."
+slot = "none"
+aura = "faint evocation"
+caster_level = "5th"
++++
+
+**Sources:** Daughters of Fury pg 62\
+**Aura** faint evocation; **CL** 5th\
+**Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.
+
+This black silk quiver bears a silver star-and-moon motif. It can transform up to 20 arrows per day
+into tangible beams of light. When drawn from the quiver, these arrows produce light as the
+_[daylight](ref/spell/daylight)_ spell for 5 rounds, after which they disappear. Arrows enhanced in
+this way prove particularly deadly to light-sensitive and shadowy creatures - an arrow altered by a
+nightbane quiver bypasses the DR of any creature with [light sensitivity](ref/umr/light-sensitivity)
+and counts as a force effect against shadows and wraiths. Arrows gain these benefits only when shot
+by the current owner of the quiver. Arrows placed in this quiver retain any magical effect already
+placed on them.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[daylight](ref/spell/daylight); **Cost** 8,000 gp

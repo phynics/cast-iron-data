@@ -1,0 +1,41 @@
++++
+id = "ref/feat/cursed-love"
+kind = "feat"
+title = "Cursed Love"
+source_ids = ["agents-of-evil"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "cursed_love", path = "json/feat04.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Story"]
+prerequisites = "You must have a romantic interest who has fallen to some dark influence and rejects you out of shame or fear of newfound capabilities, or must have the Bad Romance or Temptation [Conflict/Romance background](rule/bad_beginnings)."
+benefit = "You no longer suffer abuse from those with whom your lover associates, and instead command a measure of their respect. You gain a +2 bonus on Intimidate checks against members of your chosen form of corruption. If you have 10 or more ranks in Intimidate, this bonus increases to +4. When you would normally be reduced below 0 hit points by an attack from such a source, you instead immediately gain a number of temporary hit points equal to your character level."
++++
+
+## Cursed Love (Story)
+
+**Sources:** Agents of Evil pg 8
+
+Your love forces you to endure the harshest of endeavors, despite the fact that most people would
+view your romance as madness.\
+**Prerequisites:** You must have a romantic interest who has fallen to some dark influence and
+rejects you out of shame or fear of newfound capabilities, or must have the Bad Romance or
+Temptation [Conflict/Romance background](ref/rule/bad-beginnings).\
+**Benefit:** You are well versed in a dark society's way of thinking and in weathering abuse. Select
+a form of corruption that your lover fell to or willingly embraced: evil divine casters, evil arcane
+casters, undead creatures, or humanoid creatures with the shapeshifter subtype. You gain a +2 bonus
+on Diplomacy and Sense Motive checks when dealing with such creatures, and a +2 bonus on saving
+throws to resist any effects that would spread their corruption to you (such as a
+[vampire's](ref/template/vampire) create spawn ability or a werewolf's curse of
+[lycanthropy](ref/rule/lycanthropy)). Once per day, when you would normally be reduced below 0 hit
+points by an attack from such a creature, you instead immediately gain a number of
+[temporary hit points](ref/rule/temporary-hit-points) equal to half your character level.\
+**Goal:** Find a way to be with your lover in a permanent fashion, either by persuading your lover
+to reject the influence of evil or by willingly embracing the same corruption.\
+**Completion Benefit:** You no longer suffer abuse from those with whom your lover associates, and
+instead command a measure of their respect. You gain a +2 bonus on Intimidate checks against members
+of your chosen form of corruption. If you have 10 or more ranks in Intimidate, this bonus increases
+to +4. When you would normally be reduced below 0 hit points by an attack from such a source, you
+instead immediately gain a number of temporary hit points equal to your character level.

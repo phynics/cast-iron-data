@@ -1,0 +1,32 @@
++++
+id = "ref/rule/wealthy-characters"
+kind = "rule"
+title = "Wealthy Characters"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "wealthy_characters", path = "json/rules_gm03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 109
+
+Princes, scions of mighty trading houses, and other characters of wealth and influence bring a ready
+supply of plot hooks to your game. But the modest starting budget given to player characters would
+seem to rule out certain background concepts. World logic says that their vast resources ought to
+include any piece of gear available for sale, but game balance requires that treasure must be earned
+in the course of play.
+
+This can be addressed in the character's background. Perhaps the character is proving a point to
+doubting elders, stealing away from familial duties to lead a footloose life, or has been banished
+from the fold, justly or not.
+
+During play, you might also acknowledge the characters' wealth in areas other than the equipment
+list. Ordinary citizens fawn over them. They have many contacts and enjoy access to the highest
+levels of society. Their non-combat garb might be expensively impressive - though of course, social
+rules forbid them to sell it to buy useful adventuring gear.
+
+Alternatively, if other players consent, a player with a character concept that logically demands it
+might get a 10-20% bonus to their starting budget.

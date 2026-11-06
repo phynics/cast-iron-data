@@ -1,0 +1,31 @@
++++
+id = "ref/eq-misc/hobgoblin-war-draught"
+kind = "item"
+title = "Hobgoblin war draught"
+source_ids = ["advanced-race-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "hobgoblin_war_draught", path = "json/equipment_misc2.json" },
+]
+
+[fields]
+kind = "item"
+price = "10 gp"
+weight = "1 lb."
++++
+
+**Sources:** Advanced Race Guide pg 123\
+**Price** 10 gp; **Weight** 1 lb.\
+**Category** Alchemical Tools
+
+**Craft DC** 15 for hobgoblins.
+
+This drink is a foul-smelling alchemical blend of raw alcohol, mashed grubs, and medicinal
+mushrooms. A hobgoblin under the effects of hobgoblin war draught ignores all penalties resulting
+from the [fatigued](ref/misc/fatigued) and [shaken](ref/misc/shaken) conditions for 10 minutes,
+after which he must succeed at a DC 15 Fortitude save or be [sickened](ref/misc/sickened) for 1
+hour. Anyone lacking the goblinoid subtype who drinks hobgoblin war draught must immediately make a
+DC 15 Fortitude save or be sickened for 1 hour; success means the drinker ignores all penalties
+resulting from the fatigued and shaken conditions for 1 minute, after which he is sickened for 10
+minutes. Hobgoblin war draught has no effect on creatures that are immune to poison.
+
+**Construction:** Craft (Alchemy) DC 20

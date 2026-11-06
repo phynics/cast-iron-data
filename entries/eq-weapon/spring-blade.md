@@ -1,0 +1,28 @@
++++
+id = "ref/eq-weapon/spring-blade"
+kind = "item"
+title = "Spring blade"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "spring_blade", path = "json/equipment_weapons.json" },
+]
+
+[fields]
+kind = "item"
+weight = "1 lb."
++++
+
+**Sources:** Ultimate Intrigue pg 232
+
+This 4-inch blade is attached via a hinge to a wooden handle with a slot in the center, into which
+the blade can be folded. With a click of a switch, a spring thrusts the blade outward, where it
+locks into place until it is reset. Releasing the blade is a free action, and resetting it is a move
+action. The handle must be in your hand for the blade to be released; placing it in your hand
+requires the same type of action as drawing a weapon. A spring blade is easy to conceal: an observer
+must succeed at a DC 20 Perception check to notice the blade hidden within the wooden handle, and
+you gain a +4 bonus on Sleight of Hand checks to conceal a spring blade on your body.
+
+**Cost** 70 gp **Weight** 1 lb.\
+**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 10 ft.; **Type** P or S;
+**Special** -\
+**Category** Light; **Proficiency** Simple

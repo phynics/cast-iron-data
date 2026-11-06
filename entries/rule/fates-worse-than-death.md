@@ -1,0 +1,30 @@
++++
+id = "ref/rule/fates-worse-than-death"
+kind = "rule"
+title = "Fates Worse Than Death"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "fates_worse_than_death", path = "json/rules_campaign_types08.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Occult Adventures pg 220
+
+When death is final and unknown, it is as mysterious to living beings as it is terrifying.
+Characters accustomed to communicating with spirits, however, know that death is not the end. In
+fact, characters skilled in the occult might willingly wander the Ethereal Plane to quest, converse,
+and mingle among the bodiless spirits that reside there. In these games, characters usually have a
+pretty good idea of what fate awaits them, and what the final reward - or punishment - will be for
+their actions in life.
+
+In occult adventures where characters can leave their bodies, travel in dreams, and project their
+forms onto the Astral Plane, the death of the physical body could come to hold less significance.
+Therefore, present the characters with fates worse than death. This might amount to a torturous
+"living" death, such as the eternal enslavement and torture of the soul or a debilitating madness
+that gradually renders a psychic creature mindless and insane. Since death in fantasy roleplaying
+games is typically either the end of a character's story or a small inconvenience before
+resurrection, look for ways to offer an escape from death using occult characters' knowledge of the
+spirit world - but at significant cost to their bodies, minds, or souls.

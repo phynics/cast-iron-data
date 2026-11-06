@@ -1,0 +1,26 @@
++++
+id = "ref/discovery/breath-weapon-bomb"
+kind = "rule"
+title = "Breath Weapon Bomb"
+source_ids = ["ultimate-combat"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "breath_weapon_bomb", path = "json/class_ability_discoveries.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Breath Weapon Bomb&FN&**
+
+**Ability:** Instead of drawing the components of, creating, and throwing a bomb, the alchemist can
+draw the components, drink them, mix them within his body, and then expel them as a breath weapon as
+a **standard action**. This breath weapon is a 15-foot cone and has the same DC as the bomb. Each
+creature within the cone takes damage as if it had suffered a direct hit from the alchemist's bomb,
+but succeeding at a Reflex save (DC = 10 + 1/2 the alchemist's level + the alchemist's Intelligent
+modifier) halves the damage.
+
+**Prereq:** 6th-level alchemist
+
+**Special:** Unlike throwing normal bombs, drawing, drinking, and expelling _breath weapon bombs_
+does not provoke attacks of opportunity.

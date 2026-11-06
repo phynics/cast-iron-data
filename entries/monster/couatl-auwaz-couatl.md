@@ -1,0 +1,227 @@
++++
+id = "ref/monster/couatl-auwaz-couatl"
+kind = "creature"
+title = "Auwaz Couatl"
+source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "couatl_auwaz_couatl", path = "json/monsters28.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "outsider"
+subtypes = ["native"]
+size = "large"
+alignment = "chaotic good"
+ac = "20/14/16"
+hp = "84~8d10+40"
+fortitude = "+5"
+reflex = "+10"
+will = "+8"
+melee = "bite +12 (1d8+4 plus grab and poison)"
+special_attacks = "poison"
+special_qualities = "gift of the sea"
+abilities = ["16", "18", "17", "15", "15", "16"]
++++
+
+_This winged serpent is covered with bright blue-and-green feathers that are reminiscent of ocean
+waters._
+
+**Auwaz Couatl**
+
+**Challenge rating:** 6
+
+**Alignment:** Chaotic good
+
+**dv:** 60
+
+**Initiative:** +8
+
+**Size:** large
+
+**Type:** outsider
+
+**Perception:** +15
+
+**Senses:** Detect chaos/evil/good/law
+
+**source:** Pathfinder \#140: Eulogy for Roslar's Coffer/82
+
+**Subtype:** Native
+
+**Experience points:** 2,400
+
+**Armor class:** 20/14/16
+
+**Fort:** +5
+
+**Hit points:** 84 (8d10+40)
+
+**Mod:** +4 Dex, +6 natural
+
+**Ref:** +10
+
+**Will:** +8
+
+**Offense**
+
+**Speed:** 20 ft., fly 40 ft. (good)
+
+**Constrict:** 1d8+4
+
+**Melee:** bite +12 (1d8+4 plus [grab](ref/umr/grab) and poison)
+
+**Spec Att:** poison
+
+**Spell-Like Abilities**
+
+**Caster level:** 8
+
+**Concentration:** +11
+
+**Constant:**
+
+- detect chaos, detect evil, detect good, detect law, know direction
+
+**At will:**
+
+- create water, detect thoughts, DC 15, invisibility, plane shift, self plus 50 lbs. of objects only
+
+**Per day:**
+
+- 3/day: hydraulic push, DC 14, obscuring mist, touch of the sea, water breathing
+- 1/day: call lightning, DC 16, gust of wind, DC 15, hydraulic torrent, DC 16
+
+**Statistics**
+
+**Ability scores:** Str 16, Dex 18, Con 17, Int 15, Wis 15, Cha 16
+
+**Base attack bonus:** +8
+
+**Combat maneuver bonus:** +11 (+15 grapple)
+
+**Combat maneuver defense:** 25 (can't be tripped)
+
+**Feats:** Alertness, Eschew Materials^B^, Hover, Improved Initiative, Weapon Finesse
+
+**Skills:** Bluff +14, Diplomacy +14, Fly +19, Knowledge (geography) +13, Perception +15
+
+**Languages:** Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+
+**Special qualities:** gift of the sea
+
+###### B {#footnote-b}
+
+Bonus feat.
+
+**Ecology**
+
+**Environment:** any
+
+**Organization:** solitary
+
+**Treasure:** Standard
+
+### Special Abilities
+
+**Gifts of the Sea (Ex)** Once per day as a full-round action, an auwaz couatl can bestow a creature
+within 120 feet with either its blessing or its curse. A blessed creature knows the location to
+either its final destination or the nearest port city, whichever is closer, as
+[find the path](ref/spell/find-the-path). In addition, the blessed creature always has favorable
+winds, which grant the benefits of [endure elements](ref/spell/endure-elements) and allow any ship
+the creature travels on to move at its fastest speed. A cursed creature takes a -6 penalty on
+Profession (sailor) and Survival checks, and it always has strong unfavorable winds that blow in the
+opposite direction of the cursed creature's final destination. A creature affected by this ability
+remains affected for 12 hours. A creature can attempt a DC 16 Will save to resist this effect. The
+save DC is Charisma-based.
+
+**Poison (Ex)**
+
+**Type:** Poison (Injury-bite)
+
+**Save:** Fortitude DC 17
+
+**Frequency:** 1/minute for 10 minutes
+
+**Effect:** Dexterity damage 1d2
+
+**Cure:** 1 save
+
+The DC is Constitution-based.
+
+### Description
+
+Auwaz couatls are a variety of couatl known for helping those who are lost find their way back to
+safety. They are particularly known for traveling around the oceans of Golarion to help sailors and
+other travelers lost at sea. Many sailors claim that they owe their lives to an auwaz couatl, though
+these same sailors warn that living a particularly vile life will instead draw an auwaz couatl's
+ire. An auwaz couatl often prefers that evil beings remain lost, and it actively works to ensure
+such creatures remain lost for as long as possible. A typical auwaz couatl is 8 feet long with a
+wingspan of 12 feet, and weighs 800 pounds.
+
+### Ecology
+
+Auwaz couatls are the most commonly known couatls across Golarion, at least among those people who
+live near coasts. An auwaz couatl's scales are a light gray with subtle light blue and green
+markings. Their feathers are typically blue and green, with hints of light yellow reminiscent of the
+sun. The coloring resembles the waters of the oceans, and the exact coloring of an auwaz couatl
+tends to vary depending on which body of water the couatl frequents - each major sea and ocean seems
+to have its own distinct auwaz markings and colorations. The sound of an auwaz couatl's wings
+resembles that of a gentle ocean breeze. This makes it hard to detect their approach, and many
+sailors tend to utter short blessings whenever they encounter a calm, compliant breeze, just in case
+an auwaz couatl is nearby.
+
+Each auwaz couatl knows the location of every settlement on the edge of its waters and is happy to
+share this knowledge with those it views favorably. Those who draw an auwaz couatl's suspicion
+sometimes receive inaccurate knowledge, ending up at a settlement a few hundred miles away from
+their intended destination. An auwaz couatl usually gives this misinformation to allow it time to
+follow the travelers and determine whether they are dangerous, correcting its original directions
+only if the travelers appear to be good-hearted. When dealing with evil travelers, an auwaz couatl
+usually points them toward subtle dangers such as troubled waters, reefs, and other oceanic dangers.
+The creature won't follow these travelers and is content with letting the ocean determine their
+fates.
+
+Auwaz couatls have moderate control over the weather, calling forth winds and storms as they feel
+necessary. They use this power to aid the travel of those they are guiding home, summoning strong
+winds to make the journeys of sailing ships shorter. Similarly, if an auwaz couatl encounters a
+sinking ship, it uses its powers to grant survivors the ability to breathe water and personally
+guides these victims to safety. This power also allows an auwaz couatl to work against evil
+travelers, making their journeys difficult and even calling on lightning storms to strike ships when
+necessary.
+
+Auwaz couatls have the shortest lives of all couatls, living only about a century at most, and most
+have life spans equivalent to those of humans. Due to their flighty nature, they rarely take the
+time to meet with others of their kind, though they do gather once every few years to reproduce,
+laying several eggs each. Its uncertain how auwaz couatls know the exact time to gather, though many
+believe they read a message in the stars left behind by their cousins, the
+[mix couatls](ref/monster/couatl-mix-couatl).
+
+### Habitat
+
+Auwaz couatls live roving, independent lives that allow them to travel all across Golarion. Although
+most auwaz couatls live near the seas and oceans of Golarion, some prefer to stay inland and help
+those lost in forests or mountains. An auwaz couatl typically sticks to its home in its younger
+years, but it eventually travels the world through its adult life before returning. Auwaz couatls
+tend to avoid each other and keep out of each other's affairs, except in times of peril. In these
+cases, an auwaz couatl uses a particular call, perceptible only to other couatls, to warn of danger.
+During these fraught times, auwaz couatls travel in packs, especially to protect the younger members
+of their kind.
+
+As they are generally good-natured and curious, many auwaz couatls take time to speak with any
+travelers they find, often flying above ships and conversing with those on board. These
+conversations usually involve current events, as auwaz couatls prefer to keep updated so as to not
+send travelers to dangerous locales, but they can also include artistic and philosophical
+discussions. Some auwaz couatls are quite fond of humorous stories and like to spend hours telling
+such tales, especially if there are children among the travelers. The sight of an auwaz couatl above
+a ship serves as a signal to others that the ship is protected, so many ships fly kites in the shape
+of auwaz couatls in hopes of giving marauders pause.
+
+Auwaz couatls are particularly fond of children, as they find kinship in their innocence. They are
+more than happy to comfort distressed children and guide them home. In particularly dire situations,
+or ones where a child may be too far from home to safely travel, an auwaz couatl will carry the
+child on its back and fly it to safety. An auwaz couatl typically has a different approach with
+children who have run away from home; the auwaz couatl takes time to speak with the child and learn
+her reasons for running away. In some cases, the child seeks to escape a troubled life and the auwaz
+couatl helps guide the child to a new home. In other cases, the auwaz couatl convinces the child to
+return home but encourages her to cultivate the wanderlust in her heart. Such children tend to grow
+into adventurers and travel the world years later.

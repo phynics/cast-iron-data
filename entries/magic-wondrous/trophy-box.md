@@ -1,0 +1,42 @@
++++
+id = "ref/magic-wondrous/trophy-box"
+kind = "item"
+title = "Trophy Box"
+source_ids = ["magical-marketplace"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "trophy_box", path = "json/magic_wondrous_slotless06.json" },
+]
+
+[fields]
+kind = "item"
+price = "18,000 gp"
+weight = "5 lbs."
+slot = "none"
+aura = "moderate conjuration"
+caster_level = "9th"
++++
+
+**Sources:** Magical Marketplace pg 13\
+**Aura** moderate conjuration; **CL** 9th\
+**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
+
+A trophy box is a 1-foot-wide clay box used to trap and release beasts too dangerous to confront
+directly. As soon as the trophy box is placed and the first command word is spoken, the trap is
+rigged to trigger whenever a Medium or larger [animal](ref/type/animal) comes within 20 feet of the
+box. The target must succeed at a DC 17 Will save or be drawn into an extradimensional space within
+the box, where it is held in a state of suspended animation for up to 24 hours. A trophy box can
+hold only one such victim at a time. The first command word can be used once per day.
+
+If the second command word is spoken, any animal trapped within the trophy box appears adjacent to
+the box either immediately or when a Tiny or larger creature (other than the user) comes within 20
+feet (user's choice). A creature within 20 feet that speaks the password (set when the box is first
+activated) does not trigger the box. If the user is within 50 feet of the released animal, she can
+control it for 1 minute after its release as the _[dominate animal](ref/spell/dominate-animal)_
+spell. Otherwise, the released animal attacks the nearest creature for 1 minute, after which its
+normal instincts take over.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
+[dominate animal](ref/spell/dominate-animal), [secret chest](ref/spell/secret-chest); **Cost** 9,000
+gp

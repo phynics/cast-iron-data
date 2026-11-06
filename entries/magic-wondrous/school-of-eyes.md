@@ -1,0 +1,37 @@
++++
+id = "ref/magic-wondrous/school-of-eyes"
+kind = "item"
+title = "School of Eyes"
+source_ids = ["ultimate-equipment"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "school_of_eyes", path = "json/magic_wondrous_slotless05.json" },
+]
+
+[fields]
+kind = "item"
+price = "5,000 gp"
+weight = "-"
+slot = "none"
+aura = "moderate divination"
+caster_level = "10th"
++++
+
+**Sources:** Ultimate Equipment pg 319\
+**Aura** moderate divination; **CL** 10th\
+**Slot** none; **Price** 5,000 gp; **Weight** -
+
+This item is a flask of syrupy fluid with an eyeball floating in it. When a creature drinks the
+entire flask, 1d4 rounds later he is [stunned](ref/misc/stunned) for 1 round as 1d4+1 floating fish
+with large eyes for heads crawl out of his flesh. Once these eye-fish free themselves, they hover
+near the drinker, always staying in the drinker's square, and otherwise function as the eyes from a
+_[prying eyes](ref/spell/prying-eyes)_ spell, except they are Tiny rather than Fine. As long as the
+drinker has at least three of the fish in his square, he gains a +10 competence bonus on sight-based
+[Perception](ref/skill/perception) checks. Every 1d6 × 10 minutes, 1d4+1 more eye-fish crawl out of
+his flesh, stunning him for 1 round each time. Each flask can produce up to 1d4+10 fish total; once
+this many have appeared, no more are created. The fish remain until they are destroyed or until 10
+hours pass from the time the flask was used.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[prying eyes](ref/spell/prying-eyes); **Cost** 2,500 gp

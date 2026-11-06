@@ -1,0 +1,24 @@
++++
+id = "ref/feat/shocking-amplification"
+kind = "feat"
+title = "Shocking Amplification"
+source_ids = ["magic-tactics-toolbox"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shocking_amplification", path = "json/feat14.json" },
+]
+
+[fields]
+kind = "feat"
+benefit = "Whenever you cast a spell with the electricity descriptor that targets one or more creatures, you can take a -1 penalty on attack rolls made with the spell and reduce the spell's saving throw DC by 1 to cause the target closest to you that is dealt electricity damage by the spell to become fatigued for 1 round. This cannot cause a creature that is already fatigued to become exhausted. You must choose to use this feat before making an attack roll or before your target attempts its saving throw. This feat has no effect on spells that neither allow a saving throw nor require an attack roll."
++++
+
+**Sources:** Magic Tactics Toolbox pg 9
+
+Your electricity spells tire their targets.\
+**Benefit:** Whenever you cast a spell with the electricity descriptor that targets one or more
+creatures, you can take a -1 penalty on attack rolls made with the spell and reduce the spell's
+saving throw DC by 1 to cause the target closest to you that is dealt electricity damage by the
+spell to become [fatigued](ref/misc/fatigued) for 1 round. This cannot cause a creature that is
+already fatigued to become [exhausted](ref/misc/exhausted). You must choose to use this feat before
+making an attack roll or before your target attempts its saving throw. This feat has no effect on
+spells that neither allow a saving throw nor require an attack roll.

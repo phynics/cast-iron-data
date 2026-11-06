@@ -1,0 +1,39 @@
++++
+id = "ref/magic-wondrous/explosion-pocket"
+kind = "item"
+title = "Explosion Pocket"
+source_ids = ["goblins-of-golarion"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "explosion_pocket", path = "json/magic_wondrous_slotless02.json" },
+]
+
+[fields]
+kind = "item"
+price = "3,000 gp"
+weight = "1/2 lb."
+slot = "none"
+aura = "faint evocation"
+caster_level = "1st"
++++
+
+**Sources:** Goblins of Golarion pg 29\
+**Aura** faint evocation; **CL** 1st\
+**Slot** none; **Price** 3,000 gp; **Weight** 1/2 lb.
+
+An explosion pocket looks like a cloth pouch just large enough to contain a Small or Medium
+humanoid's hand. When placed against a shirt, vest, jacket, trousers, or similar piece of clothing,
+this ragged green patch attaches to the clothing, creating a loose pocket. The pocket functions as a
+normal pocket, but once per day the pocket's wearer can, as a standard action by speaking a command
+word while his hand is in the pocket, cause the pocket to create a single vial of
+[alchemist's fire](ref/eq-weapon/alchemists-fire). If a vial of alchemist's fire is in the explosion
+pocket when it is commanded to create a vial of alchemist's fire, the pocket instead supercharges
+the existing vial within so that it inflicts double the normal fire damage a vial of alchemist's
+fire would normally inflict. An explosion pocket can be removed as a full-round action, allowing it
+to be placed on a different piece of clothing as the owner wishes. A vial of alchemist's fire
+created or supercharged by an explosion pocket reverts to a vial of inert bitter-tasting water 1
+minute after it is created or supercharged.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[burning hands](ref/spell/burning-hands); **Cost** 1,500 gp

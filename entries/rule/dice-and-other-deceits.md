@@ -1,0 +1,41 @@
++++
+id = "ref/rule/dice-and-other-deceits"
+kind = "rule"
+title = "Dice and Other Deceits"
+source_ids = ["horror-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "dice_and_other_deceits", path = "json/rules_campaign_types03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Horror Adventures pg 202
+
+Much of the structure of a Pathfinder game can seem like a foregone conclusion. But in a horror
+game, nothing need be sacred. Consider manipulating the fundamental activities of the game to keep
+the players off guard.
+
+**The Mystery Roll:** The GM asks a player to roll a d20 and makes a show of noting the result. When
+the player asks what the roll was for, the GM tells him not to worry about it. She might not need
+this roll for anything at all, but the players won't know that. This works particularly well for
+refocusing the attention of distracted players.
+
+**The Stolen Check:** The GM rolls a d20 and asks a player what his Perception modifier is. She
+notes the result. Repeat for the entire group - or not. This could just be a technique to make the
+players wonder if they've missed something, or it could be a legitimate hidden check (there are even
+several sorts of rolls that generally dictate that they are rolled by the GM). This trick works best
+when used in both ways throughout a game, leaving the players wondering about any given stolen
+check. As a variation, the GM might have the players roll 10 Perception checks at the start of the
+session and keep the results on hand. During the adventure, don't ask players to roll Perception
+checks, just reference the existing bank for results. That way the players won't know whether they
+rolled well and noticed all there is or poorly enough that they should search again.
+
+**Reconsider Game Aides:** Many Pathfinder adventures feature a variety of tools that encourage
+strategy and precision gaming. A GM could throw precision out the window. When vague horrors are
+reduced to pawns and squares, the fearfulness of the unknown withers. Instead, the GM might play
+faster and looser with game measurements, tracking player arrangements vaguely on whiteboards or in
+the imagination alone, erring in the PCs' favor in terms of range and movement whenever possible. It
+takes some experimentation, but GMs can find that players identify more intimately with characters
+in their heads than with miniatures on the game table.

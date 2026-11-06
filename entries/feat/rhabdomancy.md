@@ -1,0 +1,28 @@
++++
+id = "ref/feat/rhabdomancy"
+kind = "feat"
+title = "Rhabdomancy"
+source_ids = ["occult-origins"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "rhabdomancy", path = "json/feat13.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Knowledge (nature) 3 ranks, Survival 3 ranks."
+benefit = "You can perform the dowsing occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use dowsing one additional time per day."
++++
+
+**Sources:** Occult Origins pg 24
+
+You have mastered the art of casting sticks, rods, or arrows to uncover secrets and find lost
+things, gaining insight from the way these objects fall.\
+**Prerequisites:** Knowledge (nature) 3 ranks, Survival 3 ranks.\
+**Benefit:** You can perform the [dowsing](ref/skill/survival) occult skill unlock even if you can't
+use psychic magic. If you can cast psychic spells or have the
+[Psychic Sensitivity](ref/feat/psychic-sensitivity) feat, you can use dowsing one additional time
+per day.
+
+Spending 1 minute casting sticks prior to attempting a Survival check grants you a +2 insight bonus
+on the check. In addition, you can cast sticks or rods while casting a spell that locates a creature
+or object (including scrying effects) to increase the caster level of that spell by 1.

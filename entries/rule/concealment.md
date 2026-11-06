@@ -1,0 +1,54 @@
++++
+id = "ref/rule/concealment"
+kind = "rule"
+title = "Concealment"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "concealment", path = "json/rules_combat01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 196
+
+To determine whether your target has concealment from your ranged attack, choose a corner of your
+square. If any line from this corner to any corner of the target's square passes through a square or
+border that provides concealment, the target has concealment.
+
+When making a melee attack against an adjacent target, your target has concealment if his space is
+entirely within an effect that grants concealment. When making a melee attack against a target that
+isn't adjacent to you, use the rules for determining concealment from ranged attacks.
+
+In addition, some magical effects provide concealment against all attacks, regardless of whether any
+intervening concealment exists.
+
+**Concealment Miss Chance:** Concealment gives the subject of a successful attack a 20% chance that
+the attacker missed because of the concealment. Make the attack normally - if the attacker hits, the
+defender must make a miss chance d% roll to avoid being struck. Multiple concealment conditions do
+not stack.
+
+**Concealment and Stealth Checks:** You can use concealment to make a Stealth check. Without
+concealment, you usually need cover to make a Stealth check.
+
+**Total Concealment:** If you have line of effect to a target but not line of sight, he is
+considered to have total concealment from you. You can't attack an opponent that has total
+concealment, though you can attack into a square that you think he occupies. A successful attack
+into a square occupied by an enemy with total concealment has a 50% miss chance (instead of the
+normal 20% miss chance for an opponent with concealment).
+
+You can't execute an attack of opportunity against an opponent with total concealment, even if you
+know what square or squares the opponent occupies.
+
+**Ignoring Concealment:** Concealment isn't always effective. An area of dim lighting or darkness
+doesn't provide any concealment against an opponent with [darkvision](ref/rule/darkvision).
+Characters with [low-light vision](ref/rule/low-light-vision) can see clearly for a greater distance
+than other characters with the same light source. Although invisibility provides total concealment,
+sighted opponents may still make Perception checks to notice the location of an invisible character.
+An invisible character gains a +20 bonus on Stealth checks if moving, or a +40 bonus on Stealth
+checks when not moving (even though opponents can't see you, they might be able to figure out where
+you are from other visual or auditory clues).
+
+**Varying Degrees of Concealment:** Certain situations may provide more or less than typical
+concealment, and modify the miss chance accordingly.

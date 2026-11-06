@@ -1,0 +1,93 @@
++++
+id = "ref/npc/averaka-giant-slayer"
+kind = "creature"
+title = "Averaka Giant Slayer"
+source_ids = ["inner-sea-npc-codex"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "averaka_giant_slayer", path = "json/npcs7.json" },
+]
+
+[fields]
+kind = "creature"
++++
+
+**Averaka Giant Slayer**
+
+**Challenge rating:** 7
+
+**Sources:** Inner Sea NPC Codex pg 10\
+**XP** 3,200\
+Half-orc [ranger](ref/class/ranger) 8\
+CN Medium humanoid (human, orc)\
+**Init** +2; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +12
+
+### Defense
+
+**AC** 20, touch 13, flat-footed 18 (+7 armor, +1 deflection, +2 Dex)\
+**hp** 80 (8d10+32)\
+**Fort** +9, **Ref** +9, **Will** +4\
+**Defensive Abilities** orc ferocity
+
+### Offense
+
+**Speed** 20 ft.\
+**Melee** mwk falchion +13/+8 (2d4+6/18-20) or longspear +12/+7 (1d8+6/×3)\
+**Ranged** mwk composite longbow +11/+6 (1d8+4/×3)\
+**Special Attacks** favored enemy (giants +4, humans +2)\
+**Ranger Spells Prepared** (CL 5th; concentration +6)\
+_2nd_-[barkskin](ref/spell/barkskin)\
+_1st_-[entangle](ref/spell/entangle) (DC 12), [longstrider](ref/spell/longstrider)
+
+### Statistics
+
+**Str** 18, **Dex** 14, **Con** 14, **Int** 10, **Wis** 12, **Cha** 8\
+**Base Atk** +8; **CMB** +12; **CMD** 25\
+**Feats** [Deadly Aim](ref/feat/deadly-aim), [Endurance](ref/feat/endurance),
+[Improved Precise Shot](ref/feat/improved-precise-shot),
+[Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot),
+[Rapid Shot](ref/feat/rapid-shot), [Toughness](ref/feat/toughness)\
+**Skills** Climb +10, Heal +5, Intimidate +6, Knowledge (geography) +8, Knowledge (nature) +11,
+Perception +12, Ride +3, Stealth +10, Survival +12, Swim +5\
+**Languages** Common, Orc\
+**SQ** [favored terrain](ref/ability/favored-terrain) (cold +4, mountain +2), hunter's bond
+(companions), orc blood, swift tracker, track +4, weapon familiarity,
+[wild empathy](ref/ability/wild-empathy) +7, [woodland stride](ref/ability/woodland-stride)\
+**Combat Gear** +1 [flaming](ref/magic-enh/flaming) [arrows](ref/eq-weapon/arrow) (4), +1
+giant-[bane](ref/magic-enh/bane) arrows (5), scroll of
+[cure moderate wounds](ref/spell/cure-moderate-wounds), scroll of
+[resist energy](ref/spell/resist-energy), [acid](ref/eq-weapon/acid) (2),
+[alchemist's fire](ref/eq-weapon/alchemists-fire) (2); **Other Gear** +1
+[breastplate](ref/eq-armor/breastplate), [longspear](ref/eq-weapon/longspear), mwk
+[composite longbow](ref/eq-weapon/composite-longbow) with 30 arrows, mwk
+[falchion](ref/eq-weapon/falchion),
+[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
+[ring of protection +1](ref/magic-ring/ring-of-protection-1), [mistletoe](ref/eq-misc/mistletoe),
+[spell component pouch](ref/eq-misc/spell-component-pouch), 58 gp
+
+### Description
+
+On the isle of Flintyreach amid the Ironbound Archipelago of the Steaming Sea, half-orcs from across
+Avistan have built a community to call their own: Averaka. Though the inhabitants of Averaka have
+set aside the most self-destructive behaviors of their orc ancestors, they remain fierce and deadly
+warriors. Amid the mountains in the island's interior, however, lurk a great threat to this
+community: hill giants, ettins, and trolls, both in independent clans and under the sway of the hill
+giant war chief Gorgnak. Thus the half-orcs who call Averaka home have dedicated themselves to the
+eradication of their violent, monstrous neighbors. Some believe such channeling and focusing of
+their aggression represents the human side of the half-orcs winning out over the bloodthirsty
+instincts of their orc blood, though a few worry about where that aggression might be pointed next
+if they manage to defeat their giant enemies.
+
+While as proud as any Ulfen of the Linnorm Kings, the half-orcs of Averaka welcome anyone who shares
+their hate of giants and acknowledges their right to self-rule. A handful of dwarves and humans call
+Averaka home as well, but most inhabitants not of orc descent find the town's chaotic mix of customs
+unsettling.
+
+One of the easiest ways to arouse the ire of an Averaka giant slayer is by associating or consorting
+with giants and their kin. No allowance is given for supposedly friendly or tame giants, even
+benevolent cloud and storm giants. Beyond this, voicing any doubt about the wisdom of a half-orc
+community will also result in a tongue-lashing and often a harsh beating from any resident of
+Averaka who overhears.
+
+Would-be giant slayers from across Golarion make pilgrimages to Averaka to learn from the dedicated
+half-orcs there, though such tutelage generally lasts only a few months at the most unless the pupil
+decides to settle in Averaka and take up the residents' cause.

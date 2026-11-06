@@ -1,0 +1,50 @@
++++
+id = "ref/magic-artifact/baba-yagas-mortar-and-pestle"
+kind = "item"
+title = "Baba Yaga's Mortar and Pestle"
+source_ids = ["pathfinder-72-the-witch-queens-revenge"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "baba_yagas_mortar_and_pestle", path = "json/magic_artifact.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "50 lbs."
+slot = "none"
+aura = "strong transmutation"
+caster_level = "20th"
++++
+
+**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 62
+
+**Aura** strong transmutation; **CL** 20th\
+**Slot** none; **Price** -; **Weight** 50 lbs.
+
+This wooden mortar for grinding is 4 feet tall and 14 inches in diameter, and can hold up to 4 cubic
+feet of dry goods. Its pestle is about 8 feet long and carved of the same dense wood. It can be used
+as a weapon, functioning as a +1 [quarterstaff](ref/eq-weapon/quarterstaff). On command, the mortar
+and pestle shrink down small enough to fit in a belt pouch and weigh only 3 pounds. The mortar must
+be empty to shrink.
+
+The mortar and pestle can be commanded to grind any object placed inside; each round, the object
+takes 3d6 points of damage that bypasses [hardness](ref/umr/hardness). Any object reduced to 0 hit
+points in this manner is ground into powder. Magic items can attempt a DC 19 Fortitude save each
+round to avoid taking damage. Artifacts can't be destroyed in the mortar and pestle.
+
+The mortar is large enough to hold a single Medium creature, but it can enlarge to hold up to four
+Medium creatures or one Large creature. The mortar can be commanded to fly at a speed of 30 feet as
+[overland flight](ref/spell/overland-flight), for up to 8 hours per day. Using the pestle to steer
+the mortar grants a +10 bonus on Fly checks. Twice per day, the mortar can create a single-use
+[phase door](ref/spell/phase-door) that closes behind the mortar. [Baba Yaga](ref/monster/baba-yaga)
+can summon her mortar and pestle to fly to her from anywhere on the same planet, regardless of the
+commands of any creatures inside it.
+
+With the exception of using the pestle as a weapon, the mortar and pestle must be together to use
+the their abilities.
+
+### Destruction
+
+Baba Yaga's mortar and pestle are destroyed if they are used under the light of a moon that shines
+on three worlds to grind to powder the hipbone of a maiden, the ribcage of a mother, and the spine
+of a crone - all taken from the same person.

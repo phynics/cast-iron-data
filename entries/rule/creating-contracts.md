@@ -1,0 +1,37 @@
++++
+id = "ref/rule/creating-contracts"
+kind = "rule"
+title = "Creating Contracts"
+source_ids = ["book-of-the-damned"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "creating_contracts", path = "json/rules_rulesets01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Book of the Damned pg 203
+
+Once terms have been agreed to, a devil has to create the infernal contract. Contract devils have
+the easiest time of this, making use of their infernal contract ability to instantly generate such a
+document. Devils of demigod-level power can likewise instantly call tailor-made infernal contracts
+into being as though they also had the infernal contract ability, though the effects they can create
+prove more potent and variable. Other devils can also produce infernal contracts but might have to
+employ less immediate techniques.
+
+Barring any extraordinary circumstances, most devils with the
+[greater teleport](ref/spell/teleport-greater) ability know a place they can go to have an infernal
+contract created. This might involve opening a portal back to Hell, finding a contract devil lurking
+on the same mortal world, or other means. In any case, the devil can use this method to have an
+infernal contract made to meet its needs. However, doing so takes time. The Creation Time entry
+listed in each contract's description notes how long it takes for most common devils to have an
+infernal contract of that kind produced. This represents a combination of the devil's travel time,
+its influence in negotiating with other devils, the detail put into the contract's creation, and the
+time it takes to return. At the end of this period - unless the mortal has done something
+extraordinary to hide himself - the devil returns with a contract.
+
+Although most devils cannot instantly create an infernal contract, there are those that see the
+value of such an ability and develop the talent over ages of study. This exceptional training, which
+takes place deep within the Fallen Fastness of Dis, the sunken libraries of Stygia, or the other
+blasphemous vaults of Hell, manifests as the [Infernal Legist](ref/feat/infernal-legist) feat.

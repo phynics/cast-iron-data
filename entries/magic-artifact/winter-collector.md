@@ -1,0 +1,41 @@
++++
+id = "ref/magic-artifact/winter-collector"
+kind = "item"
+title = "Winter Collector"
+source_ids = ["pathfinder-72-the-witch-queens-revenge"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "winter_collector", path = "json/magic_artifact3.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "varies"
+slot = "none"
+aura = "strong conjuration and evocation"
+caster_level = "20th"
++++
+
+**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 68
+
+**Aura** strong conjuration and evocation; **CL** 20th\
+**Slot** none; **Price** -; **Weight** varies
+
+Winter collectors are always located in areas of severe cold, and are typically surrounded by thick
+snow or ice. A winter collector siphons a portion of the ambient cold weather and condenses it into
+concentrated cold energy, which the collector then beams like a signal across worlds to the winter
+receiver in the Royal Palace in Whitethrone. This energy then radiates out to the borders of
+Irrisen, keeping the weather in a perpetual wintry state. In addition, a winter collector functions
+as a permanent [gate](ref/spell/gate), allowing instant travel from the collector's location to the
+Royal Palace (but not in the other direction), even if the collector is located on the Material
+Plane.
+
+A winter collector radiates an aura of cold out to 50 feet. This aura deals 6d6 points of cold
+damage each round to creatures in this area. Creatures within 10 feet of the winter collector take
+12d6 points of cold damage each round. Half of this cold damage is not subject to being reduced by
+resistance or immunity to cold-based effects.
+
+### Destruction
+
+Each winter collector has a unique means of destruction, which is left for the GM to develop, though
+successfully destroying a winter collector should be a trial worthy of gaining a mythic tier.

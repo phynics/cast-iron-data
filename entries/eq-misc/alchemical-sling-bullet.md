@@ -1,0 +1,33 @@
++++
+id = "ref/eq-misc/alchemical-sling-bullet"
+kind = "item"
+title = "Alchemical sling bullet"
+source_ids = ["monster-codex"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "alchemical_sling_bullet", path = "json/equipment_misc.json" },
+]
+
+[fields]
+kind = "item"
+price = "5 gp"
+weight = "1 lb."
++++
+
+**Sources:** Monster Codex pg 117\
+**Price** 5 gp; **Weight** 1 lb.\
+**Category** Tools
+
+Used by [hobgoblin](ref/race/hobgoblin) [alchemists](ref/class/alchemist) to equip their comrades,
+these spherical glass vials can each be filled with 1 dose of an alchemical splash weapon, allowing
+them to be used as ammunition for a sling. On a hit, an alchemical sling bullet shatters, affecting
+the target with the alchemical solution within. This deals only the splash weapon's damage (if any),
+not the damage a sling bullet would normally deal. This attack resolves against the target's normal
+AC (rather than touch AC) as with a standard sling bullet, and uses the sling's range. An alchemical
+sling bullet does not deal splash damage to squares adjacent to the target. If an attack roll with
+an alchemical sling bullet misses, the bullet and its alchemical contents are destroyed, and do not
+risk detonating in another square.
+
+Filling an alchemical sling bullet is a standard action that provokes attacks of opportunity, and
+you must succeed at a DC 15 Craft (alchemy) or Sleight of Hand check to avoid spilling the
+alchemical item on yourself. On a failed check, the splash weapon explodes in your square as though
+you were targeted by the item (including any splash effects on adjacent squares).

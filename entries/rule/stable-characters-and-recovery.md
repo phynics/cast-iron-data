@@ -1,0 +1,56 @@
++++
+id = "ref/rule/stable-characters-and-recovery"
+kind = "rule"
+title = "Stable Characters and Recovery"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "stable_characters_and_recovery", path = "json/rules_combat01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 190
+
+On the character's next turn, after being reduced to negative hit points (but not dead), and on all
+subsequent turns, the character must make a DC 10 Constitution check to become stable. The character
+takes a penalty on this roll equal to his negative hit point total. A character that is stable does
+not need to make this check. A natural 20 on this check is an automatic success. If the character
+fails this check, he loses 1 hit point. An unconscious or dying character cannot use any special
+action that changes the initiative count on which his action occurs.
+
+Characters taking continuous damage, such as from an acid arrow or a bleed effect, automatically
+fail all Constitution checks made to stabilize. Such characters lose 1 hit point per round in
+addition to the continuous damage.
+
+You can keep a dying character from losing any more hit points and make him stable with a DC 15 Heal
+check. If any sort of healing cures the dying character of even 1 point of damage, he becomes stable
+and stops losing hit points.
+
+Healing that raises the dying character's hit points to 0 makes him conscious and disabled. Healing
+that raises his hit points to 1 or more makes him fully functional again, just as if he'd never been
+reduced to 0 or lower. A spellcaster retains the spellcasting capability she had before dropping
+below 0 hit points.
+
+A stable character who has been tended by a healer or who has been magically healed eventually
+regains consciousness and recovers hit points naturally. If the character has no one to tend him,
+however, his life is still in danger, and he may yet slip away.
+
+**Recovering with Help:** One hour after a tended, dying character becomes stable, the character
+must make a DC 10 Constitution check to become conscious. The character takes a penalty on this roll
+equal to his negative hit point total. Conscious characters with negative hit point totals are
+treated as [disabled](ref/rule/disabled-0-hit-points) characters. If the character remains
+unconscious, he receives another check every hour to regain consciousness. A natural 20 on this
+check is an automatic success. Even if unconscious, the character recovers hit points naturally. He
+automatically regains consciousness when his hit points rise to 1 or higher.
+
+**Recovering without Help:** A severely wounded character left alone usually dies. He has a small
+chance of recovering on his own. Treat such characters as those attempting to recover with help, but
+every failed Constitution check to regain consciousness results in the loss of 1 hit point. An
+unaided character does not recover hit points naturally. Once conscious, the character can make a DC
+10 Constitution check once per day, after resting for 8 hours, to begin recovering hit points
+naturally. The character takes a penalty on this roll equal to his negative hit point total. Failing
+this check causes the character to lose 1 hit point, but this does not cause the character to become
+unconscious. Once a character makes this check, he continues to heal naturally and is no longer in
+danger of losing hit points naturally.

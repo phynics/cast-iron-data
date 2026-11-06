@@ -1,0 +1,40 @@
++++
+id = "ref/magic-wondrous/shell-of-sending"
+kind = "item"
+title = "Shell of Sending"
+source_ids = ["pathfinder-124-city-in-the-deep"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shell_of_sending", path = "json/magic_wondrous_slotless05.json" },
+]
+
+[fields]
+kind = "item"
+price = "12,200 gp"
+weight = "-"
+slot = "none"
+aura = "moderate evocation"
+caster_level = "7th"
++++
+
+**Sources:** Pathfinder \#124: City in the Deep pg 56\
+**Aura** moderate evocation; **CL** 7th\
+**Slot** none; **Price** 12,200 gp; **Weight** -
+
+This conch shell measures only a few inches long and shimmers with a delicate pink color. Shells of
+sending always come in pairs, with each shell attuned to the other. If pairs are mixed up or lost, a
+shell of sending can be attuned to a new shell of sending in a process that takes 24 hours.
+
+Once per day, anyone holding a shell of sending can whisper up to 25 words into the shell. The
+sender's words emerge from the second shell, audible to anyone holding the attuned shell, as long as
+the receiver is on the same plane of existence. If the receiver wishes, she can send a return
+message of up to 25 words.
+
+Anyone eavesdropping on either sender or receiver must attempt a DC 14 Will saving throw. On a
+success, an eavesdropper can hear the speakers normally. On a failure, the speakers seem to be
+relaying gibberish and nonsense words to each other. Creatures who fail this saving throw by 5 or
+more are [deafened](ref/misc/deafened) for 1d4 minutes.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending);
+**Cost** 6,100 gp

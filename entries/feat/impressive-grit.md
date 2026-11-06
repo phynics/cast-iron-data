@@ -1,0 +1,32 @@
++++
+id = "ref/feat/impressive-grit"
+kind = "feat"
+title = "Impressive Grit"
+source_ids = ["weapon-masters-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "impressive_grit", path = "json/feat08.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Weapon Mastery"]
+prerequisites = "Base attack bonus +11, weapon training class feature with a ranged weapon."
+benefit = "Select one of the following gunslinger deeds: dead shot, startling shot, or targeting. You can perform the selected deed a number of times per day equal to your highest mental ability score modifier (Intelligence, Wisdom, or Charisma; minimum 1). You can use this deed with an appropriate ranged weapon. If you also have the selected deed as a class feature, reduce the number of grit points that you need to use it by 1, as per the Signature Deed feat."
+special = "You can select Impressive Grit up to three times. Each time you select it, choose a different gunslinger deed. A gunslinger can ignore the weapon training class feature prerequisite of Impressive Grit."
++++
+
+## Impressive Grit (Weapon Mastery)
+
+**Sources:** Weapon Master's Handbook pg 21
+
+Your mastery of ranged weapons allows you to perform impressive deeds.\
+**Prerequisites:** Base attack bonus +11, weapon training class feature with a ranged weapon.\
+**Benefit:** Select one of the following gunslinger deeds: [dead shot](ref/deed/dead-shot),
+[startling shot](ref/deed/startling-shot), or targeting. You can perform the selected deed a number
+of times per day equal to your highest mental ability score modifier (Intelligence, Wisdom, or
+Charisma; minimum 1). You can use this deed with an appropriate ranged weapon. If you also have the
+selected deed as a class feature, reduce the number of grit points that you need to use it by 1, as
+per the [Signature Deed](ref/feat/signature-deed) feat.\
+**Special:** You can select Impressive Grit up to three times. Each time you select it, choose a
+different gunslinger deed. A gunslinger can ignore the weapon training class feature prerequisite of
+Impressive Grit.

@@ -1,0 +1,61 @@
++++
+id = "ref/rule/other-worlds"
+kind = "rule"
+title = "Other Worlds"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "other_worlds", path = "json/rules_gm04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 164
+
+While solitary planets are common in our universe, why restrict yourself to one world? Try roughing
+in some other planets in your solar system; such worlds spawn strange beasts and give you entirely
+new campaign settings to explore. In creating these planets, remember that rocky worlds like Earth
+form close to the sun, and gas giants farther out.^[1](ref/rule/other-worlds#footnote-1)^ But that
+doesn't mean you can't have playable worlds all the way out to the system's edge; captured bodies
+like asteroids and planet-sized moons around gas giants make wonderful solid worlds. A full solar
+system lets you play with planetary characteristics that are likely too extreme for your base world,
+such as the following.
+
+**Tidal Lock:** A tidal lock is when a celestial body keeps the same side facing another body, such
+as Earth's moon with its visible face and mysterious "dark side." If a planet always kept its same
+face to the sun, one side might boil while the other froze. Would cultures live solely on the line
+between night and day? Would creatures and cultures evolve separately on the light and dark halves,
+and what would happen if they came into conflict?
+
+**Tidal Heating:** For tidally heated worlds, the pull of another gravitational field (such as that
+of another planet) warps the planet's shape, causing stress and friction to create massive
+outpourings of heat in the form of steam and lava.
+
+**Eccentric Orbit:** Some planets have eccentric, elliptical orbits that make their seasons
+drastically uneven. If your planet slingshots quickly around the sun and then passes back out into
+the darkness for a thousand-year winter, what sort of creatures and societies would evolve?
+
+**Orbital Interactions:** A planet that passes through a cloud of dust, comet tail, or asteroid belt
+at the same time every year might have anything from regular meteor showers to a rain of fire or
+even an extinction-level impact. Likewise, two planets passing close together in their respective
+orbits might offer a chance for interplanetary travel (both benign and destructive), communication,
+and so on.
+
+**Atmospheric Conditions:** On Venus, the atmosphere is so thick that the wind is like a brick wall
+slowly scraping across the landscape. How would characters survive on a world whose very air crushes
+them, or whose air is thinner than on the highest mountaintop?
+
+**Transient Object:** Perhaps a world is just passing through, an object pulled off-course by the
+sun but still bound for distant stars. What strange discoveries might it offer, and how would its
+residents treat the worlds it passes near, knowing they'll never be back this way again?
+
+**Dying Sun:** All things have their end, even the stars. Perhaps your sun is on its way out, and
+while your primary planet hasn't been affected, its neighbors are suffering. This might mean a
+society falling into anarchy as reduced light cripples its agriculture, or a race for escape as the
+red-giant sun reaches out to consume nearby worlds.
+
+###### ^1^ {#footnote-1}
+
+This generalization has come into question as more and more exoplanets (planets around other stars)
+have been discovered, but it's still a useful starting point.

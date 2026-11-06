@@ -1,0 +1,206 @@
++++
+id = "ref/monster/shalkeshka"
+kind = "creature"
+title = "Shalkeshka"
+source_ids = ["pathfinder-81-shifting-sands"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shalkeshka", path = "json/monsters38.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+subtypes = ["earth"]
+size = "large"
+alignment = "neutral"
+ac = "21/12/18"
+hp = "95~10d10+40"
+fortitude = "+11"
+reflex = "+10"
+will = "+3"
+melee = "bite +16 (1d8+7/19-20 plus grab), 2 claws +16 (1d8+7)"
+special_attacks = "burrowing charge~pit surge"
+special_qualities = "feeding, no breath"
+abilities = ["24", "17", "18", "2", "11", "5"]
++++
+
+_This creature's bulbous compound eyes peer in all directions as its twin mandibles twitch and
+gnash. Six legs, each ending in spade-like claws, support its bulk._
+
+**Shalkeshka**
+
+**Challenge rating:** 8
+
+**dv:** 60
+
+**Initiative:** +3
+
+**Size:** large
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +14
+
+**Sense:** Scent
+
+**source:** Pathfinder \#81: Shifting Sands/88
+
+**Subtype:** Earth
+
+**tremorsense:** 90
+
+**Experience points:** 4,800
+
+**Armor class:** 21/12/18
+
+**Fort:** +11
+
+**Hit points:** 95 (10d10+40)
+
+**Mod:** +3 Dex, +9 natural, -1 size
+
+**Ref:** +10
+
+**Will:** +3
+
+**Offense**
+
+**Speed:** 30 ft., burrow 30 ft.
+
+**Melee:** bite +16 (1d8+7/19-20 plus [grab](ref/umr/grab)), 2 claws +16 (1d8+7)
+
+**Rake:** 2 claws +16, 1d8+7
+
+**Reach:** 5
+
+**Space:** 10
+
+**Spec Att:** burrowing charge, pit surge
+
+**Statistics**
+
+**Ability scores:** Str 24, Dex 17, Con 18, Int 2, Wis 11, Cha 5
+
+**Base attack bonus:** +10
+
+**Combat maneuver bonus:** +18
+
+**Combat maneuver defense:** 31 (39 vs. trip)
+
+**Feats:** Combat Reflexes, Improved Critical (bite), Power Attack, Run, Skill Focus (Perception)
+
+**Skills:** Acrobatics +7, Climb +11, Perception +14
+
+**Special qualities:** feeding, [no breath](ref/umr/no-breath)
+
+**Ecology**
+
+**Environment:** temperate and warm deserts and plains
+
+**Organization:** solitary or pair
+
+**Treasure:** Incidental
+
+### Special Abilities
+
+**Burrowing Charge (Ex)** A shalkeshka can use the charge and run actions while burrowing.
+
+**Feeding (Ex)** As a free action while a shalkeshka is burrowed beneath the ground, it can go into
+a dormant state and leech nutrients from the soil. During this time, the shalkeshka regains hit
+points at a rate of 5 hit points per hour. While in this state, the creature can't move, doesn't
+have to eat or drink, and is considered flat-footed for the first full round of combat if
+interrupted from its dormancy.
+
+**Pit Surge (Ex)** A shalkeshka can burrow into dirt, sand, or loose soil to lie in ambush 30 feet
+beneath the surface. It monitors the area above it using [tremorsense](ref/umr/tremorsense),
+awaiting a victim's movement into the area. When it detects prey, the shalkeshka can surge to the
+surface as a standard action and make a single bite attack. This action creates a 30-foot-deep pit
+where the shalkeshka was laying in wait. All creatures standing in the area above must succeed at a
+DC 18 Reflex save to jump to safety in the nearest open space to the edge of the newly formed pit.
+Creatures that fail this Reflex save fall into the pit, taking damage as normal. The pit's walls
+have a climb DC of 25. The shalkeshka (along with any creature it may have grappled) can stay above
+ground by making a successful saving throw, or voluntarily fall back into the pit. The save DC is
+Dexterity-based.
+
+### Description
+
+A dangerous nuisance in northern Garund, a shalkeshka is a strange burrowing predator that inhabits
+fertile soil near rivers, oases, and (most destructively) farmland. This creature's anatomy is
+reminiscent of an insect or some sort of lizard, and when burrowing it tears into the earth with its
+claws, swimming through sand and soil. Since the creatures spend most of their time buried
+underground, their pale, nearly transparent skin is cool and clammy to the touch. Shalkeshkas feed
+on whatever creatures are unfortunate enough to tread the ground above them while they nest in the
+earth below. When fighting, a shalkeshka viciously grapples its victim with its mandibles, shredding
+its prey to pieces with its claws.
+
+Squat and powerfully built, a shalkeshka stands only 5 feet tall, but is 8 feet wide and weighs
+almost 2,500 pounds.
+
+Although shalkeshkas are predators, they have a unique ability to derive nutrition from the ground
+itself if unable to find prey. This serves the creatures well in the lands of northern Garund, where
+desert travelers are few and far between and the harsh sun and unforgiving terrain keep roaming
+fauna to a minimum. While burrowed, a shalkeshka can enter a state of hibernation wherein it can
+sustain itself by absorbing minerals from the soil. A shalkeshka absorbs nutrients through the tufts
+of hair distributed across its long body, each of which is capable of leeching valuable sustenance
+from the very ground. This method of feeding can sustain a shalkeshka for extended periods of
+time-anywhere from a few hours to weeks, or even years-without the need to hunt. A shalkeshka breaks
+its hibernation only when it senses prey or during the rare times it succumbs to the urge to
+reproduce.
+
+A shalkeshka's bristly hairs also serve as one of the creature's sensory organs, allowing it to
+sense subtle vibrations in the ground. Its compound eyes provide it with excellent vision, and the
+third eye on the center of its forehead enables it to see in even the darkest of lighting
+conditions. Its enhanced senses ensure that a shalkeshka remains a constant threat to those who
+intrude on its territory, regardless of time of day or whether its prey is above or below ground.
+
+A shalkeshka ambushes its prey with impressive speed, bursting from beneath the sand and snatching
+unwary foes with its mandibles. Once engaged in combat, a shalkeshka fights with unrestrained
+ferocity. When it encounters groups of prey while hunting, a shalkeshka burrows beneath the ground
+to stealthily follow them until a member splits off from the group. The shalkeshka then emerges,
+grabs the straggler, and dives back into the sand to devour its newly acquired meal. If unable to
+snag its target, a shalkeshka remains above ground until it has subdued or slain its prey. They are
+powerful creatures, but lack the intelligence to make strong tactical decisions when it comes to
+engaging a target. However, if the tide of battle turns against a shalkeshka, it doesn't hesitate to
+burrow away to safety.
+
+Shalkeshkas can live for over 300 years, though most of this time is spent hibernating underground.
+Shalkeshkas experience periods of fertility only a few times in their lives, during which they lay
+their eggs in hidden tunnels in the desert. Shalkeshkas stay near their eggs during the yearlong
+incubation period, sometimes even letting prey pass by untouched in order to conceal the eggs'
+location. In rare circumstances, however, a pair of shalkeshkas that are both about to lay their
+eggs will tolerate each other's presence, instinctually recognizing the need for extra defense
+during the process. Such mutual defenses are dangerous for other intruders in the region, as the two
+shalkeshkas can then work together to bring down larger prey.
+
+Once the young hatch, they emerge from their leathery eggs in a larval stage that lasts for a year,
+culminating in a cocoon stage. During their larva stage, shalkeshkas subsist solely on nutrients in
+the soil as their mature mouthparts have yet to form. Shalkeshkas feel little kinship with their
+broodmates and soon begin splitting off from the group. As the cocoon stage nears, the parent
+shalkeshkas leave the area, leaving the young to fend for themselves. Any shalkeshkas still living
+in close proximity to their broodmates when they reach adulthood often cannibalize their siblings in
+great burrowing clashes until only one or two shalkeshkas hunt in the immediate vicinity.
+
+### Habitat
+
+Many wandering shalkeshkas travel throughout the great deserts of Osirion, stopping only once they
+have claimed a lush territory for themselves. Though they can live in the deepest desert,
+shalkeshkas prefer territory with a source of water, for prey is more plentiful there, and while
+lying in wait enjoy the abundant nutrients in the soil; the creatures are notorious for setting
+ambushes near riverbanks or in oases. A single small oasis can sustain a shalkeshka for its entire
+life.
+
+When adult shalkeshkas encounter each other, violence soon follows. A shalkeshka that has claimed a
+territory defends it to the death against intruding shalkeshkas seeking to claim it; these vicious
+fights often leave both opponents injured. Shalkeshkas also frequently battle ankhegs, as they often
+share similar environments. Many a caravan has had to alter its path after happening upon a clash
+between these two burrowing beasts.
+
+These are not the only times a desert caravan must be watchful of shalkeshkas. The creatures grow
+most aggressive when far from fertile soil, and a train of packed camels and their riders driving
+across the desert serves as an enticing meal for shalkeshkas in nutrientpoor lands. These attacks
+inspired the Osirian saying "claimed by the shalkeshka," which is used to describe someone who has
+gone suddenly missing or a caravan contract that never pans out.

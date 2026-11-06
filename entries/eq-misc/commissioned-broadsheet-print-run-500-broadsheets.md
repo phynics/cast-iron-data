@@ -1,0 +1,31 @@
++++
+id = "ref/eq-misc/commissioned-broadsheet-print-run-500-broadsheets"
+kind = "item"
+title = "Commissioned broadsheet (print run (500 broadsheets))"
+source_ids = ["merchants-manifest"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "commissioned_broadsheet_print_run_500_broadsheets", path = "json/equipment_misc.json" },
+]
+
+[fields]
+kind = "item"
+price = "150 gp (print run (500 broadsheets)), 50 gp (setup and proof print)"
+weight = "- (print run (500 broadsheets)), - (setup and proof print)"
++++
+
+## Commissioned broadsheet
+
+**Sources:** Merchant's Manifest pg 5\
+**Price** 150 gp (print run (500 broadsheets)), 50 gp (setup and proof print); **Weight** - (print
+run (500 broadsheets)), - (setup and proof print)
+
+It takes 2 to 4 weeks for printers reproducing large images or those who have only engraved-plate
+printing presses to prepare the plate for a commissioned [broadsheet](ref/eq-misc/broadsheet).
+Printers with movable-type printing presses can prepare a text-only broadsheet in as little as 4
+hours. Once the setup is complete (which includes a proof print), the printer can produce up to 500
+copies of the broadsheet daily (about 60 per hour). A commissioned broadsheet can be used to spread
+a rumor requiring the author to attempt any necessary skill checks. The author takes a -8 penalty on
+these checks because the broadsheet cannot provide vocal or nonverbal cues, but if he's successful,
+spreading the rumor takes only 1d4 days (or 1 day, if smaller than a small town). If the broadsheets
+are delivered by trained criers or others attempting to spread the rumor, use the propaganda check
+result of either the author or the crier (whichever is higher) with a +2 bonus.

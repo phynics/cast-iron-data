@@ -1,0 +1,36 @@
++++
+id = "ref/rule/house-ruling-distractions"
+kind = "rule"
+title = "House-Ruling Distractions"
+source_ids = ["horror-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "house_ruling_distractions", path = "json/rules_campaign_types03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Horror Adventures pg 205
+
+Portable games, social media, and other hobbies vie for everyone's attention. A GM, though, is the
+arbiter of the rules, both those in the game books and in her own house rules. Consider setting a
+simple house rule: When at the game table, the group is playing Pathfinder - and nothing else.
+Phones are away, computers are off, other hobbies and distractions - even RPG-related ones like
+painting miniatures - are set aside. The GM might expand this to most food and drink as well since
+eating and the presence of food containers undermine immersion.
+
+There are a number of reasons to adopt such rules. The first is simple engagement. Some players say
+they can do two things at once, but if they're not focused on the game, they're not imagining the
+story, thinking in character, or noticing the atmosphere. The second is a matter of verisimilitude.
+The characters likely don't have electronic devices. It's easier for everyone to envision their
+fellow players as their characters if they're not engaged in activities that run counter to what's
+possible in the game world. The final reason is just a matter of courtesy. A GM puts thought and
+time into an adventure, and the other players invest a similar degree of consideration in developing
+their characters. Just as an audience would in any other storytelling medium, players should repay
+such efforts with their respectful attention.
+
+If including rules for what is and isn't allowed at a game table, the GM should make them clear
+before the game starts, possibly explaining why or showing players this section of text as
+reasoning. The goal here is to create as atmospheric and immersive an experience as possible, not to
+be a tyrant.

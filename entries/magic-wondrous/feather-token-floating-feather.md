@@ -1,0 +1,98 @@
++++
+id = "ref/magic-wondrous/feather-token-floating-feather"
+kind = "item"
+title = "Feather Token (Floating Feather)"
+source_ids = ["ultimate-equipment", "core-rulebook", "andoran-spirit-of-liberty", "inner-sea-combat", "pathfinder-society-primer"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "feather_token_floating_feather", path = "json/magic_wondrous_slotless02.json" },
+]
+
+[fields]
+kind = "item"
+price = "50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp (Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp (Campsite), 500 gp (Ram), 500 gp (Whip), 600 gp (Tar and Feathers), 1,000 gp (Siege Tower)"
+weight = "1 lb."
+slot = "-"
+aura = "varies"
+caster_level = "varies"
++++
+
+## Feather Tokens
+
+**Sources:** Ultimate Equipment pg 297, PRPG Core Rulebook pg 512, Andoran, Spirit of Liberty pg 26,
+Inner Sea Combat pg 59, Pathfinder Society Primer pg 24\
+**Aura** varies; **CL** varies\
+**Slot** -; **Price** 50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp
+(Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp
+(Campsite), 500 gp (Ram), 500 gp (Whip), 600 gp (Tar and Feathers), 1,000 gp (Siege Tower);
+**Weight** 1 lb.
+
+Each of these items is a small feather that has a power to suit a special need. The kinds of tokens
+are described below. Each token is usable once. A particular feather token has no specific features
+to identify it unless its magic aura is viewed - even tokens with identical powers can be wildly
+different in appearance.
+
+**Anchor:** A token that creates an anchor that moors a craft in water so as to render it immobile
+for up to 1 day.
+
+**Lance:** This token turns into a white-plumed +1 [lance](ref/eq-weapon/lance) for 1 minute. This
+token is often used when carrying a large weapon is illegal or impractical.
+
+**Fan:** A token that forms a huge flapping fan, causing a breeze of sufficient strength to propel
+one ship (about 25 mph). This wind is not cumulative with existing wind speed. The token can,
+however, be used to lessen existing winds, creating an area of relative calm or lighter winds (but
+wave size in a storm is not affected). The fan can be used for up to 8 hours. It does not function
+on land.
+
+**Sky Hook:** This token transforms into a huge disembodied eagle's talon
+([hardness](ref/umr/hardness) 5, hp 25) anchored wherever you activate it. The talon can support up
+to 1,000 pounds and persists for 1 day. The talon can be moved up to 10 feet with a DC 20 Strength
+check.
+
+**Bird:** A token that creates a small bird that can be used to deliver a small written message
+unerringly to a designated target. The token lasts as long as it takes to carry the message.
+
+**Catapult:** This token creates a [standard catapult](ref/eq-siegeengine/catapult-standard). The
+catapult disappears after 12 hours.
+
+**Tree:** A token that causes a great oak to spring into being (5-foot-diameter trunk, 60-foot
+height, 40-foot top diameter). This is an instantaneous effect.
+
+**Floating Feather:** This token can be attached to any creature up to 200 pounds, causing a pair of
+large wings to grow from the target and allowing her to fly (speed 30, average maneuverability) for
+1 minute. The token can be attached to an object of up to 200 pounds, which flies straight in a
+direction indicated by the creature who activates the feather unless the activator uses a move
+action to redirect its movement. The wings persist for 1 minute.
+
+**Swan Boat:** A token that forms a swan-like boat capable of moving on water at a speed of 60 feet.
+It can carry eight horses and gear, 32 Medium characters, or any equivalent combination. The boat
+lasts for 1 day.
+
+**Campsite:** This feather token can be used only once. It creates a fully functional campsite,
+including a tent suitable to house six Medium creatures, a campfire with enough dry wood to burn for
+24 hours, a modest wooden table with two benches suitable to seat three people each, and a hitching
+post for up to six steeds. The campsite remains for up to 24 hours before disappearing, leaving no
+trace except footsteps and refuse left behind by those using the site.
+
+**Ram:** This token creates a [Huge ram](ref/eq-siegeengine/ram-huge). The ram disappears after 24
+hours.
+
+**Whip:** A token that forms into a huge leather [whip](ref/eq-weapon/whip) and wields itself
+against any opponent desired just like a [dancing](ref/magic-enh/dancing) weapon. The weapon has a
++10 base attack bonus, does 1d6+1 points of nonlethal damage, has a +1 enhancement bonus on attack
+and damage rolls, and a makes a free [grapple](ref/rule/grapple) attack (with a +15 bonus on its
+combat maneuver checks) if it hits. The whip lasts no longer than 1 hour.
+
+**Tar and Feathers:** This token can be directed to float to any point within 60 feet and then burst
+into a mass of sticky white feathers that adheres to all creatures in a 10-foot radius. The clinging
+feathers affect creatures in the area as a [glitterdust](ref/spell/glitterdust) spell.
+
+**Siege Tower:** This token creates a [Huge siege tower](ref/eq-siegeengine/siege-tower-huge). The
+tower disappears after 1 hour.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[major creation](ref/spell/major-creation); **Cost** 25 gp (Anchor), 75 gp (Lance), 100 gp (Fan),
+100 gp (Sky Hook), 150 gp (Bird), 200 gp (Catapult), 200 gp (Tree), 225 gp (Floating Feather), 225
+gp (Swan Boat), 250 gp (Campsite), 250 gp (Ram), 250 gp (Whip), 300 gp (Tar and Feathers), 500 gp
+(Siege Tower)

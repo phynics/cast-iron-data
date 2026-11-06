@@ -1,0 +1,30 @@
++++
+id = "ref/feat/entreating-critical"
+kind = "feat"
+title = "Entreating Critical"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "entreating_critical", path = "json/feat05.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat", "Critical"]
+prerequisites = "Cha 15, Call Truce, Critical Focus, Persuasive, base attack bonus +11, Diplomacy 5 ranks."
+prerequisite_feats = ["ref/feat/call-truce", "ref/feat/critical-focus", "ref/feat/persuasive"]
+benefit = "Whenever you confirm a critical hit, the shock of the attack momentarily opens an opportunity to end hostilities with a quick entreaty. As an immediate action immediately after confirming the critical hit, you can attempt a Diplomacy check to improve the target's attitude as though you had spent 1 full round using the Call Truce feat. All other conditions and limitations of the Call Truce feat apply."
++++
+
+## Entreating Critical (Combat, Critical)
+
+**Sources:** Ultimate Intrigue pg 82
+
+Your critical hit allows you a chance to make your foes briefly see reason.\
+**Prerequisites:** Cha 15, [Call Truce](ref/feat/call-truce),
+[Critical Focus](ref/feat/critical-focus), [Persuasive](ref/feat/persuasive), base attack bonus +11,
+Diplomacy 5 ranks.\
+**Benefit:** Whenever you confirm a critical hit, the shock of the attack momentarily opens an
+opportunity to end hostilities with a quick entreaty. As an immediate action immediately after
+confirming the critical hit, you can attempt a Diplomacy check to improve the target's attitude as
+though you had spent 1 full round using the Call Truce feat. All other conditions and limitations of
+the Call Truce feat apply.

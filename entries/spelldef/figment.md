@@ -1,0 +1,34 @@
++++
+id = "ref/spelldef/figment"
+kind = "rule"
+title = "Figment"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "figment", path = "json/spell_definitions.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+## Figment (subschool of magic)
+
+**Sources:** PRPG Core Rulebook pg 210
+
+A figment spell creates a false sensation. Those who perceive the figment perceive the same thing,
+not their own slightly different versions of the figment. It is not a personalized mental
+impression. Figments cannot make something seem to be something else. A figment that includes
+audible effects cannot duplicate intelligible speech unless the spell description specifically says
+it can. If intelligible speech is possible, it must be in a language you can speak. If you try to
+duplicate a language you cannot speak, the figment produces gibberish. Likewise, you cannot make a
+visual copy of something unless you know what it looks like (or copy another sense exactly unless
+you have experienced it).
+
+Because figments and glamers are unreal, they cannot produce real effects the way that other types
+of illusions can. Figments and glamers cannot cause damage to objects or creatures, support weight,
+provide nutrition, or provide protection from the elements. Consequently, these spells are useful
+for confounding foes, but useless for attacking them directly.
+
+A figment's AC is equal to 10 + its size modifier.
+
+Figment is a subschool of [Illusion](ref/spelldef/illusion).

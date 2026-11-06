@@ -1,0 +1,35 @@
++++
+id = "ref/feat/vast-hatred"
+kind = "feat"
+title = "Vast Hatred"
+source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "vast_hatred", path = "json/feat17.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Gnome, hatred racial trait."
+benefit = "Select two creature types (and subtypes where appropriate) from the list of potential favored enemies from the ranger class ability. Your +1 attack bonus from the hatred racial trait applies to creatures of the selected types (and subtypes)."
+special = "You may take this feat more than once. Its benefits do not stack. Each time you select this feat, you select two additional creature types to which your hatred racial trait applies."
++++
+
+## Vast Hatred (Combat)
+
+**Sources:** Advanced Race Guide pg 37
+
+Your rage stretches beyond normal bounds.\
+**Prerequisites:** [Gnome](ref/race/gnome), hatred racial trait.\
+**Benefit:** Select two creature types (and subtypes where appropriate) from the list of potential
+[favored enemies](ref/ability/favored-enemy) from the ranger class ability. Your +1 attack bonus
+from the hatred racial trait applies to creatures of the selected types (and subtypes).\
+**Special:** You may take this feat more than once. Its benefits do not stack. Each time you select
+this feat, you select two additional creature types to which your hatred racial trait applies.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 135\
+You can spend 5 stamina points to designate a creature type (and subtype, if appropriate) from the
+Ranger Favored Enemies table. Your attack bonus from the hatred racial trait also applies to
+creatures of the selected type (and subtype, if appropriate) until the start of your next turn.

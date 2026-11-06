@@ -1,0 +1,57 @@
++++
+id = "ref/rule/inn-events"
+kind = "rule"
+title = "Inn Events"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "inn_events", path = "json/rules_subsystems03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 120
+
+|d%|Events|
+| --- | --- |
+|01-15|Talk of the town|
+|16-30|Food shortage|
+|31-55|Roll on the [Tavern Events](ref/rule/tavern-events) table|
+|56-75|Strange guest|
+|76-95|Theft|
+|96-100|Violence|
+
+**Food Shortage:** Business is booming, but your food and drink stores are depleted by this
+increased demand. You lose 1d4 points of Goods. If you still have Goods left after paying this cost,
+you gain 1 point of Influence; otherwise, you lose 1 point of Influence and the building takes a -5
+penalty on its next 1d6 checks to generate capital.
+
+**Strange Guest:** When a rapping at the front door awakes you from your slumber one stormy night,
+you find a shadowy, mysterious stranger on your Inn's stoop. There's a 50% chance this guest is just
+a wandering traveler seeking sanctuary from the foul weather, a 25% chance the guest brought you a
+gift in return for refuge (earning you your choice of 1d4 points of Goods or Influence), and a 25%
+chance the guest has violent intentions (in which case the GM should create a combat encounter
+suitable for your level).
+
+**Talk of the Town:** Your Inn is a beacon of safety and warmth, and the business you've been doing
+has earned you a growing reputation in the surrounding settlements. If you succeed at a DC 25
+Diplomacy or Perform check, you steer the rumors favorably to increase business, and for 2d6 days,
+the building gains a +10 bonus on its first check to generate capital each day.
+
+**Theft:** Your last guests stole property - items crucial to running the Inn. Until you pay 2d20 gp
+to replace these items, the building takes a -5 penalty on checks to generate capital.
+Alternatively, the GM may allow you to track down the thieves and reclaim your stolen property as an
+adventure encounter.
+
+**Violence:** There is a 60% chance that this is just a simple brawl in the common room, and a 40%
+chance that someone has attempted actual harm against your employees or guests. If it is a simple
+brawl, you can break it up with a successful DC 20 Diplomacy or Intimidate check or by spending 1
+point of Goods on the quarrelers. If it is a violent attack and you're present when it occurs, you
+can attempt to intercede (the GM should determine an appropriate combat encounter). Whether or not
+the violent attack is successful, the perpetrator must be dealt with. If you do nothing at all, you
+lose 1d4 points of Influence and 1d2 points of Labor as you lose frightened customers and employees.
+If you want the local authorities to take care of it, attempt a DC 20 Diplomacy or Intimidate check.
+Success means an investigation and arrest occur without any negative repercussions. Failure means
+you lose 1d4 points of Influence and 1 point of Labor. If you find and punish the perpetrator
+yourself (or hire someone to do so), you gain 1d4 points of Influence.

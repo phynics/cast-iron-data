@@ -1,0 +1,55 @@
++++
+id = "ref/spell/arcane-pocket"
+kind = "spell"
+title = "Arcane Pocket"
+source_ids = ["black-markets"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "arcane_pocket", path = "json/spells.json" },
+]
+
+[fields]
+kind = "spell"
+school = "conjuration"
+subschools = ["Creation"]
+levels = [
+  { class = "Arcanist", level = 1 },
+  { class = "Sorcerer", level = 1 },
+  { class = "Wizard", level = 1 },
+]
+casting_time = "1 standard action"
+components = "V, F (a pocket and a silver button)"
+range = "touch"
+effects = [
+  { label = "Effect", value = "extradimensional space up to 1 cu. ft./level" },
+]
+duration = "1 hour/level"
+saving_throw = "none"
+spell_resistance = "no"
++++
+
+::: statblock
+title = "Spell statistics"
+School: conjuration
+Level: 1: Arcanist, Sorcerer, Wizard
+Casting time: 1 standard action
+Components: V, F (a pocket and a silver button)
+Range: touch
+Duration: 1 hour/level
+Saving throw: none
+Spell resistance: no
+Effect: extradimensional space up to 1 cu. ft./level
+Subschool: Creation
+:::
+
+**Sources:** Black Markets pg 27
+
+With a touch, you conjure an extradimensional space inside a pouch or pocket. The pocket acts as a
+[bag of holding](ref/magic-wondrous/bag-of-holding), except it can hold only 10 pounds per caster
+level. Regardless of what is placed into the pocket, it weighs 3 pounds. Unlike a bag of holding,
+the pocket created by this ability cannot be overloaded or ruptured-any additional material simply
+spills out of the top-nor does it have any special interaction with other kinds of extradimensional
+spaces.
+
+An arcane pocket grants you a +1 bonus on Sleight of Hand checks to conceal its contents. The pocket
+becomes nonmagical, spilling all of its contents onto the ground unharmed, if it leaves your
+possession or you create a new arcane pocket.

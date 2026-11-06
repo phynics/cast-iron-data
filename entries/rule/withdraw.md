@@ -1,0 +1,30 @@
++++
+id = "ref/rule/withdraw"
+kind = "rule"
+title = "Withdraw"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "withdraw", path = "json/rules_combat01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 188
+
+Withdrawing from melee combat is a full-round action. When you withdraw, you can move up to double
+your speed. The square you start out in is not considered threatened by any opponent you can see,
+and therefore visible enemies do not get attacks of opportunity against you when you move from that
+square. Invisible enemies still get attacks of opportunity against you, and you can't withdraw from
+combat if you're blinded. You can't take a 5-foot step during the same round in which you withdraw.
+
+If, during the process of withdrawing, you move out of a threatened square (other than the one you
+started in), enemies get attacks of opportunity as normal.
+
+You may not withdraw using a form of movement for which you don't have a listed speed.
+
+Note that despite the name of this action, you don't actually have to leave combat entirely.
+
+**Restricted Withdraw:** If you are limited to taking only a standard action each round you can
+withdraw as a standard action. In this case, you may move up to your speed.

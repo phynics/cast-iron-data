@@ -1,0 +1,68 @@
++++
+id = "ref/spell/damnation-stride"
+kind = "spell"
+title = "Damnation Stride"
+source_ids = ["advanced-race-guide", "mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "damnation_stride", path = "json/spells3.json" },
+]
+
+[fields]
+kind = "spell"
+school = "conjuration"
+subschools = ["Teleportation"]
+descriptors = ["fire"]
+levels = [
+  { class = "Arcanist", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Summoner", level = 4 },
+  { class = "Unchained Summoner", level = 4 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 5 },
+]
+casting_time = "1 standard action"
+components = "V"
+range = "long (400 ft. + 40 ft./level)"
+effects = [
+  { label = "Target", value = "you (teleportation) and creatures within a 10-foot-radius burst (burst of flame) (see text)" },
+]
+duration = "instantaneous"
+saving_throw = "Reflex half, see text"
+spell_resistance = "no"
++++
+
+::: statblock
+title = "Spell statistics"
+School: conjuration
+Level: 4: Summoner, Unchained Summoner\
+5: Arcanist, Sorcerer, Witch, Wizard
+Casting time: 1 standard action
+Components: V
+Range: long (400 ft. + 40 ft./level)
+Duration: instantaneous
+Saving throw: Reflex half, see text
+Spell resistance: no
+Target: you (teleportation) and creatures within a 10-foot-radius burst (burst of flame) (see text)
+Subschool: Teleportation
+Descriptors: fire
+:::
+
+**Sources:** Advanced Race Guide pg 173
+
+> _[Tieflings](ref/race/tiefling) have access to the following spell._
+
+This spell functions like dimension door, except you leave behind a burst of fire. Choose one corner
+of your starting square. A 10-foot-radius burst of flame explodes from that corner the moment you
+leave, dealing 4d6 points of fire damage.
+
+### Mythic Damnation Stride
+
+**Sources:** Mythic Adventures pg 90\
+The burst of fire created reeks of sulfur and brimstone and also acts like stinking cloud (with the
+same duration as that spell and a separate Fortitude save).
+
+_Augmented (6th):_ If you expend two uses of mythic power, you bring one unwilling adjacent creature
+with you. You may bring additional creatures, but each must be adjacent to you and each requires you
+to expend one additional use of mythic power. These creatures must first attempt a saving throw
+against the burst of flame and stinking cloud, then can attempt a Will saving throw to resist being
+teleported with you.

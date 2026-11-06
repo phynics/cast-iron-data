@@ -1,0 +1,55 @@
++++
+id = "ref/spell/lily-pad-stride"
+kind = "spell"
+title = "Lily Pad Stride"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "lily_pad_stride", path = "json/spells6.json" },
+]
+
+[fields]
+kind = "spell"
+school = "transmutation"
+levels = [
+  { class = "Druid", level = 3 },
+  { class = "Hunter", level = 3 },
+]
+casting_time = "1 standard action"
+components = "V, S, M (a frog's leg)"
+range = "long (400 ft. + 40 ft./level)"
+effects = [
+  { label = "Effect", value = "trail of lily pads behind you" },
+]
+duration = "10 minutes/level (d); see text"
+saving_throw = "none"
+spell_resistance = "no"
++++
+
+::: statblock
+title = "Spell statistics"
+School: transmutation
+Level: 3: Druid, Hunter
+Casting time: 1 standard action
+Components: V, S, M (a frog's leg)
+Range: long (400 ft. + 40 ft./level)
+Duration: 10 minutes/level (d); see text
+Saving throw: none
+Spell resistance: no
+Effect: trail of lily pads behind you
+:::
+
+**Sources:** Advanced Player's Guide pg 232
+
+Your every footstep creates aquatic plants capable of supporting your weight and that of any
+creature of your size or smaller that is following you. These lily pads only appear when you cross
+water or other liquids which do not immediately destroy plants. You can walk across these liquid
+surfaces without any fear of stumbling (though if knocked prone, dragged under, or otherwise pulled
+off your feet you still sink in the liquid). For the duration of the spell, any creature of your
+size or smaller can attempt to follow you by making a DC 10 Acrobatics check every round. Each such
+check allows it to move at half its normal land speed. If the creature takes a -5 penalty on its
+check it can move at its normal speed. If a creature fails an Acrobatics check, or if a creature
+that's larger than you attempts to follow, it falls through, damaging the plants. Each time a
+creature falls through, all subsequent creatures take a cumulative -5 penalty on their Acrobatics
+checks when traveling across that particular stretch of plants. As you move, the lily pads disappear
+behind you once you pass beyond the spell's range. Otherwise, they remain until the spell's duration
+expires.

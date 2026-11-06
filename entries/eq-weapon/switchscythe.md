@@ -1,0 +1,28 @@
++++
+id = "ref/eq-weapon/switchscythe"
+kind = "item"
+title = "Switchscythe"
+source_ids = ["adventurers-armory-2", "gnomes-of-golarion"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "switchscythe", path = "json/equipment_weapons2.json" },
+]
+
+[fields]
+kind = "item"
+weight = "10 lbs."
++++
+
+**Sources:** Adventurer's Armory 2 pg 9, Gnomes of Golarion pg 23
+
+This scythe has a spring-loaded blade that folds down into the weapon's handle. Opening the scythe
+blade is a swift action, and closing it again is a standard action. You can use Bluff or Sleight of
+Hand to treat a closed switchscythe as a hidden weapon; the apparatus can be disguised with 1 minute
+of work, which grants a +5 bonus on such checks. This disguise is ruined when the weapon is opened
+and must be reapplied to hide the weapon again. Any effects that apply to a scythe also apply to a
+switchscythe.
+
+**Cost** 18 gp **Weight** 10 lbs.\
+**Damage** 1d6 (small), 2d4 (medium); **Critical** ×4; **Range** -; **Type** P or S; **Special**
+[trip](ref/misc/trip)\
+**Category** Two-Handed; **Proficiency** Exotic\
+**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy

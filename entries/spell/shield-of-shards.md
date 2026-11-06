@@ -1,0 +1,65 @@
++++
+id = "ref/spell/shield-of-shards"
+kind = "spell"
+title = "Shield Of Shards"
+source_ids = ["armor-masters-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shield_of_shards", path = "json/spells9.json" },
+]
+
+[fields]
+kind = "spell"
+school = "transmutation"
+levels = [
+  { class = "Bloodrager", level = 1 },
+  { class = "Cleric", level = 2 },
+  { class = "Inquisitor", level = 2 },
+  { class = "Magus", level = 2 },
+  { class = "Medium", level = 2 },
+  { class = "Oracle", level = 2 },
+  { class = "Paladin", level = 1 },
+  { class = "Shaman", level = 2 },
+  { class = "Warpriest", level = 2 },
+]
+casting_time = "1 standard action"
+components = "V, S, F (a shield)"
+range = "personal"
+effects = [
+  { label = "Target", value = "one shield you wield" },
+]
+duration = "1 round/level"
+saving_throw = "none"
+spell_resistance = "no"
++++
+
+::: statblock
+title = "Spell statistics"
+School: transmutation
+Level: 1: Bloodrager, Paladin\
+2: Cleric, Inquisitor, Magus, Medium, Oracle, Shaman, Warpriest
+Casting time: 1 standard action
+Components: V, S, F (a shield)
+Range: personal
+Duration: 1 round/level
+Saving throw: none
+Spell resistance: no
+Target: one shield you wield
+:::
+
+**Sources:** Armor Master's Handbook pg 23
+
+This defensive spell must be cast on a shield you are currently wielding, and fractures the shield
+into two shards, plus one additional shard per 2 caster levels (to a maximum of 12 shards at 20th
+level). While shield of shards is active, you lose your shield's bonus to AC as its broken pieces
+orbit you. On your turn, you can direct the shards to attack an adjacent opponent as a move action.
+The shards' attack bonus is equal to your caster level + the modifier for the ability score that
+determines your spell save DCs. The shards deal an amount of slashing and piercing damage equal to
+1d4 points + 1 point per shard beyond the first, and have a threat range of 19-20. They are
+considered magic weapons for the purpose of bypassing [damage reduction](ref/rule/damage-reduction).
+Additionally, if your shield is made from a special material (such as adamantine), the shards
+penetrate damage reduction and [hardness](ref/umr/hardness) as if they were weapons made from the
+same material.
+
+At the end of this spell's duration, the shards reform into their original shield form. You regain
+its shield bonus to AC, provided you still have a free hand in which to wield it. Otherwise, the
+shield falls at your feet in your square.

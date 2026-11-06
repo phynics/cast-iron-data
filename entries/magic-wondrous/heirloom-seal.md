@@ -1,0 +1,38 @@
++++
+id = "ref/magic-wondrous/heirloom-seal"
+kind = "item"
+title = "Heirloom Seal"
+source_ids = ["blood-of-the-ancients"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "heirloom_seal", path = "json/magic_wondrous_slotless03.json" },
+]
+
+[fields]
+kind = "item"
+price = "5,000 gp"
+weight = "1/2 lb."
+slot = "none"
+aura = "faint universal"
+caster_level = "1st"
++++
+
+**Sources:** Blood of the Ancients pg 22\
+**Aura** faint universal; **CL** 1st\
+**Slot** none; **Price** 5,000 gp; **Weight** 1/2 lb.
+
+This carved stone seal can be dipped into red ink and used to stamp a letter, proclamation, or other
+written document. Once a document has been sealed in this way, the writing upon it cannot be altered
+by either mundane or magical means. Spells that ruin text, change text, or render text unreadable
+cannot affect writing that has been sealed with an heirloom seal unless the caster succeeds at a
+caster level check (DC = 15 + the heirloom seal's owner's Hit Dice), nor can additional text be
+added with spells such as [explosive runes](ref/spell/explosive-runes) or
+[illusory script](ref/spell/illusory-script). Attempts at mundane forgery also slide off the sealed
+document in 2d4 rounds, reverting the writing to its original state. An heirloom seal cannot be used
+on runes or any form of magical writing. Each seal has its own unique mark to indicate its owner,
+which can be magically verified with either [detect magic](ref/spell/detect-magic) or
+[read magic](ref/spell/read-magic).
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[arcane mark](ref/spell/arcane-mark); **Cost** 2,500 gp

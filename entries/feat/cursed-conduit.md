@@ -1,0 +1,21 @@
++++
+id = "ref/feat/cursed-conduit"
+kind = "feat"
+title = "Cursed Conduit"
+source_ids = ["blood-of-the-coven"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "cursed_conduit", path = "json/feat04.json" },
+]
+
+[fields]
+kind = "feat"
+benefit = "You are not compelled to keep or use cursed items you touch so long as your character level is equal to or higher than the item's caster level. You are still affected by the afflictions of any cursed item you carry or use, but you gain a bonus on saving throws against curse effects equal to one-third the caster level of the highest-level cursed item you carry."
++++
+
+**Sources:** Blood of the Coven pg 20
+
+Something inside you soothes the lingering malice within corrupted magic items.\
+**Benefit:** You are not compelled to keep or use cursed items you touch so long as your character
+level is equal to or higher than the item's caster level. You are still affected by the afflictions
+of any cursed item you carry or use, but you gain a bonus on saving throws against curse effects
+equal to one-third the caster level of the highest-level cursed item you carry.

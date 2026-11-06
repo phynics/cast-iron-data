@@ -1,0 +1,103 @@
++++
+id = "ref/carried/core-rulebook/skills/linguistics"
+kind = "skill"
+title = "Linguistics"
+source_ids = ["core-rulebook"]
+section = ["Skills"]
+provenance = [
+  { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Skills/Linguistics", path = "core_rulebook/skill/linguistics.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+::: statblock
+Key Ability: Int
+Trained Only: Yes
+Armor Check Penalty: Yes
+:::
+
+_You are skilled at working with language, in both its spoken and written forms. You can speak
+multiple languages, and can decipher nearly any tongue given enough time. Your skill in writing
+allows you to create and detect forgeries as well._
+
+## Check {#check}
+
+You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic
+form. The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for
+intricate, exotic, or very old writing. If the check succeeds, you understand the general content of
+a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 Wisdom
+check to see if you avoid drawing a false conclusion about the text. (Success means that you do not
+draw a false conclusion; failure means that you do.)
+
+Both the Linguistics check and (if necessary) the Wisdom check are made secretly by the GM, so that
+you can't tell whether the conclusion you draw is true or false.
+
+### Condition {#condition}
+
+|Condition|Linguistics Check Modifier|
+| --- | --- |
+|Type of document unknown to reader|–2|
+|Type of document somewhat known to reader|+0|
+|Type of document well known to reader|+2|
+|Handwriting not known to reader|–2|
+|Handwriting somewhat known to reader|+0|
+|Handwriting intimately known to reader|+2|
+|Reader only casually reviews the document|–2|
+|Document contradicts orders or knowledge|+2|
+
+### Create or Detect Forgeries {#create-or-detect-forgeries}
+
+Forgery requires writing materials appropriate to the document being forged. To forge a document on
+which the handwriting is not specific to a person, you need only to have seen a similar document
+before, and you gain a +8 bonus on your check. To forge a signature, you need an autograph of that
+person to copy, and you gain a +4 bonus on the check. To forge a longer document written in the hand
+of some particular person, a large sample of that person's handwriting is needed.
+
+The Linguistics check is made secretly, so that you're not sure how good your forgery is. As with
+Disguise, you don't make a check until someone examines the work. Your Linguistics check is opposed
+by the Linguistics check of the person who examines the document to verify its authenticity. The
+examiner gains modifiers if any of the conditions are listed on the table above.
+
+### Learn a Language {#learn-a-language}
+
+Whenever you put a rank into this skill, you learn to speak and read a new language. Common
+languages (and their typical speakers) include the following.
+
+- Abyssal (demons and other chaotic evil outsiders)
+- Aklo (derros, inhuman or otherworldly monsters, evil fey)
+- Aquan (aquatic creatures, water-based creatures)
+- Auran (flying creatures, air-based creatures)
+- Celestial (angels and other good outsiders)
+- Common (humans and the core races from Races)
+- Draconic (dragons, reptilian humanoids)
+- Druidic (druids only)
+- Dwarven (dwarves)
+- Elven (elves, half-elves)
+- Giant (cyclopses, ettins, giants, ogres, trolls)
+- Gnome (gnomes)
+- Goblin (bugbears, goblins, hobgoblins)
+- Gnoll (gnolls)
+- Halfling (halflings)
+- Ignan (fire-based creatures)
+- Infernal (devils and other lawful evil outsiders)
+- Orc (orcs, half-orcs)
+- Sylvan (centaurs, fey creatures, plant creatures, unicorns)
+- Terran (earth-based creatures)
+- Undercommon (drow, duergar, morlocks, svirfneblin)
+
+## Action {#action}
+
+Varies. Deciphering a page of ordinary text takes 1 minute (10 consecutive rounds). Creating a
+forgery can take anywhere from 1 minute to 1d4 minutes per page. Detecting a forgery using
+Linguistics takes 1 round of examination per page.
+
+## Try Again {#try-again}
+
+Yes.
+
+## Special {#special}
+
+You must be trained to use this skill, but you can always attempt to read archaic and strange forms
+of your own racial bonus languages. In addition, you can also always attempt to detect a forgery.

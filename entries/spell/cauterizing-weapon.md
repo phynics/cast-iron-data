@@ -1,0 +1,55 @@
++++
+id = "ref/spell/cauterizing-weapon"
+kind = "spell"
+title = "Cauterizing Weapon"
+source_ids = ["pathfinder-society-primer"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "cauterizing_weapon", path = "json/spells2.json" },
+]
+
+[fields]
+kind = "spell"
+school = "transmutation"
+levels = [
+  { class = "Arcanist", level = 3 },
+  { class = "Bard", level = 2 },
+  { class = "Hunter", level = 2 },
+  { class = "Magus", level = 2 },
+  { class = "Ranger", level = 2 },
+  { class = "Red Mantis Assassin", level = 3 },
+  { class = "Skald", level = 2 },
+  { class = "Sorcerer", level = 3 },
+  { class = "Wizard", level = 3 },
+]
+casting_time = "1 standard action"
+components = "V, S, M (a gobbet of melted wax)"
+range = "close (25 ft. + 5 ft./2 levels)"
+effects = [
+  { label = "Target", value = "one weapon or 50 projectiles, all of which must be together at the time of casting" },
+]
+duration = "1 minute/level"
+saving_throw = "Will negates (harmless) (object)"
+spell_resistance = "yes (harmless) (object)"
++++
+
+::: statblock
+title = "Spell statistics"
+School: transmutation
+Level: 2: Bard, Hunter, Magus, Ranger, Skald\
+3: Arcanist, Red Mantis Assassin, Sorcerer, Wizard
+Casting time: 1 standard action
+Components: V, S, M (a gobbet of melted wax)
+Range: close (25 ft. + 5 ft./2 levels)
+Duration: 1 minute/level
+Saving throw: Will negates (harmless) (object)
+Spell resistance: yes (harmless) (object)
+Target: one weapon or 50 projectiles, all of which must be together at the time of casting
+:::
+
+**Sources:** Pathfinder Society Primer pg 14
+
+You infuse a weapon with faint but pernicious energy that stymies accelerated healing. Damage dealt
+by the weapon or ammunition is treated as acid, cold, electricity, and fire, but only for the
+purpose of negating a creature's regeneration. The weapon is also treated as silver and cold iron at
+8th level and is treated as chaotic, evil, good, and lawful at 11th level for the purpose of
+negating regeneration.

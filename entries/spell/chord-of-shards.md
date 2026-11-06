@@ -1,0 +1,52 @@
++++
+id = "ref/spell/chord-of-shards"
+kind = "spell"
+title = "Chord of Shards"
+source_ids = ["ultimate-magic", "mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "chord_of_shards", path = "json/spells2.json" },
+]
+
+[fields]
+kind = "spell"
+school = "evocation"
+levels = [
+  { class = "Bard", level = 1 },
+  { class = "Skald", level = 1 },
+]
+casting_time = "1 standard action"
+components = "V, S"
+range = "15 ft."
+effects = [
+  { label = "Area", value = "cone-shaped burst" },
+]
+duration = "instantaneous"
+saving_throw = "Reflex negates"
+spell_resistance = "no"
++++
+
+::: statblock
+title = "Spell statistics"
+School: evocation
+Level: 1: Bard, Skald
+Casting time: 1 standard action
+Components: V, S
+Range: 15 ft.
+Duration: instantaneous
+Saving throw: Reflex negates
+Spell resistance: no
+Area: cone-shaped burst
+:::
+
+**Sources:** Ultimate Magic pg 211
+
+During your bardic performance, you can strike a chord whose notes transform into a shower of razor
+sharp, crystalline shards. The shards deal 2d6 points of piercing damage to all creatures caught in
+the area of effect.
+
+### Mythic Chord of Shards
+
+**Sources:** Mythic Adventures pg 88\
+The damage dealt increases to 2d8 points of piercing damage and bypasses all
+[damage reduction](ref/rule/damage-reduction). Any creature damaged by the shards takes 1d8 points
+of sonic damage.

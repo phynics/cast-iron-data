@@ -1,0 +1,106 @@
++++
+id = "ref/rule/simplified-spellcasting-rules"
+kind = "rule"
+title = "Simplified Spellcasting Rules"
+source_ids = ["pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "simplified_spellcasting_rules", path = "json/rules_opt_magic01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Pathfinder Unchained pg 144
+
+To use simplified spellcasting, find the appropriate progression table for your class (or the table
+for a class that normally has the same spell progression as your class) and consult the row for your
+caster level. The 3 highest spell levels in the row each have a listed number indicating spells per
+day. Prepare these spells each day as you normally would; you still gain bonus spells per day for
+those levels if you have a high enough ability score. The letter "P" appears in the columns of all
+other available spell levels (except level 0) to indicate lower-level spells that are cast using
+your class's spell pool.
+
+Each day, you can spontaneously cast a number of lower-level spells from your class's spell list
+equal to the number listed for your class level in the Pool column of the table. The level of spell
+doesn't matter (as long as it's one of the levels that uses your pool), so if you could cast five
+spells from your pool per day, it wouldn't matter if you cast five 1st-level spells, five 2nd-level
+spells, or a mix of the two. A spell cast using slots from your spell pool must still be on your
+spell list or in your spellbook, just as it would need to be if you were preparing the spell. It
+also must meet any other restrictions imposed by your class or other abilities, such as restrictions
+on casting spells of an opposing alignment. The slots in your spell pool refresh after 8 hours of
+rest, and any effect that prevents you from preparing spells also prevents you from refreshing your
+spell pool. Your pool increases if you have a high spellcasting ability modifier, similar to how you
+gain bonus spells in slots you prepare. Add a number of spells to your pool equal to 1/4 the ability
+score modifier of the ability score you would normally use to calculate your number of bonus spells
+per day.
+
+If your class grants bonus spells that are selected from an extremely limited number of options
+(such as domain spells, spirit spells, or similar bonus spells), you gain those spells separately
+from your pool. If your class grants bonus spells from a somewhat limited list (such as wizards'
+specialty school spells), when you gain a pool, you gain one additional slot in your spell pool each
+day that can be used only to cast spells of that type, and at 13th level you gain a second
+additional slot with the same restriction.
+
+For example, a 13th-level necromancer with an Intelligence score of 26 has a pool of five spells -
+three for being a 13th-level wizard and two for his high Intelligence (a +8 Intelligence modifier
+divided by 4) - as well as two additional spells per day that must be from the necromancy school. He
+could use the pool to cast his 1st- to 4th-level spells, but would still need to prepare his 5th- to
+7th-level spells.
+
+**Expending Multiple Spell Slots:** If you have a class ability that requires expending multiple
+spell slots, such as a [battle oracle's combat healer revelation](ref/mystery/battle) or a wizard's
+opposition school, you must expend the appropriate number of slots from your spell pool to use the
+ability. For instance, if the 13th-level necromancer in the example above has conjuration as an
+opposition school, he could expend two slots from his spell pool to cast
+[summon monster II](ref/spell/summon-monster-2).
+
+### Table 4-1: Magus or Warpriest Spells per Day
+
+|Level|0|1st|2nd|3rd|4th|5th|6th|Pool|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|1st|3|1|-|-|-|-|-|-|
+|2nd|4|2|-|-|-|-|-|-|
+|3rd|4|3|-|-|-|-|-|-|
+|4th|4|3|1|-|-|-|-|-|
+|5th|4|4|2|-|-|-|-|-|
+|6th|5|4|3|-|-|-|-|-|
+|7th|5|4|3|1|-|-|-|-|
+|8th|5|4|4|2|-|-|-|-|
+|9th|5|5|4|3|-|-|-|-|
+|10th|5|P|4|3|1|-|-|1|
+|11th|5|P|4|4|2|-|-|1|
+|12th|5|P|5|4|3|-|-|1|
+|13th|5|P|P|4|3|1|-|3|
+|14th|5|P|P|4|4|2|-|3|
+|15th|5|P|P|5|4|3|-|3|
+|16th|5|P|P|P|4|3|1|4|
+|17th|5|P|P|P|4|4|2|4|
+|18th|5|P|P|P|5|4|3|4|
+|19th|5|P|P|P|5|5|4|4|
+|20th|5|P|P|P|5|5|5|4|
+
+### Table 4-2: Cleric, Druid, Shaman, Witch, or Wizard Spells per Day
+
+|Level|0|1st|2nd|3rd|4th|5th|6th|7th|8th|9th|Pool|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|1st|3|1|-|-|-|-|-|-|-|-|-|
+|2nd|4|2|-|-|-|-|-|-|-|-|-|
+|3rd|4|2|1|-|-|-|-|-|-|-|-|
+|4th|4|3|2|-|-|-|-|-|-|-|-|
+|5th|4|3|2|1|-|-|-|-|-|-|-|
+|6th|4|3|3|2|-|-|-|-|-|-|-|
+|7th|4|P|3|2|1|-|-|-|-|-|1|
+|8th|4|P|3|3|2|-|-|-|-|-|1|
+|9th|4|P|P|3|2|1|-|-|-|-|2|
+|10th|4|P|P|3|3|2|-|-|-|-|2|
+|11th|4|P|P|P|3|2|1|-|-|-|2|
+|12th|4|P|P|P|3|3|2|-|-|-|2|
+|13th|4|P|P|P|P|3|2|1|-|-|3|
+|14th|4|P|P|P|P|3|3|2|-|-|3|
+|15th|4|P|P|P|P|P|3|2|1|-|4|
+|16th|4|P|P|P|P|P|3|3|2|-|4|
+|17th|4|P|P|P|P|P|P|3|2|1|5|
+|18th|4|P|P|P|P|P|P|3|3|2|5|
+|19th|4|P|P|P|P|P|P|4|3|3|5|
+|20th|4|P|P|P|P|P|P|4|4|4|5|

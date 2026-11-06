@@ -1,0 +1,30 @@
++++
+id = "ref/rule/scheme-for-an-upcoming-adventure"
+kind = "rule"
+title = "Scheme for an Upcoming Adventure"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "scheme_for_an_upcoming_adventure", path = "json/rules_subsystems02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 87
+
+You can use downtime to prepare for an upcoming adventure or event. For example, if you know you
+have to crash the baron's fancy party in 2 days, you can spend downtime watching the baron's manor,
+investigating what clothing the servants will wear, and finding out which important guests are
+attending. This works like
+[spending capital to boost checks](ref/rule/spend-capital-to-boost-checks), except you must spend 1
+day of downtime, and each Good, Influence, Labor, or Magic you spend toward this purpose gives you a
++2 bonus on one skill check (maximum +6). As with the spend capital option, the GM decides if your
+approach is reasonable for the check you're attempting. The bonus from this activity stacks with
+that from the spend capital to boost checks option (maximum +10 total). This bonus lasts for one
+check.
+
+For example, by spending 1 day of downtime and 1 point of Goods, you gain an excellent understanding
+of the liveried servants' uniforms and add 2 to your Disguise check to disguise yourself as one of
+them. By spending 1 day of downtime and 1 point of Influence, you learn what famous trapsmith
+constructed the baron's vault and add 2 to your Disable Device check to open it.

@@ -1,0 +1,47 @@
++++
+id = "ref/magic-wondrous/corsairs-coffer"
+kind = "item"
+title = "Corsair's Coffer"
+source_ids = ["lost-treasures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "corsairs_coffer", path = "json/magic_wondrous_slotless02.json" },
+]
+
+[fields]
+kind = "item"
+price = "24,000 gp"
+weight = "250 lbs."
+slot = "none"
+aura = "moderate transmutation"
+caster_level = "11th"
++++
+
+**Sources:** Lost Treasures pg 13\
+**Aura** moderate transmutation; **CL** 11th\
+**Slot** none; **Price** 24,000 gp; **Weight** 250 lbs.
+
+This huge-sized lacquered chest is bound in gold-plated steel, with three hasps for securing locks
+and spade-shaped feet. The chest is airtight when closed, and can be commanded to bury itself in
+dirt, loose soil, or sand. Once per day, the chest can burrow down between 10 and 30 feet. The
+process takes 1 minute for every 10 feet the chest travels. The chest stops digging once it reaches
+the desired depth, if it encounters solid stone, or if its path is blocked by any other obstruction.
+A buried chest can be commanded to dig back to the surface by a creature standing within 5 feet of
+the location beneath which it buried itself. The chest doesn't leave a usable tunnel, nor does it
+dig any direction other than down or back up.
+
+The chest opens into an extradimensional space: its inside is larger than its outside dimensions.
+This allows the chest to hold a large volume of material, to a maximum of 3,000 pounds and 500 cubic
+feet. The contents of the chest don't change its weight. Any effort to overload the chest fails, and
+items must be drawn from the chest intentionally; it's not possible to tip the chest over and spill
+its contents. Retrieving a specific item is a full-round action. As with the
+_[secret chest](ref/spell/secret-chest)_ spell, magic items placed inside a corsair's coffer don't
+offer any benefit to characters carrying it. The chest is treated as a
+[bag of holding](ref/magic-wondrous/bag-of-holding) for the purpose of determining what happens if
+placed in another extradimensional or non-dimensional space. There's enough air for living creatures
+placed within the chest to survive for 20 minutes, after which time they begin to
+[suffocate](ref/rule/suffocation).
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[move earth](ref/spell/move-earth), [secret chest](ref/spell/secret-chest); **Cost** 12,000 gp

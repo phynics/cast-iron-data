@@ -1,0 +1,43 @@
++++
+id = "ref/magic-wondrous/guiding-scarab"
+kind = "item"
+title = "Guiding Scarab"
+source_ids = ["ultimate-wilderness"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "guiding_scarab", path = "json/magic_wondrous_neck.json" },
+]
+
+[fields]
+kind = "item"
+price = "13,000 gp"
+weight = "-"
+slot = "neck"
+aura = "strong divination"
+caster_level = "12th"
++++
+
+**Sources:** Ultimate Wilderness pg 251\
+**Aura** strong divination; **CL** 12th\
+**Slot** neck; **Price** 13,000 gp; **Weight** -
+
+This golden scarab beetle is a boon to wilderness travelers and those seeking long-lost places. The
+wearer gains a +5 competence bonus on [Knowledge (geography)](ref/skill/knowledge-geography) checks
+and on [Survival](ref/skill/survival) checks to avoid getting lost, and she can always correctly
+read the labels and legend of any map she examines, as well as signposts and similar way markers, as
+if using [comprehend languages](ref/spell/comprehend-languages). Once per week, the wearer can
+concentrate for 10 minutes to gain insight about her overland travels to come within the next week,
+as if casting [divination](ref/spell/divination).
+
+As a full-round action, the wearer can visualize or name a specific location and release the guiding
+scarab to fly ahead of her like a glowing golden beacon, showing its owner the direction to the
+destination as if she had cast _[find the path](ref/spell/find-the-path)._ While following the
+guiding scarab, its owner (and any mount she rides) and up to four other allies she designates when
+releasing the scarab gain the benefits of _[tireless pursuit](ref/spell/tireless-pursuit)._ When the
+_[find the path](ref/spell/find-the-path)_ effect ends, the guiding scarab crumbles to dust.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have 5 ranks in
+Knowledge (geography), [find the path](ref/spell/find-the-path),
+[know direction](ref/spell/know-direction), [tireless pursuers](ref/spell/tireless-pursuers);
+**Cost** 6,500 gp

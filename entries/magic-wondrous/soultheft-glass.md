@@ -1,0 +1,54 @@
++++
+id = "ref/magic-wondrous/soultheft-glass"
+kind = "item"
+title = "Soultheft Glass"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "soultheft_glass", path = "json/magic_wondrous_slotless05.json" },
+]
+
+[fields]
+kind = "item"
+price = "33,000 gp"
+weight = "1 lb."
+slot = "none"
+aura = "moderate necromancy"
+caster_level = "9th"
++++
+
+**Sources:** Occult Adventures pg 262\
+**Aura** moderate necromancy; **CL** 9th\
+**Slot** none; **Price** 33,000 gp; **Weight** 1 lb.
+
+The wielder of this hand-sized, fine glass mirror can view another's reflection in the mirror to
+capture a portion of that creature's soul. Doing so requires the wielder to avert his eyes as if
+defending against a [gaze](ref/umr/gaze) attack so that he views the creature only by its
+reflection, and then take a standard action that provokes an attack of opportunity. This imposes 1
+temporary [negative level](ref/rule/energy-drain-and-negative-levels) on the creature reflected
+(Fortitude DC 16 negates). A soultheft glass can hold no more than three portions of a creature's
+soul, and can't contain portions from more than one creature's soul at a time. When the glass is at
+full capacity, attempts to steal additional soul portions fail. While the mirror retains at least
+one soul portion, its possessor receives a +1 luck bonus on ability checks, saving throws, and skill
+checks.
+
+The wielder can query the soul portions trapped within, in effect questioning echoed memories of the
+target creature. This works as _[call spirit](ref/spell/call-spirit),_ except the creature doesn't
+need to be dead. The wielder can ask a number of questions per day equal to the number of soul
+portions in the glass.
+
+Temporary negative levels bestowed by a soultheft glass never become permanent. The victim can
+attempt a DC 16 Fortitude save to remove each negative level every 24 hours. Success removes that
+negative level and frees one soul portion held within the glass. Any other method of removing a
+negative level (such as [restoration](ref/spell/restoration)) also frees a soul portion from the
+glass.
+
+Once it imposes a temporary negative level on a creature, a soultheft glass shows a ghostly
+reflection of that creature (though not any information about its surroundings) until all soul
+portions have been returned. If the victim dies, its soul portions fade after 24 hours. As a
+standard action, the mirror's wielder can release all soul portions, which also removes the victim's
+negative levels.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[call spirit](ref/spell/call-spirit), [enervation](ref/spell/enervation); **Cost** 16,500 gp

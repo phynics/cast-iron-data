@@ -1,0 +1,33 @@
++++
+id = "ref/feat/voice-of-the-sibyl"
+kind = "feat"
+title = "Voice of the Sibyl"
+source_ids = ["ultimate-magic", "mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "voice_of_the_sibyl", path = "json/feat17.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Voice of the Sibyl."
+benefit = "You gain a +1 bonus on all Bluff, Diplomacy, and Perform (oratory) skill checks for every 3 tiers you possess. This bonus stacks with the bonus from Voice of the Sibyl. If you have 10 or more ranks in at least two of these skills, gain a +2 bonus to the DC of any language-dependent spell you cast."
++++
+
+**Sources:** Ultimate Magic pg 159
+
+Your voice is strangely compelling.\
+**Prerequisites:** Cha 15.\
+**Benefit:** You get a +1 bonus on all Bluff, Diplomacy, and Perform (oratory) skill checks. If you
+have 10 or more ranks in one of these skills, the bonus increases to +3 for that skill. You do not
+get these bonuses if you do not use your voice when using the skill (such as using Bluff to
+[feint](ref/rule/feint) in combat).
+
+### Mythic Voice of the Sibyl
+
+**Sources:** Mythic Adventures pg 77\
+You overpower weaker and more vulnerable minds with your voice alone.\
+**Prerequisites:** Voice of the Sibyl.\
+**Benefit:** You gain a +1 bonus on all Bluff, Diplomacy, and Perform (oratory) skill checks for
+every 3 tiers you possess. This bonus stacks with the bonus from Voice of the Sibyl. If you have 10
+or more ranks in at least two of these skills, gain a +2 bonus to the DC of any language-dependent
+spell you cast.

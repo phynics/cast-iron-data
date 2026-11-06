@@ -1,0 +1,20 @@
++++
+id = "ref/hex/water-lung"
+kind = "rule"
+title = "Water Lung"
+source_ids = ["ultimate-magic"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "water_lung", path = "json/class_ability_hexes.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Water Lung (Su)&FN&**
+
+**Ability:** An air-breathing target can breathe water or an aquatic target can breathe air. This
+lasts 1 minute.
+
+**Special:** If the witch uses this hex on herself, she can maintain it while she sleeps, allowing
+her to safely sleep underwater.

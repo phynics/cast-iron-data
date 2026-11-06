@@ -1,0 +1,138 @@
++++
+id = "ref/monster/echeneis"
+kind = "creature"
+title = "Echeneis"
+source_ids = ["bestiary-5"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "echeneis", path = "json/monsters09.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+subtypes = ["aquatic"]
+size = "small"
+alignment = "neutral"
+ac = "13/11/13"
+hp = "19~3d10+3"
+fortitude = "+4"
+reflex = "+5"
+will = "+1"
+melee = "bite +5 (1d4+1 plus attach), tail slap +0 (1d4) or sucker +5 touch (attach), tail slap +0 (1d4)"
+special_attacks = "sap speed"
+abilities = ["12", "11", "13", "2", "10", "13"]
++++
+
+_This thin, colorful fish has a broad, segmented sucker above its narrow mouth. A line of spines
+runs down its back._
+
+**Echeneis**
+
+**Challenge rating:** 1
+
+**dv:** 60
+
+**Initiative:** +4
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +5
+
+**Size:** small
+
+**source:** Bestiary 5/103
+
+**Subtype:** Aquatic
+
+**Experience points:** 400
+
+**Armor class:** 13/11/13
+
+**Fort:** +4
+
+**Hit points:** 19 (3d10+3)
+
+**Mod:** +2 natural, +1 size
+
+**Ref:** +5
+
+**Will:** +1
+
+**Offense**
+
+**Speed:** 5 ft., swim 20 ft.
+
+**Attach:** present
+
+**Melee:** bite +5 (1d4+1 plus attach), tail slap +0 (1d4) or sucker +5 touch (attach), tail slap +0
+(1d4)
+
+**Spec Att:** sap speed
+
+**Statistics**
+
+**Ability scores:** Str 12, Dex 11, Con 13, Int 2, Wis 10, Cha 13
+
+**Base attack bonus:** +3
+
+**Combat maneuver bonus:** +3 (+11 grapple while attached)
+
+**Combat maneuver defense:** 13 (17 vs. grapple while attached)
+
+**Feats:** Improved Initiative, Lightning Reflexes
+
+**Skills:** Perception +5, Stealth +8, Swim +9
+
+**Ecology**
+
+**Environment:** warm or temperate water
+
+**Organization:** solitary, pair, or school (3-8)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Attach (Ex)** An echeneis that hits with its bite or sucker attack automatically initiates a
+[grapple](ref/rule/grapple) against its target. While attached to a creature or vehicle, the
+echeneis gains a +8 bonus on combat maneuver checks to grapple and +4 bonus to its CMD against
+grapple attempts but loses any Dexterity bonus or dodge bonus to Armor Class. An echeneis that
+successfully maintains a grapple can make a free tail slap attack against any target except the one
+to which it is attached.
+
+**Sap Speed (Su)** Whenever an echeneis ends its turn attached to a creature or vehicle, it steals
+fragments of time from its host and gains the benefits of [haste](ref/spell/haste) for as long as it
+is attached and for an equal amount of time thereafter (maximum 3 hours). A creature with an
+attached echeneis takes a cumulative -1 penalty to Dexterity each round (which stacks with multiple
+echeneises) and must succeed at a DC 12 Will save or be affected as if by a [slow](ref/spell/slow)
+spell until the end of the echeneis's next turn. The penalty to Dexterity ends at the end of the
+echeneis's turn if it is no longer attached to the creature. A vehicle with an attached echeneis has
+its speed reduced by half until the end of the echeneis's next turn. A creature or vehicle _slowed_
+by a second echeneis is reduced to one-quarter speed. A creature or vehicle _slowed_ by three or
+more echeneises is reduced to a speed of 0 feet. The save DC is Charisma-based.
+
+### Description
+
+The echeneis is a magical fish known to sailors in many parts of the world as a major pest due to
+its theft of speed from boats and large, swimming creatures alike. It ranges across large stretches
+of water, stopping every few hours to feed and sap velocity from large boats, sharks, whales, and
+other hosts that might overlook it. Although native to warm waters, echeneises sometimes follow
+trade vessels elsewhere. Because echeneises prefer murky shallows, sailors rarely notice one before
+it begins to slow a vessel. The sharp and sturdy spines atop the creatures' backs scrape the hulls
+of ships to which they are attached, so sailors lament both the short-term inconvenience and the
+long-term damage caused by these pests. Old boats with hundreds of scrape marks on their bottoms
+garner reputations as cursed, and their captains face a serious stigma when trying to recruit crews.
+It is true that some ships draw echeneises more than others, but apart from the ship's size there is
+no indication as to what else might attract the creatures.
+
+Like the remoras they resemble, echeneises are scavengers. However, they are aggressive and often
+retaliate when knocked off of creatures or vessels. In combat, echeneises attach themselves to
+enemies to slow them down while flailing with their tails against anyone attempting to remove them.
+If badly injured while attached, an echeneis releases its victim and uses the speed it has stolen to
+quickly escape.
+
+An echeneis averages over 3 feet in length and weighs at least 12 pounds.

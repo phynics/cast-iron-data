@@ -1,0 +1,70 @@
++++
+id = "ref/spell/chain-lightning"
+kind = "spell"
+title = "Chain Lightning"
+source_ids = ["core-rulebook", "mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "chain_lightning", path = "json/spells2.json" },
+]
+
+[fields]
+kind = "spell"
+school = "evocation"
+descriptors = ["electricity"]
+levels = [
+  { class = "Arcanist", level = 6 },
+  { class = "Magus", level = 6 },
+  { class = "Occultist", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 6 },
+]
+casting_time = "1 standard action"
+components = "V, S, F (a bit of fur, a piece of amber, glass, or a crystal rod; plus one silver pin per caster level)"
+range = "long (400 ft. + 40 ft./level)"
+effects = [
+  { label = "Targets", value = "one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)" },
+]
+duration = "instantaneous"
+saving_throw = "Reflex half"
+spell_resistance = "yes"
++++
+
+::: statblock
+title = "Spell statistics"
+School: evocation
+Level: 6: Arcanist, Magus, Occultist, Sorcerer, Wizard\
+7: Witch
+Casting time: 1 standard action
+Components: V, S, F (a bit of fur, a piece of amber, glass, or a crystal rod; plus one silver pin per caster level)
+Range: long (400 ft. + 40 ft./level)
+Duration: instantaneous
+Saving throw: Reflex half
+Spell resistance: yes
+Targets: one primary target, plus one secondary target/level (each of which must be within 30 ft. of the primary target)
+Descriptors: electricity
+:::
+
+**Sources:** PRPG Core Rulebook pg 253
+
+This spell creates an electrical discharge that begins as a single stroke commencing from your
+fingertips. Unlike lightning bolt, chain lightning strikes one object or creature initially, then
+arcs to other targets.
+
+The bolt deals 1d6 points of electricity damage per caster level (maximum 20d6) to the primary
+target. After it strikes, lightning can arc to a number of secondary targets equal to your caster
+level (maximum 20). The secondary bolts each strike one target and deal as much damage as the
+primary bolt.
+
+Each target can attempt a Reflex saving throw for half damage. The Reflex DC to halve the damage of
+the secondary bolts is 2 lower than the DC to halve the damage of the primary bolt. You choose
+secondary targets as you like, but they must all be within 30 feet of the primary target, and no
+target can be struck more than once. You can choose to affect fewer secondary targets than the
+maximum.
+
+### Mythic Chain Lightning
+
+**Sources:** Mythic Adventures pg 87\
+This spell deals 1d10 points of damage per caster level (maximum 20d10) and the save DC isn't
+reduced for secondary targets. Secondary targets have to be within 30 feet of any other target, not
+necessarily the primary target.

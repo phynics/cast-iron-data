@@ -1,0 +1,32 @@
++++
+id = "ref/feat/shrewd-tactician"
+kind = "feat"
+title = "Shrewd Tactician"
+source_ids = ["inner-sea-world-guide", "weapon-masters-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shrewd_tactician", path = "json/feat14.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Alertness, Combat Reflexes."
+prerequisite_feats = ["ref/feat/alertness", "ref/feat/combat-reflexes"]
+benefit = "Opponents do not gain a +2 bonus on attack rolls for flanking you, although they can still sneak attack you. You also gain a +3 bonus on Sense Motive checks made to resist a foe's Bluff checks to feint in combat."
++++
+
+## Shrewd Tactician (Combat)
+
+**Sources:** Inner Sea World Guide pg 289
+
+Your dealings with pirates, thieves, and assassins have taught you to be exceedingly careful.\
+**Prerequisites:** [Alertness](ref/feat/alertness), [Combat Reflexes](ref/feat/combat-reflexes).\
+**Benefit:** Opponents do not gain a +2 bonus on attack rolls for [flanking](ref/rule/flanking) you,
+although they can still [sneak attack](ref/ability/sneak-attack) you. You also gain a +3 bonus on
+Sense Motive checks made to resist a foe's Bluff checks to [feint](ref/rule/feint) in combat.
+
+### Stamina
+
+**Sources:** Weapon Master's Handbook pg 25\
+When an opponent attempts a feint against you, you can spend up to 5 stamina points to increase the
+DC of the skill check made to feint by 1 per point of stamina spent.

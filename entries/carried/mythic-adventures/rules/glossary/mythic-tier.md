@@ -1,0 +1,20 @@
++++
+id = "ref/carried/mythic-adventures/rules/glossary/mythic-tier"
+kind = "rule"
+title = "Mythic Tier"
+source_ids = ["mythic-adventures"]
+section = ["Rules", "Glossary"]
+parent = "ref/rule/glossary"
+provenance = [
+  { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Rules/Glossary/Mythic Tier", path = "mythic_adventures/rules/glossary.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+(Often referred to just as a "tier.") Mythic characters advance in power by gaining tiers, each of
+which grants new abilities. Attaining a new mythic tier requires completing difficult trials within
+the campaign's story rather than accumulating experience points. Mythic tiers range from 1 to 10.
+Characters who achieve 10th tier are at the height of mythic power, and are in some respects akin to
+minor deities.

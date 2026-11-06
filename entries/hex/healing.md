@@ -1,0 +1,22 @@
++++
+id = "ref/hex/healing"
+kind = "rule"
+title = "Healing"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "healing", path = "json/class_ability_hexes.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Healing (Su)&FN&**
+
+**Ability:** A witch can soothe the wounds of those she touches. This acts as a
+[cure light wounds](ref/spell/cure-light-wounds) spell, using the witch's caster level.
+
+**At 5th Level:** This hex acts like [cure moderate wounds](ref/spell/cure-moderate-wounds).
+
+**Special:** Once a creature has benefited from the _healing_ hex, it cannot benefit from it again
+for 24 hours.

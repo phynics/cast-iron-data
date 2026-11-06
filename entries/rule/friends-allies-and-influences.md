@@ -1,0 +1,28 @@
++++
+id = "ref/rule/friends-allies-and-influences"
+kind = "rule"
+title = "Friends, Allies, and Influences"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "friends_allies_and_influences", path = "json/rules_basics03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 12
+
+Desire for acceptance and recognition among one's peers drive the decisions of most adolescents.
+Some adolescents seek acceptance wherever it's given freely, while others strive to prove themselves
+in order to win the respect of those they admire. The friendships you make in this transitional time
+may not be ones that last a lifetime, but these friends are often ones you feel you need so you can
+survive your youth. These individuals open your mind to new experiences and different points of
+view, and they have a major influence on your interests, knowledge, and development.
+
+Imagine a person you sought acceptance from as an adolescent. Was this person the savior you needed
+in a time of crisis, or someone who challenged your beliefs or turned you away from what you'd been
+taught growing up? As you strived to measure up to this person's esteem, what skills or practices
+did you learn? Did you have idle time with this person, and how did you fill those hours? What
+long-term influence did this person have upon the way you think now? If you were friends, are you
+still friends today?

@@ -1,0 +1,28 @@
++++
+id = "ref/eq-misc/wire"
+kind = "item"
+title = "Wire"
+source_ids = ["ultimate-equipment"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "wire", path = "json/equipment_misc4.json" },
+]
+
+[fields]
+kind = "item"
+price = "5 gp"
+weight = "1/2 lb."
++++
+
+**Sources:** Ultimate Equipment pg 58\
+**Price** 5 gp; **Weight** 1/2 lb.\
+**Category** Adventuring Gear
+
+This 6-foot length of copper wire is strong and flexible. By attaching it to two
+[pitons](ref/eq-misc/piton) or [iron spikes](ref/eq-misc/iron-spike) across an area, you can create
+a simple tripwire trap.
+
+**Tripwire Trap - CR 1/3**\
+**Type** mechanical; **Perception** DC 15; **Disable Device** DC 10\
+**Effects**\
+**Trigger** location; **Reset** automatic\
+**Effect** trip combat maneuver +5 (+10 if the target is running)

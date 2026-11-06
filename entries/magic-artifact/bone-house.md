@@ -1,0 +1,56 @@
++++
+id = "ref/magic-artifact/bone-house"
+kind = "item"
+title = "Bone House"
+source_ids = ["artifacts-and-legends", "pathfinder-10-a-history-of-ashes"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "bone_house", path = "json/magic_artifact.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "2 lbs."
+slot = "none"
+aura = "strong conjuration and necromancy"
+caster_level = "17th"
++++
+
+**Sources:** Artifacts and Legends pg 57, Pathfinder \#10: A History of Ashes pg 21\
+**Aura** strong conjuration and necromancy; **CL** 17th\
+**Slot** none; **Price** -; **Weight** 2 lbs.
+
+A bone house is a variant form of instant fortress most often employed by elite agents of Nidal and
+influential members of [Zon-Kuthon's](ref/faith/zon-kuthon) faith. These grim statuettes appear as
+skull-topped fortresses the size of a clenched fist. When activated by speaking a command word, a
+bone house grows to form a tower 20 feet square and 30 feet high, with arrow slits on all sides and
+a crenellated battlement on top. The bone walls extend 10 feet into the ground, rooting it to the
+spot and preventing it from being tipped over. The fortress has a small door that opens only at the
+command of the owner of the fortress - even [knock](ref/spell/knock) spells can't open the door.
+
+The bone walls are magically enhanced to be as hard as stone, and have 100 hit points and
+[hardness](ref/umr/hardness) 10. A bone house can be repaired by casting inflict spells on the
+walls, with every 10 points of negative energy repairing 1 point of damage. A bone house springs up
+in just 1 round, with the door facing the device's owner. The door opens and closes instantly at his
+command. People and creatures nearby (except the owner) must be careful not to be caught by the
+fortress's sudden growth. Anyone caught in the area takes 10d6 points of damage (DC 19 Reflex save
+for half damage). The interior of a bone house is under the constant effects of a
+[desecrate](ref/spell/desecrate) spell and is considered an altar to Zon-Kuthon for the purposes of
+determining the desecrate modifiers.
+
+Once a bone house is expanded into tower size, its owner can create up to four
+[mummies](ref/monster/mummy) per month from the drifts of bone ash and detritus that litter the
+inner rooms. Creating a mummy in this manner takes 10 minutes, and the owner must be inside of the
+bone house the entire time. Due to the _[desecrate](ref/spell/desecrate)_ effect, mummies created
+inside gain +2 hit points per Hit Die. These undead guard the contents of the bone house without
+needing to be commanded. If the owner wishes to command these mummies to perform other tasks, he
+must use other means to do so. No more than four mummies may be active at one time.
+
+A bone house is deactivated by speaking a command word (different from the one used to activate it).
+It cannot be deactivated unless it is empty.
+
+### Destruction
+
+A bone house has hit points and [hardness](ref/umr/hardness) and can be destroyed largely by mundane
+means. However, to fully destroy a bone house, its final hit point must be taken by a positive
+energy effect, requiring a _cure_ spell or similar effect to be cast on the nearly ruined structure.

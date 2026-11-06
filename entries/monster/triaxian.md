@@ -1,0 +1,190 @@
++++
+id = "ref/monster/triaxian"
+kind = "creature"
+title = "Triaxian"
+source_ids = ["pathfinder-70-the-frozen-stars"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "triaxian", path = "json/monsters23.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "humanoid"
+size = "medium"
+alignment = "neutral"
+ac = "18/12/16"
+hp = "13~1d10+3"
+fortitude = "+4"
+reflex = "+4"
+will = "+2"
+melee = "lance +2 (1d8+1/&times&3) or longsword +2 (1d8+1/19-20)"
+ranged = "composite longbow +3 (1d8+1/&times&3)"
+special_qualities = "seasoned, track +1, wild empathy +0"
+abilities = ["13", "14", "15", "10", "14", "8"]
++++
+
+_This warrior looks like an attractive humanoid with pointed, feather-like ears and eyes shaped into
+long, horizontal slits. Though he has no true hair, his entire body is covered in short, sleek white
+fur._
+
+**Triaxian**
+
+**Challenge rating:** 1/2
+
+**Triaxian [ranger](ref/class/ranger) 1**
+
+**Type:** humanoid
+
+**Initiative:** +2
+
+**Sense:** Llv
+
+**Size:** medium
+
+**Alignment:** Neutral
+
+**othersubs:** Triaxian
+
+**Perception:** +8
+
+**source:** Pathfinder \#70: The Frozen Stars/86
+
+**Experience points:** 200
+
+**Armor class:** 18/12/16
+
+**Fort:** +4
+
+**Hit points:** 13 (1d10+3)
+
+**Mod:** +6 armor, +2 Dex
+
+**Ref:** +4
+
+**Will:** +2
+
+**Offense**
+
+**Speed:** 20 ft.
+
+**Fav En:** dragons +2
+
+**Melee:** lance +2 (1d8+1/&times&3) or longsword +2 (1d8+1/19-20)
+
+**Ranged:** composite longbow +3 (1d8+1/&times&3)
+
+**Statistics**
+
+**Ability scores:** Str 13, Dex 14, Con 15, Int 10, Wis 14, Cha 8
+
+**Base attack bonus:** +1
+
+**Combat maneuver bonus:** +2
+
+**Combat maneuver defense:** 14
+
+**Feats:** Mounted Archery, Mounted Combat
+
+**Skills:** Knowledge (arcana) +1, Perception +8
+
+**Racial Modifiers:** +2 Perception
+
+**Languages:** Triaxian
+
+**Special qualities:** seasoned, track +1, [wild empathy](ref/ability/wild-empathy) +0
+
+**Gear:** NPC gear (chainmail, [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows,
+lance, longsword, other treasure)
+
+### Special Abilities
+
+**Seasoned (Ex)** Triaxians suffer no harm from being in hot or cold environments depending on
+whether they are Summerborn or Winterborn. Summerborn Triaxians can exist comfortably in conditions
+between 90 and 140 degrees Fahrenheit without having to attempt Fortitude saves. Winterborn
+Triaxians can exist comfortably in conditions between 40 and -20 degrees Fahrenheit without having
+to attempt Fortitude saves. When in conditions of severe cold or heat, Triaxians only have to
+attempt Fortitude saves once per hour instead of once every 10 minutes. Transitional Triaxians do
+not have this ability.
+
+### Description
+
+Triaxians are the dominant race on the planet Triaxus, a world whose erratic orbit causes
+exceptionally long and disparate seasons. Though eerily similar to humans, elves, and the other
+mammalian humanoids common on Golarion, Triaxians have developed certain adaptations to their
+environment that mark them as indisputably alien.
+
+Just like human ethnicities, Triaxian populations vary in size, weight, and other distinguishing
+physical characteristics, based primarily on the geographical regions in which they reside. Most
+Triaxians, both males and females, are around 6 feet tall but somewhat lean compared to humans,
+rarely weighing more than 200 pounds. Their ears are elongated, but rather than being pointed like
+elves or halflings, these appendages are instead notched in a feathered or comb-like pattern. The
+flaps created by these notches constantly move to adjust the ear's shape, operating both consciously
+and unconsciously to help Triaxians focus on specific sounds, not unlike the maneuverable ears of
+dogs, cats, and other such animals.
+
+Like many creatures on their world, Triaxians have evolved to shift along with their environment,
+resulting in differences between generations of the same family that would seem bizarre to humanoids
+from Golarion. In the warm summer years, Triaxians are completely hairless, with skin that ranges
+from deep red to coffee-colored to charcoal black. This configuration allows them to better survive
+in the sweltering heat of the planet's tropical summers, with the increased melanin in their dark
+skin protecting them from the sun's intense rays. These Summerborn Triaxians, as they are known,
+breed true for many generations - yet as the planet begins its rapid seasonal shift, so do the
+Triaxians. Newborn Triaxians begin to evince new adaptations to the cooling environment, and by the
+time winter has come on in full, Triaxians change markedly: their pale bodies are covered in fine,
+insulating white fur like that of an ermine, while their eyes narrow to elongated slits to protect
+against snowblindness. These new traits similarly breed true until the seasons begin to change once
+more, at which point the eyes widen and fur recedes, starting the cycle anew.
+
+Just as Triaxians differ physically depending on which season they're born into, so do their
+cultures and customs change. Winterborn Triaxians are defined by the hardship of a world whose very
+environment seeks to starve or freeze them. They tend to be stolid, hardworking people, with an
+ironclad sense of honor stemming from the knowledge that in a Triaxian winter, a broken promise can
+mean death for a whole clan. Even within large communities, the focus remains on survival for one's
+family and friends, with individuals willing and ready to share, serve, and die to protect the
+group. Oaths of friendship are serious affairs; once given they are rarely transgressed, and doing
+so risks a blood feud. With the exception of those nomadic hunter tribes that migrate in pursuit of
+herd animals, most settlements are permanent and fortified against the predatory horrors that stalk
+the blinding blizzards.
+
+Summerborn Triaxians, by contrast, are born into a world of plenty. With forests full of fruit and
+game, and glaciers receding to reveal vast tracts of fertile earth, the attachment to cold stone
+fortresses and cramped cities weakens, and Triaxians spread out across the landscape. For many, it
+is a time of nomadism, living in small bands and temporary structures, or else participating in
+great waves of land-grabs as homesteaders. Though they still have the weight of history to remind
+them of the hardships of their ancestors - and those yet to come for their descendants - Summerborn
+Triaxians tend to be an easy-going, generous people, quick to accept outsiders, to break with their
+clans and families and strike out on their own, and to challenge convention in pursuit of greater
+goals. They are simultaneously less hardened and more likely to go to war, for with the business of
+survival taking less energy and new territory constantly being settled, leaders have more time and
+resources to dispute borders and jockey for power. Historically, Summerborn Triaxians are those most
+likely to visit other planes or worlds, as the drive to explore their newly thawed planet also leads
+them to look beyond it.
+
+Transitional Triaxians occupy a much smaller portion of the Triaxian adaptation cycle than either
+the Summerborn or Winterborn - usually no more than a generation each orbital year - and often play
+an uncomfortable role in their society. To Summerborn Triaxians, a Transitional child is an ill
+omen - a sign that winter approaches, and that the time of plenty is drawing to a close. The first
+such individuals to appear are often hidden or slain by their parents, and vilified by those
+rebellious fools and leaders who believe that Transitional children actively bring on the winter, or
+who simply don't want to begin the long and arduous process of preparing for future generations'
+survival. Transitional children born at the tail of winter, on the other hand, are often treasured
+and held up as hopeful signs of a golden era to come. Yet even these may face persecution by those
+dynasties that fear change, or whose leaders expect a loss of power once their people are free to
+spread beyond their reach. In both cases, Transitional Triaxians find themselves in a society where
+they are visibly different from both their parents and their children, and where their very
+existence is a weighty portent.
+
+Strangely, while Triaxians' mutable nature is perfectly adapted to their planet's erratic orbit, the
+cycle of physiological changes seems keyed to internal clocks rather than external indicators. Even
+in situations where these adaptations would be disadvantageous, the small populations of Triaxians
+who have set up residence on other worlds or planes continue to change in time with their kindred on
+Triaxus.
+
+Beyond their obvious adaptations to their environment, Triaxians are remarkably human. Their basic
+biology, social structures, cultures, and philosophy-while sometimes surprising to outsiders-all
+fall well within the bounds of what might be encountered in a humanoid race on Golarion, thus making
+them one of the least "alien" civilizations in Golarion's solar system. Though the statistics above
+represent a typical initiate training to become a Dragonrider of the Skyfire Mandate, this is by no
+means the standard for the race-outside of broad strokes, it's as impossible to describe Triaxians'
+myriad traits and predispositions as it would be to do so for humanity itself. Triaxians are good
+and evil, warlike and peaceful, magical and mundane, and everything in between.

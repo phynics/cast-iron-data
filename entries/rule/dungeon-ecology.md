@@ -1,0 +1,42 @@
++++
+id = "ref/rule/dungeon-ecology"
+kind = "rule"
+title = "Dungeon Ecology"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "dungeon_ecology", path = "json/rules_gm05.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 176
+
+Once you've created your dungeon map, you're ready to populate it. If you're building a static
+dungeon, you can simply fill it with traps and guardians and other challenges as you wish, with
+little concern as to how each area interacts with the others.
+
+But if you're building a living dungeon, there are more considerations you'll want to address. In
+particular, if your dungeon is the lair for a number of living creatures, keep in mind that they
+don't just sit in their rooms in stasis waiting for a group of heroes to blunder into their
+clutches - at least, dungeon denizens don't always behave this way. Usually, you'll want to design
+your dungeon with its ecology in mind.
+
+**Food and Water:** If there's not a constant source of food in or nearby your dungeon, your
+monsters will need storerooms in which to stockpile their food. Even if there is a handy supply of
+food, monsters whose territories are blocked from access to these ready supplies will need some sort
+of concession toward food and water. A river running through a dungeon is a handy way to supply both
+of these necessities, as are magic items like
+[decanters of endless water](ref/magic-wondrous/decanter-of-endless-water),
+[rings of sustenance](ref/magic-ring/ring-of-sustenance), and
+[sustaining spoons](ref/magic-wondrous/sustaining-spoon). Finally, including a cleric of at least
+5th level in a group gives that group access to
+[create food and water](ref/spell/create-food-and-water) spells.
+
+**Shelter and Access:** All of your dungeon denizens need somewhere to live. The main thing to keep
+in mind here is that a monster's lair should be sized appropriately for the monster. The larger the
+monster, the larger its lair needs to be. As a general rule, it's good to give a monster living
+space that's at least nine times its own space. And unless you want your monster to be trapped in
+its lair, make sure it can access other parts of the dungeon, including an exit (by squeezing, at
+minimum).

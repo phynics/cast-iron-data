@@ -1,0 +1,43 @@
++++
+id = "ref/magic-wondrous/warchanters-torch-goblin"
+kind = "item"
+title = "Warchanter's Torch (Goblin)"
+source_ids = ["inner-sea-races"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "warchanters_torch_goblin", path = "json/magic_wondrous_slotless06.json" },
+]
+
+[fields]
+kind = "item"
+price = "30,000 gp"
+weight = "1 lb."
+slot = "none"
+aura = "strong illusion"
+caster_level = "13th"
++++
+
+**Sources:** Inner Sea Races pg 235\
+**Aura** strong illusion; **CL** 13th\
+**Slot** none; **Price** 30,000 gp; **Weight** 1 lb.
+
+The following wondrous item is generally available only to members of the indicated race or
+ethnicity.
+
+This torch's magic tar retains the power of goblin songs. Whenever the owner holds the torch in hand
+while in the area of a bardic performance performed as a goblin song, it begins to emit a faint,
+whispered version of that song (audible with a DC 20 [Perception](ref/skill/perception) check). If
+the wielder lights the torch at any time before the next dusk, its flame dances rhythmically to the
+goblin song it most recently witnessed, and emanates a crackling mimicry of the original singer's
+voice. The torch burns for 13 rounds or until it is no longer held in the user's hand, whichever
+comes first, during which time it produces the effect of the remembered bardic performance, using
+the torch's caster level as the effective bard level, and the wielder's Charisma modifier if
+necessary. If the torch's caster level would provide an insufficient bard level for the most recent
+performance, the torch has no effect beyond shedding light. The magic tar reforms after 1 week,
+allowing the torch to be used again. If the creature who last lit the torch was a
+[goblin](ref/race/goblin), the tar instead reforms in 24 hours.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[shadowbard](ref/spell/shadowbard), creator must have the bardic performance class ability, creator
+must be a goblin; **Cost** 15,000 gp

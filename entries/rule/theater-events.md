@@ -1,0 +1,64 @@
++++
+id = "ref/rule/theater-events"
+kind = "rule"
+title = "Theater Events"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "theater_events", path = "json/rules_subsystems03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 127
+
+|d%|Events|
+| --- | --- |
+|01-10|Rave review|
+|11-25|Full house|
+|26-35|Visiting troupe|
+|36-55|Shenanigans|
+|56-70|Poor performance|
+|71-90|Prima donna|
+|91-95|Cursed play|
+|96-100|House fire|
+
+**Cursed Play:** Something has cursed your Theater or its current production. Perhaps an actor
+quoted a line from an unlucky play, or the script has the power to drive people mad. Attempt a DC 25
+Perform check each day. If you fail, the Theater generates no capital that day. If you succeed, the
+curse and the event end.
+
+**Full House:** Your Theater is packed - an excellent opportunity to impress people. You gain a +20
+bonus on the building's next check to generate capital. Attempt a DC 25 Perform check. If you
+succeed, word of the performance spreads and you gain 1d4 points of Influence. If you fail, there's
+a 50% chance that a poor performance event occurs.
+
+**House Fire:** Treat this as a
+[fire event from the Generic Building Events section](ref/rule/generic-building-events), except
+there is a 50% chance of a minor fire and a 50% chance of a major fire. Increase any lost capital
+from the event by 50%.
+
+**Poor Performance:** Everyone has off nights, but your entire cast is missing cues and flubbing
+lines. You lose 2d4 points of Influence from bad reviews and 1d3 points of Labor from performers who
+quit out of shame.
+
+**Prima Donna:** One of your performers is particularly temperamental today. You can assuage the
+performer's ego with a DC 25 Bluff or Diplomacy check. Otherwise, the performer demands last-minute
+changes and makes ridiculous demands of the support staff. You lose 1d4 points of Goods and take a
+-5 penalty on all checks relating to this building for 1d6 days.
+
+**Rave Reviews:** Your Theater has done well, and great reviews pour in. You gain 1d6 points of
+Influence.
+
+**Shenanigans:** This event is similar to the
+[shenanigans event from the Tavern Events section](ref/rule/tavern-events), though those involved in
+Theater shenanigans tend to be wealthier and more prominent. If you succeed at a DC 30 Bluff or
+Diplomacy check, you treat the incident with the proper discretion - you gain 1d6 points of
+Influence and someone involved gives you a tip of 10d10 gp for your tact.
+
+**Visiting Troupe:** A group of traveling players asks to perform at your Theater. On the first day
+after this event, the players require full access to your Theater. Since you can't be open to the
+public, the building generates no capital that day. The troupe remains for 1d4 days, and on those
+days you gain a +20 bonus on the building's first check to generate capital each day. If the troupe
+is present when an event at the Theater makes you lose Labor, the troupe leaves early.

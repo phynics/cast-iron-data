@@ -1,0 +1,28 @@
++++
+id = "ref/rule/outer-sphere"
+kind = "rule"
+title = "Outer Sphere"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "outer_sphere", path = "json/rules_campaign_types08.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Occult Adventures pg 245
+
+The silver void of the Astral Plane extends from the edge of the Inner Sphere to the planes of the
+Outer Sphere, where souls sent from the Boneyard arrive at their final afterlife destinations in
+realms attuned to their beliefs and alignment. By the time they arrive here, those mortal souls who
+did not immediately incarnate as outsiders or direct servitors of their deities are known as
+petitioners. Having transcended mortal life, their past existence means less and less to them as
+time goes on. The few petitioners who even remember those they left behind cannot bring themselves
+to worry for them, focusing instead on the paradises or hellscapes immediately before them.
+
+As time progresses, petitioners become more and more attuned to their chosen or assigned plane. Some
+manage to eventually ascend into the form of an outsider associated with their plane, but others
+simply end their journey of existence by merging completely with their plane in body and soul,
+vanishing from reality altogether and becoming quintessence - the very matter of the Outer Sphere
+itself.

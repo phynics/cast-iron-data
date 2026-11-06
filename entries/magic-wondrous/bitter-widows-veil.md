@@ -1,0 +1,42 @@
++++
+id = "ref/magic-wondrous/bitter-widows-veil"
+kind = "item"
+title = "Bitter Widow's Veil"
+source_ids = ["daughters-of-fury"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "bitter_widows_veil", path = "json/magic_wondrous_head_headband.json" },
+]
+
+[fields]
+kind = "item"
+price = "14,000 gp"
+weight = "1/2 lb."
+slot = "head"
+aura = "faint enchantment and divination"
+caster_level = "5th"
++++
+
+**Sources:** Daughters of Fury pg 56\
+**Aura** faint enchantment and divination; **CL** 5th\
+**Slot** head; **Price** 14,000 gp; **Weight** 1/2 lb.
+
+This delicate black veil is made of black lace and crepe and affixed to a midnight blue bonnet. When
+it's donned, amorphous shadows swirl beneath the veil across the wearer's face.
+
+Whenever an ally within 30 feet of the wearer falls unconscious by taking lethal damage, the bitter
+widow's veil gains 1 charge. The wearer can expend 1 charge as a standard action to unleash a
+bereaved scream in a 30-foot cone. Creatures within the area must succeed at a DC 16 Will save or
+become [shaken](ref/misc/shaken) for 4 minutes. If a creature that brought a humanoid or monstrous
+humanoid to fewer than 0 hit points within the past 12 hours fails the save, it's
+[dazed](ref/misc/dazed) for 1 round as it is consumed with sorrow, after which it's subject to the
+shaken effect.
+
+As long as the bitter widow's veil has an unspent charge, the wearer can see and hear ethereal
+creatures as though affected by _[see invisibility](ref/spell/see-invisibility)._ The veil can
+contain only 1 charge at a time. Unused charges dissipate after 1 hour.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[crushing despair](ref/spell/crushing-despair), [overwhelming grief](ref/spell/overwhelming-grief),
+[see invisibility](ref/spell/see-invisibility); **Cost** 7,000 gp

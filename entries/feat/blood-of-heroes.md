@@ -1,0 +1,27 @@
++++
+id = "ref/feat/blood-of-heroes"
+kind = "feat"
+title = "Blood of Heroes"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "blood_of_heroes", path = "json/feat02.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Hero Point"]
+prerequisites = "Hero's Fortune."
+prerequisite_feats = ["ref/feat/heros-fortune"]
+benefit = "Whenever you gain a level, you gain 2 hero points instead of 1."
+normal = "Whenever you gain a level, you gain 1 hero point."
++++
+
+## Blood of Heroes (Hero Point)
+
+**Sources:** Advanced Player's Guide pg 323
+
+You have a sense of destiny about you and always seem to succeed, even when the odds are against
+you.\
+**Prerequisites:** [Hero's Fortune](ref/feat/heros-fortune).\
+**Benefit:** Whenever you gain a level, you gain 2 hero points instead of 1.\
+**Normal:** Whenever you gain a level, you gain 1 hero point.

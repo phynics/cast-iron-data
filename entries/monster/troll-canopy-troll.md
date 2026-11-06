@@ -1,0 +1,220 @@
++++
+id = "ref/monster/troll-canopy-troll"
+kind = "creature"
+title = "Canopy Troll"
+source_ids = ["pathfinder-116-fangs-of-war"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "troll_canopy_troll", path = "json/monsters39.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "humanoid"
+subtypes = ["giant"]
+size = "small"
+alignment = "chaotic evil"
+ac = "15/15/11"
+hp = "30~4d8+12"
+fortitude = "+7"
+reflex = "+5"
+will = "+2"
+melee = "bite +5 (1d4+1), 2 claws +5 (1d3+1), sting +5 (1d3+1 plus poison)"
+special_attacks = "poison~swarming"
+special_qualities = "cradling"
+abilities = ["12", "18", "17", "4", "9", "7"]
++++
+
+_Prominent tusks and unruly green fur mark this fearsome creature as a troll despite its small size.
+It hangs overhead, swinging between its oversized forearms and lashing, claw-tipped tail._
+
+**Canopy Troll**
+
+**Challenge rating:** 3
+
+**Alignment:** Chaotic evil
+
+**dv:** 60
+
+**Type:** humanoid
+
+**Initiative:** +4
+
+**Sense:** Llv
+
+**Perception:** +4
+
+**Sense:** Scent
+
+**Size:** small
+
+**source:** Pathfinder \#116: Fangs of War/90
+
+**Subtype:** Giant
+
+**Experience points:** 800
+
+**Armor class:** 15/15/11
+
+**Fort:** +7
+
+**Hit points:** 30 (4d8+12)
+
+**Mod:** +4 Dex, +1 size
+
+**Ref:** +5
+
+**Regen:** 5 (acid or fire)
+
+**Will:** +2
+
+**Offense**
+
+**Speed:** 20 ft., climb 30 ft.
+
+**Melee:** bite +5 (1d4+1), 2 claws +5 (1d3+1), sting +5 (1d3+1 plus poison)
+
+**Reach:** 5
+
+**Reach P:** 10 ft. with sting
+
+**Space:** 5
+
+**Spec Att:** poison, swarming
+
+**Statistics**
+
+**Ability scores:** Str 12, Dex 18, Con 17, Int 4, Wis 9, Cha 7
+
+**Base attack bonus:** +3
+
+**Combat maneuver bonus:** +3 (+6 grapple)
+
+**Combat maneuver defense:** 17 (20 vs. grapple)
+
+**Feats:** Improved Grapple^B^, Iron Will, Weapon Finesse
+
+**Skills:** Acrobatics +5 (+13 when jumping), Climb +10, Perception +4
+
+**Racial Modifiers:** +8 Acrobatics when jumping
+
+**Special qualities:** cradling
+
+###### B {#footnote-b}
+
+Bonus feat.
+
+**Ecology**
+
+**Environment:** temperate or warm forests
+
+**Organization:** pair, gang (3-4), or troop (5-12)
+
+**Treasure:** Standard
+
+### Special Abilities
+
+**Cradling (Ex)** Thanks to their massive hands, prehensile feet, and dexterous tails, canopy trolls
+are treated as if they were one size category larger for the purposes of grappling. They gain
+Improved Grapple as a bonus feat.
+
+**Poison (Ex)** A canopy troll's tail sting injects a single tumorous lump of its own regenerating
+flesh into its target. On a failed Fortitude save, this tumor grows beneath the victim's skin,
+sprouting bristly hairs and stubby teeth that cause debilitating pain for its host. The sickened
+condition lasts 2d4 days before the mass dissolves, though a host can attempt a Fortitude saving
+throw each day to overcome the pain and ignore the condition. Alternatively, the tumor can be
+removed with a successful DC 20 Heal check.
+
+**Type:** Poison (Sting-injury)
+
+**Save:** Fortitude DC 15
+
+**Frequency:** 1/round for 3 rounds
+
+**Effect:** sickened for 2d4 days
+
+**Cure:** See above
+
+**Swarming (Ex)** Canopy trolls live and fight in tangled piles and are adept at swarming foes. Up
+to two canopy trolls can share the same square at the same time. If two canopy trolls in the same
+square attack the same foe, they are considered to be flanking that foe as if they were in two
+opposite squares.
+
+### Description
+
+One of the most ravenous dangers of the Fangwood are the arboreal canopy trolls, who bound through
+the treetops in great troops, scavenging fruit and nuts and descending on much larger prey to tear
+it limb from limb. They share the legendary durability of larger trolls, and plummet fearlessly from
+great heights to take prey by surprise, often breaking bones only to heal by the time they begin to
+feed. These injuries rarely set properly, leaving most canopy trolls in constant pain, worsening
+their already vicious attitudes. Often underestimated, canopy trolls rely on great numbers and their
+ability to coordinate en masse, overwhelming prey by sheer numbers as they drag it kicking and
+screaming into their chaotic, howling maws.
+
+Canopy trolls stand 3-1/2 feet tall, and have prehensile tails nearly twice that length. Their
+densely muscled bodies weigh as much as 150 pounds.
+
+Small and quick, canopy trolls possess a number of strange adaptations to help them survive. Like
+most trolls, their massive jaws can easily rend flesh, and their prehensile feet and oversized
+hands - nearly as large as a full-sized troll's - help them grapple much larger prey or swing
+between distant branches with ease. Rather than the vestigial tails most trolls sport, theirs are
+long and flexible, allowing a canopy troll to hang from a branch, and the tail sports a sharp claw
+on the end capable of delivering the troll's unusual venom.
+
+Popular lore in the Fangwood claims that canopy trolls grow from the limbs and other bits of flesh
+cut from full-sized trolls by clumsy adventurers, but in truth, these agile offshoots are simply
+another example of the vast variety found among troll species. Though small in stature, these
+child-sized cousins of the forest's more common trolls retain the ferocity, hunger, and regeneration
+endemic to their kind. They are omnivores and survive on fruit, leaves, and insects during lean
+times; like all trolls, though, they vastly prefer fresh meat to help fuel their legendary
+regeneration. Left unchecked, a troop can strip a forest valley of animal life within a few months -
+or depopulate a small town - before moving on.
+
+Female canopy trolls give birth to twins after a 3-month pregnancy and select the stronger of the
+pair within the first few days, eating the second to ensure they provide ample nutrition for the
+remaining, nursing child. Young cling to their mother's back for the first 6 months of life, after
+which they are fast and coordinated enough to keep up with the rest of the troop as they swing
+through the trees. Canopy troll cannibalism isn't limited to newborns; the creatures' preferred
+method of dealing with old or sickly members of the troop is to fall upon them and feast on the
+regenerating morsels.
+
+**Family:** Troll
+
+### Habitat
+
+Canopy trolls are strictly arboreal, living in the thick branches high above the forest floor. Like
+the similar moss troll, they rarely set foot on solid ground; many canopy trolls exhibit a mild
+phobia of the surface, retreating to the trees if knocked groundward in a fight. Their similarities
+to moss trolls end at their shared terrain, however, as the smaller brutes lack the cunning and
+innate magic of their larger kin. Though somewhat common west of Lake Encarthan, canopy trolls are
+rare beyond the Fangwood Forest and smaller woods in the immediate vicinity. They are sensitive to
+both heat and cold, and quickly fall ill in drier climes. Some rangers insist the creatures hail
+from the First World, but nearly all strange happenings in the Fangwood are attributed to the
+mysterious fey realm, and canopy trolls are simply highly specialized for their very specific
+environment. Rumors place a similar breed of small, arboreal trolls - chimney trolls - in Ustalav,
+and a more robust cousin of the canopy trolls, called vavanis, terrorizes the jungles of Vudra.
+
+Despite their barest semblance of intellect, canopy trolls show unusual curiosity, and love to pull
+things apart - animals and humanoids included - to see what may be inside. They find mechanisms and
+musical instruments especially fascinating, and an entire troop may take to fighting with each other
+over a newly discovered harp or horn. They also like to adorn themselves with finery, though any
+treasures they gather rarely last long as the creatures swing through the branches and pile into
+their filthy nests. Generally, only magical treasures and small pieces of jewelry retain any value
+after more than a day in the hands of a canopy troll. This same curiosity makes the creatures
+especially vulnerable to so-called monkey traps, as once they take hold of a valuable, they rarely
+willingly let go; clever hunters can snare the monsters simply by dropping shiny coins into a hole
+just large enough to slide a troll hand into - and too small to pull a coin-filled fist back
+through. They speak a pidgin of Giant, composed largely of insults and vulgarities, as well as a
+number of words for food.
+
+Canopy trolls are simpleminded even compared to average trolls, living more like animals than
+humanoids in ape-like troops. A troop selects the largest tree in its territory as a nest site,
+building rough nests of leaves and grasses and dangling ugly dolls tied from animal bones into the
+branches. Canopy trolls have little concern for one another, flocking together simply because their
+preferred hunting tactic - piling onto a single creature until the poor beast can barely move or
+breathe under the weight - requires large numbers. They hash out a rough pecking order through
+constant bullying, and after large meals the troop generally falls to infighting to more formally
+determine the leader for the next few days. Affection and compassion are alien concepts, with each
+member of the group constantly sniffing out weaknesses to exploit in its neighbors. Troops sometimes
+gather around an outsider - usually a larger troll but occasionally another large predator -
+deferring to that individual as temporary leader until they grow restless, hungry, or bored,
+whereupon they turn their provisional leader into a meal.

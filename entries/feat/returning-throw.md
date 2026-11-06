@@ -1,0 +1,32 @@
++++
+id = "ref/feat/returning-throw"
+kind = "feat"
+title = "Returning Throw"
+source_ids = ["inner-sea-races"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "returning_throw", path = "json/feat13.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat", "Teamwork"]
+prerequisites = "Point-Blank Shot, Precise Shot, Sleight of Hand 3 ranks, goblinoid subtype."
+prerequisite_feats = ["ref/feat/point-blank-shot", "ref/feat/precise-shot"]
+benefit = "Whenever an ally who also has this feat makes an attack with a thrown weapon and misses the target by 4 or less, you can catch the weapon as an immediate action. Both you and your ally must be within 30 feet of the target, and you must be able to trace a line from any part of your space to any part of your ally's space so that the line passes through the target's space. As part of the action to catch the weapon, you can throw it at the target of the original attack. If your target has never seen you perform this maneuver before, it is denied its Dexterity bonus to AC against your attack. You must have at least one hand free to use this feat. You must be aware of the attack and not flat-footed."
++++
+
+## Returning Throw (Combat, Teamwork)
+
+**Sources:** Inner Sea Races pg 208
+
+You have turned your deadly childhood games into a tactical advantage.\
+**Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),
+[Precise Shot](ref/feat/precise-shot), Sleight of Hand 3 ranks, goblinoid subtype.\
+**Benefit:** Whenever an ally who also has this feat makes an attack with a thrown weapon and misses
+the target by 4 or less, you can catch the weapon as an immediate action. Both you and your ally
+must be within 30 feet of the target, and you must be able to trace a line from any part of your
+space to any part of your ally's space so that the line passes through the target's space. As part
+of the action to catch the weapon, you can throw it at the target of the original attack. If your
+target has never seen you perform this maneuver before, it is denied its Dexterity bonus to AC
+against your attack. You must have at least one hand free to use this feat. You must be aware of the
+attack and not [flat-footed](ref/rule/flat-footed).

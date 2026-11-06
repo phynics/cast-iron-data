@@ -1,0 +1,153 @@
++++
+id = "ref/skill/ride"
+kind = "rule"
+title = "Ride"
+source_ids = ["core-rulebook", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "ride", path = "json/skills.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 103
+
+**Associated Skill**
+
+**Details:** Dexterity
+
+**Trained Only**
+
+**Details:** No
+
+**Armor Check Penalty**
+
+**Details:** Yes
+
+**Optional Unchained Skill**
+
+**Details:** No
+
+**Optional Background Skill**
+
+**Details:** No
+
+### Check
+
+Typical riding actions don't require checks. You can saddle, mount, ride, and dismount from a mount
+without a problem. The following tasks do require checks.
+
+|Task|Ride DC|
+| --- | --- |
+|Guide with knees|5|
+|Stay in saddle|5|
+|Fight with a combat-trained mount|10|
+|Cover|15|
+|Soft fall|15|
+|Leap|15|
+|Spur mount|15|
+|Control mount in battle|20|
+|Fast mount or dismount|20|
+
+#### Guide with Knees
+
+You can guide your mount with your knees so you can use both hands in combat. Make your Ride check
+at the start of your turn. If you fail, you can use only one hand this round because you need to use
+the other to control your mount. This does not take an action.
+
+#### Stay in Saddle
+
+You can react instantly to try to avoid falling when your mount rears or bolts unexpectedly or when
+you take damage. This usage does not take an action.
+
+#### Fight with a Combat-Trained Mount
+
+If you direct your combat-trained mount to attack in battle, you can still make your own attack or
+attacks normally. This usage is a **free action**.
+
+#### Cover
+
+You can react instantly to drop down and hang alongside your mount, using it as cover. You can't
+attack or cast spells while using your mount as cover. If you fail your Ride check, you don't get
+the cover benefit. Using this option is an **immediate action**, but recovering from this position
+is a **move action** (no check required).
+
+#### Soft Fall
+
+You negate damage when you fall off a mount. If you fail the Ride check, you take 1d6 points of
+damage and are [prone](ref/rule/prone). This usage does not take an action.
+
+#### Leap
+
+You can get your mount to leap obstacles as part of its movement. If the Ride check to make the leap
+succeeds, make a check using your Ride modifier or the mount's jump modifier, which is lower, to see
+how far the creature can jump. If you fail your Ride check, you fall off the mount when it leaps and
+take the appropriate [falling](ref/rule/falling) damage (at least 1d6 points). This usage does not
+take an action but is part of the mount's movement.
+
+#### Spur Mount
+
+You can spur your mount to greater speed with a **move action**. A successful Ride check increases
+the mount's speed by 10 feet for 1 round but deals 1d3 points of damage to the creature. You can use
+this ability every round, but the mount becomes [fatigued](ref/misc/fatigued) after a number of
+rounds equal to its Constitution score. This ability cannot be used on a fatigued mount.
+
+#### Control Mount in Battle
+
+As a **move action**, you can attempt to control a [light horse](ref/eq-misc/horse-light),
+[pony](ref/eq-misc/horse-pony), [heavy horse](ref/eq-misc/horse-heavy), or other mount not trained
+for combat riding while in battle. If you fail the Ride check, you can do nothing else in that
+round. You do not need to roll for horses or ponies trained for combat.
+
+#### Fast Mount or Dismount
+
+You can attempt to mount or dismount from a mount of up to one size category larger than yourself as
+a **free action**, provided that you still have a move action available that round. If you fail the
+Ride check, mounting or dismounting is a **move action**. You can't use fast mount or dismount on a
+mount more than one size category larger than yourself.
+
+### Action
+
+Varies. Mounting or dismounting normally is a **move action**. Other checks are a **move action**, a
+**free action**, or no action at all, as noted above.
+
+### Special
+
+If you are riding bareback, you take a -5 penalty on Ride checks.
+
+If you have the [Animal Affinity](ref/feat/animal-affinity) feat, you get a bonus on Ride checks.
+
+If you use a [military saddle](ref/eq-misc/military-saddle) you get a +2 circumstance bonus on Ride
+checks related to staying in the saddle.
+
+Ride is a prerequisite for [Mounted Archery](ref/feat/mounted-archery),
+[Mounted Combat](ref/feat/mounted-combat), [Ride-By Attack](ref/feat/ride-by-attack),
+[Spirited Charge](ref/feat/spirited-charge), and [Trample](ref/feat/trample).
+
+### Unchained Rogue Skill Unlocks
+
+**Sources:** Pathfinder Unchained pg 86\
+If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Ride, you earn the
+following.
+
+**5 Ranks**
+
+**Details:** Your mount gains a +2 bonus on Fortitude saves or Constitution checks to avoid becoming
+fatigued or exhausted. This bonus increases by 1 for every 5 ranks beyond 5 you possess in Ride.
+
+**10 Ranks**
+
+**Details:** When you spur your mount, its speed is increased by 20 feet, and it gains a +2 bonus on
+Reflex saves and a +2 dodge bonus to AC.
+
+**15 Ranks**
+
+**Details:** When an opponent targets you or your mount with a bull rush, drag, overrun, reposition,
+or trip combat maneuver while you are mounted, you can substitute the result of a Ride check in
+place of your (or your mount's) CMD.
+
+**20 Ranks**
+
+**Details:** When you spur your mount, its speed is increased by 30 feet, and it gains a +4 bonus on
+Reflex saves and a +4 dodge bonus to AC.

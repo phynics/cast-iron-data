@@ -1,0 +1,150 @@
++++
+id = "ref/rule/simple-actions"
+kind = "rule"
+title = "Simple Actions"
+source_ids = ["pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "simple_actions", path = "json/rules_opt_combat01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Pathfinder Unchained pg 103
+
+The following are some of the more common actions. To take any of them, you need to commit only 1
+act (though some can be taken as free actions under special circumstances).
+
+**Aid Another:** You take the aid another action. This action has all of the subtypes of the action
+you aid.
+
+**Appraise a Single Item:** You spend time using your senses to appraise a single item that you can
+see. If you are holding the item, you gain a +2 bonus on the check and this action has the complex
+subtype.
+
+**Attack (Attack):** You make one or more attacks against a single foe within your melee reach (if
+making a melee attack) or range (if making a ranged attack).
+
+**Bull Rush (Attack):** You push a foe that is at most one size category larger than you straight
+back. Attempt a bull rush combat maneuver check. If you're successful, you push the foe back 5 feet.
+For every 5 by which your check exceeds your foe's CMD, you push that foe back 5 additional feet.
+You can choose to move along with the target if you have the necessary acts to do so. The foe's
+movement doesn't provoke attacks of opportunity unless you have the
+[Greater Bull Rush](ref/feat/greater-bull-rush) Feat.
+
+**Cast a Swift Spell:** You cast a single spell or use a single
+[spell-like ability](ref/umr/spell-like-abilities) with a casting time of 1 swift action.
+
+**Control a Frightened Mount (Complex):** You attempt to control a mount that's not trained for
+combat in battle. If you fail the Ride check, you can't try again until your next turn.
+
+**Crawl (Move):** You crawl 5 feet while prone.
+
+**Demoralize:** You shout threats at a foe within 30 feet that can see and hear you, attempting to
+demoralize it.
+
+**Direct or Redirect a Spell:** If a spell allows you to redirect an effect to a new target, you
+take this action to do so.
+
+**Disarm (Attack):** You attempt to disarm your foe. If your disarm combat maneuver check is
+successful, your foe drops one item of your choice that it's carrying or wielding (even if it's
+holding the item with two hands). If you exceed your foe's CMD by 10 or more, the foe drops two
+items of your choice. If you fail your combat maneuver by 10 or more, you drop any weapon you were
+using to disarm your foe.
+
+**Dismiss a Spell:** You dismiss the effects of a dismissible spell.
+
+**Draw or Sheathe a Weapon:** You draw or sheathe a weapon. If your base attack bonus is +0, this
+action provokes an attack of opportunity.
+
+**Escape a Grapple:** You attempt to escape or gain control of a grapple by attempting either an
+Escape Artist check or a combat maneuver check. The second time in a turn you take this action, you
+take a -5 penalty on the check. The third time, you take a -10 penalty on the check.
+
+**Feint (Attack):** You use Bluff to attempt a feint against an opponent. If you succeed, that
+opponent is denied its Dexterity bonus to AC for the next attack you make against it this turn. If
+you have the [Improved Feint](ref/feat/improved-feint) feat, this action doesn't have the attack
+subtype.
+
+**Handle an Animal:** You command an animal to perform a trick it knows by attempting a Handle
+Animal check. Some class abilities let characters attempt this as a free action.
+
+**Light a Torch with a Tindertwig or Open Flame:** You ignite a torch with a tindertwig or an open
+flame.
+
+**Load a Hand Crossbow or Light Crossbow (Complex):** You load a hand crossbow or a light crossbow
+with a bolt. If you have the [Rapid Reload](ref/feat/rapid-reload) feat with the weapon you are
+reloading, this is a free action.
+
+**Lower or Reactivate Spell Resistance:** You lower any
+[spell resistance](ref/rule/spell-resistance) that is active, or reactivate a spell resistance that
+has been lowered.
+
+**Manipulate an Item (Complex):** You grab an item that is in a backpack, pouch, pocket, or other
+similar container on your person; pick up an item; or move a heavy object. Sometimes, the GM might
+rule that manipulating an item is an advanced action and determine the number of acts that must be
+committed to succeed. Based on what you want to do, those actions may need to be committed
+consecutively.
+
+**Move (Move):** You move up to your speed. Typically you move across the land at either a walk or a
+sprint, but this covers other movement modes, including burrowing, flying, jumping, and swimming.
+
+**Mount or Dismount a Steed (Move):** You mount or dismount a steed. You can do this as a free
+action by attempting a DC 20 Ride check; failure means you provoke attacks of opportunity.
+
+**Open or Close a Door:** You open or close a door that is within your reach (not counting expanded
+reach from reach weapons). You must have at least one hand free to take this action.
+
+**Overrun (Attack):** You move up to your speed, and over the course of this action you attempt to
+move through the space of a foe that is no more than one size category larger than you. When
+attempting to move through your foe's space, your foe can choose to allow you to pass through and
+let you continue your movement. If the foe doesn't choose to or can't let you move past, you attempt
+an overrun combat maneuver check. If you succeed, you move through the target's space. If your check
+exceeds your foe's CMD by 5 or more, you move through the target's space and the target is knocked
+prone. If the target has more than two legs, it gains a bonus to its CMD against overrun combat
+maneuvers equal to +2 for each additional leg it possesses. If you fail this check, your movement
+stops in the space directly in front of the opponent.
+
+**Ready a Simple Action or an Advanced Action:** You ready a single simple or advanced action that
+you can take before the start of your next turn as a reaction. You must designate a definite trigger
+for that reaction (such as "if a foe attacks me," "if a foe casts a spell," or "if a foe moves
+adjacent to me"), and you must have enough acts left to complete the action you ready. Once you
+ready an action, your turn ends. If you don't take the action you readied as a reaction by the start
+of your next turn, you lose that reaction.
+
+**Ready or Drop a Shield:** You either strap a shield to your arm to gain its shield bonus to AC or
+unstrap and drop the shield. If you have a base attack bonus of +1 or higher, you can do either of
+these as a free action when you take the move simple action.
+
+**Search:** You use Perception to search a room for salient hidden creatures or clues, or you make a
+detailed search of a 10-foot-square area to detect traps, triggers, hidden objects, or footprints.
+When you search an area, this action has the complex subtype.
+
+**Spell Combat (Attack, Complex):** You make an attack roll with a light or one-handed melee weapon,
+then cast a spell on the magus spell list with a casting time of 1 standard action. You take a -2
+penalty on the melee attack, but the spell is cast regardless of whether the attack hits. If you
+cast the spell defensively, you can subtract your Intelligence bonus from the result of the attack
+roll to add the same value as a circumstance bonus on the [concentration](ref/rule/concentration)
+check. You must have the [spell combat class feature](ref/class/magus) to take this action, and can
+take this action only once per turn. To take this action, you must have one hand free. You can't
+also take the following actions this turn: cast a standard-action spell or cast a 1-round-action
+spell.
+
+**Stand Up (Move):** You stand up from being prone.
+
+**Step:** You move 5 feet.
+
+**Sunder (Attack):** You try to sunder an item held or worn by your foe. Attempt a sunder combat
+maneuver check. If you succeed, you deal damage to the item normally. Damage that exceeds the item's
+[hardness](ref/umr/hardness) is subtracted from its hit points. If an object has less than or equal
+to half its total hit points remaining, it gains the broken condition. If the damage you deal
+reduces the object to 0 or fewer hit points, you can choose to destroy the object. If you choose not
+to destroy it, the object is left with only 1 hit point.
+
+**Trip (Attack):** You try to trip your opponent. Attempt a trip combat maneuver check against a foe
+that is no more than one size category larger than you. If you succeed, you knock the target prone.
+If you fail by 10 or more, you are knocked prone instead. If the target has more than two legs, it
+gains a +2 bonus to its CMD against this attempt for each additional leg it possesses.
+
+**Use a Swift Ability:** You use a single ability that can be used as a swift action.

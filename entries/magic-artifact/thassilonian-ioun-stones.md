@@ -1,0 +1,43 @@
++++
+id = "ref/magic-artifact/thassilonian-ioun-stones"
+kind = "item"
+title = "Thassilonian Ioun Stones"
+source_ids = ["rise-of-the-runelords-anniversary-edition"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "thassilonian_ioun_stones", path = "json/magic_artifact.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "-"
+slot = "none"
+aura = "strong varied"
+caster_level = "12th"
++++
+
+**Sources:** Rise of the Runelords Anniversary Edition pg 421\
+**Aura** strong varied; **CL** 12th\
+**Slot** none; **Price** -; **Weight** -
+
+Whether they were invented by the Azlanti or merely discovered by them,
+[ioun stones](ref/magic-wondrous/ioun-stone) were an important part of Azlanti society - and by
+extension, of Thassilonian society. Many of Thassilon's rulers - particularly runelords like
+Karzoug - took to the art of embedding these stones in their flesh. An ioun stone implanted in this
+manner cannot be sundered or stolen.
+
+Thassilonian wizards perfected and enhanced many forms of ioun stones, such as the four unusually
+powerful stones listed below. These stones are minor artifacts, and methods of their creation have
+been lost since Thassilon's fall.
+
+> **Amber Spindle:** An amber spindle grants a +1 resistance bonus on all saving throws (the bonuses
+> from possessing multiple amber spindles stack, up to a maximum of +5).
+>
+> **Crimson Sphere:** This ioun stone grants a +2 enhancement bonus to Intelligence (the bonuses
+> from possessing multiple crimson spheres stack, up to a maximum of +6).
+>
+> **Emerald Ellipsoid:** An emerald ellipsoid grants 5 bonus hit points (the bonuses from multiple
+> emerald ellipsoids stack; there is no maximum benefit).
+>
+> **Onyx Rhomboid:** This stone grants a +2 enhancement bonus to Constitution (the bonuses from
+> possessing multiple onyx rhomboids stack, up to a maximum of +6).

@@ -1,0 +1,25 @@
++++
+id = "ref/rule/improving-skill-checks"
+kind = "rule"
+title = "Improving Skill Checks"
+source_ids = ["dungeoneers-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "improving_skill_checks", path = "json/rules_rulesets01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Dungeoneer's Handbook pg 15
+
+Each dungeon guide can grant bonuses on up to three very specific skill checks both in and out of
+the dungeon. A PC who has ranks in the guide's associated skill can attempt a check with that skill
+while using the guide, which takes 1 minute. If she succeeds, she gains a circumstance bonus on one
+of the guide's listed skill checks (the amount of the bonus is listed with each skill), which the PC
+must make within 10 minutes. Failure indicates that the guide doesn't include helpful details
+pertaining to that specific check or that the PC was unable to understand the guide well enough to
+gain a bonus from it at that time. A PC cannot try again to improve a skill check, though she can
+attempt to gain the skill bonus on a different check. For example, a PC who fails to gain a bonus
+from her dungeon guide on dismantling a wooden trap may try to improve a later check with a
+different wooden trap. A PC cannot gain more than one bonus from a dungeon guide at a time.

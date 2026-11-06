@@ -1,0 +1,37 @@
++++
+id = "ref/rule/good-spells-and-bad-spells"
+kind = "rule"
+title = "Good Spells and Bad Spells"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "good_spells_and_bad_spells", path = "json/rules_gm04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 114
+
+The best spells do something interesting even when the casting isn't fully successful. They should
+have fairly simple mechanics without many ambiguities, special cases, or qualifications. If a spell
+takes a half-page or more to describe, it is probably too complicated and should be rejected or
+revised.
+
+Watch out for spells that counter or otherwise render useless equal- or higher-level magics. For
+defensive spells, countering an equal-level spell is fine (like [shield](ref/spell/shield) negating
+[magic missile](ref/spell/magic-missile)), but an offensive spell generally should only overcome
+lower-level defenses or higher-level spells that duplicate those defenses (like
+[disintegrate](ref/spell/disintegrate) destroying both [wall of force](ref/spell/wall-of-force) and
+[forcecage](ref/spell/forcecage)).
+
+Good spells expand upon the existing themes of magic, but in a novel manner. The game doesn't really
+need more ways to throw damage around, but a spell that hurls adjacent enemies away from the caster
+is both interesting and useful. Watch for spells that break the implied limits of the game. Most
+arcane casters have poor healing abilities, and divine spells rarely excel at direct damage. With
+rare exception, spells shouldn't duplicate existing class features or feats.
+
+While as a general rule overly specialized spells are a bad idea, there's much to be said for
+researching specialized spells like a brewer's blessing or a charm to hold a shoe on a horse. If a
+player is particularly excited about the spell, consider approving it even if it doesn't have much
+in-game application.

@@ -1,0 +1,198 @@
++++
+id = "ref/monster/irradiated-dead"
+kind = "creature"
+title = "Irradiated Dead"
+source_ids = ["pathfinder-87-the-choking-tower"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "irradiated_dead", path = "json/monsters33.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "undead"
+size = "medium"
+alignment = "neutral evil"
+ac = "19/14/15"
+hp = "85~10d8+40"
+fortitude = "+6"
+reflex = "+6"
+will = "+9"
+melee = "2 slams +12 (1d6+5 plus radiation)"
+special_attacks = "create spawn~radioactive~radioactive spew"
+abilities = ["20", "16", "-", "7", "15", "17"]
++++
+
+_This humanoid creature's pale orange, withered skin peels from its flesh in patches. Its yellow
+eyes stare, unblinking but seething with rage._
+
+**Irradiated Dead**
+
+**Challenge rating:** 7
+
+**dv:** 60
+
+**Initiative:** +7
+
+**Size:** medium
+
+**Alignment:** Neutral evil
+
+**Perception:** +15
+
+**source:** Pathfinder \#87: The Choking Tower/84
+
+**Type:** undead
+
+**Experience points:** 3,200
+
+**Armor class:** 19/14/15
+
+**Chan Res:** +2
+
+**Fort:** +6
+
+**Hit points:** 85 (10d8+40)
+
+**Immune:** [undead traits](ref/umr/undead-traits)
+
+**Mod:** +3 Dex, +1 dodge, +5 natural
+
+**Ref:** +6
+
+**Will:** +9
+
+**Offense**
+
+**Speed:** 30 ft.
+
+**Melee:** 2 slams +12 (1d6+5 plus radiation)
+
+**Spec Att:** create spawn, radioactive, radioactive spew
+
+**Statistics**
+
+**Ability scores:** Str 20, Dex 16, Con -, Int 7, Wis 15, Cha 17
+
+**Base attack bonus:** +7
+
+**Combat maneuver bonus:** +11
+
+**Combat maneuver defense:** 26
+
+**Feats:** Combat Reflexes, Dodge, Improved Initiative, Power Attack, Toughness
+
+**Skills:** Climb +9
+
+**Languages:** Common
+
+**Ecology**
+
+**Environment:** any (Numeria)
+
+**Organization:** solitary, pair, or gang (3-6)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Create Spawn (Su)** Any humanoid creature that is slain by an irradiated dead's radiation becomes
+an irradiated dead itself in 1d4 rounds. Spawn so created are less powerful than typical irradiated
+dead, taking a -2 penalty on all d20 rolls and having 2 fewer hit points per Hit Die. Spawn are
+under the command of the irradiated dead that created them and remain enslaved until its
+destruction, at which point they lose their spawn penalties to d20 rolls and become full-fledged and
+free-willed irradiated dead. They don't possess any of the abilities they had in life.
+
+**Radioactive (Ex)** Any creature that comes in contact with an irradiated dead risks infection from
+the [radiation](ref/rule/radiation) that consumes the creatures. Any creature hit by an irradiated
+dead's slam attack or radioactive spew risks infection, as does any creature who touches an
+irradiated dead. On a failed saving throw, the target is affected by medium radiation and radiates
+low radiation in a 10-foot radius for as long as it remains afflicted. This is a poison effect, and
+the save DC is Charisma-based.
+
+- [Affliction: Radiation](ref/affliction/irradiated-dead/radiation)
+
+**Radioactive Spew (Ex)** Three times per day as a standard action, an irradiated dead can spew a
+15-foot cone of irradiated viscera from its mouth. Creatures in the area take 2d6 points of acid
+damage and are subjected to the creature's radiation. A successful DC 18 Reflex save halves the
+damage. Creatures that takes damage from this effect are subject to the irradiated dead's
+radioactive special ability. The save DC is Charisma-based.
+
+### Description
+
+Little more than orange-tinted, blistered flesh drawn across skeletons, the irradiated dead were
+once humanoids-mainly Kellid warriors-who have been tainted by the radiation that's strewn across
+Numeria. Created as a result of experiments by members of the Technic League, a handful of
+irradiated dead escaped their restraints and set off across Numeria, creating more of their kind
+with each kill. With the strange chemicals and radiation coursing through their bodies and
+augmenting survival and hunting instincts, they scour the Numerian wastes in search of prey.
+Irradiated dead generally appear the same size as the humanoids they once were, but they weigh less
+due to their bodies have been ravaged by radiation.
+
+### Ecology
+
+The secretive cabal known as the Technic League has always looked for ways to bolster its military
+power beyond the use of the gearsmen. Over the past couple centuries, the League's members have made
+numerous foul discoveries by studying the strange relics, technologies, and chemicals collected from
+the ruins of Divinity.
+
+Originally conceived by a Technic League lieutenant as more reliable and easily replaceable minions
+than the gearsmen, the irradiated dead were the result of a series of experiments conducted in the
+shadow of the Silver Mount. The lieutenant was skilled in the use of necromancy magic, a study not
+normally mastered by Technic League members. She gathered a group of the strongest young warriors in
+Starfall - all of whom sought to make names for themselves in the service of the Black Sovereign -
+and subjected them to round after round of brutal endurance tests, injections of chemicals and
+drugs, savage bloodletting, and forced starvation until their bodies couldn't take any more.
+
+The lieutenant administered to the warriors a number of chemical compounds recovered from a medical
+bay within Silver Mount that were originally intended to aid the crew of the Divinity in surviving
+in strange and hostile environments. Lacking full understanding of what they were working with, the
+lieutenant and her apprentices mixed and distilled these strange chemicals into a viscous, orange
+fluid that augmented physical strength and coordination while also thickening the outer layers of
+skin to a rock-like [hardness](ref/umr/hardness). She believed that replacing the subjects' blood
+with the orange liquid, along with controlled exposure to a smashed piece of wreckage leaking
+radiation, would yield the obedient soldiers she desired. When the first two test subjects completed
+the regimen, they awoke with a savage hunger for the flesh of their kind and rose up to fight her.
+The lieutenant escaped that first trial with only the loss of her right eye and her right hand just
+above the wrist. Her two apprentices were not so lucky. Subsequent refinements and tests yielded no
+better results. Though these latest test subjects retained their free will, their hunger for raw
+flesh was just as potent as the earlier attempts. And as they're generally more powerful than their
+Technic League creators, the irradiated dead saw no reason to serve their creators in any way.
+
+Not long after these experiments, several irradiated dead were turned loose or escaped. Rumors
+persist within the Technic League of study specimens that were kept in secret, and some foolish
+young sub-commanders are looking to restart the project.
+
+Burning inside with necrotic radiation, the irradiated dead display enhanced strength and
+coordination. Their skin and pupils are tinted pale orange like the fluids that replaced their
+blood. Their fingers transform into savage claws as sharp as ragged metal. Unexpectedly, the
+creatures show a remarkable resistance to the effects of positive energy that are deadly to most
+other forms of undead. They are also carriers of the radiation treatment that fueled their
+transition to undeath, able to pass the affliction to other living creatures.
+
+Irradiated dead are carnivorous, greatly preferring fresh meat, but they aren't above eating
+carrion. Cunning, patient and careful hunters, irradiated dead can prey on a nomad tribe over
+months, ambushing small bands of warriors and feeding upon them one by one.
+
+### Habitat
+
+Most irradiated dead are natives of the broken Numerian wastes, and they continue haunting these
+regions in their new forms just as they inhabited the wastes in life. They generally search for new
+hunting grounds in solitude, but those that manage to create their own spawn travel in packs with
+those they have transformed. Whether roaming across the plains, hills, and valleys, or even wading
+through muck and waterways, they spend much of their time lurking in shadowy places on the outskirts
+of villages or tribal encampments. They do not generally keep personal possessions or treasure from
+their meals, but may use such things to lure and entrap subsequent search parties.
+
+Though they're intelligent, the irradiated dead rarely show any inclination toward forming social
+groups or hierarchies, preferring to kill and eat creatures that enter their territories, though
+they will deal with other intelligent creatures if they must. If they encounter more powerful beings
+in their hunting grounds, irradiated dead will work to trick or trap them. The irradiated dead
+simply move on to new territories if they are unable to eliminate the threat. An unconfirmed report
+by a Technic League spy in Sunder Horn, however, claimed that at least three fast-moving,
+orange-skinned creatures had been hunting on the outskirts of town for nearly a year. The creatures
+have seemingly disappeared without any further sightings in the last 18 months.
+
+Even the Technic League is aware of the dangers these creatures could pose to the populace. The
+methods used to create the irradiated dead are well-guarded secrets of the Technic League. These
+techniques are also impossible to implement outside of Numeria, because the necrotic radiation and
+alien chemicals instrumental to their creation can be found nowhere else on Golarion.

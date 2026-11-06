@@ -1,0 +1,146 @@
++++
+id = "ref/monster/sphinx-criosphinx"
+kind = "creature"
+title = "Criosphinx (Sphinx)"
+source_ids = ["bestiary-3"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sphinx_criosphinx", path = "json/monsters39.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+size = "large"
+alignment = "neutral"
+ac = "20/9/20"
+hp = "85~10d10+30"
+fortitude = "+10"
+reflex = "+7"
+will = "+4"
+melee = "2 claws +15 (1d6+6), gore +16 (2d4+6/19-20)"
+special_attacks = "swooping charge (gore, 4d4+12)"
+abilities = ["23", "10", "17", "12", "12", "11"]
++++
+
+_This creature has the wings of a bird, the body of a lion, and the head of a ram with sad, wise
+eyes._
+
+**Criosphinx**
+
+**Challenge rating:** 7
+
+**dv:** 60
+
+**Initiative:** +0
+
+**Size:** large
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +10
+
+**source:** Bestiary 3/252
+
+**Experience points:** 3,200
+
+**Armor class:** 20/9/20
+
+**Fort:** +10
+
+**Hit points:** 85 (10d10+30)
+
+**Mod:** +11 natural, -1 size
+
+**Ref:** +7
+
+**Will:** +4
+
+**Offense**
+
+**Speed:** 30 ft., fly 60 ft. (poor)
+
+**Melee:** 2 claws +15 (1d6+6), gore +16 (2d4+6/19-20)
+
+**Reach:** 5
+
+**Space:** 10
+
+**Spec Att:** swooping charge (gore, 4d4+12)
+
+**Spell-Like Abilities**
+
+**Caster level:** 10
+
+**Concentration:** +10
+
+**Constant:**
+
+- speak with animals
+
+**Statistics**
+
+**Ability scores:** Str 23, Dex 10, Con 17, Int 12, Wis 12, Cha 11
+
+**Base attack bonus:** +10
+
+**Combat maneuver bonus:** +17
+
+**Combat maneuver defense:** 27 (31 vs. trip)
+
+**Feats:** Improved Bull Rush, Improved Critical (gore), Power Attack, Skill Focus (Intimidate),
+Weapon Focus (gore)
+
+**Skills:** Bluff +10, Fly +1, Intimidate +16, Perception +10
+
+**Languages:** Common, Sphinx; _[speak with animals](ref/spell/speak-with-animals)_
+
+**Ecology**
+
+**Environment:** warm deserts or hills
+
+**Organization:** solitary
+
+**Treasure:** Standard
+
+### Special Abilities
+
+**Swooping Charge (Ex)** A charging criosphinx deals 4d4+12 points of damage with its gore attack. A
+flying criosphinx who drops at least 20 feet in altitude as part of a charge deals 6d4+18 points
+instead.
+
+### Description
+
+Perhaps the least leonine of all sphinxes, the ram-headed criosphinx lacks the intellect of
+androsphinxes and gynosphinxes, but still outmatches the dim-witted hieracosphinxes. Like
+hieracosphinxes and androsphinxes, criosphinxes are always male. At the start of a battle, a
+criosphinx lowers its horns and crashes into foes, clawing enemies it has engaged. It favors
+charging down on foes from great heights.
+
+Criosphinxes crave wealth over nearly all other things, habitually extorting tolls for safe passage
+from any who pass their lands. Groups who cannot pay must yield one of their number or a pair of
+mounts for the criosphinx's meal-single travelers must fight or die. Unlike gynosphinxes, no mere
+riddle suffices-only the shine of metal or the gleam of jewels can satisfy a criosphinx. Little can
+convince a criosphinx to part with even a single coin save the lust that its kind bears for the
+gynosphinx. Criosphinxes crave mating with gynosphinxes above all else, and pay well for the
+whereabouts of a female, or better yet, a well-crafted riddle that might impress one. For their
+part, gynosphinxes prefer to have little to do with what they mock as the sheep of sphinxes, though
+they sometimes lower themselves to a brief assignation in the rare event a criosphinx manages to
+impress them with wealth or wit.
+
+Some criosphinxes set themselves as soothsayers of the desert, trading upon the storied wisdom of
+androsphinxes and gynosphinxes to deceive gullible travelers. Like their more blustering brethren,
+they seek wealth from passers-by, but for the purposes of dispersing information rather than in
+exchange for safe passage. Such reliable information as they possess usually comes from idle
+conversation with the creatures of the desert, with criosphinxes using their inborn ability to speak
+with animals. A criosphinx lacking in sound information usually fabricates a pleasing lie.
+
+Criosphinxes detest hieracosphinxes, regarding them as little more than beasts and a disgrace to
+their noble race. They drive off their falcon-headed cousins with mock-charges and posturing,
+escalating to full-fledged attacks if ignored. Androsphinxes they view with mixed fear and respect,
+and gynosphinxes with disdain and lust.
+
+**Family:** [Sphinx](ref/family/sphinx)

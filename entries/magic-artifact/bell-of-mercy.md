@@ -1,0 +1,57 @@
++++
+id = "ref/magic-artifact/bell-of-mercy"
+kind = "item"
+title = "Bell of Mercy"
+source_ids = ["pathfinder-75-demons-heresy"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "bell_of_mercy", path = "json/magic_artifact.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "2,000 lbs."
+slot = "none"
+aura = "strong abjuration"
+caster_level = "20th"
++++
+
+**Sources:** Pathfinder \#75: Demon's Heresy pg 62\
+**Aura** strong abjuration; **CL** 20th\
+**Slot** none; **Price** -; **Weight** 2,000 lbs.
+
+This large bell appears to be cast from pure polished silver. It is engraved with delicate runes
+around the bottom lip, and measures 3 feet from lip to crown and 5 feet in circumference around the
+bottom. Sacred to the faith of [Desna](ref/faith/desna), seven such bells are believed to have
+existed at one point, each housed in a separate tower throughout the Inner Sea region. While these
+seven bell towers were separated by great distance, they represented the Seven Towers of Desna's
+palace, and pilgrimages to all seven were often undertaken by her faithful. Six towers are located
+in the western Mierani Forest of Varisia, the Hungry Mountains of Ustalav, the ruined city of
+Kokutang in the Sodden Lands, the eastern reaches of Tanglebriar in Kyonin, a hidden cove on Warlock
+Island in Cheliax, and somewhere in the hills south of White Canyon in Katapesh - over time, some of
+these locations have become quite dangerous. Each location presents its own dangers, and in some
+cases the bells themselves have gone missing. The seventh bell still hangs in its tower in an old
+fort in the eastern Stonewilds of the Worldwound.
+
+A Bell of Mercy's magic works only once per year, though it can be rung more often as a normal bell.
+When activated, the bell sanctifies the area around it with the effects of
+[hallow](ref/spell/hallow) with a 120-foot radius, and with the additional effects of
+[protection from evil](ref/spell/protection-from-evil) for every good-aligned creature within the
+area. Within a 60-foot radius, this also includes a chaotic good
+[maximized](ref/feat/maximize-spell) [forbiddance](ref/spell/forbiddance) effect. Creatures whose
+alignments are not chaotic or not good take 36 points of damage (Will DC 19 half) upon entering this
+area, while creatures whose alignments are neither chaotic nor good take 72 points of damage. All
+evil extraplanar creature within 60 feet when the bell is rung must succeed at DC 20 Will save or be
+[banished](ref/spell/banishment) to their plane of origin - evil outsiders who resist this are still
+[staggered](ref/misc/staggered) in this area as a result of the bell's power. Finally, the immediate
+structure surrounding the bell becomes infused with magic, causing doors and walls within its
+forbiddance area to be magically treated and repairing damage at the rate of 5 points of damage per
+round. These repairs cannot repair damage to a structure incurred before the bell was rung. A Bell
+of Mercy is constantly under the effect of a [dimensional lock](ref/spell/dimensional-lock), so it
+cannot be transported via teleportation.
+
+### Destruction
+
+A Bell of Mercy may be destroyed by transporting it to the Abyss, where it must be struck by an
+[adamantine](ref/eq-material/adamantine) [unholy](ref/magic-enh/unholy)
+[longsword](ref/eq-weapon/longsword) wielded by a [balor](ref/monster/demon-balor) lord.

@@ -1,0 +1,25 @@
++++
+id = "ref/swashdeed/dodging-panache"
+kind = "rule"
+title = "Dodging Panache"
+source_ids = ["advanced-class-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "dodging_panache", path = "json/class_ability_swashbuckler_deeds.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Dodging Panache (Ex)&FN&**
+
+**Immediate:** When an opponent attempts a melee attack against the swashbuckler, the swashbuckler
+can spend 1 panache point to move 5 feet; doing so grants the swashbuckler a dodge bonus to AC equal
+to her Charisma modifier (minimum 0) against the triggering attack. This movement doesn't negate the
+attack, which is still resolved as if the swashbuckler had not moved from the original square.
+
+**Prereq:** 1st-level swashbuckler
+
+**Special:** This movement is not a 5-foot step; it provokes attacks of opportunity from creatures
+other than the one who triggered this deed. The swashbuckler can only perform this deed while
+wearing light or no armor, and while carrying no heavier than a light load.

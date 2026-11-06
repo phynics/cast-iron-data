@@ -1,0 +1,84 @@
++++
+id = "ref/magic-artifact/spherical-boat-of-zutha"
+kind = "item"
+title = "Spherical Boat of Zutha"
+source_ids = ["pathfinder-137-the-city-outside-of-time"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "spherical_boat_of_zutha", path = "json/magic_artifact3.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "2 lbs."
+slot = "none"
+aura = "overwhelming necromancy and transmutation"
+caster_level = "25th"
++++
+
+**Sources:** Pathfinder \#137: The City Outside of Time pg 73\
+**Aura** overwhelming necromancy and transmutation; **CL** 25th\
+**Slot** none; **Price** -; **Weight** 2 lbs.
+
+This sphere of wood and metal about 3 inches in diameter is engraved with waves, a boat, sails, and
+clouds.
+
+The bearer of the Spherical Boat of Zutha can hear a faint ticking sound and see the waves, boat,
+and clouds engraved upon it moving slowly, as if animated by miniature clockwork mechanisms. When
+the bearer speaks a command word as a standard action, the sphere quickly unfolds, its many parts
+twisting, turning, and growing to form a ship as large as a small manor in the space of a single
+round, in the same manner as a [folding boat](ref/magic-wondrous/folding-boat). While expanding, the
+ship destroys any nonmagical barriers of [hardness](ref/umr/hardness) 10 or less. If barriers of
+greater hardness constrain it, the ship returns to its spherical form.
+
+The ship has the statistics presented below. The bearer of the Spherical Boat of Zutha can mentally
+steer the ship while aboard it. If the ship loses all its hit points, it returns to its spherical
+form and cannot be commanded to unfold for 1 month; after this time, the ship is restored to its
+maximum hit points.
+
+A second command word causes the ship to fold itself again to a small sphere. When the ship returns
+to its spherical form, whether due to hit point damage or its spoken command word, everything inside
+the ship (including its cargo and all creatures other than the bearer) enters an extradimensional
+space shaped like the ship. The bearer is safely ejected during this shrinking, occupying the same
+space as the small sphere. Creatures trapped inside the ship don't need food or drink and do not
+age, but every month the ship consumes the life energy of one random creature stored inside it,
+killing the creature instantly.
+
+### Spherical Boat of Zutha
+
+Colossal water vehicle\
+**Squares** 80 (20 ft. by 100 ft.)
+
+#### Defense
+
+**AC** 2; **[Hardness](ref/umr/hardness)** 20\
+**hp** 1,200 (599)\
+**Base Save** +0
+
+#### Offense
+
+**Maximum Speed** 500 ft.; **Acceleration** 100 ft.\
+**CMB** +8; **CMD** 18\
+**Ramming Damage** 8d8
+
+#### Description
+
+The _Spherical Boat of Zutha_ can carry 50 tons of cargo or 160 soldiers.
+
+**Propulsion** magic\
+**Driving Check** none (magic)\
+**Forward Facing** the ship's forward\
+**Driving Device** magic item\
+**Driving Space** any square on the ship\
+**Decks** 2\
+**Weapons** _The Spherical Boat of Zutha_ wasn't created with weapons, but it can accommodate up to
+20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the
+ship, or up to six Huge direct-fire siege engines in banks of three on the port and starboard sides
+of the ship, as with a normal warship. Although the bearer controls the movement of the ship by
+thought alone, additional crew members are required to operate any siege engines on the ship.
+
+### Destruction
+
+If the _Spherical Boat of Zutha_ is filled with ash while in ship form and then commanded to shrink,
+it bursts, dealing 20d6 points of slashing damage to creatures within 100 feet and leaving behind
+only blackened metal and sawdust.

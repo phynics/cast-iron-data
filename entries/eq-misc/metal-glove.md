@@ -1,0 +1,30 @@
++++
+id = "ref/eq-misc/metal-glove"
+kind = "item"
+title = "Metal glove"
+source_ids = ["dungeoneers-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "metal_glove", path = "json/equipment_misc2.json" },
+]
+
+[fields]
+kind = "item"
+price = "120 gp"
+weight = "10 lbs."
++++
+
+**Sources:** Dungeoneer's Handbook pg 24\
+**Price** 120 gp; **Weight** 10 lbs.\
+**Category** Clothing
+
+This thick iron gauntlet is more an encasing than a piece of armor. It has only a few moving joints,
+and the position of its fingers and wrist must be adjusted and locked into place before the wielder
+can properly slip it over her arm. When wearing a metal glove, it is impossible to manipulate one's
+digits (meaning the wearer cannot hold anything in that hand), but that hand and forearm are
+completely protected from injury, making it easy to reach into a trapped hole or a deadly animal's
+cage. Any trap or creature attempting to damage an arm wearing a metal glove must break through the
+glove before reaching the wearer. Heavy objects that would normally crush the wearer's hand rest
+harmlessly on the glove instead, likely trapping the item but allowing her to pull her hand out as
+normal. A metal glove has [hardness](ref/umr/hardness) 10 and 15 hit points, and can withstand 2,000
+pounds of pressure before crumpling. It does not protect the wearer from injury to other parts of
+her body.

@@ -1,0 +1,31 @@
++++
+id = "ref/trait/on-the-payroll"
+kind = "trait"
+title = "On the Payroll"
+source_ids = ["carrion-crown-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "on_the_payroll", path = "json/traits02.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Campaign"
++++
+
+**Type:** Campaign
+
+**Campaign:** Carrion Crown
+
+**Flavor:** Whether he needed a bodyguard in a rough neighborhood, a guide to an isolated
+archeological dig, or information on a specialized topic, Professor Lorrimor was never shy about
+hiring professionals to help him attain his goals. Over the course of his long career, thousands of
+people throughout the world served his needs and benefited from his generous wages (usually covered
+by his academic benefactor at the time). He had contacts in most areas of expertise in every corner
+of the known world, a knack for recognizing talent, and a desire to be surrounded by the best and
+brightest at all times. Whatever job the professor originally hired you for, your performance
+captured his attention, and he hired you many times throughout your career, sometimes even for jobs
+away from your home, always paying your expenses and compensating you well for your time. In your
+area of expertise, you are among the best.
+
+**Benefit:** Your years of hard work have paid off, granting you an additional 150 gp in starting
+wealth.

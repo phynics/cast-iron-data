@@ -1,0 +1,54 @@
++++
+id = "ref/rule/sphere-of-influence"
+kind = "rule"
+title = "Sphere of Influence"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sphere_of_influence", path = "json/rules_subsystems04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 181
+
+Your reputation travels only as far as the tales of your deeds. Even if you are a great hero in your
+homeland, when traveling elsewhere you will soon discover that your reputation diminishes until you
+eventually reach regions where you are completely unrecognized. The greater your reputation, the
+farther it travels and the broader your Sphere of Influence.
+
+Your Fame determines the maximum range of your Sphere of Influence. Your Sphere of Influence has a
+radius of 100 miles, generally increasing by another 100 miles when your Fame reaches 10, 20, 30,
+40, and 55. Increasing your Sphere of Influence isn't always automatic, and you are allowed some say
+as to where your reputation holds weight. For example, you could ask that your sphere extend more
+southward toward a major city and ignores the barbarian tribes to the east, or that it extend inward
+toward another country rather than out into the ocean.
+
+Though your reputation may spread by happenstance, it usually spreads deliberately, whether by
+traveling bards embellishing stories of your accomplishments to make them more entertaining, your
+allies exaggerating your common achievements, your enemies repeating rumors about you to recruit
+others against you, or you telling your story to eager listeners. Where these tales get told
+determines where you become known and shapes your Sphere of Influence - a heroic sorcerer might hire
+bards to brag about her magic in a nearby kingdom she plans to visit, or a villainous barbarian
+might drive the maimed survivors of his raids southward to sow fear among his next victims.
+
+Outside your Sphere of Influence, your Fame is 0. You can attempt to expand your Sphere of Influence
+into a new settlement by attempting a DC 30 Charisma, Diplomacy, or Intimidate check. If you
+succeed, you treat the settlement as being within your Sphere of Influence for 1d4 days, though your
+Fame is effectively halved for that settlement. After this time, the settlement reverts to being
+outside your sphere.
+
+The following actions and conditions alter your Charisma, Diplomacy, or Intimidate check modifier
+for the purpose of expanding your Sphere of Influence.
+
+### Table 3-6: Sphere of Influence Modifiers
+
+|Action|Check Modifier|
+| --- | --- |
+|Allies or minions spread tales of your deeds before you arrive|+5|
+|A bard spreads tales or songs of your deeds before you arrive|+1/2 bard level|
+|You have NPC contacts in the settlement|+1|
+|You have enemies in the settlement|+1|
+|Distance from your Sphere of Influence|-1 per 10 miles|
+|Settlement's primary language is different from yours|-5|

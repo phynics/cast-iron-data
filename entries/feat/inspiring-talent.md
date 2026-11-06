@@ -1,0 +1,32 @@
++++
+id = "ref/feat/inspiring-talent"
+kind = "feat"
+title = "Inspiring Talent"
+source_ids = ["inner-sea-races"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "inspiring_talent", path = "json/feat09.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Teamwork"]
+prerequisites = "Half-elf, adaptability or ancestral arms racial trait."
+benefit = "Whenever you are within 30 feet of an ally who also has this feat, you gain the following benefits. If the ally has a Skill Focus feat, you also count as having that feat for the purpose of the following skill uses: Acrobatics checks to move through threatened squares, Bluff checks to feint, Escape Artist checks to escape a grapple, Intimidate checks to demoralize, Knowledge checks to identify a monster, and Perception checks to notice a creature using Stealth. Furthermore, if the ally has a weapon proficiency gained through the ancestral arms racial trait, you also count as having that weapon proficiency."
++++
+
+## Inspiring Talent (Teamwork)
+
+**Sources:** Inner Sea Races pg 207
+
+Your innate adaptability allows you to imitate others of your kind nearly flawlessly, to the extent
+that you can utilize their mastery over skills almost as if you had personally trained in their use.\
+**Prerequisites:** [Half-elf](ref/race/half-elf), adaptability or ancestral arms racial trait.\
+**Benefit:** Whenever you are within 30 feet of an ally who also has this feat, you gain the
+following benefits. If the ally has a [Skill Focus](ref/feat/skill-focus) feat, you also count as
+having that feat for the purpose of the following skill uses: [Acrobatics](ref/skill/acrobatics)
+checks to move through threatened squares, [Bluff](ref/skill/bluff) checks to feint,
+[Escape Artist](ref/skill/escape-artist) checks to escape a grapple,
+[Intimidate](ref/skill/intimidate) checks to demoralize, [Knowledge](ref/skill/knowledge-all) checks
+to identify a monster, and [Perception](ref/skill/perception) checks to notice a creature using
+[Stealth](ref/skill/stealth). Furthermore, if the ally has a weapon proficiency gained through the
+ancestral arms racial trait, you also count as having that weapon proficiency.

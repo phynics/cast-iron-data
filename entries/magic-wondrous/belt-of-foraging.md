@@ -1,0 +1,36 @@
++++
+id = "ref/magic-wondrous/belt-of-foraging"
+kind = "item"
+title = "Belt of Foraging"
+source_ids = ["ultimate-equipment", "advanced-race-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "belt_of_foraging", path = "json/magic_wondrous_belt_body_chest.json" },
+]
+
+[fields]
+kind = "item"
+price = "6,000 gp"
+weight = "1 lb."
+slot = "belt"
+aura = "faint divination"
+caster_level = "3rd"
++++
+
+**Sources:** Ultimate Equipment pg 208, Advanced Race Guide pg 78\
+**Aura** faint divination; **CL** 3rd\
+**Slot** belt; **Price** 6,000 gp; **Weight** 1 lb.
+
+This belt allows its wearer to easily forage while in the wilderness. As long as the wearer of this
+belt has at least 1 rank in [Survival](ref/skill/survival), she need not make a check to get along
+in the wild; she always succeeds at that Survival check as long as she moves at half her overland
+speed. She can still choose to make that check to provide food and water for one other creature for
+every 2 points by which her result exceeds DC 10. Furthermore, she can instead make a DC 20 Survival
+check to get along in the wild while moving at full speed instead of half speed. While doing so, she
+can provide food and water for one other creature for every 2 points by which his check result
+exceeds 20.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[detect animals or plants](ref/spell/detect-animals-or-plants), creator must have 1 rank in
+Survival; **Cost** 3,000 gp

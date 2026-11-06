@@ -1,0 +1,108 @@
++++
+id = "ref/arc-occultist/extemporaneous-channeler"
+kind = "archetype"
+title = "Extemporaneous Channeler"
+source_ids = ["martial-arts-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "extemporaneous_channeler", path = "json/archetypes_occultist.json" },
+]
+relations = [
+  { kind = "archetype", target = "ref/class/occultist" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Martial Arts Handbook pg 8\
+Extemporaneous channelers study the power of transformation and use items in unintended ways to
+awaken their potential.
+
+**Weapon Proficiency**
+
+**Alters:** Weapon proficiencies
+
+**Info:** An extemporaneous channeler is proficient with all simple weapons.
+
+**Improvisational Combatant (Ex)**
+
+**Ability:** An extemporaneous channeler does not incur any penalties for using an
+[improvised weapon](ref/misc/improvised-weapons). She is considered to have the
+[Catch Off-Guard](ref/feat/catch-off-guard) and [Throw Anything](ref/feat/throw-anything) feats for
+the purpose of meeting prerequisites.
+
+**Fleeting Focus (Su)**
+
+**Ability:** When an extemporaneous channeler refreshes her mental focus, she must spend 1 hour
+preparing her implements for spellcasting but does not immediately invest them with her generic
+focus, which is equal to her occultist level + twice her Intelligence modifier. At any point during
+the day, she can shift any amount of her generic focus to any number of her implements by
+concentrating for 1 round while touching her implements. After every 10 minutes, her invested
+implements each lose 1 point of mental focus, as if it had been expended on a focus power.
+
+**Alters:** Mental focus
+
+**Info:** An extemporaneous channeler's studies of the changing nature of objects give her more
+mental focus, which she learns to quickly invest in her implements throughout the day, but which she
+struggles to maintain.
+
+**Special:** If the extemporaneous channeler uses her _withdraw focus_ ability to remove focus
+before a full 10-minute increment has elapsed, each implement still loses 1 point of mental focus as
+if it had been invested for that entire increment.
+
+**Transformative Resonance (Su)**
+
+**Special:** The extemporaneous channeler can imbue the item with any one weapon special ability
+with an equivalent enhancement bonus less than or equal to her maximum bonus by reducing the granted
+enhancement bonus by the appropriate amount, such as reducing a +2 bonus to a +1
+[flaming](ref/magic-enh/flaming) enchantment. She chooses the special ability when she activates
+this power, but she can spend 1 point of generic focus as a **swift action** to change it, which
+also resets the duration of the power. The item must have an enhancement bonus of at least +1
+(either on its own or from her imbuing it) to gain a weapon special ability. This ability stacks
+with any other effect that grants an enhancement bonus to an improvised weapon, such as
+[gloves of improvised might](ref/magic-wondrous/gloves-of-improvised-might), to a maximum of +5.
+
+**Swift:** An extemporaneous channeler can expend 1 point of generic focus as to allow her generic
+focus to resonate in her improvised weapons. For 1 minute, the extemporaneous channeler grants any
+item she uses as an improvised weapon a +1 enhancement bonus on attack and damage rolls for every 3
+points of generic focus she has in her body. She can give it a maximum bonus of +1.
+
+At 5th level: The maximum bonus +2.
+
+At 9th level: The maximum bonus +3.
+
+At 13th level: The maximum bonus +4.
+
+At 17th level: The maximum bonus +5.
+
+**Withdraw Focus (Su)**
+
+**Alters:** Shift focus
+
+**Gained:** At 4th Level
+
+**Special:** Unlike expending focus normally, this shift can reduce the effect of a resonant power
+in the implement from which the mental focus was taken.
+
+**Standard:** An extemporaneous channeler can shift any amount of focus from any number of
+implements back into herself as generic focus. Doing so costs her no loss of focus (other than
+what's lost due to her _fleeting focus_ ability).
+
+**Improvised Spell (Su)**
+
+**Ability:** Once per day, an extemporaneous channeler can cast an occultist spell from an implement
+school she knows as if it were one of her spells known, expending a spell slot of the same level and
+an amount of generic focus equal to the spell's level to cast the desired spell. A spell cast as an
+_improvised spell_ always has a minimum casting time of 1 round, regardless of the casting time of
+the spell.
+
+**Flavor:** An extemporaneous channeler learns to use her implements to improvise a spell similar to
+one she already knows.
+
+**Gained:** At 8th Level
+
+**Replaces:** Magic circles, outside contact, binding circles, fast circles
+
+At 12th level: The number of uses 2 times a day.
+
+At 17th level: The number of uses 3 times a day.

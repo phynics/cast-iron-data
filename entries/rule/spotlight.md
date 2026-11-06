@@ -1,0 +1,31 @@
++++
+id = "ref/rule/spotlight"
+kind = "rule"
+title = "Spotlight"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "spotlight", path = "json/rules_gm01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 32
+
+There are many in-game tricks that a GM can use to convey information or rework elements of his
+game, including those mentioned above. The most powerful technique, though, is simply describing a
+monster, person, or item in detail. Anything that a GM devotes playtime to rises in the awareness of
+the players.
+
+In most cases, that just means mentioning an item more than once. Players pick up on GM references
+very quickly. If you want a particular character to draw the party's attention, mention them as
+someone they see when they return to a particular location. Anyone they see more than once, or
+anyone they "notice" because the GM tells them they notice them, is bound to get extra scrutiny from
+experienced players. Of course, less experienced players might not pick up on it, and it's certainly
+okay to go from mentioning something to the more direct, "This guard seems to want something from
+you," or even "That painting seems bigger than the others, and the frame makes it look more
+important."
+
+The point of using the GM spotlight is to get the action moving again. Be brutally obvious only if
+you must, but don't let the adventure derail just because someone failed a Perception roll.

@@ -1,0 +1,24 @@
++++
+id = "ref/feat/wall-of-flesh"
+kind = "feat"
+title = "Wall of Flesh"
+source_ids = ["kobolds-of-golarion"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "wall_of_flesh", path = "json/feat17.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Teamwork"]
+prerequisites = "Small size or smaller."
+benefit = "When adjacent to an ally with this feat, you're considered one size category larger for determining CMD and the way combat maneuvers and abilities affect you."
++++
+
+## Wall of Flesh (Teamwork)
+
+**Sources:** Kobolds of Golarion pg 25
+
+You swarm with your allies, becoming a wall of creatures.\
+**Prerequisites:** Small size or smaller.\
+**Benefit:** When adjacent to an ally with this feat, you're considered one size category larger for
+determining CMD and the way [combat maneuvers](ref/rule/combat-maneuvers) and abilities affect you.

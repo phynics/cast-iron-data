@@ -1,0 +1,164 @@
++++
+id = "ref/monster/naga-spirit-naga"
+kind = "creature"
+title = "Spirit Naga"
+source_ids = ["bestiary"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "naga_spirit_naga", path = "json/monsters35.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "aberration"
+size = "large"
+alignment = "chaotic evil"
+ac = "23/14/18"
+hp = "95~10d8+50"
+fortitude = "+8"
+reflex = "+10"
+will = "+10"
+melee = "bite +10 (2d6+6 plus poison)"
+special_attacks = "charming gaze"
+abilities = ["18", "20", "21", "12", "17", "17"]
++++
+
+_Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpentine monstrosity._
+
+**Spirit Naga**
+
+**Challenge rating:** 9
+
+**Type:** aberration
+
+**Alignment:** Chaotic evil
+
+**dv:** 60
+
+**Initiative:** +5
+
+**Size:** large
+
+**Perception:** +22
+
+**source:** Pathfinder RPG Bestiary/213
+
+**Experience points:** 6,400
+
+**Armor class:** 23/14/18
+
+**Fort:** +8
+
+**Hit points:** 95 (10d8+50)
+
+**Mod:** +5 Dex, +9 natural, -1 size
+
+**Ref:** +10
+
+**Will:** +10
+
+**Offense**
+
+**Speed:** 40 ft., swim 20 ft.
+
+**Melee:** bite +10 (2d6+6 plus poison)
+
+**Reach:** 5
+
+**Space:** 10
+
+**Spec Att:** charming gaze
+
+**Spells Known**
+
+**Caster level:** 7
+
+**3rd-level spells:**
+
+- 5/day: displacement, fireball, DC 16
+
+**2nd-level spells:**
+
+- 7/day: cat's grace, invisibility, summon swarm
+
+**1st-level spells:**
+
+- 7/day: charm person, DC 14, cure light wounds, divine favor, magic missile, shield of faith
+
+**Cantrips:**
+
+- At will: bleed, daze, DC 13, detect magic, mage hand, open/close, ray of frost, read magic
+
+**Statistics**
+
+**Ability scores:** Str 18, Dex 20, Con 21, Int 12, Wis 17, Cha 17
+
+**Base attack bonus:** +7
+
+**Combat maneuver bonus:** +12
+
+**Combat maneuver defense:** 27 (can't be tripped)
+
+**Feats:** Ability Focus (charming gaze), Combat Casting, Eschew Materials^B^, Lightning Reflexes,
+Skill Focus (Perception), Stealthy
+
+**Skills:** Bluff +13, Escape Artist +13, Intimidate +9, Knowledge (arcana) +14, Perception +22,
+Spellcraft +11, Stealth +15, Swim +12
+
+**Languages:** Abyssal, Common
+
+###### B {#footnote-b}
+
+Bonus feat.
+
+**Ecology**
+
+**Environment:** temperate marshes
+
+**Organization:** solitary or nest (2-4)
+
+**Treasure:** Standard
+
+### Special Abilities
+
+**Charming Gaze (Su)** As charm person, 30 feet, Will DC 20 negates. The save DC is Charisma-based.
+
+**Poison (Ex)**
+
+**Type:** Poison (Bite-injury)
+
+**Save:** Fortitude DC 20
+
+**Frequency:** 1/round for 6 rounds
+
+**Effect:** Constitution damage 1d4
+
+**Cure:** 1 save
+
+**Spells (Sp)** A spirit naga casts spells as a 7th-level sorcerer, and can cast spells from the
+cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane
+spells for a spirit naga.
+
+### Description
+
+Morbid-minded and wretched to look upon, spirit nagas are the witches of the naga race, hateful
+outcasts long shunned for their dark powers and loathsome ways. A typical spirit naga is slender,
+with the scales of a venomous serpent and a tangle of greasy hair framing their pale faces. Most
+measure 14 feet long but weigh less than 300 pounds.
+
+Spirit nagas delight in places of death and desolation. Battle-scarred ruins, untended graveyards,
+despoiled forests, and tangled swamps all attract these repulsive creatures. Where guardian nagas
+favor places of innate sanctity, spirit nagas seek out places of fundamental corruption, sites they
+believe to be imbued with dark magics. The crypts of long-dead tyrants, the death places of great
+heroes, and the ruins of nefarious keeps all attract these wretched serpents.
+
+Most spirit nagas believe themselves to be the inheritors of some mysterious dark favor, seeing
+their innate magical talents as evidence of such. Most commune with vague powers of death and
+devastation, working profane rites and seeking grotesque auguries from cultic forces. To aid them,
+spirit nagas often use their enchanting gaze, changing victims into fawning fanatics and would-be
+sacrifices.
+
+Spirit nagas occasionally band together in small groups - some seeming to mimic the covens of hags.
+While a particular plot or foe might bring these deadly serpents together for a short time, spirit
+nagas are loyal only to themselves, and such alliances always end in deadly betrayal.
+
+**Family:** Naga

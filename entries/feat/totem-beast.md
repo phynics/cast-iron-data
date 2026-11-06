@@ -1,0 +1,31 @@
++++
+id = "ref/feat/totem-beast"
+kind = "feat"
+title = "Totem Beast"
+source_ids = ["advanced-class-origins"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "totem_beast", path = "json/feat16.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Wis 13, animal companion class feature."
+benefit = "Select one animal aspect from the list presented in the hunter class's animal focus class feature. Your animal companion has natural coloration suggestive of this aspect - a bear might have a dark spot in the shape of a bat, or a hawk might have unusual tiger striping in its feathers. Your animal companion gains the benefits of the selected animal aspect, treating its Hit Dice as its effective hunter level for this ability. This bonus doesn't stack if the animal companion is already under the benefit of the same animal aspect because of the actual class feature."
++++
+
+**Sources:** Advanced Class Origins pg 27
+
+Your animal companion becomes spiritually connected to an animal totem that has a spiritual
+significance for you or your background, such as a Shoanti clan's animal totem.\
+**Prerequisites:** Wis 13, animal companion class feature.\
+**Benefit:** Select one animal aspect from the list presented in the hunter class's
+[animal focus](ref/ability/animal-foci) class feature. Your animal companion has natural coloration
+suggestive of this aspect - a bear might have a dark spot in the shape of a bat, or a hawk might
+have unusual tiger striping in its feathers. Your [animal companion](ref/sidekick/animal-companion)
+gains the benefits of the selected animal aspect, treating its Hit Dice as its effective hunter
+level for this ability. This bonus doesn't stack if the animal companion is already under the
+benefit of the same animal aspect because of the actual class feature.
+
+For example, an animal companion with Totem Beast (snake) under the effect of the snake aspect from
+its hunter owner would get a +2 bonus on attack rolls when making attacks of opportunity, not a +4
+bonus.

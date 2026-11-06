@@ -1,0 +1,32 @@
++++
+id = "ref/rule/restrictions-on-trait-selection"
+kind = "rule"
+title = "Restrictions on Trait Selection"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "restrictions_on_trait_selection", path = "json/rules_basics01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Advanced Player's Guide pg 326
+
+There are a few rules governing trait selection. To begin with, your GM controls how many bonus
+traits a PC begins with; the default assumption is two traits. When selecting traits, you may not
+select more than one from the same list of traits (the four basic traits each count as a separate
+list for this purpose). Certain types of traits may have additional requirements, as detailed in the
+section above.
+
+Remember also that traits are intended to model events that were formative in your character's
+development, either events from before he became an adventurer, or (in the case of additional traits
+gained via the [Additional Traits](ref/feat/additional-traits) feat) ones that happened while
+adventuring. Even if your character becomes a hermit and abandons society, he'll still retain his
+legacy of growing up an aristocrat if he took the relevant social trait. The one exception to this
+is religion traits - since these traits require continued faith in a specific deity, your character
+can indeed lose the benefits of these traits if he switches religions. In this case, consult your GM
+for your options. She may simply rule that your character loses that trait, or she might allow him
+to pick a new religion trait tied to his new deity. Another option is that if your character
+abandons a religion, he loses the associated religion trait until he gains an experience level, at
+which point he may replace a lost religion trait with a basic faith trait.

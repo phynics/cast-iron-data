@@ -1,0 +1,149 @@
++++
+id = "ref/pclass/agent-of-the-grave"
+kind = "prestige_class"
+title = "Agent of the Grave"
+source_ids = ["pathfinder-45-broken-moon"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "agent_of_the_grave", path = "json/prestige_classes.json" },
+]
+
+[fields]
+kind = "class"
+class_type = "prestige"
+hit_die = "d8."
++++
+
+**Sources:** Pathfinder \#45: Broken Moon pg 67
+
+On their twisted route to immortality, adherents of the [Whispering Way](ref/rule/f-gravepath) learn
+secret rites that aid them on their path. Every step brings a member that much closer to the final
+secret. Particularly promising members earn invitations to join an elite group within the
+organization. In their role as agents of the grave, these members serve the desires of the current
+leadership, yet more often than not, agents of the grave act solely for one cell or faction.
+
+Agents of the grave learn the deepest arcane secrets of the Whispering Way in their quest for
+undeath, gaining undead-like traits before their final elevation to a state beyond death. These vile
+powers, paired with the ability to veil their intentions and increased breadth of knowledge, make
+agents of the grave perfect members for the task of turning powerful wizards and clerics to the path
+of the Whispering Way, as well as collectors of the foul relics, components, corpses, and morbid
+secrets that lie scattered across Golarion.
+
+**Role:** Agents of the grave master the necromantic arts, yet instead of controlling hordes of
+undead minions, they instead seek ultimate enlightenment, and possess subtle and murderous skills to
+help them attain it. Agents of the grave infiltrate other organizations to glean their magical
+secrets and have an interest in turning talented members to their own blasphemous discipline.
+
+**Alignment:** Agents of the grave are devoted to gaining personal power through the transition into
+undeath and advancement within the Whispering Way's macabre hierarchy. Callous to the needs and
+agendas of others, these elite servants of death are unwaveringly evil in their pursuit of an
+ascended death.
+
+### Requirements
+
+To become an agent of the grave, a character must fulfill all the following criteria.
+
+**Alignment:** Any evil.\
+**Skills:** Knowledge (arcana) 5 ranks, Knowledge (religion) 5 ranks.\
+**Spells:** Must be able to cast [animate dead](ref/spell/animate-dead).\
+**Special:** Must be a member of the Whispering Way for 1 year.
+
+### Class Skills
+
+The Agent of the Grave's class skills are [Bluff](ref/skill/bluff) (Cha), [Heal](ref/skill/heal)
+(Wis), [Intimidate](ref/skill/intimidate) (Cha), [Knowledge (arcana)](ref/skill/knowledge-arcana)
+(Int), [Knowledge (history)](ref/skill/knowledge-history) (Int),
+[Knowledge (religion)](ref/skill/knowledge-religion) (Int), [Linguistics](ref/skill/linguistics)
+(Int), [Spellcraft](ref/skill/spellcraft) (Int), [Use Magic Device](ref/skill/use-magic-device)
+(Cha).
+
+**Skill Points at each Level:** 4 + Int modifier.\
+**Hit Die:** d8.
+
+### Class Features
+
+|Level|Base Attack Bonus|Fort Save|Ref Save|Will Save|Special|Spells Per Day|
+| --- | --- | --- | --- | --- | --- | --- |
+|1st|+0|+1|+0|+1|Inspired necromancy, lich's touch, unholy fortitude|—|
+|2nd|+1|+1|+1|+1|Undead manipulator|+1 level of existing class|
+|3rd|+1|+2|+1|+2|Negative energy conduit|+1 level of existing class|
+|4th|+2|+2|+1|+2|Death's shroud, negative energy affinity|+1 level of existing class|
+|5th|+2|+3|+2|+3|Secrets of death, undead initiate|+1 level of existing class|
+
+All of the following are class features of the agent of the grave prestige class.
+
+**Weapon and Armor Proficiency:** Agents of the grave gain no proficiency with any weapons or armor.
+
+**Spells per Day/Spells Known:** When a new agent of the grave level is gained, the character gains
+new spells as if he had also gained a level in a spellcasting class he belonged to before adding the
+prestige class. He does not, however, gain other benefits a character of that class would have
+gained, except for additional spells per day, spells known (if he is a spontaneous spellcaster), and
+an increased effective level of spellcasting. If the character has more than one spellcasting class
+before becoming an agent of the grave, he must decide which class he adds the new level to for the
+purpose of determining spells per day.
+
+**Inspired Necromancy (Ex):** When determining the maximum number of Hit Dice of undead he can
+control with spells like [animate dead](ref/spell/animate-dead), a character counts his agent of the
+grave levels twice. This ability does not factor into how many undead he can create with a single
+casting of a spell. Thus, a cleric 7/agent of the grave 3 would be able to control 52 Hit Dice worth
+of undead with animate dead.
+
+**Lich's Touch (Su):** At 1st level, the agent of the grave becomes a conduit for negative energy
+and the chill powers of death, allowing him to make a melee touch attack dealing 1d6 points of
+damage from negative energy per level of the agent of the grave class he attains. This ability
+allows him to heal undead minions, and himself upon attaining the negative energy affinity ability
+at 4th level. He can use this ability a number of times per day equal to 3 + his Charisma bonus.
+
+**Unholy Fortitude (Su):** At 1st level, the agent of the grave can tap into his conviction and
+bolster his health. Starting with the hit points he rolls for gaining his first agent of the grave
+level and every time he gains a level in any class thereafter, the character may choose to add
+either his Constitution bonus or his Charisma bonus to the number of new hit points he gains for
+that level.
+
+**Undead Manipulator (Ex):** At 2nd level, the agent of the grave gains great insight into the minds
+and necromantic forces controlling undead creatures. An agent of the grave's spells and
+[spell-like abilities](ref/umr/spell-like-abilities) with mind-affecting effects treat undead
+creatures as their original type. Thus, an agent of the grave can use
+[charm person](ref/spell/charm-person) against a humanoid zombie or [confusion](ref/spell/confusion)
+against a horde of skeletal champions.
+
+**Negative Energy Conduit (Ex):** At 3rd level, an agent of the grave bolsters undead around him. As
+a standard action, an agent of the grave manifests an aura identical to the
+[desecrate](ref/spell/desecrate) spell, except this foul aura has a duration of 10 minutes per
+level. An agent of the grave can use this ability once per day. In addition, any undead the agent of
+the grave creates is treated as having been created within the area of a desecrate spell.
+
+**Death's Shroud (Su):** As an agent of the grave gains power within the organization, he often must
+infiltrate other groups to gain further knowledge. At 4th level, he learns how to cloak his true
+intentions, gaining the ability to use [nondetection](ref/spell/nondetection) or
+[undetectable alignment](ref/spell/undetectable-alignment) once per day. The caster level for this
+ability is equal to the agent of the grave's highest caster level.
+
+**Negative Energy Affinity (Ex):** At 4th level, the agent of the grave, while still technically
+alive, reacts to positive and negative energy as if he were undead: positive energy harms him, while
+negative energy heals him. If the agent of the grave is already undead, this ability grants no
+additional benefit.
+
+**Secrets of Death (Ex):** At 5th level, an agent of the grave draws upon secrets held by the
+Whispering Way to gain insights into necromancy. At the time he gains this ability, the character
+may add a number of necromancy spells that are not normally a part of his class's spell list to his
+spell list. The number of spells that the character may add is equal to his Intelligence modifier.
+For example, an agent of the grave with levels of wizard might choose to add spells like
+[deathwatch](ref/spell/deathwatch), [inflict critical wounds](ref/spell/inflict-critical-wounds),
+and [slay living](ref/spell/slay-living) to his spell list, while an agent of the grave with levels
+of cleric might choose to add spells such as [enervation](ref/spell/enervation),
+[magic jar](ref/spell/magic-jar), and [vampiric touch](ref/spell/vampiric-touch). An agent of the
+grave may choose to add spells he cannot yet cast; this does not allow the agent of the grave to
+cast spells of a higher level than he normally could, but rather merely grants him access to those
+spells when he reaches the level required to cast them.
+
+**Undeath Initiate (Ex):** At 5th level, an agent of the grave has prepared his body and mind for
+the transition into undeath. He gains a +5 bonus on any ability check, skill check, or saving throw
+related to the process of transforming into an undead creature. This bonus can be used on any check
+related to becoming a creature like a lich (the process of which is largely left up to the GM's
+discretion). Additionally, if slain by an undead creature with the create spawn ability, the agent
+of death retains his Intelligence (regardless of the type of undead he is transformed into) and free
+will (he is never under the control of the creature that killed him). Unless otherwise noted by the
+undead creature's create spawn ability, the newly created undead agent of the grave loses all of his
+class levels. This makes transformation into a [lich](ref/template/lich) and
+[vampire](ref/template/vampire) among the most appealing options for an agent of the grave seeking
+undeath.

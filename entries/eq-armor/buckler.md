@@ -1,0 +1,27 @@
++++
+id = "ref/eq-armor/buckler"
+kind = "item"
+title = "Buckler"
+source_ids = ["ultimate-equipment", "core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "buckler", path = "json/equipment_armor.json" },
+]
+
+[fields]
+kind = "item"
+weight = "5 lbs."
++++
+
+**Sources:** Ultimate Equipment pg 9, PRPG Core Rulebook pg 151\
+**Cost** 5 gp **Weight** 5 lbs.\
+**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -1\
+**Arcane Spell Failure Chance** 5%
+
+This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without
+penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using
+an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a -1
+penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting
+with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off
+hand, you lose the buckler's AC bonus until your next turn. You can cast a spell with somatic
+components using your shield arm, but you lose the buckler's AC bonus until your next turn. You
+can't make a [shield bash](ref/misc/shield-bash) with a buckler.

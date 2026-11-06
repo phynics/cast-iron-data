@@ -1,0 +1,34 @@
++++
+id = "ref/patron/enchantment"
+kind = "rule"
+title = "Enchantment"
+source_ids = ["ultimate-magic"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "enchantment", path = "json/class_ability_patrons.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Enchantment&FN&**
+
+**Info:** The Enchantment patron grants the following spells at the listed witch levels.
+
+**Spells:** Dominate person
+
+**Spells:** Geas
+
+**Spells:** Euphoric tranquility
+
+**Spells:** Demand
+
+**Spells:** Dominate monster
+
+**Spells:** Unnatural lust
+
+**Spells:** Calm emotions
+
+**Spells:** Unadulterated loathing
+
+**Spells:** Overwhelming grief

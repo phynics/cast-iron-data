@@ -1,0 +1,30 @@
++++
+id = "ref/rule/restrictions-on-earnings"
+kind = "rule"
+title = "Restrictions on Earnings"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "restrictions_on_earnings", path = "json/rules_subsystems02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 93
+
+Whether a unit generates its listed capital depends on your intentions for the building or
+organization, and should follow common sense. For example, if you construct a building with a Bar,
+Common Room, and Kitchen, you might want to use it as a tavern or a headquarters for your
+adventuring party. If it's a tavern, it's open to the public and generates capital. Otherwise, it's
+a private building and doesn't generate capital because it's used by only you and your friends. If
+you start your own cult with Acolytes and Priests, you might decide they sell healing and generate
+income. If your thieves' guild has Acolytes, you might decide they only heal members of your guild,
+and therefore don't generate income.
+
+If you intend for your building or organization to generate capital, you must explain to the GM how
+it does so. You can change the purpose of your building or organization (for example, renovating an
+old military barracks into an inn or turning your greedy cult into a generous one) and in doing so
+change the capital it generates. You should choose one idea and stick to it, however, as a business
+that's open to the public on an irregular basis makes less money, as does a business that frequently
+changes its purpose. The GM might reduce the capital buildings generate in such situations.

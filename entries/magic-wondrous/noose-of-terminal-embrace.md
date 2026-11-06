@@ -1,0 +1,44 @@
++++
+id = "ref/magic-wondrous/noose-of-terminal-embrace"
+kind = "item"
+title = "Noose of Terminal Embrace"
+source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "noose_of_terminal_embrace", path = "json/magic_wondrous_neck.json" },
+]
+
+[fields]
+kind = "item"
+price = "20,000 gp"
+weight = "5 lbs."
+slot = "neck"
+aura = "strong conjuration and transmutation"
+caster_level = "15th"
++++
+
+**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 63\
+**Aura** strong conjuration and transmutation; **CL** 15th\
+**Slot** neck; **Price** 20,000 gp; **Weight** 5 lbs.
+
+When the necromancer Osmyrd Glavis was lynched in southern Taldor, his final utterance of hatred
+infused the very rope that was cutting into his flesh, resulting in the first noose of terminal
+embrace. Since then, many others have duplicated the magic item, yet the original remains lost -
+though some say it still hangs about the neck of its undead master.
+
+When a noose of terminal embrace is placed around the neck, it immediately activates, tightening and
+dealing 2d4 points of damage at that moment. Removing the noose thereafter requires a full-round
+action and a successful DC 18 Strength check (with failure resulting in an additional 2d4 points of
+damage).
+
+While the noose is worn, its frayed end dangles a foot or so from the neck, but once per day if the
+wearer of the noose is successfully grappled by a Large or smaller creature, the wearer may will the
+noose's length to extend and lash out at the attacker. This allows the wearer to immediately attempt
+a [grapple](ref/rule/grapple) check against the attacker; if successful, he establishes the grapple
+on the attacker rather than the other way around, and the attacker's attempt automatically fails
+(although the attacker may attempt to grapple the wearer in the future).
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[animate rope](ref/spell/animate-rope), [black tentacles](ref/spell/black-tentacles); **Cost**
+10,000 gp

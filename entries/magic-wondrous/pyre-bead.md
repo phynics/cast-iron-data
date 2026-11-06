@@ -1,0 +1,34 @@
++++
+id = "ref/magic-wondrous/pyre-bead"
+kind = "item"
+title = "Pyre Bead"
+source_ids = ["path-of-the-hellknight"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "pyre_bead", path = "json/magic_wondrous_slotless05.json" },
+]
+
+[fields]
+kind = "item"
+price = "1,440 gp"
+weight = "-"
+slot = "none"
+aura = "faint evocation"
+caster_level = "2nd"
++++
+
+**Sources:** Path of the Hellknight pg 39\
+**Aura** faint evocation; **CL** 2nd\
+**Slot** none; **Price** 1,440 gp; **Weight** -
+
+This tiny glass bead transforms itself into a 10-foot-by-10-foot pile of logs and kindling whenever
+its command word is spoken. A sturdy, 8-foot-tall post juts out of the center of the log heap. This
+heap does not light upon coming into being, but anyone who touches the heap and says a second
+command word causes it to burst into flame (this also automatically activates any
+[pyre salt](ref/magic-wondrous/pyre-salt) in the flame's area). The fire burns for 4 hours or until
+extinguished, at which point it turns back into a bead. The owner of the item must wait twice as
+long as the fire burned before she can order the bead to become a pile of logs again.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[produce flame](ref/spell/produce-flame); **Cost** 720 gp

@@ -1,0 +1,25 @@
++++
+id = "ref/trait/guerrilla-mender"
+kind = "trait"
+title = "Guerrilla Mender"
+source_ids = ["healers-handbook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "guerrilla_mender", path = "json/traits04.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Regional"
++++
+
+**Type:** Regional
+
+**Region:** Nirmathas
+
+**Flavor:** With the help of a druidic healer, you narrowly escaped death by disease or poisoning
+while on the run from Molthuni militias, whether contracting the ailment was an accident or you were
+the victim of more sinister forces.
+
+**Benefit:** Whenever you successfully use the [Heal](ref/skill/heal) skill to treat an ally's
+poison or disease, you grant the ally an additional +1 trait bonus on the saving throw against the
+disease or poison. Heal is a class skill for you.

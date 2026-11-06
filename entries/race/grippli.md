@@ -1,0 +1,47 @@
++++
+id = "ref/race/grippli"
+kind = "race"
+title = "Grippli"
+source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "blood-of-the-beast", "wilderness-origins"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "grippli", path = "json/races3.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Inner Sea Races pg 244, Advanced Race Guide pg 190, Bestiary 2 pg 149\
+Gripplis stand just over 2 feet tall and have mottled green-and-brown skin. Most gripplis are
+primitive hunter gatherers, living on large insects and fish found near their treetop homes, and are
+unconcerned about events outside their swamps. The rare grippli who leaves the safety of the swamp
+tends to be a ranger or alchemist seeking to trade for metals and gems.
+
+### Grippli Racial Traits
+
+**+2 Dexterity, +2 Wisdom, -2 Strength:** Gripplis are nimble and alert, but spindly.
+
+**Small:** Gripplis are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on
+attack rolls, a -1 penalty on combat maneuver checks and to their Combat Maneuver Defense, and a +4
+size bonus on Stealth checks.
+
+**Humanoid:** Gripplis are humanoids with the grippli subtype.
+
+**Normal Speed:** Gripplis have a base speed of 30 feet.
+
+**Natural Climber:** Gripplis have a climb speed of 20 feet.
+
+**Darkvision:** Gripplis can see in the dark up to 60 feet.
+
+**Camouflage:** Gripplis receive a +4 racial bonus on Stealth checks in marshes and forested areas.
+
+**Swamp Stride:** A grippli can move through difficult terrain at its normal speed while within a
+swamp. Magically altered terrain affects a grippli normally.
+
+**Weapon Familiarity:** Gripplis are proficient with nets.
+
+**Languages:** Gripplis begin play speaking Common and Grippli. Gripplis with high Intelligence
+scores can choose from the following bonus languages: Boggard, Draconic, Elven, Gnome, Goblin, and
+Sylvan.
+
+race options

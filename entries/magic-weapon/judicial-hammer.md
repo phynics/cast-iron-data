@@ -1,0 +1,38 @@
++++
+id = "ref/magic-weapon/judicial-hammer"
+kind = "item"
+title = "Judicial Hammer"
+source_ids = ["champions-of-balance"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "judicial_hammer", path = "json/magic_weapon.json" },
+]
+
+[fields]
+kind = "item"
+price = "5,220 gp"
+weight = "14 lbs."
+slot = "none"
+aura = "faint enchantment"
+caster_level = "4th"
++++
+
+**Sources:** Champions of Balance pg 29\
+**Aura** faint enchantment; **CL** 4th\
+**Slot** none; **Price** 5,220 gp; **Weight** 14 lbs.
+
+The head of this +1 [earth breaker](ref/eq-weapon/earth-breaker) is shaped like a massive version of
+the gavel one might see in a court of law - the weapon is nearly 4 feet long from end to end. The
+[Hellknights](ref/rule/aff-lawknights) of Citadel Vraid are attributed with crafting the first
+judicial hammers, having adopted their form from the weapons of the same Shoanti tribes they used
+the judicial hammers against. Once per day, the wielder may speak the judicial hammer's command word
+and name a specific crime he believes an individual within 30 feet has committed. Whenever the
+designated target takes damage from the judicial hammer, the target must succeed at a DC 13 Will
+save or immediately and truthfully confess its innocence or guilt in the named crime (if the target
+can speak the same language as the wielder of the judicial hammer, it must confess in this
+language). This effect lasts for 24 hours or until the creature fails its Will save, whichever comes
+first.
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
+[confess](ref/spell/confess); **Price** 2,780 gp

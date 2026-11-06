@@ -1,0 +1,60 @@
++++
+id = "ref/spell/black-mark"
+kind = "spell"
+title = "Black Mark"
+source_ids = ["advanced-race-guide", "mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "black_mark", path = "json/spells12.json" },
+]
+
+[fields]
+kind = "spell"
+school = "necromancy"
+descriptors = ["curse", "fear"]
+levels = [
+  { class = "Druid", level = 7 },
+  { class = "Witch", level = 7 },
+]
+casting_time = "1 standard action"
+components = "V, S, M (a flask of seawater)"
+range = "touch"
+effects = [
+  { label = "Target", value = "one creature" },
+]
+duration = "permanent"
+saving_throw = "Will negates"
+spell_resistance = "yes"
++++
+
+::: statblock
+title = "Spell statistics"
+School: necromancy
+Level: 7: Druid, Witch
+Casting time: 1 standard action
+Components: V, S, M (a flask of seawater)
+Range: touch
+Duration: permanent
+Saving throw: Will negates
+Spell resistance: yes
+Target: one creature
+Descriptors: curse, fear
+:::
+
+**Sources:** Advanced Race Guide pg 79
+
+> _[Humans](ref/race/human) have access to the following spells._
+
+You mark the target with a black marking on its skin; the mark's exact appearance determined by you,
+but can be no larger than your hand. The black mark functions as a
+[mark of justice](ref/spell/mark-of-justice), and when the mark is activated, the target becomes
+shaken anytime it is on or in the water more than a 5 feet from shore. In addition, as long as the
+black mark is active, the target is affected as if subject to nature's exile, but all creatures with
+the aquatic or water subtype or with a swim speed are made hostile, even those not of the animal
+type, though non-aquatic animals are not.
+
+### Mythic Black Mark
+
+**Sources:** Mythic Adventures pg 85\
+Any time the cursed creature travels on or in the water more than 1 mile from shore, each day it (or
+the vessel it's on) is attacked by one or more aquatic or water monsters, as if summoned by
+[summon nature's ally VII](ref/spell/summon-natures-ally-7) (caster level 13th).

@@ -1,0 +1,197 @@
++++
+id = "ref/monster/cordulegaster"
+kind = "creature"
+title = "Cordulegaster"
+source_ids = ["pathfinder-98-turn-of-the-torrent"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "cordulegaster", path = "json/monsters28.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "outsider"
+subtypes = ["aquatic", "evil", "extraplanar"]
+size = "large"
+alignment = "neutral evil"
+ac = "19/9/19"
+hp = "76~8d10+32"
+fortitude = "+10"
+reflex = "+4"
+will = "+8"
+melee = "bite +13 (2d6+9 plus grab and pull), tail slap +8 (1d8+3)"
+special_attacks = "extending jaw~gnaw~powerful bite~stygian bite (Will DC 13)"
+abilities = ["23", "11", "19", "6", "14", "6"]
++++
+
+_Interlocking plates of chitin cover this massive, six-legged beast's face like a jagged mask._
+
+**Cordulegaster**
+
+**Challenge rating:** 6
+
+**dv:** 60
+
+**Initiative:** +4
+
+**Size:** large
+
+**Alignment:** Neutral evil
+
+**Type:** outsider
+
+**Perception:** +13
+
+**source:** Pathfinder \#98: Turn of the Torrent/82
+
+**Subtype:** Aquatic, Evil, Extraplanar
+
+**Experience points:** 2,400
+
+**Aav:** present
+
+**Armor class:** 19/9/19
+
+**Fort:** +10
+
+**Hit points:** 76 (8d10+32)
+
+**Immune:** waters of the River Styx
+
+**Mod:** +10 natural, -1 size
+
+**Ref:** +4
+
+**Will:** +8
+
+**Offense**
+
+**Speed:** 10 ft., swim 30 ft.
+
+**Jet:** 60
+
+**Melee:** bite +13 (2d6+9 plus [grab](ref/umr/grab) and pull), tail slap +8 (1d8+3)
+
+**Pull:** bite, 10 ft.
+
+**Reach:** 10
+
+**Reach P:** 15 ft. with bite
+
+**Space:** 10
+
+**Spec Att:** extending jaw, gnaw, powerful bite, stygian bite (Will DC 13)
+
+**Statistics**
+
+**Ability scores:** Str 23, Dex 11, Con 19, Int 6, Wis 14, Cha 6
+
+**Base attack bonus:** +8
+
+**Combat maneuver bonus:** +15 (+19 grapple)
+
+**Combat maneuver defense:** 25
+
+**Feats:** Alertness, Improved Initiative, Improved Natural Attack (bite), Lightning Reflexes
+
+**Skills:** Climb +15
+
+**Racial Modifiers:** +5 Stealth in swampy terrain or underwater
+
+**Languages:** Abyssal (can't speak), Infernal (can't speak)
+
+**Ecology**
+
+**Environment:** any freshwater (River Styx)
+
+**Organization:** solitary or cluster (2-4)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Extending Jaw (Ex)** A cordulegaster can extend its jaws with blinding speed. The reach of its
+primary bite attack is 15 feet. During the surprise round, it gains a +4 bonus on attack rolls to
+bite any flat-footed creature.
+
+**Gnaw (Ex)** If a cordulegaster begins a round with a foe grappled in its jaws, it automatically
+deals bite damage as a standard action or part of a full-round action. A cordulegaster has a second
+set of jaws that shred captured food, allowing it to make a secondary bite attack (+8 attack, 1d8+3)
+against a foe it is currently grappling.
+
+**Jet (Ex)** A cordulegaster can expand chambers within its abdomen to rapidly draw in and expel
+water, enabling it to swim forward or backward at a speed of 60 feet as a full-round action. It must
+move in a straight line while jetting, and does not provoke attacks of opportunity when it does so.
+The cordulegaster can use this ability to charge.
+
+**Powerful Bite (Ex)** A cordulegaster applies 1-1/2 times its Strength modifier to its primary bite
+damage.
+
+**Stygian Bite (Su)** A cordulegaster's body is infused with the memory-robbing powers of the River
+Styx. Any creature bitten by a cordulegaster takes 1d4 points of Intelligence damage and a
+cumulative -2 penalty on all Craft, Knowledge, and Profession checks for 24 hours. A successful
+saving throw (Will DC 13) reduces the Intelligence damage to 1 point and eliminates the skill check
+penalty. A heal or restoration spell restores the lost memories immediately. The save DC is
+Charisma-based and includes a +2 racial bonus.
+
+### Description
+
+Strangely reminiscent of dragonfly nymphs, cordulegasters are monstrous creations that inhabit the
+waterways of the River Styx. Like hydrodaemons, cordulegasters can survive prolonged exposure to the
+Styx's tainted waters, where they lurk near the river's edge and lie in wait for prey to wander
+close. A cordulegaster's mouth comprises a prehensile, extendable lower jaw and a secondary inner
+set of mandibles. Its lower jaw folds under its head as the cordulegaster rests, cupping over the
+mandibles like a mask of interlocking, irregular teeth. When a cordulegaster attacks, its jaws
+separate and shoot forward to grasp its prey, pulling it closer so the mandibles can begin to shred
+and devour its unlucky victim's flesh.
+
+Jagged russet plates cover the cordulegaster's body, camouflaging the creature by mimicking natural
+rock formations found in Abaddon's waterways. Serrated edges line its protective chitin and run down
+the creature's back, making it dangerous to grab or hold (and sparing it from larger predators).
+These serrated edges allow its lashing tail to open deep, jagged wounds with every blow. A typical
+cordulegaster can grow up to 12 feet long and 7 feet tall at the head, and can weigh as much as
+2,000 pounds.
+
+### Ecology
+
+The precise origins of the cordulegaster remain unclear. Some believe Charon created these
+monstrosities to patrol the shorelines of the Styx and prevent trespassers from crossing without
+paying his tolls. Others suggest Trelmarixian the Black, Horseman of Famine, twisted and tortured
+souls to form the ravenous cordulegasters within the dark and sinister laboratories of the Weeping
+Tower and released them into the Bile Sluice. Whatever their origins, cordulegasters have since
+spread throughout the Styx river system and into adjoining Outer Planes.
+
+### Habitat
+
+Cordulegasters primarily inhabit the River Styx and its connected bodies of water, which extend
+through Abaddon, Axis, Hell, and the borderlands of the Maelstrom. While not true daemons, they are
+native to Abaddon and make up an important part of the plane's environment, filling the role of
+large ambush predators, much like crocodiles do on Golarion. Outside the River Styx, cordulegasters
+are most often found in shallow, slow-moving waters and swamps, especially Abaddon's Bile Sluice and
+Plaguemere. Though the swamps of Stygia in Hell are devoid of daemons, many of these twisted beasts
+find purchase and thrive there. Cordulegasters are often found serving more powerful outsiders,
+particularly hydrodaemons and piscodaemons, and assist the daemons in harvesting souls.
+
+### Variants
+
+Because cordulegasters' range extends across multiple planes, many subpopulations have adapted to
+the strange, warped conditions of their environments.
+
+**Borderlands Cordulegaster:** Populations in the expanse of the Styx that runs along the borders of
+the Maelstrom are subject to the whirling chaos just beyond. As a result, cordulegasters found in
+the borderlands have anatomies in a state of constant flux, giving them the following ability.
+
+**Amorphous Anatomy (Ex):** The cordulegaster's vital organs constantly shift and change shape,
+granting it a 50% chance to ignore additional damage caused by critical hits and sneak attacks, and
+rendering it immune to polymorph effects. Borderlands cordulegasters automatically recover from
+physical blindness or deafness after 1 round by growing new sensory organs to replace the
+compromised ones.
+
+**[Elder Cordulegaster](ref/monster/cordulegaster-elder-cordulegaster):** Cordulegasters that dwell
+in the waters of the Styx long enough absorb memories from the river, and learn to consume entire
+souls. This grotesque insight transforms them into daemons.
+
+**Planar Swamp Cordulegaster:** The memory-stealing waters of the Styx become diluted once they
+trickle out into the foul swamps of the Outer Sphere. The Stygian bites of cordulegasters dwelling
+in these marshes have a weaker effect - those bitten must succeed at a DC 13 Will save or become
+confused for 1d4 rounds. Cordulegasters living in the Bile Sluice are immune to poison, whereas
+those residing in the Plaguemere are immune to disease.

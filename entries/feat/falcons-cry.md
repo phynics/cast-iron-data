@@ -1,0 +1,24 @@
++++
+id = "ref/feat/falcons-cry"
+kind = "feat"
+title = "Falcon's Cry"
+source_ids = ["adventurers-guide", "andoran-birthplace-of-freedom"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "falcons_cry", path = "json/feat06.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Cha 13, affiliated with the Steel Falcons."
+benefit = "You inspire a zeal for freedom in your allies. As a standard action, you can grant everyone within 60 feet who is able to see and hear you the ability to roll twice when attempting an Escape Artist check, a Will save against compulsions, or a Strength check to break chains, manacles, or similar bonds. Such checks must be attempted before the beginning of your next turn. You can do this once per day, plus one additional time for every 3 character levels that you have."
++++
+
+**Sources:** Adventurer's Guide pg 76, Andoran, Birthplace of Freedom pg 30
+
+You inspire others to throw off the shackles of oppression.\
+**Prerequisites:** Cha 13, affiliated with the Steel Falcons.\
+**Benefit:** You inspire a zeal for freedom in your allies. As a standard action, you can grant
+everyone within 60 feet who is able to see and hear you the ability to roll twice when attempting an
+Escape Artist check, a Will save against compulsions, or a Strength check to break chains, manacles,
+or similar bonds. Such checks must be attempted before the beginning of your next turn. You can do
+this once per day, plus one additional time for every 3 character levels that you have.

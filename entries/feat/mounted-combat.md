@@ -1,0 +1,41 @@
++++
+id = "ref/feat/mounted-combat"
+kind = "feat"
+title = "Mounted Combat"
+source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "mounted_combat", path = "json/feat11.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Mounted Combat."
+benefit = "You can negate an additional number of hits against your mount per round equal to your tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a Ride check for a single Reflex saving throw your mount must make."
++++
+
+## Mounted Combat (Combat)
+
+**Sources:** PRPG Core Rulebook pg 131
+
+You are adept at guiding your mount through combat.\
+**Prerequisites:** Ride 1 rank.\
+**Benefit:** Once per round when your mount is hit in combat, you may attempt a Ride check (as an
+immediate action) to negate the hit. The hit is negated if your Ride check result is greater than
+the opponent's attack roll.
+
+### Stamina
+
+**Sources:** Pathfinder Unchained pg 127\
+Once you have already used this feat, you can spend 5 stamina points to use it an additional time
+during the same round. You can use this trick as many times in a round as you like, as long as you
+spend 5 stamina points per use.
+
+### Mythic Mounted Combat
+
+**Sources:** Mythic Adventures pg 70\
+Your ability to maneuver a mount through the rigors of combat is nearly unparalleled.\
+**Prerequisites:** Mounted Combat.\
+**Benefit:** You can negate an additional number of hits against your mount per round equal to your
+tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a
+Ride check for a single Reflex saving throw your mount must make.

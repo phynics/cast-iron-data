@@ -1,0 +1,94 @@
++++
+id = "ref/skill/lore-any"
+kind = "rule"
+title = "Lore (any)"
+source_ids = ["pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "lore_any", path = "json/skills.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Pathfinder Unchained pg 50
+
+**Associated Skill**
+
+**Details:** Intelligence
+
+**Trained Only**
+
+**Details:** Yes
+
+**Armor Check Penalty**
+
+**Details:** No
+
+**Optional Unchained Skill**
+
+**Details:** Yes
+
+**Optional Background Skill**
+
+**Details:** Yes
+
+You possess a specialized area of knowledge, generally narrower than that of a full-fledged scholar.
+Lore acts as a catch-all skill for information, similar to how Craft handles artisanal skills and
+Profession handles professional skills. The category of a Lore skill can vary widely from that of
+another Lore skill. It could be regional (such as a city or country), about a discipline (such as
+cryptography), or related to a narrow set of people (such as famous musicians). The scope of
+region-based Lore skills can also refer to specific subcategories, such as taverns in a particular
+region.
+
+A Lore skill must be narrow - far narrower than the most relevant Knowledge skill. The broader the
+scope of a given category of Lore, the shallower your knowledge is on that topic. If you know about
+taverns in a wide region, you know less about each of them than you would if you had Lore in taverns
+of a specific city. Lore skills normally can't be used to identify monsters the way Knowledge skills
+can, unless they refer to a specific type of monster (such as [owlbears](ref/monster/owlbear) or
+[vampires](ref/template/vampire)). If Lore involves a common, broad category of race or monster, it
+needs to be more specific. Lore (elves) would be too broad, as would Lore (dragons).
+
+### Check
+
+Lore skills use the same DC scale as Knowledge skills: DC 10 to answer easy questions, DC 15 for
+basic questions, and DC 20 to 30 for really tough questions. In many cases, Lore can substitute for
+a Knowledge skill, such as Lore (elven history) filling in for Knowledge (history) in a check
+involving elves. At the GM's discretion, a player might be able to apply a Lore skill that's only
+partially related to a subject with a -5 penalty, such as using a Lore skill about a region to
+recall information about a particular city in that region or applying knowledge of distilling to
+winemaking.
+
+The table below describes some examples of Lore skills alongside examples of skills that would be
+too broad. This is by no means a comprehensive list, and the GM has final say on whether a
+particular Lore skill is appropriate.
+
+|Appropriate Lore Skills|Inappropriate Choices|
+| --- | --- |
+|A particular small city (or smaller settlement)|Settlements|
+|One district of a large city or metropolis|An entire large city or metropolis|
+|A particular monastery|Monasteries|
+|Taverns in a region|Taverns|
+|Bandits in a region|Banditry|
+|Famous battles in a region|Famous battles|
+|The spice trade|Commerce|
+|Cats|Animals|
+|Drow matriarchs|Drow|
+|Dwarven history|Dwarves|
+|Frost giants|Giants|
+|Sarenrae|Gods|
+|Dagon|Demon lords|
+|Phlegethon|Hell|
+|Military commanders|Warfare|
+|Famous singers|Music|
+|Infernal contracts|Devils|
+|Evocations|Spells|
+|Silver and mithral|Metals|
+|Tea|Beverages|
+|Trees|Plants|
+|Tattoos|Art|
+
+**Bards:** Lore is treated as a Knowledge skill for the purposes of _bardic knowledge_ and _lore
+master,_ as well as similar abilities found in other classes, creatures, and archetypes. This
+applies only to Lore skills in which a character is trained. In other circumstances, use the more
+relevant Knowledge skill.

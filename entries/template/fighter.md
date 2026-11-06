@@ -1,0 +1,41 @@
++++
+id = "ref/template/fighter"
+kind = "rule"
+title = "Fighter"
+source_ids = ["monster-codex"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "fighter", path = "json/monster_template2.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Fighter**
+
+**Acquired:** present
+
+**Challenge rating:** +1 or +2
+
+**Simple:** present
+
+**Source:** Monster Codex/247
+
+A [fighter](ref/class/fighter) creature gains bonus combat feats, and both armor and weapon
+training. A fighter creature's CR increases by 2 if the creature has 10 or more HD.
+
+**Quick Rules:** +2 on all rolls based on Str; gains a bonus combat feat and an additional bonus
+combat feat for every 4 HD (to a maximum of 10 feats; a fighter creature is considered a fighter
+with a level equal to its HD for the purpose of qualifying for combat feats). If the creature has 3
+or more HD, it gains armor training (the bonus increases and penalty decreases for every 4 HD the
+creature possesses thereafter, to the class feature's normal maximums). If the creature has 5 or
+more HD, it gains weapon training (the creature gains only one
+[weapon group](ref/ability/weapon-groups), and its bonuses increase by 1 every 4 HD thereafter, to a
+maximum of +4).
+
+**Rebuild Rules:** **Special Attacks** If the creature has 5 or more HD, it gains weapon training
+(the creature gains only one weapon group, and its bonuses increase by 1 every 4 HD thereafter, to a
+maximum of +4); **Special** Abilities If the creature has 3 or more HD, it gains armor training (the
+bonus increases and penalty decreases for every 4 HD it possesses thereafter, to the class feature's
+normal maximums); **Ability Scores** +4 Strength; **Feats** The creature gains a bonus combat feat
+and an additional combat feat for every 4 HD (to a maximum of 10 feats from this ability).

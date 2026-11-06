@@ -1,0 +1,54 @@
++++
+id = "ref/arc-ranger/code-runner"
+kind = "archetype"
+title = "Code Runner"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "code_runner", path = "json/archetypes_ranger.json" },
+]
+relations = [
+  { kind = "archetype", target = "ref/class/ranger" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Intrigue pg 40\
+A code runner specializes in the subtle and speedy transfer of secret messages. He performs long
+runs between distant lands, sometimes spanning continents and often traversing difficult terrain. He
+trains his mind both to memorize long messages and to resist any attempts to steal his covert
+communiques.
+
+**Gained class skills:** kl, ling
+
+**Lost class skills:** ha, heal
+
+**Mnemonic Genius (Ex)**
+
+**Ability:** The code runner can spend 1 hour and attempt a DC 15 Linguistics check to memorize a
+single passage of up to 150 words of information in a language he speaks. For every 5 by which he
+exceeds the DC, he can memorize 150 additional words. The DC is increased by 10 if the message is
+encoded or in a language he doesn't understand.
+
+**Flavor:** A code runner learns to memorize and accurately recall information, even if he does not
+speak or understand the language in which the information was presented.
+
+**Replaces:** Wild empathy
+
+**Special:** A code runner can memorize one such message at any given time. If he fails to memorize
+a message, he can retry as many times as he wants, as long as he spends 1 hour each time. Once a
+message has been memorized, he can recall it with perfect accuracy until he memorizes a different
+message.
+
+**Resist Interrogation (Ex)**
+
+**At 11th Level:** If he succeeds at a saving throw against a divination effect that would grant its
+caster knowledge or information, the caster is not aware that the saving throw was successful, and
+the code runner can attempt a Bluff check opposed by the caster's Sense Motive check in order to
+send false information to the caster.
+
+**At 4th Level:** A code runner gains a bonus equal to half his ranger level on saving throws
+against divination effects.
+
+**Replaces:** Hunter's bond

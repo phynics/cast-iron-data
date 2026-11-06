@@ -1,0 +1,26 @@
++++
+id = "ref/trait/twitchy"
+kind = "trait"
+title = "Twitchy"
+source_ids = ["strange-aeons-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "twitchy", path = "json/traits03.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Campaign"
++++
+
+**Type:** Campaign
+
+**Campaign:** Strange Aeons
+
+**Flavor:** Your first thought upon awaking in the asylum isn't confusion over why you can't
+remember anything clearly - it's a sudden urge to find safety. You feel like everything around you,
+aside from your companions, might threaten you and you're always ready to react. You have a hard
+time staying still, and you're constantly surveying your surroundings. Maybe you are paranoid, or
+maybe it's just an overactive imagination, but whatever it is, you know that keeping these feelings
+honed will help you stay alive.
+
+**Benefit:** You gain a +2 trait bonus on initiative checks and a +1 trait bonus on Reflex saves.

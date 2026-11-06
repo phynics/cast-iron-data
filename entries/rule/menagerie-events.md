@@ -1,0 +1,58 @@
++++
+id = "ref/rule/menagerie-events"
+kind = "rule"
+title = "Menagerie Events"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "menagerie_events", path = "json/rules_subsystems03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 122
+
+|d%|Events|
+| --- | --- |
+|01-20|Exotic donation|
+|21-55|Festival|
+|56-60|Contagion|
+|61-75|Escaped animal|
+|76-90|Lost visitor|
+|91-100|Unruly druid|
+
+**Contagion:** The creatures in your Menagerie suffer from a mysterious malady. Treat this as the
+[sickness event from Generic Building Events](ref/rule/generic-building-events), and your building
+gains the broken condition until the sickness is ended.
+
+**Escaped Animal:** One of your exhibits escapes its cage. If you keep track of specific creatures,
+determine the escaped creature randomly. Attempt a DC 25 Handle Animal, Perception, Survival, or
+wild empathy check (or if the escaped creature is intelligent, a Bluff or Diplomacy check) to find
+the creature and safely return it to its cage. If you fail, you lose 1d6 points of Influence and 1d4
+points of Labor, and the building generates no capital that day.
+
+**Exotic Donation:** An eccentric aristocrat, adventurer, explorer, or other individual delivers an
+unusual creature to add to your exhibit. The type of creature is determined by the GM - you might
+need to expend additional resources (typically 1d6 points of Goods and 1d3 points of Labor) or craft
+a special room to house particularly unusual creatures. If you take the creature, you gain 2d6
+points of Influence.
+
+**Festival:** The settlement or an important person wants to use your Menagerie as the site for an
+upcoming festival. Make a note of your current Influence. Roll 2d6 to determine how many days will
+pass until the Festival takes place. If on the day of the Festival your Influence is lower than it
+was on the day of the request, the Festival is cancelled and you lose an additional 1d6 points of
+Influence. Otherwise, you gain 1d6 points of Influence and attempt a DC 25 Handle Animal or Perform
+check. If you succeed, your Menagerie gets a +20 bonus on its first check to generate capital that
+day.
+
+**Lost Visitor:** A visitor becomes lost. Attempt a DC 20 Perception check. If you succeed, you find
+the lost person and the event ends with no drawbacks. If you fail this check, the visitor has a 50%
+chance of being wounded or killed - if this occurs, you lose 1d6 points of Influence. If the lost
+visitor isn't wounded or killed, you must attempt the Perception check again each hour with a
+cumulative +2 bonus; repeat until you find the missing visitor or the visitor is wounded or killed.
+
+**Unruly Druid:** An unruly druid embarks on a crusade against your Menagerie. The druid continues
+to harass your building until you succeed at a DC 30 Diplomacy or Knowledge (nature) check to
+mollify her, or until you detain or defeat her in combat. While the druid is acting against your
+Menagerie, all checks related to the building that you make take a -5 penalty.

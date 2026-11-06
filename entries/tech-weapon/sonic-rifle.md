@@ -1,0 +1,31 @@
++++
+id = "ref/tech-weapon/sonic-rifle"
+kind = "item"
+title = "Sonic rifle"
+source_ids = ["technology-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sonic_rifle", path = "json/equipment_tech_weapons.json" },
+]
+
+[fields]
+kind = "item"
+weight = "6 lbs."
++++
+
+**Sources:** Technology Guide pg 21
+
+**Cost** 26,000 gp\
+**Type** two-handed ranged; **Proficiency** exotic (firearms); **Weight** 6 lbs.\
+**Damage** 1d10 (small), 2d6 (medium); **Damage Type** Sonic; **Critical** ×2\
+**Range** 150 ft.; **Capacity** 20; **Usage** 1 charge; **Special** [Automatic](ref/misc/automatic),
+[touch](ref/misc/touch)
+
+### Construction
+
+**Craft DC** 27; **Cost** 13,000 gp\
+[Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
+[military lab](ref/rule/crafting-laboratories)
+
+A sonic rifle is a larger, more powerful version of the
+[sonic pistol](ref/tech-weapon/sonic-pistol), and functions as such except for the differences
+listed here.

@@ -1,0 +1,39 @@
++++
+id = "ref/rule/traps-and-opportunities"
+kind = "rule"
+title = "Traps and Opportunities"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "traps_and_opportunities", path = "json/rules_gm04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 163
+
+While creating calendars and timelines is a lot of fun, it also carries with it a few design risks
+that can end up coming back to haunt you if you don't take care.
+
+**Dates:** Fantasy naturally lends itself to epic adventures, and the temptation with dates is to
+make the numbers large and sweeping-cities 10,000 years old, legends stretching back a hundred
+generations. Avoid this impulse! History is a lot shorter than you might think, and it doesn't take
+long for people and legends to rise and disappear again. The United States itself is barely over 200
+years old. Christianity has only seen 2 millennia. Ten thousand years ago, Homo sapiens were just
+starting to think about planting crops. And if it only took the march of technological process 150
+years to go from the first internal combustion engine to a man on the moon, how come nobody's
+invented a better plow in the 7 millennia the serfs have been tilling your kingdom's fields?
+
+While of course a fantasy world doesn't need to correspond to the real world, there is still physics
+to consider. How old can your ruins really be, when stone and metal degrade without magical
+protection? For reference, scholars believe it would only take a thousand years without human upkeep
+for plant life and the elements to erase almost all trace of modern New York City.
+
+**Names:** When writing up their worlds' calendars, many GMs realize that our own calendar (with
+both months and days named after historical and mythological figures) seems out of place in-game.
+While making up your own names for the months or days of the week seems like the obvious solution,
+it can also be aggravating to players trying to keep track of time when the adventure begins on the
+third Blargday of Skurbgin. If you want to create new names, it might help to have the definitions
+readily available, to name them after your own gods or historical figures, or cheat a little and
+have the first letters stay the same (such as a workweek running from Mournday through Fireday).

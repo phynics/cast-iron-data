@@ -1,0 +1,21 @@
++++
+id = "ref/arcana/enduring-blade"
+kind = "rule"
+title = "Enduring Blade"
+source_ids = ["ultimate-combat"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "enduring_blade", path = "json/class_ability_magus_arcana.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Combat pg 54
+
+**Enduring Blade (Su):**
+
+**Ability:** Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional
+point from his arcane pool to increase the duration to 1 minute per magus level.
+
+**Prereq:** 6th-level magus

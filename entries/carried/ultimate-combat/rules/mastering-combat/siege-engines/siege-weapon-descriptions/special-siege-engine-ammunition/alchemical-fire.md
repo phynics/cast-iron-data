@@ -1,0 +1,24 @@
++++
+id = "ref/carried/ultimate-combat/rules/mastering-combat/siege-engines/siege-weapon-descriptions/special-siege-engine-ammunition/alchemical-fire"
+kind = "item"
+title = "Alchemical Fire"
+source_ids = ["ultimate-combat"]
+section = ["Rules", "Mastering Combat", "Siege Engines", "Siege Weapon Descriptions", "Special Siege Engine Ammunition"]
+provenance = [
+  { dataset = "psrd-data", record = "pfsrd://Ultimate Combat/Rules/Mastering Combat/Siege Engines/Siege Weapon Descriptions/Special Siege Engine Ammunition/Alchemical Fire", path = "ultimate_combat/item/alchemical_fire.json" },
+]
+
+[fields]
+kind = "item"
++++
+
+This hard, ceramic canister of alchemist's fire can be used as ammunition in catapults and
+trebuchets. When it hits its target square, it deals 4d6 points of fire damage to each creature and
+wooden structure within 5 feet of the target space, and each creature must make a DC 20 Reflex
+saving throw or catch on fire (wooden objects automatically catch on fire). Every creature and
+wooden object within the area between 5 and 30 feet of the target space must make a DC 20 Reflex
+saving throw or take half the fire damage, but they do not catch on fire. On a siege engine mishap,
+this ammunition explodes before it is launched, dealing its damage to the siege engine and all
+nearby creatures and wooden objects as if one of the spaces of the siege engine (crew leader's
+choice) were the target square. This alchemical fire ignores the [hardness](ref/umr/hardness) of
+wooden objects.

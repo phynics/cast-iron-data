@@ -1,0 +1,48 @@
++++
+id = "ref/magic-wondrous/touch-of-avolition"
+kind = "item"
+title = "Touch of Avolition"
+source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "touch_of_avolition", path = "json/magic_wondrous_eyes_feet_hands.json" },
+]
+
+[fields]
+kind = "item"
+price = "2,500 gp"
+weight = "-"
+slot = "hands"
+aura = "moderate necromancy"
+caster_level = "7th"
++++
+
+**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 63\
+**Aura** moderate necromancy; **CL** 7th\
+**Slot** hands; **Price** 2,500 gp; **Weight** -
+
+This thin disk of woven material is 2-1/2 inches in diameter. From its edges protrude fine,
+hair-like fibers about half an inch long. A touch of avolition is in fact an example of
+[mi-go](ref/monster/mi-go) technology - as much fungus as anything else. Creatures like mi-go can
+handle a touch of avolition with ease, but humanoids and other fleshy users must wear gloves to
+avoid becoming the target of the item's effect. Applying a touch of avolition requires a successful
+touch attack. When placed against flesh (any living, corporeal, non-plant or non-ooze creature), a
+touch of avolition's fibers swiftly merge with the target unless the creature succeeds at a DC 15
+Fortitude save. On a failed save, the victim becomes [paralyzed](ref/rule/paralyzed) for 7 rounds.
+It can attempt a new Fortitude as a standard action after the first round to end the effect early.
+
+Once a victim recovers from the paralysis effect, the touch of avolition saps the user's willpower
+and dulls the senses, making creatures under these effects easier to mentally manipulate. The
+victim's Wisdom is reduced by 6 (minimum 1) as long as the touch of avolition remains attached. The
+fungal filaments of a touch of avolition dig deep, and merely ripping the patch free from the skin
+doesn't remove this Wisdom penalty, though the removal itself deals 1d4 points of damage to the
+victim. The effect is a curse effect, and it (and the paralysis) can be removed as such via
+[remove curse](ref/spell/remove-curse) or similar spells.
+
+A touch of avolition works best when damp. The save DC to resist a dry touch of avolition is 10, its
+paralysis effect lasts for only 2 rounds, and its Wisdom penalty is reduced to 2. The effects of
+multiple touches of avolition do not stack.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[bestow curse](ref/spell/bestow-curse), [hold person](ref/spell/hold-person); **Cost** 1,250 gp

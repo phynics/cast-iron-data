@@ -1,0 +1,4 @@
+format = 1
+
+[defaults]
+license_refs = ["ogl-1.0a", "legal#community-use"]

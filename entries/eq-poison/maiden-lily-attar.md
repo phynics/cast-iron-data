@@ -1,0 +1,30 @@
++++
+id = "ref/eq-poison/maiden-lily-attar"
+kind = "item"
+title = "Maiden lily attar"
+source_ids = ["murders-mark"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "maiden_lily_attar", path = "json/equipment_poisons.json" },
+]
+
+[fields]
+kind = "item"
+price = "N/A"
+weight = "&mdash;"
++++
+
+**Sources:** Murder's Mark pg 26
+
+**Price** N/A; **Weight** —
+
+**Type:** Poison (Inhaled)
+
+**Save:** Fortitude DC 13
+
+**Frequency:** 1/round for 4 rounds
+
+**Initial effect:** unconscious for 1 minute
+
+**Secondary effect:** unconscious for 1d4 hours
+
+**Cure:** 1 save

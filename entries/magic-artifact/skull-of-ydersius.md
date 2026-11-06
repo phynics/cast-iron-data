@@ -1,0 +1,61 @@
++++
+id = "ref/magic-artifact/skull-of-ydersius"
+kind = "item"
+title = "Skull of Ydersius"
+source_ids = ["artifacts-and-legends", "pathfinder-42-sanctum-of-the-serpent-god"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "skull_of_ydersius", path = "json/magic_artifact2.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "150 lbs."
+slot = "none"
+aura = "overwhelming all"
+caster_level = "30th"
++++
+
+**Sources:** Artifacts and Legends pg 48, Pathfinder \#42: Sanctum of the Serpent God pg 60\
+**Aura** overwhelming all; **CL** 30th\
+**Slot** none; **Price** -; **Weight** 150 lbs.
+
+More than just a powerful artifact, the Skull of Ydersius is the actual skull of a deity, the vessel
+through which the much-diminished god of serpents perceives and influences existence.
+[Ydersius's](ref/faith/ydersius) clerics still receive spells from their prayers, granted by the
+skull regardless of its location or ownership. There is no way a mortal can block this effect.
+Possession of the skull grants several abilities.
+
+**Blessing of Scales:** All reptilian creatures (including worshipers of Ydersius, sorcerers with
+the serpentine or draconic bloodline, and druids wild-shaped into reptilian forms) within 160 feet
+of the Skull of Ydersius gain [spell resistance](ref/rule/spell-resistance) 25 and
+[fast healing](ref/umr/fast-healing) 10.
+
+**Unholy Aura:** The skull treats the 80-foot-radius area around it as though an
+[unhallow](ref/spell/unhallow) spell had been cast with the Skull of Ydersius as the point of
+origin. This effect carries with it two linked spells that affect only worshipers of Ydersius
+([death ward](ref/spell/death-ward) and [freedom of movement](ref/spell/freedom-of-movement)), and
+two linked spells that affect all non-worshipers of Ydersius ([bane](ref/spell/bane) and
+[dimensional anchor](ref/spell/dimensional-anchor)).
+
+**Voice of the Serpent:** Once per day, a creature that touches the skull may cast
+[commune](ref/spell/commune) to speak with Ydersius. A non-worshiper of Ydersius who uses this power
+must make a successful DC 25 Will save each time the power is used to avoid succumbing to a
+[feeblemind](ref/spell/feeblemind) spell.
+
+Any good-aligned creature that carries the Skull of Ydersius, even via an extradimensional space
+such as a [portable hole](ref/magic-wondrous/portable-hole), gains three
+[negative levels](ref/rule/energy-drain-and-negative-levels). These negative levels remain as long
+as the skull is carried and disappear when the skull is released. These negative levels never result
+in actual level loss, but they cannot be overcome in any way (including
+[restoration](ref/spell/restoration) spells) while the skull is carried. A creature that suffers
+from these negative levels has a 50% spell failure chance on all divine spellcasting attempts.
+
+### Destruction
+
+The only way to destroy the Skull of Ydersius is to reunite it with Ydersius's mindless, decapitated
+body. Doing so returns Ydersius to life, though in a weakened state. This manifestation can be
+combated and even slain, though it regenerates from nearly any wound short of re-decapitation. For
+an instant, before the whole body begins to regenerate, Ydersius's spirit is untethered from his
+form. If Ydersius is dragged to the Boneyard and slain in [Pharasma's](ref/faith/pharasma) presence,
+the goddess of death can judge the serpent god, causing his body and skull to disintegrate to dust.

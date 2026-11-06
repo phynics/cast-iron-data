@@ -1,0 +1,30 @@
++++
+id = "ref/rule/legendary-artifacts"
+kind = "rule"
+title = "Legendary Artifacts"
+source_ids = ["mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "legendary_artifacts", path = "json/rules_campaign_types06.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Mythic Adventures pg 169
+
+When a magic item ascends to legendary status, it gains the suite of base legendary abilities and
+can have up to three additional legendary abilities. By selecting the legendary item universal path
+ability more than once, a mythic creature can transform a normal legendary item into either a minor
+artifact (if the character chooses it a second time) or a major artifact (if the character chooses
+it a third time). A minor artifact legendary item can have up to six additional legendary abilities,
+and gains the difficult to destroy ability (see below). A major artifact legendary item can have up
+to 10 additional legendary abilities and gains the difficult to destroy ability.
+
+**Difficult to Destroy:** An artifact can't be destroyed by normal means. Though a minor artifact
+has hit points and can be broken, it can't be destroyed by taking additional hit point damage. A
+major artifact is immune to hit point damage and can't gain the broken condition. Instead of being
+destroyed by taking hit point damage, both minor and major artifacts are instead destroyed when a
+creature successfully performs a very specific and often difficult task. The GM gets to determine
+what action is necessary to destroy the artifact, and should look to other artifacts' destruction
+entries for inspiration.

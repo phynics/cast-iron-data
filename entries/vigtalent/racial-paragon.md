@@ -1,0 +1,38 @@
++++
+id = "ref/vigtalent/racial-paragon"
+kind = "rule"
+title = "Racial Paragon"
+source_ids = ["blood-of-the-beast"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "racial_paragon", path = "json/class_ability_vigilante_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Racial Paragon&FN&**
+
+**Move:** The vigilante can gain the benefit of a feat with a racial prerequisite he meets but
+doesn't have. This effect lasts for 1 minute. The vigilante must meet all the feat's prerequisites.
+The vigilante can use this ability again before the duration expires to replace a previous racial
+feat with another choice.
+
+If a feat temporarily gained in this way has a daily use limitation, any uses of that feat while
+using this ability count toward that feat's daily limit.
+
+**Special:** This vigilante talent can be selected multiple times. Each time it is selected after
+the first, the vigilante can use this ability to gain the benefits of one additional racial feat at
+the same time, or to reduce the action required to activate this talent by one step (a move action
+becomes a **swift action**, a swift action becomes a **free action**, and a free action becomes an
+**immediate action**).
+
+If the vigilante chooses to gain the benefits of multiple feats, the feats selected must share the
+same racial prerequisite. He can use one of these feats to meet a prerequisite of a second feat;
+doing so means he cannot replace a feat currently fulfilling another's prerequisite without also
+replacing those feats that require it. Each individual feat selected counts toward his daily uses of
+this ability.
+
+**Usage:** 3 + half his vigilante level times/day (minimum 4)
+
+**Usage:** 3 + half his vigilante level times/day (minimum 4)

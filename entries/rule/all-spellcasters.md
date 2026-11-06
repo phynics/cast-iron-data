@@ -1,0 +1,28 @@
++++
+id = "ref/rule/all-spellcasters"
+kind = "rule"
+title = "All Spellcasters"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "all_spellcasters", path = "json/rules_gm01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 43
+
+This section is more about a party with no melee classes, rather than a party where every PC is a
+spellcaster - a group of four clerics or paladins is technically an all-spellcaster party, but they
+don't have the sort of problems that four sorcerers, wizards, or even bards face. Such a party is
+the opposite of the no-spellcasters group; DR is less important, SR and resistances are more
+important, and creatures with nearly universal magic immunity are a serious problem.
+[Golems](ref/family/golem), for example, can't be damaged by most direct-attack spells, and even
+though a [stone golem](ref/monster/golem-stone-golem) is CR 11, it may be able to eliminate an
+entire party of 12th-level wizards, especially given a wizard's low AC and hit points compared to a
+melee class. The golem is an "easy" challenge on paper, but more dangerous in execution. Of course,
+smart players will use summoned monsters and charmed enemies to take the brunt of physical attacks,
+and a smart GM can stave off a lot of player frustration by providing such things to the PCs (even
+in the form of scrolls or wands) if the players don't think of it themselves; even a few summoned
+[orcs](ref/monster/orc) at the start of an adventure can help an all-caster party survive.

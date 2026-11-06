@@ -1,0 +1,22 @@
++++
+id = "ref/feat/extra-lay-on-hands"
+kind = "feat"
+title = "Extra Lay on Hands"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "extra_lay_on_hands", path = "json/feat06.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Lay on hands class feature."
+benefit = "You can use your lay on hands ability two additional times per day."
+special = "You can gain Extra Lay On Hands multiple times. Its effects stack."
++++
+
+**Sources:** PRPG Core Rulebook pg 124
+
+You can use your lay on hands ability more often.\
+**Prerequisites:** [Lay on hands](ref/ability/lay-on-hands) class feature.\
+**Benefit:** You can use your lay on hands ability two additional times per day.\
+**Special:** You can gain Extra Lay On Hands multiple times. Its effects stack.

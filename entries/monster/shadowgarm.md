@@ -1,0 +1,146 @@
++++
+id = "ref/monster/shadowgarm"
+kind = "creature"
+title = "Shadowgarm"
+source_ids = ["pathfinder-25-the-bastards-of-erebus"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "shadowgarm", path = "json/monsters38.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "aberration"
+subtypes = ["extraplanar"]
+size = "medium"
+alignment = "neutral evil"
+ac = "14/12/12"
+hp = "19~3d8+6"
+fortitude = "+3"
+reflex = "+5"
+will = "+5"
+melee = "3 claws +4 (1d4+2 plus shadow slime)"
+abilities = ["14", "15", "14", "5", "14", "11"]
++++
+
+_This amorphous creature loosely resembles a cross between a large snake and an insect. It has black
+oily skin, and parts of its very flesh blend seamlessly into the shadows. Its constantly moving,
+writhing form makes it difficult to identify from a distance._
+
+**Shadowgarm**
+
+**Challenge rating:** 2
+
+**Type:** aberration
+
+**dv:** 60
+
+**Initiative:** +6
+
+**Sense:** Llv
+
+**Size:** medium
+
+**Alignment:** Neutral evil
+
+**Perception:** +6
+
+**Sense:** Scent
+
+**source:** Pathfinder \#25: The Bastards of Erebus/80
+
+**Subtype:** Extraplanar
+
+**Experience points:** 600
+
+**Armor class:** 14/12/12
+
+**Defensive abilities:** feather fall, shadow blend
+
+**Fort:** +3
+
+**Hit points:** 19 (3d8+6)
+
+**Mod:** +2 armor, +2 Dex
+
+**Ref:** +5
+
+**Sr:** 7
+
+**Weaknesses:** light fixation
+
+**Will:** +5
+
+**Offense**
+
+**Speed:** 30 ft., climb 30 ft.
+
+**Melee:** 3 claws +4 (1d4+2 plus shadow slime)
+
+**Statistics**
+
+**Ability scores:** Str 14, Dex 15, Con 14, Int 5, Wis 14, Cha 11
+
+**Base attack bonus:** +2
+
+**Combat maneuver bonus:** +4
+
+**Combat maneuver defense:** 16
+
+**Feats:** Improved Initiative, Lightning Reflexes
+
+**Skills:** Climb +14, Perception +6, Stealth +6 (+10 in dim light)
+
+**Racial Modifiers:** +4 Stealth in dim light
+
+**Ecology**
+
+**Environment:** any (Plane of Shadow)
+
+**Organization:** solitary or gathering (2-12)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Feather Fall (Ex)** A shadowgarm's body is both light and consists of numerous folds of thin
+flesh. Although it cannot fly, a falling shadowgarm always descends as if under the effects of a
+feather fall spell, and thus never takes falling damage.
+
+**Light Fixation (Su)** Although a shadowgarm is not particularly harmed by bright light, it prefers
+dim lighting. Magical light, on the other hand, causes a shadowgarm to grow slow and lethargic.
+Whenever a shadowgarm is within an area of bright light that is magically created, it is staggered.
+
+**Shadow Blend (Su)** In conditions of dim light, a shadowgarm's outline wavers and blends with the
+surrounding shadows, granting it concealment (20% miss chance) even if its opponents are capable of
+seeing clearly in dim light.
+
+**Shadow Slime (Su)** A shadowgarm is coated with a thin layer of oily black slime. Whenever it
+strikes a foe, it transfers a swath of this cold black slime onto the creature struck. This slime
+causes a growing numbness and lethargy in the bodies of those it coats. Each time a creature takes
+damage from a shadowgarm's claws, the creature struck must make a DC 13 Fortitude save or take a
+cumulative -2 penalty to its Dexterity score. A creature whose total Dexterity penalty equals its
+Dexterity score is paralyzed and blinded as long as the penalty remains in effect. All accrued
+Dexterity penalties fade an hour after the last time the victim was affected by shadow slime, but
+any new shadow slime resets the recovery period. Exposure to bright light of any sort causes the
+Dexterity penalty to lessen by 2 points per round until all of the shadow slime is effectively
+"burned away" by the light. A shadowgarm is immune to the effects of its shadow slime and the shadow
+slime of other shadowgarms. The save DC is Constitution-based.
+
+### Description
+
+Shadowgarms are strange monsters from the Plane of Shadow, where they function as lowly predators
+and pests somewhat akin to the Material Plane's coyotes, leopards, and similar hunting mammals. Yet
+to a creature unfamiliar with the workings of the Plane of Shadow, the shadowgarm is a hideous and
+frightening beast. Generally lairing in ruined sections of towns or dead-end alleys clogged with
+refuse during the day, they come out at night to prey upon creatures that stray too far from the
+safety of light. These aberrant predators "leak" into the Material Plane anywhere the Plane of
+Shadow's influence is strong. Small groups of shadowgarms are occasionally seen lurking in old
+graveyards where undead (particularly shadows) are known to reside, and anywhere that has strong
+traditions of shadow magic tends to have a healthy population of shadowgarms lurking in
+out-of-the-way areas as well.
+
+The typical shadowgarm measures about 4-1/2 feet long and weighs approximately 90 pounds, their
+bodies being strangely light, composed of a spongy dark matter and seemingly wisps of shadow itself.
+Some, however, grow to be much larger, though shadowgarms of all sizes prove especially adept at
+blending in among the shadows and detritus of their hunting grounds or crawling into crevices it
+seems creatures of their size would not be able to squeeze.

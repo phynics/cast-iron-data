@@ -1,0 +1,32 @@
++++
+id = "ref/trait/local-tough"
+kind = "trait"
+title = "Local Tough"
+source_ids = ["hells-vengeance-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "local_tough", path = "json/traits02.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Campaign"
++++
+
+**Type:** Campaign
+
+**Campaign:** Hell's Vengeance
+
+**Flavor:** You were born and raised in the town of Longacre on the southwestern fringes of the
+Whisperwood, or at least have lived there long enough that you're considered a native. You've never
+been one for the quiet life, and have been considered a miscreant and reprobate since you were a
+child. As an adult, You've made something of a name for yourself as a thug, enforcer, and petty
+thief in town, hiring yourself out to anybody who needs muscle in exchange for a few coins. In the
+course of such employment, You've worked with another local troublemaker named Cimri Staelish and
+have become friends. Cimri has recently gotten involved with some shadowy, though powerful,
+characters, and as Hell's Vengeance begins, you and a group of other ne'er-do-wells have agreed to
+help Cimri burgle a tannery just outside town. With luck, this could be the start of bigger and
+better things than just working as hired muscle.
+
+**Benefit:** You gain a +1 trait bonus on [Intimidate](ref/skill/intimidate) checks, and Intimidate
+is a class skill for you. In addition, you gain a +1 trait bonus on weapon damage rolls when you are
+[flanking](ref/rule/flanking) a foe with an ally.

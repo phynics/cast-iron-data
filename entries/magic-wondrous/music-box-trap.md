@@ -1,0 +1,46 @@
++++
+id = "ref/magic-wondrous/music-box-trap"
+kind = "item"
+title = "Music Box Trap"
+source_ids = ["magical-marketplace"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "music_box_trap", path = "json/magic_wondrous_slotless04.json" },
+]
+
+[fields]
+kind = "item"
+price = "20,160 gp"
+weight = "2 lbs."
+slot = "none"
+aura = "moderate enchantment"
+caster_level = "7th"
++++
+
+**Sources:** Magical Marketplace pg 31\
+**Aura** moderate enchantment; **CL** 7th\
+**Slot** none; **Price** 20,160 gp; **Weight** 2 lbs.
+
+A silhouette of a miniature Varisian dancer graces the center of this simple music box. When opened,
+the music box plays a delicate tune only a few notes long. Although worth 200 gp as a work of art,
+the music box's true value is as a spell repository. A spellcaster can store a single targeted
+mind-affecting spell of up to 4th level into a closed music box trap that is not currently storing a
+spell. Thereafter, when the music box trap is opened and allowed to play for 1 round, the stored
+spell targets the creature that opened the box. If this would result in the spell being cast at an
+inappropriate target, or if the creature moves farther than the spell's range away from the music
+box during the 1-round delay, the spell is discharged with no effect.
+
+The original spellcaster remains the caster of the stored spell; for example, a
+[charm person](ref/spell/charm-person) spell successfully delivered onto a target from a music box
+trap makes the creature well disposed to the spellcaster, even if the spellcaster is long gone.
+
+There is no obvious indicator that the music box trap delivers a stored spell onto the creature
+opening the box, but while the box is open, those who succeed at a DC 25
+[Perception](ref/skill/perception) check notice that the miniature dancer is keeping her gaze fixed
+upon the pending target. Closing the music box trap is a move action. If the music box is closed
+before its stored spell is delivered, the spell remains stored within the music box trap to await
+the next creature to open the box.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[permanency](ref/spell/permanency), [spite](ref/spell/spite); **Cost** 10,180 gp

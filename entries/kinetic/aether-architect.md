@@ -1,0 +1,39 @@
++++
+id = "ref/kinetic/aether-architect"
+kind = "rule"
+title = "Aether Architect"
+source_ids = ["psychic-anthology"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "aether_architect", path = "json/class_ability_kinetic_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+## Aether Architect (Su)
+
+**Element:** aether
+
+**Type:** utility (Su)
+
+**Level:** 9
+
+**Burn:** 0
+
+**Source:** Psychic Anthology/22
+
+You can spin a small building, bridge, or other edifice out of aether, and even use aether to tether
+a building to a flat surface other than the ground.
+
+By concentrating for 10 minutes, you can create an edifice out of scintillating aether (same
+[hardness](ref/umr/hardness) and hit points as a [wall of force](ref/spell/wall-of-force)) as long
+as the edifice is no larger than one 10-foot cube per kineticist level. Unless the creation is
+extremely simplistic, you must succeed at a [Craft](ref/skill/craft-any) or
+[Knowledge (engineering)](ref/skill/knowledge-engineering) check to add embellishments. This ability
+can also create a series of tethers to securely attach a normal building to a vertical surface or
+even a cavern ceiling.
+
+_Aether architect_ lasts as long as you concentrate, and you can accept 1 point of burn to make the
+effect last until destroyed; by accepting this burn, you can use this ability any number of times in
+a row to create a larger edifice.

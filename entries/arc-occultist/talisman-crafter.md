@@ -1,0 +1,106 @@
++++
+id = "ref/arc-occultist/talisman-crafter"
+kind = "archetype"
+title = "Talisman Crafter"
+source_ids = ["horror-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "talisman_crafter", path = "json/archetypes_occultist.json" },
+]
+relations = [
+  { kind = "archetype", target = "ref/class/occultist" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Horror Adventures pg 63\
+Talisman crafters specialize in the creation of seals, constructing master talismans to use as
+implements and inscribing wards with esoteric geometry.
+
+**Talismanic Implements (Su)**
+
+**Ability:** The talisman crafter doesn't gain normal implements; rather, after refreshing her
+mental focus, she spends 1 hour crafting a number of small master talismans out of cast metal,
+parchment, wax, or wood, inscribing them with esoteric seals and investing them with power to serve
+as her implements for casting occultist spells of the schools she knows. The talisman crafter
+selects schools as normal (two at 1st level and an additional one at 2nd level and every 4 occultist
+levels thereafter)
+
+**Alters:** Implements
+
+**Special:** She creates one master talisman for each implement school she knows, unless she
+selected that implement school multiple times, in which case she needs one master talisman per time
+she has selected that school. The talisman crafter splits her mental focus among the schools she
+knows and generic focus as normal.
+
+**Spellbound Tailsman (Su)**
+
+**Ability:** A talisman crafter can inscribe _spellbound talismans_ in addition to her master
+talismans, infusing small tokens she crafts with psychic spells she knows that normally affect one
+or more target creatures (but not spells that target the caster, spells that affect an area, spells
+that create effects, or other such spells). When the occultist infuses a talisman with one of her
+spells, she expends the spell slot just as if she had cast the spell and expends any material
+components necessary.
+
+**Ability2:** Alternatively, the talisman crafter can touch the talisman to a target creature as a
+melee touch attack (for a willing target, she automatically hits); this attack doesn't provoke an
+attack of opportunity as long as she succeeds at a concentration check to cast defensively.
+
+**Info:** If an inscribed talisman's spell would normally target more than one creature, its DC
+increases by 2.
+
+**Gained:** At 2nd Level
+
+**Replaces:** Magic item skill, object reading
+
+**Special:** Only a talisman crafter can activate her _spellbound talismans._ Once created, a
+_spellbound talisman_ remains potent until the next time the talisman crafter regains spell slots
+before losing its magic. Inscribing a _spellbound talisman_ in this manner takes 1 minute of work.
+
+**Standard:** The talisman crafter can hurl this prepared talisman, which provokes an attack of
+opportunity and requires the same thought and emotion components as the original spell. Even if she
+can normally throw objects without provoking an attack of opportunity, throwing a talisman still
+provokes an attack of opportunity unless she also succeeds at a
+[concentration](ref/rule/concentration) check to cast defensively. The thrown talisman has a range
+of 20 feet, and the occultist must succeed at a ranged touch attack to hit her target. If she hits
+the target, the spell affects it normally, and the creature receives the normal saving throw (if
+any) against the spell effect. This allows the talisman crafter to deliver touch spells at range
+through the _spellbound talisman._
+
+**Shared Talisman (Su)**
+
+**Ability:** A talisman crafter can expend 1 point of generic mental focus to create a _spellbound
+talisman_ that anyone can activate. As long as the _spellbound talisman_ exists, it continues to
+occupy one of the occultist's spell slots, but can be used by another creature to trigger its
+effects.
+
+**Gained:** At 4th Level
+
+**Replaces:** Shift focus
+
+**Special:** Whoever triggers the effect, a _shared talisman_ does not require thought or emotion
+components, and it doesn't provoke attacks of opportunity for casting a spell (though it still does
+so as normal if thrown).
+
+**Warding Seal (Su)**
+
+**Ability:** A talisman crafter can inscribe a _warding seal,_ infusing an inscribed glyph with
+psychic energy. Inscribing the seal follows the rules for drawing _magic circles,_ takes 1 minute,
+and requires the occultist to expend 1 point of mental focus (either generic focus or focus from any
+one of her implements).
+
+**Fullround:** The talisman crafter expends 1 point of mental focus to scribe a special seal,
+infusing the glyph with a psychic spell she knows that affects one or more creatures and expending
+the spell slot just as if she had cast the spell. This action provokes attacks of opportunity. This
+seal holds the spell energy in check until it's triggered by conditions set forth when the seal is
+crafted or until the occultist refreshes her mental focus. The seal functions as the spell glyph
+option of the [glyph of warding](ref/spell/glyph-of-warding) spell.
+
+**At 17th Level:** The talisman crafter's _fast circles_ ability applies to her _warding seals,_ and
+she treats the ability as the _greater spell glyph_ option of the
+[greater glyph of warding](ref/spell/glyph-of-warding-greater) spell.
+
+**Gained:** At 5th Level
+
+**Replaces:** Aura sight, 5th- and 17th-level focus powers

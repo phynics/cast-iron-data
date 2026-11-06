@@ -1,0 +1,205 @@
++++
+id = "ref/monster/goldpebble"
+kind = "creature"
+title = "Goldpebble"
+source_ids = ["pathfinder-128-songbird-scion-saboteur"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "goldpebble", path = "json/monsters12.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+subtypes = ["aquatic"]
+size = "large"
+alignment = "neutral"
+ac = "18/12/15"
+hp = "51~6d10+18"
+fortitude = "+8"
+reflex = "+8"
+will = "+3"
+melee = "bite +10 (1d8+5 plus grab and poison), tail slap +5 (1d8+2)"
+special_attacks = "chilling currents"
+abilities = ["21", "16", "17", "9", "12", "14"]
++++
+
+_The scales on this twelve-foot-long water snake's back appear to be nothing more than smooth river
+stones, a few of which glint with traces of gold._
+
+**Goldpebble**
+
+**Challenge rating:** 5
+
+**dv:** 60
+
+**Initiative:** +7
+
+**Size:** large
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +6
+
+**source:** Pathfinder \#128: Songbird, Scion, Saboteur/88
+
+**Subtype:** Aquatic
+
+**Tremorsense:** present
+
+**Experience points:** 1,600
+
+**Armor class:** 18/12/15
+
+**Fort:** +8
+
+**Hit points:** 51 (6d10+18)
+
+**Mod:** +3 Dex, +6 natural, -1 size
+
+**Ref:** +8
+
+**Resist:** cold 10
+
+**Will:** +3
+
+**Offense**
+
+**Speed:** 30 ft., swim 30 ft.
+
+**Melee:** bite +10 (1d8+5 plus [grab](ref/umr/grab) and poison), tail slap +5 (1d8+2)
+
+**Reach:** 10
+
+**Space:** 10
+
+**Spec Att:** chilling currents
+
+**Statistics**
+
+**Ability scores:** Str 21, Dex 16, Con 17, Int 9, Wis 12, Cha 14
+
+**Base attack bonus:** +6
+
+**Combat maneuver bonus:** +12 (+16 grapple)
+
+**Combat maneuver defense:** 25 (can't be tripped)
+
+**Feats:** Improved Initiative, Skill Focus (Stealth), Stealthy
+
+**Skills:** Escape Artist +5, Perception +6, Stealth +9, Swim +18
+
+**Languages:** Common (can't speak)
+
+**Ecology**
+
+**Environment:** temperate or cold rivers
+
+**Organization:** solitary or nest (3-5)
+
+**Treasure:** Incidental; 10d10 gp
+
+### Special Abilities
+
+**Chilling Currents (Su)** As a free action after it successfully grapples a submerged creature, a
+goldpebble can cause the temperature of all water within a 90-foot-sphere spread, centered on
+itself, to drop several degrees for 1 minute. For the duration of this effect, any creature
+attempting to hold its breath in the affected water has the DC of its Constitution check to do so
+increased by 2.
+
+**Poison (Su)** As an unintentional side effect of the alchemical meddling that brought the creature
+about, a goldpebble's fangs inflict a dangerous venom that turns its victim's blood to water. Any
+creature with blood or a similar fluid that is hit by a goldpebble's bite attack risks being
+affected by this poison.
+
+- [Affliction: Pebblefang](ref/affliction/goldpebble/pebblefang)
+
+### Description
+
+The goldpebble is a stony-scaled water snake that came into existence thanks to a greedy Taldan
+alchemist of a forgotten time. This ambitious experimenter attempted to create a fecund creature
+whose body would turn to gold after it died, ensuring an endless supply of wealth with little
+effort. She found a water snake that bred in shallow pools and produced dozens of offspring, and its
+biology responded well to her initial tests. The original snake's scales contained trace amounts of
+minerals and served as a clever camouflage in the wild, and the alchemist combined magical
+techniques with selective breeding to coax the species' scales into naturally producing nuggets of
+gold.
+
+At first, the experiment seemed to be going well; early generations demonstrated traces of gold in
+their scales, and as they sloughed away their skin with age, the cast-off scales contained enough
+gold to justify the alchemist's efforts. However, the snakes grew in size with each generation, and
+soon the breeding pools the alchemist had created could not contain them. Worse, the amount of gold
+each snake produced didn't increase, but rather seemed to decrease until only glittering flakes
+remained.
+
+Frustrated, the alchemist redoubled her efforts and saturated the breeding pools with transmutative
+alchemical reagents, mercilessly culling any snakes that failed to produce new growth. While this
+did little to increase the mineral content of the creatures' scales, it did invest them with a
+supernatural venom that causes victims' blood to slowly turn to water. When the overzealous
+alchemist next came to harvest her treasured pets, the goldpebbles struck, killing her and escaping
+into a nearby stream; they can now be found all across the Inner Sea region.
+
+A fully grown goldpebble is about 12 feet long and weighs 250 pounds.
+
+Goldpebbles are solitary creatures, except for when they gather during the twice-annual breeding
+frenzy for which the alchemist selected the original species as a test subject. They often lurk in
+rivers and streams, mimicking the smooth river stones along the bed and waiting for some unlucky
+wanderer to notice the shimmering traces of gold in their skin. Once the target is near, the
+creature ambushes the unsuspecting victim, sinking its narrow teeth into the target's skin and
+attempting to drag its target below the water. In addition, most goldpebbles have the unusual and
+instinctive ability to cause the water around them to grow extremely cold, making it harder for a
+surprised victim to hold its breath. Weaker prey will often succumb to this attack, drowning and
+settling to the river floor to serve as dinner for the goldpebble. However, even if the victim of
+the goldpebble's bite manages to escape, it's not yet out of danger. Hours after the attack, the
+victim's blood begins to transmute into frigid water. Symptoms of this transformation vary, though
+they often resemble anemia or frostbite, as vital nutrients and oxygen have trouble reaching their
+destination and the victim's body temperature plummets from the inside outward. If condition is left
+untreated, the frigid water bleed into the victim's lungs, causing it to drown.
+
+During the breeding season, goldpebbles are even more dangerous than usual. Gathering in shallow
+pools and lakes, they turn the water into a glimmering froth, laying and fertilizing eggs in the
+cold mud of the riverbed before returning to their usual streams. When the eggs hatch, hundreds of
+tiny snakes slither in every direction in search of territory. With little control over their
+ability to cool surrounding waters, the young goldpebbles sometimes unintentionally flash-freeze
+their nursery pool in this initial burst of activity. The tiny offspring that survive find their way
+into streams, wells, and even irrigation systems, sometimes striking at innocent passers-by. Despite
+the juvenile snakes' diminutive size, the result for their victims is always the same: they end up
+gasping for breath on dry land, their skin turning chill and blue while their horrified loved ones
+look on.
+
+### Habitat
+
+Even though they are solitary ambush hunters, goldpebbles don't exist in an ecological vacuum.
+Several different creatures have adapted to the presence of goldpebbles, and the snakes have also
+learned to take advantage of the creatures that share their habitats.
+
+In the mineral-rich waters of caves or the runoff from mining operations, a goldpebble sometimes
+deliberately nests upstream of a basidirond, a plant creature that causes powerful hallucinations
+that can enhance the goldpebble's glimmering scales in the eyes of its potential prey. Once the
+goldpebble has made its kill, the victim's blood flows into the basidirond's roots. Of course, if
+this blood is mingled with the goldpebble's transmutative venom, it can lead to an unfortunate end
+for the basidirond. Another creature that benefits from proximity to the goldpebble is the giant
+dragonfly. These carnivorous insects take advantage of the water snake's ambush tactics, seeking out
+lurking goldpebbles and laying their eggs in the nearby shallows. When the giant dragonfly nymphs
+hatch, they swarm around the goldpebble, instinctively attempting to eat it but unable to break
+through its stony skin. When the goldpebble brings down a victim, though, the nymphs are often able
+to devour most of the kill before the goldpebble's transmutative poison can do its work. Goldpebbles
+in this situation have to be more aggressive in their hunting, since the nymphs consume a majority
+of their kills, and these goldpebbles tend to develop more brilliantly colored scales that better
+attract victims.
+
+### Gempebbles
+
+One of the side effects of its rapid breeding cycle is the goldpebble's ability to adapt to its
+environment. The alchemist's original manipulations of the goldpebble's mineral-laced scales have
+changed slowly over time in some subpopulations of the snake, meaning that some goldpebbles have
+scales that, instead of being struck through with streaks of gold, glitter like gems or other
+precious stones. There are clans of dwarves who attempt to capitalize on this adaptiveness despite
+the creature's dangerous poison. They harvest young goldpebbles and then pour them into crevices in
+deep caves, in locations where they suspect veins of precious gems exist but are too difficult or
+dangerous to mine effectively. When the surviving snakes are fully grown, they return to the more
+spacious caves of the mine as gempebbles, ready to be harvested - and just as likely as their
+gold-streaked cousins to attack their dwarven stewards.

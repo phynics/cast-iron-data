@@ -1,0 +1,24 @@
++++
+id = "ref/feat/wayang-soothsayer"
+kind = "feat"
+title = "Wayang Soothsayer"
+source_ids = ["blood-of-shadows"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "wayang_soothsayer", path = "json/feat17.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Wayang."
+benefit = "You gain the shadow speaker racial trait. If you already have the shadow speaker racial trait, you can increase the number of times per day that you can use shadow speaker by 1, and increase the insight bonus granted from each type of use by 1."
+special = "This feat can be taken once at 1st level, and again at 11th level."
++++
+
+**Sources:** Blood of Shadows pg 11
+
+You embody the ideals of wayang society and culture.\
+**Prerequisites:** [Wayang](ref/race/wayang).\
+**Benefit:** You gain the shadow speaker racial trait. If you already have the shadow speaker racial
+trait, you can increase the number of times per day that you can use shadow speaker by 1, and
+increase the insight bonus granted from each type of use by 1.\
+**Special:** This feat can be taken once at 1st level, and again at 11th level.

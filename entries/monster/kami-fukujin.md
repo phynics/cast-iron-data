@@ -1,0 +1,224 @@
++++
+id = "ref/monster/kami-fukujin"
+kind = "creature"
+title = "Fukujin (Kami)"
+source_ids = ["pathfinder-52-forest-of-spirits"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "kami_fukujin", path = "json/monsters34.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "outsider"
+subtypes = ["kami", "native"]
+size = "tiny"
+alignment = "lawful neutral"
+ac = "15/15/12"
+hp = "30~4d10+8"
+fortitude = "+6"
+reflex = "+4"
+will = "+7"
+melee = "short sword +7 (1d3+1/19-20)"
+special_attacks = "precise attacks"
+special_qualities = "merge with ward, ward (bonsai trees and small plants)"
+abilities = ["13", "16", "14", "11", "17", "14"]
++++
+
+_This diminutive humanoid looks like a truly ancient but proud old warrior. A tiny tree branch juts
+from the top of his head._
+
+**Fukujin**
+
+**Challenge rating:** 3
+
+**aura:** aura of luck (15 ft.)
+
+**dv:** 60
+
+**Initiative:** +7
+
+**Alignment:** Lawful neutral
+
+**Type:** outsider
+
+**Perception:** +12
+
+**source:** Pathfinder \#52: Forest of Spirits/84
+
+**Subtype:** Kami, Native
+
+**Size:** tiny
+
+**Experience points:** 800
+
+**Armor class:** 15/15/12
+
+**Dr:** 5/cold iron or evil
+
+**Fh:** 3
+
+**Fort:** +6
+
+**Hit points:** 30 (4d10+8)
+
+**Immune:** bleed, mind-affecting effects, petrification, polymorph
+
+**Mod:** +3 Dex, +2 size
+
+**Ref:** +4
+
+**Resist:** acid 10, electricity 10, fire 10
+
+**Will:** +7
+
+**Offense**
+
+**Speed:** 30 ft.
+
+**Melee:** short sword +7 (1d3+1/19-20)
+
+**Spec Att:** precise attacks
+
+**Spell-Like Abilities**
+
+**Caster level:** 4
+
+**Concentration:** +6
+
+**Constant:**
+
+- speak with plants
+
+**At will:**
+
+- mending, purify food and drink
+
+**Per day:**
+
+- 3/day: detect snares and pits, remove sickness
+- 1/day: delay poison, goodberry, soften earth and stone
+
+**Statistics**
+
+**Ability scores:** Str 13, Dex 16, Con 14, Int 11, Wis 17, Cha 14
+
+**Base attack bonus:** +4
+
+**Combat maneuver bonus:** +5
+
+**Combat maneuver defense:** 16
+
+**Feats:** Alertness, Improved Initiative
+
+**Skills:** Appraise +7, Bluff +9, Diplomacy +9, Sense Motive +12
+
+**Languages:** Common; _[speak with plants](ref/spell/speak-with-plants),_
+[telepathy](ref/umr/telepathy) 100 ft.
+
+**Special qualities:** merge with ward, ward (bonsai trees and small plants)
+
+**Ecology**
+
+**Environment:** any
+
+**Organization:** solitary, garden (2-4)
+
+**Treasure:** Standard
+
+### Special Abilities
+
+**Aura of Luck (Su)** A fukujin brings good fortune with it wherever it goes. Any allied creature
+that begins its turn within 15 feet of a fukujin gains a +2 bonus on skill checks.
+
+**Precise Attacks (Su)** A fukujin can detect weak points in a foe's defenses as an immediate action
+by succeeding at a DC 15 Perception check. Once these weak points have been determined, a fukujin
+gains a +2 bonus on attack rolls to confirm critical hits against that creature for 24 hours. A
+fukujin can inform a single ally within 30 feet of its findings as a swift action, granting that
+ally the same bonus. This bonus cannot be granted to more than one creature, even if a fukujin
+attempts to point out a weakness to another.
+
+### Description
+
+Spiritual guardians of ornamental shrubs and miniature trees, fukujin are highly regarded among
+Tians as bringers of good fortune and sound wisdom. Fukujins are thought to only come to
+good-hearted and devoted bonsai gardeners, and since bonsai plants are often only cultivated by
+astute and aesthetically minded humanoids, the kami are usually of a similar nature, speaking to
+mortals rarely and always cryptically. Regardless of how much of their coveted knowledge they impart
+upon favored mortals, however, fukujins always bring with them a sense of hope and good luck, and
+almost all within close proximity of the kami feel an instant sense of relief.
+
+Fukujins resemble humanoids with tree branches protruding from their bodies, most often their heads,
+and some fukujins possess leafy hair or tree-like limbs. A fukujin in its physical form is only as
+tall as its bonsai ward - usually only a foot or two - and weighs less than 30 pounds.
+
+While many see the art of bonsai gardening as humanoids' attempts at controlling or forming nature,
+fukujins reflect the practice's virtues of patience and nurturing. Fukujins maintain that a moment
+of patience and study can reveal multitudes more than years of trial and error, and the diminutive
+beings spread this knowledge wherever they go. While kami do not reproduce in any typical sense,
+fukujins are known to sow seeds of bonsai plants in the wake of their footsteps, further delighting
+communities that appreciate such flora. Though assignment of kami remains up to the mysterious will
+of the gods, fukujins do their part in creating numerous hosts for these spirits.
+
+The health and strength of the tree branch protruding from a fukujin's head is often said to be a
+good indicator of the skill of the warded bonsai tree's caretaker. While the aesthetic values of
+bonsai trees are often completely subjective, the kami spirits are evidence that there is perhaps a
+series of core doctrines bonsai farmers should adhere to when taking care of their plants-ideals
+that a gardener can strive toward to ensure he achieves success in his maintenance of the small
+tree. A poorly trimmed bonsai plant may sicken the spirit for a time, for instance, while expert
+grafting can result in a strong or knowledgeable kami. In most cases, however, a kami will almost
+always leave its ward if a bonsai gardener neglects the plant long enough or effectively ruins the
+effort, for though fukujins are patient, they have little tolerance for the virtues of negligence
+and wastefulness.
+
+While nearly all fukujins are calm, collected, and patient spirits, the beings are by no means all
+the same, as their physical appearances, predispositions, and demeanors are just as often
+reflections of the particular bonsai plant that they watch over. Fukujins who reside within the
+hearts of deciduous trees, for example, tend to be of lighter color as well as more airy and
+spirited than the hardy and resilient fukujins of coniferous shrubs, who take on a red, earthy hue.
+Plant type can also hint at particular magical qualities the spirit might have-white-trunked trees
+tend to attract gaunter, more fatalistic individuals, while plants with brown or ebon bark inspire
+kami that are more attuned to the energies and mysteries of magic. The tree branch that sticks out
+of a fukujin's head while the spirit is in its physical form is often of the same variety as the
+bonsai tree that the kami protects, though exceptions have been known to exist among particularly
+dual-natured spirits.
+
+**Family:** [Kami](ref/family/kami)
+
+### Habitat
+
+Since their wards are by nature the direct result of humanoid intervention, fukujins are naturally
+social creatures, and most seek to assist their humanoid partners in not only cultivating beautiful
+plants, but in all spheres of life. Many bonsai gardeners are often content to live in a permanent
+home, establish a family, and live a life of tranquility, and fukujins happily provide all manner of
+advice regarding these domestic issues. In other instances, however, fukujins have been known to
+travel alongside particularly adventurous cultivators, humanoids who keep the shrubbery and kami
+spirit in safe and comfortable packs or pouches and consult them for wisdom in circumstances both
+dire and unusual. The miniature kami's insights and good luck prove as useful in the heat of battle
+as in the hearthstone, and so humanoids from nearly all walks of life seek the favor of these
+beings.
+
+Bonsai trees are delicate plants and their kami reflect this fragility. What they lack in physical
+defenses, however, fukujins make up for in grace and keen insight, using their natural acumen to
+avoid and deter hazards before they're even encountered. Some might mistakenly see this expert
+passiveness as a manifestation of fukujins' philanthropic ideals and good intentions, but more often
+than not their flightiness is simply what they deem to be the wisest course of action. In situations
+where violence is inevitable, fukujins seek the aid of stronger individuals to help protect them,
+true to the tradition of their wards' reliance on humanoid intervention and maintenance. Rather than
+view this reliance on humanoids as a weakness, however, most fukujins accept it as part of a
+long-lasting transaction between the two forces, each providing unique benefits to the other
+throughout the relationship. To bolster this partnership, fukujins harness healing powers as well as
+the strength of their insight, ensuring that their caretakers remain healthy and able to protect the
+kami and their wards.
+
+While they almost always possess pertinent and useful advice, fukujins are known for being reserved
+under most circumstances, sharing what knowledge they have only when it is absolutely necessary, and
+they never share wisdom superfluously. Fukujins are normally individualistic and solitary like the
+plants they watch over, and when they interact with one another they usually do so telepathically.
+What people often perceive as the luck of fukujins is often merely the result of wise advice
+garnered from the spirits, though when asked if the kami really are bringers of fortune, fukujins
+are known to remain even more tight-lipped than usual.
+
+Occasionally one might encounter a fukujin in the wild, in lands far from the societies and plants
+where they commonly make their homes. In such cases, these miniature kami often claim shrubs, young
+plants, and even whimiscal-looking mushrooms as their wards, grooming nearby groves and glades into
+quiet meditation gardens or into artistic shapes, inviting visitors to rest and reflect.

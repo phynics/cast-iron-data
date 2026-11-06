@@ -1,0 +1,30 @@
++++
+id = "ref/trait/explorer"
+kind = "trait"
+title = "Explorer"
+source_ids = ["gnomes-of-golarion"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "explorer", path = "json/traits01.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Social"
++++
+
+**Type:** Social
+
+**Prerequisite:** [Gnome](ref/race/gnome)
+
+**Flavor:** Though many gnomes settle down in communities large enough and interesting enough to
+provide them with all the stimulation they need to ward off the Bleaching, you're never going to be
+one of them. You are always looking around the next bend in the road or over the next hill, past the
+borders of where you are to where you want to be.
+
+**Benefit:** At the beginning of each character level, select one desired terrain type from the
+following list: cold, desert, forest, jungle, mountains (including hills), plains, planes (other
+than the Material Plane), swamp, underground (including caves and dungeons), urban, or water. You
+gain a +2 bonus on all [Survival](ref/skill/survival) checks made in your desired terrain type.
+
+At the beginning of each level, you must select a new desired terrain type to replace the old one
+(you cannot take the same desired terrain type two levels in a row).

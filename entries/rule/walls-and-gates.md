@@ -1,0 +1,56 @@
++++
+id = "ref/rule/walls-and-gates"
+kind = "rule"
+title = "Walls and Gates"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "walls_and_gates", path = "json/rules_gm08.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 433
+
+Many cities are surrounded by walls. A typical small city wall is a fortified stone wall 5 feet
+thick and 20 feet high. Such a wall is fairly smooth, requiring a DC 30 Climb check to scale. The
+walls are crenellated on one side to provide a low wall for the guards atop it, and there is just
+barely room for guards to walk along the top of the wall. A typical small city wall has AC 3,
+[hardness](ref/umr/hardness) 8, and 450 hp per 10-foot section.
+
+A typical large city wall is 10 feet thick and 30 feet high, with crenellations on both sides for
+the guards on top of the wall. It is likewise smooth, requiring a DC 30 Climb check to scale. Such a
+wall has AC 3, [hardness](ref/umr/hardness) 8, and 720 hp per 10-foot section.
+
+A typical metropolis wall is 15 feet thick and 40 feet tall. It has crenellations on both sides and
+often has a tunnel and small rooms running through its interior. Metropolis walls have AC 3,
+[hardness](ref/umr/hardness) 8, and 1,170 hp per 10-foot section.
+
+Unlike smaller cities, metropolises often have interior walls as well as surrounding walls - either
+old walls that the city has outgrown, or walls dividing individual districts from each other.
+Sometimes these walls are as large and thick as the outer walls, but more often they have the
+characteristics of a large city's or small city's walls.
+
+**Watchtowers:** Some city walls are adorned with watchtowers set at irregular intervals. Few cities
+have enough guards to keep someone constantly stationed at every tower, unless the city is expecting
+attack from outside. The towers provide a superior view of the surrounding countryside as well as a
+point of defense against invaders.
+
+Watchtowers are typically 10 feet higher than the wall they adjoin, and their diameter is 5 times
+the thickness of the wall. [Arrow slits](ref/rule/walls) line the outer sides of the upper stories
+of a tower, and the top is crenellated like the surrounding walls are. In a small tower (25 feet in
+diameter adjoining a 5-foot-thick wall), a simple ladder typically connects the tower's stories and
+its roof. In a larger tower, stairs serve that purpose.
+
+Heavy wooden doors, reinforced with iron and bearing good locks (Disable Device DC 30), block entry
+to a tower, unless the tower is in regular use. As a rule, the captain of the guard keeps the keys
+to the towers secured on her person, and second copies are in the city's inner fortress or barracks.
+
+**Gates:** A typical city gate is a gatehouse with two [portcullises](ref/rule/doors) and murder
+holes above the space between them. In towns and some small cities, the primary entry is through
+iron double doors set into the city wall.
+
+Gates are usually open during the day and locked or barred at night. Usually, one gate lets in
+travelers after sunset and is staffed by guards who will open it for someone who seems honest,
+presents proper papers, or offers a large enough bribe (depending on the city and the guards).

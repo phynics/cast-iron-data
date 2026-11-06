@@ -1,0 +1,33 @@
++++
+id = "ref/feat/raging-brute"
+kind = "feat"
+title = "Raging Brute"
+source_ids = ["monster-codex"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "raging_brute", path = "json/feat12.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Str 21, ogre."
+benefit = "Select one rage power. Once per day as a free action, you can enter a state of fury and gain the effects of this rage power for 1 minute. If the rage power normally ends a barbarian rage when used, the ability ends after it's used and you immediately become fatigued. You don't otherwise become fatigued at the end of this ability's duration."
+special = "You can take this feat multiple times. Each time you do, choose another rage power and gain one additional use per day of this feat. Each time you activate this feat, you can use any or all of your rage powers gained from this feat."
++++
+
+**Sources:** Monster Codex pg 153
+
+You are able to harness the rage that burns inside you and fuels your might.\
+**Prerequisites:** Str 21, [ogre](ref/monster/ogre).\
+**Benefit:** Select one rage power. Once per day as a free action, you can enter a state of fury and
+gain the effects of this rage power for 1 minute. If the rage power normally ends a barbarian rage
+when used, the ability ends after it's used and you immediately become
+[fatigued](ref/misc/fatigued). You don't otherwise become fatigued at the end of this ability's
+duration.
+
+Your effective barbarian level for the purpose of qualifying for and using rage powers is equal to
+your total Hit Dice - 3. This feat doesn't grant any of the normal benefits or penalties of a
+barbarian's rage.
+
+**Special:** You can take this feat multiple times. Each time you do, choose another rage power and
+gain one additional use per day of this feat. Each time you activate this feat, you can use any or
+all of your rage powers gained from this feat.

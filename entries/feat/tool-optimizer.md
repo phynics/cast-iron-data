@@ -1,0 +1,23 @@
++++
+id = "ref/feat/tool-optimizer"
+kind = "feat"
+title = "Tool Optimizer"
+source_ids = ["adventurers-armory-2"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "tool_optimizer", path = "json/feat16.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Craft (any) 1 rank, Disable Device 1 rank, or Profession (any) 1 rank."
+benefit = "You take no penalty for using an improvised tool associated with a skill in which you have at least 1 rank. For example, if you have 1 rank in Disable Device, you take no penalty when opening a lock without a proper tool. If you have at least 3 ranks in a skill, you can treat a normal tool associated with that skill as though it were a masterwork tool."
++++
+
+**Sources:** Adventurer's Armory 2 pg 22
+
+You can easily find items that function as tools or augment your own set of tools.\
+**Prerequisites:** Craft (any) 1 rank, Disable Device 1 rank, or Profession (any) 1 rank.\
+**Benefit:** You take no penalty for using an improvised tool associated with a skill in which you
+have at least 1 rank. For example, if you have 1 rank in [Disable Device](ref/skill/disable-device),
+you take no penalty when opening a lock without a proper tool. If you have at least 3 ranks in a
+skill, you can treat a normal tool associated with that skill as though it were a masterwork tool.

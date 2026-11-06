@@ -1,0 +1,54 @@
++++
+id = "ref/magic-legacy/carved-kings-band"
+kind = "item"
+title = "Carved King's Band"
+source_ids = ["chronicle-of-legends"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "carved_kings_band", path = "json/magic_legacy_items.json" },
+]
+
+[fields]
+kind = "item"
+weight = "1 lb."
+slot = "headband"
+aura = "strong transmutation"
+caster_level = "17th"
++++
+
+**Sources:** Chronicle of Legends pg 20\
+**Slot** headband; **CL** 17th; **Weight** 1 lb.\
+**Aura** strong transmutation
+
+The runic scrollwork that decorates this thick iron headband calls to mind the intricate tattoos of
+the Blue Warders, the dwarven caretakers of Tar-Kazmukh's arcane libraries. An heirloom of King
+Kazmukh of Doggadth who signed the Kerse Accords in 2332 AR, the band has long been stored in the
+heavily warded levels of the city's labyrinthine archives.
+
+A wizard who wears the headband gains two extra uses per day of a 1st-level arcane school power that
+is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier.
+
+**4th Level:** The carved king's band acts as a
+[headband of vast intelligence +2](ref/magic-wondrous/headband-of-vast-intelligence-2) (granting
+skill ranks in Perception).
+
+**7th Level:** Once per day when the wearer attempts a saving throw against a magical glyph, symbol,
+sigil, or similar written trap, as an immediate action, he can attempt a Spellcraft check against
+the same DC to dispel the effect.
+
+**10th Level:** The carved king's band acts as a
+[headband of vast intelligence +4](ref/magic-wondrous/headband-of-vast-intelligence-4) (granting
+skill ranks in Knowledge \[history\] and Spellcraft).
+
+**13th Level:** The DC and caster level of all spells with the earth descriptor that the wearer
+casts increase by 1.
+
+**15th Level:** The carved king's band acts as a
+[headband of vast intelligence +6](ref/magic-wondrous/headband-of-vast-intelligence-6) (granting
+skill ranks in Knowledge \[history\], Sense Motive, and Spellcraft).
+
+**Goal:** Prepare and cast 50 unique spells, at least three of which must be 8th-level or higher.
+
+**Reward:** The wearer can spontaneously cast any spell with the earth descriptor from his spellbook
+by sacrificing a prepared spell of equal or higher level. He can apply any metamagic feats he has to
+this spell when he casts it. This increases the minimum level of the prepared spell sacrificed in
+order to cast it but does not affect the casting time.

@@ -1,0 +1,138 @@
++++
+id = "ref/rule/intense-stratagems"
+kind = "rule"
+title = "Intense Stratagems"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "intense_stratagems", path = "json/rules_adv_gm01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Intrigue pg 140
+
+Intense stratagems are desperate, costly, personal, or perhaps all three. Only a nemesis with a
+profound need to avenge the numerous setbacks the PCs have inflicted on him is capable of such
+extremes.
+
+### Backed into a Corner
+
+**XP Reward** high
+
+The nemesis liquidates assets and calls in debts to gain additional finances equal to his normal
+wealth by level. He may spend this wealth on any resources he pleases or to gain a significant
+advantage in an endeavor in which he is in direct competition with the PCs. The nemesis's
+liquidations might provide wealth in the short term, but they are deleterious to his long-term
+financial solvency.
+
+#### Opportunities
+
+The nemesis has exhausted his resources and is without many of the magical and mundane defenses his
+wealth normally provides. Or, one of the PCs' allies takes it upon themselves to check the
+accounting of whoever granted the nemesis his additional wealth. The ally finds errors or lies that
+infuriate the nemesis's backers, causing them to cut ties with him or seek to call back their loan.
+
+### Death of an Ally
+
+**XP Reward** high
+
+The nemesis callously slays a close ally of the PCs. The ally should be one who offers significant
+aid to the PCs or with whom they have a close personal connection. The method of the murder should
+provide the PCs a solid opportunity to strike back at the nemesis, since after this stratagem, it's
+likely the PCs will be out for blood.
+
+#### Opportunities
+
+This might not be the first time the nemesis has resorted to murder. A public death brings the
+nemesis's other foes to light, and in their sympathy they ally with the PCs.
+
+### Enemy of the State
+
+**XP Reward** high
+
+A more severe version of the [false witness stratagem](ref/rule/simmering-stratagems), the nemesis
+has persuaded the local government that the PCs have committed treason. The PCs must not only
+contend with the nemesis's antics, but must also escape the state authorities' hounding and possible
+criminal charges. The PCs can still attempt to prove their innocence, but doing so is extremely
+difficult, taxing the PCs' time and resources. Also, proving their innocence may not be enough, and
+the PCs may have to work on the fringes of society to achieve their other goals.
+
+#### Opportunities
+
+The nemesis's lies are themselves a crime and, upon redeeming themselves, the PCs shift the eyes of
+the law to their foe.
+
+### Ghostly Cathexis
+
+**XP Reward** high
+
+The PCs have killed their nemesis, but his obsession causes him to rise from death as a
+[ghost](ref/template/ghost) with the unfinished business of defeating the PCs. His spirit rises 1d4
+days after his death, and his ghost is tied to his possessions from life. He can use
+[locate object](ref/spell/locate-object) at will as a
+[spell-like ability](ref/umr/spell-like-abilities) to locate any of those objects, and once per day,
+he can use [greater scrying](ref/spell/scrying-greater) to spy upon a creature carrying them as if
+he were familiar with that creature (even if the object itself is in an extradimensional space). If
+he successfully locates an object with either effect, he can transport himself to its location once
+per day, as per [word of recall](ref/spell/word-of-recall), merging his incorporeal form with the
+object and moving with it. While he inhabits the object, he can use his malevolence ability to
+possess creatures nearby; a creature wearing or wielding one of the ghost's former possessions takes
+a - 4 penalty on saving throws against this malevolence. Becoming a ghost limits the nemesis, as
+well, and represents a new opportunity for the PCs to strike back.
+
+#### Opportunities
+
+The nemesis's refusal to pass into death draws the attention of some dangerous creature, such as a
+night hag or [psychopomp](ref/family/psychopomp). They seek to claim the nemesis's soul, but also
+draw the PCs into new, otherworldly adventures.
+
+### Loyalty Beyond Death
+
+**XP Reward** high
+
+The PCs kill a fanatic follower of the nemesis, who returns from death as a
+[revenant](ref/monster/revenant). For higher-level parties, multiple slain associates might come
+back as a group of revenants or more powerful undead. These unholy abominations pursue the PCs
+tirelessly, seeking to exact revenge. Unlike most stratagems, the nemesis might not instigate this
+one on his own.
+
+#### Opportunities
+
+Even though the nemesis might not typically use undead allies, in this case, the dead have served
+his agendas. This incites the scrutiny of a good-aligned faith that now has reason to believe the
+nemesis is an enemy of the living.
+
+### Mistaken Identity
+
+**XP Reward** high
+
+The nemesis uses a [clone](ref/spell/clone), [simulacrum](ref/spell/simulacrum),
+[doppelganger](ref/monster/doppelganger), or other impostor version of himself to make it seem like
+he is in one place rather than another. The GM should decide to implement this stratagem before the
+PCs encounter the nemesis and use the stats for the impostor, rather than having the PCs fight the
+real, full-powered nemesis; after the PCs kill the impostor, the GM should reveal that it was a
+fake.
+
+#### Opportunities
+
+The PCs might be able to convince many of their nemesis's agents that their master is dead, tricking
+them into leaving their posts or giving up secrets that now seem moot.
+
+### Trump Card
+
+**XP Reward** high
+
+The nemesis reveals a trump card he has been holding back for just the right moment - such as
+monstrous allies or a powerful magic item. There should be something that strongly limits his use of
+this trump card or that has caused him to hold it back until now. For example, maybe the item powers
+down after use and is very difficult to recharge. Or, maybe knowledge of his alliance would ruin his
+reputation. Whatever it is, the nemesis's reason for hiding the trump card could feed into a
+particularly useful opportunity for the PCs.
+
+#### Opportunities
+
+Using his trump card brings considerable attention to the nemesis, perhaps from the law, the trump
+card's former owner, or a deadlier creature that wants this advantage for itself. The PCs might
+temporarily ally with this creature, or use its antagonism to their advantage.

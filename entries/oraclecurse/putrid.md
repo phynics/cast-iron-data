@@ -1,0 +1,35 @@
++++
+id = "ref/oraclecurse/putrid"
+kind = "rule"
+title = "Putrid"
+source_ids = ["wilderness-origins"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "putrid", path = "json/class_ability_curses.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Putrid**
+
+**Benefit:** None.
+
+**Flavor:** Your presence causes liquids to spoil.
+
+**At 10th Level:** Your body is covered in noxious slime, and each creature adjacent to you at the
+beginning of its turn must succeed at a Fortitude save (DC = 10 + half your oracle level + your
+Charisma modifier) or become [sickened](ref/misc/sickened) for 1 round.
+
+**At 15th Level:** Your slime coating grants you DR 10/-.
+
+**At 5th Level:** You become immune to the nauseated effects created by liquids your presence has
+befouled.
+
+**Penalty:** Your presence stagnates water and befouls all liquids carried on your person, including
+magical items such as potions, and unattended sources of still water within 10 feet. Creatures who
+drink such a liquid are [nauseated](ref/misc/nauseated) for 1 round (though potions and similar
+liquids still convey their usual benefits as well). Affected liquids remain stagnant for 1 hour
+after leaving your presence. [Purify food and drink](ref/spell/purify-food-and-drink) can cleanse a
+stagnant potion or water with a successful caster level check (DC = 15 + double the potion's caster
+level).

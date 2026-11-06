@@ -1,0 +1,31 @@
++++
+id = "ref/feat/maleficium"
+kind = "feat"
+title = "Maleficium"
+source_ids = ["champions-of-corruption"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "maleficium", path = "json/feat10.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Damnation"]
+benefit = "You cast spells with the evil descriptor with increased potency."
++++
+
+## Maleficium (Damnation)
+
+**Sources:** Champions of Corruption pg 17
+
+You are a master of dark magic.\
+**Benefit:** You cast spells with the evil descriptor with increased potency.
+
+**One** Damnation Feat: Add 1 to the DCs of all saving throws against spells with the evil
+descriptor that you cast.\
+**Two Damnation Feats:** When you apply a metamagic feat to a spell with the evil descriptor, that
+spell takes up a spell slot 1 level lower than normal (to a minimum of 1 level above the spell's
+actual level).\
+**Three Damnation Feats:** Add 1 to the DCs of all saving throws against spells with the evil
+descriptor that you cast. This bonus stacks with the earlier benefits of this feat.\
+**Four Damnation Feats:** Treat your caster level as being 2 higher for all level-dependent effects
+of spells with the evil descriptor that you cast.

@@ -1,0 +1,35 @@
++++
+id = "ref/rule/character-creation-gg"
+kind = "rule"
+title = "Character Creation"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "character_creation_gg", path = "json/rules_gm02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 59
+
+When it finally comes time to create characters, players face several big decisions, and it's the
+GM's job to help guide them. When designing their characters, players and GMs should consider not
+just what characters people want to play, but also how those characters might mesh with a larger
+adventure group in a thematic rather than mechanical sense. Some of the most common inter-party
+conflicts, both in character and out, stem from issues of disparate alignments, inflexible
+viewpoints or goals, class prejudices, or racial enmities. While no player can be expected to create
+a character that meshes perfectly with all the others in his party - and indeed, a bit of tension
+between characters makes roleplaying more interesting - every player should seek out ways and
+reasons for a group to work together, rather than focus on bickering that detracts from the
+adventure.
+
+During the pre-campaign discussion, the GM should make sure that all players are on the same page
+regarding character creation basics such as how to generate statistics and what, if any, special
+character options might be used. This is the time for GMs to discuss what material beyond the
+Pathfinder RPG Core Rulebook new characters might employ. Unless an option clearly conflicts with
+the tone of the game, or the GM feels the power level is unbalanced, it's often a good idea to honor
+player requests, but ultimately the GM makes the call as to what rules can be used, and this
+information needs to be available to all players up front to avoid disappointment. When in doubt,
+you can always allow a power on a provisional basis, with the understanding that you'll help the
+player rebuild his character if you later reject the rule.

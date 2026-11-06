@@ -1,0 +1,30 @@
++++
+id = "ref/feat/deadhand-style"
+kind = "feat"
+title = "Deadhand Style"
+source_ids = ["horror-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "deadhand_style", path = "json/feat04.json" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat", "Style"]
+prerequisites = "Wis 15, Improved Unarmed Strike, Knowledge (religion) 4 ranks, ki pool class feature, nongood alignment."
+prerequisite_feats = ["ref/feat/improved-unarmed-strike"]
+benefit = "While using this style, if you have at least 1 point in your ki pool, you gain a +2 bonus on saves against fear effects, and the DC of Intimidate checks against you increases by 4. As a swift action, you can spend 1 point from your ki pool to empower your unarmed strikes. Creatures hit with your unarmed strikes must succeed at a Will save (DC = 10 + 1/2 your character level + your Wisdom modifier) or become shaken for a number of rounds equal to your Wisdom modifier. This is a mind-affecting fear effect."
++++
+
+## Deadhand Style (Combat, Style)
+
+**Sources:** Horror Adventures pg 84
+
+Your study of death allow you to exploit your foes' fears.\
+**Prerequisites:** Wis 15, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Knowledge
+(religion) 4 ranks, ki pool class feature, nongood alignment.\
+**Benefit:** While using this style, if you have at least 1 point in your ki pool, you gain a +2
+bonus on saves against fear effects, and the DC of Intimidate checks against you increases by 4. As
+a swift action, you can spend 1 point from your ki pool to empower your unarmed strikes. Creatures
+hit with your unarmed strikes must succeed at a Will save (DC = 10 + 1/2 your character level + your
+Wisdom modifier) or become [shaken](ref/misc/shaken) for a number of rounds equal to your Wisdom
+modifier. This is a mind-affecting fear effect.

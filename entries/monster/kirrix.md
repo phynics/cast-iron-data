@@ -1,0 +1,140 @@
++++
+id = "ref/monster/kirrix"
+kind = "creature"
+title = "Kirrix"
+source_ids = ["monster-codex"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "kirrix", path = "json/monsters15.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+size = "large"
+alignment = "neutral"
+ac = "14/11/12"
+hp = "34~4d10+12"
+fortitude = "+7"
+reflex = "+6"
+will = "+2"
+melee = "bite +7 (1d8+6)"
+special_attacks = "expel pathogens"
+special_qualities = "compression, harbor pathogens"
+abilities = ["18", "15", "17", "5", "12", "8"]
++++
+
+_This sleek, weasel-like rodent has exaggerated whiskers and six short but stout legs._
+
+**Kirrix**
+
+**Challenge rating:** 3
+
+**blindsense:** 10
+
+**dv:** 60
+
+**Initiative:** +6
+
+**Size:** large
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +9
+
+**Sense:** Scent
+
+**source:** Monster Codex/184
+
+**Experience points:** 800
+
+**Armor class:** 14/11/12
+
+**Fort:** +7
+
+**Hit points:** 34 (4d10+12)
+
+**Immune:** disease
+
+**Mod:** +2 Dex, +3 natural, -1 size
+
+**Ref:** +6
+
+**Will:** +2
+
+**Offense**
+
+**Speed:** 30 ft., burrow 10 ft., climb 20 ft.
+
+**Melee:** bite +7 (1d8+6)
+
+**Reach:** 5
+
+**Space:** 10
+
+**Spec Att:** expel pathogens
+
+**Statistics**
+
+**Ability scores:** Str 18, Dex 15, Con 17, Int 5, Wis 12, Cha 8
+
+**Base attack bonus:** +4
+
+**Combat maneuver bonus:** +9
+
+**Combat maneuver defense:** 21 (29 vs. trip)
+
+**Feats:** Improved Initiative, Skill Focus (Perception)
+
+**Skills:** Climb +12, Perception +9, Stealth +3
+
+**Languages:** Common (can't speak)
+
+**Special qualities:** [compression](ref/umr/compression), harbor pathogens
+
+**Ecology**
+
+**Environment:** any underground
+
+**Organization:** solitary, pair, or pack (3-6)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Expel Pathogens (Ex)** When a kirrix hits with its bite attack, it can infect its target using its
+harbor pathogens ability (if any) with one disease it has stored, even if that disease can't
+normally be contracted via an injury. It can do this a number of times per day equal to its
+Constitution modifier. Alternatively, a kirrix can expend two uses of this ability to spray a
+disease in a 15-foot cone, exposing all creatures in the cone to the disease even if it can't
+normally be contracted by contact. Doing so depletes the kirrix's reserve of that disease.
+
+**Harbor Pathogens (Ex)** A kirrix's body has innate features that let it clean up and contain
+diseases within ratfolk warrens. A kirrix collects diseases by consuming them off of objects or from
+the air (typically contact, ingested, or inhaled diseases), by ministering to a diseased creature
+(typically ingested or injury diseases), or by fighting a creature that imparts diseases and being
+subjected to one. The kirrix can store up to two types of diseases at a time in an organ near its
+throat. (A typical kirrix has filth fever and bubonic plague stored.) A kirrix can harmlessly digest
+an unwanted disease as a full-round action. If the creature consumes a mold or another substance
+that causes disease, it clears the surface of disease. If it ingests a diseased creature's blood
+(either by licking an open wound or biting the creature), it can produce an antiplague secretion,
+which it can use on itself or apply to others. Treat this as though the kirrix were using the Heal
+skill to treat disease with a +12 bonus.
+
+### Description
+
+Ratfolk have just as much enthusiasm for alchemy as they do for rodents, and they combined these two
+interests to create the kirrix - the result of generations of riding rat husbandry combined with
+regular infusions. These alchemical modifications have given kirrixes six legs and the ability to
+consume and transmit diseases without ill effect to the creatures themselves.
+
+Many ratfolk settlements raise these gregarious creatures, with whom the ratfolk share their warrens
+in a symbiotic relationship. The kirrixes prowl the ratfolk tunnels and act as scavengers-searching
+for unfamiliar scents, consuming detritus, and removing harmful diseases from the ratfolk
+settlement. If the warren comes under attack, the kirrixes act as guards, and squeeze through or
+block tunnels as necessary to buy time for their ratfolk allies to escape.
+
+A typical adult kirrix is 9 feet long and usually weighs under 500 pounds.

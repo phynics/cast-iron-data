@@ -1,0 +1,112 @@
++++
+id = "ref/template/granule-construct-host"
+kind = "rule"
+title = "Granule Construct Host"
+source_ids = ["seven-swords-of-sin"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "granule_construct_host", path = "json/monster_template2.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Granule Construct Host**
+
+**Acquired:** present
+
+**Challenge rating:** +0
+
+**Source:** Seven Swords of Sin/31
+
+Granule construct swarms are the product of powerful artificers pushing the boundaries of their
+craft. Alone, each individual is a barely sentient construct so tiny as to be practically invisible,
+a speck of dust that moves under its own power. Brought together by the thousands into a swarm,
+however, the complex linking of simple systems creates an emergent consciousness of human-like
+intelligence, although alien enough to make communication nearly impossible. Granule construct
+swarms exist solely to infest larger living organisms and reproduce in the relative safety and
+comfort provided by their bodies. Capable of repairing and replicating out of the raw elements
+around them, granule constructs within a host are almost unstoppable through physical means,
+burrowing their way into flesh and sending signals through the bloodstream. Once safely ensconced,
+granule construct swarms modify their hosts to maximize survival potential, a trait that leads
+certain people to intentionally cultivate granule construct swarms inside themselves, despite the
+resulting deformities. Energy damage to a host damages the granule construct swarm equally, but
+normal weapon damage does not. Granule constructs can vacate dead or dying creatures whenever they
+so choose, emerging as a standard [swarm](ref/subtype/swarm).
+
+**Environment:** Although created in arcane laboratories, granule construct swarms can travel
+anywhere safe to their host creatures.
+
+**Typical Physical Characteristics:** Up close, each microscopic granule construct appears as a
+silver sphere with an all-purpose orifice at one end that it uses to gather information, take in
+nutrients, and focus the electromagnetic charges that propel it through the air. At the opposite end
+emerges a single manipulator claw. In a swarm, they appear as a dense cloud, somewhere between dust
+and a shadow, that constantly shifts shape and emits a faint hum. Once inside a host's body, a
+granule construct swarm makes a number of modifications which it finds beneficial, toughening it and
+making it more aware to ensure maximum survival.
+
+"Granule construct host" is an acquired template that can be added to any corporeal aberration,
+animal, dragon, fey, humanoid, magical beast, monstrous humanoid, or vermin (referred to hereafter
+as the base creature). Granule construct hosts use all of the base creature's statistics except as
+noted below.
+
+**AC:** Creatures with this template gain +2 to their natural armor bonus as their skin thickens and
+toughens.
+
+**Attack:** A granule construct host retains all the attacks of the base creature and also gains a
+[claw attack](ref/umr/natural-attacks) if it didn't already have one. if the base creature can use
+weapons, the granule construct host retains this ability. A creature with natural weapons retains
+those natural weapons. A granule construct host fighting without weapons uses either its claw attack
+or its primary natural weapon (if it has any). A granule construct host armed with a weapon uses its
+claw or a weapon, as it desires.
+
+**Damage:** Granule construct hosts have 2 claw attacks. If the base creatue does not have this
+attack form, use the appropriate damage value from the table below according to the granule
+construct host's size. Creatures that have other kinds of natural weapons retain their old damage
+values or use the appropriate value from the table below, whichever is better.
+
+|Size|Damage|
+| --- | --- |
+|Fine|1|
+|Diminutive|1d2|
+|Tiny|1d3|
+|Small|1d4|
+|Medium|1d6|
+|Large|1d8|
+|Huge|2d6|
+|Gargantuan|2d8|
+|Colossal|4d6|
+
+**Special Attack:** A granule construct host retains all the special attacks of the base creature
+and gains infest.
+
+> **Infest (Ex):** Once per week, a granule construct host may make a touch attack to allow the
+> swarm inhabiting it to split and infest another creature. If it succeeds, both creatures become
+> infested, otherwise the granule constructs remain in the pre-existing host.
+
+**Special Qualities:** A granule construct host retains all the special qualities of the base
+creature and gains those described below.
+
+> **[Uncanny Dodge](ref/ability/uncanny-dodge) (Ex):** Granule construct swarms retain an awareness
+> of their surroundings even while inhabiting a body, and as a result granule construct hosts retain
+> their Dexterity bonus to AC even if caught [flat-footed](ref/rule/flat-footed) or attacked by an
+> invisible opponent, although they still lose their Dexterity bonus if immobilized.
+>
+> **[Blindsight](ref/umr/blindsight):** To a range of 100 feet.
+>
+> **Hive Mind (Ex):** While a creature hosting a granule construct swarm normally maintains free
+> will, the swarm living inside maintains contact with any other granule construct swarms or hosts
+> within 100 feet and shares this link in brief, painful flashes. As long as one of the connected
+> creatures is not [flanked](ref/rule/flanking), none of them are, and if one is aware of a foe, all
+> are.
+>
+> In addition, if at any point a granule construct swarm infesting a host body feels threatened, it
+> may attempt to take over control of the host's body. At that point, the host must make a DC 15
+> Will save or obey the swarm's commands for 1d10 rounds, which normally translates to attacking or
+> fleeing from the source of the overwhelming threat.
+
+**Abilities:** Modify from the base creature as follows: +2 Con, -6 Cha (minimum of 1). A granule
+construct host's body twists into a monsterous mockery of its former shape, all bulging veins and
+dark shadows moving beneath their skin.
+
+**CR:** As base creature.

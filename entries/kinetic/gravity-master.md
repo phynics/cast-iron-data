@@ -1,0 +1,32 @@
++++
+id = "ref/kinetic/gravity-master"
+kind = "rule"
+title = "Gravity Master"
+source_ids = ["occult-origins"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "gravity_master", path = "json/class_ability_kinetic_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+## Gravity Master (Sp)
+
+**Element:** void
+
+**Type:** utility (Sp)
+
+**Level:** 9
+
+**Burn:** 0
+
+**Prerequisite:** [gravity control](ref/kinetic/gravity-control),
+[greater gravity control](ref/kinetic/greater-gravity-control)
+
+**Source:** Occult Origins/7
+
+You can create areas of altered gravity. This functions as
+[reverse gravity](ref/spell/reverse-gravity), but you can choose for the gravity in the area to pull
+toward any direction (not just up). If you use this wild talent, any previous use of this wild
+talent expires immediately.

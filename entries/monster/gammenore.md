@@ -1,0 +1,212 @@
++++
+id = "ref/monster/gammenore"
+kind = "creature"
+title = "Gammenore"
+source_ids = ["pathfinder-89-palace-of-fallen-stars"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "gammenore", path = "json/monsters11.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+subtypes = ["cold"]
+size = "large"
+alignment = "neutral"
+ac = "22/10/21"
+hp = "102~12d10+36"
+fortitude = "+11"
+reflex = "+11"
+will = "+7"
+melee = "claw +17 (1d6+6/19-20), pincer +17 (2d6+9 plus grab)"
+special_attacks = "ice spikes~oversized pincer"
+abilities = ["23", "12", "16", "3", "16", "7"]
++++
+
+_Spikes of ice jut from the carapace of this stocky crustacean. It scuttles sideways on its eight
+legs with surprising speed, while its two pincers - one small and sharp, the other monstrously
+large - flex in anticipation of combat._
+
+**Gammenore**
+
+**Challenge rating:** 8
+
+**dv:** 60
+
+**Initiative:** +5
+
+**Size:** large
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +10
+
+**source:** Pathfinder \#89: Palace of Fallen Stars/84
+
+**Subtype:** Cold
+
+**Experience points:** 4,800
+
+**Armor class:** 22/10/21
+
+**Defensive abilities:** shell of ice
+
+**Fort:** +11
+
+**Hit points:** 102 (12d10+36)
+
+**Immune:** cold
+
+**Mod:** +1 Dex, +12 natural, -1 size
+
+**Ref:** +11
+
+**Vulner:** fire
+
+**Will:** +7
+
+**Offense**
+
+**Speed:** 40 ft., climb 20 ft.
+
+**Constrict:** 2d6+9
+
+**Melee:** claw +17 (1d6+6/19-20), pincer +17 (2d6+9 plus [grab](ref/umr/grab))
+
+**Reach:** 10
+
+**Space:** 10
+
+**Spec Att:** ice spikes, oversized pincer
+
+**Statistics**
+
+**Ability scores:** Str 23, Dex 12, Con 16, Int 3, Wis 16, Cha 7
+
+**Base attack bonus:** +12
+
+**Combat maneuver bonus:** +19 (+23 grapple)
+
+**Combat maneuver defense:** 30 (42 vs. trip)
+
+**Feats:** Combat Reflexes, Improved Critical (claw), Improved Initiative, Lightning Reflexes,
+Lunge, Power Attack
+
+**Skills:** Climb +14, Perception +10, Stealth +8 (+16 in icy or snowy terrain)
+
+**Racial Modifiers:** +8 Stealth in icy or snowy terrain
+
+**Ecology**
+
+**Environment:** any cold
+
+**Organization:** solitary, pair, or cluster (3-9)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Ice Spikes (Su)** As a standard action, a gammenore can force freezing water through pores in its
+carapace to produce long, sharp spikes of ice. These spikes impale nearby creatures, dealing 6d6
+points of piercing damage to each creature adjacent to the gammenore (Reflex DC 19 half).
+Additionally, the spikes shatter easily, embedding shards of ice in the flesh of creatures that fail
+their saving throws against the attack - these shards deal 1d6 points of [bleed](ref/rule/bleed)
+damage each round until the wounds are healed. A gammenore can use this ability once every 1d4
+rounds. The save DC is Constitution-based.
+
+**Oversized Pincer (Ex)** A gammenore's pincer attack is a primary attack that deals the indicated
+amount of damage plus 1-1/2 times its Strength modifier.
+
+**Shell of Ice (Su)** Much of a gammenore's carapace is encased in a thick layer of jagged icicles.
+This shell of ice functions much like spiked armor, dealing 1d8 points of piercing damage to the
+target of any successful [grapple](ref/rule/grapple) combat maneuver check made by the gammenore.
+
+Additionally, this frozen shell helps to regulate the gammenore's cold body temperature, granting it
+resistance 10 to fire. The shell can absorb up to 60 points of fire damage before melting. Once the
+shell melts, the gammenore takes a -4 penalty to its natural armor bonus, it loses its fire
+resistance, and it deals no additional damage when grappling. A gammenore can reconstitute a melted
+shell by spending time in areas of intense cold. This process takes 2 hours in a cold environment,
+3d10 minutes in areas of severe cold, and 1d10 minutes in areas of extreme cold.
+
+### Description
+
+The gammenore is a prime example of how Triaxian fauna has adapted to survive the planet's long,
+cruel winters. While other creatures struggle to survive the planet's decades-long season of cold
+and ice, the gammenore thrives, turning the might of winter into the very tools of its survival.
+
+Absent its icy armor, the gammenore looks like a large, blue-and-white-shelled crustacean. It has a
+rather wide, oval-shaped carapace, a pair of powerful pincers, and four pairs of strong, articulated
+legs.
+
+A gammenore's two pincers serve very different purposes. The primary claw is monstrously large and
+extremely strong, and is used to break through ice and crush the gammenore's prey. The other claw is
+smaller, less cumbersome, and sharp enough to rend flesh and bone. The gammenore uses this smaller
+claw to tear its victims into pieces small enough to eat, and to perform any manipulations too
+delicate for the large claw. Its eyes are located on short stalks that rise from the front of its
+carapace, allowing it to see even when encased in its shell of ice. A gammenore is approximately 8
+feet wide, and weighs between 2,000 and 3,000 pounds.
+
+Despite their resemblance to mundane crabs, gammenores are primarily terrestrial creatures, living
+in water only as larvae and while mating. They can be found anywhere ice and snow exists on Triaxus,
+from the high mountains to the low snowy plains, or even atop the ice-covered seas. The gammenore is
+an ambush predator, preferring to conceal itself in snow banks or among ice formations and wait for
+prey to approach. Once a victim is within reach, the gammenore erupts from hiding and attempts to
+grab or cripple the target with its large claw. Failing that, it may chase down its prey on foot,
+especially if the victim seems injured or the terrain favors climbing over sprinting. When times are
+lean, a gammenore may resort to scavenging or even to stealing food from larger predators, trusting
+its shell to protect it from enemies' reprisals.
+
+When threatened, a gammenore forces freezing water through pores in its shell to form a barrier of
+spikes across its carapace. These spikes break and fuse together over time to form a thick sheet of
+jagged ice over much of the gammenore's body, granting it a second layer of defense against attacks.
+A gammenore is able to excrete more water this way than it should theoretically be able to carry
+within its body, leading many scholars to conclude that much of the ice is magically produced or
+conjured. Despite this, gammenores seem to possess an unquenchable thirst, spending much of their
+time eating snow and ice. The creatures also prefer to eat their food frozen, letting victims' torn
+bodies freeze before crunching away at their meals.
+
+### Habitat
+
+During Triaxus's harsh winters, gammenores rarely spend much time in each other's company, as they
+are extremely competitive and fight each other for food or territory. Their behavior changes
+drastically as the season begins to turn - they become much more companionable as winter's grip on
+the land weakens. As spring nears, gammenores from across Triaxus instinctively begin to migrate to
+the nearest body of water to mate and lay their eggs. These eggs then go dormant during the planet's
+long summer, hatching as the water temperature begins to drop once again. After laying their eggs,
+gammenores migrate to the coldest, most remote parts of the world. This is a time of danger for the
+civilized races of Triaxus, for gammenore migration routes are hardly regular each season and often
+cross through populated areas. In the northern stretches of the Allied Territories, inhabitants tell
+tales of armies of gammenores, over a hundred strong, marching through cities and leaving naught but
+rubble and ruin. These stories are most likely exaggerations, as gammenores rarely travel in groups
+larger than nine, but such packs of migrating gammenores can still wreak havoc on a community.
+
+At the end of the gammenores' journey, they gather by the hundreds atop the tallest mountains and in
+the deepest caverns of the world to flee the coming heat. Near the planet's north pole these
+colonies can grow into the thousands, covering swaths of land in a living blanket of gammenores.
+Piled atop each other, the gammenores extend their ice shells to cover their entire bodies, encasing
+themselves in ice and slowing their metabolisms in an attempt to preserve themselves. Precipitation
+during the tail end of winter combines with the gammenore's own supernatural cold to further cement
+the creatures together, forming miniature glaciers and mountain icecaps to protect the colony from
+the heat of the planet's long summer.
+
+This defense is far from perfect and few gammenores survive to the next winter. During particularly
+hot summers, gammenores on the periphery of the colony thaw prematurely. These gammenores either die
+quickly from the heat, or stumble into glacial runoff and are washed downstream, becoming
+short-lived menaces to riverside communities. Summertime gammenores react to
+[heat dangers](ref/rule/heat-dangers) as though they were one category more severe - normal
+temperatures count as hot conditions, hot conditions count as severe heat, etc. The high
+temperatures of summer also disorient the gammenores, giving them the confused condition. Gammenores
+in the heat lose their shell of ice ability entirely, and produce sprays of cold water from their
+bodies in place of ice spikes, allowing them to attempt a single combat maneuver check to
+[bull rush](ref/rule/bull-rush) all adjacent creatures once every 1d4 rounds. Reduce the CR of a
+gammenore encountered in the summertime by 2.
+
+Gammenore eggs hatch in late fall, releasing swarms of larvae into the waters in which they were
+deposited. These larvae feed upon each other, and on anything the current washes them across, until
+they mature into adult gammenores at the start of winter. Meanwhile, the adults that survived the
+summer chip themselves free from their communal glaciers to seek new hunting grounds away from their
+competitive kin, so that they can feed and restore their strength.

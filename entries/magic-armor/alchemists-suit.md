@@ -1,0 +1,40 @@
++++
+id = "ref/magic-armor/alchemists-suit"
+kind = "item"
+title = "Alchemist's Suit"
+source_ids = ["melee-tactics-toolbox"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "alchemists_suit", path = "json/magic_armor.json" },
+]
+
+[fields]
+kind = "item"
+price = "30,250 gp"
+weight = "15 lbs."
+slot = "armor"
+aura = "varies"
+caster_level = "5th"
++++
+
+**Sources:** Melee Tactics Toolbox pg 22\
+**Aura** varies; **CL** 5th\
+**Slot** armor; **Price** 30,250 gp; **Weight** 15 lbs.
+
+This bizarre +1 [quilted cloth](ref/eq-armor/quilted-cloth) armor holds eight small vials that can
+be filled with potions, poisons, or other alchemical substances, plus numerous decoys. If the wearer
+is struck by a bludgeoning attack or critical hit, is [grappled](ref/rule/grapple-conditions), takes
+[constrict](ref/umr/constrict) damage, or is [swallowed whole](ref/umr/swallow-whole), the wearer
+can choose one vial to break as an immediate action that does not provoke an attack of opportunity.
+The wearer must choose himself or his attacker as the target of the vial's contents, which
+immediately produce their effect. If the wearer is the target, the effect functions at half strength
+and for half the normal duration (minimum 1 round). For example, a potion of
+[cure moderate wounds](ref/spell/cure-moderate-wounds) broken in this manner cures half as many hit
+points as normal. If the wearer's opponent is the target, the wearer must attempt a touch attack
+against the opponent to apply the effect. If the attack is successful, the opponent is affected as
+if struck by the vial's contents. If the vial contains a substance that would harm the opponent only
+upon ingestion, the opponent can avoid being affected if she succeeds at a DC 15 Reflex save.
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
+[shrink item](ref/spell/shrink-item); **Price** 15,250 gp

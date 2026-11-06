@@ -1,0 +1,54 @@
++++
+id = "ref/spell/scent-trail"
+kind = "spell"
+title = "Scent Trail"
+source_ids = ["advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "scent_trail", path = "json/spells8.json" },
+]
+
+[fields]
+kind = "spell"
+school = "transmutation"
+levels = [
+  { class = "Druid", level = 2 },
+  { class = "Hunter", level = 2 },
+]
+casting_time = "1 standard action"
+components = "V, S, M (a queen ant)"
+range = "close (25 ft. + 5 ft./2 levels)"
+effects = [
+  { label = "Targets", value = "one creature/level, no two of which can be more than 30 ft. apart" },
+]
+duration = "1 hour/level"
+saving_throw = "Fortitude negates (harmless)"
+spell_resistance = "yes (harmless)"
++++
+
+::: statblock
+title = "Spell statistics"
+School: transmutation
+Level: 2: Druid, Hunter
+Casting time: 1 standard action
+Components: V, S, M (a queen ant)
+Range: close (25 ft. + 5 ft./2 levels)
+Duration: 1 hour/level
+Saving throw: Fortitude negates (harmless)
+Spell resistance: yes (harmless)
+Targets: one creature/level, no two of which can be more than 30 ft. apart
+:::
+
+**Sources:** Advanced Player's Guide pg 241
+
+You, or a willing creature you touch, lay down a trail of scents that only the creatures you
+designate at the time of casting can detect. These creatures find it very easy to follow this trail.
+They gain a +20 competence bonus on any Survival checks made for the purpose of tracking the
+creature laying this trail. Subject creatures with the scent special ability gain a +10 competence
+bonus on Wisdom or Survival checks to follow the trail.
+
+In addition, you can leave scent messages along the trail. Each word or emotion in this message
+requires spending a move action in the same spot. Subject creatures seeking to understand this
+message must make another DC 20 Survival check, with a -1 penalty for every word or emotion in the
+message, in order to understand it. Creatures cannot benefit from this smell if they cannot use, or
+do not have, a sense of smell. Creatures can use this spell to backtrack through a dungeon, maze, or
+similar areas even if the creature laying down the trail crossed over the spot multiple times.

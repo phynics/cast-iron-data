@@ -1,0 +1,30 @@
++++
+id = "ref/rule/lawful-neutral"
+kind = "rule"
+title = "Lawful Neutral"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "lawful_neutral", path = "json/rules_basics01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 135
+
+Order begets order. My word is my bond. Chaos will destroy the world. Respect rank. I live by my
+code and I'll die by my code. Tradition must continue. Order is the foundation of all culture. I am
+my own judge.
+
+**Core Concepts:** Harmony, loyalty, order, organization, rank, rule, system, tradition, word
+
+A lawful neutral character admires order and tradition, or seeks to live by a code. He might fear
+chaos and disorder, and perhaps have good reason to do so from past experience. A lawful neutral
+person is not as concerned about who rules him so much as how secure he and his compatriots are, and
+finds great solace in the normality of society. Such a character may admire the strongest of leaders
+and punishments if they keep order, and he may support wars against other nations even if his own
+country is a brutal invader - his only concern is the rightness of the military action.
+
+A lawful neutral character who follows his own code never breaks it willingly, and may become a
+martyr to defend it.

@@ -1,0 +1,21 @@
++++
+id = "ref/rule/equipment"
+kind = "rule"
+title = "Equipment"
+source_ids = ["core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "equipment", path = "json/rules_basics02.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 140
+
+A well-equipped character can take on nearly any challenge, from surviving in the wilderness to
+making an impression at the king's banquet. This section presents all manner of mundane and exotic
+equipment for the PCs to purchase and use, from weapons to armor, alchemical items to masterwork
+tools, fine wines to trail rations. The equipment presented here should be relatively easy to find
+and purchase in most towns and cities, although GMs might wish to restrict the availability of some
+of the more expensive and exotic items. Magic items are much more difficult to purchase.

@@ -1,0 +1,45 @@
++++
+id = "ref/magic-wondrous/gorthek-masks"
+kind = "item"
+title = "Gorthek Masks"
+source_ids = ["monster-codex"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "gorthek_masks", path = "json/magic_wondrous_slotless03.json" },
+]
+
+[fields]
+kind = "item"
+price = "5,800 gp"
+weight = "75 lbs."
+slot = "none"
+aura = "moderate transmutation"
+caster_level = "12th"
++++
+
+**Sources:** Monster Codex pg 165\
+**Aura** moderate transmutation; **CL** 12th\
+**Slot** none; **Price** 5,800 gp; **Weight** 75 lbs.
+
+This set consists of two masks of hammered iron, one sized for a gorthek's face and the other sized
+for the face of its orc handler. To bond a [gorthek](ref/monster/orc-gorthek) with its handler, orcs
+permanently nail the gorthek masks to the respective wearers' faces. The magic functions only when
+the gorthek masks are affixed to one orc and one gorthek. It doesn't work with animals other than
+gortheks. There's only a 60% chance an orc's mask will function when affixed to a non-orc humanoid -
+and it's impossible to tell whether a mask will work until after it has been permanently attached.
+
+The orc's mask is fashioned with horns on the side, resembling those of a gorthek. With its bonded
+gorthek, the wearer gains the benefits of _[speak with animals](ref/spell/speak-with-animals)_ and a
++10 competence bonus on [Handle Animal](ref/skill/handle-animal) checks.
+
+The gorthek's mask depicts fearsome tusks, scales, or other features meant to make the creature look
+more terrifying. A gorthek wearing its mask ignores the first 5 points of
+[hardness](ref/umr/hardness) of any object it hits with a gore attack when performing a
+[sunder](ref/rule/sunder) combat maneuver or when [smashing an object](ref/rule/breaking-things).
+Any creature other than its handler takes a -10 penalty on Handle Animal checks against a bonded
+gorthek.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[speak with animals](ref/spell/speak-with-animals), [versatile weapon](ref/spell/versatile-weapon);
+**Cost** 2,900 gp

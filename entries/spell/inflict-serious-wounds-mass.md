@@ -1,0 +1,69 @@
++++
+id = "ref/spell/inflict-serious-wounds-mass"
+kind = "spell"
+title = "Mass Inflict Serious Wounds"
+source_ids = ["core-rulebook", "mythic-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "inflict_serious_wounds_mass", path = "json/spells14.json" },
+]
+
+[fields]
+kind = "spell"
+school = "necromancy"
+levels = [
+  { class = "Antipaladin", level = 4 },
+  { class = "Cleric", level = 3 },
+  { class = "Inquisitor", level = 3 },
+  { class = "Occultist", level = 3 },
+  { class = "Oracle", level = 3 },
+  { class = "Shaman", level = 3 },
+  { class = "Spiritualist", level = 3 },
+  { class = "Warpriest", level = 3 },
+  { class = "Witch", level = 4 },
+]
+casting_time = "1 standard action"
+components = "V, S"
+range = "touch"
+effects = [
+  { label = "Target", value = "creature touched" },
+]
+duration = "instantaneous"
+saving_throw = "Will half"
+spell_resistance = "yes"
++++
+
+::: statblock
+title = "Spell statistics"
+School: necromancy
+Level: 3: Cleric, Inquisitor, Occultist, Oracle, Shaman, Spiritualist, Warpriest\
+4: Antipaladin, Witch
+Casting time: 1 standard action
+Components: V, S
+Range: touch
+Duration: instantaneous
+Saving throw: Will half
+Spell resistance: yes
+Target: creature touched
+:::
+
+## Inflict Serious Wounds
+
+**Sources:** PRPG Core Rulebook pg 301
+
+This spell functions like [inflict light wounds](ref/spell/inflict-light-wounds), except that it
+deals 3d8 + 1 point per caster level (maximum +15).
+
+### Mythic Inflict Serious Wounds
+
+**Sources:** Mythic Adventures pg 99
+
+The damage dealt increases to 6d8 points of damage + 2 points per caster level (maximum +30). A
+living target is sickened for 1 round per caster level (maximum 15 rounds) if it fails its saving
+throw.
+
+### Mass Inflict Serious Wounds
+
+**Sources:** PRPG Core Rulebook pg 301
+
+This spell functions like [mass inflict light wounds](ref/spell/inflict-light-wounds-mass), except
+that it deals 3d8 points of damage + 1 point per caster level (maximum +35).

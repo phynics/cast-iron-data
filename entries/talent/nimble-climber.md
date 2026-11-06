@@ -1,0 +1,17 @@
++++
+id = "ref/talent/nimble-climber"
+kind = "rule"
+title = "Nimble Climber"
+source_ids = ["pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "nimble_climber", path = "json/class_ability_rogue_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Nimble Climber (Ex)&FN&**
+
+**Ability:** Whenever the rogue fails a Climb check by 5 or more, she can attempt a Reflex save
+(using the same DC as the Climb check) to catch herself and avoid falling.

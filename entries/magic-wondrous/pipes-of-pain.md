@@ -1,0 +1,37 @@
++++
+id = "ref/magic-wondrous/pipes-of-pain"
+kind = "item"
+title = "Pipes of Pain"
+source_ids = ["ultimate-equipment"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "pipes_of_pain", path = "json/magic_wondrous_slotless05.json" },
+]
+
+[fields]
+kind = "item"
+price = "12,000 gp"
+weight = "3 lbs."
+slot = "none"
+aura = "moderate enchantment"
+caster_level = "6th"
++++
+
+**Sources:** Ultimate Equipment pg 315\
+**Aura** moderate enchantment; **CL** 6th\
+**Slot** none; **Price** 12,000 gp; **Weight** 3 lbs.
+
+By making a DC 15 [Perform (wind)](ref/skill/perform-any) check, the bearer can use these pipes to
+create a wondrous melody which [fascinates](ref/misc/fascinated) creatures within 30 feet for as
+long as the bearer continues to play (Will DC 14 negates). This is a mind-affecting sonic compulsion
+effect. The bearer is immune to the sound of the pipes. When the bearer stops playing, for the next
+2d4 rounds all creatures who were fascinated by the music are stricken by intense pain at even the
+slightest noise. Unless a creature is in a totally silent area, it takes 1d4 points of damage per
+round on its turn, and it has sonic vulnerability until this time expires. Thereafter, the creature
+is [shaken](ref/misc/shaken) unless it is in a totally silent area; this hypersensitivity to noise
+is a curse effect.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[sound burst](ref/spell/sound-burst), creator must have the bardic performance class ability;
+**Cost** 6,000 gp

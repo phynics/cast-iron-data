@@ -1,0 +1,144 @@
++++
+id = "ref/monster/torble"
+kind = "creature"
+title = "Torble"
+source_ids = ["pathfinder-25-the-bastards-of-erebus"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "torble", path = "json/monsters23.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "vermin"
+size = "diminutive"
+alignment = "neutral"
+ac = "16/16/14"
+hp = "1~1d8-3"
+fortitude = "-1"
+reflex = "+2"
+will = "+2"
+melee = "bite +0 (1 plus 1 acid)"
+special_qualities = "primitive sight, telepathic sensitivity"
+abilities = ["3", "15", "5", "-", "14", "2"]
++++
+
+_This scuttling thing looks at first glance like a colorful, animate blob of slime, but its thin
+insectoid legs and eyestalks suggest it is a more advanced creature. Its antennae-like appendages
+wave about curiously, and its multiple legs carry forth its transparent, hand-sized body at a
+surprisingly swift scuttle._
+
+**Torble**
+
+**Challenge rating:** 1/8
+
+**blindsight:** 30
+
+**Size:** diminutive
+
+**dv:** 30
+
+**Initiative:** +2
+
+**Alignment:** Neutral
+
+**Perception:** +2
+
+**source:** Pathfinder \#25: The Bastards of Erebus/84
+
+**Type:** vermin
+
+**Experience points:** 50
+
+**Armor class:** 16/16/14
+
+**Dr:** 1/piercing or slashing
+
+**Fort:** -1
+
+**Hit points:** 1 (1d8-3)
+
+**Immune:** acid
+
+**Mod:** +2 Dex, +4 size
+
+**Ref:** +2
+
+**Weaknesses:** ooze-vermin hybrid
+
+**Will:** +2
+
+**Offense**
+
+**Speed:** 15 ft., climb 15 ft.
+
+**Melee:** bite +0 (1 plus 1 acid)
+
+**Reach:** 0
+
+**Space:** 0
+
+**Statistics**
+
+**Ability scores:** Str 3, Dex 15, Con 5, Int -, Wis 14, Cha 2
+
+**Base attack bonus:** +0
+
+**Combat maneuver bonus:** -8
+
+**Combat maneuver defense:** 4
+
+**Special qualities:** primitive sight, telepathic sensitivity
+
+### Special Abilities
+
+**Ooze-Vermin Hybrid (Ex)** Torbles react to ooze-affecting effects as if they were oozes and
+vermin-affecting effects as if they were vermin, whichever is least advantageous for the torble or
+more advantageous for the originator of the effect.
+
+**Primitive Sight (Ex)** Though it has [blindsight](ref/rule/blindsight-and-blindsense) and can
+operate without vision, a torble's simple eyes give it poor sight (mainly light and color) with an
+effective range of 30 feet. Because they can see, they are subject to attacks that affect sighted
+creatures (such as gaze attacks), but as they can still rely on their blindsight, they cannot be
+dazzled or blinded by sight-based attacks.
+
+**Telepathic Sensitivity (Ex)** Torbles are receptive to the thought-energy of telepathic minds. A
+creature with the telepathy special ability can use a swift action to mentally command one torble
+per point of Charisma bonus for one round, twice that many by using a move action, or four times
+that many by using a standard action. The creature's control of the vermin is limited to simple
+commands ("attack," "defend," "stop," and so forth); orders to attack a certain creature when it
+appears or guard against a particular occurrence are too complex for the vermin to understand.
+Torbles that leave the range of the creature's telepathy immediately revert to their standard
+behavior.
+
+### Description
+
+Torbles (called "chordoplasms" by scholars of strange fauna and "ooze bugs" by many others) are
+strange and fascinating creatures, curious in ways beyond what their simple forms might suggest.
+These strangely colored creatures resemble a cross between a tiny ooze and an insect. They typically
+have a bulbous, beetle-like translucent body, six legs, and long eyestalks with primitive sensory
+knobs on the end. Usually they take on green, gray, or pink shades, though they may be any color.
+Older torbles often tend toward the colors of large ooze predators such as ochre jellies, black
+puddings, or the colorless gelatinous cubes, though any relationship between them is unclear. The
+creature's interior may be clear or cloudy, and has the same consistency and properties of the fluid
+that surrounds the brains of lower animals. After the creature feeds, however, its color temporarily
+changes to match the color of its meal - which sometimes remains visible for hours. Although a
+torble has no true organs, it has a stiff bundle of fibrous nerve tissue running the length of its
+body that helps hold its shape. When it rests, it retracts its antennae and legs into its body,
+similar to how a snail or slug withdraws its eyestalks when threatened.
+
+A typical ooze bug is about 7 inches long and 5 inches wide, and weighs about 1 pound.
+
+### Torble Familiars
+
+Notorious for infesting swamps and the sewers of coastal cities, torbles prove annoying and
+sometimes startling, but rarely dangerous in small numbers. Their devotion - or at least, lazy
+hunting practices - make them easily manipulated by even creatures without the ability to command
+them telepathically. Children in poor communities and swamp dwellers often adopt lone torbles,
+enjoying their attachment and shiny, ever-shifting colors. Some magic-users from such backgrounds
+even go so far as to adopt torbles as their familiars. While hardly the most popular or aggrandizing
+companions, torble familiars help their masters better understand strange magical processes and
+prove obsessively devoted, if at times clumsy.
+
+Torbles that undergo the process of becoming a spellcaster's familiar lose their telepathic
+sensitivity, but gain a permanent Intelligence score of 3. Torble familiars grant their masters a +2
+bonus on Craft (alchemy) checks.

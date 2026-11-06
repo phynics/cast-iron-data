@@ -1,0 +1,82 @@
++++
+id = "ref/arc-alchemist/bramble-brewer"
+kind = "archetype"
+title = "Bramble Brewer"
+source_ids = ["advanced-race-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "bramble_brewer", path = "json/archetypes_alchemist.json" },
+]
+relations = [
+  { kind = "archetype", target = "ref/class/alchemist" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Advanced Race Guide pg 44\
+Some half-elven alchemists merge human curiosity with their elven link to nature. Such alchemists
+can manipulate the forces of alchemy to create bombs that reshape terrain and defoliate swaths of
+vegetation or to create mutagens that bestow the resilience of oak or the tenacity of bamboo. A
+bramble brewer has the following class features.
+
+**Prerequisites:** Half-Elf
+
+**Dendrite Mutagen (Su)**
+
+**Ability:** A bramble brewer's mutagen still contains transformative power, but grants a tree-like
+sturdiness rather than the feral power of standard mutagens. When imbibed, dendrite mutagen grants a
++4 natural armor bonus, a +2 alchemical bonus to one physical ability score, and a -2 penalty to the
+corresponding mental ability score. In addition, the alchemist gains
+[fast healing](ref/umr/fast-healing) 1 as long as he is in an area of bright light (such as sunlight
+or inside the area of a [daylight](ref/spell/daylight) spell). This otherwise works like the
+standard mutagen class feature.
+
+**Gained:** At 1st Level
+
+**Replaces:** Mutagen
+
+A bramble brewer who selects the [greater mutagen](ref/discovery/greater-mutagen) discovery can
+create a dendrite mutagen that still grants a +4 natural armor bonus, and also grants a +4
+alchemical bonus to one physical ability score and a +2 bonus to a second physical ability score.
+The bramble brewer takes a -2 penalty to both associated mental ability scores as long as the
+mutagen persists, but his [fast healing](ref/umr/fast-healing) increases to 3 as long as he is in an
+area of bright light. This otherwise works like the _greater mutagen_ discovery and replaces that
+ability.
+
+A bramble brewer who selects the [grand mutagen](ref/discovery/grand-mutagen) discovery can brew a
+dendrite mutagen that now grants a +6 natural armor bonus, a +6 alchemical bonus to one physical
+ability score, a +4 alchemical bonus to a second physical ability score, and a +2 alchemical bonus
+to a third physical ability score. The bramble brewer takes a -2 penalty to his Intelligence,
+Wisdom, and Charisma scores as long as the mutagen persists. The bramble brewer's
+[fast healing](ref/umr/fast-healing) increases to 5 as long as he is within an area of bright light.
+This otherwise works like the _grand mutagen_ discovery and replaces that ability.
+
+At 20th level, a bramble brewer who selects the [true mutagen](ref/discovery/true-mutagen) grand
+discovery can create a dendrite mutagen that grants a +8 natural armor bonus and a +6 alchemical
+bonus to Strength, Dexterity, and Constitution. The bramble brewer takes a -2 penalty to his
+Intelligence, Wisdom, and Charisma scores as long as the mutagen persists. The bramble brewer's
+gains [fast healing](ref/umr/fast-healing) 10, but instead of only gaining fast healing in bright
+light, this fast healing persists in areas of bright or normal light. A bramble brewer must possess
+the _grand mutagen_ discovery before selecting this discovery.
+
+**Briar Bombs (Su)**
+
+**Ability:** A bramble brewer gains the [tanglefoot bomb](ref/discovery/tanglefoot-bomb) discovery,
+but the entanglement's duration persists for a number of rounds equal to the bramble brewer's
+Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws a tanglefoot
+bomb, it transforms all squares in its splash radius into
+[difficult terrain](ref/rule/terrain-and-obstacles) that persists for as long as the bomb's
+entangling effect.
+
+**Gained:** At 2nd Level
+
+**Replaces:** The 2nd-level discovery
+
+**Special:** Although these bombs deal no damage, for every 1d6 points of damage the bramble
+brewer's regular bombs deal, the briar bomb's splash radius increases by 5 feet.
+
+**Discoveries:** The following discoveries complement the bramble brewer archetype:
+[precise bombs](ref/discovery/precise-bombs); [defoliant bomb](ref/discovery/defoliant-bomb);
+[lingering spirit](ref/discovery/lingering-spirit), [strafe bomb](ref/discovery/strafe-bomb),
+[sunlight bomb](ref/discovery/sunlight-bomb).

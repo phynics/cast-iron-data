@@ -1,0 +1,47 @@
++++
+id = "ref/magic-wondrous/whispering-coin"
+kind = "item"
+title = "Whispering Coin"
+source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "whispering_coin", path = "json/magic_wondrous_slotless06.json" },
+]
+
+[fields]
+kind = "item"
+price = "3,000 gp"
+weight = "-"
+slot = "none"
+aura = "moderate divination"
+caster_level = "9th"
++++
+
+**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 63\
+**Aura** moderate divination; **CL** 9th\
+**Slot** none; **Price** 3,000 gp; **Weight** -
+
+This ancient gold coin measures an inch in diameter and a quarter of an inch thick. One face bears
+one of the seven Thassilonian runes for magic and sin, while the opposite side bears the image of a
+broken column. When carried, a whispering coin periodically haunts its carrier with soft whispers
+that seem to be in Thassilonian, but which are never loud enough to understand. These whispers are
+only slightly distracting, and in fact offer a boon to the carrier of the coin: they grant a +1
+resistance bonus on saving throws against spells of the school of magic associated with the coin's
+rune (the coin found in this adventure bears the rune of lust, and thus grants a +1 resistance bonus
+against enchantment spells).
+
+Once per day, when the bearer flips the whispering coin and asks a question in Thassilonian while
+the coin is in the air, the coin provides an answer to the question as it lands, either "yes" (the
+Thassilonian rune) or "no" (the broken column); the word "yes" or "no" is also whispered into the
+user's ear as the answer is determined. A whispering coin's knowledge is limited to events that have
+a significant chance to affect the coin's carrier in the immediate future (no further out than a few
+minutes), and is further limited to facts, not conjecture. You could ask a whispering coin whether a
+door you were about to open is trapped, but not "Is the king the mastermind of the conspiracy we
+just learned about"? The GM, in other words, can determine whether or not a whispering coin can
+answer or not - if the coin can't answer, it spins on its edge upon landing for several seconds
+before flopping over to a random side and does not whisper a "yes" or "no" into the user's ear. The
+coin's one use for the day is still consumed.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
+[resistance](ref/spell/resistance); **Cost** 1,500 gp

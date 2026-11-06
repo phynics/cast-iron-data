@@ -1,0 +1,41 @@
++++
+id = "ref/magic-wondrous/headhunter-wayfinder"
+kind = "item"
+title = "Headhunter Wayfinder"
+source_ids = ["pathfinder-society-primer"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "headhunter_wayfinder", path = "json/magic_wondrous_slotless03.json" },
+]
+
+[fields]
+kind = "item"
+price = "56,000 gp"
+weight = "1 lb."
+slot = "none"
+aura = "moderate divination"
+caster_level = "7th"
++++
+
+**Sources:** Pathfinder Society Primer pg 20\
+**Aura** moderate divination; **CL** 7th\
+**Slot** none; **Price** 56,000 gp; **Weight** 1 lb.
+
+The forms of numerous animals, magical beast, and other famous creatures appear in relief on every
+inch of this iron [wayfinder's](ref/magic-wondrous/wayfinder) surface, creating a maze of lions,
+hawks, dragons, and elephants. Though a headhunter wayfinder looks like a normal compass, it doesn't
+point toward true north as one would expect. Rather, if a piece of hair, a drop of blood, or some
+other organic matter from an individual creature is placed in the socket normally reserved for an
+ioun stone, the wayfinder's needle points out this creature as though it were the subject of a
+_[locate creature](ref/spell/locate-creature)_ spell with a radius of 680 feet from the wayfinder's
+wielder. This effect has no set duration, and functions as long as a specimen of the target creature
+is held within the wayfinder and the creature is within range. If the target creature isn't in
+range, the headhunter wayfinder's needle slowly spins clockwise. As with the
+_[locate creature](ref/spell/locate-creature)_ spell, running water and spells such as
+[mislead](ref/spell/mislead), [nondetection](ref/spell/nondetection), and
+[polymorph](ref/spell/polymorph) fool or otherwise block the effect. A headhunter wayfinder can't
+hold an [ioun stone](ref/magic-wondrous/ioun-stone) and doesn't provide resonant powers.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
+[locate creature](ref/spell/locate-creature); **Cost** 28,000 gp

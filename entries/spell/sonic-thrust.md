@@ -1,0 +1,70 @@
++++
+id = "ref/spell/sonic-thrust"
+kind = "spell"
+title = "Sonic Thrust"
+source_ids = ["ultimate-magic"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sonic_thrust", path = "json/spells9.json" },
+]
+
+[fields]
+kind = "spell"
+school = "evocation"
+descriptors = ["sonic"]
+levels = [
+  { class = "Arcanist", level = 5 },
+  { class = "Bard", level = 4 },
+  { class = "Psychic", level = 5 },
+  { class = "Skald", level = 4 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Wizard", level = 5 },
+]
+casting_time = "1 standard action"
+components = "V, S"
+range = "long (400 ft. + 40 ft./level)"
+effects = [
+  { label = "Target", value = "see text" },
+]
+duration = "instantaneous"
+saving_throw = "Will negates (object) or none (see text)"
+spell_resistance = "yes (object) (see text)"
++++
+
+::: statblock
+title = "Spell statistics"
+School: evocation
+Level: 4: Bard, Skald\
+5: Arcanist, Psychic, Sorcerer, Wizard
+Casting time: 1 standard action
+Components: V, S
+Range: long (400 ft. + 40 ft./level)
+Duration: instantaneous
+Saving throw: Will negates (object) or none (see text)
+Spell resistance: yes (object) (see text)
+Target: see text
+Descriptors: sonic
+:::
+
+**Sources:** Ultimate Magic pg 239
+
+You produce a sweeping rush of sound that can hurl creatures or objects away from you, like the
+violent thrust version of telekinesis. You can hurl one object or creature per caster level (maximum
+15) that is within range; it flies in a straight line away from you. Any objects of creatures thrown
+must be within 10 feet of each other. You can hurl a total weight of up to 25 pounds per caster
+level (maximum 375 pounds at 15th level).
+
+You can use this spell to hurl an object or creature toward a particular target. You must succeed on
+attack rolls (one per creature or object thrown) to hit the target with the items, using your base
+attack bonus + your Intelligence modifier (if a wizard) or Charisma modifier (if a bard or
+sorcerer). Hurled weapons cause standard damage (with no Strength bonus; note that arrows or bolts
+deal damage as daggers of their size when used in this manner). Other objects cause damage ranging
+from 1 point per 25 pounds (for less dangerous objects) to 1d6 points of damage per 25 pounds (for
+hard, dense objects). Objects and creatures that miss their target land in a square adjacent to the
+target.
+
+Creatures that fall within the weight capacity of the spell can be hurled, but they are allowed Will
+saves (and [spell resistance](ref/rule/spell-resistance)) to negate the effect, as are those whose
+held possessions are targeted by the spell.
+
+If a hurled creature is thrown against a solid surface, it takes damage as if it had fallen 10 feet
+(1d6 points).

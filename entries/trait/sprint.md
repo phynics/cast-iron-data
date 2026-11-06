@@ -1,0 +1,26 @@
++++
+id = "ref/trait/sprint"
+kind = "trait"
+title = "Sprint"
+source_ids = ["gnomes-of-golarion"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sprint", path = "json/traits01.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Combat"
++++
+
+**Type:** Combat
+
+**Prerequisite:** [Gnome](ref/race/gnome)
+
+**Flavor:** You were taught from a young age that the world is full of big, fast, dangerous foes,
+and that sometimes the best course of action is to put your head down and run. Your parents taught
+you how to make the most of a solid mid-length sprint and how to squeeze just a little extra speed
+out of yourself.
+
+**Benefit:** If you do nothing but move in a turn (that is, if you [run](ref/rule/run) or use both
+of your actions in a round to move your speed) and you are in no armor or light armor, you may move
+an extra 5 feet.

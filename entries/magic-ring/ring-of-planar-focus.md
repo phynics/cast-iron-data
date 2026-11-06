@@ -1,0 +1,45 @@
++++
+id = "ref/magic-ring/ring-of-planar-focus"
+kind = "item"
+title = "Ring of Planar Focus"
+source_ids = ["planar-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "ring_of_planar_focus", path = "json/magic_ring.json" },
+]
+
+[fields]
+kind = "item"
+price = "4,000 gp"
+weight = "-"
+slot = "ring"
+aura = "strong divination"
+caster_level = "15th"
++++
+
+**Sources:** Planar Adventures pg 49\
+**Aura** strong divination; **CL** 15th\
+**Slot** ring; **Price** 4,000 gp; **Weight** -
+
+This large silver ring has a massive setting for a cloudy white crystal about an inch in diameter.
+Once per week as a standard action, the wearer can tap the ring with a forked rod attuned to a
+specific plane (the focus for a [plane shift](ref/spell/plane-shift) spell). When tapped, the
+crystal transforms into a rough topographical map of the plane in question for 1 minute. The wearer
+can manipulate the crystal to focus on a single specific location within the plane, although the
+topographical elements remain rough and display only large or well-known features around the desired
+location. If the wearer has been to that location personally, she can focus the crystal on the
+location in 1 full round. Otherwise, she can attempt a DC 15 Knowledge (planes) check to focus on a
+location of her choice as a full-round action. This location must be a public or well-known area,
+such as a public plaza in the Common Quarter in the City of Brass. Obscure locations (such as
+[Calistria's](ref/faith/calistria) private Garden of Hidden Fruits) or locations controlled by a
+divinity cannot be focused on - in all cases, the GM has final say on whether a region can be
+focused upon.
+
+If the wearer casts _[plane shift](ref/spell/plane-shift)_ to travel to the focused location while
+the map is active, she arrives without error at the site, rather than 5d% miles away. Once a ring of
+planar focus is used to aid a casting of _[plane shift](ref/spell/plane-shift),_ it becomes inactive
+for 24 hours.
+
+### Construction
+
+**Requirements** [Forge Ring](ref/feat/forge-ring), [discern location](ref/spell/discern-location);
+**Cost** 2,000 gp

@@ -1,0 +1,25 @@
++++
+id = "ref/trait/hagfish-hopeful"
+kind = "trait"
+title = "Hagfish Hopeful"
+source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "hagfish_hopeful", path = "json/traits02.json" },
+]
+
+[fields]
+kind = "trait"
+category = "Campaign"
++++
+
+**Type:** Campaign
+
+**Campaign:** Rise of the Runelords
+
+**Flavor:** Ever since passing through Sandpoint when you were a child and hearing about the contest
+at the popular tavern known as the Hagfish, you wanted to take that coin purse as your own and carve
+your name on the ceiling beam above the bar. Training yourself to choke down indigestible food and
+drink water a pig would refuse, you've built up quite a strong resistance to all things putrid and
+gross.
+
+**Benefit:** You gain a +2 trait bonus on Fortitude saves against disease and poison.

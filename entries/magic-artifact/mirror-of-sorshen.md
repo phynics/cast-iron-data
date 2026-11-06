@@ -1,0 +1,51 @@
++++
+id = "ref/magic-artifact/mirror-of-sorshen"
+kind = "item"
+title = "Mirror of Sorshen"
+source_ids = ["pathfinder-137-the-city-outside-of-time"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "mirror_of_sorshen", path = "json/magic_artifact2.json" },
+]
+
+[fields]
+kind = "item"
+price = "-"
+weight = "2 lbs."
+slot = "none"
+aura = "overwhelming enchantment"
+caster_level = "25th"
++++
+
+**Sources:** Pathfinder \#137: The City Outside of Time pg 69\
+**Aura** overwhelming enchantment; **CL** 25th\
+**Slot** none; **Price** -; **Weight** 2 lbs.
+
+The silvery glass of this oval mirror displays many alluring sights. Its dark wooden frame is
+studded with many small green gems and is carved with the shapes of a male figure on one side of the
+glass and a female figure on the other side.
+
+Whenever an intelligent creature looks in this beautiful mirror, the mirror shows an image of a
+person, creature, or item that the observer finds irresistible - most often one that the observer
+finds sensually arousing. The specific image shown varies from person to person, even when more than
+one person looks into the mirror at the same time. The mirror's effect functions as a
+[gaze](ref/umr/gaze) attack that affects everyone who sees the surface of the mirror, which the
+bearer can actively direct at a target as a standard action. Unless an observer succeeds at a DC 27
+Will save, she is [fascinated](ref/misc/fascinated), staring blankly at the mirror for as long as it
+remains in view and for 2d4 minutes thereafter, during which she continues to stare in the direction
+she last saw the mirror. Unlike the normal fascinated condition, the effect created by the mirror is
+not automatically broken by an obvious threat; instead, a fascinated creature receives a new saving
+throw for each such threat, with a +6 circumstance bonus. At the GM's discretion, a truly innocent
+creature or a character who has renounced all worldly pleasures may be immune to the mirror's
+fascination effect.
+
+While a creature is fascinated by the Mirror of Sorshen, the artifact's bearer can speak a command
+word to compel her service for 30 days (as per [dominate monster](ref/spell/dominate-monster) with
+no saving throw). There is no limit to the number of such thralls a bearer can have. The domination
+effect ends for a victim after 30 days, but if the victim sees the mirror again at any point before
+this duration expires, it is automatically extended for an additional 30 days from the moment it
+caught sight of the mirror anew.
+
+### Destruction
+
+The Mirror of Sorshen shatters into a thousand pieces if an intelligent but completely innocent
+creature first resists the mirror's attraction and then later accidentally drops it.

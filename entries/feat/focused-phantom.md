@@ -1,0 +1,21 @@
++++
+id = "ref/feat/focused-phantom"
+kind = "feat"
+title = "Focused Phantom"
+source_ids = ["occult-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "focused_phantom", path = "json/feat07.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Spiritual interference class feature."
+benefit = "While you are adjacent to your phantom or your phantom is within your consciousness, you receive a +4 bonus on concentration checks."
++++
+
+**Sources:** Occult Adventures pg 134
+
+Your close bond with your phantom helps you to focus your concentration.\
+**Prerequisites:** Spiritual interference class feature.\
+**Benefit:** While you are adjacent to your [phantom](ref/sidekick/phantom) or your phantom is
+within your consciousness, you receive a +4 bonus on [concentration](ref/rule/concentration) checks.

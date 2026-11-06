@@ -1,0 +1,159 @@
++++
+id = "ref/monster/rhu-chalik"
+kind = "creature"
+title = "Rhu-chalik"
+source_ids = ["bestiary-5", "pathfinder-86-lords-of-rust"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "rhu_chalik", path = "json/monsters20.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "aberration"
+size = "small"
+alignment = "chaotic evil"
+ac = "18/14/15"
+hp = "68~8d8+32"
+fortitude = "+6"
+reflex = "+5"
+will = "+8"
+melee = "4 tendrils +11 (1d4+3 plus pain touch)"
+special_attacks = "pain touch~project terror~void transmission"
+special_qualities = "compression, no breath"
+abilities = ["16", "16", "19", "13", "14", "15"]
++++
+
+_Thin tendrils trail from this misshapen ovoid. Its underside holds a gray orb that resembles a
+bulging, lidless eye._
+
+**Rhu-chalik**
+
+**Challenge rating:** 6
+
+**Type:** aberration
+
+**Alignment:** Chaotic evil
+
+**dv:** 60
+
+**Initiative:** +7
+
+**Perception:** +10
+
+**Sense:** Sid
+
+**Size:** small
+
+**source:** Bestiary 5/203;Pathfinder \#86: Lords of Rust/86
+
+**Experience points:** 2,400
+
+**Aav:** present
+
+**Armor class:** 18/14/15
+
+**Fh:** 2
+
+**Fort:** +6
+
+**Hit points:** 68 (8d8+32)
+
+**Immune:** cold, disease
+
+**Mod:** +4 armor, +3 Dex, +1 size
+
+**Ref:** +5
+
+**Will:** +8
+
+**Offense**
+
+**Speed:** 5 ft., fly 60 ft. (perfect)
+
+**Melee:** 4 tendrils +11 (1d4+3 plus pain touch)
+
+**Spec Att:** pain touch, project terror, void transmission
+
+**Spell-Like Abilities**
+
+**Caster level:** 10
+
+**Concentration:** +12
+
+**Constant:**
+
+- mage armor
+
+**At will:**
+
+- detect thoughts, DC 14, invisibility, share memory, DC 14
+
+**Per day:**
+
+- 1/day: modify memory, DC 16
+
+**Statistics**
+
+**Ability scores:** Str 16, Dex 16, Con 19, Int 13, Wis 14, Cha 15
+
+**Base attack bonus:** +6
+
+**Combat maneuver bonus:** +8
+
+**Combat maneuver defense:** 21
+
+**Feats:** Combat Expertise, Combat Reflexes, Improved Initiative, Weapon Focus (tendril)
+
+**Skills:** Bluff +8, Diplomacy +8, Sense Motive +7, Stealth +15, Use Magic Device +10
+
+**Languages:** Aklo; [telepathy](ref/umr/telepathy) 100 ft.
+
+**Special qualities:** [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
+
+**Ecology**
+
+**Environment:** any
+
+**Organization:** solitary
+
+**Treasure:** None
+
+### Special Abilities
+
+**Pain Touch (Ex)** A rhu-chalik secretes an enzyme that coats its tendrils. When this enzyme comes
+into contact with a living creature, it causes excruciating pain. Any creature that comes into
+contact with the enzyme must succeed at a DC 18 Fortitude save or take a -2 penalty on attack rolls,
+ability checks, and skill checks for 1d4 rounds. If a creature is affected by multiple pain touch
+attacks, the duration stacks but the penalty doesn't. This is a pain effect. The save DC is
+Charisma-based.
+
+**Project Terror (Su)** As a standard action, a rhu-chalik can harness the fears of any creature on
+which it has successfully used detect thoughts within the last minute. This effect creates terrible,
+nightmarish visions in the target's mind; the target must succeed at a DC 16 Will save or be
+frightened and take 1d4 points of Wisdom damage. The save DC is Charisma-based.
+
+**Void Transmission (Su)** If a creature takes an amount of Wisdom damage from the rhu-chalik's
+project terror ability that equals or exceeds the creature's Wisdom score, the creature falls
+unconscious as normal. At that point, the rhu-chalik can take 10 minutes to copy and absorb the
+creature's entire consciousness and send that consciousness through the void of space to its waiting
+masters. If the creature's Wisdom damage is healed and the creature is revived prior to the end of
+this process, this effect fails. If the creature's Wisdom damage is healed after its consciousness
+is successfully transmitted, the creature awakens disoriented, and takes a -2 penalty on attack
+rolls, ability checks, and skill checks for 24 hours. This effect otherwise doesn't harm the target,
+as the target's consciousness isn't eliminated, only duplicated and transmitted.
+
+### Description
+
+A rhu-chalik, also called a void wanderer, is an alien entity that scouts through space on behalf of
+its conquering masters. In addition, this aberration also collects the memories of interesting
+creatures in the universe into a vast repository of knowledge that their masters use to slowly
+unravel all the secrets of existence.
+
+Rhu-chaliks serve their masters tirelessly, and are as patient as they are long-lived. They rarely
+make an uncalculated move, and seek only the most prized intellects to cast into the dark beyond for
+their masters' delectations. When exploring distant worlds, rhu-chaliks are not social beings, and
+they avoid other rhu-chaliks so their predations won't cause too much overlap in the mind
+collections of their masters. However, back in their native space, rhu-chaliks number in the
+billions, and the creatures feed off a countless number of disembodied minds.
+
+A rhu-chalik is approximately 3 feet across and weighs only 30 pounds.

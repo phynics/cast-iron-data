@@ -1,0 +1,63 @@
++++
+id = "ref/race/grindylow"
+kind = "race"
+title = "Grindylow"
+source_ids = ["blood-of-the-sea"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "grindylow", path = "json/races3.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Blood of the Sea pg 17\
+A grindylow looks like a wide-mouthed goblin from the waist up and a writhing, slimy octopus from
+the waist down. They have deep-green skin, gray or green tentacles, and mouths full of sharp teeth.
+Grindylows prefer to attack in packs, making them more dangerous than they appear individually.
+
+Like goblins, grindylows have a tendency to act first and think later, which might result in a
+grindylow getting lost or separated from its tribe. Although most grindylows simply continue their
+agenda of trickery and murder when left alone, exceptional grindylows might decide to pursue some
+greater goal and take up the life of an adventurer.
+
+### Grindylow Racial Traits
+
+Player character grindylows have the following racial traits.
+
+**+4 Dexterity, -2 Intelligence, -2 Wisdom, -2 Charisma:** Grindylows are cruel, ignorant, and
+thoughtless, but they have a startling inherent agility.
+
+**Aberration:** Grindylows are aberrations with the aquatic subtype.
+
+**Small:** Grindylows are Small creatures. They gain a +1 size bonus to AC, a +1 size bonus on
+attack rolls, a -1 penalty on combat maneuver checks and to their CMD, and a +4 size bonus on
+Stealth checks.
+
+**Darkvision:** Grindylows can see in the dark up to 60 feet.
+
+**Natural Armor:** Grindylows have tough, rubbery skin that grants a +2 natural armor bonus.
+
+**Slow Speed:** Grindylows can scuttle about on land with their tentacles and have a base speed of
+15 feet.
+
+**Swim Speed:** Grindylows have a swim speed of 30 feet.
+
+**Jet:** Grindylows can swim 200 feet backward as a full-round action. A grindylow must move in a
+straight line when jetting and does not provoke attacks of opportunity when using this ability.
+
+**Bite:** Grindylows have a natural bite attack that deals 1d3 points of damage. This bite is a
+primary attack, or a secondary attack if the creature is wielding manufactured weapons.
+
+**Tangling Tentacles:** Grindylows have constantly writhing tentacles that reach out to tug at and
+trip adjacent foes. During the grindylow's turn, it can make a single trip attack against any
+adjacent foe as a swift action. The grindylow gains a +4 racial bonus on trip attacks with its
+tangling tentacles, and if it fails to trip a foe, that creature can't attempt to trip the grindylow
+in retaliation.
+
+**Amphibious:** Grindylows have the aquatic subtype, but they can breathe both water and air.
+
+**Sneaky:** Grindylows have a +4 racial bonus on Stealth checks.
+
+**Languages:** Grindylows begin play speaking Aquan. Grindylows with high Intelligence scores can
+choose from the following bonus languages: Aklo, Common, and Goblin.

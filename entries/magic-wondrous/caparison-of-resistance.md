@@ -1,0 +1,36 @@
++++
+id = "ref/magic-wondrous/caparison-of-resistance"
+kind = "item"
+title = "Caparison of Resistance"
+source_ids = ["adventurers-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "caparison_of_resistance", path = "json/magic_wondrous_shoulders_wrists.json" },
+]
+
+[fields]
+kind = "item"
+price = "2,700 gp (+1 bonus), 10,800 gp (+2 bonus), 24,300 gp (+3 bonus), 43,200 gp (+4 bonus), 67,500 gp (+5 bonus)"
+weight = "4 lbs."
+slot = "shoulders"
+aura = "faint abjuration"
+caster_level = "5th"
++++
+
+**Sources:** Adventurer's Guide pg 16\
+**Aura** faint abjuration; **CL** 5th\
+**Slot** shoulders; **Price** 2,700 gp (+1 bonus), 10,800 gp (+2 bonus), 24,300 gp (+3 bonus),
+43,200 gp (+4 bonus), 67,500 gp (+5 bonus); **Weight** 4 lbs.
+
+This garment is intended for a horse or similar quadruped, but it can change size and shape to fit
+any four-legged creature ranging from Small to Huge in size. When worn, a caparison of resistance
+offers the wearer magic protection in the form of a +1 to +5 resistance bonus on all saving throws
+(Fortitude, Reflex, and Will). This bonus on saving throws also applies to a single rider who is
+mounted on the creature (in the case of multiple riders, the resistance bonus is not shared at all
+and applies only to the mount).
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[resistance](ref/spell/resistance), creator's caster level must be at least three times the cloak's
+bonus; **Cost** 1,350 gp (+1 bonus), 5,400 gp (+2 bonus), 12,150 gp (+3 bonus), 21,600 gp (+4
+bonus), 33,750 gp (+5 bonus)

@@ -1,0 +1,180 @@
++++
+id = "ref/skill/disable-device"
+kind = "rule"
+title = "Disable Device"
+source_ids = ["core-rulebook", "technology-guide", "pathfinder-unchained"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "disable_device", path = "json/skills.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 94
+
+**Associated Skill**
+
+**Details:** Dexterity
+
+**Trained Only**
+
+**Details:** Yes
+
+**Armor Check Penalty**
+
+**Details:** Yes
+
+**Optional Unchained Skill**
+
+**Details:** No
+
+**Optional Background Skill**
+
+**Details:** No
+
+### Check
+
+When disarming a trap or other device, the Disable Device check is made secretly, so that you don't
+necessarily know whether you've succeeded.
+
+The DC depends on how tricky the device is. If the check succeeds, you disable the device. If it
+fails by 4 or less, you have failed but can try again. If you fail by 5 or more, something goes
+wrong. If the device is a [trap](ref/rule/traps), you trigger it. If you're attempting some sort of
+sabotage, you think the device is disabled, but it still works normally.
+
+You also can rig simple devices such as saddles or wagon wheels to work normally for a while and
+then fail or fall off some time later (usually after 1d4 rounds or minutes of use).
+
+|Device|Time|Disable Device DC|Example|
+| --- | --- | --- | --- |
+|Simple|1 round|10|Jam a lock|
+|Tricky|1d4 rounds|15|Sabotage a wagon wheel|
+|Difficult|2d4 rounds|20|Disarm a trap, reset a trap|
+|Extreme|2d4 rounds|25|Disarm a complex trap, cleverly sabotage a clockwork device|
+
+### Action
+
+The amount of time needed to make a Disable Device check depends on the task, as noted above.
+Disabling a simple device takes 1 round and is a **full-round action**. A tricky or difficult device
+requires 1d4 or 2d4 rounds.
+
+### Try Again
+
+You can retry checks made to disable traps if you miss the check by 4 or less.
+
+### Special
+
+If you have the [Deft Hands](ref/feat/deft-hands) feat, you get a bonus on Disable Device checks.
+
+A rogue who beats a trap's DC by 10 or more can study the trap, figure out how it works, and bypass
+it without disarming it. A rogue can rig a trap so her allies can bypass it as well.
+
+### Restriction
+
+Characters with the _trapfinding_ ability (like rogues) can disarm magic traps. A magic trap
+generally has a DC of 25 + the level of the spell used to create it.
+
+The spells [fire trap](ref/spell/fire-trap), [glyph of warding](ref/spell/glyph-of-warding),
+[symbol of death](ref/spell/symbol-of-death), and
+[teleportation circle](ref/spell/teleportation-circle) also create traps that a rogue can disarm
+with a successful Disable Device check. [Spike growth](ref/spell/spike-growth) and
+[spike stones](ref/spell/spike-stones), however, create magic hazards against which Disable Device
+checks do not succeed. See the individual spell descriptions for details.
+
+If you attempt to leave behind no trace of your tampering, add 5 to the DC.
+
+### Open Locks
+
+The DC for opening a lock depends on its quality. If you do not have a set of thieves' tools, these
+DCs increase by 10.
+
+|Lock Quality|Disable Device DC|
+| --- | --- |
+|Simple|20|
+|Average|25|
+|Good|30|
+|Superior|40|
+
+### Action
+
+Attempting to open a lock is a **full-round action**.
+
+### Try Again
+
+You can retry checks made to open locks.
+
+### Technology
+
+**Sources:** Technology Guide pg 5\
+Disable Device can be used with the [technological equipment](ref/rule/technological-equipment)
+rules.
+
+With the [Technologist](ref/feat/technologist) feat, you can use Disable Device to arm or disarm
+high-tech explosives or disable electronic triggers or locks. The Technologist feat is not required
+to disable a high-tech trap or object, but such traps and objects often have significantly higher
+DCs to disable than low-tech versions of a similar device would have.
+
+#### Arm Explosive
+
+If you possess a [detonator](ref/tech-misc/detonator), you can arm an explosive weapon as a trap.
+Connecting a detonator to an explosive requires a successful DC 10 Disable Device check. Failure
+means that the attempt fails, but you can attempt to arm the explosive again. Failure by 5 or more
+means the explosive is triggered as the detonator is installed. You can attempt to make an explosive
+difficult to disarm. To do so, choose a target disarm DC of 15 or higher, with a DC increment of 5.
+This becomes your target DC to set the explosive as well as the DC to disarm the explosive.
+
+#### Disable Electronic Lock or Trigger
+
+Disabling an electronic lock on a door or an electronic trigger for a trap (not the trap itself) is
+easier if you use an [e-pick](ref/tech-misc/e-pick) - without an e-pick, you take a -5 penalty on
+such checks.
+
+#### Disarm Explosive
+
+Disarming an explosive requires the character to succeed at a Disable Device check as if disarming a
+trap. The DC is usually 10, unless the person who set the explosive successfully did so with a
+higher disarm DC. A failure to disarm an explosive by 5 or more immediately triggers the explosive.
+
+### Special
+
+A character can take 10 when using Disable Device to arm or disarm explosives, but cannot take 20.
+
+### Action
+
+Arming an explosive device takes 1 minute or more, depending on the scope of the job. Disarming an
+explosive is treated as if the explosive were a complex trap, and takes 2d4 rounds to attempt.
+
+### Unchained Rogue Skill Unlocks
+
+**Sources:** Pathfinder Unchained pg 83\
+If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Disable Device, you earn
+the following.
+
+**5 Ranks**
+
+**Details:** Reduce the time required to disarm a trap or open a lock by taking a -5 penalty on your
+Disable Device check for each step by which you reduce the time required: 2d4 rounds, 1d4 rounds, 1
+round, a standard action, a move action, a swift action.
+
+**10 Ranks**
+
+**Details:** You can disarm magical traps at a -10 penalty even if you lack the trapfinding ability.
+If you possess the trapfinding ability, when attempting to disable magic traps, you never trigger
+them, even if you perform the trigger action (such as looking at a
+[symbol of death](ref/spell/symbol-of-death)). If you fail the check, you can still trigger the
+trap, and you can't use this ability to bypass it.
+
+**15 Ranks**
+
+**Details:** When attacked by a trap, you can attempt a Disable Device check as an **immediate
+action** (adding your [trap sense](ref/ability/trap-sense) bonus, if any) opposed by the trap's
+attack roll or its save DC. If you succeed, you take half damage (or no damage if you exceed the DC
+by at least 10).
+
+**20 Ranks**
+
+**Details:** You halve the penalties for performing a quick disarm as described in the 5 Ranks
+entry. If you possess the trapfinding ability and accept a -20 penalty while using the ability
+unlocked at 15 ranks, all nearby allies gain the benefit, and you disable the trap as an **immediate
+action** before it can trigger if you exceed the DC by at least 10.

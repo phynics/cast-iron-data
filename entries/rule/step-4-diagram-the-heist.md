@@ -1,0 +1,39 @@
++++
+id = "ref/rule/step-4-diagram-the-heist"
+kind = "rule"
+title = "Step 4: Diagram the Heist"
+source_ids = ["ultimate-intrigue"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "step_4_diagram_the_heist", path = "json/rules_adv_gm01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Intrigue pg 122
+
+The last step before running a heist requires the GM to organize the obstacles into a cohesive set
+of defenses. Imagine the goal in the middle of a series of rings, each of which represents a layer
+of obstacles the PCs must overcome. The innermost ring is the last obstacle or set of obstacles that
+must be bypassed to reach the goal. The obstacles on the outside ring are the challenges most
+obvious to the PCs at the start. Overcoming these obstacles brings the PCs to the next ring, and so
+on. GMs may wish to diagram the obstacles in a heist by drawing dashed lines between elements to
+detail their connections, and flagging different items and pieces of information as belonging to
+certain obstacles.
+
+A clear chain of cause and effect makes a heist feel right in play, and the players should see all
+the pieces moving as they make their way through the obstacles. GMs should include more than one way
+to overcome the same obstacle, or be receptive to player input during play. This could mean creating
+a diversion to redirect guards or silently dispatching them with stealth attacks. It could mean
+climbing over a wall or bypassing it with a hidden tunnel. The best obstacles can be overcome by
+multiple skill sets or clever schemes.
+
+**Don't Overplan:** A heist should be fairly loose and forgiving for the PCs. GMs should make some
+obstacles optional and provide flexibility in finding solutions. No GM can anticipate for every
+possible approach players may attempt, and GMs should try to leave room for the players to bring
+their own ideas to the table. No defense is forever or totally impregnable - and no NPC is perfect
+in their power or position. Allow the players to discover gaps in the defenses and exploit them in
+new and inventive ways rather than creating a rigid structure they must tackle exactly as planned.
+The heist diagram serves as a good tool, but as with a dungeon map, GMs should always be prepared to
+revise it or throw the whole thing out as unexpected events crop up.

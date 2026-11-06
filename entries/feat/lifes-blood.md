@@ -1,0 +1,25 @@
++++
+id = "ref/feat/lifes-blood"
+kind = "feat"
+title = "Life's Blood"
+source_ids = ["advanced-race-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "lifes_blood", path = "json/feat10.json" },
+]
+
+[fields]
+kind = "feat"
+prerequisites = "Samsaran."
+benefit = "At will as a full-round action, you may perform a special bloodletting ritual through which you sacrifice some of your own vitality to heal another creature. When using this feat, you take 1d4 points of damage and apply your blood to the wounds of a living creature, healing it for a number of hit points equal to the amount of damage you took from the ritual. This is a supernatural ability. Only you can perform this bloodletting. A creature cannot be healed by this ability more than once per day."
++++
+
+**Sources:** Advanced Race Guide pg 199
+
+Your blood flows with eternal life, and its healing powers allow you use your blood to heal others.\
+**Prerequisites:** [Samsaran](ref/race/samsaran).\
+**Benefit:** At will as a full-round action, you may perform a special bloodletting ritual through
+which you sacrifice some of your own vitality to heal another creature. When using this feat, you
+take 1d4 points of damage and apply your blood to the wounds of a living creature, healing it for a
+number of hit points equal to the amount of damage you took from the ritual. This is a supernatural
+ability. Only you can perform this bloodletting. A creature cannot be healed by this ability more
+than once per day.

@@ -1,0 +1,35 @@
++++
+id = "ref/magic-staff/staff-of-bolstering"
+kind = "item"
+title = "Staff of Bolstering"
+source_ids = ["ultimate-equipment", "advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "staff_of_bolstering", path = "json/magic_staff.json" },
+]
+
+[fields]
+kind = "item"
+price = "41,600 gp"
+weight = "5 lbs."
+slot = "none"
+aura = "moderate transmutation"
+caster_level = "8th"
++++
+
+**Sources:** Ultimate Equipment pg 195, Advanced Player's Guide pg 296\
+**Aura** moderate transmutation; **CL** 8th\
+**Slot** none; **Price** 41,600 gp; **Weight** 5 lbs.
+
+The top of this rosewood shaft narrows and then expands again, bound by a number of metal rings. It
+allows use of the following spells:
+
+- _[Bear's endurance](ref/spell/bears-endurance)_ (1 charge)
+- _[Bull's strength](ref/spell/bulls-strength)_ (1 charge)
+- _[Cat's grace](ref/spell/cats-grace)_ (1 charge)
+- _[Greater magic weapon](ref/spell/magic-weapon-greater)_ (1 charge)
+
+### Construction
+
+**Requirements** [Craft Staff](ref/feat/craft-staff), [bear's endurance](ref/spell/bears-endurance),
+[bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace),
+[greater magic weapon](ref/spell/magic-weapon-greater); **Cost** 20,800 gp

@@ -1,0 +1,17 @@
++++
+id = "ref/slayertalent/sure-footing"
+kind = "rule"
+title = "Sure Footing"
+source_ids = ["ultimate-wilderness"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sure_footing", path = "json/class_ability_slayer_talents.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**&L&Sure Footing (Ex)&FN&**
+
+**Passive:** The slayer gains a +5 bonus on Acrobatics checks to move on narrow surfaces and loose
+or uneven ground.

@@ -1,0 +1,213 @@
++++
+id = "ref/monster/kaicharek"
+kind = "creature"
+title = "Kaicharek"
+source_ids = ["pathfinder-139-the-dead-road"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "kaicharek", path = "json/monsters34.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+subtypes = ["extraplanar"]
+size = "medium"
+alignment = "neutral evil"
+ac = "17/12/15"
+hp = "42~5d10+15"
+fortitude = "+7"
+reflex = "+6"
+will = "+4"
+melee = "bite +7 (1d6+2 plus grab), 2 tentacles +2 (1d4+1 plus 1d4 bleed)"
+special_attacks = "impaling thrust~slashing talons"
+special_qualities = "hidden feeding"
+abilities = ["14", "15", "16", "11", "13", "14"]
++++
+
+_This grotesque, crimson worm-like creature has a circular mouth full of fangs. A pair of segmented
+tentacles sporting razor-edged ridges protrudes from the sides of its mouth._
+
+**Kaicharek**
+
+**Challenge rating:** 4
+
+**dv:** 60
+
+**Initiative:** +2
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Size:** medium
+
+**Alignment:** Neutral evil
+
+**Perception:** +7
+
+**source:** Pathfinder \#139: The Dead Road/84
+
+**Subtype:** Extraplanar
+
+**Experience points:** 1,200
+
+**Armor class:** 17/12/15
+
+**Fort:** +7
+
+**Hit points:** 42 (5d10+15)
+
+**Mod:** +2 Dex, +5 natural
+
+**Ref:** +6
+
+**Will:** +4
+
+**Offense**
+
+**Speed:** 20 ft., burrow 20 ft., climb 20 ft.
+
+**B Drain:** 1 Constitution
+
+**Melee:** bite +7 (1d6+2 plus [grab](ref/umr/grab)), 2 tentacles +2 (1d4+1 plus 1d4 bleed)
+
+**Spec Att:** impaling thrust, slashing talons
+
+**Spell-Like Abilities**
+
+**Caster level:** 5
+
+**Concentration:** +7
+
+**Per day:**
+
+- 3/day: hidden presence, DC 13
+
+**Statistics**
+
+**Ability scores:** Str 14, Dex 15, Con 16, Int 11, Wis 13, Cha 14
+
+**Base attack bonus:** +5
+
+**Combat maneuver bonus:** +7 (+11 grapple)
+
+**Combat maneuver defense:** 19
+
+**Feats:** Combat Reflexes, Iron Will, Skill Focus (Stealth)
+
+**Skills:** Climb +15, Perception +7, Stealth +13
+
+**Languages:** Abyssal (can't speak)
+
+**Special qualities:** hidden feeding
+
+**Ecology**
+
+**Environment:** any (Blood Vale)
+
+**Organization:** solitary, pair, or cluster (3-6)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Hidden Feeding (Ex)** When a kaicharek hits with its bite attack against a target of its size or
+larger that is unaware of its presence, it latches onto its target and automatically grapples. The
+kaicharek loses its Dexterity bonus to AC (reducing its AC to 15), but it holds on with great
+tenacity and automatically inflicts its blood drain each round. A kaicharek has a +8 racial bonus to
+maintain its grapple on a foe once it is attached. An attached kaicharek can still be attacked. The
+grappled creature remains unaware of the kaicharek as if under the effects of the kaicharek's hidden
+presence [spell-like ability](ref/umr/spell-like-abilities), but it can attempt a DC 15 Will save to
+notice the signs of the kaicharek's feeding. The grappled creature gains a cumulative +1 bonus on
+its Will save for every round the kaicharek remains attached. Other creatures can notice the
+kaicharek by succeeding at a DC 15 Perception check. The DC is Constitution-based.
+
+**Impaling Thrust (Ex)** A kaicharek can engage specific muscles in its body to violently thrust its
+bladed tentacles out at foes as a swift action. For the following round, the kaicharek increases the
+reach of its tentacle attacks to 10 feet. This act misaligns the musculature of its tentacles and
+the kaicharek thereafter loses the use of its tentacle attacks until it spends a move action to
+retract them.
+
+**Slashing Talons (Ex)** The tips of a kaicharek's tentacles are covered in serrated bone blades,
+causing them to deal slashing damage and bleed damage instead of bludgeoning damage.
+
+### Description
+
+With slashing tentacles and a blood-hungry maw, kaichareks lie in wait for the foolish entering
+[Achaekek's](ref/faith/achaekek) realm, ambushing and exsanguinating the weak and grabbing a quick
+meal from the strong. This latter feature has earned kaichareks the name "parasites of Achaekek."
+Though hardly the strongest creatures associated with the Mantis God, kaichareks are vicious yet
+cowardly creatures that seem to live for the anguish and bloodshed they unleash on the world around
+them.
+
+A typical kaicharek is 5 feet long and weighs 270 pounds.
+
+Kaichareks seem to live only to hunt, digesting only some of the blood and gore they consume from
+prey and storing the rest in their thick bodies to be digested later during lean times. This seeming
+lack of reliance on consumption has led some planar scholars to theorize that kaichareks derive
+sustenance from some other source, possibly the psychic trauma their attacks cause.
+
+When hunting, the kaicharek uses two different methods depending on the size of its prey. Against
+prey the same size as the kaicharek or smaller, the creature strikes from hiding or by using its
+magical ability to hide its presence from others. It lashes out with its razor-tipped tentacles and
+bites, attempting to grapple its prey. When it gets ahold of a victim, it devours it as messily as
+possible, thrashing about violently and reveling in its bloody meal.
+
+The second method of hunting is reserved for much larger prey that a kaicharek believes is alone.
+The kaicharek still attacks from hiding, but instead of merely biting its prey, it activates a more
+focused version of its magical abilities, hiding itself from its prey's awareness and hanging on as
+a leech or other similar parasite. This feeding continues until its prey collapses, exsanguinated,
+or it discovers the kaicharek. The latter usually occurs when the parasite spills the excess blood
+onto the nearby ground, which not even the kaicharek's magical stealth can hide.
+
+If either of these methods fail, or their prey proves more formidable than anticipated, the
+kaicharek immediately flees, burrowing underground if possible. The cowardly creature rarely stays
+away for long, however, seeking to finish off weakened prey or exact bloody revenge for its
+humiliation.
+
+One of the more vicious abilities associated with these predators is their ability to overextend
+their tentacles to attack from a greater range - a feat accomplished by a combination of muscle
+spasms, fluidic action, and tearing of the internal ligaments holding the tentacle together. After
+overextending its tentacles, a kaicharek must spend a few seconds retracting the tentacles back and
+activating a focused, specialized healing ability to repair the internal damage. A kaicharek can
+even regrow a severed tentacle, although this process takes several hours.
+
+Kaichareks are an autogamous species and self-fertilize, laying their eggs in pools of blood left
+behind by their own attacks or in bloody remnants left by larger predators. When blood is plentiful,
+a single kaicharek can produce dozens of offspring in a few months.
+
+### Habitat
+
+The parasites of Achaekek can be found anywhere in the Blood Vale, Achaekek's realm in the tunnels
+beneath Pharasma's Boneyard, and their preferred hunting grounds always have plenty of soft soil and
+hiding places in which to stalk and ambush prey. Kaichareks sometimes wander into the Boneyard,
+though these expeditions rarely last long, as patrols of [vanth](ref/monster/psychopomp-vanth) and
+[esobok](ref/monster/psychopomp-esobok) psychopomps slay kaichareks on sight. Other kaichareks make
+their way to the Material Plane, either through thinned planar boundaries or by way of mortal
+conjurers.
+
+Normally solitary hunters, kaichareks only rarely associate with others of their own kind, often
+treating each other as prey. However, during lean times, the blood-hungry beasts band together,
+ambushing larger groups, overlapping their magical stealth to confuse prey, or even overwhelming a
+single massive target in hopes of bringing it down. Exactly how kaichareks communicate is difficult
+to determine, but they seem to use gestures and traced messages written in blood. Regardless, such
+alliances last only until food becomes more plentiful or the kaichareks become hungry enough to turn
+against one another.
+
+Kaichareks do not realize it, but they are at the core of a split among Achaekek's worshippers. As
+kaichareks are known to infest Achaekek's realm, some worshippers of the Mantis God summon them in a
+misguided attempt to gain favor with the indifferent Achaekek. The cult of the
+[Red Mantis](ref/rule/aff-assassins), on the other hand, holds a particular disdain for kaichareks.
+They view the parasites as utterly lacking in strategy or resourcefulness, despite their
+intelligence. Worse, most kaichareks' tendencies to indiscriminately parasitize stronger creatures
+violates the cult's philosophy of holding leaders or rulers in high regard. The fact that kaichareks
+don't recognize this hierarchy marks them as worse than beasts in the cult's eyes.
+
+The exact relationship between Achaekek and these parasites is unknown. It seems unlikely that the
+creatures are creations of the Mantis God, as creating entirely new races is uncharacteristic of the
+bloodthirsty deity. One theory holds that Achaekek discovered kaichareks on some Material Plane
+world, took a liking to them, and transported some of their race back to his domain. For their part,
+kaichareks look upon their deific patron with a mixture of fear and awe, viewing him as an apex
+predator that they know can snatch them up as morsels. Some kaichareks dare to feed upon Achaekek
+directly, and those that aren't immediately destroyed for this hubris gain quasi-divine powers,
+setting them above their brute kin.

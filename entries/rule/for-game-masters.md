@@ -1,0 +1,48 @@
++++
+id = "ref/rule/for-game-masters"
+kind = "rule"
+title = "For Game Masters"
+source_ids = ["horror-adventures"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "for_game_masters", path = "json/rules_campaign_types03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Horror Adventures pg 191
+
+The Pathfinder RPG styles itself as a fantasy RPG, not as a horror RPG. Horror adventures often
+feature unsettling content, and while many players enjoy exploring macabre places, that is not
+universally true. It is part of your responsibility to make sure your players know that the game
+will feature frightening elements and give them a sense of what themes to expect. If players express
+discomfort or concern, change or remove the objectionable aspects or, if necessary, invite the
+player to participate in a different game.
+
+You might worry that revealing your story's themes might spoil it. Don't. This preliminary
+description can act more as a film's trailer, providing the players with glimpses necessary to make
+informed decisions about whether they'll enjoy the experience. Veiling a game's content is not worth
+making players feel endangered or like they've been tricked into publicly visiting dark personal
+places. You can't simply assume that you know what your players will be okay with. No matter how
+long you might have been playing with someone, nobody broadcasts his every phobia, secret fear, or
+private experience. So, for the comfort of everyone, make sure your players know what they're
+getting into.
+
+Additionally, despite the fact that horror games include more ominous themes than other adventures,
+just calling something a horror game does not provide an excuse to vent your darkest thoughts
+without further warning. While many frightening games feature gore, menace, and tragedy, the
+inclusion of such elements doesn't in itself indicate to your players that scenes of torture, sexual
+violence, child endangerment, or other brutalities are on the table. "Grittiness" and "realism" are
+not excuses to surprise players with this content midgame. If a game might feature such elements,
+you remain responsible for making your players aware of that beforehand and letting them decide
+whether they want to play.
+
+Finally, sometimes opinions and expectations simply change. Let players know that if they become
+uncomfortable with any part of your game, it's perfectly fine for them to leave the game space. Make
+yourself available to discuss your game's content if a player so desires - but understand you are
+not owed any insight into your players' reactions. If a player expresses concerns about a game's
+content, he doesn't need to explain himself; either remove the sensitive element, run a different
+game, or ask the player to participate in a different game. If you keep these considerations in mind
+and prioritize your players' enjoyment, you'll be on your way to running an adventure your group
+remembers for its creepiness, not its unintended negative consequences.

@@ -1,0 +1,126 @@
++++
+id = "ref/monster/cockatrice"
+kind = "creature"
+title = "Cockatrice"
+source_ids = ["bestiary"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "cockatrice", path = "json/monsters28.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+size = "small"
+alignment = "neutral"
+ac = "15/15/11"
+hp = "27~5d10"
+fortitude = "+4"
+reflex = "+7"
+will = "+2"
+melee = "bite +9 (1d4-2 plus petrification)"
+abilities = ["6", "17", "11", "2", "13", "8"]
++++
+
+_This hideous avian creature has the body of an emaciated rooster, the wings of a bat, and a long,
+scaly tail._
+
+**Cockatrice**
+
+**Challenge rating:** 3
+
+**dv:** 60
+
+**Initiative:** +3
+
+**Sense:** Llv
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +10
+
+**Size:** small
+
+**source:** Pathfinder RPG Bestiary/48
+
+**Experience points:** 800
+
+**Armor class:** 15/15/11
+
+**Fort:** +4
+
+**Hit points:** 27 (5d10)
+
+**Mod:** +3 Dex, +1 dodge, +1 size
+
+**Ref:** +7
+
+**Will:** +2
+
+**Offense**
+
+**Speed:** 20 ft., fly 60 ft. (poor)
+
+**Melee:** bite +9 (1d4-2 plus petrification)
+
+**Statistics**
+
+**Ability scores:** Str 6, Dex 17, Con 11, Int 2, Wis 13, Cha 8
+
+**Base attack bonus:** +5
+
+**Combat maneuver bonus:** +2
+
+**Combat maneuver defense:** 16
+
+**Feats:** Dodge, Skill Focus (Perception), Weapon Finesse
+
+**Skills:** Fly +6, Perception +10
+
+**Ecology**
+
+**Environment:** temperate plains
+
+**Organization:** solitary, pair, flight (3-5), or flock (6-12)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Petrification (Su)** A cockatrice's bite causes flesh to calcify and harden - multiple bites can
+cause a living creature to fossilize into stone. Each time a creature is damaged by a cockatrice's
+bite attack, it must succeed on a DC 12 Fortitude save or take 1d4 points of Dexterity damage as its
+flesh and bones stiffen and harden. (This slow petrification does not alter a bitten creature's
+natural armor.) A creature that is reduced to 0 Dexterity by a cockatrice's bites immediately turns
+completely to stone, as if petrified by a flesh to stone spell. Every day, a creature petrified by a
+cockatrice in this manner can attempt a new DC 12 Fortitude save to recover from the petrification,
+at which point the victim returns to flesh with 1 Dexterity (and thereafter can be restored to full
+Dexterity by natural healing or magic as normal) - but after a petrified creature fails three of
+these Fortitude saves in a row, the petrified state becomes permanent. A creature restored to flesh
+via magic has its Dexterity damage caused by cockatrice bites removed, but not any existing
+Dexterity damage from other sources. A cockatrice is immune to the petrification ability of itself
+and of other cockatrices, but other petrification attacks affect them normally. The save DC is
+Constitution-based.
+
+### Description
+
+Stupid, vicious, and repulsive, cockatrices are avoided by other creatures due to their magical
+ability to turn flesh to stone. Legends say that the first cockatrice emerged from an egg laid by a
+cockerel and incubated by a toad. Whether or not the story is true, today's cockatrices breed true
+in terrifying and filthy dens haphazardly excavated by as many as a dozen of the squawking
+creatures. Males greatly outnumber females in these flocks, and are distinguished only by their
+wattles and combs. The typical cockatrice stands just over 2 feet high and weighs 5 pounds.
+
+While their diet consists primarily of seeds and petrified insects (which conveniently double in the
+creature's gizzard as both gastroliths and nutrition as they grind away), cockatrices fiercely
+defend their territories from anything they deem a threat, and the wanderings of rogue males seeking
+new spots to build dens sometimes bring them into unintentional contact with humanoids, with
+devastating results.
+
+The cockatrice's strange ability to turn other creatures to stone is the creature's greatest
+defense, and a cockatrice lair is invariably littered with petrified remnants of foes. In an ironic
+twist of fate, however, weasels and ferrets - the creatures most likely to slip into cockatrices'
+nests and consume their eggs - appear to be completely immune to the effect. For unknown reasons,
+cockatrices are both terrified of and enraged by conventional roosters, and are equally likely to
+flee or attack when confronted by one.

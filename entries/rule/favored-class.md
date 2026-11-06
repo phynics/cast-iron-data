@@ -1,0 +1,60 @@
++++
+id = "ref/rule/favored-class"
+kind = "rule"
+title = "Favored Class"
+source_ids = ["core-rulebook", "advanced-players-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "favored_class", path = "json/rules_basics01.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** PRPG Core Rulebook pg 31
+
+Each character begins play with a single favored class of his choosing - typically, this is the same
+class as the one he chooses at 1st level. Whenever a character gains a level in his favored class,
+he receives either + 1 hit point or + 1 skill rank. The choice of favored class cannot be changed
+once the character is created, and the choice of gaining a hit point or a skill rank each time a
+character gains a level (including his first level) cannot be changed once made for a particular
+level. [Prestige classes](ref/rule/prestige-classes) can never be a favored class.
+
+**Sources:** Advanced Player's Guide pg 8
+
+The final section for each racial description describes alternative benefits for members of that
+race taking certain classes as a favored class. The normal benefit of having a favored class is
+simple and effective: your character gains one extra hit point or one extra skill rank each time she
+gains a level in that class (or in either of two classes, if she is a half-elf). The alternate
+favored class abilities listed may not have as broad an appeal as the standard choices. They are
+designed to reflect flavorful options that might be less useful in general but prove handy in the
+right situations or for a character with the right focus. Most of them play off racial archetypes,
+like a half-orc's toughness and proclivity for breaking things or elven grace and finesse.
+
+In most cases, these benefits are gained on a level-by-level basis: your character gains the
+specified incremental benefit each time she gains a level. Unless otherwise noted, these benefits
+always stack with themselves. For example, a human with paladin as a favored class may choose to
+gain 1 point of energy resistance each time she gains a level; choosing this benefit twice increases
+this resistance bonus to 2, 10 times raises it to 10, and so on.
+
+In some cases this benefit may eventually hit a fixed numerical limit, after which selecting that
+favored class benefit has no effect. Of course, you can still select the bonus hit point or skill
+rank as your favored class benefit, so there is always a reward for sticking with a favored class.
+
+Finally, some of these alternate favored class benefits only add +1/2, +1/3, +1/4, or +1/6 to a roll
+(rather than +1) each time the benefit is selected; when applying this result to the die roll, round
+down (minimum 0). For example, a dwarf with rogue as his favored class adds +1/2 to his trap sense
+ability regarding stone traps each time he selects the alternate rogue favored class benefit; though
+this means the net effect is +0 after selecting it once (because +1/2 rounds down to +0), after 20
+levels this benefit gives the dwarf a +10 bonus to his trap sense (in addition to the base value
+from being a 20th-level rogue).
+
+In summary, these are sets of alternative benefits that characters of each race may choose instead
+of the normal benefits for their favored class. Thus, rather than taking an extra hit point or an
+extra skill rank, players may choose for their characters to gain the benefit listed here. This is
+not a permanent or irrevocable choice; just as characters could alternate between taking skill ranks
+and hit points when they gain levels in their favored class, these benefits provide a third option,
+and characters may freely alternate between them.
+
+As with any alternate or optional rule, consult with your GM to determine whether exchanging normal
+favored class benefits will be allowed.

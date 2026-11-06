@@ -1,0 +1,27 @@
++++
+id = "ref/rule/class-event"
+kind = "rule"
+title = "Class Event"
+source_ids = ["ultimate-campaign"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "class_event", path = "json/rules_basics03.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Ultimate Campaign pg 12
+
+You are a product of your environment; the various influences of friends, family, and associates;
+and pure happenstance. Some talents you discovered in childhood have matured into practiced skills
+during your progress through adolescence. These talents showed an inclination toward a certain
+career path - in your case, the first steps toward your character class. Think of the class you've
+chosen to play and imagine the single most important event from your early life that put you on this
+path. Looking back on your life, is there an event without which your life might have followed a
+very different course?
+
+Did your parents send you to a special school to learn magic? Did you have a religious revelation
+that turned you into a crusader for your deity? Were you kicked out of your home and forced to
+survive on the streets? Did a wealthy patron hear you playing music and offer you a position in her
+household as a minstrel? Were you conscripted into the army or given an ancestral weapon or item?

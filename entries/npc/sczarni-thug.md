@@ -1,0 +1,87 @@
++++
+id = "ref/npc/sczarni-thug"
+kind = "creature"
+title = "Sczarni Thug"
+source_ids = ["magnimar-city-of-monuments"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "sczarni_thug", path = "json/npcs.json" },
+]
+
+[fields]
+kind = "creature"
++++
+
+_This thuggish Varisian wears black garb and tattered rags that conceal his myriad small blades and
+reveal runic tattoos._
+
+**Sczarni Thug**
+
+**Challenge rating:** 1
+
+**Sources:** Magnimar, City of Monuments pg 57\
+**XP** 400\
+Male human [rogue](ref/class/rogue) 2\
+LE Medium humanoid (human)\
+**Init** +3; **Senses** Perception +6
+
+### Defense
+
+**AC** 14, touch 13, flat-footed 11 (+1 armor, +3 Dex)\
+**hp** 18 (2d8+6)\
+**Fort** +2, **Ref** +6, **Will** +1\
+**Defensive Abilities** [evasion](ref/ability/evasion)
+
+### Offense
+
+**Speed** 30 ft.\
+**Melee** mwk short sword +3 (1d6+1/19-20) or dagger +2 (1d4+1/19-20)\
+**Ranged** dagger +4 (1d4+1/19-20)\
+**Special Attacks** [sneak attack](ref/ability/sneak-attack) +1d6
+
+### Statistics
+
+**Str** 13, **Dex** 17, **Con** 14, **Int** 10, **Wis** 12, **Cha** 8\
+**Base Atk** +1; **CMB** +4; **CMD** 15\
+**Feats** [Agile Maneuvers](ref/feat/agile-maneuvers), [Combat Reflexes](ref/feat/combat-reflexes)\
+**Skills** Acrobatics +8, Bluff +4, Climb +6, Disable Device +8, Escape Artist +8, Intimidate +4,
+Perception +6, Sleight of Hand +8, Stealth +8\
+**Languages** Common, Varisian\
+**SQ** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +1),
+[trapfinding](ref/ability/trapfinding) +1
+
+### Ecology
+
+**Environment** any (Varisia)\
+**Organization** solitary, pair, or gang (3-12)\
+**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork
+[padded armor](ref/eq-armor/padded), [daggers](ref/eq-weapon/dagger) (3), masterwork
+[short sword](ref/eq-weapon/short-sword), masterwork
+[thieves' tools](ref/eq-misc/thieves-tools-masterwork), other treasure)
+
+### Description
+
+The notorious ruffians known as the Sczarni constantly prowl the civilized areas of Varisia in
+search of easily bamboozled merchants, travelers, and aristocrats to prey upon. Countless Sczarni
+thugs operate throughout Magnimar, their sheer quantity spawning numerous gangs that each possesses
+its own illicit specialty as well as a clearly defined turf. Indisputably, the most powerful Sczarni
+gang in the city is the Gallowed, who operate from a caravan of wagons perched directly below
+Lord-Mayor Grobaras's home, Defiant's Garden. The Gallowed sports a large number of thugs and
+leg-breakers, as well as its infamous Fish Tank, a 4-foot-tall glass aquarium hidden in one of the
+caravan's wagons and filled with swamp barracuda used to coax information out of unwilling victims.
+
+As a rule, Sczarni thugs are not needlessly violent, and prefer to concentrate their efforts on
+crimes that will make them the most money rather than spill the most blood. Sczarni tend toward
+swindles and illicit trade instead of rape or murder, leaving such brutal acts of violence to
+sociopaths and unscrupulous thieves' guilds.
+
+Though the Gallowed make up the most powerful Sczarni gang in Magnimar, they are far from alone, and
+numerous other small families constantly vie for turf and wealth throughout the City of Monuments.
+
+The Tower Girls specialize in robbery as well as extortion, and are often hired by quarreling nobles
+to help shame or blackmail rivals with evidence of infidelity, bastard children, or other secret
+failures. When not ruining lives, the Tower Girls display their impressive acrobatics onstage in the
+various playhouses and nightclubs of Lowcleft.
+
+Shunned even by other Sczarni gangs, the Creepers seed the streets with drugs and other illicit
+substances. They concoct many of the drugs in their base near Underbridge, using their runners to
+keep the whole city stocked with a handful of vices at any time.

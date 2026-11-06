@@ -1,0 +1,209 @@
++++
+id = "ref/monster/faceless-whale"
+kind = "creature"
+title = "Faceless Whale"
+source_ids = ["pathfinder-60-from-hells-heart"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "faceless_whale", path = "json/monsters10.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "magicalBeast"
+size = "colossal"
+alignment = "neutral"
+ac = "30/0/30"
+hp = "248~16d10+160"
+fortitude = "+22"
+reflex = "+8"
+will = "+7"
+melee = "bite +25 (6d6+17), tail slap +20 (4d6+8)"
+special_attacks = "resonant song"
+special_qualities = "blind, hold breath"
+abilities = ["45", "6", "30", "4", "11", "5"]
++++
+
+_A deep groan at the edge of hearing precedes the appearance of this sightless leviathan, whose
+pallid body breaks the surface of dark waters without as much as a ripple._
+
+**Faceless Whale**
+
+**Challenge rating:** 15
+
+**blindsight:** 150
+
+**Size:** colossal
+
+**Initiative:** -2
+
+**Type:** Magical beast
+
+**Alignment:** Neutral
+
+**Perception:** +19
+
+**source:** Pathfinder \#60: From Hell's Heart/82
+
+**Experience points:** 51,200
+
+**Armor class:** 30/0/30
+
+**Fort:** +22
+
+**Hit points:** 248 (16d10+160)
+
+**Immune:** sonic, gaze attacks, sight-based attacks, visual effects and illusions
+
+**Mod:** -2 Dex, +30 natural, -8 size
+
+**Ref:** +8
+
+**Weaknesses:** blind
+
+**Will:** +7
+
+**Offense**
+
+**Speed:** 0 ft., swim 40 ft.
+
+**Capsize:** present
+
+**Melee:** bite +25 (6d6+17), tail slap +20 (4d6+8)
+
+**Reach:** 30
+
+**Space:** 30
+
+**Spec Att:** resonant song
+
+**Swallow:** 4d6 acid damage, AC 25, 24 hp
+
+**Statistics**
+
+**Ability scores:** Str 45, Dex 6, Con 30, Int 4, Wis 11, Cha 5
+
+**Base attack bonus:** +16
+
+**Combat maneuver bonus:** +41
+
+**Combat maneuver defense:** 49
+
+**Feats:** Awesome Blow, Diehard, Endurance, Great Fortitude, Improved Bull Rush, Improved Overrun,
+Iron Will, Power Attack
+
+**Skills:** Perception +19, Swim +25
+
+**Languages:** Aklo (can't speak)
+
+**Special qualities:** blind, [hold breath](ref/umr/hold-breath)
+
+**Ecology**
+
+**Environment:** any water
+
+**Organization:** solitary, pair, or pod (3-16)
+
+**Treasure:** None
+
+### Special Abilities
+
+**Blind (Ex)** A faceless whale sees and senses exclusively through its
+[blindsight](ref/rule/blindsight-and-blindsense) ability, which is based on sound and movement -
+beyond 150 feet, the whale is considered [blind](ref/misc/blinded). A [deafened](ref/misc/deafened)
+faceless whale is effectively blinded as well. It is invulnerable to all sight-based effects and
+attacks, including [gaze](ref/umr/gaze) attacks.
+
+**Resonant Song (Su)** As a standard action, a faceless whale can focus a 60-foot ray of sonic
+energy on a single target that deals 8d6 points of damage. This ray deals normal damage to objects,
+but is still subject to [hardness](ref/umr/hardness). Alternatively, a faceless whale can blast this
+resonant energy in a 60-foot cone. Creatures in this area must succeed at a DC 28 Fortitude or be
+[stunned](ref/misc/stunned) for 1d4 rounds. Any submerged creature
+[holding its breath](ref/misc/hold-your-breath) must succeed at a second Fortitude saving throw at
+the same DC or it has its breath knocked out of it and instantly begins
+[drowning](ref/rule/drowning).
+
+### Description
+
+Called "ansiktsloshvals" in Aklo, and sometimes called "Darklands whales," faceless whales are
+enigmatic predators of the Sightless Sea rarely encountered elsewhere on Golarion. Like cavefish,
+faceless whales lost their eyes and pigmentation from countless generations spent living and
+breeding in the lightless depths. The lack of pigmentation leaves the creatures' skin little more
+than a transparent, blubber-lined film, with pulsing veins and churning organs visible beneath the
+silvery membrane. Sailors' lore from the Sightless Sea claims a faceless whale's most recent meal
+shows through the taut skin of its belly.
+
+It is unknown precisely how long faceless whales have inhabited the Sightless Sea. Some legends
+claim faceless whales began their lives as normal toothed whales that washed into the Darklands
+during the cataclysm of Earthfall, if not long before. Darker tales contend the faceless whales were
+driven into the realm of Orv by a coven of powerful [sea hags](ref/monster/hag-sea-hag), who robbed
+the faceless whales of their sight when they refused to teach the hags their potent song.
+
+An adult faceless whale is 70 feet long and weights 90,000 pounds, though some specimens stretch
+these averages and grow half again as large.
+
+Faceless whales resemble the toothed whales common to the Arcadian Ocean in body structure,
+possessing a tapered mouth lined with stubby, conical teeth and a streamlined body. Lacking eyes,
+faceless whales depend totally upon their keen [blindsight](ref/rule/blindsight-and-blindsense) to
+navigate, seek prey, and avoid the predations of the Sightless Sea's most horrific inhabitants.
+Faceless whales prefer to hunt near the bottom of the Sightless Sea, where crushing pressures and
+freezing temperatures nurture large, sluggish organisms with few places to hide, and where the
+whales find safety from other menacing predators. Because of the unusual and outright alien
+composition of the creatures found within the lowest depths, faceless whales developed
+indiscriminate appetites. A hungry faceless whale consumes virtually any living thing it can gulp
+into its jaws, including the plentiful aquatic aberrations. Faceless whales can remain submerged for
+hours at a time, diving to depths of over 7,000 feet. Faceless whales that survive to adulthood in
+the harsh conditions of Orv live 80 years or longer.
+
+As predators that spend the majority of their lives in the deepest waters, Darklands whales are
+rarely spotted. Those who sail upon the dark currents of the Sightless Sea and Lake Nirthran see
+these beasts only when the whales surface to breathe. When surfacing, a faceless whale breathes for
+minutes at a time, exhaling and inhaling massive volumes of air in great misty spouts.
+
+When a faceless whale finds prey it can easily outswim, it plunges downward with its mouth agape,
+snapping up the morsel before it can react. When pursuing larger or faster prey, the faceless whale
+becomes a persistence hunter, hounding its quarry at a deceptively leisurely pace. After what often
+proves to be days of dogged pursuit, the whale's prey becomes too exhausted to swim further. Before
+the quarry can marshal the last of its strength to defend itself, the faceless whale renders it
+helpless with a resonant song. When the faceless whale is not in combat, it uses this sonic attack
+to break through rock and gain access to new hunting grounds within Orv and beyond.
+
+### Habitat
+
+Faceless whales typically hunt and swim alone, except when prey is abundant. When hunting is
+favorable, faceless whales organize into pods led by the oldest (and typically largest) female. Pods
+are short lived, often forming only a handful of times within a faceless whale's lifetime. As such,
+males compete fiercely for breeding rights during these gatherings. Pods last only as long as prey
+sustains them. Once food becomes scarce, the pod disperses into the Sightless Sea, and individual
+whales brave the chill waters alone in search of richer hunting grounds.
+
+Mated pairs of faceless whales remain together only long enough to raise their first calf. This
+period of nurturing typically lasts no longer than 5 years - just enough time for the parents to
+teach a calf basic hunting strategies and witness its first unassisted kill. Afterward, the parents
+part ways, leaving the calf to mature to adulthood or perish in the uncertain depths of the abyss.
+
+A faceless whale spends the majority of its life in isolation, plumbing the depths of the Sightless
+Sea in search of prey, the occasional mate, and hunting grounds rich enough to support a temporary
+pod. When it makes such a discovery, a faceless whale circles the boundary of the new territory,
+calling out to its fellows with a groaning, dirge-like song that carries for leagues. Whalers who
+ply their trade upon the Sightless Sea listen for this dirge with fanatical obsession. Faceless
+whales provide numerous alchemical ingredients, and their bones and teeth make excellent weapons and
+armor. An adult faceless whale possesses enough of both to make a crew of whalers rich, provided
+they have the courage and skill to slay the creature.
+
+Though faceless whales prefer larger meals, they eagerly prey upon humanoids when other food is
+scarce. A sailor fallen overboard makes an easy snack for an adult or a full meal for a juvenile.
+Conventional wisdom claims that faceless whales consider seagoing vessels indigestible, but
+[serpentfolk](ref/monster/serpentfolk) hiss tales of faceless whales of exceptional cunning that
+capsize or fracture ships and feast upon the drowning crews, plucking them from among the flotsam.
+
+On rare occasion, a faceless whale finds its way into the oceans of Golarion. Some believe the
+creatures possess an instinctive knowledge of hidden waterways linking the Sightless Sea to the
+world above (perhaps all that remains of the migratory instincts that once drove their cetacean
+ancestors). Those few faceless whales that venture beyond the Darklands typically do so only
+briefly, breaching the surface on moonless nights just long enough to take in a breath of air free
+from the fetid staleness of Orv.
+
+Many sages postulate that the Sightless Sea is bottomless, its deepest trenches connecting to planes
+of primordial darkness where the pressure is capable of crushing living beings into stone. It is
+possible that the Sightless Sea is just one of many faceless whale hunting grounds. If this is the
+case, there is no telling what a faceless whale might bring up from the ebon depths.

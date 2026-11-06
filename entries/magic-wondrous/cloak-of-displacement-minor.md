@@ -1,0 +1,40 @@
++++
+id = "ref/magic-wondrous/cloak-of-displacement-minor"
+kind = "item"
+title = "Cloak of Displacement (Minor)"
+source_ids = ["ultimate-equipment", "core-rulebook"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "cloak_of_displacement_minor", path = "json/magic_wondrous_shoulders_wrists.json" },
+]
+
+[fields]
+kind = "item"
+price = "24,000 gp (minor), 50,000 gp (major)"
+weight = "1 lb."
+slot = "shoulders"
+aura = "faint (minor) or moderate (major) illusion"
+caster_level = "3rd (minor), 7th (major)"
++++
+
+## Cloak of Displacement
+
+**Sources:** Ultimate Equipment pg 262, PRPG Core Rulebook pg. 506-7\
+**Aura** faint (minor) or moderate (major) illusion; **CL** 3rd (minor), 7th (major)\
+**Slot** shoulders; **Price** 24,000 gp (minor), 50,000 gp (major); **Weight** 1 lb.
+
+**Minor:** This item appears to be a normal cloak, with a pattern very similar to a
+[major cloak of displacement](ref/magic-wondrous/cloak-of-displacement-major) nocturnal designs, but
+when worn its magical properties distort and warp light waves. This displacement works similar to
+the _[blur](ref/spell/blur)_ spell, granting a 20% miss chance on attacks against the wearer. It
+functions continually.
+
+**Major:** Embroidered with images of falling stars and pale moons, this item appears to be a normal
+cloak, but on command its magical properties distort and warp light waves. This displacement works
+just like the _[displacement](ref/spell/displacement)_ spell and lasts for a total of 15 rounds per
+day, which the wearer can divide up as she sees fit.
+
+### Construction
+
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+[Extend Spell](ref/feat/extend-spell) (major only), [blur](ref/spell/blur) (minor only),
+[displacement](ref/spell/displacement) (major only) ; **Cost** 12,000 gp (minor), 25,000 gp (major)

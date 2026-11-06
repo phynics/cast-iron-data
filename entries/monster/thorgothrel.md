@@ -1,0 +1,213 @@
++++
+id = "ref/monster/thorgothrel"
+kind = "creature"
+title = "Thorgothrel"
+source_ids = ["pathfinder-87-the-choking-tower"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "thorgothrel", path = "json/monsters23.json" },
+]
+
+[fields]
+kind = "creature"
+creature_type = "ooze"
+size = "large"
+alignment = "lawful evil"
+ac = "21/9/21"
+hp = "100~8d8+24~~40"
+fortitude = "+7"
+reflex = "+4"
+will = "+7"
+melee = "2 slams +11 (1d6+6 plus bleed)"
+ranged = "force ray +5 ranged touch (10d6 force)"
+special_attacks = "atavistic manipulation~force ray"
+special_qualities = "no breath, poisonous sublimation"
+abilities = ["22", "10", "17", "17", "16", "11"]
++++
+
+_A skeleton of silver rods gives this blob of protoplasm a roughly defined shape with an
+approximation of three arms and legs. Its outer skin shimmers with a rainbow of colors._
+
+**Thorgothrel**
+
+**Challenge rating:** 8
+
+**blindsight:** 100
+
+**Initiative:** +4
+
+**Size:** large
+
+**Alignment:** Lawful evil
+
+**Type:** ooze
+
+**Perception:** +11
+
+**source:** Pathfinder \#87: The Choking Tower/90
+
+**Experience points:** 4,800
+
+**Armor class:** 21/9/21
+
+**Fort:** +7
+
+**Hit points:** 100 (8d8+24\~\~40)
+
+**Immune:** cold, electricity, mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
+
+**Mod:** +12 natural, -1 size
+
+**Ref:** +4
+
+**Resist:** acid 10
+
+**Will:** +7
+
+**Offense**
+
+**Speed:** 20 ft.
+
+**Bleed:** 1 Int damage
+
+**Melee:** 2 slams +11 (1d6+6 plus bleed)
+
+**Ranged:** force ray +5 ranged touch (10d6 force)
+
+**Reach:** 10
+
+**Space:** 10
+
+**Spec Att:** atavistic manipulation, force ray
+
+**Statistics**
+
+**Ability scores:** Str 22, Dex 10, Con 17, Int 17, Wis 16, Cha 11
+
+**Base attack bonus:** +6
+
+**Combat maneuver bonus:** +13
+
+**Combat maneuver defense:** 23 (25 vs. trip)
+
+**Feats:** Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes
+
+**Skills:** Disable Device +8, Heal +10, Knowledge (arcana, engineering) +10, Perception +11
+
+**Racial Modifiers:** +4 Heal
+
+**Languages:** Aklo, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+
+**Special qualities:** [no breath](ref/umr/no-breath), poisonous sublimation
+
+**Ecology**
+
+**Environment:** any
+
+**Organization:** solitary
+
+**Treasure:** Standard; silver armature worth 350 gp, other treasure
+
+### Special Abilities
+
+**Atavistic Manipulation (Su)** A thorgothrel can alter a target's genetic structure to induce rapid
+evolutionary regression by dealing Intelligence bleed damage with its slam attacks. As the target
+mentally regresses, it also becomes more feral and violent. A target that has taken at least 4
+points of Intelligence damage from a thorgothrel gains a +2 enhancement bonus to Strength. If a
+thorgothrel spends an hour experimenting on a target rendered unconscious due to Intelligence
+damage, it can make this regression permanent. Thereafter, the target's Intelligence score is
+reduced to 1. This regression can be reversed only with [heal](ref/spell/heal),
+[limited wish](ref/spell/limited-wish), [miracle](ref/spell/miracle), or [wish](ref/spell/wish). At
+the GM's discretion, the target might change in additional ways to reflect its atavistic regression.
+
+**Force Field (Ex)** A thorgothrel with a silver armature is sheathed in a thin layer of shimmering
+energy that grants 40 bonus hit points. All damage dealt to a thorgothrel with an active force field
+is reduced from these hit points first. As long as the force field is active, the thorgothrel is
+immune to critical hits. A thorgothrel's force field has [fast healing](ref/umr/fast-healing) 10,
+but once its hit points are reduced to 0, the force field shuts down and can only be reactivated if
+the thorgothrel spends a full-round action and succeeds at a DC 15 Disable Device check. If
+successful, the force field reactivates with 1 hit point.
+
+**Force Ray (Ex)** As a standard action, a thorgothrel can lose 5 hit points from its force field
+(if it has that many or more remaining) in order to fire a ray of force at any target within 100
+feet. The ray is a ranged touch attack that deals 10d6 points of force damage.
+
+**Poisonous Sublimation (Ex)** When a thorgothrel without an active force field is in a region with
+breathable atmosphere, it beings to evaporate into a poisonous mist. The thorgothrel takes 1d4
+points of Constitution damage each round at the beginning of its turn, and the mist expands to fill
+a 20-foot radius. Any living creature in the mist with 6 or fewer HD must succeed at a DC 17
+Fortitude save or be slain. A creature with more than 6 HD takes 1d4 points of Constitution damage
+each round while in the mist (Fortitude half). A moderate wind disperses the mist in 4 rounds; a
+strong wind disperses the mist in 1 round. This is a poison effect, and the save DC is
+Constitution-based.
+
+### Description
+
+Thorgothrels are a spacefaring race of aggressive genetic manipulators. In their natural form,
+thorgothrels are blobs of protoplasm 12 feet in diameter that move with awkward undulation.
+Thorgothrels can extrude pseudopods in order to manipulate objects and form simple tools. These
+pseudopods excrete a complex cocktail of chemicals that can force changes to a victim's underlying
+genetic structure.
+
+Weighed down by Golarion's gravity and quick to sublimate into poisonous vapor in the atmosphere,
+thorgothrels find Golarion (and similar planets) inherently inimical. A thorgothrel can move about
+on Golarion only by wrapping its body around a frame of silver rods that provides inner support and
+encases the creature in a resilient force field barrier. Despite the hazard Golarion's atmosphere
+poses to these alien creatures, the planet's staggering diversity of life presents a veritable
+cornucopia of beings upon which they can perform their genetic experimentations, inching closer to
+their goal of returning all creatures to a primeval, atavistic state.
+
+The silver armature largely determines the exact size of a thorgothrel, but a typical thorgothrel
+stands around 11 feet tall and weighs about 900 lbs.
+
+Hailing from a distant planet with a radically different environment, thorgothrels don't fit into
+Golarion's ecosystem. The environment on Golarion is deadly to this spacefaring race, as the
+planet's comparatively low air pressure causes them to vaporize when exposed to it. Thorgothrels on
+Golarion combat this by remaining continually sheathed in a protective force field to avoid fatal
+dematerialization. Even in the best of conditions, a thorgothrel moves slowly. On Golarion, it must
+wrap its protoplasmic form around an artificial skeleton in order to move at a speed greater than a
+crawl. Thorgothrel mathematics are based on a ternary system, which is reflected in their armatures
+usually having three legs and three arms radially placed around a central spine.
+
+Thorgothrels feed on electrical currents and certain metals. The armatures thorgothrels create in
+order to provide mobility are made of electromagnetically charged and refined silver, and thus
+contain all of the nutrients the creatures need to survive for several months. Without an armature,
+a thorgothrel requires an ounce of silver per week to survive. Thorgothrels don't require true
+sleep, and the torpor they enter in the long years of travel between planets in their strange ships
+provides them with sufficient rest to remain active for months at a time.
+
+Thorgothrels communicate telepathically, and consider verbal communication to be the sort of
+anathema that drives their work toward retrogressive development.
+
+### Habitat
+
+The thorgothrel race were once humanoids. The greatest of their scientists and philosophers
+concluded that evolutionary advancement was a danger to the universe as a whole, and that life in
+its most primitive state was safest for all creatures. The thorgothrels began a great spacefaring
+crusade to subjugate other planets and force regressive evolution on the planets' denizens via
+genetic manipulation. Thorgothrels take pride in devolving entire planets into primitive life forms,
+and slaughter those races that put up too much of a struggle against their "great work."
+
+As the thorgothrels "improved" world after world, they also manipulated their own genes. While
+maintaining their intelligence and skill at genetic manipulation, the race regressed its form to
+that of sentient blobs of protoplasm. Thorgothrels buttress the weaknesses of these new bodies, such
+as low mobility, with technological solutions. Although silver armatures and defensive force fields
+are the most common artifacts of thorgothrel science, rumors from other worlds tell of thorgothrels
+that occupy gargantuan walking machines or psychic field projectors powerful enough to render entire
+cities docile.
+
+Their great crusade has caused the once numerous thorgothrel race to dwindle, but the race's fervor
+to enforce regression still continues on many far-flung planets. A few decades ago, thorgothrel
+explorers discovered Golarion and were staggered by the abundance of advanced life found on this
+world. However, Golarion's unfavorable environment and great distance from the thorgothrels'
+homeworld has so far stymied a full-scale assault. To date, only a few daring adventurer-geneticists
+have come to Golarion. To avoid attracting wide public attention, these thorgothrels pursue their
+regression experiments in isolated locations, such as lonely wastelands, border outposts, or hidden
+valleys. Thorgothrels carefully dissect failed experiments in order to hone their craft, but usually
+set successfully regressed victims free. Rumors of remote areas where animals or people have
+suddenly "gone wild" or "turned feral" may indicate a thorgothrel's presence.
+
+Thorgothrels are arrogant and prone to overconfidence. Most thorgothrels encountered on Golarion
+have visited dozens of other worlds, and they consider even the most advanced of Golarion's
+creatures to be evolutionary mistakes that must be corrected or exterminated. This gives
+thorgothrels little reason to communicate with other races, which in turn feeds into their
+intellectual and philosophical mandate to act however they see fit.

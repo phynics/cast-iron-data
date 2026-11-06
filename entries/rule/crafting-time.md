@@ -1,0 +1,33 @@
++++
+id = "ref/rule/crafting-time"
+kind = "rule"
+title = "Crafting Time"
+source_ids = ["game-mastery-guide"]
+provenance = [
+  { dataset = "pathfinder-data-1-e", record = "crafting_time", path = "json/rules_gm04.json" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** GameMastery Guide pg 162
+
+When answering the questions in this section, don't be afraid to start simple and add more as you
+run adventures. Write up a few important events in your setting's history, shuffle those around, and
+when you're happy with the story, you can set their dates and lay them out into a timeline. Even if
+you only have five important dates, that's enough to provide context for dozens of potential
+adventures. And as the game progresses, you simply flesh things out more.
+
+Some people really get into this aspect of world building, and that's great. It's important to
+remember, though, that unless an event has some value to the stories and games you plan on running,
+it isn't worth burdening yourself or your players with it. If you are especially detail-oriented,
+you can go so far as to set up multiple timelines, keyed to specific topics: religion, politics, and
+technology, for instance. You could also transition this to a digital document, making it even
+easier to link events together. Be careful with this, though, as the complexity of such systems can
+snowball rapidly.
+
+This last point cannot be stressed enough: one of the most common player complaints about a setting
+is an overzealous backstory. Don't fall so in love with your world's history that you marginalize
+your players. Historical facts should be presented in a manner that's fun, exciting, and useful - or
+else ignored altogether.
