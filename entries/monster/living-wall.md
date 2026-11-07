@@ -45,6 +45,7 @@ limbs, topped with a dragon skull._
 
 **Perception:** +0
 
+**Sources:** Bestiary 4 pg 182\
 **Experience points:** 1,200
 
 **Armor class:** 12/5/12

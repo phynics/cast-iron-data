@@ -42,6 +42,7 @@ with an eerie blue light._
 
 **Perception:** +0
 
+**Sources:** Planes of Power pg 58\
 **Subtype:** Aquatic, Extraplanar
 
 **Size:** tiny

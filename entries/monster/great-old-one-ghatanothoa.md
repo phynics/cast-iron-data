@@ -50,6 +50,7 @@ mountain of madness come to life._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder \#114: Black Stars Beckon pg 84\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **Experience points:** 6,553,600

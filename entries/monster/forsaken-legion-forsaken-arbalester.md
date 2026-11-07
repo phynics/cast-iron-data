@@ -41,6 +41,7 @@ uniform and carries a massive crossbow._
 
 **Perception:** +7
 
+**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 86\
 **Type:** undead
 
 **Experience points:** 800

@@ -46,6 +46,7 @@ _Holding a massive battleaxe and shield, this tall, helmed warrior is grim and f
 
 **Senses:** Deathwatch
 
+**Sources:** Bestiary 4 pg 84\
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

@@ -48,6 +48,7 @@ obscure its head._
 
 **Senses:** Sense poison
 
+**Sources:** Inner Sea Gods pg 301\
 **Subtype:** Evil, Extraplanar, Shapechanger
 
 **Experience points:** 1,200

@@ -46,6 +46,7 @@ all of them hungry for blood._
 
 **Perception:** +15
 
+**Sources:** Pathfinder RPG Bestiary pg 30\
 **Subtype:** Swarm
 
 **Experience points:** 600

@@ -45,6 +45,7 @@ for eyes; and large, powerful hands that end in wicked claws._
 
 **Perception:** +4
 
+**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 88\
 **Subtype:** Giant
 
 **Experience points:** 600

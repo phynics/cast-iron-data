@@ -43,6 +43,7 @@ fresh blood._
 
 **Perception:** +21
 
+**Sources:** Bestiary 4 pg 231\
 **Type:** undead
 
 **Experience points:** 19,200

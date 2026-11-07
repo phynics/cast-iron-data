@@ -43,6 +43,7 @@ in one tremendous bite._
 
 **Perception:** +14
 
+**Sources:** Pathfinder RPG Bestiary pg 51\
 **Experience points:** 6,400
 
 **Armor class:** 21/6/21

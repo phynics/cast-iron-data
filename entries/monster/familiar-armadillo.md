@@ -39,6 +39,7 @@ _This round, dust-colored creature's snout pokes out of its bony armor shell._
 
 **Sense:** Scent
 
+**Sources:** Ultimate Wilderness pg 192, Animal Archive pg 30\
 **Size:** tiny
 
 **Experience points:** 100

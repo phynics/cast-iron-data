@@ -45,6 +45,7 @@ spidery legs._
 
 **Perception:** +19
 
+**Sources:** Bestiary 5 pg 285, The Dragon's Demand pg 63\
 **Experience points:** 6,400
 
 **Armor class:** 23/13/19

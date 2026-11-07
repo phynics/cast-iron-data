@@ -48,6 +48,7 @@ must surely herald the end of times._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 4 pg 138\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **Experience points:** 9,830,400

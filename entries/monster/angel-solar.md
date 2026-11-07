@@ -50,6 +50,7 @@ wings._
 
 **Senses:** Detect evil, Detect snares and pits, True seeing
 
+**Sources:** Pathfinder RPG Bestiary pg 12\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 819,200

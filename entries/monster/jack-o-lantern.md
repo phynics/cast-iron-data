@@ -45,6 +45,7 @@ leering, crudely carved face._
 
 **Type:** plant
 
+**Sources:** Bestiary 4 pg 160\
 **tremorsense:** 30
 
 **Experience points:** 400

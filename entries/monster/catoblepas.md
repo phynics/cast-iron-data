@@ -45,6 +45,7 @@ and cloven hooves on its stumpy legs._
 
 **Perception:** +25
 
+**Sources:** Bestiary 2 pg 52\
 **Experience points:** 19,200
 
 **Armor class:** 27/8/27

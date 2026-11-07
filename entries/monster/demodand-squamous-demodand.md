@@ -48,6 +48,7 @@ and a toothy, toad-like head._
 
 **Senses:** Detect good, Detect magic, True seeing
 
+**Sources:** Book of the Damned pg 244\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 307,200

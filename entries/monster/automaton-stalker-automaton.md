@@ -47,6 +47,7 @@ head constantly shift in color._
 
 **Perception:** +11
 
+**Sources:** Construct Handbook pg 30\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

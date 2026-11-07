@@ -48,6 +48,7 @@ noises from the natural world._
 
 **Senses:** Detect evil, True seeing
 
+**Sources:** Bestiary 4 pg 192\
 **Subtype:** Native
 
 **Experience points:** 51,200

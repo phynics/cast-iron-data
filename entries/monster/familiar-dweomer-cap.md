@@ -40,6 +40,7 @@ _Undulating patterns of purple and orange luminescence play across this strange 
 
 **Type:** plant
 
+**Sources:** Ultimate Wilderness pg 195\
 **Size:** tiny
 
 **Experience points:** 50

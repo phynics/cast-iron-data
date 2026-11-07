@@ -49,6 +49,7 @@ of a panther._
 
 **Sense:** Scent
 
+**Sources:** Mythic Adventures pg 202\
 **Subtype:** Mythic
 
 **Experience points:** 1,600

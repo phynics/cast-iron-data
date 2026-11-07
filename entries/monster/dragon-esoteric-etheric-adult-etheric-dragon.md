@@ -45,6 +45,7 @@ abilities = ["30", "11", "22", "19", "16", "17"]
 
 **Sense:** Sid
 
+**Sources:** Bestiary 5 pg 92\
 **Subtype:** Extraplanar
 
 **Experience points:** 12,800

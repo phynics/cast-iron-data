@@ -46,6 +46,7 @@ staff._
 
 **Senses:** Detect secret doors
 
+**Sources:** Bestiary 3 pg 264\
 **Experience points:** 12,800
 
 **Armor class:** 25/15/20

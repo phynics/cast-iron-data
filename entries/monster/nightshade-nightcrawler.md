@@ -48,6 +48,7 @@ a cave._
 
 **Senses:** Detect magic
 
+**Sources:** Bestiary 2 pg 200\
 **Subtype:** Extraplanar, Nightshade
 
 **tremorsense:** 120

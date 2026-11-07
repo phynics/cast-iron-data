@@ -42,6 +42,7 @@ sharp teeth._
 
 **Size:** small
 
+**Sources:** Bestiary 3 pg 191, Pathfinder \#31: Stolen Land pg 86\
 **Experience points:** 200
 
 **Armor class:** 13/13/11

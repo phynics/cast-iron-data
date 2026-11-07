@@ -46,6 +46,7 @@ behind three sets of fangs._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 3 pg 137\
 **Experience points:** 51,200
 
 **Armor class:** 28/10/26

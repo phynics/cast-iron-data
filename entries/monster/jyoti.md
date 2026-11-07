@@ -46,6 +46,7 @@ carved crystal blade._
 
 **Perception:** +20
 
+**Sources:** Bestiary 2 pg 171\
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

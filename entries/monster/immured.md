@@ -42,6 +42,7 @@ breathe._
 
 **Perception:** +6
 
+**Sources:** Daughters of Fury pg 55\
 **Type:** undead
 
 **Experience points:** 800

@@ -42,6 +42,7 @@ _This small, blue-gray humanoid has glowing eyes and huge ears on its round, ove
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 131\
 **Experience points:** 200
 
 **Armor class:** 13/13/11

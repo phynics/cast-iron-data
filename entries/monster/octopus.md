@@ -42,6 +42,7 @@ this large-eyed creature._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 219\
 **Subtype:** Aquatic
 
 **Experience points:** 400

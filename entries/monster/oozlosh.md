@@ -46,6 +46,7 @@ it isn't bedecked in gaudy jewelry._
 
 **Perception:** +24
 
+**Sources:** Giants Revisited pg 38\
 **Subtype:** Giant
 
 **Experience points:** 38,400

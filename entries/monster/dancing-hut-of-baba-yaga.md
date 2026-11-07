@@ -44,6 +44,7 @@ fifteen-foot-tall chicken with gigantic talons caked in mud but sharp as razors.
 
 **Perception:** +8
 
+**Sources:** Pathfinder \#68: The Shackled Hut pg 63, Artifacts and Legends pg 22\
 **Experience points:** 102,400
 
 **Armor class:** 34/20/22

@@ -41,6 +41,7 @@ writhe within the flames._
 
 **Perception:** +23
 
+**Sources:** Pathfinder \#130: City in the Lion's Eye pg 88\
 **Subtype:** Incorporeal
 
 **Type:** undead

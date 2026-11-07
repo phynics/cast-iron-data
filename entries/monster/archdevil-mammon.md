@@ -49,6 +49,7 @@ diabolic nature._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 26\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **tremorsense:** 60

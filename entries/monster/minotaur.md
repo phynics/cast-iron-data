@@ -41,6 +41,7 @@ hooves as if preparing to charge._
 
 **Perception:** +10
 
+**Sources:** Pathfinder RPG Bestiary pg 206\
 **Experience points:** 1,200
 
 **Armor class:** 14/9/14

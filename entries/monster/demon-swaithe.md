@@ -45,6 +45,7 @@ _This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, s
 
 **Size:** small
 
+**Sources:** Inner Sea Gods pg 297\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,200

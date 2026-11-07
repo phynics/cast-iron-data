@@ -43,6 +43,7 @@ abilities = ["-", "26", "24", "17", "20", "20"]
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#29: Mother of Flies pg 83\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
 
 **Experience points:** 51,200

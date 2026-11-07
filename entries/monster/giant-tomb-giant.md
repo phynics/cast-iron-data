@@ -46,6 +46,7 @@ hands._
 
 **Perception:** +15
 
+**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 84, Bestiary 6 pg 136\
 **Subtype:** Giant
 
 **Experience points:** 19,200

@@ -48,6 +48,7 @@ flesh ripples disturbingly._
 
 **Senses:** Detect good, True seeing
 
+**Sources:** Bestiary 6 pg 166\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 3,276,800

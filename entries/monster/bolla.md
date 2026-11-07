@@ -44,6 +44,7 @@ don't quite touch the ground._
 
 **Perception:** +29
 
+**Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 88\
 **Experience points:** 38,400
 
 **Aav:** present

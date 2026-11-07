@@ -40,6 +40,7 @@ fangs._
 
 **Perception:** +4
 
+**Sources:** Bestiary 4 pg 252\
 **tremorsense:** 60
 
 **Type:** vermin

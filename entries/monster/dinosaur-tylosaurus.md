@@ -43,6 +43,7 @@ maw._
 
 **Perception:** +14
 
+**Sources:** Bestiary 2 pg 91\
 **Experience points:** 4,800
 
 **Armor class:** 20/8/18

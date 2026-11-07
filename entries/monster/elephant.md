@@ -42,6 +42,7 @@ _These thick-skinned animals bear large ivory tusks flanking a long, prehensile 
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 128\
 **Experience points:** 3,200
 
 **Armor class:** 17/8/17

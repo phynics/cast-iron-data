@@ -46,6 +46,7 @@ hungry, reptilian eyes._
 
 **Perception:** +23
 
+**Sources:** Pathfinder RPG Bestiary pg 62\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 12,800

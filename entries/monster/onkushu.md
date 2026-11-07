@@ -43,6 +43,7 @@ humanoid face._
 
 **Perception:** +21
 
+**Sources:** Planes of Power pg 61\
 **Subtype:** Extraplanar, Fire, Good
 
 **Experience points:** 25,600

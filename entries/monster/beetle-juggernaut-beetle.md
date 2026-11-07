@@ -42,6 +42,7 @@ _This massive insect lumbers ominously, waving scythe-like mandibles that reek o
 
 **Perception:** +14
 
+**Sources:** Monster Codex pg 52\
 **Experience points:** 38,400
 
 **Armor class:** 29/7/29

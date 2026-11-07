@@ -40,6 +40,7 @@ _The droning and spastic movements of this cloud of hungry mosquitoes promise a 
 
 **Perception:** +9
 
+**Sources:** Bestiary 2 pg 193, Rivers into Darkness pg 29\
 **Subtype:** Swarm
 
 **Type:** vermin

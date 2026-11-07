@@ -49,6 +49,7 @@ in filth and gore._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#129: The Twilight Child pg 82\
 **Experience points:** 3,200
 
 **Armor class:** 20/16/13

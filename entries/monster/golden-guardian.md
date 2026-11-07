@@ -44,6 +44,7 @@ exquisite detail into an eerie replica of a human face._
 
 **Perception:** +0
 
+**Sources:** City of Golden Death pg 29\
 **Experience points:** 2,400
 
 **Armor class:** 19/9/19

@@ -48,6 +48,7 @@ gaping, sludge-dripping mouth._
 
 **Senses:** Detect good, Detect law, True seeing
 
+**Sources:** Bestiary 6 pg 238\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **tremorsense:** 120

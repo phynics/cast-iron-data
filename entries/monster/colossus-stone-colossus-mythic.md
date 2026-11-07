@@ -50,6 +50,7 @@ _This immense stone figure appears to be a keep that uprooted itself and went fo
 
 **Perception:** +11
 
+**Sources:** Bestiary 4 pg 37\
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 204,800

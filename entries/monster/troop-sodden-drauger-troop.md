@@ -43,6 +43,7 @@ _This mob of undead is draped in soggy seaweed._
 
 **Perception:** +16
 
+**Sources:** Pathfinder \#141: Last Watch pg 91\
 **Subtype:** Troop
 
 **Type:** undead

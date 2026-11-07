@@ -47,6 +47,7 @@ revealing flesh of black stone._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 2 pg 166\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 51,200

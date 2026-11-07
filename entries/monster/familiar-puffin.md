@@ -40,6 +40,7 @@ _This squat, black-and-white bird has a bright red-and-black beak._
 
 **Perception:** +6
 
+**Sources:** Ultimate Wilderness pg 204, Reign of Winter Player's Guide pg 11\
 **Experience points:** 50
 
 **Armor class:** 16/16/14

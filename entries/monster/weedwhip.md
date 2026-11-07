@@ -47,6 +47,7 @@ heads._
 
 **Type:** plant
 
+**Sources:** Bestiary 4 pg 276\
 **Experience points:** 600
 
 **Armor class:** 14/13/11

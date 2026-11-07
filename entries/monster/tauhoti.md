@@ -43,6 +43,7 @@ _This fluffy squirrel has a round body with long tufts atop its ears._
 
 **Sense:** Scent
 
+**Sources:** Druma, Profit and Prophecy pg 63\
 **Experience points:** 65
 
 **Armor class:** 17/17/14

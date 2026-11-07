@@ -44,6 +44,7 @@ grinding metal._
 
 **Perception:** +0
 
+**Sources:** Bestiary 3 pg 58\
 **Subtype:** Clockwork
 
 **Size:** tiny

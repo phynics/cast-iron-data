@@ -46,6 +46,7 @@ large shield bearing Torag's symbol._
 
 **Perception:** +20
 
+**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 88\
 **Subtype:** Extraplanar
 
 **Experience points:** 51,200

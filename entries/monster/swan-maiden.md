@@ -44,6 +44,7 @@ with a winged helm._
 
 **Perception:** +14
 
+**Sources:** Bestiary 4 pg 257\
 **Subtype:** Shapechanger
 
 **Experience points:** 2,400

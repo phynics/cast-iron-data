@@ -45,6 +45,7 @@ enough for a human to stand in, and its body stretches back more than 20 feet._
 
 **Perception:** +19
 
+**Sources:** Pathfinder \#57: Tempest Rising pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

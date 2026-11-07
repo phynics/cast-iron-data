@@ -47,6 +47,7 @@ lure of a deep-sea predator._
 
 **Perception:** +9
 
+**Sources:** Bestiary 3 pg 50, Pathfinder \#32: Rivers Run Red pg 80\
 **Subtype:** Aquatic
 
 **Experience points:** 800

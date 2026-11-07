@@ -46,6 +46,7 @@ circular mouth._
 
 **Senses:** Second sight 60 ft.
 
+**Sources:** Bestiary 5 pg 46\
 **Size:** tiny
 
 **tremorsense:** 15

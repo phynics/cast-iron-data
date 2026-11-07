@@ -41,6 +41,7 @@ a head._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 34, Pathfinder \#1: Burnt Offerings pg 92\
 **Type:** undead
 
 **Experience points:** 1,200

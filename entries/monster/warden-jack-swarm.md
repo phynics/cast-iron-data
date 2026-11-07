@@ -43,6 +43,7 @@ abilities = ["4", "14", "-", "-", "11", "1"]
 
 **Perception:** +0
 
+**Sources:** Pathfinder \#121: The Lost Outpost pg 44\
 **Subtype:** Swarm
 
 **tremorsense:** 30

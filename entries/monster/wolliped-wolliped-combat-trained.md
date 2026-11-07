@@ -43,6 +43,7 @@ tusks jut downward from its mouth._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#70: The Frozen Stars pg 90\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

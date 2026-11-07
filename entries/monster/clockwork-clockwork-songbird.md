@@ -42,6 +42,7 @@ _This gilded mechanical bird produces melodious songs from its complex clockwork
 
 **Perception:** +0
 
+**Sources:** Construct Handbook pg 35\
 **Subtype:** Clockwork
 
 **Size:** tiny

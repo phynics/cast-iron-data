@@ -41,6 +41,7 @@ miniscule, proboscises._
 
 **Perception:** +0
 
+**Sources:** Gallows of Madness pg 60\
 **Subtype:** Swarm
 
 **Type:** vermin

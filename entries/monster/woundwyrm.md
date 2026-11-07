@@ -43,6 +43,7 @@ protrusions._
 
 **Perception:** +22
 
+**Sources:** Inner Sea Bestiary pg 61\
 **Subtype:** Chaotic, Evil
 
 **Experience points:** 51,200

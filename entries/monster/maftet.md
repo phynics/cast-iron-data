@@ -45,6 +45,7 @@ of a tawny, bipedal lion._
 
 **Perception:** +13
 
+**Sources:** Bestiary 3 pg 188, Pathfinder \#15: The Armageddon Echo pg 88\
 **Experience points:** 2,400
 
 **Armor class:** 20/13/17

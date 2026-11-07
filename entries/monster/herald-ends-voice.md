@@ -46,6 +46,7 @@ ground on footless legs as its menacing flail crackles with blue currents of ele
 
 **Senses:** Trueseeing
 
+**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 84\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 51,200

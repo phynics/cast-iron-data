@@ -45,6 +45,7 @@ fanged, lipless mouth._
 
 **Perception:** +4
 
+**Sources:** Bestiary 4 pg 199\
 **Subtype:** Reptilian
 
 **Experience points:** 200

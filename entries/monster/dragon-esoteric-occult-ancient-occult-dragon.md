@@ -42,6 +42,7 @@ ft.)
 
 **Senses:** Appraising sight, Aura sight, Dragon senses
 
+**Sources:** Bestiary 5 pg 97\
 **Experience points:** 51,200
 
 **Armor class:** 38/8/38

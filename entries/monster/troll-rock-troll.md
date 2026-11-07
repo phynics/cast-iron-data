@@ -46,6 +46,7 @@ underbite holds large, crystalline teeth._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 272\
 **Subtype:** Earth, Giant
 
 **Experience points:** 2,400

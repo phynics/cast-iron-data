@@ -45,6 +45,7 @@ an invisible frame._
 
 **Perception:** +15
 
+**Sources:** Pathfinder \#112: The Whisper Out of Time pg 86\
 **Experience points:** 9,600
 
 **Armor class:** 26/16/20

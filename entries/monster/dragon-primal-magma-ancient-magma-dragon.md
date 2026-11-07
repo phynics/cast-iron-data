@@ -43,6 +43,7 @@ abilities = ["35", "10", "25", "22", "22", "21"]
 
 **Senses:** Dragon senses
 
+**Sources:** Bestiary 2 pg 101\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 102,400

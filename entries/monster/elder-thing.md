@@ -45,6 +45,7 @@ its barrel-shaped body._
 
 **Perception:** +13
 
+**Sources:** Bestiary 4 pg 85, Pathfinder \#46: Wake of the Watcher pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

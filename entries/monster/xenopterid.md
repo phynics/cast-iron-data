@@ -43,6 +43,7 @@ merely patterns on its head._
 
 **Perception:** +1
 
+**Sources:** Bestiary 4 pg 283\
 **Type:** vermin
 
 **Experience points:** 3,200

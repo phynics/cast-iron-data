@@ -45,6 +45,7 @@ from the waist down._
 
 **Perception:** +13
 
+**Sources:** Pathfinder RPG Bestiary pg 26\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 3,200

@@ -45,6 +45,7 @@ lashes out with tendrils of blue light._
 
 **Perception:** -5
 
+**Sources:** Bestiary 3 pg 220\
 **Experience points:** 76,800
 
 **Armor class:** 6/6/6

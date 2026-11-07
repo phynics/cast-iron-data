@@ -48,6 +48,7 @@ _A plant whose body resembles a blooming lotus flower exudes an air of serenity.
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 157\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 1,600

@@ -47,6 +47,7 @@ _This enormous fungus looks like a cage, and a strange glow emanates from within
 
 **Type:** plant
 
+**Sources:** Bestiary 5 pg 286\
 **Experience points:** 153,600
 
 **Aav:** present

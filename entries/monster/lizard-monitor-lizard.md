@@ -43,6 +43,7 @@ of drool hang from its toothy maw._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 194\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

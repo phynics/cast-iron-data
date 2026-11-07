@@ -40,6 +40,7 @@ warrior woman._
 
 **Perception:** +12
 
+**Sources:** Inner Sea Bestiary pg 37\
 **Type:** undead
 
 **Experience points:** 2,400

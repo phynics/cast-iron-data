@@ -43,6 +43,7 @@ gore-fattened fly._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 84\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 800

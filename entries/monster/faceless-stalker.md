@@ -43,6 +43,7 @@ instead of actual features._
 
 **Perception:** +2
 
+**Sources:** Bestiary 2 pg 122, Pathfinder \#2: The Skinsaw Murders pg 88\
 **Subtype:** Shapechanger
 
 **Experience points:** 1,200

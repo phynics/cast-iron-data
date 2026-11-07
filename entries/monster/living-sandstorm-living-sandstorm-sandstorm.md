@@ -43,6 +43,7 @@ abilities = ["1", "22", "21", "12", "12", "13"]
 
 **Senses:** Sandsight
 
+**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 86\
 **Subtype:** Earth, Elemental, Swarm
 
 **tremorsense:** 60

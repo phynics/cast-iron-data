@@ -40,6 +40,7 @@ _The mouth of this gray-skinned, emaciated monk is a distended, hollow pit of da
 
 **Perception:** +16
 
+**Sources:** Bestiary 5 pg 153\
 **Type:** undead
 
 **Experience points:** 2,400

@@ -48,6 +48,7 @@ wears black robes that cover most of its rotting, frostbitten flesh._
 
 **Senses:** True seeing
 
+**Sources:** Druma, Profit and Prophecy pg 58\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 614,400

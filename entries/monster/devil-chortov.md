@@ -44,6 +44,7 @@ clutching a wicked military fork, the terrible giant rumbles as if preparing to 
 
 **Perception:** -1
 
+**Sources:** Pathfinder \#27: What Lies in Dust pg 80\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 6,400

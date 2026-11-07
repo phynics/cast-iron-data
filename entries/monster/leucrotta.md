@@ -47,6 +47,7 @@ ridges of bone instead of teeth._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 178, Pathfinder \#17: A Memory of Darkness pg 82\
 **Experience points:** 1,600
 
 **Armor class:** 18/10/17

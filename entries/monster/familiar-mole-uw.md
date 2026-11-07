@@ -42,6 +42,7 @@ digging claws._
 
 **Perception:** +0
 
+**Sources:** Ultimate Wilderness pg 201\
 **tremorsense:** 15
 
 **Experience points:** 50

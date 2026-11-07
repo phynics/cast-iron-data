@@ -45,6 +45,7 @@ tentacular appendages._
 
 **Perception:** +20
 
+**Sources:** Mythic Adventures pg 196\
 **Subtype:** Elemental, Extraplanar, Mythic, Water
 
 **Experience points:** 38,400

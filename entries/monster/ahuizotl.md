@@ -45,6 +45,7 @@ clawed hand._
 
 **Perception:** +2
 
+**Sources:** Bestiary 3 pg 10, Pathfinder \#34: Blood for Blood pg 80\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

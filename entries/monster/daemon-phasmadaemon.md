@@ -48,6 +48,7 @@ projecting from its sinuous body._
 
 **Senses:** Deathwatch, True seeing
 
+**Sources:** Bestiary 6 pg 74, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 52\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 102,400

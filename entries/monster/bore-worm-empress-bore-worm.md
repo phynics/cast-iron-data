@@ -39,6 +39,7 @@ beneath its translucent skin, causing the skin to ripple in a roiling, sickening
 
 **Perception:** +0
 
+**Sources:** Pathfinder \#117: Assault on Longshadow pg 82\
 **tremorsense:** 60
 
 **Type:** vermin

@@ -47,6 +47,7 @@ wings fluttering from its shoulders._
 
 **Size:** small
 
+**Sources:** Planar Adventures pg 243\
 **Subtype:** Extraplanar, Shapechanger
 
 **Experience points:** 3,200

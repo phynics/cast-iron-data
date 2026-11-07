@@ -49,6 +49,7 @@ creature's face is hidden by an intricately decorated skull mask._
 
 **Senses:** Spiritsense
 
+**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 88\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 4,800

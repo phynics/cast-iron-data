@@ -46,6 +46,7 @@ mouth for a head._
 
 **Size:** small
 
+**Sources:** Bestiary 3 pg 178\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 400

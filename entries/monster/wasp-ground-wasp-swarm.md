@@ -40,6 +40,7 @@ stings._
 
 **Perception:** +8
 
+**Sources:** Pathfinder \#79: The Half-Dead City pg 88\
 **Subtype:** Swarm
 
 **tremorsense:** 15

@@ -46,6 +46,7 @@ white gas occasionally escape the roiling fluid._
 
 **Senses:** Detect good, Detect law, Detect magic
 
+**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 86\
 **Experience points:** 25,600
 
 **Armor class:** 27/17/18

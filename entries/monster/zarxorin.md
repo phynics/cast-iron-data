@@ -44,6 +44,7 @@ hump of its back bears a ring of standing stones that crackle faintly with energ
 
 **Perception:** +31
 
+**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 90\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **Experience points:** 204,800

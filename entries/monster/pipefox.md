@@ -43,6 +43,7 @@ _This furry, minute serpent has a fox-like head and tiny eyes that glitter with 
 
 **Perception:** +5
 
+**Sources:** Bestiary 4 pg 215\
 **Experience points:** 600
 
 **Armor class:** 17/17/13

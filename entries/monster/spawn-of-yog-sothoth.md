@@ -47,6 +47,7 @@ monstrous stench._
 
 **Perception:** +20
 
+**Sources:** Bestiary 4 pg 251, Carrion Hill pg 30\
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

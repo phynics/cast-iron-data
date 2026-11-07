@@ -45,6 +45,7 @@ three human heads at the other._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 2 pg 85, Pathfinder \#12: Crown of Fangs pg 84\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 76,800

@@ -48,6 +48,7 @@ from another orifice._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 5 pg 217\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 76,800

@@ -46,6 +46,7 @@ DC 20)
 
 **Perception:** +19
 
+**Sources:** Bestiary 5 pg 42\
 **Subtype:** Cold, Native
 
 **Experience points:** 6,400

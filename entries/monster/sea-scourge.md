@@ -44,6 +44,7 @@ inexorably against the current._
 
 **Perception:** -5
 
+**Sources:** Isles of the Shackles pg 58\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

@@ -42,6 +42,7 @@ _This towering, burning equine stands upon smoking hooves. Hellfire shimmers in 
 
 **Perception:** +22
 
+**Sources:** Pathfinder RPG Bestiary pg 216\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 12,800

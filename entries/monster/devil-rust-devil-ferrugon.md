@@ -49,6 +49,7 @@ covered with rusty metallic feathers, each resembling a weathered dagger._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#101: The Kintargo Contract pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

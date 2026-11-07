@@ -45,6 +45,7 @@ large shield-like sheet of metal._
 
 **Perception:** +0
 
+**Sources:** Bestiary 6 pg 61\
 **Subtype:** Clockwork
 
 **Experience points:** 4,800

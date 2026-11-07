@@ -45,6 +45,7 @@ stones, a few of which glint with traces of gold._
 
 **Perception:** +6
 
+**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 88\
 **Subtype:** Aquatic
 
 **Tremorsense:** present

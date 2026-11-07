@@ -46,6 +46,7 @@ has a wicked bow and a scorpion-like lower body._
 
 **Perception:** +24
 
+**Sources:** Inner Sea Monster Codex pg 37\
 **tremorsense:** 30
 
 **Experience points:** 12,800

@@ -43,6 +43,7 @@ fingers._
 
 **Perception:** +14
 
+**Sources:** Pathfinder \#46: Wake of the Watcher pg 80\
 **Subtype:** Chaotic, Evil
 
 **Experience points:** 4,800

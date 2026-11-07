@@ -43,6 +43,7 @@ _This massive, mottled amphibian glistens with slime, and its tongue drips with 
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 117\
 **Experience points:** 800
 
 **Armor class:** 15/10/14

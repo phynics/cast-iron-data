@@ -51,6 +51,7 @@ billowing behind it._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
+**Sources:** Mythical Monsters Revisited pg 50\
 **Subtype:** Fire
 
 **Experience points:** 153,600

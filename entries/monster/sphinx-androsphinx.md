@@ -43,6 +43,7 @@ _This regal, bird-winged lion has a human's head, clad in the golden raiment of 
 
 **Perception:** +23
 
+**Sources:** Bestiary 3 pg 251\
 **Experience points:** 6,400
 
 **Armor class:** 23/9/23

@@ -47,6 +47,7 @@ red and its jagged tusks seem more like obsidian than bone._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#106: For Queen and Empire pg 84\
 **Subtype:** Evil, Extraplanar, Fire, Lawful
 
 **Experience points:** 6,400

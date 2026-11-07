@@ -42,6 +42,7 @@ abilities = ["23", "12", "21", "16", "17", "22"]
 
 **Senses:** Dragon senses
 
+**Sources:** Bestiary 2 pg 98\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 60

@@ -43,6 +43,7 @@ some deranged beast._
 
 **Perception:** +10
 
+**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 86\
 **Type:** undead
 
 **Experience points:** 1,200

@@ -43,6 +43,7 @@ _This bipedal reptile has a rounded, dome-like head adorned with bony frills and
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 79\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

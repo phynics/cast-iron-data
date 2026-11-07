@@ -50,6 +50,7 @@ menacing stinger._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 100\
 **Subtype:** Earth
 
 **Experience points:** 2,400

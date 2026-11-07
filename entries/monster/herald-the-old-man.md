@@ -51,6 +51,7 @@ adorned with metal rings._
 
 **Perception:** +30
 
+**Sources:** Inner Sea Gods pg 294, Pathfinder \#53: Tide of Honor pg 86\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 51,200

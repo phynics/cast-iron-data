@@ -44,6 +44,7 @@ extends around its neck._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 194\
 **Experience points:** 1,600
 
 **Armor class:** 18/10/17

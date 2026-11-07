@@ -44,6 +44,7 @@ scarf wrapped around its face._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder RPG Bestiary pg 54\
 **Subtype:** Dark folk
 
 **Experience points:** 1,200

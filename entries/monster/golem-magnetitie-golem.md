@@ -46,6 +46,7 @@ objects clinging to its body._
 
 **Perception:** +1
 
+**Sources:** Pathfinder \#95: Anvil of Fire pg 88\
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

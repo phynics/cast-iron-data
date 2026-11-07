@@ -43,6 +43,7 @@ carrion._
 
 **Size:** small
 
+**Sources:** Bestiary 3 pg 284\
 **Experience points:** 200
 
 **Armor class:** 13/12/12

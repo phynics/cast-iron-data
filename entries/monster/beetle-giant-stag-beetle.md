@@ -39,6 +39,7 @@ defense of its territory._
 
 **Perception:** +0
 
+**Sources:** Pathfinder RPG Bestiary pg 33\
 **Type:** vermin
 
 **Experience points:** 1,200

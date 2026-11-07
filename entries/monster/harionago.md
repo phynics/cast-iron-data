@@ -40,6 +40,7 @@ flowing tangle of hair._
 
 **Perception:** +20
 
+**Sources:** Bestiary 4 pg 149\
 **Type:** undead
 
 **Experience points:** 12,800

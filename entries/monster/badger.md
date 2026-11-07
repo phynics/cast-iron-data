@@ -43,6 +43,7 @@ incessantly._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 40\
 **Experience points:** 200
 
 **Armor class:** 13/12/12

@@ -47,6 +47,7 @@ teeth and glowing red eyes._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 148, Pathfinder \#32: Rivers Run Red pg 84\
 **Experience points:** 2,400
 
 **Armor class:** 19/11/17

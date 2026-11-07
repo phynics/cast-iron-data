@@ -44,6 +44,7 @@ _This waterlogged gremlin has lobster claws for hands and an almost canine face 
 
 **Perception:** +5
 
+**Sources:** Bestiary 3 pg 142\
 **Subtype:** Aquatic
 
 **Size:** tiny

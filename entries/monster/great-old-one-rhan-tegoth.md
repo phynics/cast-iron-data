@@ -50,6 +50,7 @@ bulbous eyes glare._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 6 pg 146\
 **Subtype:** Aquatic, Chaotic, Evil, Great Old One
 
 **tremorParens:** 640 ft. when in statue form

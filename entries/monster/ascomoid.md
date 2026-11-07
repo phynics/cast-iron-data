@@ -40,6 +40,7 @@ foul spores as it advances._
 
 **Type:** plant
 
+**Sources:** Bestiary 3 pg 20, Bonus Bestiary pg 6\
 **tremorsense:** 60
 
 **Experience points:** 1,600

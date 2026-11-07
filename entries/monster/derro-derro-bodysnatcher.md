@@ -46,6 +46,7 @@ crossbow and blood-stained manacles enhance his aura of quiet menace._
 
 **Size:** small
 
+**Sources:** Inner Sea Monster Codex pg 26\
 **Subtype:** Derro
 
 **Experience points:** 9,600

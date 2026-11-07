@@ -38,6 +38,7 @@ abilities = ["8", "21", "10", "2", "13", "3"]
 
 **Perception:** +1
 
+**Sources:** Ultimate Magic pg 117\
 **Subtype:** Aquatic
 
 **Size:** tiny

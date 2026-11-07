@@ -48,6 +48,7 @@ fingers on each hand._
 
 **Senses:** Thoughtsense
 
+**Sources:** Bestiary 3 pg 48, City of Strangers pg 62\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

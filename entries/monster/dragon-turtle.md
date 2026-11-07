@@ -46,6 +46,7 @@ _This long-tailed aquatic beast resembles a massive snapping turtle with draconi
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 112\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

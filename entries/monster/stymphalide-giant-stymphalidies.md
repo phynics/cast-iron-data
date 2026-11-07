@@ -44,6 +44,7 @@ legs ending in powerful metallic talons, its beady eyes dart about voraciously._
 
 **Perception:** +12
 
+**Sources:** Pathfinder \#26: The Sixfold Trial pg 88\
 **Experience points:** 4,800
 
 **Armor class:** 22/11/20

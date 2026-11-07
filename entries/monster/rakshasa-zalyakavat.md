@@ -44,6 +44,7 @@ than a colorful silk sarong and a thin, flexible blade worn as a belt._
 
 **Perception:** +24
 
+**Sources:** Pathfinder \#130: City in the Lion's Eye pg 90\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 25,600

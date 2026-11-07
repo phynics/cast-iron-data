@@ -45,6 +45,7 @@ cosmic starstuff._
 
 **Perception:** +11
 
+**Sources:** Occult Bestiary pg 3\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 1,200

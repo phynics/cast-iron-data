@@ -42,6 +42,7 @@ _A blue-green vine covered with stiff, verdant leaves and barbed thorns protrude
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#115: Trail of the Hunted pg 84\
 **tremorsense:** 10
 
 **Experience points:** 400

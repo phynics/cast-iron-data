@@ -44,6 +44,7 @@ taloned hand._
 
 **Perception:** +12
 
+**Sources:** Bestiary 5 pg 74, The Worldwound pg 42\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 800

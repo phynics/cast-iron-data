@@ -44,6 +44,7 @@ dangling down beneath it._
 
 **Perception:** +12
 
+**Sources:** Bestiary 4 pg 23, Distant Worlds pg 59\
 **Experience points:** 1,600
 
 **Armor class:** 17/9/17

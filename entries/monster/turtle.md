@@ -36,6 +36,7 @@ abilities = ["3", "6", "8", "2", "12", "3"]
 
 **Perception:** +4
 
+**Sources:** Ultimate Magic pg 120\
 **Size:** tiny
 
 **Experience points:** 65

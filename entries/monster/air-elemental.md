@@ -41,6 +41,7 @@ it into ominous shapes._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 400
@@ -144,6 +145,7 @@ when underwater.
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 400
@@ -207,6 +209,7 @@ Bonus feat.
 
 **Perception:** +7
 
+**Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 800
@@ -270,6 +273,7 @@ Bonus feat.
 
 **Perception:** +11
 
+**Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 1,600
@@ -339,6 +343,7 @@ Bonus feat.
 
 **Perception:** +13
 
+**Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 3,200
@@ -409,6 +414,7 @@ Bonus feat.
 
 **Perception:** +16
 
+**Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 6,400
@@ -479,6 +485,7 @@ Bonus feat.
 
 **Perception:** +19
 
+**Sources:** Pathfinder RPG Bestiary pg 121\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 12,800

@@ -45,6 +45,7 @@ heat._
 
 **Senses:** Detect law
 
+**Sources:** Bestiary 2 pg 217\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Size:** tiny

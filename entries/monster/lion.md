@@ -43,6 +43,7 @@ mane of hair._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 193\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

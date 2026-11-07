@@ -45,6 +45,7 @@ for a large eye ringed by fangs._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 3 pg 83\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 1,200

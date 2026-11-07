@@ -50,6 +50,7 @@ articulated metal lash._
 
 **Perception:** +1
 
+**Sources:** Pathfinder \#123: The Flooded Cathedral pg 86\
 **Subtype:** Clockwork
 
 **Experience points:** 3,200

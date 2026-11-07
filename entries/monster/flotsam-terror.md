@@ -41,6 +41,7 @@ humanoid shape roughly the size of a child._
 
 **Size:** small
 
+**Sources:** Pathfinder \#121: The Lost Outpost pg 86\
 **Type:** undead
 
 **Experience points:** 1,200

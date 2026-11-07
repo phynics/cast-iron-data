@@ -53,6 +53,7 @@ vine._
 
 **Type:** plant
 
+**Sources:** Bestiary 6 pg 152\
 **Subtype:** Shapechanger
 
 **Experience points:** 2,457,600

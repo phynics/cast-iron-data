@@ -48,6 +48,7 @@ ever-changing patterns._
 
 **Senses:** Detect law
 
+**Sources:** Bestiary 6 pg 214, Pathfinder \#99: Dance of the Damned pg 88\
 **Subtype:** Chaotic, Extraplanar, Incorporeal, Protean, Shapechanger
 
 **Experience points:** 4,800

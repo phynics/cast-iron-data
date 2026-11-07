@@ -44,6 +44,7 @@ in sharp claws._
 
 **Perception:** +11
 
+**Sources:** Bestiary 5 pg 15\
 **Experience points:** 6,400
 
 **Armor class:** 22/12/19

@@ -47,6 +47,7 @@ heavy shell covering its back._
 
 **Perception:** +14
 
+**Sources:** Pathfinder \#121: The Lost Outpost pg 80\
 **Subtype:** Agathion, Aquatic, Extraplanar, Good
 
 **Experience points:** 3,200

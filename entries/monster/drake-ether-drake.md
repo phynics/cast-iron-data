@@ -50,6 +50,7 @@ protrude from its back._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 99\
 **Subtype:** Aether
 
 **Experience points:** 9,600

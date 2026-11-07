@@ -48,6 +48,7 @@ spraying blood._
 
 **Perception:** +26
 
+**Sources:** Pathfinder \#106: For Queen and Empire pg 88\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 38,400

@@ -47,6 +47,7 @@ burn like embers._
 
 **Type:** plant
 
+**Sources:** Bestiary 4 pg 172, Pathfinder \#58: Island of Empty Eyes pg 86\
 **Experience points:** 9,600
 
 **Armor class:** 24/10/22

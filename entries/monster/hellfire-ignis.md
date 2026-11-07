@@ -44,6 +44,7 @@ wicked grin on its foul, warped face._
 
 **Size:** small
 
+**Sources:** Cheliax, the Infernal Empire pg 62\
 **Subtype:** Fire
 
 **Experience points:** 800

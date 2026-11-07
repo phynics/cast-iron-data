@@ -43,6 +43,7 @@ scaly hide._
 
 **Perception:** +23
 
+**Sources:** Pathfinder RPG Bestiary pg 64\
 **Subtype:** Chaotic, Demon, Evil, Native
 
 **Experience points:** 4,800

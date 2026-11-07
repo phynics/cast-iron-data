@@ -36,6 +36,7 @@ abilities = ["3", "15", "8", "1", "12", "2"]
 
 **Perception:** +1
 
+**Sources:** Pathfinder RPG Bestiary pg 131\
 **Size:** tiny
 
 **Experience points:** 65

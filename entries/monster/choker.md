@@ -41,6 +41,7 @@ _This hunched-over wretch has long, pliable arms like tentacles capped with five
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 45\
 **Experience points:** 600
 
 **Armor class:** 17/13/15

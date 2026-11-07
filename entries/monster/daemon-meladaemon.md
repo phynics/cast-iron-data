@@ -45,6 +45,7 @@ _This foul creature looks like an emaciated humanoid with the head of a jackal._
 
 **Senses:** Detect good, Detect magic
 
+**Sources:** Bestiary 2 pg 69, Beyond the Vault of Souls pg 30\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 12,800

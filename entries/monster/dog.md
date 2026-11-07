@@ -42,6 +42,7 @@ _This small dog has a rough coat and a hungry look in its dark brown eyes._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 87\
 **Experience points:** 135
 
 **Armor class:** 13/12/12

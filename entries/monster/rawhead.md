@@ -47,6 +47,7 @@ oversized, boneless index finger._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 241\
 **Experience points:** 38,400
 
 **Armor class:** 29/17/22

@@ -53,6 +53,7 @@ luminescent green eyes._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 282\
 **Subtype:** Wild hunt
 
 **Experience points:** 204,800

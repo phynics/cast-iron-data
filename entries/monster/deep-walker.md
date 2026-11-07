@@ -43,6 +43,7 @@ _This armor-plated creature has four crab-like legs and four arms with razor-sha
 
 **Perception:** +27
 
+**Sources:** Bestiary 6 pg 82\
 **Subtype:** Aquatic
 
 **tremorsense:** 120

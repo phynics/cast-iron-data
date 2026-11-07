@@ -44,6 +44,7 @@ from the top of his head._
 
 **Perception:** +12
 
+**Sources:** Pathfinder \#52: Forest of Spirits pg 84\
 **Subtype:** Kami, Native
 
 **Size:** tiny

@@ -41,6 +41,7 @@ _Each member of this horde of blue crab-like things is armed with a menacing, ov
 
 **Perception:** +0
 
+**Sources:** Plunder and Peril pg 62\
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

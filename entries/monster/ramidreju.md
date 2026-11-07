@@ -46,6 +46,7 @@ with soft, green fur._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 201\
 **Experience points:** 200
 
 **Armor class:** 12/12/10

@@ -40,6 +40,7 @@ _A loud droning buzz accompanies this mass of flying insects._
 
 **Perception:** +9
 
+**Sources:** Pathfinder \#116: Fangs of War pg 84\
 **Subtype:** Swarm
 
 **Type:** vermin

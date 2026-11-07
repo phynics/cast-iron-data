@@ -43,6 +43,7 @@ air in search of prey._
 
 **Perception:** +3
 
+**Sources:** Bestiary 5 pg 204, The Worldwound pg 57\
 **Subtype:** Extraplanar
 
 **tremorsense:** 120

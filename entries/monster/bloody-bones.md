@@ -43,6 +43,7 @@ of fresh gore._
 
 **Perception:** +20
 
+**Sources:** Bestiary 6 pg 49\
 **Type:** undead
 
 **Experience points:** 9,600

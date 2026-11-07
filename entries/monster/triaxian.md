@@ -48,6 +48,7 @@ fur._
 
 **Perception:** +8
 
+**Sources:** Pathfinder \#70: The Frozen Stars pg 86\
 **Experience points:** 200
 
 **Armor class:** 18/12/16

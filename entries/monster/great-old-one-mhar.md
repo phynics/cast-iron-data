@@ -48,6 +48,7 @@ spews smoke and roiling lava._
 
 **Perception:** +45
 
+**Sources:** Pathfinder \#138: Rise of New Thassilon pg 86\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **tremorsense:** 600

@@ -41,6 +41,7 @@ overwhelming despair about her._
 
 **Perception:** +16
 
+**Sources:** Bestiary 6 pg 181\
 **Subtype:** Incorporeal
 
 **Type:** undead

@@ -43,6 +43,7 @@ abilities = ["-", "16", "-", "13", "12", "20"]
 
 **Perception:** +9
 
+**Sources:** Isles of the Shackles pg 62\
 **Subtype:** Incorporeal
 
 **Type:** undead

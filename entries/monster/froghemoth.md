@@ -45,6 +45,7 @@ huge tentacles thrash and writhe._
 
 **Perception:** +16
 
+**Sources:** Pathfinder RPG Bestiary pg 136\
 **Experience points:** 25,600
 
 **Armor class:** 28/9/27

@@ -48,6 +48,7 @@ and bone._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 5 pg 214\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 307,200

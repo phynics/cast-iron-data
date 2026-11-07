@@ -45,6 +45,7 @@ with hooked teeth._
 
 **Perception:** +16
 
+**Sources:** Bestiary 6 pg 32\
 **Subtype:** Aquatic
 
 **tremorsense:** 120

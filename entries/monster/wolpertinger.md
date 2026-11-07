@@ -40,6 +40,7 @@ _This creature appears to be a large hare with long fangs, feathered wings, and 
 
 **Perception:** +5
 
+**Sources:** Pathfinder \#61: Shards of Sin pg 87\
 **Size:** tiny
 
 **Experience points:** 400

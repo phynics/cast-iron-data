@@ -42,6 +42,7 @@ circular toothy maw._
 
 **Perception:** +5
 
+**Sources:** Bestiary 2 pg 112\
 **tremorsense:** 60
 
 **Experience points:** 1,200

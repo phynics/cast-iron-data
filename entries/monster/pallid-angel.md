@@ -50,6 +50,7 @@ soaked and splattered with blood, wine, and other fluids._
 
 **Senses:** Detect good, Detect magic
 
+**Sources:** Pathfinder \#141: Last Watch pg 82\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 19,200

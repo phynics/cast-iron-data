@@ -46,6 +46,7 @@ a mouth._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 86\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60

@@ -42,6 +42,7 @@ wind, but of its own volition._
 
 **Size:** small
 
+**Sources:** Numeria, Land of Fallen Stars pg 47\
 **Experience points:** 600
 
 **Aav:** present

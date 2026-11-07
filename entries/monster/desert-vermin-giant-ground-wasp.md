@@ -40,6 +40,7 @@ stinger._
 
 **Size:** small
 
+**Sources:** Pathfinder \#81: Shifting Sands pg 83\
 **Type:** vermin
 
 **Experience points:** 1,200

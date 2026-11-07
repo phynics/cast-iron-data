@@ -48,6 +48,7 @@ but some horrid mix of the two._
 
 **Senses:** Detect thoughts
 
+**Sources:** Rise of the Runelords Anniversary Edition pg 414\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

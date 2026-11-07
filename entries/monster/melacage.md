@@ -43,6 +43,7 @@ faces' eyes, but the drops fade to nothing before they reach the ground._
 
 **Perception:** +11
 
+**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 88\
 **Subtype:** Incorporeal
 
 **Type:** undead

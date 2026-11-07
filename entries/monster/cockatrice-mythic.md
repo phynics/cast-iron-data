@@ -48,6 +48,7 @@ seem made of stone._
 
 **Size:** small
 
+**Sources:** Mythic Adventures pg 180\
 **Subtype:** Mythic
 
 **Experience points:** 1,200

@@ -44,6 +44,7 @@ that shimmers radiantly in the light._
 
 **Perception:** +20
 
+**Sources:** Bestiary 6 pg 196\
 **Experience points:** 9,600
 
 **Armor class:** 24/14/19

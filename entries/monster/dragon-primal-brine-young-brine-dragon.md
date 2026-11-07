@@ -43,6 +43,7 @@ and fin-like crests._
 
 **Senses:** Dragon senses
 
+**Sources:** Bestiary 2 pg 94\
 **Subtype:** Extraplanar, Water
 
 **Experience points:** 3,200

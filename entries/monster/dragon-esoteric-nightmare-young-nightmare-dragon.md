@@ -43,6 +43,7 @@ _This ebony dragon with red frills appears terribly contorted and trails shadows
 
 **Sense:** Sid
 
+**Sources:** Bestiary 5 pg 94\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

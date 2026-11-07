@@ -48,6 +48,7 @@ in its torso._
 
 **Perception:** +30
 
+**Sources:** Bestiary 2 pg 10\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 76,800

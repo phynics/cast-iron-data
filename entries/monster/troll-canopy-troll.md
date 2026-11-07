@@ -48,6 +48,7 @@ It hangs overhead, swinging between its oversized forearms and lashing, claw-tip
 
 **Size:** small
 
+**Sources:** Pathfinder \#116: Fangs of War pg 90\
 **Subtype:** Giant
 
 **Experience points:** 800

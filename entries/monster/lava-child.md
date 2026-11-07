@@ -44,6 +44,7 @@ of a fanged and insane human baby, and its mouth opens far wider than it should.
 
 **Perception:** +8
 
+**Sources:** Misfit Monsters Redeemed pg 43\
 **Subtype:** Earth, Fire
 
 **tremorsense:** 30

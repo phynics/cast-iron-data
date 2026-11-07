@@ -48,6 +48,7 @@ sea and sky._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 107\
 **Subtype:** Aquatic, Water
 
 **Experience points:** 800

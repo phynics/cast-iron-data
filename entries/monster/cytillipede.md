@@ -42,6 +42,7 @@ venom drips from its mandibles._
 
 **Perception:** +11
 
+**Sources:** Bestiary 5 pg 65, No Response from Deepmar pg 29\
 **Experience points:** 2,400
 
 **Armor class:** 21/10/20

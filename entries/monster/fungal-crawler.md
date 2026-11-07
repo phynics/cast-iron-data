@@ -41,6 +41,7 @@ _This giant fanged cricket is caked in pungent fungal growths and topped with a 
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 127, Pathfinder \#13: Shadow in the Sky pg 82\
 **Experience points:** 800
 
 **Armor class:** 16/16/11

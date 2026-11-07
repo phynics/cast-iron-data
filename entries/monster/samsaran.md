@@ -46,6 +46,7 @@ simple robes._
 
 **Perception:** +8
 
+**Sources:** Bestiary 4 pg 230\
 **Subtype:** Samsaran
 
 **Experience points:** 200

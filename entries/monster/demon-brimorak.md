@@ -46,6 +46,7 @@ hooves._
 
 **Size:** small
 
+**Sources:** Bestiary 6 pg 83, Book of the Damned - Volume 2: Lords of Chaos pg 56\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,600

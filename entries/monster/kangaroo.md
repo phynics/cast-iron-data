@@ -43,6 +43,7 @@ tail trailing behind._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 191\
 **Experience points:** 200
 
 **Armor class:** 15/13/12

@@ -47,6 +47,7 @@ protrude from its shoulders._
 
 **Senses:** Detect chaos, Detect law, True seeing
 
+**Sources:** Bestiary 3 pg 244\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 102,400

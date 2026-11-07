@@ -47,6 +47,7 @@ extending from its palms._
 
 **Perception:** +8
 
+**Sources:** Pathfinder \#99: Dance of the Damned pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 19/15/14

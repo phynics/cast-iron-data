@@ -42,6 +42,7 @@ energy._
 
 **Perception:** +3
 
+**Sources:** The Godsmouth Heresy pg 29\
 **Size:** tiny
 
 **Experience points:** 400

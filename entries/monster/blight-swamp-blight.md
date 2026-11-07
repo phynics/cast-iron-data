@@ -46,6 +46,7 @@ five tentacles tipped with stingers._
 
 **Perception:** +25
 
+**Sources:** Bestiary 6 pg 44\
 **Subtype:** Aquatic, Blight
 
 **Experience points:** 102,400

@@ -44,6 +44,7 @@ regal, elf-like humanoid._
 
 **Perception:** +28
 
+**Sources:** Bestiary 4 pg 94\
 **Experience points:** 153,600
 
 **Armor class:** 34/15/29

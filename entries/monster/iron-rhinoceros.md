@@ -45,6 +45,7 @@ flesh billows from its smokestack horns._
 
 **Perception:** +14
 
+**Sources:** Pathfinder \#95: Anvil of Fire pg 86\
 **Experience points:** 12,800
 
 **Armor class:** 25/9/24

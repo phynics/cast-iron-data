@@ -46,6 +46,7 @@ and its eyes are polished white orbs._
 
 **Perception:** +32
 
+**Sources:** Bestiary 6 pg 250, The Worldwound pg 58\
 **Subtype:** Earth
 
 **tremorsense:** 60

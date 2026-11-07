@@ -42,6 +42,7 @@ to be mostly mouth._
 
 **Perception:** +15
 
+**Sources:** Bestiary 2 pg 269, Pathfinder \#3: The Hook Mountain Massacre pg 82\
 **Subtype:** Shapechanger
 
 **Type:** undead

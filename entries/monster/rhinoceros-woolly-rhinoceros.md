@@ -41,6 +41,7 @@ and brow._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 235\
 **Experience points:** 2,400
 
 **Armor class:** 19/9/19

@@ -44,6 +44,7 @@ in lengths of writhing chains._
 
 **Senses:** Spectral sight, Spiritsense
 
+**Sources:** Curse of the Crimson Throne pg 468, Pathfinder \#11: Skeletons of Scarwall pg 78\
 **Subtype:** Incorporeal
 
 **Type:** undead

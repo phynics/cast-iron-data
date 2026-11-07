@@ -40,6 +40,7 @@ _This desiccated corpse wields a greatsword, its eyes blazing with eerie red lig
 
 **Perception:** +15
 
+**Sources:** Andoran, Birthplace of Freedom pg 58\
 **Type:** undead
 
 **Experience points:** 2,400

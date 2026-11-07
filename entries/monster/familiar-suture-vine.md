@@ -42,6 +42,7 @@ barbs._
 
 **Senses:** Blood sense
 
+**Sources:** Ultimate Wilderness pg 207\
 **Size:** tiny
 
 **Experience points:** 135

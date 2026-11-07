@@ -44,6 +44,7 @@ rounded black dorsal fin._
 
 **Size:** small
 
+**Sources:** Familiar Folio pg 26\
 **Experience points:** 135
 
 **Armor class:** 15/14/12

@@ -42,6 +42,7 @@ behind it._
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 179\
 **Experience points:** 400
 
 **Armor class:** 14/14/11

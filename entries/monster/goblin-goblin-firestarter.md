@@ -43,6 +43,7 @@ abilities = ["11", "20", "14", "8", "12", "8"]
 
 **Size:** small
 
+**Sources:** Monster Codex pg 107\
 **Subtype:** Goblinoid
 
 **Experience points:** 1,200

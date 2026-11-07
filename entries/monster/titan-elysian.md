@@ -45,6 +45,7 @@ gleaming metal._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 2 pg 266\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 409,600

@@ -42,6 +42,7 @@ opossum._
 
 **Perception:** +4
 
+**Sources:** Bestiary 4 pg 142, Fey Revisited pg 15\
 **Size:** tiny
 
 **Experience points:** 135

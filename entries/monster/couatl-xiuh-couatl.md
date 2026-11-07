@@ -45,6 +45,7 @@ _Wreathed in flame, this winged serpent sports brightly colored feathers sparkin
 
 **Senses:** Detect chaos/evil/good/law
 
+**Sources:** Pathfinder \#106: For Queen and Empire pg 86\
 **Subtype:** Native
 
 **thoughtsense:** 60

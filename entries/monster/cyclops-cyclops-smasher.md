@@ -47,6 +47,7 @@ a terrible club._
 
 **Perception:** +22
 
+**Sources:** Inner Sea Monster Codex pg 19\
 **Subtype:** Giant
 
 **Experience points:** 6,400

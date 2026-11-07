@@ -45,6 +45,7 @@ considerable size._
 
 **Perception:** +11
 
+**Sources:** Bestiary 2 pg 280\
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

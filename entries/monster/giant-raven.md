@@ -42,6 +42,7 @@ to take in everything around it._
 
 **Perception:** +9
 
+**Sources:** Bestiary 6 pg 240, Pathfinder \#97: In Hell's Bright Shadow pg 82\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

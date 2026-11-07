@@ -43,6 +43,7 @@ shadowed eye sockets._
 
 **Perception:** +13
 
+**Sources:** Pathfinder \#28: The Infernal Syndrome pg 88\
 **Type:** undead
 
 **Experience points:** 2,400

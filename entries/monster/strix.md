@@ -48,6 +48,7 @@ _Monstrous black-feathered wings cloak this leanly muscled, onyx-skinned humanoi
 
 **Perception:** +0 (+2 at night)
 
+**Sources:** Inner Sea World Guide pg 313, Pathfinder \#25: The Bastards of Erebus pg 82\
 **Experience points:** 135
 
 **Armor class:** 12/12/10

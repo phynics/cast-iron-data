@@ -46,6 +46,7 @@ Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head._
 
 **Senses:** See invisibility
 
+**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 76,800

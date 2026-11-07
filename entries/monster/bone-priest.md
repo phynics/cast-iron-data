@@ -40,6 +40,7 @@ blue light dances in its empty eye sockets._
 
 **Perception:** +11
 
+**Sources:** The Emerald Spire Superdungeon pg 152\
 **Type:** undead
 
 **Experience points:** 1,200

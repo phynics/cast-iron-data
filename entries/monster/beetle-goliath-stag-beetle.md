@@ -39,6 +39,7 @@ hungry fervor._
 
 **Perception:** +0
 
+**Sources:** Bestiary 2 pg 44\
 **Type:** vermin
 
 **Experience points:** 4,800

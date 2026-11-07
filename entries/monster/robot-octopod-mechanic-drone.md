@@ -48,6 +48,7 @@ _This octopus-like robot has eight tentacles that it uses to repair multiple mac
 
 **Perception:** +13
 
+**Sources:** Construct Handbook pg 56\
 **Subtype:** Robot
 
 **Experience points:** 25,600

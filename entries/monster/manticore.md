@@ -46,6 +46,7 @@ ends in long, sharp spikes._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 199\
 **Experience points:** 1,600
 
 **Armor class:** 17/11/15

@@ -45,6 +45,7 @@ black eyes smolder like coals._
 
 **Sense:** Sid
 
+**Sources:** Book of the Damned pg 247\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 12,800

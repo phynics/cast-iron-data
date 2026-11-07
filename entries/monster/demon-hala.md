@@ -46,6 +46,7 @@ mouth full of needle-sharp teeth._
 
 **Perception:** +8
 
+**Sources:** Pathfinder \#49: The Brinewall Legacy pg 84\
 **Subtype:** Air, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,200

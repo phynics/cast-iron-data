@@ -40,6 +40,7 @@ ectoplasm._
 
 **Perception:** +16
 
+**Sources:** Occult Bestiary pg 13\
 **thoughtsense:** 30
 
 **Size:** tiny

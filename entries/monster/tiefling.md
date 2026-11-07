@@ -46,6 +46,7 @@ something more than human._
 
 **Perception:** +5
 
+**Sources:** Pathfinder RPG Bestiary pg 264\
 **Subtype:** Native
 
 **Experience points:** 200

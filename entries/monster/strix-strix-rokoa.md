@@ -51,6 +51,7 @@ on her crown and staff._
 
 **Perception:** +12 (+14 in dim light or darkness)
 
+**Sources:** Inner Sea Monster Codex pg 57\
 **Experience points:** 12,800
 
 **Armor class:** 20/12/19

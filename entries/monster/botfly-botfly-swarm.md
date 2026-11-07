@@ -41,6 +41,7 @@ low, droning buzz of thousands of tiny flies._
 
 **Perception:** +0
 
+**Sources:** Heart of the Jungle pg 59\
 **Subtype:** Swarm
 
 **Type:** vermin

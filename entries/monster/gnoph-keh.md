@@ -50,6 +50,7 @@ protrudes from its snarling face._
 
 **Senses:** Snow vision
 
+**Sources:** Pathfinder \#46: Wake of the Watcher pg 84\
 **Subtype:** Cold
 
 **Experience points:** 12,800

@@ -49,6 +49,7 @@ man._
 
 **Size:** small
 
+**Sources:** Inner Sea World Guide pg 308\
 **Experience points:** 600
 
 **Armor class:** 14/12/13

@@ -42,6 +42,7 @@ hound than an undead man._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 115, Hungry are the Dead pg 30\
 **Type:** undead
 
 **Experience points:** 400

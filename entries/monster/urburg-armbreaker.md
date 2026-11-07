@@ -48,6 +48,7 @@ studded with dragon's teeth._
 
 **Perception:** +10
 
+**Sources:** Giants Revisited pg 33\
 **Subtype:** Giant
 
 **Experience points:** 25,600

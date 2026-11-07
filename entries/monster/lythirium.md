@@ -48,6 +48,7 @@ antler-like growths on its head._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#105: The Inferno Gate pg 86\
 **Experience points:** 12,800
 
 **Armor class:** 26/14/21

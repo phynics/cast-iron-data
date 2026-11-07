@@ -44,6 +44,7 @@ its fanged maw._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 55, Pathfinder \#18: Descent into Midnight pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

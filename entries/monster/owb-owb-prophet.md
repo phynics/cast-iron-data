@@ -47,6 +47,7 @@ liquid shadow._
 
 **Sense:** Sid
 
+**Sources:** Cradle of Night pg 64\
 **Subtype:** Extraplanar
 
 **Experience points:** 25,600

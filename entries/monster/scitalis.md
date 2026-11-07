@@ -44,6 +44,7 @@ glass by the creature's inner glow._
 
 **Perception:** +19
 
+**Sources:** Bestiary 5 pg 222\
 **Experience points:** 19,200
 
 **Armor class:** 27/17/23

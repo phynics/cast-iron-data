@@ -41,6 +41,7 @@ wings on its back._
 
 **Perception:** +7
 
+**Sources:** Bestiary 5 pg 158\
 **Size:** tiny
 
 **Experience points:** 600

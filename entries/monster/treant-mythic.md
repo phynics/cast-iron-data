@@ -47,6 +47,7 @@ its gnarled hands._
 
 **Type:** plant
 
+**Sources:** Mythic Adventures pg 218\
 **Subtype:** Mythic
 
 **Experience points:** 9,600

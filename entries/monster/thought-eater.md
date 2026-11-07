@@ -41,6 +41,7 @@ beak._
 
 **Perception:** +8
 
+**Sources:** Bestiary 5 pg 243\
 **Subtype:** Extraplanar
 
 **Size:** tiny

@@ -48,6 +48,7 @@ it has a long, bladed tail._
 
 **Senses:** Hive mind
 
+**Sources:** Horror Adventures pg 237\
 **Subtype:** Hive
 
 **Experience points:** 1,600

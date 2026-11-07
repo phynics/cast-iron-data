@@ -49,6 +49,7 @@ an agonizing death._
 
 **Perception:** +11
 
+**Sources:** Mystery Monsters Revisited pg 9\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

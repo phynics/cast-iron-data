@@ -42,6 +42,7 @@ and smoldering ash._
 
 **Size:** small
 
+**Sources:** Belkzen, Hold of the Orc Hordes pg 58\
 **Subtype:** Fire
 
 **Type:** undead

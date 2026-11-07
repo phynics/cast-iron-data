@@ -42,6 +42,7 @@ tendons exposed._
 
 **Senses:** Soul scent
 
+**Sources:** Bestiary 3 pg 51, Pathfinder \#28: The Infernal Syndrome pg 84\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 2,400

@@ -49,6 +49,7 @@ _A noxious fluid drips from the vicious arrows of this feral ape-like humanoid._
 
 **Size:** small
 
+**Sources:** Inner Sea Monster Codex pg 12\
 **Experience points:** 1,600
 
 **Armor class:** 22/16/17

@@ -44,6 +44,7 @@ _This elegantly dressed woman has the head and bushy tail of well-groomed fox._
 
 **Perception:** +3
 
+**Sources:** Bestiary 4 pg 175\
 **Subtype:** Kitsune, Shapechanger
 
 **Experience points:** 200

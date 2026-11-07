@@ -40,6 +40,7 @@ _At the heart of each of these tiny blobs of slime and tentacles is a single, ee
 
 **Perception:** +12
 
+**Sources:** Pathfinder \#109: In Search of Sanity pg 87\
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

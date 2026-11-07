@@ -38,6 +38,7 @@ _This vaguely human-shaped plant slashes out with dangerous-looking barbed frond
 
 **Type:** plant
 
+**Sources:** Ultimate Wilderness pg 205\
 **Size:** tiny
 
 **tremorsense:** 15

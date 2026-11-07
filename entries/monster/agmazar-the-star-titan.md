@@ -46,6 +46,7 @@ arms move with supple grace._
 
 **Sense:** Sid
 
+**Sources:** Mythic Realms pg 46\
 **Subtype:** Cold, Kaiju
 
 **Type:** undead

@@ -48,6 +48,7 @@ wings fill the air with a dreadful drone even when the creature is still._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#113: What Grows Within pg 84\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 4,800

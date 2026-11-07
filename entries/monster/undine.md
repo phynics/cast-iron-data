@@ -46,6 +46,7 @@ and feet are webbed._
 
 **Perception:** +3
 
+**Sources:** Bestiary 2 pg 275\
 **Subtype:** Native
 
 **Experience points:** 200

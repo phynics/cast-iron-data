@@ -40,6 +40,7 @@ _A bloated, red belly dangles beneath the furiously beating wings of this massiv
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 1933\
 **Type:** vermin
 
 **Experience points:** 2,400

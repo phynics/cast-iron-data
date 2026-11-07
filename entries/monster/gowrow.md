@@ -46,6 +46,7 @@ tail ends in a razor-sharp blade._
 
 **Perception:** +12
 
+**Sources:** Bestiary 6 pg 144\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

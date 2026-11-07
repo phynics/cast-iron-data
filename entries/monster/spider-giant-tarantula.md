@@ -40,6 +40,7 @@ scanning for prey._
 
 **Perception:** +4
 
+**Sources:** Bestiary 2 pg 256\
 **tremorsense:** 60
 
 **Type:** vermin

@@ -44,6 +44,7 @@ and two glittering eyes._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 232\
 **Experience points:** 135
 
 **Armor class:** 14/14/11

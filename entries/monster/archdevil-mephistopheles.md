@@ -50,6 +50,7 @@ wings._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 28\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 9,830,400

@@ -47,6 +47,7 @@ wields a massive, ice-encrusted battleaxe._
 
 **Perception:** +29
 
+**Sources:** Giants Revisited pg 26\
 **Subtype:** Cold, Giant
 
 **Experience points:** 153,600

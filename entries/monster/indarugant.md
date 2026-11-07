@@ -41,6 +41,7 @@ conceal the simple geometric tattoos and ancient battle scars that decorate his 
 
 **Perception:** +27
 
+**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 86\
 **Type:** undead
 
 **Experience points:** 38,400

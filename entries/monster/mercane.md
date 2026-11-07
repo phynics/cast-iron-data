@@ -43,6 +43,7 @@ and its hands have too few fingers._
 
 **Perception:** +12
 
+**Sources:** Bestiary 2 pg 188\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

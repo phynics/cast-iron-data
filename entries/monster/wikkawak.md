@@ -45,6 +45,7 @@ _This thick-bodied, white-furred bugbear wears bearskins and carries an axe made
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 278\
 **Subtype:** Goblinoid
 
 **Experience points:** 1,200

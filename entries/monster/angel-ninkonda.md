@@ -53,6 +53,7 @@ shoulders._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 86\
 **Subtype:** Angel, Extraplanar, Good, Lawful
 
 **Experience points:** 102,400

@@ -46,6 +46,7 @@ clouds._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 90\
 **Experience points:** 6,400
 
 **Armor class:** 23/11/20

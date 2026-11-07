@@ -46,6 +46,7 @@ its horns had broken off in battle._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#118: Siege of Stone pg 84\
 **Experience points:** 800
 
 **Armor class:** 17/11/15

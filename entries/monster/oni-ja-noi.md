@@ -44,6 +44,7 @@ wears elaborate heavy armor, and wields an ornate metal club._
 
 **Perception:** +10
 
+**Sources:** Pathfinder \#52: Forest of Spirits pg 90\
 **Subtype:** Goblinoid, Native, Oni, Shapechanger
 
 **Experience points:** 1,600

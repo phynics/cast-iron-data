@@ -52,6 +52,7 @@ figure's stealthy appearance._
 
 **Senses:** Detect evil
 
+**Sources:** Chronicle of the Righteous pg 61\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 800

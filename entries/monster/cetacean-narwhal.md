@@ -45,6 +45,7 @@ single tusk protruding from its nose, easily as long as a human._
 
 **Perception:** +12
 
+**Sources:** Pathfinder \#59: The Price of Infamy pg 87, Bestiary 5 pg 276\
 **Experience points:** 800
 
 **Armor class:** 16/12/13

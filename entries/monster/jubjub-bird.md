@@ -47,6 +47,7 @@ rest of its body is bare and scaly._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 157\
 **Experience points:** 51,200
 
 **Armor class:** 31/11/28

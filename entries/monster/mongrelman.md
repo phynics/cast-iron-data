@@ -44,6 +44,7 @@ shape._
 
 **Perception:** +6
 
+**Sources:** Bestiary 2 pg 191\
 **Experience points:** 400
 
 **Armor class:** 13/11/12

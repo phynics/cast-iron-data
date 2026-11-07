@@ -46,6 +46,7 @@ _This winged, humanoid ascetic's face is bright red and boasts a prodigiously lo
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 6 pg 79\
 **Subtype:** Native, Shapechanger
 
 **Experience points:** 9,600

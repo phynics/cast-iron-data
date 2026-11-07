@@ -50,6 +50,7 @@ composed of wispy blue light._
 
 **Senses:** Detect evil, Detect snares and pits, True seeing
 
+**Sources:** Bestiary 5 pg 24\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 307,200

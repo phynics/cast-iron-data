@@ -39,6 +39,7 @@ _This undead soldier carries a heavy-looking pickaxe in one hand and a short swo
 
 **Perception:** +10
 
+**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 87\
 **Type:** undead
 
 **Experience points:** 1,200

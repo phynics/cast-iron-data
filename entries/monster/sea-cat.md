@@ -46,6 +46,7 @@ of a giant fish._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 233, Pathfinder \#56: Raiders of the Fever Sea pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 18/10/17

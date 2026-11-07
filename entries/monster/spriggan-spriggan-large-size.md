@@ -40,6 +40,7 @@ abilities = ["21", "17", "18", "10", "10", "9"]
 
 **Perception:** +7
 
+**Sources:** Bestiary 2 pg 257\
 **Subtype:** Gnome
 
 **Experience points:** 800

@@ -44,6 +44,8 @@ countless sharp fangs._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 190, Pathfinder \#39: The City of Seven Spears pg 84, Mystery Monsters
+Revisited pg 26\
 **Experience points:** 6,400
 
 **Armor class:** 23/9/22

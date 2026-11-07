@@ -43,6 +43,7 @@ transparent wings._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 180, The Great Beyond - A Guide to the Multiverse pg 58\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

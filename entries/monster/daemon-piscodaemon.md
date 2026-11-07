@@ -45,6 +45,7 @@ and writhing tentacles._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
+**Sources:** Bestiary 2 pg 72\
 **Subtype:** Aquatic, Daemon, Evil, Extraplanar
 
 **Experience points:** 9,600

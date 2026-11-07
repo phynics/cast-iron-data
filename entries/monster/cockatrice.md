@@ -43,6 +43,7 @@ scaly tail._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 48\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

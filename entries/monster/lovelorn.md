@@ -41,6 +41,7 @@ spider. Blood oozes from the glistening organ._
 
 **Perception:** +8
 
+**Sources:** Bestiary 6 pg 182\
 **Size:** tiny
 
 **Type:** undead

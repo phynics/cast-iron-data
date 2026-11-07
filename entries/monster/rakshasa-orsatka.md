@@ -44,6 +44,7 @@ many knuckles._
 
 **Perception:** +26
 
+**Sources:** Book of the Damned pg 252\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 25,600

@@ -43,6 +43,7 @@ tipped with a barbed stinger._
 
 **Perception:** +6
 
+**Sources:** Pathfinder RPG Bestiary pg 229\
 **Size:** tiny
 
 **Experience points:** 400

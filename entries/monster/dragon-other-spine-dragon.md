@@ -48,6 +48,7 @@ almost to be made of glass._
 
 **Perception:** +25
 
+**Sources:** Inner Sea World Guide pg 312\
 **Subtype:** Earth
 
 **Experience points:** 76,800

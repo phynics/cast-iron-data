@@ -40,6 +40,8 @@ yellowed._
 
 **Perception:** +6
 
+**source:** Monster Codex/88;Pathfinder Comics \#3/33
+
 **Type:** undead
 
 **Experience points:** 400

@@ -46,6 +46,7 @@ amorphous form, its body pulsating with a horrid vitality._
 
 **Senses:** See invisibility
 
+**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 86\
 **Subtype:** Chaotic, Qlippoth, Evil, Extraplanar
 
 **Experience points:** 2,400

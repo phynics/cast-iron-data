@@ -38,6 +38,7 @@ _This spindly insect, borne aloft on four delicate wings, snaps its mandibles in
 
 **Perception:** +0
 
+**Sources:** Bestiary 3 pg 17, Bonus Bestiary pg 5\
 **Type:** vermin
 
 **Experience points:** 2,400

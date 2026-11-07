@@ -47,6 +47,7 @@ white orbs._
 
 **Perception:** +6
 
+**Sources:** Bestiary 3 pg 281\
 **Subtype:** Vishkanya
 
 **Experience points:** 200

@@ -48,6 +48,7 @@ proboscis clutching a dagger._
 
 **Size:** small
 
+**Sources:** Darklands Revisited pg 27\
 **Experience points:** 12,800
 
 **Armor class:** 28/23/16

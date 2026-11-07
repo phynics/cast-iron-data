@@ -47,6 +47,7 @@ _A gray-skinned humanoid with oddly unremarkable features floats ponderously in 
 
 **Perception:** +11
 
+**Sources:** Bestiary 5 pg 254\
 **Subtype:** Human
 
 **Experience points:** 2,400

@@ -44,6 +44,7 @@ grow on the branches._
 
 **Type:** plant
 
+**Sources:** Pathfinder \#132: The Six-Legend Soul pg 82\
 **Thoughtsense:** present
 
 **tremorsense:** 120

@@ -48,6 +48,7 @@ tooth-filled beak._
 
 **Senses:** Detect good, Detect law, True seeing
 
+**Sources:** Inner Sea World Guide pg 314, Pathfinder \#17: A Memory of Darkness pg 88\
 **Subtype:** Demon, Native
 
 **Experience points:** 1,638,400

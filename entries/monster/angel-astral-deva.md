@@ -47,6 +47,7 @@ difficult to look directly at._
 
 **Perception:** +26
 
+**Sources:** Pathfinder RPG Bestiary pg 10\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 38,400

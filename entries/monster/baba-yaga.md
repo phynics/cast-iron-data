@@ -47,6 +47,7 @@ abilities = ["17", "20", "26", "46", "24", "32"]
 
 **Senses:** Arcane sight, See invisibility
 
+**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 74\
 **Subtype:** Human, Mythic
 
 **Experience points:** 9,830,400

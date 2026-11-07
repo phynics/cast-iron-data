@@ -42,6 +42,7 @@ _Interlocking plates of chitin cover this massive, six-legged beast's face like 
 
 **Perception:** +13
 
+**Sources:** Pathfinder \#98: Turn of the Torrent pg 82\
 **Subtype:** Aquatic, Evil, Extraplanar
 
 **Experience points:** 2,400

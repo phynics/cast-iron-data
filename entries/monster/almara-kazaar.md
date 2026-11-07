@@ -46,6 +46,7 @@ warhammer._
 
 **Perception:** +3
 
+**Sources:** Darklands Revisited pg 15\
 **Subtype:** Dwarf
 
 **Experience points:** 9,600

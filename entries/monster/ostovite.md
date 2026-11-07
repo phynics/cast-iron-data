@@ -43,6 +43,7 @@ red eyes._
 
 **Perception:** +4
 
+**Sources:** Bestiary 5 pg 187\
 **Subtype:** Extraplanar
 
 **Size:** tiny

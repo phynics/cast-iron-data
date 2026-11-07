@@ -42,6 +42,7 @@ almost touch the ground._
 
 **Perception:** +16
 
+**Sources:** Pathfinder \#98: Turn of the Torrent pg 90\
 **Subtype:** Incorporeal
 
 **Type:** undead

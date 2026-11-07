@@ -51,6 +51,7 @@ than a common beast._
 
 **Senses:** Detect evil
 
+**Sources:** Pathfinder RPG Bestiary pg 19\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 1,200

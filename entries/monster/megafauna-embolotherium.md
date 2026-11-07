@@ -41,6 +41,7 @@ creature possesses a blunt, bony protrusion._
 
 **Perception:** +10
 
+**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 87\
 **Experience points:** 1,600
 
 **Armor class:** 17/9/17

@@ -46,6 +46,7 @@ with green light._
 
 **Senses:** See alignment
 
+**Sources:** Occult Bestiary pg 22\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 12,800

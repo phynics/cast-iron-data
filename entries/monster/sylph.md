@@ -46,6 +46,7 @@ into mist entirely at any minute._
 
 **Perception:** +6
 
+**Sources:** Bestiary 2 pg 258\
 **Subtype:** Native
 
 **Experience points:** 200

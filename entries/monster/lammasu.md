@@ -45,6 +45,7 @@ man._
 
 **Perception:** +15
 
+**Sources:** Bestiary 3 pg 175, Bonus Bestiary pg 13\
 **Experience points:** 4,800
 
 **Armor class:** 21/10/20

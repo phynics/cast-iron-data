@@ -41,6 +41,7 @@ height of a man._
 
 **Perception:** +9
 
+**Sources:** Bestiary 5 pg 171\
 **Experience points:** 600
 
 **Armor class:** 15/12/12

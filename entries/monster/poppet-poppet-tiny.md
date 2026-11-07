@@ -38,6 +38,7 @@ abilities = ["8", "14", "-", "-", "5", "1"]
 
 **Perception:** -3
 
+**Sources:** Adventurer's Armory 2 pg 30\
 **Size:** tiny
 
 **Experience points:** 135

@@ -45,6 +45,7 @@ waist. She's adorned in trinkets made from a great white pine's needles and cone
 
 **Perception:** +13
 
+**Sources:** Fey Revisited pg 8\
 **Experience points:** 2,400
 
 **Armor class:** 19/16/14

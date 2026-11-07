@@ -40,6 +40,7 @@ _This enormous caterpillar is covered with hundreds of sharp, poisonous bristles
 
 **Perception:** +0
 
+**Sources:** Bestiary 5 pg 51\
 **Type:** vermin
 
 **Experience points:** 1,200

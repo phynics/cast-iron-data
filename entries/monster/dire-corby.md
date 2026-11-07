@@ -42,6 +42,7 @@ beak._
 
 **Perception:** +6
 
+**Sources:** Bestiary 3 pg 80, Misfit Monsters Redeemed pg 18\
 **Experience points:** 400
 
 **Armor class:** 13/11/12

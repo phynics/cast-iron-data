@@ -44,6 +44,7 @@ flips a gold coin in its hand._
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 144\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

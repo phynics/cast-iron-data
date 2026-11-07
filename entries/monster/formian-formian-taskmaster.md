@@ -47,6 +47,7 @@ _This centaur-like creature is equipped with an ant's mandibles and antennae._
 
 **Senses:** Hive mind
 
+**Sources:** Bestiary 4 pg 111\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/18

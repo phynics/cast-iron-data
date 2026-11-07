@@ -52,6 +52,7 @@ into its body to be forever extinguished._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 86\
 **Subtype:** Chaotic, Evil, Great Old One, Incorporeal
 
 **Experience points:** 9,830,400

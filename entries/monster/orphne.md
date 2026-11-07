@@ -47,6 +47,7 @@ palpable aura of death._
 
 **Perception:** +9
 
+**Sources:** Down the Blighted Path pg 58\
 **Experience points:** 1,200
 
 **Armor class:** 18/14/14

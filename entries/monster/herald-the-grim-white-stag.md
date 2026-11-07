@@ -50,6 +50,7 @@ limbs of some ancient, leaf less tree._
 
 **Senses:** Detect evil
 
+**Sources:** Inner Sea Gods pg 286, Pathfinder \#32: Rivers Run Red pg 82\
 **Subtype:** Extraplanar, Good, Lawful
 
 **Experience points:** 51,200

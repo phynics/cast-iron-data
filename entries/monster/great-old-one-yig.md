@@ -50,6 +50,7 @@ distinctive crescent shape._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 150\
 **Subtype:** Chaotic, Great Old One, Shapechanger
 
 **Experience points:** 3,276,800

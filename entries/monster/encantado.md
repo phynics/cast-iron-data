@@ -45,6 +45,7 @@ _This graceful creature combines the features of a human and a river dolphin._
 
 **Perception:** +17
 
+**Sources:** Bestiary 5 pg 110\
 **Subtype:** Shapechanger
 
 **Experience points:** 4,800

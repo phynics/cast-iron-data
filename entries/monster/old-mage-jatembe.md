@@ -50,6 +50,7 @@ decorations._
 
 **Senses:** Arcane sight, See invisibility
 
+**Sources:** Mythic Realms pg 56\
 **Subtype:** Human
 
 **Experience points:** 1,228,800

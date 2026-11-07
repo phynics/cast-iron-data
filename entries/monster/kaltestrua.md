@@ -50,6 +50,7 @@ flesh, and the skulladorned flails she wields drip black liquid._
 
 **Senses:** True seeing
 
+**Sources:** Demons Revisited pg 38\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 409,600

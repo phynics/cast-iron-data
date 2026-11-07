@@ -44,6 +44,7 @@ swiftness._
 
 **Perception:** +16
 
+**Sources:** Bestiary 5 pg 11\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 12,800

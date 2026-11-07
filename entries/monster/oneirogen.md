@@ -43,6 +43,7 @@ _This vague, humanoid figure seems to be the source of a bank of unnaturally col
 
 **Perception:** +7
 
+**Sources:** Pathfinder \#109: In Search of Sanity pg 88\
 **Subtype:** Native
 
 **Experience points:** 600

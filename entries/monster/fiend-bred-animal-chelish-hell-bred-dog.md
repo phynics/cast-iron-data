@@ -44,6 +44,7 @@ _This reddish-brown canine has a square, athletic build. Its dripping saliva sme
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#103: The Hellfire Compact pg 86\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

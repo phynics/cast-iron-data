@@ -42,6 +42,7 @@ itself and reshaping into new forms._
 
 **Perception:** +13
 
+**Sources:** Bestiary 2 pg 54\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 3,200

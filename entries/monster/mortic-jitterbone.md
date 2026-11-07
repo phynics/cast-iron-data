@@ -45,6 +45,7 @@ from its hands and arms._
 
 **Size:** small
 
+**Sources:** Pathfinder \#139: The Dead Road pg 87\
 **Subtype:** Halfling, Mortic
 
 **Experience points:** 1,200

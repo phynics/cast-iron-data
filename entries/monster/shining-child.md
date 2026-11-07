@@ -46,6 +46,7 @@ emaciated child with clawed hands._
 
 **Perception:** +25
 
+**Sources:** Bestiary 2 pg 245\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 19,200

@@ -49,6 +49,7 @@ miniature._
 
 **Perception:** +5
 
+**Sources:** Pathfinder \#27: What Lies in Dust pg 82\
 **Experience points:** 1,200
 
 **Armor class:** 20/17/16

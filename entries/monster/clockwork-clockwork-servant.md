@@ -46,6 +46,7 @@ body._
 
 **Perception:** +0
 
+**Sources:** Bestiary 3 pg 56\
 **Subtype:** Clockwork
 
 **Experience points:** 600

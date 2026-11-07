@@ -43,6 +43,7 @@ horns._
 
 **Perception:** +8
 
+**Sources:** Pathfinder RPG Bestiary pg 34\
 **Experience points:** 4,800
 
 **Armor class:** 21/9/20

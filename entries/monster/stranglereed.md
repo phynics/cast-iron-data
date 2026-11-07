@@ -43,6 +43,7 @@ _This tangled mass of thick reeds extends from a bulbous pod split by a wide, th
 
 **Type:** plant
 
+**Sources:** Bestiary 5 pg 237, Pathfinder \#82: Secrets of the Sphinx pg 90\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

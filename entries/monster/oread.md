@@ -46,6 +46,7 @@ almost like a statue brought to life._
 
 **Perception:** +2
 
+**Sources:** Bestiary 2 pg 205\
 **Subtype:** Native
 
 **Experience points:** 200

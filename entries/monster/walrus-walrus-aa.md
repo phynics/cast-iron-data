@@ -42,6 +42,7 @@ like a coarse mustache._
 
 **Perception:** +6
 
+**Sources:** Animal Archive pg 29\
 **Experience points:** 1,200
 
 **Armor class:** 17/9/17

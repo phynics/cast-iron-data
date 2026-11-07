@@ -42,6 +42,7 @@ darts from the center._
 
 **Perception:** +1
 
+**Sources:** Bestiary 6 pg 248\
 **Subtype:** Aquatic
 
 **Type:** vermin

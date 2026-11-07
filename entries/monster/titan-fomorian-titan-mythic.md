@@ -48,6 +48,7 @@ mace._
 
 **Senses:** Divine spell perception
 
+**Sources:** Bestiary 4 pg 261\
 **Subtype:** Chaotic, Evil, Extraplanar, Mythic
 
 **Experience points:** 614,400

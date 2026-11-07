@@ -43,6 +43,7 @@ fat in its socket._
 
 **Perception:** +17
 
+**Sources:** Planar Adventures pg 242\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

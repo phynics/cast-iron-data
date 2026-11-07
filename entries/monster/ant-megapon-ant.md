@@ -42,6 +42,7 @@ horse._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 27\
 **Type:** vermin
 
 **Experience points:** 2,400

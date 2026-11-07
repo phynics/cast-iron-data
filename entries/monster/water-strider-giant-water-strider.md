@@ -40,6 +40,7 @@ solid ground._
 
 **Perception:** +4
 
+**Sources:** Bestiary 4 pg 273\
 **tremorsense:** 60
 
 **Type:** vermin

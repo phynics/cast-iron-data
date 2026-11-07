@@ -45,6 +45,7 @@ its barbed and razor-edged front claws._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 32\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 9,600

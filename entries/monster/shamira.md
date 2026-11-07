@@ -48,6 +48,7 @@ _This crimson-haired demonic woman has wings of fire. She carries a slender bow 
 
 **Senses:** Detect good, Detect law, True seeing
 
+**Sources:** Pathfinder \#76: The Midnight Isles pg 74\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Fire
 
 **Experience points:** 1,638,400

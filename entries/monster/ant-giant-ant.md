@@ -41,6 +41,7 @@ stinger dripping with venom._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 16\
 **Type:** vermin
 
 **Experience points:** 600

@@ -45,6 +45,7 @@ _This brilliantly colored couatl radiates a palpable air of peace and wisdom._
 
 **Senses:** Detect chaos/evil/good/law
 
+**Sources:** Mythical Monsters Revisited pg 14\
 **Subtype:** Native
 
 **Experience points:** 51,200

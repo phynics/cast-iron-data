@@ -48,6 +48,7 @@ jut from around the column, each ending in a hand with long, black claws._
 
 **Senses:** Detect magic, Detect thoughts
 
+**Sources:** Concordance of Rivals pg 52\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 38,400

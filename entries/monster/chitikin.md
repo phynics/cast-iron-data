@@ -41,6 +41,7 @@ are scythe-like claws, and its slender antennae end in glowing green bulbs._
 
 **Perception:** +2
 
+**Sources:** Pathfinder \#130: City in the Lion's Eye pg 82\
 **Type:** vermin
 
 **Experience points:** 1,200

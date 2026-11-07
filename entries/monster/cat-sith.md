@@ -44,6 +44,7 @@ eerily human._
 
 **Senses:** See invisibility
 
+**Sources:** Familiar Folio pg 28\
 **Size:** tiny
 
 **Experience points:** 600

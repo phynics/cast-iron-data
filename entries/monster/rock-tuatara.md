@@ -40,6 +40,7 @@ _The stony-looking hide of this fat reptile ends in a studded, heavy club of a t
 
 **Perception:** +4
 
+**Sources:** Pathfinder \#118: Siege of Stone pg 83\
 **Size:** tiny
 
 **Experience points:** 135

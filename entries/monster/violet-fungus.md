@@ -41,6 +41,7 @@ of fissures in its pointed cap._
 
 **Type:** plant
 
+**Sources:** Pathfinder RPG Bestiary pg 274\
 **Experience points:** 800
 
 **Armor class:** 15/9/15

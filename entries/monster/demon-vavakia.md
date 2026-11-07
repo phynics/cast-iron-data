@@ -47,6 +47,7 @@ draconic saurian head._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 6 pg 88, Book of the Damned - Volume 2: Lords of Chaos pg 60\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 153,600

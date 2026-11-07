@@ -42,6 +42,7 @@ with powerful jaws emerge._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 273\
 **Size:** tiny
 
 **Experience points:** 135

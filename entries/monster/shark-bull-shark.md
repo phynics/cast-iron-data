@@ -45,6 +45,7 @@ _This sleek, gray predator weaves back and forth through the water with savage g
 
 **Perception:** +6
 
+**Sources:** Bestiary 4 pg 241\
 **Subtype:** Aquatic
 
 **Experience points:** 600

@@ -44,6 +44,7 @@ the sunlight and glossy eyes bright with good-natured intelligence._
 
 **Perception:** +27
 
+**Sources:** Pathfinder \#52: Forest of Spirits pg 88\
 **Subtype:** Kami, Native, Water
 
 **Experience points:** 38,400

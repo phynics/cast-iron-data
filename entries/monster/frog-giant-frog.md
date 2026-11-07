@@ -44,6 +44,7 @@ truly monstrous size._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 135\
 **Experience points:** 400
 
 **Armor class:** 12/11/11

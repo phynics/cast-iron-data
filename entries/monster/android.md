@@ -47,6 +47,7 @@ blue tattoos._
 
 **Perception:** +6
 
+**Sources:** Bestiary 5 pg 19, Inner Sea Bestiary pg 3\
 **Subtype:** Android
 
 **Experience points:** 400

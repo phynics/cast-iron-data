@@ -42,6 +42,7 @@ _This muscular, violet demon walks upon elephantine feet. Large, razor-sharp hor
 
 **Perception:** +24
 
+**Sources:** Bestiary 2 pg 78\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 9,600

@@ -47,6 +47,7 @@ individual with shining eyes._
 
 **Senses:** Detect evil
 
+**Sources:** Bestiary 5 pg 22, Chronicle of the Righteous pg 59\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 4,800

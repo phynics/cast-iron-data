@@ -49,6 +49,7 @@ mace._
 
 **Senses:** Detect evil
 
+**Sources:** Bestiary 2 pg 27\
 **Subtype:** Angel, Aquatic, Extraplanar, Good
 
 **Experience points:** 19,200

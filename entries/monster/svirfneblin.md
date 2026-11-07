@@ -49,6 +49,7 @@ expressive._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 261\
 **Subtype:** Gnome
 
 **Experience points:** 400

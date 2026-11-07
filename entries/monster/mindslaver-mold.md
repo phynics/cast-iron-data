@@ -42,6 +42,7 @@ this feral-looking man._
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 194, Lands of the Linnorm Kings pg 61\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

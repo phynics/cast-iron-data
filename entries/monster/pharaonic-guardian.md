@@ -42,6 +42,7 @@ white light._
 
 **Perception:** +21
 
+**Sources:** Bestiary 5 pg 191, Osirion, Legacy of the Pharaohs pg 60\
 **Subtype:** Incorporeal
 
 **Type:** undead

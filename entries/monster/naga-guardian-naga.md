@@ -42,6 +42,7 @@ colored serpent._
 
 **Perception:** +23
 
+**Sources:** Pathfinder RPG Bestiary pg 212\
 **Experience points:** 9,600
 
 **Armor class:** 24/15/18

@@ -46,6 +46,7 @@ dominate its avian face._
 
 **Perception:** +20
 
+**Sources:** Bestiary 3 pg 123, Cult of the Ebon Destroyers pg 29\
 **Subtype:** Native
 
 **Experience points:** 6,400

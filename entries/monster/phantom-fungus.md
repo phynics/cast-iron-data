@@ -43,6 +43,7 @@ gapes along its entire front._
 
 **Type:** plant
 
+**Sources:** Bestiary 3 pg 219\
 **tremorsense:** 60
 
 **Experience points:** 800

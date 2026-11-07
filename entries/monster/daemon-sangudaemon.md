@@ -48,6 +48,7 @@ dripping crimson streamers._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 75, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 54\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 6,400

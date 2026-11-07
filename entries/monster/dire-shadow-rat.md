@@ -41,6 +41,7 @@ Its semi-translucent skin shows discolored bones and muscles._
 
 **Size:** small
 
+**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 54, Tome of Horrors Complete (PF) pg 504\
 **Type:** undead
 
 **Experience points:** 400

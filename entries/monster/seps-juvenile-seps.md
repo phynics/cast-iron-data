@@ -46,6 +46,7 @@ _This venomous snake is heavily armored and has unusually large fangs._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 237\
 **Experience points:** 600
 
 **Armor class:** 16/11/15

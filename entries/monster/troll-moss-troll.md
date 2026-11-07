@@ -47,6 +47,7 @@ in bits of foliage._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 273\
 **Subtype:** Giant, Shapechanger
 
 **Experience points:** 800

@@ -41,6 +41,7 @@ over everything in its path._
 
 **Perception:** +4
 
+**Sources:** Bestiary 2 pg 58\
 **Subtype:** Swarm
 
 **tremorsense:** 30

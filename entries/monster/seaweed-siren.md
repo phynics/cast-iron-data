@@ -49,6 +49,7 @@ split by a wide, toothy mouth._
 
 **Perception:** +17
 
+**Sources:** Bestiary 4 pg 235, Pathfinder \#60: From Hell's Heart pg 90\
 **Subtype:** Aquatic
 
 **Experience points:** 25,600

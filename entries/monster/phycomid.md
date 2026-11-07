@@ -39,6 +39,7 @@ wafting tendrils of smoke._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 210\
 **tremorsense:** 30
 
 **Experience points:** 1,200

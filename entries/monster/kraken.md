@@ -46,6 +46,7 @@ unsettling to look upon._
 
 **Perception:** +28
 
+**Sources:** Pathfinder RPG Bestiary pg 184\
 **Subtype:** Aquatic
 
 **Experience points:** 153,600

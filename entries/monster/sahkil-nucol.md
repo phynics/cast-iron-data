@@ -48,6 +48,7 @@ flies._
 
 **Senses:** Detect magic
 
+**Sources:** Book of the Damned pg 253\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 1,200

@@ -43,6 +43,7 @@ tail, and back._
 
 **Perception:** +13
 
+**Sources:** Bestiary 2 pg 159\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 800

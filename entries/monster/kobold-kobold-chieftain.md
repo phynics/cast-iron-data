@@ -45,6 +45,7 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Size:** small
 
+**Sources:** Monster Codex pg 135\
 **Subtype:** Reptilian
 
 **Experience points:** 4,800

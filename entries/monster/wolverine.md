@@ -44,6 +44,7 @@ yellow teeth._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 279\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

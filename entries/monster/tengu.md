@@ -46,6 +46,7 @@ _Black feathers cover this crow-headed humanoid, and its hands and legs end in p
 
 **Perception:** +8
 
+**Sources:** Pathfinder RPG Bestiary pg 263\
 **Experience points:** 200
 
 **Armor class:** 15/13/12

@@ -48,6 +48,7 @@ smoke._
 
 **Sense:** Sid
 
+**Sources:** Mythic Adventures pg 203\
 **Subtype:** Evil, Extraplanar, Fire, Lawful, Mythic
 
 **Experience points:** 12,800

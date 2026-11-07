@@ -42,6 +42,7 @@ abilities = ["39", "8", "27", "24", "25", "24"]
 
 **Senses:** Dragon senses
 
+**Sources:** Bestiary 3 pg 101\
 **Experience points:** 307,200
 
 **Armor class:** 39/5/39

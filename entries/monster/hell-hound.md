@@ -44,6 +44,7 @@ red eyes._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 173\
 **Subtype:** Evil, Extraplanar, Fire, Lawful
 
 **Experience points:** 800

@@ -47,6 +47,7 @@ eyes._
 
 **Perception:** +9
 
+**Sources:** Monster Codex pg 119\
 **Subtype:** Goblinoid
 
 **Experience points:** 1,200

@@ -45,6 +45,7 @@ hum._
 
 **Perception:** +27
 
+**Sources:** Pathfinder \#123: The Flooded Cathedral pg 88\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 19,200

@@ -45,6 +45,7 @@ vaguely canine beast._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 274, Pathfinder \#32: Rivers Run Red pg 88\
 **Experience points:** 800
 
 **Armor class:** 15/11/14

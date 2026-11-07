@@ -45,6 +45,7 @@ _A ridge of jagged ice runs down the back of this glistening, desert-dwelling li
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 229, Pathfinder \#79: The Half-Dead City pg 84\
 **Experience points:** 800
 
 **Armor class:** 15/13/13

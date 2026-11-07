@@ -43,6 +43,7 @@ leonine face._
 
 **Perception:** +12
 
+**Sources:** Monster Codex pg 172\
 **Experience points:** 3,200
 
 **Armor class:** 18/8/18

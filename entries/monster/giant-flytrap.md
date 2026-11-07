@@ -42,6 +42,7 @@ in a set of green, toothy jaws._
 
 **Type:** plant
 
+**Sources:** Pathfinder RPG Bestiary pg 134\
 **tremorsense:** 60
 
 **Experience points:** 9,600

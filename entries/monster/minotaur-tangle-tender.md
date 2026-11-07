@@ -45,6 +45,7 @@ belt, not the least of which is its mechanical monstrosity of a crossbow._
 
 **Perception:** +20
 
+**Sources:** Inner Sea Monster Codex pg 44\
 **Experience points:** 9,600
 
 **Armor class:** 23/13/20

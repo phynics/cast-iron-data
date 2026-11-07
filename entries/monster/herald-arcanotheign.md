@@ -52,6 +52,7 @@ form._
 
 **Senses:** Arcane sight
 
+**Sources:** Inner Sea Gods pg 298, Pathfinder \#41: The Thousand Fangs Below pg 82\
 **Subtype:** Incorporeal
 
 **Experience points:** 51,200

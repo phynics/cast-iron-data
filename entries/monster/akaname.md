@@ -44,6 +44,7 @@ tongue drags on the ground beneath it._
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 16\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

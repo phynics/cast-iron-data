@@ -46,6 +46,7 @@ head._
 
 **Perception:** +27
 
+**Sources:** Bestiary 3 pg 39\
 **Subtype:** Behemoth, Earth
 
 **tremorsense:** 60

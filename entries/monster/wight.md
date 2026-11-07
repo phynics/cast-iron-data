@@ -41,6 +41,7 @@ sockets glowing with red light._
 
 **Perception:** +11
 
+**Sources:** Pathfinder RPG Bestiary pg 276\
 **Type:** undead
 
 **Experience points:** 800

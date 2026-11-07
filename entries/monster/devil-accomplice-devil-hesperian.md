@@ -47,6 +47,7 @@ occasional dart of a forked tongue._
 
 **Sense:** Sid
 
+**Sources:** Inner Sea Gods pg 279\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 1,200

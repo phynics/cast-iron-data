@@ -45,6 +45,7 @@ the beard of an eccentric hermit._
 
 **Perception:** +14
 
+**Sources:** Bestiary 3 pg 282\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

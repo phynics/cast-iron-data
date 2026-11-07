@@ -43,6 +43,7 @@ dust._
 
 **Perception:** +19
 
+**Sources:** Feast of Dust pg 63\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 4,800

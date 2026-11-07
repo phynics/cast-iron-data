@@ -48,6 +48,7 @@ iron plates._
 
 **Sense:** Scent
 
+**Sources:** Inner Sea Gods pg 289\
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 1,200

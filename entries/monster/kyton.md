@@ -44,6 +44,7 @@ etched with jagged scars._
 
 **Perception:** +14
 
+**Sources:** Pathfinder RPG Bestiary pg 185\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 2,400

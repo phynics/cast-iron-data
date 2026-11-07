@@ -51,6 +51,7 @@ baleful hatred._
 
 **Senses:** Detect magic
 
+**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 90\
 **Subtype:** Extraplanar, Nightshade
 
 **Type:** undead

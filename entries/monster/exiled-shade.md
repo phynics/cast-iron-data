@@ -41,6 +41,7 @@ and hatred._
 
 **Perception:** +9
 
+**Sources:** Bestiary 6 pg 123\
 **Subtype:** Incorporeal
 
 **Type:** undead

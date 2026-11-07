@@ -38,6 +38,7 @@ _The creeping tendrils of this plant creature guide its way up tree trunks and w
 
 **Type:** plant
 
+**Sources:** Ultimate Wilderness pg 194\
 **Size:** tiny
 
 **Experience points:** 100

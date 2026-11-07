@@ -47,6 +47,7 @@ dirt-stained smock; its pink nose twitches ceaselessly._
 
 **Size:** small
 
+**Sources:** Pathfinder \#117: Assault on Longshadow pg 80\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 800

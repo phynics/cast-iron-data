@@ -46,6 +46,7 @@ appendages ending in pincers._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 255\
 **Experience points:** 1,600
 
 **Armor class:** 18/12/15

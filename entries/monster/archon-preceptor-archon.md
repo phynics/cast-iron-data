@@ -47,6 +47,7 @@ white robes contrast starkly with its black feathers, and its willow staff sheds
 
 **Senses:** Detect evil
 
+**Sources:** Heaven Unleashed pg 21\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **thoughtsense:** 60

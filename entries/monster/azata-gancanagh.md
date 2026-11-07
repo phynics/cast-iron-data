@@ -44,6 +44,7 @@ _This incredibly handsome man's pointed ears and otherworldly grace betray an in
 
 **Perception:** +9
 
+**Sources:** Bestiary 5 pg 38\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 1,200

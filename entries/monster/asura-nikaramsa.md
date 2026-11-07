@@ -47,6 +47,7 @@ _This muscular giant has two ferocious lion heads, each with a long, black, lash
 
 **Senses:** Detect chaos, Detect evil, Detect good, Detect law, See invisibility
 
+**Sources:** Book of the Damned pg 242\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 38,400

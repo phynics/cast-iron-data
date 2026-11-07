@@ -41,6 +41,7 @@ neck._
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 257\
 **Experience points:** 135
 
 **Armor class:** 13/13/11

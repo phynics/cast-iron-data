@@ -47,6 +47,7 @@ with small bones._
 
 **Perception:** +6
 
+**Sources:** Planar Adventures pg 230\
 **Subtype:** Native
 
 **Experience points:** 200

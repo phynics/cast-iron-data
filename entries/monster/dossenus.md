@@ -42,6 +42,7 @@ teeth._
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 63\
 **Experience points:** 400
 
 **Armor class:** 12/11/12

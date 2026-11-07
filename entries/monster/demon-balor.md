@@ -49,6 +49,7 @@ spurting from its flesh._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder RPG Bestiary pg 58\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 307,200

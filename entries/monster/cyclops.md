@@ -44,6 +44,7 @@ even larger mouth gapes like a cave._
 
 **Perception:** +11
 
+**Sources:** Pathfinder RPG Bestiary pg 52\
 **Subtype:** Giant
 
 **Experience points:** 1,600

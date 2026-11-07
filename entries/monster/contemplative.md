@@ -43,6 +43,7 @@ it._
 
 **Perception:** +10
 
+**Sources:** Bestiary 4 pg 41, Distant Worlds pg 60\
 **Experience points:** 600
 
 **Armor class:** 12/12/10

@@ -48,6 +48,7 @@ two immense bat wings._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
+**Sources:** Bestiary 3 pg 69\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 153,600

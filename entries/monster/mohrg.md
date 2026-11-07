@@ -40,6 +40,7 @@ loll from its jaw like a clawed tongue._
 
 **Perception:** +23
 
+**Sources:** Pathfinder RPG Bestiary pg 208\
 **Type:** undead
 
 **Experience points:** 4,800

@@ -48,6 +48,7 @@ dangle tiny fairy skull trophies._
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 28\
 **Subtype:** Mythic
 
 **Experience points:** 400

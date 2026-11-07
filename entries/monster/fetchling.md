@@ -46,6 +46,7 @@ _This gaunt man appears drained of color, like a person viewed at twilight or in
 
 **Perception:** +3
 
+**Sources:** Bestiary 2 pg 123\
 **Subtype:** Native
 
 **Experience points:** 200

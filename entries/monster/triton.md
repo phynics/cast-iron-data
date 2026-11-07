@@ -45,6 +45,7 @@ flippers rather than feet._
 
 **Perception:** +7
 
+**Sources:** Bestiary 2 pg 270\
 **Subtype:** Native, Water
 
 **Experience points:** 600

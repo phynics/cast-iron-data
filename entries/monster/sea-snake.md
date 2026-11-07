@@ -42,6 +42,7 @@ agility._
 
 **Size:** small
 
+**Sources:** Isles of the Shackles pg 59\
 **Experience points:** 400
 
 **Armor class:** 14/13/12

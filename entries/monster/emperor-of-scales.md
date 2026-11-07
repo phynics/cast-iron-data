@@ -54,6 +54,7 @@ DC 25)
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 82\
 **Subtype:** Chaotic, Evil, Native
 
 **Experience points:** 51,200

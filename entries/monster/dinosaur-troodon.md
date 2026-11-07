@@ -43,6 +43,7 @@ _This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss not
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 84\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

@@ -42,6 +42,7 @@ sides._
 
 **Perception:** +3
 
+**Sources:** Pathfinder \#124: City in the Deep pg 86\
 **Subtype:** Aquatic
 
 **tremorsense:** 60

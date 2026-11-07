@@ -45,6 +45,7 @@ dragon and a horned goat._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 44\
 **Experience points:** 3,200
 
 **Armor class:** 19/10/18

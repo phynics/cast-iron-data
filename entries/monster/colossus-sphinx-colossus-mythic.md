@@ -50,6 +50,7 @@ _This stone edifice resembles a lion with a regal human face, garbed in royal cl
 
 **Perception:** +16
 
+**Sources:** Bestiary 5 pg 58, Osirion, Legacy of the Pharaohs pg 56\
 **Subtype:** Colossus, Mythic
 
 **tremorsense:** 120

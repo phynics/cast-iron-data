@@ -42,6 +42,7 @@ ready in a coordinated front._
 
 **Perception:** +13
 
+**Sources:** Pathfinder \#100: A Song of Silver pg 122\
 **Subtype:** Human, Troop
 
 **Experience points:** 3,200

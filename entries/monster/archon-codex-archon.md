@@ -50,6 +50,7 @@ watchfully as though alive._
 
 **Senses:** Detect evil, Detect magic
 
+**Sources:** Monster Summoner's Handbook pg 24\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 1,600

@@ -40,6 +40,7 @@ a meditative, deadly stance._
 
 **Perception:** +4
 
+**Sources:** Inner Sea Bestiary pg 30\
 **Type:** vermin
 
 **Experience points:** 12,800

@@ -45,6 +45,7 @@ eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe._
 
 **Perception:** +29
 
+**Sources:** Curse of the Crimson Throne pg 470, Pathfinder \#11: Skeletons of Scarwall pg 80\
 **Subtype:** Incorporeal
 
 **Type:** undead

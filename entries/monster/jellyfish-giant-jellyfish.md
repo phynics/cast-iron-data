@@ -41,6 +41,7 @@ dangles and writhes below._
 
 **Perception:** +0
 
+**Sources:** Bestiary 2 pg 170\
 **Subtype:** Aquatic
 
 **Type:** vermin

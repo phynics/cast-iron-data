@@ -48,6 +48,7 @@ erupt from the towering bulk._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 244\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 102,400

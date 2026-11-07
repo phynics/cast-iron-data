@@ -46,6 +46,7 @@ the thrill of the coming kill._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 38\
 **Subtype:** Goblinoid
 
 **Experience points:** 600

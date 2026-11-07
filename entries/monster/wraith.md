@@ -44,6 +44,7 @@ its eyes should be._
 
 **Perception:** +10
 
+**Sources:** Pathfinder RPG Bestiary pg 281\
 **Subtype:** Incorporeal
 
 **Type:** undead

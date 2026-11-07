@@ -45,6 +45,7 @@ shadows._
 
 **Senses:** See thoughts
 
+**Sources:** Bestiary 6 pg 86, The Worldwound pg 50\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 25,600

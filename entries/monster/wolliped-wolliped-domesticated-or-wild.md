@@ -40,6 +40,7 @@ abilities = ["18", "14", "17", "2", "11", "3"]
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#70: The Frozen Stars pg 90\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

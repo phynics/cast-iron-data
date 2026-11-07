@@ -45,6 +45,7 @@ _This enormous wolf-headed sea serpent's maw leads into what seems to be an endl
 
 **Perception:** +14
 
+**Sources:** Bestiary 5 pg 150\
 **Subtype:** Aquatic
 
 **Experience points:** 25,600

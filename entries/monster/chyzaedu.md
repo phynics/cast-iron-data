@@ -44,6 +44,7 @@ vestments._
 
 **Perception:** +22
 
+**Sources:** Occult Bestiary pg 14\
 **tremorsense:** 60
 
 **Experience points:** 9,600

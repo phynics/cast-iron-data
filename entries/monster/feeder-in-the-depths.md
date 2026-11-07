@@ -50,6 +50,7 @@ intelligence._
 
 **Perception:** +20
 
+**Sources:** Monster Codex pg 196\
 **Experience points:** 4,800
 
 **Armor class:** 20/10/18

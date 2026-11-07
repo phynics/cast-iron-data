@@ -48,6 +48,7 @@ feet._
 
 **Perception:** +18
 
+**Sources:** Mythic Adventures pg 209\
 **Subtype:** Mythic
 
 **Experience points:** 6,400

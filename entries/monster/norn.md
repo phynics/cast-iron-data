@@ -49,6 +49,7 @@ thread and a pair of shears._
 
 **Senses:** Greater arcane sight, True seeing
 
+**Sources:** Bestiary 3 pg 202\
 **Experience points:** 153,600
 
 **Armor class:** 33/21/31

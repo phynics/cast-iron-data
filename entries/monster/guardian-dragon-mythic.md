@@ -56,6 +56,7 @@ like burnished gold._
 
 **Senses:** Detect magic, Detect scrying
 
+**Sources:** Bestiary 4 pg 146\
 **Subtype:** Aquatic, Mythic
 
 **Experience points:** 1,228,800

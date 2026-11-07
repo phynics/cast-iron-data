@@ -44,6 +44,7 @@ out, ending in an upraised fist._
 
 **Perception:** +0
 
+**Sources:** Bestiary 6 pg 140\
 **Experience points:** 51,200
 
 **Armor class:** 30/13/26

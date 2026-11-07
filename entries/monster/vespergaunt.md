@@ -46,6 +46,7 @@ vapor._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 6 pg 272, Inner Sea Bestiary pg 58\
 **Experience points:** 19,200
 
 **Aav:** present

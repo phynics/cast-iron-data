@@ -43,6 +43,7 @@ _An attractive green-skinned woman sits in the depths of this enormous, sweet-sm
 
 **Type:** plant
 
+**Sources:** Bestiary 3 pg 13\
 **Experience points:** 25,600
 
 **Armor class:** 27/10/26

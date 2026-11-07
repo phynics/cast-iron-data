@@ -43,6 +43,7 @@ primitive club._
 
 **Perception:** +6
 
+**Sources:** Bestiary 5 pg 263, Irrisen - Land of Eternal Winter pg 61\
 **Subtype:** Giant
 
 **Experience points:** 1,600

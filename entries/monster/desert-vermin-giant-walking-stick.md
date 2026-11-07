@@ -40,6 +40,7 @@ antenna twitching in the air._
 
 **Perception:** +0
 
+**Sources:** Pathfinder \#81: Shifting Sands pg 83\
 **Type:** vermin
 
 **Experience points:** 1,600

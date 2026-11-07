@@ -50,6 +50,7 @@ shimmering, pulsating globe of holy light._
 
 **Senses:** Detect magic, True seeing
 
+**Sources:** Planar Adventures pg 226\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 307,200

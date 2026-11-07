@@ -45,6 +45,7 @@ _This scaly-skinned humanoid has long venomous fangs, claws, and unblinking rept
 
 **Perception:** +17
 
+**Sources:** Book of the Damned pg 250\
 **Subtype:** Native, Oni, Reptilian, Shapechanger
 
 **Experience points:** 4,800

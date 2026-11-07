@@ -48,6 +48,7 @@ covered with scintillating red scales._
 
 **Senses:** See invisibility
 
+**Sources:** Bestiary 2 pg 263\
 **Subtype:** Fire
 
 **Experience points:** 102,400

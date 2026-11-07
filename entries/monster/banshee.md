@@ -43,6 +43,7 @@ knotted into a mask of rage._
 
 **Senses:** Hear heartbeat
 
+**Sources:** Bestiary 2 pg 41, Pathfinder \#17: A Memory of Darkness pg 80\
 **Subtype:** Incorporeal
 
 **Type:** undead

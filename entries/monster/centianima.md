@@ -43,6 +43,7 @@ claw-tipped legs carry its centipede-like form._
 
 **Perception:** +9
 
+**Sources:** Pathfinder \#103: The Hellfire Compact pg 84\
 **Type:** undead
 
 **Experience points:** 1,200

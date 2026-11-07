@@ -50,6 +50,7 @@ _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
 **Senses:** Detect evil, True seeing
 
+**Sources:** Bestiary 2 pg 32\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 204,800

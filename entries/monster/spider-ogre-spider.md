@@ -40,6 +40,7 @@ vaguely, but disturbingly, humanoid._
 
 **Perception:** +5
 
+**Sources:** Bestiary 3 pg 254\
 **tremorsense:** 60
 
 **Type:** vermin

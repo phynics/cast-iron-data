@@ -44,6 +44,7 @@ creature's fur._
 
 **Size:** small
 
+**Sources:** Pathfinder \#85: Fires of Creation pg 83\
 **Experience points:** 400
 
 **Armor class:** 12/12/11

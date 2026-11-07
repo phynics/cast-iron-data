@@ -44,6 +44,7 @@ deep in its eye sockets._
 
 **Perception:** +15
 
+**Sources:** Bestiary 2 pg 60\
 **Type:** undead
 
 **Experience points:** 1,600

@@ -42,6 +42,7 @@ moves with surprising quickness._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 60\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 600

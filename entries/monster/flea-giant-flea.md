@@ -41,6 +41,7 @@ greedily clatter for blood._
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 99\
 **Type:** vermin
 
 **Experience points:** 200

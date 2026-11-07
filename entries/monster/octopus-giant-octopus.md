@@ -42,6 +42,7 @@ body of this gigantic octopus._
 
 **Perception:** +8
 
+**Sources:** Pathfinder RPG Bestiary pg 219\
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

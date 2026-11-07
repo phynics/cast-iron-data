@@ -41,6 +41,7 @@ white-tufted ears._
 
 **Size:** small
 
+**Sources:** Ultimate Wilderness pg 199, Familiar Folio pg 26\
 **Experience points:** 100
 
 **Armor class:** 11/11/11

@@ -46,6 +46,7 @@ serpentine body._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 259, Osirion, Legacy of the Pharaohs pg 63\
 **Experience points:** 1,600
 
 **Armor class:** 19/13/16

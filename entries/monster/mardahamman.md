@@ -47,6 +47,7 @@ one-eyed humanoid wields an equally massive flat club._
 
 **Perception:** +15
 
+**Sources:** Giants Revisited pg 14\
 **Subtype:** Giant
 
 **Experience points:** 51,200

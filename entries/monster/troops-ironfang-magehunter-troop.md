@@ -42,6 +42,7 @@ _This grim band of hobgoblin hunters is equipped with sturdy armor and well-used
 
 **Perception:** +12
 
+**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 88\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 38,400

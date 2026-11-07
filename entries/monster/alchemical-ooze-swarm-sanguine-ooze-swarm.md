@@ -41,6 +41,7 @@ other and separating in a riot of oozing momentum._
 
 **Perception:** -5
 
+**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 78\
 **Subtype:** Swarm
 
 **Size:** tiny

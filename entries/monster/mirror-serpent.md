@@ -46,6 +46,7 @@ eyes gazes from a horned head that ends in an elongated, toothy snout._
 
 **Perception:** +8
 
+**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

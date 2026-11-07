@@ -40,6 +40,7 @@ _This dog-sized tick has a grotesquely bulbous body and a thin head equipped wit
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 265\
 **Type:** vermin
 
 **Experience points:** 400

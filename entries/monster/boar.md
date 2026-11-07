@@ -43,6 +43,7 @@ tusks._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 36\
 **Experience points:** 600
 
 **Armor class:** 14/10/14

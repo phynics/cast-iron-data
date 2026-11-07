@@ -44,6 +44,7 @@ eyebrows, and pearlescent teeth._
 
 **Perception:** +17
 
+**Sources:** Pathfinder RPG Bestiary pg 142\
 **Subtype:** Extraplanar, Water
 
 **Experience points:** 6,400

@@ -49,6 +49,7 @@ beautiful visage with an expression of horror bulges from the back of its skull.
 
 **Senses:** Detect good
 
+**Sources:** Pathfinder \#75: Demon's Heresy pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 12,800

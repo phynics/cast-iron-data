@@ -49,6 +49,7 @@ thread is tangled between its curled ram horns._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 84\
 **Subtype:** Good, Lawful, Native
 
 **Experience points:** 19,200

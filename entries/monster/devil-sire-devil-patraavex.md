@@ -47,6 +47,7 @@ fanged mouth running vertically across its torso._
 
 **Sense:** Sid
 
+**Sources:** Cheliax, the Infernal Empire pg 59\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 3,200

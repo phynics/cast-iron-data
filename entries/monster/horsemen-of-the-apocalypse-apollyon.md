@@ -49,6 +49,7 @@ unholy aura (DC 29)
 
 **Senses:** Detect good, True seeing
 
+**Sources:** Bestiary 6 pg 160\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 6,553,600

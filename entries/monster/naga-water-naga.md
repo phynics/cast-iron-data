@@ -43,6 +43,7 @@ aquatic snake._
 
 **Perception:** +17
 
+**Sources:** Bestiary 3 pg 199, Bonus Bestiary pg 14\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

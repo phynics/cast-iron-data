@@ -43,6 +43,7 @@ claws, flank its fanged jaws._
 
 **Perception:** +4
 
+**Sources:** Pathfinder \#121: The Lost Outpost pg 88\
 **Subtype:** Aquatic
 
 **tremorsense:** 60

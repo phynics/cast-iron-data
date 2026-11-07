@@ -42,6 +42,7 @@ _A cold-eyed falcon's head and great wings adorn the body of this otherwise leon
 
 **Perception:** +16
 
+**Sources:** Bestiary 3 pg 253\
 **Experience points:** 1,600
 
 **Armor class:** 17/11/15

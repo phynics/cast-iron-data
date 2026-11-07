@@ -44,6 +44,7 @@ _This small, three-eyed creature has ragged, red-streaked wings and a menacingly
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 154, Pathfinder \#76: The Midnight Isles pg 88\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 800

@@ -48,6 +48,7 @@ jackal-legged albino demon._
 
 **Senses:** Detect good, Detect law, True seeing
 
+**Sources:** Inner Sea Bestiary pg 34\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,228,800

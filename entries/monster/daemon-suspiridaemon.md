@@ -46,6 +46,7 @@ arms that end in claws._
 
 **Perception:** +14
 
+**Sources:** Bestiary 6 pg 76, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 56\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 3,200

@@ -45,6 +45,7 @@ constant, droning snorting._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#109: In Search of Sanity pg 86\
 **Subtype:** Swarm
 
 **Experience points:** 600

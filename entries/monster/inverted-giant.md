@@ -42,6 +42,7 @@ abilities = ["29", "14", "20", "9", "11", "16"]
 
 **Perception:** +9
 
+**Sources:** Lost Kingdoms pg 59\
 **Subtype:** Giant
 
 **Experience points:** 12,800

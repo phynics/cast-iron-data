@@ -50,6 +50,7 @@ from between its powerful jaws._
 
 **Senses:** Snow vision
 
+**Sources:** Bestiary 2 pg 108\
 **Subtype:** Cold
 
 **Experience points:** 3,200

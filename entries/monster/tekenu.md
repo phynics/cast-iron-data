@@ -40,6 +40,7 @@ viscera that hovers in the air._
 
 **Size:** small
 
+**Sources:** Pathfinder \#80: Empty Graves pg 90\
 **Type:** undead
 
 **Experience points:** 2,400

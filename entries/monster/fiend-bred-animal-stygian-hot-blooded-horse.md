@@ -43,6 +43,7 @@ _This dark horse has striking coloring and a ferocious look in its bloodshot eye
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#103: The Hellfire Compact pg 86\
 **Experience points:** 600
 
 **Armor class:** 14/11/12

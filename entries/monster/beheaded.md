@@ -36,6 +36,7 @@ _A decaying humanoid head floats silently and ominously, its graying teeth eeril
 
 **Perception:** +0
 
+**Sources:** Bestiary 4 pg 17, Pathfinder \#43: Haunting of Harrowstone pg 82\
 **Size:** tiny
 
 **Type:** undead

@@ -51,6 +51,7 @@ pulsating orange light accented by regular electrical discharges._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 90\
 **Subtype:** Aquatic
 
 **Experience points:** 614,400

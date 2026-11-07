@@ -45,6 +45,7 @@ _The carapace of this large crab resembles a scowling face, its eyes seething wi
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 141\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

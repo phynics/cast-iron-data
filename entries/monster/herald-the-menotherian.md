@@ -52,6 +52,7 @@ stingers the length of a human arm._
 
 **Sense:** Scent
 
+**Sources:** Inner Sea Gods pg 280\
 **Subtype:** Chaotic, Extraplanar, Shapechanger
 
 **Experience points:** 51,200

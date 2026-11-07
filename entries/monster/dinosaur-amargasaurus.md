@@ -43,6 +43,7 @@ of the creature's neck._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 94\
 **Experience points:** 2,400
 
 **Armor class:** 18/10/16

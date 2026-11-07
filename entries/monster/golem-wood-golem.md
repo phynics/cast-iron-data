@@ -43,6 +43,7 @@ _This human-sized automaton resembles a crude humanoid figure made of cast-off p
 
 **Perception:** +0
 
+**Sources:** Pathfinder RPG Bestiary pg 164\
 **Experience points:** 2,400
 
 **Armor class:** 19/13/16

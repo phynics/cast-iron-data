@@ -42,6 +42,7 @@ beast's eyes are as big as shields._
 
 **Perception:** +22
 
+**Sources:** Pathfinder RPG Bestiary pg 259\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

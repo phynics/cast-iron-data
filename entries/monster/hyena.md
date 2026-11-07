@@ -42,6 +42,7 @@ _This hyena is covered in shaggy, tan-colored fur with black and brown stripes._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 179\
 **Experience points:** 400
 
 **Armor class:** 14/12/12

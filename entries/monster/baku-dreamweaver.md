@@ -45,6 +45,7 @@ a gentle wisdom._
 
 **Perception:** +25
 
+**Sources:** Occult Bestiary pg 10\
 **thoughtsense:** 60
 
 **Experience points:** 12,800

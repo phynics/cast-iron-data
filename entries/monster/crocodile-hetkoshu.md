@@ -43,6 +43,7 @@ whole._
 
 **Perception:** +15
 
+**Sources:** Osirion, Legacy of the Pharaohs pg 54\
 **Experience points:** 19,200
 
 **Armor class:** 25/6/25

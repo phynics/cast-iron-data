@@ -50,6 +50,7 @@ radiates an aura of calm._
 
 **Sense:** Scent
 
+**Sources:** Inner Sea Gods pg 295\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 1,200

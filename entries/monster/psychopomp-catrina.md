@@ -50,6 +50,7 @@ beautiful, despite having no flesh._
 
 **Senses:** Spiritsense
 
+**Sources:** Bestiary 4 pg 218\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 1,600

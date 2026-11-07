@@ -46,6 +46,7 @@ of oversized mandibles that glisten with green ichor._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#103: The Hellfire Compact pg 88\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Size:** tiny

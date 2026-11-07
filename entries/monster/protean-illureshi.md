@@ -48,6 +48,7 @@ _This anemic protean wears a wizard's robe and garish jewelry._
 
 **Senses:** Arcane sight, Detect law
 
+**Sources:** Concordance of Rivals pg 57\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 6,400

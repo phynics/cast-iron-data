@@ -44,6 +44,7 @@ honey and fruit drape over the bone-white trees of a dead grove buried under hea
 
 **Type:** plant
 
+**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 90\
 **Experience points:** 3,200
 
 **Armor class:** 21/6/21

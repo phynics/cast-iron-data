@@ -45,6 +45,7 @@ pale skin and shallow, fleshy hollows where its eyes should be._
 
 **Perception:** +8
 
+**Sources:** Cradle of Night pg 62\
 **Subtype:** Dark folk
 
 **Experience points:** 1,600

@@ -48,6 +48,7 @@ musical cry as it takes to the air._
 
 **Senses:** Detect magic, Detect poison, See invisibility
 
+**Sources:** Pathfinder RPG Bestiary pg 227\
 **Subtype:** Fire
 
 **Experience points:** 51,200

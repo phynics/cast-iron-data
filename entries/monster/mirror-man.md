@@ -47,6 +47,7 @@ revealed - nothing but a featureless mirror, reflecting a hard, cold world._
 
 **Perception:** +12
 
+**Sources:** Pathfinder \#68: The Shackled Hut pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 18/17/11

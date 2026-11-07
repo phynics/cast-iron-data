@@ -44,6 +44,7 @@ hooked beak._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 192\
 **Experience points:** 1,600
 
 **Armor class:** 19/9/18

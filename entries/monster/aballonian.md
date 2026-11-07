@@ -45,6 +45,7 @@ eyes searching._
 
 **Perception:** +10
 
+**Sources:** Distant Worlds pg 58\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/18

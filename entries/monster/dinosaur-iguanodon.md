@@ -44,6 +44,7 @@ cruel-looking, thumb-like spike._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 78\
 **Experience points:** 2,400
 
 **Armor class:** 19/10/17

@@ -42,6 +42,7 @@ _This somewhat irritated-looking, one-humped camel has been outfitted with a bri
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 154\
 **Experience points:** 400
 
 **Armor class:** 13/12/10

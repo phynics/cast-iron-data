@@ -45,6 +45,7 @@ carries himself with a dancer's grace._
 
 **Sense:** Sid
 
+**Sources:** Andoran, Birthplace of Freedom pg 52\
 **Experience points:** 19,200
 
 **Armor class:** 26/20/16

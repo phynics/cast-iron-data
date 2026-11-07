@@ -42,6 +42,7 @@ for two glowing gemstone eyes._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 122\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60
@@ -151,6 +152,7 @@ that makes up parts of an earth elemental's body.
 
 **Perception:** +7
 
+**Sources:** Pathfinder RPG Bestiary pg 122\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60
@@ -215,6 +217,7 @@ Bonus feat.
 
 **Perception:** +11
 
+**Sources:** Pathfinder RPG Bestiary pg 122\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60
@@ -285,6 +288,7 @@ Bonus feat.
 
 **Perception:** +13
 
+**Sources:** Pathfinder RPG Bestiary pg 122\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60
@@ -356,6 +360,7 @@ Bonus feat.
 
 **Perception:** +16
 
+**Sources:** Pathfinder RPG Bestiary pg 123\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60
@@ -427,6 +432,7 @@ Bonus feat.
 
 **Perception:** +19
 
+**Sources:** Pathfinder RPG Bestiary pg 123\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 60

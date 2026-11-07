@@ -49,6 +49,7 @@ appear to be made of solid sunlight._
 
 **Perception:** +38
 
+**Sources:** Planar Adventures pg 245\
 **Subtype:** Extraplanar, Good
 
 **Experience points:** 409,600

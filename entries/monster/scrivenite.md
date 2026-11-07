@@ -44,6 +44,7 @@ the open cover of some great tome like a metal- and leather-bound mask._
 
 **Perception:** +10
 
+**Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 86\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 1,200

@@ -44,6 +44,7 @@ fire and seething with smoke._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 153\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 3,200

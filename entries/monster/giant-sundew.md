@@ -41,6 +41,7 @@ Whip-like fronds unfurl from the center._
 
 **Type:** plant
 
+**Sources:** Bestiary 6 pg 258\
 **tremorsense:** 60
 
 **Experience points:** 19,200

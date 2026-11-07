@@ -43,6 +43,7 @@ protruding._
 
 **Perception:** +5
 
+**Sources:** Pathfinder \#124: City in the Deep pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

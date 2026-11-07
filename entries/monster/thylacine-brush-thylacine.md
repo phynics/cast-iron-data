@@ -44,6 +44,7 @@ path._
 
 **Perception:** +8
 
+**Sources:** Pathfinder \#31: Stolen Land pg 86\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

@@ -46,6 +46,7 @@ robes are soaking wet._
 
 **Perception:** +26
 
+**Sources:** Bestiary 3 pg 212\
 **Subtype:** Aquatic, Giant, Native, Oni, Shapechanger, Water
 
 **Experience points:** 153,600

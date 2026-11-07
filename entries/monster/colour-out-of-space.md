@@ -45,6 +45,7 @@ of latent malignancy._
 
 **Perception:** +18
 
+**Sources:** Bestiary 4 pg 38, Pathfinder \#46: Wake of the Watcher pg 76\
 **Subtype:** Incorporeal
 
 **Experience points:** 9,600

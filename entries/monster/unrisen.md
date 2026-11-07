@@ -42,6 +42,7 @@ parody of the human form._
 
 **Perception:** +13
 
+**Sources:** Bestiary 6 pg 268\
 **Type:** undead
 
 **Experience points:** 1,600

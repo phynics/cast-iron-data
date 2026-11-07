@@ -48,6 +48,7 @@ greatsword._
 
 **Senses:** Detect evil
 
+**Sources:** Bestiary 2 pg 28\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 9,600

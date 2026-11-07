@@ -48,6 +48,7 @@ body of an enormous serpent._
 
 **Perception:** +21
 
+**Sources:** Mythical Monsters Revisited pg 44\
 **Experience points:** 25,600
 
 **Armor class:** 29/14/24

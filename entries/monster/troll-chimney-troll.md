@@ -47,6 +47,7 @@ with desperate hunger._
 
 **Sense:** Scent
 
+**Sources:** Daughters of Fury pg 52\
 **Subtype:** Giant
 
 **Experience points:** 600

@@ -45,6 +45,7 @@ a half-melted man._
 
 **Perception:** +28
 
+**Sources:** Bestiary 2 pg 79, Pathfinder \#16: Endless Night pg 82\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 19,200

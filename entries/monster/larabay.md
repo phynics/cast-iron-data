@@ -44,6 +44,7 @@ multicolored wings of a parrot._
 
 **Perception:** +27
 
+**Sources:** Isles of the Shackles pg 52\
 **Subtype:** Shapechanger
 
 **Experience points:** 12,800

@@ -38,6 +38,7 @@ _Bones rattle against cracked bones as this ancient, fleshless corpse clatters f
 
 **Perception:** +0
 
+**Sources:** Pathfinder \#44: Trial of the Beast pg 86\
 **Type:** undead
 
 **Experience points:** 200

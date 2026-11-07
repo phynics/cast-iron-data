@@ -46,6 +46,7 @@ clearly revealing its shape._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 4 pg 210\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

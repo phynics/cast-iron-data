@@ -41,6 +41,7 @@ devil._
 
 **Perception:** +3
 
+**Sources:** Pathfinder RPG Bestiary pg 176\
 **Size:** tiny
 
 **Experience points:** 400

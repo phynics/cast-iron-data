@@ -45,6 +45,7 @@ uncanny skill._
 
 **Perception:** +9
 
+**Sources:** Bestiary 3 pg 266\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

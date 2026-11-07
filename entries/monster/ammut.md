@@ -50,6 +50,7 @@ comparison to the danger of its mighty jaws._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 82\
 **Subtype:** Evil, Native
 
 **tremorsense:** 60

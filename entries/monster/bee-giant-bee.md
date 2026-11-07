@@ -39,6 +39,7 @@ stinger is the size of a dagger blade._
 
 **Perception:** +1
 
+**Sources:** Bestiary 2 pg 43\
 **Type:** vermin
 
 **Experience points:** 400

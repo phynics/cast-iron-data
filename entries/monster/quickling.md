@@ -42,6 +42,7 @@ the thing darts from sight._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 227\
 **Experience points:** 800
 
 **Armor class:** 20/19/12

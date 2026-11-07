@@ -44,6 +44,7 @@ while the other is two snake heads._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 239\
 **Experience points:** 19,200
 
 **Armor class:** 29/11/27

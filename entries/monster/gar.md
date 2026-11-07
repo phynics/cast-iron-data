@@ -41,6 +41,7 @@ _This long, lean fish has a muscular body and a head with long jaws filled with 
 
 **Perception:** +6
 
+**Sources:** Bestiary 2 pg 128\
 **Subtype:** Aquatic
 
 **Experience points:** 400

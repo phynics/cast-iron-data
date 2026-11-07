@@ -42,6 +42,7 @@ hand and a club in the other._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 177\
 **Experience points:** 600
 
 **Armor class:** 14/14/11

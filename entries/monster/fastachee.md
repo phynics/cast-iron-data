@@ -42,6 +42,7 @@ basket filled with corn._
 
 **Senses:** Plant projection
 
+**Sources:** Bestiary 5 pg 114\
 **Size:** tiny
 
 **Experience points:** 12,800

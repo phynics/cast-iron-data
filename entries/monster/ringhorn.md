@@ -44,6 +44,7 @@ atop its head._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#115: Trail of the Hunted pg 82\
 **Experience points:** 400
 
 **Armor class:** 13/13/10

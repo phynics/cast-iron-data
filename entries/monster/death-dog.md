@@ -46,6 +46,7 @@ crawl on its mangy hide._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 44\
 **Experience points:** 600
 
 **Armor class:** 13/11/11

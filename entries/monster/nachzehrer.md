@@ -41,6 +41,7 @@ long, sharp fangs protruding from a breathless mouth._
 
 **Perception:** +23
 
+**Sources:** Pathfinder \#119: Prisoners of the Blight pg 90\
 **Type:** undead
 
 **Experience points:** 19,200

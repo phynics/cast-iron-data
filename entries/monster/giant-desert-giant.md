@@ -45,6 +45,7 @@ nearly the length of a human._
 
 **Perception:** +9
 
+**Sources:** Bestiary 3 pg 128\
 **Subtype:** Giant
 
 **Experience points:** 6,400

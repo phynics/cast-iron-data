@@ -50,6 +50,7 @@ insubstantial fire._
 
 **Senses:** Detect law
 
+**Sources:** Concordance of Rivals pg 58\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 12,800

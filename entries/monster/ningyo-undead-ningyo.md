@@ -41,6 +41,7 @@ as the snarling miniature mummy drags its shriveled corpse forward._
 
 **Size:** small
 
+**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 80\
 **Subtype:** Aquatic
 
 **Type:** undead

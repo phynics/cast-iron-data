@@ -40,6 +40,7 @@ abilities = ["17", "19", "-", "2", "11", "12"]
 
 **Perception:** +6
 
+**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 86\
 **Subtype:** Reptilian
 
 **Type:** undead

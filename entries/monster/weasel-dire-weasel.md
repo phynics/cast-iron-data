@@ -44,6 +44,7 @@ with its glistening fangs._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 275\
 **Experience points:** 800
 
 **Armor class:** 17/12/14

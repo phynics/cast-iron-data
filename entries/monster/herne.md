@@ -47,6 +47,7 @@ sports a pair of stag's antlers upon his brow._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#73: The Worldwound Incursion pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 20/13/17

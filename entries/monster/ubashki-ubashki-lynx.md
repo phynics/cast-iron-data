@@ -37,6 +37,7 @@ abilities = ["21", "17", "-", "2", "12", "15"]
 
 **Perception:** +6
 
+**Sources:** Lost Kingdoms pg 20\
 **Type:** undead
 
 **Experience points:** 2,400

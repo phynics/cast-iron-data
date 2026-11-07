@@ -47,6 +47,7 @@ blade he effortlessly wields._
 
 **Perception:** +1
 
+**Sources:** Bestiary 2 pg 89\
 **Experience points:** 200
 
 **Armor class:** 17/13/14

@@ -46,6 +46,7 @@ orbit the floating mass._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder \#118: Siege of Stone pg 88\
 **Experience points:** 38,400
 
 **Armor class:** 29/17/22

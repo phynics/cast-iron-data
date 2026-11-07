@@ -42,6 +42,7 @@ glows with a pale, sapphire light._
 
 **Perception:** +6
 
+**Sources:** Pathfinder \#121: The Lost Outpost pg 82\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

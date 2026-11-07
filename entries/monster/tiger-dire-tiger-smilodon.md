@@ -43,6 +43,7 @@ powerful jaws._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 265\
 **Experience points:** 4,800
 
 **Armor class:** 17/11/15

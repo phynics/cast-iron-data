@@ -40,6 +40,7 @@ thorax._
 
 **Perception:** +5
 
+**Sources:** Bestiary 5 pg 36\
 **Type:** vermin
 
 **Experience points:** 1,600

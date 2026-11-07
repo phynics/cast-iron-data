@@ -45,6 +45,7 @@ twitching, fanged mandibles._
 
 **Perception:** +13
 
+**Sources:** Pathfinder RPG Bestiary pg 283\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 2,400

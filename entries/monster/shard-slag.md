@@ -46,6 +46,7 @@ burning-hot sword blade._
 
 **Perception:** -5
 
+**Sources:** Bestiary 4 pg 240\
 **Subtype:** Fire
 
 **tremorsense:** 60

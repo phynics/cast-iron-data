@@ -47,6 +47,7 @@ the ground. A hood of damp moss and crusty bark conceals the monster's face._
 
 **Senses:** See invisibility
 
+**Sources:** Pathfinder \#61: Shards of Sin pg 84\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

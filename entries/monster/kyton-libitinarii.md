@@ -44,6 +44,7 @@ lengths of razor-sharp, bloodstained icicles._
 
 **Perception:** +29
 
+**Sources:** Pathfinder \#137: The City Outside of Time pg 84\
 **Subtype:** Cold, Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 25,600

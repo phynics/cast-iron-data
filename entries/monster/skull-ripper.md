@@ -46,6 +46,8 @@ and human skulls._
 
 **Perception:** +1
 
+**Sources:** Rise of the Runelords Anniversary Edition pg 415, Pathfinder \#3: The Hook Mountain
+Massacre pg 84\
 **Experience points:** 6,400
 
 **Armor class:** 24/12/21

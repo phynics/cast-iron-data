@@ -47,6 +47,7 @@ _This mass of writhing, maggot-like creatures secretes a caustic odor._
 
 **Senses:** Hive mind
 
+**Sources:** Horror Adventures pg 236\
 **Subtype:** Hive, Swarm
 
 **Experience points:** 1,600

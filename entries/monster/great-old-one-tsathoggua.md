@@ -50,6 +50,7 @@ on its bat-like face._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 84\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **Experience points:** 6,553,600

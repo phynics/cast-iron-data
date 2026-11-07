@@ -45,6 +45,7 @@ branches._
 
 **Senses:** Deathwatch, True seeing
 
+**Sources:** Bestiary 3 pg 164\
 **Subtype:** Kami, Native
 
 **Experience points:** 51,200

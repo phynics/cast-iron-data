@@ -42,6 +42,7 @@ _This burly dog is fitted with a small saddle. A low, menacing growl rumbles up 
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 87\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

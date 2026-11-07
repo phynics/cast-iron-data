@@ -41,6 +41,7 @@ _This fish is enormous - a sleek predator with bony scales and a long set of too
 
 **Perception:** +11
 
+**Sources:** Bestiary 2 pg 128\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

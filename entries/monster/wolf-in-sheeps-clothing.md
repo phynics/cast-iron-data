@@ -45,6 +45,7 @@ a maw of sharp teeth._
 
 **Perception:** +14
 
+**Sources:** Bestiary 3 pg 285, Misfit Monsters Redeemed pg 63\
 **Experience points:** 4,800
 
 **Armor class:** 21/10/21

@@ -45,6 +45,7 @@ skin._
 
 **Perception:** +19
 
+**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 88\
 **Experience points:** 9,600
 
 **Armor class:** 24/20/18

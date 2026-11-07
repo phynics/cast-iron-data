@@ -44,6 +44,7 @@ _No flavor text._
 
 **Perception:** +22
 
+**Sources:** Fey Revisited pg 56\
 **Experience points:** 3,200
 
 **Armor class:** 20/16/14

@@ -45,6 +45,7 @@ skirt adorned with gold pendants._
 
 **Sense:** Sid
 
+**Sources:** Book of the Damned pg 249\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 12,800

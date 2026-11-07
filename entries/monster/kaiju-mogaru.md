@@ -51,6 +51,7 @@ glowing with red energy._
 
 **Senses:** See invisibility
 
+**Sources:** Bestiary 4 pg 170\
 **Subtype:** Kaiju, Water
 
 **Experience points:** 4,915,200

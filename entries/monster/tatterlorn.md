@@ -40,6 +40,7 @@ movements are weirdly difficult to follow with the eye._
 
 **Perception:** +14
 
+**Sources:** Seers of the Drowned City pg 63\
 **Type:** undead
 
 **Experience points:** 3,200

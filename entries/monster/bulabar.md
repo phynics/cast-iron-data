@@ -41,6 +41,7 @@ pouches._
 
 **Perception:** +4
 
+**Sources:** The First World, Realm of the Fey pg 58\
 **Size:** tiny
 
 **Experience points:** 400

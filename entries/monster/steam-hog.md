@@ -46,6 +46,7 @@ including a pair of razor-sharp metal tusks._
 
 **Sense:** Scent
 
+**Sources:** Monster Codex pg 64\
 **Experience points:** 3,200
 
 **Armor class:** 19/8/19

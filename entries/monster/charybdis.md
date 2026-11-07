@@ -45,6 +45,7 @@ hungrily from the center of a whirlpool._
 
 **Perception:** +23
 
+**Sources:** Bestiary 2 pg 56\
 **Subtype:** Aquatic
 
 **Experience points:** 25,600

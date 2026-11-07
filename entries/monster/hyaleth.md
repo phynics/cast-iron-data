@@ -44,6 +44,7 @@ stinger on the other._
 
 **Perception:** +20
 
+**Sources:** Pathfinder \#130: City in the Lion's Eye pg 84\
 **Subtype:** Aquatic
 
 **thoughtsense:** 60

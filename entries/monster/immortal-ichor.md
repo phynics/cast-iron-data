@@ -43,6 +43,7 @@ light._
 
 **Perception:** +25
 
+**Sources:** Bestiary 4 pg 156\
 **Subtype:** Extraplanar
 
 **Experience points:** 102,400

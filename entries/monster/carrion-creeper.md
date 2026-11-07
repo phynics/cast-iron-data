@@ -43,6 +43,7 @@ with strength._
 
 **Type:** plant
 
+**Sources:** Pathfinder \#130: City in the Lion's Eye pg 86\
 **tremorsense:** 30
 
 **Experience points:** 9,600

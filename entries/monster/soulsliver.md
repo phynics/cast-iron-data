@@ -45,6 +45,7 @@ _This smooth-featured, humanoid creature appears to have skin made entirely of m
 
 **Perception:** +7
 
+**Sources:** Bestiary 4 pg 250\
 **Subtype:** Extraplanar, Shapechanger
 
 **Experience points:** 600

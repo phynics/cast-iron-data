@@ -43,6 +43,7 @@ foliage._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 187\
 **Experience points:** 1,600
 
 **Armor class:** 18/8/18

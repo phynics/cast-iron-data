@@ -44,6 +44,7 @@ and covered in splotches of black rot._
 
 **Perception:** +12
 
+**Sources:** Pathfinder \#119: Prisoners of the Blight pg 80\
 **Type:** undead
 
 **Experience points:** 12,800

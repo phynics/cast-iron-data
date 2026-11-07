@@ -41,6 +41,7 @@ eyes._
 
 **Perception:** +6
 
+**Sources:** Belkzen, Hold of the Orc Hordes pg 56\
 **Experience points:** 800
 
 **Armor class:** 16/10/16

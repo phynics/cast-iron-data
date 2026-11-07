@@ -48,6 +48,7 @@ needle-like tips of its long, hooked arms._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
+**Sources:** Bestiary 6 pg 246\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 9,600

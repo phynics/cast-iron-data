@@ -41,6 +41,7 @@ enveloping its victim._
 
 **Perception:** +0
 
+**Sources:** Pathfinder RPG Bestiary pg 187\
 **Subtype:** Aquatic, Swarm
 
 **Type:** vermin

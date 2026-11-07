@@ -47,6 +47,7 @@ Slender surgical lancets pierce her body in numerous locations, yet these wounds
 
 **Perception:** +0
 
+**Sources:** Pathfinder \#98: Turn of the Torrent pg 84\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 3,200

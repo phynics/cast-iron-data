@@ -38,6 +38,7 @@ abilities = ["4", "17", "8", "1", "13", "2"]
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 133\
 **Size:** tiny
 
 **Experience points:** 200

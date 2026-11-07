@@ -46,6 +46,7 @@ full of pointed teeth._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 236, Pathfinder \#50: Night of Frozen Shadows pg 88\
 **Subtype:** Aquatic, Shapechanger
 
 **Experience points:** 1,600

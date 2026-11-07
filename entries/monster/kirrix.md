@@ -48,6 +48,7 @@ _This sleek, weasel-like rodent has exaggerated whiskers and six short but stout
 
 **Sense:** Scent
 
+**Sources:** Monster Codex pg 184\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

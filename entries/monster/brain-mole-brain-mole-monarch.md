@@ -47,6 +47,7 @@ appearance._
 
 **Senses:** Second sight 60 ft.
 
+**Sources:** Bestiary 5 pg 47\
 **Size:** tiny
 
 **tremorsense:** 30

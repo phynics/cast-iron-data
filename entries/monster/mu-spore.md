@@ -44,6 +44,7 @@ cavern._
 
 **Type:** plant
 
+**Sources:** Bestiary 2 pg 195\
 **Experience points:** 409,600
 
 **Armor class:** 37/1/37

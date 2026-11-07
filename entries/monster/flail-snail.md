@@ -48,6 +48,7 @@ mace-like club._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 118, Misfit Monsters Redeemed pg 33\
 **tremorsense:** 60
 
 **Experience points:** 1,200

@@ -46,6 +46,7 @@ its throat, below a circular, toothy maw dripping with luminescent spittle._
 
 **Perception:** +29
 
+**Sources:** Pathfinder \#114: Black Stars Beckon pg 90\
 **Experience points:** 51,200
 
 **Armor class:** 29/11/26

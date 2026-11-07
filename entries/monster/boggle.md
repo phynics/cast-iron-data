@@ -45,6 +45,7 @@ _This small, goat-like man has curved horns, hoofed feet, and a rat-like tail._
 
 **Size:** small
 
+**Sources:** Bestiary 6 pg 51\
 **Subtype:** Shapechanger
 
 **Experience points:** 4,800

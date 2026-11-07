@@ -44,6 +44,7 @@ its beak is razor-sharp._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 150\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

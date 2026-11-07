@@ -49,6 +49,7 @@ helm made of greasy green metal._
 
 **Perception:** +31
 
+**Sources:** Demons Revisited pg 26\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 153,600

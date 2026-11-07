@@ -43,6 +43,7 @@ from his temples._
 
 **Perception:** +18
 
+**Sources:** Pathfinder RPG Bestiary pg 241\
 **Experience points:** 1,200
 
 **Armor class:** 18/13/15

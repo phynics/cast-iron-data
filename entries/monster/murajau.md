@@ -46,6 +46,7 @@ shell encasing his back._
 
 **Sense:** Scent
 
+**Sources:** Planes of Power pg 59\
 **Subtype:** Aquatic, Extraplanar
 
 **Experience points:** 1,600

@@ -44,6 +44,7 @@ intelligence and cruelty._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder RPG Bestiary pg 61\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 25,600

@@ -50,6 +50,7 @@ gauntlets fit for oversized talons._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 5 pg 268\
 **Subtype:** Shapechanger
 
 **Experience points:** 76,800

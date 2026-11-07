@@ -45,6 +45,7 @@ plant monster. A pair of stout vine-like appendages sprout from either side of i
 
 **Type:** plant
 
+**Sources:** Pathfinder \#124: City in the Deep pg 84\
 **Subtype:** Aquatic
 
 **tremorsense:** 60

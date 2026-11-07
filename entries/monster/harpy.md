@@ -42,6 +42,7 @@ look about her._
 
 **Perception:** +7
 
+**Sources:** Pathfinder RPG Bestiary pg 172\
 **Experience points:** 1,200
 
 **Armor class:** 16/13/13

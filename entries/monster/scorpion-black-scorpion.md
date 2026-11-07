@@ -40,6 +40,7 @@ body._
 
 **Perception:** +4
 
+**Sources:** Bestiary 2 pg 240\
 **tremorsense:** 60
 
 **Type:** vermin

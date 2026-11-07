@@ -48,6 +48,7 @@ weapons and fangs drip with blood._
 
 **Senses:** Detect good
 
+**Sources:** Demons Revisited pg 56\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,228,800

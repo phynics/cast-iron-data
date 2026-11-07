@@ -46,6 +46,7 @@ his prowess as a warrior._
 
 **Perception:** +29
 
+**Sources:** Giants Revisited pg 21\
 **Subtype:** Fire, Giant
 
 **Experience points:** 204,800

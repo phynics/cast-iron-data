@@ -44,6 +44,7 @@ _This silent bat-like humanoid has a long, rat-like tail and four narrow eyes._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 5 pg 137, The Dragon's Demand pg 62\
 **Experience points:** 400
 
 **Armor class:** 14/14/10

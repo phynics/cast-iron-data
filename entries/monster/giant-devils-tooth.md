@@ -44,6 +44,7 @@ blood-red globules that appear on the brink of rupturing._
 
 **Type:** plant
 
+**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 19/6/19

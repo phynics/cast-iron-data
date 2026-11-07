@@ -48,6 +48,7 @@ with impossible grace._
 
 **Senses:** See invisibility
 
+**Sources:** Bestiary 4 pg 30, Pathfinder \#66: The Dead Heart of Xin pg 86\
 **Subtype:** Clockwork
 
 **Experience points:** 76,800

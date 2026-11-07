@@ -42,6 +42,7 @@ _The killing blade of this horrific trap drips with an animated sheen of foul br
 
 **Perception:** -5
 
+**Sources:** Bestiary 3 pg 64\
 **Subtype:** Shapechanger
 
 **Experience points:** 4,800

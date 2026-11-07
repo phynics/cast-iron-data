@@ -45,6 +45,7 @@ nightmare._
 
 **Senses:** See invisibility
 
+**Sources:** Bestiary 4 pg 62\
 **Subtype:** Evil
 
 **Experience points:** 12,800

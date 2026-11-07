@@ -50,6 +50,7 @@ halberd._
 
 **Perception:** +24
 
+**Sources:** Inner Sea Gods pg 282, Pathfinder \#14: Children of the Void pg 86\
 **Subtype:** Chaotic, Extraplanar, Good, Shapechanger
 
 **Experience points:** 51,200

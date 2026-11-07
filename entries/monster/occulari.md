@@ -48,6 +48,7 @@ from each eyelid, forming makeshift fanged maws._
 
 **Senses:** True seeing
 
+**Sources:** Down the Blighted Path pg 57\
 **Subtype:** Swarm
 
 **Experience points:** 3,200

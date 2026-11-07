@@ -44,6 +44,7 @@ figure._
 
 **Perception:** +14
 
+**Sources:** Down the Blighted Path pg 52\
 **Experience points:** 2,400
 
 **Armor class:** 16/16/10

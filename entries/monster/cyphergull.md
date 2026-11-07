@@ -46,6 +46,7 @@ hooked, and its webbed feet bear sharp talons._
 
 **Senses:** Arcane sight
 
+**Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 82\
 **Size:** tiny
 
 **Experience points:** 600

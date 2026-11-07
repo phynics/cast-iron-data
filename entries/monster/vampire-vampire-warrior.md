@@ -50,6 +50,7 @@ abilities = ["20", "20", "-", "10", "15", "18"]
 
 **Perception:** +21
 
+**Sources:** Monster Codex pg 240\
 **Subtype:** Vishkanya
 
 **Type:** undead

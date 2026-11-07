@@ -45,6 +45,7 @@ from his eye sockets, yet his expression is one of unquenched rage._
 
 **Senses:** Detect good, See invisibility
 
+**Sources:** Pathfinder \#100: A Song of Silver pg 116, Bestiary 6 pg 154\
 **Type:** undead
 
 **Experience points:** 6,400

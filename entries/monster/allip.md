@@ -44,6 +44,7 @@ creature's claws manifest from the darkness._
 
 **Perception:** +7
 
+**Sources:** Bestiary 3 pg 12, Bonus Bestiary pg 4\
 **Subtype:** Incorporeal
 
 **Type:** undead

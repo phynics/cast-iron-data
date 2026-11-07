@@ -53,6 +53,7 @@ legs._
 
 **Senses:** True seeing
 
+**Sources:** Concordance of Rivals pg 60\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 153,600

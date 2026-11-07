@@ -48,6 +48,7 @@ spreads from her shoulders._
 
 **Senses:** Detect good, True seeing
 
+**Sources:** Bestiary 6 pg 164\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 4,915,200

@@ -45,6 +45,7 @@ escapes its slobbering lips._
 
 **Perception:** -1
 
+**Sources:** Bestiary 4 pg 103\
 **Experience points:** 800
 
 **Armor class:** 13/8/13

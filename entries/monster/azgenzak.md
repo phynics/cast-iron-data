@@ -52,6 +52,7 @@ orange flame._
 
 **Perception:** +20
 
+**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

@@ -43,6 +43,7 @@ frame her youthful features._
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 228\
 **Experience points:** 4,800
 
 **Armor class:** 21/19/13

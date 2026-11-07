@@ -46,6 +46,7 @@ frame._
 
 **Perception:** +11
 
+**Sources:** Pathfinder RPG Bestiary pg 243\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

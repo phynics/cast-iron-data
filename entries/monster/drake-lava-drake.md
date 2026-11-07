@@ -45,6 +45,7 @@ _This muscular two-legged dragon is covered with scales of thick volcanic stone.
 
 **Perception:** +15
 
+**Sources:** Bestiary 4 pg 78\
 **Subtype:** Fire
 
 **Experience points:** 6,400

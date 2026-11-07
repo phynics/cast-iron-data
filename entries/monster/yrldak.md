@@ -47,6 +47,7 @@ glowing moon, and her ebon eyes deeply pensive._
 
 **Senses:** True seeing
 
+**Sources:** Fey Revisited pg 26\
 **Experience points:** 9,600
 
 **Armor class:** 24/15/23

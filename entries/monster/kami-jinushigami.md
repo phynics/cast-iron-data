@@ -45,6 +45,7 @@ equally huge staff._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 3 pg 160\
 **Subtype:** Earth, Kami, Native
 
 **tremorsense:** 60

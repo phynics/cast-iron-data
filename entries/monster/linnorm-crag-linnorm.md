@@ -48,6 +48,7 @@ swipe at the air._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder RPG Bestiary pg 190\
 **Experience points:** 38,400
 
 **Armor class:** 29/10/25

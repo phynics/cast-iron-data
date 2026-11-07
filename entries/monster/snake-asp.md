@@ -43,6 +43,7 @@ _This long, muscular snake rears up and shows its hood and fangs when threatened
 
 **Sense:** Scent
 
+**Sources:** Osirion, Legacy of the Pharaohs pg 55\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

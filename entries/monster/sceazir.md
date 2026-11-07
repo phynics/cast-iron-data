@@ -49,6 +49,7 @@ spiky, manyjointed legs bend in unsettling ways._
 
 **Perception:** +9
 
+**Sources:** Pathfinder \#141: Last Watch pg 86\
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

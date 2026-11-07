@@ -41,6 +41,7 @@ _Knots of dark, moldering hair spill over the features of this sickly, thin, gre
 
 **Perception:** +15
 
+**Sources:** Pathfinder RPG Bestiary pg 167\
 **Experience points:** 1,600
 
 **Armor class:** 19/11/18

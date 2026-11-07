@@ -43,6 +43,7 @@ and its bristly flank crawls with flies._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 36\
 **Experience points:** 1,200
 
 **Armor class:** 15/9/15

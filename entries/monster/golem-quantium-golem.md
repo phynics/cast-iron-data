@@ -47,6 +47,7 @@ hands._
 
 **Senses:** Link
 
+**Sources:** Inner Sea Bestiary pg 19\
 **Experience points:** 307,200
 
 **Armor class:** 37/4/37

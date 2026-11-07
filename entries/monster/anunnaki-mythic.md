@@ -50,6 +50,7 @@ back._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 5 pg 28\
 **Subtype:** Mythic, Shapechanger
 
 **Experience points:** 153,600

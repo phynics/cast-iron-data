@@ -44,6 +44,7 @@ whip-thin tail ends in a slender stinger._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 269\
 **Experience points:** 800
 
 **Aav:** present

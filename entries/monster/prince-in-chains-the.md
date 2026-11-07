@@ -52,6 +52,7 @@ monstrosity._
 
 **Sense:** Scent
 
+**Sources:** Inner Sea Gods pg 315\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 51,200

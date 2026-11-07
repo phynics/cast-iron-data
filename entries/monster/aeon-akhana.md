@@ -46,6 +46,7 @@ appendage dangles._
 
 **Senses:** Deathwatch
 
+**Sources:** Bestiary 2 pg 9\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 19,200

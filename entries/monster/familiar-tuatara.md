@@ -38,6 +38,7 @@ abilities = ["2", "13", "12", "1", "10", "5"]
 
 **Perception:** +4
 
+**Sources:** Bestiary 4 pg 97\
 **Size:** tiny
 
 **Experience points:** 100

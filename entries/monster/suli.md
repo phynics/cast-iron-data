@@ -47,6 +47,7 @@ blaze of crackling flames._
 
 **Perception:** -1
 
+**Sources:** Bestiary 3 pg 258, Qadira, Gateway to the East pg 28\
 **Subtype:** Native
 
 **Experience points:** 200

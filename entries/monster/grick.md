@@ -43,6 +43,7 @@ tentacles and hooked jaws._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 146\
 **Experience points:** 800
 
 **Armor class:** 15/12/13

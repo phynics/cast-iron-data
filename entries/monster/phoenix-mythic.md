@@ -51,6 +51,7 @@ _This flaming bird burns as brightly as the sun._
 
 **Senses:** Detect magic, Detect poison, See invisibility, True seeing
 
+**Sources:** Mythic Adventures pg 214\
 **Subtype:** Fire, Mythic
 
 **Experience points:** 153,600

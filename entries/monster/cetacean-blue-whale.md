@@ -42,6 +42,7 @@ with layers of baleen._
 
 **Perception:** +27
 
+**Sources:** Pathfinder \#59: The Price of Infamy pg 86, Bestiary 5 pg 276\
 **Experience points:** 19,200
 
 **Armor class:** 26/1/26

@@ -39,6 +39,7 @@ emanates from the dreadful mass._
 
 **Perception:** +1
 
+**Sources:** Pathfinder \#141: Last Watch pg 90\
 **Subtype:** Swarm
 
 **Size:** tiny

@@ -47,6 +47,7 @@ a curiously sweet smell._
 
 **Perception:** +13
 
+**Sources:** Bestiary 4 pg 224, Pathfinder \#51: The Hungry Storm pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

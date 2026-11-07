@@ -45,6 +45,7 @@ a hideous, twitching beard._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder RPG Bestiary pg 73\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

@@ -45,6 +45,7 @@ stretch out from its torso._
 
 **Perception:** +11
 
+**Sources:** Bestiary 4 pg 81\
 **Experience points:** 3,200
 
 **Armor class:** 20/10/19

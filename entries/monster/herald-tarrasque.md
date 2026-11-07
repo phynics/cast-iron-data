@@ -51,6 +51,7 @@ thrashing spiked tail._
 
 **Sense:** Scent
 
+**Sources:** Inner Sea Gods pg 304, Pathfinder RPG Bestiary pg 262\
 **Subtype:** Spawn of Rovagug
 
 **Experience points:** 1,638,400

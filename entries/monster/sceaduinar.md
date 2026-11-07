@@ -47,6 +47,7 @@ living, dark purple crystal._
 
 **Perception:** +17
 
+**Sources:** Bestiary 2 pg 239\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

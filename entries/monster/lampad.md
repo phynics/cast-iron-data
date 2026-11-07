@@ -48,6 +48,7 @@ feet._
 
 **Perception:** +15
 
+**Sources:** Bestiary 4 pg 178\
 **Experience points:** 1,600
 
 **Armor class:** 20/20/15

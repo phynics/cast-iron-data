@@ -44,6 +44,7 @@ death and disease._
 
 **Size:** small
 
+**Sources:** Pathfinder \#31: Stolen Land pg 78\
 **Type:** undead
 
 **Experience points:** 800

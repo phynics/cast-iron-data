@@ -44,6 +44,7 @@ and a sword clenched in each hand._
 
 **Perception:** +8
 
+**Sources:** Bestiary 3 pg 262\
 **Experience points:** 2,400
 
 **Armor class:** 19/13/16

@@ -41,6 +41,7 @@ wiry._
 
 **Perception:** +7
 
+**Sources:** Pathfinder RPG Bestiary pg 66\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Size:** tiny

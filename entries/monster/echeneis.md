@@ -45,6 +45,7 @@ runs down its back._
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 103\
 **Subtype:** Aquatic
 
 **Experience points:** 400

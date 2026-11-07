@@ -43,6 +43,7 @@ thorny vines._
 
 **Perception:** +10
 
+**Sources:** Bestiary 2 pg 274\
 **Size:** tiny
 
 **Experience points:** 800

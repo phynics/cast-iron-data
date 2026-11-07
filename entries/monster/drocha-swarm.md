@@ -40,6 +40,7 @@ _Hundreds of twisted, distorted faces roil in a miserable cloud, screaming of th
 
 **Perception:** +2
 
+**Sources:** Pathfinder \#75: Demon's Heresy pg 88\
 **Subtype:** Incorporeal, Swarm
 
 **Size:** tiny

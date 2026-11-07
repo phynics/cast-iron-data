@@ -44,6 +44,7 @@ wields a huge, primitive spear._
 
 **Perception:** +13
 
+**Sources:** Bestiary 2 pg 131, Pathfinder \#4: Fortress of the Stone Giants pg 84\
 **Subtype:** Giant
 
 **Experience points:** 19,200

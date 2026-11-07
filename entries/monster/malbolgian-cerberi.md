@@ -46,6 +46,7 @@ fanged mouths leap tongues of flame, and crimson saliva leaks from the terror's 
 
 **Senses:** Soul scent
 
+**Sources:** Pathfinder \#28: The Infernal Syndrome pg 84\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

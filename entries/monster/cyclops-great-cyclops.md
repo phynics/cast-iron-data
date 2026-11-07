@@ -44,6 +44,7 @@ jagged horn on its brow._
 
 **Perception:** +22
 
+**Sources:** Bestiary 3 pg 61, Pathfinder \#33: The Varnhold Vanishing pg 84\
 **Subtype:** Giant
 
 **Experience points:** 19,200

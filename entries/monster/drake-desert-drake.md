@@ -48,6 +48,7 @@ its lissome back._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 105\
 **Subtype:** Earth
 
 **tremorsense:** 30

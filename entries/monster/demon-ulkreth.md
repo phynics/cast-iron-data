@@ -45,6 +45,7 @@ back._
 
 **Perception:** +30
 
+**Sources:** Pathfinder \#73: The Worldwound Incursion pg 82\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **tremorsense:** 60

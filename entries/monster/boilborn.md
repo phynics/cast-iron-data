@@ -39,6 +39,7 @@ _Like some taut pustule ready to burst, this mobile wound scuttles on a bristle 
 
 **Perception:** -4
 
+**Sources:** Bestiary 4 pg 22\
 **Size:** tiny
 
 **Experience points:** 400

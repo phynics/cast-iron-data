@@ -45,6 +45,7 @@ drink in the light around it._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 241, Bonus Bestiary pg 16\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 1,600

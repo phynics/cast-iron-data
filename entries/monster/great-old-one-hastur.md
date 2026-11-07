@@ -48,6 +48,7 @@ with unsettling, inhuman grace._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 4 pg 140\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **Experience points:** 6,553,600

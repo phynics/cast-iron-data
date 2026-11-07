@@ -41,6 +41,7 @@ padded feet and a toothy maw._
 
 **Perception:** +6
 
+**Sources:** Bestiary 3 pg 186\
 **Experience points:** 400
 
 **Armor class:** 14/12/12

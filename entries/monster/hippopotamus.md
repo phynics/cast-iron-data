@@ -44,6 +44,7 @@ challenge, exposing massive, tusk-like teeth._
 
 **Sense:** Scent
 
+**Sources:** Heart of the Jungle pg 60, Bestiary 2 pg 157\
 **Experience points:** 1,600
 
 **Armor class:** 17/9/17

@@ -48,6 +48,7 @@ experimentation with the black blood has perverted the beast into a terrible new
 
 **Senses:** Trace teleport 60 ft.
 
+**Sources:** Pathfinder \#18: Descent into Midnight pg 82, Pathfinder RPG Bestiary pg 214\
 **Subtype:** Aquatic
 
 **Experience points:** 153,600

@@ -49,6 +49,7 @@ DC 30, 10 rounds), quell the profane
 
 **Senses:** See invisibility, True seeing
 
+**Sources:** Andoran, Birthplace of Freedom pg 62\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 819,200

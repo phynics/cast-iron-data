@@ -43,6 +43,7 @@ _This tiny black dragon-like creature has charcoal-colored scales and shadowy wi
 
 **Perception:** +7
 
+**Sources:** Bestiary 4 pg 80\
 **Subtype:** Cold
 
 **Size:** tiny

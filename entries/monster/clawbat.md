@@ -46,6 +46,7 @@ maw, and a long, thin tongue darts forth seemingly at random to lash the air aro
 
 **Size:** small
 
+**Sources:** Pathfinder \#33: The Varnhold Vanishing pg 82\
 **Experience points:** 400
 
 **Armor class:** 15/14/12

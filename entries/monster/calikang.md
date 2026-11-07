@@ -43,6 +43,7 @@ jewels._
 
 **Senses:** True seeing
 
+**Sources:** Inner Sea World Guide pg 307, Pathfinder \#29: Mother of Flies pg 80\
 **Experience points:** 19,200
 
 **Armor class:** 27/11/25

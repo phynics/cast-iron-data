@@ -44,6 +44,7 @@ some force other than its own rattling gears._
 
 **Perception:** +0
 
+**Sources:** Numeria, Land of Fallen Stars pg 49\
 **Experience points:** 12,800
 
 **Armor class:** 27/9/27

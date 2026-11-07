@@ -46,6 +46,7 @@ glass orb for an eye._
 
 **Perception:** +8
 
+**Sources:** Bestiary 5 pg 207, Inner Sea Bestiary pg 44\
 **Subtype:** Robot
 
 **Experience points:** 1,200

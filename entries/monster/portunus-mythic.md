@@ -49,6 +49,7 @@ its head independently._
 
 **Senses:** Arcane sight
 
+**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 90\
 **Subtype:** Elemental, Extraplanar, Mythic, Water
 
 **Experience points:** 76,800

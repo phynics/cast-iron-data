@@ -44,6 +44,7 @@ ghostly body, which appears stuffed with decaying leaves and other plant matter.
 
 **Perception:** +21
 
+**Sources:** Pathfinder \#40: Vaults of Madness pg 82\
 **Subtype:** Incorporeal
 
 **Type:** undead

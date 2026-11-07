@@ -41,6 +41,7 @@ tormented ghostly form._
 
 **Perception:** +20
 
+**Sources:** Pathfinder RPG Bestiary pg 82\
 **Subtype:** Extraplanar
 
 **Type:** undead

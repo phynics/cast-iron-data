@@ -42,6 +42,7 @@ _This seething mass of bubbling molten rock churns and moves of its own hungry a
 
 **Perception:** -5
 
+**Sources:** Bestiary 2 pg 184\
 **Subtype:** Fire
 
 **Experience points:** 3,200

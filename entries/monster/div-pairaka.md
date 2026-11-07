@@ -47,6 +47,7 @@ manner of debased pleasures._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 3 pg 88, Pathfinder \#20: House of the Beast pg 84\
 **Subtype:** Div, Evil, Extraplanar, Shapechanger
 
 **Experience points:** 3,200

@@ -43,6 +43,7 @@ more as a terrible pseudopod lashes out._
 
 **Perception:** -5
 
+**Sources:** Pathfinder RPG Bestiary pg 166\
 **Experience points:** 1,200
 
 **Armor class:** 5/5/5

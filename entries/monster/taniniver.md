@@ -45,6 +45,7 @@ maggots and oozing pus._
 
 **Senses:** Deathwatch
 
+**Sources:** Bestiary 4 pg 258\
 **Experience points:** 153,600
 
 **Armor class:** 33/8/33

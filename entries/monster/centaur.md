@@ -43,6 +43,7 @@ warhorse._
 
 **Perception:** +7
 
+**Sources:** Pathfinder RPG Bestiary pg 42\
 **Experience points:** 800
 
 **Armor class:** 20/11/18

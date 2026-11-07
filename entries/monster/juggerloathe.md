@@ -46,6 +46,7 @@ appears to be an armored cobra._
 
 **Sense:** Scent
 
+**Sources:** Belkzen, Hold of the Orc Hordes pg 62\
 **tremorsense:** 120
 
 **Experience points:** 76,800

@@ -50,6 +50,7 @@ _A terrifying darkness surrounds this giant wolf._
 
 **Sense:** Scent
 
+**Sources:** Mythic Adventures pg 222\
 **Subtype:** Mythic
 
 **Experience points:** 800

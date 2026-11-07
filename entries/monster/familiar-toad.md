@@ -39,6 +39,7 @@ abilities = ["1", "12", "6", "1", "15", "4"]
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 133\
 **Experience points:** 50
 
 **Armor class:** 15/15/14

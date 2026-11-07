@@ -48,6 +48,7 @@ crackle with electricity._
 
 **Senses:** Targeting array
 
+**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 88\
 **Subtype:** Robot
 
 **Experience points:** 51,200

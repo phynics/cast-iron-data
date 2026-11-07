@@ -40,6 +40,7 @@ _This tangle of dry-looking vegetation has grown into a spherical ball of thorny
 
 **Type:** plant
 
+**Sources:** Ultimate Wilderness pg 205\
 **Size:** tiny
 
 **Experience points:** 135

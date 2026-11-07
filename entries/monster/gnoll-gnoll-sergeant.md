@@ -45,6 +45,7 @@ abilities = ["18", "15", "15", "8", "12", "6"]
 
 **Perception:** +9
 
+**Sources:** Monster Codex pg 96\
 **Experience points:** 1,200
 
 **Armor class:** 17/12/15

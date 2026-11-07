@@ -44,6 +44,7 @@ snaggletoothed, horse-like face._
 
 **Perception:** +13
 
+**Sources:** Bestiary 2 pg 172\
 **Subtype:** Aquatic, Shapechanger
 
 **Experience points:** 1,200

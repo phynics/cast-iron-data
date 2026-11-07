@@ -48,6 +48,7 @@ of different-sized fangs. As it hisses, lightning slashes the storm-gray sky beh
 
 **Senses:** Venomsense
 
+**Sources:** Pathfinder \#41: The Thousand Fangs Below pg 84\
 **Experience points:** 25,600
 
 **Armor class:** 28/10/24

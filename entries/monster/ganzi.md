@@ -46,6 +46,7 @@ unpredictable wildness._
 
 **Perception:** +3
 
+**Sources:** Planar Adventures pg 234\
 **Subtype:** Native
 
 **Experience points:** 200

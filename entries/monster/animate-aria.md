@@ -47,6 +47,7 @@ ground. Stirring crescendos and moving fanfares can be heard throughout its melo
 
 **Perception:** +0
 
+**Sources:** Cheliax, the Infernal Empire pg 56\
 **Experience points:** 6,400
 
 **Armor class:** 23/13/19

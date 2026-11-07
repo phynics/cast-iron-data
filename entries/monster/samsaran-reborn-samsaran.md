@@ -44,6 +44,7 @@ _The pale-blue skin of this dark-haired humanoid seems to subtly change hue from
 
 **Perception:** +6
 
+**Sources:** Occult Bestiary pg 50\
 **Subtype:** Samsaran
 
 **Experience points:** 200

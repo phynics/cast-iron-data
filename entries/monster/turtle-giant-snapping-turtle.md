@@ -43,6 +43,7 @@ _This lumbering turtle is the size of a house; its head features powerful, razor
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 273\
 **Experience points:** 6,400
 
 **Armor class:** 23/4/23

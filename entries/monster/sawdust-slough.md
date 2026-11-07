@@ -44,6 +44,7 @@ shavings._
 
 **Type:** plant
 
+**Sources:** Andoran, Birthplace of Freedom pg 59\
 **tremorsense:** 60
 
 **Experience points:** 1,200

@@ -48,6 +48,7 @@ otherwise blank visage._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 88\
 **Experience points:** 38,400
 
 **Armor class:** 29/19/25

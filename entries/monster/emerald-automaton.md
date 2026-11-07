@@ -45,6 +45,7 @@ _An eerie green glow shines through the seams of this mechanical creature's armo
 
 **Perception:** +0
 
+**Sources:** The Emerald Spire Superdungeon pg 154\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/16

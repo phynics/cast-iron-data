@@ -41,6 +41,7 @@ _This small creature has the body of a housecat, the wings of a falcon, and the 
 
 **Perception:** +11
 
+**Sources:** Familiar Folio pg 29\
 **Size:** tiny
 
 **Experience points:** 600

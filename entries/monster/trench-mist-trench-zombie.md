@@ -44,6 +44,7 @@ abilities = ["17", "18", "-", "10", "12", "8"]
 
 **Perception:** +7
 
+**Sources:** Pathfinder \#71: Rasputin Must Die! pg 91\
 **Subtype:** Human
 
 **Type:** undead

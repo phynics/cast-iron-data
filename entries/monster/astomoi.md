@@ -49,6 +49,7 @@ _This humanoid appears to be made of darkness, and has no discernible ears, eyes
 
 **Senses:** Telepathic senses
 
+**Sources:** Bestiary 5 pg 37\
 **Subtype:** Astomoi
 
 **Experience points:** 200

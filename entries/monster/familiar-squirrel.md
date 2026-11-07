@@ -41,6 +41,7 @@ its body._
 
 **Perception:** +1
 
+**Sources:** Ultimate Wilderness pg 207, Animal Archive pg 31\
 **Experience points:** 50
 
 **Armor class:** 18/18/14

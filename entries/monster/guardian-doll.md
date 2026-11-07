@@ -43,6 +43,7 @@ disturbing curiosity._
 
 **Perception:** +5
 
+**Sources:** Irrisen - Land of Eternal Winter pg 58\
 **Subtype:** Cold
 
 **Size:** tiny

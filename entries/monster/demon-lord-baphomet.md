@@ -50,6 +50,7 @@ than twice a human's height._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 88\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 3,276,800

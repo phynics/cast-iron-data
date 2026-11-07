@@ -42,6 +42,7 @@ parts intensity and insanity._
 
 **Perception:** +10
 
+**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 88\
 **Type:** undead
 
 **Experience points:** 2,400

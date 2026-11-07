@@ -45,6 +45,7 @@ teeth._
 
 **Size:** small
 
+**Sources:** Pathfinder \#53: Tide of Honor pg 84\
 **Subtype:** Goblinoid
 
 **Experience points:** 600

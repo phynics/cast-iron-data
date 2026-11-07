@@ -43,6 +43,7 @@ clinging to its nightmarish form._
 
 **Senses:** Arcane sight, True seeing
 
+**Sources:** Bestiary 3 pg 276\
 **Type:** undead
 
 **Experience points:** 204,800

@@ -40,6 +40,7 @@ _This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers
 
 **Perception:** +4
 
+**Sources:** Pathfinder RPG Bestiary pg 50\
 **Subtype:** Aquatic
 
 **Type:** vermin

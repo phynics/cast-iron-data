@@ -46,6 +46,7 @@ bird-like monstrosity._
 
 **Perception:** +31
 
+**Sources:** Bestiary 3 pg 37\
 **Subtype:** Air, Behemoth
 
 **Experience points:** 614,400

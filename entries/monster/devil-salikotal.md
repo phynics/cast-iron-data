@@ -48,6 +48,7 @@ while in one hand it clutches the twisted, dagger-like horn of some infernal ter
 
 **Perception:** +4
 
+**Sources:** Pathfinder \#26: The Sixfold Trial pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 3,200

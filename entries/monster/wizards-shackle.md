@@ -43,6 +43,7 @@ _This eel-like creature has a thick, greasy body and a large, circular mouth ful
 
 **Senses:** Arcane sight
 
+**Sources:** Bestiary 5 pg 278\
 **Subtype:** Aquatic
 
 **Size:** tiny

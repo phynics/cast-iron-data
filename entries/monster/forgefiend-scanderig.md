@@ -43,6 +43,8 @@ end in razor-sharp claws._
 
 **Sense:** Sid
 
+**Sources:** Rise of the Runelords Anniversary Edition pg 409, Pathfinder \#4: Fortress of the Stone
+Giants pg 86\
 **Subtype:** Earth, Extraplanar
 
 **Experience points:** 9,600

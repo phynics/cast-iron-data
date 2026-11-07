@@ -44,6 +44,7 @@ unusual grace._
 
 **Perception:** +9
 
+**Sources:** Bestiary 4 pg 95, Pathfinder \#63: The Asylum Stone pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

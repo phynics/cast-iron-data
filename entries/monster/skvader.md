@@ -41,6 +41,7 @@ grouse._
 
 **Perception:** +1
 
+**Sources:** Pathfinder \#61: Shards of Sin pg 86\
 **Size:** tiny
 
 **Experience points:** 200

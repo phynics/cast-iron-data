@@ -46,6 +46,7 @@ movement with mechanical precision._
 
 **Perception:** +2
 
+**Sources:** Bestiary 3 pg 135\
 **Experience points:** 51,200
 
 **Armor class:** 31/16/24

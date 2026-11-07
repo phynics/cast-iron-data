@@ -48,6 +48,7 @@ layer of crimson slime glistens on its flesh, dripping over its armor in red riv
 
 **Senses:** See invisibility
 
+**Sources:** Demons Revisited pg 8\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 76,800

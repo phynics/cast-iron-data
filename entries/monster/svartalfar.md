@@ -45,6 +45,7 @@ sword._
 
 **Perception:** +18
 
+**Sources:** Bestiary 4 pg 256\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

@@ -46,6 +46,7 @@ its simian hands._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 75, Lost Cities of Golarion pg 23, Crucible of Chaos pg 28\
 **Experience points:** 1,600
 
 **Armor class:** 18/12/15

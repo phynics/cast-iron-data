@@ -43,6 +43,7 @@ grin gleams on her face._
 
 **Perception:** +8
 
+**Sources:** Bestiary 4 pg 216\
 **Size:** tiny
 
 **Experience points:** 600

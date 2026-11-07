@@ -43,6 +43,7 @@ of its eye sockets._
 
 **Perception:** +20
 
+**Sources:** Bestiary 4 pg 15, Pathfinder \#59: The Price of Infamy pg 84\
 **Subtype:** Aquatic
 
 **Type:** undead

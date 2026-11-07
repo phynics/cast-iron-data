@@ -46,6 +46,7 @@ vulture skull._
 
 **Senses:** Deathwatch
 
+**Sources:** Inner Sea Gods pg 313\
 **Subtype:** Evil, Extraplanar
 
 **Size:** tiny

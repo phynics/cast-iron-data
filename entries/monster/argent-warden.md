@@ -47,6 +47,7 @@ glowing golden light within._
 
 **Perception:** +17
 
+**Sources:** Planar Adventures pg 228\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

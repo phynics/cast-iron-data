@@ -46,6 +46,7 @@ a massive fanged mouth._
 
 **Perception:** +33
 
+**Sources:** Planar Adventures pg 250\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 307,200

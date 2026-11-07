@@ -47,6 +47,7 @@ made all the more disturbing by its apparent lack of a crew._
 
 **Perception:** +23
 
+**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 86\
 **Subtype:** Chaotic, Extraplanar, Water
 
 **tremorsense:** 60

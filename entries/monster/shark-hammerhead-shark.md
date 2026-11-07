@@ -44,6 +44,7 @@ with razor-sharp teeth._
 
 **Perception:** +10
 
+**Sources:** Pathfinder \#57: Tempest Rising pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 800

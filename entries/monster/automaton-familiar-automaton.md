@@ -45,6 +45,7 @@ glows with a warm light._
 
 **Perception:** +6
 
+**Sources:** Construct Handbook pg 24\
 **Subtype:** Extraplanar
 
 **Size:** tiny

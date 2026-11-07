@@ -46,6 +46,7 @@ shimmering with magical energy._
 
 **Perception:** +15
 
+**Sources:** Pathfinder RPG Bestiary pg 234\
 **Subtype:** Extraplanar
 
 **Experience points:** 12,800

@@ -44,6 +44,7 @@ stalks forward._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 78\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

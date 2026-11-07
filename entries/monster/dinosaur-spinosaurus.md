@@ -44,6 +44,7 @@ that runs down its back._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 79\
 **Experience points:** 12,800
 
 **Armor class:** 24/8/22

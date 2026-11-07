@@ -46,6 +46,7 @@ its bleeding shoulders._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 3 pg 172\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 307,200

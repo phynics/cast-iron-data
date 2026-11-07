@@ -43,6 +43,7 @@ tentacles and a number of sharp teeth._
 
 **Perception:** +14
 
+**Sources:** Pathfinder RPG Bestiary pg 205\
 **Subtype:** Shapechanger
 
 **Experience points:** 1,200

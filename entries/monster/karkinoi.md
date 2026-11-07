@@ -44,6 +44,7 @@ a twisted, human-like hand._
 
 **Perception:** +11
 
+**Sources:** Bestiary 4 pg 173\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

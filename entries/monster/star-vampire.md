@@ -47,6 +47,7 @@ tentacles, all as red as freshly spilled blood._
 
 **Senses:** Scent blood
 
+**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 90\
 **Experience points:** 2,400
 
 **Armor class:** 19/8/19

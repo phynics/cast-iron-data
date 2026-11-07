@@ -42,6 +42,7 @@ eerily blank._
 
 **Perception:** +10
 
+**Sources:** Bestiary 5 pg 50, Wardens of the Reborn Forge pg 61\
 **Experience points:** 3,200
 
 **Armor class:** 18/10/17

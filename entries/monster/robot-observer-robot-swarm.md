@@ -40,6 +40,7 @@ abilities = ["12", "19", "-", "11", "18", "3"]
 
 **Perception:** +30
 
+**Sources:** Pathfinder \#86: Lords of Rust pg 89\
 **Subtype:** Robot, Swarm
 
 **Size:** tiny

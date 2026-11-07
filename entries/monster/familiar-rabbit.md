@@ -38,6 +38,7 @@ _This small, furry creature has long ears and oversized feet._
 
 **Perception:** +1
 
+**Sources:** Ultimate Wilderness pg 204, Animal Archive pg 31\
 **Size:** tiny
 
 **Experience points:** 65

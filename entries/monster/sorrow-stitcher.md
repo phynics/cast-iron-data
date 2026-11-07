@@ -42,6 +42,7 @@ what appear to be the shadowy silhouettes of scissors and a sewing needle._
 
 **Perception:** +17
 
+**Sources:** Seers of the Drowned City pg 61\
 **Experience points:** 4,800
 
 **Armor class:** 22/16/16

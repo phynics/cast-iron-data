@@ -48,6 +48,7 @@ from its snapping maw._
 
 **Senses:** Hive mind
 
+**Sources:** Nidal, Land of Shadows pg 56\
 **Subtype:** Hive
 
 **Experience points:** 4,800

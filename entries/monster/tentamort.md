@@ -45,6 +45,7 @@ which are longer than the rest._
 
 **Perception:** +11
 
+**Sources:** Bestiary 2 pg 261\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/16

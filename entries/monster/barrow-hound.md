@@ -46,6 +46,7 @@ and retie themselves on their own._
 
 **Senses:** See invisibility
 
+**Sources:** Fangwood Keep pg 29\
 **Experience points:** 2,400
 
 **Armor class:** 20/12/17

@@ -43,6 +43,7 @@ incredible speed._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#60: From Hell's Heart pg 88\
 **Experience points:** 9,600
 
 **Armor class:** 23/7/22

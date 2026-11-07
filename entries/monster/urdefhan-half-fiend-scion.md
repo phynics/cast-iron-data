@@ -46,6 +46,7 @@ her lean form._
 
 **Perception:** +20
 
+**Sources:** Inner Sea Monster Codex pg 63\
 **Subtype:** Native
 
 **Experience points:** 51,200

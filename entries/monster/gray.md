@@ -42,6 +42,7 @@ _This gray-skinned humanoid has long, willowy limbs and a bulbous head with over
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 129\
 **Subtype:** Gray
 
 **Experience points:** 1,200

@@ -53,6 +53,7 @@ abilities = ["41", "14", "30", "23", "22", "23"]
 
 **Senses:** See invisibility, True seeing
 
+**Sources:** Bestiary 5 pg 230\
 **Subtype:** Aquatic, Mythic, Water
 
 **Experience points:** 1,228,800

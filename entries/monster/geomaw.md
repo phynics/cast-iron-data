@@ -43,6 +43,7 @@ sparkling mass of red crystals._
 
 **Perception:** +13
 
+**Sources:** Down the Blighted Path pg 54\
 **tremorsense:** 60
 
 **Experience points:** 3,200

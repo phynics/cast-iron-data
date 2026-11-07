@@ -48,6 +48,7 @@ away._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 154\
 **Subtype:** Shapechanger
 
 **Experience points:** 600

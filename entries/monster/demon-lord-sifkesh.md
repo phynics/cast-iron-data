@@ -49,6 +49,7 @@ that float nearby as if they were still attached._
 
 **Senses:** Detect good, Detect law, True seeing
 
+**Sources:** Pathfinder \#75: Demon's Heresy pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 4,915,200

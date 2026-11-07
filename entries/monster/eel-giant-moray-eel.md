@@ -45,6 +45,7 @@ large teeth and a second set of jaws._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 119\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

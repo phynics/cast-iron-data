@@ -41,6 +41,7 @@ large, black, hook-like teeth._
 
 **Perception:** +3
 
+**Sources:** Bestiary 6 pg 249\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

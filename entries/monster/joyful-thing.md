@@ -44,6 +44,7 @@ lolling tongue drips with thick saliva._
 
 **Perception:** +11
 
+**Sources:** Nidal, Land of Shadows pg 57\
 **Subtype:** Native
 
 **Experience points:** 2,400

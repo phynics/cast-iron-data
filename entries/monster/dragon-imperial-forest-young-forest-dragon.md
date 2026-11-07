@@ -43,6 +43,7 @@ stones as it stalks forth._
 
 **Senses:** Dragon senses
 
+**Sources:** Bestiary 3 pg 94\
 **Subtype:** Earth
 
 **tremorsense:** 60

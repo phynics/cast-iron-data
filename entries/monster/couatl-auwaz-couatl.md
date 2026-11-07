@@ -46,6 +46,7 @@ waters._
 
 **Senses:** Detect chaos/evil/good/law
 
+**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 82\
 **Subtype:** Native
 
 **Experience points:** 2,400

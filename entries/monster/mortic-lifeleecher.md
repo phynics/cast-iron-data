@@ -45,6 +45,7 @@ are thick and corded, and its hate-flled eyes seem to reflect death wherever the
 
 **Perception:** +13
 
+**Sources:** Pathfinder \#141: Last Watch pg 80\
 **Subtype:** Mortic, Orc
 
 **Experience points:** 4,800

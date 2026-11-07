@@ -46,6 +46,7 @@ has been flogged and branded a thousand times._
 
 **Perception:** +13
 
+**Sources:** Pathfinder \#74: Sword of Valor pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,600

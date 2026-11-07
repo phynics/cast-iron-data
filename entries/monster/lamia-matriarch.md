@@ -46,6 +46,7 @@ of an immense snake._
 
 **Perception:** +3
 
+**Sources:** Bestiary 2 pg 175, Pathfinder \#2: The Skinsaw Murders pg 92\
 **Subtype:** Shapechanger
 
 **Experience points:** 4,800

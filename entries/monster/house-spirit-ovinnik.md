@@ -45,6 +45,7 @@ hand._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 143, Pathfinder \#67: The Snows of Summer pg 87\
 **Size:** tiny
 
 **Experience points:** 600

@@ -44,6 +44,7 @@ flexing._
 
 **Perception:** +2
 
+**Sources:** Inner Sea World Guide pg 310\
 **Subtype:** Aquatic
 
 **Experience points:** 135

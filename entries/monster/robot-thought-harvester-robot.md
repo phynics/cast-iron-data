@@ -46,6 +46,7 @@ middle of its head._
 
 **Perception:** +19
 
+**Sources:** Pathfinder \#87: The Choking Tower pg 86\
 **Subtype:** Robot
 
 **Experience points:** 9,600

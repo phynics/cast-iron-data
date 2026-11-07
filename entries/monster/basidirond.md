@@ -42,6 +42,7 @@ bell-shaped cap filled with spores._
 
 **Type:** plant
 
+**Sources:** Pathfinder RPG Bestiary pg 28\
 **Tremorsense:** present
 
 **Experience points:** 1,600

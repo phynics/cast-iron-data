@@ -45,6 +45,7 @@ centaurian fusion of drow and spider._
 
 **Senses:** Detect good, Detect law, Detect magic
 
+**Sources:** Pathfinder RPG Bestiary pg 113\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/17

@@ -40,6 +40,7 @@ _This grinning spectre has mad eyes and blood-red hands that twitch and jerk lik
 
 **Perception:** +29
 
+**Sources:** Bestiary 3 pg 108\
 **Subtype:** Incorporeal
 
 **Type:** undead

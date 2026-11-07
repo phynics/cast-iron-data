@@ -48,6 +48,7 @@ teeth flecked with blood._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 86\
 **Subtype:** Kitsune, Native, Oni, Shapechanger
 
 **Experience points:** 3,200

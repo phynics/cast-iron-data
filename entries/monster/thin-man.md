@@ -42,6 +42,7 @@ hands with wickedly sharp nails._
 
 **Perception:** +10
 
+**Sources:** Inner Sea Bestiary pg 52\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/13

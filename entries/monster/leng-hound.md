@@ -48,6 +48,7 @@ humanoid features with canine._
 
 **Senses:** Sense fear
 
+**Sources:** Bestiary 6 pg 180\
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

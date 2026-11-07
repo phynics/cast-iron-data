@@ -57,6 +57,7 @@ welcoming._
 
 **Senses:** See invisibility
 
+**Sources:** Pathfinder \#60: From Hell's Heart pg 68\
 **Subtype:** Aquatic
 
 **Experience points:** 307,200

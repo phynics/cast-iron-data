@@ -45,6 +45,7 @@ aura of tiny bubbles._
 
 **Perception:** +8
 
+**Sources:** Inner Sea Gods pg 283\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Size:** tiny

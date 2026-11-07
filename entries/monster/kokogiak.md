@@ -47,6 +47,7 @@ small but infinite pits of malice._
 
 **Perception:** +18
 
+**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 86\
 **Experience points:** 19,200
 
 **Armor class:** 25/9/24

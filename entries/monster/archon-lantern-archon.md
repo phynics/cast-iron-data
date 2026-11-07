@@ -47,6 +47,7 @@ otherworldly grace._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 20\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 600

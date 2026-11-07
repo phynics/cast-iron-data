@@ -49,6 +49,7 @@ long fangs._
 
 **Perception:** +17
 
+**Sources:** Mythic Adventures pg 220\
 **Subtype:** Human, Mythic
 
 **Type:** undead

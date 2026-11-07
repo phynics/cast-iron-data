@@ -43,6 +43,7 @@ beautiful black-haired woman._
 
 **Perception:** +18
 
+**Sources:** Bestiary 3 pg 156\
 **Subtype:** Shapechanger
 
 **Experience points:** 19,200

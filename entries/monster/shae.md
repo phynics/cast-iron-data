@@ -44,6 +44,7 @@ body._
 
 **Perception:** +8
 
+**Sources:** Bestiary 3 pg 242\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,200

@@ -43,6 +43,7 @@ _This feathered bipedal saurian looks somewhat comical - save for its outlandish
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 84\
 **Experience points:** 9,600
 
 **Armor class:** 24/9/21

@@ -42,6 +42,7 @@ The molten core in the creature's torso glows through rugged cracks in its dark 
 
 **Perception:** +19
 
+**Sources:** Academy of Secrets pg 31\
 **Subtype:** Native
 
 **Experience points:** 9,600

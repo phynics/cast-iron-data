@@ -45,6 +45,7 @@ it comes to jerky life._
 
 **Perception:** +0
 
+**Sources:** Bestiary 2 pg 238\
 **Experience points:** 1,200
 
 **Armor class:** 16/10/16

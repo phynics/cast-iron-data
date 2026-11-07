@@ -44,6 +44,7 @@ it snaps crustacean-like claws._
 
 **Perception:** +9
 
+**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 82\
 **Subtype:** Aquatic
 
 **Size:** tiny

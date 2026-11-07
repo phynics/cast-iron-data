@@ -46,6 +46,7 @@ covering its back._
 
 **Perception:** +20
 
+**Sources:** Mythic Adventures pg 194\
 **Subtype:** Earth, Elemental, Extraplanar, Mythic
 
 **tremorsense:** 60

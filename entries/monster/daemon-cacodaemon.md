@@ -44,6 +44,7 @@ creature's orb-like body._
 
 **Senses:** Detect good, Detect magic
 
+**Sources:** Bestiary 2 pg 64\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Size:** tiny

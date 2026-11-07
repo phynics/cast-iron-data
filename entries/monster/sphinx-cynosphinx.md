@@ -45,6 +45,7 @@ _A jackal's head draped in a tattered headdress extends from a winged, leonine b
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 84\
 **Experience points:** 2,400
 
 **Armor class:** 20/10/19

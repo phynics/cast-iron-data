@@ -48,6 +48,7 @@ its puffy blue face is._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 207\
 **Experience points:** 100
 
 **Armor class:** 12/12/11

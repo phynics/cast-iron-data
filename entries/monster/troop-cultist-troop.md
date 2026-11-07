@@ -42,6 +42,7 @@ _A band of violet-skinned elves raises their hands high as vile magic swirls in 
 
 **Perception:** +22
 
+**Sources:** Bestiary 6 pg 266\
 **Subtype:** Elf, Troop
 
 **Experience points:** 12,800

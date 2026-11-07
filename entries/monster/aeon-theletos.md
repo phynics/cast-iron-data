@@ -44,6 +44,7 @@ creature's crystalline body._
 
 **Perception:** +16
 
+**Sources:** Bestiary 2 pg 14\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 3,200

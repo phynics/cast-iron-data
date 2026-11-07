@@ -46,6 +46,7 @@ deep-purple body._
 
 **Perception:** +16
 
+**Sources:** Bestiary 6 pg 261, Numeria, Land of Fallen Stars pg 60\
 **Experience points:** 51,200
 
 **Aav:** present

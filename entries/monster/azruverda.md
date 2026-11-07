@@ -44,6 +44,7 @@ beetle carapace._
 
 **Perception:** +22
 
+**Sources:** Bestiary 3 pg 29\
 **tremorsense:** 100
 
 **Experience points:** 25,600

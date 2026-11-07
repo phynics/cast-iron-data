@@ -44,6 +44,7 @@ the fungus has formed thorny growths._
 
 **Type:** plant
 
+**Sources:** Bestiary 6 pg 52\
 **Experience points:** 19,200
 
 **Armor class:** 27/17/20

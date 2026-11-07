@@ -46,6 +46,7 @@ man and the head of a bull._
 
 **Perception:** +12
 
+**Sources:** Mythic Adventures pg 210\
 **Subtype:** Mythic
 
 **Experience points:** 2,400

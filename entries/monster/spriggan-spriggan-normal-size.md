@@ -44,6 +44,7 @@ pointed ears twitch at every sound._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 257\
 **Subtype:** Gnome
 
 **Experience points:** 800

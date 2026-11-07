@@ -52,6 +52,7 @@ tails._
 
 **Senses:** Detect evil, Detect thoughts
 
+**Sources:** Bestiary 4 pg 90\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 2,457,600

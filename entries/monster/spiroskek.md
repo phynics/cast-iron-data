@@ -44,6 +44,7 @@ propels itself forward with balance and grace._
 
 **Perception:** +12
 
+**Sources:** Down the Blighted Path pg 59\
 **tremorsense:** 60
 
 **Experience points:** 2,400

@@ -43,6 +43,7 @@ knife-like horns curving up from its nose._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 186\
 **Experience points:** 3,200
 
 **Armor class:** 20/9/20

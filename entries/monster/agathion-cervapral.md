@@ -47,6 +47,7 @@ its chest and neck._
 
 **Senses:** Enchantment sense
 
+**Sources:** Andoran, Birthplace of Freedom pg 50\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 1,600

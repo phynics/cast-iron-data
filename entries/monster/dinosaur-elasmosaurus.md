@@ -43,6 +43,7 @@ powerful flippers._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 84\
 **Experience points:** 3,200
 
 **Armor class:** 20/11/17

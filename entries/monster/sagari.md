@@ -41,6 +41,7 @@ than a writhing tentacle._
 
 **Perception:** +4
 
+**Sources:** Bestiary 3 pg 234\
 **Size:** tiny
 
 **Experience points:** 200

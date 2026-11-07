@@ -43,6 +43,7 @@ gnashing, ophidian maws._
 
 **Perception:** +16
 
+**Sources:** Bestiary 5 pg 102, The Worldwound pg 54\
 **Subtype:** Extraplanar
 
 **Experience points:** 25,600

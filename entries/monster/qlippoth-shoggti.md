@@ -43,6 +43,7 @@ between two staring eyes._
 
 **Perception:** +18
 
+**Sources:** Bestiary 2 pg 225\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 3,200

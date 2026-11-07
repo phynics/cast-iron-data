@@ -49,6 +49,7 @@ serpentine body._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 3 pg 185\
 **Experience points:** 409,600
 
 **Armor class:** 37/12/27

@@ -48,6 +48,7 @@ air._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 80\
 **Experience points:** 4,800
 
 **Armor class:** 23/11/20

@@ -50,6 +50,7 @@ of a cold moon._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 5 pg 17\
 **Experience points:** 19,200
 
 **Armor class:** 28/13/23

@@ -41,6 +41,7 @@ gait._
 
 **Perception:** +16
 
+**Sources:** Pathfinder RPG Bestiary pg 110\
 **Type:** undead
 
 **Experience points:** 1,600

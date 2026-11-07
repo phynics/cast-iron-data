@@ -45,6 +45,7 @@ tongue in its fanged mouth._
 
 **Perception:** +10
 
+**Sources:** Bestiary 3 pg 228\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 4,800

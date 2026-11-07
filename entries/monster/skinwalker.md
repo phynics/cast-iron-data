@@ -45,6 +45,7 @@ _This man seems human at first, but a closer look reveals he has claws and sharp
 
 **Perception:** +6
 
+**Sources:** Bestiary 5 pg 233\
 **Subtype:** Shapechanger, Skinwalker
 
 **Experience points:** 200

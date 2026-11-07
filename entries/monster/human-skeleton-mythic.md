@@ -43,6 +43,7 @@ long, bony fingers reach out to claw at the living._
 
 **Perception:** +0
 
+**Sources:** Mythic Adventures pg 197\
 **Subtype:** Mythic
 
 **Type:** undead

@@ -38,6 +38,7 @@ abilities = ["9", "15", "13", "2", "12", "6"]
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 112, Ultimate Magic pg 117\
 **Size:** tiny
 
 **Experience points:** 100

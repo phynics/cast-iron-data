@@ -45,6 +45,7 @@ undergrowth._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 247\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

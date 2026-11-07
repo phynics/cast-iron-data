@@ -42,6 +42,7 @@ in jagged sheets of ice._
 
 **Perception:** +27
 
+**Sources:** Bestiary 2 pg 283\
 **Subtype:** Cold
 
 **Type:** undead

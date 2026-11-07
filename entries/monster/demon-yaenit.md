@@ -46,6 +46,7 @@ _Patches of fur adorn the sickly flesh of this gangly but muscular hyena-headed 
 
 **Senses:** See invisibility
 
+**Sources:** Bestiary 6 pg 91, Broken Chains pg 29\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 2,400

@@ -40,6 +40,7 @@ _A pair of brightly colored butterfly wings sprouts from the back of this miniat
 
 **Perception:** +8
 
+**Sources:** Bestiary 3 pg 91, Bonus Bestiary pg 9\
 **Size:** tiny
 
 **Experience points:** 600

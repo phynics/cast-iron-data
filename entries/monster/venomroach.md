@@ -40,6 +40,7 @@ _The brown and black exoskeleton of this roach gleams when exposed to the light.
 
 **Perception:** +5
 
+**Sources:** Pathfinder \#116: Fangs of War pg 85\
 **Type:** vermin
 
 **Experience points:** 800

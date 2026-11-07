@@ -46,6 +46,7 @@ almost white in color._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 280\
 **Subtype:** Cold
 
 **Experience points:** 1,600

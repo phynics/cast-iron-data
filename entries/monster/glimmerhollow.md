@@ -46,6 +46,7 @@ as large as a human head._
 
 **Perception:** -5
 
+**Sources:** Pathfinder \#117: Assault on Longshadow pg 88\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 60

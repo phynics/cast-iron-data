@@ -46,6 +46,7 @@ about using squirming tentacles, each moving independently in a mesmerizing moti
 
 **Size:** small
 
+**Sources:** Pathfinder \#124: City in the Deep pg 88\
 **Subtype:** Aquatic, Shapechanger
 
 **Experience points:** 1,200

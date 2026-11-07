@@ -41,6 +41,7 @@ _This mangy stray animal growls and whimpers miserably. Stinking blue drool drip
 
 **Size:** small
 
+**Sources:** Taldor, the First Empire pg 57\
 **Experience points:** 1,200
 
 **Armor class:** 17/12/16

@@ -46,6 +46,7 @@ single red eye._
 
 **Sense:** Sid
 
+**Sources:** Planar Adventures pg 246\
 **Experience points:** 614,400
 
 **Armor class:** 41/26/32

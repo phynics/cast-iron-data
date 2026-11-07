@@ -47,6 +47,7 @@ four-fingered hands._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder RPG Bestiary pg 65\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 38,400

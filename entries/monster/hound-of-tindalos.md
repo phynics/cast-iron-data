@@ -44,6 +44,7 @@ with a predatory grace._
 
 **Perception:** +18
 
+**Sources:** Bestiary 2 pg 158, Pathfinder \#4: Fortress of the Stone Giants pg 82\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 3,200

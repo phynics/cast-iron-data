@@ -45,6 +45,7 @@ oversized ears stick out from the sides of its head, and it wears its long earlo
 
 **Senses:** Child-scent
 
+**Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 84\
 **Experience points:** 800
 
 **Armor class:** 15/14/11

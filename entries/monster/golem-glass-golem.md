@@ -44,6 +44,7 @@ another in a spike of glass._
 
 **Perception:** +0
 
+**Sources:** Bestiary 2 pg 138\
 **Experience points:** 4,800
 
 **Armor class:** 21/8/21

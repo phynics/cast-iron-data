@@ -47,6 +47,7 @@ curtains._
 
 **Senses:** Deathwatch
 
+**Sources:** Bestiary 5 pg 67\
 **Subtype:** Incorporeal
 
 **Type:** undead

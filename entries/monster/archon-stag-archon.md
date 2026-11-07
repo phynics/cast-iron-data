@@ -50,6 +50,7 @@ _This stag-headed humanoid has large, sweeping antlers and wields a finely-craft
 
 **Senses:** Detect evil
 
+**Sources:** Inner Sea Gods pg 287\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Shapechanger
 
 **Experience points:** 1,200

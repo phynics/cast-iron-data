@@ -45,6 +45,7 @@ piercing black eyes and emits an annoying screech._
 
 **Size:** small
 
+**Sources:** Isles of the Shackles pg 46\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

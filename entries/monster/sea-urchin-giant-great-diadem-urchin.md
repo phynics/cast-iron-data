@@ -46,6 +46,7 @@ large golden sea urchin._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 89\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

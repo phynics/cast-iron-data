@@ -45,6 +45,7 @@ moves._
 
 **Perception:** +20
 
+**Sources:** Mythic Adventures pg 193\
 **Subtype:** Air, Elemental, Extraplanar, Mythic
 
 **Experience points:** 38,400

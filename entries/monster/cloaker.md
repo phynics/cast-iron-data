@@ -42,6 +42,7 @@ menacing tail of segmented bone._
 
 **Perception:** +14
 
+**Sources:** Pathfinder RPG Bestiary pg 47\
 **Experience points:** 1,600
 
 **Armor class:** 19/12/16

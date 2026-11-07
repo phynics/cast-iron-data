@@ -48,6 +48,7 @@ wings._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 3 pg 182\
 **Experience points:** 153,600
 
 **Armor class:** 35/13/28

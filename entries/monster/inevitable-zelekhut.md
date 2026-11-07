@@ -47,6 +47,7 @@ its arms end in barbed chains._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 2 pg 167\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 6,400

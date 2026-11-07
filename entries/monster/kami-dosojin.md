@@ -44,6 +44,7 @@ reverence and patience._
 
 **Perception:** +4
 
+**Sources:** Pathfinder \#52: Forest of Spirits pg 82\
 **Subtype:** Kami, Native
 
 **Experience points:** 3,200

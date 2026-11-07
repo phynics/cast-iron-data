@@ -43,6 +43,7 @@ _This slender giant dresses in simple clothes and has swirling patterns on her g
 
 **Perception:** +6
 
+**Sources:** Bestiary 4 pg 128\
 **Subtype:** Giant
 
 **Experience points:** 2,400

@@ -43,6 +43,7 @@ tail ending in a bony club._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 83\
 **Experience points:** 2,400
 
 **Armor class:** 22/8/22

@@ -49,6 +49,7 @@ strange, wriggling wings._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#29: Mother of Flies pg 86\
 **Subtype:** Extraplanar
 
 **Experience points:** 12,800

@@ -42,6 +42,7 @@ mournful expression._
 
 **Perception:** +12
 
+**Sources:** Tears at Bitter Manor pg 61\
 **Subtype:** Incorporeal
 
 **Type:** undead

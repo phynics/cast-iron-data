@@ -47,6 +47,7 @@ _This muscular, wolf-headed humanoid is covered in brown and gray fur._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 242\
 **Subtype:** Shapechanger
 
 **Experience points:** 200

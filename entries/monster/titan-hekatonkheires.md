@@ -49,6 +49,7 @@ wielding a different weapon._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 3 pg 268\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 1,228,800

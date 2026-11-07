@@ -47,6 +47,7 @@ buccaneer._
 
 **Perception:** +6
 
+**Sources:** Inner Sea Monster Codex pg 60\
 **Subtype:** Native
 
 **Experience points:** 1,200

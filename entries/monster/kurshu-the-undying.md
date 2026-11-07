@@ -50,6 +50,7 @@ withered, like a preserved corpse._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 88\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 51,200

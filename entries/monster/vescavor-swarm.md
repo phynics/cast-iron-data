@@ -45,6 +45,7 @@ maws filled with a sickly green glow._
 
 **Perception:** +9
 
+**Sources:** Bestiary 5 pg 267, Lost Kingdoms pg 50\
 **Subtype:** Chaotic, Evil, Extraplanar, Swarm
 
 **Experience points:** 1,600

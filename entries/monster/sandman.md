@@ -45,6 +45,7 @@ figure._
 
 **Perception:** +7
 
+**Sources:** Bestiary 2 pg 236\
 **Subtype:** Earth, Elemental, Extraplanar
 
 **tremorsense:** 30

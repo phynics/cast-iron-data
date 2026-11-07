@@ -43,6 +43,7 @@ tail out level behind it._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 58\
 **Experience points:** 19,200
 
 **Armor class:** 25/4/23

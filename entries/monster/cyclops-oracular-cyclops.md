@@ -43,6 +43,7 @@ _Clothed in loose robes and wearing jewelry, this one-eyed giant appears to hold
 
 **Perception:** +20
 
+**Sources:** Pathfinder \#58: Island of Empty Eyes pg 73\
 **Subtype:** Giant
 
 **Experience points:** 3,200

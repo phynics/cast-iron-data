@@ -45,6 +45,7 @@ distorted, ephemeral images and reflections._
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 197\
 **Subtype:** Extraplanar, Incorporeal
 
 **thoughtsense:** 60

@@ -35,6 +35,7 @@ abilities = ["5", "17", "-", "2", "10", "15"]
 
 **Perception:** +5
 
+**Sources:** Lost Kingdoms pg 19\
 **Subtype:** Swarm
 
 **Size:** tiny

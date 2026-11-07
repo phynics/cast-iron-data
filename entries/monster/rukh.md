@@ -40,6 +40,7 @@ _This gigantic two-headed vulture has greasy, night-black wings and sharp talons
 
 **Perception:** +32
 
+**Sources:** Bestiary 4 pg 228, Pathfinder \#21: The Jackal's Price pg 84\
 **Experience points:** 9,600
 
 **Armor class:** 23/8/21

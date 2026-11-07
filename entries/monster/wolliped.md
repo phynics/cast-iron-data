@@ -44,6 +44,7 @@ tusks jut downward, flanking its mouth._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 279\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

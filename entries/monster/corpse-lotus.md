@@ -46,6 +46,7 @@ vines._
 
 **Type:** plant
 
+**Sources:** Bestiary 5 pg 60, Pathfinder \#78: City of Locusts pg 84\
 **tremorsense:** 30
 
 **Experience points:** 25,600

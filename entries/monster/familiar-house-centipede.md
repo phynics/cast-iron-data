@@ -35,6 +35,7 @@ abilities = ["1", "17", "10", "-", "10", "2"]
 
 **Perception:** +4
 
+**Sources:** Ultimate Magic pg 119\
 **Size:** tiny
 
 **Type:** vermin

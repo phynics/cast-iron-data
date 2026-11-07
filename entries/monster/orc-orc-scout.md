@@ -46,6 +46,7 @@ abilities = ["17", "16", "12", "8", "12", "6"]
 
 **Sense:** Scent
 
+**Sources:** Monster Codex pg 169\
 **Subtype:** Orc
 
 **Experience points:** 1,600

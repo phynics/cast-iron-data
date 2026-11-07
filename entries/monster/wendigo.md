@@ -48,6 +48,7 @@ legs end in blackened, burnt stumps._
 
 **Perception:** +26
 
+**Sources:** Bestiary 2 pg 281, Pathfinder \#6: Spires of Xin-Shalast pg 88\
 **Subtype:** Cold, Native
 
 **Experience points:** 102,400

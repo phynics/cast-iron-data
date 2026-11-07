@@ -44,6 +44,7 @@ and jagged teeth lend rodent-like qualities to the imposing war beast._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#119: Prisoners of the Blight pg 88\
 **Experience points:** 600
 
 **Armor class:** 14/11/13

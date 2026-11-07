@@ -42,6 +42,7 @@ _Within a towering structure of bone and rotting flesh lurk hundreds of flitteri
 
 **Perception:** +31
 
+**Sources:** Inner Sea Bestiary pg 20\
 **Subtype:** Chaotic, Evil, Extraplanar, Swarm
 
 **Experience points:** 38,400

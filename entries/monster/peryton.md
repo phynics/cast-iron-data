@@ -44,6 +44,7 @@ rack of sharp antlers on its brow._
 
 **Perception:** +10
 
+**Sources:** Bestiary 2 pg 207, Pathfinder \#19: Howl of the Carrion King pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

@@ -45,6 +45,7 @@ around it._
 
 **Perception:** +35
 
+**Sources:** Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Evil, Extraplanar, Incorporeal
 
 **Type:** undead

@@ -45,6 +45,7 @@ the reed-thin antennae waving upon its head as if testing the air for the scent 
 
 **Perception:** +6
 
+**Sources:** Pathfinder \#34: Blood for Blood pg 82\
 **tremorParens:** in water
 
 **tremorsense:** 120

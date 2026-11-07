@@ -42,6 +42,7 @@ stripped of its skin, its pulsing muscles completely exposed._
 
 **Perception:** +7
 
+**Sources:** Pathfinder \#44: Trial of the Beast pg 88\
 **Experience points:** 600
 
 **Armor class:** 15/13/12

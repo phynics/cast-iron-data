@@ -46,6 +46,7 @@ to scorch the air as it moves._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 211\
 **Experience points:** 800
 
 **Armor class:** 20/18/12

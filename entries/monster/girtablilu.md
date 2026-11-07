@@ -42,6 +42,7 @@ _The body of a spear-wielding woman rises from the front of this monstrously hug
 
 **Perception:** +14
 
+**Sources:** Bestiary 3 pg 130\
 **tremorsense:** 30
 
 **Experience points:** 4,800

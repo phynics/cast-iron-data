@@ -41,6 +41,7 @@ head._
 
 **Size:** small
 
+**Sources:** Bestiary 3 pg 147\
 **Experience points:** 200
 
 **Armor class:** 14/14/11

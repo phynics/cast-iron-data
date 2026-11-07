@@ -47,6 +47,7 @@ eyes search for a target._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder RPG Bestiary pg 75\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 4,800

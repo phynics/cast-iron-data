@@ -44,6 +44,7 @@ razor-sharp beak._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 95, Pathfinder \#37: Souls for Smuggler's Shiv pg 82\
 **Experience points:** 3,200
 
 **Armor class:** 19/12/15

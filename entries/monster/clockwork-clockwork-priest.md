@@ -46,6 +46,7 @@ into its chest._
 
 **Perception:** +4
 
+**Sources:** Construct Handbook pg 34\
 **Subtype:** Clockwork
 
 **Experience points:** 12,800

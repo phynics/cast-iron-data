@@ -53,6 +53,7 @@ of blistering fire._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 30\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 6,553,600

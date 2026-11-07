@@ -47,6 +47,7 @@ _Resembling a metallic horned devil, this apparatus whirs with the sound of inte
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 60\
 **Subtype:** Clockwork
 
 **Experience points:** 102,400

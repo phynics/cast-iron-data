@@ -44,6 +44,7 @@ rises up to support the ceiling._
 
 **Perception:** +0
 
+**Sources:** Bestiary 3 pg 46, Bonus Bestiary pg 8\
 **Experience points:** 800
 
 **Armor class:** 14/9/14

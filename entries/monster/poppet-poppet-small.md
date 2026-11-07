@@ -40,6 +40,7 @@ abilities = ["12", "12", "-", "-", "5", "1"]
 
 **Size:** small
 
+**Sources:** Adventurer's Armory 2 pg 31\
 **Experience points:** 200
 
 **Armor class:** 12/12/11

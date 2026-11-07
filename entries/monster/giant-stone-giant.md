@@ -45,6 +45,7 @@ it were carved of stone._
 
 **Perception:** +12
 
+**Sources:** Pathfinder RPG Bestiary pg 151\
 **Subtype:** Giant
 
 **Experience points:** 4,800

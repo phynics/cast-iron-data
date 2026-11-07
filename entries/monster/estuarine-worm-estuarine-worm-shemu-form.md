@@ -42,6 +42,7 @@ abilities = ["24", "8", "23", "1", "13", "8"]
 
 **Perception:** +11
 
+**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 86\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

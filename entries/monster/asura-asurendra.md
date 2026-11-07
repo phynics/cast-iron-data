@@ -53,6 +53,7 @@ glowing weaponry._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 3 pg 23\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 307,200

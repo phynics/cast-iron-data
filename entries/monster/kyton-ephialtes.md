@@ -47,6 +47,7 @@ iron bands, matching the fiend's tail as they writhe like snakes in search of pr
 
 **Perception:** +24
 
+**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 86\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 76,800

@@ -46,6 +46,7 @@ stinger._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 43\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

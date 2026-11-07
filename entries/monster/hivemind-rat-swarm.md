@@ -46,6 +46,7 @@ center of the mass._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 156\
 **Subtype:** Swarm
 
 **thoughtsense:** 60

@@ -45,6 +45,7 @@ tentacles connected by a fleshy web._
 
 **Size:** small
 
+**Sources:** Pathfinder RPG Bestiary pg 55\
 **Experience points:** 400
 
 **Armor class:** 15/13/13

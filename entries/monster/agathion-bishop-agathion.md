@@ -48,6 +48,7 @@ its stately mouth, and its human-like hands and feet end in stubby but sharp cla
 
 **Perception:** +11
 
+**Sources:** Pathfinder \#61: Shards of Sin pg 80\
 **Subtype:** Aquatic, Extraplanar, Good
 
 **Experience points:** 1,200

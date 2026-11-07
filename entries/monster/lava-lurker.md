@@ -44,6 +44,7 @@ and reforming rock._
 
 **Perception:** +15
 
+**Sources:** The Emerald Spire Superdungeon pg 155\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **tremorsense:** 60

@@ -43,6 +43,7 @@ length of its body._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 3 pg 193\
 **Experience points:** 3,200
 
 **Armor class:** 21/9/20

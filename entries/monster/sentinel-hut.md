@@ -44,6 +44,7 @@ an enormous pair of knobby legs._
 
 **Perception:** +0
 
+**Sources:** Irrisen - Land of Eternal Winter pg 60\
 **Experience points:** 4,800
 
 **Armor class:** 21/11/18

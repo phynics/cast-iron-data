@@ -49,6 +49,7 @@ back._
 
 **Perception:** +8
 
+**Sources:** Monster Codex pg 160\
 **Subtype:** Giant
 
 **Experience points:** 2,400

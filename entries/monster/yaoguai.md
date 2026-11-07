@@ -44,6 +44,7 @@ ape legs, and a furred tentacle arm._
 
 **Perception:** +7
 
+**Sources:** Bestiary 4 pg 284\
 **Experience points:** 3,200
 
 **Armor class:** 18/8/18

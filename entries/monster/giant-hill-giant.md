@@ -43,6 +43,7 @@ brutish and backwoods lifestyle._
 
 **Perception:** +6
 
+**Sources:** Pathfinder RPG Bestiary pg 150\
 **Subtype:** Giant
 
 **Experience points:** 3,200

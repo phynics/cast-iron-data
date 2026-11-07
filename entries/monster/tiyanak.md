@@ -43,6 +43,7 @@ jagged teeth._
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 248\
 **Type:** undead
 
 **Experience points:** 2,400

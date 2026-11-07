@@ -47,6 +47,7 @@ moves, the air around it thrums with a high-pitched wail._
 
 **Perception:** +23
 
+**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 88\
 **Experience points:** 51,200
 
 **Armor class:** 29/11/26

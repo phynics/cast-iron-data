@@ -43,6 +43,7 @@ arms, legs, and a tail._
 
 **Perception:** +6
 
+**Sources:** Pathfinder \#121: The Lost Outpost pg 84\
 **Experience points:** 400
 
 **Armor class:** 12/12/10

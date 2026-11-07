@@ -48,6 +48,7 @@ serpent slithers forward with a silent, unearthly grace._
 
 **Perception:** +17
 
+**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 86, Bestiary 3 pg 149\
 **Subtype:** Reptilian
 
 **Type:** undead

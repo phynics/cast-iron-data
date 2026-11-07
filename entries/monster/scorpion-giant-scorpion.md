@@ -39,6 +39,7 @@ tail arched over its back._
 
 **Perception:** +4
 
+**Sources:** Pathfinder RPG Bestiary pg 242\
 **tremorsense:** 60
 
 **Type:** vermin

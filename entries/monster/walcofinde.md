@@ -40,6 +40,7 @@ patterned with the texture of the structure around it._
 
 **Perception:** +6
 
+**Sources:** Pathfinder \#127: Crownfall pg 88\
 **Type:** undead
 
 **Experience points:** 600

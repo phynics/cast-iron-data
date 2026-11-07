@@ -44,6 +44,7 @@ clacking mandibles._
 
 **Perception:** +8
 
+**Sources:** Pathfinder RPG Bestiary pg 15\
 **tremorsense:** 60
 
 **Experience points:** 800

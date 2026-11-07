@@ -47,6 +47,7 @@ rapier-like tail stinger._
 
 **Perception:** +7
 
+**Sources:** Pathfinder \#58: Island of Empty Eyes pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

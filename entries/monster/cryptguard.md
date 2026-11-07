@@ -47,6 +47,7 @@ raven's skull for a head._
 
 **Perception:** +1
 
+**Sources:** Bestiary 6 pg 68\
 **Experience points:** 6,400
 
 **Armor class:** 23/13/20

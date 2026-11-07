@@ -42,6 +42,7 @@ dripping with green venom._
 
 **Perception:** +12
 
+**Sources:** Bestiary 4 pg 244, Dungeons of Golarion pg 31, Magnimar, City of Monuments pg 60\
 **tremorsense:** 60
 
 **Experience points:** 1,200

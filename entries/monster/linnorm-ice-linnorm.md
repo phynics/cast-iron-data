@@ -48,6 +48,7 @@ from its coiling flanks._
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder RPG Bestiary pg 191\
 **Experience points:** 102,400
 
 **Armor class:** 32/8/26

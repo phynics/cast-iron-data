@@ -41,6 +41,7 @@ _This swift brown insect scampers up walls, its antennae flailing._
 
 **Perception:** +0
 
+**Sources:** Ultimate Wilderness pg 193\
 **Type:** vermin
 
 **Experience points:** 50

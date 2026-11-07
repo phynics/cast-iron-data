@@ -48,6 +48,7 @@ immense, cruel-looking halberd._
 
 **Senses:** Deathwatch, True seeing
 
+**Sources:** Bestiary 6 pg 72, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 50\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 204,800

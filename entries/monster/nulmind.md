@@ -45,6 +45,7 @@ incandescence._
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 184\
 **Experience points:** 12,800
 
 **Armor class:** 25/16/20

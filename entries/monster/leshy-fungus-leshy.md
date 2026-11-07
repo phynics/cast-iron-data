@@ -47,6 +47,7 @@ set with pale fungal teeth._
 
 **Size:** small
 
+**Sources:** Bestiary 3 pg 177, Pathfinder \#34: Blood for Blood pg 86\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 600

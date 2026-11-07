@@ -44,6 +44,7 @@ three tentacular tails._
 
 **Perception:** +23
 
+**Sources:** Bestiary 2 pg 278, Into the Darklands pg 62\
 **tremorsense:** 30
 
 **Experience points:** 38,400

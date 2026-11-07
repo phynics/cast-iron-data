@@ -42,6 +42,8 @@ sharp teeth._
 
 **Size:** small
 
+**Sources:** Ultimate Wilderness pg 206, Pathfinder \#55: The Wormwood Mutiny pg 89, Bestiary 5 pg
+113\
 **Experience points:** 135
 
 **Armor class:** 13/12/12

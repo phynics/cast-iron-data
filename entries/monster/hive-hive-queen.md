@@ -48,6 +48,7 @@ mandibles._
 
 **Senses:** Hive mind
 
+**Sources:** Horror Adventures pg 236\
 **Subtype:** Hive
 
 **Experience points:** 9,600

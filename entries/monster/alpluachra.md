@@ -44,6 +44,7 @@ looks hungry._
 
 **Perception:** +4
 
+**Sources:** Bestiary 4 pg 9\
 **Subtype:** Aquatic
 
 **Experience points:** 200

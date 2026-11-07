@@ -43,6 +43,7 @@ snapping jaws that grind menacingly between each bite._
 
 **Perception:** +14
 
+**Sources:** Pathfinder \#58: Island of Empty Eyes pg 84\
 **Experience points:** 4,800
 
 **Armor class:** 21/7/20

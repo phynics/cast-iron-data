@@ -44,6 +44,7 @@ abilities = ["38", "21", "35", "3", "30", "20"]
 
 **Perception:** +42
 
+**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 64\
 **tremorsense:** 600
 
 **Experience points:** 1,228,800

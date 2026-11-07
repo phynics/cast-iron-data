@@ -46,6 +46,7 @@ cold, blue eyes._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 2 pg 88, Pathfinder \#7: Edge of Anarchy pg 80\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

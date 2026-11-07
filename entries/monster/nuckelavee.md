@@ -45,6 +45,7 @@ of rage and sickness._
 
 **Perception:** +17
 
+**Sources:** Bestiary 3 pg 203, Pathfinder \#34: Blood for Blood pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

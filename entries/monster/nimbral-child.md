@@ -45,6 +45,7 @@ a burning void within its head._
 
 **Sense:** Sid
 
+**Sources:** Cradle of Night pg 63\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 12,800

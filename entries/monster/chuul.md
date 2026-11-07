@@ -44,6 +44,7 @@ of writhing tentacles._
 
 **Perception:** +19
 
+**Sources:** Pathfinder RPG Bestiary pg 46\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

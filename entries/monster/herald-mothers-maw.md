@@ -49,6 +49,7 @@ of rotting meat, spice, and perfume._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder \#47: Ashes at Dawn pg 82\
 **Subtype:** Evil, Extraplanar
 
 **Type:** undead

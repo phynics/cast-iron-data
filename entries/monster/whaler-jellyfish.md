@@ -41,6 +41,7 @@ tendrils below its body._
 
 **Perception:** +7
 
+**Sources:** Bestiary 6 pg 169\
 **Subtype:** Aquatic
 
 **Type:** vermin

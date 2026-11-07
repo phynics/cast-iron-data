@@ -44,6 +44,7 @@ three tendrils, two of which wield weapons._
 
 **Perception:** +8
 
+**Sources:** Bestiary 6 pg 229\
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 800

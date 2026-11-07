@@ -44,6 +44,7 @@ pair of serpentine vines._
 
 **Type:** plant
 
+**Sources:** Bestiary 6 pg 67\
 **tremorsense:** 30
 
 **Experience points:** 3,200

@@ -45,6 +45,7 @@ in curved blades._
 
 **Senses:** Deathwatch, Detect good, True seeing
 
+**Sources:** Bestiary 3 pg 62\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 51,200

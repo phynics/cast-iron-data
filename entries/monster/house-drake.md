@@ -46,6 +46,7 @@ tail has a silvery sheen._
 
 **Senses:** See invisibility
 
+**Sources:** Curse of the Crimson Throne pg 474\
 **Size:** tiny
 
 **Experience points:** 600

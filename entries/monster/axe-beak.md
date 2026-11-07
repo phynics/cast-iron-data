@@ -42,6 +42,7 @@ looks the most ferocious._
 
 **Perception:** +9
 
+**Sources:** Bestiary 3 pg 28, Bonus Bestiary pg 7\
 **Experience points:** 600
 
 **Armor class:** 14/12/11

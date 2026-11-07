@@ -42,6 +42,7 @@ with a withered crocodile head._
 
 **Perception:** +12
 
+**Sources:** Bestiary 5 pg 63\
 **Type:** undead
 
 **Experience points:** 9,600

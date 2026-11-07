@@ -43,6 +43,7 @@ _Vicious shadows wrap around the form of this pudgy, white-eyed child._
 
 **Size:** small
 
+**Sources:** Taldor, the First Empire pg 62\
 **Experience points:** 600
 
 **Armor class:** 17/15/13

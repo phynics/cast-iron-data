@@ -48,6 +48,7 @@ a deep sea predator._
 
 **Senses:** Detect good, Detect law, True seeing
 
+**Sources:** Bestiary 4 pg 46\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Water
 
 **Experience points:** 4,915,200

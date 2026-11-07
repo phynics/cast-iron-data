@@ -48,6 +48,7 @@ other in a massive shield._
 
 **Perception:** +15
 
+**Sources:** Bestiary 2 pg 31\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 9,600

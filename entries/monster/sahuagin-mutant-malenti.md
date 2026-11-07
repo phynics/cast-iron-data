@@ -45,6 +45,7 @@ _A predatory gleam glints in the eyes of this stern-looking aquatic elf._
 
 **Perception:** +6
 
+**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 600

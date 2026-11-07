@@ -45,6 +45,7 @@ front legs end in clawed hands._
 
 **Sense:** Scent
 
+**Sources:** The Worldwound pg 43\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 9,600

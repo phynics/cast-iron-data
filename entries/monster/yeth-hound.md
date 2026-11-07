@@ -44,6 +44,7 @@ _This emaciated, hairless canine has a strange air of menace and cruelty about i
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 286\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 800

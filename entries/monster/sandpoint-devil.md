@@ -47,6 +47,7 @@ complete its vile appearance._
 
 **Sense:** Scent
 
+**Sources:** Inner Sea World Guide pg 311, Mystery Monsters Revisited pg 39\
 **Subtype:** Native
 
 **Experience points:** 4,800

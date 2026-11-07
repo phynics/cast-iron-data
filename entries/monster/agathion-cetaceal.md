@@ -50,6 +50,7 @@ sleek killer whale._
 
 **Perception:** +28
 
+**Sources:** Bestiary 2 pg 17\
 **Subtype:** Agathion, Aquatic, Extraplanar, Good
 
 **Experience points:** 51,200

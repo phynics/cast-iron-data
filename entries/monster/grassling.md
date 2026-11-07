@@ -44,6 +44,7 @@ each with fingers like long blades, and leaves circle its head like a crown._
 
 **Size:** small
 
+**Sources:** Pathfinder \#129: The Twilight Child pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 19/15/15

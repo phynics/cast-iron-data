@@ -47,6 +47,7 @@ glare menacingly._
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 156\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 1,200

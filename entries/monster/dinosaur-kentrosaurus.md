@@ -44,6 +44,7 @@ projecting from its shoulders._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 95\
 **Experience points:** 1,600
 
 **Armor class:** 19/11/17

@@ -51,6 +51,7 @@ slender hand._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 279\
 **Subtype:** Wild hunt
 
 **Experience points:** 25,600

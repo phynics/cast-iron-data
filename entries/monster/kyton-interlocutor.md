@@ -43,6 +43,7 @@ veins, organs, and twisted flesh._
 
 **Perception:** +23
 
+**Sources:** Bestiary 3 pg 174\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 19,200

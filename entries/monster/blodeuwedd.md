@@ -47,6 +47,7 @@ itself whispers around her feet as patches of clover, heather, and milkweed mark
 
 **Perception:** +11
 
+**Sources:** Pathfinder \#33: The Varnhold Vanishing pg 80\
 **Experience points:** 2,400
 
 **Armor class:** 20/16/14

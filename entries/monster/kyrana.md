@@ -44,6 +44,7 @@ mouth._
 
 **Perception:** +9
 
+**Sources:** Monster Codex pg 136\
 **Subtype:** Fire
 
 **Experience points:** 800

@@ -39,6 +39,7 @@ hands._
 
 **Perception:** +10
 
+**Sources:** Bestiary 3 pg 289\
 **Type:** undead
 
 **Experience points:** 1,200

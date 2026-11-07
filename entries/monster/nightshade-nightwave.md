@@ -48,6 +48,7 @@ island heaved up from below._
 
 **Senses:** Detect magic
 
+**Sources:** Bestiary 2 pg 202\
 **Subtype:** Aquatic, Extraplanar, Nightshade
 
 **Type:** undead

@@ -44,6 +44,7 @@ _This metallic sculpture of an idealized humanoid figure sparkles with divine lu
 
 **Perception:** +2
 
+**Sources:** Bestiary 5 pg 52\
 **Experience points:** 400
 
 **Armor class:** 12/10/12

@@ -39,6 +39,7 @@ abilities = ["28", "12", "20", "-", "20", "10"]
 
 **Perception:** +5
 
+**Sources:** Curse of the Crimson Throne pg 473\
 **Experience points:** 2,400
 
 **Armor class:** 19/10/18

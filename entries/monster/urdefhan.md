@@ -44,6 +44,7 @@ and ivory bones inside its body._
 
 **Perception:** +7
 
+**Sources:** Bestiary 2 pg 276, Into the Darklands pg 60\
 **Subtype:** Native
 
 **Experience points:** 800

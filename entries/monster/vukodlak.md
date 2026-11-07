@@ -44,6 +44,7 @@ fanged muzzle and glowing red eyes._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 5 pg 272\
 **Type:** undead
 
 **Experience points:** 800

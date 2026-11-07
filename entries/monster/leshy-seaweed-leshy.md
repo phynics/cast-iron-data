@@ -46,6 +46,7 @@ made from seashells._
 
 **Size:** small
 
+**Sources:** Bestiary 3 pg 180\
 **Subtype:** Aquatic, Leshy, Shapechanger
 
 **Experience points:** 800

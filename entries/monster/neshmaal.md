@@ -46,6 +46,7 @@ air, giving off an aura of dark, alien menace._
 
 **Perception:** +18
 
+**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 86\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 19,200

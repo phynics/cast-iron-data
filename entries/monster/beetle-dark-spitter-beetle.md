@@ -38,6 +38,7 @@ _This large beetle's black, shiny exoskeleton clicks and grinds as it opens its 
 
 **Perception:** +0
 
+**Sources:** Monster Codex pg 52\
 **Type:** vermin
 
 **Experience points:** 800

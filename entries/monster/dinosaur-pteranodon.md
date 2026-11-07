@@ -43,6 +43,7 @@ head._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 85\
 **Experience points:** 800
 
 **Armor class:** 16/14/11

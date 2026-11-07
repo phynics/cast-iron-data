@@ -38,6 +38,7 @@ above the clanging mess._
 
 **Perception:** +12
 
+**Sources:** Bestiary 4 pg 123\
 **Size:** tiny
 
 **Type:** undead

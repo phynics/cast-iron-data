@@ -44,6 +44,7 @@ thin, rat-like tail twitches behind it._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 215\
 **Experience points:** 25,600
 
 **Armor class:** 28/19/19

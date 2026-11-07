@@ -45,6 +45,7 @@ _A pile of more than 100,000 coins has been given malevolent life._
 
 **Perception:** +2
 
+**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 68\
 **Experience points:** 6,400
 
 **Armor class:** 21/8/21

@@ -43,6 +43,7 @@ head should be._
 
 **Perception:** +13
 
+**Sources:** Down the Blighted Path pg 53\
 **Type:** undead
 
 **Experience points:** 1,600

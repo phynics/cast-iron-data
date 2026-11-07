@@ -41,6 +41,7 @@ _This curious, sand-colored, weasel-like creature has dark bands around its inqu
 
 **Sense:** Scent
 
+**Sources:** Ultimate Wilderness pg 200\
 **Size:** tiny
 
 **Experience points:** 100

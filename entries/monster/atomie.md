@@ -41,6 +41,7 @@ the wee creature aloft._
 
 **Perception:** +7
 
+**Sources:** Bestiary 3 pg 27\
 **Experience points:** 400
 
 **Armor class:** 17/17/14

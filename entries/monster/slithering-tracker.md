@@ -42,6 +42,7 @@ attack._
 
 **Size:** small
 
+**Sources:** Bestiary 2 pg 250\
 **Experience points:** 1,200
 
 **Armor class:** 15/15/11

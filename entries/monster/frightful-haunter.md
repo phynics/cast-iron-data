@@ -43,6 +43,7 @@ and hairy, fanged face._
 
 **Perception:** +17
 
+**Sources:** Monster Codex pg 28\
 **Subtype:** Incorporeal
 
 **Type:** undead

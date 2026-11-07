@@ -39,6 +39,7 @@ _This tiny avian has the head of a humanoid and the body of a brilliantly colore
 
 **Perception:** +7
 
+**Sources:** Bestiary 6 pg 189, Inner Sea Bestiary pg 31\
 **Size:** tiny
 
 **Experience points:** 400

@@ -49,6 +49,7 @@ back, and its head bears three faces._
 
 **Senses:** Arcane sight, True seeing
 
+**Sources:** Pathfinder \#90: The Divinity Drive pg 84\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 38,400

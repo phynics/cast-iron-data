@@ -44,6 +44,7 @@ voracity._
 
 **Perception:** -5
 
+**Sources:** Bestiary 3 pg 152\
 **Experience points:** 2,400
 
 **Armor class:** 5/5/5

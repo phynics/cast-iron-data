@@ -43,6 +43,7 @@ up from its jaw, guarding its eyes._
 
 **Sense:** Scent
 
+**Sources:** Taldor, the First Empire pg 61\
 **Experience points:** 2,400
 
 **Armor class:** 18/9/18

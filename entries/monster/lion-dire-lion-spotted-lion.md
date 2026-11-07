@@ -43,6 +43,7 @@ its victims._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 193\
 **Experience points:** 1,600
 
 **Armor class:** 15/11/13

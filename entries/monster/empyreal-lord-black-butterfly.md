@@ -55,6 +55,7 @@ with twinkling stars._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 112\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 4,915,200

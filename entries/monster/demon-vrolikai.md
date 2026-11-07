@@ -47,6 +47,7 @@ with dead, white eyes._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 2 pg 81\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 204,800

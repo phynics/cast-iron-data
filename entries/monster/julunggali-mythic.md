@@ -56,6 +56,7 @@ crown its head._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 4 pg 164\
 **Subtype:** Aquatic, Extraplanar, Mythic, Shapechanger
 
 **Experience points:** 409,600

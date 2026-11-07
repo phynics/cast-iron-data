@@ -51,6 +51,7 @@ prodigious nose, and large raven-like wings._
 
 **Senses:** See invisibility
 
+**Sources:** Pathfinder \#49: The Brinewall Legacy pg 88\
 **Subtype:** Native, Oni, Shapechanger
 
 **Experience points:** 1,600

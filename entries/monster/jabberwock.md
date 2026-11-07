@@ -55,6 +55,7 @@ and wings in a violent manner._
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 2 pg 168\
 **Subtype:** Air, Fire
 
 **Experience points:** 819,200

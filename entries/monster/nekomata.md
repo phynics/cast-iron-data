@@ -47,6 +47,7 @@ _This oversized house cat has two twitching tails and a malevolent gleam in its 
 
 **Sense:** Scent
 
+**Sources:** Bestiary 6 pg 201\
 **Subtype:** Shapechanger
 
 **Experience points:** 2,400

@@ -46,6 +46,7 @@ teeth._
 
 **Perception:** +11
 
+**Sources:** Bestiary 4 pg 241, Pathfinder \#57: Tempest Rising pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

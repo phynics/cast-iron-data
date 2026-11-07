@@ -40,6 +40,7 @@ jerks._
 
 **Perception:** +23
 
+**Sources:** Bestiary 6 pg 286\
 **Type:** undead
 
 **Experience points:** 19,200

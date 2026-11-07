@@ -43,6 +43,7 @@ this slithering creature. Its face is disturbingly demonic._
 
 **Perception:** +7
 
+**Sources:** Gallows of Madness pg 59\
 **Experience points:** 400
 
 **Armor class:** 13/11/12

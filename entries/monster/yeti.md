@@ -45,6 +45,7 @@ of thick white fur._
 
 **Sense:** Scent
 
+**Sources:** Pathfinder RPG Bestiary pg 287\
 **Subtype:** Cold
 
 **Experience points:** 1,200

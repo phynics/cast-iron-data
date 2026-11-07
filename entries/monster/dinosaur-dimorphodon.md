@@ -44,6 +44,7 @@ with tiny sharp teeth._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 58, Pathfinder \#37: Souls for Smuggler's Shiv pg 82\
 **Experience points:** 400
 
 **Armor class:** 14/13/11

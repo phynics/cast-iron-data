@@ -47,6 +47,7 @@ swirling with vibrant colors._
 
 **Perception:** +15
 
+**Sources:** Pathfinder RPG Bestiary pg 24\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger
 
 **Experience points:** 2,400

@@ -46,6 +46,7 @@ sports a nest of sting-tipped tendrils._
 
 **Perception:** +19
 
+**Sources:** Planar Adventures pg 248\
 **Subtype:** Extraplanar
 
 **Experience points:** 51,200

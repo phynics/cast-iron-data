@@ -45,6 +45,7 @@ hair._
 
 **Perception:** +16
 
+**Sources:** Pathfinder RPG Bestiary pg 201\
 **Experience points:** 3,200
 
 **Armor class:** 15/12/13

@@ -39,6 +39,7 @@ appearance._
 
 **Size:** small
 
+**Sources:** Bestiary 5 pg 30\
 **Experience points:** 600
 
 **Armor class:** 15/13/13

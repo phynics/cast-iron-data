@@ -41,6 +41,7 @@ out from its body as swiftly as they collapse back into its central mass._
 
 **Perception:** +8
 
+**Sources:** Nidal, Land of Shadows pg 64\
 **Subtype:** Extraplanar, Incorporeal
 
 **Size:** tiny

@@ -48,6 +48,7 @@ torsos are topped with a single head bearing three faces, each set in a bland, s
 
 **Senses:** True seeing
 
+**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 82\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 51,200

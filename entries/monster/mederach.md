@@ -46,6 +46,7 @@ and massive mandibles._
 
 **Senses:** Detect evil
 
+**Sources:** Pathfinder \#105: The Inferno Gate pg 88\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 6,400

@@ -42,6 +42,7 @@ looks unsettlingly like that of a gnome._
 
 **Size:** small
 
+**Sources:** Pathfinder \#105: The Inferno Gate pg 90\
 **Subtype:** Incorporeal
 
 **Type:** undead

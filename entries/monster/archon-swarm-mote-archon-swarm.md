@@ -48,6 +48,7 @@ cloud is a glowing rune no bigger than a thumbnail._
 
 **Perception:** +24
 
+**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 88\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Swarm
 
 **Experience points:** 51,200

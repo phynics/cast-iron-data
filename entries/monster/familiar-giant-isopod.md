@@ -40,6 +40,7 @@ shell-like plates._
 
 **Perception:** +0
 
+**Sources:** Ultimate Wilderness pg 198, Pathfinder \#55: The Wormwood Mutiny pg 89\
 **Subtype:** Aquatic
 
 **Size:** tiny

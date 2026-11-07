@@ -40,6 +40,7 @@ abilities = ["30", "17", "-", "9", "14", "21"]
 
 **Perception:** +26
 
+**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 89\
 **Subtype:** Water
 
 **Type:** undead

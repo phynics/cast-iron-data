@@ -46,6 +46,7 @@ looming malevolence and faint foul breath._
 
 **Sense:** Sid
 
+**Sources:** Pathfinder \#29: Mother of Flies pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
 
 **Experience points:** 2,400

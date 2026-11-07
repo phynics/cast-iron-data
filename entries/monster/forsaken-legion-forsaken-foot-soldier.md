@@ -41,6 +41,7 @@ arm._
 
 **Perception:** +8
 
+**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 87\
 **Type:** undead
 
 **Experience points:** 600

@@ -46,6 +46,7 @@ four arms ends in a clawed hand._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 81\
 **Experience points:** 153,600
 
 **Armor class:** 33/21/27

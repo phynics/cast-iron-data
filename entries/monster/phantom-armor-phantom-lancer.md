@@ -38,6 +38,7 @@ abilities = ["17", "15", "-", "7", "11", "18"]
 
 **Perception:** +12
 
+**Sources:** Pathfinder \#47: Ashes at Dawn pg 84\
 **Type:** undead
 
 **Experience points:** 2,400

@@ -44,6 +44,7 @@ abilities = ["23", "14", "18", "8", "6", "10"]
 
 **Perception:** +8
 
+**Sources:** Monster Codex pg 170\
 **Subtype:** Orc
 
 **Experience points:** 2,400

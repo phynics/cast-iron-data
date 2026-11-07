@@ -45,6 +45,7 @@ _This small, centaur-like ant creature bears a huge, bulging sack on its armored
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 113\
 **Experience points:** 200
 
 **Armor class:** 12/11/12

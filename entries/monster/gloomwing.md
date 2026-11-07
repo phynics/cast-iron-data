@@ -43,6 +43,7 @@ writhe._
 
 **Perception:** +9
 
+**Sources:** Bestiary 2 pg 133\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,200

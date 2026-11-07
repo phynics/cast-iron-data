@@ -44,6 +44,7 @@ ocean's waves._
 
 **Senses:** Dragon senses
 
+**Sources:** Bestiary 3 pg 96\
 **Subtype:** Water
 
 **Experience points:** 4,800

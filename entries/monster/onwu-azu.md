@@ -45,6 +45,7 @@ its hunger._
 
 **Size:** small
 
+**Sources:** Plunder and Peril pg 63\
 **Subtype:** Aquatic
 
 **Experience points:** 400

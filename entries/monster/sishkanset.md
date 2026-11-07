@@ -44,6 +44,7 @@ body._
 
 **Perception:** +15
 
+**Sources:** Pathfinder \#129: The Twilight Child pg 88\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 4,800

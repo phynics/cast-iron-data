@@ -43,6 +43,7 @@ and its hooves spray sparks._
 
 **Perception:** +12
 
+**Sources:** Pathfinder RPG Bestiary pg 216\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 1,600

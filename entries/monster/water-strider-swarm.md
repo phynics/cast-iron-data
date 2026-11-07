@@ -41,6 +41,7 @@ skimming over it in a wave of twitching bodies._
 
 **Perception:** +6
 
+**Sources:** Pathfinder \#49: The Brinewall Legacy pg 82\
 **Subtype:** Swarm
 
 **tremorsense:** 30

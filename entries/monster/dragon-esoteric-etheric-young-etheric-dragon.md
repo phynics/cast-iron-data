@@ -45,6 +45,7 @@ _This silent dragon seems to gather shadows and gloom around its tattered-appear
 
 **Sense:** Sid
 
+**Sources:** Bestiary 5 pg 92\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

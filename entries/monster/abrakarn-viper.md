@@ -45,6 +45,7 @@ _This massive, three-headed clockwork snake is crafted of brass and strange, dar
 
 **Perception:** +4
 
+**Sources:** Monster Codex pg 40\
 **Subtype:** Chaotic, Evil
 
 **Experience points:** 25,600

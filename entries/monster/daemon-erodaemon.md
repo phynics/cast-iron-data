@@ -45,6 +45,7 @@ ends in a hissing viper's head._
 
 **Senses:** Detect good
 
+**Sources:** Bestiary 6 pg 70, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 46\
 **Subtype:** Daemon, Evil, Extraplanar, Shapechanger
 
 **Experience points:** 12,800

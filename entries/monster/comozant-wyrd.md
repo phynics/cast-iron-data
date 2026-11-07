@@ -44,6 +44,7 @@ and plays within its shifting mass._
 
 **Size:** small
 
+**Sources:** Bestiary 4 pg 40, Pathfinder \#57: Tempest Rising pg 82\
 **Subtype:** Air, Elemental, Extraplanar, Incorporeal
 
 **Experience points:** 1,200

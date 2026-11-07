@@ -45,6 +45,7 @@ _This creature has the body of a middle-aged human man and the pointed ears and 
 
 **Senses:** True seeing
 
+**Sources:** Bestiary 5 pg 224\
 **Experience points:** 204,800
 
 **Armor class:** 37/30/26

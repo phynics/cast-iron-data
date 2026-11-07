@@ -46,6 +46,7 @@ between its two pincers._
 
 **Perception:** +18
 
+**Sources:** The Worldwound pg 47\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 6,400

@@ -46,6 +46,7 @@ fangs._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 4 pg 207\
 **Subtype:** Aquatic
 
 **Size:** tiny

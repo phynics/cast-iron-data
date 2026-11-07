@@ -50,6 +50,7 @@ mace of black metal._
 
 **Sense:** Sid
 
+**Sources:** Bestiary 6 pg 22\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 3,276,800

@@ -42,6 +42,7 @@ pulsing of its massive, exposed muscles._
 
 **Perception:** +25
 
+**Sources:** Bestiary 3 pg 109\
 **Type:** undead
 
 **Experience points:** 76,800

@@ -45,6 +45,7 @@ stretched over its icy bones._
 
 **Perception:** +32
 
+**Sources:** Bestiary 5 pg 61, Pathfinder \#72: The Witch Queen's Revenge pg 84\
 **Subtype:** Cold
 
 **Type:** undead

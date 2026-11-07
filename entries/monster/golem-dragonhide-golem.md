@@ -45,6 +45,7 @@ various colors._
 
 **Perception:** +26
 
+**Sources:** Construct Handbook pg 42\
 **Experience points:** 76,800
 
 **Armor class:** 31/10/29

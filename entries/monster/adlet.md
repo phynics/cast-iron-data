@@ -44,6 +44,7 @@ fist._
 
 **Perception:** +13
 
+**Sources:** Bestiary 3 pg 9\
 **Subtype:** Adlet, Cold
 
 **Experience points:** 9,600

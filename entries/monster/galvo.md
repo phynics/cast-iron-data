@@ -48,6 +48,7 @@ shape, crackling with energy._
 
 **Perception:** +10
 
+**Sources:** Bestiary 4 pg 120, Pathfinder \#59: The Price of Infamy pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

@@ -47,6 +47,7 @@ traceries of blue lines._
 
 **Perception:** +20
 
+**Sources:** Planar Adventures pg 237\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 12,800

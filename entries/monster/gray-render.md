@@ -46,6 +46,7 @@ its only facial features._
 
 **Sense:** Scent
 
+**Sources:** Bestiary 2 pg 140\
 **Experience points:** 4,800
 
 **Armor class:** 21/10/20
