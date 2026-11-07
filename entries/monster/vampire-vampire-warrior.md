@@ -34,9 +34,7 @@ abilities = ["20", "20", "-", "10", "15", "18"]
 
 **augment:** Humanoid
 
-**blindsight:** 60
-
-**blindsightParens:** breathing creatures only
+**blindsight:** 60 ft. (breathing creatures only)
 
 **dv:** 60
 
