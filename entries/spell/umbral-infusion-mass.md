@@ -12,25 +12,18 @@ kind = "spell"
 school = "necromancy"
 descriptors = ["shadow"]
 levels = [
-  { class = "Alchemist", level = 4 },
-  { class = "Antipaladin", level = 4 },
-  { class = "Arcanist", level = 4 },
-  { class = "Cleric", level = 4 },
-  { class = "Investigator", level = 4 },
-  { class = "Occultist", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Shaman", level = 4 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Warpriest", level = 4 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 8 },
+  { class = "Cleric", level = 8 },
+  { class = "Oracle", level = 8 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Witch", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one mindless undead creature" },
+  { label = "Target", value = "one mindless undead creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 minute/level"
 saving_throw = "Will negates"
@@ -40,14 +33,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 4: Alchemist, Antipaladin, Arcanist, Cleric, Investigator, Occultist, Oracle, Psychic, Shaman, Sorcerer, Warpriest, Witch, Wizard
+Level: 8: Arcanist, Cleric, Oracle, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one mindless undead creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 minute/level
 Saving throw: Will negates
 Spell resistance: yes
-Target: one mindless undead creature
 Descriptors: shadow
 :::
 

@@ -12,11 +12,11 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Bard", level = 2 },
-  { class = "Cleric", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Warpriest", level = 2 },
+  { class = "Bard", level = 4 },
+  { class = "Cleric", level = 4 },
+  { class = "Oracle", level = 4 },
+  { class = "Skald", level = 4 },
+  { class = "Warpriest", level = 4 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -32,14 +32,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 2: Bard, Cleric, Oracle, Skald, Warpriest
+Level: 4: Bard, Cleric, Oracle, Skald, Warpriest
 Casting time: 1 standard action
 Components: V, S
 Range: touch (see text)
+Area: four 5-ft. squares/level (see text)
 Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
-Area: four 5-ft. squares/level (see text)
 Subschool: Healing
 :::
 

@@ -12,20 +12,20 @@ kind = "spell"
 school = "evocation"
 descriptors = ["earth"]
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Bloodrager", level = 1 },
-  { class = "Druid", level = 1 },
-  { class = "Hunter", level = 1 },
-  { class = "Magus", level = 1 },
-  { class = "Ranger", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 3 },
+  { class = "Bloodrager", level = 3 },
+  { class = "Druid", level = 3 },
+  { class = "Hunter", level = 3 },
+  { class = "Magus", level = 3 },
+  { class = "Ranger", level = 3 },
+  { class = "Sorcerer", level = 3 },
+  { class = "Wizard", level = 3 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "60 ft."
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Area", value = "60-ft. line" },
 ]
 duration = "instantaneous"
 saving_throw = "none"
@@ -35,14 +35,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 1: Arcanist, Bloodrager, Druid, Hunter, Magus, Ranger, Sorcerer, Wizard
+Level: 3: Arcanist, Bloodrager, Druid, Hunter, Magus, Ranger, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
-Range: close (25 ft. + 5 ft./2 levels)
+Range: 60 ft.
+Area: 60-ft. line
 Duration: instantaneous
 Saving throw: none
 Spell resistance: yes
-Target: one creature
 Descriptors: earth
 :::
 

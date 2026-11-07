@@ -11,22 +11,22 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Bard", level = 3 },
-  { class = "Cleric", level = 3 },
-  { class = "Magus", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 6 },
+  { class = "Bard", level = 6 },
+  { class = "Cleric", level = 6 },
+  { class = "Magus", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Warpriest", level = 6 },
+  { class = "Witch", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
 range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one creature or technological object" },
+  { label = "Target or Area", value = "one creature or technological object, or a 20-ft.-radius burst" },
 ]
 duration = "instantaneous"
 saving_throw = "Fortitude negates"
@@ -36,14 +36,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 3: Arcanist, Bard, Cleric, Magus, Oracle, Skald, Sorcerer, Warpriest, Witch, Wizard
+Level: 6: Arcanist, Bard, Cleric, Magus, Oracle, Skald, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)
+Target or Area: one creature or technological object, or a 20-ft.-radius burst
 Duration: instantaneous
 Saving throw: Fortitude negates
 Spell resistance: no
-Target: one creature or technological object
 :::
 
 ## Discharge

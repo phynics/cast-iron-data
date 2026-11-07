@@ -13,17 +13,17 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Bard", level = 3 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 8 },
+  { class = "Bard", level = 6 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level (D)"
 saving_throw = "Will partial"
@@ -33,15 +33,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 3: Bard, Skald\
-4: Arcanist, Sorcerer, Wizard
+Level: 6: Bard, Skald\
+8: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 round/level (D)
 Saving throw: Will partial
 Spell resistance: yes
-Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::

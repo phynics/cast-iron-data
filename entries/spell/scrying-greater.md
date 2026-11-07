@@ -12,31 +12,27 @@ kind = "spell"
 school = "divination"
 subschools = ["Scrying"]
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Bard", level = 3 },
-  { class = "Cleric", level = 5 },
-  { class = "Druid", level = 4 },
-  { class = "Hunter", level = 4 },
-  { class = "Medium", level = 3 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Occultist", level = 4 },
-  { class = "Oracle", level = 5 },
-  { class = "Psychic", level = 4 },
-  { class = "Shaman", level = 4 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Spiritualist", level = 5 },
-  { class = "Warpriest", level = 5 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 7 },
+  { class = "Bard", level = 6 },
+  { class = "Cleric", level = 7 },
+  { class = "Druid", level = 7 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Occultist", level = 6 },
+  { class = "Oracle", level = 7 },
+  { class = "Psychic", level = 7 },
+  { class = "Shaman", level = 7 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
-casting_time = "1 hour"
-components = "V, S, F (a silver mirror worth 1,000 gp), M/DF (a pool of water)"
+casting_time = "1 standard action"
+components = "V, S"
 range = "see text"
 effects = [
   { label = "Effect", value = "magical sensor" },
 ]
-duration = "1 minute/level"
+duration = "1 hour/level"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -44,16 +40,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Bard, Medium, Mesmerist, Skald\
-4: Arcanist, Druid, Hunter, Occultist, Psychic, Shaman, Sorcerer, Witch, Wizard\
-5: Cleric, Oracle, Spiritualist, Warpriest
-Casting time: 1 hour
-Components: V, S, F (a silver mirror worth 1,000 gp), M/DF (a pool of water)
+Level: 6: Bard, Mesmerist, Occultist, Skald\
+7: Arcanist, Cleric, Druid, Oracle, Psychic, Shaman, Sorcerer, Witch, Wizard
+Casting time: 1 standard action
+Components: V, S
 Range: see text
-Duration: 1 minute/level
+Effect: magical sensor
+Duration: 1 hour/level
 Saving throw: Will negates
 Spell resistance: yes
-Effect: magical sensor
 Subschool: Scrying
 :::
 

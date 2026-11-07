@@ -13,20 +13,19 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Bard", level = 2 },
-  { class = "Mesmerist", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Witch", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Bard", level = 4 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Psychic", level = 5 },
+  { class = "Skald", level = 4 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one living creature" },
+  { label = "Target", value = "one living creature/level, no two of which can be more thatn 30 ft. apart" },
 ]
 duration = "4d4 rounds (D)"
 saving_throw = "Will negates"
@@ -36,14 +35,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 2: Arcanist, Bard, Mesmerist, Psychic, Skald, Sorcerer, Witch, Wizard
+Level: 4: Bard, Mesmerist, Skald\
+5: Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one living creature/level, no two of which can be more thatn 30 ft. apart
 Duration: 4d4 rounds (D)
 Saving throw: Will negates
 Spell resistance: yes
-Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::

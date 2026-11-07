@@ -11,19 +11,18 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Witch", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Witch", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a small mirror)"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Area", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
-duration = "1 round/level"
+duration = "1 minute/level"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -31,14 +30,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Arcanist, Red Mantis Assassin, Sorcerer, Witch, Wizard
+Level: 6: Arcanist, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a small mirror)
-Range: close (25 ft. + 5 ft./2 levels)
-Duration: 1 round/level
+Range: medium (100 ft. + 10 ft./level)
+Area: one creature/level, no two of which can be more than 30 ft. apart
+Duration: 1 minute/level
 Saving throw: Will negates
 Spell resistance: yes
-Target: one creature
 :::
 
 ## Eldritch Conduit

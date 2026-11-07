@@ -11,16 +11,15 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Cleric", level = 3 },
-  { class = "Druid", level = 3 },
-  { class = "Hunter", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Red Mantis Assassin", level = 3 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 5 },
+  { class = "Cleric", level = 5 },
+  { class = "Druid", level = 5 },
+  { class = "Hunter", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Warpriest", level = 5 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a handful of ash)"
@@ -28,7 +27,7 @@ range = "touch"
 effects = [
   { label = "Target", value = "creature touched" },
 ]
-duration = "24 hours"
+duration = "1 day/level"
 saving_throw = "Fortitude negates"
 spell_resistance = "yes"
 +++
@@ -36,14 +35,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 3: Arcanist, Cleric, Druid, Hunter, Oracle, Red Mantis Assassin, Sorcerer, Warpriest, Witch, Wizard
+Level: 5: Arcanist, Cleric, Druid, Hunter, Oracle, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a handful of ash)
 Range: touch
-Duration: 24 hours
+Target: creature touched
+Duration: 1 day/level
 Saving throw: Fortitude negates
 Spell resistance: yes
-Target: creature touched
 :::
 
 ## Steal Years

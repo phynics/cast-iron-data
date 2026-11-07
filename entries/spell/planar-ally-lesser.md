@@ -38,10 +38,10 @@ Level: 3: Medium\
 Casting time: 10 minutes
 Components: V, S, DF, M (offerings worth 500 gp plus payment, see text)
 Range: close (25 ft. + 5 ft./2 levels)
+Effect: one called outsider of 6 HD or less
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Effect: one called outsider of 6 HD or less
 Subschool: Calling
 :::
 

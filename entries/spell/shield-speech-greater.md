@@ -11,24 +11,22 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Bard", level = 1 },
-  { class = "Cleric", level = 1 },
-  { class = "Druid", level = 1 },
-  { class = "Hunter", level = 1 },
-  { class = "Oracle", level = 1 },
-  { class = "Skald", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Warpriest", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 4 },
+  { class = "Cleric", level = 4 },
+  { class = "Druid", level = 4 },
+  { class = "Hunter", level = 4 },
+  { class = "Oracle", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Warpriest", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "10 ft."
+range = "30 ft."
 effects = [
-  { label = "Target", value = "you and one other creature" },
+  { label = "Area", value = "30-ft. emanation centered on you" },
 ]
-duration = "1 minute/level (D)"
+duration = "10 minutes/level"
 saving_throw = "Will negates (harmless)"
 spell_resistance = "yes (harmless)"
 +++
@@ -36,14 +34,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 1: Arcanist, Bard, Cleric, Druid, Hunter, Oracle, Skald, Sorcerer, Warpriest, Wizard
+Level: 4: Arcanist, Cleric, Druid, Hunter, Oracle, Sorcerer, Warpriest, Wizard
 Casting time: 1 standard action
 Components: V, S
-Range: 10 ft.
-Duration: 1 minute/level (D)
+Range: 30 ft.
+Area: 30-ft. emanation centered on you
+Duration: 10 minutes/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: you and one other creature
 :::
 
 ## Shield Speech

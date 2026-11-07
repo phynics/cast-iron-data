@@ -13,7 +13,6 @@ school = "evocation"
 levels = [
   { class = "Cleric", level = 5 },
   { class = "Oracle", level = 5 },
-  { class = "Warpriest", level = 5 },
 ]
 casting_time = "10 minutes"
 components = "V, S, DF"
@@ -29,14 +28,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 5: Cleric, Oracle, Warpriest
+Level: 5: Cleric, Oracle
 Casting time: 10 minutes
 Components: V, S, DF
 Range: touch
+Target: creature touched; see text
 Duration: permanent until discharged (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched; see text
 :::
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 67

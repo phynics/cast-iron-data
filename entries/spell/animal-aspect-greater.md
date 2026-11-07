@@ -12,18 +12,18 @@ kind = "spell"
 school = "transmutation"
 subschools = ["Polymorph"]
 levels = [
-  { class = "Alchemist", level = 2 },
-  { class = "Arcanist", level = 2 },
-  { class = "Bloodrager", level = 2 },
-  { class = "Druid", level = 2 },
-  { class = "Hunter", level = 2 },
-  { class = "Investigator", level = 2 },
-  { class = "Magus", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Ranger", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Alchemist", level = 3 },
+  { class = "Arcanist", level = 4 },
+  { class = "Bloodrager", level = 3 },
+  { class = "Druid", level = 3 },
+  { class = "Hunter", level = 3 },
+  { class = "Investigator", level = 3 },
+  { class = "Magus", level = 3 },
+  { class = "Psychic", level = 4 },
+  { class = "Ranger", level = 3 },
+  { class = "Red Mantis Assassin", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M/DF (a part of the animal)"
@@ -33,20 +33,21 @@ effects = [
 ]
 duration = "1 minute/level (D)"
 saving_throw = "none"
-spell_resistance = "yes"
+spell_resistance = "yes (harmless)"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Alchemist, Arcanist, Bloodrager, Druid, Hunter, Investigator, Magus, Psychic, Ranger, Red Mantis Assassin, Sorcerer, Wizard
+Level: 3: Alchemist, Bloodrager, Druid, Hunter, Investigator, Magus, Ranger\
+4: Arcanist, Psychic, Red Mantis Assassin, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (a part of the animal)
 Range: personal
+Target: you
 Duration: 1 minute/level (D)
 Saving throw: none
-Spell resistance: yes
-Target: you
+Spell resistance: yes (harmless)
 Subschool: Polymorph
 :::
 

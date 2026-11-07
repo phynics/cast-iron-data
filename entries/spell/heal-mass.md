@@ -12,24 +12,15 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Adept", level = 5 },
-  { class = "Alchemist", level = 6 },
-  { class = "Cleric", level = 6 },
-  { class = "Druid", level = 7 },
-  { class = "Inquisitor", level = 6 },
-  { class = "Investigator", level = 6 },
-  { class = "Occultist", level = 6 },
-  { class = "Oracle", level = 6 },
-  { class = "Shaman", level = 7 },
-  { class = "Spiritualist", level = 6 },
-  { class = "Warpriest", level = 6 },
-  { class = "Witch", level = 7 },
+  { class = "Cleric", level = 9 },
+  { class = "Oracle", level = 9 },
+  { class = "Shaman", level = 9 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Targets", value = "one or more creatures, no two of which can be more than 30 ft. apart" },
 ]
 duration = "instantaneous"
 saving_throw = "Will negates (harmless)"
@@ -39,16 +30,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 5: Adept\
-6: Alchemist, Cleric, Inquisitor, Investigator, Occultist, Oracle, Spiritualist, Warpriest\
-7: Druid, Shaman, Witch
+Level: 9: Cleric, Oracle, Shaman
 Casting time: 1 standard action
 Components: V, S
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Targets: one or more creatures, no two of which can be more than 30 ft. apart
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched
 Subschool: Healing
 :::
 

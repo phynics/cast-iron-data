@@ -2,7 +2,7 @@
 id = "ref/spell/homeward-bound"
 kind = "spell"
 title = "Homeward Bound"
-source_ids = ["core-rulebook", "planar-adventures"]
+source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "homeward_bound", path = "json/spells13.json" },
 ]
@@ -11,44 +11,36 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Cleric", level = 4 },
-  { class = "Inquisitor", level = 4 },
-  { class = "Medium", level = 4 },
-  { class = "Occultist", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Psychic", level = 5 },
-  { class = "Shaman", level = 4 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Spiritualist", level = 5 },
-  { class = "Summoner", level = 4 },
-  { class = "Unchained Summoner", level = 5 },
-  { class = "Warpriest", level = 4 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 4 },
+  { class = "Cleric", level = 3 },
+  { class = "Oracle", level = 3 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Warpriest", level = 3 },
+  { class = "Wizard", level = 4 },
 ]
-casting_time = "1 standard action"
-components = "V, S, DF"
-range = "close (25 ft. + 5 ft./2 levels)"
+casting_time = "1 minute"
+components = "V, S"
+range = "touch"
 effects = [
-  { label = "Target", value = "one extraplanar creature" },
+  { label = "Target", value = "one living extraplanar creature" },
 ]
 duration = "instantaneous"
-saving_throw = "Will negates; see text"
+saving_throw = "Will negates (harmless)"
 spell_resistance = "yes"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 4: Cleric, Inquisitor, Medium, Occultist, Oracle, Shaman, Summoner, Warpriest\
-5: Arcanist, Psychic, Sorcerer, Spiritualist, Unchained Summoner, Wizard
-Casting time: 1 standard action
-Components: V, S, DF
-Range: close (25 ft. + 5 ft./2 levels)
+Level: 3: Cleric, Oracle, Warpriest\
+4: Arcanist, Sorcerer, Wizard
+Casting time: 1 minute
+Components: V, S
+Range: touch
+Target: one living extraplanar creature
 Duration: instantaneous
-Saving throw: Will negates; see text
+Saving throw: Will negates (harmless)
 Spell resistance: yes
-Target: one extraplanar creature
 :::
 
 ## Dismissal

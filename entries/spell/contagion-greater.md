@@ -12,23 +12,21 @@ kind = "spell"
 school = "necromancy"
 descriptors = ["disease", "evil"]
 levels = [
-  { class = "Adept", level = 3 },
-  { class = "Antipaladin", level = 3 },
-  { class = "Arcanist", level = 4 },
-  { class = "Bloodrager", level = 4 },
-  { class = "Cleric", level = 3 },
-  { class = "Druid", level = 3 },
-  { class = "Hunter", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Warpriest", level = 3 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 6 },
+  { class = "Cleric", level = 5 },
+  { class = "Druid", level = 5 },
+  { class = "Hunter", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Warpriest", level = 5 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "living creature touched" },
+  { label = "Target", value = "one living creature" },
 ]
 duration = "instantaneous"
 saving_throw = "Fortitude negates"
@@ -38,15 +36,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 3: Adept, Antipaladin, Cleric, Druid, Hunter, Oracle, Warpriest\
-4: Arcanist, Bloodrager, Sorcerer, Wizard
+Level: 5: Cleric, Druid, Hunter, Oracle, Warpriest, Witch\
+6: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one living creature
 Duration: instantaneous
 Saving throw: Fortitude negates
 Spell resistance: yes
-Target: living creature touched
 Descriptors: disease, evil
 :::
 

@@ -29,7 +29,7 @@ range = "touch"
 effects = [
   { label = "Area", value = "300-ft. radius emanating from the touched point" },
 ]
-duration = "1 day"
+duration = "1 day (D)"
 saving_throw = "none"
 spell_resistance = "no"
 +++
@@ -41,10 +41,10 @@ Level: 2: Arcanist, Cleric, Druid, Hunter, Oracle, Shaman, Sorcerer, Warpriest, 
 Casting time: 10 minutes
 Components: V, S, M (the heart of a creature that dwelled in the area and powdered onxy worth 350 gp)
 Range: touch
-Duration: 1 day
+Area: 300-ft. radius emanating from the touched point
+Duration: 1 day (D)
 Saving throw: none
 Spell resistance: no
-Area: 300-ft. radius emanating from the touched point
 Descriptors: curse, evil
 :::
 

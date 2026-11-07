@@ -13,15 +13,14 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Bard", level = 1 },
-  { class = "Mesmerist", level = 1 },
-  { class = "Occultist", level = 1 },
-  { class = "Psychic", level = 1 },
-  { class = "Skald", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Witch", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 4 },
+  { class = "Bard", level = 4 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Occultist", level = 4 },
+  { class = "Psychic", level = 4 },
+  { class = "Skald", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Witch", level = 4 },
 ]
 casting_time = "1 round"
 components = "V, S"
@@ -37,14 +36,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 1: Arcanist, Bard, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Witch, Wizard
+Level: 4: Arcanist, Bard, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Witch
 Casting time: 1 round
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
+Area: several living creatures, no two of which may be more than 30 ft. apart
 Duration: 2d4 rounds (D)
 Saving throw: Will negates
 Spell resistance: yes
-Area: several living creatures, no two of which may be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::

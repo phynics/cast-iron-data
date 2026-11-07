@@ -13,16 +13,16 @@ school = "illusion"
 subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
-  { class = "Hunter", level = 2 },
-  { class = "Ranger", level = 2 },
+  { class = "Hunter", level = 3 },
+  { class = "Ranger", level = 3 },
 ]
 casting_time = "1 standard action"
 components = "V, S, DF"
-range = "personal"
+range = "5 ft."
 effects = [
-  { label = "Target", value = "you" },
+  { label = "Area", value = "allies in a 10-ft.-radius emanation centered on you" },
 ]
-duration = "1 minute/level"
+duration = "1 minute/level (see text)"
 saving_throw = "none"
 spell_resistance = "no"
 +++
@@ -30,14 +30,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 2: Hunter, Ranger
+Level: 3: Hunter, Ranger
 Casting time: 1 standard action
 Components: V, S, DF
-Range: personal
-Duration: 1 minute/level
+Range: 5 ft.
+Area: allies in a 10-ft.-radius emanation centered on you
+Duration: 1 minute/level (see text)
 Saving throw: none
 Spell resistance: no
-Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::

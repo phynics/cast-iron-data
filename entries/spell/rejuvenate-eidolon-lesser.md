@@ -33,10 +33,10 @@ Level: 1: Summoner, Unchained Summoner
 Casting time: 1 standard action
 Components: V, S, M (a drop of your blood)
 Range: touch
+Target: eidolon touched
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Target: eidolon touched
 Subschool: Healing
 :::
 

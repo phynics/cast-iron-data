@@ -12,24 +12,21 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Creation"]
 levels = [
-  { class = "Arcanist", level = 7 },
-  { class = "Cleric", level = 7 },
-  { class = "Occultist", level = 5 },
-  { class = "Oracle", level = 7 },
-  { class = "Psychic", level = 7 },
-  { class = "Sorcerer", level = 7 },
-  { class = "Summoner", level = 5 },
-  { class = "Unchained Summoner", level = 6 },
-  { class = "Witch", level = 7 },
-  { class = "Wizard", level = 7 },
+  { class = "Arcanist", level = 9 },
+  { class = "Cleric", level = 9 },
+  { class = "Oracle", level = 9 },
+  { class = "Psychic", level = 9 },
+  { class = "Sorcerer", level = 9 },
+  { class = "Witch", level = 9 },
+  { class = "Wizard", level = 9 },
 ]
-casting_time = "2 hours"
+casting_time = "6 hours"
 components = "V, S, F (a forked metal rod worth at least 500 gp)"
 range = "0 ft."
 effects = [
-  { label = "Effect", value = "extradimensional demiplane, up to three 10-ft. cubes/level (S)" },
+  { label = "Effect", value = "extradimensional demiplane, up to 20 10-ft. cubes/level (S)" },
 ]
-duration = "1 day/level"
+duration = "1 day/level or instantaneous (see text)"
 saving_throw = "none"
 spell_resistance = "no"
 +++
@@ -37,16 +34,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 5: Occultist, Summoner\
-6: Unchained Summoner\
-7: Arcanist, Cleric, Oracle, Psychic, Sorcerer, Witch, Wizard
-Casting time: 2 hours
+Level: 9: Arcanist, Cleric, Oracle, Psychic, Sorcerer, Witch, Wizard
+Casting time: 6 hours
 Components: V, S, F (a forked metal rod worth at least 500 gp)
 Range: 0 ft.
-Duration: 1 day/level
+Effect: extradimensional demiplane, up to 20 10-ft. cubes/level (S)
+Duration: 1 day/level or instantaneous (see text)
 Saving throw: none
 Spell resistance: no
-Effect: extradimensional demiplane, up to three 10-ft. cubes/level (S)
 Subschool: Creation
 :::
 

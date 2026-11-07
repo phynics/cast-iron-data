@@ -11,9 +11,9 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 8 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 round"
 components = "V, S, M (a prism)"
@@ -29,14 +29,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 5: Arcanist, Sorcerer, Wizard
+Level: 8: Arcanist, Sorcerer, Wizard
 Casting time: 1 round
 Components: V, S, M (a prism)
 Range: personal
+Target: you
 Duration: 1 round/level
 Saving throw: none
 Spell resistance: no
-Target: you
 :::
 
 ## Spell Absorption

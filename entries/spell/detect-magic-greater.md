@@ -11,28 +11,27 @@ provenance = [
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Adept", level = 0 },
-  { class = "Arcanist", level = 0 },
-  { class = "Bard", level = 0 },
-  { class = "Cleric", level = 0 },
-  { class = "Druid", level = 0 },
-  { class = "Hunter", level = 0 },
-  { class = "Inquisitor", level = 0 },
-  { class = "Magus", level = 0 },
-  { class = "Medium", level = 0 },
-  { class = "Mesmerist", level = 0 },
-  { class = "Occultist", level = 0 },
-  { class = "Oracle", level = 0 },
-  { class = "Psychic", level = 0 },
-  { class = "Shaman", level = 0 },
-  { class = "Skald", level = 0 },
-  { class = "Sorcerer", level = 0 },
-  { class = "Spiritualist", level = 0 },
-  { class = "Summoner", level = 0 },
-  { class = "Unchained Summoner", level = 0 },
-  { class = "Warpriest", level = 0 },
-  { class = "Witch", level = 0 },
-  { class = "Wizard", level = 0 },
+  { class = "Arcanist", level = 2 },
+  { class = "Bard", level = 2 },
+  { class = "Cleric", level = 2 },
+  { class = "Druid", level = 2 },
+  { class = "Hunter", level = 2 },
+  { class = "Inquisitor", level = 2 },
+  { class = "Magus", level = 2 },
+  { class = "Medium", level = 2 },
+  { class = "Mesmerist", level = 2 },
+  { class = "Occultist", level = 2 },
+  { class = "Oracle", level = 2 },
+  { class = "Psychic", level = 2 },
+  { class = "Shaman", level = 2 },
+  { class = "Skald", level = 2 },
+  { class = "Sorcerer", level = 2 },
+  { class = "Spiritualist", level = 2 },
+  { class = "Summoner", level = 2 },
+  { class = "Unchained Summoner", level = 2 },
+  { class = "Warpriest", level = 2 },
+  { class = "Witch", level = 2 },
+  { class = "Wizard", level = 2 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -48,14 +47,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 0: Adept, Arcanist, Bard, Cleric, Druid, Hunter, Inquisitor, Magus, Medium, Mesmerist, Occultist, Oracle, Psychic, Shaman, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Witch, Wizard
+Level: 2: Arcanist, Bard, Cleric, Druid, Hunter, Inquisitor, Magus, Medium, Mesmerist, Occultist, Oracle, Psychic, Shaman, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: 60 ft.
+Area: cone-shaped emanation
 Duration: concentration, up to 1 min./level (D)
 Saving throw: none
 Spell resistance: no
-Area: cone-shaped emanation
 :::
 
 ## Detect Magic

@@ -12,20 +12,21 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Adept", level = 4 },
-  { class = "Alchemist", level = 4 },
-  { class = "Cleric", level = 4 },
-  { class = "Inquisitor", level = 4 },
-  { class = "Investigator", level = 4 },
-  { class = "Mesmerist", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Paladin", level = 4 },
-  { class = "Shaman", level = 4 },
-  { class = "Spiritualist", level = 4 },
-  { class = "Warpriest", level = 4 },
+  { class = "Alchemist", level = 2 },
+  { class = "Cleric", level = 2 },
+  { class = "Druid", level = 2 },
+  { class = "Hunter", level = 2 },
+  { class = "Inquisitor", level = 2 },
+  { class = "Investigator", level = 2 },
+  { class = "Mesmerist", level = 2 },
+  { class = "Oracle", level = 2 },
+  { class = "Paladin", level = 1 },
+  { class = "Shaman", level = 2 },
+  { class = "Spiritualist", level = 2 },
+  { class = "Warpriest", level = 2 },
 ]
 casting_time = "3 rounds"
-components = "V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)"
+components = "V, S"
 range = "touch"
 effects = [
   { label = "Target", value = "creature touched" },
@@ -38,14 +39,15 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 4: Adept, Alchemist, Cleric, Inquisitor, Investigator, Mesmerist, Oracle, Paladin, Shaman, Spiritualist, Warpriest
+Level: 1: Paladin\
+2: Alchemist, Cleric, Druid, Hunter, Inquisitor, Investigator, Mesmerist, Oracle, Shaman, Spiritualist, Warpriest
 Casting time: 3 rounds
-Components: V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)
+Components: V, S
 Range: touch
+Target: creature touched
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched
 Subschool: Healing
 :::
 

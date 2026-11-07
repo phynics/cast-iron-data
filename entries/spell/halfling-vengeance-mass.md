@@ -11,17 +11,16 @@ provenance = [
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Antipaladin", level = 1 },
-  { class = "Cleric", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Warpriest", level = 2 },
+  { class = "Antipaladin", level = 4 },
+  { class = "Cleric", level = 7 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Oracle", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one Small or smaller creature touched" },
+  { label = "Target", value = "one Small or smaller creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level"
 saving_throw = "Will negates (harmless)"
@@ -31,15 +30,16 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 1: Antipaladin\
-2: Cleric, Inquisitor, Oracle, Warpriest
+Level: 4: Antipaladin\
+6: Inquisitor\
+7: Cleric, Oracle
 Casting time: 1 standard action
 Components: V, S
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one Small or smaller creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 round/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: one Small or smaller creature touched
 :::
 
 ## Halfling Vengeance

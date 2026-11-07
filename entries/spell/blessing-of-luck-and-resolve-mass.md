@@ -13,17 +13,17 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Cleric", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Paladin", level = 2 },
-  { class = "Warpriest", level = 2 },
+  { class = "Cleric", level = 6 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Paladin", level = 4 },
+  { class = "Warpriest", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one living creature touched" },
+  { label = "Targets", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 minute/level (d), special see below"
 saving_throw = "Will negates (harmless)"
@@ -33,14 +33,15 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 2: Cleric, Inquisitor, Oracle, Paladin, Warpriest
+Level: 4: Paladin\
+6: Cleric, Inquisitor, Oracle, Warpriest
 Casting time: 1 standard action
 Components: V, S
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Targets: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 minute/level (d), special see below
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: one living creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::

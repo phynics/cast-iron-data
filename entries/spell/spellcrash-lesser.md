@@ -38,10 +38,10 @@ Level: 4: Arcanist, Cleric, Oracle, Psychic, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)
+Target: one creature
 Duration: 1 round/level
 Saving throw: Will negates; see text
 Spell resistance: yes
-Target: one creature
 :::
 
 **Sources:** Advanced Class Guide pg 194

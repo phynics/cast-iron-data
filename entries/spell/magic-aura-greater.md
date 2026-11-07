@@ -13,21 +13,20 @@ school = "illusion"
 subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Bard", level = 1 },
-  { class = "Mesmerist", level = 1 },
-  { class = "Occultist", level = 1 },
-  { class = "Psychic", level = 1 },
-  { class = "Red Mantis Assassin", level = 1 },
-  { class = "Skald", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 4 },
+  { class = "Bard", level = 3 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Occultist", level = 3 },
+  { class = "Psychic", level = 4 },
+  { class = "Skald", level = 3 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 standard action"
-components = "V, S, F (a small square of silk that must be passed over the object that receives the aura)"
-range = "touch"
+components = "V, S, F (a woolen handkerchief)"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one touched object weighing up to 5 lbs./level" },
+  { label = "Target", value = "one creature, or one object weighting up to 20 lbs./level" },
 ]
 duration = "1 day/level (D)"
 saving_throw = "none; see text"
@@ -37,14 +36,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 1: Arcanist, Bard, Mesmerist, Occultist, Psychic, Red Mantis Assassin, Skald, Sorcerer, Wizard
+Level: 3: Bard, Mesmerist, Occultist, Skald\
+4: Arcanist, Psychic, Sorcerer, Wizard
 Casting time: 1 standard action
-Components: V, S, F (a small square of silk that must be passed over the object that receives the aura)
-Range: touch
+Components: V, S, F (a woolen handkerchief)
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature, or one object weighting up to 20 lbs./level
 Duration: 1 day/level (D)
 Saving throw: none; see text
 Spell resistance: no
-Target: one touched object weighing up to 5 lbs./level
 Subschool: Glamer
 Descriptors: glamer
 :::

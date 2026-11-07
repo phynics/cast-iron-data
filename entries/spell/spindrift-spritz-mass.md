@@ -13,22 +13,22 @@ school = "conjuration"
 subschools = ["Healing"]
 descriptors = ["water"]
 levels = [
-  { class = "Cleric", level = 2 },
-  { class = "Druid", level = 2 },
-  { class = "Hunter", level = 1 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Paladin", level = 1 },
-  { class = "Ranger", level = 1 },
-  { class = "Shaman", level = 2 },
-  { class = "Spiritualist", level = 2 },
-  { class = "Warpriest", level = 2 },
+  { class = "Cleric", level = 4 },
+  { class = "Druid", level = 4 },
+  { class = "Hunter", level = 3 },
+  { class = "Inquisitor", level = 4 },
+  { class = "Oracle", level = 4 },
+  { class = "Paladin", level = 3 },
+  { class = "Ranger", level = 3 },
+  { class = "Shaman", level = 4 },
+  { class = "Spiritualist", level = 4 },
+  { class = "Warpriest", level = 4 },
 ]
 casting_time = "1 immediate action"
 components = "V, S"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 20 ft. apart" },
 ]
 duration = "instantaneous"
 saving_throw = "Will negates (harmless)"
@@ -38,15 +38,15 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 1: Hunter, Paladin, Ranger\
-2: Cleric, Druid, Inquisitor, Oracle, Shaman, Spiritualist, Warpriest
+Level: 3: Hunter, Paladin, Ranger\
+4: Cleric, Druid, Inquisitor, Oracle, Shaman, Spiritualist, Warpriest
 Casting time: 1 immediate action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 20 ft. apart
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: one creature
 Subschool: Healing
 Descriptors: water
 :::

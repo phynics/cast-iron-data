@@ -11,12 +11,11 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Cleric", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Warpriest", level = 4 },
-  { class = "Witch", level = 3 },
+  { class = "Cleric", level = 8 },
+  { class = "Oracle", level = 8 },
+  { class = "Witch", level = 7 },
 ]
-casting_time = "1 minute/HD of target"
+casting_time = "10 minute/HD of target"
 components = "V, S, M/DF (dried maggots)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
@@ -30,15 +29,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 3: Witch\
-4: Cleric, Oracle, Warpriest
-Casting time: 1 minute/HD of target
+Level: 7: Witch\
+8: Cleric, Oracle
+Casting time: 10 minute/HD of target
 Components: V, S, M/DF (dried maggots)
 Range: close (25 ft. + 5 ft./2 levels)
+Target: corpse of creature whose total number of HD does not exceed your caster level
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Target: corpse of creature whose total number of HD does not exceed your caster level
 :::
 
 ## Nature's Ravages

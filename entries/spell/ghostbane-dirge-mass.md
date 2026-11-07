@@ -11,21 +11,21 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Bard", level = 2 },
-  { class = "Cleric", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Occultist", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Paladin", level = 1 },
-  { class = "Shaman", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Warpriest", level = 2 },
+  { class = "Bard", level = 4 },
+  { class = "Cleric", level = 5 },
+  { class = "Inquisitor", level = 5 },
+  { class = "Occultist", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Paladin", level = 3 },
+  { class = "Shaman", level = 5 },
+  { class = "Skald", level = 4 },
+  { class = "Warpriest", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M/DF (an old reed from a wind instrument)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one incorporeal creature" },
+  { label = "Target", value = "one incorporeal creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level"
 saving_throw = "Will negates"
@@ -35,15 +35,16 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 1: Paladin\
-2: Bard, Cleric, Inquisitor, Occultist, Oracle, Shaman, Skald, Warpriest
+Level: 3: Paladin\
+4: Bard, Skald\
+5: Cleric, Inquisitor, Occultist, Oracle, Shaman, Warpriest
 Casting time: 1 standard action
 Components: V, S, M/DF (an old reed from a wind instrument)
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one incorporeal creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
-Target: one incorporeal creature
 :::
 
 ## Ghostbane Dirge

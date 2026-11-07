@@ -13,20 +13,20 @@ school = "illusion"
 subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
-  { class = "Antipaladin", level = 3 },
-  { class = "Arcanist", level = 4 },
-  { class = "Magus", level = 4 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Occultist", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Antipaladin", level = 4 },
+  { class = "Arcanist", level = 6 },
+  { class = "Magus", level = 6 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Occultist", level = 5 },
+  { class = "Psychic", level = 5 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "S, F (a tiny marionette)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Target", value = "you and one creature" },
 ]
 duration = "1 round/level (D)"
 saving_throw = "Will disbelief"
@@ -36,15 +36,16 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 3: Antipaladin, Mesmerist\
-4: Arcanist, Magus, Occultist, Psychic, Sorcerer, Wizard
+Level: 4: Antipaladin, Mesmerist\
+5: Occultist, Psychic\
+6: Arcanist, Magus, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: S, F (a tiny marionette)
 Range: close (25 ft. + 5 ft./2 levels)
+Target: you and one creature
 Duration: 1 round/level (D)
 Saving throw: Will disbelief
 Spell resistance: yes
-Target: one creature
 Subschool: Glamer
 Descriptors: glamer
 :::

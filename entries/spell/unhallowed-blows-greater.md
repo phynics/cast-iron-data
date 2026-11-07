@@ -12,23 +12,23 @@ kind = "spell"
 school = "transmutation"
 descriptors = ["evil"]
 levels = [
-  { class = "Antipaladin", level = 1 },
-  { class = "Arcanist", level = 1 },
-  { class = "Cleric", level = 1 },
-  { class = "Inquisitor", level = 1 },
-  { class = "Oracle", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Warpriest", level = 1 },
-  { class = "Witch", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Antipaladin", level = 3 },
+  { class = "Arcanist", level = 3 },
+  { class = "Cleric", level = 3 },
+  { class = "Inquisitor", level = 3 },
+  { class = "Oracle", level = 3 },
+  { class = "Sorcerer", level = 3 },
+  { class = "Warpriest", level = 3 },
+  { class = "Witch", level = 3 },
+  { class = "Wizard", level = 3 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M/DF (a pinch of dust from a destroyed undead creature)"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one undead creature/level, no two of which can be more than 30 ft. apart" },
+  { label = "Target", value = "one undead creature/level, no two of which can be more than 30 ft. apart, or one undead creature; see text" },
 ]
-duration = "1 minute/level"
+duration = "1 hour/level"
 saving_throw = "Will negates (harmless)"
 spell_resistance = "yes (harmless)"
 +++
@@ -36,14 +36,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 1: Antipaladin, Arcanist, Cleric, Inquisitor, Oracle, Sorcerer, Warpriest, Witch, Wizard
+Level: 3: Antipaladin, Arcanist, Cleric, Inquisitor, Oracle, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (a pinch of dust from a destroyed undead creature)
-Range: close (25 ft. + 5 ft./2 levels)
-Duration: 1 minute/level
+Range: medium (100 ft. + 10 ft./level)
+Target: one undead creature/level, no two of which can be more than 30 ft. apart, or one undead creature; see text
+Duration: 1 hour/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: one undead creature/level, no two of which can be more than 30 ft. apart
 Descriptors: evil
 :::
 

@@ -11,8 +11,8 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
+  { class = "Summoner", level = 4 },
+  { class = "Unchained Summoner", level = 4 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a chameleon scale)"
@@ -28,14 +28,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Summoner, Unchained Summoner
+Level: 4: Summoner, Unchained Summoner
 Casting time: 1 standard action
 Components: V, S, M (a chameleon scale)
 Range: touch
+Target: your eidolon
 Duration: 1 minute/level
 Saving throw: Will negates (harmless)
 Spell resistance: no
-Target: your eidolon
 :::
 
 ## Lesser Evolution Surge

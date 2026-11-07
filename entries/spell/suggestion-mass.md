@@ -13,22 +13,21 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["language-dependant", "mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Bard", level = 2 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 2 },
-  { class = "Occultist", level = 3 },
-  { class = "Psychic", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 6 },
+  { class = "Bard", level = 5 },
+  { class = "Mesmerist", level = 5 },
+  { class = "Occultist", level = 5 },
+  { class = "Psychic", level = 5 },
+  { class = "Skald", level = 5 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Witch", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, M (a snake's tongue and a honeycomb)"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one living creature" },
+  { label = "Targets", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 hour/level or until completed"
 saving_throw = "Will negates"
@@ -38,15 +37,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 2: Bard, Medium, Mesmerist, Psychic, Skald\
-3: Arcanist, Occultist, Sorcerer, Witch, Wizard
+Level: 5: Bard, Mesmerist, Occultist, Psychic, Skald\
+6: Arcanist, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, M (a snake's tongue and a honeycomb)
-Range: close (25 ft. + 5 ft./2 levels)
+Range: medium (100 ft. + 10 ft./level)
+Targets: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 hour/level or until completed
 Saving throw: Will negates
 Spell resistance: yes
-Target: one living creature
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::

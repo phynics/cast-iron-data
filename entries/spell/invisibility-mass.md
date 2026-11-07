@@ -13,48 +13,38 @@ school = "illusion"
 subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
-  { class = "Adept", level = 2 },
-  { class = "Alchemist", level = 2 },
-  { class = "Antipaladin", level = 2 },
-  { class = "Arcanist", level = 2 },
-  { class = "Bard", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Investigator", level = 2 },
-  { class = "Magus", level = 2 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 2 },
-  { class = "Occultist", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Spiritualist", level = 2 },
-  { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 7 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Psychic", level = 7 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Summoner", level = 5 },
+  { class = "Unchained Summoner", level = 6 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M/DF (an eyelash encased in gum arabic)"
-range = "personal or touch"
+range = "long (400 ft. + 40 ft./level)"
 effects = [
-  { label = "Target", value = "you or a creature or object weighing no more than 100 lbs./level" },
+  { label = "Targets", value = "any number of creatures, no two of which can be more than 180 ft. apart" },
 ]
 duration = "1 minute/level (D)"
-saving_throw = "Will negates (harmless) or Will negates (harmless, object)"
-spell_resistance = "yes (harmless) or yes (harmless, object)"
+saving_throw = "Will negates (harmless)"
+spell_resistance = "yes (harmless)"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 2: Adept, Alchemist, Antipaladin, Arcanist, Bard, Inquisitor, Investigator, Magus, Medium, Mesmerist, Occultist, Psychic, Red Mantis Assassin, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Wizard
+Level: 5: Summoner\
+6: Mesmerist, Unchained Summoner\
+7: Arcanist, Psychic, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (an eyelash encased in gum arabic)
-Range: personal or touch
+Range: long (400 ft. + 40 ft./level)
+Targets: any number of creatures, no two of which can be more than 180 ft. apart
 Duration: 1 minute/level (D)
-Saving throw: Will negates (harmless) or Will negates (harmless, object)
-Spell resistance: yes (harmless) or yes (harmless, object)
-Target: you or a creature or object weighing no more than 100 lbs./level
+Saving throw: Will negates (harmless)
+Spell resistance: yes (harmless)
 Subschool: Glamer
 Descriptors: glamer
 :::

@@ -12,17 +12,16 @@ kind = "spell"
 school = "illusion"
 subschools = ["Figment"]
 levels = [
-  { class = "Bard", level = 1 },
-  { class = "Medium", level = 1 },
-  { class = "Mesmerist", level = 1 },
-  { class = "Psychic", level = 1 },
-  { class = "Skald", level = 1 },
+  { class = "Bard", level = 3 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Psychic", level = 4 },
+  { class = "Skald", level = 3 },
 ]
 casting_time = "1 standard action"
 components = "V"
 range = "touch"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Targets", value = "creatures touched, up to one/level" },
 ]
 duration = "10 minutes/level (D)"
 saving_throw = "Will negates (harmless)"
@@ -32,14 +31,15 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 1: Bard, Medium, Mesmerist, Psychic, Skald
+Level: 3: Bard, Mesmerist, Skald\
+4: Psychic
 Casting time: 1 standard action
 Components: V
 Range: touch
+Targets: creatures touched, up to one/level
 Duration: 10 minutes/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched
 Subschool: Figment
 :::
 

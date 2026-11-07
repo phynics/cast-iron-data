@@ -12,12 +12,9 @@ kind = "spell"
 school = "transmutation"
 subschools = ["Polymorph"]
 levels = [
-  { class = "Alchemist", level = 5 },
-  { class = "Arcanist", level = 5 },
-  { class = "Investigator", level = 5 },
-  { class = "Magus", level = 5 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 7 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a piece of the creature whose form you plan to assume)"
@@ -25,7 +22,7 @@ range = "touch"
 effects = [
   { label = "Target", value = "willing living creature touched" },
 ]
-duration = "10 minutes/level"
+duration = "1 hour/level"
 saving_throw = "Fortitude negates (harmless)"
 spell_resistance = "yes (harmless)"
 +++
@@ -33,14 +30,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 5: Alchemist, Arcanist, Investigator, Magus, Sorcerer, Wizard
+Level: 7: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a piece of the creature whose form you plan to assume)
 Range: touch
-Duration: 10 minutes/level
+Target: willing living creature touched
+Duration: 1 hour/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
-Target: willing living creature touched
 Subschool: Polymorph
 :::
 

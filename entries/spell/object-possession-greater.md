@@ -11,23 +11,21 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Occultist", level = 2 },
-  { class = "Psychic", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Spiritualist", level = 3 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 7 },
+  { class = "Occultist", level = 5 },
+  { class = "Psychic", level = 6 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Spiritualist", level = 6 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "touch"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "unattended Tiny or Small object" },
+  { label = "Target", value = "unattended Gargantuan or smaller object (minimum Tiny) or construct" },
 ]
-duration = "1 minute/level (D)"
+duration = "10 minutes/level (D)"
 saving_throw = "none"
 spell_resistance = "no"
 +++
@@ -35,16 +33,16 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 2: Medium, Occultist\
-3: Mesmerist, Psychic, Spiritualist\
-4: Arcanist, Sorcerer, Witch, Wizard
+Level: 5: Occultist\
+6: Psychic, Spiritualist\
+7: Arcanist, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
-Range: touch
-Duration: 1 minute/level (D)
+Range: medium (100 ft. + 10 ft./level)
+Target: unattended Gargantuan or smaller object (minimum Tiny) or construct
+Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
-Target: unattended Tiny or Small object
 :::
 
 ## Lesser Object Possession

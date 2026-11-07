@@ -13,9 +13,10 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting", "sonic"]
 levels = [
-  { class = "Bard", level = 5 },
-  { class = "Psychic", level = 5 },
-  { class = "Skald", level = 5 },
+  { class = "Bard", level = 6 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Psychic", level = 8 },
+  { class = "Skald", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -24,21 +25,22 @@ effects = [
   { label = "Area", value = "creatures within a 20-ft.-radius spread" },
 ]
 duration = "1 round/level"
-saving_throw = "Will negates"
+saving_throw = "Will partial"
 spell_resistance = "yes"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 5: Bard, Psychic, Skald
+Level: 6: Bard, Mesmerist, Skald\
+8: Psychic
 Casting time: 1 standard action
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)
-Duration: 1 round/level
-Saving throw: Will negates
-Spell resistance: yes
 Area: creatures within a 20-ft.-radius spread
+Duration: 1 round/level
+Saving throw: Will partial
+Spell resistance: yes
 Subschool: Compulsion
 Descriptors: mind-affecting, sonic
 :::
