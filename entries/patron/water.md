@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Water&FN&**
+**Water**
 
 **Info:** The Water patron grants the following spells at the listed witch levels.
 

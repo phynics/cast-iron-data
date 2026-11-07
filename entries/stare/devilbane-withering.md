@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Devilbane Withering&FN&**
+**Devilbane Withering**
 
 **Info:** The _hypnotic stare_ penalty also applies to attack rolls and damage rolls, but only if
 the target is an outsider.

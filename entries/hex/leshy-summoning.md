@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Leshy Summoning (Su)&FN&**
+**Leshy Summoning (Su)**
 
 **Passive:** The witch counts as a plant creature for the purpose of growing
 [leshys](ref/family/leshy). She adds [leaf leshys](ref/monster/leshy-leaf-leshy),

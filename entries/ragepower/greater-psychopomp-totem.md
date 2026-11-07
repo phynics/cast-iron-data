@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Psychopomp Totem&FN&**
+**Greater Psychopomp Totem**
 
 **Passive:** While _raging,_ the barbarian can detect and locate undead creatures within 30 feet,
 just as if it had the [blindsight](ref/umr/blindsight) ability, and any weapons she wields are

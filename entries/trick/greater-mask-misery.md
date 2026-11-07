@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Mask Misery&FN&**
+**Greater Mask Misery**
 
 **Info:** This trick functions as the _mask misery_ trick, but can be used to ignore _greater
 conditions_ as well.

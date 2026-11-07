@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Team Player (Ex)&FN&**
+**Team Player (Ex)**
 
 **Ability:** The vigilante gains [Swift Aid](ref/feat/swift-aid) as a bonus feat, ignoring its
 prerequisites. Additionally, the vigilante can use the feat as a **standard action**, in which case

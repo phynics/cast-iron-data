@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Resiliency (Ex)&FN&**
+**Resiliency (Ex)**
 
 **Immediate:** Once per day, a rogue with this ability can gain a number of
 [temporary hit points](ref/rule/temporary-hit-points) equal to the rogue's level. Activating this

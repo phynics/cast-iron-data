@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Scent (Ex)&FN&**
+**Scent (Ex)**
 
 **Ability:** The eidolon gains the [scent](ref/umr/scent) special quality, allowing it to detect
 opponents within 30 feet by sense of smell. If the opponent is upwind, the range increases to 60

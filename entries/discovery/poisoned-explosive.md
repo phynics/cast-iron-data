@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poisoned Explosive&FN&**
+**Poisoned Explosive**
 
 **Ability:** When an alchemist creates a bomb, he can apply a dose of contact or injury poison to
 it, as if applying poison to a weapon. If the poisoned bomb hits its target, the bomb deals damage

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Strafe Bomb&FN&**
+**Strafe Bomb**
 
 **Ability:** The alchemist can throw bombs that splash in a 40-foot line rather than affecting a
 radius. The line starts at the alchemist and extends away from him in the direction he chooses.

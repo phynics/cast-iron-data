@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Boasting Taunt (Ex)&FN&**
+**Boasting Taunt (Ex)**
 
 **Ability:** While _raging,_ the barbarian can incite a creature to attack her by making an
 [Intimidate](ref/skill/intimidate) check to demoralize. If the check succeeds, the target is also

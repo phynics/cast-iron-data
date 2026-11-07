@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blackstar Bomb (Su)&FN&**
+**Blackstar Bomb (Su)**
 
 **Ability:** This bomb crushes the target like a _void bomb,_ then repels nearby creatures with a
 burst of gravity. The target takes damage as if hit by a _void bomb._ All other creatures within 5

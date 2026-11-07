@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Range (Ex)&FN&**
+**Deadly Range (Ex)**
 
 **Ability:** A ninja with this ninja trick increases the range at which she can deal sneak attack
 damage by 10 feet.

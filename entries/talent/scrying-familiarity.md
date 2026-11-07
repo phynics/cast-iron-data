@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Scrying Familiarity (Ex)&FN&**
+**Scrying Familiarity (Ex)**
 
 **Ability:** You can roll twice and take the better result on saving throws against
 [divination (scrying)](ref/spelldef/scrying) spells and effects, on

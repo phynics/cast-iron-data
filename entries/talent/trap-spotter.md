@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Trap Spotter (Ex)&FN&**
+**Trap Spotter (Ex)**
 
 **Passive:** Whenever a rogue with this talent comes within 10 feet of a trap, she receives an
 immediate Perception skill check to notice the trap. This check should be made in secret by the GM.

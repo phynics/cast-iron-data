@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vanishing Trick (Su)&FN&**
+**Vanishing Trick (Su)**
 
 **Swift:** The ninja can disappear for 1 round per level. This ability functions as
 [invisibility](ref/spell/invisibility). Using this ability uses up 1 ki point.

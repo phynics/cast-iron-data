@@ -749,6 +749,7 @@ unique phantom that personifies a community.
 |[Ward Spiritualist](ref/arc-spiritualist/ward-spiritualist)||||X||||||||||||||X|X|X||||X||||
 |[Zeitgeist Binder](ref/arc-spiritualist/zeitgeist-binder)||||X|X|X|||||X||||||X||X||X|||||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for spiritualist are listed on the separate class options page._
+_The favored class options for spiritualist are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

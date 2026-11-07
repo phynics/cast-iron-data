@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Knowledge Is Power (Ex)&FN&**
+**Knowledge Is Power (Ex)**
 
 **Flavor:** Your understanding of physical forces gives you power over them.
 

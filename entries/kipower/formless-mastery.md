@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Formless Mastery (Ex)&FN&**
+**Formless Mastery (Ex)**
 
 **Flavor:** A monk with this ability varies his styles, never repeating the same move twice and
 capitalizing on the weaknesses of an opponent's style.

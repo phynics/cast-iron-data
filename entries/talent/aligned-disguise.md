@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Aligned Disguise (Sp)&FN&**
+**Aligned Disguise (Sp)**
 
 **Ability:** When a rogue with this talent uses the [disguise self](ref/spell/disguise-self)
 [spell-like ability](ref/umr/spell-like-abilities), she can also alter her alignment aura to deceive

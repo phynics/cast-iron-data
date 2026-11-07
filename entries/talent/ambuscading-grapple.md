@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ambuscading Grapple (Ex)&FN&**
+**Ambuscading Grapple (Ex)**
 
 **Ability:** When a rogue with this talent succeeds at a combat maneuver check to grapple an unaware
 opponent, she can immediately deal her sneak attack damage to the target. This counts as having hit

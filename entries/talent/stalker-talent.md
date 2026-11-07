@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stalker Talent&FN&**
+**Stalker Talent**
 
 **Ability:** The rogue can select a vigilante talent. For the purposes of selecting and using this
 talent, she counts as a 10th-level [vigilante](ref/class/vigilante) with the _stalker_

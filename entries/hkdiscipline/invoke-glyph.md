@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Invoke Glyph (Sp and Ex)&FN&**
+**Invoke Glyph (Sp and Ex)**
 
 **Ability:** The Hellknight can use [glyph of warding](ref/spell/glyph-of-warding) as a
 [spell-like ability](ref/umr/spell-like-abilities). While this ability does not require an expensive

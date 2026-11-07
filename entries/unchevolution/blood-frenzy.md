@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blood Frenzy (Ex)&FN&**
+**Blood Frenzy (Ex)**
 
 **Ability:** When the eidolon is dealt damage, it enters a blood frenzy. It gains a +2 morale bonus
 on attack rolls and weapon damage rolls and attacks the nearest creature each round, friend or foe,

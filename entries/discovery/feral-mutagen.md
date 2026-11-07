@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feral Mutagen&FN&**
+**Feral Mutagen**
 
 **Ability:** Whenever the alchemist imbibes a _mutagen,_ he gains two claw attacks and a bite
 attack. These are [primary attacks](ref/rule/natural-attacks) and are made using the alchemist's

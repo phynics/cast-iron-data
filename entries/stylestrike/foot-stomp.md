@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Foot Stomp&FN&**
+**Foot Stomp**
 
 **Ability:** If the attack hits and the monk ends his turn adjacent to that foe, the foe's movement
 is restricted. Until the start of the monk's next turn, the target of this attack can move only in

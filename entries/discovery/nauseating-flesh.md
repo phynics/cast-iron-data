@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nauseating Flesh&FN&**
+**Nauseating Flesh**
 
 **Passive:** The alchemist's body is suffused with poison. Any creature that bites, engulfs, or
 swallows the alchemist must make a Fortitude saving throw or be [nauseated](ref/misc/nauseated) for

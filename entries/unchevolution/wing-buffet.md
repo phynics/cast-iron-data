@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wing Buffet (Ex)&FN&**
+**Wing Buffet (Ex)**
 
 **Ability:** The eidolon learns to use its wings to batter foes, granting it two
 [wing buffet attacks](ref/umr/natural-attacks). These attacks are secondary attacks. The wing

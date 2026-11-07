@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rot&FN&**
+**Rot**
 
 **Info:** The Rot patron grants the following spells at the listed witch levels.
 

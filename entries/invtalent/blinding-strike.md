@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blinding Strike (Ex)&FN&**
+**Blinding Strike (Ex)**
 
 **Ability:** When the investigator deals damage with _studied strike,_ the opponent must succeed at
 a Fortitude saving throw or be permanently [blinded](ref/misc/blinded). A successful saving throw

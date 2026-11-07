@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Amorphous (Ex)&FN&**
+**Amorphous (Ex)**
 
 **Passive:** The eidolon's biology lacks discernible weak points. It is not subject to critical hits
 and sneak attacks.

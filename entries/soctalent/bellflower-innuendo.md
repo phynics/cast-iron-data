@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bellflower Innuendo (Ex)&FN&**
+**Bellflower Innuendo (Ex)**
 
 **Ability:** He can pass a secret message with [Bluff](ref/skill/bluff) in the same amount of time
 it would normally take to convey the message without encryption. The words and meaning of his secret

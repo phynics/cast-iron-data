@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eternal Opposition (Ex)&FN&**
+**Eternal Opposition (Ex)**
 
 **Passive:** While most imperial dragons, undead, and other long-enduring foes can count on
 outlasting their mortal adversaries, the samsaran slayer has pledged to oppose their machinations

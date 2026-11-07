@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hidden Magic (Ex)&FN&**
+**Hidden Magic (Ex)**
 
 **At 11th Level:** The vigilante and any magic items he is carrying appear to be nonmagical (as if
 he had cast [greater magic aura](ref/spell/magic-aura-greater)).

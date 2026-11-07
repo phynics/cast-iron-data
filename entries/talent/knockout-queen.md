@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Knockout Queen (Ex)&FN&**
+**Knockout Queen (Ex)**
 
 **Ability:** Once per day, the rogue can create 1 or more doses of
 [drow poison](ref/eq-poison/drow-poison) by spending 25 gp per dose; this process takes 30 minutes

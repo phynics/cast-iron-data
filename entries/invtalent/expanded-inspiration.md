@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Expanded Inspiration (Ex)&FN&**
+**Expanded Inspiration (Ex)**
 
 **Ability:** An investigator can use his _inspiration_ ability when attempting Diplomacy, Heal,
 Perception, Profession, and Sense Motive checks without expending uses of _inspiration,_ provided

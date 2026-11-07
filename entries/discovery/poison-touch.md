@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poison Touch&FN&**
+**Poison Touch**
 
 **Ability:** The alchemist gains a poisonous touch, as if under the effects of a
 [poison](ref/spell/poison) spell. He can suppress or activate this ability as a **free action**. The

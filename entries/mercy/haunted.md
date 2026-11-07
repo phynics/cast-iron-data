@@ -16,6 +16,6 @@ kind = "none"
 saving throw against enchantment (charm) and enchantment (compulsion) effects, making the target
 immune to any attempts to possess or exercise mental control over the target, or preventing a life
 force from controlling the target (all as described in the second effect of protection from evil).
-Use the paladin's level as the caster level.&FN&
+Use the paladin's level as the caster level.
 
-**Title:** &L&Haunted
+**Title:** Haunted

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Take 'Em Alive (Ex)&FN&**
+**Take 'Em Alive (Ex)**
 
 **Ability:** The vigilante doesn't take the usual -4 penalty on attack rolls made to deal nonlethal
 damage with weapons that normally deal lethal damage. In addition, the vigilante gains a +1 bonus on

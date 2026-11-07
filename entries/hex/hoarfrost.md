@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hoarfrost (Su)&FN&**
+**Hoarfrost (Su)**
 
 **Ability:** The target is rimed with a shell of frost needles that slowly work their way into its
 flesh (Fortitude negates). The target turns pale and blue, and takes 1 point of

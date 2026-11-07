@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bleeding Attack (Ex)&FN&**
+**Bleeding Attack (Ex)**
 
 **Ability:** A rogue with this ability can cause living opponents to bleed by hitting them with a
 sneak attack. This attack causes the target to take 1 additional point of damage each round for each

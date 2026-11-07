@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feast of Blood (Su)&FN&**
+**Feast of Blood (Su)**
 
 **Flavor:** While _raging,_ the barbarian may feast on the organs of her foes and absorb their
 power.

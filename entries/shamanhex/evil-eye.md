@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Evil Eye (Su)&FN&**
+**Evil Eye (Su)**
 
 **Ability:** The shaman causes doubt to creep into the mind of a foe within 30 feet that she can
 see. The target takes a -2 penalty on one of the following (shaman's choice): ability checks, AC,

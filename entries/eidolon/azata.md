@@ -17,7 +17,7 @@ they occasionally appear like lillends, with serpentine tails. Azata eidolons ar
 independent, and they often have their own ideas about how to defeat evil or have a good time. Thus,
 an azata eidolon is likely to balk if its summoner commands it to perform offensive or nefarious
 actions. On the other hand, an azata eidolon in sync with its summoner is a passionate and devoted
-companion.&FN&
+companion.
 
 **Alignment**
 

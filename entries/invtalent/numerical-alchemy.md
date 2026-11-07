@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Numerical Alchemy (Su)&FN&**
+**Numerical Alchemy (Su)**
 
 **Ability:** The investigator can expend one use of _inspiration_ to mix an extract in 1 round (as
 opposed to 1 minute).

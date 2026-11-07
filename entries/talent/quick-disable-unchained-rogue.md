@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quick Disable (Unchained Rogue) (Ex)&FN&**
+**Quick Disable (Unchained Rogue) (Ex)**
 
 **Ability:** It takes a rogue with this ability half the normal amount of time to disable a trap
 using the [Disable Device](ref/skill/disable-device) skill (minimum 1 round). When she uses Disable

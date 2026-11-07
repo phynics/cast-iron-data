@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Follow Clues (Ex)&FN&**
+**Follow Clues (Ex)**
 
 **Ability:** A rogue with this talent can use [Perception](ref/skill/perception) to follow tracks as
 per the [Survival](ref/skill/survival) skill.

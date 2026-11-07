@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bestial Leaper (Ex)&FN&**
+**Bestial Leaper (Ex)**
 
 **Ability:** While _raging,_ the barbarian can take a **move action** to move and can take her
 normal **standard action** at any point during the move.

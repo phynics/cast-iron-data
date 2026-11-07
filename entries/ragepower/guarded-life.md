@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Guarded Life (Ex)&FN&**
+**Guarded Life (Ex)**
 
 **Passive:** While _raging,_ if the barbarian is reduced below 0 hit points, 1 hit point of lethal
 damage per barbarian level is converted to nonlethal damage. If the barbarian is at negative hit

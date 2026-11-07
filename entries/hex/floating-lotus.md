@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Floating Lotus (Su)&FN&**
+**Floating Lotus (Su)**
 
 **Ability:** The witch can conjure a large lotus flower that floats by her side for a number of
 minutes per day equal to her level. This duration doesn't need to be consecutive, but must be spent

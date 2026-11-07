@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dodging Panache (Ex)&FN&**
+**Dodging Panache (Ex)**
 
 **Immediate:** When an opponent attempts a melee attack against the swashbuckler, the swashbuckler
 can spend 1 panache point to move 5 feet; doing so grants the swashbuckler a dodge bonus to AC equal

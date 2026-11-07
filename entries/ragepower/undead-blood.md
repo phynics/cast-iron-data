@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Undead Blood (Su)&FN&**
+**Undead Blood (Su)**
 
 **Passive:** While _raging,_ all of the barbarian's melee attacks are treated as if they were made
 with a weapon with the [ghost touch](ref/magic-enh/ghost-touch-weapon) weapon special ability.

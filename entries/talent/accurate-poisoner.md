@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Accurate Poisoner (Ex)&FN&**
+**Accurate Poisoner (Ex)**
 
 **Ability:** When the rogue successfully hits an opponent with a poisoned weapon and would deal
 sneak attack damage, she can forgo the sneak attack damage and increase the poison's potency. If she

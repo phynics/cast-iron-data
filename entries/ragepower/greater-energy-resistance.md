@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Energy Resistance (Ex)&FN&**
+**Greater Energy Resistance (Ex)**
 
 **Ability:** Once per _rage,_ a barbarian can reduce damage by half from a single attack against
 which she has energy resistance (halve the damage, then apply resistance).

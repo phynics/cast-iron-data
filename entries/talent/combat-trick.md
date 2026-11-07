@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Combat Trick&FN&**
+**Combat Trick**
 
 **Ability:** A rogue that selects this talent gains a bonus combat feat.

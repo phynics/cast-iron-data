@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Intimidating Glare (Ex)&FN&**
+**Intimidating Glare (Ex)**
 
 **Move:** The barbarian can make an Intimidate check against one adjacent foe. If the barbarian
 successfully demoralizes her opponent, the foe is [shaken](ref/misc/shaken) for 1d4 rounds + 1 round

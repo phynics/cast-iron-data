@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Webbed Extremities&FN&**
+**Webbed Extremities**
 
 **Flavor:** An alchemist with this discovery grows membranes between his fingers and toes, greatly
 improving his movement underwater.

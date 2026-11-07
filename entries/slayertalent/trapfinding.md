@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Trapfinding&FN&**
+**Trapfinding**
 
 **Ability:** The slayer also gains the [trapfinding](ref/ability/trapfinding) and
 [trap sense](ref/ability/trap-sense) [rogue](ref/class/rogue) abilities, using his slayer level as

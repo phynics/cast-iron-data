@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow Split (Su)&FN&**
+**Shadow Split (Su)**
 
 **Ability:** This trick allows the ninja to create an illusory double of herself that moves away
 from her, allowing the ninja to create a distraction. When she uses this ability, an illusory double

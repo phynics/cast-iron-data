@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Heavy Training (Ex)&FN&**
+**Heavy Training (Ex)**
 
 **Ability:** The vigilante gains [Heavy Armor Proficiency](ref/feat/armor-proficiency-heavy) as a
 bonus feat, if he does not have that feat already. The [armor skin](ref/vigtalent/armor-skin)

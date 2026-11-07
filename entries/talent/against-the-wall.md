@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Against the Wall (Ex)&FN&**
+**Against the Wall (Ex)**
 
 **Ability:** A rogue with this talent is considered to be [flanking](ref/rule/flanking) any opponent
 adjacent to a stone wall (whether the stone is worked or unworked).

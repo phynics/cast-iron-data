@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Focused Force (Su)&FN&**
+**Focused Force (Su)**
 
 **Ability:** When casting a [force](ref/spelldef/force) spell, the psychic can increase the spell's
 damage by spending 1 point from her phrenic pool. Increase the die size for the spell's damage by

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Flesh-Eating Bomb&FN&**
+**Flesh-Eating Bomb**
 
 **Ability:** The alchemist can create bombs that devour living matter. The alchemist's bomb deals
 damage [one die step](ref/misc/damage-die-adjustments) higher than normal (regular bombs deal d8s,

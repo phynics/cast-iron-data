@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lizard Stride (Su)&FN&**
+**Lizard Stride (Su)**
 
 **Ability:** When the barbarian makes a [charge](ref/rule/charge) or [run](ref/rule/run) action
 while _raging,_ she can move across the surface of water without sinking. She sinks immediately if

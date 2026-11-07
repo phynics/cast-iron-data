@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unrestrained Rage&FN&**
+**Unrestrained Rage**
 
 **Immediate:** If the barbarian is targeted by an effect that would cause her to become
 [paralyzed](ref/rule/paralyzed), she can enter a _rage_ immediately, as long as she still has rounds

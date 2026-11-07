@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Savage Jaw (Ex)&FN&**
+**Savage Jaw (Ex)**
 
 **Flavor:** While _raging,_ the barbarian can open her jaw wide and latch her teeth firmly onto her
 opponent.

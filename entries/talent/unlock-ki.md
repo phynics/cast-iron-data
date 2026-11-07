@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unlock Ki (Su)&FN&**
+**Unlock Ki (Su)**
 
 **Ability:** A rogue with this advanced talent increases the number of points in the ki pool that
 she gains from the [ki pool](ref/talent/ki-pool) rogue talent to be equal to 1/2 her rogue level +

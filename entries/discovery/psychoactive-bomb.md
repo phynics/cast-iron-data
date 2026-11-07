@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychoactive Bomb&FN&**
+**Psychoactive Bomb**
 
 **Ability:** _Psychoactive bombs_ are mixed with neurotoxic extracts that heighten certain
 sensations. A creature struck by a _psychoactive bomb_ takes a -1 penalty on saving throws against

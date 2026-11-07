@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Advanced Talent&FN&**
+**Advanced Talent**
 
 **Ability:** The ninja can select a rogue talent from the list of Advanced Talents in place of a
 ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick.

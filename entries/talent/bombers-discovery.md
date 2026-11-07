@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bomber's Discovery (Su)&FN&**
+**Bomber's Discovery (Su)**
 
 **Ability:** A rogue with this talent gains an alchemist's discovery that modifies a bomb.
 

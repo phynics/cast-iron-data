@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poison Steep (Sp)&FN&**
+**Poison Steep (Sp)**
 
 **Ability:** The witch can use her _cauldron_ to brew a foul toxin in which she can steep fruits and
 other delicious edibles, transforming them so that when eaten, they have the same effect as a

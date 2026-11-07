@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Moon Totem (Su)&FN&**
+**Moon Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian gains a bonus equal to
 [half](ref/misc/fractions-and-rounding) her level on Perception checks to pinpoint the location of

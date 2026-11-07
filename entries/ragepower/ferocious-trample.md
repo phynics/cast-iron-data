@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ferocious Trample (Ex)&FN&**
+**Ferocious Trample (Ex)**
 
 **Ability:** While _raging_ and mounted, the barbarian's mount gains the [trample](ref/umr/trample)
 special attack. This attack inflicts 1d8 points of damage for a Medium mount, 2d6 for a Large mount,

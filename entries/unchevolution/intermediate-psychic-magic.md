@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Intermediate Psychic Magic&FN&**
+**Intermediate Psychic Magic**
 
 **Ability:** The eidolon gains 2 points of psychic energy that it can spend each day.
 

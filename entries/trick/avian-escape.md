@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Avian Escape&FN&**
+**Avian Escape**
 
 **Ability:** The mesmerist can trigger this trick when the subject takes damage from an enemy's
 attack. The subject transforms into a bird (as [beast shape III](ref/spell/beast-shape-3)).

@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disorientation&FN&**
+**Disorientation**
 
 **Info:** The _hypnotic stare_ penalty also applies on attack rolls.

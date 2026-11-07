@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dizzying Defense (Ex)&FN&**
+**Dizzying Defense (Ex)**
 
 **Ability:** While wielding a light or one-handed piercing melee weapon in one hand, the
 swashbuckler can spend 1 panache point to take the

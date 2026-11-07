@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Death Curse (Su)&FN&**
+**Death Curse (Su)**
 
 **Ability:** This powerful hex seizes a creature's heart, causing death within just a few moments.
 This hex has a range of 30 feet. The hexed creature receives a Will save to negate the effect. If

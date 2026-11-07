@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Acceleration of Form (Su)&FN&**
+**Acceleration of Form (Su)**
 
 **Standard:** A ninja with this trick can spend 1 ki point to gain the benefits of
 [displacement](ref/spell/displacement) and [haste](ref/spell/haste) for 1 round per 2 ninja levels.

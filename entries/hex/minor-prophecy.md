@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Minor Prophecy (Su)&FN&**
+**Minor Prophecy (Su)**
 
 **Ability:** The witch can call on her prophetic ancestors to cast [augury](ref/spell/augury) once
 per day. She can spend a full hour casting the spell to negate the need for material components, but

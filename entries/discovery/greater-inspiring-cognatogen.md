@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Inspiring Cognatogen&FN&**
+**Greater Inspiring Cognatogen**
 
 **Passive:** The alchemist's _inspiring cognatogen_ now grants a +2 dodge bonus to AC and a +2 bonus
 to Reflex saving throws; a -4 penalty to Strength and Constitution; and the effects of having the

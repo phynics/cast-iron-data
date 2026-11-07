@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dragon Totem Wings (Su)&FN&**
+**Dragon Totem Wings (Su)**
 
 **Passive:** When a barbarian selects this rage power, [Fly](ref/skill/fly) (Dex) becomes a class
 skill for her.

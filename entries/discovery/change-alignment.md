@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Change Alignment&FN&**
+**Change Alignment**
 
 **Ability:** Once per day as part of his preparation of infusions, the alchemist can brew an
 infusion that shifts the imbiber's alignment to good. This change in alignment lasts for 10 minutes

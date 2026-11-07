@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Death Interrupted (Su)&FN&**
+**Death Interrupted (Su)**
 
 **Ability:** A witch with this grand hex can pluck a dead creature's soul from the River of Souls
 and store it in her familiar for safekeeping and eventual resurrection.

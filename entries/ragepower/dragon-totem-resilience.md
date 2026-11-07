@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dragon Totem Resilience (Su)&FN&**
+**Dragon Totem Resilience (Su)**
 
 **Passive:** While _raging,_ the barbarian gains resistance to the energy type that is associated
 with her dragon totem - acid (black, copper, green), cold (silver, white), electricity (blue,

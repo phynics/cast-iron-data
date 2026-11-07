@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Owl's Sight (Ex)&FN&**
+**Owl's Sight (Ex)**
 
 **Ability:** The vigilante gains [low-light vision](ref/rule/low-light-vision). If he already has
 low-light vision, he gains a +4 competence bonus on [Perception](ref/skill/perception) checks in low

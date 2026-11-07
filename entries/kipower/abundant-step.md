@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Abundant Step (Su)&FN&**
+**Abundant Step (Su)**
 
 **Move:** A monk with this ki power can slip magically between spaces, as if using the spell
 [dimension door](ref/spell/dimension-door). Using this ability consumes 2 ki points. The monk's

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unexpected Strike (Ex)&FN&**
+**Unexpected Strike (Ex)**
 
 **Ability:** The vigilante gains [Quick Draw](ref/feat/quick-draw) as a bonus feat.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Superstition (Ex)&FN&**
+**Superstition (Ex)**
 
 **Passive:** The barbarian gains a morale bonus on saving throws made to resist spells, supernatural
 abilities, and [spell-like abilities](ref/umr/spell-like-abilities). This bonus is equal to 2 +

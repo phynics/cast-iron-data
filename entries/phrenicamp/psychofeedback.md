@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychofeedback (Su)&FN&**
+**Psychofeedback (Su)**
 
 **Ability:** The psychic can spend 2 points from her phrenic pool to sacrifice a linked spell of 2nd
 level or higher. Doing so grants the psychic a +1 enhancement bonus to Strength, Dexterity, or

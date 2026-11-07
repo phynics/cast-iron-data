@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&World Serpent Spirit (Su)&FN&**
+**World Serpent Spirit (Su)**
 
 **Passive:** While _raging,_ the barbarian considers her weapons to be chaotic-, evil-, good-, and
 lawful-aligned for the purposes of overcoming [damage reduction](ref/rule/damage-reduction). She

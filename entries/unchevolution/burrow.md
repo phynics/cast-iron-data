@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Burrow (Ex)&FN&**
+**Burrow (Ex)**
 
 **Ability:** The eidolon gains a burrow speed equal to 1/2 its base speed. It can use this speed to
 move through clay, dirt, earth, and sand. It does not leave a hole behind, nor is its passage marked

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Pool (Ex)&FN&**
+**Ki Pool (Ex)**
 
 **Ability:** A rogue with this talent gains a small ki pool. This ki pool is similar to a
 [ninja's](ref/class/ninja) ki pool, but the rogue's ki pool does not grant any extra attacks. The

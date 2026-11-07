@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Improved Evasion (Ex)&FN&**
+**Improved Evasion (Ex)**
 
 **Ability:** This works like [evasion](ref/ability/evasion), except that while the rogue still takes
 no damage on a successful Reflex saving throw against attacks, she henceforth takes only half damage

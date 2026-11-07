@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elemental Blood (Su)&FN&**
+**Elemental Blood (Su)**
 
 **Passive:** While _raging_ the barbarian gains energy [resistance](ref/umr/resistance) 10 against
 the energy type chosen when she took lesser elemental blood.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ferocious Beast (Ex)&FN&**
+**Ferocious Beast (Ex)**
 
 **Passive:** While the barbarian is _raging,_ her animal companion also gains the benefits of _rage_
 (including _greater rage, mighty rage,_ and _tireless rage_), though the barbarian must spend 1

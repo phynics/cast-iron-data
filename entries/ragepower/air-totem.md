@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Air Totem (Su)&FN&**
+**Air Totem (Su)**
 
 **Ability:** Once per _rage,_ the barbarian can move for 1 round as if affected by
 [air walk](ref/spell/air-walk).

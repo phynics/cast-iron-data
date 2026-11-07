@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Strength&FN&**
+**Strength**
 
 **Info:** The Strength patron grants the following spells at the listed witch levels.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hard Minded (Ex)&FN&**
+**Hard Minded (Ex)**
 
 **Flavor:** A rogue with this talent is hard to fool with illusions.
 

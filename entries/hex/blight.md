@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blight (Su)&FN&**
+**Blight (Su)**
 
 **Action:** Ability
 

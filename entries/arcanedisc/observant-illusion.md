@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Observant Illusion (Su)&FN&**
+**Observant Illusion (Su)**
 
 **Ability:** You can project your senses into any ongoing figment or shadow illusion you create with
 a spell of at least 3rd level. You can see through its eyes and hear through its ears as if you were

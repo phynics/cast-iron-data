@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Empathy (Ex, Su)&FN&**
+**Empathy (Ex, Su)**
 
 **Ability:** When attempting a [Sense Motive](ref/rule/sense-motive) check, the investigator makes
 two d20 rolls and takes the higher result.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Range (Ex)&FN&**
+**Deadly Range (Ex)**
 
 **Passive:** A slayer with this talent increases the range at which he can deal sneak attack damage
 by 10 feet.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Confusing Strike (Ex)&FN&**
+**Confusing Strike (Ex)**
 
 **Ability:** When the investigator deals damage with _studied strike,_ the opponent must succeed at
 a Fortitude saving throw or become [confused](ref/misc/confused) for 1d4+1 rounds. A successful

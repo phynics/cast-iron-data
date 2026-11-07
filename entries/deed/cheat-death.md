@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cheat Death (Ex)&FN&**
+**Cheat Death (Ex)**
 
 **Ability:** Whenever the gunslinger is reduced to 0 or fewer hit points, she can spend all of her
 remaining grit points (minimum 1) to instead be reduced to 1 hit point.

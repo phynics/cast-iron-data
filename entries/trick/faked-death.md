@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Faked Death&FN&**
+**Faked Death**
 
 **Ability:** The mesmerist can trigger this trick when the subject is damaged by an attack. The
 subject seems to fall down dead (as [programmed image](ref/spell/programmed-image)), but actually

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sweeping Strike (Ex)&FN&**
+**Sweeping Strike (Ex)**
 
 **Ability:** The vigilante gains [Cleave](ref/feat/cleave) as a bonus feat.
 

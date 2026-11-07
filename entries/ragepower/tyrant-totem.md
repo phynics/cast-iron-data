@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tyrant Totem (Ex)&FN&**
+**Tyrant Totem (Ex)**
 
 **Free:** While _raging,_ the barbarian can begin a [grapple](ref/rule/grapple) against any creature
 she hits with her bite attack.

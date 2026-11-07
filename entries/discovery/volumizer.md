@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Volumizer&FN&**
+**Volumizer**
 
 **Ability:** The alchemist can use an extract slot of any level to create a reactive tablet that
 purifies water and doubles its volume. This works like

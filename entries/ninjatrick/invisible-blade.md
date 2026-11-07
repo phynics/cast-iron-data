@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Invisible Blade (Su)&FN&**
+**Invisible Blade (Su)**
 
 **Ability:** Whenever a ninja uses the _vanishing trick_ ninja trick, she is treated as if she were
 under the effects of [greater invisibility](ref/spell/invisibility-greater).

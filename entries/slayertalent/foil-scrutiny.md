@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Foil Scrutiny&FN&**
+**Foil Scrutiny**
 
 **Passive:** A slayer with this talent is able to obscure his thoughts and intentions. He gains a +2
 bonus on all Bluff and Disguise checks, as well as on Will saving throws to resist mind-reading

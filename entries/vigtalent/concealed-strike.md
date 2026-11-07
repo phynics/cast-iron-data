@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Concealed Strike (Ex)&FN&**
+**Concealed Strike (Ex)**
 
 **Ability:** Whenever the vigilante attacks an opponent with a concealed weapon that his target
 wasn't aware of, he can attempt a Bluff check to [feint](ref/rule/feint) that opponent as a **move

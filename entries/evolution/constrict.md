@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Constrict (Ex)&FN&**
+**Constrict (Ex)**
 
 **Ability:** Whenever the eidolon successfully grapples a foe using the
 _[grab](ref/carried/bestiary/rules/universal-monster-rules/grab)_ evolution, it deals additional

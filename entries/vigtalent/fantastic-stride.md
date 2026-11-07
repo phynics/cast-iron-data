@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fantastic Stride (Ex)&FN&**
+**Fantastic Stride (Ex)**
 
 **Ability:** The vigilante gains [Spring Attack](ref/feat/spring-attack) as a bonus feat, ignoring
 its prerequisites.

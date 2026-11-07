@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disguise (Sp)&FN&**
+**Disguise (Sp)**
 
 **Ability:** A witch can change her appearance, as if using
 [disguise self](ref/spell/disguise-self).

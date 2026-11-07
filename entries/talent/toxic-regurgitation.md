@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Toxic Regurgitation (Ex)&FN&**
+**Toxic Regurgitation (Ex)**
 
 **Ability:** At any time while the poison is suspended within her, the rogue can spit up the poison
 as a ranged touch attack at any creature within 10 feet. This does not provoke attacks of

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Cult Totem (Ex)&FN&**
+**Lesser Cult Totem (Ex)**
 
 **Passive:** While the barbarian is _raging,_ any morale bonuses or bonuses for
 [flanking](ref/rule/flanking) she gains on attacks rolls are added to her damage rolls instead of

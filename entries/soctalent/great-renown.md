@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Great Renown (Ex)&FN&**
+**Great Renown (Ex)**
 
 **Ability:** He can gain _renown_ in a single community of up to 5,000 individuals (a
 [large town](ref/rule/the-shape-of-civilization)) or up to two communities of no more than 2,000

@@ -15,7 +15,7 @@ Raw destruction given material substance, [demon](ref/family/demon) eidolons for
 stew of soul energy, leading some scholars to speculate that the summoner's arts are related to the
 magical tampering that gave rise to the first demons. Demon eidolons revel in causing destruction
 and inflicting suffering, and they will do so for their summoners without question, taking pleasure
-in whatever havoc they can create. For a demon eidolon, the means justify the ends.&FN&
+in whatever havoc they can create. For a demon eidolon, the means justify the ends.
 
 **Alignment**
 

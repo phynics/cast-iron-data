@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Extra Feat (Ex)&FN&**
+**Extra Feat (Ex)**
 
 **Ability:** The eidolon gains an extra feat. It must meet the prerequisites of the feat.
 

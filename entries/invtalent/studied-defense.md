@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Studied Defense (Ex)&FN&**
+**Studied Defense (Ex)**
 
 **Ability:** When an investigator with this talent uses his _studied combat_ ability, he can chose
 to apply that ability's insight bonus to his AC against attacks made by the target of his _studied

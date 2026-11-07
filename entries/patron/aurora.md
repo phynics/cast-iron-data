@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Aurora&FN&**
+**Aurora**
 
 **Info:** The Aurora patron grants the following spells at the listed witch levels.
 

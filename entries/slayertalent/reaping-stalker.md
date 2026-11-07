@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Reaping Stalker (Ex)&FN&**
+**Reaping Stalker (Ex)**
 
 **Flavor:** Some slayers prefer weapons with grim symbolism of lives cut short and can wield such
 weapons with unparalleled lethality.

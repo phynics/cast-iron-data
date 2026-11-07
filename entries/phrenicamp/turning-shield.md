@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Turning Shield (Su)&FN&**
+**Turning Shield (Su)**
 
 **Ability:** She can spend a number of points from her phrenic pool equal to the linked spell's
 level to gain the benefit of [spell turning](ref/spell/spell-turning) for 1 round per psychic level.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ghost Step (Su)&FN&**
+**Ghost Step (Su)**
 
 **Flavor:** A ninja with this trick can pass through walls as if she were a ghost.
 

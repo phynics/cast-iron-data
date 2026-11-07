@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Animal Fury (Ex)&FN&**
+**Greater Animal Fury (Ex)**
 
 **Ability:** This power works as _animal fury,_ but the barbarian's bite attack deals damage as if
 she were [one size category larger](ref/misc/damage-die-adjustments).

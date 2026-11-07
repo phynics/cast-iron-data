@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Evasive (Ex)&FN&**
+**Evasive (Ex)**
 
 **Passive:** When the gunslinger has at least 1 grit point, she gains the benefit of the
 [evasion](ref/ability/evasion), [uncanny dodge](ref/ability/uncanny-dodge), and

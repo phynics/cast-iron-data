@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Trip (Ex)&FN&**
+**Trip (Ex)**
 
 **Ability:** An eidolon becomes adept at knocking foes to the ground with its bite, granting it a
 [trip](ref/rule/trip) attack. Whenever the eidolon makes a successful bite attack of the selected

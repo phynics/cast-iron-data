@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vengeance&FN&**
+**Vengeance**
 
 **Info:** The Vengeance patron grants the following spells at the listed witch levels.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Enchanting Words&FN&**
+**Enchanting Words**
 
 **Ability:** The mesmerist can trigger this trick whenever the subject attempts a Diplomacy or
 Intimidate check to adjust a creature's attitude. The subject can use the mesmerist's Charisma

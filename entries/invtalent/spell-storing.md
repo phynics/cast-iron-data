@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spell Storing (Su)&FN&**
+**Spell Storing (Su)**
 
 **Ability:** The investigator can store within himself a single targeted harmless spell of up to 2nd
 level. The spell must have a casting time of 1 standard action. Anytime a spell that meets these

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rend (Ex)&FN&**
+**Rend (Ex)**
 
 **Ability:** An eidolon learns to rip and tear the flesh of those it attacks with its claws, gaining
 the [rend](ref/umr/rend) ability. Whenever the eidolon makes two successful claw attacks against the

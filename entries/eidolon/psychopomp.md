@@ -16,7 +16,7 @@ dispassionate yet loyal eidolons. When they deal with the world of mortals, psyc
 nearly always wear masks. They do not tolerate summoners who traffic with daemons, undead, and other
 entities that interfere with the transmigration of souls, but otherwise they are comfortable with
 most actions on the summoner's part. When the summoner dies, a psychopomp eidolon personally escorts
-him to the afterlife and serves as an expert witness when it is time for him to be judged.&FN&
+him to the afterlife and serves as an expert witness when it is time for him to be judged.
 
 **Alignment**
 

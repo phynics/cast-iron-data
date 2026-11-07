@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The target is no longer nauseated. The paladin must have the
-[sickened](ref/mercy/sickened) mercy before selecting this mercy.&FN&
+[sickened](ref/mercy/sickened) mercy before selecting this mercy.
 
-**Title:** &L&Nauseated
+**Title:** Nauseated

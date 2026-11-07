@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fast Healing&FN&**
+**Fast Healing**
 
 **Passive:** The alchemist's flesh responds to damage with shocking speed - he gains
 [fast healing](ref/umr/fast-healing) 5.

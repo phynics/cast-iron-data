@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fast Tumble (Ex)&FN&**
+**Fast Tumble (Ex)**
 
 **Ability:** When a rogue with this talent uses [Acrobatics](ref/skill/acrobatics) to move at full
 speed through a threatened square without provoking an attack of opportunity, the DC of the

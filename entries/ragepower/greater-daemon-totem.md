@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Daemon Totem (Su)&FN&**
+**Greater Daemon Totem (Su)**
 
 **Ability:** If the barbarian kills an intelligent creature with a CR equal to at least half her
 character level while _raging,_ she heals 5 hit points. If she is already at her maximum number of

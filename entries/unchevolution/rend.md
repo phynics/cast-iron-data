@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rend (Ex)&FN&**
+**Rend (Ex)**
 
 **Ability:** Whenever the eidolon makes two successful claw attacks against the same target in 1
 round, its claws latch on to the flesh and deal extra damage. This damage is equal to the damage

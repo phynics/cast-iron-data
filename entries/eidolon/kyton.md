@@ -16,7 +16,7 @@ Scholars of the exquisiteness of agony and explorers of the limitations of the f
 They appear as humanoids, save that they are covered in piercings, draped with chains, and bear
 grisly body modifications. Kyton eidolons gain access to the [tentacle](ref/unchevolution/tentacle)
 and [web](ref/unchevolution/web) evolutions, but kyton eidolon tentacles and webs always appear as
-animated chains.&FN&
+animated chains.
 
 **Alignment**
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&World Serpent Totem Unity (Su)&FN&**
+**World Serpent Totem Unity (Su)**
 
 **Passive:** While _raging,_ the barbarian doubles her _fast movement_ bonus to land speed and
 cannot be knocked [prone](ref/rule/prone). She also doubles her world serpent totem insight bonus to

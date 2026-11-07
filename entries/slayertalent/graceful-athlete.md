@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Graceful Athlete&FN&**
+**Graceful Athlete**
 
 **Ability:** Gain [Graceful Athlete](ref/feat/graceful-athlete) as a bonus feat. You must meet the
 prerequisites for the feat.

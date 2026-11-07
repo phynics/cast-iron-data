@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dirty Strikes&FN&**
+**Dirty Strikes**
 
 **Ability:** If the attack hits, the monk can perform a free [dirty trick](ref/rule/dirty-trick)
 combat maneuver against the target of this strike (using the base attack bonus of the attack used to

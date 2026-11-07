@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dark Apothecary (Ex)&FN&**
+**Dark Apothecary (Ex)**
 
 **Flavor:** The witches of ancient Iblydos were masters of herbalism, crafting potent drugs and
 poisons.

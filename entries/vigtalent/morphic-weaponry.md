@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Morphic Weaponry (Ex)&FN&**
+**Morphic Weaponry (Ex)**
 
 **Ability:** The vigilante can shape his body into weaponry. This acts as the
 [oozemorph](ref/arc-shifter/oozemorph) shifter's _morphic weaponry_ ability, treating the

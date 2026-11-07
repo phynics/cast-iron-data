@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Experience Across Ages (Ex)&FN&**
+**Experience Across Ages (Ex)**
 
 **Flavor:** A samsaran slayer can draw upon insights from his previous lifetimes to help identify a
 foe or recall a key piece of information.

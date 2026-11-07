@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Major Magic (Sp)&FN&**
+**Major Magic (Sp)**
 
 **Ability:** A vigilante with this talent gains the ability to cast a 1st-level spell drawn from the
 same spell list as the _minor magic_ talent. The vigilante can cast this spell as a

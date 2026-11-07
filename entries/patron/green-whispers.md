@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Green Whispers&FN&**
+**Green Whispers**
 
 **Ability:** You gain the [feral speech](ref/hex/feral-speech) hex at 1st level.
 

@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Low-Light Vision (Ex)&FN&**
+**Low-Light Vision (Ex)**
 
 **Ability:** The barbarian's senses sharpen and she gains low-light vision while _raging._

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspired Intelligence (Ex)&FN&**
+**Inspired Intelligence (Ex)**
 
 **Ability:** An investigator can add his _inspiration_ die to all Knowledge, Linguistics, or
 Spellcraft checks without expending a use of _inspiration,_ even those he's not trained in.

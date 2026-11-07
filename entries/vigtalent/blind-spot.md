@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blind Spot (Ex)&FN&**
+**Blind Spot (Ex)**
 
 **Ability:** The vigilante is so skilled at stealth, he can use the Stealth skill to hide from
 creatures with unusual senses that normally automatically detect creatures. This includes senses

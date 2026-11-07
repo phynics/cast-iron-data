@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Versatile Intimidation (Ex)&FN&**
+**Versatile Intimidation (Ex)**
 
 **Ability:** The Hellknight can use Intimidate to reproduce the effects of another Charisma-based
 skill. Choose one of the following: Bluff, Diplomacy, Handle Animal, or Perform (oratory). Each time

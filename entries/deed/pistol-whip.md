@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pistol-Whip (Ex)&FN&**
+**Pistol-Whip (Ex)**
 
 **Prereq:** 3rd-level gunslinger
 

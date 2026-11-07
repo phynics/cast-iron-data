@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Atavism Totem (Su)&FN&**
+**Atavism Totem (Su)**
 
 **Ability:** The barbarian gains [ferocity](ref/umr/ferocity).
 

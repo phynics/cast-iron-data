@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mount (Ex)&FN&**
+**Mount (Ex)**
 
 **Ability:** An eidolon is properly skilled and formed to serve as a
 [combat-trained](ref/rule/mounted-combat) mount.

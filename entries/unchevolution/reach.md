@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Reach (Ex)&FN&**
+**Reach (Ex)**
 
 **Ability:** Select one attack. The eidolon's reach with that attack increases by 5 feet.
 

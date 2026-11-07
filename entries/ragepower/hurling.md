@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hurling (Ex)&FN&**
+**Hurling (Ex)**
 
 **Ability:** As _lesser hurling,_ but the barbarian can increase the range increment to 20 feet or
 increase the size of a hurled object by one size category.

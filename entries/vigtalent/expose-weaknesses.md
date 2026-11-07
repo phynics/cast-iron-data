@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Expose Weaknesses (Ex)&FN&**
+**Expose Weaknesses (Ex)**
 
 **Ability:** The vigilante is able to use sneaky tricks to make it easier to damage a foe, whether
 it is throwing a bit of fine dust of cold iron over a fey creature or melting a glob of silver onto

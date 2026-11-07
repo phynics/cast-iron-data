@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ioun Bond&FN&**
+**Ioun Bond**
 
 **Ability:** You can form an arcane bond with an [ioun stone](ref/magic-wondrous/ioun-stone). If you
 choose this arcane discovery at 1st level, you gain a [dull gray](ref/magic-ioun/dull-gray-stone)

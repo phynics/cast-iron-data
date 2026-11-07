@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Drugged (Su)&FN&**
+**Drugged (Su)**
 
 **Ability:** The witch can combine her magic with her poisons to weaken her enemies' minds. When the
 witch creates a poison, she can require the target of the poison to attempt a Will save rather than

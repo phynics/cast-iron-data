@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Empty Body (Su)&FN&**
+**Empty Body (Su)**
 
 **Move:** A monk with this ki power gains the ability to assume an ethereal state for 1 minute as
 though using the spell [etherealness](ref/spell/etherealness), using his monk level as his caster

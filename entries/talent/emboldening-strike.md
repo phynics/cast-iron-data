@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Emboldening Strike (Ex)&FN&**
+**Emboldening Strike (Ex)**
 
 **Ability:** When a rogue with this talent hits a creature with a melee attack that deals sneak
 attack damage, she gains a +1 circumstance bonus on saving throws for every 2 sneak attack dice

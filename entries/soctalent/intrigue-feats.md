@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Intrigue Feats (Ex)&FN&**
+**Intrigue Feats (Ex)**
 
 **Ability:** The vigilante gains one of the following feats as a bonus feat:
 [Blustering Bluff](ref/feat/blustering-bluff), [But a Scratch](ref/feat/but-a-scratch),

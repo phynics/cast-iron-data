@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Witch's Bounty (Su)&FN&**
+**Witch's Bounty (Su)**
 
 **Ability:** The witch may bless a bush, plant, or tree that is planted in the ground, so that it
 creates a plentiful harvest. Each day at dawn, this blessed bush grows a number of

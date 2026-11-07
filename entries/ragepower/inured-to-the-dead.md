@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inured to the Dead&FN&**
+**Inured to the Dead**
 
 **Passive:** Once per _rage,_ when the barbarian fails a saving throw against an effect created by
 an undead creature, she can reroll the saving throw. She must use the second result, even if it is

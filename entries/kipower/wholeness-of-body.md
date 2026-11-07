@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wholeness of Body (Su)&FN&**
+**Wholeness of Body (Su)**
 
 **Ability:** By spending 2 ki points, he can heal an amount of damage equal to 1d8 + his monk level.
 

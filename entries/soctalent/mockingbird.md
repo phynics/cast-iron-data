@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mockingbird (Ex)&FN&**
+**Mockingbird (Ex)**
 
 **Ability:** The vigilante can mimic almost any sort of voice, or even animal calls and sound
 effects, and he can throw his voice at a distance.

@@ -14,7 +14,7 @@ kind = "none"
 Hailing from the higher planes, [angel](ref/family/angel) eidolons are creatures of exquisite
 beauty. They usually appear in idealized humanoid forms, with smooth skin, shining hair, and bright
 eyes. Angel eidolons are impeccably honorable, trustworthy, and diplomatic, but they do not shy away
-from confrontation when facing off against evil and its minions.&FN&
+from confrontation when facing off against evil and its minions.
 
 **Alignment**
 

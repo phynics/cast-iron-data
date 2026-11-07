@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Focusing Attack (Ex)&FN&**
+**Focusing Attack (Ex)**
 
 **Ability:** When a rogue selects this talent, she must choose the [confused](ref/misc/confused),
 [shaken](ref/misc/shaken), or [sickened](ref/misc/sickened) condition. When the rogue has the

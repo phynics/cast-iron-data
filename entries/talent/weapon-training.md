@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Weapon Training&FN&**
+**Weapon Training**
 
 **Ability:** A rogue that selects this talent gains [Weapon Focus](ref/feat/weapon-focus) as a bonus
 feat.

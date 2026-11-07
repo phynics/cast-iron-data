@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Savage Dirty Trick (Ex)&FN&**
+**Savage Dirty Trick (Ex)**
 
 **Action:** Ability
 

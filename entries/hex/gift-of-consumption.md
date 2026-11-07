@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gift of Consumption (Su)&FN&**
+**Gift of Consumption (Su)**
 
 **Flavor:** The witch curses a creature to share any effects that target her vitality.
 

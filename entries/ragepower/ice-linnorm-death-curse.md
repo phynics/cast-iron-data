@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ice Linnorm Death Curse (Su)&FN&**
+**Ice Linnorm Death Curse (Su)**
 
 **Action:** Ability
 

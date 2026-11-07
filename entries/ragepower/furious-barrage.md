@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Furious Barrage (Ex)&FN&**
+**Furious Barrage (Ex)**
 
 **Ability:** The barbarian is treated as having the [Rapid Shot](ref/feat/rapid-shot) feat, but only
 for the purpose of attacking with thrown weapons. She need not meet the feat's prerequisites.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Menacing Swordplay (Ex)&FN&**
+**Menacing Swordplay (Ex)**
 
 **Ability:** While she has at least 1 panache point, when a swashbuckler hits an opponent with a
 light or one-handed piercing melee weapon, she can choose to use Intimidate to demoralize that

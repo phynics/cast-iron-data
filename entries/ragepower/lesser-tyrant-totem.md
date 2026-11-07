@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Tyrant Totem (Ex)&FN&**
+**Lesser Tyrant Totem (Ex)**
 
 **Passive:** While _raging,_ the barbarian's bite attack deals damage as if the barbarian were
 [one size larger](ref/misc/damage-die-adjustments) than her actual size.

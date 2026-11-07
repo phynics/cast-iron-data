@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sticky Poison&FN&**
+**Sticky Poison**
 
 **Ability:** Any poison the alchemist creates is sticky - when the alchemist applies it to a weapon,
 the weapon remains poisoned for a number of strikes equal to the alchemist's Intelligence modifier.

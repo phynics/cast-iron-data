@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Overpowering Mind (Ex)&FN&**
+**Overpowering Mind (Ex)**
 
 **Ability:** The psychic can spend 2 points from her phrenic pool to increase the Will save DC of
 the linked spell by 1.

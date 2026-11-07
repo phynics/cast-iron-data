@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Getaway Master (Ex)&FN&**
+**Getaway Master (Ex)**
 
 **Ability:** A rogue with this talent gains a +10 bonus on all
 [drive checks](ref/rule/vehicle-basics).

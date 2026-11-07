@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tail Slap (Ex)&FN&**
+**Tail Slap (Ex)**
 
 **Ability:** An eidolon can use its tail to bash nearby foes, granting it a
 [tail slap attack](ref/umr/natural-attacks). This attack is a secondary attack. The tail slap deals

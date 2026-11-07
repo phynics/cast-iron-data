@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spirits&FN&**
+**Spirits**
 
 **Info:** The Spirits patron grants the following spells at the listed witch levels.
 

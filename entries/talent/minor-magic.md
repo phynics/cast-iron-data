@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Minor Magic (Sp)&FN&**
+**Minor Magic (Sp)**
 
 **Ability:** A rogue with this talent gains the ability to cast a 0-level spell from the
 sorcerer/wizard spell list. This spell can be cast three times a day as a

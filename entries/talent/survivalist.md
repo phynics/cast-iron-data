@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Survivalist&FN&**
+**Survivalist**
 
 **Info:** A rogue with this talent adds [Heal](ref/skill/heal) and [Survival](ref/skill/survival) to
 her list of class skills.

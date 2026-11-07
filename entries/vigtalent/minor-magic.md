@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Minor Magic (Sp)&FN&**
+**Minor Magic (Sp)**
 
 **Ability:** The vigilante gains the ability to cast a 0-level spell from the selected spell list.
 This spell can be cast two times per day as a [spell-like ability](ref/umr/spell-like-abilities).

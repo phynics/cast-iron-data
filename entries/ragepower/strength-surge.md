@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Strength Surge (Ex)&FN&**
+**Strength Surge (Ex)**
 
 **Immediate:** The barbarian adds her barbarian level on one Strength check or combat maneuver
 check, or to her Combat Maneuver Defense when an opponent attempts a maneuver against her.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Charm (Su)&FN&**
+**Charm (Su)**
 
 **Ability:** A shaman charms an animal or humanoid creature within 30 feet by beckoning and speaking
 soothing words. This improves the attitude of an animal or humanoid creature by 1 step, as if the

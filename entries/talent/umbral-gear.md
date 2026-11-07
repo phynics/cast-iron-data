@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Umbral Gear (Su)&FN&**
+**Umbral Gear (Su)**
 
 **Action:** Standard Action
 

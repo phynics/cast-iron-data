@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stand Up (Ex)&FN&**
+**Stand Up (Ex)**
 
 **Ability:** A rogue with this ability can stand up from a [prone](ref/rule/prone) position as a
 **free action**. This still provokes attacks of opportunity for standing up while threatened by a

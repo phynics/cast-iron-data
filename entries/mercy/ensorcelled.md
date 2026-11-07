@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The paladin's lay on hands also acts as [dispel magic](ref/spell/dispel-magic), using
-the paladin's level as her caster level (maximum 20).&FN&
+the paladin's level as her caster level (maximum 20).
 
-**Title:** &L&Ensorcelled
+**Title:** Ensorcelled

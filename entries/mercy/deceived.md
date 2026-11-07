@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The target can immediately attempt a new saving throw to disbelieve any ongoing
-illusions that it failed to disbelieve within the last minute.&FN&
+illusions that it failed to disbelieve within the last minute.
 
-**Title:** &L&Deceived
+**Title:** Deceived

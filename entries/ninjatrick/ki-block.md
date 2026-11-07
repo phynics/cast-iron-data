@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Block (Su)&FN&**
+**Ki Block (Su)**
 
 **Ability:** Whenever the ninja deals sneak attack damage, the target must make a Will save or be
 unable to spend any points from its ki pool for a number of rounds equal to the ninja's Charisma

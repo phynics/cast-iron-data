@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Combat Hypnosis (Su)&FN&**
+**Combat Hypnosis (Su)**
 
 **Ability:** This hex functions as [hypnotism](ref/spell/hypnotism), except it can affect only one
 creature at a time, and the target creature does not receive the usual +2 bonus on its saving throw

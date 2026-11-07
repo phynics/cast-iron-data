@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feint from Shadows (Ex)&FN&**
+**Feint from Shadows (Ex)**
 
 **Ability:** A rogue with this talent can [feint](ref/skill/bluff) in combat using a ranged weapon
 against a target within 30 feet and cause the opponent to lose his Dexterity modifier against her

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grab (Ex)&FN&**
+**Grab (Ex)**
 
 **Ability:** The eidolon becomes adept at grappling foes, gaining the [grab](ref/umr/grab) ability.
 Select one of the following attacks: [bite](ref/unchevolution/bite),

@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer sickened.&FN&
+**Details:** The target is no longer sickened.
 
-**Title:** &L&Sickened
+**Title:** Sickened

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unwitting Messenger&FN&**
+**Unwitting Messenger**
 
 **Ability:** The mesmerist describes a recipient to the subject while implanting this trick, then
 recites a verbal message no longer than five words per mesmerist level. The subject of _unwitting

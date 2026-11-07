@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Major Magic (Sp)&FN&**
+**Major Magic (Sp)**
 
 **Ability:** A rogue with this talent gains the ability to cast a 1st-level spell from the
 sorcerer/wizard spell list two times a day as a [spell-like ability](ref/umr/spell-like-abilities).

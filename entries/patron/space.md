@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Space&FN&**
+**Space**
 
 **Info:** The Space patron grants the following spells at the listed witch levels.
 

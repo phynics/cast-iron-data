@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Energy Absorption (Su)&FN&**
+**Energy Absorption (Su)**
 
 **Ability:** While _raging,_ the barbarian can absorb energy from a single attack of her chosen
 energy type once per _rage._ She does not make a saving throw against the effect but takes no damage

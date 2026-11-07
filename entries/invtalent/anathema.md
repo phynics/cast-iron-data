@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Anathema (Ex)&FN&**
+**Anathema (Ex)**
 
 **Ability:** When an investigator creates or prepares a poison, including poisons derived from
 racial or class abilities, he can spend one use of _inspiration_ to create an _anathema_ instead.

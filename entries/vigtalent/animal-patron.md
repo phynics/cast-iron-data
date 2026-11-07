@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Animal Patron (Ex)&FN&**
+**Animal Patron (Ex)**
 
 **Ability:** The vigilante gains the benefits of one [minor shifter aspect](ref/class/shifter) for a
 number of minutes per day equal to 1 + half his vigilante level. He can shift into this minor aspect

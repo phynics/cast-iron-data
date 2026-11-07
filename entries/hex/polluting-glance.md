@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Polluting Glance (Su)&FN&**
+**Polluting Glance (Su)**
 
 **Ability:** The witch can choose one liquid item she can see within 30 feet and change its contents
 into polluted water as per her _pollute water_ hex.

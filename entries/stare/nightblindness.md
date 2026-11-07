@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nightblindness&FN&**
+**Nightblindness**
 
 **Info:** The [darkvision](ref/rule/darkvision) range of the \*hypnotic stare'\*s target decreases
 by 10 feet.

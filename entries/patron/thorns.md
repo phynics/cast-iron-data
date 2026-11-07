@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Thorns&FN&**
+**Thorns**
 
 **Info:** The Thorns patron grants the following spells at the listed witch levels.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spiritual Companion (Ex)&FN&**
+**Spiritual Companion (Ex)**
 
 **Ability:** A ninja with this trick gains an [improved familiar](ref/feat/improved-familiar),
 treating her ninja level as her wizard level. The ninja can select any of the following as her

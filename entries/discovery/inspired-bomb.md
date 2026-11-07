@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspired Bomb&FN&**
+**Inspired Bomb**
 
 **Ability:** An alchemist with this discovery can expend two uses of _inspiration_ to increase the
 bomb's damage by 1d6. The type of damage the bomb deals does not change. This cannot be applied to

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Jynx&FN&**
+**Jynx**
 
 **Info:** The Jynx patron grants the following spells at the listed witch levels.
 

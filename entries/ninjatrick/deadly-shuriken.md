@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Shuriken (Ex)&FN&**
+**Deadly Shuriken (Ex)**
 
 **Fullround:** A ninja with this master trick can take careful aim and pool all of her attack
 potential into a single, deadly [shuriken](ref/eq-weapon/shuriken) throw. When she does this, she

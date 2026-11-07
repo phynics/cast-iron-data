@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Sneak (Ex)&FN&**
+**Deadly Sneak (Ex)**
 
 **Passive:** Whenever a rogue with this talent uses the _powerful sneak_ rogue talent, she treats
 all 1s and 2s on the sneak attack damage dice as 3s.

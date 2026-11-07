@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sever Alignment (Su)&FN&**
+**Sever Alignment (Su)**
 
 **Ability:** When making a sneak attack against an opponent with an alignment subtype, a rogue with
 this talent can forgo her sneak attack damage to scramble the creature's metaphysical nature. If the

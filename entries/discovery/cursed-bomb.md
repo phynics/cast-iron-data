@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cursed Bomb&FN&**
+**Cursed Bomb**
 
 **Ability:** When an alchemist creates a bomb, he can choose to have it deliver a debilitating
 curse. A creature that takes a direct hit from a _cursed bomb_ must succeed at a Will save or be

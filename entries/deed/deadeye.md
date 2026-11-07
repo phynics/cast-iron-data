@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadeye (Ex)&FN&**
+**Deadeye (Ex)**
 
 **Ability:** The gunslinger can resolve an attack against touch AC instead of normal AC when firing
 beyond her firearm's first range increment. Performing this deed costs 1 grit point per range

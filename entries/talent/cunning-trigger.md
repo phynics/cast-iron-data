@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cunning Trigger (Ex)&FN&**
+**Cunning Trigger (Ex)**
 
 **Swift:** A rogue with this talent can set off any trap within 30 feet that she constructed.

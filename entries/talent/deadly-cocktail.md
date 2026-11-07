@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Cocktail (Ex)&FN&**
+**Deadly Cocktail (Ex)**
 
 **Ability:** A rogue with this talent can apply two doses of poison to a weapon at once. These can
 be separate poisons, in which case they both affect the target individually, or two doses of the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stunning Stab (Ex)&FN&**
+**Stunning Stab (Ex)**
 
 **Ability:** When a swashbuckler hits a creature with a light or one-handed piercing melee weapon,
 she can spend 2 panache points. The creature must succeed at a Fortitude saving throw (DC = 10 + 1/2

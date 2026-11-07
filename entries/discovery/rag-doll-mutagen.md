@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rag Doll Mutagen&FN&**
+**Rag Doll Mutagen**
 
 **At 10th Level:** All falling damage is considered nonlethal damage, and the alchemist can squeeze
 through places as if he were two size categories smaller than his size while under the effects of

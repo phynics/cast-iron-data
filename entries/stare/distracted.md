@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Distracted&FN&**
+**Distracted**
 
 **Info:** The _hypnotic stare_ penalty also applies to [concentration](ref/rule/concentration)
 checks.

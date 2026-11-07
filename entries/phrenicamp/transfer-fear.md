@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Transfer Fear (Su)&FN&**
+**Transfer Fear (Su)**
 
 **Ability:** When the psychic successfully affects a target with a fear effect, she can spend 1
 point from her phrenic pool to remove a fear effect from herself or one ally with whom she is in

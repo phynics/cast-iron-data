@@ -15,7 +15,7 @@ Just like a summoner, a twinned eidolon learns to use weapons and magic. While t
 ethically more flexible than most eidolons, they are quite adamant about being treated as equals and
 not as servants. They demonstrate an eerie consistency with the summoner's manner of thinking,
 providing similar answers to questions and reacting similarly to startling events. This subtype is
-restricted to [twinned summoners](ref/arc-unchained-summoner/twinned-summoner).&FN&
+restricted to [twinned summoners](ref/arc-unchained-summoner/twinned-summoner).
 
 **Alignment**
 

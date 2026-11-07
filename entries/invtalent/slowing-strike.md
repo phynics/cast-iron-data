@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slowing Strike (Ex)&FN&**
+**Slowing Strike (Ex)**
 
 **Ability:** When the investigator deals damage with _studied strike,_ the opponent must succeed at
 a Fortitude save (DC = 10 + 1/2 the investigator's class level + his Intelligence modifier) or be

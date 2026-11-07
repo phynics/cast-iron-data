@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Distraction (Su)&FN&**
+**Distraction (Su)**
 
 **Action:** At 1st Level
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spontaneous Healing&FN&**
+**Spontaneous Healing**
 
 **Flavor:** The alchemist gains the ability to heal from wounds rapidly.
 

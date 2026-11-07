@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Renewed Life (Ex)&FN&**
+**Renewed Life (Ex)**
 
 **Ability:** Once per day, when a barbarian with temporary negative levels ends her _rage,_ she can
 attempt saving throws to remove a number of negative levels equal to the number of levels she could

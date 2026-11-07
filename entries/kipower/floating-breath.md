@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Floating Breath (Su)&FN&**
+**Floating Breath (Su)**
 
 **Prereq:** 8th-level monk
 

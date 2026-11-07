@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wild Magic (Sp)&FN&**
+**Wild Magic (Sp)**
 
 **Ability:** A rogue with this talent gains the ability to cast a 0-level spell from the druid spell
 list. This spell can be cast three times per day as a

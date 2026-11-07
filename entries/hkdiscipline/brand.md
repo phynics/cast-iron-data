@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Brand (Sp)&FN&**
+**Brand (Sp)**
 
 **Ability:** The Hellknight can use [mark of justice](ref/spell/mark-of-justice) as a
 [spell-like ability](ref/umr/spell-like-abilities).

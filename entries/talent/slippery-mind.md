@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slippery Mind (Ex)&FN&**
+**Slippery Mind (Ex)**
 
 **Flavor:** This ability represents the rogue's ability to wriggle free from magical effects that
 would otherwise control or compel her.

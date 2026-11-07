@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Penetrating Charge&FN&**
+**Penetrating Charge**
 
 **Fullround:** The alchemist can place a _penetrating charge_ on a lock. Instead of dealing damage,
 the _penetrating charge_ seeps into the mechanism and eats away at it, granting a +5 circumstance

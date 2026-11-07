@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Combat Swipe&FN&**
+**Combat Swipe**
 
 **Ability:** A rogue who selects this talent gains [Improved Steal](ref/feat/improved-steal) as a
 bonus feat.

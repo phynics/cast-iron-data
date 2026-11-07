@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Fiend Totem (Su)&FN&**
+**Lesser Fiend Totem (Su)**
 
 **Ability:** While _raging,_ the barbarian grows a pair of large horns, gaining a
 [gore attack](ref/umr/natural-attacks). This attack is a primary attack (unless she is also

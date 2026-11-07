@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Master-Thought Koan (Su)&FN&**
+**Master-Thought Koan (Su)**
 
 **Ability:** A monk with this ability can spend an additional 2 ki points when using either the
 _breaking-down koan_ or _building-up koan_ ki powers. When combined with _master-thought koan,

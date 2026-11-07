@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Summer's Heat (Su)&FN&**
+**Summer's Heat (Su)**
 
 **Ability:** The witch surrounds her target with oppressive heat, dealing a number of points of
 nonlethal damage equal to her witch level and causing the target to become

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Alchemical Simulacrum&FN&**
+**Alchemical Simulacrum**
 
 **Ability:** The alchemist gains the ability to create a
 [lesser simulacrum](ref/spell/simulacrum-lesser). This works like the

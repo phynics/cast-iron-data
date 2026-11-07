@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Healing&FN&**
+**Healing**
 
 **Info:** The Healing patron grants the following spells at the listed witch levels.
 

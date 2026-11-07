@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Ground Breaker (Ex)&FN&**
+**Greater Ground Breaker (Ex)**
 
 **Ability:** When using the _ground breaker_ rage power, the barbarian can extend the radius of the
 effect by 5 feet.

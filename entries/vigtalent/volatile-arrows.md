@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Volatile Arrows (Ex)&FN&**
+**Volatile Arrows (Ex)**
 
 **Ability:** A vigilante with this talent gains the ability to attach an
 [alchemist](ref/class/alchemist) bomb to a ranged attack he makes with a bow or crossbow as part of

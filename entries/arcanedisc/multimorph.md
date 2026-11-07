@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Multimorph (Su)&FN&**
+**Multimorph (Su)**
 
 **Flavor:** Your studies in transmogrification have increased your control over shapechanging
 spells.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Precise Strike (Ex)&FN&**
+**Precise Strike (Ex)**
 
 **Ability:** While she has at least 1 panache point, a swashbuckler gains the ability to strike
 precisely with a light or one-handed piercing melee weapon (though not natural weapon attacks),

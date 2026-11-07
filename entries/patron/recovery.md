@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Recovery&FN&**
+**Recovery**
 
 **Info:** The Recovery patron grants the following spells at the listed witch levels.
 

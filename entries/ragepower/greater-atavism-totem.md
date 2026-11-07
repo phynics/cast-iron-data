@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Atavism Totem (Su)&FN&**
+**Greater Atavism Totem (Su)**
 
 **Ability:** The barbarian gains [trample](ref/umr/trample).
 

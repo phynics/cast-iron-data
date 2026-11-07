@@ -18,7 +18,7 @@ summoning alien entities from strange corners of the Material Plane. These summo
 known as aberrant eidolons. Aberrant eidolons share many abilities and physical features with the
 nonoutsider aberrations that dwell in forgotten or nameless reaches of reality, but these malformed
 entities are still outsiders like any other eidolon for the purposes of determining which spells
-affect them.&FN&
+affect them.
 
 **Alignment**
 

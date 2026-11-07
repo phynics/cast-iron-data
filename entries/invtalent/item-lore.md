@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Item Lore (Ex)&FN&**
+**Item Lore (Ex)**
 
 **Ability:** An investigator can use [Spellcraft](ref/skill/spellcraft) to identify the properties
 and command words of magic items without the use of [detect magic](ref/spell/detect-magic) or

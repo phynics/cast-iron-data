@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Conjured Armor (Su)&FN&**
+**Conjured Armor (Su)**
 
 **Ability:** By spending 1 point from her phrenic pool, the psychic grants any creature she conjures
 or summons with the linked spell a +2 deflection bonus to AC. This bonus lasts for 1 round per

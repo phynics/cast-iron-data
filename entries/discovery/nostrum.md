@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nostrum&FN&**
+**Nostrum**
 
 **Ability:** When the alchemist creates an infusion, he can mask a delayed poison within the
 mixture. A _nostrum_ can contain only an ingested poison, and the save DC of the poison is reduced

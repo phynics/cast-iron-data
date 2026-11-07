@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow's Chill (Su)&FN&**
+**Shadow's Chill (Su)**
 
 **Ability:** When a rogue with this talent hits a creature with a melee weapon that deals sneak
 attack damage, a number of points of the damage dealt equal to the number of sneak attack dice

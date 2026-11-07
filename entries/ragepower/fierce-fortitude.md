@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fierce Fortitude (Ex)&FN&**
+**Fierce Fortitude (Ex)**
 
 **Passive:** The character gains a +4 bonus on saving throws against diseases and poison.
 

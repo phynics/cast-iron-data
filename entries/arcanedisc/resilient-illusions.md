@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Resilient Illusions&FN&**
+**Resilient Illusions**
 
 **Passive:** You are able to conjure illusions so lifelike that they defy disbelief. Anytime a
 creature tries to disbelieve one of your illusion effects, make a caster level check. Treat the

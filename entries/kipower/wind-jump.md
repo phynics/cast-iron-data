@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wind Jump (Su)&FN&**
+**Wind Jump (Su)**
 
 **Move:** A monk with this ki power can spend 1 ki point to grant himself a fly speed (with perfect
 maneuverability) equal to his base land speed. He must end his movement each round on solid ground

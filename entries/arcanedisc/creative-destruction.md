@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Creative Destruction (Su)&FN&**
+**Creative Destruction (Su)**
 
 **Flavor:** You have learned how to use destructive energy to empower yourself.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Resistance (Ex)&FN&**
+**Resistance (Ex)**
 
 **At 10th Level:** The resistance becomes 15.
 

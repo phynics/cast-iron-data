@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Powerful Sneak (Ex)&FN&**
+**Powerful Sneak (Ex)**
 
 **Ability:** Whenever a rogue with this talent takes a full attack action, she can elect to take a
 -2 penalty on all attack rolls until the start of her next turn. If an attack during this time is a

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Beginner's Luck (Ex)&FN&**
+**Beginner's Luck (Ex)**
 
 **Ability:** When the vigilante uses a vigilante talent while in his social identity, he can add the
 +20 circumstance bonus from _seamless guise_ to his [Disguise](ref/skill/disguise) check to fool

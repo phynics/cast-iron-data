@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stealthy Sniper (Ex)&FN&**
+**Stealthy Sniper (Ex)**
 
 **Ability:** When a rogue with this talent uses the [Stealth](ref/skill/stealth) skill to snipe, she
 only suffers a -10 penalty on the Stealth check, instead of -20.

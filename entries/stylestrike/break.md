@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Break&FN&**
+**Break**
 
 **Ability:** If the monk's attack is successful, he can attempt a [grapple](ref/rule/grapple) combat
 maneuver check or [Escape Artist](ref/skill/escape-artist) check as a **free action** to escape a

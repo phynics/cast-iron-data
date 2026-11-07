@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Energy Attacks (Su)&FN&**
+**Energy Attacks (Su)**
 
 **Ability:** All of the eidolon's natural attacks deal 1d6 points of energy damage of the chosen
 type on a successful hit.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspirational Expertise (Ex)&FN&**
+**Inspirational Expertise (Ex)**
 
 **Prereq:** 7th-level investigator
 

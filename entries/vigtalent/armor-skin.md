@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Armor Skin (Ex)&FN&**
+**Armor Skin (Ex)**
 
 **Ability:** The vigilante's armor is like a second skin. He doesn't apply the armor check penalty
 for light and medium armor on Acrobatics, Escape Artist, or Stealth checks. This penalty applies on

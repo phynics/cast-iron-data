@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ultimate Clarity (Su)&FN&**
+**Ultimate Clarity (Su)**
 
 **Ability:** The character can refine her senses, seeing through normal and magical darkness
 (including from magical effects such as [blur](ref/spell/blur) and

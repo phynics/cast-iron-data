@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Celestial Totem (Su)&FN&**
+**Lesser Celestial Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian benefits from increased magical healing. Whenever she is
 subject to a spell that cures hit point damage, she heals 1 additional point of damage per caster

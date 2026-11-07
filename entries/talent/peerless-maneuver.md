@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Peerless Maneuver (Ex)&FN&**
+**Peerless Maneuver (Ex)**
 
 **Ability:** A rogue with this talent can roll two dice while making an
 [Acrobatics](ref/skill/acrobatics) check, and take the better result. She must choose to use this

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slayer Camouflage (Ex)&FN&**
+**Slayer Camouflage (Ex)**
 
 **Ability:** A slayer can use the Stealth skill to hide in any of his
 [favored terrains](ref/ability/favored-terrain), even if the terrain doesn't grant cover or

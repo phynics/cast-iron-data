@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Silent Dispatch (Ex)&FN&**
+**Silent Dispatch (Ex)**
 
 **Ability:** When the vigilante ambushes an enemy or enemies unaware of his presence, he can attempt
 a Stealth check at a -5 penalty. The result indicates the DC of Perception checks to hear the

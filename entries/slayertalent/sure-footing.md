@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sure Footing (Ex)&FN&**
+**Sure Footing (Ex)**
 
 **Passive:** The slayer gains a +5 bonus on Acrobatics checks to move on narrow surfaces and loose
 or uneven ground.

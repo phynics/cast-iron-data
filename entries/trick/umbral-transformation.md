@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Umbral Transformation&FN&**
+**Umbral Transformation**
 
 **Ability:** The subject of this trick turns into a living shadow for 1 round, as if affected by
 [shadow body](ref/spell/shadow-body). After this trick ends, the subject is

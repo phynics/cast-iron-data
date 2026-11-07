@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deafening Strike (Ex)&FN&**
+**Deafening Strike (Ex)**
 
 **Ability:** When an investigator deals damage with _studied strike,_ the opponent must succeed at a
 Fortitude saving throw or be permanently [deafened](ref/misc/deafened). A successful Fortitude

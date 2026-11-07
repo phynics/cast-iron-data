@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Keen Scent (Ex)&FN&**
+**Keen Scent (Ex)**
 
 **Ability:** An eidolon's sense of smell becomes even more acute. The eidolon can notice other
 creatures by scent in a 180-foot radius underwater and can detect blood in the water at ranges of up

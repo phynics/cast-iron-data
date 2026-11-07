@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mystic Veil (Sp)&FN&**
+**Mystic Veil (Sp)**
 
 **Ability:** The slayer can cast [silent image](ref/spell/silent-image) as a
 [spell-like ability](ref/umr/spell-like-abilities), using his slayer level as his caster level. The

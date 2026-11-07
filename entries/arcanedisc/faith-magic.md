@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Faith Magic&FN&**
+**Faith Magic**
 
 **Ability:** Select one spell granted by a domain belonging to the god you worship. This spell must
 be at least 2 levels lower than the highest-level wizard spell you can cast. When you first prepare

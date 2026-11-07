@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shapeshift (Su)&FN&**
+**Shapeshift (Su)**
 
 **Ability:** The shaman transforms herself into another form for a number of minutes per day equal
 to her level, as [alter self](ref/spell/alter-self). This duration does not need to be consecutive,

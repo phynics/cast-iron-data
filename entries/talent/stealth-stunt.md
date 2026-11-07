@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stealth Stunt (Ex)&FN&**
+**Stealth Stunt (Ex)**
 
 **Ability:** When benefiting from [concealment](ref/rule/concealment), a rogue with this talent can
 forgo an attack of opportunity to attempt a [Stealth](ref/skill/stealth) check against the provoking

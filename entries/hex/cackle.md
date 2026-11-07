@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cackle (Su)&FN&**
+**Cackle (Su)**
 
 **Move:** A witch can cackle madly. Any creature that is within 30 feet that is under the effects of
 an [agony](ref/hex/agony) hex, [charm](ref/hex/charm) hex, [discord](ref/hex/discord) hex,

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gift of Will&FN&**
+**Gift of Will**
 
 **Ability:** The mesmerist can trigger this trick when the subject attempts a Will saving throw or a
 Sense Motive check, or is targeted by an Intimidate check to demoralize her. For a saving throw, the

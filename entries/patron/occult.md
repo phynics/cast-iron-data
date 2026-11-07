@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Occult&FN&**
+**Occult**
 
 **Info:** The Occult patron grants the following spells at the listed witch levels.
 

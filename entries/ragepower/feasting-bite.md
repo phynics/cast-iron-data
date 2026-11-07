@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feasting Bite (Ex)&FN&**
+**Feasting Bite (Ex)**
 
 **Passive:** When the barbarian confirms a critical hit with her bite attack, she regains a number
 of hit points equal to half the damage dealt. Activating this ability consumes 1 round of _rage._

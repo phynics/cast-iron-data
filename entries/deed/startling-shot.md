@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Startling Shot (Ex)&FN&**
+**Startling Shot (Ex)**
 
 **Prereq:** 7th-level gunslinger
 

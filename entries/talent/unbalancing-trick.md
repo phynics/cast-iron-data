@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unbalancing Trick (Ex)&FN&**
+**Unbalancing Trick (Ex)**
 
 **Ability:** The rogue gains [Improved Trip](ref/feat/improved-trip) as a bonus feat, even if she
 does not meet the prerequisites.

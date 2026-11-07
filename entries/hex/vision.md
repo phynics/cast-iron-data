@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vision (Su)&FN&**
+**Vision (Su)**
 
 **Ability:** A witch with this hex can grant a glimpse of the future to a creature touched. Granting
 a vision takes 1 minute, during which time the witch and the target must remain in contact with one

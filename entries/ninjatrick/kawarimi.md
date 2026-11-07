@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Kawarimi (Su)&FN&**
+**Kawarimi (Su)**
 
 **Immediate:** Once per day when a successful attack is made against a ninja with this ability, she
 can spend 1 ki point to attempt a [Stealth](ref/skill/stealth) check opposed by the attacker's

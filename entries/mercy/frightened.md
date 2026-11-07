@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The target is no longer frightened. The paladin must have the
-[shaken](ref/mercy/shaken) mercy before selecting this mercy.&FN&
+[shaken](ref/mercy/shaken) mercy before selecting this mercy.
 
-**Title:** &L&Frightened
+**Title:** Frightened

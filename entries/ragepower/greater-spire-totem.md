@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Spire Totem (Su)&FN&**
+**Greater Spire Totem (Su)**
 
 **Passive:** While the barbarian is _raging,_ all allies within 30 feet gain a +2 morale bonus on
 Will saves. When attempting a Will save against a fear effect, all allies within this area can roll

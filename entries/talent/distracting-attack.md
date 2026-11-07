@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Distracting Attack (Ex)&FN&**
+**Distracting Attack (Ex)**
 
 **Ability:** When she hits a creature with a melee attack that deals sneak attack damage, she can
 forgo the additional damage to cause the creature to become [flat-footed](ref/rule/flat-footed)

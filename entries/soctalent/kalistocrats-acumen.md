@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Kalistocrat's Acumen (Ex)&FN&**
+**Kalistocrat's Acumen (Ex)**
 
 **At 15th Level:** The vigilante can treat settlements as four size categories larger for the above
 purposes.

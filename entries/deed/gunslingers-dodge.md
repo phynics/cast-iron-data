@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gunslinger's Dodge (Ex)&FN&**
+**Gunslinger's Dodge (Ex)**
 
 **Flavor:** The gunslinger gains an uncanny knack for getting out of the way of ranged attacks.
 

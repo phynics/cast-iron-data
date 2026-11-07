@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swamp's Grasp&FN&**
+**Swamp's Grasp**
 
 **Ability:** The witch can cause an area to become an entangling quagmire. One 10-foot square per
 witch level within 90 feet becomes [difficult terrain](ref/rule/terrain-and-obstacles) for a number

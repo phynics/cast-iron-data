@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Glib Facade (Sp)&FN&**
+**Glib Facade (Sp)**
 
 **Ability:** Once per day, a rogue with this advanced talent can use [glibness](ref/spell/glibness)
 as a [spell-like ability](ref/umr/spell-like-abilities), using her rogue level as the spell's caster

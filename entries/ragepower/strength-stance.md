@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Strength Stance (Ex)&FN&**
+**Strength Stance (Ex)**
 
 **Flavor:** The barbarian can summon mighty strength.
 

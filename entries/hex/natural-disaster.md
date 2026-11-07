@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Natural Disaster (Su)&FN&**
+**Natural Disaster (Su)**
 
 **Ability:** A witch using this hex calls down the forces of nature to wreak havoc on an area. This
 functions as a [storm of vengeance](ref/spell/storm-of-vengeance) combined with an

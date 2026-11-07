@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Beast Speech (Su)&FN&**
+**Beast Speech (Su)**
 
 **Ability:** The vigilante can cast [speak with animals](ref/spell/speak-with-animals) once per day
 as a [spell-like ability](ref/umr/spell-like-abilities), with a caster level equal to his character

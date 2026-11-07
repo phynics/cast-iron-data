@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Celestial Blood (Su)&FN&**
+**Greater Celestial Blood (Su)**
 
 **Ability:** Once per _rage,_ the barbarian can reroll one ability check, skill check, or saving
 throw she just made. She must take the second result, even if it's lower. She must decide to use

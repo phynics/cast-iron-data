@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Decadence&FN&**
+**Decadence**
 
 **Info:** The Decadence patron grants the following spells at the listed witch levels.
 

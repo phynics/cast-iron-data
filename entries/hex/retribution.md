@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Retribution (Su)&FN&**
+**Retribution (Su)**
 
 **Ability:** A witch can place this hex on a creature within 60 feet, causing terrible wounds to
 open across the target's flesh whenever it deals damage to another creature in melee.

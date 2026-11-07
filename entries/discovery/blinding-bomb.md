@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blinding Bomb&FN&**
+**Blinding Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose for it to detonate very brightly.
 Creatures that take a direct hit from a _blinding bomb_ are [blinded](ref/misc/blinded) for 1 minute

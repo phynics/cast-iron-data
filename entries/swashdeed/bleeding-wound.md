@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bleeding Wound (Ex)&FN&**
+**Bleeding Wound (Ex)**
 
 **Free:** When the swashbuckler hits a living creature with a light or one-handed piercing melee
 weapon attack, she can spend 1 panache point to have that attack deal additional

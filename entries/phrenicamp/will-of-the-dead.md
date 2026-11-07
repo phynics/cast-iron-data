@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Will of the Dead (Su)&FN&**
+**Will of the Dead (Su)**
 
 **Ability:** The psychic can spend 2 points from her phrenic pool to overcome an undead creature's
 immunity to mind-affecting effects for the purposes of the linked spell. This ability functions even

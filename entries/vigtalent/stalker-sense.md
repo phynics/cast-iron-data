@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stalker Sense (Ex)&FN&**
+**Stalker Sense (Ex)**
 
 **Ability:** The vigilante has a sense for danger. He always acts on the surprise round.
 

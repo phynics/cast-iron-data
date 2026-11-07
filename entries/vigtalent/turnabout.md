@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Turnabout (Ex)&FN&**
+**Turnabout (Ex)**
 
 **Ability:** Whenever a foe provokes an attack of opportunity from the vigilante by attacking or
 casting a spell, the vigilante can attempt a [dirty trick](ref/rule/dirty-trick) combat maneuver

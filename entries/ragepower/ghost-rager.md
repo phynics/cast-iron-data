@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ghost Rager (Su)&FN&**
+**Ghost Rager (Su)**
 
 **Passive:** While _raging,_ the barbarian deals normal damage to incorporeal creatures even when
 using nonmagical weapons. She also gains a morale bonus to touch AC equal to 2 +

@@ -1006,6 +1006,7 @@ mountain peaks to tangled thickets.
 |[Warrior of the Holy Light](ref/arc-paladin/warrior-of-the-holy-light)||||X|||||||||||||||||||||||||X||
 |[Wilderness Warden](ref/arc-paladin/wilderness-warden)|||X|||X|X|||X|||||X||||||X||X||X|||X|X||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for paladin are listed on the separate class options page._
+_The favored class options for paladin are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

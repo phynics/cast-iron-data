@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Whip of Vengeance (Ex)&FN&**
+**Whip of Vengeance (Ex)**
 
 **Ability:** The vigilante gains [Whip Mastery](ref/feat/whip-mastery) as a bonus feat. If he
 already has the Whip Mastery feat, he can immediately swap it for another feat he qualified for at

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Last Ditch Effort&FN&**
+**Last Ditch Effort**
 
 **Ability:** Once per day, a rogue with this ability who accidentally activates a trap while
 attempting to disarm it may immediately attempt another Disable Device check to disarm it, albeit at

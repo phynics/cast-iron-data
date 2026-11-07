@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cauldron (Ex)&FN&**
+**Cauldron (Ex)**
 
 **Ability:** The witch receives [Brew Potion](ref/feat/brew-potion) as a bonus feat and a +4 insight
 bonus on Craft (alchemy) skill checks.

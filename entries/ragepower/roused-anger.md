@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Roused Anger (Ex)&FN&**
+**Roused Anger (Ex)**
 
 **Ability:** The barbarian may enter a _rage_ even if fatigued. While _raging_ after using this
 ability, the barbarian is immune to the [fatigued](ref/misc/fatigued) condition. Once this _rage_

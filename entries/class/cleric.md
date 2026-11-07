@@ -625,6 +625,7 @@ primarily on the road and during the journey.
 |[Undead Lord](ref/arc-cleric/undead-lord)||||||||||||X||||||||
 |[Varisian Pilgrim](ref/arc-cleric/varisian-pilgrim)||X||||||||||X||X||||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for cleric are listed on the separate class options page._
+_The favored class options for cleric are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

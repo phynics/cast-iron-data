@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Abyssal Blood (Su)&FN&**
+**Greater Abyssal Blood (Su)**
 
 **Passive:** While _raging,_ the barbarian gains [resistance](ref/umr/resistance) 5 to acid, cold,
 and fire.

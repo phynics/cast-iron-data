@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gloom Magic (Sp)&FN&**
+**Gloom Magic (Sp)**
 
 **Ability:** A rogue with this talent gains the ability to cast [darkness](ref/spell/darkness) two
 times per day as a [spell-like ability](ref/umr/spell-like-abilities). The darkness created by this

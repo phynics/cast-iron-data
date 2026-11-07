@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rogue Crawl (Ex)&FN&**
+**Rogue Crawl (Ex)**
 
 **Ability:** While [prone](ref/rule/prone), a rogue with this ability can move at half speed. This
 movement provokes attacks of opportunity as normal. A rogue with this talent can take a 5-foot step

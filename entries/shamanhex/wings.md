@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wings (Su)&FN&**
+**Wings (Su)**
 
 **Ability:** The shaman can grow a pair of wings for a number of minutes per day equal to her level.
 These minutes do not need to be consecutive, but they must be spent in 1-minute increments.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Air Totem (Su)&FN&**
+**Greater Air Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian is surrounded by an aura of howling winds. Creatures
 attempting to cast spells while adjacent to the barbarian must succeed at a

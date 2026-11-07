@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lethality&FN&**
+**Lethality**
 
 **Info:** The _hypnotic stare_ penalty also applies to the target's Fortitude saves versus poison
 and diseases.

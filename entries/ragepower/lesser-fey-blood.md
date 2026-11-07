@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Fey Blood (Su)&FN&**
+**Lesser Fey Blood (Su)**
 
 **Ability:** While _raging,_ each time the barbarian confirms a critical hit, the target must
 succeed at a Will saving throw (DC = 10 + 1/2 the barbarian's level + her Constitution modifier) or

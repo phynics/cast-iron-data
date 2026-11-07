@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swamp Concoctions (Ex)&FN&**
+**Swamp Concoctions (Ex)**
 
 **Fullround:** Twice per day, the vigilante can use the _environmental weapon_ vigilante talent to
 improvise an alchemical weapon worth no more than 15 gp per vigilante level. This improvised weapon

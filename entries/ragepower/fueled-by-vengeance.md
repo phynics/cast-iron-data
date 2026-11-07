@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fueled by Vengeance&FN&**
+**Fueled by Vengeance**
 
 **Ability:** While _raging,_ whenever you deal weapon damage to a creature that dealt damage to you
 since the end of your last turn, add 1 round to your remaining number of rounds of _rage_ for the

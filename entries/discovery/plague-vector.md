@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Plague Vector&FN&**
+**Plague Vector**
 
 **Ability:** The effects of the alchemist's _plague bomb_ operate as normal except for the following
 changes. The chosen disease's save DC is equal to 10 + 1/2 the alchemist's level + his Intelligence

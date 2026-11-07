@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vision of Blood&FN&**
+**Vision of Blood**
 
 **Ability:** The mesmerist can trigger this trick when the subject hits with an attack using a
 weapon, a natural weapon, or an unarmed strike. The attack's target must succeed at a Will saving

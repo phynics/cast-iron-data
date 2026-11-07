@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Misdirection&FN&**
+**Misdirection**
 
 **Ability:** The mesmerist can trigger this trick when the subject makes an attack or uses a spell
 that requires an attack roll. The mesmerist attempts a [Bluff](ref/skill/bluff) check to feint

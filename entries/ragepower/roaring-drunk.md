@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Roaring Drunk (Ex)&FN&**
+**Roaring Drunk (Ex)**
 
 **Passive:** While _raging,_ the barbarian gains a +1 morale bonus on Intimidate checks and to the
 save DC of any fear effects she creates for each alcoholic drink she has consumed during her _rage,_

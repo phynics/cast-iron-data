@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Guileful Polyglot (Ex)&FN&**
+**Guileful Polyglot (Ex)**
 
 **Ability:** A rogue with this talent who has at least one rank in
 [Linguistics](ref/skill/linguistics) gains four additional languages.

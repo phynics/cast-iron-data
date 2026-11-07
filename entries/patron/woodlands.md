@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Woodlands&FN&**
+**Woodlands**
 
 **Info:** The Woodlands patron grants the following spells at the listed witch levels.
 

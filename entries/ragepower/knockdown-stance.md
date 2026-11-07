@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Knockdown Stance (Ex)&FN&**
+**Knockdown Stance (Ex)**
 
 **Ability:** Once per round, she can make a [trip](ref/rule/trip) attack against one target in place
 of a melee attack. If she succeeds, the target is knocked [prone](ref/rule/prone).

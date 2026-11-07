@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mutagen&FN&**
+**Mutagen**
 
 **Ability:** This discovery gives the alchemist the _mutagen_ class ability.
 

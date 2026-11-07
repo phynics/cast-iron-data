@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Zephyr Blow (Su)&FN&**
+**Zephyr Blow (Su)**
 
 **Standard:** By spending 1 ki point, a monk with this power can disrupt the wind and create a sharp
 blast of air, as if using the spell [gust of wind](ref/spell/gust-of-wind). The monk's caster level

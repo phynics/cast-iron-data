@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sleight of Hand Stunt (Ex)&FN&**
+**Sleight of Hand Stunt (Ex)**
 
 **Ability:** In place of an attack of opportunity, a rogue with this talent can attempt a
 [Sleight of Hand](ref/skill/sleight-of-hand) check against the CMD of an opponent that provokes an

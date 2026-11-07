@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Suffocating Grip (Ex)&FN&**
+**Greater Suffocating Grip (Ex)**
 
 **Ability:** When the barbarian is using the _suffocating grip_ rage power, the grappled creature
 cannot hold its breath and immediately begins [suffocating](ref/rule/suffocation).

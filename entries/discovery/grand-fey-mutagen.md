@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grand Fey Mutagen&FN&**
+**Grand Fey Mutagen**
 
 **Passive:** The alchemist's _fey mutagen_ now grants a +6 alchemical bonus to Dexterity and
 Charisma, a -2 penalty to his Strength, DR 10/cold iron, and the druid's

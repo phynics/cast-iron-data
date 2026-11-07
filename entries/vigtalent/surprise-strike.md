@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Surprise Strike (Ex)&FN&**
+**Surprise Strike (Ex)**
 
 **Ability:** Whenever he makes an attack against a foe that is denied her Dexterity bonus to AC, he
 gains a +1 bonus on his attack roll.

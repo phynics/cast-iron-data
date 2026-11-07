@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Erratic Charge (Ex)&FN&**
+**Greater Erratic Charge (Ex)**
 
 **Ability:** The barbarian can move 10 feet when using _erratic charge._ If she does so, the
 creature she is charging must be at least 20 feet away and the movement reduces the maximum distance

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Graceful Faller (Ex)&FN&**
+**Graceful Faller (Ex)**
 
 **Ability:** A catfolk rogue with this talent lands on her feet even when she takes lethal damage
 from a fall.

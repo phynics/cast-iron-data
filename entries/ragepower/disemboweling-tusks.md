@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disemboweling Tusks&FN&**
+**Disemboweling Tusks**
 
 **Ability:** While _raging,_ when you confirm a critical hit with your gore attack, you deal 1d4
 points of [Constitution damage](ref/rule/ability-damage-drain) in addition to the normal damage for

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Monstrous Graft&FN&**
+**Monstrous Graft**
 
 **Ability:** The alchemist can replace up to four of his own amputated limbs with those of a
 monstrous beast of the same size category.

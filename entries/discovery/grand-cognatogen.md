@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grand Cognatogen&FN&**
+**Grand Cognatogen**
 
 **Passive:** The alchemist's _cognatogen_ now grants a +6 natural armor bonus, a +8 alchemical bonus
 to one mental ability score (Intelligence, Wisdom, or Charisma), a +6 alchemical bonus to a second

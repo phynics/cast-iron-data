@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Intimidating Display (Ex)&FN&**
+**Intimidating Display (Ex)**
 
 **Ability:** The shaman can call upon some of the majesty and power of dragons to cow her enemies.
 The shaman gains [Dazzling Display](ref/feat/dazzling-display) as a bonus feat, even if she does not

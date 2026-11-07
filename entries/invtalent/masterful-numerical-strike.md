@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Masterful Numerical Strike (Ex)&FN&**
+**Masterful Numerical Strike (Ex)**
 
 **Ability:** The investigator can use both _numerical strike_ and _greater numerical strike_ three
 times per day. The investigator doesn't need to expend uses of _inspiration_ to use either ability,

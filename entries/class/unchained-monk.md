@@ -553,6 +553,7 @@ lightness of step.
 |Soul Shepherd|||||||X||X||||X|X||||||||||||X|||||
 |Windstep Master|||||||||||||||X|X||||||||||X|||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for unchained\_monk are listed on the separate class options page._
+_The favored class options for unchained\_monk are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

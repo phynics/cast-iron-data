@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hairpin Trick (Ex)&FN&**
+**Hairpin Trick (Ex)**
 
 **Ability:** The rogue is skilled at making do with anything she can find. She takes no penalty on
 [Disable Device](ref/skill/disable-device) checks for using improvised tools, and can attempt such

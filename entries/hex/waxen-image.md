@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Waxen Image (Su)&FN&**
+**Waxen Image (Su)**
 
 **Fullround:** The witch can create a crude and unnerving wax duplicate of a creature she can see
 within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails,

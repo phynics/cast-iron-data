@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fire Totem (Su)&FN&**
+**Fire Totem (Su)**
 
 **Passive:** While the barbarian is _raging,_ any opponent that confirms a critical hit against her
 with a piercing or slashing melee weapon is sprayed with liquid fire. (Creatures with reach weapons

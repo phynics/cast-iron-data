@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elbow Smash&FN&**
+**Elbow Smash**
 
 **Ability:** If the attack hits, the monk can make an additional attack using the same attack bonus
 as the punch at a -5 penalty. If this second attack hits, it deals damage as normal, but all of the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Infusion&FN&**
+**Infusion**
 
 **Ability:** When the alchemist creates an extract, he can infuse it with an extra bit of his own
 magical power. The extract created now persists even after the alchemist sets it down. As long as

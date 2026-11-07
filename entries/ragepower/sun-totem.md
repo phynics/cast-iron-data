@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sun Totem (Su)&FN&**
+**Sun Totem (Su)**
 
 **Passive:** The touch of flame fuels and bolsters the barbarian's _rage._ She gains fire resistance
 10 when _raging._ In addition, for 1d6 rounds after coming in direct contact with open flame, her

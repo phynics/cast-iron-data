@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Skill Familiarity (Ex)&FN&**
+**Skill Familiarity (Ex)**
 
 **Ability:** He can take 10 on checks with his chosen skills even when distracted or threatened. If
 he takes 10 on checks with these skills while not distracted or threatened, he gains a bonus on the

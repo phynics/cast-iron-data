@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Racial Paragon&FN&**
+**Racial Paragon**
 
 **Move:** The vigilante can gain the benefit of a feat with a racial prerequisite he meets but
 doesn't have. This effect lasts for 1 minute. The vigilante must meet all the feat's prerequisites.

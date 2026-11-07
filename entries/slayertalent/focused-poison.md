@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Focused Poison (Ex)&FN&**
+**Focused Poison (Ex)**
 
 **Ability:** When the slayer studies a target, he can immediately reduce the number of additional
 _studied targets_ he can maintain. Reducing this number does not require an action. For each target

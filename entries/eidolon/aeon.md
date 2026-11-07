@@ -12,7 +12,7 @@ kind = "none"
 +++
 
 Created to monitor a specific duality, an aeon eidolon often proves frustratingly headstrong in
-enforcing its own interpretation of balance.&FN&
+enforcing its own interpretation of balance.
 
 **Alignment**
 

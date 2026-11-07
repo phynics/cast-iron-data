@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Aligned Sneak Attack (Su)&FN&**
+**Aligned Sneak Attack (Su)**
 
 **Ability:** When making a sneak attack against a creature that has
 [damage reduction](ref/rule/damage-reduction) that can be overcome by weapons of a particular

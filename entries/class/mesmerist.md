@@ -575,6 +575,7 @@ but others have learned to practice their skill through the lilt and intonation 
 |[Vizier](ref/arc-mesmerist/vizier)|||X|||X|||X||||||||||||||||||||X|
 |[Vox](ref/arc-mesmerist/vox)||||||||X|||||||X||||||||X|X|||||X|
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for mesmerist are listed on the separate class options page._
+_The favored class options for mesmerist are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

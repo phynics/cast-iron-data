@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tracker (Sp)&FN&**
+**Tracker (Sp)**
 
 **Ability:** The Hellknight can summon a creature to aid him, either in battle or to track an enemy,
 as if using a [summon monster](ref/spell/summon-monster) spell, save that the summoned creature

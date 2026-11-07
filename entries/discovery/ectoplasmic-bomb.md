@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ectoplasmic Bomb&FN&**
+**Ectoplasmic Bomb**
 
 **Ability:** The alchemist can infuse her bombs with a special unction that damages incorporeal
 creatures and reveals the presence of undead creatures hiding in the area. Incorporeal creatures

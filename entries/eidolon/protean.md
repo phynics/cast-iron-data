@@ -15,7 +15,7 @@ Serpentine beings of pure chaos, [proteans](ref/family/protean) seek to reshape 
 eidolons appreciate creative summoners who often rebuild their forms and make liberal use of the
 [transmogrify](ref/spell/transmogrify) spell. Beyond that, protean eidolons are happy to work with
 their summoners for any purpose, though they are quick to remind their summoners that while they
-have a mutually beneficial relationship, they are not servants.&FN&
+have a mutually beneficial relationship, they are not servants.
 
 **Alignment**
 

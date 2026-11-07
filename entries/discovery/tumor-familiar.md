@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tumor Familiar&FN&**
+**Tumor Familiar**
 
 **Ability:** The alchemist creates a Diminutive or Tiny tumor on his body, usually on his back or
 stomach.

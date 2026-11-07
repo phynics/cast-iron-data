@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Iceplant (Su)&FN&**
+**Iceplant (Su)**
 
 **Passive:** This hex grants the witch and her familiar a +2 natural armor bonus and the constant
 effects of [endure elements](ref/spell/endure-elements). The effect leaves the witch's skin thick

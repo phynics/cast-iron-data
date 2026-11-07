@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychic Impression&FN&**
+**Psychic Impression**
 
 **Ability:** The mesmerist can trigger this trick when the subject touches an object that another
 creature with an Intelligence score of 3 or more has touched in the last 10 minutes. The mesmerist

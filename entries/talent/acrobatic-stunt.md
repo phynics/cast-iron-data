@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Acrobatic Stunt (Ex)&FN&**
+**Acrobatic Stunt (Ex)**
 
 **Immediate:** When flanked by at least two opponents, a rogue with this talent can, when any of the
 threatening opponents attacks her, attempt an Acrobatics check against the highest CMD of the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spell Resistance (Ex)&FN&**
+**Spell Resistance (Ex)**
 
 **Flavor:** The eidolon is protected against magic, gaining spell resistance.
 

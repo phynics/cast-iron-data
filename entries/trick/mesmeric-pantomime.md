@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mesmeric Pantomime&FN&**
+**Mesmeric Pantomime**
 
 **Ability:** The mesmerist can trigger this trick when the subject attempts a Strength- or
 Dexterity-based skill check. The subject either uses the mesmerist's bonus on the skill check in

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow Splinter&FN&**
+**Shadow Splinter**
 
 **Ability:** The mesmerist can trigger this trick when the subject takes damage from an attack. The
 damage the subject takes is reduced by an amount equal to 3 + the mesmerist's Charisma modifier (to

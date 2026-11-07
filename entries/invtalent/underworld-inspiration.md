@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Underworld Inspiration (Ex)&FN&**
+**Underworld Inspiration (Ex)**
 
 **Ability:** An investigator can use his _inspiration_ on Bluff, Disable Device, Disguise,
 Intimidate, or Sleight of Hand checks without expending uses of _inspiration,_ provided he's trained

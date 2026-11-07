@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ward (Su)&FN&**
+**Ward (Su)**
 
 **Ability:** The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on
 saving throws. This _ward_ lasts until the warded creature is hit or fails a saving throw.

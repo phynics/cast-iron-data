@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quick Reflexes (Ex)&FN&**
+**Quick Reflexes (Ex)**
 
 **Ability:** While _raging,_ the barbarian can make one additional attack of opportunity per round.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Multitalented (Ex)&FN&**
+**Multitalented (Ex)**
 
 **Ability:** Once per day, she can use a rogue talent that is normally only usable once per day one
 additional time.

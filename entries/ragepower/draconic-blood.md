@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Draconic Blood (Su)&FN&**
+**Draconic Blood (Su)**
 
 **Choice:** Choose an energy type from the following: acid, cold, fire, or electricity.
 

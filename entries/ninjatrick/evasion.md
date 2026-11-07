@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Evasion (Ex)&FN&**
+**Evasion (Ex)**
 
 **Ability:** A ninja can avoid even magical and unusual attacks with great agility. If she makes a
 successful Reflex saving throw against an attack that normally deals half damage on a successful

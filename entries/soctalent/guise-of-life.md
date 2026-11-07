@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Guise of Life (Su)&FN&**
+**Guise of Life (Su)**
 
 **Ability:** An undead vigilante with this talent gains an additional social identity in the form of
 one living creature identical to the vigilante's appearance in life. Successful Knowledge checks

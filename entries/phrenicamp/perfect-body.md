@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Perfect Body (Ex)&FN&**
+**Perfect Body (Ex)**
 
 **Ability:** When the psychic casts a linked transmutation spell, she can spend 1 point from her
 phrenic pool to gain a +2 bonus on her next Reflex or Fortitude save.

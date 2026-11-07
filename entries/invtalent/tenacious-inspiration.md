@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tenacious Inspiration (Ex)&FN&**
+**Tenacious Inspiration (Ex)**
 
 **Passive:** When an investigator rolls his _inspiration_ die, he can roll an additional
 _inspiration_ die and take the higher result.

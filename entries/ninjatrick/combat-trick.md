@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Combat Trick (Ex)&FN&**
+**Combat Trick (Ex)**
 
 **Ability:** A ninja who selects this trick gains a bonus combat feat.

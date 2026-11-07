@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&All the Stars in the Sky (Ex)&FN&**
+**All the Stars in the Sky (Ex)**
 
 **Ability:** Whenever a ninja with this trick buys a set of 50 identical magic
 [shuriken](ref/eq-weapon/shuriken), she thereafter replenishes them at no cost and never runs out.

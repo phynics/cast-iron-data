@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hamstring Strike (Ex)&FN&**
+**Hamstring Strike (Ex)**
 
 **Ability:** Anytime a rogue with this talent successfully hits an opponent with a sneak attack, she
 may forgo her sneak attack damage to try to hamstring her opponent. If the attack succeeds, the

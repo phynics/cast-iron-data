@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slow Fall (Su)&FN&**
+**Slow Fall (Su)**
 
 **Ability:** A monk within arm's reach of a wall can use it to slow his descent by expending 1 ki
 point. When he uses this ability, he takes no damage from the fall (as if using

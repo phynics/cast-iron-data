@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Elemental Rage (Su)&FN&**
+**Lesser Elemental Rage (Su)**
 
 **Prereq:** 4th-level barbarian
 

@@ -12,7 +12,7 @@ kind = "none"
 +++
 
 Like the sharp-angled [sceaduinars](ref/monster/sceaduinar) they resemble, void eidolons exult in
-entropy and resent anything bearing even a hint of life - including their summoners.&FN&
+entropy and resent anything bearing even a hint of life - including their summoners.
 
 **Alignment**
 

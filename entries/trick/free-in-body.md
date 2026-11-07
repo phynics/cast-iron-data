@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Free in Body&FN&**
+**Free in Body**
 
 **Ability:** The mesmerist can trigger this trick when the subject begins its turn grappled or under
 an effect that impedes its movement (including paralysis, [solid fog](ref/spell/solid-fog),

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slowing Strike (Ex)&FN&**
+**Slowing Strike (Ex)**
 
 **Ability:** An opponent damaged by the slayer's sneak attack has its speed halved for 1d4 rounds. A
 successful Fortitude saving throw negates this effect (DC = 10 + 1/2 of the slayer's level + the

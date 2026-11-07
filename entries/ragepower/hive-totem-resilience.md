@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hive Totem Resilience (Su)&FN&**
+**Hive Totem Resilience (Su)**
 
 **Passive:** While _raging,_ the barbarian takes no damage from attacks by swarms of vermin,
 preventing harmful secondary effects of such attacks like poison or bleed. She also gains a bonus on

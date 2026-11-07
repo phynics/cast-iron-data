@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Spirit Totem (Su)&FN&**
+**Greater Spirit Totem (Su)**
 
 **Passive:** While _raging,_ the spirits that surround the barbarian become dangerous to any enemy
 adjacent to the barbarian. Living enemies adjacent to the barbarian at the start of her turn take

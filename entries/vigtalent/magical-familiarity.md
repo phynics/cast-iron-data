@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Magical Familiarity (Sp)&FN&**
+**Magical Familiarity (Sp)**
 
 **Ability:** He selects a 0-level spell from the sorcerer/wizard spell list. The vigilante can cast
 the chosen spell three times per day as a [spell-like ability](ref/umr/spell-like-abilities), using

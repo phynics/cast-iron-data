@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pariah (Su)&FN&**
+**Pariah (Su)**
 
 **Ability:** The witch can cause a creature within 60 feet to be shunned by its allies for a number
 of rounds equal to the witch's Intelligence modifier. Any other creature attempting to directly

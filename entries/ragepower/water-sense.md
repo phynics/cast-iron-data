@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Water Sense (Ex)&FN&**
+**Water Sense (Ex)**
 
 **Ability:** The barbarian's senses are no longer fooled by the rippling surface and confounding
 reflections seen in water that is being used as [cover](ref/rule/cover) by her foes. While the

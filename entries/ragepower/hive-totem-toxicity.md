@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hive Totem Toxicity (Su)&FN&**
+**Hive Totem Toxicity (Su)**
 
 **Ability:** Once per _rage,_ a bite that hits can deliver an injury [toxin](ref/rule/poison) that
 has a frequency of once per round for 4 rounds, deals 1d3 points of

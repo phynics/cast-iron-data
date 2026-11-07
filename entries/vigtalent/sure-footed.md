@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sure-Footed (Ex)&FN&**
+**Sure-Footed (Ex)**
 
 **Ability:** The vigilante can move at full speed while using the Stealth and Acrobatics skills
 without penalty.

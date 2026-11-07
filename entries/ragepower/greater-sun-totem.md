@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Sun Totem (Su)&FN&**
+**Greater Sun Totem (Su)**
 
 **Passive:** The barbarian takes on aspects of the sun. She gains fire resistance 20 when _raging._
 While _raging,_ she is surrounded by a halo of flame that deals 1d6 points of fire damage to anyone

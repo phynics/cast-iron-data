@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Ancestor Totem (Su)&FN&**
+**Greater Ancestor Totem (Su)**
 
 **Immediate:** Once per _rage,_ she can spend one round of _rage_ to reroll a skill check in the
 chosen skill. She must take the result of the second roll, even if it is lower.

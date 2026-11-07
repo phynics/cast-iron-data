@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Leave an Opening (Ex)&FN&**
+**Leave an Opening (Ex)**
 
 **Ability:** At the beginning of the foe's next turn, if the vigilante threatens the foe, the foe
 provokes an attack of opportunity from the vigilante. Multiple attacks against the same foe don't

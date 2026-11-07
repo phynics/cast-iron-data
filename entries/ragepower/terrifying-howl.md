@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Terrifying Howl (Ex)&FN&**
+**Terrifying Howl (Ex)**
 
 **Prereq:** [Intimidating glare](ref/ragepower/intimidating-glare), 8th-level barbarian
 

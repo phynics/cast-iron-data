@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rapid Perception (Su)&FN&**
+**Rapid Perception (Su)**
 
 **Ability:** An investigator with this talent can attempt a [Perception](ref/skill/perception) check
 to intentionally search for a specific item or creature as a **swift action** instead of a move

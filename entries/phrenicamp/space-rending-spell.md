@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Space-rending Spell (Su)&FN&**
+**Space-rending Spell (Su)**
 
 **Ability:** She teleports herself 10 feet per point she spends from her phrenic pool (as
 [dimension door](ref/spell/dimension-door)). The maximum number of points she can spend in this way

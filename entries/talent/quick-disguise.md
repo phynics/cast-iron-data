@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quick Disguise (Ex)&FN&**
+**Quick Disguise (Ex)**
 
 **Action:** Ability
 

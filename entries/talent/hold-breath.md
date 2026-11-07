@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hold Breath (Ex)&FN&**
+**Hold Breath (Ex)**
 
 **Passive:** A rogue with this talent increases the number of rounds she can
 [hold her breath](ref/misc/hold-your-breath) by 2.

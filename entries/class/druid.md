@@ -1167,6 +1167,7 @@ themselves to travel the entire world.
 |[Wolf Shaman](ref/arc-druid/wolf-shaman)|X||||||||||||||||X|||||||||
 |[World Walker](ref/arc-druid/world-walker)|||||||||||X||||X|X|X|||||||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for druid are listed on the separate class options page._
+_The favored class options for druid are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

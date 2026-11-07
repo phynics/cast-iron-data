@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elemental Stance (Su)&FN&**
+**Elemental Stance (Su)**
 
 **At 12th Level:** The barbarian's critical hits deal an additional 1d10 points of energy damage of
 the same type (2d10 if the weapon deals &times&3 damage on a critical hit, 3d10 if the weapon deals

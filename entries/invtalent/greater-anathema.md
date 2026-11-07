@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Anathema (Ex)&FN&**
+**Greater Anathema (Ex)**
 
 **Ability:** The ability reduction of the investigator's _anathemas_ increases to 10, and he adds
 DR/- and regeneration to the list of abilities he can lower with an _anathema._

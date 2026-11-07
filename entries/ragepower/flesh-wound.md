@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Flesh Wound (Ex)&FN&**
+**Flesh Wound (Ex)**
 
 **Ability:** Once per _rage,_ the barbarian can try to avoid serious harm from an attack. The
 barbarian must make a Fortitude save with a DC equal to the damage that would be dealt by the

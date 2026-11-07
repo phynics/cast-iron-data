@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Large (Ex)&FN&**
+**Large (Ex)**
 
 **Ability:** The eidolon grows in size, becoming Large. The eidolon gains a +4 bonus to Strength, a
 +2 bonus to Constitution, and a +2 bonus to its natural armor. It takes a -2 penalty to Dexterity.

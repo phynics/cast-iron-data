@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Holy Bombs&FN&**
+**Holy Bombs**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it deal good divine damage.
 Evil creatures that take a direct hit from a _holy bomb_ must succeed at a Fortitude save or be

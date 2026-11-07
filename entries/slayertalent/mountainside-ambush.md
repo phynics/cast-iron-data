@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mountainside Ambush (Ex)&FN&**
+**Mountainside Ambush (Ex)**
 
 **Ability:** If a slayer deals sneak attack damage to a creature that is unaware of his presence
 while he is standing on higher ground than his target, he does not have to roll sneak attack damage;

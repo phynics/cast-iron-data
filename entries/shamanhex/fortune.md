@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fortune (Su)&FN&**
+**Fortune (Su)**
 
 **Ability:** The shaman grants a creature within 30 feet a bit of good luck for 1 round. The target
 can call upon this good luck once per round, allowing it to reroll any ability check, attack roll,

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deflection Field (Su)&FN&**
+**Deflection Field (Su)**
 
 **Ability:** Whenever the psychic casts a linked spell that grants her a deflection bonus to AC, she
 can spend 2 points from her phrenic pool to automatically reflect the first ranged attack that

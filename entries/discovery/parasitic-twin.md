@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Parasitic Twin&FN&**
+**Parasitic Twin**
 
 **Ability:** The alchemist's vestigial limbs are part of a _parasitic twin_ on his torso, consisting
 of a head, a torso, and two arms (from the _vestigial arm_ discovery).

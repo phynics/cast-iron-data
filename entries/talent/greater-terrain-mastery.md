@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Terrain Mastery (Ex)&FN&**
+**Greater Terrain Mastery (Ex)**
 
 **Ability:** A rogue with this talent can select a single
 [favored terrain](ref/ability/favored-terrain). Her bonuses in that terrain increase to +4.

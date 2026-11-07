@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Suggestion (Sp)&FN&**
+**Suggestion (Sp)**
 
 **At 6th Level:** A bard can use his performance to make a [suggestion](ref/spell/suggestion) (as
 per the spell) to a creature he has already [fascinated](ref/performance/fascinate). Using this

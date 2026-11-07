@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inured to Terror (Ex)&FN&**
+**Inured to Terror (Ex)**
 
 **Flavor:** With their knowledge of the cyclical nature of existence, there are few experiences that
 can daunt samsaran slayers for long.

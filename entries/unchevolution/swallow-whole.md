@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swallow Whole (Ex)&FN&**
+**Swallow Whole (Ex)**
 
 **Ability:** The eidolon gains the [swallow whole](ref/umr/swallow-whole) ability, giving it the
 ability to consume its foes. If the eidolon begins its turn with a creature grappled using its

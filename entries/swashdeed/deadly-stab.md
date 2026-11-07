@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Stab (Ex)&FN&**
+**Deadly Stab (Ex)**
 
 **Ability:** When the swashbuckler confirms a critical hit with a light or one-handed piercing melee
 weapon, in addition to the normal damage, she can spend 1 panache point to inflict a _deadly stab._

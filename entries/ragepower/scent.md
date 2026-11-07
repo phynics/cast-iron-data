@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Scent (Ex)&FN&**
+**Scent (Ex)**
 
 **Ability:** The barbarian gains the [scent](ref/umr/scent) ability while _raging_ and can use this
 ability to locate unseen foes.

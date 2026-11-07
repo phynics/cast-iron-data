@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Leg Sweep&FN&**
+**Leg Sweep**
 
 **Ability:** If the attack hits, the monk can make a free [trip](ref/rule/trip) attempt against the
 target of this strike (using the base attack bonus of the attack used to hit the foe).

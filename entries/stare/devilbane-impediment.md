@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Devilbane Impediment&FN&**
+**Devilbane Impediment**
 
 **Info:** The target of your _hypnotic stare_ must succeed at a
 [concentration](ref/rule/concentration) check (DC = 15 + the level of the spell) to activate any of

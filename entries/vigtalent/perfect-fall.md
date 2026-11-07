@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Perfect Fall (Ex)&FN&**
+**Perfect Fall (Ex)**
 
 **Ability:** As long as there is a wall or another surface within arm's reach, the vigilante never
 takes falling damage. Even if no surface is available, he takes only half damage from falling and

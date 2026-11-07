@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mindshield (Su)&FN&**
+**Mindshield (Su)**
 
 **Ability:** The psychic can spend 1 point from her phrenic pool to give one target of the linked
 spell a +2 morale bonus on Will saves for 1 round per psychic level (maximum 10 rounds). The psychic

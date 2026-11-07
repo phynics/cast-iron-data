@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Favored Quarry (Ex)&FN&**
+**Favored Quarry (Ex)**
 
 **Choice:** The Hellknight chooses a creature type from the ranger
 [favored enemy](ref/ability/favored-enemy) table (usually humanoid with a specific subtype, but this

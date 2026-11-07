@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dance of Disorienting Shadows (Ex)&FN&**
+**Dance of Disorienting Shadows (Ex)**
 
 **Ability:** A rogue with this talent can attempt a [Perform](ref/skill/perform-any) (dance) check
 in place of a combat maneuver check when attempting a [reposition](ref/rule/reposition) combat

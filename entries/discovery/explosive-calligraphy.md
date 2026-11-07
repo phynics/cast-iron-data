@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Explosive Calligraphy&FN&**
+**Explosive Calligraphy**
 
 **Ability:** The alchemist can create especially volatile pigments that detonate when agitated. This
 requires expending one daily use of his bombs, but otherwise functions as

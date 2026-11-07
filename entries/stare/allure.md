@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Allure&FN&**
+**Allure**
 
 **Info:** The _hypnotic stare_ penalty also applies on initiative checks and Perception checks.

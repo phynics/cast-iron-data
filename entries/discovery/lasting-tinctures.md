@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lasting Tinctures&FN&**
+**Lasting Tinctures**
 
 **Ability:** The alchemist knows how to make tinctures that last much longer than normal. The
 durations of the effects of any tinctures the alchemist brews using the [Craft](ref/skill/craft-any)

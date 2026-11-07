@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Action Before Thought (Ex)&FN&**
+**Action Before Thought (Ex)**
 
 **Free:** A monk with this ability can spend 2 ki points as part of rolling initiative to roll twice
 on the initiative check and take the higher result.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slip Bonds&FN&**
+**Slip Bonds**
 
 **Ability:** If the subject becomes grappled, pinned, shackled, or otherwise personally restrained,
 the mesmerist can trigger the trick and cause the subject to become incorporeal just long enough to

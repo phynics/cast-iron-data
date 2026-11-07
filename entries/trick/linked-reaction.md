@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Linked Reaction&FN&**
+**Linked Reaction**
 
 **Ability:** The mesmerist can trigger this trick when either the subject or the mesmerist is
 surprised and the other isn't (even if the mesmerist would normally be unable to take actions

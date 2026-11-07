@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Water Totem (Ex)&FN&**
+**Water Totem (Ex)**
 
 **Ability:** While _raging,_ the barbarian can breathe water as well as air.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychokinetic Tincture&FN&**
+**Psychokinetic Tincture**
 
 **Flavor:** The alchemist can concoct a foul-tasting tincture that harnesses the power of the
 spirit.

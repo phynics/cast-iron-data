@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Celestial Totem (Su)&FN&**
+**Greater Celestial Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian gains [spell resistance](ref/rule/spell-resistance) equal
 to 11 + the barbarian's class level against spells with the evil descriptor. She also gains a +2

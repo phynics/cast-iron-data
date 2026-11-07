@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Infected Wounds (Su)&FN&**
+**Infected Wounds (Su)**
 
 **Ability:** The target's wounds become infected (Fortitude negates). The target takes 1 point of
 [Constitution damage](ref/rule/ability-damage-drain) per day. After the first day, the target may

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Congeal (Su)&FN&**
+**Congeal (Su)**
 
 **Ability:** The witch can make the water in a 10-foot radius around her sludgy and viscous for 1
 minute, causing it to function as [difficult terrain](ref/rule/terrain-and-obstacles) for all

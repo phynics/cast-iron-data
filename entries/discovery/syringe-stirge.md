@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Syringe Stirge&FN&**
+**Syringe Stirge**
 
 **Fullround:** You can expend two daily uses of bombs to create a _syringe stirge,_ a tiny construct
 primed with a bomb (if you have multiple types of bombs, you must select which type the _syringe

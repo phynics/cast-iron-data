@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rooftop Infiltrator (Ex)&FN&**
+**Rooftop Infiltrator (Ex)**
 
 **Ability:** The vigilante gains a climb speed equal to half his base speed, which increases to his
 full base speed when climbing a rope.

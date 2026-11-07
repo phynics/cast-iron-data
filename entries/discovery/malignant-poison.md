@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Malignant Poison&FN&**
+**Malignant Poison**
 
 **Fullround:** The alchemist can increase the save DC of any poison by 4 and increase its duration
 by 2 frequency increments (for example, [large scorpion venom](ref/eq-poison/large-scorpion-venom)

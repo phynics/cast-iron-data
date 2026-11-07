@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Subjective Truth (Ex)&FN&**
+**Subjective Truth (Ex)**
 
 **Flavor:** The vigilante's disparate identities allow him to defeat magic that detects lies.
 

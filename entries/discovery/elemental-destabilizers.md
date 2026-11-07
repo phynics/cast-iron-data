@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elemental Destabilizers&FN&**
+**Elemental Destabilizers**
 
 **Ability:** The alchemist can craft poisons that affect only outsiders with the elemental subtype,
 bypassing their inherent immunity. Magical effects that negate poisons still apply. If a creature

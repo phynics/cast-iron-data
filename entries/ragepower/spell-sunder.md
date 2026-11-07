@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spell Sunder (Su)&FN&**
+**Spell Sunder (Su)**
 
 **Ability:** Once per _rage,_ the barbarian can attempt to [sunder](ref/rule/sunder) an ongoing
 spell effect by succeeding at a combat maneuver check.

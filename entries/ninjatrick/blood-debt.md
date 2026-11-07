@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blood Debt (Su)&FN&**
+**Blood Debt (Su)**
 
 **Ability:** A ninja with this ability gains [In Harm's Way](ref/feat/in-harms-way) as a bonus feat,
 even if she doesn't meet the prerequisites.

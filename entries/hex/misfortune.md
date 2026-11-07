@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Misfortune (Su)&FN&**
+**Misfortune (Su)**
 
 **Ability:** The witch can cause a creature within 30 feet to suffer grave misfortune for 1 round.
 Anytime the creature makes an ability check, attack roll, saving throw, or skill check, it must roll

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mountain&FN&**
+**Mountain**
 
 **Info:** The Mountain patron grants the following spells at the listed witch levels.
 

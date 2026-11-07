@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Just a Face in the Crowd (Su)&FN&**
+**Just a Face in the Crowd (Su)**
 
 **Flavor:** The rabble-rousers of Galt can blend into a crowd and are able to hide and spot others
 who appear to be hiding.

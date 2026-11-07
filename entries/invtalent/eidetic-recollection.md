@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eidetic Recollection (Su)&FN&**
+**Eidetic Recollection (Su)**
 
 **Ability:** An investigator can always choose to take 10 on any of his Knowledge checks, even if
 he's in immediate danger or distracted.

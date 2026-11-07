@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fearless Rage (Ex)&FN&**
+**Fearless Rage (Ex)**
 
 **Passive:** While _raging,_ the barbarian is immune to the [shaken](ref/misc/shaken) and
 [frightened](ref/misc/frightened) conditions.

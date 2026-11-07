@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spin Kick&FN&**
+**Spin Kick**
 
 **Ability:** The monk makes his attack against the foe's [flat-footed](ref/rule/flat-footed) AC.
 Creatures with the [uncanny dodge](ref/ability/uncanny-dodge) class feature or a similar effect

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ventriloquism (Su)&FN&**
+**Ventriloquism (Su)**
 
 **Swift:** The ninja can throw her voice as if using the spell
 [ventriloquism](ref/spell/ventriloquism). She can use this ability for 1 minute per ninja level.

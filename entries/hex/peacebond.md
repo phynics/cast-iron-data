@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Peacebond (Su)&FN&**
+**Peacebond (Su)**
 
 **Ability:** A witch can use this hex on a creature to prevent it from drawing a weapon for a number
 of rounds equal to the witch's level. This hex has no effect on natural weapons or weapons already

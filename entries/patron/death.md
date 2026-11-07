@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Death&FN&**
+**Death**
 
 **Info:** The Death patron grants the following spells at the listed witch levels.
 

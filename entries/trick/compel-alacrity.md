@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Compel Alacrity&FN&**
+**Compel Alacrity**
 
 **Ability:** The mesmerist can trigger this trick when the subject begins her turn within an enemy's
 reach. The subject can move 10 feet as a **free action** without provoking attacks of opportunity.

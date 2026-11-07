@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Murksight (Su)&FN&**
+**Murksight (Su)**
 
 **Ability:** The witch can see through natural fog, mist, and rain without penalty, ignoring any
 [concealment](ref/rule/concealment) bonuses gained from such effects. If the effect is created by

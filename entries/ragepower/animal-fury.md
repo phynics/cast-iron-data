@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Animal Fury (Ex)&FN&**
+**Animal Fury (Ex)**
 
 **Ability:** While _raging,_ the barbarian gains a [bite attack](ref/umr/natural-attacks). If used
 as part of a full attack action, the bite attack is made at the barbarian's full base attack bonus

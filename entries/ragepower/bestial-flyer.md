@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bestial Flyer (Ex)&FN&**
+**Bestial Flyer (Ex)**
 
 **Passive:** While _raging,_ the barbarian's fly speed increases by 10 feet and her maneuverability
 improves by one category.

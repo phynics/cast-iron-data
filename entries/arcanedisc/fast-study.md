@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fast Study&FN&**
+**Fast Study**
 
 **Ability:** Normally, a wizard spends 1 hour preparing all of his spells for the day, or
 proportionately less if he only prepares some spells, with a minimum of 15 minutes of preparation.

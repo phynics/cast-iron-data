@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lingering Venom (Ex)&FN&**
+**Lingering Venom (Ex)**
 
 **Ability:** Poisons that the investigator personally applies to weapons and traps, or otherwise
 inflicts upon foes, require one additional successful save to cure.

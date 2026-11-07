@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shared Slot (Su)&FN&**
+**Shared Slot (Su)**
 
 **Choice:** Select a magic item slot. A magic item worn by the eidolon in that slot remains active
 even if the summoner is also wearing a magic item in that slot.

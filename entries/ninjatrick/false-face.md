@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&False Face (Su)&FN&**
+**False Face (Su)**
 
 **Ability:** A ninja with this trick gains the [change shape](ref/umr/change-shape) (any Small or
 Medium humanoid, [alter self](ref/spell/alter-self)) universal monster rule as long as she has at

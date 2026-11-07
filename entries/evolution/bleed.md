@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bleed (Ex)&FN&**
+**Bleed (Ex)**
 
 **Ability:** Select one type of attack. Attacks of that type deal 1d6 points of
 [bleed](ref/rule/bleed) damage.

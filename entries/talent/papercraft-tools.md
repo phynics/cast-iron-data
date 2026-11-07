@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Papercraft Tools (Ex)&FN&**
+**Papercraft Tools (Ex)**
 
 **Ability:** So long has the rogue has access to a [deck of cards](ref/eq-misc/cards), she can
 destroy one card to attempt a single [Disable Device](ref/skill/disable-device) check as if she had

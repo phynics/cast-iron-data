@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Occult Dungeoneer (Su)&FN&**
+**Occult Dungeoneer (Su)**
 
 **Ability:** A rogue with this ability can use [spell trigger](ref/misc/spell-trigger) and
 [spell completion](ref/misc/spell-completion) items as if the following spells were on a spell list

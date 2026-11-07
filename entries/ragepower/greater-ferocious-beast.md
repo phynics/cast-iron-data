@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Ferocious Beast (Ex)&FN&**
+**Greater Ferocious Beast (Ex)**
 
 **Passive:** While the barbarian is _raging,_ her animal companion shares the benefits of the
 barbarian's rage powers that are constant in effect. It gains no benefit from rage powers that

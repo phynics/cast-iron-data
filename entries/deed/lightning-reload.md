@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lightning Reload (Ex)&FN&**
+**Lightning Reload (Ex)**
 
 **Ability:** As long as the gunslinger has at least 1 grit point, she can reload a single barrel of
 a one-handed or two-handed firearm as a **swift action** once per round. If she has the

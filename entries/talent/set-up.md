@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Set-Up (Ex)&FN&**
+**Set-Up (Ex)**
 
 **Ability:** When you successfully hit a target with a sneak attack in melee, you can choose to
 forgo your additional sneak attack damage to make the target more vulnerable to one of your allies

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Celestial Blood (Su)&FN&**
+**Lesser Celestial Blood (Su)**
 
 **Passive:** While _raging,_ the barbarian's melee attacks are considered good-aligned weapons for
 the purpose of bypassing [damage reduction](ref/rule/damage-reduction). Furthermore, the barbarian

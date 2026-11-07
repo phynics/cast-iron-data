@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eerie Disappearance (Ex)&FN&**
+**Eerie Disappearance (Ex)**
 
 **Fullround:** The rogue can move up to her speed. If she successfully reaches a location that
 offers her [cover](ref/rule/cover) or [concealment](ref/rule/concealment), any creature observing

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Confusion Bomb&FN&**
+**Confusion Bomb**
 
 **Ability:** A creature that takes a direct hit from a _confusion bomb_ takes damage from the bomb
 and is under the effect of a [confusion](ref/spell/confusion) spell for 1 round per caster level of

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Constrict (Ex)&FN&**
+**Constrict (Ex)**
 
 **Flavor:** The eidolon gains powerful muscles that allow it to crush those it grapples.
 

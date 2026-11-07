@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer staggered, unless the target is at exactly 0 hit points.&FN&
+**Details:** The target is no longer staggered, unless the target is at exactly 0 hit points.
 
-**Title:** &L&Staggered
+**Title:** Staggered

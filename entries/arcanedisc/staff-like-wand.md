@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Staff-Like Wand&FN&**
+**Staff-Like Wand**
 
 **Ability:** Your research has unlocked a new power in conjunction with using a wand. Similar to
 using a magic staff, you use your own Intelligence score and relevant feats to set the DC for saves

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spirit Totem (Su)&FN&**
+**Spirit Totem (Su)**
 
 **Passive:** While _raging,_ the spirits that surround the barbarian make it difficult for her
 enemies to see her. The spirits grant the barbarian a 20% miss chance against ranged attacks and

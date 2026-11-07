@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Beast of Ill-Omen (Su)&FN&**
+**Beast of Ill-Omen (Su)**
 
 **Ability:** The witch imbues her familiar with strange magic, putting a minor curse upon the next
 enemy to see it. The enemy must make a Will save or be affected by [bane](ref/spell/bane) (caster

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Numerical Strike (Ex)&FN&**
+**Numerical Strike (Ex)**
 
 **Ability:** Once per day when the investigator has confirmed a critical hit with a _studied
 strike,_ he can deal average damage instead of rolling damage as normal. This includes the damage

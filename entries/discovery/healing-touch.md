@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Healing Touch&FN&**
+**Healing Touch**
 
 **Flavor:** The alchemist gains the ability to heal other creatures.
 

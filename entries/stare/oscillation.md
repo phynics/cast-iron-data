@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Oscillation&FN&**
+**Oscillation**
 
 **Info:** The target of the _hypnotic stare_ treats all enemies beyond 30 feet (except the
 mesmerist) as having [concealment](ref/rule/concealment) (20% miss chance).

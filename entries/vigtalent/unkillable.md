@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unkillable (Ex)&FN&**
+**Unkillable (Ex)**
 
 **Ability:** The vigilante gains [Diehard](ref/feat/diehard) as a bonus feat, though he does not
 have to meet the prerequisites for this feat.

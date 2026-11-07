@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Undead Appearance (Ex)&FN&**
+**Undead Appearance (Ex)**
 
 **Flavor:** An eidolon appears as an undead creature, and mimics some of an undead creature's
 abilities and weaknesses.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Immolation Bomb&FN&**
+**Immolation Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have its substance coat the direct
 target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's

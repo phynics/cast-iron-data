@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Precise Bombs&FN&**
+**Precise Bombs**
 
 **Ability:** Whenever the alchemist throws a bomb, he can select a number of squares equal to his
 Intelligence modifier that are not affected by the splash damage from his bombs. If the bomb misses,

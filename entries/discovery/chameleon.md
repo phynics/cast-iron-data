@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Chameleon&FN&**
+**Chameleon**
 
 **Ability:** An alchemist with this discovery can shift the colors of his skin and equipment to
 blend in with the surrounding terrain. He gains a +4 enhancement bonus on Stealth checks.

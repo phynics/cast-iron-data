@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fast Bombs&FN&**
+**Fast Bombs**
 
 **Flavor:** An alchemist with this discovery can quickly create enough bombs to throw more than one
 in a single round.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eternal Youth&FN&**
+**Eternal Youth**
 
 **Passive:** The alchemist has discovered a cure for aging, and from this point forward he takes no
 penalty to his physical ability scores from [advanced age](ref/rule/age). If the alchemist is

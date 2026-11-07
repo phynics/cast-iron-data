@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grease Bomb&FN&**
+**Grease Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it create a grease slick upon
 detonation. When a _grease bomb_ detonates, it coats an area equal to the bomb's splash radius in

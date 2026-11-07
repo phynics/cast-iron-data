@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fast Stealth (Ex)&FN&**
+**Fast Stealth (Ex)**
 
 **Ability:** This ability allows a rogue to move at full speed using the
 [Stealth](ref/skill/stealth) skill without penalty.

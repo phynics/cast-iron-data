@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poison Use (Ex)&FN&**
+**Poison Use (Ex)**
 
 **Ability:** The rogue is trained in the use of poison, and can't accidentally poison herself when
 applying poison to a weapon.

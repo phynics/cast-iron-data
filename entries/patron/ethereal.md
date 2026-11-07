@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ethereal&FN&**
+**Ethereal**
 
 **Info:** The Ethereal patron grants the following spells at the listed witch levels.
 

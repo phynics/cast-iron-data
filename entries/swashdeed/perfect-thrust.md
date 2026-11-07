@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Perfect Thrust (Ex)&FN&**
+**Perfect Thrust (Ex)**
 
 **Fullround:** While the swashbuckler has at least 1 panache point, she can make a _perfect thrust,_
 pooling all of her attack potential into a single melee attack made with a light or one-handed

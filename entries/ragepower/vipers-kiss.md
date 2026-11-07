@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Viper's Kiss (Ex)&FN&**
+**Viper's Kiss (Ex)**
 
 **Ability:** The barbarian can drink 1 dose of an ingested poison as a **move action** (instead of a
 standard action) as long as she starts the turn with the poison in her hand. She can hold this dose

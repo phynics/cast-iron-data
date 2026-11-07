@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Diamond Resilience (Ex)&FN&**
+**Diamond Resilience (Ex)**
 
 **At 16th Level:** The [damage reduction](ref/rule/damage-reduction) increases to 4/-.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspired Alertness (Ex)&FN&**
+**Inspired Alertness (Ex)**
 
 **Ability:** Whenever the investigator becomes [flat-footed](ref/rule/flat-footed), he can expend
 one use of _inspiration_ to ignore that condition. He must be conscious to do so, and must decide to

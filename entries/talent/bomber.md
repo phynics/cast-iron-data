@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bomber (Su)&FN&**
+**Bomber (Su)**
 
 **Ability:** A rogue with this talent can make a number of bombs per day equal to her Intelligence
 modifier (minimum 1). These bombs act as [alchemist's](ref/class/alchemist) bombs, except they deal

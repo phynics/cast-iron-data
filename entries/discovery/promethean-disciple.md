@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Promethean Disciple&FN&**
+**Promethean Disciple**
 
 **Ability:** The alchemist gains [Craft Construct](ref/feat/craft-construct) as a bonus feat without
 needing to meet its requirements. The alchemist substitutes his number of ranks in

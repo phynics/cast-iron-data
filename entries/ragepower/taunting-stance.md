@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Taunting Stance (Ex)&FN&**
+**Taunting Stance (Ex)**
 
 **Flavor:** The barbarian can leave herself open to attacks while preparing devastating
 counterattacks.

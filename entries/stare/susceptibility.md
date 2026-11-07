@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Susceptibility&FN&**
+**Susceptibility**
 
 **Info:** The _hypnotic stare_ penalty also applies to the target's Sense Motive checks to oppose
 Bluff checks, and to the DCs of Diplomacy and Intimidate checks made against the target.

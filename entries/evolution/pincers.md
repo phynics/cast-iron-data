@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pincers (Ex)&FN&**
+**Pincers (Ex)**
 
 **Ability:** An eidolon grows a large pincers at the end of one pair of its limbs, giving it two
 pincer attacks. These attacks are secondary attacks. The pincers deal 1d6 points of damage (1d8 if

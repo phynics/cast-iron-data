@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Catfolk Rogue Talent&FN&**
+**Catfolk Rogue Talent**
 
 **Ability:** A catfolk slayer can select one of the following catfolk rogue talents in place of a
 slayer talent: [deadly scratch](ref/talent/deadly-scratch),

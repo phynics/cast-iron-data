@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Limbs (Ex)&FN&**
+**Limbs (Ex)**
 
 **Ability:** The eidolon grows an additional pair of limbs. These limbs can take one of two forms.
 

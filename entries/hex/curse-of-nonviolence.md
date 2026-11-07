@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Curse of Nonviolence (Su)&FN&**
+**Curse of Nonviolence (Su)**
 
 **Ability:** The witch can curse a creature to prevent it from attacking innocents. If the target
 fails its Will save, it cannot take violent actions or do anything destructive against any creature

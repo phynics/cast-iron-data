@@ -16,7 +16,7 @@ The storykin are avatars of the harrow deck's cards, brought to life through the
 spending their lives acting out the roles in the stories they originated from. The form and
 alignment of a storykin eidolon is dependent on the harrow card the eidolon is based on. You can
 reference an actual [harrow deck](ref/eq-misc/harrow-deck) for these eidolons, but you can also
-simulate the suit and alignment of an eidolon from a harrow deck.&FN&
+simulate the suit and alignment of an eidolon from a harrow deck.
 
 **Restriction**
 

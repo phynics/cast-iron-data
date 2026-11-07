@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Damage Reduction (Su)&FN&**
+**Damage Reduction (Su)**
 
 **Flavor:** An eidolon's body becomes resistant to harm, granting it damage reduction.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sudden Speed (Su)&FN&**
+**Sudden Speed (Su)**
 
 **Swift:** A monk with this ki power can spend 1 ki point to grant himself a sudden burst of speed.
 This increases the monk's base land speed by 30 feet for 1 minute.

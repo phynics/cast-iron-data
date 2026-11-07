@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Subordinate Spell (Ex)&FN&**
+**Subordinate Spell (Ex)**
 
 **Ability:** The psychic can divide her mind to cast a less powerful spell upon herself alongside
 her linked spell. The linked spell can't be lower than 5th level and can't take less than a standard

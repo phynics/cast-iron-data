@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eldritch Conduit (Su)&FN&**
+**Eldritch Conduit (Su)**
 
 **Flavor:** Survival in the Mana Wastes between the nations of Nex and Geb can depend heavily on
 locating sufficient magical equipment, which sometimes involves stealing power from a wand or scroll

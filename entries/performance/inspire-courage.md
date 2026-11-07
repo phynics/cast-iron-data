@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspire Courage (Su)&FN&**
+**Inspire Courage (Su)**
 
 **At 1st Level:** A bard can use his performance to _inspire courage_ in his allies (including
 himself), bolstering them against fear and improving their combat abilities. To be affected, an ally

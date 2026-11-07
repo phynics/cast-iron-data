@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Prolonged Study (Ex)&FN&**
+**Prolonged Study (Ex)**
 
 **Ability:** The investigator can study his opponents for long periods of time. The effects of his
 _studied combat_ ability last for a number of rounds equal to twice his Intelligence modifier

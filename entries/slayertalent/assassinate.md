@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Assassinate (Ex)&FN&**
+**Assassinate (Ex)**
 
 **Ability:** To attempt to assassinate a target, the slayer must first study his target for 1 round
 as a **standard action**. On the following round, if the slayer makes a sneak attack against the

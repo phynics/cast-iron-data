@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slam (Ex)&FN&**
+**Slam (Ex)**
 
 **Ability:** An eidolon can deliver a devastating [slam attack](ref/umr/natural-attacks). This
 attack is a primary attack. The slam deals 1d8 points of damage (2d6 if Large, 2d8 if Huge).

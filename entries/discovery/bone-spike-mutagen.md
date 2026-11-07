@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bone-Spike Mutagen&FN&**
+**Bone-Spike Mutagen**
 
 **Passive:** When the alchemist imbibes a _mutagen,_ he mutates his skeletal structure, causing the
 bones on his elbows, knuckles, spine, and shoulder blades to grow massive and pierce his skin,

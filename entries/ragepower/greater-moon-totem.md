@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Moon Totem (Su)&FN&**
+**Greater Moon Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian ignores the miss chance for
 [concealment](ref/rule/concealment) and treats total concealment as concealment.

@@ -631,6 +631,7 @@ word by physically devouring books and scrolls to create magical effects and gai
 |[Talisman Crafter](ref/arc-occultist/talisman-crafter)||X||X|||||||X||X|||X|||||X|X|||||||
 |[Tome Eater](ref/arc-occultist/tome-eater)||X||X|X|X||X|X|X||X|X||||||||||X||||X||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for occultist are listed on the separate class options page._
+_The favored class options for occultist are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dire Prophecy (Su)&FN&**
+**Dire Prophecy (Su)**
 
 **Ability:** The witch curses the target so he is doomed to die (Will negates). As long as the curse
 persists, the target takes a -4 penalty to his Armor Class and on attack rolls, saves, ability

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vigilante's Reflexes (Ex)&FN&**
+**Vigilante's Reflexes (Ex)**
 
 **Ability:** The vigilante gains [Combat Reflexes](ref/feat/combat-reflexes) as a bonus feat. If he
 already has the Combat Reflexes feat, he instead gains another feat he qualified for at the level

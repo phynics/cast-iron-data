@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspire Ferocity (Ex)&FN&**
+**Inspire Ferocity (Ex)**
 
 **Move:** While _raging,_ the barbarian can impart her _reckless abandon_ modifier to all willing
 allies within 30 feet for a number of rounds equal to her Charisma modifier (minimum 1).

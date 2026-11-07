@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Innocent Facade (Sp)&FN&**
+**Innocent Facade (Sp)**
 
 **Ability:** Once per day, an investigator with this talent can use [innocence](ref/spell/innocence)
 as a [spell-like ability](ref/umr/spell-like-abilities), using her investigator level as the spell's

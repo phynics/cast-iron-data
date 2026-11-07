@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Guise of Unlife (Su)&FN&**
+**Guise of Unlife (Su)**
 
 **Ability:** A vigilante with this talent gains an additional social identity in the form of an
 undead version of one of his existing social identities, such as a [ghoul](ref/monster/ghoul),

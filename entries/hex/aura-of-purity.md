@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Aura of Purity (Su)&FN&**
+**Aura of Purity (Su)**
 
 **Passive:** The witch's aura purifies the air around her. Diseases, inhaled poisons, and noxious
 gaseous effects (such as [stinking cloud](ref/spell/stinking-cloud)) are negated in a 10-foot aura

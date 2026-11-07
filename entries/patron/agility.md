@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Agility&FN&**
+**Agility**
 
 **Info:** The Agility patron grants the following spells at the listed witch levels.
 

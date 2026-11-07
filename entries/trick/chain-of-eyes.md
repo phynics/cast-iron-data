@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Chain of Eyes&FN&**
+**Chain of Eyes**
 
 **Ability:** The subject can share her senses with the mesmerist. The mesmerist triggers _chain of
 eyes_ by closing his eyes and concentrating on the implanted subject, allowing the mesmerist to see

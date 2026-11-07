@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Split Slot&FN&**
+**Split Slot**
 
 **Ability:** Once per day when you prepare spells, you may treat any one of your open spell slots as
 if it were two spell slots that were two spell levels lower. For example, a 9th-level wizard can

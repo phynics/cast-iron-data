@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ice Tomb (Su)&FN&**
+**Ice Tomb (Su)**
 
 **Ability:** A storm of ice and freezing wind envelops the target, which takes 3d8 points of cold
 damage (Fortitude half). If the target fails its save, it is [paralyzed](ref/rule/paralyzed) and

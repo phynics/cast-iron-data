@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shackle (Su)&FN&**
+**Shackle (Su)**
 
 **Ability:** When the Hellknight uses _smite chaos_ on a creature, he can impede its mobility. The
 creature can negate this effect with a Will save; otherwise, it is affected as if by a

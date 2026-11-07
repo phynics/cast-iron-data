@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Seek the Taken&FN&**
+**Seek the Taken**
 
 **Ability:** When a member of the _Order of the Torrent_ becomes a 3rd-level Hellknight, he gains
 his first discipline: _seek the taken._ This enables the Hellknight to use an

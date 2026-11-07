@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Explosive Bomb&FN&**
+**Explosive Bomb**
 
 **Ability:** The alchemist's bombs now have a splash radius of 10 feet rather than 5 feet. Creatures
 that take a direct hit from an _explosive bomb_ catch fire, taking 1d6 points of fire damage each

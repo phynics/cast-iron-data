@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pollute Water (Su)&FN&**
+**Pollute Water (Su)**
 
 **Ability:** This functions as the [blight](ref/hex/blight) hex, except it affects only either an
 area of standing water or a creature with the aquatic or water subtype. A creature of any type that

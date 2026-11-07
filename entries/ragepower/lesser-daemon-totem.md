@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Daemon Totem&FN&**
+**Lesser Daemon Totem**
 
 **Passive:** While _raging,_ the barbarian gains a +2 bonus on saving throws against acid damage,
 death effects, disease, and poison. This bonus increases by 1 for each daemon totem rage power the

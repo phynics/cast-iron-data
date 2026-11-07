@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Freedom of Movement (Su)&FN&**
+**Freedom of Movement (Su)**
 
 **Prereq:** 8th-level monk
 

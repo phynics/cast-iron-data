@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Knockdown (Ex)&FN&**
+**Knockdown (Ex)**
 
 **Ability:** Once per _rage,_ the barbarian can make a [trip](ref/rule/trip) attack against one
 target in place of a melee attack. If successful, the target takes damage equal to the barbarian's

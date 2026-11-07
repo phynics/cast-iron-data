@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Master of the Deep (Su)&FN&**
+**Master of the Deep (Su)**
 
 **Flavor:** The barbarian commands an aquatic creature to do her bidding.
 

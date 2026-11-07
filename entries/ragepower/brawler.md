@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Brawler&FN&**
+**Brawler**
 
 **Ability:** While _raging,_ the barbarian is treated as if she has
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike). If she already has the feat, her

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hammerblow&FN&**
+**Hammerblow**
 
 **Ability:** If the attack hits, the monk rolls his unarmed strike damage twice, adding both rolls
 together before applying Strength and other modifiers to the damage. This bonus damage is not

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tentacle (Ex)&FN&**
+**Tentacle (Ex)**
 
 **Ability:** An eidolon possesses a long, sinuous tentacle, granting it a
 [tentacle attack](ref/umr/natural-attacks). This attack is a secondary attack. The tentacle attack

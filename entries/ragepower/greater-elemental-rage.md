@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Elemental Rage (Su)&FN&**
+**Greater Elemental Rage (Su)**
 
 **Passive:** While _raging,_ all of the barbarian's critical hits made with melee weapons deal an
 additional 1d10 points of energy damage (2d10 if the weapon deals &times&3 damage on a critical hit,

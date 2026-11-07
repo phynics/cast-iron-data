@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rogue Talent (Ex)&FN&**
+**Rogue Talent (Ex)**
 
 **Ability:** An investigator can select one of the following rogue talents in place of an
 investigator talent: [acrobatic assist](ref/talent/acrobatic-assist),

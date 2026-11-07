@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Breath of the Ancestors (Su)&FN&**
+**Breath of the Ancestors (Su)**
 
 **Choice:** The ninja chooses one [imperial dragon](ref/family/dragon-imperial) type (forest, sea,
 sky, sovereign, or underworld) when she gains this trick, and the choice can't be changed.

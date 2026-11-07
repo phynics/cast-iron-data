@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sapped Magic&FN&**
+**Sapped Magic**
 
 **Info:** The _hypnotic stare_ penalty also applies to the DCs of spells and
 [spell-like abilities](ref/umr/spell-like-abilities) used by the target, and to the target's

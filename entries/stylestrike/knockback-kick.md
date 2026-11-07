@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Knockback Kick&FN&**
+**Knockback Kick**
 
 **Ability:** If the attack hits, the monk can attempt a free combat maneuver check against the foe
 (using the base attack bonus of the attack used to hit the foe). If the check is successful, the foe

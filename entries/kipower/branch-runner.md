@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Branch Runner (Ex, Su)&FN&**
+**Branch Runner (Ex, Su)**
 
 **Passive:** A monk with this ability adds half the base speed bonus from his _fast movement_
 ability to his racial climb speed. In addition, when he uses the _sudden speed_ ki power, he adds

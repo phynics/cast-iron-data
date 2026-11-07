@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nightmares (Su)&FN&**
+**Nightmares (Su)**
 
 **Ability:** Calling upon fell powers, a witch can place a hex on a creature within 60 feet that
 causes its sleep to be tormented by terrible nightmares. This functions as the spell

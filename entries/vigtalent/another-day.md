@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Another Day (Ex, Su)&FN&**
+**Another Day (Ex, Su)**
 
 **Ability:** When the vigilante is dropped unconscious due to hit point damage, he automatically
 [stabilizes](ref/misc/stable), but he can also appear to be dead, unless an examining creature

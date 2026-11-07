@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fist of the Avenger (Ex)&FN&**
+**Fist of the Avenger (Ex)**
 
 **Ability:** The vigilante gains [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a
 bonus feat, if he doesn't have this feat already. In addition, whenever he successfully attacks with

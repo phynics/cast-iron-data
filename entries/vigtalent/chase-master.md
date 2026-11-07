@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Chase Master (Ex)&FN&**
+**Chase Master (Ex)**
 
 **Flavor:** Whether he is the pursuer or the pursued, few can best a vigilante at a chase.
 

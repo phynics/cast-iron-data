@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Scrying Familiarity (Ex)&FN&**
+**Scrying Familiarity (Ex)**
 
 **Ability:** You are well acquainted with scrying sensors. You can roll twice and take the better
 result on saving throws against divination (scrying) spells and effects, on

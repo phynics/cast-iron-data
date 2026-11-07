@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Philosopher's Stone&FN&**
+**Philosopher's Stone**
 
 **Ability:** The alchemist learns how to create a
 [philosopher's stone](ref/magic-artifact/philosophers-stone), and can do so once per month at no

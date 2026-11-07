@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Companion to the Lonely (Ex)&FN&**
+**Companion to the Lonely (Ex)**
 
 **Ability:** Once per day, the vigilante can spend at least 1 hour engaged in acts of physical
 pleasure with a willing partner to gain a pool of morale points equal to his Charisma bonus or his

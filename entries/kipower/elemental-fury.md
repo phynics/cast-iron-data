@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elemental Fury (Su)&FN&**
+**Elemental Fury (Su)**
 
 **Choice:** A monk who selects this ki power must select one type of energy: acid, cold,
 electricity, or fire. Once this choice is made, it cannot be changed.

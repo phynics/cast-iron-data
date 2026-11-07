@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slumber (Su)&FN&**
+**Slumber (Su)**
 
 **Ability:** A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per
 the spell [sleep](ref/spell/sleep). The creature receives a Will save to negate the effect. If the

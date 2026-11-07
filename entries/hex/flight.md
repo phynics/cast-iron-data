@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Flight (Su)&FN&**
+**Flight (Su)**
 
 **Flavor:** The witch grows lighter as she gains power, eventually gaining the ability to fly.
 

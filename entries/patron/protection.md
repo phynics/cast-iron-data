@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Protection&FN&**
+**Protection**
 
 **Info:** The Protection patron grants the following spells at the listed witch levels.
 

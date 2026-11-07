@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Obfuscate Story (Ex)&FN&**
+**Obfuscate Story (Ex)**
 
 **Ability:** While another individual attempts to give an account of an event, the rogue makes an
 opposed [Diplomacy](ref/skill/diplomacy) check to deftly interject comments or statements over the

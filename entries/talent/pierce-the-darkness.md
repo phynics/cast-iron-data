@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pierce the Darkness (Ex)&FN&**
+**Pierce the Darkness (Ex)**
 
 **Ability:** She gains [blindsense](ref/umr/blindsense) out to a range of 5 feet, but only against
 creatures concealed by darkness or her own blindness. She still suffers the normal miss chance for

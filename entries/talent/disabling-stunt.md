@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disabling Stunt (Ex)&FN&**
+**Disabling Stunt (Ex)**
 
 **Prereq:** Trained in [Disable Device](ref/skill/disable-device)
 

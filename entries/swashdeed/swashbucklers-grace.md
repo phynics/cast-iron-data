@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swashbuckler's Grace (Ex)&FN&**
+**Swashbuckler's Grace (Ex)**
 
 **Passive:** While the swashbuckler has at least 1 panache point, she takes no penalty for moving at
 full speed when she uses Acrobatics to attempt to move through a threatened area or an enemy's

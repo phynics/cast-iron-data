@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fast Stealth (Ex)&FN&**
+**Fast Stealth (Ex)**
 
 **Ability:** A ninja with this trick can move at full speed using the Stealth skill without penalty.

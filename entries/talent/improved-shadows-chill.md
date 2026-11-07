@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Improved Shadow's Chill (Su)&FN&**
+**Improved Shadow's Chill (Su)**
 
 **Ability:** When a rogue with this talent hits a creature with a melee weapon that deals sneak
 attack damage, the sneak attack damage is cold damage. Normal weapon damage is unaffected.

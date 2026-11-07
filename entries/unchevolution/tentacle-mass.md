@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tentacle Mass (Ex)&FN&**
+**Tentacle Mass (Ex)**
 
 **Ability:** The eidolon grows a thick mass of tentacles that can be used as a primary
 [natural weapon](ref/umr/natural-attacks). The tentacles deal 1d8 points of damage if the eidolon is

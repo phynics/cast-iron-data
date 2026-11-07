@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Aromatic Extract&FN&**
+**Aromatic Extract**
 
 **Ability:** The alchemist creates an inhaled version of an extract that is shared among multiple
 creatures. He must decide that an extract is an _aromatic extract_ when he makes it. When used, the

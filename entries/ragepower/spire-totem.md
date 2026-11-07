@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spire Totem (Su)&FN&**
+**Spire Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian takes no penalties for using a weapon to deal nonlethal
 damage. When dealing nonlethal damage, the barbarian adds a bonus equal to half her barbarian level

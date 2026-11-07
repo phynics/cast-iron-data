@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Strong Impression&FN&**
+**Strong Impression**
 
 **Ability:** A rogue who selects this talent gains
 [Intimidating Prowess](ref/feat/intimidating-prowess) as a bonus feat.

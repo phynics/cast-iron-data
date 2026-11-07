@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Occulted Soul (Su)&FN&**
+**Occulted Soul (Su)**
 
 **Ability:** The ninja can spend 1 ki point to cast [nondetection](ref/spell/nondetection) on
 herself as a [spell-like ability](ref/umr/spell-like-abilities), with a caster level equal to her

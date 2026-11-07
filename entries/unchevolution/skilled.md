@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Skilled (Ex)&FN&**
+**Skilled (Ex)**
 
 **Passive:** The eidolon becomes especially adept at a specific skill, gaining a +8 racial bonus on
 that skill.

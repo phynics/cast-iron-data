@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Opportune Parry and Riposte (Ex)&FN&**
+**Opportune Parry and Riposte (Ex)**
 
 **Ability:** When an opponent makes a melee attack against the swashbuckler, she can spend 1 panache
 point and expend a use of an attack of opportunity to attempt to parry that attack.

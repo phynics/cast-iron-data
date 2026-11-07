@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Divine Inks&FN&**
+**Divine Inks**
 
 **Ability:** The alchemist can develop special pigments and combine them with his alchemical
 reagents to create unique dyes that cling to the empty space around him, allowing him to paint

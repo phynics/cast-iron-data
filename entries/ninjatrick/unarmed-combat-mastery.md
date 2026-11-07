@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unarmed Combat Mastery (Ex)&FN&**
+**Unarmed Combat Mastery (Ex)**
 
 **Ability:** A ninja who selects this trick deals damage with her unarmed strikes as if she were a
 [monk](ref/class/monk) of her ninja level - 4.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sacrifice Self (Ex)&FN&**
+**Sacrifice Self (Ex)**
 
 **Ability:** A rogue who makes a successful Reflex save against an area effect can ignore the
 benefits of her [evasion](ref/ability/evasion) ability to shield an adjacent ally against the

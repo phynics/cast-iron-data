@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sickening (Ex)&FN&**
+**Sickening (Ex)**
 
 **Flavor:** The eidolon's smell or appearance is so offensive it sickens nearby creatures.
 

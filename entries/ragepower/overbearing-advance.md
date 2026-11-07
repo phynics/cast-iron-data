@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Overbearing Advance (Ex)&FN&**
+**Overbearing Advance (Ex)**
 
 **Ability:** While _raging,_ the barbarian inflicts damage equal to her Strength bonus whenever she
 succeeds at an [overrun](ref/rule/overrun) combat maneuver.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Improved Natural Armor (Ex)&FN&**
+**Improved Natural Armor (Ex)**
 
 **Passive:** An eidolon's hide grows thick fur, rigid scales, or bony plates, giving it a +2 bonus
 to its natural armor.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Alchemical Affinity&FN&**
+**Alchemical Affinity**
 
 **Ability:** Whenever you cast a spell that appears on both the wizard and alchemist spell lists,
 you treat your caster level as 1 higher than normal and the save DC of such spells increases by 1.

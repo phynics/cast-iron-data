@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Trample (Ex)&FN&**
+**Trample (Ex)**
 
 **Fullround:** An eidolon gains the ability to crush its foes underfoot, gaining the
 [trample](ref/umr/trample) ability. The eidolon can overrun any creature that is at least one size

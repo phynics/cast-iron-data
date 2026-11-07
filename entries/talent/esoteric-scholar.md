@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Esoteric Scholar (Ex)&FN&**
+**Esoteric Scholar (Ex)**
 
 **Ability:** Once a day, a rogue with this talent may attempt a [Knowledge](ref/skill/knowledge-all)
 check, even when she is not trained in that Knowledge skill.

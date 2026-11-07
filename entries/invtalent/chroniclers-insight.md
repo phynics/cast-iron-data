@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Chronicler's Insight (Ex)&FN&**
+**Chronicler's Insight (Ex)**
 
 **Ability:** Upon studying a Pathfinder Chronicle, the investigator can expend one use of
 _inspiration_ to apply the volume's benefits for a number of hours equal to his Intelligence

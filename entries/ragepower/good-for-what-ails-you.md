@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Good for What Ails You (Ex)&FN&**
+**Good for What Ails You (Ex)**
 
 **Ability:** While _raging,_ the barbarian who takes a drink of alcohol may attempt a new saving
 throw against one of the following conditions that may be affecting her: blinded, confused, dazzled,

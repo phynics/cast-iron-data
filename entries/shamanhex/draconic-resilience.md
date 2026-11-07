@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Draconic Resilience (Ex)&FN&**
+**Draconic Resilience (Ex)**
 
 **Ability:** The shaman grants a creature she touches some of the magically resilient nature of
 dragons, causing the creature to be immune to magical sleep effects for a number of rounds equal to

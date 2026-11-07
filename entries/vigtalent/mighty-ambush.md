@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mighty Ambush (Ex)&FN&**
+**Mighty Ambush (Ex)**
 
 **Ability:** Once per round, when the vigilante succeeds at a _hidden strike,_ he can instantly drop
 the damaged enemy [unconscious](ref/misc/unconscious) for 1d4 rounds. A successful Fortitude saving

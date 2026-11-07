@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Prophecy (Su)&FN&**
+**Prophecy (Su)**
 
 **Ability:** The witch can call on her prophetic ancestors and cast
 [divination](ref/spell/divination) once per day. She can spend a full hour casting the spell in

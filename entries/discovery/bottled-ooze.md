@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bottled Ooze&FN&**
+**Bottled Ooze**
 
 **Ability:** The alchemist has learned how to preserve a sample of oozes in a sealed bottle, which
 he can prepare for use as an extract. When the alchemist activates the extract, he actually throws

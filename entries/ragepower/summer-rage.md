@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Summer Rage (Su)&FN&**
+**Summer Rage (Su)**
 
 **Ability:** A creature within the barbarian's reach becomes [fatigued](ref/misc/fatigued) as long
 as it remains within the barbarian's reach unless it succeeds at a Fortitude save (DC = 10 + half

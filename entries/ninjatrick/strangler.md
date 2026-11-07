@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Strangler (Ex)&FN&**
+**Strangler (Ex)**
 
 **Ability:** A ninja with this trick knows how to use a scarf, usually with a coin or large knot, as
 a lethal [garrote](ref/eq-weapon/garrote). The ninja takes no penalties when using a scarf as an

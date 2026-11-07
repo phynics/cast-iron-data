@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Phrenic Strike (Su)&FN&**
+**Phrenic Strike (Su)**
 
 **Ability:** As long as the psychic has at least 1 point in her phrenic pool, she can attempt an
 unarmed strike in place of a touch attack as part of casting a spell with a range of touch. This

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Scar (Su)&FN&**
+**Scar (Su)**
 
 **Ability:** This hex curses a single target touched with horrible scars of the witch's choosing,
 whether something as simple as a single letter on the target's forehead or blotchy, burn-like scars

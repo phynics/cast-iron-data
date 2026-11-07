@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Climb (Ex)&FN&**
+**Climb (Ex)**
 
 **Ability:** An eidolon becomes a skilled climber, gaining a climb speed equal to its base speed.
 

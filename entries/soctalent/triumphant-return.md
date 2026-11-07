@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Triumphant Return (Ex)&FN&**
+**Triumphant Return (Ex)**
 
 **Ability:** In any settlement where the vigilante previously gained _renown,_ it takes only 3 days,
 rather than 1 week, to gain _renown_ again.

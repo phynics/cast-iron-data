@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&One Touch (Ex)&FN&**
+**One Touch (Ex)**
 
 **Prereq:** 12th-level monk
 

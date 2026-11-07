@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Witch's Charge (Su)&FN&**
+**Witch's Charge (Su)**
 
 **Ability:** Once per day when preparing spells, a witch can designate a willing creature as her
 _charge._ She gains a constant [status](ref/spell/status) effect on this creature and can target it

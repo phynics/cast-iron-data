@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Burrow (Ex)&FN&**
+**Burrow (Ex)**
 
 **Ability:** An eidolon grows thick and gnarled claws, allowing it to move through the earth. The
 eidolon gains a burrow speed equal to 1/2 its base speed. It can use this speed to move through

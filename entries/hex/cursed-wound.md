@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cursed Wound&FN&**
+**Cursed Wound**
 
 **Ability:** For a number of days equal to 3 + the witch's Intelligence modifier (minimum 1),
 whenever the victim is the target of a conjuration (healing) spell or magical healing effect, the

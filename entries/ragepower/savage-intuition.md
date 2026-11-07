@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Savage Intuition&FN&**
+**Savage Intuition**
 
 **Ability:** When combat begins, if you have rounds of _rage_ remaining, you may automatically enter
 a _rage_ without using an action at the start of the first round of combat (or at the start of the

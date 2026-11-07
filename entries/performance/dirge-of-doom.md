@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dirge of Doom (Su)&FN&**
+**Dirge of Doom (Su)**
 
 **At 8th Level:** A bard can use his performance to foster a sense of growing dread in his enemies,
 causing them to become [shaken](ref/misc/shaken). To be affected, an enemy must be within 30 feet

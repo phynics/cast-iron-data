@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bitter Pill&FN&**
+**Bitter Pill**
 
 **Passive:** The alchemist becomes bitter in flavor. Any creature that hits the bitter alchemist
 with a bite attack gains the [sickened](ref/misc/sickened) condition for 1 round unless it succeeds

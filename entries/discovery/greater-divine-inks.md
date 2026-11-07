@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Divine Inks&FN&**
+**Greater Divine Inks**
 
 **Ability:** The alchemist's unique dyes allow him to create lifelike images. If he expends an
 additional daily use of his bombs, the image he creates with the divine inks discovery also produces

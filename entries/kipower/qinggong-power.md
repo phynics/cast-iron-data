@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Qinggong Power (Su)&FN&**
+**Qinggong Power (Su)**
 
 **Ability:** A monk with this power selects any of the [qinggong monk](ref/arc-monk/qinggong-monk)
 ki powers for which he qualifies based on his monk level.

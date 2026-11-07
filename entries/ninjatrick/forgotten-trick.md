@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Forgotten Trick (Ex)&FN&**
+**Forgotten Trick (Ex)**
 
 **Ability:** When she uses this ability, she selects one ninja trick (not a _master trick_ or _rogue
 talent_) that she does not know and can use that ninja trick for a number of rounds equal to her

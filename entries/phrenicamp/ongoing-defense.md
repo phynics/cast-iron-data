@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ongoing Defense (Su)&FN&**
+**Ongoing Defense (Su)**
 
 **Ability:** The psychic can increase the duration of spells that improve her psychic defenses. She
 can spend 1 point from her phrenic pool when she casts any

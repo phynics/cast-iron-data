@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Contagious Rage (Su)&FN&**
+**Contagious Rage (Su)**
 
 **Ability:** Willing animals and magical beasts within 30 feet of the barbarian gain the benefits of
 the [rage](ref/spell/rage) spell for as long as she maintains her _rage._ After the barbarian's

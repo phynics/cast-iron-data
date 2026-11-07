@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychosomatic Surge&FN&**
+**Psychosomatic Surge**
 
 **Ability:** The mesmerist can trigger this trick when the subject takes damage. The subject gains a
 number of [temporary hit points](ref/rule/temporary-hit-points) equal to 1d8 + 1/2 the mesmerist's

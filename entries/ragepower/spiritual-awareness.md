@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spiritual Awareness&FN&**
+**Spiritual Awareness**
 
 **Passive:** While _raging,_ the barbarian's dodge bonus to AC from _trap sense_ applies against
 attacks made by incorporeal creatures.

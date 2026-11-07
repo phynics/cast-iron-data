@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Idealize (Su)&FN&**
+**Idealize (Su)**
 
 **Flavor:** In your quest for self-perfection, you have discovered a way to further enhance yourself
 and others.

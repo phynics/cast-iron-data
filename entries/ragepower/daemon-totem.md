@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Daemon Totem (Su)&FN&**
+**Daemon Totem (Su)**
 
 **Ability:** While the barbarian is _raging,_ her melee attacks impose a temporary
 [negative level](ref/rule/energy-drain-and-negative-levels) on her opponent on a successful critical

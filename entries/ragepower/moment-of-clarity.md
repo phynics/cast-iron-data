@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Moment of Clarity (Ex)&FN&**
+**Moment of Clarity (Ex)**
 
 **Swift:** The barbarian does not gain any benefits or take any of the penalties from _rage_ for 1
 round. This includes the penalty to Armor Class and the restriction on what actions can be

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Developed Poison Immunity (Ex)&FN&**
+**Developed Poison Immunity (Ex)**
 
 **Choice:** When this talent is taken, select a single animal or plant poison that the rogue has
 been poisoned with but survived.

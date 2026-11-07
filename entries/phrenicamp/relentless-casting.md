@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Relentless Casting (Su)&FN&**
+**Relentless Casting (Su)**
 
 **Ability:** The psychic can spend 1 point from her phrenic pool to roll twice on any caster level
 checks to overcome [spell resistance](ref/rule/spell-resistance) required for the linked spell and

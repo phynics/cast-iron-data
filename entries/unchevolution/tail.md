@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tail (Ex)&FN&**
+**Tail (Ex)**
 
 **Ability:** The eidolon grows a long, powerful tail. This grants it a +2 racial bonus on Acrobatics
 checks to balance on a surface.

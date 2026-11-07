@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cognatogen&FN&**
+**Cognatogen**
 
 **Ability:** The alchemist gains the ability to create a _cognatogen,_ a _mutagen_-like mixture that
 heightens one mental ability score at the expense of a physical ability score. If the _cognatogen_

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Demolition Charge&FN&**
+**Demolition Charge**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it deal damage to an object as
 if by a [sunder](ref/rule/sunder) combat maneuver. If the item is worn or held by an opponent, the

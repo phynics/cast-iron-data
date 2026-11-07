@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ooze Blight&FN&**
+**Ooze Blight**
 
 **Ability:** A target hit by the alchemist's bomb loses the [split](ref/umr/split) special quality
 for 1d4 rounds. In addition, against creatures with the ooze type, this bomb deals untyped damage

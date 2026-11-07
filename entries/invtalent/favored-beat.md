@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Favored Beat (Ex)&FN&**
+**Favored Beat (Ex)**
 
 **Ability:** She gains the [renown](ref/soctalent/renown) vigilante social talent. This community
 can be an entire settlement or portions of a settlement (such as a particular district or

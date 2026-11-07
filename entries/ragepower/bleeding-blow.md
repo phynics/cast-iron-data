@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bleeding Blow (Ex)&FN&**
+**Bleeding Blow (Ex)**
 
 **Passive:** When she uses her _powerful blow_ rage power, the barbarian also deals
 [bleed](ref/rule/bleed) damage equal to her bonus damage with the _powerful blow._ This bleed damage

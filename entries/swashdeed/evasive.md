@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Evasive (Ex)&FN&**
+**Evasive (Ex)**
 
 **Passive:** While a swashbuckler has at least 1 panache point, she gains the benefits of the
 [evasion](ref/ability/evasion), [uncanny dodge](ref/ability/uncanny-dodge), and

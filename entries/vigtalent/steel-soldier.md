@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Steel Soldier (Ex)&FN&**
+**Steel Soldier (Ex)**
 
 **Ability:** The vigilante can spend 1 day and 100 gp per class level modifying a set of armor with
 which he is proficient. The vigilante can conceal one set of unworn modified armor on his person as

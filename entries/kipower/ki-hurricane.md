@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Hurricane (Ex)&FN&**
+**Ki Hurricane (Ex)**
 
 **Fullround:** A monk with this ability can move up to twice his speed. At any point in that
 movement, the monk can spend 1 ki point to make the first attack in his _flurry of blows._ He can

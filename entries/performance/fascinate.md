@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fascinate (Su)&FN&**
+**Fascinate (Su)**
 
 **Action:** At 1st Level
 

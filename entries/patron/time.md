@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Time&FN&**
+**Time**
 
 **Info:** The Time patron grants the following spells at the listed witch levels.
 

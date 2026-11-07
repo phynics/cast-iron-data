@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Multitalented (Ex)&FN&**
+**Greater Multitalented (Ex)**
 
 **Ability:** A rogue with this talent can use the _multitalented_ rogue talent to gain additional
 uses of _advanced talents._

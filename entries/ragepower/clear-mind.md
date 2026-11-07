@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Clear Mind (Ex)&FN&**
+**Clear Mind (Ex)**
 
 **Immediate:** A barbarian may reroll a failed Will save. This power is used after the first save is
 attempted, but before the results are revealed by the GM. The barbarian must take the second result,

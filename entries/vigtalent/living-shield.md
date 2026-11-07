@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Living Shield (Ex)&FN&**
+**Living Shield (Ex)**
 
 **Immediate:** Whenever the vigilante is grappling a creature and is targeted by an attack, he can
 attempt a combat maneuver check against the target of his [grapple](ref/rule/grapple) (this combat

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Cognatogen&FN&**
+**Greater Cognatogen**
 
 **Passive:** The alchemist's _mutagen_ now grants a +4 natural armor bonus, a +6 alchemical bonus to
 one mental ability score (Intelligence, Wisdom, or Charisma), and a +4 alchemical bonus to a second

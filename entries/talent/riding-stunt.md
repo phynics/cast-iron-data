@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Riding Stunt (Ex)&FN&**
+**Riding Stunt (Ex)**
 
 **Ability:** A rogue with this talent takes only a -2 penalty on [Ride](ref/skill/ride) checks when
 riding a mount bareback instead of the normal -5 penalty.

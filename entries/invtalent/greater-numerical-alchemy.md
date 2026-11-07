@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Numerical Alchemy (Su)&FN&**
+**Greater Numerical Alchemy (Su)**
 
 **Ability:** He can expend a use of _inspiration_ to mix an extract as a **standard action**.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Devilbane Dampening&FN&**
+**Devilbane Dampening**
 
 **Info:** The _hypnotic stare_ penalty also applies to the target's resistance to a single form of
 energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of

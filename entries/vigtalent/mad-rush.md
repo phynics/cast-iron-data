@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mad Rush (Ex)&FN&**
+**Mad Rush (Ex)**
 
 **Ability:** Whenever the vigilante [charges](ref/rule/charge), he can make a full attack. Whenever
 he uses this ability, he takes a -4 penalty to his AC until the start of his next turn (in addition

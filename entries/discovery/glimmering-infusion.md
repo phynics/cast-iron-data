@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Glimmering Infusion&FN&**
+**Glimmering Infusion**
 
 **Ability:** The alchemist can expend any prepared extract to produce a cube of glowing motes that
 act as per [glitterdust](ref/spell/glitterdust). The area must be adjacent to the alchemist and

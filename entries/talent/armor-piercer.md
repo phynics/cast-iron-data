@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Armor Piercer (Ex)&FN&**
+**Armor Piercer (Ex)**
 
 **Ability:** When she hits with an attack that deals sneak attack damage, she can forgo one or more
 of her sneak attack dice to reduce the target's natural armor bonus by that amount (minimum natural

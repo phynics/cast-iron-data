@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Synaptic Shock (Su)&FN&**
+**Synaptic Shock (Su)**
 
 **Ability:** She can spend 1 point from her phrenic pool when casting a mind-affecting linked spell
 to select one of the spell's targets. If the target is affected by the linked spell, that target is

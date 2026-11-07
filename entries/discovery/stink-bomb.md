@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stink Bomb&FN&**
+**Stink Bomb**
 
 **Ability:** The effects of the smoke created by an alchemist's bomb can duplicate the effects of
 [stinking cloud](ref/spell/stinking-cloud) instead of [fog cloud](ref/spell/fog-cloud), filling an

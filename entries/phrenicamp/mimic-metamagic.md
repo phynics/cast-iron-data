@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mimic Metamagic (Ex)&FN&**
+**Mimic Metamagic (Ex)**
 
 **Ability:** When she casts a spell, she can spend points from her phrenic pool to apply one of the
 chosen feats to the linked spell without increasing the spell's level or casting time. She must

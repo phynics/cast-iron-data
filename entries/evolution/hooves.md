@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hooves (Ex)&FN&**
+**Hooves (Ex)**
 
 **Ability:** An eidolon has a pair of sharp hooves at the end of its limbs, giving it two
 [hoof attacks](ref/umr/natural-attacks). These attacks are secondary attacks. The hooves deal 1d4

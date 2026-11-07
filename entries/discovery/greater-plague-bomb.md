@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Plague Bomb&FN&**
+**Greater Plague Bomb**
 
 **Ability:** The effects of the smoke created by an alchemist's bomb duplicates the effects of
 [greater contagion](ref/spell/contagion-greater) instead of [fog cloud](ref/spell/fog-cloud),

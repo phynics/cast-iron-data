@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Reflect Fear&FN&**
+**Reflect Fear**
 
 **Ability:** The mesmerist can trigger this trick when the subject is affected by a fear effect or
 is the target of an Intimidate check to demoralize it. When the trick is triggered, the subject

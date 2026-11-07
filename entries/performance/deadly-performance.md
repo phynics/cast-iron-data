@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Performance (Su)&FN&**
+**Deadly Performance (Su)**
 
 **At 20th Level:** A bard can use his performance to cause one enemy to die from joy or sorrow. To
 be affected, the target must be able to see and hear the bard perform for 1 full round and be within

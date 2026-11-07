@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Biokinetic Healing (Su)&FN&**
+**Biokinetic Healing (Su)**
 
 **Ability:** When the psychic casts a linked spell from the transmutation school, she can spend 1
 point from her phrenic pool to regain 2 hit points per level of the linked spell.

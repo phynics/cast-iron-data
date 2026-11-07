@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elemental Mutagen&FN&**
+**Elemental Mutagen**
 
 **Choice:** The alchemist chooses an element (air, earth, fire, or water).
 

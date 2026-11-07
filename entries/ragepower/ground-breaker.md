@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ground Breaker (Ex)&FN&**
+**Ground Breaker (Ex)**
 
 **Prereq:** 6th-level barbarian
 

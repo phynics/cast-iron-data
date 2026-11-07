@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Delayed Bomb&FN&**
+**Delayed Bomb**
 
 **Ability:** The alchemist can place a bomb so that it explodes a number of rounds after the
 alchemist ceases contact with the bomb. This delay can be any number of rounds as chosen by the

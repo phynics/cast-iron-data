@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Accuracy (Ex)&FN&**
+**Deadly Accuracy (Ex)**
 
 **Ability:** If the barbarian scores a critical threat when using her _surprise accuracy_ rage
 power, she applies double the surprise accuracy bonus when rolling to confirm the critical.

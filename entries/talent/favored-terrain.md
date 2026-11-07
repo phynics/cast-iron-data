@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Favored Terrain (Ex)&FN&**
+**Favored Terrain (Ex)**
 
 **Ability:** The rogue selects one terrain from the ranger's
 [favored terrain](ref/ability/favored-terrain) list; she gains this as a _favored terrain,_ as the

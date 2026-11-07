@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slinger's Luck (Ex)&FN&**
+**Slinger's Luck (Ex)**
 
 **Ability:** The gunslinger can spend grit to reroll a saving throw or a skill check. It costs 2
 grit points to reroll a saving throw, and 1 grit point to reroll a skill check. The gunslinger must

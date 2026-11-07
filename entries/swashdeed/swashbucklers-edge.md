@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swashbuckler's Edge (Ex)&FN&**
+**Swashbuckler's Edge (Ex)**
 
 **Ability:** While the swashbuckler has at least 1 panache point, she can take 10 on any Acrobatics,
 Climb, Escape Artist, Fly, Ride, or Swim check, even while distracted or in immediate danger.

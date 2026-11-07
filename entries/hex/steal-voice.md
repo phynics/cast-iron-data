@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Steal Voice (Su)&FN&**
+**Steal Voice (Su)**
 
 **Ability:** The witch can steal the voice of one creature within 30 feet, causing it to lose, for a
 number of rounds equal to the witch's Intelligence bonus, all abilities that rely on speech,

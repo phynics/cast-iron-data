@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Expert Cypher (Ex)&FN&**
+**Expert Cypher (Ex)**
 
 **Ability:** A rogue with this ability can attempt a Linguistics check to decipher a single page of
 text as a **full-round action** instead of taking 1 minute as normal.

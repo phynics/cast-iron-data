@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bonded Mask&FN&**
+**Bonded Mask**
 
 **Ability:** Your devotion to the Forgotten Pharaoh enables you to select a mask - typically an
 Osirian funerary mask - as your bonded item. The mask must be worn to have effect, and occupies the

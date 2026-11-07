@@ -924,6 +924,7 @@ his favored weapon border on the obsessive, but none can deny his consummate ski
 |[Weapon Bearer Squire](ref/arc-fighter/weapon-bearer-squire)|||X||||||X|X||||||||||||||||||||
 |[Weapon Master](ref/arc-fighter/weapon-master)||X|||||X|||||||||||||X|||X|||||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for fighter are listed on the separate class options page._
+_The favored class options for fighter are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

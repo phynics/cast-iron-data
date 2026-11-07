@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Underwater Demolition&FN&**
+**Underwater Demolition**
 
 **Ability:** The alchemist gains the ability to throw bombs underwater (normally, thrown weapons
 cannot be used underwater), including throwing from the air into the water. If the bomb travels

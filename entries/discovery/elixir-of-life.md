@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elixir of Life&FN&**
+**Elixir of Life**
 
 **Ability:** Once per day, the alchemist can brew an _elixir of life._ This special concoction costs
 25,000 gp to create and takes 1 hour of work. An _elixir of life,_ when administered by the

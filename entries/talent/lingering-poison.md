@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lingering Poison (Ex)&FN&**
+**Lingering Poison (Ex)**
 
 **Ability:** A rogue with this talent can have a poison remain inert until a later time. When she
 delivers a contact or injury poison, instead of the poison's normal onset time, the rogue can delay

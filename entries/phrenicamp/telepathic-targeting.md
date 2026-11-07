@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Telepathic Targeting (Su)&FN&**
+**Telepathic Targeting (Su)**
 
 **Ability:** By spending 2 points from her phrenic pool, the psychic can target any creature with
 which she is in telepathic communication (whether via her

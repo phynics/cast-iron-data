@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Witch's Bottle (Su)&FN&**
+**Witch's Bottle (Su)**
 
 **Ability:** Once per day, the witch can perform a 10-minute ritual to create a potion imbued with
 the power of one of her hexes. Any creature that consumes this potion is affected by the hex as if

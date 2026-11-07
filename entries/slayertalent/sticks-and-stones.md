@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sticks and Stones (Ex)&FN&**
+**Sticks and Stones (Ex)**
 
 **Ability:** The slayer gains [Catch Off-Guard](ref/feat/catch-off-guard) as a bonus feat.

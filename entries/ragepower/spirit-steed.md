@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spirit Steed (Su)&FN&**
+**Spirit Steed (Su)**
 
 **Passive:** While _raging_ and mounted, the barbarian's mount gains DR/magic equal to 1/2 the
 barbarian's level. The mount's natural weapons count as magical for the purpose of overcoming

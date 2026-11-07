@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Web (Ex)&FN&**
+**Web (Ex)**
 
 **Ability:** An eidolon gains a pair of spinnerets, giving it the ability to spin webs. The eidolon
 can use these webs to support itself plus up to one creature of the same size.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Empath&FN&**
+**Empath**
 
 **Ability:** You gain the [tongues](ref/hex/tongues) hex at 1st level
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Reckless Abandon (Ex)&FN&**
+**Reckless Abandon (Ex)**
 
 **Ability:** While _raging,_ the barbarian can take a penalty to AC to gain a bonus on attack rolls.
 The penalty and bonus are both equal to 1 + [one-fourth](ref/misc/fractions-and-rounding) of her

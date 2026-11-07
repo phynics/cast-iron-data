@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pressure Points (Su)&FN&**
+**Pressure Points (Su)**
 
 **Ability:** Whenever the ninja deals sneak attack damage, she also deals 1 point of
 [Strength or Dexterity damage](ref/rule/ability-damage-drain), decided by the ninja.

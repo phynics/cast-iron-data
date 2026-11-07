@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Environmental Weapon (Ex)&FN&**
+**Environmental Weapon (Ex)**
 
 **Choice:** When the vigilante gains this talent, he must select one type of terrain from the
 ranger's list of [favored terrains](ref/ability/favored-terrain).

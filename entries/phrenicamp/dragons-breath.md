@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dragon's Breath (Su)&FN&**
+**Dragon's Breath (Su)**
 
 **Ability:** The psychic can spend 2 points from her phrenic pool to change a linked spell that has
 a line or burst area of effect into a 30-foot cone that emanates from the psychic's mouth as a

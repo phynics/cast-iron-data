@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Devilbane Binding&FN&**
+**Devilbane Binding**
 
 **Info:** The _hypnotic stare_ penalty also applies to all Charisma checks to escape
 [planar binding](ref/spell/planar-binding) spells, and applies to the target's

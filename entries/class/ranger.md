@@ -1074,6 +1074,7 @@ existence.
 |[Witchguard](ref/arc-ranger/witchguard)|||X||||X||||||||||||X||||X|||||X|
 |[Yokai Hunter](ref/arc-ranger/yokai-hunter)||X||||||||X||||||||||||||||||X|
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for ranger are listed on the separate class options page._
+_The favored class options for ranger are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

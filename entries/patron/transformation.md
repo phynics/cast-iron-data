@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Transformation&FN&**
+**Transformation**
 
 **Info:** The Transformation patron grants the following spells at the listed witch levels.
 

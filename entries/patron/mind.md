@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mind&FN&**
+**Mind**
 
 **Info:** The Mind patron grants the following spells at the listed witch levels.
 

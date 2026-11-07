@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Increased Damage Reduction (Ex)&FN&**
+**Increased Damage Reduction (Ex)**
 
 **Passive:** The barbarian's [damage reduction](ref/rule/damage-reduction) increases by 1/-. This
 increase is always active while the barbarian is _raging._

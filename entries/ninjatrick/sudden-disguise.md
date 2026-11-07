@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sudden Disguise (Su)&FN&**
+**Sudden Disguise (Su)**
 
 **Swift:** A ninja can change her appearance for 1 minute per level. This ability functions as
 [disguise self](ref/spell/disguise-self). Each use of this ability uses up 1 ki point.

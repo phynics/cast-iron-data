@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Timidity&FN&**
+**Timidity**
 
 **Info:** The _hypnotic stare_ penalty also applies to damage rolls.

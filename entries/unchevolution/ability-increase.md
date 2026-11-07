@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ability Increase (Ex)&FN&**
+**Ability Increase (Ex)**
 
 **Passive:** The eidolon grows larger muscles, gains faster reflexes, achieves greater intelligence,
 or acquires another increase to one of its abilities. Increase one of the eidolon's ability scores

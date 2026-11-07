@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Moon Totem (Su)&FN&**
+**Lesser Moon Totem (Su)**
 
 **Ability:** While _raging,_ the barbarian gains [darkvision](ref/rule/darkvision) with a range of
 30 feet. If the barbarian already has darkvision, the range of her darkvision increases by 30 feet

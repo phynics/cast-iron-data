@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hive Totem (Su)&FN&**
+**Hive Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian takes half damage from attacks by swarms of vermin,
 including spells and effects that act like a swarm of vermin (like

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unbound Steps (Su)&FN&**
+**Unbound Steps (Su)**
 
 **Ability:** Whenever the ninja uses the _light steps_ class feature, she can walk on air, rising or
 descending as she desires. She must end her move on a solid surface.

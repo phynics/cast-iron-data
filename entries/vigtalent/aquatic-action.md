@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Aquatic Action (Ex)&FN&**
+**Aquatic Action (Ex)**
 
 **Ability:** The vigilante uses weapons, natural weapons, and unarmed strikes in aquatic
 environments as though under the effect of [freedom of movement](ref/spell/freedom-of-movement),

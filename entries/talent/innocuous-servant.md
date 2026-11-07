@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Innocuous Servant (Ex)&FN&**
+**Innocuous Servant (Ex)**
 
 **Flavor:** The rogue is an expert at appearing to be an unimportant servant, be it an
 attach&eacute&, bodyguard, driver, maid, kitchen assistant, or similar staff member.

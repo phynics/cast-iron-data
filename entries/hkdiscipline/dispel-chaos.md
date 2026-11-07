@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dispel Chaos (Sp)&FN&**
+**Dispel Chaos (Sp)**
 
 **Ability:** The Hellknight can use [dispel chaos](ref/spell/dispel-chaos) as a
 [spell-like ability](ref/umr/spell-like-abilities), using her character level as her caster level.

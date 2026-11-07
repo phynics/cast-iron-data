@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Confounding Blades (Ex)&FN&**
+**Confounding Blades (Ex)**
 
 **Ability:** When a rogue with this talent hits a creature with a melee weapon that deals sneak
 attack damage, her target cannot make attacks of opportunity for 1d4+1 rounds.

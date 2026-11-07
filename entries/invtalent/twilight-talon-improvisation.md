@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Twilight Talon Improvisation (Ex)&FN&**
+**Twilight Talon Improvisation (Ex)**
 
 **Free:** Whenever the investigator deals _studied strike_ damage with an
 [improvised weapon](ref/misc/improvised-weapons), she can perform a

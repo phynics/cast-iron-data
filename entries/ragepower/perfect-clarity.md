@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Perfect Clarity (Ex)&FN&**
+**Perfect Clarity (Ex)**
 
 **Ability:** While using her _moment of clarity_ rage power, the barbarian can roll twice for any
 miss chance or Will saving throws to disbelieve illusions, taking the better result.

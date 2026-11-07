@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Any Guise (Su)&FN&**
+**Any Guise (Su)**
 
 **Ability:** A vigilante can use his _everyman_ social talent to disguise himself as any specific
 person, even a king or high priest. Furthermore, if the actual individual wouldn't normally be able

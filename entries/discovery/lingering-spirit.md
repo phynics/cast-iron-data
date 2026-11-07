@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lingering Spirit&FN&**
+**Lingering Spirit**
 
 **Flavor:** The alchemist is familiar enough with the ties between his body and spirit that he
 lingers at death's door far longer than a normal person.

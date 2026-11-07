@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Furious Defense (Ex)&FN&**
+**Furious Defense (Ex)**
 
 **Immediate:** By spending 1 ki point, a monk with this ki power can grant himself a +4 dodge bonus
 to AC until the end of his next turn.

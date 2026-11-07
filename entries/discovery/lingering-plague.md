@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lingering Plague&FN&**
+**Lingering Plague**
 
 **Passive:** Any creature that must make a save against a disease caused by the alchemist's extract
 or other class ability must make a second save 1 round later to avoid doubling the duration of the

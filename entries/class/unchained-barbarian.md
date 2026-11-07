@@ -600,6 +600,7 @@ when no other option is available.
 |[Untamed Rager](ref/arc-barbarian/untamed-rager)|||X|||||||||||||||X|X|X||
 |[Wildborn](ref/arc-barbarian/wildborn)|||X|||X||||||||||||X|||X|
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for unchained\_barbarian are listed on the separate class options page._
+_The favored class options for unchained\_barbarian are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

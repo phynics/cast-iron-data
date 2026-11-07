@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Ferocious Trample (Ex)&FN&**
+**Greater Ferocious Trample (Ex)**
 
 **Ability:** A barbarian's mount can affect creatures up to its own size with its _ferocious
 trample._ In addition, it can make an [overrun](ref/rule/overrun) combat maneuver check as a **free

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Overbearing Onslaught (Ex)&FN&**
+**Overbearing Onslaught (Ex)**
 
 **Ability:** While _raging,_ the barbarian may [overrun](ref/rule/overrun) more than one target per
 round, with a -2 penalty on her CMB for each overrun check after the first.

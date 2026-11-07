@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quick Shot (Ex)&FN&**
+**Quick Shot (Ex)**
 
 **Ability:** Whenever the rogue rolls initiative, she can also make a single attack with a ranged
 weapon as a **swift action**. She can use this ability only if she has a weapon in hand and it is

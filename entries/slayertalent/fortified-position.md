@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fortified Position (Ex)&FN&**
+**Fortified Position (Ex)**
 
 **Passive:** Whenever the slayer gains a bonus on Reflex saves due to cover, she gains an equal
 bonus on Fortitude saves.

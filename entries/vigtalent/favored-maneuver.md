@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Favored Maneuver (Ex)&FN&**
+**Favored Maneuver (Ex)**
 
 **Ability:** The vigilante selects one type of [combat maneuver](ref/rule/combat-maneuvers) to be a
 _favored maneuver._ He gains the Improved feat corresponding to that combat maneuver (if one

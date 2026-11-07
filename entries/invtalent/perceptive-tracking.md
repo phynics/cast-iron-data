@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Perceptive Tracking (Ex)&FN&**
+**Perceptive Tracking (Ex)**
 
 **Passive:** The investigator can use Perception instead of [Survival](ref/skill/survival) to both
 find and follow tracks, using the same DCs listed under the Survival skill.

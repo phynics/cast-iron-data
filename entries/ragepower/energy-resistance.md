@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Energy Resistance (Ex)&FN&**
+**Energy Resistance (Ex)**
 
 **Passive:** While _raging,_ the barbarian gains [resistance](ref/umr/resistance) to one energy type
 (acid, cold, electricity, fire, or sonic) equal to 1/2 her barbarian level (minimum 1).

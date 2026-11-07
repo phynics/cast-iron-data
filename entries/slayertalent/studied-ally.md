@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Studied Ally (Ex)&FN&**
+**Studied Ally (Ex)**
 
 **At 7th Level:** A slayer can study an ally as a move or **swift action**.
 

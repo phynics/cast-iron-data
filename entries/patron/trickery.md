@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Trickery&FN&**
+**Trickery**
 
 **Info:** The Trickery patron grants the following spells at the listed witch levels.
 

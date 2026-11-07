@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Visions (Su)&FN&**
+**Ki Visions (Su)**
 
 **Ability:** On any given night during which the monk dreams, he can use this ability to gain the
 benefits of a [divination](ref/spell/divination). If he does, he spends 2 ki points from the next

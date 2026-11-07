@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vestigial Arm&FN&**
+**Vestigial Arm**
 
 **Ability:** The alchemist gains a new arm (left or right) on his torso. The arm is fully under his
 control and cannot be concealed except with magic or bulky clothing.

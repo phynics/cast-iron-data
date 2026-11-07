@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tanglefoot Bomb&FN&**
+**Tanglefoot Bomb**
 
 **Ability:** A creature that takes a direct hit from a _tanglefoot bomb_ must save against the
 bomb's DC or be [entangled](ref/rule/entangled) and glued to the floor as if it had failed its save

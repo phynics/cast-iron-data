@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Alien Consciousness (Ex)&FN&**
+**Alien Consciousness (Ex)**
 
 **Flavor:** The eidolon's mind is dangerously incomprehensible to mortals who contact it.
 

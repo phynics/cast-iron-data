@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow Blend (Su)&FN&**
+**Shadow Blend (Su)**
 
 **Passive:** In any condition of [illumination](ref/rule/vision-and-light) other than bright light,
 the eidolon disappears into the shadows, giving it [concealment](ref/rule/concealment) (20% miss

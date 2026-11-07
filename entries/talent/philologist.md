@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Philologist&FN&**
+**Philologist**
 
 **Ability:** A rogue with this talent can reroll any [Linguistics](ref/skill/linguistics) skill
 check made to decipher writing in an unfamiliar language, and never risks drawing a false conclusion

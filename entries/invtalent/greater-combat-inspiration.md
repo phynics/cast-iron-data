@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Combat Inspiration (Ex)&FN&**
+**Greater Combat Inspiration (Ex)**
 
 **Choice:** Choose a single weapon type (such as [sword cane](ref/eq-weapon/sword-cane) or
 [short sword](ref/eq-weapon/short-sword)). As long as the investigator has at least 1 inspiration

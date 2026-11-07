@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Undetected Sabotage (Ex)&FN&**
+**Undetected Sabotage (Ex)**
 
 **Ability:** Whenever a ninja with this trick uses [Disable Device](ref/skill/disable-device) to
 sabotage or disable a device, she can make a [Stealth](ref/skill/stealth) check with a bonus equal

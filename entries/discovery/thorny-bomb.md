@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Thorny Bomb&FN&**
+**Thorny Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it deal piercing damage.
 _Thorny bombs_ count as magic weapons for the purpose of overcoming

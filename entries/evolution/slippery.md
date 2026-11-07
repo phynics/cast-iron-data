@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slippery (Ex)&FN&**
+**Slippery (Ex)**
 
 **Passive:** Due to its slimy hide or a slick exoskeleton, the eidolon is especially slippery. The
 eidolon gains a +4 bonus to CMD to escape a grapple and on Escape Artist checks.

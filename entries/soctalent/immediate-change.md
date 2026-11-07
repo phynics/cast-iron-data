@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Immediate Change (Ex)&FN&**
+**Immediate Change (Ex)**
 
 **Ability:** The vigilante can change identities as a **move action**, and he no longer needs to
 spend extra time to adjust his appearance and persona.

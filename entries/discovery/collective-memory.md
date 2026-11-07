@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Collective Memory&FN&**
+**Collective Memory**
 
 **Ability:** While under the effects of a _cognatogen,_ the alchemist adds half his class level on
 all Knowledge skill checks and may attempt all Knowledge skill checks untrained.

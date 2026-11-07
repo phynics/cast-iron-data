@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Throat Jab (Ex)&FN&**
+**Throat Jab (Ex)**
 
 **Ability:** The vigilante's _hidden strike_ jabs his opponent in the throat, preventing that
 opponent from speaking until the vigilante's next turn. (If the vigilante uses this ability on the

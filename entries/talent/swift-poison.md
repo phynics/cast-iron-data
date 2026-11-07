@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swift Poison (Ex)&FN&**
+**Swift Poison (Ex)**
 
 **Ability:** A rogue with this talent can apply poison to a weapon as a **move action**, instead of
 a **standard action**.

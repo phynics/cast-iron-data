@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Chant (Su)&FN&**
+**Chant (Su)**
 
 **Ability:** A shaman can chant as a **move action**. Any creature that is within 30 feet that is
 under the effects of the shaman's [charm](ref/shamanhex/charm), [evil eye](ref/shamanhex/evil-eye),

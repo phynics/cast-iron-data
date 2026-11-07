@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Concentrate Poison&FN&**
+**Concentrate Poison**
 
 **Ability:** The alchemist can combine two doses of the same poison to increase their effects. This
 requires two doses of the poison and 1 minute of concentration. When completed, the alchemist has

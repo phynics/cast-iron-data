@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Superior Sniper&FN&**
+**Superior Sniper**
 
 **Ability:** A rogue who selects this talent gains [Expert Sniper](ref/feat/expert-sniper) as a
 bonus feat. If she already has this feat, she can instead select any feat that lists Expert Sniper

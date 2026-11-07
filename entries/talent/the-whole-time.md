@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&The Whole Time (Su)&FN&**
+**The Whole Time (Su)**
 
 **Action:** Ability
 

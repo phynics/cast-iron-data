@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hidden Home (Sp)&FN&**
+**Hidden Home (Sp)**
 
 **Ability:** The witch can conceal or disguise her home and the area around it as if using
 [mirage arcana](ref/spell/mirage-arcana). Before using the hex, she must spend 1 day pacing out the

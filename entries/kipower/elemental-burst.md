@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elemental Burst (Su)&FN&**
+**Elemental Burst (Su)**
 
 **Ability:** A monk with this ability can spend 4 ki points to unleash a gout of energy in a 30-foot
 cone. Creatures within the cone take 20d6 points of damage of the same type as the monk's _elemental

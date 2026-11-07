@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Celestial Blood (Su)&FN&**
+**Celestial Blood (Su)**
 
 **Passive:** While _raging,_ the barbarian gains [resistance](ref/umr/resistance) 5 to acid and
 cold.

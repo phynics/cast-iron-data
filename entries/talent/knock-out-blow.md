@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Knock-Out Blow (Ex)&FN&**
+**Knock-Out Blow (Ex)**
 
 **Ability:** Once per day, the rogue can forgo her sneak attack damage to attempt to knock out an
 opponent. She must declare the use of _knock-out blow_ before she makes the attack. If the attack

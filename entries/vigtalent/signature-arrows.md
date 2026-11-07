@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Signature Arrows (Ex)&FN&**
+**Signature Arrows (Ex)**
 
 **Ability:** After the first time the vigilante buys a set of 50 pieces of magic ammunition intended
 for the selected type of bow or crossbow, he can pay the construction cost instead of the purchase

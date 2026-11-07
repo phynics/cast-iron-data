@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eater of Magic (Su)&FN&**
+**Eater of Magic (Su)**
 
 **Ability:** Once per _rage,_ when a barbarian fails a saving throw against a spell, supernatural
 ability, or [spell-like ability](ref/umr/spell-like-abilities), she can reroll the saving throw

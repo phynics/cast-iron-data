@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Tyrant Totem (Su)&FN&**
+**Greater Tyrant Totem (Su)**
 
 **Ability:** While _raging,_ the barbarian gains [swallow whole](ref/umr/swallow-whole) as per the
 universal monster rule.

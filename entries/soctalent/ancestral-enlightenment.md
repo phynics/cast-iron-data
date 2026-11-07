@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ancestral Enlightenment (Ex)&FN&**
+**Ancestral Enlightenment (Ex)**
 
 **Ability:** The vigilante can attempt any [Knowledge](ref/skill/knowledge-all) check untrained. If
 he already has ranks in a particular Knowledge skill, he gains a +4 bonus on checks with that skill.

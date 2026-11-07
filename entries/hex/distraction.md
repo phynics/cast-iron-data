@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Distraction (Su)&FN&**
+**Distraction (Su)**
 
 **Ability:** The witch can cause a creature within 30 feet to suffer hallucinatory distractions
 whenever it tries to cast a spell or use a [spell-like ability](ref/umr/spell-like-abilities) for 1

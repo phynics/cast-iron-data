@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Break Stupor&FN&**
+**Break Stupor**
 
 **Ability:** The mesmerist can trigger this trick whenever the subject is under an effect such as
 the [fascinated](ref/misc/fascinated) condition or magical slumber as per the

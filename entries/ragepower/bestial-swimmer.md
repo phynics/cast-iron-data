@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bestial Swimmer (Ex)&FN&**
+**Bestial Swimmer (Ex)**
 
 **Ability:** While _raging,_ the barbarian gains a natural swim speed equal to her normal land
 speed.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gearbreaker (Ex)&FN&**
+**Gearbreaker (Ex)**
 
 **Ability:** Once per round while _raging,_ whenever the barbarian makes an attack against a
 construct, she can ignore an amount of that construct's [hardness](ref/umr/hardness) equal to her

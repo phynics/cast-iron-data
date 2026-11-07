@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Firearm Training (Ex)&FN&**
+**Firearm Training (Ex)**
 
 **Ability:** A rogue with this talent gains
 [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms).

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Double Debilitation (Ex)&FN&**
+**Double Debilitation (Ex)**
 
 **Ability:** Whenever the rogue inflicts a penalty against a target using the _debilitating injury_
 class feature, she can select two penalties to inflict. The target can never be subject to more than

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Returning Weapon (Ex)&FN&**
+**Returning Weapon (Ex)**
 
 **Ability:** Whenever the vigilante uses the chosen type of weapon, it automatically returns as if
 it had the [returning](ref/magic-enh/returning) property.

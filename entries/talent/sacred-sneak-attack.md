@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sacred Sneak Attack (Su)&FN&**
+**Sacred Sneak Attack (Su)**
 
 **Passive:** When making a sneak attack against an undead creature or evil outsider, the rogue's
 sneak attack damage is considered good-aligned for the purpose of overcoming

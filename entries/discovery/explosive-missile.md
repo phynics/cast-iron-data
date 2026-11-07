@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Explosive Missile&FN&**
+**Explosive Missile**
 
 **Prereq:** 4th-level alchemist
 

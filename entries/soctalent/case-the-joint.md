@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Case the Joint (Ex)&FN&**
+**Case the Joint (Ex)**
 
 **Ability:** If he spends at least 1 hour in a location while in his social identity, he can attempt
 a DC 20 Knowledge (engineering) check. If he succeeds, he gains the ability to later reroll any one

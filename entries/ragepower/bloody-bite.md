@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bloody Bite (Ex)&FN&**
+**Bloody Bite (Ex)**
 
 **Passive:** The barbarian's bite attack deals 1d6 points of [bleed](ref/rule/bleed) damage in
 addition to its other effects.

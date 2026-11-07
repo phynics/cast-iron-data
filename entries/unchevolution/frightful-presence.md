@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Frightful Presence (Ex)&FN&**
+**Frightful Presence (Ex)**
 
 **Ability:** The eidolon becomes unsettling to its foes, gaining the
 [frightful presence](ref/umr/frightful-presence) ability. The eidolon can activate this ability as

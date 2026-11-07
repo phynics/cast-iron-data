@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dual Amplification (Ex)&FN&**
+**Dual Amplification (Ex)**
 
 **Ability:** When the psychic uses this major amplification, she chooses two other _amplifications_
 or _major amplifications_ she knows to apply to the same linked spell. She must spend 1 point from

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&The Condition of All&FN&**
+**The Condition of All**
 
 **Ability:** You gain the [scar](ref/hex/scar) hex at 1st level.
 

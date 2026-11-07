@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ameliorating (Su)&FN&**
+**Ameliorating (Su)**
 
 **Ability:** The witch chooses one of the following conditions each time she uses this hex: dazzled,
 fatigued, shaken, or sickened. If the target is or later becomes afflicted with the chosen

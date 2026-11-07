@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shield of Blades (Ex)&FN&**
+**Shield of Blades (Ex)**
 
 **Ability:** He gains [Power Attack](ref/feat/power-attack) as a bonus feat. If he already has the
 Power Attack feat, he can immediately swap it for another feat for which he qualified at the level

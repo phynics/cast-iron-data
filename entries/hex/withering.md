@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Withering (Su)&FN&**
+**Withering (Su)**
 
 **Ability:** The target ages to the next [age category](ref/rule/age) (adult to middle-aged, and so
 on). The witch gains a number of [temporary hit points](ref/rule/temporary-hit-points) equal to

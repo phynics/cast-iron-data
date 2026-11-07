@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slow Reactions (Ex)&FN&**
+**Slow Reactions (Ex)**
 
 **Ability:** Opponents damaged by the rogue's sneak attack can't make attacks of opportunity for 1
 round.

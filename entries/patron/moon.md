@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Moon&FN&**
+**Moon**
 
 **Info:** The Moon patron grants the following spells at the listed witch levels.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fire Brand&FN&**
+**Fire Brand**
 
 **At 10th Level:** The weapon is treated as if it had the
 [flaming burst](ref/magic-enh/flaming-burst) weapon special ability.

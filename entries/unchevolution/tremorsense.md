@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tremorsense (Ex)&FN&**
+**Tremorsense (Ex)**
 
 **Ability:** The eidolon becomes attuned to vibrations in the ground, gaining
 [tremorsense](ref/umr/tremorsense) with a range of 30 feet. This works like the

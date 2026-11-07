@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dead Shot (Ex)&FN&**
+**Dead Shot (Ex)**
 
 **Action:** Full-Round Action
 

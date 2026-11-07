@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hag's Calling&FN&**
+**Hag's Calling**
 
 **Ability:** You gain the [coven](ref/hex/coven) hex at 1st level.
 

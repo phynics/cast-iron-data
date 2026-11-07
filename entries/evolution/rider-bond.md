@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rider Bond (Ex)&FN&**
+**Rider Bond (Ex)**
 
 **Flavor:** You and your eidolon share an empathic connection while you ride it.
 

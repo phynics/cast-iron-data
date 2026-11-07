@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disease Use&FN&**
+**Disease Use**
 
 **Ability:** A rogue with this talent can apply filth from garbage, a sewer, a city street, a
 polluted area, or long-unwashed clothing or fur to a weapon as a **standard action**. Doing so
