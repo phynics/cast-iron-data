@@ -13,25 +13,20 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Bloodrager", level = 4 },
-  { class = "Bard", level = 3 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Occultist", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Spiritualist", level = 4 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Bard", level = 1 },
+  { class = "Medium", level = 1 },
+  { class = "Mesmerist", level = 1 },
+  { class = "Psychic", level = 1 },
+  { class = "Sahirafiyun", level = 1 },
+  { class = "Skald", level = 1 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M/DF (three nutshells)"
-range = "medium (100 ft. + 10 ft./level)"
+components = "V, S, DF"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Targets", value = "all creatures in a 15-ft.-radius burst" },
+  { label = "Target", value = "one living creature" },
 ]
-duration = "1 round/level"
+duration = "1 round"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -39,15 +34,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 3: Bard, Mesmerist, Skald\
-4: Arcanist, Bloodrager, Occultist, Psychic, Sorcerer, Spiritualist, Witch, Wizard
+Level: 1: Bard, Medium, Mesmerist, Psychic, Sahirafiyun, Skald
 Casting time: 1 standard action
-Components: V, S, M/DF (three nutshells)
-Range: medium (100 ft. + 10 ft./level)
-Duration: 1 round/level
+Components: V, S, DF
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one living creature
+Duration: 1 round
 Saving throw: Will negates
 Spell resistance: yes
-Targets: all creatures in a 15-ft.-radius burst
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::

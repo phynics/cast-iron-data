@@ -12,19 +12,17 @@ kind = "spell"
 school = "evocation"
 descriptors = ["sonic"]
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Bloodrager", level = 4 },
-  { class = "Bard", level = 4 },
-  { class = "Magus", level = 4 },
-  { class = "Occultist", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Skald", level = 4 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 8 },
+  { class = "Bard", level = 6 },
+  { class = "Elementalist Wizard", level = 8 },
+  { class = "Psychic", level = 8 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
-components = "V"
-range = "30 ft."
+components = "V, S, F (a metal or ivory horn)"
+range = "60 ft."
 effects = [
   { label = "Area", value = "cone-shaped burst" },
 ]
@@ -36,14 +34,15 @@ spell_resistance = "yes (object)"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 4: Arcanist, Bloodrager, Bard, Magus, Occultist, Psychic, Skald, Sorcerer, Wizard
+Level: 6: Bard, Skald\
+8: Arcanist, Elementalist Wizard, Psychic, Sorcerer, Wizard
 Casting time: 1 standard action
-Components: V
-Range: 30 ft.
+Components: V, S, F (a metal or ivory horn)
+Range: 60 ft.
+Area: cone-shaped burst
 Duration: instantaneous
 Saving throw: Fortitude partial or Reflex negates (object); see text
 Spell resistance: yes (object)
-Area: cone-shaped burst
 Descriptors: sonic
 :::
 

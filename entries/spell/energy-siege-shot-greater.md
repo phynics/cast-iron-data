@@ -11,34 +11,34 @@ provenance = [
 kind = "spell"
 school = "transmutation [variable]"
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Occultist", level = 5 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Summoner", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 6 },
+  { class = "Occultist", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Summoner", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "10 minutes"
 components = "V, S, M (a ball of pitch)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one Large siege engine" },
+  { label = "Target", value = "one siege engine of any size" },
 ]
 duration = "10 minutes/level"
-saving_throw = "Fortitude negates (object)"
-spell_resistance = "yes (object)"
+saving_throw = "Fortitude negates (harmless, object)"
+spell_resistance = "yes (harmless/object)"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: transmutation \[variable\]
-Level: 5: Arcanist, Occultist, Sorcerer, Summoner, Wizard
+Level: 6: Arcanist, Occultist, Sorcerer, Summoner, Wizard
 Casting time: 10 minutes
 Components: V, S, M (a ball of pitch)
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one siege engine of any size
 Duration: 10 minutes/level
-Saving throw: Fortitude negates (object)
-Spell resistance: yes (object)
-Target: one Large siege engine
+Saving throw: Fortitude negates (harmless, object)
+Spell resistance: yes (harmless/object)
 :::
 
 ## Energy Siege Shot

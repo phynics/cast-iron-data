@@ -12,25 +12,25 @@ kind = "spell"
 school = "transmutation"
 subschools = ["Polymorph"]
 levels = [
-  { class = "Alchemist", level = 3 },
-  { class = "Arcanist", level = 3 },
-  { class = "Bard", level = 3 },
-  { class = "Investigator", level = 3 },
-  { class = "Medium", level = 3 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Occultist", level = 3 },
-  { class = "Psychic", level = 3 },
-  { class = "Shaman", level = 3 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Spiritualist", level = 3 },
-  { class = "Summoner", level = 3 },
-  { class = "Unchained Summoner", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Alchemist", level = 4 },
+  { class = "Arcanist", level = 4 },
+  { class = "Bard", level = 4 },
+  { class = "Investigator", level = 4 },
+  { class = "Medium", level = 4 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Occultist", level = 4 },
+  { class = "Psychic", level = 4 },
+  { class = "Shaman", level = 4 },
+  { class = "Skald", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Spiritualist", level = 4 },
+  { class = "Summoner", level = 4 },
+  { class = "Unchained Summoner", level = 4 },
+  { class = "Witch", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 minute"
-components = "V, S, F (corpse of the deceased creature whose form you plan to assume)"
+components = "V, S, F (corpse or likeness of the deceased creature whose form you plan to assume)"
 range = "personal"
 effects = [
   { label = "Target", value = "you" },
@@ -43,14 +43,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 3: Alchemist, Arcanist, Bard, Investigator, Medium, Mesmerist, Occultist, Psychic, Shaman, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Witch, Wizard
+Level: 4: Alchemist, Arcanist, Bard, Investigator, Medium, Mesmerist, Occultist, Psychic, Shaman, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Witch, Wizard
 Casting time: 1 minute
-Components: V, S, F (corpse of the deceased creature whose form you plan to assume)
+Components: V, S, F (corpse or likeness of the deceased creature whose form you plan to assume)
 Range: personal
+Target: you
 Duration: 1 day/level (D)
 Saving throw: none
 Spell resistance: no
-Target: you
 Subschool: Polymorph
 :::
 

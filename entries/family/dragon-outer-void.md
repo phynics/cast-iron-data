@@ -56,4 +56,4 @@ mind-affecting effect. The save DC is Charisma-based.
 
 - [Adult Void Dragon](ref/monster/dragon-outer-void-adult-void-dragon)
 - [Ancient Void Dragon](ref/monster/dragon-outer-void-ancient-void-dragon)
-- [Young Void Dragon](ref/monster/dragon-outer-void-young-void-dragon)
+- [Young Void Dragon](ref/carried/bestiary-4/monsters/dragon/outer/void/young)

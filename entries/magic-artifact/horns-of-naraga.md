@@ -30,10 +30,11 @@ points of negative energy damage and the wearer gains these hit points, just as 
 [vampiric touch](ref/spell/vampiric-touch). The wearer of the helm is immune to acid and can see
 perfectly in darkness of any kind, even that created by magic. Once per day on command, the helm can
 be ordered to transform into an
-[ancient black dragon](ref/monster/dragon-chromatic-black-ancient-black-dragon) that unquestioningly
-obeys the creature that summoned it for 1 hour before reverting to a helm. Slaying the dragon does
-not destroy the helm, but it does prevent this ability from being used for 1 week. While the helm is
-in dragon form, the helm's owner does not receive any of the helm's other benefits.
+[ancient black dragon](ref/carried/bestiary/monsters/dragon/chromatic/black/ancient) that
+unquestioningly obeys the creature that summoned it for 1 hour before reverting to a helm. Slaying
+the dragon does not destroy the helm, but it does prevent this ability from being used for 1 week.
+While the helm is in dragon form, the helm's owner does not receive any of the helm's other
+benefits.
 
 ### Destruction
 

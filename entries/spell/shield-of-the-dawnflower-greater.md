@@ -12,15 +12,11 @@ kind = "spell"
 school = "evocation"
 descriptors = ["fire", "good", "light"]
 levels = [
-  { class = "Bard", level = 4 },
-  { class = "Cleric", level = 4 },
-  { class = "Hunter", level = 4 },
-  { class = "Magus", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Paladin", level = 4 },
-  { class = "Ranger", level = 4 },
-  { class = "Skald", level = 4 },
-  { class = "Warpriest", level = 4 },
+  { class = "Bard", level = 6 },
+  { class = "Cleric", level = 6 },
+  { class = "Magus", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Skald", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S, DF"
@@ -36,14 +32,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 4: Bard, Cleric, Hunter, Magus, Oracle, Paladin, Ranger, Skald, Warpriest
+Level: 6: Bard, Cleric, Magus, Oracle, Skald
 Casting time: 1 standard action
 Components: V, S, DF
 Range: personal
+Target: you
 Duration: 1 round/level
 Saving throw: see text
 Spell resistance: no
-Target: you
 Descriptors: fire, good, light
 :::
 

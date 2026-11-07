@@ -110,7 +110,7 @@ Proficiency (greatsword), Power Attack, Weapon Focus (greatsword)
 [hell hounds](ref/monster/hell-hound), and 2-3 [trolls](ref/monster/troll) or
 [ettins](ref/monster/ettin)), or tribe (20-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1
 fighter or ranger of 8th-9th level as king; and 17-38 hell hounds, 12-22 trolls, 7-12 ettins, and
-1-2 [young red dragons](ref/monster/dragon-chromatic-red-young-red-dragon))
+1-2 [young red dragons](ref/carried/bestiary/monsters/dragon/chromatic/red/young))
 
 **Treasure:** Standard (half-plate, greatsword); other treasure
 

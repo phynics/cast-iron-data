@@ -74,6 +74,6 @@ with creatures or vessels within 50 feet, can move at twice its normal speed in 
 
 ### Members of This Family:
 
-- [Adult Bronze Dragon](ref/monster/dragon-metallic-bronze-adult-bronze-dragon)
-- [Ancient Bronze Dragon](ref/monster/dragon-metallic-bronze-ancient-bronze-dragon)
-- [Young Bronze Dragon](ref/monster/dragon-metallic-bronze-young-bronze-dragon)
+- [Adult Bronze Dragon](ref/carried/bestiary/monsters/dragon/metallic/bronze/adult)
+- [Ancient Bronze Dragon](ref/carried/bestiary/monsters/dragon/metallic/bronze/ancient)
+- [Young Bronze Dragon](ref/carried/bestiary/monsters/dragon/metallic/bronze/young)

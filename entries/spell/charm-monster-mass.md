@@ -13,23 +13,22 @@ school = "enchantment"
 subschools = ["Charm"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Bard", level = 3 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Occultist", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Summoner", level = 3 },
-  { class = "Unchained Summoner", level = 4 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 8 },
+  { class = "Bard", level = 6 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Occultist", level = 6 },
+  { class = "Psychic", level = 8 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Summoner", level = 6 },
+  { class = "Witch", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
-components = "V, S"
+components = "V"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one living creature" },
+  { label = "Targets", value = "One or more creatures, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 day/level"
 saving_throw = "Will negates"
@@ -39,15 +38,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 3: Bard, Mesmerist, Skald, Summoner\
-4: Arcanist, Occultist, Psychic, Sorcerer, Unchained Summoner, Witch, Wizard
+Level: 6: Bard, Mesmerist, Occultist, Skald, Summoner\
+8: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
-Components: V, S
+Components: V
 Range: close (25 ft. + 5 ft./2 levels)
+Targets: One or more creatures, no two of which can be more than 30 ft. apart
 Duration: 1 day/level
 Saving throw: Will negates
 Spell resistance: yes
-Target: one living creature
 Subschool: Charm
 Descriptors: mind-affecting
 :::

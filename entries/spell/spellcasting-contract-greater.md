@@ -11,15 +11,13 @@ provenance = [
 kind = "spell"
 school = "evocation"
 levels = [
-  { class = "Cleric", level = 5 },
-  { class = "Oracle", level = 5 },
-  { class = "Warpriest", level = 5 },
+  { class = "Cleric", level = 9 },
 ]
 casting_time = "10 minutes"
 components = "V, S, DF"
 range = "touch"
 effects = [
-  { label = "Target", value = "creature touched; see text" },
+  { label = "Target", value = "creature touched" },
 ]
 duration = "permanent until discharged (D)"
 saving_throw = "Will negates (harmless)"
@@ -29,14 +27,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 5: Cleric, Oracle, Warpriest
+Level: 9: Cleric
 Casting time: 10 minutes
 Components: V, S, DF
 Range: touch
+Target: creature touched
 Duration: permanent until discharged (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched; see text
 :::
 
 ## Lesser Spellcasting Contract

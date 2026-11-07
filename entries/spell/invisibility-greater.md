@@ -13,48 +13,48 @@ school = "illusion"
 subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
-  { class = "Adept", level = 2 },
-  { class = "Alchemist", level = 2 },
-  { class = "Antipaladin", level = 2 },
-  { class = "Arcanist", level = 2 },
-  { class = "Bard", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Investigator", level = 2 },
-  { class = "Magus", level = 2 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 2 },
-  { class = "Occultist", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Spiritualist", level = 2 },
-  { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Alchemist", level = 4 },
+  { class = "Antipaladin", level = 4 },
+  { class = "Arcanist", level = 4 },
+  { class = "Bard", level = 4 },
+  { class = "Inquisitor", level = 4 },
+  { class = "Investigator", level = 4 },
+  { class = "Magus", level = 4 },
+  { class = "Medium", level = 3 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Occultist", level = 4 },
+  { class = "Psychic", level = 4 },
+  { class = "Red Mantis Assassin", level = 4 },
+  { class = "Skald", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Spiritualist", level = 4 },
+  { class = "Summoner", level = 3 },
+  { class = "Unchained Summoner", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M/DF (an eyelash encased in gum arabic)"
+components = "V, S"
 range = "personal or touch"
 effects = [
-  { label = "Target", value = "you or a creature or object weighing no more than 100 lbs./level" },
+  { label = "Target", value = "you or creature touched" },
 ]
-duration = "1 minute/level (D)"
-saving_throw = "Will negates (harmless) or Will negates (harmless, object)"
-spell_resistance = "yes (harmless) or yes (harmless, object)"
+duration = "1 round/level (D)"
+saving_throw = "Will negates (harmless)"
+spell_resistance = "yes (harmless)"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 2: Adept, Alchemist, Antipaladin, Arcanist, Bard, Inquisitor, Investigator, Magus, Medium, Mesmerist, Occultist, Psychic, Red Mantis Assassin, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Wizard
+Level: 3: Medium, Summoner\
+4: Alchemist, Antipaladin, Arcanist, Bard, Inquisitor, Investigator, Magus, Mesmerist, Occultist, Psychic, Red Mantis Assassin, Skald, Sorcerer, Spiritualist, Unchained Summoner, Wizard
 Casting time: 1 standard action
-Components: V, S, M/DF (an eyelash encased in gum arabic)
+Components: V, S
 Range: personal or touch
-Duration: 1 minute/level (D)
-Saving throw: Will negates (harmless) or Will negates (harmless, object)
-Spell resistance: yes (harmless) or yes (harmless, object)
-Target: you or a creature or object weighing no more than 100 lbs./level
+Target: you or creature touched
+Duration: 1 round/level (D)
+Saving throw: Will negates (harmless)
+Spell resistance: yes (harmless)
 Subschool: Glamer
 Descriptors: glamer
 :::

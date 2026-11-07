@@ -11,11 +11,10 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Cleric", level = 3 },
-  { class = "Inquisitor", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Witch", level = 3 },
+  { class = "Cleric", level = 6 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Warpriest", level = 6 },
 ]
 casting_time = "10 minutes"
 components = "V, S, M (powdered diamond worth 200 gp)"
@@ -31,14 +30,14 @@ spell_resistance = "no (object) and yes; see text"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 3: Cleric, Inquisitor, Oracle, Warpriest, Witch
+Level: 6: Cleric, Inquisitor, Oracle, Warpriest
 Casting time: 10 minutes
 Components: V, S, M (powdered diamond worth 200 gp)
 Range: touch
+Target or Area: object touched or up to 5 sq. ft./level
 Duration: permanent until discharged (D)
 Saving throw: see text
 Spell resistance: no (object) and yes; see text
-Target or Area: object touched or up to 5 sq. ft./level
 :::
 
 ## Glyph of Warding

@@ -11,25 +11,25 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Antipaladin", level = 2 },
-  { class = "Arcanist", level = 2 },
-  { class = "Cleric", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Occultist", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Paladin", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Warpriest", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Antipaladin", level = 4 },
+  { class = "Arcanist", level = 4 },
+  { class = "Cleric", level = 5 },
+  { class = "Inquisitor", level = 4 },
+  { class = "Occultist", level = 4 },
+  { class = "Oracle", level = 5 },
+  { class = "Paladin", level = 4 },
+  { class = "Red Mantis Assassin", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Warpriest", level = 5 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 standard action"
-components = "V, S, DF"
-range = "touch"
+components = "V, S, M/DF (black powder)"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
   { label = "Target", value = "one siege engine touched" },
 ]
-duration = "1 minute/level"
+duration = "1 hour/level"
 saving_throw = "Will negates (harmless) (object)"
 spell_resistance = "yes (harmless) (object)"
 +++
@@ -37,14 +37,15 @@ spell_resistance = "yes (harmless) (object)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Antipaladin, Arcanist, Cleric, Inquisitor, Occultist, Oracle, Paladin, Red Mantis Assassin, Sorcerer, Warpriest, Wizard
+Level: 4: Antipaladin, Arcanist, Inquisitor, Occultist, Paladin, Red Mantis Assassin, Sorcerer, Wizard\
+5: Cleric, Oracle, Warpriest
 Casting time: 1 standard action
-Components: V, S, DF
-Range: touch
-Duration: 1 minute/level
+Components: V, S, M/DF (black powder)
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one siege engine touched
+Duration: 1 hour/level
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
-Target: one siege engine touched
 :::
 
 ## Magic Siege Engine

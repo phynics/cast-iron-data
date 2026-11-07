@@ -13,14 +13,14 @@ school = "illusion"
 subschools = ["Phantasm"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Bard", level = 2 },
-  { class = "Medium", level = 1 },
-  { class = "Mesmerist", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 5 },
+  { class = "Bard", level = 4 },
+  { class = "Medium", level = 2 },
+  { class = "Mesmerist", level = 3 },
+  { class = "Psychic", level = 4 },
+  { class = "Skald", level = 4 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -29,23 +29,24 @@ effects = [
   { label = "Target", value = "one living creature" },
 ]
 duration = "1 round/level (D)"
-saving_throw = "Will negates"
+saving_throw = "Will negates, Fortitude negates, see text"
 spell_resistance = "yes"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 1: Medium\
-2: Bard, Mesmerist, Psychic, Skald\
-3: Arcanist, Sorcerer, Wizard
+Level: 2: Medium\
+3: Mesmerist\
+4: Bard, Psychic, Skald\
+5: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)
-Duration: 1 round/level (D)
-Saving throw: Will negates
-Spell resistance: yes
 Target: one living creature
+Duration: 1 round/level (D)
+Saving throw: Will negates, Fortitude negates, see text
+Spell resistance: yes
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::

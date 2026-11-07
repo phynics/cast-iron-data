@@ -13,17 +13,16 @@ school = "conjuration"
 subschools = ["Healing"]
 descriptors = ["evil"]
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Bloodrager", level = 1 },
-  { class = "Cleric", level = 1 },
-  { class = "Magus", level = 1 },
-  { class = "Oracle", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Summoner", level = 1 },
-  { class = "Unchained Summoner", level = 1 },
-  { class = "Warpriest", level = 1 },
-  { class = "Witch", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 4 },
+  { class = "Cleric", level = 4 },
+  { class = "Magus", level = 4 },
+  { class = "Oracle", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Summoner", level = 4 },
+  { class = "Unchained Summoner", level = 4 },
+  { class = "Warpriest", level = 4 },
+  { class = "Witch", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 round"
 components = "V, S, M (1 drop of devil blood or 1 dose of unholy water)"
@@ -39,14 +38,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 1: Arcanist, Bloodrager, Cleric, Magus, Oracle, Sorcerer, Summoner, Unchained Summoner, Warpriest, Witch, Wizard
+Level: 4: Arcanist, Cleric, Magus, Oracle, Sorcerer, Summoner, Unchained Summoner, Warpriest, Witch, Wizard
 Casting time: 1 round
 Components: V, S, M (1 drop of devil blood or 1 dose of unholy water)
 Range: touch
+Target: creature touched
 Duration: 1 minute
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched
 Subschool: Healing
 Descriptors: evil
 :::

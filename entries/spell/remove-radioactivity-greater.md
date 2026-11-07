@@ -12,17 +12,10 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Bard", level = 4 },
-  { class = "Cleric", level = 4 },
-  { class = "Druid", level = 4 },
-  { class = "Hunter", level = 4 },
-  { class = "Inquisitor", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Paladin", level = 4 },
-  { class = "Ranger", level = 4 },
-  { class = "Skald", level = 4 },
-  { class = "Warpriest", level = 4 },
-  { class = "Witch", level = 4 },
+  { class = "Cleric", level = 8 },
+  { class = "Druid", level = 8 },
+  { class = "Oracle", level = 8 },
+  { class = "Witch", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -38,14 +31,14 @@ spell_resistance = "yes (object)"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 4: Bard, Cleric, Druid, Hunter, Inquisitor, Oracle, Paladin, Ranger, Skald, Warpriest, Witch
+Level: 8: Cleric, Druid, Oracle, Witch
 Casting time: 1 standard action
 Components: V, S
 Range: touch
+Target: creature or object touched
 Duration: instantaneous
 Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
-Target: creature or object touched
 Subschool: Healing
 :::
 

@@ -11,26 +11,22 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Bard", level = 1 },
-  { class = "Cleric", level = 1 },
-  { class = "Magus", level = 1 },
-  { class = "Oracle", level = 1 },
-  { class = "Red Mantis Assassin", level = 1 },
-  { class = "Skald", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Summoner", level = 1 },
-  { class = "Unchained Summoner", level = 1 },
-  { class = "Warpriest", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 5 },
+  { class = "Cleric", level = 5 },
+  { class = "Magus", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Summoner", level = 5 },
+  { class = "Unchained Summoner", level = 5 },
+  { class = "Warpriest", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, M (goose down)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "1 object of up to 1 cubic ft./level" },
+  { label = "Target", value = "multiple objects totaling up to 1 cubic ft./level, no two of which can be more than 30 ft. apart" },
 ]
-duration = "1 minute/level"
+duration = "10 minutes/level"
 saving_throw = "Will negates (object)"
 spell_resistance = "yes (object)"
 +++
@@ -38,14 +34,14 @@ spell_resistance = "yes (object)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 1: Arcanist, Bard, Cleric, Magus, Oracle, Red Mantis Assassin, Skald, Sorcerer, Summoner, Unchained Summoner, Warpriest, Wizard
+Level: 5: Arcanist, Cleric, Magus, Oracle, Sorcerer, Summoner, Unchained Summoner, Warpriest
 Casting time: 1 standard action
 Components: V, M (goose down)
 Range: close (25 ft. + 5 ft./2 levels)
-Duration: 1 minute/level
+Target: multiple objects totaling up to 1 cubic ft./level, no two of which can be more than 30 ft. apart
+Duration: 10 minutes/level
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
-Target: 1 object of up to 1 cubic ft./level
 :::
 
 ## Lighten Object

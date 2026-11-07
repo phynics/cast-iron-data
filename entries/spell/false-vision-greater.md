@@ -13,40 +13,37 @@ school = "illusion"
 subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Bard", level = 5 },
-  { class = "Medium", level = 4 },
-  { class = "Mesmerist", level = 5 },
-  { class = "Occultist", level = 5 },
-  { class = "Psychic", level = 5 },
-  { class = "Skald", level = 5 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Spiritualist", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 7 },
+  { class = "Bard", level = 6 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Psychic", level = 7 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M (crushed jade worth 250 gp)"
-range = "touch"
+components = "V, S, M (a jade sphere worth 500 gp)"
+range = "see text"
 effects = [
-  { label = "Area", value = "40-ft.-radius emanation" },
+  { label = "Target", value = "one creature" },
 ]
 duration = "1 hour/level (D)"
-saving_throw = "none"
+saving_throw = "Will negates"
 spell_resistance = "no"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 4: Medium\
-5: Arcanist, Bard, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Spiritualist, Wizard
+Level: 6: Bard, Mesmerist, Skald\
+7: Arcanist, Psychic, Sorcerer, Wizard
 Casting time: 1 standard action
-Components: V, S, M (crushed jade worth 250 gp)
-Range: touch
+Components: V, S, M (a jade sphere worth 500 gp)
+Range: see text
+Target: one creature
 Duration: 1 hour/level (D)
-Saving throw: none
+Saving throw: Will negates
 Spell resistance: no
-Area: 40-ft.-radius emanation
 Subschool: Glamer
 Descriptors: glamer
 :::

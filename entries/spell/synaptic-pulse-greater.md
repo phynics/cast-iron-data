@@ -13,8 +13,8 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Mesmerist", level = 3 },
-  { class = "Psychic", level = 3 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Psychic", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V"
@@ -22,7 +22,7 @@ range = "30 ft."
 effects = [
   { label = "Area", value = "30-ft.-radius spread centered on you" },
 ]
-duration = "1 round"
+duration = "1d4 rounds; see text"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -30,14 +30,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 3: Mesmerist, Psychic
+Level: 4: Mesmerist\
+5: Psychic
 Casting time: 1 standard action
 Components: V
 Range: 30 ft.
-Duration: 1 round
+Area: 30-ft.-radius spread centered on you
+Duration: 1d4 rounds; see text
 Saving throw: Will negates
 Spell resistance: yes
-Area: 30-ft.-radius spread centered on you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::

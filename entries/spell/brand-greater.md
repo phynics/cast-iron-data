@@ -12,15 +12,15 @@ kind = "spell"
 school = "transmutation"
 descriptors = ["curse"]
 levels = [
-  { class = "Inquisitor", level = 0 },
+  { class = "Inquisitor", level = 4 },
 ]
-casting_time = "1 standard action"
+casting_time = "1 round"
 components = "V, S, DF"
 range = "touch"
 effects = [
   { label = "Target", value = "creature touched" },
 ]
-duration = "1 day/level"
+duration = "permanent"
 saving_throw = "Fortitude negates"
 spell_resistance = "yes"
 +++
@@ -28,14 +28,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 0: Inquisitor
-Casting time: 1 standard action
+Level: 4: Inquisitor
+Casting time: 1 round
 Components: V, S, DF
 Range: touch
-Duration: 1 day/level
+Target: creature touched
+Duration: permanent
 Saving throw: Fortitude negates
 Spell resistance: yes
-Target: creature touched
 Descriptors: curse
 :::
 

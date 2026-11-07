@@ -12,18 +12,16 @@ kind = "spell"
 school = "conjuration [see text]"
 subschools = ["Calling"]
 levels = [
-  { class = "Cleric", level = 4 },
-  { class = "Medium", level = 3 },
-  { class = "Oracle", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Shaman", level = 4 },
-  { class = "Warpriest", level = 4 },
+  { class = "Cleric", level = 8 },
+  { class = "Oracle", level = 8 },
+  { class = "Psychic", level = 8 },
+  { class = "Shaman", level = 8 },
 ]
 casting_time = "10 minutes"
-components = "V, S, DF, M (offerings worth 500 gp plus payment, see text)"
+components = "V, S, M (offerings worth 2,500 plus payment), DF"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Effect", value = "one called outsider of 6 HD or less" },
+  { label = "Effect", value = "up to three called outsiders, totaling no more than 18 HD, no two of which can be more than 30 ft. apart when they appear." },
 ]
 duration = "instantaneous"
 saving_throw = "none"
@@ -33,15 +31,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration \[see text\]
-Level: 3: Medium\
-4: Cleric, Oracle, Psychic, Shaman, Warpriest
+Level: 8: Cleric, Oracle, Psychic, Shaman
 Casting time: 10 minutes
-Components: V, S, DF, M (offerings worth 500 gp plus payment, see text)
+Components: V, S, M (offerings worth 2,500 plus payment), DF
 Range: close (25 ft. + 5 ft./2 levels)
+Effect: up to three called outsiders, totaling no more than 18 HD, no two of which can be more than 30 ft. apart when they appear.
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Effect: one called outsider of 6 HD or less
 Subschool: Calling
 :::
 

@@ -44,13 +44,13 @@ can take place twice per day, with a maximum duration of 2 continuous hours. The
 use its telepathy to communicate with its owner over any distance, but not across planes.
 
 By expending one use of mythic power, the user of the figurine can instead transform the figurine
-into a [young red dragon](ref/monster/dragon-chromatic-red-young-red-dragon). If the user is at
-least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an
-[adult red dragon](ref/monster/dragon-chromatic-red-adult-red-dragon). If the user is at least 9th
-tier, she can instead expend four uses of mythic power to transform the figurine into an
-[ancient red dragon](ref/monster/dragon-chromatic-red-ancient-red-dragon). Transforming the figurine
-into a true dragon renders the figurine powerless for 1 week after the transformation ends.; **CL**
-20th; [Craft Wondrous Item](ref/feat/craft-wondrous-item),
+into a [young red dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/young). If the user is
+at least 5th tier, she can instead expend two uses of mythic power to transform the figurine into an
+[adult red dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/adult). If the user is at
+least 9th tier, she can instead expend four uses of mythic power to transform the figurine into an
+[ancient red dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/ancient). Transforming the
+figurine into a true dragon renders the figurine powerless for 1 week after the transformation
+ends.; **CL** 20th; [Craft Wondrous Item](ref/feat/craft-wondrous-item),
 [Mythic Crafter](ref/feat/mythic-crafter), [animate objects](ref/spell/animate-objects),
 [form of the dragon III](ref/spell/form-of-the-dragon-3),
 [telepathic bond](ref/spell/telepathic-bond).

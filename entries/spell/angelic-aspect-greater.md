@@ -12,14 +12,12 @@ kind = "spell"
 school = "transmutation"
 descriptors = ["good"]
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Cleric", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Paladin", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Warpriest", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 8 },
+  { class = "Cleric", level = 8 },
+  { class = "Oracle", level = 8 },
+  { class = "Paladin", level = 4 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -35,14 +33,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Arcanist, Cleric, Oracle, Paladin, Red Mantis Assassin, Sorcerer, Warpriest, Wizard
+Level: 4: Paladin\
+8: Arcanist, Cleric, Oracle, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: personal
+Target: you
 Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
-Target: you
 Descriptors: good
 :::
 

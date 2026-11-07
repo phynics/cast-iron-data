@@ -11,16 +11,11 @@ provenance = [
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Alchemist", level = 3 },
-  { class = "Arcanist", level = 3 },
-  { class = "Inquisitor", level = 3 },
-  { class = "Investigator", level = 3 },
-  { class = "Magus", level = 3 },
-  { class = "Occultist", level = 3 },
-  { class = "Psychic", level = 3 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 7 },
+  { class = "Psychic", level = 7 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -36,14 +31,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Alchemist, Arcanist, Inquisitor, Investigator, Magus, Occultist, Psychic, Sorcerer, Witch, Wizard
+Level: 7: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: personal
+Target: you
 Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
-Target: you
 :::
 
 ## Arcane Sight

@@ -12,15 +12,15 @@ kind = "spell"
 school = "transmutation"
 descriptors = ["earth"]
 levels = [
-  { class = "Druid", level = 2 },
-  { class = "Hunter", level = 2 },
-  { class = "Witch", level = 2 },
+  { class = "Druid", level = 6 },
+  { class = "Hunter", level = 6 },
+  { class = "Witch", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S, DF"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one creature or unattended object (see text)" },
+  { label = "Target", value = "one creature or object/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level"
 saving_throw = "Fortitude negates"
@@ -30,14 +30,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Druid, Hunter, Witch
+Level: 6: Druid, Hunter, Witch
 Casting time: 1 standard action
 Components: V, S, DF
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature or object/level, no two of which can be more than 30 ft. apart
 Duration: 1 round/level
 Saving throw: Fortitude negates
 Spell resistance: yes
-Target: one creature or unattended object (see text)
 Descriptors: earth
 :::
 

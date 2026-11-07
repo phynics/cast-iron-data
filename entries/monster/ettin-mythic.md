@@ -134,7 +134,8 @@ abilities.
 ### Hillblood Ettin (CR 8/MR 3)
 
 A hill-giant-dominant mythic ettin loses its powerful charge and stench abilities but gains a
-[mythic hill giant's](ref/monster/giant-hill-giant-mythic) earth bond and ground pound abilities.
+[mythic hill giant's](ref/carried/mythic-adventures/monsters/giant/hill/mythic) earth bond and
+ground pound abilities.
 
 ### Orcblood Ettin (CR 8/MR 3)
 

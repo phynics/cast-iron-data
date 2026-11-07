@@ -13,25 +13,25 @@ school = "illusion"
 subschools = ["Glamer"]
 descriptors = ["evil", "glamer"]
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Cleric", level = 3 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Psychic", level = 3 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Spiritualist", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 5 },
+  { class = "Cleric", level = 5 },
+  { class = "Medium", level = 4 },
+  { class = "Mesmerist", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Psychic", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Spiritualist", level = 4 },
+  { class = "Warpriest", level = 5 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 round"
 components = "V, S, M (one Tiny or larger living creature)"
-range = "long (400 ft. + 40 ft./level)"
+range = "touch"
 effects = [
-  { label = "Target", value = "one or more undead creatures" },
+  { label = "Target", value = "one willing undead creature touched" },
 ]
-duration = "10 minutes/level (D)"
+duration = "1 hour/level"
 saving_throw = "Will disbelief or Will negates (see text)"
 spell_resistance = "no"
 +++
@@ -39,15 +39,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 2: Medium\
-3: Arcanist, Cleric, Mesmerist, Oracle, Psychic, Sorcerer, Spiritualist, Warpriest, Witch, Wizard
+Level: 4: Medium, Spiritualist\
+5: Arcanist, Cleric, Mesmerist, Oracle, Psychic, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 round
 Components: V, S, M (one Tiny or larger living creature)
-Range: long (400 ft. + 40 ft./level)
-Duration: 10 minutes/level (D)
+Range: touch
+Target: one willing undead creature touched
+Duration: 1 hour/level
 Saving throw: Will disbelief or Will negates (see text)
 Spell resistance: no
-Target: one or more undead creatures
 Subschool: Glamer
 Descriptors: evil, glamer
 :::

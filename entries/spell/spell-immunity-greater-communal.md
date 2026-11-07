@@ -11,21 +11,15 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Alchemist", level = 4 },
-  { class = "Cleric", level = 4 },
-  { class = "Inquisitor", level = 4 },
-  { class = "Investigator", level = 4 },
-  { class = "Occultist", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Spiritualist", level = 4 },
-  { class = "Warpriest", level = 4 },
+  { class = "Cleric", level = 9 },
+  { class = "Oracle", level = 9 },
+  { class = "Psychic", level = 9 },
 ]
 casting_time = "1 standard action"
 components = "V, S, DF"
 range = "touch"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Target", value = "creatures touched" },
 ]
 duration = "10 minutes/level"
 saving_throw = "Will negates (harmless)"
@@ -35,14 +29,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 4: Alchemist, Cleric, Inquisitor, Investigator, Occultist, Oracle, Psychic, Spiritualist, Warpriest
+Level: 9: Cleric, Oracle, Psychic
 Casting time: 1 standard action
 Components: V, S, DF
 Range: touch
+Target: creatures touched
 Duration: 10 minutes/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched
 :::
 
 ## Spell Immunity

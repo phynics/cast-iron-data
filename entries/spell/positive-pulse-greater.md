@@ -11,19 +11,19 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Cleric", level = 1 },
-  { class = "Inquisitor", level = 1 },
-  { class = "Oracle", level = 1 },
-  { class = "Paladin", level = 1 },
-  { class = "Shaman", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Spiritualist", level = 1 },
-  { class = "Summoner", level = 1 },
-  { class = "Unchained Summoner", level = 1 },
-  { class = "Warpriest", level = 1 },
-  { class = "Witch", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 4 },
+  { class = "Cleric", level = 4 },
+  { class = "Inquisitor", level = 4 },
+  { class = "Oracle", level = 4 },
+  { class = "Paladin", level = 4 },
+  { class = "Shaman", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Spiritualist", level = 4 },
+  { class = "Summoner", level = 4 },
+  { class = "Unchained Summoner", level = 4 },
+  { class = "Warpriest", level = 4 },
+  { class = "Witch", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -39,14 +39,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 1: Arcanist, Cleric, Inquisitor, Oracle, Paladin, Shaman, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Witch, Wizard
+Level: 4: Arcanist, Cleric, Inquisitor, Oracle, Paladin, Shaman, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
+Area: 5-ft.-radius burst
 Duration: instantaneous plus 1 round (see text)
 Saving throw: Will negates or Will negates (harmless); see text
 Spell resistance: yes
-Area: 5-ft.-radius burst
 :::
 
 ## Positive Pulse

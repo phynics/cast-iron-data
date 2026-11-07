@@ -60,7 +60,7 @@ kind = "none"
 |59-65|1d6 [phase spiders](ref/monster/phase-spider)|8|
 |66-69|1d4 [shadow demons](ref/monster/demon-shadow-demon)|9|
 |70-72|1d4 [succubi](ref/monster/demon-succubus)|9|
-|73-75|1 [nessian warhound](ref/monster/hell-hound-nessian-warhound)|9|
+|73-75|1 [nessian warhound](ref/carried/bestiary/monsters/hell-hound/nessian)|9|
 |76-80|1d4 [erinyes](ref/monster/devil-erinyes)|10|
 |81-82|1 [hezrou](ref/monster/demon-hezrou)|11|
 |83-87|1d4 [bebiliths](ref/monster/bebilith)|12|

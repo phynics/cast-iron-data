@@ -3,8 +3,8 @@ id = "ref/carried/bestiary/monsters/dragon/chromatic/red/dragon/chromatic/red"
 kind = "creature"
 title = "Dragon, Chromatic, Red"
 source_ids = ["bestiary"]
-section = ["Monsters", "Dragon", "Chromatic", "Red", "Dragon", "Chromatic"]
-tags = ["small"]
+section = ["Monsters", "Dragon", "Chromatic", "Red"]
+tags = ["dragon", "fire", "small"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Dragon/Chromatic/Red/Dragon/Chromatic/Red", path = "bestiary/creature/dragon_chromatic_red.json" },
 ]
@@ -12,14 +12,18 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "6"
+creature_type = "dragon"
+subtypes = ["fire"]
 size = "Small"
+alignment = "CE"
 abilities = ["17", "14", "15", "10", "11", "10"]
 +++
 
 ::: statblock
 CR: 6
+Alignment: CE
 Size: Small
-Race: ce dragon (fire)
+Type: dragon (fire)
 Hit Dice: 7d12
 Speed: 40 ft.
 Ability Scores: Str 17, Dex 14, Con 15, Int 10, Wis 11, Cha 10

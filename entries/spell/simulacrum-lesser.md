@@ -12,19 +12,19 @@ kind = "spell"
 school = "illusion"
 subschools = ["Shadow"]
 levels = [
-  { class = "Arcanist", level = 7 },
-  { class = "Psychic", level = 7 },
-  { class = "Sorcerer", level = 7 },
-  { class = "Summoner", level = 5 },
-  { class = "Wizard", level = 7 },
+  { class = "Arcanist", level = 4 },
+  { class = "Psychic", level = 4 },
+  { class = "Red Mantis Assassin", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
-casting_time = "12 hours"
-components = "V, S, M (ice sculpture of the target plus powdered rubies worth 500 gp per HD of the simulacrum)"
+casting_time = "1 hour"
+components = "V, S, M (an ice sculpture of the target plus powdered rubies worth 50 gp per HD of the simulacrum)"
 range = "0 ft."
 effects = [
   { label = "Effect", value = "one duplicate creature" },
 ]
-duration = "instantaneous"
+duration = "1 hour/level"
 saving_throw = "none"
 spell_resistance = "no"
 +++
@@ -32,15 +32,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 5: Summoner\
-7: Arcanist, Psychic, Sorcerer, Wizard
-Casting time: 12 hours
-Components: V, S, M (ice sculpture of the target plus powdered rubies worth 500 gp per HD of the simulacrum)
+Level: 4: Arcanist, Psychic, Red Mantis Assassin, Sorcerer, Wizard
+Casting time: 1 hour
+Components: V, S, M (an ice sculpture of the target plus powdered rubies worth 50 gp per HD of the simulacrum)
 Range: 0 ft.
-Duration: instantaneous
+Effect: one duplicate creature
+Duration: 1 hour/level
 Saving throw: none
 Spell resistance: no
-Effect: one duplicate creature
 Subschool: Shadow
 :::
 

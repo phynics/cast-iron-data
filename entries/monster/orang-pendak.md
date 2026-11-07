@@ -102,7 +102,8 @@ forests
 
 **Organization:** solitary, pair, family (3-7), or tribe (8-30 plus 8-30 noncombatants, 1 chieftain
 \[3rd- to 5th-level hunter or ranger\], 1 shaman \[3rd- to 5th-level druid or shaman\], and 1d4
-[gorillas](ref/monster/ape-gorilla) or 1 [monkey swarm](ref/monster/monkey-swarm))
+[gorillas](ref/monster/ape-gorilla) or 1
+[monkey swarm](ref/carried/bestiary-2/monsters/swarm/primate/monkey))
 
 **Treasure:** NPC gear (spear, 2 -bolas); other treasure
 

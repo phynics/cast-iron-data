@@ -12,18 +12,15 @@ kind = "spell"
 school = "evocation"
 descriptors = ["force"]
 levels = [
-  { class = "Arcanist", level = 6 },
-  { class = "Magus", level = 6 },
-  { class = "Occultist", level = 6 },
-  { class = "Psychic", level = 7 },
-  { class = "Sorcerer", level = 6 },
-  { class = "Wizard", level = 6 },
+  { class = "Arcanist", level = 9 },
+  { class = "Sorcerer", level = 9 },
+  { class = "Wizard", level = 9 },
 ]
 casting_time = "1 standard action"
 components = "V, S, F (a miniature platinum sword worth 250 gp)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Effect", value = "one sword" },
+  { label = "Effect", value = "up to one sword per 3 levels" },
 ]
 duration = "1 round/level (D)"
 saving_throw = "none"
@@ -33,15 +30,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 6: Arcanist, Magus, Occultist, Sorcerer, Wizard\
-7: Psychic
+Level: 9: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, F (a miniature platinum sword worth 250 gp)
 Range: close (25 ft. + 5 ft./2 levels)
+Effect: up to one sword per 3 levels
 Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: yes
-Effect: one sword
 Descriptors: force
 :::
 

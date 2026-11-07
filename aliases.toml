@@ -13472,7 +13472,7 @@ basis = "direct"
 
 [[entries]]
 old = "bestiary-4/monsters/scorpion/greensting"
-target = "ref/monster/scorpion-greensting-scorpion"
+target = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting"
 basis = "direct"
 
 [[entries]]
@@ -31374,6 +31374,286 @@ basis = "direct"
 old = "pf-data/rule/magic"
 target = "ref/rule/magic"
 basis = "direct"
+
+[[entries]]
+old = "ref/monster/cyclops-great-cyclops-mythic"
+target = "ref/carried/mythic-adventures/monsters/cyclops/great/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/demon-marilith-mythic"
+target = "ref/carried/mythic-adventures/monsters/demon/marilith/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/demon-nalfeshnee-mythic"
+target = "ref/carried/mythic-adventures/monsters/demon/nalfeshnee/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/demon-vrock-mythic"
+target = "ref/carried/mythic-adventures/monsters/demon/vrock/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/devil-bone-devil-mythic"
+target = "ref/carried/mythic-adventures/monsters/devil/bone/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-black-adult-black-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/black/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-black-ancient-black-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/black/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-black-young-black-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/black/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-blue-adult-blue-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/blue/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-blue-ancient-blue-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/blue/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-blue-young-blue-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/blue/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-green-adult-green-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/green/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-green-ancient-green-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/green/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-green-young-green-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/green/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-red-adult-red-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/red/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-red-ancient-red-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/red/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-red-wyrm-red-dragon-mythic"
+target = "ref/carried/mythic-adventures/monsters/dragon/red/red-dragon/wyrm/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-red-young-red-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/red/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-red-young-red-dragon-mythic"
+target = "ref/carried/mythic-adventures/monsters/dragon/red/red-dragon/young/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-white-adult-white-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/white/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-white-ancient-white-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/white/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-white-young-white-dragon"
+target = "ref/carried/bestiary/monsters/dragon/chromatic/white/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-brass-adult-brass-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/brass/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-brass-ancient-brass-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/brass/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-brass-young-brass-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/brass/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-bronze-adult-bronze-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/bronze/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-bronze-ancient-bronze-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/bronze/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-bronze-young-bronze-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/bronze/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-copper-adult-copper-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/copper/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-copper-ancient-copper-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/copper/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-copper-young-copper-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/copper/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-gold-adult-gold-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/gold/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-gold-ancient-gold-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/gold/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-gold-young-gold-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/gold/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-silver-adult-silver-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/silver/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-silver-ancient-silver-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/silver/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-metallic-silver-young-silver-dragon"
+target = "ref/carried/bestiary/monsters/dragon/metallic/silver/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-outer-lunar-adult-lunar-dragon"
+target = "ref/carried/bestiary-4/monsters/dragon/outer/lunar/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-outer-lunar-ancient-lunar-dragon"
+target = "ref/carried/bestiary-4/monsters/dragon/outer/lunar/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-outer-lunar-young-lunar-dragon"
+target = "ref/carried/bestiary-4/monsters/dragon/outer/lunar/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-outer-solar-adult-solar-dragon"
+target = "ref/carried/bestiary-4/monsters/dragon/outer/solar/adult"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-outer-solar-young-solar-dragon"
+target = "ref/carried/bestiary-4/monsters/dragon/outer/solar/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-outer-time-young-time-dragon"
+target = "ref/carried/bestiary-4/monsters/dragon/outer/time/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-outer-void-young-void-dragon"
+target = "ref/carried/bestiary-4/monsters/dragon/outer/void/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-outer-vortex-young-vortex-dragon"
+target = "ref/carried/bestiary-4/monsters/dragon/outer/vortex/young"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/giant-fire-giant-mythic"
+target = "ref/carried/mythic-adventures/monsters/giant/fire/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/giant-hill-giant-mythic"
+target = "ref/carried/mythic-adventures/monsters/giant/hill/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/hell-hound-mythic"
+target = "ref/carried/mythic-adventures/monsters/hell-hound/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/hell-hound-nessian-warhound"
+target = "ref/carried/bestiary/monsters/hell-hound/nessian"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/monkey-swarm"
+target = "ref/carried/bestiary-2/monsters/swarm/primate/monkey"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/rot-grub-giant-rot-grub"
+target = "ref/carried/bestiary-3/monsters/parasite/giant-rot-grub"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/rot-grub-rot-grub-swarm"
+target = "ref/carried/bestiary-3/monsters/swarm/parasite/rot-grub"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/scorpion-greensting-scorpion"
+target = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/spider-scarlet-spider"
+target = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/the-first-owlbear"
+target = "ref/carried/mythic-adventures/monsters/owlbear/the-first/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/winter-wolf-mythic"
+target = "ref/carried/mythic-adventures/monsters/worg/winter-wolf"
+basis = "shared"
 
 [[entries]]
 old = "technology-guide/rules/equipment"

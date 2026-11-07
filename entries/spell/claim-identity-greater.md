@@ -12,22 +12,22 @@ kind = "spell"
 school = "transmutation"
 subschools = ["Polymorph"]
 levels = [
-  { class = "Alchemist", level = 3 },
-  { class = "Antipaladin", level = 3 },
-  { class = "Arcanist", level = 4 },
-  { class = "Bard", level = 3 },
-  { class = "Druid", level = 4 },
-  { class = "Hunter", level = 4 },
-  { class = "Inquisitor", level = 3 },
-  { class = "Investigator", level = 3 },
-  { class = "Shaman", level = 4 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 4 },
+  { class = "Alchemist", level = 5 },
+  { class = "Antipaladin", level = 4 },
+  { class = "Arcanist", level = 6 },
+  { class = "Bard", level = 5 },
+  { class = "Druid", level = 6 },
+  { class = "Hunter", level = 6 },
+  { class = "Inquisitor", level = 5 },
+  { class = "Investigator", level = 5 },
+  { class = "Shaman", level = 6 },
+  { class = "Skald", level = 5 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M (a needle and thread)"
+components = "V, S, M (a silver needle costing 100 gp)"
 range = "touch"
 effects = [
   { label = "Target", value = "humanoid creature touched" },
@@ -40,15 +40,16 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 3: Alchemist, Antipaladin, Bard, Inquisitor, Investigator, Skald, Witch\
-4: Arcanist, Druid, Hunter, Shaman, Sorcerer, Wizard
+Level: 4: Antipaladin\
+5: Alchemist, Bard, Inquisitor, Investigator, Skald, Witch\
+6: Arcanist, Druid, Hunter, Shaman, Sorcerer, Wizard
 Casting time: 1 standard action
-Components: V, S, M (a needle and thread)
+Components: V, S, M (a silver needle costing 100 gp)
 Range: touch
+Target: humanoid creature touched
 Duration: 1 hour/level
 Saving throw: Fortitude negates
 Spell resistance: yes
-Target: humanoid creature touched
 Subschool: Polymorph
 :::
 

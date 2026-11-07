@@ -268,7 +268,8 @@ Varisia\
 > - [Summon Monster III:](ref/spell/summon-monster-3) [Star Monarch](ref/monster/star-monarch) - CG
 >   \[stats as a giant eagle\]
 > - [Summon Monster VII:](ref/spell/summon-monster-7)
->   [Young Brass Dragon](ref/monster/dragon-metallic-brass-young-brass-dragon) - CG (extraplanar)
+>   [Young Brass Dragon](ref/carried/bestiary/monsters/dragon/metallic/brass/young) - CG
+>   (extraplanar)
 >
 > **Sources:** Monster Summoner's Handbook pg 30
 >

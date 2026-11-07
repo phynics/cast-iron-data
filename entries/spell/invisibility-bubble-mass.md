@@ -13,29 +13,19 @@ school = "illusion"
 subschools = ["Glamer"]
 descriptors = ["glamer"]
 levels = [
-  { class = "Alchemist", level = 2 },
-  { class = "Antipaladin", level = 2 },
-  { class = "Arcanist", level = 2 },
-  { class = "Bard", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Investigator", level = 2 },
-  { class = "Magus", level = 2 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 2 },
-  { class = "Occultist", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Spiritualist", level = 2 },
-  { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 7 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Psychic", level = 7 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Summoner", level = 6 },
+  { class = "Unchained Summoner", level = 6 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (needle from a sea urchin)"
-range = "touch"
+range = "long (400 ft. + 40 ft./level)"
 effects = [
-  { label = "Area", value = "touched creature's space, up to one 5-foot-cube" },
+  { label = "Target", value = "any number of creatures, no two of which can be more than 180 ft. apart" },
 ]
 duration = "1 minute/level (D)"
 saving_throw = "Will negates (harmless)"
@@ -45,14 +35,15 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 2: Alchemist, Antipaladin, Arcanist, Bard, Inquisitor, Investigator, Magus, Medium, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Wizard
+Level: 6: Mesmerist, Summoner, Unchained Summoner\
+7: Arcanist, Psychic, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (needle from a sea urchin)
-Range: touch
+Range: long (400 ft. + 40 ft./level)
+Target: any number of creatures, no two of which can be more than 180 ft. apart
 Duration: 1 minute/level (D)
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Area: touched creature's space, up to one 5-foot-cube
 Subschool: Glamer
 Descriptors: glamer
 :::

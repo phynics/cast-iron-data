@@ -11,13 +11,13 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Druid", level = 7 },
+  { class = "Druid", level = 9 },
 ]
 casting_time = "10 minutes"
 components = "V, S, DF"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Targets", value = "one Large plant per three caster levels" },
+  { label = "Targets", value = "one Gargantuan, Huge, or Large plant per three caster levels" },
 ]
 duration = "1 hour/level (D)"
 saving_throw = "none"
@@ -27,14 +27,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 7: Druid
+Level: 9: Druid
 Casting time: 10 minutes
 Components: V, S, DF
 Range: close (25 ft. + 5 ft./2 levels)
+Targets: one Gargantuan, Huge, or Large plant per three caster levels
 Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
-Targets: one Large plant per three caster levels
 :::
 
 ## Siege of Trees

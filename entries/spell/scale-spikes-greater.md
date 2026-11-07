@@ -11,40 +11,41 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Alchemist", level = 2 },
-  { class = "Arcanist", level = 2 },
-  { class = "Bloodrager", level = 2 },
-  { class = "Druid", level = 2 },
-  { class = "Hunter", level = 2 },
-  { class = "Investigator", level = 2 },
-  { class = "Ranger", level = 2 },
-  { class = "Shaman", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Witch", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Alchemist", level = 4 },
+  { class = "Arcanist", level = 3 },
+  { class = "Bloodrager", level = 4 },
+  { class = "Druid", level = 3 },
+  { class = "Hunter", level = 3 },
+  { class = "Investigator", level = 4 },
+  { class = "Ranger", level = 3 },
+  { class = "Shaman", level = 3 },
+  { class = "Sorcerer", level = 3 },
+  { class = "Witch", level = 3 },
+  { class = "Wizard", level = 3 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M/DF (a small thorn)"
+components = "V, S, M/DF (a bit of thistle)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one living creature/level that is a reptile, has the dragon type, or has the reptilian subtype, and that also has a natural armor bonus of at least +1" },
+  { label = "Target", value = "one living creature/level that is a reptile, has the dragon type, or has the reptilian subtype, and also has a natural armor bonus of at least +1" },
 ]
-duration = "1 minute/level"
-saving_throw = "Fortitude negates (harmless)"
+duration = "1 hour/level"
+saving_throw = "Fort negates (harmless)"
 spell_resistance = "yes (harmless)"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Alchemist, Arcanist, Bloodrager, Druid, Hunter, Investigator, Ranger, Shaman, Sorcerer, Witch, Wizard
+Level: 3: Arcanist, Druid, Hunter, Ranger, Shaman, Sorcerer, Witch, Wizard\
+4: Alchemist, Bloodrager, Investigator
 Casting time: 1 standard action
-Components: V, S, M/DF (a small thorn)
+Components: V, S, M/DF (a bit of thistle)
 Range: close (25 ft. + 5 ft./2 levels)
-Duration: 1 minute/level
-Saving throw: Fortitude negates (harmless)
+Target: one living creature/level that is a reptile, has the dragon type, or has the reptilian subtype, and also has a natural armor bonus of at least +1
+Duration: 1 hour/level
+Saving throw: Fort negates (harmless)
 Spell resistance: yes (harmless)
-Target: one living creature/level that is a reptile, has the dragon type, or has the reptilian subtype, and that also has a natural armor bonus of at least +1
 :::
 
 ## Scale Spikes

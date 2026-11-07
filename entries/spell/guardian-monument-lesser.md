@@ -43,10 +43,10 @@ Level: 3: Arcanist, Bard, Inquisitor, Magus, Occultist, Paladin, Psychic, Skald,
 Casting time: 1 full-round action
 Components: V, S, F (an unattended, nonmagical object)
 Range: touch
+Area: 40-ft. radius from touched object or 60-ft. radius from touched object; see text
 Duration: 1 hour/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes
-Area: 40-ft. radius from touched object or 60-ft. radius from touched object; see text
 :::
 
 **Sources:** Arcane Anthology pg 8

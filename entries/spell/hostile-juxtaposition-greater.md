@@ -12,20 +12,19 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Teleportation"]
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Mesmerist", level = 4 },
-  { class = "Psychic", level = 5 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Summoner", level = 4 },
-  { class = "Unchained Summoner", level = 5 },
-  { class = "Witch", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 7 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Psychic", level = 7 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Summoner", level = 6 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a coin)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one creature of your size or smaller" },
+  { label = "Target", value = "one creature/4 levels" },
 ]
 duration = "1 round/level or until discharged"
 saving_throw = "Will negates"
@@ -35,15 +34,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 4: Mesmerist, Summoner\
-5: Arcanist, Psychic, Sorcerer, Unchained Summoner, Witch, Wizard
+Level: 6: Mesmerist, Summoner\
+7: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a coin)
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/4 levels
 Duration: 1 round/level or until discharged
 Saving throw: Will negates
 Spell resistance: yes
-Target: one creature of your size or smaller
 Subschool: Teleportation
 :::
 

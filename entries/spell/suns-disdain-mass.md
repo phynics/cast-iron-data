@@ -12,22 +12,22 @@ kind = "spell"
 school = "transmutation"
 descriptors = ["curse"]
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Bloodrager", level = 2 },
-  { class = "Cleric", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Shaman", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Warpriest", level = 2 },
-  { class = "Witch", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 5 },
+  { class = "Bloodrager", level = 5 },
+  { class = "Cleric", level = 5 },
+  { class = "Inquisitor", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Shaman", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Warpriest", level = 5 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M/DF (a piece of glass)"
-range = "touch"
+range = "long (400 ft. + 40 ft./level)"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "permanent"
 saving_throw = "Will negates"
@@ -37,14 +37,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Arcanist, Bloodrager, Cleric, Inquisitor, Oracle, Shaman, Sorcerer, Warpriest, Witch, Wizard
+Level: 5: Arcanist, Bloodrager, Cleric, Inquisitor, Oracle, Shaman, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (a piece of glass)
-Range: touch
+Range: long (400 ft. + 40 ft./level)
+Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: permanent
 Saving throw: Will negates
 Spell resistance: yes
-Target: creature touched
 Descriptors: curse
 :::
 

@@ -13,14 +13,14 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Bard", level = 2 },
-  { class = "Skald", level = 2 },
+  { class = "Bard", level = 5 },
+  { class = "Skald", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a scrap of sheet music)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Target", value = "one creature/level (all of which must be within 30 feet)" },
 ]
 duration = "1 round/level"
 saving_throw = "Will negates"
@@ -30,14 +30,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 2: Bard, Skald
+Level: 5: Bard, Skald
 Casting time: 1 standard action
 Components: V, S, M (a scrap of sheet music)
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level (all of which must be within 30 feet)
 Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
-Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::

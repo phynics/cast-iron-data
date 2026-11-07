@@ -12,30 +12,25 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Adept", level = 3 },
-  { class = "Alchemist", level = 4 },
-  { class = "Bard", level = 4 },
-  { class = "Cleric", level = 4 },
-  { class = "Druid", level = 3 },
-  { class = "Hunter", level = 3 },
-  { class = "Inquisitor", level = 4 },
-  { class = "Investigator", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Paladin", level = 4 },
-  { class = "Ranger", level = 3 },
-  { class = "Shaman", level = 4 },
-  { class = "Skald", level = 4 },
-  { class = "Spiritualist", level = 4 },
-  { class = "Warpriest", level = 4 },
-  { class = "Witch", level = 4 },
+  { class = "Alchemist", level = 6 },
+  { class = "Bard", level = 6 },
+  { class = "Cleric", level = 6 },
+  { class = "Druid", level = 5 },
+  { class = "Hunter", level = 5 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Investigator", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Skald", level = 6 },
+  { class = "Warpriest", level = 6 },
+  { class = "Witch", level = 6 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M/DF (charcoal)"
+components = "V, S, M/DF (a lump of charcoal)"
 range = "touch"
 effects = [
   { label = "Target", value = "creature or object of up to 1 cu. ft./level touched" },
 ]
-duration = "instantaneous or 10 min./level; see text"
+duration = "instantaneous or 1 hour/level (D)"
 saving_throw = "Will negates (harmless) (object)"
 spell_resistance = "yes (harmless) (object)"
 +++
@@ -43,15 +38,15 @@ spell_resistance = "yes (harmless) (object)"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 3: Adept, Druid, Hunter, Ranger\
-4: Alchemist, Bard, Cleric, Inquisitor, Investigator, Oracle, Paladin, Shaman, Skald, Spiritualist, Warpriest, Witch
+Level: 5: Druid, Hunter\
+6: Alchemist, Bard, Cleric, Inquisitor, Investigator, Oracle, Skald, Warpriest, Witch
 Casting time: 1 standard action
-Components: V, S, M/DF (charcoal)
+Components: V, S, M/DF (a lump of charcoal)
 Range: touch
-Duration: instantaneous or 10 min./level; see text
+Target: creature or object of up to 1 cu. ft./level touched
+Duration: instantaneous or 1 hour/level (D)
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
-Target: creature or object of up to 1 cu. ft./level touched
 Subschool: Healing
 :::
 

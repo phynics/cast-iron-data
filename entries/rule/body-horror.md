@@ -49,9 +49,10 @@ greatest risk of exposure to infection. In that way, the defeat of the invisible
 climax, but it also has the extremely personal threat of another outbreak.
 
 **Monsters and Threats:** Parasites and diseases often feature in body horror stories, so consider
-rot grubs (of the [giant variety](ref/monster/rot-grub-giant-rot-grub) or more common hazards),
-[ear seekers](ref/infestation/ear-seekers), [intellect devourers](ref/monster/intellect-devourer),
-or [visceral plagues of disease](ref/rule/diseases) (though consider using the
+rot grubs (of the [giant variety](ref/carried/bestiary-3/monsters/parasite/giant-rot-grub) or more
+common hazards), [ear seekers](ref/infestation/ear-seekers),
+[intellect devourers](ref/monster/intellect-devourer), or
+[visceral plagues of disease](ref/rule/diseases) (though consider using the
 [unchained rules for diseases](ref/rule/diseases-and-poisons)). Creatures that implant their eggs or
 are born from other creatures include [lunarmas](ref/monster/lunarma),
 [vegepygmies](ref/monster/vegepygmy), and [xills](ref/monster/xill), while those who cling to or

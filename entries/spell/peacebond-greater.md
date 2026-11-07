@@ -11,19 +11,19 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Inquisitor", level = 1 },
-  { class = "Occultist", level = 1 },
-  { class = "Psychic", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Witch", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 5 },
+  { class = "Inquisitor", level = 4 },
+  { class = "Occultist", level = 4 },
+  { class = "Psychic", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "S"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one sheathed or slung weapon" },
+  { label = "Target", value = "up to one weapon/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 minute/level"
 saving_throw = "Will negates (object)"
@@ -33,14 +33,15 @@ spell_resistance = "yes (object)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 1: Arcanist, Inquisitor, Occultist, Psychic, Sorcerer, Witch, Wizard
+Level: 4: Inquisitor, Occultist\
+5: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: S
-Range: close (25 ft. + 5 ft./2 levels)
+Range: medium (100 ft. + 10 ft./level)
+Target: up to one weapon/level, no two of which can be more than 30 ft. apart
 Duration: 1 minute/level
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
-Target: one sheathed or slung weapon
 :::
 
 ## Peacebond

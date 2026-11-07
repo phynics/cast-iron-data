@@ -12,34 +12,31 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Cleric", level = 7 },
-  { class = "Oracle", level = 7 },
-  { class = "Shaman", level = 8 },
-  { class = "Witch", level = 8 },
+  { class = "Cleric", level = 9 },
+  { class = "Oracle", level = 9 },
 ]
 casting_time = "1 minute"
-components = "V, S, DF, M (diamond worth 10,000 gp)"
+components = "V, S, DF, M (diamond worth 25,000 gp)"
 range = "touch"
 effects = [
   { label = "Target", value = "dead creature touched" },
 ]
-duration = "instantaneous"
-saving_throw = "none, see text"
-spell_resistance = "yes"
+duration = "permanent"
+saving_throw = "none"
+spell_resistance = "yes (harmless)"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 7: Cleric, Oracle\
-8: Shaman, Witch
+Level: 9: Cleric, Oracle
 Casting time: 1 minute
-Components: V, S, DF, M (diamond worth 10,000 gp)
+Components: V, S, DF, M (diamond worth 25,000 gp)
 Range: touch
-Duration: instantaneous
-Saving throw: none, see text
-Spell resistance: yes
 Target: dead creature touched
+Duration: permanent
+Saving throw: none
+Spell resistance: yes (harmless)
 Subschool: Healing
 :::
 

@@ -12,23 +12,21 @@ kind = "spell"
 school = "necromancy"
 descriptors = ["evil"]
 levels = [
-  { class = "Adept", level = 3 },
-  { class = "Antipaladin", level = 3 },
-  { class = "Arcanist", level = 4 },
-  { class = "Cleric", level = 3 },
-  { class = "Occultist", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Shaman", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Spiritualist", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 3 },
+  { class = "Cleric", level = 2 },
+  { class = "Occultist", level = 2 },
+  { class = "Oracle", level = 2 },
+  { class = "Shaman", level = 2 },
+  { class = "Sorcerer", level = 3 },
+  { class = "Spiritualist", level = 2 },
+  { class = "Warpriest", level = 2 },
+  { class = "Wizard", level = 3 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (an onyx gem worth at least 25 gp per Hit Die of the undead)"
 range = "touch"
 effects = [
-  { label = "Targets", value = "one or more corpses touched" },
+  { label = "Target", value = "one corpse" },
 ]
 duration = "instantaneous"
 saving_throw = "none"
@@ -38,15 +36,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 3: Adept, Antipaladin, Cleric, Occultist, Oracle, Shaman, Spiritualist, Warpriest\
-4: Arcanist, Sorcerer, Wizard
+Level: 2: Cleric, Occultist, Oracle, Shaman, Spiritualist, Warpriest\
+3: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (an onyx gem worth at least 25 gp per Hit Die of the undead)
 Range: touch
+Target: one corpse
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Targets: one or more corpses touched
 Descriptors: evil
 :::
 

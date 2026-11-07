@@ -41,10 +41,10 @@ Level: 2: Medium, Occultist\
 Casting time: 1 standard action
 Components: V, S
 Range: touch
+Target: unattended Tiny or Small object
 Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
-Target: unattended Tiny or Small object
 :::
 
 **Sources:** Occult Adventures pg 179

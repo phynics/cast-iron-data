@@ -13,16 +13,11 @@ school = "illusion"
 subschools = ["Shadow"]
 descriptors = ["shadow"]
 levels = [
-  { class = "Arcanist", level = 6 },
-  { class = "Bard", level = 6 },
-  { class = "Medium", level = 6 },
-  { class = "Shaman", level = 6 },
-  { class = "Skald", level = 6 },
-  { class = "Sorcerer", level = 6 },
-  { class = "Spiritualist", level = 6 },
-  { class = "Summoner", level = 6 },
-  { class = "Witch", level = 6 },
-  { class = "Wizard", level = 6 },
+  { class = "Arcanist", level = 9 },
+  { class = "Shaman", level = 9 },
+  { class = "Sorcerer", level = 9 },
+  { class = "Witch", level = 9 },
+  { class = "Wizard", level = 9 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -38,14 +33,14 @@ spell_resistance = "yes, see text"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 6: Arcanist, Bard, Medium, Shaman, Skald, Sorcerer, Spiritualist, Summoner, Witch, Wizard
+Level: 9: Arcanist, Shaman, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: see text
+Target: see text
 Duration: see text
 Saving throw: Will disbelief (if interacted with), varies, see text
 Spell resistance: yes, see text
-Target: see text
 Subschool: Shadow
 Descriptors: shadow
 :::

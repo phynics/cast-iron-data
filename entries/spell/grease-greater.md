@@ -12,21 +12,19 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Creation"]
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Bard", level = 1 },
-  { class = "Magus", level = 1 },
-  { class = "Mesmerist", level = 1 },
-  { class = "Skald", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Summoner", level = 1 },
-  { class = "Unchained Summoner", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 5 },
+  { class = "Bard", level = 5 },
+  { class = "Magus", level = 5 },
+  { class = "Skald", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Summoner", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (butter)"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one object or 10-ft. square" },
+  { label = "Target", value = "one object/2 levels or 1 10-ft. square/2 levels; see text" },
 ]
 duration = "1 minute/level (D)"
 saving_throw = "see text"
@@ -36,14 +34,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 1: Arcanist, Bard, Magus, Mesmerist, Skald, Sorcerer, Summoner, Unchained Summoner, Wizard
+Level: 5: Arcanist, Bard, Magus, Skald, Sorcerer, Summoner, Wizard
 Casting time: 1 standard action
 Components: V, S, M (butter)
-Range: close (25 ft. + 5 ft./2 levels)
+Range: medium (100 ft. + 10 ft./level)
+Target: one object/2 levels or 1 10-ft. square/2 levels; see text
 Duration: 1 minute/level (D)
 Saving throw: see text
 Spell resistance: no
-Target: one object or 10-ft. square
 Subschool: Creation
 :::
 

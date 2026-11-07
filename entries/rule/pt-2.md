@@ -30,7 +30,7 @@ kind = "none"
 |49-54|1d4 night hags|11|
 |55-57|1d4 [bone devils](ref/monster/devil-bone-devil-osyluth)|11|
 |58-60|1 [devourer](ref/monster/devourer)|11|
-|61-62|1d4 [nessian hell hounds](ref/monster/hell-hound-nessian-warhound)|11|
+|61-62|1d4 [nessian hell hounds](ref/carried/bestiary/monsters/hell-hound/nessian)|11|
 |63-67|1 [lich](ref/template/lich)|12|
 |68-72|1 [ghaele](ref/monster/azata-ghaele)|13|
 |73-77|1 [astral deva](ref/monster/angel-astral-deva)|14|

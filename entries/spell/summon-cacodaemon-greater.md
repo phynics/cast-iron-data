@@ -13,15 +13,15 @@ school = "conjuration"
 subschools = ["Summoning"]
 descriptors = ["evil"]
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Cleric", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
-  { class = "Warpriest", level = 2 },
-  { class = "Witch", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 4 },
+  { class = "Cleric", level = 4 },
+  { class = "Oracle", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Summoner", level = 3 },
+  { class = "Unchained Summoner", level = 3 },
+  { class = "Warpriest", level = 4 },
+  { class = "Witch", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 round"
 components = "V, S, F (a silver hook)"
@@ -37,14 +37,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 2: Arcanist, Cleric, Oracle, Sorcerer, Summoner, Unchained Summoner, Warpriest, Witch, Wizard
+Level: 3: Summoner, Unchained Summoner\
+4: Arcanist, Cleric, Oracle, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 round
 Components: V, S, F (a silver hook)
 Range: close (25 ft. + 5 ft./2 levels)
+Effect: one summoned creature
 Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
-Effect: one summoned creature
 Subschool: Summoning
 Descriptors: evil
 :::

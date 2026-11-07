@@ -11,9 +11,9 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Bard", level = 2 },
-  { class = "Magus", level = 2 },
-  { class = "Skald", level = 2 },
+  { class = "Bard", level = 5 },
+  { class = "Magus", level = 5 },
+  { class = "Skald", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V"
@@ -29,14 +29,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Bard, Magus, Skald
+Level: 5: Bard, Magus, Skald
 Casting time: 1 standard action
 Components: V
 Range: personal
+Target: you
 Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Target: you
 :::
 
 ## Bladed Dash

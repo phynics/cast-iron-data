@@ -43,10 +43,10 @@ Level: 5: Occultist, Summoner\
 Casting time: 2 hours
 Components: V, S, F (a forked metal rod worth at least 500 gp)
 Range: 0 ft.
+Effect: extradimensional demiplane, up to three 10-ft. cubes/level (S)
 Duration: 1 day/level
 Saving throw: none
 Spell resistance: no
-Effect: extradimensional demiplane, up to three 10-ft. cubes/level (S)
 Subschool: Creation
 :::
 

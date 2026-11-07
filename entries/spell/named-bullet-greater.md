@@ -11,14 +11,14 @@ provenance = [
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Hunter", level = 3 },
-  { class = "Inquisitor", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Ranger", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 6 },
+  { class = "Hunter", level = 4 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Psychic", level = 6 },
+  { class = "Ranger", level = 4 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Witch", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M/DF (an item from the selected creature or creature type)"
@@ -34,15 +34,15 @@ spell_resistance = "yes (harmless) (object)"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Hunter, Ranger\
-4: Arcanist, Inquisitor, Psychic, Sorcerer, Witch, Wizard
+Level: 4: Hunter, Ranger\
+6: Arcanist, Inquisitor, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (an item from the selected creature or creature type)
 Range: touch
+Target: one piece of ammunition or one thrown weapon
 Duration: 10 minutes/level or until discharged
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
-Target: one piece of ammunition or one thrown weapon
 :::
 
 ## Named Bullet

@@ -14519,92 +14519,8 @@ title = "Skaveling Ghoul Fever"
 entry = "ref/carried/bestiary-2/monsters/bat/skaveling/special-abilities/disease/skaveling-ghoul-fever"
 
 [[books.chapters.children]]
-title = "Adult Black Dragon"
-entry = "ref/monster/dragon-chromatic-black-adult-black-dragon"
-
-[[books.chapters.children]]
-title = "Adult Blue Dragon"
-entry = "ref/monster/dragon-chromatic-blue-adult-blue-dragon"
-
-[[books.chapters.children]]
-title = "Adult Brass Dragon"
-entry = "ref/monster/dragon-metallic-brass-adult-brass-dragon"
-
-[[books.chapters.children]]
-title = "Adult Bronze Dragon"
-entry = "ref/monster/dragon-metallic-bronze-adult-bronze-dragon"
-
-[[books.chapters.children]]
-title = "Adult Copper Dragon"
-entry = "ref/monster/dragon-metallic-copper-adult-copper-dragon"
-
-[[books.chapters.children]]
-title = "Adult Gold Dragon"
-entry = "ref/monster/dragon-metallic-gold-adult-gold-dragon"
-
-[[books.chapters.children]]
-title = "Adult Green Dragon"
-entry = "ref/monster/dragon-chromatic-green-adult-green-dragon"
-
-[[books.chapters.children]]
-title = "Adult Red Dragon"
-entry = "ref/monster/dragon-chromatic-red-adult-red-dragon"
-
-[[books.chapters.children]]
-title = "Adult Silver Dragon"
-entry = "ref/monster/dragon-metallic-silver-adult-silver-dragon"
-
-[[books.chapters.children]]
-title = "Adult White Dragon"
-entry = "ref/monster/dragon-chromatic-white-adult-white-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Black Dragon"
-entry = "ref/monster/dragon-chromatic-black-ancient-black-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Blue Dragon"
-entry = "ref/monster/dragon-chromatic-blue-ancient-blue-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Brass Dragon"
-entry = "ref/monster/dragon-metallic-brass-ancient-brass-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Bronze Dragon"
-entry = "ref/monster/dragon-metallic-bronze-ancient-bronze-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Copper Dragon"
-entry = "ref/monster/dragon-metallic-copper-ancient-copper-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Gold Dragon"
-entry = "ref/monster/dragon-metallic-gold-ancient-gold-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Green Dragon"
-entry = "ref/monster/dragon-chromatic-green-ancient-green-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Red Dragon"
-entry = "ref/monster/dragon-chromatic-red-ancient-red-dragon"
-
-[[books.chapters.children]]
-title = "Ancient Silver Dragon"
-entry = "ref/monster/dragon-metallic-silver-ancient-silver-dragon"
-
-[[books.chapters.children]]
-title = "Ancient White Dragon"
-entry = "ref/monster/dragon-chromatic-white-ancient-white-dragon"
-
-[[books.chapters.children]]
 title = "Gynosphinx (Sphinx)"
 entry = "ref/monster/sphinx-gynosphinx"
-
-[[books.chapters.children]]
-title = "Nessian Warhound (Hell Hound)"
-entry = "ref/monster/hell-hound-nessian-warhound"
 
 [[books.chapters.children]]
 title = "Oxen (Herd Animal)"
@@ -14621,46 +14537,6 @@ entry = "ref/monster/moldering-emperor"
 [[books.chapters.children]]
 title = "Yak (Herd Animal)"
 entry = "ref/monster/yak"
-
-[[books.chapters.children]]
-title = "Young Black Dragon"
-entry = "ref/monster/dragon-chromatic-black-young-black-dragon"
-
-[[books.chapters.children]]
-title = "Young Blue Dragon"
-entry = "ref/monster/dragon-chromatic-blue-young-blue-dragon"
-
-[[books.chapters.children]]
-title = "Young Brass Dragon"
-entry = "ref/monster/dragon-metallic-brass-young-brass-dragon"
-
-[[books.chapters.children]]
-title = "Young Bronze Dragon"
-entry = "ref/monster/dragon-metallic-bronze-young-bronze-dragon"
-
-[[books.chapters.children]]
-title = "Young Copper Dragon"
-entry = "ref/monster/dragon-metallic-copper-young-copper-dragon"
-
-[[books.chapters.children]]
-title = "Young Gold Dragon"
-entry = "ref/monster/dragon-metallic-gold-young-gold-dragon"
-
-[[books.chapters.children]]
-title = "Young Green Dragon"
-entry = "ref/monster/dragon-chromatic-green-young-green-dragon"
-
-[[books.chapters.children]]
-title = "Young Red Dragon"
-entry = "ref/monster/dragon-chromatic-red-young-red-dragon"
-
-[[books.chapters.children]]
-title = "Young Silver Dragon"
-entry = "ref/monster/dragon-metallic-silver-young-silver-dragon"
-
-[[books.chapters.children]]
-title = "Young White Dragon"
-entry = "ref/monster/dragon-chromatic-white-young-white-dragon"
 
 [[books.chapters.children]]
 title = "Black Smear"
@@ -17304,10 +17180,6 @@ title = "Baboon"
 entry = "ref/monster/baboon"
 
 [[books.chapters.children]]
-title = "Monkey Swarm"
-entry = "ref/monster/monkey-swarm"
-
-[[books.chapters.children]]
 title = "Baboon"
 entry = "ref/companion/baboon"
 
@@ -19553,14 +19425,6 @@ title = "Thylacine"
 entry = "ref/monster/thylacine"
 
 [[books.chapters.children]]
-title = "Giant Rot Grub"
-entry = "ref/monster/rot-grub-giant-rot-grub"
-
-[[books.chapters.children]]
-title = "Rot Grub Swarm"
-entry = "ref/monster/rot-grub-rot-grub-swarm"
-
-[[books.chapters.children]]
 title = "Penanggalen"
 entry = "ref/template/penanggalen"
 
@@ -20839,7 +20703,7 @@ entry = "ref/monster/scorpion-giant-emperor-scorpion"
 
 [[books.chapters.children]]
 title = "Scorpion, Greensting"
-entry = "ref/monster/scorpion-greensting-scorpion"
+entry = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting"
 
 [[books.chapters.children]]
 title = "Sea Cat"
@@ -21178,28 +21042,8 @@ title = "Dragon (Outer)"
 entry = "ref/family/dragon-outer"
 
 [[books.chapters.children]]
-title = "Adult Lunar Dragon"
-entry = "ref/monster/dragon-outer-lunar-adult-lunar-dragon"
-
-[[books.chapters.children]]
-title = "Young Lunar Dragon"
-entry = "ref/monster/dragon-outer-lunar-young-lunar-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (Outer, Lunar)"
 entry = "ref/family/dragon-outer-lunar"
-
-[[books.chapters.children]]
-title = "Ancient Lunar Dragon"
-entry = "ref/monster/dragon-outer-lunar-ancient-lunar-dragon"
-
-[[books.chapters.children]]
-title = "Adult Solar Dragon"
-entry = "ref/monster/dragon-outer-solar-adult-solar-dragon"
-
-[[books.chapters.children]]
-title = "Young Solar Dragon"
-entry = "ref/monster/dragon-outer-solar-young-solar-dragon"
 
 [[books.chapters.children]]
 title = "Dragon (Outer, Solar)"
@@ -21214,10 +21058,6 @@ title = "Adult Time Dragon"
 entry = "ref/monster/dragon-outer-time-adult-time-dragon"
 
 [[books.chapters.children]]
-title = "Young Time Dragon"
-entry = "ref/monster/dragon-outer-time-young-time-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (Outer, Time)"
 entry = "ref/family/dragon-outer-time"
 
@@ -21230,10 +21070,6 @@ title = "Adult Void Dragon"
 entry = "ref/monster/dragon-outer-void-adult-void-dragon"
 
 [[books.chapters.children]]
-title = "Young Void Dragon"
-entry = "ref/monster/dragon-outer-void-young-void-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (Outer, Void)"
 entry = "ref/family/dragon-outer-void"
 
@@ -21244,10 +21080,6 @@ entry = "ref/monster/dragon-outer-void-ancient-void-dragon"
 [[books.chapters.children]]
 title = "Adult Vortex Dragon"
 entry = "ref/monster/dragon-outer-vortex-adult-vortex-dragon"
-
-[[books.chapters.children]]
-title = "Young Vortex Dragon"
-entry = "ref/monster/dragon-outer-vortex-young-vortex-dragon"
 
 [[books.chapters.children]]
 title = "Dragon (Outer, Vortex)"
@@ -43497,26 +43329,6 @@ title = "Cockatrice"
 entry = "ref/monster/cockatrice-mythic"
 
 [[books.chapters.children]]
-title = "Great Cyclops"
-entry = "ref/monster/cyclops-great-cyclops-mythic"
-
-[[books.chapters.children]]
-title = "Marilith (Demon)"
-entry = "ref/monster/demon-marilith-mythic"
-
-[[books.chapters.children]]
-title = "Nalfeshnee (Demon)"
-entry = "ref/monster/demon-nalfeshnee-mythic"
-
-[[books.chapters.children]]
-title = "Vrock (Demon)"
-entry = "ref/monster/demon-vrock-mythic"
-
-[[books.chapters.children]]
-title = "Bone Devil (Devil)"
-entry = "ref/monster/devil-bone-devil-mythic"
-
-[[books.chapters.children]]
 title = "Ice Devil (Devil)"
 entry = "ref/monster/devil-ice-devil-mythic"
 
@@ -43531,14 +43343,6 @@ entry = "ref/monster/dragon-chromatic-blue-mature-adult-blue-dragon-mythic"
 [[books.chapters.children]]
 title = "Very Old Green Dragon"
 entry = "ref/monster/dragon-chromatic-green-very-old-green-dragon-mythic"
-
-[[books.chapters.children]]
-title = "Wyrm Red Dragon"
-entry = "ref/monster/dragon-chromatic-red-wyrm-red-dragon-mythic"
-
-[[books.chapters.children]]
-title = "Young Red Dragon"
-entry = "ref/monster/dragon-chromatic-red-young-red-dragon-mythic"
 
 [[books.chapters.children]]
 title = "Juvenile White Dragon"
@@ -43573,20 +43377,8 @@ title = "Gargoyle"
 entry = "ref/monster/gargoyle-mythic"
 
 [[books.chapters.children]]
-title = "Fire Giant"
-entry = "ref/monster/giant-fire-giant-mythic"
-
-[[books.chapters.children]]
-title = "Hill Giant"
-entry = "ref/monster/giant-hill-giant-mythic"
-
-[[books.chapters.children]]
 title = "Griffon"
 entry = "ref/monster/griffon-mythic"
-
-[[books.chapters.children]]
-title = "Hell Hound"
-entry = "ref/monster/hell-hound-mythic"
 
 [[books.chapters.children]]
 title = "Nessian Warhound (Hell Hound)"
@@ -43629,10 +43421,6 @@ title = "Owlbear"
 entry = "ref/monster/owlbear-mythic"
 
 [[books.chapters.children]]
-title = "The First Owlbear"
-entry = "ref/monster/the-first-owlbear"
-
-[[books.chapters.children]]
 title = "Phoenix"
 entry = "ref/monster/phoenix-mythic"
 
@@ -43663,10 +43451,6 @@ entry = "ref/monster/vampire-mythic"
 [[books.chapters.children]]
 title = "Mythic Vampire"
 entry = "ref/template/mythic-vampire"
-
-[[books.chapters.children]]
-title = "Winter Wolf"
-entry = "ref/monster/winter-wolf-mythic"
 
 [[books.chapters.children]]
 title = "Worg"
@@ -69336,14 +69120,6 @@ entry = "ref/rule/repairing-constructs"
 [[books.chapters.children]]
 title = "Complex Construct Modifications"
 entry = "ref/rule/complex-modifications"
-
-[[books.chapters.children]]
-title = "Greensting Scorpion"
-entry = "ref/monster/scorpion-greensting-scorpion"
-
-[[books.chapters.children]]
-title = "Scarlet Spider"
-entry = "ref/monster/spider-scarlet-spider"
 
 [[books.chapters.children]]
 title = "Turtle"
@@ -138396,14 +138172,6 @@ title = "Haniver (Gremlin)"
 entry = "ref/monster/gremlin-haniver"
 
 [[books.chapters.children]]
-title = "Giant Rot Grub"
-entry = "ref/monster/rot-grub-giant-rot-grub"
-
-[[books.chapters.children]]
-title = "Rot Grub Swarm"
-entry = "ref/monster/rot-grub-rot-grub-swarm"
-
-[[books.chapters.children]]
 title = "Shadowgarm"
 entry = "ref/monster/shadowgarm"
 
@@ -145706,168 +145474,48 @@ title = "Doppelganger"
 entry = "ref/monster/doppelganger"
 
 [[books.chapters.children]]
-title = "Adult Black Dragon"
-entry = "ref/monster/dragon-chromatic-black-adult-black-dragon"
-
-[[books.chapters.children]]
-title = "Young Black Dragon"
-entry = "ref/monster/dragon-chromatic-black-young-black-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (Black)"
 entry = "ref/family/dragon-black"
-
-[[books.chapters.children]]
-title = "Ancient Black Dragon"
-entry = "ref/monster/dragon-chromatic-black-ancient-black-dragon"
-
-[[books.chapters.children]]
-title = "Adult Blue Dragon"
-entry = "ref/monster/dragon-chromatic-blue-adult-blue-dragon"
-
-[[books.chapters.children]]
-title = "Young Blue Dragon"
-entry = "ref/monster/dragon-chromatic-blue-young-blue-dragon"
 
 [[books.chapters.children]]
 title = "Dragon (Blue)"
 entry = "ref/family/dragon-blue"
 
 [[books.chapters.children]]
-title = "Ancient Blue Dragon"
-entry = "ref/monster/dragon-chromatic-blue-ancient-blue-dragon"
-
-[[books.chapters.children]]
-title = "Adult Green Dragon"
-entry = "ref/monster/dragon-chromatic-green-adult-green-dragon"
-
-[[books.chapters.children]]
-title = "Young Green Dragon"
-entry = "ref/monster/dragon-chromatic-green-young-green-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (Green)"
 entry = "ref/family/dragon-green"
-
-[[books.chapters.children]]
-title = "Ancient Green Dragon"
-entry = "ref/monster/dragon-chromatic-green-ancient-green-dragon"
-
-[[books.chapters.children]]
-title = "Adult Red Dragon"
-entry = "ref/monster/dragon-chromatic-red-adult-red-dragon"
-
-[[books.chapters.children]]
-title = "Young Red Dragon"
-entry = "ref/monster/dragon-chromatic-red-young-red-dragon"
 
 [[books.chapters.children]]
 title = "Dragon (Red)"
 entry = "ref/family/dragon-red"
 
 [[books.chapters.children]]
-title = "Ancient Red Dragon"
-entry = "ref/monster/dragon-chromatic-red-ancient-red-dragon"
-
-[[books.chapters.children]]
-title = "Adult White Dragon"
-entry = "ref/monster/dragon-chromatic-white-adult-white-dragon"
-
-[[books.chapters.children]]
-title = "Young White Dragon"
-entry = "ref/monster/dragon-chromatic-white-young-white-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (White)"
 entry = "ref/family/dragon-white"
-
-[[books.chapters.children]]
-title = "Ancient White Dragon"
-entry = "ref/monster/dragon-chromatic-white-ancient-white-dragon"
-
-[[books.chapters.children]]
-title = "Adult Brass Dragon"
-entry = "ref/monster/dragon-metallic-brass-adult-brass-dragon"
-
-[[books.chapters.children]]
-title = "Young Brass Dragon"
-entry = "ref/monster/dragon-metallic-brass-young-brass-dragon"
 
 [[books.chapters.children]]
 title = "Dragon (Brass)"
 entry = "ref/family/dragon-brass"
 
 [[books.chapters.children]]
-title = "Ancient Brass Dragon"
-entry = "ref/monster/dragon-metallic-brass-ancient-brass-dragon"
-
-[[books.chapters.children]]
-title = "Adult Bronze Dragon"
-entry = "ref/monster/dragon-metallic-bronze-adult-bronze-dragon"
-
-[[books.chapters.children]]
-title = "Young Bronze Dragon"
-entry = "ref/monster/dragon-metallic-bronze-young-bronze-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (Bronze)"
 entry = "ref/family/dragon-bronze"
-
-[[books.chapters.children]]
-title = "Ancient Bronze Dragon"
-entry = "ref/monster/dragon-metallic-bronze-ancient-bronze-dragon"
-
-[[books.chapters.children]]
-title = "Adult Copper Dragon"
-entry = "ref/monster/dragon-metallic-copper-adult-copper-dragon"
-
-[[books.chapters.children]]
-title = "Young Copper Dragon"
-entry = "ref/monster/dragon-metallic-copper-young-copper-dragon"
 
 [[books.chapters.children]]
 title = "Dragon (Copper)"
 entry = "ref/family/dragon-copper"
 
 [[books.chapters.children]]
-title = "Ancient Copper Dragon"
-entry = "ref/monster/dragon-metallic-copper-ancient-copper-dragon"
-
-[[books.chapters.children]]
-title = "Adult Gold Dragon"
-entry = "ref/monster/dragon-metallic-gold-adult-gold-dragon"
-
-[[books.chapters.children]]
-title = "Young Gold Dragon"
-entry = "ref/monster/dragon-metallic-gold-young-gold-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (Gold)"
 entry = "ref/family/dragon-gold"
-
-[[books.chapters.children]]
-title = "Ancient Gold Dragon"
-entry = "ref/monster/dragon-metallic-gold-ancient-gold-dragon"
-
-[[books.chapters.children]]
-title = "Adult Silver Dragon"
-entry = "ref/monster/dragon-metallic-silver-adult-silver-dragon"
 
 [[books.chapters.children]]
 title = "Mummy"
 entry = "ref/monster/mummy"
 
 [[books.chapters.children]]
-title = "Young Silver Dragon"
-entry = "ref/monster/dragon-metallic-silver-young-silver-dragon"
-
-[[books.chapters.children]]
 title = "Dragon (Silver)"
 entry = "ref/family/dragon-silver"
-
-[[books.chapters.children]]
-title = "Ancient Silver Dragon"
-entry = "ref/monster/dragon-metallic-silver-ancient-silver-dragon"
 
 [[books.chapters.children]]
 title = "Dragon Turtle"
@@ -146192,10 +145840,6 @@ entry = "ref/monster/harpy"
 [[books.chapters.children]]
 title = "Hell Hound"
 entry = "ref/monster/hell-hound"
-
-[[books.chapters.children]]
-title = "Nessian Warhound (Hell Hound)"
-entry = "ref/monster/hell-hound-nessian-warhound"
 
 [[books.chapters.children]]
 title = "Aurochs (Herd Animal)"

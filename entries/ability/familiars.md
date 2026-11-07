@@ -41,10 +41,12 @@ on a master's person than Tiny or smaller familiars; some form of magic item, li
 
 Construct, plant, and vermin familiars gain an Intelligence score, and they lose the mindless trait
 if they had it. If such familiars lack a language, they communicate with their masters and other
-creatures of their kind ([greensting scorpions](ref/monster/scorpion-greensting-scorpion) with other
-scorpions, mobile plant creatures with other mobile plant creatures, and so on) by way of a strange
-combination of behaviors, slight changes in coloration, and sometimes even the excretion of scents
-or pheromones. Other types of creatures can't understand this communication without magical aid.
+creatures of their kind
+([greensting scorpions](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting)
+with other scorpions, mobile plant creatures with other mobile plant creatures, and so on) by way of
+a strange combination of behaviors, slight changes in coloration, and sometimes even the excretion
+of scents or pheromones. Other types of creatures can't understand this communication without
+magical aid.
 
 Outsiders and undead creatures are normally available only with the
 [Improved Familiar](ref/feat/improved-familiar) feat, and require no other special rules.
@@ -127,7 +129,7 @@ Improved familiars [are listed here.](ref/ability/improved-familiars)
 |[Rhamphorhynchus](ref/monster/familiar-rhamphorhynchus)|+4 bonus on initiative checks|T||
 |[Rock Tuatara](ref/monster/rock-tuatara)|+3 bonus on Stealth checks in rocky environments|T||
 |[Sawleg locust](ref/monster/familiar-sawleg-locust)|+3 bonus on Acrobatics checks|T|Vermin familiar|
-|[Scorpion, greensting](ref/monster/scorpion-greensting-scorpion)|+4 bonus on initiative checks (if familiar is within 1 mile)|T|Vermin familiar|
+|[Scorpion, greensting](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting)|+4 bonus on initiative checks (if familiar is within 1 mile)|T|Vermin familiar|
 |[Sea krait](ref/monster/familiar-viper)|+2 bonus on Fortitude saves|T|Uses viper statistics, but has a swim speed of 30 ft.|
 |[Seal](ref/monster/familiar-seal)|+3 bonus on Swim checks|S||
 |[Shimmerwing dragonfly](ref/monster/familiar-shimmerwing-dragonfly)|+3 bonus on Fly checks|T|Vermin familiar|
@@ -137,7 +139,7 @@ Improved familiars [are listed here.](ref/ability/improved-familiars)
 |[Snapping turtle](ref/monster/turtle-snapping-turtle)|+2 bonus on Fortitude saves|T||
 |[Snark](ref/monster/snark)|+3 bonus on Stealth checks|D||
 |[Snowy owl](ref/monster/familiar-owl)|+3 bonus on sight-based and opposed Perception checks when in shadows or darkness (use owl statistics, +4 Stealth to blend into snow)|T||
-|[Spider, scarlet](ref/monster/spider-scarlet-spider)|+3 bonus on Climb checks (if familiar is within 1 mile)|T|Vermin familiar|
+|[Spider, scarlet](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet)|+3 bonus on Climb checks (if familiar is within 1 mile)|T|Vermin familiar|
 |[Spiny starfish](ref/monster/familiar-spiny-starfish)|Treats their effective character level as 4 higher when recovering hit points by [resting](ref/rule/healing)|T|Vermin familiar|
 |[Squirrel](ref/monster/familiar-squirrel)|+3 bonus on Escape Artist checks|D||
 |[Squirrel, flying](ref/monster/familiar-flying-squirrel)|+3 bonus on Fly checks|T||

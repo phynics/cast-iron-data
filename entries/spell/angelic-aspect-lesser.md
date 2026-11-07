@@ -39,10 +39,10 @@ Level: 2: Arcanist, Cleric, Oracle, Paladin, Red Mantis Assassin, Sorcerer, Warp
 Casting time: 1 standard action
 Components: V, S
 Range: personal
+Target: you
 Duration: 1 minute/level (D)
 Saving throw: none
 Spell resistance: no
-Target: you
 Descriptors: good
 :::
 

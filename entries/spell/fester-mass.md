@@ -11,14 +11,14 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Inquisitor", level = 3 },
-  { class = "Witch", level = 2 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Witch", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (rotted meat)"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one living creature" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level or 1 round; see text"
 saving_throw = "Fortitude partial"
@@ -28,15 +28,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 2: Witch\
-3: Inquisitor
+Level: 6: Inquisitor, Witch
 Casting time: 1 standard action
 Components: V, S, M (rotted meat)
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 round/level or 1 round; see text
 Saving throw: Fortitude partial
 Spell resistance: yes
-Target: one living creature
 :::
 
 ## Fester

@@ -11,24 +11,20 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Alchemist", level = 2 },
-  { class = "Arcanist", level = 2 },
-  { class = "Bard", level = 2 },
-  { class = "Investigator", level = 2 },
-  { class = "Medium", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 6 },
+  { class = "Bard", level = 6 },
+  { class = "Psychic", level = 6 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Summoner", level = 4 },
+  { class = "Unchained Summoner", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M/DF (hairs or dung from a fox)"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "you" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 minute/level"
 saving_throw = "Will negates (harmless)"
@@ -38,14 +34,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Alchemist, Arcanist, Bard, Investigator, Medium, Psychic, Red Mantis Assassin, Skald, Sorcerer, Summoner, Unchained Summoner, Wizard
+Level: 4: Summoner\
+6: Arcanist, Bard, Psychic, Skald, Sorcerer, Unchained Summoner, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (hairs or dung from a fox)
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 minute/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes
-Target: you
 :::
 
 ## Fox's Cunning

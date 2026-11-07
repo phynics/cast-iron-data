@@ -12,19 +12,19 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Cleric", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Psychic", level = 2 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 6 },
+  { class = "Cleric", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Psychic", level = 5 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Warpriest", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
-casting_time = "10 minutes"
+casting_time = "30 minutes"
 components = "V, S"
-range = "personal"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "self" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "24 hours"
 saving_throw = "none"
@@ -34,15 +34,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 2: Psychic\
-3: Arcanist, Cleric, Oracle, Sorcerer, Warpriest, Wizard
-Casting time: 10 minutes
+Level: 5: Psychic\
+6: Arcanist, Cleric, Oracle, Sorcerer, Warpriest, Wizard
+Casting time: 30 minutes
 Components: V, S
-Range: personal
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 24 hours
 Saving throw: none
 Spell resistance: no
-Target: self
 Subschool: Healing
 :::
 

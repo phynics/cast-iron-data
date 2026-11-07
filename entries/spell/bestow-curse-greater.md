@@ -12,21 +12,12 @@ kind = "spell"
 school = "necromancy"
 descriptors = ["curse"]
 levels = [
-  { class = "Adept", level = 3 },
-  { class = "Antipaladin", level = 3 },
-  { class = "Arcanist", level = 4 },
-  { class = "Bloodrager", level = 4 },
-  { class = "Cleric", level = 3 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Occultist", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Shaman", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Spiritualist", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 8 },
+  { class = "Cleric", level = 7 },
+  { class = "Oracle", level = 7 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -42,16 +33,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 2: Medium\
-3: Adept, Antipaladin, Cleric, Mesmerist, Occultist, Oracle, Shaman, Spiritualist, Warpriest, Witch\
-4: Arcanist, Bloodrager, Sorcerer, Wizard
+Level: 7: Cleric, Oracle, Witch\
+8: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: touch
+Target: creature touched
 Duration: permanent
 Saving throw: Will negates
 Spell resistance: yes
-Target: creature touched
 Descriptors: curse
 :::
 

@@ -11,15 +11,14 @@ provenance = [
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Druid", level = 3 },
-  { class = "Hunter", level = 3 },
-  { class = "Ranger", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Summoner", level = 3 },
-  { class = "Unchained Summoner", level = 3 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 7 },
+  { class = "Druid", level = 6 },
+  { class = "Hunter", level = 6 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Summoner", level = 6 },
+  { class = "Unchained Summoner", level = 6 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 round"
 components = "V, S, M (a drop of honey)"
@@ -35,15 +34,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Druid, Hunter, Ranger, Summoner, Unchained Summoner\
-4: Arcanist, Sorcerer, Witch, Wizard
+Level: 6: Druid, Hunter, Summoner, Unchained Summoner\
+7: Arcanist, Sorcerer, Witch, Wizard
 Casting time: 1 round
 Components: V, S, M (a drop of honey)
 Range: close (25 ft. + 5 ft./2 levels)
+Effect: up to one insect spy/4 levels
 Duration: 10 minutes/level (D)
 Saving throw: none
 Spell resistance: no
-Effect: up to one insect spy/4 levels
 :::
 
 ## Insect Spies

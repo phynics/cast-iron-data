@@ -11,12 +11,12 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Cleric", level = 2 },
-  { class = "Inquisitor", level = 1 },
-  { class = "Oracle", level = 2 },
-  { class = "Paladin", level = 1 },
-  { class = "Psychic", level = 2 },
-  { class = "Warpriest", level = 2 },
+  { class = "Cleric", level = 4 },
+  { class = "Inquisitor", level = 3 },
+  { class = "Oracle", level = 4 },
+  { class = "Paladin", level = 3 },
+  { class = "Psychic", level = 4 },
+  { class = "Warpriest", level = 4 },
 ]
 casting_time = "1 standard action"
 components = "V, S, DF"
@@ -32,15 +32,15 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 1: Inquisitor, Paladin\
-2: Cleric, Oracle, Psychic, Warpriest
+Level: 3: Inquisitor, Paladin\
+4: Cleric, Oracle, Psychic, Warpriest
 Casting time: 1 standard action
 Components: V, S, DF
 Range: touch
+Target: creature touched
 Duration: 1 minute/level
 Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched
 :::
 
 ## Shield of Fortification

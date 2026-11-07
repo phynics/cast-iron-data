@@ -29,7 +29,8 @@ more than a frustratingly impossible child's toy that is adorned with the holy s
 Once per day as a standard action, the user can unlock Sun Wukong's puzzle box to create two
 simultaneous effects. First, a shower of golden sparks envelops the user, causing her to become
 invisible and immediately teleporting her exactly 20 feet in a direction of her choice. Second, a
-[monkey swarm](ref/monster/monkey-swarm) bursts from the same square the user left.
+[monkey swarm](ref/carried/bestiary-2/monsters/swarm/primate/monkey) bursts from the same square the
+user left.
 
 Although the monkey swarm isn't under the control of the user, the monkeys keep at least 20 feet
 from the user at all times and attempt to surround as many of her opponents as possible. This effect

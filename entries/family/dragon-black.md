@@ -71,9 +71,9 @@ breath weapon, spells, and other abilities while submerged.
 
 ### Members of This Family:
 
-- [Adult Black Dragon](ref/monster/dragon-chromatic-black-adult-black-dragon)
-- [Ancient Black Dragon](ref/monster/dragon-chromatic-black-ancient-black-dragon)
-- [Young Black Dragon](ref/monster/dragon-chromatic-black-young-black-dragon)
+- [Adult Black Dragon](ref/carried/bestiary/monsters/dragon/chromatic/black/adult)
+- [Ancient Black Dragon](ref/carried/bestiary/monsters/dragon/chromatic/black/ancient)
+- [Young Black Dragon](ref/carried/bestiary/monsters/dragon/chromatic/black/young)
 
 ### Mythic Members of This Family:
 

@@ -35,11 +35,11 @@ kind = "none"
 |71-74|1 dracolisk ([basilisk](ref/monster/basilisk) with the [half-dragon template](ref/template/half-dragon) \[black dragon\])|7|
 |75-80|1d6 [harpies](ref/monster/harpy)|7|
 |81-85|2d4 [pegasi](ref/monster/pegasus)|7|
-|86-88|1 [green dragon (young)](ref/monster/dragon-chromatic-green-young-green-dragon)|8|
+|86-88|1 [green dragon (young)](ref/carried/bestiary/monsters/dragon/chromatic/green/young)|8|
 |89-92|1 [roc](ref/monster/roc)|9|
 |93-95|1d6 [wyverns](ref/monster/wyvern)|9|
 |96-97|1 [couatl](ref/monster/couatl)|10|
-|98-99|1 [gold dragon (young)](ref/monster/dragon-metallic-gold-young-gold-dragon)|11|
+|98-99|1 [gold dragon (young)](ref/carried/bestiary/monsters/dragon/metallic/gold/young)|11|
 |100|1 [phoenix](ref/monster/phoenix)|15|
 
 ### Table 7-65: Temperate Plains

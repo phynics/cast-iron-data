@@ -55,6 +55,6 @@ fire resistance is treated as 10 less than normal.
 
 ### Members of This Family:
 
-- [Adult Solar Dragon](ref/monster/dragon-outer-solar-adult-solar-dragon)
+- [Adult Solar Dragon](ref/carried/bestiary-4/monsters/dragon/outer/solar/adult)
 - [Ancient Solar Dragon](ref/monster/dragon-outer-solar-ancient-solar-dragon)
-- [Young Solar Dragon](ref/monster/dragon-outer-solar-young-solar-dragon)
+- [Young Solar Dragon](ref/carried/bestiary-4/monsters/dragon/outer/solar/young)

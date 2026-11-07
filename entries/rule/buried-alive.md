@@ -48,8 +48,9 @@ if not outright impossible.
 **Horror Considerations:** The experience of being buried alive can be all the worse if a character
 isn't alone. Tiny or smaller creatures would not have their movement restricted in a coffin
 constructed for a Medium creature. [Crawling hands](ref/monster/crawling-hand),
-[rot grubs](ref/infestation/rot-grubs), [scarlet spiders](ref/monster/spider-scarlet-spider), and
-[vipers](ref/monster/familiar-viper) all make particularly horrible coffinmates, particularly if
+[rot grubs](ref/infestation/rot-grubs),
+[scarlet spiders](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet),
+and [vipers](ref/monster/familiar-viper) all make particularly horrible coffinmates, particularly if
 they're crawling all over the character in swarms. Additionally, breaking out of a coffin and
 finding himself underwater, buried in a walled-off enclosure, or at the bottom of a tank of
 flesh-eating beetles might make a character quickly regret his escape.
