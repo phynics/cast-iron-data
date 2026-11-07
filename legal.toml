@@ -1,6 +1,6 @@
 product_identity = "The following items are hereby identified as Product Identity, as defined in the Open Game License 1.0a, Section 1(e), and are not Open Content: All trademarks, registered trademarks, proper names (characters, deities, etc.), dialogue, plots, storylines, locations, characters, artworks, and trade dress. (Elements that have previously been designated as Open Game Content are not included in this declaration.)"
 community_use_notice = "Cast Iron uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/licenses/communityuse). We are expressly prohibited from charging you to use or access this content. Cast Iron is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com."
-notice_pending = ["Horror Realms", "Inner Sea Taverns", "Kingmaker Player's Guide", "Magic of Thassilon", "Serpent's Skull Player's Guide"]
+notice_pending = ["Kingmaker Player's Guide", "Magic of Thassilon", "Serpent's Skull Player's Guide"]
 
 [[licenses]]
 id = "ogl-1.0a"
@@ -3867,6 +3867,14 @@ notice = "Pathfinder Player Companion: Goblins of Golarion. © 2011, Paizo Publi
 [[section_15]]
 title = "Pathfinder Roleplaying Game: Bonus Bestiary"
 notice = "Pathfinder Roleplaying Game: Bonus Bestiary, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn."
+
+[[section_15]]
+title = "Pathfinder Campaign Setting: Horror Realms"
+notice = "Pathfinder Campaign Setting: Horror Realms © 2016, Paizo Inc.; Authors: Thurston Hillman, Tim Hitchcock, James Jacobs, Patrick Renie, David N. Ross, and Linda Zayas-Palmer."
+
+[[section_15]]
+title = "Pathfinder Campaign Setting: Inner Sea Taverns"
+notice = "Pathfinder Campaign Setting: Inner Sea Taverns © 2018, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Michelle Jones, Jason Keeley, Luis Loza, Jacob W. Michaels, Joe Pasini, and David N. Ross."
 
 [[datasets]]
 id = "psrd-data"
