@@ -13,6 +13,7 @@ school = "transmutation"
 descriptors = ["curse"]
 levels = [
   { class = "Arcanist", level = 5 },
+  { class = "Bloodrager", level = 5 },
   { class = "Cleric", level = 5 },
   { class = "Inquisitor", level = 5 },
   { class = "Oracle", level = 5 },
@@ -36,7 +37,7 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 5: Arcanist, Cleric, Inquisitor, Oracle, Shaman, Sorcerer, Warpriest, Witch, Wizard
+Level: 5: Arcanist, Bloodrager, Cleric, Inquisitor, Oracle, Shaman, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M/DF (a piece of glass)
 Range: long (400 ft. + 40 ft./level)

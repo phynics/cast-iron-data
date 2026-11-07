@@ -22,7 +22,7 @@ casting_time = "1 minute"
 components = "V, S"
 range = "touch"
 effects = [
-  { label = "Target", value = "one living extraplanar creature" },
+  { label = "Target", value = "one willing extraplanar creature" },
 ]
 duration = "instantaneous"
 saving_throw = "Will negates (harmless)"
@@ -37,7 +37,7 @@ Level: 3: Cleric, Oracle, Warpriest\
 Casting time: 1 minute
 Components: V, S
 Range: touch
-Target: one living extraplanar creature
+Target: one willing extraplanar creature
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes
