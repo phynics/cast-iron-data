@@ -11,7 +11,7 @@ provenance = [
 
 [fields]
 kind = "creature"
-creature_type = "Animal"
+creature_type = "animal"
 size = "Large"
 alignment = "N"
 ac = "16, touch 9, flat-footed 16 (+7 natural, -1 size)"

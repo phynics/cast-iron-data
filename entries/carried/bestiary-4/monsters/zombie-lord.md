@@ -12,7 +12,7 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "3"
-creature_type = "Undead"
+creature_type = "undead"
 size = "Medium"
 alignment = "LE"
 ac = "18, touch 16, flat-footed 14 (+3 Dex, +1 dodge, +2 Wis, +2 natural)"

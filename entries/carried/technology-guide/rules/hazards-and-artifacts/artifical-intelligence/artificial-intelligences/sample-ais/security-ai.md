@@ -12,7 +12,7 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "8"
-creature_type = "Intelligence"
+creature_type = "construct"
 size = "artificial"
 alignment = "LN"
 fortitude = "+2"

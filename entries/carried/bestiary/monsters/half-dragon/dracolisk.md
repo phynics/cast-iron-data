@@ -12,7 +12,7 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "7"
-creature_type = "Dragon"
+creature_type = "dragon"
 size = "Medium"
 alignment = "N"
 ac = "21, touch 9, flat-footed 21 (-1 Dex, +12 natural)"
