@@ -49,11 +49,11 @@ hairy, wriggling legs._
 
 **Experience points:** 1,200
 
-**Aav:** present
-
 **Armor class:** 16/9/16
 
 **Amorph:** present
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 5/cold iron or lawful
 

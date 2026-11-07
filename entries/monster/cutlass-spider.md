@@ -48,9 +48,9 @@ ending in curved blades._
 **Sources:** Bestiary 6 pg 69, Pathfinder \#15: The Armageddon Echo pg 84\
 **Experience points:** 2,400
 
-**Aav:** present
-
 **Armor class:** 19/12/16
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 5/adamantine
 

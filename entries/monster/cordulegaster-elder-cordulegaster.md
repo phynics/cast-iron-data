@@ -47,9 +47,9 @@ _The insectile eyes of this chitin-covered daemonic monstrosity display a malign
 
 **Experience points:** 3,200
 
-**Aav:** present
-
 **Armor class:** 20/9/20
+
+**Defensive abilities:** all-around vision
 
 **Fort:** +10
 

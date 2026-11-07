@@ -45,11 +45,9 @@ wind, but of its own volition._
 **Sources:** Numeria, Land of Fallen Stars pg 47\
 **Experience points:** 600
 
-**Aav:** present
-
 **Armor class:** 13/11/13
 
-**Defensive abilities:** barbs, flammable
+**Defensive abilities:** all-around vision, barbs, flammable
 
 **Dr:** 5/slashing
 

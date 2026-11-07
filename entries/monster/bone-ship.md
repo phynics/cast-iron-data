@@ -52,13 +52,11 @@ masts crafted from gigantic spines._
 
 **Experience points:** 153,600
 
-**Aav:** present
-
 **Armor class:** 36/6/32
 
 **Chan Res:** +4
 
-**Defensive abilities:** bound souls
+**Defensive abilities:** all-around vision, bound souls
 
 **Fort:** +17
 

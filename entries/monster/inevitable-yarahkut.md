@@ -54,11 +54,9 @@ back, and its head bears three faces._
 
 **Experience points:** 38,400
 
-**Aav:** present
-
 **Armor class:** 29/15/23
 
-**Defensive abilities:** constructed
+**Defensive abilities:** all-around vision, constructed
 
 **Fort:** +14
 

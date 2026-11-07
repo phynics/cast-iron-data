@@ -47,11 +47,9 @@ abilities = ["12", "19", "-", "11", "18", "3"]
 
 **Experience points:** 9,600
 
-**Aav:** present
-
 **Armor class:** 23/17/18
 
-**Defensive abilities:** [hardness](ref/umr/hardness) 10, swarm traits
+**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10, swarm traits
 
 **Fort:** +6
 

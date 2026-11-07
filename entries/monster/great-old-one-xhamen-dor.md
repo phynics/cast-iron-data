@@ -53,13 +53,11 @@ in the wriggling mass, arrayed around a central draconic skull._
 
 **Experience points:** 2,457,600
 
-**Aav:** present
-
 **Armor class:** 44/26/34
 
 **Amorph:** present
 
-**Defensive abilities:** immortality, insanity (DC 31)
+**Defensive abilities:** all-around vision, immortality, insanity (DC 31)
 
 **Dr:** 15/epic and slashing
 

@@ -52,11 +52,9 @@ spindly, multi-jointed fingers, and four circular rotors hold the creature aloft
 
 **Experience points:** 800
 
-**Aav:** present
-
 **Armor class:** 16/13/13
 
-**Defensive abilities:** [hardness](ref/umr/hardness) 10, reactive gyros
+**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10, reactive gyros
 
 **Fort:** +0
 

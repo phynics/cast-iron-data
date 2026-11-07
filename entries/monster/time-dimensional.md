@@ -50,11 +50,9 @@ present, or a possible future._
 
 **Experience points:** 38,400
 
-**Aav:** present
-
 **Armor class:** 30/20/24
 
-**Defensive abilities:** time mastery, timestream knowledge
+**Defensive abilities:** all-around vision, time mastery, timestream knowledge
 
 **Dr:** 10/-
 

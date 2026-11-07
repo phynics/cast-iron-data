@@ -48,11 +48,9 @@ a different method of inflicting pain._
 
 **Experience points:** 12,800
 
-**Aav:** present
-
 **Armor class:** 27/17/20
 
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
+**Defensive abilities:** all-around vision, _[freedom of movement](ref/spell/freedom-of-movement)_
 
 **Dr:** 10/lawful
 

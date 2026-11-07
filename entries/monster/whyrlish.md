@@ -51,11 +51,11 @@ sports a nest of sting-tipped tendrils._
 
 **Experience points:** 51,200
 
-**Aav:** present
-
 **Armor class:** 31/16/23
 
 **Amorph:** present
+
+**Defensive abilities:** all-around vision
 
 **Fort:** +12
 

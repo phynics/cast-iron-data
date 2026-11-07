@@ -52,11 +52,9 @@ body._
 
 **Experience points:** 600
 
-**Aav:** present
-
 **Armor class:** 18/14/16
 
-**Defensive abilities:** [hardness](ref/umr/hardness) 5
+**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 5
 
 **Fort:** +1
 

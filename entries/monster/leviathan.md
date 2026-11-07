@@ -55,11 +55,9 @@ lined with rows of sharp teeth._
 
 **Experience points:** 9,830,400
 
-**Aav:** present
-
 **Armor class:** 48/13/37
 
-**Defensive abilities:** recovery
+**Defensive abilities:** all-around vision, recovery
 
 **Dr:** 20/epic
 

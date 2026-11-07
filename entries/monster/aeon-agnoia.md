@@ -53,9 +53,9 @@ jut from around the column, each ending in a hand with long, black claws._
 
 **Experience points:** 38,400
 
-**Aav:** present
-
 **Armor class:** 29/17/25
+
+**Defensive abilities:** all-around vision
 
 **Fort:** +14
 

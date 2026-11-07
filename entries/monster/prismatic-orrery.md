@@ -48,11 +48,9 @@ _A series of metal rings rotates around a giant prismatic sphere._
 **Sources:** Tombs of Golarion pg 53\
 **Experience points:** 25,600
 
-**Aav:** present
-
 **Armor class:** 24/8/22
 
-**Defensive abilities:** dispel resistance, [hardness](ref/umr/hardness) 10
+**Defensive abilities:** all-around vision, dispel resistance, [hardness](ref/umr/hardness) 10
 
 **Fort:** +6
 

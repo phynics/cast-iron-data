@@ -52,11 +52,9 @@ mechanical tentacles churn and writhe below its bulk._
 
 **Experience points:** 9,600
 
-**Aav:** present
-
 **Armor class:** 23/13/19
 
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
+**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10
 
 **Fort:** +7
 

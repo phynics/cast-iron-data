@@ -49,7 +49,7 @@ one studies its twitching visage._
 
 **Armor class:** 21/15/16
 
-**Defensive abilities:** unusual anatomy
+**Defensive abilities:** no breath, unusual anatomy
 
 **Fort:** +11
 
@@ -58,8 +58,6 @@ one studies its twitching visage._
 **Immune:** poison
 
 **Mod:** +4 Dex, +1 dodge, +6 natural
-
-**No B:** present
 
 **Ref:** +11
 

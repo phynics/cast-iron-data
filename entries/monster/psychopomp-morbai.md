@@ -52,9 +52,9 @@ opposite sides of her head._
 
 **Experience points:** 2,400
 
-**Aav:** present
-
 **Armor class:** 20/15/16
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 5/adamantine
 

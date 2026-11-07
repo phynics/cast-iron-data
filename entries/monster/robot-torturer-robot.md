@@ -51,11 +51,9 @@ sphere._
 
 **Experience points:** 4,800
 
-**Aav:** present
-
 **Armor class:** 23/17/17
 
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
+**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10
 
 **Fort:** +3
 

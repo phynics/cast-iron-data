@@ -49,11 +49,11 @@ vapor._
 **Sources:** Bestiary 6 pg 272, Inner Sea Bestiary pg 58\
 **Experience points:** 19,200
 
-**Aav:** present
-
 **Armor class:** 24/16/18
 
 **Amorph:** present
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 10/aligned
 

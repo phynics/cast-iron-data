@@ -50,11 +50,9 @@ coil and writhe beneath it._
 **Sources:** Bestiary 6 pg 202\
 **Experience points:** 307,200
 
-**Aav:** present
-
 **Armor class:** 36/15/23
 
-**Defensive abilities:** negative energy affinity
+**Defensive abilities:** all-around vision, negative energy affinity
 
 **Dr:** 15/epic and good
 

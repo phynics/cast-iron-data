@@ -49,11 +49,11 @@ and covered in splotches of black rot._
 
 **Experience points:** 12,800
 
-**Aav:** present
-
 **Armor class:** 26/12/26
 
 **Chan Res:** +4
+
+**Defensive abilities:** all-around vision
 
 **Fort:** +9
 
