@@ -40,9 +40,9 @@ front and an eel in the back._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Size:** small
 

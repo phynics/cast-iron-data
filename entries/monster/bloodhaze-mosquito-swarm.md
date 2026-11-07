@@ -41,7 +41,7 @@ tiny forms whir in agitation, each a tiny insect with a needle-like proboscis._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#38: Racing to Ruin pg 84\
 **Subtype:** Swarm

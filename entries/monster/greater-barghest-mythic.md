@@ -46,7 +46,7 @@ bat and wolf._
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Mythic Adventures pg 179\
 **Subtype:** Evil, Extraplanar, Lawful, Mythic, Shapechanger

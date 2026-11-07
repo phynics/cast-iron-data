@@ -43,7 +43,7 @@ _This thick-bodied, white-furred bugbear wears bearskins and carries an axe made
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 4 pg 278\
 **Subtype:** Goblinoid

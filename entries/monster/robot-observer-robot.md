@@ -39,11 +39,11 @@ body._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#86: Lords of Rust pg 88\
 **Subtype:** Robot

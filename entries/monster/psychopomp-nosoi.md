@@ -35,15 +35,13 @@ _This strange black bird wears a leather long-nosed mask like a plague doctor._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +9
 
-**Senses:** Spiritsense
+**Senses:** Low-light vision, Spiritsense
 
 **Sources:** Bestiary 4 pg 220, Pathfinder \#47: Ashes at Dawn pg 86\
 **Subtype:** Extraplanar, Psychopomp

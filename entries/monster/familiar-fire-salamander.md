@@ -34,13 +34,11 @@ _Yellow spots and stripes run from this amphibian's wide snout to the tip of its
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** -1
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Ultimate Wilderness pg 196\
 **Experience points:** 135

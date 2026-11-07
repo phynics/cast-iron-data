@@ -34,11 +34,11 @@ blood-red pointed cap._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Size:** small
 

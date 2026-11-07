@@ -35,13 +35,13 @@ _A ridge of jagged ice runs down the back of this glistening, desert-dwelling li
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -38,13 +38,13 @@ form._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 130\
 **Experience points:** 2,400

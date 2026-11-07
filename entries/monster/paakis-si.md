@@ -40,15 +40,13 @@ tree trunk as a club._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
 
 **Perception:** +15
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Mystery Monsters Revisited pg 45\
 **Subtype:** Sasquatch

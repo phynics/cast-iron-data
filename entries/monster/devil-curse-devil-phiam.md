@@ -42,9 +42,7 @@ behind its feminine frame._
 
 **Perception:** +11
 
-**Senses:** Detect magic, Detect thoughts
-
-**Sense:** Sid
+**Senses:** Detect magic, Detect thoughts, See in darkness
 
 **Size:** small
 

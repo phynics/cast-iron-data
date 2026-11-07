@@ -37,9 +37,9 @@ devil._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 176\
 **Size:** tiny

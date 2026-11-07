@@ -38,11 +38,11 @@ burn atop its crown and back._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 134\
 **Experience points:** 204,800

@@ -42,9 +42,9 @@ decorated with skulls._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 15, Bestiary 6 pg 135\
 **Subtype:** Extraplanar, Giant

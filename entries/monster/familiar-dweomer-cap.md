@@ -32,11 +32,11 @@ _Undulating patterns of purple and orange luminescence play across this strange 
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

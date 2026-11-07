@@ -35,13 +35,11 @@ up from its jaw, guarding its eyes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Taldor, the First Empire pg 61\
 **Experience points:** 2,400

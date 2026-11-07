@@ -38,11 +38,11 @@ _Droplets of a silvery gray, slightly grainy goo gleam dully as they hang in the
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 130, Numeria, Land of Fallen Stars pg 50\
 **Subtype:** Swarm

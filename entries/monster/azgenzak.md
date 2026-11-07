@@ -34,8 +34,6 @@ orange flame._
 
 **Challenge rating:** 8
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 16, inverted form only)
@@ -46,11 +44,11 @@ orange flame._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** All-around vision, Low-light vision
 
 **Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 82\
 **Subtype:** Aquatic

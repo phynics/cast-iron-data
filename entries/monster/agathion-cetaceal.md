@@ -40,8 +40,6 @@ sleek killer whale._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -49,6 +47,8 @@ sleek killer whale._
 **Type:** outsider
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 17\
 **Subtype:** Agathion, Aquatic, Extraplanar, Good

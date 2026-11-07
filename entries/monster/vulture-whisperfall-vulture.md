@@ -32,11 +32,11 @@ _This dark-winged vulture has a wickedly hooked beak stained with bright red blo
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Size:** small
 

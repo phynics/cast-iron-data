@@ -38,11 +38,11 @@ _This large robot's arms end in an assortment of drills, torches, hammers, and v
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 209\
 **Subtype:** Robot

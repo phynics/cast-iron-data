@@ -38,11 +38,11 @@ abilities = ["38", "21", "35", "3", "30", "20"]
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +42
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 64\
 **tremorsense:** 600

@@ -42,11 +42,11 @@ legs end in blackened, burnt stumps._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 281, Pathfinder \#6: Spires of Xin-Shalast pg 88\
 **Subtype:** Cold, Native

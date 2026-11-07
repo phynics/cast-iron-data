@@ -36,11 +36,11 @@ with a slim but wicked beak._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 83\
 **Experience points:** 2,400

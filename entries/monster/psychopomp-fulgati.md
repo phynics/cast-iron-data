@@ -41,17 +41,13 @@ legs._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +32
 
-**Senses:** Spiritsense
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Spiritsense, True seeing
 
 **Sources:** Concordance of Rivals pg 60\
 **Subtype:** Extraplanar, Psychopomp

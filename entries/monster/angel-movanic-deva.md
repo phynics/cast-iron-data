@@ -36,8 +36,6 @@ greatsword._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -46,7 +44,7 @@ greatsword._
 
 **Perception:** +26
 
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision
 
 **Sources:** Bestiary 2 pg 28\
 **Subtype:** Angel, Extraplanar, Good

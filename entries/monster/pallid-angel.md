@@ -38,8 +38,6 @@ soaked and splattered with blood, wine, and other fluids._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -48,7 +46,7 @@ soaked and splattered with blood, wine, and other fluids._
 
 **Perception:** +18
 
-**Senses:** Detect good, Detect magic
+**Senses:** Detect good, Detect magic, Low-light vision
 
 **Sources:** Pathfinder \#141: Last Watch pg 82\
 **Subtype:** Evil, Extraplanar

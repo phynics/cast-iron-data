@@ -36,13 +36,13 @@ mouth._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 136\
 **Subtype:** Fire

@@ -40,15 +40,11 @@ open in its body and tail._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +35
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 6 pg 56\
 **Subtype:** Aquatic

@@ -41,9 +41,9 @@ _A pile of more than 100,000 coins has been given malevolent life._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 68\
 **Experience points:** 6,400

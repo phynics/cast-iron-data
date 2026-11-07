@@ -34,13 +34,13 @@ metallic gleam, reflecting even the dimmest light back a hundredfold through a d
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#26: The Sixfold Trial pg 88\
 **Subtype:** Swarm

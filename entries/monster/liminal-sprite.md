@@ -37,9 +37,9 @@ wings on its back._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 158\
 **Size:** tiny

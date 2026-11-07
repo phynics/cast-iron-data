@@ -33,13 +33,13 @@ scaly tail._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -41,15 +41,11 @@ pulsating orange light accented by regular electrical discharges._
 
 **Initiative:** +13
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +37
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder \#126: Beyond the Veiled Past pg 90\
 **Subtype:** Aquatic

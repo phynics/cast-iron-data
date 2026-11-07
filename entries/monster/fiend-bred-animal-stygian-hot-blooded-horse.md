@@ -35,13 +35,11 @@ _This dark horse has striking coloring and a ferocious look in its bloodshot eye
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#103: The Hellfire Compact pg 86\
 **Experience points:** 600

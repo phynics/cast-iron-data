@@ -40,11 +40,11 @@ molten heat._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +37
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 168\
 **Subtype:** Earth, Kaiju

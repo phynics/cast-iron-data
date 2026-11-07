@@ -35,11 +35,11 @@ antlers crowning its head._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#31: Stolen Land pg 80\
 **Experience points:** 600

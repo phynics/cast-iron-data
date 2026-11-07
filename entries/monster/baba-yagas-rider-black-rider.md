@@ -39,13 +39,13 @@ battle-worn spear._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
 
 **Perception:** +25
+
+**Senses:** Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 53\
 **Experience points:** 25,600

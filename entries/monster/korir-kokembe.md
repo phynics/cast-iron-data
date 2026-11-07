@@ -40,13 +40,11 @@ bulges in its throat._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Inner Sea Bestiary pg 23\
 **Experience points:** 9,600

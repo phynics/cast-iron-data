@@ -34,13 +34,11 @@ filled with needle-like teeth, and a long tail ending in a diamond-shaped vane._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Ultimate Wilderness pg 204, Pathfinder \#37: Souls for Smuggler's Shiv pg 82\
 **Size:** tiny

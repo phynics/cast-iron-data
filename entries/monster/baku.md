@@ -35,8 +35,6 @@ elongated trunk for a snout._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -44,6 +42,8 @@ elongated trunk for a snout._
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 30\
 **Experience points:** 4,800

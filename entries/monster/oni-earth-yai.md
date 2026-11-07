@@ -39,13 +39,13 @@ appear to have burst forth from rugged stone._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#53: Tide of Honor pg 88\
 **Subtype:** Giant, Native, Oni, Shapechanger

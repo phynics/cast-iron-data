@@ -36,15 +36,13 @@ of which clutches a knife._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** outsider
 
 **Perception:** +5
 
-**Senses:** Detect chaos
+**Senses:** Detect chaos, Low-light vision
 
 **Sources:** Bestiary 2 pg 162\
 **Subtype:** Extraplanar, Inevitable, Lawful

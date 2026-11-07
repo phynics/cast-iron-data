@@ -35,15 +35,13 @@ proboscis._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 260\
 **Size:** tiny

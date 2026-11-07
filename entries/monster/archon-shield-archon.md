@@ -42,11 +42,11 @@ other in a massive shield._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 31\
 **Subtype:** Archon, Extraplanar, Good, Lawful

@@ -38,15 +38,13 @@ pale blue energy._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral good
 
 **Perception:** +17
 
-**Senses:** Know alignment
+**Senses:** Know alignment, Low-light vision
 
 **Sources:** Bestiary 2 pg 104\
 **Subtype:** Air

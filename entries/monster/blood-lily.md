@@ -37,11 +37,11 @@ plant monster. A pair of stout vine-like appendages sprout from either side of i
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

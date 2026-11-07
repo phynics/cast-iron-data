@@ -45,7 +45,7 @@ maw for a belly._
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 2 pg 220\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

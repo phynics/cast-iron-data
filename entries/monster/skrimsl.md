@@ -37,13 +37,13 @@ eel-like creature._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 253\
 **Subtype:** Aquatic

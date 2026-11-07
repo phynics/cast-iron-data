@@ -36,13 +36,13 @@ figure._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Down the Blighted Path pg 52\
 **Experience points:** 2,400

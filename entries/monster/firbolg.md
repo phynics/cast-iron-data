@@ -38,11 +38,11 @@ long, red hair and a bushy beard._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 116\
 **Subtype:** Giant

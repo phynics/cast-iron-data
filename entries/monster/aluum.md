@@ -38,11 +38,11 @@ that glow with blue light._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea World Guide pg 306, Dark Markets - A Guide to Katapesh pg 58\
 **Experience points:** 9,600

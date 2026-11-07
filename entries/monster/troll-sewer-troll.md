@@ -39,13 +39,11 @@ its large eyes glow with inner light._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Monster Codex pg 232\
 **Subtype:** Giant

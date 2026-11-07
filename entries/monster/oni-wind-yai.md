@@ -41,11 +41,11 @@ darkness of a starry night that swirls continuously about her._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#54: The Empty Throne pg 88\
 **Subtype:** Air, Giant, Native, Oni, Shapechanger

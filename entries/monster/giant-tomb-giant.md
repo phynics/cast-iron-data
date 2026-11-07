@@ -40,11 +40,11 @@ hands._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 84, Bestiary 6 pg 136\
 **Subtype:** Giant

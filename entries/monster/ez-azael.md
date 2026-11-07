@@ -45,9 +45,7 @@ thread is tangled between its curled ram horns._
 
 **Perception:** +23
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Scent, True seeing
 
 **Sources:** Pathfinder \#107: Scourge of the Godclaw pg 84\
 **Subtype:** Good, Lawful, Native

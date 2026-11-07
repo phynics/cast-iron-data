@@ -35,13 +35,13 @@ _This white statue of a bald human is marbled with glowing green veins of energy
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 249\
 **Experience points:** 19,200

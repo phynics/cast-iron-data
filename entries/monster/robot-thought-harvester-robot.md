@@ -38,13 +38,13 @@ middle of its head._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#87: The Choking Tower pg 86\
 **Subtype:** Robot

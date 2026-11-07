@@ -43,7 +43,7 @@ for a large eye ringed by fangs._
 
 **Perception:** +11
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 3 pg 83\
 **Subtype:** Div, Evil, Extraplanar

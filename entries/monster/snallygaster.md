@@ -42,7 +42,7 @@ sharp, toothy beak._
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 4 pg 247, Pathfinder \#61: Shards of Sin pg 88\
 **Experience points:** 800

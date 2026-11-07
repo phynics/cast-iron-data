@@ -35,11 +35,11 @@ and its thorny flowers drip blood._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

@@ -38,13 +38,13 @@ up from between its mandibles._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 126\
 **Subtype:** Cold

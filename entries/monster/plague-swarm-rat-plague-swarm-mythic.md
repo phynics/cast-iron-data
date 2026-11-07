@@ -43,13 +43,11 @@ deities._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +23
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 192\
 **Subtype:** Mythic, Swarm

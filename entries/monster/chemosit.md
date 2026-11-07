@@ -38,15 +38,13 @@ savagery._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#38: Racing to Ruin pg 86\
 **Experience points:** 1,200

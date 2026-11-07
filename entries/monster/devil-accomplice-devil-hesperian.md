@@ -43,9 +43,7 @@ occasional dart of a forked tongue._
 
 **Perception:** +10
 
-**Senses:** Detect good
-
-**Sense:** Sid
+**Senses:** Detect good, See in darkness
 
 **Sources:** Inner Sea Gods pg 279\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger

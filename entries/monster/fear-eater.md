@@ -35,13 +35,13 @@ _A distressingly humanoid face and stubby arms grow from this maggot-like creatu
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Occult Bestiary pg 27\
 **Experience points:** 1,600

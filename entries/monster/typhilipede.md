@@ -44,7 +44,7 @@ of oversized mandibles that glisten with green ichor._
 
 **Perception:** +7
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#103: The Hellfire Compact pg 88\
 **Subtype:** Evil, Extraplanar, Lawful

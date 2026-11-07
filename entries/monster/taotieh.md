@@ -37,11 +37,11 @@ etchings and runes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 260\
 **Experience points:** 12,800

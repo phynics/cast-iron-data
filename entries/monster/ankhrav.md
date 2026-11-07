@@ -36,13 +36,13 @@ mandibles._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 57\
 **Experience points:** 6,400

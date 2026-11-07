@@ -36,13 +36,13 @@ legs ending in powerful metallic talons, its beady eyes dart about voraciously._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#26: The Sixfold Trial pg 88\
 **Experience points:** 4,800

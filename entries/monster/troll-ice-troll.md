@@ -40,9 +40,9 @@ tusked jaw juts forth in a long underbite._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 271\
 **Subtype:** Cold, Giant

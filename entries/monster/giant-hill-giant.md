@@ -39,9 +39,9 @@ brutish and backwoods lifestyle._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 150\
 **Subtype:** Giant

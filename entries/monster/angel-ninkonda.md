@@ -45,13 +45,11 @@ shoulders._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +31
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 86\
 **Subtype:** Angel, Extraplanar, Good, Lawful

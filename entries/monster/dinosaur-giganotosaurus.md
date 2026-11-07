@@ -34,13 +34,11 @@ _This bipedal dinosaur has a large head and cavernous jaws full of large, sharp 
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +26
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 94\
 **Experience points:** 25,600

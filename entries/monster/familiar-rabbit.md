@@ -32,11 +32,11 @@ _This small, furry creature has long ears and oversized feet._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 204, Animal Archive pg 31\
 **Size:** tiny

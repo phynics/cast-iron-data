@@ -42,15 +42,13 @@ charges._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +17
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 78\
 **Experience points:** 153,600

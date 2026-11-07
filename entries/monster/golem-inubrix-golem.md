@@ -37,13 +37,11 @@ back._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Construct Handbook pg 44\
 **Experience points:** 38,400

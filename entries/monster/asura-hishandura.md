@@ -45,9 +45,7 @@ punching daggers._
 
 **Perception:** +29
 
-**Sense:** Scent
-
-**Senses:** Scent of carnage, Smoke sight
+**Senses:** Scent, Scent of carnage, Smoke sight
 
 **Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 82\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

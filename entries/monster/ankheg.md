@@ -36,13 +36,13 @@ clacking mandibles._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 15\
 **tremorsense:** 60

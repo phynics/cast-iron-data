@@ -33,8 +33,6 @@ wielding a different weapon._
 
 **Challenge rating:** 24
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
 
 **Size:** colossal
@@ -47,7 +45,7 @@ wielding a different weapon._
 
 **Perception:** +35
 
-**Senses:** True seeing
+**Senses:** All-around vision, True seeing
 
 **Sources:** Bestiary 3 pg 268\
 **Subtype:** Chaotic, Evil, Extraplanar

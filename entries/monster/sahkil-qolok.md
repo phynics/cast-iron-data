@@ -38,15 +38,13 @@ from another orifice._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +27
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 217\
 **Subtype:** Evil, Extraplanar, Sahkil

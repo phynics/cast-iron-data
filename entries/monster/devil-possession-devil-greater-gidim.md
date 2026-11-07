@@ -41,7 +41,7 @@ abilities = ["-", "26", "24", "17", "20", "20"]
 
 **Perception:** +27
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 83\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful

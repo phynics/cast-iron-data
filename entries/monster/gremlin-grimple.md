@@ -38,9 +38,9 @@ opossum._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 142, Fey Revisited pg 15\
 **Size:** tiny

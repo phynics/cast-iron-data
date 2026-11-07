@@ -35,8 +35,6 @@ _This smooth-featured, humanoid creature appears to have skin made entirely of m
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -44,6 +42,8 @@ _This smooth-featured, humanoid creature appears to have skin made entirely of m
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 250\
 **Subtype:** Extraplanar, Shapechanger

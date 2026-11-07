@@ -42,11 +42,11 @@ feet._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 178\
 **Experience points:** 1,600

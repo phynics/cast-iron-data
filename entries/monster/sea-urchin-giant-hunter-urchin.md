@@ -32,11 +32,7 @@ two-foot-long bright purple spines that darken to ominous black tips._
 
 **Challenge rating:** 1
 
-**Sense:** Aav
-
 **Initiative:** -4
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -44,7 +40,7 @@ two-foot-long bright purple spines that darken to ominous black tips._
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** All-around vision, Low-light vision, Scent
 
 **Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 84, Bestiary 5 pg 223\
 **Subtype:** Aquatic

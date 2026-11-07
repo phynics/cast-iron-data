@@ -46,9 +46,7 @@ dart from the creature's mouth._
 
 **Perception:** +33
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Scent, True seeing
 
 **Sources:** Inner Sea Bestiary pg 62\
 **Subtype:** Daemon, Evil, Extraplanar, Fire

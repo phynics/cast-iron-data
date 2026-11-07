@@ -37,7 +37,7 @@ Its semi-translucent skin shows discolored bones and muscles._
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 31, Tome of Horrors Complete (PF) pg 504\
 **Size:** tiny

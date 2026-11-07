@@ -31,21 +31,19 @@ eyes._
 
 **Challenge rating:** 10
 
-**Sense:** Aav
-
 **dv:** 60
 
 **Size:** huge
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** All-around vision, Low-light vision
 
 **Sources:** Planes of Power pg 63\
 **Subtype:** Air, Extraplanar

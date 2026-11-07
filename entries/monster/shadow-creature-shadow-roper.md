@@ -40,11 +40,11 @@ amalgamation of darkness and menace._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 238\
 **Subtype:** Augmented aberration

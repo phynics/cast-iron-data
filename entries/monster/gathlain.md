@@ -37,9 +37,9 @@ _Wings composed of wood and vines grow out of the body of this lithesome fey._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** -1
+
+**Senses:** Low-light vision
 
 **Size:** small
 

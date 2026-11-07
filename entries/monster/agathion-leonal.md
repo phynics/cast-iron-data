@@ -38,8 +38,6 @@ feet._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -47,6 +45,8 @@ feet._
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 19\
 **Subtype:** Agathion, Extraplanar, Good

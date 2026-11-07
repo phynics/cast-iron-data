@@ -35,11 +35,11 @@ _This innocuous-looking scroll flits about with serpentine grace, baring its raz
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 138, Pathfinder \#79: The Half-Dead City pg 82\
 **Size:** tiny

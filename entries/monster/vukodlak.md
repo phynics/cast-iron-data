@@ -42,7 +42,7 @@ fanged muzzle and glowing red eyes._
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 5 pg 272\
 **Type:** undead

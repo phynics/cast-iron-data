@@ -29,8 +29,6 @@ a ram, and a red dragon's head sprouting from its tail._
 
 **Challenge rating:** 13
 
-**Sense:** Aav
-
 **aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 18)
 
 **Alignment:** Chaotic evil
@@ -41,13 +39,11 @@ a ram, and a red dragon's head sprouting from its tail._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +20
 
-**Sense:** Scent
+**Senses:** All-around vision, Low-light vision, Scent
 
 **Sources:** Mythical Monsters Revisited pg 9\
 **Experience points:** 25,600

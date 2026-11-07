@@ -36,13 +36,11 @@ cruel-looking, thumb-like spike._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 78\
 **Experience points:** 2,400

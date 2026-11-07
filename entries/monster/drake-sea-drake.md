@@ -40,13 +40,11 @@ arms serve as both wings and flippers._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 109\
 **Subtype:** Aquatic

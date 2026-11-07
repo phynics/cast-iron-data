@@ -41,9 +41,7 @@ _This silent dragon seems to gather shadows and gloom around its tattered-appear
 
 **Perception:** +12
 
-**Senses:** Dragon senses
-
-**Sense:** Sid
+**Senses:** Dragon senses, See in darkness
 
 **Sources:** Bestiary 5 pg 92\
 **Subtype:** Extraplanar

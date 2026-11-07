@@ -39,8 +39,6 @@ scalloped with vicious, jagged barbs._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -48,6 +46,8 @@ scalloped with vicious, jagged barbs._
 **Type:** outsider
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#40: Vaults of Madness pg 80\
 **Subtype:** Evil, Extraplanar, Shapechanger

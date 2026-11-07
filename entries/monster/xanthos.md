@@ -36,13 +36,13 @@ head, neck, and back._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 282\
 **Experience points:** 38,400

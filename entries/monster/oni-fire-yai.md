@@ -39,13 +39,13 @@ ember._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 206\
 **Subtype:** Fire, Giant, Native, Oni, Shapechanger

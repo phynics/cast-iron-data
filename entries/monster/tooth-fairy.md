@@ -41,9 +41,9 @@ carries an oversized pair of pliers._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 262\
 **Subtype:** Extraplanar

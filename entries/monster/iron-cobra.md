@@ -36,11 +36,11 @@ its eyes are pinpoints of red light._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Size:** small
 

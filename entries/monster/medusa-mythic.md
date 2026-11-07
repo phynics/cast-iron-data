@@ -34,8 +34,6 @@ feet._
 
 **Mythic rank:** 3
 
-**Sense:** Aav
-
 **dv:** 60
 
 **Initiative:** +10, Mythic Improved Initiative
@@ -47,6 +45,8 @@ feet._
 **Type:** Monstrous humanoid
 
 **Perception:** +18
+
+**Senses:** All-around vision
 
 **Sources:** Mythic Adventures pg 209\
 **Subtype:** Mythic

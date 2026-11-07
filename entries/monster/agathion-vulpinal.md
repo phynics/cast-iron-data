@@ -37,15 +37,13 @@ instrument in one hand._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +12
 
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision
 
 **Size:** small
 

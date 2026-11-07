@@ -35,13 +35,11 @@ stretch over ten feet across._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 187, Pathfinder \#31: Stolen Land pg 80\
 **Experience points:** 1,200

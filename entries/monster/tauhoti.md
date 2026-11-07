@@ -35,13 +35,11 @@ _This fluffy squirrel has a round body with long tufts atop its ears._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Druma, Profit and Prophecy pg 63\
 **Experience points:** 65

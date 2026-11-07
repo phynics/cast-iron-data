@@ -39,9 +39,9 @@ of goodwill._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -40,11 +40,9 @@ hair flutters as if in a breeze._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Perception:** +17
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 147\
 **Subtype:** Giant

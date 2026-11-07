@@ -39,13 +39,13 @@ and radiates a sense of serenity._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 21\
 **Subtype:** Archon, Extraplanar, Good, Lawful

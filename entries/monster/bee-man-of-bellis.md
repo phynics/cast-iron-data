@@ -41,7 +41,7 @@ _This shabby-cloaked figure is surrounded by hundreds of bees._
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Andoran, Birthplace of Freedom pg 51\
 **Experience points:** 6,400

@@ -45,9 +45,9 @@ back._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 160\
 **Subtype:** Giant

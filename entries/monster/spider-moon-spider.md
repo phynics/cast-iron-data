@@ -35,8 +35,6 @@ malign intelligence._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -44,6 +42,8 @@ malign intelligence._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** The Emerald Spire Superdungeon pg 156\
 **tremorsense:** 60

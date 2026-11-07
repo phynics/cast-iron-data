@@ -39,11 +39,11 @@ sword._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 256\
 **Subtype:** Extraplanar

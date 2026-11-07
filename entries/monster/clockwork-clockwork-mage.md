@@ -37,13 +37,13 @@ _This faceless construct has a crystal wand set into its chest, bristling with a
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 32\
 **Subtype:** Clockwork

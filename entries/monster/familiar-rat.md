@@ -30,13 +30,11 @@ abilities = ["2", "15", "11", "2", "13", "2"]
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 132\
 **Size:** tiny

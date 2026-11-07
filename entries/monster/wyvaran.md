@@ -38,13 +38,13 @@ snarl._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 281\
 **Experience points:** 200

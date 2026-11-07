@@ -38,8 +38,6 @@ _A terrifying darkness surrounds this giant wolf._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -48,7 +46,7 @@ _A terrifying darkness surrounds this giant wolf._
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 222\
 **Subtype:** Mythic

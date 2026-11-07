@@ -40,7 +40,7 @@ tongue drags on the ground beneath it._
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Size:** small
 

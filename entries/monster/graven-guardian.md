@@ -37,13 +37,13 @@ hooked sword._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 140\
 **Experience points:** 1,600

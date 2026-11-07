@@ -35,13 +35,11 @@ tail out level behind it._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +32
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 58\
 **Experience points:** 19,200

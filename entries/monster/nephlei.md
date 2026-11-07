@@ -39,11 +39,11 @@ _A mighty woman of refined beauty hovers in the air, her skin whorled with blue 
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Planes of Power pg 60\
 **Subtype:** Air, Extraplanar

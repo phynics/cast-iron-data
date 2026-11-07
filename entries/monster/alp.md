@@ -39,11 +39,11 @@ mouth._
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 7\
 **Experience points:** 9,600

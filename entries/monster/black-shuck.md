@@ -41,13 +41,11 @@ in filth and gore._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#129: The Twilight Child pg 82\
 **Experience points:** 3,200

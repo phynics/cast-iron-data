@@ -37,13 +37,11 @@ _An ape-like head with demonic features cast in black iron sits on six segmented
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Senses:** Detect magic
+**Senses:** Detect magic, Low-light vision
 
 **Size:** small
 

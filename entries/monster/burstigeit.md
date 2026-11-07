@@ -36,15 +36,13 @@ its horns had broken off in battle._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 84\
 **Experience points:** 800

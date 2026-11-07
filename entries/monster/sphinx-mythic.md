@@ -39,15 +39,13 @@ great eagle wings._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +21
 
-**Senses:** Detect magic, See invisibility
+**Senses:** Detect magic, Low-light vision, See invisibility
 
 **Sources:** Mythic Adventures pg 217\
 **Subtype:** Mythic

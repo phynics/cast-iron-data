@@ -39,13 +39,11 @@ Its breath reeks of pestilence._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +4
 
-**Senses:** Sense decay
+**Senses:** Low-light vision, Sense decay
 
 **Sources:** Bestiary 5 pg 188\
 **Subtype:** Giant

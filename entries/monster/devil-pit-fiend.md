@@ -45,7 +45,7 @@ truly horrific appearance._
 
 **Perception:** +33
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 80\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

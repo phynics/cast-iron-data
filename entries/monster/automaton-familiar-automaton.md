@@ -37,13 +37,13 @@ glows with a warm light._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **othersubs:** Automaton
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Construct Handbook pg 24\
 **Subtype:** Extraplanar

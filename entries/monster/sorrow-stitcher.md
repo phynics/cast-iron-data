@@ -36,11 +36,11 @@ what appear to be the shadowy silhouettes of scissors and a sewing needle._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Seers of the Drowned City pg 61\
 **Experience points:** 4,800

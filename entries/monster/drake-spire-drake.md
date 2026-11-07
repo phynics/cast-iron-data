@@ -41,9 +41,9 @@ stretch out from its torso._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 81\
 **Experience points:** 3,200

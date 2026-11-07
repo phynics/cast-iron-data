@@ -34,11 +34,11 @@ abilities = ["12", "19", "-", "11", "18", "3"]
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +30
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#86: Lords of Rust pg 89\
 **Subtype:** Robot, Swarm

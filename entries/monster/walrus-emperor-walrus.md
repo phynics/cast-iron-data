@@ -36,11 +36,11 @@ from its whiskered face._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 271\
 **Experience points:** 4,800

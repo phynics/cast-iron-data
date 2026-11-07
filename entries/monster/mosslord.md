@@ -40,13 +40,11 @@ and mouthless._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +35
 
 **Type:** plant
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Bestiary 6 pg 194\
 **Experience points:** 153,600

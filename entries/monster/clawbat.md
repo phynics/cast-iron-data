@@ -34,15 +34,13 @@ maw, and a long, thin tongue darts forth seemingly at random to lash the air aro
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Senses:** Blood scent
+**Senses:** Blood scent, Low-light vision
 
 **Size:** small
 

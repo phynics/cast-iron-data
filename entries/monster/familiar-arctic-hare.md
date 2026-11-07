@@ -32,11 +32,11 @@ _With shorter ears and limbs than other rabbits, this white rabbit is hard to sp
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 191, Reign of Winter Player's Guide pg 10\
 **Size:** tiny

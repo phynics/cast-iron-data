@@ -34,8 +34,6 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Drow [alchemist](ref/class/alchemist) 12**
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
 
 **dv:** 120
@@ -47,6 +45,8 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** All-around vision
 
 **Sources:** Monster Codex pg 38\
 **Subtype:** Elf

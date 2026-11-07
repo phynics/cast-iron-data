@@ -41,13 +41,9 @@ serpentine body._
 
 **Initiative:** +14
 
-**Sense:** Llv
-
 **Perception:** +34
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 3 pg 185\
 **Experience points:** 409,600

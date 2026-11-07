@@ -40,13 +40,9 @@ swipe at the air._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Perception:** +22
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 190\
 **Experience points:** 38,400

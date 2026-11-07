@@ -44,11 +44,11 @@ _A siege engineer's nightmare, this giant machine emits noxious fumes from its g
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 36\
 **Subtype:** Colossus, Mythic

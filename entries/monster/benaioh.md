@@ -41,11 +41,11 @@ creature's body, leaking a steady stream of putrescent slime._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** -4
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#93: Forge of the Giant God pg 84\
 **tremorsense:** 90

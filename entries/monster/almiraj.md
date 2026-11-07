@@ -34,13 +34,13 @@ _This oversized rabbit has a single long, pearlescent horn protruding from its c
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Size:** small
 

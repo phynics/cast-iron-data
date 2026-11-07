@@ -36,13 +36,11 @@ scythe-like claws, and spiked tail, no part of this beast offers mercy._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +20
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 86\
 **Experience points:** 12,800

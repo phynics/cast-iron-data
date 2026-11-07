@@ -34,15 +34,13 @@ with sparks of lightning._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Senses:** Electricity sense
+**Senses:** Electricity sense, Low-light vision
 
 **Size:** small
 

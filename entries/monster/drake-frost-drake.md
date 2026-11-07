@@ -42,13 +42,9 @@ from between its powerful jaws._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +10
 
-**Sense:** Scent
-
-**Senses:** Snow vision
+**Senses:** Low-light vision, Scent, Snow vision
 
 **Sources:** Bestiary 2 pg 108\
 **Subtype:** Cold

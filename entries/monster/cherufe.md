@@ -37,13 +37,13 @@ _This towering reptilian humanoid seems to be made of obsidian scales over a mol
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 55\
 **Subtype:** Fire

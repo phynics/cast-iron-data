@@ -35,13 +35,13 @@ abilities = ["26", "14", "-", "18", "15", "20"]
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +35
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 243\
 **Subtype:** Augmented humanoid, Elf, Human

@@ -39,13 +39,13 @@ decorate its greenish skin._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Boggard
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 37, Pathfinder \#2: The Skinsaw Murders pg 84\
 **Experience points:** 600

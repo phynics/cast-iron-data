@@ -40,7 +40,7 @@ scarred._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 5 pg 27\
 **tremorsense:** 30

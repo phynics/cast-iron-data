@@ -38,11 +38,11 @@ a massive set of hooked jaws._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 18, Pathfinder \#65: Into the Nightmare Rift pg 84\
 **Experience points:** 102,400

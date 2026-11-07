@@ -42,7 +42,7 @@ _This emaciated, hairless canine has a strange air of menace and cruelty about i
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 286\
 **Subtype:** Evil, Extraplanar

@@ -38,15 +38,13 @@ that dances over its body._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +20
 
-**Senses:** Stormsight
+**Senses:** Low-light vision, Stormsight
 
 **Sources:** Bestiary 2 pg 264\
 **Experience points:** 12,800

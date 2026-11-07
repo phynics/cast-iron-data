@@ -30,15 +30,13 @@ _Thorn-tipped tendrils and flowering filaments sprout from this tiny, squirming 
 
 **Challenge rating:** 6
 
-**Sense:** Aav
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Alignment:** Neutral evil
 
 **Perception:** +16
+
+**Senses:** All-around vision, Low-light vision
 
 **Type:** plant
 

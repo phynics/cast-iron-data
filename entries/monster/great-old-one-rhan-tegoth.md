@@ -44,11 +44,9 @@ bulbous eyes glare._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +47
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 6 pg 146\
 **Subtype:** Aquatic, Chaotic, Evil, Great Old One

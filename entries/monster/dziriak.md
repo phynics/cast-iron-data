@@ -36,8 +36,6 @@ and arms display glowing runes._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -45,6 +43,8 @@ and arms display glowing runes._
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 113\
 **Subtype:** Extraplanar

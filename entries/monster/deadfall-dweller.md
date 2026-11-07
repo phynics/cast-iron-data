@@ -38,13 +38,13 @@ shambles like a spider._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Tears at Bitter Manor pg 58\
 **Experience points:** 1,600

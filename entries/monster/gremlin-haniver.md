@@ -38,11 +38,11 @@ burning with malevolence._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 143, Pathfinder \#25: The Bastards of Erebus pg 76\
 **Subtype:** Aquatic

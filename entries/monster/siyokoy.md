@@ -45,7 +45,7 @@ long, powerful tail._
 
 **Perception:** +22
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 3 pg 246\
 **Subtype:** Aquatic

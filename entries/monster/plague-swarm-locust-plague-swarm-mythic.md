@@ -44,13 +44,13 @@ deities._
 
 **Initiative:** +16/-4, [dual initiative](ref/umr/dual-initiative)
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 192\
 **Subtype:** Mythic, Swarm

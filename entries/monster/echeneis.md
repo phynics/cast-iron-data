@@ -35,13 +35,13 @@ runs down its back._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Size:** small
 

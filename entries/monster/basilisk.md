@@ -33,8 +33,6 @@ with pale green fire._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -42,6 +40,8 @@ with pale green fire._
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 29\
 **Experience points:** 1,600

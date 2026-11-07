@@ -35,13 +35,13 @@ _This striking, blue-eyed man with luminous skin and flowing white hair holds an
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 114\
 **Subtype:** Aquatic

@@ -40,13 +40,11 @@ otherwise blank visage._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 88\
 **Experience points:** 38,400

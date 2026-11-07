@@ -39,11 +39,11 @@ tail._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Size:** small
 

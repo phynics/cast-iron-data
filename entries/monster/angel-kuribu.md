@@ -37,15 +37,13 @@ and carries a quiver full of arrows on its back._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +8
 
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision
 
 **Size:** small
 

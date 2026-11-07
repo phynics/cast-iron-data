@@ -43,7 +43,7 @@ the distant sound of thunder._
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Inner Sea Bestiary pg 8\
 **Experience points:** 1,600

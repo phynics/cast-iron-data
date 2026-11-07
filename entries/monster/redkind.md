@@ -35,11 +35,11 @@ _Vicious shadows wrap around the form of this pudgy, white-eyed child._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Size:** small
 

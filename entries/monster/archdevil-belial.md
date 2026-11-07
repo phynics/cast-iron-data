@@ -46,9 +46,7 @@ scaled, scarred, and blackened._
 
 **Perception:** +45
 
-**Senses:** Detect chaos, Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Detect chaos, Detect good, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 20\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger

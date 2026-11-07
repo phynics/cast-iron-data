@@ -41,11 +41,11 @@ beak and powerful talons are instead adorned with dried blood and gore._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#39: The City of Seven Spears pg 80\
 **Experience points:** 6,400

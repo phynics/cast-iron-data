@@ -47,7 +47,7 @@ strange, wriggling wings._
 
 **Perception:** +18
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 86\
 **Subtype:** Extraplanar

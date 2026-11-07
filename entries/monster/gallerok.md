@@ -38,11 +38,11 @@ jaws._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 82\
 **Experience points:** 600

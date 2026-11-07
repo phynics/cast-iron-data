@@ -37,13 +37,13 @@ mimic his surroundings._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Skulk
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 248\
 **Experience points:** 400

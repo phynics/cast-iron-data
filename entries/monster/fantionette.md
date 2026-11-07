@@ -40,11 +40,11 @@ arms._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Size:** small
 

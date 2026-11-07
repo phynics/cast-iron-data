@@ -38,13 +38,11 @@ periodically from within._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +7
 
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision
 
 **Sources:** Bestiary 3 pg 18\
 **Subtype:** Archon, Extraplanar, Good, Lawful

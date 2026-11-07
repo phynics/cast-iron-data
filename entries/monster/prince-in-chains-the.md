@@ -44,13 +44,11 @@ monstrosity._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 315\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

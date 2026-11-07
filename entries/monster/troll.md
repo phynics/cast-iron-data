@@ -40,11 +40,9 @@ hideous, tusked underbite._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 268\
 **Subtype:** Giant

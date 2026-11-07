@@ -40,17 +40,13 @@ body._
 
 **Initiative:** +16
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +37
 
-**Senses:** Spiritsense
-
-**Senses:** Detect thoughts, True seeing
+**Senses:** Detect thoughts, Low-light vision, Spiritsense, True seeing
 
 **Sources:** Bestiary 4 pg 222, Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Extraplanar, Psychopomp

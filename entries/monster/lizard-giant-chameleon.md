@@ -36,11 +36,11 @@ other._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 186\
 **Experience points:** 800

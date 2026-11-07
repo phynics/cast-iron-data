@@ -36,13 +36,13 @@ _This impassive humanoid has shiny, pale skin and an eerily expressionless face.
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Numeria, Land of Fallen Stars pg 57\
 **Subtype:** Robot

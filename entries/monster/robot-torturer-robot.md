@@ -38,11 +38,11 @@ sphere._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Size:** small
 

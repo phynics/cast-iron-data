@@ -32,11 +32,11 @@ wind, but of its own volition._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

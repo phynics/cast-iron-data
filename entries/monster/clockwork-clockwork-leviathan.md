@@ -40,11 +40,11 @@ limbs._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 55\
 **Subtype:** Clockwork

@@ -36,11 +36,11 @@ its base._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

@@ -35,8 +35,6 @@ of a tawny, bipedal lion._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
@@ -44,6 +42,8 @@ of a tawny, bipedal lion._
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 188, Pathfinder \#15: The Armageddon Echo pg 88\
 **Experience points:** 2,400

@@ -43,7 +43,7 @@ a burning void within its head._
 
 **Perception:** +19
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Cradle of Night pg 63\
 **Subtype:** Evil, Extraplanar

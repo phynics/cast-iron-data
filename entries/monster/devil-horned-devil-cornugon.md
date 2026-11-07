@@ -44,7 +44,7 @@ whirling barbed chain._
 
 **Perception:** +24
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 76\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

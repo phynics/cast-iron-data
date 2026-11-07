@@ -36,11 +36,11 @@ moves with an indomitable gait._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 157\
 **Experience points:** 9,600

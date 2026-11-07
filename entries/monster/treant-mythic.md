@@ -39,11 +39,11 @@ its gnarled hands._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

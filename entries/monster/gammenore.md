@@ -38,13 +38,13 @@ large - flex in anticipation of combat._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#89: Palace of Fallen Stars pg 84\
 **Subtype:** Cold

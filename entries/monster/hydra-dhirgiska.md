@@ -38,15 +38,13 @@ sets of fangs._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Mythical Monsters Revisited pg 32\
 **Experience points:** 25,600

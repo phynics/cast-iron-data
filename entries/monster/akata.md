@@ -41,7 +41,7 @@ where its mane should be._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 2 pg 22, Pathfinder \#14: Children of the Void pg 80\
 **Experience points:** 400

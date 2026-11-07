@@ -37,17 +37,13 @@ tufted ears, a short tail, and keen, piercing eyes._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +0
 
-**Sense:** Scent
-
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Low-light vision, Scent
 
 **Size:** small
 

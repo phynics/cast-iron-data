@@ -38,13 +38,11 @@ resembling a starry night sky._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +11
 
-**Senses:** Detect evil, Detect magic
+**Senses:** Detect evil, Detect magic, Low-light vision
 
 **Size:** small
 

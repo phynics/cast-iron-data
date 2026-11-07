@@ -44,11 +44,11 @@ tail._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +43
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 136\
 **Subtype:** Aquatic, Chaotic, Extraplanar, Great Old One

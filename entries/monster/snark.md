@@ -36,13 +36,11 @@ wings hold it aloft._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#119: Prisoners of the Blight pg 83\
 **Experience points:** 100

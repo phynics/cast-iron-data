@@ -36,13 +36,13 @@ of a tiger with a viper as a tail._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 204\
 **Experience points:** 9,600

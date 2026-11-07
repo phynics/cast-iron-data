@@ -44,7 +44,7 @@ darkness._
 
 **Perception:** +12
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 5 pg 10\
 **Subtype:** Aeon, Extraplanar

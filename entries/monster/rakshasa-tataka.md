@@ -44,9 +44,7 @@ exaggerated features._
 
 **Perception:** +19
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Scent, True seeing
 
 **Sources:** Bestiary 3 pg 230\
 **Subtype:** Native, Rakshasa, Shapechanger

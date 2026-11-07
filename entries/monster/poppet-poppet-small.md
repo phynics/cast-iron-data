@@ -32,11 +32,11 @@ abilities = ["12", "12", "-", "-", "5", "1"]
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** -3
+
+**Senses:** Low-light vision
 
 **Size:** small
 

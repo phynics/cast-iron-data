@@ -39,11 +39,11 @@ feet, and a rat-like tail._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -41,11 +41,11 @@ as it lumbers forth._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 54\
 **Subtype:** Clockwork

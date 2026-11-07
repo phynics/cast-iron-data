@@ -42,17 +42,13 @@ _This graceful humanoid woman wears a flowing gown of sparkling starlight and a 
 
 **Initiative:** +34
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +46
 
-**Senses:** Detect evil, Detect law, True seeing
-
-**Sense:** Sid
+**Senses:** Detect evil, Detect law, Low-light vision, See in darkness, True seeing
 
 **Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

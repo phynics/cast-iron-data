@@ -37,8 +37,6 @@ black-winged woman._
 
 **Initiative:** +13
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -47,9 +45,7 @@ black-winged woman._
 
 **Perception:** +24
 
-**Senses:** Spiritsense
-
-**Senses:** Detect evil, Detect good, True seeing
+**Senses:** Detect evil, Detect good, Low-light vision, Spiritsense, True seeing
 
 **Sources:** Bestiary 6 pg 219, Inner Sea Bestiary pg 39\
 **Subtype:** Extraplanar, Psychopomp

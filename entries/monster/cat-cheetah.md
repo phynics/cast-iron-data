@@ -33,15 +33,13 @@ obviously capable of great speed._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 40\
 **Experience points:** 600

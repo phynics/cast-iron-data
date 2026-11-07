@@ -38,11 +38,11 @@ another in a spike of glass._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 138\
 **Experience points:** 4,800

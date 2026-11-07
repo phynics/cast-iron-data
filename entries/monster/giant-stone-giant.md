@@ -39,11 +39,11 @@ it were carved of stone._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 151\
 **Subtype:** Giant

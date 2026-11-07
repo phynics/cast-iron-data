@@ -45,7 +45,7 @@ _Fine jewelry and clothing accentuate this tiger-headed figure's striped fur and
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Mythic Adventures pg 215\
 **Subtype:** Mythic, Native, Shapechanger

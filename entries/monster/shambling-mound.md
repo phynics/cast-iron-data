@@ -36,11 +36,11 @@ turned earth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

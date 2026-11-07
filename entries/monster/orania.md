@@ -40,13 +40,11 @@ lightning-infused spear._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +31
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Giants Revisited pg 8\
 **Subtype:** Giant

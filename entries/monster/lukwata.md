@@ -36,15 +36,13 @@ _A long, spiny fin runs down the length of the dolphin-like body of this eel-hea
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 187, Pathfinder \#41: The Thousand Fangs Below pg 86\
 **Subtype:** Aquatic

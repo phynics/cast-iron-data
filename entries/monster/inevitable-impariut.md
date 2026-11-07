@@ -35,8 +35,6 @@ _Dressed in noble regalia, this humanoid creature of metal and wood has a pierci
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
@@ -44,6 +42,8 @@ _Dressed in noble regalia, this humanoid creature of metal and wood has a pierci
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#131: The Reaper's Right Hand pg 86\
 **Subtype:** Extraplanar, Inevitable, Lawful

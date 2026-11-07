@@ -43,7 +43,7 @@ three human heads at the other._
 
 **Perception:** +28
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 2 pg 85, Pathfinder \#12: Crown of Fangs pg 84\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

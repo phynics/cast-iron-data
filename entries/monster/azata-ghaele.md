@@ -41,15 +41,13 @@ crackling with power._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +20
 
-**Senses:** Detect evil, See invisibility
+**Senses:** Detect evil, Low-light vision, See invisibility
 
 **Sources:** Pathfinder RPG Bestiary pg 25\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger

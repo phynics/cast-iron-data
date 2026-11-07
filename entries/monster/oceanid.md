@@ -41,11 +41,11 @@ body._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 208\
 **Subtype:** Water

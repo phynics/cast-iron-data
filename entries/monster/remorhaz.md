@@ -36,13 +36,13 @@ red-hot._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 233\
 **tremorsense:** 60

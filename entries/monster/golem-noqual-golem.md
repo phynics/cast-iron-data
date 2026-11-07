@@ -40,11 +40,11 @@ lithe quickness._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 18\
 **Experience points:** 153,600

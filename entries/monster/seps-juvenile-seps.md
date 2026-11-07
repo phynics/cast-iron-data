@@ -34,8 +34,6 @@ _This venomous snake is heavily armored and has unusually large fangs._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -44,7 +42,7 @@ _This venomous snake is heavily armored and has unusually large fangs._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 237\
 **Experience points:** 600

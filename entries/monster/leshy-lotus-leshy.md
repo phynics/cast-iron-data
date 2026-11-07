@@ -38,11 +38,11 @@ _A plant whose body resembles a blooming lotus flower exudes an air of serenity.
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

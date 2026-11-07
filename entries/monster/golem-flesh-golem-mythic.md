@@ -41,11 +41,11 @@ flesh together._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Mythic Adventures pg 201\
 **Subtype:** Mythic

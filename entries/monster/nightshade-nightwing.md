@@ -40,13 +40,9 @@ blackest night._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Perception:** +25
 
-**Senses:** Darksense
-
-**Senses:** Detect magic
+**Senses:** Darksense, Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 203\
 **Subtype:** Extraplanar, Nightshade

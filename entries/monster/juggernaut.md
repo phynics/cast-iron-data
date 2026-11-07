@@ -38,11 +38,11 @@ _This oppressive construct rumbles forth on deadly rollers, crushing everything 
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 162\
 **Experience points:** 12,800

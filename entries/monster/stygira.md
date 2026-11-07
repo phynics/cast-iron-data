@@ -47,7 +47,7 @@ a high, scarred brow devoid of nose or eyes._
 
 **Perception:** +23
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#33: The Varnhold Vanishing pg 88\
 **Experience points:** 3,200

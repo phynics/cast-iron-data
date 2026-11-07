@@ -41,8 +41,6 @@ on her crown and staff._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
@@ -50,6 +48,8 @@ on her crown and staff._
 **othersubs:** Strix
 
 **Perception:** +12 (+14 in dim light or darkness)
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 57\
 **Experience points:** 12,800

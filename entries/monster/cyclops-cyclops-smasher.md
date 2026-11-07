@@ -41,11 +41,11 @@ a terrible club._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 19\
 **Subtype:** Giant

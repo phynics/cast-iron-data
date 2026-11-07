@@ -35,9 +35,9 @@ _This tiny avian has the head of a humanoid and the body of a brilliantly colore
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 189, Inner Sea Bestiary pg 31\
 **Size:** tiny

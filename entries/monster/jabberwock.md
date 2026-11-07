@@ -47,13 +47,9 @@ and wings in a violent manner._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +38
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 2 pg 168\
 **Subtype:** Air, Fire

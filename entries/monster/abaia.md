@@ -37,15 +37,13 @@ _This multi-eyed eel's brightly colored markings shift in complex, ever-changing
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +19
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Low-light vision
 
 **Sources:** Bestiary 4 pg 7\
 **Subtype:** Aquatic

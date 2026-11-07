@@ -42,17 +42,13 @@ crafted from opalescent scales._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
-
-**Sense:** Mistsight
 
 **Type:** outsider
 
 **Perception:** +38
 
-**Senses:** Detect chaos, True seeing
+**Senses:** Detect chaos, Low-light vision, Mistsight, True seeing
 
 **Sources:** Bestiary 5 pg 32\
 **Subtype:** Extraplanar, Lawful, Mythic, Water

@@ -41,13 +41,13 @@ the air around her with swirls and flourishes of magical energy._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +33
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#50: Night of Frozen Shadows pg 90\
 **Subtype:** Extraplanar, Good

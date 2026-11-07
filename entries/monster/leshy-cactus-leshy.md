@@ -35,11 +35,11 @@ _A prickly cactus's arms are covered in vicious spines._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

@@ -37,11 +37,11 @@ set with pale fungal teeth._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

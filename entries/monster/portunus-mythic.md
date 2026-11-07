@@ -39,15 +39,13 @@ its head independently._
 
 **Initiative:** +6
 
-**Sense:** Mistsight
-
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +26
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Mistsight
 
 **Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 90\
 **Subtype:** Elemental, Extraplanar, Mythic, Water

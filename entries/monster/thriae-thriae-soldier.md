@@ -35,8 +35,6 @@ uncanny skill._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
@@ -44,6 +42,8 @@ uncanny skill._
 **Type:** Monstrous humanoid
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 266\
 **Experience points:** 1,200

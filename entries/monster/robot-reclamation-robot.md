@@ -41,11 +41,11 @@ four legs and has a strange bell-shaped head._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 84\
 **Subtype:** Robot

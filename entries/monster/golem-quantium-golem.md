@@ -39,13 +39,11 @@ hands._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Senses:** Link
+**Senses:** Link, Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 19\
 **Experience points:** 307,200

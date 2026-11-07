@@ -38,11 +38,11 @@ face is only vaguely humanoid._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 159\
 **Experience points:** 9,600

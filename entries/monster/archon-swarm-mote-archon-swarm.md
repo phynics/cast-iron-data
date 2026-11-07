@@ -42,11 +42,11 @@ cloud is a glowing rune no bigger than a thumbnail._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 88\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Swarm

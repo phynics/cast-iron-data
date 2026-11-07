@@ -35,13 +35,11 @@ _This lumbering turtle is the size of a house; its head features powerful, razor
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 273\
 **Experience points:** 6,400

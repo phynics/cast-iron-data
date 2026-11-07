@@ -34,8 +34,6 @@ creature moves._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
@@ -43,6 +41,8 @@ creature moves._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 167\
 **Experience points:** 800

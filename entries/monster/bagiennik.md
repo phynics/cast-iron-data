@@ -40,9 +40,7 @@ extensions._
 
 **Perception:** +19
 
-**Sense:** Scent
-
-**Senses:** Disease
+**Senses:** Disease, Scent
 
 **Size:** small
 

@@ -44,7 +44,7 @@ gray-skinned crone._
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** The Harrowing pg 31\
 **Subtype:** Cold

@@ -35,13 +35,11 @@ _This bipedal reptile has a rounded, dome-like head adorned with bony frills and
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 79\
 **Experience points:** 1,200

@@ -38,11 +38,11 @@ with bone-jarring force._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 162\
 **Experience points:** 25,600

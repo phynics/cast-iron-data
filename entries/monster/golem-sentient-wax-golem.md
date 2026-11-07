@@ -35,13 +35,13 @@ abilities = ["14", "9", "-", "10", "11", "1"]
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#47: Ashes at Dawn pg 90\
 **Experience points:** 1,200

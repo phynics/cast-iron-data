@@ -33,13 +33,11 @@ _Dozens of long, sharp spines line the back and tail of this dark-gray cat._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

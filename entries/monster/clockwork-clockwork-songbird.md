@@ -36,11 +36,11 @@ _This gilded mechanical bird produces melodious songs from its complex clockwork
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Construct Handbook pg 35\
 **Subtype:** Clockwork

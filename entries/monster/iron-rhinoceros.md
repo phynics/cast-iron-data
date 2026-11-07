@@ -39,11 +39,11 @@ flesh billows from its smokestack horns._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 86\
 **Experience points:** 12,800

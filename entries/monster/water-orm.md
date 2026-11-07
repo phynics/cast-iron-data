@@ -37,13 +37,13 @@ considerable size._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 280\
 **Subtype:** Aquatic

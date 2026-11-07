@@ -46,9 +46,7 @@ comparison to the danger of its mighty jaws._
 
 **Perception:** +30
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Scent, True seeing
 
 **Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 82\
 **Subtype:** Evil, Native

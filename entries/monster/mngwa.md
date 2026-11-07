@@ -38,13 +38,11 @@ _This jungle cat has a dark coat of striped fur, glossy black teeth and claws, a
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 173\
 **Experience points:** 3,200

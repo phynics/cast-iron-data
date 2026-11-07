@@ -39,7 +39,7 @@ _This gaunt, hunched humanoid's unblinking eyes stare out from a pale face wrapp
 
 **Perception:** +9
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Size:** small
 

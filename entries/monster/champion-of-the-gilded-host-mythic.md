@@ -43,11 +43,11 @@ _This towering humanoid creature is made almost entirely of gold and radiates a 
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Lost Treasures pg 23\
 **Subtype:** Colossus, Mythic

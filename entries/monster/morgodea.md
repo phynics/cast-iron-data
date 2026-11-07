@@ -41,11 +41,11 @@ extending from its palms._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#99: Dance of the Damned pg 86\
 **Experience points:** 1,200

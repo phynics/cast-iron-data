@@ -40,13 +40,11 @@ crackle with electricity._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +24
 
-**Senses:** Targeting array
+**Senses:** Low-light vision, Targeting array
 
 **Sources:** Pathfinder \#89: Palace of Fallen Stars pg 88\
 **Subtype:** Robot

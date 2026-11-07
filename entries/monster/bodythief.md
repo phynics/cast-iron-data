@@ -37,9 +37,9 @@ seedpods throb like beating hearts._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +30
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

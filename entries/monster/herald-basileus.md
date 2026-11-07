@@ -37,8 +37,6 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Herald
@@ -47,7 +45,7 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 
 **Perception:** +23
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Inner Sea Gods pg 278, Pathfinder \#29: Mother of Flies pg 78\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

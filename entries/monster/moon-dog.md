@@ -44,11 +44,7 @@ its face seems preternaturally wise._
 
 **Perception:** +26
 
-**Sense:** Scent
-
-**Senses:** Keen senses
-
-**Senses:** Detect evil, Detect magic, See invisibility
+**Senses:** Detect evil, Detect magic, Keen senses, Scent, See invisibility
 
 **Sources:** Bestiary 5 pg 174\
 **Subtype:** Extraplanar, Good

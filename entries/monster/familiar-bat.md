@@ -34,11 +34,11 @@ abilities = ["1", "15", "6", "2", "14", "5"]
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 131\
 **Experience points:** 50

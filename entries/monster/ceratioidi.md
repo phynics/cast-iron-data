@@ -37,8 +37,6 @@ lure of a deep-sea predator._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
@@ -46,6 +44,8 @@ lure of a deep-sea predator._
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 50, Pathfinder \#32: Rivers Run Red pg 80\
 **Subtype:** Aquatic

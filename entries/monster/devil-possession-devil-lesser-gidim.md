@@ -44,7 +44,7 @@ looming malevolence and faint foul breath._
 
 **Perception:** +15
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful

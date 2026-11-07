@@ -42,13 +42,11 @@ and a tail of dripping spikes._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 208\
 **Subtype:** Mythic

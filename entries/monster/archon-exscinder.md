@@ -40,13 +40,11 @@ wings._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +28
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 34\
 **Subtype:** Archon, Extraplanar, Good, Lawful

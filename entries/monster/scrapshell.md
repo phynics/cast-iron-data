@@ -37,11 +37,11 @@ between the shell halves._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Seers of the Drowned City pg 60\
 **Subtype:** Aquatic

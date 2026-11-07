@@ -36,13 +36,11 @@ razor-sharp beak._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 95, Pathfinder \#37: Souls for Smuggler's Shiv pg 82\
 **Experience points:** 3,200

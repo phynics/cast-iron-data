@@ -34,11 +34,11 @@ shell-like plates._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 198, Pathfinder \#55: The Wormwood Mutiny pg 89\
 **Subtype:** Aquatic

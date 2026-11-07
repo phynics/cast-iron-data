@@ -42,17 +42,13 @@ single winged entity._
 
 **Initiative:** +16/-4, [dual initiative](ref/umr/dual-initiative)
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +34
 
-**Sense:** Scent
-
-**Senses:** Deathwatch
+**Senses:** Deathwatch, Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 86\
 **Subtype:** Extraplanar, Mythic

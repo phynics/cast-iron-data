@@ -36,15 +36,13 @@ crawl on its mangy hide._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 44\
 **Experience points:** 600

@@ -40,11 +40,9 @@ underbite holds large, crystalline teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 272\
 **Subtype:** Earth, Giant

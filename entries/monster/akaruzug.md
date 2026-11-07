@@ -43,9 +43,9 @@ has been affixed to its chest._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Curse of the Crimson Throne pg 466, Pathfinder \#12: Crown of Fangs pg 82\
 **Experience points:** 51,200

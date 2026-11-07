@@ -36,11 +36,11 @@ glows with a pale, sapphire light._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 82\
 **Experience points:** 800

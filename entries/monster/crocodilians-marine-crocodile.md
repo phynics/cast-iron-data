@@ -37,11 +37,11 @@ tail that it uses to propel itself through the water._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#58: Island of Empty Eyes pg 85\
 **Experience points:** 800

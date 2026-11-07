@@ -42,13 +42,9 @@ in the wind._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +23
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Low-light vision, Scent, See in darkness
 
 **Sources:** Bestiary 6 pg 280\
 **Subtype:** Wild hunt

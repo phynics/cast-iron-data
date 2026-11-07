@@ -36,13 +36,13 @@ don't quite touch the ground._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +29
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 88\
 **Experience points:** 38,400

@@ -39,15 +39,13 @@ bulk._
 
 **Initiative:** +1/-19, [dual initiative](ref/umr/dual-initiative)
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 204\
 **Subtype:** Mythic

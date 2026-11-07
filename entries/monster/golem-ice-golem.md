@@ -37,13 +37,13 @@ shards of ice adorn its limbs._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 161\
 **Subtype:** Cold

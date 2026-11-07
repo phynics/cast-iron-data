@@ -37,8 +37,6 @@ head constantly shift in color._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
@@ -46,6 +44,8 @@ head constantly shift in color._
 **othersubs:** Automaton
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Construct Handbook pg 30\
 **Subtype:** Extraplanar

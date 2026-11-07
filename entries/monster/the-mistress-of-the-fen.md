@@ -39,13 +39,13 @@ primordial nature, and the abundant plant growth covering its body suggests both
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 56\
 **Subtype:** Aquatic

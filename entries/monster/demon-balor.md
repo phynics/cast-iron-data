@@ -41,13 +41,11 @@ spurting from its flesh._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +38
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 58\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

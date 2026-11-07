@@ -32,11 +32,11 @@ abilities = ["8", "21", "10", "2", "13", "3"]
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Magic pg 117\
 **Subtype:** Aquatic

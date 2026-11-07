@@ -41,15 +41,13 @@ ends in a spinning circular blade. Its final two arms grasp a massive chainsaw._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Senses:** Superior optics
+**Senses:** Low-light vision, Superior optics
 
 **Sources:** Construct Handbook pg 54\
 **Subtype:** Robot

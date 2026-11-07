@@ -39,11 +39,11 @@ otherworldly grace._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -42,13 +42,11 @@ gently swaying vines._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +35
 
-**Senses:** Detect animals or plants, Detect evil, True seeing
+**Senses:** Detect animals or plants, Detect evil, Low-light vision, True seeing
 
 **Sources:** Bestiary 6 pg 34, Chronicle of the Righteous pg 62\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

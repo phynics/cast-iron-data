@@ -38,11 +38,11 @@ poking out the seams._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 246\
 **Experience points:** 1,600

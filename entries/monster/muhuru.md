@@ -36,13 +36,13 @@ that shimmers radiantly in the light._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 196\
 **Experience points:** 9,600

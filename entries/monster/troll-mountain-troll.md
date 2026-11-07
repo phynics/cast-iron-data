@@ -41,11 +41,9 @@ tusked underbite._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Perception:** +15
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Lands of the Linnorm Kings pg 62\
 **Subtype:** Giant

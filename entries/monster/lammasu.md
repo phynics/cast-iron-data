@@ -39,11 +39,11 @@ man._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 175, Bonus Bestiary pg 13\
 **Experience points:** 4,800

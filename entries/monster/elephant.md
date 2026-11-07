@@ -34,13 +34,11 @@ _These thick-skinned animals bear large ivory tusks flanking a long, prehensile 
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 128\
 **Experience points:** 3,200

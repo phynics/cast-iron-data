@@ -41,9 +41,9 @@ _This massive, three-headed clockwork snake is crafted of brass and strange, dar
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 40\
 **Subtype:** Chaotic, Evil

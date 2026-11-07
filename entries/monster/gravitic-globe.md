@@ -39,11 +39,11 @@ flame._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** -5
+
+**Senses:** Low-light vision
 
 **Sources:** Tombs of Golarion pg 52\
 **Experience points:** 9,600

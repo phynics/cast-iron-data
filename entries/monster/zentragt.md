@@ -40,13 +40,11 @@ iron plates._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 289\
 **Subtype:** Chaotic, Extraplanar

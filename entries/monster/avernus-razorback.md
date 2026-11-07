@@ -39,13 +39,11 @@ red and its jagged tusks seem more like obsidian than bone._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#106: For Queen and Empire pg 84\
 **Subtype:** Evil, Extraplanar, Fire, Lawful

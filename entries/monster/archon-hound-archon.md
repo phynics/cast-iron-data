@@ -39,17 +39,13 @@ than a common beast._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +10
 
-**Sense:** Scent
-
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 19\
 **Subtype:** Archon, Extraplanar, Good, Lawful

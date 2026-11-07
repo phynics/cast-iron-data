@@ -34,8 +34,6 @@ body._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -43,6 +41,8 @@ body._
 **Type:** outsider
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 242\
 **Subtype:** Extraplanar

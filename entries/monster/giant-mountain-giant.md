@@ -42,11 +42,9 @@ visible, is gray and warty._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +29
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Bestiary 6 pg 133\
 **Subtype:** Giant

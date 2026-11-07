@@ -34,11 +34,11 @@ _This small, blue-gray humanoid has glowing eyes and huge ears on its round, ove
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Size:** small
 

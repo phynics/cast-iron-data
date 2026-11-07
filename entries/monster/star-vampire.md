@@ -41,11 +41,9 @@ tentacles, all as red as freshly spilled blood._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +18
 
-**Senses:** Scent blood
+**Senses:** Low-light vision, Scent blood
 
 **Sources:** Pathfinder \#110: The Thrushmoor Terror pg 90\
 **Experience points:** 2,400

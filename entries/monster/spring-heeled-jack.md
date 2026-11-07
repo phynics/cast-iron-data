@@ -36,9 +36,9 @@ bloody knife and a wicked grin._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Size:** small
 

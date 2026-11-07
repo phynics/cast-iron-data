@@ -35,11 +35,11 @@ back that spews clouds of spores._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

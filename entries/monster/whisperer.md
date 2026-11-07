@@ -42,13 +42,11 @@ be._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +37
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Bestiary 6 pg 276\
 **Subtype:** Extraplanar, Incorporeal

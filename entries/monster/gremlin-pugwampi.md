@@ -38,11 +38,11 @@ creature slinks forward carefully._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 144, Pathfinder \#19: Howl of the Carrion King pg 83\
 **Size:** tiny

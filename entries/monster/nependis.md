@@ -38,13 +38,11 @@ despite its cloven hooves._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +15
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 202\
 **Experience points:** 6,400

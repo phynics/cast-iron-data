@@ -39,8 +39,6 @@ _Seemingly human at first glance, this feathered woman conceals wings beneath a 
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -48,6 +46,8 @@ _Seemingly human at first glance, this feathered woman conceals wings beneath a 
 **othersubs:** Strix
 
 **Perception:** +6 (+8 in dim light or darkness)
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 54\
 **Experience points:** 800

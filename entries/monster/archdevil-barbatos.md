@@ -46,9 +46,7 @@ strange shapes twitch._
 
 **Perception:** +44
 
-**Senses:** Detect chaos, Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Detect chaos, Detect good, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 18\
 **Subtype:** Evil, Extraplanar, Lawful, Shapechanger

@@ -39,13 +39,13 @@ raven's skull for a head._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 68\
 **Experience points:** 6,400

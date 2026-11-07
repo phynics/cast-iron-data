@@ -34,15 +34,13 @@ atop its head._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#115: Trail of the Hunted pg 82\
 **Experience points:** 400

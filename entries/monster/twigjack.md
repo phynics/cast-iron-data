@@ -39,9 +39,9 @@ thorny vines._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 274\
 **Size:** tiny

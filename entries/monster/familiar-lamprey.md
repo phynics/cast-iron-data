@@ -33,11 +33,11 @@ _This serpentine fish has a horrific circular mouth filled with hook-like teeth.
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 199\
 **Subtype:** Aquatic

@@ -33,13 +33,13 @@ with a sinister expression._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 125\
 **Experience points:** 600

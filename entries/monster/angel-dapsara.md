@@ -36,8 +36,6 @@ motions of her physical arms._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -45,6 +43,8 @@ motions of her physical arms._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Gods pg 309\
 **Subtype:** Angel, Extraplanar, Good

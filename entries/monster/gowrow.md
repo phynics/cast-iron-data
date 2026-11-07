@@ -40,11 +40,11 @@ tail ends in a razor-sharp blade._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 144\
 **Subtype:** Aquatic

@@ -36,11 +36,11 @@ energy._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** The Godsmouth Heresy pg 29\
 **Size:** tiny

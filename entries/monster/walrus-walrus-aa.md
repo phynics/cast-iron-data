@@ -36,11 +36,11 @@ like a coarse mustache._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Animal Archive pg 29\
 **Experience points:** 1,200

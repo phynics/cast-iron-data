@@ -31,8 +31,6 @@ heads and writhing tentacles._
 
 **Challenge rating:** 16
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 26)
@@ -47,11 +45,9 @@ heads and writhing tentacles._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Perception:** +29
 
-**Senses:** See invisibility
+**Senses:** All-around vision, Low-light vision, See invisibility
 
 **Sources:** Bestiary 2 pg 241\
 **Subtype:** Aquatic

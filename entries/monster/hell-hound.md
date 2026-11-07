@@ -42,7 +42,7 @@ red eyes._
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 173\
 **Subtype:** Evil, Extraplanar, Fire, Lawful

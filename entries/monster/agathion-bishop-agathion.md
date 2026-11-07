@@ -38,8 +38,6 @@ its stately mouth, and its human-like hands and feet end in stubby but sharp cla
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -47,6 +45,8 @@ its stately mouth, and its human-like hands and feet end in stubby but sharp cla
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#61: Shards of Sin pg 80\
 **Subtype:** Aquatic, Extraplanar, Good

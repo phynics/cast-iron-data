@@ -44,11 +44,11 @@ rooms._
 
 **Initiative:** +9, Mythic Improved Initiative
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 59\
 **Subtype:** Colossus, Mythic

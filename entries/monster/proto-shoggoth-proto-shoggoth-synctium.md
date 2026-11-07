@@ -31,19 +31,17 @@ form and dissolve over this monster's surface._
 
 **Challenge rating:** 14
 
-**Sense:** Aav
-
 **Alignment:** Chaotic neutral
 
 **Initiative:** +11
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** ooze
 
 **Perception:** +19
+
+**Senses:** All-around vision, Low-light vision
 
 **Sources:** Pathfinder \#112: The Whisper Out of Time pg 90\
 **tremorsense:** 60

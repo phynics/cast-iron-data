@@ -34,8 +34,6 @@ and bursts into flame._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -44,7 +42,7 @@ and bursts into flame._
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 71, Tears at Bitter Manor pg 59\
 **Experience points:** 2,400

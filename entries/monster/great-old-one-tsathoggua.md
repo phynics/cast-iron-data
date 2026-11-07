@@ -46,9 +46,7 @@ on its bat-like face._
 
 **Perception:** +47
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** See in darkness, True seeing
 
 **Sources:** Pathfinder \#111: Dreams of the Yellow King pg 84\
 **Subtype:** Chaotic, Evil, Great Old One

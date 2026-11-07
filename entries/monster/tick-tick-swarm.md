@@ -41,7 +41,7 @@ skitters forward._
 
 **Perception:** +0
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 2 pg 265\
 **Subtype:** Swarm

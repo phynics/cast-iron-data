@@ -42,9 +42,9 @@ _This enormous, ebon-skinned giant is covered in glowing red runes and exotic pl
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +32
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 44\
 **Subtype:** Giant

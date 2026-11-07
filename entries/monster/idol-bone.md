@@ -42,11 +42,11 @@ together. The thing's misshapen head leers forward, carved with a demonic, ape-l
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 82\
 **Experience points:** 600

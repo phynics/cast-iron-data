@@ -37,8 +37,6 @@ difficult to look directly at._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -46,6 +44,8 @@ difficult to look directly at._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 10\
 **Subtype:** Angel, Extraplanar, Good

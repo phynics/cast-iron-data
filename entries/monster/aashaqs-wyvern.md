@@ -40,9 +40,9 @@ stinger. Heavy smoke drips from the beast's nostrils and jaws._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Isles of the Shackles pg 42\
 **Experience points:** 4,800

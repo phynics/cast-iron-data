@@ -35,15 +35,13 @@ to dance upon its fur._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 47\
 **Experience points:** 600

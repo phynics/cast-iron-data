@@ -38,7 +38,7 @@ _A bloated, red belly dangles beneath the furiously beating wings of this massiv
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 2 pg 1933\
 **Type:** vermin

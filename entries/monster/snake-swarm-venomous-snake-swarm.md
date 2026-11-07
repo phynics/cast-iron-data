@@ -34,13 +34,11 @@ glinting in the light._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 249, Pathfinder \#39: The City of Seven Spears pg 82\
 **Subtype:** Swarm

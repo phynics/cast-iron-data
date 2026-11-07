@@ -44,11 +44,11 @@ serpentine tail._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Mythic Adventures pg 205\
 **Subtype:** Mythic, Shapechanger

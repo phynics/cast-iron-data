@@ -41,7 +41,7 @@ extend from its sides._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 223\
 **Experience points:** 1,200

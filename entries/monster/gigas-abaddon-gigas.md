@@ -41,11 +41,11 @@ resembles a dead giant with the head of an oversized boar._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +30
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 86\
 **Subtype:** Evil, Extraplanar, Giant

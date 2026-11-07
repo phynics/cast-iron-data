@@ -44,7 +44,7 @@ the thrill of the coming kill._
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 38\
 **Subtype:** Goblinoid

@@ -42,13 +42,13 @@ serpents with countless hissing jaws._
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 206\
 **Subtype:** Extraplanar

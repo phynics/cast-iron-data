@@ -37,15 +37,13 @@ sports a pair of stag's antlers upon his brow._
 
 **Initiative:** +3 (+5 in forests)
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#73: The Worldwound Incursion pg 86\
 **Experience points:** 2,400

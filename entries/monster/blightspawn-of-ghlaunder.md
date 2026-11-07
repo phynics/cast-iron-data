@@ -45,7 +45,7 @@ stinger._
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Feast of Ravenmoor pg 29\
 **Experience points:** 1,600

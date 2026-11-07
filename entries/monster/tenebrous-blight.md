@@ -39,15 +39,13 @@ around its enormous cap._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Type:** plant
+**Senses:** Low-light vision, See in darkness
 
-**Sense:** Sid
+**Type:** plant
 
 **Sources:** Occult Bestiary pg 55\
 **Experience points:** 2,400

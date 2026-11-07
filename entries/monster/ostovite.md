@@ -37,11 +37,11 @@ red eyes._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 187\
 **Subtype:** Extraplanar

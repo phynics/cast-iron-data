@@ -39,13 +39,13 @@ abilities = ["19", "13", "16", "6", "13", "10"]
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Boggard
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 10\
 **Experience points:** 800

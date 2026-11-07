@@ -44,13 +44,11 @@ across the snow._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +15
 
-**Senses:** Snow vision
+**Senses:** Low-light vision, Snow vision
 
 **Sources:** Mythic Adventures pg 192\
 **Subtype:** Cold, Mythic

@@ -37,15 +37,13 @@ writhing form makes it difficult to identify from a distance._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#25: The Bastards of Erebus pg 80\
 **Subtype:** Extraplanar

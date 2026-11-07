@@ -39,11 +39,11 @@ _This scaly-skinned humanoid has long venomous fangs, claws, and unblinking rept
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Book of the Damned pg 250\
 **Subtype:** Native, Oni, Reptilian, Shapechanger

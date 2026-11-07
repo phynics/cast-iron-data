@@ -39,8 +39,6 @@ its razor-sharp teeth._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
@@ -48,6 +46,8 @@ its razor-sharp teeth._
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 7, Pathfinder \#38: Racing to Ruin pg 80\
 **Subtype:** Aquatic

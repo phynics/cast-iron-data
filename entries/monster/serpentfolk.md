@@ -40,7 +40,7 @@ _This serpentine humanoid has bright scaly skin, a long sinuous tail, and a fang
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 2 pg 242, Into the Darklands pg 56\
 **Experience points:** 1,200

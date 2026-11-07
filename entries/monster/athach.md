@@ -42,9 +42,9 @@ appearance truly bizarre._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 33\
 **Subtype:** Giant

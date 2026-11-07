@@ -32,8 +32,6 @@ forming in its heaving bulk._
 
 **Challenge rating:** 19
 
-**Sense:** Aav
-
 **Alignment:** Chaotic neutral
 
 **dv:** 120
@@ -42,13 +40,11 @@ forming in its heaving bulk._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Type:** ooze
 
 **Perception:** +33
 
-**Sense:** Scent
+**Senses:** All-around vision, Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 249, Crucible of Chaos pg 29\
 **Subtype:** Aquatic

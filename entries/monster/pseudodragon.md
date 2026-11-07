@@ -37,11 +37,11 @@ tipped with a barbed stinger._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 229\
 **Size:** tiny

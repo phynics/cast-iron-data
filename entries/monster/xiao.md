@@ -34,13 +34,11 @@ _This snarling blue-white monkey flies through the air on a pair of bird-like wi
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 284\
 **Size:** tiny

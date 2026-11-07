@@ -39,17 +39,13 @@ in its head glows with light._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **othersubs:** Automaton
 
 **Perception:** +34
 
-**Senses:** Automaton sense
-
-**Senses:** True seeing
+**Senses:** Automaton sense, Low-light vision, True seeing
 
 **Sources:** Construct Handbook pg 26\
 **Subtype:** Extraplanar

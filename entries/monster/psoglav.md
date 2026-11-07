@@ -40,9 +40,7 @@ thin, rat-like tail twitches behind it._
 
 **Perception:** +20
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Scent, See in darkness
 
 **Sources:** Bestiary 6 pg 215\
 **Experience points:** 25,600

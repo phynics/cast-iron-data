@@ -36,8 +36,6 @@ _This gaunt man appears drained of color, like a person viewed at twilight or in
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -45,6 +43,8 @@ _This gaunt man appears drained of color, like a person viewed at twilight or in
 **Type:** outsider
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 123\
 **Subtype:** Native

@@ -44,7 +44,7 @@ lengthy contracts._
 
 **Perception:** +26
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 3 pg 76, Pathfinder \#12: Crown of Fangs pg 86\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

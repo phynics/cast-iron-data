@@ -40,13 +40,9 @@ island heaved up from below._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +37
 
-**Senses:** Darksense
-
-**Senses:** Detect magic
+**Senses:** Darksense, Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 202\
 **Subtype:** Aquatic, Extraplanar, Nightshade

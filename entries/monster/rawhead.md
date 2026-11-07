@@ -45,7 +45,7 @@ oversized, boneless index finger._
 
 **Perception:** +24
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 6 pg 241\
 **Experience points:** 38,400

@@ -33,11 +33,11 @@ ravenous purple maw._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

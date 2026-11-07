@@ -36,13 +36,13 @@ erupt over its sloping brow._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Tears at Bitter Manor pg 57\
 **Experience points:** 600

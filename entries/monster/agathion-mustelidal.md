@@ -38,8 +38,6 @@ strike at a moment's notice._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -47,6 +45,8 @@ strike at a moment's notice._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 84\
 **Subtype:** Agathion, Extraplanar, Good

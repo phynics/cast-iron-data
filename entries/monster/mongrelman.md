@@ -34,8 +34,6 @@ shape._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
@@ -43,6 +41,8 @@ shape._
 **Type:** Monstrous humanoid
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 191\
 **Experience points:** 400

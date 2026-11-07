@@ -40,11 +40,11 @@ _The feet and tongue of this minuscule gold-scaled dragon are stained with ink._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Legacy of Dragons pg 26\
 **Experience points:** 600

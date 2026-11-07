@@ -36,13 +36,13 @@ _This beautiful female sphinx appears both wise and thoughtful._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +30
+
+**Senses:** Low-light vision
 
 **Sources:** Mythical Monsters Revisited pg 57\
 **Experience points:** 25,600

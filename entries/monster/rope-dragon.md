@@ -38,9 +38,9 @@ _This small dragon, which appears to be composed of coils of rope, bristles with
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Size:** small
 

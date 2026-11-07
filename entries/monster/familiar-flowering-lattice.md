@@ -33,11 +33,11 @@ _This scuttling patchwork plant features flowers of many different shapes and co
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

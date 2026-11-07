@@ -40,7 +40,7 @@ abilities = ["15", "23", "16", "13", "16", "16"]
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 82\
 **Experience points:** 3,200

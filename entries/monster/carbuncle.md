@@ -34,13 +34,13 @@ both surprised and perplexed._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 44, Pathfinder \#31: Stolen Land pg 76\
 **Size:** tiny

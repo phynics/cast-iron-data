@@ -37,11 +37,11 @@ wide mouth filled with fangs._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 90\
 **Experience points:** 19,200

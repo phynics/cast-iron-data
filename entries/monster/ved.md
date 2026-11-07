@@ -37,11 +37,11 @@ primitive club._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 263, Irrisen - Land of Eternal Winter pg 61\
 **Subtype:** Giant

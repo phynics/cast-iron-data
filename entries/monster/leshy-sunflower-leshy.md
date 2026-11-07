@@ -37,11 +37,11 @@ _The petals of this small plant's large, flat, flowering head reflect light in u
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

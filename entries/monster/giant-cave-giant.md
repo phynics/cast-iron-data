@@ -42,9 +42,9 @@ from the bones of past victims._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 127\
 **Subtype:** Giant

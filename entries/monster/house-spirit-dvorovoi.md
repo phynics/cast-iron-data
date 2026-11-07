@@ -37,11 +37,9 @@ toothy grin._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

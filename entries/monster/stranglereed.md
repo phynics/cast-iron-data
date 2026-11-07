@@ -35,11 +35,11 @@ _This tangled mass of thick reeds extends from a bulbous pod split by a wide, th
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

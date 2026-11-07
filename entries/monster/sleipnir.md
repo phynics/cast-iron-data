@@ -35,13 +35,13 @@ to mist._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 248\
 **Experience points:** 12,800

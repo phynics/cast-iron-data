@@ -39,13 +39,11 @@ ridges of bone instead of teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +2
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 178, Pathfinder \#17: A Memory of Darkness pg 82\
 **Experience points:** 1,600

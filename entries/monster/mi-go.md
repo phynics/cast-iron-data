@@ -35,13 +35,13 @@ and a tangle of spiky, clawed legs._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

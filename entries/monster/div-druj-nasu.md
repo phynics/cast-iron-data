@@ -44,9 +44,7 @@ wings fill the air with a dreadful drone even when the creature is still._
 
 **Perception:** +21
 
-**Senses:** Detect good, Detect magic
-
-**Sense:** Sid
+**Senses:** Detect good, Detect magic, See in darkness
 
 **Sources:** Pathfinder \#113: What Grows Within pg 84\
 **Subtype:** Div, Evil, Extraplanar

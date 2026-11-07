@@ -35,13 +35,11 @@ _This massive, mottled amphibian glistens with slime, and its tongue drips with 
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 117\
 **Experience points:** 800

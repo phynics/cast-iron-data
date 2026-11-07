@@ -36,13 +36,13 @@ her as if she were underwater._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 232\
 **Subtype:** Aquatic

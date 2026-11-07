@@ -38,15 +38,13 @@ _This massive creature has the body of a resplendent bird but the head of a rega
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral good
 
 **Perception:** +27
 
-**Senses:** Detect evil, Detect magic
+**Senses:** Detect evil, Detect magic, Low-light vision
 
 **Sources:** Bestiary 3 pg 245, Pathfinder \#24: The Final Wish pg 86\
 **Experience points:** 153,600

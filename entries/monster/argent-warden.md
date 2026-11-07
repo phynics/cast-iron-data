@@ -41,11 +41,11 @@ glowing golden light within._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Planar Adventures pg 228\
 **Subtype:** Extraplanar

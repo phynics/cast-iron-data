@@ -39,11 +39,11 @@ mold-streaked body. His beady eyes burn with paranoia and malice._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Size:** small
 

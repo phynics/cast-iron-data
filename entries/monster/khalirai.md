@@ -42,11 +42,11 @@ _This slender, seductive woman has bone-white skin and an otherworldly beauty._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Fey Revisited pg 38\
 **Experience points:** 51,200

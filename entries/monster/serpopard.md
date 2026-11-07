@@ -37,15 +37,13 @@ neck stretches over twice the length of its body, ending in a snarling leopard's
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#81: Shifting Sands pg 86\
 **Experience points:** 3,200

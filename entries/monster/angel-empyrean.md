@@ -40,15 +40,13 @@ composed of wispy blue light._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +38
 
-**Senses:** Detect evil, Detect snares and pits, True seeing
+**Senses:** Detect evil, Detect snares and pits, Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 24\
 **Subtype:** Angel, Extraplanar, Good

@@ -39,11 +39,11 @@ innocent passers-by. Then it moves - to do just that._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#48: Shadows of Gallowspire pg 84\
 **Experience points:** 4,800

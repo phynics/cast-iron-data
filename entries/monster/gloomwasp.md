@@ -35,15 +35,13 @@ _The stinger and antennae of this dog-sized wasp pulsate with a dim, violet ligh
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +12
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Size:** small
 

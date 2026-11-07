@@ -37,15 +37,11 @@ grace._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +11
 
-**Sense:** Scent
-
-**Senses:** Detect evil, Detect good
+**Senses:** Detect evil, Detect good, Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 225\
 **Experience points:** 800

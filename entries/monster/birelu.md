@@ -38,15 +38,13 @@ covered in patches of sleek black fur._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +17
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 82\
 **Subtype:** Extraplanar, Incorporeal

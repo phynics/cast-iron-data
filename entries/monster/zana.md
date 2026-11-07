@@ -37,13 +37,13 @@ pearlescent breastplate and wields a shimmering longspear._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#107: Scourge of the Godclaw pg 90\
 **Experience points:** 38,400

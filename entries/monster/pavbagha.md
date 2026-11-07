@@ -40,15 +40,13 @@ radiates an aura of calm._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** outsider
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 295\
 **Subtype:** Extraplanar, Lawful

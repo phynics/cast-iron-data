@@ -37,13 +37,13 @@ end of each of its stumpy legs._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 139, Feast of Dust pg 62\
 **Experience points:** 38,400

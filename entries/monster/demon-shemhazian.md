@@ -43,9 +43,7 @@ reptilian humanoid._
 
 **Perception:** +36
 
-**Sense:** Scent
-
-**Senses:** Detect good, True seeing
+**Senses:** Detect good, Scent, True seeing
 
 **Sources:** Bestiary 2 pg 80, Pathfinder \#5: Sins of the Saviors pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

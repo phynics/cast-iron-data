@@ -38,15 +38,13 @@ pulsating mound of fungus._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +18
 
 **Type:** plant
 
-**Senses:** Detect good
+**Senses:** Detect good, Low-light vision
 
 **Sources:** Bestiary 6 pg 130, Inner Sea Bestiary pg 12\
 **Subtype:** Extraplanar

@@ -45,11 +45,9 @@ _Each of this mechanical horror's four monstrous limbs ends in a terrible weapon
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Perception:** +34
 
-**Senses:** Mythic sight (2) 30 ft.
+**Senses:** Low-light vision, Mythic sight (2) 30 ft.
 
 **Sources:** Bestiary 5 pg 77, Pathfinder \#78: City of Locusts pg 90\
 **Subtype:** Extraplanar, Mythic

@@ -40,11 +40,9 @@ intelligence._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +24
 
-**Senses:** Wind senses
+**Senses:** Low-light vision, Wind senses
 
 **Sources:** Pathfinder \#101: The Kintargo Contract pg 90\
 **Subtype:** Air, Shapechanger

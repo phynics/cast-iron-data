@@ -35,13 +35,13 @@ body and its forelimbs look like hands._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Size:** small
 

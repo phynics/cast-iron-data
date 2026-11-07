@@ -30,13 +30,13 @@ abilities = ["14", "15", "14", "2", "13", "11"]
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 228, Pathfinder \#21: The Jackal's Price pg 84\
 **Experience points:** 800

@@ -37,11 +37,11 @@ wings fluttering from its shoulders._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

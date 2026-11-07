@@ -44,9 +44,7 @@ humanoid features with canine._
 
 **Perception:** +21
 
-**Sense:** Scent
-
-**Senses:** Sense fear
+**Senses:** Scent, Sense fear
 
 **Sources:** Bestiary 6 pg 180\
 **Subtype:** Extraplanar

@@ -35,13 +35,13 @@ _This beautiful, impossibly intricate tattoo appears to swirl and move along its
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Occult Bestiary pg 54\
 **Experience points:** 800

@@ -40,7 +40,7 @@ hound than an undead man._
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 3 pg 115, Hungry are the Dead pg 30\
 **Type:** undead

@@ -37,11 +37,11 @@ with fine scrimshaw._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Size:** small
 

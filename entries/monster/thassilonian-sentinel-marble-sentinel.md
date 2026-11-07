@@ -37,11 +37,11 @@ intently with its glowing green eyes._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Size:** small
 

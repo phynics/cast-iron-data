@@ -35,11 +35,11 @@ _This large bird has brown and gray feathers and a vicious hooked beak._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 82\
 **Experience points:** 800

@@ -41,7 +41,7 @@ of the gap._
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 6 pg 287\
 **Subtype:** Augmented vermin

@@ -32,8 +32,6 @@ wriggling mass of tentacles._
 
 **Challenge rating:** 15
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
 
 **dv:** 60
@@ -45,6 +43,8 @@ wriggling mass of tentacles._
 **Type:** outsider
 
 **Perception:** +22
+
+**Senses:** All-around vision
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 406, Pathfinder \#3: The Hook Mountain
 Massacre pg 88\

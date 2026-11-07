@@ -40,11 +40,11 @@ objects clinging to its body._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 88\
 **Experience points:** 9,600

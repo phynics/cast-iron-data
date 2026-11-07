@@ -39,13 +39,13 @@ blade he effortlessly wields._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Dhampir
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 89\
 **Experience points:** 200

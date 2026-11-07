@@ -37,15 +37,13 @@ mouth that drips viscous fluid._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +15
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 261, Pathfinder \#70: The Frozen Stars pg 88\
 **tremorsense:** 30

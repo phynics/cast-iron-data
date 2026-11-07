@@ -34,8 +34,6 @@ _This enormous snake has glowing green eyes, large fangs, and wide, membranous w
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -44,7 +42,7 @@ _This enormous snake has glowing green eyes, large fangs, and wide, membranous w
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 189\
 **Subtype:** Shapechanger

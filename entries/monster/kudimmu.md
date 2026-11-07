@@ -36,11 +36,11 @@ creature, and its face is marked only by a pair of glowing, crimson eyes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +32
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

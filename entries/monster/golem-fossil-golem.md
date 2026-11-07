@@ -37,11 +37,11 @@ tyrannosaur-skulled hands._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 136\
 **Experience points:** 19,200

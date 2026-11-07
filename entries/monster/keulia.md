@@ -33,11 +33,11 @@ _This small, frilled reptile has a squat body with smooth scales._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Druma, Profit and Prophecy pg 62\
 **Size:** tiny

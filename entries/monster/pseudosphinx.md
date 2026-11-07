@@ -33,13 +33,13 @@ _This small creature has the body of a housecat, the wings of a falcon, and the 
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Familiar Folio pg 29\
 **Size:** tiny

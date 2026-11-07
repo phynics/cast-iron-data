@@ -32,15 +32,13 @@ _Powerful muscles ripple beneath the golden fur of this small yet fearsome eight
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

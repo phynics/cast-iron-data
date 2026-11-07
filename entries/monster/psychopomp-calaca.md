@@ -37,8 +37,6 @@ creature's face is hidden by an intricately decorated skull mask._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -47,7 +45,7 @@ creature's face is hidden by an intricately decorated skull mask._
 
 **Perception:** +16
 
-**Senses:** Spiritsense
+**Senses:** Low-light vision, Spiritsense
 
 **Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 88\
 **Subtype:** Extraplanar, Psychopomp

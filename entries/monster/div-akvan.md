@@ -46,9 +46,7 @@ crowning its broad head._
 
 **Perception:** +34
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** See in darkness, True seeing
 
 **Sources:** Bestiary 3 pg 84\
 **Subtype:** Div, Evil, Extraplanar

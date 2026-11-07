@@ -40,15 +40,13 @@ watchfully as though alive._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +10
 
-**Senses:** Detect evil, Detect magic
+**Senses:** Detect evil, Detect magic, Low-light vision
 
 **Sources:** Monster Summoner's Handbook pg 24\
 **Subtype:** Archon, Extraplanar, Good, Lawful

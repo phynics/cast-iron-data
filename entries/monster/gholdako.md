@@ -36,11 +36,11 @@ strips of bloody linen._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 125, Isles of the Shackles pg 49\
 **Type:** undead

@@ -30,8 +30,6 @@ into a dark gullet._
 
 **Challenge rating:** 10
 
-**Sense:** Aav
-
 **aura:** tendrils (20 ft.)
 
 **blindsight:** 120
@@ -45,6 +43,8 @@ into a dark gullet._
 **Type:** ooze
 
 **Perception:** +13
+
+**Senses:** All-around vision
 
 **Sources:** Pathfinder \#111: Dreams of the Yellow King pg 82\
 **tremorsense:** 240

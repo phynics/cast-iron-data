@@ -40,13 +40,13 @@ of death and decay._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 136, Pathfinder \#7: Edge of Anarchy pg 78\
 **Experience points:** 1,200

@@ -38,11 +38,11 @@ are slotted gills._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 189\
 **Subtype:** Aquatic, Giant

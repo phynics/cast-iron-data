@@ -38,8 +38,6 @@ _Monstrous black-feathered wings cloak this leanly muscled, onyx-skinned humanoi
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -47,6 +45,8 @@ _Monstrous black-feathered wings cloak this leanly muscled, onyx-skinned humanoi
 **othersubs:** Strix
 
 **Perception:** +0 (+2 at night)
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea World Guide pg 313, Pathfinder \#25: The Bastards of Erebus pg 82\
 **Experience points:** 135

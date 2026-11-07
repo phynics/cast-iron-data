@@ -38,11 +38,11 @@ out, ending in an upraised fist._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 140\
 **Experience points:** 51,200

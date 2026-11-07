@@ -43,7 +43,7 @@ _A pair of frozen, multifaceted eyes coldly judge all before this towering, inse
 
 **Perception:** +27
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 77\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

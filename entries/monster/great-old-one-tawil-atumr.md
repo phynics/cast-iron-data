@@ -46,9 +46,7 @@ extending from below._
 
 **Perception:** +49
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 148\
 **Subtype:** Chaotic, Extraplanar, Great Old One

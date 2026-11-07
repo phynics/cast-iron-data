@@ -40,15 +40,13 @@ _This stag-headed humanoid has large, sweeping antlers and wields a finely-craft
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +11
 
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision
 
 **Sources:** Inner Sea Gods pg 287\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Shapechanger

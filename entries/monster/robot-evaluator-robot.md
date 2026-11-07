@@ -37,15 +37,13 @@ _With wings and an unearthly glow, this mechanical being could easily be mistake
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +18
 
-**Senses:** Superior optics
+**Senses:** Low-light vision, Superior optics
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 90\
 **Subtype:** Robot

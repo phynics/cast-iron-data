@@ -36,15 +36,13 @@ vulture skull._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +8
 
-**Senses:** Deathwatch
+**Senses:** Deathwatch, Low-light vision
 
 **Sources:** Inner Sea Gods pg 313\
 **Subtype:** Evil, Extraplanar

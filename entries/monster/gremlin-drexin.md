@@ -41,9 +41,9 @@ darkness._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Size:** small
 

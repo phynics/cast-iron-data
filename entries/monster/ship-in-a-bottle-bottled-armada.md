@@ -37,11 +37,11 @@ one, coordinating their attacks._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#57: Tempest Rising pg 86\
 **Subtype:** Swarm

@@ -38,13 +38,13 @@ sapphire set into its brow. At the creature moves, the masks seem to shift and s
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Masks of the Living God pg 30\
 **Experience points:** 1,200

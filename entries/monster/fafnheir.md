@@ -40,13 +40,9 @@ nightmarish power, and its mouth drips with liquid flame._
 
 **Initiative:** +14
 
-**Sense:** Llv
-
 **Perception:** +46
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Lands of the Linnorm Kings pg 56\
 **Experience points:** 1,228,800

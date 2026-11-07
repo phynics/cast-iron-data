@@ -43,15 +43,11 @@ of blistering fire._
 
 **Alignment:** Lawful evil
 
-**Sense:** Mistsight
-
 **Type:** outsider
 
 **Perception:** +49
 
-**Senses:** Detect chaos, Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Detect chaos, Detect good, Mistsight, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 30\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

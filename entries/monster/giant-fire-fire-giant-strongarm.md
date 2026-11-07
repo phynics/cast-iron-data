@@ -40,9 +40,9 @@ abilities = ["35", "13", "19", "12", "16", "10"]
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 58\
 **Subtype:** Fire, Giant

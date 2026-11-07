@@ -40,13 +40,11 @@ tail tipped with four bony spikes._
 
 **Initiative:** +17
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
-**Sense:** Mistsight
-
 **Perception:** +34
+
+**Senses:** Low-light vision, Mistsight
 
 **Sources:** Bestiary 6 pg 170\
 **Subtype:** Fire, Kaiju

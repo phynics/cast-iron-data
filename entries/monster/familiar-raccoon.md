@@ -30,13 +30,11 @@ abilities = ["8", "15", "11", "2", "16", "5"]
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +3
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 113\
 **Size:** tiny

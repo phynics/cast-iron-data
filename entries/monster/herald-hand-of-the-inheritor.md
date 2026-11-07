@@ -41,13 +41,13 @@ radiant shield._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **othersubs:** Herald
 
 **Type:** outsider
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Gods pg 292, Pathfinder \#26: The Sixfold Trial pg 86\
 **Subtype:** Angel, Extraplanar, Good, Lawful

@@ -39,13 +39,11 @@ _Glowing motes of electricity dance over this massive ursine creature's hairless
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Seers of the Drowned City pg 59\
 **Experience points:** 3,200

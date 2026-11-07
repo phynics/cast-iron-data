@@ -34,11 +34,11 @@ its back._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** -2
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -38,8 +38,6 @@ beautiful, despite having no flesh._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -48,7 +46,7 @@ beautiful, despite having no flesh._
 
 **Perception:** +11
 
-**Senses:** Spiritsense
+**Senses:** Low-light vision, Spiritsense
 
 **Sources:** Bestiary 4 pg 218\
 **Subtype:** Extraplanar, Psychopomp

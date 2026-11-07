@@ -44,7 +44,7 @@ stinger._
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 5 pg 43\
 **Experience points:** 1,600

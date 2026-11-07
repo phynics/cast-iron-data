@@ -36,13 +36,13 @@ eyes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 252\
 **Experience points:** 3,200

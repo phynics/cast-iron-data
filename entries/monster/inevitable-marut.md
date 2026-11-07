@@ -37,15 +37,13 @@ revealing flesh of black stone._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** outsider
 
 **Perception:** +26
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 166\
 **Subtype:** Extraplanar, Inevitable, Lawful

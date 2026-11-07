@@ -38,13 +38,13 @@ razor-like fins._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 78\
 **Subtype:** Aquatic

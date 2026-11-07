@@ -39,7 +39,7 @@ jagged teeth._
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Size:** small
 

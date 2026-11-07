@@ -37,7 +37,7 @@ dream._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Ultimate Wilderness pg 192\
 **Type:** vermin

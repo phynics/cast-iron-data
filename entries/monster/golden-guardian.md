@@ -36,13 +36,13 @@ exquisite detail into an eerie replica of a human face._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** City of Golden Death pg 29\
 **Experience points:** 2,400

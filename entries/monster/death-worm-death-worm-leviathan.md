@@ -35,13 +35,13 @@ _This enormous worm has stony hide and acid-dripping jaws._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 21\
 **tremorsense:** 60

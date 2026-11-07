@@ -37,11 +37,11 @@ leonine face._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 172\
 **Experience points:** 3,200

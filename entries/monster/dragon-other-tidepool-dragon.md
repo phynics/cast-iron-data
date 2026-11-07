@@ -40,9 +40,9 @@ it snaps crustacean-like claws._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#55: The Wormwood Mutiny pg 82\
 **Subtype:** Aquatic

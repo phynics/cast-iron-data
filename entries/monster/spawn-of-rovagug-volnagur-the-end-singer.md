@@ -31,8 +31,6 @@ dozen different wings._
 
 **Challenge rating:** 22
 
-**Sense:** Aav
-
 **aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 27)
 
 **blindsense:** 300
@@ -45,13 +43,11 @@ dozen different wings._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +20
 
-**Sense:** Scent
+**Senses:** All-around vision, Low-light vision, Scent
 
 **Sources:** Inner Sea Bestiary pg 48\
 **Experience points:** 614,400

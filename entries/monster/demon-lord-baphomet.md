@@ -46,9 +46,7 @@ than twice a human's height._
 
 **Perception:** +53
 
-**Senses:** Detect good, Detect law, True seeing
-
-**Sense:** Sid
+**Senses:** Detect good, Detect law, See in darkness, True seeing
 
 **Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 88\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

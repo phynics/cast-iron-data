@@ -36,11 +36,11 @@ _A cold-eyed falcon's head and great wings adorn the body of this otherwise leon
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 253\
 **Experience points:** 1,600

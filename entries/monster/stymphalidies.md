@@ -35,13 +35,13 @@ fluidity of a living creature._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 257\
 **Experience points:** 4,800

@@ -37,11 +37,11 @@ _Jagged, twisting antlers of dark blue ice crown the helm of this ice-armored hu
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 59, Carnival of Tears pg 29\
 **Subtype:** Cold

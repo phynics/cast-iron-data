@@ -45,9 +45,7 @@ _Little more than a walking corpse, this frightful horse's hide stretches tight 
 
 **Perception:** +38
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Scent, True seeing
 
 **Sources:** Bestiary 6 pg 12\
 **Subtype:** Evil, Extraplanar

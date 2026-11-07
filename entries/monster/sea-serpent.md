@@ -36,13 +36,13 @@ hisses a challenge._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 244\
 **Subtype:** Aquatic

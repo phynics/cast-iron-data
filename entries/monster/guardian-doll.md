@@ -37,11 +37,11 @@ disturbing curiosity._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 58\
 **Subtype:** Cold

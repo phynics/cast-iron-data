@@ -36,11 +36,11 @@ abilities = ["42", "9", "-", "-", "15", "1"]
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Lost Kingdoms pg 40\
 **Experience points:** 102,400

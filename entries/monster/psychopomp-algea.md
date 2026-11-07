@@ -40,17 +40,13 @@ of pale blue mist._
 
 **Initiative:** +14
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +26
 
-**Senses:** Spiritsense
-
-**Senses:** Greater arcane sight
+**Senses:** Greater arcane sight, Low-light vision, Spiritsense
 
 **Sources:** Bestiary 6 pg 217\
 **Subtype:** Extraplanar, Psychopomp, Swarm

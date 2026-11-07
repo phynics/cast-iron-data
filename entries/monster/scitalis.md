@@ -38,11 +38,11 @@ glass by the creature's inner glow._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 222\
 **Experience points:** 19,200

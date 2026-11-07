@@ -40,11 +40,11 @@ filled with terrible teeth._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 410, Pathfinder \#6: Spires of Xin-Shalast
 pg 84\

@@ -38,15 +38,13 @@ much more muscular and carries itself with a strange posture._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 90\
 **Subtype:** Shapechanger

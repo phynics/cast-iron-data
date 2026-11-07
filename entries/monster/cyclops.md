@@ -38,11 +38,11 @@ even larger mouth gapes like a cave._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 52\
 **Subtype:** Giant

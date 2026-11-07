@@ -39,11 +39,11 @@ _Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed s
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 33\
 **Subtype:** Clockwork

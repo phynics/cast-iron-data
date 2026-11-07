@@ -35,13 +35,11 @@ _This elephantine amphibian has a grotesquely long tongue and beady eyes._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 117\
 **Experience points:** 1,600

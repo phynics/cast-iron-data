@@ -42,11 +42,11 @@ with crystals._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 50\
 **Subtype:** Giant

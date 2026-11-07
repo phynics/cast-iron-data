@@ -39,13 +39,13 @@ staring eyes and hideous fangs._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#124: City in the Deep pg 90\
 **Subtype:** Aquatic, Native, Oni, Shapechanger

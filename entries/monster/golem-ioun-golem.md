@@ -42,11 +42,11 @@ grooves visible above, below, and between its twin sets of arms._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#126: Beyond the Veiled Past pg 88\
 **Experience points:** 102,400

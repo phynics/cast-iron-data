@@ -34,8 +34,6 @@ _This beautiful albino woman is wreathed in wings of brilliant flame._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -44,7 +42,7 @@ _This beautiful albino woman is wreathed in wings of brilliant flame._
 
 **Perception:** +26
 
-**Senses:** Smoke sight
+**Senses:** Low-light vision, Smoke sight
 
 **Sources:** Bestiary 3 pg 218\
 **Subtype:** Good, Native

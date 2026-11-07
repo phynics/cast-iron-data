@@ -37,13 +37,13 @@ and green hide, and a muscular tail sways menacingly behind it._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#129: The Twilight Child pg 90\
 **Experience points:** 9,600

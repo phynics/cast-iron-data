@@ -44,7 +44,7 @@ moves in unsettling lurches._
 
 **Perception:** +19
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 74\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

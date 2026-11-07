@@ -38,8 +38,6 @@ shape._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -48,7 +46,7 @@ shape._
 
 **Perception:** +19
 
-**Senses:** Spiritsense 60 ft.
+**Senses:** Low-light vision, Spiritsense 60 ft.
 
 **Sources:** Monster Summoner's Handbook pg 25\
 **Subtype:** Psychopomp, Extraplanar

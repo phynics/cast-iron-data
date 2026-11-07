@@ -37,13 +37,13 @@ and cloven hooves on its stumpy legs._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +25
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 52\
 **Experience points:** 19,200

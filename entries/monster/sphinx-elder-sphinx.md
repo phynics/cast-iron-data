@@ -37,15 +37,13 @@ acquired through untold ages of experience._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +27
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 90\
 **Experience points:** 76,800

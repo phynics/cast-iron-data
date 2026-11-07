@@ -39,13 +39,11 @@ with dead, white eyes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +36
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 81\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

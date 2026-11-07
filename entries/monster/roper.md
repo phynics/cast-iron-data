@@ -41,9 +41,9 @@ fibrous material whip from its sides._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 237\
 **Experience points:** 19,200

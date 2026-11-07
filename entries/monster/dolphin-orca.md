@@ -38,11 +38,11 @@ teeth._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 88\
 **Experience points:** 1,600

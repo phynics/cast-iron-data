@@ -41,13 +41,13 @@ an agonizing death._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 9\
 **Subtype:** Aquatic

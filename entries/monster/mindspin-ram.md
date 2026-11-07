@@ -33,13 +33,13 @@ surface._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 82\
 **Experience points:** 600

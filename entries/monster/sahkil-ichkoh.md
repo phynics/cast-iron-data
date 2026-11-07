@@ -36,8 +36,6 @@ place of an insectile head._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -46,7 +44,7 @@ place of an insectile head._
 
 **Perception:** +15
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Detect good, Detect magic, Low-light vision, See invisibility
 
 **Sources:** Bestiary 6 pg 243\
 **Subtype:** Evil, Extraplanar, Sahkil

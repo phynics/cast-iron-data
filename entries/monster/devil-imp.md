@@ -41,9 +41,7 @@ nuisance._
 
 **Perception:** +7
 
-**Senses:** Detect good, Detect magic
-
-**Sense:** Sid
+**Senses:** Detect good, Detect magic, See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 78\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

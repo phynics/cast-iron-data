@@ -42,9 +42,7 @@ single red eye._
 
 **Perception:** +51
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** See in darkness, True seeing
 
 **Sources:** Planar Adventures pg 246\
 **Experience points:** 614,400

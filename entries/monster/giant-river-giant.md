@@ -39,9 +39,9 @@ _This slender giant dresses in simple clothes and has swirling patterns on her g
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 128\
 **Subtype:** Giant

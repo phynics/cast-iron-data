@@ -38,9 +38,9 @@ teeth and glowing, orange eyes._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 142, Pathfinder \#19: Howl of the Carrion King pg 82\
 **Size:** tiny

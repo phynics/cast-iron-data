@@ -47,7 +47,7 @@ creature had been melted and then reformed._
 
 **Perception:** +10
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 84\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

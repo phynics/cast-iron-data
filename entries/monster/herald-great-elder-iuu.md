@@ -43,13 +43,13 @@ glinting metallic ore._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **othersubs:** Herald
 
 **Type:** outsider
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#93: Forge of the Giant God pg 86\
 **Subtype:** Evil, Giant, Lawful

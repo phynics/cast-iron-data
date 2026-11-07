@@ -41,13 +41,11 @@ champion of countless wars._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +29
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 210\
 **Subtype:** Giant, Native, Oni, Shapechanger

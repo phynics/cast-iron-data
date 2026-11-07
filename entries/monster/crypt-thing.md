@@ -36,13 +36,13 @@ deep in its eye sockets._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 60\
 **Type:** undead

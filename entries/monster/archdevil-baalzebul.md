@@ -47,9 +47,7 @@ _This swarm of droning black flies teems in the semblance of a winged angel with
 
 **Perception:** +49
 
-**Senses:** Detect chaos, Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Detect chaos, Detect good, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 16\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

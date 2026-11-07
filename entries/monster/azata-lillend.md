@@ -39,11 +39,11 @@ from the waist down._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 26\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

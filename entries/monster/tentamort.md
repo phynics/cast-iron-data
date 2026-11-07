@@ -29,8 +29,6 @@ which are longer than the rest._
 
 **Challenge rating:** 4
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **blindsense:** 30
@@ -44,6 +42,8 @@ which are longer than the rest._
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** All-around vision
 
 **Sources:** Bestiary 2 pg 261\
 **Experience points:** 1,200

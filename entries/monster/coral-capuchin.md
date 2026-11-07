@@ -36,13 +36,13 @@ fish and large, fin-like wings._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 66, Pathfinder \#58: Island of Empty Eyes pg 82\
 **Subtype:** Aquatic

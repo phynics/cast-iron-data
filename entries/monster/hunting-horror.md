@@ -39,17 +39,11 @@ allow the creature to fly._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +19
 
-**Sense:** Scent
-
-**Senses:** Detect scrying
-
-**Sense:** Sid
+**Senses:** Detect scrying, Low-light vision, Scent, See in darkness
 
 **Sources:** Pathfinder \#113: What Grows Within pg 88\
 **Experience points:** 38,400

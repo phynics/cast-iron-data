@@ -40,7 +40,7 @@ horse._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 5 pg 27\
 **Type:** vermin

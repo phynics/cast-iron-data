@@ -45,7 +45,7 @@ which wields a scimitar._
 
 **Perception:** +19
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 3 pg 22\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

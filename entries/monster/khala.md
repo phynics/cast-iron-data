@@ -41,9 +41,9 @@ hissing, triangular heads._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +30
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 151, Irrisen - Land of Eternal Winter pg 59\
 **Subtype:** Cold

@@ -46,9 +46,7 @@ wings._
 
 **Perception:** +50
 
-**Senses:** Detect chaos, Detect good, Discern lies, True seeing
-
-**Sense:** Sid
+**Senses:** Detect chaos, Detect good, Discern lies, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 28\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

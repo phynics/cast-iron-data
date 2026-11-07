@@ -39,13 +39,13 @@ _A tall, handsome woman sits astride a white horse. She grips an elegant longbow
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 55\
 **Experience points:** 12,800

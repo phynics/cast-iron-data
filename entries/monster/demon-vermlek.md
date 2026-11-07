@@ -44,7 +44,7 @@ _A hideous, pale, worm-like head pushes violently up and out of a corpulent man'
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 6 pg 90, Book of the Damned - Volume 2: Lords of Chaos pg 54\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

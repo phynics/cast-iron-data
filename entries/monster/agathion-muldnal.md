@@ -35,15 +35,13 @@ dirt-stained smock; its pink nose twitches ceaselessly._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +12
 
-**Senses:** Detect snares and pits
+**Senses:** Detect snares and pits, Low-light vision
 
 **Size:** small
 

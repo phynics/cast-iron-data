@@ -33,15 +33,13 @@ _This muscular, cougar-like cat has fearsome teeth and a thick tail ending in a 
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 82\
 **Experience points:** 800

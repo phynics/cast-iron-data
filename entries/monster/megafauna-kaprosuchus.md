@@ -35,11 +35,11 @@ _This massive, squat crocodilian has forward facing eyes, jutting teeth, and a p
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 170\
 **Experience points:** 1,600

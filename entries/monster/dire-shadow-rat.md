@@ -37,7 +37,7 @@ Its semi-translucent skin shows discolored bones and muscles._
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Size:** small
 

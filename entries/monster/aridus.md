@@ -46,11 +46,11 @@ flesh._
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +29
+
+**Senses:** Low-light vision
 
 **Sources:** Mythical Monsters Revisited pg 62\
 **Subtype:** Air, Fire, Native

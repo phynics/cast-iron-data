@@ -37,8 +37,6 @@ blaze of crackling flames._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -46,6 +44,8 @@ blaze of crackling flames._
 **Type:** outsider
 
 **Perception:** -1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 258, Qadira, Gateway to the East pg 28\
 **Subtype:** Native

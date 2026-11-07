@@ -37,13 +37,13 @@ _This disc of flying metal is about the size of a wagon wheel and burns with yel
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Gods pg 293\
 **Subtype:** Angel, Extraplanar, Fire, Good, Lawful

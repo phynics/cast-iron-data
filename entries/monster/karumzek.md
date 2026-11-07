@@ -36,8 +36,6 @@ obscure its head._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -46,7 +44,7 @@ obscure its head._
 
 **Perception:** +9
 
-**Senses:** Sense poison
+**Senses:** Low-light vision, Sense poison
 
 **Sources:** Inner Sea Gods pg 301\
 **Subtype:** Evil, Extraplanar, Shapechanger

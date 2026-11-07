@@ -38,11 +38,11 @@ regal, elf-like humanoid._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 94\
 **Experience points:** 153,600

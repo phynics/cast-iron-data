@@ -40,15 +40,13 @@ body of a four-armed giant._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** outsider
 
 **Perception:** +29
 
-**Senses:** Detect chaos, Detect law, Detect magic, True seeing
+**Senses:** Detect chaos, Detect law, Detect magic, Low-light vision, True seeing
 
 **Sources:** Concordance of Rivals pg 54\
 **Subtype:** Extraplanar, Inevitable, Lawful

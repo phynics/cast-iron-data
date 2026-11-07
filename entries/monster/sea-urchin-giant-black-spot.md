@@ -36,15 +36,13 @@ their midst._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +0
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 88\
 **Subtype:** Aquatic

@@ -39,13 +39,13 @@ sizzling acid._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 198\
 **Subtype:** Mythic

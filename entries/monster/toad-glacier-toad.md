@@ -35,15 +35,13 @@ _This improbably large toad has pale blue flesh and a body covered with jagged, 
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 268\
 **Subtype:** Cold

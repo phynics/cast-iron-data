@@ -35,11 +35,11 @@ smaller horn-like ridges._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 171\
 **Experience points:** 3,200

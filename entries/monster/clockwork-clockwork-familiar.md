@@ -37,11 +37,11 @@ articulated plates._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 57, Pathfinder \#63: The Asylum Stone pg 86\
 **Subtype:** Clockwork

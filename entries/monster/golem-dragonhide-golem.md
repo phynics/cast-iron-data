@@ -39,11 +39,11 @@ various colors._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Sources:** Construct Handbook pg 42\
 **Experience points:** 76,800

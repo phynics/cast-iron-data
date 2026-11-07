@@ -35,13 +35,13 @@ _This creature has the body of a hawk and the head of a beautiful woman with lon
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 247, Pathfinder \#14: Children of the Void pg 84\
 **Experience points:** 1,600

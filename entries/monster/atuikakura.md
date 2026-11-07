@@ -37,13 +37,13 @@ with hooked teeth._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 32\
 **Subtype:** Aquatic

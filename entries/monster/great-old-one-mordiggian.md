@@ -32,8 +32,6 @@ into its body to be forever extinguished._
 
 **Challenge rating:** 30
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **aura:** unspeakable presence (300 ft., DC 40)
@@ -48,9 +46,7 @@ into its body to be forever extinguished._
 
 **Perception:** +50
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** All-around vision, See in darkness, True seeing
 
 **Sources:** Pathfinder \#110: The Thrushmoor Terror pg 86\
 **Subtype:** Chaotic, Evil, Great Old One, Incorporeal

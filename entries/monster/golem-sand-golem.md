@@ -39,11 +39,11 @@ reinforcing its tall, humanoid form._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Construct Handbook pg 46\
 **Experience points:** 6,400

@@ -38,11 +38,11 @@ beneath its mottled black hide._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 82\
 **tremorsense:** 120

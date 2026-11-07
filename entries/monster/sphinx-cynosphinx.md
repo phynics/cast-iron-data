@@ -35,15 +35,13 @@ _A jackal's head draped in a tattered headdress extends from a winged, leonine b
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#82: Secrets of the Sphinx pg 84\
 **Experience points:** 2,400

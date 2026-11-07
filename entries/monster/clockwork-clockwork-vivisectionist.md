@@ -33,21 +33,19 @@ intentions clear._
 
 **Challenge rating:** 10
 
-**Sense:** Aav
-
 **Type:** construct
 
 **dv:** 60
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** -1
+
+**Senses:** All-around vision, Low-light vision
 
 **Sources:** Pathfinder \#112: The Whisper Out of Time pg 82\
 **Subtype:** Clockwork

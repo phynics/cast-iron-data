@@ -40,11 +40,11 @@ afire with murderous intent._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 221\
 **Subtype:** Giant, Native, Oni, Shapechanger

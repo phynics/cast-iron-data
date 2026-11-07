@@ -38,15 +38,13 @@ and bone._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +37
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 214\
 **Subtype:** Evil, Extraplanar, Sahkil

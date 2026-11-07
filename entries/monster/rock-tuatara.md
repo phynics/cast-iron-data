@@ -34,11 +34,11 @@ _The stony-looking hide of this fat reptile ends in a studded, heavy club of a t
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 83\
 **Size:** tiny

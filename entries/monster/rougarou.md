@@ -37,15 +37,13 @@ _This muscular, wolf-headed humanoid is covered in brown and gray fur._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 242\
 **Subtype:** Shapechanger

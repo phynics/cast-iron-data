@@ -41,9 +41,9 @@ it buzzes through the air._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 274, The Worldwound pg 61\
 **Subtype:** Extraplanar

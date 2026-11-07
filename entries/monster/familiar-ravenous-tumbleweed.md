@@ -32,11 +32,11 @@ _This tangle of dry-looking vegetation has grown into a spherical ball of thorny
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

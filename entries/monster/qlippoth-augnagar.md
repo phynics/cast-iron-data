@@ -45,9 +45,7 @@ webs of flesh._
 
 **Perception:** +22
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Scent, True seeing
 
 **Sources:** Bestiary 2 pg 219\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

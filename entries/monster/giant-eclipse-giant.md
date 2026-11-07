@@ -39,13 +39,11 @@ massive giant._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +41
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Bestiary 5 pg 121\
 **Subtype:** Giant

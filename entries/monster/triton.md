@@ -35,8 +35,6 @@ flippers rather than feet._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -44,6 +42,8 @@ flippers rather than feet._
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 270\
 **Subtype:** Native, Water

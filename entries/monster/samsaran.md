@@ -38,13 +38,13 @@ simple robes._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 230\
 **Subtype:** Samsaran

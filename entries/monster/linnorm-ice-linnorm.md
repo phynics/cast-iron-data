@@ -40,13 +40,9 @@ from its coiling flanks._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Perception:** +26
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 191\
 **Experience points:** 102,400

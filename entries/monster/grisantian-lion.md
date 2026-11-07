@@ -37,13 +37,11 @@ _This massive lion's fur and skin shimmer with a golden sheen._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#132: The Six-Legend Soul pg 86\
 **Experience points:** 38,400

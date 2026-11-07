@@ -46,9 +46,7 @@ vortex of otherworldly flame._
 
 **Perception:** +44
 
-**Senses:** Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Detect good, See in darkness, True seeing
 
 **Sources:** Book of the Damned pg 170\
 **Subtype:** Evil, Native

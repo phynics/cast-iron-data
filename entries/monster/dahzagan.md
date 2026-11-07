@@ -44,9 +44,7 @@ body of a giant wolf._
 
 **Perception:** +14
 
-**Sense:** Scent
-
-**Senses:** Deathwatch
+**Senses:** Deathwatch, Scent
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 59\
 **Subtype:** Chaotic, Evil, Extraplanar

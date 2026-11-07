@@ -37,15 +37,13 @@ scaly hide, and tail of a crocodile._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +22
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 262\
 **Subtype:** Aquatic, Augmented animal

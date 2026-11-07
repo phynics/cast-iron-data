@@ -44,9 +44,7 @@ shell along with several hooked legs._
 
 **Perception:** +10
 
-**Sense:** Scent
-
-**Senses:** Detect chaos, Detect evil
+**Senses:** Detect chaos, Detect evil, Scent
 
 **Size:** small
 

@@ -36,15 +36,13 @@ origins._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Qadira, Jewel of the East pg 60\
 **Experience points:** 2,400

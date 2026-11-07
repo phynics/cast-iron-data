@@ -38,13 +38,11 @@ appears to be an armored cobra._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 62\
 **tremorsense:** 120

@@ -38,11 +38,11 @@ _Carved from gray stone, this enormous figure is shaped like the head of some pr
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 88\
 **Experience points:** 4,800

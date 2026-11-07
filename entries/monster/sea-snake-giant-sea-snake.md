@@ -37,11 +37,11 @@ flipper-like tail to aid it as it swims._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Isles of the Shackles pg 59\
 **Experience points:** 3,200

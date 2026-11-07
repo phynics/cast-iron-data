@@ -40,11 +40,11 @@ above a mass of tentacles._
 
 **Keen Scent:** present
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 49\
 **Subtype:** Aquatic

@@ -38,13 +38,11 @@ lights and gentle rainbow arcs._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +9
 
-**Senses:** Detect evil, Detect magic
+**Senses:** Detect evil, Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 38, Pathfinder \#2: The Skinsaw Murders pg 86\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

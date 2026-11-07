@@ -48,11 +48,9 @@ head._
 
 **Size:** large
 
-**Sense:** Llv
-
-**Sense:** Mistsight
-
 **Perception:** +26
+
+**Senses:** Low-light vision, Mistsight
 
 **Sources:** Mythic Adventures pg 187\
 **Subtype:** Mythic, Water

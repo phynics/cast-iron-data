@@ -35,11 +35,11 @@ of beady eyes._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 240\
 **Subtype:** Swarm

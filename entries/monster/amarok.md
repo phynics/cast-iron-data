@@ -36,19 +36,13 @@ of a cold moon._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** Magical beast
 
 **Perception:** +28
 
-**Sense:** Scent
-
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** Low-light vision, Scent, See in darkness, True seeing
 
 **Sources:** Bestiary 5 pg 17\
 **Experience points:** 19,200

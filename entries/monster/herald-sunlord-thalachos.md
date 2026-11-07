@@ -41,8 +41,6 @@ flaming scimitars and a bow._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **othersubs:** Herald
@@ -50,6 +48,8 @@ flaming scimitars and a bow._
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Gods pg 306, Pathfinder \#20: House of the Beast pg 86\
 **Subtype:** Angel, Extraplanar, Good, Shapechanger

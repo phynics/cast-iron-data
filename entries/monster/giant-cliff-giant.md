@@ -38,11 +38,11 @@ with streaks of shimmering color._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 126\
 **Subtype:** Giant

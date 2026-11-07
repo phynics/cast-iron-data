@@ -40,15 +40,13 @@ from its body._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +22
 
-**Senses:** Superior optics
+**Senses:** Low-light vision, Superior optics
 
 **Sources:** Pathfinder \#89: Palace of Fallen Stars pg 90\
 **Subtype:** Robot

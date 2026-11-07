@@ -37,11 +37,11 @@ from his temples._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 241\
 **Experience points:** 1,200

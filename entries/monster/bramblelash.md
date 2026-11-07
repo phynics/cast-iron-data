@@ -38,9 +38,9 @@ _A blue-green vine covered with stiff, verdant leaves and barbed thorns protrude
 
 **Perception:** +0
 
-**Type:** plant
+**Senses:** Scent
 
-**Sense:** Scent
+**Type:** plant
 
 **Sources:** Pathfinder \#115: Trail of the Hunted pg 84\
 **tremorsense:** 10

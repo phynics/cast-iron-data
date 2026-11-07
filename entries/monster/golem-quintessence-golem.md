@@ -43,11 +43,11 @@ swirl within its immense body._
 
 **Lifesense:** present
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 142\
 **Subtype:** Extraplanar

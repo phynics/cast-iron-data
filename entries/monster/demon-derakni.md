@@ -43,7 +43,7 @@ front legs end in clawed hands._
 
 **Perception:** +25
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** The Worldwound pg 43\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -41,7 +41,7 @@ bulging, lidless eye._
 
 **Perception:** +10
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Size:** small
 

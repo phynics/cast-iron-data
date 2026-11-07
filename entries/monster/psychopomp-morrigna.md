@@ -36,8 +36,6 @@ her clothing and staff._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -46,7 +44,7 @@ her clothing and staff._
 
 **Perception:** +28
 
-**Senses:** Spiritsense
+**Senses:** Low-light vision, Spiritsense
 
 **Sources:** Bestiary 4 pg 219, Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Extraplanar, Psychopomp

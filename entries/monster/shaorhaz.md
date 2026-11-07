@@ -42,13 +42,11 @@ visage. Huge black wings fan behind its back, and flickering black blades burn i
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +44
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Demons Revisited pg 44\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

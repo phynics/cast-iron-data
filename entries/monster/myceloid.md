@@ -34,17 +34,15 @@ cap for a head._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +6
 
-**Type:** plant
+**Senses:** Low-light vision, Scent
 
-**Sense:** Scent
+**Type:** plant
 
 **Sources:** Bestiary 3 pg 196\
 **Experience points:** 1,200

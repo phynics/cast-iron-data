@@ -41,11 +41,9 @@ with desperate hunger._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Daughters of Fury pg 52\
 **Subtype:** Giant

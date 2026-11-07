@@ -43,7 +43,7 @@ skirt adorned with gold pendants._
 
 **Perception:** +21
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Book of the Damned pg 249\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

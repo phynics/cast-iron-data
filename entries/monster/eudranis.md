@@ -44,7 +44,7 @@ In one hand, he clutches a great blade, while his other hand holds an idol of so
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Darklands Revisited pg 33\
 **Experience points:** 1,600

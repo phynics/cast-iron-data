@@ -40,7 +40,7 @@ _This large, regal canine looks like a juvenile mastiff. It has red fur and vibr
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Size:** small
 

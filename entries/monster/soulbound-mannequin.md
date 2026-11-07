@@ -37,11 +37,11 @@ _This strange construct is shaped like a masked humanoid made of wood and porcel
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 248\
 **Experience points:** 3,200

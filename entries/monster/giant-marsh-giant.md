@@ -39,9 +39,9 @@ obese giant._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 129, Pathfinder \#5: Sins of the Saviors pg 82\
 **Subtype:** Giant

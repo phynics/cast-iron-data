@@ -34,13 +34,13 @@ towering trunk-like legs. Its arms resemble the branches of a snow-laden conifer
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

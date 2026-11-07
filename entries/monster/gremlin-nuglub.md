@@ -38,9 +38,9 @@ back, covering it like a cloak._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Size:** small
 

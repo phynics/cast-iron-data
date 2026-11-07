@@ -38,13 +38,13 @@ into its chest._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Construct Handbook pg 34\
 **Subtype:** Clockwork

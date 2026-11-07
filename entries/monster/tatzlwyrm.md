@@ -36,13 +36,13 @@ end in tiny claws._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 261, Pathfinder \#31: Stolen Land pg 82, Hollow's Last Hope pg 18\
 **Experience points:** 600

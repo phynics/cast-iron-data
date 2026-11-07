@@ -38,13 +38,13 @@ displays knife-like talons._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 183\
 **Experience points:** 12,800

@@ -39,13 +39,13 @@ rapier-like tail stinger._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#58: Island of Empty Eyes pg 88\
 **Subtype:** Aquatic

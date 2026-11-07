@@ -36,13 +36,11 @@ tusks jut downward, flanking its mouth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 279\
 **Experience points:** 800

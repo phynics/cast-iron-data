@@ -37,11 +37,11 @@ _Clothed in loose robes and wearing jewelry, this one-eyed giant appears to hold
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#58: Island of Empty Eyes pg 73\
 **Subtype:** Giant

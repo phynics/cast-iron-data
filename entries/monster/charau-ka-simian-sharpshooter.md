@@ -41,13 +41,11 @@ _This long-furred ape-person wears a battered snakeskin poncho and carries a wor
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **othersubs:** Charau-ka
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

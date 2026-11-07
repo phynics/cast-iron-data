@@ -33,11 +33,11 @@ Whip-like fronds unfurl from the center._
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

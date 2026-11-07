@@ -37,13 +37,11 @@ wise-looking human._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +20
 
-**Senses:** Detect chaos, Detect evil, True seeing
+**Senses:** Detect chaos, Detect evil, Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 2543\
 **Experience points:** 6,400

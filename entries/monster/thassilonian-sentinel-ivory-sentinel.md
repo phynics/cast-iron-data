@@ -37,11 +37,11 @@ whitened bone._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Size:** small
 

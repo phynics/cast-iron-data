@@ -40,11 +40,9 @@ fangs._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 207\
 **Subtype:** Aquatic

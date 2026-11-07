@@ -37,11 +37,11 @@ formidable shield._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 143\
 **Experience points:** 153,600

@@ -44,9 +44,9 @@ almost to be made of glass._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +25
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea World Guide pg 312\
 **Subtype:** Earth

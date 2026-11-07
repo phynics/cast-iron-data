@@ -37,11 +37,11 @@ legs, its eyes intermittently shining with an orange glow._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Size:** small
 

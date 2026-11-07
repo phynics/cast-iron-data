@@ -40,11 +40,11 @@ bulbous eyes._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 194, Pathfinder \#12: Crown of Fangs pg 88\
 **Subtype:** Aquatic

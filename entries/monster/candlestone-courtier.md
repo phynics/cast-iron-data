@@ -35,15 +35,13 @@ carries himself with a dancer's grace._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +25
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Andoran, Birthplace of Freedom pg 52\
 **Experience points:** 19,200

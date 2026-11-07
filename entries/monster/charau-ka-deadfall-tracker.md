@@ -41,11 +41,9 @@ _A noxious fluid drips from the vicious arrows of this feral ape-like humanoid._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

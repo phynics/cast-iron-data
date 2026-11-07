@@ -41,11 +41,11 @@ one-eyed humanoid wields an equally massive flat club._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 14\
 **Subtype:** Giant

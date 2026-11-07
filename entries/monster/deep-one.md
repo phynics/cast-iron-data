@@ -37,13 +37,13 @@ fish-like maw._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 68\
 **Subtype:** Aquatic, Deep one

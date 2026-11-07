@@ -35,13 +35,11 @@ tusks jut downward from its mouth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#70: The Frozen Stars pg 90\
 **Experience points:** 800

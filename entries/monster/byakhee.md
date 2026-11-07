@@ -43,7 +43,7 @@ decomposing human in a most hideous manner._
 
 **Perception:** +11
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#110: The Thrushmoor Terror pg 82\
 **Experience points:** 1,200

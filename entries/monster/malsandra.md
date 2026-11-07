@@ -40,13 +40,13 @@ with arcane energy._
 
 **Initiative:** +13
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +33
+
+**Senses:** Low-light vision
 
 **Sources:** Fey Revisited pg 50\
 **Subtype:** Aquatic

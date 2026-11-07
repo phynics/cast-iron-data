@@ -38,13 +38,13 @@ _Clear, flowing water forms the arms and the lower half of this angelic, elf-lik
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#105: The Inferno Gate pg 82\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Water

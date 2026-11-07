@@ -39,13 +39,13 @@ _Waves of searing heat ripple from the stony, gem-encrusted hide of this enormou
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 128\
 **Subtype:** Extraplanar

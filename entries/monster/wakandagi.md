@@ -37,19 +37,13 @@ _This antlered beast combines the features of an elegant deer and a slithering s
 
 **Size:** large
 
-**Sense:** Llv
-
-**Sense:** Mistsight
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +23
 
-**Sense:** Scent
-
-**Senses:** Detect evil, Detect magic
+**Senses:** Detect evil, Detect magic, Low-light vision, Mistsight, Scent
 
 **Sources:** Bestiary 5 pg 273\
 **Subtype:** Native, Water

@@ -35,11 +35,11 @@ tower over other animals._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 150\
 **Experience points:** 800

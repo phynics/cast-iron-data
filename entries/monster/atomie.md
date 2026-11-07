@@ -37,9 +37,9 @@ the wee creature aloft._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 27\
 **Experience points:** 400

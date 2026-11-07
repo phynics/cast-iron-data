@@ -44,9 +44,9 @@ studded with dragon's teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 33\
 **Subtype:** Giant

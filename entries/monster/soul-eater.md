@@ -32,8 +32,6 @@ silently through the air._
 
 **Challenge rating:** 7
 
-**Sense:** Aav
-
 **dv:** 60
 
 **Initiative:** +10
@@ -45,6 +43,8 @@ silently through the air._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** All-around vision
 
 **Sources:** Bestiary 2 pg 254\
 **Subtype:** Evil, Extraplanar

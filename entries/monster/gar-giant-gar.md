@@ -35,11 +35,11 @@ _This fish is enormous - a sleek predator with bony scales and a long set of too
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 128\
 **Subtype:** Aquatic

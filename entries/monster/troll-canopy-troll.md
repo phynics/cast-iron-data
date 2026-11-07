@@ -40,11 +40,9 @@ It hangs overhead, swinging between its oversized forearms and lashing, claw-tip
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

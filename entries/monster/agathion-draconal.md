@@ -41,13 +41,13 @@ a crown of horns._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +48
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 18\
 **Subtype:** Agathion, Extraplanar, Good

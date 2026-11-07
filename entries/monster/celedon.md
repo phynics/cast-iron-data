@@ -36,13 +36,13 @@ _This metallic sculpture of an idealized humanoid figure sparkles with divine lu
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 52\
 **Experience points:** 400

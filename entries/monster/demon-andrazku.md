@@ -44,7 +44,7 @@ and skin the color of a snow-buried corpse._
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 84\
 **Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar

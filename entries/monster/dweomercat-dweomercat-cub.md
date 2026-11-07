@@ -40,7 +40,7 @@ yellow eyes and stands calmly, as though fearless._
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 82\
 **Size:** tiny

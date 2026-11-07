@@ -35,15 +35,13 @@ opposite sides of her head._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +14 (+18 on sight-based checks)
 
-**Senses:** Spiritsense
+**Senses:** Low-light vision, Spiritsense
 
 **Size:** small
 

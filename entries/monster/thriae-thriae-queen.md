@@ -36,15 +36,13 @@ the wings of a bee._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** Monstrous humanoid
 
 **Perception:** +37
 
-**Senses:** Detect secret doors, True seeing
+**Senses:** Detect secret doors, Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 267\
 **Experience points:** 153,600

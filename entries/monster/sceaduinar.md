@@ -37,8 +37,6 @@ living, dark purple crystal._
 
 **Lifesense:** present
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -46,6 +44,8 @@ living, dark purple crystal._
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 239\
 **Subtype:** Extraplanar

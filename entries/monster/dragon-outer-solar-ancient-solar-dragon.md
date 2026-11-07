@@ -41,9 +41,7 @@ abilities = ["36", "11", "24", "23", "20", "25"]
 
 **Perception:** +39
 
-**Senses:** Dragon senses
-
-**Sense:** Sid
+**Senses:** Dragon senses, See in darkness
 
 **Sources:** Bestiary 4 pg 69\
 **Subtype:** Fire

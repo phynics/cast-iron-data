@@ -30,8 +30,6 @@ look vaguely like human heads._
 
 **Challenge rating:** 11
 
-**Sense:** Aav
-
 **aura:** unsettling drone (30 ft., DC 18)
 
 **blindsense:** 60
@@ -40,11 +38,11 @@ look vaguely like human heads._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +17
+
+**Senses:** All-around vision, Low-light vision
 
 **Type:** plant
 

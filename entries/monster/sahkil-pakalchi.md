@@ -37,8 +37,6 @@ her._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -47,7 +45,7 @@ her._
 
 **Perception:** +13
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 216\
 **Subtype:** Evil, Extraplanar, Sahkil

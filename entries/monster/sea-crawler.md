@@ -35,13 +35,13 @@ arms, legs, and a tail._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 84\
 **Experience points:** 400

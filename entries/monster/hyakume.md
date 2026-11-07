@@ -31,8 +31,6 @@ form._
 
 **Challenge rating:** 15
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **dv:** 90
@@ -41,11 +39,11 @@ form._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +19
+
+**Senses:** All-around vision, Low-light vision
 
 **Sources:** Bestiary 4 pg 153\
 **Experience points:** 51,200

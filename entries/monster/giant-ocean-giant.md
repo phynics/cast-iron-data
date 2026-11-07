@@ -40,9 +40,9 @@ _This blue-skinned giant's clothing and beard whip about like sails caught in a 
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 127\
 **Subtype:** Aquatic, Giant

@@ -37,15 +37,13 @@ through the air on feathered wings._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +5
 
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision
 
 **Size:** small
 

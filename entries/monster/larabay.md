@@ -38,11 +38,11 @@ multicolored wings of a parrot._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +27
+
+**Senses:** Low-light vision
 
 **Sources:** Isles of the Shackles pg 52\
 **Subtype:** Shapechanger

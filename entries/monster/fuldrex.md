@@ -35,11 +35,11 @@ malevolently from beneath layers of dripping, fungal hair._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

@@ -46,7 +46,7 @@ the thrill of the coming kill._
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Monster Codex pg 25\
 **Subtype:** Goblinoid

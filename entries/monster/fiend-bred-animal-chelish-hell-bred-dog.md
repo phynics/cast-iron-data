@@ -34,15 +34,13 @@ _This reddish-brown canine has a square, athletic build. Its dripping saliva sme
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#103: The Hellfire Compact pg 86\
 **Experience points:** 600

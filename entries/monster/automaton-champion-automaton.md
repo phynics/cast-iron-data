@@ -40,15 +40,13 @@ glows with an unrivaled ferocity._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **othersubs:** Automaton
 
 **Perception:** +19
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Construct Handbook pg 22\
 **Subtype:** Extraplanar

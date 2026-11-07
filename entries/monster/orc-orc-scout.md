@@ -44,7 +44,7 @@ abilities = ["17", "16", "12", "8", "12", "6"]
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Monster Codex pg 169\
 **Subtype:** Orc

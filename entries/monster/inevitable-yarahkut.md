@@ -39,15 +39,13 @@ back, and its head bears three faces._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** outsider
 
 **Perception:** +18
 
-**Senses:** Arcane sight, True seeing
+**Senses:** Arcane sight, Low-light vision, True seeing
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 84\
 **Subtype:** Extraplanar, Inevitable, Lawful

@@ -36,15 +36,13 @@ unnatural origins of this black canine._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +7
 
-**Senses:** Sandstorm sight
+**Senses:** Low-light vision, Sandstorm sight
 
 **Sources:** Bestiary 5 pg 226, Pathfinder \#80: Empty Graves pg 86\
 **Experience points:** 1,200

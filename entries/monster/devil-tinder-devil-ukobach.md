@@ -45,7 +45,7 @@ flickering with wild flames._
 
 **Perception:** +3
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Size:** small
 

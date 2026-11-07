@@ -36,13 +36,13 @@ mouth bisects the bulb's crown._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

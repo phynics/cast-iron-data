@@ -44,7 +44,7 @@ a mouth._
 
 **Perception:** +27
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 86\
 **Subtype:** Earth, Elemental, Extraplanar

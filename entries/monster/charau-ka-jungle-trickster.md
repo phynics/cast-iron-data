@@ -41,13 +41,11 @@ _This lean ape-person is bedecked with a rattling collection of whistles, drums,
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **othersubs:** Charau-ka
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

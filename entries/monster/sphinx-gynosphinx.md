@@ -35,13 +35,13 @@ human woman._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 257\
 **Experience points:** 4,800

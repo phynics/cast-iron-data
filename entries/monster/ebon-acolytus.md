@@ -39,11 +39,11 @@ sacrificial dagger above its head, its bejeweled eyes seeming to glint with murd
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 82\
 **Experience points:** 3,200

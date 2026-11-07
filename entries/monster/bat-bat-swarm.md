@@ -40,11 +40,11 @@ all of them hungry for blood._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 30\
 **Subtype:** Swarm

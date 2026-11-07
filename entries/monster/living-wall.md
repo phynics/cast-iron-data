@@ -39,11 +39,11 @@ limbs, topped with a dragon skull._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 182\
 **Experience points:** 1,200

@@ -36,11 +36,11 @@ of a mountain goat._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Size:** small
 

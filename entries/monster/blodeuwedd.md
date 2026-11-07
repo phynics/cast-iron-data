@@ -41,11 +41,11 @@ itself whispers around her feet as patches of clover, heather, and milkweed mark
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#33: The Varnhold Vanishing pg 80\
 **Experience points:** 2,400

@@ -39,8 +39,6 @@ apparent mechanism._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
@@ -49,7 +47,7 @@ apparent mechanism._
 
 **Perception:** +27
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Construct Handbook pg 28\
 **Subtype:** Extraplanar

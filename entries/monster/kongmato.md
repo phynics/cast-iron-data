@@ -41,11 +41,11 @@ moves, the air around it thrums with a high-pitched wail._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 88\
 **Experience points:** 51,200

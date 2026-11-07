@@ -34,13 +34,13 @@ creature's tentacles._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 259\
 **Subtype:** Aquatic

@@ -34,13 +34,13 @@ the fungus has formed thorny growths._
 
 **Lifesense:** present
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

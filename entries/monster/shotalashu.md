@@ -35,13 +35,13 @@ _This large, four-legged reptile has a brown scaled hide and a long, powerful ta
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Occult Bestiary pg 53\
 **Experience points:** 600

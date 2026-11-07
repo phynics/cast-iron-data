@@ -37,11 +37,11 @@ maw._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 91\
 **Experience points:** 4,800

@@ -43,7 +43,7 @@ hands than a wolf's paws._
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 27\
 **Subtype:** Evil, Extraplanar, Lawful, Shapechanger

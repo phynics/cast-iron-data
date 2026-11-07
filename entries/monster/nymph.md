@@ -39,11 +39,11 @@ painful in its perfection._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 217\
 **Experience points:** 3,200

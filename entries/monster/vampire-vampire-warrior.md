@@ -40,11 +40,11 @@ abilities = ["20", "20", "-", "10", "15", "18"]
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 240\
 **Subtype:** Augmented humanoid, Vishkanya

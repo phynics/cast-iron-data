@@ -44,7 +44,7 @@ shell encasing his back._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Planes of Power pg 59\
 **Subtype:** Aquatic, Extraplanar

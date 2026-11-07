@@ -34,15 +34,13 @@ _The sound of flapping wings and an angry hiss accompany the appearance of this 
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

@@ -36,13 +36,13 @@ path._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#31: Stolen Land pg 86\
 **Experience points:** 600

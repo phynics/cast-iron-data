@@ -36,11 +36,11 @@ head._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 93\
 **Experience points:** 2,400

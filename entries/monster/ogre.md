@@ -41,9 +41,9 @@ mouth with ill-fitting teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 220\
 **Subtype:** Giant

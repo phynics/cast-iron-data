@@ -38,11 +38,11 @@ an enormous pair of knobby legs._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 60\
 **Experience points:** 4,800

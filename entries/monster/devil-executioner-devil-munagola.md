@@ -43,7 +43,7 @@ black eyes smolder like coals._
 
 **Perception:** +21
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Book of the Damned pg 247\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

@@ -41,8 +41,6 @@ trails brilliant colors._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **othersubs:** Herald
@@ -50,6 +48,8 @@ trails brilliant colors._
 **Type:** outsider
 
 **Perception:** +31
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Gods pg 308\
 **Subtype:** Extraplanar, Good, Shapechanger

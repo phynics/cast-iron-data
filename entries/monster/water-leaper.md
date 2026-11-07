@@ -38,11 +38,11 @@ stinger._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Size:** small
 

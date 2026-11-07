@@ -38,8 +38,6 @@ razor-sharp teeth._
 
 **keenScent:** 180
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -47,6 +45,8 @@ razor-sharp teeth._
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 50\
 **Subtype:** Aquatic

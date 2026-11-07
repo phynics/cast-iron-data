@@ -39,11 +39,11 @@ around it._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +35
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Evil, Extraplanar, Incorporeal

@@ -39,11 +39,9 @@ hand._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 143, Pathfinder \#67: The Snows of Summer pg 87\
 **Size:** tiny

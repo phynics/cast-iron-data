@@ -39,7 +39,7 @@ _This pony-sized insect has long black mandibles and a banded abdomen of white._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 5 pg 242\
 **tremorsense:** 60

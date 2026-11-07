@@ -40,11 +40,11 @@ electricity crackling between them._
 
 **Lifesense:** present
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** The First World, Realm of the Fey pg 60\
 **Subtype:** Aquatic

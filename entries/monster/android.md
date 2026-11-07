@@ -39,13 +39,13 @@ blue tattoos._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 19, Inner Sea Bestiary pg 3\
 **Subtype:** Android

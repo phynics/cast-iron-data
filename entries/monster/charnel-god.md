@@ -44,13 +44,9 @@ looking longbow in her hands._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +36
 
-**Senses:** Divine sense
-
-**Senses:** True seeing
+**Senses:** Divine sense, Low-light vision, True seeing
 
 **Sources:** Bestiary 6 pg 54\
 **Experience points:** 819,200

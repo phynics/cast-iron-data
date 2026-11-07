@@ -38,11 +38,11 @@ ponderous but inexorable steps._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 163\
 **Experience points:** 12,800

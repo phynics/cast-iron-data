@@ -39,11 +39,11 @@ head, and iron pincers at the ends of its powerful arms snap open and shut._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#135: Runeplague pg 84\
 **Experience points:** 9,600

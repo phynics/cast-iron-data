@@ -37,13 +37,13 @@ eyes searching._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Distant Worlds pg 58\
 **Experience points:** 3,200

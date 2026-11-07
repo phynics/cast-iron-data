@@ -41,9 +41,9 @@ burn like embers._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

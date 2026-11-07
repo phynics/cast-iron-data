@@ -46,15 +46,11 @@ like burnished gold._
 
 **Initiative:** +15, Mythic Improved Initiative
 
-**Sense:** Llv
-
-**Sense:** Mistsight
-
 **Alignment:** Neutral
 
 **Perception:** +44
 
-**Senses:** Detect magic, Detect scrying
+**Senses:** Detect magic, Detect scrying, Low-light vision, Mistsight
 
 **Sources:** Bestiary 4 pg 146\
 **Subtype:** Aquatic, Mythic

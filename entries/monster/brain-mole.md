@@ -34,17 +34,13 @@ circular mouth._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Sense:** Scent
-
-**Senses:** Second sight 60 ft.
+**Senses:** Low-light vision, Scent, Second sight 60 ft.
 
 **Sources:** Bestiary 5 pg 46\
 **Size:** tiny

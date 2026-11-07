@@ -43,11 +43,11 @@ miniature._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 82\
 **Experience points:** 1,200

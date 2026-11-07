@@ -39,15 +39,13 @@ sky._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +12
 
-**Senses:** Detect evil, Detect magic
+**Senses:** Detect evil, Detect magic, Low-light vision
 
 **Sources:** Bestiary 6 pg 36, Magnimar, City of Monuments pg 63\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

@@ -39,7 +39,7 @@ stinger dripping with venom._
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 16\
 **Type:** vermin

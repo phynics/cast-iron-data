@@ -40,7 +40,7 @@ pale white nose visible._
 
 **Perception:** +4
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Size:** small
 

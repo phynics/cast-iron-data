@@ -32,8 +32,6 @@ backward-facing hands._
 
 **Challenge rating:** 20
 
-**Sense:** Aav
-
 **dv:** 60
 
 **Initiative:** +13
@@ -45,6 +43,8 @@ backward-facing hands._
 **Type:** outsider
 
 **Perception:** +31
+
+**Senses:** All-around vision
 
 **Sources:** Bestiary 3 pg 226, Pathfinder \#9: Escape from Old Korvosa pg 86\
 **Subtype:** Native, Rakshasa, Shapechanger

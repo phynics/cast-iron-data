@@ -36,15 +36,13 @@ hooked, and its webbed feet bear sharp talons._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Low-light vision
 
 **Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 82\
 **Size:** tiny

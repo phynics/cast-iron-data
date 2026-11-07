@@ -40,11 +40,11 @@ toxic-looking slime._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#98: Turn of the Torrent pg 88\
 **Experience points:** 1,600

@@ -40,7 +40,7 @@ _The ground teems with crawling termites, biting and stinging as they come._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 5 pg 242\
 **Subtype:** Swarm

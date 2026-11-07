@@ -44,7 +44,7 @@ fingers on gauntleted hands._
 
 **Perception:** +28
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 5 pg 78, Book of the Damned - Volume 1: Princes of Darkness pg 54\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

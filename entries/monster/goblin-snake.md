@@ -41,7 +41,7 @@ greasy-scaled snake._
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Size:** small
 

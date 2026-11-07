@@ -35,13 +35,13 @@ _This animal resembles an alpaca with voluminous, shiny wool._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Druma, Profit and Prophecy pg 62\
 **Experience points:** 400

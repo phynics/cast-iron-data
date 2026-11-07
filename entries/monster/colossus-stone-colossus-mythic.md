@@ -44,11 +44,11 @@ _This immense stone figure appears to be a keep that uprooted itself and went fo
 
 **Initiative:** +11, Mythic Improved Initiative
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 37\
 **Subtype:** Colossus, Mythic

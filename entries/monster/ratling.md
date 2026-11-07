@@ -36,13 +36,11 @@ with a toothy mouth._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +6
 
-**Senses:** Detect magic
+**Senses:** Detect magic, Low-light vision
 
 **Sources:** Bestiary 4 pg 226, Pathfinder \#49: The Brinewall Legacy pg 86\
 **Size:** tiny

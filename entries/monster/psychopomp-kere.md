@@ -36,8 +36,6 @@ a lengthy black veil._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -46,7 +44,7 @@ a lengthy black veil._
 
 **Perception:** +24
 
-**Senses:** Spiritsense
+**Senses:** Low-light vision, Spiritsense
 
 **Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 88\
 **Subtype:** Psychopomp, Extraplanar

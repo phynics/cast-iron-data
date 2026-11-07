@@ -46,9 +46,7 @@ mace of black metal._
 
 **Perception:** +46
 
-**Senses:** Detect chaos, Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Detect chaos, Detect good, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 22\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger

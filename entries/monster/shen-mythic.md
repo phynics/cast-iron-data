@@ -41,17 +41,11 @@ abilities = ["41", "14", "30", "23", "22", "23"]
 
 **Initiative:** +15
 
-**Sense:** Llv
-
-**Sense:** Mistsight
-
 **Alignment:** Neutral
 
 **Perception:** +38
 
-**Sense:** Scent
-
-**Senses:** See invisibility, True seeing
+**Senses:** Low-light vision, Mistsight, Scent, See invisibility, True seeing
 
 **Sources:** Bestiary 5 pg 230\
 **Subtype:** Aquatic, Mythic, Water

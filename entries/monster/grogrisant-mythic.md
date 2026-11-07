@@ -42,15 +42,13 @@ like the sun._
 
 **Initiative:** +12, Mythic Improved Initiative
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Taldor, the First Empire pg 59\
 **Subtype:** Mythic

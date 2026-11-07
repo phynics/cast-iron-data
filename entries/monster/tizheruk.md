@@ -36,13 +36,13 @@ revealing its red-and-brown organs._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 249, Tears at Bitter Manor pg 63\
 **Experience points:** 1,600

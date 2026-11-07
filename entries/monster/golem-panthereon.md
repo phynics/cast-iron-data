@@ -38,13 +38,11 @@ of a feline predator._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Pathfinder \#82: Secrets of the Sphinx pg 88\
 **Experience points:** 12,800

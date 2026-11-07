@@ -36,8 +36,6 @@ flies._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -46,7 +44,7 @@ flies._
 
 **Perception:** +9
 
-**Senses:** Detect magic
+**Senses:** Detect magic, Low-light vision
 
 **Sources:** Book of the Damned pg 253\
 **Subtype:** Evil, Extraplanar, Sahkil

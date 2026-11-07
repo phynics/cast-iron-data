@@ -41,11 +41,9 @@ in bits of foliage._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 273\
 **Subtype:** Giant, Shapechanger

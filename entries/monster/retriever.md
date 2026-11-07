@@ -42,9 +42,9 @@ shimmering with magical energy._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 234\
 **Subtype:** Extraplanar

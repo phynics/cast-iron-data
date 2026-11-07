@@ -36,13 +36,13 @@ skull with a snake's jaws._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 196\
 **Experience points:** 800

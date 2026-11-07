@@ -43,9 +43,9 @@ _Flies buzz around this bestial, two-headed giant, and maggots squirm in the fol
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Mythic Adventures pg 197\
 **Subtype:** Giant, Mythic

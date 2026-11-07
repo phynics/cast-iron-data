@@ -31,8 +31,6 @@ beast._
 
 **Challenge rating:** 12
 
-**Sense:** Aav
-
 **aura:** feeblemind (DC 20)
 
 **dv:** 60
@@ -47,7 +45,7 @@ beast._
 
 **Perception:** +28
 
-**Senses:** Detect magic, See invisibility
+**Senses:** All-around vision, Detect magic, See invisibility
 
 **Sources:** Bestiary 2 pg 66\
 **Subtype:** Daemon, Evil, Extraplanar

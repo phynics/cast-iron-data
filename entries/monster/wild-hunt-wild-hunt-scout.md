@@ -40,15 +40,11 @@ _This lithe humanoid has pointed ears, glowing green eyes, and a ram's horns._
 
 **Initiative:** +13
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +34
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Low-light vision, Scent, See in darkness
 
 **Sources:** Bestiary 6 pg 284\
 **Subtype:** Wild hunt

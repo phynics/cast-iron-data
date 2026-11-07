@@ -40,13 +40,11 @@ craters on its rock-like surface._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +28
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 122\
 **Subtype:** Giant

@@ -41,15 +41,13 @@ billowing behind it._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +39
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Detect good, Detect magic, Low-light vision, See invisibility
 
 **Sources:** Mythical Monsters Revisited pg 50\
 **Subtype:** Fire

@@ -39,15 +39,11 @@ abilities = ["37", "9", "28", "20", "22", "23"]
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +30
 
-**Senses:** Dreamsight
-
-**Sense:** Sid
+**Senses:** Dreamsight, Low-light vision, See in darkness
 
 **Sources:** Bestiary 5 pg 95\
 **Subtype:** Extraplanar

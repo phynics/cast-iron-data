@@ -40,13 +40,11 @@ covered with scintillating red scales._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +28
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Bestiary 2 pg 263\
 **Subtype:** Fire

@@ -32,15 +32,13 @@ barbs._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
 
 **Type:** plant
 
-**Senses:** Blood sense
+**Senses:** Blood sense, Low-light vision
 
 **Sources:** Ultimate Wilderness pg 207\
 **Size:** tiny

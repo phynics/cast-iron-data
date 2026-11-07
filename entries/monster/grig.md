@@ -35,11 +35,11 @@ of an elven woman._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 147\
 **Size:** tiny

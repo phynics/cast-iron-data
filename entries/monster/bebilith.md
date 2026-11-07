@@ -43,7 +43,7 @@ its barbed and razor-edged front claws._
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 32\
 **Subtype:** Chaotic, Evil, Extraplanar

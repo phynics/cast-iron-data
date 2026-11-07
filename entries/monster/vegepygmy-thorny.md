@@ -34,13 +34,13 @@ any kind, its bulk is covered in jagged thorns protruding from its fungal surfac
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** -1
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

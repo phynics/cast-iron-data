@@ -34,13 +34,11 @@ _Fearsome bony growths protrude from several spots in this massive animal's snow
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 41\
 **Experience points:** 4,800

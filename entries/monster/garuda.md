@@ -38,13 +38,13 @@ dominate its avian face._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 123, Cult of the Ebon Destroyers pg 29\
 **Subtype:** Native

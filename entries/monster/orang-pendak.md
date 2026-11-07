@@ -38,11 +38,11 @@ _This hairy humanoid has orange-brown hair, a broad chest, and muscular arms._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Size:** small
 

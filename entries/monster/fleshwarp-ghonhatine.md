@@ -45,7 +45,7 @@ protruding teeth snapping wildly._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 4 pg 102, Pathfinder \#16: Endless Night pg 84\
 **Experience points:** 9,600

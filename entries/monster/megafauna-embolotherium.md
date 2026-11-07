@@ -35,11 +35,11 @@ creature possesses a blunt, bony protrusion._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 87\
 **Experience points:** 1,600

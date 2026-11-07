@@ -40,13 +40,9 @@ wings._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Perception:** +24
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 3 pg 182\
 **Experience points:** 153,600

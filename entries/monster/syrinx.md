@@ -39,13 +39,13 @@ detachment of the owl it resembles._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Syrinx
 
 **Perception:** +3 (+5 at night)
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 51\
 **Experience points:** 135

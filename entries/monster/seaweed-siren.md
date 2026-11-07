@@ -43,11 +43,11 @@ split by a wide, toothy mouth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 235, Pathfinder \#60: From Hell's Heart pg 90\
 **Subtype:** Aquatic

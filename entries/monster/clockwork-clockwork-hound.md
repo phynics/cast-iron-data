@@ -38,13 +38,11 @@ body._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +3
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

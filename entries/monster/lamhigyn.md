@@ -40,7 +40,7 @@ _This small, three-eyed creature has ragged, red-streaked wings and a menacingly
 
 **Perception:** +9
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Size:** small
 

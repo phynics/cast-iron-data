@@ -41,15 +41,13 @@ to grow from its armor._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +13
 
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision
 
 **Sources:** Bestiary 3 pg 19\
 **Subtype:** Archon, Extraplanar, Good, Lawful

@@ -34,17 +34,13 @@ _This sleek and graceful doe possesses long, metallic antlers and a shiny, golde
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +17
 
-**Sense:** Scent
-
-**Senses:** See invisibility
+**Senses:** Low-light vision, Scent, See invisibility
 
 **Sources:** Bestiary 5 pg 53\
 **Experience points:** 3,200

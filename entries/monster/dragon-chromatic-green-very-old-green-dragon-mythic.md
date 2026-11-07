@@ -50,9 +50,9 @@ horn rises from its snout._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +32
+
+**Senses:** Low-light vision
 
 **Sources:** Mythic Adventures pg 189\
 **Subtype:** Air, Mythic

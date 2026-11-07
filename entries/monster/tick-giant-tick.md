@@ -36,7 +36,7 @@ _This dog-sized tick has a grotesquely bulbous body and a thin head equipped wit
 
 **Perception:** +0
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Size:** small
 

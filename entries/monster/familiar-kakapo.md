@@ -33,11 +33,11 @@ whiskers._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 198, Familiar Folio pg 24\
 **Size:** tiny

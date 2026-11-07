@@ -32,11 +32,11 @@ _This small-eyed rodent has a rounded body with numerous quills running all over
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** -1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 222\
 **Size:** tiny

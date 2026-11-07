@@ -38,13 +38,13 @@ glass orb for an eye._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 207, Inner Sea Bestiary pg 44\
 **Subtype:** Robot

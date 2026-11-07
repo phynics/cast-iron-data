@@ -39,13 +39,11 @@ forelimbs, and it lacks rear legs._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 18\
 **Experience points:** 1,200

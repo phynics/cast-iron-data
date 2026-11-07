@@ -33,11 +33,11 @@ expressive face._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 49\
 **Size:** tiny

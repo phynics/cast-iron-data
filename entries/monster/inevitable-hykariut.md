@@ -38,15 +38,13 @@ hammer._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** outsider
 
 **Perception:** +30
 
-**Senses:** Detect chaos, True seeing
+**Senses:** Detect chaos, Low-light vision, True seeing
 
 **Sources:** Pathfinder \#131: The Reaper's Right Hand pg 84\
 **Subtype:** Extraplanar, Inevitable, Lawful

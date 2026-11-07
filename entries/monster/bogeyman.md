@@ -36,13 +36,13 @@ aura of horror._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 42\
 **Experience points:** 9,600

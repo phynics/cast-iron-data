@@ -38,13 +38,9 @@ tail has a silvery sheen._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +7
 
-**Sense:** Scent
-
-**Senses:** See invisibility
+**Senses:** Low-light vision, Scent, See invisibility
 
 **Sources:** Curse of the Crimson Throne pg 474\
 **Size:** tiny

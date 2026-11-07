@@ -36,11 +36,11 @@ _This crimson-skinned genie has an artificial, sculpted appearance._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Tombs of Golarion pg 22\
 **Subtype:** Clockwork

@@ -37,11 +37,11 @@ abilities = ["4", "14", "-", "-", "11", "1"]
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 44\
 **Subtype:** Swarm

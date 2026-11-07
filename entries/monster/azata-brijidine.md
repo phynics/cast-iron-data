@@ -39,13 +39,13 @@ _This beautiful woman has flesh made of lava. She soars through the sky on a tra
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 37\
 **Subtype:** Azata, Chaotic, Earth, Extraplanar, Fire, Good

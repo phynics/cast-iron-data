@@ -33,13 +33,13 @@ padded feet and a toothy maw._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 186\
 **Experience points:** 400

@@ -34,13 +34,13 @@ _This massive insect lumbers ominously, waving scythe-like mandibles that reek o
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 52\
 **Experience points:** 38,400

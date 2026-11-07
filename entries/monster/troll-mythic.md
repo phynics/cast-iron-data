@@ -43,11 +43,9 @@ than its meaty legs._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 219\
 **Subtype:** Giant, Mythic

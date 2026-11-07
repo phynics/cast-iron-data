@@ -38,8 +38,6 @@ shape, crackling with energy._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -47,6 +45,8 @@ shape, crackling with energy._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 120, Pathfinder \#59: The Price of Infamy pg 88\
 **Subtype:** Aquatic

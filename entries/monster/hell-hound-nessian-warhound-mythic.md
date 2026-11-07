@@ -44,9 +44,7 @@ smoke._
 
 **Perception:** +14
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Scent, See in darkness
 
 **Sources:** Mythic Adventures pg 203\
 **Subtype:** Evil, Extraplanar, Fire, Lawful, Mythic

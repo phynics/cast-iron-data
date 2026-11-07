@@ -39,7 +39,7 @@ _A wave of swift-moving spines rushes forward - a roiling tide of dangerously fa
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 89\
 **Subtype:** Aquatic, Swarm

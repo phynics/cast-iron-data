@@ -38,13 +38,11 @@ clouds._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 90\
 **Experience points:** 6,400

@@ -39,11 +39,11 @@ single tusk protruding from its nose, easily as long as a human._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#59: The Price of Infamy pg 87, Bestiary 5 pg 276\
 **Experience points:** 800

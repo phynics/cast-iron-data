@@ -149,13 +149,13 @@ headdresses or paint themselves with guano as marks of status.
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Experience points:** none given
 

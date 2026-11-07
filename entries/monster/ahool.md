@@ -36,13 +36,13 @@ in sharp claws._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 15\
 **Experience points:** 6,400

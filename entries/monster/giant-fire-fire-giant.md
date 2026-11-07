@@ -40,9 +40,9 @@ be made of fire._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 148\
 **Subtype:** Fire, Giant

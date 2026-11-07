@@ -38,11 +38,11 @@ filled with sharp teeth._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +25
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 193\
 **Experience points:** 19,200

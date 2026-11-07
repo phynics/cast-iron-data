@@ -34,8 +34,6 @@ with soft, green fur._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -44,7 +42,7 @@ with soft, green fur._
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 201\
 **Experience points:** 200

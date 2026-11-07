@@ -41,13 +41,13 @@ abdomen chitters and clicks like a menacing maw._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **othersubs:** Herald
 
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#86: Lords of Rust pg 84\
 **Subtype:** Extraplanar

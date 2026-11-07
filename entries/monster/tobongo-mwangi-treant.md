@@ -36,11 +36,11 @@ into arms ending in massive claws._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

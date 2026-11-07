@@ -37,15 +37,13 @@ raw power._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 285\
 **Experience points:** 51,200

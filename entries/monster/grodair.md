@@ -39,13 +39,13 @@ from its back._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 143, Pathfinder \#36: Sound of a Thousand Screams pg 84\
 **Subtype:** Aquatic, Extraplanar

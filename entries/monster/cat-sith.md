@@ -36,13 +36,11 @@ eerily human._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +6
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Familiar Folio pg 28\
 **Size:** tiny

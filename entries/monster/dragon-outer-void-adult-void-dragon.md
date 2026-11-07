@@ -40,9 +40,7 @@ abilities = ["27", "12", "21", "20", "17", "20"]
 
 **Perception:** +22
 
-**Senses:** Dragon senses
-
-**Sense:** Sid
+**Senses:** Dragon senses, See in darkness
 
 **Sources:** Bestiary 4 pg 72\
 **Experience points:** 25,600

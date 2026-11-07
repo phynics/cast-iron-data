@@ -39,11 +39,11 @@ its arms to support itself._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 127\
 **Experience points:** 9,600

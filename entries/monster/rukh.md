@@ -32,13 +32,13 @@ _This gigantic two-headed vulture has greasy, night-black wings and sharp talons
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +32
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 228, Pathfinder \#21: The Jackal's Price pg 84\
 **Experience points:** 9,600

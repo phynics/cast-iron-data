@@ -37,13 +37,13 @@ barbed whips of calloused flesh._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 88\
 **Subtype:** Daemon, Evil, Extraplanar

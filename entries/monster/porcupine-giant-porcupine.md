@@ -32,13 +32,13 @@ _This gray, human-sized porcupine's round body is covered in sharp, striped quil
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 222\
 **Experience points:** 600

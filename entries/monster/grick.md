@@ -41,7 +41,7 @@ tentacles and hooked jaws._
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 2 pg 146\
 **Experience points:** 800

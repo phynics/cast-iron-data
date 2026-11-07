@@ -37,13 +37,13 @@ leaping from insect to insect. The patterns on their wings resemble humanoid eye
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** Magical beast
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Occult Bestiary pg 29\
 **Subtype:** Swarm

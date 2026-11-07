@@ -46,7 +46,7 @@ reminiscent of sickle blades._
 
 **Perception:** +1
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Monster Codex pg 220\
 **Subtype:** Chaotic, Evil, Extraplanar, Native

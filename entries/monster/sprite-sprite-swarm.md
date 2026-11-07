@@ -40,11 +40,9 @@ buzzing, writhing swarm._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +14
 
-**Senses:** Detect evil, Detect good
+**Senses:** Detect evil, Detect good, Low-light vision
 
 **Sources:** Fey Revisited pg 62\
 **Subtype:** Swarm

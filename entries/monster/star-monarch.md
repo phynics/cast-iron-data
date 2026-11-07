@@ -41,11 +41,11 @@ trails behind the creature._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 50\
 **Experience points:** 6,400

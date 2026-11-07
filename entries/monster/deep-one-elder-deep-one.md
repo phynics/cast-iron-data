@@ -42,11 +42,11 @@ predator._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 69\
 **Subtype:** Aquatic, Deep one

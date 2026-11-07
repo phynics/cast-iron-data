@@ -36,13 +36,13 @@ down its body._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 209, Distant Worlds pg 62\
 **Experience points:** 76,800

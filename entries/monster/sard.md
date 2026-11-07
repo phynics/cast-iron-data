@@ -41,9 +41,9 @@ dance in the cracks of its bark._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Perception:** +32
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

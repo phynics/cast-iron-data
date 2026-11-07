@@ -43,13 +43,11 @@ thrashing spiked tail._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +43
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 304, Pathfinder RPG Bestiary pg 262\
 **Subtype:** Spawn of Rovagug

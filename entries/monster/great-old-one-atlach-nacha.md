@@ -47,9 +47,7 @@ all the more horrifying by the all-too-human appearance of its baleful visage._
 
 **Perception:** +46
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** See in darkness, True seeing
 
 **Sources:** Pathfinder \#112: The Whisper Out of Time pg 84\
 **Subtype:** Evil, Great Old One

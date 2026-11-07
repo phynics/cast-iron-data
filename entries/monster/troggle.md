@@ -41,9 +41,9 @@ tail, and gait give it a degenerate, bestial appearance._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 160\
 **Subtype:** Giant

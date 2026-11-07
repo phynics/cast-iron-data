@@ -37,15 +37,13 @@ its sloping armored sides, and it exudes a palpable aura of magic._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +33
 
 **Type:** plant
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Pathfinder \#142: Gardens of Gallowspire pg 86\
 **tremorParens:** 1 mile

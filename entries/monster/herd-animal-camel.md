@@ -34,13 +34,11 @@ _This somewhat irritated-looking, one-humped camel has been outfitted with a bri
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 154\
 **Experience points:** 400

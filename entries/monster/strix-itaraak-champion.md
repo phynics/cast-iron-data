@@ -42,13 +42,13 @@ keeps his bow at the ready._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Strix
 
 **Perception:** +12 (+14 in dim light or darkness)
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 56\
 **Experience points:** 6,400

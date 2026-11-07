@@ -40,9 +40,9 @@ jagged horn on its brow._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 61, Pathfinder \#33: The Varnhold Vanishing pg 84\
 **Subtype:** Giant

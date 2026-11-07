@@ -43,7 +43,7 @@ clawed arms work together to slash the air with a vicious-looking spear._
 
 **Perception:** +6
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Size:** small
 

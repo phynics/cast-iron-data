@@ -38,13 +38,13 @@ unsettling to look upon._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 184\
 **Subtype:** Aquatic

@@ -36,15 +36,13 @@ scent._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +40
 
 **Type:** plant
 
-**Senses:** Detect thoughts
+**Senses:** Detect thoughts, Low-light vision
 
 **Sources:** Bestiary 5 pg 160\
 **thoughtsense:** 60

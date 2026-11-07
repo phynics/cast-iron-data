@@ -35,13 +35,11 @@ unnatural gleam in its otherworldly eyes._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +6
 
-**Senses:** Detect magic
+**Senses:** Detect magic, Low-light vision
 
 **Sources:** Pathfinder \#67: The Snows of Summer pg 88, Bestiary 5 pg 277\
 **Size:** tiny

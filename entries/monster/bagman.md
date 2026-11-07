@@ -35,15 +35,13 @@ bloodstained burlap sack hangs over its shoulder._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +11
 
-**Senses:** Find children
+**Senses:** Find children, Low-light vision
 
 **Sources:** Pathfinder \#105: The Inferno Gate pg 84\
 **Experience points:** 1,200

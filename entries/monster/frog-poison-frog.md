@@ -32,11 +32,11 @@ _This small frog is bright green and red, with electric-blue stripes on its hind
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 135\
 **Size:** tiny

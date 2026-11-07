@@ -35,13 +35,13 @@ horns._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 34\
 **Experience points:** 4,800

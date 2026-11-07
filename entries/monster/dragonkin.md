@@ -38,13 +38,11 @@ a saddle between its wings._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 98, Distant Worlds pg 61\
 **Experience points:** 6,400

@@ -42,7 +42,7 @@ frostbite stretches taught over a misshapen skull crowned with a pair of ivory h
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#51: The Hungry Storm pg 90\
 **Experience points:** 9,600

@@ -34,13 +34,13 @@ its fanged maw._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

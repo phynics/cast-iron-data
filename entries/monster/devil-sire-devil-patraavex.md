@@ -43,9 +43,7 @@ fanged mouth running vertically across its torso._
 
 **Perception:** +13
 
-**Senses:** See invisibility
-
-**Sense:** Sid
+**Senses:** See in darkness, See invisibility
 
 **Sources:** Cheliax, the Infernal Empire pg 59\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger

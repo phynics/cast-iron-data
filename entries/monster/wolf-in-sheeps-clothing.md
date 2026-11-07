@@ -31,8 +31,6 @@ a maw of sharp teeth._
 
 **Challenge rating:** 8
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **dv:** 60
@@ -44,6 +42,8 @@ a maw of sharp teeth._
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** All-around vision
 
 **Sources:** Bestiary 3 pg 285, Misfit Monsters Redeemed pg 63\
 **Experience points:** 4,800

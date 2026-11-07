@@ -38,15 +38,13 @@ musical cry as it takes to the air._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral good
 
 **Perception:** +37
 
-**Senses:** Detect magic, Detect poison, See invisibility
+**Senses:** Detect magic, Detect poison, Low-light vision, See invisibility
 
 **Sources:** Pathfinder RPG Bestiary pg 227\
 **Subtype:** Fire

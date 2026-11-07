@@ -41,15 +41,13 @@ _This flaming bird burns as brightly as the sun._
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral good
 
 **Perception:** +37
 
-**Senses:** Detect magic, Detect poison, See invisibility, True seeing
+**Senses:** Detect magic, Detect poison, Low-light vision, See invisibility, True seeing
 
 **Sources:** Mythic Adventures pg 214\
 **Subtype:** Fire, Mythic

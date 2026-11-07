@@ -39,13 +39,13 @@ from between its jagged teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 90\
 **Subtype:** Fire

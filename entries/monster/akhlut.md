@@ -37,13 +37,13 @@ _A dorsal fin rises up from the back of this immense black-and-white-furred, wol
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 11\
 **Subtype:** Cold, Shapechanger

@@ -36,9 +36,9 @@ abilities = ["21", "17", "18", "10", "10", "9"]
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 257\
 **Subtype:** Gnome

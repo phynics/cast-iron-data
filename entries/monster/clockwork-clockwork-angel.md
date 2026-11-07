@@ -38,13 +38,13 @@ gaps of its metallic body._
 
 **Initiative:** +13
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 58\
 **Subtype:** Clockwork

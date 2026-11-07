@@ -38,11 +38,11 @@ staples lurches to horrific life._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 160\
 **Experience points:** 3,200

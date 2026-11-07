@@ -37,13 +37,13 @@ jagged teeth._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 240\
 **Subtype:** Aquatic

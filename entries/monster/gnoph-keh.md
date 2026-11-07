@@ -42,13 +42,11 @@ protrudes from its snarling face._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +22
 
-**Senses:** Snow vision
+**Senses:** Low-light vision, Snow vision
 
 **Sources:** Pathfinder \#46: Wake of the Watcher pg 84\
 **Subtype:** Cold

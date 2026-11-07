@@ -38,15 +38,13 @@ in its taloned feet._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
 
 **Perception:** +19
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 411, Pathfinder \#6: Spires of Xin-Shalast
 pg 80\

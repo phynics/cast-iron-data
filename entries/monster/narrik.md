@@ -46,9 +46,7 @@ its chest._
 
 **Perception:** +12
 
-**Sense:** Scent
-
-**Senses:** Taste fear
+**Senses:** Scent, Taste fear
 
 **Sources:** Down the Blighted Path pg 56\
 **Experience points:** 3,200

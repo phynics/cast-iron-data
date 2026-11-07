@@ -40,13 +40,13 @@ glistening with blue energy._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +32
+
+**Senses:** Low-light vision
 
 **Sources:** Mythical Monsters Revisited pg 39\
 **Subtype:** Aquatic

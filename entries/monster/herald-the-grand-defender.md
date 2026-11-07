@@ -42,11 +42,11 @@ shield bearing Torag's symbol._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **othersubs:** Herald
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Gods pg 310\
 **Subtype:** Extraplanar

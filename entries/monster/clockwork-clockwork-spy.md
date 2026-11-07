@@ -38,11 +38,11 @@ grinding metal._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 58\
 **Subtype:** Clockwork

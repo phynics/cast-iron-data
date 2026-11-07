@@ -41,11 +41,11 @@ ground. Stirring crescendos and moving fanfares can be heard throughout its melo
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Cheliax, the Infernal Empire pg 56\
 **Experience points:** 6,400

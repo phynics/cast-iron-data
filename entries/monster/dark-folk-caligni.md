@@ -44,7 +44,7 @@ _Beneath ragged shreds, this lean figure's chalky skin darkens to charred hues a
 
 **Perception:** +3
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 5 pg 66\
 **Subtype:** Dark folk

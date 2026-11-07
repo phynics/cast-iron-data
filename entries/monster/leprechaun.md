@@ -36,9 +36,9 @@ hand and a club in the other._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Size:** small
 

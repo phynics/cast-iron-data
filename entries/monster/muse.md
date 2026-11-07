@@ -39,11 +39,11 @@ _This beautiful, woman moves with impossible grace, a knowing smile on her lips.
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 179\
 **Experience points:** 76,800

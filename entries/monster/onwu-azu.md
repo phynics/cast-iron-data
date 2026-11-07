@@ -37,11 +37,11 @@ its hunger._
 
 **Keen Scent:** present
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Size:** small
 

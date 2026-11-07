@@ -44,11 +44,11 @@ intelligence._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 196\
 **Experience points:** 4,800

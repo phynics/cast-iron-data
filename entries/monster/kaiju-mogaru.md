@@ -41,15 +41,11 @@ glowing with red energy._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +45
 
-**Senses:** Sense kaiju
-
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility, Sense kaiju
 
 **Sources:** Bestiary 4 pg 170\
 **Subtype:** Kaiju, Water

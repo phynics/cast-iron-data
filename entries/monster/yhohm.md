@@ -37,15 +37,13 @@ blazing white flames._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +10
 
-**Senses:** Detect poison
+**Senses:** Detect poison, Low-light vision
 
 **Sources:** Inner Sea Gods pg 307\
 **Subtype:** Extraplanar, Fire, Good

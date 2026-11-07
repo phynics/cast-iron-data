@@ -37,13 +37,13 @@ clawed hand._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 10, Pathfinder \#34: Blood for Blood pg 80\
 **Subtype:** Aquatic

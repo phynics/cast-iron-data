@@ -36,11 +36,11 @@ flippers instead of feet._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 271\
 **Experience points:** 800

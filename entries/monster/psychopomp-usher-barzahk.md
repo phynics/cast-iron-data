@@ -38,8 +38,6 @@ _Feathered arms emerge from the shoulders of this hunched raven, clutching a key
 
 **Initiative:** +20
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -48,10 +46,8 @@ _Feathered arms emerge from the shoulders of this hunched raven, clutching a key
 
 **Perception:** +47
 
-**Senses:** Spiritsense
-
-**Senses:** Detect chaos, Detect evil, Detect good, Detect law, Detect thoughts, Detect undead, True
-seeing
+**Senses:** Detect chaos, Detect evil, Detect good, Detect law, Detect thoughts, Detect undead,
+Low-light vision, Spiritsense, True seeing
 
 **Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 90\
 **Subtype:** Extraplanar, Psychopomp, Shapechanger

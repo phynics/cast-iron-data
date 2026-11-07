@@ -43,9 +43,7 @@ sprout from its back._
 
 **Perception:** +37
 
-**Sense:** Scent
-
-**Senses:** See invisibility
+**Senses:** Scent, See invisibility
 
 **Sources:** Book of the Damned pg 246\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

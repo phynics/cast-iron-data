@@ -39,13 +39,11 @@ _This tall giant has no head; instead, its one-eyed face rests in the center of 
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +20
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Bestiary 5 pg 64\
 **Subtype:** Giant

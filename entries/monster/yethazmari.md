@@ -46,7 +46,7 @@ and smoking eye sockets._
 
 **Perception:** +33
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Inner Sea Gods pg 296\
 **Subtype:** Chaotic, Evil, Extraplanar

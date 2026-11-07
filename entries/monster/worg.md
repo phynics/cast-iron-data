@@ -32,8 +32,6 @@ _This unusually large wolf has an evil, almost intelligent light shining in its 
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -42,7 +40,7 @@ _This unusually large wolf has an evil, almost intelligent light shining in its 
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 280\
 **Experience points:** 600

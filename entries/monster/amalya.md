@@ -39,11 +39,11 @@ waist. She's adorned in trinkets made from a great white pine's needles and cone
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Fey Revisited pg 8\
 **Experience points:** 2,400

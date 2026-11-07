@@ -39,15 +39,13 @@ blood._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
 
-**Senses:** Carrion sense
+**Senses:** Carrion sense, Low-light vision
 
 **Sources:** Pathfinder \#139: The Dead Road pg 86\
 **Subtype:** Elf, Mortic

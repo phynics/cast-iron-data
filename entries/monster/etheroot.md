@@ -37,15 +37,13 @@ mouth at the end of a long stalk._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +17
 
 **Type:** plant
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Planar Adventures pg 233\
 **Subtype:** Extraplanar

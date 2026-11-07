@@ -37,15 +37,13 @@ like any other ragged oak tree._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +21
 
 **Type:** plant
 
-**Senses:** Oaksight
+**Senses:** Low-light vision, Oaksight
 
 **Sources:** Bestiary 2 pg 228\
 **Experience points:** 4,800

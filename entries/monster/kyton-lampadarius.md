@@ -43,7 +43,7 @@ flesh and shifting shadowstuff._
 
 **Perception:** +8
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Inner Sea Gods pg 315\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

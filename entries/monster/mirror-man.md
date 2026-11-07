@@ -39,13 +39,13 @@ revealed - nothing but a featureless mirror, reflecting a hard, cold world._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#68: The Shackled Hut pg 88\
 **Experience points:** 1,600

@@ -40,11 +40,11 @@ _This humanoid-shaped colossus is a towering fury of burning wicker and wood._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 277\
 **Subtype:** Fire

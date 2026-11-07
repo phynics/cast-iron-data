@@ -38,11 +38,11 @@ slime-encrusted wings._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 244\
 **Experience points:** 4,800

@@ -35,15 +35,13 @@ _Multiple angry snake-like heads rise from the sleek, serpentine body of this te
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 178\
 **Experience points:** 1,200

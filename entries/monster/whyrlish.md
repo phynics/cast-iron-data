@@ -40,11 +40,11 @@ sports a nest of sting-tipped tendrils._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Planar Adventures pg 248\
 **Subtype:** Extraplanar

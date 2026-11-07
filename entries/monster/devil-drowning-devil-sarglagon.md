@@ -45,9 +45,7 @@ tentacles._
 
 **Perception:** +17
 
-**Senses:** See invisibility
-
-**Sense:** Sid
+**Senses:** See in darkness, See invisibility
 
 **Sources:** Bestiary 4 pg 52, Pathfinder \#60: From Hell's Heart pg 80\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

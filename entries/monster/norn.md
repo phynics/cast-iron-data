@@ -31,8 +31,6 @@ thread and a pair of shears._
 
 **Challenge rating:** 18
 
-**Sense:** Aav
-
 **blindsight:** 120
 
 **Type:** fey
@@ -41,13 +39,11 @@ thread and a pair of shears._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +30
 
-**Senses:** Greater arcane sight, True seeing
+**Senses:** All-around vision, Greater arcane sight, Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 202\
 **Experience points:** 153,600

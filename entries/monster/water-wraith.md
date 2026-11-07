@@ -39,11 +39,11 @@ change color to match its surroundings._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 59\
 **Subtype:** Aquatic

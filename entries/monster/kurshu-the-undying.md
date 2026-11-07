@@ -42,13 +42,11 @@ withered, like a preserved corpse._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +25
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#65: Into the Nightmare Rift pg 88\
 **Subtype:** Evil, Extraplanar, Lawful

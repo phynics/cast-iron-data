@@ -41,13 +41,11 @@ are mottled with other colors._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 223\
 **Subtype:** Mythic

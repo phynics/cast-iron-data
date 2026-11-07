@@ -36,8 +36,6 @@ shields._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -46,7 +44,7 @@ shields._
 
 **Perception:** +10
 
-**Senses:** Spiritsense
+**Senses:** Low-light vision, Spiritsense
 
 **Sources:** Inner Sea Gods pg 303\
 **Subtype:** Extraplanar, Psychopomp

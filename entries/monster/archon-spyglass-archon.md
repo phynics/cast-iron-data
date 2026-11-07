@@ -40,17 +40,13 @@ figure's stealthy appearance._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +7
 
-**Senses:** Hone senses
-
-**Senses:** Detect evil
+**Senses:** Detect evil, Hone senses, Low-light vision
 
 **Sources:** Chronicle of the Righteous pg 61\
 **Subtype:** Archon, Extraplanar, Good, Lawful

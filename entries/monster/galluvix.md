@@ -34,13 +34,13 @@ of a fox from the neck up._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 84\
 **Size:** tiny

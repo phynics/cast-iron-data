@@ -36,9 +36,9 @@ _Barely knee-high, this small creature looks like a hairy old man with more bear
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 142, Pathfinder \#67: The Snows of Summer pg 86\
 **Size:** tiny

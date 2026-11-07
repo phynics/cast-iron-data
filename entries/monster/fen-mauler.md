@@ -38,15 +38,13 @@ tangles within its matted, reeking fur._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Alignment:** Neutral evil
 
 **Perception:** +17
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 127\
 **Experience points:** 9,600

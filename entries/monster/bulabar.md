@@ -35,11 +35,11 @@ pouches._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** The First World, Realm of the Fey pg 58\
 **Size:** tiny

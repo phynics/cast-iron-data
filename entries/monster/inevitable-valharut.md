@@ -37,8 +37,6 @@ traceries of blue lines._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
@@ -46,6 +44,8 @@ traceries of blue lines._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Planar Adventures pg 237\
 **Subtype:** Extraplanar, Inevitable, Lawful

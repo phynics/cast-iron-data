@@ -42,9 +42,9 @@ and human skulls._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 415, Pathfinder \#3: The Hook Mountain
 Massacre pg 84\

@@ -43,7 +43,7 @@ constant, droning snorting._
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#109: In Search of Sanity pg 86\
 **Subtype:** Swarm

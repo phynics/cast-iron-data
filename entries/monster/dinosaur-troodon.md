@@ -33,15 +33,13 @@ _This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss not
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 84\
 **Experience points:** 400

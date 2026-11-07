@@ -42,11 +42,9 @@ adorns its thrashing tail._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 107, Pathfinder \#15: The Armageddon Echo pg 86\
 **Subtype:** Earth

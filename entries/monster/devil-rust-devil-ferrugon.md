@@ -45,9 +45,7 @@ covered with rusty metallic feathers, each resembling a weathered dagger._
 
 **Perception:** +20
 
-**Senses:** Detect good
-
-**Sense:** Sid
+**Senses:** Detect good, See in darkness
 
 **Sources:** Pathfinder \#101: The Kintargo Contract pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

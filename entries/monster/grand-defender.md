@@ -42,9 +42,9 @@ large shield bearing Torag's symbol._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#62: Curse of the Lady's Light pg 88\
 **Subtype:** Extraplanar

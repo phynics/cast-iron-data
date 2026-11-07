@@ -35,11 +35,11 @@ incandescence._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +27
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

@@ -34,8 +34,6 @@ detritus of the forest churning within._
 
 **Initiative:** -5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -43,6 +41,8 @@ detritus of the forest churning within._
 **Type:** ooze
 
 **Perception:** -5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#116: Fangs of War pg 80\
 **Experience points:** 2,400

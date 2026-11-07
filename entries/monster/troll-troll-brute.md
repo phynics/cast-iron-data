@@ -41,11 +41,9 @@ abilities = ["29", "16", "31", "6", "11", "4"]
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Monster Codex pg 227\
 **Subtype:** Giant

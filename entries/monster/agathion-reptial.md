@@ -35,13 +35,13 @@ _This iguana-headed scholar wears a robe of frills and scales covered in baubles
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Size:** small
 

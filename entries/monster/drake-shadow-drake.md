@@ -39,9 +39,9 @@ _This tiny black dragon-like creature has charcoal-colored scales and shadowy wi
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 80\
 **Subtype:** Cold

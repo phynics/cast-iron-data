@@ -35,15 +35,13 @@ twitches a cluster of sharp stamens arranged like a ring of teeth within a leafy
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Type:** plant
+**Senses:** Low-light vision, Scent
 
-**Sense:** Scent
+**Type:** plant
 
 **Size:** small
 

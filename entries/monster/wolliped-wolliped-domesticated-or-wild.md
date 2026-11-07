@@ -32,13 +32,11 @@ abilities = ["18", "14", "17", "2", "11", "3"]
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#70: The Frozen Stars pg 90\
 **Experience points:** 800

@@ -37,15 +37,13 @@ _Resembling a metallic horned devil, this apparatus whirs with the sound of inte
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Bestiary 6 pg 60\
 **Subtype:** Clockwork

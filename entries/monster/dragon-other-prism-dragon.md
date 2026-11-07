@@ -42,9 +42,9 @@ _The facets of this crystalline dragon's body reflect fascinating and sparkling 
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +28
+
+**Senses:** Low-light vision
 
 **Sources:** Occult Bestiary pg 42\
 **Subtype:** Extraplanar

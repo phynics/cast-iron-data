@@ -36,13 +36,13 @@ propels itself forward with balance and grace._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Down the Blighted Path pg 59\
 **tremorsense:** 60

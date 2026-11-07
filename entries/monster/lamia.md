@@ -39,11 +39,11 @@ lower body is that of a lion._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 186\
 **Experience points:** 2,400

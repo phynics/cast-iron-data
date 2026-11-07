@@ -36,15 +36,13 @@ cold, blue eyes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Bestiary 2 pg 88, Pathfinder \#7: Edge of Anarchy pg 80\
 **Subtype:** Aquatic

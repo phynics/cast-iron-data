@@ -33,13 +33,13 @@ _A spiral pattern adorns the hood of this cobra-like serpent. Its gaze betrays a
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Occult Bestiary pg 44\
 **Size:** tiny

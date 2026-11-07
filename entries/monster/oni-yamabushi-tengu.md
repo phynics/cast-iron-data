@@ -39,8 +39,6 @@ prodigious nose, and large raven-like wings._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Tengu
@@ -49,7 +47,7 @@ prodigious nose, and large raven-like wings._
 
 **Perception:** +15
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Pathfinder \#49: The Brinewall Legacy pg 88\
 **Subtype:** Native, Oni, Shapechanger

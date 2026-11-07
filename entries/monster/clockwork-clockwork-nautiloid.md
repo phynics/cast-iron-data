@@ -42,11 +42,11 @@ tentacles surrounding its octopus-like beak._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 82\
 **Subtype:** Clockwork

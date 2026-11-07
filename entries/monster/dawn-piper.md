@@ -42,11 +42,11 @@ long, graceful fingers._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#68: The Shackled Hut pg 86\
 **Subtype:** Extraplanar

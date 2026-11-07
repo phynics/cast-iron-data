@@ -34,13 +34,11 @@ _Blade-like horns jut from the snout and eye ridges of this toothy, bipedal dino
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 83\
 **Experience points:** 1,600

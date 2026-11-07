@@ -39,11 +39,11 @@ scream as it descends._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 169\
 **Experience points:** 51,200

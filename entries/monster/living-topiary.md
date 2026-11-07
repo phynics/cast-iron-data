@@ -33,13 +33,13 @@ _This lumbering topiary has the rough shape of an elephant, complete with brambl
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

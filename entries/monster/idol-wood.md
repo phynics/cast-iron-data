@@ -43,11 +43,11 @@ primeval scowl._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 84\
 **Experience points:** 400

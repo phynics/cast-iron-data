@@ -40,13 +40,11 @@ long forelimbs with clawed fingers._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 260\
 **Experience points:** 6,400

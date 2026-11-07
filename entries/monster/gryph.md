@@ -34,13 +34,13 @@ its beak is razor-sharp._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -34,13 +34,11 @@ basket filled with corn._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +27
 
-**Senses:** Plant projection
+**Senses:** Low-light vision, Plant projection
 
 **Sources:** Bestiary 5 pg 114\
 **Size:** tiny

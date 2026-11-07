@@ -37,15 +37,13 @@ complete its vile appearance._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Inner Sea World Guide pg 311, Mystery Monsters Revisited pg 39\
 **Subtype:** Native

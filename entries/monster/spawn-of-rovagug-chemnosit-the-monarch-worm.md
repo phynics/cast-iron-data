@@ -42,11 +42,11 @@ center of its maw rests a glowing evil eye._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +27
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 47\
 **tremorsense:** 180

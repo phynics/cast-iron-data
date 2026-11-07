@@ -36,11 +36,11 @@ looks the most ferocious._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 28, Bonus Bestiary pg 7\
 **Experience points:** 600

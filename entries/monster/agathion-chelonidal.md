@@ -37,8 +37,6 @@ heavy shell covering its back._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -46,6 +44,8 @@ heavy shell covering its back._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 80\
 **Subtype:** Agathion, Aquatic, Extraplanar, Good

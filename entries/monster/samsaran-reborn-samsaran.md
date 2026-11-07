@@ -36,13 +36,13 @@ _The pale-blue skin of this dark-haired humanoid seems to subtly change hue from
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Occult Bestiary pg 50\
 **Subtype:** Samsaran

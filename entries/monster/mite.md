@@ -40,11 +40,9 @@ its puffy blue face is._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

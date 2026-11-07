@@ -36,8 +36,6 @@ _Black feathers cover this crow-headed humanoid, and its hands and legs end in p
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -45,6 +43,8 @@ _Black feathers cover this crow-headed humanoid, and its hands and legs end in p
 **othersubs:** Tengu
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 263\
 **Experience points:** 200

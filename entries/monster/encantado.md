@@ -39,11 +39,11 @@ _This graceful creature combines the features of a human and a river dolphin._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 110\
 **Subtype:** Shapechanger

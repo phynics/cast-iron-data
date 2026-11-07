@@ -39,11 +39,11 @@ _This mass of bones is shaped like a horse, with bizarre limbs._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Tombs of Golarion pg 13\
 **Experience points:** 9,600

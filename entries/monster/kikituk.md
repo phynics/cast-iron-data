@@ -41,11 +41,11 @@ scrimshaw patterns._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 177\
 **Experience points:** 25,600

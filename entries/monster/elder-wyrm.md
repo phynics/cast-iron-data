@@ -41,15 +41,11 @@ tail._
 
 **Initiative:** +16
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +49
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 6 pg 108\
 **Experience points:** 1,228,800

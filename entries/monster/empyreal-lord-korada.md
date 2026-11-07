@@ -42,15 +42,13 @@ tails._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +46
 
-**Senses:** Detect evil, Detect thoughts
+**Senses:** Detect evil, Detect thoughts, Low-light vision
 
 **Sources:** Bestiary 4 pg 90\
 **Subtype:** Agathion, Extraplanar, Good

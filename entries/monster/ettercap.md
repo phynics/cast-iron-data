@@ -36,13 +36,13 @@ hands are sickle-shaped claws._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 129\
 **Experience points:** 800

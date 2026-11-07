@@ -38,15 +38,13 @@ intoxicated._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** Monstrous humanoid
 
 **Perception:** +8
 
-**Senses:** Detect poison
+**Senses:** Detect poison, Low-light vision
 
 **Sources:** Bestiary 3 pg 259\
 **Subtype:** Shapechanger

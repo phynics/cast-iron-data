@@ -36,13 +36,13 @@ oily sheen._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 133, Pathfinder \#47: Ashes at Dawn pg 90\
 **Experience points:** 800

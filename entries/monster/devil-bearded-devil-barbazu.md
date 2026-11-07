@@ -43,7 +43,7 @@ a hideous, twitching beard._
 
 **Perception:** +10
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 73\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

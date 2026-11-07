@@ -35,11 +35,11 @@ _This sleek mammal has a short snout and black, white, and gray markings along i
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Size:** small
 

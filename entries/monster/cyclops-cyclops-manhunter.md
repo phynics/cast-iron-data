@@ -41,11 +41,11 @@ stained with gore serves as a warning for opponents who dare draw closer._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 18\
 **Subtype:** Giant

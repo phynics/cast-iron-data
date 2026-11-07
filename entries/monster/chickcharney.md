@@ -35,13 +35,13 @@ piercing black eyes and emits an annoying screech._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Size:** small
 

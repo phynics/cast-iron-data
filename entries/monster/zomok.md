@@ -36,11 +36,11 @@ soil, and it exhales clouds of dirt._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

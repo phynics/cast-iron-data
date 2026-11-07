@@ -38,13 +38,11 @@ and retie themselves on their own._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
 
-**Senses:** See invisibility
+**Senses:** Low-light vision, See invisibility
 
 **Sources:** Fangwood Keep pg 29\
 **Experience points:** 2,400

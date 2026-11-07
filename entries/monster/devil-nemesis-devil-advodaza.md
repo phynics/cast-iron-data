@@ -43,7 +43,7 @@ _This ancient monstrosity has the torso of a massively muscled giant._
 
 **Perception:** +28
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 80, Bestiary 4 pg 54\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

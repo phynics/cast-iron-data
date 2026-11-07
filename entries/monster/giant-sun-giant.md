@@ -42,9 +42,9 @@ amplify the light around her._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +31
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 123\
 **Subtype:** Giant

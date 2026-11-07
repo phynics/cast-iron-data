@@ -45,9 +45,7 @@ _This humanoid appears to be made of darkness, and has no discernible ears, eyes
 
 **Perception:** +7
 
-**Sense:** Scent
-
-**Senses:** Telepathic senses
+**Senses:** Scent, Telepathic senses
 
 **Sources:** Bestiary 5 pg 37\
 **Subtype:** Astomoi

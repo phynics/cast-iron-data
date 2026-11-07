@@ -42,9 +42,9 @@ his prowess as a warrior._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +29
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 21\
 **Subtype:** Fire, Giant

@@ -35,13 +35,13 @@ unseen light._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral good
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#107: Scourge of the Godclaw pg 86\
 **Size:** tiny

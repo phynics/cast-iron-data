@@ -32,15 +32,13 @@ _A wide rack of ivory-white antlers crowns the head of this majestic tawny stag.
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Taldor, the First Empire pg 61\
 **Experience points:** 800

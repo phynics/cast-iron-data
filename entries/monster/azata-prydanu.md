@@ -42,13 +42,11 @@ its skin._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +28
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Pathfinder \#126: Beyond the Veiled Past pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

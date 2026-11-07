@@ -37,15 +37,13 @@ its arms end in barbed chains._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** outsider
 
 **Perception:** +20
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 167\
 **Subtype:** Extraplanar, Inevitable, Lawful

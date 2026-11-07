@@ -31,8 +31,6 @@ aggressively._
 
 **Challenge rating:** 6
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **dv:** 60
@@ -44,6 +42,8 @@ aggressively._
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** All-around vision
 
 **Sources:** Bestiary 4 pg 185\
 **Experience points:** 2,400

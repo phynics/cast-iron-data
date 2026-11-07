@@ -37,11 +37,11 @@ pungent chemical fluid._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Tears at Bitter Manor pg 60\
 **Experience points:** 3,200

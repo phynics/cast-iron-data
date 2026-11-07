@@ -38,11 +38,11 @@ its creased body and claw-like hands._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 131, Isles of the Shackles pg 47\
 **Experience points:** 6,400

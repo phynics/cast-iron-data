@@ -37,11 +37,11 @@ snapping jaws that grind menacingly between each bite._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#58: Island of Empty Eyes pg 84\
 **Experience points:** 4,800

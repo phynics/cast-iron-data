@@ -33,13 +33,13 @@ abilities = ["14", "19", "-", "8", "11", "17"]
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Evil, Extraplanar

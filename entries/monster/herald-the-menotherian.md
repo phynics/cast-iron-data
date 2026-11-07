@@ -42,15 +42,13 @@ stingers the length of a human arm._
 
 **Size:** large
 
-**Sense:** Llv
-
 **othersubs:** Herald
 
 **Type:** outsider
 
 **Perception:** +22
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 280\
 **Subtype:** Chaotic, Extraplanar, Shapechanger

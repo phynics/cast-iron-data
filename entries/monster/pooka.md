@@ -39,9 +39,9 @@ grin gleams on her face._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 216\
 **Size:** tiny

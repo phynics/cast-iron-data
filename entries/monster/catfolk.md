@@ -38,13 +38,13 @@ curiosity and mischief._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 47\
 **Subtype:** Catfolk

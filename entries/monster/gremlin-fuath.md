@@ -40,9 +40,9 @@ _This waterlogged gremlin has lobster claws for hands and an almost canine face 
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 142\
 **Subtype:** Aquatic

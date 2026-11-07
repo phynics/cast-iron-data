@@ -43,7 +43,7 @@ drink in the light around it._
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 3 pg 241, Bonus Bestiary pg 16\
 **Subtype:** Evil, Extraplanar

@@ -36,8 +36,6 @@ from its hunched shoulders._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -45,6 +43,8 @@ from its hunched shoulders._
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 14\
 **Experience points:** 3,200

@@ -39,13 +39,13 @@ woven reeds and leaves._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 200\
 **Subtype:** Water

@@ -32,11 +32,11 @@ _This white-and-gray bird has a reddish-orange beak._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 192, Reign of Winter Player's Guide pg 10\
 **Size:** tiny

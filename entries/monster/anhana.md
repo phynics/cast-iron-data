@@ -37,9 +37,9 @@ gardening shears._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Size:** small
 

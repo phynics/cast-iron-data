@@ -35,11 +35,11 @@ _A blowfish the size of a horse drifts through the water, its quills the size of
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 83\
 **Subtype:** Aquatic

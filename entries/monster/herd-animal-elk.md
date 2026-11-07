@@ -33,13 +33,13 @@ antlers crowning its head._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 147, Pathfinder \#31: Stolen Land pg 80\
 **Experience points:** 400

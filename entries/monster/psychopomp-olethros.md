@@ -37,8 +37,6 @@ mirrors._
 
 **Initiative:** +24
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -47,9 +45,7 @@ mirrors._
 
 **Perception:** +30
 
-**Senses:** Spiritsense
-
-**Senses:** Discern next of kin, True seeing
+**Senses:** Discern next of kin, Low-light vision, Spiritsense, True seeing
 
 **Sources:** Bestiary 6 pg 220\
 **Subtype:** Extraplanar, Psychopomp

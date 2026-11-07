@@ -40,11 +40,11 @@ movement with mechanical precision._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 135\
 **Experience points:** 51,200

@@ -36,13 +36,13 @@ dangle from its face._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 213\
 **Subtype:** Evil, Extraplanar, Sahkil

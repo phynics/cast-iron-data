@@ -44,7 +44,7 @@ clearly revealing its shape._
 
 **Perception:** +13
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 4 pg 210\
 **Subtype:** Extraplanar

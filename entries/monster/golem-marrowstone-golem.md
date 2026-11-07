@@ -39,11 +39,11 @@ _Thin veins of black rock crisscross the frame of this hulking construct._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 17\
 **Experience points:** 4,800

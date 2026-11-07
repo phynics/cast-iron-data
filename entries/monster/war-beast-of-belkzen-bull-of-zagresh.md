@@ -35,11 +35,11 @@ fifteen feet across._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 63\
 **Experience points:** 3,200

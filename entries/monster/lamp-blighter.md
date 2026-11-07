@@ -42,9 +42,9 @@ neck._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -41,11 +41,11 @@ _This two-headed monstrosity has vast wings and a long tail covered in a forest 
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +38
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 166\
 **Subtype:** Air, Kaiju

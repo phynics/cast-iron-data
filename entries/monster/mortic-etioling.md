@@ -40,9 +40,9 @@ her rictus grin._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Size:** small
 

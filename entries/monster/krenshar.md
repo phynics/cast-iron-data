@@ -34,8 +34,6 @@ the bone and flesh beneath._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -44,7 +42,7 @@ the bone and flesh beneath._
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 174\
 **Experience points:** 400

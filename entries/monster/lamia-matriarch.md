@@ -40,11 +40,11 @@ of an immense snake._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 175, Pathfinder \#2: The Skinsaw Murders pg 92\
 **Subtype:** Shapechanger

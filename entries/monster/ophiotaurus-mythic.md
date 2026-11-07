@@ -40,15 +40,13 @@ hooves._
 
 **Initiative:** +15/-5, [dual initiative](ref/umr/dual-initiative)
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +24
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 185\
 **Subtype:** Mythic

@@ -32,8 +32,6 @@ with an eerie blue light._
 
 **Challenge rating:** 1/2
 
-**Sense:** Aav
-
 **dv:** 60
 
 **Initiative:** +1
@@ -41,6 +39,8 @@ with an eerie blue light._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** All-around vision
 
 **Sources:** Planes of Power pg 58\
 **Subtype:** Aquatic, Extraplanar

@@ -35,11 +35,11 @@ _This eerie-looking squid has red eyes and webbing between its hook-lined tentac
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 208\
 **Size:** tiny

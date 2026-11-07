@@ -40,9 +40,9 @@ looks hungry._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 9\
 **Subtype:** Aquatic

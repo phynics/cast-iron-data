@@ -47,9 +47,7 @@ echoes from his gaping maw._
 
 **Perception:** +43
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** See in darkness, True seeing
 
 **Sources:** Mythic Realms pg 48, Pathfinder \#24: The Final Wish pg 76\
 **Subtype:** Div, Evil, Extraplanar

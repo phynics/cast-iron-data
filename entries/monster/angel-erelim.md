@@ -38,8 +38,6 @@ _This athletic, winged humanoid has handsome features and wields a shining lance
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -48,7 +46,7 @@ _This athletic, winged humanoid has handsome features and wields a shining lance
 
 **Perception:** +13
 
-**Senses:** Detect evil
+**Senses:** Detect evil, Low-light vision
 
 **Sources:** Pathfinder \#104: Wrath of Thrune pg 84\
 **Subtype:** Angel, Extraplanar, Good

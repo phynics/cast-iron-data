@@ -43,7 +43,7 @@ fiery-eyed sentinel bristles with barbs._
 
 **Perception:** +21
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 72\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

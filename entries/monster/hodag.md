@@ -37,15 +37,13 @@ teeth and glowing red eyes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 148, Pathfinder \#32: Rivers Run Red pg 84\
 **Experience points:** 2,400

@@ -30,8 +30,6 @@ three eyes, and one huge mouth._
 
 **Challenge rating:** 6
 
-**Sense:** Aav
-
 **dv:** 60
 
 **Initiative:** +0
@@ -43,6 +41,8 @@ three eyes, and one huge mouth._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** All-around vision
 
 **Sources:** Pathfinder RPG Bestiary pg 284\
 **Subtype:** Earth, Extraplanar

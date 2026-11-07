@@ -36,8 +36,6 @@ creature's head._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
@@ -45,6 +43,8 @@ creature's head._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 218\
 **Subtype:** Evil, Extraplanar, Sahkil

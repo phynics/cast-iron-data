@@ -31,8 +31,6 @@ with their twin curved knives._
 
 **Challenge rating:** 7
 
-**Sense:** Aav
-
 **aura:** elusive (30 ft.)
 
 **dv:** 60
@@ -46,6 +44,8 @@ with their twin curved knives._
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** All-around vision
 
 **Sources:** Bestiary 3 pg 21, Pathfinder \#28: The Infernal Syndrome pg 82\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

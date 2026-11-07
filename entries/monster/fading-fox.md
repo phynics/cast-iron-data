@@ -33,13 +33,11 @@ _This regal fox's coat shifts subtly between silver, red, and dull brown as it w
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Taldor, the First Empire pg 60\
 **Size:** tiny

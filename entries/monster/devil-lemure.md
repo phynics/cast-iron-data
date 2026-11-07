@@ -42,7 +42,7 @@ dripping tumorous face._
 
 **Perception:** +0
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 79\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

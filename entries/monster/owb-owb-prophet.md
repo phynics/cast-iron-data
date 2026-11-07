@@ -45,7 +45,7 @@ liquid shadow._
 
 **Perception:** +23
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Cradle of Night pg 64\
 **Subtype:** Extraplanar

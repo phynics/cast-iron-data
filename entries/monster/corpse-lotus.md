@@ -38,11 +38,11 @@ vines._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

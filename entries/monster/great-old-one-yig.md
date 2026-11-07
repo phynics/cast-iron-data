@@ -42,13 +42,11 @@ distinctive crescent shape._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +45
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 150\
 **Subtype:** Chaotic, Great Old One, Shapechanger

@@ -39,11 +39,11 @@ at the ends of its swaying necks._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Magnimar, City of Monuments pg 62\
 **Experience points:** 38,400

@@ -33,8 +33,6 @@ vaguely canine beast._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -43,7 +41,7 @@ vaguely canine beast._
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 274, Pathfinder \#32: Rivers Run Red pg 88\
 **Experience points:** 800

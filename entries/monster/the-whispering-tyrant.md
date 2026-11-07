@@ -48,9 +48,7 @@ by a palpable aura of death._
 
 **Perception:** +33
 
-**Senses:** Spell perception
-
-**Sense:** Sid
+**Senses:** See in darkness, Spell perception
 
 **Sources:** Mythic Realms pg 62\
 **Subtype:** Augmented humanoid, Human, Mythic

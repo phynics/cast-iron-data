@@ -36,11 +36,11 @@ gracefully curled tail._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 234\
 **Subtype:** Aquatic

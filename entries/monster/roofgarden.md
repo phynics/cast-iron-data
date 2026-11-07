@@ -32,13 +32,13 @@ _A thick carpet of moss and vines stretches out from a central tangled mass of p
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

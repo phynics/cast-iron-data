@@ -36,11 +36,11 @@ shavings._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** -5
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

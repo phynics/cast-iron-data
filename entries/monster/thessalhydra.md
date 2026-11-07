@@ -38,13 +38,11 @@ thrashing tail ends in a crab-like pincer._
 
 **Initiative:** +15
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +31
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 263\
 **Experience points:** 153,600

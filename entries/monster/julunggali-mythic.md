@@ -44,17 +44,13 @@ crown its head._
 
 **Initiative:** +21, Mythic Improved Initiative
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +30
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Low-light vision, Scent, See in darkness
 
 **Sources:** Bestiary 4 pg 164\
 **Subtype:** Aquatic, Extraplanar, Mythic, Shapechanger

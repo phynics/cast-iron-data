@@ -43,9 +43,7 @@ eyes search for a target._
 
 **Perception:** +16
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** See in darkness, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 75\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

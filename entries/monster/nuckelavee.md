@@ -39,11 +39,11 @@ of rage and sickness._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 203, Pathfinder \#34: Blood for Blood pg 88\
 **Subtype:** Aquatic

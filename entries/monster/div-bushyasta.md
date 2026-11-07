@@ -43,9 +43,7 @@ save for her wide, fang-filled mouth._
 
 **Perception:** +14
 
-**Senses:** Detect good, Detect magic
-
-**Sense:** Sid
+**Senses:** Detect good, Detect magic, See in darkness
 
 **Sources:** Book of the Damned pg 248\
 **Subtype:** Div, Evil, Extraplanar

@@ -43,7 +43,7 @@ sports six frightening tusks._
 
 **Perception:** +28
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 3 pg 144, Pathfinder \#42: Sanctum of the Serpent God pg 84\
 **Experience points:** 76,800

@@ -34,13 +34,11 @@ abilities = ["12", "17", "12", "17", "16", "13"]
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +9
 
-**Senses:** Detect magic
+**Senses:** Detect magic, Low-light vision
 
 **Size:** small
 

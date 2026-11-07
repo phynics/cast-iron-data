@@ -38,9 +38,9 @@ each with fingers like long blades, and leaves circle its head like a crown._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Size:** small
 

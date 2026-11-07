@@ -40,11 +40,11 @@ of twigs._
 
 **Initiative:** +7, Mythic Improved Initiative
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 180\
 **Subtype:** Mythic

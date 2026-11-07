@@ -39,13 +39,13 @@ small but infinite pits of malice._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 86\
 **Experience points:** 19,200

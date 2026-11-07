@@ -40,9 +40,7 @@ hands are visible._
 
 **Perception:** +4
 
-**Senses:** Detect magic
-
-**Sense:** Sid
+**Senses:** Detect magic, See in darkness
 
 **Size:** small
 

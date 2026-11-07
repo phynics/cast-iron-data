@@ -36,15 +36,13 @@ shimmer with magical energy._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Senses:** Detect magic
+**Senses:** Detect magic, Low-light vision
 
 **Sources:** Bestiary 3 pg 81, Misfit Monsters Redeemed pg 27\
 **Experience points:** 800

@@ -43,9 +43,7 @@ its chest and neck._
 
 **Perception:** +13
 
-**Sense:** Scent
-
-**Senses:** Enchantment sense
+**Senses:** Enchantment sense, Scent
 
 **Sources:** Andoran, Birthplace of Freedom pg 50\
 **Subtype:** Agathion, Extraplanar, Good

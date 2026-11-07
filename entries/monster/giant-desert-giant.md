@@ -39,11 +39,11 @@ nearly the length of a human._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 128\
 **Subtype:** Giant

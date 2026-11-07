@@ -39,13 +39,11 @@ man._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **othersubs:** Charau-ka
 
 **Perception:** +2
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

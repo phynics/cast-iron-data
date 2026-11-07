@@ -38,15 +38,13 @@ _This sleek, weasel-like rodent has exaggerated whiskers and six short but stout
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Monster Codex pg 184\
 **Experience points:** 800

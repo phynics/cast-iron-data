@@ -38,9 +38,9 @@ cavern._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +43
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

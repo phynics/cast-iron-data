@@ -39,11 +39,11 @@ protuberances jut from its body._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 141\
 **Experience points:** 19,200

@@ -40,11 +40,11 @@ robes are soaking wet._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 212\
 **Subtype:** Aquatic, Giant, Native, Oni, Shapechanger, Water

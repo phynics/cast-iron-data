@@ -37,11 +37,11 @@ wide, fluked tail. Razor-sharp teeth fill its almost reptilian mouth._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 89\
 **Experience points:** 6,400

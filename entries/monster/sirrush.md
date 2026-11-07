@@ -43,11 +43,11 @@ appear to be made of solid sunlight._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +38
+
+**Senses:** Low-light vision
 
 **Sources:** Planar Adventures pg 245\
 **Subtype:** Extraplanar, Good

@@ -34,13 +34,13 @@ feathers._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Osirion, Legacy of the Pharaohs pg 55\
 **Experience points:** 400

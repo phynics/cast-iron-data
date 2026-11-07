@@ -37,13 +37,13 @@ covered in a layer of thick algae._
 
 **Keen Scent:** present
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Magnimar, City of Monuments pg 61, Pathfinder \#13: Shadow in the Sky pg 86\
 **Subtype:** Aquatic

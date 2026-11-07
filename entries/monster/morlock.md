@@ -43,7 +43,7 @@ but its shape is hideously humanoid._
 
 **Perception:** +2
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 209, Into the Darklands pg 54\
 **Experience points:** 600

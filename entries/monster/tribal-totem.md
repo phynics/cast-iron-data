@@ -39,13 +39,13 @@ of lacquer and resin assaults the senses as it draws near with a menacing, ponde
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#39: The City of Seven Spears pg 86\
 **Experience points:** 2,400

@@ -44,9 +44,7 @@ between its yellowed fangs._
 
 **Perception:** +11
 
-**Senses:** Detect magic
-
-**Sense:** Sid
+**Senses:** Detect magic, See in darkness
 
 **Sources:** Bestiary 4 pg 53, Book of the Damned - Volume 1: Princes of Darkness pg 58\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

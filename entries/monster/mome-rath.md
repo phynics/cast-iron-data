@@ -34,15 +34,13 @@ prehensile tail hold it in the trees._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#119: Prisoners of the Blight pg 82\
 **Experience points:** 600

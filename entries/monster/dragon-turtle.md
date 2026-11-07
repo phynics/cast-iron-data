@@ -38,13 +38,11 @@ _This long-tailed aquatic beast resembles a massive snapping turtle with draconi
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 112\
 **Subtype:** Aquatic

@@ -40,8 +40,6 @@ stark-white bones commonly worn by his people._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -49,6 +47,8 @@ stark-white bones commonly worn by his people._
 **othersubs:** Strix
 
 **Perception:** +9 (+11 in dim light or darkness)
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 55\
 **Experience points:** 1,600

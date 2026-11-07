@@ -40,11 +40,11 @@ belt that encircles her chiton._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 20\
 **Subtype:** Giant

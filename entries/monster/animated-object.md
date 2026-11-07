@@ -36,13 +36,13 @@ new prisoners._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** -5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 14, Ultimate Magic pg 111, Pathfinder \#30: The Twice-Damned
 Prince pg 68, Pathfinder \#43: Haunting of Harrowstone pg 80\

@@ -37,11 +37,11 @@ and curling horns on his head._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 114\
 **Experience points:** 400

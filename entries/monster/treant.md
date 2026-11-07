@@ -35,11 +35,11 @@ roots for legs._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

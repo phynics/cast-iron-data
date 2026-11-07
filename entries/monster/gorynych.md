@@ -40,11 +40,9 @@ behind three sets of fangs._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +23
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 137\
 **Experience points:** 51,200

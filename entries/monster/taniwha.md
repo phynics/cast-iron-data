@@ -40,13 +40,11 @@ piercing blue eyes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +16
 
-**Senses:** Detect poison
+**Senses:** Detect poison, Low-light vision
 
 **Sources:** Bestiary 6 pg 259\
 **Subtype:** Aquatic

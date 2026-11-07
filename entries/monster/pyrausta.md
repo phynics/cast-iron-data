@@ -40,9 +40,9 @@ form glows bright with an inner fire._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 200\
 **Subtype:** Fire

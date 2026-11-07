@@ -44,7 +44,7 @@ full of pointed teeth._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 4 pg 236, Pathfinder \#50: Night of Frozen Shadows pg 88\
 **Subtype:** Aquatic, Shapechanger

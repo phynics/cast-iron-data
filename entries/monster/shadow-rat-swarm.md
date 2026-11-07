@@ -38,7 +38,7 @@ eyes moves toward you. Their semi-translucent skin shows discolored bones and mu
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 52, Tome of Horrors Complete (PF) pg 586\
 **Subtype:** Swarm

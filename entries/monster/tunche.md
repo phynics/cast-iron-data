@@ -41,11 +41,9 @@ one deadly predator._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Perception:** +33
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 265\
 **Experience points:** 102,400

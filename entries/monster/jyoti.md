@@ -36,8 +36,6 @@ carved crystal blade._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -45,6 +43,8 @@ carved crystal blade._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 171\
 **Subtype:** Extraplanar

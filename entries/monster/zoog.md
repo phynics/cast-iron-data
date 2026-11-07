@@ -37,17 +37,11 @@ tendrils extending from a mole-like nose._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +5
 
-**Sense:** Scent
-
-**Senses:** Spell sight
-
-**Senses:** Detect magic
+**Senses:** Detect magic, Low-light vision, Scent, Spell sight
 
 **Sources:** Bestiary 3 pg 288\
 **Size:** tiny

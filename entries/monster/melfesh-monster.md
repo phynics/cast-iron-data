@@ -31,11 +31,7 @@ the ground. A hood of damp moss and crusty bark conceals the monster's face._
 
 **Challenge rating:** 6
 
-**Sense:** Aav
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -45,7 +41,7 @@ the ground. A hood of damp moss and crusty bark conceals the monster's face._
 
 **Type:** plant
 
-**Senses:** See invisibility
+**Senses:** All-around vision, Low-light vision, See invisibility
 
 **Sources:** Pathfinder \#61: Shards of Sin pg 84\
 **Subtype:** Extraplanar

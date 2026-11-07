@@ -38,15 +38,13 @@ lower body of a majestic elk._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +31
 
-**Senses:** Detect scrying
+**Senses:** Detect scrying, Low-light vision
 
 **Sources:** Bestiary 5 pg 12, Chronicle of the Righteous pg 58\
 **Subtype:** Agathion, Extraplanar, Good

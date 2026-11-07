@@ -42,7 +42,7 @@ fire and seething with smoke._
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 2 pg 153\
 **Subtype:** Evil, Extraplanar, Lawful

@@ -44,9 +44,7 @@ span the length of its body._
 
 **Perception:** +20
 
-**Senses:** Detect chaos/evil/good/law
-
-**Sense:** Sid
+**Senses:** Detect chaos/evil/good/law, See in darkness
 
 **Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 84\
 **Subtype:** Native

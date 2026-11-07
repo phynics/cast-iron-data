@@ -38,15 +38,13 @@ _This beast has the general size and shape of a great bear, yet the head and fea
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 213\
 **Subtype:** Mythic

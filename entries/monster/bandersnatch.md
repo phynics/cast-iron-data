@@ -40,15 +40,13 @@ eyes glow with a blue light._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +26
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 32\
 **Experience points:** 102,400

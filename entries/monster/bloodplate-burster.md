@@ -41,9 +41,9 @@ skin._
 
 **Perception:** +24
 
-**Type:** plant
+**Senses:** Scent
 
-**Sense:** Scent
+**Type:** plant
 
 **Sources:** Pathfinder \#129: The Twilight Child pg 84\
 **tremorsense:** 120

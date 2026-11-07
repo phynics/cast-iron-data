@@ -40,15 +40,13 @@ wings._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +33
 
-**Senses:** Detect evil, Detect snares and pits, True seeing
+**Senses:** Detect evil, Detect snares and pits, Low-light vision, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 12\
 **Subtype:** Angel, Extraplanar, Good

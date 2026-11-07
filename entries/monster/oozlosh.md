@@ -42,9 +42,9 @@ it isn't bedecked in gaudy jewelry._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 38\
 **Subtype:** Giant

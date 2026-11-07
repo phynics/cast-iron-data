@@ -37,13 +37,13 @@ _This man seems human at first, but a closer look reveals he has claws and sharp
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 233\
 **Subtype:** Shapechanger, Skinwalker

@@ -40,15 +40,13 @@ barbs that's topped with a heap of berry-red eyes._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
 
 **Type:** plant
 
-**Senses:** Plantsense 120 ft.
+**Senses:** Low-light vision, Plantsense 120 ft.
 
 **Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 84\
 **Experience points:** 3,200

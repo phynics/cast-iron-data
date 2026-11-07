@@ -42,13 +42,13 @@ trickles down her arm._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +27
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#68: The Shackled Hut pg 84\
 **Subtype:** Chaotic, Extraplanar, Good

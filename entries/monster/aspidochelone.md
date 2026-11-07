@@ -40,13 +40,13 @@ plunging beneath the waves._
 
 **Initiative:** -3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** -2
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 78\
 **Subtype:** Aquatic

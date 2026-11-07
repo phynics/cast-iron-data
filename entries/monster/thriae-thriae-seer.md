@@ -34,8 +34,6 @@ staff._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
@@ -44,7 +42,7 @@ staff._
 
 **Perception:** +27
 
-**Senses:** Detect secret doors
+**Senses:** Detect secret doors, Low-light vision
 
 **Sources:** Bestiary 3 pg 264\
 **Experience points:** 12,800

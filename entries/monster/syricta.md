@@ -42,7 +42,7 @@ while the other is two snake heads._
 
 **Perception:** +22
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 5 pg 239\
 **Experience points:** 19,200

@@ -31,8 +31,6 @@ glowing weaponry._
 
 **Challenge rating:** 20
 
-**Sense:** Aav
-
 **aura:** dimensional lock (20 ft., enemies only), elusive (100 ft.)
 
 **dv:** 60
@@ -43,15 +41,11 @@ glowing weaponry._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +34
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** All-around vision, Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 3 pg 23\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

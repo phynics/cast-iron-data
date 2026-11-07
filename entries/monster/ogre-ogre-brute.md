@@ -45,9 +45,9 @@ mouth with ill-fitting teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 155\
 **Subtype:** Giant

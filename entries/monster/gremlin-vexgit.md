@@ -38,9 +38,9 @@ a tiny but solid-looking hammer._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 145, Pathfinder \#19: Howl of the Carrion King pg 84\
 **Size:** tiny

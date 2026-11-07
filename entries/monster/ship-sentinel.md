@@ -38,13 +38,11 @@ coating her frame encrusted in years' worth of sea salt._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Senses:** Ship sight
+**Senses:** Low-light vision, Ship sight
 
 **Sources:** Pathfinder \#57: Tempest Rising pg 88\
 **Experience points:** 3,200

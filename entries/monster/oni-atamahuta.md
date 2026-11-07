@@ -40,11 +40,11 @@ and tattoos decorating its forehead._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#51: The Hungry Storm pg 86\
 **Subtype:** Oni, Giant, Native, Shapechanger

@@ -35,8 +35,6 @@ a gentle wisdom._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Size:** medium
@@ -44,6 +42,8 @@ a gentle wisdom._
 **Alignment:** Neutral
 
 **Perception:** +25
+
+**Senses:** Low-light vision
 
 **Sources:** Occult Bestiary pg 10\
 **thoughtsense:** 60

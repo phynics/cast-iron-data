@@ -41,15 +41,13 @@ rings of metal._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** outsider
 
 **Perception:** +34
 
-**Senses:** Detect chaos, Detect magic, True seeing
+**Senses:** Detect chaos, Detect magic, Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 164\
 **Subtype:** Extraplanar, Inevitable, Lawful

@@ -48,9 +48,9 @@ blue-scaled body._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Mythic Adventures pg 188\
 **Subtype:** Earth, Mythic

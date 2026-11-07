@@ -38,11 +38,11 @@ _No flavor text._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Sources:** Fey Revisited pg 56\
 **Experience points:** 3,200

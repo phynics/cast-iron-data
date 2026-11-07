@@ -42,11 +42,11 @@ iron and eldritch sparks._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#142: Gardens of Gallowspire pg 82\
 **Experience points:** 25,600

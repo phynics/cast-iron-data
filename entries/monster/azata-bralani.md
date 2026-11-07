@@ -39,13 +39,13 @@ swirling with vibrant colors._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 24\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger

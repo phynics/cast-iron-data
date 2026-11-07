@@ -44,11 +44,11 @@ legs._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#87: The Choking Tower pg 88\
 **Subtype:** Robot

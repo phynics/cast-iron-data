@@ -43,7 +43,7 @@ and shivering insectile wings._
 
 **Perception:** +31
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 3 pg 72\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

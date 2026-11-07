@@ -43,7 +43,7 @@ _This creature has the head, legs, and tail of a tyrannosaurus, but humanoid che
 
 **Perception:** +31
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 6 pg 247\
 **Experience points:** 76,800

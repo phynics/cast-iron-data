@@ -33,13 +33,13 @@ grouse._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#61: Shards of Sin pg 86\
 **Size:** tiny

@@ -46,7 +46,7 @@ face is streaked with gray._
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Mystery Monsters Revisited pg 63\
 **Subtype:** Cold

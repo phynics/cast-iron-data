@@ -43,7 +43,7 @@ of thick white fur._
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 287\
 **Subtype:** Cold

@@ -37,8 +37,6 @@ end of his wings._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral good
@@ -47,7 +45,7 @@ end of his wings._
 
 **Perception:** +23
 
-**Senses:** Detect magic
+**Senses:** Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 16, Andoran, Spirit of Liberty pg 21\
 **Subtype:** Agathion, Extraplanar, Good

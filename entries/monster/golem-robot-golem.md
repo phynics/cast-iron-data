@@ -38,11 +38,11 @@ some force other than its own rattling gears._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Numeria, Land of Fallen Stars pg 49\
 **Experience points:** 12,800

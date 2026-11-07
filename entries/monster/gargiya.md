@@ -37,13 +37,13 @@ Sweltering heat radiates from its rippling scales._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 84\
 **Subtype:** Aquatic

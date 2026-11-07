@@ -36,13 +36,13 @@ rises up to support the ceiling._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 46, Bonus Bestiary pg 8\
 **Experience points:** 800

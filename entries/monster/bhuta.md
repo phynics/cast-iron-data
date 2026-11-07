@@ -40,7 +40,7 @@ and its eyes glow with blue fire._
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 3 pg 41\
 **Subtype:** Incorporeal

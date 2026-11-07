@@ -30,17 +30,15 @@ _The thick stalks of this dark-veined, gray plant are covered in a fine black fu
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Type:** plant
+**Senses:** Low-light vision, See in darkness
 
-**Sense:** Sid
+**Type:** plant
 
 **Sources:** Nidal, Land of Shadows pg 62\
 **Experience points:** 1,200

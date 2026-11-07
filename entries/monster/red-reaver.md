@@ -37,13 +37,13 @@ wings._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Curse of the Crimson Throne pg 476, Pathfinder \#10: A History of Ashes pg 88\
 **Experience points:** 25,600

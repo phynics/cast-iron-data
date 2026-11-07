@@ -41,13 +41,11 @@ horrible powers it serves._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **othersubs:** Charau-ka
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

@@ -39,13 +39,13 @@ fits snugly between its pectoral armor plates._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Construct Handbook pg 33\
 **Subtype:** Clockwork

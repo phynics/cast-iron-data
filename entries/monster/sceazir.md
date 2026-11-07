@@ -41,13 +41,13 @@ spiky, manyjointed legs bend in unsettling ways._
 
 **Lifesense:** present
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#141: Last Watch pg 86\
 **Subtype:** Extraplanar

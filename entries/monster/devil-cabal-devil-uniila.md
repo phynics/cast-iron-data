@@ -47,7 +47,7 @@ the faintest outlines of a veiled face and a pair of eyes flickering with barely
 
 **Perception:** +17
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder \#28: The Infernal Syndrome pg 86\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful

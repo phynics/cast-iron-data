@@ -46,11 +46,7 @@ immense serpents._
 
 **Perception:** +47
 
-**Sense:** Scent
-
-**Senses:** Detect chaos, Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Detect chaos, Detect good, Scent, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 24\
 **Subtype:** Aquatic, Devil, Evil, Extraplanar, Lawful

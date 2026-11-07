@@ -45,7 +45,7 @@ face._
 
 **Perception:** +25
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** The Worldwound pg 46\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

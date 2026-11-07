@@ -45,7 +45,7 @@ and then, a grasping claw extends forth._
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Book of the Damned pg 243\
 **Subtype:** Daemon, Evil, Extraplanar

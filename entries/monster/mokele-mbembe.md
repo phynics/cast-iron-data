@@ -36,13 +36,11 @@ countless sharp fangs._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 190, Pathfinder \#39: The City of Seven Spears pg 84, Mystery Monsters
 Revisited pg 26\

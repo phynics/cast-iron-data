@@ -37,13 +37,13 @@ a goat, ending in cloven hooves._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 54\
 **Experience points:** 19,200

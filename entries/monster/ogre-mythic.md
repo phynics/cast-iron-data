@@ -43,9 +43,9 @@ _This immense, muscular giant wears heavy scale mail and wields a club adorned w
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Mythic Adventures pg 212\
 **Subtype:** Giant, Mythic

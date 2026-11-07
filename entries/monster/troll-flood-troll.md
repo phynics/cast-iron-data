@@ -39,11 +39,11 @@ for eyes; and large, powerful hands that end in wicked claws._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 88\
 **Subtype:** Giant

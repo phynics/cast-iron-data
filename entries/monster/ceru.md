@@ -34,13 +34,13 @@ and ears are clawed and spiked._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral good
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 9\
 **Size:** tiny

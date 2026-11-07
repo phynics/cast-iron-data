@@ -39,15 +39,11 @@ It carries a strangely shaped throwing axe._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +11
 
-**Sense:** Scent
-
-**Senses:** See invisibility
+**Senses:** Low-light vision, Scent, See invisibility
 
 **Sources:** Heart of the Jungle pg 58\
 **Experience points:** 6,400

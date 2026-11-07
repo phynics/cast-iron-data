@@ -40,13 +40,13 @@ in its torso._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +30
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 10\
 **Subtype:** Aeon, Extraplanar

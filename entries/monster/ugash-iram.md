@@ -37,15 +37,13 @@ terrifying malignance, and the thing has a fanged maw where its beak should be._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +20
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 66\
 **Subtype:** Aquatic

@@ -40,9 +40,9 @@ hypnotically._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 197\
 **Experience points:** 2,400
