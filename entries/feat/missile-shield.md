@@ -2,7 +2,7 @@
 id = "ref/feat/missile-shield"
 kind = "feat"
 title = "Missile Shield"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["advanced-players-guide", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "missile_shield", path = "json/feat10.json" },
 ]
@@ -32,12 +32,3 @@ of the attack and not [flat-footed](ref/rule/flat-footed).
 As long as you have at least 1 stamina point in your stamina pool, you can use this feat with a
 [buckler](ref/eq-armor/buckler). You can spend 5 stamina points to deflect an arrow even while
 you're flat-footed. You must still be aware of the attack.
-
-### Mythic Missile Shield
-
-**Sources:** Mythic Adventures pg 69\
-Your remarkable awareness allows you to deflect multiple ranged attacks and even ray spells.\
-**Prerequisites:** Missile Shield.\
-**Benefit:** When using Missile Shield, you can deflect an additional number of ranged attacks per
-round equal to half your tier. You can expend one use of mythic power as an immediate action to
-deflect a single ray from a ray spell or effect targeting you.

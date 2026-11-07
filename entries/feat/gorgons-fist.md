@@ -2,7 +2,7 @@
 id = "ref/feat/gorgons-fist"
 kind = "feat"
 title = "Gorgon's Fist"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorgons_fist", path = "json/feat07.json" },
 ]
@@ -32,16 +32,6 @@ targets that are staggered.
 **Sources:** Pathfinder Unchained pg 120\
 You can spend 5 stamina points to make a Gorgon's Fist attack as one of the individual attacks made
 during a full attack.
-
-### Mythic Gorgon's Fist
-
-**Sources:** Mythic Adventures pg 66\
-Your strikes debilitate and disorient your foes.\
-**Prerequisites:** Gorgon's Fist.\
-**Benefit:** When you hit a creature while using Gorgon's Fist, if the target fails its Fortitude
-saving throw, it is [dazed](ref/misc/dazed) for 1 round instead of staggered. You can expend one use
-of mythic power when you hit with a Gorgon's Fist attack, but before the saving throw is attempted,
-to increase its DC by half your tier.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 With one well-placed blow, you leave your target reeling.\

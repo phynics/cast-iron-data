@@ -2,7 +2,7 @@
 id = "ref/feat/shield-focus"
 kind = "feat"
 title = "Shield Focus"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_focus", path = "json/feat14.json" },
 ]
@@ -29,15 +29,6 @@ You are skilled at deflecting blows with your shield.\
 When an attack is made against you while you are using a shield, you can spend up to 2 stamina
 points. If you do, the shield's bonus to AC against that attack increases by an amount equal to the
 number of stamina points you spent.
-
-### Mythic Shield Focus
-
-**Sources:** Mythic Adventures pg 73\
-You're a master of using your shield for protection.\
-**Prerequisites:** Shield Focus.\
-**Benefit:** Add your shield bonus and your shield's enhancement bonus to your touch AC. As an
-immediate action, you can expend one use of mythic power to add your shield bonus and your shield's
-enhancement bonus on a Fortitude or Reflex save just before you roll it.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at deflecting blows with your shield.\

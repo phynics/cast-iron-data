@@ -2,7 +2,7 @@
 id = "ref/feat/weapon-finesse"
 kind = "feat"
 title = "Weapon Finesse"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_finesse", path = "json/feat17.json" },
 ]
@@ -42,15 +42,6 @@ Sometimes there are restrictions on this behavior: check the weapon entry to be 
 **Sources:** Pathfinder Unchained pg 135\
 You can spend 2 stamina points to negate the penalty on attack rolls from your shield's armor check
 penalty until the start of your next turn.
-
-### Mythic Weapon Finesse
-
-**Sources:** Mythic Adventures pg 77\
-You're an expert with weapons that rely on your agility.\
-**Prerequisites:** Weapon Finesse.\
-**Benefit:** When using Weapon Finesse, you may also use your Dexterity modifier instead of your
-Strength modifier on your damage rolls. If you carry a shield, its armor check penalty doesn't apply
-to either the attack rolls or the damage rolls.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 The Weapon Finesse feat has been removed, and now any character may choose to use their dexterity

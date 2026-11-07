@@ -2,7 +2,7 @@
 id = "ref/feat/shatter-defenses"
 kind = "feat"
 title = "Shatter Defenses"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter_defenses", path = "json/feat14.json" },
 ]
@@ -34,15 +34,6 @@ round.
 When you hit an opponent that has been made flat-footed to your attacks by this feat, you can spend
 5 stamina points to make that opponent flat-footed to the attacks of one ally who is within 30 feet
 of that creature until the start of your next turn.
-
-### Mythic Shatter Defenses
-
-**Sources:** Mythic Adventures pg 72\
-Your dazzling attacks leave your opponents flummoxed and bewildered, unable to attack you or to
-defend themselves effectively.\
-**Prerequisites:** Shatter Defenses.\
-**Benefit:** An opponent you affect with Shatter Defenses is flat-footed to all attacks, not just
-yours.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Your skill with your chosen weapon group leaves opponents unable to defend themselves if you strike

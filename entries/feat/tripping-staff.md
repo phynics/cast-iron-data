@@ -2,7 +2,7 @@
 id = "ref/feat/tripping-staff"
 kind = "feat"
 title = "Tripping Staff"
-source_ids = ["ultimate-magic", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["ultimate-magic", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_staff", path = "json/feat16.json" },
 ]
@@ -33,13 +33,3 @@ use spellstrike on any trip combat maneuver you make with the staff.
 You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
 You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
 pool.
-
-### Mythic Tripping Staff
-
-**Sources:** Mythic Adventures pg 75\
-Your staff is valuable for attack and defensive balance.\
-**Prerequisites:** Tripping Staff.\
-**Benefit:** You add half your tier to CMD against trip maneuvers and on combat maneuver checks to
-trip with a quarterstaff. When you're wielding a quarterstaff and an opponent you threaten attempts
-to trip you and fails, it provokes an attack of opportunity from you. You must use your staff for
-this attack of opportunity.

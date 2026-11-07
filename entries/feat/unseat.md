@@ -2,7 +2,7 @@
 id = "ref/feat/unseat"
 kind = "feat"
 title = "Unseat"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseat", path = "json/feat16.json" },
 ]
@@ -35,15 +35,6 @@ directly away from you.
 When you use this feat to successfully unseat a foe, you can spend 5 stamina points to make the
 rider fall prone in an unoccupied space of your choice adjacent to the mount instead of a space
 directly away from you.
-
-### Mythic Unseat
-
-**Sources:** Mythic Adventures pg 76\
-You knock your opponents down from their mounts with frightening concussive force.\
-**Prerequisites:** Unseat.\
-**Benefit:** When you successfully bull rush an opponent off his mount with Unseat, your opponent
-takes 1d6 points of falling damage per 2 tiers you possess. Items or abilities that reduce falling
-damage, such as a successful Acrobatics check, can reduce the damage dealt by the impact.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at unseating your mounted opponents.\

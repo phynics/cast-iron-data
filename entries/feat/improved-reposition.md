@@ -2,7 +2,7 @@
 id = "ref/feat/improved-reposition"
 kind = "feat"
 title = "Improved Reposition"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_reposition", path = "json/feat09.json" },
 ]
@@ -35,18 +35,6 @@ You gain the benefits of this feat only as long as you have at least 1 stamina p
 pool. When you are the target of a reposition combat maneuver, you can spend a number of stamina
 points up to your Strength or Dexterity bonus, whichever is greater. Your CMD against that
 reposition attempt increases by that number.
-
-### Mythic Improved Reposition
-
-**Sources:** Mythic Adventures pg 67\
-You put your foes right where you want them.\
-**Prerequisites:** Improved Reposition.\
-**Benefit:** You gain a bonus equal to half your tier on checks to attempt a reposition combat
-maneuver, and to your CMD when an opponent attempts to perform a reposition combat maneuver against
-you. These bonuses stack with those granted by Improved Reposition.
-
-Furthermore, you can make an attack of opportunity against any creature that attempts to reposition
-you, unless it also has this feat.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat **may** be removed, replaced with the new [Deft Maneuvers](ref/rule/deft-maneuvers) feat.

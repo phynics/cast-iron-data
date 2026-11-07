@@ -2,7 +2,7 @@
 id = "ref/feat/improved-familiar"
 kind = "feat"
 title = "Improved Familiar"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_familiar", path = "json/feat09.json" },
 ]
@@ -27,12 +27,3 @@ Improved familiars otherwise use the rules for regular familiars, with two excep
 creature's type is something other than animal, its type does not change; and improved familiars do
 not gain the ability to speak with other creatures of their kind (although many of them already have
 the ability to communicate).
-
-### Mythic Improved Familiar
-
-**Sources:** Mythic Adventures pg 67\
-Your familiar gains some of your incredible resiliency and insight.\
-**Prerequisites:** Improved Familiar.\
-**Benefit:** For every 3 tiers you possess, your [familiar](ref/sidekick/familiar) gains a +2 bonus
-to an ability score of your choice. These bonuses stack. Your familiar adds your tier to its natural
-armor bonus and to its [spell resistance](ref/rule/spell-resistance) (if it has spell resistance).

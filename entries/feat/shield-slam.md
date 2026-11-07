@@ -2,7 +2,7 @@
 id = "ref/feat/shield-slam"
 kind = "feat"
 title = "Shield Slam"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_slam", path = "json/feat14.json" },
 ]
@@ -36,16 +36,6 @@ Instead of attempting a free bull rush when using the Shield Slam feat, you can 
 points to attempt a [disarm](ref/rule/disarm), [reposition](ref/rule/reposition),
 [trip](ref/rule/trip), or [sunder](ref/rule/sunder) combat maneuver. This combat maneuver attempt
 does not provoke an attack of opportunity from the target.
-
-### Mythic Shield Slam
-
-**Sources:** Mythic Adventures pg 73\
-Your shield bash produces a powerful kick.\
-**Prerequisites:** Shield Slam.\
-**Benefit:** When using Shield Slam to bull rush, an opponent knocked prone because of an
-intervening wall or other surface also takes damage from the collision. The damage dealt is equal to
-1d6 points per 2 tiers you possess. As an immediate action, you can expend one use of mythic power
-to add your tier to your combat maneuver checks when resolving a bull rush made due to Shield Slam.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 In the right position, your shield can be used to send opponents flying.\

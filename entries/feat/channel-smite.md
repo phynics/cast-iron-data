@@ -2,7 +2,7 @@
 id = "ref/feat/channel-smite"
 kind = "feat"
 title = "Channel Smite"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_smite", path = "json/feat03.json" },
 ]
@@ -35,15 +35,3 @@ When making an attack using this feat, you can spend a number of stamina points 
 dice in your channel energy. For each stamina point you spend in this way, add an additional 1d6
 points of positive or negative energy damage to your Channel Smite attack. This damage is also
 halved if the target succeeds at its Will save against the Channel Smite attack.
-
-### Mythic Channel Smite
-
-**Sources:** Mythic Adventures pg 60\
-Your weapon a conduit of divine energy.\
-**Prerequisites:** Channel Smite.\
-**Benefit:** When using Channel Smite, you gain a bonus on your attack roll equal to the number of
-d6s granted by your channel energy class feature. This is either a sacred bonus (if channeling
-positive energy) or a profane bonus (if channeling negative energy). If your attack misses the
-target, you can expend one use of mythic power as a free action to release the channeled energy,
-producing the normal effects of your channel energy class feature centered on the creature you were
-attempting to smite.

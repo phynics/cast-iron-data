@@ -2,7 +2,7 @@
 id = "ref/feat/rapid-shot"
 kind = "feat"
 title = "Rapid Shot"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_shot", path = "json/feat13.json" },
 ]
@@ -30,14 +30,6 @@ this round at your highest bonus. All of your attack rolls take a -2 penalty whe
 When using this feat, you can spend a number of stamina points up to the number of shots taken using
 this feat. If you do, you decrease the penalty of a single Rapid Shot ranged attack by 2 for each
 stamina point you spent.
-
-### Mythic Rapid Shot
-
-**Sources:** Mythic Adventures pg 72\
-You can fire many times each round with amazing precision.\
-**Prerequisites:** Rapid Shot.\
-**Benefit:** When using Rapid Shot, you can either ignore the feat's -2 penalty on attack rolls or
-make two additional attacks instead of one.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can make an additional ranged attack.\

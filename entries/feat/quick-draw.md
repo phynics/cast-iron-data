@@ -2,7 +2,7 @@
 id = "ref/feat/quick-draw"
 kind = "feat"
 title = "Quick Draw"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_draw", path = "json/feat12.json" },
 ]
@@ -35,12 +35,3 @@ weapon as a standard action.
 **Sources:** Pathfinder Unchained pg 129\
 As long as you have at least 1 stamina point in your stamina pool, you can sheathe a weapon as a
 swift action.
-
-### Mythic Quick Draw
-
-**Sources:** Mythic Adventures pg 71\
-You can retrieve any item quickly, not just weapons.\
-**Prerequisites:** Quick Draw.\
-**Benefit:** You can use Quick Draw to draw items of any kind, not just weapons, provided they are
-stored or concealed on your person. As a move action, you can expend one use of mythic power to
-retrieve up to two hidden items. You must have two hands free to do so.

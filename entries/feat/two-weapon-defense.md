@@ -2,7 +2,7 @@
 id = "ref/feat/two-weapon-defense"
 kind = "feat"
 title = "Two-Weapon Defense"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_defense", path = "json/feat16.json" },
 ]
@@ -31,14 +31,6 @@ weapons or unarmed strikes), you gain a +1 shield bonus to your AC. When you are
 **Sources:** Pathfinder Unchained pg 135\
 Once per round, you can spend 2 stamina points to double the bonuses granted by this feat until the
 start of your next turn.
-
-### Mythic Two-Weapon Defense
-
-**Sources:** Mythic Adventures pg 76\
-Your graceful flow between attack and defense makes you difficult to hit.\
-**Prerequisites:** Two-Weapon Defense.\
-**Benefit:** When using Two-Weapon Defense, you apply the highest enhancement bonus from your two
-weapons to the shield bonus granted by that feat.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at defending yourself while dual-wielding.\

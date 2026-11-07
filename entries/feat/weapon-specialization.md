@@ -2,7 +2,7 @@
 id = "ref/feat/weapon-specialization"
 kind = "feat"
 title = "Weapon Specialization"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_specialization", path = "json/feat17.json" },
 ]
@@ -35,19 +35,6 @@ feat, it applies to a new type of weapon.
 Once per round, you can spend 2 stamina points to gain your Weapon Specialization bonus on damage
 rolls with a weapon with which you don't have Weapon Specialization. This bonus lasts until the
 start of your next turn.
-
-### Mythic Weapon Specialization
-
-**Sources:** Mythic Adventures pg 77\
-The damage you deal with your chosen weapon is truly awesome to behold.\
-**Prerequisites:** Weapon Specialization.\
-**Benefit:** When using your chosen weapon, you gain a bonus equal to half your tier on damage
-rolls. This stacks with the bonus from Weapon Specialization and
-[Greater Weapon Specialization](ref/feat/greater-weapon-specialization).\
-**Special:** If you have taken non-mythic Weapon Specialization multiple times, you must choose
-which of those feats this enhances. You can take this feat multiple times. The effects do not stack.
-Each time you take this feat, it applies to a different non-mythic Weapon Specialization feat you
-have.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at dealing damage with one type of weapon. Choose one

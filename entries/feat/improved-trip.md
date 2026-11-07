@@ -2,7 +2,7 @@
 id = "ref/feat/improved-trip"
 kind = "feat"
 title = "Improved Trip"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_trip", path = "json/feat09.json" },
 ]
@@ -34,17 +34,6 @@ You gain the benefits of this feat only as long as you have at least 1 stamina p
 pool. When you are the target of a trip combat maneuver, you can spend a number of stamina points up
 to your Strength or Dexterity bonus, whichever is greater. Your CMD against that trip attempt
 increases by that number.
-
-### Mythic Improved Trip
-
-**Sources:** Mythic Adventures pg 68\
-You're expert at knocking your foes down.\
-**Prerequisites:** Improved Trip.\
-**Benefit:** You gain a bonus equal to half your tier on checks to trip, and to your CMD when an
-opponent tries to trip you. These bonuses stack with those granted by Improved Trip.
-
-Furthermore, you can make an attack of opportunity against any creature that attempts to trip you,
-unless it also has this feat.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat has been removed, replaced with the new [Deft Maneuvers](ref/rule/deft-maneuvers) feat.

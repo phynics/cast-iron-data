@@ -2,7 +2,7 @@
 id = "ref/feat/vital-strike"
 kind = "feat"
 title = "Vital Strike"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vital_strike", path = "json/feat17.json" },
 ]
@@ -32,16 +32,3 @@ weapon damage dice are not multiplied on a critical hit, but are added to the to
 After rolling the damage of a Vital Strike attack, you can spend 2 stamina points to reroll up to
 two of the weapon's damage dice. (For weapons with more than one damage die, count all the weapon's
 base damage dice together as one.) You must take the second result, even if it's lower.
-
-### Mythic Vital Strike
-
-**Sources:** Mythic Adventures pg 77\
-You can strike your foes with incredible force.\
-**Prerequisites:** Vital Strike.\
-**Benefit:** Whenever you use Vital Strike, [Improved Vital Strike](ref/feat/improved-vital-strike),
-or [Greater Vital Strike](ref/feat/greater-vital-strike), multiply the Strength bonus, magic bonus,
-and other bonuses that would normally be multiplied on a critical hit by the number of weapon damage
-dice you roll for that feat.
-
-Extra damage from sources that wouldn't normally be multiplied on a critical hit isn't multiplied by
-this feat.

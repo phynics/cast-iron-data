@@ -2,7 +2,7 @@
 id = "ref/feat/arcane-armor-training"
 kind = "feat"
 title = "Arcane Armor Training"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_armor_training", path = "json/feat01.json" },
 ]
@@ -28,12 +28,3 @@ wearing by 10% for any spells you cast this round.
 **Sources:** Pathfinder Unchained pg 114\
 When casting a spell while wearing armor, you can spend 1 stamina point to activate Arcane Armor
 Training as a free action.
-
-### Mythic Arcane Armor Training
-
-**Sources:** Mythic Adventures pg 55\
-You've adapted your spellcasting to overcome limitations of wearing armor.\
-**Prerequisites:** Arcane Armor Training.\
-**Benefit:** You don't have to spend a swift action to gain the reduction to arcane spell failure
-chance from Arcane Armor Training. Furthermore, if you're wearing light armor, reduce your arcane
-spell failure chance by 20%.

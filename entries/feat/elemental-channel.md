@@ -2,7 +2,7 @@
 id = "ref/feat/elemental-channel"
 kind = "feat"
 title = "Elemental Channel"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_channel", path = "json/feat05.json" },
 ]
@@ -26,13 +26,3 @@ energy has no affect on other creatures. The amount of damage healed or dealt an
 the damage is otherwise unchanged.\
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take
 this feat, it applies to a new elemental subtype.
-
-### Mythic Elemental Channel
-
-**Sources:** Mythic Adventures pg 64\
-Your power over elemental beings is nearly absolute.\
-**Prerequisites:** Elemental Channel.\
-**Benefit:** Your Elemental Channel can affect any elemental subtype, not just the one you chose
-when you took Elemental Channel. Each time you use Elemental Channel, you must pick one elemental
-subtype before using the feat. You can expend one use of mythic power when you use Elemental Channel
-to choose a second elemental subtype to affect.

@@ -2,7 +2,7 @@
 id = "ref/feat/charge-through"
 kind = "feat"
 title = "Charge Through"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["advanced-players-guide", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charge_through", path = "json/feat03.json" },
 ]
@@ -33,13 +33,3 @@ creature.\
 **Sources:** Pathfinder Unchained pg 115\
 When you attempt and fail to overrun a creature in the path of your charge, you can spend 5 stamina
 points to finish your charge against that creature instead of losing your charge.
-
-### Mythic Charge Through
-
-**Sources:** Mythic Adventures pg 60\
-You can plow through those who stand between you and the target of your charge.\
-**Prerequisites:** Charge Through.\
-**Benefit:** When charging, you can ignore allies in your path when determining whether or not you
-can charge your target. Furthermore, after you have attempted at least one overrun with Charge
-Through, you can expend one use of mythic power as a free action to attempt another overrun against
-a different opponent in the path of the same charge.

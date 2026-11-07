@@ -2,7 +2,7 @@
 id = "ref/feat/improved-sunder"
 kind = "feat"
 title = "Improved Sunder"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_sunder", path = "json/feat09.json" },
 ]
@@ -32,18 +32,6 @@ receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to
 When you are the target of a sunder combat maneuver, you can spend a number of stamina points up to
 your Strength or Dexterity bonus, whichever is greater. Your CMD increases by that number for that
 sunder attempt.
-
-### Mythic Improved Sunder
-
-**Sources:** Mythic Adventures pg 67\
-Your mighty smashing blows demolish objects.\
-**Prerequisites:** Improved Sunder.\
-**Benefit:** You gain a bonus equal to half your tier on checks to sunder, and to your CMD when an
-opponent tries to sunder an object used by you. These bonuses stack with those granted by Improved
-Sunder.
-
-Furthermore, you can make an attack of opportunity against any creature that attempts to sunder an
-object used by you, unless it also has this feat.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat has been removed, replaced with the new [Powerful Maneuvers](ref/rule/powerful-maneuvers)

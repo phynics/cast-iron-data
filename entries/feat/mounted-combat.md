@@ -2,7 +2,7 @@
 id = "ref/feat/mounted-combat"
 kind = "feat"
 title = "Mounted Combat"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_combat", path = "json/feat11.json" },
 ]
@@ -30,12 +30,3 @@ the opponent's attack roll.
 Once you have already used this feat, you can spend 5 stamina points to use it an additional time
 during the same round. You can use this trick as many times in a round as you like, as long as you
 spend 5 stamina points per use.
-
-### Mythic Mounted Combat
-
-**Sources:** Mythic Adventures pg 70\
-Your ability to maneuver a mount through the rigors of combat is nearly unparalleled.\
-**Prerequisites:** Mounted Combat.\
-**Benefit:** You can negate an additional number of hits against your mount per round equal to your
-tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a
-Ride check for a single Reflex saving throw your mount must make.

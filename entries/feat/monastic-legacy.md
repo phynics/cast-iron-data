@@ -2,7 +2,7 @@
 id = "ref/feat/monastic-legacy"
 kind = "feat"
 title = "Monastic Legacy"
-source_ids = ["ultimate-combat", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["ultimate-combat", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monastic_legacy", path = "json/feat11.json" },
 ]
@@ -31,13 +31,3 @@ classes other than monk count toward any other monk class features.
 At the start of your turn, you can spend 5 stamina points to use your full character level to
 determine your effective monk level for your unarmed strike damage. This increase lasts until the
 start of your next turn.
-
-### Mythic Monastic Legacy
-
-**Sources:** Mythic Adventures pg 69\
-Every new experience carries you another step further along your path to enlightenment.\
-**Prerequisites:** Monastic Legacy.\
-**Benefit:** Add half the levels you have in classes other than monk to your monk level to determine
-your effective monk level for your AC bonus. As a free action, you can expend one use of mythic
-power to add half your tier to your effective monk level to determine your base unarmed strike
-damage and AC bonus until the start of your next turn.

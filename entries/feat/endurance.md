@@ -2,7 +2,7 @@
 id = "ref/feat/endurance"
 kind = "feat"
 title = "Endurance"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endurance", path = "json/feat05.json" },
 ]
@@ -27,14 +27,3 @@ You may sleep in light or medium armor without becoming fatigued.
 
 **Normal:** A character without this feat who sleeps in medium or heavier armor is
 [fatigued](ref/misc/fatigued) the next day.
-
-### Mythic Endurance
-
-**Sources:** Mythic Adventures pg 65\
-Your endurance is truly beyond the pale.\
-**Prerequisites:** Endurance.\
-**Benefit:** The bonus on checks and saves from Endurance increases by half your tier. You take half
-the damage when you fail a check to avoid nonlethal damage from a forced march, starvation and
-thirst, hot or cold environments, or slow suffocation.
-
-You can sleep in heavy armor without becoming fatigued.

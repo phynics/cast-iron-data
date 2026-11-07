@@ -2,7 +2,7 @@
 id = "ref/feat/far-shot"
 kind = "feat"
 title = "Far Shot"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "far_shot", path = "json/feat06.json" },
 ]
@@ -31,14 +31,6 @@ using a ranged weapon.\
 **Sources:** Pathfinder Unchained pg 119\
 When making a single ranged attack as a standard action, you can spend 5 stamina points to ignore
 all range penalties on that attack.
-
-### Mythic Far Shot
-
-**Sources:** Mythic Adventures pg 65\
-You make long-ranged attacks with remarkable accuracy.\
-**Prerequisites:** Far Shot.\
-**Benefit:** As a swift action, you can expend one use of mythic power to ignore all range increment
-penalties for your ranged attacks until the end of your turn.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are more accurate at longer ranges.\
