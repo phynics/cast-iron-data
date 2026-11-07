@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/hairpin-trick"
-kind = "rule"
+kind = "class_option"
 title = "Hairpin Trick"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Hairpin Trick (Ex)**

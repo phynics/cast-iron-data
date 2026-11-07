@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/demon"
-kind = "rule"
+kind = "class_option"
 title = "Demon"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Raw destruction given material substance, [demon](ref/family/demon) eidolons form out of the Abyss's

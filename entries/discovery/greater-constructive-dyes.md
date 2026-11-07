@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/greater-constructive-dyes"
-kind = "rule"
+kind = "class_option"
 title = "Greater Constructive Dyes"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Greater Constructive Dyes**

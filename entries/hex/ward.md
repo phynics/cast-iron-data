@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/ward"
-kind = "rule"
+kind = "class_option"
 title = "Ward"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Ward (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/returning-weapon"
-kind = "rule"
+kind = "class_option"
 title = "Returning Weapon"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Returning Weapon (Ex)**

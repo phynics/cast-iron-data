@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/deinonychus"
-kind = "rule"
+kind = "class_option"
 title = "Deinonychus"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Dinosaur (Deinonychus)

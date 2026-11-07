@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/renewed-vigor"
-kind = "rule"
+kind = "class_option"
 title = "Renewed Vigor"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Renewed Vigor (Ex)**

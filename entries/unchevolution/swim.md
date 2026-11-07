@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/swim"
-kind = "rule"
+kind = "class_option"
 title = "Swim"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Swim (Ex)**

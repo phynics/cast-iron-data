@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/badlands"
-kind = "rule"
+kind = "class_option"
 title = "Badlands"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
+replaces = ["Woodland stride"]
 +++
 
 ## Badlands Domain

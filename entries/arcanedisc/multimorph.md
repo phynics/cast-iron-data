@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/multimorph"
-kind = "rule"
+kind = "class_option"
 title = "Multimorph"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Multimorph (Su)**

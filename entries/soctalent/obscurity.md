@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/obscurity"
-kind = "rule"
+kind = "class_option"
 title = "Obscurity"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Obscurity (Ex)**

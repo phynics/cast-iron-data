@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/rat-quadrille"
-kind = "rule"
+kind = "class_option"
 title = "Rat Quadrille"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Rat Quadrille (Percussion, Sing)

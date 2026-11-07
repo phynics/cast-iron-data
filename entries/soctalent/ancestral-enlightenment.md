@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/ancestral-enlightenment"
-kind = "rule"
+kind = "class_option"
 title = "Ancestral Enlightenment"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Ancestral Enlightenment (Ex)**

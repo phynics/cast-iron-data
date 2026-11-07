@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/gliding-turtle"
-kind = "rule"
+kind = "class_option"
 title = "Gliding Turtle"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 83

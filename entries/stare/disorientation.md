@@ -1,6 +1,6 @@
 +++
 id = "ref/stare/disorientation"
-kind = "rule"
+kind = "class_option"
 title = "Disorientation"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-stare"
 +++
 
 **Disorientation**

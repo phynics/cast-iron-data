@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/dispel-chaos"
-kind = "rule"
+kind = "class_option"
 title = "Dispel Chaos"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Dispel Chaos (Sp)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-sea-is-now-my-sky"
-kind = "rule"
+kind = "class_option"
 title = "The Sea Is Now My Sky"
 source_ids = ["blood-of-the-sea"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Sea Is Now My Sky (Sing, String)

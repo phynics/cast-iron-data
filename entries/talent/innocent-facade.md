@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/innocent-facade"
-kind = "rule"
+kind = "class_option"
 title = "Innocent Facade"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Innocent Facade (Sp)**

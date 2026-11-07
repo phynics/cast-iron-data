@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-psychopomp-totem"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Psychopomp Totem"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Psychopomp Totem**

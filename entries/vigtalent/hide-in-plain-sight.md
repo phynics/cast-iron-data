@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/hide-in-plain-sight"
-kind = "rule"
+kind = "class_option"
 title = "Hide in Plain Sight"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Hide in Plain Sight (Ex)**

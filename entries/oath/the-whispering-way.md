@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/the-whispering-way"
-kind = "rule"
+kind = "class_option"
 title = "Oath against the Whispering Way"
 source_ids = ["divine-anthology"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Detect evil"]
 +++
 
 **Sources:** Divine Anthology pg 20\

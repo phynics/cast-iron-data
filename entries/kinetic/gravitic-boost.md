@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/gravitic-boost"
-kind = "rule"
+kind = "class_option"
 title = "Gravitic Boost"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Gravitic Boost (Sp)

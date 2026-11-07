@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/hurricane-queen"
-kind = "rule"
+kind = "class_option"
 title = "Hurricane Queen"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Hurricane Queen (Su)

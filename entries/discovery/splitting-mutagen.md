@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/splitting-mutagen"
-kind = "rule"
+kind = "class_option"
 title = "Splitting Mutagen"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Splitting Mutagen**

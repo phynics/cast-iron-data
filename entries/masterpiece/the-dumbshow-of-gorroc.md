@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-dumbshow-of-gorroc"
-kind = "rule"
+kind = "class_option"
 title = "The Dumbshow of Gorroc"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Dumbshow of Gorroc (Act, Comedy)

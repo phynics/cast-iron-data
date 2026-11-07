@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/expert-cypher"
-kind = "rule"
+kind = "class_option"
 title = "Expert Cypher"
 source_ids = ["divine-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Expert Cypher (Ex)**

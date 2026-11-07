@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/pheromones"
-kind = "rule"
+kind = "class_option"
 title = "Pheromones"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Pheromones**

@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/instant-recognition"
-kind = "rule"
+kind = "class_option"
 title = "Instant Recognition"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Instant Recognition (Ex)**

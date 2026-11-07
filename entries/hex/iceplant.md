@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/iceplant"
-kind = "rule"
+kind = "class_option"
 title = "Iceplant"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Iceplant (Su)**

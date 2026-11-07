@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/sacrifice-self"
-kind = "rule"
+kind = "class_option"
 title = "Sacrifice Self"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Sacrifice Self (Ex)**

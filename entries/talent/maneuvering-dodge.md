@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/maneuvering-dodge"
-kind = "rule"
+kind = "class_option"
 title = "Maneuvering Dodge"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Maneuvering Dodge (Ex)**

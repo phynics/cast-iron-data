@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/tarn-linnorm-death-curse"
-kind = "rule"
+kind = "class_option"
 title = "Tarn Linnorm Death Curse"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Tarn Linnorm Death Curse (Su)**

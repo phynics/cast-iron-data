@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/favored-beat"
-kind = "rule"
+kind = "class_option"
 title = "Favored Beat"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Favored Beat (Ex)**

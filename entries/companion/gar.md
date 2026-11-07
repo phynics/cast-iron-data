@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/gar"
-kind = "rule"
+kind = "class_option"
 title = "Gar"
 source_ids = ["bestiary-2"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 2 pg 128

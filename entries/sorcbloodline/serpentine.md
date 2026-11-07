@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/serpentine"
-kind = "rule"
+kind = "class_option"
 title = "Serpentine"
 source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Advanced Player's Guide pg 138\

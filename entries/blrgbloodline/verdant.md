@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/verdant"
-kind = "rule"
+kind = "class_option"
 title = "Verdant"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Verdant Bloodline

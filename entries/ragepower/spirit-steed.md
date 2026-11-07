@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/spirit-steed"
-kind = "rule"
+kind = "class_option"
 title = "Spirit Steed"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Spirit Steed (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/resonating-rumbles"
-kind = "rule"
+kind = "class_option"
 title = "Resonating Rumbles"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Resonating Rumbles (Su)**

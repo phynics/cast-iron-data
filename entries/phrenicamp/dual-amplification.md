@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/dual-amplification"
-kind = "rule"
+kind = "class_option"
 title = "Dual Amplification"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Dual Amplification (Ex)**

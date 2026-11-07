@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/fast-study"
-kind = "rule"
+kind = "class_option"
 title = "Fast Study"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Fast Study**

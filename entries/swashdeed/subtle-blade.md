@@ -1,6 +1,6 @@
 +++
 id = "ref/swashdeed/subtle-blade"
-kind = "rule"
+kind = "class_option"
 title = "Subtle Blade"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "swashbuckler-deed"
 +++
 
 **Subtle Blade (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-hammer"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Hammer"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** The Harrow Handbook pg 18

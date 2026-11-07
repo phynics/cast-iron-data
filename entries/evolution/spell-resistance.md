@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/spell-resistance"
-kind = "rule"
+kind = "class_option"
 title = "Spell Resistance"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Spell Resistance (Ex)**

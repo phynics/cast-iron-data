@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/dissipating-rage"
-kind = "rule"
+kind = "class_option"
 title = "Dissipating Rage"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Dissipating Rage (Su)**

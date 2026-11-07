@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/reflexive-shadow-shield"
-kind = "rule"
+kind = "class_option"
 title = "Reflexive Shadow Shield"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Reflexive Shadow Shield (Su)**

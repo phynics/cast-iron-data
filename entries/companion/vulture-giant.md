@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/vulture-giant"
-kind = "rule"
+kind = "class_option"
 title = "Giant Vulture"
 source_ids = ["bestiary-3"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 3 pg 312

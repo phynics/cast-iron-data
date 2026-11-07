@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/castling"
-kind = "rule"
+kind = "class_option"
 title = "Castling"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Castling (Ex)**

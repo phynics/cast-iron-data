@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/false-flanker"
-kind = "rule"
+kind = "class_option"
 title = "False Flanker"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **False Flanker**

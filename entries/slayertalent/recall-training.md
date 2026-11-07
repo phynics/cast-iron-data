@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/recall-training"
-kind = "rule"
+kind = "class_option"
 title = "Recall Training"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Recall Training (Ex)**

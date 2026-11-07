@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/up-close-and-personal"
-kind = "rule"
+kind = "class_option"
 title = "Up Close and Personal"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Up Close and Personal (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/covetous"
-kind = "rule"
+kind = "class_option"
 title = "Covetous"
 source_ids = ["legacy-of-dragons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Covetous**

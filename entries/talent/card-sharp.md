@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/card-sharp"
-kind = "rule"
+kind = "class_option"
 title = "Card Sharp"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Card Sharp (Su)**

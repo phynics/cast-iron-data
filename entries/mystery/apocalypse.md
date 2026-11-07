@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/apocalypse"
-kind = "rule"
+kind = "class_option"
 title = "Apocalypse"
 source_ids = ["monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Monster Codex pg 56

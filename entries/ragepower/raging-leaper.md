@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/raging-leaper"
-kind = "rule"
+kind = "class_option"
 title = "Raging Leaper"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Raging Leaper (Ex)**

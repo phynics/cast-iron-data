@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/gills"
-kind = "rule"
+kind = "class_option"
 title = "Gills"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Gills (Ex)**

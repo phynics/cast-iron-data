@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/morphic-weaponry"
-kind = "rule"
+kind = "class_option"
 title = "Morphic Weaponry"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Morphic Weaponry (Ex)**

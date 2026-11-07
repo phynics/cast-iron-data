@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/rondeau-of-heavenly-order"
-kind = "rule"
+kind = "class_option"
 title = "Rondeau of Heavenly Order"
 source_ids = ["blood-of-angels"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Rondeau of Heavenly Order (Sing)

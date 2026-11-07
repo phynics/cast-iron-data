@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/elemental-transmission"
-kind = "rule"
+kind = "class_option"
 title = "Elemental Transmission"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Elemental Transmission (Sp)

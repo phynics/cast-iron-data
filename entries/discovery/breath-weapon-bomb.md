@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/breath-weapon-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Breath Weapon Bomb"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Breath Weapon Bomb**

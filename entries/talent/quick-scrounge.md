@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/quick-scrounge"
-kind = "rule"
+kind = "class_option"
 title = "Quick Scrounge"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Quick Scrounge**

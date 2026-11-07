@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-winds-of-the-five-heavens"
-kind = "rule"
+kind = "class_option"
 title = "The Winds of the Five Heavens"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Winds of the Five Heavens (Act, Oratory)

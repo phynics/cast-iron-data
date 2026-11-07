@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/cave-salamander"
-kind = "rule"
+kind = "class_option"
 title = "Cave Salamander"
 source_ids = ["monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Monster Codex pg 128

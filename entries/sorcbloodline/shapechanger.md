@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/shapechanger"
-kind = "rule"
+kind = "class_option"
 title = "Shapechanger"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Legacy of the First World pg 21\

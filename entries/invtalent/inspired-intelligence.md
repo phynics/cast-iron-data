@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/inspired-intelligence"
-kind = "rule"
+kind = "class_option"
 title = "Inspired Intelligence"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Inspired Intelligence (Ex)**

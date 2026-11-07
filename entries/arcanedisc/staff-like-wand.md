@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/staff-like-wand"
-kind = "rule"
+kind = "class_option"
 title = "Staff-Like Wand"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Staff-Like Wand**

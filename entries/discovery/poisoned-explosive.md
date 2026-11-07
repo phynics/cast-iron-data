@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/poisoned-explosive"
-kind = "rule"
+kind = "class_option"
 title = "Poisoned Explosive"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Poisoned Explosive**

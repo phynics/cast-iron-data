@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/fueled-by-vengeance"
-kind = "rule"
+kind = "class_option"
 title = "Fueled by Vengeance"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Fueled by Vengeance**

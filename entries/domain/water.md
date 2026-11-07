@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/water"
-kind = "rule"
+kind = "class_option"
 title = "Water"
 source_ids = ["core-rulebook", "book-of-the-damned", "goblins-of-golarion", "inner-sea-gods", "champions-of-balance", "advanced-players-guide", "pathfinder-80-empty-graves"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** PRPG Core Rulebook pg 48

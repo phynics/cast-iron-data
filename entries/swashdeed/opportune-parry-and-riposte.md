@@ -1,6 +1,6 @@
 +++
 id = "ref/swashdeed/opportune-parry-and-riposte"
-kind = "rule"
+kind = "class_option"
 title = "Opportune Parry and Riposte"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "swashbuckler-deed"
 +++
 
 **Opportune Parry and Riposte (Ex)**

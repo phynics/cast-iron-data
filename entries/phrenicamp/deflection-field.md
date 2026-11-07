@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/deflection-field"
-kind = "rule"
+kind = "class_option"
 title = "Deflection Field"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Deflection Field (Su)**

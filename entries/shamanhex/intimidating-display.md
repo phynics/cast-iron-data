@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanhex/intimidating-display"
-kind = "rule"
+kind = "class_option"
 title = "Intimidating Display"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-hex"
 +++
 
 **Intimidating Display (Ex)**

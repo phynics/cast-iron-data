@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/mammoth"
-kind = "rule"
+kind = "class_option"
 title = "Mammoth"
 source_ids = ["adventurers-guide", "advanced-class-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 **Sources:** Adventurer's Guide pg 132, Advanced Class Origins pg 16\

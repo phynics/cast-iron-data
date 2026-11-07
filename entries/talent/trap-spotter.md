@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/trap-spotter"
-kind = "rule"
+kind = "class_option"
 title = "Trap Spotter"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Trap Spotter (Ex)**

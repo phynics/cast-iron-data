@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/deathless-frenzy"
-kind = "rule"
+kind = "class_option"
 title = "Deathless Frenzy"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Deathless Frenzy**

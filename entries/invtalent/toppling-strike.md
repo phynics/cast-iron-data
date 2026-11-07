@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/toppling-strike"
-kind = "rule"
+kind = "class_option"
 title = "Toppling Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Toppling Strike (Ex)**

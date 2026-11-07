@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/dark-tapestry"
-kind = "rule"
+kind = "class_option"
 title = "Dark Tapestry"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 **Sources:** Horror Realms pg 16\

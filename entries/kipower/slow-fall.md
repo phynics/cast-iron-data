@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/slow-fall"
-kind = "rule"
+kind = "class_option"
 title = "Slow Fall"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Slow Fall (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/gravity-master"
-kind = "rule"
+kind = "class_option"
 title = "Gravity Master"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Gravity Master (Sp)

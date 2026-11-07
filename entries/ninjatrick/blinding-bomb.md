@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/blinding-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Blinding Bomb"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Blinding Bomb (Ex)**

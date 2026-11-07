@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/tree-step"
-kind = "rule"
+kind = "class_option"
 title = "Tree Step"
 source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Tree Step (Sp)

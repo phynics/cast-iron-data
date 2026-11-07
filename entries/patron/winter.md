@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/winter"
-kind = "rule"
+kind = "class_option"
 title = "Winter"
 source_ids = ["ultimate-magic", "ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Winter**

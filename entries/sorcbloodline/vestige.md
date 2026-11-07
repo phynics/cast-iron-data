@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/vestige"
-kind = "rule"
+kind = "class_option"
 title = "Vestige"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Blood of the Ancients pg 6\

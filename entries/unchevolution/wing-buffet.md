@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/wing-buffet"
-kind = "rule"
+kind = "class_option"
 title = "Wing Buffet"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Wing Buffet (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/nothing-can-stop-me"
-kind = "rule"
+kind = "class_option"
 title = "Nothing Can Stop Me"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Nothing Can Stop Me (Ex)**

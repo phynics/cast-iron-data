@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-fiend-totem"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Fiend Totem"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Fiend Totem (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/mien-of-despair"
-kind = "rule"
+kind = "class_option"
 title = "Mien of Despair"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Mien of Despair (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/deed/deaths-shot"
-kind = "rule"
+kind = "class_option"
 title = "Death's Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "gunslinger-deed"
 +++
 
 **Death's Shot (Ex)**

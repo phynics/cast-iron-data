@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/touched-by-the-outer-gods"
-kind = "rule"
+kind = "class_option"
 title = "Touched by the Outer Gods"
 source_ids = ["blood-of-the-coven"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Touched by the Outer Gods**

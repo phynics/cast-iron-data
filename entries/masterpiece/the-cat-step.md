@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-cat-step"
-kind = "rule"
+kind = "class_option"
 title = "The Cat-Step"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Cat-Step (Dance)

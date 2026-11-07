@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/animal"
-kind = "rule"
+kind = "class_option"
 title = "Animal"
 source_ids = ["core-rulebook", "advanced-players-guide", "divine-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** PRPG Core Rulebook pg 41

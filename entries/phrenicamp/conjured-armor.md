@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/conjured-armor"
-kind = "rule"
+kind = "class_option"
 title = "Conjured Armor"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Conjured Armor (Su)**

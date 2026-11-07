@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/swallow-whole"
-kind = "rule"
+kind = "class_option"
 title = "Swallow Whole"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Swallow Whole (Ex)**

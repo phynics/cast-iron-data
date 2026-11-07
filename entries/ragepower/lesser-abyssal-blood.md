@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-abyssal-blood"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Abyssal Blood"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Abyssal Blood (Su)**

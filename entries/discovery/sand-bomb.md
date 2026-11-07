@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/sand-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Sand Bomb"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Sand Bomb**

@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/channeled-energy-trap"
-kind = "rule"
+kind = "class_option"
 title = "Channeled Energy Trap"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Channeled Energy Trap (Ex or Su)

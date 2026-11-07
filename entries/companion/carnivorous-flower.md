@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/carnivorous-flower"
-kind = "rule"
+kind = "class_option"
 title = "Carnivorous Flower"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Advanced Race Guide pg 26

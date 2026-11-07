@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/rooftop-infiltrator"
-kind = "rule"
+kind = "class_option"
 title = "Rooftop Infiltrator"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Rooftop Infiltrator (Ex)**

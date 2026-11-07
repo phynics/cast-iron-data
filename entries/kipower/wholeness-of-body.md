@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/wholeness-of-body"
-kind = "rule"
+kind = "class_option"
 title = "Wholeness of Body"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Wholeness of Body (Su)**

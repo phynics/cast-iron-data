@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/tremorsense"
-kind = "rule"
+kind = "class_option"
 title = "Tremorsense"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Tremorsense (Ex)**

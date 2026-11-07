@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/frightful-presence"
-kind = "rule"
+kind = "class_option"
 title = "Frightful Presence"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Frightful Presence (Ex)**

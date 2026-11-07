@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/cackle"
-kind = "rule"
+kind = "class_option"
 title = "Cackle"
 source_ids = ["advanced-players-guide", "magical-marketplace", "monster-summoners-handbook", "heroes-of-the-high-court", "people-of-the-wastes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Cackle (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/dispelling-pulse"
-kind = "rule"
+kind = "class_option"
 title = "Dispelling Pulse"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Dispelling Pulse (Su)**

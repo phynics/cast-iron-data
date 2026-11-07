@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/djinni"
-kind = "rule"
+kind = "class_option"
 title = "Djinni"
 source_ids = ["ultimate-magic", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Ultimate Magic pg 66\

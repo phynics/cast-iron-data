@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/grotesquery"
-kind = "rule"
+kind = "class_option"
 title = "Oath against Grotesquery"
 source_ids = ["inner-sea-combat"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Divine health"]
 +++
 
 **Sources:** Inner Sea Combat pg 15\

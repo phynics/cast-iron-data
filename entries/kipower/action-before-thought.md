@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/action-before-thought"
-kind = "rule"
+kind = "class_option"
 title = "Action Before Thought"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Action Before Thought (Ex)**

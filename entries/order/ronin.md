@@ -1,6 +1,6 @@
 +++
 id = "ref/order/ronin"
-kind = "rule"
+kind = "class_option"
 title = "Ronin"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Ultimate Combat pg 21

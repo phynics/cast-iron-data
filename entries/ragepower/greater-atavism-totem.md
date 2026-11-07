@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-atavism-totem"
-kind = "rule"
+kind = "class_option"
 title = "Greater Atavism Totem"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Atavism Totem (Su)**

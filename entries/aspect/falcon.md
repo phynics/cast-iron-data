@@ -1,6 +1,6 @@
 +++
 id = "ref/aspect/falcon"
-kind = "rule"
+kind = "class_option"
 title = "Falcon"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shifter-aspect"
 +++
 
 **Sources:** Ultimate Wilderness pg 29\

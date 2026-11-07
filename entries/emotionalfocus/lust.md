@@ -1,6 +1,6 @@
 +++
 id = "ref/emotionalfocus/lust"
-kind = "rule"
+kind = "class_option"
 title = "Lust"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "emotional-focus"
 +++
 
 **Sources:** Occult Realms pg 14\

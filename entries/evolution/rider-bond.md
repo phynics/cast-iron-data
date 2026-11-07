@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/rider-bond"
-kind = "rule"
+kind = "class_option"
 title = "Rider Bond"
 source_ids = ["cohorts-and-companions"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Rider Bond (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/basilosaurus"
-kind = "rule"
+kind = "class_option"
 title = "Basilosaurus"
 source_ids = ["bestiary-3"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Megafauna (Basilosaurus)

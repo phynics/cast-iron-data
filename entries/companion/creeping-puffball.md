@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/creeping-puffball"
-kind = "rule"
+kind = "class_option"
 title = "Creeping Puffball"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Ultimate Wilderness pg 182

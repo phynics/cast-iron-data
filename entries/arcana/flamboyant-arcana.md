@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/flamboyant-arcana"
-kind = "rule"
+kind = "class_option"
 title = "Flamboyant Arcana"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Advanced Class Guide pg 104

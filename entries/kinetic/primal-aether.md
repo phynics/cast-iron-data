@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/primal-aether"
-kind = "rule"
+kind = "class_option"
 title = "Primal Aether"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Primal Aether (Su)

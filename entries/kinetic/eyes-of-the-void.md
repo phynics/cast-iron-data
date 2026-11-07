@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/eyes-of-the-void"
-kind = "rule"
+kind = "class_option"
 title = "Eyes of the Void"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Eyes of the Void (Su)

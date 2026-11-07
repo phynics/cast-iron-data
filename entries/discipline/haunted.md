@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/haunted"
-kind = "rule"
+kind = "class_option"
 title = "Haunted"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Haunted Heroes Handbook pg 18\

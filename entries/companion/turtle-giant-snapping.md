@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/turtle-giant-snapping"
-kind = "rule"
+kind = "class_option"
 title = "Giant Snapping Turtle"
 source_ids = ["bestiary-2"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 2 pg 273

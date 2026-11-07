@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/just-a-face-in-the-crowd"
-kind = "rule"
+kind = "class_option"
 title = "Just a Face in the Crowd"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Just a Face in the Crowd (Su)**

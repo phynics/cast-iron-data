@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/savage-jaw"
-kind = "rule"
+kind = "class_option"
 title = "Savage Jaw"
 source_ids = ["champions-of-corruption"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Savage Jaw (Ex)**

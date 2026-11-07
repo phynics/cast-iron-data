@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/unexpected-strike"
-kind = "rule"
+kind = "class_option"
 title = "Unexpected Strike"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Unexpected Strike (Ex)**

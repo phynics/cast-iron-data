@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/arcane-accuracy"
-kind = "rule"
+kind = "class_option"
 title = "Arcane Accuracy"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Ultimate Magic pg 11

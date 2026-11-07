@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/sea-crawler"
-kind = "rule"
+kind = "class_option"
 title = "Sea Crawler"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 83

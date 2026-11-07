@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/furious-barrage"
-kind = "rule"
+kind = "class_option"
 title = "Furious Barrage"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Furious Barrage (Ex)**

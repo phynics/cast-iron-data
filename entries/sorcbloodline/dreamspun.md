@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/dreamspun"
-kind = "rule"
+kind = "class_option"
 title = "Dreamspun"
 source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Advanced Player's Guide pg 137\

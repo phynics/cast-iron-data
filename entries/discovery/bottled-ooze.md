@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/bottled-ooze"
-kind = "rule"
+kind = "class_option"
 title = "Bottled Ooze"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Bottled Ooze**

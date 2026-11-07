@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/luck"
-kind = "rule"
+kind = "class_option"
 title = "Luck"
 source_ids = ["core-rulebook", "advanced-players-guide", "champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** PRPG Core Rulebook pg 45

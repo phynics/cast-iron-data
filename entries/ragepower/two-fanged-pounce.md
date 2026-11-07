@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/two-fanged-pounce"
-kind = "rule"
+kind = "class_option"
 title = "Two-Fanged Pounce"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Two-Fanged Pounce**

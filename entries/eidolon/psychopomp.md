@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/psychopomp"
-kind = "rule"
+kind = "class_option"
 title = "Psychopomp"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Stewards, chroniclers, and guides of all things that die, [psychopomps](ref/family/psychopomp) make

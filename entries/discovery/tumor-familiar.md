@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/tumor-familiar"
-kind = "rule"
+kind = "class_option"
 title = "Tumor Familiar"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Tumor Familiar**

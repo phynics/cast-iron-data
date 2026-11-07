@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/demolition-charge"
-kind = "rule"
+kind = "class_option"
 title = "Demolition Charge"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Demolition Charge**

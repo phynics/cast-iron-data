@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/tribe"
-kind = "rule"
+kind = "class_option"
 title = "Tribe"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 **Sources:** Wilderness Origins pg 24\

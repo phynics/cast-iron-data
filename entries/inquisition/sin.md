@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/sin"
-kind = "rule"
+kind = "class_option"
 title = "Sin"
 source_ids = ["blood-of-fiends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Blood of Fiends pg 27

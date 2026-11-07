@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/burning-trap"
-kind = "rule"
+kind = "class_option"
 title = "Burning Trap"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Burning Trap (Ex or Su)

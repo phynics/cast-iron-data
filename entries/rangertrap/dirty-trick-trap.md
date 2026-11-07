@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/dirty-trick-trap"
-kind = "rule"
+kind = "class_option"
 title = "Dirty Trick Trap"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Dirty Trick Trap (Ex or Su)

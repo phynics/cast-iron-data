@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/lingering-poison"
-kind = "rule"
+kind = "class_option"
 title = "Lingering Poison"
 source_ids = ["potions-and-poisons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Lingering Poison (Ex)**

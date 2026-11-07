@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-spire-totem"
-kind = "rule"
+kind = "class_option"
 title = "Greater Spire Totem"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Spire Totem (Su)**

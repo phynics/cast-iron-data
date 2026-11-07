@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-sun-totem"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Sun Totem"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Sun Totem (Su)**

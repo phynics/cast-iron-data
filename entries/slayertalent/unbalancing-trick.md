@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/unbalancing-trick"
-kind = "rule"
+kind = "class_option"
 title = "Unbalancing Trick"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Unbalancing Trick (Ex)**

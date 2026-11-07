@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/slug-giant"
-kind = "rule"
+kind = "class_option"
 title = "Giant Slug"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Ultimate Magic pg 37

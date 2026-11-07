@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-waning-bolero"
-kind = "rule"
+kind = "class_option"
 title = "The Waning Bolero"
 source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Waning Bolero (Dance)

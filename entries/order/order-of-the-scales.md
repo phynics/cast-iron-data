@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-scales"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Scales"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Champions of Balance pg 22

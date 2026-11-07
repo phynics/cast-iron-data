@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/promethean-disciple"
-kind = "rule"
+kind = "class_option"
 title = "Promethean Disciple"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Promethean Disciple**

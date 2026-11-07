@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/spectral-smoke"
-kind = "rule"
+kind = "class_option"
 title = "Spectral Smoke"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Spectral Smoke**

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-hero"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Hero"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Monster Hunter's Handbook pg 13

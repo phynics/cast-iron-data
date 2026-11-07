@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/hive-totem-toxicity"
-kind = "rule"
+kind = "class_option"
 title = "Hive Totem Toxicity"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Hive Totem Toxicity (Su)**

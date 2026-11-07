@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/unnerve-beasts"
-kind = "rule"
+kind = "class_option"
 title = "Unnerve Beasts"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Unnerve Beasts (Su)**

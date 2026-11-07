@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/endless-waltz-of-the-eldest"
-kind = "rule"
+kind = "class_option"
 title = "Endless Waltz of the Eldest"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Endless Waltz of the Eldest (Dance, String)

@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/ardril-the-would-be-king"
-kind = "rule"
+kind = "class_option"
 title = "Ardril, the Would-Be King"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Heroes of Golarion pg 5\

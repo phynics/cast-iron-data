@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/ectoplasm"
-kind = "rule"
+kind = "class_option"
 title = "Ectoplasm"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Occult Adventures pg 124\

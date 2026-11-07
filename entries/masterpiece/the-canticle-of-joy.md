@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-canticle-of-joy"
-kind = "rule"
+kind = "class_option"
 title = "The Canticle of Joy"
 source_ids = ["bastards-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Canticle of Joy (Sing)

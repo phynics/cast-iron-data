@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/bardic-pretender"
-kind = "rule"
+kind = "class_option"
 title = "Bardic Pretender"
 source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Bardic Pretender (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/fractured-mirror"
-kind = "rule"
+kind = "class_option"
 title = "Fractured Mirror"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Fractured Mirror (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-eclipse"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Eclipse"
 source_ids = ["distant-shores"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Distant Shores pg 32

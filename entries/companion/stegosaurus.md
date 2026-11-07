@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/stegosaurus"
-kind = "rule"
+kind = "class_option"
 title = "Stegosaurus"
 source_ids = ["bestiary"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Dinosaur (Stegosaurus)

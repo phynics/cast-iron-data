@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/universalist"
-kind = "rule"
+kind = "class_option"
 title = "Universalist"
 source_ids = ["core-rulebook", "inner-sea-primer"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** PRPG Core Rulebook pg 82\

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-shroud"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Shroud"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Occult Adventures pg 117

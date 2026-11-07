@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/auspicious-mark"
-kind = "rule"
+kind = "class_option"
 title = "Auspicious Mark"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Auspicious Mark (Su)**

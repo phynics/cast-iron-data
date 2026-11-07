@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/erosion"
-kind = "rule"
+kind = "class_option"
 title = "Erosion"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## Erosion Domain

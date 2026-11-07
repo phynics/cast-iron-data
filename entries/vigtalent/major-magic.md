@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/major-magic"
-kind = "rule"
+kind = "class_option"
 title = "Major Magic"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Major Magic (Sp)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/ragadahns-raqs-beledi"
-kind = "rule"
+kind = "class_option"
 title = "Ragadahn's Raqs Beledi"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Ragadahn's Raqs Beledi (Dance)

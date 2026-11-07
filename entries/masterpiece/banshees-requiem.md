@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/banshees-requiem"
-kind = "rule"
+kind = "class_option"
 title = "Banshee's Requiem"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Banshee's Requiem (Sing)

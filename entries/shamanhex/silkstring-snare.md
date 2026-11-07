@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanhex/silkstring-snare"
-kind = "rule"
+kind = "class_option"
 title = "Silkstring Snare"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-hex"
 +++
 
 **Silkstring Snare (Su)**

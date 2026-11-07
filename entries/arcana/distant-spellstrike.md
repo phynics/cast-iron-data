@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/distant-spellstrike"
-kind = "rule"
+kind = "class_option"
 title = "Distant Spellstrike"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Heroes of the Streets pg 11

@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/penetrating-trap"
-kind = "rule"
+kind = "class_option"
 title = "Penetrating Trap"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Penetrating Trap (Ex or Su)

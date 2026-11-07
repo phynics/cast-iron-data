@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/hag-called"
-kind = "rule"
+kind = "class_option"
 title = "Hag-Called"
 source_ids = ["blood-of-the-coven"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Blood of the Coven pg 23\

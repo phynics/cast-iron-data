@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/surprise-accuracy"
-kind = "rule"
+kind = "class_option"
 title = "Surprise Accuracy"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Surprise Accuracy (Ex)**

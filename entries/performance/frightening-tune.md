@@ -1,6 +1,6 @@
 +++
 id = "ref/performance/frightening-tune"
-kind = "rule"
+kind = "class_option"
 title = "Frightening Tune"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-performance"
 +++
 
 **Frightening Tune (Sp)**

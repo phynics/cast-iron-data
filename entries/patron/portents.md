@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/portents"
-kind = "rule"
+kind = "class_option"
 title = "Portents"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Portents**

@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/scar"
-kind = "rule"
+kind = "class_option"
 title = "Scar"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Scar (Su)**

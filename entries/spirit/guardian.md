@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/guardian"
-kind = "rule"
+kind = "class_option"
 title = "Guardian"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Occult Adventures pg 35\

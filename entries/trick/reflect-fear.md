@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/reflect-fear"
-kind = "rule"
+kind = "class_option"
 title = "Reflect Fear"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Reflect Fear**

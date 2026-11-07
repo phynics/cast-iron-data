@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/abyssal"
-kind = "rule"
+kind = "class_option"
 title = "Abyssal"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Abyssal Bloodline

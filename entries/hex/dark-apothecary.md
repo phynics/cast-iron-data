@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/dark-apothecary"
-kind = "rule"
+kind = "class_option"
 title = "Dark Apothecary"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Dark Apothecary (Ex)**

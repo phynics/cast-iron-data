@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/enhance-potion"
-kind = "rule"
+kind = "class_option"
 title = "Enhance Potion"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Enhance Potion**

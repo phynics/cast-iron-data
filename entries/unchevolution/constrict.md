@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/constrict"
-kind = "rule"
+kind = "class_option"
 title = "Constrict"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Constrict (Ex)**

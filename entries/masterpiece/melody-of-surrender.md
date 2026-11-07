@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/melody-of-surrender"
-kind = "rule"
+kind = "class_option"
 title = "Melody of Surrender"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Melody of Surrender (Sing, Wind)

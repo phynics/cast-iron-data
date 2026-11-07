@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/gravity-blast"
-kind = "rule"
+kind = "class_option"
 title = "Gravity Blast"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Gravity Blast (Sp)

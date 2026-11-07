@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/wise-kings-saga"
-kind = "rule"
+kind = "class_option"
 title = "Wise King's Saga"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Wise King's Saga (Oratory, Sing)

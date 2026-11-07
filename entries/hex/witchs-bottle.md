@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/witchs-bottle"
-kind = "rule"
+kind = "class_option"
 title = "Witch's Bottle"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Witch's Bottle (Su)**

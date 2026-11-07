@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/hard-minded"
-kind = "rule"
+kind = "class_option"
 title = "Hard Minded"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Hard Minded (Ex)**

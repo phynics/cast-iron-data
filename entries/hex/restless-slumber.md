@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/restless-slumber"
-kind = "rule"
+kind = "class_option"
 title = "Restless Slumber"
 source_ids = ["potions-and-poisons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Restless Slumber (Su)**

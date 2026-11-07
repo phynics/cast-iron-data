@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/greater-inspiring-cognatogen"
-kind = "rule"
+kind = "class_option"
 title = "Greater Inspiring Cognatogen"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Greater Inspiring Cognatogen**

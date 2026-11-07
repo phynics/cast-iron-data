@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greater-skilled-kineticist"
-kind = "rule"
+kind = "class_option"
 title = "Greater Skilled Kineticist"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Greater Skilled Kineticist (Su)

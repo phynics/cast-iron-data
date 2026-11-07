@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/raven-giant"
-kind = "rule"
+kind = "class_option"
 title = "Giant Raven"
 source_ids = ["pathfinder-97-in-hells-bright-shadow", "bestiary-6"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 82, Bestiary 6 pg 312

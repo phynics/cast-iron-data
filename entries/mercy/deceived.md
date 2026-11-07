@@ -1,6 +1,6 @@
 +++
 id = "ref/mercy/deceived"
-kind = "rule"
+kind = "class_option"
 title = "Deceived"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-mercy"
 +++
 
 **Details:** The target can immediately attempt a new saving throw to disbelieve any ongoing

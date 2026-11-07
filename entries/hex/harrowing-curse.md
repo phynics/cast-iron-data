@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/harrowing-curse"
-kind = "rule"
+kind = "class_option"
 title = "Harrowing Curse"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Harrowing Curse (Su)**

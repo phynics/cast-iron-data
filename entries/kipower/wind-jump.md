@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/wind-jump"
-kind = "rule"
+kind = "class_option"
 title = "Wind Jump"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Wind Jump (Su)**

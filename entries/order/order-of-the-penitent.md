@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-penitent"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Penitent"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Knights of the Inner Sea pg 24

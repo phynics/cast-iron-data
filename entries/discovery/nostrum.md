@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/nostrum"
-kind = "rule"
+kind = "class_option"
 title = "Nostrum"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Nostrum**

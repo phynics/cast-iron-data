@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/roused-anger"
-kind = "rule"
+kind = "class_option"
 title = "Roused Anger"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Roused Anger (Ex)**

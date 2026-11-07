@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/steal-voice"
-kind = "rule"
+kind = "class_option"
 title = "Steal Voice"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Steal Voice (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/graceful-athlete"
-kind = "rule"
+kind = "class_option"
 title = "Graceful Athlete"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Graceful Athlete**

@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/focused-force"
-kind = "rule"
+kind = "class_option"
 title = "Focused Force"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Focused Force (Su)**

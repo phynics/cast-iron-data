@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/imperious"
-kind = "rule"
+kind = "class_option"
 title = "Imperious"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Advanced Race Guide pg 75\

@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/dire-prophecy"
-kind = "rule"
+kind = "class_option"
 title = "Dire Prophecy"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Dire Prophecy (Su)**

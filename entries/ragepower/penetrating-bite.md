@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/penetrating-bite"
-kind = "rule"
+kind = "class_option"
 title = "Penetrating Bite"
 source_ids = ["champions-of-corruption"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Penetrating Bite (Ex)**

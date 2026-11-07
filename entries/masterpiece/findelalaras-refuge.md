@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/findelalaras-refuge"
-kind = "rule"
+kind = "class_option"
 title = "Findelalara's Refuge"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Findelalara's Refuge (Dance, Oratory)

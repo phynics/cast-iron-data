@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/arsinoitherium"
-kind = "rule"
+kind = "class_option"
 title = "Arsinoitherium"
 source_ids = ["bestiary-2"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Megafauna (Arsinoitherium)

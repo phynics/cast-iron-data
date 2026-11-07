@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/ranger-trap"
-kind = "rule"
+kind = "class_option"
 title = "Ranger Trap"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Ranged Tactics Toolbox pg 13

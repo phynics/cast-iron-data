@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/demand-attention"
-kind = "rule"
+kind = "class_option"
 title = "Demand Attention"
 source_ids = ["cohorts-and-companions"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Demand Attention (Ex)**

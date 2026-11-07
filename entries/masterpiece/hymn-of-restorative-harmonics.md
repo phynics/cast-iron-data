@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/hymn-of-restorative-harmonics"
-kind = "rule"
+kind = "class_option"
 title = "Hymn of Restorative Harmonics"
 source_ids = ["divine-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Hymn of Restorative Harmonics (Sing, Wind)

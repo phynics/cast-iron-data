@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/recovery"
-kind = "rule"
+kind = "class_option"
 title = "Recovery"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Recovery**

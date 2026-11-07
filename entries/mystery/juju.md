@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/juju"
-kind = "rule"
+kind = "class_option"
 title = "Juju"
 source_ids = ["faiths-and-philosophies", "pathfinder-39-the-city-of-seven-spears"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Faiths and Philosophies pg 14, Pathfinder \#39: The City of Seven Spears pg 68

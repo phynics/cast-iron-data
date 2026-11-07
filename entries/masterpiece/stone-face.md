@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/stone-face"
-kind = "rule"
+kind = "class_option"
 title = "Stone Face"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Stone Face (Comedy, Oratory)

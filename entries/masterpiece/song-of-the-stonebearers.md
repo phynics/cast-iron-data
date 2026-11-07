@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/song-of-the-stonebearers"
-kind = "rule"
+kind = "class_option"
 title = "Song of the Stonebearers"
 source_ids = ["merchants-manifest"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Song of the Stonebearers (Percussion, Sing)

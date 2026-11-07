@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/shadows-chill"
-kind = "rule"
+kind = "class_option"
 title = "Shadow's Chill"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Shadow's Chill (Su)**

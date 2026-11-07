@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/pit-trap"
-kind = "rule"
+kind = "class_option"
 title = "Pit Trap"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Pit Trap (Ex or Su)

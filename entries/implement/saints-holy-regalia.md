@@ -1,6 +1,6 @@
 +++
 id = "ref/implement/saints-holy-regalia"
-kind = "rule"
+kind = "class_option"
 title = "Saint's Holy Regalia (Panoply)"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "occultist-implement"
 +++
 
 ## Saint's Holy Regalia

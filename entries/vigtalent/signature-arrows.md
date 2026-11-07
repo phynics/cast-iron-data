@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/signature-arrows"
-kind = "rule"
+kind = "class_option"
 title = "Signature Arrows"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Signature Arrows (Ex)**

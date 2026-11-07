@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/deep-cover"
-kind = "rule"
+kind = "class_option"
 title = "Deep Cover"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Deep Cover (Ex)**

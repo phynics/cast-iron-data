@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/arrowsongs-lament"
-kind = "rule"
+kind = "class_option"
 title = "Arrowsong's Lament"
 source_ids = ["arcane-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Arrowsong's Lament (Oratory)

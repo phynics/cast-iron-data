@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/quicksand-trap"
-kind = "rule"
+kind = "class_option"
 title = "Quicksand Trap"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Quicksand Trap (Su)

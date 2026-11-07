@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/destined"
-kind = "rule"
+kind = "class_option"
 title = "Destined"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** PRPG Core Rulebook pg 74\

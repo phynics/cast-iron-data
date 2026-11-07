@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-vengeance"
-kind = "rule"
+kind = "class_option"
 title = "Order of Vengeance"
 source_ids = ["people-of-the-river"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** People of the River pg 10

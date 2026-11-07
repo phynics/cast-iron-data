@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/arnisant"
-kind = "rule"
+kind = "class_option"
 title = "Arnisant"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
+replaces = ["Absorb blow"]
 +++
 
 **Sources:** Occult Realms pg 10\

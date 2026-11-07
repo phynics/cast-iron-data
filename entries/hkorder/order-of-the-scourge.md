@@ -1,6 +1,6 @@
 +++
 id = "ref/hkorder/order-of-the-scourge"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Scourge"
 source_ids = ["path-of-the-hellknight", "inner-sea-npc-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-order"
 +++
 
 **Sources:** Path of the Hellknight pg 46

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/improved-evasion"
-kind = "rule"
+kind = "class_option"
 title = "Improved Evasion"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Improved Evasion (Ex)**

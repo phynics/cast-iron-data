@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/bludgeoning-trap"
-kind = "rule"
+kind = "class_option"
 title = "Bludgeoning Trap"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Bludgeoning Trap (Ex or Su)

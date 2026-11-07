@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/spark-of-innovation"
-kind = "rule"
+kind = "class_option"
 title = "Spark of Innovation"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Spark of Innovation (Sp)

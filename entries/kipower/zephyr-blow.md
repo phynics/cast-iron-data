@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/zephyr-blow"
-kind = "rule"
+kind = "class_option"
 title = "Zephyr Blow"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Zephyr Blow (Su)**

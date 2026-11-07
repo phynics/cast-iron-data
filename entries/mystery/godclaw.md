@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/godclaw"
-kind = "rule"
+kind = "class_option"
 title = "Godclaw"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Path of the Hellknight pg 26

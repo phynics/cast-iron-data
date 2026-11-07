@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/blazing-rondo"
-kind = "rule"
+kind = "class_option"
 title = "Blazing Rondo"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Blazing Rondo (Oratory, Percussion)

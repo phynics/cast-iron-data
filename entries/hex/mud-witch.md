@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/mud-witch"
-kind = "rule"
+kind = "class_option"
 title = "Mud Witch"
 source_ids = ["monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Mud Witch (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/gravity-control"
-kind = "rule"
+kind = "class_option"
 title = "Gravity Control"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Gravity Control (Sp)

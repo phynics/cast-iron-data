@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/mindtouch"
-kind = "rule"
+kind = "class_option"
 title = "Mindtouch"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Mindtouch (Su)**

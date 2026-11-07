@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/complex-countermeasures"
-kind = "rule"
+kind = "class_option"
 title = "Complex Countermeasures"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Complex Countermeasures (Ex)**

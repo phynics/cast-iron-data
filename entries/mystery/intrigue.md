@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/intrigue"
-kind = "rule"
+kind = "class_option"
 title = "Intrigue"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Ultimate Intrigue pg 69

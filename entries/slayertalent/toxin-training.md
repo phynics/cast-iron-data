@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/toxin-training"
-kind = "rule"
+kind = "class_option"
 title = "Toxin Training"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Toxin Training (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-energy-resistance"
-kind = "rule"
+kind = "class_option"
 title = "Greater Energy Resistance"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Energy Resistance (Ex)**

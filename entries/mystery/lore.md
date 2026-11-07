@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/lore"
-kind = "rule"
+kind = "class_option"
 title = "Lore"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Advanced Player's Guide pg 49

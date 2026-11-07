@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/music-beyond-the-spheres"
-kind = "rule"
+kind = "class_option"
 title = "Music Beyond the Spheres"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Music Beyond the Spheres (Dance, Sing, String)

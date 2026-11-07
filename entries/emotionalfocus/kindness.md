@@ -1,6 +1,6 @@
 +++
 id = "ref/emotionalfocus/kindness"
-kind = "rule"
+kind = "class_option"
 title = "Kindness"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "emotional-focus"
 +++
 
 **Sources:** Psychic Anthology pg 4\

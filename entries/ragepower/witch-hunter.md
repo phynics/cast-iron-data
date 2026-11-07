@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/witch-hunter"
-kind = "rule"
+kind = "class_option"
 title = "Witch Hunter"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Witch Hunter (Ex)**

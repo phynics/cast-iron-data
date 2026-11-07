@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/dolphin"
-kind = "rule"
+kind = "class_option"
 title = "Dolphin"
 source_ids = ["bestiary"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder RPG Bestiary pg 88

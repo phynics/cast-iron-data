@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/jungle"
-kind = "rule"
+kind = "class_option"
 title = "Jungle"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## Jungle Domain

@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/astounding-avoidance"
-kind = "rule"
+kind = "class_option"
 title = "Astounding Avoidance"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Astounding Avoidance**

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/negative-blast"
-kind = "rule"
+kind = "class_option"
 title = "Negative Blast"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Negative Blast (Sp)

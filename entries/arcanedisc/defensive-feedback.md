@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/defensive-feedback"
-kind = "rule"
+kind = "class_option"
 title = "Defensive Feedback"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Defensive Feedback (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/psychic-preparation"
-kind = "rule"
+kind = "class_option"
 title = "Psychic Preparation"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Psychic Preparation**

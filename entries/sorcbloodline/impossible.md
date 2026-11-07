@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/impossible"
-kind = "rule"
+kind = "class_option"
 title = "Impossible"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Champions of Balance pg 21\

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/cold-blast"
-kind = "rule"
+kind = "class_option"
 title = "Cold Blast"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Cold Blast (Sp)

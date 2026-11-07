@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/telepathic-link"
-kind = "rule"
+kind = "class_option"
 title = "Telepathic Link"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Telepathic Link**

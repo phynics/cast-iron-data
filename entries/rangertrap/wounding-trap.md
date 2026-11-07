@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/wounding-trap"
-kind = "rule"
+kind = "class_option"
 title = "Wounding Trap"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Wounding Trap (Ex or Su)

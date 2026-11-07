@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/precise-poison"
-kind = "rule"
+kind = "class_option"
 title = "Precise Poison"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Precise Poison**

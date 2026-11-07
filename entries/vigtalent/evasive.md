@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/evasive"
-kind = "rule"
+kind = "class_option"
 title = "Evasive"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Evasive (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-warrior"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Warrior"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Ultimate Combat pg 21

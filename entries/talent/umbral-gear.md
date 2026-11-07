@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/umbral-gear"
-kind = "rule"
+kind = "class_option"
 title = "Umbral Gear"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Umbral Gear (Su)**

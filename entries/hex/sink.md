@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/sink"
-kind = "rule"
+kind = "class_option"
 title = "Sink"
 source_ids = ["people-of-the-wastes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Sink (Su)**

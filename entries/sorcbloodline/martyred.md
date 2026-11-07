@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/martyred"
-kind = "rule"
+kind = "class_option"
 title = "Martyred"
 source_ids = ["blood-of-angels", "people-of-the-river"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Blood of Angels pg 29\

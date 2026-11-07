@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-dance-of-kindled-desires"
-kind = "rule"
+kind = "class_option"
 title = "The Dance of Kindled Desires"
 source_ids = ["blood-of-fiends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Dance of Kindled Desires (Dance)

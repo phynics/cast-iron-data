@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/redirect-poison"
-kind = "rule"
+kind = "class_option"
 title = "Redirect Poison"
 source_ids = ["potions-and-poisons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Redirect Poison (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/perfect-body"
-kind = "rule"
+kind = "class_option"
 title = "Perfect Body"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Perfect Body (Ex)**

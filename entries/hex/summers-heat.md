@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/summers-heat"
-kind = "rule"
+kind = "class_option"
 title = "Summer's Heat"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Summer's Heat (Su)**

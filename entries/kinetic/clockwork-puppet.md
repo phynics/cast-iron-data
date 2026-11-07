@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/clockwork-puppet"
-kind = "rule"
+kind = "class_option"
 title = "Clockwork Puppet"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Clockwork Puppet (Su)

@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/onslaught"
-kind = "rule"
+kind = "class_option"
 title = "Onslaught"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Onslaught (Su)**

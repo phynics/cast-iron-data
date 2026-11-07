@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/tentacle"
-kind = "rule"
+kind = "class_option"
 title = "Tentacle"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Tentacle (Ex)**

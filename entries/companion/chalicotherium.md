@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/chalicotherium"
-kind = "rule"
+kind = "class_option"
 title = "Chalicotherium"
 source_ids = ["bestiary-5", "pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 5 pg 312, Pathfinder \#91: Battle of Bloodmarch Hills pg 86

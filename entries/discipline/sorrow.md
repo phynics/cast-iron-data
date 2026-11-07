@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/sorrow"
-kind = "rule"
+kind = "class_option"
 title = "Sorrow"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Legacy of the First World pg 22\

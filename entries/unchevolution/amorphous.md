@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/amorphous"
-kind = "rule"
+kind = "class_option"
 title = "Amorphous"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Amorphous (Ex)**

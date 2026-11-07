@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/malignant-poison"
-kind = "rule"
+kind = "class_option"
 title = "Malignant Poison"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Malignant Poison**

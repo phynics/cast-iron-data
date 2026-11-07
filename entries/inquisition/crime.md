@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/crime"
-kind = "rule"
+kind = "class_option"
 title = "Crime"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Ultimate Intrigue pg 28

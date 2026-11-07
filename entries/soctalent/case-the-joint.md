@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/case-the-joint"
-kind = "rule"
+kind = "class_option"
 title = "Case the Joint"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Case the Joint (Ex)**

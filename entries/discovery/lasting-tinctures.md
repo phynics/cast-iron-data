@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/lasting-tinctures"
-kind = "rule"
+kind = "class_option"
 title = "Lasting Tinctures"
 source_ids = ["potions-and-poisons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Lasting Tinctures**

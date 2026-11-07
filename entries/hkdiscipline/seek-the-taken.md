@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/seek-the-taken"
-kind = "rule"
+kind = "class_option"
 title = "Seek the Taken"
 source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Seek the Taken**

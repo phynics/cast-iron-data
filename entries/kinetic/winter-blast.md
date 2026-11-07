@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/winter-blast"
-kind = "rule"
+kind = "class_option"
 title = "Winter Blast"
 source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Winter Blast (Sp)

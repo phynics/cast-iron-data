@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/dance-of-captivating-desire"
-kind = "rule"
+kind = "class_option"
 title = "Dance of Captivating Desire"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Dance of Captivating Desire (Dance)

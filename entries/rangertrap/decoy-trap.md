@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/decoy-trap"
-kind = "rule"
+kind = "class_option"
 title = "Decoy Trap"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Decoy Trap (Su)

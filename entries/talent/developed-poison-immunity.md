@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/developed-poison-immunity"
-kind = "rule"
+kind = "class_option"
 title = "Developed Poison Immunity"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Developed Poison Immunity (Ex)**

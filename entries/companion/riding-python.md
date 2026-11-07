@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/riding-python"
-kind = "rule"
+kind = "class_option"
 title = "Riding Python"
 source_ids = ["monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Monster Codex pg 128

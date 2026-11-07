@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/pestilence"
-kind = "rule"
+kind = "class_option"
 title = "Pestilence"
 source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 29\

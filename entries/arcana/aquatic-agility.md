@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/aquatic-agility"
-kind = "rule"
+kind = "class_option"
 title = "Aquatic Agility"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Blood of the Moon pg 21

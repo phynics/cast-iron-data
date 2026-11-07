@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/illusions-decree"
-kind = "rule"
+kind = "class_option"
 title = "Illusion's Decree"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Illusion's Decree (Comedy, Oratory)

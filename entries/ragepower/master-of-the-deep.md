@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/master-of-the-deep"
-kind = "rule"
+kind = "class_option"
 title = "Master of the Deep"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Master of the Deep (Su)**

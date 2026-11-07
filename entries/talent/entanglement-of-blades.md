@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/entanglement-of-blades"
-kind = "rule"
+kind = "class_option"
 title = "Entanglement of Blades"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Entanglement of Blades (Ex)**

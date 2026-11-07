@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-depths-of-the-mountain"
-kind = "rule"
+kind = "class_option"
 title = "The Depths of the Mountain"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Depths of the Mountain (Percussion, Wind)

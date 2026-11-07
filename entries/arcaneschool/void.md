@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/void"
-kind = "rule"
+kind = "class_option"
 title = "Void"
 source_ids = ["dragon-empires-primer"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** Dragon Empires Primer pg 29\

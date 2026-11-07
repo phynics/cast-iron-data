@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-water-totem"
-kind = "rule"
+kind = "class_option"
 title = "Greater Water Totem"
 source_ids = ["blood-of-the-elements"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Water Totem (Su)**

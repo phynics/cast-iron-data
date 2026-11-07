@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/brachiosaurus"
-kind = "rule"
+kind = "class_option"
 title = "Brachiosaurus"
 source_ids = ["bestiary"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Dinosaur (Brachiosaurus)

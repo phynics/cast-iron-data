@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/axiomatic-bombs"
-kind = "rule"
+kind = "class_option"
 title = "Axiomatic Bombs"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Axiomatic Bombs**

@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/reflection-of-weakness"
-kind = "rule"
+kind = "class_option"
 title = "Reflection of Weakness"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Reflection of Weakness**

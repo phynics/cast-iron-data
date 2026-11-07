@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/ki-visions"
-kind = "rule"
+kind = "class_option"
 title = "Ki Visions"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Ki Visions (Su)**

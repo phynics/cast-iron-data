@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/beast-of-ill-omen"
-kind = "rule"
+kind = "class_option"
 title = "Beast of Ill-Omen"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Beast of Ill-Omen (Su)**

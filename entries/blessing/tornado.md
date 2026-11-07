@@ -1,6 +1,6 @@
 +++
 id = "ref/blessing/tornado"
-kind = "rule"
+kind = "class_option"
 title = "Tornado"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "warpriest-blessing"
 +++
 
 **Sources:** Ultimate Wilderness pg 97\

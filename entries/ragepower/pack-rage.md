@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/pack-rage"
-kind = "rule"
+kind = "class_option"
 title = "Pack Rage"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Pack Rage (Ex)**

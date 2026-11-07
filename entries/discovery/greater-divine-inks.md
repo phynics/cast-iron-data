@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/greater-divine-inks"
-kind = "rule"
+kind = "class_option"
 title = "Greater Divine Inks"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Greater Divine Inks**

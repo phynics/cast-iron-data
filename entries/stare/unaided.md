@@ -1,6 +1,6 @@
 +++
 id = "ref/stare/unaided"
-kind = "rule"
+kind = "class_option"
 title = "Unaided"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-stare"
 +++
 
 **Unaided**

@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/death-interrupted"
-kind = "rule"
+kind = "class_option"
 title = "Death Interrupted"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Death Interrupted (Su)**

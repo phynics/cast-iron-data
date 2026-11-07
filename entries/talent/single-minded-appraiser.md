@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/single-minded-appraiser"
-kind = "rule"
+kind = "class_option"
 title = "Single-Minded Appraiser"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Single-Minded Appraiser (Ex)**

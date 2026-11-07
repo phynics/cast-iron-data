@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/deflect-arrows"
-kind = "rule"
+kind = "class_option"
 title = "Deflect Arrows"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Deflect Arrows (Ex)**

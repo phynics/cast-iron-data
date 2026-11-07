@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/green-tongue"
-kind = "rule"
+kind = "class_option"
 title = "Green Tongue"
 source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Green Tongue (Su)

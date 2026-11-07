@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/occult"
-kind = "rule"
+kind = "class_option"
 title = "Occult"
 source_ids = ["occult-mysteries", "pathfinder-71-rasputin-must-die"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Occult Mysteries pg 53, Pathfinder \#71: Rasputin Must Die! pg 68

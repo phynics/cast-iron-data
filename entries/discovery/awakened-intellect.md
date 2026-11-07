@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/awakened-intellect"
-kind = "rule"
+kind = "class_option"
 title = "Awakened Intellect"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Awakened Intellect**

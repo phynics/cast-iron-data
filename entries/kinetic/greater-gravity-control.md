@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greater-gravity-control"
-kind = "rule"
+kind = "class_option"
 title = "Greater Gravity Control"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Greater Gravity Control (Sp)

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-beast-isc"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Beast (ISC)"
 source_ids = ["inner-sea-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Inner Sea Combat pg 30

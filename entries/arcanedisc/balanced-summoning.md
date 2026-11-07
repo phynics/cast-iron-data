@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/balanced-summoning"
-kind = "rule"
+kind = "class_option"
 title = "Balanced Summoning"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Balanced Summoning**

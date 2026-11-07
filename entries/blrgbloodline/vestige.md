@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/vestige"
-kind = "rule"
+kind = "class_option"
 title = "Vestige"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Vestige Bloodline

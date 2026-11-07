@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/low-light-vision"
-kind = "rule"
+kind = "class_option"
 title = "Low-Light Vision"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Low-Light Vision (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/guise-of-unlife"
-kind = "rule"
+kind = "class_option"
 title = "Guise of Unlife"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Guise of Unlife (Su)**

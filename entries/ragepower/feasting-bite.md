@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/feasting-bite"
-kind = "rule"
+kind = "class_option"
 title = "Feasting Bite"
 source_ids = ["agents-of-evil"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Feasting Bite (Ex)**

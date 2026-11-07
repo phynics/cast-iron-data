@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-bears-jig"
-kind = "rule"
+kind = "class_option"
 title = "The Bear's Jig"
 source_ids = ["people-of-the-river"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Bear's Jig (String, Wing)

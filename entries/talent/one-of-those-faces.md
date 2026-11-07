@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/one-of-those-faces"
-kind = "rule"
+kind = "class_option"
 title = "One of Those Faces"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **One of Those Faces (Sp)**

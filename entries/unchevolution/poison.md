@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/poison"
-kind = "rule"
+kind = "class_option"
 title = "Poison"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Poison (Ex)**

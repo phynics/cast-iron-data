@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/weapon-training"
-kind = "rule"
+kind = "class_option"
 title = "Weapon Training"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Weapon Training (Ex)**

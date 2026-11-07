@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/close-the-gap"
-kind = "rule"
+kind = "class_option"
 title = "Close the Gap"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Close the Gap (Ex)**

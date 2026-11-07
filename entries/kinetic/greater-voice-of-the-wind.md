@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greater-voice-of-the-wind"
-kind = "rule"
+kind = "class_option"
 title = "Greater Voice of the Wind"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Greater Voice of the Wind (Sp)

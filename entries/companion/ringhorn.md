@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/ringhorn"
-kind = "rule"
+kind = "class_option"
 title = "Ringhorn"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#115: Trail of the Hunted pg 83

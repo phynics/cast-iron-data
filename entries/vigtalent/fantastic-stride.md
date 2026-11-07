@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/fantastic-stride"
-kind = "rule"
+kind = "class_option"
 title = "Fantastic Stride"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Fantastic Stride (Ex)**

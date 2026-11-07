@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/animal-fury"
-kind = "rule"
+kind = "class_option"
 title = "Animal Fury"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Animal Fury (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/penetrating-charge"
-kind = "rule"
+kind = "class_option"
 title = "Penetrating Charge"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Penetrating Charge**

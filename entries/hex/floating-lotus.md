@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/floating-lotus"
-kind = "rule"
+kind = "class_option"
 title = "Floating Lotus"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Floating Lotus (Su)**

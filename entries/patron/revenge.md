@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/revenge"
-kind = "rule"
+kind = "class_option"
 title = "Revenge"
 source_ids = ["horror-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Revenge**

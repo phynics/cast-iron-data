@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/pageantry"
-kind = "rule"
+kind = "class_option"
 title = "Pageantry"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Heroes of the High Court pg 16\

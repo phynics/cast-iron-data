@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/healing"
-kind = "rule"
+kind = "class_option"
 title = "Healing"
 source_ids = ["core-rulebook", "divine-anthology", "advanced-players-guide", "haunted-heroes-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** PRPG Core Rulebook pg 44

@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/daemon-totem"
-kind = "rule"
+kind = "class_option"
 title = "Daemon Totem"
 source_ids = ["horror-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Daemon Totem (Su)**

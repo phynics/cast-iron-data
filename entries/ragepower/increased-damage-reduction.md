@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/increased-damage-reduction"
-kind = "rule"
+kind = "class_option"
 title = "Increased Damage Reduction"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Increased Damage Reduction (Ex)**

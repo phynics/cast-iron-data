@@ -1,6 +1,6 @@
 +++
 id = "ref/blessing/shadow"
-kind = "rule"
+kind = "class_option"
 title = "Shadow"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "warpriest-blessing"
 +++
 
 **Sources:** Blood of Shadows pg 17\

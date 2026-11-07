@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/companion-to-the-lonely"
-kind = "rule"
+kind = "class_option"
 title = "Companion to the Lonely"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Companion to the Lonely (Ex)**

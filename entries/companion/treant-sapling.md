@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/treant-sapling"
-kind = "rule"
+kind = "class_option"
 title = "Treant, Sapling"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Sapling Treant

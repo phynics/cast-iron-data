@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/inured-to-terror"
-kind = "rule"
+kind = "class_option"
 title = "Inured to Terror"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Inured to Terror (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/knockout-queen"
-kind = "rule"
+kind = "class_option"
 title = "Knockout Queen"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Knockout Queen (Ex)**

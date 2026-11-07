@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/curse-of-nonviolence"
-kind = "rule"
+kind = "class_option"
 title = "Curse of Nonviolence"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Curse of Nonviolence (Su)**

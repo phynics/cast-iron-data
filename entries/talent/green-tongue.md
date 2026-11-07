@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/green-tongue"
-kind = "rule"
+kind = "class_option"
 title = "Green Tongue"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Green Tongue (Ex)**

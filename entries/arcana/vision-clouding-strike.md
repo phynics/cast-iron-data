@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/vision-clouding-strike"
-kind = "rule"
+kind = "class_option"
 title = "Vision-Clouding Strike"
 source_ids = ["agents-of-evil"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Agents of Evil pg 25

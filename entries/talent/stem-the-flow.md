@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/stem-the-flow"
-kind = "rule"
+kind = "class_option"
 title = "Stem the Flow"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Stem the Flow (Su)**

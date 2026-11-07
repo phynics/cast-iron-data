@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/aquatic"
-kind = "rule"
+kind = "class_option"
 title = "Aquatic"
 source_ids = ["aquatic-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Aquatic Bloodline

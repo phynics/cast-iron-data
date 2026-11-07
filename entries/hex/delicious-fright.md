@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/delicious-fright"
-kind = "rule"
+kind = "class_option"
 title = "Delicious Fright"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Delicious Fright**

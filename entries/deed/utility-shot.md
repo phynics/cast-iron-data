@@ -1,6 +1,6 @@
 +++
 id = "ref/deed/utility-shot"
-kind = "rule"
+kind = "class_option"
 title = "Utility Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "gunslinger-deed"
 +++
 
 **Utility Shot (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/branch-runner"
-kind = "rule"
+kind = "class_option"
 title = "Branch Runner"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Branch Runner (Ex, Su)**

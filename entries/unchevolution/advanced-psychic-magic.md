@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/advanced-psychic-magic"
-kind = "rule"
+kind = "class_option"
 title = "Advanced Psychic Magic"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Advanced Psychic Magic**

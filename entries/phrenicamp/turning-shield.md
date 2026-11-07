@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/turning-shield"
-kind = "rule"
+kind = "class_option"
 title = "Turning Shield"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Turning Shield (Su)**

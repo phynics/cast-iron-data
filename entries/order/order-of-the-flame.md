@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-flame"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Flame"
 source_ids = ["blood-of-the-elements"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Blood of the Elements pg 7

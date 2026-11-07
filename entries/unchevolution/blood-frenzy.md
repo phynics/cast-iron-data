@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/blood-frenzy"
-kind = "rule"
+kind = "class_option"
 title = "Blood Frenzy"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Blood Frenzy (Ex)**

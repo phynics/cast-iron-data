@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/sun"
-kind = "rule"
+kind = "class_option"
 title = "Sun"
 source_ids = ["core-rulebook", "advanced-players-guide", "champions-of-purity", "divine-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** PRPG Core Rulebook pg 47

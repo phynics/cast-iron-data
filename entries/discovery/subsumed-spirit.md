@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/subsumed-spirit"
-kind = "rule"
+kind = "class_option"
 title = "Subsumed Spirit"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Subsumed Spirit**

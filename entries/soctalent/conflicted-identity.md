@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/conflicted-identity"
-kind = "rule"
+kind = "class_option"
 title = "Conflicted Identity"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Conflicted Identity (Ex)**

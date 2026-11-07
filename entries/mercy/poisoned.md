@@ -1,6 +1,6 @@
 +++
 id = "ref/mercy/poisoned"
-kind = "rule"
+kind = "class_option"
 title = "Poisoned"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-mercy"
 +++
 
 **Details:** The paladin's lay on hands ability also acts as

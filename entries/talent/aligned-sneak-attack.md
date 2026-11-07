@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/aligned-sneak-attack"
-kind = "rule"
+kind = "class_option"
 title = "Aligned Sneak Attack"
 source_ids = ["distant-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Aligned Sneak Attack (Su)**

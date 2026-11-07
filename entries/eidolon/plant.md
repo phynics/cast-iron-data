@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/plant"
-kind = "rule"
+kind = "class_option"
 title = "Plant"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Plant eidolons consist of vegetable matter infused with raw natural spiritual power.

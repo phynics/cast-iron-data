@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-eel"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Eel"
 source_ids = ["blood-of-the-sea"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Blood of the Sea pg 24

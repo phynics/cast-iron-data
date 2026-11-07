@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/scalykind"
-kind = "rule"
+kind = "class_option"
 title = "Scalykind"
 source_ids = ["book-of-the-damned", "inner-sea-world-guide", "pathfinder-37-souls-for-smugglers-shiv", "gods-and-magic", "inner-sea-gods", "champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** Book of the Damned pg 181, Inner Sea World Guide pg 216, Pathfinder \#37: Souls for

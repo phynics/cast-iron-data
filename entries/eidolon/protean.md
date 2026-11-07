@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/protean"
-kind = "rule"
+kind = "class_option"
 title = "Protean"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Serpentine beings of pure chaos, [proteans](ref/family/protean) seek to reshape reality. Protean

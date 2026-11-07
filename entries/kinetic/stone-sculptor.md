@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/stone-sculptor"
-kind = "rule"
+kind = "class_option"
 title = "Stone Sculptor"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Stone Sculptor (Sp)

@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/greater-alchemical-simulacrum"
-kind = "rule"
+kind = "class_option"
 title = "Greater Alchemical Simulacrum"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Greater Alchemical Simulacrum**

@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/plant"
-kind = "rule"
+kind = "class_option"
 title = "Plant"
 source_ids = ["core-rulebook", "advanced-players-guide", "ultimate-wilderness", "divine-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** PRPG Core Rulebook pg 46

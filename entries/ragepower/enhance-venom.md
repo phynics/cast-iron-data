@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/enhance-venom"
-kind = "rule"
+kind = "class_option"
 title = "Enhance Venom"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Enhance Venom (Ex)**

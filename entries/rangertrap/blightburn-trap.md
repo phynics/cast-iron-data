@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/blightburn-trap"
-kind = "rule"
+kind = "class_option"
 title = "Blightburn Trap"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Blightburn Trap (Ex)

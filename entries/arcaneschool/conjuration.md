@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/conjuration"
-kind = "rule"
+kind = "class_option"
 title = "Conjuration"
 source_ids = ["core-rulebook", "inner-sea-primer", "advanced-players-guide", "black-markets"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** PRPG Core Rulebook pg 80\

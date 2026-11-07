@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/detonation"
-kind = "rule"
+kind = "class_option"
 title = "Detonation"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** fire

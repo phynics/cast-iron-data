@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/cursed-wound"
-kind = "rule"
+kind = "class_option"
 title = "Cursed Wound"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Cursed Wound**

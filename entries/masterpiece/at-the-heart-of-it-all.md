@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/at-the-heart-of-it-all"
-kind = "rule"
+kind = "class_option"
 title = "At the Heart of It All"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## At the Heart of It All (String, Wind)

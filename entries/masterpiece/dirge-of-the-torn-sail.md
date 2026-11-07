@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/dirge-of-the-torn-sail"
-kind = "rule"
+kind = "class_option"
 title = "Dirge of the Torn Sail"
 source_ids = ["blood-of-the-sea"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Dirge of the Torn Sail (Sing, String)

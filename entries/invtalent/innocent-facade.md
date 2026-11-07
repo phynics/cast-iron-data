@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/innocent-facade"
-kind = "rule"
+kind = "class_option"
 title = "Innocent Facade"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Innocent Facade (Sp)**

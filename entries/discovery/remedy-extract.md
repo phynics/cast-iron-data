@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/remedy-extract"
-kind = "rule"
+kind = "class_option"
 title = "Remedy Extract"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Remedy Extract**

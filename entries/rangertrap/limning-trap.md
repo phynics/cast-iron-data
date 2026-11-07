@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/limning-trap"
-kind = "rule"
+kind = "class_option"
 title = "Limning Trap"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Limning Trap (Ex or Su)

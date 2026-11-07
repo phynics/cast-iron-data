@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/protean"
-kind = "rule"
+kind = "class_option"
 title = "Protean"
 source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Advanced Player's Guide pg 138\

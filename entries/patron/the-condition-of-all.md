@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/the-condition-of-all"
-kind = "rule"
+kind = "class_option"
 title = "The Condition of All"
 source_ids = ["blood-of-the-coven"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **The Condition of All**

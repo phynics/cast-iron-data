@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/kyton"
-kind = "rule"
+kind = "class_option"
 title = "Kyton"
 source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Scholars of the exquisiteness of agony and explorers of the limitations of the flesh,

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/unblinking-flame-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Unblinking Flame Infusion"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** fire

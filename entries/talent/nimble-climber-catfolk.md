@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/nimble-climber-catfolk"
-kind = "rule"
+kind = "class_option"
 title = "Nimble Climber"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Nimble Climber (Ex)**

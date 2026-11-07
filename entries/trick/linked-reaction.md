@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/linked-reaction"
-kind = "rule"
+kind = "class_option"
 title = "Linked Reaction"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Linked Reaction**

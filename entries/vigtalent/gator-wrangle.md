@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/gator-wrangle"
-kind = "rule"
+kind = "class_option"
 title = "Gator Wrangle"
 source_ids = ["people-of-the-wastes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Gator Wrangle (Ex)**

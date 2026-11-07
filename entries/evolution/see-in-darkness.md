@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/see-in-darkness"
-kind = "rule"
+kind = "class_option"
 title = "See in Darkness"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **See in Darkness (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/medusa"
-kind = "rule"
+kind = "class_option"
 title = "Medusa"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Medusa Bloodline

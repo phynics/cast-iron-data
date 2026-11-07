@@ -1,6 +1,6 @@
 +++
 id = "ref/implement/trappings-of-the-warrior"
-kind = "rule"
+kind = "class_option"
 title = "Trappings of the Warrior (Panoply)"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "occultist-implement"
 +++
 
 ## Trappings of the Warrior

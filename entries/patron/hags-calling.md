@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/hags-calling"
-kind = "rule"
+kind = "class_option"
 title = "Hag's Calling"
 source_ids = ["blood-of-the-coven"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Hag's Calling**

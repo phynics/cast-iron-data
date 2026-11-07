@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/summon-spirit"
-kind = "rule"
+kind = "class_option"
 title = "Summon Spirit"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Summon Spirit (Sp)**

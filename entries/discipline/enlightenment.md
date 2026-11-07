@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/enlightenment"
-kind = "rule"
+kind = "class_option"
 title = "Enlightenment"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Occult Origins pg 16\

@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/willful-ignorance"
-kind = "rule"
+kind = "class_option"
 title = "Willful Ignorance"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Willful Ignorance**

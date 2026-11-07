@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-saddle"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Saddle"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Qadira, Jewel of the East pg 43

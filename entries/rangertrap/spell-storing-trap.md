@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/spell-storing-trap"
-kind = "rule"
+kind = "class_option"
 title = "Spell-Storing Trap"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Spell-Storing Trap (Su)

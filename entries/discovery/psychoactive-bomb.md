@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/psychoactive-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Psychoactive Bomb"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Psychoactive Bomb**

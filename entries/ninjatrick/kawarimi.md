@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/kawarimi"
-kind = "rule"
+kind = "class_option"
 title = "Kawarimi"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Kawarimi (Su)**

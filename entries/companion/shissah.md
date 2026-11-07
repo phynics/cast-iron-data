@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/shissah"
-kind = "rule"
+kind = "class_option"
 title = "Shissah"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Qadira, Jewel of the East pg 63

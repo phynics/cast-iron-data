@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/quick-disguise"
-kind = "rule"
+kind = "class_option"
 title = "Quick Disguise"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Quick Disguise (Ex)**

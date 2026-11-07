@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/sacred-sneak-attack"
-kind = "rule"
+kind = "class_option"
 title = "Sacred Sneak Attack"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Sacred Sneak Attack (Su)**

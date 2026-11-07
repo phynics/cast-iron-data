@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/push"
-kind = "rule"
+kind = "class_option"
 title = "Push"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Push (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/well-known-expert"
-kind = "rule"
+kind = "class_option"
 title = "Well-Known Expert"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Well-Known Expert (Ex)**

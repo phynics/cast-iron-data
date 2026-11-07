@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/defensive-prognostication"
-kind = "rule"
+kind = "class_option"
 title = "Defensive Prognostication"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Defensive Prognostication (Su)**

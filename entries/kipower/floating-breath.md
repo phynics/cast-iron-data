@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/floating-breath"
-kind = "rule"
+kind = "class_option"
 title = "Floating Breath"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Floating Breath (Su)**

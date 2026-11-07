@@ -1,6 +1,6 @@
 +++
 id = "ref/performance/inspire-competence"
-kind = "rule"
+kind = "class_option"
 title = "Inspire Competence"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-performance"
 +++
 
 **Inspire Competence (Su)**

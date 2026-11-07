@@ -1,6 +1,6 @@
 +++
 id = "ref/blessing/chaos"
-kind = "rule"
+kind = "class_option"
 title = "Chaos"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "warpriest-blessing"
 +++
 
 **Sources:** Advanced Class Guide pg 64\

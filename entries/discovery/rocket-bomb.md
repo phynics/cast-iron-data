@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/rocket-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Rocket Bomb"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Rocket Bomb**

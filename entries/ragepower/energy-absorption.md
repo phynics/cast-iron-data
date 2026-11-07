@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/energy-absorption"
-kind = "rule"
+kind = "class_option"
 title = "Energy Absorption"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Energy Absorption (Su)**

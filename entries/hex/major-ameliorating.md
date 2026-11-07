@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/major-ameliorating"
-kind = "rule"
+kind = "class_option"
 title = "Major Ameliorating"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Major Ameliorating (Su)**

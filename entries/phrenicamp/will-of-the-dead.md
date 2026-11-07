@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/will-of-the-dead"
-kind = "rule"
+kind = "class_option"
 title = "Will of the Dead"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Will of the Dead (Su)**

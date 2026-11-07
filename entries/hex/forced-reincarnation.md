@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/forced-reincarnation"
-kind = "rule"
+kind = "class_option"
 title = "Forced Reincarnation"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Forced Reincarnation (Su)**

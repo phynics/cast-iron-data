@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/kelksiomides"
-kind = "rule"
+kind = "class_option"
 title = "Kelksiomides"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Heroes of Golarion pg 14\

@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/reformation"
-kind = "rule"
+kind = "class_option"
 title = "Reformation"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Faiths and Philosophies pg 23

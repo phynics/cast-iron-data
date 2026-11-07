@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/ferocity"
-kind = "rule"
+kind = "class_option"
 title = "Ferocity"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Ultimate Wilderness pg 92\

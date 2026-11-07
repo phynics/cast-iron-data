@@ -1,6 +1,6 @@
 +++
 id = "ref/blessing/godclaw"
-kind = "rule"
+kind = "class_option"
 title = "Godclaw"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "warpriest-blessing"
 +++
 
 **Sources:** Disciple's Doctrine pg 14\

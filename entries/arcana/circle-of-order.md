@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/circle-of-order"
-kind = "rule"
+kind = "class_option"
 title = "Circle of Order"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Disciple's Doctrine pg 9

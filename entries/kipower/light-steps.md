@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/light-steps"
-kind = "rule"
+kind = "class_option"
 title = "Light Steps"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Light Steps (Ex)**

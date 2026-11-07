@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lizard-stride"
-kind = "rule"
+kind = "class_option"
 title = "Lizard Stride"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lizard Stride (Su)**

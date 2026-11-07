@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/face-in-the-crowd"
-kind = "rule"
+kind = "class_option"
 title = "Face in the Crowd"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Face in the Crowd**

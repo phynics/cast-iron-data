@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-cult-totem"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Cult Totem"
 source_ids = ["horror-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Cult Totem (Ex)**

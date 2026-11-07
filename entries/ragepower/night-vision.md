@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/night-vision"
-kind = "rule"
+kind = "class_option"
 title = "Night Vision"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Night Vision (Ex)**

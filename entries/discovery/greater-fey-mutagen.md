@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/greater-fey-mutagen"
-kind = "rule"
+kind = "class_option"
 title = "Greater Fey Mutagen"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Greater Fey Mutagen**

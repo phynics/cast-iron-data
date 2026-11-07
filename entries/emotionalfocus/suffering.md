@@ -1,6 +1,6 @@
 +++
 id = "ref/emotionalfocus/suffering"
-kind = "rule"
+kind = "class_option"
 title = "Suffering"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "emotional-focus"
 +++
 
 **Sources:** Antihero's Handbook pg 18\

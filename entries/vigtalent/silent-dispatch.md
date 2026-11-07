@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/silent-dispatch"
-kind = "rule"
+kind = "class_option"
 title = "Silent Dispatch"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Silent Dispatch (Ex)**

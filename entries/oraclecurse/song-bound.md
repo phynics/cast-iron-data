@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/song-bound"
-kind = "rule"
+kind = "class_option"
 title = "Song-Bound"
 source_ids = ["blood-of-the-sea"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Song-Bound**

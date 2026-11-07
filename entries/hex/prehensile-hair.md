@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/prehensile-hair"
-kind = "rule"
+kind = "class_option"
 title = "Prehensile Hair"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Prehensile Hair (Su)**

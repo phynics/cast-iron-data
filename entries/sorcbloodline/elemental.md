@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/elemental"
-kind = "rule"
+kind = "class_option"
 title = "Elemental"
 source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "ultimate-magic", "blood-of-the-elements"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** PRPG Core Rulebook pg 75\

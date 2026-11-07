@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/beginners-luck"
-kind = "rule"
+kind = "class_option"
 title = "Beginner's Luck"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Beginner's Luck (Ex)**

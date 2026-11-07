@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/draconic"
-kind = "rule"
+kind = "class_option"
 title = "Draconic"
 source_ids = ["advanced-class-guide", "legacy-of-dragons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Draconic Bloodline

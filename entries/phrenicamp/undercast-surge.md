@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/undercast-surge"
-kind = "rule"
+kind = "class_option"
 title = "Undercast Surge"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Undercast Surge (Su)**

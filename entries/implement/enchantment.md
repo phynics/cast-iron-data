@@ -1,6 +1,6 @@
 +++
 id = "ref/implement/enchantment"
-kind = "rule"
+kind = "class_option"
 title = "Enchantment"
 source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "occultist-implement"
 +++
 
 **Sources:** Occult Adventures pg 53\

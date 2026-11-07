@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/protection"
-kind = "rule"
+kind = "class_option"
 title = "Protection"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Protection**

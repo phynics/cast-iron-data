@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/incendiary-charge"
-kind = "rule"
+kind = "class_option"
 title = "Incendiary Charge"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Incendiary Charge**

@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/pool-strike-clinging"
-kind = "rule"
+kind = "class_option"
 title = "Clinging Pool Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Ultimate Combat pg 54

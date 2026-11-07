@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greater-waterdancer"
-kind = "rule"
+kind = "class_option"
 title = "Greater Waterdancer"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Greater Waterdancer (Su)

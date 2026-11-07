@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-waves"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Waves"
 source_ids = ["aquatic-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Aquatic Adventures pg 53

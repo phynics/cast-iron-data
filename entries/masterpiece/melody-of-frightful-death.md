@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/melody-of-frightful-death"
-kind = "rule"
+kind = "class_option"
 title = "Melody of Frightful Death"
 source_ids = ["blood-of-fiends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Melody of Frightful Death (String)

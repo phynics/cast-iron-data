@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/ranger-combat-style"
-kind = "rule"
+kind = "class_option"
 title = "Ranger Combat Style"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Ranger Combat Style (Ex)**

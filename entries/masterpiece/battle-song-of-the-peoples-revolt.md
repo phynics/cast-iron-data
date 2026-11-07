@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/battle-song-of-the-peoples-revolt"
-kind = "rule"
+kind = "class_option"
 title = "Battle Song of the People's Revolt"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 **Sources:** Melee Tactics Toolbox

@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/recovery"
-kind = "rule"
+kind = "class_option"
 title = "Recovery"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Champions of Purity pg 22

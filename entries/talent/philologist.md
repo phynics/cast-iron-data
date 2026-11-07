@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/philologist"
-kind = "rule"
+kind = "class_option"
 title = "Philologist"
 source_ids = ["people-of-the-sands"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Philologist**

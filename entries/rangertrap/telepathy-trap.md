@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/telepathy-trap"
-kind = "rule"
+kind = "class_option"
 title = "Telepathy Trap"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Telepathy Trap (Su)

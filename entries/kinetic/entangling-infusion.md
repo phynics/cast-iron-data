@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/entangling-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Entangling Infusion"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** earth, water, wood

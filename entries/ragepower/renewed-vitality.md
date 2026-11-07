@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/renewed-vitality"
-kind = "rule"
+kind = "class_option"
 title = "Renewed Vitality"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Renewed Vitality (Ex)**

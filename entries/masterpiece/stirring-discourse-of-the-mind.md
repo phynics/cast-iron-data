@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/stirring-discourse-of-the-mind"
-kind = "rule"
+kind = "class_option"
 title = "Stirring Discourse of the Mind"
 source_ids = ["divine-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Stirring Discourse of the Mind (Oratory)

@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/banishment"
-kind = "rule"
+kind = "class_option"
 title = "Banishment"
 source_ids = ["blood-of-angels"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Blood of Angels pg 26

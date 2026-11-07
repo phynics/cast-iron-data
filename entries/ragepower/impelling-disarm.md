@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/impelling-disarm"
-kind = "rule"
+kind = "class_option"
 title = "Impelling Disarm"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Impelling Disarm (Ex)**

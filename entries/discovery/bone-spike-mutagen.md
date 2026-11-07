@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/bone-spike-mutagen"
-kind = "rule"
+kind = "class_option"
 title = "Bone-Spike Mutagen"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Bone-Spike Mutagen**

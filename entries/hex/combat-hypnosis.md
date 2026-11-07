@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/combat-hypnosis"
-kind = "rule"
+kind = "class_option"
 title = "Combat Hypnosis"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Combat Hypnosis (Su)**

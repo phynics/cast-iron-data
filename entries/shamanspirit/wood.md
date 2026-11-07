@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/wood"
-kind = "rule"
+kind = "class_option"
 title = "Wood"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 **Sources:** Ultimate Wilderness pg 93, Heroes of the Wild pg 26\

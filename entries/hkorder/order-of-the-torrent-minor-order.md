@@ -1,6 +1,6 @@
 +++
 id = "ref/hkorder/order-of-the-torrent-minor-order"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Torrent (Minor Order)"
 source_ids = ["path-of-the-hellknight", "pathfinder-98-turn-of-the-torrent"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-order"
 +++
 
 **Sources:** Path of the Hellknight pg 55, Pathfinder \#98: Turn of the Torrent pg 67

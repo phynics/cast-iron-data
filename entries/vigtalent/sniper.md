@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/sniper"
-kind = "rule"
+kind = "class_option"
 title = "Sniper"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Sniper (Ex)**

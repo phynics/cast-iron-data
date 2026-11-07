@@ -1,6 +1,6 @@
 +++
 id = "ref/swashdeed/deadly-stab"
-kind = "rule"
+kind = "class_option"
 title = "Deadly Stab"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "swashbuckler-deed"
 +++
 
 **Deadly Stab (Ex)**

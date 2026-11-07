@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/speak-in-dreams"
-kind = "rule"
+kind = "class_option"
 title = "Speak in Dreams"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Speak in Dreams (Sp)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanhex/fetish"
-kind = "rule"
+kind = "class_option"
 title = "Fetish"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-hex"
 +++
 
 **Fetish (Ex)**

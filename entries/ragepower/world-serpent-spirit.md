@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/world-serpent-spirit"
-kind = "rule"
+kind = "class_option"
 title = "World Serpent Spirit"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **World Serpent Spirit (Su)**

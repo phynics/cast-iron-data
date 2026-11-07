@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/restoration"
-kind = "rule"
+kind = "class_option"
 title = "Restoration"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Magical Marketplace pg 10

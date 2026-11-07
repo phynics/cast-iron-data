@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/witchs-bounty"
-kind = "rule"
+kind = "class_option"
 title = "Witch's Bounty"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Witch's Bounty (Su)**

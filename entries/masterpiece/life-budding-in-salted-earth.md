@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/life-budding-in-salted-earth"
-kind = "rule"
+kind = "class_option"
 title = "Life Budding in Salted Earth"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Life Budding in Salted Earth (Sing, String, Wind)

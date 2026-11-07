@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/versatile-intimidation"
-kind = "rule"
+kind = "class_option"
 title = "Versatile Intimidation"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Versatile Intimidation (Ex)**

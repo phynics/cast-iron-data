@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/unbreaking-waves-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Unbreaking Waves Infusion"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** water

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greensight"
-kind = "rule"
+kind = "class_option"
 title = "Greensight"
 source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Greensight (Su)

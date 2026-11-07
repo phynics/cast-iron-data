@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/yzobu"
-kind = "rule"
+kind = "class_option"
 title = "Yzobu"
 source_ids = ["monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Monster Codex pg 124

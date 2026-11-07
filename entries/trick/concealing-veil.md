@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/concealing-veil"
-kind = "rule"
+kind = "class_option"
 title = "Concealing Veil"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Concealing Veil**

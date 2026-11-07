@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/celestial-appearance"
-kind = "rule"
+kind = "class_option"
 title = "Celestial Appearance"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Celestial Appearance (Ex)**

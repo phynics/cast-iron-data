@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/savagery"
-kind = "rule"
+kind = "class_option"
 title = "Oath against Savagery"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Divine grace"]
 +++
 
 **Sources:** Ultimate Magic pg 61\

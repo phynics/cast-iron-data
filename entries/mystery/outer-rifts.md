@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/outer-rifts"
-kind = "rule"
+kind = "class_option"
 title = "Outer Rifts"
 source_ids = ["inner-sea-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Inner Sea Magic pg 31

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/photokinetic-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Photokinetic Infusion"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** wood

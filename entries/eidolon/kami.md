@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/kami"
-kind = "rule"
+kind = "class_option"
 title = "Kami"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 [Kami](ref/family/kami) eidolons are spirits of nature bound to an unchained summoner. They seek to

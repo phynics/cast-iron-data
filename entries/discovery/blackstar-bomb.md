@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/blackstar-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Blackstar Bomb"
 source_ids = ["monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Blackstar Bomb (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/swarm-trap"
-kind = "rule"
+kind = "class_option"
 title = "Swarm Trap"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Swarm Trap (Ex or Su)

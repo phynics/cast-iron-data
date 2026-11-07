@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/anathema"
-kind = "rule"
+kind = "class_option"
 title = "Anathema"
 source_ids = ["potions-and-poisons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Anathema (Ex)**

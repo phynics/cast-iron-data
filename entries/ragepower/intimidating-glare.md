@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/intimidating-glare"
-kind = "rule"
+kind = "class_option"
 title = "Intimidating Glare"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Intimidating Glare (Ex)**

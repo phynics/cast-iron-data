@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/thorns"
-kind = "rule"
+kind = "class_option"
 title = "Thorns"
 source_ids = ["heroes-of-the-wild", "ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Thorns**

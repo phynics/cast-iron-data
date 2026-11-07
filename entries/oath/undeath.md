@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/undeath"
-kind = "rule"
+kind = "class_option"
 title = "Oath against Undeath"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Detect evil"]
 +++
 
 **Sources:** Ultimate Magic pg 61\

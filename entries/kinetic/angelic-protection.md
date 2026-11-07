@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/angelic-protection"
-kind = "rule"
+kind = "class_option"
 title = "Angelic Protection"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Angelic Protection (Sp)

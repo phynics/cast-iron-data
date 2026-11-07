@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/lingering-spirit"
-kind = "rule"
+kind = "class_option"
 title = "Lingering Spirit"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Lingering Spirit**

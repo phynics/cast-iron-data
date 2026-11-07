@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/cairn-linnorm-death-curse"
-kind = "rule"
+kind = "class_option"
 title = "Cairn Linnorm Death Curse"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Cairn Linnorm Death Curse (Su)**

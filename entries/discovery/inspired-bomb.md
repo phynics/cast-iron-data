@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/inspired-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Inspired Bomb"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Inspired Bomb**

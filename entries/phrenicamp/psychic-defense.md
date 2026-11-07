@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/psychic-defense"
-kind = "rule"
+kind = "class_option"
 title = "Psychic Defense"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Psychic Defense (Su)**

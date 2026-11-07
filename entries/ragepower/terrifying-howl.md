@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/terrifying-howl"
-kind = "rule"
+kind = "class_option"
 title = "Terrifying Howl"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Terrifying Howl (Ex)**

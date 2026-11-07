@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/sphinx"
-kind = "rule"
+kind = "class_option"
 title = "Sphinx"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Sphinx Bloodline

@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/grounding-goo"
-kind = "rule"
+kind = "class_option"
 title = "Grounding Goo"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Grounding Goo**

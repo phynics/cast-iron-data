@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/storykin"
-kind = "rule"
+kind = "class_option"
 title = "Storykin"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 The storykin are avatars of the harrow deck's cards, brought to life through the power of the

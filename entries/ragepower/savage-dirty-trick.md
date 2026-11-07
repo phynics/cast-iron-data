@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/savage-dirty-trick"
-kind = "rule"
+kind = "class_option"
 title = "Savage Dirty Trick"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Savage Dirty Trick (Ex)**

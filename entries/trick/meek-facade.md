@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/meek-facade"
-kind = "rule"
+kind = "class_option"
 title = "Meek Facade"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Meek Facade**

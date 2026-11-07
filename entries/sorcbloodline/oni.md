@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/oni"
-kind = "rule"
+kind = "class_option"
 title = "Oni"
 source_ids = ["dragon-empires-primer", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Dragon Empires Primer pg 28\

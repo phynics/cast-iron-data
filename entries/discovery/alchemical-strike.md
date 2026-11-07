@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/alchemical-strike"
-kind = "rule"
+kind = "class_option"
 title = "Alchemical Strike"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Alchemical Strike**

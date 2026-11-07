@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/material-mastery"
-kind = "rule"
+kind = "class_option"
 title = "Material Mastery"
 source_ids = ["cohorts-and-companions"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Material Mastery**

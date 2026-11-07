@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/poison-use"
-kind = "rule"
+kind = "class_option"
 title = "Poison Use"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Poison Use (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/aligned-disguise"
-kind = "rule"
+kind = "class_option"
 title = "Aligned Disguise"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Aligned Disguise (Sp)**

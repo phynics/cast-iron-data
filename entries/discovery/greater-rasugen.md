@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/greater-rasugen"
-kind = "rule"
+kind = "class_option"
 title = "Greater Rasugen"
 source_ids = ["distant-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Greater Rasugen**

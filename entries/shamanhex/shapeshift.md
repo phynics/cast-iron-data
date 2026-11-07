@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanhex/shapeshift"
-kind = "rule"
+kind = "class_option"
 title = "Shapeshift"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-hex"
 +++
 
 **Shapeshift (Su)**

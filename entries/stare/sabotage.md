@@ -1,6 +1,6 @@
 +++
 id = "ref/stare/sabotage"
-kind = "rule"
+kind = "class_option"
 title = "Sabotage"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-stare"
 +++
 
 **Sabotage**

@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/witchs-brew"
-kind = "rule"
+kind = "class_option"
 title = "Witch's Brew"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Witch's Brew (Ex)**

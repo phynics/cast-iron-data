@@ -1,6 +1,6 @@
 +++
 id = "ref/blessing/community"
-kind = "rule"
+kind = "class_option"
 title = "Community"
 source_ids = ["advanced-class-guide", "healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "warpriest-blessing"
 +++
 
 **Sources:** Advanced Class Guide pg 65\

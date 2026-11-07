@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/gallerok"
-kind = "rule"
+kind = "class_option"
 title = "Gallerok"
 source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 83

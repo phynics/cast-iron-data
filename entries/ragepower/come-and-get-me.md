@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/come-and-get-me"
-kind = "rule"
+kind = "class_option"
 title = "Come and Get Me"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Come and Get Me (Ex)**

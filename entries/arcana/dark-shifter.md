@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/dark-shifter"
-kind = "rule"
+kind = "class_option"
 title = "Dark Shifter"
 source_ids = ["ranged-tactics-toolbox", "bastards-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Ranged Tactics Toolbox pg 13, Bastards of Golarion pg 9

@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/salamander"
-kind = "rule"
+kind = "class_option"
 title = "Salamander"
 source_ids = ["elemental-masters-handbook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Elemental Master's Handbook pg 6\

@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanhex/evil-eye"
-kind = "rule"
+kind = "class_option"
 title = "Evil Eye"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-hex"
 +++
 
 **Evil Eye (Su)**

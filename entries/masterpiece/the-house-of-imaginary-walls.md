@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-house-of-imaginary-walls"
-kind = "rule"
+kind = "class_option"
 title = "The House of Imaginary Walls"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The House of Imaginary Walls (Act)

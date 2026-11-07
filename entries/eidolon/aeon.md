@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/aeon"
-kind = "rule"
+kind = "class_option"
 title = "Aeon"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Created to monitor a specific duality, an aeon eidolon often proves frustratingly headstrong in

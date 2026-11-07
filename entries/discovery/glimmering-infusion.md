@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/glimmering-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Glimmering Infusion"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Glimmering Infusion**

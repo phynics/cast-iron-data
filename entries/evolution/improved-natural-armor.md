@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/improved-natural-armor"
-kind = "rule"
+kind = "class_option"
 title = "Improved Natural Armor"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Improved Natural Armor (Ex)**

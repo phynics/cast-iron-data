@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/profane-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Profane Bomb"
 source_ids = ["champions-of-corruption"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Profane Bomb**

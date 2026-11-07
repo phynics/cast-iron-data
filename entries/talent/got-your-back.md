@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/got-your-back"
-kind = "rule"
+kind = "class_option"
 title = "Got Your Back"
 source_ids = ["cohorts-and-companions"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Got Your Back (Ex)**

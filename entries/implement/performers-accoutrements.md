@@ -1,6 +1,6 @@
 +++
 id = "ref/implement/performers-accoutrements"
-kind = "rule"
+kind = "class_option"
 title = "Performer's Accoutrements (Panoply)"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "occultist-implement"
 +++
 
 ## Performer's Accoutrements

@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/experience-across-ages"
-kind = "rule"
+kind = "class_option"
 title = "Experience Across Ages"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Experience Across Ages (Ex)**

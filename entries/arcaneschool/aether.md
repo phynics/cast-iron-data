@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/aether"
-kind = "rule"
+kind = "class_option"
 title = "Aether"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** Elemental Master's Handbook pg 20\

@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/unarmed-combat-mastery"
-kind = "rule"
+kind = "class_option"
 title = "Unarmed Combat Mastery"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Unarmed Combat Mastery (Ex)**

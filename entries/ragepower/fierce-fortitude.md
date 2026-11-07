@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/fierce-fortitude"
-kind = "rule"
+kind = "class_option"
 title = "Fierce Fortitude"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Fierce Fortitude (Ex)**

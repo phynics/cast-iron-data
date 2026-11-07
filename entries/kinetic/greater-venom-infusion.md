@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greater-venom-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Greater Venom Infusion"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** universal

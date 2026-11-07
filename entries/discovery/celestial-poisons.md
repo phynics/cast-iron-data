@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/celestial-poisons"
-kind = "rule"
+kind = "class_option"
 title = "Celestial Poisons"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Celestial Poisons**

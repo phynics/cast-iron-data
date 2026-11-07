@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/smoke-storm"
-kind = "rule"
+kind = "class_option"
 title = "Smoke Storm"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Smoke Storm (Sp)

@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/nex"
-kind = "rule"
+kind = "class_option"
 title = "Nex"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Occult Origins pg 11\

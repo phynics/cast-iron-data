@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/worg"
-kind = "rule"
+kind = "class_option"
 title = "Worg"
 source_ids = ["inner-sea-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Inner Sea Combat pg 14

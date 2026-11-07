@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/dampen-presence"
-kind = "rule"
+kind = "class_option"
 title = "Dampen Presence"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Dampen Presence**

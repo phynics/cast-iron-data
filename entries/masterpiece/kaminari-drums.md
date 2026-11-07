@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/kaminari-drums"
-kind = "rule"
+kind = "class_option"
 title = "Kaminari Drums"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Kaminari Drums (Percussion)

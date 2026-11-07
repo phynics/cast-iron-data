@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/disarming-luck"
-kind = "rule"
+kind = "class_option"
 title = "Disarming Luck"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Disarming Luck (Ex)**

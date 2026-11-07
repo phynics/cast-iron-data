@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/lingering-venom"
-kind = "rule"
+kind = "class_option"
 title = "Lingering Venom"
 source_ids = ["potions-and-poisons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Lingering Venom (Ex)**

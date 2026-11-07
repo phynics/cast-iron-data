@@ -1,6 +1,6 @@
 +++
 id = "ref/mercy/paralyzed"
-kind = "rule"
+kind = "class_option"
 title = "Paralyzed"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-mercy"
 +++
 
 **Details:** The target is no longer paralyzed.

@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/numerical-alchemy"
-kind = "rule"
+kind = "class_option"
 title = "Numerical Alchemy"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Numerical Alchemy (Su)**

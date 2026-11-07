@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/living-capacitor"
-kind = "rule"
+kind = "class_option"
 title = "Living Capacitor"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Living Capacitor (Sp)

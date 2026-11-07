@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/follow-clues"
-kind = "rule"
+kind = "class_option"
 title = "Follow Clues"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Follow Clues (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/sticks-and-stones"
-kind = "rule"
+kind = "class_option"
 title = "Sticks and Stones"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Sticks and Stones (Ex)**

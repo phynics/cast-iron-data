@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/axe-beak"
-kind = "rule"
+kind = "class_option"
 title = "Axe Beak"
 source_ids = ["bestiary-3"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 3 pg 311

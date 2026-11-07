@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/fire"
-kind = "rule"
+kind = "class_option"
 title = "Fire"
 source_ids = ["advanced-players-guide", "elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** Advanced Player's Guide pg 142\

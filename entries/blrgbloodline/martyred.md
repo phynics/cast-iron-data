@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/martyred"
-kind = "rule"
+kind = "class_option"
 title = "Martyred"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Martyred Bloodline

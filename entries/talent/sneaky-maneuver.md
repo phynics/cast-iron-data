@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/sneaky-maneuver"
-kind = "rule"
+kind = "class_option"
 title = "Sneaky Maneuver"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Sneaky Maneuver (Ex)**

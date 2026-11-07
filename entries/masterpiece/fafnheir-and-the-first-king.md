@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/fafnheir-and-the-first-king"
-kind = "rule"
+kind = "class_option"
 title = "Fafnheir and the First King"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Fafnheir and the First King (String, Wind)

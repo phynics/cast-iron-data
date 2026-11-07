@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/fast-picks"
-kind = "rule"
+kind = "class_option"
 title = "Fast Picks"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Fast Picks (Ex)**

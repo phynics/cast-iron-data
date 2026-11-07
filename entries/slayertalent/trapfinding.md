@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/trapfinding"
-kind = "rule"
+kind = "class_option"
 title = "Trapfinding"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Trapfinding**

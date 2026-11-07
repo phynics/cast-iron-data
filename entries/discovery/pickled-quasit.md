@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/pickled-quasit"
-kind = "rule"
+kind = "class_option"
 title = "Pickled Quasit"
 source_ids = ["champions-of-corruption"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Pickled Quasit**

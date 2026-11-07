@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/deepwater"
-kind = "rule"
+kind = "class_option"
 title = "Deepwater"
 source_ids = ["blood-of-the-sea"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 The vast, lightless reaches of the sea are home to creatures of unimaginable power with connections

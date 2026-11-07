@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/plane-of-water"
-kind = "rule"
+kind = "class_option"
 title = "Plane of Water"
 source_ids = ["planes-of-power"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## Plane of Water Domain

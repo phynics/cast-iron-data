@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/basic-pyrokinesis"
-kind = "rule"
+kind = "class_option"
 title = "Basic Pyrokinesis"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Basic Pyrokinesis (Sp)

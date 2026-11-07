@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/tyrant-totem"
-kind = "rule"
+kind = "class_option"
 title = "Tyrant Totem"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Tyrant Totem (Ex)**

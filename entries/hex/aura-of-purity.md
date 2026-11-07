@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/aura-of-purity"
-kind = "rule"
+kind = "class_option"
 title = "Aura of Purity"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Aura of Purity (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/vulture"
-kind = "rule"
+kind = "class_option"
 title = "Vulture"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## Vulture Domain

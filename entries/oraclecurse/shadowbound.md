@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/shadowbound"
-kind = "rule"
+kind = "class_option"
 title = "Shadowbound"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Shadowbound**

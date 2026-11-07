@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/vision-of-blood"
-kind = "rule"
+kind = "class_option"
 title = "Vision of Blood"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Vision of Blood**

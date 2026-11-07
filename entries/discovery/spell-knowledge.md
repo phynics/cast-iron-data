@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/spell-knowledge"
-kind = "rule"
+kind = "class_option"
 title = "Spell Knowledge"
 source_ids = ["cohorts-and-companions"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Spell Knowledge**

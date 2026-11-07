@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/deceitful-trick"
-kind = "rule"
+kind = "class_option"
 title = "Deceitful Trick"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Deceitful Trick**

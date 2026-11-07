@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/time-stutter"
-kind = "rule"
+kind = "class_option"
 title = "Time Stutter"
 source_ids = ["people-of-the-river"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Time Stutter (Sp)**

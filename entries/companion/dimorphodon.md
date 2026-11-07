@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/dimorphodon"
-kind = "rule"
+kind = "class_option"
 title = "Dimorphodon"
 source_ids = ["bestiary-4", "pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Dinosaur (Dimorphodon)

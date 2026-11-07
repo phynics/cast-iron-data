@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/getaway-artist"
-kind = "rule"
+kind = "class_option"
 title = "Getaway Artist"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Getaway Artist (Ex)**

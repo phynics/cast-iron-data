@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/tentacle-mass"
-kind = "rule"
+kind = "class_option"
 title = "Tentacle Mass"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Tentacle Mass (Ex)**

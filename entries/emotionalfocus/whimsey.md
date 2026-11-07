@@ -1,6 +1,6 @@
 +++
 id = "ref/emotionalfocus/whimsey"
-kind = "rule"
+kind = "class_option"
 title = "Whimsey"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "emotional-focus"
 +++
 
 **Sources:** Heroes from the Fringe pg 17\

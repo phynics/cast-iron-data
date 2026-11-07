@@ -1,6 +1,6 @@
 +++
 id = "ref/swashdeed/menacing-swordplay"
-kind = "rule"
+kind = "class_option"
 title = "Menacing Swordplay"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "swashbuckler-deed"
 +++
 
 **Menacing Swordplay (Ex)**

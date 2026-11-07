@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/space-rending-spell"
-kind = "rule"
+kind = "class_option"
 title = "Space-rending Spell"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Space-rending Spell (Su)**

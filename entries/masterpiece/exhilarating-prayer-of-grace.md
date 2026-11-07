@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/exhilarating-prayer-of-grace"
-kind = "rule"
+kind = "class_option"
 title = "Exhilarating Prayer of Grace"
 source_ids = ["divine-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Exhilarating Prayer of Grace (Dance)

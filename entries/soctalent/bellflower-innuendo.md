@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/bellflower-innuendo"
-kind = "rule"
+kind = "class_option"
 title = "Bellflower Innuendo"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Bellflower Innuendo (Ex)**
