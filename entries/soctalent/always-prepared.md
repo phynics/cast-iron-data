@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/always-prepared"
-kind = "rule"
+kind = "class_option"
 title = "Always Prepared"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Always Prepared (Ex)**

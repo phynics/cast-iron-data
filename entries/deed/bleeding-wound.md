@@ -1,6 +1,6 @@
 +++
 id = "ref/deed/bleeding-wound"
-kind = "rule"
+kind = "class_option"
 title = "Bleeding Wound"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "gunslinger-deed"
 +++
 
 **Bleeding Wound (Ex)**

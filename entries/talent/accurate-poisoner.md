@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/accurate-poisoner"
-kind = "rule"
+kind = "class_option"
 title = "Accurate Poisoner"
 source_ids = ["potions-and-poisons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Accurate Poisoner (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/aberrant"
-kind = "rule"
+kind = "class_option"
 title = "Aberrant"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Alien entities from the farthest stars, the lightless depths of the Darklands, the sea itself, or

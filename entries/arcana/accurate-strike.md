@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/accurate-strike"
-kind = "rule"
+kind = "class_option"
 title = "Accurate Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Ultimate Combat pg 54

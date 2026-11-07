@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/ancestor"
-kind = "rule"
+kind = "class_option"
 title = "Ancestor"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Ultimate Magic pg 53

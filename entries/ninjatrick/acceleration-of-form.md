@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/acceleration-of-form"
-kind = "rule"
+kind = "class_option"
 title = "Acceleration of Form"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Acceleration of Form (Su)**

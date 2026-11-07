@@ -1,6 +1,6 @@
 +++
 id = "ref/stare/allure"
-kind = "rule"
+kind = "class_option"
 title = "Allure"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-stare"
 +++
 
 **Allure**

@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/biokinetic-healing"
-kind = "rule"
+kind = "class_option"
 title = "Biokinetic Healing"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Biokinetic Healing (Su)**

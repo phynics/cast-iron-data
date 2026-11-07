@@ -1,6 +1,6 @@
 +++
 id = "ref/stylestrike/break"
-kind = "rule"
+kind = "class_option"
 title = "Break"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "style-strike"
 +++
 
 **Break**
