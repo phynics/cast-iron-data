@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dispelling Bomb&FN&**
+**Dispelling Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it dispel magic effects
 instead of deal damage. Creatures that take a direct hit from a _dispelling bomb_ are subject to a

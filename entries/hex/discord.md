@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Discord (Su)&FN&**
+**Discord (Su)**
 
 **Ability:** The witch can make an animal or humanoid within 30 feet distrust another creature
 within line of sight. The target's [attitude](ref/skill/diplomacy) toward the other creature

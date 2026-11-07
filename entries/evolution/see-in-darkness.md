@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&See in Darkness (Su)&FN&**
+**See in Darkness (Su)**
 
 **Ability:** An eidolon can see perfectly in darkness of any kind, including that created by
 [deeper darkness](ref/spell/deeper-darkness).

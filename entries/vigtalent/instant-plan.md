@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Instant Plan (Ex)&FN&**
+**Instant Plan (Ex)**
 
 **Ability:** Once per day, the vigilante can state a plan of action. All allies within 30 feet that
 can hear him gain a +2 morale bonus on saving throws against fear effects and are immune to being

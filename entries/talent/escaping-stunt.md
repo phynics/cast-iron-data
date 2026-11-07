@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Escaping Stunt (Ex)&FN&**
+**Escaping Stunt (Ex)**
 
 **Ability:** When she is the target of a grapple combat maneuver, a rogue with this talent can
 attempt an Escape Artist check as an **immediate action**, using the result of the skill check in

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grand Rasugen&FN&**
+**Grand Rasugen**
 
 **Passive:** The alchemist's rasugen now grants a +6 alchemical bonus on all saving throws, 4
 [temporary hit points](ref/rule/temporary-hit-points) per alchemist level, and immunity to disease,

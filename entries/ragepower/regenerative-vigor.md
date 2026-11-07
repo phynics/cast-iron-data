@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Regenerative Vigor (Ex)&FN&**
+**Regenerative Vigor (Ex)**
 
 **Passive:** After using her _renewed vigor_ rage power until her current _rage_ ends, the barbarian
 gains [fast healing](ref/umr/fast-healing) equal to [one-sixth](ref/misc/fractions-and-rounding) of

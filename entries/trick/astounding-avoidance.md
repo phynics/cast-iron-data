@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Astounding Avoidance&FN&**
+**Astounding Avoidance**
 
 **Ability:** The mesmerist can trigger this trick when the subject attempts a saving throw against
 an attack or spell that normally deals half damage on a successful save, before the subject rolls

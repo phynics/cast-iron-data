@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Subtle Blade (Ex)&FN&**
+**Subtle Blade (Ex)**
 
 **Passive:** While a swashbuckler has at least 1 panache point, she is immune to
 [disarm](ref/rule/disarm), [steal](ref/rule/steal), and [sunder](ref/rule/sunder) combat maneuvers

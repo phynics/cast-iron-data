@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Charmer (Ex)&FN&**
+**Charmer (Ex)**
 
 **Ability:** The rogue can roll two dice while making a Diplomacy check, and take the better result.
 She must choose to use this talent before making the Diplomacy check.

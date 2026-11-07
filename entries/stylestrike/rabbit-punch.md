@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rabbit Punch&FN&**
+**Rabbit Punch**
 
 **Ability:** The critical threat range and critical multiplier of this strike increase by 1, and the
 monk gains a +2 bonus on attack rolls to confirm a critical hit with this strike.

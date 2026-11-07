@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fetish (Ex)&FN&**
+**Fetish (Ex)**
 
 **Ability:** The shaman receives [Craft Wondrous Item](ref/feat/craft-wondrous-item) as a bonus feat
 and gains a +4 insight bonus on [Spellcraft](ref/skill/spellcraft) checks to identify magic items

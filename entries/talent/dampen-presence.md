@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dampen Presence&FN&**
+**Dampen Presence**
 
 **Ability:** A rogue who selects this talent gains [Dampen Presence](ref/feat/dampen-presence) as a
 bonus feat. The rogue does not need to meet the feat's prerequisites. The rogue is also considered

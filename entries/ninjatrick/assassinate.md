@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Assassinate (Ex)&FN&**
+**Assassinate (Ex)**
 
 **Ability:** To attempt to _assassinate_ a target, the ninja must first study her target for 1 round
 as a **standard action**.

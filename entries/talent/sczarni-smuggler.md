@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sczarni Smuggler (Ex)&FN&**
+**Sczarni Smuggler (Ex)**
 
 **Ability:** The rogue needs to learn only the approximate appearance of a document that doesn't
 require a particular person's signature to accurately forge the document with

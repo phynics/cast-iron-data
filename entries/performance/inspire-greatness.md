@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspire Greatness (Su)&FN&**
+**Inspire Greatness (Su)**
 
 **At 9th Level:** A bard can use his performance to _inspire greatness_ in himself or a single
 willing ally within 30 feet, granting extra fighting capability. To _inspire greatness,_ all of the

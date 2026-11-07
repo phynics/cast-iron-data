@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Water Sprint (Su)&FN&**
+**Water Sprint (Su)**
 
 **Prereq:** 6th-level monk
 

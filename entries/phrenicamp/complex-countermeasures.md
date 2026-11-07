@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Complex Countermeasures (Ex)&FN&**
+**Complex Countermeasures (Ex)**
 
 **Ability:** The psychic can spend 1 point from her phrenic pool to increase by 2 the DCs of
 [concentration](ref/rule/concentration) checks or caster level checks the linked spell requires

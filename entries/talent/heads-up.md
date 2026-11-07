@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Heads Up (Ex)&FN&**
+**Heads Up (Ex)**
 
 **Ability:** When you make a [Perception](ref/skill/perception) check, as an **immediate** or
 **swift action** you can allow one adjacent ally to act as if they had also made a Perception check

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Restless Slumber (Su)&FN&**
+**Restless Slumber (Su)**
 
 **Ability:** The witch causes a creature within 30 feet to fall into a sleep riddled with
 nightmares. This functions as the _slumber_ hex. Additionally, the restless nature of the sleep

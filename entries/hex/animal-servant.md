@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Animal Servant (Su)&FN&**
+**Animal Servant (Su)**
 
 **Ability:** The witch can use this hex to turn a humanoid enemy into an animal and rob it of its
 free will. The transformation works as [beast shape II](ref/spell/beast-shape-2) and is negated by a

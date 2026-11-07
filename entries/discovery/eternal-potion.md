@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eternal Potion&FN&**
+**Eternal Potion**
 
 **Ability:** If an alchemist drinks a potion that he extends, the effects of that potion become
 permanent until he chooses to make another potion effect permanent.

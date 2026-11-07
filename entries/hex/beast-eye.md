@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Beast Eye (Su)&FN&**
+**Beast Eye (Su)**
 
 **Ability:** The witch can project her senses into an animal within 100 feet, sensing whatever it
 senses. She cannot control the animal's actions. She can project her senses from that animal to

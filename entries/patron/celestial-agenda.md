@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Celestial Agenda&FN&**
+**Celestial Agenda**
 
 **Ability:** You gain the [ward](ref/hex/ward) hex at 1st level.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shield of Fury (Ex)&FN&**
+**Shield of Fury (Ex)**
 
 **Ability:** The vigilante gains [Improved Shield Bash](ref/feat/improved-shield-bash) as a bonus
 feat. If he already has the Improved Shield Bash feat, he can immediately swap it for another feat

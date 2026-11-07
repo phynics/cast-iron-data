@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stunning Shot (Ex)&FN&**
+**Stunning Shot (Ex)**
 
 **Ability:** When a gunslinger hits a creature, she can spend 2 grit points to
 [stun](ref/misc/stunned) the creature for 1 round. The creature must make a Fortitude saving throw

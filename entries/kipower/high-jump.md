@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&High Jump (Ex)&FN&**
+**High Jump (Ex)**
 
 **Passive:** A monk with this ki power adds his level as a bonus on all
 [Acrobatics](ref/skill/acrobatics) checks to jump, both for vertical jumps and horizontal jumps. In

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Beyond Morality (Su)&FN&**
+**Beyond Morality (Su)**
 
 **Ability:** As long as you are neutral, you may choose to be treated as the most favorable
 alignment when affected by spells whose effects vary based on alignment (such as

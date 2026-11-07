@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Offensive Defense (Ex)&FN&**
+**Offensive Defense (Ex)**
 
 **Ability:** When a rogue with this talent hits a creature with a melee attack that deals sneak
 attack damage, the rogue gains a +1 dodge bonus to AC for each sneak attack die rolled for 1 round.

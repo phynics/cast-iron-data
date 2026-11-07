@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Another Day (Ex)&FN&**
+**Another Day (Ex)**
 
 **Immediate:** Once per day, when the rogue would be reduced to 0 or fewer hit points by a melee
 attack, she can take a 5-foot step. If the movement takes her out of the reach of the attack, she

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Familiar (Ex)&FN&**
+**Familiar (Ex)**
 
 **Ability:** A rogue with this talent gains a [familiar](ref/sidekick/familiar) as the
 [familiar](ref/ability/familiars) option of the wizard's _arcane bond_ class feature. This ability

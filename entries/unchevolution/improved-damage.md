@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Improved Damage (Ex)&FN&**
+**Improved Damage (Ex)**
 
 **Ability:** Select one natural attack form and
 [increase the damage die](ref/misc/damage-die-adjustments) by one step.

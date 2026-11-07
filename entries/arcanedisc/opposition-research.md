@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Opposition Research&FN&**
+**Opposition Research**
 
 **Ability:** By completing strenuous studies, you have broken through the mental barriers that made
 it hard for you to prepare spells from one of your opposition schools. Select one wizard opposition

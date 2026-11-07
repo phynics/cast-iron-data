@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer stunned.&FN&
+**Details:** The target is no longer stunned.
 
-**Title:** &L&Stunned
+**Title:** Stunned

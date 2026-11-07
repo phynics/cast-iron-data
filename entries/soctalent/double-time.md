@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Double Time (Ex)&FN&**
+**Double Time (Ex)**
 
 **Ability:** The vigilante's social identity is that of a skilled and respected artisan or
 professional, rather than a merchant or noble. In order to complete his day's work while still

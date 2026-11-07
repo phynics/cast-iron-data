@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Scratch (Ex)&FN&**
+**Deadly Scratch (Ex)**
 
 **Ability:** A catfolk rogue with this talent can apply poison to her claws without accidentally
 poisoning herself.

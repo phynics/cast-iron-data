@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Charge (Su)&FN&**
+**Ki Charge (Su)**
 
 **Special:** Using this ability expends 1 ki point from her ki pool.
 

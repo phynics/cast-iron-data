@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Renewed Vitality (Ex)&FN&**
+**Renewed Vitality (Ex)**
 
 **Ability:** Once per day, when a barbarian with ability penalties or damage ends her _rage,_ she
 can reroll a saving throw, if any, against an effect that imposed an ability penalty or dealt her

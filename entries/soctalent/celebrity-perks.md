@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Celebrity Perks (Ex)&FN&**
+**Celebrity Perks (Ex)**
 
 **Flavor:** The vigilante is a celebrity in his area of _renown,_ and adoring fans are all too eager
 to shower him with the fundamental necessities.

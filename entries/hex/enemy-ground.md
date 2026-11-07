@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Enemy Ground (Su)&FN&**
+**Enemy Ground (Su)**
 
 **Ability:** The target takes a -4 penalty on Acrobatics checks to move over slippery or uneven
 surfaces and to avoid attacks of opportunity while moving through threatened squares. This effect

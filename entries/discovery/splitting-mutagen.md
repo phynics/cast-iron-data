@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Splitting Mutagen&FN&**
+**Splitting Mutagen**
 
 **Ability:** Once per day while under the effects of his _mutagen,_ the alchemist can split into two
 identical copies of himself as an **immediate action** after being damaged by a piercing or slashing

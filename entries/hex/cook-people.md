@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cook People (Su)&FN&**
+**Cook People (Su)**
 
 **Ability:** Using this hex creates one meal or serving of food of the witch's choice, typically a
 delicious stew or a dough suitable for cookies, pastries, or other desserts. Cooking the victim

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slow Metabolism (Ex)&FN&**
+**Slow Metabolism (Ex)**
 
 **Ability:** She can [hold her breath](ref/misc/hold-your-breath) for twice as long as normal before
 needing to make Constitution checks (four times her Constitution score).

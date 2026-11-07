@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Without a Trace (Ex)&FN&**
+**Without a Trace (Ex)**
 
 **Immediate:** When the rogue successfully uses [evasion](ref/ability/evasion) or
 [improved evasion](ref/talent/improved-evasion) to avoid taking damage, she can attempt to hide. The

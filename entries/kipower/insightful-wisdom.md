@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Insightful Wisdom (Su)&FN&**
+**Insightful Wisdom (Su)**
 
 **Immediate:** A monk with this ability can spend 2 ki points to give another ally within 30 feet
 just the right word of advice to prevent disaster. If the ally can hear the monk, she can reroll a

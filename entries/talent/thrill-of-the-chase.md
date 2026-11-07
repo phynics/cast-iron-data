@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Thrill of the Chase (Ex)&FN&**
+**Thrill of the Chase (Ex)**
 
 **Ability:** When engaged in [a chase](ref/rule/chases) or [pursuit](ref/rule/pursuit), the rogue
 gains one d20 reroll which she can use at any time after the original roll is made but before the

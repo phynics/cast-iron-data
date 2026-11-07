@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Awakened Intellect&FN&**
+**Awakened Intellect**
 
 **Passive:** The alchemist's constant exposure to strange chemicals has expanded his mind. His
 Intelligence score permanently increases by 2 points.

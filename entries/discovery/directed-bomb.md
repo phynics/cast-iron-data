@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Directed Bomb&FN&**
+**Directed Bomb**
 
 **Ability:** The alchemist can cause his bombs to splash in a 15-foot cone instead of a
 5-foot-radius burst. The alchemist chooses the direction of the cone. If the attack misses, roll an

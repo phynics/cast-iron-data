@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Animal Skin&FN&**
+**Animal Skin**
 
 **Ability:** The witch can become any animal of a size from Tiny to Large whose skin she wears. This
 ability is similar to [beast shape II](ref/spell/beast-shape-2), except she takes on the appearance

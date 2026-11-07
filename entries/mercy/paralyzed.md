@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer paralyzed.&FN&
+**Details:** The target is no longer paralyzed.
 
-**Title:** &L&Paralyzed
+**Title:** Paralyzed

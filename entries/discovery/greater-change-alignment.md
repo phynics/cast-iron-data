@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Change Alignment (Su)&FN&**
+**Greater Change Alignment (Su)**
 
 **Ability:** The effects of the alchemist's _change alignment_ infusion become permanent and can
 only be reversed by a [wish](ref/spell/wish) or [miracle](ref/spell/miracle).

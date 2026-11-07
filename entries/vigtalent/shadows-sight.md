@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow's Sight (Ex)&FN&**
+**Shadow's Sight (Ex)**
 
 **Ability:** The vigilante gains [low-light vision](ref/rule/low-light-vision) and
 [darkvision](ref/rule/darkvision) 60 feet. If he already had darkvision, its range increases by 30

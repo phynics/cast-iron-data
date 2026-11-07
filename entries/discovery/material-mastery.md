@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Material Mastery&FN&**
+**Material Mastery**
 
 **Ability:** Your superior knowledge of the nature of matter enables you to ignore spell
 requirements more easily when crafting magic items. By expending an extract of the same school and

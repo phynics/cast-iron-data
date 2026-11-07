@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sneaky Maneuver (Ex)&FN&**
+**Sneaky Maneuver (Ex)**
 
 **Ability:** Anytime a rogue with this talent could hit an opponent with a melee sneak attack on her
 turn, she may take a -2 penalty on her attack roll and attempt a

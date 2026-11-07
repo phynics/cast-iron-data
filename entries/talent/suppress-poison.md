@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Suppress Poison (Ex)&FN&**
+**Suppress Poison (Ex)**
 
 **Flavor:** A rogue with this talent can stave off the effects of a poison.
 

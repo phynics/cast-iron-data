@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Resonating Rumbles (Su)&FN&**
+**Resonating Rumbles (Su)**
 
 **Ability:** When a rogue with this talent makes a successful sneak attack against a creature with
 [tremorsense](ref/umr/tremorsense), the rogue can subtract 3 dice from her sneak attack damage to

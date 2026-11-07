@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Phantom Limb&FN&**
+**Phantom Limb**
 
 **Ability:** The alchemist can manifest a ghostly, incorporeal arm that juts out from his torso.
 This _phantom limb_ does not grant the alchemist any extra attacks or actions per round, and it

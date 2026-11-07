@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&No Escape (Ex)&FN&**
+**No Escape (Ex)**
 
 **Immediate:** When an adjacent foe uses a [withdraw](ref/rule/withdraw) action to move away from
 her, the barbarian can move up to double her normal speed. She must end her movement adjacent to the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Suffocating Grip (Ex)&FN&**
+**Suffocating Grip (Ex)**
 
 **Ability:** While _raging,_ when the barbarian successfully maintains a grapple, she can choke her
 opponent instead of dealing damage to, moving, pinning, or tying up her opponent. The grappled

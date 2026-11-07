@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&See in Darkness&FN&**
+**See in Darkness**
 
 **Ability:** The subject gains [darkvision](ref/rule/darkvision) with a range of 60 feet for 1
 minute. The mesmerist can trigger this trick when the subject moves into an area of darkness.

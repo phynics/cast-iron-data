@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Constructive Dyes&FN&**
+**Constructive Dyes**
 
 **Ability:** The alchemist's dyes congeal and solidify, allowing him to make physical objects from
 them. The alchemist can expend two uses of his daily bombs to create a nonmagical object, as

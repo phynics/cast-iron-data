@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Got Your Back (Ex)&FN&**
+**Got Your Back (Ex)**
 
 **Immediate:** Once per round, you may expend an attack of opportunity to attempt an
 [aid another](ref/rule/aid-another-2) check to improve an ally's attack. You and your ally must both

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Mount (Su)&FN&**
+**Ki Mount (Su)**
 
 **Prereq:** 6th-level monk
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Guarded Stance (Ex)&FN&**
+**Guarded Stance (Ex)**
 
 **Flavor:** The barbarian can take on a more defensive posture.
 

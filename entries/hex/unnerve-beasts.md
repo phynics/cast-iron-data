@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unnerve Beasts (Su)&FN&**
+**Unnerve Beasts (Su)**
 
 **Ability:** The target becomes offensive to animals (Will negates). Animals become distraught and
 aggressive in the victim's presence - horses buck, dogs snap and bark, bulls charge, and so on. The

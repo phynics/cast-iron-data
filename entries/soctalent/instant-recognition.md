@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Instant Recognition (Ex)&FN&**
+**Instant Recognition (Ex)**
 
 **Ability:** It only takes 4 hours of effort to get the word out to transfer his _renown_ benefits
 to a new community.

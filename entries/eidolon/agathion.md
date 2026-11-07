@@ -16,7 +16,7 @@ eidolons seek to vanquish evil and protect that which is good. Agathion eidolons
 of a single animal or creature, rather than a hodgepodge of several. Though they have patience for
 summoners with unorthodox methods and even those who stray from the path of good, they will not
 brook their powers being used for evil ends. An agathion eidolon seeks to bring its summoner closer
-to its own enlightenment.&FN&
+to its own enlightenment.
 
 **Alignment**
 

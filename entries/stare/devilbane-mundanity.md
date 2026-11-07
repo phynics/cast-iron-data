@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Devilbane Mundanity&FN&**
+**Devilbane Mundanity**
 
 **Info:** The _hypnotic stare_ penalty also applies to the target's
 [spell resistance](ref/rule/spell-resistance). This ability doesn't stack with the

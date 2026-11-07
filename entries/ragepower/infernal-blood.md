@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Infernal Blood (Su)&FN&**
+**Infernal Blood (Su)**
 
 **Passive:** While _raging,_ the barbarian gains fire [resistance](ref/umr/resistance) 5, as well as
 a +2 bonus on saving throws against poison.

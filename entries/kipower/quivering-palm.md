@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quivering Palm (Su)&FN&**
+**Quivering Palm (Su)**
 
 **Prereq:** 16th-level monk
 

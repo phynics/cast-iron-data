@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sunlight Bomb&FN&**
+**Sunlight Bomb**
 
 **Ability:** The alchemist can throw bombs that explode with a searing radiance equivalent to that
 of sunlight and that act as _blinding bombs._ Undead, fungi, molds, oozes, slimes, and creatures to

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Aspexia's Mysticism (Ex)&FN&**
+**Aspexia's Mysticism (Ex)**
 
 **Ability:** The rogue has been trained in a minor occult technique. The rogue gains
 [Psychic Sensitivity](ref/feat/psychic-sensitivity) as a bonus feat.

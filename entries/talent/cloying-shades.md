@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cloying Shades (Su)&FN&**
+**Cloying Shades (Su)**
 
 **Ability:** When a rogue with this talent uses [dimension door](ref/spell/dimension-door) as a
 spell or [spell-like ability](ref/umr/spell-like-abilities), including the _abundant step_ or

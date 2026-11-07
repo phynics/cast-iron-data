@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Autumn&FN&**
+**Autumn**
 
 **Info:** The Autumn patron grants the following spells at the listed witch levels.
 

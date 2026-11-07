@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Savage Hurl (Ex)&FN&**
+**Savage Hurl (Ex)**
 
 **At 12th Level:** It becomes +4 at if her Strength modifier is at least +8.
 

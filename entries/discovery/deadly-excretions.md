@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Excretions&FN&**
+**Deadly Excretions**
 
 **Ability:** When using his _toxic skin_ ability, the alchemist can choose to excrete a Constitution
 poison instead of a Dexterity poison. This poison works the same as the normal grippli _toxic skin_

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&False Attacker (Ex)&FN&**
+**False Attacker (Ex)**
 
 **Immediate:** Whenever the rogue strikes a foe from hiding, she can attempt a
 [Bluff](ref/skill/bluff) check (opposed by the target's Sense Motive or Perception check, whichever

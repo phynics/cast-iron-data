@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shackle Smash (Ex)&FN&**
+**Shackle Smash (Ex)**
 
 **Ability:** Perhaps trained to remove or destroy restraints from slaves and prisoners by the
 Twilight Talons or [Bellflower Network](ref/rule/aff-antislavery), a vigilante with this talent can

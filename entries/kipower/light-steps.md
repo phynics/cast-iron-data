@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Light Steps (Ex)&FN&**
+**Light Steps (Ex)**
 
 **Ability:** Whenever the monk activates his _feather balance_ ki power, he can also ignore all
 [difficult terrain](ref/rule/terrain-and-obstacles). In addition, while active, he can cross any

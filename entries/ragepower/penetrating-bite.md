@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Penetrating Bite (Ex)&FN&**
+**Penetrating Bite (Ex)**
 
 **Flavor:** When using the _animal fury_ rage power while _raging,_ the barbarian's bite is able to
 pierce most resistances.

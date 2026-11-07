@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Infernal Contract&FN&**
+**Infernal Contract**
 
 **Ability:** You gain the [misfortune](ref/hex/misfortune) hex at 1st level.
 

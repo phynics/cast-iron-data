@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bleeding Wound (Ex)&FN&**
+**Bleeding Wound (Ex)**
 
 **Free:** When the gunslinger hits a living creature with a firearm attack, she can spend 1 grit
 point to have that attack deal extra [bleed](ref/rule/bleed) damage. The amount of bleed damage is

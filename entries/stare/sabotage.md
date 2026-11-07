@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sabotage&FN&**
+**Sabotage**
 
 **Info:** The _hypnotic stare_ penalty also applies to Diplomacy and Intimidate checks.

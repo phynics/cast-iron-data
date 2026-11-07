@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Signature Poison (Ex)&FN&**
+**Signature Poison (Ex)**
 
 **Ability:** When she uses the chosen poison, the poison's saving throw DC increases by +2.
 

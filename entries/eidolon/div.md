@@ -17,7 +17,7 @@ summoners to existences full of suffering and loss. Each div eidolon has a uniqu
 follow - usually something similar to the [doru's](ref/monster/div-doru) obsession with secrets -
 that leads it to bargain its loyalty for something the summoner provides. The div's summoner uses
 his eidolon's compulsion to entrap and control the eidolon. Still, div eidolons never fully give in,
-and continue to plot ways they might corrupt that which their masters hold dearest.&FN&
+and continue to plot ways they might corrupt that which their masters hold dearest.
 
 **Alignment**
 

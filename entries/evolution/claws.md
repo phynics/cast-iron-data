@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Claws (Ex)&FN&**
+**Claws (Ex)**
 
 **Ability:** An eidolon has a pair of vicious claws at the end of its limbs, giving it two
 [claw attacks](ref/umr/natural-attacks). These attacks are primary attacks. The claws deal 1d4

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Obscurity (Ex)&FN&**
+**Obscurity (Ex)**
 
 **Ability:** This social talent functions exactly as the [renown](ref/soctalent/renown) social
 talent, but instead of improving the starting attitude of all NPCs within the community, it empowers

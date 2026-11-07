@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sticky Bomb&FN&**
+**Sticky Bomb**
 
 **Ability:** The effects of the alchemist's bombs are persistent and continue to damage creatures
 for 1 round after the initial damage. Creatures that take a direct hit from a _sticky bomb_ take the

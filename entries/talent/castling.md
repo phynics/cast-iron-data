@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Castling (Ex)&FN&**
+**Castling (Ex)**
 
 **Passive:** The rogue treats soft cover granted by creatures of her size or larger as though it
 were [cover](ref/rule/cover) instead. Cover the rogue gains from this talent does not allow her to

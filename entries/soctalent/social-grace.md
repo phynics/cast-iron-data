@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Social Grace (Ex)&FN&**
+**Social Grace (Ex)**
 
 **Choice:** The vigilante selects any one Intelligence-, Wisdom-, or Charisma-based skill other than
 Perception or Use Magic Device.

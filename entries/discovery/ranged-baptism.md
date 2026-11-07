@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ranged Baptism&FN&**
+**Ranged Baptism**
 
 **Ability:** When the alchemist uses [holy water](ref/eq-weapon/holy-water) as a splash weapon, any
 squares subject to its effects (including creatures affected by splash damage) or that contain

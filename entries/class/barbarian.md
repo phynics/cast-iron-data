@@ -700,6 +700,7 @@ when no other option is available.
 |[Wild Rager](ref/arc-barbarian/wild-rager)||||||X|||||||||||||||||||||X|X||
 |[Wildborn](ref/arc-barbarian/wildborn)|||X|||||||X|||||||||||X||||||||X|
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for barbarian are listed on the separate class options page._
+_The favored class options for barbarian are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

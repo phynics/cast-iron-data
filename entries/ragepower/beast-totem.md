@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Beast Totem (Su)&FN&**
+**Beast Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian gains a natural armor bonus. This bonus is equal to 1 +
 one-fourth of her barbarian level.

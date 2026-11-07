@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poisoner (Ex)&FN&**
+**Poisoner (Ex)**
 
 **Ability:** The vigilante gains the alchemist's [poison use](ref/ability/poison-use) class feature.
 

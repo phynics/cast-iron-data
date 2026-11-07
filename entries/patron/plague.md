@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Plague&FN&**
+**Plague**
 
 **Info:** The Plague patron grants the following spells at the listed witch levels.
 

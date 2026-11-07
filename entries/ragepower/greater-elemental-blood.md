@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Elemental Blood (Su)&FN&**
+**Greater Elemental Blood (Su)**
 
 **Ability:** While _raging,_ the barbarian gains a special movement type or bonus based on her
 chosen element: **acid** grants a burrow speed of 30 feet, **cold** grants a swim speed of 60 feet,

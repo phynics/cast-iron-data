@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Darkness Bomb&FN&**
+**Darkness Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it suppress light sources on
 the target. This extinguishes nonmagical light sources carried by the target and dispels magical

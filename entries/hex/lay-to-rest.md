@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lay to Rest (Sp)&FN&**
+**Lay to Rest (Sp)**
 
 **Ability:** The witch may target a single undead creature with this hex as if with an
 [undeath to death](ref/spell/undeath-to-death) spell. A Will save negates this effect.

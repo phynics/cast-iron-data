@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Agony (Su)&FN&**
+**Agony (Su)**
 
 **Ability:** With a quick incantation, a witch can place this hex on one creature within 60 feet,
 causing them to suffer intense pain. The target is [nauseated](ref/misc/nauseated) for a number of

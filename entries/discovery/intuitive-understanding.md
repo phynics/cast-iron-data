@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Intuitive Understanding&FN&**
+**Intuitive Understanding**
 
 **At 10th Level:** He can use [divination](ref/spell/divination) instead.
 

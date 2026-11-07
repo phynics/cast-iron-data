@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unexpected Strike (Ex)&FN&**
+**Unexpected Strike (Ex)**
 
 **Ability:** The barbarian can make an attack of opportunity against a foe that moves into any
 square threatened by the barbarian, regardless of whether or not that movement would normally

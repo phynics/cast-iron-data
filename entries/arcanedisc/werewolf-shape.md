@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Werewolf Shape&FN&**
+**Werewolf Shape**
 
 **Ability:** When you cast [beast shape IV](ref/spell/beast-shape-4) or
 [shapechange](ref/spell/shapechange), you can choose to take the shape of a werewolf in addition to

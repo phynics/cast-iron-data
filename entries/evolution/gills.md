@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gills (Ex)&FN&**
+**Gills (Ex)**
 
 **Ability:** An eidolon has gills and can breathe underwater indefinitely.

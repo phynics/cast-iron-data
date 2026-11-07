@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Camouflage (Ex)&FN&**
+**Camouflage (Ex)**
 
 **Ability:** Once per day, a rogue with this talent can craft simple but effective camouflage from
 the surrounding foliage. The rogue needs 1 minute to prepare the camouflage, but once she does, it

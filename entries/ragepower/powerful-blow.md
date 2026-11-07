@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Powerful Blow (Ex)&FN&**
+**Powerful Blow (Ex)**
 
 **Swift:** The barbarian gains a bonus on a single damage roll. This bonus is equal to 1 +
 one-fourth of her barbarian level. This power is used before the roll to hit is made.

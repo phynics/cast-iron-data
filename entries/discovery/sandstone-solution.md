@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sandstone Solution&FN&**
+**Sandstone Solution**
 
 **Fullround:** The alchemist can convert any potion or extract into a solution that, when thrown or
 applied, solidifies sand or dirt to the [hardness](ref/umr/hardness) of stone for 1 hour, affecting

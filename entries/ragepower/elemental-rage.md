@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elemental Rage (Su)&FN&**
+**Elemental Rage (Su)**
 
 **Passive:** While _raging,_ all of the barbarian's melee attacks deal an additional 1d6 points of
 energy damage (acid, cold, electricity, or fire). The type is chosen when the barbarian begins her

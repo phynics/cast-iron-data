@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Frightening Tune (Sp)&FN&**
+**Frightening Tune (Sp)**
 
 **At 14th Level:** A bard can use his performance to cause fear in his enemies. To be affected, an
 enemy must be able to hear the bard perform and be within 30 feet. Each enemy within range receives

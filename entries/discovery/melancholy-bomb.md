@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Melancholy Bomb&FN&**
+**Melancholy Bomb**
 
 **Ability:** Creatures who take damage from your _anguish bombs_ are also affected as per
 [crushing despair](ref/spell/crushing-despair) for 1 round per alchemist level, or a single round if

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sapping Offensive (Ex)&FN&**
+**Sapping Offensive (Ex)**
 
 **Ability:** When the investigator damages a studied target, that creature cannot make attacks of
 opportunity for 1 round.

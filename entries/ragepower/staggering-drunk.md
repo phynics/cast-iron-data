@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Staggering Drunk (Ex)&FN&**
+**Staggering Drunk (Ex)**
 
 **Passive:** While _raging,_ a barbarian gains a +1 dodge bonus to AC against attacks of opportunity
 for each alcoholic drink she has consumed during her _rage,_ to a maximum of +1 per four barbarian

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dragon Totem (Su)&FN&**
+**Dragon Totem (Su)**
 
 **Choice:** The barbarian must select a single color of dragon (black, blue, brass, bronze, copper,
 gold, green, red, silver, or white) as her totem.

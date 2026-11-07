@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Profane Bomb&FN&**
+**Profane Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it deal evil divine damage.
 Good creatures that take a direct hit from a _profane bomb_ must succeed at a Fortitude save or be

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychic Preparation&FN&**
+**Psychic Preparation**
 
 **Ability:** You have learned a limited way to access [psychic magic](ref/rule/psychic-magic). When
 you first prepare your spells for the day, you can prepare one spell as a psychic spell. This spell

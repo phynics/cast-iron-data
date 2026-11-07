@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sting (Ex)&FN&**
+**Sting (Ex)**
 
 **Ability:** The eidolon possesses a long, barbed stinger at the end of its tail, granting it a
 [sting attack](ref/umr/natural-attacks). This attack is a primary attack. The sting deals 1d4 points

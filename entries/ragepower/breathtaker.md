@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Breathtaker (Ex)&FN&**
+**Breathtaker (Ex)**
 
 **Ability:** While _raging,_ whenever the barbarian makes a successful melee attack against an
 opponent that is [holding its breath](ref/misc/hold-your-breath), in addition to any other effects

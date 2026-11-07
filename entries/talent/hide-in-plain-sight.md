@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hide in Plain Sight (Ex)&FN&**
+**Hide in Plain Sight (Ex)**
 
 **Ability:** A rogue with this talent can select a single terrain from the ranger's
 [favored terrain](ref/ability/favored-terrain) list. She is a master at hiding in that terrain, and

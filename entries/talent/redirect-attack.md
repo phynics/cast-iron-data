@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Redirect Attack (Ex)&FN&**
+**Redirect Attack (Ex)**
 
 **Ability:** Once per day, when a rogue with this talent is hit with a melee attack, she can
 redirect the attack to strike at an adjacent creature with a **free action**. The creature targeted

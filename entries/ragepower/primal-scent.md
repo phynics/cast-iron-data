@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Primal Scent (Ex)&FN&**
+**Primal Scent (Ex)**
 
 **Passive:** When using her _[scent](ref/rule/scent)_ rage power, the barbarian adds half her
 barbarian level on Survival checks made to track by scent and on Perception checks to pinpoint the

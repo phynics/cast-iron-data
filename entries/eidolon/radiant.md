@@ -12,7 +12,7 @@ kind = "none"
 +++
 
 Practically glowing with the Positive Energy Plane's potential, radiant eidolons make for
-passionate, if judgmental, companions that often have avian features.&FN&
+passionate, if judgmental, companions that often have avian features.
 
 **Alignment**
 

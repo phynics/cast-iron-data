@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Energy Eruption (Su)&FN&**
+**Energy Eruption (Su)**
 
 **Ability:** While _raging,_ the barbarian can absorb energy from a single attack and unleash it
 upon her enemies. She does not make a saving throw against the effect but takes no damage from it.

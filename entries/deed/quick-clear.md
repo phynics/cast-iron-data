@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quick Clear (Ex)&FN&**
+**Quick Clear (Ex)**
 
 **Prereq:** 1st-level gunslinger
 

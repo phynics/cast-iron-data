@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Entropy&FN&**
+**Entropy**
 
 **Info:** The Entropy patron grants the following spells at the listed witch levels.
 

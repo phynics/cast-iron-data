@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Maneuvering Dodge (Ex)&FN&**
+**Maneuvering Dodge (Ex)**
 
 **At 8th Level:** This bonus increases to +4.
 

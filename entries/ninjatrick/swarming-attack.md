@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swarming Attack&FN&**
+**Swarming Attack**
 
 **Ability:** While using the swarming racial trait to share a space with an ally, a ninja with this
 talent gains a bonus on damage roles equal to the number of sneak attack dice her ally has. For

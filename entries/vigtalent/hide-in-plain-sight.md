@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hide in Plain Sight (Ex)&FN&**
+**Hide in Plain Sight (Ex)**
 
 **Ability:** The vigilante can use Stealth to hide even when being observed. As long as he is within
 10 feet of [dim light](ref/rule/vision-and-light) (his own shadow doesn't count), he can hide

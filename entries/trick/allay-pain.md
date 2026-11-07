@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Allay Pain&FN&**
+**Allay Pain**
 
 **Ability:** The subject of this trick gains DR 15/- against one attack that deals nonlethal damage.
 The mesmerist can trigger this trick whenever the subject is hit with an attack that deals nonlethal

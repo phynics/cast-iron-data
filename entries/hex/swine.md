@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swine (Su)&FN&**
+**Swine (Su)**
 
 **Ability:** The witch can partially transform an enemy into a pig. The effects of the
 transformation are mostly cosmetic and do not change the creature's size category or overall shape,

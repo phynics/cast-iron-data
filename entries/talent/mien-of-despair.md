@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mien of Despair (Su)&FN&**
+**Mien of Despair (Su)**
 
 **Ability:** When a rogue with this talent successfully demoralizes an opponent using the
 [Intimidate](ref/skill/intimidate) skill or performs a successful [feint](ref/rule/feint) against an

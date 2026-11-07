@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Alchemical Strike&FN&**
+**Alchemical Strike**
 
 **Ability:** Gain [Alchemical Strike](ref/feat/alchemical-strike) as a bonus feat. You do not need
 to meet its prerequisites.

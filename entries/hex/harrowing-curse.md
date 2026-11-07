@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Harrowing Curse (Su)&FN&**
+**Harrowing Curse (Su)**
 
 **Ability:** The witch can curse a target creature by touching it with a card randomly drawn from a
 [harrow deck](ref/eq-misc/harrow-deck) she owns. The target is affected as if by the spell

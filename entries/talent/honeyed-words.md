@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Honeyed Words (Ex)&FN&**
+**Honeyed Words (Ex)**
 
 **Ability:** The rogue can roll two dice while making a Bluff check, and take the better result. She
 must choose to use this talent before making the Bluff check.

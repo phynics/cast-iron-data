@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bloody Fist (Ex)&FN&**
+**Bloody Fist (Ex)**
 
 **Ability:** While _raging,_ the barbarian may attempt to punch through an opponent's flesh and rip
 out one of its vital organs. In order to do so, the barbarian must confirm a critical hit against an

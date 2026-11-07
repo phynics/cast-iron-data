@@ -13,6 +13,6 @@ kind = "none"
 
 **Details:** The paladin's lay on hands also acts as [regenerate](ref/spell/regenerate), but only
 for the purposes of regrowing severed body members, broken bones, and ruined organs. The paladin
-must have the [injured](ref/mercy/injured) mercy before she can select this mercy.&FN&
+must have the [injured](ref/mercy/injured) mercy before she can select this mercy.
 
-**Title:** &L&Amputated
+**Title:** Amputated

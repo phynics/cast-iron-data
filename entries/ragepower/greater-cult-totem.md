@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Cult Totem (Ex)&FN&**
+**Greater Cult Totem (Ex)**
 
 **Passive:** While the barbarian is _raging,_ when she takes hit point damage that would render her
 [dying](ref/misc/dying) or [dead](ref/misc/dead), she remains conscious and _raging_ until the end

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wisdom&FN&**
+**Wisdom**
 
 **Info:** The Wisdom patron grants the following spells at the listed witch levels.
 

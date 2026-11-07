@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Twisting Fear (Ex)&FN&**
+**Twisting Fear (Ex)**
 
 **Ability:** Whenever the vigilante causes an opponent to gain the [shaken](ref/misc/shaken),
 [frightened](ref/misc/frightened), or [panicked](ref/misc/panicked) condition, that opponent takes

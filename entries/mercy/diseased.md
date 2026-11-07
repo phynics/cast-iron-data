@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The paladin's lay on hands ability also acts as
-[remove disease](ref/spell/remove-disease), using the paladin's level as the caster level.&FN&
+[remove disease](ref/spell/remove-disease), using the paladin's level as the caster level.
 
-**Title:** &L&Diseased
+**Title:** Diseased

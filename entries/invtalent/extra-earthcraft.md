@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Extra Earthcraft&FN&**
+**Extra Earthcraft**
 
 **Ability:** The investigator gains 2 additional earthcraft points each day. The investigator must
 have the [earthcraft](ref/arc-rogue/earthshadow) ability to select this talent.

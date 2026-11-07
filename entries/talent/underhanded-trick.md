@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Underhanded Trick&FN&**
+**Underhanded Trick**
 
 **Ability:** A rogue who selects this talent gains
 [Improved Dirty Trick](ref/feat/improved-dirty-trick) as a bonus feat, even if she does not meet the

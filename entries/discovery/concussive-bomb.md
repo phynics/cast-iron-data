@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Concussive Bomb&FN&**
+**Concussive Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it inflict sonic damage.
 _Concussive bombs_ deal 1d4 points of sonic damage, plus 1d4 points of sonic damage for every

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&City Sight (Su)&FN&**
+**City Sight (Su)**
 
 **Ability:** On a failed Fortitude save, the subject loses the use of
 [darkvision](ref/rule/darkvision), [greensight](ref/umr/greensight),

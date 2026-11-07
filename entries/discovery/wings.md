@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wings&FN&**
+**Wings**
 
 **Ability:** The alchemist gains bat-like, bird-like, or insect-like functional wings, allowing him
 to fly as the [fly](ref/spell/fly) spell for a number of minutes per day equal to his caster level.

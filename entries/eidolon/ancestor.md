@@ -16,8 +16,7 @@ calling upon the impressions of such a soul left behind on the Ethereal Plane or
 ancestor eidolons are outsiders cast in the mold of mortals, and exhibit extraordinary skill and
 talent. They usually appear as idealized versions of the bodies they possessed while still alive,
 but distinctive and proud. Ancestor eidolons lend whatever aid they can to their summoner, who
-typically has some form of familial connection with the eidolon, be it by blood, honor, or
-devotion.&FN&
+typically has some form of familial connection with the eidolon, be it by blood, honor, or devotion.
 
 **Alignment**
 

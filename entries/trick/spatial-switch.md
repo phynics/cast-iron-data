@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spatial Switch&FN&**
+**Spatial Switch**
 
 **Ability:** The mesmerist can trigger this trick when an enemy moves adjacent to or attacks either
 the subject or the mesmerist, provided the subject and the mesmerist are within 100 feet of one

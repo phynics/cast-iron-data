@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sniper (Ex)&FN&**
+**Sniper (Ex)**
 
 **Ability:** The vigilante can deal _hidden strike_ damage with ranged attacks at any distance,
 rather than within 30 feet.

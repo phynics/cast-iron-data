@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Didactic Strike&FN&**
+**Didactic Strike**
 
 **Ability:** When the investigator activates his _studied strike,_ he can end his _studied combat_
 and choose not to deal his _studied strike_ damage. He is instead able to show any allies within 30

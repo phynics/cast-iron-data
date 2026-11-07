@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychic Defense (Su)&FN&**
+**Psychic Defense (Su)**
 
 **Ability:** Casting a linked spell during a social encounter and spending 1 point from her phrenic
 pool allows the psychic to add a +4 bonus on her next Bluff, Diplomacy, Intimidate, or Sense Motive

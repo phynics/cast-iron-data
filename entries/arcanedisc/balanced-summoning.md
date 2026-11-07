@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Balanced Summoning&FN&**
+**Balanced Summoning**
 
 **Ability:** Whenever you cast a _[summon monster](ref/spell/summon-monster)_ spell, you can summon
 two creatures from a single list 1 or more levels lower than the level of the spell. The two

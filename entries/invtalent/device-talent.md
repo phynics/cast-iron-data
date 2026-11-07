@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Device Talent (Ex)&FN&**
+**Device Talent (Ex)**
 
 **Ability:** The investigator can use the [Use Magic Device](ref/skill/use-magic-device) skill even
 if not trained in that skill. If the investigator is trained in Use Magic Device, he can use the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bare-Hand Block (Ex)&FN&**
+**Bare-Hand Block (Ex)**
 
 **Immediate:** A monk with this ability can spend 1 ki point when attacked with a manufactured
 weapon to attempt an unarmed [sunder](ref/rule/sunder) combat maneuver check against it. If he

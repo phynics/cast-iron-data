@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Conflicted Identity (Ex)&FN&**
+**Conflicted Identity (Ex)**
 
 **Flavor:** The vigilante's mind is in a constant state of turmoil, which makes him even more
 ethically and morally fluid than other vigilantes.

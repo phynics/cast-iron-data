@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lethal Grace (Ex)&FN&**
+**Lethal Grace (Ex)**
 
 **Ability:** The vigilante combines strength and speed into incredibly deadly attacks. He gains
 [Weapon Finesse](ref/feat/weapon-finesse) as a bonus feat, and if he already has the Weapon Finesse

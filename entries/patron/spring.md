@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spring&FN&**
+**Spring**
 
 **Info:** The Spring patron grants the following spells at the listed witch levels.
 

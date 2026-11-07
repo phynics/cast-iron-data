@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sunlight Strike (Ex)&FN&**
+**Sunlight Strike (Ex)**
 
 **Swift:** The slayer can reflect sunlight (or other sources of bright light) into the eyes of an
 adjacent target, causing it to gain the [dazzled](ref/misc/dazzled) condition for 1 round.

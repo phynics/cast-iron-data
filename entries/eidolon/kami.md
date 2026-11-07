@@ -13,7 +13,7 @@ kind = "none"
 
 [Kami](ref/family/kami) eidolons are spirits of nature bound to an unchained summoner. They seek to
 protect their wards, but because of their summoner's bond, they have more flexibility choosing their
-wards than most of their kind.&FN&
+wards than most of their kind.
 
 **Alignment**
 

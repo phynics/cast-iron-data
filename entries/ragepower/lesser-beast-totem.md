@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Beast Totem (Su)&FN&**
+**Lesser Beast Totem (Su)**
 
 **Ability:** While _raging,_ the barbarian gains two [claw attacks](ref/umr/natural-attacks). These
 attacks are considered primary attacks and are made at the barbarian's full base attack bonus. The

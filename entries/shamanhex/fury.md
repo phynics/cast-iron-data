@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fury (Su)&FN&**
+**Fury (Su)**
 
 **Ability:** A shaman incites a creature within 30 feet into a primal fury. The target receives a +2
 morale bonus on attack rolls and a +2 resistance bonus on saving throws against fear for a number of

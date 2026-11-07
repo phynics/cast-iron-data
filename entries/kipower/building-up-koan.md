@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Building-Up Koan (Su)&FN&**
+**Building-Up Koan (Su)**
 
 **Prereq:** 8th-level monk
 

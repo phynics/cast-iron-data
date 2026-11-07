@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Snap Shot (Ex)&FN&**
+**Snap Shot (Ex)**
 
 **Ability:** A rogue with this talent may treat her intitiative roll as a 20 for a surprise round,
 regardless of her initiative, but she may only take an attack action with a ranged weapon. Her

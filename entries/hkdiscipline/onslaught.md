@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Onslaught (Su)&FN&**
+**Onslaught (Su)**
 
 **Free:** Once per day, a Hellknight increases his base speed by +10 feet and gains a +4 bonus to
 his Strength for 1 round. If the Hellknight is mounted, these bonuses also apply to his mount.

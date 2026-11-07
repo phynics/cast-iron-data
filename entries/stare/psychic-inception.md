@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychic Inception&FN&**
+**Psychic Inception**
 
 **Info:** The _hypnotic stare_ and its penalty can affect creatures that are mindless or immune to
 mind-affecting effects (such as an undead or vermin). The mesmerist can also partially affect such a

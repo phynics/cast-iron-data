@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&No Place Like Home (Su)&FN&**
+**No Place Like Home (Su)**
 
 **Ability:** The witch fills an ally with the safety he feels at home or inflicts pangs of
 homesickness to hamper an enemy's defenses. She chooses a target for the hex within 30 feet. If she

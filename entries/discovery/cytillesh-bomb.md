@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cytillesh Bomb&FN&**
+**Cytillesh Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can infuse it with
 [cytillesh extract](ref/eq-poison/cytillesh-extract). _Cytillesh bombs_ deal 1d4 points of damage,

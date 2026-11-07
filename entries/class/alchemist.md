@@ -1050,6 +1050,7 @@ to manipulate and entice giant vultures or dire bats to do their bidding.
 |[Wasteland Blightbreaker](ref/arc-alchemist/wasteland-blightbreaker)|||||||||||||||X||||||||||X||X||X||||
 |[Winged Marauder](ref/arc-alchemist/winged-marauder)|||||||||||X|||||||||||X|X||||||||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for alchemist are listed on the separate class options page._
+_The favored class options for alchemist are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

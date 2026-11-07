@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Chaos Totem (Su)&FN&**
+**Chaos Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian's form becomes infused with chaos. She gains a +4 bonus
 on Escape Artist checks and has a 25% chance to ignore extra damage from critical hits and sneak

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Command (Sp)&FN&**
+**Command (Sp)**
 
 **Ability:** The Hellknight can use [greater command](ref/spell/command-greater) as a
 [spell-like ability](ref/umr/spell-like-abilities), using her character level as her caster level.

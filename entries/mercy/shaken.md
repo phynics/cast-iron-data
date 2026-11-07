@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer shaken.&FN&
+**Details:** The target is no longer shaken.
 
-**Title:** &L&Shaken
+**Title:** Shaken

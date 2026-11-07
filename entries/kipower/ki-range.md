@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Range (Su)&FN&**
+**Ki Range (Su)**
 
 **Special:** Apply this benefit before doubling the range increment with the
 [Far Shot](ref/feat/far-shot) feat.

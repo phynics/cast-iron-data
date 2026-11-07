@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Boneshard Bomb&FN&**
+**Boneshard Bomb**
 
 **Ability:** The alchemist's bomb deals piercing damage instead of fire damage, and creatures that
 take a direct hit from a _boneshard bomb_ must succeed at a Fortitude save or take 1d4 points of

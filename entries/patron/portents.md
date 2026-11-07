@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Portents&FN&**
+**Portents**
 
 **Info:** The Portents patron grants the following spells at the listed witch levels.
 

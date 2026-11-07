@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wall Climber (Su)&FN&**
+**Wall Climber (Su)**
 
 **Ability:** A ninja with this ability gains a climb speed of 20 feet, but only on vertical
 surfaces. This ability cannot be used to scale perfectly smooth surfaces or to climb on the

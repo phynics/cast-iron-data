@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shock Bomb&FN&**
+**Shock Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it inflict electricity damage.
 Creatures that take a direct hit from a _shock bomb_ are [dazzled](ref/misc/dazzled) for 1d4 rounds.

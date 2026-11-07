@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Substantiating Bomb&FN&**
+**Substantiating Bomb**
 
 **Ability:** You can throw a bomb that inflicts no damage but instead creates a 10-foot-radius cloud
 of fog that functions as [fog cloud](ref/spell/fog-cloud) and lasts for 1 round per alchemist level.

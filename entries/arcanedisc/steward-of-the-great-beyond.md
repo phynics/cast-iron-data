@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Steward of the Great Beyond&FN&**
+**Steward of the Great Beyond**
 
 **Immediate:** Whenever a creature attempts to use a teleportation effect or summon a creature
 within 30 feet of you, you may attempt to block the effect. Make an opposed caster level check

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blood Reader (Ex)&FN&**
+**Blood Reader (Ex)**
 
 **Ability:** While able to see a _studied target,_ a slayer with this talent knows exactly how many
 hit points his opponent has remaining. This only works against living targets.

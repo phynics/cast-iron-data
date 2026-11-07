@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mercy&FN&**
+**Mercy**
 
 **Info:** The Mercy patron grants the following spells at the listed witch levels.
 

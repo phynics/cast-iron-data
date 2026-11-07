@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&False Spellcaster (Ex)&FN&**
+**False Spellcaster (Ex)**
 
 **Ability:** The investigator can modify her extracts to be delivered as oils she can apply covertly
 to her skin. She can fake verbal or somatic components as she uses an extract this way to trick

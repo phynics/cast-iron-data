@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Impelling Disarm (Ex)&FN&**
+**Impelling Disarm (Ex)**
 
 **Ability:** The barbarian can make a [disarm](ref/rule/disarm) attempt against a target in place of
 a melee attack. This attempt does not provoke attacks of opportunity.

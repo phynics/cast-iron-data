@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Repositioning Strike (Ex)&FN&**
+**Repositioning Strike (Ex)**
 
 **Free:** When the investigator deals damage with _studied strike,_ he can perform a
 [reposition](ref/rule/reposition) combat maneuver against the creature damaged by _studied strike._

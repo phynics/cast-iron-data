@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Voice of Reason&FN&**
+**Voice of Reason**
 
 **Ability:** The mesmerist can trigger this trick when the subject attempts a saving throw to
 disbelieve a sight-based illusion effect, but only so long as the mesmerist is not affected by or

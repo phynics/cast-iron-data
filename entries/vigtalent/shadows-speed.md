@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow's Speed (Ex)&FN&**
+**Shadow's Speed (Ex)**
 
 **Ability:** The vigilante's base speed increases by 10 feet.
 

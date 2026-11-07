@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&True Name (Sp)&FN&**
+**True Name (Sp)**
 
 **Action:** Ability
 

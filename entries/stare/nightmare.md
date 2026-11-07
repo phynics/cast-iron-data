@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nightmare&FN&**
+**Nightmare**
 
 **Info:** The target of the _hypnotic stare_ rolls twice on all Will saves versus fear, taking the
 lower result.

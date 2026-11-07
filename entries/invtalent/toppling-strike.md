@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Toppling Strike (Ex)&FN&**
+**Toppling Strike (Ex)**
 
 **Free:** When the investigator deals damage with _studied strike,_ he can perform a
 [trip](ref/rule/trip) combat maneuver against the creature damaged by _studied strike._ This trip

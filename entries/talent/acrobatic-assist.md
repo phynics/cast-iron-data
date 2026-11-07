@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Acrobatic Assist (Ex)&FN&**
+**Acrobatic Assist (Ex)**
 
 **Ability:** You can expend an attack of opportunity to perform an
 [aid another](ref/rule/aid-another) action to assist an adjacent ally's Acrobatics check, so long as

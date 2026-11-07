@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Celestial Totem (Su)&FN&**
+**Celestial Totem (Su)**
 
 **Ability:** While _raging,_ the barbarian shines with a righteous light. This effect bestows upon
 the barbarian a halo of gleaming light that shines as if it were [daylight](ref/spell/daylight) and

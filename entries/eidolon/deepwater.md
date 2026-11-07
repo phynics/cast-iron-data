@@ -17,7 +17,7 @@ depths, drawing forth utterly inhuman allies with squirming tentacles and gnashi
 these eidolons may superficially resemble primeval beasts such as
 [aboleths](ref/monster/alghollthu-aboleth), [krakens](ref/monster/kraken), or monstrous squids or
 eels - if they resemble any previously encountered deep-sea life-form at all - they are outsiders
-like any other eidolon for the purposes of spells and effects that affect them.&FN&
+like any other eidolon for the purposes of spells and effects that affect them.
 
 **Alignment**
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Elemental Totem (Su)&FN&**
+**Lesser Elemental Totem (Su)**
 
 **Choice:** The barbarian selects one elemental type (air, earth, fire, or water). Once selected,
 this choice cannot be changed.

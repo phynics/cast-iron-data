@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mass Suggestion (Sp)&FN&**
+**Mass Suggestion (Sp)**
 
 **At 18th Level:** This ability functions just like [suggestion](ref/performance/suggestion), but
 allows a bard to make a _[suggestion](ref/spell/suggestion)_ simultaneously to any number of

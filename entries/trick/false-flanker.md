@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&False Flanker&FN&**
+**False Flanker**
 
 **Ability:** The mesmerist can trigger this trick when the subject moves into or begins her turn in
 a square where she threatens an enemy. An illusory duplicate of the mesmerist appears in any

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Expert Leaper (Ex)&FN&**
+**Expert Leaper (Ex)**
 
 **Passive:** When making jump checks, the rogue is always considered to have a running start. Also,
 when the rogue deliberately falls, a DC 15 Acrobatics check allows her to ignore the first 20 feet

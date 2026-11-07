@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spectral Smoke&FN&**
+**Spectral Smoke**
 
 **Ability:** The mesmerist can trigger this trick when the subject is targeted by an attack or by a
 spell that requires an attack roll. A smoke cloud appears in the subject's square and in a 10-foot

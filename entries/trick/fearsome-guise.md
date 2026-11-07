@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fearsome Guise&FN&**
+**Fearsome Guise**
 
 **Ability:** While this trick is implanted, the subject's appearance is altered, as
 [disguise self](ref/spell/disguise-self). The mesmerist can trigger this trick when the subject

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Witch Hex&FN&**
+**Witch Hex**
 
 **Ability:** The shaman selects any one hex normally available through the
 [witch's](ref/class/witch) _hex_ class feature. She treats her shaman level as her witch level when

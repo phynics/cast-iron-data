@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Life Revier&FN&**
+**Life Revier**
 
 **Ability:** The mesmerist can trigger this trick when the subject attempts an Intelligence or
 Knowledge check to remember a previous experience. The subject receives flashes of her entire life

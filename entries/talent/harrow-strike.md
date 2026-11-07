@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Harrow Strike (Ex)&FN&**
+**Harrow Strike (Ex)**
 
 **Ability:** Once per day while making a sneak attack against a creature, you can draw a random card
 from a [harrow deck](ref/eq-misc/harrow-deck) you own. If your attack hits, instead of dealing sneak

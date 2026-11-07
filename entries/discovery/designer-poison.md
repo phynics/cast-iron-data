@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Designer Poison&FN&**
+**Designer Poison**
 
 **Ability:** When crafting a poison, the alchemist can choose a single creature type (and subtype,
 if appropriate) from the ranger's [favored enemy](ref/ability/favored-enemy) list. Against creatures

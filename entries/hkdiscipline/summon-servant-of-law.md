@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Summon Servant of Law (Sp)&FN&**
+**Summon Servant of Law (Sp)**
 
 **Ability:** The Hellknight can summon a creature or creatures to help her, as if using a
 [summon monster](ref/spell/summon-monster) spell.

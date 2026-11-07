@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The target gains [fast healing](ref/umr/fast-healing) 3 for a number of rounds equal to
-1/2 the paladin's level.&FN&
+1/2 the paladin's level.
 
-**Title:** &L&Injured
+**Title:** Injured

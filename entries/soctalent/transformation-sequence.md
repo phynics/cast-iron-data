@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Transformation Sequence (Su)&FN&**
+**Transformation Sequence (Su)**
 
 **Ability:** The vigilante can complete the switch between his identities in 5 rounds, improving to
 a **standard action** if he has the [quick change](ref/soctalent/quick-change) social talent, and to

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Overbearing Assault&FN&**
+**Overbearing Assault**
 
 **Ability:** If the attack hits, the monk can perform a free [reposition](ref/rule/reposition)
 combat maneuver against the target of the strike (using the base attack bonus of the attack used to

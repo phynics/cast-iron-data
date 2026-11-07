@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hunter's Surprise (Ex)&FN&**
+**Hunter's Surprise (Ex)**
 
 **Ability:** Once per day, a rogue with this talent can designate a single enemy she is adjacent to
 as her prey. Until the end of her next turn, she can add her sneak attack damage to all attacks made

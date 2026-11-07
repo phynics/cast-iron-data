@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rogue Talent (Ex)&FN&**
+**Rogue Talent (Ex)**
 
 **Ability:** The vigilante gains a single rogue talent (not an advanced talent) of his choice. If he
 selects a rogue talent that modifies sneak attack, that talent applies to his _hidden strikes_

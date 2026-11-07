@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ledge Walker (Unchained Rogue) (Ex)&FN&**
+**Ledge Walker (Unchained Rogue) (Ex)**
 
 **Ability:** The rogue can move along narrow surfaces at full speed using the Acrobatics skill
 without penalty. In addition, a rogue with this talent is not [flat-footed](ref/rule/flat-footed)

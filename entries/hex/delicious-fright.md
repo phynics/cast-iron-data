@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Delicious Fright&FN&**
+**Delicious Fright**
 
 **Ability:** The target of this hex becomes [shaken](ref/misc/shaken) for a number of rounds equal
 to 3 + the witch's Intelligence modifier. As long as the witch remains within 30 feet of her target,

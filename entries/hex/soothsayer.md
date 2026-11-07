@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Soothsayer (Su)&FN&**
+**Soothsayer (Su)**
 
 **Ability:** When the witch uses the [distraction](ref/hex/distraction) hex,
 [evil eye](ref/hex/evil-eye) hex, [fortune](ref/hex/fortune) hex, [misfortune](ref/hex/misfortune)

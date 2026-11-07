@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Superior Psychic Magic&FN&**
+**Superior Psychic Magic**
 
 **Ability:** The eidolon has 7 points of psychic magic to spend each day.
 

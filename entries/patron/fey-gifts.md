@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fey Gifts&FN&**
+**Fey Gifts**
 
 **Ability:** You gain the [charm](ref/hex/charm) hex at 1st level.
 

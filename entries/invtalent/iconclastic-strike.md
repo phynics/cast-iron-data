@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Iconclastic Strike (Ex)&FN&**
+**Iconclastic Strike (Ex)**
 
 **Free:** When the investigator deals damage with a _studied strike,_ she can perform a
 [sunder](ref/rule/sunder) combat maneuver against the creature the _studied strike_ damaged.

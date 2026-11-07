@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dread Bomb&FN&**
+**Dread Bomb**
 
 **Ability:** Creatures who take damage from your _anguish bombs_ become
 [frightened](ref/misc/frightened) for 1d6 rounds. A target that succeeds at a Will saving throw is

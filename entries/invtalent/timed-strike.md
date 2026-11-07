@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Timed Strike (Ex)&FN&**
+**Timed Strike (Ex)**
 
 **Ability:** When the investigator makes a _studied strike,_ he deal a number of points of
 additional damage equal to the number of consecutive rounds he studied the target with _studied

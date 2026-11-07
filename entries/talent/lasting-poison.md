@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lasting Poison (Ex)&FN&**
+**Lasting Poison (Ex)**
 
 **Ability:** A rogue with this talent can apply poison to a weapon in such a way that it is
 effective for two successful attacks instead of one. The poison has a reduced effect, however, and

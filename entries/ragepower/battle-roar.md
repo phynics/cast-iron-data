@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Battle Roar (Su)&FN&**
+**Battle Roar (Su)**
 
 **Ability:** When the character successfully demoralizes an opponent using _intimidating glare,_ he
 also deals 1d6 points of sonic damage to that opponent.

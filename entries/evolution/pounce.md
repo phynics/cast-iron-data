@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pounce (Ex)&FN&**
+**Pounce (Ex)**
 
 **Ability:** An eidolon gains quick reflexes, allowing it to make a full attack after a charge.
 

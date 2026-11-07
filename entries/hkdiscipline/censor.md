@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Censor (Su)&FN&**
+**Censor (Su)**
 
 **Ability:** When the Hellknight uses _smite chaos_ on a creature, he can strike the creature mute
 for 1d4 rounds unless it makes a successful Will save. A mute creature cannot speak, nor can it cast

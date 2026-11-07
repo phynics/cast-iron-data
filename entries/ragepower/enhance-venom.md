@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Enhance Venom (Ex)&FN&**
+**Enhance Venom (Ex)**
 
 **Passive:** The barbarian adds her Constitution modifier to the DC of any poison she delivers using
 _viper's kiss_ or _viper's breath._

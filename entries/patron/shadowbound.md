@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadowbound&FN&**
+**Shadowbound**
 
 **Ability:** You gain the [disguise](ref/hex/disguise) hex at 1st level.
 

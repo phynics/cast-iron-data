@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Marksman's Shot (Ex)&FN&**
+**Marksman's Shot (Ex)**
 
 **Ability:** As an attack action, the slayer makes a single ranged attack at his highest attack
 bonus with a ranged weapon he wields. The target of the attack must be the slayer's _studied

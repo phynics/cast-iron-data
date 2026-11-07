@@ -573,6 +573,7 @@ exist outside the boundaries of the sane multiverse.
 |[Vessel of the Failed](ref/arc-medium/vessel-of-the-failed)|||||||||||||||X|||||X|X|X||
 |[Voice of the Void](ref/arc-medium/voice-of-the-void)|||||||X||||||||X|||||||X||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for medium are listed on the separate class options page._
+_The favored class options for medium are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

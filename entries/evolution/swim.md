@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swim (Ex)&FN&**
+**Swim (Ex)**
 
 **Ability:** An eidolon gains webbed hands, feet, or powerful flippers, giving it a swim speed equal
 to its base speed. This evolution does not give the eidolon the ability to breathe underwater.

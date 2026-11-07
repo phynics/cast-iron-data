@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Iron Guts (Ex)&FN&**
+**Iron Guts (Ex)**
 
 **Passive:** A rogue with this talent has a cast-iron stomach or has trained herself to withstand
 poisons, especially ingested ones. She gains a +1 bonus on all saves against ingested poisons as

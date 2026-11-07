@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Infectious Charms&FN&**
+**Infectious Charms**
 
 **Ability:** Anytime you target and successfully affect a single creature with a charm or compulsion
 spell and that creature is within 30 feet of another opponent, your spell has a chance of affecting

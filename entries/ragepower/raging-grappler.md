@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Raging Grappler (Ex)&FN&**
+**Raging Grappler (Ex)**
 
 **Ability:** While _raging,_ the barbarian grapples her foes with the power and viciousness of a
 river crocodile. As long as she is _raging,_ whenever the barbarian succeeds at a check to start a

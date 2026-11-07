@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Trample (Ex)&FN&**
+**Trample (Ex)**
 
 **Flavor:** The eidolon gains the ability to crush its foes underfoot, gaining the
 [trample](ref/umr/trample) ability.

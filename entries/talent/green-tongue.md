@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Green Tongue (Ex)&FN&**
+**Green Tongue (Ex)**
 
 **Ability:** The rogue gains Aklo, Aquan, Auran, Giant, Ignan, Sylvan, or Terran as a bonus
 language. In addition, the rogue can attempt a DC 15 [Linguistics](ref/skill/linguistics) check to

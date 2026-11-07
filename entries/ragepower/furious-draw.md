@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Furious Draw&FN&**
+**Furious Draw**
 
 **Ability:** The barbarian is treated as having the [Quick Draw](ref/feat/quick-draw) feat.

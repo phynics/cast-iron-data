@@ -15,7 +15,7 @@ Summoned from heaven, [archon](ref/family/archon) eidolons are the embodiments o
 They often take on powerful, graceful forms, rippling with muscles but refined in their movements.
 Archon eidolons are totally dedicated to the cause of good, and have little patience for those who
 violate their oaths and ideals - including the summoner who called them. Archons will do whatever it
-takes to stop the advance of evil and protect the innocent.&FN&
+takes to stop the advance of evil and protect the innocent.
 
 **Alignment**
 

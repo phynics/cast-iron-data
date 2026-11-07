@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Petrifying Strike (Su)&FN&**
+**Petrifying Strike (Su)**
 
 **Ability:** Whenever the rogue damages a creature with one of her sneak attacks, she also deals 2
 points of [Dexterity damage](ref/rule/ability-damage-drain) to that creature as its body petrifies.

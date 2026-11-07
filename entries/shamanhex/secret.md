@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Secret (Ex)&FN&**
+**Secret (Ex)**
 
 **Ability:** The shaman receives one metamagic feat as a bonus feat. The shaman must meet the
 prerequisites for the feat.

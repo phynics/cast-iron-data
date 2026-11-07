@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Signature Weapon (Ex)&FN&**
+**Signature Weapon (Ex)**
 
 **Ability:** The vigilante must select one type of weapon (such as longsword or crossbow) when he
 gains this talent. He gains [Weapon Focus](ref/feat/weapon-focus) as a bonus feat for his selected

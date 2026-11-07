@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Armored Marauder (Ex)&FN&**
+**Armored Marauder (Ex)**
 
 **Ability:** A slayer with this talent gains proficiency with heavy armor. In addition, the armor
 check penalty of any heavy armor the slayer wears is reduced by 1 for every 6 class levels he has.

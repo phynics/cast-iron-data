@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sunder Enchantment (Su)&FN&**
+**Sunder Enchantment (Su)**
 
 **Ability:** While _raging,_ whenever the barbarian succeeds at a [sunder](ref/rule/sunder) combat
 maneuver on a magical item, that item's magical abilities are suppressed for 1 round, plus 1 round

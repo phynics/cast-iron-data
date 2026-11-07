@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Renewed Vigor (Ex)&FN&**
+**Renewed Vigor (Ex)**
 
 **Prereq:** 4th-level barbarian
 

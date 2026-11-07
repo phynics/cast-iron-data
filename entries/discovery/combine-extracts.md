@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Combine Extracts&FN&**
+**Combine Extracts**
 
 **Ability:** When the alchemist creates an extract, he can place two formulae into one extract. When
 the extract is consumed, both formulae take effect. This extract has a level two levels higher than

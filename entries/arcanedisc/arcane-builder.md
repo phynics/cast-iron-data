@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Arcane Builder&FN&**
+**Arcane Builder**
 
 **Ability:** Select one type of magic item (potions, wondrous items, and so on). You create items of
 this type 25% faster than normal, and gain a +4 bonus on Spellcraft checks (or other checks, as

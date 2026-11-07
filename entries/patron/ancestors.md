@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ancestors&FN&**
+**Ancestors**
 
 **Info:** The Ancestors patron grants the following spells at the listed witch levels.
 

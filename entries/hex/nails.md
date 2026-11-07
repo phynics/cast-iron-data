@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nails (Ex)&FN&**
+**Nails (Ex)**
 
 **Ability:** The witch's nails are long and sharp, and count as
 [natural weapons](ref/umr/natural-attacks) that deal 1d3 points of damage (1d2 for a Small witch).

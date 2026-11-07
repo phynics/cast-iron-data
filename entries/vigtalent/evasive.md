@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Evasive (Ex)&FN&**
+**Evasive (Ex)**
 
 **Ability:** The vigilante is hard to catch with area attacks. He gains the
 [evasion](ref/ability/evasion) ability.

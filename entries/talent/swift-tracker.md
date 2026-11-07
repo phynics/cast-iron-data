@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swift Tracker (Ex)&FN&**
+**Swift Tracker (Ex)**
 
 **Ability:** While following tracks, the rogue can move at her normal speed without penalty while
 using the [Survival](ref/skill/survival) skill. In addition, the penalty for moving at up to twice

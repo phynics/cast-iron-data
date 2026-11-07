@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Doppelganger Simulacrum&FN&**
+**Doppelganger Simulacrum**
 
 **Ability:** The alchemist learns how to create a [simulacrum](ref/spell/simulacrum), a soulless
 duplicate, into which he can project his consciousness.

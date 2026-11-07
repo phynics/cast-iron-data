@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspired Intimidator (Ex)&FN&**
+**Inspired Intimidator (Ex)**
 
 **Ability:** When the investigator succeeds at an Intimidate check to demoralize an opponent, he can
 expend one use of _inspiration_ to automatically increase the result of the check by 5 for the

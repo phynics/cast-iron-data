@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Amazing Inspiration (Ex)&FN&**
+**Amazing Inspiration (Ex)**
 
 **At 20th Level:** The investigator rolls 2d8 and adds both dice to the result.
 

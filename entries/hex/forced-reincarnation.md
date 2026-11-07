@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Forced Reincarnation (Su)&FN&**
+**Forced Reincarnation (Su)**
 
 **Ability:** The witch causes a creature within 30 feet to die and be immediately reincarnated into
 a new body. A Will save negates this effect. Those that fail are slain and immediately brought back

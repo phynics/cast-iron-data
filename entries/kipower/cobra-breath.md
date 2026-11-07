@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cobra Breath (Su)&FN&**
+**Cobra Breath (Su)**
 
 **Ability:** Whenever a monk with this ki power uses _diamond body_ to neutralize a poison, he can
 instead release that poison as a ranged touch attack against a single foe within 30 feet. If the

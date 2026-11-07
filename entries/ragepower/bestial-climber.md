@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bestial Climber (Ex)&FN&**
+**Bestial Climber (Ex)**
 
 **Ability:** While _raging,_ the barbarian gains a natural climb speed equal to her land speed.
 

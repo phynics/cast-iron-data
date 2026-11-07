@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Neutralizing Bomb&FN&**
+**Neutralizing Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to give it the potential to end
 certain ongoing effects instead of dealing damage.

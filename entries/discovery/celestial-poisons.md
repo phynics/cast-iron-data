@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Celestial Poisons&FN&**
+**Celestial Poisons**
 
 **Flavor:** The alchemist is able to infuse poisons with celestial power so they can affect evil
 creatures that are normally immune to poison.

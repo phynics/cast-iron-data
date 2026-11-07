@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Viper's Breath (Ex)&FN&**
+**Viper's Breath (Ex)**
 
 **Ability:** While holding a dose of poison in her mouth, the barbarian can exhale a 15-foot cone of
 inhaled poison. Anyone caught in the spray must succeed at a saving throw against the poison with a

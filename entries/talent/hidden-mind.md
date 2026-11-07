@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hidden Mind (Ex)&FN&**
+**Hidden Mind (Ex)**
 
 **Ability:** A rogue with this talent uses various devious techniques, including mental exercises
 and dusting her clothing with a small amount of lead, to protect herself from divinations, with the

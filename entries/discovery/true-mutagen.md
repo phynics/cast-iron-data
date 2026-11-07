@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&True Mutagen&FN&**
+**True Mutagen**
 
 **Passive:** The alchemist's _mutagen_ now grants a +8 natural armor bonus and a +8 alchemical bonus
 to Strength, Dexterity, and Constitution. The alchemist takes a -2 penalty to his Intelligence,

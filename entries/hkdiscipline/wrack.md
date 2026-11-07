@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wrack (Su)&FN&**
+**Wrack (Su)**
 
 **Standard:** The Hellknight may make a touch attack to cause a creature to suffer incredible pain.
 The creature touched takes 1d6 points of damage + the Hellknight's Charisma modifier, and must make

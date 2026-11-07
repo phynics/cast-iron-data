@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poison Bomb&FN&**
+**Poison Bomb**
 
 **Ability:** The effects of the smoke created by an alchemist's bomb duplicates the effects of
 [cloudkill](ref/spell/cloudkill) instead of [fog cloud](ref/spell/fog-cloud), filling an area equal

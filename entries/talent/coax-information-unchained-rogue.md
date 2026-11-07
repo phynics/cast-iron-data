@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Coax Information (Ex)&FN&**
+**Coax Information (Ex)**
 
 **Ability:** A rogue with this talent can use [Bluff](ref/skill/bluff) or
 [Diplomacy](ref/skill/diplomacy) in place of [Intimidate](ref/skill/intimidate) to force an opponent

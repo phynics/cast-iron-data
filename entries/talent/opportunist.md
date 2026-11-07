@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Opportunist (Ex)&FN&**
+**Opportunist (Ex)**
 
 **Ability:** Once per round, the rogue can make an attack of opportunity against an opponent who has
 just been struck for damage in melee by another character. This attack counts as an attack of

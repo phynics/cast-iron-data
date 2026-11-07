@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gore (Ex)&FN&**
+**Gore (Ex)**
 
 **Ability:** An eidolon grows a number of horns on its head, giving it a
 [gore attack](ref/umr/natural-attacks). This attack is a primary attack. The gore deals 1d6 points

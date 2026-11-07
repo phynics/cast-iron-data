@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Domino Effect (Ex)&FN&**
+**Domino Effect (Ex)**
 
 **Flavor:** When the investigator uses _studied strike,_ he uses his opponents against each other
 and sets himself up for his next move.

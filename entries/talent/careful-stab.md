@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Careful Stab (Ex)&FN&**
+**Careful Stab (Ex)**
 
 **Ability:** When a rogue with this talent reduces a creature to fewer than 0 hp with precision
 damage, she can choose to leave that creature at -1 hp and [stable](ref/misc/stable).

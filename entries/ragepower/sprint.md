@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sprint (Ex)&FN&**
+**Sprint (Ex)**
 
 **Fullround:** The barbarian can move up to 6 times her speed or a single full-round
 [charge](ref/rule/charge) action to move up to 3 times her speed.

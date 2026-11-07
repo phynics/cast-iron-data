@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sluggishness&FN&**
+**Sluggishness**
 
 **Info:** The target of the _hypnotic stare_ has all of its speeds reduced by 5 feet (to a minimum
 of 5 feet), and the _hypnotic stare_ penalty also applies to the target's Reflex saving throws.

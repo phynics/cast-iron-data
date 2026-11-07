@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Notorious Fool (Ex)&FN&**
+**Notorious Fool (Ex)**
 
 **Ability:** When he fails an opposed [Sleight of Hand](ref/skill/sleight-of-hand) or
 [Stealth](ref/skill/stealth) check while in his social identity, he can immediately attempt a

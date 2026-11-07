@@ -530,6 +530,7 @@ masters of the school.
 |[Wild Child](ref/arc-brawler/wild-child)|||||X|||||||||X|X||X||||||||
 |[Winding Path Renegade](ref/arc-brawler/winding-path-renegade)|X|||||X||X||X|||||||||||||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for brawler are listed on the separate class options page._
+_The favored class options for brawler are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

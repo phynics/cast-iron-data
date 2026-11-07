@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tainted Infusion&FN&**
+**Tainted Infusion**
 
 **Ability:** When preparing an extract with the _infusion_ discovery, he can lace the extract with
 one of his bombs as long as the extract has a duration greater than instantaneous. If he chooses,

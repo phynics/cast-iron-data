@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fiendish Appearance (Ex)&FN&**
+**Fiendish Appearance (Ex)**
 
 **Flavor:** The eidolon appears as a fiendish creature and manifests some of the abilities of a
 fiend.

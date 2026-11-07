@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Crippling Blow (Ex)&FN&**
+**Crippling Blow (Ex)**
 
 **Ability:** When using her _powerful blow_ rage power, the barbarian can forgo the normal bonus to
 damage (including any bleed damage granted by the [bleeding blow](ref/ragepower/bleeding-blow) rage

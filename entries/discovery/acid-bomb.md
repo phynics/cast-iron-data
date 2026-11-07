@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Acid Bomb&FN&**
+**Acid Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it inflict acid damage.
 Creatures that take a direct hit from an _acid bomb_ take an additional 1d6 points of acid damage 1

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Numerical Strike (Ex)&FN&**
+**Greater Numerical Strike (Ex)**
 
 **Ability:** Once per day, when the investigator has confirmed a critical hit with a _studied
 strike,_ he can deal the strike's maximum damage instead of rolling damage as normal. This includes

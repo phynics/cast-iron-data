@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Superior Feint (Ex)&FN&**
+**Superior Feint (Ex)**
 
 **Prereq:** 7th-level swashbuckler
 

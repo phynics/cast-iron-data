@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Spire Totem (Su)&FN&**
+**Lesser Spire Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian gains a +1 morale bonus on attacks against any creature
 that has targeted one of her allies with an attack or a harmful spell within the last round.

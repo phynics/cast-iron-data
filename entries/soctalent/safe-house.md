@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Safe House (Ex)&FN&**
+**Safe House (Ex)**
 
 **Ability:** The vigilante can establish a safe house in his area of _renown,_ and he can change it
 every time he changes his area of _renown._ If he doesn't have the [renown](ref/soctalent/renown)

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&One with the Wild (Ex)&FN&**
+**One with the Wild (Ex)**
 
 **Passive:** In the same terrain for which he selected _environmental weapon,_ he gains a +4
 competence bonus on Stealth, Survival, and Perception checks.

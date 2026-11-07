@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Sunder (Ex)&FN&**
+**Ki Sunder (Ex)**
 
 **Free:** A monk with this ability can spend 1 ki point when attempting a [sunder](ref/rule/sunder)
 combat maneuver check to add his monk level as a bonus to the damage roll.

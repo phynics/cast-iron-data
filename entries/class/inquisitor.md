@@ -793,6 +793,7 @@ devotion to a patron is often seen as suspect by many religions.
 
 ### Archetypes by Feature
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for inquisitor are listed on the separate class options page._
+_The favored class options for inquisitor are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

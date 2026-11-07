@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disruptive&FN&**
+**Disruptive**
 
 **Ability:** When _raging,_ the barbarian gains [Disruptive](ref/feat/disruptive) as a bonus feat.
 

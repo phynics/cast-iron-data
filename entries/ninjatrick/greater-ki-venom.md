@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Ki Venom (Ex)&FN&**
+**Greater Ki Venom (Ex)**
 
 **Ability:** A ninja with this trick can further improve her _ki venom._ The ninja can spend 2 ki
 points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to

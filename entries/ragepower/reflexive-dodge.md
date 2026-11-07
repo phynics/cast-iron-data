@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Reflexive Dodge (Ex)&FN&**
+**Reflexive Dodge (Ex)**
 
 **Passive:** While using her _rolling dodge_ rage power, the barbarian may apply her dodge bonus to
 AC as a bonus on Reflex saving throws.

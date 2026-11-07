@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Sun Totem (Su)&FN&**
+**Lesser Sun Totem (Su)**
 
 **Passive:** The sun's fire invigorates the barbarian. She is immune to environmental effects from
 [heat and severe heat](ref/rule/heat-dangers), and she gains a +2 bonus on Fortitude saves against

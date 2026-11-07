@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swashbuckler Initiative (Ex)&FN&**
+**Swashbuckler Initiative (Ex)**
 
 **Passive:** While the swashbuckler has at least 1 panache point, she gains a +2 bonus on initiative
 checks. In addition, if she has the [Quick Draw](ref/feat/quick-draw) feat, her hands are free and

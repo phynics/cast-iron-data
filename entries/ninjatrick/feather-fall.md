@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feather Fall (Su)&FN&**
+**Feather Fall (Su)**
 
 **Immediate:** The ninja can slow her descent as if using [feather fall](ref/spell/feather-fall).
 This ability uses her ninja level as the caster level.

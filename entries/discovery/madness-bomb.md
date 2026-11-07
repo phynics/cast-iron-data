@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Madness Bomb&FN&**
+**Madness Bomb**
 
 **Ability:** A creature that takes a direct hit from a _madness bomb_ takes damage from the bomb
 plus 1d4 points of [Wisdom damage](ref/rule/ability-damage-drain).

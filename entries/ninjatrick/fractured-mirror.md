@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fractured Mirror (Su)&FN&**
+**Fractured Mirror (Su)**
 
 **Ability:** When a ninja with this trick uses the _shadow clone_ ninja trick, she gains an
 additional clone for every 3 ninja levels she has, to a maximum of eight clones.

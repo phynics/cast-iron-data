@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Reckless Stance (Ex)&FN&**
+**Reckless Stance (Ex)**
 
 **Flavor:** The barbarian can attack with abandon at the expense of her defense.
 

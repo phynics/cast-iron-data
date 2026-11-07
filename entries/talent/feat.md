@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feat&FN&**
+**Feat**
 
 **Ability:** A rogue may gain any feat that she qualifies for in place of a rogue talent.

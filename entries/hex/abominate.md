@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Abominate (Su)&FN&**
+**Abominate (Su)**
 
 **Ability:** The witch transforms a creature within 30 feet into an
 [aberration](ref/type/aberration). This hex acts as

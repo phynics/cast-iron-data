@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sacrifice (Su)&FN&**
+**Sacrifice (Su)**
 
 **Flavor:** An eidolon can sacrifice its own hit points to heal another creature.
 

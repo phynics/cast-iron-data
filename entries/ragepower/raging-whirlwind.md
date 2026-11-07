@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Raging Whirlwind (Su)&FN&**
+**Raging Whirlwind (Su)**
 
 **Immediate:** The barbarian can create a whirlwind with a powerful spinning move after she confirms
 a critical hit with a melee attack. The whirlwind circles the target of her melee attack, lifting it

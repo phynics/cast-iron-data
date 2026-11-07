@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Choking Bomb (Ex)&FN&**
+**Choking Bomb (Ex)**
 
 **Ability:** Whenever a ninja throws a _smoke bomb,_ all living creatures in the resulting cloud
 must make a Fortitude save or become [staggered](ref/misc/staggered) by the choking black smoke for

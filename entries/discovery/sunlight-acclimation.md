@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sunlight Acclimation&FN&**
+**Sunlight Acclimation**
 
 **Flavor:** Time spent in the bright light of day has partially inured the alchemist to its effects.
 

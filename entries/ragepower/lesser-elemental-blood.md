@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Elemental Blood (Su)&FN&**
+**Lesser Elemental Blood (Su)**
 
 **Choice:** Choose an energy type: acid, cold, fire, or electricity.
 

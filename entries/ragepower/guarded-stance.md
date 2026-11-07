@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Guarded Stance (Ex)&FN&**
+**Guarded Stance (Ex)**
 
 **Move:** The barbarian gains a dodge bonus to her Armor Class against melee attacks for a number of
 rounds equal to the barbarian's current Constitution modifier (minimum 1). This dodge bonus is equal

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Powerful Stance (Ex)&FN&**
+**Powerful Stance (Ex)**
 
 **Flavor:** The barbarian can focus her ferocity.
 

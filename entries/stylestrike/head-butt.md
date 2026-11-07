@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Head-Butt&FN&**
+**Head-Butt**
 
 **Ability:** If the attack hits and the foe is of the same size or one size smaller than the monk,
 the monk can make a free combat maneuver check against the target of this strike (using the base

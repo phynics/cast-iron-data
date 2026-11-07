@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Recall Training (Ex)&FN&**
+**Recall Training (Ex)**
 
 **Flavor:** By calling on the memories of previous incarnations, a samsaran slayer can use martial
 techniques that transcend his usual capabilities.

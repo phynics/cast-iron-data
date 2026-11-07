@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Autumn Rage (Su)&FN&**
+**Autumn Rage (Su)**
 
 **Flavor:** The barbarian becomes a servant of the harvest.
 

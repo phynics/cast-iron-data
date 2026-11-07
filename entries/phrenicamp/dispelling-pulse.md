@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dispelling Pulse (Su)&FN&**
+**Dispelling Pulse (Su)**
 
 **Ability:** The psychic can spend 3 points from her phrenic pool to entwine dispelling magic with a
 targeted spell. If the target is hit by the linked spell or fails its saving throw, it's affected as

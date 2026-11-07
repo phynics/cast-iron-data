@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Flurry of Stars (Ex)&FN&**
+**Flurry of Stars (Ex)**
 
 **Swift:** A ninja with this ability can expend 1 ki point from her ki pool before she makes a
 full-attack attack with [shuriken](ref/eq-weapon/shuriken). During that attack, she can throw two

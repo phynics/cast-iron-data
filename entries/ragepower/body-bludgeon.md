@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Body Bludgeon (Ex)&FN&**
+**Body Bludgeon (Ex)**
 
 **Ability:** While _raging,_ if the barbarian [pins](ref/rule/grapple-conditions) an opponent that
 is smaller than her, she can then use that opponent as a two-handed

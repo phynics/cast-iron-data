@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Summon Spirit (Sp)&FN&**
+**Summon Spirit (Sp)**
 
 **Ability:** The witch calls forth the [ghost](ref/template/ghost) of a humanoid creature with no
 more than 18 Hit Dice. The ghost has its own personality and desires, but is willing to bargain with

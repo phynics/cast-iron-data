@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Prehensile Hair (Su)&FN&**
+**Prehensile Hair (Su)**
 
 **Ability:** The witch can instantly cause her hair (or even her eyebrows) to grow up to 10 feet
 long or to shrink to its normal length, and can manipulate her hair as if it were a limb with a

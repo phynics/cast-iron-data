@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ancestor Totem (Su)&FN&**
+**Ancestor Totem (Su)**
 
 **Passive:** The barbarian's insight bonus to her chosen skill increases to +4. The barbarian can
 now select any skill to receive this bonus, even a Charisma-, Dexterity-, or Intelligence-based

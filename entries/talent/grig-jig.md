@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grig Jig (Su)&FN&**
+**Grig Jig (Su)**
 
 **Ability:** The rogue can target one humanoid within 30 feet and attempt a
 [Perform](ref/skill/perform-any) (dance) check as a **full-round action** that does not provoke an

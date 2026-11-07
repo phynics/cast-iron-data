@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Claimed Turf (Ex)&FN&**
+**Claimed Turf (Ex)**
 
 **Ability:** The rogue is well known in a specific community in which she gains the benefits of
 _renown._ She gains the [renown](ref/soctalent/renown) vigilante social talent. This community can

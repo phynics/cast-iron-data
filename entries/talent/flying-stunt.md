@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Flying Stunt (Ex)&FN&**
+**Flying Stunt (Ex)**
 
 **Prereq:** Trained in [Fly](ref/skill/fly)
 

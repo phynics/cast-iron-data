@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Abyssal Blood (Su)&FN&**
+**Abyssal Blood (Su)**
 
 **Ability:** Once per day when the barbarian enters a _rage,_ she can choose to grow one size
 category larger than her base size (as [enlarge person](ref/spell/enlarge-person), even if the

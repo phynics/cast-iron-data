@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deadly Sneak (Unchained Rogue) (Ex)&FN&**
+**Deadly Sneak (Unchained Rogue) (Ex)**
 
 **Ability:** When a rogue with this talent uses the _powerful sneak_ talent, she rerolls all sneak
 attack dice that resulted in 1s or 2s. She can reroll multiple dice, but she can't reroll any

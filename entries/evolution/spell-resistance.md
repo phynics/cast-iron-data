@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spell Resistance (Ex)&FN&**
+**Spell Resistance (Ex)**
 
 **Passive:** An eidolon is protected against magic, gaining spell resistance equal to 11 + the
 summoner's level. This spell resistance does not apply to spells cast by the summoner.

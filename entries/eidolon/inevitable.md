@@ -15,7 +15,7 @@ Implacable and ceaseless in their fight against chaos and those who break natura
 [inevitables](ref/family/inevitable) make loyal, if literal-minded, companions for lawful summoners.
 Summoners of inevitables generally get along well with axiomites, who share their understanding of
 the process of forging and modifying an inevitable. Inevitable eidolons appear as a mixture between
-clockwork constructs and idealized humanoid statues.&FN&
+clockwork constructs and idealized humanoid statues.
 
 **Alignment**
 

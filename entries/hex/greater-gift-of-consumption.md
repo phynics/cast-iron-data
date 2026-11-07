@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Gift of Consumption (Su)&FN&**
+**Greater Gift of Consumption (Su)**
 
 **Ability:** When the witch succeeds at her Fortitude save against an effect that she has redirected
 to a proxy, the hexed creature takes a -4 penalty on its Fortitude save against the redirected

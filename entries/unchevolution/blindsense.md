@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blindsense (Ex)&FN&**
+**Blindsense (Ex)**
 
 **Ability:** The eidolon's senses become incredibly acute, giving it
 [blindsense](ref/umr/blindsense) with a range of 30 feet. This ability allows the eidolon to

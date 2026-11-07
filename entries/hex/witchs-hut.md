@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Witch's Hut (Su)&FN&**
+**Witch's Hut (Su)**
 
 **Ability:** The witch can animate a hut, small house, covered wagon, tent, or similar construction
 as an [animated object](ref/monster/animated-object). The hut can be of up to Huge size

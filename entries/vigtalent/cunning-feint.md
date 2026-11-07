@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cunning Feint (Ex)&FN&**
+**Cunning Feint (Ex)**
 
 **Ability:** The vigilante can [feint](ref/rule/feint) as a **move action** or in place of his first
 attack during a full attack.

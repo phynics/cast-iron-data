@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Head (Ex)&FN&**
+**Head (Ex)**
 
 **Ability:** An eidolon grows an additional head. The eidolon does not gain any additional natural
 attacks for the additional head, but the additional head does allow the eidolon to take other

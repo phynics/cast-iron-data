@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Regenerative Sinew (Su)&FN&**
+**Regenerative Sinew (Su)**
 
 **Ability:** The witch can cause the debilitating wounds of a creature she touches to quickly close,
 helping it heal rapidly. The target either gains [fast healing](ref/umr/fast-healing) 5 for a number

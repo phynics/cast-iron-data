@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Peace&FN&**
+**Peace**
 
 **Info:** The Peace patron grants the following spells at the listed witch levels.
 

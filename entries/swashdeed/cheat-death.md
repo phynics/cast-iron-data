@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cheat Death (Ex)&FN&**
+**Cheat Death (Ex)**
 
 **Ability:** Whenever the swashbuckler is reduced to 0 hit points or fewer, she can spend all of her
 remaining panache to instead be reduced to 1 hit point. She must have at least 1 panache point to

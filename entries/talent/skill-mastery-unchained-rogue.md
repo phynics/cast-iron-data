@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Skill Mastery&FN&**
+**Skill Mastery**
 
 **Ability:** When making a skill check with one of the selected skills (or any of the skills
 selected through the _rogue's edge_ class feature), she can take 10 even if stress and distractions

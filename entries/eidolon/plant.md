@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-Plant eidolons consist of vegetable matter infused with raw natural spiritual power.&FN&
+Plant eidolons consist of vegetable matter infused with raw natural spiritual power.
 
 **Alignment**
 

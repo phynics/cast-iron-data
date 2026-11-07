@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Death's Shot (Ex)&FN&**
+**Death's Shot (Ex)**
 
 **Ability:** When the gunslinger scores a critical hit, she can spend 1 grit point to deal normal
 damage, and the target must succeed at a Fortitude saving throw with a DC equal to 10 + 1/2 the

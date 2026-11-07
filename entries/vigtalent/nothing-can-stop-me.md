@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nothing Can Stop Me (Ex)&FN&**
+**Nothing Can Stop Me (Ex)**
 
 **Ability:** Once per round, while the vigilante is moving, he can make one attack as a **free
 action** against an unattended object in the way of his path, such as a door or table. If his attack

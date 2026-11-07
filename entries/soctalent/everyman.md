@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Everyman (Ex)&FN&**
+**Everyman (Ex)**
 
 **Ability:** The vigilante can take on the appearance of a specific individual whenever he assumes a
 mundane guise using his _many guises_ social talent. The individual must be a farmer, laborer, or

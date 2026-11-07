@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tarn Linnorm Death Curse (Su)&FN&**
+**Tarn Linnorm Death Curse (Su)**
 
 **Action:** Ability
 

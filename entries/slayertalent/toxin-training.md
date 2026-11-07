@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Toxin Training (Ex)&FN&**
+**Toxin Training (Ex)**
 
 **Passive:** The slayer builds resistance to certain poisons over time. Each time he chooses this
 talent, he chooses one ability score. He gains a +4 bonus on saving throws against poisons that deal

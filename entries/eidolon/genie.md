@@ -13,7 +13,7 @@ kind = "none"
 
 Genies are elemental beings that take humanoid forms, and genie eidolons often vacillate between
 humble kowtowing and biting observations about the summoner's foibles that make the eidolon look
-superior.&FN&
+superior.
 
 **Alignment**
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Gloom Magic (Sp)&FN&**
+**Greater Gloom Magic (Sp)**
 
 **Ability:** A rogue with this talent gains the ability to cast
 [deeper darkness](ref/spell/deeper-darkness) once each day as a

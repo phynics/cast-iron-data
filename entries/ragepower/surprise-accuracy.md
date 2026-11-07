@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Surprise Accuracy (Ex)&FN&**
+**Surprise Accuracy (Ex)**
 
 **Swift:** The barbarian gains a morale bonus on one attack roll equal to 1 +
 [one-fourth](ref/misc/fractions-and-rounding) of her barbarian level. This power must be used before

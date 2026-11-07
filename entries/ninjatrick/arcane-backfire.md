@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Arcane Backfire (Su)&FN&**
+**Arcane Backfire (Su)**
 
 **Ability:** When a ninja with this trick successfully attacks a creature that is holding a magic
 item that has a number of charges or uses per day, she can attempt a

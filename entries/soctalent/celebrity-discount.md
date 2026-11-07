@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Celebrity Discount (Ex)&FN&**
+**Celebrity Discount (Ex)**
 
 **Ability:** Whenever he buys an item in his area of _renown_ that costs 500 gp or less, he can buy
 it at 90% of the market price, rather than the full price.

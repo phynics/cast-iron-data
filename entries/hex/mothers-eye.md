@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mother's Eye (Su)&FN&**
+**Mother's Eye (Su)**
 
 **Ability:** The witch can see through plant matter, as the [greensight](ref/umr/greensight)
 universal monster ability.

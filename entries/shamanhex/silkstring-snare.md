@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Silkstring Snare (Su)&FN&**
+**Silkstring Snare (Su)**
 
 **Ability:** The shaman causes ribbons of spider silk to erupt from the ground beneath a single
 creature. The target must succeed at a Reflex save or be [entangled](ref/rule/entangled) and

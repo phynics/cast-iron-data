@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rogue Talent&FN&**
+**Rogue Talent**
 
 **Ability:** A slayer can select one of the following rogue talents in place of a slayer talent:
 [bleeding attack](ref/talent/bleeding-attack)\*, [camouflage](ref/talent/camouflage),

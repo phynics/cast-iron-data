@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Magic Attacks (Su)&FN&**
+**Magic Attacks (Su)**
 
 **Passive:** An eidolon is infused with magic, allowing it to treat all of its natural attacks as if
 they were magic for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).

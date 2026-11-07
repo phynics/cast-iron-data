@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fjord Linnorm Death Curse (Su)&FN&**
+**Fjord Linnorm Death Curse (Su)**
 
 **Action:** Ability
 

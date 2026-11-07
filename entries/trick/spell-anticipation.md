@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spell Anticipation&FN&**
+**Spell Anticipation**
 
 **Ability:** When the mesmerist implants this trick, he must expend one spell slot to couple a spell
 he knows of that level with the trick. That spell must have a casting time of 1 standard action or

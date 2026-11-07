@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Healing (Su)&FN&**
+**Healing (Su)**
 
 **Ability:** A shaman soothes the wounds of those she touches. This acts as
 [cure light wounds](ref/spell/cure-light-wounds), using the shaman's caster level.

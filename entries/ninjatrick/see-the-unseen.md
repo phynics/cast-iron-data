@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&See the Unseen (Su)&FN&**
+**See the Unseen (Su)**
 
 **Flavor:** A ninja with this trick learns how to see that which cannot be seen.
 

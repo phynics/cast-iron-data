@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Chaos Totem (Su)&FN&**
+**Greater Chaos Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian gains DR/lawful equal to 1/2 her barbarian level. Her
 weapons and natural weapons are considered chaotic for the purpose of overcoming

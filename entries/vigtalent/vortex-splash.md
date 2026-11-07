@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vortex Splash (Ex)&FN&**
+**Vortex Splash (Ex)**
 
 **Fullround:** When in rain or waist deep in water, the vigilante can make a whirling splash,
 allowing him to attempt a single [dirty trick](ref/rule/dirty-trick) combat maneuver or

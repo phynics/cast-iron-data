@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Blocker (Su)&FN&**
+**Ki Blocker (Su)**
 
 **Free:** A monk with this ability can spend 1 ki point before making an unarmed strike against a
 foe. If the attack hits, the monk can interrupt the target's flow of ki.

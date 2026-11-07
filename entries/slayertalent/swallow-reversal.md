@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swallow Reversal (Ex)&FN&**
+**Swallow Reversal (Ex)**
 
 **Ability:** As an attack action, the slayer can make a single melee attack against his _studied
 target_ at his highest base attack bonus. When attempting a _swallow reversal,_ the slayer rolls two

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Major Ameliorating (Su)&FN&**
+**Major Ameliorating (Su)**
 
 **Ability:** The witch can touch a creature to suppress or protect it from more debilitating
 negative conditions. Each time she uses this hex, the witch either chooses the blinded or deafened

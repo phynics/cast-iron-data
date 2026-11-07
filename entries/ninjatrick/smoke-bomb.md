@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Smoke Bomb (Ex)&FN&**
+**Smoke Bomb (Ex)**
 
 **Special:** Each use of this ability uses up 1 ki point.
 

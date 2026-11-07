@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Jaguar's Grace (Ex)&FN&**
+**Jaguar's Grace (Ex)**
 
 **Passive:** A slayer with this talent does not take the normal -4 penalty when dealing nonlethal
 damage using a weapon that normally deals lethal damage. Attacks made this way can apply nonlethal

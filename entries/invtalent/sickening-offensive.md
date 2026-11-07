@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sickening Offensive (Ex)&FN&**
+**Sickening Offensive (Ex)**
 
 **Ability:** When the investigator damages a studied target, that creature is also
 [sickened](ref/misc/sickened) for 1 round.

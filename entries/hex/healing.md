@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Healing (Su)&FN&**
+**Healing (Su)**
 
 **Ability:** A witch can soothe the wounds of those she touches. This acts as a
 [cure light wounds](ref/spell/cure-light-wounds) spell, using the witch's caster level.

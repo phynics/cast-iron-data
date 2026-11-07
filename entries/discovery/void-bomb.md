@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Void Bomb&FN&**
+**Void Bomb**
 
 **Ability:** _Void bombs_ deals 1d4 points of bludgeoning damage, plus 1d4 points of bludgeoning
 damage for every 2 alchemist levels beyond 1st, instead of 1d6.

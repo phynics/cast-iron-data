@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Celestial Appearance (Ex)&FN&**
+**Celestial Appearance (Ex)**
 
 **Flavor:** The eidolon appears as a celestial creature and manifests some of the abilities of a
 celestial.

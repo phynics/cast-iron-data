@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Improvised Weapon Proficiency (Ex, Su)&FN&**
+**Improvised Weapon Proficiency (Ex, Su)**
 
 **Ability:** By spending 1 ki point, the monk can fight with a [broken](ref/misc/broken) weapon
 without taking any penalties on attack rolls or damage rolls for 1 round.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Follow Along (Ex)&FN&**
+**Follow Along (Ex)**
 
 **Ability:** Whenever she succeeds at a saving throw against an enchantment effect, the rogue learns
 the spell's effect on a failed save, allowing her to play along and pretend to have failed her save.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spring Rage (Su)&FN&**
+**Spring Rage (Su)**
 
 **Flavor:** The barbarian's _rage_ rejuvenates her physically and spiritually.
 

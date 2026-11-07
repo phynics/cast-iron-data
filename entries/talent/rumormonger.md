@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rumormonger (Ex)&FN&**
+**Rumormonger (Ex)**
 
 **Action:** Ability
 

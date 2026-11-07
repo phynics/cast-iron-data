@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Reflexive Shadow Shield (Su)&FN&**
+**Reflexive Shadow Shield (Su)**
 
 **Immediate:** Once per day, the rogue can gain an amount of cold [resistance](ref/umr/resistance)
 or electricity resistance equal to half the rogue's level. This resistance lasts for 1 round.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gills&FN&**
+**Gills**
 
 **Ability:** An alchemist with this discovery grows a set of _gills_ that allow him to breathe water
 in addition to breathing air. When on land, the alchemist risks his _gills_ drying out and must

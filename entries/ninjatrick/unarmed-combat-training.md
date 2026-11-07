@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unarmed Combat Training (Ex)&FN&**
+**Unarmed Combat Training (Ex)**
 
 **Ability:** A ninja who selects this ninja trick gains
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat.

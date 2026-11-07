@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Constructive Dyes&FN&**
+**Greater Constructive Dyes**
 
 **Ability:** The alchemist expands the set of objects he can create with his constructive dyes. The
 alchemist can expend one additional use of his daily bombs when using his constructive dyes

@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The paladin's lay on hands ability also acts as
-[neutralize poison](ref/spell/neutralize-poison), using the paladin's level as the caster level.&FN&
+[neutralize poison](ref/spell/neutralize-poison), using the paladin's level as the caster level.
 
-**Title:** &L&Poisoned
+**Title:** Poisoned

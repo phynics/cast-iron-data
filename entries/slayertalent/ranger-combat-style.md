@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ranger Combat Style (Ex)&FN&**
+**Ranger Combat Style (Ex)**
 
 **Ability:** The slayer selects a ranger [combat style](ref/ability/combat-styles) (such as archery
 or two-weapon combat) and gains a combat feat from the first feat list of that style. He can choose

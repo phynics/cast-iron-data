@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poison Bomb (Ex)&FN&**
+**Poison Bomb (Ex)**
 
 **Ability:** Whenever the ninja throws a _smoke bomb,_ she can decide to include 1 dose of any
 inhaled poison she possesses. This poison affects all creatures in the smoke and lasts as long as

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Obscuring Blow (Ex)&FN&**
+**Obscuring Blow (Ex)**
 
 **Ability:** Once per day, the rogue can forgo her potential to deal sneak attack damage to attempt
 to cloud an opponent's vision. She must declare the use of _obscuring blow_ before she makes the

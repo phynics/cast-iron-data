@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Positioning Attack (Ex)&FN&**
+**Positioning Attack (Ex)**
 
 **Ability:** Once per day, when a rogue with this talent hits a creature with a melee attack, she
 can move up to 30 feet without provoking attacks of opportunity. The movement must end in a space

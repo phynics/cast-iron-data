@@ -15,8 +15,7 @@ Corruptors, tempters, and despoilers, [devil](ref/family/devil) eidolons often s
 obediently and efficiently, all in a long-term attempt to damn the summoner's soul to the deepest
 depths of Hell. While some types of devils have truly unusual forms, devil eidolons have found that
 the more traditional bipedal form allows them to build up a strong rapport with their summoners -
-and consequently to corrupt them - more easily than if they possessed a more monstrous
-appearance.&FN&
+and consequently to corrupt them - more easily than if they possessed a more monstrous appearance.
 
 **Alignment**
 

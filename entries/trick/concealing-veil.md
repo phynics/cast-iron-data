@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Concealing Veil&FN&**
+**Concealing Veil**
 
 **Passive:** When this trick is triggered, the subject is affected by a
 [nondetection](ref/spell/nondetection) spell for 1 round per mesmerist level.

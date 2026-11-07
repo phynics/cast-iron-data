@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Getaway Artist (Ex)&FN&**
+**Getaway Artist (Ex)**
 
 **Passive:** A rogue with this talent adds [Fly](ref/skill/fly),
 [Handle Animal](ref/skill/handle-animal), and [Ride](ref/skill/ride) to her list of class skills,

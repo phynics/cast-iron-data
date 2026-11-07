@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Monkey's Paws (Ex)&FN&**
+**Monkey's Paws (Ex)**
 
 **Ability:** The vigilante gains a climb speed equal to his base speed and a +4 competence bonus on
 [Escape Artist](ref/skill/escape-artist) checks.

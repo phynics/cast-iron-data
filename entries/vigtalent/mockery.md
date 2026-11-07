@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mockery (Ex)&FN&**
+**Mockery (Ex)**
 
 **Ability:** The vigilante gains [Antagonize](ref/feat/antagonize) as a bonus feat. He can target a
 creature with the Intimidate version of Antagonize twice each day, rather than just once.

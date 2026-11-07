@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Liquid Courage (Ex)&FN&**
+**Liquid Courage (Ex)**
 
 **Ability:** While _raging,_ the barbarian increases her morale bonus on saving throws against
 mind-affecting effects by +1 for each alcoholic drink she consumes during her _rage,_ to a maximum

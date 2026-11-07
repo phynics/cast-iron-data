@@ -616,6 +616,7 @@ eidolon with a plant body.
 |[Wild Caller (ARG)](ref/arc-summoner/wild-caller-arg)|||||X|||||||||X|||
 |[Wild Caller (HotW)](ref/arc-summoner/wild-caller-hotw)|X|X|||X|||||||||X|||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for summoner are listed on the separate class options page._
+_The favored class options for summoner are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

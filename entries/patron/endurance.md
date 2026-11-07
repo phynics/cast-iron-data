@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Endurance&FN&**
+**Endurance**
 
 **Info:** The Endurance patron grants the following spells at the listed witch levels.
 

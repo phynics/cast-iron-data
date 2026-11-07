@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Beast's Gift (Su)&FN&**
+**Beast's Gift (Su)**
 
 **Ability:** The witch can partially transform a willing ally, granting him natural attacks for a
 number of minutes equal to the witch's level.

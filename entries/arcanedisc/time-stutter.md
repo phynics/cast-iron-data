@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Time Stutter (Sp)&FN&**
+**Time Stutter (Sp)**
 
 **Ability:** You can briefly step out of time, pausing the world around you. This ability acts as
 the [time stop](ref/spell/time-stop) spell, except that you gain only 1 round of apparent time.

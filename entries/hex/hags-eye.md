@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hag's Eye (Su)&FN&**
+**Hag's Eye (Su)**
 
 **Ability:** A witch with this hex can create a magic sensor that she can see through. This
 functions as per the spell [arcane eye](ref/spell/arcane-eye). If the witch has the

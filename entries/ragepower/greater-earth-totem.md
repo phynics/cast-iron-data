@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Earth Totem (Su)&FN&**
+**Greater Earth Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian's skin becomes as hard as stone. If the barbarian is hit
 with a manufactured weapon while _raging,_ the weapon takes an amount of damage equal to half that

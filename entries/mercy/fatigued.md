@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer fatigued.&FN&
+**Details:** The target is no longer fatigued.
 
-**Title:** &L&Fatigued
+**Title:** Fatigued

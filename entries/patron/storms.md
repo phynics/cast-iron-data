@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Storms&FN&**
+**Storms**
 
 **Info:** The Storms patron grants the following spells at the listed witch levels.
 

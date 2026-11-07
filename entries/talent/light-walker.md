@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Light Walker (Ex)&FN&**
+**Light Walker (Ex)**
 
 **Ability:** The rogue can move at full speed through
 [difficult terrain](ref/rule/terrain-and-obstacles) and can take 5-foot steps into difficult

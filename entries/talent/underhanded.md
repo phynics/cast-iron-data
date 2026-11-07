@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Underhanded (Ex)&FN&**
+**Underhanded (Ex)**
 
 **Ability:** Furthermore, if she makes a sneak attack during the surprise round using a concealed
 weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the

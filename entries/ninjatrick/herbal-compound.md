@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Herbal Compound (Ex)&FN&**
+**Herbal Compound (Ex)**
 
 **Flavor:** A ninja with this trick can consume specially prepared herbs to strengthen her mind.
 

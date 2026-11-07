@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Breath Weapon Bomb&FN&**
+**Breath Weapon Bomb**
 
 **Ability:** Instead of drawing the components of, creating, and throwing a bomb, the alchemist can
 draw the components, drink them, mix them within his body, and then expel them as a breath weapon as

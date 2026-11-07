@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Card Sharp (Su)&FN&**
+**Card Sharp (Su)**
 
 **Ability:** The rogue gains [Deadly Dealer](ref/feat/deadly-dealer) as a bonus feat, even if she
 does not meet the prerequisites. Thrown cards are treated as [darts](ref/eq-weapon/dart), but the

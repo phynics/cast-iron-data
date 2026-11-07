@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Crippling Strike (Ex)&FN&**
+**Crippling Strike (Ex)**
 
 **Ability:** A rogue with this ability can sneak attack opponents with such precision that her blows
 weaken and hamper them. An opponent damaged by one of her sneak attacks also takes 2 points of

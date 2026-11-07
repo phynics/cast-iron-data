@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pheromones&FN&**
+**Pheromones**
 
 **Passive:** The alchemist exudes an imperceptible musk that grants him a permanent +3 competence
 bonus on Bluff, Diplomacy, and Intimidate checks.

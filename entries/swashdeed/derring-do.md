@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Derring-Do (Ex)&FN&**
+**Derring-Do (Ex)**
 
 **Ability:** A swashbuckler can spend 1 panache point when she makes an Acrobatics, Climb, Escape
 Artist, Fly, Ride, or Swim check to roll 1d6 and add the result to the check. She can do this after

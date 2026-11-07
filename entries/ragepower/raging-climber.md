@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Raging Climber (Ex)&FN&**
+**Raging Climber (Ex)**
 
 **Passive:** When _raging,_ the barbarian adds her level as an enhancement bonus on all
 [Climb](ref/skill/climb) skill checks.

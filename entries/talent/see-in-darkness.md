@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&See in Darkness (Su)&FN&**
+**See in Darkness (Su)**
 
 **Ability:** The rogue gains the [see in darkness](ref/umr/see-in-darkness) ability.
 

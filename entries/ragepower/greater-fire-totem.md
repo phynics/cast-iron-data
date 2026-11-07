@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Fire Totem (Su)&FN&**
+**Greater Fire Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian can envelope herself in a cloud of smoke that fills a
 10-foot-radius sphere and follows her as she moves. Creatures in the affected area must succeed at

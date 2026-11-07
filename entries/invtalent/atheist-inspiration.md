@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Atheist Inspiration (Ex)&FN&**
+**Atheist Inspiration (Ex)**
 
 **Passive:** The investigator can use her _inspiration_ on saving throws against divine spells
 without expending uses of _inspiration._

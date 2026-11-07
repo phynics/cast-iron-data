@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow Duplicate (Sp)&FN&**
+**Shadow Duplicate (Sp)**
 
 **Immediate:** When the rogue is hit, the rogue can create a single shadow duplicate of herself, as
 per [mirror image](ref/spell/mirror-image). The GM randomly determines whether the attack hit the

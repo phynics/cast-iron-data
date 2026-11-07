@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wet Coat&FN&**
+**Wet Coat**
 
 **Passive:** An alchemist with this discovery has conditioned his body so that it never completely
 dries out when on land. He effectively becomes immune to any detrimental effects of his water

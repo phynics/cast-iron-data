@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lifesense (Su)&FN&**
+**Lifesense (Su)**
 
 **Ability:** An eidolon can pinpoint living creatures with ease. The eidolon notices and locates
 living creatures within 60 feet, just as if it possessed the [blindsight](ref/evolution/blindsight)

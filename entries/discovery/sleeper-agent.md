@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sleeper Agent&FN&**
+**Sleeper Agent**
 
 **Ability:** The alchemist can create a _sleeper agent_ in a ritual that takes 1 minute; the target
 must be unconscious for the ritual's duration.

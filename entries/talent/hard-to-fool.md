@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hard to Fool (Ex)&FN&**
+**Hard to Fool (Ex)**
 
 **Ability:** A rogue with this talent can roll two dice while making a
 [Sense Motive](ref/skill/sense-motive) check, and take the better result. She must choose to use

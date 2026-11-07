@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Alignment Smite (Su)&FN&**
+**Alignment Smite (Su)**
 
 **Choice:** Choose a single alignment component that opposes one of the summoner's own.
 

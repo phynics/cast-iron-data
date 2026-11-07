@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Hurling (Ex)&FN&**
+**Lesser Hurling (Ex)**
 
 **Fullround:** While _raging,_ the barbarian can lift and hurl an object up to one size category
 smaller than herself with both hands or two size categories smaller with one hand as an

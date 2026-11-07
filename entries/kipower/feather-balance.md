@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feather Balance (Ex)&FN&**
+**Feather Balance (Ex)**
 
 **Swift:** A monk with this ability can spend 1 ki point to achieve perfect balance. While this is
 active, the monk treats any [Acrobatics](ref/skill/acrobatics) attempt made to balance as if he had

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Trace (Su)&FN&**
+**Trace (Su)**
 
 **Ability:** The Hellknight can study a single personal belonging of a creature for 1 minute, after
 which she knows the general direction of the creature's current location as long as it is within 1

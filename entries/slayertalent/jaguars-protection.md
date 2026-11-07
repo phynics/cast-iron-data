@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Jaguar's Protection (Ex)&FN&**
+**Jaguar's Protection (Ex)**
 
 **Ability:** When a slayer with this talent deals sneak attack damage, he draws the target's
 attention away from his allies. The affected enemy takes a -2 penalty on attack rolls made against

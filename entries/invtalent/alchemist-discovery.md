@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Alchemist Discovery (Ex)&FN&**
+**Alchemist Discovery (Ex)**
 
 **Ability:** The investigator can select one of the following alchemist discoveries as an
 investigator talent: [combine extracts](ref/discovery/combine-extracts),

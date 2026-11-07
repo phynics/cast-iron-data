@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Jaguar's Pounce (Ex)&FN&**
+**Jaguar's Pounce (Ex)**
 
 **Immediate:** When a slayer with this talent deals sneak attack damage, he can attempt a
 [disarm](ref/rule/disarm) or [trip](ref/rule/trip) combat maneuver as if the target were

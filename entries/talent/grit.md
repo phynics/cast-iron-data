@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grit (Ex)&FN&**
+**Grit (Ex)**
 
 **Ability:** A rogue with this talent gains the [Amateur Gunslinger](ref/feat/amateur-gunslinger)
 feat and one grit feat of her choice. She must fulfill the prerequisites of the grit feat in order

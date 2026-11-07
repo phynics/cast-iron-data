@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Applied Engineering (Ex)&FN&**
+**Applied Engineering (Ex)**
 
 **Flavor:** The investigator can leverage his knowledge of engineering to solve tasks that normally
 require brute strength or keen eyes.

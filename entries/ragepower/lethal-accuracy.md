@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lethal Accuracy (Ex)&FN&**
+**Lethal Accuracy (Ex)**
 
 **Passive:** When using her _surprise accuracy_ rage power, the barbarian's critical multiplier for
 damage increases by 1 (a &times&2 multiplier becomes &times&3, a 19-20/&times&2 multiplier becomes

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Weapon Snatcher (Ex)&FN&**
+**Weapon Snatcher (Ex)**
 
 **Ability:** A rogue with this talent can make a [Sleight of Hand](ref/skill/sleight-of-hand) check
 in place of a combat maneuver check when attempting to [disarm](ref/rule/disarm) an opponent.

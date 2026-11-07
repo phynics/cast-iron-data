@@ -13,6 +13,6 @@ kind = "none"
 
 **Details:** The paladin's lay on hands also acts as [sanctuary](ref/spell/sanctuary), using the
 paladin's level as the caster level. The saving throw DC to negate this effect is equal to 10 + 1/2
-the paladin's level + the paladin's Charisma modifier.&FN&
+the paladin's level + the paladin's Charisma modifier.
 
-**Title:** &L&Targeted
+**Title:** Targeted

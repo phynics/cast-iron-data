@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&High Jumper (Ex)&FN&**
+**High Jumper (Ex)**
 
 **Passive:** When a ninja with this trick makes a [high jump](ref/skill/acrobatics), the DC for that
 jump is half the normal DC.

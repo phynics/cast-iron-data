@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Magic Attacks (Su)&FN&**
+**Magic Attacks (Su)**
 
 **At 10th Level:** All of the eidolon's natural attacks are treated as the alignment of the eidolon
 for the purpose of overcoming [damage reduction](ref/rule/damage-reduction).

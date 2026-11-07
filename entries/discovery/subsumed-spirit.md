@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Subsumed Spirit&FN&**
+**Subsumed Spirit**
 
 **Ability:** The alchemist's parasitic twin can now manifest or hide within the alchemist's torso as
 a **move action**.

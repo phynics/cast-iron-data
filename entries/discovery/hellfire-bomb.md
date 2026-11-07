@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hellfire Bomb&FN&**
+**Hellfire Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can have it act as an _explosive bomb,_ but deal
 half of its damage as fire damage and half as unholy damage that is not subject to fire resistance

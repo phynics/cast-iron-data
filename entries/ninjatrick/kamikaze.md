@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Kamikaze (Su)&FN&**
+**Kamikaze (Su)**
 
 **Ability:** The ninja can spend 1 point from her ki pool to give her unarmed strikes and any
 weapons she wields the [vicious](ref/magic-enh/vicious) weapon special ability for 1 round per

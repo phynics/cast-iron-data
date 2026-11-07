@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Channel Resistance (Ex)&FN&**
+**Channel Resistance (Ex)**
 
 **Flavor:** An eidolon becomes less easily affected by the
 [channel energy](ref/ability/channel-energy) ability of clerics or paladins.

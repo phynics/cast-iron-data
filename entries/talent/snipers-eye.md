@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sniper's Eye (Ex)&FN&**
+**Sniper's Eye (Ex)**
 
 **Ability:** A rogue with this talent can apply her sneak attack damage on ranged attacks targeting
 foes within 30 feet that benefit from [concealment](ref/rule/concealment). Foes with total

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Entrepreneur (Ex)&FN&**
+**Entrepreneur (Ex)**
 
 **Ability:** The vigilante can use the selected skill to earn money as if he were using a Profession
 skill. If he selects Perform or Profession, the vigilante instead gains the skill unlock powers for

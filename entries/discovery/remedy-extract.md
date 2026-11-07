@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Remedy Extract&FN&**
+**Remedy Extract**
 
 **Ability:** When the alchemist creates an extract, he can add one nonmagical alchemical remedy
 (such as an [antitoxin](ref/eq-misc/antitoxin)) to it. When the extract is consumed, both the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Jury-Rigged Bomb&FN&**
+**Jury-Rigged Bomb**
 
 **Info:** Unlike normal bombs, _jury-rigged bombs_ can be created from whatever materials the
 alchemist has on hand; this makes them particularly handy in situations where the alchemist might

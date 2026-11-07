@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Demand Attention (Ex)&FN&**
+**Demand Attention (Ex)**
 
 **Ability:** The first time each round that you deal sneak attack damage to an opponent, you can
 forgo sneak attack damage to distract the creature. The target must succeed at a Will save (DC =

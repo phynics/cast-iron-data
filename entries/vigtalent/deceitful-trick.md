@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deceitful Trick&FN&**
+**Deceitful Trick**
 
 **Ability:** The vigilante can perform a [dirty trick](ref/rule/dirty-trick) combat maneuver in
 place of his first attack during a full attack. He can take a -4 penalty on his check in order to

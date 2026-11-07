@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Witch's Brew (Ex)&FN&**
+**Witch's Brew (Ex)**
 
 **Ability:** When the witch uses her cauldron to brew a potion, she may spend double the cost to
 create 2 identical potions that day instead of just 1.

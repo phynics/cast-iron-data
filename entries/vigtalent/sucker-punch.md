@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sucker Punch (Ex)&FN&**
+**Sucker Punch (Ex)**
 
 **Ability:** Whenever the vigilante attacks a foe that is unaware of his presence (or who views him
 as an ally), and the attack deals nonlethal damage, the attack deals an additional 1d6 points of

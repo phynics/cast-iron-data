@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dimension Door (Sp)&FN&**
+**Dimension Door (Sp)**
 
 **Ability:** An eidolon learns to cast [dimension door](ref/spell/dimension-door) as a
 [spell-like ability](ref/umr/spell-like-abilities) once per day. The caster level for this evolution

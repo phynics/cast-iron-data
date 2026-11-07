@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Alchemical Zombie&FN&**
+**Alchemical Zombie**
 
 **Ability:** The alchemist gains the ability to animate a relatively complete corpse as an
 alchemy-powered zombie. This process takes 1 hour and costs 100 gp in alchemical reagents per HD of

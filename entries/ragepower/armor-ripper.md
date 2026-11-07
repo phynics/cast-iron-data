@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Armor Ripper&FN&**
+**Armor Ripper**
 
 **Passive:** While _raging,_ you gain a +2 bonus on combat maneuver checks made to
 [sunder](ref/rule/sunder) with any of your natural attacks.

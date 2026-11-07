@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Malleable Flesh (Su)&FN&**
+**Malleable Flesh (Su)**
 
 **Ability:** A vigilante with this talent gains the [shapechanger](ref/subtype/shapechanger) subtype
 and the [compression](ref/umr/compression) universal monster rule. In addition, the vigilante can

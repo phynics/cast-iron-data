@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Coven (Ex)&FN&**
+**Coven (Ex)**
 
 **Ability:** The witch counts as a [hag](ref/family/hag) for the purpose of joining a hag's coven.
 The coven must contain at least one hag.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Weapon Training (Ex)&FN&**
+**Weapon Training (Ex)**
 
 **Ability:** The eidolon learns to use a weapon, gaining
 [Simple Weapon Proficiency](ref/feat/simple-weapon-proficiency) as a bonus feat.

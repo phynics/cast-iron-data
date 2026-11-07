@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspired Vigilante (Ex)&FN&**
+**Inspired Vigilante (Ex)**
 
 **Ability:** This ability functions similarly to the [investigator's](ref/class/investigator)
 _inspiration_ ability, but the vigilante's _inspiration pool_ is equal to his class level (do not

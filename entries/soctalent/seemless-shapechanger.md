@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Seemless Shapechanger (Ex)&FN&**
+**Seemless Shapechanger (Ex)**
 
 **Flavor:** The vigilante seamlessly adopts any persona he assumes with magic.
 

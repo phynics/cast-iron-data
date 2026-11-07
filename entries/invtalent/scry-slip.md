@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Scry Slip (Su)&FN&**
+**Scry Slip (Su)**
 
 **Ability:** Whenever an investigator with this talent is targeted by a scrying effect that allows a
 Will save, the caster of the divination must succeed at a caster level check (DC = 15 + the

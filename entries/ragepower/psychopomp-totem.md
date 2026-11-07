@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Psychopomp Totem&FN&**
+**Psychopomp Totem**
 
 **Ability:** The first time each round a creature with [regeneration](ref/umr/regeneration) or
 [fast healing](ref/umr/fast-healing) is struck by the barbarian while she is _raging,_ the creature

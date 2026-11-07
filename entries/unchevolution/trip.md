@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Trip (Ex)&FN&**
+**Trip (Ex)**
 
 **Ability:** Whenever the eidolon makes a successful bite attack, it can attempt a free combat
 maneuver check. If the eidolon succeeds at this check, the target is knocked

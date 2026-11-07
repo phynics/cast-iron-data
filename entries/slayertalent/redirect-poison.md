@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Redirect Poison (Ex)&FN&**
+**Redirect Poison (Ex)**
 
 **Flavor:** The slayer can divert poisoned attacks against him.
 

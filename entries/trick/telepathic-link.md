@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Telepathic Link&FN&**
+**Telepathic Link**
 
 **Ability:** The mesmerist can trigger this trick when the subject and her allies are outnumbered in
 combat. For 1 minute per mesmerist level, the subject and the mesmerist can communicate

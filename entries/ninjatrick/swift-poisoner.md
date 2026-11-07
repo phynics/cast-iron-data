@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swift Poisoner (Ex)&FN&**
+**Swift Poisoner (Ex)**
 
 **Ability:** A ninja with this trick can apply a dose of poison to a weapon as a **swift action**.

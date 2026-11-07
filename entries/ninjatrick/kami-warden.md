@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Kami Warden (Su)&FN&**
+**Kami Warden (Su)**
 
 **Ability:** A ninja with this trick gains [Bodyguard](ref/feat/bodyguard) and
 [In Harm's Way](ref/feat/in-harms-way) as bonus feats, ignoring their prerequisites.

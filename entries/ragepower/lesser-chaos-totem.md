@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Chaos Totem (Su)&FN&**
+**Lesser Chaos Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian gains a +1 deflection bonus to AC against the attacks of
 lawful creatures and a +1 resistance bonus on saving throws against confusion, insanity, polymorph,

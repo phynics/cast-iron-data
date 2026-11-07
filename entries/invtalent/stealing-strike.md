@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stealing Strike (Ex)&FN&**
+**Stealing Strike (Ex)**
 
 **Free:** When the investigator deals damage with _studied strike,_ he can perform a
 [steal](ref/rule/steal) combat maneuver against the creature damaged by _studied strike._ This steal

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Force Bomb&FN&**
+**Force Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it inflict force damage.
 _Force bombs_ deal 1d4 points of force damage, plus 1d4 points of force damage for every

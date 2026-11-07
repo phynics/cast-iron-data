@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Diamond Body (Su)&FN&**
+**Diamond Body (Su)**
 
 **Ability:** By spending 1 ki point, a monk with this power can remove one toxin from his body as if
 using [neutralize poison](ref/spell/neutralize-poison), using his monk level as his caster level. He

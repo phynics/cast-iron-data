@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Willful Ignorance&FN&**
+**Willful Ignorance**
 
 **Ability:** The subject gains the ability to tell one undetectable lie. When the subject attempts
 to lie, the mesmerist can trigger this trick. That particular lie resists truth-detecting magic, and

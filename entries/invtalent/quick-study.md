@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quick Study (Ex)&FN&**
+**Quick Study (Ex)**
 
 **Ability:** An investigator can use his _studied combat_ ability as **swift action** instead of a
 move action.

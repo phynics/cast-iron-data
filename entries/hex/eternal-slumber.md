@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eternal Slumber (Su)&FN&**
+**Eternal Slumber (Su)**
 
 **Ability:** The witch can touch a creature, causing it to drift off into a permanent slumber. The
 creature receives a Will save to negate this effect. If the save fails, the creature falls asleep

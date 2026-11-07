@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Black Market Connection (Ex)&FN&**
+**Black Market Connection (Ex)**
 
 **Action:** Ability
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mesmeric Mirror&FN&**
+**Mesmeric Mirror**
 
 **Ability:** The mesmerist can trigger this trick when the subject is attacked or becomes the target
 of a spell that requires an attack roll. One duplicate of the subject appears, and the attacker must

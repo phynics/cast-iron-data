@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sharpened Accuracy (Ex)&FN&**
+**Sharpened Accuracy (Ex)**
 
 **Passive:** When using her \*surprise accuracy \*rage power, the barbarian ignores the miss chance
 for [concealment](ref/rule/concealment) and treats total concealment as concealment. She also

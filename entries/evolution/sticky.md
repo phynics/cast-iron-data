@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sticky (Ex)&FN&**
+**Sticky (Ex)**
 
 **Passive:** The eidolon is especially sticky, whether from a coating of adhesive slime, partially
 congealed blood, or tiny barbed spines. The eidolon gains a +4 bonus on combat maneuver checks to

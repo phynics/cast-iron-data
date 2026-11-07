@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Befuddling Strike (Ex)&FN&**
+**Befuddling Strike (Ex)**
 
 **Passive:** When the rogue deals sneak attack damage against an opponent, that opponent takes a -2
 penalty on attack rolls against the rogue for 1d4 rounds.

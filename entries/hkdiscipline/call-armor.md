@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Call Armor (Su)&FN&**
+**Call Armor (Su)**
 
 **Move:** The Hellknight can cause her armor to instantly appear on her body. Alternatively, she can
 dismiss it as a move action, causing it to vanish. (Doing either of these counts as one use of this

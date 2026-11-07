@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Master of Disguise (Ex)&FN&**
+**Master of Disguise (Ex)**
 
 **Ability:** Once per day, a rogue with this talent gains a +10 bonus on a single
 [Disguise](ref/skill/disguise) check.

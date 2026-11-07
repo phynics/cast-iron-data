@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Immunity (Su)&FN&**
+**Immunity (Su)**
 
 **Flavor:** The eidolon's body becomes extremely resilient to one energy type.
 

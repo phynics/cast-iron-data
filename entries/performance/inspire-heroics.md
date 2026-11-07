@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspire Heroics (Su)&FN&**
+**Inspire Heroics (Su)**
 
 **At 15th Level:** A bard can inspire tremendous heroism in himself or a single ally within 30 feet.
 Inspired creatures gain a +4 morale bonus on saving throws and a +4 dodge bonus to AC.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Armored Swiftness (Ex)&FN&**
+**Armored Swiftness (Ex)**
 
 **Ability:** A slayer with this talent can move at full speed in heavy armor. In addition, the
 maximum Dexterity bonus of heavy armor the slayer wears increases by 1 for every 6 class levels he

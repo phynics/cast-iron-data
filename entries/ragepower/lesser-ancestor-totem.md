@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Ancestor Totem (Su)&FN&**
+**Lesser Ancestor Totem (Su)**
 
 **Passive:** When she enters a _rage,_ the barbarian selects a skill of her choice, which must be
 one she can use while _raging,_ such as Climb or Intimidate. While _raging,_ she gains a +2 insight

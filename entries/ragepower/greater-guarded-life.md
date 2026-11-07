@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Guarded Life (Ex)&FN&**
+**Greater Guarded Life (Ex)**
 
 **Passive:** When using the _guarded life_ rage power, 1 additional hit point of lethal damage per
 barbarian level is converted to nonlethal damage.

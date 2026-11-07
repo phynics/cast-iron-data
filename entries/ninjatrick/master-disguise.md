@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Master Disguise (Su)&FN&**
+**Master Disguise (Su)**
 
 **Ability:** Whenever the ninja uses the _sudden disguise_ ninja trick, the duration increases to 10
 minutes per level.

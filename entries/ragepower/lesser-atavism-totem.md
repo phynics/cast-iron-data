@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Atavism Totem (Su)&FN&**
+**Lesser Atavism Totem (Su)**
 
 **Ability:** The barbarian gains a [bite attack](ref/umr/natural-attacks); if she already has a bite
 attack, it deals damage as if the barbarian were one size larger.

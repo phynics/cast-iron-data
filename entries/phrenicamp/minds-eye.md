@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mind's Eye (Su)&FN&**
+**Mind's Eye (Su)**
 
 **Ability:** While casting a spell that requires a ranged attack roll, the psychic can spend 2
 points from her phrenic pool and gain a +4 insight bonus on the attack roll.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Method to the Madness&FN&**
+**Method to the Madness**
 
 **Ability:** The alchemist has learned to channel his madness into one of his alchemist class
 abilities. When the alchemist takes this discovery, he chooses one of either bombs or extracts. If

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Seduction (Su)&FN&**
+**Seduction (Su)**
 
 **Ability:** The witch uses enthralling movements to [fascinate](ref/misc/fascinated) a single
 creature within 60 feet that can see the witch. A Will save negates this effect. If the target is

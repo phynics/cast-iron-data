@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rope Master (Ex)&FN&**
+**Rope Master (Ex)**
 
 **Ability:** A rogue with this ability can move at her normal speed when using rope on a
 [Climb](ref/skill/climb) check, can take 10 when using [Acrobatics](ref/skill/acrobatics) to move

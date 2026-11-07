@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Terrain Mastery (Ex)&FN&**
+**Terrain Mastery (Ex)**
 
 **Ability:** A rogue with this talent gains a [favored terrain](ref/ability/favored-terrain) as the
 ranger ability of the same name, though the favored terrain ability does not increase with her level

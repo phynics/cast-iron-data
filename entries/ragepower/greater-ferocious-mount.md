@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Ferocious Mount (Ex)&FN&**
+**Greater Ferocious Mount (Ex)**
 
 **Passive:** While _raging_ and mounted, the barbarian's mount gains the benefits of any rage powers
 that are constant in effect when the barbarian is _raging._ It does not gain the benefit of any rage

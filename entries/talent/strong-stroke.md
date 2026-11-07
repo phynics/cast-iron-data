@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Strong Stroke (Ex)&FN&**
+**Strong Stroke (Ex)**
 
 **Ability:** A rogue with this talent rolls twice when making [Swim](ref/skill/swim) checks and
 takes the better result. If she already rolls twice while making a Swim check because of another

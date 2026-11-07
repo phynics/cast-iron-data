@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Redirect Force (Ex)&FN&**
+**Redirect Force (Ex)**
 
 **Ability:** If the ninja has a feat that allows her to attempt a combat maneuver without provoking
 attacks of opportunity, she can choose to provoke them anyway when she performs that maneuver. If

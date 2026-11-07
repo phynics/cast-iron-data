@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow Clone (Su)&FN&**
+**Shadow Clone (Su)**
 
 **Special:** Using this ability costs 1 ki point.
 

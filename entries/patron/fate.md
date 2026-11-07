@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fate&FN&**
+**Fate**
 
 **Info:** The Fate patron grants the following spells at the listed witch levels.
 

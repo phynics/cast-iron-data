@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tongues (Su)&FN&**
+**Tongues (Su)**
 
 **Ability:** A witch with this hex can understand any spoken language for a number of minutes per
 day equal to her level, as [comprehend languages](ref/spell/comprehend-languages). This duration

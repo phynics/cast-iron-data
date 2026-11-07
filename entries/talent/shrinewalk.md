@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shrinewalk (Sp)&FN&**
+**Shrinewalk (Sp)**
 
 **Ability:** Council agents can walk the mystic paths between Westcrown's shrines. A rogue with
 _shrinewalk_ can create her own shrine simply by designating an area in any urban region by placing

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dispelling Attack (Su)&FN&**
+**Dispelling Attack (Su)**
 
 **Ability:** Opponents that are dealt sneak attack damage by a rogue with this ability are affected
 by a targeted [dispel magic](ref/spell/dispel-magic), targeting the lowest-level spell effect active

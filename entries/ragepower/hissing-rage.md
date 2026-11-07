@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hissing Rage (Su)&FN&**
+**Hissing Rage (Su)**
 
 **Action:** Standard Action
 

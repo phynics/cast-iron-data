@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mummification&FN&**
+**Mummification**
 
 **Ability:** After learning this discovery, the alchemist must perform a 30-day regimen of a special
 diet, rigorous exercise, and drinking a mildly poisonous alchemical tea. At the end of this regimen,

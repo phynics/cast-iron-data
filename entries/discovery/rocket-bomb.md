@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rocket Bomb&FN&**
+**Rocket Bomb**
 
 **Ability:** Alchemists with this discovery can prepare special rockets to deliver their bombs.
 _Rocket bombs_ travel farther and explode bigger than normal bombs, but cannot target individual

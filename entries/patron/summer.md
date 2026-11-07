@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Summer&FN&**
+**Summer**
 
 **Info:** The Summer patron grants the following spells at the listed witch levels.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Raging Flier (Su)&FN&**
+**Raging Flier (Su)**
 
 **Move:** Once per _rage,_ the character can fly up to her base speed. If she uses the
 [charge](ref/rule/charge) action, she can use this flight as part of her movement during the charge.

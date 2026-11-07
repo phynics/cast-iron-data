@@ -499,6 +499,7 @@ appear identical save for any obvious differences, such as evolutions or equipme
 |[Storm Caller](ref/arc-unchained-summoner/storm-caller)|||||||X||X||X|X|X|X|||
 |[Twinned Summoner](ref/arc-unchained-summoner/twinned-summoner)|||||||||X|X|X|X||X|||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for unchained\_summoner are listed on the separate class options page._
+_The favored class options for unchained\_summoner are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Boundaries&FN&**
+**Boundaries**
 
 **Info:** The Boundaries patron grants the following spells at the listed witch levels.
 

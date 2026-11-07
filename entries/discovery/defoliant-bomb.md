@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Defoliant Bomb&FN&**
+**Defoliant Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it deal extra damage against
 plant creatures but less damage against other creatures. Against creatures with the plant type, a

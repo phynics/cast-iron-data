@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blindsight (Ex)&FN&**
+**Blindsight (Ex)**
 
 **Ability:** The eidolon's senses sharpen even further, granting it [blindsight](ref/umr/blindsight)
 with a range of 30 feet. The eidolon can maneuver and attack as normal, ignoring darkness,

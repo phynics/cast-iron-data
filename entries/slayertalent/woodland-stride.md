@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Woodland Stride (Ex)&FN&**
+**Woodland Stride (Ex)**
 
 **Ability:** A slayer with this talent may move through any sort of undergrowth (such as natural
 thorns, briars, overgrown areas, and similar terrain) at his normal speed and without taking damage

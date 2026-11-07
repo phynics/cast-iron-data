@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Touched by the Outer Gods&FN&**
+**Touched by the Outer Gods**
 
 **Ability:** You gain the [unnerve beasts](ref/hex/unnerve-beasts) hex at 1st level.
 

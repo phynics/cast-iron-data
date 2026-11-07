@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&No Breath (Ex)&FN&**
+**No Breath (Ex)**
 
 **Ability:** The eidolon does not breathe, and is immune to effects that require breathing (such as
 inhaled poison). This does not give immunity to cloud or gas attacks that do not require breathing.

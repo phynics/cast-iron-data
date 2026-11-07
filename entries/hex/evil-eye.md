@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Evil Eye (Su)&FN&**
+**Evil Eye (Su)**
 
 **Ability:** The target takes a -2 penalty on one of the following (witch's choice): AC, ability
 checks, attack rolls, saving throws, or skill checks.

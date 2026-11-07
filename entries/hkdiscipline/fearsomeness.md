@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fearsomeness (Ex)&FN&**
+**Fearsomeness (Ex)**
 
 **Ability:** A Hellknight who uses the Intimidate skill to cause a creature within 10 feet to become
 [shaken](ref/misc/shaken) can instead cause that creature to become

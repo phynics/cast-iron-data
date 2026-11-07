@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pentamic Faith (Ex)&FN&**
+**Pentamic Faith (Ex)**
 
 **Ability:** The Hellknight gains all of the granted powers (but not domain spells) of that domain,
 treating his Hellknight levels as cleric levels to determine what domain abilities he has access to.

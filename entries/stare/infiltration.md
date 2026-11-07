@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Infiltration&FN&**
+**Infiltration**
 
 **Info:** The _hypnotic stare_ penalty also applies to the target's Perception checks and CMD.

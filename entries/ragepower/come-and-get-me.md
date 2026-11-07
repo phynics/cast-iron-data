@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Come and Get Me (Ex)&FN&**
+**Come and Get Me (Ex)**
 
 **Free:** While _raging,_ the barbarian may leave herself open to attack while preparing devastating
 counterattacks. Enemies gain a +4 bonus on attack and damage rolls against the barbarian until the

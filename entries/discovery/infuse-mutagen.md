@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Infuse Mutagen&FN&**
+**Infuse Mutagen**
 
 **Ability:** When the alchemist creates a _mutagen,_ he can infuse it with an extra bit of his own
 magical power. This inflicts 2 points of [Intelligence damage](ref/rule/ability-damage-drain) to the

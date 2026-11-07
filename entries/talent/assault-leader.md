@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Assault Leader (Ex)&FN&**
+**Assault Leader (Ex)**
 
 **Ability:** Once per day, when the rogue misses with an attack on a flanked opponent, she can
 designate a single ally who is also [flanking](ref/rule/flanking) the target that her attack missed.

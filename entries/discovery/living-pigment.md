@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Living Pigment&FN&**
+**Living Pigment**
 
 **Flavor:** The alchemist infuses his inks and dyes with a spark of animating force.
 

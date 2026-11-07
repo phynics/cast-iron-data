@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Erratic Charge (Ex)&FN&**
+**Erratic Charge (Ex)**
 
 **Ability:** As part of the full-round action to perform a [charge](ref/rule/charge) attack against
 a creature at least 20 feet away, the barbarian can move 5 feet in any direction before making the

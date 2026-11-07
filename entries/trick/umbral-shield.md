@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Umbral Shield&FN&**
+**Umbral Shield**
 
 **Ability:** The mesmerist can trigger this trick whenever the subject would be exposed to harmful
 bright light (such as sunlight is to a [vampire](ref/template/vampire)). The subject is immune to

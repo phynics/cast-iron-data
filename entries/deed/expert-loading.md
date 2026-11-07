@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Expert Loading (Ex)&FN&**
+**Expert Loading (Ex)**
 
 **Ability:** Whenever the gunslinger rolls a misfire with a gun that has the broken condition, she
 can spend 1 grit point to keep the gun from exploding, though it retains the broken condition.

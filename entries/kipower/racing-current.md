@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Racing Current (Su)&FN&**
+**Racing Current (Su)**
 
 **Move:** A monk with this ki power can create a wave to help him maneuver allies upon the
 battlefield, as if using the spell [slipstream](ref/spell/slipstream). Using this ability costs 2 ki

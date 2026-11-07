@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Alchemical Simulacrum&FN&**
+**Greater Alchemical Simulacrum**
 
 **Ability:** The alchemist gains the ability to create a simulacrum. This works like the
 [simulacrum](ref/spell/simulacrum) spell, except it costs 100 gp in alchemical materials per Hit Die

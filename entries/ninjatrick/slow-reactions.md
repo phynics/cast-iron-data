@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Slow Reactions (Ex)&FN&**
+**Slow Reactions (Ex)**
 
 **Ability:** Opponents that are damaged by the ninja's sneak attack can't make attacks of
 opportunity for 1 round.

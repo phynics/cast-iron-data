@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Regenerative Stance (Ex)&FN&**
+**Regenerative Stance (Ex)**
 
 **Flavor:** The barbarian can continually replenish her health.
 

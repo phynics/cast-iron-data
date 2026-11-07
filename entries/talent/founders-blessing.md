@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Founders' Blessing&FN&**
+**Founders' Blessing**
 
 **Ability:** Once per day, she can choose a skill in which she has no ranks. After she spends 10
 minutes communing with these mystical spirits, they grant her a luck bonus equal to her rogue level

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Basic Magic (Sp)&FN&**
+**Basic Magic (Sp)**
 
 **Ability:** This spell can be cast once per day as a
 [spell-like ability](ref/umr/spell-like-abilities). The caster level for this evolution is equal to

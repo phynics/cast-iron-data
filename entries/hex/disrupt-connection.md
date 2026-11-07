@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disrupt Connection (Su)&FN&**
+**Disrupt Connection (Su)**
 
 **Ability:** The hexer disrupts the connection between a summoned creature within 30 feet and its
 master. The summoned creature must succeed at a Will save or be [confused](ref/misc/confused) for

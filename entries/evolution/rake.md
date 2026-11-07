@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rake (Ex)&FN&**
+**Rake (Ex)**
 
 **Ability:** An eidolon grows dangerous claws on its feet, allowing it to make 2
 [rake](ref/umr/rake) attacks on foes it is grappling. These attacks are

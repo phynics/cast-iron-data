@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Frugal Trapsmith (Ex)&FN&**
+**Frugal Trapsmith (Ex)**
 
 **Ability:** When a rogue with this talent constructs a mechanical trap, she only pays 75% of the
 normal cost.

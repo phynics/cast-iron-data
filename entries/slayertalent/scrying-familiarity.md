@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Scrying Familiarity (Ex)&FN&**
+**Scrying Familiarity (Ex)**
 
 **Ability:** If you notice a magical sensor, you can attempt a Stealth check opposed by the caster's
 caster level check to avoid being detected by the sensor.

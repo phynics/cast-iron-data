@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shove Aside (Ex)&FN&**
+**Shove Aside (Ex)**
 
 **Ability:** When you and an adjacent ally are both in the area of an attack that requires a saving
 throw, you can take a -4 penalty on your saving throw to grant your ally a +4 bonus on his saving

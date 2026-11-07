@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poison (Ex)&FN&**
+**Poison (Ex)**
 
 **Action:** Ability
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Anarchic Bombs&FN&**
+**Anarchic Bombs**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it deal chaotic divine damage.
 Lawful creatures that take a direct hit from an _anarchic bomb_ must succeed at a Fortitude save or

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Siege Bomb&FN&**
+**Siege Bomb**
 
 **Prereq:** 12th-level alchemist, [explosive bomb](ref/discovery/explosive-bomb)
 

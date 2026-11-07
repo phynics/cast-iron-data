@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grab (Ex)&FN&**
+**Grab (Ex)**
 
 **Ability:** An eidolon becomes adept at grappling foes, gaining the [grab](ref/umr/grab) ability.
 Pick bite, claw, pincers, slam, tail slap, or tentacle attacks. Whenever the eidolon makes a

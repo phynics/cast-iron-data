@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Conspiracies&FN&**
+**Conspiracies**
 
 **Info:** The Conspiracies patron grants the following spells at the listed witch levels.
 

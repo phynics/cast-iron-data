@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bite (Ex)&FN&**
+**Bite (Ex)**
 
 **Ability:** An eidolon's maw is full of razor-sharp teeth, giving it a
 [bite attack](ref/umr/natural-attacks). This attack is a primary attack. The bite deals 1d6 points

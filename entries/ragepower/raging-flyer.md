@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Raging Flyer (Ex)&FN&**
+**Raging Flyer (Ex)**
 
 **Passive:** When _raging,_ the barbarian adds her level as an enhancement bonus to
 [Fly](ref/skill/fly) checks.

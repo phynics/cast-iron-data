@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mask Misery&FN&**
+**Mask Misery**
 
 **Ability:** The mesmerist can trigger this trick when the subject becomes affected by a minor
 condition listed under the _touch treatment_ ability. The subject can ignore the effect of that

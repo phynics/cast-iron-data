@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspiring Cognatogen&FN&**
+**Inspiring Cognatogen**
 
 **Ability:** An alchemist with this discovery leans how to make an _inspiring cognatogen,_ a
 _mutagen_-like mixture that grants him \*inspiration \*(as the

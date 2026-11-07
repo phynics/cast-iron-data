@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Enchantment&FN&**
+**Enchantment**
 
 **Info:** The Enchantment patron grants the following spells at the listed witch levels.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Elements&FN&**
+**Elements**
 
 **Info:** The Elements patron grants the following spells at the listed witch levels.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Leap and Bound (Ex)&FN&**
+**Leap and Bound (Ex)**
 
 **Ability:** A vigilante with this talent adds his Strength bonus on
 [Acrobatics](ref/skill/acrobatics) checks in addition to his Dexterity modifier. He is always

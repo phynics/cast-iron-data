@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&The Whole Time (Su)&FN&**
+**The Whole Time (Su)**
 
 **Ability:** An investigator with this ability is practiced at attacking from magical concealment.
 He can use [spell trigger](ref/misc/spell-trigger) and [spell completion](ref/misc/spell-completion)

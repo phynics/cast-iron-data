@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Basic Psychic Magic&FN&**
+**Basic Psychic Magic**
 
 **Ability:** The eidolon can cast the chosen spell as a psychic spell at will. The spell requires
 thought and emotion components as normal for [psychic magic](ref/rule/psychic-magic). The eidolon's

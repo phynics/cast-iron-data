@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rapid Boost (Ex)&FN&**
+**Rapid Boost (Ex)**
 
 **Ability:** The rogue can roll two dice while attempting a
 [Sleight of Hand](ref/skill/sleight-of-hand) check and take the better result. She must choose to

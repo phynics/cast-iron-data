@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vicious Claws (Ex)&FN&**
+**Vicious Claws (Ex)**
 
 **Ability:** A catfolk with this talent uses d8s to roll sneak attack damage instead of d6s, but
 only when she uses her claws to make the sneak attack.

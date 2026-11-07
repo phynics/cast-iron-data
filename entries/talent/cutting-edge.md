@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cutting Edge (Ex)&FN&**
+**Cutting Edge (Ex)**
 
 **Ability:** A rogue with this ability immediately selects two additional skills with her _rogue's
 edge_ ability.

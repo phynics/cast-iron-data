@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Axiomatic Bombs&FN&**
+**Axiomatic Bombs**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it deal lawful divine damage.
 Chaotic creatures that take a direct hit from an _axiomatic bomb_ must succeed at a Fortitude save

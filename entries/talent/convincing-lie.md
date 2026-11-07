@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Convincing Lie (Ex)&FN&**
+**Convincing Lie (Ex)**
 
 **Ability:** When a rogue with this talent successfully uses the [Bluff](ref/skill/bluff) skill to
 convince someone that what she is saying is true, if that individual is questioned later about the

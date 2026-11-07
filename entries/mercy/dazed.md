@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer dazed.&FN&
+**Details:** The target is no longer dazed.
 
-**Title:** &L&Dazed
+**Title:** Dazed

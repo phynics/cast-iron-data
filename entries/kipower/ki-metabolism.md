@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Metabolism (Su)&FN&**
+**Ki Metabolism (Su)**
 
 **Flavor:** A monk with this ability uses his ki to control his metabolism.
 

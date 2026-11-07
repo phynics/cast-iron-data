@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Expert Leaper (Unchained Rogue) (Ex)&FN&**
+**Expert Leaper (Unchained Rogue) (Ex)**
 
 **Passive:** When making jump checks, the rogue is always considered to have a running start, and
 adds her rogue level to the check result. Also, when the rogue deliberately falls, a DC 15

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swimming Stunt (Ex)&FN&**
+**Swimming Stunt (Ex)**
 
 **Ability:** Once per round, when making an attack against an opponent underwater that qualifies for
 sneak attack damage, a rogue with this talent can attempt a Swim check as a **free action** against

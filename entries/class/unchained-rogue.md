@@ -306,6 +306,7 @@ assassin, and a dozen more things besides. The rogue gains a +4 bonus on all of 
 
 **Also available:** The Right Spot
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for unchained\_rogue are listed on the separate class options page._
+_The favored class options for unchained\_rogue are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

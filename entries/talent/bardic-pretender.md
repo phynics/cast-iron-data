@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Bardic Pretender (Ex)&FN&**
+**Bardic Pretender (Ex)**
 
 **Ability:** The rogue knows enough about music and performance to survive in a bardic college and
 can fake what she doesn't know. The rogue qualifies as having the

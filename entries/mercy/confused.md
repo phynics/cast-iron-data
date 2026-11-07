@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer confused.&FN&
+**Details:** The target is no longer confused.
 
-**Title:** &L&Confused
+**Title:** Confused

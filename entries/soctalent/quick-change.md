@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quick Change (Ex)&FN&**
+**Quick Change (Ex)**
 
 **Ability:** Instead of needing 1 minute to change his identity, he can now do so as a **full-round
 action**.

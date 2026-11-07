@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Insanity&FN&**
+**Insanity**
 
 **Info:** The Insanity patron grants the following spells at the listed witch levels.
 

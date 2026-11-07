@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Guardian (Su)&FN&**
+**Ki Guardian (Su)**
 
 **Immediate:** Before he rolls a saving throw against a targeted effect that also targets other
 allies or an area effect whose area includes other allies, a monk with this ability can spend any

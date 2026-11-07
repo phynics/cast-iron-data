@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ward (Su)&FN&**
+**Ward (Su)**
 
 **Ability:** The shaman places a protective ward over one creature. The _warded_ creature receives a
 +2 deflection bonus to AC and a +2 resistance bonus on saving throws. This effect lasts until the

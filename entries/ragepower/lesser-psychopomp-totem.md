@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Psychopomp Totem&FN&**
+**Lesser Psychopomp Totem**
 
 **Passive:** While _raging,_ the barbarian gains a +1 deflection bonus to AC against the attacks of
 undead creatures and a +1 bonus on saving throws against death effects, diseases, and poisons. This

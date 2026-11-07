@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fiend Totem (Su)&FN&**
+**Fiend Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian sprouts dozens of wicked barbs from her body. Anyone
 striking the barbarian with a melee weapon, an unarmed strike, or a natural weapon takes 1d6 points

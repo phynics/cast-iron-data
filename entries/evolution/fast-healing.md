@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fast Healing (Su)&FN&**
+**Fast Healing (Su)**
 
 **Passive:** An eidolon's body gains the ability to heal wounds very quickly, giving it
 [fast healing](ref/umr/fast-healing) 1. The eidolon heals 1 point of damage each round, just like

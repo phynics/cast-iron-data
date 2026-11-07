@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Extra Earthcraft&FN&**
+**Extra Earthcraft**
 
 **Ability:** The slayer gains 2 additional earthcraft points each day.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Strike the Unseen (Ex)&FN&**
+**Strike the Unseen (Ex)**
 
 **Ability:** The vigilante gains [Blind-Fight](ref/feat/blind-fight) as a bonus feat. He can also
 deal _hidden strike_ damage against targets with total concealment.

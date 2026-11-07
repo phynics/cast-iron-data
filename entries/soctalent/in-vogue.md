@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&In Vogue (Ex)&FN&**
+**In Vogue (Ex)**
 
 **Flavor:** The vigilante's crafting or professional business is always at the height of the local
 trends, allowing the vigilante to gain more profits than usual.

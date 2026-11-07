@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer deafened.&FN&
+**Details:** The target is no longer deafened.
 
-**Title:** &L&Deafened
+**Title:** Deafened

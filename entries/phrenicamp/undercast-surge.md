@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Undercast Surge (Su)&FN&**
+**Undercast Surge (Su)**
 
 **Ability:** When the psychic [undercasts](ref/rule/undercasting-spells) a spell, she can spend
 points from her phrenic pool to increase the spell's effective level, essentially using up a

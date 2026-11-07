@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fast Getaway (Ex)&FN&**
+**Fast Getaway (Ex)**
 
 **Ability:** After successfully making a sneak attack or
 [Sleight of Hand](ref/skill/sleight-of-hand) check, a rogue with this talent can spend a **move

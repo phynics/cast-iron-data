@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sensed&FN&**
+**Sensed**
 
 **Info:** The _hypnotic stare_ penalty also applies to Stealth checks.

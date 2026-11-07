@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dissipating Rage (Su)&FN&**
+**Dissipating Rage (Su)**
 
 **Passive:** When the barbarian _rages,_ her feverish frenzy and hot breath burn or blow fog, smoke
 and similar effects away from her. The barbarian and creatures adjacent to her do not gain

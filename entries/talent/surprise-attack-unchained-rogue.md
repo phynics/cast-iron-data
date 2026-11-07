@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Surprise Attack (Unchained Rogue) (Ex)&FN&**
+**Surprise Attack (Unchained Rogue) (Ex)**
 
 **Passive:** During the surprise round, opponents are always considered
 [flat-footed](ref/rule/flat-footed) to a rogue with this ability, even if they have already acted. A

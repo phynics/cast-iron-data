@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Extinguishing Strike (Ex)&FN&**
+**Extinguishing Strike (Ex)**
 
 **Ability:** When a rogue with this talent hits a creature with a melee attack that deals sneak
 attack damage, any nonmagical light sources worn or carried by the creature (such as lit torches,

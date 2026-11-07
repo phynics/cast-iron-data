@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Flying Kick&FN&**
+**Flying Kick**
 
 **Ability:** Before the attack, the monk can move a distance equal to his _fast movement_ bonus.
 This movement is made as part of the monk's _flurry of blows_ attack and does not require an

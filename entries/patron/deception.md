@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deception&FN&**
+**Deception**
 
 **Info:** The Deception patron grants the following spells at the listed witch levels.
 

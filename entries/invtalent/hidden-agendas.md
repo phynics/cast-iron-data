@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hidden Agendas (Ex)&FN&**
+**Hidden Agendas (Ex)**
 
 **Ability:** When an investigator uses _inspiration_ while attempting a [Bluff](ref/skill/bluff)
 check to pass secret messages or attempting a [Linguistics](ref/skill/linguistics) check to create

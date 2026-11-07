@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Combat Skill (Ex)&FN&**
+**Combat Skill (Ex)**
 
 **Ability:** The vigilante gains any one combat feat as a bonus feat. He must meet the prerequisites
 for this feat, but he is treated as though he had a number of fighter levels equal to half his

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sand Bomb&FN&**
+**Sand Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can pack the casing full of sand that explodes in
 an abrasive cloud on impact. A creature that takes a direct hit from a _sand bomb_ is

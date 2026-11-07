@@ -630,6 +630,7 @@ behind the scenes to ensure that whatever happens, evil always wins, and the tyr
 |[Seal-Breaker](ref/arc-antipaladin/seal-breaker)|X||X|||X|||||||X|||||||
 |[Tyrant](ref/arc-antipaladin/tyrant)||||||||X|X||||X|||||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for antipaladin are listed on the separate class options page._
+_The favored class options for antipaladin are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

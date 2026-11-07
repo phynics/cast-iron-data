@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Steal the Story (Ex)&FN&**
+**Steal the Story (Ex)**
 
 **Ability:** After muddling another's account using _obfuscate story,_ the rogue may make another
 opposed [Diplomacy](ref/skill/diplomacy) check to alter the details further in order to discredit,

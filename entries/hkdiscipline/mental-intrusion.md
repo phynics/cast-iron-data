@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mental Intrusion (Sp)&FN&**
+**Mental Intrusion (Sp)**
 
 **Ability:** The Hellknight can use [telepathy](ref/spell/telepathy) as a
 [spell-like ability](ref/umr/spell-like-abilities), using her character level as her caster level.

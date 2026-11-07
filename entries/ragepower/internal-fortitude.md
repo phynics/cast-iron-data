@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Internal Fortitude (Ex)&FN&**
+**Internal Fortitude (Ex)**
 
 **Passive:** While _raging,_ the barbarian is immune to the sickened and nauseated conditions.
 

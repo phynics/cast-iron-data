@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disease&FN&**
+**Disease**
 
 **Ability:** One of the eidolon's natural weapons carries a disease chosen from the following list:
 [bubonic plague](ref/disease/bubonic-plague), [filth fever](ref/disease/filth-fever),

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unaided&FN&**
+**Unaided**
 
 **Info:** The target of the _hypnotic stare_ is not able to grant or receive
 [flanking](ref/rule/flanking) bonuses.

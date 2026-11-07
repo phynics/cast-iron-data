@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spell Knowledge&FN&**
+**Spell Knowledge**
 
 **Ability:** Select a single spell from the sorcerer/wizard spell list that is at least 2 levels
 lower than your highest-level extract known. You can prepare and cast this spell as an arcane spell.

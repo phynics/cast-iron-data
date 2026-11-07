@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nimble Climber (Ex)&FN&**
+**Nimble Climber (Ex)**
 
 **Passive:** A catfolk rogue with this talent gains a +4 bonus on Climb checks.
 

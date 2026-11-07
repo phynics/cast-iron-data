@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feign Innocence (Ex)&FN&**
+**Feign Innocence (Ex)**
 
 **Flavor:** The vigilante's social identity seems so innocent that it is hard to believe he was
 involved in wrongdoing.

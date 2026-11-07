@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&One of Those Faces (Sp)&FN&**
+**One of Those Faces (Sp)**
 
 **Ability:** Each day, you can use [disguise self](ref/spell/disguise-self) as a
 [spell-like ability](ref/umr/spell-like-abilities) for up to 10 minutes per character level. This

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow Form (Su)&FN&**
+**Shadow Form (Su)**
 
 **Ability:** This shadow form grants the eidolon constant [concealment](ref/rule/concealment) (20%
 miss chance), and its melee attacks affect incorporeal creatures as if it had the

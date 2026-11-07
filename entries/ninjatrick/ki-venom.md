@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Venom (Ex)&FN&**
+**Ki Venom (Ex)**
 
 **Action:** Ability
 

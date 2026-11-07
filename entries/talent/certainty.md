@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Certainty (Ex)&FN&**
+**Certainty (Ex)**
 
 **Ability:** The rogue can reroll a skill check she just made with the selected skill and take the
 better result.

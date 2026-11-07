@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lasting Poison (Unchained Rogue) (Ex)&FN&**
+**Lasting Poison (Unchained Rogue) (Ex)**
 
 **Ability:** A rogue with this talent can apply poison to a weapon in such a way that it is
 effective for a number of successful attacks equal to her Dexterity modifier (minimum two) instead

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mindtouch (Su)&FN&**
+**Mindtouch (Su)**
 
 **Ability:** The psychic can spend 1 point from her phrenic pool to probe one target's mind if that
 creature is affected by the linked spell. If the target of the linked spell fails its saving throw

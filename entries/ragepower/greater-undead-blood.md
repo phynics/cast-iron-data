@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Undead Blood (Su)&FN&**
+**Greater Undead Blood (Su)**
 
 **Passive:** While _raging,_ the barbarian gains cold [resistance](ref/umr/resistance) 10, as well
 as DR 10/- against nonlethal damage.

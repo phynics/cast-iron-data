@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Countersong (Su)&FN&**
+**Countersong (Su)**
 
 **Action:** At 1st Level
 

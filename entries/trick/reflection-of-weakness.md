@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Reflection of Weakness&FN&**
+**Reflection of Weakness**
 
 **Ability:** The mesmerist can trigger this trick when an attack or spell used by an enemy causes
 the subject to take [ability damage, ability drain](ref/rule/ability-damage-drain),

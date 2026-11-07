@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Breath Weapon (Su)&FN&**
+**Breath Weapon (Su)**
 
 **Ability:** The eidolon can breathe a 30-foot cone (or 60-foot line) that deals 1d6 points of
 damage of the selected type per Hit Dice it possesses. Those caught in the breath weapon can attempt

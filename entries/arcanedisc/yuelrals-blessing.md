@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Yuelral's Blessing&FN&**
+**Yuelral's Blessing**
 
 **Passive:** You cast any spells that appear on both the wizard and druid spell lists at +1 caster
 level and with +1 to the save DC. In addition, you may replace the material component of any arcane

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Precise Poison&FN&**
+**Precise Poison**
 
 **Flavor:** The alchemist is adept at delivering poison to the most vulnerable areas of his targets.
 

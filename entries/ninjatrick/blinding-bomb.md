@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blinding Bomb (Ex)&FN&**
+**Blinding Bomb (Ex)**
 
 **Ability:** Whenever the ninja throws a [smoke bomb](ref/ninjatrick/smoke-bomb), all living
 creatures in the cloud must make a Fortitude save or be [blinded](ref/misc/blinded) by the black

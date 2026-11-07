@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Up Close and Personal (Ex)&FN&**
+**Up Close and Personal (Ex)**
 
 **Prereq:** 4th-level stalker
 

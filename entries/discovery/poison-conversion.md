@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Poison Conversion&FN&**
+**Poison Conversion**
 
 **Ability:** By spending 1 minute, the alchemist can convert 1 dose of poison from its current type
 (contact, ingested, inhaled, or injury) to another type. For example, the alchemist can convert a

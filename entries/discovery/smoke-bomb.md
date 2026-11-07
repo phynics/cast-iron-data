@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Smoke Bomb&FN&**
+**Smoke Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it create a cloud of thick
 smoke when it detonates. The cloud functions as [fog cloud](ref/spell/fog-cloud), filling an area

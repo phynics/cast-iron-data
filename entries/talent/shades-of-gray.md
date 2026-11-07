@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shades of Gray (Ex)&FN&**
+**Shades of Gray (Ex)**
 
 **Ability:** A rogue with this talent uses mental and emotional tricks to protect herself from
 attempts to discern her alignment. This offers her the benefits of

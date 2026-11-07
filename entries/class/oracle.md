@@ -499,6 +499,7 @@ ability to adapt in the midst of a battle with new fighting techniques.
 |[Tree Soul](ref/arc-oracle/tree-soul)||X||||X|X|X|X|X|||X|X||||X||X|X||X|
 |[Warsighted](ref/arc-oracle/warsighted)||||||||||||||X|||X|X|X|||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for oracle are listed on the separate class options page._
+_The favored class options for oracle are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

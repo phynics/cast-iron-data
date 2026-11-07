@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Low-Light Vision (Ex)&FN&**
+**Low-Light Vision (Ex)**
 
 **Ability:** An eidolon gains low-light vision, enabling it to see twice as far as a human in
 conditions of dim light.

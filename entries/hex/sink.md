@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sink (Su)&FN&**
+**Sink (Su)**
 
 **Ability:** The witch can cause a creature in water to struggle, imposing a -4 penalty on its Swim
 checks and reducing its swim speed (if any) by 10 feet for 1 minute unless it succeeds at a

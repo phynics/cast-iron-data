@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fey Blood (Su)&FN&**
+**Fey Blood (Su)**
 
 **Passive:** While _raging,_ when the barbarian [charges](ref/rule/charge), she ignores
 [difficult terrain](ref/rule/terrain-and-obstacles) (including magical terrain, but not other

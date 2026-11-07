@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Climbing Stunt (Ex)&FN&**
+**Climbing Stunt (Ex)**
 
 **Ability:** A rogue with this talent can take a -10 penalty on a Climb check to move at full speed
 while climbing.

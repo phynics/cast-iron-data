@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Foe Collision (Ex)&FN&**
+**Foe Collision (Ex)**
 
 **Ability:** When the vigilante deals _hidden strike_ damage to a corporeal foe with a melee attack,
 he can also deal an amount of nonlethal damage equal to his reduced _hidden strike_ damage to an

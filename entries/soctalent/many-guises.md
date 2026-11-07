@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Many Guises (Ex)&FN&**
+**Many Guises (Ex)**
 
 **Ability:** The vigilante can take on any number of mundane guises. Whenever he changes his
 identity, he has a third option (instead of social or vigilante): he can become mundane.

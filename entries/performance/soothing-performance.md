@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Soothing Performance (Su)&FN&**
+**Soothing Performance (Su)**
 
 **At 12th Level:** A bard can use his performance to create an effect equivalent to a
 [mass cure serious wounds](ref/spell/cure-serious-wounds-mass), using the bard's level as the caster

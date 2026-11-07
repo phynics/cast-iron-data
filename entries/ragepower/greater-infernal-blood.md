@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Infernal Blood (Su)&FN&**
+**Greater Infernal Blood (Su)**
 
 **Passive:** While _raging,_ the barbarian gains a +4 bonus against enchantment and fear effects.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Brawler&FN&**
+**Greater Brawler**
 
 **Ability:** While _raging,_ the barbarian is treated as if she has
 [Two-Weapon Fighting](ref/feat/two-weapon-fighting) when making unarmed strike attacks.

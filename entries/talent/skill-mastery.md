@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Skill Mastery&FN&**
+**Skill Mastery**
 
 **Ability:** When making a skill check with one of these skills, she may take 10 even if stress and
 distractions would normally prevent her from doing so.

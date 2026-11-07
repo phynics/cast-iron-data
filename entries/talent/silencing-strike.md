@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Silencing Strike (Su)&FN&**
+**Silencing Strike (Su)**
 
 **Ability:** When a creature is damaged by the rogue's sneak attack, the rogue magically renders the
 creature mute for 1 round unless it succeeds at a Will save (DC = 10 + half the rogue's level + the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swift Foot (Ex)&FN&**
+**Swift Foot (Ex)**
 
 **Passive:** The barbarian gains a 5-foot enhancement bonus to her speed. This increase is always
 active while the barbarian is _raging._

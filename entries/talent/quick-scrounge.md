@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Quick Scrounge&FN&**
+**Quick Scrounge**
 
 **Ability:** The rogue can search a creature, object, or area in half as much time as normal. If her
 [Perception](ref/skill/perception) check would normally require a full-round action or less, it

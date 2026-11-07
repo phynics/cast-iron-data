@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Brutal Maneuver&FN&**
+**Brutal Maneuver**
 
 **Ability:** The first time each round that the vigilante uses a weapon, including a natural attack
 or unarmed strike, to perform a combat maneuver in place of making an attack (such as by performing

@@ -16,7 +16,7 @@ elements: air, earth, fire, or water. Generally, an [elemental](ref/family/eleme
 appears as a creature made entirely of one element, but there is some variation. Elemental eidolons
 are decidedly moderate in their views and actions. They tend to avoid the conflicts of others when
 they can and seek to maintain balance. The only exception is when facing off against emissaries of
-their opposing elements, which they hate utterly.&FN&
+their opposing elements, which they hate utterly.
 
 **Alignment**
 

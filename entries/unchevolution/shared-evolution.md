@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shared Evolution (Su)&FN&**
+**Shared Evolution (Su)**
 
 **Choice:** Select a 1-point or 2-point evolution the eidolon has.
 

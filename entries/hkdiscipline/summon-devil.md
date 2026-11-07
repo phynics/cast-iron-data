@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Summon Devil (Sp)&FN&**
+**Summon Devil (Sp)**
 
 **Ability:** The Hellknight may use [summon monster V](ref/spell/summon-monster-5) as a
 [spell-like ability](ref/umr/spell-like-abilities) to summon 1

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Dilution&FN&**
+**Dilution**
 
 **Ability:** Once per day, the alchemist can dilute any one potion or elixir, creating two doses of
 the same potion from one. Diluting a potion costs a number of gp equal to one-quarter of the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Golem Constructor&FN&**
+**Golem Constructor**
 
 **Ability:** You have learned the art and craft of creating a single type of
 [golem](ref/family/golem) (such as [stone golems](ref/monster/golem-stone-golem) or

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Preserve Organs&FN&**
+**Preserve Organs**
 
 **Flavor:** The alchemist learns how to preserve and protect his vital organs, reducing the chance
 of a mortal wound.

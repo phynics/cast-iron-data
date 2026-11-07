@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Flight Response&FN&**
+**Flight Response**
 
 **Immediate:** When a barbarian attempts a saving throw against a fear effect, she can enter a
 _rage_ (as long as she would normally be able to enter _rage_). This consumes 3 rounds of the

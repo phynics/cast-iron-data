@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rolling Dodge (Ex)&FN&**
+**Rolling Dodge (Ex)**
 
 **Move:** The barbarian gains a dodge bonus to her Armor Class against ranged attacks for a number
 of rounds equal to the barbarian's current Constitution modifier (minimum 1). This bonus is equal to

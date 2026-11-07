@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shattering Punch&FN&**
+**Shattering Punch**
 
 **Ability:** If the attack hits, it bypasses any [damage reduction](ref/rule/damage-reduction) or
 [hardness](ref/umr/hardness) possessed by the target of that attack.

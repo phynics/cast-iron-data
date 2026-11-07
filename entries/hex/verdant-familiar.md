@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Verdant Familiar (Ex)&FN&**
+**Verdant Familiar (Ex)**
 
 **Ability:** The witch's familiar's creature type changes to plant, gaining all respective
 [plant traits](ref/type/plant).

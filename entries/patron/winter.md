@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Winter&FN&**
+**Winter**
 
 **Info:** The Winter patron grants the following spells at the listed witch levels.
 

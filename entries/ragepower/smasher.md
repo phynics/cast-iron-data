@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Smasher (Ex)&FN&**
+**Smasher (Ex)**
 
 **Ability:** Once per _rage,_ whenever the barbarian makes an attack against an unattended object or
 a [sunder](ref/rule/sunder) combat maneuver, she can ignore the object's

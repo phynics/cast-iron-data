@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Morphic Mask (Su)&FN&**
+**Morphic Mask (Su)**
 
 **Ability:** The vigilante's physical form in his vigilante identity can differ significantly from
 that of his social identity, within the norms for his race &mdash& this can include changes to the

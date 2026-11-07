@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The paladin's lay on hands ability also acts as [remove curse](ref/spell/remove-curse),
-using the paladin's level as the caster level.&FN&
+using the paladin's level as the caster level.
 
-**Title:** &L&Cursed
+**Title:** Cursed

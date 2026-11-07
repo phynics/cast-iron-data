@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Defensive Feedback (Su)&FN&**
+**Defensive Feedback (Su)**
 
 **Flavor:** Rather than dissipate damaging energy, you can redirect some of it back to its source.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sneak Training (Ex)&FN&**
+**Sneak Training (Ex)**
 
 **Passive:** The rogue counts as having the sneak attack class feature of a rogue of her level for
 the purpose of meeting prestige class requirements, although this talent doesn't improve the rogue's

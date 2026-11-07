@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stars&FN&**
+**Stars**
 
 **Info:** The Stars patron grants the following spells at the listed witch levels.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Swamp Hag (Sp)&FN&**
+**Swamp Hag (Sp)**
 
 **Passive:** While traveling through swamps, mires, bogs, and similar terrain, the witch leaves no
 trail and cannot be tracked, as the [trackless step](ref/ability/trackless-step) druid ability. The

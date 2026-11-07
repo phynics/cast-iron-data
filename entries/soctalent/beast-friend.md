@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Beast Friend (Su)&FN&**
+**Beast Friend (Su)**
 
 **Ability:** The vigilante can cast [charm animal](ref/spell/charm-animal) once per day as a
 [spell-like ability](ref/umr/spell-like-abilities), with a caster level equal to his level.

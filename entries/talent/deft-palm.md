@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deft Palm (Ex)&FN&**
+**Deft Palm (Ex)**
 
 **Ability:** A rogue with this talent can make a [Sleight of Hand](ref/skill/sleight-of-hand) check
 to conceal a weapon while holding it in plain sight, even while she is being observed.

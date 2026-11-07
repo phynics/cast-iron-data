@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Calm Stance (Ex)&FN&**
+**Calm Stance (Ex)**
 
 **Flavor:** The barbarian can enter a state of calm.
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Ki Volley (Su)&FN&**
+**Ki Volley (Su)**
 
 **Immediate:** When a targeted spell or [spell-like ability](ref/umr/spell-like-abilities) fails to
 overcome the monk's [spell resistance](ref/rule/spell-resistance) from _diamond soul,_ he can spend

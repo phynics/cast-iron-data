@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Enduring Toxin&FN&**
+**Enduring Toxin**
 
 **Ability:** The alchemist can alter the properties of a poison, causing it to persist longer in the
 victim's body. Altering a dose of poison in the way takes 1 hour, requires the expenditure of raw

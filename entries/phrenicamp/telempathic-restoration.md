@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Telempathic Restoration (Su)&FN&**
+**Telempathic Restoration (Su)**
 
 **Ability:** When the psychic casts [telepathic bond](ref/spell/telepathic-bond), she can spend 1
 point from her phrenic pool to remove the [dazed](ref/misc/dazed),

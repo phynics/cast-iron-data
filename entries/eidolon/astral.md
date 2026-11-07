@@ -12,7 +12,7 @@ kind = "none"
 +++
 
 While some resemble ouroboroses, most astral eidolons are spun from raw thought or the husks of
-Astral travelers whose silver cords broke.&FN&
+Astral travelers whose silver cords broke.
 
 **Alignment**
 

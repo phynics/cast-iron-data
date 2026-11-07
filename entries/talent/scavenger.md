@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Scavenger&FN&**
+**Scavenger**
 
 **Ability:** A rogue with this talent can pick up and stow an object as a **swift action** instead
 of two separate move actions. She gains a +2 bonus on [Sleight of Hand](ref/skill/sleight-of-hand)

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Knockback (Ex)&FN&**
+**Knockback (Ex)**
 
 **Ability:** Once per round, the barbarian can make a [bull rush](ref/rule/bull-rush) attempt
 against one target in place of a melee attack. If successful, the target takes damage equal to the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Auspicious Mark (Su)&FN&**
+**Auspicious Mark (Su)**
 
 **Flavor:** The barbarian has been marked by the spirits, as indicated by an impressive tattoo,
 scar, or birthmark she possesses.

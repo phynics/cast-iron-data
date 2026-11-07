@@ -14,7 +14,7 @@ kind = "none"
 Summoned from the dreary shadowscapes of the Shadow Plane, shadow eidolons are grim, colorless
 mockeries of creatures that inhabit the Material Plane. Shadow eidolons resent being pulled into the
 unbearable brightness of the Material Plane. Despite this, shadow eidolons serve their summoners
-with somberness, acknowledging that shadow cannot exist without light.&FN&
+with somberness, acknowledging that shadow cannot exist without light.
 
 **Alignment**
 

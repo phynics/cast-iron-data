@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Animals&FN&**
+**Animals**
 
 **Info:** The Animals patron grants the following spells at the listed witch levels.
 

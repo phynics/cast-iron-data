@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vigilance (Su)&FN&**
+**Vigilance (Su)**
 
 **Ability:** The Hellknight gains [low-light vision](ref/rule/low-light-vision) (this effect is
 constant).

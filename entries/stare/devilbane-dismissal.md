@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Devilbane Dismissal&FN&**
+**Devilbane Dismissal**
 
 **Info:** The _hypnotic stare_ reduces the duration of any conjuration (summoning) spells the target
 casts, or that are currently affecting the target, by half.

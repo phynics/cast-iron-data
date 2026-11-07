@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Devotion&FN&**
+**Devotion**
 
 **Info:** The Devotion patron grants the following spells at the listed witch levels.
 

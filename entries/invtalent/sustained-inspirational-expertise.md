@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Sustained Inspirational Expertise (Ex)&FN&**
+**Sustained Inspirational Expertise (Ex)**
 
 **Prereq:** 11th-level investigator,
 [inspirational expertise](ref/invtalent/inspirational-expertise)

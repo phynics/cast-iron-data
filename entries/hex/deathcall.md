@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deathcall (Su)&FN&**
+**Deathcall (Su)**
 
 **Flavor:** The witch's presence makes death more likely for wounded foes.
 

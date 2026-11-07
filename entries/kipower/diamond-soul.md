@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Diamond Soul (Ex)&FN&**
+**Diamond Soul (Ex)**
 
 **Prereq:** 12th-level monk
 

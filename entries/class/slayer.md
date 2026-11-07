@@ -527,6 +527,7 @@ and hunting bounties and trespassers from the shelter of sturdy branches.
 |[Witch Killer](ref/arc-slayer/witch-killer)|||X||||||X|||X||||||X||||
 |[Woodland Sniper](ref/arc-slayer/woodland-sniper)|||||||||||||||X|X|X||X|X||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for slayer are listed on the separate class options page._
+_The favored class options for slayer are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

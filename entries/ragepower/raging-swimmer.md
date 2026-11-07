@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Raging Swimmer (Ex)&FN&**
+**Raging Swimmer (Ex)**
 
 **Passive:** When _raging,_ the barbarian adds her level as an enhancement bonus on all
 [Swim](ref/skill/swim) skill checks.

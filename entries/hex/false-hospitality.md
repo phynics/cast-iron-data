@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&False Hospitality (Su)&FN&**
+**False Hospitality (Su)**
 
 **Ability:** A witch can use this hex to gain the benefits of [glibness](ref/spell/glibness) with a
 caster level equal to the witch's level. This hex can be used once per day.

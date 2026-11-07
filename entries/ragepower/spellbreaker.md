@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Spellbreaker&FN&**
+**Spellbreaker**
 
 **Ability:** When _raging,_ the barbarian gains [Spellbreaker](ref/feat/spellbreaker) as a bonus
 feat.

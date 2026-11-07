@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Cult Totem (Ex)&FN&**
+**Cult Totem (Ex)**
 
 **Ability:** The barbarian can make an attack of opportunity against a creature within her reach who
 damages an ally of the barbarian with a melee attack. Only the enemy, not the barbarian's ally,

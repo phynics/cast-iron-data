@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Thoughtful Reexamining (Ex)&FN&**
+**Thoughtful Reexamining (Ex)**
 
 **Ability:** Once per day, a rogue with this talent can reroll a
 [Knowledge](ref/skill/knowledge-all), [Sense Motive](ref/skill/sense-motive), or

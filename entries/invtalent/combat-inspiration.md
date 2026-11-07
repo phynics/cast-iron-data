@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Combat Inspiration (Ex)&FN&**
+**Combat Inspiration (Ex)**
 
 **Passive:** When an investigator uses _inspiration_ on an attack roll or saving throw, he expends
 one use of _inspiration_ instead of two.

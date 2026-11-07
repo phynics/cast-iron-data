@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Wall Scramble (Ex)&FN&**
+**Wall Scramble (Ex)**
 
 **Ability:** A rogue with this talent rolls twice when making [Climb](ref/skill/climb) checks and
 takes the better of the two rolls. If she already rolls twice while making a Climb check because of

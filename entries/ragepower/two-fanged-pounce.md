@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Two-Fanged Pounce&FN&**
+**Two-Fanged Pounce**
 
 **Ability:** If the barbarian is wielding a pair of [daggers](ref/eq-weapon/dagger),
 [kukris](ref/eq-weapon/kukri), or [punching daggers](ref/eq-weapon/punching-dagger), she can attack

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Blinding Strike&FN&**
+**Blinding Strike**
 
 **Ability:** A rogue who selects this talent gains [Blinding Critical](ref/feat/blinding-critical)
 as a bonus feat, even if she doesn't meet the prerequisites.

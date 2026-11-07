@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Always Prepared (Ex)&FN&**
+**Always Prepared (Ex)**
 
 **Ability:** The vigilante gains the [Brilliant Planner](ref/feat/brilliant-planner) feat except he
 can spend up to 100 gp per character level for his brilliant plan fund and only requires 1 minute to

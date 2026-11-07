@@ -17,7 +17,7 @@ eidolons sometimes represent a more obscure kind of death than the most famous d
 eidolons wish to sow death and misery through a variety of means. Most are capable of seeing the big
 picture, and will obediently follow even a neutral summoner. Ending lives is a typical part of an
 adventurer's career, so following along with a summoner gives a daemon eidolon many opportunities to
-gather mortal soul energy for its own dark and inscrutable purposes.&FN&
+gather mortal soul energy for its own dark and inscrutable purposes.
 
 **Alignment**
 

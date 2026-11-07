@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Kip-Up (Ex)&FN&**
+**Kip-Up (Ex)**
 
 **Move:** While the swashbuckler has at least 1 panache point, she can kip-up from
 [prone](ref/rule/prone) without provoking an attack of opportunity.

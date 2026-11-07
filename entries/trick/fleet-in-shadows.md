@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fleet in Shadows&FN&**
+**Fleet in Shadows**
 
 **Ability:** The mesmerist can trigger this trick whenever the target enters an area with
 [dim or darker light](ref/rule/vision-and-light). The subject can move double its normal speed (up

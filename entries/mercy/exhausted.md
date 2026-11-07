@@ -12,6 +12,6 @@ kind = "none"
 +++
 
 **Details:** The target is no longer exhausted. The paladin must have the
-[fatigued](ref/mercy/fatigued) mercy before selecting this mercy.&FN&
+[fatigued](ref/mercy/fatigued) mercy before selecting this mercy.
 
-**Title:** &L&Exhausted
+**Title:** Exhausted

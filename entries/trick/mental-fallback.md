@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mental Fallback&FN&**
+**Mental Fallback**
 
 **Ability:** The mesmerist can trigger this trick when the subject is affected by a charm or
 compulsion effect created by an enemy. The subject acts as though the mesmerist had cast the spell

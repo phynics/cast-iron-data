@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Speak in Dreams (Sp)&FN&**
+**Speak in Dreams (Sp)**
 
 **Ability:** The witch can contact a creature as if using [dream](ref/spell/dream). The witch can
 use this ability on a number of creatures per day equal to her Intelligence bonus, but can

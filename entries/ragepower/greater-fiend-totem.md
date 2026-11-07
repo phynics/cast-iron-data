@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Fiend Totem (Su)&FN&**
+**Greater Fiend Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian is surrounded by an aura of menace. Good creatures
 adjacent to the barbarian are [shaken](ref/misc/shaken) and take 2d6 points of slashing damage at

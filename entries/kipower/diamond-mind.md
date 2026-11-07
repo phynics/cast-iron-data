@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Diamond Mind (Su)&FN&**
+**Diamond Mind (Su)**
 
 **Prereq:** 6th-level monk
 

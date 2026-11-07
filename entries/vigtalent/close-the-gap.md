@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Close the Gap (Ex)&FN&**
+**Close the Gap (Ex)**
 
 **Ability:** Each round, at the start of his turn, the vigilante can designate one foe within 20
 feet that isn't adjacent to him. When he moves, he doesn't provoke attacks of opportunity from that

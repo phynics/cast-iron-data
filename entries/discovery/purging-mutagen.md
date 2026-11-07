@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Purging Mutagen&FN&**
+**Purging Mutagen**
 
 **Ability:** The alchemist's _mutagen_ combines ipecac and other purgative components. A
 non-alchemist who consumes the _mutagen_ is [nauseated](ref/misc/nauseated) for only 1 round, during

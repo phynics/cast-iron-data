@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inspire Competence (Su)&FN&**
+**Inspire Competence (Su)**
 
 **At 1st Level:** A bard can use his performance to help an ally succeed at a task. That ally must
 be within 30 feet and be able to hear the bard. The ally gets a +2 competence bonus on skill checks

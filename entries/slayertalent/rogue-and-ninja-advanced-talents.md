@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Rogue and Ninja Advanced Talents&FN&**
+**Rogue and Ninja Advanced Talents**
 
 **Action:** Ability
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Face in the Crowd&FN&**
+**Face in the Crowd**
 
 **Ability:** A rogue with this talent can blend into groups easily. Opposed
 [Perception](ref/skill/perception) and [Sense Motive](ref/skill/sense-motive) checks take a -2

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Snatch Arrows&FN&**
+**Snatch Arrows**
 
 **Ability:** A ninja who selects this ninja trick gains the [Snatch Arrows](ref/feat/snatch-arrows)
 feat as a bonus feat.

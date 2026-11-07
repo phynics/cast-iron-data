@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Taiga Linnorm Death Curse (Su)&FN&**
+**Taiga Linnorm Death Curse (Su)**
 
 **Action:** Ability
 

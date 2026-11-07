@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Style Master&FN&**
+**Style Master**
 
 **Ability:** A ninja who selects this ninja trick gains a style feat that she qualifies for as a
 bonus feat.

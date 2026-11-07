@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Vanish Arrow&FN&**
+**Vanish Arrow**
 
 **Ability:** The mesmerist can trigger this trick when the subject is targeted by a ranged weapon
 attack, before the attack roll is made. The mesmerist attempts a

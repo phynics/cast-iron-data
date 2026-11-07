@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Flight (Ex or Su)&FN&**
+**Flight (Ex or Su)**
 
 **Ability:** The eidolon grows large wings, like those of a bat, bird, insect, or dragon, gaining
 the ability to fly. The eidolon gains a fly speed equal to its base speed. The eidolon's

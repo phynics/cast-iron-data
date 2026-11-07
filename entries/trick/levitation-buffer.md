@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Levitation Buffer&FN&**
+**Levitation Buffer**
 
 **Ability:** The mesmerist can trigger this trick when either an enemy moves adjacent to the subject
 or the subject begins her turn with one or more enemies adjacent to her. The mesmerist can either

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grazing Shot (Ex)&FN&**
+**Grazing Shot (Ex)**
 
 **Flavor:** Particularly deft rogues can strike two foes with one well-placed shot.
 

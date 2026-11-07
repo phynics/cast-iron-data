@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Healing Bomb&FN&**
+**Healing Bomb**
 
 **Ability:** Creating a _healing bomb_ requires the alchemist to expend an infused extract or potion
 containing a cure spell. A creature that takes a direct hit from a _healing bomb_ is healed as if

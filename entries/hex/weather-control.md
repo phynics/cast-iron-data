@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Weather Control (Su)&FN&**
+**Weather Control (Su)**
 
 **Ability:** A witch with this hex can use [control weather](ref/spell/control-weather) once per
 day, but creating the weather takes 1 full hour of chanting, dancing, and communing with her

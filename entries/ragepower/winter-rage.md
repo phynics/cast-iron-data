@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Winter Rage (Su)&FN&**
+**Winter Rage (Su)**
 
 **Special:** A barbarian can have only one season-themed rage power, choosing between
 [spring](ref/ragepower/spring-rage), [summer](ref/ragepower/summer-rage),

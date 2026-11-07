@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stony Skin (Ex)&FN&**
+**Stony Skin (Ex)**
 
 **Ability:** A rogue with this talent gains DR 2/adamantine.
 

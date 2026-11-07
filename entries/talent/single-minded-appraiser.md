@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Single-Minded Appraiser (Ex)&FN&**
+**Single-Minded Appraiser (Ex)**
 
 **Ability:** A catfolk rogue with this talent is skilled at determining the value of sparkly things.
 She can always take 10 when appraising gems and jewelry.

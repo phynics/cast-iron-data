@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Heralding Bloom (Su)&FN&**
+**Heralding Bloom (Su)**
 
 **Ability:** A witch can compel a plant within 30 feet to spread a message, which must be 25 words
 or fewer and in a language the witch speaks. This message can't contain verbal spell components,

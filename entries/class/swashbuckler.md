@@ -480,6 +480,7 @@ the comforts of an urban lifestyle.
 |[Whirling Dervish](ref/arc-swashbuckler/whirling-dervish)|||X|||||X|||||||||X||||X|X||||||X||
 |[Wildstrider](ref/arc-swashbuckler/wildstrider)|||||||X|||X||X|X|||||||X||||||X||||
 
-### \[Favored Class Bonuses\](rule/favored\_class)
+### Favored Class Bonuses
 
-_The favored class options for swashbuckler are listed on the separate class options page._
+_The favored class options for swashbuckler are listed on the
+[separate class options page](ref/carried/advanced-race-guide/rules/core-races/alternate-racial-rules#favored-class-options)._

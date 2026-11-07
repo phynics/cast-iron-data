@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Meek Facade&FN&**
+**Meek Facade**
 
 **Ability:** The mesmerist can trigger this trick when the subject misses a creature with an attack
 (even if it's part of a full attack in which she hits that creature with another attack). The enemy

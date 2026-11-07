@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Master Tricks&FN&**
+**Master Tricks**
 
 **Ability:** The rogue can select a ninja trick from the list of master tricks in place of a rogue
 talent. The rogue cannot select a ninja trick that has the same name as a rogue talent. The rogue

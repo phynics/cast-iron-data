@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Unwitting Ally (Ex)&FN&**
+**Unwitting Ally (Ex)**
 
 **Ability:** A rogue with this talent can spend a **swift action** to attempt to make an opponent
 act like an ally for purposes of providing a [flank](ref/rule/flanking) until the beginning of the

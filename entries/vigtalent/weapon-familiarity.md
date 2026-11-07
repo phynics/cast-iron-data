@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Weapon Familiarity (Ex)&FN&**
+**Weapon Familiarity (Ex)**
 
 **Ability:** The vigilante selects either two simple or martial weapons or one exotic weapon when he
 gains this talent. He gains proficiency with his chosen weapon or weapons.

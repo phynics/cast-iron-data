@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Nightmares&FN&**
+**Nightmares**
 
 **Info:** The Nightmares patron grants the following spells at the listed witch levels.
 

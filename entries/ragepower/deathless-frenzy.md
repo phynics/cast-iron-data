@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Deathless Frenzy&FN&**
+**Deathless Frenzy**
 
 **Passive:** While _raging,_ you ignore the effects of being at 0 or fewer hit points until you have
 been at 0 or fewer hit points for 1 round, at which point the appropriate consequences for your

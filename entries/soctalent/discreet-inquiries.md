@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Discreet Inquiries (Ex)&FN&**
+**Discreet Inquiries (Ex)**
 
 **Ability:** The vigilante can attempt Diplomacy checks to gather information without being obvious
 he is seeking any, whether by buying the silence of informants or by talking foes into revealing

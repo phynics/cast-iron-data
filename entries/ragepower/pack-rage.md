@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pack Rage (Ex)&FN&**
+**Pack Rage (Ex)**
 
 **Ability:** When a barbarian with this rage power enters a _rage,_ any barbarian within 30 feet who
 also has this rage power can enter a _rage._ A barbarian that enters a _rage_ outside of her turn

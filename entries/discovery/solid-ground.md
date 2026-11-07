@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Solid Ground&FN&**
+**Solid Ground**
 
 **Ability:** The alchemist launches an explosive paste bomb that bonds with any earthen surface.
 Each application of this paste deals no damage and affects a 5-foot-cube of dirt, loose soil, or

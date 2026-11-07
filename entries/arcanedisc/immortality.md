@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Immortality (Ex)&FN&**
+**Immortality (Ex)**
 
 **Passive:** You discover a cure for aging, and from this point forward you take no penalty to your
 physical ability scores from [advanced age](ref/rule/age). If you are already taking such penalties,

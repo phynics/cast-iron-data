@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Anguish Bomb&FN&**
+**Anguish Bomb**
 
 **Ability:** You can throw bombs infused with psychic trauma.
 

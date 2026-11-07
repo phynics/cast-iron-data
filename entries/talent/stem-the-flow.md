@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Stem the Flow (Su)&FN&**
+**Stem the Flow (Su)**
 
 **Ability:** When making a successful sneak attack against a creature with the ability to
 [channel energy](ref/ability/channel-energy), the rogue may forgo 3d6 points of sneak attack damage

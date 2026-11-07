@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tentacle&FN&**
+**Tentacle**
 
 **Ability:** The alchemist gains a prehensile, arm-length _tentacle_ on his body. The _tentacle_ is
 fully under his control and cannot be concealed except with magic or bulky clothing.

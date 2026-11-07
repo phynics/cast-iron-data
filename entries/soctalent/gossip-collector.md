@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gossip Collector (Ex)&FN&**
+**Gossip Collector (Ex)**
 
 **Ability:** Whenever the vigilante is presented with a topic about which he would normally need to
 spend 1d4 hours to gather information, he must spend only 1d2 hours instead. If he has the

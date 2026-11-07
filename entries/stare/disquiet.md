@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Disquiet&FN&**
+**Disquiet**
 
 **Info:** The target of the _hypnotic stare_ is [shaken](ref/misc/shaken) while in areas of total
 darkness.

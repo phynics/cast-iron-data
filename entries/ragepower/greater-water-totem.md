@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Water Totem (Su)&FN&**
+**Greater Water Totem (Su)**
 
 **Ability:** While _raging,_ the barbarian gains [tremorsense](ref/umr/tremorsense) to a range of 30
 feet while underwater. She can attack and move underwater as if affected by

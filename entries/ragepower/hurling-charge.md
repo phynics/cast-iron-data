@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Hurling Charge (Ex)&FN&**
+**Hurling Charge (Ex)**
 
 **Ability:** While _raging_ and making a [charge](ref/rule/charge) attack, the barbarian may draw
 and throw a _hurled_ weapon during her charge, gaining the normal +2 attack roll bonus on the thrown

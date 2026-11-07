@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Fey Blood (Su)&FN&**
+**Greater Fey Blood (Su)**
 
 **Ability:** While _raging,_ as long as the barbarian moves at least 10 feet, she gain the effects
 of [blur](ref/spell/blur) for 1 round.

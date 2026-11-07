@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Menacing Shot (Ex)&FN&**
+**Menacing Shot (Ex)**
 
 **Ability:** The gunslinger can spend 1 grit point, shoot a firearm into the air, and affect all
 living creatures within a 30-foot-radius [burst](ref/misc/burst) as if they were subject to the

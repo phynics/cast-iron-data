@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mighty Swing (Ex)&FN&**
+**Mighty Swing (Ex)**
 
 **Immediate:** The barbarian automatically confirms a critical hit. This power can be used once a
 critical threat has been determined.

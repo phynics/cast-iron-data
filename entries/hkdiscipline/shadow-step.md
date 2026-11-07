@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow Step (Sp)&FN&**
+**Shadow Step (Sp)**
 
 **Ability:** The Hellknight can use [enlarged](ref/feat/enlarge-spell)
 [shadow step](ref/spell/shadow-step) as a [spell-like ability](ref/umr/spell-like-abilities), as if

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gunslinger Initiative (Ex)&FN&**
+**Gunslinger Initiative (Ex)**
 
 **Passive:** As long as the gunslinger has at least 1 grit point, she gains the following benefits.
 First, she gains a +2 bonus on initiative checks. Furthermore, if she has the

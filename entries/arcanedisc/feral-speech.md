@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feral Speech (Su)&FN&**
+**Feral Speech (Su)**
 
 **Ability:** You gain the ability to speak with and understand the response of any animal as if
 using [speak with animals](ref/spell/speak-with-animals), though each time you speak to animals, you

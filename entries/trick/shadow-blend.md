@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow Blend&FN&**
+**Shadow Blend**
 
 **Ability:** The mesmerist can trigger this trick whenever the subject attempts a Stealth check
 while in an area of [dim or darker light](ref/rule/vision-and-light). The subject gains total

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Fey Mutagen&FN&**
+**Fey Mutagen**
 
 **Ability:** The alchemist gains the ability to create a _fey mutagen,_ a mixture that lends him
 some of the grace and power of [the First World](ref/rule/the-first-world). When imbibed, a _fey

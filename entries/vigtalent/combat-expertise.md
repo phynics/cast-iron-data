@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Combat Expertise (Ex)&FN&**
+**Combat Expertise (Ex)**
 
 **Ability:** The vigilante gains [Combat Expertise](ref/feat/combat-expertise) as a bonus feat, even
 if he doesn't meet the prerequisites. If he already has Combat Expertise, he instead gains another

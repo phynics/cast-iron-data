@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Greater Draconic Blood (Su)&FN&**
+**Greater Draconic Blood (Su)**
 
 **Ability:** While _raging,_ the barbarian gains a breath weapon that she can use once per day. For
 every 2 barbarian levels, this breath weapon deals 1d6 points of damage of the energy type she

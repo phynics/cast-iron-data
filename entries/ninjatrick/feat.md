@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Feat&FN&**
+**Feat**
 
 **Ability:** A ninja may gain any feat that she qualifies for in place of a ninja trick.

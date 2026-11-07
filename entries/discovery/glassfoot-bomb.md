@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Glassfoot Bomb&FN&**
+**Glassfoot Bomb**
 
 **Ability:** When the alchemist creates a bomb, he can choose to have it cover the ground in
 volatile jagged crystals in addition to its normal effects. These crystals act like

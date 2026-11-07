@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Mud Witch (Su)&FN&**
+**Mud Witch (Su)**
 
 **Ability:** A witch with this hex can assume the form of viscous brown mud. The witch's type
 changes to [ooze](ref/type/ooze) and she is able to squeeze through even the smallest cracks, but

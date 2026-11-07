@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Silencing Strike (Ex)&FN&**
+**Silencing Strike (Ex)**
 
 **Ability:** When the investigator deals damage with a _studied strike,_ the target must succeed at
 a Fortitude save (DC = 10 + 1/2 the investigator's class level + her Intelligence modifier) or be

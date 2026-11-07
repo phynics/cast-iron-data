@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Raging Leaper (Ex)&FN&**
+**Raging Leaper (Ex)**
 
 **Passive:** When _raging,_ the barbarian adds her level as an enhancement bonus on all
 [Acrobatics](ref/skill/acrobatics) skill checks made to jump. When making a jump in this way, the

@@ -11,6 +11,6 @@ provenance = [
 kind = "none"
 +++
 
-**Details:** The target is no longer blinded.&FN&
+**Details:** The target is no longer blinded.
 
-**Title:** &L&Blinded
+**Title:** Blinded

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Inferno Bomb&FN&**
+**Inferno Bomb**
 
 **Ability:** The effects of the smoke created by an alchemist's bomb duplicate the effects of
 [incendiary cloud](ref/spell/incendiary-cloud) instead of [fog cloud](ref/spell/fog-cloud), filling

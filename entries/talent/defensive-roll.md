@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Defensive Roll (Ex)&FN&**
+**Defensive Roll (Ex)**
 
 **Ability:** Once per day, when she would be reduced to 0 or fewer hit points by damage in combat
 (from a weapon or other blow, not a spell or special ability), the rogue can attempt to roll with

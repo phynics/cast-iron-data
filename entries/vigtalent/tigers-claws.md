@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Tiger's Claws (Ex)&FN&**
+**Tiger's Claws (Ex)**
 
 **Ability:** The vigilante gains the ability to grow claws similar to a
 [shifter's](ref/class/shifter). These claws are [natural weapons](ref/umr/natural-attacks) that can

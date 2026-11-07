@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Shadow&FN&**
+**Shadow**
 
 **Info:** The Shadow patron grants the following spells at the listed witch levels.
 

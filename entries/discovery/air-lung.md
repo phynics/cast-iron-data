@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Air Lung&FN&**
+**Air Lung**
 
 **Ability:** An alchemist with this discovery has conditioned his body to adapt to life above water.
 He gains the [amphibious](ref/umr/amphibious) special quality.

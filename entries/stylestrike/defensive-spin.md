@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Defensive Spin&FN&**
+**Defensive Spin**
 
 **Ability:** If the attack hits, the monk gains a +4 dodge bonus to AC against any attacks made by
 the target of the style strike until the start of his next turn. This bonus does not stack with

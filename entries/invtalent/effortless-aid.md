@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Effortless Aid (Ex)&FN&**
+**Effortless Aid (Ex)**
 
 **Ability:** The investigator can use an [aid another](ref/rule/aid-another-2) action as a **move
 action** instead of as a standard action.

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Incorporeal Form (Sp)&FN&**
+**Incorporeal Form (Sp)**
 
 **Ability:** Once per day, an eidolon can become incorporeal for 1 round per summoner level. While
 in this form, the eidolon gains the [incorporeal](ref/subtype/incorporeal) subtype and

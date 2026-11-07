@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Improved Divine Inks&FN&**
+**Improved Divine Inks**
 
 **Ability:** The alchemist's unique dyes allow him to create images accompanied by sound. If he
 expends an additional daily use of his bombs, the image he creates with the divine inks discovery

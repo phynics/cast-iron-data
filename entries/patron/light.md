@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Light&FN&**
+**Light**
 
 **Info:** The Light patron grants the following spells at the listed witch levels.
 

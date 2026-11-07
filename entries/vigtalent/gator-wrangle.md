@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Gator Wrangle (Ex)&FN&**
+**Gator Wrangle (Ex)**
 
 **Ability:** The vigilante gains a +8 bonus to his CMD against grapple combat maneuvers when using
 the [grab](ref/umr/grab) ability, and he halves all damage from [constrict](ref/umr/constrict)

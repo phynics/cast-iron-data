@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Incendiary Charge&FN&**
+**Incendiary Charge**
 
 **Flavor:** An _incendiary charge_ is a bomb specifically designed to overcome the effects of any
 nonmagical object's [hardness](ref/umr/hardness).

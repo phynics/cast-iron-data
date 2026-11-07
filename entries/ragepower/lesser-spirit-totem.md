@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Lesser Spirit Totem (Su)&FN&**
+**Lesser Spirit Totem (Su)**
 
 **Passive:** While _raging,_ the barbarian is surrounded by spirit wisps that harass her foes. These
 spirits make one slam attack each round against a living foe that is adjacent to the barbarian. This

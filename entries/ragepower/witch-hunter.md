@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Witch Hunter (Ex)&FN&**
+**Witch Hunter (Ex)**
 
 **Passive:** While _raging,_ the barbarian gains a bonus on damage rolls against creatures
 possessing spells or [spell-like abilities](ref/umr/spell-like-abilities). This damage bonus is

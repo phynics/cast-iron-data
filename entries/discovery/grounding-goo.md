@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Grounding Goo&FN&**
+**Grounding Goo**
 
 **Ability:** The alchemist's bomb applies a sticky residue after any damage from the bomb is
 resolved. If a creature damaged by the bomb has a nonmagical fly speed, its flight is severely

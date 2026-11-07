@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Plant&FN&**
+**Plant**
 
 **Info:** The Plant patron grants the following spells at the listed witch levels.
 

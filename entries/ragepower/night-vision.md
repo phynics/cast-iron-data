@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Night Vision (Ex)&FN&**
+**Night Vision (Ex)**
 
 **Ability:** The barbarian's senses grow incredibly sharp while _raging_ and she gains
 [darkvision](ref/rule/darkvision) 60 feet.

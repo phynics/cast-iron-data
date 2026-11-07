@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Major Healing (Su)&FN&**
+**Major Healing (Su)**
 
 **Ability:** This acts as [cure serious wounds](ref/spell/cure-serious-wounds), using the witch's
 caster level.

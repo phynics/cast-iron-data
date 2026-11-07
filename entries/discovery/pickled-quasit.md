@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Pickled Quasit&FN&**
+**Pickled Quasit**
 
 **Ability:** The alchemist has learned how to seal a [quasit](ref/monster/demon-quasit) in a bottle,
 which he can prepare for use as an extract. When the alchemist activates the extract, he throws the

@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Eclipsing Rage (Su)&FN&**
+**Eclipsing Rage (Su)**
 
 **Passive:** While the barbarian is _raging,_ the [light level](ref/rule/vision-and-light) within 10
 feet of her lowers by one step. She can't decrease the light level below normal darkness with this

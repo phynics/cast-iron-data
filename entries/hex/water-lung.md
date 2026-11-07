@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Water Lung (Su)&FN&**
+**Water Lung (Su)**
 
 **Ability:** An air-breathing target can breathe water or an aquatic target can breathe air. This
 lasts 1 minute.

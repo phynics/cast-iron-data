@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Restriction&FN&**
+**Restriction**
 
 **Info:** The target of the _hypnotic stare_ treats all areas of
 [dim light](ref/rule/vision-and-light) or darker as

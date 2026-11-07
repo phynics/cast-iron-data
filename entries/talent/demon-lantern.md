@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Demon Lantern (Sp)&FN&**
+**Demon Lantern (Sp)**
 
 **Ability:** Once per day when she casts [dancing lights](ref/spell/dancing-lights), the rogue can
 conjure a single _demon's lantern_ instead of the usual four lights. A _demon lantern_ acts in all

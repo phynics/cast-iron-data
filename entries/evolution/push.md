@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Push (Ex)&FN&**
+**Push (Ex)**
 
 **Ability:** Select one type of natural attack. Whenever the eidolon makes a successful attack of
 the selected type, it can attempt a free combat maneuver check. If successful, the target of the

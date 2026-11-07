@@ -11,7 +11,7 @@ provenance = [
 kind = "none"
 +++
 
-**&L&Extend Potion&FN&**
+**Extend Potion**
 
 **Ability:** A number of times per day equal to his Intelligence modifier, the alchemist can cause
 any potion he drinks that does not have an instantaneous duration to function at twice its normal
