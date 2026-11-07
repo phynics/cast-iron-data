@@ -43,7 +43,7 @@ Smaller versions of this artifact, built to be used by Medium cultists, also exi
 rotcarvers, the majority of these weapons have been captured and destroyed by the crusaders by the
 Fifth Crusade. [A rotcarver](ref/magic-weapon/rotcarver) is a +3 scythe that can infest those it
 strikes with rot grubs, or can transform its user into a
-[rot grub swarm](ref/monster/rot-grub-rot-grub-swarm).
+[rot grub swarm](ref/carried/bestiary-3/monsters/swarm/parasite/rot-grub).
 
 ### Destruction
 

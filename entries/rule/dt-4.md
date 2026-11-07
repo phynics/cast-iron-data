@@ -35,12 +35,12 @@ kind = "none"
 |61-67|1d6 [basilisks](ref/monster/basilisk)|8|
 |68-70|1 [intellect devourer](ref/monster/intellect-devourer)|8|
 |71-75|1d4 [salamanders](ref/monster/salamander)|8|
-|76-82|1 [young red dragon](ref/monster/dragon-chromatic-red-young-red-dragon)|10|
+|76-82|1 [young red dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/young)|10|
 |83-88|1 [hezrou](ref/monster/demon-hezrou)|11|
-|89-92|1 [adult red dragon](ref/monster/dragon-chromatic-red-adult-red-dragon)|14|
+|89-92|1 [adult red dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/adult)|14|
 |93-97|1d6 [ropers](ref/monster/roper)|15|
 |98-99|1 [marilith](ref/monster/demon-marilith)|17|
-|100|1 [ancient red dragon](ref/monster/dragon-chromatic-red-ancient-red-dragon)|19|
+|100|1 [ancient red dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/ancient)|19|
 
 ### Table 7-9: Goblin Den
 

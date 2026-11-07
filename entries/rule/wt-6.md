@@ -28,19 +28,19 @@ kind = "none"
 |34-38|2d6 [shocker lizards](ref/monster/shocker-lizard)|7|
 |39-41|2d4 [yeth hounds](ref/monster/yeth-hound)|7|
 |42-46|1 [behir](ref/monster/behir)|8|
-|47-52|1 [copper dragon (young)](ref/monster/dragon-metallic-copper-young-copper-dragon)|8|
+|47-52|1 [copper dragon (young)](ref/carried/bestiary/monsters/dragon/metallic/copper/young)|8|
 |53-55|1d6 [giant frilled lizards](ref/monster/lizard-giant-frilled-lizard)|8|
 |56-60|1d6 [salamanders](ref/monster/salamander)|9|
 |61-63|1 [tyrannosaurus](ref/monster/dinosaur-tyrannosaurus)|9|
 |64-68|1 [roc](ref/monster/roc)|9|
-|69-75|1 [red dragon (young)](ref/monster/dragon-chromatic-red-young-red-dragon)|10|
+|69-75|1 [red dragon (young)](ref/carried/bestiary/monsters/dragon/chromatic/red/young)|10|
 |76-80|1 [elder fire elemental](ref/monster/fire-elemental)|11|
 |81-84|1d4 [greater earth elementals](ref/monster/earth-elemental)|11|
 |85-90|1d6 [fire giants](ref/monster/giant-fire-fire-giant)|13|
 |91|1 [storm giant](ref/monster/giant-storm-giant)|13|
-|92-96|1 [red dragon (adult)](ref/monster/dragon-chromatic-red-adult-red-dragon)|14|
+|92-96|1 [red dragon (adult)](ref/carried/bestiary/monsters/dragon/chromatic/red/adult)|14|
 |97-98|1 [phoenix](ref/monster/phoenix)|15|
-|99-100|1 [red dragon (ancient)](ref/monster/dragon-chromatic-red-ancient-red-dragon)|19|
+|99-100|1 [red dragon (ancient)](ref/carried/bestiary/monsters/dragon/chromatic/red/ancient)|19|
 
 ### Table 7-67: Wasteland
 

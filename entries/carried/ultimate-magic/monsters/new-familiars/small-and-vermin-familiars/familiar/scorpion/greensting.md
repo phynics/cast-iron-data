@@ -2,7 +2,7 @@
 id = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting"
 kind = "creature"
 title = "Familiar, Scorpion, Greensting"
-source_ids = ["ultimate-magic"]
+source_ids = ["ultimate-magic", "bestiary-4"]
 section = ["Monsters", "New Familiars", "Small and Vermin Familiars", "Familiar", "Scorpion"]
 tags = ["vermin", "familiar", "tiny"]
 provenance = [

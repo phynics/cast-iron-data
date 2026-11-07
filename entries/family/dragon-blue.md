@@ -71,9 +71,9 @@ ability extend the duration by an additional 1d6 rounds.
 
 ### Members of This Family:
 
-- [Adult Blue Dragon](ref/monster/dragon-chromatic-blue-adult-blue-dragon)
-- [Ancient Blue Dragon](ref/monster/dragon-chromatic-blue-ancient-blue-dragon)
-- [Young Blue Dragon](ref/monster/dragon-chromatic-blue-young-blue-dragon)
+- [Adult Blue Dragon](ref/carried/bestiary/monsters/dragon/chromatic/blue/adult)
+- [Ancient Blue Dragon](ref/carried/bestiary/monsters/dragon/chromatic/blue/ancient)
+- [Young Blue Dragon](ref/carried/bestiary/monsters/dragon/chromatic/blue/young)
 
 ### Mythic Members of This Family:
 

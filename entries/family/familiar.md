@@ -81,7 +81,7 @@ Dexterity to modify Climb and Swim checks.
 - [Red Panda](ref/monster/familiar-red-panda)
 - [Rhamphorhynchus](ref/monster/familiar-rhamphorhynchus)
 - [Sawleg Locust](ref/monster/familiar-sawleg-locust)
-- [Scarlet Spider](ref/monster/spider-scarlet-spider)
+- [Scarlet Spider](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet)
 - [Seal](ref/monster/familiar-seal)
 - [Shimmerwing Dragonfly](ref/monster/familiar-shimmerwing-dragonfly)
 - [Sloth](ref/monster/familiar-sloth)

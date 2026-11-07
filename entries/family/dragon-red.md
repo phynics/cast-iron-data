@@ -70,10 +70,10 @@ wyrm-[discern location](ref/spell/discern-location).
 
 ### Members of This Family:
 
-- [Adult Red Dragon](ref/monster/dragon-chromatic-red-adult-red-dragon)
-- [Ancient Red Dragon](ref/monster/dragon-chromatic-red-ancient-red-dragon)
-- [Young Red Dragon](ref/monster/dragon-chromatic-red-young-red-dragon)
+- [Adult Red Dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/adult)
+- [Ancient Red Dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/ancient)
+- [Young Red Dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/young)
 
 ### Mythic Members of This Family:
 
-- [Wyrm Red Dragon](ref/monster/dragon-chromatic-red-wyrm-red-dragon-mythic)
+- [Wyrm Red Dragon](ref/carried/mythic-adventures/monsters/dragon/red/red-dragon/wyrm/mythic)

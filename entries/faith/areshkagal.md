@@ -104,9 +104,9 @@ kind = "none"
 >   you... for a price. Once per day as a standard action, you can throw gold (as coins, bars, or
 >   another form) to the ground, whereupon it vanishes to Areshkagal's realm. For every 500 gp's
 >   worth of gold thrown down this way, a [fiendish](ref/template/fiendish)
->   [young red dragon](ref/monster/dragon-chromatic-red-young-red-dragon) appears to serve you, up
->   to a maximum of three dragons per day. These dragons follow your commands perfectly for 1 minute
->   per level before vanishing back to the Abyss.
+>   [young red dragon](ref/carried/bestiary/monsters/dragon/chromatic/red/young) appears to serve
+>   you, up to a maximum of three dragons per day. These dragons follow your commands perfectly for
+>   1 minute per level before vanishing back to the Abyss.
 
 ## Follower Options
 

@@ -70,6 +70,6 @@ Great wyrm-[whirlwind](ref/spell/whirlwind).
 
 ### Members of This Family:
 
-- [Adult Brass Dragon](ref/monster/dragon-metallic-brass-adult-brass-dragon)
-- [Ancient Brass Dragon](ref/monster/dragon-metallic-brass-ancient-brass-dragon)
-- [Young Brass Dragon](ref/monster/dragon-metallic-brass-young-brass-dragon)
+- [Adult Brass Dragon](ref/carried/bestiary/monsters/dragon/metallic/brass/adult)
+- [Ancient Brass Dragon](ref/carried/bestiary/monsters/dragon/metallic/brass/ancient)
+- [Young Brass Dragon](ref/carried/bestiary/monsters/dragon/metallic/brass/young)

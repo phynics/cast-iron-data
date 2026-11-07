@@ -76,14 +76,14 @@ the Diehard feat.
   - [Shedu](ref/monster/shedu) (LG)
   - [Shield archon](ref/monster/archon-shield-archon) (LG)
   - [Treant](ref/monster/treant) (NG)
-  - [Young bronze dragon](ref/monster/dragon-metallic-bronze-young-bronze-dragon) (LG)
+  - [Young bronze dragon](ref/carried/bestiary/monsters/dragon/metallic/bronze/young) (LG)
 - 8th Level
 
   - [Cloud giant](ref/monster/giant-cloud-giant) (NG)
   - [Dragon horse](ref/monster/dragon-horse) (NG)
   - [Lammasu](ref/monster/lammasu) (LG)
   - [Monadic deva](ref/monster/angel-monadic-deva) (NG)
-  - [Young gold dragon](ref/monster/dragon-metallic-gold-young-gold-dragon) (LG)
+  - [Young gold dragon](ref/carried/bestiary/monsters/dragon/metallic/gold/young) (LG)
 - 9th Level
 
   - [Astral deva](ref/monster/angel-astral-deva) (NG)

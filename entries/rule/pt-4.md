@@ -21,7 +21,7 @@ kind = "none"
 |08-12|1d4 [ice mephits](ref/monster/mephit)|5|
 |13-17|1d4 [pegasi](ref/monster/pegasus)|5|
 |18-24|1d6 [air mephits](ref/monster/mephit)|6|
-|25-28|1 [white dragon (young)](ref/monster/dragon-chromatic-white-young-white-dragon)|6|
+|25-28|1 [white dragon (young)](ref/carried/bestiary/monsters/dragon/chromatic/white/young)|6|
 |29-30|1d6 [giant eagles](ref/monster/eagle-giant-eagle)|6|
 |31-36|1d8 [Medium air elementals](ref/monster/air-elemental)|7|
 |37-42|1 [invisible stalker](ref/monster/invisible-stalker)|7|
@@ -40,7 +40,7 @@ kind = "none"
 |89-93|1d6 [cloud giants](ref/monster/giant-cloud-giant)|14|
 |94-97|1 [astral deva](ref/monster/angel-astral-deva)|14|
 |98|1 [planetar](ref/monster/angel-planetar)|16|
-|99-100|1 [silver dragon (ancient)](ref/monster/dragon-metallic-silver-ancient-silver-dragon)|19|
+|99-100|1 [silver dragon (ancient)](ref/carried/bestiary/monsters/dragon/metallic/silver/ancient)|19|
 
 ### Table 7-29: Earth-Dominant Plane
 
@@ -53,7 +53,7 @@ kind = "none"
 |25-30|1d4 [earth mephits](ref/monster/mephit)|5|
 |31-34|1d4 [violet fungi](ref/monster/violet-fungus)|5|
 |35-37|1d6 [morlocks](ref/monster/morlock)|5|
-|38-40|1 [copper dragon (young)](ref/monster/dragon-metallic-copper-young-copper-dragon)|8|
+|38-40|1 [copper dragon (young)](ref/carried/bestiary/monsters/dragon/metallic/copper/young)|8|
 |41-44|1d8 [gargoyles](ref/monster/gargoyle)|8|
 |45-46|1 [giant slug](ref/monster/giant-slug)|8|
 |47-50|1d6 [cyclopes](ref/monster/cyclops)|8|
@@ -68,7 +68,7 @@ kind = "none"
 |87-90|1d4 [clay golems](ref/monster/golem-clay-golem)|12|
 |91-92|1 [purple worm](ref/monster/purple-worm)|12|
 |93-95|1 [roper](ref/monster/roper)|12|
-|96-98|1 [blue dragon (adult)](ref/monster/dragon-chromatic-blue-adult-blue-dragon)|13|
+|96-98|1 [blue dragon (adult)](ref/carried/bestiary/monsters/dragon/chromatic/blue/adult)|13|
 |99-100|1 [pasha shaitan](ref/monster/genie-shaitan)|13|
 
 ### Table 7-30: Fire-Dominant Plane
@@ -89,16 +89,16 @@ kind = "none"
 |53-54|1 [sphinx](ref/family/sphinx)|8|
 |55-60|1d4 [Huge fire elementals](ref/monster/fire-elemental)|9|
 |61-65|1 [malik efreeti](ref/monster/genie-efreeti)|10|
-|66-71|1 [gold dragon (young)](ref/monster/dragon-metallic-gold-young-gold-dragon)|11|
+|66-71|1 [gold dragon (young)](ref/carried/bestiary/monsters/dragon/metallic/gold/young)|11|
 |72-74|1 [cauchemar](ref/monster/nightmare-cauchemar)|11|
-|75-77|1d4 [nessian warhounds](ref/monster/hell-hound-nessian-warhound)|11|
+|75-77|1d4 [nessian warhounds](ref/carried/bestiary/monsters/hell-hound/nessian)|11|
 |78-81|1 [elder fire elemental](ref/monster/fire-elemental)|11|
 |82-88|2d4 [efreet](ref/monster/genie-efreeti)|12|
 |89-92|1d6 [fire giants](ref/monster/giant-fire-fire-giant)|13|
-|93-95|1 [red dragon (adult)](ref/monster/dragon-chromatic-red-adult-red-dragon)|14|
+|93-95|1 [red dragon (adult)](ref/carried/bestiary/monsters/dragon/chromatic/red/adult)|14|
 |96-97|1d4 [iron golems](ref/monster/golem-iron-golem)|15|
 |98-99|1 [phoenix](ref/monster/phoenix)|15|
-|100|1 [brass dragon (ancient)](ref/monster/dragon-metallic-brass-ancient-brass-dragon)|16|
+|100|1 [brass dragon (ancient)](ref/carried/bestiary/monsters/dragon/metallic/brass/ancient)|16|
 
 ### Table 7-31: Water-Dominant Plane
 
@@ -124,7 +124,7 @@ kind = "none"
 |77-80|1d4 [frost giants](ref/monster/giant-frost-frost-giant))|11|
 |81-88|1d6 [marids](ref/monster/genie-marid)|12|
 |89-92|1 [sea serpent](ref/monster/sea-serpent)|12|
-|93-95|1 [bronze dragon (adult)](ref/monster/dragon-metallic-bronze-adult-bronze-dragon)|13|
+|93-95|1 [bronze dragon (adult)](ref/carried/bestiary/monsters/dragon/metallic/bronze/adult)|13|
 |96-97|1d4 [ice devils](ref/monster/devil-ice-devil-gelugon)|15|
-|98-99|1 [black dragon (ancient)](ref/monster/dragon-chromatic-black-ancient-black-dragon)|16|
+|98-99|1 [black dragon (ancient)](ref/carried/bestiary/monsters/dragon/chromatic/black/ancient)|16|
 |100|1 [kraken](ref/monster/kraken)|18|

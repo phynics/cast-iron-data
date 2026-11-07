@@ -25,7 +25,8 @@ This silvery ornament is shaped like a spider and worn on a thick strand of silk
 made from a tough but vaguely spongy and sticky substance, and it once belonged to the famed
 Ustalavic witch Morgellia, known for her spider-like abilities and the spider swarms she commanded.
 
-Morgellia was adept at using the silk from her [scarlet spider](ref/monster/spider-scarlet-spider)
+Morgellia was adept at using the silk from her
+[scarlet spider](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet)
 familiar to create clothes, jewelry, and, when necessary, particularly effective webs to trap her
 enemies. She fashioned this very medallion from that silk and wore it every day of her adult life.
 When she died, the magic from Morgellia's familiar leaked into the bauble, imbuing it with latent

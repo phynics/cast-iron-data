@@ -34,7 +34,7 @@ kind = "none"
 |57-63|1 [chuul](ref/monster/chuul)|7|
 |64-68|1 [stegosaurus](ref/monster/dinosaur-stegosaurus)|7|
 |69-72|1 [medusa](ref/monster/medusa)|7|
-|73-75|1 [brass dragon (young)](ref/monster/dragon-metallic-brass-young-brass-dragon)|7|
+|73-75|1 [brass dragon (young)](ref/carried/bestiary/monsters/dragon/metallic/brass/young)|7|
 |76-80|1d6 [bison](ref/monster/herd-animal-bison)|7|
 |81-82|1d6 [mummies](ref/monster/mummy)|8|
 |83-87|1 [sphinx](ref/family/sphinx)|8|
@@ -54,7 +54,7 @@ kind = "none"
 |23-25|1d4 [yetis](ref/monster/yeti)|6|
 |26-33|2d6 [wolves](ref/monster/wolf)|6|
 |34-36|1 [cyrohydra](ref/monster/hydra)|6|
-|37-38|1 [white dragon (young)](ref/monster/dragon-chromatic-white-young-white-dragon)|6|
+|37-38|1 [white dragon (young)](ref/carried/bestiary/monsters/dragon/chromatic/white/young)|6|
 |39-42|1 [remorhaz](ref/monster/remorhaz)|7|
 |43-49|1d8 [dire wolves](ref/monster/wolf-dire-wolf)|7|
 |50-55|1d4 [woolly rhinoceroses](ref/monster/rhinoceros-woolly-rhinoceros)|8|
@@ -67,6 +67,6 @@ kind = "none"
 |79-86|1d6 [vikings](ref/npc/marauder-viking)|10|
 |87-91|1d6 [frost giants](ref/monster/giant-frost-frost-giant)|12|
 |92-95|1d6 [mastodons](ref/monster/elephant-mastodon)|12|
-|96-97|1 [silver dragon (adult)](ref/monster/dragon-metallic-silver-adult-silver-dragon)|14|
-|98-99|1 [white dragon (ancient)](ref/monster/dragon-chromatic-white-ancient-white-dragon)|15|
+|96-97|1 [silver dragon (adult)](ref/carried/bestiary/monsters/dragon/metallic/silver/adult)|14|
+|98-99|1 [white dragon (ancient)](ref/carried/bestiary/monsters/dragon/chromatic/white/ancient)|15|
 |100|1 [ice linnorm](ref/monster/linnorm-ice-linnorm)|17|

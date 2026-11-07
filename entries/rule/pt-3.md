@@ -29,7 +29,7 @@ kind = "none"
 |43-46|1d6 [babaus](ref/monster/demon-babau)|8|
 |47-50|1 [spirit naga](ref/monster/naga-spirit-naga)|9|
 |51-55|1d6 [nymphs](ref/monster/nymph)|10|
-|56-58|1 [white dragon (adult)](ref/monster/dragon-chromatic-white-adult-white-dragon)|10|
+|56-58|1 [white dragon (adult)](ref/carried/bestiary/monsters/dragon/chromatic/white/adult)|10|
 |59-64|2d4 [lamias](ref/monster/lamia)|10|
 |65-69|2d4 [succubi](ref/monster/demon-succubus)|11|
 |70-73|1d6 [marids](ref/monster/genie-marid)|12|
@@ -38,7 +38,7 @@ kind = "none"
 |82-84|1 [glabrezu](ref/monster/demon-glabrezu)|13|
 |85-89|1 [crag linnorm](ref/monster/linnorm-crag-linnorm)|14|
 |90-93|1d4 [storm giants](ref/monster/giant-storm-giant)|15|
-|94-96|1 [copper dragon (ancient)](ref/monster/dragon-metallic-copper-ancient-copper-dragon)|17|
+|94-96|1 [copper dragon (ancient)](ref/carried/bestiary/monsters/dragon/metallic/copper/ancient)|17|
 |97-98|1 [shoggoth](ref/monster/shoggoth)|19|
 |99-100|1 [balor](ref/monster/demon-balor)|20|
 
@@ -65,10 +65,10 @@ kind = "none"
 |76-78|1d6 night hags|12|
 |79-82|1d4 [hezrous](ref/monster/demon-hezrou)|13|
 |83-86|1d4 [devourers](ref/monster/devourer)|13|
-|87-89|1d6 [black dragons (adult)](ref/monster/dragon-chromatic-black-adult-black-dragon)|14|
+|87-89|1d6 [black dragons (adult)](ref/carried/bestiary/monsters/dragon/chromatic/black/adult)|14|
 |90-93|1 [horned devil](ref/monster/devil-horned-devil-cornugon)|16|
 |94-96|1 [marilith](ref/monster/demon-marilith)|17|
-|97-98|1 [red dragon (adult)](ref/monster/dragon-chromatic-red-adult-red-dragon)|19|
+|97-98|1 [red dragon (adult)](ref/carried/bestiary/monsters/dragon/chromatic/red/adult)|19|
 |99-100|1 [pit fiend](ref/monster/devil-pit-fiend)|20|
 
 ### Table 7-25: Good-Aligned Plane
@@ -84,20 +84,20 @@ kind = "none"
 |30-35|1d4 [djinn](ref/monster/genie-djinni)|7|
 |36-39|1d6 [hound archons](ref/monster/archon-hound-archon)|7|
 |40-44|2d4 [pixies](ref/monster/pixie)|8|
-|45-48|1 [copper dragon (young)](ref/monster/dragon-metallic-copper-young-copper-dragon)|8|
+|45-48|1 [copper dragon (young)](ref/carried/bestiary/monsters/dragon/metallic/copper/young)|8|
 |49-52|1d4 [lillends](ref/monster/azata-lillend)|9|
 |53-56|1d6 [bralanis](ref/monster/azata-bralani)|9|
 |57-62|1d4 [treants](ref/monster/treant)|10|
 |63-65|1d4 [djinn nobles](ref/monster/genie-djinni)|10|
-|66-69|1 [gold dragon (young)](ref/monster/dragon-metallic-gold-young-gold-dragon)|11|
+|66-69|1 [gold dragon (young)](ref/carried/bestiary/monsters/dragon/metallic/gold/young)|11|
 |70-73|1d4 [guardian nagas](ref/monster/naga-guardian-naga)|12|
-|74-77|1 [bronze dragon (adult)](ref/monster/dragon-metallic-bronze-adult-bronze-dragon)|13|
+|74-77|1 [bronze dragon (adult)](ref/carried/bestiary/monsters/dragon/metallic/bronze/adult)|13|
 |78-81|1 [astral deva](ref/monster/angel-astral-deva)|14|
 |82-84|1 [phoenix](ref/monster/phoenix)|15|
 |85-88|1d4 [ghaeles](ref/monster/azata-ghaele)|15|
 |89-91|1 [planetar](ref/monster/angel-planetar)|16|
 |92-95|1d4 [trumpet archons](ref/monster/archon-trumpet-archon)|16|
-|96-98|1 [silver dragon (ancient)](ref/monster/dragon-metallic-silver-ancient-silver-dragon)|19|
+|96-98|1 [silver dragon (ancient)](ref/carried/bestiary/monsters/dragon/metallic/silver/ancient)|19|
 |99-100|1 [solar](ref/monster/angel-solar)|23|
 
 ### Table 7-26: Lawful-Aligned Plane
@@ -118,7 +118,7 @@ kind = "none"
 |51-55|1d6 [medusas](ref/monster/medusa)|10|
 |56-59|1d6 [ghosts](ref/template/ghost)|10|
 |60-65|2d4 [shaitans](ref/monster/genie-shaitan)|11|
-|66-69|1d4 [nessian warhounds](ref/monster/hell-hound-nessian-warhound)|11|
+|66-69|1d4 [nessian warhounds](ref/carried/bestiary/monsters/hell-hound/nessian)|11|
 |70-74|1d4 [rakshasas](ref/monster/rakshasa)|12|
 |75-78|1d6 [couatls](ref/monster/couatl)|13|
 |79-81|1d8 [bone devils](ref/monster/devil-bone-devil-osyluth)|13|
@@ -126,8 +126,8 @@ kind = "none"
 |87-90|1d4 [barbed devils](ref/monster/devil-barbed-devil-hamatula)|13|
 |91-93|1d6 [ice devils](ref/monster/devil-ice-devil-gelugon)|16|
 |94-96|1d4 [trumpet archons](ref/monster/archon-trumpet-archon)|16|
-|97-98|1 [blue dragon (ancient)](ref/monster/dragon-chromatic-blue-ancient-blue-dragon)|18|
-|99-100|1 [gold dragon (ancient)](ref/monster/dragon-metallic-gold-ancient-gold-dragon)|20|
+|97-98|1 [blue dragon (ancient)](ref/carried/bestiary/monsters/dragon/chromatic/blue/ancient)|18|
+|99-100|1 [gold dragon (ancient)](ref/carried/bestiary/monsters/dragon/metallic/gold/ancient)|20|
 
 ### Table 7-27: Neutral-Aligned Plane
 
