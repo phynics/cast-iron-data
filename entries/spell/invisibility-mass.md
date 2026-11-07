@@ -106,7 +106,8 @@ _Augmented (3rd):_ If you expend two uses of mythic power, the invisible target 
 
 **Sources:** PRPG Core Rulebook pg 302
 
-This spell functions like invisibility, except that it doesn't end if the subject attacks.
+This spell functions like [invisibility](ref/spell/invisibility), except that it doesn't end if the
+subject attacks.
 
 ### Mass Invisibility
 
