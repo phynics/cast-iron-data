@@ -56,4 +56,4 @@ In addition, it's immune to any effect that bars extradimensional travel.
 
 - [Adult Vortex Dragon](ref/monster/dragon-outer-vortex-adult-vortex-dragon)
 - [Ancient Vortex Dragon](ref/monster/dragon-outer-vortex-ancient-vortex-dragon)
-- [Young Vortex Dragon](ref/monster/dragon-outer-vortex-young-vortex-dragon)
+- [Young Vortex Dragon](ref/carried/bestiary-4/monsters/dragon/outer/vortex/young)

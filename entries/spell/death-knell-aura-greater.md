@@ -12,14 +12,14 @@ kind = "spell"
 school = "necromancy"
 descriptors = ["death", "evil"]
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Cleric", level = 4 },
-  { class = "Inquisitor", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Warpriest", level = 4 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 6 },
+  { class = "Cleric", level = 6 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Warpriest", level = 6 },
+  { class = "Witch", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -35,14 +35,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 4: Arcanist, Cleric, Inquisitor, Oracle, Sorcerer, Warpriest, Witch, Wizard
+Level: 6: Arcanist, Cleric, Inquisitor, Oracle, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: 20 ft.
+Area: 20-ft.-radius emanation, centered on you
 Duration: 1 round/level (D)
 Saving throw: Will negates
 Spell resistance: yes
-Area: 20-ft.-radius emanation, centered on you
 Descriptors: death, evil
 :::
 

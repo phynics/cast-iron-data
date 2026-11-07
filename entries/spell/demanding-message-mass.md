@@ -12,19 +12,15 @@ kind = "spell"
 school = "transmutation"
 descriptors = ["language-dependant"]
 levels = [
-  { class = "Arcanist", level = 0 },
-  { class = "Bard", level = 0 },
-  { class = "Medium", level = 0 },
-  { class = "Mesmerist", level = 0 },
-  { class = "Occultist", level = 0 },
-  { class = "Psychic", level = 0 },
-  { class = "Skald", level = 0 },
-  { class = "Sorcerer", level = 0 },
-  { class = "Spiritualist", level = 0 },
-  { class = "Summoner", level = 0 },
-  { class = "Unchained Summoner", level = 0 },
-  { class = "Witch", level = 0 },
-  { class = "Wizard", level = 0 },
+  { class = "Arcanist", level = 7 },
+  { class = "Bard", level = 6 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Occultist", level = 6 },
+  { class = "Psychic", level = 6 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S, F (a piece of copper wire)"
@@ -32,22 +28,23 @@ range = "medium (100 ft. + 10 ft./level)"
 effects = [
   { label = "Targets", value = "one creature/level" },
 ]
-duration = "10 minutes/level"
-saving_throw = "none"
-spell_resistance = "no"
+duration = "10 minutes/level, then 1 hour/level or until completed (D); see text"
+saving_throw = "Will negates (see text)"
+spell_resistance = "yes; see text"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 0: Arcanist, Bard, Medium, Mesmerist, Occultist, Psychic, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Witch, Wizard
+Level: 6: Bard, Mesmerist, Occultist, Psychic, Skald\
+7: Arcanist, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, F (a piece of copper wire)
 Range: medium (100 ft. + 10 ft./level)
-Duration: 10 minutes/level
-Saving throw: none
-Spell resistance: no
 Targets: one creature/level
+Duration: 10 minutes/level, then 1 hour/level or until completed (D); see text
+Saving throw: Will negates (see text)
+Spell resistance: yes; see text
 Descriptors: language-dependant
 :::
 

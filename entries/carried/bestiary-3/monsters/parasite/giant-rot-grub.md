@@ -2,7 +2,7 @@
 id = "ref/carried/bestiary-3/monsters/parasite/giant-rot-grub"
 kind = "creature"
 title = "Parasite, Giant Rot Grub"
-source_ids = ["bestiary-3"]
+source_ids = ["bestiary-3", "pathfinder-25-the-bastards-of-erebus"]
 section = ["Monsters", "Parasite"]
 tags = ["vermin", "small"]
 provenance = [

@@ -12,13 +12,8 @@ kind = "spell"
 school = "necromancy"
 descriptors = ["evil", "pain"]
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Inquisitor", level = 1 },
-  { class = "Mesmerist", level = 1 },
-  { class = "Psychic", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Witch", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Inquisitor", level = 4 },
+  { class = "Psychic", level = 4 },
 ]
 casting_time = "1 round"
 components = "V, S"
@@ -34,14 +29,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 1: Arcanist, Inquisitor, Mesmerist, Psychic, Sorcerer, Witch, Wizard
+Level: 4: Inquisitor, Psychic
 Casting time: 1 round
 Components: V, S
 Range: touch
+Target: living creature touched
 Duration: 1 minute/level
 Saving throw: Fortitude negates
 Spell resistance: yes
-Target: living creature touched
 Descriptors: evil, pain
 :::
 

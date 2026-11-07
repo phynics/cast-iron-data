@@ -13,14 +13,14 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["emotion", "fear", "language-dependant", "mind-affecting"]
 levels = [
-  { class = "Inquisitor", level = 2 },
-  { class = "Mesmerist", level = 2 },
+  { class = "Inquisitor", level = 5 },
+  { class = "Mesmerist", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S, DF"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one living creature" },
+  { label = "Targets", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level or 1 round; see text"
 saving_throw = "Will partial"
@@ -30,14 +30,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 2: Inquisitor, Mesmerist
+Level: 5: Inquisitor, Mesmerist
 Casting time: 1 standard action
 Components: V, S, DF
-Range: close (25 ft. + 5 ft./2 levels)
+Range: medium (100 ft. + 10 ft./level)
+Targets: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 round/level or 1 round; see text
 Saving throw: Will partial
 Spell resistance: yes
-Target: one living creature
 Subschool: Compulsion
 Descriptors: emotion, fear, language-dependant, mind-affecting
 :::

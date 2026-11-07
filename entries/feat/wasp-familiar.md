@@ -21,11 +21,12 @@ The goddess of lust, revenge, and trickery has granted you a living sting to sho
 **Benefit:** You gain a [familiar](ref/ability/familiars) as per the arcane bond class feature,
 using your character level as your wizard level. The [familiar](ref/sidekick/familiar) is a
 cat-sized, chaotic neutral wasp loyal to you. Use the statistics for a
-[greensting scorpion](ref/monster/scorpion-greensting-scorpion) familiar, but give it a base speed
-of 10 feet, a fly speed of 40 feet (average), no Climb bonus, and Fly +7. If you have the ability to
-gain a familiar through other means (such as the arcane bond class feature), and you are at least
-5th level, instead use the statistics for an [imp](ref/monster/devil-imp), but replace the
-_invisibility_ [spell-like ability](ref/umr/spell-like-abilities) with an
+[greensting scorpion](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting)
+familiar, but give it a base speed of 10 feet, a fly speed of 40 feet (average), no Climb bonus, and
+Fly +7. If you have the ability to gain a familiar through other means (such as the arcane bond
+class feature), and you are at least 5th level, instead use the statistics for an
+[imp](ref/monster/devil-imp), but replace the _invisibility_
+[spell-like ability](ref/umr/spell-like-abilities) with an
 [unnatural lust](ref/spell/unnatural-lust) (DC 14) spell-like ability usable three times per day.
 You can have only one familiar.
 

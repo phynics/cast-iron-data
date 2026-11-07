@@ -13,20 +13,19 @@ school = "illusion"
 subschools = ["Phantasm"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Medium", level = 4 },
-  { class = "Mesmerist", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 7 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Psychic", level = 6 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 round"
 components = "V, S"
 range = "long (400 ft. + 40 ft./level)"
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Target", value = "one creature/level" },
 ]
-duration = "10 minutes/level"
+duration = "1 day/level"
 saving_throw = "Will disbelief, see text"
 spell_resistance = "yes"
 +++
@@ -34,15 +33,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 4: Medium, Mesmerist, Psychic\
-5: Arcanist, Sorcerer, Wizard
+Level: 6: Mesmerist, Psychic\
+7: Arcanist, Sorcerer, Wizard
 Casting time: 1 round
 Components: V, S
 Range: long (400 ft. + 40 ft./level)
-Duration: 10 minutes/level
+Target: one creature/level
+Duration: 1 day/level
 Saving throw: Will disbelief, see text
 Spell resistance: yes
-Target: one creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::

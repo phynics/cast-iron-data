@@ -11,14 +11,12 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Cleric", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Psychic", level = 4 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Warpriest", level = 4 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 8 },
+  { class = "Cleric", level = 8 },
+  { class = "Oracle", level = 8 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Witch", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -34,14 +32,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 4: Arcanist, Cleric, Oracle, Psychic, Sorcerer, Warpriest, Witch, Wizard
+Level: 8: Arcanist, Cleric, Oracle, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)
+Target: one creature
 Duration: 1 round/level
 Saving throw: Will negates; see text
 Spell resistance: yes
-Target: one creature
 :::
 
 ## Lesser Spellcrash

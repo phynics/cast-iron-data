@@ -11,30 +11,19 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Alchemist", level = 3 },
-  { class = "Arcanist", level = 3 },
-  { class = "Bloodrager", level = 3 },
-  { class = "Investigator", level = 3 },
-  { class = "Magus", level = 3 },
-  { class = "Medium", level = 3 },
-  { class = "Occultist", level = 3 },
-  { class = "Psychic", level = 3 },
-  { class = "Red Mantis Assassin", level = 3 },
-  { class = "Shaman", level = 3 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Spiritualist", level = 3 },
-  { class = "Summoner", level = 3 },
-  { class = "Unchained Summoner", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 7 },
+  { class = "Elementalist Wizard", level = 7 },
+  { class = "Psychic", level = 7 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S, F (a wing feather)"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
-duration = "1 minute/level"
+duration = "10 minutes/level"
 saving_throw = "Will negates (harmless)"
 spell_resistance = "yes (harmless)"
 +++
@@ -42,14 +31,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 3: Alchemist, Arcanist, Bloodrager, Investigator, Magus, Medium, Occultist, Psychic, Red Mantis Assassin, Shaman, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Witch, Wizard
+Level: 7: Arcanist, Elementalist Wizard, Psychic, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, F (a wing feather)
-Range: touch
-Duration: 1 minute/level
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 30 ft. apart
+Duration: 10 minutes/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: creature touched
 :::
 
 ## Fly

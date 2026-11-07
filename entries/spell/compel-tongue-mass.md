@@ -11,44 +11,41 @@ provenance = [
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Bard", level = 1 },
-  { class = "Cleric", level = 2 },
-  { class = "Druid", level = 2 },
-  { class = "Hunter", level = 2 },
-  { class = "Medium", level = 1 },
-  { class = "Mesmerist", level = 1 },
-  { class = "Occultist", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Psychic", level = 1 },
-  { class = "Skald", level = 1 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Warpriest", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 5 },
+  { class = "Bard", level = 4 },
+  { class = "Cleric", level = 5 },
+  { class = "Druid", level = 5 },
+  { class = "Hunter", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Skald", level = 4 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Warpriest", level = 5 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M (a page from a dictionary)"
+components = "V, S, M (a wooden block carved with a letter)"
 range = "touch"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
-duration = "24 hours"
-saving_throw = "Will negates (harmless)"
-spell_resistance = "yes (harmless)"
+duration = "1 hour/level (D)"
+saving_throw = "Will negates"
+spell_resistance = "yes"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 1: Bard, Medium, Mesmerist, Psychic, Skald\
-2: Arcanist, Cleric, Druid, Hunter, Occultist, Oracle, Sorcerer, Warpriest, Wizard
+Level: 4: Bard, Skald\
+5: Arcanist, Cleric, Druid, Hunter, Oracle, Sorcerer, Warpriest, Witch, Wizard
 Casting time: 1 standard action
-Components: V, S, M (a page from a dictionary)
+Components: V, S, M (a wooden block carved with a letter)
 Range: touch
-Duration: 24 hours
-Saving throw: Will negates (harmless)
-Spell resistance: yes (harmless)
-Target: creature touched
+Target: one creature/level, no two of which can be more than 30 ft. apart
+Duration: 1 hour/level (D)
+Saving throw: Will negates
+Spell resistance: yes
 :::
 
 ## Share Language

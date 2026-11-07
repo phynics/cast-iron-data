@@ -11,19 +11,18 @@ provenance = [
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Bard", level = 3 },
-  { class = "Shaman", level = 3 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Witch", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 6 },
+  { class = "Bard", level = 5 },
+  { class = "Skald", level = 5 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Witch", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "10 minutes"
 components = "V, S, F (a Harrow deck)"
 range = "touch"
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Target", value = "one creature, plus one additional creature for every 3 caster levels" },
 ]
 duration = "1 day/level or until fulfilled"
 saving_throw = "none"
@@ -33,14 +32,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 3: Arcanist, Bard, Shaman, Skald, Sorcerer, Witch, Wizard
+Level: 5: Bard, Skald\
+6: Arcanist, Sorcerer, Witch, Wizard
 Casting time: 10 minutes
 Components: V, S, F (a Harrow deck)
 Range: touch
+Target: one creature, plus one additional creature for every 3 caster levels
 Duration: 1 day/level or until fulfilled
 Saving throw: none
 Spell resistance: no
-Target: one creature
 :::
 
 ## Harrowing

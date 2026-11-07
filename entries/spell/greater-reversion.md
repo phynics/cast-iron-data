@@ -12,15 +12,15 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Healing"]
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Cleric", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Psychic", level = 2 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 5 },
+  { class = "Cleric", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Psychic", level = 4 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Warpriest", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
-casting_time = "10 minutes"
+casting_time = "20 minutes"
 components = "V, S"
 range = "personal"
 effects = [
@@ -34,15 +34,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 2: Psychic\
-3: Arcanist, Cleric, Oracle, Sorcerer, Warpriest, Wizard
-Casting time: 10 minutes
+Level: 4: Psychic\
+5: Arcanist, Cleric, Oracle, Sorcerer, Warpriest, Wizard
+Casting time: 20 minutes
 Components: V, S
 Range: personal
+Target: self
 Duration: 24 hours
 Saving throw: none
 Spell resistance: no
-Target: self
 Subschool: Healing
 :::
 

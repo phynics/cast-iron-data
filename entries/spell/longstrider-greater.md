@@ -11,9 +11,9 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Druid", level = 1 },
-  { class = "Hunter", level = 1 },
-  { class = "Ranger", level = 1 },
+  { class = "Druid", level = 3 },
+  { class = "Hunter", level = 3 },
+  { class = "Ranger", level = 3 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a pinch of dirt)"
@@ -29,14 +29,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 1: Druid, Hunter, Ranger
+Level: 3: Druid, Hunter, Ranger
 Casting time: 1 standard action
 Components: V, S, M (a pinch of dirt)
 Range: personal
+Target: you
 Duration: 1 hour/level (D)
 Saving throw: none
 Spell resistance: no
-Target: you
 :::
 
 ## Longstrider

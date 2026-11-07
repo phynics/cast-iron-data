@@ -74,6 +74,6 @@ gas. Creatures within the cone must succeed on a Fortitude save or take 1 point 
 
 ### Members of This Family:
 
-- [Adult Gold Dragon](ref/monster/dragon-metallic-gold-adult-gold-dragon)
-- [Ancient Gold Dragon](ref/monster/dragon-metallic-gold-ancient-gold-dragon)
-- [Young Gold Dragon](ref/monster/dragon-metallic-gold-young-gold-dragon)
+- [Adult Gold Dragon](ref/carried/bestiary/monsters/dragon/metallic/gold/adult)
+- [Ancient Gold Dragon](ref/carried/bestiary/monsters/dragon/metallic/gold/ancient)
+- [Young Gold Dragon](ref/carried/bestiary/monsters/dragon/metallic/gold/young)

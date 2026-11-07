@@ -13,28 +13,25 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 0 },
-  { class = "Bard", level = 0 },
-  { class = "Inquisitor", level = 0 },
-  { class = "Magus", level = 0 },
-  { class = "Medium", level = 0 },
-  { class = "Mesmerist", level = 0 },
-  { class = "Occultist", level = 0 },
-  { class = "Psychic", level = 0 },
-  { class = "Shaman", level = 0 },
-  { class = "Skald", level = 0 },
-  { class = "Sorcerer", level = 0 },
-  { class = "Spiritualist", level = 0 },
-  { class = "Summoner", level = 0 },
-  { class = "Unchained Summoner", level = 0 },
-  { class = "Witch", level = 0 },
-  { class = "Wizard", level = 0 },
+  { class = "Arcanist", level = 4 },
+  { class = "Bard", level = 4 },
+  { class = "Inquisitor", level = 4 },
+  { class = "Medium", level = 3 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Occultist", level = 4 },
+  { class = "Psychic", level = 3 },
+  { class = "Skald", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Summoner", level = 4 },
+  { class = "Unchained Summoner", level = 4 },
+  { class = "Witch", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M (a pinch of wool or similar substance)"
-range = "close (25 ft. + 5 ft./2 levels)"
+components = "V, S"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one humanoid creature of 4 HD or less" },
+  { label = "Targets", value = "one or more humanoid creatures, no two of which may be more than 30 ft. apart" },
 ]
 duration = "1 round"
 saving_throw = "Will negates"
@@ -44,14 +41,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 0: Arcanist, Bard, Inquisitor, Magus, Medium, Mesmerist, Occultist, Psychic, Shaman, Skald, Sorcerer, Spiritualist, Summoner, Unchained Summoner, Witch, Wizard
+Level: 3: Medium, Psychic\
+4: Arcanist, Bard, Inquisitor, Mesmerist, Occultist, Skald, Sorcerer, Summoner, Unchained Summoner, Witch, Wizard
 Casting time: 1 standard action
-Components: V, S, M (a pinch of wool or similar substance)
-Range: close (25 ft. + 5 ft./2 levels)
+Components: V, S
+Range: medium (100 ft. + 10 ft./level)
+Targets: one or more humanoid creatures, no two of which may be more than 30 ft. apart
 Duration: 1 round
 Saving throw: Will negates
 Spell resistance: yes
-Target: one humanoid creature of 4 HD or less
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::

@@ -13,25 +13,22 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["language-dependant", "mind-affecting"]
 levels = [
-  { class = "Adept", level = 1 },
-  { class = "Antipaladin", level = 1 },
-  { class = "Cleric", level = 1 },
-  { class = "Inquisitor", level = 1 },
-  { class = "Medium", level = 1 },
-  { class = "Mesmerist", level = 1 },
-  { class = "Occultist", level = 1 },
-  { class = "Oracle", level = 1 },
-  { class = "Psychic", level = 1 },
-  { class = "Warpriest", level = 1 },
-  { class = "Witch", level = 1 },
+  { class = "Cleric", level = 5 },
+  { class = "Inquisitor", level = 5 },
+  { class = "Medium", level = 4 },
+  { class = "Mesmerist", level = 4 },
+  { class = "Occultist", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Psychic", level = 5 },
+  { class = "Warpriest", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one living creature" },
+  { label = "Targets", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
-duration = "1 round"
+duration = "1 round/level"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -39,14 +36,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 1: Adept, Antipaladin, Cleric, Inquisitor, Medium, Mesmerist, Occultist, Oracle, Psychic, Warpriest, Witch
+Level: 4: Medium, Mesmerist\
+5: Cleric, Inquisitor, Occultist, Oracle, Psychic, Warpriest
 Casting time: 1 standard action
 Components: V
 Range: close (25 ft. + 5 ft./2 levels)
-Duration: 1 round
+Targets: one creature/level, no two of which can be more than 30 ft. apart
+Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
-Target: one living creature
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::

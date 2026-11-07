@@ -11,16 +11,13 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Medium", level = 3 },
-  { class = "Mesmerist", level = 5 },
-  { class = "Occultist", level = 4 },
-  { class = "Psychic", level = 5 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Spiritualist", level = 4 },
-  { class = "Summoner", level = 5 },
-  { class = "Witch", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 8 },
+  { class = "Occultist", level = 6 },
+  { class = "Psychic", level = 8 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Spiritualist", level = 6 },
+  { class = "Witch", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
@@ -36,16 +33,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 3: Medium\
-4: Occultist, Spiritualist\
-5: Arcanist, Mesmerist, Psychic, Sorcerer, Summoner, Witch, Wizard
+Level: 6: Occultist, Spiritualist\
+8: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)
+Target: one creature
 Duration: 1 hour/level (D)
 Saving throw: Will negates
 Spell resistance: yes
-Target: one creature
 :::
 
 ## Possession

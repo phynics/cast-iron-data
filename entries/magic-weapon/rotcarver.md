@@ -29,9 +29,10 @@ the wielder can animate part of the blade as a rot grub that immediately attempt
 the victim struck. The victim must succeed at a DC 15 Reflex save to avoid the grub; otherwise, it
 is affected as per the description of [rot grubs](ref/infestation/rot-grubs). Additionally, once per
 week, the Rotcarver's wielder can transform it into a swarm of
-[rot grubs](ref/monster/rot-grub-rot-grub-swarm). The swarm obeys the wielder's commands for 13
-rounds before turning back into a weapon. If the swarm is destroyed, it immediately reverts back to
-a weapon, which is undamaged. The wielder takes no ill effects from a swarm under his control.
+[rot grubs](ref/carried/bestiary-3/monsters/swarm/parasite/rot-grub). The swarm obeys the wielder's
+commands for 13 rounds before turning back into a weapon. If the swarm is destroyed, it immediately
+reverts back to a weapon, which is undamaged. The wielder takes no ill effects from a swarm under
+his control.
 
 ### Construction
 

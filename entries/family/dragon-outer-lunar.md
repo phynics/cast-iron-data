@@ -58,6 +58,6 @@ dazzled by bright light or patterns.
 
 ### Members of This Family:
 
-- [Adult Lunar Dragon](ref/monster/dragon-outer-lunar-adult-lunar-dragon)
-- [Ancient Lunar Dragon](ref/monster/dragon-outer-lunar-ancient-lunar-dragon)
-- [Young Lunar Dragon](ref/monster/dragon-outer-lunar-young-lunar-dragon)
+- [Adult Lunar Dragon](ref/carried/bestiary-4/monsters/dragon/outer/lunar/adult)
+- [Ancient Lunar Dragon](ref/carried/bestiary-4/monsters/dragon/outer/lunar/ancient)
+- [Young Lunar Dragon](ref/carried/bestiary-4/monsters/dragon/outer/lunar/young)

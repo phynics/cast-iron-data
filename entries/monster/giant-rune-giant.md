@@ -124,7 +124,7 @@ rogues of 2nd-4th level, 1 oracle or sorcerer of 5th-8th level, 1 ranger or monk
 5th-6th level, 10-20 [yetis](ref/monster/yeti), 1-4 [cloud giants](ref/monster/giant-cloud-giant),
 8-12 [frost giants](ref/monster/giant-frost-frost-giant), 10-16
 [stone giants](ref/monster/giant-stone-giant), 4-8 [lamia matriarchs](ref/monster/lamia-matriarch),
-and 1-2 [adult blue dragons](ref/monster/dragon-chromatic-blue-adult-blue-dragon))
+and 1-2 [adult blue dragons](ref/carried/bestiary/monsters/dragon/chromatic/blue/adult))
 
 **Treasure:** Standard (mwk full plate, mwk longsword, 3 mwk spears); other treasure
 

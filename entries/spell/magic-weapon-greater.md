@@ -11,28 +11,28 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Antipaladin", level = 1 },
-  { class = "Arcanist", level = 1 },
-  { class = "Bloodrager", level = 1 },
-  { class = "Cleric", level = 1 },
-  { class = "Inquisitor", level = 1 },
-  { class = "Magus", level = 1 },
-  { class = "Occultist", level = 1 },
-  { class = "Oracle", level = 1 },
-  { class = "Paladin", level = 1 },
-  { class = "Red Mantis Assassin", level = 1 },
-  { class = "Shaman", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Warpriest", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Antipaladin", level = 3 },
+  { class = "Arcanist", level = 3 },
+  { class = "Bloodrager", level = 3 },
+  { class = "Cleric", level = 4 },
+  { class = "Inquisitor", level = 3 },
+  { class = "Magus", level = 3 },
+  { class = "Occultist", level = 3 },
+  { class = "Oracle", level = 4 },
+  { class = "Paladin", level = 3 },
+  { class = "Red Mantis Assassin", level = 3 },
+  { class = "Shaman", level = 4 },
+  { class = "Sorcerer", level = 3 },
+  { class = "Warpriest", level = 4 },
+  { class = "Wizard", level = 3 },
 ]
 casting_time = "1 standard action"
-components = "V, S, DF"
-range = "touch"
+components = "V, S, M/DF (powdered lime and carbon)"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "weapon touched" },
+  { label = "Target", value = "one weapon or 50 projectiles (all of which must be together at the time of casting)" },
 ]
-duration = "1 minute/level"
+duration = "1 hour/level"
 saving_throw = "Will negates (harmless) (object)"
 spell_resistance = "yes (harmless) (object)"
 +++
@@ -40,14 +40,15 @@ spell_resistance = "yes (harmless) (object)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 1: Antipaladin, Arcanist, Bloodrager, Cleric, Inquisitor, Magus, Occultist, Oracle, Paladin, Red Mantis Assassin, Shaman, Sorcerer, Warpriest, Wizard
+Level: 3: Antipaladin, Arcanist, Bloodrager, Inquisitor, Magus, Occultist, Paladin, Red Mantis Assassin, Sorcerer, Wizard\
+4: Cleric, Oracle, Shaman, Warpriest
 Casting time: 1 standard action
-Components: V, S, DF
-Range: touch
-Duration: 1 minute/level
+Components: V, S, M/DF (powdered lime and carbon)
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one weapon or 50 projectiles (all of which must be together at the time of casting)
+Duration: 1 hour/level
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
-Target: weapon touched
 :::
 
 ## Magic Weapon

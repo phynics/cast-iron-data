@@ -11,21 +11,19 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Cleric", level = 2 },
-  { class = "Occultist", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Warpriest", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 4 },
+  { class = "Cleric", level = 4 },
+  { class = "Oracle", level = 4 },
+  { class = "Red Mantis Assassin", level = 4 },
+  { class = "Sorcerer", level = 4 },
+  { class = "Warpriest", level = 4 },
+  { class = "Wizard", level = 4 },
 ]
-casting_time = "10 minutes"
+casting_time = "1 standard action"
 components = "V, S"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "10 ft."
 effects = [
-  { label = "Target", value = "one object up to 10 cu. ft./level or one construct creature of any size" },
+  { label = "Target", value = "one object of up to 5 lb./level" },
 ]
 duration = "instantaneous"
 saving_throw = "Will negates (harmless) (object)"
@@ -35,14 +33,14 @@ spell_resistance = "yes (harmless) (object)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Arcanist, Cleric, Occultist, Oracle, Psychic, Red Mantis Assassin, Sorcerer, Warpriest, Wizard
-Casting time: 10 minutes
+Level: 4: Arcanist, Cleric, Oracle, Red Mantis Assassin, Sorcerer, Warpriest, Wizard
+Casting time: 1 standard action
 Components: V, S
-Range: close (25 ft. + 5 ft./2 levels)
+Range: 10 ft.
+Target: one object of up to 5 lb./level
 Duration: instantaneous
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
-Target: one object up to 10 cu. ft./level or one construct creature of any size
 :::
 
 ## Make Whole

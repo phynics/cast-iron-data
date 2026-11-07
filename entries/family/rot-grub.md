@@ -50,5 +50,5 @@ undead's CR increases by +1.
 
 ### Members of This Family:
 
-- [Giant Rot Grub](ref/monster/rot-grub-giant-rot-grub)
-- [Rot Grub Swarm](ref/monster/rot-grub-rot-grub-swarm)
+- [Giant Rot Grub](ref/carried/bestiary-3/monsters/parasite/giant-rot-grub)
+- [Rot Grub Swarm](ref/carried/bestiary-3/monsters/swarm/parasite/rot-grub)

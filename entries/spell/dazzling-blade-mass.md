@@ -12,35 +12,33 @@ kind = "spell"
 school = "illusion"
 subschools = ["Pattern"]
 levels = [
-  { class = "Arcanist", level = 1 },
-  { class = "Bard", level = 1 },
-  { class = "Red Mantis Assassin", level = 1 },
-  { class = "Skald", level = 1 },
-  { class = "Sorcerer", level = 1 },
-  { class = "Wizard", level = 1 },
+  { class = "Arcanist", level = 3 },
+  { class = "Red Mantis Assassin", level = 3 },
+  { class = "Sorcerer", level = 3 },
+  { class = "Wizard", level = 3 },
 ]
 casting_time = "1 swift action"
 components = "V, S"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one metal weapon" },
+  { label = "Target", value = "one metal weapon/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 minute/level"
 saving_throw = "Will negates (see text)"
-spell_resistance = "yes (object)"
+spell_resistance = "yes (harmless, object)"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: illusion
-Level: 1: Arcanist, Bard, Red Mantis Assassin, Skald, Sorcerer, Wizard
+Level: 3: Arcanist, Red Mantis Assassin, Sorcerer, Wizard
 Casting time: 1 swift action
 Components: V, S
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one metal weapon/level, no two of which can be more than 30 ft. apart
 Duration: 1 minute/level
 Saving throw: Will negates (see text)
-Spell resistance: yes (object)
-Target: one metal weapon
+Spell resistance: yes (harmless, object)
 Subschool: Pattern
 :::
 

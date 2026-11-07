@@ -11,14 +11,13 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Druid", level = 4 },
-  { class = "Hunter", level = 4 },
+  { class = "Druid", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one animal" },
+  { label = "Target", value = "one animal/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 minute/level"
 saving_throw = "Fortitude negates"
@@ -28,14 +27,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 4: Druid, Hunter
+Level: 8: Druid
 Casting time: 1 standard action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one animal/level, no two of which can be more than 30 ft. apart
 Duration: 1 minute/level
 Saving throw: Fortitude negates
 Spell resistance: yes
-Target: one animal
 :::
 
 ## Atavism

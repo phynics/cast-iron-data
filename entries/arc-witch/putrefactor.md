@@ -32,8 +32,8 @@ them into living avatars of entropy.
 her connection with her patron. She treats the infestation as her familiar, and she communes with
 the infestation to prepare spells. She still selects a familiar, which must be a
 [house centipede](ref/monster/familiar-house-centipede), [rat](ref/monster/familiar-rat),
-[scarlet spider](ref/monster/spider-scarlet-spider), or [toad](ref/monster/familiar-toad); the
-familiar crawls within her among the other vermin.
+[scarlet spider](ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet),
+or [toad](ref/monster/familiar-toad); the familiar crawls within her among the other vermin.
 
 **Disgorge Familiar (Ex)**
 

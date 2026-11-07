@@ -12,34 +12,34 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Teleportation"]
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Shaman", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Witch", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 5 },
+  { class = "Shaman", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Witch", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a crushed grasshopper)"
-range = "long (400 ft. + 40 ft./level)"
+range = "1 mile/level"
 effects = [
   { label = "Target", value = "your familiar or spirit animal" },
 ]
-duration = "10 minutes/level or until expended (see text)"
-saving_throw = "Fortitude negates (harmless)"
+duration = "1 hour/level or until expended"
+saving_throw = "Fortitude negates"
 spell_resistance = "yes (harmless)"
 +++
 
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 2: Arcanist, Shaman, Sorcerer, Witch, Wizard
+Level: 5: Arcanist, Shaman, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a crushed grasshopper)
-Range: long (400 ft. + 40 ft./level)
-Duration: 10 minutes/level or until expended (see text)
-Saving throw: Fortitude negates (harmless)
-Spell resistance: yes (harmless)
+Range: 1 mile/level
 Target: your familiar or spirit animal
+Duration: 1 hour/level or until expended
+Saving throw: Fortitude negates
+Spell resistance: yes (harmless)
 Subschool: Teleportation
 :::
 

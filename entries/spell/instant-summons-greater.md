@@ -12,17 +12,17 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Summoning"]
 levels = [
-  { class = "Arcanist", level = 7 },
-  { class = "Psychic", level = 7 },
-  { class = "Sorcerer", level = 7 },
-  { class = "Witch", level = 7 },
-  { class = "Wizard", level = 7 },
+  { class = "Arcanist", level = 8 },
+  { class = "Psychic", level = 8 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Witch", level = 8 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "1 standard action"
-components = "V, S, M (sapphire worth 1,000 gp)"
+components = "V, S, M (sapphires worth 1,000 gp each)"
 range = "see text"
 effects = [
-  { label = "Target", value = "one object weighing 10 lbs. or less whose longest dimension is 6 ft. or less" },
+  { label = "Target", value = "up to one object per 3 caster levels, each weighing 10 lbs. or less whose longest dimension is 6 ft. or less" },
 ]
 duration = "permanent until discharged"
 saving_throw = "none"
@@ -32,14 +32,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 7: Arcanist, Psychic, Sorcerer, Witch, Wizard
+Level: 8: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
-Components: V, S, M (sapphire worth 1,000 gp)
+Components: V, S, M (sapphires worth 1,000 gp each)
 Range: see text
+Target: up to one object per 3 caster levels, each weighing 10 lbs. or less whose longest dimension is 6 ft. or less
 Duration: permanent until discharged
 Saving throw: none
 Spell resistance: no
-Target: one object weighing 10 lbs. or less whose longest dimension is 6 ft. or less
 Subschool: Summoning
 :::
 

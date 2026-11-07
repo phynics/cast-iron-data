@@ -11,20 +11,17 @@ provenance = [
 kind = "spell"
 school = "evocation"
 levels = [
-  { class = "Alchemist", level = 2 },
-  { class = "Bard", level = 2 },
-  { class = "Cleric", level = 2 },
-  { class = "Investigator", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Paladin", level = 3 },
-  { class = "Skald", level = 2 },
-  { class = "Warpriest", level = 2 },
+  { class = "Bard", level = 4 },
+  { class = "Cleric", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Skald", level = 4 },
+  { class = "Warpriest", level = 5 },
 ]
 casting_time = "1 standard action"
-components = "V, S, DF, M (diamond dust worth 100 gp)"
-range = "touch"
+components = "V, S, DF, M (diamond dust worth 1,000 gp)"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Targets", value = "one or more creatures, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level"
 saving_throw = "Will negates (harmless)"
@@ -34,15 +31,15 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 2: Alchemist, Bard, Cleric, Investigator, Oracle, Skald, Warpriest\
-3: Paladin
+Level: 4: Bard, Skald\
+5: Cleric, Oracle, Warpriest
 Casting time: 1 standard action
-Components: V, S, DF, M (diamond dust worth 100 gp)
-Range: touch
+Components: V, S, DF, M (diamond dust worth 1,000 gp)
+Range: close (25 ft. + 5 ft./2 levels)
+Targets: one or more creatures, no two of which can be more than 30 ft. apart
 Duration: 1 round/level
 Saving throw: Will negates (harmless)
 Spell resistance: no
-Target: creature touched
 :::
 
 ## Heroic Fortune

@@ -41,10 +41,10 @@ Level: 3: Summoner, Unchained Summoner\
 Casting time: 1 round
 Components: V, S, F/DF (an oil lamp worth at least 50 gp)
 Range: close (25 ft. + 5 ft./2 levels)
+Effect: one summoned genie
 Duration: 1 round/level (D)
 Saving throw: none
 Spell resistance: no
-Effect: one summoned genie
 Subschool: Summoning
 :::
 

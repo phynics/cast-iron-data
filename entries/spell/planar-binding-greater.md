@@ -12,19 +12,18 @@ kind = "spell"
 school = "conjuration [see text for lesser planar binding]"
 subschools = ["Calling"]
 levels = [
-  { class = "Arcanist", level = 6 },
-  { class = "Occultist", level = 6 },
-  { class = "Psychic", level = 6 },
-  { class = "Sorcerer", level = 6 },
-  { class = "Summoner", level = 5 },
-  { class = "Unchained Summoner", level = 6 },
-  { class = "Wizard", level = 6 },
+  { class = "Arcanist", level = 8 },
+  { class = "Elementalist Wizard", level = 8 },
+  { class = "Psychic", level = 8 },
+  { class = "Sorcerer", level = 8 },
+  { class = "Summoner", level = 6 },
+  { class = "Wizard", level = 8 },
 ]
 casting_time = "10 minutes"
 components = "V, S"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Targets", value = "up to three elementals or outsiders, totaling no more than 12 HD, no two of which can be more than 30 ft. apart when they appear" },
+  { label = "Targets", value = "up to three elementals or outsiders, totaling no more than 18 HD, no two of which can be more than 30 ft. apart when they appear." },
 ]
 duration = "instantaneous"
 saving_throw = "Will negates"
@@ -34,15 +33,15 @@ spell_resistance = "no and yes; see text"
 ::: statblock
 title = "Spell statistics"
 School: conjuration \[see text for lesser planar binding\]
-Level: 5: Summoner\
-6: Arcanist, Occultist, Psychic, Sorcerer, Unchained Summoner, Wizard
+Level: 6: Summoner\
+8: Arcanist, Elementalist Wizard, Psychic, Sorcerer, Wizard
 Casting time: 10 minutes
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
+Targets: up to three elementals or outsiders, totaling no more than 18 HD, no two of which can be more than 30 ft. apart when they appear.
 Duration: instantaneous
 Saving throw: Will negates
 Spell resistance: no and yes; see text
-Targets: up to three elementals or outsiders, totaling no more than 12 HD, no two of which can be more than 30 ft. apart when they appear
 Subschool: Calling
 :::
 

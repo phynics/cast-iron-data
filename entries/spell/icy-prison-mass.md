@@ -12,15 +12,15 @@ kind = "spell"
 school = "evocation"
 descriptors = ["cold"]
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 9 },
+  { class = "Sorcerer", level = 9 },
+  { class = "Wizard", level = 9 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
 range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one creature" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart." },
 ]
 duration = "1 minute/level; see text"
 saving_throw = "Reflex partial"
@@ -30,14 +30,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 5: Arcanist, Sorcerer, Wizard
+Level: 9: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: medium (100 ft. + 10 ft./level)
+Target: one creature/level, no two of which can be more than 30 ft. apart.
 Duration: 1 minute/level; see text
 Saving throw: Reflex partial
 Spell resistance: yes
-Target: one creature
 Descriptors: cold
 :::
 

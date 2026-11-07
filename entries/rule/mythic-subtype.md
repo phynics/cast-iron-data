@@ -58,9 +58,9 @@ creature.
 
 Some new monster abilities are especially powerful; at the GM's discretion, they can count as two
 abilities toward this total. For example, the
-[mythic fire giant's](ref/monster/giant-fire-giant-mythic) fire vortex ability could count as two
-mythic abilities. In place of a mythic ability, the monster may gain a universal monster ability,
-such as [rend](ref/umr/rend) or [pounce](ref/umr/pounce).
+[mythic fire giant's](ref/carried/mythic-adventures/monsters/giant/fire/mythic) fire vortex ability
+could count as two mythic abilities. In place of a mythic ability, the monster may gain a universal
+monster ability, such as [rend](ref/umr/rend) or [pounce](ref/umr/pounce).
 
 **CR:** When you're finished adding abilities to the monster, add 1/2 the monster's mythic rank to
 its CR to determine its new CR. Evaluate the monster at its new CR using

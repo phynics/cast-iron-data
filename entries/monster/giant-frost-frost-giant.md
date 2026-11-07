@@ -109,7 +109,7 @@ that it wears braided._
 1-4 [winter wolves](ref/monster/worg-winter-wolf), and 2-3 [ogres](ref/monster/ogre)), or tribe
 (21-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1 barbarian or ranger jarl of 7th-9th
 level; and 15-36 winter wolves, 13-22 ogres, and 1-2
-[young white dragons](ref/monster/dragon-chromatic-white-young-white-dragon))
+[young white dragons](ref/carried/bestiary/monsters/dragon/chromatic/white/young))
 
 **Treasure:** Standard (chain shirt, greataxe); other treasure
 

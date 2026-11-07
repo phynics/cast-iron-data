@@ -77,6 +77,6 @@ this final round).
 
 ### Members of This Family:
 
-- [Adult Silver Dragon](ref/monster/dragon-metallic-silver-adult-silver-dragon)
-- [Ancient Silver Dragon](ref/monster/dragon-metallic-silver-ancient-silver-dragon)
-- [Young Silver Dragon](ref/monster/dragon-metallic-silver-young-silver-dragon)
+- [Adult Silver Dragon](ref/carried/bestiary/monsters/dragon/metallic/silver/adult)
+- [Ancient Silver Dragon](ref/carried/bestiary/monsters/dragon/metallic/silver/ancient)
+- [Young Silver Dragon](ref/carried/bestiary/monsters/dragon/metallic/silver/young)

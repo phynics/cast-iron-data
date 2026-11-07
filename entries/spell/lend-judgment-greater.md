@@ -11,7 +11,7 @@ provenance = [
 kind = "spell"
 school = "divination"
 levels = [
-  { class = "Inquisitor", level = 1 },
+  { class = "Inquisitor", level = 5 },
 ]
 casting_time = "1 standard action"
 components = "V, DF"
@@ -27,14 +27,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: divination
-Level: 1: Inquisitor
+Level: 5: Inquisitor
 Casting time: 1 standard action
 Components: V, DF
 Range: touch
+Target: one ally
 Duration: 1 round/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: one ally
 :::
 
 ## Lend Judgment

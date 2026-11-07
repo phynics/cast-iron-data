@@ -42,10 +42,10 @@ Level: 3: Bard, Mesmerist, Skald\
 Casting time: 1 round
 Components: V
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one living creature with 7 HD or less
 Duration: 1 day/level or until discharged (D)
 Saving throw: Will negates
 Spell resistance: yes
-Target: one living creature with 7 HD or less
 Subschool: Compulsion
 Descriptors: curse, language-dependant, mind-affecting
 :::

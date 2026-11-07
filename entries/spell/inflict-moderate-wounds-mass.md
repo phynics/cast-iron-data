@@ -11,21 +11,19 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Antipaladin", level = 3 },
-  { class = "Cleric", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Occultist", level = 2 },
-  { class = "Oracle", level = 2 },
-  { class = "Shaman", level = 2 },
-  { class = "Spiritualist", level = 2 },
-  { class = "Warpriest", level = 2 },
-  { class = "Witch", level = 2 },
+  { class = "Cleric", level = 6 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Occultist", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Shaman", level = 6 },
+  { class = "Warpriest", level = 6 },
+  { class = "Witch", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "instantaneous"
 saving_throw = "Will half"
@@ -35,15 +33,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 2: Cleric, Inquisitor, Occultist, Oracle, Shaman, Spiritualist, Warpriest, Witch\
-3: Antipaladin
+Level: 6: Cleric, Inquisitor, Occultist, Oracle, Shaman, Warpriest\
+7: Witch
 Casting time: 1 standard action
 Components: V, S
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: instantaneous
 Saving throw: Will half
 Spell resistance: yes
-Target: creature touched
 :::
 
 ## Inflict Moderate Wounds

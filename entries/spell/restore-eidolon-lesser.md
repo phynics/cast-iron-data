@@ -33,10 +33,10 @@ Level: 2: Summoner, Unchained Summoner
 Casting time: 3 rounds
 Components: V, S
 Range: touch
+Target: eidolon touched
 Duration: instantaneous
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: eidolon touched
 Subschool: Healing
 :::
 

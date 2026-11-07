@@ -11,23 +11,24 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Arcanist", level = 2 },
-  { class = "Inquisitor", level = 2 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 2 },
-  { class = "Occultist", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 6 },
+  { class = "Cleric", level = 6 },
+  { class = "Inquisitor", level = 6 },
+  { class = "Mesmerist", level = 6 },
+  { class = "Occultist", level = 6 },
+  { class = "Oracle", level = 6 },
+  { class = "Psychic", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Warpriest", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V"
-range = "medium (100 ft. + 10 ft./level)"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one door, box, or chest with an area of up to 10 sq. ft./level" },
+  { label = "Target", value = "one means of closure/level, no two of which can be more than 30 feet apart" },
 ]
-duration = "instantaneous; see text"
+duration = "instantaneous"
 saving_throw = "none"
 spell_resistance = "no"
 +++
@@ -35,14 +36,14 @@ spell_resistance = "no"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Arcanist, Inquisitor, Medium, Mesmerist, Occultist, Psychic, Red Mantis Assassin, Sorcerer, Wizard
+Level: 6: Arcanist, Cleric, Inquisitor, Mesmerist, Occultist, Oracle, Psychic, Sorcerer, Warpriest, Wizard
 Casting time: 1 standard action
 Components: V
-Range: medium (100 ft. + 10 ft./level)
-Duration: instantaneous; see text
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one means of closure/level, no two of which can be more than 30 feet apart
+Duration: instantaneous
 Saving throw: none
 Spell resistance: no
-Target: one door, box, or chest with an area of up to 10 sq. ft./level
 :::
 
 ## Knock

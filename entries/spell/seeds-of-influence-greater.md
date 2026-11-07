@@ -13,15 +13,15 @@ school = "enchantment"
 subschools = ["Compulsion"]
 descriptors = ["emotion", "mind-affecting"]
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Bard", level = 3 },
-  { class = "Medium", level = 3 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Psychic", level = 4 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 7 },
+  { class = "Bard", level = 5 },
+  { class = "Medium", level = 4 },
+  { class = "Mesmerist", level = 5 },
+  { class = "Psychic", level = 7 },
+  { class = "Skald", level = 5 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "S, M (a rose)"
@@ -29,7 +29,7 @@ range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
   { label = "Targets", value = "one creature" },
 ]
-duration = "1 hour/level (D)"
+duration = "1 day/level (D)"
 saving_throw = "Will negates"
 spell_resistance = "yes"
 +++
@@ -37,15 +37,16 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: enchantment
-Level: 3: Bard, Medium, Mesmerist, Skald\
-4: Arcanist, Psychic, Sorcerer, Witch, Wizard
+Level: 4: Medium\
+5: Bard, Mesmerist, Skald\
+7: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: S, M (a rose)
 Range: close (25 ft. + 5 ft./2 levels)
-Duration: 1 hour/level (D)
+Targets: one creature
+Duration: 1 day/level (D)
 Saving throw: Will negates
 Spell resistance: yes
-Targets: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::

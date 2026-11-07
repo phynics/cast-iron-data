@@ -12,17 +12,13 @@ kind = "spell"
 school = "conjuration"
 subschools = ["Teleportation"]
 levels = [
-  { class = "Arcanist", level = 5 },
-  { class = "Magus", level = 5 },
-  { class = "Medium", level = 4 },
-  { class = "Occultist", level = 5 },
-  { class = "Psychic", level = 5 },
-  { class = "Sorcerer", level = 5 },
-  { class = "Spiritualist", level = 5 },
-  { class = "Summoner", level = 4 },
-  { class = "Unchained Summoner", level = 5 },
-  { class = "Witch", level = 5 },
-  { class = "Wizard", level = 5 },
+  { class = "Arcanist", level = 7 },
+  { class = "Psychic", level = 7 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Summoner", level = 5 },
+  { class = "Unchained Summoner", level = 6 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V"
@@ -38,15 +34,16 @@ spell_resistance = "no and yes (object)"
 ::: statblock
 title = "Spell statistics"
 School: conjuration
-Level: 4: Medium, Summoner\
-5: Arcanist, Magus, Occultist, Psychic, Sorcerer, Spiritualist, Unchained Summoner, Witch, Wizard
+Level: 5: Summoner\
+6: Unchained Summoner\
+7: Arcanist, Psychic, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V
 Range: personal and touch
+Target: you and touched objects or other touched willing creatures
 Duration: instantaneous
 Saving throw: none and Will negates (object)
 Spell resistance: no and yes (object)
-Target: you and touched objects or other touched willing creatures
 Subschool: Teleportation
 :::
 

@@ -11,31 +11,23 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Adept", level = 2 },
-  { class = "Alchemist", level = 2 },
-  { class = "Arcanist", level = 2 },
-  { class = "Bloodrager", level = 2 },
-  { class = "Bard", level = 2 },
-  { class = "Druid", level = 2 },
-  { class = "Hunter", level = 2 },
-  { class = "Investigator", level = 2 },
-  { class = "Magus", level = 2 },
-  { class = "Medium", level = 2 },
-  { class = "Mesmerist", level = 2 },
-  { class = "Psychic", level = 2 },
-  { class = "Ranger", level = 2 },
-  { class = "Red Mantis Assassin", level = 2 },
-  { class = "Skald", level = 2 },
-  { class = "Sorcerer", level = 2 },
-  { class = "Summoner", level = 2 },
-  { class = "Unchained Summoner", level = 2 },
-  { class = "Wizard", level = 2 },
+  { class = "Arcanist", level = 6 },
+  { class = "Bard", level = 6 },
+  { class = "Druid", level = 6 },
+  { class = "Hunter", level = 6 },
+  { class = "Magus", level = 6 },
+  { class = "Psychic", level = 6 },
+  { class = "Skald", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Summoner", level = 4 },
+  { class = "Unchained Summoner", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (pinch of cat fur)"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Targets", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 minute/level"
 saving_throw = "Will negates (harmless)"
@@ -45,14 +37,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 2: Adept, Alchemist, Arcanist, Bloodrager, Bard, Druid, Hunter, Investigator, Magus, Medium, Mesmerist, Psychic, Ranger, Red Mantis Assassin, Skald, Sorcerer, Summoner, Unchained Summoner, Wizard
+Level: 4: Summoner\
+6: Arcanist, Bard, Druid, Hunter, Magus, Psychic, Skald, Sorcerer, Unchained Summoner, Wizard
 Casting time: 1 standard action
 Components: V, S, M (pinch of cat fur)
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Targets: one creature/level, no two of which can be more than 30 ft. apart
 Duration: 1 minute/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes
-Target: creature touched
 :::
 
 ## Cat's Grace

@@ -11,13 +11,13 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Arcanist", level = 9 },
-  { class = "Cleric", level = 9 },
-  { class = "Oracle", level = 9 },
-  { class = "Psychic", level = 9 },
-  { class = "Sorcerer", level = 9 },
-  { class = "Witch", level = 9 },
-  { class = "Wizard", level = 9 },
+  { class = "Arcanist", level = 5 },
+  { class = "Cleric", level = 5 },
+  { class = "Oracle", level = 5 },
+  { class = "Psychic", level = 5 },
+  { class = "Sorcerer", level = 5 },
+  { class = "Warpriest", level = 5 },
+  { class = "Wizard", level = 5 },
 ]
 casting_time = "30 minutes"
 components = "V, S, M (1,000 gp jacinth)"
@@ -33,14 +33,14 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 9: Arcanist, Cleric, Oracle, Psychic, Sorcerer, Witch, Wizard
+Level: 5: Arcanist, Cleric, Oracle, Psychic, Sorcerer, Warpriest, Wizard
 Casting time: 30 minutes
 Components: V, S, M (1,000 gp jacinth)
 Range: touch
+Targets: you plus one additional willing creature touched per two caster levels
 Duration: see text
 Saving throw: none
 Spell resistance: yes
-Targets: you plus one additional willing creature touched per two caster levels
 :::
 
 ## Astral Projection

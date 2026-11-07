@@ -11,20 +11,20 @@ provenance = [
 kind = "spell"
 school = "transmutation"
 levels = [
-  { class = "Druid", level = 1 },
-  { class = "Hunter", level = 1 },
-  { class = "Ranger", level = 1 },
-  { class = "Spiritualist", level = 1 },
-  { class = "Summoner", level = 1 },
-  { class = "Unchained Summoner", level = 1 },
+  { class = "Druid", level = 3 },
+  { class = "Hunter", level = 3 },
+  { class = "Ranger", level = 3 },
+  { class = "Spiritualist", level = 3 },
+  { class = "Summoner", level = 3 },
+  { class = "Unchained Summoner", level = 3 },
 ]
 casting_time = "1 standard action"
 components = "V, S, DF"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "living creature touched" },
+  { label = "Target", value = "one living creature" },
 ]
-duration = "1 minute/level"
+duration = "1 hour/level"
 saving_throw = "Will negates (harmless)"
 spell_resistance = "yes (harmless)"
 +++
@@ -32,14 +32,14 @@ spell_resistance = "yes (harmless)"
 ::: statblock
 title = "Spell statistics"
 School: transmutation
-Level: 1: Druid, Hunter, Ranger, Spiritualist, Summoner, Unchained Summoner
+Level: 3: Druid, Hunter, Ranger, Spiritualist, Summoner, Unchained Summoner
 Casting time: 1 standard action
 Components: V, S, DF
-Range: touch
-Duration: 1 minute/level
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one living creature
+Duration: 1 hour/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
-Target: living creature touched
 :::
 
 ## Magic Fang

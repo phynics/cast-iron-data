@@ -70,9 +70,9 @@ manipulated affect it normally.
 
 ### Members of This Family:
 
-- [Adult Green Dragon](ref/monster/dragon-chromatic-green-adult-green-dragon)
-- [Ancient Green Dragon](ref/monster/dragon-chromatic-green-ancient-green-dragon)
-- [Young Green Dragon](ref/monster/dragon-chromatic-green-young-green-dragon)
+- [Adult Green Dragon](ref/carried/bestiary/monsters/dragon/chromatic/green/adult)
+- [Ancient Green Dragon](ref/carried/bestiary/monsters/dragon/chromatic/green/ancient)
+- [Young Green Dragon](ref/carried/bestiary/monsters/dragon/chromatic/green/young)
 
 ### Mythic Members of This Family:
 

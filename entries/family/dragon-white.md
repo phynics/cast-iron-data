@@ -76,9 +76,9 @@ wyrm-[control weather](ref/spell/control-weather).
 
 ### Members of This Family:
 
-- [Adult White Dragon](ref/monster/dragon-chromatic-white-adult-white-dragon)
-- [Ancient White Dragon](ref/monster/dragon-chromatic-white-ancient-white-dragon)
-- [Young White Dragon](ref/monster/dragon-chromatic-white-young-white-dragon)
+- [Adult White Dragon](ref/carried/bestiary/monsters/dragon/chromatic/white/adult)
+- [Ancient White Dragon](ref/carried/bestiary/monsters/dragon/chromatic/white/ancient)
+- [Young White Dragon](ref/carried/bestiary/monsters/dragon/chromatic/white/young)
 
 ### Mythic Members of This Family:
 

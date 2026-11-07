@@ -11,15 +11,15 @@ provenance = [
 kind = "spell"
 school = "evocation"
 levels = [
-  { class = "Arcanist", level = 3 },
-  { class = "Sorcerer", level = 3 },
-  { class = "Wizard", level = 3 },
+  { class = "Arcanist", level = 6 },
+  { class = "Sorcerer", level = 6 },
+  { class = "Wizard", level = 6 },
 ]
 casting_time = "1 standard action"
 components = "V, S, M (a small piece of flint)"
-range = "close (25 ft. + 5 ft./2 levels)"
+range = "medium (100 ft. + 10 ft./level)"
 effects = [
-  { label = "Target", value = "one early or advanced firearm" },
+  { label = "Target", value = "one early or advanced firearm/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level"
 saving_throw = "Will negates (object)"
@@ -29,14 +29,14 @@ spell_resistance = "yes (object)"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 3: Arcanist, Sorcerer, Wizard
+Level: 6: Arcanist, Sorcerer, Wizard
 Casting time: 1 standard action
 Components: V, S, M (a small piece of flint)
-Range: close (25 ft. + 5 ft./2 levels)
+Range: medium (100 ft. + 10 ft./level)
+Target: one early or advanced firearm/level, no two of which can be more than 30 ft. apart
 Duration: 1 round/level
 Saving throw: Will negates (object)
 Spell resistance: yes (object)
-Target: one early or advanced firearm
 :::
 
 ## Violent Misfire

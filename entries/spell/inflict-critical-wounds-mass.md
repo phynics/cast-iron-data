@@ -11,20 +11,16 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Cleric", level = 4 },
-  { class = "Inquisitor", level = 4 },
-  { class = "Occultist", level = 4 },
-  { class = "Oracle", level = 4 },
-  { class = "Shaman", level = 4 },
-  { class = "Spiritualist", level = 4 },
-  { class = "Warpriest", level = 4 },
-  { class = "Witch", level = 5 },
+  { class = "Cleric", level = 8 },
+  { class = "Oracle", level = 8 },
+  { class = "Shaman", level = 8 },
+  { class = "Witch", level = 9 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "instantaneous"
 saving_throw = "Will half"
@@ -34,15 +30,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 4: Cleric, Inquisitor, Occultist, Oracle, Shaman, Spiritualist, Warpriest\
-5: Witch
+Level: 8: Cleric, Oracle, Shaman\
+9: Witch
 Casting time: 1 standard action
 Components: V, S
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: instantaneous
 Saving throw: Will half
 Spell resistance: yes
-Target: creature touched
 :::
 
 ## Inflict Critical Wounds

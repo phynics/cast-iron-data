@@ -58,4 +58,4 @@ in time, taking with it a number of willing creatures equal to its Charisma modi
 
 - [Adult Time Dragon](ref/monster/dragon-outer-time-adult-time-dragon)
 - [Ancient Time Dragon](ref/monster/dragon-outer-time-ancient-time-dragon)
-- [Young Time Dragon](ref/monster/dragon-outer-time-young-time-dragon)
+- [Young Time Dragon](ref/carried/bestiary-4/monsters/dragon/outer/time/young)

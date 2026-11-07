@@ -23,7 +23,7 @@ reflex = "+9"
 will = "+7"
 melee = "bite +17 (2d6+8), 2 claws +18 (1d8+8 plus grab)"
 special_attacks = "disorienting pounce, mythic power (4/day, surge +1d8), pounce, rend (2 claws, 1d8+12)"
-special_qualities = "immortal (see page 13)"
+special_qualities = "immortal"
 abilities = ["27", "14", "24", "2", "14", "10"]
 +++
 
@@ -54,7 +54,7 @@ CMB: +19 (+23 grapple)
 CMD: 31 (35 vs. trip)
 Feats: Great Fortitude, Improved InitiativeM, Iron WillM, Skill Focus (Perception), Weapon Focus (claws)
 Skills: Fly +5, Perception +16
-SQ: immortal (see page 13)
+SQ: [immortal](ref/rule/base-mythic-abilities)
 Environment: temperate forests
 Organization: solitary, pair, or pack (3-8)
 Treasure: incidental

@@ -118,6 +118,6 @@ support of that which would bring destruction to all.
 
 ### Mythic Members of This Family:
 
-- [Marilith](ref/monster/demon-marilith-mythic)
-- [Nalfeshnee](ref/monster/demon-nalfeshnee-mythic)
-- [Vrock](ref/monster/demon-vrock-mythic)
+- [Marilith](ref/carried/mythic-adventures/monsters/demon/marilith/mythic)
+- [Nalfeshnee](ref/carried/mythic-adventures/monsters/demon/nalfeshnee/mythic)
+- [Vrock](ref/carried/mythic-adventures/monsters/demon/vrock/mythic)

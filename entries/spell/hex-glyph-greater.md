@@ -11,11 +11,11 @@ provenance = [
 kind = "spell"
 school = "abjuration"
 levels = [
-  { class = "Shaman", level = 3 },
-  { class = "Witch", level = 3 },
+  { class = "Shaman", level = 5 },
+  { class = "Witch", level = 5 },
 ]
 casting_time = "10 minutes"
-components = "V, S, M (powdered diamond worth 200 gp)"
+components = "V, S, M (powdered diamond worth 400 gp)"
 range = "touch"
 effects = [
   { label = "Target or Area", value = "object touched or up to 5 sq. ft./level" },
@@ -28,14 +28,14 @@ spell_resistance = "no (object) and yes (see text)"
 ::: statblock
 title = "Spell statistics"
 School: abjuration
-Level: 3: Shaman, Witch
+Level: 5: Shaman, Witch
 Casting time: 10 minutes
-Components: V, S, M (powdered diamond worth 200 gp)
+Components: V, S, M (powdered diamond worth 400 gp)
 Range: touch
+Target or Area: object touched or up to 5 sq. ft./level
 Duration: permanent until discharged (D)
 Saving throw: see text
 Spell resistance: no (object) and yes (see text)
-Target or Area: object touched or up to 5 sq. ft./level
 :::
 
 ## Hex Glyph

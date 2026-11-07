@@ -11,21 +11,16 @@ provenance = [
 kind = "spell"
 school = "necromancy"
 levels = [
-  { class = "Antipaladin", level = 4 },
-  { class = "Cleric", level = 3 },
-  { class = "Inquisitor", level = 3 },
-  { class = "Occultist", level = 3 },
-  { class = "Oracle", level = 3 },
-  { class = "Shaman", level = 3 },
-  { class = "Spiritualist", level = 3 },
-  { class = "Warpriest", level = 3 },
-  { class = "Witch", level = 4 },
+  { class = "Cleric", level = 7 },
+  { class = "Oracle", level = 7 },
+  { class = "Shaman", level = 7 },
+  { class = "Witch", level = 8 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
-range = "touch"
+range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "creature touched" },
+  { label = "Target", value = "one creature/level, no two of which can be more than 30 ft. apart" },
 ]
 duration = "instantaneous"
 saving_throw = "Will half"
@@ -35,15 +30,15 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: necromancy
-Level: 3: Cleric, Inquisitor, Occultist, Oracle, Shaman, Spiritualist, Warpriest\
-4: Antipaladin, Witch
+Level: 7: Cleric, Oracle, Shaman\
+8: Witch
 Casting time: 1 standard action
 Components: V, S
-Range: touch
+Range: close (25 ft. + 5 ft./2 levels)
+Target: one creature/level, no two of which can be more than 30 ft. apart
 Duration: instantaneous
 Saving throw: Will half
 Spell resistance: yes
-Target: creature touched
 :::
 
 ## Inflict Serious Wounds

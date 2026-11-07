@@ -12,20 +12,20 @@ kind = "spell"
 school = "evocation"
 descriptors = ["darkness", "light"]
 levels = [
-  { class = "Arcanist", level = 4 },
-  { class = "Bard", level = 3 },
-  { class = "Mesmerist", level = 3 },
-  { class = "Psychic", level = 3 },
-  { class = "Skald", level = 3 },
-  { class = "Sorcerer", level = 4 },
-  { class = "Witch", level = 4 },
-  { class = "Wizard", level = 4 },
+  { class = "Arcanist", level = 7 },
+  { class = "Bard", level = 5 },
+  { class = "Mesmerist", level = 5 },
+  { class = "Psychic", level = 6 },
+  { class = "Skald", level = 5 },
+  { class = "Sorcerer", level = 7 },
+  { class = "Witch", level = 7 },
+  { class = "Wizard", level = 7 },
 ]
 casting_time = "1 standard action"
 components = "V, S"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
-  { label = "Target", value = "one living creature" },
+  { label = "Target", value = "one or more living creatures, no two of which can be more than 30 ft. apart" },
 ]
 duration = "1 round/level"
 saving_throw = "Will negates"
@@ -35,15 +35,16 @@ spell_resistance = "yes"
 ::: statblock
 title = "Spell statistics"
 School: evocation
-Level: 3: Bard, Mesmerist, Psychic, Skald\
-4: Arcanist, Sorcerer, Witch, Wizard
+Level: 5: Bard, Mesmerist, Skald\
+6: Psychic\
+7: Arcanist, Sorcerer, Witch, Wizard
 Casting time: 1 standard action
 Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
+Target: one or more living creatures, no two of which can be more than 30 ft. apart
 Duration: 1 round/level
 Saving throw: Will negates
 Spell resistance: yes
-Target: one living creature
 Descriptors: darkness, light
 :::
 

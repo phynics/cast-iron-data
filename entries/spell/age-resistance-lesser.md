@@ -42,10 +42,10 @@ Level: 3: Alchemist, Investigator, Occultist\
 Casting time: 1 standard action
 Components: V, S
 Range: personal
+Target: you
 Duration: 24 hours
 Saving throw: none
 Spell resistance: no
-Target: you
 :::
 
 **Sources:** Ultimate Magic pg 205

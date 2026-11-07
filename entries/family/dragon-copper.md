@@ -74,6 +74,6 @@ never be caught [flat-footed](ref/rule/flat-footed). This ability functions like
 
 ### Members of This Family:
 
-- [Adult Copper Dragon](ref/monster/dragon-metallic-copper-adult-copper-dragon)
-- [Ancient Copper Dragon](ref/monster/dragon-metallic-copper-ancient-copper-dragon)
-- [Young Copper Dragon](ref/monster/dragon-metallic-copper-young-copper-dragon)
+- [Adult Copper Dragon](ref/carried/bestiary/monsters/dragon/metallic/copper/adult)
+- [Ancient Copper Dragon](ref/carried/bestiary/monsters/dragon/metallic/copper/ancient)
+- [Young Copper Dragon](ref/carried/bestiary/monsters/dragon/metallic/copper/young)
