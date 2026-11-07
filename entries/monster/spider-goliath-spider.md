@@ -32,13 +32,13 @@ fangs._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 252\
 **tremorsense:** 60

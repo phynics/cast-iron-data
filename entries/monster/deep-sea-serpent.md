@@ -31,8 +31,6 @@ jagged teeth._
 
 **Challenge rating:** 19
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +9
@@ -43,7 +41,7 @@ jagged teeth._
 
 **Perception:** +23
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 240\
 **Subtype:** Aquatic

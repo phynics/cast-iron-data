@@ -31,8 +31,6 @@ clawed hand._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -43,7 +41,7 @@ clawed hand._
 
 **Perception:** +2
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 10, Pathfinder \#34: Blood for Blood pg 80\
 **Subtype:** Aquatic

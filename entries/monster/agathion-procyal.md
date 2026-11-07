@@ -31,8 +31,6 @@ darting eyes._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -42,6 +40,8 @@ darting eyes._
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#99: Dance of the Damned pg 84\
 **Subtype:** Agathion, Extraplanar, Good

@@ -34,8 +34,6 @@ limbs._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
@@ -44,7 +42,7 @@ limbs._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 55\
 **Subtype:** Clockwork

@@ -33,8 +33,6 @@ _This lanky, winged humanoid is covered in layers of long, ropy skin growths._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +8
 
 **Size:** medium
@@ -43,7 +41,7 @@ _This lanky, winged humanoid is covered in layers of long, ropy skin growths._
 
 **Perception:** +24
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 120 ft., Detect good, Detect magic
 
 **Sources:** Bestiary 5 pg 73, Pathfinder \#77: Herald of the Ivory Labyrinth pg 84\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar

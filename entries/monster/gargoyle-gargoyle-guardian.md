@@ -33,8 +33,6 @@ innocent passers-by. Then it moves - to do just that._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -43,7 +41,7 @@ innocent passers-by. Then it moves - to do just that._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#48: Shadows of Gallowspire pg 84\
 **Experience points:** 4,800

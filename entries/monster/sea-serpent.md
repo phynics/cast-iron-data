@@ -30,8 +30,6 @@ hisses a challenge._
 
 **Challenge rating:** 12
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +6
@@ -42,7 +40,7 @@ hisses a challenge._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 244\
 **Subtype:** Aquatic

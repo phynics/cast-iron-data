@@ -34,8 +34,6 @@ mist._
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 20), hoarfrost halo (30 ft.,
 DC 20)
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -45,6 +43,8 @@ DC 20)
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 42\
 **Subtype:** Cold, Native

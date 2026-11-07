@@ -28,8 +28,6 @@ abilities = ["24", "8", "23", "1", "13", "8"]
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -40,7 +38,7 @@ abilities = ["24", "8", "23", "1", "13", "8"]
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#82: Secrets of the Sphinx pg 86\
 **Subtype:** Aquatic

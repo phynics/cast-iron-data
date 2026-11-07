@@ -33,13 +33,13 @@ _Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpe
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 213\
 **Experience points:** 6,400

@@ -31,8 +31,6 @@ tongue flicks from its serpentine head._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -43,7 +41,7 @@ tongue flicks from its serpentine head._
 
 **Perception:** +13
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Occult Bestiary pg 51\
 **Experience points:** 2,400

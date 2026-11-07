@@ -31,8 +31,6 @@ its chest and neck._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -43,7 +41,7 @@ its chest and neck._
 
 **Perception:** +13
 
-**Senses:** Enchantment sense, Scent
+**Senses:** Darkvision 60 ft., Enchantment sense, Scent
 
 **Sources:** Andoran, Birthplace of Freedom pg 50\
 **Subtype:** Agathion, Extraplanar, Good

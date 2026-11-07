@@ -34,8 +34,6 @@ amalgamation of darkness and menace._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -44,7 +42,7 @@ amalgamation of darkness and menace._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 238\
 **Subtype:** Augmented aberration

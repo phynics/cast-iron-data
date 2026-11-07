@@ -31,8 +31,6 @@ pungent chemical fluid._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -41,7 +39,7 @@ pungent chemical fluid._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Tears at Bitter Manor pg 60\
 **Experience points:** 3,200

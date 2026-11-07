@@ -32,8 +32,6 @@ skin._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -44,7 +42,7 @@ skin._
 
 **Perception:** +18
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 60 ft., Detect good, Detect magic
 
 **Sources:** Bestiary 4 pg 19\
 **Subtype:** Shapechanger

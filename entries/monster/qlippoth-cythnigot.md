@@ -33,15 +33,13 @@ ending in a snapping mouth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Type:** outsider
 
 **Perception:** +5
 
-**Senses:** Detect law, Detect magic
+**Senses:** Darkvision 60 ft., Detect law, Detect magic
 
 **Sources:** Bestiary 2 pg 221\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

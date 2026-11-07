@@ -35,13 +35,13 @@ shimmer._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

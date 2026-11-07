@@ -37,8 +37,6 @@ tangle of night-blue hair._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -47,7 +45,7 @@ tangle of night-blue hair._
 
 **Perception:** +27
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Bestiary 6 pg 33, Occult Bestiary pg 9\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

@@ -34,8 +34,6 @@ covered with scintillating red scales._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +5
@@ -44,7 +42,7 @@ covered with scintillating red scales._
 
 **Perception:** +28
 
-**Senses:** Low-light vision, See invisibility
+**Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
 **Sources:** Bestiary 2 pg 263\
 **Subtype:** Fire

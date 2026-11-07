@@ -30,8 +30,6 @@ figure._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +9
@@ -42,7 +40,7 @@ figure._
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Down the Blighted Path pg 52\
 **Experience points:** 2,400

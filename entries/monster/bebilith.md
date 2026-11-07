@@ -33,8 +33,6 @@ its barbed and razor-edged front claws._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -43,7 +41,7 @@ its barbed and razor-edged front claws._
 
 **Perception:** +16
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 32\
 **Subtype:** Chaotic, Evil, Extraplanar

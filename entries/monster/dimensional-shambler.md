@@ -33,8 +33,6 @@ fingers._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -42,6 +40,8 @@ fingers._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#46: Wake of the Watcher pg 80\
 **Subtype:** Chaotic, Evil

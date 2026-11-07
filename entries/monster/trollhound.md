@@ -29,8 +29,6 @@ vaguely canine beast._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ vaguely canine beast._
 
 **Perception:** +8
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 274, Pathfinder \#32: Rivers Run Red pg 88\
 **Experience points:** 800

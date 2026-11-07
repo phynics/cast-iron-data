@@ -33,8 +33,6 @@ presence._
 
 **aura:** fate (20 ft., DC 15)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful neutral
@@ -44,6 +42,8 @@ presence._
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Daughters of Fury pg 54\
 **Subtype:** Incorporeal, Kami, Native

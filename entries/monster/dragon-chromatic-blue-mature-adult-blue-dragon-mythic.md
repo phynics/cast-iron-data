@@ -40,8 +40,6 @@ blue-scaled body._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +12, Mythic Improved Initiative
@@ -50,7 +48,7 @@ blue-scaled body._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Mythic Adventures pg 188\
 **Subtype:** Earth, Mythic

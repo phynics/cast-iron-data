@@ -33,15 +33,13 @@ with fine scrimshaw._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

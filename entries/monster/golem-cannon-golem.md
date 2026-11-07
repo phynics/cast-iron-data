@@ -34,8 +34,6 @@ movement with mechanical precision._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -44,7 +42,7 @@ movement with mechanical precision._
 
 **Perception:** +2
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 135\
 **Experience points:** 51,200

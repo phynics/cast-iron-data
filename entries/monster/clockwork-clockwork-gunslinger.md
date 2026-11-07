@@ -35,8 +35,6 @@ fits snugly between its pectoral armor plates._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -45,7 +43,7 @@ fits snugly between its pectoral armor plates._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 33\
 **Subtype:** Clockwork

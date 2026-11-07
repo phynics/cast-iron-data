@@ -32,8 +32,6 @@ sinew._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,7 +40,7 @@ sinew._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 133\
 **Experience points:** 4,800

@@ -32,8 +32,6 @@ it whirs as if mechanical._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -42,7 +40,7 @@ it whirs as if mechanical._
 
 **Perception:** +14
 
-**Senses:** Low-light vision, See alignment
+**Senses:** Darkvision 60 ft., Low-light vision, See alignment
 
 **Sources:** Pathfinder \#122: Into the Shattered Continent pg 88\
 **Experience points:** 6,400

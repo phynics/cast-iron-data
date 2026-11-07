@@ -35,15 +35,13 @@ four long, hook-like jaws._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Alignment:** Neutral evil
 
 **Perception:** +37
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 6 pg 64\
 **tremorsense:** 120

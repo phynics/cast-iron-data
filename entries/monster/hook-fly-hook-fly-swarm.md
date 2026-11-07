@@ -33,13 +33,13 @@ miniscule, proboscises._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Gallows of Madness pg 60\
 **Subtype:** Swarm

@@ -30,8 +30,6 @@ looks unsettlingly like that of a gnome._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **greensight:** 60
 
 **Initiative:** +9
@@ -39,6 +37,8 @@ looks unsettlingly like that of a gnome._
 **Alignment:** Neutral evil
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

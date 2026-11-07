@@ -33,13 +33,13 @@ and hatred._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 123\
 **Subtype:** Incorporeal

@@ -34,8 +34,6 @@ otherwise blank visage._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -44,7 +42,7 @@ otherwise blank visage._
 
 **Perception:** +0
 
-**Senses:** Low-light vision, See in darkness
+**Senses:** Darkvision 60 ft., Low-light vision, See in darkness
 
 **Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 88\
 **Experience points:** 38,400

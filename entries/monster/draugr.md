@@ -31,13 +31,13 @@ off a nauseating stench._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 110\
 **Subtype:** Water

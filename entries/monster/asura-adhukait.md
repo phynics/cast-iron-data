@@ -33,8 +33,6 @@ with their twin curved knives._
 
 **aura:** elusive (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -45,7 +43,7 @@ with their twin curved knives._
 
 **Perception:** +19
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 21, Pathfinder \#28: The Infernal Syndrome pg 82\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

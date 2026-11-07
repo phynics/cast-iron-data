@@ -31,8 +31,6 @@ glitters in its metallic golden eyes._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful neutral
@@ -42,6 +40,8 @@ glitters in its metallic golden eyes._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Gods pg 277\
 **Subtype:** Extraplanar, Lawful

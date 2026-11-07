@@ -34,8 +34,6 @@ wears black robes that cover most of its rotting, frostbitten flesh._
 
 **aura:** fine print (120 ft.)
 
-**dv:** 60
-
 **Initiative:** +15
 
 **Size:** medium
@@ -46,7 +44,7 @@ wears black robes that cover most of its rotting, frostbitten flesh._
 
 **Perception:** +38
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Druma, Profit and Prophecy pg 58\
 **Subtype:** Daemon, Evil, Extraplanar

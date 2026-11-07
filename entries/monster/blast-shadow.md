@@ -30,13 +30,13 @@ abilities = ["15", "18", "-", "10", "13", "16"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#122: Into the Shattered Continent pg 21, Pathfinder \#15: The Armageddon
 Echo pg 82\

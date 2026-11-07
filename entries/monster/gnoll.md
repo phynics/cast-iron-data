@@ -32,8 +32,6 @@ human._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +0
@@ -43,6 +41,8 @@ human._
 **othersubs:** Gnoll
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 155\
 **Experience points:** 400

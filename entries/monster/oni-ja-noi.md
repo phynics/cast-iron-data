@@ -32,8 +32,6 @@ wears elaborate heavy armor, and wields an ornate metal club._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ wears elaborate heavy armor, and wields an ornate metal club._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#52: Forest of Spirits pg 90\
 **Subtype:** Goblinoid, Native, Oni, Shapechanger

@@ -34,8 +34,6 @@ transparent flesh._
 
 **Urdefhan necromancer 11**
 
-**dv:** 120
-
 **Initiative:** +3
 
 **Size:** medium
@@ -45,6 +43,8 @@ transparent flesh._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Inner Sea Monster Codex pg 62\
 **Subtype:** Native

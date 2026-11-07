@@ -29,8 +29,6 @@ abilities = ["12", "19", "20", "18", "19", "20"]
 
 **Advanced serpentfolk [oracle](ref/class/oracle) 7**
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -41,7 +39,7 @@ abilities = ["12", "19", "20", "18", "19", "20"]
 
 **Perception:** +19
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Monster Codex pg 205\
 **Experience points:** 12,800

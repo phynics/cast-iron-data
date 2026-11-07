@@ -30,8 +30,6 @@ _Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-
 
 **Challenge rating:** 19
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -42,7 +40,7 @@ _Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-
 
 **Perception:** +27
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 2 pg 87\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

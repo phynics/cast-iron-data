@@ -29,13 +29,13 @@ _This brightly colored, star-shaped creature has many spines growing from its fi
 
 **Challenge rating:** 1/6
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ultimate Wilderness pg 206\
 **Size:** tiny

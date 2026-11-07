@@ -33,8 +33,6 @@ from between its jagged teeth._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -45,7 +43,7 @@ from between its jagged teeth._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 90\
 **Subtype:** Fire

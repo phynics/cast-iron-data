@@ -32,13 +32,13 @@ virtual wall of stinging tentacles._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 170\
 **Subtype:** Aquatic, Swarm

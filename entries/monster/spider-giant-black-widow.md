@@ -30,8 +30,6 @@ a crimson hourglass._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -39,6 +37,8 @@ a crimson hourglass._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 256\
 **tremorsense:** 60

@@ -37,13 +37,13 @@ maws filled with a sickly green glow._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 267, Lost Kingdoms pg 50\
 **Subtype:** Chaotic, Evil, Extraplanar, Swarm

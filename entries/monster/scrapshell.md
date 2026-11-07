@@ -31,8 +31,6 @@ between the shell halves._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -41,7 +39,7 @@ between the shell halves._
 
 **Perception:** +2
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Seers of the Drowned City pg 60\
 **Subtype:** Aquatic

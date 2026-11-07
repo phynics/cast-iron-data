@@ -31,8 +31,6 @@ _A dorsal fin rises up from the back of this immense black-and-white-furred, wol
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -43,7 +41,7 @@ _A dorsal fin rises up from the back of this immense black-and-white-furred, wol
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 11\
 **Subtype:** Cold, Shapechanger

@@ -29,8 +29,6 @@ _A spiral pattern adorns the hood of this cobra-like serpent. Its gaze betrays a
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
@@ -39,7 +37,7 @@ _A spiral pattern adorns the hood of this cobra-like serpent. Its gaze betrays a
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 44\
 **Size:** tiny

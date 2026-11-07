@@ -34,8 +34,6 @@ that cap its long arms._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +9
 
 **Size:** medium
@@ -44,7 +42,7 @@ that cap its long arms._
 
 **Perception:** +22
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 120 ft., Detect good, Detect magic
 
 **Sources:** Bestiary 3 pg 71\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar

@@ -31,8 +31,6 @@ etchings and runes._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -41,7 +39,7 @@ etchings and runes._
 
 **Perception:** +2
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 260\
 **Experience points:** 12,800

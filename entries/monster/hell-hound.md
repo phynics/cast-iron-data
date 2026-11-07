@@ -30,8 +30,6 @@ red eyes._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Lawful evil
@@ -42,7 +40,7 @@ red eyes._
 
 **Perception:** +7
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 173\
 **Subtype:** Evil, Extraplanar, Fire, Lawful

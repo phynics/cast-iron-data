@@ -31,8 +31,6 @@ poisonous cloud that flickers like fire._
 
 **Challenge rating:** 14
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +5
@@ -43,7 +41,7 @@ poisonous cloud that flickers like fire._
 
 **Perception:** +9
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 120 ft., Low-light vision
 
 **Sources:** Cheliax, the Infernal Empire pg 58\
 **Subtype:** Aquatic

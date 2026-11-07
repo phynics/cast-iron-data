@@ -36,13 +36,13 @@ creature's claws manifest from the darkness._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 12, Bonus Bestiary pg 4\
 **Subtype:** Incorporeal

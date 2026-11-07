@@ -34,8 +34,6 @@ enough to suit her powerful frame, hang from her body._
 
 **Centaur [ranger](ref/class/ranger) 3**
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -45,6 +43,8 @@ enough to suit her powerful frame, hang from her body._
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 7\
 **Experience points:** 2,400

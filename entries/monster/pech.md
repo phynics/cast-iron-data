@@ -31,8 +31,6 @@ pickaxe in its knobby hands._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +1
@@ -41,7 +39,7 @@ pickaxe in its knobby hands._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

@@ -37,13 +37,13 @@ skin and grotesque, slurping tongues where its face should be._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#110: The Thrushmoor Terror pg 84\
 **Subtype:** Shapechanger

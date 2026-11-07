@@ -32,8 +32,6 @@ rises up to support the ceiling._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -42,7 +40,7 @@ rises up to support the ceiling._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 46, Bonus Bestiary pg 8\
 **Experience points:** 800

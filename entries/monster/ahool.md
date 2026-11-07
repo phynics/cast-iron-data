@@ -30,8 +30,6 @@ in sharp claws._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -42,7 +40,7 @@ in sharp claws._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 15\
 **Experience points:** 6,400

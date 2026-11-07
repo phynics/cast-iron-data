@@ -34,8 +34,6 @@ almost like a statue brought to life._
 
 **Oread [fighter](ref/class/fighter) 1**
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -45,6 +43,8 @@ almost like a statue brought to life._
 **Type:** outsider
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 205\
 **Subtype:** Native

@@ -31,8 +31,6 @@ snapping beak, and two pincers._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -43,7 +41,7 @@ snapping beak, and two pincers._
 
 **Perception:** +14
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 270, Misfit Monsters Redeemed pg 57\
 **Subtype:** Extraplanar, Water

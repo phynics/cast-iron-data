@@ -34,8 +34,6 @@ arms serve as both wings and flippers._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -44,7 +42,7 @@ arms serve as both wings and flippers._
 
 **Perception:** +10
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 109\
 **Subtype:** Aquatic

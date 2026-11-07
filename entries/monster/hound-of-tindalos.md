@@ -32,8 +32,6 @@ with a predatory grace._
 
 **Challenge rating:** 7
 
-**dv:** 120
-
 **Initiative:** +9
 
 **Size:** medium
@@ -43,6 +41,8 @@ with a predatory grace._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 2 pg 158, Pathfinder \#4: Fortress of the Stone Giants pg 82\
 **Subtype:** Evil, Extraplanar

@@ -35,8 +35,6 @@ beak and powerful talons are instead adorned with dried blood and gore._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -45,7 +43,7 @@ beak and powerful talons are instead adorned with dried blood and gore._
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#39: The City of Seven Spears pg 80\
 **Experience points:** 6,400

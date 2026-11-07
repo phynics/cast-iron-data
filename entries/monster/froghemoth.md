@@ -33,8 +33,6 @@ huge tentacles thrash and writhe._
 
 **blindsight:** 30
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -43,7 +41,7 @@ huge tentacles thrash and writhe._
 
 **Perception:** +16
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 136\
 **Experience points:** 25,600

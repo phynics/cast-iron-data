@@ -35,8 +35,6 @@ scrimshaw patterns._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -45,7 +43,7 @@ scrimshaw patterns._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 177\
 **Experience points:** 25,600

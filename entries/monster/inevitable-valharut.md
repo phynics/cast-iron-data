@@ -33,8 +33,6 @@ traceries of blue lines._
 
 **aura:** inviolate aura (60 ft.)
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful neutral
@@ -45,7 +43,7 @@ traceries of blue lines._
 
 **Perception:** +20
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Planar Adventures pg 237\
 **Subtype:** Extraplanar, Inevitable, Lawful

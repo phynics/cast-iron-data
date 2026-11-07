@@ -32,8 +32,6 @@ coating her frame encrusted in years' worth of sea salt._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -42,7 +40,7 @@ coating her frame encrusted in years' worth of sea salt._
 
 **Perception:** +6
 
-**Senses:** Low-light vision, Ship sight
+**Senses:** Darkvision 60 ft., Low-light vision, Ship sight
 
 **Sources:** Pathfinder \#57: Tempest Rising pg 88\
 **Experience points:** 3,200

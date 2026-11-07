@@ -34,8 +34,6 @@ _A hideous, pale, worm-like head pushes violently up and out of a corpulent man'
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -44,7 +42,7 @@ _A hideous, pale, worm-like head pushes violently up and out of a corpulent man'
 
 **Perception:** +8
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 6 pg 90, Book of the Damned - Volume 2: Lords of Chaos pg 54\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

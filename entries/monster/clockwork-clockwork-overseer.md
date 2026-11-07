@@ -36,8 +36,6 @@ articulated metal lash._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -46,7 +44,7 @@ articulated metal lash._
 
 **Perception:** +1
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#123: The Flooded Cathedral pg 86\
 **Subtype:** Clockwork

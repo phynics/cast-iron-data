@@ -38,15 +38,13 @@ into its body to be forever extinguished._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +31
 
 **Perception:** +50
 
-**Senses:** All-around vision, See in darkness, True seeing
+**Senses:** All-around vision, Darkvision 60 ft., See in darkness, True seeing
 
 **Sources:** Pathfinder \#110: The Thrushmoor Terror pg 86\
 **Subtype:** Chaotic, Evil, Great Old One, Incorporeal

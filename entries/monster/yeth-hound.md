@@ -30,8 +30,6 @@ _This emaciated, hairless canine has a strange air of menace and cruelty about i
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -42,7 +40,7 @@ _This emaciated, hairless canine has a strange air of menace and cruelty about i
 
 **Perception:** +9
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 286\
 **Subtype:** Evil, Extraplanar

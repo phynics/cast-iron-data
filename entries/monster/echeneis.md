@@ -31,8 +31,6 @@ runs down its back._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ runs down its back._
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

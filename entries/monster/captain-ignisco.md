@@ -37,8 +37,6 @@ of the same material._
 
 **Alignment:** Chaotic good
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +5
@@ -46,6 +44,8 @@ of the same material._
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Darklands Revisited pg 39\
 **Subtype:** Munavri

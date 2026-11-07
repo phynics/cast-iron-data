@@ -33,8 +33,6 @@ spiky, manyjointed legs bend in unsettling ways._
 
 **Challenge rating:** 9
 
-**dv:** 120
-
 **Initiative:** +8
 
 **Size:** large
@@ -47,7 +45,7 @@ spiky, manyjointed legs bend in unsettling ways._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder \#141: Last Watch pg 86\
 **Subtype:** Extraplanar

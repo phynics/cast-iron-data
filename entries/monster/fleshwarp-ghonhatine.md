@@ -37,15 +37,13 @@ protruding teeth snapping wildly._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** -2
 
 **Size:** large
 
 **Perception:** +9
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 4 pg 102, Pathfinder \#16: Endless Night pg 84\
 **Experience points:** 9,600

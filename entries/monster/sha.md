@@ -30,8 +30,6 @@ unnatural origins of this black canine._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful evil
@@ -42,7 +40,7 @@ unnatural origins of this black canine._
 
 **Perception:** +7
 
-**Senses:** Low-light vision, Sandstorm sight
+**Senses:** Darkvision 60 ft., Low-light vision, Sandstorm sight
 
 **Sources:** Bestiary 5 pg 226, Pathfinder \#80: Empty Graves pg 86\
 **Experience points:** 1,200

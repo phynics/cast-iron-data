@@ -32,8 +32,6 @@ afire with murderous intent._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -44,7 +42,7 @@ afire with murderous intent._
 
 **Perception:** +13
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 221\
 **Subtype:** Giant, Native, Oni, Shapechanger

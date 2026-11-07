@@ -35,8 +35,6 @@ sky._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -45,7 +43,7 @@ sky._
 
 **Perception:** +12
 
-**Senses:** Detect evil, Detect magic, Low-light vision
+**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
 
 **Sources:** Bestiary 6 pg 36, Magnimar, City of Monuments pg 63\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

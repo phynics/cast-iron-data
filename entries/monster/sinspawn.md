@@ -32,8 +32,6 @@ with three-fingered hands._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -42,7 +40,7 @@ with three-fingered hands._
 
 **Perception:** +7
 
-**Senses:** Sin-scent
+**Senses:** Darkvision 60 ft., Sin-scent
 
 **Sources:** Bestiary 2 pg 246, Pathfinder \#1: Burnt Offerings pg 90\
 **Experience points:** 600

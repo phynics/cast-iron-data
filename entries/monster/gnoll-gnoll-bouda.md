@@ -32,8 +32,6 @@ abilities = ["12", "12", "15", "18", "14", "8"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +5
@@ -44,7 +42,7 @@ abilities = ["12", "12", "15", "18", "14", "8"]
 
 **Perception:** +16
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 99\
 **Experience points:** 25,600

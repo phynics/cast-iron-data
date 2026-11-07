@@ -30,8 +30,6 @@ clumps of seaweed serve as her hair._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -39,6 +37,8 @@ clumps of seaweed serve as her hair._
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#122: Into the Shattered Continent pg 90\
 **Type:** undead

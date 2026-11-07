@@ -29,13 +29,13 @@ _This dark-yellow, hand-length slug is covered in a pattern of black spots and s
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** -3
 
 **Alignment:** Neutral
 
 **Perception:** -2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ultimate Wilderness pg 200, Familiar Folio pg 30\
 **Type:** vermin

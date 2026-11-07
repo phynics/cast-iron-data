@@ -33,8 +33,6 @@ tentacles and a number of sharp teeth._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -42,6 +40,8 @@ tentacles and a number of sharp teeth._
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 205\
 **Subtype:** Shapechanger

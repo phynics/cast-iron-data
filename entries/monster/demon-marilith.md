@@ -35,8 +35,6 @@ eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -45,7 +43,7 @@ eyes._
 
 **Perception:** +31
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 63\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

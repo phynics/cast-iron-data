@@ -34,8 +34,6 @@ her lean form._
 
 **Half-fiend urdefhan [warpriest](ref/class/warpriest) of [Szuriel](ref/faith/szuriel) 12**
 
-**dv:** 120
-
 **Initiative:** +7
 
 **Size:** medium
@@ -45,6 +43,8 @@ her lean form._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Inner Sea Monster Codex pg 63\
 **Subtype:** Native

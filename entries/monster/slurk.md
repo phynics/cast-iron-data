@@ -32,8 +32,6 @@ its upper jaw._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -43,6 +41,8 @@ its upper jaw._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 251, Crown of the Kobold King pg 33\
 **Experience points:** 600

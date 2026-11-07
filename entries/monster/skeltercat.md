@@ -34,8 +34,6 @@ much more muscular and carries itself with a strange posture._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** Magical beast
@@ -44,7 +42,7 @@ much more muscular and carries itself with a strange posture._
 
 **Perception:** +5
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 90\
 **Subtype:** Shapechanger

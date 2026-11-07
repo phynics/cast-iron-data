@@ -33,8 +33,6 @@ sprout from its back._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -43,7 +41,7 @@ sprout from its back._
 
 **Perception:** +37
 
-**Senses:** Scent, See invisibility
+**Senses:** Darkvision 60 ft., Scent, See invisibility
 
 **Sources:** Book of the Damned pg 246\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

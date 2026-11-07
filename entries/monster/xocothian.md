@@ -31,8 +31,6 @@ storm._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -43,7 +41,7 @@ storm._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 291\
 **Subtype:** Air, Extraplanar, Water

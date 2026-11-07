@@ -33,8 +33,6 @@ blood._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -45,7 +43,7 @@ blood._
 
 **Perception:** +5
 
-**Senses:** Carrion sense, Low-light vision
+**Senses:** Carrion sense, Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#139: The Dead Road pg 86\
 **Subtype:** Elf, Mortic

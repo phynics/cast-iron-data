@@ -33,8 +33,6 @@ through the air on feathered wings._
 
 **aura:** lesser protective aura
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral good
@@ -43,7 +41,7 @@ through the air on feathered wings._
 
 **Perception:** +5
 
-**Senses:** Detect evil, Low-light vision
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Size:** small
 

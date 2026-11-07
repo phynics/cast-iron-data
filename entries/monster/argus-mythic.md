@@ -38,8 +38,6 @@ eyes._
 
 **aura:** frightful presence (40 ft., DC 16)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +12, Mythic Improved Initiative
@@ -48,8 +46,8 @@ eyes._
 
 **Perception:** +29
 
-**Senses:** All-around vision, Arcane sight, Detect scrying, Limitless vision, Mistsight, See in
-darkness, True seeing
+**Senses:** All-around vision, Arcane sight, Darkvision 60 ft., Detect scrying, Limitless vision,
+Mistsight, See in darkness, True seeing
 
 **Sources:** Bestiary 4 pg 13\
 **Subtype:** Mythic

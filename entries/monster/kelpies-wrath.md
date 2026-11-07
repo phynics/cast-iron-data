@@ -37,8 +37,6 @@ made all the more disturbing by its apparent lack of a crew._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Keen Scent:** present
@@ -46,6 +44,8 @@ made all the more disturbing by its apparent lack of a crew._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#55: The Wormwood Mutiny pg 86\
 **Subtype:** Chaotic, Extraplanar, Water

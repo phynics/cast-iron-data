@@ -28,13 +28,13 @@ abilities = ["7", "15", "12", "-", "11", "2"]
 
 **Challenge rating:** 1/4
 
-**dv:** 30
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 30 ft.
 
 **Sources:** Bestiary 5 pg 113\
 **Subtype:** Aquatic

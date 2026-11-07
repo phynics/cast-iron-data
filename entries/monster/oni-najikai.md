@@ -31,8 +31,6 @@ _This scaly-skinned humanoid has long venomous fangs, claws, and unblinking rept
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -43,7 +41,7 @@ _This scaly-skinned humanoid has long venomous fangs, claws, and unblinking rept
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Book of the Damned pg 250\
 **Subtype:** Native, Oni, Reptilian, Shapechanger

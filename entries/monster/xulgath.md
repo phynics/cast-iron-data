@@ -36,8 +36,6 @@ glistens on its scales._
 
 **Alignment:** Chaotic evil
 
-**dv:** 90
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -45,6 +43,8 @@ glistens on its scales._
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Darkvision 90 ft.
 
 **Sources:** Occult Bestiary pg 61\
 **Subtype:** Reptilian

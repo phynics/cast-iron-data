@@ -32,8 +32,6 @@ sides._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -41,6 +39,8 @@ sides._
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 14, Pathfinder \#49: The Brinewall Legacy pg 83\
 **Subtype:** Aquatic

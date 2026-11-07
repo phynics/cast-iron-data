@@ -29,8 +29,6 @@ with pale green fire._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ with pale green fire._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 29\
 **Experience points:** 1,600

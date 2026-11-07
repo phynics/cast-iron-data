@@ -32,8 +32,6 @@ and arms display glowing runes._
 
 **Challenge rating:** 3
 
-**dv:** 120
-
 **Initiative:** +2
 
 **Size:** medium
@@ -44,7 +42,7 @@ and arms display glowing runes._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 113\
 **Subtype:** Extraplanar

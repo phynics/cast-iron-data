@@ -36,8 +36,6 @@ humanoid._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -45,6 +43,8 @@ humanoid._
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 153\
 **Subtype:** Aquatic

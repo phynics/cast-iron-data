@@ -32,8 +32,6 @@ tusked jaw juts forth in a long underbite._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -42,7 +40,7 @@ tusked jaw juts forth in a long underbite._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 271\
 **Subtype:** Cold, Giant

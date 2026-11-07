@@ -29,15 +29,13 @@ Its semi-translucent skin shows discolored bones and muscles._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Size:** small
 

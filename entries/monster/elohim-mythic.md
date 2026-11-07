@@ -36,8 +36,6 @@ single winged entity._
 
 **blindsight:** 60
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +16/-4, [dual initiative](ref/umr/dual-initiative)
@@ -48,7 +46,7 @@ single winged entity._
 
 **Perception:** +34
 
-**Senses:** Deathwatch, Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Deathwatch, Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 86\
 **Subtype:** Extraplanar, Mythic

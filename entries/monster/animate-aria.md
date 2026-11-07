@@ -35,8 +35,6 @@ ground. Stirring crescendos and moving fanfares can be heard throughout its melo
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -45,7 +43,7 @@ ground. Stirring crescendos and moving fanfares can be heard throughout its melo
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Cheliax, the Infernal Empire pg 56\
 **Experience points:** 6,400

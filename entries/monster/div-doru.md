@@ -29,8 +29,6 @@ _This disembodied and bestial head covered in lashing hair and curling horns fli
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral evil
@@ -39,7 +37,7 @@ _This disembodied and bestial head covered in lashing hair and curling horns fli
 
 **Perception:** +7
 
-**Senses:** Detect good, Detect magic, See in darkness
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
 **Sources:** Bestiary 3 pg 86, Pathfinder \#19: Howl of the Carrion King pg 80\
 **Subtype:** Div, Evil, Extraplanar

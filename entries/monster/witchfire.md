@@ -34,13 +34,13 @@ off the ground._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 284, Pathfinder \#5: Sins of the Saviors pg 84\
 **Subtype:** Incorporeal

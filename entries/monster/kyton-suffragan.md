@@ -31,8 +31,6 @@ Elongated saw blades loll out of its distended mouth._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -42,6 +40,8 @@ Elongated saw blades loll out of its distended mouth._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Nidal, Land of Shadows pg 58\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

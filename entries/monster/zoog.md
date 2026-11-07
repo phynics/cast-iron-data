@@ -33,15 +33,13 @@ tendrils extending from a mole-like nose._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
 
 **Perception:** +5
 
-**Senses:** Detect magic, Low-light vision, Scent, Spell sight
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision, Scent, Spell sight
 
 **Sources:** Bestiary 3 pg 288\
 **Size:** tiny

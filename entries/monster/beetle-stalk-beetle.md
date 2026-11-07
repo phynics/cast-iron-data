@@ -29,8 +29,6 @@ _This ravenous beetle is the size of a pony, and sports a pair of deadly, serrat
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -38,6 +36,8 @@ _This ravenous beetle is the size of a pony, and sports a pair of deadly, serrat
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Bestiary pg 5\
 **Type:** vermin

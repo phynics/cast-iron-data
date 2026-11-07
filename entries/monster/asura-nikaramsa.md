@@ -33,8 +33,6 @@ _This muscular giant has two ferocious lion heads, each with a long, black, lash
 
 **aura:** elusive (75 ft.)
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -45,7 +43,7 @@ _This muscular giant has two ferocious lion heads, each with a long, black, lash
 
 **Perception:** +30
 
-**Senses:** Detect chaos, Detect evil, Detect good, Detect law, See invisibility
+**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, See invisibility
 
 **Sources:** Book of the Damned pg 242\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

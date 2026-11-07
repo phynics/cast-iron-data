@@ -35,8 +35,6 @@ mechanical tentacles churn and writhe below its bulk._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -45,7 +43,7 @@ mechanical tentacles churn and writhe below its bulk._
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 88\
 **Subtype:** Robot

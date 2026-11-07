@@ -37,15 +37,13 @@ with ruinous power._
 
 **Size:** colossal
 
-**dv:** 120
-
 **Initiative:** +4
 
 **Type:** outsider
 
 **Perception:** +31
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., True seeing
 
 **Sources:** Bestiary 2 pg 267\
 **Subtype:** Chaotic, Evil, Extraplanar

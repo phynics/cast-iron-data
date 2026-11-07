@@ -35,8 +35,6 @@ a crown of horns._
 
 **blindsense:** 60
 
-**dv:** 120
-
 **Initiative:** +6
 
 **Size:** large
@@ -47,7 +45,7 @@ a crown of horns._
 
 **Perception:** +48
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 18\
 **Subtype:** Agathion, Extraplanar, Good

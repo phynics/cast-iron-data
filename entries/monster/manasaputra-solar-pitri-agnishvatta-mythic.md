@@ -36,8 +36,6 @@ _This massive, red-skinned creature surges with roiling waves of brilliant fire.
 
 **aura:** cosmic fire (60 ft., DC 35)
 
-**dv:** 60
-
 **Initiative:** +19/-1
 
 **Size:** large
@@ -48,7 +46,7 @@ _This massive, red-skinned creature surges with roiling waves of brilliant fire.
 
 **Perception:** +35
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 5 pg 166\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra, Mythic

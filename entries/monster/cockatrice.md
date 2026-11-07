@@ -29,8 +29,6 @@ scaly tail._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
@@ -39,7 +37,7 @@ scaly tail._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

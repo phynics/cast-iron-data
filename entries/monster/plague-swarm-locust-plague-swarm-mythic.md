@@ -38,8 +38,6 @@ deities._
 
 **Mythic rank:** 8
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +16/-4, [dual initiative](ref/umr/dual-initiative)
@@ -50,7 +48,7 @@ deities._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 192\
 **Subtype:** Mythic, Swarm

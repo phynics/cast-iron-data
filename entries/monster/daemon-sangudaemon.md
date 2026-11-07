@@ -34,8 +34,6 @@ dripping crimson streamers._
 
 **aura:** bleeding aura (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -46,7 +44,7 @@ dripping crimson streamers._
 
 **Perception:** +18
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 6 pg 75, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 54\
 **Subtype:** Daemon, Evil, Extraplanar

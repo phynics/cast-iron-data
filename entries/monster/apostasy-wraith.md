@@ -31,15 +31,13 @@ _A broken mask gives this smoky, ghostly figure a bitter, unwavering gaze._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +11
 
-**Senses:** Sense apostate
+**Senses:** Darkvision 60 ft., Sense apostate
 
 **Sources:** Inner Sea Bestiary pg 4\
 **Subtype:** Incorporeal

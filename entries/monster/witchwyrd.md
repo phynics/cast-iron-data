@@ -30,8 +30,6 @@ three-fingered hand._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful neutral
@@ -42,7 +40,7 @@ three-fingered hand._
 
 **Perception:** +8
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Bestiary 2 pg 285, Pathfinder \#14: Children of the Void pg 88\
 **Experience points:** 2,400

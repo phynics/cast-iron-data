@@ -36,8 +36,6 @@ mouth full of needle-sharp teeth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -45,6 +43,8 @@ mouth full of needle-sharp teeth._
 **Type:** outsider
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#49: The Brinewall Legacy pg 84\
 **Subtype:** Air, Chaotic, Demon, Evil, Extraplanar

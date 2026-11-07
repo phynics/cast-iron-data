@@ -36,8 +36,6 @@ like the sun._
 
 **aura:** blazing mane (60 ft., DC 20)
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +12, Mythic Improved Initiative
@@ -48,7 +46,7 @@ like the sun._
 
 **Perception:** +21
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 120 ft., Low-light vision, Scent
 
 **Sources:** Taldor, the First Empire pg 59\
 **Subtype:** Mythic

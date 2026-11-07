@@ -30,8 +30,6 @@ ends in long, sharp spikes._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -42,7 +40,7 @@ ends in long, sharp spikes._
 
 **Perception:** +9
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 199\
 **Experience points:** 1,600

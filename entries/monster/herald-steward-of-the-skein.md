@@ -36,8 +36,6 @@ glowing eyes._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -50,9 +48,7 @@ glowing eyes._
 
 **Perception:** +27
 
-**Senses:** Spiritsense
-
-**Senses:** Detect chaos/evil/good/law
+**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law, Spiritsense
 
 **Sources:** Inner Sea Gods pg 302, Pathfinder \#44: Trial of the Beast pg 90\
 **Subtype:** Extraplanar, Psychopomp, Shapechanger

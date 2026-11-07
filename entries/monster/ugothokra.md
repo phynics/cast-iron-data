@@ -36,11 +36,11 @@ crystalline eye glares from its hideous face._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

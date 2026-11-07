@@ -31,8 +31,6 @@ man._
 
 **aura:** magic circle against evil (20 ft.)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -43,7 +41,7 @@ man._
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 175, Bonus Bestiary pg 13\
 **Experience points:** 4,800

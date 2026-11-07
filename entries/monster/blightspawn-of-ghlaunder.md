@@ -37,15 +37,13 @@ stinger._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +13
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Feast of Ravenmoor pg 29\
 **Experience points:** 1,600

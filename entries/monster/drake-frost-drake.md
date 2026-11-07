@@ -36,15 +36,13 @@ from between its powerful jaws._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
 **Perception:** +10
 
-**Senses:** Low-light vision, Scent, Snow vision
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, Snow vision
 
 **Sources:** Bestiary 2 pg 108\
 **Subtype:** Cold

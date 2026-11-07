@@ -30,8 +30,6 @@ _Buzzing with an ear-shattering drone, this cloud is full of particularly viciou
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +4
@@ -39,6 +37,8 @@ _Buzzing with an ear-shattering drone, this cloud is full of particularly viciou
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#79: The Half-Dead City pg 88\
 **Subtype:** Swarm

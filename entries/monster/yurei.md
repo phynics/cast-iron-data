@@ -30,8 +30,6 @@ jerks._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
@@ -39,6 +37,8 @@ jerks._
 **Alignment:** Neutral evil
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 286\
 **Type:** undead

@@ -31,8 +31,6 @@ merely patterns on its head._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Lifesense:** present
@@ -42,6 +40,8 @@ merely patterns on its head._
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 283\
 **Type:** vermin

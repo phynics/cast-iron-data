@@ -28,13 +28,13 @@ abilities = ["7", "15", "12", "-", "10", "2"]
 
 **Challenge rating:** 1/4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ultimate Magic pg 119\
 **Subtype:** Aquatic

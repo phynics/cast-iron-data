@@ -34,8 +34,6 @@ dart from the creature's mouth._
 
 **aura:** unholy aura
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -46,7 +44,7 @@ dart from the creature's mouth._
 
 **Perception:** +33
 
-**Senses:** Scent, True seeing
+**Senses:** Darkvision 60 ft., Scent, True seeing
 
 **Sources:** Inner Sea Bestiary pg 62\
 **Subtype:** Daemon, Evil, Extraplanar, Fire

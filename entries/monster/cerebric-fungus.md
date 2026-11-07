@@ -32,8 +32,6 @@ mouth bisects the bulb's crown._
 
 **aura:** unsettling appearance (60 ft., DC 14)
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -42,7 +40,7 @@ mouth bisects the bulb's crown._
 
 **Perception:** +12
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

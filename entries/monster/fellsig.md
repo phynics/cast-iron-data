@@ -32,8 +32,6 @@ stone body glow with a fiery inner heat._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -41,6 +39,8 @@ stone body glow with a fiery inner heat._
 **Alignment:** Neutral evil
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Andoran, Birthplace of Freedom pg 55\
 **Subtype:** Fire

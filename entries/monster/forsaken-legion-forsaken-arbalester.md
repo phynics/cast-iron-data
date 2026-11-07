@@ -31,8 +31,6 @@ uniform and carries a massive crossbow._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ uniform and carries a massive crossbow._
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 86\
 **Type:** undead

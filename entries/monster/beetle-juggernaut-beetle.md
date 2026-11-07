@@ -28,8 +28,6 @@ _This massive insect lumbers ominously, waving scythe-like mandibles that reek o
 
 **Challenge rating:** 14
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** -1
@@ -40,7 +38,7 @@ _This massive insect lumbers ominously, waving scythe-like mandibles that reek o
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Monster Codex pg 52\
 **Experience points:** 38,400

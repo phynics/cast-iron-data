@@ -32,8 +32,6 @@ silently through the air._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -44,7 +42,7 @@ silently through the air._
 
 **Perception:** +14
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 254\
 **Subtype:** Evil, Extraplanar

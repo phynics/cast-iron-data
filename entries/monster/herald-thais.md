@@ -36,8 +36,6 @@ halberd._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** large
@@ -48,7 +46,7 @@ halberd._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 282, Pathfinder \#14: Children of the Void pg 86\
 **Subtype:** Chaotic, Extraplanar, Good, Shapechanger

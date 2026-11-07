@@ -28,8 +28,6 @@ _Long spines jut from the legs and back of this enormous cricket._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -37,6 +35,8 @@ _Long spines jut from the legs and back of this enormous cricket._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#116: Fangs of War pg 84\
 **Type:** vermin

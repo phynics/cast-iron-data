@@ -34,15 +34,13 @@ hypnotically._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 197\
 **Experience points:** 2,400

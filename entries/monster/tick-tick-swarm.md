@@ -31,8 +31,6 @@ skitters forward._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +2
@@ -41,7 +39,7 @@ skitters forward._
 
 **Perception:** +0
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 2 pg 265\
 **Subtype:** Swarm

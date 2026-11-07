@@ -32,8 +32,6 @@ _This bizarre amalgam of monstrous parts rampages forth, an eldritch rune seared
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -41,6 +39,8 @@ _This bizarre amalgam of monstrous parts rampages forth, an eldritch rune seared
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 110\
 **Subtype:** Extraplanar

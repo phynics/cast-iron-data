@@ -34,8 +34,6 @@ protrude from its back._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -46,7 +44,7 @@ protrude from its back._
 
 **Perception:** +17
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 99\
 **Subtype:** Aether

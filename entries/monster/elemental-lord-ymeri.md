@@ -32,8 +32,6 @@ powerful reptile._
 
 **Challenge rating:** 28
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Size:** large
@@ -44,9 +42,7 @@ powerful reptile._
 
 **Perception:** +50
 
-**Senses:** Flamesense
-
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Flamesense, True seeing
 
 **Sources:** Planes of Power pg 54\
 **Subtype:** Evil, Extraplanar, Fire

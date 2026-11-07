@@ -32,8 +32,6 @@ fish and large, fin-like wings._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
@@ -42,7 +40,7 @@ fish and large, fin-like wings._
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 66, Pathfinder \#58: Island of Empty Eyes pg 82\
 **Subtype:** Aquatic

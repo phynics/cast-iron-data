@@ -32,8 +32,6 @@ abilities = ["8", "18", "13", "16", "12", "6"]
 
 **Goblin [alchemist](ref/class/alchemist) ([winged marauder](ref/arc-alchemist/winged-marauder)) 4**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -41,6 +39,8 @@ abilities = ["8", "18", "13", "16", "12", "6"]
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

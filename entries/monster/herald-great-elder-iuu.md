@@ -35,8 +35,6 @@ glinting metallic ore._
 
 **aura:** courage (20 ft.)
 
-**dv:** 120
-
 **Initiative:** +3
 
 **Size:** large
@@ -49,7 +47,7 @@ glinting metallic ore._
 
 **Perception:** +21
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder \#93: Forge of the Giant God pg 86\
 **Subtype:** Evil, Giant, Lawful

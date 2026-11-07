@@ -32,15 +32,13 @@ yellow eyes and stands calmly, as though fearless._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
 
 **Perception:** +5
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 82\
 **Size:** tiny

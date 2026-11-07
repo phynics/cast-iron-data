@@ -31,8 +31,6 @@ wings sprouts from its hunched back._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -40,6 +38,8 @@ wings sprouts from its hunched back._
 **Alignment:** Neutral evil
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#101: The Kintargo Contract pg 88\
 **Type:** undead

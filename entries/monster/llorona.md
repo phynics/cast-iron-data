@@ -31,8 +31,6 @@ overwhelming despair about her._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
@@ -40,6 +38,8 @@ overwhelming despair about her._
 **Alignment:** Neutral evil
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 181\
 **Subtype:** Incorporeal

@@ -33,8 +33,6 @@ gemstones._
 
 **aura:** emotion aura (DC 12, 30 ft.)
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
@@ -42,6 +40,8 @@ gemstones._
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

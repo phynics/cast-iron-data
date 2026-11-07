@@ -31,8 +31,6 @@ together._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ together._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

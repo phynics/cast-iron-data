@@ -33,8 +33,6 @@ head should be._
 
 **aura:** palelight (20 ft., DC 16)
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -42,6 +40,8 @@ head should be._
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Down the Blighted Path pg 53\
 **Type:** undead

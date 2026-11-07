@@ -32,8 +32,6 @@ that glow with blue light._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -42,7 +40,7 @@ that glow with blue light._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea World Guide pg 306, Dark Markets - A Guide to Katapesh pg 58\
 **Experience points:** 9,600

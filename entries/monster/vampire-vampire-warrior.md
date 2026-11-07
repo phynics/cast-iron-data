@@ -34,8 +34,6 @@ abilities = ["20", "20", "-", "10", "15", "18"]
 
 **blindsight:** 60 ft. (breathing creatures only)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ abilities = ["20", "20", "-", "10", "15", "18"]
 
 **Perception:** +21
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 240\
 **Subtype:** Augmented humanoid, Vishkanya

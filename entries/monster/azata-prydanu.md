@@ -36,8 +36,6 @@ its skin._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -46,7 +44,7 @@ its skin._
 
 **Perception:** +28
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Pathfinder \#126: Beyond the Veiled Past pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

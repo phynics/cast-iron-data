@@ -34,8 +34,6 @@ middle of its head._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,7 +42,7 @@ middle of its head._
 
 **Perception:** +19
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#87: The Choking Tower pg 86\
 **Subtype:** Robot

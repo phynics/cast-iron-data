@@ -31,8 +31,6 @@ _The mandibles of this enormous grasshopper churn and grind as it quests for foo
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -40,6 +38,8 @@ _The mandibles of this enormous grasshopper churn and grind as it quests for foo
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 183\
 **Type:** vermin

@@ -35,13 +35,11 @@ greasy-scaled snake._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Perception:** +5
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Size:** small
 

@@ -36,15 +36,13 @@ and human skulls._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 415, Pathfinder \#3: The Hook Mountain
 Massacre pg 84\

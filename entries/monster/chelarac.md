@@ -32,8 +32,6 @@ holding squirming young cover the creature's abdomen._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -41,6 +39,8 @@ holding squirming young cover the creature's abdomen._
 **Alignment:** Neutral evil
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#144: Midwives to Death pg 80\
 **Experience points:** 4,800

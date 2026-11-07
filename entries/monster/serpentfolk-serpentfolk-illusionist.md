@@ -29,8 +29,6 @@ abilities = ["10", "22", "21", "22", "13", "18"]
 
 **Advanced serpentfolk illusionist 4**
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -41,7 +39,7 @@ abilities = ["10", "22", "21", "22", "13", "18"]
 
 **Perception:** +13
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Monster Codex pg 204\
 **Experience points:** 4,800

@@ -36,8 +36,6 @@ jackal-legged albino demon._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
@@ -46,7 +44,7 @@ jackal-legged albino demon._
 
 **Perception:** +36
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Inner Sea Bestiary pg 34\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

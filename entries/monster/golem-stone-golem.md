@@ -32,8 +32,6 @@ ponderous but inexorable steps._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -42,7 +40,7 @@ ponderous but inexorable steps._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 163\
 **Experience points:** 12,800

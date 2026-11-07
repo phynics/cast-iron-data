@@ -29,8 +29,6 @@ to mist._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -41,7 +39,7 @@ to mist._
 
 **Perception:** +16
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 248\
 **Experience points:** 12,800

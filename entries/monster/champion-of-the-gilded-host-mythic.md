@@ -39,15 +39,13 @@ _This towering humanoid creature is made almost entirely of gold and radiates a 
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Lost Treasures pg 23\
 **Subtype:** Colossus, Mythic

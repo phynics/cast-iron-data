@@ -34,8 +34,6 @@ snarl._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful neutral
@@ -44,7 +42,7 @@ snarl._
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 281\
 **Experience points:** 200

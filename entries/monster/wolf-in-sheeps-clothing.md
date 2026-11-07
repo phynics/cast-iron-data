@@ -33,8 +33,6 @@ a maw of sharp teeth._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -43,7 +41,7 @@ a maw of sharp teeth._
 
 **Perception:** +14
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 285, Misfit Monsters Redeemed pg 63\
 **Experience points:** 4,800

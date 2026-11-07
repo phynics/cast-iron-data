@@ -31,8 +31,6 @@ scythe-like claw._
 
 **aura:** desecrate (20-ft. radius)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -40,6 +38,8 @@ scythe-like claw._
 **Alignment:** Neutral evil
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea World Guide pg 309, Pathfinder \#8: Seven Days to the Grave pg 82\
 **Type:** undead

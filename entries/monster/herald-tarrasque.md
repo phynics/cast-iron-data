@@ -39,15 +39,13 @@ thrashing spiked tail._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Type:** Magical beast
 
 **Perception:** +43
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 304, Pathfinder RPG Bestiary pg 262\
 **Subtype:** Spawn of Rovagug

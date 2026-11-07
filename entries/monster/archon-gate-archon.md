@@ -32,8 +32,6 @@ _This masked humanoid being has wings and armor of rune-carved gray stone, and i
 
 **aura:** aura of menace (30 ft., DC 23, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful good
@@ -44,7 +42,7 @@ _This masked humanoid being has wings and armor of rune-carved gray stone, and i
 
 **Perception:** +26
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 5 pg 35\
 **Subtype:** Archon, Extraplanar, Good, Lawful

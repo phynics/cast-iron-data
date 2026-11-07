@@ -33,8 +33,6 @@ bulk._
 
 **Mythic rank:** 3
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1/-19, [dual initiative](ref/umr/dual-initiative)
@@ -45,7 +43,7 @@ bulk._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 204\
 **Subtype:** Mythic

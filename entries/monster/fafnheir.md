@@ -36,13 +36,11 @@ nightmarish power, and its mouth drips with liquid flame._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +14
 
 **Perception:** +46
 
-**Senses:** Low-light vision, Scent, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Lands of the Linnorm Kings pg 56\
 **Experience points:** 1,228,800

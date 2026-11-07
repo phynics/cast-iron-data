@@ -34,8 +34,6 @@ crackle with electricity._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +0
@@ -44,7 +42,7 @@ crackle with electricity._
 
 **Perception:** +24
 
-**Senses:** Low-light vision, Targeting array
+**Senses:** Darkvision 60 ft., Low-light vision, Targeting array
 
 **Sources:** Pathfinder \#89: Palace of Fallen Stars pg 88\
 **Subtype:** Robot

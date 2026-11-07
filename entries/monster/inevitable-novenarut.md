@@ -31,8 +31,6 @@ gemstone eyes._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Lawful neutral
@@ -43,7 +41,7 @@ gemstone eyes._
 
 **Perception:** +18
 
-**Senses:** Deathwatch, Detect chaos, Low-light vision
+**Senses:** Darkvision 60 ft., Deathwatch, Detect chaos, Low-light vision
 
 **Sources:** Planar Adventures pg 236\
 **Subtype:** Extraplanar, Inevitable, Lawful

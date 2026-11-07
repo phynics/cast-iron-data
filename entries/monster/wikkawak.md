@@ -33,8 +33,6 @@ _This thick-bodied, white-furred bugbear wears bearskins and carries an axe made
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -43,7 +41,7 @@ _This thick-bodied, white-furred bugbear wears bearskins and carries an axe made
 
 **Perception:** +11
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 4 pg 278\
 **Subtype:** Goblinoid

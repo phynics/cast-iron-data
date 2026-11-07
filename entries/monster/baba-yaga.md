@@ -33,8 +33,6 @@ abilities = ["17", "20", "26", "46", "24", "32"]
 
 **Female venerable advanced human [witch](ref/class/witch) 20/archmage 10**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +19
@@ -45,7 +43,7 @@ abilities = ["17", "20", "26", "46", "24", "32"]
 
 **Perception:** +27
 
-**Senses:** Arcane sight, See invisibility
+**Senses:** Arcane sight, Darkvision 60 ft., See invisibility
 
 **Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 74\
 **Subtype:** Human, Mythic

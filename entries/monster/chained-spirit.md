@@ -32,8 +32,6 @@ in lengths of writhing chains._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -42,7 +40,7 @@ in lengths of writhing chains._
 
 **Perception:** +30
 
-**Senses:** Spectral sight, Spiritsense
+**Senses:** Darkvision 60 ft., Spectral sight, Spiritsense
 
 **Sources:** Curse of the Crimson Throne pg 468, Pathfinder \#11: Skeletons of Scarwall pg 78\
 **Subtype:** Incorporeal

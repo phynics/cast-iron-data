@@ -36,13 +36,13 @@ _Hundreds of legs support this hulking, bruise-colored worm._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +10
 
 **Perception:** +20
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Occult Bestiary pg 52\
 **tremorsense:** 30

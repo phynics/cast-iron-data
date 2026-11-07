@@ -32,15 +32,13 @@ woolly underside._
 
 **Type:** animal
 
-**dv:** 30
-
 **Initiative:** +0
 
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 30 ft., Low-light vision, Scent
 
 **Size:** small
 

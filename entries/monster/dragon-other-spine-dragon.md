@@ -38,15 +38,13 @@ almost to be made of glass._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +2
 
 **Perception:** +25
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Inner Sea World Guide pg 312\
 **Subtype:** Earth

@@ -32,8 +32,6 @@ tangles within its matted, reeking fur._
 
 **aura:** [stench](ref/umr/stench) (DC 15, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -44,7 +42,7 @@ tangles within its matted, reeking fur._
 
 **Perception:** +17
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 127\
 **Experience points:** 9,600

@@ -32,8 +32,6 @@ abilities = ["14", "18", "13", "10", "12", "6"]
 
 **Goblin [ranger](ref/class/ranger) 6**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -41,6 +39,8 @@ abilities = ["14", "18", "13", "10", "12", "6"]
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

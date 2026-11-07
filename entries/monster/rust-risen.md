@@ -31,13 +31,13 @@ _Miscellaneous bits of rusted machinery are fused to the body of this shambling 
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#86: Lords of Rust pg 90\
 **Type:** undead

@@ -33,8 +33,6 @@ this figure's glass skull._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -43,7 +41,7 @@ this figure's glass skull._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 135\
 **Experience points:** 6,400

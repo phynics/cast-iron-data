@@ -33,8 +33,6 @@ sizzling acid._
 
 **Mythic rank:** 3
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -2
@@ -45,7 +43,7 @@ sizzling acid._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 198\
 **Subtype:** Mythic

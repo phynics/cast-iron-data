@@ -34,8 +34,6 @@ arms that end in claws._
 
 **aura:** thin air (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -45,6 +43,8 @@ arms that end in claws._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 76, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 56\
 **Subtype:** Daemon, Evil, Extraplanar

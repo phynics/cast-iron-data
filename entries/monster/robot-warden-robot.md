@@ -38,8 +38,6 @@ legs._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -48,7 +46,7 @@ legs._
 
 **Perception:** +20
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#87: The Choking Tower pg 88\
 **Subtype:** Robot

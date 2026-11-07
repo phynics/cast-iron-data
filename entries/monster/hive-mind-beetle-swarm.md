@@ -33,8 +33,6 @@ leaping from insect to insect. The patterns on their wings resemble humanoid eye
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful neutral
@@ -43,7 +41,7 @@ leaping from insect to insect. The patterns on their wings resemble humanoid eye
 
 **Perception:** +28
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 29\
 **Subtype:** Swarm

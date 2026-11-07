@@ -34,8 +34,6 @@ eyebrows, and pearlescent teeth._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -43,6 +41,8 @@ eyebrows, and pearlescent teeth._
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 142\
 **Subtype:** Extraplanar, Water

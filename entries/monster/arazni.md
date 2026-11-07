@@ -39,8 +39,6 @@ middle of her chest._
 
 **aura:** fear (60 ft., DC 30)
 
-**dv:** 60
-
 **Initiative:** +18
 
 **Size:** medium
@@ -48,6 +46,8 @@ middle of her chest._
 **Alignment:** Neutral evil
 
 **Perception:** +40
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Realms pg 50\
 **Subtype:** Human

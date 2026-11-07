@@ -31,8 +31,6 @@ mouth that drips viscous fluid._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -43,7 +41,7 @@ mouth that drips viscous fluid._
 
 **Perception:** +15
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 261, Pathfinder \#70: The Frozen Stars pg 88\
 **tremorsense:** 30

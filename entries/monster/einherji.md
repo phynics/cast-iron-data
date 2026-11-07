@@ -34,8 +34,6 @@ _Holding a massive battleaxe and shield, this tall, helmed warrior is grim and f
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -44,7 +42,7 @@ _Holding a massive battleaxe and shield, this tall, helmed warrior is grim and f
 
 **Perception:** +18
 
-**Senses:** Deathwatch
+**Senses:** Darkvision 60 ft., Deathwatch
 
 **Sources:** Bestiary 4 pg 84\
 **Subtype:** Extraplanar

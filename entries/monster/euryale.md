@@ -36,8 +36,6 @@ cobras for hair._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +15
 
 **Size:** medium
@@ -46,7 +44,7 @@ cobras for hair._
 
 **Perception:** +38
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., True seeing
 
 **Sources:** Bestiary 6 pg 120\
 **Experience points:** 307,200

@@ -36,15 +36,13 @@ places on its winged arms._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
 **Perception:** +14
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 106\
 **Subtype:** Earth

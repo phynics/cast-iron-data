@@ -33,8 +33,6 @@ staring eyes and hideous fangs._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -45,7 +43,7 @@ staring eyes and hideous fangs._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#124: City in the Deep pg 90\
 **Subtype:** Aquatic, Native, Oni, Shapechanger

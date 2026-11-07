@@ -35,8 +35,6 @@ creature had been melted and then reformed._
 
 **aura:** risk (30 ft., DC 16)
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful evil
@@ -47,7 +45,7 @@ creature had been melted and then reformed._
 
 **Perception:** +10
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 84\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

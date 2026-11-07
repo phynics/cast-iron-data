@@ -36,8 +36,6 @@ man and the head of a bull._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -45,6 +43,8 @@ man and the head of a bull._
 **Type:** Monstrous humanoid
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 210\
 **Subtype:** Mythic

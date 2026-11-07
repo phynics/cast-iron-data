@@ -33,8 +33,6 @@ magnificent mask of painted wood and feathers. Bruises and sores cover her skin.
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +7
@@ -44,6 +42,8 @@ magnificent mask of painted wood and feathers. Bruises and sores cover her skin.
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 86\
 **Subtype:** Human, Mortic

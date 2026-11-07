@@ -35,15 +35,13 @@ decomposing human in a most hideous manner._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +11
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder \#110: The Thrushmoor Terror pg 82\
 **Experience points:** 1,200

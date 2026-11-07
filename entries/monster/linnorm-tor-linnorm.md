@@ -37,13 +37,11 @@ serpentine body._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +14
 
 **Perception:** +34
 
-**Senses:** Low-light vision, Scent, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 3 pg 185\
 **Experience points:** 409,600

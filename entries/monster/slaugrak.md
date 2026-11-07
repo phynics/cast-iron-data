@@ -36,8 +36,6 @@ reminiscent of sickle blades._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +1
 
 **Size:** large
@@ -46,7 +44,7 @@ reminiscent of sickle blades._
 
 **Perception:** +1
 
-**Senses:** See in darkness
+**Senses:** Darkvision 120 ft., See in darkness
 
 **Sources:** Monster Codex pg 220\
 **Subtype:** Chaotic, Evil, Extraplanar, Native

@@ -30,8 +30,6 @@ serpentine body._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful good
@@ -42,7 +40,7 @@ serpentine body._
 
 **Perception:** +16
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 259, Osirion, Legacy of the Pharaohs pg 63\
 **Experience points:** 1,600

@@ -32,8 +32,6 @@ propels itself forward with balance and grace._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** Magical beast
@@ -42,7 +40,7 @@ propels itself forward with balance and grace._
 
 **Perception:** +12
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Down the Blighted Path pg 59\
 **tremorsense:** 60

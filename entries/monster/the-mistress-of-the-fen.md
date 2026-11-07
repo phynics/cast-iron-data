@@ -33,8 +33,6 @@ primordial nature, and the abundant plant growth covering its body suggests both
 
 **Female unique water orm**
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +4
@@ -45,7 +43,7 @@ primordial nature, and the abundant plant growth covering its body suggests both
 
 **Perception:** +13
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 56\
 **Subtype:** Aquatic

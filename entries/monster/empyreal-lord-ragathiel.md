@@ -36,8 +36,6 @@ golden armor._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +13
@@ -48,7 +46,7 @@ golden armor._
 
 **Perception:** +40
 
-**Senses:** Detect evil, Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, True seeing
 
 **Sources:** Bestiary 6 pg 114\
 **Subtype:** Angel, Extraplanar, Good, Lawful

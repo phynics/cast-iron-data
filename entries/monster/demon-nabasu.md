@@ -33,8 +33,6 @@ scaly hide._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -42,6 +40,8 @@ scaly hide._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 64\
 **Subtype:** Chaotic, Demon, Evil, Native

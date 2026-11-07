@@ -37,15 +37,13 @@ its twin tentacle tails._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +9
 
 **Size:** large
 
 **Perception:** +15
 
-**Senses:** Detect thoughts
+**Senses:** Darkvision 120 ft., Detect thoughts
 
 **Sources:** Bestiary 2 pg 243, Into the Darklands pg 58\
 **tremorsense:** 30

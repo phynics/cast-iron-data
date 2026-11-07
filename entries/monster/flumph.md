@@ -32,13 +32,13 @@ either side of its puckered mouth._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful good
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

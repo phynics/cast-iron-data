@@ -32,8 +32,6 @@ to create strange runic shapes._
 
 **Aphorite [fighter](ref/class/fighter) 1**
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Alignment:** Lawful neutral
@@ -43,6 +41,8 @@ to create strange runic shapes._
 **Type:** outsider
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 224\
 **Subtype:** Native

@@ -32,8 +32,6 @@ entirely of swarming locusts._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -44,7 +42,7 @@ entirely of swarming locusts._
 
 **Perception:** +23
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
 
 **Sources:** Feast of Dust pg 61\
 **Subtype:** Daemon, Evil, Extraplanar

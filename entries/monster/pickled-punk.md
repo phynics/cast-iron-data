@@ -30,13 +30,13 @@ _Barely contained in thick glass, this deformed humanoid creature wriggles in it
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 214\
 **Size:** tiny

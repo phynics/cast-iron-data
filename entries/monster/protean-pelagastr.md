@@ -36,8 +36,6 @@ ever-changing patterns._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -46,7 +44,7 @@ ever-changing patterns._
 
 **Perception:** +16
 
-**Senses:** Detect law
+**Senses:** Darkvision 60 ft., Detect law
 
 **Sources:** Bestiary 6 pg 214, Pathfinder \#99: Dance of the Damned pg 88\
 **Subtype:** Chaotic, Extraplanar, Incorporeal, Protean, Shapechanger

@@ -33,8 +33,6 @@ wield several exotic weapons._
 
 **aura:** elusive (50 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful evil
@@ -45,7 +43,7 @@ wield several exotic weapons._
 
 **Perception:** +23
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 26\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

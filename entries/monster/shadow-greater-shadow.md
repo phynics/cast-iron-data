@@ -32,13 +32,13 @@ _This shadowy figure sways and moves with an erratic grace, as if lit by an unse
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 245\
 **Subtype:** Incorporeal

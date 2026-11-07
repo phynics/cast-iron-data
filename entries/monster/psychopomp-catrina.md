@@ -34,8 +34,6 @@ beautiful, despite having no flesh._
 
 **aura:** calm emotions (30 ft., DC 17)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -46,7 +44,7 @@ beautiful, despite having no flesh._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Spiritsense
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
 **Sources:** Bestiary 4 pg 218\
 **Subtype:** Extraplanar, Psychopomp

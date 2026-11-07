@@ -38,8 +38,6 @@ orange flame._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 16, inverted form only)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -48,7 +46,7 @@ orange flame._
 
 **Perception:** +20
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 82\
 **Subtype:** Aquatic

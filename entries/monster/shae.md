@@ -30,8 +30,6 @@ body._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -42,7 +40,7 @@ body._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 242\
 **Subtype:** Extraplanar

@@ -36,8 +36,6 @@ tentacles surrounding its octopus-like beak._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -46,7 +44,7 @@ tentacles surrounding its octopus-like beak._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 82\
 **Subtype:** Clockwork

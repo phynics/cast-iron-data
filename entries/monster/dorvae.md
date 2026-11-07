@@ -31,8 +31,6 @@ nightmare._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -43,7 +41,7 @@ nightmare._
 
 **Perception:** +24
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Bestiary 4 pg 62\
 **Subtype:** Evil

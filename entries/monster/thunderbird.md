@@ -32,8 +32,6 @@ that dances over its body._
 
 **aura:** storm aura (100 ft.)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +7
@@ -44,7 +42,7 @@ that dances over its body._
 
 **Perception:** +20
 
-**Senses:** Low-light vision, Stormsight
+**Senses:** Darkvision 60 ft., Low-light vision, Stormsight
 
 **Sources:** Bestiary 2 pg 264\
 **Experience points:** 12,800

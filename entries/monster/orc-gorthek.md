@@ -31,8 +31,6 @@ leonine face._
 
 **Type:** animal
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -41,7 +39,7 @@ leonine face._
 
 **Perception:** +12
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 172\
 **Experience points:** 3,200

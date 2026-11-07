@@ -37,15 +37,13 @@ wielding a different weapon._
 
 **Size:** colossal
 
-**dv:** 120
-
 **Initiative:** +6
 
 **Type:** outsider
 
 **Perception:** +35
 
-**Senses:** All-around vision, True seeing
+**Senses:** All-around vision, Darkvision 120 ft., True seeing
 
 **Sources:** Bestiary 3 pg 268\
 **Subtype:** Chaotic, Evil, Extraplanar

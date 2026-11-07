@@ -33,8 +33,6 @@ small but infinite pits of malice._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
@@ -45,7 +43,7 @@ small but infinite pits of malice._
 
 **Perception:** +18
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 86\
 **Experience points:** 19,200

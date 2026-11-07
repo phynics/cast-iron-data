@@ -37,15 +37,13 @@ _This two-headed monstrosity has vast wings and a long tail covered in a forest 
 
 **Size:** colossal
 
-**dv:** 600
-
 **Initiative:** +11
 
 **Type:** Magical beast
 
 **Perception:** +38
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 600 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 166\
 **Subtype:** Air, Kaiju

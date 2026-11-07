@@ -34,8 +34,6 @@ objects clinging to its body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -44,7 +42,7 @@ objects clinging to its body._
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 88\
 **Experience points:** 9,600

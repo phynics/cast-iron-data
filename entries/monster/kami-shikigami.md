@@ -31,8 +31,6 @@ _This tiny, crudely carved statue of a robed man has glowing runes running acros
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful neutral
@@ -40,6 +38,8 @@ _This tiny, crudely carved statue of a robed man has glowing runes running acros
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 163\
 **Subtype:** Kami, Native

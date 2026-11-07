@@ -33,8 +33,6 @@ its face should be._
 
 **aura:** fear (30 ft., DC 17)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -45,7 +43,7 @@ its face should be._
 
 **Perception:** +16
 
-**Senses:** Low-light vision, Spiritsense
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
 **Sources:** Bestiary 4 pg 221, Pathfinder \#47: Ashes at Dawn pg 86\
 **Subtype:** Extraplanar, Psychopomp

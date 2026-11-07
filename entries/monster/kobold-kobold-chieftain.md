@@ -33,8 +33,6 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Kobold [fighter](ref/class/fighter) 5/[rogue](ref/class/rogue) 3/assassin 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -42,6 +40,8 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 **Alignment:** Lawful evil
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

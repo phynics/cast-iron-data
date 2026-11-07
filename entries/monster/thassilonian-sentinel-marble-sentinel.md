@@ -33,15 +33,13 @@ intently with its glowing green eyes._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

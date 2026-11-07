@@ -34,8 +34,6 @@ tentacles dangling down in a line._
 
 **blindsense:** 120
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -43,6 +41,8 @@ tentacles dangling down in a line._
 **Alignment:** Neutral
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 31\
 **Experience points:** 4,800

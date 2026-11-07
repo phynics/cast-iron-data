@@ -36,15 +36,13 @@ stinger._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +13
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 5 pg 43\
 **Experience points:** 1,600

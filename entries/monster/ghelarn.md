@@ -33,8 +33,6 @@ surrounding sand._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -42,6 +40,8 @@ surrounding sand._
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#85: Fires of Creation pg 86\
 **tremorsense:** 30

@@ -33,8 +33,6 @@ reptilian humanoid._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +4
@@ -43,7 +41,7 @@ reptilian humanoid._
 
 **Perception:** +36
 
-**Senses:** Detect good, Scent, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Scent, True seeing
 
 **Sources:** Bestiary 2 pg 80, Pathfinder \#5: Sins of the Saviors pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

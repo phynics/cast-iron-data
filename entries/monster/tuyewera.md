@@ -35,13 +35,13 @@ some deranged beast._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 86\
 **Type:** undead

@@ -30,8 +30,6 @@ _A mass of shell-like fungus grows so thick it obscures the mass of plant matter
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -40,7 +38,7 @@ _A mass of shell-like fungus grows so thick it obscures the mass of plant matter
 
 **Perception:** +12
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

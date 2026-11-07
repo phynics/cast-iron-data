@@ -33,8 +33,6 @@ energy._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -44,6 +42,8 @@ energy._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 245\
 **Subtype:** Extraplanar

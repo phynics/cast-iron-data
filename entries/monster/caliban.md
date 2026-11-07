@@ -32,8 +32,6 @@ erupt over its sloping brow._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -42,7 +40,7 @@ erupt over its sloping brow._
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Tears at Bitter Manor pg 57\
 **Experience points:** 600

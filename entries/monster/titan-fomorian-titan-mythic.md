@@ -38,15 +38,13 @@ mace._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Type:** outsider
 
 **Perception:** +26
 
-**Senses:** Divine spell perception
+**Senses:** Darkvision 60 ft., Divine spell perception
 
 **Sources:** Bestiary 4 pg 261\
 **Subtype:** Chaotic, Evil, Extraplanar, Mythic

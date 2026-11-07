@@ -32,8 +32,6 @@ obscure its head._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,7 +42,7 @@ obscure its head._
 
 **Perception:** +9
 
-**Senses:** Low-light vision, Sense poison
+**Senses:** Darkvision 60 ft., Low-light vision, Sense poison
 
 **Sources:** Inner Sea Gods pg 301\
 **Subtype:** Evil, Extraplanar, Shapechanger

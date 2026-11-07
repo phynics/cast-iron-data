@@ -33,15 +33,13 @@ red eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
 
 **Perception:** +4
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 187\
 **Subtype:** Extraplanar

@@ -35,8 +35,6 @@ Slender surgical lancets pierce her body in numerous locations, yet these wounds
 
 **aura:** truth (30 ft., DC 14)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Lawful evil
@@ -46,6 +44,8 @@ Slender surgical lancets pierce her body in numerous locations, yet these wounds
 **Type:** outsider
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#98: Turn of the Torrent pg 84\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

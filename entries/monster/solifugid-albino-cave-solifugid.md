@@ -29,8 +29,6 @@ huge vertical mandibles._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -38,6 +36,8 @@ huge vertical mandibles._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 253\
 **Type:** vermin

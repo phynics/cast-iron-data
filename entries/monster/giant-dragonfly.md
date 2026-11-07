@@ -29,8 +29,6 @@ farm animals or people._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -38,6 +36,8 @@ farm animals or people._
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 105\
 **Type:** vermin

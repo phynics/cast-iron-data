@@ -36,8 +36,6 @@ and a toothy, toad-like head._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +11
@@ -46,7 +44,7 @@ and a toothy, toad-like head._
 
 **Perception:** +43
 
-**Senses:** Detect good, Detect magic, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, True seeing
 
 **Sources:** Book of the Damned pg 244\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar

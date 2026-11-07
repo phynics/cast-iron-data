@@ -32,8 +32,6 @@ parody of the human form._
 
 **aura:** awfulness (60 ft., DC 16)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -41,6 +39,8 @@ parody of the human form._
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 268\
 **Type:** undead

@@ -34,8 +34,6 @@ three tendrils, two of which wield weapons._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -43,6 +41,8 @@ three tendrils, two of which wield weapons._
 **Type:** outsider
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 229\
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth

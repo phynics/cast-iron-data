@@ -32,8 +32,6 @@ but some horrid mix of the two._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -44,9 +42,7 @@ but some horrid mix of the two._
 
 **Perception:** +24
 
-**Senses:** Bloodsense
-
-**Senses:** Detect thoughts
+**Senses:** Bloodsense, Darkvision 60 ft., Detect thoughts
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 414\
 **Subtype:** Evil, Extraplanar, Lawful

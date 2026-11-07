@@ -28,8 +28,6 @@ _A bloated, red belly dangles beneath the furiously beating wings of this massiv
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -38,7 +36,7 @@ _A bloated, red belly dangles beneath the furiously beating wings of this massiv
 
 **Perception:** +9
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 2 pg 1933\
 **Type:** vermin

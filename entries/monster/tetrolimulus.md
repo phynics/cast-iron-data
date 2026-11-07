@@ -33,8 +33,6 @@ rapier-like tail stinger._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -45,7 +43,7 @@ rapier-like tail stinger._
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#58: Island of Empty Eyes pg 88\
 **Subtype:** Aquatic

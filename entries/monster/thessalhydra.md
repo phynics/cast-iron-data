@@ -32,8 +32,6 @@ thrashing tail ends in a crab-like pincer._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +15
@@ -42,7 +40,7 @@ thrashing tail ends in a crab-like pincer._
 
 **Perception:** +31
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 263\
 **Experience points:** 153,600

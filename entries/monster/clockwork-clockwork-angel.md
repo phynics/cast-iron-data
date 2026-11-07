@@ -34,8 +34,6 @@ gaps of its metallic body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** medium
@@ -44,7 +42,7 @@ gaps of its metallic body._
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 58\
 **Subtype:** Clockwork

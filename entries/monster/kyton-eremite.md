@@ -32,8 +32,6 @@ its bleeding shoulders._
 
 **Challenge rating:** 20
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ its bleeding shoulders._
 
 **Perception:** +34
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 3 pg 172\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

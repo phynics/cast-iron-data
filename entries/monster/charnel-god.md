@@ -38,15 +38,13 @@ looking longbow in her hands._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
 
 **Perception:** +36
 
-**Senses:** Divine sense, Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Divine sense, Low-light vision, True seeing
 
 **Sources:** Bestiary 6 pg 54\
 **Experience points:** 819,200

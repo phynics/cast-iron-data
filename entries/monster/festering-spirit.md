@@ -35,13 +35,13 @@ _This ghost-like creature reeks of the grave and drips with putrescent goo._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 98\
 **Subtype:** Incorporeal

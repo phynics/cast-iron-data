@@ -42,11 +42,11 @@ spews smoke and roiling lava._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +15
 
 **Perception:** +45
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#138: Rise of New Thassilon pg 86\
 **Subtype:** Chaotic, Evil, Great Old One

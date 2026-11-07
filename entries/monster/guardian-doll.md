@@ -33,15 +33,13 @@ disturbing curiosity._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 58\
 **Subtype:** Cold

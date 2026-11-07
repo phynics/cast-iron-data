@@ -36,8 +36,6 @@ protrudes from its snarling face._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -46,7 +44,7 @@ protrudes from its snarling face._
 
 **Perception:** +22
 
-**Senses:** Low-light vision, Snow vision
+**Senses:** Darkvision 60 ft., Low-light vision, Snow vision
 
 **Sources:** Pathfinder \#46: Wake of the Watcher pg 84\
 **Subtype:** Cold

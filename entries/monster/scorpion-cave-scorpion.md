@@ -29,8 +29,6 @@ stone._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -38,6 +36,8 @@ stone._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 240\
 **tremorsense:** 60

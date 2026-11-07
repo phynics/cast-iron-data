@@ -33,8 +33,6 @@ various colors._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -43,7 +41,7 @@ various colors._
 
 **Perception:** +26
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 42\
 **Experience points:** 76,800

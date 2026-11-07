@@ -32,8 +32,6 @@ hissing cloud of churning gases._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** medium
@@ -43,6 +41,8 @@ hissing cloud of churning gases._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** The Emerald Spire Superdungeon pg 153\
 **Subtype:** Air, Elemental, Extraplanar

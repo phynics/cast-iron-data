@@ -34,8 +34,6 @@ full of pointed teeth._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -44,7 +42,7 @@ full of pointed teeth._
 
 **Perception:** +9
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 4 pg 236, Pathfinder \#50: Night of Frozen Shadows pg 88\
 **Subtype:** Aquatic, Shapechanger

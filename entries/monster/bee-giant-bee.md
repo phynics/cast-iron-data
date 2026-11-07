@@ -29,8 +29,6 @@ stinger is the size of a dagger blade._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -38,6 +36,8 @@ stinger is the size of a dagger blade._
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 43\
 **Type:** vermin

@@ -34,8 +34,6 @@ into mist entirely at any minute._
 
 **Sylph [rogue](ref/class/rogue) 1**
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -45,6 +43,8 @@ into mist entirely at any minute._
 **Type:** outsider
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 258\
 **Subtype:** Native

@@ -34,8 +34,6 @@ horn on its brow._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -44,7 +42,7 @@ horn on its brow._
 
 **Perception:** +10
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 269\
 **Experience points:** 800

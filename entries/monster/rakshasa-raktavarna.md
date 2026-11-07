@@ -32,8 +32,6 @@ red-eyed serpent._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -42,7 +40,7 @@ red-eyed serpent._
 
 **Perception:** +9
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Bestiary 3 pg 229, Pathfinder \#7: Edge of Anarchy pg 86\
 **Subtype:** Native, Rakshasa, Shapechanger

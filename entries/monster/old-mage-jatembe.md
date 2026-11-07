@@ -36,8 +36,6 @@ decorations._
 
 **Male old human [wizard](ref/class/wizard) 20/archmage 6**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +13
@@ -48,7 +46,7 @@ decorations._
 
 **Perception:** +28
 
-**Senses:** Arcane sight, See invisibility
+**Senses:** Arcane sight, Darkvision 60 ft., See invisibility
 
 **Sources:** Mythic Realms pg 56\
 **Subtype:** Human

@@ -33,8 +33,6 @@ claws, flank its fanged jaws._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -42,6 +40,8 @@ claws, flank its fanged jaws._
 **Alignment:** Lawful evil
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 88\
 **Subtype:** Aquatic

@@ -35,8 +35,6 @@ moves, the air around it thrums with a high-pitched wail._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -45,7 +43,7 @@ moves, the air around it thrums with a high-pitched wail._
 
 **Perception:** +23
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 88\
 **Experience points:** 51,200

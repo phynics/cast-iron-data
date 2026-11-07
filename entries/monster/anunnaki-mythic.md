@@ -34,8 +34,6 @@ back._
 
 **Mythic rank:** 7
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Size:** large
@@ -48,7 +46,7 @@ back._
 
 **Perception:** +31
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 5 pg 28\
 **Subtype:** Mythic, Shapechanger

@@ -37,8 +37,6 @@ and bone and the skull of a larger reptile as a menacing mask._
 
 **aura:** [stench](ref/umr/stench) (30 ft., DC 15, 10 rounds)
 
-**dv:** 90
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -48,6 +46,8 @@ and bone and the skull of a larger reptile as a menacing mask._
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 90 ft.
 
 **Sources:** Darklands Revisited pg 51\
 **Subtype:** Reptilian

@@ -32,8 +32,6 @@ _Monstrous black-feathered wings cloak this leanly muscled, onyx-skinned humanoi
 
 **Strix [warrior](ref/npcclass/warrior) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
@@ -46,7 +44,7 @@ _Monstrous black-feathered wings cloak this leanly muscled, onyx-skinned humanoi
 
 **Perception:** +0 (+2 at night)
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea World Guide pg 313, Pathfinder \#25: The Bastards of Erebus pg 82\
 **Experience points:** 135

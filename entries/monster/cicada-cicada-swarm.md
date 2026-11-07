@@ -32,13 +32,13 @@ _A loud droning buzz accompanies this mass of flying insects._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#116: Fangs of War pg 84\
 **Subtype:** Swarm

@@ -32,8 +32,6 @@ moves in unsettling lurches._
 
 **aura:** fear aura (5 ft., DC 19, 1d6 rounds)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -44,7 +42,7 @@ moves in unsettling lurches._
 
 **Perception:** +19
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 74\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

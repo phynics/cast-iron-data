@@ -38,8 +38,6 @@ tail._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +22
 
 **Size:** large
@@ -48,7 +46,7 @@ tail._
 
 **Perception:** +43
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 136\
 **Subtype:** Aquatic, Chaotic, Extraplanar, Great Old One

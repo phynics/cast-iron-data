@@ -30,15 +30,13 @@ abilities = ["12", "19", "-", "11", "18", "3"]
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Neutral
 
 **Perception:** +30
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#86: Lords of Rust pg 89\
 **Subtype:** Robot, Swarm

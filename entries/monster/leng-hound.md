@@ -36,15 +36,13 @@ humanoid features with canine._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
 
 **Perception:** +21
 
-**Senses:** Scent, Sense fear
+**Senses:** Darkvision 60 ft., Scent, Sense fear
 
 **Sources:** Bestiary 6 pg 180\
 **Subtype:** Extraplanar

@@ -32,8 +32,6 @@ out, ending in an upraised fist._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -42,7 +40,7 @@ out, ending in an upraised fist._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 140\
 **Experience points:** 51,200

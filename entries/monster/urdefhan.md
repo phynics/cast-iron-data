@@ -32,8 +32,6 @@ and ivory bones inside its body._
 
 **Challenge rating:** 3
 
-**dv:** 120
-
 **Initiative:** +1
 
 **Size:** medium
@@ -43,6 +41,8 @@ and ivory bones inside its body._
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 2 pg 276, Into the Darklands pg 60\
 **Subtype:** Native

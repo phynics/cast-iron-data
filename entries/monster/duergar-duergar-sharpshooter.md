@@ -31,8 +31,6 @@ abilities = ["14", "15", "14", "10", "15", "4"]
 
 **Duergar [ranger](ref/class/ranger) 1**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -42,6 +40,8 @@ abilities = ["14", "15", "14", "10", "15", "4"]
 **Size:** medium
 
 **Perception:** +6
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 46\
 **Subtype:** Dwarf

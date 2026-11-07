@@ -35,8 +35,6 @@ than its meaty legs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -45,7 +43,7 @@ than its meaty legs._
 
 **Perception:** +8
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 219\
 **Subtype:** Giant, Mythic

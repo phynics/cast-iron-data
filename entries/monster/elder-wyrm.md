@@ -37,15 +37,13 @@ tail._
 
 **Type:** dragon
 
-**dv:** 300
-
 **Initiative:** +16
 
 **Alignment:** Neutral
 
 **Perception:** +49
 
-**Senses:** Low-light vision, Scent, True seeing
+**Senses:** Darkvision 300 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 6 pg 108\
 **Experience points:** 1,228,800

@@ -31,13 +31,13 @@ holding squirming young cover the creature's abdomen._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -36,8 +36,6 @@ stains its body._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +3
@@ -46,7 +44,7 @@ stains its body._
 
 **Perception:** +33
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Inner Sea Bestiary pg 32\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

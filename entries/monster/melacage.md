@@ -33,8 +33,6 @@ faces' eyes, but the drops fade to nothing before they reach the ground._
 
 **aura:** life-draining aura (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -42,6 +40,8 @@ faces' eyes, but the drops fade to nothing before they reach the ground._
 **Alignment:** Neutral evil
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 88\
 **Subtype:** Incorporeal

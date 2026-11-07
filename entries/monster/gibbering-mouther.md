@@ -32,8 +32,6 @@ yammering ceaselessly._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -42,7 +40,7 @@ yammering ceaselessly._
 
 **Perception:** +12
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 153\
 **Experience points:** 1,600

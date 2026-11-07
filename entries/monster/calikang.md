@@ -29,8 +29,6 @@ jewels._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -41,7 +39,7 @@ jewels._
 
 **Perception:** +20
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Inner Sea World Guide pg 307, Pathfinder \#29: Mother of Flies pg 80\
 **Experience points:** 19,200

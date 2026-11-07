@@ -32,8 +32,6 @@ its simian hands._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -44,7 +42,7 @@ its simian hands._
 
 **Perception:** +14
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 3 pg 75, Lost Cities of Golarion pg 23, Crucible of Chaos pg 28\
 **Experience points:** 1,600

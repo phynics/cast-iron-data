@@ -33,8 +33,6 @@ gems._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -43,9 +41,7 @@ gems._
 
 **Perception:** +18
 
-**Senses:** Snow vision
-
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility, Snow vision
 
 **Sources:** Bestiary 4 pg 279\
 **Subtype:** Cold

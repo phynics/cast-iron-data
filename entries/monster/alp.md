@@ -33,8 +33,6 @@ mouth._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +12
@@ -43,7 +41,7 @@ mouth._
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 7\
 **Experience points:** 9,600

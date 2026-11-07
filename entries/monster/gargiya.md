@@ -31,8 +31,6 @@ Sweltering heat radiates from its rippling scales._
 
 **Challenge rating:** 10
 
-**dv:** 90
-
 **Size:** huge
 
 **Initiative:** +1
@@ -43,7 +41,7 @@ Sweltering heat radiates from its rippling scales._
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 90 ft., Low-light vision
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 84\
 **Subtype:** Aquatic

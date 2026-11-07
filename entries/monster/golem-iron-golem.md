@@ -32,8 +32,6 @@ with bone-jarring force._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -42,7 +40,7 @@ with bone-jarring force._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 162\
 **Experience points:** 25,600

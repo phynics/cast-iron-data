@@ -35,8 +35,6 @@ scrolls and wands. Winding, swirling tattoos climb across his body and face._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -44,6 +42,8 @@ scrolls and wands. Winding, swirling tattoos climb across his body and face._
 **Type:** Monstrous humanoid
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 8\
 **Experience points:** 3,200

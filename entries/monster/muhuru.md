@@ -30,8 +30,6 @@ that shimmers radiantly in the light._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -42,7 +40,7 @@ that shimmers radiantly in the light._
 
 **Perception:** +20
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 196\
 **Experience points:** 9,600

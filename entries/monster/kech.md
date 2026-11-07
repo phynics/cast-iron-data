@@ -30,8 +30,6 @@ creature moves._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -42,7 +40,7 @@ creature moves._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 167\
 **Experience points:** 800

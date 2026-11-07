@@ -33,8 +33,6 @@ _A pile of more than 100,000 coins has been given malevolent life._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -2
@@ -43,7 +41,7 @@ _A pile of more than 100,000 coins has been given malevolent life._
 
 **Perception:** +2
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 68\
 **Experience points:** 6,400

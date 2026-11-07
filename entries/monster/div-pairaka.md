@@ -31,8 +31,6 @@ manner of debased pleasures._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -43,7 +41,7 @@ manner of debased pleasures._
 
 **Perception:** +16
 
-**Senses:** Detect good, Detect magic, See in darkness
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
 **Sources:** Bestiary 3 pg 88, Pathfinder \#20: House of the Beast pg 84\
 **Subtype:** Div, Evil, Extraplanar, Shapechanger

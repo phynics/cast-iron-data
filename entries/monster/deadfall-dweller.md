@@ -32,8 +32,6 @@ shambles like a spider._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -44,7 +42,7 @@ shambles like a spider._
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Tears at Bitter Manor pg 58\
 **Experience points:** 1,600

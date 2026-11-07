@@ -34,8 +34,6 @@ figure's stealthy appearance._
 
 **aura:** aura of menace (DC 13), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful good
@@ -46,7 +44,7 @@ figure's stealthy appearance._
 
 **Perception:** +7
 
-**Senses:** Detect evil, Hone senses, Low-light vision
+**Senses:** Darkvision 60 ft., Detect evil, Hone senses, Low-light vision
 
 **Sources:** Chronicle of the Righteous pg 61\
 **Subtype:** Archon, Extraplanar, Good, Lawful

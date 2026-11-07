@@ -31,15 +31,13 @@ _This swift brown insect scampers up walls, its antennae flailing._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Ultimate Wilderness pg 193\
 **Type:** vermin

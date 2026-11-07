@@ -31,8 +31,6 @@ shadow seems strangely mobile._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -42,6 +40,8 @@ shadow seems strangely mobile._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 260\
 **Subtype:** Extraplanar

@@ -30,8 +30,6 @@ both surprised and perplexed._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** -2
 
 **Type:** Magical beast
@@ -40,7 +38,7 @@ both surprised and perplexed._
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 44, Pathfinder \#31: Stolen Land pg 76\
 **Size:** tiny

@@ -32,8 +32,6 @@ a lengthy black veil._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -44,7 +42,7 @@ a lengthy black veil._
 
 **Perception:** +24
 
-**Senses:** Low-light vision, Spiritsense
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
 **Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 88\
 **Subtype:** Psychopomp, Extraplanar

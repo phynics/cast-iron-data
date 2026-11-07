@@ -33,15 +33,13 @@ of the gap._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
 
 **Perception:** +12
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 6 pg 287\
 **Subtype:** Augmented vermin

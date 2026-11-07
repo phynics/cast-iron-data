@@ -33,8 +33,6 @@ aquatic snake._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,6 +40,8 @@ aquatic snake._
 **Alignment:** Neutral
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 199, Bonus Bestiary pg 14\
 **Subtype:** Aquatic

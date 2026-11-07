@@ -31,8 +31,6 @@ and mouth._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -42,6 +40,8 @@ and mouth._
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 177\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

@@ -32,8 +32,6 @@ backward-facing hands._
 
 **Challenge rating:** 20
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ backward-facing hands._
 
 **Perception:** +31
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 226, Pathfinder \#9: Escape from Old Korvosa pg 86\
 **Subtype:** Native, Rakshasa, Shapechanger

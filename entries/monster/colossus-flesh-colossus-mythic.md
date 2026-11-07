@@ -38,8 +38,6 @@ humanoid shape._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +0
@@ -48,7 +46,7 @@ humanoid shape._
 
 **Perception:** +8
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 35\
 **Subtype:** Colossus, Mythic

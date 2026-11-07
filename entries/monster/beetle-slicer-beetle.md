@@ -31,8 +31,6 @@ to be remarkably sharp._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -40,6 +38,8 @@ to be remarkably sharp._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 44\
 **Type:** vermin

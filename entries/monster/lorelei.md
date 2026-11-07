@@ -34,8 +34,6 @@ sprouting from its scalp._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -43,6 +41,8 @@ sprouting from its scalp._
 **Alignment:** Neutral evil
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 184, Pathfinder \#60: From Hell's Heart pg 86\
 **Subtype:** Aquatic

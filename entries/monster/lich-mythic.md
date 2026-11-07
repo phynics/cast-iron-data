@@ -37,8 +37,6 @@ _This armored undead human wields a heavy mace and wears the trappings of a devi
 
 **aura:** fear (60 ft., DC 28)
 
-**dv:** 60
-
 **Initiative:** +13, Mythic Improved Initiative
 
 **Alignment:** Lawful evil
@@ -47,7 +45,7 @@ _This armored undead human wields a heavy mace and wears the trappings of a devi
 
 **Perception:** +29
 
-**Senses:** Spell perception
+**Senses:** Darkvision 60 ft., Spell perception
 
 **Sources:** Mythic Adventures pg 206\
 **Subtype:** Augmented humanoid, Human, Mythic

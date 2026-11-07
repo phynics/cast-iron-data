@@ -38,8 +38,6 @@ trickles down her arm._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -48,7 +46,7 @@ trickles down her arm._
 
 **Perception:** +27
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#68: The Shackled Hut pg 84\
 **Subtype:** Chaotic, Extraplanar, Good

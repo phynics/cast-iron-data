@@ -34,8 +34,6 @@ cloud is a glowing rune no bigger than a thumbnail._
 
 **aura:** aura of menace (DC 23), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +13
@@ -46,7 +44,7 @@ cloud is a glowing rune no bigger than a thumbnail._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 88\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Swarm

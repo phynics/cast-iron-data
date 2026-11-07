@@ -33,8 +33,6 @@ an invisible frame._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -43,7 +41,7 @@ an invisible frame._
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#112: The Whisper Out of Time pg 86\
 **Experience points:** 9,600

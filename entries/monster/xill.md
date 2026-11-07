@@ -33,8 +33,6 @@ twitching, fanged mandibles._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -44,6 +42,8 @@ twitching, fanged mandibles._
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 283\
 **Subtype:** Evil, Extraplanar

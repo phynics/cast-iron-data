@@ -33,8 +33,6 @@ chitinous body emerge four tentacles._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -42,6 +40,8 @@ chitinous body emerge four tentacles._
 **Alignment:** Neutral evil
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 234, The Moonscar pg 29\
 **tremorsense:** 60

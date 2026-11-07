@@ -30,8 +30,6 @@ _A droning hum surrounds this gargantuan half-bee, half-woman with insectile win
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +0
@@ -41,6 +39,8 @@ _A droning hum surrounds this gargantuan half-bee, half-woman with insectile win
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 244\
 **Experience points:** 38,400

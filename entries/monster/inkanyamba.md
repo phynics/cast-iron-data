@@ -34,8 +34,6 @@ of different-sized fangs. As it hisses, lightning slashes the storm-gray sky beh
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +7
@@ -44,7 +42,7 @@ of different-sized fangs. As it hisses, lightning slashes the storm-gray sky beh
 
 **Perception:** +16
 
-**Senses:** Scent, Venomsense
+**Senses:** Darkvision 120 ft., Scent, Venomsense
 
 **Sources:** Pathfinder \#41: The Thousand Fangs Below pg 84\
 **Experience points:** 25,600

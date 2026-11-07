@@ -32,8 +32,6 @@ skull with a snake's jaws._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -42,7 +40,7 @@ skull with a snake's jaws._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 196\
 **Experience points:** 800

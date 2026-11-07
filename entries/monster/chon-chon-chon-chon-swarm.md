@@ -38,11 +38,11 @@ babbles to itself as it flies, as if to remind itself of secrets only it knows._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#53: Tide of Honor pg 82\
 **Subtype:** Swarm

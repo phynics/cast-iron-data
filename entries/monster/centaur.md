@@ -31,8 +31,6 @@ warhorse._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,6 +40,8 @@ warhorse._
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 42\
 **Experience points:** 800

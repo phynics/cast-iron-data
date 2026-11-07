@@ -36,8 +36,6 @@ of pale blue mist._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +14
 
 **Alignment:** Neutral
@@ -46,7 +44,7 @@ of pale blue mist._
 
 **Perception:** +26
 
-**Senses:** Greater arcane sight, Low-light vision, Spiritsense
+**Senses:** Darkvision 60 ft., Greater arcane sight, Low-light vision, Spiritsense
 
 **Sources:** Bestiary 6 pg 217\
 **Subtype:** Extraplanar, Psychopomp, Swarm

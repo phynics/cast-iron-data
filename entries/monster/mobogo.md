@@ -34,8 +34,6 @@ bulbous eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -44,7 +42,7 @@ bulbous eyes._
 
 **Perception:** +19
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 194, Pathfinder \#12: Crown of Fangs pg 88\
 **Subtype:** Aquatic

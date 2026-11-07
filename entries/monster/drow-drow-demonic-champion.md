@@ -38,8 +38,6 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +5
@@ -47,6 +45,8 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 37\
 **Subtype:** Elf

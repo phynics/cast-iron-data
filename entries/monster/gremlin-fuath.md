@@ -34,15 +34,13 @@ _This waterlogged gremlin has lobster claws for hands and an almost canine face 
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +5
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 142\
 **Subtype:** Aquatic

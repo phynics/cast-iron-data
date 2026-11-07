@@ -33,8 +33,6 @@ decorate its greenish skin._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** -1
@@ -45,7 +43,7 @@ decorate its greenish skin._
 
 **Perception:** +4
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 37, Pathfinder \#2: The Skinsaw Murders pg 84\
 **Experience points:** 600

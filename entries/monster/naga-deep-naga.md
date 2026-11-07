@@ -31,8 +31,6 @@ wide mouth filled with fangs._
 
 **Type:** aberration
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +9
@@ -41,7 +39,7 @@ wide mouth filled with fangs._
 
 **Perception:** +21
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 90\
 **Experience points:** 19,200

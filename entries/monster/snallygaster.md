@@ -34,15 +34,13 @@ sharp, toothy beak._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
 
 **Perception:** +7
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 4 pg 247, Pathfinder \#61: Shards of Sin pg 88\
 **Experience points:** 800

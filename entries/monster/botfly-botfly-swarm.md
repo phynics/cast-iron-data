@@ -31,8 +31,6 @@ low, droning buzz of thousands of tiny flies._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +0
@@ -40,6 +38,8 @@ low, droning buzz of thousands of tiny flies._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Heart of the Jungle pg 59\
 **Subtype:** Swarm

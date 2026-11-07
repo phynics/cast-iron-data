@@ -33,8 +33,6 @@ curtains._
 
 **aura:** aura of doom (30 ft., DC 26)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +14
@@ -45,7 +43,7 @@ curtains._
 
 **Perception:** +30
 
-**Senses:** Deathwatch
+**Senses:** Darkvision 60 ft., Deathwatch
 
 **Sources:** Bestiary 5 pg 67\
 **Subtype:** Incorporeal

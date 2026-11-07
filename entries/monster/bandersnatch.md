@@ -34,8 +34,6 @@ eyes glow with a blue light._
 
 **blindsense:** 120
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +11
@@ -46,7 +44,7 @@ eyes glow with a blue light._
 
 **Perception:** +26
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 120 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 32\
 **Experience points:** 102,400

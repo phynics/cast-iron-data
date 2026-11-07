@@ -36,8 +36,6 @@ iron and eldritch sparks._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
@@ -46,7 +44,7 @@ iron and eldritch sparks._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#142: Gardens of Gallowspire pg 82\
 **Experience points:** 25,600

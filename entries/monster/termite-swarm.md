@@ -30,8 +30,6 @@ _The ground teems with crawling termites, biting and stinging as they come._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +2
@@ -40,7 +38,7 @@ _The ground teems with crawling termites, biting and stinging as they come._
 
 **Perception:** +1
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 5 pg 242\
 **Subtype:** Swarm

@@ -35,8 +35,6 @@ flesh together._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -45,7 +43,7 @@ flesh together._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mythic Adventures pg 201\
 **Subtype:** Mythic

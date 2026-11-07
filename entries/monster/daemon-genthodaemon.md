@@ -33,8 +33,6 @@ _Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this t
 
 **aura:** destruction (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -44,6 +42,8 @@ _Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this t
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#71: Rasputin Must Die! pg 86\
 **Subtype:** Daemon, Evil, Extraplanar

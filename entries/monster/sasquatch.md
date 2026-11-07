@@ -32,8 +32,6 @@ swinging, ape-like gait._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -44,7 +42,7 @@ swinging, ape-like gait._
 
 **Perception:** +5
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 236\
 **Subtype:** Sasquatch

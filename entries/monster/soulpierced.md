@@ -34,13 +34,13 @@ still-beating heart glows brightly around a dagger thrust through its chest._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Size:** medium
 
 **Perception:** +39
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#132: The Six-Legend Soul pg 90\
 **Subtype:** Incorporeal

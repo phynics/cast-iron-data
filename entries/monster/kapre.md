@@ -35,15 +35,13 @@ burn like embers._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
 
 **Perception:** +22
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

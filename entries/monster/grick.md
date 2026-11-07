@@ -31,8 +31,6 @@ tentacles and hooked jaws._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -41,7 +39,7 @@ tentacles and hooked jaws._
 
 **Perception:** +12
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 2 pg 146\
 **Experience points:** 800

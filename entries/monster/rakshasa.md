@@ -32,8 +32,6 @@ its fiendish nature._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ its fiendish nature._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 231\
 **Subtype:** Native, Shapechanger

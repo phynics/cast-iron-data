@@ -35,8 +35,6 @@ are thick and corded, and its hate-flled eyes seem to reflect death wherever the
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
@@ -44,6 +42,8 @@ are thick and corded, and its hate-flled eyes seem to reflect death wherever the
 **Size:** medium
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#141: Last Watch pg 80\
 **Subtype:** Mortic, Orc

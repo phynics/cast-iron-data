@@ -39,15 +39,13 @@ heads and writhing tentacles._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +11
 
 **Perception:** +29
 
-**Senses:** All-around vision, Low-light vision, See invisibility
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Bestiary 2 pg 241\
 **Subtype:** Aquatic

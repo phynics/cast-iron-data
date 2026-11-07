@@ -37,15 +37,13 @@ and two huge claws dangle below._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Type:** outsider
 
 **Perception:** +37
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 222\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

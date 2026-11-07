@@ -31,8 +31,6 @@ red and its jagged tusks seem more like obsidian than bone._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -43,7 +41,7 @@ red and its jagged tusks seem more like obsidian than bone._
 
 **Perception:** +21
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#106: For Queen and Empire pg 84\
 **Subtype:** Evil, Extraplanar, Fire, Lawful

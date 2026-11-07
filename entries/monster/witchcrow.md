@@ -31,15 +31,13 @@ unnatural gleam in its otherworldly eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
 
 **Perception:** +6
 
-**Senses:** Detect magic, Low-light vision
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
 **Sources:** Pathfinder \#67: The Snows of Summer pg 88, Bestiary 5 pg 277\
 **Size:** tiny

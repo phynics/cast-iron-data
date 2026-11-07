@@ -36,15 +36,13 @@ shimmering with magical energy._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 234\
 **Subtype:** Extraplanar

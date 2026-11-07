@@ -35,13 +35,13 @@ _This mob of undead is draped in soggy seaweed._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#141: Last Watch pg 91\
 **Subtype:** Troop

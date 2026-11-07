@@ -33,8 +33,6 @@ rest is lost in darkness._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -42,6 +40,8 @@ rest is lost in darkness._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 67\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Incorporeal

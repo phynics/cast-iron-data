@@ -34,8 +34,6 @@ Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -44,7 +42,7 @@ Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head._
 
 **Perception:** +36
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

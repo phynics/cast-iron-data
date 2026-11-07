@@ -31,8 +31,6 @@ _Wreathed in flame, this winged serpent sports brightly colored feathers sparkin
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -43,7 +41,7 @@ _Wreathed in flame, this winged serpent sports brightly colored feathers sparkin
 
 **Perception:** +29
 
-**Senses:** Detect chaos/evil/good/law
+**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
 
 **Sources:** Pathfinder \#106: For Queen and Empire pg 86\
 **Subtype:** Native

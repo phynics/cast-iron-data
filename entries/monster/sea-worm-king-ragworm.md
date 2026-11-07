@@ -32,8 +32,6 @@ sides._
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +9
@@ -41,6 +39,8 @@ sides._
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#124: City in the Deep pg 86\
 **Subtype:** Aquatic

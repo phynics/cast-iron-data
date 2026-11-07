@@ -35,8 +35,6 @@ compact crossbow bolt launcher._
 
 **Type:** construct
 
-**dv:** 120
-
 **Initiative:** +12
 
 **Size:** medium
@@ -45,7 +43,7 @@ compact crossbow bolt launcher._
 
 **Perception:** +0 (+20 in sentinel mode)
 
-**Senses:** Low-light vision, Mistsight
+**Senses:** Darkvision 120 ft., Low-light vision, Mistsight
 
 **Sources:** Bestiary 6 pg 59\
 **Subtype:** Clockwork

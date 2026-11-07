@@ -34,8 +34,6 @@ face is streaked with gray._
 
 **Yeti [monk](ref/class/monk) 5**
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -46,7 +44,7 @@ face is streaked with gray._
 
 **Perception:** +12
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Mystery Monsters Revisited pg 63\
 **Subtype:** Cold

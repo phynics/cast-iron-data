@@ -32,8 +32,6 @@ shell encasing his back._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -44,7 +42,7 @@ shell encasing his back._
 
 **Perception:** +9
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Planes of Power pg 59\
 **Subtype:** Aquatic, Extraplanar

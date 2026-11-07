@@ -32,13 +32,13 @@ oversized claws._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 256\
 **tremorsense:** 60

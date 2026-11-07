@@ -33,8 +33,6 @@ abilities = ["37", "9", "28", "20", "22", "23"]
 
 **Type:** dragon
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -43,7 +41,7 @@ abilities = ["37", "9", "28", "20", "22", "23"]
 
 **Perception:** +30
 
-**Senses:** Dreamsight, Low-light vision, See in darkness
+**Senses:** Darkvision 60 ft., Dreamsight, Low-light vision, See in darkness
 
 **Sources:** Bestiary 5 pg 95\
 **Subtype:** Extraplanar

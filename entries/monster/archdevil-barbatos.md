@@ -34,8 +34,6 @@ strange shapes twitch._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 35), unholy aura (DC 28)
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Alignment:** Lawful evil
@@ -46,7 +44,7 @@ strange shapes twitch._
 
 **Perception:** +44
 
-**Senses:** Detect chaos, Detect good, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 18\
 **Subtype:** Evil, Extraplanar, Lawful, Shapechanger

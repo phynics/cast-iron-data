@@ -34,8 +34,6 @@ while in one hand it clutches the twisted, dagger-like horn of some infernal ter
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful evil
@@ -46,7 +44,7 @@ while in one hand it clutches the twisted, dagger-like horn of some infernal ter
 
 **Perception:** +4
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#26: The Sixfold Trial pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

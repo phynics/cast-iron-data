@@ -30,8 +30,6 @@ come apart at the edges._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Type:** Monstrous humanoid
@@ -39,6 +37,8 @@ come apart at the edges._
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

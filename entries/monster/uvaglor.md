@@ -37,8 +37,6 @@ sphere of violet crystal in the other._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -47,7 +45,7 @@ sphere of violet crystal in the other._
 
 **Perception:** +41
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Demons Revisited pg 62\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

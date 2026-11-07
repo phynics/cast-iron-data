@@ -38,8 +38,6 @@ insubstantial fire._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -48,7 +46,7 @@ insubstantial fire._
 
 **Perception:** +19
 
-**Senses:** Detect law
+**Senses:** Darkvision 60 ft., Detect law
 
 **Sources:** Concordance of Rivals pg 58\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

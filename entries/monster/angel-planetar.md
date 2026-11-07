@@ -33,8 +33,6 @@ white-feathered wings._
 
 **aura:** protective aura
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -45,7 +43,7 @@ white-feathered wings._
 
 **Perception:** +27
 
-**Senses:** Detect evil, Detect snares and pits, Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Detect snares and pits, Low-light vision, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 11\
 **Subtype:** Angel, Extraplanar, Good

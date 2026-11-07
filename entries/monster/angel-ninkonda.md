@@ -37,8 +37,6 @@ shoulders._
 
 **blindsight:** 120
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -49,7 +47,7 @@ shoulders._
 
 **Perception:** +31
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 86\
 **Subtype:** Angel, Extraplanar, Good, Lawful

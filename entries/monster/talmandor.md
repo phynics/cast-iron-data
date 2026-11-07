@@ -35,8 +35,6 @@ with sharp black talons._
 **aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 30), protective aura (30 ft.,
 DC 30, 10 rounds), quell the profane
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -47,7 +45,7 @@ DC 30, 10 rounds), quell the profane
 
 **Perception:** +44
 
-**Senses:** See invisibility, True seeing
+**Senses:** Darkvision 60 ft., See invisibility, True seeing
 
 **Sources:** Andoran, Birthplace of Freedom pg 62\
 **Subtype:** Agathion, Extraplanar, Good

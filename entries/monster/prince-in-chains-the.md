@@ -36,8 +36,6 @@ monstrosity._
 
 **blindsight:** 60
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -48,7 +46,7 @@ monstrosity._
 
 **Perception:** +21
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 315\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

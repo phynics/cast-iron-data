@@ -30,8 +30,6 @@ circular mouth._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
@@ -40,7 +38,7 @@ circular mouth._
 
 **Perception:** +2
 
-**Senses:** Low-light vision, Scent, Second sight 60 ft.
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, Second sight 60 ft.
 
 **Sources:** Bestiary 5 pg 46\
 **Size:** tiny

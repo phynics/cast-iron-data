@@ -33,15 +33,13 @@ hand._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +3
 
 **Perception:** +9
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 143, Pathfinder \#67: The Snows of Summer pg 87\
 **Size:** tiny

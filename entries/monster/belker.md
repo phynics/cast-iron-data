@@ -32,8 +32,6 @@ form._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -43,6 +41,8 @@ form._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 45\
 **Subtype:** Air, Elemental, Evil

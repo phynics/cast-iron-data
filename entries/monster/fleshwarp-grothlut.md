@@ -37,13 +37,13 @@ escapes its slobbering lips._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
 
 **Perception:** -1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 103\
 **Experience points:** 800

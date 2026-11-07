@@ -30,8 +30,6 @@ _This towering collection of sun-bleached bones is assembled in a humanoid form.
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -39,6 +37,8 @@ _This towering collection of sun-bleached bones is assembled in a humanoid form.
 **Alignment:** Neutral evil
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 88\
 **Subtype:** Earth

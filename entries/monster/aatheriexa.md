@@ -35,8 +35,6 @@ projecting an air of cruelty._
 
 **aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
 
-**dv:** 120
-
 **Initiative:** +9
 
 **Size:** medium
@@ -45,7 +43,7 @@ projecting an air of cruelty._
 
 **Perception:** +28
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 7\
 **Experience points:** 3,200

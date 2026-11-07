@@ -31,8 +31,6 @@ _A ridge of jagged ice runs down the back of this glistening, desert-dwelling li
 
 **aura:** trapping cold (10 ft., DC 14)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ _A ridge of jagged ice runs down the back of this glistening, desert-dwelling li
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

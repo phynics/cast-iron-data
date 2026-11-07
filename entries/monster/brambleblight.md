@@ -34,8 +34,6 @@ barbs that's topped with a heap of berry-red eyes._
 
 **aura:** blight (40 ft., DC 19)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -46,7 +44,7 @@ barbs that's topped with a heap of berry-red eyes._
 
 **Type:** plant
 
-**Senses:** Low-light vision, Plantsense 120 ft.
+**Senses:** Darkvision 60 ft., Low-light vision, Plantsense 120 ft.
 
 **Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 84\
 **Experience points:** 3,200

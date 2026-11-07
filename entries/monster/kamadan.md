@@ -29,8 +29,6 @@ shoulders._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -41,7 +39,7 @@ shoulders._
 
 **Perception:** +8
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 158\
 **Experience points:** 1,200

@@ -36,8 +36,6 @@ grooves visible above, below, and between its twin sets of arms._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -46,7 +44,7 @@ grooves visible above, below, and between its twin sets of arms._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#126: Beyond the Veiled Past pg 88\
 **Experience points:** 102,400

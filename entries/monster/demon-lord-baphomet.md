@@ -36,8 +36,6 @@ than twice a human's height._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +23
 
 **Size:** large
@@ -46,7 +44,7 @@ than twice a human's height._
 
 **Perception:** +53
 
-**Senses:** Detect good, Detect law, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, See in darkness, True seeing
 
 **Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 88\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -34,8 +34,6 @@ and its eyes are polished white orbs._
 
 **Female old human siabrae [druid](ref/class/druid) 14**
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -43,6 +41,8 @@ and its eyes are polished white orbs._
 **Alignment:** Neutral evil
 
 **Perception:** +32
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 250, The Worldwound pg 58\
 **Subtype:** Augmented humanoid, Earth

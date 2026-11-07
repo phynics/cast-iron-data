@@ -31,15 +31,13 @@ _A wave of swift-moving spines rushes forward - a roiling tide of dangerously fa
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +1
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 89\
 **Subtype:** Aquatic, Swarm

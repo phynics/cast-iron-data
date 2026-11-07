@@ -36,8 +36,6 @@ seasoned combatant._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -45,6 +43,8 @@ seasoned combatant._
 **Type:** Monstrous humanoid
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 42\
 **Experience points:** 2,400

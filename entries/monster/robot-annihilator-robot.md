@@ -33,8 +33,6 @@ _The tip of this towering, scorpion-like construct's tail thrums with otherworld
 
 **Type:** construct
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +6
@@ -43,7 +41,7 @@ _The tip of this towering, scorpion-like construct's tail thrums with otherworld
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 206, Inner Sea Bestiary pg 43\
 **Subtype:** Robot

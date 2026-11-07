@@ -35,15 +35,13 @@ writhing tentacles._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** large
 
 **Perception:** +17
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder \#114: Black Stars Beckon pg 88\
 **Experience points:** 51,200

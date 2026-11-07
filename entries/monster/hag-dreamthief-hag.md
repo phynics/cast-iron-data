@@ -32,8 +32,6 @@ with green light._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,7 +42,7 @@ with green light._
 
 **Perception:** +20
 
-**Senses:** See alignment
+**Senses:** Darkvision 60 ft., See alignment
 
 **Sources:** Occult Bestiary pg 22\
 **Subtype:** Evil, Extraplanar

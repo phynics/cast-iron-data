@@ -30,8 +30,6 @@ scorpion._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -39,6 +37,8 @@ scorpion._
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 237\
 **tremorsense:** 60

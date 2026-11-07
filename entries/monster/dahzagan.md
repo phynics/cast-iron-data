@@ -34,8 +34,6 @@ body of a giant wolf._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -44,7 +42,7 @@ body of a giant wolf._
 
 **Perception:** +14
 
-**Senses:** Deathwatch, Scent
+**Senses:** Darkvision 60 ft., Deathwatch, Scent
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 59\
 **Subtype:** Chaotic, Evil, Extraplanar

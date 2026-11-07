@@ -32,13 +32,13 @@ loll from its jaw like a clawed tongue._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 208\
 **Type:** undead

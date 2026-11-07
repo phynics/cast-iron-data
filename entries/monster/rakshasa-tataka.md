@@ -32,8 +32,6 @@ exaggerated features._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -44,7 +42,7 @@ exaggerated features._
 
 **Perception:** +19
 
-**Senses:** Scent, True seeing
+**Senses:** Darkvision 60 ft., Scent, True seeing
 
 **Sources:** Bestiary 3 pg 230\
 **Subtype:** Native, Rakshasa, Shapechanger

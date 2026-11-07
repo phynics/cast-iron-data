@@ -32,8 +32,6 @@ razor-sharp teeth._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
 
 **keenScent:** 180
@@ -46,7 +44,7 @@ razor-sharp teeth._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 50\
 **Subtype:** Aquatic

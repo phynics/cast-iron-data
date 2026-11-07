@@ -38,8 +38,6 @@ eye in its noseless face._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -47,6 +45,8 @@ eye in its noseless face._
 **Type:** Monstrous humanoid
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 221, Pathfinder \#40: Vaults of Madness pg 84\
 **Subtype:** Shapechanger

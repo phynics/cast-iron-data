@@ -31,8 +31,6 @@ dirty fingers._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -41,7 +39,7 @@ dirty fingers._
 
 **Perception:** +14
 
-**Senses:** Fear sense
+**Senses:** Darkvision 60 ft., Fear sense
 
 **Sources:** Bestiary 6 pg 168\
 **Type:** undead

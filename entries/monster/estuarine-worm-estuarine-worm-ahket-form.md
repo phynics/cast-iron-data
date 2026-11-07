@@ -32,8 +32,6 @@ Atop its head, a small protuberance shines like a star._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -44,7 +42,7 @@ Atop its head, a small protuberance shines like a star._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#82: Secrets of the Sphinx pg 86\
 **Subtype:** Aquatic

@@ -30,8 +30,6 @@ charged with bolts of lightning._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral
@@ -39,6 +37,8 @@ charged with bolts of lightning._
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -127,8 +127,6 @@ stink of ozone.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -138,6 +136,8 @@ stink of ozone.
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 116\
 **Subtype:** Air, Elemental, Extraplanar
@@ -188,8 +188,6 @@ Bonus feat.
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -199,6 +197,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 116\
 **Subtype:** Air, Elemental, Extraplanar
@@ -255,8 +255,6 @@ Bonus feat.
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +12
@@ -266,6 +264,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 116\
 **Subtype:** Air, Elemental, Extraplanar
@@ -322,8 +322,6 @@ Bonus feat.
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +13
@@ -333,6 +331,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 117\
 **Subtype:** Air, Elemental, Extraplanar
@@ -391,8 +391,6 @@ Bonus feat.
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +14
@@ -402,6 +400,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 117\
 **Subtype:** Air, Elemental, Extraplanar

@@ -29,8 +29,6 @@ graying teeth clattering slightly as it bobs in the air._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -38,6 +36,8 @@ graying teeth clattering slightly as it bobs in the air._
 **Alignment:** Neutral evil
 
 **Perception:** -1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#43: Haunting of Harrowstone pg 82\
 **Type:** undead

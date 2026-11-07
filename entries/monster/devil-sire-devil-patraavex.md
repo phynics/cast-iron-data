@@ -31,8 +31,6 @@ fanged mouth running vertically across its torso._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ fanged mouth running vertically across its torso._
 
 **Perception:** +13
 
-**Senses:** See in darkness, See invisibility
+**Senses:** Darkvision 60 ft., See in darkness, See invisibility
 
 **Sources:** Cheliax, the Infernal Empire pg 59\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger

@@ -34,11 +34,11 @@ constantly drip viscous, black tears._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

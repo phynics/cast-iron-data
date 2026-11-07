@@ -30,8 +30,6 @@ the bone and flesh beneath._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -42,7 +40,7 @@ the bone and flesh beneath._
 
 **Perception:** +5
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 174\
 **Experience points:** 400

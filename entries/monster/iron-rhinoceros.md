@@ -33,8 +33,6 @@ flesh billows from its smokestack horns._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
@@ -43,7 +41,7 @@ flesh billows from its smokestack horns._
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 86\
 **Experience points:** 12,800

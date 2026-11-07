@@ -33,8 +33,6 @@ sparkling mass of red crystals._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -42,6 +40,8 @@ sparkling mass of red crystals._
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Down the Blighted Path pg 54\
 **tremorsense:** 60

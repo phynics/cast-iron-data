@@ -35,8 +35,6 @@ of blistering fire._
 **aura:** fiendish furnace (10 ft.), [frightful presence](ref/umr/frightful-presence) (120 ft., DC
 38), shield of law (DC 29)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +11
@@ -47,7 +45,7 @@ of blistering fire._
 
 **Perception:** +49
 
-**Senses:** Detect chaos, Detect good, Mistsight, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect good, Mistsight, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 30\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

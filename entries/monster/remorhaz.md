@@ -30,8 +30,6 @@ red-hot._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
@@ -42,7 +40,7 @@ red-hot._
 
 **Perception:** +16
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 233\
 **tremorsense:** 60

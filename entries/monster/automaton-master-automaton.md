@@ -33,8 +33,6 @@ in its head glows with light._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -45,7 +43,7 @@ in its head glows with light._
 
 **Perception:** +34
 
-**Senses:** Automaton sense, Low-light vision, True seeing
+**Senses:** Automaton sense, Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Construct Handbook pg 26\
 **Subtype:** Extraplanar

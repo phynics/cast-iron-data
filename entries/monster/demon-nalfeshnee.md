@@ -35,8 +35,6 @@ four-fingered hands._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -45,7 +43,7 @@ four-fingered hands._
 
 **Perception:** +31
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 65\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

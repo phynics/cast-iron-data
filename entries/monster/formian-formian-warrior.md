@@ -34,8 +34,6 @@ wickedly barbed stinger._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +3 (+7 with hive mind)
 
 **Alignment:** Lawful neutral
@@ -46,7 +44,7 @@ wickedly barbed stinger._
 
 **Perception:** +7 (+11 with hive mind)
 
-**Senses:** Hive mind
+**Senses:** Darkvision 60 ft., Hive mind
 
 **Sources:** Bestiary 4 pg 112\
 **Experience points:** 800

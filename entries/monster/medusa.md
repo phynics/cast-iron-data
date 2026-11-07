@@ -31,8 +31,6 @@ hair._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ hair._
 
 **Perception:** +16
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 201\
 **Experience points:** 3,200

@@ -31,8 +31,6 @@ considerable size._
 
 **Challenge rating:** 10
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +7
@@ -43,7 +41,7 @@ considerable size._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 280\
 **Subtype:** Aquatic

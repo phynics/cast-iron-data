@@ -30,15 +30,13 @@ shell-like plates._
 
 **Challenge rating:** 1/8
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Ultimate Wilderness pg 198, Pathfinder \#55: The Wormwood Mutiny pg 89\
 **Subtype:** Aquatic

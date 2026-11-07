@@ -35,13 +35,13 @@ teeth._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

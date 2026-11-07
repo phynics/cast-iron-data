@@ -31,15 +31,13 @@ twitches a cluster of sharp stamens arranged like a ring of teeth within a leafy
 
 **Challenge rating:** 4
 
-**dv:** 30
-
 **Initiative:** +8
 
 **Alignment:** Neutral
 
 **Perception:** +2
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 30 ft., Low-light vision, Scent
 
 **Type:** plant
 

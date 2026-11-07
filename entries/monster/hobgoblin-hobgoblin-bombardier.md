@@ -35,8 +35,6 @@ eyes._
 
 **Hobgoblin [alchemist](ref/class/alchemist) ([grenadier](ref/arc-alchemist/grenadier)) 8**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -46,6 +44,8 @@ eyes._
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 120\
 **Subtype:** Goblinoid

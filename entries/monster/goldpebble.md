@@ -31,8 +31,6 @@ stones, a few of which glint with traces of gold._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -43,7 +41,7 @@ stones, a few of which glint with traces of gold._
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 88\
 **Subtype:** Aquatic

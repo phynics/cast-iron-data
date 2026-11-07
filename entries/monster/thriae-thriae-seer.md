@@ -30,8 +30,6 @@ staff._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Lawful neutral
@@ -42,7 +40,7 @@ staff._
 
 **Perception:** +27
 
-**Senses:** Detect secret doors, Low-light vision
+**Senses:** Darkvision 60 ft., Detect secret doors, Low-light vision
 
 **Sources:** Bestiary 3 pg 264\
 **Experience points:** 12,800

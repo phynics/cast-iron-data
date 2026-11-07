@@ -40,15 +40,13 @@ _A siege engineer's nightmare, this giant machine emits noxious fumes from its g
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Alignment:** Neutral
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 36\
 **Subtype:** Colossus, Mythic

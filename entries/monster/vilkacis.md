@@ -35,15 +35,13 @@ smoldering malevolence._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
 
 **Perception:** +15
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#45: Broken Moon pg 84\
 **Subtype:** Incorporeal

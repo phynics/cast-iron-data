@@ -32,8 +32,6 @@ _This wretched collection of undead have tight leathery skin, sunken eyes, and e
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -41,6 +39,8 @@ _This wretched collection of undead have tight leathery skin, sunken eyes, and e
 **Alignment:** Neutral evil
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#141: Last Watch pg 90\
 **Subtype:** Troop

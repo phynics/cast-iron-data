@@ -38,8 +38,6 @@ _This graceful humanoid woman wears a flowing gown of sparkling starlight and a 
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +34
 
 **Size:** medium
@@ -48,7 +46,8 @@ _This graceful humanoid woman wears a flowing gown of sparkling starlight and a 
 
 **Perception:** +46
 
-**Senses:** Detect evil, Detect law, Low-light vision, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Detect law, Low-light vision, See in darkness, True
+seeing
 
 **Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

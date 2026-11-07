@@ -28,8 +28,6 @@ abilities = ["17", "15", "-", "7", "11", "18"]
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -37,6 +35,8 @@ abilities = ["17", "15", "-", "7", "11", "18"]
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#47: Ashes at Dawn pg 84\
 **Type:** undead

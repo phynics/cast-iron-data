@@ -32,8 +32,6 @@ humanoid with thick stony arms._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Neutral
@@ -41,6 +39,8 @@ humanoid with thick stony arms._
 **Type:** outsider
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

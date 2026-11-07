@@ -32,8 +32,6 @@ _The tail of this shimmering, salamander-like creature is composed entirely of w
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
@@ -41,6 +39,8 @@ _The tail of this shimmering, salamander-like creature is composed entirely of w
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ire of the Storm pg 63\
 **Subtype:** Air, Elemental, Native, Water

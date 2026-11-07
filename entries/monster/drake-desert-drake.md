@@ -34,8 +34,6 @@ its lissome back._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -44,7 +42,7 @@ its lissome back._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 105\
 **Subtype:** Earth

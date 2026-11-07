@@ -37,8 +37,6 @@ hooves, and her three tails are studded with barbs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** medium
@@ -47,7 +45,7 @@ hooves, and her three tails are studded with barbs._
 
 **Perception:** +58
 
-**Senses:** Detect good, Detect law, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, See in darkness, True seeing
 
 **Sources:** Pathfinder \#76: The Midnight Isles pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

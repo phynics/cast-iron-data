@@ -29,8 +29,6 @@ to its full, towering height._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -41,7 +39,7 @@ to its full, towering height._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 154\
 **Experience points:** 2,400

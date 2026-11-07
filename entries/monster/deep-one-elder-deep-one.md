@@ -36,8 +36,6 @@ predator._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +5
@@ -46,7 +44,7 @@ predator._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 69\
 **Subtype:** Aquatic, Deep one

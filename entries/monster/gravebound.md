@@ -31,8 +31,6 @@ stretch toward the ground._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -40,6 +38,8 @@ stretch toward the ground._
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 128\
 **Subtype:** Earth

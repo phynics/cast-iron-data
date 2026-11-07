@@ -33,8 +33,6 @@ it comes to jerky life._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -43,7 +41,7 @@ it comes to jerky life._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 238\
 **Experience points:** 1,200

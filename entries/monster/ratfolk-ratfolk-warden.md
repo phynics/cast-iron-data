@@ -35,8 +35,6 @@ tail._
 
 **Ratfolk [fighter](ref/class/fighter) 5**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -44,6 +42,8 @@ tail._
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

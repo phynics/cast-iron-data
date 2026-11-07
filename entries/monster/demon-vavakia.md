@@ -35,8 +35,6 @@ draconic saurian head._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -45,7 +43,7 @@ draconic saurian head._
 
 **Perception:** +34
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 6 pg 88, Book of the Damned - Volume 2: Lords of Chaos pg 60\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

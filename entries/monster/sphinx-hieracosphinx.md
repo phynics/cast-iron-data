@@ -30,8 +30,6 @@ _A cold-eyed falcon's head and great wings adorn the body of this otherwise leon
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -40,7 +38,7 @@ _A cold-eyed falcon's head and great wings adorn the body of this otherwise leon
 
 **Perception:** +16
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 253\
 **Experience points:** 1,600

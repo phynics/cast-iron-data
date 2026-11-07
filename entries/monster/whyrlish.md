@@ -34,8 +34,6 @@ sports a nest of sting-tipped tendrils._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +11
@@ -44,7 +42,7 @@ sports a nest of sting-tipped tendrils._
 
 **Perception:** +19
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Planar Adventures pg 248\
 **Subtype:** Extraplanar

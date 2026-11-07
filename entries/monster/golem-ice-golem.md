@@ -33,8 +33,6 @@ shards of ice adorn its limbs._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -43,7 +41,7 @@ shards of ice adorn its limbs._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 161\
 **Subtype:** Cold

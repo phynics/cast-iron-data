@@ -36,8 +36,6 @@ _This octopus-like robot has eight tentacles that it uses to repair multiple mac
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -46,7 +44,7 @@ _This octopus-like robot has eight tentacles that it uses to repair multiple mac
 
 **Perception:** +13
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 56\
 **Subtype:** Robot

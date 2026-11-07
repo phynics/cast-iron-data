@@ -35,8 +35,6 @@ tail and crests on its head and back._
 
 **Alignment:** Chaotic evil
 
-**dv:** 90
-
 **Type:** humanoid
 
 **Initiative:** -1
@@ -44,6 +42,8 @@ tail and crests on its head and back._
 **Size:** medium
 
 **Perception:** +0
+
+**Senses:** Darkvision 90 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 267\
 **Subtype:** Reptilian

@@ -31,8 +31,6 @@ whole._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -41,7 +39,7 @@ whole._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

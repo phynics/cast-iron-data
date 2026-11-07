@@ -31,8 +31,6 @@ _Jagged, twisting antlers of dark blue ice crown the helm of this ice-armored hu
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +7
@@ -41,7 +39,7 @@ _Jagged, twisting antlers of dark blue ice crown the helm of this ice-armored hu
 
 **Perception:** +18
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 59, Carnival of Tears pg 29\
 **Subtype:** Cold

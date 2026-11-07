@@ -32,8 +32,6 @@ sets of fangs._
 
 **Miasma hydra**
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -44,7 +42,7 @@ sets of fangs._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythical Monsters Revisited pg 32\
 **Experience points:** 25,600

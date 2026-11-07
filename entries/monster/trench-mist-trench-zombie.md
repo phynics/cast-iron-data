@@ -32,8 +32,6 @@ abilities = ["17", "18", "-", "10", "12", "8"]
 
 **Human [fighter](ref/class/fighter) ([trench fighter](ref/arc-fighter/trench-fighter)) 6**
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -41,6 +39,8 @@ abilities = ["17", "18", "-", "10", "12", "8"]
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#71: Rasputin Must Die! pg 91\
 **Subtype:** Augmented humanoid, Human

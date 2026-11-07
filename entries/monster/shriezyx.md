@@ -34,13 +34,13 @@ dripping with green venom._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 244, Dungeons of Golarion pg 31, Magnimar, City of Monuments pg 60\
 **tremorsense:** 60

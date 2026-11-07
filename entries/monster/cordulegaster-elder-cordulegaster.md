@@ -30,8 +30,6 @@ _The insectile eyes of this chitin-covered daemonic monstrosity display a malign
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -41,6 +39,8 @@ _The insectile eyes of this chitin-covered daemonic monstrosity display a malign
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#98: Turn of the Torrent pg 83\
 **Subtype:** Aquatic, Daemon, Evil, Extraplanar

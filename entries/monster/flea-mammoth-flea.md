@@ -31,8 +31,6 @@ armored entirely in disfigured plates._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -40,6 +38,8 @@ armored entirely in disfigured plates._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 99\
 **Type:** vermin

@@ -32,8 +32,6 @@ mournful expression._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -41,6 +39,8 @@ mournful expression._
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Tears at Bitter Manor pg 61\
 **Subtype:** Incorporeal

@@ -34,8 +34,6 @@ immense, cruel-looking halberd._
 
 **aura:** scorched earth (60 ft., DC 28), unholy aura (DC 25)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +4
@@ -46,7 +44,7 @@ immense, cruel-looking halberd._
 
 **Perception:** +30
 
-**Senses:** Deathwatch, True seeing
+**Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
 **Sources:** Bestiary 6 pg 72, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 50\
 **Subtype:** Daemon, Evil, Extraplanar

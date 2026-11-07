@@ -36,8 +36,6 @@ wings spread across its back and the four digits of each hand end in sharp claws
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -45,6 +43,8 @@ wings spread across its back and the four digits of each hand end in sharp claws
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 84\
 **Subtype:** Extraplanar, Incorporeal

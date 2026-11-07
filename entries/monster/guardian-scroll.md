@@ -31,15 +31,13 @@ _This innocuous-looking scroll flits about with serpentine grace, baring its raz
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 138, Pathfinder \#79: The Half-Dead City pg 82\
 **Size:** tiny

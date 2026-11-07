@@ -33,8 +33,6 @@ blackened, fiery-red scales._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -42,6 +40,8 @@ blackened, fiery-red scales._
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 240\
 **Subtype:** Extraplanar, Fire

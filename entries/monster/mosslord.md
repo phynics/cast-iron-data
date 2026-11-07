@@ -30,8 +30,6 @@ and mouthless._
 
 **Challenge rating:** 18
 
-**dv:** 60
-
 **Greensight:** present
 
 **Initiative:** +13
@@ -44,7 +42,7 @@ and mouthless._
 
 **Type:** plant
 
-**Senses:** Low-light vision, See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Bestiary 6 pg 194\
 **Experience points:** 153,600

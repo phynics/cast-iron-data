@@ -33,8 +33,6 @@ shadows._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -43,7 +41,7 @@ shadows._
 
 **Perception:** +32
 
-**Senses:** See thoughts
+**Senses:** Darkvision 60 ft., See thoughts
 
 **Sources:** Bestiary 6 pg 86, The Worldwound pg 50\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

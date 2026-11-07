@@ -38,8 +38,6 @@ tumors and writing tentacles._
 
 **aura:** gestation (30 ft.)
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +9
@@ -50,7 +48,7 @@ tumors and writing tentacles._
 
 **Perception:** +39
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., True seeing
 
 **Sources:** Bestiary 4 pg 76\
 **Subtype:** Mythic

@@ -32,8 +32,6 @@ and bone._
 
 **Challenge rating:** 20
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -44,7 +42,7 @@ and bone._
 
 **Perception:** +37
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 214\
 **Subtype:** Evil, Extraplanar, Sahkil

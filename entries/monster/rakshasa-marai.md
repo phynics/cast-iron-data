@@ -33,8 +33,6 @@ tongue in its fanged mouth._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Lawful evil
@@ -44,6 +42,8 @@ tongue in its fanged mouth._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 228\
 **Subtype:** Native, Rakshasa, Shapechanger

@@ -32,8 +32,6 @@ an enormous pair of knobby legs._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -42,7 +40,7 @@ an enormous pair of knobby legs._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 60\
 **Experience points:** 4,800

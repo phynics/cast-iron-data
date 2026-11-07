@@ -41,11 +41,11 @@ flesh, and a terrible sickening flow of black blood oozes from each break and so
 
 **Size:** colossal
 
-**dv:** 120
-
 **Initiative:** +7
 
 **Perception:** +8
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Mystery Monsters Revisited pg 50\
 **Subtype:** Aquatic

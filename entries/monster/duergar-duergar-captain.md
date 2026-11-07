@@ -32,8 +32,6 @@ abilities = ["19", "10", "16", "10", "15", "4"]
 
 **Duergar [fighter](ref/class/fighter) 9**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +0
@@ -43,6 +41,8 @@ abilities = ["19", "10", "16", "10", "15", "4"]
 **Size:** medium
 
 **Perception:** +2
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 50\
 **Subtype:** Dwarf

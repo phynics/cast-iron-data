@@ -28,8 +28,6 @@ abilities = ["22", "15", "18", "12", "13", "11"]
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -39,6 +37,8 @@ abilities = ["22", "15", "18", "12", "13", "11"]
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Heaven Unleashed pg 44\
 **Subtype:** Extraplanar, Good, Lawful

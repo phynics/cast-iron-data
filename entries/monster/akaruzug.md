@@ -35,8 +35,6 @@ has been affixed to its chest._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,7 +43,7 @@ has been affixed to its chest._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Curse of the Crimson Throne pg 466, Pathfinder \#12: Crown of Fangs pg 82\
 **Experience points:** 51,200

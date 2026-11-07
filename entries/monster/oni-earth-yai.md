@@ -33,8 +33,6 @@ appear to have burst forth from rugged stone._
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -45,7 +43,7 @@ appear to have burst forth from rugged stone._
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#53: Tide of Honor pg 88\
 **Subtype:** Giant, Native, Oni, Shapechanger

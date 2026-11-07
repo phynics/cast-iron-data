@@ -34,8 +34,6 @@ sapphire set into its brow. At the creature moves, the masks seem to shift and s
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -44,7 +42,7 @@ sapphire set into its brow. At the creature moves, the masks seem to shift and s
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Masks of the Living God pg 30\
 **Experience points:** 1,200

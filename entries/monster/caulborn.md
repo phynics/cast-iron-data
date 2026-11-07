@@ -34,8 +34,6 @@ fingers on each hand._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -46,7 +44,7 @@ fingers on each hand._
 
 **Perception:** +15
 
-**Senses:** Thoughtsense
+**Senses:** Darkvision 60 ft., Thoughtsense
 
 **Sources:** Bestiary 3 pg 48, City of Strangers pg 62\
 **Subtype:** Extraplanar

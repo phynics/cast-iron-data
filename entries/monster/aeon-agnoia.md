@@ -34,8 +34,6 @@ jut from around the column, each ending in a hand with long, black claws._
 
 **aura:** ignorance (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -46,7 +44,7 @@ jut from around the column, each ending in a hand with long, black claws._
 
 **Perception:** +25
 
-**Senses:** Detect magic, Detect thoughts
+**Senses:** Darkvision 60 ft., Detect magic, Detect thoughts
 
 **Sources:** Concordance of Rivals pg 52\
 **Subtype:** Aeon, Extraplanar

@@ -34,15 +34,13 @@ _A plant whose body resembles a blooming lotus flower exudes an air of serenity.
 
 **aura:** tranquility (20 ft., DC 15, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

@@ -33,8 +33,6 @@ resembles a dead giant with the head of an oversized boar._
 
 **Challenge rating:** 17
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Type:** humanoid
@@ -45,7 +43,7 @@ resembles a dead giant with the head of an oversized boar._
 
 **Perception:** +30
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 86\
 **Subtype:** Evil, Extraplanar, Giant

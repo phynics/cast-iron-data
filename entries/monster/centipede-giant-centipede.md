@@ -30,8 +30,6 @@ prey._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -39,6 +37,8 @@ prey._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 43\
 **Type:** vermin

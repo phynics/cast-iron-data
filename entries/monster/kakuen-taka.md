@@ -32,8 +32,6 @@ _Within a towering structure of bone and rotting flesh lurk hundreds of flitteri
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +10
@@ -41,6 +39,8 @@ _Within a towering structure of bone and rotting flesh lurk hundreds of flitteri
 **Type:** outsider
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Bestiary pg 20\
 **Subtype:** Chaotic, Evil, Extraplanar, Swarm

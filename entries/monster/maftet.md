@@ -31,8 +31,6 @@ of a tawny, bipedal lion._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -43,7 +41,7 @@ of a tawny, bipedal lion._
 
 **Perception:** +13
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 188, Pathfinder \#15: The Armageddon Echo pg 88\
 **Experience points:** 2,400

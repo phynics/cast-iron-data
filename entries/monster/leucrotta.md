@@ -33,8 +33,6 @@ ridges of bone instead of teeth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -43,7 +41,7 @@ ridges of bone instead of teeth._
 
 **Perception:** +2
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 178, Pathfinder \#17: A Memory of Darkness pg 82\
 **Experience points:** 1,600

@@ -30,8 +30,6 @@ countenance._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -42,7 +40,7 @@ countenance._
 
 **Perception:** +27
 
-**Senses:** Harmony with the land
+**Senses:** Darkvision 60 ft., Harmony with the land
 
 **Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 86\
 **Experience points:** 51,200

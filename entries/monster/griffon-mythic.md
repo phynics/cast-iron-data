@@ -33,8 +33,6 @@ of a panther._
 
 **Mythic rank:** 2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -45,7 +43,7 @@ of a panther._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 202\
 **Subtype:** Mythic

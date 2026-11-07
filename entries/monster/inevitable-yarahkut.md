@@ -33,8 +33,6 @@ back, and its head bears three faces._
 
 **aura:** malfunctioning (100 ft.)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -45,7 +43,7 @@ back, and its head bears three faces._
 
 **Perception:** +18
 
-**Senses:** Arcane sight, Low-light vision, True seeing
+**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 84\
 **Subtype:** Extraplanar, Inevitable, Lawful

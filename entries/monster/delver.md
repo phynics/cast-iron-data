@@ -34,8 +34,6 @@ and its whole body sizzles with acidic slime as it slides forward through meltin
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -43,6 +41,8 @@ and its whole body sizzles with acidic slime as it slides forward through meltin
 **Alignment:** Neutral
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Misfit Monsters Redeemed pg 15\
 **Subtype:** Earth

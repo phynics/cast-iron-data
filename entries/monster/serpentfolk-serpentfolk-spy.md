@@ -30,8 +30,6 @@ abilities = ["12", "23", "19", "18", "13", "20"]
 
 **Advanced serpentfolk [rogue](ref/class/rogue) 1**
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -42,7 +40,7 @@ abilities = ["12", "23", "19", "18", "13", "20"]
 
 **Perception:** +10
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Monster Codex pg 202\
 **Experience points:** 1,600

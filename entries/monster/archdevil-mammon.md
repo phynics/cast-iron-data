@@ -33,8 +33,6 @@ diabolic nature._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), shield of law (DC 29)
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Alignment:** Lawful evil
@@ -45,7 +43,7 @@ diabolic nature._
 
 **Perception:** +46
 
-**Senses:** Detect chaos, Detect good, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 26\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

@@ -36,15 +36,13 @@ a brain floating in thick green fluid._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
 
 **Perception:** +26
 
-**Senses:** Diagnose disease, True seeing
+**Senses:** Darkvision 60 ft., Diagnose disease, True seeing
 
 **Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 90\
 **Experience points:** 38,400

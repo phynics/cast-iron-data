@@ -34,8 +34,6 @@ toxic-looking slime._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +8 (+12 when ending discorporation)
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ toxic-looking slime._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#98: Turn of the Torrent pg 88\
 **Experience points:** 1,600

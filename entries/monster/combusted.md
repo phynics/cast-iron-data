@@ -34,8 +34,6 @@ surrounded by greasy black smoke._
 
 **aura:** howl of agony (10 ft., DC 13), [stench](ref/umr/stench) (DC 13, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -43,6 +41,8 @@ surrounded by greasy black smoke._
 **Alignment:** Neutral evil
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 63, Occult Bestiary pg 16\
 **Subtype:** Fire

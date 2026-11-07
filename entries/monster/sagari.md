@@ -33,13 +33,13 @@ than a writhing tentacle._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral evil
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 234\
 **Size:** tiny

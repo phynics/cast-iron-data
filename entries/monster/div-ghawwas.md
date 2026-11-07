@@ -33,8 +33,6 @@ emerged from some poisoned sea._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -45,7 +43,7 @@ emerged from some poisoned sea._
 
 **Perception:** +19
 
-**Senses:** Detect good, Detect magic, See in darkness
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
 **Sources:** Bestiary 3 pg 87, Pathfinder \#22: The End of Eternity pg 80\
 **Subtype:** Aquatic, Div, Evil, Extraplanar

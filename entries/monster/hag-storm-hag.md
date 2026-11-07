@@ -33,8 +33,6 @@ from her brow like a thunderhead._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -43,7 +41,7 @@ from her brow like a thunderhead._
 
 **Perception:** +14
 
-**Senses:** Child-scent
+**Senses:** Child-scent, Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 235, Pathfinder \#72: The Witch Queen's Revenge pg 90\
 **Experience points:** 3,200

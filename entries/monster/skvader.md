@@ -29,8 +29,6 @@ grouse._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
@@ -39,7 +37,7 @@ grouse._
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#61: Shards of Sin pg 86\
 **Size:** tiny

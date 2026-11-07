@@ -31,8 +31,6 @@ of thick white fur._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -43,7 +41,7 @@ of thick white fur._
 
 **Perception:** +10
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 287\
 **Subtype:** Cold

@@ -34,8 +34,6 @@ and a huge crossbow._
 
 **Type:** construct
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +6
@@ -44,7 +42,7 @@ and a huge crossbow._
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 274\
 **Experience points:** 204,800

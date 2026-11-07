@@ -33,15 +33,13 @@ _The petals of this small plant's large, flat, flowering head reflect light in u
 
 **aura:** heliotrope (20 ft., DC 13)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

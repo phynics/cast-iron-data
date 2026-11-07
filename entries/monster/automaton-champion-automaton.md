@@ -34,8 +34,6 @@ glows with an unrivaled ferocity._
 
 **Type:** construct
 
-**dv:** 120
-
 **Initiative:** +2
 
 **Size:** large
@@ -46,7 +44,7 @@ glows with an unrivaled ferocity._
 
 **Perception:** +19
 
-**Senses:** Low-light vision, See invisibility
+**Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
 **Sources:** Construct Handbook pg 22\
 **Subtype:** Extraplanar

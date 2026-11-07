@@ -31,8 +31,6 @@ writhe._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -42,6 +40,8 @@ writhe._
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 133\
 **Subtype:** Extraplanar

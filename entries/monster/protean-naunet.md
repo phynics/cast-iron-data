@@ -36,8 +36,6 @@ vicious maw in its reptilian face._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -46,7 +44,7 @@ vicious maw in its reptilian face._
 
 **Perception:** +15
 
-**Senses:** Detect law
+**Senses:** Darkvision 60 ft., Detect law
 
 **Sources:** Bestiary 2 pg 216, Pathfinder \#22: The End of Eternity pg 86\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

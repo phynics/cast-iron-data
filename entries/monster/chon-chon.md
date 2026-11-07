@@ -36,11 +36,11 @@ babbles to itself as it flies, as if to remind itself of secrets only it knows._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#53: Tide of Honor pg 82\
 **Size:** tiny

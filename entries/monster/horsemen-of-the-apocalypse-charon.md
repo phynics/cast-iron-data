@@ -35,8 +35,6 @@ cunning._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 40), unholy aura (DC 30)
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Lifesense:** present
@@ -49,7 +47,7 @@ cunning._
 
 **Perception:** +50
 
-**Senses:** Detect good, True seeing
+**Senses:** Darkvision 60 ft., Detect good, True seeing
 
 **Sources:** Bestiary 6 pg 162\
 **Subtype:** Daemon, Evil, Extraplanar

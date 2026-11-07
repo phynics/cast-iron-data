@@ -34,8 +34,6 @@ teeth flecked with blood._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -46,7 +44,7 @@ teeth flecked with blood._
 
 **Perception:** +13
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#50: Night of Frozen Shadows pg 86\
 **Subtype:** Kitsune, Native, Oni, Shapechanger

@@ -34,8 +34,6 @@ from the top of his head._
 
 **aura:** aura of luck (15 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful neutral
@@ -43,6 +41,8 @@ from the top of his head._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#52: Forest of Spirits pg 84\
 **Subtype:** Kami, Native

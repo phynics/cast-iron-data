@@ -31,8 +31,6 @@ hands than a wolf's paws._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -43,7 +41,7 @@ hands than a wolf's paws._
 
 **Perception:** +16
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 27\
 **Subtype:** Evil, Extraplanar, Lawful, Shapechanger

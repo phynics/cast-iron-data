@@ -31,8 +31,6 @@ _This furry, minute serpent has a fox-like head and tiny eyes that glitter with 
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ _This furry, minute serpent has a fox-like head and tiny eyes that glitter with 
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 215\
 **Experience points:** 600

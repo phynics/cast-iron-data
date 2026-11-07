@@ -35,8 +35,6 @@ _This immense, muscular giant wears heavy scale mail and wields a club adorned w
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** -1
@@ -45,7 +43,7 @@ _This immense, muscular giant wears heavy scale mail and wields a club adorned w
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mythic Adventures pg 212\
 **Subtype:** Giant, Mythic

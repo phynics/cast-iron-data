@@ -31,8 +31,6 @@ three human heads at the other._
 
 **Challenge rating:** 16
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -43,7 +41,7 @@ three human heads at the other._
 
 **Perception:** +28
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 2 pg 85, Pathfinder \#12: Crown of Fangs pg 84\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

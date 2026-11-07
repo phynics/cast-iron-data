@@ -30,8 +30,6 @@ eyes._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -42,7 +40,7 @@ eyes._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 252\
 **Experience points:** 3,200

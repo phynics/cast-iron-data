@@ -35,8 +35,6 @@ its razor-sharp teeth._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -47,7 +45,7 @@ its razor-sharp teeth._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 7, Pathfinder \#38: Racing to Ruin pg 80\
 **Subtype:** Aquatic

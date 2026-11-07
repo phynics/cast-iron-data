@@ -37,15 +37,13 @@ pulsating orange light accented by regular electrical discharges._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Alignment:** Neutral evil
 
 **Perception:** +37
 
-**Senses:** Low-light vision, Scent, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder \#126: Beyond the Veiled Past pg 90\
 **Subtype:** Aquatic

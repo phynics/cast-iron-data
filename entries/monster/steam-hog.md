@@ -30,8 +30,6 @@ including a pair of razor-sharp metal tusks._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -42,7 +40,7 @@ including a pair of razor-sharp metal tusks._
 
 **Perception:** +10
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Monster Codex pg 64\
 **Experience points:** 3,200

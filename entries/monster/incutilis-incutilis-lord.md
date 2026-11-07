@@ -32,8 +32,6 @@ _A curved shell protects an unsightly mass of barbed tentacles, ringed by numero
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -42,7 +40,7 @@ _A curved shell protects an unsightly mass of barbed tentacles, ringed by numero
 
 **Perception:** +20
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Plunder and Peril pg 60\
 **Subtype:** Aquatic

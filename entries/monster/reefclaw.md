@@ -36,13 +36,11 @@ front and an eel in the back._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

@@ -32,8 +32,6 @@ beneath its mottled black hide._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -2
@@ -42,7 +40,7 @@ beneath its mottled black hide._
 
 **Perception:** +16
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 82\
 **tremorsense:** 120

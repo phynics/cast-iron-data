@@ -34,15 +34,13 @@ currents on its fan-like tail._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
 
 **Perception:** +3
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 56\
 **Subtype:** Air

@@ -35,8 +35,6 @@ extending from its palms._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +5
@@ -45,7 +43,7 @@ extending from its palms._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#99: Dance of the Damned pg 86\
 **Experience points:** 1,200

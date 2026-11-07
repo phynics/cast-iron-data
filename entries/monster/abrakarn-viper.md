@@ -35,15 +35,13 @@ _This massive, three-headed clockwork snake is crafted of brass and strange, dar
 
 **Type:** construct
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +3
 
 **Perception:** +4
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Monster Codex pg 40\
 **Subtype:** Chaotic, Evil

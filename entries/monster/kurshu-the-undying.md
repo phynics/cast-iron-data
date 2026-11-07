@@ -34,8 +34,6 @@ withered, like a preserved corpse._
 
 **blindsense:** 60
 
-**dv:** 120
-
 **Initiative:** +10
 
 **Size:** large
@@ -46,7 +44,7 @@ withered, like a preserved corpse._
 
 **Perception:** +25
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 120 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#65: Into the Nightmare Rift pg 88\
 **Subtype:** Evil, Extraplanar, Lawful

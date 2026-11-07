@@ -34,8 +34,6 @@ waters._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -44,7 +42,7 @@ waters._
 
 **Perception:** +15
 
-**Senses:** Detect chaos/evil/good/law
+**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
 
 **Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 82\
 **Subtype:** Native

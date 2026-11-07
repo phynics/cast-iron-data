@@ -30,8 +30,6 @@ of a cold moon._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -42,7 +40,7 @@ of a cold moon._
 
 **Perception:** +28
 
-**Senses:** Low-light vision, Scent, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, See in darkness, True seeing
 
 **Sources:** Bestiary 5 pg 17\
 **Experience points:** 19,200

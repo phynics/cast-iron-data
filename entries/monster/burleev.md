@@ -30,8 +30,6 @@ replaces its missing flesh._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -42,7 +40,7 @@ replaces its missing flesh._
 
 **Perception:** +9
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Inner Sea Gods pg 299\
 **subtypes:** [cold](ref/subtype/cold) or [fire](ref/subtype/fire),

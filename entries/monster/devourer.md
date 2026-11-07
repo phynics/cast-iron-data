@@ -31,8 +31,6 @@ tormented ghostly form._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -40,6 +38,8 @@ tormented ghostly form._
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 82\
 **Subtype:** Extraplanar

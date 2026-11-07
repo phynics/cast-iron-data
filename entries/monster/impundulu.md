@@ -35,8 +35,6 @@ scalloped with vicious, jagged barbs._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -47,7 +45,7 @@ scalloped with vicious, jagged barbs._
 
 **Perception:** +21
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#40: Vaults of Madness pg 80\
 **Subtype:** Evil, Extraplanar, Shapechanger

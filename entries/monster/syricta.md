@@ -34,15 +34,13 @@ while the other is two snake heads._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
 
 **Perception:** +22
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 5 pg 239\
 **Experience points:** 19,200

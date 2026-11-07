@@ -33,8 +33,6 @@ large shield-like sheet of metal._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -43,7 +41,7 @@ large shield-like sheet of metal._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 61\
 **Subtype:** Clockwork

@@ -40,13 +40,11 @@ swallow a small ship._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Perception:** +23
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 54\
 **Subtype:** Aquatic, Water

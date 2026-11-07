@@ -30,8 +30,6 @@ _The body of a spear-wielding woman rises from the front of this monstrously hug
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -41,6 +39,8 @@ _The body of a spear-wielding woman rises from the front of this monstrously hug
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 130\
 **tremorsense:** 30

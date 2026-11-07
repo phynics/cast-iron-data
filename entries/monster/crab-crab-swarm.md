@@ -32,13 +32,13 @@ legs twitching across the sand._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 50\
 **Subtype:** Aquatic, Swarm

@@ -34,8 +34,6 @@ eerie agility._
 
 **aura:** weathering aura (60 ft.)
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -46,7 +44,7 @@ eerie agility._
 
 **Perception:** +23
 
-**Senses:** Ruin sense
+**Senses:** Darkvision 60 ft., Ruin sense
 
 **Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 86\
 **Subtype:** Dwarf, Mortic

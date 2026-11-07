@@ -33,8 +33,6 @@ hooked sword._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -43,7 +41,7 @@ hooked sword._
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 140\
 **Experience points:** 1,600

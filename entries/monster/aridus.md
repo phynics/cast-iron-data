@@ -40,8 +40,6 @@ flesh._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +12
@@ -50,7 +48,7 @@ flesh._
 
 **Perception:** +29
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mythical Monsters Revisited pg 62\
 **Subtype:** Air, Fire, Native

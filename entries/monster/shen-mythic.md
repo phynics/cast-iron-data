@@ -35,8 +35,6 @@ abilities = ["41", "14", "30", "23", "22", "23"]
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +15
@@ -45,7 +43,7 @@ abilities = ["41", "14", "30", "23", "22", "23"]
 
 **Perception:** +38
 
-**Senses:** Low-light vision, Mistsight, Scent, See invisibility, True seeing
+**Senses:** Darkvision 120 ft., Low-light vision, Mistsight, Scent, See invisibility, True seeing
 
 **Sources:** Bestiary 5 pg 230\
 **Subtype:** Aquatic, Mythic, Water

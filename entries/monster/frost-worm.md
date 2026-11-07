@@ -32,8 +32,6 @@ up from between its mandibles._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -44,7 +42,7 @@ up from between its mandibles._
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 126\
 **Subtype:** Cold

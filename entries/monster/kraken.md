@@ -32,8 +32,6 @@ unsettling to look upon._
 
 **Challenge rating:** 18
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +4
@@ -44,7 +42,7 @@ unsettling to look upon._
 
 **Perception:** +28
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 184\
 **Subtype:** Aquatic

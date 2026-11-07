@@ -34,8 +34,6 @@ forming in its heaving bulk._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +11
@@ -44,7 +42,7 @@ forming in its heaving bulk._
 
 **Perception:** +33
 
-**Senses:** All-around vision, Low-light vision, Scent
+**Senses:** All-around vision, Darkvision 120 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 249, Crucible of Chaos pg 29\
 **Subtype:** Aquatic

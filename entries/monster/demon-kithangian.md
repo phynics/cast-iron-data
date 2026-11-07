@@ -34,8 +34,6 @@ between its two pincers._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -44,7 +42,7 @@ between its two pincers._
 
 **Perception:** +18
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** The Worldwound pg 47\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

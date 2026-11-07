@@ -34,8 +34,6 @@ with impossible grace._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
@@ -44,7 +42,7 @@ with impossible grace._
 
 **Perception:** +8
 
-**Senses:** Low-light vision, See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Bestiary 4 pg 30, Pathfinder \#66: The Dead Heart of Xin pg 86\
 **Subtype:** Clockwork

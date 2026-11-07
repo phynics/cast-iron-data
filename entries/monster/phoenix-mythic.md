@@ -35,8 +35,6 @@ _This flaming bird burns as brightly as the sun._
 
 **aura:** shroud of flame (20 ft., 4d6 fire, DC 26)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +12
@@ -47,7 +45,8 @@ _This flaming bird burns as brightly as the sun._
 
 **Perception:** +37
 
-**Senses:** Detect magic, Detect poison, Low-light vision, See invisibility, True seeing
+**Senses:** Darkvision 60 ft., Detect magic, Detect poison, Low-light vision, See invisibility, True
+seeing
 
 **Sources:** Mythic Adventures pg 214\
 **Subtype:** Fire, Mythic

@@ -34,8 +34,6 @@ wriggling mass of tentacles._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +4
@@ -44,7 +42,7 @@ wriggling mass of tentacles._
 
 **Perception:** +22
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 406, Pathfinder \#3: The Hook Mountain
 Massacre pg 88\

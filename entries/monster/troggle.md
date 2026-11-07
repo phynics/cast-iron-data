@@ -33,8 +33,6 @@ tail, and gait give it a degenerate, bestial appearance._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +1
@@ -43,7 +41,7 @@ tail, and gait give it a degenerate, bestial appearance._
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 160\
 **Subtype:** Giant

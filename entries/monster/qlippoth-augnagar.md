@@ -35,8 +35,6 @@ webs of flesh._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -45,7 +43,7 @@ webs of flesh._
 
 **Perception:** +22
 
-**Senses:** Scent, True seeing
+**Senses:** Darkvision 60 ft., Scent, True seeing
 
 **Sources:** Bestiary 2 pg 219\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

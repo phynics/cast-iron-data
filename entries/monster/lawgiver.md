@@ -32,8 +32,6 @@ _This titanic golden statue of a great knight moves of its own accord and hefts 
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +1
@@ -44,7 +42,7 @@ _This titanic golden statue of a great knight moves of its own accord and hefts 
 
 **Perception:** +29
 
-**Senses:** All-around vision, Low-light vision, See in darkness
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See in darkness
 
 **Sources:** Inner Sea Gods pg 276\
 **Subtype:** Extraplanar, Lawful

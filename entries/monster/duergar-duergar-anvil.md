@@ -32,8 +32,6 @@ abilities = ["14", "15", "14", "10", "15", "4"]
 
 **Duergar [monk](ref/class/monk) 2**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -43,6 +41,8 @@ abilities = ["14", "15", "14", "10", "15", "4"]
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 49\
 **Subtype:** Dwarf

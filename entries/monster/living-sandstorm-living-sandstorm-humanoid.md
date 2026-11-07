@@ -32,8 +32,6 @@ brawny and exceptionally broad._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,7 +42,7 @@ brawny and exceptionally broad._
 
 **Perception:** +18
 
-**Senses:** Sandsight
+**Senses:** Darkvision 60 ft., Sandsight
 
 **Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 86\
 **Subtype:** Earth, Elemental

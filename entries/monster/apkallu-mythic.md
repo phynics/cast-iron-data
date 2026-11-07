@@ -36,8 +36,6 @@ crafted from opalescent scales._
 
 **aura:** mythic presence (30 ft., DC 30)
 
-**dv:** 60
-
 **Initiative:** +21/+1, [dual initiative](ref/umr/dual-initiative)
 
 **Size:** large
@@ -48,7 +46,7 @@ crafted from opalescent scales._
 
 **Perception:** +38
 
-**Senses:** Detect chaos, Low-light vision, Mistsight, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Low-light vision, Mistsight, True seeing
 
 **Sources:** Bestiary 5 pg 32\
 **Subtype:** Extraplanar, Lawful, Mythic, Water

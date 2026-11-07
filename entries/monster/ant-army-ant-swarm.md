@@ -30,8 +30,6 @@ _A writhing carpet of ants seethes over the ground, consuming everything in its 
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +2
@@ -40,7 +38,7 @@ _A writhing carpet of ants seethes over the ground, consuming everything in its 
 
 **Perception:** +4
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 16\
 **Subtype:** Swarm

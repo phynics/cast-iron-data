@@ -31,13 +31,13 @@ _An awful, scuttling mass of legs and mandibles scrambles forward out of the dar
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 258\
 **Subtype:** Swarm

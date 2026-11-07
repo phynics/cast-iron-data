@@ -32,13 +32,13 @@ moves with surprising quickness._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

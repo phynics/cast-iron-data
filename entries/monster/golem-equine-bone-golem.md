@@ -33,8 +33,6 @@ _This mass of bones is shaped like a horse, with bizarre limbs._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -43,7 +41,7 @@ _This mass of bones is shaped like a horse, with bizarre limbs._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Tombs of Golarion pg 13\
 **Experience points:** 9,600

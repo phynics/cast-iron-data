@@ -30,13 +30,13 @@ many-faceted eyes smolder like hot coals._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

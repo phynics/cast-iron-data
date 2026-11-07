@@ -31,8 +31,6 @@ _This towering reptilian humanoid seems to be made of obsidian scales over a mol
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -43,7 +41,7 @@ _This towering reptilian humanoid seems to be made of obsidian scales over a mol
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 55\
 **Subtype:** Fire

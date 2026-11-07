@@ -27,8 +27,6 @@ abilities = ["21", "17", "-", "2", "12", "15"]
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -36,6 +34,8 @@ abilities = ["21", "17", "-", "2", "12", "15"]
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Lost Kingdoms pg 20\
 **Type:** undead

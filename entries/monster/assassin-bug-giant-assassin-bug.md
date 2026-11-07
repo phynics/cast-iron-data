@@ -29,13 +29,13 @@ _This goat-sized insect stands on long, spindly legs. Its mouthparts glisten wit
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

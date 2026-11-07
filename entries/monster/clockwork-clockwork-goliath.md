@@ -35,8 +35,6 @@ as it lumbers forth._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +9
@@ -45,7 +43,7 @@ as it lumbers forth._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 54\
 **Subtype:** Clockwork

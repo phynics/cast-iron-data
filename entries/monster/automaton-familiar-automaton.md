@@ -33,8 +33,6 @@ glows with a warm light._
 
 **Type:** construct
 
-**dv:** 120
-
 **Initiative:** +6
 
 **Alignment:** Lawful neutral
@@ -43,7 +41,7 @@ glows with a warm light._
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 24\
 **Subtype:** Extraplanar

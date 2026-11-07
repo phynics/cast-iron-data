@@ -35,8 +35,6 @@ rings of metal._
 
 **aura:** shield of law (DC 23)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -47,7 +45,7 @@ rings of metal._
 
 **Perception:** +34
 
-**Senses:** Detect chaos, Detect magic, Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect magic, Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 164\
 **Subtype:** Extraplanar, Inevitable, Lawful

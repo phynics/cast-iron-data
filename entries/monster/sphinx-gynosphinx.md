@@ -29,8 +29,6 @@ human woman._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -41,7 +39,7 @@ human woman._
 
 **Perception:** +21
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 257\
 **Experience points:** 4,800

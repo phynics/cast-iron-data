@@ -33,8 +33,6 @@ terrifying malignance, and the thing has a fanged maw where its beak should be._
 
 **Size:** colossal
 
-**dv:** 120
-
 **Initiative:** +8
 
 **Type:** Magical beast
@@ -43,7 +41,7 @@ terrifying malignance, and the thing has a fanged maw where its beak should be._
 
 **Perception:** +20
 
-**Senses:** Low-light vision, See in darkness
+**Senses:** Darkvision 120 ft., Low-light vision, See in darkness
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 66\
 **Subtype:** Aquatic

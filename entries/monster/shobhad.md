@@ -30,8 +30,6 @@ leather chest harness._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -41,6 +39,8 @@ leather chest harness._
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 242, Distant Worlds pg 63\
 **Experience points:** 1,200

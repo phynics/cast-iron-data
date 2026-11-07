@@ -33,8 +33,6 @@ writhing form makes it difficult to identify from a distance._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -43,7 +41,7 @@ writhing form makes it difficult to identify from a distance._
 
 **Perception:** +6
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#25: The Bastards of Erebus pg 80\
 **Subtype:** Extraplanar

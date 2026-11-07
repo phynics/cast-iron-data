@@ -31,8 +31,6 @@ it._
 
 **blindsight:** 60
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -42,6 +40,8 @@ it._
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 41, Distant Worlds pg 60\
 **Experience points:** 600

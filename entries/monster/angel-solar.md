@@ -34,8 +34,6 @@ wings._
 
 **aura:** protective aura
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -46,7 +44,7 @@ wings._
 
 **Perception:** +33
 
-**Senses:** Detect evil, Detect snares and pits, Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Detect snares and pits, Low-light vision, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 12\
 **Subtype:** Angel, Extraplanar, Good

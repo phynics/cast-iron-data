@@ -33,13 +33,13 @@ abilities = ["-", "16", "-", "13", "12", "20"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Isles of the Shackles pg 62\
 **Subtype:** Augmented humanoid, Incorporeal

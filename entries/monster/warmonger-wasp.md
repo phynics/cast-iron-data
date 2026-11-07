@@ -35,15 +35,13 @@ it buzzes through the air._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
 
 **Perception:** +13
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 274, The Worldwound pg 61\
 **Subtype:** Extraplanar

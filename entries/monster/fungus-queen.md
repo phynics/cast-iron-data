@@ -34,8 +34,6 @@ pulsating mound of fungus._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -44,7 +42,7 @@ pulsating mound of fungus._
 
 **Type:** plant
 
-**Senses:** Detect good, Low-light vision
+**Senses:** Darkvision 60 ft., Detect good, Low-light vision
 
 **Sources:** Bestiary 6 pg 130, Inner Sea Bestiary pg 12\
 **Subtype:** Extraplanar

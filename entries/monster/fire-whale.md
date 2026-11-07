@@ -35,8 +35,6 @@ _Waves of searing heat ripple from the stony, gem-encrusted hide of this enormou
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -45,7 +43,7 @@ _Waves of searing heat ripple from the stony, gem-encrusted hide of this enormou
 
 **Perception:** +16
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 128\
 **Subtype:** Extraplanar

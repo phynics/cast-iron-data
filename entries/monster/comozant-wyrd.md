@@ -32,8 +32,6 @@ and plays within its shifting mass._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral
@@ -41,6 +39,8 @@ and plays within its shifting mass._
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

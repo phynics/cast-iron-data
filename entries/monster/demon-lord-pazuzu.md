@@ -37,8 +37,6 @@ ft., distraction, DC 43), unholy aura (DC 31)
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -47,7 +45,7 @@ ft., distraction, DC 43), unholy aura (DC 31)
 
 **Perception:** +58
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Bestiary 4 pg 50\
 **Subtype:** Air, Chaotic, Demon, Evil, Extraplanar

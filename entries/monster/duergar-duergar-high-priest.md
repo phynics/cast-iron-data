@@ -31,8 +31,6 @@ abilities = ["13", "10", "14", "8", "20", "12"]
 
 **Duergar [cleric](ref/class/cleric) 13**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +0
@@ -42,6 +40,8 @@ abilities = ["13", "10", "14", "8", "20", "12"]
 **Size:** medium
 
 **Perception:** +18
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 51\
 **Subtype:** Dwarf

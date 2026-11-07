@@ -34,8 +34,6 @@ hump of its back bears a ring of standing stones that crackle faintly with energ
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral
@@ -43,6 +41,8 @@ hump of its back bears a ring of standing stones that crackle faintly with energ
 **Type:** outsider
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 90\
 **Subtype:** Earth, Elemental, Extraplanar

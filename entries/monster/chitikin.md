@@ -31,8 +31,6 @@ are scythe-like claws, and its slender antennae end in glowing green bulbs._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -40,6 +38,8 @@ are scythe-like claws, and its slender antennae end in glowing green bulbs._
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#130: City in the Lion's Eye pg 82\
 **Type:** vermin

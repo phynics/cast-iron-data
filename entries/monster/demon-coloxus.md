@@ -33,8 +33,6 @@ and shivering insectile wings._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** medium
@@ -43,7 +41,7 @@ and shivering insectile wings._
 
 **Perception:** +31
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 3 pg 72\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

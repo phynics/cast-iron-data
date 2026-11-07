@@ -37,8 +37,6 @@ crackling with power._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -47,7 +45,7 @@ crackling with power._
 
 **Perception:** +20
 
-**Senses:** Detect evil, Low-light vision, See invisibility
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, See invisibility
 
 **Sources:** Pathfinder RPG Bestiary pg 25\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger

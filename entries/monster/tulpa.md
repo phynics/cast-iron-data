@@ -33,8 +33,6 @@ _A gray-skinned humanoid with oddly unremarkable features floats ponderously in 
 
 **Male human tulpa [monk](ref/class/monk) 5**
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful neutral
@@ -44,6 +42,8 @@ _A gray-skinned humanoid with oddly unremarkable features floats ponderously in 
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 254\
 **Subtype:** Augmented humanoid, Human

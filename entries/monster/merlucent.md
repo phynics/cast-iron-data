@@ -36,13 +36,13 @@ supports its faintly glowing flesh._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#104: Wrath of Thrune pg 90\
 **Subtype:** Aquatic

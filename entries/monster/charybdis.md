@@ -37,13 +37,13 @@ hungrily from the center of a whirlpool._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +3
 
 **Perception:** +23
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 2 pg 56\
 **Subtype:** Aquatic

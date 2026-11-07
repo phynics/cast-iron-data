@@ -34,8 +34,6 @@ eyes._
 
 **Hobgoblin [cleric](ref/class/cleric) 9**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +0
@@ -45,6 +43,8 @@ eyes._
 **Size:** medium
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 121\
 **Subtype:** Goblinoid

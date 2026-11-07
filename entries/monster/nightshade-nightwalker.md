@@ -35,15 +35,13 @@ arms end in massive blades._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
 
 **Perception:** +29
 
-**Senses:** Darksense, Detect magic, Low-light vision
+**Senses:** Darksense, Darkvision 60 ft., Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 201\
 **Subtype:** Extraplanar, Nightshade

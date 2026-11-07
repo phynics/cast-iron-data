@@ -32,8 +32,6 @@ stretches across the creature's chest._
 
 **aura:** fear (30-ft. radius, DC 22)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -43,6 +41,8 @@ stretches across the creature's chest._
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** The Ruby Phoenix Tournament pg 29\
 **Type:** undead

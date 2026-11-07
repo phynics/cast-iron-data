@@ -33,13 +33,13 @@ which bears humanoid arms, legs, eyes, or even faces._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#109: In Search of Sanity pg 86\
 **Subtype:** Swarm

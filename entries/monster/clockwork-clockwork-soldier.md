@@ -34,8 +34,6 @@ stands ready at attention._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,7 +42,7 @@ stands ready at attention._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 57\
 **Subtype:** Clockwork

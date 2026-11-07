@@ -31,8 +31,6 @@ back._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -41,7 +39,7 @@ back._
 
 **Perception:** +0
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Construct Handbook pg 44\
 **Experience points:** 38,400

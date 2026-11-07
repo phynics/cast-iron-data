@@ -31,8 +31,6 @@ _This ancient monstrosity has the torso of a massively muscled giant._
 
 **Challenge rating:** 18
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +11
@@ -43,7 +41,7 @@ _This ancient monstrosity has the torso of a massively muscled giant._
 
 **Perception:** +28
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 80, Bestiary 4 pg 54\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

@@ -33,8 +33,6 @@ head, and iron pincers at the ends of its powerful arms snap open and shut._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +0
@@ -43,7 +41,7 @@ head, and iron pincers at the ends of its powerful arms snap open and shut._
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#135: Runeplague pg 84\
 **Experience points:** 9,600

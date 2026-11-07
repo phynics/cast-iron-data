@@ -32,8 +32,6 @@ down its body._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** -2
 
 **Type:** Magical beast
@@ -42,7 +40,7 @@ down its body._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 209, Distant Worlds pg 62\
 **Experience points:** 76,800

@@ -35,8 +35,6 @@ a tentacled, spherical head._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -45,7 +43,7 @@ a tentacled, spherical head._
 
 **Perception:** +25
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 286\
 **Experience points:** 6,400

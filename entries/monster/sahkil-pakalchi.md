@@ -33,8 +33,6 @@ her._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -45,7 +43,7 @@ her._
 
 **Perception:** +13
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 216\
 **Subtype:** Evil, Extraplanar, Sahkil

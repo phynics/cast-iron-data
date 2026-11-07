@@ -34,13 +34,13 @@ death and disease._
 
 **aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -29,8 +29,6 @@ abilities = ["-", "26", "24", "17", "20", "20"]
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -41,7 +39,7 @@ abilities = ["-", "26", "24", "17", "20", "20"]
 
 **Perception:** +27
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 83\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful

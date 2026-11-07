@@ -32,8 +32,6 @@ cobra._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -43,6 +41,8 @@ cobra._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 154\
 **Subtype:** Extraplanar

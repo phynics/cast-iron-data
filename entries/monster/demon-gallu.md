@@ -36,8 +36,6 @@ spiky armor._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -46,7 +44,7 @@ spiky armor._
 
 **Perception:** +36
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** The Worldwound pg 44\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

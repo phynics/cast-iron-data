@@ -30,8 +30,6 @@ _A long, spiny fin runs down the length of the dolphin-like body of this eel-hea
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -42,7 +40,7 @@ _A long, spiny fin runs down the length of the dolphin-like body of this eel-hea
 
 **Perception:** +9
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 187, Pathfinder \#41: The Thousand Fangs Below pg 86\
 **Subtype:** Aquatic

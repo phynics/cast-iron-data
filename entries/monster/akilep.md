@@ -30,8 +30,6 @@ _This beautiful female sphinx appears both wise and thoughtful._
 
 **Female unique gynosphinx**
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +3
@@ -42,7 +40,7 @@ _This beautiful female sphinx appears both wise and thoughtful._
 
 **Perception:** +30
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mythical Monsters Revisited pg 57\
 **Experience points:** 25,600

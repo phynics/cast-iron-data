@@ -31,8 +31,6 @@ eyes._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -43,7 +41,7 @@ eyes._
 
 **Perception:** +19
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Planes of Power pg 63\
 **Subtype:** Air, Extraplanar

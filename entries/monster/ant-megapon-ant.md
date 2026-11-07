@@ -30,8 +30,6 @@ horse._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -1
@@ -40,7 +38,7 @@ horse._
 
 **Perception:** +1
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 5 pg 27\
 **Type:** vermin

@@ -33,8 +33,6 @@ one deadly predator._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** fey
 
 **Size:** huge
@@ -43,7 +41,7 @@ one deadly predator._
 
 **Perception:** +33
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 265\
 **Experience points:** 102,400

@@ -32,8 +32,6 @@ face is only vaguely humanoid._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -42,7 +40,7 @@ face is only vaguely humanoid._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 159\
 **Experience points:** 9,600

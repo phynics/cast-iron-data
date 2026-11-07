@@ -35,13 +35,13 @@ the sinewy shape of a centipede._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +3
 
 **Size:** large
 
 **Perception:** +5
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Inner Sea Bestiary pg 36\
 **tremorsense:** 60

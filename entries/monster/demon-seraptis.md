@@ -35,8 +35,6 @@ slashes on her four arms._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -45,7 +43,7 @@ slashes on her four arms._
 
 **Perception:** +30
 
-**Senses:** Deathwatch, True seeing
+**Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
 **Sources:** Bestiary 5 pg 76, Book of the Damned - Volume 2: Lords of Chaos pg 58\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -34,8 +34,6 @@ shield bearing Torag's symbol._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -46,7 +44,7 @@ shield bearing Torag's symbol._
 
 **Perception:** +20
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 310\
 **Subtype:** Extraplanar

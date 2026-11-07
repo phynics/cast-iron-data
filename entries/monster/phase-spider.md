@@ -29,8 +29,6 @@ _This large spider-like monster has an eerie, humanoid face surrounded by a shag
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -41,7 +39,7 @@ _This large spider-like monster has an eerie, humanoid face surrounded by a shag
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 226\
 **Experience points:** 1,600

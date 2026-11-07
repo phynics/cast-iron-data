@@ -36,8 +36,6 @@ eyes, and three whipping stingers._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** large
@@ -46,7 +44,7 @@ eyes, and three whipping stingers._
 
 **Perception:** +31
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 2 pg 226\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

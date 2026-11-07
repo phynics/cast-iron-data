@@ -33,8 +33,6 @@ _Thin veins of black rock crisscross the frame of this hulking construct._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -43,7 +41,7 @@ _Thin veins of black rock crisscross the frame of this hulking construct._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 17\
 **Experience points:** 4,800

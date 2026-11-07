@@ -34,11 +34,11 @@ _Hundreds of twisted, distorted faces roil in a miserable cloud, screaming of th
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#75: Demon's Heresy pg 88\
 **Subtype:** Incorporeal, Swarm

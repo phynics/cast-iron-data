@@ -38,8 +38,6 @@ daggers in his dripping hands._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +18
 
 **Size:** medium
@@ -48,7 +46,7 @@ daggers in his dripping hands._
 
 **Perception:** +54
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Pathfinder \#74: Sword of Valor pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -31,8 +31,6 @@ as fractures in its outer surface._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
@@ -40,6 +38,8 @@ as fractures in its outer surface._
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -135,8 +135,6 @@ feral or bestial appearance.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -146,6 +144,8 @@ feral or bestial appearance.
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 118\
 **Subtype:** Earth, Elemental, Extraplanar, Fire
@@ -200,8 +200,6 @@ feral or bestial appearance.
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -211,6 +209,8 @@ feral or bestial appearance.
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 118\
 **Subtype:** Earth, Elemental, Extraplanar, Fire
@@ -271,8 +271,6 @@ feral or bestial appearance.
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -282,6 +280,8 @@ feral or bestial appearance.
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 118\
 **Subtype:** Earth, Elemental, Extraplanar, Fire
@@ -342,8 +342,6 @@ feral or bestial appearance.
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -353,6 +351,8 @@ feral or bestial appearance.
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 119\
 **Subtype:** Earth, Elemental, Extraplanar, Fire
@@ -414,8 +414,6 @@ Improved Overrun, Power Attack
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -425,6 +423,8 @@ Improved Overrun, Power Attack
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 119\
 **Subtype:** Earth, Elemental, Extraplanar, Fire

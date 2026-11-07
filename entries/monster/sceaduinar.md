@@ -31,8 +31,6 @@ living, dark purple crystal._
 
 **Challenge rating:** 7
 
-**dv:** 120
-
 **Initiative:** +5
 
 **Lifesense:** present
@@ -45,7 +43,7 @@ living, dark purple crystal._
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 239\
 **Subtype:** Extraplanar

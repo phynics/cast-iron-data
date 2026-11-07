@@ -31,8 +31,6 @@ to serve._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral
@@ -40,6 +38,8 @@ to serve._
 **Type:** outsider
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Qadira, Gateway to the East pg 30\
 **Subtype:** [air](ref/subtype/air), [earth](ref/subtype/earth), [fire](ref/subtype/fire), or

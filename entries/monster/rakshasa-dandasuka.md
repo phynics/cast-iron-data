@@ -32,8 +32,6 @@ mouth and fangs._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful evil
@@ -41,6 +39,8 @@ mouth and fangs._
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

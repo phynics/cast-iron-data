@@ -30,8 +30,6 @@ flowing tangle of hair._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -39,6 +37,8 @@ flowing tangle of hair._
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 149\
 **Type:** undead

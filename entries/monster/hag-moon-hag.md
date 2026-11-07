@@ -33,8 +33,6 @@ fat in its socket._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -42,6 +40,8 @@ fat in its socket._
 **Type:** Monstrous humanoid
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 242\
 **Subtype:** Extraplanar

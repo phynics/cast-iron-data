@@ -33,8 +33,6 @@ palpable aura of death._
 
 **aura:** desecrating aura (30 ft.)
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +3
@@ -45,7 +43,7 @@ palpable aura of death._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Down the Blighted Path pg 58\
 **Experience points:** 1,200

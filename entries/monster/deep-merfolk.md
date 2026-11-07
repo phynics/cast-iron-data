@@ -32,8 +32,6 @@ _This gaunt mermaid has a long, semi-transparent tail with a vivid red crest and
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +9
@@ -43,6 +41,8 @@ _This gaunt mermaid has a long, semi-transparent tail with a vivid red crest and
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 172\
 **Subtype:** Aquatic

@@ -34,8 +34,6 @@ intelligence._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -48,7 +46,7 @@ intelligence._
 
 **Perception:** +20
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 196\
 **Experience points:** 4,800

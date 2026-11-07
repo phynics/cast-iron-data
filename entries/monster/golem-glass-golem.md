@@ -32,8 +32,6 @@ another in a spike of glass._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -42,7 +40,7 @@ another in a spike of glass._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 138\
 **Experience points:** 4,800

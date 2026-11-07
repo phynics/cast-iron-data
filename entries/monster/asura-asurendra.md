@@ -33,8 +33,6 @@ glowing weaponry._
 
 **aura:** dimensional lock (20 ft., enemies only), elusive (100 ft.)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +12
@@ -45,7 +43,7 @@ glowing weaponry._
 
 **Perception:** +34
 
-**Senses:** All-around vision, Low-light vision, Scent, True seeing
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 3 pg 23\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

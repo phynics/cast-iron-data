@@ -34,8 +34,6 @@ with the mist._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -44,7 +42,7 @@ with the mist._
 
 **Perception:** +10
 
-**Senses:** Fogvision, Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Fogvision, Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 79\
 **Subtype:** Air

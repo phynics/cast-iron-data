@@ -35,15 +35,13 @@ darkness._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +8
 
 **Perception:** +12
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Size:** small
 

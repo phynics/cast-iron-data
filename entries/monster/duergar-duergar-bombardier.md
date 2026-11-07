@@ -32,8 +32,6 @@ abilities = ["12", "16", "15", "15", "10", "4"]
 
 **Duergar [alchemist](ref/class/alchemist) 2**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -43,6 +41,8 @@ abilities = ["12", "16", "15", "15", "10", "4"]
 **Size:** medium
 
 **Perception:** +6
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 48\
 **Subtype:** Dwarf

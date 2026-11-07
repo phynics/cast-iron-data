@@ -38,13 +38,11 @@ seethe with acid and poison._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Initiative:** +12
 
 **Perception:** +40
 
-**Senses:** All-around vision, Low-light vision, Scent, True seeing
+**Senses:** All-around vision, Darkvision 120 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 192\
 **Subtype:** Aquatic

@@ -33,8 +33,6 @@ tentacles._
 
 **aura:** heavy aura (10 ft., DC 18)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,7 +43,7 @@ tentacles._
 
 **Perception:** +17
 
-**Senses:** See in darkness, See invisibility
+**Senses:** Darkvision 60 ft., See in darkness, See invisibility
 
 **Sources:** Bestiary 4 pg 52, Pathfinder \#60: From Hell's Heart pg 80\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

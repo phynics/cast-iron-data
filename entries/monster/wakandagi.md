@@ -31,8 +31,6 @@ _This antlered beast combines the features of an elegant deer and a slithering s
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -43,7 +41,7 @@ _This antlered beast combines the features of an elegant deer and a slithering s
 
 **Perception:** +23
 
-**Senses:** Detect evil, Detect magic, Low-light vision, Mistsight, Scent
+**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision, Mistsight, Scent
 
 **Sources:** Bestiary 5 pg 273\
 **Subtype:** Native, Water

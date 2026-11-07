@@ -39,11 +39,11 @@ masts crafted from gigantic spines._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Perception:** +40
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 44\
 **Subtype:** Water

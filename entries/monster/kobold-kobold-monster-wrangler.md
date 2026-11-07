@@ -33,8 +33,6 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Kobold [cavalier](ref/class/cavalier) 2**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -42,6 +40,8 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 **Alignment:** Lawful evil
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

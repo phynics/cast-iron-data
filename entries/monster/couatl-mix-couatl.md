@@ -34,8 +34,6 @@ span the length of its body._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -44,7 +42,7 @@ span the length of its body._
 
 **Perception:** +20
 
-**Senses:** Detect chaos/evil/good/law, See in darkness
+**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law, See in darkness
 
 **Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 84\
 **Subtype:** Native

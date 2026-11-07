@@ -30,8 +30,6 @@ beak._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -41,6 +39,8 @@ beak._
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 80, Misfit Monsters Redeemed pg 18\
 **Experience points:** 400

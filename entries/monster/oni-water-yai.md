@@ -34,8 +34,6 @@ robes are soaking wet._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -44,7 +42,7 @@ robes are soaking wet._
 
 **Perception:** +26
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 212\
 **Subtype:** Aquatic, Giant, Native, Oni, Shapechanger, Water

@@ -33,8 +33,6 @@ vortex of mist and wind._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -42,6 +40,8 @@ vortex of mist and wind._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 139\
 **Subtype:** Air, Extraplanar

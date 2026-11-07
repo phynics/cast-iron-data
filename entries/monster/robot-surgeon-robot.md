@@ -36,8 +36,6 @@ from its body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
@@ -46,7 +44,7 @@ from its body._
 
 **Perception:** +22
 
-**Senses:** Low-light vision, Superior optics
+**Senses:** Darkvision 60 ft., Low-light vision, Superior optics
 
 **Sources:** Pathfinder \#89: Palace of Fallen Stars pg 90\
 **Subtype:** Robot

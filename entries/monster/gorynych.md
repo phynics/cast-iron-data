@@ -34,15 +34,13 @@ behind three sets of fangs._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
 
 **Perception:** +23
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 137\
 **Experience points:** 51,200

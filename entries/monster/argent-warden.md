@@ -35,8 +35,6 @@ glowing golden light within._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful good
@@ -45,7 +43,7 @@ glowing golden light within._
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Planar Adventures pg 228\
 **Subtype:** Extraplanar

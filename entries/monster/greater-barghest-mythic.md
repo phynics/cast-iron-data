@@ -34,8 +34,6 @@ bat and wolf._
 
 **Mythic rank:** 2
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -46,7 +44,7 @@ bat and wolf._
 
 **Perception:** +16
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Mythic Adventures pg 179\
 **Subtype:** Evil, Extraplanar, Lawful, Mythic, Shapechanger

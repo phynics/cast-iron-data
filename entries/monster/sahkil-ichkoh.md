@@ -32,8 +32,6 @@ place of an insectile head._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -44,7 +42,7 @@ place of an insectile head._
 
 **Perception:** +15
 
-**Senses:** Detect good, Detect magic, Low-light vision, See invisibility
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
 
 **Sources:** Bestiary 6 pg 243\
 **Subtype:** Evil, Extraplanar, Sahkil

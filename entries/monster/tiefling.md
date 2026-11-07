@@ -34,8 +34,6 @@ something more than human._
 
 **Tiefling [rogue](ref/class/rogue) 1**
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -45,6 +43,8 @@ something more than human._
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 264\
 **Subtype:** Native

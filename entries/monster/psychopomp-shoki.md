@@ -32,8 +32,6 @@ snail-backed creature upright._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -44,8 +42,8 @@ snail-backed creature upright._
 
 **Perception:** +22
 
-**Senses:** Detect chaos, Detect evil, Detect good, Detect law, Detect magic, Low-light vision,
-Spirit-sense
+**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, Detect magic,
+Low-light vision, Spirit-sense
 
 **Sources:** Bestiary 6 pg 222, Inner Sea Bestiary pg 40\
 **Subtype:** Extraplanar, Psychopomp

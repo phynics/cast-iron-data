@@ -33,8 +33,6 @@ pulses with energy._
 
 **blindsight:** 30
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -44,6 +42,8 @@ pulses with energy._
 **Alignment:** Neutral
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 17\
 **thoughtsense:** 60

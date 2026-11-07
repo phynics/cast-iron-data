@@ -28,8 +28,6 @@ _This glossy blue-black beetle is the size of a cow._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -37,6 +35,8 @@ _This glossy blue-black beetle is the size of a cow._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Bestiary pg 5\
 **Type:** vermin

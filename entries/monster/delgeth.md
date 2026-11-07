@@ -30,8 +30,6 @@ and bursts into flame._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -42,7 +40,7 @@ and bursts into flame._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 71, Tears at Bitter Manor pg 59\
 **Experience points:** 2,400

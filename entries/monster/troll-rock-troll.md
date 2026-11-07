@@ -32,8 +32,6 @@ underbite holds large, crystalline teeth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +1
@@ -42,7 +40,7 @@ underbite holds large, crystalline teeth._
 
 **Perception:** +6
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 272\
 **Subtype:** Earth, Giant

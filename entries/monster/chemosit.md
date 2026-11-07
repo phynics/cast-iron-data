@@ -32,8 +32,6 @@ savagery._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -44,7 +42,7 @@ savagery._
 
 **Perception:** +2
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#38: Racing to Ruin pg 86\
 **Experience points:** 1,200

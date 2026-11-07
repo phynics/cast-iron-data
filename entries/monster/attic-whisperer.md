@@ -31,13 +31,13 @@ a head._
 
 **aura:** sobs (10 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -33,8 +33,6 @@ moves._
 
 **Mythic rank:** 5
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +15
@@ -44,6 +42,8 @@ moves._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 193\
 **Subtype:** Air, Elemental, Extraplanar, Mythic

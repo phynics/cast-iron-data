@@ -31,8 +31,6 @@ maw._
 
 **Type:** animal
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +1
@@ -41,7 +39,7 @@ maw._
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 91\
 **Experience points:** 4,800

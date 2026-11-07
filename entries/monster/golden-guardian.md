@@ -32,8 +32,6 @@ exquisite detail into an eerie replica of a human face._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -42,7 +40,7 @@ exquisite detail into an eerie replica of a human face._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** City of Golden Death pg 29\
 **Experience points:** 2,400

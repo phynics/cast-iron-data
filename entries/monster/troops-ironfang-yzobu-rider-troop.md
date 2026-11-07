@@ -32,8 +32,6 @@ _These hobgoblin knights ride atop brutish stinking yaks that paw the ground ang
 
 **aura:** [stench](ref/umr/stench) (DC 30, 10 rounds)
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +5
@@ -43,6 +41,8 @@ _These hobgoblin knights ride atop brutish stinking yaks that paw the ground ang
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 89\
 **Subtype:** Goblinoid, Troop

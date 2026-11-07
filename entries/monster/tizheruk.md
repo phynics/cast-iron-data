@@ -30,8 +30,6 @@ revealing its red-and-brown organs._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -42,7 +40,7 @@ revealing its red-and-brown organs._
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 249, Tears at Bitter Manor pg 63\
 **Experience points:** 1,600

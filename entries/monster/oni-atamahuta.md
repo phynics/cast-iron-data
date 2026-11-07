@@ -32,8 +32,6 @@ and tattoos decorating its forehead._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -44,7 +42,7 @@ and tattoos decorating its forehead._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#51: The Hungry Storm pg 86\
 **Subtype:** Oni, Giant, Native, Shapechanger

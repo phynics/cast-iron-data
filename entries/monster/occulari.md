@@ -38,13 +38,11 @@ from each eyelid, forming makeshift fanged maws._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Perception:** +26
 
-**Senses:** All-around vision, True seeing
+**Senses:** All-around vision, Darkvision 60 ft., True seeing
 
 **Sources:** Down the Blighted Path pg 57\
 **Subtype:** Swarm

@@ -31,13 +31,13 @@ emanates from the dreadful mass._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral evil
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#141: Last Watch pg 90\
 **Subtype:** Swarm

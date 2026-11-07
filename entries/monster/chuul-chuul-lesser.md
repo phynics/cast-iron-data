@@ -36,13 +36,13 @@ within its jaws._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#122: Into the Shattered Continent pg 82\
 **Subtype:** Aquatic

@@ -32,8 +32,6 @@ etched with jagged scars._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ etched with jagged scars._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 185\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

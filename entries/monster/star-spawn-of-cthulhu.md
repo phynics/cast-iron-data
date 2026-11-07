@@ -39,13 +39,13 @@ writhing mass of tentacles._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
 
 **Perception:** +37
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 254, Pathfinder \#46: Wake of the Watcher pg 90\
 **Experience points:** 307,200

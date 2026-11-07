@@ -33,8 +33,6 @@ ending in curved blades._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -43,7 +41,7 @@ ending in curved blades._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 69, Pathfinder \#15: The Armageddon Echo pg 84\
 **Experience points:** 2,400

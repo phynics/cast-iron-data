@@ -33,8 +33,6 @@ _A tall, handsome woman sits astride a white horse. She grips an elegant longbow
 
 **aura:** blinding light (30 ft., DC 23)
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +7
@@ -45,7 +43,7 @@ _A tall, handsome woman sits astride a white horse. She grips an elegant longbow
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 55\
 **Experience points:** 12,800

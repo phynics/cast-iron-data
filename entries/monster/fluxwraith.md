@@ -33,8 +33,6 @@ encircle it, each fragment reflecting younger or older versions of itself._
 
 **aura:** slow aura (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Lifesense:** present
@@ -44,6 +42,8 @@ encircle it, each fragment reflecting younger or older versions of itself._
 **Alignment:** Neutral evil
 
 **Perception:** +37
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#126: Beyond the Veiled Past pg 86\
 **Subtype:** Incorporeal

@@ -31,8 +31,6 @@ _This shabby-cloaked figure is surrounded by hundreds of bees._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -41,7 +39,7 @@ _This shabby-cloaked figure is surrounded by hundreds of bees._
 
 **Perception:** +18
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Andoran, Birthplace of Freedom pg 51\
 **Experience points:** 6,400

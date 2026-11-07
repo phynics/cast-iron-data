@@ -32,8 +32,6 @@ from its narrow face._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -41,6 +39,8 @@ from its narrow face._
 **Type:** Monstrous humanoid
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 194, Pathfinder \#16: Endless Night pg 88\
 **Experience points:** 2,400

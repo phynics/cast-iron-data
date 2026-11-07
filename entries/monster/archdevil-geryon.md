@@ -34,8 +34,6 @@ immense serpents._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), shield of law (DC 29)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -46,7 +44,7 @@ immense serpents._
 
 **Perception:** +47
 
-**Senses:** Detect chaos, Detect good, Scent, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect good, Scent, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 24\
 **Subtype:** Aquatic, Devil, Evil, Extraplanar, Lawful

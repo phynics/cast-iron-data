@@ -31,8 +31,6 @@ crisscross its body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -41,7 +39,7 @@ crisscross its body._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 240\
 **Experience points:** 800

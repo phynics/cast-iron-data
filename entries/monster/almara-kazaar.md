@@ -34,8 +34,6 @@ warhammer._
 
 **Female duergar [warpriest](ref/class/warpriest) of [Droskar](ref/faith/droskar) 11**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +1
@@ -45,6 +43,8 @@ warhammer._
 **Size:** medium
 
 **Perception:** +3
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Darklands Revisited pg 15\
 **Subtype:** Dwarf

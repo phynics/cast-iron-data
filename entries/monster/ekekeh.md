@@ -30,8 +30,6 @@ electricity crackling between them._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +7
@@ -44,7 +42,7 @@ electricity crackling between them._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** The First World, Realm of the Fey pg 60\
 **Subtype:** Aquatic

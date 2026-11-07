@@ -33,8 +33,6 @@ aggressively._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -43,7 +41,7 @@ aggressively._
 
 **Perception:** +10
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 185\
 **Experience points:** 2,400

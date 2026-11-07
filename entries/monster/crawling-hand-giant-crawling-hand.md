@@ -32,8 +32,6 @@ pulses and crawls with sickly boils._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -41,6 +39,8 @@ pulses and crawls with sickly boils._
 **Alignment:** Neutral evil
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 59\
 **Type:** undead

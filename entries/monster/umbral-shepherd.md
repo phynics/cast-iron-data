@@ -30,8 +30,6 @@ grub-like body._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -41,6 +39,8 @@ grub-like body._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Bestiary pg 53\
 **Subtype:** Incorporeal

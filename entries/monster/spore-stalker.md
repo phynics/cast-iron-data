@@ -30,8 +30,6 @@ its fanged maw._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -40,7 +38,7 @@ its fanged maw._
 
 **Perception:** +14
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

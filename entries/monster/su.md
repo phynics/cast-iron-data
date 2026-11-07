@@ -33,8 +33,6 @@ clinging to its back._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** Magical beast
@@ -43,7 +41,7 @@ clinging to its back._
 
 **Perception:** +10
 
-**Senses:** All-around vision, Low-light vision, Scent
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 238\
 **Experience points:** 4,800

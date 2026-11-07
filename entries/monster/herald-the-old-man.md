@@ -35,8 +35,6 @@ adorned with metal rings._
 
 **blindsight:** 30
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful neutral
@@ -49,7 +47,7 @@ adorned with metal rings._
 
 **Perception:** +30
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 294, Pathfinder \#53: Tide of Honor pg 86\
 **Subtype:** Extraplanar, Lawful

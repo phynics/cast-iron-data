@@ -33,8 +33,6 @@ the distant sound of thunder._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -43,7 +41,7 @@ the distant sound of thunder._
 
 **Perception:** +10
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Inner Sea Bestiary pg 8\
 **Experience points:** 1,600

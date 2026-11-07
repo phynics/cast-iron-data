@@ -32,13 +32,13 @@ _The droning and spastic movements of this cloud of hungry mosquitoes promise a 
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 193, Rivers into Darkness pg 29\
 **Subtype:** Swarm

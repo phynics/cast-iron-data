@@ -30,8 +30,6 @@ strips of bloody linen._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -40,7 +38,7 @@ strips of bloody linen._
 
 **Perception:** +19
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 125, Isles of the Shackles pg 49\
 **Type:** undead

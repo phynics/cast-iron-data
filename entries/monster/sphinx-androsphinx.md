@@ -31,8 +31,6 @@ _This regal, bird-winged lion has a human's head, clad in the golden raiment of 
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -41,7 +39,7 @@ _This regal, bird-winged lion has a human's head, clad in the golden raiment of 
 
 **Perception:** +23
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 251\
 **Experience points:** 6,400

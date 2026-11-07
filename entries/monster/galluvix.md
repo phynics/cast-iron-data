@@ -30,8 +30,6 @@ of a fox from the neck up._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -40,7 +38,7 @@ of a fox from the neck up._
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 84\
 **Size:** tiny

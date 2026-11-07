@@ -34,8 +34,6 @@ shape._
 
 **aura:** eerie radiance (300 ft., DC 19)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -46,7 +44,7 @@ shape._
 
 **Perception:** +19
 
-**Senses:** Low-light vision, Spiritsense 60 ft.
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense 60 ft.
 
 **Sources:** Monster Summoner's Handbook pg 25\
 **Subtype:** Psychopomp, Extraplanar

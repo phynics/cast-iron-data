@@ -30,8 +30,6 @@ filthy dust._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +0
@@ -39,6 +37,8 @@ filthy dust._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 221, Pathfinder \#79: The Half-Dead City pg 89\
 **Subtype:** Swarm

@@ -37,8 +37,6 @@ deities._
 
 **Mythic rank:** 8
 
-**dv:** 60
-
 **Initiative:** +16/-4, [dual initiative](ref/umr/dual-initiative)
 
 **Alignment:** Lawful evil
@@ -47,7 +45,7 @@ deities._
 
 **Perception:** +23
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 192\
 **Subtype:** Mythic, Swarm

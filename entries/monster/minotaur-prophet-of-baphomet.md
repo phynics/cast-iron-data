@@ -35,8 +35,6 @@ cloud of heady incense about her form doesn't conceal the distinct scent of brim
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -44,6 +42,8 @@ cloud of heady incense about her form doesn't conceal the distinct scent of brim
 **Type:** Monstrous humanoid
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 45\
 **Experience points:** 25,600

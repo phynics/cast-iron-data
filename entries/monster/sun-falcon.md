@@ -34,8 +34,6 @@ shimmers with heat._
 
 **aura:** radiance (10 ft., DC 15)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful neutral
@@ -44,7 +42,7 @@ shimmers with heat._
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#79: The Half-Dead City pg 86\
 **Subtype:** Fire

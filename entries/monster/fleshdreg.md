@@ -31,15 +31,13 @@ jagged teeth and a slavering tongue._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +4
 
-**Senses:** Sin-scent
+**Senses:** Darkvision 60 ft., Sin-scent
 
 **Size:** small
 

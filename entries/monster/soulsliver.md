@@ -31,8 +31,6 @@ _This smooth-featured, humanoid creature appears to have skin made entirely of m
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -43,7 +41,7 @@ _This smooth-featured, humanoid creature appears to have skin made entirely of m
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 250\
 **Subtype:** Extraplanar, Shapechanger

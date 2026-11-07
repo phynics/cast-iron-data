@@ -30,8 +30,6 @@ shoulders._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -42,7 +40,7 @@ shoulders._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 39\
 **tremorsense:** 60

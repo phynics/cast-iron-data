@@ -34,8 +34,6 @@ carries a shining spear._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -44,7 +42,7 @@ carries a shining spear._
 
 **Perception:** +24
 
-**Senses:** Deathwatch
+**Senses:** Darkvision 60 ft., Deathwatch
 
 **Sources:** Bestiary 3 pg 277\
 **Subtype:** Extraplanar

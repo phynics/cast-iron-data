@@ -31,8 +31,6 @@ flippers rather than feet._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -43,7 +41,7 @@ flippers rather than feet._
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 270\
 **Subtype:** Native, Water

@@ -31,8 +31,6 @@ large, black, hook-like teeth._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
@@ -40,6 +38,8 @@ large, black, hook-like teeth._
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 249\
 **Subtype:** Aquatic

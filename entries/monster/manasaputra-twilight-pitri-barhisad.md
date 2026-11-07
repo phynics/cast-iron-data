@@ -34,8 +34,6 @@ _Cerulean light surrounds this towering four-armed figure in a vibrant corona._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 23)
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** large
@@ -45,6 +43,8 @@ _Cerulean light surrounds this towering four-armed figure in a vibrant corona._
 **Type:** outsider
 
 **Perception:** +35
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 168\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra

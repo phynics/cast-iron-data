@@ -35,8 +35,6 @@ swirl within its immense body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +10
@@ -47,7 +45,7 @@ swirl within its immense body._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 142\
 **Subtype:** Extraplanar

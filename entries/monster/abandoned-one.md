@@ -34,13 +34,13 @@ its is expression lost and forlorn._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Tears at Bitter Manor pg 56\
 **Type:** undead

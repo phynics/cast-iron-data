@@ -32,8 +32,6 @@ abilities = ["16", "10", "16", "12", "10", "15"]
 
 **Hobgoblin [samurai](ref/class/samurai) 13**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -43,6 +41,8 @@ abilities = ["16", "10", "16", "12", "10", "15"]
 **Size:** medium
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 123\
 **Subtype:** Goblinoid

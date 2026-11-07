@@ -36,8 +36,6 @@ tooth-filled beak._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +14
@@ -46,7 +44,7 @@ tooth-filled beak._
 
 **Perception:** +38
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Inner Sea World Guide pg 314, Pathfinder \#17: A Memory of Darkness pg 88\
 **Subtype:** Demon, Native

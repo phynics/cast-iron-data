@@ -36,8 +36,6 @@ its throat, below a circular, toothy maw dripping with luminescent spittle._
 
 **blindsight:** 60
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -45,6 +43,8 @@ its throat, below a circular, toothy maw dripping with luminescent spittle._
 **Alignment:** Neutral evil
 
 **Perception:** +29
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#114: Black Stars Beckon pg 90\
 **Experience points:** 51,200

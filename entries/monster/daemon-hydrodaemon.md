@@ -32,8 +32,6 @@ by a fanged maw._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -44,7 +42,7 @@ by a fanged maw._
 
 **Perception:** +15
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Bestiary 2 pg 67\
 **Subtype:** Aquatic, Daemon, Evil, Extraplanar

@@ -30,8 +30,6 @@ _This venomous snake is heavily armored and has unusually large fangs._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Type:** Magical beast
@@ -42,7 +40,7 @@ _This venomous snake is heavily armored and has unusually large fangs._
 
 **Perception:** +9
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 237\
 **Experience points:** 600

@@ -36,8 +36,6 @@ serpent slithers forward with a silent, unearthly grace._
 
 **aura:** desiccation (30 ft., 1d4 Cha damage, Fort DC 26 negates)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -47,6 +45,8 @@ serpent slithers forward with a silent, unearthly grace._
 **Alignment:** Neutral evil
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 86, Bestiary 3 pg 149\
 **Subtype:** Reptilian

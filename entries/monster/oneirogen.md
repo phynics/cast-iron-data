@@ -33,8 +33,6 @@ _This vague, humanoid figure seems to be the source of a bank of unnaturally col
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -42,6 +40,8 @@ _This vague, humanoid figure seems to be the source of a bank of unnaturally col
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#109: In Search of Sanity pg 88\
 **Subtype:** Native

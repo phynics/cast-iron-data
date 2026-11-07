@@ -31,8 +31,6 @@ with hooked teeth._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +11
@@ -43,7 +41,7 @@ with hooked teeth._
 
 **Perception:** +16
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 32\
 **Subtype:** Aquatic

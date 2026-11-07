@@ -36,8 +36,6 @@ eyeball she clutches in her claws._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -47,6 +45,8 @@ eyeball she clutches in her claws._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 134\
 **Subtype:** Evil, Mythic

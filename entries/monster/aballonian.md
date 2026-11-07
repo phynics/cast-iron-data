@@ -33,8 +33,6 @@ eyes searching._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -43,7 +41,7 @@ eyes searching._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Distant Worlds pg 58\
 **Experience points:** 3,200

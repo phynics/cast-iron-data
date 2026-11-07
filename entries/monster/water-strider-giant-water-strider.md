@@ -30,8 +30,6 @@ solid ground._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -39,6 +37,8 @@ solid ground._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 273\
 **tremorsense:** 60

@@ -38,8 +38,6 @@ thing's reptilian head._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -47,6 +45,8 @@ thing's reptilian head._
 **Type:** outsider
 
 **Perception:** +33
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 215, The Great Beyond - A Guide to the Multiverse pg 60\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

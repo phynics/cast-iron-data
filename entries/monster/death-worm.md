@@ -30,8 +30,6 @@ teeth._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -42,7 +40,7 @@ teeth._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 76\
 **tremorsense:** 60

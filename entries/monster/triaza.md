@@ -35,8 +35,6 @@ as scattered pieces of armor. She wields a wicked two-pronged blade._
 
 **Female urdefhan [magus](ref/class/magus) 7**
 
-**dv:** 120
-
 **Initiative:** +7
 
 **Size:** medium
@@ -46,6 +44,8 @@ as scattered pieces of armor. She wields a wicked two-pronged blade._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Darklands Revisited pg 56\
 **Subtype:** Native

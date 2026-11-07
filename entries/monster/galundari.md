@@ -39,8 +39,6 @@ a whip of flames._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -49,7 +47,7 @@ a whip of flames._
 
 **Perception:** +43
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Demons Revisited pg 14\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

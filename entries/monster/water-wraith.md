@@ -33,8 +33,6 @@ change color to match its surroundings._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -43,7 +41,7 @@ change color to match its surroundings._
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 59\
 **Subtype:** Aquatic

@@ -32,8 +32,6 @@ new prisoners._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -42,7 +40,7 @@ new prisoners._
 
 **Perception:** -5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 14, Ultimate Magic pg 111, Pathfinder \#30: The Twice-Damned
 Prince pg 68, Pathfinder \#43: Haunting of Harrowstone pg 80\

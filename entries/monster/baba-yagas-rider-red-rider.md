@@ -31,8 +31,6 @@ a goat, ending in cloven hooves._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +9
@@ -43,7 +41,7 @@ a goat, ending in cloven hooves._
 
 **Perception:** +23
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 54\
 **Experience points:** 19,200

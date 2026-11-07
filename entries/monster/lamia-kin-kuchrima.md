@@ -34,8 +34,6 @@ in its taloned feet._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -44,7 +42,7 @@ in its taloned feet._
 
 **Perception:** +19
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 411, Pathfinder \#6: Spires of Xin-Shalast
 pg 80\

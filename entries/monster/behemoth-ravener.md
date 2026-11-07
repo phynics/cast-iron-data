@@ -38,8 +38,6 @@ charges._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** -2
 
 **Type:** Magical beast
@@ -48,7 +46,7 @@ charges._
 
 **Perception:** +17
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 78\
 **Experience points:** 153,600

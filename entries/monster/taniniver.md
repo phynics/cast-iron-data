@@ -33,8 +33,6 @@ maggots and oozing pus._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +4
@@ -43,7 +41,7 @@ maggots and oozing pus._
 
 **Perception:** +26
 
-**Senses:** Deathwatch
+**Senses:** Darkvision 120 ft., Deathwatch
 
 **Sources:** Bestiary 4 pg 258\
 **Experience points:** 153,600

@@ -33,8 +33,6 @@ _This centaur-like creature is equipped with an ant's mandibles and antennae._
 
 **blindsight:** 30
 
-**dv:** 60
-
 **Initiative:** +2 (+6 with hive mind)
 
 **Alignment:** Lawful neutral
@@ -45,7 +43,7 @@ _This centaur-like creature is equipped with an ant's mandibles and antennae._
 
 **Perception:** +16 (+20 with hive mind)
 
-**Senses:** Hive mind
+**Senses:** Darkvision 60 ft., Hive mind
 
 **Sources:** Bestiary 4 pg 111\
 **Experience points:** 3,200

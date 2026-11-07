@@ -33,8 +33,6 @@ _This faceless construct has a crystal wand set into its chest, bristling with a
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -43,7 +41,7 @@ _This faceless construct has a crystal wand set into its chest, bristling with a
 
 **Perception:** +2
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 32\
 **Subtype:** Clockwork

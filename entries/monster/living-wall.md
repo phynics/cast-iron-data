@@ -33,8 +33,6 @@ limbs, topped with a dragon skull._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -4
 
 **Size:** large
@@ -43,7 +41,7 @@ limbs, topped with a dragon skull._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 182\
 **Experience points:** 1,200

@@ -33,13 +33,13 @@ over everything in its path._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 58\
 **Subtype:** Swarm

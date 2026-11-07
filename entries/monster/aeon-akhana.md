@@ -32,8 +32,6 @@ appendage dangles._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -44,7 +42,7 @@ appendage dangles._
 
 **Perception:** +19
 
-**Senses:** Deathwatch
+**Senses:** Darkvision 60 ft., Deathwatch
 
 **Sources:** Bestiary 2 pg 9\
 **Subtype:** Aeon, Extraplanar

@@ -35,8 +35,6 @@ atop its humanoid torso._
 
 **Alignment:** Chaotic evil
 
-**dv:** 90
-
 **Initiative:** +12
 
 **Size:** large
@@ -45,7 +43,8 @@ atop its humanoid torso._
 
 **Perception:** +22
 
-**Senses:** All-around vision, Low-light vision, Mistsight, Scent, See in darkness
+**Senses:** All-around vision, Darkvision 90 ft., Low-light vision, Mistsight, Scent, See in
+darkness
 
 **Sources:** Bestiary 5 pg 236, Pathfinder \#70: The Frozen Stars pg 84\
 **Experience points:** 51,200

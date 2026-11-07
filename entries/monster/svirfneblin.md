@@ -35,8 +35,6 @@ expressive._
 
 **Svirfneblin [ranger](ref/class/ranger) 1**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -45,7 +43,7 @@ expressive._
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Size:** small
 

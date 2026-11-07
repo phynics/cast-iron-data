@@ -33,8 +33,6 @@ liquid shadow._
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -45,7 +43,7 @@ liquid shadow._
 
 **Perception:** +23
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Cradle of Night pg 64\
 **Subtype:** Extraplanar

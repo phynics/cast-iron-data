@@ -37,13 +37,11 @@ dance in the cracks of its bark._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Perception:** +32
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

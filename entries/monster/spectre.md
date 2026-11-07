@@ -33,8 +33,6 @@ into a hideous mask._
 
 **aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful evil
@@ -42,6 +40,8 @@ into a hideous mask._
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 256\
 **Subtype:** Incorporeal

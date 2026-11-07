@@ -32,8 +32,6 @@ vines._
 
 **aura:** preserving mists (30 ft.)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -42,7 +40,7 @@ vines._
 
 **Perception:** +21
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

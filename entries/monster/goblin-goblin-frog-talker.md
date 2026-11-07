@@ -32,8 +32,6 @@ abilities = ["6", "17", "14", "16", "12", "8"]
 
 **Goblin [witch](ref/class/witch) 6**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -41,6 +39,8 @@ abilities = ["6", "17", "14", "16", "12", "8"]
 **Alignment:** Neutral evil
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

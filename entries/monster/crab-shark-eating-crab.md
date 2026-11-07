@@ -32,8 +32,6 @@ wildly, eager for prey._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -41,6 +39,8 @@ wildly, eager for prey._
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 60\
 **Subtype:** Aquatic

@@ -31,8 +31,6 @@ scaly hide, and tail of a crocodile._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -43,7 +41,7 @@ scaly hide, and tail of a crocodile._
 
 **Perception:** +22
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 262\
 **Subtype:** Aquatic, Augmented animal

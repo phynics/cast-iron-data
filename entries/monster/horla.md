@@ -35,11 +35,11 @@ against the skin._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

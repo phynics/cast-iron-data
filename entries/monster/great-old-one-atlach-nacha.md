@@ -37,8 +37,6 @@ all the more horrifying by the all-too-human appearance of its baleful visage._
 
 **aura:** unspeakable presence (300 ft., DC 35)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +23
@@ -47,7 +45,7 @@ all the more horrifying by the all-too-human appearance of its baleful visage._
 
 **Perception:** +46
 
-**Senses:** See in darkness, True seeing
+**Senses:** Darkvision 60 ft., See in darkness, True seeing
 
 **Sources:** Pathfinder \#112: The Whisper Out of Time pg 84\
 **Subtype:** Evil, Great Old One

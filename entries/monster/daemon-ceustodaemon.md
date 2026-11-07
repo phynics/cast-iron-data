@@ -31,8 +31,6 @@ horned ape._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -43,7 +41,7 @@ horned ape._
 
 **Perception:** +15
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
 
 **Sources:** Bestiary 2 pg 65\
 **Subtype:** Daemon, Evil, Extraplanar

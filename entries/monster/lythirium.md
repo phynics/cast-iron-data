@@ -32,8 +32,6 @@ antler-like growths on its head._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -42,7 +40,7 @@ antler-like growths on its head._
 
 **Perception:** +22
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Type:** plant
 

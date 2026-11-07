@@ -33,8 +33,6 @@ sacrificial dagger above its head, its bejeweled eyes seeming to glint with murd
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -43,7 +41,7 @@ sacrificial dagger above its head, its bejeweled eyes seeming to glint with murd
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 82\
 **Experience points:** 3,200

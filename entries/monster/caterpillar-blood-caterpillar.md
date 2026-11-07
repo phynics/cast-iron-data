@@ -30,8 +30,6 @@ _This enormous caterpillar is covered with hundreds of sharp, poisonous bristles
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -39,6 +37,8 @@ _This enormous caterpillar is covered with hundreds of sharp, poisonous bristles
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 51\
 **Type:** vermin

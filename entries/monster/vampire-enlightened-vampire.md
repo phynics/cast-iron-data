@@ -31,8 +31,6 @@ abilities = ["22", "20", "-", "14", "18", "16"]
 
 **Human vampire [monk](ref/class/monk) ([hungry ghost monk](ref/arc-monk/hungry-ghost-monk)) 11**
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ abilities = ["22", "20", "-", "14", "18", "16"]
 **Size:** medium
 
 **Perception:** +30
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 242\
 **Subtype:** Augmented humanoid, Human

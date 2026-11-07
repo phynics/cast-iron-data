@@ -31,8 +31,6 @@ dust._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -42,6 +40,8 @@ dust._
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Feast of Dust pg 63\
 **Subtype:** Evil, Extraplanar

@@ -32,13 +32,13 @@ a meditative, deadly stance._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Bestiary pg 30\
 **Type:** vermin

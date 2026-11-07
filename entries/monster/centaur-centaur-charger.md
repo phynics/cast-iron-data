@@ -34,8 +34,6 @@ and shield with the majesty and prowess of any human knight._
 
 **Centaur [cavalier](ref/class/cavalier) ([charger](ref/arc-cavalier/charger)) 11**
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -45,6 +43,8 @@ and shield with the majesty and prowess of any human knight._
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 9\
 **Experience points:** 38,400

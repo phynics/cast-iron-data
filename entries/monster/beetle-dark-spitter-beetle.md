@@ -28,8 +28,6 @@ _This large beetle's black, shiny exoskeleton clicks and grinds as it opens its 
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -37,6 +35,8 @@ _This large beetle's black, shiny exoskeleton clicks and grinds as it opens its 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 52\
 **Type:** vermin

@@ -32,8 +32,6 @@ than a colorful silk sarong and a thin, flexible blade worn as a belt._
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ than a colorful silk sarong and a thin, flexible blade worn as a belt._
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#130: City in the Lion's Eye pg 90\
 **Subtype:** Native, Rakshasa, Shapechanger

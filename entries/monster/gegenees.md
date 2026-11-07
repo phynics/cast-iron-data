@@ -34,8 +34,6 @@ jaw._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -44,7 +42,7 @@ jaw._
 
 **Perception:** +24
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 118\
 **Subtype:** Giant

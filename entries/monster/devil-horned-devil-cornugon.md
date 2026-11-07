@@ -32,8 +32,6 @@ whirling barbed chain._
 
 **aura:** fear aura (5 ft., DC 23)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -44,7 +42,7 @@ whirling barbed chain._
 
 **Perception:** +24
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 76\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

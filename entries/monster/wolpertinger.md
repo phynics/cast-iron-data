@@ -28,8 +28,6 @@ _This creature appears to be a large hare with long fangs, feathered wings, and 
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
@@ -38,7 +36,7 @@ _This creature appears to be a large hare with long fangs, feathered wings, and 
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#61: Shards of Sin pg 87\
 **Size:** tiny

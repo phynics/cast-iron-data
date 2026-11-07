@@ -32,8 +32,6 @@ the open cover of some great tome like a metal- and leather-bound mask._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -43,6 +41,8 @@ the open cover of some great tome like a metal- and leather-bound mask._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 86\
 **Subtype:** Extraplanar, Lawful

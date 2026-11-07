@@ -31,8 +31,6 @@ _This massive lion's fur and skin shimmer with a golden sheen._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -41,7 +39,7 @@ _This massive lion's fur and skin shimmer with a golden sheen._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#132: The Six-Legend Soul pg 86\
 **Experience points:** 38,400

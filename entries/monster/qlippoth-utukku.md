@@ -34,8 +34,6 @@ tentacles stretch from its shoulders._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -43,6 +41,8 @@ tentacles stretch from its shoulders._
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 230\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth, Shapechanger

@@ -33,8 +33,6 @@ _Glowing motes of electricity dance over this massive ursine creature's hairless
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -43,7 +41,7 @@ _Glowing motes of electricity dance over this massive ursine creature's hairless
 
 **Perception:** +13
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Seers of the Drowned City pg 59\
 **Experience points:** 3,200

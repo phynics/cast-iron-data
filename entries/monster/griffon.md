@@ -29,8 +29,6 @@ pair of feathered wings._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -41,7 +39,7 @@ pair of feathered wings._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 168\
 **Experience points:** 1,200

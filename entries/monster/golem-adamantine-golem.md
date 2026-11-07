@@ -32,8 +32,6 @@ burn atop its crown and back._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -1
@@ -42,7 +40,7 @@ burn atop its crown and back._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 134\
 **Experience points:** 204,800

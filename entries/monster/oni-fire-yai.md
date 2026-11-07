@@ -33,8 +33,6 @@ ember._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,7 +43,7 @@ ember._
 
 **Perception:** +23
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 206\
 **Subtype:** Fire, Giant, Native, Oni, Shapechanger

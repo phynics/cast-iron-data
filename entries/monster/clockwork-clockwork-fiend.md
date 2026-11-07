@@ -33,8 +33,6 @@ _Resembling a metallic horned devil, this apparatus whirs with the sound of inte
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** medium
@@ -43,7 +41,7 @@ _Resembling a metallic horned devil, this apparatus whirs with the sound of inte
 
 **Perception:** +0
 
-**Senses:** Low-light vision, See in darkness
+**Senses:** Darkvision 60 ft., Low-light vision, See in darkness
 
 **Sources:** Bestiary 6 pg 60\
 **Subtype:** Clockwork

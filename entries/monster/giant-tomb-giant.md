@@ -32,8 +32,6 @@ hands._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -44,7 +42,7 @@ hands._
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 84, Bestiary 6 pg 136\
 **Subtype:** Giant

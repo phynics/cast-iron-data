@@ -33,8 +33,6 @@ eyes._
 
 **Hobgoblin [fighter](ref/class/fighter) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -44,6 +42,8 @@ eyes._
 **Size:** medium
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 175\
 **Subtype:** Goblinoid

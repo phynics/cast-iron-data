@@ -34,8 +34,6 @@ tail ends in a razor-sharp blade._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -44,7 +42,7 @@ tail ends in a razor-sharp blade._
 
 **Perception:** +12
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 144\
 **Subtype:** Aquatic

@@ -30,8 +30,6 @@ warrior woman._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -39,6 +37,8 @@ warrior woman._
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Bestiary pg 37\
 **Type:** undead

@@ -32,8 +32,6 @@ to be mostly mouth._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -41,6 +39,8 @@ to be mostly mouth._
 **Alignment:** Neutral evil
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 269, Pathfinder \#3: The Hook Mountain Massacre pg 82\
 **Subtype:** Shapechanger

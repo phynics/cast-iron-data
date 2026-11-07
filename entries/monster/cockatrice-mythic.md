@@ -34,8 +34,6 @@ seem made of stone._
 
 **aura:** petrification (30 feet)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
@@ -44,7 +42,7 @@ seem made of stone._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

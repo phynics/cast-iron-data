@@ -32,13 +32,13 @@ _This desiccated corpse wields a greatsword, its eyes blazing with eerie red lig
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Andoran, Birthplace of Freedom pg 58\
 **Type:** undead

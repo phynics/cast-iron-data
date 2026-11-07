@@ -31,8 +31,6 @@ ends in a hissing viper's head._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -43,7 +41,7 @@ ends in a hissing viper's head._
 
 **Perception:** +20
 
-**Senses:** Detect good
+**Senses:** Darkvision 60 ft., Detect good
 
 **Sources:** Bestiary 6 pg 70, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 46\
 **Subtype:** Daemon, Evil, Extraplanar, Shapechanger

@@ -34,13 +34,13 @@ maws protruding from its back._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 84\
 **Subtype:** Aquatic

@@ -30,8 +30,6 @@ for two glowing gemstone eyes._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Alignment:** Neutral
@@ -39,6 +37,8 @@ for two glowing gemstone eyes._
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -140,8 +140,6 @@ that makes up parts of an earth elemental's body.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -151,6 +149,8 @@ that makes up parts of an earth elemental's body.
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 122\
 **Subtype:** Earth, Elemental, Extraplanar
@@ -205,8 +205,6 @@ Bonus feat.
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -216,6 +214,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 122\
 **Subtype:** Earth, Elemental, Extraplanar
@@ -276,8 +276,6 @@ Bonus feat.
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -1
@@ -287,6 +285,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 122\
 **Subtype:** Earth, Elemental, Extraplanar
@@ -348,8 +348,6 @@ Bonus feat.
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -1
@@ -359,6 +357,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 123\
 **Subtype:** Earth, Elemental, Extraplanar
@@ -420,8 +420,6 @@ Bonus feat.
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -1
@@ -431,6 +429,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 123\
 **Subtype:** Earth, Elemental, Extraplanar

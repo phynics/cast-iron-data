@@ -34,8 +34,6 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Kobold [bard](ref/class/bard) ([dragon yapper](ref/arc-bard/dragon-yapper)) 8**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -43,6 +41,8 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 **Alignment:** Lawful evil
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

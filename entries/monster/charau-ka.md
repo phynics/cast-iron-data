@@ -33,8 +33,6 @@ man._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +1
@@ -43,7 +41,7 @@ man._
 
 **Perception:** +2
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

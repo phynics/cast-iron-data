@@ -41,15 +41,13 @@ and wings in a violent manner._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +5
 
 **Perception:** +38
 
-**Senses:** Low-light vision, Scent, True seeing
+**Senses:** Darkvision 120 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 2 pg 168\
 **Subtype:** Air, Fire

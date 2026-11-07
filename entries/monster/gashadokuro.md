@@ -32,8 +32,6 @@ massive skeleton._
 
 **aura:** starvation (60 ft., DC 25)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -41,6 +39,8 @@ massive skeleton._
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 121, Pathfinder \#54: The Empty Throne pg 84\
 **Type:** undead

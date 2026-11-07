@@ -33,8 +33,6 @@ in the center of its chest._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -42,6 +40,8 @@ in the center of its chest._
 **Type:** outsider
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 34, Pathfinder \#42: Sanctum of the Serpent God pg 80\
 **Subtype:** Chaotic, Evil, Extraplanar

@@ -37,8 +37,6 @@ legs._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral
@@ -47,7 +45,7 @@ legs._
 
 **Perception:** +32
 
-**Senses:** Low-light vision, Spiritsense, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense, True seeing
 
 **Sources:** Concordance of Rivals pg 60\
 **Subtype:** Extraplanar, Psychopomp

@@ -35,8 +35,6 @@ its mouth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,6 +42,8 @@ its mouth._
 **Type:** Monstrous humanoid
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 198\
 **Subtype:** Earth, Mythic

@@ -33,8 +33,6 @@ blade he effortlessly wields._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -45,7 +43,7 @@ blade he effortlessly wields._
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 89\
 **Experience points:** 200

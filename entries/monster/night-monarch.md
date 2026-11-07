@@ -36,8 +36,6 @@ drifts from its gigantic wings._
 
 **Alignment:** Chaotic good
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +10
@@ -47,6 +45,8 @@ drifts from its gigantic wings._
 **Type:** outsider
 
 **Perception:** +29
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Inner Sea Gods pg 284\
 **Subtype:** Chaotic, Extraplanar, Good

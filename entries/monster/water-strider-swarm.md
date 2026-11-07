@@ -33,13 +33,13 @@ skimming over it in a wave of twitching bodies._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#49: The Brinewall Legacy pg 82\
 **Subtype:** Swarm

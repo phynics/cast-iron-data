@@ -35,8 +35,6 @@ hefting its grisly armor with ease._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Type:** humanoid
@@ -46,6 +44,8 @@ hefting its grisly armor with ease._
 **Alignment:** Lawful evil
 
 **Perception:** +29
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 84\
 **Subtype:** Evil, Extraplanar, Giant, Lawful

@@ -34,8 +34,6 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Kobold [cleric](ref/class/cleric) of [Asmodeus](ref/faith/asmodeus) 8**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -43,6 +41,8 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 **Alignment:** Lawful evil
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

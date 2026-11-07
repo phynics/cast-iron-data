@@ -29,8 +29,6 @@ _A distressingly humanoid face and stubby arms grow from this maggot-like creatu
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +10
@@ -41,7 +39,7 @@ _A distressingly humanoid face and stubby arms grow from this maggot-like creatu
 
 **Perception:** +12
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 27\
 **Experience points:** 1,600

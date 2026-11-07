@@ -32,8 +32,6 @@ long, lolling tongue._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ long, lolling tongue._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 48\
 **Subtype:** Native, Rakshasa, Shapechanger

@@ -36,8 +36,6 @@ hungry, reptilian eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -45,6 +43,8 @@ hungry, reptilian eyes._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 62\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar

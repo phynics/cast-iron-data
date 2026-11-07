@@ -35,8 +35,6 @@ intentions clear._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -45,7 +43,7 @@ intentions clear._
 
 **Perception:** -1
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#112: The Whisper Out of Time pg 82\
 **Subtype:** Clockwork

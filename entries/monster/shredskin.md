@@ -31,15 +31,13 @@ lower half is in tatters._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral evil
 
 **Perception:** +7
 
-**Senses:** Detect undead
+**Senses:** Darkvision 60 ft., Detect undead
 
 **Size:** small
 

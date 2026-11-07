@@ -33,8 +33,6 @@ an agonizing death._
 
 **Male advanced muck bunyip**
 
-**dv:** 60
-
 **Initiative:** +5
 
 **keenScent:** 180
@@ -47,7 +45,7 @@ an agonizing death._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 9\
 **Subtype:** Aquatic

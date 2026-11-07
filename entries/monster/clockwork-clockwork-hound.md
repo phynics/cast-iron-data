@@ -34,15 +34,13 @@ body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Neutral
 
 **Perception:** +3
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

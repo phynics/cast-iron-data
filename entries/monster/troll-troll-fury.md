@@ -33,8 +33,6 @@ abilities = ["23", "14", "27", "8", "16", "4"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
@@ -43,7 +41,7 @@ abilities = ["23", "14", "27", "8", "16", "4"]
 
 **Perception:** +24
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Monster Codex pg 229\
 **Subtype:** Giant

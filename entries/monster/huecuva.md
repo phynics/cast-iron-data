@@ -34,13 +34,13 @@ in a silent scream._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 150, Bonus Bestiary pg 12\
 **Type:** undead

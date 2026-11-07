@@ -32,13 +32,13 @@ _This bloodshot eyeball trails strands of bloody nerves that fan out like flappi
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 159\
 **Type:** undead

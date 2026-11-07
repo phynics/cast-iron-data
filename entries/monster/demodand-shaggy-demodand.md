@@ -36,8 +36,6 @@ two immense bat wings._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
@@ -46,7 +44,7 @@ two immense bat wings._
 
 **Perception:** +36
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
 
 **Sources:** Bestiary 3 pg 69\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar

@@ -32,15 +32,13 @@ with a toothy mouth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
 
 **Perception:** +6
 
-**Senses:** Detect magic, Low-light vision
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
 **Sources:** Bestiary 4 pg 226, Pathfinder \#49: The Brinewall Legacy pg 86\
 **Size:** tiny

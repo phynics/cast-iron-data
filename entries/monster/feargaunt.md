@@ -36,8 +36,6 @@ hands, and writhing tentacles._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -45,6 +43,8 @@ hands, and writhing tentacles._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 28\
 **Subtype:** Extraplanar, Incorporeal

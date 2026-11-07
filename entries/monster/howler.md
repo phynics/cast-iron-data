@@ -33,8 +33,6 @@ tail, and back._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,6 +40,8 @@ tail, and back._
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 159\
 **Subtype:** Chaotic, Evil, Extraplanar

@@ -32,8 +32,6 @@ center of the mass._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -42,7 +40,7 @@ center of the mass._
 
 **Perception:** +16
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 156\
 **Subtype:** Swarm

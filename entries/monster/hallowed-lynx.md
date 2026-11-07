@@ -33,8 +33,6 @@ tufted ears, a short tail, and keen, piercing eyes._
 
 **aura:** hallowed lights (60 ft., DC 26)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Type:** Magical beast
@@ -43,7 +41,7 @@ tufted ears, a short tail, and keen, piercing eyes._
 
 **Perception:** +0
 
-**Senses:** Arcane sight, Low-light vision, Scent
+**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

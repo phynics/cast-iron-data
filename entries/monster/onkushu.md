@@ -33,8 +33,6 @@ humanoid face._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -42,6 +40,8 @@ humanoid face._
 **Type:** outsider
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planes of Power pg 61\
 **Subtype:** Extraplanar, Fire, Good

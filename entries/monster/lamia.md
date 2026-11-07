@@ -33,8 +33,6 @@ lower body is that of a lion._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -43,7 +41,7 @@ lower body is that of a lion._
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 186\
 **Experience points:** 2,400

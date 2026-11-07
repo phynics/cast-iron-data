@@ -31,8 +31,6 @@ barbed whips of calloused flesh._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -43,7 +41,7 @@ barbed whips of calloused flesh._
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 88\
 **Subtype:** Daemon, Evil, Extraplanar

@@ -31,8 +31,6 @@ _This strange ghostly creature seems to writhe in the throes of some uncontrolla
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -42,6 +40,8 @@ _This strange ghostly creature seems to writhe in the throes of some uncontrolla
 **Type:** outsider
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 190\
 **Subtype:** Phantom

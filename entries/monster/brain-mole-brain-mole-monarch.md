@@ -31,8 +31,6 @@ appearance._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ appearance._
 
 **Perception:** +8
 
-**Senses:** Low-light vision, Scent, Second sight 60 ft.
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, Second sight 60 ft.
 
 **Sources:** Bestiary 5 pg 47\
 **Size:** tiny

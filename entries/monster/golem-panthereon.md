@@ -32,8 +32,6 @@ of a feline predator._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -42,7 +40,7 @@ of a feline predator._
 
 **Perception:** +2
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Pathfinder \#82: Secrets of the Sphinx pg 88\
 **Experience points:** 12,800

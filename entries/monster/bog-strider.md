@@ -33,8 +33,6 @@ the reed-thin antennae waving upon its head as if testing the air for the scent 
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -44,6 +42,8 @@ the reed-thin antennae waving upon its head as if testing the air for the scent 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#34: Blood for Blood pg 82\
 **tremorParens:** in water

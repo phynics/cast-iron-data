@@ -35,15 +35,13 @@ heat._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 30
-
 **Initiative:** +3
 
 **Type:** outsider
 
 **Perception:** +8
 
-**Senses:** Detect law
+**Senses:** Darkvision 30 ft., Detect law
 
 **Sources:** Bestiary 2 pg 217\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

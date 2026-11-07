@@ -34,8 +34,6 @@ torsos are topped with a single head bearing three faces, each set in a bland, s
 
 **blindsight:** 30
 
-**dv:** 90
-
 **Initiative:** +7
 
 **Size:** large
@@ -46,7 +44,7 @@ torsos are topped with a single head bearing three faces, each set in a bland, s
 
 **Perception:** +41
 
-**Senses:** True seeing
+**Senses:** Darkvision 90 ft., True seeing
 
 **Sources:** Pathfinder \#131: The Reaper's Right Hand pg 82\
 **Subtype:** Extraplanar, Lawful

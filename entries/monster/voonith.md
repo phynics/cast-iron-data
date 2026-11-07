@@ -34,15 +34,13 @@ running down its spine._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
 
 **Perception:** +8
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

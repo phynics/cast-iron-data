@@ -30,8 +30,6 @@ antenna twitching in the air._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -39,6 +37,8 @@ antenna twitching in the air._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#81: Shifting Sands pg 83\
 **Type:** vermin

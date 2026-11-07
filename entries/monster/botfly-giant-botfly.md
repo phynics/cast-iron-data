@@ -30,13 +30,13 @@ oversized head and bulbous eyes._
 
 **Challenge rating:** 1/3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Heart of the Jungle pg 59\
 **Size:** tiny

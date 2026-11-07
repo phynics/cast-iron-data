@@ -33,8 +33,6 @@ beast._
 
 **aura:** feeblemind (DC 20)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -45,7 +43,7 @@ beast._
 
 **Perception:** +28
 
-**Senses:** All-around vision, Detect magic, See invisibility
+**Senses:** All-around vision, Darkvision 60 ft., Detect magic, See invisibility
 
 **Sources:** Bestiary 2 pg 66\
 **Subtype:** Daemon, Evil, Extraplanar

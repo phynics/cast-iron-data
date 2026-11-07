@@ -33,15 +33,13 @@ wings fluttering from its shoulders._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Neutral good
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

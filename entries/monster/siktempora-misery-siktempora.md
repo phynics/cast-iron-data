@@ -34,8 +34,6 @@ and its gaze conveys a furious misery._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -43,6 +41,8 @@ and its gaze conveys a furious misery._
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#135: Runeplague pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar

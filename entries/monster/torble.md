@@ -36,13 +36,13 @@ surprisingly swift scuttle._
 
 **Size:** diminutive
 
-**dv:** 30
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Darkvision 30 ft.
 
 **Sources:** Pathfinder \#25: The Bastards of Erebus pg 84\
 **Type:** vermin

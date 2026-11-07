@@ -31,8 +31,6 @@ _This white statue of a bald human is marbled with glowing green veins of energy
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -41,7 +39,7 @@ _This white statue of a bald human is marbled with glowing green veins of energy
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 249\
 **Experience points:** 19,200

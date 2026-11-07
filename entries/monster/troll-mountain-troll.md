@@ -33,8 +33,6 @@ tusked underbite._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Type:** humanoid
@@ -43,7 +41,7 @@ tusked underbite._
 
 **Perception:** +15
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Lands of the Linnorm Kings pg 62\
 **Subtype:** Giant

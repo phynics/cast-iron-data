@@ -38,13 +38,11 @@ spiraling maw ringed with thousands of teeth._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Perception:** +37
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Occult Bestiary pg 56\
 **Subtype:** Aquatic, Chaotic, Evil

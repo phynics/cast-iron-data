@@ -34,8 +34,6 @@ aura of entropy and despair hangs over the sorry, perforated creature._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **lifesense:** 60
@@ -43,6 +41,8 @@ aura of entropy and despair hangs over the sorry, perforated creature._
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#57: Tempest Rising pg 90\
 **Type:** undead

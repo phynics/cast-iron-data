@@ -30,8 +30,6 @@ a tiny but solid-looking hammer._
 
 **Challenge rating:** 1
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +1
@@ -40,7 +38,7 @@ a tiny but solid-looking hammer._
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 145, Pathfinder \#19: Howl of the Carrion King pg 84\
 **Size:** tiny

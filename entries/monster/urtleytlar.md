@@ -43,15 +43,13 @@ welcoming._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +14
 
 **Perception:** +34
 
-**Senses:** All-around vision, Low-light vision, See invisibility
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 68\
 **Subtype:** Aquatic

@@ -34,15 +34,13 @@ her rictus grin._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +9
 
 **Perception:** +17
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

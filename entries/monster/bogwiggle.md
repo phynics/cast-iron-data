@@ -36,11 +36,11 @@ fangs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

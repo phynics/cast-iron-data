@@ -31,8 +31,6 @@ arm._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ arm._
 **Size:** medium
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 87\
 **Type:** undead

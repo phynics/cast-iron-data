@@ -34,8 +34,6 @@ comparison to the danger of its mighty jaws._
 
 **aura:** fear aura (30 ft., DC 29)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +10
@@ -46,7 +44,7 @@ comparison to the danger of its mighty jaws._
 
 **Perception:** +30
 
-**Senses:** Scent, True seeing
+**Senses:** Darkvision 60 ft., Scent, True seeing
 
 **Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 82\
 **Subtype:** Evil, Native

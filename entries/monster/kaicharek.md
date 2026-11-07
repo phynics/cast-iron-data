@@ -32,8 +32,6 @@ tentacles sporting razor-edged ridges protrudes from the sides of its mouth._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
@@ -44,7 +42,7 @@ tentacles sporting razor-edged ridges protrudes from the sides of its mouth._
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#139: The Dead Road pg 84\
 **Subtype:** Extraplanar

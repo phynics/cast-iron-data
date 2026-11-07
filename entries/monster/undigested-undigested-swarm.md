@@ -31,13 +31,13 @@ disgusting communal mass._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 258\
 **Subtype:** Swarm

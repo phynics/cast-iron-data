@@ -32,8 +32,6 @@ shields._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -44,7 +42,7 @@ shields._
 
 **Perception:** +10
 
-**Senses:** Low-light vision, Spiritsense
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
 **Sources:** Inner Sea Gods pg 303\
 **Subtype:** Extraplanar, Psychopomp

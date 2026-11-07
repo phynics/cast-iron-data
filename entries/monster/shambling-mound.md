@@ -30,8 +30,6 @@ turned earth._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -40,7 +38,7 @@ turned earth._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

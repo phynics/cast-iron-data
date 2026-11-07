@@ -33,8 +33,6 @@ together._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -43,7 +41,7 @@ together._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 132\
 **Experience points:** 1,200

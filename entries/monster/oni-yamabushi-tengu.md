@@ -33,8 +33,6 @@ prodigious nose, and large raven-like wings._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -47,7 +45,7 @@ prodigious nose, and large raven-like wings._
 
 **Perception:** +15
 
-**Senses:** Low-light vision, See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Pathfinder \#49: The Brinewall Legacy pg 88\
 **Subtype:** Native, Oni, Shapechanger

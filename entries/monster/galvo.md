@@ -34,8 +34,6 @@ shape, crackling with energy._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** Magical beast
@@ -46,7 +44,7 @@ shape, crackling with energy._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 120, Pathfinder \#59: The Price of Infamy pg 88\
 **Subtype:** Aquatic

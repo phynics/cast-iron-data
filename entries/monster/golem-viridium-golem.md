@@ -31,8 +31,6 @@ formidable shield._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -41,7 +39,7 @@ formidable shield._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 143\
 **Experience points:** 153,600

@@ -32,8 +32,6 @@ tendrils._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -41,6 +39,8 @@ tendrils._
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 169\
 **Subtype:** Aquatic

@@ -33,8 +33,6 @@ brood._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +6 (+10 with hive mind)
 
 **Size:** large
@@ -45,7 +43,7 @@ brood._
 
 **Perception:** +35 (+39 with hive mind)
 
-**Senses:** Hive mind
+**Senses:** Darkvision 60 ft., Hive mind
 
 **Sources:** Bestiary 4 pg 110\
 **tremorsense:** 60

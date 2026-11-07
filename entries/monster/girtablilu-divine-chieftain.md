@@ -33,8 +33,6 @@ _This authoritative, scorpion-bodied woman is bedecked with amulets and other re
 
 **Girtablilu [druid](ref/class/druid) ([desert druid](ref/arc-druid/desert-druid)) 10**
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -44,6 +42,8 @@ _This authoritative, scorpion-bodied woman is bedecked with amulets and other re
 **Alignment:** Neutral
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 39\
 **tremorsense:** 30

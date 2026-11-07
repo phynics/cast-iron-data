@@ -30,8 +30,6 @@ with needle-sharp teeth._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -41,6 +39,8 @@ with needle-sharp teeth._
 **Alignment:** Neutral evil
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Seers of the Drowned City pg 58\
 **Experience points:** 1,200

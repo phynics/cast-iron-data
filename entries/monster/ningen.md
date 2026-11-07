@@ -32,8 +32,6 @@ _This enormous flippered creature is as pale as an iceberg and is nearly as larg
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Type:** Monstrous humanoid
@@ -41,6 +39,8 @@ _This enormous flippered creature is as pale as an iceberg and is nearly as larg
 **Alignment:** Neutral
 
 **Perception:** +28
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 183\
 **Experience points:** 76,800

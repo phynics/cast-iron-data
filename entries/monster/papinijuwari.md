@@ -31,8 +31,6 @@ Its breath reeks of pestilence._
 
 **Challenge rating:** 13
 
-**dv:** 120
-
 **Size:** huge
 
 **Type:** humanoid
@@ -43,7 +41,7 @@ Its breath reeks of pestilence._
 
 **Perception:** +4
 
-**Senses:** Low-light vision, Sense decay
+**Senses:** Darkvision 120 ft., Low-light vision, Sense decay
 
 **Sources:** Bestiary 5 pg 188\
 **Subtype:** Giant

@@ -34,8 +34,6 @@ adorns its thrashing tail._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -44,7 +42,7 @@ adorns its thrashing tail._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 107, Pathfinder \#15: The Armageddon Echo pg 86\
 **Subtype:** Earth

@@ -32,8 +32,6 @@ body._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -43,6 +41,8 @@ body._
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#129: The Twilight Child pg 88\
 **Subtype:** Extraplanar, Incorporeal

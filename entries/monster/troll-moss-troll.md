@@ -33,8 +33,6 @@ in bits of foliage._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4 (+8 when climbing trees)
@@ -43,7 +41,7 @@ in bits of foliage._
 
 **Perception:** +5
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 273\
 **Subtype:** Giant, Shapechanger

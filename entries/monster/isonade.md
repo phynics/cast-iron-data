@@ -33,8 +33,6 @@ pectoral fins covered in cruel hooks._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +1
@@ -44,6 +42,8 @@ pectoral fins covered in cruel hooks._
 **Type:** Magical beast
 
 **Perception:** +28
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 5 pg 147\
 **Subtype:** Aquatic

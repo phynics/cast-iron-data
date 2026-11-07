@@ -36,8 +36,6 @@ air, giving off an aura of dark, alien menace._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -45,6 +43,8 @@ air, giving off an aura of dark, alien menace._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 86\
 **Subtype:** Extraplanar, Incorporeal

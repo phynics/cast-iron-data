@@ -31,8 +31,6 @@ tyrannosaur-skulled hands._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
@@ -41,7 +39,7 @@ tyrannosaur-skulled hands._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 136\
 **Experience points:** 19,200

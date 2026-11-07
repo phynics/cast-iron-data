@@ -34,8 +34,6 @@ four powerful arms._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful evil
@@ -45,6 +43,8 @@ four powerful arms._
 **Type:** Monstrous humanoid
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 84\
 **Subtype:** Aquatic

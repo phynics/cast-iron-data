@@ -33,8 +33,6 @@ _A mighty woman of refined beauty hovers in the air, her skin whorled with blue 
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -43,7 +41,7 @@ _A mighty woman of refined beauty hovers in the air, her skin whorled with blue 
 
 **Perception:** +16
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Planes of Power pg 60\
 **Subtype:** Air, Extraplanar

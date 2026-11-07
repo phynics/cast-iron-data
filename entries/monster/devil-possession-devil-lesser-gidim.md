@@ -32,8 +32,6 @@ looming malevolence and faint foul breath._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ looming malevolence and faint foul breath._
 
 **Perception:** +15
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful

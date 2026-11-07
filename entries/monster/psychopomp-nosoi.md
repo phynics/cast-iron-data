@@ -31,8 +31,6 @@ _This strange black bird wears a leather long-nosed mask like a plague doctor._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
@@ -41,7 +39,7 @@ _This strange black bird wears a leather long-nosed mask like a plague doctor._
 
 **Perception:** +9
 
-**Senses:** Low-light vision, Spiritsense
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
 **Sources:** Bestiary 4 pg 220, Pathfinder \#47: Ashes at Dawn pg 86\
 **Subtype:** Extraplanar, Psychopomp

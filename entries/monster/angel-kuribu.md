@@ -33,8 +33,6 @@ and carries a quiver full of arrows on its back._
 
 **aura:** lesser protective aura
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral good
@@ -43,7 +41,7 @@ and carries a quiver full of arrows on its back._
 
 **Perception:** +8
 
-**Senses:** Detect evil, Low-light vision
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Size:** small
 

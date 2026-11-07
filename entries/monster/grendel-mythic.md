@@ -38,8 +38,6 @@ with blood._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -47,6 +45,8 @@ with blood._
 **Type:** Monstrous humanoid
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 145\
 **Subtype:** Mythic

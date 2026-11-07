@@ -28,8 +28,6 @@ _Powerful muscles ripple beneath the golden fur of this small yet fearsome eight
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Type:** Magical beast
@@ -38,7 +36,7 @@ _Powerful muscles ripple beneath the golden fur of this small yet fearsome eight
 
 **Perception:** +13
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

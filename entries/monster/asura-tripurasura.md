@@ -31,8 +31,6 @@ glow like rubies._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful evil
@@ -41,7 +39,7 @@ glow like rubies._
 
 **Perception:** +10
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Bestiary 3 pg 24\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

@@ -33,8 +33,6 @@ but its shape is hideously humanoid._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +8
 
 **Size:** medium
@@ -43,7 +41,7 @@ but its shape is hideously humanoid._
 
 **Perception:** +2
 
-**Senses:** Scent
+**Senses:** Darkvision 120 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 209, Into the Darklands pg 54\
 **Experience points:** 600

@@ -37,8 +37,6 @@ scarred with celestial runes._
 
 **blindsense:** 120
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -49,9 +47,7 @@ scarred with celestial runes._
 
 **Perception:** +42
 
-**Senses:** Zealous vision
-
-**Senses:** Detect evil, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, True seeing, Zealous vision
 
 **Sources:** Bestiary 4 pg 92\
 **Subtype:** Angel, Extraplanar, Good, Lawful

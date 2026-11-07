@@ -35,15 +35,13 @@ _This ferocious creature looks like a red-and-yellow scaled dragon, but with onl
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
 **Perception:** +10
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 106, Conquest of Bloodsworn Vale pg 30\
 **Subtype:** Fire

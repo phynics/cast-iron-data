@@ -35,8 +35,6 @@ peer out in different directions._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral
@@ -45,7 +43,7 @@ peer out in different directions._
 
 **Perception:** +31
 
-**Senses:** Astral locating, Low-light vision
+**Senses:** Astral locating, Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 14\
 **Subtype:** Extraplanar

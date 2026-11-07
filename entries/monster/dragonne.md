@@ -30,8 +30,6 @@ mane matching its scales._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -42,7 +40,7 @@ mane matching its scales._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 104, Bonus Bestiary pg 10\
 **Experience points:** 3,200

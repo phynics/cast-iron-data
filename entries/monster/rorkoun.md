@@ -38,8 +38,6 @@ with incredible speed the next._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -47,6 +45,8 @@ with incredible speed the next._
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#32: Rivers Run Red pg 86\
 **Subtype:** Aquatic

@@ -35,8 +35,6 @@ the faintest outlines of a veiled face and a pair of eyes flickering with barely
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -47,7 +45,7 @@ the faintest outlines of a veiled face and a pair of eyes flickering with barely
 
 **Perception:** +17
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder \#28: The Infernal Syndrome pg 86\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful

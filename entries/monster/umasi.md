@@ -33,8 +33,6 @@ patchwork of hair, skin, scales, and strange limbs stitched together with thick,
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -42,6 +40,8 @@ patchwork of hair, skin, scales, and strange limbs stitched together with thick,
 **Type:** Monstrous humanoid
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#39: The City of Seven Spears pg 88\
 **Experience points:** 1,200

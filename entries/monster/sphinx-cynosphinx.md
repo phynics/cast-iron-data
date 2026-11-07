@@ -29,8 +29,6 @@ _A jackal's head draped in a tattered headdress extends from a winged, leonine b
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -41,7 +39,7 @@ _A jackal's head draped in a tattered headdress extends from a winged, leonine b
 
 **Perception:** +8
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#82: Secrets of the Sphinx pg 84\
 **Experience points:** 2,400

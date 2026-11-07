@@ -42,8 +42,6 @@ deities._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +19/-1, [dual initiative](ref/umr/dual-initiative)
 
 **Type:** Magical beast
@@ -52,7 +50,7 @@ deities._
 
 **Perception:** +34
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 193\
 **Subtype:** Mythic, Swarm

@@ -32,8 +32,6 @@ razor-like fins._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +4
@@ -44,7 +42,7 @@ razor-like fins._
 
 **Perception:** +21
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 78\
 **Subtype:** Aquatic

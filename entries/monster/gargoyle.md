@@ -33,8 +33,6 @@ winged demon._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -42,6 +40,8 @@ winged demon._
 **Type:** Monstrous humanoid
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 137\
 **Subtype:** Earth

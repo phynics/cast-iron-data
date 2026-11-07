@@ -29,13 +29,13 @@ _The size of a human child, this shimmering spider has a blue-and-purple-striped
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

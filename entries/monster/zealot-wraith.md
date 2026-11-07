@@ -31,8 +31,6 @@ black pits for eyes and an expression of sorrow and horror._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -40,6 +38,8 @@ black pits for eyes and an expression of sorrow and horror._
 **Alignment:** Neutral evil
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Cheliax, the Infernal Empire pg 63\
 **Subtype:** Incorporeal

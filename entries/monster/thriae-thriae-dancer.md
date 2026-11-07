@@ -30,8 +30,6 @@ covers most of her face._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful neutral
@@ -42,7 +40,7 @@ covers most of her face._
 
 **Perception:** +10
 
-**Senses:** Detect secret doors
+**Senses:** Darkvision 60 ft., Detect secret doors
 
 **Sources:** Bestiary 5 pg 245, Pathfinder \#81: Shifting Sands pg 90\
 **Experience points:** 2,400

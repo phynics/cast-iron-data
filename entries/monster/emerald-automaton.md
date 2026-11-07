@@ -33,8 +33,6 @@ _An eerie green glow shines through the seams of this mechanical creature's armo
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -43,7 +41,7 @@ _An eerie green glow shines through the seams of this mechanical creature's armo
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** The Emerald Spire Superdungeon pg 154\
 **Experience points:** 1,200

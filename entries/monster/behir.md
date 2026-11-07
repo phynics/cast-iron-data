@@ -29,8 +29,6 @@ horns._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
@@ -41,7 +39,7 @@ horns._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 34\
 **Experience points:** 4,800

@@ -31,8 +31,6 @@ _This creature has the body of a hawk and the head of a beautiful woman with lon
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ _This creature has the body of a hawk and the head of a beautiful woman with lon
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 247, Pathfinder \#14: Children of the Void pg 84\
 **Experience points:** 1,600

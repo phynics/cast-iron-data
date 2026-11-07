@@ -33,8 +33,6 @@ _Little more than a walking corpse, this frightful horse's hide stretches tight 
 
 **aura:** unholy aura (DC 25)
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -45,7 +43,7 @@ _Little more than a walking corpse, this frightful horse's hide stretches tight 
 
 **Perception:** +38
 
-**Senses:** Scent, True seeing
+**Senses:** Darkvision 60 ft., Scent, True seeing
 
 **Sources:** Bestiary 6 pg 12\
 **Subtype:** Evil, Extraplanar

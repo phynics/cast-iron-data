@@ -31,8 +31,6 @@ revealing flesh of black stone._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -43,7 +41,7 @@ revealing flesh of black stone._
 
 **Perception:** +26
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 166\
 **Subtype:** Extraplanar, Inevitable, Lawful

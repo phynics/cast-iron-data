@@ -35,15 +35,13 @@ body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#86: Lords of Rust pg 88\
 **Subtype:** Robot

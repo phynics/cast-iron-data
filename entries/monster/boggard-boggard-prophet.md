@@ -33,8 +33,6 @@ abilities = ["20", "9", "16", "10", "9", "14"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -45,7 +43,7 @@ abilities = ["20", "9", "16", "10", "9", "14"]
 
 **Perception:** +3
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 13\
 **Experience points:** 1,600

@@ -32,8 +32,6 @@ hammer._
 
 **Challenge rating:** 18
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -44,7 +42,7 @@ hammer._
 
 **Perception:** +30
 
-**Senses:** Detect chaos, Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Low-light vision, True seeing
 
 **Sources:** Pathfinder \#131: The Reaper's Right Hand pg 84\
 **Subtype:** Extraplanar, Inevitable, Lawful

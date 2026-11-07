@@ -30,8 +30,6 @@ patterned with the texture of the structure around it._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -39,6 +37,8 @@ patterned with the texture of the structure around it._
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#127: Crownfall pg 88\
 **Type:** undead

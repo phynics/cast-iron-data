@@ -36,8 +36,6 @@ a deep sea predator._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +11
@@ -46,7 +44,7 @@ a deep sea predator._
 
 **Perception:** +55
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Bestiary 4 pg 46\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Water

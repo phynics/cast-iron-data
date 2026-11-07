@@ -32,8 +32,6 @@ _This large, flying serpent has a humanoid head outlined by a colorful, frilled 
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,7 +40,7 @@ _This large, flying serpent has a humanoid head outlined by a colorful, frilled 
 
 **Perception:** +24
 
-**Senses:** Dreamsight
+**Senses:** Darkvision 60 ft., Dreamsight
 
 **Sources:** Bestiary 6 pg 198, Occult Bestiary pg 35\
 **Subtype:** Extraplanar

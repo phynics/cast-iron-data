@@ -30,8 +30,6 @@ soil, and it exhales clouds of dirt._
 
 **Challenge rating:** 16
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +4
@@ -40,7 +38,7 @@ soil, and it exhales clouds of dirt._
 
 **Perception:** +26
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Type:** plant
 

@@ -33,8 +33,6 @@ _This slime-covered serpentine creature has a humanoid head resembling that of a
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -42,6 +40,8 @@ _This slime-covered serpentine creature has a humanoid head resembling that of a
 **Alignment:** Neutral evil
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 199, Pathfinder \#100: A Song of Silver pg 118\
 **Experience points:** 6,400

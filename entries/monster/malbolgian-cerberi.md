@@ -32,8 +32,6 @@ fanged mouths leap tongues of flame, and crimson saliva leaks from the terror's 
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -44,7 +42,7 @@ fanged mouths leap tongues of flame, and crimson saliva leaks from the terror's 
 
 **Perception:** +23
 
-**Senses:** Soul scent
+**Senses:** Darkvision 60 ft., Soul scent
 
 **Sources:** Pathfinder \#28: The Infernal Syndrome pg 84\
 **Subtype:** Evil, Extraplanar, Lawful

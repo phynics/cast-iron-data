@@ -35,8 +35,6 @@ instead of a face, it has a singular massive maw filled with rows of ravenous te
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +0
@@ -45,7 +43,7 @@ instead of a face, it has a singular massive maw filled with rows of ravenous te
 
 **Perception:** +13
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 64\
 **Subtype:** Aquatic

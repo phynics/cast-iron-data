@@ -36,8 +36,6 @@ form._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** medium
@@ -50,7 +48,7 @@ form._
 
 **Perception:** +25
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Darkvision 60 ft.
 
 **Sources:** Inner Sea Gods pg 298, Pathfinder \#41: The Thousand Fangs Below pg 82\
 **Subtype:** Incorporeal

@@ -33,8 +33,6 @@ head and crest. Its wings let forth thin clouds of golden pollen and showers of 
 
 **aura:** resplendence (1/2 mile)
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +9
@@ -45,7 +43,7 @@ head and crest. Its wings let forth thin clouds of golden pollen and showers of 
 
 **Perception:** +36
 
-**Senses:** Detect chaos/evil/good/law
+**Senses:** Darkvision 120 ft., Detect chaos/evil/good/law
 
 **Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 82\
 **Subtype:** Native

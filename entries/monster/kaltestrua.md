@@ -38,8 +38,6 @@ flesh, and the skulladorned flails she wields drip black liquid._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -48,7 +46,7 @@ flesh, and the skulladorned flails she wields drip black liquid._
 
 **Perception:** +39
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Demons Revisited pg 38\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

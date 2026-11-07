@@ -34,8 +34,6 @@ glistens with thick, clear slime._
 
 **aura:** mucus cloud (5 feet)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -43,6 +41,8 @@ glistens with thick, clear slime._
 **Alignment:** Lawful evil
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 8\
 **Subtype:** Aquatic

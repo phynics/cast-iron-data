@@ -32,8 +32,6 @@ talons and claws._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -43,6 +41,8 @@ talons and claws._
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 190\
 **Subtype:** Air, Elemental, Extraplanar

@@ -32,8 +32,6 @@ clouds._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -42,7 +40,7 @@ clouds._
 
 **Perception:** +21
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 90\
 **Experience points:** 6,400

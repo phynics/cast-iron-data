@@ -32,15 +32,13 @@ energy._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral
 
 **Perception:** +3
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** The Godsmouth Heresy pg 29\
 **Size:** tiny

@@ -35,8 +35,6 @@ _Jade armor covers this lean albino humanoid, and her pale eyes have an eerie gl
 
 **Alignment:** Chaotic good
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +1
@@ -44,6 +42,8 @@ _Jade armor covers this lean albino humanoid, and her pale eyes have an eerie gl
 **Size:** medium
 
 **Perception:** +6
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 6 pg 197, Occult Bestiary pg 34\
 **Subtype:** Munavri

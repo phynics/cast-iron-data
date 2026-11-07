@@ -33,8 +33,6 @@ protuberances jut from its body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -43,7 +41,7 @@ protuberances jut from its body._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 141\
 **Experience points:** 19,200

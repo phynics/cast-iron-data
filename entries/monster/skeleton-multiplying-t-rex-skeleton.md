@@ -27,8 +27,6 @@ abilities = ["32", "15", "-", "-", "10", "10"]
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +6
@@ -36,6 +34,8 @@ abilities = ["32", "15", "-", "-", "10", "10"]
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#44: Trial of the Beast pg 87\
 **Type:** undead

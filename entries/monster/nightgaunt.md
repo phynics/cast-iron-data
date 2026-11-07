@@ -35,8 +35,6 @@ _This lanky ebon humanoid has bat-like wings, horns, and a long prehensile tail,
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -45,7 +43,7 @@ _This lanky ebon humanoid has bat-like wings, horns, and a long prehensile tail,
 
 **Perception:** +6
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 203, Pathfinder \#65: Into the Nightmare Rift pg 90\
 **Subtype:** Extraplanar

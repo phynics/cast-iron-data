@@ -39,15 +39,13 @@ dozen different wings._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Type:** Magical beast
 
 **Perception:** +20
 
-**Senses:** All-around vision, Low-light vision, Scent
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea Bestiary pg 48\
 **Experience points:** 614,400

@@ -33,8 +33,6 @@ snow._
 
 **aura:** snowstorm (200 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -42,6 +40,8 @@ snow._
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 287\
 **Subtype:** Cold, Incorporeal

@@ -36,8 +36,6 @@ claws._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,6 +43,8 @@ claws._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 214, Pathfinder \#22: The End of Eternity pg 84\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

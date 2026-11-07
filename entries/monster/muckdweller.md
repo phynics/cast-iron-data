@@ -31,8 +31,6 @@ body and its forelimbs look like hands._
 
 **Challenge rating:** 1/4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ body and its forelimbs look like hands._
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

@@ -35,8 +35,6 @@ of lacquer and resin assaults the senses as it draws near with a menacing, ponde
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -45,7 +43,7 @@ of lacquer and resin assaults the senses as it draws near with a menacing, ponde
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#39: The City of Seven Spears pg 86\
 **Experience points:** 2,400

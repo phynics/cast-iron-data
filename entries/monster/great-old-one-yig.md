@@ -36,8 +36,6 @@ distinctive crescent shape._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +25
 
 **Size:** large
@@ -46,7 +44,7 @@ distinctive crescent shape._
 
 **Perception:** +45
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 150\
 **Subtype:** Chaotic, Great Old One, Shapechanger

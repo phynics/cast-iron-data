@@ -39,15 +39,13 @@ miniature._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 82\
 **Experience points:** 1,200

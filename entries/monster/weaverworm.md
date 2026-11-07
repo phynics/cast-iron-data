@@ -34,8 +34,6 @@ cords of thick webbing between them._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +18
@@ -43,6 +41,8 @@ cords of thick webbing between them._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#45: Broken Moon pg 86\
 **tremorsense:** 30

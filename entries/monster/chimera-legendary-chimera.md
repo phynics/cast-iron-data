@@ -33,8 +33,6 @@ a ram, and a red dragon's head sprouting from its tail._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -43,7 +41,7 @@ a ram, and a red dragon's head sprouting from its tail._
 
 **Perception:** +20
 
-**Senses:** All-around vision, Low-light vision, Scent
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythical Monsters Revisited pg 9\
 **Experience points:** 25,600

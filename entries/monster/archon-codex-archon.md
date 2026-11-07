@@ -34,8 +34,6 @@ watchfully as though alive._
 
 **aura:** aura of menace (DC 17), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful good
@@ -46,7 +44,7 @@ watchfully as though alive._
 
 **Perception:** +10
 
-**Senses:** Detect evil, Detect magic, Low-light vision
+**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
 
 **Sources:** Monster Summoner's Handbook pg 24\
 **Subtype:** Archon, Extraplanar, Good, Lawful

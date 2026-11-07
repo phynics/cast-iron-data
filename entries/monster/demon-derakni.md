@@ -33,8 +33,6 @@ front legs end in clawed hands._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -43,7 +41,7 @@ front legs end in clawed hands._
 
 **Perception:** +25
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** The Worldwound pg 43\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -31,13 +31,13 @@ eyes staring out from the chaos._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 408, Pathfinder \#2: The Skinsaw Murders
 pg 83\

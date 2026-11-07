@@ -29,8 +29,6 @@ defense of its territory._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -38,6 +36,8 @@ defense of its territory._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 33\
 **Type:** vermin

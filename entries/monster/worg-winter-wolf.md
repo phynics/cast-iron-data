@@ -30,8 +30,6 @@ almost white in color._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -42,7 +40,7 @@ almost white in color._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 280\
 **Subtype:** Cold

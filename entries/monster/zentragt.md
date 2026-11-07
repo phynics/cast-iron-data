@@ -34,8 +34,6 @@ iron plates._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -44,7 +42,7 @@ iron plates._
 
 **Perception:** +9
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 289\
 **Subtype:** Chaotic, Extraplanar

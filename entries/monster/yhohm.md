@@ -33,8 +33,6 @@ blazing white flames._
 
 **aura:** shroud of flame (10 ft., DC 14, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral good
@@ -43,7 +41,7 @@ blazing white flames._
 
 **Perception:** +10
 
-**Senses:** Detect poison, Low-light vision
+**Senses:** Darkvision 60 ft., Detect poison, Low-light vision
 
 **Sources:** Inner Sea Gods pg 307\
 **Subtype:** Extraplanar, Fire, Good

@@ -35,8 +35,6 @@ the air around her with swirls and flourishes of magical energy._
 
 **aura:** charming (30 feet, DC 25)
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -47,7 +45,7 @@ the air around her with swirls and flourishes of magical energy._
 
 **Perception:** +33
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#50: Night of Frozen Shadows pg 90\
 **Subtype:** Extraplanar, Good

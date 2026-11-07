@@ -30,8 +30,6 @@ abilities = ["12", "15", "-", "16", "12", "15"]
 
 **Human skeletal mage necromancer 3**
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -39,6 +37,8 @@ abilities = ["12", "15", "-", "16", "12", "15"]
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#44: Trial of the Beast pg 86\
 **Type:** undead

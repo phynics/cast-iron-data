@@ -32,8 +32,6 @@ into vapor below the waist._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -42,7 +40,7 @@ into vapor below the waist._
 
 **Perception:** +20
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 4 pg 11\
 **Subtype:** Incorporeal, Native

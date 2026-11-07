@@ -31,8 +31,6 @@ grace._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -41,7 +39,7 @@ grace._
 
 **Perception:** +11
 
-**Senses:** Detect evil, Detect good, Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 225\
 **Experience points:** 800

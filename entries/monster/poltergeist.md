@@ -31,8 +31,6 @@ loose objects._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ loose objects._
 **Size:** medium
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 211\
 **Subtype:** Incorporeal

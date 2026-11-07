@@ -36,8 +36,6 @@ tails._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +22
 
 **Size:** large
@@ -48,7 +46,7 @@ tails._
 
 **Perception:** +46
 
-**Senses:** Detect evil, Detect thoughts, Low-light vision
+**Senses:** Darkvision 60 ft., Detect evil, Detect thoughts, Low-light vision
 
 **Sources:** Bestiary 4 pg 90\
 **Subtype:** Agathion, Extraplanar, Good

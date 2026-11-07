@@ -31,8 +31,6 @@ _This disc of flying metal is about the size of a wagon wheel and burns with yel
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful good
@@ -43,7 +41,7 @@ _This disc of flying metal is about the size of a wagon wheel and burns with yel
 
 **Perception:** +12
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 293\
 **Subtype:** Angel, Extraplanar, Fire, Good, Lawful

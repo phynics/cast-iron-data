@@ -33,8 +33,6 @@ form._
 
 **Type:** aberration
 
-**dv:** 90
-
 **Initiative:** +12
 
 **Size:** large
@@ -43,7 +41,7 @@ form._
 
 **Perception:** +19
 
-**Senses:** All-around vision, Low-light vision
+**Senses:** All-around vision, Darkvision 90 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 153\
 **Experience points:** 51,200

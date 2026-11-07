@@ -30,8 +30,6 @@ substance._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -39,6 +37,8 @@ substance._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 249\
 **Subtype:** Aquatic

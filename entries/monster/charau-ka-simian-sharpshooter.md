@@ -35,8 +35,6 @@ _This long-furred ape-person wears a battered snakeskin poncho and carries a wor
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
@@ -45,7 +43,7 @@ _This long-furred ape-person wears a battered snakeskin poncho and carries a wor
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

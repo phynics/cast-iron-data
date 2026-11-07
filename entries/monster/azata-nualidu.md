@@ -34,8 +34,6 @@ _Clear, flowing water forms the arms and the lower half of this angelic, elf-lik
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -44,7 +42,7 @@ _Clear, flowing water forms the arms and the lower half of this angelic, elf-lik
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#105: The Inferno Gate pg 82\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Water

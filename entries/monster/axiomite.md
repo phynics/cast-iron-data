@@ -31,8 +31,6 @@ of shimmering light._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful neutral
@@ -42,6 +40,8 @@ of shimmering light._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 36, The Great Beyond - A Guide to the Multiverse pg 56\
 **Subtype:** Extraplanar, Lawful

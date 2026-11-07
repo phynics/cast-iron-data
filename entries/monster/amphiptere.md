@@ -33,8 +33,6 @@ forelimbs, and it lacks rear legs._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -43,7 +41,7 @@ forelimbs, and it lacks rear legs._
 
 **Perception:** +13
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 18\
 **Experience points:** 1,200

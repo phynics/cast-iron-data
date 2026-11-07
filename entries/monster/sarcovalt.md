@@ -32,8 +32,6 @@ vulture skull._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral evil
@@ -42,7 +40,7 @@ vulture skull._
 
 **Perception:** +8
 
-**Senses:** Deathwatch, Low-light vision
+**Senses:** Darkvision 60 ft., Deathwatch, Low-light vision
 
 **Sources:** Inner Sea Gods pg 313\
 **Subtype:** Evil, Extraplanar

@@ -31,8 +31,6 @@ _The stinger and antennae of this dog-sized wasp pulsate with a dim, violet ligh
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Type:** Magical beast
@@ -41,7 +39,7 @@ _The stinger and antennae of this dog-sized wasp pulsate with a dim, violet ligh
 
 **Perception:** +12
 
-**Senses:** Low-light vision, See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Size:** small
 

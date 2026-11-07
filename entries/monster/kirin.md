@@ -30,8 +30,6 @@ grace._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,7 +40,7 @@ grace._
 
 **Perception:** +17
 
-**Senses:** Detect evil, Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 168\
 **Subtype:** Air

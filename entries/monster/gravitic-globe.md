@@ -33,8 +33,6 @@ flame._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -43,7 +41,7 @@ flame._
 
 **Perception:** -5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Tombs of Golarion pg 52\
 **Experience points:** 9,600

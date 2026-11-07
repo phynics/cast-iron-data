@@ -33,8 +33,6 @@ darkness of a starry night that swirls continuously about her._
 
 **Challenge rating:** 16
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -45,7 +43,7 @@ darkness of a starry night that swirls continuously about her._
 
 **Perception:** +28
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#54: The Empty Throne pg 88\
 **Subtype:** Air, Giant, Native, Oni, Shapechanger

@@ -33,8 +33,6 @@ punching daggers._
 
 **aura:** elusive (75 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,7 +43,7 @@ punching daggers._
 
 **Perception:** +29
 
-**Senses:** Scent, Scent of carnage, Smoke sight
+**Senses:** Darkvision 60 ft., Scent, Scent of carnage, Smoke sight
 
 **Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 82\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

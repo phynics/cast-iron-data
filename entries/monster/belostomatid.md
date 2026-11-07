@@ -33,8 +33,6 @@ insect._
 
 **aura:** [stench](ref/umr/stench) (DC 15, 3 rounds)
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -42,6 +40,8 @@ insect._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#49: The Brinewall Legacy pg 82\
 **tremorsense:** 60

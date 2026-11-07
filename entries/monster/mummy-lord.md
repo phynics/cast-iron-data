@@ -37,8 +37,6 @@ unholy light._
 
 **aura:** great despair (30 ft., DC 19)
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful evil
@@ -46,6 +44,8 @@ unholy light._
 **Size:** medium
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 176, Pathfinder \#84: Pyramid of the Sky Pharaoh pg 84\
 **Type:** undead

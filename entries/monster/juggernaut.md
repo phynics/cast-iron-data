@@ -32,8 +32,6 @@ _This oppressive construct rumbles forth on deadly rollers, crushing everything 
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +0
@@ -42,7 +40,7 @@ _This oppressive construct rumbles forth on deadly rollers, crushing everything 
 
 **Perception:** +4
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 162\
 **Experience points:** 12,800

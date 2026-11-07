@@ -31,8 +31,6 @@ abilities = ["18", "18", "-", "15", "12", "22"]
 
 **Human vampire [bard](ref/class/bard) 5**
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -40,6 +38,8 @@ abilities = ["18", "18", "-", "15", "12", "22"]
 **Alignment:** Neutral evil
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 239\
 **Subtype:** Augmented humanoid, Human

@@ -31,13 +31,13 @@ presenting a frightening visage._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 40\
 **Type:** undead

@@ -31,8 +31,6 @@ ground._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -43,7 +41,7 @@ ground._
 
 **Perception:** +17
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 237\
 **Experience points:** 12,800

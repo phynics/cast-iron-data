@@ -35,8 +35,6 @@ of shimmering dust._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,6 +42,8 @@ of shimmering dust._
 **Type:** outsider
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 229\
 **Subtype:** Chaotic, Extraplanar, Good

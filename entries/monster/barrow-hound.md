@@ -30,8 +30,6 @@ and retie themselves on their own._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +6
@@ -42,7 +40,7 @@ and retie themselves on their own._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Fangwood Keep pg 29\
 **Experience points:** 2,400

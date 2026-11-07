@@ -36,15 +36,13 @@ neck._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +5
 
 **Perception:** +15
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

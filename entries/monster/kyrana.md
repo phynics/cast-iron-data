@@ -32,8 +32,6 @@ mouth._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -42,7 +40,7 @@ mouth._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 136\
 **Subtype:** Fire

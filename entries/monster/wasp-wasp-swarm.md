@@ -33,13 +33,13 @@ _A low, ominous buzz announces the arrival of a mass of many thousands of angry,
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 275\
 **Subtype:** Swarm

@@ -31,8 +31,6 @@ for a large eye ringed by fangs._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -43,7 +41,7 @@ for a large eye ringed by fangs._
 
 **Perception:** +11
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 3 pg 83\
 **Subtype:** Div, Evil, Extraplanar

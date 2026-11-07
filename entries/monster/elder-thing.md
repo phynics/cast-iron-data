@@ -33,8 +33,6 @@ its barrel-shaped body._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful neutral
@@ -43,7 +41,7 @@ its barrel-shaped body._
 
 **Perception:** +13
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 85, Pathfinder \#46: Wake of the Watcher pg 82\
 **Subtype:** Aquatic

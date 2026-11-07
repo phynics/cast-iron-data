@@ -36,8 +36,6 @@ head._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** -2
 
 **Type:** Magical beast
@@ -45,6 +43,8 @@ head._
 **Alignment:** Neutral
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 39\
 **Subtype:** Behemoth, Earth

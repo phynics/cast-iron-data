@@ -33,8 +33,6 @@ vulture-like head._
 
 **aura:** fear (15 ft., DC 24), unholy aura
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -45,7 +43,7 @@ vulture-like head._
 
 **Perception:** +26
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 2 pg 73\
 **Subtype:** Daemon, Evil, Extraplanar

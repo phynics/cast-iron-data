@@ -38,15 +38,13 @@ pulsing blisters._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Type:** outsider
 
 **Perception:** +35
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Bestiary 6 pg 236\
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth

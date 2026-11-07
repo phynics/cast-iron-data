@@ -31,8 +31,6 @@ flesh and shifting shadowstuff._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ flesh and shifting shadowstuff._
 
 **Perception:** +8
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Inner Sea Gods pg 315\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

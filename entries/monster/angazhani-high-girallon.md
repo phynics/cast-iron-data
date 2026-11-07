@@ -33,8 +33,6 @@ It carries a strangely shaped throwing axe._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -43,7 +41,7 @@ It carries a strangely shaped throwing axe._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent, See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
 
 **Sources:** Heart of the Jungle pg 58\
 **Experience points:** 6,400

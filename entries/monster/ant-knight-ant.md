@@ -30,8 +30,6 @@ scarred._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -40,7 +38,7 @@ scarred._
 
 **Perception:** +1
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 5 pg 27\
 **tremorsense:** 30

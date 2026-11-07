@@ -33,8 +33,6 @@ mouth with ill-fitting teeth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** -1
@@ -43,7 +41,7 @@ mouth with ill-fitting teeth._
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 220\
 **Subtype:** Giant

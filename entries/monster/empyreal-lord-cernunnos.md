@@ -39,8 +39,6 @@ stare._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Size:** large
@@ -49,7 +47,8 @@ stare._
 
 **Perception:** +43
 
-**Senses:** Detect evil, Detect poison, Discern lies, Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Detect poison, Discern lies, Low-light vision, True
+seeing
 
 **Sources:** Bestiary 4 pg 88\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

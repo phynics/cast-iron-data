@@ -30,8 +30,6 @@ cap for a head._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -40,7 +38,7 @@ cap for a head._
 
 **Perception:** +6
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Type:** plant
 

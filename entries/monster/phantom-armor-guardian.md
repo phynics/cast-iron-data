@@ -29,8 +29,6 @@ _This suit of armor moves with a warrior's deadly skill despite obviously being 
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -38,6 +36,8 @@ _This suit of armor moves with a warrior's deadly skill despite obviously being 
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 213, Pathfinder \#47: Ashes at Dawn pg 84\
 **Type:** undead

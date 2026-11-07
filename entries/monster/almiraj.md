@@ -30,8 +30,6 @@ _This oversized rabbit has a single long, pearlescent horn protruding from its c
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
@@ -40,7 +38,7 @@ _This oversized rabbit has a single long, pearlescent horn protruding from its c
 
 **Perception:** +4
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

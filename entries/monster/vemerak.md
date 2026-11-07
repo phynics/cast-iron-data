@@ -36,13 +36,13 @@ three tentacular tails._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 278, Into the Darklands pg 62\
 **tremorsense:** 30

@@ -31,8 +31,6 @@ visage._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -43,7 +41,7 @@ visage._
 
 **Perception:** +22
 
-**Senses:** Scent sickness
+**Senses:** Darkvision 60 ft., Scent sickness
 
 **Sources:** Bestiary 6 pg 132\
 **Experience points:** 19,200

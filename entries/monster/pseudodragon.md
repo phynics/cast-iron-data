@@ -33,15 +33,13 @@ tipped with a barbed stinger._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral good
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 229\
 **Size:** tiny

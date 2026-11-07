@@ -31,8 +31,6 @@ clinging to its nightmarish form._
 
 **Challenge rating:** 19
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +9
@@ -41,7 +39,7 @@ clinging to its nightmarish form._
 
 **Perception:** +31
 
-**Senses:** Arcane sight, True seeing
+**Senses:** Arcane sight, Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 3 pg 276\
 **Type:** undead

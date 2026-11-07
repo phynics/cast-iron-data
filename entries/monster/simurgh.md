@@ -32,8 +32,6 @@ _This massive creature has the body of a resplendent bird but the head of a rega
 
 **aura:** peace (50 ft.)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +7
@@ -44,7 +42,7 @@ _This massive creature has the body of a resplendent bird but the head of a rega
 
 **Perception:** +27
 
-**Senses:** Detect evil, Detect magic, Low-light vision
+**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
 
 **Sources:** Bestiary 3 pg 245, Pathfinder \#24: The Final Wish pg 86\
 **Experience points:** 153,600

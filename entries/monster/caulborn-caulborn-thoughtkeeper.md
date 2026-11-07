@@ -34,8 +34,6 @@ into terrifying jaws._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -45,6 +43,8 @@ into terrifying jaws._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 12\
 **Subtype:** Extraplanar

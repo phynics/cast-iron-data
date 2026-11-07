@@ -34,8 +34,6 @@ away._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
@@ -44,7 +42,7 @@ away._
 
 **Perception:** +7
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 154\
 **Subtype:** Shapechanger

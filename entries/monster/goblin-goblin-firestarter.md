@@ -31,8 +31,6 @@ abilities = ["11", "20", "14", "8", "12", "8"]
 
 **Goblin [rogue](ref/class/rogue) 5**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +9
@@ -40,6 +38,8 @@ abilities = ["11", "20", "14", "8", "12", "8"]
 **Alignment:** Neutral evil
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

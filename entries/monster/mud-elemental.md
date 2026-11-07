@@ -29,8 +29,6 @@ dripping sludge._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Alignment:** Neutral
@@ -38,6 +36,8 @@ dripping sludge._
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -123,8 +123,6 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -134,6 +132,8 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 120\
 **Subtype:** Earth, Elemental, Extraplanar, Water
@@ -184,8 +184,6 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -195,6 +193,8 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 120\
 **Subtype:** Earth, Elemental, Extraplanar, Water
@@ -251,8 +251,6 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -262,6 +260,8 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 120\
 **Subtype:** Earth, Elemental, Extraplanar, Water
@@ -318,8 +318,6 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -329,6 +327,8 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 121\
 **Subtype:** Earth, Elemental, Extraplanar, Water
@@ -386,8 +386,6 @@ Lightning Reflexes, Power Attack
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -397,6 +395,8 @@ Lightning Reflexes, Power Attack
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 121\
 **Subtype:** Earth, Elemental, Extraplanar, Water

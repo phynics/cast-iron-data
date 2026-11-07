@@ -34,8 +34,6 @@ feet._
 
 **Mythic rank:** 3
 
-**dv:** 60
-
 **Initiative:** +10, Mythic Improved Initiative
 
 **Alignment:** Lawful evil
@@ -46,7 +44,7 @@ feet._
 
 **Perception:** +18
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 209\
 **Subtype:** Mythic

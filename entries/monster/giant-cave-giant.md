@@ -34,8 +34,6 @@ from the bones of past victims._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +0
@@ -44,7 +42,7 @@ from the bones of past victims._
 
 **Perception:** +5
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 127\
 **Subtype:** Giant

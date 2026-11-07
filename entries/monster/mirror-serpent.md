@@ -32,8 +32,6 @@ eyes gazes from a horned head that ends in an elongated, toothy snout._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -44,7 +42,7 @@ eyes gazes from a horned head that ends in an elongated, toothy snout._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 86\
 **Subtype:** Aquatic

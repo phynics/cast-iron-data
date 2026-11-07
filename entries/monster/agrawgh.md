@@ -30,8 +30,6 @@ bubbling at the back of its mouth._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -41,6 +39,8 @@ bubbling at the back of its mouth._
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planes of Power pg 52\
 **Subtype:** Earth, Extraplanar

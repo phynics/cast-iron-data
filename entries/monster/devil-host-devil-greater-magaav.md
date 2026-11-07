@@ -32,8 +32,6 @@ between its yellowed fangs._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ between its yellowed fangs._
 
 **Perception:** +11
 
-**Senses:** Detect magic, See in darkness
+**Senses:** Darkvision 60 ft., Detect magic, See in darkness
 
 **Sources:** Bestiary 4 pg 53, Book of the Damned - Volume 1: Princes of Darkness pg 58\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

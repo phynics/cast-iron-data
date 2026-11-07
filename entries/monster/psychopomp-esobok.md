@@ -31,8 +31,6 @@ _This stout, hunched predator has a ruff of dirty feathers and a crocodilian sku
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -43,7 +41,7 @@ _This stout, hunched predator has a ruff of dirty feathers and a crocodilian sku
 
 **Perception:** +2
 
-**Senses:** Detect undead, Low-light vision, Scent, Spiritsense
+**Senses:** Darkvision 60 ft., Detect undead, Low-light vision, Scent, Spiritsense
 
 **Sources:** Bestiary 6 pg 218, Pathfinder \#80: Empty Graves pg 84\
 **Subtype:** Extraplanar, Psychopomp

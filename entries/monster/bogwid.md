@@ -39,13 +39,13 @@ nauseating vitality, like sentient oily bubbles threatening to burst._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#62: Curse of the Lady's Light pg 84\
 **Experience points:** 1,600

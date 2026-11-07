@@ -34,8 +34,6 @@ mouth full of fangs._
 
 **aura:** pestilent aura (5 ft., DC 22)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -43,6 +41,8 @@ mouth full of fangs._
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 273, Pathfinder \#29: Mother of Flies pg 88\
 **Subtype:** Shapechanger

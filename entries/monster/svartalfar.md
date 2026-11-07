@@ -31,8 +31,6 @@ sword._
 
 **Challenge rating:** 8
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +5
@@ -43,7 +41,7 @@ sword._
 
 **Perception:** +18
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 256\
 **Subtype:** Extraplanar

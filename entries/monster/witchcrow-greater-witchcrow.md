@@ -30,15 +30,13 @@ abilities = ["12", "17", "12", "17", "16", "13"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Magical beast
 
 **Perception:** +9
 
-**Senses:** Detect magic, Low-light vision
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
 **Size:** small
 

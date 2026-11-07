@@ -35,8 +35,6 @@ in filth and gore._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -45,7 +43,7 @@ in filth and gore._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#129: The Twilight Child pg 82\
 **Experience points:** 3,200

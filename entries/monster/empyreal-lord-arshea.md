@@ -35,8 +35,6 @@ _Blue-gray wings extend over the jeweled bangles and gossamer veils of this andr
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Size:** medium
@@ -47,7 +45,7 @@ _Blue-gray wings extend over the jeweled bangles and gossamer veils of this andr
 
 **Perception:** +49
 
-**Senses:** Detect evil, Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, True seeing
 
 **Sources:** Bestiary 6 pg 110\
 **Subtype:** Angel, Extraplanar, Good

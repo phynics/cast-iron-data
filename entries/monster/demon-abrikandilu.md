@@ -34,8 +34,6 @@ taloned hand._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -43,6 +41,8 @@ taloned hand._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 74, The Worldwound pg 42\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

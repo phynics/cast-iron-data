@@ -38,8 +38,6 @@ rooms._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +9, Mythic Improved Initiative
@@ -48,7 +46,7 @@ rooms._
 
 **Perception:** +11
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 59\
 **Subtype:** Colossus, Mythic

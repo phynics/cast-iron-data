@@ -31,8 +31,6 @@ veins, organs, and twisted flesh._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -42,6 +40,8 @@ veins, organs, and twisted flesh._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 174\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

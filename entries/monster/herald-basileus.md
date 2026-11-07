@@ -31,8 +31,6 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful evil
@@ -45,7 +43,7 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 
 **Perception:** +23
 
-**Senses:** Low-light vision, See in darkness
+**Senses:** Darkvision 60 ft., Low-light vision, See in darkness
 
 **Sources:** Inner Sea Gods pg 278, Pathfinder \#29: Mother of Flies pg 78\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

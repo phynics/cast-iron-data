@@ -30,8 +30,6 @@ origins._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -42,7 +40,7 @@ origins._
 
 **Perception:** +9
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Qadira, Jewel of the East pg 60\
 **Experience points:** 2,400

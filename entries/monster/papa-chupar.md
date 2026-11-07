@@ -32,8 +32,6 @@ from its hunched shoulders._
 
 **Male unique winged chupacabra**
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -44,7 +42,7 @@ from its hunched shoulders._
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 14\
 **Experience points:** 3,200

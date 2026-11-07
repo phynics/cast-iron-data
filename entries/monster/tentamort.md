@@ -33,8 +33,6 @@ which are longer than the rest._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -43,7 +41,7 @@ which are longer than the rest._
 
 **Perception:** +11
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 261\
 **Experience points:** 1,200

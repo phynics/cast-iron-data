@@ -36,15 +36,13 @@ of plate armor._
 
 **Size:** colossal
 
-**dv:** 120
-
 **Initiative:** +7
 
 **Type:** Monstrous humanoid
 
 **Perception:** +32
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., True seeing
 
 **Sources:** Bestiary 3 pg 151\
 **Experience points:** 204,800

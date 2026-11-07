@@ -35,15 +35,13 @@ carries an oversized pair of pliers._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +2
 
 **Perception:** +7
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 262\
 **Subtype:** Extraplanar

@@ -33,8 +33,6 @@ limbs and writhing tendrils._
 
 **aura:** soul siphon (10 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,7 +43,7 @@ limbs and writhing tendrils._
 
 **Perception:** +22
 
-**Senses:** Deathwatch, True seeing
+**Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
 **Sources:** Bestiary 2 pg 63, The Great Beyond - A Guide to the Multiverse pg 54\
 **Subtype:** Daemon, Evil, Extraplanar

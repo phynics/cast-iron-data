@@ -31,8 +31,6 @@ gore-fattened fly._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ gore-fattened fly._
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

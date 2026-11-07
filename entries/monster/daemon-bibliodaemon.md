@@ -31,8 +31,6 @@ quills emerge from each knuckle of its clawed upper hands._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -43,7 +41,7 @@ quills emerge from each knuckle of its clawed upper hands._
 
 **Perception:** +15
 
-**Senses:** Detect thoughts
+**Senses:** Darkvision 60 ft., Detect thoughts
 
 **Sources:** Druma, Profit and Prophecy pg 57\
 **Subtype:** Daemon, Evil, Extraplanar

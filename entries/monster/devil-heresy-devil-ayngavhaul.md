@@ -33,8 +33,6 @@ off the ground._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -45,7 +43,7 @@ off the ground._
 
 **Perception:** +21
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 5 pg 80, Book of the Damned - Volume 1: Princes of Darkness pg 56\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

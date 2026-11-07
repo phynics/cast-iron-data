@@ -36,8 +36,6 @@ stingers the length of a human arm._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -48,7 +46,7 @@ stingers the length of a human arm._
 
 **Perception:** +22
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 280\
 **Subtype:** Chaotic, Extraplanar, Shapechanger

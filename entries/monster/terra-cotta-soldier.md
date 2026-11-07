@@ -32,8 +32,6 @@ and a sword clenched in each hand._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -42,7 +40,7 @@ and a sword clenched in each hand._
 
 **Perception:** +8
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 262\
 **Experience points:** 2,400

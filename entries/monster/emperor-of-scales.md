@@ -40,8 +40,6 @@ DC 25)
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +11
@@ -50,7 +48,7 @@ DC 25)
 
 **Perception:** +26
 
-**Senses:** All-around vision, Scent
+**Senses:** All-around vision, Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 82\
 **Subtype:** Chaotic, Evil, Native

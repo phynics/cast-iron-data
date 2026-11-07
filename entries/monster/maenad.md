@@ -33,8 +33,6 @@ eyes suggest insanity._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -42,6 +40,8 @@ eyes suggest insanity._
 **Type:** Monstrous humanoid
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 191\
 **Experience points:** 4,800

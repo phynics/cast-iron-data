@@ -35,8 +35,6 @@ beautiful visage with an expression of horror bulges from the back of its skull.
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
@@ -45,7 +43,7 @@ beautiful visage with an expression of horror bulges from the back of its skull.
 
 **Perception:** +27
 
-**Senses:** All-around vision, Detect good
+**Senses:** All-around vision, Darkvision 60 ft., Detect good
 
 **Sources:** Pathfinder \#75: Demon's Heresy pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -32,8 +32,6 @@ the sunlight and glossy eyes bright with good-natured intelligence._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -43,6 +41,8 @@ the sunlight and glossy eyes bright with good-natured intelligence._
 **Type:** outsider
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#52: Forest of Spirits pg 88\
 **Subtype:** Kami, Native, Water

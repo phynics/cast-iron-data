@@ -37,8 +37,6 @@ ends in a spinning circular blade. Its final two arms grasp a massive chainsaw._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -47,7 +45,7 @@ ends in a spinning circular blade. Its final two arms grasp a massive chainsaw._
 
 **Perception:** +2
 
-**Senses:** Low-light vision, Superior optics
+**Senses:** Darkvision 60 ft., Low-light vision, Superior optics
 
 **Sources:** Construct Handbook pg 54\
 **Subtype:** Robot

@@ -30,8 +30,6 @@ and its eyes glow with blue fire._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -40,7 +38,7 @@ and its eyes glow with blue fire._
 
 **Perception:** +13
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 3 pg 41\
 **Subtype:** Incorporeal

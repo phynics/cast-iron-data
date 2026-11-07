@@ -35,8 +35,6 @@ from its back._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Type:** Magical beast
@@ -45,7 +43,7 @@ from its back._
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 143, Pathfinder \#36: Sound of a Thousand Screams pg 84\
 **Subtype:** Aquatic, Extraplanar

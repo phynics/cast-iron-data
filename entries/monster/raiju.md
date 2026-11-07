@@ -35,13 +35,13 @@ seemingly ready to bolt._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -35,8 +35,6 @@ fanged mouth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Size:** medium
@@ -45,7 +43,7 @@ fanged mouth._
 
 **Perception:** +40
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Bestiary 6 pg 234\
 **Subtype:** Chaotic, Evil, Extraplanar, Incorporeal, Qlippoth

@@ -31,15 +31,13 @@ _This eerie-looking squid has red eyes and webbing between its hook-lined tentac
 
 **Type:** animal
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +1
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Ultimate Wilderness pg 208\
 **Size:** tiny

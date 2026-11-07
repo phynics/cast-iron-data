@@ -34,8 +34,6 @@ glistening with blue energy._
 
 **Male unique elder kraken**
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +4
@@ -46,7 +44,7 @@ glistening with blue energy._
 
 **Perception:** +32
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Mythical Monsters Revisited pg 39\
 **Subtype:** Aquatic

@@ -29,8 +29,6 @@ ursine claws in anger._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -41,7 +39,7 @@ ursine claws in anger._
 
 **Perception:** +12
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 224\
 **Experience points:** 1,200

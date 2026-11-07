@@ -36,8 +36,6 @@ her most disturbing feature._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -46,7 +44,7 @@ her most disturbing feature._
 
 **Perception:** +34
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 6 pg 84, The Worldwound pg 48\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Shapechanger

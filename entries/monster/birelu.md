@@ -34,8 +34,6 @@ covered in patches of sleek black fur._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -44,7 +42,7 @@ covered in patches of sleek black fur._
 
 **Perception:** +17
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 82\
 **Subtype:** Extraplanar, Incorporeal

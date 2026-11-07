@@ -32,8 +32,6 @@ oily sheen._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -42,7 +40,7 @@ oily sheen._
 
 **Perception:** +0
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 133, Pathfinder \#47: Ashes at Dawn pg 90\
 **Experience points:** 800

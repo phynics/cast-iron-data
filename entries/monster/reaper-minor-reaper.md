@@ -29,8 +29,6 @@ abilities = ["14", "19", "-", "8", "11", "17"]
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -39,7 +37,7 @@ abilities = ["14", "19", "-", "8", "11", "17"]
 
 **Perception:** +18
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Evil, Extraplanar

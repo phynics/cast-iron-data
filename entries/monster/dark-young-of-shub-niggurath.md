@@ -36,13 +36,13 @@ roots ending in hooves, and its trunk decorated with numerous drooling maws._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#46: Wake of the Watcher pg 78\
 **tremorsense:** 30

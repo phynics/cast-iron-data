@@ -30,8 +30,6 @@ and ears are clawed and spiked._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -40,7 +38,7 @@ and ears are clawed and spiked._
 
 **Perception:** +6
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 9\
 **Size:** tiny

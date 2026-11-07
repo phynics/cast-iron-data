@@ -33,8 +33,6 @@ at the ends of its swaying necks._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +3
@@ -43,7 +41,7 @@ at the ends of its swaying necks._
 
 **Perception:** +23
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Magnimar, City of Monuments pg 62\
 **Experience points:** 38,400

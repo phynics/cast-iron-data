@@ -30,8 +30,6 @@ _This beautiful albino woman is wreathed in wings of brilliant flame._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -42,7 +40,7 @@ _This beautiful albino woman is wreathed in wings of brilliant flame._
 
 **Perception:** +26
 
-**Senses:** Low-light vision, Smoke sight
+**Senses:** Darkvision 60 ft., Low-light vision, Smoke sight
 
 **Sources:** Bestiary 3 pg 218\
 **Subtype:** Good, Native

@@ -29,8 +29,6 @@ to dance upon its fur._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful good
@@ -41,7 +39,7 @@ to dance upon its fur._
 
 **Perception:** +7
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 47\
 **Experience points:** 600

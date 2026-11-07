@@ -33,13 +33,13 @@ the creature's thick shell._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 60\
 **Subtype:** Aquatic

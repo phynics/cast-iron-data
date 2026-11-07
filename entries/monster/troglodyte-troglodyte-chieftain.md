@@ -40,8 +40,6 @@ tail and crests on its head and back._
 
 **Alignment:** Chaotic evil
 
-**dv:** 90
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -49,6 +47,8 @@ tail and crests on its head and back._
 **Size:** medium
 
 **Perception:** +12
+
+**Senses:** Darkvision 90 ft.
 
 **Sources:** Monster Codex pg 217\
 **Subtype:** Reptilian

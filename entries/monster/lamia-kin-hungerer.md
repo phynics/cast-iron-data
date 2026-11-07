@@ -34,8 +34,6 @@ filled with terrible teeth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 90
-
 **Size:** huge
 
 **Initiative:** +5
@@ -44,7 +42,7 @@ filled with terrible teeth._
 
 **Perception:** +28
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 90 ft., Low-light vision
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 410, Pathfinder \#6: Spires of Xin-Shalast
 pg 84\

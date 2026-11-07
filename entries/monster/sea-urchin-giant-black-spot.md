@@ -32,8 +32,6 @@ their midst._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Type:** Magical beast
@@ -42,7 +40,7 @@ their midst._
 
 **Perception:** +0
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 88\
 **Subtype:** Aquatic

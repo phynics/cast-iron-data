@@ -32,8 +32,6 @@ appears to be an armored cobra._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +5
@@ -42,7 +40,7 @@ appears to be an armored cobra._
 
 **Perception:** +16
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 120 ft., Low-light vision, Scent
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 62\
 **tremorsense:** 120

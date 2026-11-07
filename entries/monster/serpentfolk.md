@@ -28,8 +28,6 @@ _This serpentine humanoid has bright scaly skin, a long sinuous tail, and a fang
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -40,7 +38,7 @@ _This serpentine humanoid has bright scaly skin, a long sinuous tail, and a fang
 
 **Perception:** +10
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 2 pg 242, Into the Darklands pg 56\
 **Experience points:** 1,200

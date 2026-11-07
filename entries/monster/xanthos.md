@@ -30,8 +30,6 @@ head, neck, and back._
 
 **Challenge rating:** 14
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +6
@@ -42,7 +40,7 @@ head, neck, and back._
 
 **Perception:** +23
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 282\
 **Experience points:** 38,400

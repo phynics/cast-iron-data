@@ -31,8 +31,6 @@ and its hooves spray sparks._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,6 +40,8 @@ and its hooves spray sparks._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 216\
 **Subtype:** Evil, Extraplanar

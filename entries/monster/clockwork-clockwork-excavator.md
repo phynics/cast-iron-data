@@ -36,8 +36,6 @@ arm._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -46,7 +44,7 @@ arm._
 
 **Perception:** +0
 
-**Senses:** Low-light vision, Metal sense 120 ft.
+**Senses:** Darkvision 60 ft., Low-light vision, Metal sense 120 ft.
 
 **Sources:** Pathfinder \#117: Assault on Longshadow pg 84\
 **Subtype:** Clockwork

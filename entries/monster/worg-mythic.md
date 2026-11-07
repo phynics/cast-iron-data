@@ -34,8 +34,6 @@ _A terrifying darkness surrounds this giant wolf._
 
 **aura:** darkness (30 ft., 1 step)
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Type:** Magical beast
@@ -46,7 +44,7 @@ _A terrifying darkness surrounds this giant wolf._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 222\
 **Subtype:** Mythic

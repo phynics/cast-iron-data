@@ -32,8 +32,6 @@ lengthy contracts._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ lengthy contracts._
 
 **Perception:** +26
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 3 pg 76, Pathfinder \#12: Crown of Fangs pg 86\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

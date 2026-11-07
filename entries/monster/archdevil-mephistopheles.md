@@ -34,8 +34,6 @@ wings._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 41), shield of law (DC 32)
 
-**dv:** 60
-
 **Initiative:** +14
 
 **Size:** large
@@ -46,7 +44,7 @@ wings._
 
 **Perception:** +50
 
-**Senses:** Detect chaos, Detect good, Discern lies, See in darkness, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect good, Discern lies, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 28\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

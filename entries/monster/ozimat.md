@@ -32,8 +32,6 @@ _Chunks of rock spin about a humanoid form of vibrant green light._
 
 **blindsight:** 30
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -43,6 +41,8 @@ _Chunks of rock spin about a humanoid form of vibrant green light._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planes of Power pg 62\
 **Subtype:** Earth, Elemental, Extraplanar, Incorporeal

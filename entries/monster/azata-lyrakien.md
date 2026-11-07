@@ -34,15 +34,13 @@ lights and gentle rainbow arcs._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Type:** outsider
 
 **Perception:** +9
 
-**Senses:** Detect evil, Detect magic, Low-light vision
+**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 38, Pathfinder \#2: The Skinsaw Murders pg 86\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

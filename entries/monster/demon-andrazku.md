@@ -34,8 +34,6 @@ and skin the color of a snow-buried corpse._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -44,7 +42,7 @@ and skin the color of a snow-buried corpse._
 
 **Perception:** +12
 
-**Senses:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 84\
 **Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar

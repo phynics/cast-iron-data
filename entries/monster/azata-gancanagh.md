@@ -32,8 +32,6 @@ _This incredibly handsome man's pointed ears and otherworldly grace betray an in
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -42,7 +40,7 @@ _This incredibly handsome man's pointed ears and otherworldly grace betray an in
 
 **Perception:** +9
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 38\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

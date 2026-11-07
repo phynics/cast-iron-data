@@ -28,13 +28,13 @@ _This sizable insect has a slender body and two pairs of long, elegant, iridesce
 
 **Challenge rating:** 1/4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ultimate Wilderness pg 206\
 **Size:** tiny

@@ -37,8 +37,6 @@ eyes that glow with ancient, forbidden power._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -47,7 +45,7 @@ eyes that glow with ancient, forbidden power._
 
 **Perception:** +32
 
-**Senses:** All-around vision
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 62\
 **Experience points:** 25,600

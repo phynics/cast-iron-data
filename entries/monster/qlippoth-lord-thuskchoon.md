@@ -36,8 +36,6 @@ gaping, sludge-dripping mouth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +14
@@ -46,7 +44,7 @@ gaping, sludge-dripping mouth._
 
 **Perception:** +36
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Bestiary 6 pg 238\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

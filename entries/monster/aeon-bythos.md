@@ -34,8 +34,6 @@ in its torso._
 
 **blindsense:** 60
 
-**dv:** 90
-
 **Initiative:** +8
 
 **Size:** large
@@ -46,7 +44,7 @@ in its torso._
 
 **Perception:** +30
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 90 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 10\
 **Subtype:** Aeon, Extraplanar

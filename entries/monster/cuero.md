@@ -35,8 +35,6 @@ _The pink, fleshy underside of this flat, aquatic creature features a large circ
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -44,6 +42,8 @@ _The pink, fleshy underside of this flat, aquatic creature features a large circ
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 62\
 **Subtype:** Aquatic

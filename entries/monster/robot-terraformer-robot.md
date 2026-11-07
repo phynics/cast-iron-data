@@ -32,8 +32,6 @@ _This large robot's arms end in an assortment of drills, torches, hammers, and v
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -42,7 +40,7 @@ _This large robot's arms end in an assortment of drills, torches, hammers, and v
 
 **Perception:** +13
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 209\
 **Subtype:** Robot

@@ -31,8 +31,6 @@ fiery-eyed sentinel bristles with barbs._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ fiery-eyed sentinel bristles with barbs._
 
 **Perception:** +21
 
-**Senses:** See in darkness
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 72\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

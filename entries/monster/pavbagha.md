@@ -34,8 +34,6 @@ radiates an aura of calm._
 
 **aura:** courage (10 ft.)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -46,7 +44,7 @@ radiates an aura of calm._
 
 **Perception:** +11
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 295\
 **Subtype:** Extraplanar, Lawful

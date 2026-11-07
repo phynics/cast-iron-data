@@ -33,8 +33,6 @@ dominates the battlefield, spitting hot lead and artillery - seemingly without a
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -43,7 +41,7 @@ dominates the battlefield, spitting hot lead and artillery - seemingly without a
 
 **Perception:** +26
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#71: Rasputin Must Die! pg 84\
 **Experience points:** 19,200

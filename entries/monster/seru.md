@@ -30,8 +30,6 @@ _The sound of flapping wings and an angry hiss accompany the appearance of this 
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Magical beast
@@ -40,7 +38,7 @@ _The sound of flapping wings and an angry hiss accompany the appearance of this 
 
 **Perception:** +10
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

@@ -40,15 +40,13 @@ across the snow._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +15
 
-**Senses:** Low-light vision, Snow vision
+**Senses:** Darkvision 120 ft., Low-light vision, Snow vision
 
 **Sources:** Mythic Adventures pg 192\
 **Subtype:** Cold, Mythic

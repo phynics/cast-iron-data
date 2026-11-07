@@ -31,8 +31,6 @@ dragon and a horned goat._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -41,7 +39,7 @@ dragon and a horned goat._
 
 **Perception:** +10
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 44\
 **Experience points:** 3,200

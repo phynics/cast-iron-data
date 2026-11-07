@@ -31,8 +31,6 @@ save for her wide, fang-filled mouth._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -43,7 +41,7 @@ save for her wide, fang-filled mouth._
 
 **Perception:** +14
 
-**Senses:** Detect good, Detect magic, See in darkness
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
 **Sources:** Book of the Damned pg 248\
 **Subtype:** Div, Evil, Extraplanar

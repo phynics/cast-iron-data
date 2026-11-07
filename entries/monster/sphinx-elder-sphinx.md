@@ -31,8 +31,6 @@ acquired through untold ages of experience._
 
 **Challenge rating:** 16
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +5
@@ -43,7 +41,7 @@ acquired through untold ages of experience._
 
 **Perception:** +27
 
-**Senses:** Low-light vision, True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 90\
 **Experience points:** 76,800

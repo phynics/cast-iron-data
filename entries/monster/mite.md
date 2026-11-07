@@ -32,8 +32,6 @@ its puffy blue face is._
 
 **Challenge rating:** 1/4
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +1
@@ -42,7 +40,7 @@ its puffy blue face is._
 
 **Perception:** +5
 
-**Senses:** Low-light vision, Scent
+**Senses:** Darkvision 120 ft., Low-light vision, Scent
 
 **Size:** small
 

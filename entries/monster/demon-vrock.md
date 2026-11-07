@@ -33,8 +33,6 @@ vulture._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,6 +40,8 @@ vulture._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 69\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

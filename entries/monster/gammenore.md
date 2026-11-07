@@ -32,8 +32,6 @@ large - flex in anticipation of combat._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -44,7 +42,7 @@ large - flex in anticipation of combat._
 
 **Perception:** +10
 
-**Senses:** Low-light vision
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#89: Palace of Fallen Stars pg 84\
 **Subtype:** Cold

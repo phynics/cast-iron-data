@@ -34,8 +34,6 @@ mask that covers most of its face._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -43,6 +41,8 @@ mask that covers most of its face._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar
