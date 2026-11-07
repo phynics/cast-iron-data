@@ -8,7 +8,7 @@ publication_date = "2011-05-01"
 [[publication]]
 id = "advanced-class-guide"
 title = "Advanced Class Guide"
-copyright = "Pathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor.; © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
+copyright = "Pathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
 category = "RPG"
 publication_date = "2014-08-14"
 
@@ -22,21 +22,21 @@ publication_date = "2014-10-22"
 [[publication]]
 id = "advanced-players-guide"
 title = "Advanced Player's Guide"
-copyright = "Advanced Player’s Guide, © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.; © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.; © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn"
+copyright = "Advanced Player’s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
 category = "RPG"
 publication_date = "2010-08-01"
 
 [[publication]]
 id = "advanced-race-guide"
 title = "Advanced Race Guide"
-copyright = "Pathfinder Roleplaying Game Advanced Race Guide © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.; Pathfinder Roleplaying Game Advanced Race Guide, © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor.; © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
+copyright = "Pathfinder Roleplaying Game Advanced Race Guide © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
 category = "RPG"
 publication_date = "2012-05-01"
 
 [[publication]]
 id = "adventurers-armory"
 title = "Adventurer's Armory"
-copyright = "© 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker.; Pathfinder Companion: Adventurer’s Armory. Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker."
+copyright = "Pathfinder Companion: Adventurer’s Armory. Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker."
 category = "Player Companion"
 publication_date = "2010-04-01"
 
@@ -92,7 +92,7 @@ publication_date = "2013-02-13"
 [[publication]]
 id = "antiheros-handbook"
 title = "Antihero's Handbook"
-copyright = "© 2017, Paizo Inc.; Authors: Emily Brumfield, Violet Hargrave, Susann Hessen, Mikko Kallio, Lyz Liddell, Adrian Ng, Joe Pasini, Lacy Pellazar, Kyle T. Raes, David N. Ross, and Kendra Leigh Speedling.; Pathfinder Player Companion: Antihero’s Handbook © 2017, Paizo Inc.; Authors: Emily Brumfield, Violet Hargrave, Susann Hessen, Mikko Kallio, Lyz Liddell, Adrian Ng, Joe Pasini, Lacy Pellazar, Kyle T. Raes, David N. Ross, and Kendra Leigh Speedling."
+copyright = "Pathfinder Player Companion: Antihero’s Handbook © 2017, Paizo Inc.; Authors: Emily Brumfield, Violet Hargrave, Susann Hessen, Mikko Kallio, Lyz Liddell, Adrian Ng, Joe Pasini, Lacy Pellazar, Kyle T. Raes, David N. Ross, and Kendra Leigh Speedling."
 category = "Player Companion"
 publication_date = "2017-09-14"
 
@@ -106,7 +106,7 @@ publication_date = "2017-06-14"
 [[publication]]
 id = "arcane-anthology"
 title = "Arcane Anthology"
-copyright = "Pathfinder Player Companion: Arcane Anthology © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross.; © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
+copyright = "Pathfinder Player Companion: Arcane Anthology © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
 category = "Player Companion"
 publication_date = "2016-01-16"
 
@@ -127,7 +127,7 @@ publication_date = "2012-09-01"
 [[publication]]
 id = "bastards-of-golarion"
 title = "Bastards of Golarion"
-copyright = "Pathfinder Player Companion: Bastards of Golarion © 2014, Paizo Publishing, LLC; Authors: Judy Bauer, Neal Litherland, Ryan Macklin, and David N. Ross.; © 2014, Paizo Publishing, LLC; Authors: Judy Bauer, Neal Litherland, Ryan Macklin, and David N. Ross."
+copyright = "Pathfinder Player Companion: Bastards of Golarion © 2014, Paizo Publishing, LLC; Authors: Judy Bauer, Neal Litherland, Ryan Macklin, and David N. Ross."
 category = "Player Companion"
 publication_date = "2014-02-06"
 
@@ -141,7 +141,7 @@ publication_date = "2015-01-17"
 [[publication]]
 id = "bestiary"
 title = "Bestiary"
-copyright = "Pathfinder RPG Bestiary, © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.; Pathfinder RPG Bestiary. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.; © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on original material by Jonathan Tweet, Monte Cook, and Skip Williams.; © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+copyright = "Pathfinder RPG Bestiary, © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
 category = "RPG"
 publication_date = "2009-08-02"
 
@@ -176,7 +176,7 @@ publication_date = "2015-11-18"
 [[publication]]
 id = "bestiary-6"
 title = "Bestiary 6"
-copyright = "Bestiary 6: Section 15 notice pending; Open Game Content used under the OGL."
+copyright = "Pathfinder Roleplaying Game Bestiary 6 © 2017, Paizo Inc.; Authors: Robert Brookes, Benjamin Bruck, John Compton, Paris Crenshaw, Adam Daigle, Crystal Frasier, James Jacobs, Thurston Hillman, Tim Hitchcock, Brandon Hodge, Jason Keeley, Isabelle Lee, Jason Nelson, Tim Nightengale, F. Wesley Schneider, David Schwartz, Mark Seifter, Todd Stewart, Josh Vogt, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2017-04-26"
 
@@ -197,7 +197,7 @@ publication_date = "2015-11-18"
 [[publication]]
 id = "blood-of-angels"
 title = "Blood of Angels"
-copyright = "Pathfinder Player Companion: Blood of Angels © 2012, Paizo Publishing, LLC; Author: Amber E. Scott.; © 2012, Paizo Publishing, LLC; Author: Amber E. Scott."
+copyright = "Pathfinder Player Companion: Blood of Angels © 2012, Paizo Publishing, LLC; Author: Amber E. Scott."
 category = "Player Companion"
 publication_date = "2012-06-01"
 
@@ -211,21 +211,21 @@ publication_date = "2009-06-01"
 [[publication]]
 id = "blood-of-fiends"
 title = "Blood of Fiends"
-copyright = "Pathfinder Player Companion: Blood of Fiends © 2012, Paizo Publishing, LLC; Authors: Hal Maclean and Colin McComb.; © 2012, Paizo Publishing, LLC; Authors: Hal Maclean and Colin McComb."
+copyright = "Pathfinder Player Companion: Blood of Fiends © 2012, Paizo Publishing, LLC; Authors: Hal Maclean and Colin McComb."
 category = "Player Companion"
 publication_date = "2012-04-01"
 
 [[publication]]
 id = "blood-of-shadows"
 title = "Blood of Shadows"
-copyright = "Pathfinder Player Companion: Blood of Shadows © 2016, Paizo Inc.; Authors: Alexander\r Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen.; © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
+copyright = "Pathfinder Player Companion: Blood of Shadows © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
 category = "Player Companion"
 publication_date = "2016-02-24"
 
 [[publication]]
 id = "blood-of-the-ancients"
 title = "Blood of the Ancients"
-copyright = "Pathfinder Player Companion: Blood of the Ancients © 2018, Paizo Inc.; Authors: John Compton, Andrew Hoskins, James Jacobs, Mikko Kallo, Alex Riggs, Stephen Rowe, and Jeffrey Swank.; © 2018, Paizo Inc.; Authors: John Compton, Andrew Hoskins, James Jacobs, Mikko Kallo, Alex Riggs, Stephen Rowe, and Jeffrey Swank."
+copyright = "Pathfinder Player Companion: Blood of the Ancients © 2018, Paizo Inc.; Authors: John Compton, Andrew Hoskins, James Jacobs, Mikko Kallo, Alex Riggs, Stephen Rowe, and Jeffrey Swank."
 category = "Player Companion"
 publication_date = "2018-05-15"
 
@@ -239,14 +239,14 @@ publication_date = "2016-11-21"
 [[publication]]
 id = "blood-of-the-coven"
 title = "Blood of the Coven"
-copyright = "Pathfinder Player Companion: Blood of the Coven © 2017, Paizo Inc.; Authors: John Compton, Eleanor Ferron, Crystal Frasier, Lissa Guillet, Elisa Mader, Adrian Ng, Mark Seifter, and Linda Zayas-Palmer.; © 2017, Paizo Inc.; Authors: John Compton, Eleanor Ferron, Crystal Frasier, Lissa Guillet, Elisa Mader, Adrian Ng, Mark Seifter, and Linda Zayas-Palmer."
+copyright = "Pathfinder Player Companion: Blood of the Coven © 2017, Paizo Inc.; Authors: John Compton, Eleanor Ferron, Crystal Frasier, Lissa Guillet, Elisa Mader, Adrian Ng, Mark Seifter, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2017-10-14"
 
 [[publication]]
 id = "blood-of-the-elements"
 title = "Blood of the Elements"
-copyright = "Pathfinder Player Companion: Blood of the Elements © 2014, Paizo Inc.; Authors: Tim Akers, Judy Bauer, Jim Groves, Chris Lites, Dale C. McCoy, Jr., and Cassidy Werner.; © 2014, Paizo Inc.; Authors: Tim Akers, Judy Bauer, Jim Groves, Chris Lites, Dale C. McCoy, Jr., and Cassidy Werner."
+copyright = "Pathfinder Player Companion: Blood of the Elements © 2014, Paizo Inc.; Authors: Tim Akers, Judy Bauer, Jim Groves, Chris Lites, Dale C. McCoy, Jr., and Cassidy Werner."
 category = "Player Companion"
 publication_date = "2014-06-25"
 
@@ -274,14 +274,14 @@ publication_date = "2017-07-14"
 [[publication]]
 id = "bonus-bestiary"
 title = "Bonus Bestiary"
-copyright = "Pathfinder Roleplaying Game: Bonus Bestiary. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn.; © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn."
+copyright = "Pathfinder Roleplaying Game: Bonus Bestiary, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn."
 category = "RPG"
 publication_date = "2009-07-01"
 
 [[publication]]
 id = "book-of-the-damned"
 title = "Book of the Damned"
-copyright = "Pathfinder Roleplaying Game Book of the Damned © 2017, Paizo Inc.; Authors: John Compton, Adam Daigle, Amanda Hamon Kunz, James Jacobs, Isabelle Lee, F. Wesley Schneider, Todd Stewart, and Josh Vogt.; © 2017, Paizo Inc.; Authors: John Compton, Adam Daigle, Amanda Hamon Kunz, James Jacobs, Isabelle Lee, F. Wesley Schneider, Todd Stewart, and Josh Vogt."
+copyright = "Pathfinder Roleplaying Game Book of the Damned © 2017, Paizo Inc.; Authors: John Compton, Adam Daigle, Amanda Hamon Kunz, James Jacobs, Isabelle Lee, F. Wesley Schneider, Todd Stewart, and Josh Vogt."
 category = "RPG"
 publication_date = "2017-09-20"
 
@@ -344,28 +344,28 @@ publication_date = "2013-06-13"
 [[publication]]
 id = "champions-of-balance"
 title = "Champions of Balance"
-copyright = "Pathfinder Player Companion: Champions of Balance © 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz.; © 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz."
+copyright = "Pathfinder Player Companion: Champions of Balance © 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz."
 category = "Player Companion"
 publication_date = "2014-03-25"
 
 [[publication]]
 id = "champions-of-corruption"
 title = "Champions of Corruption"
-copyright = "Pathfinder Player Companion: Champions of Corruption © 2014, Paizo Inc.; Authors: Paris Crenshaw, Jim Groves, Sean McGowen, and Philip Minchin.; © 2014, Paizo Inc.; Authors: Paris Crenshaw, Jim Groves, Sean McGowen, and Philip Minchin."
+copyright = "Pathfinder Player Companion: Champions of Corruption © 2014, Paizo Inc.; Authors: Paris Crenshaw, Jim Groves, Sean McGowen, and Philip Minchin."
 category = "Player Companion"
 publication_date = "2014-09-10"
 
 [[publication]]
 id = "champions-of-purity"
 title = "Champions of Purity"
-copyright = "Pathfinder Player Companion: Champions of Purity © 2013, Paizo Publishing, LLC; Authors: Jessica Blomstrom, Adam Daigle, Shaun Hocking, Daniel Marthaler, Tork Shaw, and Christina Stiles.; © 2013, Paizo Publishing, LLC; Authors: Jessica Blomstrom, Adam Daigle, Shaun Hocking, Daniel Marthaler, Tork Shaw, and Christina Stiles."
+copyright = "Pathfinder Player Companion: Champions of Purity © 2013, Paizo Publishing, LLC; Authors: Jessica Blomstrom, Adam Daigle, Shaun Hocking, Daniel Marthaler, Tork Shaw, and Christina Stiles."
 category = "Player Companion"
 publication_date = "2013-04-16"
 
 [[publication]]
 id = "cheliax-empire-of-devils"
 title = "Cheliax, Empire of Devils"
-copyright = "Pathfinder Companion: Cheliax, Empire of Devils. Copyright 2009, Paizo Publishing, LLC; Authors: Jonathan H. Keith, Colin McComb, Steven E. Schend, Leandra Christine Schneider, and Amber E. Scott.; © 2009, Paizo Publishing, LLC; Authors: Jonathan H. Keith, Colin McComb, Steven E. Schend, Leandra Christine Schneider, and Amber E. Scott."
+copyright = "Pathfinder Companion: Cheliax, Empire of Devils. Copyright 2009, Paizo Publishing, LLC; Authors: Jonathan H. Keith, Colin McComb, Steven E. Schend, Leandra Christine Schneider, and Amber E. Scott."
 category = "Player Companion"
 publication_date = "2009-08-01"
 
@@ -463,7 +463,7 @@ publication_date = "2018-11-14"
 [[publication]]
 id = "core-rulebook"
 title = "Core Rulebook"
-copyright = "Pathfinder RPG Core Rulebook, © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.; Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.; Pathfinder Roleplaying Game Core Rulebook. © 2010, Paizo Publishing, LLC; Author: Jason Buhlman, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.; © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.; © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on original material by Jonathan Tweet, Monte Cook, and Skip Williams.; © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn, based on original material by Jonathan Tweet, Monte Cook, and Skip Williams."
+copyright = "Pathfinder Roleplaying Game Core Rulebook © 2011, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
 category = "RPG"
 publication_date = "2009-08-01"
 
@@ -547,7 +547,7 @@ publication_date = "2015-02-25"
 [[publication]]
 id = "demon-hunters-handbook"
 title = "Demon Hunter's Handbook"
-copyright = "© 2013, Paizo Publishing, LLC; Authors: Philip Minchin, F. Wesley Schneider, and Jerome Virnich.; Pathfinder Player Companion: Demon Hunter’s Handbook © 2013, Paizo Publishing, LLC; Authors: Philip Minchin, F. Wesley Schneider, and Jerome Virnich."
+copyright = "Pathfinder Player Companion: Demon Hunter’s Handbook © 2013, Paizo Publishing, LLC; Authors: Philip Minchin, F. Wesley Schneider, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2013-08-17"
 
@@ -561,7 +561,7 @@ publication_date = "2013-08-19"
 [[publication]]
 id = "dirty-tactics-toolbox"
 title = "Dirty Tactics Toolbox"
-copyright = "Pathfinder Player Companion: Dirty Tactics Toolbox © 2015, Paizo Inc.; Authors: Alexander Augunas, Mikko Kallio, Anthony Li, Luis Loza, and Andrew Marlowe.; © 2015, Paizo Inc.; Authors: Alexander Augunas, Mikko Kallio, Anthony Li, Luis Loza, and Andrew Marlowe."
+copyright = "Pathfinder Player Companion: Dirty Tactics Toolbox © 2015, Paizo Inc.; Authors: Alexander Augunas, Mikko Kallio, Anthony Li, Luis Loza, and Andrew Marlowe."
 category = "Player Companion"
 publication_date = "2015-08-29"
 
@@ -596,7 +596,7 @@ publication_date = "2012-03-01"
 [[publication]]
 id = "divine-anthology"
 title = "Divine Anthology"
-copyright = "Pathfinder Player Companion: Divine Anthology © 2016, Paizo Inc.; Authors: Alexander Augunas, Russ Brown, John Compton, Alex Riggs, and David Ross.; © 2016, Paizo Inc.; Authors: Alexander Augunas, Russ Brown, John Compton, Alex Riggs, and David Ross."
+copyright = "Pathfinder Player Companion: Divine Anthology © 2016, Paizo Inc.; Authors: Alexander Augunas, Russ Brown, John Compton, Alex Riggs, and David Ross."
 category = "Player Companion"
 publication_date = "2016-09-28"
 
@@ -624,14 +624,14 @@ publication_date = "2012-01-01"
 [[publication]]
 id = "dragon-empires-primer"
 title = "Dragon Empires Primer"
-copyright = "Pathfinder Player Companion: Dragon Empires Primer © 2011, Paizo Publishing, LLC; Authors: Tim Hitchcock and Colin McComb.; © 2011, Paizo Publishing, LLC; Authors: Tim Hitchcock and Colin McComb."
+copyright = "Pathfinder Player Companion: Dragon Empires Primer © 2011, Paizo Publishing, LLC; Authors: Tim Hitchcock and Colin McComb."
 category = "Player Companion"
 publication_date = "2011-12-01"
 
 [[publication]]
 id = "dragonslayers-handbook"
 title = "Dragonslayer's Handbook"
-copyright = "Pathfinder Player Companion: Dragonslayer's Handbook © 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Marie Small, and Jerome Virnich.; © 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Marie Small, and Jerome Virnich."
+copyright = "Pathfinder Player Companion: Dragonslayer's Handbook © 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Marie Small, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2013-07-11"
 
@@ -652,7 +652,7 @@ publication_date = "2009-07-01"
 [[publication]]
 id = "dungeoneers-handbook"
 title = "Dungeoneer's Handbook"
-copyright = "Pathfinder Player Companion: Dungeoneer's Handbook © 2013, Paizo Publishing, LLC; Authors: Amanda Hamon, Gareth Hanrahan, David Ross, and Jerome Virnich.; © 2013, Paizo Publishing, LLC; Authors: Amanda Hamon, Gareth Hanrahan, David Ross, and Jerome Virnich."
+copyright = "Pathfinder Player Companion: Dungeoneer's Handbook © 2013, Paizo Publishing, LLC; Authors: Amanda Hamon, Gareth Hanrahan, David Ross, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2013-03-08"
 
@@ -666,7 +666,7 @@ publication_date = "2011-07-06"
 [[publication]]
 id = "dwarves-of-golarion"
 title = "Dwarves of Golarion"
-copyright = "Pathfinder Companion: Dwarves of Golarion. Copyright 2009, Paizo Publishing, LLC; Authors: David A. Eitelbach, Russ Taylor, JD Wiker, Keri Wiker, and Hank Woon.; © 2009, Paizo Publishing, LLC; Authors: David A. Eitelbach, Russ Taylor, JD Wiker, Keri Wiker, and Hank Woon."
+copyright = "Pathfinder Companion: Dwarves of Golarion. Copyright 2009, Paizo Publishing, LLC; Authors: David A. Eitelbach, Russ Taylor, JD Wiker, Keri Wiker, and Hank Woon."
 category = "Player Companion"
 publication_date = "2009-12-01"
 
@@ -715,7 +715,7 @@ publication_date = "2011-07-06"
 [[publication]]
 id = "faiths-of-corruption"
 title = "Faiths of Corruption"
-copyright = "Pathfinder Player Companion: Faiths of Corruption © 2011, Paizo Publishing, LLC; Author: Colin McComb.; © 2011, Paizo Publishing, LLC; Author: Colin McComb."
+copyright = "Pathfinder Player Companion: Faiths of Corruption © 2011, Paizo Publishing, LLC; Author: Colin McComb."
 category = "Player Companion"
 publication_date = "2011-10-01"
 
@@ -729,7 +729,7 @@ publication_date = "2018-12-12"
 [[publication]]
 id = "faiths-of-purity"
 title = "Faiths of Purity"
-copyright = "Faiths of Purity: Section 15 notice pending; Open Game Content used under the OGL."
+copyright = "Pathfinder Player Companion: Faiths of Purity. © 2011, Paizo Publishing, LLC; Author: Colin McComb."
 category = "Player Companion"
 publication_date = "2011-04-01"
 
@@ -799,7 +799,7 @@ publication_date = "2016-07-28"
 [[publication]]
 id = "game-mastery-guide"
 title = "Game Mastery Guide"
-copyright = "Pathfinder RPG GameMastery Guide, © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.; Pathfinder RPG GameMastery Guide, © 2010, Paizo Publishing, LLC; Authors: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scott, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.; © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scott, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.; © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff."
+copyright = "Pathfinder RPG GameMastery Guide, © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scott, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff."
 category = "RPG"
 publication_date = "2010-06-01"
 
@@ -811,7 +811,7 @@ copyright = "Condition Cards.  Copyright 2010, Paizo Publishing, LLC.  Author: J
 [[publication]]
 id = "giant-hunters-handbook"
 title = "Giant Hunter's Handbook"
-copyright = "Pathfinder Player Companion: Giant Hunter's Handbook © 2014, Paizo Inc.; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David Ross.; © 2014, Paizo Inc.; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David Ross."
+copyright = "Pathfinder Player Companion: Giant Hunter's Handbook © 2014, Paizo Inc.; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David Ross."
 category = "Player Companion"
 publication_date = "2014-12-17"
 
@@ -839,7 +839,7 @@ publication_date = "2010-05-01"
 [[publication]]
 id = "goblins-of-golarion"
 title = "Goblins of Golarion"
-copyright = "Goblins of Golarion: Section 15 notice pending; Open Game Content used under the OGL."
+copyright = "Pathfinder Player Companion: Goblins of Golarion. © 2011, Paizo Publishing, LLC; Author: James Jacobs, Hal Maclean, and Richard Pett."
 category = "Player Companion"
 publication_date = "2011-07-27"
 
@@ -881,14 +881,14 @@ publication_date = "2011-01-01"
 [[publication]]
 id = "haunted-heroes-handbook"
 title = "Haunted Heroes Handbook"
-copyright = "Pathfinder Player Companion: Haunted Heroes Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, Thurston Hillman, Isabelle Lee, Stephen Rowe, and Christopher Wasko.; © 2016, Paizo Inc.; Authors: Alexander Augunas, Thurston Hillman, Isabelle Lee, Stephen Rowe, and Christopher Wasko."
+copyright = "Pathfinder Player Companion: Haunted Heroes Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, Thurston Hillman, Isabelle Lee, Stephen Rowe, and Christopher Wasko."
 category = "Player Companion"
 publication_date = "2016-08-31"
 
 [[publication]]
 id = "healers-handbook"
 title = "Healer's Handbook"
-copyright = "© 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Stephen Rowe.; Pathfinder Player Companion: Healer’s Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Stephen Rowe."
+copyright = "Pathfinder Player Companion: Healer’s Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Stephen Rowe."
 category = "Player Companion"
 publication_date = "2017-01-25"
 
@@ -930,14 +930,14 @@ publication_date = "2016-02-25"
 [[publication]]
 id = "heroes-from-the-fringe"
 title = "Heroes from the Fringe"
-copyright = "Pathfinder Player Companion: Heroes from the Fringe © 2018, Paizo Inc.; Authors: Saif Ansari, Kate Baker, Michelle Jones, Isabelle Lee, Adrian Ng, Alex Riggs, Owen K.C. Stephens.; © 2018, Paizo Inc.; Authors: Saif Ansari, Kate Baker, Michelle Jones, Isabelle Lee, Adrian Ng, Alex Riggs, Owen K.C. Stephens."
+copyright = "Pathfinder Player Companion: Heroes from the Fringe © 2018, Paizo Inc.; Authors: Saif Ansari, Kate Baker, Michelle Jones, Isabelle Lee, Adrian Ng, Alex Riggs, Owen K.C. Stephens."
 category = "Player Companion"
 publication_date = "2018-08-30"
 
 [[publication]]
 id = "heroes-of-golarion"
 title = "Heroes of Golarion"
-copyright = "Pathfinder Player Companion: Heroes of Golarion © 2019, Paizo Inc.; Authors: Saif Ansari, Alexander Augunas, Mara Lynn Butler, Michelle Jones, Avi Kool, and Alex Riggs.; © 2019, Paizo Inc.; Authors: Saif Ansari, Alexander Augunas, Mara Lynn Butler, Michelle Jones, Avi Kool, and Alex Riggs."
+copyright = "Pathfinder Player Companion: Heroes of Golarion © 2019, Paizo Inc.; Authors: Saif Ansari, Alexander Augunas, Mara Lynn Butler, Michelle Jones, Avi Kool, and Alex Riggs."
 category = "Player Companion"
 publication_date = "2019-03-27"
 
@@ -979,7 +979,7 @@ publication_date = "2007-09-01"
 [[publication]]
 id = "horror-adventures"
 title = "Horror Adventures"
-copyright = "Pathfinder Roleplaying Game Horror Adventures © 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer.; © 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
+copyright = "Pathfinder Roleplaying Game Horror Adventures © 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2016-08-07"
 
@@ -1063,7 +1063,7 @@ publication_date = "2013-12-11"
 [[publication]]
 id = "inner-sea-primer"
 title = "Inner Sea Primer"
-copyright = "Pathfinder Player Companion: Inner Sea Primer. Copyright 2010, Paizo Publishing, LLC; Author: Colin McComb.; © 2010, Paizo Publishing, LLC; Author: Colin McComb."
+copyright = "Pathfinder Player Companion: Inner Sea Primer. Copyright 2010, Paizo Publishing, LLC; Author: Colin McComb."
 category = "Player Companion"
 publication_date = "2010-11-01"
 
@@ -1182,7 +1182,7 @@ publication_date = "2011-10-01"
 [[publication]]
 id = "legacy-of-dragons"
 title = "Legacy of Dragons"
-copyright = "Pathfinder Player Companion: Legacy of Dragons © 2016, Paizo Inc.; Authors: Alexander Augunas, Robert Brookes, Thurston Hillman, Michelle Jones, Mikko Kallio, and Mark Seifter.; © 2016, Paizo Inc.; Authors: Alexander Augunas, Robert Brookes, Thurston Hillman, Michelle Jones, Mikko Kallio, and Mark Seifter."
+copyright = "Pathfinder Player Companion: Legacy of Dragons © 2016, Paizo Inc.; Authors: Alexander Augunas, Robert Brookes, Thurston Hillman, Michelle Jones, Mikko Kallio, and Mark Seifter."
 category = "Player Companion"
 publication_date = "2016-07-28"
 
@@ -1196,7 +1196,7 @@ publication_date = "2009-03-01"
 [[publication]]
 id = "legacy-of-the-first-world"
 title = "Legacy of the First World"
-copyright = "Pathfinder Player Companion: Legacy of the First World © 2017, Paizo Inc.; Authors: Jake Alley, Judy Bauer, John Compton, Mikko Kallio, Jason Keeley, Joe Pasini, Mark Seifter, Kendra Leigh Speedling, Josh Vogt, and Linda Zayas-Palmer.; © 2017, Paizo Inc.; Authors: Jake Alley, Judy Bauer, John Compton, Mikko Kallio, Jason Keeley, Joe Pasini, Mark Seifter, Kendra Leigh Speedling, Josh Vogt, and Linda Zayas-Palmer."
+copyright = "Pathfinder Player Companion: Legacy of the First World © 2017, Paizo Inc.; Authors: Jake Alley, Judy Bauer, John Compton, Mikko Kallio, Jason Keeley, Joe Pasini, Mark Seifter, Kendra Leigh Speedling, Josh Vogt, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2017-05-14"
 
@@ -1229,7 +1229,7 @@ copyright = "Magic of Thassilon: Section 15 notice pending; Open Game Content us
 [[publication]]
 id = "magic-tactics-toolbox"
 title = "Magic Tactics Toolbox"
-copyright = "Pathfinder Player Companion: Magic Tactics Toolbox © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen.; © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
+copyright = "Pathfinder Player Companion: Magic Tactics Toolbox © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
 category = "Player Companion"
 publication_date = "2016-05-27"
 
@@ -1264,7 +1264,7 @@ publication_date = "2009-12-01"
 [[publication]]
 id = "melee-tactics-toolbox"
 title = "Melee Tactics Toolbox"
-copyright = "Pathfinder Player Companion: Melee Tactics Toolbox © 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz.; © 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz."
+copyright = "Pathfinder Player Companion: Melee Tactics Toolbox © 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz."
 category = "Player Companion"
 publication_date = "2015-03-25"
 
@@ -1285,7 +1285,7 @@ publication_date = "2010-10-01"
 [[publication]]
 id = "monster-codex"
 title = "Monster Codex"
-copyright = "Pathfinder Roleplaying Game Monster Codex © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor.; © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor."
+copyright = "Pathfinder Roleplaying Game Monster Codex © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor."
 category = "RPG"
 publication_date = "2014-10-22"
 
@@ -1327,14 +1327,14 @@ publication_date = "2012-12-06"
 [[publication]]
 id = "mythic-adventures"
 title = "Mythic Adventures"
-copyright = "Pathfinder Roleplaying Game Mythic Adventures, © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese.; © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+copyright = "Pathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
 category = "RPG"
 publication_date = "2013-08-19"
 
 [[publication]]
 id = "mythic-origins"
 title = "Mythic Origins"
-copyright = "Pathfinder Player Companion: Mythic Origins © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Philip Minchin, and Russ Taylor.; © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Philip Minchin, and Russ Taylor."
+copyright = "Pathfinder Player Companion: Mythic Origins © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Philip Minchin, and Russ Taylor."
 category = "Player Companion"
 publication_date = "2013-09-25"
 
@@ -1383,7 +1383,7 @@ publication_date = "2014-06-25"
 [[publication]]
 id = "occult-adventures"
 title = "Occult Adventures"
-copyright = "Pathfinder Roleplaying Game Occult Adventures © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.; © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
+copyright = "Pathfinder Roleplaying Game Occult Adventures © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
 category = "RPG"
 publication_date = "2015-07-29"
 
@@ -1404,7 +1404,7 @@ publication_date = "2014-05-28"
 [[publication]]
 id = "occult-origins"
 title = "Occult Origins"
-copyright = "Pathfinder Player Companion: Occult Origins © 2015, Paizo Inc.; Authors: Robert Brookes, Ben McFarland, Jason Nelson, and Mark Seifter.; © 2015, Paizo Inc.; Authors: Robert Brookes, Ben McFarland, Jason Nelson, and Mark Seifter."
+copyright = "Pathfinder Player Companion: Occult Origins © 2015, Paizo Inc.; Authors: Robert Brookes, Ben McFarland, Jason Nelson, and Mark Seifter."
 category = "Player Companion"
 publication_date = "2015-10-21"
 
@@ -1418,14 +1418,14 @@ publication_date = "2015-11-18"
 [[publication]]
 id = "orcs-of-golarion"
 title = "Orcs of Golarion"
-copyright = "Pathfinder Companion: Orcs of Golarion. Copyright 2010, Paizo Publishing, LLC; Authors: Steve Kenson, Rob McCreary, Richard Pett, Sean K Reynolds, and JD Wiker.; © 2010, Paizo Publishing, LLC; Authors: Steve Kenson, Rob McCreary, Richard Pett, Sean K Reynolds, and JD Wiker."
+copyright = "Pathfinder Companion: Orcs of Golarion. Copyright 2010, Paizo Publishing, LLC; Authors: Steve Kenson, Rob McCreary, Richard Pett, Sean K Reynolds, and JD Wiker."
 category = "Player Companion"
 publication_date = "2010-07-01"
 
 [[publication]]
 id = "osirion-land-of-the-pharaohs"
 title = "Osirion, Land of the Pharaohs"
-copyright = "Pathfinder Companion: Osirion, Land of Pharaohs, Copyright 2008, Paizo Publishing, LLC; Authors: Jason Nelson and Todd Stewart.; © 2008, Paizo Publishing, LLC; Authors: Jason Nelson and Todd Stewart."
+copyright = "Pathfinder Companion: Osirion, Land of Pharaohs, Copyright 2008, Paizo Publishing, LLC; Authors: Jason Nelson and Todd Stewart."
 category = "Player Companion"
 publication_date = "2008-12-01"
 
@@ -2468,7 +2468,7 @@ publication_date = "2011-07-27"
 [[publication]]
 id = "pathfinder-society-primer"
 title = "Pathfinder Society Primer"
-copyright = "Pathfinder Player Companion: Pathfinder Society Primer © 2013, Paizo Publishing, LLC; Authors: John Compton and Mark Moreland.; © 2013, Paizo Publishing, LLC; Authors: John Compton and Mark Moreland."
+copyright = "Pathfinder Player Companion: Pathfinder Society Primer © 2013, Paizo Publishing, LLC; Authors: John Compton and Mark Moreland."
 category = "Player Companion"
 publication_date = "2013-07-11"
 
@@ -2480,7 +2480,7 @@ copyright = "© 2011, Paizo Publishing, LLC; Author: Larry Wilhelm.; Pathfinder 
 [[publication]]
 id = "pathfinder-unchained"
 title = "Pathfinder Unchained"
-copyright = "Pathfinder Roleplaying Game Pathfinder Unchained © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Beyers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor.; © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Beyers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor."
+copyright = "Pathfinder Roleplaying Game Pathfinder Unchained © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Beyers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor."
 category = "RPG"
 publication_date = "2015-04-29"
 
@@ -2508,14 +2508,14 @@ publication_date = "2013-01-22"
 [[publication]]
 id = "people-of-the-river"
 title = "People of the River"
-copyright = "Pathfinder Player Companion: People of the River © 2014, Paizo Inc.; Authors: Tim Akers, Jason Brick, Ethan Day-Jones, James Jacobs, Nick Salestrom, David Schwartz, and William Thrasher.; © 2014, Paizo Inc.; Authors: Tim Akers, Jason Brick, Ethan Day-Jones, James Jacobs, Nick Salestrom, David Schwartz, and William Thrasher."
+copyright = "Pathfinder Player Companion: People of the River © 2014, Paizo Inc.; Authors: Tim Akers, Jason Brick, Ethan Day-Jones, James Jacobs, Nick Salestrom, David Schwartz, and William Thrasher."
 category = "Player Companion"
 publication_date = "2014-07-25"
 
 [[publication]]
 id = "people-of-the-sands"
 title = "People of the Sands"
-copyright = "Pathfinder Player Companion: People of the Sands © 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Rob McCreary, and Jason Nelson.; © 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Rob McCreary, and Jason Nelson."
+copyright = "Pathfinder Player Companion: People of the Sands © 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Rob McCreary, and Jason Nelson."
 category = "Player Companion"
 publication_date = "2014-01-09"
 
@@ -2529,7 +2529,7 @@ publication_date = "2014-08-14"
 [[publication]]
 id = "people-of-the-wastes"
 title = "People of the Wastes"
-copyright = "Pathfinder Player Companion: People of the Wastes © 2017, Paizo Inc.; Authors: Logan Bonner, John Compton, Nathan King, Luis Loza, Christopher Wasko, and Linda Zayas-Palmer.; © 2017, Paizo Inc.; Authors: Logan Bonner, John Compton, Nathan King, Luis Loza, Christopher Wasko, and Linda Zayas-Palmer."
+copyright = "Pathfinder Player Companion: People of the Wastes © 2017, Paizo Inc.; Authors: Logan Bonner, John Compton, Nathan King, Luis Loza, Christopher Wasko, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2017-11-14"
 
@@ -2543,14 +2543,14 @@ publication_date = "2012-02-02"
 [[publication]]
 id = "planar-adventures"
 title = "Planar Adventures"
-copyright = "Pathfinder Roleplaying Game Planar Adventures © 2018, Paizo Inc.; Authors: Robert Brookes, John Compton, Paris Crenshaw, Eleanor Ferron, Thurston Hillman, James Jacobs, Isabelle Lee, Lyz Liddell, Ron Lundeen, Joe Pasini, Lacy Pellazar, Jessica Price, Mark Seifter, F. Wesley Schneider, Todd Stewart, James L. Sutter, and Linda Zayas-Palmer.; © 2018, Paizo Inc.; Authors: Robert Brookes, John Compton, Paris Crenshaw, Eleanor Ferron, Thurston Hillman, James Jacobs, Isabelle Lee, Lyz Liddell, Ron Lundeen, Joe Pasini, Lacy Pellazar, Jessica Price, Mark Seifter, F. Wesley Schneider, Todd Stewart, James L. Sutter, and Linda Zayas-Palmer."
+copyright = "Pathfinder Roleplaying Game Planar Adventures © 2018, Paizo Inc.; Authors: Robert Brookes, John Compton, Paris Crenshaw, Eleanor Ferron, Thurston Hillman, James Jacobs, Isabelle Lee, Lyz Liddell, Ron Lundeen, Joe Pasini, Lacy Pellazar, Jessica Price, Mark Seifter, F. Wesley Schneider, Todd Stewart, James L. Sutter, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2018-06-21"
 
 [[publication]]
 id = "plane-hoppers-handbook"
 title = "Plane-Hopper's Handbook"
-copyright = "© 2018, Paizo Inc.; Authors: James Case, John Compton, Leo Glass, Avi Kool, Adrian Ng, Lacy Pellazar, Daniel Reed, Mikhail Rekun, Amber E. Scott, Tork Shaw, and Linda Zayas-Palmer.; Pathfinder Player Companion: Plane-Hopper’s Handbook © 2018, Paizo Inc.; Authors: James Case, John Compton, Leo Glass, Avi Kool, Adrian Ng, Lacy Pellazar, Daniel Reed, Mikhail Rekun, Amber E. Scott, Tork Shaw, and Linda Zayas-Palmer."
+copyright = "Pathfinder Player Companion: Plane-Hopper’s Handbook © 2018, Paizo Inc.; Authors: James Case, John Compton, Leo Glass, Avi Kool, Adrian Ng, Lacy Pellazar, Daniel Reed, Mikhail Rekun, Amber E. Scott, Tork Shaw, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2018-09-15"
 
@@ -2571,7 +2571,7 @@ publication_date = "2014-11-22"
 [[publication]]
 id = "potions-and-poisons"
 title = "Potions and Poisons"
-copyright = "Pathfinder Player Companion: Potions & Poisons © 2017, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Nathan King, Lyz Liddell, Luis Loza, Alex Putnam, Alex Riggs, and David Schwartz.; © 2017, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Nathan King, Lyz Liddell, Luis Loza, Alex Putnam, Alex Riggs, and David Schwartz."
+copyright = "Pathfinder Player Companion: Potions & Poisons © 2017, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Nathan King, Lyz Liddell, Luis Loza, Alex Putnam, Alex Riggs, and David Schwartz."
 category = "Player Companion"
 publication_date = "2017-12-13"
 
@@ -2585,7 +2585,7 @@ publication_date = "2017-02-08"
 [[publication]]
 id = "qadira-gateway-to-the-east"
 title = "Qadira, Gateway to the East"
-copyright = "Pathfinder Companion: Qadira, Gateway to the East. Copyright 2009, Paizo Publishing, LLC; Author: Brian Cortijo.; © 2009, Paizo Publishing, LLC; Author: Brian Cortijo."
+copyright = "Pathfinder Companion: Qadira, Gateway to the East. Copyright 2009, Paizo Publishing, LLC; Author: Brian Cortijo."
 category = "Player Companion"
 publication_date = "2009-07-01"
 
@@ -2599,14 +2599,14 @@ publication_date = "2017-01-25"
 [[publication]]
 id = "quests-and-campaigns"
 title = "Quests and Campaigns"
-copyright = "Pathfinder Player Companion: Quests & Campaigns © 2013, Paizo Publishing, LLC; Authors: Amanda Hamon and David N. Ross.; © 2013, Paizo Publishing, LLC; Authors: Amanda Hamon and David N. Ross."
+copyright = "Pathfinder Player Companion: Quests & Campaigns © 2013, Paizo Publishing, LLC; Authors: Amanda Hamon and David N. Ross."
 category = "Player Companion"
 publication_date = "2013-06-13"
 
 [[publication]]
 id = "ranged-tactics-toolbox"
 title = "Ranged Tactics Toolbox"
-copyright = "Pathfinder Player Companion: Ranged Tactics Toolbox © 2014, Paizo Inc.; Authors: David N. Ross, David Schwartz, and Kaitlyn Sprague.; © 2014, Paizo Inc.; Authors: David N. Ross, David Schwartz, and Kaitlyn Sprague."
+copyright = "Pathfinder Player Companion: Ranged Tactics Toolbox © 2014, Paizo Inc.; Authors: David N. Ross, David Schwartz, and Kaitlyn Sprague."
 category = "Player Companion"
 publication_date = "2014-11-22"
 
@@ -2683,7 +2683,7 @@ publication_date = "2017-08-01"
 [[publication]]
 id = "sargava-the-lost-colony"
 title = "Sargava, the Lost Colony"
-copyright = "Pathfinder Companion: Sargava, the Lost Colony. Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker.; © 2010, Paizo Publishing, LLC; Author: JD Wiker."
+copyright = "Pathfinder Companion: Sargava, the Lost Colony. Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker."
 category = "Player Companion"
 publication_date = "2010-06-01"
 
@@ -2746,7 +2746,7 @@ publication_date = "2012-02-01"
 [[publication]]
 id = "spymasters-handbook"
 title = "Spymaster's Handbook"
-copyright = "© 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Owen K.C. Stephens.; Pathfinder Player Companion: Spymaster’s Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Owen K.C. Stephens."
+copyright = "Pathfinder Player Companion: Spymaster’s Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Owen K.C. Stephens."
 category = "Player Companion"
 publication_date = "2016-06-27"
 
@@ -2760,7 +2760,7 @@ publication_date = "2016-08-17"
 [[publication]]
 id = "taldor-echoes-of-glory"
 title = "Taldor, Echoes of Glory"
-copyright = "Pathfinder Companion: Taldor, Echoes of Glory. Copyright 2009, Paizo Publishing, LLC; Author: Joshua J. Frost.; © 2009, Paizo Publishing, LLC; Author: Joshua J. Frost."
+copyright = "Pathfinder Companion: Taldor, Echoes of Glory. Copyright 2009, Paizo Publishing, LLC; Author: Joshua J. Frost."
 category = "Player Companion"
 publication_date = "2009-06-01"
 
@@ -2835,7 +2835,7 @@ publication_date = "2009-06-01"
 [[publication]]
 id = "the-harrow-handbook"
 title = "The Harrow Handbook"
-copyright = "Pathfinder Player Companion: The Harrow Handbook © 2014, Paizo Inc.; Authors: Crystal Frasier, Will McCardell, and David Schwartz.; © 2014, Paizo Inc.; Authors: Crystal Frasier, Will McCardell, and David Schwartz."
+copyright = "Pathfinder Player Companion: The Harrow Handbook © 2014, Paizo Inc.; Authors: Crystal Frasier, Will McCardell, and David Schwartz."
 category = "Player Companion"
 publication_date = "2014-05-28"
 
@@ -2931,42 +2931,42 @@ publication_date = "2019-02-08"
 [[publication]]
 id = "ultimate-campaign"
 title = "Ultimate Campaign"
-copyright = "© 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend.; Pathfinder Roleplaying Game: Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend."
+copyright = "Pathfinder Roleplaying Game Ultimate Campaign © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend."
 category = "RPG"
 publication_date = "2013-05-17"
 
 [[publication]]
 id = "ultimate-combat"
 title = "Ultimate Combat"
-copyright = "Pathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor; Pathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.; © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor."
+copyright = "Pathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor"
 category = "RPG"
 publication_date = "2011-07-27"
 
 [[publication]]
 id = "ultimate-equipment"
 title = "Ultimate Equipment"
-copyright = "Pathfinder Roleplaying Game Ultimate Equipment © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.; © 2012 Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.; © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor.; Pathfinder Roleplaying Game: Ultimate Equipment. © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, Russ Taylor, and numerous RPG Superstar contributors."
+copyright = "Pathfinder Roleplaying Game Ultimate Equipment © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor."
 category = "RPG"
 publication_date = "2012-09-03"
 
 [[publication]]
 id = "ultimate-intrigue"
 title = "Ultimate Intrigue"
-copyright = "Pathfinder Roleplaying Game Ultimate Intrigue © 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer.; © 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
+copyright = "Pathfinder Roleplaying Game Ultimate Intrigue © 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2016-03-23"
 
 [[publication]]
 id = "ultimate-magic"
 title = "Ultimate Magic"
-copyright = "Pathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.; © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
+copyright = "Pathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
 category = "RPG"
 publication_date = "2011-05-10"
 
 [[publication]]
 id = "ultimate-wilderness"
 title = "Ultimate Wilderness"
-copyright = "Pathfinder Roleplaying Game Ultimate Wilderness © 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer.; © 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer."
+copyright = "Pathfinder Roleplaying Game Ultimate Wilderness © 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2017-11-15"
 
@@ -3001,7 +3001,7 @@ publication_date = "2012-08-02"
 [[publication]]
 id = "villain-codex"
 title = "Villain Codex"
-copyright = "Pathfinder Roleplaying Game Villain Codex © 2016, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Paris Crenshaw, Dan Dillon, Crystal Frasier, Amanda Hamon Kunz, Eric Hindley, Mikko Kallio, Dale C. McCoy, Jr., Stephen Radney-MacFarland, Thomas M. Reid, Alistair Rigg, Alex Riggs, Mark Seifter, and Linda Zayas-Palmer.; © 2016, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Paris Crenshaw, Dan Dillon, Crystal Frasier, Amanda Hamon Kunz, Eric Hindley, Mikko Kallio, Dale C. McCoy, Jr., Stephen Radney-MacFarland, Thomas M. Reid, Alistair Rigg, Alex Riggs, Mark Seifter, and Linda Zayas-Palmer."
+copyright = "Pathfinder Roleplaying Game Villain Codex © 2016, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Paris Crenshaw, Dan Dillon, Crystal Frasier, Amanda Hamon Kunz, Eric Hindley, Mikko Kallio, Dale C. McCoy, Jr., Stephen Radney-MacFarland, Thomas M. Reid, Alistair Rigg, Alex Riggs, Mark Seifter, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2016-10-15"
 
@@ -3043,7 +3043,7 @@ publication_date = "2013-06-15"
 [[publication]]
 id = "weapon-masters-handbook"
 title = "Weapon Master's Handbook"
-copyright = "© 2015, Paizo Inc.; Authors: Alexander Augunas and David N. Ross.; Pathfinder Player Companion: Weapon Master’s Handbook © 2015, Paizo Inc.; Authors: Alexander Augunas and David N. Ross."
+copyright = "Pathfinder Player Companion: Weapon Master’s Handbook © 2015, Paizo Inc.; Authors: Alexander Augunas and David N. Ross."
 category = "Player Companion"
 publication_date = "2015-11-30"
 

@@ -1,6 +1,6 @@
 product_identity = "The following items are hereby identified as Product Identity, as defined in the Open Game License 1.0a, Section 1(e), and are not Open Content: All trademarks, registered trademarks, proper names (characters, deities, etc.), dialogue, plots, storylines, locations, characters, artworks, and trade dress. (Elements that have previously been designated as Open Game Content are not included in this declaration.)"
 community_use_notice = "Cast Iron uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (paizo.com/licenses/communityuse). We are expressly prohibited from charging you to use or access this content. Cast Iron is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit paizo.com."
-notice_pending = ["Bestiary 6", "Faiths of Purity", "Goblins of Golarion", "Horror Realms", "Inner Sea Taverns", "Kingmaker Player's Guide", "Magic of Thassilon", "Serpent's Skull Player's Guide"]
+notice_pending = ["Horror Realms", "Inner Sea Taverns", "Kingmaker Player's Guide", "Magic of Thassilon", "Serpent's Skull Player's Guide"]
 
 [[licenses]]
 id = "ogl-1.0a"
@@ -3174,7 +3174,7 @@ notice = "Pathfinder Module: Murder’s Mark © 2012, Paizo Publishing, LLC; Aut
 
 [[section_15]]
 title = "Pathfinder Roleplaying Game Mythic Adventures"
-notice = "Pathfinder Roleplaying Game Mythic Adventures, © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
+notice = "Pathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
 
 [[section_15]]
 title = "Pathfinder Player Companion: Mythic Origins"
@@ -3794,7 +3794,7 @@ notice = "Pathfinder Module LB2: Treasure of Chimera Cove, Copyright 2008, Paizo
 
 [[section_15]]
 title = "Pathfinder Roleplaying Game: Ultimate Campaign"
-notice = "Pathfinder Roleplaying Game: Ultimate Campaign. © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend."
+notice = "Pathfinder Roleplaying Game Ultimate Campaign © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend."
 
 [[section_15]]
 title = "Pathfinder Roleplaying Game Ultimate Combat"
@@ -3847,6 +3847,26 @@ notice = "Pathfinder Player Companion: Weapon Master’s Handbook © 2015, Paizo
 [[section_15]]
 title = "Wrath of the Righteous Player’s Guide"
 notice = "Wrath of the Righteous Player’s Guide © 2013, Paizo Publishing, LLC; Authors: Adam Daigle and Jay Loomis."
+
+[[section_15]]
+title = "Advanced Player’s Guide"
+notice = "Advanced Player’s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
+
+[[section_15]]
+title = "Pathfinder Roleplaying Game Bestiary 6"
+notice = "Pathfinder Roleplaying Game Bestiary 6 © 2017, Paizo Inc.; Authors: Robert Brookes, Benjamin Bruck, John Compton, Paris Crenshaw, Adam Daigle, Crystal Frasier, James Jacobs, Thurston Hillman, Tim Hitchcock, Brandon Hodge, Jason Keeley, Isabelle Lee, Jason Nelson, Tim Nightengale, F. Wesley Schneider, David Schwartz, Mark Seifter, Todd Stewart, Josh Vogt, and Linda Zayas-Palmer."
+
+[[section_15]]
+title = "Pathfinder Roleplaying Game Core Rulebook"
+notice = "Pathfinder Roleplaying Game Core Rulebook © 2011, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
+
+[[section_15]]
+title = "Pathfinder Player Companion: Goblins of Golarion"
+notice = "Pathfinder Player Companion: Goblins of Golarion. © 2011, Paizo Publishing, LLC; Author: James Jacobs, Hal Maclean, and Richard Pett."
+
+[[section_15]]
+title = "Pathfinder Roleplaying Game: Bonus Bestiary"
+notice = "Pathfinder Roleplaying Game: Bonus Bestiary, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn."
 
 [[datasets]]
 id = "psrd-data"
