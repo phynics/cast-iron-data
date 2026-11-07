@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Bat\
 **Sacred Color(s)** Black, gray
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Find or create an area of shadow. While sitting within it, whisper the name of someone you intend
 > to betray or who has betrayed you, and what you wish to do to them. You gain a +4 sacred bonus to

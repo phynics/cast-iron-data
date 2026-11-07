@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 This fragment appears to be made of glass and gold and emits gleaming light, reminiscent of the
 mountain of [Heaven](ref/rule/heaven).
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

@@ -16,7 +16,7 @@ kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Catch Off-Guard or Throw Anything, Shikigami Style."
 prerequisite_feats = ["ref/feat/catch-off-guard", "ref/feat/shikigami-style", "ref/feat/throw-anything"]
-benefit = "While in Shikigami Style, you can take a -2 penalty on attack rolls to treat an improvised weapon as if it had one of the following weapon special qualities until the start of your next turn: blocking, brace, disarm, distracting, nonlethal, performance, or trip. If the weapon has the fragile special quality or broken condition, you can treat it as if it had the [jagged](rule/improvised_weapon_special_features) special quality."
+benefit = "While in Shikigami Style, you can take a -2 penalty on attack rolls to treat an improvised weapon as if it had one of the following weapon special qualities until the start of your next turn: blocking, brace, disarm, distracting, nonlethal, performance, or trip. If the weapon has the fragile special quality or broken condition, you can treat it as if it had the [jagged](ref/rule/improvised-weapon-special-features) special quality."
 +++
 
 ## Shikigami Mimicry (Combat)

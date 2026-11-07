@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Scorpion\
 **Sacred Color(s)** Green, silver
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Brandish your unholy symbol and recount the tactics you will use to conquer your enemies. Gain a
 > +4 profane bonus on saving throws against mind-affecting effects.

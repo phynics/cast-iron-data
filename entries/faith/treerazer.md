@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Deinonychus\
 **Sacred Color(s)** Black, green
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Feast on rotting flesh infested with hallucinogenic or poisonous fungus, then meditate upon the
 > harrowing visions they provide.

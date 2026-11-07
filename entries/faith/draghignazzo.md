@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Monitor lizard\
 **Sacred Color(s)** Blue, green
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Lie prostrate in an area with the most bustling activity you can find. Gain a +4 profane bonus on
 > saving throws against magical sleep effects.

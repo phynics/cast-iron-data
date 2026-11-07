@@ -27,7 +27,7 @@ kind = "none"
 [Restoration](ref/domain/healing)\
 **Favored Weapon** [Halberd](ref/eq-weapon/halberd)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Spend an hour cleaning and considering your collection of skulls. Gain a +4 profane bonus on
 > saving throws to resist energy drain and negative energy effects.

@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Guard dog\
 **Sacred Color(s)** Gray, purple
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Keep with you a 5-pound marble miniature of an existing monument. Before sleeping, trace the
 > monument's surface with your fingers. Close your eyes with your hands resting on the monument and

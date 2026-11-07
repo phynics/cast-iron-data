@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Black tiger\
 **Sacred Color(s)** Brown, green
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Mark your arms and legs with white chalk, drawing patterns that mirror the flow of spiritual
 > energy you experience as you meditate on the teachings of Jaidz. Trace over these lines once again

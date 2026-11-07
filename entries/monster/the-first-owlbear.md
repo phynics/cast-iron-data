@@ -21,7 +21,7 @@ reflex = "+9"
 will = "+7"
 melee = "bite +17 (2d6+8), 2 claws +18 (1d8+8 plus grab)"
 special_attacks = "disorienting pounce"
-special_qualities = "[immortal](rule/base_mythic_abilities)"
+special_qualities = "[immortal](ref/rule/base-mythic-abilities)"
 abilities = ["27", "14", "24", "2", "14", "10"]
 +++
 
@@ -108,7 +108,7 @@ _This owlbear seems lean and especially mean, and moves with a spookily silent g
 
 **Skills:** Fly +5, Perception +16
 
-**Special qualities:** \[immortal\](rule/base\_mythic\_abilities)
+**Special qualities:** \[immortal\](ref/rule/base-mythic-abilities)
 
 **Ecology**
 

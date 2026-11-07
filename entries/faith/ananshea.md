@@ -27,7 +27,7 @@ kind = "none"
 [Torture](ref/domain/destruction)\
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Rend your flesh, dealing 1d4 points of damage with one of your natural weapons or a knife. Gain a
 > +3 profane bonus to AC against attacks from animals or vermin.

@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat", "Faction"]
-prerequisites = "Defensive Combat Training, [Bellflower Network](rule/f_antislavery) 10 TPA."
+prerequisites = "Defensive Combat Training, [Bellflower Network](ref/rule/f-antislavery) 10 TPA."
 prerequisite_feats = ["ref/feat/defensive-combat-training"]
 benefit = "You gain a +4 bonus to your CMD."
 +++

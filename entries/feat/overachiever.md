@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have been defeated by the same individual, organization, or creature type at least four times, or have the Boarding School or Humiliated [\"growing up\"](rule/bad_beginnings) background."
+prerequisites = "You must have been defeated by the same individual, organization, or creature type at least four times, or have the Boarding School or Humiliated [\"growing up\"](ref/rule/bad-beginnings) background."
 benefit = "You take only half the normal penalties from exhaustion. Choose one skill upon selecting this feat. Once per day, you can forgo rest to study or practice, gaining a +3 bonus on all checks attempted with your selected skill for 24 hours but becoming fatigued in the process. If you rest to recover from this fatigue, this bonus ends (but not if you recover from your fatigue in other ways, such as via lesser restoration). Forgoing rest for this purpose does not interfere with a spellcaster's ability to prepare spells."
 +++
 

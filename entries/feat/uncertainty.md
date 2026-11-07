@@ -12,7 +12,7 @@ kind = "feat"
 feat_types = ["Blood Hex"]
 prerequisites = "Int 13; Bluff, Diplomacy, and Intimidate 5 ranks."
 benefit = "As a full-round action, you can diminish the confidence of a creature you've dealt damage to within the last minute. That creature must succeed at a Will save or take a -6 penalty on skill checks for one of the following skills of your choice: Bluff, Diplomacy, or Intimidate. This ability lasts until the subject is healed of all hit point damage, up to a maximum of 1 hour."
-special = "A shaman or witch with this [blood hex](rule/feats_class) can use it as a standard action. Additionally, if a shaman or witch uses this blood hex, the target takes the penalty on Bluff, Diplomacy, and Intimidate checks."
+special = "A shaman or witch with this [blood hex](ref/rule/feats-class) can use it as a standard action. Additionally, if a shaman or witch uses this blood hex, the target takes the penalty on Bluff, Diplomacy, and Intimidate checks."
 +++
 
 ## Uncertainty (Blood Hex)

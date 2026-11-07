@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Ladybug\
 **Sacred Color(s)** Red, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Pour half of a bottle of wine onto fertile earth. Drink the rest of the wine yourself while
 > praying to Halcamora. Gain a +4 sacred bonus on saves against bleed and disease effects.

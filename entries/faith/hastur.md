@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Yellow
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend an hour in absolute stillness, meditating in an area surrounded by rich furnishings and
 > dressed in elegant and expensive clothing and jewelry. The total combined value of your clothing

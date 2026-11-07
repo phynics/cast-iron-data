@@ -37,7 +37,7 @@ Thievery\
 **Centers of Worship** Ilizmagorti\
 **Nationality** monster
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Meditate in a private place before a trophy or broken religious symbol taken from a target you
 > have been contracted to kill. This trophy must be anointed with a single drop of your blood, drawn

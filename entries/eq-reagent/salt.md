@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Salt is a vital mineral commodity. It is most commonly used as a desiccant and as a catalyst.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

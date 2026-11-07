@@ -34,7 +34,7 @@ kind = "none"
 **Centers of Worship** Galt, Nidal, Taldor, Qadira, Ustalav\
 **Nationality** Taldan
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Collect two unblemished white rose blossoms, open to their fullest but without any wilted petals.
 > Stand beside a river and cut the blossoms from the stems, then set them on the water to float

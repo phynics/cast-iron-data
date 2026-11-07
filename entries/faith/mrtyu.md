@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Greatsword](ref/eq-weapon/greatsword)\
 **Symbol** A circle with five curved lines extending from it
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Hear confessions of the dying or spend at least 1 hour burying the dead after a battle. If there
 > are no dying or dead people in the area, spend the hour uttering prayers for the last dead person

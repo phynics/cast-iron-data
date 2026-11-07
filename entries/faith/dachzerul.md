@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Curse](ref/domain/luck), Deception, Fear, Sahkil\
 **Favored Weapon** [Rapier](ref/eq-weapon/rapier)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Obsess on revenge against one who wronged you. Gain a +2 profane bonus on Bluff and Stealth
 > checks.

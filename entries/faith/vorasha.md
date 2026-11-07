@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Viper\
 **Sacred Color(s)** Green, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Consume a diluted dose of poison. Gain a +4 profane bonus on saving throws against poison.
 >

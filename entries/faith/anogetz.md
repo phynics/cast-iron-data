@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** All\
 **Sacred Color(s)** Gold, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Plot a revolution against a peaceful ruler. Gain a +4 profane bonus on checks associated with
 > grappling.

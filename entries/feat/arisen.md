@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have been slain and brought back from the dead, or have the [Left to Die or Cursed Birth](rule/birth_circumstances_and_more) circumstance background."
+prerequisites = "You must have been slain and brought back from the dead, or have the [Left to Die or Cursed Birth](ref/rule/birth-circumstances-and-more) circumstance background."
 benefit = "You don't die until your negative hit point total is equal to or greater than 4 + your Constitution score. Once per day as a standard action, you can force yourself to carry on by strength of will alone, gaining 1 temporary hit point per hit die. These temporary hit points last for 10 minutes."
 normal = "You die when your negative hit point total is equal to or greater than your Constitution score."
 +++

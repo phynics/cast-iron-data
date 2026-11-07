@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Falcon\
 **Sacred Color(s)** Blue, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Smash any work of art and scatter its pieces into four opposing corners. Gain a +4 profane bonus
 > on saving throws against transmutation effects.

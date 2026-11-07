@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Firefly\
 **Sacred Color(s)** Black, gold
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Light a small lantern and tell it a joke or the story of a prank you played on someone - this must
 > be a different joke or story each time. You gain a +4 sacred bonus on saving throws versus

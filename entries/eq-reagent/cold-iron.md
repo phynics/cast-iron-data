@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Cold iron is often used to produce alloyed metals, catalysts, and items that interfere with magic.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Weasel\
 **Sacred Color(s)** Black, green
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Craft a one-sided contract. Gain a +4 profane bonus on saving throws against mind-affecting
 > effects.

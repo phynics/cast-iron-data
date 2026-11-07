@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Octopus\
 **Sacred Color(s)** Dark blue, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Dissect a rat or another vermin, and carve the patterns you see in its bared viscera. Gain a +4
 > profane bonus on saving throws against illusions.

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Dinosaur\
 **Sacred Color(s)** Brown, gold
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Build a fire and burn an item or set of items worth at least 50 gp. When the flames have died
 > down, roll among the cinders to extinguish the last bits of fire and grind the ashes into the

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Chameleon\
 **Sacred Color(s)** Blue, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Work on a never-ending compendium of promises of pain to your enemies. Gain a +4 profane bonus on
 > Knowledge and Spellcraft checks.

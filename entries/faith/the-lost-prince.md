@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Raven\
 **Sacred Color(s)** Black, gray
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Write down a memory on a piece of paper and then burn it. This must be a memory you've never used
 > for this purpose or told anyone about. You gain a +4 sacred bonus to AC and CMD against attacks of

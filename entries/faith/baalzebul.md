@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Fly\
 **Sacred Color(s)** Black, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Cover your hands and arms in a paste made from rotten fruit, spoiled meat, or any other malodorous
 > organic material you create as an offering to Baalzebul, and sit perfectly still with your palms

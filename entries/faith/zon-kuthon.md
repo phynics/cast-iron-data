@@ -48,7 +48,7 @@ several days, first new moon of the year)\
 **Centers of Worship** Belkzen, Cheliax, Geb, Irrisen, Nidal, Varisia\
 **Nationality** alien
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 81\
 > The recipient can perform a 10-minute prayer (this can be part of her daily ritual to prepare
@@ -59,7 +59,7 @@ several days, first new moon of the year)\
 > slashing damage as nonlethal damage. The character is treated as undead for the purposes of
 > determining the effects of damage or healing caused by negative or positive energy.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Persuade a creature to allow you to inflict a small amount of pain on it. This can be as subtle as
 > thin needles under the skin or as overt as a lashing with a whip, whatever the subject agrees to.
@@ -132,7 +132,7 @@ several days, first new moon of the year)\
 >   [blindsense](ref/rule/blindsight-and-blindsense) with a range of 20 feet or greater, instead
 >   increase the range of your blindsense by 10 feet.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Zon-Kuthon's Flensing
 >

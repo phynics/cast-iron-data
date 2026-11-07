@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 Magnesium is an extremely light and reactive metal that burns brightly when exposed to air. It is
 important for all living things, especially plants.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

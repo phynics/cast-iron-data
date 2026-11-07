@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Ape\
 **Sacred Color(s)** Black, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meticulously plot the brutal murder of an enemy. Gain a +4 profane bonus on saving throws against
 > effects involving or originating from animals.

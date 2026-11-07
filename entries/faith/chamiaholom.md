@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Fear, Murder, Sahkil, Souls, Undead\
 **Favored Weapon** [Quarterstaff](ref/eq-weapon/quarterstaff)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Pray while performing a false divination for a stranger in which you reveal the person's death.
 > Gain a +1 profane bonus to the DC of your enchantment spells and abilities.

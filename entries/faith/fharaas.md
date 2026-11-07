@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Ancestors, Fear, Memory, Souls\
 **Favored Weapon** [Battleaxe](ref/eq-weapon/battleaxe)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Study the interior of a freshly severed limb. You are immune to bleed effects that deal 6 damage
 > or less.

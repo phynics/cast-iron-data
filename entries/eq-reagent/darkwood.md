@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 The bark of the darkwood tree is useful in numerous alchemical applications, especially those that
 require a light but strong foundation.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

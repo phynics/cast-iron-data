@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Python\
 **Sacred Color(s)** Black, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Contemplate the terror an army of your lord's spirits might wreak while reclining atop a grave.
 > Gain a +4 profane bonus on saving throws against death effects.

@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Cat\
 **Sacred Color(s)** Silver, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Don a jeweled ring on each finger and strike a practice dummy bare-handed until the impression of
 > the rings is left in your skin. Gain a +4 sacred bonus on grapple checks and to CMD.

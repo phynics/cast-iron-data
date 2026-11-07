@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Parrot\
 **Sacred Color(s)** Blue, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Shoot or throw 26 flaming projectiles into the sky. Gain a +4 profane bonus on Reflex saving
 > throws to avoid physical dangers.

@@ -48,7 +48,7 @@ kind = "none"
 **Centers of Worship** Druma, Five Kings Mountains, Lands of the Linnorm Kings, Mana Wastes\
 **Nationality** dwarf
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 80\
 > The recipient can perform a 10-minute prayer (this can be part of her daily ritual to prepare
@@ -59,7 +59,7 @@ kind = "none"
 > can reallocate these points as a standard action any point during these 24 hours, but each time
 > she does so, the total pool of defense points available for the next allocation is reduced by 5.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > After reciting a traditional prayer to Torag, either work at a forge or strike a small replica of
 > an anvil or a sizable flat stone with a hammer for at least 10 minutes. If the sound of your
@@ -145,7 +145,7 @@ kind = "none"
 >   strategy warrants. I will defeat them, yet even in the direst struggle, I will act in a way that
 >   brings honor to Torag.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Torag's Patient Strikes
 >

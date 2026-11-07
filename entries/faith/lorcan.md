@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Pelican\
 **Sacred Color(s)** Red, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Chew on pieces of undead flesh. Gain a +4 profane bonus on saves against negative energy effects.
 >

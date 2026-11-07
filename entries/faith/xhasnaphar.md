@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Sloth\
 **Sacred Color(s)** Brown, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Score an unblemished section of your own flesh with ugly and asymmetrical cuts. Gain a +4 profane
 > bonus on saving throws against polymorph effects.

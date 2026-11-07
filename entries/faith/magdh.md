@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Multi-headed animals\
 **Sacred Color(s)** Blue, green
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Paint two dots above each ear to represent Magdh's three sets of eyes. Cast leaves, bones, or
 > coins into a bowl of clear water, and attempt to divine meaning from the way they land. You gain a

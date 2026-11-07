@@ -27,7 +27,7 @@ kind = "none"
 [Nightmare](ref/domain/madness), Sahkil\
 **Favored Weapon** [Falchion](ref/eq-weapon/falchion)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate on the hunting habits of a dangerous animal. The duration of your conjuration spells and
 > [spell-like abilities](ref/umr/spell-like-abilities) increases by 2 rounds.

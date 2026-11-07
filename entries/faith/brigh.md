@@ -36,7 +36,7 @@ kind = "none"
 **Centers of Worship** Absalom, Druma, Mana Wastes, Nex\
 **Nationality** Taldan
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > While reciting formulas from Logic of Design, you must craft a new creation, continue work on an
 > elaborate device or object, or disassemble an existing creation to see how it works. Favored

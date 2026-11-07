@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Horse\
 **Sacred Color(s)** Green, yellow
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Sit cross-legged at dawn and light a candle before your face. Laugh uproariously until the force
 > of your laughter blows out the candle. When you rise, step out with your right foot first. Gain a

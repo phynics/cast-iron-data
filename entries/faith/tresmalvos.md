@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Rat\
 **Sacred Color(s)** Black, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Drown a warm-blooded animal no smaller than a rat, and then consume the corpse while it still
 > drips with water. Gain a +4 profane bonus on saving throws against disease effects.

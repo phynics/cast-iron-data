@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Rabbit\
 **Sacred Color(s)** Red, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Lie on a hard, flat surface wearing nothing but a cowl. Concentrate on the feeling of the surface
 > and the air while achieving sexual release without touching yourself. Healing spells you cast heal

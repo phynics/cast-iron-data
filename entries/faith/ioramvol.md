@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Caves](ref/domain/earth), Fear, Murder, Undead\
 **Favored Weapon** [Heavy pick](ref/eq-weapon/heavy-pick)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Partially bury yourself in dirt or gravel while meditating. Gain a +4 profane bonus on saving
 > throws against earth effects and petrification.

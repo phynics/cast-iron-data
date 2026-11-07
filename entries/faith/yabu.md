@@ -28,7 +28,7 @@ kind = "none"
 [Curse](ref/domain/luck), [Smoke](ref/domain/fire)\
 **Favored Weapon** [Meteor hammer](ref/eq-weapon/meteor-hammer)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Burn a small model of a building, and meditate on the smoke. Gain a +4 profane bonus on saving
 > throws against fire effects.

@@ -12,7 +12,7 @@ kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Improved Grapple, Improved Unarmed Strike, Stunning Fist."
 prerequisite_feats = ["ref/feat/improved-grapple", "ref/feat/improved-unarmed-strike", "ref/feat/stunning-fist"]
-benefit = "Whenever you [pin](rule/grapple) an opponent, you can spend a swift action to make a Stunning Fist attempt against that opponent."
+benefit = "Whenever you [pin](ref/rule/grapple) an opponent, you can spend a swift action to make a Stunning Fist attempt against that opponent."
 +++
 
 ## Stunning Pin (Combat)

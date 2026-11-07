@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Spider\
 **Sacred Color(s)** Black, brown
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate in a basement or cellar (preferably one that does not belong to you). Gain a +4 profane
 > bonus on all saving throws attempted while in complete darkness.

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Sea snake\
 **Sacred Color(s)** Blue
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Use the tooth of an aquatic animal to scratch a spiral into your skin, while letting a drop of
 > your blood diffuse into a body of water or fall into a bowl of clear water. You gain a +4 sacred

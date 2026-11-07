@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 This substance augments cold magic.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

@@ -34,7 +34,7 @@ kind = "none"
 **Centers of Worship** Absalom, Cheliax, Nidal, River Kingdoms, Varisia\
 **Nationality** halfling
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Steal a coin or button from someone that isn't likely to miss it or need it. While unobserved,
 > balance the coin or button on the edge of a weapon, flip it into the air, and call out how it will

@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Blue, pink
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Pray over the body of one who died of sickness. Gain a +4 profane bonus on saving throws against
 > death effects.

@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Saber-toothed tiger\
 **Sacred Color(s)** Black, orange
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Immerse yourself in lava or a roaring flame for one hour. During the first half hour, recite
 > passages from the Law of the Shield and meditate upon how your god's will guides your actions.

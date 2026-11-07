@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Calf\
 **Sacred Color(s)** Red, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Offer a sacrifice to a dead or non-existent god in the temple of a nonevil deity. Gain a +4
 > profane bonus on saving throws against divine spells.

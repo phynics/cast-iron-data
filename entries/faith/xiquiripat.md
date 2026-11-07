@@ -28,7 +28,7 @@ kind = "none"
 [Wind](ref/domain/air)\
 **Favored Weapon** [Terbutje](ref/eq-weapon/terbutje)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Savagely eviscerate a creature smaller than yourself or throw such a creature from a deadly
 > height. Gain a +1 profane bonus on damage rolls.

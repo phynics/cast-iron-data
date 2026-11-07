@@ -30,7 +30,7 @@ Devil (Evil), Devil (Law)\
 **Sacred Animal(s)** Spider\
 **Sacred Color(s)** Black, orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Burn a spiderweb while a living creature is entangled inside. Gain a +4 profane bonus on saving
 > throws against effects that deal fire damage.

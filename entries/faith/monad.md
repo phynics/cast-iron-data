@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Unarmed strike](ref/rule/melee-and-ranged-attacks)\
 **Symbol** Spiral galaxy
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Spend 30 minutes in meditation, clearing your mind of needs and prejudices. Then briefly wander
 > and observe your surroundings, seeking a source of excess, accomplishment, or emptiness. Spend at

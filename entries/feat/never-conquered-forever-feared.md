@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "Be a member of House Heskillar, or have the Adopted by Dragons [adopted background](rule/birth_circumstances_and_more), or the Path of Righteous Rage (inquisitor) or Proud Heritage (sorcerer) class background."
+prerequisites = "Be a member of House Heskillar, or have the Adopted by Dragons [adopted background](ref/rule/birth-circumstances-and-more), or the Path of Righteous Rage (inquisitor) or Proud Heritage (sorcerer) class background."
 benefit = "Your stern demeanor gives you a +2 bonus on Intimidate checks. If you have 10 or more ranks in Intimidate, this bonus increases to +4. You also gain a +2 bonus on saves against paralysis and sleep effects."
 +++
 

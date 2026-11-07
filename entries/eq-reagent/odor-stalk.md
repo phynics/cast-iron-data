@@ -23,7 +23,7 @@ category = "Alchemical Reagents"
 These alchemically treated [incense](ref/eq-misc/incense) sticks contain pheromones that certain
 creatures find repellent. Each odor stalk is created to irritate a specific creature type.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

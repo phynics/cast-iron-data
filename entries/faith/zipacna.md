@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Ash](ref/domain/fire), Corruption, Fear, Ferocity, Sahkil\
 **Favored Weapon** [Tepoztopilli](ref/eq-weapon/tepoztopilli)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > In a completely dark space, meditate on how you can shirk your duties to focus on your wants, or
 > how you can intimidate another person to do something for you. Gain a +4 profane bonus on

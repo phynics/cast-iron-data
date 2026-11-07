@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Myrrh is an aromatic gum used as a base for alchemical remedies and as a sticky bonding agent.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Longspear](ref/eq-weapon/longspear)\
 **Symbol** Linked pair of ringed planets
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Study the night sky for 30 minutes, making note of the rising and setting of key planets, moons,
 > or stars. Then spend 30 minutes mathematically predicting the course of at least one of these

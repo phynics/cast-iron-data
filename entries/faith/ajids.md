@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Ape\
 **Sacred Color(s)** Brown, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Mutilate the corpse of a defeated enemy. Gain a +4 profane bonus on saving throws against effects
 > that cause fatigue or exhaustion.

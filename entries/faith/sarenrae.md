@@ -57,7 +57,7 @@ kindness, dancing, gift giving, and kites; summer solstice)\
 **Centers of Worship** Absalom, Katapesh, Osirion, Qadira, Taldor, Thuvia\
 **Nationality** Keleshite
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 80\
 > As the sun rises over the recipient's home world, he can perform a 10-minute prayer (this may be
@@ -66,7 +66,7 @@ kindness, dancing, gift giving, and kites; summer solstice)\
 > during this time he can cast [breath of life](ref/spell/breath-of-life) and [heal](ref/spell/heal)
 > as [spell-like abilities](ref/umr/spell-like-abilities) 3 times each (CL 20th).
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > The Dawnflower values the redemptive powers of compassion and patience, and extends them to all
 > who might be capable of good. Offer to heal a stranger of his wounds, either by using the powers
@@ -158,7 +158,7 @@ kindness, dancing, gift giving, and kites; summer solstice)\
 >   blade, shining with the light of truth.
 > - Each day is another step toward perfection. I will not turn back into the dark.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Sarenrae's Mercy
 >

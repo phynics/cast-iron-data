@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Chakram](ref/eq-weapon/chakram)\
 **Symbol** Circle pierced by two vertical lines
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Drink a diluted preparation of poison - a single dose of poison is sufficient to prepare five such
 > draughts, and the dilution grants you a +5 circumstance bonus on your saving throw - or allows a

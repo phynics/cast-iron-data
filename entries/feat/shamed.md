@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have been publicly embarrassed, or must have the [Bastard Born](rule/birth_circumstances_and_more) background. If the embarrassment didn't cause significant harm to your personal honor or social standing, it does not qualify for the feat prerequisites. The humiliation doesn't need to have been unjustified."
+prerequisites = "You must have been publicly embarrassed, or must have the [Bastard Born](ref/rule/birth-circumstances-and-more) background. If the embarrassment didn't cause significant harm to your personal honor or social standing, it does not qualify for the feat prerequisites. The humiliation doesn't need to have been unjustified."
 benefit = "Being observed drives you to excel. When you're in a conflict that is being observed by others not involved in the conflict, you gain a +1 bonus on attack rolls and skill checks."
 +++
 

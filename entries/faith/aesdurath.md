@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Crow\
 **Sacred Color(s)** Crystal, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Eat a portion of a being killed by magic. Gain a +4 profane bonus on saving throws against death
 > effects.

@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Black, dark green
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > You must ingest a toxic fungus, rotting flesh infested with parasites, or flesh harvested from a
 > creature of your own species while the creature sleeps and dreams. Gain a +4 profane bonus on

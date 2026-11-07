@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Scarab beetle\
 **Sacred Color(s)** Gray, red
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend an hour reliving or imagining terrible things that happened to you. This process is mentally
 > strenuous, dealing 1d6 points of nonlethal damage. You cannot allow anyone else to know of your

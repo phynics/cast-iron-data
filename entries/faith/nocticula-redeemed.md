@@ -34,7 +34,7 @@ kind = "none"
 **Centers of Worship** New Thassilon, Varisia\
 **Nationality** risen demon lord
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend an hour in a secluded location while crafting a work of art. If your hour of work begins at,
 > ends at, or includes the stroke of midnight, then the subject of your art is up to you. Otherwise,

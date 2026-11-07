@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Fear, [Isolation](ref/domain/void), Loss, Night, Sahkil\
 **Favored Weapon** [Shortbow](ref/eq-weapon/shortbow)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Hide an item valuable or sentimental to someone you know. Gain a +4 profane bonus on saving throws
 > against divination effects.

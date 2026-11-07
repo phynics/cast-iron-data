@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Warhammer](ref/eq-weapon/warhammer)\
 **Symbol** Starry circle within an iron ring
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Seek out a cluttered place, such as an overgrown garden or messy closet. Spend 1 hour cleaning the
 > space, removing at least half of the contents to consume, donate, or destroy. If you cannot access

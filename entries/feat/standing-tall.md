@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "Be a member of House Fahlspar, or have [The Hunter](rule/influential_associates_table), Nature (oracle), or Tree Tender (druid) background."
+prerequisites = "Be a member of House Fahlspar, or have [The Hunter](ref/rule/influential-associates-table), Nature (oracle), or Tree Tender (druid) background."
 benefit = "Once per day as a move action, you gain a +2 bonus on saving throws against mind-affecting effects for 1 minute."
 +++
 

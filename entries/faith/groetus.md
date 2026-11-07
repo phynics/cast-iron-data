@@ -36,7 +36,7 @@ Night, [Stars](ref/domain/void), [Truth](ref/domain/madness)^[1](ref/faith/groet
 **Centers of Worship** Geb, Nidal, Sodden Lands, Ustalav\
 **Nationality** none
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Preach of the coming end times to a listener who has not yet accepted this truth. If the person
 > leaves or otherwise refuses to listen to you for the full hour, you must find another person to

@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Mace](ref/eq-weapon/light-mace)\
 **Symbol** Planet held within a geometrical compass
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Spend 1 hour systematically diagraming one of your everyday tasks or upcoming projects in
 > painstaking detail and technical language. Gain a +4 sacred or profane bonus on attack rolls to

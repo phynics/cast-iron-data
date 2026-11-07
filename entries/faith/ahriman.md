@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Snake\
 **Sacred Color(s)** Black, silver
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > While praying to Ahriman, destroy something of monetary or sentimental value to another person,
 > preferably in front of someone who feels a strong emotional connection toward it. Alternatively,

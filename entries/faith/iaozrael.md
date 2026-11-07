@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Chicken\
 **Sacred Color(s)** Black, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Place a black stone over an open flame to heat it, all the while chanting war cries against all
 > that is good. Gain a +4 profane bonus on saves against compulsions.

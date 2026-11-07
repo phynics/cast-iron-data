@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 This small, reddish crystal shard flickers with a brilliant, dancing flame - a representation of the
 [Plane of Fire](ref/rule/plane-of-fire).
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

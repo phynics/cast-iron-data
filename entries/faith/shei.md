@@ -30,7 +30,7 @@ Self-Realization (Liberation)^[1](ref/faith/shei#footnote-a)^\
 **Sacred Animal(s)** Dragonfly\
 **Sacred Color(s)** Green, silver
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Lay a heavy rope across your shoulders and meditate on the strengths and weaknesses of your true
 > self. Remove the rope and continue to meditate on the feeling of lightness that comes with the

@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Freedom, Revolution, Slavery, [Torture](ref/domain/destruction)\
 **Favored Weapon** [Whip](ref/eq-weapon/whip)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate on how you changed someone's daily routine in an unexpected way the previous day (this
 > should be a painful change). Gain a +4 profane bonus on saving throws to resist charm effects.

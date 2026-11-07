@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Boar\
 **Sacred Color(s)** Gold, silver
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Consume rotten or spoiled food, then vomit it up where as many people as possible will find it.
 > Gain a +4 profane bonus on saving throws against disease.

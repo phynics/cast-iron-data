@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Leopard\
 **Sacred Color(s)** Black, orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Use the harvested teeth or claws of a fearsome predator to shred the flesh of a creature you
 > recently killed. Gain a +4 profane bonus on saving throws against force effects.

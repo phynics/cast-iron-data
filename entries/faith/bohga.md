@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Defense](ref/domain/protection), Ferocity, Resolve, Tyranny\
 **Favored Weapon** [Halberd](ref/eq-weapon/halberd)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Spend 1 hour recording reasons you deserve another's treasured heirloom and devising ways to steal
 > it for yourself. Gain a +4 profane bonus to your CMD against disarm and steal combat maneuvers.

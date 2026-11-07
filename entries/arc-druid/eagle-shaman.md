@@ -86,8 +86,8 @@ If she takes on the form of an eagle or roc, she instead uses her druid level + 
 
 **Replaces:** Wild shape
 
-**Special:** \[\](From the FAQ/): The lack of suitable giant bird stat blocks in official Paizo
-products hinders the rules options for this archetype.
+**Special:** The lack of suitable giant bird stat blocks in official Paizo products hinders the
+rules options for this archetype.
 
 To remedy this problem, an eagle shaman druid can use _wild shape_ to take the form of a Medium
 eagle (as if applying the giant creature simple template to a Small eagle), and can use _wild shape_

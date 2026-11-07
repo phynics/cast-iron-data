@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Hyena\
 **Sacred Color(s)** Brown, ivory
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Mock the beliefs of your companions or of any creatures you have recently encountered. Gain a +4
 > profane bonus on saving throws against language-dependent effects.

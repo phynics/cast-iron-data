@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Lion\
 **Sacred Color(s)** Black, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Lure or chase any quarry, then kill it and pray over the corpse. Gain a +4 profane bonus to AC
 > against attack rolls made to confirm a critical hit against you.

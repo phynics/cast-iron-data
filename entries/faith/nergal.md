@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Jackal\
 **Sacred Color(s)** Black, tan
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Mix volatile chemicals together, smash them at your feet, and pray. Gain a +4 profane bonus on
 > saving throws against disease and poisons.

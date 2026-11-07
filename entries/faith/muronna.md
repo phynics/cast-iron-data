@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Day](ref/domain/sun), Deception, Night, Thievery\
 **Favored Weapon** [Kusarigama](ref/eq-weapon/kusarigama)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > While blindfolded, turn your back to the setting sun and concentrate on what the world might be
 > like should the sun fail to rise the next day. Gain a +4 profane bonus on saving throws against

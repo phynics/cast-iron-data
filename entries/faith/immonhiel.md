@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Toad\
 **Sacred Color(s)** Brown, green
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Fill your mouth with fresh, fragrant herbs. Recline in a tub or pool of cool water with a live
 > toad on your breast and meditate on the teachings of Immonhiel for 1 hour, then let the toad go.

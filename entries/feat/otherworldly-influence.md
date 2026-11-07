@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have refused an evil creature with at least 15 Hit Dice who offered gifts or assistance, have refused an evil creature offering to cast a spell of 7th-level or higher on your behalf, or have the [Planar Offering](rule/bad_beginnings) early event background."
+prerequisites = "You must have refused an evil creature with at least 15 Hit Dice who offered gifts or assistance, have refused an evil creature offering to cast a spell of 7th-level or higher on your behalf, or have the [Planar Offering](ref/rule/bad-beginnings) early event background."
 benefit = "When negotiating with evil outsiders, you gain a +2 bonus on Bluff and Diplomacy checks. You gain an amount of spell resistance equal to 5 + your character level against spells and spell-like abilities originating from outsiders with the evil subtype."
 +++
 

@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Turtle\
 **Sacred Color(s)** Blue, green
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Bury a book or scroll that you have never read in fertile soil. Plant a seed above the buried
 > knowledge and pray over the site that good and growth can come from the decaying parchment. Gain a

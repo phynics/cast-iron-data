@@ -27,7 +27,7 @@ kind = "none"
 [Nightmare](ref/domain/madness)\
 **Favored Weapon** [Urumi](ref/eq-weapon/urumi)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Spend 1 hour using cosmetics, scarification, or other means to decorate the left side of your body
 > differently from your right side. Gain a +4 profane bonus on saving throws against charm effects.

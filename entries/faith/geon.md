@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Warhorse\
 **Sacred Color(s)** Brown, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Ingest drugs that put you in a nightmarish fugue state for an hour. Gain a +4 profane bonus on
 > saving throws and checks involving mounts and mounted combat.

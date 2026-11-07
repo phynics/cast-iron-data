@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have been rendered unconscious and left for dead on a battlefield between warring factions or have the Child Soldier (early event) or Drafted (conflict) [background](rule/bad_beginnings)."
+prerequisites = "You must have been rendered unconscious and left for dead on a battlefield between warring factions or have the Child Soldier (early event) or Drafted (conflict) [background](ref/rule/bad-beginnings)."
 benefit = "Select a particular nation, organization, or humanoid subtype (such as Cheliax, Eagle Knights, or goblinoids). You gain a +4 bonus on Sense Motive checks to determine whether a given creature is affiliated with that group and a +4 bonus on Bluff and Diplomacy checks to conceal your animosity toward members of that group."
 special = "By meeting the goal of this feat, your name becomes known to your enemy. Creatures of your chosen enemy faction gain a +1 morale bonus on attack and damage rolls against you should they become aware of your identity with a successful Knowledge (local) check (DC = 10 + your character level)."
 +++

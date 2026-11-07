@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** None (carnivorous plants)\
 **Sacred Color(s)** Green, red
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Seek out the most verdant plant life in the immediate area and achieve sexual release amidst it,
 > either alone or accompanied. At the moment of climax, whisper a secret belonging to someone else.

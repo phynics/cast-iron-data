@@ -28,7 +28,7 @@ kind = "none"
 [Seasons](ref/domain/weather), [Smoke](ref/domain/fire)\
 **Favored Weapon** [Scimitar](ref/eq-weapon/scimitar)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate within a ring of fire while periodically casting incense into the flames. Gain a +4
 > profane bonus on saves against fire effects.

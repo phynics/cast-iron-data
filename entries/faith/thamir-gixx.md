@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Raccoon\
 **Sacred Color(s)** Black, brown
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Place a gold coin in the middle of a busy street and spy on it from a hidden position. If someone
 > picks up the coin, you must silently follow that person for 1 hour. At the end of that hour, judge

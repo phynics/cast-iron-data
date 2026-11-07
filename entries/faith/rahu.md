@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Fear, Loss, Murder, Night\
 **Favored Weapon** [Morningstar](ref/eq-weapon/morningstar)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Behead a serpent and offer its head to the rising sun. If no serpent is available, you must
 > undertake a ritual that symbolizes severing your own head with a silver knife (this deals 1 point

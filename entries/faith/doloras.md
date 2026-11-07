@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Panther\
 **Sacred Color(s)** Gray, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Take a small, humanoid-shaped doll and slowly insert needles, small daggers, or other sharp
 > implements into its pressure points. Throughout the process, dispassionately narrate what you're

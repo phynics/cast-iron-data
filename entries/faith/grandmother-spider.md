@@ -32,7 +32,7 @@ kind = "none"
 **Centers of Worship** Droon, Nurvatchta, the Shackles, The Sodden Lands\
 **Nationality** Anadi
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend an hour weaving something clever and useful that you will use to better your community,
 > incorporating the stories or symbolism of Grandmother Spider. Kindhearted souls often interpret

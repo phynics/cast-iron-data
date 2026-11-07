@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Fear, Murder, [Rage](ref/domain/destruction), [Torture](ref/domain/destruction)\
 **Favored Weapon** [Battleaxe](ref/eq-weapon/battleaxe)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Ritualistically scrape painful scratches and welts along your limbs' joints. Gain DR 2/slashing.
 >

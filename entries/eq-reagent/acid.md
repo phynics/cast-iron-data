@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 A common flask of acid has many uses as a power component, particularly with attack spells.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

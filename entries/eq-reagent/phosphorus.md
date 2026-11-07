@@ -22,7 +22,7 @@ Phosphorus is a highly reactive mineral that glows faintly in air. Vital to all 
 commonly used by alchemists to create fertilizers, poisons, soaps, and tindertwigs. It is obtained
 by processing uric acid or bone ash.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

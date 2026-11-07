@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Combat"]
-prerequisites = "Stealth 12 ranks; *assassinate* [advanced slayer talent](slayertalent/assassinate) or [ninja master trick](ninjatrick/assassinate)."
+prerequisites = "Stealth 12 ranks; *assassinate* [advanced slayer talent](ref/slayertalent/assassinate) or [ninja master trick](ref/ninjatrick/assassinate)."
 benefit = "When you kill a creature during a surprise round, you can attempt a Stealth check, opposed by the Perception checks of potential observers, to prevent them from noticing your action and subsequently identifying you as the assailant."
 +++
 

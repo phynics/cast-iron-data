@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Dagger](ref/eq-weapon/dagger)\
 **Symbol** Six overlapping lines arranged in a hexagon
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Assemble a careful list of each activity you will undertake in the day to come and keep a careful
 > accounting of what you fail to accomplish and why. As part of this, select three different

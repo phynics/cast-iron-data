@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Shark\
 **Sacred Color(s)** Blue, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Consume at least a pint of brackish water. Gain a +4 profane bonus on saving throws against
 > water-based effects and effects that cause suffocation or drowning.

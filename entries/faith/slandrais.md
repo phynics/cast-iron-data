@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Goat\
 **Sacred Color(s)** Brown, pink
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Sleep on the grave or next to the corpse of someone you knew when the person was alive. Gain a +4
 > profane bonus on saving throws against charm effects.

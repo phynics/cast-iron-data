@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Ant\
 **Sacred Color(s)** Red, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Pray atop a hill at night, preferably during a thunderstorm. Gain a +4 profane bonus on saving
 > throws against lightning effects.

@@ -26,7 +26,7 @@ kind = "none"
 [Lust](ref/domain/charm), Sahkil\
 **Favored Weapon** [Scythe](ref/eq-weapon/scythe)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Ingest a toxic plant or sow the seeds of a dangerous plant somewhere meant to be safe. Gain a +4
 > profane bonus on Fortitude and Will saving throws against effects from plants or plant creatures.

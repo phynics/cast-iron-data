@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 Quicksilver is a liquid metal with dangerous mental effects on those who handle it. It is most often
 distilled from crystalline amalgams such as cinnabar and stored in iron flasks.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 Urea is a highly versatile reagent most commonly used in salves and as a stabilizer for particularly
 volatile alchemical reactions.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

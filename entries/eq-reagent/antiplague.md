@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Certain healing spells have greater effects when used with this substance.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

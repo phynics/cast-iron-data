@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Corruption, Fear, Memory, Sahkil, Thought\
 **Favored Weapon** [Spiked chain](ref/eq-weapon/spiked-chain)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Convince someone to perform a humiliating act. Gain a +4 profane bonus on Bluff checks.
 >

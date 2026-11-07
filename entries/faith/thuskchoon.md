@@ -31,7 +31,7 @@ Thought\
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Green
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Destroy something someone else created, working the whole hour to wreck the object as much as
 > possible. Gain a +4 profane bonus on saving throws against area effects that deal hit point

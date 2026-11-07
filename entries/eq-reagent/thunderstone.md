@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 While they are effective enough on their own, these stones have useful interactions with some
 spells.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

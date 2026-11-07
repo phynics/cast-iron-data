@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Horse, raven\
 **Sacred Color(s)** Pale green
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate upon your infirmities and the slow, inevitable progression of physical and mental decay
 > inherent to the ravages of time. Mimic this progression by immersing yourself or a victim in icy

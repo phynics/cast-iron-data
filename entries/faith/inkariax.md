@@ -27,7 +27,7 @@ kind = "none"
 **Subdomains** Fear, [Ice](ref/domain/water), [Isolation](ref/domain/void), Slavery\
 **Favored Weapon** [Spiked Gauntlet](ref/eq-weapon/spiked-gauntlet)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Inventory your collection of hoarded knickknacks, reciting your unique name for each item as you
 > do. Gain a +4 profane bonus on saving throws to resist effects that would petrify or paralyze you.

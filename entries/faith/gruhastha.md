@@ -32,7 +32,7 @@ kind = "none"
 **Centers of Worship** Absalom, Jalmeray, Katapesh, Mana Wastes, Qadira, Nex, Osirion, Vudra\
 **Nationality** Vudrani
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend at least an hour teaching someone to read, analyze allegories, or otherwise improve her
 > self-education skills. You can also use this time to study under a more learned teacher. If

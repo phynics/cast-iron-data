@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Bear\
 **Sacred Color(s)** Black, brown
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Spend an hour creating and then eating a detailed portrait of your mother or father. Gain a +4
 > profane bonus on saving throws against enchantment effects.

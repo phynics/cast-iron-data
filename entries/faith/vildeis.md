@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Eagle\
 **Sacred Color(s)** Red, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Cut a holy design into your flesh or the flesh of a willing participant. Rub ashes into the wound
 > while praying aloud to Vildeis. Bind the wound in red cloth but show the scar to anyone who asks.

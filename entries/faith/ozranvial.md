@@ -27,7 +27,7 @@ kind = "none"
 [Torture](ref/domain/destruction)\
 **Favored Weapon** [Scorpion whip](ref/eq-weapon/scorpion-whip)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Torment or berate another sentient creature to instill a sense worthlessness. Gain a +4 profane
 > bonus on Intimidate checks.

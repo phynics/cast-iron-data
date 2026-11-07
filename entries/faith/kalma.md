@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Cricket\
 **Sacred Color(s)** Black, brown
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Pray over an unburied corpse. Gain a +4 profane bonus on saving throws against death effects.
 >

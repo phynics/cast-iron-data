@@ -54,7 +54,7 @@ release of a wagonload of butterflies; autumnal equinox)\
 Varisia\
 **Nationality** Varisian
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 75\
 > The character gains 20 luck points that can be spent at any time as a free action to increase the
@@ -63,7 +63,7 @@ Varisia\
 > luck points can be spent after the result of the roll is determined, but must be spent immediately
 > or the opportunity to adjust the luck of that roll is lost.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Dance in a random pattern beneath the light of the stars, trusting in the guidance of destiny. If
 > no stars are currently visible, softly sing or chant all of the names of stars that you know as
@@ -133,7 +133,7 @@ Varisia\
 >   actions available to draw the starknife, or have the [Quick Draw](ref/feat/quick-draw) feat or a
 >   similar ability.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Desna's Shooting Star
 >

@@ -28,7 +28,7 @@ kind = "none"
 **Favored Weapon** [Sickle](ref/eq-weapon/sickle)\
 **Symbol** Two crossed diagonal lines with an empty circle above and a filled circle below
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Consume the flesh or blood of your own people and reflect on the pain and death required to grant
 > strength and life; if this is your own flesh or blood, the process deals 1d6 points of damage.

@@ -50,13 +50,13 @@ faceless woman)\
 **Centers of Worship** Brevoy, Nex, Osirion, The Shackles, Thuvia, Ustalav, Varisia\
 **Nationality** Garundi
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 79\
 > The recipient is not affected by the next effect, damage, or other event that would otherwise kill
 > him.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Collect small bones whenever it is convenient and respectful to do so. When it comes time to
 > perform your obedience, lay out the bones in a spiral. At one end of the spiral lay a slip of

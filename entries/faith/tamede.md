@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Beetle\
 **Sacred Color(s)** Green, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Feed poisonous mushrooms to a victim, or consume them yourself. Gain a +4 profane bonus on saving
 > throws against poison and disease.

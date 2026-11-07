@@ -32,7 +32,7 @@ kind = "none"
 **Centers of Worship** Razatlan\
 **Nationality** Razatlani
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Gather with others for an hour and discuss a topic that threatens the bonds of your community,
 > family, or friendship. If you and your allies are fortunate enough that no such malady is

@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Freedom, [Insanity](ref/domain/madness), [Nightmare](ref/domain/madness), Revolution\
 **Favored Weapon** [Warhammer](ref/eq-weapon/warhammer)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Bind yourself tightly with cords of woven hair and then lull yourself into anger-filled dreams for
 > an hour. Gain a +4 profane bonus on saving throws against paralysis and sleep effects.

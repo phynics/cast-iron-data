@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Goat\
 **Sacred Color(s)** Red, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Fill a chalice, cup, or other small receptacle with pure, clean water, then despoil it with 13
 > drops of bodily fluid of any nature. Hold the spoiled concoction in your hands, envision the most

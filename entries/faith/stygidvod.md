@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Raven\
 **Sacred Color(s)** Black, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Smear yourself in and drink the blood of a much younger victim. Gain a +4 profane bonus on saving
 > throws against effects causing aging or ability damage.

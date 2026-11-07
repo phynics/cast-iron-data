@@ -12,7 +12,7 @@ kind = "feat"
 feat_types = ["Combat"]
 prerequisites = "Charging Stag Style, Dodge, Improved Unarmed Strike, Mobility, Stag Horns."
 prerequisite_feats = ["ref/feat/charging-stag-style", "ref/feat/dodge", "ref/feat/improved-unarmed-strike", "ref/feat/mobility", "ref/feat/stag-horns"]
-benefit = "When you are in Charging Stag Style and succeed at a combat maneuver check to [pin](rule/grapple) a foe, you can choose to also knock the foe prone or to deal your unarmed attack damage to the foe."
+benefit = "When you are in Charging Stag Style and succeed at a combat maneuver check to [pin](ref/rule/grapple) a foe, you can choose to also knock the foe prone or to deal your unarmed attack damage to the foe."
 normal = "After successfully maintaining a grapple on a target, you can choose to move, damage, or pin the target."
 +++
 

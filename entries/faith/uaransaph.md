@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Trap-door spider\
 **Sacred Color(s)** Black, brown
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Shoot a creature from the sky, or push one to its death from a great height. Gain a +4 profane
 > bonus on attack rolls against flying creatures.

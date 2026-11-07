@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Heavy flail](ref/eq-weapon/heavy-flail)\
 **Symbol** Three circles bisected by a horizontal line
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Recite a family history to a surviving member of that family. Researching requires 45 minutes,
 > while the recitation requires 15-30 minutes. Select a particular alignment component - chaos,

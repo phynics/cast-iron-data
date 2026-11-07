@@ -51,7 +51,7 @@ intended to blaspheme)\
 **Centers of Worship** Cheliax, Isger, Nidal\
 **Nationality** devil
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 74\
 > Asmodeus grants the service of a [devil](ref/family/devil) to aid in a specific task (which can
@@ -133,7 +133,7 @@ intended to blaspheme)\
 >   no different, but anyone who studies you closely notices these traits. You gain fire resistance
 >   10 and a +4 profane bonus on saving throws against poison.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Asmodeus's Mandate
 >

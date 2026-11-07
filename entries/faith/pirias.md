@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Yellow jacket\
 **Sacred Color(s)** Black, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Mix a concoction from materials you have on hand, and drink it without considering its effects.
 > Gain a +4 profane bonus on saving throws against poison.

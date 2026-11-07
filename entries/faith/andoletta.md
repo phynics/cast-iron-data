@@ -30,7 +30,7 @@ Memory, [Purity](ref/domain/protection)\
 **Sacred Animal(s)** Crow\
 **Sacred Color(s)** Black, green
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Recite the Obeisance of Glorious Preservation from memory while weaving a small basket from willow
 > branches and filling the basket with food, money, or other sources of comfort to give to the poor

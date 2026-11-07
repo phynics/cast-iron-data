@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Roc\
 **Sacred Color(s)** Red, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Neatly inscribe six identical pairs of runes on 12 separate cards or squares of paper. Shuffle the
 > cards facedown and draw two. On a match, gain a +4 sacred bonus on saves against spells cast from

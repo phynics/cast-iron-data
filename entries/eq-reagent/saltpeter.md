@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Saltpeter is used to create fertilizers, propellants, fireworks, and preservatives.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

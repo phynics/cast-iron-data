@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Horse\
 **Sacred Color(s)** Black, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Ride your mount at top speed in a circuitous route you repeat three times while scattering bones
 > behind you. Gain a +4 profane bonus on saving throws against spells with the ruse descriptor.

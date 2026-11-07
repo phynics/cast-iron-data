@@ -37,7 +37,7 @@ Protean, [Storms](ref/domain/weather), [Wind](ref/domain/air)\
 **Centers of Worship** Dtang Ma, Goka, Hwanggot, Kwanlai, Lingshen, Minata, Minkai, Wanshou, Xidao\
 **Nationality** Tengu
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Take three swigs of strong liquor or saltwater, shouting a loud boast to any bystanders after each
 > drink. If anyone responds to your bluster, challenge that person to a contest of drinking,

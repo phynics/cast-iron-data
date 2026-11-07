@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 This substance is good for augmenting spells affecting or creating surfaces.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

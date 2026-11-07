@@ -36,7 +36,7 @@ kind = "none"
 **Centers of Worship** Kyonin, Sovyrian\
 **Nationality** Elf
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Go into the woods sometime between dusk and dawn. Find a set of animal prints, and track the
 > creature down. When you find the creature, do not kill it, but instead kneel down near it and

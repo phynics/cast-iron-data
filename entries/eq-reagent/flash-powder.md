@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Useful as a distraction, flash powder makes light-burst spells more dangerous.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

@@ -30,7 +30,7 @@ Slavery\
 **Sacred Animal(s)** Snake\
 **Sacred Color(s)** Red, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Mix any herbal salve or concoction; apply or drink half of it yourself, and burn the other half.
 > Gain a +4 profane bonus on saving throws against poison.

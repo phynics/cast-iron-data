@@ -58,7 +58,7 @@ by public feast with civic leaders, date varies by city)\
 Osirion, Sargava, Taldor, Varisia\
 **Nationality** Taldan
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 74\
 > The character gains the ability to cast [word of recall](ref/spell/word-of-recall) as a
@@ -68,7 +68,7 @@ Osirion, Sargava, Taldor, Varisia\
 > gift, the GM designates as the spell's sanctuary: a specific temple of Abadar located in a city of
 > at least 1,000 inhabitants.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Take a handful of mixed gems, coins, and keys. Include coins from three or more different currency
 > systems (such as from three different kingdoms), as well as at least three different keys - one of
@@ -161,7 +161,7 @@ Osirion, Sargava, Taldor, Varisia\
 > - I make opportunities, and teach others to recognize them. When I aid others, I open the way for
 >   them, but will not carry them - they must take responsibility.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Abadar's Crossbow
 >

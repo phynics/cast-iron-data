@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Horse, vulture\
 **Sacred Color(s)** Red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Select a target or multiple targets of your wrath, studying them for a time before either slaying
 > them in open combat with multiple witnesses or crucifying your enemies in effigy in a public

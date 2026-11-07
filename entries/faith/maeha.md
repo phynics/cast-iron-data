@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Isolation](ref/domain/void), Loss, Night, [Stars](ref/domain/void)\
 **Favored Weapon** [Net](ref/eq-weapon/net)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Don the guise of a nonevil priest, and spend 1 hour proselytizing and distributing poisoned food
 > to the poor. Gain a +4 profane bonus on saving throws against spells with the chaotic or good

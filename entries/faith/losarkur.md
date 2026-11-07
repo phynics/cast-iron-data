@@ -30,7 +30,7 @@ Slavery\
 **Sacred Animal(s)** Hound\
 **Sacred Color(s)** Brown, gray
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Hand-feed raw meat to a beast, and rub the ensuing blood around your eyes like kohl. Gain a +4
 > profane bonus on saving throws against fear effects.

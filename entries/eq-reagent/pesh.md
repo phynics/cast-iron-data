@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 When used as an alchemical reagent, refined pesh is often sublimated along with other reagents to
 create new forms of the famous drug.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

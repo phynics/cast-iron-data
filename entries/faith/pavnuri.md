@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Ape\
 **Sacred Color(s)** Black
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Whisper a personal secret to a stranger. Gain a +4 profane bonus on saving throws against death
 > and negative energy effects.

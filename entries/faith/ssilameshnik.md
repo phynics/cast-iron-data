@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Light hammer](ref/eq-weapon/light-hammer)\
 **Symbol** Triquetra over a white keketar head
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Ritually bleach your hair and whisper prayers in protean song for an hour, naked, in public view.
 > Gain a +4 sacred bonus on saves against the spells,

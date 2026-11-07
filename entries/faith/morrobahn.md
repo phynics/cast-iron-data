@@ -27,7 +27,7 @@ kind = "none"
 [Fur](ref/domain/animal)\
 **Favored Weapon** [Heavy flail](ref/eq-weapon/heavy-flail)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Find two similar creatures of any type (animals, insects, people, etc.) and make them fight to the
 > death. Gain a +2 profane bonus to your CMD.

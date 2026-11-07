@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have purchased a scroll or spellbook containing a spell with the evil descriptor in a place where such dealings are illegal, or must have the Secret Society Inductee (growing up) or Diabolical Upbringing (early events) [background](rule/bad_beginnings)."
+prerequisites = "You must have purchased a scroll or spellbook containing a spell with the evil descriptor in a place where such dealings are illegal, or must have the Secret Society Inductee (growing up) or Diabolical Upbringing (early events) [background](ref/rule/bad-beginnings)."
 benefit = "You can always purchase potions and scrolls of spells with the evil descriptor at a 10% discount, even if they are not normally available in a settlement because of its size or the local laws. You gain a +4 bonus on Knowledge (arcana), Spellcraft, and Use Magic Device checks related to spells with the evil descriptor or evil written works."
 +++
 

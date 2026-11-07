@@ -30,7 +30,7 @@ Thought\
 **Sacred Animal(s)** Elephant\
 **Sacred Color(s)** Blue, red
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Perform the motions of your preferred method of creation while letting your mind center on the
 > teachings of Bharnarol. Follow any creative thoughts that arise to their conclusion. Gain a +4

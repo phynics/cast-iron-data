@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 These items work best with spells that create clouds or smoke.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

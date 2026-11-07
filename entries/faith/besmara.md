@@ -36,7 +36,7 @@ kind = "none"
 **Centers of Worship** Garund, Ilizmagorti, The Shackles\
 **Nationality** Kellid
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Steal a gold coin or alcoholic drink by force or trickery. Then, while recounting your latest or
 > most impressive act of piracy and blessing Besmara's name for all to hear, offer your stolen item

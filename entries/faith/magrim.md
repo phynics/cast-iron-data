@@ -34,7 +34,7 @@ kind = "none"
 **Centers of Worship** Highhelm, Larrad, Janderhoff, Rolgrimmdur, Tar-Kazmukh, Undercroft\
 **Nationality** Five Kings Mountains, dwarf
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Using a chisel and hammer, carve the rune for "repose" on a stone entryway or cave entrance. If no
 > appropriate entryway is available, carve multiple runes on a stone surface, creating an arch of

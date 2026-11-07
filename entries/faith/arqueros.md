@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Golden eagle\
 **Sacred Color(s)** Gold, purple
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Pray while holding a heavy shield over your head for an hour. Gain a +4 sacred bonus on Strength
 > checks and Strength-based skill checks.

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Tiger\
 **Sacred Color(s)** Black, orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Replace the internal mechanisms of a clockwork or other mechanical device with tiger claws. Gain a
 > +4 profane bonus on saving throws against mind-affecting effects.

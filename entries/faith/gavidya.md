@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Deception, Family, Slavery, Thievery\
 **Favored Weapon** [Sap](ref/eq-weapon/sap)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Count the bearings inside a sap, assigning each the name of someone you know and intend to
 > indoctrinate or deceive. Gain a +4 profane bonus on Bluff checks to tell lies and on saving throws

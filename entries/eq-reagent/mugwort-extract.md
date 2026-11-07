@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 Many varieties of mugwort exist; some are used in acupuncture, while others are key ingredients in
 herbal remedies that ward off fatigue, cold, or even supernatural dangers.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

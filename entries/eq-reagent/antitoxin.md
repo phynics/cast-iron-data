@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Like antiplague, this substance can augment certain healing spells.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

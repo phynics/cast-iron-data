@@ -127,7 +127,7 @@ bonded plane.
 
 **Replaces:** Evasion, improved evasion
 
-### \[Planar Terrains\](rule/planar\_terrains)
+### \[Planar Terrains\](ref/rule/planar-terrains)
 
 A staggering array of terrains await exploration in the Great Beyond. Some are akin to the forests,
 mountains, oceans, and plains of Material Plane worlds, but others are unlike anything found there,

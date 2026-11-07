@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Iron gray, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Repeatedly cut a murdered victim's name into your flesh. Gain a +4 profane bonus on saving throws
 > against effects that cause pain or slashing damage.

@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Fear, Leadership, Martyr, [Wind](ref/domain/air)\
 **Favored Weapon** [Net](ref/eq-weapon/net)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Sing your name or events from your life for an hour. Gain a +4 profane bonus on saving throws to
 > resist sonic effects.

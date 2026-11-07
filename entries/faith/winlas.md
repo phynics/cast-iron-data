@@ -30,7 +30,7 @@ Loyalty, [Purity](ref/domain/protection)\
 **Sacred Animal(s)** Egret\
 **Sacred Color(s)** Green, silver
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Enact a complex ritual of standing, kneeling, and lying prone at different intervals combined with
 > chanting and recitations from at least three different holy texts. Gain a +4 sacred bonus on

@@ -9,7 +9,7 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "[Moroi or nosferatu](template/vampire)."
+prerequisites = "[Moroi or nosferatu](ref/template/vampire)."
 benefit = "You can go without feeding for a number of days equal to twice your Hit Dice before having to make hunger saves. When you use your blood drain ability, you gain twice the normal amount of temporary hit points for each feeding."
 special = "This feat is only for campaigns using the optional undead hunger rules."
 +++

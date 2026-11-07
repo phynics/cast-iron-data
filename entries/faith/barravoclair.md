@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Murder, [Restoration](ref/domain/healing), [Resurrection](ref/domain/healing), Undead\
 **Favored Weapon** [War razor](ref/eq-weapon/war-razor)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Practice breath control, holding your breath until you nearly pass out. Gain a +4 profane bonus on
 > checks to resist drowning and on saves against inhaled poisons.

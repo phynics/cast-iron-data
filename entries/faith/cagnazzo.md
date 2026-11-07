@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Hound\
 **Sacred Color(s)** Black, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Swear a lengthy blood oath against an enemy. Gain a +4 profane bonus on saving throws against fear
 > effects.

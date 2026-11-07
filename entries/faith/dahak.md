@@ -38,7 +38,7 @@ Trickery\
 **Centers of Worship** Darklands, the Shackles, Thuvia\
 **Nationality** dragon
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Remain entirely silent for 1 hour while you pray to Dahak, ruminating over the glories of wanton
 > destruction committed as the culmination of waiting and planning. While you pray, let hate and

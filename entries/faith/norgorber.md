@@ -54,12 +54,12 @@ worshiped on the winter solstice)\
 **Centers of Worship** Absalom, Galt, Nex, Osirion, River Kingdoms, The Shackles, Taldor, Varisia\
 **Nationality** Taldan
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 78\
 > Norgorber grants a permanent +1 untyped bonus to Dexterity.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > While moving through a crowd of people (at least six individuals), whisper a prayer to Norgorber
 > so quietly that no one hears you. If you suspect a member of the crowd heard you, you must follow
@@ -144,7 +144,7 @@ worshiped on the winter solstice)\
 > - Everyone is expendable, and I will sacrifice them all as necessary.
 > - Each life I take shapes the future to my lord's desires.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Norgorber's Silent Shiv
 >

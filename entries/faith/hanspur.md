@@ -35,7 +35,7 @@ kind = "none"
 **Centers of Worship** River Kingdoms\
 **Nationality** Kellid
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > With the assistance of another priest of Hanspur or by yourself, simulate the act of drowning. You
 > can do this by fully submerging yourself in a body of water, exhaling all of your breath, and

@@ -22,7 +22,7 @@ Spirit of wine is purified, alchemically active alcohol commonly used as a fuel 
 alchemical items, specialized inks, and perfumes. It is too pure to drink alone, but can be used as
 a reagent to form tinctures and alchemical drinks.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |
