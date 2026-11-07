@@ -2,7 +2,7 @@
 id = "ref/feat/intimidating-prowess"
 kind = "feat"
 title = "Intimidating Prowess"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_prowess", path = "json/feat09.json" },
 ]
@@ -29,14 +29,3 @@ modifier.\
 **Sources:** Pathfinder Unchained pg 124\
 When attempting an Intimidate check, you can spend 2 stamina points for each size category smaller
 you are than a given target to ignore the size difference penalty against that target.
-
-### Mythic Intimidating Prowess
-
-**Sources:** Mythic Adventures pg 68\
-Your mythic stature makes others uneasy.\
-**Prerequisites:** Intimidating Prowess.\
-**Benefit:** You gain a bonus on Intimidate checks equal to your tier against non-mythic creatures,
-or half your tier against mythic creatures. If you also have the
-[Mythic Persuasive](ref/feat/persuasive) feat, you can expend one use of mythic power to treat the
-Intimidate check as if you had rolled a natural 20. You must decide to use this ability before the
-roll is made.

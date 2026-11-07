@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Improved Familiar/Mythic", path = "mythic_adventures/feat/improved_familiar_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/improved-familiar", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Improved Familiar."
-prerequisite_feats = ["ref/feat/improved-familiar"]
 benefit = "For every 3 tiers you possess, your familiar gains a +2 bonus to an ability score of your choice. These bonuses stack. Your familiar adds your tier to its natural armor bonus and to its spell resistance (if it has spell resistance)."
 +++
 

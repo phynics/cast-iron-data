@@ -2,7 +2,7 @@
 id = "ref/feat/run"
 kind = "feat"
 title = "Run"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "run", path = "json/feat13.json" },
 ]
@@ -24,16 +24,3 @@ While running, you retain your Dexterity bonus to your Armor Class.\
 **Normal:** You move four times your speed while running (if wearing medium, light, or no armor and
 carrying no more than a medium load) or three times your speed (if wearing heavy armor or carrying a
 heavy load), and you lose your Dexterity bonus to AC.
-
-### Mythic Run
-
-**Sources:** Mythic Adventures pg 72\
-You run with preternatural speed and endurance.\
-**Prerequisites:** Run.\
-**Benefit:** When running, you move seven times your normal speed if wearing medium, light, or no
-armor and carrying no more than a medium load, or six times your speed if wearing heavy armor or
-carrying a heavy load. When making a jump after a running start, you gain an additional bonus equal
-to your tier + 4 on your Acrobatics check.
-
-You can run normally for a number of rounds equal to your Constitution score plus your tier, but
-after that you must succeed at Constitution checks to continue running.

@@ -2,7 +2,7 @@
 id = "ref/feat/trample"
 kind = "feat"
 title = "Trample"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trample", path = "json/feat16.json" },
 ]
@@ -30,13 +30,3 @@ gaining the standard +4 bonus on attack rolls against prone targets.
 When you attempt to overrun an opponent while mounted and you don't succeed at the overrun combat
 maneuver check, you can spend 2 stamina points and continue to move as if the target of the overrun
 had moved out of the way.
-
-### Mythic Trample
-
-**Sources:** Mythic Adventures pg 75\
-Your rearing mount can stomp foes into the ground, barely\
-**Prerequisites:** Trample.\
-**Benefit:** Your mount can make two hoof attacks against an opponent you knock down with an
-overrun, instead of one. You can expend one use of mythic power when you score a critical hit with
-one or more of those hoof attacks. When you do, the critical is automatically confirmed. If both
-scored critical hits, expending one use of mythic power automatically confirms both.

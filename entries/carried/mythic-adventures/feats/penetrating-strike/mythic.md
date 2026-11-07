@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Penetrating Strike/Mythic", path = "mythic_adventures/feat/penetrating_strike_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/penetrating-strike", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Penetrating Strike."
-prerequisite_feats = ["ref/feat/penetrating-strike"]
 benefit = "When using Penetrating Strike or Greater Penetrating Strike, you can ignore an additional point of damage reduction for every 3 tiers you posses. Additionally, the effects apply to damage reduction without a type (such as DR 10/—)."
 +++
 

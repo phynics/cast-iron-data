@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Disruptive/Mythic", path = "mythic_adventures/feat/disruptive_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/disruptive", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Disruptive."
-prerequisite_feats = ["ref/feat/disruptive"]
 benefit = "The DC to cast spells defensively within your threatened area increases by half your tier. This stacks with the increase granted by Disruptive. In addition, even if you can't make attacks of opportunity, non-mythic spellcasters are still wary of you and continue to suffer from the effects of Disruptive."
 +++
 

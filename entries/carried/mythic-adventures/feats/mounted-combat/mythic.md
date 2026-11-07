@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Mounted Combat/Mythic", path = "mythic_adventures/feat/mounted_combat_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/mounted-combat", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Mounted Combat."
-prerequisite_feats = ["ref/feat/mounted-combat"]
 benefit = "You can negate an additional number of hits against your mount per round equal to your tier. Once per round as an immediate action, you can expend one use of mythic power to substitute a Ride check for a single Reflex saving throw your mount must make."
 +++
 

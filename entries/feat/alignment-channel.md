@@ -2,7 +2,7 @@
 id = "ref/feat/alignment-channel"
 kind = "feat"
 title = "Alignment Channel"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_channel", path = "json/feat01.json" },
 ]
@@ -27,14 +27,3 @@ halve the damage is otherwise unchanged.\
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take
 this feat, it applies to a new alignment subtype. Whenever you channel energy, you must choose which
 type to effect.
-
-### Mythic Alignment Channel
-
-**Sources:** Mythic Adventures pg 54\
-The power of your faith harms all creatures that follow the alignment you abhor.\
-**Prerequisites:** Alignment Channel.\
-**Benefit:** Your channeled energy affects any creatures with the alignment chosen when you took
-Alignment Channel (not just outsiders, and not just those with the alignment subtype), but grants
-only half healing or deals only half damage to these targets. Alternatively, you can expend two uses
-of mythic power when using Alignment Channel to affect all targets of the chosen alignment as if
-they had that alignment subtype.

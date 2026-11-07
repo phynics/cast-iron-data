@@ -2,7 +2,7 @@
 id = "ref/feat/bleeding-critical"
 kind = "feat"
 title = "Bleeding Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleeding_critical", path = "json/feat02.json" },
 ]
@@ -33,16 +33,3 @@ possess [Critical Mastery](ref/feat/critical-mastery).
 **Sources:** Pathfinder Unchained pg 114\
 When you deal bleed damage with this feat, you can spend up to 3 stamina points to increase the
 amount of bleed damage dealt by double the number of stamina points you spent.
-
-### Mythic Bleeding Critical
-
-**Sources:** Mythic Adventures pg 60\
-Your deadliest blows unleash rivers of blood.\
-**Prerequisites:** Bleeding Critical, Mythic Critical Focus.\
-**Benefit:** The bleed damage dealt with Bleeding Critical increases by your tier. Stopping this
-bleed damage requires a Heal check with a DC equal to 15 + 1/2 your tier. Any magical healing ends
-the bleed damage normally.
-
-You can expend one use of mythic power to deal 1 Con bleed, in addition to the hit point bleed
-damage you deal with this feat. This effect increases by 1 for each additional use of mythic power
-you expend.

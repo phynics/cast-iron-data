@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Improved Channel/Mythic", path = "mythic_adventures/feat/improved_channel_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/improved-channel", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Improved Channel."
-prerequisite_feats = ["ref/feat/improved-channel"]
 benefit = "Non-mythic creatures that take damage from your channel energy must roll their saving throws twice and take the lower result."
 +++
 

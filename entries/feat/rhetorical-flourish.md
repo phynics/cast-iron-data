@@ -2,7 +2,7 @@
 id = "ref/feat/rhetorical-flourish"
 kind = "feat"
 title = "Rhetorical Flourish"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhetorical_flourish", path = "json/feat13.json" },
 ]
@@ -27,15 +27,3 @@ Alternatively, you can use this feat to retry a single failed Diplomacy check ag
 You take a -4 penalty on your Bluff check when using Rhetorical Flourish in this way. If you
 succeed, rather than gaining this feat's normal bonus, you can retry your last Diplomacy check
 against the creature if that check was made in the past minute.
-
-### Mythic Rhetorical Flourish
-
-**Sources:** Mythic Adventures pg 72\
-You're supremely skilled at using verbal misdirection and\
-**Prerequisites:** Rhetorical Flourish.\
-**Benefit:** When you successfully use Rhetorical Flourish against a non-mythic creature, the bonus
-on your Diplomacy check increases by your tier. If the target is a mythic creature, you instead
-increase the bonus by half your tier.
-
-You can expend one use of mythic power to reroll a single failed Bluff check. You must take the new
-result even if it is lower.

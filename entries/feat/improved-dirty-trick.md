@@ -2,7 +2,7 @@
 id = "ref/feat/improved-dirty-trick"
 kind = "feat"
 title = "Improved Dirty Trick"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_dirty_trick", path = "json/feat09.json" },
 ]
@@ -35,18 +35,6 @@ You gain the benefits of this feat only as long as you have at least 1 stamina p
 pool. When you are the target of a dirty trick combat maneuver, you can spend a number of stamina
 points up to your Strength or Dexterity bonus, whichever is greater. Your CMD against that dirty
 trick attempt increases by that number.
-
-### Mythic Improved Dirty Trick
-
-**Sources:** Mythic Adventures pg 66\
-You're a paragon of down-and-dirty fighting.\
-**Prerequisites:** Improved Dirty Trick.\
-**Benefit:** You gain a bonus equal to half your tier on checks to attempt a dirty trick, and to
-your CMD when an opponent attempts to perform a dirty trick on you. These bonuses stack with those
-granted by Improved Dirty Trick.
-
-Furthermore, you can make an attack of opportunity against any creature that attempts a dirty trick
-maneuver against you, unless it also has this feat.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat **may** be removed, replaced with the new [Deft Maneuvers](ref/rule/deft-maneuvers) feat.

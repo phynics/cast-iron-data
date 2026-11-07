@@ -2,7 +2,7 @@
 id = "ref/feat/critical-mastery"
 kind = "feat"
 title = "Critical Mastery"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_mastery", path = "json/feat04.json" },
 ]
@@ -33,11 +33,3 @@ to the damage dealt.
 When you confirm a critical hit, instead of applying the effects of two critical feats you possess,
 you can spend 2 stamina points to apply the effect of any one critical feat you don't possess (but
 for which you qualify).
-
-### Mythic Critical Mastery
-
-**Sources:** Mythic Adventures pg 61\
-Your critical hits are versatile and devastating.\
-**Prerequisites:** Mythic Critical Focus, Critical Mastery.\
-**Benefit:** When using Critical Mastery, increase the number of critical feats you may apply by
-every 3 tiers that you possess.

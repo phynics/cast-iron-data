@@ -2,7 +2,7 @@
 id = "ref/feat/manyshot"
 kind = "feat"
 title = "Manyshot"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manyshot", path = "json/feat10.json" },
 ]
@@ -33,14 +33,6 @@ damage bonuses, such as a ranger's [favored enemy](ref/ability/favored-enemy) bo
 **Sources:** Pathfinder Unchained pg 126\
 When using this feat, you can spend 5 stamina points to fire two arrows with your final iterative
 attack during the full attack.
-
-### Mythic Manyshot
-
-**Sources:** Mythic Adventures pg 69\
-You can fire a barrage of arrows at your target with very little effort.\
-**Prerequisites:** Manyshot.\
-**Benefit:** When making a full-attack action with a bow and using Manyshot, you fire two arrows
-with both your first and second attacks, instead of just your first attack.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can fire multiple arrows at a single target.\

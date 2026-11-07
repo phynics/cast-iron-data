@@ -2,7 +2,7 @@
 id = "ref/feat/furious-focus"
 kind = "feat"
 title = "Furious Focus"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["advanced-players-guide", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_focus", path = "json/feat07.json" },
 ]
@@ -33,12 +33,3 @@ When using the Power Attack feat and wielding a two-handed melee weapon or a one
 with two hands, you can spend 5 stamina points. If you do, each successful attack you make against a
 target reduces your Power Attack penalty against that target by 1 (to a minimum of 0) until the
 beginning of your next turn.
-
-### Mythic Furious Focus
-
-**Sources:** Mythic Adventures pg 65\
-Your attacks create a rhythmic barrage that doesn't sacrifice precision for force.\
-**Prerequisites:** Furious Focus.\
-**Benefit:** When you are using Furious Focus, you don't take Power Attack's penalty on attack rolls
-that are made as attacks of opportunity. As a free action, you can expend one use of mythic power to
-negate Power Attack's penalty on all melee attacks you make for 1 round while using this feat.

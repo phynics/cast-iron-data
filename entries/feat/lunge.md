@@ -2,7 +2,7 @@
 id = "ref/feat/lunge"
 kind = "feat"
 title = "Lunge"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lunge", path = "json/feat10.json" },
 ]
@@ -29,13 +29,3 @@ any attacks are made.
 **Sources:** Pathfinder Unchained pg 125\
 When you use this feat, you can spend 2 stamina points to avoid taking the -2 penalty to AC for that
 use.
-
-### Mythic Lunge
-
-**Sources:** Mythic Adventures pg 69\
-Your reaching strikes aid your defenses against those you hit.\
-**Prerequisites:** Lunge.\
-**Benefit:** Whenever you use Lunge and hit a creature with the melee attack, you no longer take a
--2 penalty to AC against that creature. You can expend one use of mythic power when you use Lunge to
-negate the -2 penalty to AC whether you hit or miss, and gain a +2 bonus on attacks of opportunity
-you make while Lunge is in effect.

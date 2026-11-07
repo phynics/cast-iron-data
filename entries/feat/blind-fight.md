@@ -2,7 +2,7 @@
 id = "ref/feat/blind-fight"
 kind = "feat"
 title = "Blind-Fight"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blind_fight", path = "json/feat02.json" },
 ]
@@ -39,11 +39,3 @@ lose your Dexterity bonus to AC. The speed reduction for darkness and poor visib
 **Sources:** Pathfinder Unchained pg 114\
 Once per round, when you hit a creature that benefits from concealment, you can spend 2 stamina
 points to ignore the miss chance from that creature's concealment until the end of your next turn.
-
-### Mythic Blind-Fight
-
-**Sources:** Mythic Adventures pg 60\
-No creature can avoid your preternatural senses.\
-**Prerequisites:** Blind-Fight.\
-**Benefit:** As a swift action, you can expend one use of mythic power to ignore all miss chances
-due to concealment or total concealment for a number of rounds equal to your tier.

@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Natural Spell/Mythic", path = "mythic_adventures/feat/natural_spell_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/natural-spell", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Natural Spell."
-prerequisite_feats = ["ref/feat/natural-spell"]
 benefit = "When you're using wild shape, you can use spell completion and spell trigger magic items that were on your person when you changed form. You don't need to physically manipulate the items when you use them while using wild shape. Furthermore, you can speak normally when using wild shape."
 +++
 

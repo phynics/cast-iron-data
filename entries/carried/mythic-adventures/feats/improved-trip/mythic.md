@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Improved Trip/Mythic", path = "mythic_adventures/feat/improved_trip_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/improved-trip", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Improved Trip."
-prerequisite_feats = ["ref/feat/improved-trip"]
 benefit = "You gain a bonus equal to half your tier on checks to trip, and to your CMD when an opponent tries to trip you. These bonuses stack with those granted by Improved Trip. Furthermore, you can make an attack of opportunity against any creature that attempts to trip you, unless it also has this feat."
 +++
 

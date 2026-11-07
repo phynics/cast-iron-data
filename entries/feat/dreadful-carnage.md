@@ -2,7 +2,7 @@
 id = "ref/feat/dreadful-carnage"
 kind = "feat"
 title = "Dreadful Carnage"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["advanced-players-guide", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreadful_carnage", path = "json/feat05.json" },
 ]
@@ -31,15 +31,3 @@ Enemies that cannot see both you and the enemy you reduced to 0 or fewer hit poi
 When you reduce an enemy to 0 or fewer hit points, you can spend up to 6 stamina points to increase
 the radius of this feat's effect by 5 feet for each stamina point you spent (to a maximum of 60
 feet).
-
-### Mythic Dreadful Carnage
-
-**Sources:** Mythic Adventures pg 63\
-Your kills are truly frightening to behold.\
-**Prerequisites:** Dreadful Carnage.\
-**Benefit:** When you use Dreadful Carnage, you affect non-mythic enemies within 60 feet in addition
-to all enemies within 30 feet. You can expend one use of mythic power before making the Intimidate
-check to cause enemies demoralized by Dreadful Carnage to become [frightened](ref/misc/frightened)
-instead of shaken, for the same duration as the normal shaken effect. While frightened by this
-ability, an enemy takes a penalty equal to your tier on attack rolls, saving throws, skill checks,
-and ability checks.

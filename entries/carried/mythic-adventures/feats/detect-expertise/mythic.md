@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Detect Expertise/Mythic", path = "mythic_adventures/feat/detect_expertise_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/detect-expertise", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Detect Expertise."
-prerequisite_feats = ["ref/feat/detect-expertise"]
 benefit = "You gain the benefit of Detect Expertise immediately (without needing to observe a creature for 3 rounds) when using the divinations listed in Detect Expertise. Non-mythic creatures cannot attempt a Will save to resist this effect."
 +++
 

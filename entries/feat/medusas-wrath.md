@@ -2,7 +2,7 @@
 id = "ref/feat/medusas-wrath"
 kind = "feat"
 title = "Medusa's Wrath"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusas_wrath", path = "json/feat10.json" },
 ]
@@ -35,18 +35,6 @@ made against a [dazed](ref/misc/dazed), [flat-footed](ref/rule/flat-footed),
 While using this feat, you can spend 10 stamina points to make the bonus attacks against a foe that
 you are [flanking](ref/rule/flanking), instead of only a dazed, flat-footed, paralyzed, staggered,
 stunned, or unconscious foe.
-
-### Mythic Medusa's Wrath
-
-**Sources:** Mythic Adventures pg 69\
-Your barrage of unarmed attacks builds to a single, staggering strike.\
-**Prerequisites:** Medusa's Wrath.\
-**Benefit:** You may forgo the two additional unarmed strikes of Medusa's Wrath to instead make a
-single unarmed strike at your highest base attack bonus. If you successfully hit your opponent, it
-must succeed at a Fortitude saving throw (DC 10 + 1/2 your character level + your Wisdom modifier)
-or be [staggered](ref/misc/staggered) for 1 round. You can expend one use of mythic power when you
-stagger a target with Medusa's Wrath to extend the duration of the staggered condition by a number
-of rounds equal to half your tier.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can take advantage of your opponent's confusion, delivering multiple blows.\

@@ -2,7 +2,7 @@
 id = "ref/feat/ride-by-attack"
 kind = "feat"
 title = "Ride-By Attack"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_by_attack", path = "json/feat13.json" },
 ]
@@ -30,14 +30,3 @@ mount do not provoke an attack of opportunity from the opponent that you attack.
 **Sources:** Pathfinder Unchained pg 130\
 After making a mounted charge attack using this feat, you can spend 5 stamina points to change the
 direction of your movement instead of continuing to move in a straight line.
-
-### Mythic Ride-By Attack
-
-**Sources:** Mythic Adventures pg 72\
-You can make multiple attacks as you ride past your enemies.\
-**Prerequisites:** Ride-By Attack\].\
-**Benefit:** When you successfully strike an opponent as part of a Ride-By Attack, you can continue
-to make attacks against successive targets. You can make one additional attack per 3 tiers you
-possess, but you can't make more attacks than you could if you were making a full attack. Successive
-attacks use the lower bonus for multiple attacks, as when making a full attack. You must move at
-least 10 feet between each attack.

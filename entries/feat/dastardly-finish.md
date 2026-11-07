@@ -2,7 +2,7 @@
 id = "ref/feat/dastardly-finish"
 kind = "feat"
 title = "Dastardly Finish"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["advanced-players-guide", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dastardly_finish", path = "json/feat04.json" },
 ]
@@ -31,13 +31,3 @@ or [stunned](ref/misc/stunned) targets.\
 You can spend 10 stamina points to deliver a coup de grace against two helpless, cowering, or
 stunned targets within your reach as a full-round action. This provokes attacks of opportunity
 twice - one for each coup de grace.
-
-### Mythic Dastardly Finish
-
-**Sources:** Mythic Adventures pg 61\
-You strike downed, dazed, and staggered opponents with deadly efficiency.\
-**Prerequisites:** Dastardly Finish.\
-**Benefit:** You can deliver a coup de grace to [dazed](ref/misc/dazed) and
-[staggered](ref/misc/staggered) non-mythic opponents. In addition, when any creature makes a
-Fortitude saving throw to survive one of your coup de grace attempts, it takes a penalty to that
-saving throw equal to your tier.

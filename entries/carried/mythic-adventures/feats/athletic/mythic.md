@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Athletic/Mythic", path = "mythic_adventures/feat/athletic_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/athletic", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Athletic."
-prerequisite_feats = ["ref/feat/athletic"]
 benefit = "The bonus on Climb and Swim skill checks from Athletic increases by 2. In addition, you can expend one use of mythic power to treat a Climb or Swim check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 +++
 

@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Improved Stonecunning/Mythic", path = "mythic_adventures/feat/improved_stonecunning_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/improved-stonecunning", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Improved Stonecunning."
-prerequisite_feats = ["ref/feat/improved-stonecunning"]
 benefit = "You gain stone tell as a spell-like ability usable once per day with a caster level equal to twice your tier."
 +++
 

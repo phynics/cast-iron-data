@@ -2,7 +2,7 @@
 id = "ref/feat/snatch-arrows"
 kind = "feat"
 title = "Snatch Arrows"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snatch_arrows", path = "json/feat14.json" },
 ]
@@ -33,16 +33,6 @@ You must have at least one hand free (holding nothing) to use this feat.
 **Sources:** Pathfinder Unchained pg 132\
 When you snatch a thrown weapon, as long as you have at least 1 stamina point in your stamina pool,
 you can make a thrown ranged attack with it against any target, not just the original attacker.
-
-### Mythic Snatch Arrows
-
-**Sources:** Mythic Adventures pg 74\
-You can use the weapons you pluck from the air to immediately make melee attacks.\
-**Prerequisites:** Snatch Arrows.\
-**Benefit:** When you use Snatch Arrows to catch a thrown weapon that can also be used as a melee
-weapon, you can make a melee attack with it as an immediate action against a foe within the weapon's
-melee reach. You can expend one use of mythic power to make this attack without spending an
-immediate action.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Instead of knocking an arrow or ranged attack aside, you can catch it in mid-flight.\

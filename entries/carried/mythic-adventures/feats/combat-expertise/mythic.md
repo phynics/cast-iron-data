@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Combat Expertise/Mythic", path = "mythic_adventures/feat/combat_expertise_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/combat-expertise", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Combat Expertise."
-prerequisite_feats = ["ref/feat/combat-expertise"]
 benefit = "Whenever you use Combat Expertise, you gain an additional +2 dodge bonus to your Armor Class. You can expend one use of mythic power to negate the penalties on melee attack rolls and combat maneuver checks caused by using Combat Expertise for 1 minute."
 +++
 

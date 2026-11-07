@@ -2,7 +2,7 @@
 id = "ref/feat/disruptive"
 kind = "feat"
 title = "Disruptive"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disruptive", path = "json/feat04.json" },
 ]
@@ -32,13 +32,3 @@ increase does not apply.
 When you use your last attack of opportunity available to you in a round, you can spend 2 stamina
 points to extend the duration of this feat's increase to DCs for enemies casting defensively within
 your threatened area until the start of your next turn.
-
-### Mythic Disruptive
-
-**Sources:** Mythic Adventures pg 63\
-You're a master at disrupting nearby spellcasters.\
-**Prerequisites:** Disruptive.\
-**Benefit:** The DC to cast spells defensively within your threatened area increases by half your
-tier. This stacks with the increase granted by Disruptive. In addition, even if you can't make
-attacks of opportunity, non-mythic spellcasters are still wary of you and continue to suffer from
-the effects of Disruptive.

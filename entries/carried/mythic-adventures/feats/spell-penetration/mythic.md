@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Spell Penetration/Mythic", path = "mythic_adventures/feat/spell_penetration_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/spell-penetration", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Spell Penetration."
-prerequisite_feats = ["ref/feat/spell-penetration"]
 benefit = "Add half your tier to caster level checks to overcome spell resistance. If you have Greater Spell Penetration, add your full tier instead."
 +++
 

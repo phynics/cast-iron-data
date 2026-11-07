@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Animal Affinity/Mythic", path = "mythic_adventures/feat/animal_affinity_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/animal-affinity", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Animal Affinity."
-prerequisite_feats = ["ref/feat/animal-affinity"]
 benefit = "The bonus on Handle Animal and Ride skill checks from Animal Affinity increases by 2. In addition, you can expend one use of mythic power to speak with animals as the spell. Your caster level for this effect is equal to twice your tier."
 +++
 

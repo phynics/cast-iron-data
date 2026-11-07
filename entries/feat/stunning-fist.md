@@ -2,7 +2,7 @@
 id = "ref/feat/stunning-fist"
 kind = "feat"
 title = "Stunning Fist"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_fist", path = "json/feat15.json" },
 ]
@@ -40,15 +40,6 @@ level, plus one more time per day for every four levels he has in classes other 
 **Sources:** Pathfinder Unchained pg 133\
 You can spend 5 stamina points to declare that you are using Stunning Fist after you've hit with an
 unarmed strike.
-
-### Mythic Stunning Fist
-
-**Sources:** Mythic Adventures pg 75\
-With greater potency and frequency, your fists stun those who stand against you.\
-**Prerequisites:** Stunning Fist.\
-**Benefit:** The DC of your Stunning Fist increases by half your tier, and you can use Stunning Fist
-multiple times during the same round. As a free action, you can expend one use of your mythic power
-to use Stunning Fist without spending one of your daily uses of the feat.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You know just where to strike to temporarily stun a foe.\

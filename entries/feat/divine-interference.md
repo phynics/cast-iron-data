@@ -2,7 +2,7 @@
 id = "ref/feat/divine-interference"
 kind = "feat"
 title = "Divine Interference"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_interference", path = "json/feat05.json" },
 ]
@@ -23,12 +23,3 @@ make the enemy reroll the attack roll. The second attack roll takes a penalty eq
 the spell you sacrifice. You must sacrifice a spell of 1st-level or higher to use this ability.
 Whether or not the second attack is successful, you cannot use this effect on the same creature
 again for 1 day.
-
-### Mythic Divine Interference
-
-**Sources:** Mythic Adventures pg 63\
-Your divine power thwarts enemies of your faith.\
-**Prerequisites:** Divine Interference.\
-**Benefit:** When you use Divine Interference, the penalty on your opponent's attack roll is equal
-to twice the level of the spell sacrificed. You can expend one use of mythic power when you
-sacrifice the spell to increase the penalty to triple the level of the spell sacrificed.

@@ -2,7 +2,7 @@
 id = "ref/feat/deflect-arrows"
 kind = "feat"
 title = "Deflect Arrows"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deflect_arrows", path = "json/feat04.json" },
 ]
@@ -36,15 +36,6 @@ effects can't be deflected.
 **Sources:** Pathfinder Unchained pg 117\
 You can spend 5 stamina points to deflect an arrow while you're flat-footed. You must still be aware
 of the attack.
-
-### Mythic Deflect Arrows
-
-**Sources:** Mythic Adventures pg 63\
-You deflect projectiles and ray spells with uncanny skill.\
-**Prerequisites:** Deflect Arrows.\
-**Benefit:** When using Deflect Arrows, you can deflect an additional number of ranged attacks per
-round equal to half your tier. You can expend one use of mythic power as an immediate action to
-deflect a single ray from a ray spell or effect targeting you.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can knock arrows and other projectiles off course, preventing them from hitting you.\

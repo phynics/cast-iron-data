@@ -2,7 +2,7 @@
 id = "ref/feat/combat-reflexes"
 kind = "feat"
 title = "Combat Reflexes"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_reflexes", path = "json/feat03.json" },
 ]
@@ -34,13 +34,3 @@ than once per round.
 When you miss with an attack of opportunity, you can spend 5 stamina points to make a second attack
 for the same provoking action. That second attack of opportunity takes a -5 penalty on the attack
 roll and costs one of your attacks of opportunity for the round.
-
-### Mythic Combat Reflexes
-
-**Sources:** Mythic Adventures pg 61\
-You strike viciously whenever your foe gives you an opening.\
-**Prerequisites:** Combat Reflexes.\
-**Benefit:** You can make any number of additional attacks of opportunity per round. As a swift
-action, you can expend one use of mythic power to, until the start of your next turn, make attacks
-of opportunity against foes you've already made attacks of opportunity against this round if they
-provoke attacks of opportunity from you by moving.

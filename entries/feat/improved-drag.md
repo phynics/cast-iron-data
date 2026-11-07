@@ -2,7 +2,7 @@
 id = "ref/feat/improved-drag"
 kind = "feat"
 title = "Improved Drag"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_drag", path = "json/feat09.json" },
 ]
@@ -32,18 +32,6 @@ a +2 bonus to your Combat Maneuver Defense when an opponent tries to drag you.\
 When you are the target of a drag combat maneuver, you can spend a number of stamina points up to
 your Strength or Dexterity bonus, whichever is greater. Your CMD against that drag attempt increases
 by that number.
-
-### Mythic Improved Drag
-
-**Sources:** Mythic Adventures pg 67\
-You pull your enemies around the battlefield with great ease.\
-**Prerequisites:** Improved Drag.\
-**Benefit:** You gain a bonus equal to half your tier on checks to attempt a drag combat maneuver,
-and to your CMD when an opponent attempts a drag combat maneuver against you. These bonuses stack
-with those granted by Improved Drag.
-
-Furthermore, you can make an attack of opportunity against any creature that attempts a drag
-maneuver against you, unless it also has this feat.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat **may** be removed, replaced with the new

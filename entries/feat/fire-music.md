@@ -2,7 +2,7 @@
 id = "ref/feat/fire-music"
 kind = "feat"
 title = "Fire Music"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_music", path = "json/feat07.json" },
 ]
@@ -28,17 +28,3 @@ damage to all of its natural attacks. The creature sheds [dim light](ref/rule/vi
 5-foot radius. This aspect of the feat has no effect if the creature already has the fire subtype.
 
 When you use this feat, the affected spell gains the fire descriptor.
-
-### Mythic Fire Music
-
-**Sources:** Mythic Adventures pg 65\
-You masterfully weave the ancient melodies of fire into your spells.\
-**Prerequisites:** Fire Music.\
-**Benefit:** When you use Fire Music to change any of the damage dealt by a bard spell to fire
-damage, that damage ignores fire resistance up to your tier.
-
-If you cast _[summon monster](ref/spell/summon-monster)_ as a bard spell and choose to give the
-summoned creature a fiery appearance, increase its fire resistance by 5 (adding to the resistance
-already granted by Fire Music) and add 1d4 points of fire damage to all of its natural attacks
-instead of the +1 fire damage normally granted by Fire Music. Creatures with the fire subtype also
-gain these benefits.

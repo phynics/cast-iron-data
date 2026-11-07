@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Rhetorical Flourish/Mythic", path = "mythic_adventures/feat/rhetorical_flourish_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/rhetorical-flourish", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Rhetorical Flourish."
-prerequisite_feats = ["ref/feat/rhetorical-flourish"]
 benefit = "When you successfully use Rhetorical Flourish against a non-mythic creature, the bonus on your Diplomacy check increases by your tier. If the target is a mythic creature, you instead increase the bonus by half your tier. You can expend one use of mythic power to reroll a single failed Bluff check. You must take the new result even if it is lower."
 +++
 

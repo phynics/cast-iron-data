@@ -2,7 +2,7 @@
 id = "ref/feat/rapid-reload"
 kind = "feat"
 title = "Rapid Reload"
-source_ids = ["ultimate-combat", "inner-sea-world-guide", "core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["ultimate-combat", "inner-sea-world-guide", "core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_reload", path = "json/feat13.json" },
 ]
@@ -49,16 +49,6 @@ action becomes a free action. The weapon you are reloading doesn't need to be th
 you took this feat. If the weapon already has a reload time of one free action, when you make a full
 attack with the weapon, you can spend 2 stamina points to gain a +1 bonus on all damage rolls with
 the weapon during that full attack.
-
-### Mythic Rapid Reload
-
-**Sources:** Mythic Adventures pg 72\
-You can reload any type of weapon with astounding speed.\
-**Prerequisites:** Rapid Reload.\
-**Benefit:** You gain the benefits of Rapid Reload with all crossbows and firearms, not just the one
-you originally chose when you gained that feat. As a swift action, you can expend one use of mythic
-power to gain the ability to reload crossbows and firearms without provoking attacks of opportunity
-for 1 minute.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Choose the crossbows or thrown [weapon groups](ref/ability/weapon-groups) listed under the fighter's

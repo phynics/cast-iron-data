@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Shatter Defenses/Mythic", path = "mythic_adventures/feat/shatter_defenses_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/shatter-defenses", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Shatter Defenses."
-prerequisite_feats = ["ref/feat/shatter-defenses"]
 benefit = "An opponent you affect with Shatter Defenses is flat-footed to all attacks, not just yours."
 +++
 

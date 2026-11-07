@@ -2,7 +2,7 @@
 id = "ref/feat/gnome-trickster"
 kind = "feat"
 title = "Gnome Trickster"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome_trickster", path = "json/feat07.json" },
 ]
@@ -20,16 +20,3 @@ Your arcane talents go beyond the illusory.\
 **Benefit:** In addition to your normal gnome [spell-like abilities](ref/umr/spell-like-abilities),
 you also gain the following spell-like abilities: 1/day-[mage hand](ref/spell/mage-hand) and
 [prestidigitation](ref/spell/prestidigitation).
-
-### Mythic Gnome Trickster
-
-**Sources:** Mythic Adventures pg 65\
-Thanks to your mythic power, the magic in your blood has grown more potent and diverse.\
-**Prerequisites:** Gnome Trickster.\
-**Benefit:** You gain the following spell-like abilities: 1/day-[blur](ref/spell/blur) and
-[vanish](ref/spell/vanish).
-
-You can use your gnome [spell-like abilities](ref/umr/spell-like-abilities) an additional number of
-times per day equal to half your tier. You can spend these additional uses to use any of your gnome
-spell-like abilities you wish. Your caster level for your gnome spell-like abilities becomes your
-character level plus your tier.

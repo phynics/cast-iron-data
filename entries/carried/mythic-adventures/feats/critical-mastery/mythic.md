@@ -8,12 +8,15 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Critical Mastery/Mythic", path = "mythic_adventures/feat/critical_mastery_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/critical-mastery", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Critical Focus (mythic), Critical Mastery."
-prerequisite_feats = ["ref/carried/mythic-adventures/feats/critical-focus/mythic", "ref/feat/critical-mastery"]
+prerequisite_feats = ["ref/carried/mythic-adventures/feats/critical-focus/mythic"]
 benefit = "When using Critical Mastery, increase the number of critical feats you may apply by every 3 tiers that you possess."
 +++
 

@@ -2,7 +2,7 @@
 id = "ref/feat/combat-expertise"
 kind = "feat"
 title = "Combat Expertise"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_expertise", path = "json/feat03.json" },
 ]
@@ -33,15 +33,6 @@ You can select this feat even if you don't meet the ability score prerequisite (
 You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina
 pool. If you spend stamina points to raise an attack roll using the Combat Stamina feat's benefits,
 ignore an amount of your Combat Expertise penalty equal to the number of stamina points you spent.
-
-### Mythic Combat Expertise
-
-**Sources:** Mythic Adventures pg 61\
-You can dart out of the way of attacks with skill and defiance.\
-**Prerequisites:** Combat Expertise.\
-**Benefit:** Whenever you use Combat Expertise, you gain an additional +2 dodge bonus to your Armor
-Class. You can expend one use of mythic power to negate the penalties on melee attack rolls and
-combat maneuver checks caused by using Combat Expertise for 1 minute.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat has been removed, replaced with the [Defensive Stance](ref/rule/combat-errata) action.

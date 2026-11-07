@@ -2,7 +2,7 @@
 id = "ref/feat/distance-thrower"
 kind = "feat"
 title = "Distance Thrower"
-source_ids = ["ultimate-combat", "pathfinder-unchained", "mythic-adventures"]
+source_ids = ["ultimate-combat", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distance_thrower", path = "json/feat04.json" },
 ]
@@ -27,10 +27,3 @@ You are accurate with thrown weapons at longer ranges than normal.\
 **Sources:** Pathfinder Unchained pg 118\
 When making an attack with a thrown weapon, you can spend 2 stamina points to reduce your penalty on
 ranged attack rolls due to range by an additional 4.
-
-### Mythic Distance Thrower
-
-**Sources:** Mythic Adventures pg 63\
-There's virtually no limit to your powerful throwing arm.\
-**Prerequisites:** Str 17, Distance Thrower.\
-**Benefit:** Thrown weapons wielded by you have twice their normal range.

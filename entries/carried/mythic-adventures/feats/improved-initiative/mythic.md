@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Improved Initiative/Mythic", path = "mythic_adventures/feat/improved_initiative_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/improved-initiative", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Improved Initiative."
-prerequisite_feats = ["ref/feat/improved-initiative"]
 benefit = "The bonus on initiative checks granted by Improved Initiative increases by an amount equal to your tier. This bonus stacks with the bonus from Improved Initiative. In addition, instead of rolling initiative, you can expend one use of mythic power to treat your roll as a natural 20."
 +++
 

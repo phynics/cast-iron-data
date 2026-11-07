@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Self-sufficient/Mythic", path = "mythic_adventures/feat/self-sufficient_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/self-sufficient", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Self-Sufficient."
-prerequisite_feats = ["ref/feat/self-sufficient"]
 benefit = "The bonus on Heal and Survival skill checks from Self-Sufficient increases by 2. In addition, you can expend one use of mythic power to treat a Heal or Survival check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 +++
 

@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Improved Critical/Mythic", path = "mythic_adventures/feat/improved_critical_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/improved-critical", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Improved Critical, base attack bonus +8."
-prerequisite_feats = ["ref/feat/improved-critical"]
 benefit = "Your critical multiplier with your chosen weapon is increased by 1 (to a maximum of ×6)."
 special = "You can gain this feat multiple times. The effects do not stack. Each time you take this feat, it applies to a different non-mythic Improved Critical feat."
 +++

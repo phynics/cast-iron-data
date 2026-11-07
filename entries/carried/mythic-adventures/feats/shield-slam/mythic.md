@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Shield Slam/Mythic", path = "mythic_adventures/feat/shield_slam_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/shield-slam", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Shield Slam."
-prerequisite_feats = ["ref/feat/shield-slam"]
 benefit = "When using Shield Slam to bull rush, an opponent knocked prone because of an intervening wall or other surface also takes damage from the collision. The damage dealt is equal to 1d6 points per 2 tiers you possess. As an immediate action, you can expend one use of mythic power to add your tier to your combat maneuver checks when resolving a bull rush made due to Shield Slam."
 +++
 

@@ -2,7 +2,7 @@
 id = "ref/feat/two-weapon-fighting"
 kind = "feat"
 title = "Two-Weapon Fighting"
-source_ids = ["core-rulebook", "pathfinder-unchained", "mythic-adventures", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_fighting", path = "json/feat16.json" },
 ]
@@ -36,14 +36,6 @@ weapon is light, the penalties are reduced by 2 each. An unarmed strike is alway
 You can spend any number of stamina points to reduce the penalty from Two-Weapon Fighting on attacks
 made with a weapon in your primary hand by 1 for every 2 stamina points you spent. This benefit
 lasts until the start of your next turn. You can't reduce the penalty below 0.
-
-### Mythic Two-Weapon Fighting
-
-**Sources:** Mythic Adventures pg 76\
-With deft strikes, you gain an advantage over your foes beyond mere damage.\
-**Prerequisites:** Two-Weapon Fighting.\
-**Benefit:** As an immediate action, you can expend one use of mythic power to negate the penalties
-on attack rolls for two-weapon fighting for a number of rounds equal to your tier.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can fight with a weapon wielded in each of your hands. You can make one extra attack each round
