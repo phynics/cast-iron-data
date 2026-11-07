@@ -46,8 +46,6 @@ spiraling maw ringed with thousands of teeth._
 
 **Senses:** True seeing
 
-**source:** Occult Bestiary/56
-
 **Subtype:** Aquatic, Chaotic, Evil
 
 **Experience points:** 819,200

@@ -50,8 +50,6 @@ are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Pathfinder \#78: City of Locusts/88
-
 **Subtype:** Chaotic, Demon, Earth, Evil, Extraplanar
 
 **Experience points:** 6,553,600

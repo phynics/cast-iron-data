@@ -46,8 +46,6 @@ into terrifying jaws._
 
 **Perception:** +20
 
-**source:** Occult Bestiary/12
-
 **Subtype:** Extraplanar
 
 **thoughtsense:** 60

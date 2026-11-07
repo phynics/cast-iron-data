@@ -47,8 +47,6 @@ feet, and a rat-like tail._
 
 **Size:** small
 
-**source:** Bestiary 6/138;Inner Sea Bestiary/16
-
 **Subtype:** Goblinoid
 
 **Experience points:** 200

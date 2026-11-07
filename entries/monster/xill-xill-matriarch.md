@@ -45,8 +45,6 @@ from its head._
 
 **Perception:** +20
 
-**source:** Occult Bestiary/60
-
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 6,400

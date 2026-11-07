@@ -45,8 +45,6 @@ reinforcing its tall, humanoid form._
 
 **Perception:** +0
 
-**source:** Construct Handbook/46
-
 **Experience points:** 6,400
 
 **Armor class:** 23/11/21

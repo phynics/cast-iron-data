@@ -43,8 +43,6 @@ _Shimmering knots whirl and twist around a shining nucleus in this mound of gold
 
 **Senses:** Sense evil
 
-**source:** Pathfinder \#131: The Reaper's Right Hand/90
-
 **Experience points:** 25,600
 
 **Armor class:** 8/8/8

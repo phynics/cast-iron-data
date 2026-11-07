@@ -49,8 +49,6 @@ tentacles._
 
 **Sense:** Sid
 
-**source:** Bestiary 4/52;Pathfinder \#60: From Hell's Heart/80
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 4,800

@@ -42,8 +42,6 @@ abilities = ["10", "10", "10", "-", "11", "4"]
 
 **Perception:** +0
 
-**source:** Pathfinder \#61: Shards of Sin/44
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 400

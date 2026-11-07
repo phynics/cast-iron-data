@@ -41,8 +41,6 @@ tower over other animals._
 
 **Perception:** +8
 
-**source:** Bestiary 4/150
-
 **Experience points:** 800
 
 **Armor class:** 16/10/14

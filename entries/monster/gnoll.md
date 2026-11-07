@@ -44,8 +44,6 @@ human._
 
 **Perception:** +2
 
-**source:** Pathfinder RPG Bestiary/155
-
 **Experience points:** 400
 
 **Armor class:** 15/10/15

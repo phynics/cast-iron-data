@@ -45,8 +45,6 @@ a goat, ending in cloven hooves._
 
 **Perception:** +23
 
-**source:** Irrisen - Land of Eternal Winter/54
-
 **Experience points:** 19,200
 
 **Armor class:** 29/15/24

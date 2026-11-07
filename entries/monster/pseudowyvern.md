@@ -42,8 +42,6 @@ _The sinuous tail of this cat-sized winged, armless dragon is tipped with a scor
 
 **Sense:** Scent
 
-**source:** Legacy of Dragons/27
-
 **Size:** tiny
 
 **Experience points:** 600

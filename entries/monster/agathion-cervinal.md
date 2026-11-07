@@ -48,8 +48,6 @@ lower body of a majestic elk._
 
 **Senses:** Detect scrying
 
-**source:** Bestiary 5/12;Chronicle of the Righteous/58
-
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 102,400

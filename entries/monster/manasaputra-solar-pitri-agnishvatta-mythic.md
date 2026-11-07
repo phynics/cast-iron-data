@@ -50,8 +50,6 @@ _This massive, red-skinned creature surges with roiling waves of brilliant fire.
 
 **Senses:** True seeing
 
-**source:** Bestiary 5/166
-
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra, Mythic
 
 **Experience points:** 614,400

@@ -46,8 +46,6 @@ of twigs._
 
 **Perception:** +19
 
-**source:** Bestiary 4/180
-
 **Subtype:** Mythic
 
 **Experience points:** 6,400

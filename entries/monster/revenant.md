@@ -43,8 +43,6 @@ intent._
 
 **Senses:** Sense murderer
 
-**source:** Bestiary 2/235;Pathfinder \#2: The Skinsaw Murders/90
-
 **Type:** undead
 
 **Experience points:** 2,400

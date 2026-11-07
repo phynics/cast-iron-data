@@ -46,8 +46,6 @@ _This hairy humanoid has orange-brown hair, a broad chest, and muscular arms._
 
 **Size:** small
 
-**source:** Bestiary 5/186
-
 **Subtype:** Sasquatch
 
 **Experience points:** 200

@@ -48,8 +48,6 @@ her clothing and staff._
 
 **Senses:** Spiritsense
 
-**source:** Bestiary 4/219;Pathfinder \#48: Shadows of Gallowspire/86
-
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 25,600

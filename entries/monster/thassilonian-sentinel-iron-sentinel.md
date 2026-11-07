@@ -47,8 +47,6 @@ _An ape-like head with demonic features cast in black iron sits on six segmented
 
 **Size:** small
 
-**source:** Pathfinder \#134: It Came from Hollow Mountain/90
-
 **Experience points:** 1,600
 
 **Armor class:** 19/15/15

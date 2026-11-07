@@ -45,8 +45,6 @@ sports six frightening tusks._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/144;Pathfinder \#42: Sanctum of the Serpent God/84
-
 **Experience points:** 76,800
 
 **Armor class:** 31/11/26

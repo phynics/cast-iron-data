@@ -44,8 +44,6 @@ countenance._
 
 **Senses:** Harmony with the land
 
-**source:** Pathfinder \#136: Temple of the Peacock Spirit/86
-
 **Experience points:** 51,200
 
 **Armor class:** 30/12/26

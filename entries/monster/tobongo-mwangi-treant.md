@@ -44,8 +44,6 @@ into arms ending in massive claws._
 
 **Type:** plant
 
-**source:** Heart of the Jungle/61
-
 **Experience points:** 19,200
 
 **Armor class:** 27/5/27

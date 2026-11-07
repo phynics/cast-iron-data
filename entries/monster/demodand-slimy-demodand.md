@@ -48,8 +48,6 @@ covered in a viscous slime._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
-**source:** Bestiary 3/70
-
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 76,800

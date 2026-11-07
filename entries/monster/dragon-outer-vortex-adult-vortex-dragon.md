@@ -45,8 +45,6 @@ abilities = ["27", "12", "21", "20", "19", "20"]
 
 **Sense:** Sid
 
-**source:** Bestiary 4/74
-
 **Subtype:** Fire
 
 **Experience points:** 38,400

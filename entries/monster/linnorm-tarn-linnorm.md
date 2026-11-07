@@ -52,8 +52,6 @@ seethe with acid and poison._
 
 **Senses:** True seeing
 
-**source:** Pathfinder RPG Bestiary/192
-
 **Subtype:** Aquatic
 
 **Experience points:** 307,200

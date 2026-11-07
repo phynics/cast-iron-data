@@ -48,8 +48,6 @@ pulsating mound of fungus._
 
 **Senses:** Detect good
 
-**source:** Bestiary 6/130;Inner Sea Bestiary/12
-
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

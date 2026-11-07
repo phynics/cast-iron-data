@@ -41,8 +41,6 @@ feet._
 
 **Type:** plant
 
-**source:** Ultimate Wilderness/202;Familiar Folio/31
-
 **Experience points:** 65
 
 **Armor class:** 15/13/15

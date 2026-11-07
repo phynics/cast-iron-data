@@ -43,8 +43,6 @@ neck._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/192
-
 **Experience points:** 4,800
 
 **Armor class:** 22/8/22

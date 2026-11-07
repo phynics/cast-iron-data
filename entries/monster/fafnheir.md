@@ -48,8 +48,6 @@ nightmarish power, and its mouth drips with liquid flame._
 
 **Senses:** True seeing
 
-**source:** Lands of the Linnorm Kings/56
-
 **Experience points:** 1,228,800
 
 **Armor class:** 42/12/32

@@ -45,8 +45,6 @@ fish-like maw._
 
 **Perception:** +7
 
-**source:** Bestiary 5/68
-
 **Subtype:** Aquatic, Deep one
 
 **Experience points:** 400

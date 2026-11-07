@@ -43,8 +43,6 @@ jagged teeth and a slavering tongue._
 
 **Size:** small
 
-**source:** Bestiary 4/100;Pathfinder \#61: Shards of Sin/82
-
 **Experience points:** 400
 
 **Armor class:** 14/12/13

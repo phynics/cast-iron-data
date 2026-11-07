@@ -50,8 +50,6 @@ flukes._
 
 **Senses:** True seeing
 
-**source:** Bestiary 3/183
-
 **Subtype:** Aquatic
 
 **Experience points:** 76,800

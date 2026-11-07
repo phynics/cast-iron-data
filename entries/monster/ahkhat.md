@@ -44,8 +44,6 @@ humanoid with thick stony arms._
 
 **Size:** small
 
-**source:** Bestiary 5/14;Pathfinder \#79: The Half-Dead City/80
-
 **Subtype:** Earth, Elemental, Native
 
 **tremorsense:** 30

@@ -44,8 +44,6 @@ of a tiger with a viper as a tail._
 
 **Perception:** +10
 
-**source:** Bestiary 3/204
-
 **Experience points:** 9,600
 
 **Armor class:** 24/15/18

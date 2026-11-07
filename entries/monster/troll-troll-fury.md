@@ -47,8 +47,6 @@ abilities = ["23", "14", "27", "8", "16", "4"]
 
 **Sense:** Scent
 
-**source:** Monster Codex/229
-
 **Subtype:** Giant
 
 **Experience points:** 4,800

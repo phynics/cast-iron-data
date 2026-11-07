@@ -39,8 +39,6 @@ _This sleek, furred creature has flaps of skin stretching between its limbs and 
 
 **Perception:** +5
 
-**source:** Pathfinder \#85: Fires of Creation/82
-
 **Size:** tiny
 
 **Experience points:** 135

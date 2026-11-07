@@ -49,8 +49,6 @@ great eagle wings._
 
 **Senses:** Detect magic, See invisibility
 
-**source:** Mythic Adventures/217
-
 **Subtype:** Mythic
 
 **Experience points:** 9,600

@@ -48,8 +48,6 @@ visible, is gray and warty._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/133
-
 **Subtype:** Giant
 
 **Experience points:** 153,600

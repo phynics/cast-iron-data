@@ -44,8 +44,6 @@ smile full of fangs._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 3/209
-
 **Subtype:** Native, Oni
 
 **Size:** tiny

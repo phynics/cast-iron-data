@@ -49,8 +49,6 @@ blood._
 
 **Senses:** Carrion sense
 
-**source:** Pathfinder \#139: The Dead Road/86
-
 **Subtype:** Elf, Mortic
 
 **Experience points:** 600

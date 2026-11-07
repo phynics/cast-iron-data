@@ -42,8 +42,6 @@ with needle-sharp teeth._
 
 **Perception:** +11
 
-**source:** Seers of the Drowned City/58
-
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

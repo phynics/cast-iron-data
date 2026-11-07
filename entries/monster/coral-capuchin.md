@@ -44,8 +44,6 @@ fish and large, fin-like wings._
 
 **Perception:** +1
 
-**source:** Bestiary 6/66;Pathfinder \#58: Island of Empty Eyes/82
-
 **Subtype:** Aquatic
 
 **Size:** tiny

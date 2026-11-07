@@ -50,8 +50,6 @@ hammer-headed polearm with a wicked spike on its reverse side._
 
 **Senses:** Detect evil
 
-**source:** Pathfinder \#107: Scourge of the Godclaw/82
-
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 153,600

@@ -44,8 +44,6 @@ hunger._
 
 **Size:** small
 
-**source:** Pathfinder \#115: Trail of the Hunted/83
-
 **Experience points:** 200
 
 **Armor class:** 14/13/12

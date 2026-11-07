@@ -47,8 +47,6 @@ _The stinger and antennae of this dog-sized wasp pulsate with a dim, violet ligh
 
 **Size:** small
 
-**source:** Down the Blighted Path/55
-
 **Experience points:** 2,400
 
 **Armor class:** 23/17/17

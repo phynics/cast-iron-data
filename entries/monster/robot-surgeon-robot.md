@@ -50,8 +50,6 @@ from its body._
 
 **Senses:** Superior optics
 
-**source:** Pathfinder \#89: Palace of Fallen Stars/90
-
 **Subtype:** Robot
 
 **Experience points:** 38,400

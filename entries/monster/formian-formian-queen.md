@@ -47,8 +47,6 @@ brood._
 
 **Senses:** Hive mind
 
-**source:** Bestiary 4/110
-
 **tremorsense:** 60
 
 **Experience points:** 102,400

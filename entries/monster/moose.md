@@ -43,8 +43,6 @@ ungulate._
 
 **Sense:** Scent
 
-**source:** Animal Archive/28
-
 **Experience points:** 800
 
 **Armor class:** 14/11/12

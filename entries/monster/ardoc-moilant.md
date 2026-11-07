@@ -45,8 +45,6 @@ head, and iron pincers at the ends of its powerful arms snap open and shut._
 
 **Perception:** +17
 
-**source:** Pathfinder \#135: Runeplague/84
-
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

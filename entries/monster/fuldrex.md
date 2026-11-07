@@ -45,8 +45,6 @@ malevolently from beneath layers of dripping, fungal hair._
 
 **Size:** small
 
-**source:** Pathfinder \#119: Prisoners of the Blight/84
-
 **Experience points:** 12,800
 
 **Armor class:** 27/12/26

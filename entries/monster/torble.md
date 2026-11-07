@@ -44,8 +44,6 @@ surprisingly swift scuttle._
 
 **Perception:** +2
 
-**source:** Pathfinder \#25: The Bastards of Erebus/84
-
 **Type:** vermin
 
 **Experience points:** 50

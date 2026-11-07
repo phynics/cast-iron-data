@@ -46,8 +46,6 @@ limbs._
 
 **Perception:** +0
 
-**source:** Bestiary 3/55
-
 **Subtype:** Clockwork
 
 **Experience points:** 19,200

@@ -45,8 +45,6 @@ strange light._
 
 **Perception:** +11
 
-**source:** Pathfinder RPG Bestiary/141
-
 **Subtype:** Native
 
 **Experience points:** 1,200

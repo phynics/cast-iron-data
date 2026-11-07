@@ -43,8 +43,6 @@ _This massive lizard has pale, spotted flesh and spines around its face that for
 
 **Perception:** +10
 
-**source:** Bestiary 5/175
-
 **Experience points:** 600
 
 **Armor class:** 15/11/13

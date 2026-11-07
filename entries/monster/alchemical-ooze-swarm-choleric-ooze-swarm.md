@@ -38,8 +38,6 @@ abilities = ["16", "1", "19", "-", "1", "1"]
 
 **Perception:** -5
 
-**source:** Pathfinder \#43: Haunting of Harrowstone/79
-
 **Subtype:** Swarm
 
 **Size:** tiny

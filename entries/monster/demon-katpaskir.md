@@ -49,8 +49,6 @@ membranous dragonfly wings._
 
 **Senses:** See invisibility
 
-**source:** Pathfinder \#78: City of Locusts/86
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 153,600

@@ -47,8 +47,6 @@ as it lumbers forth._
 
 **Perception:** +0
 
-**source:** Bestiary 3/54
-
 **Subtype:** Clockwork
 
 **Experience points:** 204,800

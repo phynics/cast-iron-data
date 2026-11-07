@@ -43,8 +43,6 @@ plates._
 
 **Perception:** +15
 
-**source:** Bestiary 6/129;Pathfinder \#56: Raiders of the Fever Sea/83
-
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

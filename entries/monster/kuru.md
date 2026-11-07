@@ -47,8 +47,6 @@ been filed down to points._
 
 **Perception:** +6
 
-**source:** Isles of the Shackles/51
-
 **Experience points:** 200
 
 **Armor class:** 12/8/12

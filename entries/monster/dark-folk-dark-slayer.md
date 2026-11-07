@@ -46,8 +46,6 @@ hands are visible._
 
 **Size:** small
 
-**source:** Bestiary 2/75
-
 **Subtype:** Dark folk
 
 **Experience points:** 800

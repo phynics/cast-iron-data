@@ -53,8 +53,6 @@ fangs._
 
 **Senses:** True seeing
 
-**source:** Pathfinder \#109: In Search of Sanity/82
-
 **Subtype:** Air, Chaotic, Cold, Evil, Great Old One
 
 **Experience points:** 4,915,200

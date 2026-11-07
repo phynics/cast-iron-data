@@ -47,8 +47,6 @@ _This immense, muscular giant wears heavy scale mail and wields a club adorned w
 
 **Perception:** +6
 
-**source:** Mythic Adventures/212
-
 **Subtype:** Giant, Mythic
 
 **Experience points:** 1,200

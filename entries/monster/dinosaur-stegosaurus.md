@@ -43,8 +43,6 @@ terminating in a set of bony spikes._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/85
-
 **Experience points:** 3,200
 
 **Armor class:** 22/10/20

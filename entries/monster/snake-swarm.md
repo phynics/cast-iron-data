@@ -41,8 +41,6 @@ _Hissing menacingly, this mass of snakes resembles a pile of slithering tentacle
 
 **Sense:** Scent
 
-**source:** Bestiary 3/249;Pathfinder \#39: The City of Seven Spears/82
-
 **Subtype:** Swarm
 
 **Size:** tiny

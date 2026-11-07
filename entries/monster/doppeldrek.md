@@ -42,8 +42,6 @@ _The half-formed shape a snarling dog rises out of this pile of grayish foam._
 
 **Perception:** +2
 
-**source:** Bestiary 5/85
-
 **Subtype:** Shapechanger
 
 **Experience points:** 1,600

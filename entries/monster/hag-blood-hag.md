@@ -46,8 +46,6 @@ skin._
 
 **Senses:** Detect good, Detect magic
 
-**source:** Bestiary 4/19
-
 **Subtype:** Shapechanger
 
 **Experience points:** 4,800

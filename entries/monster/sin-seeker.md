@@ -45,8 +45,6 @@ features of a pig. Its porcine face is eyeless and its nose never stops sniffing
 
 **Sense:** Scent
 
-**source:** Pathfinder \#73: The Worldwound Incursion/88
-
 **Size:** tiny
 
 **Experience points:** 600

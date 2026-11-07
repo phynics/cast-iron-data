@@ -41,8 +41,6 @@ smaller horn-like ridges._
 
 **Perception:** +20
 
-**source:** Bestiary 5/171
-
 **Experience points:** 3,200
 
 **Armor class:** 20/9/20

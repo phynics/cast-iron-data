@@ -43,8 +43,6 @@ insect._
 
 **Perception:** +0
 
-**source:** Pathfinder \#49: The Brinewall Legacy/82
-
 **tremorsense:** 60
 
 **Type:** vermin

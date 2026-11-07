@@ -43,8 +43,6 @@ _A long tail fitted with a barbed stinger trails from this flat, triangular fish
 
 **Perception:** +8
 
-**source:** Bestiary 2/232
-
 **Subtype:** Aquatic
 
 **Experience points:** 200

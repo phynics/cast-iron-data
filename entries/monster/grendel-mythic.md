@@ -48,8 +48,6 @@ with blood._
 
 **Perception:** +15
 
-**source:** Bestiary 4/145
-
 **Subtype:** Mythic
 
 **Experience points:** 204,800

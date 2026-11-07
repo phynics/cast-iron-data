@@ -45,8 +45,6 @@ cruel gaze._
 
 **Perception:** +6
 
-**source:** Monster Codex/100
-
 **Experience points:** 800
 
 **Armor class:** 17/12/15

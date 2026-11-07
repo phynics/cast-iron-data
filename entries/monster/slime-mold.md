@@ -40,8 +40,6 @@ with a reek of decay._
 
 **Perception:** -5
 
-**source:** Bestiary 2/249
-
 **Experience points:** 600
 
 **Armor class:** 8/8/8

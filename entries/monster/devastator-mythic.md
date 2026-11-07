@@ -51,8 +51,6 @@ _Each of this mechanical horror's four monstrous limbs ends in a terrible weapon
 
 **Senses:** Mythic sight (2) 30 ft.
 
-**source:** Bestiary 5/77;Pathfinder \#78: City of Locusts/90
-
 **Subtype:** Extraplanar, Mythic
 
 **Experience points:** 614,400

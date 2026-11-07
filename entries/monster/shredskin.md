@@ -43,8 +43,6 @@ lower half is in tatters._
 
 **Size:** small
 
-**source:** Bestiary 4/243
-
 **Type:** undead
 
 **Experience points:** 600

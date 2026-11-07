@@ -42,8 +42,6 @@ _The tail of this shimmering, salamander-like creature is composed entirely of w
 
 **Perception:** +7
 
-**source:** Ire of the Storm/63
-
 **Subtype:** Air, Elemental, Native, Water
 
 **Size:** tiny

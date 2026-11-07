@@ -39,8 +39,6 @@ off a nauseating stench._
 
 **Perception:** +6
 
-**source:** Bestiary 2/110
-
 **Subtype:** Water
 
 **Type:** undead

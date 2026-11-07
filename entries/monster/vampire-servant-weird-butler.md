@@ -43,8 +43,6 @@ abilities = ["6", "16", "12", "13", "10", "18"]
 
 **Size:** small
 
-**source:** Monster Codex/238
-
 **Subtype:** Halfling
 
 **Experience points:** 1,200

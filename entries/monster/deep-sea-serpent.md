@@ -45,8 +45,6 @@ jagged teeth._
 
 **Perception:** +23
 
-**source:** Bestiary 3/240
-
 **Subtype:** Aquatic
 
 **Experience points:** 204,800

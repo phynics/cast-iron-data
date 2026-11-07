@@ -47,8 +47,6 @@ face._
 
 **Sense:** Scent
 
-**source:** The Worldwound/46
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 12,800

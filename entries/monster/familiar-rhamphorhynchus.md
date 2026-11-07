@@ -42,8 +42,6 @@ filled with needle-like teeth, and a long tail ending in a diamond-shaped vane._
 
 **Sense:** Scent
 
-**source:** Ultimate Wilderness/204;Pathfinder \#37: Souls for Smuggler's Shiv/82
-
 **Size:** tiny
 
 **Experience points:** 135

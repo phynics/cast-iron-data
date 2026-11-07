@@ -45,8 +45,6 @@ pearlescent breastplate and wields a shimmering longspear._
 
 **Perception:** +26
 
-**source:** Pathfinder \#107: Scourge of the Godclaw/90
-
 **Experience points:** 38,400
 
 **Armor class:** 26/18/23

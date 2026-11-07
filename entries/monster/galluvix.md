@@ -42,8 +42,6 @@ of a fox from the neck up._
 
 **Perception:** +5
 
-**source:** Pathfinder \#128: Songbird, Scion, Saboteur/84
-
 **Size:** tiny
 
 **Experience points:** 600

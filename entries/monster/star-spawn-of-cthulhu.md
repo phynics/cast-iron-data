@@ -47,8 +47,6 @@ writhing mass of tentacles._
 
 **Perception:** +37
 
-**source:** Bestiary 4/254;Pathfinder \#46: Wake of the Watcher/90
-
 **Experience points:** 307,200
 
 **Armor class:** 36/9/35

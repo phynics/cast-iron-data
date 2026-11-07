@@ -48,8 +48,6 @@ feet._
 
 **Perception:** +19
 
-**source:** Bestiary 2/19
-
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 19,200

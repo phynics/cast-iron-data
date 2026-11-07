@@ -49,8 +49,6 @@ a crown of horns._
 
 **Perception:** +48
 
-**source:** Bestiary 2/18
-
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 307,200

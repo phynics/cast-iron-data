@@ -40,8 +40,6 @@ razor-sharp edges and claws._
 
 **Perception:** +6
 
-**source:** Pathfinder RPG Bestiary/200
-
 **Type:** vermin
 
 **Experience points:** 800

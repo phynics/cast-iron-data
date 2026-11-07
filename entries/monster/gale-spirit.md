@@ -45,8 +45,6 @@ scowl._
 
 **Size:** small
 
-**source:** Pathfinder \#104: Wrath of Thrune/86
-
 **Subtype:** Incorporeal
 
 **Type:** undead

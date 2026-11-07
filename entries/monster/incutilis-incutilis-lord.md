@@ -44,8 +44,6 @@ _A curved shell protects an unsightly mass of barbed tentacles, ringed by numero
 
 **Perception:** +20
 
-**source:** Plunder and Peril/60
-
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

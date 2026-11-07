@@ -44,8 +44,6 @@ sprouting from its scalp._
 
 **Perception:** +24
 
-**source:** Bestiary 4/184;Pathfinder \#60: From Hell's Heart/86
-
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

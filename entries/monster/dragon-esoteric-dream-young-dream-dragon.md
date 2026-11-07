@@ -42,8 +42,6 @@ _Clouds trail from the edges of this graceful, nearly fanciful creature in hypno
 
 **Senses:** Dragon senses, Dreamsight
 
-**source:** Bestiary 5/90
-
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

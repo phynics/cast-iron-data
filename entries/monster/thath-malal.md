@@ -46,8 +46,6 @@ its open, lily-shaped maw._
 
 **Senses:** Trace teleport 60 ft.
 
-**source:** Darklands Revisited/45
-
 **Experience points:** 25,600
 
 **Armor class:** 28/8/28

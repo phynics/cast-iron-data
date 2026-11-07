@@ -45,8 +45,6 @@ protuberances jut from its body._
 
 **Perception:** +0
 
-**source:** Bestiary 6/141
-
 **Experience points:** 19,200
 
 **Armor class:** 27/9/27

@@ -43,8 +43,6 @@ abilities = ["32", "7", "25", "20", "24", "23"]
 
 **Senses:** Dragon senses, Mist vision
 
-**source:** Bestiary 2/97
-
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 153,600

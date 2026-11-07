@@ -46,8 +46,6 @@ periodically from within._
 
 **Senses:** Detect evil
 
-**source:** Bestiary 3/18
-
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Size:** tiny

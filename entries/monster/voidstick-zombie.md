@@ -44,8 +44,6 @@ aura of entropy and despair hangs over the sorry, perforated creature._
 
 **Perception:** +10
 
-**source:** Pathfinder \#57: Tempest Rising/90
-
 **Type:** undead
 
 **Experience points:** 19,200

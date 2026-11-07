@@ -45,8 +45,6 @@ proboscis._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/260
-
 **Size:** tiny
 
 **Experience points:** 200

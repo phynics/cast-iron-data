@@ -43,8 +43,6 @@ _This giant's skin is black and pitted, like roughly cast iron, and etched with 
 
 **Perception:** +29
 
-**source:** Bestiary 2/130;Pathfinder \#6: Spires of Xin-Shalast/86
-
 **Subtype:** Giant
 
 **Experience points:** 102,400

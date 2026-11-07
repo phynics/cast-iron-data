@@ -48,8 +48,6 @@ in its taloned feet._
 
 **Sense:** Scent
 
-**source:** Rise of the Runelords Anniversary Edition/411;Pathfinder \#6: Spires of Xin-Shalast/80
-
 **Experience points:** 4,800
 
 **Armor class:** 22/16/16

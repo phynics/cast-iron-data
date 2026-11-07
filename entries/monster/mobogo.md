@@ -46,8 +46,6 @@ bulbous eyes._
 
 **Perception:** +19
 
-**source:** Bestiary 3/194;Pathfinder \#12: Crown of Fangs/88
-
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

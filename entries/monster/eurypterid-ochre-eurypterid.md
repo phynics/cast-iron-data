@@ -41,8 +41,6 @@ long, thin stinger rises from behind._
 
 **Size:** small
 
-**source:** Pathfinder \#37: Souls for Smuggler's Shiv/78
-
 **Subtype:** Aquatic
 
 **tremorsense:** 30

@@ -49,8 +49,6 @@ eyeless face._
 
 **Senses:** Arcane sight, Detect good
 
-**source:** Pathfinder \#142: Gardens of Gallowspire/84
-
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 25,600

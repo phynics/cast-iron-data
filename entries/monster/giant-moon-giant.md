@@ -48,8 +48,6 @@ craters on its rock-like surface._
 
 **Senses:** True seeing
 
-**source:** Bestiary 5/122
-
 **Subtype:** Giant
 
 **Experience points:** 51,200

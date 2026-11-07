@@ -47,8 +47,6 @@ its large eyes glow with inner light._
 
 **Sense:** Scent
 
-**source:** Monster Codex/232
-
 **Subtype:** Giant
 
 **Experience points:** 600

@@ -47,8 +47,6 @@ eyes twinkle with madness._
 
 **Size:** small
 
-**source:** Inner Sea Monster Codex/24
-
 **Subtype:** Derro
 
 **Experience points:** 1,600

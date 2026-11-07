@@ -44,8 +44,6 @@ _This small dragon, which appears to be composed of coils of rope, bristles with
 
 **Size:** small
 
-**source:** Bestiary 5/211
-
 **Subtype:** Shapechanger
 
 **Experience points:** 1,600

@@ -44,8 +44,6 @@ with dark brown eyes._
 
 **Size:** small
 
-**source:** Osirion, Legacy of the Pharaohs/54
-
 **Experience points:** 200
 
 **Armor class:** 14/13/12

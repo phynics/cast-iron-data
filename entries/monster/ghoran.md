@@ -45,8 +45,6 @@ brilliant flower petals._
 
 **Type:** plant
 
-**source:** Bestiary 5/119;Inner Sea Bestiary/14
-
 **Experience points:** 400
 
 **Armor class:** 13/11/12

@@ -49,8 +49,6 @@ eyes that glow with ancient, forbidden power._
 
 **Perception:** +32
 
-**source:** Occult Bestiary/62
-
 **Experience points:** 25,600
 
 **Armor class:** 27/12/24

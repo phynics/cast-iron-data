@@ -46,8 +46,6 @@ shimmers with heat._
 
 **Perception:** +15
 
-**source:** Pathfinder \#79: The Half-Dead City/86
-
 **Subtype:** Fire
 
 **Size:** tiny

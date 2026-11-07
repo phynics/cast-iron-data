@@ -51,8 +51,6 @@ glinting metallic ore._
 
 **Perception:** +21
 
-**source:** Pathfinder \#93: Forge of the Giant God/86
-
 **Subtype:** Evil, Giant, Lawful
 
 **Experience points:** 51,200

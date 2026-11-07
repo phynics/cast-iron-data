@@ -42,8 +42,6 @@ strips of bloody linen._
 
 **Perception:** +19
 
-**source:** Bestiary 4/125;Isles of the Shackles/49
-
 **Type:** undead
 
 **Experience points:** 9,600

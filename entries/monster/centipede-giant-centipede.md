@@ -40,8 +40,6 @@ prey._
 
 **Perception:** +4
 
-**source:** Pathfinder RPG Bestiary/43
-
 **Type:** vermin
 
 **Experience points:** 200

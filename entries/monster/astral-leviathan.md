@@ -49,8 +49,6 @@ peer out in different directions._
 
 **Senses:** Astral locating
 
-**source:** Bestiary 4/14
-
 **Subtype:** Extraplanar
 
 **Experience points:** 153,600

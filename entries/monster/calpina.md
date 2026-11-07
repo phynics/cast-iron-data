@@ -42,8 +42,6 @@ resembles a proboscis._
 
 **Size:** small
 
-**source:** Bestiary 6/53;Pathfinder \#95: Anvil of Fire/82
-
 **Experience points:** 800
 
 **Armor class:** 16/14/13

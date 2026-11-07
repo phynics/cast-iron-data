@@ -47,8 +47,6 @@ _This beautiful woman has flesh made of lava. She soars through the sky on a tra
 
 **Perception:** +26
 
-**source:** Bestiary 2/37
-
 **Subtype:** Azata, Chaotic, Earth, Extraplanar, Fire, Good
 
 **tremorsense:** 60

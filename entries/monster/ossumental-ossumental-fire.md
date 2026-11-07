@@ -40,8 +40,6 @@ abilities = ["30", "17", "-", "9", "14", "21"]
 
 **Senses:** Firesight
 
-**source:** Pathfinder \#83: The Slave Trenches of Hakotep/88
-
 **Subtype:** Fire
 
 **Type:** undead

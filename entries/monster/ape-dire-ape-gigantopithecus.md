@@ -43,8 +43,6 @@ ending in wickedly curved claws._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/17
-
 **Experience points:** 800
 
 **Armor class:** 15/11/13

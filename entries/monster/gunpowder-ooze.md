@@ -41,8 +41,6 @@ shudders with concussive energy._
 
 **Perception:** -5
 
-**source:** Bestiary 5/139;Wardens of the Reborn Forge/63
-
 **Experience points:** 38,400
 
 **Armor class:** 9/9/9

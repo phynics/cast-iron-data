@@ -42,8 +42,6 @@ off the ground._
 
 **Perception:** +16
 
-**source:** Bestiary 2/284;Pathfinder \#5: Sins of the Saviors/84
-
 **Subtype:** Incorporeal
 
 **Type:** undead

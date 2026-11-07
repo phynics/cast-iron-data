@@ -44,8 +44,6 @@ _This muscular, fiery-skinned man has flaming hair and spotted horns upon his br
 
 **Perception:** -2
 
-**source:** Bestiary 2/160
-
 **Subtype:** Native
 
 **Experience points:** 200

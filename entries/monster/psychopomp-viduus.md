@@ -47,8 +47,6 @@ _This dour being has a mostly humanoid form with its lower body wrapped in a coc
 
 **Senses:** Spiritsense
 
-**source:** Bestiary 6/223;Inner Sea Bestiary/41
-
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 1,200

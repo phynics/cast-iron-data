@@ -44,8 +44,6 @@ with three-fingered hands._
 
 **Senses:** Sin-scent
 
-**source:** Bestiary 2/246;Pathfinder \#1: Burnt Offerings/90
-
 **Experience points:** 600
 
 **Armor class:** 14/12/12

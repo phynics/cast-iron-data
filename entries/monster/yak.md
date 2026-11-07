@@ -44,8 +44,6 @@ frequently used as pack animals and to pull plows._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/174
-
 **Experience points:** 1,200
 
 **Armor class:** 17/9/17

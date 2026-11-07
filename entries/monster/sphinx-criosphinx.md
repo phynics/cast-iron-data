@@ -44,8 +44,6 @@ eyes._
 
 **Perception:** +10
 
-**source:** Bestiary 3/252
-
 **Experience points:** 3,200
 
 **Armor class:** 20/9/20

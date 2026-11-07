@@ -45,8 +45,6 @@ writhing tentacles._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#114: Black Stars Beckon/88
-
 **Experience points:** 51,200
 
 **Armor class:** 32/17/24

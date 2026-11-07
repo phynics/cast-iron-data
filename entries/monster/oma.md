@@ -44,8 +44,6 @@ down its body._
 
 **Perception:** +24
 
-**source:** Bestiary 4/209;Distant Worlds/62
-
 **Experience points:** 76,800
 
 **Armor class:** 30/0/30

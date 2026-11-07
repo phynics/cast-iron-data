@@ -46,8 +46,6 @@ different color._
 
 **Perception:** +2
 
-**source:** Bestiary 4/29;Pathfinder \#43: Haunting of Harrowstone/84
-
 **Subtype:** Changeling
 
 **Experience points:** 200

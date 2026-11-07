@@ -42,8 +42,6 @@ _With each graceful step, this leopard's steely muscles ripple beneath its spott
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/40
-
 **Experience points:** 600
 
 **Armor class:** 15/14/11

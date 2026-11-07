@@ -43,8 +43,6 @@ powerful tail lashing behind._
 
 **Perception:** +8
 
-**source:** Pathfinder RPG Bestiary/51
-
 **Experience points:** 600
 
 **Armor class:** 14/10/13

@@ -43,8 +43,6 @@ _This burly humanoid figure is cut from blue crystal that shines with an inner l
 
 **Perception:** +3
 
-**source:** Bestiary 5/126
-
 **thoughtsense:** 60
 
 **Experience points:** 12,800

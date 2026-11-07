@@ -50,8 +50,6 @@ dart from the creature's mouth._
 
 **Senses:** True seeing
 
-**source:** Inner Sea Bestiary/62
-
 **Subtype:** Daemon, Evil, Extraplanar, Fire
 
 **Experience points:** 409,600

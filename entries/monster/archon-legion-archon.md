@@ -51,8 +51,6 @@ to grow from its armor._
 
 **Senses:** Detect evil
 
-**source:** Bestiary 3/19
-
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 3,200

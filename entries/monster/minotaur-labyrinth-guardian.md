@@ -48,8 +48,6 @@ enormous blade._
 
 **Perception:** +20
 
-**source:** Inner Sea Monster Codex/43
-
 **Type:** undead
 
 **Experience points:** 4,800

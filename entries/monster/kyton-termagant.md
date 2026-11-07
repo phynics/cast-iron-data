@@ -43,8 +43,6 @@ tentacles._
 
 **Perception:** +27
 
-**source:** Inner Sea Bestiary/24
-
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 102,400

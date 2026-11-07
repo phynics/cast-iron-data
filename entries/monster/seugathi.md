@@ -47,8 +47,6 @@ its twin tentacle tails._
 
 **Senses:** Detect thoughts
 
-**source:** Bestiary 2/243;Into the Darklands/58
-
 **tremorsense:** 30
 
 **Experience points:** 2,400

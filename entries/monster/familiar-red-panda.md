@@ -38,8 +38,6 @@ abilities = ["8", "16", "11", "2", "13", "5"]
 
 **Sense:** Scent
 
-**source:** Bestiary 5/112
-
 **Size:** tiny
 
 **Experience points:** 200

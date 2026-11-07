@@ -47,8 +47,6 @@ sprout from its back._
 
 **Senses:** See invisibility
 
-**source:** Book of the Damned/246
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 51,200

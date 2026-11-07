@@ -44,8 +44,6 @@ and its gaze conveys a furious misery._
 
 **Perception:** +24
 
-**source:** Pathfinder \#135: Runeplague/90
-
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 19,200

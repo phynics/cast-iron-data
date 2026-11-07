@@ -45,8 +45,6 @@ shimmer._
 
 **Size:** small
 
-**source:** Bestiary 3/189
-
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 800

@@ -51,8 +51,6 @@ _Blue-gray wings extend over the jeweled bangles and gossamer veils of this andr
 
 **Senses:** Detect evil, True seeing
 
-**source:** Bestiary 6/110
-
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 6,553,600

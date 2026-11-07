@@ -44,8 +44,6 @@ its upper jaw._
 
 **Perception:** +0
 
-**source:** Bestiary 2/251;Crown of the Kobold King/33
-
 **Experience points:** 600
 
 **Armor class:** 15/12/13

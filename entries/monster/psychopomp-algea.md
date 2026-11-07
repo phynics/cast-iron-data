@@ -52,8 +52,6 @@ of pale blue mist._
 
 **Senses:** Greater arcane sight
 
-**source:** Bestiary 6/217
-
 **Subtype:** Extraplanar, Psychopomp, Swarm
 
 **Experience points:** 12,800

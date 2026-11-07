@@ -46,8 +46,6 @@ a saddle between its wings._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/98;Distant Worlds/61
-
 **Experience points:** 6,400
 
 **Armor class:** 23/11/21

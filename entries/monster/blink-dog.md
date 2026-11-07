@@ -45,8 +45,6 @@ to dance upon its fur._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/47
-
 **Experience points:** 600
 
 **Armor class:** 14/12/12

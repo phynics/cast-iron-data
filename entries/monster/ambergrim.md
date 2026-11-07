@@ -44,8 +44,6 @@ detritus of the forest churning within._
 
 **Perception:** -5
 
-**source:** Pathfinder \#116: Fangs of War/80
-
 **Experience points:** 2,400
 
 **Armor class:** 5/5/5

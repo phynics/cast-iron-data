@@ -46,8 +46,6 @@ razor-like fins._
 
 **Perception:** +21
 
-**source:** Pathfinder \#60: From Hell's Heart/78
-
 **Subtype:** Aquatic
 
 **Experience points:** 51,200

@@ -47,8 +47,6 @@ _This multi-eyed eel's brightly colored markings shift in complex, ever-changing
 
 **Senses:** Arcane sight
 
-**source:** Bestiary 4/7
-
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

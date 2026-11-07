@@ -44,8 +44,6 @@ air around it._
 
 **Size:** small
 
-**source:** Pathfinder \#85: Fires of Creation/82
-
 **Experience points:** 600
 
 **Armor class:** 14/12/13

@@ -45,8 +45,6 @@ visage._
 
 **Senses:** Scent sickness
 
-**source:** Bestiary 6/132
-
 **Experience points:** 19,200
 
 **Armor class:** 26/14/22

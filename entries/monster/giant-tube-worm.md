@@ -40,8 +40,6 @@ substance._
 
 **Perception:** +0
 
-**source:** Bestiary 6/249
-
 **Subtype:** Aquatic
 
 **tremorsense:** 30

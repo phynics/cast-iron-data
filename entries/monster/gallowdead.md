@@ -41,8 +41,6 @@ its midsection._
 
 **Perception:** +3
 
-**source:** Bestiary 4/119
-
 **Type:** undead
 
 **Experience points:** 76,800

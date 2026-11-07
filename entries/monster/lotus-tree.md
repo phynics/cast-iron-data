@@ -46,8 +46,6 @@ scent._
 
 **Senses:** Detect thoughts
 
-**source:** Bestiary 5/160
-
 **thoughtsense:** 60
 
 **tremorsense:** 120

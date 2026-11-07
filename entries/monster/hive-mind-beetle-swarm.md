@@ -45,8 +45,6 @@ leaping from insect to insect. The patterns on their wings resemble humanoid eye
 
 **Perception:** +28
 
-**source:** Occult Bestiary/29
-
 **Subtype:** Swarm
 
 **Experience points:** 25,600

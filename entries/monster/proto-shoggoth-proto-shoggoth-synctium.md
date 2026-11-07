@@ -45,8 +45,6 @@ form and dissolve over this monster's surface._
 
 **Perception:** +19
 
-**source:** Pathfinder \#112: The Whisper Out of Time/90
-
 **tremorsense:** 60
 
 **Experience points:** 38,400

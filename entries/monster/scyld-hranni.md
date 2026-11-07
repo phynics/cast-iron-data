@@ -47,8 +47,6 @@ and a coral-encrusted shield._
 
 **Perception:** +33
 
-**source:** Giants Revisited/56
-
 **Subtype:** Giant
 
 **Experience points:** 307,200

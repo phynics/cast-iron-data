@@ -46,8 +46,6 @@ despite its cloven hooves._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/202
-
 **Experience points:** 6,400
 
 **Armor class:** 21/11/19

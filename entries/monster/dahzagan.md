@@ -48,8 +48,6 @@ body of a giant wolf._
 
 **Senses:** Deathwatch
 
-**source:** Belkzen, Hold of the Orc Hordes/59
-
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 2,400

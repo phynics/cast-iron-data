@@ -48,8 +48,6 @@ bulges in its throat._
 
 **Sense:** Scent
 
-**source:** Inner Sea Bestiary/23
-
 **Experience points:** 9,600
 
 **Armor class:** 24/10/22

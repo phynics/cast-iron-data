@@ -45,8 +45,6 @@ seething glow burns in its eye sockets._
 
 **Senses:** True seeing
 
-**source:** Bestiary 2/74
-
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 25,600

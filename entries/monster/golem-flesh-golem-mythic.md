@@ -47,8 +47,6 @@ flesh together._
 
 **Perception:** +10
 
-**source:** Mythic Adventures/201
-
 **Subtype:** Mythic
 
 **Experience points:** 6,400

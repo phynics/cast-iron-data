@@ -47,8 +47,6 @@ writhing form makes it difficult to identify from a distance._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#25: The Bastards of Erebus/80
-
 **Subtype:** Extraplanar
 
 **Experience points:** 600

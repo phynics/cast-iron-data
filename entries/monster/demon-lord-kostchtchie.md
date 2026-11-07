@@ -49,8 +49,6 @@ warhammer._
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Bestiary 4/48
-
 **Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar
 
 **Experience points:** 2,457,600

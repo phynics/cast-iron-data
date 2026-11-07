@@ -46,8 +46,6 @@ brawny and exceptionally broad._
 
 **Senses:** Sandsight
 
-**source:** Pathfinder \#83: The Slave Trenches of Hakotep/86
-
 **Subtype:** Earth, Elemental
 
 **tremorsense:** 60

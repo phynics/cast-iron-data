@@ -42,8 +42,6 @@ its is expression lost and forlorn._
 
 **Perception:** +9
 
-**source:** Tears at Bitter Manor/56
-
 **Type:** undead
 
 **Experience points:** 1,200

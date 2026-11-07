@@ -48,8 +48,6 @@ stains its body._
 
 **Senses:** See invisibility
 
-**source:** Inner Sea Bestiary/32
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 307,200

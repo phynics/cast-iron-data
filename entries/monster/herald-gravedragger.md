@@ -53,8 +53,6 @@ upper half is humanoid-shaped and wields an enormous pick made from a giant's ri
 
 **Sense:** Sid
 
-**source:** Pathfinder \#89: Palace of Fallen Stars/86
-
 **Subtype:** Evil
 
 **Experience points:** 51,200

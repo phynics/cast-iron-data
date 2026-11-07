@@ -44,8 +44,6 @@ hissing cloud of churning gases._
 
 **Perception:** +12
 
-**source:** The Emerald Spire Superdungeon/153
-
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 3,200

@@ -41,8 +41,6 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **Senses:** Cloud sight, Dragon senses
 
-**source:** Bestiary 3/99
-
 **Subtype:** Air
 
 **Experience points:** 153,600

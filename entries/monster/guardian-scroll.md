@@ -41,8 +41,6 @@ _This innocuous-looking scroll flits about with serpentine grace, baring its raz
 
 **Perception:** +0
 
-**source:** Bestiary 5/138;Pathfinder \#79: The Half-Dead City/82
-
 **Size:** tiny
 
 **Experience points:** 800

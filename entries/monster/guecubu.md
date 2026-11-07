@@ -42,8 +42,6 @@ from bones and rotting flesh._
 
 **Perception:** +18
 
-**source:** Bestiary 3/145
-
 **Subtype:** Earth
 
 **tremorsense:** 60

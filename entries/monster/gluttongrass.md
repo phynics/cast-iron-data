@@ -43,8 +43,6 @@ wind._
 
 **Type:** plant
 
-**source:** Bestiary 6/137
-
 **Experience points:** 400
 
 **Armor class:** 12/11/11

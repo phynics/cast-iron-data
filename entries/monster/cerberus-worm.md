@@ -47,8 +47,6 @@ poisonous cloud that flickers like fire._
 
 **Perception:** +9
 
-**source:** Cheliax, the Infernal Empire/58
-
 **Subtype:** Aquatic
 
 **Experience points:** 38,400

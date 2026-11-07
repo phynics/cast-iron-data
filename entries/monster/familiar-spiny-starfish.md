@@ -37,8 +37,6 @@ _This brightly colored, star-shaped creature has many spines growing from its fi
 
 **Perception:** +0
 
-**source:** Ultimate Wilderness/206
-
 **Size:** tiny
 
 **tremorsense:** 20

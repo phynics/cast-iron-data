@@ -43,8 +43,6 @@ hues of the heavens._
 
 **Senses:** Cloud sight, Dragon senses
 
-**source:** Bestiary 3/98
-
 **Subtype:** Air
 
 **Experience points:** 6,400

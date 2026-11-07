@@ -45,8 +45,6 @@ sacrificial dagger above its head, its bejeweled eyes seeming to glint with murd
 
 **Perception:** +0
 
-**source:** Pathfinder \#30: The Twice-Damned Prince/82
-
 **Experience points:** 3,200
 
 **Armor class:** 20/8/20

@@ -40,8 +40,6 @@ _This lithe, green-scaled reptile looks like a miniature crocodile with a stunte
 
 **Size:** small
 
-**source:** Ultimate Wilderness/195;Pathfinder \#55: The Wormwood Mutiny/88
-
 **Experience points:** 135
 
 **Armor class:** 14/11/14

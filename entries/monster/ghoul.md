@@ -39,8 +39,6 @@ starved frame._
 
 **Perception:** +7
 
-**source:** Pathfinder RPG Bestiary/146
-
 **Type:** undead
 
 **Experience points:** 400

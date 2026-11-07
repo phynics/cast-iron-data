@@ -44,8 +44,6 @@ rows of needle-like teeth._
 
 **Perception:** +6
 
-**source:** Bestiary 2/42
-
 **Experience points:** 800
 
 **Armor class:** 15/11/13

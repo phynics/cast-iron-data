@@ -43,8 +43,6 @@ flipper-like tail to aid it as it swims._
 
 **Perception:** +12
 
-**source:** Isles of the Shackles/59
-
 **Experience points:** 3,200
 
 **Armor class:** 20/10/18

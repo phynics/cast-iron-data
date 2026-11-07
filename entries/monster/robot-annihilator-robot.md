@@ -45,8 +45,6 @@ _The tip of this towering, scorpion-like construct's tail thrums with otherworld
 
 **Perception:** +24
 
-**source:** Bestiary 5/206;Inner Sea Bestiary/43
-
 **Subtype:** Robot
 
 **tremorsense:** 60

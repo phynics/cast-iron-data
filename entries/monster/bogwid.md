@@ -47,8 +47,6 @@ nauseating vitality, like sentient oily bubbles threatening to burst._
 
 **Perception:** +2
 
-**source:** Pathfinder \#62: Curse of the Lady's Light/84
-
 **Experience points:** 1,600
 
 **Armor class:** 19/14/15

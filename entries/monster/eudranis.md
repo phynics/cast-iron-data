@@ -46,8 +46,6 @@ In one hand, he clutches a great blade, while his other hand holds an idol of so
 
 **Sense:** Scent
 
-**source:** Darklands Revisited/33
-
 **Experience points:** 1,600
 
 **Armor class:** 20/12/18

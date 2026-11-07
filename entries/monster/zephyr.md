@@ -46,8 +46,6 @@ intelligence._
 
 **Senses:** Wind senses
 
-**source:** Pathfinder \#101: The Kintargo Contract/90
-
 **Subtype:** Air, Shapechanger
 
 **Experience points:** 19,200

@@ -45,8 +45,6 @@ forms, and long branches made of bones and fibrous fronds._
 
 **Senses:** Spiritsense
 
-**source:** Pathfinder \#139: The Dead Road/82
-
 **Subtype:** Extraplanar
 
 **Experience points:** 800

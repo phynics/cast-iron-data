@@ -46,8 +46,6 @@ wields a scythe in its largest arms._
 
 **Perception:** +27
 
-**source:** Bestiary 6/77;Book of the Damned - Volume 3: Horsemen of the Apocalypse/58
-
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 38,400

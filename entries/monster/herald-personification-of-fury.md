@@ -46,8 +46,6 @@ _Jagged bolts of lightning crackle within this massive and vaguely humanoid stor
 
 **Perception:** +22
 
-**source:** Inner Sea Gods/290;Pathfinder \#38: Racing to Ruin/88
-
 **Subtype:** Air, Elemental, Extraplanar, Water
 
 **Experience points:** 51,200

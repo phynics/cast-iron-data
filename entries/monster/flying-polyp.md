@@ -45,8 +45,6 @@ vortex of sucking wind._
 
 **Perception:** +26
 
-**source:** Bestiary 4/106;Pathfinder \#65: Into the Nightmare Rift/86
-
 **Subtype:** Air
 
 **Experience points:** 38,400

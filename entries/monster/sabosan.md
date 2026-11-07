@@ -45,8 +45,6 @@ _This bat-like humanoid has a lean, muscular body covered with fur and two large
 
 **Sense:** Scent
 
-**source:** Bestiary 3/233;Pathfinder \#40: Vaults of Madness/86
-
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

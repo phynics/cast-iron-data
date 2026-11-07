@@ -49,8 +49,6 @@ through the air on feathered wings._
 
 **Size:** small
 
-**source:** Bestiary 2/26
-
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 600

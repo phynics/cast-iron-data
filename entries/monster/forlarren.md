@@ -41,8 +41,6 @@ with a sinister expression._
 
 **Perception:** +11
 
-**source:** Bestiary 2/125
-
 **Experience points:** 600
 
 **Armor class:** 15/12/13

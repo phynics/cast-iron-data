@@ -45,8 +45,6 @@ dominates the battlefield, spitting hot lead and artillery - seemingly without a
 
 **Perception:** +26
 
-**source:** Pathfinder \#71: Rasputin Must Die!/84
-
 **Experience points:** 19,200
 
 **Armor class:** 29/9/28

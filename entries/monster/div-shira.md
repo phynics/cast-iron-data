@@ -47,8 +47,6 @@ with dead black eyes._
 
 **Sense:** Sid
 
-**source:** Bestiary 3/90;Pathfinder \#21: The Jackal's Price/78
-
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 19,200

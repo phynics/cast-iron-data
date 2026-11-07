@@ -44,8 +44,6 @@ dark cloth._
 
 **Size:** small
 
-**source:** Bestiary 4/43
-
 **Subtype:** Dark folk
 
 **Experience points:** 400

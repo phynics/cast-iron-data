@@ -47,8 +47,6 @@ in his single, rage-filled eye._
 
 **Perception:** +23
 
-**source:** Pathfinder \#58: Island of Empty Eyes/72
-
 **Subtype:** Giant
 
 **Experience points:** 153,600

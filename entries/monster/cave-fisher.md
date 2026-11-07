@@ -40,8 +40,6 @@ held out menacingly before it._
 
 **Perception:** +0
 
-**source:** Pathfinder RPG Bestiary/41
-
 **Type:** vermin
 
 **Experience points:** 600

@@ -45,8 +45,6 @@ hissing, triangular heads._
 
 **Perception:** +30
 
-**source:** Bestiary 5/151;Irrisen - Land of Eternal Winter/59
-
 **Subtype:** Cold
 
 **Experience points:** 102,400

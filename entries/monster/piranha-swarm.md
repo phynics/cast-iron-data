@@ -42,8 +42,6 @@ seeming restless and bloodthirsty._
 
 **Perception:** +5
 
-**source:** Pathfinder \#39: The City of Seven Spears/82;Bestiary 6/129
-
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

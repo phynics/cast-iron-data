@@ -51,8 +51,6 @@ cloak around his waist and legs._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#137: The City Outside of Time/86
-
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 2,457,600

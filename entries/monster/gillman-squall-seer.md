@@ -44,8 +44,6 @@ _The tricorne hat this gillwoman wears is encrusted with salt, suggesting years 
 
 **Perception:** +10
 
-**source:** Inner Sea Monster Codex/32
-
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

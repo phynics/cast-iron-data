@@ -45,8 +45,6 @@ adorned with scrimshaw talismans._
 
 **Perception:** +21
 
-**source:** Bestiary 4/155
-
 **Subtype:** Shapechanger
 
 **Experience points:** 6,400

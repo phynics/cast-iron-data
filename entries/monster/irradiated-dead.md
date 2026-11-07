@@ -40,8 +40,6 @@ eyes stare, unblinking but seething with rage._
 
 **Perception:** +15
 
-**source:** Pathfinder \#87: The Choking Tower/84
-
 **Type:** undead
 
 **Experience points:** 3,200

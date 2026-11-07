@@ -48,8 +48,6 @@ cobras for hair._
 
 **Senses:** True seeing
 
-**source:** Bestiary 6/120
-
 **Experience points:** 307,200
 
 **Aav:** present

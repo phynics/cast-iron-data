@@ -42,8 +42,6 @@ _A thick carpet of moss and vines stretches out from a central tangled mass of p
 
 **Type:** plant
 
-**source:** Taldor, the First Empire/63
-
 **tremorsense:** 30
 
 **Experience points:** 3,200

@@ -47,8 +47,6 @@ _A cyclopean face stretches grotesquely across the hub of a tall, knobby wheel o
 
 **Senses:** True seeing
 
-**source:** Pathfinder \#106: For Queen and Empire/90
-
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 25,600

@@ -42,8 +42,6 @@ but filled with sharp teeth._
 
 **Senses:** Dragon senses, Mist vision
 
-**source:** Bestiary 2/96
-
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 6,400

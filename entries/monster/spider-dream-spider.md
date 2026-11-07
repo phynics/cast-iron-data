@@ -39,8 +39,6 @@ _The size of a human child, this shimmering spider has a blue-and-purple-striped
 
 **Size:** small
 
-**source:** Curse of the Crimson Throne/477;Pathfinder \#7: Edge of Anarchy/82
-
 **Type:** vermin
 
 **Experience points:** 200

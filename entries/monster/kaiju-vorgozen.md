@@ -46,8 +46,6 @@ core to reveal a single red eye._
 
 **Perception:** +32
 
-**source:** Bestiary 6/172
-
 **Subtype:** Kaiju, Water
 
 **tremorsense:** 600

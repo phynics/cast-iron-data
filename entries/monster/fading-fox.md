@@ -41,8 +41,6 @@ _This regal fox's coat shifts subtly between silver, red, and dull brown as it w
 
 **Sense:** Scent
 
-**source:** Taldor, the First Empire/60
-
 **Size:** tiny
 
 **Experience points:** 600

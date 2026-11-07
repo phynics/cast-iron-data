@@ -43,8 +43,6 @@ back over its neck from its skull._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/86
-
 **Experience points:** 4,800
 
 **Armor class:** 21/7/21

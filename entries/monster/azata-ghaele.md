@@ -51,8 +51,6 @@ crackling with power._
 
 **Senses:** Detect evil, See invisibility
 
-**source:** Pathfinder RPG Bestiary/25
-
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger
 
 **Experience points:** 25,600

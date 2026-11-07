@@ -41,8 +41,6 @@ _This scuttling patchwork plant features flowers of many different shapes and co
 
 **Type:** plant
 
-**source:** Ultimate Wilderness/196
-
 **Experience points:** 65
 
 **Armor class:** 15/15/14

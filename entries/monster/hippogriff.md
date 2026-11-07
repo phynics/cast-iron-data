@@ -44,8 +44,6 @@ _This large, brown, horse-like creature has a hawk's wings, talons, and hooked b
 
 **Sense:** Scent
 
-**source:** Bestiary 2/156
-
 **Experience points:** 600
 
 **Armor class:** 14/12/11

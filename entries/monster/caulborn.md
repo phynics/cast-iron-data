@@ -48,8 +48,6 @@ fingers on each hand._
 
 **Senses:** Thoughtsense
 
-**source:** Bestiary 3/48;City of Strangers/62
-
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

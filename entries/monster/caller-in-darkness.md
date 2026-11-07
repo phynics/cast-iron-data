@@ -42,8 +42,6 @@ _This roiling horror appears to be a swirling vortex of darkness and screaming, 
 
 **Perception:** +22
 
-**source:** Bestiary 5/48
-
 **Subtype:** Incorporeal
 
 **Type:** undead

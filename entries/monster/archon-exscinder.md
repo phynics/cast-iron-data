@@ -48,8 +48,6 @@ wings._
 
 **Senses:** True seeing
 
-**source:** Bestiary 5/34
-
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 19,200

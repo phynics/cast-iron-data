@@ -45,8 +45,6 @@ and green hide, and a muscular tail sways menacingly behind it._
 
 **Perception:** +13
 
-**source:** Pathfinder \#129: The Twilight Child/90
-
 **Experience points:** 9,600
 
 **Armor class:** 24/10/22

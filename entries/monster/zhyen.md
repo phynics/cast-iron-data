@@ -41,8 +41,6 @@ to serve._
 
 **Perception:** +6
 
-**source:** Qadira, Gateway to the East/30
-
 **subtypes:** [air](ref/subtype/air), [earth](ref/subtype/earth), [fire](ref/subtype/fire), or
 [water](ref/subtype/water)
 

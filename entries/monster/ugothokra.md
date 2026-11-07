@@ -44,8 +44,6 @@ crystalline eye glares from its hideous face._
 
 **Size:** small
 
-**source:** Pathfinder \#88: Valley of the Brain Collectors/88
-
 **Experience points:** 3,200
 
 **Armor class:** 20/17/14

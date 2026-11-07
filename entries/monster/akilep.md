@@ -44,8 +44,6 @@ _This beautiful female sphinx appears both wise and thoughtful._
 
 **Perception:** +30
 
-**source:** Mythical Monsters Revisited/57
-
 **Experience points:** 25,600
 
 **Armor class:** 28/5/28

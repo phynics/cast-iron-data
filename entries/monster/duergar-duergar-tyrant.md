@@ -45,8 +45,6 @@ _The dull gray skin of this dwarf ripples with kinetic power._
 
 **Perception:** +8
 
-**source:** Occult Bestiary/23
-
 **Subtype:** Dwarf
 
 **Experience points:** 800

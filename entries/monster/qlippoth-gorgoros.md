@@ -43,8 +43,6 @@ yellow._
 
 **Perception:** +20
 
-**source:** Bestiary 6/228
-
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 6,400

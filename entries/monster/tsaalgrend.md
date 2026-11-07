@@ -44,8 +44,6 @@ through the air._
 
 **Size:** small
 
-**source:** Bestiary 5/251;Pathfinder \#85: Fires of Creation/88
-
 **Experience points:** 600
 
 **Armor class:** 14/13/12

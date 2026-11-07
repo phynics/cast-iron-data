@@ -45,8 +45,6 @@ _This disc of flying metal is about the size of a wagon wheel and burns with yel
 
 **Perception:** +12
 
-**source:** Inner Sea Gods/293
-
 **Subtype:** Angel, Extraplanar, Fire, Good, Lawful
 
 **Experience points:** 1,200

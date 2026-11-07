@@ -47,8 +47,6 @@ fits snugly between its pectoral armor plates._
 
 **Perception:** +0
 
-**source:** Construct Handbook/33
-
 **Subtype:** Clockwork
 
 **Experience points:** 3,200

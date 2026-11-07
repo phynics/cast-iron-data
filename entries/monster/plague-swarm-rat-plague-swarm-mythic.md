@@ -51,8 +51,6 @@ deities._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/192
-
 **Subtype:** Mythic, Swarm
 
 **Size:** tiny

@@ -44,8 +44,6 @@ her as if she were underwater._
 
 **Perception:** +22
 
-**source:** Bestiary 3/232
-
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

@@ -41,8 +41,6 @@ _This indistinct figure suddenly takes on a nightmarish shape, not quite human o
 
 **Perception:** +17
 
-**source:** Bestiary 2/29
-
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 4,800

@@ -39,8 +39,6 @@ _This serpentine fish has a horrific circular mouth filled with hook-like teeth.
 
 **Perception:** +1
 
-**source:** Ultimate Wilderness/199
-
 **Subtype:** Aquatic
 
 **Size:** tiny

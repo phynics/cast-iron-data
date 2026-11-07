@@ -46,8 +46,6 @@ four powerful arms._
 
 **Perception:** +6
 
-**source:** Pathfinder \#56: Raiders of the Fever Sea/84
-
 **Subtype:** Aquatic
 
 **Experience points:** 800

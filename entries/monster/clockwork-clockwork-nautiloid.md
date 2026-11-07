@@ -48,8 +48,6 @@ tentacles surrounding its octopus-like beak._
 
 **Perception:** +8
 
-**source:** Pathfinder \#125: Tower of the Drowned Dead/82
-
 **Subtype:** Clockwork
 
 **Experience points:** 38,400

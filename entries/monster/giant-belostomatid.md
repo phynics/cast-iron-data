@@ -41,8 +41,6 @@ insect._
 
 **Perception:** +0
 
-**source:** Bestiary 6/14
-
 **Subtype:** Aquatic
 
 **tremorsense:** 60

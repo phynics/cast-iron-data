@@ -45,8 +45,6 @@ face is a disturbing, toothless maw._
 
 **Senses:** Arcane sight
 
-**source:** Bestiary 6/78;Book of the Damned - Volume 3: Horsemen of the Apocalypse/60
-
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 1,600

@@ -46,8 +46,6 @@ shambles like a spider._
 
 **Perception:** +7
 
-**source:** Tears at Bitter Manor/58
-
 **Experience points:** 1,600
 
 **Armor class:** 18/10/17

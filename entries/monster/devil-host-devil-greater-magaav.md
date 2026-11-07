@@ -48,8 +48,6 @@ between its yellowed fangs._
 
 **Sense:** Sid
 
-**source:** Bestiary 4/53;Book of the Damned - Volume 1: Princes of Darkness/58
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 2,400

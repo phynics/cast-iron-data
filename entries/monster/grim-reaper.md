@@ -46,8 +46,6 @@ _One bleached-bone hand of this robed, skeletal figure grasps a massive, curved 
 
 **Senses:** See invisibility, True seeing
 
-**source:** Bestiary 5/134
-
 **Subtype:** Extraplanar
 
 **Type:** undead

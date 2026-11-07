@@ -42,8 +42,6 @@ with a slim but wicked beak._
 
 **Perception:** +5
 
-**source:** Pathfinder \#97: In Hell's Bright Shadow/83
-
 **Experience points:** 2,400
 
 **Armor class:** 18/10/16

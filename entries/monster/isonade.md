@@ -45,8 +45,6 @@ pectoral fins covered in cruel hooks._
 
 **Perception:** +28
 
-**source:** Bestiary 5/147
-
 **Subtype:** Aquatic
 
 **Experience points:** 51,200

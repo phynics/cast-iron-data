@@ -42,8 +42,6 @@ tail._
 
 **Perception:** +1
 
-**source:** Pathfinder RPG Bestiary/195
-
 **Subtype:** Reptilian
 
 **Experience points:** 400

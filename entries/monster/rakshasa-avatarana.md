@@ -44,8 +44,6 @@ leathery flap covering its face._
 
 **Perception:** +20
 
-**source:** Occult Bestiary/49
-
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 19,200

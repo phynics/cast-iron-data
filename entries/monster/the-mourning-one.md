@@ -47,8 +47,6 @@ flesh, and a terrible sickening flow of black blood oozes from each break and so
 
 **Perception:** +8
 
-**source:** Mystery Monsters Revisited/50
-
 **Subtype:** Aquatic
 
 **Experience points:** 204,800

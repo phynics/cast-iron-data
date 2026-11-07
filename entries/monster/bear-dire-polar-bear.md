@@ -42,8 +42,6 @@ _Fearsome bony growths protrude from several spots in this massive animal's snow
 
 **Sense:** Scent
 
-**source:** Bestiary 5/41
-
 **Experience points:** 4,800
 
 **Armor class:** 22/12/19

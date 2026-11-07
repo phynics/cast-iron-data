@@ -45,8 +45,6 @@ carries an oversized pair of pliers._
 
 **Perception:** +7
 
-**source:** Bestiary 4/262
-
 **Subtype:** Extraplanar
 
 **Experience points:** 100

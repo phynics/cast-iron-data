@@ -58,8 +58,6 @@ eyes._
 
 **Sense:** Sid
 
-**source:** Bestiary 4/13
-
 **Subtype:** Mythic
 
 **Experience points:** 25,600

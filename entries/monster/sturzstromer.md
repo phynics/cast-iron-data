@@ -43,8 +43,6 @@ disturbed earth and rock follows behind them._
 
 **Perception:** +33
 
-**source:** Pathfinder \#138: Rise of New Thassilon/92
-
 **Subtype:** Earth, Elemental, Extraplanar, Swarm
 
 **Size:** tiny

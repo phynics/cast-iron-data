@@ -44,8 +44,6 @@ of the gap._
 
 **Sense:** Scent
 
-**source:** Bestiary 6/287
-
 **Type:** undead
 
 **Experience points:** 800

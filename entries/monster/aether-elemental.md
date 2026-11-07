@@ -46,8 +46,6 @@ material._
 
 **Size:** small
 
-**source:** Bestiary 5/106
-
 **Subtype:** Aether, Elemental, Extraplanar
 
 **Experience points:** 400
@@ -153,8 +151,6 @@ Plane near the borders of the Elemental Planes.
 
 **Perception:** +7
 
-**source:** Bestiary 5/106
-
 **Subtype:** Aether, Elemental, Extraplanar
 
 **Experience points:** 800
@@ -224,8 +220,6 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +11
-
-**source:** Bestiary 5/106
 
 **Subtype:** Aether, Elemental, Extraplanar
 
@@ -302,8 +296,6 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +13
-
-**source:** Bestiary 5/106
 
 **Subtype:** Aether, Elemental, Extraplanar
 
@@ -382,8 +374,6 @@ Bonus feat.
 
 **Perception:** +16
 
-**source:** Bestiary 5/107
-
 **Subtype:** Aether, Elemental, Extraplanar
 
 **Experience points:** 6,400
@@ -460,8 +450,6 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +19
-
-**source:** Bestiary 5/107
 
 **Subtype:** Aether, Elemental, Extraplanar
 

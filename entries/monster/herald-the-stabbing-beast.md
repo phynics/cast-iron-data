@@ -52,8 +52,6 @@ _This towering, scorpion-tailed man stalks with a soundless grace and murderous 
 
 **Sense:** Sid
 
-**source:** Inner Sea Gods/300;Pathfinder \#59: The Price of Infamy/90
-
 **Subtype:** Evil, Extraplanar, Shapechanger
 
 **Experience points:** 51,200

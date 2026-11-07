@@ -47,8 +47,6 @@ of the rotting, flapping undead monstrosity he rides._
 
 **Perception:** +15
 
-**source:** Inner Sea Monster Codex/61
-
 **Subtype:** Native
 
 **Experience points:** 9,600

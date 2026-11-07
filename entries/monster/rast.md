@@ -43,8 +43,6 @@ filled with sharp fangs._
 
 **Perception:** +10
 
-**source:** Bestiary 2/229
-
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 1,600

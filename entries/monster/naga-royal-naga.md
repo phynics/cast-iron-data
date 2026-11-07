@@ -45,8 +45,6 @@ _This snake-bodied creature has five necks, each with a regal, humanoid face in 
 
 **Senses:** See invisibility
 
-**source:** Bestiary 3/198;Pathfinder \#27: What Lies in Dust/88
-
 **Subtype:** Shapechanger
 
 **Experience points:** 12,800

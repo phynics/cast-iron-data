@@ -47,8 +47,6 @@ _This two-headed monstrosity has vast wings and a long tail covered in a forest 
 
 **Perception:** +38
 
-**source:** Bestiary 4/166
-
 **Subtype:** Air, Kaiju
 
 **Experience points:** 3,276,800

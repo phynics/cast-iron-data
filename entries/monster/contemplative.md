@@ -43,8 +43,6 @@ it._
 
 **Perception:** +10
 
-**source:** Bestiary 4/41;Distant Worlds/60
-
 **Experience points:** 600
 
 **Armor class:** 12/12/10

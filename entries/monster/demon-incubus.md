@@ -44,8 +44,6 @@ origin._
 
 **Perception:** +13
 
-**source:** Bestiary 3/73
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 2,400

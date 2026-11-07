@@ -42,8 +42,6 @@ a tiny but solid-looking hammer._
 
 **Perception:** +5
 
-**source:** Bestiary 2/145;Pathfinder \#19: Howl of the Carrion King/84
-
 **Size:** tiny
 
 **Experience points:** 400

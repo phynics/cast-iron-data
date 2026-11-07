@@ -41,8 +41,6 @@ the creature's thick shell._
 
 **Perception:** +10
 
-**source:** Bestiary 3/60
-
 **Subtype:** Aquatic
 
 **Type:** vermin

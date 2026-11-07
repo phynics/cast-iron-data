@@ -46,8 +46,6 @@ less noble._
 
 **Perception:** +38
 
-**source:** Bestiary 5/280
-
 **Subtype:** Incorporeal
 
 **Type:** undead

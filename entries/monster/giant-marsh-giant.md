@@ -43,8 +43,6 @@ obese giant._
 
 **Perception:** +11
 
-**source:** Bestiary 2/129;Pathfinder \#5: Sins of the Saviors/82
-
 **Subtype:** Giant
 
 **Experience points:** 4,800

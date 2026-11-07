@@ -41,8 +41,6 @@ surface._
 
 **Perception:** +6
 
-**source:** Pathfinder \#91: Battle of Bloodmarch Hills/82
-
 **Experience points:** 600
 
 **Armor class:** 14/13/11

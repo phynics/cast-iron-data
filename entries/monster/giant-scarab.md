@@ -39,8 +39,6 @@ and dung._
 
 **Perception:** +4
 
-**source:** Bestiary 5/221
-
 **Type:** vermin
 
 **Experience points:** 2,400

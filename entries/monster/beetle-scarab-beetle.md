@@ -38,8 +38,6 @@ _This glossy blue-black beetle is the size of a cow._
 
 **Perception:** +0
 
-**source:** Inner Sea Bestiary/5
-
 **Type:** vermin
 
 **Experience points:** 2,400

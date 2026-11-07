@@ -49,8 +49,6 @@ sphere of violet crystal in the other._
 
 **Senses:** True seeing
 
-**source:** Demons Revisited/62
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 307,200

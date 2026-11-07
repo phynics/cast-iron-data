@@ -43,8 +43,6 @@ sack._
 
 **Perception:** +19
 
-**source:** Seers of the Drowned City/57
-
 **Subtype:** Chaotic, Evil, Native
 
 **Experience points:** 6,400

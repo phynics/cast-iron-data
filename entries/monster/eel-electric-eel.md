@@ -41,8 +41,6 @@ emits from the creature's body._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/119
-
 **Experience points:** 600
 
 **Armor class:** 15/13/13

@@ -48,8 +48,6 @@ vicious maw in its reptilian face._
 
 **Senses:** Detect law
 
-**source:** Bestiary 2/216;Pathfinder \#22: The End of Eternity/86
-
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 3,200

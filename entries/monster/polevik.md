@@ -47,8 +47,6 @@ mold-streaked body. His beady eyes burn with paranoia and malice._
 
 **Size:** small
 
-**source:** Pathfinder \#63: The Asylum Stone/90
-
 **Experience points:** 1,600
 
 **Armor class:** 17/15/13

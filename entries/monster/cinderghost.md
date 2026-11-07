@@ -40,8 +40,6 @@ unblinking eyes that flicker like dying embers._
 
 **Perception:** +14
 
-**source:** Planes of Power/53
-
 **Subtype:** Extraplanar, Fire, Incorporeal
 
 **Type:** undead

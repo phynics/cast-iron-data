@@ -42,8 +42,6 @@ seem to bear tiny faces._
 
 **Size:** small
 
-**source:** Bestiary 2/289
-
 **tremorsense:** 30
 
 **Experience points:** 200

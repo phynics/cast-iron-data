@@ -48,8 +48,6 @@ razor-sharp teeth._
 
 **Perception:** +8
 
-**source:** Bestiary 2/50
-
 **Subtype:** Aquatic
 
 **Experience points:** 800

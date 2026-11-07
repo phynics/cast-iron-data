@@ -44,8 +44,6 @@ tentacles._
 
 **Perception:** +19
 
-**source:** Bestiary 6/40
-
 **Subtype:** Blight
 
 **Experience points:** 25,600

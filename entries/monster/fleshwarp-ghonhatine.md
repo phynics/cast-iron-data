@@ -47,8 +47,6 @@ protruding teeth snapping wildly._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/102;Pathfinder \#16: Endless Night/84
-
 **Experience points:** 9,600
 
 **Armor class:** 24/7/24

@@ -40,8 +40,6 @@ _This howling corpse swoops through the air with hideously elongated legs and a 
 
 **Perception:** +18
 
-**source:** Bestiary 3/35
-
 **Type:** undead
 
 **Experience points:** 6,400

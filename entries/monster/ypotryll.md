@@ -47,8 +47,6 @@ raw power._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/285
-
 **Experience points:** 51,200
 
 **Armor class:** 29/7/29

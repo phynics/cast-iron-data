@@ -39,8 +39,6 @@ _An elephantine centipede scurries about, its double tail lashing angrily behind
 
 **Perception:** +4
 
-**source:** Bestiary 2/53
-
 **Type:** vermin
 
 **Experience points:** 800

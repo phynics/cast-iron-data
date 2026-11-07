@@ -45,8 +45,6 @@ with fine scrimshaw._
 
 **Size:** small
 
-**source:** Bestiary 3/275
-
 **Experience points:** 3,200
 
 **Armor class:** 20/15/16

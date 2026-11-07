@@ -44,8 +44,6 @@ filled with teeth._
 
 **Perception:** -5
 
-**source:** Bestiary 3/131
-
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

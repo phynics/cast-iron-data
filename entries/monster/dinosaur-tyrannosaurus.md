@@ -44,8 +44,6 @@ head is all teeth._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/86
-
 **Experience points:** 6,400
 
 **Armor class:** 21/7/20

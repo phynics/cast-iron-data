@@ -48,8 +48,6 @@ place of an insectile head._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
-**source:** Bestiary 6/243
-
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 3,200

@@ -43,8 +43,6 @@ ending in a snapping mouth._
 
 **Senses:** Detect law, Detect magic
 
-**source:** Bestiary 2/221
-
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Size:** tiny

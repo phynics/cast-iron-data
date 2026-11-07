@@ -43,8 +43,6 @@ that it wears braided._
 
 **Perception:** +10
 
-**source:** Pathfinder RPG Bestiary/149
-
 **Subtype:** Cold, Giant
 
 **Experience points:** 6,400

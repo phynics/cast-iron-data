@@ -45,8 +45,6 @@ lower body is that of a lion._
 
 **Perception:** +15
 
-**source:** Pathfinder RPG Bestiary/186
-
 **Experience points:** 2,400
 
 **Armor class:** 20/13/16

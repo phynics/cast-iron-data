@@ -46,8 +46,6 @@ brain._
 
 **Perception:** +11
 
-**source:** Bestiary 4/266
-
 **Subtype:** Mythic
 
 **Experience points:** 6,400

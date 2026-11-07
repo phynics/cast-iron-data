@@ -43,8 +43,6 @@ as fractures in its outer surface._
 
 **Size:** small
 
-**source:** Bestiary 2/118
-
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 
 **Experience points:** 400
@@ -148,8 +146,6 @@ feral or bestial appearance.
 
 **Perception:** +7
 
-**source:** Bestiary 2/118
-
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 
 **Experience points:** 800
@@ -213,8 +209,6 @@ feral or bestial appearance.
 **Type:** outsider
 
 **Perception:** +11
-
-**source:** Bestiary 2/118
 
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 
@@ -286,8 +280,6 @@ feral or bestial appearance.
 
 **Perception:** +13
 
-**source:** Bestiary 2/118
-
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 
 **Experience points:** 3,200
@@ -357,8 +349,6 @@ feral or bestial appearance.
 **Type:** outsider
 
 **Perception:** +16
-
-**source:** Bestiary 2/119
 
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 
@@ -430,8 +420,6 @@ Improved Overrun, Power Attack
 **Type:** outsider
 
 **Perception:** +19
-
-**source:** Bestiary 2/119
 
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 

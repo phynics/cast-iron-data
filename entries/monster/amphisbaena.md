@@ -47,8 +47,6 @@ of fangs._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/25
-
 **Experience points:** 1,200
 
 **Armor class:** 19/11/17

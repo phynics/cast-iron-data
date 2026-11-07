@@ -43,8 +43,6 @@ peppered with globs of what appear to be ashes._
 
 **Perception:** +14
 
-**source:** Cheliax, the Infernal Empire/57
-
 **Experience points:** 1,600
 
 **Armor class:** 17/11/16

@@ -48,8 +48,6 @@ abilities = ["23", "20", "23", "18", "21", "18"]
 
 **Senses:** Detect evil
 
-**source:** Pathfinder \#108: Hell Comes to Westcrown/91
-
 **Subtype:** Archon, Extraplanar, Good, Lawful, Troop
 
 **Experience points:** 76,800

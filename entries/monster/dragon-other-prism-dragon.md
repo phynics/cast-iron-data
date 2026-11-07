@@ -46,8 +46,6 @@ _The facets of this crystalline dragon's body reflect fascinating and sparkling 
 
 **Perception:** +28
 
-**source:** Occult Bestiary/42
-
 **Subtype:** Extraplanar
 
 **Experience points:** 102,400

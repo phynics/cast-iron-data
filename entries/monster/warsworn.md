@@ -44,8 +44,6 @@ steel-girded flesh._
 
 **Perception:** +27
 
-**source:** Bestiary 4/272;Pathfinder \#35: War of the River Kings/88
-
 **Type:** undead
 
 **Experience points:** 76,800

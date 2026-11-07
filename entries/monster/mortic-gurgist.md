@@ -45,8 +45,6 @@ magnificent mask of painted wood and feathers. Bruises and sores cover her skin.
 
 **Perception:** +2
 
-**source:** Pathfinder \#140: Eulogy for Roslar's Coffer/86
-
 **Subtype:** Human, Mortic
 
 **Experience points:** 2,400

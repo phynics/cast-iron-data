@@ -49,8 +49,6 @@ swirl within its immense body._
 
 **Perception:** +0
 
-**source:** Bestiary 6/142
-
 **Subtype:** Extraplanar
 
 **Experience points:** 307,200

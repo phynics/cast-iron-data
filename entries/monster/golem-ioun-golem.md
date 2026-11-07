@@ -48,8 +48,6 @@ grooves visible above, below, and between its twin sets of arms._
 
 **Perception:** +0
 
-**source:** Pathfinder \#126: Beyond the Veiled Past/88
-
 **Experience points:** 102,400
 
 **Armor class:** 33/18/24

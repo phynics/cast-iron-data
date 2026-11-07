@@ -47,8 +47,6 @@ like any other ragged oak tree._
 
 **Senses:** Oaksight
 
-**source:** Bestiary 2/228
-
 **Experience points:** 4,800
 
 **Armor class:** 19/7/19

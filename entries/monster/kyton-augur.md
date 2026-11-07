@@ -43,8 +43,6 @@ exterior of this tiny flying orb._
 
 **Senses:** Deathwatch
 
-**source:** Bestiary 3/171
-
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Size:** tiny

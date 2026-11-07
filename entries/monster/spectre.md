@@ -43,8 +43,6 @@ into a hideous mask._
 
 **Perception:** +17
 
-**source:** Pathfinder RPG Bestiary/256
-
 **Subtype:** Incorporeal
 
 **Type:** undead

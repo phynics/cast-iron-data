@@ -41,8 +41,6 @@ _The mandibles of this enormous grasshopper churn and grind as it quests for foo
 
 **Perception:** +0
 
-**source:** Bestiary 4/183
-
 **Type:** vermin
 
 **Experience points:** 800

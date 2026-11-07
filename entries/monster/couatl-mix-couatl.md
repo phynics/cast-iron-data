@@ -48,8 +48,6 @@ span the length of its body._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#140: Eulogy for Roslar's Coffer/84
-
 **Subtype:** Native
 
 **Experience points:** 4,800

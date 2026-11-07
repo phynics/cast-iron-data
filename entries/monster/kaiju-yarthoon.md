@@ -48,8 +48,6 @@ amid a ring of glowing eyes._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/174
-
 **Subtype:** Air, Kaiju
 
 **tremorsense:** 300

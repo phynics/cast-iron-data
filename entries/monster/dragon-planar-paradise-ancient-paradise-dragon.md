@@ -45,8 +45,6 @@ _This sleek dragon carries itself with regal dignity. Its eyes glow with heavenl
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 6/105
-
 **Subtype:** Extraplanar, Good, Lawful
 
 **Experience points:** 409,600

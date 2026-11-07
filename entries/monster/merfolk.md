@@ -46,8 +46,6 @@ slender fish._
 
 **Perception:** +3
 
-**source:** Pathfinder RPG Bestiary/204
-
 **Subtype:** Aquatic
 
 **Experience points:** 135

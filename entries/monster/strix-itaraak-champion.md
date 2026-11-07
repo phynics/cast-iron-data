@@ -50,8 +50,6 @@ keeps his bow at the ready._
 
 **Perception:** +12 (+14 in dim light or darkness)
 
-**source:** Inner Sea Monster Codex/56
-
 **Experience points:** 6,400
 
 **Armor class:** 20/13/17

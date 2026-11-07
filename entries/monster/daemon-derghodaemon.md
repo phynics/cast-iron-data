@@ -49,8 +49,6 @@ beast._
 
 **Senses:** Detect magic, See invisibility
 
-**source:** Bestiary 2/66
-
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 19,200

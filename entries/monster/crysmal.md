@@ -45,8 +45,6 @@ into an aggressive stance._
 
 **Size:** small
 
-**source:** Bestiary 2/61
-
 **Subtype:** Earth, Elemental
 
 **Experience points:** 800

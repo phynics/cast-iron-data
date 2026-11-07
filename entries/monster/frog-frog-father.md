@@ -43,8 +43,6 @@ _This elephantine amphibian has a grotesquely long tongue and beady eyes._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/117
-
 **Experience points:** 1,600
 
 **Armor class:** 18/9/17

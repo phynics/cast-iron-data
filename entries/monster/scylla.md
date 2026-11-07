@@ -53,8 +53,6 @@ heads and writhing tentacles._
 
 **Senses:** See invisibility
 
-**source:** Bestiary 2/241
-
 **Subtype:** Aquatic
 
 **Experience points:** 76,800

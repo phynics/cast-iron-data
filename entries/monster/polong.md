@@ -42,8 +42,6 @@ _This crimson spectral creature drips with blood, its skeletal face contorted wi
 
 **Perception:** +15
 
-**source:** Bestiary 5/196
-
 **Subtype:** Incorporeal
 
 **Type:** undead

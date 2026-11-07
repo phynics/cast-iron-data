@@ -44,8 +44,6 @@ looks like a large, glistening brain._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/180
-
 **Experience points:** 4,800
 
 **Armor class:** 22/17/16

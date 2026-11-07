@@ -43,8 +43,6 @@ _This gaunt, hunched humanoid's unblinking eyes stare out from a pale face wrapp
 
 **Size:** small
 
-**source:** Occult Bestiary/18
-
 **Subtype:** Dark folk
 
 **Experience points:** 600

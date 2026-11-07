@@ -47,8 +47,6 @@ arch from its hindquarters._
 
 **Senses:** Surrogate senses
 
-**source:** Isles of the Shackles/44
-
 **Subtype:** Native
 
 **Experience points:** 819,200

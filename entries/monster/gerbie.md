@@ -45,8 +45,6 @@ of goodwill._
 
 **Size:** small
 
-**source:** The First World, Realm of the Fey/62
-
 **Experience points:** 1,200
 
 **Armor class:** 17/15/13

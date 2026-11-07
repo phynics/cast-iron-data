@@ -46,8 +46,6 @@ rather than reflect the light._
 
 **Perception:** +1
 
-**source:** Pathfinder RPG Bestiary/117
-
 **Subtype:** Dwarf
 
 **Experience points:** 135

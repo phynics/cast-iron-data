@@ -44,8 +44,6 @@ alive, her bloody muscles and sinews pulsing grotesquely._
 
 **Senses:** Detect good, Detect magic
 
-**source:** Isles of the Shackles/61
-
 **Experience points:** 4,800
 
 **Armor class:** 23/17/16

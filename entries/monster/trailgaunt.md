@@ -41,8 +41,6 @@ limbs._
 
 **Perception:** +7
 
-**source:** Bestiary 6/264;Pathfinder Comics \#11/28
-
 **Type:** undead
 
 **Experience points:** 800

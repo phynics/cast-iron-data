@@ -41,8 +41,6 @@ abilities = ["10", "12", "12", "3", "13", "9"]
 
 **Sense:** Scent
 
-**source:** Bestiary 4/186;Misfit Monsters Redeemed/50
-
 **Size:** tiny
 
 **Experience points:** 600

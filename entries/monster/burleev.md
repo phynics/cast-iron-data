@@ -44,8 +44,6 @@ replaces its missing flesh._
 
 **Senses:** Detect magic
 
-**source:** Inner Sea Gods/299
-
 **subtypes:** [cold](ref/subtype/cold) or [fire](ref/subtype/fire),
 [extraplanar](ref/subtype/extraplanar)
 

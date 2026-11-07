@@ -43,8 +43,6 @@ a different method of inflicting pain._
 
 **Perception:** +18
 
-**source:** Bestiary 6/226;Pathfinder \#64: Beyond the Doomsday Door/90
-
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 12,800

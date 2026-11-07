@@ -45,8 +45,6 @@ smirk suggest a sharp mind and daring nature._
 
 **Perception:** +9
 
-**source:** Inner Sea Monster Codex/30
-
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

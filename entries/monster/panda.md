@@ -42,8 +42,6 @@ rounder._
 
 **Perception:** +7
 
-**source:** Animal Archive/29
-
 **Experience points:** 600
 
 **Armor class:** 13/10/13

@@ -44,8 +44,6 @@ body, and belligerent hiss._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/275;Pathfinder \#67: The Snows of Summer/82
-
 **Experience points:** 400
 
 **Armor class:** 15/14/11

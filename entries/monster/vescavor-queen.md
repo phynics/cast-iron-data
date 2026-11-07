@@ -47,8 +47,6 @@ noxious slime._
 
 **Perception:** +17
 
-**source:** Bestiary 5/266;Pathfinder \#74: Sword of Valor/90
-
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 6,400

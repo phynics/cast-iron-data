@@ -46,8 +46,6 @@ toxic-looking slime._
 
 **Perception:** +8
 
-**source:** Pathfinder \#98: Turn of the Torrent/88
-
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

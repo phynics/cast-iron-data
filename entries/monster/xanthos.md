@@ -44,8 +44,6 @@ head, neck, and back._
 
 **Perception:** +23
 
-**source:** Bestiary 4/282
-
 **Experience points:** 38,400
 
 **Armor class:** 31/11/28

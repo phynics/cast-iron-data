@@ -43,8 +43,6 @@ eagerly for the scent of prey._
 
 **Sense:** Scent
 
-**source:** Bestiary 6/185
-
 **Experience points:** 25,600
 
 **Armor class:** 28/4/26

@@ -47,8 +47,6 @@ as scattered pieces of armor. She wields a wicked two-pronged blade._
 
 **Perception:** +14
 
-**source:** Darklands Revisited/56
-
 **Subtype:** Native
 
 **Experience points:** 9,600

@@ -47,8 +47,6 @@ instead of a face, it has a singular massive maw filled with rows of ravenous te
 
 **Perception:** +13
 
-**source:** Pathfinder \#60: From Hell's Heart/64
-
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

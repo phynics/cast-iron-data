@@ -46,8 +46,6 @@ the bone and flesh beneath._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/174
-
 **Experience points:** 400
 
 **Armor class:** 15/12/13

@@ -40,8 +40,6 @@ _This magnificent bird of prey has dark feathers save for those on its head, whi
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/118
-
 **Experience points:** 200
 
 **Armor class:** 14/13/12

@@ -38,8 +38,6 @@ abilities = ["3", "15", "10", "3", "14", "2"]
 
 **Perception:** +8
 
-**source:** Pathfinder \#25: The Bastards of Erebus/84
-
 **Subtype:** Swarm
 
 **Size:** tiny

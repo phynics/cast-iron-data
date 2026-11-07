@@ -47,8 +47,6 @@ decorate its greenish skin._
 
 **Perception:** +4
 
-**source:** Pathfinder RPG Bestiary/37;Pathfinder \#2: The Skinsaw Murders/84
-
 **Experience points:** 600
 
 **Armor class:** 14/9/14

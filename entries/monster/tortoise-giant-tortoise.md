@@ -42,8 +42,6 @@ neck._
 
 **Perception:** +7
 
-**source:** Bestiary 4/263
-
 **Experience points:** 400
 
 **Armor class:** 16/8/16

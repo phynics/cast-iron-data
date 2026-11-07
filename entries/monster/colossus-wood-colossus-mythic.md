@@ -50,8 +50,6 @@ rooms._
 
 **Perception:** +11
 
-**source:** Bestiary 5/59
-
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 102,400

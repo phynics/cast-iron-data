@@ -46,8 +46,6 @@ drizzle a cascade of shimmering dust._
 
 **Sense:** Sid
 
-**source:** The First World, Realm of the Fey/61
-
 **Experience points:** 4,800
 
 **Armor class:** 21/14/16

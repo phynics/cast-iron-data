@@ -41,8 +41,6 @@ holding squirming young cover the creature's abdomen._
 
 **Size:** small
 
-**source:** Pathfinder \#144: Midwives to Death/80
-
 **Experience points:** 600
 
 **Armor class:** 15/15/11

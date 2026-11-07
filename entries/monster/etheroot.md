@@ -47,8 +47,6 @@ mouth at the end of a long stalk._
 
 **Senses:** See invisibility
 
-**source:** Planar Adventures/233
-
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

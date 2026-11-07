@@ -49,8 +49,6 @@ _Seemingly human at first glance, this feathered woman conceals wings beneath a 
 
 **Perception:** +6 (+8 in dim light or darkness)
 
-**source:** Inner Sea Monster Codex/54
-
 **Experience points:** 800
 
 **Armor class:** 17/13/14

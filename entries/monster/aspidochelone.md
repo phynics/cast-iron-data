@@ -48,8 +48,6 @@ plunging beneath the waves._
 
 **Perception:** -2
 
-**source:** Pathfinder \#27: What Lies in Dust/78
-
 **Subtype:** Aquatic
 
 **Experience points:** 102,400

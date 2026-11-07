@@ -46,8 +46,6 @@ buzzing, writhing swarm._
 
 **Senses:** Detect evil, Detect good
 
-**source:** Fey Revisited/62
-
 **Subtype:** Swarm
 
 **Experience points:** 1,600

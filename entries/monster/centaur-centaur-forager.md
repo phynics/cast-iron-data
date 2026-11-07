@@ -46,8 +46,6 @@ enough to suit her powerful frame, hang from her body._
 
 **Perception:** +13
 
-**source:** Inner Sea Monster Codex/7
-
 **Experience points:** 2,400
 
 **Armor class:** 17/12/14

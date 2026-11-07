@@ -41,8 +41,6 @@ _A broken mask gives this smoky, ghostly figure a bitter, unwavering gaze._
 
 **Senses:** Sense apostate
 
-**source:** Inner Sea Bestiary/4
-
 **Subtype:** Incorporeal
 
 **Type:** undead

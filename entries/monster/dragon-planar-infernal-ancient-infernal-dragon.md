@@ -45,8 +45,6 @@ _Cruel horns frame this dragon's head. Its body glows faintly with malicious hea
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 6/103
-
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 409,600

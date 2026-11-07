@@ -43,8 +43,6 @@ fluidity of a living creature._
 
 **Perception:** +12
 
-**source:** Bestiary 3/257
-
 **Experience points:** 4,800
 
 **Armor class:** 22/11/20

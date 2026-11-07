@@ -48,8 +48,6 @@ center of its maw rests a glowing evil eye._
 
 **Perception:** +27
 
-**source:** Inner Sea Bestiary/47
-
 **tremorsense:** 180
 
 **Experience points:** 819,200

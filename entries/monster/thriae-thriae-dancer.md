@@ -44,8 +44,6 @@ covers most of her face._
 
 **Senses:** Detect secret doors
 
-**source:** Bestiary 5/245;Pathfinder \#81: Shifting Sands/90
-
 **Experience points:** 2,400
 
 **Armor class:** 19/13/16

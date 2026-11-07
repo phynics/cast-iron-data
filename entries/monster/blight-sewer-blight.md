@@ -46,8 +46,6 @@ two long, slimy, claw-tipped tentacles._
 
 **Perception:** +23
 
-**source:** Bestiary 6/43
-
 **Subtype:** Blight
 
 **Experience points:** 51,200

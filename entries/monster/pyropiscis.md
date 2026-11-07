@@ -47,8 +47,6 @@ from between its jagged teeth._
 
 **Perception:** +10
 
-**source:** Pathfinder \#95: Anvil of Fire/90
-
 **Subtype:** Fire
 
 **tremorsense:** 60

@@ -47,8 +47,6 @@ body._
 
 **Perception:** +16
 
-**source:** Bestiary 4/208
-
 **Subtype:** Water
 
 **tremorParens:** in water only

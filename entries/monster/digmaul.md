@@ -43,8 +43,6 @@ _This muscular, cougar-like cat has fearsome teeth and a thick tail ending in a 
 
 **Sense:** Scent
 
-**source:** Bestiary 5/82
-
 **Experience points:** 800
 
 **Armor class:** 16/15/11

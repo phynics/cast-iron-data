@@ -50,8 +50,6 @@ extending from below._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/148
-
 **Subtype:** Chaotic, Extraplanar, Great Old One
 
 **Experience points:** 9,830,400

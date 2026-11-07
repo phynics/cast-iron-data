@@ -44,8 +44,6 @@ talons and claws._
 
 **Perception:** +13
 
-**source:** Bestiary 2/190
-
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 4,800

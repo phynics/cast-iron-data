@@ -46,8 +46,6 @@ their midst._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#56: Raiders of the Fever Sea/88
-
 **Subtype:** Aquatic
 
 **Size:** tiny

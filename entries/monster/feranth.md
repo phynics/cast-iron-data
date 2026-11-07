@@ -44,8 +44,6 @@ beneath its mottled black hide._
 
 **Perception:** +16
 
-**source:** Pathfinder \#90: The Divinity Drive/82
-
 **tremorsense:** 120
 
 **Experience points:** 38,400

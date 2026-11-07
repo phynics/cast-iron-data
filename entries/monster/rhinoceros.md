@@ -40,8 +40,6 @@ _This rhinoceros has a low-slung head with twisted ears that lie back along its 
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/235
-
 **Experience points:** 1,200
 
 **Armor class:** 16/9/16

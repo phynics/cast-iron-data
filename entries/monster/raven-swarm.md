@@ -41,8 +41,6 @@ of beady eyes._
 
 **Perception:** +11
 
-**source:** Bestiary 6/240
-
 **Subtype:** Swarm
 
 **Size:** tiny

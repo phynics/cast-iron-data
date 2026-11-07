@@ -42,8 +42,6 @@ wildly, eager for prey._
 
 **Perception:** +5
 
-**source:** Bestiary 3/60
-
 **Subtype:** Aquatic
 
 **Type:** vermin

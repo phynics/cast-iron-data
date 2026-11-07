@@ -45,8 +45,6 @@ _Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed s
 
 **Perception:** +0
 
-**source:** Bestiary 4/33
-
 **Subtype:** Clockwork
 
 **Experience points:** 2,400

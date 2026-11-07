@@ -43,8 +43,6 @@ _This strange ghostly creature seems to writhe in the throes of some uncontrolla
 
 **Perception:** +8
 
-**source:** Bestiary 5/190
-
 **Subtype:** Phantom
 
 **Experience points:** 1,200

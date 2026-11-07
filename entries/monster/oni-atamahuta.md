@@ -46,8 +46,6 @@ and tattoos decorating its forehead._
 
 **Perception:** +24
 
-**source:** Pathfinder \#51: The Hungry Storm/86
-
 **Subtype:** Oni, Giant, Native, Shapechanger
 
 **Experience points:** 12,800

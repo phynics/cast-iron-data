@@ -45,8 +45,6 @@ eel-like creature._
 
 **Perception:** +26
 
-**source:** Bestiary 6/253
-
 **Subtype:** Aquatic
 
 **Experience points:** 25,600

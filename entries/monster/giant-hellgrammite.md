@@ -42,8 +42,6 @@ sides._
 
 **Perception:** +3
 
-**source:** Bestiary 6/14;Pathfinder \#49: The Brinewall Legacy/83
-
 **Subtype:** Aquatic
 
 **Type:** vermin

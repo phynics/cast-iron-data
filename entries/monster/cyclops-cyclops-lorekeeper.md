@@ -47,8 +47,6 @@ his toned muscles and a lingering stench of blood._
 
 **Perception:** +29
 
-**source:** Inner Sea Monster Codex/21
-
 **Subtype:** Giant
 
 **Experience points:** 25,600

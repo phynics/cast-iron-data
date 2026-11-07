@@ -51,8 +51,6 @@ terrifying size, as it opens its steam-shrouded maw with a hiss._
 
 **Senses:** True seeing
 
-**source:** Pathfinder \#50: Night of Frozen Shadows/84
-
 **Subtype:** Aquatic
 
 **Experience points:** 51,200

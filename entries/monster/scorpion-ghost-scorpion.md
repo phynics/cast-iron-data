@@ -39,8 +39,6 @@ internal organs._
 
 **Size:** small
 
-**source:** Bestiary 3/237
-
 **tremorsense:** 60
 
 **Type:** vermin

@@ -48,8 +48,6 @@ stout legs._
 
 **Senses:** True seeing
 
-**source:** Bestiary 2/70
-
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 307,200

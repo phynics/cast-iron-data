@@ -43,8 +43,6 @@ fangs._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/255
-
 **Experience points:** 400
 
 **Armor class:** 14/11/13

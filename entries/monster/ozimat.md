@@ -44,8 +44,6 @@ _Chunks of rock spin about a humanoid form of vibrant green light._
 
 **Perception:** +23
 
-**source:** Planes of Power/62
-
 **Subtype:** Earth, Elemental, Extraplanar, Incorporeal
 
 **Experience points:** 12,800

@@ -42,8 +42,6 @@ stink clinging to it._
 
 **Perception:** +5
 
-**source:** Bestiary 3/8;Misfit Monsters Redeemed/9
-
 **Experience points:** 800
 
 **Armor class:** 17/13/14

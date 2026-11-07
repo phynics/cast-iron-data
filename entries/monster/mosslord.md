@@ -48,8 +48,6 @@ and mouthless._
 
 **Senses:** See invisibility
 
-**source:** Bestiary 6/194
-
 **Experience points:** 153,600
 
 **Armor class:** 33/19/23

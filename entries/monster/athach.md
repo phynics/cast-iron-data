@@ -46,8 +46,6 @@ appearance truly bizarre._
 
 **Perception:** +12
 
-**source:** Bestiary 2/33
-
 **Subtype:** Giant
 
 **Experience points:** 19,200

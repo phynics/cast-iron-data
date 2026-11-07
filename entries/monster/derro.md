@@ -44,8 +44,6 @@ club._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/70
-
 **Subtype:** Derro
 
 **Experience points:** 800

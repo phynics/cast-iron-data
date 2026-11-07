@@ -39,8 +39,6 @@ presenting a frightening visage._
 
 **Perception:** +14
 
-**source:** Bestiary 3/40
-
 **Type:** undead
 
 **Experience points:** 2,400

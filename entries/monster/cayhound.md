@@ -45,8 +45,6 @@ the distant sound of thunder._
 
 **Sense:** Scent
 
-**source:** Inner Sea Bestiary/8
-
 **Experience points:** 1,600
 
 **Armor class:** 18/12/16

@@ -45,8 +45,6 @@ together._
 
 **Size:** small
 
-**source:** Bestiary 4/225
-
 **Experience points:** 1,600
 
 **Armor class:** 18/16/13

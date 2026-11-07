@@ -50,8 +50,6 @@ serpents with countless hissing jaws._
 
 **Perception:** +23
 
-**source:** Bestiary 6/206
-
 **Subtype:** Extraplanar
 
 **Experience points:** 409,600

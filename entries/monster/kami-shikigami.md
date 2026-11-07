@@ -41,8 +41,6 @@ _This tiny, crudely carved statue of a robed man has glowing runes running acros
 
 **Perception:** +11
 
-**source:** Bestiary 3/163
-
 **Subtype:** Kami, Native
 
 **Size:** tiny

@@ -43,8 +43,6 @@ _This lanky, yellow-eyed drunk sways unsteadily, draped in the stink of barley a
 
 **Perception:** +4
 
-**source:** Taldor, the First Empire/58
-
 **Experience points:** 1,600
 
 **Armor class:** 17/17/15

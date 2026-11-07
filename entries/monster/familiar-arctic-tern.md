@@ -38,8 +38,6 @@ _This white-and-gray bird has a reddish-orange beak._
 
 **Perception:** +6
 
-**source:** Ultimate Wilderness/192;Reign of Winter Player's Guide/10
-
 **Size:** tiny
 
 **Experience points:** 65

@@ -46,8 +46,6 @@ mouth filled with sharp teeth._
 
 **Perception:** +5
 
-**source:** Bestiary 5/202
-
 **Subtype:** Reptilian, Shapechanger
 
 **Experience points:** 200

@@ -45,8 +45,6 @@ from under its rib cage._
 
 **Perception:** +0
 
-**source:** Bestiary 4/264
-
 **Experience points:** 600
 
 **Armor class:** 10/8/9

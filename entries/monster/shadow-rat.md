@@ -39,8 +39,6 @@ Its semi-translucent skin shows discolored bones and muscles._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#91: Battle of Bloodmarch Hills/31;Tome of Horrors Complete (PF)/504
-
 **Size:** tiny
 
 **Type:** undead

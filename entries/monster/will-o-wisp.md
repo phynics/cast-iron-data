@@ -43,8 +43,6 @@ skull visible somewhere in its depths._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/277
-
 **Subtype:** Air
 
 **Experience points:** 2,400

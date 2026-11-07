@@ -42,8 +42,6 @@ grub-like body._
 
 **Perception:** +10
 
-**source:** Inner Sea Bestiary/53
-
 **Subtype:** Incorporeal
 
 **Experience points:** 1,600

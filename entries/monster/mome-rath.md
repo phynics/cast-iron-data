@@ -44,8 +44,6 @@ prehensile tail hold it in the trees._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#119: Prisoners of the Blight/82
-
 **Experience points:** 600
 
 **Armor class:** 12/11/11

@@ -48,8 +48,6 @@ mouth with ill-fitting teeth._
 
 **Perception:** +7
 
-**source:** Monster Codex/155
-
 **Subtype:** Giant
 
 **Experience points:** 3,200

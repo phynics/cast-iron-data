@@ -43,8 +43,6 @@ _This striking, blue-eyed man with luminous skin and flowing white hair holds an
 
 **Perception:** +16
 
-**source:** Bestiary 4/114
-
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

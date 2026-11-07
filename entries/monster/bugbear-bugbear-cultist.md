@@ -47,8 +47,6 @@ the thrill of the coming kill._
 
 **Sense:** Scent
 
-**source:** Monster Codex/24
-
 **Subtype:** Goblinoid
 
 **Experience points:** 3,200

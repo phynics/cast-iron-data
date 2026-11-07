@@ -45,8 +45,6 @@ greasy black hair._
 
 **Perception:** -1
 
-**source:** Pathfinder RPG Bestiary/222
-
 **Experience points:** 135
 
 **Armor class:** 13/10/13

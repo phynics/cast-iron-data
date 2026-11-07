@@ -46,8 +46,6 @@ shoulders._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/39
-
 **tremorsense:** 60
 
 **Experience points:** 3,200

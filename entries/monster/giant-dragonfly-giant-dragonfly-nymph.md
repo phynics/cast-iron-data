@@ -41,8 +41,6 @@ farm animals or people._
 
 **Size:** small
 
-**source:** Bestiary 2/105
-
 **Subtype:** Aquatic
 
 **Type:** vermin

@@ -46,8 +46,6 @@ lengthy contracts._
 
 **Sense:** Sid
 
-**source:** Bestiary 3/76;Pathfinder \#12: Crown of Fangs/86
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 9,600

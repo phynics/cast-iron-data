@@ -41,8 +41,6 @@ water._
 
 **Perception:** +0
 
-**source:** Ultimate Wilderness/208
-
 **Subtype:** Aquatic
 
 **Type:** vermin

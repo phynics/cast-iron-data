@@ -46,8 +46,6 @@ tentacles sporting razor-edged ridges protrudes from the sides of its mouth._
 
 **Perception:** +7
 
-**source:** Pathfinder \#139: The Dead Road/84
-
 **Subtype:** Extraplanar
 
 **Experience points:** 1,200

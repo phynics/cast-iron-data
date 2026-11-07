@@ -45,8 +45,6 @@ cloud of heady incense about her form doesn't conceal the distinct scent of brim
 
 **Perception:** +12
 
-**source:** Inner Sea Monster Codex/45
-
 **Experience points:** 25,600
 
 **Armor class:** 24/10/24

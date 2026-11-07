@@ -46,8 +46,6 @@ seasoned combatant._
 
 **Perception:** +16
 
-**source:** Inner Sea Monster Codex/42
-
 **Experience points:** 2,400
 
 **Armor class:** 19/11/17

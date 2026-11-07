@@ -43,8 +43,6 @@ _This creature has the body of a hawk and the head of a beautiful woman with lon
 
 **Perception:** +15
 
-**source:** Bestiary 2/247;Pathfinder \#14: Children of the Void/84
-
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

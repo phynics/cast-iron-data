@@ -40,8 +40,6 @@ _This small, plump rodent has a calico mix of color and a short tail._
 
 **Perception:** +1
 
-**source:** Ultimate Wilderness/200;Reign of Winter Player's Guide/10
-
 **Experience points:** 50
 
 **Armor class:** 15/15/14

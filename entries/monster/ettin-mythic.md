@@ -47,8 +47,6 @@ _Flies buzz around this bestial, two-headed giant, and maggots squirm in the fol
 
 **Perception:** +12
 
-**source:** Mythic Adventures/197
-
 **Subtype:** Giant, Mythic
 
 **Experience points:** 4,800

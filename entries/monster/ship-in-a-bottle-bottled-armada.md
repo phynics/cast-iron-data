@@ -43,8 +43,6 @@ one, coordinating their attacks._
 
 **Perception:** +15
 
-**source:** Pathfinder \#57: Tempest Rising/86
-
 **Subtype:** Swarm
 
 **Size:** tiny

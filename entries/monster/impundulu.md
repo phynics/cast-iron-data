@@ -49,8 +49,6 @@ scalloped with vicious, jagged barbs._
 
 **Perception:** +21
 
-**source:** Pathfinder \#40: Vaults of Madness/80
-
 **Subtype:** Evil, Extraplanar, Shapechanger
 
 **Experience points:** 12,800

@@ -45,8 +45,6 @@ tail, and gait give it a degenerate, bestial appearance._
 
 **Perception:** +6
 
-**source:** Monster Codex/160
-
 **Subtype:** Giant
 
 **Experience points:** 1,200

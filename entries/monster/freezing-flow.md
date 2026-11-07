@@ -43,8 +43,6 @@ _This transparent blue formation of ice is as forbidding as the serpent it resem
 
 **Perception:** -5
 
-**source:** Bestiary 4/115
-
 **Subtype:** Cold, Water
 
 **Experience points:** 1,200

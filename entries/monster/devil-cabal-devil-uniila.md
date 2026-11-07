@@ -49,8 +49,6 @@ the faintest outlines of a veiled face and a pair of eyes flickering with barely
 
 **Sense:** Sid
 
-**source:** Pathfinder \#28: The Infernal Syndrome/86
-
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
 
 **Experience points:** 9,600

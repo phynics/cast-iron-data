@@ -46,8 +46,6 @@ of a feline predator._
 
 **Senses:** True seeing
 
-**source:** Pathfinder \#82: Secrets of the Sphinx/88
-
 **Experience points:** 12,800
 
 **Armor class:** 24/8/24

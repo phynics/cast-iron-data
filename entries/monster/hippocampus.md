@@ -47,8 +47,6 @@ splayed fins rather than hooves._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/155
-
 **Subtype:** Aquatic
 
 **Experience points:** 400

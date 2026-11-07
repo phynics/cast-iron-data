@@ -43,8 +43,6 @@ abilities = ["31", "8", "25", "20", "25", "20"]
 
 **Senses:** Dragon senses
 
-**source:** Pathfinder \#131: The Reaper's Right Hand/88
-
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 76,800

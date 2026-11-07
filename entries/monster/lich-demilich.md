@@ -39,8 +39,6 @@ dust and shimmering magic._
 
 **Senses:** True seeing
 
-**source:** Bestiary 3/66
-
 **Size:** tiny
 
 **Type:** undead

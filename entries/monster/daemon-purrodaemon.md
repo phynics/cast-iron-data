@@ -47,8 +47,6 @@ vulture-like head._
 
 **Senses:** True seeing
 
-**source:** Bestiary 2/73
-
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 153,600

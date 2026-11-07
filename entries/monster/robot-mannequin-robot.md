@@ -44,8 +44,6 @@ _This impassive humanoid has shiny, pale skin and an eerily expressionless face.
 
 **Perception:** +6
 
-**source:** Numeria, Land of Fallen Stars/57
-
 **Subtype:** Robot
 
 **Experience points:** 600

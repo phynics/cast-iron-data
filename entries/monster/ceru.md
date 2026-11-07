@@ -42,8 +42,6 @@ and ears are clawed and spiked._
 
 **Perception:** +6
 
-**source:** Inner Sea Bestiary/9
-
 **Size:** tiny
 
 **Experience points:** 600

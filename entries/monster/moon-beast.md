@@ -42,8 +42,6 @@ snout ending in pink tentacles._
 
 **Perception:** +21
 
-**source:** Bestiary 3/195
-
 **Experience points:** 12,800
 
 **Armor class:** 25/13/21

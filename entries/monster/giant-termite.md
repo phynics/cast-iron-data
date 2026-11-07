@@ -41,8 +41,6 @@ _This pony-sized insect has long black mandibles and a banded abdomen of white._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/242
-
 **tremorsense:** 60
 
 **Type:** vermin

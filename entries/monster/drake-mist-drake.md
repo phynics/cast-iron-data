@@ -50,8 +50,6 @@ with the mist._
 
 **Senses:** Fogvision
 
-**source:** Bestiary 4/79
-
 **Subtype:** Air
 
 **Experience points:** 1,600

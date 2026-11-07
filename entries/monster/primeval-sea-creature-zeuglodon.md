@@ -43,8 +43,6 @@ wide, fluked tail. Razor-sharp teeth fill its almost reptilian mouth._
 
 **Perception:** +20
 
-**source:** Pathfinder \#60: From Hell's Heart/89
-
 **Experience points:** 6,400
 
 **Armor class:** 25/11/20

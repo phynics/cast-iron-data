@@ -48,8 +48,6 @@ on stout cloven hooves._
 
 **Senses:** True seeing
 
-**source:** Inner Sea Bestiary/26
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,638,400

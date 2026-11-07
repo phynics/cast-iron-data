@@ -50,8 +50,6 @@ _This titanic golden statue of a great knight moves of its own accord and hefts 
 
 **Sense:** Sid
 
-**source:** Inner Sea Gods/276
-
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 51,200

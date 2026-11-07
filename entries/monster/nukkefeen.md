@@ -42,8 +42,6 @@ _This eerie creature resembles a human with oddly segmented limbs, waxen skin, a
 
 **Perception:** +7
 
-**source:** Gallows of Madness/63
-
 **Experience points:** 400
 
 **Armor class:** 12/12/10

@@ -45,8 +45,6 @@ body._
 
 **Perception:** +15
 
-**source:** Pathfinder \#86: Lords of Rust/88
-
 **Subtype:** Robot
 
 **Size:** tiny

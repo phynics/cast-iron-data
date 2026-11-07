@@ -49,8 +49,6 @@ and her bestial legs._
 
 **Perception:** +37
 
-**source:** Bestiary 5/124
-
 **Subtype:** Earth, Mythic
 
 **tremorsense:** 120

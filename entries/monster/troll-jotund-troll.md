@@ -48,8 +48,6 @@ with jutting teeth and tusks._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/272
-
 **Subtype:** Giant
 
 **Experience points:** 51,200

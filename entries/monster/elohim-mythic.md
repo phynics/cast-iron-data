@@ -54,8 +54,6 @@ single winged entity._
 
 **Senses:** Deathwatch
 
-**source:** Bestiary 4/86
-
 **Subtype:** Extraplanar, Mythic
 
 **Experience points:** 819,200

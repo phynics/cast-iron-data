@@ -42,8 +42,6 @@ flippers instead of feet._
 
 **Perception:** +7
 
-**source:** Bestiary 4/271
-
 **Experience points:** 800
 
 **Armor class:** 17/9/17

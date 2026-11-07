@@ -44,8 +44,6 @@ _This gaunt mermaid has a long, semi-transparent tail with a vivid red crest and
 
 **Perception:** +2
 
-**source:** Bestiary 5/172
-
 **Subtype:** Aquatic
 
 **Experience points:** 800

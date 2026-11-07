@@ -45,8 +45,6 @@ barbed whips of calloused flesh._
 
 **Perception:** +15
 
-**source:** Pathfinder \#96: Shadow of the Storm Tyrant/88
-
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 3,200

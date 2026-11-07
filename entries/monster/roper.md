@@ -45,8 +45,6 @@ fibrous material whip from its sides._
 
 **Perception:** +24
 
-**source:** Pathfinder RPG Bestiary/237
-
 **Experience points:** 19,200
 
 **Armor class:** 27/10/26

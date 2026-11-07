@@ -46,8 +46,6 @@ ends in a serpentine tail._
 
 **Perception:** +10
 
-**source:** Bestiary 6/213;Pathfinder \#92: The Hill Giant's Pledge/86
-
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 1,200

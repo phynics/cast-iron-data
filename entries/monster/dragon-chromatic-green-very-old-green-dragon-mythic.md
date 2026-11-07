@@ -54,8 +54,6 @@ horn rises from its snout._
 
 **Perception:** +32
 
-**source:** Mythic Adventures/189
-
 **Subtype:** Air, Mythic
 
 **Experience points:** 307,200

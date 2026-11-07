@@ -47,8 +47,6 @@ appear to have burst forth from rugged stone._
 
 **Perception:** +17
 
-**source:** Pathfinder \#53: Tide of Honor/88
-
 **Subtype:** Giant, Native, Oni, Shapechanger
 
 **Experience points:** 25,600

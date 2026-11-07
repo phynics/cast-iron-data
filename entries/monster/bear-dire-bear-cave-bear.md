@@ -43,8 +43,6 @@ bony growths._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/31
-
 **Experience points:** 3,200
 
 **Armor class:** 18/10/17

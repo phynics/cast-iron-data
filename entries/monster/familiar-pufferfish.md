@@ -39,8 +39,6 @@ from its body._
 
 **Perception:** +5
 
-**source:** Ultimate Wilderness/203;Familiar Folio/25
-
 **Size:** tiny
 
 **Experience points:** 100

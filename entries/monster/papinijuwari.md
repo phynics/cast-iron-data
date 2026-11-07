@@ -47,8 +47,6 @@ Its breath reeks of pestilence._
 
 **Senses:** Sense decay
 
-**source:** Bestiary 5/188
-
 **Subtype:** Giant
 
 **Experience points:** 25,600

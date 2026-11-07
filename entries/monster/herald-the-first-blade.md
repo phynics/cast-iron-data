@@ -52,8 +52,6 @@ some merciless warlord._
 
 **Senses:** Ironsense 60 ft.
 
-**source:** Inner Sea Gods/288;Pathfinder \#35: War of the River Kings/82
-
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 51,200

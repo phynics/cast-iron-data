@@ -44,8 +44,6 @@ with streaks of shimmering color._
 
 **Perception:** +15
 
-**source:** Bestiary 4/126
-
 **Subtype:** Giant
 
 **tremorsense:** 30

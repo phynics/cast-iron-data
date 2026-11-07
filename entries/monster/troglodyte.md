@@ -45,8 +45,6 @@ tail and crests on its head and back._
 
 **Perception:** +0
 
-**source:** Pathfinder RPG Bestiary/267
-
 **Subtype:** Reptilian
 
 **Experience points:** 400

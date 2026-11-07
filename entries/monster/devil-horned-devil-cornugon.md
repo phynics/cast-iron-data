@@ -46,8 +46,6 @@ whirling barbed chain._
 
 **Sense:** Sid
 
-**source:** Pathfinder RPG Bestiary/76
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 76,800

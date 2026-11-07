@@ -43,8 +43,6 @@ between the shell halves._
 
 **Perception:** +2
 
-**source:** Seers of the Drowned City/60
-
 **Subtype:** Aquatic
 
 **Type:** vermin

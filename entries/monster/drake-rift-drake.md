@@ -48,8 +48,6 @@ places on its winged arms._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/106
-
 **Subtype:** Earth
 
 **Experience points:** 6,400

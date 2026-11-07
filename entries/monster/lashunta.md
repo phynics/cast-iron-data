@@ -45,8 +45,6 @@ _Delicate antennae extend from the forehead of this lithe woman._
 
 **Perception:** +2
 
-**source:** Inner Sea Bestiary/25
-
 **Experience points:** 200
 
 **Armor class:** 11/11/10

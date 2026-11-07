@@ -41,8 +41,6 @@ beneath it._
 
 **Perception:** +3
 
-**source:** Bestiary 5/155;Tears at Bitter Manor/62
-
 **tremorsense:** 30
 
 **Type:** undead

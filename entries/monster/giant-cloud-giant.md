@@ -46,8 +46,6 @@ hair flutters as if in a breeze._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/147
-
 **Subtype:** Giant
 
 **Experience points:** 12,800

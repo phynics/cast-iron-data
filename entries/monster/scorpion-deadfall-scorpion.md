@@ -40,8 +40,6 @@ scorpion._
 
 **Perception:** +6
 
-**source:** Bestiary 3/237
-
 **tremorsense:** 60
 
 **Type:** vermin

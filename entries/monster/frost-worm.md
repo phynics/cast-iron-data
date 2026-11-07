@@ -46,8 +46,6 @@ up from between its mandibles._
 
 **Perception:** +17
 
-**source:** Bestiary 2/126
-
 **Subtype:** Cold
 
 **Experience points:** 19,200

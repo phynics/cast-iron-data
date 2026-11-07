@@ -46,8 +46,6 @@ abilities = ["28", "10", "20", "13", "23", "14"]
 
 **Senses:** Snowcaster
 
-**source:** Monster Codex/74
-
 **Subtype:** Cold, Giant
 
 **Experience points:** 38,400

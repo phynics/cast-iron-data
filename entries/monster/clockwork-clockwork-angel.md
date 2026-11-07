@@ -46,8 +46,6 @@ gaps of its metallic body._
 
 **Perception:** +6
 
-**source:** Bestiary 6/58
-
 **Subtype:** Clockwork
 
 **Experience points:** 51,200

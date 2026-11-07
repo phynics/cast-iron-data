@@ -39,8 +39,6 @@ _This ravenous beetle is the size of a pony, and sports a pair of deadly, serrat
 
 **Perception:** +0
 
-**source:** Inner Sea Bestiary/5
-
 **Type:** vermin
 
 **Experience points:** 600

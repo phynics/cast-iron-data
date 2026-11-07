@@ -47,8 +47,6 @@ _Waves of searing heat ripple from the stony, gem-encrusted hide of this enormou
 
 **Perception:** +16
 
-**source:** Bestiary 6/128
-
 **Subtype:** Extraplanar
 
 **Experience points:** 76,800

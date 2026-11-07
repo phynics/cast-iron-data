@@ -41,8 +41,6 @@ abilities = ["20", "18", "-", "15", "14", "18"]
 
 **Perception:** +17
 
-**source:** Monster Codex/86
-
 **Type:** undead
 
 **Experience points:** 9,600

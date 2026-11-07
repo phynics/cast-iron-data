@@ -43,8 +43,6 @@ vortex of mist and wind._
 
 **Perception:** +12
 
-**source:** Pathfinder RPG Bestiary/139
-
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 1,600

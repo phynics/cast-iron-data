@@ -46,8 +46,6 @@ wicked-looking longbow._
 
 **Perception:** +19
 
-**source:** Mythical Monsters Revisited/27
-
 **Experience points:** 12,800
 
 **Armor class:** 24/17/18

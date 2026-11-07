@@ -45,8 +45,6 @@ teeth filling her gaping maw._
 
 **Perception:** +21
 
-**source:** Bestiary 4/227;Pathfinder \#54: The Empty Throne/90
-
 **Experience points:** 38,400
 
 **Armor class:** 28/16/22

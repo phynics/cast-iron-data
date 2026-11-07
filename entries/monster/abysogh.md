@@ -44,8 +44,6 @@ taut as if in perpetual convulsion._
 
 **Perception:** +12
 
-**source:** Pathfinder \#96: Shadow of the Storm Tyrant/84
-
 **Subtype:** Giant
 
 **Experience points:** 51,200

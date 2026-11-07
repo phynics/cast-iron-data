@@ -45,8 +45,6 @@ destination._
 
 **Type:** plant
 
-**source:** Bestiary 4/158
-
 **Subtype:** Extraplanar, Mythic
 
 **tremorsense:** 100

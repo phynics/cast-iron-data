@@ -43,8 +43,6 @@ _Dozens of long, sharp spines line the back and tail of this dark-gray cat._
 
 **Size:** small
 
-**source:** Pathfinder \#103: The Hellfire Compact/87
-
 **Experience points:** 400
 
 **Armor class:** 13/13/11

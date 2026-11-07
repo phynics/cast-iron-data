@@ -40,8 +40,6 @@ _This towering collection of sun-bleached bones is assembled in a humanoid form.
 
 **Perception:** +26
 
-**source:** Pathfinder \#83: The Slave Trenches of Hakotep/88
-
 **Subtype:** Earth
 
 **tremorsense:** 100

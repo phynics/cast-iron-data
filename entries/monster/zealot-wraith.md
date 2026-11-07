@@ -41,8 +41,6 @@ black pits for eyes and an expression of sorrow and horror._
 
 **Perception:** +16
 
-**source:** Cheliax, the Infernal Empire/63
-
 **Subtype:** Incorporeal
 
 **Type:** undead

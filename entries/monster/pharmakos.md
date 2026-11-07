@@ -46,8 +46,6 @@ upper torso of a deformed man._
 
 **Senses:** See invisibility
 
-**source:** Curse of the Crimson Throne/475
-
 **Subtype:** Aquatic
 
 **tremorsense:** 120

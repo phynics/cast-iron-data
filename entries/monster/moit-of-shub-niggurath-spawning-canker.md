@@ -42,8 +42,6 @@ deeper into and escape from its fleshy husk._
 
 **Perception:** +15
 
-**source:** Pathfinder \#46: Wake of the Watcher/88
-
 **Experience points:** 6,400
 
 **Armor class:** 21/17/16

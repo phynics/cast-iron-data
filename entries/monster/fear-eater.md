@@ -43,8 +43,6 @@ _A distressingly humanoid face and stubby arms grow from this maggot-like creatu
 
 **Perception:** +12
 
-**source:** Occult Bestiary/27
-
 **Experience points:** 1,600
 
 **Armor class:** 18/16/12

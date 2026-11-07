@@ -44,8 +44,6 @@ darts quickly forward, shouting curses and swinging its fists._
 
 **Size:** small
 
-**source:** Pathfinder \#40: Vaults of Madness/88
-
 **Subtype:** Aquatic
 
 **Type:** undead

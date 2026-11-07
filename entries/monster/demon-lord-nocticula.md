@@ -51,8 +51,6 @@ hooves, and her three tails are studded with barbs._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#76: The Midnight Isles/86
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 9,830,400

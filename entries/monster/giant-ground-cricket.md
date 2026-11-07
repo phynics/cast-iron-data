@@ -38,8 +38,6 @@ _Long spines jut from the legs and back of this enormous cricket._
 
 **Perception:** +0
 
-**source:** Pathfinder \#116: Fangs of War/84
-
 **Type:** vermin
 
 **Experience points:** 600

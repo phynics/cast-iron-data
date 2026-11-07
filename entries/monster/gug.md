@@ -42,8 +42,6 @@ into twin clawed hands._
 
 **Perception:** +27
 
-**source:** Bestiary 2/151;Pathfinder \#11: Skeletons of Scarwall/82
-
 **Experience points:** 9,600
 
 **Armor class:** 24/10/23

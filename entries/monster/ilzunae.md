@@ -46,8 +46,6 @@ her fiendish nature._
 
 **Perception:** +31
 
-**source:** Demons Revisited/32
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Incorporeal
 
 **Experience points:** 204,800

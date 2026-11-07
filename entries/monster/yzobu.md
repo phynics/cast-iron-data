@@ -46,8 +46,6 @@ long-haired yak._
 
 **Sense:** Scent
 
-**source:** Monster Codex/124
-
 **Experience points:** 400
 
 **Armor class:** 13/10/12

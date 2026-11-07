@@ -45,8 +45,6 @@ scrolls and wands. Winding, swirling tattoos climb across his body and face._
 
 **Perception:** +16
 
-**source:** Inner Sea Monster Codex/8
-
 **Experience points:** 3,200
 
 **Armor class:** 13/12/11

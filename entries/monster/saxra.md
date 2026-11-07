@@ -41,8 +41,6 @@ by an eerie red glow._
 
 **Perception:** +33
 
-**source:** Bestiary 5/220
-
 **Subtype:** Air
 
 **Type:** undead

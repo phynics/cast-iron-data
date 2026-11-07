@@ -46,8 +46,6 @@ _This masked humanoid being has wings and armor of rune-carved gray stone, and i
 
 **Senses:** True seeing
 
-**source:** Bestiary 5/35
-
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 102,400

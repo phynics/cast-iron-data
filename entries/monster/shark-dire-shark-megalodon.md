@@ -44,8 +44,6 @@ swallowing a horse whole._
 
 **Perception:** +25
 
-**source:** Pathfinder RPG Bestiary/247
-
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

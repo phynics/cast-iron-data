@@ -42,8 +42,6 @@ placid eyes._
 
 **Perception:** +14
 
-**source:** Bestiary 4/263
-
 **Experience points:** 4,800
 
 **Armor class:** 25/0/25

@@ -46,8 +46,6 @@ _The feet and tongue of this minuscule gold-scaled dragon are stained with ink._
 
 **Perception:** +7
 
-**source:** Legacy of Dragons/26
-
 **Experience points:** 600
 
 **Armor class:** 17/17/14

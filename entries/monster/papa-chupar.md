@@ -46,8 +46,6 @@ from its hunched shoulders._
 
 **Perception:** +9
 
-**source:** Mystery Monsters Revisited/14
-
 **Experience points:** 3,200
 
 **Armor class:** 19/13/16

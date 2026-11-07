@@ -43,8 +43,6 @@ within by crimson embers._
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 2/102
-
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

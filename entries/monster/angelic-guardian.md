@@ -44,8 +44,6 @@ form of a burning crown._
 
 **Perception:** +0
 
-**source:** Magnimar, City of Monuments/52
-
 **Experience points:** 1,600
 
 **Armor class:** 18/12/16

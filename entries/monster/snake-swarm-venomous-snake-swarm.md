@@ -42,8 +42,6 @@ glinting in the light._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/249;Pathfinder \#39: The City of Seven Spears/82
-
 **Subtype:** Swarm
 
 **Size:** tiny

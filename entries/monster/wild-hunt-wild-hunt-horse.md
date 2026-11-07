@@ -50,8 +50,6 @@ in the wind._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/280
-
 **Subtype:** Wild hunt
 
 **Experience points:** 12,800

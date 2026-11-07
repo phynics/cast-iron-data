@@ -50,8 +50,6 @@ strange shapes twitch._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/18
-
 **Subtype:** Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 2,457,600

@@ -44,8 +44,6 @@ poking out the seams._
 
 **Perception:** +0
 
-**source:** Bestiary 4/246
-
 **Experience points:** 1,600
 
 **Armor class:** 16/9/16

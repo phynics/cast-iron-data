@@ -43,8 +43,6 @@ feet. A mass of barbed, black tentacles extends from its exposed abdomen._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#123: The Flooded Cathedral/84
-
 **Type:** undead
 
 **Experience points:** 2,400

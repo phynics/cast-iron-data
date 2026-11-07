@@ -43,8 +43,6 @@ smells of old decay._
 
 **Perception:** +22
 
-**source:** Bestiary 3/214
-
 **Type:** undead
 
 **Experience points:** 9,600

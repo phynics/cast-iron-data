@@ -52,8 +52,6 @@ body._
 
 **Senses:** Detect thoughts, True seeing
 
-**source:** Bestiary 4/222;Pathfinder \#48: Shadows of Gallowspire/86
-
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 307,200

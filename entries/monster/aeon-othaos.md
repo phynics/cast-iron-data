@@ -46,8 +46,6 @@ darkness._
 
 **Sense:** Sid
 
-**source:** Bestiary 5/10
-
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 1,600

@@ -48,8 +48,6 @@ reptilian maw is filled with tiny, sharp teeth._
 
 **Size:** small
 
-**source:** Bestiary 6/208;Pathfinder \#98: Turn of the Torrent/86
-
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 1,600

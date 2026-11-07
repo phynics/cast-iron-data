@@ -44,8 +44,6 @@ soil._
 
 **Perception:** +19
 
-**source:** Bestiary 6/145
-
 **Experience points:** 19,200
 
 **Armor class:** 27/21/21

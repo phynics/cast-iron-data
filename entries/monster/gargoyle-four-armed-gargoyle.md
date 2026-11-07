@@ -43,8 +43,6 @@ innocent passers-by. Then it moves - to do just that._
 
 **Perception:** +15
 
-**source:** Pathfinder \#48: Shadows of Gallowspire/84
-
 **Subtype:** Earth
 
 **Experience points:** 6,400

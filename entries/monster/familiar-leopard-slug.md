@@ -37,8 +37,6 @@ _This dark-yellow, hand-length slug is covered in a pattern of black spots and s
 
 **Perception:** -2
 
-**source:** Ultimate Wilderness/200;Familiar Folio/30
-
 **Type:** vermin
 
 **Experience points:** 0

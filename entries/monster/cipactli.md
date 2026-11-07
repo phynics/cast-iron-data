@@ -50,8 +50,6 @@ open in its body and tail._
 
 **Senses:** True seeing
 
-**source:** Bestiary 6/56
-
 **Subtype:** Aquatic
 
 **tremorsense:** 60

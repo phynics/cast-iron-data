@@ -46,8 +46,6 @@ mouth bisects the bulb's crown._
 
 **Type:** plant
 
-**source:** Bestiary 3/52
-
 **Experience points:** 800
 
 **Armor class:** 15/10/15

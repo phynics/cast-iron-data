@@ -42,8 +42,6 @@ ft.)
 
 **Senses:** Appraising sight, Dragon senses
 
-**source:** Bestiary 5/96
-
 **Experience points:** 9,600
 
 **Armor class:** 28/10/27

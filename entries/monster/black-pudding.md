@@ -43,8 +43,6 @@ darkly before surging forward._
 
 **Perception:** -5
 
-**source:** Pathfinder RPG Bestiary/35
-
 **Experience points:** 3,200
 
 **Armor class:** 3/3/3

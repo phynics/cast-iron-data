@@ -37,8 +37,6 @@ graying teeth clattering slightly as it bobs in the air._
 
 **Perception:** +0
 
-**source:** Pathfinder \#43: Haunting of Harrowstone/82
-
 **Size:** tiny
 
 **Type:** undead

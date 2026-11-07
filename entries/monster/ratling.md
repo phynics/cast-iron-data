@@ -44,8 +44,6 @@ with a toothy mouth._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 4/226;Pathfinder \#49: The Brinewall Legacy/86
-
 **Size:** tiny
 
 **Experience points:** 600

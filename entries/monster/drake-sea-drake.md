@@ -48,8 +48,6 @@ arms serve as both wings and flippers._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/109
-
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

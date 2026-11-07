@@ -45,8 +45,6 @@ _These songbird-sized drakes declare their territory with an insistent chorus of
 
 **Perception:** +8
 
-**source:** Pathfinder \#141: Last Watch/84
-
 **Subtype:** Swarm
 
 **Experience points:** 6,400

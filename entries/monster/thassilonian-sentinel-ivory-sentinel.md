@@ -45,8 +45,6 @@ whitened bone._
 
 **Size:** small
 
-**source:** Pathfinder \#134: It Came from Hollow Mountain/90
-
 **Experience points:** 3,200
 
 **Armor class:** 21/17/15

@@ -42,8 +42,6 @@ _This lithe, androgynous humanoid has unusually colored skin and an otherworldly
 
 **Perception:** +12
 
-**source:** Bestiary 5/264
-
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 3,200

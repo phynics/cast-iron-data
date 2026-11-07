@@ -41,8 +41,6 @@ with a single sharp fingernail._
 
 **Perception:** -5
 
-**source:** Bestiary 6/252
-
 **Size:** tiny
 
 **Experience points:** 200

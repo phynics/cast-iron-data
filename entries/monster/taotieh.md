@@ -43,8 +43,6 @@ etchings and runes._
 
 **Perception:** +2
 
-**source:** Bestiary 3/260
-
 **Experience points:** 12,800
 
 **Armor class:** 28/11/26

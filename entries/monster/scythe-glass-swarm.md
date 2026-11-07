@@ -45,8 +45,6 @@ _The razor-sharp wings of a thousand stained glass insects jingle with a resonan
 
 **Perception:** +0
 
-**source:** Pathfinder \#101: The Kintargo Contract/86
-
 **Subtype:** Swarm
 
 **Experience points:** 6,400

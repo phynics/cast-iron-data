@@ -44,8 +44,6 @@ form._
 
 **Perception:** +11
 
-**source:** Bestiary 2/45
-
 **Subtype:** Air, Elemental, Evil
 
 **Experience points:** 2,400

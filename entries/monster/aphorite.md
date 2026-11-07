@@ -44,8 +44,6 @@ to create strange runic shapes._
 
 **Perception:** +2
 
-**source:** Planar Adventures/224
-
 **Subtype:** Native
 
 **Experience points:** 200

@@ -42,8 +42,6 @@ toothy maw at its center._
 
 **Size:** small
 
-**source:** Bestiary 5/149
-
 **Experience points:** 800
 
 **Armor class:** 16/14/13

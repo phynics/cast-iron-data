@@ -49,8 +49,6 @@ projecting an air of cruelty._
 
 **Perception:** +28
 
-**source:** Bestiary 5/7
-
 **Experience points:** 3,200
 
 **Armor class:** 21/15/16

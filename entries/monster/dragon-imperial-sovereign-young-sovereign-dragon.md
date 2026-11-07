@@ -43,8 +43,6 @@ crown._
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 3/100
-
 **Experience points:** 12,800
 
 **Armor class:** 23/10/22

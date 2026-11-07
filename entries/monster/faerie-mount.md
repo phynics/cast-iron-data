@@ -43,8 +43,6 @@ _Short legs and overlarge ears make this broad-chested canine seem almost comica
 
 **Sense:** Scent
 
-**source:** Pathfinder \#119: Prisoners of the Blight/82
-
 **Experience points:** 400
 
 **Armor class:** 11/10/11

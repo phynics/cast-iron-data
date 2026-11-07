@@ -46,8 +46,6 @@ by a fanged maw._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 2/67
-
 **Subtype:** Aquatic, Daemon, Evil, Extraplanar
 
 **Experience points:** 4,800

@@ -43,8 +43,6 @@ stretch over ten feet across._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/187;Pathfinder \#31: Stolen Land/80
-
 **Experience points:** 1,200
 
 **Armor class:** 16/11/14

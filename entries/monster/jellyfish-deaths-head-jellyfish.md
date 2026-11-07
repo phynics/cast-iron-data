@@ -40,8 +40,6 @@ _This long-tentacled jellyfish has a wide bell with a vaguely skull-shaped patte
 
 **Size:** small
 
-**source:** Bestiary 3/155
-
 **Subtype:** Aquatic
 
 **Type:** vermin

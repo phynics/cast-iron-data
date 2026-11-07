@@ -45,8 +45,6 @@ _This dragon seems to be made of parts from different creatures._
 
 **Senses:** Dragon senses
 
-**source:** Pathfinder \#138: Rise of New Thassilon/91
-
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 409,600

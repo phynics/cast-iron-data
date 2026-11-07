@@ -39,8 +39,6 @@ on buzzing wings._
 
 **Perception:** +2
 
-**source:** Bestiary 2/124;Pathfinder \#8: Seven Days to the Grave/84
-
 **Type:** vermin
 
 **Experience points:** 400

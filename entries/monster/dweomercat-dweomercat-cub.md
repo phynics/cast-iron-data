@@ -42,8 +42,6 @@ yellow eyes and stands calmly, as though fearless._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#36: Sound of a Thousand Screams/82
-
 **Size:** tiny
 
 **Experience points:** 600

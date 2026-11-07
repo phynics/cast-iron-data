@@ -45,8 +45,6 @@ pickaxe in its knobby hands._
 
 **Size:** small
 
-**source:** Bestiary 2/206
-
 **Subtype:** Earth
 
 **Experience points:** 800

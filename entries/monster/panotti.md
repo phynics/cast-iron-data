@@ -42,8 +42,6 @@ head and neck to just above his ankles._
 
 **Perception:** +2
 
-**source:** Murder's Mark/29
-
 **Experience points:** 600
 
 **Armor class:** 16/12/14

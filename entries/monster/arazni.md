@@ -49,8 +49,6 @@ middle of her chest._
 
 **Perception:** +40
 
-**source:** Mythic Realms/50
-
 **Subtype:** Human
 
 **Type:** undead

@@ -47,8 +47,6 @@ battle-worn spear._
 
 **Perception:** +25
 
-**source:** Irrisen - Land of Eternal Winter/53
-
 **Experience points:** 25,600
 
 **Armor class:** 29/15/24

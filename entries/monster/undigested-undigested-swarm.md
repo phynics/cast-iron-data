@@ -39,8 +39,6 @@ disgusting communal mass._
 
 **Perception:** +8
 
-**source:** Bestiary 5/258
-
 **Subtype:** Swarm
 
 **Size:** tiny

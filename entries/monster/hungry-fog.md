@@ -44,8 +44,6 @@ voracity._
 
 **Perception:** -5
 
-**source:** Bestiary 3/152
-
 **Experience points:** 2,400
 
 **Armor class:** 5/5/5

@@ -45,8 +45,6 @@ arms ends in a spinning blade._
 
 **Perception:** +5
 
-**source:** Numeria, Land of Fallen Stars/58
-
 **Subtype:** Robot
 
 **Experience points:** 800

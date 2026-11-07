@@ -44,8 +44,6 @@ large flail in each fist._
 
 **Perception:** +12
 
-**source:** Pathfinder RPG Bestiary/130
-
 **Subtype:** Giant
 
 **Experience points:** 2,400

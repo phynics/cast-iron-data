@@ -43,8 +43,6 @@ darting eyes._
 
 **Perception:** +16
 
-**source:** Pathfinder \#99: Dance of the Damned/84
-
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 4,800

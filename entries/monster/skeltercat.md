@@ -48,8 +48,6 @@ much more muscular and carries itself with a strange posture._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#92: The Hill Giant's Pledge/90
-
 **Subtype:** Shapechanger
 
 **Experience points:** 1,200

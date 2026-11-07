@@ -46,8 +46,6 @@ above a mass of tentacles._
 
 **Perception:** +15
 
-**source:** Bestiary 5/49
-
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

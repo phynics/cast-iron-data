@@ -47,8 +47,6 @@ diaphanous, wet shawl._
 
 **Perception:** +21
 
-**source:** Bestiary 2/198
-
 **Subtype:** Water
 
 **Experience points:** 9,600

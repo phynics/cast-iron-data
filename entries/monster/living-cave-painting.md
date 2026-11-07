@@ -45,8 +45,6 @@ an eerie sense of life and otherworldly majesty._
 
 **Perception:** +5
 
-**source:** Pathfinder \#93: Forge of the Giant God/88
-
 **Experience points:** 1,200
 
 **Armor class:** 18/18/12

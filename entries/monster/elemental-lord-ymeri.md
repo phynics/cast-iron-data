@@ -48,8 +48,6 @@ powerful reptile._
 
 **Senses:** True seeing
 
-**source:** Planes of Power/54
-
 **Subtype:** Evil, Extraplanar, Fire
 
 **Experience points:** 4,915,200

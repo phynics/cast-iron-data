@@ -47,8 +47,6 @@ effortlessly._
 
 **Perception:** +27
 
-**source:** The Witchwar Legacy/27
-
 **Subtype:** Chaotic, Evil, Extraplanar, Giant
 
 **Experience points:** 76,800

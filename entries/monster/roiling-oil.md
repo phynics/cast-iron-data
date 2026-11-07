@@ -42,8 +42,6 @@ odor permeates the air around it._
 
 **Perception:** -5
 
-**source:** Bestiary 5/210
-
 **Experience points:** 2,400
 
 **Armor class:** 4/4/4

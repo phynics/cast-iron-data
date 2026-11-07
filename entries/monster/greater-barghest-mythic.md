@@ -48,8 +48,6 @@ bat and wolf._
 
 **Sense:** Scent
 
-**source:** Mythic Adventures/179
-
 **Subtype:** Evil, Extraplanar, Lawful, Mythic, Shapechanger
 
 **Experience points:** 4,800

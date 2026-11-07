@@ -52,8 +52,6 @@ starscape that whirls in mad patterns._
 
 **Sense:** Sid
 
-**source:** Mythic Realms/60
-
 **Subtype:** Mythic
 
 **Experience points:** 76,800

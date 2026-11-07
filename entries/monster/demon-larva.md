@@ -41,8 +41,6 @@ abilities = ["11", "10", "13", "10", "11", "10"]
 
 **Perception:** +5
 
-**source:** Pathfinder \#76: The Midnight Isles/69
-
 **Subtype:** Extraplanar
 
 **Experience points:** 400

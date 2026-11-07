@@ -45,8 +45,6 @@ decomposing human in a most hideous manner._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#110: The Thrushmoor Terror/82
-
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

@@ -44,8 +44,6 @@ slime-encrusted wings._
 
 **Perception:** +3
 
-**source:** Bestiary 2/244
-
 **Experience points:** 4,800
 
 **Armor class:** 21/11/18

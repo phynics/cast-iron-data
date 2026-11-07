@@ -44,8 +44,6 @@ towering trunk-like legs. Its arms resemble the branches of a snow-laden conifer
 
 **Type:** plant
 
-**source:** Pathfinder \#67: The Snows of Summer/84
-
 **Subtype:** Cold
 
 **Experience points:** 400

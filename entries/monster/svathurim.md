@@ -45,8 +45,6 @@ frost giant._
 
 **Perception:** +19
 
-**source:** Monster Codex/76;Pathfinder \#69: Maiden, Mother, Crone/90
-
 **Subtype:** Cold
 
 **Experience points:** 12,800

@@ -47,8 +47,6 @@ within, and embedded with strange objects._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#135: Runeplague/86
-
 **Subtype:** Native, Water
 
 **Experience points:** 12,800

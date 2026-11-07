@@ -45,8 +45,6 @@ mouth._
 
 **Perception:** +15
 
-**source:** Bestiary 6/7
-
 **Experience points:** 9,600
 
 **Armor class:** 24/19/15

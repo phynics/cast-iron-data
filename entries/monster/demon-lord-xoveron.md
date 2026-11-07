@@ -45,8 +45,6 @@ _This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as 
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Pathfinder \#73: The Worldwound Incursion/84
-
 **Experience points:** 3,276,800
 
 **Armor class:** 45/30/39

@@ -47,8 +47,6 @@ ember._
 
 **Perception:** +23
 
-**source:** Bestiary 3/206
-
 **Subtype:** Fire, Giant, Native, Oni, Shapechanger
 
 **Experience points:** 51,200

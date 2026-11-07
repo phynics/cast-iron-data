@@ -46,8 +46,6 @@ whip._
 
 **Perception:** +21
 
-**source:** Planar Adventures/232
-
 **Subtype:** Chaotic, Extraplanar, Shapechanger
 
 **Experience points:** 25,600

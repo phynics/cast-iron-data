@@ -44,8 +44,6 @@ gem-encrusted coronet._
 
 **Size:** small
 
-**source:** Bestiary 6/92;Occult Bestiary/20
-
 **Subtype:** Derro
 
 **Experience points:** 1,600

@@ -46,8 +46,6 @@ large - flex in anticipation of combat._
 
 **Perception:** +10
 
-**source:** Pathfinder \#89: Palace of Fallen Stars/84
-
 **Subtype:** Cold
 
 **Experience points:** 4,800

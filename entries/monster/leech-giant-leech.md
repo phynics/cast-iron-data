@@ -44,8 +44,6 @@ teeth._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/187
-
 **Subtype:** Aquatic
 
 **Type:** vermin

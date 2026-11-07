@@ -44,8 +44,6 @@ of a toothy fish._
 
 **Perception:** +5
 
-**source:** Pathfinder RPG Bestiary/253
-
 **Subtype:** Aquatic
 
 **Experience points:** 600

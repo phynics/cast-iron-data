@@ -42,8 +42,6 @@ gnarled roots grow, and tangles of vines hang from its moldering chest like spil
 
 **Type:** plant
 
-**source:** Pathfinder \#44: Trial of the Beast/84
-
 **Experience points:** 6,400
 
 **Armor class:** 23/13/20

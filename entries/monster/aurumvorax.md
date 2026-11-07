@@ -44,8 +44,6 @@ _Powerful muscles ripple beneath the golden fur of this small yet fearsome eight
 
 **Size:** small
 
-**source:** Bestiary 2/35
-
 **Experience points:** 6,400
 
 **Armor class:** 23/15/19

@@ -45,8 +45,6 @@ forward with an ameboid life._
 
 **Perception:** -5
 
-**source:** Pathfinder \#35: War of the River Kings/86
-
 **tremorsense:** 60
 
 **Experience points:** 2,400

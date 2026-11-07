@@ -44,8 +44,6 @@ stone-like horns and scales._
 
 **Senses:** Dragon senses, Smoke vision
 
-**source:** Bestiary 3/102
-
 **Subtype:** Fire
 
 **Experience points:** 3,200

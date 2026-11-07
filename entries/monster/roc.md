@@ -41,8 +41,6 @@ horse._
 
 **Perception:** +15
 
-**source:** Pathfinder RPG Bestiary/236
-
 **Experience points:** 6,400
 
 **Armor class:** 22/8/20

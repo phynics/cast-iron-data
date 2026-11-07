@@ -47,8 +47,6 @@ _With wings and an unearthly glow, this mechanical being could easily be mistake
 
 **Senses:** Superior optics
 
-**source:** Pathfinder \#90: The Divinity Drive/90
-
 **Subtype:** Robot
 
 **Experience points:** 19,200

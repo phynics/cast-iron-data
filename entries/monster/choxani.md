@@ -44,8 +44,6 @@ colors and patterns._
 
 **Perception:** +10
 
-**source:** The First World, Realm of the Fey/59
-
 **Experience points:** 800
 
 **Aav:** present

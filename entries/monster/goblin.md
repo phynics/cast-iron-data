@@ -45,8 +45,6 @@ ungainly head._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/156
-
 **Subtype:** Goblinoid
 
 **Experience points:** 135

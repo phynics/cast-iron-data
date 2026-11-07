@@ -46,8 +46,6 @@ hands, and writhing tentacles._
 
 **Perception:** +18
 
-**source:** Occult Bestiary/28
-
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 6,400

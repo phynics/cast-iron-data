@@ -43,8 +43,6 @@ mass, seemingly scanning back and forth with each surge of movement._
 
 **Perception:** +7
 
-**source:** Pathfinder \#72: The Witch Queen's Revenge/86
-
 **Experience points:** 6,400
 
 **Armor class:** 4/4/4

@@ -43,8 +43,6 @@ _This strange, four-armed humanoid is sleek and muscled, with two spiked blades 
 
 **Perception:** +3
 
-**source:** Bestiary 4/174
-
 **Subtype:** Kasatha
 
 **Experience points:** 200

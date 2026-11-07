@@ -48,8 +48,6 @@ _This massive creature has the body of a resplendent bird but the head of a rega
 
 **Senses:** Detect evil, Detect magic
 
-**source:** Bestiary 3/245;Pathfinder \#24: The Final Wish/86
-
 **Experience points:** 153,600
 
 **Armor class:** 34/10/30

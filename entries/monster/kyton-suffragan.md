@@ -43,8 +43,6 @@ Elongated saw blades loll out of its distended mouth._
 
 **Perception:** +12
 
-**source:** Nidal, Land of Shadows/58
-
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 1,600

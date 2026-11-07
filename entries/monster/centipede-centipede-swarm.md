@@ -41,8 +41,6 @@ wave._
 
 **Perception:** +4
 
-**source:** Pathfinder RPG Bestiary/43
-
 **Subtype:** Swarm
 
 **tremorsense:** 30

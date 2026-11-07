@@ -45,8 +45,6 @@ bulging, lidless eye._
 
 **Size:** small
 
-**source:** Bestiary 5/203;Pathfinder \#86: Lords of Rust/86
-
 **Experience points:** 2,400
 
 **Aav:** present

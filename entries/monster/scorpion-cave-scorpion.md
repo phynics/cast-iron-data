@@ -39,8 +39,6 @@ stone._
 
 **Perception:** +4
 
-**source:** Bestiary 2/240
-
 **tremorsense:** 60
 
 **Type:** vermin

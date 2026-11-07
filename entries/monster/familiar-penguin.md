@@ -42,8 +42,6 @@ flippers that lie flat against its sides instead of wings._
 
 **Size:** small
 
-**source:** Ultimate Wilderness/201;Familiar Folio/27;Bestiary 5/112
-
 **Experience points:** 135
 
 **Armor class:** 11/10/11

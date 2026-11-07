@@ -48,8 +48,6 @@ its canyon of a mouth._
 
 **Senses:** True seeing
 
-**source:** Mythic Realms/58
-
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 9,830,400

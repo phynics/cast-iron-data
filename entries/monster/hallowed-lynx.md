@@ -51,8 +51,6 @@ tufted ears, a short tail, and keen, piercing eyes._
 
 **Size:** small
 
-**source:** Pathfinder \#138: Rise of New Thassilon/88
-
 **Experience points:** 102,400
 
 **Armor class:** 29/17/23

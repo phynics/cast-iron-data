@@ -42,8 +42,6 @@ _A chilling chorus of howls echoes through the air as a massive, white-furred wo
 
 **Sense:** Scent
 
-**source:** Pathfinder \#67: The Snows of Summer/83
-
 **Experience points:** 600
 
 **Armor class:** 18/14/14

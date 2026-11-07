@@ -45,8 +45,6 @@ flame._
 
 **Perception:** -5
 
-**source:** Tombs of Golarion/52
-
 **Experience points:** 9,600
 
 **Armor class:** 18/8/18

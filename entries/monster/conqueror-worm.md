@@ -45,8 +45,6 @@ four long, hook-like jaws._
 
 **Senses:** True seeing
 
-**source:** Bestiary 6/64
-
 **tremorsense:** 120
 
 **Experience points:** 409,600

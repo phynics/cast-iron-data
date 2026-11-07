@@ -47,8 +47,6 @@ scrimshaw patterns._
 
 **Perception:** +24
 
-**source:** Bestiary 6/177
-
 **Experience points:** 25,600
 
 **Armor class:** 28/14/26

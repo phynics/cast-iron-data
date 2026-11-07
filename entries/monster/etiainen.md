@@ -43,8 +43,6 @@ _This vaguely humanoid-shaped roil of mist appears to be improbably solid._
 
 **Perception:** +5
 
-**source:** Bestiary 5/111
-
 **Subtype:** Incorporeal, Native
 
 **Experience points:** 400

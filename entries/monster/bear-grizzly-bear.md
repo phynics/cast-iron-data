@@ -43,8 +43,6 @@ force._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/31
-
 **Experience points:** 1,200
 
 **Armor class:** 16/10/15

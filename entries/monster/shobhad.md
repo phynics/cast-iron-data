@@ -42,8 +42,6 @@ leather chest harness._
 
 **Perception:** +8
 
-**source:** Bestiary 4/242;Distant Worlds/63
-
 **Experience points:** 1,200
 
 **Armor class:** 18/10/17

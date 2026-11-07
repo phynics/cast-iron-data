@@ -40,8 +40,6 @@ _This dark-winged vulture has a wickedly hooked beak stained with bright red blo
 
 **Size:** small
 
-**source:** Belkzen, Hold of the Orc Hordes/56
-
 **Experience points:** 400
 
 **Armor class:** 14/13/12

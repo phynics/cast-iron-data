@@ -46,8 +46,6 @@ electricity crackling between them._
 
 **Perception:** +9
 
-**source:** The First World, Realm of the Fey/60
-
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

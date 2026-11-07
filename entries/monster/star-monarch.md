@@ -47,8 +47,6 @@ trails behind the creature._
 
 **Perception:** +16
 
-**source:** Inner Sea Bestiary/50
-
 **Experience points:** 6,400
 
 **Armor class:** 22/15/15

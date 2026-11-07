@@ -50,8 +50,6 @@ barbs that's topped with a heap of berry-red eyes._
 
 **Senses:** Plantsense 120 ft.
 
-**source:** Pathfinder \#92: The Hill Giant's Pledge/84
-
 **Experience points:** 3,200
 
 **Armor class:** 20/12/17

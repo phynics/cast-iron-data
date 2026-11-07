@@ -45,8 +45,6 @@ _This massive lion's fur and skin shimmer with a golden sheen._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#132: The Six-Legend Soul/86
-
 **Experience points:** 38,400
 
 **Armor class:** 29/13/24

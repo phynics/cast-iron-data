@@ -46,8 +46,6 @@ and curious._
 
 **Perception:** +13
 
-**source:** Pathfinder \#27: What Lies in Dust/86
-
 **Subtype:** Good, Incorporeal, Lawful, Native
 
 **Experience points:** 1,600

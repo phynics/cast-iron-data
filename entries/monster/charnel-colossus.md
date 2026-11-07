@@ -43,8 +43,6 @@ amalgamated whole._
 
 **Senses:** See invisibility
 
-**source:** Inner Sea Bestiary/10
-
 **Type:** undead
 
 **Experience points:** 204,800

@@ -43,8 +43,6 @@ another reality._
 
 **Perception:** +4
 
-**source:** Pathfinder \#133: Secrets of Roderic's Cove/88
-
 **Experience points:** 600
 
 **Armor class:** 7/7/7

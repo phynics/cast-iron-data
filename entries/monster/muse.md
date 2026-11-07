@@ -45,8 +45,6 @@ _This beautiful, woman moves with impossible grace, a knowing smile on her lips.
 
 **Perception:** +22
 
-**source:** Bestiary 5/179
-
 **Experience points:** 76,800
 
 **Armor class:** 32/28/23

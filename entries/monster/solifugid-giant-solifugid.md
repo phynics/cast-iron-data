@@ -39,8 +39,6 @@ beneath beady eyes._
 
 **Size:** small
 
-**source:** Bestiary 2/253
-
 **Type:** vermin
 
 **Experience points:** 400

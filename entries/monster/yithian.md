@@ -47,8 +47,6 @@ a tentacled, spherical head._
 
 **Perception:** +25
 
-**source:** Bestiary 3/286
-
 **Experience points:** 6,400
 
 **Armor class:** 23/10/22

@@ -42,8 +42,6 @@ come apart at the edges._
 
 **Size:** small
 
-**source:** Inner Sea Bestiary/22
-
 **Experience points:** 800
 
 **Armor class:** 15/12/14

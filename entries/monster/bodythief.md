@@ -43,8 +43,6 @@ seedpods throb like beating hearts._
 
 **Type:** plant
 
-**source:** Bestiary 4/20
-
 **Experience points:** 38,400
 
 **Armor class:** 26/1/25

@@ -43,8 +43,6 @@ glistening teeth._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/41;Pathfinder \#67: The Snows of Summer/82
-
 **Experience points:** 1,600
 
 **Armor class:** 20/12/17

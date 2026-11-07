@@ -47,8 +47,6 @@ its sloping armored sides, and it exudes a palpable aura of magic._
 
 **Senses:** True seeing
 
-**source:** Pathfinder \#142: Gardens of Gallowspire/86
-
 **tremorParens:** 1 mile
 
 **tremorsense:** 5280

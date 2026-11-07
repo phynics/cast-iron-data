@@ -44,8 +44,6 @@ sparkling green eyes._
 
 **Perception:** +27
 
-**source:** Pathfinder RPG Bestiary/152
-
 **Subtype:** Giant
 
 **Experience points:** 25,600

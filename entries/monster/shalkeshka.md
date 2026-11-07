@@ -48,8 +48,6 @@ gnash. Six legs, each ending in spade-like claws, support its bulk._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#81: Shifting Sands/88
-
 **Subtype:** Earth
 
 **tremorsense:** 90

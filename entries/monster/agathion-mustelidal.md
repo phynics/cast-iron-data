@@ -48,8 +48,6 @@ strike at a moment's notice._
 
 **Perception:** +23
 
-**source:** Pathfinder \#108: Hell Comes to Westcrown/84
-
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 76,800

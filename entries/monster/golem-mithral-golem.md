@@ -44,8 +44,6 @@ speed._
 
 **Perception:** +0
 
-**source:** Bestiary 2/139
-
 **Experience points:** 76,800
 
 **Armor class:** 32/16/24

@@ -45,8 +45,6 @@ _This faceless construct has a crystal wand set into its chest, bristling with a
 
 **Perception:** +2
 
-**source:** Bestiary 4/32
-
 **Subtype:** Clockwork
 
 **Experience points:** 6,400

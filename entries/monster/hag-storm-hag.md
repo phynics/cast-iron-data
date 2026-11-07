@@ -45,8 +45,6 @@ from her brow like a thunderhead._
 
 **Senses:** Child-scent
 
-**source:** Bestiary 5/235;Pathfinder \#72: The Witch Queen's Revenge/90
-
 **Experience points:** 3,200
 
 **Armor class:** 21/13/18

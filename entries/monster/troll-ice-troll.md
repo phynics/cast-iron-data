@@ -44,8 +44,6 @@ tusked jaw juts forth in a long underbite._
 
 **Perception:** +9
 
-**source:** Bestiary 2/271
-
 **Subtype:** Cold, Giant
 
 **Experience points:** 1,200

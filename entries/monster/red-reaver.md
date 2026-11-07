@@ -45,8 +45,6 @@ wings._
 
 **Perception:** +8
 
-**source:** Curse of the Crimson Throne/476;Pathfinder \#10: A History of Ashes/88
-
 **Experience points:** 25,600
 
 **Armor class:** 29/7/29

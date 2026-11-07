@@ -50,8 +50,6 @@ forming in its heaving bulk._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/249;Crucible of Chaos/29
-
 **Subtype:** Aquatic
 
 **tremorsense:** 60

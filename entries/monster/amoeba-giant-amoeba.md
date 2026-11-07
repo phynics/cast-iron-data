@@ -43,8 +43,6 @@ nucleus to be seen within._
 
 **Size:** small
 
-**source:** Bestiary 2/23
-
 **Subtype:** Aquatic
 
 **Experience points:** 400

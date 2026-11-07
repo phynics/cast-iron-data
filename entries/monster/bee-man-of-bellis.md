@@ -43,8 +43,6 @@ _This shabby-cloaked figure is surrounded by hundreds of bees._
 
 **Sense:** Scent
 
-**source:** Andoran, Birthplace of Freedom/51
-
 **Experience points:** 6,400
 
 **Armor class:** 23/17/16

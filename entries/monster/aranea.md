@@ -45,8 +45,6 @@ _This bloated spider has a hunchbacked body and a gleam of intelligence in its m
 
 **Perception:** +9
 
-**source:** Bestiary 2/30
-
 **Subtype:** Shapechanger
 
 **Experience points:** 1,200

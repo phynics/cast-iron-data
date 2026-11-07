@@ -46,8 +46,6 @@ jaw._
 
 **Perception:** +24
 
-**source:** Bestiary 5/118
-
 **Subtype:** Giant
 
 **Experience points:** 76,800

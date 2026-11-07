@@ -45,8 +45,6 @@ shell-like posterior of the machine, while toxic green ooze courses through its 
 
 **Perception:** +0
 
-**source:** Wardens of the Reborn Forge/62
-
 **Subtype:** Clockwork
 
 **Experience points:** 9,600

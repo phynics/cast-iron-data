@@ -46,8 +46,6 @@ growths._
 
 **Size:** small
 
-**source:** Pathfinder \#116: Fangs of War/86
-
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 800

@@ -44,8 +44,6 @@ searing mirage._
 
 **Size:** small
 
-**source:** Lost Cities of Golarion/43
-
 **Subtype:** Fire
 
 **Experience points:** 2,400

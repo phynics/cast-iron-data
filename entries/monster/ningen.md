@@ -42,8 +42,6 @@ _This enormous flippered creature is as pale as an iceberg and is nearly as larg
 
 **Perception:** +28
 
-**source:** Bestiary 5/183
-
 **Experience points:** 76,800
 
 **Armor class:** 31/6/27

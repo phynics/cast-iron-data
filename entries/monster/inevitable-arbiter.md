@@ -46,8 +46,6 @@ of which clutches a knife._
 
 **Senses:** Detect chaos
 
-**source:** Bestiary 2/162
-
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Size:** tiny

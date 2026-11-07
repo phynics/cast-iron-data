@@ -46,8 +46,6 @@ _This enormous snake has glowing green eyes, large fangs, and wide, membranous w
 
 **Sense:** Scent
 
-**source:** Bestiary 5/189
-
 **Subtype:** Shapechanger
 
 **Experience points:** 9,600

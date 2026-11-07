@@ -48,8 +48,6 @@ wickedly barbed stinger._
 
 **Senses:** Hive mind
 
-**source:** Bestiary 4/112
-
 **Experience points:** 800
 
 **Armor class:** 17/13/14

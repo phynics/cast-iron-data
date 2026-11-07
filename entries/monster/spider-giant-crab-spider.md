@@ -39,8 +39,6 @@ thing is the size of a large dog._
 
 **Size:** small
 
-**source:** Bestiary 3/254
-
 **tremorsense:** 60
 
 **Type:** vermin

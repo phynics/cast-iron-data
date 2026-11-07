@@ -47,8 +47,6 @@ one deadly predator._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/265
-
 **Experience points:** 102,400
 
 **Armor class:** 31/13/26

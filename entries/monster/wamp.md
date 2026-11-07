@@ -45,8 +45,6 @@ eyeless face, pig-like snout, and toothy maw make for a disturbing visage._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#111: Dreams of the Yellow King/90
-
 **Experience points:** 2,400
 
 **Armor class:** 19/13/16

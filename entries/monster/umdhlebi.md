@@ -42,8 +42,6 @@ whisper promises sleep and sweet rest to any that lie down at the thing's base._
 
 **Type:** plant
 
-**source:** Pathfinder \#41: The Thousand Fangs Below/88
-
 **tremorsense:** 60
 
 **Experience points:** 19,200

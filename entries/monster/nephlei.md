@@ -45,8 +45,6 @@ _A mighty woman of refined beauty hovers in the air, her skin whorled with blue 
 
 **Perception:** +16
 
-**source:** Planes of Power/60
-
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 6,400

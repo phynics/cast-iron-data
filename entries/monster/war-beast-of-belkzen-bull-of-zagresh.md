@@ -41,8 +41,6 @@ fifteen feet across._
 
 **Perception:** +8
 
-**source:** Belkzen, Hold of the Orc Hordes/63
-
 **Experience points:** 3,200
 
 **Armor class:** 20/9/18

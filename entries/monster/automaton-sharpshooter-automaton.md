@@ -51,8 +51,6 @@ apparent mechanism._
 
 **Senses:** See invisibility
 
-**source:** Construct Handbook/28
-
 **Subtype:** Extraplanar
 
 **Experience points:** 51,200

@@ -45,8 +45,6 @@ its arms to support itself._
 
 **Perception:** +0
 
-**source:** Bestiary 5/127
-
 **Experience points:** 9,600
 
 **Armor class:** 26/7/26

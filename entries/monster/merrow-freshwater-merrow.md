@@ -44,8 +44,6 @@ are slotted gills._
 
 **Perception:** +5
 
-**source:** Bestiary 2/189
-
 **Subtype:** Aquatic, Giant
 
 **Experience points:** 800

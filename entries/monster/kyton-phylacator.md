@@ -47,8 +47,6 @@ dire flail in its gauntlets, and several pairs of manacles on its belt writhe of
 
 **Senses:** True seeing
 
-**source:** Pathfinder \#132: The Six-Legend Soul/88
-
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 153,600

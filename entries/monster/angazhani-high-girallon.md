@@ -49,8 +49,6 @@ It carries a strangely shaped throwing axe._
 
 **Senses:** See invisibility
 
-**source:** Heart of the Jungle/58
-
 **Experience points:** 6,400
 
 **Armor class:** 24/12/21

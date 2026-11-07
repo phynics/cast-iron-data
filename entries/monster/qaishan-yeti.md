@@ -48,8 +48,6 @@ face is streaked with gray._
 
 **Sense:** Scent
 
-**source:** Mystery Monsters Revisited/63
-
 **Subtype:** Cold
 
 **Experience points:** 3,200

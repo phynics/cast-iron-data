@@ -44,8 +44,6 @@ _Hundreds of legs support this hulking, bruise-colored worm._
 
 **Perception:** +20
 
-**source:** Occult Bestiary/52
-
 **tremorsense:** 30
 
 **Experience points:** 9,600

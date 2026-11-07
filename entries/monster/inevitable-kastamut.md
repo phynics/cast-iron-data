@@ -46,8 +46,6 @@ strange steel alloy. Its eyes glow with a piercing white light._
 
 **Perception:** +14
 
-**source:** Pathfinder \#118: Siege of Stone/86
-
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 2,400

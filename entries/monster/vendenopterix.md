@@ -45,8 +45,6 @@ _This elven woman's allure is obfuscated by her ragged insectile wings and long,
 
 **Perception:** +9
 
-**source:** Inner Sea Gods/281
-
 **Subtype:** Chaotic, Extraplanar, Shapechanger
 
 **Experience points:** 1,200

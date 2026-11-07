@@ -50,8 +50,6 @@ crowning its broad head._
 
 **Sense:** Sid
 
-**source:** Bestiary 3/84
-
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 307,200

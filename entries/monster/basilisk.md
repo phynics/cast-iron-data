@@ -43,8 +43,6 @@ with pale green fire._
 
 **Perception:** +10
 
-**source:** Pathfinder RPG Bestiary/29
-
 **Experience points:** 1,600
 
 **Armor class:** 17/9/17

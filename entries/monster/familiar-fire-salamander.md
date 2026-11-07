@@ -42,8 +42,6 @@ _Yellow spots and stripes run from this amphibian's wide snout to the tip of its
 
 **Sense:** Scent
 
-**source:** Ultimate Wilderness/196
-
 **Experience points:** 135
 
 **Armor class:** 16/16/14

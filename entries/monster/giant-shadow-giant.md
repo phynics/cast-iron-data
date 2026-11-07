@@ -46,8 +46,6 @@ decorated with skulls._
 
 **Perception:** +14
 
-**source:** Inner Sea Bestiary/15;Bestiary 6/135
-
 **Subtype:** Extraplanar, Giant
 
 **Experience points:** 25,600

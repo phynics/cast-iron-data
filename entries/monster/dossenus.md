@@ -42,8 +42,6 @@ teeth._
 
 **Size:** small
 
-**source:** Bestiary 4/63
-
 **Experience points:** 400
 
 **Armor class:** 12/11/12

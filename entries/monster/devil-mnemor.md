@@ -48,8 +48,6 @@ tongue snaking out over its distended jaw._
 
 **Sense:** Sid
 
-**source:** Occult Bestiary/21
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

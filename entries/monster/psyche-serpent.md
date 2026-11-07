@@ -41,8 +41,6 @@ _A spiral pattern adorns the hood of this cobra-like serpent. Its gaze betrays a
 
 **Perception:** +7
 
-**source:** Occult Bestiary/44
-
 **Size:** tiny
 
 **Experience points:** 600

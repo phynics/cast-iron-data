@@ -41,8 +41,6 @@ _This doll's glass eyes glisten with unmistakable curiosity as it comes to life 
 
 **Perception:** +3
 
-**source:** Bestiary 2/255;Pathfinder \#7: Edge of Anarchy/84
-
 **Size:** tiny
 
 **Experience points:** 600

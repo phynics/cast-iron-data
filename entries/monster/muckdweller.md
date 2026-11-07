@@ -45,8 +45,6 @@ body and its forelimbs look like hands._
 
 **Size:** small
 
-**source:** Bestiary 5/175
-
 **Experience points:** 100
 
 **Armor class:** 14/13/12

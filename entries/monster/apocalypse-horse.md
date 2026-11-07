@@ -49,8 +49,6 @@ _Little more than a walking corpse, this frightful horse's hide stretches tight 
 
 **Senses:** True seeing
 
-**source:** Bestiary 6/12
-
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 1,638,400

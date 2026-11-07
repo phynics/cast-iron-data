@@ -54,8 +54,6 @@ _This graceful humanoid woman wears a flowing gown of sparkling starlight and a 
 
 **Sense:** Sid
 
-**source:** Pathfinder \#134: It Came from Hollow Mountain/84
-
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 4,915,200

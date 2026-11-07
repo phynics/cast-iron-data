@@ -45,8 +45,6 @@ digs into the soft ground._
 
 **Type:** plant
 
-**source:** Pathfinder \#121: The Lost Outpost/84
-
 **tremorsense:** 60
 
 **Experience points:** 600

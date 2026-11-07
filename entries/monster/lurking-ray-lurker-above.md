@@ -42,8 +42,6 @@ abilities = ["30", "12", "19", "2", "15", "9"]
 
 **Sense:** Scent
 
-**source:** Bestiary 4/187;Misfit Monsters Redeemed/50
-
 **Experience points:** 3,200
 
 **Armor class:** 19/9/18

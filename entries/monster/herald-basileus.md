@@ -49,8 +49,6 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 
 **Sense:** Sid
 
-**source:** Inner Sea Gods/278;Pathfinder \#29: Mother of Flies/78
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 51,200

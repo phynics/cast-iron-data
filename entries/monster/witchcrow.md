@@ -43,8 +43,6 @@ unnatural gleam in its otherworldly eyes._
 
 **Senses:** Detect magic
 
-**source:** Pathfinder \#67: The Snows of Summer/88;Bestiary 5/277
-
 **Size:** tiny
 
 **Experience points:** 400

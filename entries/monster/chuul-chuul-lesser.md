@@ -44,8 +44,6 @@ within its jaws._
 
 **Perception:** +11
 
-**source:** Pathfinder \#122: Into the Shattered Continent/82
-
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

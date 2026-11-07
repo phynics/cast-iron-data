@@ -46,8 +46,6 @@ mace._
 
 **Perception:** +38
 
-**source:** Bestiary 5/246
-
 **Subtype:** Extraplanar, Lawful, Mythic
 
 **Experience points:** 1,228,800

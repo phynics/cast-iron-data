@@ -46,8 +46,6 @@ within it, and curling, steel horns emerge from its helm._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#104: Wrath of Thrune/88
-
 **Subtype:** Extraplanar, Good, Lawful
 
 **Experience points:** 3,200

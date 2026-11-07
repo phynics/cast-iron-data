@@ -50,8 +50,6 @@ _This athletic, winged humanoid has handsome features and wields a shining lance
 
 **Senses:** Detect evil
 
-**source:** Pathfinder \#104: Wrath of Thrune/84
-
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 2,400

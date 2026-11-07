@@ -44,8 +44,6 @@ _This large, flying serpent has a humanoid head outlined by a colorful, frilled 
 
 **Senses:** Dreamsight
 
-**source:** Bestiary 6/198;Occult Bestiary/35
-
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

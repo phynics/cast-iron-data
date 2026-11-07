@@ -47,8 +47,6 @@ _This woman's fox-like tail and the wood-lined hollow inside her back reveal her
 
 **Senses:** Detect snares and pits
 
-**source:** Bestiary 4/151;Lands of the Linnorm Kings/59
-
 **Experience points:** 1,200
 
 **Armor class:** 17/14/13

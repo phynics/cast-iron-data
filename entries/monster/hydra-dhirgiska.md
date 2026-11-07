@@ -48,8 +48,6 @@ sets of fangs._
 
 **Sense:** Scent
 
-**source:** Mythical Monsters Revisited/32
-
 **Experience points:** 25,600
 
 **Armor class:** 22/10/20

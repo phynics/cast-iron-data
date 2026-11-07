@@ -44,8 +44,6 @@ its fiendish nature._
 
 **Perception:** +14
 
-**source:** Pathfinder RPG Bestiary/231
-
 **Subtype:** Native, Shapechanger
 
 **Experience points:** 9,600

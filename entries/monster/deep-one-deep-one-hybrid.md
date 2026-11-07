@@ -45,8 +45,6 @@ his bloodline._
 
 **Perception:** +4
 
-**source:** Bestiary 5/70
-
 **Subtype:** Deep one, Human
 
 **Experience points:** 200

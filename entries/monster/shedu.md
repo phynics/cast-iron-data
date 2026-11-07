@@ -45,8 +45,6 @@ wise-looking human._
 
 **Senses:** Detect chaos, Detect evil, True seeing
 
-**source:** Bestiary 3/2543
-
 **Experience points:** 6,400
 
 **Armor class:** 24/16/23

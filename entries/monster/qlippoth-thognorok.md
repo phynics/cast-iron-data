@@ -44,8 +44,6 @@ hairy, wriggling legs._
 
 **Perception:** +9
 
-**source:** Inner Sea Gods/305
-
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 1,200

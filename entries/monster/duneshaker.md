@@ -40,8 +40,6 @@ oversized claws._
 
 **Perception:** +16
 
-**source:** Bestiary 6/256
-
 **tremorsense:** 60
 
 **Type:** vermin

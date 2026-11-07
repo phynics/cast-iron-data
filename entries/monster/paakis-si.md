@@ -50,8 +50,6 @@ tree trunk as a club._
 
 **Sense:** Scent
 
-**source:** Mystery Monsters Revisited/45
-
 **Subtype:** Sasquatch
 
 **Experience points:** 1,600

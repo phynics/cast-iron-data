@@ -45,8 +45,6 @@ present, or a possible future._
 
 **Perception:** +26
 
-**source:** Pathfinder \#136: Temple of the Peacock Spirit/90
-
 **Subtype:** Extraplanar
 
 **Experience points:** 38,400

@@ -42,8 +42,6 @@ _The thick stalks of this dark-veined, gray plant are covered in a fine black fu
 
 **Sense:** Sid
 
-**source:** Nidal, Land of Shadows/62
-
 **Experience points:** 1,200
 
 **Armor class:** 17/11/16

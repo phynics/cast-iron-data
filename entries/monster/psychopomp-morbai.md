@@ -47,8 +47,6 @@ opposite sides of her head._
 
 **Size:** small
 
-**source:** Concordance of Rivals/59
-
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 2,400

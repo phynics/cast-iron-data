@@ -38,8 +38,6 @@ abilities = ["26", "9", "20", "-", "13", "2"]
 
 **Perception:** +1
 
-**source:** Pathfinder \#37: Souls for Smuggler's Shiv/78;Bestiary 6/122
-
 **Subtype:** Aquatic
 
 **tremorsense:** 30

@@ -45,8 +45,6 @@ _The pink, fleshy underside of this flat, aquatic creature features a large circ
 
 **Perception:** +12
 
-**source:** Bestiary 5/62
-
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

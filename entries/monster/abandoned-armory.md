@@ -48,8 +48,6 @@ iron and eldritch sparks._
 
 **Perception:** +0
 
-**source:** Pathfinder \#142: Gardens of Gallowspire/82
-
 **Experience points:** 25,600
 
 **Armor class:** 29/8/28

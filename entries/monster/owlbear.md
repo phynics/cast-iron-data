@@ -45,8 +45,6 @@ ursine claws in anger._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/224
-
 **Experience points:** 1,200
 
 **Armor class:** 15/10/14

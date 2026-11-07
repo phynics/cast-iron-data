@@ -41,8 +41,6 @@ scythe-like claw._
 
 **Perception:** +17
 
-**source:** Inner Sea World Guide/309;Pathfinder \#8: Seven Days to the Grave/82
-
 **Type:** undead
 
 **Experience points:** 4,800

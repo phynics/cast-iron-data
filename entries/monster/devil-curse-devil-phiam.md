@@ -48,8 +48,6 @@ behind its feminine frame._
 
 **Size:** small
 
-**source:** Daughters of Fury/53
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

@@ -45,8 +45,6 @@ back that spews clouds of spores._
 
 **Size:** small
 
-**source:** Bestiary 6/191
-
 **tremorsense:** 30
 
 **Experience points:** 3,200

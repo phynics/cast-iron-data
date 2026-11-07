@@ -49,8 +49,6 @@ primeval scowl._
 
 **Perception:** +5
 
-**source:** Pathfinder \#27: What Lies in Dust/84
-
 **Experience points:** 400
 
 **Armor class:** 14/14/14

@@ -46,8 +46,6 @@ grass and moss grow from its skin instead._
 
 **Size:** small
 
-**source:** Pathfinder \#38: Racing to Ruin/82
-
 **Experience points:** 200
 
 **Armor class:** 14/13/12

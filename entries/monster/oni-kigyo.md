@@ -47,8 +47,6 @@ staring eyes and hideous fangs._
 
 **Perception:** +11
 
-**source:** Pathfinder \#124: City in the Deep/90
-
 **Subtype:** Aquatic, Native, Oni, Shapechanger
 
 **Experience points:** 2,400

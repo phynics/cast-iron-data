@@ -44,8 +44,6 @@ teeth._
 
 **Perception:** +9
 
-**source:** Pathfinder RPG Bestiary/88
-
 **Experience points:** 200
 
 **Armor class:** 13/12/11

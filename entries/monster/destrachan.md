@@ -42,8 +42,6 @@ circular maw filled with jagged teeth._
 
 **Perception:** +27
 
-**source:** Bestiary 2/83
-
 **Experience points:** 4,800
 
 **Armor class:** 19/11/17

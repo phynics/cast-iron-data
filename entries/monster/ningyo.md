@@ -44,8 +44,6 @@ webbed claws._
 
 **Size:** small
 
-**source:** Pathfinder \#37: Souls for Smuggler's Shiv/80;Bestiary 4/206
-
 **Subtype:** Aquatic
 
 **Experience points:** 400

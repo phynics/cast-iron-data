@@ -38,8 +38,6 @@ abilities = ["9", "15", "13", "2", "12", "6"]
 
 **Sense:** Scent
 
-**source:** Bestiary 3/112;Ultimate Magic/117
-
 **Size:** tiny
 
 **Experience points:** 100

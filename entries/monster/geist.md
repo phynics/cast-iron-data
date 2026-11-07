@@ -40,8 +40,6 @@ _This disembodied phantom wears black robes that swirl around a maw of sharp tee
 
 **Perception:** +17
 
-**source:** Bestiary 4/124
-
 **Subtype:** Incorporeal
 
 **Type:** undead

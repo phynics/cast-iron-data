@@ -44,8 +44,6 @@ _Electricity crackles and arcs from this undulating mass of orange slime._
 
 **Perception:** -5
 
-**source:** Numeria, Land of Fallen Stars/48
-
 **Experience points:** 12,800
 
 **Armor class:** 5/5/5

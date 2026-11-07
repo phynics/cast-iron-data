@@ -47,8 +47,6 @@ has been affixed to its chest._
 
 **Perception:** +24
 
-**source:** Curse of the Crimson Throne/466;Pathfinder \#12: Crown of Fangs/82
-
 **Experience points:** 51,200
 
 **Armor class:** 30/16/27

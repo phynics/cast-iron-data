@@ -46,8 +46,6 @@ from the bones of past victims._
 
 **Perception:** +5
 
-**source:** Bestiary 3/127
-
 **Subtype:** Giant
 
 **Experience points:** 2,400

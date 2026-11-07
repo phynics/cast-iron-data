@@ -42,8 +42,6 @@ other._
 
 **Perception:** +4
 
-**source:** Bestiary 3/186
-
 **Experience points:** 800
 
 **Armor class:** 14/11/12

@@ -48,8 +48,6 @@ eye in its noseless face._
 
 **Perception:** +24
 
-**source:** Bestiary 3/221;Pathfinder \#40: Vaults of Madness/84
-
 **Subtype:** Shapechanger
 
 **Experience points:** 51,200

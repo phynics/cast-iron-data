@@ -54,8 +54,6 @@ head._
 
 **Perception:** +26
 
-**source:** Mythic Adventures/187
-
 **Subtype:** Mythic, Water
 
 **Experience points:** 51,200

@@ -40,8 +40,6 @@ many-faceted eyes smolder like hot coals._
 
 **Size:** small
 
-**source:** Gallows of Madness/60
-
 **Type:** vermin
 
 **Experience points:** 600

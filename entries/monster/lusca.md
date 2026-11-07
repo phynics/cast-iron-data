@@ -46,8 +46,6 @@ that of an octopus._
 
 **Perception:** +28
 
-**source:** Bestiary 5/161;Isles of the Shackles/53
-
 **Subtype:** Aquatic
 
 **Experience points:** 102,400

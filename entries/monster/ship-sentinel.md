@@ -46,8 +46,6 @@ coating her frame encrusted in years' worth of sea salt._
 
 **Senses:** Ship sight
 
-**source:** Pathfinder \#57: Tempest Rising/88
-
 **Experience points:** 3,200
 
 **Armor class:** 20/14/15

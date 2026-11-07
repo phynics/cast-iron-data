@@ -42,8 +42,6 @@ _An oily substance in the water surrounds this seething red mass of worm-like lu
 
 **Type:** plant
 
-**source:** Pathfinder \#130: City in the Lion's Eye/86
-
 **Subtype:** Swarm
 
 **Experience points:** 4,800

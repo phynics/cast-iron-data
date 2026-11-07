@@ -43,8 +43,6 @@ on its body._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/128
-
 **Experience points:** 6,400
 
 **Armor class:** 21/9/20

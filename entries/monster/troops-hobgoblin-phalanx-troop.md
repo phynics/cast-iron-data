@@ -40,8 +40,6 @@ abilities = ["20", "19", "20", "13", "22", "9"]
 
 **Perception:** +18
 
-**source:** Pathfinder \#117: Assault on Longshadow/90
-
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 9,600

@@ -43,8 +43,6 @@ rest is lost in darkness._
 
 **Perception:** +20
 
-**source:** Pathfinder RPG Bestiary/67
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Incorporeal
 
 **Experience points:** 3,200

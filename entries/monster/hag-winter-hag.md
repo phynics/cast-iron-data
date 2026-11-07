@@ -47,8 +47,6 @@ gems._
 
 **Senses:** See invisibility
 
-**source:** Bestiary 4/279
-
 **Subtype:** Cold
 
 **Experience points:** 3,200

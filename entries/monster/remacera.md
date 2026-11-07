@@ -41,8 +41,6 @@ _This enormous, fleshy green caterpillar has the face of a serene human woman._
 
 **Perception:** +14
 
-**source:** The First World, Realm of the Fey/63
-
 **Experience points:** 2,400
 
 **Armor class:** 18/11/15

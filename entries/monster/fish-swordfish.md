@@ -43,8 +43,6 @@ point._
 
 **Perception:** +10
 
-**source:** Pathfinder \#56: Raiders of the Fever Sea/82
-
 **Subtype:** Aquatic
 
 **Experience points:** 600

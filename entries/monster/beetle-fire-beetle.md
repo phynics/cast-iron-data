@@ -40,8 +40,6 @@ its carapace._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/33
-
 **Type:** vermin
 
 **Experience points:** 135

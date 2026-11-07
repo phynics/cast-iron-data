@@ -47,8 +47,6 @@ resembles a dead giant with the head of an oversized boar._
 
 **Perception:** +30
 
-**source:** Pathfinder \#96: Shadow of the Storm Tyrant/86
-
 **Subtype:** Evil, Extraplanar, Giant
 
 **Experience points:** 102,400

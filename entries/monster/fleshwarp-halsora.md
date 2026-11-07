@@ -42,8 +42,6 @@ constantly drip viscous, black tears._
 
 **Size:** small
 
-**source:** Bestiary 4/104
-
 **Experience points:** 3,200
 
 **Armor class:** 19/13/17

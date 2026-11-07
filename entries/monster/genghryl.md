@@ -45,8 +45,6 @@ of frightful fangs line the maw beneath its sharp beak._
 
 **Perception:** +16
 
-**source:** Pathfinder \#117: Assault on Longshadow/86
-
 **tremorsense:** 60
 
 **Experience points:** 12,800

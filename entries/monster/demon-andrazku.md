@@ -46,8 +46,6 @@ and skin the color of a snow-buried corpse._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#69: Maiden, Mother, Crone/84
-
 **Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar
 
 **Experience points:** 1,600

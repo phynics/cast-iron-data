@@ -49,8 +49,6 @@ webs of flesh._
 
 **Senses:** True seeing
 
-**source:** Bestiary 2/219
-
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 38,400

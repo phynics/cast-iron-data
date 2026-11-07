@@ -45,8 +45,6 @@ smoke puff from its mouth._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/165
-
 **Experience points:** 4,800
 
 **Armor class:** 20/9/20

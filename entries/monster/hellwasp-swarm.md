@@ -41,8 +41,6 @@ eyes._
 
 **Perception:** +4
 
-**source:** Bestiary 3/146
-
 **Subtype:** Extraplanar, Swarm
 
 **Type:** vermin

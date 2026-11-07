@@ -49,8 +49,6 @@ arms end in massive blades._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 2/201
-
 **Subtype:** Extraplanar, Nightshade
 
 **Type:** undead

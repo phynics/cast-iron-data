@@ -43,8 +43,6 @@ abilities = ["27", "10", "21", "20", "21", "20"]
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 3/96
-
 **Subtype:** Water
 
 **Experience points:** 19,200

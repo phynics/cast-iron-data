@@ -49,8 +49,6 @@ its face should be._
 
 **Senses:** Spiritsense
 
-**source:** Bestiary 4/221;Pathfinder \#47: Ashes at Dawn/86
-
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 3,200

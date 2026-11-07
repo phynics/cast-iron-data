@@ -48,8 +48,6 @@ guard its body._
 
 **Perception:** +15
 
-**source:** Mythic Adventures/178
-
 **Subtype:** Aquatic, Mythic
 
 **Experience points:** 6,400

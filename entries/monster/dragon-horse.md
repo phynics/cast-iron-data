@@ -48,8 +48,6 @@ pale blue energy._
 
 **Senses:** Know alignment
 
-**source:** Bestiary 2/104
-
 **Subtype:** Air
 
 **Experience points:** 6,400

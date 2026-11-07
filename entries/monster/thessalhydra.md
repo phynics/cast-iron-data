@@ -46,8 +46,6 @@ thrashing tail ends in a crab-like pincer._
 
 **Sense:** Scent
 
-**source:** Bestiary 6/263
-
 **Experience points:** 153,600
 
 **Aav:** present

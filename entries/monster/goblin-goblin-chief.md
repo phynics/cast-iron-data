@@ -44,8 +44,6 @@ abilities = ["18", "16", "14", "10", "12", "6"]
 
 **Perception:** +11
 
-**source:** Monster Codex/108
-
 **Subtype:** Goblinoid
 
 **Experience points:** 6,400

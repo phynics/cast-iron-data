@@ -45,8 +45,6 @@ _The wrinkled, blotchy skin of this giant hangs from its body like hooded robes,
 
 **Senses:** Detect law
 
-**source:** Bestiary 5/144
-
 **Subtype:** Chaotic, Extraplanar
 
 **Experience points:** 409,600

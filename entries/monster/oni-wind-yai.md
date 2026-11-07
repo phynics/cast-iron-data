@@ -47,8 +47,6 @@ darkness of a starry night that swirls continuously about her._
 
 **Perception:** +28
 
-**source:** Pathfinder \#54: The Empty Throne/88
-
 **Subtype:** Air, Giant, Native, Oni, Shapechanger
 
 **Experience points:** 76,800

@@ -46,8 +46,6 @@ four-fingered claws._
 
 **Perception:** +10
 
-**source:** Bestiary 3/208
-
 **Subtype:** Human, Native, Oni, Shapechanger
 
 **Experience points:** 1,200

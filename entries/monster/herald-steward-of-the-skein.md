@@ -54,8 +54,6 @@ glowing eyes._
 
 **Senses:** Detect chaos/evil/good/law
 
-**source:** Inner Sea Gods/302;Pathfinder \#44: Trial of the Beast/90
-
 **Subtype:** Extraplanar, Psychopomp, Shapechanger
 
 **Experience points:** 51,200

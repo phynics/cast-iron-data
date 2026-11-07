@@ -42,8 +42,6 @@ head._
 
 **Perception:** +8
 
-**source:** Bestiary 6/93
-
 **Experience points:** 2,400
 
 **Armor class:** 19/11/16

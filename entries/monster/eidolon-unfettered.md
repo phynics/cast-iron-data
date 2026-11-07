@@ -42,8 +42,6 @@ _This bizarre amalgam of monstrous parts rampages forth, an eldritch rune seared
 
 **Perception:** +13
 
-**source:** Bestiary 3/110
-
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

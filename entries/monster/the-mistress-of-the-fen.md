@@ -47,8 +47,6 @@ primordial nature, and the abundant plant growth covering its body suggests both
 
 **Perception:** +13
 
-**source:** Mystery Monsters Revisited/56
-
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

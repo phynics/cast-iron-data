@@ -42,8 +42,6 @@ in a silent scream._
 
 **Perception:** +5
 
-**source:** Bestiary 3/150;Bonus Bestiary/12
-
 **Type:** undead
 
 **Experience points:** 600

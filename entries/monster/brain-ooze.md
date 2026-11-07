@@ -40,8 +40,6 @@ _Two slimy tentacles protrude from the sides of this brain-shaped mass of quiver
 
 **Perception:** +11
 
-**source:** Bestiary 3/43
-
 **Size:** tiny
 
 **Experience points:** 3,200

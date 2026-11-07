@@ -42,8 +42,6 @@ _This snarling blue-white monkey flies through the air on a pair of bird-like wi
 
 **Sense:** Scent
 
-**source:** Bestiary 5/284
-
 **Size:** tiny
 
 **Experience points:** 600

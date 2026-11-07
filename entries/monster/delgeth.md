@@ -46,8 +46,6 @@ and bursts into flame._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/71;Tears at Bitter Manor/59
-
 **Experience points:** 2,400
 
 **Armor class:** 18/12/16

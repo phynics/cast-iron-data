@@ -44,8 +44,6 @@ stirred by an unseen breeze._
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 6/100
-
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 19,200

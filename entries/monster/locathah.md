@@ -44,8 +44,6 @@ face of a fish._
 
 **Perception:** +3
 
-**source:** Bestiary 2/179
-
 **Subtype:** Aquatic
 
 **Experience points:** 200

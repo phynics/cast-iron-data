@@ -40,8 +40,6 @@ in fearsome armor._
 
 **Perception:** +20
 
-**source:** Bestiary 5/115;Pathfinder \#71: Rasputin Must Die!/88
-
 **Type:** undead
 
 **Experience points:** 9,600

@@ -43,8 +43,6 @@ cube of slime._
 
 **Perception:** -5
 
-**source:** Pathfinder RPG Bestiary/138
-
 **Experience points:** 800
 
 **Armor class:** 4/4/4

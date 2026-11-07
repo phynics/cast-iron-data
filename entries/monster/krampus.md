@@ -51,8 +51,6 @@ its fanged mouth._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/178
-
 **Experience points:** 409,600
 
 **Armor class:** 37/19/27

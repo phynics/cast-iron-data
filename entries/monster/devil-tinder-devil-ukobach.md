@@ -49,8 +49,6 @@ flickering with wild flames._
 
 **Size:** small
 
-**source:** Pathfinder \#25: The Bastards of Erebus/86
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,200

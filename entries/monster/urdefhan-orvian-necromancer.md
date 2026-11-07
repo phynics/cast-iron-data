@@ -46,8 +46,6 @@ transparent flesh._
 
 **Perception:** +11
 
-**source:** Inner Sea Monster Codex/62
-
 **Subtype:** Native
 
 **Experience points:** 19,200

@@ -43,8 +43,6 @@ wide mouth filled with fangs._
 
 **Perception:** +21
 
-**source:** Pathfinder \#118: Siege of Stone/90
-
 **Experience points:** 19,200
 
 **Armor class:** 27/13/22

@@ -49,8 +49,6 @@ clinging to its back._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/238
-
 **Experience points:** 4,800
 
 **Armor class:** 21/15/16

@@ -55,8 +55,6 @@ atop its humanoid torso._
 
 **Sense:** Sid
 
-**source:** Bestiary 5/236;Pathfinder \#70: The Frozen Stars/84
-
 **Experience points:** 51,200
 
 **Armor class:** 30/18/21

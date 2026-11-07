@@ -47,8 +47,6 @@ terrifying malignance, and the thing has a fanged maw where its beak should be._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#60: From Hell's Heart/66
-
 **Subtype:** Aquatic
 
 **Experience points:** 51,200

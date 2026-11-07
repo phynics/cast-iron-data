@@ -40,8 +40,6 @@ abilities = ["25", "18", "-", "14", "16", "17"]
 
 **Perception:** +11
 
-**source:** Isles of the Shackles/62
-
 **Subtype:** Water
 
 **Type:** undead

@@ -47,8 +47,6 @@ _A tall, handsome woman sits astride a white horse. She grips an elegant longbow
 
 **Perception:** +24
 
-**source:** Irrisen - Land of Eternal Winter/55
-
 **Experience points:** 12,800
 
 **Armor class:** 27/17/20

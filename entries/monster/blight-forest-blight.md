@@ -44,8 +44,6 @@ are tipped with thorny claws._
 
 **Perception:** +26
 
-**source:** Bestiary 6/41
-
 **Subtype:** Blight
 
 **Experience points:** 153,600

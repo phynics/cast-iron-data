@@ -44,8 +44,6 @@ sharp, toothy beak._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/247;Pathfinder \#61: Shards of Sin/88
-
 **Experience points:** 800
 
 **Armor class:** 15/12/13

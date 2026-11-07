@@ -44,8 +44,6 @@ burn atop its crown and back._
 
 **Perception:** +0
 
-**source:** Bestiary 2/134
-
 **Experience points:** 204,800
 
 **Armor class:** 33/7/33

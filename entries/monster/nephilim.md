@@ -43,8 +43,6 @@ _The strength and stature of this giant-sized human is matched only by the nobil
 
 **Perception:** +17
 
-**source:** Bestiary 3/200;Pathfinder \#23: The Impossible Eye/88
-
 **Subtype:** Native
 
 **Experience points:** 4,800

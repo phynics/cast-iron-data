@@ -48,8 +48,6 @@ with incredible speed the next._
 
 **Perception:** +13
 
-**source:** Pathfinder \#32: Rivers Run Red/86
-
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

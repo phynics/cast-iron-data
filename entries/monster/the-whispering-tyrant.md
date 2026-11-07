@@ -54,8 +54,6 @@ by a palpable aura of death._
 
 **Sense:** Sid
 
-**source:** Mythic Realms/62
-
 **Subtype:** Human, Mythic
 
 **Type:** undead

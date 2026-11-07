@@ -42,8 +42,6 @@ scarred._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/27
-
 **tremorsense:** 30
 
 **Type:** vermin

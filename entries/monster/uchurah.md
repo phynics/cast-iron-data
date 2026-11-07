@@ -46,8 +46,6 @@ that dangles under its vertically oriented mouth._
 
 **Perception:** +31
 
-**source:** Darklands Revisited/21
-
 **Experience points:** 19,200
 
 **Armor class:** 26/12/23

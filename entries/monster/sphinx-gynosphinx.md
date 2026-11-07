@@ -43,8 +43,6 @@ human woman._
 
 **Perception:** +21
 
-**source:** Pathfinder RPG Bestiary/257
-
 **Experience points:** 4,800
 
 **Armor class:** 21/10/20

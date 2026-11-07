@@ -41,8 +41,6 @@ _This shaggy, hoofed quadruped sports an elongated neck and large, crooked teeth
 
 **Perception:** +1
 
-**source:** Animal Archive/28
-
 **Experience points:** 200
 
 **Armor class:** 11/11/10

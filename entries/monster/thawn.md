@@ -43,8 +43,6 @@ strangled wheezing issues from its deformed lips._
 
 **Perception:** +1
 
-**source:** Pathfinder \#31: Stolen Land/84
-
 **Subtype:** Giant
 
 **Experience points:** 600

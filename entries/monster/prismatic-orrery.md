@@ -45,8 +45,6 @@ _A series of metal rings rotates around a giant prismatic sphere._
 
 **Senses:** True seeing
 
-**source:** Tombs of Golarion/53
-
 **Experience points:** 25,600
 
 **Aav:** present

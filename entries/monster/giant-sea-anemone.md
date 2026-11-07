@@ -41,8 +41,6 @@ around an enormous, toothless maw._
 
 **Perception:** +0
 
-**source:** Bestiary 3/238
-
 **Subtype:** Aquatic
 
 **Type:** vermin

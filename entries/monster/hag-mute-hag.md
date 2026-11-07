@@ -46,8 +46,6 @@ gray-skinned crone._
 
 **Sense:** Scent
 
-**source:** The Harrowing/31
-
 **Subtype:** Cold
 
 **Experience points:** 12,800

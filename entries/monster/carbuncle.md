@@ -42,8 +42,6 @@ both surprised and perplexed._
 
 **Perception:** +1
 
-**source:** Bestiary 3/44;Pathfinder \#31: Stolen Land/76
-
 **Size:** tiny
 
 **Experience points:** 400

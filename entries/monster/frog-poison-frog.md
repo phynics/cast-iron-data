@@ -38,8 +38,6 @@ _This small frog is bright green and red, with electric-blue stripes on its hind
 
 **Perception:** +3
 
-**source:** Pathfinder RPG Bestiary/135
-
 **Size:** tiny
 
 **Experience points:** 200

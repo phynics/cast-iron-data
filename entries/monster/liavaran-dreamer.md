@@ -44,8 +44,6 @@ tentacles dangling down in a line._
 
 **Perception:** +18
 
-**source:** Occult Bestiary/31
-
 **Experience points:** 4,800
 
 **Armor class:** 19/9/19

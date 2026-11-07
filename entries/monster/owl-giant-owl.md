@@ -41,8 +41,6 @@ _This enormous owl has a silent gracefulness and wisdom about it despite its con
 
 **Perception:** +17
 
-**source:** Bestiary 3/213
-
 **Experience points:** 1,600
 
 **Armor class:** 18/10/16

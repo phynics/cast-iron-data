@@ -40,8 +40,6 @@ green glow._
 
 **Perception:** +14
 
-**source:** Bestiary 2/42
-
 **Type:** undead
 
 **Experience points:** 1,600

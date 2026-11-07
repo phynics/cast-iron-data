@@ -44,8 +44,6 @@ mandibles._
 
 **Perception:** +13
 
-**source:** Belkzen, Hold of the Orc Hordes/57
-
 **Experience points:** 6,400
 
 **Armor class:** 24/8/24

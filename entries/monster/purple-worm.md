@@ -41,8 +41,6 @@ mouth is the size of an ox._
 
 **Perception:** +18
 
-**source:** Pathfinder RPG Bestiary/230
-
 **tremorsense:** 60
 
 **Experience points:** 19,200

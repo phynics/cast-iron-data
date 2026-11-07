@@ -45,8 +45,6 @@ _This towering reptilian humanoid seems to be made of obsidian scales over a mol
 
 **Perception:** +17
 
-**source:** Bestiary 5/55
-
 **Subtype:** Fire
 
 **Experience points:** 25,600

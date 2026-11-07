@@ -44,8 +44,6 @@ tentacles stretch from its shoulders._
 
 **Perception:** +17
 
-**source:** Bestiary 6/230
-
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth, Shapechanger
 
 **Experience points:** 4,800

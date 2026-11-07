@@ -45,8 +45,6 @@ _Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of thi
 
 **Senses:** Detect good
 
-**source:** Pathfinder RPG Bestiary/68
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 3,200

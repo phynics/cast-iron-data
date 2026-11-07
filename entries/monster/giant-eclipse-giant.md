@@ -47,8 +47,6 @@ massive giant._
 
 **Sense:** Sid
 
-**source:** Bestiary 5/121
-
 **Subtype:** Giant
 
 **Experience points:** 204,800

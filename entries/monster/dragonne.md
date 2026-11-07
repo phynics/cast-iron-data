@@ -46,8 +46,6 @@ mane matching its scales._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/104;Bonus Bestiary/10
-
 **Experience points:** 3,200
 
 **Armor class:** 20/12/17

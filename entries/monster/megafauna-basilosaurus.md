@@ -44,8 +44,6 @@ filled with sharp teeth._
 
 **Perception:** +25
 
-**source:** Bestiary 3/193
-
 **Experience points:** 19,200
 
 **Armor class:** 27/7/26

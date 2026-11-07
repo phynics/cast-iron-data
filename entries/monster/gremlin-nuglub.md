@@ -44,8 +44,6 @@ back, covering it like a cloak._
 
 **Size:** small
 
-**source:** Bestiary 2/143
-
 **Experience points:** 600
 
 **Armor class:** 18/15/14

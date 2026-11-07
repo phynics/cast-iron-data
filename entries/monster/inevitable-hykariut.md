@@ -48,8 +48,6 @@ hammer._
 
 **Senses:** Detect chaos, True seeing
 
-**source:** Pathfinder \#131: The Reaper's Right Hand/84
-
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 153,600

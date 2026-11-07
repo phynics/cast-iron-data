@@ -52,8 +52,6 @@ humanoid shape._
 
 **Perception:** +8
 
-**source:** Bestiary 4/35
-
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 76,800

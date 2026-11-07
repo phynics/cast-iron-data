@@ -43,8 +43,6 @@ and mouth._
 
 **Perception:** +17
 
-**source:** Bestiary 4/177
-
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 9,600

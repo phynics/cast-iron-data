@@ -46,8 +46,6 @@ amplify the light around her._
 
 **Perception:** +31
 
-**source:** Bestiary 5/123
-
 **Subtype:** Giant
 
 **Experience points:** 76,800

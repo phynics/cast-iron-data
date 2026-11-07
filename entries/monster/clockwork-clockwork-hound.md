@@ -48,8 +48,6 @@ body._
 
 **Size:** small
 
-**source:** Bestiary 6/62
-
 **Subtype:** Clockwork
 
 **Experience points:** 1,600

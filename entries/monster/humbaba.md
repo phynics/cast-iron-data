@@ -46,8 +46,6 @@ of plate armor._
 
 **Senses:** True seeing
 
-**source:** Bestiary 3/151
-
 **Experience points:** 204,800
 
 **Armor class:** 34/2/34

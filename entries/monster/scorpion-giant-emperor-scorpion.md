@@ -40,8 +40,6 @@ threateningly._
 
 **Perception:** +5
 
-**source:** Bestiary 4/232
-
 **tremorsense:** 60
 
 **Type:** vermin

@@ -46,8 +46,6 @@ form._
 
 **Perception:** +2
 
-**source:** Bestiary 4/130
-
 **Experience points:** 2,400
 
 **Armor class:** 20/14/16

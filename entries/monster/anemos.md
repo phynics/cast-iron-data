@@ -47,8 +47,6 @@ along her skin._
 
 **Perception:** +33
 
-**source:** Bestiary 5/20
-
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 153,600

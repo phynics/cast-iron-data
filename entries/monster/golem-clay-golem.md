@@ -44,8 +44,6 @@ face is only vaguely humanoid._
 
 **Perception:** +0
 
-**source:** Pathfinder RPG Bestiary/159
-
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

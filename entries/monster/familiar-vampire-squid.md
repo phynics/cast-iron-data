@@ -41,8 +41,6 @@ _This eerie-looking squid has red eyes and webbing between its hook-lined tentac
 
 **Perception:** +1
 
-**source:** Ultimate Wilderness/208
-
 **Size:** tiny
 
 **Experience points:** 200

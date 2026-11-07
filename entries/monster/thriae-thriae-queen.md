@@ -46,8 +46,6 @@ the wings of a bee._
 
 **Senses:** Detect secret doors, True seeing
 
-**source:** Bestiary 3/267
-
 **Experience points:** 153,600
 
 **Armor class:** 33/8/33

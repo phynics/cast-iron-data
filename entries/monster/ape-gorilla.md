@@ -43,8 +43,6 @@ legs and knuckles._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/17
-
 **Experience points:** 600
 
 **Armor class:** 14/11/12

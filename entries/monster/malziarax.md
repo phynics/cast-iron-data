@@ -46,8 +46,6 @@ _This enormous, ebon-skinned giant is covered in glowing red runes and exotic pl
 
 **Perception:** +32
 
-**source:** Giants Revisited/44
-
 **Subtype:** Giant
 
 **Experience points:** 409,600

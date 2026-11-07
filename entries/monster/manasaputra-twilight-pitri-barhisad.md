@@ -46,8 +46,6 @@ _Cerulean light surrounds this towering four-armed figure in a vibrant corona._
 
 **Perception:** +35
 
-**source:** Bestiary 5/168
-
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra
 
 **Experience points:** 153,600

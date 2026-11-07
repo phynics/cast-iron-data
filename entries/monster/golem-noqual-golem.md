@@ -46,8 +46,6 @@ lithe quickness._
 
 **Perception:** +0
 
-**source:** Inner Sea Bestiary/18
-
 **Experience points:** 153,600
 
 **Armor class:** 32/10/30

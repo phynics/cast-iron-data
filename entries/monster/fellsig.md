@@ -42,8 +42,6 @@ stone body glow with a fiery inner heat._
 
 **Perception:** +9
 
-**source:** Andoran, Birthplace of Freedom/55
-
 **Subtype:** Fire
 
 **tremorsense:** 30

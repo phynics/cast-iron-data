@@ -47,8 +47,6 @@ hefting its grisly armor with ease._
 
 **Perception:** +29
 
-**source:** Pathfinder \#30: The Twice-Damned Prince/84
-
 **Subtype:** Evil, Extraplanar, Giant, Lawful
 
 **Experience points:** 51,200

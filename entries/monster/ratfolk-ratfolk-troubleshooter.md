@@ -47,8 +47,6 @@ tail._
 
 **Size:** small
 
-**source:** Monster Codex/178
-
 **Subtype:** Ratfolk
 
 **Experience points:** 1,600

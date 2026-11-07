@@ -51,8 +51,6 @@ rings of metal._
 
 **Senses:** Detect chaos, Detect magic, True seeing
 
-**source:** Bestiary 2/164
-
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 307,200

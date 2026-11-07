@@ -43,8 +43,6 @@ mane of fire._
 
 **Perception:** +6
 
-**source:** Bestiary 2/39
-
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 600

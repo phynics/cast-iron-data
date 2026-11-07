@@ -44,8 +44,6 @@ truly hideous._
 
 **Senses:** Bloodsense
 
-**source:** Bestiary 3/124;Pathfinder \#29: Mother of Flies/84
-
 **Experience points:** 25,600
 
 **Armor class:** 26/12/23

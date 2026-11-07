@@ -47,8 +47,6 @@ into complex patterns._
 
 **Senses:** See invisibility
 
-**source:** Mystery Monsters Revisited/33
-
 **Experience points:** 19,200
 
 **Armor class:** 26/14/21

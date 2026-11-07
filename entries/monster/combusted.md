@@ -44,8 +44,6 @@ surrounded by greasy black smoke._
 
 **Perception:** +9
 
-**source:** Bestiary 6/63;Occult Bestiary/16
-
 **Subtype:** Fire
 
 **Type:** undead

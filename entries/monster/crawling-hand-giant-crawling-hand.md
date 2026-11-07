@@ -42,8 +42,6 @@ pulses and crawls with sickly boils._
 
 **Perception:** +7
 
-**source:** Bestiary 2/59
-
 **Type:** undead
 
 **Experience points:** 1,600

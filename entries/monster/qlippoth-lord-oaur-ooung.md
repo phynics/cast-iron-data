@@ -48,8 +48,6 @@ pulsing blisters._
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Bestiary 6/236
-
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 819,200

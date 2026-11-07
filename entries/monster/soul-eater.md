@@ -46,8 +46,6 @@ silently through the air._
 
 **Perception:** +14
 
-**source:** Bestiary 2/254
-
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 3,200

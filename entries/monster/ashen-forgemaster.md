@@ -46,8 +46,6 @@ pockmarked with coal-like scales and metallic piercings, and it carries a fearso
 
 **Senses:** Smoke vision
 
-**source:** Pathfinder \#138: Rise of New Thassilon/84
-
 **Subtype:** Extraplanar, Fire
 
 **Type:** undead

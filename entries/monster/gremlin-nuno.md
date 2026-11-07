@@ -39,8 +39,6 @@ frames his toothless grin._
 
 **Perception:** +6
 
-**source:** Bestiary 5/132
-
 **Size:** tiny
 
 **tremorsense:** 30

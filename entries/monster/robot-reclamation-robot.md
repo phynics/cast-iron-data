@@ -47,8 +47,6 @@ four legs and has a strange bell-shaped head._
 
 **Perception:** +18
 
-**source:** Pathfinder \#88: Valley of the Brain Collectors/84
-
 **Subtype:** Robot
 
 **Experience points:** 19,200

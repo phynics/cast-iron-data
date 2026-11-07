@@ -43,8 +43,6 @@ _This great serpent has multicolored wings and eyes that glimmer with intense aw
 
 **Senses:** Detect chaos/evil/good/law
 
-**source:** Pathfinder RPG Bestiary/49
-
 **Subtype:** Native
 
 **Experience points:** 9,600

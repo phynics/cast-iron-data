@@ -42,8 +42,6 @@ _No flavor text._
 
 **Perception:** +7
 
-**source:** Isles of the Shackles/62
-
 **Subtype:** Water
 
 **Type:** undead

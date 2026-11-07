@@ -42,8 +42,6 @@ feathers._
 
 **Perception:** +8
 
-**source:** Osirion, Legacy of the Pharaohs/55
-
 **Experience points:** 400
 
 **Armor class:** 13/12/11

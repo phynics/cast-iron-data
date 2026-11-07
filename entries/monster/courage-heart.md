@@ -50,8 +50,6 @@ trickles down her arm._
 
 **Perception:** +27
 
-**source:** Pathfinder \#68: The Shackled Hut/84
-
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 51,200

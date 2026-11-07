@@ -44,8 +44,6 @@ visible through bone._
 
 **Perception:** +16
 
-**source:** Bestiary 6/216;Occult Bestiary/45
-
 **Subtype:** Incorporeal
 
 **thoughtsense:** 60

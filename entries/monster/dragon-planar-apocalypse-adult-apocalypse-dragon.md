@@ -45,8 +45,6 @@ _Gangrenous wounds mar this dragon's twisted body._
 
 **Senses:** Dragon senses
 
-**source:** Pathfinder \#137: The City Outside of Time/88
-
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 76,800

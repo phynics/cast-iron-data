@@ -44,8 +44,6 @@ quills._
 
 **Perception:** +16
 
-**source:** Bestiary 4/212;Pathfinder \#33: The Varnhold Vanishing/86
-
 **Experience points:** 9,600
 
 **Armor class:** 24/10/23

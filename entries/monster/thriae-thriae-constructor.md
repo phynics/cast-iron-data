@@ -42,8 +42,6 @@ _A droning hum surrounds this gargantuan half-bee, half-woman with insectile win
 
 **Perception:** +3
 
-**source:** Bestiary 5/244
-
 **Experience points:** 38,400
 
 **Armor class:** 30/6/30

@@ -39,8 +39,6 @@ _This small, frilled reptile has a squat body with smooth scales._
 
 **Perception:** +5
 
-**source:** Druma, Profit and Prophecy/62
-
 **Size:** tiny
 
 **Experience points:** 100

@@ -42,8 +42,6 @@ _This sphere of elemental matter emits a strange hum that resonates with element
 
 **Perception:** +7
 
-**source:** Bestiary 5/282
-
 **Subtype:** Aether, Elemental
 
 **Size:** tiny

@@ -43,8 +43,6 @@ grotesquely large._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/157;Pathfinder \#1: Burnt Offerings/87
-
 **Experience points:** 400
 
 **Armor class:** 13/12/11

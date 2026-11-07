@@ -46,8 +46,6 @@ luminescent organ suspended by a fleshy tether hangs like a lantern above its he
 
 **Perception:** +15
 
-**source:** Pathfinder \#111: Dreams of the Yellow King/88
-
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

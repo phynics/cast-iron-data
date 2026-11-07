@@ -42,8 +42,6 @@ abilities = ["10", "11", "12", "12", "20", "15"]
 
 **Perception:** +22
 
-**source:** Monster Codex/147
-
 **Subtype:** Reptilian
 
 **Experience points:** 25,600

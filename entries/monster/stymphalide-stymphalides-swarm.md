@@ -42,8 +42,6 @@ metallic gleam, reflecting even the dimmest light back a hundredfold through a d
 
 **Perception:** +13
 
-**source:** Pathfinder \#26: The Sixfold Trial/88
-
 **Subtype:** Swarm
 
 **Size:** tiny

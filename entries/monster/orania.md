@@ -48,8 +48,6 @@ lightning-infused spear._
 
 **Sense:** Scent
 
-**source:** Giants Revisited/8
-
 **Subtype:** Giant
 
 **Experience points:** 153,600

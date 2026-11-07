@@ -50,8 +50,6 @@ and a tail of dripping spikes._
 
 **Sense:** Scent
 
-**source:** Mythic Adventures/208
-
 **Subtype:** Mythic
 
 **Experience points:** 2,400

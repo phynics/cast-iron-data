@@ -44,8 +44,6 @@ pleasure or titillating torture._
 
 **Perception:** +16
 
-**source:** Bestiary 4/176;Pathfinder \#64: Beyond the Doomsday Door/86
-
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 1,600

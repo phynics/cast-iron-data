@@ -44,8 +44,6 @@ into vapor below the waist._
 
 **Senses:** True seeing
 
-**source:** Bestiary 4/11
-
 **Subtype:** Incorporeal, Native
 
 **Experience points:** 19,200

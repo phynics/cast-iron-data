@@ -42,8 +42,6 @@ _This small humanoid creature has thin, leathery wings, small horns, and a misch
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/202
-
 **Experience points:** 800
 
 **Armor class:** 17/14/14

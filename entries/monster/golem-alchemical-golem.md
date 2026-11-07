@@ -45,8 +45,6 @@ this figure's glass skull._
 
 **Perception:** +0
 
-**source:** Bestiary 2/135
-
 **Experience points:** 6,400
 
 **Armor class:** 23/13/19

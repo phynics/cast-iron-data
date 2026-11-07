@@ -44,8 +44,6 @@ teeth._
 
 **Perception:** +11
 
-**source:** Bestiary 2/76
-
 **tremorsense:** 60
 
 **Experience points:** 2,400

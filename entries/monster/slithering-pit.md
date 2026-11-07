@@ -45,8 +45,6 @@ their own accord._
 
 **Senses:** Breach sense
 
-**source:** Bestiary 6/254;Pathfinder \#97: In Hell's Bright Shadow/88
-
 **Experience points:** 600
 
 **Armor class:** 13/13/10

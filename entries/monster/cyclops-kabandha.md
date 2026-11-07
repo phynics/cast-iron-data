@@ -47,8 +47,6 @@ _This tall giant has no head; instead, its one-eyed face rests in the center of 
 
 **Senses:** See invisibility
 
-**source:** Bestiary 5/64
-
 **Subtype:** Giant
 
 **Experience points:** 6,400

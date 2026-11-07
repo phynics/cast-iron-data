@@ -42,8 +42,6 @@ from its body like drops of blood._
 
 **Perception:** +15
 
-**source:** Bestiary 3/65;Pathfinder \#4: Fortress of the Stone Giants/79
-
 **Type:** undead
 
 **Experience points:** 2,400

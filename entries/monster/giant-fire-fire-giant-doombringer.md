@@ -44,8 +44,6 @@ abilities = ["31", "15", "23", "10", "16", "22"]
 
 **Perception:** +32
 
-**source:** Monster Codex/61
-
 **Subtype:** Fire, Giant
 
 **Experience points:** 153,600

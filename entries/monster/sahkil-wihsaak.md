@@ -46,8 +46,6 @@ creature's head._
 
 **Perception:** +12
 
-**source:** Bestiary 5/218
-
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 2,400

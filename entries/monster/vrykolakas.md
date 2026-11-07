@@ -44,8 +44,6 @@ mouth full of fangs._
 
 **Perception:** +13
 
-**source:** Bestiary 6/273;Pathfinder \#29: Mother of Flies/88
-
 **Subtype:** Shapechanger
 
 **Type:** undead

@@ -40,8 +40,6 @@ a crimson hourglass._
 
 **Perception:** +4
 
-**source:** Bestiary 2/256
-
 **tremorsense:** 60
 
 **Type:** vermin

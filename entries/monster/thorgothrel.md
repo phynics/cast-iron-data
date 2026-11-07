@@ -44,8 +44,6 @@ approximation of three arms and legs. Its outer skin shimmers with a rainbow of 
 
 **Perception:** +11
 
-**source:** Pathfinder \#87: The Choking Tower/90
-
 **Experience points:** 4,800
 
 **Armor class:** 21/9/21

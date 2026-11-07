@@ -48,8 +48,6 @@ eyeball she clutches in her claws._
 
 **Perception:** +10
 
-**source:** Bestiary 4/134
-
 **Subtype:** Evil, Mythic
 
 **Experience points:** 1,600

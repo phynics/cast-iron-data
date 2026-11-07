@@ -48,8 +48,6 @@ swallow a small ship._
 
 **Perception:** +23
 
-**source:** Bestiary 5/54
-
 **Subtype:** Aquatic, Water
 
 **tremorsense:** 120

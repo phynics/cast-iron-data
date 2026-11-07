@@ -48,8 +48,6 @@ that dances over its body._
 
 **Senses:** Stormsight
 
-**source:** Bestiary 2/264
-
 **Experience points:** 12,800
 
 **Armor class:** 25/10/21

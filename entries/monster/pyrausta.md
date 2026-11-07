@@ -44,8 +44,6 @@ form glows bright with an inner fire._
 
 **Perception:** +5
 
-**source:** Bestiary 5/200
-
 **Subtype:** Fire
 
 **Experience points:** 100

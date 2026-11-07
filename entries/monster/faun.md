@@ -43,8 +43,6 @@ and curling horns on his head._
 
 **Perception:** +8
 
-**source:** Bestiary 3/114
-
 **Experience points:** 400
 
 **Armor class:** 16/13/13

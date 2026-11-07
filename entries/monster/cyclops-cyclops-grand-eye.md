@@ -46,8 +46,6 @@ belt that encircles her chiton._
 
 **Perception:** +16
 
-**source:** Inner Sea Monster Codex/20
-
 **Subtype:** Giant
 
 **Experience points:** 9,600

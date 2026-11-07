@@ -45,8 +45,6 @@ snapping beak, and two pincers._
 
 **Perception:** +14
 
-**source:** Bestiary 3/270;Misfit Monsters Redeemed/57
-
 **Subtype:** Extraplanar, Water
 
 **Experience points:** 1,600

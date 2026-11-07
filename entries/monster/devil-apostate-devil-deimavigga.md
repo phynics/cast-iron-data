@@ -46,8 +46,6 @@ fingers on gauntleted hands._
 
 **Sense:** Sid
 
-**source:** Bestiary 5/78;Book of the Damned - Volume 1: Princes of Darkness/54
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 102,400

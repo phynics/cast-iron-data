@@ -43,8 +43,6 @@ pungent chemical fluid._
 
 **Perception:** +0
 
-**source:** Tears at Bitter Manor/60
-
 **Experience points:** 3,200
 
 **Armor class:** 20/8/20

@@ -45,8 +45,6 @@ along the feathers of its burning wings._
 
 **Senses:** Detect chaos/evil/good/law
 
-**source:** Pathfinder \#143: Borne by the Sun's Grace/84
-
 **Subtype:** Native
 
 **Experience points:** 38,400

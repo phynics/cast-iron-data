@@ -44,8 +44,6 @@ of a mountain goat._
 
 **Size:** small
 
-**source:** Pathfinder \#92: The Hill Giant's Pledge/88
-
 **Experience points:** 400
 
 **Armor class:** 12/12/11

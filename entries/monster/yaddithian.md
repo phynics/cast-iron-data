@@ -46,8 +46,6 @@ vaguely humanoid shape._
 
 **Perception:** +11
 
-**source:** Bestiary 6/285
-
 **Experience points:** 4,800
 
 **Armor class:** 15/13/13

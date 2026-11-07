@@ -49,8 +49,6 @@ hideous creature has no skin, and is built of gore and viscera._
 
 **Perception:** +17
 
-**source:** Fey Revisited/32
-
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

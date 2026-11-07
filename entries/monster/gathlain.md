@@ -43,8 +43,6 @@ _Wings composed of wood and vines grow out of the body of this lithesome fey._
 
 **Size:** small
 
-**source:** Bestiary 4/122
-
 **Experience points:** 200
 
 **Armor class:** 17/15/13

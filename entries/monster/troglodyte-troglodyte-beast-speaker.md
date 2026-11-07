@@ -48,8 +48,6 @@ tail and crests on its head and back._
 
 **Perception:** +10
 
-**source:** Monster Codex/215
-
 **Subtype:** Reptilian
 
 **Experience points:** 800

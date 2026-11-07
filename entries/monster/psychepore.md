@@ -46,8 +46,6 @@ _A mass of shell-like fungus grows so thick it obscures the mass of plant matter
 
 **Type:** plant
 
-**source:** Bestiary 5/198
-
 **Experience points:** 3,200
 
 **Armor class:** 20/13/17

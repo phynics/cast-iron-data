@@ -43,8 +43,6 @@ gardening shears._
 
 **Size:** small
 
-**source:** Pathfinder \#116: Fangs of War/82
-
 **Experience points:** 800
 
 **Armor class:** 15/15/11

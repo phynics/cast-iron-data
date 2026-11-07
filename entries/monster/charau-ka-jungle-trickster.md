@@ -51,8 +51,6 @@ _This lean ape-person is bedecked with a rattling collection of whistles, drums,
 
 **Size:** small
 
-**source:** Inner Sea Monster Codex/15
-
 **Experience points:** 4,800
 
 **Armor class:** 22/13/20

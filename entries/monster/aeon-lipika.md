@@ -45,8 +45,6 @@ elbow, and an eye on each of its eight palms._
 
 **Perception:** +34
 
-**source:** Bestiary 5/8
-
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 153,600

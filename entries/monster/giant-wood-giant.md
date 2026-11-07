@@ -43,8 +43,6 @@ somewhat primitive visage._
 
 **Perception:** +11
 
-**source:** Bestiary 2/132
-
 **Subtype:** Giant
 
 **Experience points:** 2,400

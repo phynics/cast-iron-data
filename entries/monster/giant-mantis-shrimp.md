@@ -42,8 +42,6 @@ _This brightly colored crustacean looks like a large lobster with cruel pincers 
 
 **Senses:** Incredible sight
 
-**source:** Bestiary 5/232
-
 **Subtype:** Aquatic
 
 **Type:** vermin

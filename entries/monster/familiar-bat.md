@@ -40,8 +40,6 @@ abilities = ["1", "15", "6", "2", "14", "5"]
 
 **Perception:** +6
 
-**source:** Pathfinder RPG Bestiary/131
-
 **Experience points:** 50
 
 **Armor class:** 16/16/14

@@ -49,8 +49,6 @@ emerged from some poisoned sea._
 
 **Sense:** Sid
 
-**source:** Bestiary 3/87;Pathfinder \#22: The End of Eternity/80
-
 **Subtype:** Aquatic, Div, Evil, Extraplanar
 
 **Experience points:** 9,600

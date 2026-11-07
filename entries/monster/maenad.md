@@ -43,8 +43,6 @@ eyes suggest insanity._
 
 **Perception:** +15
 
-**source:** Bestiary 4/191
-
 **Experience points:** 4,800
 
 **Armor class:** 20/15/15

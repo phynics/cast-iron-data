@@ -43,8 +43,6 @@ sharp claws._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/90
-
 **Experience points:** 3,200
 
 **Armor class:** 19/9/18

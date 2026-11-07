@@ -47,8 +47,6 @@ and blackened stone._
 
 **Perception:** +23
 
-**source:** Giants Revisited/62
-
 **Subtype:** Giant
 
 **Experience points:** 102,400

@@ -48,8 +48,6 @@ still moves with fluid grace._
 
 **Senses:** Arcane sight
 
-**source:** Bestiary 2/176
-
 **Subtype:** Extraplanar
 
 **tremorsense:** 60

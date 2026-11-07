@@ -44,8 +44,6 @@ turned earth._
 
 **Type:** plant
 
-**source:** Pathfinder RPG Bestiary/246
-
 **Experience points:** 2,400
 
 **Armor class:** 19/9/19

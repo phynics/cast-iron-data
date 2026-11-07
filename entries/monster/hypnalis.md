@@ -44,8 +44,6 @@ cobra._
 
 **Perception:** +11
 
-**source:** Bestiary 4/154
-
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

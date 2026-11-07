@@ -45,8 +45,6 @@ pulses with energy._
 
 **Perception:** +17
 
-**source:** Occult Bestiary/17
-
 **thoughtsense:** 60
 
 **Experience points:** 1,600

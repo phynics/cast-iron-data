@@ -38,8 +38,6 @@ _A spider the size of a man crawls silently from the depths of its funnel-shaped
 
 **Perception:** +4
 
-**source:** Pathfinder RPG Bestiary/258
-
 **tremorsense:** 60
 
 **Type:** vermin

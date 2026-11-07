@@ -44,8 +44,6 @@ and a greasy octopus below._
 
 **Size:** small
 
-**source:** Bestiary 2/148
-
 **Subtype:** Aquatic
 
 **Experience points:** 200

@@ -42,8 +42,6 @@ webbed feet._
 
 **Senses:** Electrolocation 30 ft.
 
-**source:** Ultimate Wilderness/203;Animal Archive/30;Bestiary 4/96
-
 **Size:** tiny
 
 **Experience points:** 65

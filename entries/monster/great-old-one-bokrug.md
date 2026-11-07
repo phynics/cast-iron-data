@@ -50,8 +50,6 @@ tail._
 
 **Perception:** +43
 
-**source:** Bestiary 4/136
-
 **Subtype:** Aquatic, Chaotic, Extraplanar, Great Old One
 
 **Experience points:** 3,276,800

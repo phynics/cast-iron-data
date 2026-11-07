@@ -45,8 +45,6 @@ bulbous tumors._
 
 **Perception:** +8
 
-**source:** Bestiary 3/126
-
 **Subtype:** Giant
 
 **Experience points:** 12,800

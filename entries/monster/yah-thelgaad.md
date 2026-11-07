@@ -46,8 +46,6 @@ a brain floating in thick green fluid._
 
 **Senses:** Diagnose disease, True seeing
 
-**source:** Pathfinder \#88: Valley of the Brain Collectors/90
-
 **Experience points:** 38,400
 
 **Armor class:** 30/25/26

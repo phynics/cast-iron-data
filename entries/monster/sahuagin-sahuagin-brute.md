@@ -49,8 +49,6 @@ piscine head features a toothy maw._
 
 **Perception:** +7
 
-**source:** Monster Codex/191
-
 **Subtype:** Aquatic
 
 **Experience points:** 800

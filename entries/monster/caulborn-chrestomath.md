@@ -45,8 +45,6 @@ interrupted by transparent membranes showing dark fluid within._
 
 **Senses:** Thoughtsense
 
-**source:** Pathfinder \#63: The Asylum Stone/84
-
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

@@ -48,8 +48,6 @@ neck._
 
 **Size:** small
 
-**source:** Pathfinder \#128: Songbird, Scion, Saboteur/90
-
 **Experience points:** 2,400
 
 **Armor class:** 17/17/11

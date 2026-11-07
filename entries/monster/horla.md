@@ -43,8 +43,6 @@ against the skin._
 
 **Size:** small
 
-**source:** Bestiary 6/158
-
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

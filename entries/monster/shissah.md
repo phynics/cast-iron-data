@@ -46,8 +46,6 @@ intelligence._
 
 **Senses:** Desert senses
 
-**source:** Qadira, Jewel of the East/63
-
 **Experience points:** 1,200
 
 **Armor class:** 17/14/12

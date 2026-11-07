@@ -45,8 +45,6 @@ _The facets of this crystalline formation shift and vibrate, as though in antici
 
 **Perception:** -5
 
-**source:** Bestiary 3/45
-
 **Subtype:** Earth, Extraplanar
 
 **Experience points:** 12,800

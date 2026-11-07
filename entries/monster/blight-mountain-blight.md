@@ -44,8 +44,6 @@ with a stony club._
 
 **Perception:** +20
 
-**source:** Bestiary 6/42
-
 **Subtype:** Blight
 
 **Experience points:** 38,400

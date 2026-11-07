@@ -43,8 +43,6 @@ _This enormous worm has stony hide and acid-dripping jaws._
 
 **Perception:** +13
 
-**source:** Mystery Monsters Revisited/21
-
 **tremorsense:** 60
 
 **Experience points:** 12,800

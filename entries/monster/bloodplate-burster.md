@@ -45,8 +45,6 @@ skin._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#129: The Twilight Child/84
-
 **tremorsense:** 120
 
 **Experience points:** 6,400

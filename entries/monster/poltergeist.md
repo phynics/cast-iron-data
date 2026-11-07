@@ -41,8 +41,6 @@ loose objects._
 
 **Perception:** +9
 
-**source:** Bestiary 2/211
-
 **Subtype:** Incorporeal
 
 **Type:** undead

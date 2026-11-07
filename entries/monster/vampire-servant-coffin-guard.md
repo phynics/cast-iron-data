@@ -44,8 +44,6 @@ abilities = ["12", "18", "12", "12", "13", "8"]
 
 **Perception:** +10
 
-**source:** Monster Codex/238
-
 **Subtype:** Elf
 
 **Experience points:** 800

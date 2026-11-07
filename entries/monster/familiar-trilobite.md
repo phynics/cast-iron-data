@@ -36,8 +36,6 @@ abilities = ["7", "15", "12", "-", "11", "2"]
 
 **Perception:** +4
 
-**source:** Bestiary 5/113
-
 **Subtype:** Aquatic
 
 **Size:** tiny

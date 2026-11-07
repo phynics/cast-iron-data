@@ -44,8 +44,6 @@ pale white nose visible._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/53
-
 **Subtype:** Dark folk
 
 **Experience points:** 600

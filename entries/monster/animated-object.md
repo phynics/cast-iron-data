@@ -44,9 +44,6 @@ new prisoners._
 
 **Perception:** -5
 
-**source:** Pathfinder RPG Bestiary/14;Ultimate Magic/111;Pathfinder \#30: The Twice-Damned
-Prince/68;Pathfinder \#43: Haunting of Harrowstone/80
-
 **Experience points:** 800
 
 **Armor class:** 14/10/12

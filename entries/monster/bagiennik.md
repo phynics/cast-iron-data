@@ -46,8 +46,6 @@ extensions._
 
 **Size:** small
 
-**source:** Bestiary 5/40
-
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

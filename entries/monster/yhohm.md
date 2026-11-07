@@ -47,8 +47,6 @@ blazing white flames._
 
 **Senses:** Detect poison
 
-**source:** Inner Sea Gods/307
-
 **Subtype:** Extraplanar, Fire, Good
 
 **Size:** tiny

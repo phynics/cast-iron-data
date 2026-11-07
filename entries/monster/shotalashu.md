@@ -43,8 +43,6 @@ _This large, four-legged reptile has a brown scaled hide and a long, powerful ta
 
 **Perception:** +9
 
-**source:** Occult Bestiary/53
-
 **Experience points:** 600
 
 **Armor class:** 15/12/12

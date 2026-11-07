@@ -44,8 +44,6 @@ long, red hair and a bushy beard._
 
 **Perception:** +8
 
-**source:** Bestiary 5/116
-
 **Subtype:** Giant
 
 **Experience points:** 1,200

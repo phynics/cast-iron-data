@@ -45,8 +45,6 @@ _A pair of frozen, multifaceted eyes coldly judge all before this towering, inse
 
 **Sense:** Sid
 
-**source:** Pathfinder RPG Bestiary/77
-
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 25,600

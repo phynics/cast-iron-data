@@ -51,8 +51,6 @@ horrible powers it serves._
 
 **Size:** small
 
-**source:** Inner Sea Monster Codex/14
-
 **Experience points:** 3,200
 
 **Armor class:** 22/14/20

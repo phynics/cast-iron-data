@@ -47,8 +47,6 @@ smoldering malevolence._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#45: Broken Moon/84
-
 **Subtype:** Incorporeal
 
 **Type:** undead

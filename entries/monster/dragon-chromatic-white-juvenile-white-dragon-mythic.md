@@ -52,8 +52,6 @@ across the snow._
 
 **Senses:** Snow vision
 
-**source:** Mythic Adventures/192
-
 **Subtype:** Cold, Mythic
 
 **Experience points:** 6,400

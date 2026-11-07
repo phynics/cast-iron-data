@@ -44,8 +44,6 @@ _This unusually large wolf has an evil, almost intelligent light shining in its 
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/280
-
 **Experience points:** 600
 
 **Armor class:** 14/12/12

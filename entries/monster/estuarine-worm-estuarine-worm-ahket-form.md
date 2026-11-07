@@ -46,8 +46,6 @@ Atop its head, a small protuberance shines like a star._
 
 **Perception:** +11
 
-**source:** Pathfinder \#82: Secrets of the Sphinx/86
-
 **Subtype:** Aquatic
 
 **tremorsense:** 30

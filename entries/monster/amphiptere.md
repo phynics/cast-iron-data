@@ -47,8 +47,6 @@ forelimbs, and it lacks rear legs._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/18
-
 **Experience points:** 1,200
 
 **Armor class:** 16/9/16

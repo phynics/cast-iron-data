@@ -51,8 +51,6 @@ all the more horrifying by the all-too-human appearance of its baleful visage._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#112: The Whisper Out of Time/84
-
 **Subtype:** Evil, Great Old One
 
 **Experience points:** 4,915,200

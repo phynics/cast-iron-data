@@ -45,8 +45,6 @@ hooked sword._
 
 **Perception:** +1
 
-**source:** Bestiary 3/140
-
 **Experience points:** 1,600
 
 **Armor class:** 20/12/18

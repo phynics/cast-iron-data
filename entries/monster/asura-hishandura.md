@@ -49,8 +49,6 @@ punching daggers._
 
 **Senses:** Scent of carnage, Smoke sight
 
-**source:** Pathfinder \#136: Temple of the Peacock Spirit/82
-
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 51,200

@@ -43,8 +43,6 @@ woven grass._
 
 **Type:** plant
 
-**source:** Pathfinder \#141: Last Watch/88
-
 **Experience points:** 6,400
 
 **Armor class:** 23/11/21

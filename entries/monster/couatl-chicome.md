@@ -47,8 +47,6 @@ head and crest. Its wings let forth thin clouds of golden pollen and showers of 
 
 **Senses:** Detect chaos/evil/good/law
 
-**source:** Pathfinder \#143: Borne by the Sun's Grace/82
-
 **Subtype:** Native
 
 **Experience points:** 76,800

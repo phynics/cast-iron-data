@@ -39,8 +39,6 @@ _This suit of armor moves with a warrior's deadly skill despite obviously being 
 
 **Perception:** +8
 
-**source:** Bestiary 4/213;Pathfinder \#47: Ashes at Dawn/84
-
 **Type:** undead
 
 **Experience points:** 1,200

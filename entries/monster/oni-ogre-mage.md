@@ -46,8 +46,6 @@ afire with murderous intent._
 
 **Perception:** +13
 
-**source:** Pathfinder RPG Bestiary/221
-
 **Subtype:** Giant, Native, Oni, Shapechanger
 
 **Experience points:** 4,800

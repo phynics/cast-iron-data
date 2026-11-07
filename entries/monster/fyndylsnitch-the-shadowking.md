@@ -47,8 +47,6 @@ delight._
 
 **Size:** small
 
-**source:** Fey Revisited/20
-
 **Experience points:** 3,200
 
 **Armor class:** 16/15/12

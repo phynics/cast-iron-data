@@ -41,8 +41,6 @@ abilities = ["25", "16", "23", "6", "10", "7"]
 
 **Perception:** +7
 
-**source:** Bestiary 2/189
-
 **Subtype:** Aquatic, Giant
 
 **Experience points:** 2,400

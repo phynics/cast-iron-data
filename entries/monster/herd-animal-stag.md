@@ -42,8 +42,6 @@ _Majestic and graceful, this powerful animal has branching antlers atop it head.
 
 **Sense:** Scent
 
-**source:** Bestiary 4/150
-
 **Experience points:** 400
 
 **Armor class:** 13/13/10

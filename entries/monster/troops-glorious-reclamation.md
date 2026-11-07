@@ -41,8 +41,6 @@ swords and armor are polished to a mirror-bright sheen._
 
 **Perception:** +27
 
-**source:** Pathfinder \#108: Hell Comes to Westcrown/90
-
 **Subtype:** Human, Troop
 
 **Experience points:** 38,400

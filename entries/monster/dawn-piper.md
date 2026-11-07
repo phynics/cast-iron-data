@@ -48,8 +48,6 @@ long, graceful fingers._
 
 **Perception:** +11
 
-**source:** Pathfinder \#68: The Shackled Hut/86
-
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

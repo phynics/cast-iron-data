@@ -41,8 +41,6 @@ them, making them appear to glow ominously._
 
 **Size:** small
 
-**source:** Pathfinder \#91: Battle of Bloodmarch Hills/83
-
 **Experience points:** 135
 
 **Armor class:** 13/13/11

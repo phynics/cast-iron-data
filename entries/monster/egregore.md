@@ -46,8 +46,6 @@ impression of an open eye floats before it._
 
 **Perception:** +21
 
-**source:** Bestiary 5/104
-
 **Experience points:** 9,600
 
 **Armor class:** 27/13/23

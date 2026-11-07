@@ -50,8 +50,6 @@ visage. Huge black wings fan behind its back, and flickering black blades burn i
 
 **Senses:** True seeing
 
-**source:** Demons Revisited/44
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 819,200

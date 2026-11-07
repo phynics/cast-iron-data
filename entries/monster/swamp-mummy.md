@@ -41,8 +41,6 @@ sockets._
 
 **Perception:** +12
 
-**source:** Bestiary 5/178
-
 **Type:** undead
 
 **Experience points:** 1,200

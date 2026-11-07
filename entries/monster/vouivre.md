@@ -43,8 +43,6 @@ dragon._
 
 **Perception:** +17
 
-**source:** Bestiary 4/270;Pathfinder \#30: The Twice-Damned Prince/88
-
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

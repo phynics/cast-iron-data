@@ -42,8 +42,6 @@ eyes on its bulbous body._
 
 **Perception:** +11
 
-**source:** Bestiary 2/77
-
 **Experience points:** 1,200
 
 **Armor class:** 16/11/15

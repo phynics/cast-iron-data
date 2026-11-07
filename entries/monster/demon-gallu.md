@@ -48,8 +48,6 @@ spiky armor._
 
 **Senses:** True seeing
 
-**source:** The Worldwound/44
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 204,800

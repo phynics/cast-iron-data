@@ -43,8 +43,6 @@ chitinous body emerge four tentacles._
 
 **Perception:** +26
 
-**source:** Bestiary 5/234;The Moonscar/29
-
 **tremorsense:** 60
 
 **Experience points:** 19,200

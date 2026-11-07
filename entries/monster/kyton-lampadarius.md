@@ -45,8 +45,6 @@ flesh and shifting shadowstuff._
 
 **Sense:** Sid
 
-**source:** Inner Sea Gods/315
-
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 1,200

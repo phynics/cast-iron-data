@@ -53,8 +53,6 @@ stare._
 
 **Senses:** Detect evil, Discern lies, Detect poison, True seeing
 
-**source:** Bestiary 4/88
-
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 9,830,400

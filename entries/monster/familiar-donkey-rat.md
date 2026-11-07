@@ -40,8 +40,6 @@ abilities = ["6", "17", "13", "2", "13", "4"]
 
 **Size:** small
 
-**source:** Ultimate Magic/117
-
 **Experience points:** 100
 
 **Armor class:** 14/14/11

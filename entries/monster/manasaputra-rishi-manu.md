@@ -45,8 +45,6 @@ given form._
 
 **Perception:** +26
 
-**source:** Bestiary 5/165
-
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra
 
 **Experience points:** 38,400

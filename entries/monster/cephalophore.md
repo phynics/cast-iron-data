@@ -45,8 +45,6 @@ its domain._
 
 **Perception:** +1
 
-**source:** Bestiary 4/27;Pathfinder \#64: Beyond the Doomsday Door/82
-
 **Experience points:** 4,800
 
 **Armor class:** 23/11/21

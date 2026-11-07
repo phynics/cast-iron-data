@@ -48,8 +48,6 @@ dry, stretched skin._
 
 **Perception:** +20
 
-**source:** Pathfinder \#48: Shadows of Gallowspire/82
-
 **Type:** undead
 
 **Experience points:** 19,200

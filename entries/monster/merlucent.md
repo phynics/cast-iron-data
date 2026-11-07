@@ -44,8 +44,6 @@ supports its faintly glowing flesh._
 
 **Perception:** +7
 
-**source:** Pathfinder \#104: Wrath of Thrune/90
-
 **Subtype:** Aquatic
 
 **Experience points:** 800

@@ -49,8 +49,6 @@ around its enormous cap._
 
 **Sense:** Sid
 
-**source:** Occult Bestiary/55
-
 **Experience points:** 2,400
 
 **Armor class:** 20/8/20

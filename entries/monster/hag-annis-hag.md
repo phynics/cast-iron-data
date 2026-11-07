@@ -41,8 +41,6 @@ looms taller than a human._
 
 **Perception:** +13
 
-**source:** Bestiary 3/16;Bonus Bestiary/11
-
 **Experience points:** 2,400
 
 **Armor class:** 20/10/19

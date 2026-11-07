@@ -41,8 +41,6 @@ armored entirely in disfigured plates._
 
 **Perception:** +0
 
-**source:** Bestiary 4/99
-
 **Type:** vermin
 
 **Experience points:** 600

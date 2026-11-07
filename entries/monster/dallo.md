@@ -46,8 +46,6 @@ woolly underside._
 
 **Size:** small
 
-**source:** Pathfinder \#118: Siege of Stone/82
-
 **Experience points:** 400
 
 **Armor class:** 14/11/14

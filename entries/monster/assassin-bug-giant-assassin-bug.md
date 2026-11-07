@@ -39,8 +39,6 @@ _This goat-sized insect stands on long, spindly legs. Its mouthparts glisten wit
 
 **Size:** small
 
-**source:** Bestiary 5/36;Pathfinder \#81: Shifting Sands/82
-
 **Type:** vermin
 
 **Experience points:** 800

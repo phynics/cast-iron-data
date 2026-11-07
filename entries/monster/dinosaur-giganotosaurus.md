@@ -42,8 +42,6 @@ _This bipedal dinosaur has a large head and cavernous jaws full of large, sharp 
 
 **Sense:** Scent
 
-**source:** Bestiary 6/94
-
 **Experience points:** 25,600
 
 **Armor class:** 27/2/27

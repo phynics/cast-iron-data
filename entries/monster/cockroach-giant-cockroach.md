@@ -39,8 +39,6 @@ _A dog-sized cockroach skitters forth, greedily clicking its filth-slicked mandi
 
 **Size:** small
 
-**source:** Bestiary 2/58
-
 **tremorsense:** 60
 
 **Type:** vermin

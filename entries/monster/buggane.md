@@ -43,8 +43,6 @@ strong enough to shatter stone._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/26
-
 **tremorsense:** 60
 
 **Experience points:** 1,600

@@ -41,8 +41,6 @@ _Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpe
 
 **Perception:** +22
 
-**source:** Pathfinder RPG Bestiary/213
-
 **Experience points:** 6,400
 
 **Armor class:** 23/14/18

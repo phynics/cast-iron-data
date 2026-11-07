@@ -46,8 +46,6 @@ attack.
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/174
-
 **Experience points:** 600
 
 **Armor class:** 13/9/13

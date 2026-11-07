@@ -44,8 +44,6 @@ brow._
 
 **Perception:** +7
 
-**source:** Bestiary 5/75;Pathfinder \#76: The Midnight Isles/84
-
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 600

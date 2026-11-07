@@ -41,8 +41,6 @@ _The pockets of this urchin are stuffed with worthless objects._
 
 **Perception:** +5
 
-**source:** Andoran, Birthplace of Freedom/56
-
 **Size:** tiny
 
 **Experience points:** 600

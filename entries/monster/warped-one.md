@@ -45,8 +45,6 @@ too eager to wreak havoc._
 
 **Perception:** +10
 
-**source:** The Worldwound/62
-
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 4,800

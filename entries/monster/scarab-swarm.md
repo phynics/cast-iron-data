@@ -40,8 +40,6 @@ filthy dust._
 
 **Perception:** +4
 
-**source:** Bestiary 5/221;Pathfinder \#79: The Half-Dead City/89
-
 **Subtype:** Swarm
 
 **Type:** vermin

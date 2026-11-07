@@ -43,8 +43,6 @@ dirty fingers._
 
 **Senses:** Fear sense
 
-**source:** Bestiary 6/168
-
 **Type:** undead
 
 **Experience points:** 2,400

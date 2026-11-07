@@ -42,8 +42,6 @@ _This regal woman exhibits the grace and pride of the forest's most ancient tree
 
 **Perception:** +31
 
-**source:** Bestiary 4/148
-
 **Experience points:** 51,200
 
 **Armor class:** 29/17/22

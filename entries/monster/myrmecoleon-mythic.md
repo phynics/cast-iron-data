@@ -47,8 +47,6 @@ sizzling acid._
 
 **Perception:** +9
 
-**source:** Bestiary 4/198
-
 **Subtype:** Mythic
 
 **Experience points:** 9,600
