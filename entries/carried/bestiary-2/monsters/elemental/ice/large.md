@@ -12,7 +12,7 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "5"
-creature_type = "Outsider"
+creature_type = "outsider"
 subtypes = ["air", "cold", "elemental", "extraplanar", "water"]
 size = "Large"
 alignment = "N"

@@ -12,7 +12,7 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "11"
-creature_type = "Humanoid"
+creature_type = "humanoid"
 size = "Medium"
 alignment = "N"
 ac = "25, touch 11, flat-footed 24 (+10 armor, +1 Dex, +1 natural, +3 shield)"

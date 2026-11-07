@@ -12,7 +12,7 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "2"
-creature_type = "Humanoid"
+creature_type = "humanoid"
 subtypes = ["giant"]
 size = "Medium"
 alignment = "CE"

@@ -18,7 +18,7 @@ env:
   CARGO_TERM_COLOR: always
   # The Cast Iron revision whose `cast-iron-corpus` reads this corpus. Change it in the same
   # pull request that migrates the corpus to a newer format.
-  CAST_IRON_REV: 20e6a31af342cb5f7899cdb7e039022f5bae5de8
+  CAST_IRON_REV: 11cefb877a217313cb79f188d93bf3359cbc407b
   # The Rust toolchain: the version in Cast Iron's rust-toolchain.toml at that revision.
   RUST_TOOLCHAIN: 1.99.1
 

@@ -12,7 +12,7 @@ provenance = [
 [fields]
 kind = "creature"
 cr = "9"
-creature_type = "Outsider"
+creature_type = "outsider"
 subtypes = ["azata", "chaotic", "extraplanar", "evil"]
 size = "Large"
 alignment = "CE"
