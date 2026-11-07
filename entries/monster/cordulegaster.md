@@ -47,9 +47,9 @@ _Interlocking plates of chitin cover this massive, six-legged beast's face like 
 
 **Experience points:** 2,400
 
-**Aav:** present
-
 **Armor class:** 19/9/19
+
+**Defensive abilities:** all-around vision
 
 **Fort:** +10
 

@@ -56,11 +56,9 @@ apparent mechanism._
 
 **Experience points:** 51,200
 
-**Aav:** present
-
 **Armor class:** 29/14/25
 
-**Defensive abilities:** sharpshooter's sense
+**Defensive abilities:** all-around vision, sharpshooter's sense
 
 **Dr:** 15/adamantine
 

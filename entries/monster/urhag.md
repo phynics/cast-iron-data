@@ -47,9 +47,9 @@ whip-thin tail ends in a slender stinger._
 **Sources:** Bestiary 6 pg 269\
 **Experience points:** 800
 
-**Aav:** present
-
 **Armor class:** 15/11/14
+
+**Defensive abilities:** all-around vision
 
 **Fort:** +4
 

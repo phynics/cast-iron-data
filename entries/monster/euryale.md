@@ -51,11 +51,9 @@ cobras for hair._
 **Sources:** Bestiary 6 pg 120\
 **Experience points:** 307,200
 
-**Aav:** present
-
 **Armor class:** 37/32/25
 
-**Defensive abilities:** absorb essence, _[death ward](ref/spell/death-ward)_,
+**Defensive abilities:** absorb essence, all-around vision, _[death ward](ref/spell/death-ward)_,
 _[mind blank](ref/spell/mind-blank)_, profane visions
 
 **Dr:** 15/good and slashing

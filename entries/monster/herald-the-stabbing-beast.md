@@ -57,9 +57,9 @@ _This towering, scorpion-tailed man stalks with a soundless grace and murderous 
 
 **Experience points:** 51,200
 
-**Aav:** present
-
 **Armor class:** 31/23/18
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 10/good and magic
 

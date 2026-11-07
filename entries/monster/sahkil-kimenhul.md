@@ -53,11 +53,9 @@ and bone._
 
 **Experience points:** 307,200
 
-**Aav:** present
-
 **Armor class:** 37/17/28
 
-**Defensive abilities:** _[mind blank](ref/spell/mind-blank)_
+**Defensive abilities:** all-around vision, _[mind blank](ref/spell/mind-blank)_
 
 **Dr:** 15/good
 

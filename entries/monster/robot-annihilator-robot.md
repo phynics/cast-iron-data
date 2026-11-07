@@ -58,7 +58,7 @@ _The tip of this towering, scorpion-like construct's tail thrums with otherworld
 
 **Fort:** +8
 
-**Hp Raw:** 170 (20d10+60); force field (80 hp, [fast healing](ref/umr/fast-healing) 16)
+**Hit points:** 170 (20d10+60); force field (80 hp, [fast healing](ref/umr/fast-healing) 16)
 
 **Immune:** cold, [construct traits](ref/umr/construct-traits)
 

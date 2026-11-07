@@ -56,11 +56,10 @@ mirrors._
 
 **Experience points:** 102,400
 
-**Aav:** present
-
 **Armor class:** 32/30/22
 
-**Defensive abilities:** cyclic energy, fated, _[mind blank](ref/spell/mind-blank)_, mirror garb
+**Defensive abilities:** all-around vision, cyclic energy, fated,
+_[mind blank](ref/spell/mind-blank)_, mirror garb
 
 **Dr:** 5/adamantine
 

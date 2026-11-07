@@ -49,17 +49,15 @@ one studies its twitching visage._
 
 **Armor class:** 21/15/16
 
-**Defensive abilities:** unusual anatomy
+**Defensive abilities:** no breath, unusual anatomy
 
 **Fort:** +11
 
-**Hp Raw:** 95 (10d10+40); planar [fast healing](ref/umr/fast-healing) 5
+**Hit points:** 95 (10d10+40); planar [fast healing](ref/umr/fast-healing) 5
 
 **Immune:** poison
 
 **Mod:** +4 Dex, +1 dodge, +6 natural
-
-**No B:** present
 
 **Ref:** +11
 

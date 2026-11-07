@@ -50,9 +50,9 @@ _This enormous fungus looks like a cage, and a strange glow emanates from within
 **Sources:** Bestiary 5 pg 286\
 **Experience points:** 153,600
 
-**Aav:** present
-
 **Armor class:** 24/9/17
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 20/magic and slashing
 

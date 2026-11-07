@@ -50,11 +50,9 @@ rock._
 
 **Experience points:** 102,400
 
-**Aav:** present
-
 **Armor class:** 36/11/36
 
-**Defensive abilities:** stony cover
+**Defensive abilities:** all-around vision, stony cover
 
 **Dr:** 15/-
 

@@ -55,14 +55,12 @@ mountain of madness come to life._
 
 **Experience points:** 6,553,600
 
-**Aav:** present
-
 **Armor class:** 47/24/35
 
 **Amorph:** present
 
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, immortality,
-insanity (DC 37)
+**Defensive abilities:** all-around vision, _[freedom of movement](ref/spell/freedom-of-movement)_,
+immortality, insanity (DC 37)
 
 **Dr:** 15/epic and lawful
 

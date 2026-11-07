@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "undead"
-subtypes = ["earth"]
+subtypes = ["augmented humanoid", "earth"]
 size = "medium"
 alignment = "neutral evil"
 ac = "27/11/27"
@@ -34,8 +34,6 @@ and its eyes are polished white orbs._
 
 **Female old human siabrae [druid](ref/class/druid) 14**
 
-**augment:** Humanoid
-
 **dv:** 60
 
 **Initiative:** +3
@@ -47,7 +45,7 @@ and its eyes are polished white orbs._
 **Perception:** +32
 
 **Sources:** Bestiary 6 pg 250, The Worldwound pg 58\
-**Subtype:** Earth
+**Subtype:** Augmented humanoid, Earth
 
 **tremorsense:** 60
 

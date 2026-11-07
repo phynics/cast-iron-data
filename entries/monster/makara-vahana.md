@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "9"
 creature_type = "magicalBeast"
-subtypes = ["aquatic"]
+subtypes = ["aquatic", "augmented animal"]
 size = "huge"
 alignment = "neutral"
 ac = "22/10/20"
@@ -31,8 +31,6 @@ scaly hide, and tail of a crocodile._
 
 **Challenge rating:** 9
 
-**augment:** Animal
-
 **dv:** 60
 
 **Size:** huge
@@ -50,7 +48,7 @@ scaly hide, and tail of a crocodile._
 **Sense:** Scent
 
 **Sources:** Bestiary 5 pg 262\
-**Subtype:** Aquatic
+**Subtype:** Aquatic, Augmented animal
 
 **Experience points:** 6,400
 

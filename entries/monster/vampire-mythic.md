@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "10"
 creature_type = "undead"
-subtypes = ["human", "mythic"]
+subtypes = ["augmented humanoid", "human", "mythic"]
 size = "medium"
 alignment = "neutral evil"
 ac = "29/16/24"
@@ -37,8 +37,6 @@ long fangs._
 
 **Human vampire [fighter](ref/class/fighter) 7**
 
-**augment:** Humanoid
-
 **dv:** 60
 
 **Initiative:** +12, Mythic Improved Initiative
@@ -50,7 +48,7 @@ long fangs._
 **Perception:** +17
 
 **Sources:** Mythic Adventures pg 220\
-**Subtype:** Human, Mythic
+**Subtype:** Augmented humanoid, Human, Mythic
 
 **Type:** undead
 

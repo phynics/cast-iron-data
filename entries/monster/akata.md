@@ -48,6 +48,8 @@ where its mane should be._
 
 **Armor class:** 13/12/11
 
+**Defensive abilities:** no breath
+
 **Fort:** +3
 
 **Hit points:** 15 (2d8+6)
@@ -55,8 +57,6 @@ where its mane should be._
 **Immune:** cold, disease, poison
 
 **Mod:** +2 Dex, +1 natural
-
-**No B:** present
 
 **Ref:** +2
 

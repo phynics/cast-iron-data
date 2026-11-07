@@ -55,11 +55,9 @@ are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence
 
 **Experience points:** 6,553,600
 
-**Aav:** present
-
 **Armor class:** 47/32/37
 
-**Defensive abilities:** Abyssal resurrection,
+**Defensive abilities:** Abyssal resurrection, all-around vision,
 _[freedom of movement](ref/spell/freedom-of-movement)_, rasping armor
 
 **Dr:** 20/cold iron, epic, and good

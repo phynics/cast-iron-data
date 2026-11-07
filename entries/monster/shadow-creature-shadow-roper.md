@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "13"
 creature_type = "outsider"
+subtypes = ["augmented aberration"]
 size = "large"
 alignment = "chaotic evil"
 ac = "27/10/26"
@@ -31,8 +32,6 @@ amalgamation of darkness and menace._
 
 **Challenge rating:** 13
 
-**augment:** Aberration
-
 **Alignment:** Chaotic evil
 
 **dv:** 60
@@ -48,6 +47,8 @@ amalgamation of darkness and menace._
 **Perception:** +24
 
 **Sources:** Bestiary 4 pg 238\
+**Subtype:** Augmented aberration
+
 **Experience points:** 25,600
 
 **Armor class:** 27/10/26

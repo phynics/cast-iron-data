@@ -51,11 +51,9 @@ _The facets of this crystalline dragon's body reflect fascinating and sparkling 
 
 **Experience points:** 102,400
 
-**Aav:** present
-
 **Armor class:** 35/9/34
 
-**Defensive abilities:** psychic resilience, ray reflection
+**Defensive abilities:** all-around vision, psychic resilience, ray reflection
 
 **Dr:** 15/magic
 

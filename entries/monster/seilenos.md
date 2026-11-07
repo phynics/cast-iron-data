@@ -56,7 +56,7 @@ _This creature has the body of a middle-aged human man and the pointed ears and 
 
 **Fort:** +18
 
-**Hp Raw:** 333 (23d6+253); sustaining joy
+**Hit points:** 333 (23d6+253); sustaining joy
 
 **Immune:** sonic
 

@@ -53,7 +53,7 @@ mouth._
 
 **Fort:** +5
 
-**Hp Raw:** 30 (4d12+4); fiery regeneration
+**Hit points:** 30 (4d12+4); fiery regeneration
 
 **Immune:** dragon traits, fire, paralysis, sleep
 

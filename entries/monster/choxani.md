@@ -47,9 +47,9 @@ colors and patterns._
 **Sources:** The First World, Realm of the Fey pg 59\
 **Experience points:** 800
 
-**Aav:** present
-
 **Armor class:** 15/13/12
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 5/cold iron and slashing
 

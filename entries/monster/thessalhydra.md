@@ -49,9 +49,9 @@ thrashing tail ends in a crab-like pincer._
 **Sources:** Bestiary 6 pg 263\
 **Experience points:** 153,600
 
-**Aav:** present
-
 **Armor class:** 33/21/18
+
+**Defensive abilities:** all-around vision
 
 **Fh:** 15
 

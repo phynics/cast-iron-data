@@ -55,11 +55,9 @@ shimmering, pulsating globe of holy light._
 
 **Experience points:** 307,200
 
-**Aav:** present
-
 **Armor class:** 36/14/30
 
-**Defensive abilities:** entrench
+**Defensive abilities:** all-around vision, entrench
 
 **Dr:** 15/bludgeoning and evil
 

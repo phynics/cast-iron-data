@@ -51,11 +51,11 @@ amorphous form, its body pulsating with a horrid vitality._
 
 **Experience points:** 2,400
 
-**Aav:** present
-
 **Armor class:** 19/13/15
 
 **Amorph:** present
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 5/cold iron or lawful
 

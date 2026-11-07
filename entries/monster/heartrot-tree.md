@@ -47,9 +47,9 @@ _Fungus drips from this grotesque tree's ridged bark as its branches wave like b
 **Sources:** Pathfinder \#119: Prisoners of the Blight pg 86\
 **Experience points:** 25,600
 
-**Aav:** present
-
 **Armor class:** 28/8/28
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 10/slashing
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "undead"
-subtypes = ["elf", "human"]
+subtypes = ["augmented humanoid", "elf", "human"]
 size = "medium"
 alignment = "neutral evil"
 ac = "28/14/25"
@@ -31,8 +31,6 @@ abilities = ["26", "14", "-", "18", "15", "20"]
 
 **Half-elf vampire [magus](ref/class/magus) 14**
 
-**augment:** Humanoid
-
 **dv:** 60
 
 **Initiative:** +6
@@ -46,7 +44,7 @@ abilities = ["26", "14", "-", "18", "15", "20"]
 **Perception:** +35
 
 **Sources:** Monster Codex pg 243\
-**Subtype:** Elf, Human
+**Subtype:** Augmented humanoid, Elf, Human
 
 **Type:** undead
 

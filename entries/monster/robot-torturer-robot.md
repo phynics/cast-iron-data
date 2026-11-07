@@ -51,15 +51,13 @@ sphere._
 
 **Experience points:** 4,800
 
-**Aav:** present
-
 **Armor class:** 23/17/17
 
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
+**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10
 
 **Fort:** +3
 
-**Hp Raw:** 105 (10d10+10 plus 40-hp force field)
+**Hit points:** 105 (10d10+10 plus 40-hp force field)
 
 **Immune:** [construct traits](ref/umr/construct-traits)
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "12"
 creature_type = "undead"
-subtypes = ["human"]
+subtypes = ["augmented humanoid", "human"]
 size = "medium"
 alignment = "lawful evil"
 ac = "34/25/28"
@@ -31,8 +31,6 @@ abilities = ["22", "20", "-", "14", "18", "16"]
 
 **Human vampire [monk](ref/class/monk) ([hungry ghost monk](ref/arc-monk/hungry-ghost-monk)) 11**
 
-**augment:** Humanoid
-
 **dv:** 60
 
 **Initiative:** +9
@@ -44,7 +42,7 @@ abilities = ["22", "20", "-", "14", "18", "16"]
 **Perception:** +30
 
 **Sources:** Monster Codex pg 242\
-**Subtype:** Human
+**Subtype:** Augmented humanoid, Human
 
 **Type:** undead
 

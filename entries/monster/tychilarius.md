@@ -51,11 +51,9 @@ spiraling maw ringed with thousands of teeth._
 
 **Experience points:** 819,200
 
-**Aav:** present
-
 **Armor class:** 41/25/29
 
-**Defensive abilities:** [psychic resilience](ref/umr/psychic-resilience)
+**Defensive abilities:** all-around vision, [psychic resilience](ref/umr/psychic-resilience)
 
 **Dr:** 10/adamantine and good
 

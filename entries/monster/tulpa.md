@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "6"
 creature_type = "outsider"
-subtypes = ["human"]
+subtypes = ["augmented humanoid", "human"]
 size = "medium"
 alignment = "lawful neutral"
 ac = "19/18/15"
@@ -33,8 +33,6 @@ _A gray-skinned humanoid with oddly unremarkable features floats ponderously in 
 
 **Male human tulpa [monk](ref/class/monk) 5**
 
-**augment:** Humanoid
-
 **dv:** 60
 
 **Initiative:** +7
@@ -48,7 +46,7 @@ _A gray-skinned humanoid with oddly unremarkable features floats ponderously in 
 **Perception:** +11
 
 **Sources:** Bestiary 5 pg 254\
-**Subtype:** Human
+**Subtype:** Augmented humanoid, Human
 
 **Experience points:** 2,400
 

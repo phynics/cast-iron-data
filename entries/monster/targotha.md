@@ -49,11 +49,9 @@ deep-purple body._
 **Sources:** Bestiary 6 pg 261, Numeria, Land of Fallen Stars pg 60\
 **Experience points:** 51,200
 
-**Aav:** present
-
 **Armor class:** 28/10/26
 
-**Defensive abilities:** slippery
+**Defensive abilities:** all-around vision, slippery
 
 **Fort:** +16
 

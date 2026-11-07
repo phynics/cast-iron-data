@@ -55,11 +55,10 @@ legs._
 
 **Experience points:** 6,400
 
-**Aav:** present
-
 **Armor class:** 23/13/19
 
-**Defensive abilities:** [hardness](ref/umr/hardness) 10, reactive armor, resilient
+**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10, reactive armor,
+resilient
 
 **Fort:** +8
 

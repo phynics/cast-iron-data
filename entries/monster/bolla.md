@@ -47,9 +47,9 @@ don't quite touch the ground._
 **Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 88\
 **Experience points:** 38,400
 
-**Aav:** present
-
 **Armor class:** 29/11/26
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 10/magic
 

@@ -53,7 +53,7 @@ aura of horror._
 
 **Fort:** +9
 
-**Hp Raw:** 93 (17d6+34); terrible rejuvenation 5
+**Hit points:** 93 (17d6+34); terrible rejuvenation 5
 
 **Mod:** +7 deflection, +5 Dex, +1 dodge
 

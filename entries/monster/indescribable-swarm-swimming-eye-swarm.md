@@ -47,11 +47,9 @@ _At the heart of each of these tiny blobs of slime and tentacles is a single, ee
 
 **Experience points:** 1,200
 
-**Aav:** present
-
 **Armor class:** 16/16/12
 
-**Defensive abilities:** ruptured membranes, swarm traits
+**Defensive abilities:** all-around vision, ruptured membranes, swarm traits
 
 **Fort:** +4
 

@@ -48,9 +48,9 @@ gnashing, ophidian maws._
 
 **Experience points:** 25,600
 
-**Aav:** present
-
 **Armor class:** 28/17/20
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 10/lawful
 

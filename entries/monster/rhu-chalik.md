@@ -48,9 +48,9 @@ bulging, lidless eye._
 **Sources:** Bestiary 5 pg 203, Pathfinder \#86: Lords of Rust pg 86\
 **Experience points:** 2,400
 
-**Aav:** present
-
 **Armor class:** 18/14/15
+
+**Defensive abilities:** all-around vision
 
 **Fh:** 2
 

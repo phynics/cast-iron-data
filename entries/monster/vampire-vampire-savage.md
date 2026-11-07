@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "10"
 creature_type = "undead"
-subtypes = ["human", "orc"]
+subtypes = ["augmented humanoid", "human", "orc"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "21/14/16"
@@ -31,8 +31,6 @@ abilities = ["30", "18", "-", "10", "14", "22"]
 
 **Half-orc vampire [barbarian](ref/class/barbarian) 9**
 
-**augment:** Humanoid
-
 **Alignment:** Chaotic evil
 
 **dv:** 60
@@ -44,7 +42,7 @@ abilities = ["30", "18", "-", "10", "14", "22"]
 **Perception:** +24
 
 **Sources:** Monster Codex pg 241\
-**Subtype:** Human, Orc
+**Subtype:** Augmented humanoid, Human, Orc
 
 **Type:** undead
 

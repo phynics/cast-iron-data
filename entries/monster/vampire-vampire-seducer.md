@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "6"
 creature_type = "undead"
-subtypes = ["human"]
+subtypes = ["augmented humanoid", "human"]
 size = "medium"
 alignment = "neutral evil"
 ac = "25/15/20"
@@ -31,8 +31,6 @@ abilities = ["18", "18", "-", "15", "12", "22"]
 
 **Human vampire [bard](ref/class/bard) 5**
 
-**augment:** Humanoid
-
 **dv:** 60
 
 **Initiative:** +8
@@ -44,7 +42,7 @@ abilities = ["18", "18", "-", "15", "12", "22"]
 **Perception:** +19
 
 **Sources:** Monster Codex pg 239\
-**Subtype:** Human
+**Subtype:** Augmented humanoid, Human
 
 **Type:** undead
 

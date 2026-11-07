@@ -48,9 +48,9 @@ _This glittering ooze suddenly flexes and bulges as portions of it begin to crys
 
 **Experience points:** 600
 
-**Aav:** present
-
 **Armor class:** 14/14/10
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 5/bludgeoning
 

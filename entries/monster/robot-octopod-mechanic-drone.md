@@ -59,7 +59,7 @@ _This octopus-like robot has eight tentacles that it uses to repair multiple mac
 
 **Fort:** +5
 
-**Hp Raw:** 124 (16d10+36); force field (65 hp, [fast healing](ref/umr/fast-healing) 13)
+**Hit points:** 124 (16d10+36); force field (65 hp, [fast healing](ref/umr/fast-healing) 13)
 
 **Immune:** [construct traits](ref/umr/construct-traits)
 

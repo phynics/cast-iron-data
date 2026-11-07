@@ -51,11 +51,9 @@ sickly-sweet scent fills the swirling air around it._
 **Sources:** Pathfinder \#142: Gardens of Gallowspire pg 90\
 **Experience points:** 25,600
 
-**Aav:** present
-
 **Armor class:** 27/13/22
 
-**Defensive abilities:** displacement
+**Defensive abilities:** all-around vision, displacement
 
 **Evasion:** present
 

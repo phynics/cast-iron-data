@@ -56,7 +56,7 @@ allow the creature to fly._
 
 **Armor class:** 29/11/24
 
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
+**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, no breath
 
 **Dr:** 10/magic and slashing
 
@@ -69,8 +69,6 @@ allow the creature to fly._
 **Immune:** acid, cold
 
 **Mod:** +5 Dex, +18 natural, -4 size
-
-**No B:** present
 
 **Ref:** +14
 

@@ -48,9 +48,9 @@ _This tangled mass of thick reeds extends from a bulbous pod split by a wide, th
 
 **Experience points:** 6,400
 
-**Aav:** present
-
 **Armor class:** 23/14/18
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 5/slashing
 

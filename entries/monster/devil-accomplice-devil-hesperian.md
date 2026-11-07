@@ -52,9 +52,9 @@ occasional dart of a forked tongue._
 
 **Experience points:** 1,200
 
-**Aav:** present
-
 **Armor class:** 17/10/17
+
+**Defensive abilities:** all-around vision
 
 **Dr:** 5/good
 

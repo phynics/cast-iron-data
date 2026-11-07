@@ -48,9 +48,9 @@ _This small cylindrical creature has two eyestalks extending straight off to eac
 
 **Experience points:** 400
 
-**Aav:** present
-
 **Armor class:** 15/15/12
+
+**Defensive abilities:** all-around vision
 
 **Fort:** +4
 

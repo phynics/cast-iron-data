@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "6"
 creature_type = "undead"
-subtypes = ["human"]
+subtypes = ["augmented humanoid", "human"]
 size = "medium"
 alignment = "lawful evil"
 ac = "18/15/13"
@@ -32,8 +32,6 @@ abilities = ["17", "18", "-", "10", "12", "8"]
 
 **Human [fighter](ref/class/fighter) ([trench fighter](ref/arc-fighter/trench-fighter)) 6**
 
-**augment:** Humanoid
-
 **dv:** 60
 
 **Initiative:** +8
@@ -45,7 +43,7 @@ abilities = ["17", "18", "-", "10", "12", "8"]
 **Perception:** +7
 
 **Sources:** Pathfinder \#71: Rasputin Must Die! pg 91\
-**Subtype:** Human
+**Subtype:** Augmented humanoid, Human
 
 **Type:** undead
 

@@ -57,11 +57,9 @@ immense serpents._
 
 **Experience points:** 6,553,600
 
-**Aav:** present
-
 **Armor class:** 47/32/42
 
-**Defensive abilities:** envenomed scales, infernal resurrection,
+**Defensive abilities:** all-around vision, envenomed scales, infernal resurrection,
 _[mind blank](ref/spell/mind-blank)_, threefold body
 
 **Dr:** 20/epic, good, and silver
