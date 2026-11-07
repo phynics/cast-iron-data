@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "8"
 creature_type = "undead"
-subtypes = ["vishkanya"]
+subtypes = ["augmented humanoid", "vishkanya"]
 size = "medium"
 alignment = "lawful evil"
 ac = "25/15/20"
@@ -32,8 +32,6 @@ abilities = ["20", "20", "-", "10", "15", "18"]
 
 **Vishkanya jiang-shi vampire [fighter](ref/class/fighter) 7**
 
-**augment:** Humanoid
-
 **blindsight:** 60 ft. (breathing creatures only)
 
 **dv:** 60
@@ -49,7 +47,7 @@ abilities = ["20", "20", "-", "10", "15", "18"]
 **Perception:** +21
 
 **Sources:** Monster Codex pg 240\
-**Subtype:** Vishkanya
+**Subtype:** Augmented humanoid, Vishkanya
 
 **Type:** undead
 

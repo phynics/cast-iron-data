@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "3"
 creature_type = "undead"
+subtypes = ["augmented vermin"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "17/10/17"
@@ -30,8 +31,6 @@ of the gap._
 
 **Challenge rating:** 3
 
-**augment:** Vermin
-
 **Alignment:** Chaotic evil
 
 **dv:** 60
@@ -45,6 +44,8 @@ of the gap._
 **Sense:** Scent
 
 **Sources:** Bestiary 6 pg 287\
+**Subtype:** Augmented vermin
+
 **Type:** undead
 
 **Experience points:** 800

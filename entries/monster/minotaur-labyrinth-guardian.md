@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "8"
 creature_type = "undead"
+subtypes = ["augmented monstrous humanoid"]
 size = "large"
 alignment = "chaotic evil"
 ac = "29/10/28"
@@ -34,8 +35,6 @@ enormous blade._
 
 **Minotaur graveknight [fighter](ref/class/fighter) 1**
 
-**augment:** Monstrous humanoid
-
 **aura:** sacrilegious aura (30 ft., DC 16)
 
 **Alignment:** Chaotic evil
@@ -49,6 +48,8 @@ enormous blade._
 **Perception:** +20
 
 **Sources:** Inner Sea Monster Codex pg 43\
+**Subtype:** Augmented monstrous humanoid
+
 **Type:** undead
 
 **Experience points:** 4,800

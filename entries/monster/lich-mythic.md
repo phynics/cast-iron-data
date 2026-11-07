@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "17"
 creature_type = "undead"
-subtypes = ["human", "mythic"]
+subtypes = ["augmented humanoid", "human", "mythic"]
 size = "medium"
 alignment = "lawful evil"
 ac = "36/14/34"
@@ -35,8 +35,6 @@ _This armored undead human wields a heavy mace and wears the trappings of a devi
 
 **Human [lich](ref/template/lich) [cleric](ref/class/cleric) of [Asmodeus](ref/faith/asmodeus) 13**
 
-**augment:** Humanoid
-
 **aura:** fear (60 ft., DC 28)
 
 **dv:** 60
@@ -52,7 +50,7 @@ _This armored undead human wields a heavy mace and wears the trappings of a devi
 **Senses:** Spell perception
 
 **Sources:** Mythic Adventures pg 206\
-**Subtype:** Human, Mythic
+**Subtype:** Augmented humanoid, Human, Mythic
 
 **Type:** undead
 

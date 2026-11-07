@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "26"
 creature_type = "undead"
-subtypes = ["human", "mythic"]
+subtypes = ["augmented humanoid", "human", "mythic"]
 size = "medium"
 alignment = "neutral evil"
 ac = "46/19/42"
@@ -36,8 +36,6 @@ by a palpable aura of death._
 
 **Human mythic lich necromancer 20**
 
-**augment:** Humanoid
-
 **aura:** absolute terror (60-ft. radius, DC 39)
 
 **dv:** 60
@@ -55,7 +53,7 @@ by a palpable aura of death._
 **Sense:** Sid
 
 **Sources:** Mythic Realms pg 62\
-**Subtype:** Human, Mythic
+**Subtype:** Augmented humanoid, Human, Mythic
 
 **Type:** undead
 

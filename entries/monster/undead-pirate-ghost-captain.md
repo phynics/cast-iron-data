@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "7"
 creature_type = "undead"
-subtypes = ["incorporeal"]
+subtypes = ["augmented humanoid", "incorporeal"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "19/19/15"
@@ -31,8 +31,6 @@ abilities = ["-", "16", "-", "13", "12", "20"]
 
 **Human [ghost](ref/template/ghost) [fighter](ref/class/fighter) 3/[rogue](ref/class/rogue) 3**
 
-**augment:** Humanoid
-
 **Alignment:** Chaotic evil
 
 **dv:** 60
@@ -44,7 +42,7 @@ abilities = ["-", "16", "-", "13", "12", "20"]
 **Perception:** +9
 
 **Sources:** Isles of the Shackles pg 62\
-**Subtype:** Incorporeal
+**Subtype:** Augmented humanoid, Incorporeal
 
 **Type:** undead
 
