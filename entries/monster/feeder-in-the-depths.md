@@ -57,7 +57,7 @@ intelligence._
 
 **Fort:** +12
 
-**Hp Raw:** 105 (10d10+50); blood feast
+**Hit points:** 105 (10d10+50); blood feast
 
 **Mod:** +2 Dex, +10 natural, -2 size
 

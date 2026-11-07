@@ -58,7 +58,7 @@ primordial nature, and the abundant plant growth covering its body suggests both
 
 **Fort:** +14
 
-**Hp Raw:** 157 (15d10+75); swamp healing 5
+**Hit points:** 157 (15d10+75); swamp healing 5
 
 **Immune:** cold, poison
 

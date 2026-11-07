@@ -58,7 +58,7 @@ _This metallic creature has pincer-tipped arms, a single red eye, and an array o
 
 **Fort:** +10
 
-**Hp Raw:** 112 (15d10+30); force field (55 hp, [fast healing](ref/umr/fast-healing) 11)
+**Hit points:** 112 (15d10+30); force field (55 hp, [fast healing](ref/umr/fast-healing) 11)
 
 **Immune:** [construct traits](ref/umr/construct-traits)
 

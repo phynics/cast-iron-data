@@ -53,7 +53,7 @@ one studies its twitching visage._
 
 **Fort:** +11
 
-**Hp Raw:** 95 (10d10+40); planar [fast healing](ref/umr/fast-healing) 5
+**Hit points:** 95 (10d10+40); planar [fast healing](ref/umr/fast-healing) 5
 
 **Immune:** poison
 

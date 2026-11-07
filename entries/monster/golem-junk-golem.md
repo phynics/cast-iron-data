@@ -54,7 +54,7 @@ together._
 
 **Fort:** +1
 
-**Hp Raw:** 42 (4d10+20); junk repair
+**Hit points:** 42 (4d10+20); junk repair
 
 **Immune:** [construct traits](ref/umr/construct-traits), magic
 

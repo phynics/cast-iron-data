@@ -56,7 +56,7 @@ for eyes; and large, powerful hands that end in wicked claws._
 
 **Fort:** +6
 
-**Hp Raw:** 22 (3d8+9); rain regeneration 5 (acid or fire)
+**Hit points:** 22 (3d8+9); rain regeneration 5 (acid or fire)
 
 **Mod:** +4 Dex
 

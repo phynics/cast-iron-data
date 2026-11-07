@@ -59,7 +59,7 @@ sphere._
 
 **Fort:** +3
 
-**Hp Raw:** 105 (10d10+10 plus 40-hp force field)
+**Hit points:** 105 (10d10+10 plus 40-hp force field)
 
 **Immune:** [construct traits](ref/umr/construct-traits)
 

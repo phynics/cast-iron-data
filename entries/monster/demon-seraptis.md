@@ -58,7 +58,7 @@ slashes on her four arms._
 
 **Fort:** +22
 
-**Hp Raw:** 217 (15d10+135); blood healing
+**Hit points:** 217 (15d10+135); blood healing
 
 **Immune:** bleed, electricity, poison
 

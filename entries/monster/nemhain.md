@@ -54,7 +54,7 @@ _A cloud of translucent humanoid spirits whirls around this ghostly desiccated c
 
 **Fort:** +13
 
-**Hp Raw:** 225 (18d8+144); profane regeneration 5 (electricity or good)
+**Hit points:** 225 (18d8+144); profane regeneration 5 (electricity or good)
 
 **Immune:** cold, [undead traits](ref/umr/undead-traits)
 

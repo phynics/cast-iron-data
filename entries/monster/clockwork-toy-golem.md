@@ -58,7 +58,7 @@ _This amalgam of mechanical toys clacks and whirs._
 
 **Fort:** +2
 
-**Hp Raw:** 53 (6d10+20); clockwork repair
+**Hit points:** 53 (6d10+20); clockwork repair
 
 **Immune:** [construct traits](ref/umr/construct-traits), magic
 
