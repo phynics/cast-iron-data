@@ -45,8 +45,7 @@ greasy-scaled snake._
 
 **Size:** small
 
-**source:** Bestiary 3/132;Pathfinder \#1: Burnt Offerings/88
-
+**Sources:** Bestiary 3 pg 132, Pathfinder \#1: Burnt Offerings pg 88\
 **Experience points:** 400
 
 **Armor class:** 14/13/12

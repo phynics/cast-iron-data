@@ -43,8 +43,7 @@ arms, midsection, and legs._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/273
-
+**Sources:** Pathfinder RPG Bestiary pg 273\
 **Experience points:** 200
 
 **Armor class:** 16/13/14

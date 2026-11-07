@@ -44,8 +44,7 @@ burning with malevolence._
 
 **Perception:** +4
 
-**source:** Bestiary 4/143;Pathfinder \#25: The Bastards of Erebus/76
-
+**Sources:** Bestiary 4 pg 143, Pathfinder \#25: The Bastards of Erebus pg 76\
 **Subtype:** Aquatic
 
 **Size:** tiny

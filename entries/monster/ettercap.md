@@ -44,8 +44,7 @@ hands are sickle-shaped claws._
 
 **Perception:** +9
 
-**source:** Pathfinder RPG Bestiary/129
-
+**Sources:** Pathfinder RPG Bestiary pg 129\
 **Experience points:** 800
 
 **Armor class:** 15/13/12

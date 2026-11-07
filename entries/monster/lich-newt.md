@@ -41,8 +41,7 @@ _Two sharp ridges of bone run along the back of this foot-long, black-and-white 
 
 **Perception:** +4
 
-**source:** Pathfinder \#115: Trail of the Hunted/82
-
+**Sources:** Pathfinder \#115: Trail of the Hunted pg 82\
 **Subtype:** Aquatic
 
 **Size:** tiny

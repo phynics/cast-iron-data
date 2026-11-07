@@ -41,8 +41,7 @@ _This massive, squat crocodilian has forward facing eyes, jutting teeth, and a p
 
 **Perception:** +13
 
-**source:** Bestiary 5/170
-
+**Sources:** Bestiary 5 pg 170\
 **Experience points:** 1,600
 
 **Armor class:** 19/9/18

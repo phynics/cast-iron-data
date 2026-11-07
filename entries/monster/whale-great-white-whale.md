@@ -45,8 +45,7 @@ hide is laced with scars._
 
 **Perception:** +13
 
-**source:** Bestiary 2/282
-
+**Sources:** Bestiary 2 pg 282\
 **Experience points:** 38,400
 
 **Armor class:** 28/0/28

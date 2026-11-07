@@ -42,8 +42,7 @@ moves, and tendrils of hair flow around its expressionless face._
 
 **Perception:** -5
 
-**source:** Pathfinder \#123: The Flooded Cathedral/90
-
+**Sources:** Pathfinder \#123: The Flooded Cathedral pg 90\
 **Experience points:** 6,400
 
 **Armor class:** 18/18/10

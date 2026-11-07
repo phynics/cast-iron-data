@@ -47,8 +47,7 @@ fanged mouth._
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Bestiary 6/234
-
+**Sources:** Bestiary 6 pg 234\
 **Subtype:** Chaotic, Evil, Extraplanar, Incorporeal, Qlippoth
 
 **Experience points:** 1,638,400

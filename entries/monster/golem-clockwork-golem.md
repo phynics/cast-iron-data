@@ -44,8 +44,7 @@ of hundreds of gears._
 
 **Perception:** +0
 
-**source:** Bestiary 2/137
-
+**Sources:** Bestiary 2 pg 137\
 **Experience points:** 19,200
 
 **Armor class:** 26/10/25

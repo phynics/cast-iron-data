@@ -45,8 +45,7 @@ fiery-eyed sentinel bristles with barbs._
 
 **Sense:** Sid
 
-**source:** Pathfinder RPG Bestiary/72
-
+**Sources:** Pathfinder RPG Bestiary pg 72\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 12,800

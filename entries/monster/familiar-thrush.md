@@ -38,8 +38,7 @@ abilities = ["1", "15", "6", "2", "15", "6"]
 
 **Perception:** +5
 
-**source:** Ultimate Magic/120
-
+**Sources:** Ultimate Magic pg 120\
 **Experience points:** 135
 
 **Armor class:** 16/16/14

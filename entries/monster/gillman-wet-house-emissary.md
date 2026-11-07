@@ -45,8 +45,7 @@ _Swathed in striking turquoise robes, this gillwoman has a cold, appraising star
 
 **Perception:** +12
 
-**source:** Inner Sea Monster Codex/31
-
+**Sources:** Inner Sea Monster Codex pg 31\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

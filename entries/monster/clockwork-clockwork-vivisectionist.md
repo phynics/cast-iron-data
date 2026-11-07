@@ -49,8 +49,7 @@ intentions clear._
 
 **Perception:** -1
 
-**source:** Pathfinder \#112: The Whisper Out of Time/82
-
+**Sources:** Pathfinder \#112: The Whisper Out of Time pg 82\
 **Subtype:** Clockwork
 
 **Experience points:** 9,600

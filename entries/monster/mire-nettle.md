@@ -43,8 +43,7 @@ needle-like spines._
 
 **Size:** small
 
-**source:** Bestiary 6/188
-
+**Sources:** Bestiary 6 pg 188\
 **Experience points:** 600
 
 **Armor class:** 14/12/13

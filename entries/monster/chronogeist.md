@@ -43,8 +43,7 @@ a twisted mask of confusion and terror and its vestments surround it like a ghos
 
 **Perception:** +31
 
-**source:** Pathfinder \#137: The City Outside of Time/82
-
+**Sources:** Pathfinder \#137: The City Outside of Time pg 82\
 **Subtype:** Incorporeal
 
 **Type:** undead

@@ -53,8 +53,7 @@ scarred with celestial runes._
 
 **Senses:** Detect evil, True seeing
 
-**source:** Bestiary 4/92
-
+**Sources:** Bestiary 4 pg 92\
 **Subtype:** Angel, Extraplanar, Good, Lawful
 
 **Experience points:** 4,915,200

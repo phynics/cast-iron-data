@@ -44,8 +44,7 @@ _This blue-skinned giant's clothing and beard whip about like sails caught in a 
 
 **Perception:** +24
 
-**source:** Bestiary 4/127
-
+**Sources:** Bestiary 4 pg 127\
 **Subtype:** Aquatic, Giant
 
 **Experience points:** 38,400

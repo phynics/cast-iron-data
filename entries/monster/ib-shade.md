@@ -41,8 +41,7 @@ frog-like face, yet only empty sockets stare from where its eyes should be._
 
 **Perception:** +9
 
-**source:** Pathfinder \#111: Dreams of the Yellow King/86
-
+**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 86\
 **Subtype:** Incorporeal
 
 **Type:** undead

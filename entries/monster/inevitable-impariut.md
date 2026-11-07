@@ -45,8 +45,7 @@ _Dressed in noble regalia, this humanoid creature of metal and wood has a pierci
 
 **Perception:** +23
 
-**source:** Pathfinder \#131: The Reaper's Right Hand/86
-
+**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 86\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 9,600

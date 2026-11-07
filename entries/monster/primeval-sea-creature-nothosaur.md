@@ -42,8 +42,7 @@ long and slender tail behind it as it gnashes its sharp, needle-like teeth._
 
 **Perception:** +11
 
-**source:** Pathfinder \#60: From Hell's Heart/88
-
+**Sources:** Pathfinder \#60: From Hell's Heart pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 18/10/17

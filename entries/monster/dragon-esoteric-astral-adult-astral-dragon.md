@@ -46,8 +46,7 @@ abilities = ["27", "12", "20", "21", "20", "16"]
 
 **Senses:** See invisibility
 
-**source:** Bestiary 5/88
-
+**Sources:** Bestiary 5 pg 88\
 **Subtype:** Extraplanar
 
 **Experience points:** 25,600

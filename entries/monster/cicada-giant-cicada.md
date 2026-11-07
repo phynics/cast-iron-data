@@ -39,8 +39,7 @@ _Trim wings fold along the back of this oblong, iridescent insect._
 
 **Size:** small
 
-**source:** Pathfinder \#116: Fangs of War/84
-
+**Sources:** Pathfinder \#116: Fangs of War pg 84\
 **Type:** vermin
 
 **Experience points:** 400

@@ -46,8 +46,7 @@ front and an eel in the back._
 
 **Size:** small
 
-**source:** Bestiary 2/234;Pathfinder \#7: Edge of Anarchy/88
-
+**Sources:** Bestiary 2 pg 234, Pathfinder \#7: Edge of Anarchy pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 400

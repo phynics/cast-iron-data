@@ -55,8 +55,7 @@ _Green smoke billows from the bared teeth and flared nostrils of this muscular, 
 
 **Sense:** Sid
 
-**source:** Bestiary 6/281
-
+**Sources:** Bestiary 6 pg 281\
 **Subtype:** Wild hunt
 
 **Experience points:** 9,600

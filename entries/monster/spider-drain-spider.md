@@ -39,8 +39,7 @@ appear quite fearsome._
 
 **Perception:** +0
 
-**source:** Curse of the Crimson Throne/477
-
+**Sources:** Curse of the Crimson Throne pg 477\
 **Size:** tiny
 
 **tremorsense:** 60

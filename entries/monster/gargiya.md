@@ -45,8 +45,7 @@ Sweltering heat radiates from its rippling scales._
 
 **Perception:** +6
 
-**source:** Pathfinder \#60: From Hell's Heart/84
-
+**Sources:** Pathfinder \#60: From Hell's Heart pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

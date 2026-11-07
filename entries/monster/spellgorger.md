@@ -46,8 +46,7 @@ and is encircled by strange arcane energies._
 
 **Senses:** Scent magic
 
-**source:** Pathfinder \#107: Scourge of the Godclaw/88
-
+**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 88\
 **Experience points:** 19,200
 
 **Armor class:** 26/26/17

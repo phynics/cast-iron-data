@@ -41,8 +41,7 @@ _Within this mass of primeval fish glint innumerable savagely gnashing teeth._
 
 **Perception:** +6
 
-**source:** Pathfinder \#39: The City of Seven Spears/83
-
+**Sources:** Pathfinder \#39: The City of Seven Spears pg 83\
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

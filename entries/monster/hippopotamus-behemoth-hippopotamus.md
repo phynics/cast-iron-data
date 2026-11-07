@@ -42,8 +42,7 @@ moves with an indomitable gait._
 
 **Perception:** +12
 
-**source:** Bestiary 2/157
-
+**Sources:** Bestiary 2 pg 157\
 **Experience points:** 9,600
 
 **Armor class:** 23/7/23

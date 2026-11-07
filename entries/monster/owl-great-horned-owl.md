@@ -41,8 +41,7 @@ most owls._
 
 **Size:** small
 
-**source:** Bestiary 3/213
-
+**Sources:** Bestiary 3 pg 213\
 **Experience points:** 200
 
 **Armor class:** 15/13/13

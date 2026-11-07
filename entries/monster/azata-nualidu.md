@@ -46,8 +46,7 @@ _Clear, flowing water forms the arms and the lower half of this angelic, elf-lik
 
 **Perception:** +11
 
-**source:** Pathfinder \#105: The Inferno Gate/82
-
+**Sources:** Pathfinder \#105: The Inferno Gate pg 82\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Water
 
 **Experience points:** 1,600

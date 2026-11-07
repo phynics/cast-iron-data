@@ -44,8 +44,7 @@ revealing its red-and-brown organs._
 
 **Perception:** +7
 
-**source:** Bestiary 5/249;Tears at Bitter Manor/63
-
+**Sources:** Bestiary 5 pg 249, Tears at Bitter Manor pg 63\
 **Experience points:** 1,600
 
 **Armor class:** 18/12/15

@@ -44,8 +44,7 @@ coils also end in toothy maws._
 
 **Perception:** +17
 
-**source:** Bestiary 2/224
-
+**Sources:** Bestiary 2 pg 224\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 9,600

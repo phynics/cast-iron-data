@@ -44,8 +44,7 @@ hypnotically._
 
 **Perception:** +14
 
-**source:** Bestiary 3/197
-
+**Sources:** Bestiary 3 pg 197\
 **Experience points:** 2,400
 
 **Armor class:** 20/14/15

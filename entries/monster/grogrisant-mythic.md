@@ -52,8 +52,7 @@ like the sun._
 
 **Sense:** Scent
 
-**source:** Taldor, the First Empire/59
-
+**Sources:** Taldor, the First Empire pg 59\
 **Subtype:** Mythic
 
 **Experience points:** 76,800

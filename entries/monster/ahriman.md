@@ -51,8 +51,7 @@ echoes from his gaping maw._
 
 **Sense:** Sid
 
-**source:** Mythic Realms/48;Pathfinder \#24: The Final Wish/76
-
+**Sources:** Mythic Realms pg 48, Pathfinder \#24: The Final Wish pg 76\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 2,457,600

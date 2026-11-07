@@ -47,8 +47,7 @@ demonic face._
 
 **Perception:** +7
 
-**source:** Darklands Revisited/9
-
+**Sources:** Darklands Revisited pg 9\
 **Subtype:** Elf
 
 **Experience points:** 3,200

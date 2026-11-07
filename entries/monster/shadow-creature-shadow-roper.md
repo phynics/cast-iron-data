@@ -47,8 +47,7 @@ amalgamation of darkness and menace._
 
 **Perception:** +24
 
-**source:** Bestiary 4/238
-
+**Sources:** Bestiary 4 pg 238\
 **Experience points:** 25,600
 
 **Armor class:** 27/10/26

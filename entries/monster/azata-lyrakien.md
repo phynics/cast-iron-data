@@ -46,8 +46,7 @@ lights and gentle rainbow arcs._
 
 **Senses:** Detect evil, Detect magic
 
-**source:** Bestiary 2/38;Pathfinder \#2: The Skinsaw Murders/86
-
+**Sources:** Bestiary 2 pg 38, Pathfinder \#2: The Skinsaw Murders pg 86\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Size:** tiny

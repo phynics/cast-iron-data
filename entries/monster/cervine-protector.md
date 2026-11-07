@@ -40,8 +40,7 @@ abilities = ["22", "15", "18", "12", "13", "11"]
 
 **Perception:** +12
 
-**source:** Heaven Unleashed/44
-
+**Sources:** Heaven Unleashed pg 44\
 **Subtype:** Extraplanar, Good, Lawful
 
 **Experience points:** 2,400

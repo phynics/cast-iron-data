@@ -45,8 +45,7 @@ _This improbably large toad has pale blue flesh and a body covered with jagged, 
 
 **Sense:** Scent
 
-**source:** Bestiary 2/268
-
+**Sources:** Bestiary 2 pg 268\
 **Subtype:** Cold
 
 **Experience points:** 2,400

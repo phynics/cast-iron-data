@@ -43,8 +43,7 @@ abilities = ["14", "9", "-", "10", "11", "1"]
 
 **Perception:** +6
 
-**source:** Pathfinder \#47: Ashes at Dawn/90
-
+**Sources:** Pathfinder \#47: Ashes at Dawn pg 90\
 **Experience points:** 1,200
 
 **Armor class:** 15/9/15

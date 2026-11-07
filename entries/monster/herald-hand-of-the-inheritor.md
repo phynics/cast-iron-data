@@ -49,8 +49,7 @@ radiant shield._
 
 **Perception:** +28
 
-**source:** Inner Sea Gods/292;Pathfinder \#26: The Sixfold Trial/86
-
+**Sources:** Inner Sea Gods pg 292, Pathfinder \#26: The Sixfold Trial pg 86\
 **Subtype:** Angel, Extraplanar, Good, Lawful
 
 **Experience points:** 51,200

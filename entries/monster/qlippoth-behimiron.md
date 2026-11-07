@@ -43,8 +43,7 @@ spiny carapace._
 
 **Perception:** +23
 
-**source:** Bestiary 6/224
-
+**Sources:** Bestiary 6 pg 224\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 25,600

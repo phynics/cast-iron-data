@@ -50,8 +50,7 @@ vortex of otherworldly flame._
 
 **Sense:** Sid
 
-**source:** Book of the Damned/170
-
+**Sources:** Book of the Damned pg 170\
 **Subtype:** Evil, Native
 
 **Experience points:** 1,638,400

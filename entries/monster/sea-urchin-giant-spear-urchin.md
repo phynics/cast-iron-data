@@ -44,8 +44,7 @@ abilities = ["23", "3", "18", "-", "11", "2"]
 
 **Sense:** Scent
 
-**source:** Pathfinder \#37: Souls for Smuggler's Shiv/84;Bestiary 5/223
-
+**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 84, Bestiary 5 pg 223\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

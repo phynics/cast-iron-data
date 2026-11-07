@@ -46,8 +46,7 @@ snarl._
 
 **Perception:** +7
 
-**source:** Bestiary 4/281
-
+**Sources:** Bestiary 4 pg 281\
 **Experience points:** 200
 
 **Armor class:** 17/12/15

@@ -44,8 +44,7 @@ sickly gillman. Abnormal muscles and joints flex just beneath his flesh._
 
 **Perception:** +9
 
-**source:** Inner Sea Monster Codex/33
-
+**Sources:** Inner Sea Monster Codex pg 33\
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

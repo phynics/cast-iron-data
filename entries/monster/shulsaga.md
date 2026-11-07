@@ -45,8 +45,7 @@ energy._
 
 **Perception:** +10
 
-**source:** Bestiary 4/245
-
+**Sources:** Bestiary 4 pg 245\
 **Subtype:** Extraplanar
 
 **Experience points:** 800

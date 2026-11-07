@@ -47,8 +47,7 @@ stained with gore serves as a warning for opponents who dare draw closer._
 
 **Perception:** +21
 
-**source:** Inner Sea Monster Codex/18
-
+**Sources:** Inner Sea Monster Codex pg 18\
 **Subtype:** Giant
 
 **Experience points:** 3,200

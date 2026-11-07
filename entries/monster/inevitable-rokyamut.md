@@ -50,8 +50,7 @@ body of a four-armed giant._
 
 **Senses:** Detect chaos, Detect law, Detect magic, True seeing
 
-**source:** Concordance of Rivals/54
-
+**Sources:** Concordance of Rivals pg 54\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 204,800

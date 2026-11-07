@@ -44,8 +44,7 @@ bell vibrates with an electrical charge._
 
 **Perception:** +1
 
-**source:** Bestiary 3/155
-
+**Sources:** Bestiary 3 pg 155\
 **Subtype:** Aquatic
 
 **Type:** vermin

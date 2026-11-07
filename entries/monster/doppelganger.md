@@ -43,8 +43,7 @@ sinister, noseless face._
 
 **Perception:** +9
 
-**source:** Pathfinder RPG Bestiary/89
-
+**Sources:** Pathfinder RPG Bestiary pg 89\
 **Subtype:** Shapechanger
 
 **Experience points:** 800

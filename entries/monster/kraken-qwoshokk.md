@@ -48,8 +48,7 @@ glistening with blue energy._
 
 **Perception:** +32
 
-**source:** Mythical Monsters Revisited/39
-
+**Sources:** Mythical Monsters Revisited pg 39\
 **Subtype:** Aquatic
 
 **Experience points:** 307,200

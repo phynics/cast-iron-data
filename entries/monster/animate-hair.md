@@ -41,8 +41,7 @@ an non-existent wind._
 
 **Perception:** +1
 
-**source:** Bestiary 5/26
-
+**Sources:** Bestiary 5 pg 26\
 **Size:** tiny
 
 **Experience points:** 200

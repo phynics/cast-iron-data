@@ -47,8 +47,7 @@ neck stretches over twice the length of its body, ending in a snarling leopard's
 
 **Sense:** Scent
 
-**source:** Pathfinder \#81: Shifting Sands/86
-
+**Sources:** Pathfinder \#81: Shifting Sands pg 86\
 **Experience points:** 3,200
 
 **Armor class:** 20/15/15

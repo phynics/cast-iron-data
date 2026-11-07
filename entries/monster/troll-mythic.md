@@ -49,8 +49,7 @@ than its meaty legs._
 
 **Sense:** Scent
 
-**source:** Mythic Adventures/219
-
+**Sources:** Mythic Adventures pg 219\
 **Subtype:** Giant, Mythic
 
 **Experience points:** 2,400

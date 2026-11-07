@@ -43,8 +43,7 @@ always on the lookout._
 
 **Senses:** Appraising sight, Dragon senses
 
-**source:** Bestiary 5/96
-
+**Sources:** Bestiary 5 pg 96\
 **Experience points:** 2,400
 
 **Armor class:** 21/12/19

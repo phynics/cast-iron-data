@@ -49,8 +49,7 @@ abdomen chitters and clicks like a menacing maw._
 
 **Perception:** +22
 
-**source:** Pathfinder \#86: Lords of Rust/84
-
+**Sources:** Pathfinder \#86: Lords of Rust pg 84\
 **Subtype:** Extraplanar
 
 **Experience points:** 51,200

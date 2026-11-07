@@ -47,8 +47,7 @@ grace._
 
 **Senses:** Detect evil, Detect good
 
-**source:** Pathfinder RPG Bestiary/225
-
+**Sources:** Pathfinder RPG Bestiary pg 225\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

@@ -48,8 +48,7 @@ encompassed all the night sky._
 
 **Senses:** True seeing
 
-**source:** Bestiary 2/12
-
+**Sources:** Bestiary 2 pg 12\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 307,200

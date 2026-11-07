@@ -42,8 +42,7 @@ bubbling at the back of its mouth._
 
 **Perception:** +9
 
-**source:** Planes of Power/52
-
+**Sources:** Planes of Power pg 52\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 100

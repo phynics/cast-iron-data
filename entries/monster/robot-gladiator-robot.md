@@ -51,8 +51,7 @@ ends in a spinning circular blade. Its final two arms grasp a massive chainsaw._
 
 **Senses:** Superior optics
 
-**source:** Construct Handbook/54
-
+**Sources:** Construct Handbook pg 54\
 **Subtype:** Robot
 
 **Experience points:** 102,400

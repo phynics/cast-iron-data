@@ -38,8 +38,7 @@ _With shorter ears and limbs than other rabbits, this white rabbit is hard to sp
 
 **Perception:** +1
 
-**source:** Ultimate Wilderness/191;Reign of Winter Player's Guide/10
-
+**Sources:** Ultimate Wilderness pg 191, Reign of Winter Player's Guide pg 10\
 **Size:** tiny
 
 **Experience points:** 65

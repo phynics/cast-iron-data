@@ -44,8 +44,7 @@ ponderous but inexorable steps._
 
 **Perception:** +0
 
-**source:** Pathfinder RPG Bestiary/163
-
+**Sources:** Pathfinder RPG Bestiary pg 163\
 **Experience points:** 12,800
 
 **Armor class:** 26/8/26

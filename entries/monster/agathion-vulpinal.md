@@ -49,8 +49,7 @@ instrument in one hand._
 
 **Size:** small
 
-**source:** Bestiary 2/21;The Great Beyond - A Guide to the Multiverse/62
-
+**Sources:** Bestiary 2 pg 21, The Great Beyond - A Guide to the Multiverse pg 62\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 2,400

@@ -44,8 +44,7 @@ _This large, regal canine looks like a juvenile mastiff. It has red fur and vibr
 
 **Size:** small
 
-**source:** Familiar Folio/29
-
+**Sources:** Familiar Folio pg 29\
 **Subtype:** Native
 
 **Experience points:** 600

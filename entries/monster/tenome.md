@@ -42,8 +42,7 @@ freakishly from the palms of its hands._
 
 **Perception:** +9
 
-**source:** Bestiary 6/262;Pathfinder \#99: Dance of the Damned/90
-
+**Sources:** Bestiary 6 pg 262, Pathfinder \#99: Dance of the Damned pg 90\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

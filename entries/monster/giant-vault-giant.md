@@ -49,8 +49,7 @@ its head to the tip of its thick tail. Its blue eyes give off a soft glow._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#120: Vault of the Onyx Citadel/84
-
+**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 84\
 **Subtype:** Aquatic, Giant, Reptilian
 
 **Experience points:** 102,400

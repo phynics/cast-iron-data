@@ -48,8 +48,7 @@ swinging, ape-like gait._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/236
-
+**Sources:** Bestiary 3 pg 236\
 **Subtype:** Sasquatch
 
 **Experience points:** 600

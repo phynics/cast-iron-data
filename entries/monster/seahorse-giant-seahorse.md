@@ -42,8 +42,7 @@ gracefully curled tail._
 
 **Perception:** +11
 
-**source:** Bestiary 4/234
-
+**Sources:** Bestiary 4 pg 234\
 **Subtype:** Aquatic
 
 **Experience points:** 800

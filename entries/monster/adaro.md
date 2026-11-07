@@ -49,8 +49,7 @@ its razor-sharp teeth._
 
 **Perception:** +8
 
-**source:** Bestiary 3/7;Pathfinder \#38: Racing to Ruin/80
-
+**Sources:** Bestiary 3 pg 7, Pathfinder \#38: Racing to Ruin pg 80\
 **Subtype:** Aquatic
 
 **Experience points:** 800

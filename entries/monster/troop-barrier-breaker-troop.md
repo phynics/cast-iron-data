@@ -42,8 +42,7 @@ _This wretched collection of undead have tight leathery skin, sunken eyes, and e
 
 **Perception:** +16
 
-**source:** Pathfinder \#141: Last Watch/90
-
+**Sources:** Pathfinder \#141: Last Watch pg 90\
 **Subtype:** Troop
 
 **Type:** undead

@@ -38,8 +38,7 @@ _The cat-sized insect has a long, cigar-shaped body. Its spiny back legs are lon
 
 **Perception:** +0
 
-**source:** Ultimate Wilderness/205
-
+**Sources:** Ultimate Wilderness pg 205\
 **Size:** tiny
 
 **Type:** vermin

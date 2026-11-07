@@ -48,8 +48,7 @@ in the wriggling mass, arrayed around a central draconic skull._
 
 **Type:** plant
 
-**source:** Pathfinder \#113: What Grows Within/86
-
+**Sources:** Pathfinder \#113: What Grows Within pg 86\
 **Subtype:** Aquatic, Evil, Great Old One
 
 **Experience points:** 2,457,600

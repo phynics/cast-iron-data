@@ -42,8 +42,7 @@ from its narrow face._
 
 **Perception:** +16
 
-**source:** Bestiary 2/194;Pathfinder \#16: Endless Night/88
-
+**Sources:** Bestiary 2 pg 194, Pathfinder \#16: Endless Night pg 88\
 **Experience points:** 2,400
 
 **Armor class:** 20/14/16

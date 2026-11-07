@@ -50,8 +50,7 @@ stark-white bones commonly worn by his people._
 
 **Perception:** +9 (+11 in dim light or darkness)
 
-**source:** Inner Sea Monster Codex/55
-
+**Sources:** Inner Sea Monster Codex pg 55\
 **Experience points:** 1,600
 
 **Armor class:** 19/12/17

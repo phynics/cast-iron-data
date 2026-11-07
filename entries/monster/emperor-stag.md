@@ -42,8 +42,7 @@ _A wide rack of ivory-white antlers crowns the head of this majestic tawny stag.
 
 **Sense:** Scent
 
-**source:** Taldor, the First Empire/61
-
+**Sources:** Taldor, the First Empire pg 61\
 **Experience points:** 800
 
 **Armor class:** 15/14/11

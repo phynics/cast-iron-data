@@ -41,8 +41,7 @@ and a whip-like tail._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/90
-
+**Sources:** Bestiary 2 pg 90\
 **Size:** tiny
 
 **Experience points:** 200

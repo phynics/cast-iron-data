@@ -45,8 +45,7 @@ eyes._
 
 **Perception:** +2
 
-**source:** Pathfinder RPG Bestiary/175
-
+**Sources:** Pathfinder RPG Bestiary pg 175\
 **Subtype:** Goblinoid
 
 **Experience points:** 200

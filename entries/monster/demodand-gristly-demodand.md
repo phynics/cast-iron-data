@@ -46,8 +46,7 @@ greasy skin._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
-**source:** Bestiary 5/72
-
+**Sources:** Bestiary 5 pg 72\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 102,400

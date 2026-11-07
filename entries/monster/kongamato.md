@@ -45,8 +45,7 @@ scream as it descends._
 
 **Perception:** +23
 
-**source:** Bestiary 3/169
-
+**Sources:** Bestiary 3 pg 169\
 **Experience points:** 51,200
 
 **Armor class:** 29/11/26

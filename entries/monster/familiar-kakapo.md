@@ -39,8 +39,7 @@ whiskers._
 
 **Perception:** +3
 
-**source:** Ultimate Wilderness/198;Familiar Folio/24
-
+**Sources:** Ultimate Wilderness pg 198, Familiar Folio pg 24\
 **Size:** tiny
 
 **Experience points:** 50

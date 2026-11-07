@@ -42,8 +42,7 @@ from its whiskered face._
 
 **Perception:** +16
 
-**source:** Bestiary 4/271
-
+**Sources:** Bestiary 4 pg 271\
 **Experience points:** 4,800
 
 **Armor class:** 20/5/20

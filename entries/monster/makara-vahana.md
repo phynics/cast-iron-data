@@ -49,8 +49,7 @@ scaly hide, and tail of a crocodile._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/262
-
+**Sources:** Bestiary 5 pg 262\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

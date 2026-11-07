@@ -44,8 +44,7 @@ rotund iron effigy._
 
 **Perception:** +1
 
-**source:** Bestiary 3/271;Pathfinder \#21: The Jackal's Price/86
-
+**Sources:** Bestiary 3 pg 271, Pathfinder \#21: The Jackal's Price pg 86\
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

@@ -47,8 +47,7 @@ spindly, multi-jointed fingers, and four circular rotors hold the creature aloft
 
 **Perception:** +8
 
-**source:** Pathfinder \#85: Fires of Creation/84
-
+**Sources:** Pathfinder \#85: Fires of Creation pg 84\
 **Subtype:** Robot
 
 **Experience points:** 800

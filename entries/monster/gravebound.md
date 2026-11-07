@@ -41,8 +41,7 @@ stretch toward the ground._
 
 **Perception:** +8
 
-**source:** Bestiary 5/128
-
+**Sources:** Bestiary 5 pg 128\
 **Subtype:** Earth
 
 **Type:** undead

@@ -47,8 +47,7 @@ maw for a belly._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/220
-
+**Sources:** Bestiary 2 pg 220\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 19,200

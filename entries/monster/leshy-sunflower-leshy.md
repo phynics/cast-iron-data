@@ -47,8 +47,7 @@ _The petals of this small plant's large, flat, flowering head reflect light in u
 
 **Size:** small
 
-**source:** Pathfinder \#115: Trail of the Hunted/87
-
+**Sources:** Pathfinder \#115: Trail of the Hunted pg 87\
 **Subtype:** Leshy
 
 **Experience points:** 400

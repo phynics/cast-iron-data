@@ -50,8 +50,7 @@ its chest._
 
 **Senses:** Taste fear
 
-**source:** Down the Blighted Path/56
-
+**Sources:** Down the Blighted Path pg 56\
 **Experience points:** 3,200
 
 **Armor class:** 21/15/15

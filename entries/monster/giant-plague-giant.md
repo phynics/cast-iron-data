@@ -43,8 +43,7 @@ _This oversized humanoid is dressed in tattered rags that don't quite cover its 
 
 **Perception:** +26
 
-**source:** Bestiary 6/134
-
+**Sources:** Bestiary 6 pg 134\
 **Subtype:** Giant
 
 **Experience points:** 38,400

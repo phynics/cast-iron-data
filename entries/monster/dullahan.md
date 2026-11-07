@@ -42,8 +42,7 @@ of menace._
 
 **Perception:** +16
 
-**source:** Bestiary 2/111
-
+**Sources:** Bestiary 2 pg 111\
 **Type:** undead
 
 **Experience points:** 3,200

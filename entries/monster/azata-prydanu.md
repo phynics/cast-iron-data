@@ -50,8 +50,7 @@ its skin._
 
 **Senses:** True seeing
 
-**source:** Pathfinder \#126: Beyond the Veiled Past/84
-
+**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 76,800

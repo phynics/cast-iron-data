@@ -40,8 +40,7 @@ abilities = ["11", "12", "15", "2", "13", "4"]
 
 **Size:** small
 
-**source:** Bestiary 3/113;Ultimate Magic/119
-
+**Sources:** Bestiary 3 pg 113, Ultimate Magic pg 119\
 **Experience points:** 135
 
 **Armor class:** 13/12/12

@@ -49,8 +49,7 @@ sky._
 
 **Senses:** Detect evil, Detect magic
 
-**source:** Bestiary 6/36;Magnimar, City of Monuments/63
-
+**Sources:** Bestiary 6 pg 36, Magnimar, City of Monuments pg 63\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 1,600

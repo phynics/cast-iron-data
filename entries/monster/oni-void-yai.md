@@ -49,8 +49,7 @@ champion of countless wars._
 
 **Senses:** True seeing
 
-**source:** Bestiary 3/210
-
+**Sources:** Bestiary 3 pg 210\
 **Subtype:** Giant, Native, Oni, Shapechanger
 
 **Experience points:** 307,200

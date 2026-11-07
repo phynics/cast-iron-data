@@ -42,8 +42,7 @@ abilities = ["42", "9", "-", "-", "15", "1"]
 
 **Perception:** +2
 
-**source:** Lost Kingdoms/40
-
+**Sources:** Lost Kingdoms pg 40\
 **Experience points:** 102,400
 
 **Armor class:** 31/1/31

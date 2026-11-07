@@ -40,8 +40,7 @@ _Three spears of obsidian energy skewer this cadaverous figure._
 
 **Perception:** +15
 
-**source:** Seers of the Drowned City/56
-
+**Sources:** Seers of the Drowned City pg 56\
 **Type:** undead
 
 **Experience points:** 3,200

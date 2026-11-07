@@ -45,8 +45,7 @@ intently with its glowing green eyes._
 
 **Size:** small
 
-**source:** Pathfinder \#62: Curse of the Lady's Light/90
-
+**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 90\
 **Experience points:** 1,200
 
 **Armor class:** 20/14/17

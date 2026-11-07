@@ -41,8 +41,7 @@ of an elven woman._
 
 **Perception:** +5
 
-**source:** Bestiary 2/147
-
+**Sources:** Bestiary 2 pg 147\
 **Size:** tiny
 
 **Experience points:** 400

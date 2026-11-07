@@ -51,8 +51,7 @@ rancidly obese body._
 
 **Senses:** True seeing
 
-**source:** Demons Revisited/49
-
+**Sources:** Demons Revisited pg 49\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 614,400

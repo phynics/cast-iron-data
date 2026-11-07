@@ -39,8 +39,7 @@ a sword and drips with venom._
 
 **Perception:** +9
 
-**source:** Pathfinder RPG Bestiary/275
-
+**Sources:** Pathfinder RPG Bestiary pg 275\
 **Type:** vermin
 
 **Experience points:** 800

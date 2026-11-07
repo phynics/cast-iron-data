@@ -45,8 +45,7 @@ covered in a layer of thick algae._
 
 **Perception:** +9
 
-**source:** Magnimar, City of Monuments/61;Pathfinder \#13: Shadow in the Sky/86
-
+**Sources:** Magnimar, City of Monuments pg 61, Pathfinder \#13: Shadow in the Sky pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 600

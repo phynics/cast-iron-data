@@ -41,8 +41,7 @@ _A blowfish the size of a horse drifts through the water, its quills the size of
 
 **Perception:** +5
 
-**source:** Pathfinder \#56: Raiders of the Fever Sea/83
-
+**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 83\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

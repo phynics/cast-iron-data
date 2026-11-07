@@ -47,8 +47,7 @@ _Fine jewelry and clothing accentuate this tiger-headed figure's striped fur and
 
 **Sense:** Scent
 
-**source:** Mythic Adventures/215
-
+**Sources:** Mythic Adventures pg 215\
 **Subtype:** Mythic, Native, Shapechanger
 
 **Experience points:** 19,200

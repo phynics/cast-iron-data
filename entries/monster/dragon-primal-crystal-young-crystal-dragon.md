@@ -43,8 +43,7 @@ wings are sheets of flexible glass._
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 2/98
-
+**Sources:** Bestiary 2 pg 98\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 30

@@ -51,8 +51,7 @@ trails brilliant colors._
 
 **Perception:** +31
 
-**source:** Inner Sea Gods/308
-
+**Sources:** Inner Sea Gods pg 308\
 **Subtype:** Extraplanar, Good, Shapechanger
 
 **Experience points:** 51,200

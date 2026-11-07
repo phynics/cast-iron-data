@@ -40,8 +40,7 @@ large, serrated, bright red fangs._
 
 **Perception:** +12
 
-**source:** Bestiary 6/256
-
+**Sources:** Bestiary 6 pg 256\
 **Type:** vermin
 
 **Experience points:** 12,800

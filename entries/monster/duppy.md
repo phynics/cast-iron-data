@@ -43,8 +43,7 @@ the creature's legs._
 
 **Perception:** +14
 
-**source:** Bestiary 5/100;Isles of the Shackles/48
-
+**Sources:** Bestiary 5 pg 100, Isles of the Shackles pg 48\
 **Subtype:** Incorporeal
 
 **Type:** undead

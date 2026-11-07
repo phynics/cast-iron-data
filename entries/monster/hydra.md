@@ -45,8 +45,7 @@ _Multiple angry snake-like heads rise from the sleek, serpentine body of this te
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/178
-
+**Sources:** Pathfinder RPG Bestiary pg 178\
 **Experience points:** 1,200
 
 **Armor class:** 15/9/14

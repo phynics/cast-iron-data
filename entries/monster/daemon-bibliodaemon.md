@@ -45,8 +45,7 @@ quills emerge from each knuckle of its clawed upper hands._
 
 **Senses:** Detect thoughts
 
-**source:** Druma, Profit and Prophecy/57
-
+**Sources:** Druma, Profit and Prophecy pg 57\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 4,800

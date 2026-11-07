@@ -43,8 +43,7 @@ pallid body breaks the surface of dark waters without as much as a ripple._
 
 **Perception:** +19
 
-**source:** Pathfinder \#60: From Hell's Heart/82
-
+**Sources:** Pathfinder \#60: From Hell's Heart pg 82\
 **Experience points:** 51,200
 
 **Armor class:** 30/0/30

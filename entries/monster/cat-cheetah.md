@@ -43,8 +43,7 @@ obviously capable of great speed._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/40
-
+**Sources:** Pathfinder RPG Bestiary pg 40\
 **Experience points:** 600
 
 **Armor class:** 15/14/11

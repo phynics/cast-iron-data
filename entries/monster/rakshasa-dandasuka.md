@@ -44,8 +44,7 @@ mouth and fangs._
 
 **Size:** small
 
-**source:** Bestiary 3/225
-
+**Sources:** Bestiary 3 pg 225\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 1,600

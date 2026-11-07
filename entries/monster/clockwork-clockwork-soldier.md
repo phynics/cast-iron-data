@@ -46,8 +46,7 @@ stands ready at attention._
 
 **Perception:** +0
 
-**source:** Bestiary 3/57
-
+**Sources:** Bestiary 3 pg 57\
 **Subtype:** Clockwork
 
 **Experience points:** 2,400

@@ -48,8 +48,7 @@ savagery._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#38: Racing to Ruin/86
-
+**Sources:** Pathfinder \#38: Racing to Ruin pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 18/12/15

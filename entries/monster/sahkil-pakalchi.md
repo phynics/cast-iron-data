@@ -49,8 +49,7 @@ her._
 
 **Senses:** True seeing
 
-**source:** Bestiary 5/216
-
+**Sources:** Bestiary 5 pg 216\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Experience points:** 6,400

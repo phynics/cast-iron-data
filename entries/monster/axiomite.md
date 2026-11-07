@@ -43,8 +43,7 @@ of shimmering light._
 
 **Perception:** +18
 
-**source:** Bestiary 2/36;The Great Beyond - A Guide to the Multiverse/56
-
+**Sources:** Bestiary 2 pg 36, The Great Beyond - A Guide to the Multiverse pg 56\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 4,800

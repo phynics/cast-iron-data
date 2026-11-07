@@ -47,8 +47,7 @@ off the ground._
 
 **Sense:** Sid
 
-**source:** Bestiary 5/80;Book of the Damned - Volume 1: Princes of Darkness/56
-
+**Sources:** Bestiary 5 pg 80, Book of the Damned - Volume 1: Princes of Darkness pg 56\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

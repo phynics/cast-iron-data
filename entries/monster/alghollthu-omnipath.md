@@ -43,8 +43,7 @@ _This monstrous eel-like creature has jaws within jaws, each bearing transparent
 
 **Perception:** +30
 
-**source:** Occult Bestiary/38;Bestiary 6/204
-
+**Sources:** Occult Bestiary pg 38, Bestiary 6 pg 204\
 **Subtype:** Aquatic
 
 **Experience points:** 153,600

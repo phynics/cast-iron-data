@@ -43,8 +43,7 @@ and its thorny flowers drip blood._
 
 **Type:** plant
 
-**source:** Bestiary 6/48
-
+**Sources:** Bestiary 6 pg 48\
 **tremorsense:** 30
 
 **Experience points:** 9,600

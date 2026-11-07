@@ -44,8 +44,7 @@ for sustenance._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/152
-
+**Sources:** Bestiary 4 pg 152\
 **Experience points:** 800
 
 **Armor class:** 8/6/8

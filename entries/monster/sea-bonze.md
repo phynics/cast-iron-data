@@ -41,8 +41,7 @@ immense, hate-filled eyes._
 
 **Perception:** +33
 
-**source:** Bestiary 3/239
-
+**Sources:** Bestiary 3 pg 239\
 **Subtype:** Aquatic
 
 **Type:** undead

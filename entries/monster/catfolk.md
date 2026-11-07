@@ -46,8 +46,7 @@ curiosity and mischief._
 
 **Perception:** +2
 
-**source:** Bestiary 3/47
-
+**Sources:** Bestiary 3 pg 47\
 **Subtype:** Catfolk
 
 **Experience points:** 200

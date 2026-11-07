@@ -40,8 +40,7 @@ predator._
 
 **Perception:** +0
 
-**source:** Bestiary 4/200
-
+**Sources:** Bestiary 4 pg 200\
 **Type:** undead
 
 **Experience points:** 800

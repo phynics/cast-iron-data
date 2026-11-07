@@ -46,8 +46,7 @@ sapphire set into its brow. At the creature moves, the masks seem to shift and s
 
 **Perception:** +5
 
-**source:** Masks of the Living God/30
-
+**Sources:** Masks of the Living God pg 30\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

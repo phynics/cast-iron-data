@@ -49,8 +49,7 @@ tendrils extending from a mole-like nose._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 3/288
-
+**Sources:** Bestiary 3 pg 288\
 **Size:** tiny
 
 **Experience points:** 400

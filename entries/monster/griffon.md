@@ -45,8 +45,7 @@ pair of feathered wings._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/168
-
+**Sources:** Pathfinder RPG Bestiary pg 168\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

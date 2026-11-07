@@ -43,8 +43,7 @@ roots for legs._
 
 **Type:** plant
 
-**source:** Pathfinder RPG Bestiary/266
-
+**Sources:** Pathfinder RPG Bestiary pg 266\
 **Experience points:** 4,800
 
 **Armor class:** 21/7/21

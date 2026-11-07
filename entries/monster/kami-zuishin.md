@@ -46,8 +46,7 @@ _Within this elaborate suit of armor can be seen the partial form of a determine
 
 **Senses:** Detect evil, See invisibility
 
-**source:** Bestiary 3/165
-
+**Sources:** Bestiary 3 pg 165\
 **Subtype:** Kami, Native
 
 **Experience points:** 9,600

@@ -42,8 +42,7 @@ into nooses, hang from its branches._
 
 **Type:** plant
 
-**source:** Bestiary 2/152
-
+**Sources:** Bestiary 2 pg 152\
 **Experience points:** 3,200
 
 **Armor class:** 20/7/20

@@ -47,8 +47,7 @@ acquired through untold ages of experience._
 
 **Senses:** True seeing
 
-**source:** Pathfinder \#83: The Slave Trenches of Hakotep/90
-
+**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 90\
 **Experience points:** 76,800
 
 **Armor class:** 29/7/28

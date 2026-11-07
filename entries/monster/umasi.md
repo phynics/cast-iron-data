@@ -43,8 +43,7 @@ patchwork of hair, skin, scales, and strange limbs stitched together with thick,
 
 **Perception:** +12
 
-**source:** Pathfinder \#39: The City of Seven Spears/88
-
+**Sources:** Pathfinder \#39: The City of Seven Spears pg 88\
 **Experience points:** 1,200
 
 **Armor class:** 18/12/16

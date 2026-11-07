@@ -38,9 +38,8 @@ abilities = ["15", "18", "-", "10", "13", "16"]
 
 **Perception:** +12
 
-**source:** Pathfinder \#122: Into the Shattered Continent/21;Pathfinder \#15: The Armageddon
-Echo/82
-
+**Sources:** Pathfinder \#122: Into the Shattered Continent pg 21, Pathfinder \#15: The Armageddon
+Echo pg 82\
 **Subtype:** Fire
 
 **Type:** undead

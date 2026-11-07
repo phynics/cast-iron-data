@@ -42,8 +42,7 @@ holding squirming young cover the creature's abdomen._
 
 **Perception:** +22
 
-**source:** Pathfinder \#144: Midwives to Death/80
-
+**Sources:** Pathfinder \#144: Midwives to Death pg 80\
 **Experience points:** 4,800
 
 **Armor class:** 22/14/17

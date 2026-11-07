@@ -45,8 +45,7 @@ _A dorsal fin rises up from the back of this immense black-and-white-furred, wol
 
 **Perception:** +14
 
-**source:** Bestiary 3/11
-
+**Sources:** Bestiary 3 pg 11\
 **Subtype:** Cold, Shapechanger
 
 **Experience points:** 25,600

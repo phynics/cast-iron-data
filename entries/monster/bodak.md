@@ -41,8 +41,7 @@ trails of smoke._
 
 **Perception:** +14
 
-**source:** Bestiary 2/48
-
+**Sources:** Bestiary 2 pg 48\
 **Subtype:** Extraplanar
 
 **Type:** undead

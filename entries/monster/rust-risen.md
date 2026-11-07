@@ -39,8 +39,7 @@ _Miscellaneous bits of rusted machinery are fused to the body of this shambling 
 
 **Perception:** +7
 
-**source:** Pathfinder \#86: Lords of Rust/90
-
+**Sources:** Pathfinder \#86: Lords of Rust pg 90\
 **Type:** undead
 
 **Experience points:** 600

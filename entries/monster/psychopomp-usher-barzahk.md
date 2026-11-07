@@ -53,8 +53,7 @@ _Feathered arms emerge from the shoulders of this hunched raven, clutching a key
 **Senses:** Detect chaos, Detect evil, Detect good, Detect law, Detect thoughts, Detect undead, True
 seeing
 
-**source:** Pathfinder \#143: Borne by the Sun's Grace/90
-
+**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 90\
 **Subtype:** Extraplanar, Psychopomp, Shapechanger
 
 **Experience points:** 4,915,200

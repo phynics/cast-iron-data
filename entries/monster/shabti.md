@@ -44,8 +44,7 @@ _Light shimmers across this humanoid figure's bare golden skin, illuminating reg
 
 **Perception:** +3
 
-**source:** Bestiary 5/227;Pathfinder \#84: Pyramid of the Sky Pharaoh/90
-
+**Sources:** Bestiary 5 pg 227, Pathfinder \#84: Pyramid of the Sky Pharaoh pg 90\
 **Subtype:** Native
 
 **Experience points:** 200

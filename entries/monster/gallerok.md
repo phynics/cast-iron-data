@@ -44,8 +44,7 @@ jaws._
 
 **Perception:** +4
 
-**source:** Pathfinder \#118: Siege of Stone/82
-
+**Sources:** Pathfinder \#118: Siege of Stone pg 82\
 **Experience points:** 600
 
 **Armor class:** 15/11/13

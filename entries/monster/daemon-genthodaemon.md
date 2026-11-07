@@ -45,8 +45,7 @@ _Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this t
 
 **Perception:** +10
 
-**source:** Pathfinder \#71: Rasputin Must Die!/86
-
+**Sources:** Pathfinder \#71: Rasputin Must Die! pg 86\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 1,600

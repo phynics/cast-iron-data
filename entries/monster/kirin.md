@@ -48,8 +48,7 @@ grace._
 
 **Senses:** Detect evil
 
-**source:** Bestiary 3/168
-
+**Sources:** Bestiary 3 pg 168\
 **Subtype:** Air
 
 **Experience points:** 3,200

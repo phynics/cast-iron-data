@@ -45,8 +45,7 @@ elongated trunk for a snout._
 
 **Perception:** +16
 
-**source:** Bestiary 3/30
-
+**Sources:** Bestiary 3 pg 30\
 **Experience points:** 4,800
 
 **Armor class:** 15/15/10

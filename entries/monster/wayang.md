@@ -45,8 +45,7 @@ _Spiralling patterns cover this shadowy humanoid's skin, and its black hair trai
 
 **Size:** small
 
-**source:** Bestiary 4/274
-
+**Sources:** Bestiary 4 pg 274\
 **Subtype:** Wayang
 
 **Experience points:** 200

@@ -46,8 +46,7 @@ her rictus grin._
 
 **Size:** small
 
-**source:** Pathfinder \#142: Gardens of Gallowspire/88
-
+**Sources:** Pathfinder \#142: Gardens of Gallowspire pg 88\
 **Subtype:** Gnome, Mortic
 
 **Experience points:** 9,600

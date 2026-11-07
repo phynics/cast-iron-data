@@ -43,8 +43,7 @@ _This serene dragon's feathered form emits a comforting warmth._
 
 **Senses:** Dragon sense
 
-**source:** Pathfinder \#137: The City Outside of Time/90
-
+**Sources:** Pathfinder \#137: The City Outside of Time pg 90\
 **Subtype:** Extraplanar, Good
 
 **Experience points:** 19,200

@@ -45,8 +45,7 @@ mouth with ill-fitting teeth._
 
 **Perception:** +5
 
-**source:** Pathfinder RPG Bestiary/220
-
+**Sources:** Pathfinder RPG Bestiary pg 220\
 **Subtype:** Giant
 
 **Experience points:** 800

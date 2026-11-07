@@ -41,8 +41,7 @@ abilities = ["14", "19", "-", "8", "11", "17"]
 
 **Perception:** +18
 
-**source:** Pathfinder \#48: Shadows of Gallowspire/86
-
+**Sources:** Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Evil, Extraplanar
 
 **Type:** undead

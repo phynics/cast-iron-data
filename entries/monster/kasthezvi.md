@@ -46,8 +46,7 @@ above its grotesque, misshapen head and its mouth is open in a silent scream._
 
 **Perception:** +22
 
-**source:** Pathfinder \#135: Runeplague/88
-
+**Sources:** Pathfinder \#135: Runeplague pg 88\
 **Subtype:** Shapechanger
 
 **Experience points:** 19,200

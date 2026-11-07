@@ -37,8 +37,7 @@ _This bat-like creature has jagged points at the tips of its wings and a long, l
 
 **Perception:** +5
 
-**source:** Monster Codex/88
-
+**Sources:** Monster Codex pg 88\
 **Size:** tiny
 
 **Type:** undead

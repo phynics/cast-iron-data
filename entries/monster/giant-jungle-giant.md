@@ -44,8 +44,7 @@ numerous intricate tattoos._
 
 **Perception:** +15
 
-**source:** Bestiary 3/129
-
+**Sources:** Bestiary 3 pg 129\
 **Subtype:** Giant
 
 **Experience points:** 9,600

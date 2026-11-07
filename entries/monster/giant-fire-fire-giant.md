@@ -44,8 +44,7 @@ be made of fire._
 
 **Perception:** +14
 
-**source:** Pathfinder RPG Bestiary/148
-
+**Sources:** Pathfinder RPG Bestiary pg 148\
 **Subtype:** Fire, Giant
 
 **Experience points:** 9,600

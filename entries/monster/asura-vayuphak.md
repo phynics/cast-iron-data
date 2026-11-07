@@ -44,8 +44,7 @@ grace its hands._
 
 **Perception:** +18
 
-**source:** Occult Bestiary/8
-
+**Sources:** Occult Bestiary pg 8\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

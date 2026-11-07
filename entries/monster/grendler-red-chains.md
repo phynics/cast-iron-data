@@ -45,8 +45,7 @@ face and neck, soaking its tangled white beard; in its arms looms a rusty but cl
 
 **Perception:** +17
 
-**source:** Fey Revisited/44
-
+**Sources:** Fey Revisited pg 44\
 **Experience points:** 12,800
 
 **Armor class:** 26/14/22

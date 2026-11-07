@@ -47,8 +47,7 @@ gemstone eyes._
 
 **Senses:** Detect chaos, Deathwatch
 
-**source:** Planar Adventures/236
-
+**Sources:** Planar Adventures pg 236\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 1,200

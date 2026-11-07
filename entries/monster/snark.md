@@ -44,8 +44,7 @@ wings hold it aloft._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#119: Prisoners of the Blight/83
-
+**Sources:** Pathfinder \#119: Prisoners of the Blight pg 83\
 **Experience points:** 100
 
 **Armor class:** 15/15/14

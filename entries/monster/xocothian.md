@@ -45,8 +45,7 @@ storm._
 
 **Perception:** +9
 
-**source:** Inner Sea Gods/291
-
+**Sources:** Inner Sea Gods pg 291\
 **Subtype:** Air, Extraplanar, Water
 
 **Experience points:** 1,200

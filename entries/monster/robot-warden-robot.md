@@ -50,8 +50,7 @@ legs._
 
 **Perception:** +20
 
-**source:** Pathfinder \#87: The Choking Tower/88
-
+**Sources:** Pathfinder \#87: The Choking Tower pg 88\
 **Subtype:** Robot
 
 **Experience points:** 6,400

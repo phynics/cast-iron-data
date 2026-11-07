@@ -48,8 +48,7 @@ with arcane energy._
 
 **Perception:** +33
 
-**source:** Fey Revisited/50
-
+**Sources:** Fey Revisited pg 50\
 **Subtype:** Aquatic
 
 **Experience points:** 76,800

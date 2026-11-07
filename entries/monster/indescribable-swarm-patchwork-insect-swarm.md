@@ -41,8 +41,7 @@ which bears humanoid arms, legs, eyes, or even faces._
 
 **Perception:** +1
 
-**source:** Pathfinder \#109: In Search of Sanity/86
-
+**Sources:** Pathfinder \#109: In Search of Sanity pg 86\
 **Subtype:** Swarm
 
 **Type:** vermin

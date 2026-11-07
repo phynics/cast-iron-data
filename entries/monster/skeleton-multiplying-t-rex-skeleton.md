@@ -37,8 +37,7 @@ abilities = ["32", "15", "-", "-", "10", "10"]
 
 **Perception:** +0
 
-**source:** Pathfinder \#44: Trial of the Beast/87
-
+**Sources:** Pathfinder \#44: Trial of the Beast pg 87\
 **Type:** undead
 
 **Experience points:** 6,400

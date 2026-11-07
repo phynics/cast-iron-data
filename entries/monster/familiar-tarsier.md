@@ -41,8 +41,7 @@ _This small, furry creature has enormous glossy eyes, long legs, and elongated f
 
 **Perception:** +5
 
-**source:** Ultimate Wilderness/208
-
+**Sources:** Ultimate Wilderness pg 208\
 **Experience points:** 65
 
 **Armor class:** 17/17/14

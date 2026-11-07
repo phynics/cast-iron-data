@@ -45,8 +45,7 @@ aggressively._
 
 **Perception:** +10
 
-**source:** Bestiary 4/185
-
+**Sources:** Bestiary 4 pg 185\
 **Experience points:** 2,400
 
 **Armor class:** 17/11/16

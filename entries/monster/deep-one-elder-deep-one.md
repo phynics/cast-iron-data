@@ -48,8 +48,7 @@ predator._
 
 **Perception:** +24
 
-**source:** Bestiary 5/69
-
+**Sources:** Bestiary 5 pg 69\
 **Subtype:** Aquatic, Deep one
 
 **Experience points:** 38,400

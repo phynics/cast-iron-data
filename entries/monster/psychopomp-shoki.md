@@ -50,8 +50,7 @@ snail-backed creature upright._
 
 **Senses:** Detect chaos, Detect evil, Detect good, Detect law, Detect magic
 
-**source:** Bestiary 6/222;Inner Sea Bestiary/40
-
+**Sources:** Bestiary 6 pg 222, Inner Sea Bestiary pg 40\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 6,400

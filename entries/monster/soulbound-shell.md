@@ -43,8 +43,7 @@ _This white statue of a bald human is marbled with glowing green veins of energy
 
 **Perception:** +15
 
-**source:** Bestiary 4/249
-
+**Sources:** Bestiary 4 pg 249\
 **Experience points:** 19,200
 
 **Armor class:** 26/11/25

@@ -45,8 +45,7 @@ _A prickly cactus's arms are covered in vicious spines._
 
 **Size:** small
 
-**source:** Pathfinder \#115: Trail of the Hunted/86
-
+**Sources:** Pathfinder \#115: Trail of the Hunted pg 86\
 **Subtype:** Leshy
 
 **Experience points:** 600

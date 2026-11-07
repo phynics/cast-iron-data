@@ -43,8 +43,7 @@ _This elderly figure looks out with heavy-lidded eyes, and seems lost in its own
 
 **Perception:** +28
 
-**source:** Bestiary 5/164
-
+**Sources:** Bestiary 5 pg 164\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra
 
 **Experience points:** 76,800

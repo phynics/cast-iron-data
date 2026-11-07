@@ -44,8 +44,7 @@ oily sheen._
 
 **Perception:** +0
 
-**source:** Bestiary 4/133;Pathfinder \#47: Ashes at Dawn/90
-
+**Sources:** Bestiary 4 pg 133, Pathfinder \#47: Ashes at Dawn pg 90\
 **Experience points:** 800
 
 **Armor class:** 15/9/15

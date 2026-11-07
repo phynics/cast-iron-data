@@ -50,8 +50,7 @@ together into one body._
 
 **Senses:** Arcane sight, Detect good, True seeing
 
-**source:** Bestiary 2/288;Pathfinder \#18: Descent into Midnight/88
-
+**Sources:** Bestiary 2 pg 288, Pathfinder \#18: Descent into Midnight pg 88\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 51,200

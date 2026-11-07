@@ -41,8 +41,7 @@ antlers crowning its head._
 
 **Perception:** +7
 
-**source:** Bestiary 3/147;Pathfinder \#31: Stolen Land/80
-
+**Sources:** Bestiary 3 pg 147, Pathfinder \#31: Stolen Land pg 80\
 **Experience points:** 400
 
 **Armor class:** 13/13/10

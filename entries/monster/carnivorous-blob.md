@@ -42,8 +42,7 @@ amorphous pseudopods in all directions._
 
 **Perception:** -5
 
-**source:** Bestiary 2/51
-
+**Sources:** Bestiary 2 pg 51\
 **tremorsense:** 120
 
 **Experience points:** 25,600

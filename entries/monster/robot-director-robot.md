@@ -47,8 +47,7 @@ mechanical tentacles churn and writhe below its bulk._
 
 **Perception:** +15
 
-**source:** Pathfinder \#90: The Divinity Drive/88
-
+**Sources:** Pathfinder \#90: The Divinity Drive pg 88\
 **Subtype:** Robot
 
 **Experience points:** 9,600

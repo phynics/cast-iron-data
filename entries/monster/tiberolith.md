@@ -44,8 +44,7 @@ down its shuddering body._
 
 **Perception:** +0
 
-**source:** Bestiary 4/259;Pathfinder \#56: Raiders of the Fever Sea/90
-
+**Sources:** Bestiary 4 pg 259, Pathfinder \#56: Raiders of the Fever Sea pg 90\
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

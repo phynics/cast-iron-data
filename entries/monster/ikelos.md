@@ -46,8 +46,7 @@ wings spread across its back and the four digits of each hand end in sharp claws
 
 **Perception:** +15
 
-**source:** Pathfinder \#95: Anvil of Fire/84
-
+**Sources:** Pathfinder \#95: Anvil of Fire pg 84\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 3,200

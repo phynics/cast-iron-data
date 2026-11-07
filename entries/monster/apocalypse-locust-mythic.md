@@ -45,8 +45,7 @@ into a giant, winged scorpion._
 
 **Perception:** +10
 
-**source:** Bestiary 4/12
-
+**Sources:** Bestiary 4 pg 12\
 **Subtype:** Evil, Extraplanar, Mythic
 
 **Experience points:** 2,400

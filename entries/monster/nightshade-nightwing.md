@@ -48,8 +48,7 @@ blackest night._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 2/203
-
+**Sources:** Bestiary 2 pg 203\
 **Subtype:** Extraplanar, Nightshade
 
 **Type:** undead

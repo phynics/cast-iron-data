@@ -38,8 +38,7 @@ _This giant bee is as large as a horse and unusually fat, with light brown strip
 
 **Perception:** +1
 
-**source:** Bestiary 2/43
-
+**Sources:** Bestiary 2 pg 43\
 **Type:** vermin
 
 **Experience points:** 1,600

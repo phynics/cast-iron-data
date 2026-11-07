@@ -41,8 +41,7 @@ ridged hide._
 
 **Perception:** +0
 
-**source:** Bestiary 6/257
-
+**Sources:** Bestiary 6 pg 257\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

@@ -44,8 +44,7 @@ _Cloaked by wings of darkness, this horrific, skeletal creature appears to burn 
 
 **Perception:** +21
 
-**source:** Bestiary 4/10;Pathfinder \#36: Sound of a Thousand Screams/80
-
+**Sources:** Bestiary 4 pg 10, Pathfinder \#36: Sound of a Thousand Screams pg 80\
 **Subtype:** Extraplanar
 
 **Experience points:** 38,400

@@ -42,8 +42,7 @@ elaborate designs._
 
 **Perception:** +5
 
-**source:** Monster Codex/148
-
+**Sources:** Monster Codex pg 148\
 **Subtype:** Reptilian
 
 **Experience points:** 1,600

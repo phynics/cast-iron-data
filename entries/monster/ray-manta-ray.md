@@ -44,8 +44,7 @@ its wide mouth._
 
 **Perception:** +6
 
-**source:** Bestiary 2/232
-
+**Sources:** Bestiary 2 pg 232\
 **Subtype:** Aquatic
 
 **Experience points:** 400

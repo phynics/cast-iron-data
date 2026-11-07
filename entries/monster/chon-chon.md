@@ -42,8 +42,7 @@ babbles to itself as it flies, as if to remind itself of secrets only it knows._
 
 **Perception:** +6
 
-**source:** Pathfinder \#53: Tide of Honor/82
-
+**Sources:** Pathfinder \#53: Tide of Honor pg 82\
 **Size:** tiny
 
 **Experience points:** 200

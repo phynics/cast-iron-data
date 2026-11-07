@@ -45,8 +45,7 @@ _This mass of bones is shaped like a horse, with bizarre limbs._
 
 **Perception:** +0
 
-**source:** Tombs of Golarion/13
-
+**Sources:** Tombs of Golarion pg 13\
 **Experience points:** 9,600
 
 **Armor class:** 23/11/21

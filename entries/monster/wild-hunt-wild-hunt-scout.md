@@ -50,8 +50,7 @@ _This lithe humanoid has pointed ears, glowing green eyes, and a ram's horns._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/284
-
+**Sources:** Bestiary 6 pg 284\
 **Subtype:** Wild hunt
 
 **Experience points:** 51,200

@@ -44,8 +44,7 @@ fangs._
 
 **Size:** small
 
-**source:** Monster Codex/16;Pathfinder \#62: Curse of the Lady's Light/86
-
+**Sources:** Monster Codex pg 16, Pathfinder \#62: Curse of the Lady's Light pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 400

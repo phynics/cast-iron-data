@@ -42,8 +42,7 @@ massive skeleton._
 
 **Perception:** +20
 
-**source:** Bestiary 4/121;Pathfinder \#54: The Empty Throne/84
-
+**Sources:** Bestiary 4 pg 121, Pathfinder \#54: The Empty Throne pg 84\
 **Type:** undead
 
 **Experience points:** 25,600

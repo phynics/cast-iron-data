@@ -46,8 +46,7 @@ dead soldiers._
 
 **Perception:** +25
 
-**source:** Bestiary 5/250;Pathfinder \#71: Rasputin Must Die!/90
-
+**Sources:** Bestiary 5 pg 250, Pathfinder \#71: Rasputin Must Die! pg 90\
 **Subtype:** Air
 
 **Experience points:** 9,600

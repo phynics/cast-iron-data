@@ -42,8 +42,7 @@ _A writhing carpet of ants seethes over the ground, consuming everything in its 
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/16
-
+**Sources:** Pathfinder RPG Bestiary pg 16\
 **Subtype:** Swarm
 
 **Type:** vermin

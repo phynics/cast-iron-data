@@ -41,8 +41,7 @@ talons are dark yellow._
 
 **Perception:** +15
 
-**source:** Pathfinder RPG Bestiary/118
-
+**Sources:** Pathfinder RPG Bestiary pg 118\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

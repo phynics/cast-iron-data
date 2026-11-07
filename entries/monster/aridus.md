@@ -52,8 +52,7 @@ flesh._
 
 **Perception:** +29
 
-**source:** Mythical Monsters Revisited/62
-
+**Sources:** Mythical Monsters Revisited pg 62\
 **Subtype:** Air, Fire, Native
 
 **Experience points:** 204,800

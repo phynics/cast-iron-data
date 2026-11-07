@@ -43,8 +43,7 @@ _This glittering ooze suddenly flexes and bulges as portions of it begin to crys
 
 **Perception:** +3
 
-**source:** Planar Adventures/244
-
+**Sources:** Planar Adventures pg 244\
 **Subtype:** Extraplanar, Shapechanger
 
 **Experience points:** 600

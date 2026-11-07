@@ -45,8 +45,7 @@ skin and grotesque, slurping tongues where its face should be._
 
 **Perception:** +17
 
-**source:** Pathfinder \#110: The Thrushmoor Terror/84
-
+**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 84\
 **Subtype:** Shapechanger
 
 **Experience points:** 6,400

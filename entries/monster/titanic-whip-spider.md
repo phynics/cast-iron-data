@@ -40,8 +40,7 @@ appendages lined with spines._
 
 **Perception:** +16
 
-**source:** Bestiary 6/275
-
+**Sources:** Bestiary 6 pg 275\
 **Type:** vermin
 
 **Experience points:** 76,800

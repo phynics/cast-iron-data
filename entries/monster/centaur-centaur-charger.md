@@ -46,8 +46,7 @@ and shield with the majesty and prowess of any human knight._
 
 **Perception:** +10
 
-**source:** Inner Sea Monster Codex/9
-
+**Sources:** Inner Sea Monster Codex pg 9\
 **Experience points:** 38,400
 
 **Armor class:** 27/13/24

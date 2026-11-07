@@ -40,8 +40,7 @@ _This gray, human-sized porcupine's round body is covered in sharp, striped quil
 
 **Perception:** +6
 
-**source:** Bestiary 3/222
-
+**Sources:** Bestiary 3 pg 222\
 **Experience points:** 600
 
 **Armor class:** 13/11/12

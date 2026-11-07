@@ -44,8 +44,7 @@ clearly expecting a treat._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/177
-
+**Sources:** Pathfinder RPG Bestiary pg 177\
 **Experience points:** 200
 
 **Armor class:** 11/11/10

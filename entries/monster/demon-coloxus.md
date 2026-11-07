@@ -45,8 +45,7 @@ and shivering insectile wings._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/72
-
+**Sources:** Bestiary 3 pg 72\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 19,200

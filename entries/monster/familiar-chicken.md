@@ -39,8 +39,7 @@ of its head._
 
 **Perception:** +5
 
-**source:** Ultimate Wilderness/193;Familiar Folio/24;Bestiary 5/112
-
+**Sources:** Ultimate Wilderness pg 193, Familiar Folio pg 24, Bestiary 5 pg 112\
 **Size:** tiny
 
 **Experience points:** 65

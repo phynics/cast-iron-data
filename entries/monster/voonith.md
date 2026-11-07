@@ -48,8 +48,7 @@ running down its spine._
 
 **Size:** small
 
-**source:** Bestiary 3/283
-
+**Sources:** Bestiary 3 pg 283\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

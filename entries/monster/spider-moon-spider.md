@@ -45,8 +45,7 @@ malign intelligence._
 
 **Perception:** +10
 
-**source:** The Emerald Spire Superdungeon/156
-
+**Sources:** The Emerald Spire Superdungeon pg 156\
 **tremorsense:** 60
 
 **Experience points:** 600

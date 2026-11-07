@@ -47,8 +47,7 @@ upon six bladed, beetle-like legs._
 
 **Sense:** Sid
 
-**source:** Bestiary 5/81;Book of the Damned - Volume 1: Princes of Darkness/60
-
+**Sources:** Bestiary 5 pg 81, Book of the Damned - Volume 1: Princes of Darkness pg 60\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 3,200

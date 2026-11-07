@@ -44,8 +44,7 @@ _This large robot's arms end in an assortment of drills, torches, hammers, and v
 
 **Perception:** +13
 
-**source:** Bestiary 5/209
-
+**Sources:** Bestiary 5 pg 209\
 **Subtype:** Robot
 
 **Experience points:** 3,200

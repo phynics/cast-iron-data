@@ -43,8 +43,7 @@ abilities = ["35", "8", "25", "20", "21", "20"]
 
 **Senses:** Dragon senses, Smoke vision
 
-**source:** Bestiary 3/103
-
+**Sources:** Bestiary 3 pg 103\
 **Subtype:** Fire
 
 **Experience points:** 76,800

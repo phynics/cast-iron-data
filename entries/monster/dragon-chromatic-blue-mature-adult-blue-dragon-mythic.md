@@ -52,8 +52,7 @@ blue-scaled body._
 
 **Perception:** +24
 
-**source:** Mythic Adventures/188
-
+**Sources:** Mythic Adventures pg 188\
 **Subtype:** Earth, Mythic
 
 **Experience points:** 102,400

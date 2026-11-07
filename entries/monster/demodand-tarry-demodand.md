@@ -46,8 +46,7 @@ that cap its long arms._
 
 **Senses:** Detect good, Detect magic
 
-**source:** Bestiary 3/71
-
+**Sources:** Bestiary 3 pg 71\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 25,600

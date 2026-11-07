@@ -47,8 +47,7 @@ machinery._
 
 **Perception:** +4
 
-**source:** Construct Handbook/56
-
+**Sources:** Construct Handbook pg 56\
 **Subtype:** Robot
 
 **Experience points:** 600

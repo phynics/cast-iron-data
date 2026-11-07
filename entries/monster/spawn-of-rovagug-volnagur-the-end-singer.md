@@ -53,8 +53,7 @@ dozen different wings._
 
 **Sense:** Scent
 
-**source:** Inner Sea Bestiary/48
-
+**Sources:** Inner Sea Bestiary pg 48\
 **Experience points:** 614,400
 
 **Armor class:** 39/9/32

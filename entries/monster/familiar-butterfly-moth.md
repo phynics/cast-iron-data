@@ -39,8 +39,7 @@ dream._
 
 **Sense:** Scent
 
-**source:** Ultimate Wilderness/192
-
+**Sources:** Ultimate Wilderness pg 192\
 **Type:** vermin
 
 **Experience points:** 0

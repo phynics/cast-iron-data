@@ -47,8 +47,7 @@ and radiates a sense of serenity._
 
 **Perception:** +22
 
-**source:** Pathfinder RPG Bestiary/21
-
+**Sources:** Pathfinder RPG Bestiary pg 21\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 38,400

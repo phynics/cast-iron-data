@@ -46,8 +46,7 @@ with what look like hands._
 
 **Perception:** +23
 
-**source:** Bestiary 6/270;Inner Sea Bestiary/56
-
+**Sources:** Bestiary 6 pg 270, Inner Sea Bestiary pg 56\
 **Subtype:** Aquatic, Shapechanger
 
 **Experience points:** 38,400

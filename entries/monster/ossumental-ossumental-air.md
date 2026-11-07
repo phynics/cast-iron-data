@@ -40,8 +40,7 @@ abilities = ["30", "17", "-", "9", "14", "21"]
 
 **Perception:** +26
 
-**source:** Pathfinder \#83: The Slave Trenches of Hakotep/89
-
+**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 89\
 **Subtype:** Air
 
 **Type:** undead

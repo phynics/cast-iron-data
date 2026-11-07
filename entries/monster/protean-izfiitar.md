@@ -48,8 +48,7 @@ _This serpentine monster has six arms and is crowned by a halo of ever-changing 
 
 **Senses:** Detect law, True seeing
 
-**source:** Bestiary 6/210
-
+**Sources:** Bestiary 6 pg 210\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 307,200

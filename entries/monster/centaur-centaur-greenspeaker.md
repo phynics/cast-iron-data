@@ -46,8 +46,7 @@ carries a variety of wands and talismans in addition to his weapons._
 
 **Perception:** +11
 
-**source:** Inner Sea Monster Codex/6
-
+**Sources:** Inner Sea Monster Codex pg 6\
 **Experience points:** 1,200
 
 **Armor class:** 13/12/10

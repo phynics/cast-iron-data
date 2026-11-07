@@ -50,8 +50,7 @@ serpentine tail._
 
 **Perception:** +15
 
-**source:** Mythic Adventures/205
-
+**Sources:** Mythic Adventures pg 205\
 **Subtype:** Mythic, Shapechanger
 
 **Experience points:** 3,200

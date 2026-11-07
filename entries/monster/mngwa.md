@@ -46,8 +46,7 @@ _This jungle cat has a dark coat of striped fur, glossy black teeth and claws, a
 
 **Sense:** Scent
 
-**source:** Bestiary 5/173
-
+**Sources:** Bestiary 5 pg 173\
 **Experience points:** 3,200
 
 **Armor class:** 20/13/16

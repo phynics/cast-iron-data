@@ -45,8 +45,7 @@ shoulders._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/158
-
+**Sources:** Bestiary 3 pg 158\
 **Experience points:** 1,200
 
 **Armor class:** 17/12/14

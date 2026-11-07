@@ -44,8 +44,7 @@ hisses a challenge._
 
 **Perception:** +8
 
-**source:** Pathfinder RPG Bestiary/244
-
+**Sources:** Pathfinder RPG Bestiary pg 244\
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

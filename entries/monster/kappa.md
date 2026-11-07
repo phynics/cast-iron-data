@@ -43,8 +43,7 @@ bowl-shaped head is filled with water._
 
 **Size:** small
 
-**source:** Bestiary 3/166
-
+**Sources:** Bestiary 3 pg 166\
 **Subtype:** Aquatic
 
 **Experience points:** 600

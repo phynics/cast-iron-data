@@ -52,8 +52,7 @@ looking longbow in her hands._
 
 **Senses:** True seeing
 
-**source:** Bestiary 6/54
-
+**Sources:** Bestiary 6 pg 54\
 **Experience points:** 819,200
 
 **Armor class:** 42/32/31

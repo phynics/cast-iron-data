@@ -43,8 +43,7 @@ mass, ready to strike._
 
 **Size:** small
 
-**source:** Pathfinder \#72: The Witch Queen's Revenge/86;Bestiary 5/140
-
+**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 86, Bestiary 5 pg 140\
 **Experience points:** 800
 
 **Armor class:** 6/6/6

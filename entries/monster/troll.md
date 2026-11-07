@@ -46,8 +46,7 @@ hideous, tusked underbite._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/268
-
+**Sources:** Pathfinder RPG Bestiary pg 268\
 **Subtype:** Giant
 
 **Experience points:** 1,600

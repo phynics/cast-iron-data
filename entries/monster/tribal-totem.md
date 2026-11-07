@@ -47,8 +47,7 @@ of lacquer and resin assaults the senses as it draws near with a menacing, ponde
 
 **Perception:** +1
 
-**source:** Pathfinder \#39: The City of Seven Spears/86
-
+**Sources:** Pathfinder \#39: The City of Seven Spears pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 19/12/17

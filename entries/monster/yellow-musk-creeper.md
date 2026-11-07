@@ -40,8 +40,7 @@ yellow vapor._
 
 **Type:** plant
 
-**source:** Pathfinder RPG Bestiary/285
-
+**Sources:** Pathfinder RPG Bestiary pg 285\
 **tremorsense:** 30
 
 **Experience points:** 600

@@ -42,8 +42,7 @@ still-beating heart glows brightly around a dagger thrust through its chest._
 
 **Perception:** +39
 
-**source:** Pathfinder \#132: The Six-Legend Soul/90
-
+**Sources:** Pathfinder \#132: The Six-Legend Soul pg 90\
 **Subtype:** Incorporeal
 
 **Type:** undead

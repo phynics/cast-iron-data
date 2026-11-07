@@ -48,8 +48,7 @@ shields._
 
 **Senses:** Spiritsense
 
-**source:** Inner Sea Gods/303
-
+**Sources:** Inner Sea Gods pg 303\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 1,200

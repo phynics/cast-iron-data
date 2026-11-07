@@ -45,8 +45,7 @@ _This strange black bird wears a leather long-nosed mask like a plague doctor._
 
 **Senses:** Spiritsense
 
-**source:** Bestiary 4/220;Pathfinder \#47: Ashes at Dawn/86
-
+**Sources:** Bestiary 4 pg 220, Pathfinder \#47: Ashes at Dawn pg 86\
 **Subtype:** Extraplanar, Psychopomp
 
 **Size:** tiny

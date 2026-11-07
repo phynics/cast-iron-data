@@ -42,8 +42,7 @@ elongated, showing sharp, worn teeth._
 
 **Senses:** Detect evil
 
-**source:** Bestiary 4/118
-
+**Sources:** Bestiary 4 pg 118\
 **Type:** undead
 
 **Experience points:** 3,200

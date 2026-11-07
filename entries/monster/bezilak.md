@@ -47,8 +47,7 @@ other arms end in pincers._
 
 **Senses:** True seeing
 
-**source:** Demons Revisited/20
-
+**Sources:** Demons Revisited pg 20\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 102,400

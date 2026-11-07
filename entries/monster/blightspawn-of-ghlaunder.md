@@ -47,8 +47,7 @@ stinger._
 
 **Sense:** Scent
 
-**source:** Feast of Ravenmoor/29
-
+**Sources:** Feast of Ravenmoor pg 29\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

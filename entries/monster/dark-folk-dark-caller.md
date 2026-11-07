@@ -45,8 +45,7 @@ _Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent 
 
 **Sense:** Sid
 
-**source:** Bestiary 4/42
-
+**Sources:** Bestiary 4 pg 42\
 **Subtype:** Dark folk
 
 **Experience points:** 1,600

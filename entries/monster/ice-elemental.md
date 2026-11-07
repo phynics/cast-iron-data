@@ -45,8 +45,7 @@ slithering tail._
 
 **Size:** small
 
-**source:** Bestiary 2/114
-
+**Sources:** Bestiary 2 pg 114\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
 
 **Experience points:** 400
@@ -145,8 +144,7 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Senses:** Snow vision
 
-**source:** Bestiary 2/114
-
+**Sources:** Bestiary 2 pg 114\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
 
 **Experience points:** 800
@@ -209,8 +207,7 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Senses:** Snow vision
 
-**source:** Bestiary 2/114
-
+**Sources:** Bestiary 2 pg 114\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
 
 **Experience points:** 1,600
@@ -279,8 +276,7 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Senses:** Snow vision
 
-**source:** Bestiary 2/114
-
+**Sources:** Bestiary 2 pg 114\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
 
 **Experience points:** 3,200
@@ -349,8 +345,7 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Senses:** Snow vision
 
-**source:** Bestiary 2/115
-
+**Sources:** Bestiary 2 pg 115\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
 
 **Experience points:** 6,400
@@ -421,8 +416,7 @@ Swim +17
 
 **Senses:** Snow vision
 
-**source:** Bestiary 2/115
-
+**Sources:** Bestiary 2 pg 115\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
 
 **Experience points:** 12,800

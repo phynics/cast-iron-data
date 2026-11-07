@@ -49,8 +49,7 @@ _This towering humanoid creature is made almost entirely of gold and radiates a 
 
 **Perception:** +11
 
-**source:** Lost Treasures/23
-
+**Sources:** Lost Treasures pg 23\
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 153,600

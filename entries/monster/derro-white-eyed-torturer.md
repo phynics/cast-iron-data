@@ -46,8 +46,7 @@ three of this wild-haired man's limbs._
 
 **Size:** small
 
-**source:** Inner Sea Monster Codex/27
-
+**Sources:** Inner Sea Monster Codex pg 27\
 **Subtype:** Derro
 
 **Experience points:** 19,200

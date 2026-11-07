@@ -46,8 +46,7 @@ _The sound of flapping wings and an angry hiss accompany the appearance of this 
 
 **Size:** small
 
-**source:** Monster Codex/208
-
+**Sources:** Monster Codex pg 208\
 **Experience points:** 800
 
 **Armor class:** 15/14/12

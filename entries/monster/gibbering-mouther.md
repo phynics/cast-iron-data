@@ -44,8 +44,7 @@ yammering ceaselessly._
 
 **Perception:** +12
 
-**source:** Pathfinder RPG Bestiary/153
-
+**Sources:** Pathfinder RPG Bestiary pg 153\
 **Experience points:** 1,600
 
 **Armor class:** 19/13/16

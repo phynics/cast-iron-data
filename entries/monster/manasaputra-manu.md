@@ -45,8 +45,7 @@ strangely familiar._
 
 **Perception:** +25
 
-**source:** Bestiary 5/163
-
+**Sources:** Bestiary 5 pg 163\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra
 
 **Experience points:** 19,200

@@ -45,8 +45,7 @@ abilities = ["26", "14", "-", "18", "15", "20"]
 
 **Perception:** +35
 
-**source:** Monster Codex/243
-
+**Sources:** Monster Codex pg 243\
 **Subtype:** Elf, Human
 
 **Type:** undead

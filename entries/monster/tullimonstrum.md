@@ -41,8 +41,7 @@ _This small cylindrical creature has two eyestalks extending straight off to eac
 
 **Sense:** Scent
 
-**source:** Pathfinder \#124: City in the Deep/87
-
+**Sources:** Pathfinder \#124: City in the Deep pg 87\
 **Subtype:** Aquatic
 
 **Size:** tiny

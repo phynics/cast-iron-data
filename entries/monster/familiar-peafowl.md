@@ -42,8 +42,7 @@ its back._
 
 **Size:** small
 
-**source:** Familiar Folio/27;Ultimate Wilderness/201
-
+**Sources:** Familiar Folio pg 27, Ultimate Wilderness pg 201\
 **Experience points:** 100
 
 **Armor class:** 12/12/11

@@ -48,8 +48,7 @@ intelligence and confidence._
 
 **Senses:** Hive mind
 
-**source:** Bestiary 4/109
-
+**Sources:** Bestiary 4 pg 109\
 **Experience points:** 9,600
 
 **Armor class:** 27/16/22

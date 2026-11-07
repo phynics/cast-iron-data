@@ -47,8 +47,7 @@ of the same material._
 
 **Perception:** +7
 
-**source:** Darklands Revisited/39
-
+**Sources:** Darklands Revisited pg 39\
 **Subtype:** Munavri
 
 **Experience points:** 2,400

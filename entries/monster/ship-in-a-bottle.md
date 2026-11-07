@@ -43,8 +43,7 @@ aim._
 
 **Perception:** +0
 
-**source:** Pathfinder \#57: Tempest Rising/86
-
+**Sources:** Pathfinder \#57: Tempest Rising pg 86\
 **Size:** tiny
 
 **Experience points:** 600

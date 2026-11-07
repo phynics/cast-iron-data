@@ -38,8 +38,7 @@ _This small-eyed rodent has a rounded body with numerous quills running all over
 
 **Perception:** -1
 
-**source:** Bestiary 3/222
-
+**Sources:** Bestiary 3 pg 222\
 **Size:** tiny
 
 **Experience points:** 100

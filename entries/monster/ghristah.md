@@ -49,8 +49,7 @@ and bone and the skull of a larger reptile as a menacing mask._
 
 **Perception:** +12
 
-**source:** Darklands Revisited/51
-
+**Sources:** Darklands Revisited pg 51\
 **Subtype:** Reptilian
 
 **Experience points:** 4,800

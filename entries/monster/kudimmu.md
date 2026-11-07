@@ -44,8 +44,7 @@ creature, and its face is marked only by a pair of glowing, crimson eyes._
 
 **Type:** plant
 
-**source:** Pathfinder \#114: Black Stars Beckon/86
-
+**Sources:** Pathfinder \#114: Black Stars Beckon pg 86\
 **tremorsense:** 30
 
 **Experience points:** 76,800

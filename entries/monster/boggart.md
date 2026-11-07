@@ -42,8 +42,7 @@ a mane of lank hair._
 
 **Size:** small
 
-**source:** Bestiary 6/50;Occult Bestiary/11
-
+**Sources:** Bestiary 6 pg 50, Occult Bestiary pg 11\
 **Experience points:** 1,200
 
 **Armor class:** 16/16/11

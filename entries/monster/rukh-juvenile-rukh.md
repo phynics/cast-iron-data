@@ -38,8 +38,7 @@ abilities = ["14", "15", "14", "2", "13", "11"]
 
 **Perception:** +17
 
-**source:** Bestiary 4/228;Pathfinder \#21: The Jackal's Price/84
-
+**Sources:** Bestiary 4 pg 228, Pathfinder \#21: The Jackal's Price pg 84\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

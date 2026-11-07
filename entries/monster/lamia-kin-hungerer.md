@@ -46,8 +46,8 @@ filled with terrible teeth._
 
 **Perception:** +28
 
-**source:** Rise of the Runelords Anniversary Edition/410;Pathfinder \#6: Spires of Xin-Shalast/84
-
+**Sources:** Rise of the Runelords Anniversary Edition pg 410, Pathfinder \#6: Spires of Xin-Shalast
+pg 84\
 **Experience points:** 51,200
 
 **Armor class:** 31/10/29

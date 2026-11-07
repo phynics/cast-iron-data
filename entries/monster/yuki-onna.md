@@ -43,8 +43,7 @@ snow._
 
 **Perception:** +17
 
-**source:** Bestiary 3/287
-
+**Sources:** Bestiary 3 pg 287\
 **Subtype:** Cold, Incorporeal
 
 **Type:** undead

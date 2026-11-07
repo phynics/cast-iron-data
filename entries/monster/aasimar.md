@@ -46,8 +46,7 @@ benevolence._
 
 **Perception:** +5
 
-**source:** Pathfinder RPG Bestiary/7
-
+**Sources:** Pathfinder RPG Bestiary pg 7\
 **Subtype:** Native
 
 **Experience points:** 200

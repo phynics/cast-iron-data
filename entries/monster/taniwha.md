@@ -48,8 +48,7 @@ piercing blue eyes._
 
 **Senses:** Detect poison
 
-**source:** Bestiary 6/259
-
+**Sources:** Bestiary 6 pg 259\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

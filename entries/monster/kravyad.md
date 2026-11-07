@@ -47,8 +47,7 @@ _Glowing motes of electricity dance over this massive ursine creature's hairless
 
 **Sense:** Scent
 
-**source:** Seers of the Drowned City/59
-
+**Sources:** Seers of the Drowned City pg 59\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/17

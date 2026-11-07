@@ -40,8 +40,7 @@ and from the exposed wounds that cover its hideously distended body._
 
 **Perception:** +11
 
-**source:** Druma, Profit and Prophecy/56
-
+**Sources:** Druma, Profit and Prophecy pg 56\
 **Type:** undead
 
 **Experience points:** 1,600

@@ -43,8 +43,7 @@ flaring in an unmistakable warning._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/252
-
+**Sources:** Bestiary 2 pg 252\
 **Experience points:** 1,600
 
 **Armor class:** 18/11/16

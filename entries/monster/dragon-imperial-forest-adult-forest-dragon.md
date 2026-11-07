@@ -43,8 +43,7 @@ abilities = ["29", "10", "22", "16", "17", "16"]
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 3/94
-
+**Sources:** Bestiary 3 pg 94\
 **Subtype:** Earth
 
 **tremorsense:** 60

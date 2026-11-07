@@ -44,8 +44,7 @@ three-fingered hand._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 2/285;Pathfinder \#14: Children of the Void/88
-
+**Sources:** Bestiary 2 pg 285, Pathfinder \#14: Children of the Void pg 88\
 **Experience points:** 2,400
 
 **Armor class:** 19/12/17

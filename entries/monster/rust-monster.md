@@ -43,8 +43,7 @@ and two long, feathery antennae._
 
 **Senses:** Scent metals 90 ft.
 
-**source:** Pathfinder RPG Bestiary/238
-
+**Sources:** Pathfinder RPG Bestiary pg 238\
 **Experience points:** 800
 
 **Armor class:** 18/13/15

@@ -43,8 +43,7 @@ _This sleek mammal has a short snout and black, white, and gray markings along i
 
 **Size:** small
 
-**source:** Ultimate Wilderness/194
-
+**Sources:** Ultimate Wilderness pg 194\
 **Experience points:** 135
 
 **Armor class:** 15/14/12

@@ -46,8 +46,7 @@ makeshift spear._
 
 **Size:** small
 
-**source:** Bestiary 3/179
-
+**Sources:** Bestiary 3 pg 179\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 200

@@ -44,8 +44,7 @@ scaly back._
 
 **Size:** small
 
-**source:** Bestiary 2/57;Pathfinder \#19: Howl of the Carrion King/78
-
+**Sources:** Bestiary 2 pg 57, Pathfinder \#19: Howl of the Carrion King pg 78\
 **Experience points:** 800
 
 **Armor class:** 16/14/13

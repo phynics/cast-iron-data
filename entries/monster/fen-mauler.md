@@ -48,8 +48,7 @@ tangles within its matted, reeking fur._
 
 **Sense:** Scent
 
-**source:** Bestiary 6/127
-
+**Sources:** Bestiary 6 pg 127\
 **Experience points:** 9,600
 
 **Armor class:** 24/14/19

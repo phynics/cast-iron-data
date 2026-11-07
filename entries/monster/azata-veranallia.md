@@ -50,8 +50,7 @@ gently swaying vines._
 
 **Senses:** Detect animals or plants, Detect evil, True seeing
 
-**source:** Bestiary 6/34;Chronicle of the Righteous/62
-
+**Sources:** Bestiary 6 pg 34, Chronicle of the Righteous pg 62\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **tremorsense:** 60

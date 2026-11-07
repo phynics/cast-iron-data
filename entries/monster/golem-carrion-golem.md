@@ -48,8 +48,7 @@ of death and decay._
 
 **Perception:** +0
 
-**source:** Bestiary 2/136;Pathfinder \#7: Edge of Anarchy/78
-
+**Sources:** Bestiary 2 pg 136, Pathfinder \#7: Edge of Anarchy pg 78\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/16

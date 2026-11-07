@@ -41,8 +41,7 @@ _Black rosettes and streaks mark the brown fur of this slender feline._
 
 **Sense:** Scent
 
-**source:** Ultimate Wilderness/193
-
+**Sources:** Ultimate Wilderness pg 193\
 **Size:** tiny
 
 **Experience points:** 100

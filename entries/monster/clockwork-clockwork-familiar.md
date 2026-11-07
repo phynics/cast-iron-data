@@ -43,8 +43,7 @@ articulated plates._
 
 **Perception:** +5
 
-**source:** Bestiary 5/57;Pathfinder \#63: The Asylum Stone/86
-
+**Sources:** Bestiary 5 pg 57, Pathfinder \#63: The Asylum Stone pg 86\
 **Subtype:** Clockwork
 
 **Size:** tiny

@@ -40,8 +40,7 @@ abilities = ["26", "13", "18", "7", "10", "9"]
 
 **Perception:** +13
 
-**source:** Pathfinder \#117: Assault on Longshadow/90
-
+**Sources:** Pathfinder \#117: Assault on Longshadow pg 90\
 **Subtype:** Troop
 
 **Experience points:** 12,800

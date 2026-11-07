@@ -44,8 +44,7 @@ its fanged maw._
 
 **Type:** plant
 
-**source:** Seers of the Drowned City/62
-
+**Sources:** Seers of the Drowned City pg 62\
 **Experience points:** 3,200
 
 **Armor class:** 20/13/17

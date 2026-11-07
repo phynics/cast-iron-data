@@ -42,8 +42,7 @@ leathery flesh, and blood-red smoke._
 
 **Perception:** +15
 
-**source:** Bestiary 3/125;Dark Markets - A Guide to Katapesh/62
-
+**Sources:** Bestiary 3 pg 125, Dark Markets - A Guide to Katapesh pg 62\
 **Subtype:** Shapechanger
 
 **Type:** undead

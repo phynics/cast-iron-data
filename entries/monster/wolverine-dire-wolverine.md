@@ -44,8 +44,7 @@ dark and filled with rage._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/279
-
+**Sources:** Pathfinder RPG Bestiary pg 279\
 **Experience points:** 1,200
 
 **Armor class:** 16/12/13

@@ -43,8 +43,7 @@ winged demon._
 
 **Perception:** +5
 
-**source:** Pathfinder RPG Bestiary/137
-
+**Sources:** Pathfinder RPG Bestiary pg 137\
 **Subtype:** Earth
 
 **Experience points:** 1,200

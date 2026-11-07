@@ -42,8 +42,7 @@ cacophony of slapping flesh._
 
 **Perception:** +15
 
-**source:** Bestiary 4/105;Pathfinder \#16: Endless Night/86
-
+**Sources:** Bestiary 4 pg 105, Pathfinder \#16: Endless Night pg 86\
 **Experience points:** 6,400
 
 **Armor class:** 23/12/20

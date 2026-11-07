@@ -41,8 +41,7 @@ to be remarkably sharp._
 
 **Perception:** +0
 
-**source:** Bestiary 2/44
-
+**Sources:** Bestiary 2 pg 44\
 **Type:** vermin
 
 **Experience points:** 1,200

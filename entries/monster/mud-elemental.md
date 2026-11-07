@@ -41,8 +41,7 @@ dripping sludge._
 
 **Size:** small
 
-**source:** Bestiary 2/120
-
+**Sources:** Bestiary 2 pg 120\
 **Subtype:** Earth, Elemental, Extraplanar, Water
 
 **tremorsense:** 30
@@ -136,8 +135,7 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 
 **Perception:** +7
 
-**source:** Bestiary 2/120
-
+**Sources:** Bestiary 2 pg 120\
 **Subtype:** Earth, Elemental, Extraplanar, Water
 
 **tremorsense:** 30
@@ -198,8 +196,7 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 
 **Perception:** +11
 
-**source:** Bestiary 2/120
-
+**Sources:** Bestiary 2 pg 120\
 **Subtype:** Earth, Elemental, Extraplanar, Water
 
 **tremorsense:** 30
@@ -266,8 +263,7 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 
 **Perception:** +13
 
-**source:** Bestiary 2/120
-
+**Sources:** Bestiary 2 pg 120\
 **Subtype:** Earth, Elemental, Extraplanar, Water
 
 **tremorsense:** 30
@@ -334,8 +330,7 @@ powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.
 
 **Perception:** +16
 
-**source:** Bestiary 2/121
-
+**Sources:** Bestiary 2 pg 121\
 **Subtype:** Earth, Elemental, Extraplanar, Water
 
 **tremorsense:** 30
@@ -403,8 +398,7 @@ Lightning Reflexes, Power Attack
 
 **Perception:** +19
 
-**source:** Bestiary 2/121
-
+**Sources:** Bestiary 2 pg 121\
 **Subtype:** Earth, Elemental, Extraplanar, Water
 
 **tremorsense:** 30

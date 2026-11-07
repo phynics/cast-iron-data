@@ -47,8 +47,7 @@ tusked underbite._
 
 **Sense:** Scent
 
-**source:** Lands of the Linnorm Kings/62
-
+**Sources:** Lands of the Linnorm Kings pg 62\
 **Subtype:** Giant
 
 **Experience points:** 38,400

@@ -41,8 +41,7 @@ _This large bird has brown and gray feathers and a vicious hooked beak._
 
 **Perception:** +9
 
-**source:** Pathfinder \#97: In Hell's Bright Shadow/82
-
+**Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 82\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

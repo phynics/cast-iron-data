@@ -43,8 +43,7 @@ formidable shield._
 
 **Perception:** +0
 
-**source:** Bestiary 6/143
-
+**Sources:** Bestiary 6 pg 143\
 **Experience points:** 153,600
 
 **Armor class:** 33/13/28

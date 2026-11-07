@@ -47,8 +47,7 @@ slashes on her four arms._
 
 **Senses:** Deathwatch, True seeing
 
-**source:** Bestiary 5/76;Book of the Damned - Volume 2: Lords of Chaos/58
-
+**Sources:** Bestiary 5 pg 76, Book of the Damned - Volume 2: Lords of Chaos pg 58\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 51,200

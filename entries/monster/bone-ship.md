@@ -45,8 +45,7 @@ masts crafted from gigantic spines._
 
 **Perception:** +40
 
-**source:** Bestiary 5/44
-
+**Sources:** Bestiary 5 pg 44\
 **Subtype:** Water
 
 **Type:** undead

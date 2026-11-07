@@ -47,8 +47,7 @@ woven reeds and leaves._
 
 **Perception:** +4
 
-**source:** Bestiary 6/200
-
+**Sources:** Bestiary 6 pg 200\
 **Subtype:** Water
 
 **Experience points:** 200

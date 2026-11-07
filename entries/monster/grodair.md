@@ -47,8 +47,7 @@ from its back._
 
 **Perception:** +1
 
-**source:** Bestiary 3/143;Pathfinder \#36: Sound of a Thousand Screams/84
-
+**Sources:** Bestiary 3 pg 143, Pathfinder \#36: Sound of a Thousand Screams pg 84\
 **Subtype:** Aquatic, Extraplanar
 
 **Experience points:** 1,600

@@ -44,8 +44,7 @@ determination and detachment._
 
 **Perception:** +9
 
-**source:** Bestiary 4/129
-
+**Sources:** Bestiary 4 pg 129\
 **Subtype:** Giant
 
 **Experience points:** 3,200

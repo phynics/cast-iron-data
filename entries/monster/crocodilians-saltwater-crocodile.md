@@ -43,8 +43,7 @@ long, toothed mouth as it lunges forward._
 
 **Perception:** +9
 
-**source:** Pathfinder \#58: Island of Empty Eyes/85
-
+**Sources:** Pathfinder \#58: Island of Empty Eyes pg 85\
 **Experience points:** 1,600
 
 **Armor class:** 18/8/18

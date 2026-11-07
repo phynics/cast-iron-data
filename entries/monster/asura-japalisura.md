@@ -48,8 +48,7 @@ _This lithe, six-armed humanoid has tusks that curve from his chin and carries a
 
 **Senses:** See invisibility
 
-**source:** Pathfinder \#136: Temple of the Peacock Spirit/84
-
+**Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 84\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

@@ -45,8 +45,7 @@ toothy grin._
 
 **Size:** small
 
-**source:** Bestiary 5/142;Pathfinder \#67: The Snows of Summer/86
-
+**Sources:** Bestiary 5 pg 142, Pathfinder \#67: The Snows of Summer pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/14

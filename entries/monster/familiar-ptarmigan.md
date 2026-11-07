@@ -38,8 +38,7 @@ _This small bird has a mix of brown and white feathers and makes a loud croaking
 
 **Perception:** +2
 
-**source:** Ultimate Wilderness/203;Reign of Winter Player's Guide/10
-
+**Sources:** Ultimate Wilderness pg 203, Reign of Winter Player's Guide pg 10\
 **Size:** tiny
 
 **Experience points:** 65

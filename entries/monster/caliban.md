@@ -44,8 +44,7 @@ erupt over its sloping brow._
 
 **Perception:** +6
 
-**source:** Tears at Bitter Manor/57
-
+**Sources:** Tears at Bitter Manor pg 57\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

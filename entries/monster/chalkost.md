@@ -43,8 +43,7 @@ stylized boar tusks._
 
 **Perception:** +9
 
-**source:** Inner Sea Gods/311
-
+**Sources:** Inner Sea Gods pg 311\
 **Subtype:** Extraplanar, Good, Lawful, Shapechanger
 
 **Experience points:** 1,200

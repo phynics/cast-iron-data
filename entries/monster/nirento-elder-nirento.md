@@ -44,8 +44,7 @@ its base._
 
 **Type:** plant
 
-**source:** Isles of the Shackles/55
-
+**Sources:** Isles of the Shackles pg 55\
 **Experience points:** 2,400
 
 **Armor class:** 20/10/18

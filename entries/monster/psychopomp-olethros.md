@@ -51,8 +51,7 @@ mirrors._
 
 **Senses:** Discern next of kin, True seeing
 
-**source:** Bestiary 6/220
-
+**Sources:** Bestiary 6 pg 220\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 102,400

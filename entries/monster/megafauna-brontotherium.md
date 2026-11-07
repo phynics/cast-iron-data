@@ -42,8 +42,7 @@ _This stocky quadruped's lowered head puts its intimidating Y-shaped horn on ful
 
 **Sense:** Scent
 
-**source:** Bestiary 6/184
-
+**Sources:** Bestiary 6 pg 184\
 **Experience points:** 4,800
 
 **Armor class:** 21/8/21

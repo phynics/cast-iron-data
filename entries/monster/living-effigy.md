@@ -44,8 +44,7 @@ _Carved from gray stone, this enormous figure is shaped like the head of some pr
 
 **Perception:** +19
 
-**source:** Pathfinder \#94: Ice Tomb of the Giant Queen/88
-
+**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 88\
 **Experience points:** 4,800
 
 **Armor class:** 20/6/20

@@ -45,8 +45,7 @@ ending in curved blades._
 
 **Perception:** +0
 
-**source:** Bestiary 6/69;Pathfinder \#15: The Armageddon Echo/84
-
+**Sources:** Bestiary 6 pg 69, Pathfinder \#15: The Armageddon Echo pg 84\
 **Experience points:** 2,400
 
 **Aav:** present

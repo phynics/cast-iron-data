@@ -43,8 +43,7 @@ in the center of its chest._
 
 **Perception:** +22
 
-**source:** Bestiary 3/34;Pathfinder \#42: Sanctum of the Serpent God/80
-
+**Sources:** Bestiary 3 pg 34, Pathfinder \#42: Sanctum of the Serpent God pg 80\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 19,200

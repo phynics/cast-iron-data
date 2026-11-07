@@ -41,8 +41,7 @@ within its glaring eyes._
 
 **Perception:** +21
 
-**source:** Pathfinder \#102: Breaking the Bones of Hell/84
-
+**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 84\
 **Subtype:** Incorporeal
 
 **Type:** undead

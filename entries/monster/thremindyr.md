@@ -47,8 +47,7 @@ _Blustering winds and snow swirl around this white, almost transparent fey-like 
 
 **Senses:** Sense protection
 
-**source:** Pathfinder \#94: Ice Tomb of the Giant Queen/90
-
+**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 90\
 **Subtype:** Air, Cold, Native
 
 **Experience points:** 6,400

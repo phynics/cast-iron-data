@@ -45,8 +45,7 @@ gemstones._
 
 **Size:** small
 
-**source:** Bestiary 2/11
-
+**Sources:** Bestiary 2 pg 11\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 600

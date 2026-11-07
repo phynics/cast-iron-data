@@ -43,8 +43,7 @@ shine in the membranes of its wings._
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 2/100
-
+**Sources:** Bestiary 2 pg 100\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 4,800

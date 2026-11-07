@@ -50,8 +50,7 @@ its face seems preternaturally wise._
 
 **Senses:** Detect evil, Detect magic, See invisibility
 
-**source:** Bestiary 5/174
-
+**Sources:** Bestiary 5 pg 174\
 **Subtype:** Extraplanar, Good
 
 **Experience points:** 6,400

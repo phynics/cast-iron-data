@@ -43,8 +43,7 @@ narrow-snouted head._
 
 **Perception:** +18
 
-**source:** Bestiary 2/290
-
+**Sources:** Bestiary 2 pg 290\
 **Experience points:** 6,400
 
 **Armor class:** 23/11/20

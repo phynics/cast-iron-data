@@ -40,8 +40,7 @@ clumps of seaweed serve as her hair._
 
 **Perception:** +12
 
-**source:** Pathfinder \#122: Into the Shattered Continent/90
-
+**Sources:** Pathfinder \#122: Into the Shattered Continent pg 90\
 **Type:** undead
 
 **Experience points:** 2,400

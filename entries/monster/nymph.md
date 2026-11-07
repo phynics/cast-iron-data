@@ -45,8 +45,7 @@ painful in its perfection._
 
 **Perception:** +14
 
-**source:** Pathfinder RPG Bestiary/217
-
+**Sources:** Pathfinder RPG Bestiary pg 217\
 **Experience points:** 3,200
 
 **Armor class:** 23/23/17

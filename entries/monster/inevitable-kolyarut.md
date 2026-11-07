@@ -43,8 +43,7 @@ _Beneath its cloak, this man-shaped creature appears to be part statue and part 
 
 **Perception:** +22
 
-**source:** Bestiary 2/163
-
+**Sources:** Bestiary 2 pg 163\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 19,200

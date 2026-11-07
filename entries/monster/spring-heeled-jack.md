@@ -42,8 +42,7 @@ bloody knife and a wicked grin._
 
 **Size:** small
 
-**source:** Bestiary 4/253;Pathfinder \#43: Haunting of Harrowstone/88
-
+**Sources:** Bestiary 4 pg 253, Pathfinder \#43: Haunting of Harrowstone pg 88\
 **Experience points:** 800
 
 **Armor class:** 16/16/11

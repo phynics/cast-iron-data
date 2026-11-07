@@ -43,8 +43,7 @@ blackened, fiery-red scales._
 
 **Perception:** +16
 
-**source:** Pathfinder RPG Bestiary/240
-
+**Sources:** Pathfinder RPG Bestiary pg 240\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 2,400

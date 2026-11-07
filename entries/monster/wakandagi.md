@@ -51,8 +51,7 @@ _This antlered beast combines the features of an elegant deer and a slithering s
 
 **Senses:** Detect evil, Detect magic
 
-**source:** Bestiary 5/273
-
+**Sources:** Bestiary 5 pg 273\
 **Subtype:** Native, Water
 
 **Experience points:** 38,400

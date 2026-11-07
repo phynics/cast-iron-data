@@ -38,8 +38,7 @@ oversized head and bulbous eyes._
 
 **Perception:** +0
 
-**source:** Heart of the Jungle/59
-
+**Sources:** Heart of the Jungle pg 59\
 **Size:** tiny
 
 **Type:** vermin

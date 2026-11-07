@@ -44,8 +44,7 @@ its creased body and claw-like hands._
 
 **Perception:** +0
 
-**source:** Bestiary 4/131;Isles of the Shackles/47
-
+**Sources:** Bestiary 4 pg 131, Isles of the Shackles pg 47\
 **Experience points:** 6,400
 
 **Armor class:** 21/9/21

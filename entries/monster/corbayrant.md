@@ -46,8 +46,7 @@ tail drips foul-smelling venom and its wide mouth has multiple hinged jaws._
 
 **Perception:** +30
 
-**source:** Pathfinder \#132: The Six-Legend Soul/84
-
+**Sources:** Pathfinder \#132: The Six-Legend Soul pg 84\
 **Experience points:** 76,800
 
 **Armor class:** 30/14/24

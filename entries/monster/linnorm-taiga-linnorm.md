@@ -48,8 +48,7 @@ scales and vicious black barbs._
 
 **Senses:** True seeing
 
-**source:** Bestiary 3/184
-
+**Sources:** Bestiary 3 pg 184\
 **Experience points:** 204,800
 
 **Armor class:** 34/9/27

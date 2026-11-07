@@ -41,8 +41,7 @@ things to burn._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/124
-
+**Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 400
@@ -139,8 +138,7 @@ made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.
 
 **Perception:** +7
 
-**source:** Pathfinder RPG Bestiary/124
-
+**Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 800
@@ -204,8 +202,7 @@ Bonus feat.
 
 **Perception:** +11
 
-**source:** Pathfinder RPG Bestiary/124
-
+**Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 1,600
@@ -275,8 +272,7 @@ Bonus feat.
 
 **Perception:** +13
 
-**source:** Pathfinder RPG Bestiary/124
-
+**Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 3,200
@@ -347,8 +343,7 @@ Bonus feat.
 
 **Perception:** +16
 
-**source:** Pathfinder RPG Bestiary/124
-
+**Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 6,400
@@ -419,8 +414,7 @@ Bonus feat.
 
 **Perception:** +19
 
-**source:** Pathfinder RPG Bestiary/125
-
+**Sources:** Pathfinder RPG Bestiary pg 125\
 **Subtype:** Elemental, Extraplanar, Fire
 
 **Experience points:** 12,800

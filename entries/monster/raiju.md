@@ -45,8 +45,7 @@ seemingly ready to bolt._
 
 **Size:** small
 
-**source:** Pathfinder \#53: Tide of Honor/90
-
+**Sources:** Pathfinder \#53: Tide of Honor pg 90\
 **Subtype:** Air, Extraplanar, Shapechanger
 
 **Experience points:** 1,600

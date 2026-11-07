@@ -44,8 +44,7 @@ dangle from its face._
 
 **Perception:** +7
 
-**source:** Bestiary 5/213
-
+**Sources:** Bestiary 5 pg 213\
 **Subtype:** Evil, Extraplanar, Sahkil
 
 **Size:** tiny

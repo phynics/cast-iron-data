@@ -42,8 +42,7 @@ from its half-rotted flesh._
 
 **Perception:** +3
 
-**source:** Ire of the Storm/62
-
+**Sources:** Ire of the Storm pg 62\
 **Subtype:** Aquatic
 
 **Type:** undead

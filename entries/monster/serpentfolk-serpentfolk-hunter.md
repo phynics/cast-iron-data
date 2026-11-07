@@ -45,8 +45,7 @@ abilities = ["22", "17", "19", "8", "11", "8"]
 
 **Sense:** Scent
 
-**source:** Monster Codex/203
-
+**Sources:** Monster Codex pg 203\
 **Experience points:** 2,400
 
 **Armor class:** 20/13/17

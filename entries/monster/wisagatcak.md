@@ -44,8 +44,7 @@ _This spider-like monstrosity watches quietly, skittering about on six needle-sh
 
 **Size:** small
 
-**source:** Planar Adventures/249
-
+**Sources:** Planar Adventures pg 249\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **tremorsense:** 30

@@ -47,8 +47,7 @@ limbs and writhing tendrils._
 
 **Senses:** Deathwatch, True seeing
 
-**source:** Bestiary 2/63;The Great Beyond - A Guide to the Multiverse/54
-
+**Sources:** Bestiary 2 pg 63, The Great Beyond - A Guide to the Multiverse pg 54\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 76,800

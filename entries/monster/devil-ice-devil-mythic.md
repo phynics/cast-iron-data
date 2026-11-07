@@ -49,8 +49,7 @@ _A pair of frozen, multifaceted eyes coldly judge all before this towering, inse
 
 **Sense:** Sid
 
-**source:** Mythic Adventures/186
-
+**Sources:** Mythic Adventures pg 186\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Mythic
 
 **Experience points:** 76,800

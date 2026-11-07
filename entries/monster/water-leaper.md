@@ -46,8 +46,7 @@ stinger._
 
 **Size:** small
 
-**source:** Bestiary 5/275
-
+**Sources:** Bestiary 5 pg 275\
 **Subtype:** Aquatic
 
 **Experience points:** 600

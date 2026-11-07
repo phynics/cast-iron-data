@@ -46,8 +46,7 @@ making a different note in an eerie harmony._
 
 **Perception:** +12
 
-**source:** Pathfinder \#36: Sound of a Thousand Screams/86
-
+**Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 86\
 **Subtype:** Extraplanar
 
 **Experience points:** 2,400

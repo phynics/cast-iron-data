@@ -44,8 +44,7 @@ _This oversized rabbit has a single long, pearlescent horn protruding from its c
 
 **Size:** small
 
-**source:** Bestiary 4/8
-
+**Sources:** Bestiary 4 pg 8\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

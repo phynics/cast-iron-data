@@ -44,8 +44,7 @@ roots ending in hooves, and its trunk decorated with numerous drooling maws._
 
 **Perception:** +21
 
-**source:** Pathfinder \#46: Wake of the Watcher/78
-
+**Sources:** Pathfinder \#46: Wake of the Watcher pg 78\
 **tremorsense:** 30
 
 **Experience points:** 19,200

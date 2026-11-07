@@ -40,8 +40,7 @@ _Thousands upon thousands of locusts dance and drone in a dark and ravenous clou
 
 **Perception:** +0
 
-**source:** Bestiary 4/183
-
+**Sources:** Bestiary 4 pg 183\
 **Subtype:** Swarm
 
 **Type:** vermin

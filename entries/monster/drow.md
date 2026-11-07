@@ -45,8 +45,7 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Perception:** +2
 
-**source:** Pathfinder RPG Bestiary/114
-
+**Sources:** Pathfinder RPG Bestiary pg 114\
 **Subtype:** Elf
 
 **Experience points:** 135

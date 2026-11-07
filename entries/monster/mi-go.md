@@ -45,8 +45,7 @@ and a tangle of spiky, clawed legs._
 
 **Type:** plant
 
-**source:** Bestiary 4/193;Pathfinder \#46: Wake of the Watcher/86
-
+**Sources:** Bestiary 4 pg 193, Pathfinder \#46: Wake of the Watcher pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 20/16/14

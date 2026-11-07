@@ -45,8 +45,7 @@ end of each of its stumpy legs._
 
 **Perception:** +15
 
-**source:** Bestiary 6/139;Feast of Dust/62
-
+**Sources:** Bestiary 6 pg 139, Feast of Dust pg 62\
 **Experience points:** 38,400
 
 **Armor class:** 30/12/27

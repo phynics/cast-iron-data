@@ -47,8 +47,7 @@ long, powerful tail._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/246
-
+**Sources:** Bestiary 3 pg 246\
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

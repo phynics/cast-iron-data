@@ -45,8 +45,7 @@ its mouth._
 
 **Perception:** +5
 
-**source:** Mythic Adventures/198
-
+**Sources:** Mythic Adventures pg 198\
 **Subtype:** Earth, Mythic
 
 **Experience points:** 1,600

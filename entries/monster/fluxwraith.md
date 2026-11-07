@@ -45,8 +45,7 @@ encircle it, each fragment reflecting younger or older versions of itself._
 
 **Perception:** +37
 
-**source:** Pathfinder \#126: Beyond the Veiled Past/86
-
+**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 86\
 **Subtype:** Incorporeal
 
 **Type:** undead

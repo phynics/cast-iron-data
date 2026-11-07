@@ -44,8 +44,7 @@ and its whole body sizzles with acidic slime as it slides forward through meltin
 
 **Perception:** +21
 
-**source:** Misfit Monsters Redeemed/15
-
+**Sources:** Misfit Monsters Redeemed pg 15\
 **Subtype:** Earth
 
 **tremorsense:** 60

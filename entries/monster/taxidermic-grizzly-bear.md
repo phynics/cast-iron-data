@@ -43,8 +43,7 @@ crisscross its body._
 
 **Perception:** +0
 
-**source:** Bestiary 5/240
-
+**Sources:** Bestiary 5 pg 240\
 **Experience points:** 800
 
 **Armor class:** 12/9/12

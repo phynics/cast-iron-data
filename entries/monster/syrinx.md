@@ -47,8 +47,7 @@ detachment of the owl it resembles._
 
 **Perception:** +3 (+5 at night)
 
-**source:** Inner Sea Bestiary/51
-
+**Sources:** Inner Sea Bestiary pg 51\
 **Experience points:** 135
 
 **Armor class:** 9/9/9

@@ -45,8 +45,7 @@ horned ape._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
-**source:** Bestiary 2/65
-
+**Sources:** Bestiary 2 pg 65\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 2,400

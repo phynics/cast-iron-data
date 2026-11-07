@@ -43,8 +43,7 @@ where its mane should be._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/22;Pathfinder \#14: Children of the Void/80
-
+**Sources:** Bestiary 2 pg 22, Pathfinder \#14: Children of the Void pg 80\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

@@ -46,8 +46,7 @@ childlike horror._
 
 **Size:** small
 
-**source:** Bestiary 3/63
-
+**Sources:** Bestiary 3 pg 63\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 1,200

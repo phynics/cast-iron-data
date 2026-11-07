@@ -45,8 +45,7 @@ at the ends of its swaying necks._
 
 **Perception:** +23
 
-**source:** Magnimar, City of Monuments/62
-
+**Sources:** Magnimar, City of Monuments pg 62\
 **Experience points:** 38,400
 
 **Armor class:** 29/9/26

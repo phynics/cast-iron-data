@@ -50,8 +50,7 @@ glows with an unrivaled ferocity._
 
 **Senses:** See invisibility
 
-**source:** Construct Handbook/22
-
+**Sources:** Construct Handbook pg 22\
 **Subtype:** Extraplanar
 
 **Experience points:** 9,600

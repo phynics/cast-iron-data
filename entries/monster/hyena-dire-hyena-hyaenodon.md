@@ -42,8 +42,7 @@ _This large hyena has a thick head, rheumy red eyes, and a mouth filled with sha
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/179
-
+**Sources:** Pathfinder RPG Bestiary pg 179\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

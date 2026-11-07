@@ -44,8 +44,7 @@ glistens with thick, clear slime._
 
 **Perception:** +14
 
-**source:** Pathfinder RPG Bestiary/8
-
+**Sources:** Pathfinder RPG Bestiary pg 8\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

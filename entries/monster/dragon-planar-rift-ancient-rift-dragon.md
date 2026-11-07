@@ -45,8 +45,7 @@ _This dark-scaled dragon has massive claws, and foul-smelling acid drips from it
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 6/107
-
+**Sources:** Bestiary 6 pg 107\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 409,600

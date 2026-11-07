@@ -43,8 +43,7 @@ _Eight tentacles ending in claws grow from the base of this glistening and grues
 
 **Size:** small
 
-**source:** Occult Bestiary/26
-
+**Sources:** Occult Bestiary pg 26\
 **Experience points:** 9,600
 
 **Armor class:** 25/19/17

@@ -46,8 +46,7 @@ wears leather armor._
 
 **Size:** small
 
-**source:** Bestiary 2/149
-
+**Sources:** Bestiary 2 pg 149\
 **Subtype:** Grippli
 
 **Experience points:** 200

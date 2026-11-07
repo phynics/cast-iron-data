@@ -43,8 +43,7 @@ _This slime-covered serpentine creature has a humanoid head resembling that of a
 
 **Perception:** +16
 
-**source:** Bestiary 6/199;Pathfinder \#100: A Song of Silver/118
-
+**Sources:** Bestiary 6 pg 199, Pathfinder \#100: A Song of Silver pg 118\
 **Experience points:** 6,400
 
 **Armor class:** 24/14/19

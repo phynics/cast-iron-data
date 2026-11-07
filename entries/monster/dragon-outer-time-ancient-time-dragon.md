@@ -46,8 +46,7 @@ abilities = ["38", "11", "28", "23", "22", "23"]
 
 **Sense:** Sid
 
-**source:** Bestiary 4/71
-
+**Sources:** Bestiary 4 pg 71\
 **Experience points:** 307,200
 
 **Armor class:** 37/6/37

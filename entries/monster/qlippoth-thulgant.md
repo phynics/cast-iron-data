@@ -48,8 +48,7 @@ eyes, and three whipping stingers._
 
 **Senses:** True seeing
 
-**source:** Bestiary 2/226
-
+**Sources:** Bestiary 2 pg 226\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 153,600

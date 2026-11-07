@@ -42,8 +42,7 @@ charged with bolts of lightning._
 
 **Size:** small
 
-**source:** Bestiary 2/116
-
+**Sources:** Bestiary 2 pg 116\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 400
@@ -140,8 +139,7 @@ stink of ozone.
 
 **Perception:** +7
 
-**source:** Bestiary 2/116
-
+**Sources:** Bestiary 2 pg 116\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 800
@@ -202,8 +200,7 @@ Bonus feat.
 
 **Perception:** +11
 
-**source:** Bestiary 2/116
-
+**Sources:** Bestiary 2 pg 116\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 1,600
@@ -270,8 +267,7 @@ Bonus feat.
 
 **Perception:** +13
 
-**source:** Bestiary 2/116
-
+**Sources:** Bestiary 2 pg 116\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 3,200
@@ -338,8 +334,7 @@ Bonus feat.
 
 **Perception:** +16
 
-**source:** Bestiary 2/117
-
+**Sources:** Bestiary 2 pg 117\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 6,400
@@ -408,8 +403,7 @@ Bonus feat.
 
 **Perception:** +19
 
-**source:** Bestiary 2/117
-
+**Sources:** Bestiary 2 pg 117\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 12,800

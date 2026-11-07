@@ -51,8 +51,7 @@ tail._
 
 **Senses:** True seeing
 
-**source:** Bestiary 6/108
-
+**Sources:** Bestiary 6 pg 108\
 **Experience points:** 1,228,800
 
 **Armor class:** 42/14/30

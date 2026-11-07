@@ -41,8 +41,7 @@ a deformed spider._
 
 **Perception:** +4
 
-**source:** Bestiary 2/59
-
+**Sources:** Bestiary 2 pg 59\
 **Type:** undead
 
 **Experience points:** 200

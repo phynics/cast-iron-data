@@ -51,8 +51,7 @@ flaming scimitars and a bow._
 
 **Perception:** +24
 
-**source:** Inner Sea Gods/306;Pathfinder \#20: House of the Beast/86
-
+**Sources:** Inner Sea Gods pg 306, Pathfinder \#20: House of the Beast pg 86\
 **Subtype:** Angel, Extraplanar, Good, Shapechanger
 
 **Experience points:** 51,200

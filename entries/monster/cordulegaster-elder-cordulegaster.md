@@ -42,8 +42,7 @@ _The insectile eyes of this chitin-covered daemonic monstrosity display a malign
 
 **Perception:** +16
 
-**source:** Pathfinder \#98: Turn of the Torrent/83
-
+**Sources:** Pathfinder \#98: Turn of the Torrent pg 83\
 **Subtype:** Aquatic, Daemon, Evil, Extraplanar
 
 **Experience points:** 3,200

@@ -43,8 +43,7 @@ rock._
 
 **Perception:** +31
 
-**source:** Bestiary 5/195
-
+**Sources:** Bestiary 5 pg 195\
 **Subtype:** Aquatic, Earth
 
 **tremorsense:** 120

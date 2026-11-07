@@ -42,8 +42,7 @@ _Deadly, wolf like teeth fill the mouth of this brawny fish._
 
 **Perception:** +8
 
-**source:** Pathfinder \#56: Raiders of the Fever Sea/82
-
+**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 400

@@ -42,8 +42,7 @@ textured like the surface a brain._
 
 **Perception:** +8
 
-**source:** Bestiary 4/157;Pathfinder \#55: The Wormwood Mutiny/84
-
+**Sources:** Bestiary 4 pg 157, Pathfinder \#55: The Wormwood Mutiny pg 84\
 **Subtype:** Aquatic
 
 **Size:** tiny

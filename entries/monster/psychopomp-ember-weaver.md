@@ -50,8 +50,7 @@ shape._
 
 **Senses:** Spiritsense 60 ft.
 
-**source:** Monster Summoner's Handbook/25
-
+**Sources:** Monster Summoner's Handbook pg 25\
 **Subtype:** Psychopomp, Extraplanar
 
 **Experience points:** 4,800

@@ -43,8 +43,7 @@ extend from its sides._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/223
-
+**Sources:** Pathfinder RPG Bestiary pg 223\
 **Experience points:** 1,200
 
 **Armor class:** 17/9/17

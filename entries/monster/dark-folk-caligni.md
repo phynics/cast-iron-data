@@ -46,8 +46,7 @@ _Beneath ragged shreds, this lean figure's chalky skin darkens to charred hues a
 
 **Sense:** Sid
 
-**source:** Bestiary 5/66
-
+**Sources:** Bestiary 5 pg 66\
 **Subtype:** Dark folk
 
 **Experience points:** 200

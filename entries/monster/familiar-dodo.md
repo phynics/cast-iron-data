@@ -41,8 +41,8 @@ beak._
 
 **Size:** small
 
-**source:** Ultimate Wilderness/194;Pathfinder \#55: The Wormwood Mutiny/88;Bestiary 4/96
-
+**Sources:** Ultimate Wilderness pg 194, Pathfinder \#55: The Wormwood Mutiny pg 88, Bestiary 4 pg
+96\
 **Experience points:** 100
 
 **Armor class:** 11/11/11

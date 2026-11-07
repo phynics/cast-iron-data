@@ -41,8 +41,7 @@ writhes with unholy life._
 
 **Perception:** +8
 
-**source:** Pathfinder RPG Bestiary/245
-
+**Sources:** Pathfinder RPG Bestiary pg 245\
 **Subtype:** Incorporeal
 
 **Type:** undead

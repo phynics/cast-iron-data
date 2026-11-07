@@ -48,8 +48,7 @@ _This beast has the general size and shape of a great bear, yet the head and fea
 
 **Sense:** Scent
 
-**source:** Mythic Adventures/213
-
+**Sources:** Mythic Adventures pg 213\
 **Subtype:** Mythic
 
 **Experience points:** 1,600

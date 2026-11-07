@@ -44,8 +44,7 @@ cords of thick webbing between them._
 
 **Perception:** +10
 
-**source:** Pathfinder \#45: Broken Moon/86
-
+**Sources:** Pathfinder \#45: Broken Moon pg 86\
 **tremorsense:** 30
 
 **Experience points:** 4,800

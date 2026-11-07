@@ -47,8 +47,7 @@ creature's body, leaking a steady stream of putrescent slime._
 
 **Perception:** -4
 
-**source:** Pathfinder \#93: Forge of the Giant God/84
-
+**Sources:** Pathfinder \#93: Forge of the Giant God pg 84\
 **tremorsense:** 90
 
 **Experience points:** 3,200
@@ -217,8 +216,7 @@ stories go on to describe guardians with powerful abilities.
 
 **Perception:** -4
 
-**source:** Pathfinder \#93: Forge of the Giant God/84
-
+**Sources:** Pathfinder \#93: Forge of the Giant God pg 84\
 **tremorsense:** 90
 
 **Experience points:** 3,200

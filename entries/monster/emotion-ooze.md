@@ -44,8 +44,7 @@ _This viscous blob of brightly colored goo quivers and pulses in a curious manne
 
 **Perception:** +2
 
-**source:** Bestiary 5/108
-
+**Sources:** Bestiary 5 pg 108\
 **Experience points:** 2,400
 
 **Armor class:** 13/13/13

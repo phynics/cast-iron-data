@@ -40,8 +40,7 @@ protrudes from its head._
 
 **Perception:** +0
 
-**source:** Bestiary 3/17;Bonus Bestiary/5
-
+**Sources:** Bestiary 3 pg 17, Bonus Bestiary pg 5\
 **tremorsense:** 60
 
 **Type:** vermin

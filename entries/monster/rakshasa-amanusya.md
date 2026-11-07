@@ -44,8 +44,7 @@ long, lolling tongue._
 
 **Perception:** +11
 
-**source:** Occult Bestiary/48
-
+**Sources:** Occult Bestiary pg 48\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 2,400

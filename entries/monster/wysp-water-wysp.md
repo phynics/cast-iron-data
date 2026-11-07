@@ -43,8 +43,7 @@ _This sphere of elemental matter emits a strange hum that resonates with element
 
 **Perception:** +7
 
-**source:** Bestiary 5/283
-
+**Sources:** Bestiary 5 pg 283\
 **Subtype:** Elemental, Water
 
 **Size:** tiny

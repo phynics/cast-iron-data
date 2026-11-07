@@ -46,8 +46,7 @@ and arms display glowing runes._
 
 **Perception:** +9
 
-**source:** Bestiary 2/113
-
+**Sources:** Bestiary 2 pg 113\
 **Subtype:** Extraplanar
 
 **Experience points:** 800

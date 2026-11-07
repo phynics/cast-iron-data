@@ -45,8 +45,7 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Perception:** +19
 
-**source:** Monster Codex/39
-
+**Sources:** Monster Codex pg 39\
 **Subtype:** Elf
 
 **Experience points:** 51,200

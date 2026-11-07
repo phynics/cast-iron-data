@@ -47,8 +47,7 @@ coil and writhe beneath it._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/202
-
+**Sources:** Bestiary 6 pg 202\
 **Experience points:** 307,200
 
 **Aav:** present

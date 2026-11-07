@@ -50,8 +50,7 @@ maw with a red eye in its throat._
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Pathfinder \#64: Beyond the Doomsday Door/66
-
+**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 66\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 1,228,800

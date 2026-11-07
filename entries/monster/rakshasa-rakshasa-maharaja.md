@@ -46,8 +46,7 @@ backward-facing hands._
 
 **Perception:** +31
 
-**source:** Bestiary 3/226;Pathfinder \#9: Escape from Old Korvosa/86
-
+**Sources:** Bestiary 3 pg 226, Pathfinder \#9: Escape from Old Korvosa pg 86\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 307,200

@@ -39,8 +39,8 @@ eyes staring out from the chaos._
 
 **Perception:** +6
 
-**source:** Rise of the Runelords Anniversary Edition/408;Pathfinder \#2: The Skinsaw Murders/83
-
+**Sources:** Rise of the Runelords Anniversary Edition pg 408, Pathfinder \#2: The Skinsaw Murders
+pg 83\
 **Subtype:** Swarm
 
 **Size:** tiny

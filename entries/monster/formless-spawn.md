@@ -46,8 +46,7 @@ into a dark gullet._
 
 **Perception:** +13
 
-**source:** Pathfinder \#111: Dreams of the Yellow King/82
-
+**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 82\
 **tremorsense:** 240
 
 **Experience points:** 9,600

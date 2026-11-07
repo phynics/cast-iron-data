@@ -48,8 +48,7 @@ look upon._
 
 **Perception:** +20
 
-**source:** Mythic Adventures/195
-
+**Sources:** Mythic Adventures pg 195\
 **Subtype:** Elemental, Extraplanar, Fire, Mythic
 
 **Experience points:** 38,400

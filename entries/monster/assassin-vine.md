@@ -45,8 +45,7 @@ ground in an unnatural slither._
 
 **Type:** plant
 
-**source:** Pathfinder RPG Bestiary/22
-
+**Sources:** Pathfinder RPG Bestiary pg 22\
 **Experience points:** 800
 
 **Armor class:** 15/9/15

@@ -39,8 +39,7 @@ hands, and a mischievous grin._
 
 **Perception:** -1
 
-**source:** Bestiary 6/80
-
+**Sources:** Bestiary 6 pg 80\
 **Size:** tiny
 
 **Experience points:** 1,600

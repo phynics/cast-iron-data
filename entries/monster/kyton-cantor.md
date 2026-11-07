@@ -43,8 +43,7 @@ musculature. Its eyes burn with a red glow._
 
 **Size:** small
 
-**source:** Occult Bestiary/30
-
+**Sources:** Occult Bestiary pg 30\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 6,400

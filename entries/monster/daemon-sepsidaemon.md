@@ -47,8 +47,7 @@ and then, a grasping claw extends forth._
 
 **Sense:** Scent
 
-**source:** Book of the Damned/243
-
+**Sources:** Book of the Damned pg 243\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 3,200

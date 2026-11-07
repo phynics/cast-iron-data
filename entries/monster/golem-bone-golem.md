@@ -44,8 +44,7 @@ sinew._
 
 **Perception:** +0
 
-**source:** Bestiary 3/133
-
+**Sources:** Bestiary 3 pg 133\
 **Experience points:** 4,800
 
 **Armor class:** 21/11/19

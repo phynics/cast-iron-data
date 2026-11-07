@@ -48,8 +48,7 @@ thing's reptilian head._
 
 **Perception:** +33
 
-**source:** Bestiary 2/215;The Great Beyond - A Guide to the Multiverse/60
-
+**Sources:** Bestiary 2 pg 215, The Great Beyond - A Guide to the Multiverse pg 60\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 102,400

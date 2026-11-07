@@ -47,8 +47,7 @@ darkness._
 
 **Size:** small
 
-**source:** Pathfinder \#109: In Search of Sanity/84
-
+**Sources:** Pathfinder \#109: In Search of Sanity pg 84\
 **Experience points:** 600
 
 **Armor class:** 16/15/12

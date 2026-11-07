@@ -42,8 +42,7 @@ tiny bull._
 
 **Size:** small
 
-**source:** Pathfinder \#91: Battle of Bloodmarch Hills/82
-
+**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 82\
 **Experience points:** 200
 
 **Armor class:** 13/13/11

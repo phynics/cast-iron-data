@@ -48,8 +48,7 @@ with crystals._
 
 **Perception:** +8
 
-**source:** Giants Revisited/50
-
+**Sources:** Giants Revisited pg 50\
 **Subtype:** Giant
 
 **tremorsense:** 30

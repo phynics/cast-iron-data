@@ -40,8 +40,7 @@ it spies prey._
 
 **Perception:** +4
 
-**source:** Bestiary 2/53
-
+**Sources:** Bestiary 2 pg 53\
 **Type:** vermin
 
 **Experience points:** 6,400

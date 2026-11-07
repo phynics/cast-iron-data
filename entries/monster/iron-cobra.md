@@ -44,8 +44,7 @@ its eyes are pinpoints of red light._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/182
-
+**Sources:** Pathfinder RPG Bestiary pg 182\
 **Experience points:** 600
 
 **Armor class:** 20/13/18

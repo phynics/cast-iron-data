@@ -47,8 +47,7 @@ abilities = ["20", "16", "20", "13", "12", "10"]
 
 **Perception:** +16
 
-**source:** Monster Codex/195
-
+**Sources:** Monster Codex pg 195\
 **Subtype:** Aquatic
 
 **Experience points:** 25,600

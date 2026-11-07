@@ -41,8 +41,7 @@ buttocks._
 
 **Size:** small
 
-**source:** Bestiary 2/212
-
+**Sources:** Bestiary 2 pg 212\
 **Experience points:** 200
 
 **Armor class:** 13/13/11

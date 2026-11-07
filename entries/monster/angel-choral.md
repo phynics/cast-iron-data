@@ -48,8 +48,7 @@ slowly ripples through the air._
 
 **Size:** small
 
-**source:** Bestiary 5/23;Chronicle of the Righteous/60
-
+**Sources:** Bestiary 5 pg 23, Chronicle of the Righteous pg 60\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 2,400

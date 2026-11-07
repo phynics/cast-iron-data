@@ -44,8 +44,7 @@ _A cloud of crimson vapor reeking of fresh blood hangs in the air, reaching out 
 
 **Senses:** Sense blood
 
-**source:** Bestiary 2/277
-
+**Sources:** Bestiary 2 pg 277\
 **Subtype:** Air, Water
 
 **Experience points:** 800

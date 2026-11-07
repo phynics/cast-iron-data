@@ -51,8 +51,7 @@ cunning._
 
 **Senses:** Detect good, True seeing
 
-**source:** Bestiary 6/162
-
+**Sources:** Bestiary 6 pg 162\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 9,830,400

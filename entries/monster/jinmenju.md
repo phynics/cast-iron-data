@@ -48,8 +48,7 @@ look vaguely like human heads._
 
 **Type:** plant
 
-**source:** Bestiary 4/161;Pathfinder \#54: The Empty Throne/86
-
+**Sources:** Bestiary 4 pg 161, Pathfinder \#54: The Empty Throne pg 86\
 **Experience points:** 12,800
 
 **Armor class:** 25/7/25

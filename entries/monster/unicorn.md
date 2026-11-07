@@ -48,8 +48,7 @@ horn on its brow._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/269
-
+**Sources:** Pathfinder RPG Bestiary pg 269\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

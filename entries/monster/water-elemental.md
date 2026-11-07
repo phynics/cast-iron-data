@@ -41,8 +41,7 @@ _This translucent creature's shape shifts between a spinning column of water and
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/126
-
+**Sources:** Pathfinder RPG Bestiary pg 126\
 **Subtype:** Elemental, Extraplanar, Water
 
 **Experience points:** 400
@@ -145,8 +144,7 @@ out of water.
 
 **Perception:** +5
 
-**source:** Pathfinder RPG Bestiary/126
-
+**Sources:** Pathfinder RPG Bestiary pg 126\
 **Subtype:** Elemental, Extraplanar, Water
 
 **Experience points:** 800
@@ -204,8 +202,7 @@ out of water.
 
 **Perception:** +9
 
-**source:** Pathfinder RPG Bestiary/126
-
+**Sources:** Pathfinder RPG Bestiary pg 126\
 **Subtype:** Elemental, Extraplanar, Water
 
 **Experience points:** 1,600
@@ -269,8 +266,7 @@ out of water.
 
 **Perception:** +13
 
-**source:** Pathfinder RPG Bestiary/126
-
+**Sources:** Pathfinder RPG Bestiary pg 126\
 **Subtype:** Elemental, Extraplanar, Water
 
 **Experience points:** 3,200
@@ -334,8 +330,7 @@ Swim +26
 
 **Perception:** +16
 
-**source:** Pathfinder RPG Bestiary/127
-
+**Sources:** Pathfinder RPG Bestiary pg 127\
 **Subtype:** Elemental, Extraplanar, Water
 
 **Experience points:** 6,400
@@ -400,8 +395,7 @@ Swim +30
 
 **Perception:** +19
 
-**source:** Pathfinder RPG Bestiary/127
-
+**Sources:** Pathfinder RPG Bestiary pg 127\
 **Subtype:** Elemental, Extraplanar, Water
 
 **Experience points:** 12,800

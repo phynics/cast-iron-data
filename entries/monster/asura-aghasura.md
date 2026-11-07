@@ -47,8 +47,7 @@ which wields a scimitar._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/22
-
+**Sources:** Bestiary 3 pg 22\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 12,800

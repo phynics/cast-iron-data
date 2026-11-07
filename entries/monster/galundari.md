@@ -51,8 +51,7 @@ a whip of flames._
 
 **Senses:** True seeing
 
-**source:** Demons Revisited/14
-
+**Sources:** Demons Revisited pg 14\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,638,400

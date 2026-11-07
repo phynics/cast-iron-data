@@ -45,8 +45,7 @@ _This majestic dragon seems to shimmer as if surrounded by thousands of eddies o
 
 **Senses:** See invisibility
 
-**source:** Bestiary 5/88
-
+**Sources:** Bestiary 5 pg 88\
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

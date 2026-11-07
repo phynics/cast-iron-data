@@ -43,8 +43,7 @@ independently from its sickly host._
 
 **Size:** small
 
-**source:** Bestiary 3/122
-
+**Sources:** Bestiary 3 pg 122\
 **Experience points:** 600
 
 **Armor class:** 14/14/11

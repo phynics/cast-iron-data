@@ -45,8 +45,7 @@ _Thin veins of black rock crisscross the frame of this hulking construct._
 
 **Perception:** +0
 
-**source:** Inner Sea Bestiary/17
-
+**Sources:** Inner Sea Bestiary pg 17\
 **Experience points:** 4,800
 
 **Armor class:** 21/9/21

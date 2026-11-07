@@ -43,8 +43,7 @@ tail that it uses to propel itself through the water._
 
 **Perception:** +11
 
-**source:** Pathfinder \#58: Island of Empty Eyes/85
-
+**Sources:** Pathfinder \#58: Island of Empty Eyes pg 85\
 **Experience points:** 800
 
 **Armor class:** 14/10/13

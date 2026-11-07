@@ -45,8 +45,7 @@ legs, its eyes intermittently shining with an orange glow._
 
 **Size:** small
 
-**source:** Pathfinder \#62: Curse of the Lady's Light/90
-
+**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 90\
 **Experience points:** 800
 
 **Armor class:** 18/14/15

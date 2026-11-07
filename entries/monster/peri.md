@@ -46,8 +46,7 @@ _This beautiful albino woman is wreathed in wings of brilliant flame._
 
 **Senses:** Smoke sight
 
-**source:** Bestiary 3/218
-
+**Sources:** Bestiary 3 pg 218\
 **Subtype:** Good, Native
 
 **Experience points:** 38,400

@@ -40,8 +40,7 @@ _This shadowy figure sways and moves with an erratic grace, as if lit by an unse
 
 **Perception:** +13
 
-**source:** Pathfinder RPG Bestiary/245
-
+**Sources:** Pathfinder RPG Bestiary pg 245\
 **Subtype:** Incorporeal
 
 **Type:** undead

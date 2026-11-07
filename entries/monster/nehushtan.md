@@ -43,8 +43,7 @@ unseen light._
 
 **Perception:** +8
 
-**source:** Pathfinder \#107: Scourge of the Godclaw/86
-
+**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 86\
 **Size:** tiny
 
 **Experience points:** 600

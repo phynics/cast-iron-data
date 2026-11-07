@@ -45,8 +45,7 @@ elegantly toward the sky._
 
 **Type:** plant
 
-**source:** Gallows of Madness/58
-
+**Sources:** Gallows of Madness pg 58\
 **Experience points:** 600
 
 **Armor class:** 13/13/10

@@ -46,8 +46,7 @@ currents on its fan-like tail._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/56
-
+**Sources:** Bestiary 5 pg 56\
 **Subtype:** Air
 
 **Size:** tiny

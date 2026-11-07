@@ -44,8 +44,7 @@ decorated with shells._
 
 **Size:** small
 
-**source:** Bestiary 3/201;Bonus Bestiary/15
-
+**Sources:** Bestiary 3 pg 201, Bonus Bestiary pg 15\
 **Subtype:** Aquatic
 
 **Experience points:** 400

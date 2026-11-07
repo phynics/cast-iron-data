@@ -43,8 +43,7 @@ shadow seems strangely mobile._
 
 **Perception:** +14
 
-**source:** Bestiary 2/260
-
+**Sources:** Bestiary 2 pg 260\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

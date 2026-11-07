@@ -46,8 +46,7 @@ tail._
 
 **Size:** small
 
-**source:** Bestiary 3/231
-
+**Sources:** Bestiary 3 pg 231\
 **Subtype:** Ratfolk
 
 **Experience points:** 135

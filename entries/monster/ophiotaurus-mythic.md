@@ -50,8 +50,7 @@ hooves._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/185
-
+**Sources:** Bestiary 5 pg 185\
 **Subtype:** Mythic
 
 **Experience points:** 102,400

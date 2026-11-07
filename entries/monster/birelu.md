@@ -48,8 +48,7 @@ covered in patches of sleek black fur._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#94: Ice Tomb of the Giant Queen/82
-
+**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 82\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 9,600

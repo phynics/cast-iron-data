@@ -44,8 +44,7 @@ dripping tumorous face._
 
 **Sense:** Sid
 
-**source:** Pathfinder RPG Bestiary/79
-
+**Sources:** Pathfinder RPG Bestiary pg 79\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 400

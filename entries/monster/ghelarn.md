@@ -43,8 +43,7 @@ surrounding sand._
 
 **Perception:** +10
 
-**source:** Pathfinder \#85: Fires of Creation/86
-
+**Sources:** Pathfinder \#85: Fires of Creation pg 86\
 **tremorsense:** 30
 
 **Experience points:** 600

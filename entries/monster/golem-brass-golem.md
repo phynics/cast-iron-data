@@ -46,8 +46,7 @@ sword in its metal fists._
 
 **Senses:** See invisibility
 
-**source:** Bestiary 3/134;Pathfinder \#24: The Final Wish/84
-
+**Sources:** Bestiary 3 pg 134, Pathfinder \#24: The Final Wish pg 84\
 **Experience points:** 38,400
 
 **Armor class:** 30/8/30

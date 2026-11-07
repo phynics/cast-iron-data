@@ -44,8 +44,7 @@ three eyes, and one huge mouth._
 
 **Perception:** +14
 
-**source:** Pathfinder RPG Bestiary/284
-
+**Sources:** Pathfinder RPG Bestiary pg 284\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 60

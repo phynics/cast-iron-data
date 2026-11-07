@@ -40,8 +40,7 @@ virtual wall of stinging tentacles._
 
 **Perception:** +0
 
-**source:** Bestiary 2/170
-
+**Sources:** Bestiary 2 pg 170\
 **Subtype:** Aquatic, Swarm
 
 **Type:** vermin

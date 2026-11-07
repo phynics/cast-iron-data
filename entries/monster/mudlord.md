@@ -44,8 +44,7 @@ mud._
 
 **Perception:** +13
 
-**source:** Bestiary 4/195
-
+**Sources:** Bestiary 4 pg 195\
 **Subtype:** Earth, Elemental, Water
 
 **tremorsense:** 30

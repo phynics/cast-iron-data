@@ -44,8 +44,7 @@ icy stingers._
 
 **Perception:** +24
 
-**source:** Bestiary 6/45
-
+**Sources:** Bestiary 6 pg 45\
 **Subtype:** Blight, Cold
 
 **Experience points:** 76,800

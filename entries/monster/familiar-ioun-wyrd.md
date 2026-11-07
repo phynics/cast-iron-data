@@ -40,8 +40,7 @@ pulses with dim light._
 
 **Perception:** +2
 
-**source:** Ultimate Wilderness/197;Familiar Folio/30
-
+**Sources:** Ultimate Wilderness pg 197, Familiar Folio pg 30\
 **Size:** tiny
 
 **Experience points:** 135

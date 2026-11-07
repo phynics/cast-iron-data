@@ -50,8 +50,7 @@ scaled, scarred, and blackened._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/20
-
+**Sources:** Bestiary 6 pg 20\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 4,915,200

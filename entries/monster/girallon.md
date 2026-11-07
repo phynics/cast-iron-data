@@ -45,8 +45,7 @@ to its full, towering height._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/154
-
+**Sources:** Pathfinder RPG Bestiary pg 154\
 **Experience points:** 2,400
 
 **Armor class:** 18/12/15

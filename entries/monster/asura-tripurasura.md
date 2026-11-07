@@ -43,8 +43,7 @@ glow like rubies._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 3/24
-
+**Sources:** Bestiary 3 pg 24\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Size:** tiny

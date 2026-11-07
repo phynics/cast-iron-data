@@ -48,8 +48,7 @@ resembling a starry night sky._
 
 **Size:** small
 
-**source:** Inner Sea Gods/285
-
+**Sources:** Inner Sea Gods pg 285\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger
 
 **Experience points:** 1,200

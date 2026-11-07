@@ -48,8 +48,7 @@ tail tipped with four bony spikes._
 
 **Perception:** +34
 
-**source:** Bestiary 6/170
-
+**Sources:** Bestiary 6 pg 170\
 **Subtype:** Fire, Kaiju
 
 **tremorsense:** 300

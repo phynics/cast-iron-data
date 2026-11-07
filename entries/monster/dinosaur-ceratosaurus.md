@@ -42,8 +42,7 @@ _Blade-like horns jut from the snout and eye ridges of this toothy, bipedal dino
 
 **Sense:** Scent
 
-**source:** Bestiary 5/83
-
+**Sources:** Bestiary 5 pg 83\
 **Experience points:** 1,600
 
 **Armor class:** 18/11/16

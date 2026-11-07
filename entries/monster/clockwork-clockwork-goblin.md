@@ -46,8 +46,7 @@ dogslicer._
 
 **Size:** small
 
-**source:** Construct Handbook/32
-
+**Sources:** Construct Handbook pg 32\
 **Subtype:** Clockwork
 
 **Experience points:** 800

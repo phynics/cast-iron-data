@@ -49,8 +49,7 @@ compact crossbow bolt launcher._
 
 **Perception:** +0 (+20 in sentinel mode)
 
-**source:** Bestiary 6/59
-
+**Sources:** Bestiary 6 pg 59\
 **Subtype:** Clockwork
 
 **Experience points:** 25,600

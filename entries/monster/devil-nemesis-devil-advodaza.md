@@ -45,8 +45,7 @@ _This ancient monstrosity has the torso of a massively muscled giant._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#30: The Twice-Damned Prince/80;Bestiary 4/54
-
+**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 80, Bestiary 4 pg 54\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 153,600

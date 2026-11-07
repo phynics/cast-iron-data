@@ -47,8 +47,7 @@ ground._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/237
-
+**Sources:** Bestiary 4 pg 237\
 **Experience points:** 12,800
 
 **Armor class:** 26/10/24

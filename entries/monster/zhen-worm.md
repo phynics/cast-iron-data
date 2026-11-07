@@ -37,8 +37,7 @@ _Barely thicker than hempen rope, this orange-banded worm stretches many feet in
 
 **Perception:** +0
 
-**source:** Numeria, Land of Fallen Stars/63
-
+**Sources:** Numeria, Land of Fallen Stars pg 63\
 **tremorsense:** 60
 
 **Type:** vermin

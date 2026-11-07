@@ -50,8 +50,7 @@ eyes glow with a blue light._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/32
-
+**Sources:** Bestiary 3 pg 32\
 **Experience points:** 102,400
 
 **Armor class:** 33/13/26

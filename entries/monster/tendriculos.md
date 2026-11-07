@@ -41,8 +41,7 @@ ravenous purple maw._
 
 **Type:** plant
 
-**source:** Bestiary 2/259
-
+**Sources:** Bestiary 2 pg 259\
 **Experience points:** 2,400
 
 **Armor class:** 19/7/19

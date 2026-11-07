@@ -44,8 +44,7 @@ red-eyed serpent._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 3/229;Pathfinder \#7: Edge of Anarchy/86
-
+**Sources:** Bestiary 3 pg 229, Pathfinder \#7: Edge of Anarchy pg 86\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Size:** tiny

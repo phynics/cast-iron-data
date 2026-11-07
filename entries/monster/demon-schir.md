@@ -44,8 +44,7 @@ muscled frame._
 
 **Senses:** See invisibility
 
-**source:** Bestiary 3/74
-
+**Sources:** Bestiary 3 pg 74\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,200

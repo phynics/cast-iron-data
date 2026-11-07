@@ -46,8 +46,7 @@ pharaoh._
 
 **Perception:** +16
 
-**source:** Mythic Adventures/211
-
+**Sources:** Mythic Adventures pg 211\
 **Subtype:** Mythic
 
 **Type:** undead

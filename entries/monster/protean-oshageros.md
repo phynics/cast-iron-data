@@ -48,8 +48,7 @@ its back._
 
 **Senses:** Detect law
 
-**source:** Bestiary 6/212
-
+**Sources:** Bestiary 6 pg 212\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 25,600

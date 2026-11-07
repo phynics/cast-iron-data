@@ -52,8 +52,7 @@ tumors and writing tentacles._
 
 **Senses:** True seeing
 
-**source:** Bestiary 4/76
-
+**Sources:** Bestiary 4 pg 76\
 **Subtype:** Mythic
 
 **Experience points:** 1,638,400

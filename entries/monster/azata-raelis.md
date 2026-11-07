@@ -43,8 +43,7 @@ glowing runes._
 
 **Perception:** +16
 
-**source:** Bestiary 5/39;Pathfinder \#66: The Dead Heart of Xin/84
-
+**Sources:** Bestiary 5 pg 39, Pathfinder \#66: The Dead Heart of Xin pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 9,600

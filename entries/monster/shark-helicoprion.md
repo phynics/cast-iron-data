@@ -46,8 +46,7 @@ brutal farther out._
 
 **Perception:** +12
 
-**source:** Pathfinder \#57: Tempest Rising/85
-
+**Sources:** Pathfinder \#57: Tempest Rising pg 85\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

@@ -47,8 +47,7 @@ eyes._
 
 **Perception:** +19
 
-**source:** Planes of Power/63
-
+**Sources:** Planes of Power pg 63\
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 9,600

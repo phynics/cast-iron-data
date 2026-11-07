@@ -43,8 +43,7 @@ everything in its path._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/232
-
+**Sources:** Pathfinder RPG Bestiary pg 232\
 **Subtype:** Swarm
 
 **Size:** tiny

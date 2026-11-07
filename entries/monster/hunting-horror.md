@@ -51,8 +51,7 @@ allow the creature to fly._
 
 **Sense:** Sid
 
-**source:** Pathfinder \#113: What Grows Within/88
-
+**Sources:** Pathfinder \#113: What Grows Within pg 88\
 **Experience points:** 38,400
 
 **Armor class:** 29/11/24

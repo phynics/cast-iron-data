@@ -45,8 +45,7 @@ presence._
 
 **Perception:** +13
 
-**source:** Daughters of Fury/54
-
+**Sources:** Daughters of Fury pg 54\
 **Subtype:** Incorporeal, Kami, Native
 
 **Experience points:** 1,200

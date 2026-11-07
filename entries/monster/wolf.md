@@ -43,8 +43,7 @@ white teeth._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/278
-
+**Sources:** Pathfinder RPG Bestiary pg 278\
 **Experience points:** 400
 
 **Armor class:** 14/12/12

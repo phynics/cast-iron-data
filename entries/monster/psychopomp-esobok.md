@@ -51,8 +51,7 @@ _This stout, hunched predator has a ruff of dirty feathers and a crocodilian sku
 
 **Senses:** Detect undead
 
-**source:** Bestiary 6/218;Pathfinder \#80: Empty Graves/84
-
+**Sources:** Bestiary 6 pg 218, Pathfinder \#80: Empty Graves pg 84\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 800

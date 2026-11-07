@@ -43,8 +43,7 @@ tyrannosaur-skulled hands._
 
 **Perception:** +0
 
-**source:** Bestiary 3/136
-
+**Sources:** Bestiary 3 pg 136\
 **Experience points:** 19,200
 
 **Armor class:** 26/9/25

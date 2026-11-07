@@ -41,8 +41,7 @@ _A cloud of translucent humanoid spirits whirls around this ghostly desiccated c
 
 **Perception:** +28
 
-**source:** Bestiary 5/182;Tomb of the Iron Medusa/29
-
+**Sources:** Bestiary 5 pg 182, Tomb of the Iron Medusa pg 29\
 **Subtype:** Incorporeal
 
 **Type:** undead

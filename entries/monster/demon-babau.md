@@ -44,8 +44,7 @@ slimy leather._
 
 **Senses:** See invisibility
 
-**source:** Pathfinder RPG Bestiary/57
-
+**Sources:** Pathfinder RPG Bestiary pg 57\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 2,400

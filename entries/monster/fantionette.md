@@ -48,8 +48,7 @@ arms._
 
 **Size:** small
 
-**source:** Pathfinder \#127: Crownfall/82
-
+**Sources:** Pathfinder \#127: Crownfall pg 82\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 1,200

@@ -42,8 +42,7 @@ creature's tentacles._
 
 **Perception:** +7
 
-**source:** Pathfinder RPG Bestiary/259
-
+**Sources:** Pathfinder RPG Bestiary pg 259\
 **Subtype:** Aquatic
 
 **Experience points:** 400

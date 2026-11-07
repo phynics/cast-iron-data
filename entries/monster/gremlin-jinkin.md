@@ -42,8 +42,7 @@ teeth and glowing, orange eyes._
 
 **Perception:** +6
 
-**source:** Bestiary 2/142;Pathfinder \#19: Howl of the Carrion King/82
-
+**Sources:** Bestiary 2 pg 142, Pathfinder \#19: Howl of the Carrion King pg 82\
 **Size:** tiny
 
 **Experience points:** 400

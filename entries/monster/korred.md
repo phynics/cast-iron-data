@@ -44,8 +44,7 @@ most of its body from view._
 
 **Size:** small
 
-**source:** Bestiary 2/173
-
+**Sources:** Bestiary 2 pg 173\
 **Experience points:** 1,200
 
 **Armor class:** 17/15/13

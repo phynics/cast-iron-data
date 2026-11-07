@@ -48,8 +48,7 @@ her most disturbing feature._
 
 **Senses:** True seeing
 
-**source:** Bestiary 6/84;The Worldwound/48
-
+**Sources:** Bestiary 6 pg 84, The Worldwound pg 48\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Shapechanger
 
 **Experience points:** 102,400

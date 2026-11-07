@@ -45,8 +45,7 @@ claws on its forelegs._
 
 **Size:** small
 
-**source:** Numeria, Land of Fallen Stars/56
-
+**Sources:** Numeria, Land of Fallen Stars pg 56\
 **Subtype:** Robot
 
 **Experience points:** 200

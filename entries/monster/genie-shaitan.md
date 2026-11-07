@@ -43,8 +43,7 @@ _This being resembles a towering human with skin of polished stone and glitterin
 
 **Perception:** +14
 
-**source:** Pathfinder RPG Bestiary/143;Pathfinder \#18: Descent into Midnight/86
-
+**Sources:** Pathfinder RPG Bestiary pg 143, Pathfinder \#18: Descent into Midnight pg 86\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 60

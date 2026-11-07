@@ -45,8 +45,7 @@ spines._
 
 **Sense:** Scent
 
-**source:** Ultimate Wilderness/197
-
+**Sources:** Ultimate Wilderness pg 197\
 **Experience points:** 65
 
 **Armor class:** 16/15/15

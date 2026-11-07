@@ -47,8 +47,7 @@ unholy light._
 
 **Perception:** +5
 
-**source:** Bestiary 5/176;Pathfinder \#84: Pyramid of the Sky Pharaoh/84
-
+**Sources:** Bestiary 5 pg 176, Pathfinder \#84: Pyramid of the Sky Pharaoh pg 84\
 **Type:** undead
 
 **Experience points:** 9,600

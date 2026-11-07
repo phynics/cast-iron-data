@@ -49,8 +49,7 @@ ft., distraction, DC 43), unholy aura (DC 31)
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Bestiary 4/50
-
+**Sources:** Bestiary 4 pg 50\
 **Subtype:** Air, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 9,830,400

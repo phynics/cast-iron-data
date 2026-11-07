@@ -47,8 +47,7 @@ mouth that drips viscous fluid._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/261;Pathfinder \#70: The Frozen Stars/88
-
+**Sources:** Bestiary 5 pg 261, Pathfinder \#70: The Frozen Stars pg 88\
 **tremorsense:** 30
 
 **Experience points:** 9,600

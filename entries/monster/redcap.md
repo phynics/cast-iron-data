@@ -42,8 +42,7 @@ blood-red pointed cap._
 
 **Size:** small
 
-**source:** Bestiary 2/233;Pathfinder \#4: Fortress of the Stone Giants/80
-
+**Sources:** Bestiary 2 pg 233, Pathfinder \#4: Fortress of the Stone Giants pg 80\
 **Experience points:** 2,400
 
 **Armor class:** 20/15/16

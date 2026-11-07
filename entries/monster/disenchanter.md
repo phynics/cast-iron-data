@@ -46,8 +46,7 @@ shimmer with magical energy._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 3/81;Misfit Monsters Redeemed/27
-
+**Sources:** Bestiary 3 pg 81, Misfit Monsters Redeemed pg 27\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

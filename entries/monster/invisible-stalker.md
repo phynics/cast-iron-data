@@ -43,8 +43,7 @@ creature's presence._
 
 **Perception:** +12
 
-**source:** Pathfinder RPG Bestiary/181
-
+**Sources:** Pathfinder RPG Bestiary pg 181\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 3,200

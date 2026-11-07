@@ -46,8 +46,7 @@ _Though obviously a wooden construct, this small, nimble creature moves fluidly 
 
 **Size:** small
 
-**source:** Bestiary 4/280
-
+**Sources:** Bestiary 4 pg 280\
 **Experience points:** 200
 
 **Armor class:** 16/14/13

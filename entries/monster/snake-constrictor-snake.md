@@ -41,8 +41,7 @@ stripes._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/255
-
+**Sources:** Pathfinder RPG Bestiary pg 255\
 **Experience points:** 600
 
 **Armor class:** 15/13/12

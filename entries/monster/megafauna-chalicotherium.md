@@ -43,8 +43,7 @@ legs._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/170;Pathfinder \#91: Battle of Bloodmarch Hills/86
-
+**Sources:** Bestiary 5 pg 170, Pathfinder \#91: Battle of Bloodmarch Hills pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 18/9/18

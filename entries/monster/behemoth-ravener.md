@@ -52,8 +52,7 @@ charges._
 
 **Sense:** Scent
 
-**source:** Pathfinder \#30: The Twice-Damned Prince/78
-
+**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 78\
 **Experience points:** 153,600
 
 **Armor class:** 35/0/35

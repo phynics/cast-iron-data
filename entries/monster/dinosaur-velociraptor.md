@@ -44,8 +44,7 @@ prey._
 
 **Size:** small
 
-**source:** Bestiary 4/59
-
+**Sources:** Bestiary 4 pg 59\
 **Experience points:** 600
 
 **Armor class:** 15/14/12

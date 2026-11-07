@@ -48,8 +48,7 @@ drifts from its gigantic wings._
 
 **Perception:** +29
 
-**source:** Inner Sea Gods/284
-
+**Sources:** Inner Sea Gods pg 284\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 51,200

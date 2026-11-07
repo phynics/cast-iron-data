@@ -45,8 +45,7 @@ armor and weapons seem quite solid._
 
 **Perception:** +17
 
-**source:** Bestiary 6/126;Pathfinder \#75: Demon's Heresy/90
-
+**Sources:** Bestiary 6 pg 126, Pathfinder \#75: Demon's Heresy pg 90\
 **Subtype:** Incorporeal
 
 **Type:** undead

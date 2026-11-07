@@ -45,8 +45,7 @@ _Flickers of light and energy radiate from this awe-inspiring, bird-like creatur
 
 **Senses:** Detect magic, See invisibility
 
-**source:** Bestiary 5/256
-
+**Sources:** Bestiary 5 pg 256\
 **Subtype:** Extraplanar
 
 **Experience points:** 204,800

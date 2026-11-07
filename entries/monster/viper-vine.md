@@ -42,8 +42,7 @@ serpent ready to strike._
 
 **Type:** plant
 
-**source:** Bestiary 2/279
-
+**Sources:** Bestiary 2 pg 279\
 **tremorsense:** 60
 
 **Experience points:** 25,600

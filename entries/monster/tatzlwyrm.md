@@ -44,8 +44,7 @@ end in tiny claws._
 
 **Perception:** +8
 
-**source:** Bestiary 3/261;Pathfinder \#31: Stolen Land/82;Hollow's Last Hope/18
-
+**Sources:** Bestiary 3 pg 261, Pathfinder \#31: Stolen Land pg 82, Hollow's Last Hope pg 18\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

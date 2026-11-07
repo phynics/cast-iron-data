@@ -48,8 +48,7 @@ rotting wings of a carrion bird._
 
 **Senses:** Deathwatch, Detect good
 
-**source:** Bestiary 2/68;Pathfinder \#8: Seven Days to the Grave/80
-
+**Sources:** Bestiary 2 pg 68, Pathfinder \#8: Seven Days to the Grave pg 80\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 6,400

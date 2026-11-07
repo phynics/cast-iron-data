@@ -43,8 +43,7 @@ _This disembodied and bestial head covered in lashing hair and curling horns fli
 
 **Sense:** Sid
 
-**source:** Bestiary 3/86;Pathfinder \#19: Howl of the Carrion King/80
-
+**Sources:** Bestiary 3 pg 86, Pathfinder \#19: Howl of the Carrion King pg 80\
 **Subtype:** Div, Evil, Extraplanar
 
 **Size:** tiny

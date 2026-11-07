@@ -42,8 +42,7 @@ either side of its puckered mouth._
 
 **Size:** small
 
-**source:** Bestiary 3/119;Misfit Monsters Redeemed/39
-
+**Sources:** Bestiary 3 pg 119, Misfit Monsters Redeemed pg 39\
 **Experience points:** 400
 
 **Armor class:** 18/14/15

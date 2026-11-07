@@ -43,8 +43,7 @@ it scans the area for prey._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/252
-
+**Sources:** Bestiary 2 pg 252\
 **Experience points:** 9,600
 
 **Armor class:** 25/9/22

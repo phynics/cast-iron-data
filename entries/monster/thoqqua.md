@@ -44,8 +44,7 @@ rises from its red-hot scales._
 
 **Perception:** +10
 
-**source:** Bestiary 2/262
-
+**Sources:** Bestiary 2 pg 262\
 **Subtype:** Earth, Elemental, Extraplanar, Fire
 
 **tremorsense:** 60

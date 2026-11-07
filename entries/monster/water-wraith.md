@@ -45,8 +45,7 @@ change color to match its surroundings._
 
 **Perception:** +5
 
-**source:** Inner Sea Bestiary/59
-
+**Sources:** Inner Sea Bestiary pg 59\
 **Subtype:** Aquatic
 
 **Experience points:** 600

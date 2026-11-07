@@ -49,8 +49,7 @@ with glinting metal and gems embedded into its surface._
 
 **Senses:** Detect magic
 
-**source:** Pathfinder \#122: Into the Shattered Continent/86
-
+**Sources:** Pathfinder \#122: Into the Shattered Continent pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

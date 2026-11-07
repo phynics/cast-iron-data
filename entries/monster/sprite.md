@@ -45,8 +45,7 @@ ears._
 
 **Senses:** Detect evil, Detect good
 
-**source:** Bestiary 3/256
-
+**Sources:** Bestiary 3 pg 256\
 **Experience points:** 135
 
 **Armor class:** 17/17/14

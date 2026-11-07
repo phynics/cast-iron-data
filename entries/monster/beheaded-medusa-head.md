@@ -39,8 +39,7 @@ graying teeth clattering slightly as it bobs in the air._
 
 **Size:** small
 
-**source:** Pathfinder \#43: Haunting of Harrowstone/83
-
+**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 83\
 **Type:** undead
 
 **Experience points:** 800

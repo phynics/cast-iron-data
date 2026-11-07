@@ -47,8 +47,7 @@ the air astride a vortex of dust._
 
 **Sense:** Scent
 
-**source:** Bestiary 6/176
-
+**Sources:** Bestiary 6 pg 176\
 **Subtype:** Air
 
 **Experience points:** 25,600

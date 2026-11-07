@@ -46,8 +46,7 @@ displays knife-like talons._
 
 **Perception:** +18
 
-**source:** Bestiary 6/183
-
+**Sources:** Bestiary 6 pg 183\
 **Experience points:** 12,800
 
 **Armor class:** 27/9/26

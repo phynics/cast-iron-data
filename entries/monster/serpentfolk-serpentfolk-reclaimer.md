@@ -45,8 +45,7 @@ tongue flicks from its serpentine head._
 
 **Sense:** Scent
 
-**source:** Occult Bestiary/51
-
+**Sources:** Occult Bestiary pg 51\
 **Experience points:** 2,400
 
 **Armor class:** 20/16/14

@@ -42,8 +42,7 @@ bookmark protrudes menacingly from its open pages._
 
 **Perception:** +4
 
-**source:** Pathfinder \#127: Crownfall/84
-
+**Sources:** Pathfinder \#127: Crownfall pg 84\
 **Subtype:** Extraplanar, Lawful
 
 **Size:** tiny

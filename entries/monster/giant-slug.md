@@ -41,8 +41,7 @@ tastes the air for prey._
 
 **Perception:** +0
 
-**source:** Pathfinder RPG Bestiary/254
-
+**Sources:** Pathfinder RPG Bestiary pg 254\
 **Type:** vermin
 
 **Experience points:** 4,800

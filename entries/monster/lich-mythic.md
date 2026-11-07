@@ -51,8 +51,7 @@ _This armored undead human wields a heavy mace and wears the trappings of a devi
 
 **Senses:** Spell perception
 
-**source:** Mythic Adventures/206
-
+**Sources:** Mythic Adventures pg 206\
 **Subtype:** Human, Mythic
 
 **Type:** undead

@@ -47,8 +47,7 @@ reptilian humanoid._
 
 **Senses:** Detect good, True seeing
 
-**source:** Bestiary 2/80;Pathfinder \#5: Sins of the Saviors/86
-
+**Sources:** Bestiary 2 pg 80, Pathfinder \#5: Sins of the Saviors pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 76,800

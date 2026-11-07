@@ -52,8 +52,7 @@ immense serpents._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/24
-
+**Sources:** Bestiary 6 pg 24\
 **Subtype:** Aquatic, Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 6,553,600

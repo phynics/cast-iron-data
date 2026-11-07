@@ -45,8 +45,7 @@ head of a long-snouted canine. Ruby gems sparkle in its eye sockets._
 
 **Perception:** +3
 
-**source:** Pathfinder \#84: Pyramid of the Sky Pharaoh/88
-
+**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 88\
 **Experience points:** 25,600
 
 **Armor class:** 29/9/27

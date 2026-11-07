@@ -49,8 +49,7 @@ bulk._
 
 **Sense:** Scent
 
-**source:** Mythic Adventures/204
-
+**Sources:** Mythic Adventures pg 204\
 **Subtype:** Mythic
 
 **Experience points:** 6,400

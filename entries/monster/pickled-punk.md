@@ -38,8 +38,7 @@ _Barely contained in thick glass, this deformed humanoid creature wriggles in it
 
 **Perception:** +1
 
-**source:** Bestiary 4/214
-
+**Sources:** Bestiary 4 pg 214\
 **Size:** tiny
 
 **Type:** undead

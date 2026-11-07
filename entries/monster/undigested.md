@@ -36,8 +36,7 @@ _A jumble of melted bones and skull fragments float amid an oozing brown and yel
 
 **Perception:** +6
 
-**source:** Bestiary 5/258;Pathfinder \#1: Burnt Offerings/125
-
+**Sources:** Bestiary 5 pg 258, Pathfinder \#1: Burnt Offerings pg 125\
 **Size:** tiny
 
 **Type:** undead

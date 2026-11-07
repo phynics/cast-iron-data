@@ -44,8 +44,7 @@ hollow pits for eyes._
 
 **Size:** small
 
-**source:** Bestiary 3/162
-
+**Sources:** Bestiary 3 pg 162\
 **Subtype:** Kami, Native
 
 **Experience points:** 1,600

@@ -46,8 +46,7 @@ cap for a head._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/196
-
+**Sources:** Bestiary 3 pg 196\
 **Experience points:** 1,200
 
 **Armor class:** 16/10/16

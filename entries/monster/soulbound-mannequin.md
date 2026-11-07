@@ -43,8 +43,7 @@ _This strange construct is shaped like a masked humanoid made of wood and porcel
 
 **Perception:** +10
 
-**source:** Bestiary 4/248
-
+**Sources:** Bestiary 4 pg 248\
 **Experience points:** 3,200
 
 **Armor class:** 19/13/16

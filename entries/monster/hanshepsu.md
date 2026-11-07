@@ -45,8 +45,7 @@ head._
 
 **Perception:** +15
 
-**source:** Pathfinder \#83: The Slave Trenches of Hakotep/84
-
+**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 84\
 **Experience points:** 9,600
 
 **Armor class:** 24/14/20

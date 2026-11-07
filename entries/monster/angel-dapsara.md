@@ -46,8 +46,7 @@ motions of her physical arms._
 
 **Perception:** +10
 
-**source:** Inner Sea Gods/309
-
+**Sources:** Inner Sea Gods pg 309\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 1,200

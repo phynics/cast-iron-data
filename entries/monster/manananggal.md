@@ -40,8 +40,7 @@ mask._
 
 **Perception:** +16
 
-**source:** Bestiary 3/190
-
+**Sources:** Bestiary 3 pg 190\
 **Type:** undead
 
 **Experience points:** 3,200

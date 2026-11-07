@@ -48,8 +48,7 @@ intoxicated._
 
 **Senses:** Detect poison
 
-**source:** Bestiary 3/259
-
+**Sources:** Bestiary 3 pg 259\
 **Subtype:** Shapechanger
 
 **Experience points:** 1,200

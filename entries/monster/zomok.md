@@ -44,8 +44,7 @@ soil, and it exhales clouds of dirt._
 
 **Type:** plant
 
-**source:** Bestiary 4/287;Pathfinder \#36: Sound of a Thousand Screams/88
-
+**Sources:** Bestiary 4 pg 287, Pathfinder \#36: Sound of a Thousand Screams pg 88\
 **Subtype:** Extraplanar
 
 **tremorsense:** 60

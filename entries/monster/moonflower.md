@@ -45,8 +45,7 @@ whole._
 
 **Type:** plant
 
-**source:** Bestiary 2/192;Pathfinder \#14: Children of the Void/82
-
+**Sources:** Bestiary 2 pg 192, Pathfinder \#14: Children of the Void pg 82\
 **Experience points:** 4,800
 
 **Armor class:** 21/8/21

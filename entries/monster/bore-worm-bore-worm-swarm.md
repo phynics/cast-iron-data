@@ -40,8 +40,7 @@ trail of hissing melted stone slag in its wake._
 
 **Perception:** +0
 
-**source:** Pathfinder \#117: Assault on Longshadow/82
-
+**Sources:** Pathfinder \#117: Assault on Longshadow pg 82\
 **Subtype:** Swarm
 
 **tremorsense:** 60

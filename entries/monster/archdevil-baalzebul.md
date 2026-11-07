@@ -51,8 +51,7 @@ _This swarm of droning black flies teems in the semblance of a winged angel with
 
 **Sense:** Sid
 
-**source:** Bestiary 6/16
-
+**Sources:** Bestiary 6 pg 16\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 9,830,400

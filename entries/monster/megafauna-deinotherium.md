@@ -44,8 +44,7 @@ downward-curving tusks._
 
 **Sense:** Scent
 
-**source:** Bestiary 6/184;Pathfinder \#91: Battle of Bloodmarch Hills/86
-
+**Sources:** Bestiary 6 pg 184, Pathfinder \#91: Battle of Bloodmarch Hills pg 86\
 **Experience points:** 3,200
 
 **Armor class:** 19/7/19

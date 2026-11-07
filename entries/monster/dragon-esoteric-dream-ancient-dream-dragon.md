@@ -43,8 +43,7 @@ abilities = ["33", "9", "24", "24", "23", "26"]
 
 **Senses:** Dragon senses, Dreamsight
 
-**source:** Bestiary 5/91
-
+**Sources:** Bestiary 5 pg 91\
 **Subtype:** Extraplanar
 
 **Experience points:** 204,800

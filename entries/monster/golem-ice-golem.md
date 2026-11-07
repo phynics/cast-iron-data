@@ -45,8 +45,7 @@ shards of ice adorn its limbs._
 
 **Perception:** +0
 
-**source:** Pathfinder RPG Bestiary/161
-
+**Sources:** Pathfinder RPG Bestiary pg 161\
 **Subtype:** Cold
 
 **Experience points:** 1,600

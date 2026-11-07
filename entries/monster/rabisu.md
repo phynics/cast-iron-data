@@ -46,8 +46,7 @@ and a fang-filled mouth._
 
 **Sense:** Sid
 
-**source:** Qadira, Jewel of the East/62
-
+**Sources:** Qadira, Jewel of the East pg 62\
 **Experience points:** 12,800
 
 **Armor class:** 25/18/17

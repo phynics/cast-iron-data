@@ -42,8 +42,7 @@ _Thorn-tipped tendrils and flowering filaments sprout from this tiny, squirming 
 
 **Type:** plant
 
-**source:** Bestiary 5/133
-
+**Sources:** Bestiary 5 pg 133\
 **Size:** tiny
 
 **Experience points:** 2,400

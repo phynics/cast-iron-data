@@ -42,8 +42,7 @@ strange wheel-appendage._
 
 **Perception:** +8
 
-**source:** Pathfinder \#127: Crownfall/86
-
+**Sources:** Pathfinder \#127: Crownfall pg 86\
 **Experience points:** 800
 
 **Armor class:** 14/14/10

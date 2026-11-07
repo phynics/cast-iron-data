@@ -43,8 +43,7 @@ before finally assembling into an arcane symbol that flares with untold magical 
 
 **Perception:** +27
 
-**source:** Pathfinder \#66: The Dead Heart of Xin/88
-
+**Sources:** Pathfinder \#66: The Dead Heart of Xin pg 88\
 **tremorsense:** 60
 
 **Experience points:** 25,600

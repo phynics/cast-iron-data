@@ -46,8 +46,7 @@ sphere._
 
 **Size:** small
 
-**source:** Numeria, Land of Fallen Stars/59
-
+**Sources:** Numeria, Land of Fallen Stars pg 59\
 **Subtype:** Robot
 
 **Experience points:** 4,800

@@ -44,8 +44,7 @@ any kind, its bulk is covered in jagged thorns protruding from its fungal surfac
 
 **Type:** plant
 
-**source:** Darklands Revisited/63
-
+**Sources:** Darklands Revisited pg 63\
 **Experience points:** 800
 
 **Armor class:** 16/13/13

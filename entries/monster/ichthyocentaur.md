@@ -44,8 +44,7 @@ hoofed forelegs trailing into a finned tail._
 
 **Perception:** +11
 
-**source:** Bestiary 5/146
-
+**Sources:** Bestiary 5 pg 146\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

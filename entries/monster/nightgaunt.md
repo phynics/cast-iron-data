@@ -47,8 +47,7 @@ _This lanky ebon humanoid has bat-like wings, horns, and a long prehensile tail,
 
 **Perception:** +6
 
-**source:** Bestiary 4/203;Pathfinder \#65: Into the Nightmare Rift/90
-
+**Sources:** Bestiary 4 pg 203, Pathfinder \#65: Into the Nightmare Rift pg 90\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,200

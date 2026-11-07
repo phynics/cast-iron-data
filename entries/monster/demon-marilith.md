@@ -47,8 +47,7 @@ eyes._
 
 **Senses:** True seeing
 
-**source:** Pathfinder RPG Bestiary/63
-
+**Sources:** Pathfinder RPG Bestiary pg 63\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 102,400

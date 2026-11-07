@@ -45,8 +45,7 @@ nuisance._
 
 **Sense:** Sid
 
-**source:** Pathfinder RPG Bestiary/78
-
+**Sources:** Pathfinder RPG Bestiary pg 78\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Size:** tiny

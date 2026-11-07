@@ -43,8 +43,7 @@ brown skin. His hair is unkempt and his flesh is weathered, but his large eyes g
 
 **Size:** small
 
-**source:** Pathfinder \#122: Into the Shattered Continent/83
-
+**Sources:** Pathfinder \#122: Into the Shattered Continent pg 83\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/14

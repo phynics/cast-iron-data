@@ -41,8 +41,7 @@ hopping gait._
 
 **Size:** small
 
-**source:** Ultimate Wilderness/209;Familiar Folio/27
-
+**Sources:** Ultimate Wilderness pg 209, Familiar Folio pg 27\
 **Experience points:** 135
 
 **Armor class:** 13/13/11

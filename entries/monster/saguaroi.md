@@ -43,8 +43,7 @@ sprout from its flesh._
 
 **Type:** plant
 
-**source:** Bestiary 4/229
-
+**Sources:** Bestiary 4 pg 229\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

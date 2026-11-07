@@ -43,8 +43,7 @@ segmented plates._
 
 **Sense:** Scent
 
-**source:** Belkzen, Hold of the Orc Hordes/63
-
+**Sources:** Belkzen, Hold of the Orc Hordes pg 63\
 **Experience points:** 25,600
 
 **Armor class:** 28/12/24

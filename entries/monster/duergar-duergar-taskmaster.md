@@ -43,8 +43,7 @@ abilities = ["13", "17", "12", "12", "16", "4"]
 
 **Perception:** +16
 
-**source:** Monster Codex/47
-
+**Sources:** Monster Codex pg 47\
 **Subtype:** Dwarf
 
 **Experience points:** 6,400

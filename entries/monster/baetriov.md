@@ -42,8 +42,7 @@ speak to great age and danger._
 
 **Perception:** +15
 
-**source:** Taldor, the First Empire/56
-
+**Sources:** Taldor, the First Empire pg 56\
 **Type:** undead
 
 **Experience points:** 4,800

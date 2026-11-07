@@ -44,8 +44,7 @@ a massive set of hooked jaws._
 
 **Perception:** +28
 
-**source:** Bestiary 4/18;Pathfinder \#65: Into the Nightmare Rift/84
-
+**Sources:** Bestiary 4 pg 18, Pathfinder \#65: Into the Nightmare Rift pg 84\
 **Experience points:** 102,400
 
 **Armor class:** 33/1/33

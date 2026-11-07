@@ -49,8 +49,7 @@ a ram, and a red dragon's head sprouting from its tail._
 
 **Sense:** Scent
 
-**source:** Mythical Monsters Revisited/9
-
+**Sources:** Mythical Monsters Revisited pg 9\
 **Experience points:** 25,600
 
 **Armor class:** 26/8/26

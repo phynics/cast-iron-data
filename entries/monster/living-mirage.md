@@ -41,8 +41,7 @@ not exist._
 
 **Perception:** -5
 
-**source:** Bestiary 5/159;Osirion, Legacy of the Pharaohs/58
-
+**Sources:** Bestiary 5 pg 159, Osirion, Legacy of the Pharaohs pg 58\
 **Experience points:** 6,400
 
 **Armor class:** 6/6/6

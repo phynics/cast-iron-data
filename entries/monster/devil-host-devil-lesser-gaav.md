@@ -47,8 +47,7 @@ clawed arms work together to slash the air with a vicious-looking spear._
 
 **Size:** small
 
-**source:** Book of the Damned - Volume 1: Princes of Darkness/58
-
+**Sources:** Book of the Damned - Volume 1: Princes of Darkness pg 58\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 800

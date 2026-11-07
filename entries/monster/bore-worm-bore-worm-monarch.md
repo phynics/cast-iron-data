@@ -39,8 +39,7 @@ mandibles._
 
 **Perception:** +0
 
-**source:** Pathfinder \#117: Assault on Longshadow/82
-
+**Sources:** Pathfinder \#117: Assault on Longshadow pg 82\
 **tremorsense:** 60
 
 **Type:** vermin

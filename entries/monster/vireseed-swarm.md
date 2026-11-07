@@ -42,8 +42,7 @@ by a rapidly lashing tendril._
 
 **Type:** plant
 
-**source:** Pathfinder \#39: The City of Seven Spears/83
-
+**Sources:** Pathfinder \#39: The City of Seven Spears pg 83\
 **Subtype:** Swarm
 
 **Experience points:** 1,600

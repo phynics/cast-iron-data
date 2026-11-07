@@ -41,8 +41,7 @@ wickedly sharp wooden branches._
 
 **Type:** plant
 
-**source:** Bestiary 4/16
-
+**Sources:** Bestiary 4 pg 16\
 **Experience points:** 51,200
 
 **Armor class:** 31/11/26

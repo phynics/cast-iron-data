@@ -43,8 +43,7 @@ _This ghost-like creature reeks of the grave and drips with putrescent goo._
 
 **Perception:** +13
 
-**source:** Bestiary 4/98
-
+**Sources:** Bestiary 4 pg 98\
 **Subtype:** Incorporeal
 
 **Type:** undead

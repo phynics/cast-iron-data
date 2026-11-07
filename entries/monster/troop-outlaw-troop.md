@@ -41,8 +41,7 @@ swords menacingly._
 
 **Perception:** +12
 
-**source:** Bestiary 6/267
-
+**Sources:** Bestiary 6 pg 267\
 **Subtype:** Human, Troop
 
 **Experience points:** 3,200

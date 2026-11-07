@@ -48,8 +48,7 @@ a lengthy black veil._
 
 **Senses:** Spiritsense
 
-**source:** Pathfinder \#64: Beyond the Doomsday Door/88
-
+**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 88\
 **Subtype:** Psychopomp, Extraplanar
 
 **Experience points:** 9,600

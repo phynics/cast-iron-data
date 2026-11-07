@@ -40,8 +40,7 @@ _The color and texture of this massive, metallic ooze shift whenever it touches 
 
 **Perception:** -5
 
-**source:** Pathfinder \#123: The Flooded Cathedral/90
-
+**Sources:** Pathfinder \#123: The Flooded Cathedral pg 90\
 **Experience points:** 3,200
 
 **Armor class:** 4/4/4

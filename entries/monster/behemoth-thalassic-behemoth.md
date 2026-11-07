@@ -47,8 +47,7 @@ sea._
 
 **Perception:** +34
 
-**source:** Bestiary 3/38
-
+**Sources:** Bestiary 3 pg 38\
 **Subtype:** Aquatic, Behemoth, Water
 
 **Experience points:** 307,200

@@ -46,8 +46,7 @@ it whirs as if mechanical._
 
 **Senses:** See alignment
 
-**source:** Pathfinder \#122: Into the Shattered Continent/88
-
+**Sources:** Pathfinder \#122: Into the Shattered Continent pg 88\
 **Experience points:** 6,400
 
 **Armor class:** 20/20/14

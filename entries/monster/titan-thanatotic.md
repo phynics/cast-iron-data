@@ -47,8 +47,7 @@ with ruinous power._
 
 **Senses:** True seeing
 
-**source:** Bestiary 2/267
-
+**Sources:** Bestiary 2 pg 267\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 614,400

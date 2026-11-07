@@ -47,8 +47,7 @@ strands of ice._
 
 **Perception:** +22
 
-**source:** Bestiary 3/207
-
+**Sources:** Bestiary 3 pg 207\
 **Subtype:** Cold, Oni, Giant, Native, Shapechanger
 
 **Experience points:** 38,400

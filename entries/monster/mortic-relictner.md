@@ -48,8 +48,7 @@ eerie agility._
 
 **Senses:** Ruin sense
 
-**source:** Pathfinder \#143: Borne by the Sun's Grace/86
-
+**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 86\
 **Subtype:** Dwarf, Mortic
 
 **Experience points:** 19,200

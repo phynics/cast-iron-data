@@ -43,8 +43,7 @@ sickle-shaped claw._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/84
-
+**Sources:** Pathfinder RPG Bestiary pg 84\
 **Experience points:** 800
 
 **Armor class:** 15/12/13

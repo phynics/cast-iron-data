@@ -46,8 +46,7 @@ hands than a wolf's paws._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/27
-
+**Sources:** Pathfinder RPG Bestiary pg 27\
 **Subtype:** Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 1,200

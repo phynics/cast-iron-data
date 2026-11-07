@@ -48,8 +48,7 @@ adorns its thrashing tail._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/107;Pathfinder \#15: The Armageddon Echo/86
-
+**Sources:** Bestiary 2 pg 107, Pathfinder \#15: The Armageddon Echo pg 86\
 **Subtype:** Earth
 
 **Experience points:** 1,200

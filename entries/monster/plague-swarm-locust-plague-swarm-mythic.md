@@ -52,8 +52,7 @@ deities._
 
 **Perception:** +24
 
-**source:** Bestiary 5/192
-
+**Sources:** Bestiary 5 pg 192\
 **Subtype:** Mythic, Swarm
 
 **Experience points:** 51,200

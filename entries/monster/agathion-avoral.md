@@ -49,8 +49,7 @@ end of his wings._
 
 **Senses:** Detect magic
 
-**source:** Bestiary 2/16;Andoran, Spirit of Liberty/21
-
+**Sources:** Bestiary 2 pg 16, Andoran, Spirit of Liberty pg 21\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 6,400

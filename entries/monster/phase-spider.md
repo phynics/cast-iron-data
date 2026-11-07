@@ -43,8 +43,7 @@ _This large spider-like monster has an eerie, humanoid face surrounded by a shag
 
 **Perception:** +6
 
-**source:** Pathfinder RPG Bestiary/226
-
+**Sources:** Pathfinder RPG Bestiary pg 226\
 **Experience points:** 1,600
 
 **Armor class:** 17/12/14

@@ -43,8 +43,7 @@ stink of rancid vinegar._
 
 **Perception:** -5
 
-**source:** Bestiary 2/24
-
+**Sources:** Bestiary 2 pg 24\
 **Subtype:** Swarm
 
 **Experience points:** 400

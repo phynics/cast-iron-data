@@ -47,8 +47,7 @@ _This slender dragon is covered in vivid cerulean scales with four powerful wing
 
 **Perception:** +30
 
-**source:** Bestiary 5/270
-
+**Sources:** Bestiary 5 pg 270\
 **Subtype:** Extraplanar
 
 **Experience points:** 204,800

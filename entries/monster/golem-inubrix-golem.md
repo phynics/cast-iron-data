@@ -45,8 +45,7 @@ back._
 
 **Senses:** True seeing
 
-**source:** Construct Handbook/44
-
+**Sources:** Construct Handbook pg 44\
 **Experience points:** 38,400
 
 **Armor class:** 28/12/25

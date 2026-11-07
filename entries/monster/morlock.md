@@ -45,8 +45,7 @@ but its shape is hideously humanoid._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/209;Into the Darklands/54
-
+**Sources:** Pathfinder RPG Bestiary pg 209, Into the Darklands pg 54\
 **Experience points:** 600
 
 **Armor class:** 15/14/11

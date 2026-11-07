@@ -42,8 +42,7 @@ _This elephant-sized sea creature resembles a horse crossed with a fish, with cr
 
 **Perception:** +13
 
-**source:** Bestiary 4/234
-
+**Sources:** Bestiary 4 pg 234\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

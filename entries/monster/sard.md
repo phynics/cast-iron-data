@@ -47,8 +47,7 @@ dance in the cracks of its bark._
 
 **Type:** plant
 
-**source:** Bestiary 2/237
-
+**Sources:** Bestiary 2 pg 237\
 **tremorsense:** 30
 
 **Experience points:** 204,800

@@ -44,8 +44,7 @@ immense size._
 
 **Perception:** +23
 
-**source:** Bestiary 2/282
-
+**Sources:** Bestiary 2 pg 282\
 **Experience points:** 9,600
 
 **Armor class:** 22/4/22

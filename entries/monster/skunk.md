@@ -43,8 +43,7 @@ its fluffy tail, which is raised in warning._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/247
-
+**Sources:** Bestiary 3 pg 247\
 **Size:** tiny
 
 **Experience points:** 100

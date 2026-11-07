@@ -51,8 +51,7 @@ _This long-furred ape-person wears a battered snakeskin poncho and carries a wor
 
 **Size:** small
 
-**source:** Inner Sea Monster Codex/13
-
+**Sources:** Inner Sea Monster Codex pg 13\
 **Experience points:** 2,400
 
 **Armor class:** 24/17/18

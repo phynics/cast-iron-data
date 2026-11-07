@@ -45,8 +45,7 @@ it buzzes through the air._
 
 **Perception:** +13
 
-**source:** Bestiary 5/274;The Worldwound/61
-
+**Sources:** Bestiary 5 pg 274, The Worldwound pg 61\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

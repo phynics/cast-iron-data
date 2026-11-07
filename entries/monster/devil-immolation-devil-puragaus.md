@@ -44,8 +44,7 @@ _Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-
 
 **Senses:** True seeing
 
-**source:** Bestiary 2/87
-
+**Sources:** Bestiary 2 pg 87\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 204,800

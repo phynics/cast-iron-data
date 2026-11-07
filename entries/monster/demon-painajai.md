@@ -49,8 +49,7 @@ dozens of sharp teeth. It carries a barbed spear with a long, clinking chain att
 
 **Senses:** True seeing
 
-**source:** Occult Bestiary/19
-
+**Sources:** Occult Bestiary pg 19\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 38,400

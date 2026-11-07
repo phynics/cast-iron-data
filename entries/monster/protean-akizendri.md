@@ -48,8 +48,7 @@ nearby tomes and pages._
 
 **Size:** small
 
-**source:** Concordance of Rivals/56
-
+**Sources:** Concordance of Rivals pg 56\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 800

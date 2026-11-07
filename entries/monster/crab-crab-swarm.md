@@ -40,8 +40,7 @@ legs twitching across the sand._
 
 **Perception:** +0
 
-**source:** Pathfinder RPG Bestiary/50
-
+**Sources:** Pathfinder RPG Bestiary pg 50\
 **Subtype:** Aquatic, Swarm
 
 **Type:** vermin

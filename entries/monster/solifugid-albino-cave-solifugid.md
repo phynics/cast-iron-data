@@ -39,8 +39,7 @@ huge vertical mandibles._
 
 **Perception:** +4
 
-**source:** Bestiary 2/253
-
+**Sources:** Bestiary 2 pg 253\
 **Type:** vermin
 
 **Experience points:** 1,200

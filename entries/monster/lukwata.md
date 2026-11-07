@@ -46,8 +46,7 @@ _A long, spiny fin runs down the length of the dolphin-like body of this eel-hea
 
 **Sense:** Scent
 
-**source:** Bestiary 3/187;Pathfinder \#41: The Thousand Fangs Below/86
-
+**Sources:** Bestiary 3 pg 187, Pathfinder \#41: The Thousand Fangs Below pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 12,800

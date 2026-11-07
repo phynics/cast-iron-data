@@ -46,8 +46,7 @@ humanoid._
 
 **Perception:** +12
 
-**source:** Bestiary 3/153
-
+**Sources:** Bestiary 3 pg 153\
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

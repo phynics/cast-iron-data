@@ -41,8 +41,7 @@ _A low, ominous buzz announces the arrival of a mass of many thousands of angry,
 
 **Perception:** +9
 
-**source:** Pathfinder RPG Bestiary/275
-
+**Sources:** Pathfinder RPG Bestiary pg 275\
 **Subtype:** Swarm
 
 **Type:** vermin

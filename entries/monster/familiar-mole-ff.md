@@ -40,8 +40,7 @@ thick paws that end in digging claws._
 
 **Perception:** +7
 
-**source:** Familiar Folio/25
-
+**Sources:** Familiar Folio pg 25\
 **Size:** tiny
 
 **Experience points:** 65

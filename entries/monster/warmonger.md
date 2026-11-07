@@ -46,8 +46,7 @@ and a huge crossbow._
 
 **Perception:** +7
 
-**source:** Bestiary 6/274
-
+**Sources:** Bestiary 6 pg 274\
 **Experience points:** 204,800
 
 **Armor class:** 34/14/28

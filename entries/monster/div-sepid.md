@@ -45,8 +45,7 @@ _Twice the height of a human, this horned monstrous warrior wields a massive bla
 
 **Sense:** Sid
 
-**source:** Bestiary 3/89;Pathfinder \#23: The Impossible Eye/84
-
+**Sources:** Bestiary 3 pg 89, Pathfinder \#23: The Impossible Eye pg 84\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 38,400

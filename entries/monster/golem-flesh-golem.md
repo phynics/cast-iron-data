@@ -44,8 +44,7 @@ staples lurches to horrific life._
 
 **Perception:** +0
 
-**source:** Pathfinder RPG Bestiary/160
-
+**Sources:** Pathfinder RPG Bestiary pg 160\
 **Experience points:** 3,200
 
 **Armor class:** 20/8/20

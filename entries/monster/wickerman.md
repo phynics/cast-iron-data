@@ -46,8 +46,7 @@ _This humanoid-shaped colossus is a towering fury of burning wicker and wood._
 
 **Perception:** +0
 
-**source:** Bestiary 4/277
-
+**Sources:** Bestiary 4 pg 277\
 **Subtype:** Fire
 
 **Experience points:** 25,600

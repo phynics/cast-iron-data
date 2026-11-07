@@ -50,8 +50,7 @@ lined with rows of sharp teeth._
 
 **Sense:** Sid
 
-**source:** Planar Adventures/240
-
+**Sources:** Planar Adventures pg 240\
 **Subtype:** Water
 
 **Experience points:** 9,830,400

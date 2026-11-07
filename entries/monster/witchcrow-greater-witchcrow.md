@@ -44,8 +44,7 @@ abilities = ["12", "17", "12", "17", "16", "13"]
 
 **Size:** small
 
-**source:** Pathfinder \#67: The Snows of Summer/88
-
+**Sources:** Pathfinder \#67: The Snows of Summer pg 88\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

@@ -46,8 +46,7 @@ from its flesh._
 
 **Senses:** Detect magic
 
-**source:** Pathfinder RPG Bestiary/140
-
+**Sources:** Pathfinder RPG Bestiary pg 140\
 **Subtype:** Extraplanar, Fire
 
 **Experience points:** 4,800

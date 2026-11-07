@@ -40,8 +40,7 @@ _This monstrous caterpillar's dark-scarlet bristles drip with thick, dangerous-l
 
 **Size:** small
 
-**source:** Bestiary 5/51
-
+**Sources:** Bestiary 5 pg 51\
 **Type:** vermin
 
 **Experience points:** 400

@@ -47,8 +47,7 @@ _This amalgam of mechanical toys clacks and whirs._
 
 **Perception:** +0
 
-**source:** Tombs of Golarion/23
-
+**Sources:** Tombs of Golarion pg 23\
 **Subtype:** Clockwork
 
 **Experience points:** 1,600

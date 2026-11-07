@@ -36,8 +36,7 @@ _This sizable insect has a slender body and two pairs of long, elegant, iridesce
 
 **Perception:** +1
 
-**source:** Ultimate Wilderness/206
-
+**Sources:** Ultimate Wilderness pg 206\
 **Size:** tiny
 
 **Type:** vermin

@@ -48,8 +48,7 @@ with a fluid grace._
 
 **Perception:** +26
 
-**source:** Planar Adventures/252;The Emerald Spire Superdungeon/159
-
+**Sources:** Planar Adventures pg 252, The Emerald Spire Superdungeon pg 159\
 **Subtype:** Earth, Elemental, Extraplanar, Mythic
 
 **tremorsense:** 120

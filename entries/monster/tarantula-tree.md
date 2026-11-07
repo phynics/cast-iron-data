@@ -44,8 +44,7 @@ _This towering mass of vegetation balances itself upon several long and misshape
 
 **Type:** plant
 
-**source:** Bestiary 6/260
-
+**Sources:** Bestiary 6 pg 260\
 **tremorsense:** 90
 
 **Experience points:** 204,800

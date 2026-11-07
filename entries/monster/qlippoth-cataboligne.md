@@ -45,8 +45,7 @@ and a mouth yawns in its belly._
 
 **Perception:** +26
 
-**source:** Bestiary 6/225
-
+**Sources:** Bestiary 6 pg 225\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 76,800

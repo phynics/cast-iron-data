@@ -46,8 +46,7 @@ carries a shining spear._
 
 **Senses:** Deathwatch
 
-**source:** Bestiary 3/277
-
+**Sources:** Bestiary 3 pg 277\
 **Subtype:** Extraplanar
 
 **Experience points:** 19,200

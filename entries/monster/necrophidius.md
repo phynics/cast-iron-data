@@ -44,8 +44,7 @@ skull with a snake's jaws._
 
 **Perception:** +0
 
-**source:** Bestiary 2/196
-
+**Sources:** Bestiary 2 pg 196\
 **Experience points:** 800
 
 **Armor class:** 15/13/12

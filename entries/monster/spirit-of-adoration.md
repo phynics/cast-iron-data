@@ -49,8 +49,7 @@ the air around her with swirls and flourishes of magical energy._
 
 **Perception:** +33
 
-**source:** Pathfinder \#50: Night of Frozen Shadows/90
-
+**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 90\
 **Subtype:** Extraplanar, Good
 
 **Experience points:** 51,200

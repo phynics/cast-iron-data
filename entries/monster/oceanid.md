@@ -47,8 +47,7 @@ body._
 
 **Perception:** +16
 
-**source:** Bestiary 4/208
-
+**Sources:** Bestiary 4 pg 208\
 **Subtype:** Water
 
 **tremorParens:** in water only

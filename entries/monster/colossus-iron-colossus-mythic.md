@@ -50,8 +50,7 @@ _A siege engineer's nightmare, this giant machine emits noxious fumes from its g
 
 **Perception:** +11
 
-**source:** Bestiary 4/36
-
+**Sources:** Bestiary 4 pg 36\
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 409,600

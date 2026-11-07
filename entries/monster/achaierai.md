@@ -43,8 +43,7 @@ vapor trail from its hooked beak._
 
 **Perception:** +12
 
-**source:** Bestiary 2/7
-
+**Sources:** Bestiary 2 pg 7\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

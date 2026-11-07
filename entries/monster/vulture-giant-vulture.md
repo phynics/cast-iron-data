@@ -44,8 +44,7 @@ wingspan._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/284
-
+**Sources:** Bestiary 3 pg 284\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

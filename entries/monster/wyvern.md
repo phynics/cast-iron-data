@@ -45,8 +45,7 @@ taloned feet and roars a challenge._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/282
-
+**Sources:** Pathfinder RPG Bestiary pg 282\
 **Experience points:** 2,400
 
 **Armor class:** 19/10/18

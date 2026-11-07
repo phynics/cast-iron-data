@@ -43,8 +43,7 @@ ram._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/154
-
+**Sources:** Bestiary 2 pg 154\
 **Experience points:** 400
 
 **Armor class:** 13/12/11

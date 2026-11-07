@@ -44,8 +44,7 @@ mask that covers most of its face._
 
 **Perception:** +26
 
-**source:** Pathfinder \#77: Herald of the Ivory Labyrinth/90
-
+**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 76,800

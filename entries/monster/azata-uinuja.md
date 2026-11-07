@@ -49,8 +49,7 @@ tangle of night-blue hair._
 
 **Senses:** See invisibility
 
-**source:** Bestiary 6/33;Occult Bestiary/9
-
+**Sources:** Bestiary 6 pg 33, Occult Bestiary pg 9\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 51,200

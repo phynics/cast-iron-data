@@ -47,8 +47,7 @@ tentacles._
 
 **Senses:** Trace teleport 60 ft.
 
-**source:** Occult Bestiary/36
-
+**Sources:** Occult Bestiary pg 36\
 **Experience points:** 307,200
 
 **Armor class:** 34/6/34

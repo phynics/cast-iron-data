@@ -45,8 +45,7 @@ _This lanky, winged humanoid is covered in layers of long, ropy skin growths._
 
 **Senses:** Detect good, Detect magic
 
-**source:** Bestiary 5/73;Pathfinder \#77: Herald of the Ivory Labyrinth/84
-
+**Sources:** Bestiary 5 pg 73, Pathfinder \#77: Herald of the Ivory Labyrinth pg 84\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 51,200

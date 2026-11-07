@@ -47,8 +47,7 @@ wield several exotic weapons._
 
 **Perception:** +23
 
-**source:** Bestiary 3/26
-
+**Sources:** Bestiary 3 pg 26\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 6,400

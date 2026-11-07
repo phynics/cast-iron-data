@@ -41,8 +41,7 @@ articulated arms._
 
 **Perception:** +18
 
-**source:** Bestiary 5/260;The Worldwound/60
-
+**Sources:** Bestiary 5 pg 260, The Worldwound pg 60\
 **Subtype:** Extraplanar
 
 **tremorsense:** 60

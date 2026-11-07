@@ -43,8 +43,7 @@ jagged teeth._
 
 **Size:** small
 
-**source:** Bestiary 6/267
-
+**Sources:** Bestiary 6 pg 267\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 1,600

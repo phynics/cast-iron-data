@@ -49,8 +49,7 @@ humanoid has a regal presence._
 
 **Perception:** +33
 
-**source:** Mythic Realms/52
-
+**Sources:** Mythic Realms pg 52\
 **Subtype:** Cold, Giant
 
 **Experience points:** 1,638,400

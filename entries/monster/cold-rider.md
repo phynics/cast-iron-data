@@ -43,8 +43,7 @@ _Jagged, twisting antlers of dark blue ice crown the helm of this ice-armored hu
 
 **Perception:** +18
 
-**source:** Bestiary 3/59;Carnival of Tears/29
-
+**Sources:** Bestiary 3 pg 59, Carnival of Tears pg 29\
 **Subtype:** Cold
 
 **Experience points:** 4,800

@@ -44,8 +44,7 @@ that glow with blue light._
 
 **Perception:** +0
 
-**source:** Inner Sea World Guide/306;Dark Markets - A Guide to Katapesh/58
-
+**Sources:** Inner Sea World Guide pg 306, Dark Markets - A Guide to Katapesh pg 58\
 **Experience points:** 9,600
 
 **Armor class:** 25/10/24

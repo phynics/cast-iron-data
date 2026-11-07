@@ -42,8 +42,7 @@ _Masses of carrion and debris break the inky surface of this enormous, undulatin
 
 **Perception:** -5
 
-**source:** Bestiary 5/199;Pathfinder \#76: The Midnight Isles/90
-
+**Sources:** Bestiary 5 pg 199, Pathfinder \#76: The Midnight Isles pg 90\
 **Experience points:** 12,800
 
 **Armor class:** 7/7/7

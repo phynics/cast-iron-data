@@ -45,8 +45,7 @@ mimic his surroundings._
 
 **Perception:** +5
 
-**source:** Bestiary 2/248
-
+**Sources:** Bestiary 2 pg 248\
 **Experience points:** 400
 
 **Armor class:** 12/12/10

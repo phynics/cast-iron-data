@@ -42,8 +42,7 @@ _This immense black wolf is the size of a horse, its fangs as large and sharp as
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/278
-
+**Sources:** Pathfinder RPG Bestiary pg 278\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

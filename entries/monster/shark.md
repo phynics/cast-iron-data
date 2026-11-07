@@ -44,8 +44,7 @@ countless teeth._
 
 **Perception:** +8
 
-**source:** Pathfinder RPG Bestiary/247
-
+**Sources:** Pathfinder RPG Bestiary pg 247\
 **Subtype:** Aquatic
 
 **Experience points:** 600

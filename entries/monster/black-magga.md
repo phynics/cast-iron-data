@@ -46,9 +46,8 @@ wriggling mass of tentacles._
 
 **Perception:** +22
 
-**source:** Rise of the Runelords Anniversary Edition/406;Pathfinder \#3: The Hook Mountain
-Massacre/88
-
+**Sources:** Rise of the Runelords Anniversary Edition pg 406, Pathfinder \#3: The Hook Mountain
+Massacre pg 88\
 **Subtype:** Aquatic, Native
 
 **Experience points:** 51,200

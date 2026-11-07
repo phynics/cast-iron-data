@@ -43,8 +43,7 @@ _This black cat has gray stripes, violet eyes, and an unusual white blaze on its
 
 **Perception:** +10
 
-**source:** Bestiary 2/20
-
+**Sources:** Bestiary 2 pg 20\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Size:** tiny

@@ -42,8 +42,7 @@ glowing eyes._
 
 **Perception:** +19
 
-**source:** Pathfinder \#134: It Came from Hollow Mountain/88
-
+**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 88\
 **tremorsense:** 60
 
 **Experience points:** 4,800

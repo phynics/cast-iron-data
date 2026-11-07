@@ -45,8 +45,7 @@ _This authoritative, scorpion-bodied woman is bedecked with amulets and other re
 
 **Perception:** +17
 
-**source:** Inner Sea Monster Codex/39
-
+**Sources:** Inner Sea Monster Codex pg 39\
 **tremorsense:** 30
 
 **Experience points:** 38,400

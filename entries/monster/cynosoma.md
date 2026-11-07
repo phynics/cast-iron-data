@@ -45,8 +45,7 @@ of shimmering dust._
 
 **Perception:** +21
 
-**source:** Planar Adventures/229
-
+**Sources:** Planar Adventures pg 229\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 19,200

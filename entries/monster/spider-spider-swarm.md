@@ -39,8 +39,7 @@ _An awful, scuttling mass of legs and mandibles scrambles forward out of the dar
 
 **Perception:** +4
 
-**source:** Pathfinder RPG Bestiary/258
-
+**Sources:** Pathfinder RPG Bestiary pg 258\
 **Subtype:** Swarm
 
 **tremorsense:** 30

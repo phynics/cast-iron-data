@@ -42,8 +42,7 @@ one studies its twitching visage._
 
 **Perception:** +16
 
-**source:** Bestiary 2/82;Pathfinder \#6: Spires of Xin-Shalast/78
-
+**Sources:** Bestiary 2 pg 82, Pathfinder \#6: Spires of Xin-Shalast pg 78\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 4,800

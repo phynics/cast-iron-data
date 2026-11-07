@@ -44,8 +44,7 @@ red-hot._
 
 **Perception:** +16
 
-**source:** Pathfinder RPG Bestiary/233
-
+**Sources:** Pathfinder RPG Bestiary pg 233\
 **tremorsense:** 60
 
 **Experience points:** 3,200

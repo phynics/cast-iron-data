@@ -46,8 +46,7 @@ with sparks of lightning._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/248
-
+**Sources:** Pathfinder RPG Bestiary pg 248\
 **Experience points:** 600
 
 **Armor class:** 16/13/14

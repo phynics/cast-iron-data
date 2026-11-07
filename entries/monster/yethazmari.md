@@ -48,8 +48,7 @@ and smoking eye sockets._
 
 **Sense:** Scent
 
-**source:** Inner Sea Gods/296
-
+**Sources:** Inner Sea Gods pg 296\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 51,200

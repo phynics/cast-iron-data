@@ -44,8 +44,7 @@ aura of horror._
 
 **Perception:** +23
 
-**source:** Bestiary 3/42
-
+**Sources:** Bestiary 3 pg 42\
 **Experience points:** 9,600
 
 **Armor class:** 23/23/17

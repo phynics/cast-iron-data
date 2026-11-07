@@ -43,8 +43,7 @@ the animal itself._
 
 **Sense:** Scent
 
-**source:** Ultimate Wilderness/198
-
+**Sources:** Ultimate Wilderness pg 198\
 **Experience points:** 65
 
 **Armor class:** 17/17/14

@@ -44,8 +44,7 @@ pair of mandibles._
 
 **Size:** small
 
-**source:** Pathfinder \#122: Into the Shattered Continent/82
-
+**Sources:** Pathfinder \#122: Into the Shattered Continent pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 400

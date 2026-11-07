@@ -50,8 +50,7 @@ shell along with several hooked legs._
 
 **Size:** small
 
-**source:** Book of the Damned/251
-
+**Sources:** Book of the Damned pg 251\
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 1,600

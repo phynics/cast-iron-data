@@ -48,8 +48,7 @@ long forelimbs with clawed fingers._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/260
-
+**Sources:** Bestiary 4 pg 260\
 **Experience points:** 6,400
 
 **Armor class:** 22/13/18

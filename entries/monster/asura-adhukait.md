@@ -47,8 +47,7 @@ with their twin curved knives._
 
 **Perception:** +19
 
-**source:** Bestiary 3/21;Pathfinder \#28: The Infernal Syndrome/82
-
+**Sources:** Bestiary 3 pg 21, Pathfinder \#28: The Infernal Syndrome pg 82\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 3,200

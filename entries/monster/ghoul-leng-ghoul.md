@@ -41,8 +41,7 @@ gleam of intelligence._
 
 **Perception:** +20
 
-**source:** Bestiary 5/120
-
+**Sources:** Bestiary 5 pg 120\
 **Subtype:** Extraplanar
 
 **Type:** undead

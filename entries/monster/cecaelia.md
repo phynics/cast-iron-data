@@ -45,8 +45,7 @@ _In place of legs, this handsome humanoid sports an octopus's eight writhing ten
 
 **Senses:** Tentacle sense 10 ft.
 
-**source:** Bestiary 3/49
-
+**Sources:** Bestiary 3 pg 49\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

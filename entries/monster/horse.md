@@ -44,8 +44,7 @@ loose-fitting barding._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/177
-
+**Sources:** Pathfinder RPG Bestiary pg 177\
 **Experience points:** 400
 
 **Armor class:** 11/11/9

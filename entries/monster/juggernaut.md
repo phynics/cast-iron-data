@@ -44,8 +44,7 @@ _This oppressive construct rumbles forth on deadly rollers, crushing everything 
 
 **Perception:** +4
 
-**source:** Bestiary 4/162
-
+**Sources:** Bestiary 4 pg 162\
 **Experience points:** 12,800
 
 **Armor class:** 26/6/26

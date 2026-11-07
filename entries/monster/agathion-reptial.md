@@ -45,8 +45,7 @@ _This iguana-headed scholar wears a robe of frills and scales covered in baubles
 
 **Size:** small
 
-**source:** Bestiary 5/13
-
+**Sources:** Bestiary 5 pg 13\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 1,200

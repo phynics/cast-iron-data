@@ -40,8 +40,7 @@ _Barely knee-high, this small creature looks like a hairy old man with more bear
 
 **Perception:** +7
 
-**source:** Bestiary 5/142;Pathfinder \#67: The Snows of Summer/86
-
+**Sources:** Bestiary 5 pg 142, Pathfinder \#67: The Snows of Summer pg 86\
 **Size:** tiny
 
 **Experience points:** 800

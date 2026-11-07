@@ -46,8 +46,7 @@ _This sleek and graceful doe possesses long, metallic antlers and a shiny, golde
 
 **Senses:** See invisibility
 
-**source:** Bestiary 5/53
-
+**Sources:** Bestiary 5 pg 53\
 **Experience points:** 3,200
 
 **Armor class:** 25/24/14

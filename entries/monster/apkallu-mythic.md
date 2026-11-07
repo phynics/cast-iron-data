@@ -54,8 +54,7 @@ crafted from opalescent scales._
 
 **Senses:** Detect chaos, True seeing
 
-**source:** Bestiary 5/32
-
+**Sources:** Bestiary 5 pg 32\
 **Subtype:** Extraplanar, Lawful, Mythic, Water
 
 **Experience points:** 819,200

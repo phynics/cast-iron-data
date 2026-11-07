@@ -48,8 +48,7 @@ shield bearing Torag's symbol._
 
 **Perception:** +20
 
-**source:** Inner Sea Gods/310
-
+**Sources:** Inner Sea Gods pg 310\
 **Subtype:** Extraplanar
 
 **Experience points:** 51,200

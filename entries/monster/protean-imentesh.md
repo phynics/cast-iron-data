@@ -46,8 +46,7 @@ claws._
 
 **Perception:** +20
 
-**source:** Bestiary 2/214;Pathfinder \#22: The End of Eternity/84
-
+**Sources:** Bestiary 2 pg 214, Pathfinder \#22: The End of Eternity pg 84\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 9,600

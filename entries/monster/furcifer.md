@@ -48,8 +48,7 @@ sickly-sweet scent fills the swirling air around it._
 
 **Perception:** +16
 
-**source:** Pathfinder \#142: Gardens of Gallowspire/90
-
+**Sources:** Pathfinder \#142: Gardens of Gallowspire pg 90\
 **Experience points:** 25,600
 
 **Aav:** present

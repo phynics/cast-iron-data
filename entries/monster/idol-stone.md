@@ -47,8 +47,7 @@ sneering lord. Flecks of onyx glisten within its eyes, gazing across the gulf in
 
 **Perception:** +7
 
-**source:** Pathfinder \#27: What Lies in Dust/84
-
+**Sources:** Pathfinder \#27: What Lies in Dust pg 84\
 **Experience points:** 800
 
 **Armor class:** 17/13/17

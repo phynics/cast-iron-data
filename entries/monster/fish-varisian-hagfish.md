@@ -40,8 +40,7 @@ _A mouth like a lamprey's gnashes curved teeth at one end of this slimy, eel-lik
 
 **Perception:** +1
 
-**source:** Pathfinder \#56: Raiders of the Fever Sea/82
-
+**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 82\
 **Subtype:** Aquatic
 
 **Size:** tiny

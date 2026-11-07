@@ -43,8 +43,7 @@ glitters in its metallic golden eyes._
 
 **Perception:** +11
 
-**source:** Inner Sea Gods/277
-
+**Sources:** Inner Sea Gods pg 277\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 1,200

@@ -46,8 +46,7 @@ over its emaciated form._
 
 **Senses:** Dragon senses
 
-**source:** Bestiary 6/98
-
+**Sources:** Bestiary 6 pg 98\
 **Subtype:** Extraplanar
 
 **Experience points:** 76,800

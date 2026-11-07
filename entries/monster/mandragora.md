@@ -42,8 +42,7 @@ dirt, and pallid tubers._
 
 **Size:** small
 
-**source:** Bestiary 2/185;Pathfinder \#17: A Memory of Darkness/84
-
+**Sources:** Bestiary 2 pg 185, Pathfinder \#17: A Memory of Darkness pg 84\
 **Experience points:** 1,200
 
 **Armor class:** 17/15/13

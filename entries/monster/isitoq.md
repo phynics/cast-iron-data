@@ -40,8 +40,7 @@ _This bloodshot eyeball trails strands of bloody nerves that fan out like flappi
 
 **Perception:** +7
 
-**source:** Bestiary 4/159
-
+**Sources:** Bestiary 4 pg 159\
 **Type:** undead
 
 **Experience points:** 200

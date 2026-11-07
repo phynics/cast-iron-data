@@ -43,8 +43,7 @@ ring of huge drums and storm clouds._
 
 **Perception:** +29
 
-**source:** Pathfinder \#52: Forest of Spirits/86
-
+**Sources:** Pathfinder \#52: Forest of Spirits pg 86\
 **Subtype:** Air, Kami, Native
 
 **Experience points:** 102,400

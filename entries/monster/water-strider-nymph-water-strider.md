@@ -39,8 +39,7 @@ _These small, immature water insects are easily supported by the water's surface
 
 **Size:** small
 
-**source:** Bestiary 4/273
-
+**Sources:** Bestiary 4 pg 273\
 **tremorParens:** see [giant water strider](ref/monster/water-strider-giant-water-strider)
 
 **tremorsense:** 60

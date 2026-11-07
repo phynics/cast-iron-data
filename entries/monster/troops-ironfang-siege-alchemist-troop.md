@@ -44,8 +44,7 @@ reservoirs brimming with strange fluids._
 
 **Perception:** +22
 
-**source:** Pathfinder \#120: Vault of the Onyx Citadel/88
-
+**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 88\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 76,800

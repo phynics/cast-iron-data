@@ -39,8 +39,7 @@ expressive face._
 
 **Perception:** +8
 
-**source:** Bestiary 2/49
-
+**Sources:** Bestiary 2 pg 49\
 **Size:** tiny
 
 **Experience points:** 400

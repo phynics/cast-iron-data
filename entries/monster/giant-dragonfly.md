@@ -39,8 +39,7 @@ farm animals or people._
 
 **Perception:** +1
 
-**source:** Bestiary 2/105
-
+**Sources:** Bestiary 2 pg 105\
 **Type:** vermin
 
 **Experience points:** 1,200

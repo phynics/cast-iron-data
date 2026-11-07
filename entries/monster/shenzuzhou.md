@@ -44,8 +44,7 @@ stretches across the creature's chest._
 
 **Perception:** +13
 
-**source:** The Ruby Phoenix Tournament/29
-
+**Sources:** The Ruby Phoenix Tournament pg 29\
 **Type:** undead
 
 **Experience points:** 19,200

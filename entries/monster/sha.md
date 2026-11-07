@@ -46,8 +46,7 @@ unnatural origins of this black canine._
 
 **Senses:** Sandstorm sight
 
-**source:** Bestiary 5/226;Pathfinder \#80: Empty Graves/86
-
+**Sources:** Bestiary 5 pg 226, Pathfinder \#80: Empty Graves pg 86\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/13

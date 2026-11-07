@@ -42,8 +42,7 @@ _This large, plump caterpillar is brilliantly colored and has a strangely self-i
 
 **Size:** small
 
-**source:** Gallows of Madness/62
-
+**Sources:** Gallows of Madness pg 62\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

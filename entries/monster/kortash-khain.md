@@ -48,8 +48,7 @@ _This withered humanoid wears sooty, fire-blackened robes and a headdress of bla
 
 **Senses:** Deathwatch (30 ft.), True seeing
 
-**source:** Mythic Realms/54
-
+**Sources:** Mythic Realms pg 54\
 **Type:** undead
 
 **Experience points:** 819,200

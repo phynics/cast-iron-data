@@ -42,8 +42,7 @@ _This crimson-skinned genie has an artificial, sculpted appearance._
 
 **Perception:** +0
 
-**source:** Tombs of Golarion/22
-
+**Sources:** Tombs of Golarion pg 22\
 **Subtype:** Clockwork
 
 **Size:** tiny

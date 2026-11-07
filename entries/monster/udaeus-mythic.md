@@ -48,8 +48,7 @@ _This armored humanoid has skin resembling white bone, carved with images of wea
 
 **Perception:** +5
 
-**source:** Bestiary 4/267
-
+**Sources:** Bestiary 4 pg 267\
 **Subtype:** Mythic
 
 **Experience points:** 1,200

@@ -43,8 +43,7 @@ to mist._
 
 **Perception:** +16
 
-**source:** Bestiary 3/248
-
+**Sources:** Bestiary 3 pg 248\
 **Experience points:** 12,800
 
 **Armor class:** 25/13/21

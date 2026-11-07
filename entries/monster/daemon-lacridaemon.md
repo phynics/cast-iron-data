@@ -47,8 +47,7 @@ tears. Frost crusts its flesh._
 
 **Senses:** Detect good, Detect magic
 
-**source:** Bestiary 6/71;Book of the Damned - Volume 3: Horsemen of the Apocalypse/48
-
+**Sources:** Bestiary 6 pg 71, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 48\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 800

@@ -51,8 +51,7 @@ black-winged woman._
 
 **Senses:** Detect evil, Detect good, True seeing
 
-**source:** Bestiary 6/219;Inner Sea Bestiary/39
-
+**Sources:** Bestiary 6 pg 219, Inner Sea Bestiary pg 39\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 51,200

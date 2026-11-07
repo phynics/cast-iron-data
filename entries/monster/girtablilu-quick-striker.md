@@ -45,8 +45,7 @@ _Foul liquid drips in equal measure from this scorpion-woman's fearsome spear an
 
 **Perception:** +25
 
-**source:** Inner Sea Monster Codex/38
-
+**Sources:** Inner Sea Monster Codex pg 38\
 **tremorsense:** 30
 
 **Experience points:** 19,200

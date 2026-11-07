@@ -46,8 +46,7 @@ _A merging of an emaciated man and a porcupine, this sinister creature smells of
 
 **Size:** small
 
-**source:** Bestiary 3/223
-
+**Sources:** Bestiary 3 pg 223\
 **Subtype:** Shapechanger
 
 **Experience points:** 3,200

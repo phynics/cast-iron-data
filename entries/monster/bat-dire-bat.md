@@ -41,8 +41,7 @@ two men with arms outstretched._
 
 **Perception:** +12
 
-**source:** Pathfinder RPG Bestiary/30
-
+**Sources:** Pathfinder RPG Bestiary pg 30\
 **Experience points:** 600
 
 **Armor class:** 14/11/12

@@ -44,8 +44,7 @@ sweeping back from its skull._
 
 **Sense:** Scent
 
-**source:** Bestiary 4/59
-
+**Sources:** Bestiary 4 pg 59\
 **Experience points:** 1,600
 
 **Armor class:** 19/10/18

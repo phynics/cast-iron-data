@@ -43,8 +43,7 @@ leaves and blossoms._
 
 **Perception:** +11
 
-**source:** Pathfinder RPG Bestiary/116
-
+**Sources:** Pathfinder RPG Bestiary pg 116\
 **Experience points:** 800
 
 **Armor class:** 17/14/13

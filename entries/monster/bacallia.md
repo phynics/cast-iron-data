@@ -43,8 +43,7 @@ _This animal resembles an alpaca with voluminous, shiny wool._
 
 **Perception:** +5
 
-**source:** Druma, Profit and Prophecy/62
-
+**Sources:** Druma, Profit and Prophecy pg 62\
 **Experience points:** 400
 
 **Armor class:** 12/12/11

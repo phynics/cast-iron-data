@@ -46,8 +46,7 @@ origins._
 
 **Sense:** Scent
 
-**source:** Qadira, Jewel of the East/60
-
+**Sources:** Qadira, Jewel of the East pg 60\
 **Experience points:** 2,400
 
 **Armor class:** 19/11/17

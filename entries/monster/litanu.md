@@ -42,8 +42,7 @@ maws protruding from its back._
 
 **Perception:** +20
 
-**source:** Pathfinder \#125: Tower of the Drowned Dead/84
-
+**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 84\
 **Subtype:** Aquatic
 
 **Type:** undead

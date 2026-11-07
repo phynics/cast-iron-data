@@ -41,8 +41,7 @@ electric-blue tendrils._
 
 **Perception:** +14
 
-**source:** Inner Sea Bestiary/49
-
+**Sources:** Inner Sea Bestiary pg 49\
 **Type:** undead
 
 **Experience points:** 3,200

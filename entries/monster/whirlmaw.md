@@ -45,8 +45,7 @@ with rows of razor-sharp teeth._
 
 **Senses:** Keen sight
 
-**source:** Inner Sea Bestiary/60
-
+**Sources:** Inner Sea Bestiary pg 60\
 **tremorsense:** 30
 
 **Experience points:** 4,800

@@ -43,8 +43,7 @@ about to croak._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/268
-
+**Sources:** Bestiary 2 pg 268\
 **Experience points:** 600
 
 **Armor class:** 14/10/13

@@ -47,8 +47,7 @@ _A single wicked horn grows from the forehead of this stocky, oryx-like creature
 
 **Senses:** Detect evil, Detect good
 
-**source:** Bestiary 5/148
-
+**Sources:** Bestiary 5 pg 148\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

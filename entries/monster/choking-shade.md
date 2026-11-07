@@ -40,8 +40,7 @@ _A vague humanoid shape composed of whirling dust and shards of bone hovers mena
 
 **Perception:** +12
 
-**source:** Pathfinder \#134: It Came from Hollow Mountain/82
-
+**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 82\
 **Subtype:** Incorporeal
 
 **Type:** undead

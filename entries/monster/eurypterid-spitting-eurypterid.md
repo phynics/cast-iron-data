@@ -39,8 +39,7 @@ abilities = ["34", "10", "24", "-", "13", "2"]
 
 **Perception:** +1
 
-**source:** Pathfinder \#37: Souls for Smuggler's Shiv/79
-
+**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 79\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

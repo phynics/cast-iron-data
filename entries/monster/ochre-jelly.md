@@ -41,8 +41,7 @@ slow approach._
 
 **Perception:** -5
 
-**source:** Pathfinder RPG Bestiary/218
-
+**Sources:** Pathfinder RPG Bestiary pg 218\
 **Experience points:** 1,600
 
 **Armor class:** 4/4/4

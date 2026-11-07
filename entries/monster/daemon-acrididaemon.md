@@ -46,8 +46,7 @@ entirely of swarming locusts._
 
 **Senses:** Detect good, Detect magic, See invisibility
 
-**source:** Feast of Dust/61
-
+**Sources:** Feast of Dust pg 61\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 38,400

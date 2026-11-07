@@ -43,8 +43,7 @@ backward-curving horn._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/91
-
+**Sources:** Bestiary 2 pg 91\
 **Experience points:** 1,200
 
 **Armor class:** 17/10/15

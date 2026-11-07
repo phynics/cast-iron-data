@@ -40,8 +40,7 @@ _Buzzing with an ear-shattering drone, this cloud is full of particularly viciou
 
 **Perception:** +1
 
-**source:** Pathfinder \#79: The Half-Dead City/88
-
+**Sources:** Pathfinder \#79: The Half-Dead City pg 88\
 **Subtype:** Swarm
 
 **Type:** vermin

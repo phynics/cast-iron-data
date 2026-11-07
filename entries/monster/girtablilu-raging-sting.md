@@ -46,8 +46,7 @@ against the leather of his armor._
 
 **Perception:** +18
 
-**source:** Inner Sea Monster Codex/36
-
+**Sources:** Inner Sea Monster Codex pg 36\
 **tremorsense:** 30
 
 **Experience points:** 6,400

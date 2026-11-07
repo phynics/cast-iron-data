@@ -50,8 +50,7 @@ be._
 
 **Sense:** Sid
 
-**source:** Bestiary 6/276
-
+**Sources:** Bestiary 6 pg 276\
 **Subtype:** Extraplanar, Incorporeal
 
 **Experience points:** 307,200

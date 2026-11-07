@@ -49,8 +49,7 @@ are mottled with other colors._
 
 **Sense:** Scent
 
-**source:** Mythic Adventures/223
-
+**Sources:** Mythic Adventures pg 223\
 **Subtype:** Mythic
 
 **Experience points:** 4,800

@@ -44,8 +44,7 @@ _Fungus drips from this grotesque tree's ridged bark as its branches wave like b
 
 **Type:** plant
 
-**source:** Pathfinder \#119: Prisoners of the Blight/86
-
+**Sources:** Pathfinder \#119: Prisoners of the Blight pg 86\
 **Experience points:** 25,600
 
 **Aav:** present

@@ -42,8 +42,7 @@ along its back that hold human brains._
 
 **Perception:** +17
 
-**source:** Bestiary 2/197
-
+**Sources:** Bestiary 2 pg 197\
 **Experience points:** 4,800
 
 **Armor class:** 21/19/18

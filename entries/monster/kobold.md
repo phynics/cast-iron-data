@@ -45,8 +45,7 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/183
-
+**Sources:** Pathfinder RPG Bestiary pg 183\
 **Subtype:** Reptilian
 
 **Experience points:** 100

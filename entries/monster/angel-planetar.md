@@ -49,8 +49,7 @@ white-feathered wings._
 
 **Senses:** Detect evil, Detect snares and pits, True seeing
 
-**source:** Pathfinder RPG Bestiary/11
-
+**Sources:** Pathfinder RPG Bestiary pg 11\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 76,800

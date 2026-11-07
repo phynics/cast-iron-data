@@ -46,8 +46,7 @@ molten heat._
 
 **Perception:** +37
 
-**source:** Bestiary 4/168
-
+**Sources:** Bestiary 4 pg 168\
 **Subtype:** Earth, Kaiju
 
 **tremorsense:** 600

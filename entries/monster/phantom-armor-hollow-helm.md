@@ -39,8 +39,7 @@ lumbering movements slow and methodical._
 
 **Perception:** +5
 
-**source:** Pathfinder \#47: Ashes at Dawn/84
-
+**Sources:** Pathfinder \#47: Ashes at Dawn pg 84\
 **Size:** tiny
 
 **Type:** undead

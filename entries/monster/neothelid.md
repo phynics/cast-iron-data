@@ -44,8 +44,7 @@ head rises like a snake's._
 
 **Senses:** Trace teleport 60 ft.
 
-**source:** Pathfinder RPG Bestiary/214
-
+**Sources:** Pathfinder RPG Bestiary pg 214\
 **Experience points:** 51,200
 
 **Armor class:** 30/4/30

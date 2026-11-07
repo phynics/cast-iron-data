@@ -46,8 +46,7 @@ sides of its wide mouth, and its slimy skin undulates with sickening shudders._
 
 **Perception:** +10
 
-**source:** Pathfinder \#125: Tower of the Drowned Dead/88
-
+**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 88\
 **Subtype:** Aquatic
 
 **thoughtsense:** 60

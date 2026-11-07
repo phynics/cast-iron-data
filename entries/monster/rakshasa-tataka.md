@@ -48,8 +48,7 @@ exaggerated features._
 
 **Senses:** True seeing
 
-**source:** Bestiary 3/230
-
+**Sources:** Bestiary 3 pg 230\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 51,200

@@ -43,8 +43,7 @@ _This beautiful, impossibly intricate tattoo appears to swirl and move along its
 
 **Perception:** +1
 
-**source:** Occult Bestiary/54
-
+**Sources:** Occult Bestiary pg 54\
 **Experience points:** 800
 
 **Armor class:** 15/13/12

@@ -48,8 +48,7 @@ five spidery legs._
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Bestiary 6/232
-
+**Sources:** Bestiary 6 pg 232\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **tremorsense:** 60

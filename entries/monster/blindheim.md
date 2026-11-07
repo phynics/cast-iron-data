@@ -44,8 +44,7 @@ glowing white eyes._
 
 **Size:** small
 
-**source:** Bestiary 2/46
-
+**Sources:** Bestiary 2 pg 46\
 **Experience points:** 600
 
 **Armor class:** 16/14/13

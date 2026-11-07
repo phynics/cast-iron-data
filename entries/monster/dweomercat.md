@@ -42,8 +42,7 @@ abilities = ["15", "23", "16", "13", "16", "16"]
 
 **Sense:** Scent
 
-**source:** Pathfinder \#36: Sound of a Thousand Screams/82
-
+**Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 82\
 **Experience points:** 3,200
 
 **Armor class:** 23/17/16

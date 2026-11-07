@@ -52,8 +52,7 @@ golden armor._
 
 **Senses:** Detect evil, True seeing
 
-**source:** Bestiary 6/114
-
+**Sources:** Bestiary 6 pg 114\
 **Subtype:** Angel, Extraplanar, Good, Lawful
 
 **Experience points:** 2,457,600

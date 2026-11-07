@@ -44,8 +44,7 @@ made of humanoid teeth and clutches a tooth-studded scepter._
 
 **Size:** small
 
-**source:** Pathfinder \#139: The Dead Road/88
-
+**Sources:** Pathfinder \#139: The Dead Road pg 88\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

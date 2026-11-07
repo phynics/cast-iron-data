@@ -42,8 +42,7 @@ _This maggot-like creature has a long tail covered with frightening hooked sucke
 
 **Perception:** +13
 
-**source:** Bestiary 5/136;The Worldwound/55
-
+**Sources:** Bestiary 5 pg 136, The Worldwound pg 55\
 **Subtype:** Extraplanar
 
 **tremorsense:** 30

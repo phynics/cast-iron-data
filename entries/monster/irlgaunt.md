@@ -47,8 +47,7 @@ alien aperture._
 
 **Perception:** +21
 
-**source:** Pathfinder \#35: War of the River Kings/84
-
+**Sources:** Pathfinder \#35: War of the River Kings pg 84\
 **Experience points:** 25,600
 
 **Armor class:** 29/18/20

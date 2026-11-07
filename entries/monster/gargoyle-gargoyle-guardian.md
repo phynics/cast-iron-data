@@ -45,8 +45,7 @@ innocent passers-by. Then it moves - to do just that._
 
 **Perception:** +0
 
-**source:** Pathfinder \#48: Shadows of Gallowspire/84
-
+**Sources:** Pathfinder \#48: Shadows of Gallowspire pg 84\
 **Experience points:** 4,800
 
 **Armor class:** 22/11/20

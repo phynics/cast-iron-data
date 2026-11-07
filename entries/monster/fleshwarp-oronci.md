@@ -43,8 +43,7 @@ the sinewy shape of a centipede._
 
 **Perception:** +5
 
-**source:** Inner Sea Bestiary/36
-
+**Sources:** Inner Sea Bestiary pg 36\
 **tremorsense:** 60
 
 **Experience points:** 1,600

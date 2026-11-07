@@ -48,8 +48,7 @@ _This slender, seductive woman has bone-white skin and an otherworldly beauty._
 
 **Perception:** +24
 
-**source:** Fey Revisited/38
-
+**Sources:** Fey Revisited pg 38\
 **Experience points:** 51,200
 
 **Armor class:** 29/28/21

@@ -44,8 +44,7 @@ _These hobgoblin knights ride atop brutish stinking yaks that paw the ground ang
 
 **Perception:** +16
 
-**source:** Pathfinder \#120: Vault of the Onyx Citadel/89
-
+**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 89\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 153,600

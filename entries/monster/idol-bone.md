@@ -48,8 +48,7 @@ together. The thing's misshapen head leers forward, carved with a demonic, ape-l
 
 **Perception:** +4
 
-**source:** Pathfinder \#27: What Lies in Dust/82
-
+**Sources:** Pathfinder \#27: What Lies in Dust pg 82\
 **Experience points:** 600
 
 **Armor class:** 16/15/15

@@ -47,8 +47,7 @@ between her hands._
 
 **Perception:** +25
 
-**source:** Bestiary 6/37
-
+**Sources:** Bestiary 6 pg 37\
 **Experience points:** 19,200
 
 **Armor class:** 27/21/16

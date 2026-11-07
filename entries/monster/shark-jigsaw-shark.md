@@ -44,8 +44,7 @@ teeth tell of the frequency and ferocity with which it uses its bite._
 
 **Perception:** +6
 
-**source:** Pathfinder \#57: Tempest Rising/85
-
+**Sources:** Pathfinder \#57: Tempest Rising pg 85\
 **Subtype:** Aquatic
 
 **Experience points:** 400

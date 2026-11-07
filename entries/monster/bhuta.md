@@ -42,8 +42,7 @@ and its eyes glow with blue fire._
 
 **Sense:** Scent
 
-**source:** Bestiary 3/41
-
+**Sources:** Bestiary 3 pg 41\
 **Subtype:** Incorporeal
 
 **Type:** undead

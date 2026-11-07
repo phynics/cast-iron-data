@@ -42,8 +42,7 @@ tendrils._
 
 **Perception:** +1
 
-**source:** Bestiary 6/169
-
+**Sources:** Bestiary 6 pg 169\
 **Subtype:** Aquatic
 
 **Type:** vermin

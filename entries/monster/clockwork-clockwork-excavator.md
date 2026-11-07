@@ -50,8 +50,7 @@ arm._
 
 **Senses:** Metal sense 120 ft.
 
-**source:** Pathfinder \#117: Assault on Longshadow/84
-
+**Sources:** Pathfinder \#117: Assault on Longshadow pg 84\
 **Subtype:** Clockwork
 
 **Experience points:** 9,600

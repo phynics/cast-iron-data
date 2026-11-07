@@ -45,8 +45,7 @@ emerge._
 
 **Perception:** +20
 
-**source:** Bestiary 6/186;Pathfinder \#66: The Dead Heart of Xin/90
-
+**Sources:** Bestiary 6 pg 186, Pathfinder \#66: The Dead Heart of Xin pg 90\
 **Subtype:** Shapechanger
 
 **Experience points:** 38,400

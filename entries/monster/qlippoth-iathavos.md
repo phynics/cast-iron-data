@@ -49,8 +49,7 @@ and two huge claws dangle below._
 
 **Perception:** +37
 
-**source:** Bestiary 2/222
-
+**Sources:** Bestiary 2 pg 222\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 307,200

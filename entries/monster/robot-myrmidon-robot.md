@@ -47,8 +47,7 @@ _This metallic creature has pincer-tipped arms, a single red eye, and an array o
 
 **Senses:** Superior optics
 
-**source:** Bestiary 5/208;Inner Sea Bestiary/45
-
+**Sources:** Bestiary 5 pg 208, Inner Sea Bestiary pg 45\
 **Subtype:** Robot
 
 **Experience points:** 12,800

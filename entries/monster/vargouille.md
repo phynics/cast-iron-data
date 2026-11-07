@@ -43,8 +43,7 @@ its fanged mouth hangs agape._
 
 **Size:** small
 
-**source:** Pathfinder RPG Bestiary/272
-
+**Sources:** Pathfinder RPG Bestiary pg 272\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 600

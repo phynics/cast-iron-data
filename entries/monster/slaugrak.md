@@ -48,8 +48,7 @@ reminiscent of sickle blades._
 
 **Sense:** Sid
 
-**source:** Monster Codex/220
-
+**Sources:** Monster Codex pg 220\
 **Subtype:** Chaotic, Evil, Extraplanar, Native
 
 **Experience points:** 2,400

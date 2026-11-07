@@ -47,8 +47,7 @@ _This ferocious creature looks like a red-and-yellow scaled dragon, but with onl
 
 **Sense:** Scent
 
-**source:** Bestiary 2/106;Conquest of Bloodsworn Vale/30
-
+**Sources:** Bestiary 2 pg 106, Conquest of Bloodsworn Vale pg 30\
 **Subtype:** Fire
 
 **Experience points:** 1,600

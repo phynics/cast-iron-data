@@ -43,8 +43,7 @@ and claws._
 
 **Senses:** Sin-scent
 
-**source:** Pathfinder \#61: Shards of Sin/83
-
+**Sources:** Pathfinder \#61: Shards of Sin pg 83\
 **Subtype:** Swarm
 
 **Size:** tiny

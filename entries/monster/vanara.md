@@ -46,8 +46,7 @@ prehensile tail._
 
 **Perception:** +7
 
-**source:** Bestiary 3/280
-
+**Sources:** Bestiary 3 pg 280\
 **Subtype:** Vanara
 
 **Experience points:** 200

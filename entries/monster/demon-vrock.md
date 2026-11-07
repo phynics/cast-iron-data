@@ -43,8 +43,7 @@ vulture._
 
 **Perception:** +23
 
-**source:** Pathfinder RPG Bestiary/69
-
+**Sources:** Pathfinder RPG Bestiary pg 69\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 6,400

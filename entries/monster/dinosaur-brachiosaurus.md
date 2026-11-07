@@ -43,8 +43,7 @@ small head pulls food from the treetop._
 
 **Sense:** Scent
 
-**source:** Pathfinder RPG Bestiary/83
-
+**Sources:** Pathfinder RPG Bestiary pg 83\
 **Experience points:** 9,600
 
 **Armor class:** 18/6/18

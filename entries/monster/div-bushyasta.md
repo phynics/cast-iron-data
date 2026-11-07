@@ -47,8 +47,7 @@ save for her wide, fang-filled mouth._
 
 **Sense:** Sid
 
-**source:** Book of the Damned/248
-
+**Sources:** Book of the Damned pg 248\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 2,400

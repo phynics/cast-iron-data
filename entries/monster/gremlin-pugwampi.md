@@ -44,8 +44,7 @@ creature slinks forward carefully._
 
 **Perception:** +6
 
-**source:** Bestiary 2/144;Pathfinder \#19: Howl of the Carrion King/83
-
+**Sources:** Bestiary 2 pg 144, Pathfinder \#19: Howl of the Carrion King pg 83\
 **Size:** tiny
 
 **Experience points:** 200

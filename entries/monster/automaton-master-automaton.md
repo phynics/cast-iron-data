@@ -51,8 +51,7 @@ in its head glows with light._
 
 **Senses:** True seeing
 
-**source:** Construct Handbook/26
-
+**Sources:** Construct Handbook pg 26\
 **Subtype:** Extraplanar
 
 **Experience points:** 307,200

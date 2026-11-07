@@ -44,8 +44,7 @@ creature moves._
 
 **Perception:** +10
 
-**source:** Bestiary 3/167
-
+**Sources:** Bestiary 3 pg 167\
 **Experience points:** 800
 
 **Armor class:** 16/13/13

@@ -49,8 +49,7 @@ and carries a quiver full of arrows on its back._
 
 **Size:** small
 
-**source:** Pathfinder \#103: The Hellfire Compact/82
-
+**Sources:** Pathfinder \#103: The Hellfire Compact pg 82\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 800

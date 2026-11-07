@@ -43,8 +43,7 @@ skitters forward._
 
 **Sense:** Scent
 
-**source:** Bestiary 2/265
-
+**Sources:** Bestiary 2 pg 265\
 **Subtype:** Swarm
 
 **Type:** vermin

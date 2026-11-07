@@ -45,8 +45,7 @@ _Jade armor covers this lean albino humanoid, and her pale eyes have an eerie gl
 
 **Perception:** +6
 
-**source:** Bestiary 6/197;Occult Bestiary/34
-
+**Sources:** Bestiary 6 pg 197, Occult Bestiary pg 34\
 **Subtype:** Munavri
 
 **Experience points:** 400

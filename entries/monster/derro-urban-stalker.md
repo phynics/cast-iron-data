@@ -45,8 +45,7 @@ weapon glistens with poison._
 
 **Size:** small
 
-**source:** Inner Sea Monster Codex/25
-
+**Sources:** Inner Sea Monster Codex pg 25\
 **Subtype:** Derro
 
 **Experience points:** 3,200

@@ -46,8 +46,7 @@ piscine head features a toothy maw._
 
 **Perception:** +6
 
-**source:** Pathfinder RPG Bestiary/239
-
+**Sources:** Pathfinder RPG Bestiary pg 239\
 **Subtype:** Aquatic
 
 **Experience points:** 600

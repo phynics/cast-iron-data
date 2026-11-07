@@ -50,8 +50,7 @@ its back._
 
 **Senses:** Detect law
 
-**source:** Bestiary 6/209;Pathfinder \#101: The Kintargo Contract/84
-
+**Sources:** Bestiary 6 pg 209, Pathfinder \#101: The Kintargo Contract pg 84\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 51,200

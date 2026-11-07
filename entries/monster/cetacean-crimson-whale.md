@@ -44,8 +44,7 @@ menacingly strong jaws, and blood-red skin._
 
 **Perception:** +21
 
-**source:** Pathfinder \#59: The Price of Infamy/87
-
+**Sources:** Pathfinder \#59: The Price of Infamy pg 87\
 **Experience points:** 4,800
 
 **Armor class:** 22/4/22

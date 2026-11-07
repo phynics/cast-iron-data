@@ -42,8 +42,7 @@ _A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-
 
 **Senses:** Detect thoughts
 
-**source:** Pathfinder RPG Bestiary/211
-
+**Sources:** Pathfinder RPG Bestiary pg 211\
 **Experience points:** 4,800
 
 **Armor class:** 22/15/16

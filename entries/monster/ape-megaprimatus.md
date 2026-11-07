@@ -44,8 +44,7 @@ leathery._
 
 **Sense:** Scent
 
-**source:** Bestiary 5/31
-
+**Sources:** Bestiary 5 pg 31\
 **Experience points:** 4,800
 
 **Armor class:** 21/8/19

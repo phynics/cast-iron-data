@@ -46,8 +46,7 @@ long fingers and nails._
 
 **Size:** small
 
-**source:** Bestiary 5/219;Pathfinder \#69: Maiden, Mother, Crone/88
-
+**Sources:** Bestiary 5 pg 219, Pathfinder \#69: Maiden, Mother, Crone pg 88\
 **Experience points:** 3,200
 
 **Armor class:** 21/18/14

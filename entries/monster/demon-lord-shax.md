@@ -50,8 +50,7 @@ daggers in his dripping hands._
 
 **Senses:** Detect good, Detect law, True seeing
 
-**source:** Pathfinder \#74: Sword of Valor/84
-
+**Sources:** Pathfinder \#74: Sword of Valor pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 4,915,200

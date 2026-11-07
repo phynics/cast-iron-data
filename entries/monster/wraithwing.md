@@ -41,8 +41,7 @@ wings sprouts from its hunched back._
 
 **Perception:** +11
 
-**source:** Pathfinder \#101: The Kintargo Contract/88
-
+**Sources:** Pathfinder \#101: The Kintargo Contract pg 88\
 **Type:** undead
 
 **Experience points:** 1,200

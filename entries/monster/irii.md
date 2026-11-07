@@ -46,8 +46,7 @@ and shimmering gossamer wings._
 
 **Perception:** +31
 
-**source:** Planar Adventures/238
-
+**Sources:** Planar Adventures pg 238\
 **Subtype:** Extraplanar, Shapechanger
 
 **Experience points:** 204,800

@@ -44,8 +44,7 @@ from the top of its head._
 
 **Sense:** Scent
 
-**source:** Bestiary 6/185
-
+**Sources:** Bestiary 6 pg 185\
 **Experience points:** 6,400
 
 **Armor class:** 23/8/23

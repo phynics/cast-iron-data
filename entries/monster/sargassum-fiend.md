@@ -44,8 +44,7 @@ algae, continually changing._
 
 **Type:** plant
 
-**source:** Bestiary 3/235
-
+**Sources:** Bestiary 3 pg 235\
 **Subtype:** Aquatic
 
 **tremorsense:** 120

@@ -46,8 +46,7 @@ glistens on its scales._
 
 **Perception:** +11
 
-**source:** Occult Bestiary/61
-
+**Sources:** Occult Bestiary pg 61\
 **Subtype:** Reptilian
 
 **Experience points:** 1,200

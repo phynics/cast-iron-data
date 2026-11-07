@@ -42,8 +42,7 @@ of shaggy hair, and the lower half of his face is obscured by a bristly, dark be
 
 **Perception:** +12
 
-**source:** Pathfinder \#116: Fangs of War/88
-
+**Sources:** Pathfinder \#116: Fangs of War pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 17/11/15

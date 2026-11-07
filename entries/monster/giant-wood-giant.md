@@ -43,8 +43,7 @@ somewhat primitive visage._
 
 **Perception:** +11
 
-**source:** Bestiary 2/132
-
+**Sources:** Bestiary 2 pg 132\
 **Subtype:** Giant
 
 **Experience points:** 2,400
