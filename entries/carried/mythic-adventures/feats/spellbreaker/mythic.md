@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Spellbreaker/Mythic", path = "mythic_adventures/feat/spellbreaker_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/spellbreaker", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Spellbreaker."
-prerequisite_feats = ["ref/feat/spellbreaker"]
 benefit = "Any non-mythic creature you threaten provokes an attack of opportunity from you whenever it uses a spell or spell-like ability, even when casting defensively or casting a quickened spell. If a non-mythic creature within 30 feet of you uses a spell or spell-like ability, you can expend one use of mythic power to make a ranged attack against that creature as an attack of opportunity (even if the creature wouldn't normally provoke attacks of opportunity). You must have a ranged weapon in hand or have a free hand and the non-mythic Quick Draw feat to use this ability. You can use this ability against a mythic creature by expending two uses of mythic power."
 +++
 

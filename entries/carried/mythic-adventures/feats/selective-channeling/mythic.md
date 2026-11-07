@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Selective Channeling/Mythic", path = "mythic_adventures/feat/selective_channeling_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/selective-channeling", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Selective Channeling."
-prerequisite_feats = ["ref/feat/selective-channeling"]
 benefit = "When you channel energy, the damage you heal or deal increases by a number of points equal to twice the number of targets you excluded from your channeled energy. You can expend one use of mythic power to increase the number of targets you exclude from your channeled energy by half your tier."
 +++
 

@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Elven Accuracy/Mythic", path = "mythic_adventures/feat/elven_accuracy_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/elven-accuracy", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Elven Accuracy."
-prerequisite_feats = ["ref/feat/elven-accuracy"]
 benefit = "When you make an attack with a longbow or short bow (including composite bows), you can ignore concealment, but not total concealment. You still suffer a miss chance for total concealment, but if you miss due to total concealment, you may reroll your miss chance as per Elven Accuracy."
 +++
 

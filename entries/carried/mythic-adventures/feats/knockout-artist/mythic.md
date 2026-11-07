@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Knockout Artist/Mythic", path = "mythic_adventures/feat/knockout_artist_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/knockout-artist", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Knockout Artist."
-prerequisite_feats = ["ref/feat/knockout-artist"]
 benefit = "When you use your unarmed strike to deal nonlethal damage and sneak attack damage to an opponent, roll d8s for each sneak attack die instead of d6s."
 +++
 

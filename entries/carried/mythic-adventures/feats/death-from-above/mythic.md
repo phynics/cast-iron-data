@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Death from Above/Mythic", path = "mythic_adventures/feat/death_from_above_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/death-from-above", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Death from Above."
-prerequisite_feats = ["ref/feat/death-from-above"]
 benefit = "Whenever you charge an opponent from higher ground, or from above while flying, the critical multiplier of your weapon increases by 2 (to a maximum of ×6). This doesn't stack with other abilities that increase a weapon's critical multiplier. If your charge attack hits, you can perform a trip combat maneuver against the attack's target as a free action without provoking attacks of opportunity."
 +++
 

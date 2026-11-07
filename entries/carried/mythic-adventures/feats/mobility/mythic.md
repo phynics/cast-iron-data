@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Mobility/Mythic", path = "mythic_adventures/feat/mobility_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/mobility", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Mobility."
-prerequisite_feats = ["ref/feat/mobility"]
 benefit = "Whenever you use Mobility, you gain a +6 dodge bonus to AC instead of the normal +4. In addition, once per round when an attack of opportunity provoked by your movement misses you, you may move 5 feet as a free action. This movement doesn't count against your total overall movement for the round, but it does provoke attacks of opportunity."
 +++
 

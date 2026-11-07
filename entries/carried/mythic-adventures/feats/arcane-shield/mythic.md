@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Arcane Shield/Mythic", path = "mythic_adventures/feat/arcane_shield_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/arcane-shield", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Arcane Shield."
-prerequisite_feats = ["ref/feat/arcane-shield"]
 benefit = "You add half your tier to the deflection bonus granted to your AC when you use your Arcane Shield. You can expend one use of mythic power when using this feat to extend the duration to a number of rounds equal to your tier."
 +++
 

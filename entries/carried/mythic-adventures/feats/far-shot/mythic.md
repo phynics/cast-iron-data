@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Far Shot/Mythic", path = "mythic_adventures/feat/far_shot_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/far-shot", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Far Shot."
-prerequisite_feats = ["ref/feat/far-shot"]
 benefit = "As a swift action, you can expend one use of mythic power to ignore all range increment penalties for your ranged attacks until the end of your turn."
 +++
 

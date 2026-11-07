@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Strike Back/Mythic", path = "mythic_adventures/feat/strike_back_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/strike-back", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Strike Back."
-prerequisite_feats = ["ref/feat/strike-back"]
 benefit = "When you make a melee attack as a readied action against a foe outside your melee reach, you can take a 5-foot step toward that foe. If you expend one use of mythic power, you can move your speed toward the foe instead. Neither of these counts toward the movement made during your turn."
 +++
 

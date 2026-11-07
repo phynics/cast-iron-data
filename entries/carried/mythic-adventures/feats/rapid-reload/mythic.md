@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Rapid Reload/Mythic", path = "mythic_adventures/feat/rapid_reload_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/rapid-reload", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Rapid Reload."
-prerequisite_feats = ["ref/feat/rapid-reload"]
 benefit = "You gain the benefits of Rapid Reload with all crossbows and firearms, not just the one you originally chose when you gained that feat. As a swift action, you can expend one use of mythic power to gain the ability to reload crossbows and firearms without provoking attacks of opportunity for 1 minute."
 +++
 

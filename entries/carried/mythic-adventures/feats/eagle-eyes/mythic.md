@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Eagle Eyes/Mythic", path = "mythic_adventures/feat/eagle_eyes_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/eagle-eyes", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Eagle Eyes."
-prerequisite_feats = ["ref/feat/eagle-eyes"]
 benefit = "You ignore up to –10 in penalties due to distance on visual Perception checks, instead of the normal –5. As a swift action, you can expend one use of mythic power to ignore all penalties due to distance on visual Perception checks for 1 round."
 +++
 

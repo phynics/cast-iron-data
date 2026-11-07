@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Nimble Moves/Mythic", path = "mythic_adventures/feat/nimble_moves_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/nimble-moves", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Nimble Moves."
-prerequisite_feats = ["ref/feat/nimble-moves"]
 benefit = "For every 2 tiers you possess, you can move through up to 5 feet of difficult terrain each round as if it were normal terrain (minimum 5 feet). This effect stacks with those provided by Nimble Moves and Acrobatic Steps."
 +++
 

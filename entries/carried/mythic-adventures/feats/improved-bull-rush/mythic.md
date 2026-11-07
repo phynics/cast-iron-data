@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Improved Bull Rush/Mythic", path = "mythic_adventures/feat/improved_bull_rush_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/improved-bull-rush", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Improved Bull Rush."
-prerequisite_feats = ["ref/feat/improved-bull-rush"]
 benefit = "You gain a bonus equal to half your tier on checks to bull rush, and to your CMD when an opponent bull rushes you. These bonuses stack with those granted by non-mythic Improved Bull Rush. Furthermore, you can make an attack of opportunity against any creature that attempts to bull rush you, unless it also has this feat."
 +++
 

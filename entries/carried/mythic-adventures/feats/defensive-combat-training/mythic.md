@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Defensive Combat Training/Mythic", path = "mythic_adventures/feat/defensive_combat_training_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/defensive-combat-training", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Defensive Combat Training, 4th mythic tier."
-prerequisite_feats = ["ref/feat/defensive-combat-training"]
 benefit = "Add half your tier to your CMD."
 +++
 

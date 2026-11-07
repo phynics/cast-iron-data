@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Elemental Fist/Mythic", path = "mythic_adventures/feat/elemental_fist_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/elemental-fist", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Elemental Fist."
-prerequisite_feats = ["ref/feat/elemental-fist"]
 benefit = "The extra energy damage dealt by Elemental Fist increases to 1d8 points, and you gain additional uses of Elemental Fist per day equal to your tier. You can expend one use of mythic power as an immediate action to add the extra damage from your Elemental Fist to all of the unarmed strikes you make until the beginning of your next turn. This counts as only one use of Elemental Fist, regardless of the number of attacks that you make in this fashion."
 +++
 

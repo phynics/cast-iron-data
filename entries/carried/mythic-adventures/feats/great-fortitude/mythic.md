@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Great Fortitude/Mythic", path = "mythic_adventures/feat/great_fortitude_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/great-fortitude", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Great Fortitude."
-prerequisite_feats = ["ref/feat/great-fortitude"]
 benefit = "Whenever you roll a Fortitude saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
 +++
 

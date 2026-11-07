@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Arcane Armor Training/Mythic", path = "mythic_adventures/feat/arcane_armor_training_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/arcane-armor-training", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Arcane Armor Training."
-prerequisite_feats = ["ref/feat/arcane-armor-training"]
 benefit = "You don't have to spend a swift action to gain the reduction to arcane spell failure chance from Arcane Armor Training. Furthermore, if you're wearing light armor, reduce your arcane spell failure chance by 20%."
 +++
 

@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Deepsight/Mythic", path = "mythic_adventures/feat/deepsight_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/deepsight", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Deepsight."
-prerequisite_feats = ["ref/feat/deepsight"]
 benefit = "The range of your darkvision increases by 10 feet per tier."
 +++
 

@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Distance Thrower/Mythic", path = "mythic_adventures/feat/distance_thrower_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/distance-thrower", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Str 17, Distance Thrower."
-prerequisite_feats = ["ref/feat/distance-thrower"]
 benefit = "Thrown weapons wielded by you have twice their normal range."
 +++
 

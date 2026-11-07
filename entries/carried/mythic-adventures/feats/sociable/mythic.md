@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Sociable/Mythic", path = "mythic_adventures/feat/sociable_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/sociable", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Sociable."
-prerequisite_feats = ["ref/feat/sociable"]
 benefit = "You grant and benefit from the +2 bonus on Diplomacy checks from Sociable constantly without having to spend a move action. You can spend a move action to increase the bonus to +4 for a number of rounds equal to your tier."
 +++
 

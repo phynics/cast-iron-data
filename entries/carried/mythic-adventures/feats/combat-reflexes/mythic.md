@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Combat Reflexes/Mythic", path = "mythic_adventures/feat/combat_reflexes_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/combat-reflexes", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Combat Reflexes."
-prerequisite_feats = ["ref/feat/combat-reflexes"]
 benefit = "You can make any number of additional attacks of opportunity per round. As a swift action, you can expend one use of mythic power to, until the start of your next turn, make attacks of opportunity against foes you've already made attacks of opportunity against this round if they provoke attacks of opportunity from you by moving."
 +++
 

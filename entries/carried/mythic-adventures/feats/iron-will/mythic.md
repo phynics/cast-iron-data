@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Iron Will/Mythic", path = "mythic_adventures/feat/iron_will_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/iron-will", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Iron Will."
-prerequisite_feats = ["ref/feat/iron-will"]
 benefit = "Whenever you roll a Will saving throw against a spell, spell-like ability, or supernatural ability from a non-mythic source, roll twice and take the higher result."
 +++
 

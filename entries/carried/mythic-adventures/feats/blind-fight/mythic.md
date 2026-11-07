@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Blind-Fight/Mythic", path = "mythic_adventures/feat/blind-fight_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/blind-fight", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Blind-Fight."
-prerequisite_feats = ["ref/feat/blind-fight"]
 benefit = "As a swift action, you can expend one use of mythic power to ignore all miss chances due to concealment or total concealment for a number of rounds equal to your tier."
 +++
 

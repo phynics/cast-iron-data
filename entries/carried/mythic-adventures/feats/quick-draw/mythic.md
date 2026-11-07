@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Quick Draw/Mythic", path = "mythic_adventures/feat/quick_draw_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/quick-draw", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Quick Draw."
-prerequisite_feats = ["ref/feat/quick-draw"]
 benefit = "You can use Quick Draw to draw items of any kind, not just weapons, provided they are stored or concealed on your person. As a move action, you can expend one use of mythic power to retrieve up to two hidden items. You must have two hands free to do so."
 +++
 

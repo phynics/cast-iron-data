@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Catch Off-Guard/Mythic", path = "mythic_adventures/feat/catch_off-guard_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/catch-off-guard", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Catch Off-Guard."
-prerequisite_feats = ["ref/feat/catch-off-guard"]
 benefit = "The damage dealt when you use improvised weapons increases by your tier. You also gain a bonus to CMD equal to your tier when an opponent attempts to sunder or disarm an improvised weapon you're wielding."
 +++
 

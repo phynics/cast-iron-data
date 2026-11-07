@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Persuasive/Mythic", path = "mythic_adventures/feat/persuasive_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/persuasive", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Persuasive."
-prerequisite_feats = ["ref/feat/persuasive"]
 benefit = "The bonus on Diplomacy and Intimidate skill checks granted by Persuasive increases by 2. In addition, you can expend one use of mythic power to treat a Diplomacy or Intimidate check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 +++
 

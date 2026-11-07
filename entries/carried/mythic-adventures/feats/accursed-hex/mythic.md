@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Accursed Hex/Mythic", path = "mythic_adventures/feat/accursed_hex_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/accursed-hex", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Accursed Hex."
-prerequisite_feats = ["ref/feat/accursed-hex"]
 benefit = "When you use Accursed Hex to target a creature with one of your hexes a second time, that creature must roll its saving throw twice and take the lower result."
 +++
 

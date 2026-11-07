@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Improved Overrun/Mythic", path = "mythic_adventures/feat/improved_overrun_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/improved-overrun", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Improved Overrun."
-prerequisite_feats = ["ref/feat/improved-overrun"]
 benefit = "You gain a bonus equal to half your tier on checks to overrun, and to your CMD when an opponent tries to overrun you. These bonuses stack with those granted by Improved Overrun. Furthermore, you can make an attack of opportunity against any creature that attempts to overrun you, unless it also has this feat."
 +++
 

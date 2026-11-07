@@ -8,12 +8,14 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Saving Shield/Mythic", path = "mythic_adventures/feat/saving_shield_mythic.json" },
 ]
+relations = [
+  { kind = "addon", target = "ref/feat/saving-shield", label = "mythic" },
+]
 
 [fields]
 kind = "feat"
 feat_types = ["Mythic"]
 prerequisites = "Saving Shield."
-prerequisite_feats = ["ref/feat/saving-shield"]
 benefit = "The shield bonus you grant an ally with Saving Shield increases to +3. If you use Saving Shield to successfully negate an attack against an adjacent ally, you can immediately make an attack of opportunity against the attacker so long as it is within your melee reach."
 +++
 
