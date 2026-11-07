@@ -45174,8 +45174,8 @@ entry = "ref/npc/poisononous-performer"
 [[books]]
 source = "technology-guide"
 title = "Technology Guide"
-basis = "Chapter order is the dataset's order of rules trees. Not checked against the printed table of contents. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["Chapter titles and order.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of Technology Guide. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
+review = ["The printed Introduction has no corpus chapter. The printed Technological Equipment and Technological Hazards and Artifacts titles replace the dataset's Equipment and Hazards and Artifacts. The final New entries (page order) chapter holds canonical entries the curated tree does not place; it is page-ordered and is not a printed chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Technology in the World"
@@ -45294,7 +45294,7 @@ title = "Crafting"
 entry = "ref/carried/technology-guide/rules/technology-in-the-world/crafting"
 
 [[books.chapters]]
-title = "Equipment"
+title = "Technological Equipment"
 entry = "ref/carried/technology-guide/rules/equipment"
 
 [[books.chapters.children]]
@@ -45794,7 +45794,7 @@ title = "Zipstick"
 entry = "ref/tech-misc/zipstick"
 
 [[books.chapters]]
-title = "Hazards and Artifacts"
+title = "Technological Hazards and Artifacts"
 entry = "ref/carried/technology-guide/rules/hazards-and-artifacts"
 
 [[books.chapters.children]]
