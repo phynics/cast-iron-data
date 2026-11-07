@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Leech\
 **Sacred Color(s)** Gray, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Toss random handfuls of nails, caltrops, or other destructive materials onto ground behind you
 > where you expect others to tread. Gain a +4 profane bonus on Heal checks to provide first aid.

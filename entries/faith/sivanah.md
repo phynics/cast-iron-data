@@ -38,7 +38,7 @@ Rites^[1](ref/faith/sivanah#footnote-a)^, Thought,
 **Centers of Worship** Absalom, Nex, Nidal, Numeria, Razmiran\
 **Nationality** unknown
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Carry an ordinary scarf or veil and walk through a settlement, making sure you are seen and
 > exchange pleasantries with at least one person. After you reach the settlement's edge, place the

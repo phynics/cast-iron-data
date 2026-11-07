@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Longbow](ref/eq-weapon/longbow)\
 **Symbol** Two circles overlapping vertically
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Spend an hour creating something from the dead. Most worshipers weave jewelry from the hair of the
 > departed, but more macabre faithful may instead use bones, teeth, or flesh. Others may embalm or

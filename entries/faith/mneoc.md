@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Vulture\
 **Sacred Color(s)** Gray, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Trick an elderly creature into believing it has forgotten something. Gain a +4 profane bonus on
 > saving throws against disease and effects related to memory.

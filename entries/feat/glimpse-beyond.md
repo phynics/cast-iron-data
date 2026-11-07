@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have faced an undead, evil outsider, or aberration with a CR greater than your level +4, or have the [Raised Among the Dead](rule/birth_circumstances_and_more) (adopted) or [The Dead One](rule/influential_associates_table) (associate) background."
+prerequisites = "You must have faced an undead, evil outsider, or aberration with a CR greater than your level +4, or have the [Raised Among the Dead](ref/rule/birth-circumstances-and-more) (adopted) or [The Dead One](ref/rule/influential-associates-table) (associate) background."
 benefit = "You gain a +2 bonus on Knowledge (dungeoneering) checks to identify the vulnerabilities and powers of aberrations, Knowledge (planes) checks to identify the vulnerabilities and powers of evil outsiders, and Knowledge (religion) checks to identify the vulnerabilities and powers of undead, and you can make such checks untrained. If you have 10 or more ranks in any of these Knowledge skills, the bonus increases to +4 for the appropriate skill. In addition, you gain a +2 bonus on saves against fear effects."
 +++
 

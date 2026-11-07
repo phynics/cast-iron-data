@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Mandril\
 **Sacred Color(s)** Gold, orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Stand on smoldering coals. Recount how the heat and flames harden your resolve and make you a
 > stronger follower of your liege. Gain a +4 profane bonus on saving throws against fire effects.

@@ -31,7 +31,7 @@ star, respectively, at the corners\
 **Sacred Animal(s)** Cave bear\
 **Sacred Color(s)** Brown, gray
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend an hour working a piece of stone into a tool, a vurra, a weapon, or a stone that is destined
 > to be engraved as part of Minderhal's holy text using only your hands or a tool that uses only

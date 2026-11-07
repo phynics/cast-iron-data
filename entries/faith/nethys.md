@@ -50,12 +50,12 @@ November 28)\
 **Centers of Worship** Absalom, Geb, Katapesh, Kyonin, Nex, Numeria, Osirion, Thuvia\
 **Nationality** Garundi
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 78\
 > Nethys grants a permanent +1 untyped bonus to Intelligence.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Inscribe blessings to Nethys, arcane formulae, and lines of prayer on a blank parchment. Don't
 > inscribe a complete spell - only notations sufficient to potentially spur a reader to study magic

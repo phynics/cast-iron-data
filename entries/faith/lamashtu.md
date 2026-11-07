@@ -48,7 +48,7 @@ kind = "none"
 **Centers of Worship** Belkzen, Irrisen, Katapesh, Nex, Osirion, River Kingdoms, Varisia, Worldwound\
 **Nationality** demon
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 78\
 > The recipient can disgorge a servitor monster from her body as a full-round action. The monster
@@ -57,7 +57,7 @@ kind = "none"
 > is equal to the character's level (or in the case of an NPC, the character's own CR). The monster
 > lives for 9 days, after which it dies in a spectacular shower of gore.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Sacrifice an unwilling living creature in the name of the Mother of Monsters. Draw the process out
 > to inspire the maximum terror and suffering in your victim. The death blow you deal should be
@@ -212,7 +212,7 @@ kind = "none"
 >   world.
 > - I will spread the Mother's seed. If the blind cannot be taught to see, their children can.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Lamashtu's Carving
 >

@@ -34,7 +34,7 @@ Souls\
 **Centers of Worship** Goka, Jinin, Minkai, Nagajor, Tianjing, Wall of Heaven, Zi Ha\
 **Nationality** Tian-Min
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Find a quiet place from which to study the moon. Contemplate its transition from full to half to
 > crescent to nothing at all, then back again, comparing its transformation to your own

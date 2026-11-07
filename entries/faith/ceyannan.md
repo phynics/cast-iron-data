@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Quarterstaff](ref/eq-weapon/quarterstaff)\
 **Symbol** Two concentric circles bisected by a horizontal line
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Seclude yourself somewhere silent and begin a prayer that causes blood to weep from your nose or
 > existing wounds. Reflect for 1 hour on the isolation and the sound of blood dripping. Gain a +4

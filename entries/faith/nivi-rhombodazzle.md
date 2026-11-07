@@ -36,7 +36,7 @@ kind = "none"
 **Centers of Worship** Dwimovel, Darklands\
 **Nationality** Gnome
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Engage in a game of chance in which money, gems, or items worth at least 10 gp are at stake. This
 > must be a wager that both parties enter into willingly. Offer a prayer out loud to Nivi

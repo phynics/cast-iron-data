@@ -33,7 +33,7 @@ kind = "none"
 **Sacred Animal(s)** Horse, jackal\
 **Sacred Color(s)** Black
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Abstain from eating or drinking until you experience the bitter pangs of hunger. Meditate in this
 > state for just under an hour, and then gorge yourself upon any available substance regardless of

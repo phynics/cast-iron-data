@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Katydid\
 **Sacred Color(s)** Gold, silver
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Sing or play a musical instrument in public where strangers can hear you and be inspired by you.
 > If no suitable public areas are located nearby, compose an original poem about Seramaydiel's

@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Language, [Lust](ref/domain/charm), Revelry, Wards\
 **Favored Weapon** [Kerambit](ref/eq-weapon/kerambit)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Lightly trace the lines of your tattoos with the tip of a needle dipped in sake. Gain a +4 profane
 > bonus on saving throws against effects that cause the confused, exhausted, or fatigued condition.

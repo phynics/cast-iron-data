@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Blue
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Drink fouled water, and maintain yourself on the edge of regurgitation for an hour. Gain a +4
 > profane bonus on saving throws against poison effects.

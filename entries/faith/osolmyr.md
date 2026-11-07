@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Albion peacock\
 **Sacred Color(s)** Pink, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Publicly self-flagellate without acknowledging others' reactions. Gain a +4 profane bonus on
 > saving throws against effects that damage, drain, or penalize ability scores.

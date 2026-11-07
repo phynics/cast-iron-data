@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 This shard seems to absorb the light around it, demonstrating the annihilatory power of the
 [Negative Energy Plane](ref/rule/negative-energy-plane).
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

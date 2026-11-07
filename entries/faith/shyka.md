@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Hive animals\
 **Sacred Color(s)** White
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Build something small and fragile - such as a house of cards, an ice sculpture, or a sand castle -
 > while contemplating the fleeting nature of existence and the inevitability of entropy. Leave your

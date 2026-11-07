@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Cougar\
 **Sacred Color(s)** Green, red
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend 1 hour loudly proclaiming (or singing) the superiority of the various goblinoid races: the
 > regimented militaristic mind of [hobgoblins](ref/monster/hobgoblin), the unbounded cruelty of

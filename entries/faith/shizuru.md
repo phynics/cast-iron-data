@@ -35,7 +35,7 @@ Honor, Legend^[1](ref/faith/shizuru#footnote-a)^, [Light](ref/domain/sun),
 **Centers of Worship** Amanandar, Goka, Jinin, Minkai, Quain, Shokuro, Xa Hoi, Zi Ha\
 **Nationality** Tian-Min (Dragon)
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend an hour practicing sword forms beneath the sun. Meditate in silence as you practice,
 > focusing on executing each form more perfectly with each repetition. At the end of your practice,

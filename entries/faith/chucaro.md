@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Bird of paradise\
 **Sacred Color(s)** White
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Drape yourself in gauze and eat hallucinogenic mushrooms or fungi while meditating on the
 > teachings of Chucaro. Gain a +4 sacred bonus on saving throws against poison.

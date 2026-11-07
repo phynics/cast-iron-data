@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Deception, Fear, [Fur](ref/domain/animal), Tyranny\
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate upon the ecstasy that utter selfishness and determination can bring. Gain a +4 profane
 > bonus on saving throws against mind-affecting effects.

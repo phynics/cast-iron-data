@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Maggot\
 **Sacred Color(s)** Gray, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Consume three maggots plucked from a grave. Gain a +4 profane bonus on saves against poison.
 >

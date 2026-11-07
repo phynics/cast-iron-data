@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have created a new spell, or have [The Way Things Work](rule/class_background_tables) wizard background."
+prerequisites = "You must have created a new spell, or have [The Way Things Work](ref/rule/class-background-tables) wizard background."
 benefit = "When casting a spell you've created, add 1 to your caster level. In addition, you gain a +2 bonus on Spellcraft checks. If you have 10 or more ranks in Spellcraft, this bonus increases to +4."
 special = "For a self-created spell to benefit from this feat, it must be a truly novel spell. Spells slightly altered from the original (for example, delayed blast fireball as compared to fireball) gain no benefit. Alchemists can benefit from this feat as though their formulae and extracts were spells."
 +++

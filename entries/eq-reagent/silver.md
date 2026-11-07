@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 Silver is a lustrous precious metal used in mirrors, disinfectants, electrics, and illusion-creating
 magic items.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

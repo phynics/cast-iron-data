@@ -37,7 +37,7 @@ Undead\
 **Centers of Worship** Galt, Nidal, Qadira, Taldor, Ustalav, Varisia\
 **Nationality** Kelishite
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend an hour sitting on the grave of someone who suffered an accidental death. You must reflect
 > on how chance has wronged you and vocally reject the influence of any gods associated with these

@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Entropy, Fear, Ferocity, [Oceans](ref/domain/water)\
 **Favored Weapon** [Nine-ring broadsword](ref/eq-weapon/nine-ring-broadsword)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Perform a tea ceremony on the shore of an ocean or while blindfolded. Gain a +4 profane bonus on
 > saving throws against water-based effects.

@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Crocodile\
 **Sacred Color(s)** Black, green
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Smash a crystal goblet and fling shards upon anyone who steps into your way. Gain a +4 profane
 > bonus to CMD against disarm, sunder, and trip combat maneuvers.

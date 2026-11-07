@@ -49,12 +49,12 @@ Thought\
 **Centers of Worship** Absalom, Jalmeray, Katapesh, Mana Wastes, Nex, Osirion, Qadira\
 **Nationality** Vudrani
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 78\
 > Irori grants a permanent +1 untyped bonus to Constitution.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Over the course of 1 hour, spend an equal amount of time practicing with a weapon or your unarmed
 > strikes, reading any text that you have never read before, and braiding a length of hair while
@@ -132,7 +132,7 @@ Thought\
 >   [negative levels](ref/rule/energy-drain-and-negative-levels). You also become immune to
 >   nonmagical diseases.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Irori's Perfected Fist
 >

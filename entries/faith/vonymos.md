@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Scythe](ref/eq-weapon/scythe)\
 **Symbol** Hollow circle with three trailing lines curling clockwise from it
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Spend 1 hour observing and recording the weather or another force beyond mortal control, or
 > inspire a mourner to pour her pain into creation or action. Gain a +4 insight bonus on Craft or

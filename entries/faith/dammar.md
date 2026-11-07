@@ -28,7 +28,7 @@ kind = "none"
 **Favored Weapon** [Short sword](ref/eq-weapon/short-sword)\
 **Symbol** One horizontal line crossed by two vertical lines, surrounded by four dots
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Consume a full serving of alcohol and reflect on the intricacy of the living form. Vomit any
 > remaining alcohol into a bowl and pour it beneath a tree or large rock. Gain a +4 insight bonus on

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Firefly\
 **Sacred Color(s)** Midnight blue
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Sit on the ground with your head tilted back to study the stars. Maintain the position for an hour
 > and identify 12 constellations. If you cannot see the stars, draw the patterns of 12

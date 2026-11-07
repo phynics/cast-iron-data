@@ -35,7 +35,7 @@ Self-Realization (Strength)^[1](ref/faith/kurgess#footnote-a)^, [Trade](ref/doma
 **Centers of Worship** Andoran, Druma, Isger, Taldor\
 **Nationality** Taldan
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Find the nearest boulder, log, or other unattended object that you can reliably lift over your
 > head, and hold it up high for the duration of the obedience while meditating on the ennobling

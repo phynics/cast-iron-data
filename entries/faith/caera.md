@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Deception, Fear, [Fur](ref/domain/animal), Tyranny\
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Pour a large amount of any sort of blood over your face and let it dry in natural rivulets. Gain a
 > +4 profane bonus on saving throws against pain effects.

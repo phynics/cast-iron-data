@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Cicada\
 **Sacred Color(s)** Red, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Work on crafting an ever-expanding manifesto of your hatreds and intolerances. Gain a +4 profane
 > bonus on saving throws against conjuration effects.

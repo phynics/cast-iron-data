@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Moth\
 **Sacred Color(s)** Blue, silver
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate while cutting your flesh. Gain a +4 profane bonus on saving throws against transmutation
 > effects.

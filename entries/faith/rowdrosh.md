@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Sheep\
 **Sacred Color(s)** Green, ivory
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Scatter a handful of grain and then pick up each grain and place it in a single pile. Gain a +4
 > sacred bonus to AC against attacks of opportunity provoked by moving out of a threatened space.

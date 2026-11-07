@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Fear, [Ice](ref/domain/water), Murder, Undead\
 **Favored Weapon** [Urumi](ref/eq-weapon/urumi)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate on the sensations of starving to death in the snow; you need not actually be starving or
 > in the snow to do so, but for each of these conditions you lack, you must deal 1d4 points of

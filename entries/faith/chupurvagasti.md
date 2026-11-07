@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Cloud](ref/domain/air), Deception, Fear, [Wind](ref/domain/air)\
 **Favored Weapon** [Handaxe](ref/eq-weapon/handaxe)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate while wearing a veil soaked in acrid, toxic chemicals that induce minor rashes. Gain a +4
 > profane bonus on saving throws against poison effects.

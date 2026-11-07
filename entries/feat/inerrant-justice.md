@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "Must have witnessed or suffered a grave injustice that went unpunished, or have the An Eye for an Eye ranger background or the Raiders [childhood event background](rule/birth_circumstances_and_more). If the offender is not a challenging foe, it either advances to become one or allies with one or more creatures who are."
+prerequisites = "Must have witnessed or suffered a grave injustice that went unpunished, or have the An Eye for an Eye ranger background or the Raiders [childhood event background](ref/rule/birth-circumstances-and-more). If the offender is not a challenging foe, it either advances to become one or allies with one or more creatures who are."
 benefit = "Once per day, you can choose to take the maximum possible weapon damage die roll rather than rolling when you hit a foe that is unaware of you or considers you an ally. Bonus dice, including from sneak attack, surprise attack, and Vital Strike, are rolled normally."
 +++
 

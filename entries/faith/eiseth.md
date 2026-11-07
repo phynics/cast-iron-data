@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Raven\
 **Sacred Color(s)** Black, orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Sharpen a blade with 603 strokes - one for each year the Erinyes Queen wandered existence,
 > building glorious hatred in her heart - repeating prayers to Eiseth for the duration. Gain a +1

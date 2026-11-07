@@ -27,7 +27,7 @@ kind = "none"
 [Rage](ref/domain/destruction)\
 **Favored Weapon** [Tetsubo](ref/eq-weapon/tetsubo)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Bury a key in the earth, and meditate over the site before retrieving the key. Gain a +4 profane
 > bonus on saves against earth effects and being knocked prone.

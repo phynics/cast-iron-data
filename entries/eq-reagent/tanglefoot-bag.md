@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 These sticky pouches can make a troublesome spell even worse.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

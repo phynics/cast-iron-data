@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Dove\
 **Sacred Color(s)** Gray, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Recite all the names you can recall of those who have died by your hand. Mediate upon their faces
 > and the circumstances of their deaths, evaluating your actions in the light of cold law. Gain a +4

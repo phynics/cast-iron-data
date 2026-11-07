@@ -28,7 +28,7 @@ kind = "none"
 [Storms](ref/domain/weather)\
 **Favored Weapon** [Net](ref/eq-weapon/net)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Dam a small stream or another source of flowing water. Gain a +4 profane bonus on Swim checks.
 >

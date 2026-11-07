@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Snake\
 **Sacred Color(s)** Black, green
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Spontaneously compose a song whose lyrics consist of a deliciously profane promise you do not
 > intend to keep. If the promise is to another individual, you must perform the song so that person

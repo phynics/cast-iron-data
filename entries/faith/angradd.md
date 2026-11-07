@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Boar\
 **Sacred Color(s)** Gray, red
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Build a fire, preferably as part of a ritual that includes your closest allies and comrades. Use
 > that fire's smoke to blacken the head of an axe while reciting battle litanies from Angradd's

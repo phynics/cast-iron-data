@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Wasp\
 **Sacred Color(s)** Black, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Release a cloud of wasps in the midst of a peaceful situation. Gain a +4 profane bonus on saves
 > against spells and effects that would cause the nauseated condition.

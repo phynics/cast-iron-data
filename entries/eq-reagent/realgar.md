@@ -22,7 +22,7 @@ Realgar, also called ruby of arsenic, is a red crystal useful in creating poison
 is commonly purified into [arsenic](ref/eq-poison/arsenic), a crystalline metal known as the "king
 of poisons" for its popularity among nobles seeking to poison their rivals.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

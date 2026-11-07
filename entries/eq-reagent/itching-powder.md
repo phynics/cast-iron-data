@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 This powder can make an otherwise innocuous spell especially irritating.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

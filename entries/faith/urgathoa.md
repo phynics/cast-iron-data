@@ -48,7 +48,7 @@ regional holidays\
 **Centers of Worship** Darklands, Geb, Osirion, Ustalav, Varisia\
 **Nationality** Varisian
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 81\
 > The recipient dies and rises at the next sunset (or after 12 hours have passed, whichever comes
@@ -58,7 +58,7 @@ regional holidays\
 > character is already a vampire, he does not suffer any of the traditional vampire weaknesses (such
 > as sunlight or running water) for 24 hours.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Cover a table (or suitable flat surface) with a black velvet cloth and spread a feast atop it. If
 > you are in the wilderness or another area where fine food is not readily available, load the table
@@ -139,7 +139,7 @@ regional holidays\
 > - I have no duty but to my hunger and my goddess.
 > - Existence is hunger. Both life and death feed on life. I am an instrument of transition.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Urgathoa's Hunger
 >

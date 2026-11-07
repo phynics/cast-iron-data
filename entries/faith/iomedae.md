@@ -57,7 +57,7 @@ angel)\
 Sargava\
 **Nationality** Chelaxian
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 77\
 > By spending 10 minutes in prayer to Iomedae (this may take place during daily preparation of
@@ -65,7 +65,7 @@ Sargava\
 > [shield of law](ref/spell/shield-of-law) effect on himself (CL 20th) that lasts for the next 12
 > hours.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Hold your primary weapon in front of you and hang a holy symbol of Iomedae from it. Kneel while
 > focusing on the holy symbol, pray for guidance and protection from the Inheritor, and swear to
@@ -167,7 +167,7 @@ Sargava\
 > - I will be temperate in my actions and moderate in my behavior. I will strive to emulate
 >   Iomedae's perfection.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Iomedae's Inspiring Sword
 >

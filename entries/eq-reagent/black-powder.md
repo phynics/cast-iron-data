@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Black powder is a volatile explosive and is the primary component in fireworks and other explosives.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

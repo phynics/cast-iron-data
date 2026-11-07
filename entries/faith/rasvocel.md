@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Turkey vulture\
 **Sacred Color(s)** Black, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Slice slivers of flesh from a living creature, and consume them one by one. Gain a +4 profane
 > bonus on saves against effects that cause the nauseated condition.

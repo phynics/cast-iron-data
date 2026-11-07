@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Wren\
 **Sacred Color(s)** Black, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Study an unfamiliar scene and then draw it as perfectly as possible from memory. Mark any
 > inconsistencies on the sketch and keep it in an accessible place for future reference. Gain a +4

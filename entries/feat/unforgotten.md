@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have a close relative, spouse, or other person dear to your heart who never returned from a journey, was captured, or otherwise vanished with little trace, or you have the [Major Disaster](rule/birth_circumstances_and_more) childhood event background."
+prerequisites = "You must have a close relative, spouse, or other person dear to your heart who never returned from a journey, was captured, or otherwise vanished with little trace, or you have the [Major Disaster](ref/rule/birth-circumstances-and-more) childhood event background."
 benefit = "Your dogged determination reduces any nonlethal damage you take by 1 point, to a minimum of 1 point of nonlethal damage. You also gain a +1 bonus on Will saves."
 +++
 

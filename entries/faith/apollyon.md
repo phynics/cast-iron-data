@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Horse, rat\
 **Sacred Color(s)** White
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Induce the spread of disease into a population, either by befouling a well, encouraging the
 > fecundity of disease-carrying pests, handing out contaminated clothing, or directly spreading a

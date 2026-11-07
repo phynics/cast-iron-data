@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Deception, Fear, [Fur](ref/domain/animal), Tyranny\
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Light a scented torch and meditate on its smoke. Gain a +4 profane bonus on saves against fire
 > effects.

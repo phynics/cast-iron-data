@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Monkey\
 **Sacred Color(s)** Green, purple
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Exactly at dawn, sit cross-legged in a quiet place. Fill your mind with thoughts of those who have
 > harmed you or your loved ones. Strive to find forgiveness in your heart. Maintain your pose for an

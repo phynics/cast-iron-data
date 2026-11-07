@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Cockroach\
 **Sacred Color(s)** Brown, gray
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate while pondering various natural disasters such as earthquakes, mudslides, and wildfires.
 > Gain a +4 profane bonus on saving throws related to natural disasters.

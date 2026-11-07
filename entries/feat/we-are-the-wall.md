@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "Be a member of House Darahan, or have the [Champion of the People (cavalier) or Duty (fighter)](rule/class_background_tables) background, or the [Raiders](rule/birth_circumstances_and_more) major childhood event background."
+prerequisites = "Be a member of House Darahan, or have the [Champion of the People (cavalier) or Duty (fighter)](ref/rule/class-background-tables) background, or the [Raiders](ref/rule/birth-circumstances-and-more) major childhood event background."
 benefit = "Three times per day as a move action, you can declare a single dragon, magical beast, or monstrous humanoid within 50 feet and in line of sight to be your mark. You gain a +1 bonus on attack rolls and on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against your mark. These bonuses last for 1 minute, until you designate a new mark, or until the mark is dead. After you have declared a creature as your mark, it can't be your mark again for another 24 hours."
 +++
 

@@ -35,7 +35,7 @@ kind = "none"
 **Centers of Worship** River Kingdoms\
 **Nationality** Kellid
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend at least 30 minutes working to make another sentient creature's life measurably worse or
 > more miserable, whether by destroying its property, sabotaging its efforts, or afflicting it

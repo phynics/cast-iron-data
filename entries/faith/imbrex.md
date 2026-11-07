@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** animals that hibernate or go into stasis\
 **Sacred Color(s)** Gray, silver
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Carve or sculpt a figurine, then split it in two and repair it or bind the pieces together. You
 > gain [hardness](ref/umr/hardness) 1 for the next 24 hours as your skin stiffens and takes on a

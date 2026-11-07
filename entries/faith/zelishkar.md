@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Tiger\
 **Sacred Color(s)** Orange, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Burn a living creature of at least the size of a cat or infant atop a pyre. Gain a +4 profane
 > bonus on saving throws against fire-based spells and effects.

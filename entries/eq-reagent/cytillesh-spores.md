@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 The spore of the cytillesh fungus is a versatile reagent, and is often combined with other poisonous
 elements to create deliriums, hallucinogens, and psychotics.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

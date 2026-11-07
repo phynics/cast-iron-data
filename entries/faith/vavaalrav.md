@@ -28,7 +28,7 @@ kind = "none"
 **Symbol** Vertical line with a shorter horizontal crossbar near the top, and a circle around the
 overlap
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Spend an hour cleaning and maintaining a crypt, graveyard, or other site dedicated to the dead.
 > Gain a +2 insight bonus on Climb, Perception, and Stealth checks on or within stone structures.

@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** Bite or [greatclub](ref/eq-weapon/greatclub)\
 **Symbol** Yawning maw drawn in lines of protean poetry
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Recite, copy, or graffiti a text in a dead or self-created language in a public place, regardless
 > of whether any others understand the meaning, and provide no translation. Gain a +4 sacred bonus

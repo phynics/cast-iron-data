@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Fear, Memory, Thought, [Venom](ref/domain/scalykind)\
 **Favored Weapon** [Whip](ref/eq-weapon/whip)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Think back upon a frightful memory and immerse yourself in growing terror. Gain a +4 profane bonus
 > on saving throws against fear effects.

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Caribou\
 **Sacred Color(s)** Icy blue, ivory
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Kneel naked outdoors at night while dipping your hands in two bowls of tepid water. Slowly raise
 > your hands above your head and hold them there until the water from both bowls has evaporated.

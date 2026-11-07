@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 A dragon's stomach contains highly corrosive acid that can be crafted into an alchemical item called
 dragon's gut.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

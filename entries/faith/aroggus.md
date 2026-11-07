@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Deception, [Defense](ref/domain/protection), Fear, Tyranny\
 **Favored Weapon** [Warhammer](ref/eq-weapon/warhammer)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > List the names of those who have wronged you until the writing covers a page, then consume the
 > parchment. Gain a +4 profane bonus on saving throws to resist compulsion effects.

@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Bat\
 **Sacred Color(s)** Black, orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Release a bat upon an unsuspecting living creature, and tell of the doom that's coming. Gain a +4
 > profane bonus on saving throws against transmutation effects.

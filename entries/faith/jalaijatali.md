@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Water lizard\
 **Sacred Color(s)** Blue, green
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Stand under a waterfall (or pour water over your head) while singing wordlessly, letting the sound
 > of the moving water inspire you. Gain a +4 sacred bonus on saves against the spells,

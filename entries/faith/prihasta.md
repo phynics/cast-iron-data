@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Deception, Fear, [Fur](ref/domain/animal), Tyranny\
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Speak honeyed words into a righteous creature's ear with the intent of poisoning its virtue with
 > your evil. Gain a +4 profane bonus on saving throws against good-aligned effects.

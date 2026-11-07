@@ -111,7 +111,7 @@ Magic Device +10
 
 **Environment:** any urban
 
-**Organization:** solitary or court (1 plus 2-12 \[tooth fairies\](monster/tooth\_fairy))
+**Organization:** solitary or court (1 plus 2-12 \[tooth fairies\](ref/monster/tooth-fairy))
 
 **Treasure:** Standard
 

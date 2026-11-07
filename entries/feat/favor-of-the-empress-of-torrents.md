@@ -9,7 +9,7 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "Worshiper of [Lysianassa](magic-artifact/the_gasping_pearl) or pearl seeker paladin, character level 5th."
+prerequisites = "Worshiper of [Lysianassa](ref/magic-artifact/the-gasping-pearl) or pearl seeker paladin, character level 5th."
 benefit = "Once per day while underwater, you can use hydraulic torrent as a spell-like ability. At 10th level and every 5 levels thereafter, you can use this ability an additional time each day."
 +++
 

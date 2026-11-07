@@ -49,7 +49,7 @@ matter)\
 Molthune, Nirmathas, River Kingdoms, Varisia\
 **Nationality** Ulfen
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 76\
 > The character gains three [greater slaying arrows](ref/magic-weapon/slaying-arrow-greater). The
@@ -60,7 +60,7 @@ Molthune, Nirmathas, River Kingdoms, Varisia\
 > same type appears in the gifted character's quiver. If this regular slaying arrow is then fired,
 > only to miss its target, it has a 50% chance to be lost, as normal.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Plant five seeds in fertile earth, spacing them out in the shape of an arrow. The seeds may be
 > those of any plant that can potentially grow in the region, though edible plants are preferred.
@@ -155,7 +155,7 @@ Molthune, Nirmathas, River Kingdoms, Varisia\
 >   ensure that they will be tended in my absence. Even when duty calls, my duties to my home come
 >   first - letting them lapse makes me a burden on my people.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Erastil's Distracting Shot
 >

@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Deception, Fear, [Fur](ref/domain/animal), Tyranny\
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Stay perfectly still while whispering sadistic thoughts aloud. Gain a +4 profane bonus on saving
 > throws against compulsions.

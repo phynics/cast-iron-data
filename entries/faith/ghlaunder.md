@@ -37,7 +37,7 @@ Plague (Evil), [Rage](ref/domain/destruction), [Wind](ref/domain/air)\
 **Centers of Worship** Mwangi Expanse, Sodden Lands, Varisia\
 **Nationality** monster
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Craft a small poppet in the shape of a flea, tick, stirge, or other such plague-carrying creature,
 > using natural materials such as straw, and mixing your blood with foul-smelling mud or dung to

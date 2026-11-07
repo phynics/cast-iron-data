@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Raven\
 **Sacred Color(s)** Gray, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Build a small, tree-shaped shrine to Barbatos out of broken branches, moss-covered stones, viscous
 > mud, or any other sort of naturally occurring material. While pacing around the shrine, spatter it

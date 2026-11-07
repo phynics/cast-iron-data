@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Mastiff\
 **Sacred Color(s)** Crimson, gold
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Slay a proven wrongdoer in Ragathiel's name. It is not enough for the sacrifice to have an evil
 > heart or evil intentions; the sacrifice must have committed evil or unlawful deeds. Gain a +4

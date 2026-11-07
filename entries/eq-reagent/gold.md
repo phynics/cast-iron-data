@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 In its purest form, gold is a dense, non-reactive metal. Its alchemical products are useful in
 stains and in treating swelling, pain, and infections.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

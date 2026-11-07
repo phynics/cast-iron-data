@@ -54,7 +54,7 @@ revenge or trickery)\
 **Centers of Worship** Absalom, Galt, Kyonin, Nex, The River Kingdoms, The Shackles, Taldor, Varisia\
 **Nationality** elf
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 74\
 > The character can cast quickened [dominate person](ref/spell/dominate-person) (CL 20th). If the
@@ -62,7 +62,7 @@ revenge or trickery)\
 > visited on her, she can increase the save DC of this
 > [spell-like ability](ref/umr/spell-like-abilities) by an amount equal to her Charisma modifier.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Engage in sexual activity with another individual in exchange for money, information, or another
 > valuable resource. This must be a willing act on both your parts; you should not endanger yourself
@@ -147,7 +147,7 @@ revenge or trickery)\
 > - All slights against me will be repaid tenfold.
 > - I am the instrument of my own justice. If I am wronged, I will take vengeance with my own hands.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Calistria's Poisoned Lash
 >

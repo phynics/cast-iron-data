@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Hound\
 **Sacred Color(s)** Iron gray, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Use an iron staff or bar to draw a maze-like pattern in a soft surface such as dirt or sand. In
 > the center of the pattern, draw a bloodshot eye inside a pentagram, and trace these lines

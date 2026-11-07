@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Gray
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Consume a handful of live parasites or infested flesh. Gain a +4 profane bonus on saving throws
 > against disease and parasitic infestations.

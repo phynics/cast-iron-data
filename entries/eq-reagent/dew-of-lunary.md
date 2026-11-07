@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 Dew of lunary is derived from a potent herb. It is commonly used in the creation of medicinal,
 protective, and divinatory items.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

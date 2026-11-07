@@ -31,7 +31,7 @@ Undead\
 **Sacred Animal(s)** Botfly\
 **Sacred Color(s)** Brown, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Willingly play host to a parasite. Gain a +4 profane bonus on saving throws against disease.
 >

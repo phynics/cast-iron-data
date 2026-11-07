@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Cuckoo\
 **Sacred Color(s)** Green, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Find a small stretch of land, claim it as your own for the day, and sprinkle bloody gems over its
 > expanse. Gain a +4 profane bonus on saving throws against compulsion effects.

@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Black stork\
 **Sacred Color(s)** Black, blue
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Stalk a child and make him witness or endure a horrifically brutal event. Promise him that you
 > will return, and then release him with that haunting thought. Gain a +2 profane bonus on

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Moth\
 **Sacred Color(s)** Dark blue, orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Inscribe a heinous nightmare you have had, and leave the note in a public place for another to
 > find. Gain a +4 profane bonus on saving throws against phantasms.

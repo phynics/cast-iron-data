@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Sahkil\
 **Favored Weapon** [Longsword](ref/eq-weapon/longsword)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Erase evidence of your deeds or compel a sentient creature to act against its own interests for
 > your benefit. Gain a +2 profane bonus on Will saving throws.

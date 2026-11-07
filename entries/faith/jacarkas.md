@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Grub\
 **Sacred Color(s)** Gray, red
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Meditate within earshot of no fewer than a dozen toiling slaves. Gain a +4 profane bonus to your
 > CMD.

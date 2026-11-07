@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Deception, [Exploration](ref/domain/travel), Toil\
 **Favored Weapon** [Longbow](ref/eq-weapon/longbow)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Draft plans for a complex ambush or trap using blood as ink. Gain a +2 profane bonus on Initiative
 > checks.

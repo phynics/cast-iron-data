@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Lion\
 **Sacred Color(s)** Gold, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Write a truth on a scrap of parchment, roll the parchment in honey, and hold it in your mouth
 > until the honey dissolves. Gain a +4 sacred bonus on saves against illusions.

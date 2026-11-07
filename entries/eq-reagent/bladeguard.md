@@ -20,7 +20,7 @@ category = "Alchemical Reagents"
 
 Weapons and armor aren't the only things bladeguard protects.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

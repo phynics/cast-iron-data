@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 This vibrant blue-green crystal is a distillation of the spirit of cooperation characteristic of the
 chaotic good plane of [Elysium](ref/rule/elysium).
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

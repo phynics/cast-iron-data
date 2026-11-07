@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Greataxe](ref/eq-weapon/greataxe)\
 **Symbol** A vertical line intersected by two diagonal lines and capped with a circle
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Flagellate yourself while reflecting on your personal failings or harm you have done to others,
 > dealing 1d6 points of damage to yourself. You gain DR 2/-. If the damage you took from this

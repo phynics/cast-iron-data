@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Stag beetle\
 **Sacred Color(s)** Brown, iron gray
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Use your weapon to utterly destroy something fragile. Gain a +4 profane bonus on saving throws
 > against spells and abilities that deal ability damage or drain.

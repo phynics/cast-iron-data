@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 In addition to serving as a spice and as an alchemical reagent, ginger extract has a wide variety of
 uses in herbal remedies that treat nausea and pain.
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

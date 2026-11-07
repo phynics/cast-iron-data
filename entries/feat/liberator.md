@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have been enslaved for at least 6 months, or have the Imprisoned or Kidnapped [major childhood event background](rule/birth_circumstances_and_more)."
+prerequisites = "You must have been enslaved for at least 6 months, or have the Imprisoned or Kidnapped [major childhood event background](ref/rule/birth-circumstances-and-more)."
 benefit = "You gain a +1 bonus on attack rolls, weapon damage rolls, and skill checks when your actions would directly lead to freeing prisoners or slaves."
 +++
 

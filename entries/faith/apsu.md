@@ -36,7 +36,7 @@ kind = "none"
 **Centers of Worship** Absalom, Taldor, Triaxus\
 **Nationality** dragon
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Pick a direction, and walk that way for the next 30 minutes. During this time, catalog all of the
 > areas you pass and consider any tactical advantages that can be found in the terrain. After this,

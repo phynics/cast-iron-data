@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)\
 **Symbol** Scroll twisting upon itself
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Spend 1 hour refining existing prayers, rituals, and spells by adding additional movements,
 > verses, and diagrams. Gain a +4 sacred or profane bonus on skill checks to cast a ritual.

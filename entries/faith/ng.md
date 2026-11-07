@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Migratory animals\
 **Sacred Color(s)** Silver
 
-## \[Fey Obedience\](feat/fey\_obedience)
+## \[Fey Obedience\](ref/feat/fey-obedience)
 
 > Wear gloves or a veil at all times. As long as you have followed this stricture for the last 24
 > hours, you gain a +4 sacred bonus on saving throws against effects that damage, drain, or penalize

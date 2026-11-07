@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Goat\
 **Sacred Color(s)** Pink, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Carve the flesh of a deceased creature into pieces, then reassemble them into a new form. Gain a
 > +4 profane bonus on saving throws against polymorph effects.

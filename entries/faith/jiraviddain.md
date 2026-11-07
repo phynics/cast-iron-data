@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Mule\
 **Sacred Color(s)** Black, brown
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Pray on the frailty of flesh while you cut yourself. Gain a +4 profane bonus on saves against
 > disease.

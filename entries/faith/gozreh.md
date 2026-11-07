@@ -51,7 +51,7 @@ all four types of elemental)\
 **Centers of Worship** Mwangi Expanse, Sargava, The Shackles, Sodden Lands, Thuvia, Varisia\
 **Nationality** Mwangi
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 77\
 > The recipient gains the ability to call down nature's wrath by casting one of the following spells
@@ -59,7 +59,7 @@ all four types of elemental)\
 > [earthquake](ref/spell/earthquake), [storm of vengeance](ref/spell/storm-of-vengeance),
 > [tsunami](ref/spell/tsunami), or [whirlwind](ref/spell/whirlwind).
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Hang a set of chimes where they will be stirred by either wind or water. If no suitable location
 > exists to hang the chimes, you must hold the chimes and shake them gently to sound them throughout

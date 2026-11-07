@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Fox\
 **Sacred Color(s)** Black, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Recite a pattern that occurred the previous day that foretells some horrendous doom. Gain a +4
 > profane bonus on saving throws against curse spells and effects.

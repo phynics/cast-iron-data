@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Magpie\
 **Sacred Color(s)** Black, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Tell a joke with a sadistic punch line involving abject violence or cruelty, and laugh maniacally
 > at it until you're out of breath. Gain a +4 bonus on saving throws against mind-affecting effects.

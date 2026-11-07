@@ -33,7 +33,7 @@ Self-Realization (Liberation)^[1](ref/faith/arshea#footnote-a)^, Self-Realizatio
 **Sacred Animal(s)** Swan\
 **Sacred Color(s)** Purple, white
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Achieve sexual release by yourself or with one or more partners. Praise the most beautiful aspects
 > of yourself and any partners aloud, and offer a prayer to Arshea while still naked. Gain a +4

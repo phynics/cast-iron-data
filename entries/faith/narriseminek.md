@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Handaxe](ref/eq-weapon/handaxe)\
 **Symbol** Imentesh head wreathed in a circle of flame
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Surround yourself in a burning circle of flames at least 5 feet out from where you stand, chanting
 > prayers until the flames burn down to coals or smoke from any source harms you. Gain a +4 sacred

@@ -51,7 +51,7 @@ Merrymead (sharing of stories and drinks around a fire or during pub crawls, Feb
 **Centers of Worship** Absalom, Andoran, Galt, River Kingdoms, The Shackles, Taldor, Varisia\
 **Nationality** Taldan
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 75\
 > When the character is affected by an effect that [freedom](ref/spell/freedom) can prevent, he can
@@ -59,7 +59,7 @@ Merrymead (sharing of stories and drinks around a fire or during pub crawls, Feb
 > he opts not to use the gift to avoid such a fate, he can save it for use against a future
 > immobilization effect, but he cannot use it to escape the ongoing effect he chose not to avoid.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Sing a song in praise of freedom, bravery, and your god's glory (and good looks). The song must be
 > audible to those nearby - friend or foe. Between stanzas, you must pause to drink from a full mug
@@ -134,7 +134,7 @@ Merrymead (sharing of stories and drinks around a fire or during pub crawls, Feb
 >   roll, you can trade in one of your tallied natural 1s to automatically confirm the critical hit.
 >   This tally resets to 0 every day, and any tallied natural 1s from the day before are lost.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Cayden Cailean's Blade and Tankard
 >

@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Fear, [Isolation](ref/domain/void), Loss, Memory, Sahkil\
 **Favored Weapon** [Sap](ref/eq-weapon/sap)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Pray alone for an hour in a hidden place. Gain a +4 profane bonus on Stealth checks.
 >

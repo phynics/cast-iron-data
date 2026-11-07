@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** Rat\
 **Sacred Color(s)** Gold, silver
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Shake a purse containing at least six coins of any minting rhythmically while recounting exactly
 > how you earned, stole, or otherwise acquired them, and declare that you have gained all of your

@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "Be a member of House Corcina, or have the Inheritance [major childhood event](rule/birth_circumstances_and_more) background, Worldshaker (bard) class background, or the Craftsperson or Well-Connected Friend [background](rule/influential_associates_table)."
+prerequisites = "Be a member of House Corcina, or have the Inheritance [major childhood event](ref/rule/birth-circumstances-and-more) background, Worldshaker (bard) class background, or the Craftsperson or Well-Connected Friend [background](ref/rule/influential-associates-table)."
 benefit = "When in a settlement the size of a large city or smaller, you receive a +2 bonus on Appraise checks and Diplomacy checks. If you have 10 or more ranks in one of these skills, the bonus on that skill increases to +4."
 +++
 

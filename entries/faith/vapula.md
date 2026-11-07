@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Lion\
 **Sacred Color(s)** White, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Carve Vapula's symbol onto six coins of different mintings. Gain a +4 profane bonus on Appraise
 > checks.

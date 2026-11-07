@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Unarmed strike](ref/rule/melee-and-ranged-attacks)\
 **Symbol** Cerulean sphere dotted with stars
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Immerse yourself in flowing water, leaving only your mouth or nose above the surface, and whisper
 > prayers as the current whisks you away, praying until you wash ashore. Gain a +4 sacred bonus to

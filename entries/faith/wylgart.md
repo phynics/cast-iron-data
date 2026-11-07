@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Owl\
 **Sacred Color(s)** Black, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Pass a binding judgment on the words or deeds of a creature you've recently encountered, perhaps
 > even yourself. Gain a +4 profane bonus on saving throws against compulsions.

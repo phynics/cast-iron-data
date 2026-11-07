@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Torture a living creature with red-hot brands or small fires, and meditate on the cries of pain
 > and scent of scorched flesh. Gain a +4 profane bonus on saving throws against fire-based effects.

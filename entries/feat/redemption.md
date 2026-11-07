@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have lost class features by violating the code of conduct of a class that possesses such a code, or have the Dishonored Family [background](rule/birth_circumstances_and_more)."
+prerequisites = "You must have lost class features by violating the code of conduct of a class that possesses such a code, or have the Dishonored Family [background](ref/rule/birth-circumstances-and-more)."
 benefit = "As an immediate action, you can add a +1 bonus to the result of an ability check, attack roll, saving throw, or skill check you have just rolled by becoming shaken for 1 minute. You must choose before the result is revealed."
 +++
 

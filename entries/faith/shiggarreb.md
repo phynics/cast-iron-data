@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Study texts on the tactics of war, particularly those involving the use of powerful magic. Gain a
 > +1 profane bonus to your Armor Class.

@@ -9,7 +9,7 @@ provenance = [
 
 [fields]
 kind = "feat"
-prerequisites = "[Jiang-shi](template/vampire)."
+prerequisites = "[Jiang-shi](ref/template/vampire)."
 benefit = "You gain the ability to create a different type of prayer scroll. You may create a prayer scroll with this ability by using any strip of parchment and a writing instrument, but doing so requires 10 minutes of uninterrupted work. Swapping your current prayer scroll for a different prepared one is a standard action. When wearing a different prayer scroll, you gain its special abilities, but lose your normal prayer scroll's immunity to spell completion and spell trigger magic items. Your prayer scrolls can be used only by you, and have no effect when used by other jiang-shis. When you choose this feat, select one of the following prayer scroll types."
 special = "You may select this feat multiple times. Each time you do so, choose another ability granted by the feat."
 +++

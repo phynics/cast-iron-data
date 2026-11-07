@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Tree snake\
 **Sacred Color(s)** Brown, green
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Play a practical joke on an unsuspecting target. If no suitable targets are nearby, write down an
 > original joke and leave it tucked in a place where someone may someday find it. Gain a +4 sacred

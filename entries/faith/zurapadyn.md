@@ -27,7 +27,7 @@ kind = "none"
 [Catastrophe](ref/domain/destruction), [Rage](ref/domain/destruction)\
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Steal something of sentimental value, burn it, and place the ashes where the owner will find them.
 > Gain a +4 profane bonus on saving throws against fire effects.

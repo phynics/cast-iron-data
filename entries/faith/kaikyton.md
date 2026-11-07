@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Family, Fear, [Metal](ref/domain/earth), Tyranny\
 **Favored Weapon** [Spiked chain](ref/eq-weapon/spiked-chain)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Spend an hour stitching mortal flesh. The creature you stitch gains a number of
 > [temporary hit points](ref/rule/temporary-hit-points) equal to half its Hit Dice (lasting 24 hours

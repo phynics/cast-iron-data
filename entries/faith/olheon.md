@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Wolf\
 **Sacred Color(s)** Blue, gold
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Drop hot wax onto your brow and press the spot with a signet ring - either your own or that of a
 > legitimate authority - to show your submission to deserved rulership. For that day, so long as

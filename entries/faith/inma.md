@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** Family, Home, Leadership, Tyranny\
 **Favored Weapon** [Katana](ref/eq-weapon/katana)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Craft delicate origami representing those you seek to rule over. Gain a +4 profane bonus on saving
 > throws against mind-affecting effects.

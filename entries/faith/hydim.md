@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Insanity](ref/domain/madness), Memory, [Nightmare](ref/domain/madness), Thought\
 **Favored Weapon** [Kukri](ref/eq-weapon/kukri)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Consume 13 pages from a sacred text. Gain a +4 profane bonus on saving throws against effects that
 > cause exhaustion, fatigue, hunger, or pain.

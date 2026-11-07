@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Blood](ref/domain/war), Fear, Honor, [Tactics](ref/domain/war)\
 **Favored Weapon** [Unarmed strike](ref/rule/melee-and-ranged-attacks)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Practice martial art stances and routines. Gain a +4 profane bonus to CMD.
 >

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Cobra\
 **Sacred Color(s)** White, yellow
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Weave a fabric of lies glorifying yourself and your malebranche liege, but never name him, instead
 > hinting at glorious truths your faith reveals. Gain a +4 profane bonus on saving throws against

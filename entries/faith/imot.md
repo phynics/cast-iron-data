@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Light shield](ref/eq-armor/light-wooden-shield)\
 **Symbol** Three adjacent circles arranged above, bisected by, and below a horizontal line
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Spend an hour in a dark space barely large enough for you to fit and cast your thoughts out from
 > your body. Gain a +4 insight bonus on Perception checks to spot portents and traps; this expanded

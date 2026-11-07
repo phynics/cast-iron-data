@@ -12,7 +12,7 @@ kind = "feat"
 feat_types = ["Blood Hex"]
 prerequisites = "Int 13, base attack bonus +6, Use Magic Device 1 rank."
 benefit = "As a standard action, you can curse the accuracy of an enemy you have dealt damage to in the last minute. The target must succeed at a Fortitude save or it automatically fails to confirm all critical threats. This effect lasts for 1 round."
-special = "If a shaman or witch uses this [blood hex](rule/feats_class), the target is unable to deal precision damage or sneak attack damage for the hex's duration."
+special = "If a shaman or witch uses this [blood hex](ref/rule/feats-class), the target is unable to deal precision damage or sneak attack damage for the hex's duration."
 +++
 
 ## Blunt Blade (Blood Hex)

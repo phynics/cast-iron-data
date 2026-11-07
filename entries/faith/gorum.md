@@ -46,12 +46,12 @@ Legend^[1](ref/faith/gorum#footnote-a)^, Protean, [Rage](ref/domain/destruction)
 the Mammoth Lords, River Kingdoms\
 **Nationality** Kellid
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 76\
 > Gorum grants a permanent +1 untyped bonus to Strength.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Dress yourself in the heaviest set of metal armor you own. Shout your oath of loyalty to Gorum at
 > the top of your lungs, punctuating each pause for breath by smashing your weapon against a shield
@@ -123,7 +123,7 @@ the Mammoth Lords, River Kingdoms\
 >   spell, though you don't need to concentrate. Instead, the rage lasts for a number of rounds
 >   equal to your Hit Dice or until you choose to end it, whichever comes first.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Gorum's Swordmanship
 >

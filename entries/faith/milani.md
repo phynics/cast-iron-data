@@ -37,7 +37,7 @@ kind = "none"
 **Centers of Worship** Cheliax, Galt, Irrisen, Isger, Rahadoum\
 **Nationality** half-elf
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Spend time meditating among roses you have planted yourself, so you can inhale their sacred scent
 > while offering prayers to Milani. If no such roses are available, you can instead brew tea from

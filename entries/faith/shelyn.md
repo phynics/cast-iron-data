@@ -54,12 +54,12 @@ Taldan Pantheon\
 **Centers of Worship** Absalom, Galt, Sargava, Taldor\
 **Nationality** Taldan
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 80\
 > Shelyn grants a permanent +1 untyped bonus to Charisma.
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Paint a small picture, compose a short poem or song, dance a scene from a ballet, or create
 > another work of art, whispering praise to Shelyn's beauty and grace as you do so. The art piece

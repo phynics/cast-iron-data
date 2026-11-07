@@ -26,7 +26,7 @@ kind = "none"
 **Subdomains** [Blood](ref/domain/war), Fear, Murder, Undead\
 **Favored Weapon** [Handaxe](ref/eq-weapon/handaxe)
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Either butcher an animal or work on the crafting of a leather garment. Gain immunity to bleed
 > effects.

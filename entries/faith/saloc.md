@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Guisarme](ref/eq-weapon/guisarme)\
 **Symbol** Equilateral triangle set inside a circle
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Spend at least 1 hour observing a crowded public place and help the first person you see fail or
 > err. This may be mundane, such as assisting a shopkeep in her accounting, or dire, as in helping a

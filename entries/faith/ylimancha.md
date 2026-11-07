@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Seagull\
 **Sacred Color(s)** Blue, gold
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Wrap yourself in a robe of feathers and immerse yourself in saltwater, holding your breath for as
 > long as possible. Climb out of the water, kneel down, and pray until the robe dries. Gain a +4

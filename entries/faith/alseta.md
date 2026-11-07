@@ -35,7 +35,7 @@ kind = "none"
 **Centers of Worship** Absalom, Brevoy, Lastwall, Taldor\
 **Nationality** Taldan
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Find a physical boundary between two places, such as a doorway, a bridge, or even just a line
 > drawn in the sand. Kneel with your back to this boundary and contemplate all the ways your life

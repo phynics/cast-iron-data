@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Owl\
 **Sacred Color(s)** Black, gold
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Find and observe a mouse or rat from no more than 30 feet away. Continue watching the mouse,
 > unseen, for 100 breaths. Catch the mouse and release it in an area where owls hunt. Gain a +4

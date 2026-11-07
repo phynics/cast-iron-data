@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have a fey ancestor somewhere in your family line, and you must have the [Adopted by the Fey, Met a Fantastic Creature](rule/birth_circumstances_and_more), or [Fey Meeting](rule/class_background_tables) background."
+prerequisites = "You must have a fey ancestor somewhere in your family line, and you must have the [Adopted by the Fey, Met a Fantastic Creature](ref/rule/birth-circumstances-and-more), or [Fey Meeting](ref/rule/class-background-tables) background."
 benefit = "You gain a +2 bonus on Charisma-based ability checks and skill checks other than Diplomacy checks."
 special = "Your ever-present awe is under your control. Your bonus on Charisma-based skill checks now also applies on your Diplomacy checks. You can increase any morale bonus you receive by 1."
 +++

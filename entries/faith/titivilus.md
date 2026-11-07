@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Viper\
 **Sacred Color(s)** Black, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Write propaganda that insidiously promotes Titivilus and his deeds. Gain a +4 profane bonus on
 > saving throws against mind-affecting effects.

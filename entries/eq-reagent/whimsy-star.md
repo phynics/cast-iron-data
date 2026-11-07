@@ -21,7 +21,7 @@ category = "Alchemical Reagents"
 The shimmering, multicolored whimsy star captures the mutability of
 [the First World](ref/rule/the-first-world).
 
-### \[Power Component\](rule/alchemical\_power\_components)
+### \[Power Component\](ref/rule/alchemical-power-components)
 
 |Doses|Spells|Effects|
 | --- | --- | --- |

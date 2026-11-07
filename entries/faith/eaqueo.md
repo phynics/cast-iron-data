@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Snake\
 **Sacred Color(s)** Black, blue
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Tie a noose and leave it around the neck of any dead creature. Gain a +4 profane bonus on saving
 > throws against mind-affecting effects.

@@ -52,7 +52,7 @@ Spring)\
 **Centers of Worship** Belkzen, Darklands, Katapesh, Realm of the Mammoth Lords, Osirion, Qadira\
 **Nationality** monster
 
-## \[Divine Gift\](rule/divine\_gifts)
+## \[Divine Gift\](ref/rule/divine-gifts)
 
 > **Sources:** Planar Adventures pg 79\
 > The recipient gains the ability to bring destruction by casting one of the following spells as a
@@ -60,7 +60,7 @@ Spring)\
 > [meteor swarm](ref/spell/meteor-swarm), [storm of vengeance](ref/spell/storm-of-vengeance), or
 > [tsunami](ref/spell/tsunami).
 
-## \[Deific Obedience\](feat/deific\_obedience)
+## \[Deific Obedience\](ref/feat/deific-obedience)
 
 > Smash an assortment of items worth at least 10 gp, preferably something fragile, aesthetically
 > beautiful, or with significance to a good-aligned deity (particularly Sarenrae). The more devout
@@ -142,7 +142,7 @@ Spring)\
 > - Torture is needless delay. I give the gift of a quick death.
 > - I will die standing.
 
-## \[Divine Fighting Technique\](feat/divine\_fighting\_technique)
+## \[Divine Fighting Technique\](ref/feat/divine-fighting-technique)
 
 > ### Rovagug's Thunder
 >

@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Gecko\
 **Sacred Color(s)** Orange, yellow
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Deliberately lose yourself in a strange place. If there is nowhere for you to lose yourself,
 > blindfold yourself and wander boldly for 200 steps. Gain a +4 sacred bonus to AC against attacks

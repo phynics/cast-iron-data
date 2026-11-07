@@ -31,7 +31,7 @@ kind = "none"
 **Sacred Animal(s)** None\
 **Sacred Color(s)** Gray, orange
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Set an occupied building on fire, and watch it burn. Gain a +4 profane bonus on saves against fire
 > effects.

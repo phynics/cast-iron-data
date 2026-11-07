@@ -30,7 +30,7 @@ Wards\
 **Sacred Animal(s)** Shark\
 **Sacred Color(s)** Gray, white
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Drown a living creature in any amount of fetid water. Gain a +4 profane bonus on saving throws
 > against divinations.

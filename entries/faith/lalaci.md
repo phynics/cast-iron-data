@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Lacewing\
 **Sacred Color(s)** All
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Mark your brow with five colored stripes and hang suncatchers on as many public buildings as you
 > can. If no buildings are around, hang the suncatchers from a tree or natural formation instead.

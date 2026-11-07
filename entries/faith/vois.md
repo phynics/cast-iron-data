@@ -30,7 +30,7 @@ kind = "none"
 **Sacred Animal(s)** Toad\
 **Sacred Color(s)** Brown, green
 
-## \[Fiendish Obedience\](feat/fiendish\_obedience)
+## \[Fiendish Obedience\](ref/feat/fiendish-obedience)
 
 > Swallow a toad whole, and bask in the croaking sounds it makes in your throat while it travels to
 > your stomach. Gain a +4 profane bonus on saving throws against sonic effects.

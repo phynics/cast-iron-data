@@ -10,7 +10,7 @@ provenance = [
 [fields]
 kind = "feat"
 feat_types = ["Story"]
-prerequisites = "You must have found love with a person you can't be with, have a current lover, or have the [Current Lover](rule/romantic_relationships), [For Love (bard)](rule/class_background_tables), or [The Lover](rule/influential_associates_table) background. Possible complications include distance, your love being with another, your feelings being unrequited, or your relationship being forbidden."
+prerequisites = "You must have found love with a person you can't be with, have a current lover, or have the [Current Lover](ref/rule/romantic-relationships), [For Love (bard)](ref/rule/class-background-tables), or [The Lover](ref/rule/influential-associates-table) background. Possible complications include distance, your love being with another, your feelings being unrequited, or your relationship being forbidden."
 benefit = "You add 1 to the save DC and caster level of your spells and spell-like abilities with the emotion descriptor. In addition, you gain a +2 bonus on Sense Motive checks. If you have 10 or more ranks in Sense Motive, this bonus increases to +4."
 special = "At the GM's discretion, you can find true love with a person other than the one you designated when you chose this feat. In this case, the love you initially chose was wrong for you, but this became obvious only when you found the one truly meant for you."
 +++

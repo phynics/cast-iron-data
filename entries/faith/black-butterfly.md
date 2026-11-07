@@ -29,7 +29,7 @@ kind = "none"
 **Sacred Animal(s)** Butterfly\
 **Sacred Color(s)** Black, silver
 
-## \[Celestial Obedience\](feat/celestial\_obedience)
+## \[Celestial Obedience\](ref/feat/celestial-obedience)
 
 > Perform an anonymous act of charity without speaking to or gazing upon whoever will benefit from
 > your act. If you accidentally see or speak to the person you help, spend an hour blindfolded and

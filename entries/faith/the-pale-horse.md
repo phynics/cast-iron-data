@@ -27,7 +27,7 @@ kind = "none"
 **Favored Weapon** [Trident](ref/eq-weapon/trident)\
 **Symbol** Horizontal line with a circle and three dots at one end
 
-## \[Monitor Obedience\](feat/monitor\_obedience)
+## \[Monitor Obedience\](ref/feat/monitor-obedience)
 
 > Perform hard labor for at least 1 hour while focusing on your shortcomings and how to overcome
 > them. Gain a +4 insight bonus on saves against death effects and effects that would cause you to
