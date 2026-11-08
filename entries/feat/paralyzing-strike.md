@@ -2,7 +2,7 @@
 id = "ref/feat/paralyzing-strike"
 kind = "feat"
 title = "Paralyzing Strike"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paralyzing_strike", path = "json/feat11.json" },
 ]
@@ -30,9 +30,3 @@ addition to dealing damage normally. A defender who fails this saving throw is
 use Paralyzing Strike once per day for every 4 character levels you have, but no more than once per
 round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical
 hits cannot be affected by this ability.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 128\
-You can spend 5 stamina points to declare that you are using this feat after you've hit with an
-unarmed strike roll.

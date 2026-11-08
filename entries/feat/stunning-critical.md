@@ -2,7 +2,7 @@
 id = "ref/feat/stunning-critical"
 kind = "feat"
 title = "Stunning Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_critical", path = "json/feat15.json" },
 ]
@@ -29,10 +29,3 @@ rounds. The DC of this Fortitude save is equal to 10 + your base attack bonus. T
 feat do not stack. Additional hits instead add to the duration.\
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you
 possess [Critical Mastery](ref/feat/critical-mastery).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When you confirm a critical hit and attempt to stun an opponent with this feat, you can spend up to
-5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of
-stamina points you spent.

@@ -2,7 +2,7 @@
 id = "ref/feat/adder-strike"
 kind = "feat"
 title = "Adder Strike"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adder_strike", path = "json/feat01.json" },
 ]
@@ -28,8 +28,3 @@ delivering the poison with your unarmed strikes.\
 that you use for unarmed strikes. You must still protect yourself against exposure to contact
 poisons you apply in this way.\
 **Normal:** Applying poison to a weapon or single piece of ammunition is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 113\
-You can spend 2 stamina points to apply poison to a manufactured weapon as a swift action.

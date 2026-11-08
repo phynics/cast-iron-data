@@ -2,7 +2,7 @@
 id = "ref/feat/combat-reflexes"
 kind = "feat"
 title = "Combat Reflexes"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_reflexes", path = "json/feat03.json" },
 ]
@@ -27,10 +27,3 @@ Dexterity bonus. With this feat, you may also make attacks of opportunity while
 can't make attacks of opportunity while flat-footed.\
 **Special:** The Combat Reflexes feat does not allow a rogue to use her opportunist ability more
 than once per round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When you miss with an attack of opportunity, you can spend 5 stamina points to make a second attack
-for the same provoking action. That second attack of opportunity takes a -5 penalty on the attack
-roll and costs one of your attacks of opportunity for the round.

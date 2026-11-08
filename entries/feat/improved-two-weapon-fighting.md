@@ -2,7 +2,7 @@
 id = "ref/feat/improved-two-weapon-fighting"
 kind = "feat"
 title = "Improved Two-Weapon Fighting"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_two_weapon_fighting", path = "json/feat09.json" },
 ]
@@ -26,12 +26,6 @@ You are skilled at fighting with two weapons.\
 **Benefit:** In addition to the standard single extra attack you get with an off-hand weapon, you
 get a second attack with it, albeit at a -5 penalty.\
 **Normal:** Without this feat, you can only get a single extra attack with an off-hand weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-When making an attack of opportunity, you can spend 5 stamina points to also make an attack of
-opportunity with your off-hand weapon. That second attack takes a -5 penalty.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat has been removed, replaced with a modified

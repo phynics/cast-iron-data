@@ -2,7 +2,7 @@
 id = "ref/feat/deathless-master"
 kind = "feat"
 title = "Deathless Master"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless_master", path = "json/feat04.json" },
 ]
@@ -26,9 +26,3 @@ assault.\
 [Endurance](ref/feat/endurance), [Ironhide](ref/feat/ironhide), base attack bonus +9.\
 **Benefit:** When you are at 0 or fewer hit points, you do not lose 1 hit point when you take an
 action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 117\
-When you are at 0 or fewer hit points, you can spend 2 stamina points as a standard action at the
-start of your turn to gain 2 temporary hit points. These hit points last for 1 minute.

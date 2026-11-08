@@ -2,7 +2,7 @@
 id = "ref/feat/moonlight-stalker-feint"
 kind = "feat"
 title = "Moonlight Stalker Feint"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonlight_stalker_feint", path = "json/feat11.json" },
 ]
@@ -28,10 +28,3 @@ You strike through the shadows so quickly that your opponent can barely react to
 **Benefit:** Once per round, against an opponent from whom you have
 [concealment](ref/rule/concealment), you can spend a swift action to make a Bluff check to feint.\
 **Normal:** Feinting is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When you attempt a Bluff check to feint against an opponent from whom you have concealment, you can
-spend up to 5 stamina points to gain a bonus on the Bluff check equal to double the number of
-stamina points you spent.

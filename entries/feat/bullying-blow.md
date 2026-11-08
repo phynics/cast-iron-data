@@ -2,7 +2,7 @@
 id = "ref/feat/bullying-blow"
 kind = "feat"
 title = "Bullying Blow"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullying_blow", path = "json/feat02.json" },
 ]
@@ -25,9 +25,3 @@ With a simple hit, you more easily intimidate an opponent.\
 If the attack damages your opponent, you may make an Intimidate check to demoralize that opponent as
 a free action.\
 **Normal:** Intimidating an opponent is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-You can spend 2 stamina points to gain the effects of this feat on a single attack made as part of a
-full attack.

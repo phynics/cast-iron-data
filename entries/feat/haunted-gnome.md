@@ -2,7 +2,7 @@
 id = "ref/feat/haunted-gnome"
 kind = "feat"
 title = "Haunted Gnome"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_gnome", path = "json/feat08.json" },
 ]
@@ -23,8 +23,3 @@ You use your gnome magic to take on an eerie illusory appearance.\
 **Benefit:** You add [haunted fey aspect](ref/spell/haunted-fey-aspect) to your list of gnome magic
 [spell-like abilities](ref/umr/spell-like-abilities), and you can use this spell-like ability twice
 per day.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-You can spend 5 stamina points to use haunted fey aspect an additional time in a day.

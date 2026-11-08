@@ -2,7 +2,7 @@
 id = "ref/feat/greater-weapon-of-the-chosen"
 kind = "feat"
 title = "Greater Weapon of the Chosen"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_of_the_chosen", path = "json/feat08.json" },
 ]
@@ -27,9 +27,3 @@ Your deity guides your hand when you fight with her favored weapon.\
 action, you roll two dice for your attack roll and take the higher result. You do not need to use
 your Weapon of the Chosen feat to gain this feat's benefit. As usual, the reroll does not apply to
 any confirmation rolls.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When making an attack as part of a full attack with the weapon designated by your Weapon of the
-Chosen feat, you can spend 5 stamina points to gain the benefits of this feat on that attack.

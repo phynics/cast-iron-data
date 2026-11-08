@@ -2,7 +2,7 @@
 id = "ref/feat/gorgons-fist"
 kind = "feat"
 title = "Gorgon's Fist"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorgons_fist", path = "json/feat07.json" },
 ]
@@ -26,12 +26,6 @@ reduced (such as from Scorpion Style). If the attack hits, you deal damage norma
 is [staggered](ref/misc/staggered) until the end of your next turn unless it makes a Fortitude
 saving throw (DC 10 + 1/2 your character level + your Wis modifier). This feat has no effect on
 targets that are staggered.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-You can spend 5 stamina points to make a Gorgon's Fist attack as one of the individual attacks made
-during a full attack.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 With one well-placed blow, you leave your target reeling.\

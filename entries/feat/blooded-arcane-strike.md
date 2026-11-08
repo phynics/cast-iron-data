@@ -2,7 +2,7 @@
 id = "ref/feat/blooded-arcane-strike"
 kind = "feat"
 title = "Blooded Arcane Strike"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blooded_arcane_strike", path = "json/feat02.json" },
 ]
@@ -28,9 +28,3 @@ Strike - it is always in effect. When you use this ability with
 [Greater Vital Strike](ref/feat/greater-vital-strike), the bonus on damage rolls for Arcane Strike
 is multiplied by the number of times (two, three, or four) you roll damage dice for one of those
 feats.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-When you imbue your weapon with Arcane Strike, you can spend 5 stamina points to increase its damage
-by 1 for the duration of the Arcane Strike effect.

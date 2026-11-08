@@ -2,7 +2,7 @@
 id = "ref/feat/felling-escape"
 kind = "feat"
 title = "Felling Escape"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "felling_escape", path = "json/feat07.json" },
 ]
@@ -25,11 +25,3 @@ the ground after escaping a grapple.\
 [Improved Trip](ref/feat/improved-trip).\
 **Benefit:** When you break an opponent's grapple with a combat maneuver check or Escape Artist
 check, you can spend a swift action to make a trip attempt against that opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina
-pool. You can spend 5 stamina points to make the trip attempt from this feat as a free action
-instead of a swift action.

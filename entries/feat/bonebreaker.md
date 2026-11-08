@@ -2,7 +2,7 @@
 id = "ref/feat/bonebreaker"
 kind = "feat"
 title = "Bonebreaker"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonebreaker", path = "json/feat02.json" },
 ]
@@ -27,10 +27,3 @@ bone and tear tissue.\
 **Benefit:** When you make a successful Stunning Fist attempt against an opponent that is grappled,
 helpless, or stunned, you can forgo any other Stunning Fist effect to deal 1d6
 [Strength or Dexterity damage](ref/rule/ability-damage-drain) to that opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-When you make a successful Stunning Fist attempt against a creature that is dazed or staggered, you
-can spend 5 stamina points to forgo any other Stunning Fist effects and deal 1d6 points of Strength
-or Dexterity damage to that opponent instead.

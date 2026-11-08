@@ -2,7 +2,7 @@
 id = "ref/feat/pinpoint-targeting"
 kind = "feat"
 title = "Pinpoint Targeting"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinpoint_targeting", path = "json/feat12.json" },
 ]
@@ -24,10 +24,3 @@ You can target the weak points in your opponent's armor.\
 **Benefit:** As a standard action, make a single ranged attack. The target does not gain any armor,
 natural armor, or shield bonuses to its Armor Class. You do not gain the benefit of this feat if you
 move this round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When you use this feat, you can spend stamina points to retain the ability to move. If you spend 2
-stamina points, you can take a 5-foot step after you make the attack. If you instead spend 5 stamina
-points, you can move up to half your speed as a move action.

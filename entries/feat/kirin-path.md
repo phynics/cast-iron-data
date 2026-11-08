@@ -2,7 +2,7 @@
 id = "ref/feat/kirin-path"
 kind = "feat"
 title = "Kirin Path"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kirin_path", path = "json/feat09.json" },
 ]
@@ -30,9 +30,3 @@ if the creature ends its turn within your threatened area, you can spend a use o
 opportunity that round to move up to 5 feet times your Intelligence modifier (minimum 1). You must
 end your move in a square threatened by the creature. This move does not provoke attacks of
 opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-When using Kirin Style, you can spend 5 stamina points instead of using an attack of opportunity to
-move a distance equal to 5 feet × your Intelligence modifier.

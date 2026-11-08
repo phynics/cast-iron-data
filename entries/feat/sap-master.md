@@ -2,7 +2,7 @@
 id = "ref/feat/sap-master"
 kind = "feat"
 title = "Sap Master"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sap_master", path = "json/feat13.json" },
 ]
@@ -24,9 +24,3 @@ You knock the sense out of foes with a well-timed surprise attack.\
 **Benefit:** Whenever you use a bludgeoning weapon to deal nonlethal sneak attack damage to a
 [flat-footed](ref/rule/flat-footed) opponent, roll your sneak attack dice twice, totaling the
 results as your nonlethal sneak attack damage for that attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 130\
-You can spend 10 stamina points to use this feat on one attack against an opponent you are flanking,
-instead of one that is flat-footed.

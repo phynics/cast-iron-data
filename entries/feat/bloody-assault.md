@@ -2,7 +2,7 @@
 id = "ref/feat/bloody-assault"
 kind = "feat"
 title = "Bloody Assault"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_assault", path = "json/feat02.json" },
 ]
@@ -28,10 +28,3 @@ round at the start of its turn. Bleed damage can be stopped by a DC 15 Heal chec
 magical healing. Bleed damage from this feat does not stack with itself. You must choose to use this
 feat before making the attack roll, and its effects last until your next turn (although the bleeding
 lasts until healed, as normal).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-Each round you use this feat, you can spend up to 5 stamina points. If you do, until the end of your
-next turn, you reduce the penalty on all your attack rolls by an amount equal to the number of
-stamina points you spent.

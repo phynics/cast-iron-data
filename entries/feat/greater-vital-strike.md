@@ -2,7 +2,7 @@
 id = "ref/feat/greater-vital-strike"
 kind = "feat"
 title = "Greater Vital Strike"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_vital_strike", path = "json/feat08.json" },
 ]
@@ -27,9 +27,3 @@ bonus that deals additional damage. Roll the weapon's damage dice for the attack
 the results together before adding bonuses from Strength, weapon abilities (such as
 [flaming](ref/magic-enh/flaming)), precision based damage, and other damage bonuses. These extra
 weapon damage dice are not multiplied on a critical hit, but are added to the total.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When using the Vital Strike combat trick, you can spend 4 stamina points instead of 2 to reroll four
-damage dice.

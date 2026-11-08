@@ -2,7 +2,7 @@
 id = "ref/feat/greater-grapple"
 kind = "feat"
 title = "Greater Grapple"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_grapple", path = "json/feat08.json" },
 ]
@@ -28,14 +28,6 @@ the grapple is a move action. This feat allows you to make two grapple checks ea
 harm, or pin your opponent), but you are not required to make two checks. You only need to succeed
 at one of these checks to maintain the grapple.\
 **Normal:** Maintaining a grapple is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 121\
-After you take a move action to successfully maintain a grapple, you can spend 5 stamina points
-before the end of your turn to maintain that grapple as a swift action. This allows you to make up
-to three grapple checks to maintain a grapple during a round, but you still can't maintain a grapple
-until the round after you initiate it.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Maintaining a grapple is second nature to you.\

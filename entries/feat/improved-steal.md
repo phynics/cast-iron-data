@@ -2,7 +2,7 @@
 id = "ref/feat/improved-steal"
 kind = "feat"
 title = "Improved Steal"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_steal", path = "json/feat09.json" },
 ]
@@ -26,15 +26,6 @@ combat maneuver. In addition, you receive a +2 bonus on checks made to steal an 
 also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to steal an item from
 you.\
 **Normal:** You provoke an attack of opportunity when performing a steal combat maneuver.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
-pool. When you are the target of a steal combat maneuver, you can spend a number of stamina points
-up to your Strength or Dexterity bonus, whichever is greater. Your CMD against that steal attempt
-increases by that number.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat **may** be removed, replaced with the new [Deft Maneuvers](ref/rule/deft-maneuvers) feat.

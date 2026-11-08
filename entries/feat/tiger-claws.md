@@ -2,7 +2,7 @@
 id = "ref/feat/tiger-claws"
 kind = "feat"
 title = "Tiger Claws"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_claws", path = "json/feat16.json" },
 ]
@@ -30,9 +30,3 @@ on one of the damage rolls by an additional one-half your Strength bonus. If you
 attempt a [bull rush](ref/rule/bull-rush) maneuver with a +2 bonus on the combat maneuver check.
 This bull rush attempt provokes no attack of opportunity from your opponent, but you cannot move
 with that opponent if your bull rush is successful.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-If your bull rush attempt from this feat succeeds, you can spend 2 stamina points to move with your
-opponent normally.

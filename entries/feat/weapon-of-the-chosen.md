@@ -2,7 +2,7 @@
 id = "ref/feat/weapon-of-the-chosen"
 kind = "feat"
 title = "Weapon of the Chosen"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_of_the_chosen", path = "json/feat17.json" },
 ]
@@ -27,9 +27,3 @@ deity's favored weapon. On your next attack in that round with that weapon, your
 magical for the purpose of overcoming [damage reduction](ref/rule/damage-reduction) or striking an
 incorporeal creature. If your attack misses because of [concealment](ref/rule/concealment), you can
 reroll your miss chance one time to see whether you actually hit.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-When using this feat, you can spend 5 stamina points to designate a weapon other than your deity's
-favored weapon. You gain this feat's benefits with that weapon until the start of your next turn.

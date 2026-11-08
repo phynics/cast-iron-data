@@ -2,7 +2,7 @@
 id = "ref/feat/snake-fang"
 kind = "feat"
 title = "Snake Fang"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_fang", path = "json/feat14.json" },
 ]
@@ -27,9 +27,3 @@ Sense Motive 9 ranks.\
 **Benefit:** While using the Snake Style feat, when an opponent's attack misses you, you can make an
 unarmed strike against that opponent as an attack of opportunity. If this attack of opportunity
 hits, you can spend an immediate action to make another unarmed strike against the same opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When you miss with an attack of opportunity you made due to Snake Fang, you can spend 5 stamina
-points to reroll the attack roll. You can use this combat trick only once per attack of opportunity.

@@ -2,7 +2,7 @@
 id = "ref/feat/quarterstaff-master"
 kind = "feat"
 title = "Quarterstaff Master"
-source_ids = ["ultimate-magic", "pathfinder-unchained"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quarterstaff_master", path = "json/feat12.json" },
 ]
@@ -27,10 +27,3 @@ decide whether or not you are going to wield the quarterstaff as a one-handed or
 When you wield it as a one-handed weapon, your other hand is free, and you cannot use the staff as a
 double weapon. You can take the feat [Weapon Specialization](ref/feat/weapon-specialization) in the
 quarterstaff even if you have no levels in fighter.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When you use this feat to wield a quarterstaff as a one-handed weapon, you can spend 5 stamina
-points to retain the ability to use it as a double weapon and still keep a hand free. This effect
-lasts until the beginning of your next turn.

@@ -2,7 +2,7 @@
 id = "ref/feat/snatch-arrows"
 kind = "feat"
 title = "Snatch Arrows"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snatch_arrows", path = "json/feat14.json" },
 ]
@@ -27,12 +27,6 @@ deflecting it. Thrown weapons can immediately be thrown back as an attack agains
 attacker (even though it isn't your turn) or kept for later use.
 
 You must have at least one hand free (holding nothing) to use this feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When you snatch a thrown weapon, as long as you have at least 1 stamina point in your stamina pool,
-you can make a thrown ranged attack with it against any target, not just the original attacker.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Instead of knocking an arrow or ranged attack aside, you can catch it in mid-flight.\

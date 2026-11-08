@@ -2,7 +2,7 @@
 id = "ref/feat/pinning-rend"
 kind = "feat"
 title = "Pinning Rend"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinning_rend", path = "json/feat12.json" },
 ]
@@ -28,9 +28,3 @@ combat maneuver check to deal an opponent damage using an unarmed strike or a li
 weapon, that opponent also takes [bleed](ref/rule/bleed) damage equal to your unarmed strike or
 weapon damage dice. Any creature that is immune to critical hits is immune to the effects of this
 feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When you deal bleed damage with this feat, you can spend up to 5 stamina points to increase the
-bleed damage by an amount equal to the number of stamina points you spent.

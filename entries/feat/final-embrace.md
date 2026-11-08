@@ -2,7 +2,7 @@
 id = "ref/feat/final-embrace"
 kind = "feat"
 title = "Final Embrace"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_embrace", path = "json/feat07.json" },
 ]
@@ -26,8 +26,3 @@ the [constrict](ref/umr/constrict) special attack as a racial ability; base atta
 deals damage equal to your unarmed strike or primary natural weapon melee attack. Further, you can
 grab and constrict opponents up to your size.\
 **Normal:** You can grab and constrict creatures one size smaller than you.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-You can spend 2 stamina points to grab a creature one size category larger than you.

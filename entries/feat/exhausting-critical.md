@@ -2,7 +2,7 @@
 id = "ref/feat/exhausting-critical"
 kind = "feat"
 title = "Exhausting Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exhausting_critical", path = "json/feat06.json" },
 ]
@@ -27,10 +27,3 @@ Your critical hits cause opponents to become exhausted.\
 [exhausted](ref/misc/exhausted). This feat has no effect on exhausted creatures.\
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you
 possess the [Critical Mastery](ref/feat/critical-mastery) feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When you threaten a critical hit against an exhausted target and choose to use Exhausting Critical,
-you can spend up to 5 stamina points. If you do, you gain a +2 bonus on the confirmation roll for
-each stamina point you spent.

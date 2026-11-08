@@ -2,7 +2,7 @@
 id = "ref/feat/efreeti-touch"
 kind = "feat"
 title = "Efreeti Touch"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efreeti_touch", path = "json/feat05.json" },
 ]
@@ -30,9 +30,3 @@ attempts to unleash a 15-foot cone-shaped burst of flame. Creatures caught in th
 unarmed strike damage plus the fire damage from your Elemental Fist and catch on fire. A successful
 Reflex save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by half and
 prevents a target from catching on fire.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-Instead of spending two uses of Elemental Fist to unleash a cone of flame, you can spend one use of
-Elemental Fist and 2 stamina points.

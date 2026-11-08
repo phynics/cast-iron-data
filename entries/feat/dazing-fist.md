@@ -2,7 +2,7 @@
 id = "ref/feat/dazing-fist"
 kind = "feat"
 title = "Dazing Fist"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazing_fist", path = "json/feat04.json" },
 ]
@@ -30,9 +30,3 @@ for 1 round, until just before your next turn. You can attempt to use Dazing Fis
 every 4 character levels you have, but no more than once per round. Constructs, incorporeal
 creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this
 ability.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-You can spend 5 stamina points to declare that you are using Dazing Fist after you've hit with an
-unarmed strike attack.

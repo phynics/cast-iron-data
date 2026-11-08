@@ -2,7 +2,7 @@
 id = "ref/feat/anticipate-dodge"
 kind = "feat"
 title = "Anticipate Dodge"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_dodge", path = "json/feat01.json" },
 ]
@@ -25,9 +25,3 @@ brawler level 4th, or monk level 4th.\
 **Benefit:** You automatically know whether a creature you can see has a dodge bonus to its AC. You
 gain up to a +2 bonus on attack rolls against a target that has a dodge bonus. This bonus cannot
 exceed the dodge bonus of the creature you attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 113\
-You can spend 1 stamina point to increase the maximum bonus from Anticipate Dodge by 2 (this is
-still limited by the creature's dodge bonus, however).

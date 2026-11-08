@@ -2,7 +2,7 @@
 id = "ref/feat/blind-fight"
 kind = "feat"
 title = "Blind-Fight"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blind_fight", path = "json/feat02.json" },
 ]
@@ -33,9 +33,3 @@ You do not need to make Acrobatics skill checks to move at full speed while blin
 lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies.\
 **Special:** The Blind-Fight feat is of no use against a character who is the subject of a
 [blink](ref/spell/blink) spell.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-Once per round, when you hit a creature that benefits from concealment, you can spend 2 stamina
-points to ignore the miss chance from that creature's concealment until the end of your next turn.

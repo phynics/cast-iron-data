@@ -2,7 +2,7 @@
 id = "ref/feat/djinni-spin"
 kind = "feat"
 title = "Djinni Spin"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "djinni_spin", path = "json/feat05.json" },
 ]
@@ -30,9 +30,3 @@ attempts to surround yourself with a whirlwind of electrified air. Creatures adj
 your unarmed strike damage plus the electricity damage from your Elemental Fist and are deafened for
 1d4 rounds. A successful Fortitude save (DC 10 + 1/2 your character level + your Wis modifier)
 reduces the damage by half and prevents a target from being deafened.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-Instead of spending two uses of Elemental Fist to surround yourself in a whirlwind of electrified
-air, you can spend one use of Elemental Fist and 2 stamina points.

@@ -2,7 +2,7 @@
 id = "ref/feat/power-attack"
 kind = "feat"
 title = "Power Attack"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_attack", path = "json/feat12.json" },
 ]
@@ -29,12 +29,6 @@ weapon. When your base attack bonus reaches +4, and every 4 points thereafter, t
 by -1 and the bonus to damage increases by +2. You must choose to use this feat before making an
 attack roll, and its effects last until your next turn. The bonus damage does not apply to touch
 attacks or effects that do not deal hit point damage.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When using this feat, you can spend 2 stamina points to gain the benefits and the hindrances of that
-feat until the end of your turn, instead of until your next turn.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat has been removed, replaced with the [Risky Strike](ref/rule/combat-errata) action.

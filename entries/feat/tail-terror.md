@@ -2,7 +2,7 @@
 id = "ref/feat/tail-terror"
 kind = "feat"
 title = "Tail Terror"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_terror", path = "json/feat15.json" },
 ]
@@ -24,10 +24,3 @@ You have strengthened your tail enough to make slap attacks with it.\
 [natural attack](ref/umr/natural-attacks) that deals 1d4 points of bludgeoning damage. Furthermore,
 you can augment your tail slap attack with a [kobold tail attachment](ref/eq-weapon/kobold-tail).
 For the purpose of weapon feats, you are considered proficient with all kobold tail attachments.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-At the start of your turn, you can spend 5 stamina points to treat your tail slap as a primary
-natural attack until the beginning of your next turn. The tail slap is treated as a primary attack
-even if used along with weapon attacks as part of a full attack.

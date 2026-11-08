@@ -2,7 +2,7 @@
 id = "ref/feat/swap-places"
 kind = "feat"
 title = "Swap Places"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swap_places", path = "json/feat15.json" },
 ]
@@ -24,9 +24,3 @@ as an immediate action. Both you and your ally must be willing and able to move 
 this feat. Your ally must be the same size as you to utilize this feat. Your ally does not provoke
 an attack of opportunity from this movement, but you provoke as normal. This movement does not count
 against your ally's movement on his next turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When using this feat, you can spend 2 stamina points. If you do, your movement during the swap
-doesn't provoke attacks of opportunity.

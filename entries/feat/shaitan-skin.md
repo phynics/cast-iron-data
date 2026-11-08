@@ -2,7 +2,7 @@
 id = "ref/feat/shaitan-skin"
 kind = "feat"
 title = "Shaitan Skin"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_skin", path = "json/feat14.json" },
 ]
@@ -29,10 +29,3 @@ from levels in classes other than monk, whichever is higher. While denied your D
 you are also denied this resistance. Creatures that take acid damage from your Elemental Fist attack
 must succeed at a Reflex save (DC 10 + 1/2 your character level + your Wis modifier) or be
 [staggered](ref/misc/staggered) for 1 round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-When you make an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of
-the saving throw to avoid being staggered by an amount equal to the number of stamina points you
-spent.

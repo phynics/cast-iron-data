@@ -2,7 +2,7 @@
 id = "ref/feat/haunted-gnome-assault"
 kind = "feat"
 title = "Haunted Gnome Assault"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_gnome_assault", path = "json/feat08.json" },
 ]
@@ -31,9 +31,3 @@ Further, while you are under the effect of [haunted fey aspect](ref/spell/haunte
 can discharge that spell as a free action after you hit an opponent with a charge attack or score a
 critical hit against an opponent. If you do, that opponent becomes [shaken](ref/misc/shaken) for 1
 round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When you hit an opponent with a charge attack or confirm a critical hit, you can spend 2 stamina
-points to make the target of the attack shaken for 1 round without discharging haunted fey aspect.

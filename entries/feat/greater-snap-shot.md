@@ -2,7 +2,7 @@
 id = "ref/feat/greater-snap-shot"
 kind = "feat"
 title = "Greater Snap Shot"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_snap_shot", path = "json/feat08.json" },
 ]
@@ -26,9 +26,3 @@ You can prey on any gap in your foe's guard with impunity, and with even greater
 bonus on the damage roll and a +2 bonus on rolls to confirm a critical hit with that attack. These
 bonuses increase to +4 when you have base attack bonus +16, and to +6 when you have base attack
 bonus +20.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 121\
-When you make an attack of opportunity using a ranged weapon, you can spend 3 stamina points to gain
-your bonus from Greater Snap Shot on the attack roll.

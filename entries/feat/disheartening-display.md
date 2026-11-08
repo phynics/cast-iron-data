@@ -2,7 +2,7 @@
 id = "ref/feat/disheartening-display"
 kind = "feat"
 title = "Disheartening Display"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disheartening_display", path = "json/feat04.json" },
 ]
@@ -27,9 +27,3 @@ Your show of prowess further demoralizes others.\
 by one step. An already panicked creature demoralized by this feat [cowers](ref/misc/cowering). Once
 affected by this feat, a creature cannot be affected by it again (by you or anyone else) for 24
 hours.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-When you affect a creature with this feat, you can spend 5 stamina points to gain the ability to
-affect that creature with this feat a second time during the same 24-hour period.

@@ -2,7 +2,7 @@
 id = "ref/feat/shaitan-style"
 kind = "feat"
 title = "Shaitan Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_style", path = "json/feat14.json" },
 ]
@@ -26,10 +26,3 @@ You strike with the caustic forces from within the earth.\
 and Elemental Fist feats to deal acid damage, you gain a bonus on acid damage rolls equal to your
 Wisdom bonus. Further, if your Elemental Fist melee attack misses while you are using it to deal
 acid damage, you still deal 1d6 points of acid damage to your target.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-When you make an Elemental Fist attack to deal acid damage, you can spend up to 5 stamina points.
-When you do, you deal an amount of additional acid damage equal to double the number of stamina
-points you spent.

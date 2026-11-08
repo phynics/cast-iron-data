@@ -2,7 +2,7 @@
 id = "ref/feat/sorcerous-strike"
 kind = "feat"
 title = "Sorcerous Strike"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerous_strike", path = "json/feat14.json" },
 ]
@@ -30,9 +30,3 @@ deliver the effects of the chosen bloodline power to that opponent. Doing so pro
 opportunity.\
 **Special:** You can take this feat multiple times. Each time you take it, you apply it to a
 different qualifying bloodline power.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your
-chosen bloodline power as a free action instead of a swift action.

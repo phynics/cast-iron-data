@@ -2,7 +2,7 @@
 id = "ref/feat/pinpoint-poisoner"
 kind = "feat"
 title = "Pinpoint Poisoner"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinpoint_poisoner", path = "json/feat12.json" },
 ]
@@ -35,9 +35,3 @@ attacks that deal 1d2 damage plus any bonuses you gain on your normal unarmed st
 they deliver the poison. You can instead throw such darts as if they were
 [shuriken](ref/eq-weapon/shuriken), making your ranged attack rolls against the target's AC.\
 **Normal:** Applying poison to a weapon or single piece of ammunition is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When throwing blowgun darts as shuriken with this feat while you're within 10 feet of your target,
-you can spend 5 stamina points to make your attack roll against the target's touch AC instead.

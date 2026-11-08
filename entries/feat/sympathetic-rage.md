@@ -2,7 +2,7 @@
 id = "ref/feat/sympathetic-rage"
 kind = "feat"
 title = "Sympathetic Rage"
-source_ids = ["advanced-race-guide", "orcs-of-golarion", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathetic_rage", path = "json/feat15.json" },
 ]
@@ -27,10 +27,3 @@ and penalties of a barbarian's rage, except your morale bonus to Strength and Co
 example, you could take a 5-foot step away from one raging ally toward another raging ally and
 maintain your rage). As with a barbarian's rage, when this weaker rage ends, you are
 [fatigued](ref/misc/fatigued). You cannot use this feat if you are fatigued.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When an ally within 30 feet is raging, you can spend 5 stamina points to enter a sympathetic rage
-even if you aren't adjacent to that ally. Until the rage ends, you only need to stay within 30 feet
-of a raging ally to maintain your sympathetic rage.

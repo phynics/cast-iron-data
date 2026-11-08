@@ -2,7 +2,7 @@
 id = "ref/feat/monkey-style"
 kind = "feat"
 title = "Monkey Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_style", path = "json/feat11.json" },
 ]
@@ -29,9 +29,3 @@ stand up from lying prone without provoking attacks of opportunity, and you can 
 action if you succeed at a DC 20 Acrobatics check.\
 **Normal:** You take a -4 penalty on attack rolls and AC against melee attacks while prone. Standing
 up is a standard action that provokes attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When using this style, you can spend 2 stamina points to stand up as a swift action without having
-to succeed at a DC 20 Acrobatics check.

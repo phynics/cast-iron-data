@@ -2,7 +2,7 @@
 id = "ref/feat/janni-style"
 kind = "feat"
 title = "Janni Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "janni_style", path = "json/feat09.json" },
 ]
@@ -24,9 +24,3 @@ Your whirling fighting technique makes you difficult to hit.\
 Perform (dance) 3 ranks.\
 **Benefit:** While using this style, you take only a -1 penalty to AC for charging. Further,
 opponents that [flank](ref/rule/flanking) you gain only a +1 bonus on attack rolls against you.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-When you charge while using this style, you can spend 2 stamina points to take no penalty to AC for
-charging and move an additional 10 feet as part of the charge.

@@ -2,7 +2,7 @@
 id = "ref/feat/twin-thunders-flurry"
 kind = "feat"
 title = "Twin Thunders Flurry"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_thunders_flurry", path = "json/feat16.json" },
 ]
@@ -29,9 +29,3 @@ weapons; base attack bonus +6.\
 bonus on damage rolls against creatures of the giant subtype. Further, each time you hit a creature
 of the giant subtype with your off-hand weapon after you hit that creature with your primary weapon,
 you can deal the extra off-hand weapon damage Twin Thunders grants you.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-You can spend 2 stamina points to attempt a trip combat maneuver against a Huge creature that does
-not have the giant subtype.

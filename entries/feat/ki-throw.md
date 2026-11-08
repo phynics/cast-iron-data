@@ -2,7 +2,7 @@
 id = "ref/feat/ki-throw"
 kind = "feat"
 title = "Ki Throw"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_throw", path = "json/feat09.json" },
 ]
@@ -29,8 +29,3 @@ own square. This movement does not provoke attacks of opportunity, and you canno
 into a space occupied by other creatures.\
 **Special:** A monk may gain Ki Throw as a bonus feat at 10th level. A monk with this feat can
 affect creatures larger than his own size by spending 1 ki point per size category difference.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-You can spend 5 stamina points to throw a creature one size category larger than you.

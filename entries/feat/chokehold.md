@@ -2,7 +2,7 @@
 id = "ref/feat/chokehold"
 kind = "feat"
 title = "Chokehold"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chokehold", path = "json/feat03.json" },
 ]
@@ -30,8 +30,3 @@ have a verbal component. An opponent you have in a chokehold has to
 [hold his breath](ref/misc/hold-your-breath) or begin [suffocating](ref/rule/suffocation). Any
 creature that does not breathe, is immune to bleed damage, or is immune to critical hits is immune
 to the effects of your chokehold. When the grapple is ended, so is the chokehold.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When you attempt a chokehold, you can spend 2 stamina points to reduce the penalty to -1.

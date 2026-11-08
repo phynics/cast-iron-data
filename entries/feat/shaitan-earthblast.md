@@ -2,7 +2,7 @@
 id = "ref/feat/shaitan-earthblast"
 kind = "feat"
 title = "Shaitan Earthblast"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_earthblast", path = "json/feat14.json" },
 ]
@@ -29,9 +29,3 @@ of origin within 30 feet of you. Creatures caught in the column take your unarme
 the acid damage from your Elemental Fist and are [staggered](ref/misc/staggered) for 1 round. A
 successful Reflex save (DC 10 + 1/2 your character level + your Wis modifier) reduces the damage by
 half and prevents a target from being staggered.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-Instead of spending two uses of Elemental Fist to unleash a column of acid, you can spend one use of
-Elemental Fist and 2 stamina points.

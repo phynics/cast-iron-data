@@ -2,7 +2,7 @@
 id = "ref/feat/befuddling-strike"
 kind = "feat"
 title = "Befuddling Strike"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "befuddling_strike", path = "json/feat02.json" },
 ]
@@ -30,9 +30,3 @@ thus, a failed attack roll ruins the attempt. A defender who fails this saving t
 have, but can use it no more than once per round. Constructs, incorporeal creatures, mindless
 creatures, plants, undead, and creatures that are immune to critical hits cannot be affected by this
 ability.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-You can spend 5 stamina points to declare that you are using Befuddling Strike after you've hit with
-an unarmed strike attack roll.

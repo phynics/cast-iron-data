@@ -2,7 +2,7 @@
 id = "ref/feat/sword-and-pistol"
 kind = "feat"
 title = "Sword and Pistol"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_and_pistol", path = "json/feat15.json" },
 ]
@@ -28,10 +28,3 @@ You effortlessly pair melee and ranged weaponry.\
 or firearm, your attacks with the crossbow or firearm provoke no attacks of opportunity from foes
 that you threaten with your melee weapon.\
 **Normal:** Making a ranged attack provokes attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When you use the Two-Weapon Fighting feat while wielding a melee weapon and a crossbow or firearm,
-as long as you have 1 stamina point in your stamina pool, you gain a +1 bonus on all attack rolls
-made with the crossbow or firearm.

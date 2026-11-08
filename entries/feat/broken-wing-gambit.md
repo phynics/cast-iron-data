@@ -2,7 +2,7 @@
 id = "ref/feat/broken-wing-gambit"
 kind = "feat"
 title = "Broken Wing Gambit"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broken_wing_gambit", path = "json/feat02.json" },
 ]
@@ -24,9 +24,3 @@ You feign weakness, making yourself a tempting and distracting target.\
 grant that opponent a +2 bonus on attack and damage rolls against you until the end of your next
 turn or until your opponent attacks you, whichever happens first. If that opponent attacks you with
 this bonus, it provokes attacks of opportunity from your allies who have this feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-When an opponent with the +2 bonus on attack rolls granted by this feat attacks you, you can spend 5
-stamina points to have that attack provoke an attack of opportunity from you also.

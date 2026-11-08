@@ -2,7 +2,7 @@
 id = "ref/feat/improved-impaling-critical"
 kind = "feat"
 title = "Improved Impaling Critical"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_impaling_critical", path = "json/feat09.json" },
 ]
@@ -31,10 +31,3 @@ all modes is halved and his maneuverability, if any, is reduced by one step. Whe
 out, instead of dealing the damage normal for Impaling Critical, you can deal
 [bleed](ref/rule/bleed) damage equal to your weapon's damage dice result once per round at the start
 of that opponent's turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 123\
-When using this feat to impale a foe, you can spend 5 stamina points to immobilize the foe in its
-current space (instead of halving its movement) for as long as you maintain your grip and the foe is
-impaled. If you let go of the weapon, the foe can move, but its movement is still halved.

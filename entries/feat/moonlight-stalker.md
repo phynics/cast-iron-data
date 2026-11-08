@@ -2,7 +2,7 @@
 id = "ref/feat/moonlight-stalker"
 kind = "feat"
 title = "Moonlight Stalker"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonlight_stalker", path = "json/feat11.json" },
 ]
@@ -25,9 +25,3 @@ You are adept at using shadows to conceal your attacks.\
 [low-light vision](ref/rule/low-light-vision) racial trait.\
 **Benefit:** While you have [concealment](ref/rule/concealment) from an opponent, you gain a +2
 bonus on attack and damage rolls against that opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When you have total concealment from an opponent, you can spend 2 stamina points to increase your
-bonuses on attack and damage rolls from this feat to +4.

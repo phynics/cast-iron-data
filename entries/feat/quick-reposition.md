@@ -2,7 +2,7 @@
 id = "ref/feat/quick-reposition"
 kind = "feat"
 title = "Quick Reposition"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_reposition", path = "json/feat12.json" },
 ]
@@ -27,12 +27,3 @@ Your opponent becomes an unwitting dance partner, following your lead while you 
 maneuver in place of one of your melee attacks. You must choose the melee attack with the highest
 base attack bonus to make the reposition.\
 **Normal:** A reposition combat maneuver is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
-pool. You can spend 2 stamina points to change an attack that does not have your highest base attack
-bonus into a reposition combat maneuver. You can use this combat trick only once per round, but you
-can use it even if you already used your attack at the highest base attack bonus to reposition.

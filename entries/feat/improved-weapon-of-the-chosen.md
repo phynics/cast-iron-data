@@ -2,7 +2,7 @@
 id = "ref/feat/improved-weapon-of-the-chosen"
 kind = "feat"
 title = "Improved Weapon of the Chosen"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_weapon_of_the_chosen", path = "json/feat09.json" },
 ]
@@ -28,9 +28,3 @@ either chaotic, evil, good, or lawful - for the purpose of overcoming
 [damage reduction](ref/rule/damage-reduction). If your deity is neutral with no other alignment
 components, your attacks instead overcome damage reduction as though your weapon were both cold iron
 and silver.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-When using this feat, at the end of its normal duration you can spend 2 stamina points to extend the
-duration until the end of your next turn.

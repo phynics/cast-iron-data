@@ -2,7 +2,7 @@
 id = "ref/feat/improved-awesome-blow"
 kind = "feat"
 title = "Improved Awesome Blow"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_awesome_blow", path = "json/feat08.json" },
 ]
@@ -31,11 +31,3 @@ gain a +2 bonus to your combat maneuver defense whenever an opponent tries to pe
 blow combat maneuver against you. Whenever you successfully perform an awesome blow combat maneuver,
 your opponent's movement provokes attacks of opportunity from all your allies (but not you).\
 **Normal:** Creatures moved by awesome blow do not provoke attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When a creature attempts an awesome blow combat maneuver against you, you can spend up to 3 stamina
-points to increase your Combat Maneuver Defense against that combat maneuver by an amount equal to
-the number of stamina points you spent. This bonus stacks with the bonus granted by Improved Awesome
-Blow.

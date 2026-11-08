@@ -2,7 +2,7 @@
 id = "ref/feat/ferocious-tenacity"
 kind = "feat"
 title = "Ferocious Tenacity"
-source_ids = ["advanced-race-guide", "orcs-of-golarion", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_tenacity", path = "json/feat07.json" },
 ]
@@ -37,9 +37,3 @@ would, lowering your Constitution to its normal value and reducing your hit poin
 Therefore, it is possible to use this feat to prevent yourself from instantly dying, yet you still
 die because your negative hit points exceed your normal Constitution score - take your normal
 Constitution into account when deciding how many rounds of rage to spend with this feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When using this feat, you can spend 2 stamina points in place of 1 round of rage to gain the same
-effects.

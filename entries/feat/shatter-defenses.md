@@ -2,7 +2,7 @@
 id = "ref/feat/shatter-defenses"
 kind = "feat"
 title = "Shatter Defenses"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter_defenses", path = "json/feat14.json" },
 ]
@@ -27,13 +27,6 @@ when their defenses are already compromised.\
 [panicked](ref/misc/panicked) opponent hit by you this round is [flat-footed](ref/rule/flat-footed)
 to your attacks until the end of your next turn. This includes any additional attacks you make this
 round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-When you hit an opponent that has been made flat-footed to your attacks by this feat, you can spend
-5 stamina points to make that opponent flat-footed to the attacks of one ally who is within 30 feet
-of that creature until the start of your next turn.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Your skill with your chosen weapon group leaves opponents unable to defend themselves if you strike

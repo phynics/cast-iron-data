@@ -2,7 +2,7 @@
 id = "ref/feat/enfilading-fire"
 kind = "feat"
 title = "Enfilading Fire"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enfilading_fire", path = "json/feat05.json" },
 ]
@@ -24,9 +24,3 @@ Your ranged attacks take advantage of the [flanking](ref/rule/flanking) maneuver
 [Precise Shot](ref/feat/precise-shot), one other teamwork feat.\
 **Benefit:** You receive a +2 bonus on ranged attacks made against a foe flanked by 1 or more allies
 with this feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-Before making a ranged attack roll, you can spend 1 stamina point to gain the benefits of this feat
-against a target that is flanked by two or more allies, even if those allies don't have this feat.

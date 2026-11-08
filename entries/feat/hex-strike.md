@@ -2,7 +2,7 @@
 id = "ref/feat/hex-strike"
 kind = "feat"
 title = "Hex Strike"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_strike", path = "json/feat08.json" },
 ]
@@ -28,9 +28,3 @@ unarmed strike damage, you can use a swift action to deliver the effects of the 
 opponent. Doing so does not provoke attacks of opportunity.\
 **Special:** You can take this feat multiple times. Each time you take it, you apply it to a
 different qualifying hex.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-You can spend 5 stamina points to apply the effects of your chosen hex as a free action instead of a
-swift action.

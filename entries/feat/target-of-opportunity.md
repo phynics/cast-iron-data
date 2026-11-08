@@ -2,7 +2,7 @@
 id = "ref/feat/target-of-opportunity"
 kind = "feat"
 title = "Target of Opportunity"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "target_of_opportunity", path = "json/feat16.json" },
 ]
@@ -25,9 +25,3 @@ You and your allies pelt your enemies with a deadly barrage of missiles.\
 30 feet of you, you can spend an immediate action to make a single ranged attack against that
 opponent. Your ranged weapon must be in hand, loaded, and ready to be fired or thrown for you to
 make the ranged attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-You can spend 5 stamina points to make the attack granted by this feat as an attack of opportunity
-instead of an immediate action. You can use this combat trick only once per round.

@@ -2,7 +2,7 @@
 id = "ref/feat/tripping-staff"
 kind = "feat"
 title = "Tripping Staff"
-source_ids = ["ultimate-magic", "pathfinder-unchained"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_staff", path = "json/feat16.json" },
 ]
@@ -26,10 +26,3 @@ You can make a trip attack with your quarterstaff.\
 [trip](ref/misc/trip) special feature.\
 **Special:** If you are a magus with the [staff magus](ref/arc-magus/staff-magus) archetype, you can
 use spellstrike on any trip combat maneuver you make with the staff.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
-pool.

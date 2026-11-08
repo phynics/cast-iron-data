@@ -2,7 +2,7 @@
 id = "ref/feat/weapon-finesse"
 kind = "feat"
 title = "Weapon Finesse"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_finesse", path = "json/feat17.json" },
 ]
@@ -36,12 +36,6 @@ Sometimes there are restrictions on this behavior: check the weapon entry to be 
 - [Estoc](ref/eq-weapon/estoc)
 - [Spiral rapier](ref/eq-weapon/spiral-rapier)
 - [Sword cane](ref/eq-weapon/sword-cane)
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-You can spend 2 stamina points to negate the penalty on attack rolls from your shield's armor check
-penalty until the start of your next turn.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 The Weapon Finesse feat has been removed, and now any character may choose to use their dexterity

@@ -2,7 +2,7 @@
 id = "ref/feat/greater-two-weapon-fighting"
 kind = "feat"
 title = "Greater Two-Weapon Fighting"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_two_weapon_fighting", path = "json/feat08.json" },
 ]
@@ -23,12 +23,6 @@ You are incredibly skilled at fighting with two weapons at the same time.\
 **Prerequisites:** Dex 19, [Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting),
 [Two-Weapon Fighting](ref/feat/two-weapon-fighting), base attack bonus +11.\
 **Benefit:** You get a third attack with your off-hand weapon, albeit at a -10 penalty.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-If you hit with the third attack granted by this feat and your base attack bonus is 16 or higher,
-you can spend 2 stamina points to make another attack with your off hand at a -15 penalty.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at fighting with two weapons.\

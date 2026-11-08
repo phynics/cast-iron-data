@@ -2,7 +2,7 @@
 id = "ref/feat/focused-shot"
 kind = "feat"
 title = "Focused Shot"
-source_ids = ["advanced-players-guide", "pathfinder-campaign-setting", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_shot", path = "json/feat07.json" },
 ]
@@ -28,9 +28,3 @@ Intelligence modifier on the damage roll. You must be within 30 feet of your tar
 extra damage. Creatures immune to critical hits and sneak attacks are immune to this extra damage.\
 **Special:** Starting at 2nd level, a ranger with the archery
 [combat style](ref/ability/combat-styles) may select Focused Shot as a combat style feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-You can spend 2 stamina points to make a Focused Shot attack against a target anywhere within your
-weapon's first range increment.

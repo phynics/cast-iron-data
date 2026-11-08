@@ -2,7 +2,7 @@
 id = "ref/feat/nightmare-striker"
 kind = "feat"
 title = "Nightmare Striker"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_striker", path = "json/feat11.json" },
 ]
@@ -29,10 +29,3 @@ completion or spell trigger item) outlines an opponent, the DC for that opponent
 Stunning Fist attempts increases by +2. If you hit an opponent with a Stunning Fist attempt, and
 that opponent fails her saving throw, you can render the target [shaken](ref/misc/shaken) for 1d2
 rounds plus 1 round for every 5 by which the opponent failed her save.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When you hit an opponent with a Stunning Fist attack and that opponent fails its saving throw, you
-can spend 5 stamina points to make the opponent [frightened](ref/misc/frightened) for 1d4 rounds
-instead of shaken.

@@ -2,7 +2,7 @@
 id = "ref/feat/whirlwind-attack"
 kind = "feat"
 title = "Whirlwind Attack"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlwind_attack", path = "json/feat17.json" },
 ]
@@ -29,14 +29,6 @@ make a separate attack roll against each opponent.
 
 When you use the Whirlwind Attack feat, you also forfeit any bonus or extra attacks granted by other
 feats, spells, or abilities.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-When using this feat, you can spend stamina points to still take bonus or extra attacks granted by
-other feats, spells, or abilities. You must spend 5 stamina points per extra attack you take in this
-way. This combat trick allows you to make extra attacks to which you have access - it doesn't by
-itself grant extra attacks.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can strike out at every foe within reach.\

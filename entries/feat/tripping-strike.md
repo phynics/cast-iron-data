@@ -2,7 +2,7 @@
 id = "ref/feat/tripping-strike"
 kind = "feat"
 title = "Tripping Strike"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_strike", path = "json/feat16.json" },
 ]
@@ -35,12 +35,3 @@ can drop your weapon to avoid being tripped.\
 [Repositioning Strike](ref/feat/repositioning-strike),
 [Sundering Strike](ref/feat/sundering-strike), or Tripping Strike. You may choose to use this feat
 after you make your confirmation roll.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to
-attempt to trip the target anyway. When you do, reroll the confirmation roll and use it to determine
-if the trip attempt exceeds the opponent's CMD. This reroll is used only for the trip combat
-maneuver; it can't cause the critical hit to be confirmed. You still can't make the attempt if the
-target is immune to critical hits.

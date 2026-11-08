@@ -2,7 +2,7 @@
 id = "ref/feat/dazzling-display"
 kind = "feat"
 title = "Dazzling Display"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_display", path = "json/feat04.json" },
 ]
@@ -24,14 +24,6 @@ Your skill with your favored weapon can frighten enemies.\
 **Benefit:** While wielding the weapon in which you have Weapon Focus, you can perform a bewildering
 show of prowess as a full-round action. Make an [Intimidate](ref/skill/intimidate) check to
 demoralize all foes within 30 feet who can see your display.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-When wielding a melee weapon with which you have Weapon Focus, you can make a single melee attack as
-a standard action against a foe. If the attack hits, you can select any number of foes within 30
-feet who saw the attack, including that foe. Spend 2 stamina points per foe you have selected, then
-attempt an Intimidate check to demoralize those foes.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Your skill with your favored weapon can frighten enemies.\

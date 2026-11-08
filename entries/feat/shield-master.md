@@ -2,7 +2,7 @@
 id = "ref/feat/shield-master"
 kind = "feat"
 title = "Shield Master"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_master", path = "json/feat14.json" },
 ]
@@ -26,12 +26,6 @@ bonus +11.\
 **Benefit:** You do not suffer any penalties on attack rolls made with a shield while you are
 wielding another weapon. Add your shield's enhancement bonus to attacks and damage rolls made with
 the shield as if it was a weapon enhancement bonus.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-Just before you roll a Fortitude or Reflex saving throw, you can spend 5 stamina points to add your
-shield's enhancement bonus as a bonus on the saving throw.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Your mastery of the shield allows you to fight with it without hindrance.\

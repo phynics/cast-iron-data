@@ -2,7 +2,7 @@
 id = "ref/feat/medusas-wrath"
 kind = "feat"
 title = "Medusa's Wrath"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusas_wrath", path = "json/feat10.json" },
 ]
@@ -28,13 +28,6 @@ make two additional unarmed strikes at your highest base attack bonus. These bon
 made against a [dazed](ref/misc/dazed), [flat-footed](ref/rule/flat-footed),
 [paralyzed](ref/rule/paralyzed), [staggered](ref/misc/staggered), [stunned](ref/misc/stunned), or
 [unconscious](ref/misc/unconscious) foe.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 126\
-While using this feat, you can spend 10 stamina points to make the bonus attacks against a foe that
-you are [flanking](ref/rule/flanking), instead of only a dazed, flat-footed, paralyzed, staggered,
-stunned, or unconscious foe.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can take advantage of your opponent's confusion, delivering multiple blows.\

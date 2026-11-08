@@ -2,7 +2,7 @@
 id = "ref/feat/greater-weapon-specialization"
 kind = "feat"
 title = "Greater Weapon Specialization"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_specialization", path = "json/feat08.json" },
 ]
@@ -30,12 +30,6 @@ Specialization feat. Your attacks with the chosen weapon are more devastating th
 to damage stacks with other damage roll bonuses, including any you gain from Weapon Specialization.\
 **Special:** You can gain Greater Weapon Specialization multiple times. Its effects do not stack.
 Each time you take the feat, it applies to a new type of weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-Once per round, you can spend 2 stamina points to gain your Greater Weapon Specialization bonus on
-damage rolls with another weapon. This bonus lasts until the start of your next turn.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Choose one [weapon group](ref/ability/weapon-groups) listed under the fighter's Weapon Training

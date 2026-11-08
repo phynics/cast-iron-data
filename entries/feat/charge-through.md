@@ -2,7 +2,7 @@
 id = "ref/feat/charge-through"
 kind = "feat"
 title = "Charge Through"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charge_through", path = "json/feat03.json" },
 ]
@@ -27,9 +27,3 @@ the path of the charge as a free action. If you successfully overrun that creatu
 the charge. If the overrun is unsuccessful, the charge ends in the space directly in front of that
 creature.\
 **Normal:** You must have a clear path toward the target of your charge.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When you attempt and fail to overrun a creature in the path of your charge, you can spend 5 stamina
-points to finish your charge against that creature instead of losing your charge.

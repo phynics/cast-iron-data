@@ -2,7 +2,7 @@
 id = "ref/feat/elemental-fist"
 kind = "feat"
 title = "Elemental Fist"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_fist", path = "json/feat05.json" },
 ]
@@ -32,9 +32,3 @@ more than once per round.\
 he does not meet the prerequisites. A monk may attempt an Elemental Fist attack a number of times
 per day equal to his monk level, plus one more time per day for every four levels he has in classes
 other than monk.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-You can spend 5 stamina points to declare the use of Elemental Fist after making a successful attack
-roll.

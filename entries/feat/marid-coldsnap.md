@@ -2,7 +2,7 @@
 id = "ref/feat/marid-coldsnap"
 kind = "feat"
 title = "Marid Coldsnap"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid_coldsnap", path = "json/feat10.json" },
 ]
@@ -29,9 +29,3 @@ attempts to unleash a 30-foot line of frigid water. Creatures caught in the line
 strike damage plus the cold damage from your Elemental Fist attack and are entangled in ice as per
 the Marid Spirit feat. A successful Reflex save (DC 10 + 1/2 your character level + your Wis
 modifier) reduces the damage by half and prevents a target from becoming entangled.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 126\
-Instead of spending two uses of Elemental Fist to unleash a line of frigid water, you can spend one
-use of Elemental Fist and 2 stamina points.

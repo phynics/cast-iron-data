@@ -2,7 +2,7 @@
 id = "ref/feat/teleport-tactician"
 kind = "feat"
 title = "Teleport Tactician"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_tactician", path = "json/feat16.json" },
 ]
@@ -25,10 +25,3 @@ You are highly alert for enemies using teleportation to approach you or flee fro
 **Benefit:** Any creature using a teleportation effect to enter or leave a square threatened by you
 provokes an attack of opportunity, even if [casting defensively](ref/rule/concentration) or using a
 supernatural ability.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When you hit a target with an attack of opportunity granted by this feat, you can spend 2 stamina
-points to [daze](ref/misc/dazed) the target for 1 round. The target can attempt a Fortitude save
-with a DC equal to 10 + your base attack bonus to negate this effect.

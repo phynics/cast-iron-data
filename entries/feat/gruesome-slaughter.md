@@ -2,7 +2,7 @@
 id = "ref/feat/gruesome-slaughter"
 kind = "feat"
 title = "Gruesome Slaughter"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gruesome_slaughter", path = "json/feat08.json" },
 ]
@@ -25,9 +25,3 @@ You can inspire extreme revulsion when you slaughter your enemies.\
 **Benefit:** Creatures you demoralize by using the Killing Flourish feat must succeed at a Fortitude
 save (DC = 10 + 1/2 your character level + the higher of your Strength or Dexterity modifier) or
 become [sickened](ref/misc/sickened) for 1 minute.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an
-amount equal to the number of stamina points you spent.

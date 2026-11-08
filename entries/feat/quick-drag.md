@@ -2,7 +2,7 @@
 id = "ref/feat/quick-drag"
 kind = "feat"
 title = "Quick Drag"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_drag", path = "json/feat12.json" },
 ]
@@ -27,10 +27,3 @@ You drag your enemy and deliver a punishing blow.\
 of one of your melee attacks. You must choose the melee attack with the highest base attack bonus to
 make the drag.\
 **Normal:** A drag combat maneuver is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-You can spend 2 stamina points to change an attack that does not have your highest base attack bonus
-into a drag combat maneuver. You can use this combat trick only once per round, but you can use it
-even if you already used your attack at the highest base attack bonus to drag.

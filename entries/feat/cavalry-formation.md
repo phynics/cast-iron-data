@@ -2,7 +2,7 @@
 id = "ref/feat/cavalry-formation"
 kind = "feat"
 title = "Cavalry Formation"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavalry_formation", path = "json/feat02.json" },
 ]
@@ -26,9 +26,3 @@ effectiveness on the battlefield.\
 although no more than two creatures can share any one square. Further, you can charge through a
 space containing an allied mount if that mount's rider has this feat, although the space from which
 you make your charge attack must comply with this feat's other benefit or be unoccupied.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-At the start of your turn, you can spend 2 stamina points to gain the ability to overlap with allied
-riders who do not have this feat. This ability lasts until the start of your next turn.

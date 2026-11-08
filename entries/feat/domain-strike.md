@@ -2,7 +2,7 @@
 id = "ref/feat/domain-strike"
 kind = "feat"
 title = "Domain Strike"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domain_strike", path = "json/feat05.json" },
 ]
@@ -29,9 +29,3 @@ dealing your unarmed strike damage, you can use a swift action to deliver the ef
 granted power to that opponent. Doing so provokes no attacks of opportunity.\
 **Special:** You can take this feat multiple times. Each time you take it, you apply it to a
 different qualifying domain power.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-You can spend 2 stamina points to apply the effects of your chosen domain power as a free action
-instead of a swift action.

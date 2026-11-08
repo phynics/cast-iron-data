@@ -2,7 +2,7 @@
 id = "ref/feat/panther-style"
 kind = "feat"
 title = "Panther Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panther_style", path = "json/feat11.json" },
 ]
@@ -26,9 +26,3 @@ You can strike back at enemies who attack you when you move.\
 moving through a threatened square, you can spend a swift action to make a retaliatory unarmed
 strike attack against that opponent. Your attack is resolved after the triggering attack of
 opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 128\
-Whenever you provoke an attack of opportunity, you can spend 5 stamina points to make a retaliatory
-strike as a swift action.

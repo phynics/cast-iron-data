@@ -2,7 +2,7 @@
 id = "ref/feat/covering-defense"
 kind = "feat"
 title = "Covering Defense"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_defense", path = "json/feat03.json" },
 ]
@@ -25,9 +25,3 @@ You are skilled at protecting yourself and your allies with your shield.\
 heavy, or tower shield, you can provide a cover bonus to AC against all attacks to an adjacent ally
 your size or smaller. This cover bonus is equal to your shield's shield bonus and lasts until the
 beginning of your next turn. Your shield does not provide a cover bonus to Reflex saves.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-When using the total defense action, you can spend 5 stamina points. If you do, your shield also
-provides a cover bonus on your ally's Reflex saves.

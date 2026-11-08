@@ -2,7 +2,7 @@
 id = "ref/feat/dented-helm"
 kind = "feat"
 title = "Dented Helm"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dented_helm", path = "json/feat04.json" },
 ]
@@ -29,9 +29,3 @@ normal. If the damage destroys your helmet, any leftover damage is applied to yo
 feat, you are [staggered](ref/misc/staggered) until the end of your next turn. You may not use this
 feat if your helmet has the [broken](ref/misc/broken) condition or the attack ignores armor bonuses
 to AC.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 117\
-After using this feat, you can spend 5 stamina points to become sickened rather than staggered until
-the end of your next turn. You can't use this ability if you are immune to being sickened.

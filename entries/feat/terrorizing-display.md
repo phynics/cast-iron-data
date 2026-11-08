@@ -2,7 +2,7 @@
 id = "ref/feat/terrorizing-display"
 kind = "feat"
 title = "Terrorizing Display"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrorizing_display", path = "json/feat16.json" },
 ]
@@ -27,9 +27,3 @@ proficiency with selected weapon.\
 **Benefit:** When you use Dazzling Display, in addition to its normal effects, you can use it to
 spur allies within 30 feet as if you had used the Taskmaster feat. Use the same Intimidate check to
 determine the effects of Dazzling Display and this feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When you use this feat, you can spend 5 stamina points to affect allies within 60 feet instead of 30
-feet.

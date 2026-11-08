@@ -2,7 +2,7 @@
 id = "ref/feat/slayers-feint"
 kind = "feat"
 title = "Slayer's Feint"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slayers_feint", path = "json/feat14.json" },
 ]
@@ -26,10 +26,3 @@ You rely on your deceptive speed and agility instead of trickery to catch your o
 **Prerequisites:** Dex 15, [Acrobatic](ref/feat/acrobatic) or slayer level 1st,
 [Combat Expertise](ref/feat/combat-expertise), Acrobatics 1 rank.\
 **Benefit:** You can use Acrobatics instead of Bluff to [feint](ref/rule/feint) in combat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When attempting a feint using Acrobatics, you can spend a number of stamina points up to your
-Dexterity bonus. If you do, you gain a bonus on that feint attempt equal to the number of stamina
-points you spent.

@@ -2,7 +2,7 @@
 id = "ref/feat/wave-strike"
 kind = "feat"
 title = "Wave Strike"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_strike", path = "json/feat17.json" },
 ]
@@ -28,10 +28,3 @@ rank.\
 **Benefit:** If on your first turn of combat you draw a melee weapon to attack an opponent within
 your reach, you can spend a swift action to make a Bluff check to [feint](ref/rule/feint) against
 that opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-You can spend 2 stamina points to use this feat on your second or subsequent turns in a combat. You
-can use this combat trick only once per combat, though you can use it in addition to using the feat
-on your first turn.

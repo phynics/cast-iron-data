@@ -2,7 +2,7 @@
 id = "ref/feat/winters-strike"
 kind = "feat"
 title = "Winter's Strike"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winters_strike", path = "json/feat17.json" },
 ]
@@ -32,9 +32,3 @@ opponent. The creature hit must succeed at a Fortitude save (DC = 10 + 1/2 your 
 your Wisdom modifier) or become fatigued for a number of rounds equal to your Wisdom modifier
 (minimum 1). You can choose to use this ability as a free action after you hit the target with the
 attack. This is a supernatural ability.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an
-amount equal to the number of stamina points you spent.

@@ -2,7 +2,7 @@
 id = "ref/feat/improved-blind-fight"
 kind = "feat"
 title = "Improved Blind-Fight"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_blind_fight", path = "json/feat08.json" },
 ]
@@ -32,9 +32,3 @@ to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisi
 
 **Special:** The Improved Blind-Fight feat is of no use against a character who is the subject of a
 [blink](ref/spell/blink) spell.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When attacking a foe with total concealment, you can spend 5 stamina points to treat that foe as
-having normal concealment (20% miss chance instead of 50%).

@@ -2,7 +2,7 @@
 id = "ref/feat/cleave"
 kind = "feat"
 title = "Cleave"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleave", path = "json/feat03.json" },
 ]
@@ -25,12 +25,6 @@ against a foe within reach. If you hit, you deal damage normally and can make an
 (using your full base attack bonus) against a foe that is adjacent to the first and also within
 reach. You can only make one additional attack per round with this feat. When you use this feat, you
 take a -2 penalty to your Armor Class until your next turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When using the Cleave or [Great Cleave](ref/feat/great-cleave) feat, you can spend 4 stamina points
-to negate the -2 penalty to Armor Class until your next turn.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can strike two adjacent foes with a single swing.\

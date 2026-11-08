@@ -2,7 +2,7 @@
 id = "ref/feat/death-or-glory"
 kind = "feat"
 title = "Death or Glory"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_or_glory", path = "json/feat04.json" },
 ]
@@ -30,10 +30,3 @@ immediate action to make a single melee attack against you with the same bonuses
 **Special:** You can combine the full-round action attack this feat allows with the benefit of
 [Vital Strike](ref/feat/vital-strike), [Improved Vital Strike](ref/feat/improved-vital-strike), or
 [Greater Vital Strike](ref/feat/greater-vital-strike).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 117\
-When you make a Death or Glory attack, you can spend 5 stamina points to automatically negate the
-opponent's immediate-action attack against you after it takes the action but before it rolls the
-attack.

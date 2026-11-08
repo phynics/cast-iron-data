@@ -2,7 +2,7 @@
 id = "ref/feat/pinning-knockout"
 kind = "feat"
 title = "Pinning Knockout"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinning_knockout", path = "json/feat12.json" },
 ]
@@ -27,9 +27,3 @@ An opponent you have pinned is easy for you to knock out.\
 combat maneuver check to deal an opponent nonlethal damage using an unarmed strike or a light or
 one-handed weapon, double your damage result. Any creature that is immune to critical hits is immune
 to the effects of this feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When using an unarmed strike or a light or one-handed weapon to deal nonlethal damage to a pinned
-opponent with this feat, you can spend 5 stamina points to triple the damage instead of doubling it.

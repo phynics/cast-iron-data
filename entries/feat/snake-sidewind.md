@@ -2,7 +2,7 @@
 id = "ref/feat/snake-sidewind"
 kind = "feat"
 title = "Snake Sidewind"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_sidewind", path = "json/feat14.json" },
 ]
@@ -30,10 +30,3 @@ Sense Motive check in place of the attack roll to confirm the critical hit. When
 critical hit with your unarmed strike, you can spend an immediate action to take a 5-foot step even
 if you have otherwise moved this round.\
 **Normal:** You can take a 5-foot step only if you have not otherwise moved this round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When you threaten a critical hit with your unarmed strike while using Snake Style and choose to
-attempt a Sense Motive check in place of the confirmation roll, you can spend up to 5 stamina points
-to gain a bonus on the Sense Motive check equal to the number of stamina points you spent.

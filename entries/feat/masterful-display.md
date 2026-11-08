@@ -2,7 +2,7 @@
 id = "ref/feat/masterful-display"
 kind = "feat"
 title = "Masterful Display"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterful_display", path = "json/feat10.json" },
 ]
@@ -24,9 +24,3 @@ You craft a special victory performance that causes the crowd to go wild.\
 **Benefit:** Choose the effects of any two performance feats you have. When you make a
 [performance combat](ref/rule/performance-combat) check, you gain the benefits of those two feats,
 but you only gain a +2 bonus on the performance combat check.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 126\
-When choosing the effects of any two performance feats you possess, you can spend 2 stamina points
-to gain the bonus from both feats on your performance combat check.

@@ -2,7 +2,7 @@
 id = "ref/feat/channeling-force"
 kind = "feat"
 title = "Channeling Force"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeling_force", path = "json/feat03.json" },
 ]
@@ -26,9 +26,3 @@ time.\
 bonus on damage rolls equal to the number of dice of your channel energy. This extra damage is force
 damage. This lasts for your next three weapon attacks or until the end of combat, whichever comes
 first.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When you hit with an attack while using this feat, you can spend 5 stamina points to not have that
-attack count as one of the three attacks you can make with the force-imbued weapon.

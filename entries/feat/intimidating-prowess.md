@@ -2,7 +2,7 @@
 id = "ref/feat/intimidating-prowess"
 kind = "feat"
 title = "Intimidating Prowess"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_prowess", path = "json/feat09.json" },
 ]
@@ -23,9 +23,3 @@ Your physical might is intimidating to others.\
 modifier.\
 **Special:** An [animal companion](ref/sidekick/animal-companion) can't take both
 [Ferocious Beast](ref/feat/ferocious-beast) and Intimidating Prowess.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-When attempting an Intimidate check, you can spend 2 stamina points for each size category smaller
-you are than a given target to ignore the size difference penalty against that target.

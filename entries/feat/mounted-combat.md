@@ -2,7 +2,7 @@
 id = "ref/feat/mounted-combat"
 kind = "feat"
 title = "Mounted Combat"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_combat", path = "json/feat11.json" },
 ]
@@ -23,10 +23,3 @@ You are adept at guiding your mount through combat.\
 **Benefit:** Once per round when your mount is hit in combat, you may attempt a Ride check (as an
 immediate action) to negate the hit. The hit is negated if your Ride check result is greater than
 the opponent's attack roll.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-Once you have already used this feat, you can spend 5 stamina points to use it an additional time
-during the same round. You can use this trick as many times in a round as you like, as long as you
-spend 5 stamina points per use.

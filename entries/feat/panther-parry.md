@@ -2,7 +2,7 @@
 id = "ref/feat/panther-parry"
 kind = "feat"
 title = "Panther Parry"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panther_parry", path = "json/feat11.json" },
 ]
@@ -26,9 +26,3 @@ Your vicious strikes impair your foe's ability to attack you when you move.\
 **Benefit:** While using Panther Style, your retaliatory unarmed strikes are resolved before the
 triggering attacks. If your retaliatory unarmed strike deals damage to an opponent, that opponent
 takes a -2 penalty on attack and damage rolls with the triggering attack of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 128\
-When your retaliatory strike damages an opponent, you can spend 5 stamina points to increase the
-penalty the target takes on attack and damage rolls to -4.

@@ -2,7 +2,7 @@
 id = "ref/feat/greater-shield-specialization"
 kind = "feat"
 title = "Greater Shield Specialization"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_shield_specialization", path = "json/feat08.json" },
 ]
@@ -31,9 +31,3 @@ Specialization). In addition, once per day you may negate a critical hit, and da
 rolled normally.\
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the
 feat, it applies to a new type of shield.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 121\
-You can spend 5 stamina points to use your selected shield to negate a critical hit a second time
-each day.

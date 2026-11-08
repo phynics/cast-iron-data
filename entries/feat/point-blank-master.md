@@ -2,7 +2,7 @@
 id = "ref/feat/point-blank-master"
 kind = "feat"
 title = "Point-Blank Master"
-source_ids = ["advanced-players-guide", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "point_blank_master", path = "json/feat12.json" },
 ]
@@ -31,12 +31,6 @@ the selected weapon while threatened.\
 [combat style](ref/ability/combat-styles) may select Point Blank Master as a combat style feat, but
 he must have [Weapon Focus](ref/feat/weapon-focus) instead of Weapon Specialization in the selected
 weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When firing any type of ranged weapon, throwing a weapon, or making a ranged touch attack, you can
-spend 2 stamina points to avoid provoking an attack of opportunity.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are adept at firing ranged weapons in close quarters.\

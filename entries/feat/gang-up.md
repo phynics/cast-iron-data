@@ -2,7 +2,7 @@
 id = "ref/feat/gang-up"
 kind = "feat"
 title = "Gang Up"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gang_up", path = "json/feat07.json" },
 ]
@@ -25,11 +25,3 @@ You are adept at using greater numbers against foes.\
 **Benefit:** You are considered to be [flanking](ref/rule/flanking) an opponent if at least two of
 your allies are threatening that opponent, regardless of your actual positioning.\
 **Normal:** You must be positioned opposite an ally to flank an opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
-pool. If you spend 5 stamina points, you can gain the feat's benefits when you and one other ally
-are threatening an opponent (instead of two other allies).

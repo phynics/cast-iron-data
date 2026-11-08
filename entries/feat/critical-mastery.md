@@ -2,7 +2,7 @@
 id = "ref/feat/critical-mastery"
 kind = "feat"
 title = "Critical Mastery"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_mastery", path = "json/feat04.json" },
 ]
@@ -26,10 +26,3 @@ fighter.\
 addition to the damage dealt.\
 **Normal:** You can only apply the effects of one critical feat to a given critical hit in addition
 to the damage dealt.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-When you confirm a critical hit, instead of applying the effects of two critical feats you possess,
-you can spend 2 stamina points to apply the effect of any one critical feat you don't possess (but
-for which you qualify).

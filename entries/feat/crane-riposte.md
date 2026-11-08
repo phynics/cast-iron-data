@@ -2,7 +2,7 @@
 id = "ref/feat/crane-riposte"
 kind = "feat"
 title = "Crane Riposte"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crane_riposte", path = "json/feat03.json" },
 ]
@@ -27,9 +27,3 @@ bonus +8 or monk level 7th.\
 [fighting defensively](ref/misc/fighting-defensively). Whenever you deflect an opponent's attack
 using Crane Wing or lose the dodge bonus from Crane Wing because an attack missed you by 4 or less,
 you can make an attack of opportunity against the attacker after the attack misses.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-At the start of a turn when you are fighting defensively, you can spend 2 stamina points to take no
-penalty on your attack rolls from fighting defensively. This lasts until the start of your turn.

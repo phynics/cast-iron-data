@@ -2,7 +2,7 @@
 id = "ref/feat/furious-focus"
 kind = "feat"
 title = "Furious Focus"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_focus", path = "json/feat07.json" },
 ]
@@ -25,11 +25,3 @@ wild blows strike home.\
 using the Power Attack feat, you do not suffer Power Attack's penalty on melee attack rolls on the
 first attack you make each turn. You still suffer the penalty on any additional attacks, including
 attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-When using the Power Attack feat and wielding a two-handed melee weapon or a one-handed melee weapon
-with two hands, you can spend 5 stamina points. If you do, each successful attack you make against a
-target reduces your Power Attack penalty against that target by 1 (to a minimum of 0) until the
-beginning of your next turn.

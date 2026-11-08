@@ -2,7 +2,7 @@
 id = "ref/feat/tree-hanger"
 kind = "feat"
 title = "Tree Hanger"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tree_hanger", path = "json/feat16.json" },
 ]
@@ -28,9 +28,3 @@ hanging, you can't be tripped, you ignore the effects of
 CMD against bull rush, drag, and reposition attacks. If you leave that square (including if you are
 moved against your will), you lose your grip on the object and are no longer hanging. While hanging,
 you cannot use your tail for anything else.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-When you jump upward to use your tail to hang from an object, you can spend up to 5 stamina points.
-You gain a bonus on the Acrobatics check equal to the number of stamina points you spent.

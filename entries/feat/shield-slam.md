@@ -2,7 +2,7 @@
 id = "ref/feat/shield-slam"
 kind = "feat"
 title = "Shield Slam"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_slam", path = "json/feat14.json" },
 ]
@@ -28,14 +28,6 @@ This bull rush does not provoke an attack of opportunity. Opponents who cannot m
 wall or other surface are knocked [prone](ref/rule/prone) after moving the maximum possible
 distance. You may choose to move with your target if you are able to take a 5-foot step or to spend
 an action to move this turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-Instead of attempting a free bull rush when using the Shield Slam feat, you can spend 2 stamina
-points to attempt a [disarm](ref/rule/disarm), [reposition](ref/rule/reposition),
-[trip](ref/rule/trip), or [sunder](ref/rule/sunder) combat maneuver. This combat maneuver attempt
-does not provoke an attack of opportunity from the target.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 In the right position, your shield can be used to send opponents flying.\

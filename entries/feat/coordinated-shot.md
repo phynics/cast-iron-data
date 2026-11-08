@@ -2,7 +2,7 @@
 id = "ref/feat/coordinated-shot"
 kind = "feat"
 title = "Coordinated Shot"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_shot", path = "json/feat03.json" },
 ]
@@ -25,9 +25,3 @@ Your ranged attacks against an opponent take advantage of your ally's positionin
 that opponent against your ranged attacks, you gain a +1 bonus on ranged attacks against that
 opponent. If your ally with this feat is [flanking](ref/rule/flanking) that opponent with another
 ally (even if that other ally doesn't have this feat), this bonus increases to +2.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-When making an attack roll, you can spend 2 stamina points to ignore any cover provided by an ally
-who also has this feat.

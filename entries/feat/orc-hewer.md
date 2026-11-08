@@ -2,7 +2,7 @@
 id = "ref/feat/orc-hewer"
 kind = "feat"
 title = "Orc Hewer"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_hewer", path = "json/feat11.json" },
 ]
@@ -25,9 +25,3 @@ You are ferocious at hewing your enemies, especially orcs.\
 **Benefit:** This feat functions as Goblin Cleaver, but your additional attacks can be made against
 creatures your size or smaller. In addition, any such attacks that you make against humanoids (orc)
 gain a +2 circumstance bonus on attack rolls.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 128\
-As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks
-against humanoids with the orc subtype increases to +4.

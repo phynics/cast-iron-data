@@ -2,7 +2,7 @@
 id = "ref/feat/perfect-strike"
 kind = "feat"
 title = "Perfect Strike"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_strike", path = "json/feat12.json" },
 ]
@@ -36,8 +36,3 @@ four levels you have attained (but see Special), and no more than once per round
 even if he does not meet the prerequisites. A monk may attempt an perfect strike attack a number of
 times per day equal to his monk level, plus one more time per day for every four levels he has in
 classes other than monk.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 128\
-You can spend 5 stamina points to use Perfect Strike a second time during the same round.

@@ -2,7 +2,7 @@
 id = "ref/feat/punishing-kick"
 kind = "feat"
 title = "Punishing Kick"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "punishing_kick", path = "json/feat12.json" },
 ]
@@ -36,9 +36,3 @@ more than once per round.\
 bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a punishing
 kick attack a number of times per day equal to his monk level, plus one more time per day for every
 four levels he has in classes other than monk.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-You can spend 5 stamina points to declare you are using this feat after you make a successful
-unarmed strike attack.

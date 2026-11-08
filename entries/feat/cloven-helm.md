@@ -2,7 +2,7 @@
 id = "ref/feat/cloven-helm"
 kind = "feat"
 title = "Cloven Helm"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloven_helm", path = "json/feat03.json" },
 ]
@@ -26,10 +26,3 @@ Your helm turns aside lethal blows.\
 this benefit stacks with Dented Helm. When you use Dented Helm to deflect a critical hit, you may
 apply all damage from the critical hit to your helmet before applying any damage to yourself. If you
 take no damage, any additional effects, such as critical feats or poison, are negated.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When you are threatened with a critical hit, you can spend up to 5 stamina points. You gain an
-additional bonus to AC against the critical confirmation roll equal to the number of stamina points
-you spent.

@@ -2,7 +2,7 @@
 id = "ref/feat/dragon-ferocity"
 kind = "feat"
 title = "Dragon Ferocity"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_ferocity", path = "json/feat05.json" },
 ]
@@ -34,9 +34,3 @@ you do not meet that feat's prerequisites, you must choose one of the damage typ
 and you can use only that damage type with your Elemental Fist attacks until you meet the feat's
 normal prerequisites. A monk with this feat can use Elemental Fist as if he were a monk of the four
 winds.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-When you use this feat to make a foe shaken with a critical hit or a successful Stunning Fist
-attempt, you can spend 5 stamina points to also sicken that foe for 1d4 rounds.

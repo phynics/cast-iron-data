@@ -2,7 +2,7 @@
 id = "ref/feat/tiring-critical"
 kind = "feat"
 title = "Tiring Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiring_critical", path = "json/feat16.json" },
 ]
@@ -26,10 +26,3 @@ Your critical hits cause opponents to become fatigued.\
 This feat has no additional effect on a fatigued or exhausted creature.\
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you
 possess [Critical Mastery](ref/feat/critical-mastery).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-When you threaten a critical hit against a fatigued foe, you can spend 5 stamina points before
-attempting the confirmation roll. If you confirm the critical hit, the foe becomes
-[exhausted](ref/misc/exhausted).

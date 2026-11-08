@@ -2,7 +2,7 @@
 id = "ref/feat/team-up"
 kind = "feat"
 title = "Team Up"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "team_up", path = "json/feat16.json" },
 ]
@@ -26,9 +26,3 @@ When you are ganging up against an enemy, you can aid an ally with a quick feint
 **Benefit:** When you and at least two of your allies are adjacent to an opponent, you can attempt
 the [aid another](ref/rule/aid-another-2) action as a move action.\
 **Normal:** Aid another is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When you and at least two of your allies are adjacent to an opponent, you can spend 2 stamina points
-to attempt to aid another as a swift action.

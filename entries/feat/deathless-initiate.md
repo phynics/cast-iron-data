@@ -2,7 +2,7 @@
 id = "ref/feat/deathless-initiate"
 kind = "feat"
 title = "Deathless Initiate"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless_initiate", path = "json/feat04.json" },
 ]
@@ -26,9 +26,3 @@ For you, impending death is a call to wrath.\
 take a move and a standard action or a full-round action while you are at 0 or fewer hit points you
 take 1 point of damage. Further, while using the Diehard feat, you gain a +2 bonus on melee attacks
 and damage rolls.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 117\
-When you are at 0 or fewer hit points, you can spend 2 stamina points to avoid taking damage when
-you take both a move and a standard action or a full-round action.

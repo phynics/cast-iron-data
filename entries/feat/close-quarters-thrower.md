@@ -2,7 +2,7 @@
 id = "ref/feat/close-quarters-thrower"
 kind = "feat"
 title = "Close-Quarters Thrower"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "close_quarters_thrower", path = "json/feat03.json" },
 ]
@@ -28,9 +28,3 @@ ranged attacks using the selected weapon. If you are an [alchemist](ref/class/al
 select this feat and choose alchemist bombs, you do not provoke attacks of opportunity for the
 process of drawing components of, creating, and throwing a bomb.\
 **Normal:** Making a ranged attack provokes attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When throwing any thrown weapon, you can spend 2 stamina points. If you do, you do not provoke
-attacks of opportunity for that throw.

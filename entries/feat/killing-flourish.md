@@ -2,7 +2,7 @@
 id = "ref/feat/killing-flourish"
 kind = "feat"
 title = "Killing Flourish"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "killing_flourish", path = "json/feat09.json" },
 ]
@@ -25,9 +25,3 @@ level 4th.\
 **Benefit:** When you reduce your target to below 0 hit points with a melee attack, as a swift
 action you can attempt an Intimidate check to demoralize all foes within 30 feet who can see your
 attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-When you confirm a critical hit, you can spend 5 stamina points and take a swift action to attempt
-an Intimidate check to demoralize all foes within 30 feet who can see your attack.

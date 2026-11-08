@@ -2,7 +2,7 @@
 id = "ref/feat/arcane-strike"
 kind = "feat"
 title = "Arcane Strike"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_strike", path = "json/feat01.json" },
 ]
@@ -24,9 +24,3 @@ You draw upon your arcane power to enhance your weapons with magical energy.\
 round, your weapons deal +1 damage and are treated as magic for the purpose of overcoming
 [damage reduction](ref/rule/damage-reduction). For every five caster levels you possess, this bonus
 increases by +1, to a maximum of +5 at 20th level.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-You can spend any number of stamina points to increase the duration of this feat's effects by 1
-round for each stamina point spent.

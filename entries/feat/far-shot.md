@@ -2,7 +2,7 @@
 id = "ref/feat/far-shot"
 kind = "feat"
 title = "Far Shot"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "far_shot", path = "json/feat06.json" },
 ]
@@ -25,12 +25,6 @@ You are more accurate at longer ranges.\
 **Benefit:** You only suffer a -1 penalty per full range increment between you and your target when
 using a ranged weapon.\
 **Normal:** You suffer a -2 penalty per full range increment between you and your target.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When making a single ranged attack as a standard action, you can spend 5 stamina points to ignore
-all range penalties on that attack.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are more accurate at longer ranges.\

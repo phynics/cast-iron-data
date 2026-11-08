@@ -2,7 +2,7 @@
 id = "ref/feat/murderers-circle"
 kind = "feat"
 title = "Murderer's Circle"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderers_circle", path = "json/feat11.json" },
 ]
@@ -28,9 +28,3 @@ move to any other space that is adjacent to the target without provoking attacks
 must have a clear path to that space and the ability to reach it by spending a move action. If you
 end this move in any space other than the one where you started, you gain a +2 bonus on the
 performance combat check.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-You can spend 2 stamina points to use this feat after dealing maximum damage to or successfully
-feinting against a creature. You must still be adjacent to the creature.

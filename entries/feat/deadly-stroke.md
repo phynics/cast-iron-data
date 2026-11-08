@@ -2,7 +2,7 @@
 id = "ref/feat/deadly-stroke"
 kind = "feat"
 title = "Deadly Stroke"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_stroke", path = "json/feat04.json" },
 ]
@@ -28,12 +28,6 @@ with the selected weapon, base attack bonus +11.\
 Weapon Focus against a [stunned](ref/misc/stunned) or [flat-footed](ref/rule/flat-footed) opponent.
 If you hit, you deal double the normal damage and the target takes 1 point of Constitution
 [bleed](ref/rule/bleed). The additional damage and bleed is not multiplied on a critical hit.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-You can spend 5 stamina points to make a Deadly Stroke attack against a [dazed](ref/misc/dazed)
-opponent, or 10 stamina points to make a Deadly Stroke against an opponent you are flanking.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 With a well-placed strike, you can bring a swift and painful end to most foes.\

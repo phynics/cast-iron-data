@@ -2,7 +2,7 @@
 id = "ref/feat/defensive-weapon-training"
 kind = "feat"
 title = "Defensive Weapon Training"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_weapon_training", path = "json/feat04.json" },
 ]
@@ -27,10 +27,3 @@ attacks you using a weapon from that group. If you also have the weapon training
 the selected group, your dodge bonus from this feat increases to +3.\
 **Special:** You can select this feat more than once. Its effects do not stack. Each time you select
 this feat, it applies to a different weapon group.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 117\
-You can spend 5 stamina points at the beginning of your turn to switch the weapon group of this feat
-to any other weapon group on the fighter's weapon training class ability list (except natural
-weapons). This benefit lasts for 3 rounds.

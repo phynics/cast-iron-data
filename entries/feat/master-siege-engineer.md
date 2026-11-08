@@ -2,7 +2,7 @@
 id = "ref/feat/master-siege-engineer"
 kind = "feat"
 title = "Master Siege Engineer"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_siege_engineer", path = "json/feat10.json" },
 ]
@@ -26,9 +26,3 @@ You are significantly faster at loading a siege engine, as well as a better shot
 move actions to load a siege engine. When you spend actions to aim a siege engine, you and your crew
 can use move actions instead of full-round actions to aim the siege engine.\
 **Normal:** Full-round actions are required to load and aim siege engines.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 126\
-You can spend 5 stamina points to reduce the number of actions it takes to aim and load a siege
-engine by one for 1 round (minimum one action). You must be the crew lead of that siege engine.
