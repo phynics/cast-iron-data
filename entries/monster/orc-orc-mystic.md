@@ -102,9 +102,7 @@ abilities = ["17", "8", "12", "8", "13", "12"]
 
 - bleed (DC 11), detect magic, guidance, read magic
 
-**Domains**
-
-**Data:** Evil, Trickery
+**Domains:** Evil, Trickery
 
 ###### D {#footnote-d}
 

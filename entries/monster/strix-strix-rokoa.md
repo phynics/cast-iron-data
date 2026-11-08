@@ -127,9 +127,7 @@ on her crown and staff._
 
 - detect magic, guidance, purify food and drink (DC 14), read magic
 
-**Spirit**
-
-**Data:** [Wind](ref/shamanspirit/wind)
+**Spirit:** [Wind](ref/shamanspirit/wind)
 
 ###### S {#footnote-s}
 

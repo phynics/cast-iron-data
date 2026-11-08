@@ -122,9 +122,7 @@ transparent flesh._
 
 - bleed (DC 17), detect magic, read magic, touch of fatigue (DC 17)
 
-**Opposition Schools**
-
-**Data:** Enchantment, Illusion
+**Opposition Schools:** Enchantment, Illusion
 
 **Statistics**
 

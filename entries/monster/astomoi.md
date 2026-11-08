@@ -91,9 +91,7 @@ _This humanoid appears to be made of darkness, and has no discernible ears, eyes
 
 - At will: daze (DC 13), flare (DC 13), grave words, telekinetic projectile
 
-**Psychic Discipline**
-
-**Data:** [self-perfection](ref/discipline/self-perfection)
+**Psychic Discipline:** [self-perfection](ref/discipline/self-perfection)
 
 **Statistics**
 

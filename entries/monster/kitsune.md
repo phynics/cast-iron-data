@@ -101,9 +101,7 @@ _This elegantly dressed woman has the head and bushy tail of well-groomed fox._
 
 - At will: daze, detect magic, prestidigitation, read magic
 
-**Bloodline**
-
-**Data:** [fey](ref/sorcbloodline/fey)
+**Bloodline:** [fey](ref/sorcbloodline/fey)
 
 **Statistics**
 

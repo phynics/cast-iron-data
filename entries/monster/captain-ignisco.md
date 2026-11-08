@@ -111,9 +111,7 @@ amplification ([defensive prognostication](ref/phrenicamp/defensive-prognosticat
 
 - At will: detect magic, ghost sound (DC 11), know direction, mage hand, mending
 
-**Psychic Discipline**
-
-**Data:** [rapport](ref/discipline/rapport)
+**Psychic Discipline:** [rapport](ref/discipline/rapport)
 
 **Statistics**
 

@@ -117,9 +117,7 @@ tail and crests on its head and back._
 
 - bleed (DC 15), detect magic, guidance, stabilize
 
-**Domains**
-
-**Data:** Demon, Strength
+**Domains:** Demon, Strength
 
 ###### D {#footnote-d}
 

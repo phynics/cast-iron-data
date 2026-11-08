@@ -85,9 +85,7 @@ abilities = ["15", "13", "12", "10", "15", "12"]
 
 - flare (DC 12), guidance, mending, resistance
 
-**Domain**
-
-**Data:** [Swamp](ref/druiddomain/swamp)
+**Domain:** [Swamp](ref/druiddomain/swamp)
 
 ###### D {#footnote-d}
 

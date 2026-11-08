@@ -95,9 +95,7 @@ simple robes._
 
 - At will: ghost sound (DC 12), guidance, light, mage hand, read magic, resistance
 
-**Mystery**
-
-**Data:** [lore](ref/mystery/lore)
+**Mystery:** [lore](ref/mystery/lore)
 
 **Statistics**
 

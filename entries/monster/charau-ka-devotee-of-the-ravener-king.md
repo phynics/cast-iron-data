@@ -107,9 +107,7 @@ horrible powers it serves._
 
 - bleed (DC 13), detect magic, detect poison, purify food and drink
 
-**Domains**
-
-**Data:** Chaos, Evil
+**Domains:** Chaos, Evil
 
 ###### D {#footnote-d}
 

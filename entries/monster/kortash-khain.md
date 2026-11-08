@@ -146,9 +146,7 @@ reach, lore keeper, spell synthesis
 
 - detect magic, guidance, light, mending
 
-**Domains**
-
-**Data:** Undead, Thought
+**Domains:** Undead, Thought
 
 **Spells Known**
 
@@ -195,9 +193,7 @@ reach, lore keeper, spell synthesis
 - At will: acid splash, arcane mark, dancing lights, ghost sound (DC 20), mage hand, message,
   prestidigitation, read magic, touch of fatigue
 
-**Bloodline**
-
-**Data:** [undead](ref/sorcbloodline/undead) (sanguine)
+**Bloodline:** [undead](ref/sorcbloodline/undead) (sanguine)
 
 ###### M {#footnote-m}
 

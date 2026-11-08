@@ -126,9 +126,7 @@ abilities = ["34", "8", "18", "13", "23", "14"]
 
 - detect magic, guidance, mending, read magic
 
-**Domains**
-
-**Data:** Strength, [War](ref/domain/war)
+**Domains:** Strength, [War](ref/domain/war)
 
 ###### D {#footnote-d}
 

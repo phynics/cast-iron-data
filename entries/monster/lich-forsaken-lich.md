@@ -121,9 +121,7 @@ dry, stretched skin._
 
 - bleed, detect magic, guidance, read magic
 
-**Domains**
-
-**Data:** Death, Magic
+**Domains:** Death, Magic
 
 ###### D {#footnote-d}
 

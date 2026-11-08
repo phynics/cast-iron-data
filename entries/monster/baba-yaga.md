@@ -137,9 +137,7 @@ spell
 
 - daze (DC 28), mending, prestidigitation, read magic
 
-**Patron**
-
-**Data:** [fate](ref/patron/fate)
+**Patron:** [fate](ref/patron/fate)
 
 **Statistics**
 

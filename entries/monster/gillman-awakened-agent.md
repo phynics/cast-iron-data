@@ -121,9 +121,7 @@ sickly gillman. Abnormal muscles and joints flex just beneath his flesh._
 - At will: acid splash, daze (DC 16), detect magic, light, mage hand, message, read magic,
   resistance, touch of fatigue (DC 15)
 
-**Bloodline**
-
-**Data:** [aberrant](ref/sorcbloodline/aberrant)
+**Bloodline:** [aberrant](ref/sorcbloodline/aberrant)
 
 **Statistics**
 

@@ -108,9 +108,7 @@ piscine head features a toothy maw._
 
 - bleed (DC 15), detect magic, guidance, read magic
 
-**Domains**
-
-**Data:** [Destruction](ref/domain/destruction), [Travel](ref/domain/travel)
+**Domains:** [Destruction](ref/domain/destruction), [Travel](ref/domain/travel)
 
 ###### D {#footnote-d}
 

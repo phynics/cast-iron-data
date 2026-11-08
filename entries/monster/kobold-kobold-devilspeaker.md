@@ -120,9 +120,7 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 - bleed (DC 13), detect magic, guidance, mending
 
-**Domains**
-
-**Data:** Law, Trickery
+**Domains:** Law, Trickery
 
 ###### D {#footnote-d}
 

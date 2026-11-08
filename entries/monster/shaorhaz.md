@@ -144,9 +144,7 @@ multiweapon mastery
 
 - At will: acid splash, brand (DC 19), bleed (DC 19), detect magic, disrupt undead, read magic
 
-**Domain**
-
-**Data:** [Decay](ref/domain/plant)
+**Domain:** [Decay](ref/domain/plant)
 
 **Statistics**
 

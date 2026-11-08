@@ -114,9 +114,7 @@ abilities = ["26", "11", "22", "14", "14", "16"]
 - At will: detect magic, ghost sound (DC 13), flare (DC 13), mage hand, message, ray of frost, touch
   of fatigue (DC 13)
 
-**Bloodline**
-
-**Data:** [boreal](ref/sorcbloodline/boreal)
+**Bloodline:** [boreal](ref/sorcbloodline/boreal)
 
 ### Tactics
 

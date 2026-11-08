@@ -114,9 +114,7 @@ abilities = ["31", "15", "25", "17", "14", "20"]
 - At will: acid splash, bleed (DC 15), daze (DC 15), detect magic, detect poison, flare (DC 15),
   read magic, touch of fatigue (DC 15)
 
-**Bloodline**
-
-**Data:** [arcane](ref/sorcbloodline/arcane)
+**Bloodline:** [arcane](ref/sorcbloodline/arcane)
 
 ### Tactics
 

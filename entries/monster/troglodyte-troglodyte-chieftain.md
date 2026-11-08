@@ -106,9 +106,7 @@ not plant form)
 
 - create water, detect magic, know direction, mending
 
-**Domain**
-
-**Data:** [Fire](ref/domain/fire)
+**Domain:** [Fire](ref/domain/fire)
 
 ###### D {#footnote-d}
 

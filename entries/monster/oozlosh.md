@@ -138,9 +138,7 @@ it isn't bedecked in gaudy jewelry._
 
 - bleed (DC 16), guidance, read magic, resistance
 
-**Domains**
-
-**Data:** Evil, [Water](ref/domain/water)
+**Domains:** Evil, [Water](ref/domain/water)
 
 ###### D {#footnote-d}
 

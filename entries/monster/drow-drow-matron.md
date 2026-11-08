@@ -153,9 +153,7 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 - detect magic, detect poison, guidance, read magic
 
-**Domains**
-
-**Data:** Evil, Magic
+**Domains:** Evil, Magic
 
 ###### D {#footnote-d}
 

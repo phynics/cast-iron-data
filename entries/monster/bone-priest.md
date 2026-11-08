@@ -89,9 +89,7 @@ blue light dances in its empty eye sockets._
 
 - detect magic, guidance, read magic, resistance
 
-**Domain**
-
-**Data:** [Madness](ref/domain/madness)
+**Domain:** [Madness](ref/domain/madness)
 
 ###### D {#footnote-d}
 

@@ -83,9 +83,7 @@ _The pale-blue skin of this dark-haired humanoid seems to subtly change hue from
 
 - At will: ghost sound (DC 13), telekinetic projectile
 
-**Implements**
-
-**Data:** _Evocation_ (rod, 2 points)-_Resonant_ intense focus (+1); _Focus_ energy ray (1d6),
+**Implements:** _Evocation_ (rod, 2 points)-_Resonant_ intense focus (+1); _Focus_ energy ray (1d6),
 radiance (1 min.)\~_Illusion_ (ring, 2 points)-_Resonant_ distortion (10%); _Focus_ minor figment (1
 round)
 

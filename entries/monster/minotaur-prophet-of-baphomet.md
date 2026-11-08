@@ -128,9 +128,7 @@ cloud of heady incense about her form doesn't conceal the distinct scent of brim
 
 - bleed (DC 14), detect magic, guidance, read magic
 
-**Domains**
-
-**Data:** Evil, Strength
+**Domains:** Evil, Strength
 
 ###### D {#footnote-d}
 

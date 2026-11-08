@@ -148,9 +148,7 @@ welcoming._
 
 - bleed (DC 19), detect magic, guidance, virtue
 
-**Domains**
-
-**Data:** [Catastrophe](ref/domain/destruction), [Storms](ref/domain/weather)
+**Domains:** [Catastrophe](ref/domain/destruction), [Storms](ref/domain/weather)
 
 ###### D {#footnote-d}
 

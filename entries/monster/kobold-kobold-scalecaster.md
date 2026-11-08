@@ -89,9 +89,7 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 - At will: dancing lights, detect magic, flare (DC 12), ray of frost
 
-**Bloodline**
-
-**Data:** [draconic](ref/sorcbloodline/draconic) (gold)
+**Bloodline:** [draconic](ref/sorcbloodline/draconic) (gold)
 
 **Statistics**
 

@@ -143,9 +143,7 @@ abilities = ["13", "10", "14", "8", "20", "12"]
 
 - detect magic, guidance, resistance, virtue
 
-**Domains**
-
-**Data:** [Charm](ref/domain/charm), Trickery
+**Domains:** [Charm](ref/domain/charm), Trickery
 
 ###### D {#footnote-d}
 

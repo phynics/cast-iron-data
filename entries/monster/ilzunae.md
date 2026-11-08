@@ -171,9 +171,7 @@ her fiendish nature._
 
 - bleed (DC 15), detect magic, guidance, read magic
 
-**Domains**
-
-**Data:** [Charm](ref/domain/charm), Darkness
+**Domains:** [Charm](ref/domain/charm), Darkness
 
 ###### D {#footnote-d}
 

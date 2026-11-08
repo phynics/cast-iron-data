@@ -90,9 +90,7 @@ abilities = ["20", "9", "16", "10", "9", "14"]
 
 - At will: acid splash, detect magic, detect poison, ghost sound (DC 12), message, resistance
 
-**Bloodline**
-
-**Data:** [abyssal](ref/sorcbloodline/abyssal)
+**Bloodline:** [abyssal](ref/sorcbloodline/abyssal)
 
 **Statistics**
 

@@ -109,9 +109,7 @@ abilities = ["10", "11", "12", "12", "20", "15"]
 
 - create water, detect poison, guidance, mending
 
-**Domain**
-
-**Data:** [Protection](ref/domain/protection)
+**Domain:** [Protection](ref/domain/protection)
 
 ###### D {#footnote-d}
 

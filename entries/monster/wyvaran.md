@@ -93,9 +93,7 @@ snarl._
 
 - At will: acid splash, daze (DC 14), disrupt undead, guidance
 
-**Domain**
-
-**Data:** [Air](ref/domain/air)
+**Domain:** [Air](ref/domain/air)
 
 **Statistics**
 
