@@ -33,8 +33,6 @@ which wields a scimitar._
 
 **aura:** attraction (50 ft.), elusive (75 ft.)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -45,7 +43,7 @@ which wields a scimitar._
 
 **Perception:** +19
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 3 pg 22\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

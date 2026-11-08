@@ -48,9 +48,7 @@ starscape that whirls in mad patterns._
 
 **Perception:** +22
 
-**Senses:** Dragon senses
-
-**Sense:** Sid
+**Senses:** Dragon senses, See in darkness
 
 **Sources:** Mythic Realms pg 60\
 **Subtype:** Mythic

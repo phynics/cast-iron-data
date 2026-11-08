@@ -34,19 +34,13 @@ swipe at the air._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Perception:** +22
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 190\
 **Experience points:** 38,400

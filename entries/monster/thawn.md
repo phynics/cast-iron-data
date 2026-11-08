@@ -39,9 +39,9 @@ strangled wheezing issues from its deformed lips._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#31: Stolen Land pg 84\
 **Subtype:** Giant

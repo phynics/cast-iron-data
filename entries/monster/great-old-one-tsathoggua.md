@@ -38,17 +38,13 @@ on its bat-like face._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +21
 
 **Size:** large
 
 **Perception:** +47
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness, True seeing
 
 **Sources:** Pathfinder \#111: Dreams of the Yellow King pg 84\
 **Subtype:** Chaotic, Evil, Great Old One

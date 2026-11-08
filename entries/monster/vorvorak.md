@@ -31,19 +31,17 @@ and green hide, and a muscular tail sways menacingly behind it._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#129: The Twilight Child pg 90\
 **Experience points:** 9,600

@@ -40,7 +40,7 @@ _This spider-like monstrosity watches quietly, skittering about on six needle-sh
 
 **Perception:** +24
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Size:** small
 

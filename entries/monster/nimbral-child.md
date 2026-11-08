@@ -33,8 +33,6 @@ a burning void within its head._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -43,7 +41,7 @@ a burning void within its head._
 
 **Perception:** +19
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Cradle of Night pg 63\
 **Subtype:** Evil, Extraplanar

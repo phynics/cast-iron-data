@@ -33,15 +33,13 @@ grotesquely large._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 157, Pathfinder \#1: Burnt Offerings pg 87\
 **Experience points:** 400

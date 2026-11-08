@@ -35,13 +35,13 @@ _Spiralling patterns cover this shadowy humanoid's skin, and its black hair trai
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

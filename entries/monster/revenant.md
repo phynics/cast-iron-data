@@ -31,8 +31,6 @@ intent._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful evil
@@ -41,7 +39,7 @@ intent._
 
 **Perception:** +13
 
-**Senses:** Sense murderer
+**Senses:** Darkvision 60 ft., Sense murderer
 
 **Sources:** Bestiary 2 pg 235, Pathfinder \#2: The Skinsaw Murders pg 90\
 **Type:** undead

@@ -33,21 +33,15 @@ abilities = ["37", "9", "28", "20", "22", "23"]
 
 **Type:** dragon
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Alignment:** Neutral evil
 
 **Perception:** +30
 
-**Senses:** Dreamsight
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Dreamsight, Low-light vision, See in darkness
 
 **Sources:** Bestiary 5 pg 95\
 **Subtype:** Extraplanar

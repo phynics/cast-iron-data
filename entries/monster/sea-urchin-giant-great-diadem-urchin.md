@@ -32,11 +32,7 @@ large golden sea urchin._
 
 **Challenge rating:** 5
 
-**Sense:** Aav
-
 **Initiative:** -4
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -44,7 +40,7 @@ large golden sea urchin._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** All-around vision, Low-light vision, Scent
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 89\
 **Subtype:** Aquatic

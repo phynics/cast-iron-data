@@ -33,8 +33,6 @@ its head to the tip of its thick tail. Its blue eyes give off a soft glow._
 
 **Challenge rating:** 17
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Type:** humanoid
@@ -43,11 +41,9 @@ its head to the tip of its thick tail. Its blue eyes give off a soft glow._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +29
 
-**Sense:** Scent
+**Senses:** Darkvision 120 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 84\
 **Subtype:** Aquatic, Giant, Reptilian

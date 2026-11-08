@@ -36,17 +36,11 @@ scales and vicious black barbs._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +11
-
-**Sense:** Llv
 
 **Perception:** +30
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 3 pg 184\
 **Experience points:** 204,800

@@ -34,8 +34,6 @@ vortex of otherworldly flame._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (100 ft., DC 32), unholy aura (DC 26)
 
-**dv:** 60
-
 **Initiative:** +16
 
 **Size:** large
@@ -46,9 +44,7 @@ vortex of otherworldly flame._
 
 **Perception:** +44
 
-**Senses:** Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect good, See in darkness, True seeing
 
 **Sources:** Book of the Damned pg 170\
 **Subtype:** Evil, Native

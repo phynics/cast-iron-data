@@ -31,8 +31,6 @@ tiny forms whir in agitation, each a tiny insect with a needle-like proboscis._
 
 **Challenge rating:** 6
 
-**dv:** 120
-
 **Size:** fine
 
 **Initiative:** +2
@@ -41,7 +39,7 @@ tiny forms whir in agitation, each a tiny insect with a needle-like proboscis._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Darkvision 120 ft., Scent
 
 **Sources:** Pathfinder \#38: Racing to Ruin pg 84\
 **Subtype:** Swarm

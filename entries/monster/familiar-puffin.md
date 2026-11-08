@@ -34,11 +34,11 @@ _This squat, black-and-white bird has a bright red-and-black beak._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 204, Reign of Winter Player's Guide pg 11\
 **Experience points:** 50

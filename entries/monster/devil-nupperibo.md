@@ -30,8 +30,6 @@ abilities = ["10", "10", "10", "-", "11", "4"]
 
 **blindsight:** 60
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Lawful evil
@@ -41,6 +39,8 @@ abilities = ["10", "10", "10", "-", "11", "4"]
 **Type:** outsider
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#61: Shards of Sin pg 44\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

@@ -34,19 +34,15 @@ long forelimbs with clawed fingers._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Monstrous humanoid
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 260\
 **Experience points:** 6,400

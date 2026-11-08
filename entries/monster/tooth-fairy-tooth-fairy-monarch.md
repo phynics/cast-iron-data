@@ -36,11 +36,11 @@ made of humanoid teeth and clutches a tooth-studded scepter._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -35,8 +35,6 @@ and a mouth yawns in its belly._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +9
@@ -44,6 +42,8 @@ and a mouth yawns in its belly._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 225\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

@@ -33,17 +33,15 @@ stretch out from its torso._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 81\
 **Experience points:** 3,200

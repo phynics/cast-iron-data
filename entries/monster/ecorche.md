@@ -34,13 +34,13 @@ pulsing of its massive, exposed muscles._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
 
 **Perception:** +25
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 109\
 **Type:** undead

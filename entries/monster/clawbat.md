@@ -30,11 +30,7 @@ maw, and a long, thin tongue darts forth seemingly at random to lash the air aro
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -42,7 +38,7 @@ maw, and a long, thin tongue darts forth seemingly at random to lash the air aro
 
 **Perception:** +2
 
-**Senses:** Blood scent
+**Senses:** Blood scent, Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

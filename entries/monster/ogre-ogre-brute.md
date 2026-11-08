@@ -37,17 +37,15 @@ mouth with ill-fitting teeth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +0
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 155\
 **Subtype:** Giant

@@ -29,15 +29,13 @@ Its semi-translucent skin shows discolored bones and muscles._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 31, Tome of Horrors Complete (PF) pg 504\
 **Size:** tiny

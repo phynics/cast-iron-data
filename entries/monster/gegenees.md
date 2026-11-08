@@ -34,17 +34,15 @@ jaw._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 118\
 **Subtype:** Giant

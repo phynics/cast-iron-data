@@ -32,8 +32,6 @@ behind its feminine frame._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -42,9 +40,7 @@ behind its feminine frame._
 
 **Perception:** +11
 
-**Senses:** Detect magic, Detect thoughts
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect magic, Detect thoughts, See in darkness
 
 **Size:** small
 

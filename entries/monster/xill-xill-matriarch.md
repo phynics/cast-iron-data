@@ -33,8 +33,6 @@ from its head._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -44,6 +42,8 @@ from its head._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 60\
 **Subtype:** Evil, Extraplanar

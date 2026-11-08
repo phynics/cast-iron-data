@@ -31,8 +31,6 @@ into an aggressive stance._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
@@ -41,7 +39,7 @@ into an aggressive stance._
 
 **Perception:** +11
 
-**Senses:** Crystal sense
+**Senses:** Crystal sense, Darkvision 60 ft.
 
 **Size:** small
 

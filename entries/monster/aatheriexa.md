@@ -31,23 +31,19 @@ projecting an air of cruelty._
 
 **Challenge rating:** 7
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
 
-**dv:** 120
-
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +28
+
+**Senses:** All-around vision, Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 7\
 **Experience points:** 3,200

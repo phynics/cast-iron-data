@@ -31,15 +31,13 @@ malevolently from beneath layers of dripping, fungal hair._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Alignment:** Neutral evil
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

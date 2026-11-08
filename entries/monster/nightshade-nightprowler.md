@@ -35,21 +35,13 @@ baleful hatred._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +20
 
-**Sense:** Scent
-
-**Senses:** Darksense 30 ft.
-
-**Senses:** Detect magic
+**Senses:** Darksense 30 ft., Darkvision 60 ft., Detect magic, Low-light vision, Scent
 
 **Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 90\
 **Subtype:** Extraplanar, Nightshade

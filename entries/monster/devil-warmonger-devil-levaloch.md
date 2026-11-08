@@ -33,8 +33,6 @@ upon six bladed, beetle-like legs._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,7 +43,7 @@ upon six bladed, beetle-like legs._
 
 **Perception:** +16
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 5 pg 81, Book of the Damned - Volume 1: Princes of Darkness pg 60\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

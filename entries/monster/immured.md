@@ -32,8 +32,6 @@ breathe._
 
 **aura:** breathlessness (10 ft., DC 14)
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -41,6 +39,8 @@ breathe._
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Daughters of Fury pg 55\
 **Type:** undead

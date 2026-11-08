@@ -36,17 +36,15 @@ sickly-sweet scent fills the swirling air around it._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#142: Gardens of Gallowspire pg 90\
 **Experience points:** 25,600

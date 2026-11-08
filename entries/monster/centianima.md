@@ -31,10 +31,6 @@ claw-tipped legs carry its centipede-like form._
 
 **Challenge rating:** 4
 
-**Sense:** Aav
-
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,6 +38,8 @@ claw-tipped legs carry its centipede-like form._
 **Alignment:** Neutral evil
 
 **Perception:** +9
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Pathfinder \#103: The Hellfire Compact pg 84\
 **Type:** undead

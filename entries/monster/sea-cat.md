@@ -30,13 +30,9 @@ of a giant fish._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ of a giant fish._
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 233, Pathfinder \#56: Raiders of the Fever Sea pg 86\
 **Experience points:** 1,200

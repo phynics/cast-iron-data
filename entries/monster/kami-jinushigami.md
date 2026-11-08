@@ -31,8 +31,6 @@ equally huge staff._
 
 **Challenge rating:** 20
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +11
@@ -43,7 +41,7 @@ equally huge staff._
 
 **Perception:** +38
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 3 pg 160\
 **Subtype:** Earth, Kami, Native

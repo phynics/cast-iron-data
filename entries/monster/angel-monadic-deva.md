@@ -33,11 +33,7 @@ mace._
 
 **aura:** protective aura
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -47,7 +43,7 @@ mace._
 
 **Perception:** +29
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Sources:** Bestiary 2 pg 27\
 **Subtype:** Angel, Aquatic, Extraplanar, Good

@@ -39,11 +39,11 @@ his bloodline._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 70\
 **Subtype:** Deep one, Human

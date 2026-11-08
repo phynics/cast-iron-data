@@ -35,13 +35,13 @@ _This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, s
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Type:** outsider
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

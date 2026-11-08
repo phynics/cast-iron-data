@@ -35,13 +35,13 @@ _The carapace of this large crab resembles a scowling face, its eyes seething wi
 
 **aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft., DC 14)
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

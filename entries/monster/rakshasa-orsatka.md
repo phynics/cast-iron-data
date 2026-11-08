@@ -32,8 +32,6 @@ many knuckles._
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ many knuckles._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Book of the Damned pg 252\
 **Subtype:** Native, Rakshasa, Shapechanger

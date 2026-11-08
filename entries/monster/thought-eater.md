@@ -33,13 +33,13 @@ beak._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 243\
 **Subtype:** Extraplanar

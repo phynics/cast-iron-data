@@ -32,8 +32,6 @@ from its half-rotted flesh._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -41,6 +39,8 @@ from its half-rotted flesh._
 **Alignment:** Neutral evil
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ire of the Storm pg 62\
 **Subtype:** Aquatic

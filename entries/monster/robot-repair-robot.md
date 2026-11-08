@@ -35,17 +35,15 @@ machinery._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 56\
 **Subtype:** Robot

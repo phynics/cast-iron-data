@@ -28,19 +28,17 @@ abilities = ["23", "20", "18", "2", "13", "9"]
 
 **aura:** [stench](ref/umr/stench) (DC 18, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Lost Kingdoms pg 30\
 **Experience points:** 3,200

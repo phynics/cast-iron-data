@@ -40,9 +40,9 @@ wields a huge, primitive spear._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 131, Pathfinder \#4: Fortress of the Stone Giants pg 84\
 **Subtype:** Giant

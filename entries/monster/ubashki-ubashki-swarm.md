@@ -27,13 +27,13 @@ abilities = ["5", "17", "-", "2", "10", "15"]
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Lost Kingdoms pg 19\
 **Subtype:** Swarm

@@ -36,13 +36,11 @@ leathery._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 31\
 **Experience points:** 4,800

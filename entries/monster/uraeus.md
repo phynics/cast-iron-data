@@ -30,13 +30,9 @@ serpentine body._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful good
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ serpentine body._
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 259, Osirion, Legacy of the Pharaohs pg 63\
 **Experience points:** 1,600

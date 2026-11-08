@@ -34,8 +34,6 @@ brow._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -43,6 +41,8 @@ brow._
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 75, Pathfinder \#76: The Midnight Isles pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

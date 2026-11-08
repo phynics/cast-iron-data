@@ -33,19 +33,17 @@ abilities = ["19", "13", "16", "8", "13", "8"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Size:** medium
 
 **othersubs:** Boggard
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 14\
 **Experience points:** 1,600

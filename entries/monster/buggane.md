@@ -41,7 +41,7 @@ strong enough to shatter stone._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 4 pg 26\
 **tremorsense:** 60

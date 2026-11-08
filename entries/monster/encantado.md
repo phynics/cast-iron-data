@@ -33,17 +33,15 @@ _This graceful creature combines the features of a human and a river dolphin._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 110\
 **Subtype:** Shapechanger

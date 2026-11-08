@@ -29,13 +29,9 @@ huge tentacles thrash and writhe._
 
 **Challenge rating:** 13
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **blindsight:** 30
-
-**dv:** 60
 
 **Size:** huge
 
@@ -44,6 +40,8 @@ huge tentacles thrash and writhe._
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 136\
 **Experience points:** 25,600

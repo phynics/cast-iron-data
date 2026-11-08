@@ -34,8 +34,6 @@ tail._
 
 **Ratfolk [expert](ref/npcclass/expert) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -43,6 +41,8 @@ tail._
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

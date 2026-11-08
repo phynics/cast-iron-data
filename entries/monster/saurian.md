@@ -31,8 +31,6 @@ _This creature has the head, legs, and tail of a tyrannosaurus, but humanoid che
 
 **Challenge rating:** 16
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
@@ -43,7 +41,7 @@ _This creature has the head, legs, and tail of a tyrannosaurus, but humanoid che
 
 **Perception:** +31
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 6 pg 247\
 **Experience points:** 76,800

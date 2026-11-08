@@ -35,8 +35,6 @@ back._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +0
@@ -44,6 +42,8 @@ back._
 **Type:** outsider
 
 **Perception:** +30
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#73: The Worldwound Incursion pg 82\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

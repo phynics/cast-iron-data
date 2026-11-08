@@ -36,8 +36,6 @@ mace._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +21/+1, [dual initiative](ref/umr/dual-initiative)
 
 **Alignment:** Lawful neutral
@@ -45,6 +43,8 @@ mace._
 **Type:** outsider
 
 **Perception:** +38
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 246\
 **Subtype:** Extraplanar, Lawful, Mythic

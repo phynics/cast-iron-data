@@ -34,13 +34,11 @@ air around it._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

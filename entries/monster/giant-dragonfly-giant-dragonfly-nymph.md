@@ -31,13 +31,13 @@ farm animals or people._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

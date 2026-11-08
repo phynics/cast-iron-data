@@ -38,15 +38,13 @@ air._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
 
-**Type:** plant
+**Senses:** Low-light vision, Scent
 
-**Sense:** Scent
+**Type:** plant
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 80\
 **Experience points:** 4,800

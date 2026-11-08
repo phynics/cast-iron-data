@@ -34,19 +34,15 @@ horn on its brow._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 269\
 **Experience points:** 800

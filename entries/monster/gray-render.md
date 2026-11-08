@@ -30,13 +30,9 @@ its only facial features._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ its only facial features._
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 140\
 **Experience points:** 4,800

@@ -35,8 +35,6 @@ along her skin._
 
 **blindsight:** 120
 
-**dv:** 60
-
 **Initiative:** +14
 
 **Size:** medium
@@ -46,6 +44,8 @@ along her skin._
 **Type:** outsider
 
 **Perception:** +33
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 20\
 **Subtype:** Air, Elemental, Extraplanar

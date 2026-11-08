@@ -41,11 +41,11 @@ diaphanous, wet shawl._
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 198\
 **Subtype:** Water

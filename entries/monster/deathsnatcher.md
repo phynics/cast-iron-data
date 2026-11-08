@@ -40,11 +40,7 @@ four arms ends in a clawed hand._
 
 **Perception:** +27
 
-**Sense:** Scent
-
-**Senses:** Deathwatch
-
-**Sense:** Sid
+**Senses:** Deathwatch, Scent, See in darkness
 
 **Sources:** Bestiary 6 pg 81\
 **Experience points:** 153,600

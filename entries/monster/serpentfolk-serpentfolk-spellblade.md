@@ -31,8 +31,6 @@ abilities = ["16", "23", "21", "20", "13", "16"]
 
 **Advanced serpentfolk [magus](ref/class/magus) 9**
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -43,7 +41,7 @@ abilities = ["16", "23", "21", "20", "13", "16"]
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Monster Codex pg 206\
 **Experience points:** 25,600

@@ -34,8 +34,6 @@ greasy skin._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +10
 
 **Size:** medium
@@ -44,7 +42,7 @@ greasy skin._
 
 **Perception:** +25
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Darkvision 120 ft., Detect good, Detect magic, See invisibility
 
 **Sources:** Bestiary 5 pg 72\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar

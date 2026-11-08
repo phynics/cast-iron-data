@@ -36,17 +36,11 @@ from its coiling flanks._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Initiative:** +10
-
-**Sense:** Llv
 
 **Perception:** +26
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 191\
 **Experience points:** 102,400

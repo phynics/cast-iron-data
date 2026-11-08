@@ -32,11 +32,7 @@ between its two pincers._
 
 **Challenge rating:** 9
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
-
-**dv:** 60
 
 **Initiative:** +4
 
@@ -45,6 +41,8 @@ between its two pincers._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** The Worldwound pg 47\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

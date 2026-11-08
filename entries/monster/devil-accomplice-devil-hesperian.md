@@ -31,8 +31,6 @@ occasional dart of a forked tongue._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful evil
@@ -43,9 +41,7 @@ occasional dart of a forked tongue._
 
 **Perception:** +10
 
-**Senses:** Detect good
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect good, See in darkness
 
 **Sources:** Inner Sea Gods pg 279\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger

@@ -32,17 +32,15 @@ dangle from its face._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 213\
 **Subtype:** Evil, Extraplanar, Sahkil

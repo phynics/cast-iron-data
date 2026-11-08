@@ -31,8 +31,6 @@ musculature. Its eyes burn with a red glow._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ musculature. Its eyes burn with a red glow._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

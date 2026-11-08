@@ -37,9 +37,9 @@ _This enormous, fleshy green caterpillar has the face of a serene human woman._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** The First World, Realm of the Fey pg 63\
 **Experience points:** 2,400

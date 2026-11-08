@@ -36,11 +36,11 @@ beast's eyes are as big as shields._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +22
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 259\
 **Subtype:** Aquatic

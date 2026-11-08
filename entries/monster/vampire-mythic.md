@@ -37,8 +37,6 @@ long fangs._
 
 **Human vampire [fighter](ref/class/fighter) 7**
 
-**dv:** 60
-
 **Initiative:** +12, Mythic Improved Initiative
 
 **Size:** medium
@@ -46,6 +44,8 @@ long fangs._
 **Alignment:** Neutral evil
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 220\
 **Subtype:** Augmented humanoid, Human, Mythic

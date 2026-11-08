@@ -31,8 +31,6 @@ where its mane should be._
 
 **Type:** aberration
 
-**dv:** 120
-
 **Initiative:** +6
 
 **Size:** medium
@@ -41,7 +39,7 @@ where its mane should be._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Darkvision 120 ft., Scent
 
 **Sources:** Bestiary 2 pg 22, Pathfinder \#14: Children of the Void pg 80\
 **Experience points:** 400

@@ -32,8 +32,6 @@ speak to great age and danger._
 
 **aura:** hemophile (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -41,6 +39,8 @@ speak to great age and danger._
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Taldor, the First Empire pg 56\
 **Type:** undead

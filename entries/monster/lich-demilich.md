@@ -29,15 +29,13 @@ dust and shimmering magic._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral evil
 
 **Perception:** +27
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 3 pg 66\
 **Size:** tiny

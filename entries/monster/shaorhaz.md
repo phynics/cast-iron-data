@@ -36,19 +36,15 @@ visage. Huge black wings fan behind its back, and flickering black blades burn i
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +21
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +44
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., Low-light vision, True seeing
 
 **Sources:** Demons Revisited pg 44\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

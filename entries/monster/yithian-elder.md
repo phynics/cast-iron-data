@@ -33,13 +33,9 @@ eyes that glow with ancient, forbidden power._
 
 **Challenge rating:** 13
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **blindsense:** 60
-
-**dv:** 60
 
 **Initiative:** +3
 
@@ -48,6 +44,8 @@ eyes that glow with ancient, forbidden power._
 **Alignment:** Lawful neutral
 
 **Perception:** +32
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 62\
 **Experience points:** 25,600

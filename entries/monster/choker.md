@@ -33,11 +33,11 @@ _This hunched-over wretch has long, pliable arms like tentacles capped with five
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

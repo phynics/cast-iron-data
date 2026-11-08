@@ -34,19 +34,13 @@ a cave._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +33
 
-**Senses:** Darksense
-
-**Senses:** Detect magic
+**Senses:** Darksense, Darkvision 120 ft., Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 200\
 **Subtype:** Extraplanar, Nightshade

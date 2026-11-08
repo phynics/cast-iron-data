@@ -31,17 +31,15 @@ _This beautiful, impossibly intricate tattoo appears to swirl and move along its
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 54\
 **Experience points:** 800

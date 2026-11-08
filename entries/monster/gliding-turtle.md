@@ -36,11 +36,11 @@ _This giant turtle has a large, thin membrane of scaly skin extending from its s
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 82\
 **Experience points:** 600

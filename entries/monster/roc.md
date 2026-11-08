@@ -35,11 +35,11 @@ horse._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 236\
 **Experience points:** 6,400

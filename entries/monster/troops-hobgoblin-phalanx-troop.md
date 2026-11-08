@@ -28,8 +28,6 @@ abilities = ["20", "19", "20", "13", "22", "9"]
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +8
@@ -39,6 +37,8 @@ abilities = ["20", "19", "20", "13", "22", "9"]
 **Size:** medium
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#117: Assault on Longshadow pg 90\
 **Subtype:** Goblinoid, Troop

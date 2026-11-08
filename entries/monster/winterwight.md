@@ -34,13 +34,13 @@ in jagged sheets of ice._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 283\
 **Subtype:** Cold

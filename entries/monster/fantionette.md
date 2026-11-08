@@ -36,15 +36,13 @@ arms._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

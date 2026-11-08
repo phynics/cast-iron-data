@@ -29,8 +29,6 @@ things to burn._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Neutral
@@ -38,6 +36,8 @@ things to burn._
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -126,8 +126,6 @@ made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -137,6 +135,8 @@ made by darker bits of flame or patches of semi-stable smoke, ash, and cinders.
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
@@ -190,8 +190,6 @@ Bonus feat.
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -201,6 +199,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
@@ -260,8 +260,6 @@ Bonus feat.
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +11
@@ -271,6 +269,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
@@ -331,8 +331,6 @@ Bonus feat.
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +12
@@ -342,6 +340,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 124\
 **Subtype:** Elemental, Extraplanar, Fire
@@ -402,8 +402,6 @@ Bonus feat.
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +13
@@ -413,6 +411,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 125\
 **Subtype:** Elemental, Extraplanar, Fire

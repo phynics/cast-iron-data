@@ -35,8 +35,6 @@ long, powerful tail._
 
 **blindsight:** 60
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -45,7 +43,7 @@ long, powerful tail._
 
 **Perception:** +22
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 3 pg 246\
 **Subtype:** Aquatic

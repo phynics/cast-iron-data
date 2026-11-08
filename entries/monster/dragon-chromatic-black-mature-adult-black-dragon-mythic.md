@@ -42,17 +42,13 @@ head._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Initiative:** +11, Mythic Improved Initiative
 
 **Size:** large
 
-**Sense:** Llv
-
-**Sense:** Mistsight
-
 **Perception:** +26
+
+**Senses:** Darkvision 120 ft., Low-light vision, Mistsight
 
 **Sources:** Mythic Adventures pg 187\
 **Subtype:** Mythic, Water

@@ -33,17 +33,15 @@ _Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed s
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 33\
 **Subtype:** Clockwork

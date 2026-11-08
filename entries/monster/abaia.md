@@ -31,13 +31,9 @@ _This multi-eyed eel's brightly colored markings shift in complex, ever-changing
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -45,7 +41,7 @@ _This multi-eyed eel's brightly colored markings shift in complex, ever-changing
 
 **Perception:** +19
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 7\
 **Subtype:** Aquatic

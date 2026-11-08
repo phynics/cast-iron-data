@@ -34,13 +34,13 @@ leathery flesh, and blood-red smoke._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 125, Dark Markets - A Guide to Katapesh pg 62\
 **Subtype:** Shapechanger

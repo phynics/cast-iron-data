@@ -34,17 +34,13 @@ resembling a starry night sky._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +11
 
-**Senses:** Detect evil, Detect magic
+**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
 
 **Size:** small
 

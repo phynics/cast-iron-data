@@ -34,15 +34,13 @@ body, and belligerent hiss._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 275, Pathfinder \#67: The Snows of Summer pg 82\
 **Experience points:** 400

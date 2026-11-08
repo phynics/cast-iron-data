@@ -32,11 +32,11 @@ abilities = ["1", "15", "6", "2", "15", "6"]
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Magic pg 120\
 **Experience points:** 135

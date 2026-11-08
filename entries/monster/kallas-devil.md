@@ -37,8 +37,6 @@ hideous creature has no skin, and is built of gore and viscera._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 20)
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +5
@@ -48,6 +46,8 @@ hideous creature has no skin, and is built of gore and viscera._
 **Alignment:** Neutral evil
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Fey Revisited pg 32\
 **Subtype:** Aquatic

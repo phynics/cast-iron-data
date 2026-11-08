@@ -34,8 +34,6 @@ coils also end in toothy maws._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -43,6 +41,8 @@ coils also end in toothy maws._
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 224\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

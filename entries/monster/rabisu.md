@@ -36,15 +36,11 @@ and a fang-filled mouth._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +22
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Low-light vision, Scent, See in darkness
 
 **Sources:** Qadira, Jewel of the East pg 62\
 **Experience points:** 12,800

@@ -31,8 +31,6 @@ cruel gaze._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
@@ -44,6 +42,8 @@ cruel gaze._
 **othersubs:** Gnoll
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 100\
 **Experience points:** 800

@@ -45,9 +45,9 @@ humanoid has a regal presence._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +33
+
+**Senses:** Low-light vision
 
 **Sources:** Mythic Realms pg 52\
 **Subtype:** Cold, Giant

@@ -34,8 +34,6 @@ hairy, wriggling legs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -43,6 +41,8 @@ hairy, wriggling legs._
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Gods pg 305\
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth

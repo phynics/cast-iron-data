@@ -29,13 +29,9 @@ _A single wicked horn grows from the forehead of this stocky, oryx-like creature
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -43,9 +39,7 @@ _A single wicked horn grows from the forehead of this stocky, oryx-like creature
 
 **Perception:** +10
 
-**Sense:** Scent
-
-**Senses:** Detect evil, Detect good
+**Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 148\
 **Experience points:** 1,200

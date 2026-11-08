@@ -31,19 +31,17 @@ jagged teeth._
 
 **Challenge rating:** 19
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 240\
 **Subtype:** Aquatic

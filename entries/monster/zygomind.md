@@ -39,11 +39,11 @@ _This enormous fungus looks like a cage, and a strange glow emanates from within
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

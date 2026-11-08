@@ -36,13 +36,11 @@ loose-fitting barding._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 177\
 **Experience points:** 400

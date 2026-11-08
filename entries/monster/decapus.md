@@ -34,13 +34,13 @@ eyes on its bulbous body._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 77\
 **Experience points:** 1,200

@@ -38,8 +38,6 @@ guard its body._
 
 **aura:** mucus cloud (5 feet)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8, Mythic Improved Initiative
@@ -47,6 +45,8 @@ guard its body._
 **Alignment:** Lawful evil
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 178\
 **Subtype:** Aquatic, Mythic

@@ -31,17 +31,15 @@ abilities = ["4", "14", "-", "-", "11", "1"]
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 44\
 **Subtype:** Swarm

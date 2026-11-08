@@ -35,8 +35,6 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -44,6 +42,8 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 **Size:** medium
 
 **Perception:** +2
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 114\
 **Subtype:** Elf

@@ -36,15 +36,11 @@ intelligence._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8 (+12 in deserts)
 
-**Sense:** Scent
-
-**Senses:** Desert senses
+**Senses:** Desert senses, Low-light vision, Scent
 
 **Sources:** Qadira, Jewel of the East pg 63\
 **Experience points:** 1,200

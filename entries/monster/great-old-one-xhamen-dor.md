@@ -40,11 +40,11 @@ in the wriggling mass, arrayed around a central draconic skull._
 
 **Initiative:** +24
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +40
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

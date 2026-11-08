@@ -35,19 +35,15 @@ _This lean ape-person is bedecked with a rattling collection of whistles, drums,
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
-
-**Sense:** Llv
 
 **othersubs:** Charau-ka
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

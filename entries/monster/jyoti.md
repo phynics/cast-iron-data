@@ -32,11 +32,7 @@ carved crystal blade._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -45,6 +41,8 @@ carved crystal blade._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 171\
 **Subtype:** Extraplanar

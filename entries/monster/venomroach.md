@@ -30,8 +30,6 @@ _The brown and black exoskeleton of this roach gleams when exposed to the light.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -39,6 +37,8 @@ _The brown and black exoskeleton of this roach gleams when exposed to the light.
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#116: Fangs of War pg 85\
 **Type:** vermin

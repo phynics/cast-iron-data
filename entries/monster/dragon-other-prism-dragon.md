@@ -36,15 +36,13 @@ _The facets of this crystalline dragon's body reflect fascinating and sparkling 
 
 **Type:** dragon
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +28
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 42\
 **Subtype:** Extraplanar

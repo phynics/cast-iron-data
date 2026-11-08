@@ -30,11 +30,7 @@ creature moves._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -43,6 +39,8 @@ creature moves._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 167\
 **Experience points:** 800

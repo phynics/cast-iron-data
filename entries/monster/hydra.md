@@ -29,13 +29,9 @@ _Multiple angry snake-like heads rise from the sleek, serpentine body of this te
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -43,7 +39,7 @@ _Multiple angry snake-like heads rise from the sleek, serpentine body of this te
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 178\
 **Experience points:** 1,200

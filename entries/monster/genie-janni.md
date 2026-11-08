@@ -33,8 +33,6 @@ strange light._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,6 +42,8 @@ strange light._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 141\
 **Subtype:** Native

@@ -35,11 +35,11 @@ skull visible somewhere in its depths._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

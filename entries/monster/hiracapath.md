@@ -32,8 +32,6 @@ within it, and curling, steel horns emerge from its helm._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -44,7 +42,7 @@ within it, and curling, steel horns emerge from its helm._
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#104: Wrath of Thrune pg 88\
 **Subtype:** Extraplanar, Good, Lawful

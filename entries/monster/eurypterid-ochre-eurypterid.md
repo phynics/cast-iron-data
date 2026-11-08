@@ -33,11 +33,11 @@ long, thin stinger rises from behind._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Size:** small
 

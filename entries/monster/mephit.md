@@ -28,8 +28,6 @@ _This small humanoid creature has thin, leathery wings, small horns, and a misch
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral
@@ -39,6 +37,8 @@ _This small humanoid creature has thin, leathery wings, small horns, and a misch
 **Type:** outsider
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

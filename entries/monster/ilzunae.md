@@ -36,8 +36,6 @@ her fiendish nature._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -45,6 +43,8 @@ her fiendish nature._
 **Type:** outsider
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Demons Revisited pg 32\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Incorporeal

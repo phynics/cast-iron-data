@@ -33,8 +33,6 @@ ungainly head._
 
 **Goblin [warrior](ref/npcclass/warrior) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
@@ -42,6 +40,8 @@ ungainly head._
 **Alignment:** Neutral evil
 
 **Perception:** -1
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

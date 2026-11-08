@@ -35,13 +35,9 @@ billowing behind it._
 
 **aura:** shroud of flame (20 ft., DC 28)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +10
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -49,7 +45,7 @@ billowing behind it._
 
 **Perception:** +39
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
 
 **Sources:** Mythical Monsters Revisited pg 50\
 **Subtype:** Fire

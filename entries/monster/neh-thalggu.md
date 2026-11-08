@@ -34,13 +34,13 @@ along its back that hold human brains._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 197\
 **Experience points:** 4,800

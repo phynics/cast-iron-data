@@ -38,11 +38,11 @@ numerous intricate tattoos._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 129\
 **Subtype:** Giant

@@ -35,13 +35,11 @@ tail ending in a bony club._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 83\
 **Experience points:** 2,400

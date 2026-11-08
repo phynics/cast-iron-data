@@ -33,8 +33,6 @@ _This vaguely humanoid-shaped roil of mist appears to be improbably solid._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -42,6 +40,8 @@ _This vaguely humanoid-shaped roil of mist appears to be improbably solid._
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 111\
 **Subtype:** Incorporeal, Native

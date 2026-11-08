@@ -31,8 +31,6 @@ hooves as if preparing to charge._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -40,6 +38,8 @@ hooves as if preparing to charge._
 **Type:** Monstrous humanoid
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 206\
 **Experience points:** 1,200

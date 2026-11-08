@@ -35,19 +35,15 @@ _This long-furred ape-person wears a battered snakeskin poncho and carries a wor
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
-
-**Sense:** Llv
 
 **othersubs:** Charau-ka
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

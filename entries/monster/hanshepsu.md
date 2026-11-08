@@ -33,17 +33,15 @@ head._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 84\
 **Experience points:** 9,600

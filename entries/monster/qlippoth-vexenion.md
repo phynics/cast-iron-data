@@ -34,8 +34,6 @@ amorphous form, its body pulsating with a horrid vitality._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -44,7 +42,7 @@ amorphous form, its body pulsating with a horrid vitality._
 
 **Perception:** +12
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 86\
 **Subtype:** Chaotic, Qlippoth, Evil, Extraplanar

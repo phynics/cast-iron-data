@@ -34,8 +34,6 @@ on stout cloven hooves._
 
 **aura:** unholy aura
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Alignment:** Lawful evil
@@ -46,7 +44,7 @@ on stout cloven hooves._
 
 **Perception:** +43
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Inner Sea Bestiary pg 26\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

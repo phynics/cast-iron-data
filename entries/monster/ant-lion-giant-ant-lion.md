@@ -30,8 +30,6 @@ protrudes from its head._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -39,6 +37,8 @@ protrudes from its head._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 17, Bonus Bestiary pg 5\
 **tremorsense:** 60

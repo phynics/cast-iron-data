@@ -39,11 +39,11 @@ adorned with scrimshaw talismans._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 155\
 **Subtype:** Shapechanger

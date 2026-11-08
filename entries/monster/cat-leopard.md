@@ -32,15 +32,13 @@ _With each graceful step, this leopard's steely muscles ripple beneath its spott
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 40\
 **Experience points:** 600

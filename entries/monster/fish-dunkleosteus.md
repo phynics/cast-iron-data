@@ -37,11 +37,11 @@ plates._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 129, Pathfinder \#56: Raiders of the Fever Sea pg 83\
 **Subtype:** Aquatic

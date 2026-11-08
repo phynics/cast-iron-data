@@ -33,19 +33,17 @@ darkness of a starry night that swirls continuously about her._
 
 **Challenge rating:** 16
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +28
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#54: The Empty Throne pg 88\
 **Subtype:** Air, Giant, Native, Oni, Shapechanger

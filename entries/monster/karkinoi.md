@@ -34,8 +34,6 @@ a twisted, human-like hand._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -43,6 +41,8 @@ a twisted, human-like hand._
 **Type:** Monstrous humanoid
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 173\
 **Subtype:** Aquatic

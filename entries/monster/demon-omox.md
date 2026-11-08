@@ -35,8 +35,6 @@ a half-melted man._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +11
 
 **Size:** medium
@@ -44,6 +42,8 @@ a half-melted man._
 **Type:** outsider
 
 **Perception:** +28
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 2 pg 79, Pathfinder \#16: Endless Night pg 82\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar

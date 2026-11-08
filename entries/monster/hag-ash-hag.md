@@ -31,8 +31,6 @@ peppered with globs of what appear to be ashes._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful evil
@@ -42,6 +40,8 @@ peppered with globs of what appear to be ashes._
 **Type:** Monstrous humanoid
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Cheliax, the Infernal Empire pg 57\
 **Experience points:** 1,600

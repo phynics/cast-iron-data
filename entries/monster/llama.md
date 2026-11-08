@@ -33,13 +33,13 @@ _This shaggy, hoofed quadruped sports an elongated neck and large, crooked teeth
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Animal Archive pg 28\
 **Experience points:** 200

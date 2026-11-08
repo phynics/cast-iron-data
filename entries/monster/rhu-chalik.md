@@ -35,13 +35,11 @@ bulging, lidless eye._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Perception:** +10
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Size:** small
 

@@ -30,13 +30,13 @@ _This monstrous caterpillar's dark-scarlet bristles drip with thick, dangerous-l
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

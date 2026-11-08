@@ -30,13 +30,9 @@ shimmer with magical energy._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ shimmer with magical energy._
 
 **Perception:** +9
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
 **Sources:** Bestiary 3 pg 81, Misfit Monsters Redeemed pg 27\
 **Experience points:** 800

@@ -32,19 +32,15 @@ _This jungle cat has a dark coat of striped fur, glossy black teeth and claws, a
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 173\
 **Experience points:** 3,200

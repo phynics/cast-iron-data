@@ -40,13 +40,11 @@ must surely herald the end of times._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +15
 
 **Perception:** +52
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 4 pg 138\
 **Subtype:** Chaotic, Evil, Great Old One

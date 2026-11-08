@@ -33,15 +33,13 @@ knotted into a mask of rage._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +15
 
 **Size:** medium
 
 **Perception:** +31
 
-**Senses:** Hear heartbeat
+**Senses:** Darkvision 60 ft., Hear heartbeat
 
 **Sources:** Bestiary 2 pg 41, Pathfinder \#17: A Memory of Darkness pg 80\
 **Subtype:** Incorporeal

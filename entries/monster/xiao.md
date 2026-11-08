@@ -30,17 +30,13 @@ _This snarling blue-white monkey flies through the air on a pair of bird-like wi
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 284\
 **Size:** tiny

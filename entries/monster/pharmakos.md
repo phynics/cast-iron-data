@@ -34,8 +34,6 @@ upper torso of a deformed man._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +3
@@ -44,7 +42,7 @@ upper torso of a deformed man._
 
 **Perception:** +9
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Curse of the Crimson Throne pg 475\
 **Subtype:** Aquatic

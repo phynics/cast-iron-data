@@ -31,10 +31,6 @@ hair._
 
 **Challenge rating:** 7
 
-**Sense:** Aav
-
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -44,6 +40,8 @@ hair._
 **Type:** Monstrous humanoid
 
 **Perception:** +16
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 201\
 **Experience points:** 3,200

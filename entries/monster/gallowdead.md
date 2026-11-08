@@ -33,13 +33,13 @@ its midsection._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 119\
 **Type:** undead

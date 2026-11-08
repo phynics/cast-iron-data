@@ -30,8 +30,6 @@ _This howling corpse swoops through the air with hideously elongated legs and a 
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -39,6 +37,8 @@ _This howling corpse swoops through the air with hideously elongated legs and a 
 **Alignment:** Neutral evil
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 35\
 **Type:** undead

@@ -34,19 +34,17 @@ with crystals._
 
 **Female [stone giant](ref/monster/giant-stone-giant) elder [sorcerer](ref/class/sorcerer) 10**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Giants Revisited pg 50\
 **Subtype:** Giant

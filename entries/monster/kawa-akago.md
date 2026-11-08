@@ -32,11 +32,11 @@ toothy maw at its center._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

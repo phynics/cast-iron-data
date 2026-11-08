@@ -31,8 +31,6 @@ eyes search for a target._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -43,9 +41,7 @@ eyes search for a target._
 
 **Perception:** +16
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 75\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

@@ -31,13 +31,9 @@ complete its vile appearance._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral evil
 
@@ -45,7 +41,7 @@ complete its vile appearance._
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea World Guide pg 311, Mystery Monsters Revisited pg 39\
 **Subtype:** Native

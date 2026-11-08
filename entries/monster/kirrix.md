@@ -32,13 +32,9 @@ _This sleek, weasel-like rodent has exaggerated whiskers and six short but stout
 
 **blindsense:** 10
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -46,7 +42,7 @@ _This sleek, weasel-like rodent has exaggerated whiskers and six short but stout
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Monster Codex pg 184\
 **Experience points:** 800

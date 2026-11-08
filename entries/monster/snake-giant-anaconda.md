@@ -35,13 +35,11 @@ it scans the area for prey._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +22
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 252\
 **Experience points:** 9,600

@@ -31,17 +31,15 @@ _This black cat has gray stripes, violet eyes, and an unusual white blaze on its
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 20\
 **Subtype:** Agathion, Extraplanar, Good

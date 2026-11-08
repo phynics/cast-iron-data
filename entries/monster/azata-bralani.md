@@ -35,17 +35,15 @@ swirling with vibrant colors._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 24\
 **Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger

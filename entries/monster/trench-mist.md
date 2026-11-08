@@ -34,8 +34,6 @@ dead soldiers._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +9
@@ -45,6 +43,8 @@ dead soldiers._
 **Alignment:** Neutral evil
 
 **Perception:** +25
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 250, Pathfinder \#71: Rasputin Must Die! pg 90\
 **Subtype:** Air

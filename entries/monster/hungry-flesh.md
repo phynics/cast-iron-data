@@ -42,7 +42,7 @@ for sustenance._
 
 **Perception:** -5
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Bestiary 4 pg 152\
 **Experience points:** 800

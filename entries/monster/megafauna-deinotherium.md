@@ -36,13 +36,11 @@ downward-curving tusks._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 184, Pathfinder \#91: Battle of Bloodmarch Hills pg 86\
 **Experience points:** 3,200

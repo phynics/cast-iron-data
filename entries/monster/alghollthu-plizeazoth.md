@@ -36,8 +36,6 @@ sides of its wide mouth, and its slimy skin undulates with sickening shudders._
 
 **aura:** mucus cloud (30 ft., DC 23)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
@@ -45,6 +43,8 @@ sides of its wide mouth, and its slimy skin undulates with sickening shudders._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 88\
 **Subtype:** Aquatic

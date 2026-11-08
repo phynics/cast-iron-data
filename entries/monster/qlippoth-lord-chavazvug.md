@@ -38,15 +38,13 @@ five spidery legs._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Type:** outsider
 
 **Perception:** +34
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Bestiary 6 pg 232\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

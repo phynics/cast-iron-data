@@ -36,8 +36,6 @@ with what look like hands._
 
 **aura:** mucus cloud (30 ft.)
 
-**dv:** 120
-
 **Initiative:** +10
 
 **Size:** large
@@ -45,6 +43,8 @@ with what look like hands._
 **Alignment:** Lawful evil
 
 **Perception:** +23
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 6 pg 270, Inner Sea Bestiary pg 56\
 **Subtype:** Aquatic, Shapechanger

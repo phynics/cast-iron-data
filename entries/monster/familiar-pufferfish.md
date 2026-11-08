@@ -33,11 +33,11 @@ from its body._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 203, Familiar Folio pg 25\
 **Size:** tiny

@@ -36,11 +36,11 @@ wicked grin on its foul, warped face._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Size:** small
 

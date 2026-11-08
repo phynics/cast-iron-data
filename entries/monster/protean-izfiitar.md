@@ -36,8 +36,6 @@ _This serpentine monster has six arms and is crowned by a halo of ever-changing 
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +14
 
 **Size:** medium
@@ -46,7 +44,7 @@ _This serpentine monster has six arms and is crowned by a halo of ever-changing 
 
 **Perception:** +36
 
-**Senses:** Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect law, True seeing
 
 **Sources:** Bestiary 6 pg 210\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

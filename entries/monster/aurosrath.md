@@ -30,8 +30,6 @@ and from the exposed wounds that cover its hideously distended body._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -39,6 +37,8 @@ and from the exposed wounds that cover its hideously distended body._
 **Alignment:** Neutral evil
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Druma, Profit and Prophecy pg 56\
 **Type:** undead

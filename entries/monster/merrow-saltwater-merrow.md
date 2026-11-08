@@ -35,11 +35,11 @@ abilities = ["25", "16", "23", "6", "10", "7"]
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 189\
 **Subtype:** Aquatic, Giant

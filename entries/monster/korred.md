@@ -38,9 +38,9 @@ most of its body from view._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Size:** small
 

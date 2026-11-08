@@ -39,13 +39,13 @@ white orbs._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 281\
 **Subtype:** Vishkanya

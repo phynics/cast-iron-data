@@ -35,13 +35,9 @@ trails brilliant colors._
 
 **aura:** charming (30 ft., DC 24, 1 day)
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
@@ -50,6 +46,8 @@ trails brilliant colors._
 **Type:** outsider
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 308\
 **Subtype:** Extraplanar, Good, Shapechanger

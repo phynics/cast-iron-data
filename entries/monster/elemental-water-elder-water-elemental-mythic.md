@@ -33,8 +33,6 @@ tentacular appendages._
 
 **Mythic rank:** 5
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -44,6 +42,8 @@ tentacular appendages._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 196\
 **Subtype:** Elemental, Extraplanar, Mythic, Water

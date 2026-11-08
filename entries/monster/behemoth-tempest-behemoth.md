@@ -36,8 +36,6 @@ bird-like monstrosity._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Type:** Magical beast
@@ -45,6 +43,8 @@ bird-like monstrosity._
 **Alignment:** Neutral
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 37\
 **Subtype:** Air, Behemoth

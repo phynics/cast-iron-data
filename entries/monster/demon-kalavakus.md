@@ -32,8 +32,6 @@ _This muscular, violet demon walks upon elephantine feet. Large, razor-sharp hor
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -41,6 +39,8 @@ _This muscular, violet demon walks upon elephantine feet. Large, razor-sharp hor
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 78\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

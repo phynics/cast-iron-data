@@ -31,8 +31,6 @@ in curved blades._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -43,7 +41,7 @@ in curved blades._
 
 **Perception:** +23
 
-**Senses:** Deathwatch, Detect good, True seeing
+**Senses:** Darkvision 60 ft., Deathwatch, Detect good, True seeing
 
 **Sources:** Bestiary 3 pg 62\
 **Subtype:** Daemon, Evil, Extraplanar

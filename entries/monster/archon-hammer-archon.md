@@ -34,21 +34,17 @@ hammer-headed polearm with a wicked spike on its reverse side._
 
 **aura:** aura of menace (20 ft., DC 26)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +28
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Sources:** Pathfinder \#107: Scourge of the Godclaw pg 82\
 **Subtype:** Archon, Extraplanar, Good, Lawful

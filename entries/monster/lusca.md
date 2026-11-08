@@ -34,17 +34,15 @@ that of an octopus._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +28
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 161, Isles of the Shackles pg 53\
 **Subtype:** Aquatic

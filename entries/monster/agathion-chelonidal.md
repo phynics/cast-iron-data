@@ -33,11 +33,7 @@ heavy shell covering its back._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,6 +42,8 @@ heavy shell covering its back._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 80\
 **Subtype:** Agathion, Aquatic, Extraplanar, Good

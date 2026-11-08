@@ -31,8 +31,6 @@ feet. A mass of barbed, black tentacles extends from its exposed abdomen._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -41,7 +39,7 @@ feet. A mass of barbed, black tentacles extends from its exposed abdomen._
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#123: The Flooded Cathedral pg 84\
 **Type:** undead

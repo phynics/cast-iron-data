@@ -32,21 +32,17 @@ from each eyelid, forming makeshift fanged maws._
 
 **Challenge rating:** 7
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **Alignment:** Chaotic evil
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Perception:** +26
 
-**Senses:** True seeing
+**Senses:** All-around vision, Darkvision 60 ft., True seeing
 
 **Sources:** Down the Blighted Path pg 57\
 **Subtype:** Swarm

@@ -30,8 +30,6 @@ abilities = ["15", "23", "16", "13", "16", "16"]
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Type:** Magical beast
@@ -40,7 +38,7 @@ abilities = ["15", "23", "16", "13", "16", "16"]
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 82\
 **Experience points:** 3,200

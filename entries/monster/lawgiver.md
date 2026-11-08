@@ -30,17 +30,11 @@ _This titanic golden statue of a great knight moves of its own accord and hefts 
 
 **Challenge rating:** 15
 
-**Sense:** Aav
-
 **Type:** construct
-
-**dv:** 60
 
 **Size:** gargantuan
 
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -48,7 +42,7 @@ _This titanic golden statue of a great knight moves of its own accord and hefts 
 
 **Perception:** +29
 
-**Sense:** Sid
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See in darkness
 
 **Sources:** Inner Sea Gods pg 276\
 **Subtype:** Extraplanar, Lawful

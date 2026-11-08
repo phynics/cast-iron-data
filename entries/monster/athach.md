@@ -34,17 +34,15 @@ appearance truly bizarre._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Type:** humanoid
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 33\
 **Subtype:** Giant

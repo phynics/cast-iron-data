@@ -32,11 +32,7 @@ her clothing and staff._
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,7 +42,7 @@ her clothing and staff._
 
 **Perception:** +28
 
-**Senses:** Spiritsense
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
 **Sources:** Bestiary 4 pg 219, Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Extraplanar, Psychopomp

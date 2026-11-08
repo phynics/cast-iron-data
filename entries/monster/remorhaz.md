@@ -30,19 +30,17 @@ red-hot._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 233\
 **tremorsense:** 60

@@ -35,19 +35,17 @@ a crown of horns._
 
 **blindsense:** 60
 
-**dv:** 120
-
 **Initiative:** +6
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +48
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 18\
 **Subtype:** Agathion, Extraplanar, Good

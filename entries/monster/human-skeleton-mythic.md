@@ -33,8 +33,6 @@ long, bony fingers reach out to claw at the living._
 
 **Mythic rank:** 1
 
-**dv:** 60
-
 **Initiative:** +7, Mythic Improved Initiative
 
 **Size:** medium
@@ -42,6 +40,8 @@ long, bony fingers reach out to claw at the living._
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 197\
 **Subtype:** Mythic

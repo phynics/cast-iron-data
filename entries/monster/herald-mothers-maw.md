@@ -35,8 +35,6 @@ of rotting meat, spice, and perfume._
 
 **aura:** desecrate
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -47,7 +45,7 @@ of rotting meat, spice, and perfume._
 
 **Perception:** +28
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#47: Ashes at Dawn pg 82\
 **Subtype:** Evil, Extraplanar

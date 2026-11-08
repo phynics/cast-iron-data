@@ -33,11 +33,7 @@ black-winged woman._
 
 **aura:** terminal aura (50 ft., DC 23)
 
-**dv:** 60
-
 **Initiative:** +13
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -47,9 +43,7 @@ black-winged woman._
 
 **Perception:** +24
 
-**Senses:** Spiritsense
-
-**Senses:** Detect evil, Detect good, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Spiritsense, True seeing
 
 **Sources:** Bestiary 6 pg 219, Inner Sea Bestiary pg 39\
 **Subtype:** Extraplanar, Psychopomp

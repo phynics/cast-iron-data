@@ -36,11 +36,11 @@ grow on the branches._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

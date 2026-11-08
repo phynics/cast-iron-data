@@ -39,13 +39,11 @@ the air astride a vortex of dust._
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +24
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 176\
 **Subtype:** Air

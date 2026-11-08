@@ -32,8 +32,6 @@ erupt from the towering bulk._
 
 **Challenge rating:** 17
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -44,9 +42,7 @@ erupt from the towering bulk._
 
 **Perception:** +27
 
-**Senses:** Detect good, Detect magic, True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 244\
 **Subtype:** Evil, Extraplanar, Sahkil

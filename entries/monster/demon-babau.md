@@ -32,8 +32,6 @@ slimy leather._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -42,7 +40,7 @@ slimy leather._
 
 **Perception:** +19
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Pathfinder RPG Bestiary pg 57\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -30,15 +30,13 @@ through the air._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

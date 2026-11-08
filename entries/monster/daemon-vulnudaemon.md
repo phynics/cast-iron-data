@@ -32,8 +32,6 @@ childlike horror._
 
 **aura:** aura of doom (30 ft., DC 18)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral evil
@@ -42,7 +40,7 @@ childlike horror._
 
 **Perception:** +10
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 60 ft., Detect good, Detect magic
 
 **Size:** small
 

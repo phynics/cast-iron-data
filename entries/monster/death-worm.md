@@ -30,19 +30,17 @@ teeth._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 76\
 **tremorsense:** 60

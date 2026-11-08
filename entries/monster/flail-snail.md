@@ -32,13 +32,9 @@ mace-like club._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -46,7 +42,7 @@ mace-like club._
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 118, Misfit Monsters Redeemed pg 33\
 **tremorsense:** 60

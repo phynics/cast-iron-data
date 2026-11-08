@@ -36,8 +36,6 @@ above its grotesque, misshapen head and its mouth is open in a silent scream._
 
 **blindsense:** 120
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -45,6 +43,8 @@ above its grotesque, misshapen head and its mouth is open in a silent scream._
 **Size:** medium
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#135: Runeplague pg 88\
 **Subtype:** Shapechanger

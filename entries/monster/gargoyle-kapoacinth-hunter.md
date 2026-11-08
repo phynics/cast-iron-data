@@ -36,8 +36,6 @@ innocent passers-by. Then it moves - to do just that._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -45,6 +43,8 @@ innocent passers-by. Then it moves - to do just that._
 **Type:** Monstrous humanoid
 
 **Perception:** -1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#48: Shadows of Gallowspire pg 84\
 **Subtype:** Aquatic, Earth

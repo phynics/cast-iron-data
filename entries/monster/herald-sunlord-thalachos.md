@@ -35,13 +35,9 @@ flaming scimitars and a bow._
 
 **aura:** protective aura (20 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
@@ -50,6 +46,8 @@ flaming scimitars and a bow._
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 306, Pathfinder \#20: House of the Beast pg 86\
 **Subtype:** Angel, Extraplanar, Good, Shapechanger

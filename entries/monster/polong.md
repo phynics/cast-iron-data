@@ -32,8 +32,6 @@ _This crimson spectral creature drips with blood, its skeletal face contorted wi
 
 **aura:** murderous intent (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -41,6 +39,8 @@ _This crimson spectral creature drips with blood, its skeletal face contorted wi
 **Alignment:** Neutral evil
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 196\
 **Subtype:** Incorporeal

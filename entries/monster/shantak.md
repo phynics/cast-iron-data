@@ -32,17 +32,15 @@ slime-encrusted wings._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 244\
 **Experience points:** 4,800

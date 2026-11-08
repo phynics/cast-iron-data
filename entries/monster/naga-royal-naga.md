@@ -33,8 +33,6 @@ _This snake-bodied creature has five necks, each with a regal, humanoid face in 
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -43,7 +41,7 @@ _This snake-bodied creature has five necks, each with a regal, humanoid face in 
 
 **Perception:** +27
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Bestiary 3 pg 198, Pathfinder \#27: What Lies in Dust pg 88\
 **Subtype:** Shapechanger

@@ -31,13 +31,13 @@ lumbering movements slow and methodical._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#47: Ashes at Dawn pg 84\
 **Size:** tiny

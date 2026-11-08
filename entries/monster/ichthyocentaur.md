@@ -32,8 +32,6 @@ hoofed forelegs trailing into a finned tail._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -43,6 +41,8 @@ hoofed forelegs trailing into a finned tail._
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 146\
 **Subtype:** Aquatic

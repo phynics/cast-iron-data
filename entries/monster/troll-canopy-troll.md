@@ -34,17 +34,13 @@ It hangs overhead, swinging between its oversized forearms and lashing, claw-tip
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

@@ -33,21 +33,19 @@ an agonizing death._
 
 **Male advanced muck bunyip**
 
-**dv:** 60
-
 **Initiative:** +5
 
 **keenScent:** 180
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 9\
 **Subtype:** Aquatic

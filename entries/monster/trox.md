@@ -35,8 +35,6 @@ from under its rib cage._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -44,6 +42,8 @@ from under its rib cage._
 **Type:** Monstrous humanoid
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 264\
 **Experience points:** 600

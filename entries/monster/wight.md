@@ -31,8 +31,6 @@ sockets glowing with red light._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ sockets glowing with red light._
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 276\
 **Type:** undead

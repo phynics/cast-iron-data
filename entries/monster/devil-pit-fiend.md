@@ -33,8 +33,6 @@ truly horrific appearance._
 
 **aura:** fear (20 ft., DC 23)
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -45,7 +43,7 @@ truly horrific appearance._
 
 **Perception:** +33
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 80\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

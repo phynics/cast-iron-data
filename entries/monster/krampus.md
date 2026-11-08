@@ -43,13 +43,7 @@ its fanged mouth._
 
 **Perception:** +33
 
-**Sense:** Scent
-
-**Senses:** Storm sight
-
-**Senses:** See invisibility
-
-**Sense:** Sid
+**Senses:** Scent, See in darkness, See invisibility, Storm sight
 
 **Sources:** Bestiary 6 pg 178\
 **Experience points:** 409,600

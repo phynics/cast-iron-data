@@ -28,8 +28,6 @@ _This spindly insect, borne aloft on four delicate wings, snaps its mandibles in
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -37,6 +35,8 @@ _This spindly insect, borne aloft on four delicate wings, snaps its mandibles in
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 17, Bonus Bestiary pg 5\
 **Type:** vermin

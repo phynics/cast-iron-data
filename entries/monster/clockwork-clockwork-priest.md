@@ -34,17 +34,15 @@ into its chest._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +10
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 34\
 **Subtype:** Clockwork

@@ -43,17 +43,11 @@ _Green smoke billows from the bared teeth and flared nostrils of this muscular, 
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +22
 
-**Sense:** Scent
-
-**Senses:** Greater arcane sight, See invisibility
-
-**Sense:** Sid
+**Senses:** Greater arcane sight, Low-light vision, Scent, See in darkness, See invisibility
 
 **Sources:** Bestiary 6 pg 281\
 **Subtype:** Wild hunt

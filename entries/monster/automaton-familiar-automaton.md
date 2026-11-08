@@ -33,17 +33,15 @@ glows with a warm light._
 
 **Type:** construct
 
-**dv:** 120
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
 **othersubs:** Automaton
 
 **Perception:** +6
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 24\
 **Subtype:** Extraplanar

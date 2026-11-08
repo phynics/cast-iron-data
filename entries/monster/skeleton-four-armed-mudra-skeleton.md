@@ -28,8 +28,6 @@ _Bones rattle against cracked bones as this ancient, fleshless corpse clatters f
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -37,6 +35,8 @@ _Bones rattle against cracked bones as this ancient, fleshless corpse clatters f
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#44: Trial of the Beast pg 86\
 **Type:** undead

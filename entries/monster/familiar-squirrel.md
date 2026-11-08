@@ -35,11 +35,11 @@ its body._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 207, Animal Archive pg 31\
 **Experience points:** 50

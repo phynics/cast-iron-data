@@ -30,8 +30,6 @@ _This brightly colored crustacean looks like a large lobster with cruel pincers 
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -40,7 +38,7 @@ _This brightly colored crustacean looks like a large lobster with cruel pincers 
 
 **Perception:** +1
 
-**Senses:** Incredible sight
+**Senses:** Darkvision 60 ft., Incredible sight
 
 **Sources:** Bestiary 5 pg 232\
 **Subtype:** Aquatic

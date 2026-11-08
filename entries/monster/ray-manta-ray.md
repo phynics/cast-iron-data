@@ -38,11 +38,11 @@ its wide mouth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 232\
 **Subtype:** Aquatic

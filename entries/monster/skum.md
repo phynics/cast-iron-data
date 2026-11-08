@@ -32,8 +32,6 @@ of a toothy fish._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ of a toothy fish._
 **Type:** Monstrous humanoid
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 253\
 **Subtype:** Aquatic

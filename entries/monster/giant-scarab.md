@@ -29,8 +29,6 @@ and dung._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -38,6 +36,8 @@ and dung._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 221\
 **Type:** vermin

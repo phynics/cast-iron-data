@@ -28,8 +28,6 @@ abilities = ["17", "19", "-", "2", "11", "12"]
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Lifesense:** present
@@ -39,6 +37,8 @@ abilities = ["17", "19", "-", "2", "11", "12"]
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 86\
 **Subtype:** Reptilian

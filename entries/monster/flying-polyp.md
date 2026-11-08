@@ -37,13 +37,13 @@ vortex of sucking wind._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 106, Pathfinder \#65: Into the Nightmare Rift pg 86\
 **Subtype:** Air

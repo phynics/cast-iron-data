@@ -32,8 +32,6 @@ frostbite stretches taught over a misshapen skull crowned with a pair of ivory h
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -42,7 +40,7 @@ frostbite stretches taught over a misshapen skull crowned with a pair of ivory h
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#51: The Hungry Storm pg 90\
 **Experience points:** 9,600

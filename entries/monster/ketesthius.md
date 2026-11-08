@@ -31,19 +31,17 @@ _This enormous wolf-headed sea serpent's maw leads into what seems to be an endl
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +11
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 150\
 **Subtype:** Aquatic

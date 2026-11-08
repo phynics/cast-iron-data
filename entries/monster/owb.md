@@ -32,8 +32,6 @@ clearly revealing its shape._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -44,7 +42,7 @@ clearly revealing its shape._
 
 **Perception:** +13
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 4 pg 210\
 **Subtype:** Extraplanar

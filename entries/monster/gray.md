@@ -30,8 +30,6 @@ _This gray-skinned humanoid has long, willowy limbs and a bulbous head with over
 
 **Challenge rating:** 4
 
-**dv:** 30
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -39,6 +37,8 @@ _This gray-skinned humanoid has long, willowy limbs and a bulbous head with over
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 30 ft.
 
 **Size:** small
 

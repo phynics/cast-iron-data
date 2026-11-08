@@ -35,13 +35,11 @@ back over its neck from its skull._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +24
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 86\
 **Experience points:** 4,800

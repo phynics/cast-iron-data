@@ -36,8 +36,6 @@ weapons and fangs drip with blood._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -46,7 +44,7 @@ weapons and fangs drip with blood._
 
 **Perception:** +40
 
-**Senses:** Detect good
+**Senses:** Darkvision 60 ft., Detect good
 
 **Sources:** Demons Revisited pg 56\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

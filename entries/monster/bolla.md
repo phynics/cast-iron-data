@@ -30,19 +30,17 @@ don't quite touch the ground._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +29
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 88\
 **Experience points:** 38,400

@@ -33,13 +33,11 @@ devil._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 176\
 **Size:** tiny

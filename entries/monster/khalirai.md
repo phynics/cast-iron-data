@@ -36,17 +36,15 @@ _This slender, seductive woman has bone-white skin and an otherworldly beauty._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Fey Revisited pg 38\
 **Experience points:** 51,200

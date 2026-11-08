@@ -38,17 +38,15 @@ serpentine tail._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mythic Adventures pg 205\
 **Subtype:** Mythic, Shapechanger

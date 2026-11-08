@@ -33,8 +33,6 @@ _This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as 
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -43,7 +41,7 @@ _This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as 
 
 **Perception:** +55
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Pathfinder \#73: The Worldwound Incursion pg 84\
 **Experience points:** 3,276,800

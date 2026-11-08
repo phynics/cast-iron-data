@@ -29,8 +29,6 @@ _This pony-sized insect has long black mandibles and a banded abdomen of white._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -39,7 +37,7 @@ _This pony-sized insect has long black mandibles and a banded abdomen of white._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 5 pg 242\
 **tremorsense:** 60

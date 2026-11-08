@@ -29,8 +29,6 @@ _This indistinct figure suddenly takes on a nightmarish shape, not quite human o
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -40,6 +38,8 @@ _This indistinct figure suddenly takes on a nightmarish shape, not quite human o
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 29\
 **Subtype:** Extraplanar, Incorporeal

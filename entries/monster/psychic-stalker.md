@@ -34,8 +34,6 @@ visible through bone._
 
 **aura:** [mental static](ref/umr/mental-static-aura) (30 ft., DC 20)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -43,6 +41,8 @@ visible through bone._
 **Alignment:** Neutral evil
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 216, Occult Bestiary pg 45\
 **Subtype:** Incorporeal

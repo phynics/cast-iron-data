@@ -32,8 +32,6 @@ abilities = ["6", "22", "13", "16", "10", "8"]
 
 **Goblin [alchemist](ref/class/alchemist) 7**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
@@ -41,6 +39,8 @@ abilities = ["6", "22", "13", "16", "10", "8"]
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

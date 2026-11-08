@@ -35,17 +35,15 @@ four legs and has a strange bell-shaped head._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 84\
 **Subtype:** Robot

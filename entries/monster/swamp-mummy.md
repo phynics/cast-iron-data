@@ -31,8 +31,6 @@ sockets._
 
 **aura:** drowning (30 ft., DC 15), [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ sockets._
 **Size:** medium
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 178\
 **Type:** undead

@@ -33,8 +33,6 @@ from his eye sockets, yet his expression is one of unquenched rage._
 
 **aura:** desecration (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ from his eye sockets, yet his expression is one of unquenched rage._
 
 **Perception:** +20
 
-**Senses:** Detect good, See invisibility
+**Senses:** Darkvision 60 ft., Detect good, See invisibility
 
 **Sources:** Pathfinder \#100: A Song of Silver pg 116, Bestiary 6 pg 154\
 **Type:** undead

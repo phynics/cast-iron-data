@@ -31,15 +31,13 @@ back that spews clouds of spores._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +10
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

@@ -37,17 +37,15 @@ split by a wide, toothy mouth._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 235, Pathfinder \#60: From Hell's Heart pg 90\
 **Subtype:** Aquatic

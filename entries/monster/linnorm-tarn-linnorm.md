@@ -32,25 +32,17 @@ seethe with acid and poison._
 
 **Challenge rating:** 20
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
 
 **Size:** colossal
 
 **Type:** dragon
 
-**dv:** 120
-
 **Initiative:** +12
-
-**Sense:** Llv
 
 **Perception:** +40
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** All-around vision, Darkvision 120 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 192\
 **Subtype:** Aquatic

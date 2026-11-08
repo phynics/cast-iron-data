@@ -34,13 +34,13 @@ _This maggot-like creature has a long tail covered with frightening hooked sucke
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 136, The Worldwound pg 55\
 **Subtype:** Extraplanar

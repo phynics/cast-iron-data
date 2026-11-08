@@ -37,11 +37,11 @@ leaves and blossoms._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 116\
 **Experience points:** 800

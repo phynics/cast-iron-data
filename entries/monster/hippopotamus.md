@@ -36,13 +36,11 @@ challenge, exposing massive, tusk-like teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Heart of the Jungle pg 60, Bestiary 2 pg 157\
 **Experience points:** 1,600

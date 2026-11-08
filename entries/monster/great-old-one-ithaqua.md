@@ -37,21 +37,15 @@ fangs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +24
-
-**Sense:** Llv
 
 **Type:** Monstrous humanoid
 
 **Perception:** +45
 
-**Senses:** Snow vision
-
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Snow vision, True seeing
 
 **Sources:** Pathfinder \#109: In Search of Sanity pg 82\
 **Subtype:** Air, Chaotic, Cold, Evil, Great Old One

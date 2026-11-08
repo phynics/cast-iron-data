@@ -31,11 +31,7 @@ _This oversized house cat has two twitching tails and a malevolent gleam in its 
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -45,7 +41,7 @@ _This oversized house cat has two twitching tails and a malevolent gleam in its 
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 201\
 **Subtype:** Shapechanger

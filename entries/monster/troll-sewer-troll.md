@@ -33,19 +33,15 @@ its large eyes glow with inner light._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Monster Codex pg 232\
 **Subtype:** Giant

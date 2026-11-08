@@ -32,8 +32,6 @@ wings fill the air with a dreadful drone even when the creature is still._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -44,9 +42,7 @@ wings fill the air with a dreadful drone even when the creature is still._
 
 **Perception:** +21
 
-**Senses:** Detect good, Detect magic
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
 **Sources:** Pathfinder \#113: What Grows Within pg 84\
 **Subtype:** Div, Evil, Extraplanar

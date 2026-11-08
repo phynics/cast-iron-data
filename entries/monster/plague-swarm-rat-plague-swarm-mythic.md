@@ -37,19 +37,15 @@ deities._
 
 **Mythic rank:** 8
 
-**dv:** 60
-
 **Initiative:** +16/-4, [dual initiative](ref/umr/dual-initiative)
 
 **Alignment:** Lawful evil
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +23
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 192\
 **Subtype:** Mythic, Swarm

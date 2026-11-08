@@ -33,8 +33,6 @@ present, or a possible future._
 
 **aura:** temporal dilation (30 ft.)
 
-**dv:** 120
-
 **Initiative:** +9; omniobservant
 
 **Size:** large
@@ -44,6 +42,8 @@ present, or a possible future._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 90\
 **Subtype:** Extraplanar

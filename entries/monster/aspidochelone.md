@@ -36,17 +36,15 @@ plunging beneath the waves._
 
 **Size:** colossal
 
-**dv:** 120
-
 **Initiative:** -3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** -2
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 78\
 **Subtype:** Aquatic

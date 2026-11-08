@@ -32,11 +32,7 @@ greatsword._
 
 **aura:** protective aura
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,7 +42,7 @@ greatsword._
 
 **Perception:** +26
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Sources:** Bestiary 2 pg 28\
 **Subtype:** Angel, Extraplanar, Good

@@ -34,15 +34,13 @@ and jagged teeth lend rodent-like qualities to the imposing war beast._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#119: Prisoners of the Blight pg 88\
 **Experience points:** 600

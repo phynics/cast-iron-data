@@ -33,15 +33,13 @@ set with pale fungal teeth._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

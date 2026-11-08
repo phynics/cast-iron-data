@@ -35,11 +35,7 @@ apparent mechanism._
 
 **Type:** construct
 
-**dv:** 120
-
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -49,7 +45,7 @@ apparent mechanism._
 
 **Perception:** +27
 
-**Senses:** See invisibility
+**Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
 **Sources:** Construct Handbook pg 28\
 **Subtype:** Extraplanar

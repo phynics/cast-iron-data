@@ -32,17 +32,15 @@ _This incredibly handsome man's pointed ears and otherworldly grace betray an in
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 38\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

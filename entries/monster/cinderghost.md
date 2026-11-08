@@ -30,8 +30,6 @@ unblinking eyes that flicker like dying embers._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -39,6 +37,8 @@ unblinking eyes that flicker like dying embers._
 **Alignment:** Neutral evil
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planes of Power pg 53\
 **Subtype:** Extraplanar, Fire, Incorporeal

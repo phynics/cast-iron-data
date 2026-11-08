@@ -33,8 +33,6 @@ white robes contrast starkly with its black feathers, and its willow staff sheds
 
 **aura:** aura of menace (DC 18)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Lawful good
@@ -45,7 +43,7 @@ white robes contrast starkly with its black feathers, and its willow staff sheds
 
 **Perception:** +16
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil
 
 **Sources:** Heaven Unleashed pg 21\
 **Subtype:** Archon, Extraplanar, Good, Lawful

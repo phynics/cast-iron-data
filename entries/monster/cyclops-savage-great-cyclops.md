@@ -43,9 +43,9 @@ in his single, rage-filled eye._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#58: Island of Empty Eyes pg 72\
 **Subtype:** Giant

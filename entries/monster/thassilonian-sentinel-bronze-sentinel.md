@@ -33,15 +33,13 @@ legs, its eyes intermittently shining with an orange glow._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

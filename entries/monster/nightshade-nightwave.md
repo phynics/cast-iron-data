@@ -36,17 +36,11 @@ island heaved up from below._
 
 **Size:** colossal
 
-**dv:** 120
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Perception:** +37
 
-**Senses:** Darksense
-
-**Senses:** Detect magic
+**Senses:** Darksense, Darkvision 120 ft., Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 202\
 **Subtype:** Aquatic, Extraplanar, Nightshade

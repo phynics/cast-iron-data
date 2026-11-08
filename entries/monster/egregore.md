@@ -34,8 +34,6 @@ impression of an open eye floats before it._
 
 **aura:** [mental static](ref/umr/mental-static-aura) (30 ft., DC 22)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,6 +43,8 @@ impression of an open eye floats before it._
 **Alignment:** Neutral
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 104\
 **Experience points:** 9,600

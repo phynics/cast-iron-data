@@ -29,8 +29,6 @@ _This great serpent has multicolored wings and eyes that glimmer with intense aw
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -41,7 +39,7 @@ _This great serpent has multicolored wings and eyes that glimmer with intense aw
 
 **Perception:** +23
 
-**Senses:** Detect chaos/evil/good/law
+**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
 
 **Sources:** Pathfinder RPG Bestiary pg 49\
 **Subtype:** Native

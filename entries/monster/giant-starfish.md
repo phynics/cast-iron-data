@@ -31,8 +31,6 @@ ridged hide._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -40,6 +38,8 @@ ridged hide._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 257\
 **Subtype:** Aquatic

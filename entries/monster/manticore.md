@@ -30,21 +30,17 @@ ends in long, sharp spikes._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 199\
 **Experience points:** 1,600

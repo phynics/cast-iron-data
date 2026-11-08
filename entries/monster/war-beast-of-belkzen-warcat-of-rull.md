@@ -35,13 +35,11 @@ segmented plates._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 63\
 **Experience points:** 25,600

@@ -31,8 +31,6 @@ a hideous, twitching beard._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ a hideous, twitching beard._
 
 **Perception:** +10
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 73\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

@@ -34,11 +34,11 @@ serpent ready to strike._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

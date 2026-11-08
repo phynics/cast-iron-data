@@ -40,11 +40,11 @@ mouth filled with sharp teeth._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 202\
 **Subtype:** Reptilian, Shapechanger

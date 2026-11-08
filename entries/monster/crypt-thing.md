@@ -32,17 +32,15 @@ deep in its eye sockets._
 
 **aura:** fear (10 ft., frightened for 1d4 rounds, Will DC 16 negates)
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 60\
 **Type:** undead

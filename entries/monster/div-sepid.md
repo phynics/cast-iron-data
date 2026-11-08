@@ -31,8 +31,6 @@ _Twice the height of a human, this horned monstrous warrior wields a massive bla
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -43,7 +41,7 @@ _Twice the height of a human, this horned monstrous warrior wields a massive bla
 
 **Perception:** +22
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 3 pg 89, Pathfinder \#23: The Impossible Eye pg 84\
 **Subtype:** Div, Evil, Extraplanar

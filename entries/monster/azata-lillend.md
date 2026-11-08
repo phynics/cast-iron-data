@@ -33,17 +33,15 @@ from the waist down._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 26\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

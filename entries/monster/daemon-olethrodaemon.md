@@ -34,8 +34,6 @@ stout legs._
 
 **aura:** unholy aura
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +12
@@ -46,7 +44,7 @@ stout legs._
 
 **Perception:** +31
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 2 pg 70\
 **Subtype:** Daemon, Evil, Extraplanar

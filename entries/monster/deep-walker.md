@@ -33,8 +33,6 @@ _This armor-plated creature has four crab-like legs and four arms with razor-sha
 
 **Type:** aberration
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +7
@@ -42,6 +40,8 @@ _This armor-plated creature has four crab-like legs and four arms with razor-sha
 **Alignment:** Lawful evil
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 82\
 **Subtype:** Aquatic

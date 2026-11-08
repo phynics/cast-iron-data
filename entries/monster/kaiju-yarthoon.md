@@ -38,15 +38,11 @@ amid a ring of glowing eyes._
 
 **Initiative:** +13
 
-**Sense:** Llv
-
 **Type:** Magical beast
-
-**Sense:** Mistsight
 
 **Perception:** +28
 
-**Sense:** Sid
+**Senses:** Low-light vision, Mistsight, See in darkness
 
 **Sources:** Bestiary 6 pg 174\
 **Subtype:** Air, Kaiju

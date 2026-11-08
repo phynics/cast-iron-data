@@ -33,17 +33,15 @@ mold-streaked body. His beady eyes burn with paranoia and malice._
 
 **aura:** putrefying aura (30 ft., DC 18)
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

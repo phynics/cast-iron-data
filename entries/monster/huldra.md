@@ -31,21 +31,15 @@ _This woman's fox-like tail and the wood-lined hollow inside her back reveal her
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Perception:** +12
 
-**Sense:** Scent
-
-**Senses:** Detect snares and pits
+**Senses:** Darkvision 60 ft., Detect snares and pits, Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 151, Lands of the Linnorm Kings pg 59\
 **Experience points:** 1,200

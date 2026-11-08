@@ -36,13 +36,13 @@ hooves._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -31,13 +31,9 @@ splayed fins rather than hooves._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -45,7 +41,7 @@ splayed fins rather than hooves._
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 155\
 **Subtype:** Aquatic

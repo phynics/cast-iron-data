@@ -36,13 +36,11 @@ form glows bright with an inner fire._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 200\
 **Subtype:** Fire

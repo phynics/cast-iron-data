@@ -35,21 +35,19 @@ vine._
 
 **aura:** green caress (60 ft., DC 36)
 
-**dv:** 60
-
 **greensight:** 60
 
 **Initiative:** +14
 
 **Lifesense:** present
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

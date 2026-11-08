@@ -37,8 +37,6 @@ demonic face._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +9
@@ -46,6 +44,8 @@ demonic face._
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Darklands Revisited pg 9\
 **Subtype:** Elf

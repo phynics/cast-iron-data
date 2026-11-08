@@ -34,13 +34,9 @@ body._
 
 **aura:** fear (30 ft., DC 32)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +16
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
@@ -48,9 +44,7 @@ body._
 
 **Perception:** +37
 
-**Senses:** Spiritsense
-
-**Senses:** Detect thoughts, True seeing
+**Senses:** Darkvision 60 ft., Detect thoughts, Low-light vision, Spiritsense, True seeing
 
 **Sources:** Bestiary 4 pg 222, Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Extraplanar, Psychopomp

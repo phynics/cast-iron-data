@@ -34,19 +34,15 @@ piercing blue eyes._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +16
 
-**Senses:** Detect poison
+**Senses:** Darkvision 60 ft., Detect poison, Low-light vision
 
 **Sources:** Bestiary 6 pg 259\
 **Subtype:** Aquatic

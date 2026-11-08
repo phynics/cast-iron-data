@@ -32,11 +32,7 @@ _This gaunt man appears drained of color, like a person viewed at twilight or in
 
 **Fetchling [rogue](ref/class/rogue) 1**
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -45,6 +41,8 @@ _This gaunt man appears drained of color, like a person viewed at twilight or in
 **Type:** outsider
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 123\
 **Subtype:** Native

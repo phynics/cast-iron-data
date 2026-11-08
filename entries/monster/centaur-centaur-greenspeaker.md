@@ -34,8 +34,6 @@ carries a variety of wands and talismans in addition to his weapons._
 
 **Centaur [shaman](ref/class/shaman) 2**
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -45,6 +43,8 @@ carries a variety of wands and talismans in addition to his weapons._
 **Alignment:** Neutral good
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 6\
 **Experience points:** 1,200

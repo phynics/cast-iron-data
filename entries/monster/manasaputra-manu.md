@@ -33,8 +33,6 @@ strangely familiar._
 
 **aura:** unity (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful good
@@ -44,6 +42,8 @@ strangely familiar._
 **Type:** outsider
 
 **Perception:** +25
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 163\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra

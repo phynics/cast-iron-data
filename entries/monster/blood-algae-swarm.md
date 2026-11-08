@@ -34,11 +34,11 @@ _An oily substance in the water surrounds this seething red mass of worm-like lu
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

@@ -41,7 +41,7 @@ end in razor-sharp claws._
 
 **Perception:** +15
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Rise of the Runelords Anniversary Edition pg 409, Pathfinder \#4: Fortress of the Stone
 Giants pg 86\

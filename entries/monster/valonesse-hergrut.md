@@ -43,9 +43,9 @@ wields a massive, ice-encrusted battleaxe._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +29
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 26\
 **Subtype:** Cold, Giant

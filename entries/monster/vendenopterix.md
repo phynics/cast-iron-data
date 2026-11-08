@@ -33,17 +33,15 @@ _This elven woman's allure is obfuscated by her ragged insectile wings and long,
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 281\
 **Subtype:** Chaotic, Extraplanar, Shapechanger

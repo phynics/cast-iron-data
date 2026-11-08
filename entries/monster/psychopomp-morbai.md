@@ -31,11 +31,7 @@ opposite sides of her head._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
@@ -43,7 +39,7 @@ opposite sides of her head._
 
 **Perception:** +14 (+18 on sight-based checks)
 
-**Senses:** Spiritsense
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
 **Size:** small
 

@@ -30,8 +30,6 @@ _This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -39,6 +37,8 @@ _This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 50\
 **Subtype:** Aquatic

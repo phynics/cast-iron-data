@@ -30,23 +30,17 @@ grace._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +17
 
-**Sense:** Scent
-
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 168\
 **Subtype:** Air

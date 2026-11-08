@@ -36,15 +36,13 @@ pockmarked with coal-like scales and metallic piercings, and it carries a fearso
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
 
 **Perception:** +28
 
-**Senses:** Smoke vision
+**Senses:** Darkvision 60 ft., Smoke vision
 
 **Sources:** Pathfinder \#138: Rise of New Thassilon pg 84\
 **Subtype:** Extraplanar, Fire

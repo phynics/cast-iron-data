@@ -32,11 +32,11 @@ _This magnificent bird of prey has dark feathers save for those on its head, whi
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Size:** small
 

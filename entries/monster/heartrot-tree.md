@@ -36,11 +36,11 @@ _Fungus drips from this grotesque tree's ridged bark as its branches wave like b
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

@@ -34,17 +34,11 @@ tail has a silvery sheen._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Perception:** +7
 
-**Sense:** Scent
-
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
 
 **Sources:** Curse of the Crimson Throne pg 474\
 **Size:** tiny

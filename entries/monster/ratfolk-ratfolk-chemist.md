@@ -35,8 +35,6 @@ tail._
 
 **Ratfolk [alchemist](ref/class/alchemist) 8**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +9
@@ -44,6 +42,8 @@ tail._
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

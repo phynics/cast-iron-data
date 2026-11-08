@@ -36,17 +36,15 @@ long, graceful fingers._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#68: The Shackled Hut pg 86\
 **Subtype:** Extraplanar

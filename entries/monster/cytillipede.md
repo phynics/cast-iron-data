@@ -30,8 +30,6 @@ venom drips from its mandibles._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -41,6 +39,8 @@ venom drips from its mandibles._
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 65, No Response from Deepmar pg 29\
 **Experience points:** 2,400

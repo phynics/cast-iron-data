@@ -31,19 +31,17 @@ considerable size._
 
 **Challenge rating:** 10
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 280\
 **Subtype:** Aquatic

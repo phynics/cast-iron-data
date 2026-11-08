@@ -36,11 +36,11 @@ blood-red globules that appear on the brink of rupturing._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

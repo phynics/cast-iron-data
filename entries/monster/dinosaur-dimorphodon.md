@@ -34,15 +34,13 @@ with tiny sharp teeth._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 58, Pathfinder \#37: Souls for Smuggler's Shiv pg 82\
 **Experience points:** 400

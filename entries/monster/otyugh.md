@@ -31,8 +31,6 @@ extend from its sides._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -41,7 +39,7 @@ extend from its sides._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 223\
 **Experience points:** 1,200

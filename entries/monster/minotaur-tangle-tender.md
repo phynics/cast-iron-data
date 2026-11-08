@@ -33,8 +33,6 @@ belt, not the least of which is its mechanical monstrosity of a crossbow._
 
 **Minotaur [rogue](ref/class/rogue) ([trapsmith](ref/arc-rogue/trapsmith)) 8**
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -44,6 +42,8 @@ belt, not the least of which is its mechanical monstrosity of a crossbow._
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 44\
 **Experience points:** 9,600

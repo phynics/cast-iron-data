@@ -33,8 +33,6 @@ shadowed eye sockets._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -42,6 +40,8 @@ shadowed eye sockets._
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#28: The Infernal Syndrome pg 88\
 **Type:** undead

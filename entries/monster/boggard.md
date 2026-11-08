@@ -33,19 +33,17 @@ decorate its greenish skin._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Size:** medium
 
 **othersubs:** Boggard
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 37, Pathfinder \#2: The Skinsaw Murders pg 84\
 **Experience points:** 600

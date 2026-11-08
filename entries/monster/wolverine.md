@@ -34,15 +34,13 @@ yellow teeth._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 279\
 **Experience points:** 600

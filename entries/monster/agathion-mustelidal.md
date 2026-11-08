@@ -34,11 +34,7 @@ strike at a moment's notice._
 
 **aura:** protective aura (20 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -47,6 +43,8 @@ strike at a moment's notice._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 84\
 **Subtype:** Agathion, Extraplanar, Good

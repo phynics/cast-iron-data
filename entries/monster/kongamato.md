@@ -33,17 +33,15 @@ scream as it descends._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 169\
 **Experience points:** 51,200

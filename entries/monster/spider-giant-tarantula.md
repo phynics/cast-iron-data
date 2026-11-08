@@ -30,8 +30,6 @@ scanning for prey._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +1
@@ -39,6 +37,8 @@ scanning for prey._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 256\
 **tremorsense:** 60

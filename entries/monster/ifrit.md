@@ -32,8 +32,6 @@ _This muscular, fiery-skinned man has flaming hair and spotted horns upon his br
 
 **Ifrit [sorcerer](ref/class/sorcerer) 1**
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -43,6 +41,8 @@ _This muscular, fiery-skinned man has flaming hair and spotted horns upon his br
 **Type:** outsider
 
 **Perception:** -2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 160\
 **Subtype:** Native

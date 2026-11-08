@@ -34,13 +34,11 @@ with dark brown eyes._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

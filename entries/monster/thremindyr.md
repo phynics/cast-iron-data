@@ -35,8 +35,6 @@ _Blustering winds and snow swirl around this white, almost transparent fey-like 
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -45,7 +43,7 @@ _Blustering winds and snow swirl around this white, almost transparent fey-like 
 
 **Perception:** +15
 
-**Senses:** Sense protection
+**Senses:** Darkvision 60 ft., Sense protection
 
 **Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 90\
 **Subtype:** Air, Cold, Native

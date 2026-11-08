@@ -32,13 +32,13 @@ _This disembodied phantom wears black robes that swirl around a maw of sharp tee
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 124\
 **Subtype:** Incorporeal

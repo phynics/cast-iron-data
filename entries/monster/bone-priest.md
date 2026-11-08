@@ -30,8 +30,6 @@ blue light dances in its empty eye sockets._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -39,6 +37,8 @@ blue light dances in its empty eye sockets._
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** The Emerald Spire Superdungeon pg 152\
 **Type:** undead

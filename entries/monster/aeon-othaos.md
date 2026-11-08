@@ -32,8 +32,6 @@ darkness._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -44,7 +42,7 @@ darkness._
 
 **Perception:** +12
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 5 pg 10\
 **Subtype:** Aeon, Extraplanar

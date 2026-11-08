@@ -31,8 +31,6 @@ _The strength and stature of this giant-sized human is matched only by the nobil
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -42,6 +40,8 @@ _The strength and stature of this giant-sized human is matched only by the nobil
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 200, Pathfinder \#23: The Impossible Eye pg 88\
 **Subtype:** Native

@@ -37,13 +37,13 @@ fanged, lipless mouth._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Size:** medium
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 199\
 **Subtype:** Reptilian

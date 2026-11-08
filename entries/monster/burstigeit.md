@@ -30,13 +30,9 @@ its horns had broken off in battle._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ its horns had broken off in battle._
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 84\
 **Experience points:** 800

@@ -36,13 +36,11 @@ sweeping back from its skull._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 59\
 **Experience points:** 1,600

@@ -33,8 +33,6 @@ eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe._
 
 **aura:** dance of death (40 ft., DC 27)
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -44,6 +42,8 @@ eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe._
 **Alignment:** Neutral evil
 
 **Perception:** +29
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Curse of the Crimson Throne pg 470, Pathfinder \#11: Skeletons of Scarwall pg 80\
 **Subtype:** Incorporeal

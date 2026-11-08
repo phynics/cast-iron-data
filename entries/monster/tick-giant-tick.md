@@ -28,15 +28,13 @@ _This dog-sized tick has a grotesquely bulbous body and a thin head equipped wit
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Size:** small
 

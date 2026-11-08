@@ -33,11 +33,7 @@ mirrors._
 
 **Challenge rating:** 17
 
-**dv:** 60
-
 **Initiative:** +24
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -47,9 +43,7 @@ mirrors._
 
 **Perception:** +30
 
-**Senses:** Spiritsense
-
-**Senses:** Discern next of kin, True seeing
+**Senses:** Darkvision 60 ft., Discern next of kin, Low-light vision, Spiritsense, True seeing
 
 **Sources:** Bestiary 6 pg 220\
 **Subtype:** Extraplanar, Psychopomp

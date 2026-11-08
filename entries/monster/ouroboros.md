@@ -38,17 +38,15 @@ serpents with countless hissing jaws._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +12
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 206\
 **Subtype:** Extraplanar

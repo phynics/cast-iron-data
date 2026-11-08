@@ -31,13 +31,9 @@ _This lanky ebon humanoid has bat-like wings, horns, and a long prehensile tail,
 
 **Challenge rating:** 4
 
-**Sense:** Aav
-
 **blindsight:** 60
 
 **Alignment:** Chaotic neutral
-
-**dv:** 60
 
 **Initiative:** +6
 
@@ -46,6 +42,8 @@ _This lanky ebon humanoid has bat-like wings, horns, and a long prehensile tail,
 **Type:** Monstrous humanoid
 
 **Perception:** +6
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 203, Pathfinder \#65: Into the Nightmare Rift pg 90\
 **Subtype:** Extraplanar

@@ -35,9 +35,9 @@ hands, and a mischievous grin._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** -1
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 80\
 **Size:** tiny

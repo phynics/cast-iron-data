@@ -36,8 +36,6 @@ spraying blood._
 
 **blindsense:** 200
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -47,6 +45,8 @@ spraying blood._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#106: For Queen and Empire pg 88\
 **Subtype:** Daemon, Evil, Extraplanar

@@ -32,8 +32,6 @@ hollow pits for eyes._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
@@ -41,6 +39,8 @@ hollow pits for eyes._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

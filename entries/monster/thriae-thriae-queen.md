@@ -30,13 +30,9 @@ the wings of a bee._
 
 **Challenge rating:** 18
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -44,7 +40,7 @@ the wings of a bee._
 
 **Perception:** +37
 
-**Senses:** Detect secret doors, True seeing
+**Senses:** Darkvision 60 ft., Detect secret doors, Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 267\
 **Experience points:** 153,600

@@ -32,17 +32,15 @@ _This impassive humanoid has shiny, pale skin and an eerily expressionless face.
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Numeria, Land of Fallen Stars pg 57\
 **Subtype:** Robot

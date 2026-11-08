@@ -37,11 +37,11 @@ long, toothed mouth as it lunges forward._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#58: Island of Empty Eyes pg 85\
 **Experience points:** 1,600

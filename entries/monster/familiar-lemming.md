@@ -34,11 +34,11 @@ _This small, plump rodent has a calico mix of color and a short tail._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 200, Reign of Winter Player's Guide pg 10\
 **Experience points:** 50

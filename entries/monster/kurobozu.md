@@ -30,8 +30,6 @@ _The mouth of this gray-skinned, emaciated monk is a distended, hollow pit of da
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -39,6 +37,8 @@ _The mouth of this gray-skinned, emaciated monk is a distended, hollow pit of da
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 153\
 **Type:** undead

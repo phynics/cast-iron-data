@@ -31,8 +31,6 @@ abilities = ["11", "10", "13", "10", "11", "10"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -40,6 +38,8 @@ abilities = ["11", "10", "13", "10", "11", "10"]
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#76: The Midnight Isles pg 69\
 **Subtype:** Extraplanar

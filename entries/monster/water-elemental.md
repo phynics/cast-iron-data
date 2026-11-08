@@ -29,8 +29,6 @@ _This translucent creature's shape shifts between a spinning column of water and
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral
@@ -38,6 +36,8 @@ _This translucent creature's shape shifts between a spinning column of water and
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -132,8 +132,6 @@ out of water.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -143,6 +141,8 @@ out of water.
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 126\
 **Subtype:** Elemental, Extraplanar, Water
@@ -190,8 +190,6 @@ out of water.
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -201,6 +199,8 @@ out of water.
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 126\
 **Subtype:** Elemental, Extraplanar, Water
@@ -254,8 +254,6 @@ out of water.
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -265,6 +263,8 @@ out of water.
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 126\
 **Subtype:** Elemental, Extraplanar, Water
@@ -318,8 +318,6 @@ Swim +26
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -329,6 +327,8 @@ Swim +26
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 127\
 **Subtype:** Elemental, Extraplanar, Water
@@ -383,8 +383,6 @@ Swim +30
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -394,6 +392,8 @@ Swim +30
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 127\
 **Subtype:** Elemental, Extraplanar, Water

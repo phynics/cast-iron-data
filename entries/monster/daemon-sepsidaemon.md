@@ -33,8 +33,6 @@ and then, a grasping claw extends forth._
 
 **aura:** septic wounds (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -45,7 +43,7 @@ and then, a grasping claw extends forth._
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Book of the Damned pg 243\
 **Subtype:** Daemon, Evil, Extraplanar

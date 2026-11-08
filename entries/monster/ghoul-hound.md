@@ -32,13 +32,13 @@ yellowed._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **source:** Monster Codex/88;Pathfinder Comics \#3/33
 

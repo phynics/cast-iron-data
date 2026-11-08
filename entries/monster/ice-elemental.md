@@ -31,8 +31,6 @@ slithering tail._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Alignment:** Neutral
@@ -41,7 +39,7 @@ slithering tail._
 
 **Perception:** +5
 
-**Senses:** Snow vision
+**Senses:** Darkvision 60 ft., Snow vision
 
 **Size:** small
 
@@ -130,8 +128,6 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -142,7 +138,7 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Perception:** +7
 
-**Senses:** Snow vision
+**Senses:** Darkvision 60 ft., Snow vision
 
 **Sources:** Bestiary 2 pg 114\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
@@ -193,8 +189,6 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -205,7 +199,7 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Perception:** +11
 
-**Senses:** Snow vision
+**Senses:** Darkvision 60 ft., Snow vision
 
 **Sources:** Bestiary 2 pg 114\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
@@ -262,8 +256,6 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -274,7 +266,7 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Perception:** +13
 
-**Senses:** Snow vision
+**Senses:** Darkvision 60 ft., Snow vision
 
 **Sources:** Bestiary 2 pg 114\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
@@ -331,8 +323,6 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
@@ -343,7 +333,7 @@ the open sky. Ice elementals vary in their exact appearance.
 
 **Perception:** +16
 
-**Senses:** Snow vision
+**Senses:** Darkvision 60 ft., Snow vision
 
 **Sources:** Bestiary 2 pg 115\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water
@@ -402,8 +392,6 @@ Swim +17
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -414,7 +402,7 @@ Swim +17
 
 **Perception:** +19
 
-**Senses:** Snow vision
+**Senses:** Darkvision 60 ft., Snow vision
 
 **Sources:** Bestiary 2 pg 115\
 **Subtype:** Air, Cold, Elemental, Extraplanar, Water

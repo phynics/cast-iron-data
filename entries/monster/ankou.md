@@ -40,9 +40,9 @@ _Cloaked by wings of darkness, this horrific, skeletal creature appears to burn 
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 10, Pathfinder \#36: Sound of a Thousand Screams pg 80\
 **Subtype:** Extraplanar

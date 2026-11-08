@@ -34,11 +34,7 @@ intoxicated._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,7 +42,7 @@ intoxicated._
 
 **Perception:** +8
 
-**Senses:** Detect poison
+**Senses:** Darkvision 60 ft., Detect poison, Low-light vision
 
 **Sources:** Bestiary 3 pg 259\
 **Subtype:** Shapechanger

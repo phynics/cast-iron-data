@@ -29,8 +29,6 @@ _An elephantine centipede scurries about, its double tail lashing angrily behind
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +0
@@ -38,6 +36,8 @@ _An elephantine centipede scurries about, its double tail lashing angrily behind
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 53\
 **Type:** vermin

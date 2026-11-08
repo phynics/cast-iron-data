@@ -31,11 +31,7 @@ proboscis._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -43,7 +39,7 @@ proboscis._
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 260\
 **Size:** tiny

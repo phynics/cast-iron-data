@@ -32,21 +32,17 @@ wings._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +28
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 34\
 **Subtype:** Archon, Extraplanar, Good, Lawful

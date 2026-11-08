@@ -35,15 +35,13 @@ centaurian fusion of drow and spider._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +2
 
 **Size:** large
 
 **Perception:** +15
 
-**Senses:** Detect good, Detect law, Detect magic
+**Senses:** Darkvision 120 ft., Detect good, Detect law, Detect magic
 
 **Sources:** Pathfinder RPG Bestiary pg 113\
 **Experience points:** 3,200

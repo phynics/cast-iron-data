@@ -29,21 +29,17 @@ wise-looking human._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +20
 
-**Senses:** Detect chaos, Detect evil, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 2543\
 **Experience points:** 6,400

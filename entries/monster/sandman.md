@@ -33,8 +33,6 @@ figure._
 
 **aura:** sleep (20 ft., DC 14)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -44,6 +42,8 @@ figure._
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 236\
 **Subtype:** Earth, Elemental, Extraplanar

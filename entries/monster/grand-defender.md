@@ -34,17 +34,15 @@ large shield bearing Torag's symbol._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#62: Curse of the Lady's Light pg 88\
 **Subtype:** Extraplanar

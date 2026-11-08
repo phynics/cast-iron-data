@@ -32,13 +32,9 @@ _This beast has the general size and shape of a great bear, yet the head and fea
 
 **Mythic rank:** 2
 
-**dv:** 60
-
 **Initiative:** +7, Mythic Improved Initiative
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -46,7 +42,7 @@ _This beast has the general size and shape of a great bear, yet the head and fea
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 213\
 **Subtype:** Mythic

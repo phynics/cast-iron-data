@@ -33,8 +33,6 @@ elbow, and an eye on each of its eight palms._
 
 **Challenge rating:** 18
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -44,6 +42,8 @@ elbow, and an eye on each of its eight palms._
 **Type:** outsider
 
 **Perception:** +34
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 8\
 **Subtype:** Aeon, Extraplanar

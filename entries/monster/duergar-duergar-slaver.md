@@ -31,8 +31,6 @@ abilities = ["13", "15", "12", "12", "16", "4"]
 
 **Duergar [rogue](ref/class/rogue) 1**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +6
@@ -42,6 +40,8 @@ abilities = ["13", "15", "12", "12", "16", "4"]
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 47\
 **Subtype:** Dwarf

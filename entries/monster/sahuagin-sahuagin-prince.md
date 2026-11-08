@@ -35,8 +35,6 @@ abilities = ["20", "16", "20", "13", "12", "10"]
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -46,6 +44,8 @@ abilities = ["20", "16", "20", "13", "12", "10"]
 **Type:** Monstrous humanoid
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 195\
 **Subtype:** Aquatic

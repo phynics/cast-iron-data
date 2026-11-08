@@ -33,23 +33,15 @@ allow the creature to fly._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +19
 
-**Sense:** Scent
-
-**Senses:** Detect scrying
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect scrying, Low-light vision, Scent, See in darkness
 
 **Sources:** Pathfinder \#113: What Grows Within pg 88\
 **Experience points:** 38,400

@@ -39,21 +39,16 @@ with twinkling stars._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +19
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +50
 
-**Senses:** Detect aberration, Detect evil, Detect law, True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect aberration, Detect evil, Detect law, Low-light vision, See in
+darkness, True seeing
 
 **Sources:** Bestiary 6 pg 112\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

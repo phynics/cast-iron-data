@@ -32,15 +32,13 @@ tongue drags on the ground beneath it._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Size:** small
 

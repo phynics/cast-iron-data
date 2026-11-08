@@ -31,17 +31,15 @@ tentacles connected by a fleshy web._
 
 **blindsight:** 90
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

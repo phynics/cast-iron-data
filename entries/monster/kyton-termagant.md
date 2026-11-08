@@ -31,8 +31,6 @@ tentacles._
 
 **Challenge rating:** 17
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -42,6 +40,8 @@ tentacles._
 **Type:** outsider
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Bestiary pg 24\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

@@ -31,8 +31,6 @@ abilities = ["17", "10", "16", "10", "15", "4"]
 
 **Duergar [fighter](ref/class/fighter) 2**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +0
@@ -42,6 +40,8 @@ abilities = ["17", "10", "16", "10", "15", "4"]
 **Alignment:** Lawful evil
 
 **Perception:** +2
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 50\
 **Subtype:** Dwarf

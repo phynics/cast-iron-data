@@ -32,23 +32,19 @@ articulated metal lash._
 
 **Challenge rating:** 7
 
-**Sense:** Aav
-
 **aura:** aura of command (30 ft.)
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#123: The Flooded Cathedral pg 86\
 **Subtype:** Clockwork

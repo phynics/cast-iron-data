@@ -31,19 +31,17 @@ stones, a few of which glint with traces of gold._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 88\
 **Subtype:** Aquatic

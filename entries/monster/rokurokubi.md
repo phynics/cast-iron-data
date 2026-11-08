@@ -33,8 +33,6 @@ teeth filling her gaping maw._
 
 **aura:** nightfall (15 ft.)
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful evil
@@ -44,6 +42,8 @@ teeth filling her gaping maw._
 **Type:** Monstrous humanoid
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 227, Pathfinder \#54: The Empty Throne pg 90\
 **Experience points:** 38,400

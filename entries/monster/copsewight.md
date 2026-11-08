@@ -32,17 +32,15 @@ and covered in splotches of black rot._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#119: Prisoners of the Blight pg 80\
 **Type:** undead

@@ -34,13 +34,13 @@ to take in everything around it._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 240, Pathfinder \#97: In Hell's Bright Shadow pg 82\
 **Experience points:** 400

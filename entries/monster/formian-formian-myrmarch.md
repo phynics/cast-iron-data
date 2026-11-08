@@ -34,8 +34,6 @@ intelligence and confidence._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +8 (+12 with hive mind)
 
 **Size:** large
@@ -46,7 +44,7 @@ intelligence and confidence._
 
 **Perception:** +18 (+22 with hive mind)
 
-**Senses:** Hive mind
+**Senses:** Darkvision 60 ft., Hive mind
 
 **Sources:** Bestiary 4 pg 109\
 **Experience points:** 9,600

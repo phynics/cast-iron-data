@@ -36,8 +36,6 @@ unpredictable wildness._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -45,6 +43,8 @@ unpredictable wildness._
 **Type:** outsider
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 234\
 **Subtype:** Native

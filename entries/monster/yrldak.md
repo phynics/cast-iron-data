@@ -39,13 +39,11 @@ glowing moon, and her ebon eyes deeply pensive._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +19
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Fey Revisited pg 26\
 **Experience points:** 9,600

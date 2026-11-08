@@ -35,13 +35,9 @@ to grow from its armor._
 
 **aura:** aura of menace (DC 17)
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful good
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -49,7 +45,7 @@ to grow from its armor._
 
 **Perception:** +13
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Sources:** Bestiary 3 pg 19\
 **Subtype:** Archon, Extraplanar, Good, Lawful

@@ -33,11 +33,7 @@ lure of a deep-sea predator._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +0
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,6 +42,8 @@ lure of a deep-sea predator._
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 50, Pathfinder \#32: Rivers Run Red pg 80\
 **Subtype:** Aquatic

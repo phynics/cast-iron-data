@@ -34,8 +34,6 @@ wears leather armor._
 
 **Grippli [ranger](ref/class/ranger) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -43,6 +41,8 @@ wears leather armor._
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

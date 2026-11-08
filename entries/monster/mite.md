@@ -32,19 +32,15 @@ its puffy blue face is._
 
 **Challenge rating:** 1/4
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +1
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Darkvision 120 ft., Low-light vision, Scent
 
 **Size:** small
 

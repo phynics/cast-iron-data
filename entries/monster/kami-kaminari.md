@@ -33,8 +33,6 @@ ring of huge drums and storm clouds._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -42,6 +40,8 @@ ring of huge drums and storm clouds._
 **Type:** outsider
 
 **Perception:** +29
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#52: Forest of Spirits pg 86\
 **Subtype:** Air, Kami, Native

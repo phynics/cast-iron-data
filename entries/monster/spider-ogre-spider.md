@@ -30,8 +30,6 @@ vaguely, but disturbingly, humanoid._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -39,6 +37,8 @@ vaguely, but disturbingly, humanoid._
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 254\
 **tremorsense:** 60

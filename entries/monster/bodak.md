@@ -33,13 +33,13 @@ trails of smoke._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 48\
 **Subtype:** Extraplanar

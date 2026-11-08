@@ -36,13 +36,13 @@ about using squirming tentacles, each moving independently in a mesmerizing moti
 
 **aura:** mental disarmament (100 ft., DC 17), mucus cloud (5 ft., DC 14)
 
-**dv:** 120
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 120 ft.
 
 **Size:** small
 

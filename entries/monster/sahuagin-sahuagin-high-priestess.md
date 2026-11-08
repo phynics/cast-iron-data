@@ -37,8 +37,6 @@ piscine head features a toothy maw._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -48,6 +46,8 @@ piscine head features a toothy maw._
 **Type:** Monstrous humanoid
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 193\
 **Subtype:** Aquatic

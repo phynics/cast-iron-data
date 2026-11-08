@@ -35,15 +35,13 @@ hissing, triangular heads._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +30
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 151, Irrisen - Land of Eternal Winter pg 59\
 **Subtype:** Cold

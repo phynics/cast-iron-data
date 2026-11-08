@@ -28,8 +28,6 @@ _A spider the size of a man crawls silently from the depths of its funnel-shaped
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -37,6 +35,8 @@ _A spider the size of a man crawls silently from the depths of its funnel-shaped
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 258\
 **tremorsense:** 60

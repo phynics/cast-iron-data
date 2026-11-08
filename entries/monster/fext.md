@@ -30,8 +30,6 @@ in fearsome armor._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful evil
@@ -39,6 +37,8 @@ in fearsome armor._
 **Size:** medium
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 115, Pathfinder \#71: Rasputin Must Die! pg 88\
 **Type:** undead

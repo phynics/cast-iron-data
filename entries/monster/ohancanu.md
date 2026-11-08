@@ -38,9 +38,9 @@ of shaggy hair, and the lower half of his face is obscured by a bristly, dark be
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#116: Fangs of War pg 88\
 **Experience points:** 1,600

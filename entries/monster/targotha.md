@@ -36,8 +36,6 @@ deep-purple body._
 
 **blindsense:** 120
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
@@ -45,6 +43,8 @@ deep-purple body._
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 261, Numeria, Land of Fallen Stars pg 60\
 **Experience points:** 51,200

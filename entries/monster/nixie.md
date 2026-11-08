@@ -36,11 +36,11 @@ decorated with shells._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Size:** small
 

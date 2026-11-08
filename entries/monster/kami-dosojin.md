@@ -32,8 +32,6 @@ reverence and patience._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -43,6 +41,8 @@ reverence and patience._
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#52: Forest of Spirits pg 82\
 **Subtype:** Kami, Native

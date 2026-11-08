@@ -31,11 +31,7 @@ _This dour being has a mostly humanoid form with its lower body wrapped in a coc
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -45,7 +41,7 @@ _This dour being has a mostly humanoid form with its lower body wrapped in a coc
 
 **Perception:** +14
 
-**Senses:** Spiritsense
+**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
 **Sources:** Bestiary 6 pg 223, Inner Sea Bestiary pg 41\
 **Subtype:** Extraplanar, Psychopomp

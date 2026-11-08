@@ -34,11 +34,11 @@ _This tiny, whimsical-looking humanoid darts about swiftly on wildly colored gos
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Size:** small
 

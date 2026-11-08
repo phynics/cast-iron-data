@@ -31,17 +31,15 @@ abilities = ["14", "9", "-", "10", "11", "1"]
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#47: Ashes at Dawn pg 90\
 **Experience points:** 1,200

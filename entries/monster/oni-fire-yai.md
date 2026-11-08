@@ -33,19 +33,17 @@ ember._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 206\
 **Subtype:** Fire, Giant, Native, Oni, Shapechanger

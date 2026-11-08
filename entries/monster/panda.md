@@ -34,13 +34,13 @@ rounder._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Animal Archive pg 29\
 **Experience points:** 600

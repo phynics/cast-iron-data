@@ -33,8 +33,6 @@ thread is tangled between its curled ram horns._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -45,9 +43,7 @@ thread is tangled between its curled ram horns._
 
 **Perception:** +23
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Scent, True seeing
 
 **Sources:** Pathfinder \#107: Scourge of the Godclaw pg 84\
 **Subtype:** Good, Lawful, Native

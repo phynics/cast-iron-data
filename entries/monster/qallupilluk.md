@@ -35,8 +35,6 @@ a curiously sweet smell._
 
 **aura:** cloying scent (15 ft.)
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful evil
@@ -46,6 +44,8 @@ a curiously sweet smell._
 **Type:** Monstrous humanoid
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 224, Pathfinder \#51: The Hungry Storm pg 88\
 **Subtype:** Aquatic

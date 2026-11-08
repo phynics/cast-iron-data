@@ -29,19 +29,17 @@ horns._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 34\
 **Experience points:** 4,800

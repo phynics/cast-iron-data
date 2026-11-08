@@ -36,8 +36,6 @@ against the leather of his armor._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -45,6 +43,8 @@ against the leather of his armor._
 **Type:** Monstrous humanoid
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 36\
 **tremorsense:** 30

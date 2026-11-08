@@ -32,8 +32,6 @@ lolling tongue drips with thick saliva._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ lolling tongue drips with thick saliva._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Nidal, Land of Shadows pg 57\
 **Subtype:** Native

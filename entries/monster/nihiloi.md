@@ -37,8 +37,6 @@ strange, wriggling wings._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 90
-
 **Initiative:** +11
 
 **Size:** medium
@@ -47,7 +45,7 @@ strange, wriggling wings._
 
 **Perception:** +18
 
-**Sense:** Sid
+**Senses:** Darkvision 90 ft., See in darkness
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 86\
 **Subtype:** Extraplanar

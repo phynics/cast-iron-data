@@ -36,13 +36,11 @@ that runs down its back._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +25
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 79\
 **Experience points:** 12,800

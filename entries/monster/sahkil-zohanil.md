@@ -32,11 +32,7 @@ needle-like tips of its long, hooked arms._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,7 +42,7 @@ needle-like tips of its long, hooked arms._
 
 **Perception:** +19
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
 
 **Sources:** Bestiary 6 pg 246\
 **Subtype:** Evil, Extraplanar, Sahkil

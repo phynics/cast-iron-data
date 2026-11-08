@@ -30,17 +30,15 @@ any kind, its bulk is covered in jagged thorns protruding from its fungal surfac
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** -1
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

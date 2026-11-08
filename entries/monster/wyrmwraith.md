@@ -36,8 +36,6 @@ less noble._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +16
@@ -45,6 +43,8 @@ less noble._
 **Lifesense:** present
 
 **Perception:** +38
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 280\
 **Subtype:** Incorporeal

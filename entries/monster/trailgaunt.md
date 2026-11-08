@@ -31,8 +31,6 @@ limbs._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -40,6 +38,8 @@ limbs._
 **Alignment:** Neutral evil
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **source:** Bestiary 6/264;Pathfinder Comics \#11/28
 

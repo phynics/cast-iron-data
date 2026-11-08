@@ -33,17 +33,15 @@ change color to match its surroundings._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 59\
 **Subtype:** Aquatic

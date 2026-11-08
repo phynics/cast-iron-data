@@ -36,17 +36,15 @@ legs end in blackened, burnt stumps._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 281, Pathfinder \#6: Spires of Xin-Shalast pg 88\
 **Subtype:** Cold, Native

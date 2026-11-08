@@ -40,21 +40,15 @@ like burnished gold._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +15, Mythic Improved Initiative
-
-**Sense:** Llv
-
-**Sense:** Mistsight
 
 **Alignment:** Neutral
 
 **Perception:** +44
 
-**Senses:** Detect magic, Detect scrying
+**Senses:** Darkvision 120 ft., Detect magic, Detect scrying, Low-light vision, Mistsight
 
 **Sources:** Bestiary 4 pg 146\
 **Subtype:** Aquatic, Mythic

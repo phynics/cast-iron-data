@@ -37,13 +37,13 @@ aura of tiny bubbles._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Type:** outsider
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Gods pg 283\
 **Subtype:** Chaotic, Extraplanar, Good

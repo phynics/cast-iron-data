@@ -37,19 +37,13 @@ terrifying size, as it opens its steam-shrouded maw with a hiss._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Perception:** +24
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Pathfinder \#50: Night of Frozen Shadows pg 84\
 **Subtype:** Aquatic

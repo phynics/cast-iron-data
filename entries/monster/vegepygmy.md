@@ -29,15 +29,13 @@ arms, midsection, and legs._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

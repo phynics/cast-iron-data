@@ -31,13 +31,9 @@ its arms end in barbed chains._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -45,7 +41,7 @@ its arms end in barbed chains._
 
 **Perception:** +20
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 167\
 **Subtype:** Extraplanar, Inevitable, Lawful

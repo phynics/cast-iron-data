@@ -30,11 +30,7 @@ cap for a head._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -42,9 +38,9 @@ cap for a head._
 
 **Perception:** +6
 
-**Type:** plant
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sense:** Scent
+**Type:** plant
 
 **Sources:** Bestiary 3 pg 196\
 **Experience points:** 1,200

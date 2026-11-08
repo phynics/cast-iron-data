@@ -32,11 +32,11 @@ _This lithe, green-scaled reptile looks like a miniature crocodile with a stunte
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Size:** small
 

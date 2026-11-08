@@ -34,19 +34,15 @@ its lissome back._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral evil
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 105\
 **Subtype:** Earth

@@ -33,15 +33,13 @@ _This long, muscular snake rears up and shows its hood and fangs when threatened
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Osirion, Legacy of the Pharaohs pg 55\
 **Experience points:** 600

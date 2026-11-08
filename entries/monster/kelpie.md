@@ -36,13 +36,13 @@ snaggletoothed, horse-like face._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 172\
 **Subtype:** Aquatic, Shapechanger

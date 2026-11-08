@@ -35,17 +35,15 @@ raven's skull for a head._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 68\
 **Experience points:** 6,400

@@ -35,8 +35,6 @@ of the rotting, flapping undead monstrosity he rides._
 
 **Urdefhan [cavalier](ref/class/cavalier) 7**
 
-**dv:** 120
-
 **Initiative:** +3
 
 **Size:** medium
@@ -46,6 +44,8 @@ of the rotting, flapping undead monstrosity he rides._
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Inner Sea Monster Codex pg 61\
 **Subtype:** Native

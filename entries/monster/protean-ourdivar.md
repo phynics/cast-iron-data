@@ -36,8 +36,6 @@ ends in a serpentine tail._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -45,6 +43,8 @@ ends in a serpentine tail._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 213, Pathfinder \#92: The Hill Giant's Pledge pg 86\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

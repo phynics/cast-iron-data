@@ -30,8 +30,6 @@ stink clinging to it._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -41,6 +39,8 @@ stink clinging to it._
 **Type:** Monstrous humanoid
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 8, Misfit Monsters Redeemed pg 9\
 **Experience points:** 800

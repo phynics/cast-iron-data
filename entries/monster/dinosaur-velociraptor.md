@@ -34,13 +34,11 @@ prey._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

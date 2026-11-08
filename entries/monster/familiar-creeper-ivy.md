@@ -30,11 +30,11 @@ _The creeping tendrils of this plant creature guide its way up tree trunks and w
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

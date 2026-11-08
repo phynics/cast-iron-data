@@ -33,17 +33,15 @@ shell-like posterior of the machine, while toxic green ooze courses through its 
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Wardens of the Reborn Forge pg 62\
 **Subtype:** Clockwork

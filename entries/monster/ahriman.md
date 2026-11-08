@@ -35,8 +35,6 @@ echoes from his gaping maw._
 **aura:** hopelessness (30 ft., DC 38), [frightful presence](ref/umr/frightful-presence) (60 ft., DC
 38)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +20
@@ -47,9 +45,7 @@ echoes from his gaping maw._
 
 **Perception:** +43
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness, True seeing
 
 **Sources:** Mythic Realms pg 48, Pathfinder \#24: The Final Wish pg 76\
 **Subtype:** Div, Evil, Extraplanar

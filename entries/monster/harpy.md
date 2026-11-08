@@ -32,8 +32,6 @@ look about her._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -41,6 +39,8 @@ look about her._
 **Type:** Monstrous humanoid
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 172\
 **Experience points:** 1,200

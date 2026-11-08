@@ -29,19 +29,17 @@ _A distressingly humanoid face and stubby arms grow from this maggot-like creatu
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +10
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 27\
 **Experience points:** 1,600

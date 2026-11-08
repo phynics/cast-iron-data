@@ -37,13 +37,13 @@ _This sleek, gray predator weaves back and forth through the water with savage g
 
 **Keen Scent:** present
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 241\
 **Subtype:** Aquatic

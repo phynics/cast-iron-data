@@ -35,13 +35,11 @@ legs._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 170, Pathfinder \#91: Battle of Bloodmarch Hills pg 86\
 **Experience points:** 2,400

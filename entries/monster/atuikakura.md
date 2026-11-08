@@ -31,19 +31,17 @@ with hooked teeth._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +11
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 32\
 **Subtype:** Aquatic

@@ -33,11 +33,7 @@ sports a pair of stag's antlers upon his brow._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3 (+5 in forests)
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -45,7 +41,7 @@ sports a pair of stag's antlers upon his brow._
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#73: The Worldwound Incursion pg 86\
 **Experience points:** 2,400

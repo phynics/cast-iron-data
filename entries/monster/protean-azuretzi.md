@@ -36,15 +36,13 @@ reptilian maw is filled with tiny, sharp teeth._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Type:** outsider
 
 **Perception:** +11
 
-**Senses:** Detect law
+**Senses:** Darkvision 60 ft., Detect law
 
 **Size:** small
 

@@ -30,8 +30,6 @@ _This towering, burning equine stands upon smoking hooves. Hellfire shimmers in 
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -41,6 +39,8 @@ _This towering, burning equine stands upon smoking hooves. Hellfire shimmers in 
 **Type:** outsider
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 216\
 **Subtype:** Evil, Extraplanar

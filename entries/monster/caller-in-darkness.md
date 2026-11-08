@@ -34,13 +34,13 @@ _This roiling horror appears to be a swirling vortex of darkness and screaming, 
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 48\
 **Subtype:** Incorporeal

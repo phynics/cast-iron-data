@@ -28,15 +28,13 @@ abilities = ["8", "14", "-", "-", "5", "1"]
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** -3
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Adventurer's Armory 2 pg 30\
 **Size:** tiny

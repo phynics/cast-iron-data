@@ -34,8 +34,6 @@ stinger on the other._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -43,6 +41,8 @@ stinger on the other._
 **Alignment:** Neutral
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#130: City in the Lion's Eye pg 84\
 **Subtype:** Aquatic

@@ -33,8 +33,6 @@ _In place of legs, this handsome humanoid sports an octopus's eight writhing ten
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -43,7 +41,7 @@ _In place of legs, this handsome humanoid sports an octopus's eight writhing ten
 
 **Perception:** +1
 
-**Senses:** Tentacle sense 10 ft.
+**Senses:** Darkvision 60 ft., Tentacle sense 10 ft.
 
 **Sources:** Bestiary 3 pg 49\
 **Subtype:** Aquatic

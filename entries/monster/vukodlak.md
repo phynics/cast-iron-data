@@ -32,8 +32,6 @@ fanged muzzle and glowing red eyes._
 
 **aura:** [unnatural aura](ref/umr/unnatural-aura)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,7 +40,7 @@ fanged muzzle and glowing red eyes._
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 5 pg 272\
 **Type:** undead

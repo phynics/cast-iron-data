@@ -35,8 +35,6 @@ maw for a belly._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -45,7 +43,7 @@ maw for a belly._
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 2 pg 220\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

@@ -29,13 +29,13 @@ graying teeth clattering slightly as it bobs in the air._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

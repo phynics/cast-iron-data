@@ -33,8 +33,6 @@ a different method of inflicting pain._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -42,6 +40,8 @@ a different method of inflicting pain._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 226, Pathfinder \#64: Beyond the Doomsday Door pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

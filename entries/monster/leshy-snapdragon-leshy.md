@@ -33,15 +33,13 @@ head._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

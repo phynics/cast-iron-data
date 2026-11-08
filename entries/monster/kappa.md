@@ -33,13 +33,13 @@ bowl-shaped head is filled with water._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Type:** Monstrous humanoid
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -32,8 +32,6 @@ of a fanged and insane human baby, and its mouth opens far wider than it should.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -43,6 +41,8 @@ of a fanged and insane human baby, and its mouth opens far wider than it should.
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Misfit Monsters Redeemed pg 43\
 **Subtype:** Earth, Fire

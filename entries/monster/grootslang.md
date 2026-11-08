@@ -33,8 +33,6 @@ sports six frightening tusks._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +4
@@ -43,7 +41,7 @@ sports six frightening tusks._
 
 **Perception:** +28
 
-**Sense:** Scent
+**Senses:** Darkvision 120 ft., Scent
 
 **Sources:** Bestiary 3 pg 144, Pathfinder \#42: Sanctum of the Serpent God pg 84\
 **Experience points:** 76,800

@@ -33,13 +33,13 @@ _This long, lean fish has a muscular body and a head with long jaws filled with 
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 128\
 **Subtype:** Aquatic

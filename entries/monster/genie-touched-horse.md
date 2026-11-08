@@ -30,13 +30,9 @@ origins._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ origins._
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Qadira, Jewel of the East pg 60\
 **Experience points:** 2,400

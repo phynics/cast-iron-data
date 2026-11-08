@@ -40,8 +40,6 @@ horn rises from its snout._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Greensight:** present
@@ -50,9 +48,9 @@ horn rises from its snout._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +32
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Mythic Adventures pg 189\
 **Subtype:** Air, Mythic

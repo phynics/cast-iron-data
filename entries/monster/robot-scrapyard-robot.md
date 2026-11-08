@@ -33,17 +33,15 @@ arms ends in a spinning blade._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Numeria, Land of Fallen Stars pg 58\
 **Subtype:** Robot

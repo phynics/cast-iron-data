@@ -34,15 +34,13 @@ truly monstrous size._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +3
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 135\
 **Experience points:** 400

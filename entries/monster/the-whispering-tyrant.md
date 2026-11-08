@@ -38,8 +38,6 @@ by a palpable aura of death._
 
 **aura:** absolute terror (60-ft. radius, DC 39)
 
-**dv:** 60
-
 **Initiative:** +18
 
 **Size:** medium
@@ -48,9 +46,7 @@ by a palpable aura of death._
 
 **Perception:** +33
 
-**Senses:** Spell perception
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness, Spell perception
 
 **Sources:** Mythic Realms pg 62\
 **Subtype:** Augmented humanoid, Human, Mythic

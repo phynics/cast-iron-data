@@ -35,15 +35,13 @@ features of a pig. Its porcine face is eyeless and its nose never stops sniffing
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#73: The Worldwound Incursion pg 88\
 **Size:** tiny

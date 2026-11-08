@@ -31,13 +31,9 @@ teeth and glowing red eyes._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -45,7 +41,7 @@ teeth and glowing red eyes._
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 148, Pathfinder \#32: Rivers Run Red pg 84\
 **Experience points:** 2,400

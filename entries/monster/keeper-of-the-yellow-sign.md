@@ -34,13 +34,13 @@ parts intensity and insanity._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#110: The Thrushmoor Terror pg 88\
 **Type:** undead

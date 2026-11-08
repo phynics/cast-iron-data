@@ -32,8 +32,6 @@ creature's crystalline body._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -43,6 +41,8 @@ creature's crystalline body._
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 14\
 **Subtype:** Aeon, Extraplanar

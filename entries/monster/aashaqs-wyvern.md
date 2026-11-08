@@ -34,15 +34,13 @@ stinger. Heavy smoke drips from the beast's nostrils and jaws._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Isles of the Shackles pg 42\
 **Experience points:** 4,800

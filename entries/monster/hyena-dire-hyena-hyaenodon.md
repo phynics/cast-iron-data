@@ -34,13 +34,11 @@ _This large hyena has a thick head, rheumy red eyes, and a mouth filled with sha
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 179\
 **Experience points:** 800

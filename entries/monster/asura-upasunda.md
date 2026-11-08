@@ -31,11 +31,7 @@ wield several exotic weapons._
 
 **Challenge rating:** 9
 
-**Sense:** Aav
-
 **aura:** elusive (50 ft.)
-
-**dv:** 60
 
 **Initiative:** +7
 
@@ -46,6 +42,8 @@ wield several exotic weapons._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 26\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

@@ -33,13 +33,11 @@ _This small cylindrical creature has two eyestalks extending straight off to eac
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#124: City in the Deep pg 87\
 **Subtype:** Aquatic

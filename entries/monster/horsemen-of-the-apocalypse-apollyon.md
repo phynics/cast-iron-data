@@ -35,8 +35,6 @@ _This muscular figure has a skeletal ram's head and a cloud of flies spews from 
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), plague shadow (10 ft.),
 unholy aura (DC 29)
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** medium
@@ -47,7 +45,7 @@ unholy aura (DC 29)
 
 **Perception:** +49
 
-**Senses:** Detect good, True seeing
+**Senses:** Darkvision 60 ft., Detect good, True seeing
 
 **Sources:** Bestiary 6 pg 160\
 **Subtype:** Daemon, Evil, Extraplanar

@@ -38,15 +38,13 @@ dislocated and hanging freely. A hood of the same jaundiced fabric obscures its 
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +21
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Pathfinder \#112: The Whisper Out of Time pg 88\
 **Experience points:** 19,200

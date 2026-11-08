@@ -30,8 +30,6 @@ _A vague humanoid shape composed of whirling dust and shards of bone hovers mena
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -39,6 +37,8 @@ _A vague humanoid shape composed of whirling dust and shards of bone hovers mena
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 82\
 **Subtype:** Incorporeal

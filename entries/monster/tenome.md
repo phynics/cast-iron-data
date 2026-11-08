@@ -30,8 +30,6 @@ freakishly from the palms of its hands._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -41,6 +39,8 @@ freakishly from the palms of its hands._
 **Alignment:** Neutral evil
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 262, Pathfinder \#99: Dance of the Damned pg 90\
 **Experience points:** 1,200

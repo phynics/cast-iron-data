@@ -32,17 +32,15 @@ its creased body and claw-like hands._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 131, Isles of the Shackles pg 47\
 **Experience points:** 6,400

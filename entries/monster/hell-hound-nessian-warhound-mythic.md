@@ -32,8 +32,6 @@ smoke._
 
 **Mythic rank:** 4
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -44,9 +42,7 @@ smoke._
 
 **Perception:** +14
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Scent, See in darkness
 
 **Sources:** Mythic Adventures pg 203\
 **Subtype:** Evil, Extraplanar, Fire, Lawful, Mythic

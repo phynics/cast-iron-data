@@ -36,13 +36,13 @@ abilities = ["12", "18", "12", "12", "13", "8"]
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 238\
 **Subtype:** Elf

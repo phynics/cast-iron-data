@@ -34,8 +34,6 @@ and smoking eye sockets._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -46,7 +44,7 @@ and smoking eye sockets._
 
 **Perception:** +33
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Inner Sea Gods pg 296\
 **Subtype:** Chaotic, Evil, Extraplanar

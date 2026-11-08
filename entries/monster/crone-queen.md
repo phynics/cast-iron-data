@@ -33,8 +33,6 @@ stretched over its icy bones._
 
 **aura:** fear aura (30 ft., DC 25)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Lifesense:** present
@@ -44,6 +42,8 @@ stretched over its icy bones._
 **Alignment:** Neutral evil
 
 **Perception:** +32
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 61, Pathfinder \#72: The Witch Queen's Revenge pg 84\
 **Subtype:** Cold

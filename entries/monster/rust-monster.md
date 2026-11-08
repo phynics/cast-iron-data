@@ -31,8 +31,6 @@ and two long, feathery antennae._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -41,7 +39,7 @@ and two long, feathery antennae._
 
 **Perception:** +12
 
-**Senses:** Scent metals 90 ft.
+**Senses:** Darkvision 60 ft., Scent metals 90 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 238\
 **Experience points:** 800

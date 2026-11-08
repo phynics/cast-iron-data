@@ -34,8 +34,6 @@ noises from the natural world._
 
 **aura:** positive energy (10 ft.)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +10
@@ -46,7 +44,7 @@ noises from the natural world._
 
 **Perception:** +34
 
-**Senses:** Detect evil, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, True seeing
 
 **Sources:** Bestiary 4 pg 192\
 **Subtype:** Native

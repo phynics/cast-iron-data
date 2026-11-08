@@ -34,8 +34,6 @@ and feet are webbed._
 
 **Undine [cleric](ref/class/cleric) 1**
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -45,6 +43,8 @@ and feet are webbed._
 **Type:** outsider
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 275\
 **Subtype:** Native

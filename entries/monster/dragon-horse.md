@@ -32,13 +32,9 @@ pale blue energy._
 
 **Challenge rating:** 9
 
-**dv:** 120
-
 **Initiative:** +7
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -46,7 +42,7 @@ pale blue energy._
 
 **Perception:** +17
 
-**Senses:** Know alignment
+**Senses:** Darkvision 120 ft., Know alignment, Low-light vision
 
 **Sources:** Bestiary 2 pg 104\
 **Subtype:** Air

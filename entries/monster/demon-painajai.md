@@ -37,8 +37,6 @@ dozens of sharp teeth. It carries a barbed spear with a long, clinking chain att
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -47,7 +45,7 @@ dozens of sharp teeth. It carries a barbed spear with a long, clinking chain att
 
 **Perception:** +21
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Occult Bestiary pg 19\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

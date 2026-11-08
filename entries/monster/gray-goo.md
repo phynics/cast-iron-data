@@ -32,17 +32,15 @@ _Droplets of a silvery gray, slightly grainy goo gleam dully as they hang in the
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 130, Numeria, Land of Fallen Stars pg 50\
 **Subtype:** Swarm

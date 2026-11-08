@@ -34,8 +34,6 @@ slowly ripples through the air._
 
 **aura:** protective aura
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral good
@@ -44,7 +42,7 @@ slowly ripples through the air._
 
 **Perception:** +16
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil
 
 **Size:** small
 

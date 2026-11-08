@@ -31,8 +31,6 @@ filled with sharp fangs._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -42,6 +40,8 @@ filled with sharp fangs._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 229\
 **Subtype:** Extraplanar, Fire

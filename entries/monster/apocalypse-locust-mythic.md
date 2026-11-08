@@ -35,8 +35,6 @@ into a giant, winged scorpion._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -44,6 +42,8 @@ into a giant, winged scorpion._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 12\
 **Subtype:** Evil, Extraplanar, Mythic

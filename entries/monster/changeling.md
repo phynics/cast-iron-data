@@ -34,8 +34,6 @@ different color._
 
 **Female changeling [witch](ref/class/witch) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** -1
@@ -45,6 +43,8 @@ different color._
 **Size:** medium
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 29, Pathfinder \#43: Haunting of Harrowstone pg 84\
 **Subtype:** Changeling

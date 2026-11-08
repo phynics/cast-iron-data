@@ -38,15 +38,13 @@ with unsettling, inhuman grace._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +26
 
 **Size:** medium
 
 **Perception:** +47
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 4 pg 140\
 **Subtype:** Chaotic, Evil, Great Old One

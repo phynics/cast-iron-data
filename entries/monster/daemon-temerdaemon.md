@@ -34,8 +34,6 @@ wields a scythe in its largest arms._
 
 **aura:** reaper's curse (30 ft., DC 23, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -45,6 +43,8 @@ wields a scythe in its largest arms._
 **Type:** outsider
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 77, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 58\
 **Subtype:** Daemon, Evil, Extraplanar

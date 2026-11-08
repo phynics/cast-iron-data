@@ -32,8 +32,6 @@ eerily blank._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -41,6 +39,8 @@ eerily blank._
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 50, Wardens of the Reborn Forge pg 61\
 **Experience points:** 3,200

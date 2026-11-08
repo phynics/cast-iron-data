@@ -36,8 +36,6 @@ and shimmering gossamer wings._
 
 **aura:** aura of fate (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +12/+2; chronosurge
 
 **Size:** medium
@@ -45,6 +43,8 @@ and shimmering gossamer wings._
 **Type:** outsider
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 238\
 **Subtype:** Extraplanar, Shapechanger

@@ -29,17 +29,15 @@ _This small creature has the body of a housecat, the wings of a falcon, and the 
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Familiar Folio pg 29\
 **Size:** tiny

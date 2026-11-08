@@ -33,11 +33,11 @@ of its head._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 193, Familiar Folio pg 24, Bestiary 5 pg 112\
 **Size:** tiny

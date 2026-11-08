@@ -32,8 +32,6 @@ intelligence and cruelty._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +0
@@ -42,7 +40,7 @@ intelligence and cruelty._
 
 **Perception:** +26
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 61\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

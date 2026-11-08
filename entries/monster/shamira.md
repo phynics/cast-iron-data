@@ -36,8 +36,6 @@ _This crimson-haired demonic woman has wings of fire. She carries a slender bow 
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
@@ -46,7 +44,7 @@ _This crimson-haired demonic woman has wings of fire. She carries a slender bow 
 
 **Perception:** +45
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Pathfinder \#76: The Midnight Isles pg 74\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Fire

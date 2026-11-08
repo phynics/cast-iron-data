@@ -32,8 +32,6 @@ pleasure or titillating torture._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ pleasure or titillating torture._
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 176, Pathfinder \#64: Beyond the Doomsday Door pg 86\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

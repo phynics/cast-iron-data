@@ -30,8 +30,6 @@ The molten core in the creature's torso glows through rugged cracks in its dark 
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -41,6 +39,8 @@ The molten core in the creature's torso glows through rugged cracks in its dark 
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Academy of Secrets pg 31\
 **Subtype:** Native

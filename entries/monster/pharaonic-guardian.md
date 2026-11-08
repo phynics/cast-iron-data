@@ -32,8 +32,6 @@ white light._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -41,6 +39,8 @@ white light._
 **Alignment:** Lawful evil
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 191, Osirion, Legacy of the Pharaohs pg 60\
 **Subtype:** Incorporeal

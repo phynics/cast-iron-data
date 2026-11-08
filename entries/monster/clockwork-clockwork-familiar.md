@@ -33,15 +33,13 @@ articulated plates._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 57, Pathfinder \#63: The Asylum Stone pg 86\
 **Subtype:** Clockwork

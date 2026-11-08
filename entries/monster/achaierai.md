@@ -31,8 +31,6 @@ vapor trail from its hooked beak._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -42,6 +40,8 @@ vapor trail from its hooked beak._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 7\
 **Subtype:** Evil, Extraplanar, Lawful

@@ -34,8 +34,6 @@ rotting wings of a carrion bird._
 
 **aura:** infectious aura (50 ft.)
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -46,7 +44,7 @@ rotting wings of a carrion bird._
 
 **Perception:** +22
 
-**Senses:** Deathwatch, Detect good
+**Senses:** Darkvision 60 ft., Deathwatch, Detect good
 
 **Sources:** Bestiary 2 pg 68, Pathfinder \#8: Seven Days to the Grave pg 80\
 **Subtype:** Daemon, Evil, Extraplanar

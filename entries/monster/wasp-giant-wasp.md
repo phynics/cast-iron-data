@@ -29,8 +29,6 @@ a sword and drips with venom._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -38,6 +36,8 @@ a sword and drips with venom._
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 275\
 **Type:** vermin

@@ -35,8 +35,6 @@ too eager to wreak havoc._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -44,6 +42,8 @@ too eager to wreak havoc._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** The Worldwound pg 62\
 **Subtype:** Chaotic, Evil, Extraplanar

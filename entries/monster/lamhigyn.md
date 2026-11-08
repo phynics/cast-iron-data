@@ -32,15 +32,13 @@ _This small, three-eyed creature has ragged, red-streaked wings and a menacingly
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** outsider
 
 **Perception:** +9
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Size:** small
 

@@ -38,11 +38,11 @@ fist._
 
 **Initiative:** +12
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 9\
 **Subtype:** Adlet, Cold

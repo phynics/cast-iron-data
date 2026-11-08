@@ -32,8 +32,6 @@ _A cloud of crimson vapor reeking of fresh blood hangs in the air, reaching out 
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -42,7 +40,7 @@ _A cloud of crimson vapor reeking of fresh blood hangs in the air, reaching out 
 
 **Perception:** +8
 
-**Senses:** Sense blood
+**Senses:** Darkvision 60 ft., Sense blood
 
 **Sources:** Bestiary 2 pg 277\
 **Subtype:** Air, Water

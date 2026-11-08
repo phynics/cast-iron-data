@@ -35,13 +35,11 @@ its fluffy tail, which is raised in warning._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 247\
 **Size:** tiny

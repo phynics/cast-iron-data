@@ -29,19 +29,17 @@ _This enormous worm has stony hide and acid-dripping jaws._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 21\
 **tremorsense:** 60

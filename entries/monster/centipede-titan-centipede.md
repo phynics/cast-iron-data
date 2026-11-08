@@ -32,13 +32,13 @@ it spies prey._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 53\
 **Type:** vermin

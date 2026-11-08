@@ -29,13 +29,13 @@ internal organs._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

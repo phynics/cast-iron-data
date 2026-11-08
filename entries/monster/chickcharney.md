@@ -31,17 +31,15 @@ piercing black eyes and emits an annoying screech._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

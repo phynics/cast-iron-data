@@ -31,13 +31,13 @@ greedily clatter for blood._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

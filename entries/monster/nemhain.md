@@ -31,8 +31,6 @@ _A cloud of translucent humanoid spirits whirls around this ghostly desiccated c
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** medium
@@ -40,6 +38,8 @@ _A cloud of translucent humanoid spirits whirls around this ghostly desiccated c
 **Alignment:** Neutral evil
 
 **Perception:** +28
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 182, Tomb of the Iron Medusa pg 29\
 **Subtype:** Incorporeal

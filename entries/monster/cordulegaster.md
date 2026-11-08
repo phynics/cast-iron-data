@@ -30,8 +30,6 @@ _Interlocking plates of chitin cover this massive, six-legged beast's face like 
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -41,6 +39,8 @@ _Interlocking plates of chitin cover this massive, six-legged beast's face like 
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#98: Turn of the Torrent pg 82\
 **Subtype:** Aquatic, Evil, Extraplanar

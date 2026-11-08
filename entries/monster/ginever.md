@@ -31,17 +31,15 @@ _This lanky, yellow-eyed drunk sways unsteadily, draped in the stink of barley a
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** Monstrous humanoid
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Taldor, the First Empire pg 58\
 **Experience points:** 1,600

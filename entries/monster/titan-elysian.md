@@ -35,15 +35,13 @@ gleaming metal._
 
 **Size:** colossal
 
-**dv:** 120
-
 **Initiative:** +7
 
 **Type:** outsider
 
 **Perception:** +33
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., True seeing
 
 **Sources:** Bestiary 2 pg 266\
 **Subtype:** Chaotic, Extraplanar, Good

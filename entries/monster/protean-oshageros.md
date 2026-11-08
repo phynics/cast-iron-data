@@ -36,8 +36,6 @@ its back._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
@@ -46,7 +44,7 @@ its back._
 
 **Perception:** +24
 
-**Senses:** Detect law
+**Senses:** Darkvision 60 ft., Detect law
 
 **Sources:** Bestiary 6 pg 212\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

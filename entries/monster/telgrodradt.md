@@ -33,8 +33,6 @@ has four elongated tentacles and a toothy maw._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -42,6 +40,8 @@ has four elongated tentacles and a toothy maw._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#100: A Song of Silver pg 120\
 **Experience points:** 2,400

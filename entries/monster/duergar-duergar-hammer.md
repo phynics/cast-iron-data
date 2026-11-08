@@ -32,8 +32,6 @@ abilities = ["14", "20", "14", "10", "15", "4"]
 
 **Duergar [monk](ref/class/monk) ([gray disciple](ref/arc-monk/gray-disciple)) 12**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +9
@@ -43,6 +41,8 @@ abilities = ["14", "20", "14", "10", "15", "4"]
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Monster Codex pg 49\
 **Subtype:** Dwarf

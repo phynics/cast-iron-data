@@ -30,17 +30,15 @@ glowing white eyes._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

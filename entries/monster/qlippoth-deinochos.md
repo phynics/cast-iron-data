@@ -36,17 +36,13 @@ shell along with several hooked legs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** outsider
 
 **Perception:** +10
 
-**Sense:** Scent
-
-**Senses:** Detect chaos, Detect evil
+**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Scent
 
 **Size:** small
 

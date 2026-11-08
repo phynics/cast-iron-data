@@ -31,17 +31,15 @@ abilities = ["26", "14", "-", "18", "15", "20"]
 
 **Half-elf vampire [magus](ref/class/magus) 14**
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +35
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 243\
 **Subtype:** Augmented humanoid, Elf, Human

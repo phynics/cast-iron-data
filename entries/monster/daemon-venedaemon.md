@@ -31,8 +31,6 @@ face is a disturbing, toothless maw._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -43,7 +41,7 @@ face is a disturbing, toothless maw._
 
 **Perception:** +12
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 78, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 60\
 **Subtype:** Daemon, Evil, Extraplanar

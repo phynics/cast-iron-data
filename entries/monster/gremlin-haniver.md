@@ -32,17 +32,15 @@ burning with malevolence._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 143, Pathfinder \#25: The Bastards of Erebus pg 76\
 **Subtype:** Aquatic

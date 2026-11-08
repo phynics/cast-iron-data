@@ -33,19 +33,17 @@ sizzling acid._
 
 **Mythic rank:** 3
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -2
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 198\
 **Subtype:** Mythic

@@ -32,8 +32,6 @@ lengths of razor-sharp, bloodstained icicles._
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ lengths of razor-sharp, bloodstained icicles._
 **Type:** outsider
 
 **Perception:** +29
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#137: The City Outside of Time pg 84\
 **Subtype:** Cold, Evil, Extraplanar, Kyton, Lawful

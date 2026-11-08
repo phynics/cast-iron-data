@@ -36,11 +36,11 @@ long and slender tail behind it as it gnashes its sharp, needle-like teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 88\
 **Experience points:** 1,600

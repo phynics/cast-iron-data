@@ -35,17 +35,15 @@ spindly, multi-jointed fingers, and four circular rotors hold the creature aloft
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#85: Fires of Creation pg 84\
 **Subtype:** Robot

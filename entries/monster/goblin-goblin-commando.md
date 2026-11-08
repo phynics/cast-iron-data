@@ -31,8 +31,6 @@ abilities = ["13", "18", "13", "10", "8", "10"]
 
 **Goblin [fighter](ref/class/fighter) 3**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +8
@@ -40,6 +38,8 @@ abilities = ["13", "18", "13", "10", "8", "10"]
 **Alignment:** Neutral evil
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

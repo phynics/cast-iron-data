@@ -32,17 +32,13 @@ eerily human._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +6
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Familiar Folio pg 28\
 **Size:** tiny

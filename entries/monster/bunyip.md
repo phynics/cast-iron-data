@@ -32,13 +32,9 @@ razor-sharp teeth._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
 
 **keenScent:** 180
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -47,6 +43,8 @@ razor-sharp teeth._
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 50\
 **Subtype:** Aquatic

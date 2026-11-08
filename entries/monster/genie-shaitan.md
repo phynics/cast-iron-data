@@ -31,8 +31,6 @@ _This being resembles a towering human with skin of polished stone and glitterin
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -42,6 +40,8 @@ _This being resembles a towering human with skin of polished stone and glitterin
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 143, Pathfinder \#18: Descent into Midnight pg 86\
 **Subtype:** Earth, Extraplanar

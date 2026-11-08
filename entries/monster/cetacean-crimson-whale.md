@@ -38,11 +38,11 @@ menacingly strong jaws, and blood-red skin._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +21
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#59: The Price of Infamy pg 87\
 **Experience points:** 4,800

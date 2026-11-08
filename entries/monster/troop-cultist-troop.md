@@ -32,8 +32,6 @@ _A band of violet-skinned elves raises their hands high as vile magic swirls in 
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +9
@@ -41,6 +39,8 @@ _A band of violet-skinned elves raises their hands high as vile magic swirls in 
 **Size:** medium
 
 **Perception:** +22
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 6 pg 266\
 **Subtype:** Elf, Troop

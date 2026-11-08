@@ -36,19 +36,15 @@ distinctive crescent shape._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +25
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Monstrous humanoid
 
 **Perception:** +45
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 150\
 **Subtype:** Chaotic, Great Old One, Shapechanger

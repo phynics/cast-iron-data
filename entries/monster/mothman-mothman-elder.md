@@ -35,8 +35,6 @@ into complex patterns._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -45,7 +43,7 @@ into complex patterns._
 
 **Perception:** +23
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Mystery Monsters Revisited pg 33\
 **Experience points:** 19,200

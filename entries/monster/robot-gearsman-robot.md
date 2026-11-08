@@ -34,17 +34,15 @@ glass orb for an eye._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 207, Inner Sea Bestiary pg 44\
 **Subtype:** Robot

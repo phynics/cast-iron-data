@@ -31,21 +31,17 @@ _A cyclopean face stretches grotesquely across the hub of a tall, knobby wheel o
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +23
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Pathfinder \#106: For Queen and Empire pg 90\
 **Subtype:** Evil, Extraplanar, Lawful

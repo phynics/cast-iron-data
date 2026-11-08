@@ -29,13 +29,13 @@ _Trim wings fold along the back of this oblong, iridescent insect._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

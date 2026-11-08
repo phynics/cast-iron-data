@@ -37,9 +37,9 @@ brown skin. His hair is unkempt and his flesh is weathered, but his large eyes g
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Size:** small
 

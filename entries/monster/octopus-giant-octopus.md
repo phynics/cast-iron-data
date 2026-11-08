@@ -36,11 +36,11 @@ body of this gigantic octopus._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 219\
 **Subtype:** Aquatic

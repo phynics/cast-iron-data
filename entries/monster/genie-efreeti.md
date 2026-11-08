@@ -32,8 +32,6 @@ from its flesh._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -44,7 +42,7 @@ from its flesh._
 
 **Perception:** +15
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Pathfinder RPG Bestiary pg 140\
 **Subtype:** Extraplanar, Fire

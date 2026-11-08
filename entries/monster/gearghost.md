@@ -32,11 +32,11 @@ above the clanging mess._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 123\
 **Size:** tiny

@@ -34,8 +34,6 @@ vestments._
 
 **aura:** ecstatic hunger (30 ft., DC 19)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +0
@@ -43,6 +41,8 @@ vestments._
 **Alignment:** Lawful evil
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 14\
 **tremorsense:** 60

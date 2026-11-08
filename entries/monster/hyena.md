@@ -32,15 +32,13 @@ _This hyena is covered in shaggy, tan-colored fur with black and brown stripes._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 179\
 **Experience points:** 400

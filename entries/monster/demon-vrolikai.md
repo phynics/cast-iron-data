@@ -33,19 +33,15 @@ with dead, white eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +10
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +36
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 81\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

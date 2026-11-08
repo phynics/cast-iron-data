@@ -29,15 +29,9 @@ of fangs._
 
 **Challenge rating:** 4
 
-**Sense:** Aav
-
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -45,7 +39,7 @@ of fangs._
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 25\
 **Experience points:** 1,200

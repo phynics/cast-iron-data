@@ -32,8 +32,6 @@ bookmark protrudes menacingly from its open pages._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful neutral
@@ -41,6 +39,8 @@ bookmark protrudes menacingly from its open pages._
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#127: Crownfall pg 84\
 **Subtype:** Extraplanar, Lawful

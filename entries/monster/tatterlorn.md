@@ -30,8 +30,6 @@ movements are weirdly difficult to follow with the eye._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -39,6 +37,8 @@ movements are weirdly difficult to follow with the eye._
 **Alignment:** Neutral evil
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Seers of the Drowned City pg 63\
 **Type:** undead

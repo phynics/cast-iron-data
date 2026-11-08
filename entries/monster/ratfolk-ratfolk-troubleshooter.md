@@ -35,8 +35,6 @@ tail._
 
 **Ratfolk [rogue](ref/class/rogue) 6**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -44,6 +42,8 @@ tail._
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -40,9 +40,9 @@ abilities = ["32", "19", "27", "12", "12", "10"]
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +24
+
+**Senses:** Low-light vision
 
 **Sources:** Monster Codex pg 75\
 **Subtype:** Cold, Giant

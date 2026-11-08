@@ -37,15 +37,13 @@ _This slender dragon is covered in vivid cerulean scales with four powerful wing
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +30
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 270\
 **Subtype:** Extraplanar

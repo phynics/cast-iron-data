@@ -30,8 +30,6 @@ hound than an undead man._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -40,7 +38,7 @@ hound than an undead man._
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 3 pg 115, Hungry are the Dead pg 30\
 **Type:** undead

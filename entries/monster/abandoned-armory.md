@@ -36,17 +36,15 @@ iron and eldritch sparks._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#142: Gardens of Gallowspire pg 82\
 **Experience points:** 25,600

@@ -33,15 +33,13 @@ tusks._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 36\
 **Experience points:** 600

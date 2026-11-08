@@ -35,19 +35,15 @@ in filth and gore._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#129: The Twilight Child pg 82\
 **Experience points:** 3,200

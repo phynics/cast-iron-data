@@ -30,8 +30,6 @@ and mouthless._
 
 **Challenge rating:** 18
 
-**dv:** 60
-
 **Greensight:** present
 
 **Initiative:** +13
@@ -40,13 +38,11 @@ and mouthless._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +35
 
 **Type:** plant
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Bestiary 6 pg 194\
 **Experience points:** 153,600

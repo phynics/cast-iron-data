@@ -32,13 +32,13 @@ teeth._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

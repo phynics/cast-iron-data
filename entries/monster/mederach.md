@@ -34,8 +34,6 @@ and massive mandibles._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -44,7 +42,7 @@ and massive mandibles._
 
 **Perception:** +22
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil
 
 **Sources:** Pathfinder \#105: The Inferno Gate pg 88\
 **Subtype:** Chaotic, Extraplanar, Good

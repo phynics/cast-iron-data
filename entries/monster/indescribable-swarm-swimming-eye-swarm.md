@@ -32,13 +32,13 @@ _At the heart of each of these tiny blobs of slime and tentacles is a single, ee
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#109: In Search of Sanity pg 87\
 **Subtype:** Aquatic, Swarm

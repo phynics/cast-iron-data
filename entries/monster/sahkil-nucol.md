@@ -32,11 +32,7 @@ flies._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,7 +42,7 @@ flies._
 
 **Perception:** +9
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
 **Sources:** Book of the Damned pg 253\
 **Subtype:** Evil, Extraplanar, Sahkil

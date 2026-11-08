@@ -35,17 +35,15 @@ revealed - nothing but a featureless mirror, reflecting a hard, cold world._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#68: The Shackled Hut pg 88\
 **Experience points:** 1,600

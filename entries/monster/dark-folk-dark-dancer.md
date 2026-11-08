@@ -40,7 +40,7 @@ dark cloth._
 
 **Perception:** +4
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Size:** small
 

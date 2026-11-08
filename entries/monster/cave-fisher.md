@@ -30,8 +30,6 @@ held out menacingly before it._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -39,6 +37,8 @@ held out menacingly before it._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 41\
 **Type:** vermin

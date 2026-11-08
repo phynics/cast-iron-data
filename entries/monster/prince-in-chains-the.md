@@ -36,21 +36,17 @@ monstrosity._
 
 **blindsight:** 60
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 315\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

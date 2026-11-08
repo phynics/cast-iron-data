@@ -35,13 +35,13 @@ elegantly toward the sky._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

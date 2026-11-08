@@ -38,15 +38,13 @@ _This withered humanoid wears sooty, fire-blackened robes and a headdress of bla
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** medium
 
 **Perception:** +11
 
-**Senses:** Deathwatch (30 ft.), True seeing
+**Senses:** Darkvision 60 ft., Deathwatch (30 ft.), True seeing
 
 **Sources:** Mythic Realms pg 54\
 **Type:** undead

@@ -36,8 +36,6 @@ pharaoh._
 
 **aura:** despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Lawful evil
@@ -45,6 +43,8 @@ pharaoh._
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 211\
 **Subtype:** Mythic

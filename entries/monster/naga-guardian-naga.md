@@ -32,8 +32,6 @@ colored serpent._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -41,6 +39,8 @@ colored serpent._
 **Alignment:** Lawful good
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 212\
 **Experience points:** 9,600

@@ -30,11 +30,7 @@ yammering ceaselessly._
 
 **Challenge rating:** 5
 
-**Sense:** Aav
-
 **Type:** aberration
-
-**dv:** 60
 
 **Initiative:** +3
 
@@ -43,6 +39,8 @@ yammering ceaselessly._
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 153\
 **Experience points:** 1,600

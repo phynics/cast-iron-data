@@ -33,17 +33,15 @@ _This muscular two-legged dragon is covered with scales of thick volcanic stone.
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 78\
 **Subtype:** Fire

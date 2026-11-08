@@ -31,8 +31,6 @@ abilities = ["22", "17", "19", "8", "11", "8"]
 
 **Degenerate serpentfolk [ranger](ref/class/ranger) 2**
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -43,7 +41,7 @@ abilities = ["22", "17", "19", "8", "11", "8"]
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Monster Codex pg 203\
 **Experience points:** 2,400

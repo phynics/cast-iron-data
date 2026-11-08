@@ -37,8 +37,6 @@ alien aperture._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -46,6 +44,8 @@ alien aperture._
 **Alignment:** Neutral evil
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#35: War of the River Kings pg 84\
 **Experience points:** 25,600

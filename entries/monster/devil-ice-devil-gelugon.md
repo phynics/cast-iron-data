@@ -31,8 +31,6 @@ _A pair of frozen, multifaceted eyes coldly judge all before this towering, inse
 
 **aura:** fear (10 ft., DC 22)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -43,7 +41,7 @@ _A pair of frozen, multifaceted eyes coldly judge all before this towering, inse
 
 **Perception:** +27
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 77\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

@@ -32,17 +32,15 @@ down its shuddering body._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 259, Pathfinder \#56: Raiders of the Fever Sea pg 90\
 **Experience points:** 9,600

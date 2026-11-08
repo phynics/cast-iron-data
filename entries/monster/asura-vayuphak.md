@@ -32,8 +32,6 @@ grace its hands._
 
 **aura:** elusive (30 ft.), [mental static](ref/umr/mental-static-aura) (30 ft., DC 18)
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ grace its hands._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 8\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

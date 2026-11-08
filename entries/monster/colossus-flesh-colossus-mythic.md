@@ -34,23 +34,19 @@ humanoid shape._
 
 **Mythic rank:** 6
 
-**Sense:** Aav
-
 **aura:** selective antimagic (20 ft.), unnatural (30 ft.)
 
 **Type:** construct
-
-**dv:** 60
 
 **Size:** gargantuan
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 35\
 **Subtype:** Colossus, Mythic

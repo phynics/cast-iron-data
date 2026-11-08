@@ -30,8 +30,6 @@ fire and seething with smoke._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -42,7 +40,7 @@ fire and seething with smoke._
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 2 pg 153\
 **Subtype:** Evil, Extraplanar, Lawful

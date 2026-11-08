@@ -30,19 +30,15 @@ abilities = ["23", "3", "18", "-", "11", "2"]
 
 **Challenge rating:** 4
 
-**Sense:** Aav
-
 **Initiative:** -4
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** All-around vision, Low-light vision, Scent
 
 **Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 84, Bestiary 5 pg 223\
 **Subtype:** Aquatic

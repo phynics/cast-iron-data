@@ -39,11 +39,11 @@ hide is laced with scars._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 282\
 **Experience points:** 38,400

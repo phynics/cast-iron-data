@@ -31,8 +31,6 @@ along the feathers of its burning wings._
 
 **Challenge rating:** 14
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +8
@@ -43,7 +41,7 @@ along the feathers of its burning wings._
 
 **Perception:** +30
 
-**Senses:** Detect chaos/evil/good/law
+**Senses:** Darkvision 120 ft., Detect chaos/evil/good/law
 
 **Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 84\
 **Subtype:** Native

@@ -33,8 +33,6 @@ fresh blood._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Lifesense:** present
@@ -42,6 +40,8 @@ fresh blood._
 **Size:** medium
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 231\
 **Type:** undead

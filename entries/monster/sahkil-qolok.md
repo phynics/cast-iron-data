@@ -32,13 +32,9 @@ from another orifice._
 
 **Challenge rating:** 16
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral evil
 
@@ -46,7 +42,7 @@ from another orifice._
 
 **Perception:** +27
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 217\
 **Subtype:** Evil, Extraplanar, Sahkil

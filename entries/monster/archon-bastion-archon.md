@@ -34,21 +34,17 @@ shimmering, pulsating globe of holy light._
 
 **aura:** aura of menace (DC 25), aura of mending (40 ft.)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +30
 
-**Senses:** Detect magic, True seeing
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision, True seeing
 
 **Sources:** Planar Adventures pg 226\
 **Subtype:** Archon, Extraplanar, Good, Lawful

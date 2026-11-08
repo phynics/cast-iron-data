@@ -33,11 +33,11 @@ hopping gait._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Size:** small
 

@@ -32,19 +32,17 @@ unsettling to look upon._
 
 **Challenge rating:** 18
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +28
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 184\
 **Subtype:** Aquatic

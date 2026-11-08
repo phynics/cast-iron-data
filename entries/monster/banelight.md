@@ -39,13 +39,13 @@ between her hands._
 
 **Initiative:** +15
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +25
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 37\
 **Experience points:** 19,200

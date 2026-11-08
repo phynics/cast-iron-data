@@ -31,19 +31,17 @@ _A dorsal fin rises up from the back of this immense black-and-white-furred, wol
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 11\
 **Subtype:** Cold, Shapechanger

@@ -33,19 +33,17 @@ blade he effortlessly wields._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **othersubs:** Dhampir
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 89\
 **Experience points:** 200

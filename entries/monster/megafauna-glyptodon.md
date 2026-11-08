@@ -35,13 +35,11 @@ and a short spiky tail._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 186\
 **Experience points:** 2,400

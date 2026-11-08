@@ -34,8 +34,6 @@ scaled, scarred, and blackened._
 
 **aura:** baleful beauty (30 ft., DC 39), shield of law (DC 31)
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Alignment:** Lawful evil
@@ -46,9 +44,7 @@ scaled, scarred, and blackened._
 
 **Perception:** +45
 
-**Senses:** Detect chaos, Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 20\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger

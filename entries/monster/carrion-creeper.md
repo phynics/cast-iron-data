@@ -35,11 +35,11 @@ with strength._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

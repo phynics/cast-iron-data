@@ -35,14 +35,10 @@ sizzling as it burns like acid through anything it touches._
 
 **Challenge rating:** 15
 
-**Sense:** Aav
-
 **aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 25), maddening hiss (100 ft.,
 DC 25)
 
 **Alignment:** Chaotic evil
-
-**dv:** 60
 
 **Size:** huge
 
@@ -52,7 +48,7 @@ DC 25)
 
 **Perception:** +26
 
-**Sense:** Scent
+**Senses:** All-around vision, Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 82\
 **Subtype:** Chaotic, Evil, Native

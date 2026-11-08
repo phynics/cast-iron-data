@@ -35,13 +35,9 @@ on her crown and staff._
 **Strix [shaman](ref/class/shaman) ([speaker for the past](ref/arc-shaman/speaker-for-the-past))
 12**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -50,6 +46,8 @@ on her crown and staff._
 **othersubs:** Strix
 
 **Perception:** +12 (+14 in dim light or darkness)
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 57\
 **Experience points:** 12,800

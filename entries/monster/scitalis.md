@@ -32,17 +32,15 @@ glass by the creature's inner glow._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 222\
 **Experience points:** 19,200

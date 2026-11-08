@@ -33,11 +33,11 @@ neck._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Size:** small
 

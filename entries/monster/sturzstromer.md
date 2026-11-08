@@ -35,13 +35,13 @@ disturbed earth and rock follows behind them._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Type:** outsider
 
 **Perception:** +33
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#138: Rise of New Thassilon pg 92\
 **Subtype:** Earth, Elemental, Extraplanar, Swarm

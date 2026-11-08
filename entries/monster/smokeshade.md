@@ -33,13 +33,13 @@ out from its body as swiftly as they collapse back into its central mass._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Nidal, Land of Shadows pg 64\
 **Subtype:** Extraplanar, Incorporeal

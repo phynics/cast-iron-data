@@ -33,8 +33,6 @@ a twisted mask of confusion and terror and its vestments surround it like a ghos
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +15
 
 **Lifesense:** present
@@ -42,6 +40,8 @@ a twisted mask of confusion and terror and its vestments surround it like a ghos
 **Size:** medium
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#137: The City Outside of Time pg 82\
 **Subtype:** Incorporeal

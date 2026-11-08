@@ -34,11 +34,11 @@ _A mouth like a lamprey's gnashes curved teeth at one end of this slimy, eel-lik
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 82\
 **Subtype:** Aquatic

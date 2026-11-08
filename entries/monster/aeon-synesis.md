@@ -33,8 +33,6 @@ cosmic starstuff._
 
 **aura:** cognitive aura (30 ft., DC 15)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -44,6 +42,8 @@ cosmic starstuff._
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 3\
 **Subtype:** Aeon, Extraplanar

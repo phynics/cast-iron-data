@@ -34,8 +34,6 @@ abilities = ["18", "16", "14", "8", "6", "10"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +7
@@ -43,6 +41,8 @@ abilities = ["18", "16", "14", "8", "6", "10"]
 **Size:** medium
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 170\
 **Subtype:** Orc

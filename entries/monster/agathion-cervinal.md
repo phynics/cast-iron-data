@@ -32,13 +32,9 @@ lower body of a majestic elk._
 
 **Challenge rating:** 17
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
@@ -46,7 +42,7 @@ lower body of a majestic elk._
 
 **Perception:** +31
 
-**Senses:** Detect scrying
+**Senses:** Darkvision 60 ft., Detect scrying, Low-light vision
 
 **Sources:** Bestiary 5 pg 12, Chronicle of the Righteous pg 58\
 **Subtype:** Agathion, Extraplanar, Good

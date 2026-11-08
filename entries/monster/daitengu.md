@@ -32,8 +32,6 @@ _This winged, humanoid ascetic's face is bright red and boasts a prodigiously lo
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -44,7 +42,7 @@ _This winged, humanoid ascetic's face is bright red and boasts a prodigiously lo
 
 **Perception:** +21
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 6 pg 79\
 **Subtype:** Native, Shapechanger

@@ -39,15 +39,13 @@ primeval scowl._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +0
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 84\
 **Experience points:** 400

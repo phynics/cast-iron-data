@@ -29,8 +29,6 @@ hands._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -38,6 +36,8 @@ hands._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 289\
 **Type:** undead

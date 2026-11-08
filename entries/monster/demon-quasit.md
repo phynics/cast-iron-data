@@ -33,13 +33,13 @@ wiry._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 66\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

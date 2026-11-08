@@ -31,8 +31,6 @@ abilities = ["30", "12", "19", "14", "17", "13"]
 
 **blindsense:** 10
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -41,7 +39,7 @@ abilities = ["30", "12", "19", "14", "17", "13"]
 
 **Perception:** +25
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 4 pg 187, Misfit Monsters Redeemed pg 50\
 **Experience points:** 4,800

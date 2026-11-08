@@ -42,7 +42,7 @@ scarf wrapped around its face._
 
 **Perception:** +8
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 54\
 **Subtype:** Dark folk

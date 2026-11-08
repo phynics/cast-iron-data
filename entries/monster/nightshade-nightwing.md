@@ -34,19 +34,13 @@ blackest night._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Perception:** +25
 
-**Senses:** Darksense
-
-**Senses:** Detect magic
+**Senses:** Darksense, Darkvision 60 ft., Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 203\
 **Subtype:** Extraplanar, Nightshade

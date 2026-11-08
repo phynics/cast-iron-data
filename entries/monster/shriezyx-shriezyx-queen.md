@@ -34,13 +34,13 @@ glowing eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 88\
 **tremorsense:** 60

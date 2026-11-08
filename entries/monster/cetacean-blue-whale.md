@@ -36,11 +36,11 @@ with layers of baleen._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +27
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#59: The Price of Infamy pg 86, Bestiary 5 pg 276\
 **Experience points:** 19,200

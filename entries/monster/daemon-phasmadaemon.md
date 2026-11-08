@@ -34,8 +34,6 @@ projecting from its sinuous body._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 27)
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -46,7 +44,7 @@ projecting from its sinuous body._
 
 **Perception:** +30
 
-**Senses:** Deathwatch, True seeing
+**Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
 **Sources:** Bestiary 6 pg 74, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 52\
 **Subtype:** Daemon, Evil, Extraplanar

@@ -33,19 +33,17 @@ blue tattoos._
 
 **Android [rogue](ref/class/rogue) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 19, Inner Sea Bestiary pg 3\
 **Subtype:** Android

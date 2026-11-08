@@ -33,13 +33,13 @@ abilities = ["15", "17", "-", "17", "14", "22"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 85\
 **Type:** undead

@@ -39,9 +39,7 @@ _This ebony dragon with red frills appears terribly contorted and trails shadows
 
 **Perception:** +12
 
-**Senses:** Dragon senses, Dreamsight
-
-**Sense:** Sid
+**Senses:** Dragon senses, Dreamsight, See in darkness
 
 **Sources:** Bestiary 5 pg 94\
 **Subtype:** Extraplanar

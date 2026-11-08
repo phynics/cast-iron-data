@@ -33,15 +33,13 @@ thorny vines._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 274\
 **Size:** tiny

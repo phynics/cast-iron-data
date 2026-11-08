@@ -35,8 +35,6 @@ flickering with wild flames._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -45,7 +43,7 @@ flickering with wild flames._
 
 **Perception:** +3
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Size:** small
 

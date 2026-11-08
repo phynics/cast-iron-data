@@ -31,8 +31,6 @@ of fresh gore._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Lifesense:** present
@@ -42,6 +40,8 @@ of fresh gore._
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 49\
 **Type:** undead

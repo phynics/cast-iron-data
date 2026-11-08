@@ -34,17 +34,15 @@ whip._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Planar Adventures pg 232\
 **Subtype:** Chaotic, Extraplanar, Shapechanger

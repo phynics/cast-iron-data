@@ -34,11 +34,7 @@ _Feathered arms emerge from the shoulders of this hunched raven, clutching a key
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), loneliness unbroken
 (100 ft.)
 
-**dv:** 60
-
 **Initiative:** +20
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -48,10 +44,8 @@ _Feathered arms emerge from the shoulders of this hunched raven, clutching a key
 
 **Perception:** +47
 
-**Senses:** Spiritsense
-
-**Senses:** Detect chaos, Detect evil, Detect good, Detect law, Detect thoughts, Detect undead, True
-seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, Detect thoughts,
+Detect undead, Low-light vision, Spiritsense, True seeing
 
 **Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 90\
 **Subtype:** Extraplanar, Psychopomp, Shapechanger

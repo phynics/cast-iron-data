@@ -34,13 +34,9 @@ stark-white bones commonly worn by his people._
 
 **Strix [bard](ref/class/bard) 6**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -49,6 +45,8 @@ stark-white bones commonly worn by his people._
 **othersubs:** Strix
 
 **Perception:** +9 (+11 in dim light or darkness)
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 55\
 **Experience points:** 1,600

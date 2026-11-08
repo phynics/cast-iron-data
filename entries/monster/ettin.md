@@ -40,9 +40,9 @@ large flail in each fist._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 130\
 **Subtype:** Giant

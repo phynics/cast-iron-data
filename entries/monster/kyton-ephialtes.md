@@ -35,8 +35,6 @@ iron bands, matching the fiend's tail as they writhe like snakes in search of pr
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -46,6 +44,8 @@ iron bands, matching the fiend's tail as they writhe like snakes in search of pr
 **Type:** outsider
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#30: The Twice-Damned Prince pg 86\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

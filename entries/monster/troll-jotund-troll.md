@@ -32,8 +32,6 @@ with jutting teeth and tusks._
 
 **Challenge rating:** 15
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
 
 **Size:** huge
@@ -42,11 +40,9 @@ with jutting teeth and tusks._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +26
 
-**Sense:** Scent
+**Senses:** All-around vision, Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 272\
 **Subtype:** Giant

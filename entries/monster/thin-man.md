@@ -36,11 +36,11 @@ hands with wickedly sharp nails._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 52\
 **Experience points:** 1,200

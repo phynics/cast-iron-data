@@ -36,8 +36,6 @@ covered in a viscous slime._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +4
 
 **Size:** medium
@@ -46,7 +44,7 @@ covered in a viscous slime._
 
 **Perception:** +2
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Darkvision 120 ft., Detect good, Detect magic, See invisibility
 
 **Sources:** Bestiary 3 pg 70\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar

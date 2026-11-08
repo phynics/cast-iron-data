@@ -31,11 +31,7 @@ _This bloated spider has a hunchbacked body and a gleam of intelligence in its m
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,6 +40,8 @@ _This bloated spider has a hunchbacked body and a gleam of intelligence in its m
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 30\
 **Subtype:** Shapechanger

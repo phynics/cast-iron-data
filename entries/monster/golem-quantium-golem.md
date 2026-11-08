@@ -33,19 +33,15 @@ hands._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** -2
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Senses:** Link
+**Senses:** Darkvision 60 ft., Link, Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 19\
 **Experience points:** 307,200

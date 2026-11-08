@@ -33,21 +33,17 @@ champion of countless wars._
 
 **Challenge rating:** 20
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +29
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 3 pg 210\
 **Subtype:** Giant, Native, Oni, Shapechanger

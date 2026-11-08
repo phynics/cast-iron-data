@@ -38,17 +38,15 @@ trickles down her arm._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +10
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#68: The Shackled Hut pg 84\
 **Subtype:** Chaotic, Extraplanar, Good

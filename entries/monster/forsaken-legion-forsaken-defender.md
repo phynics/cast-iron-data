@@ -29,8 +29,6 @@ _This undead soldier carries a heavy-looking pickaxe in one hand and a short swo
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful evil
@@ -38,6 +36,8 @@ _This undead soldier carries a heavy-looking pickaxe in one hand and a short swo
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 87\
 **Type:** undead

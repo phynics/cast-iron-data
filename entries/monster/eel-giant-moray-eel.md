@@ -37,13 +37,11 @@ large teeth and a second set of jaws._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 119\
 **Subtype:** Aquatic

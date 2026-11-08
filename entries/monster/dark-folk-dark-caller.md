@@ -41,9 +41,7 @@ _Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent 
 
 **Perception:** +8
 
-**Senses:** Detect magic
-
-**Sense:** Sid
+**Senses:** Detect magic, See in darkness
 
 **Sources:** Bestiary 4 pg 42\
 **Subtype:** Dark folk

@@ -33,8 +33,6 @@ given form._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful good
@@ -44,6 +42,8 @@ given form._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 165\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra

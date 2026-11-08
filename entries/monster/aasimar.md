@@ -34,8 +34,6 @@ benevolence._
 
 **Aasimar [cleric](ref/class/cleric) 1**
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -45,6 +43,8 @@ benevolence._
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 7\
 **Subtype:** Native

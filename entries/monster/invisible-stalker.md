@@ -31,8 +31,6 @@ creature's presence._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -42,6 +40,8 @@ creature's presence._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 181\
 **Subtype:** Air, Elemental, Extraplanar

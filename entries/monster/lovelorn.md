@@ -35,11 +35,11 @@ spider. Blood oozes from the glistening organ._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 182\
 **Size:** tiny

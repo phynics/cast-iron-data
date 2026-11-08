@@ -31,8 +31,6 @@ exterior of this tiny flying orb._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful evil
@@ -41,7 +39,7 @@ exterior of this tiny flying orb._
 
 **Perception:** +7
 
-**Senses:** Deathwatch
+**Senses:** Darkvision 60 ft., Deathwatch
 
 **Sources:** Bestiary 3 pg 171\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

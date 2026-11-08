@@ -31,19 +31,17 @@ of frightful fangs line the maw beneath its sharp beak._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#117: Assault on Longshadow pg 86\
 **tremorsense:** 60

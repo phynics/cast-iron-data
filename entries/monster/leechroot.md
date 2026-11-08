@@ -31,8 +31,6 @@ beneath it._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
@@ -40,6 +38,8 @@ beneath it._
 **Alignment:** Neutral evil
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 155, Tears at Bitter Manor pg 62\
 **tremorsense:** 30

@@ -34,8 +34,6 @@ has a wicked bow and a scorpion-like lower body._
 
 **Girtablilu [ranger](ref/class/ranger) 3**
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -45,6 +43,8 @@ has a wicked bow and a scorpion-like lower body._
 **Alignment:** Neutral
 
 **Perception:** +24
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 37\
 **tremorsense:** 30

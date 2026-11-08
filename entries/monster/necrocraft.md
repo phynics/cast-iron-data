@@ -30,8 +30,6 @@ predator._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -39,6 +37,8 @@ predator._
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 200\
 **Type:** undead

@@ -37,13 +37,11 @@ _This creature has the body of a middle-aged human man and the pointed ears and 
 
 **Initiative:** +13
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +38
 
-**Senses:** True seeing
+**Senses:** Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 224\
 **Experience points:** 204,800

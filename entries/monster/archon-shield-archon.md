@@ -34,19 +34,17 @@ other in a massive shield._
 
 **aura:** aura of menace (DC 18), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 31\
 **Subtype:** Archon, Extraplanar, Good, Lawful

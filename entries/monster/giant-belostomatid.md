@@ -31,8 +31,6 @@ insect._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -40,6 +38,8 @@ insect._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 14\
 **Subtype:** Aquatic

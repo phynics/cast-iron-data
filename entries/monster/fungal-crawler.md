@@ -31,13 +31,13 @@ _This giant fanged cricket is caked in pungent fungal growths and topped with a 
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

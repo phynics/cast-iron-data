@@ -45,7 +45,7 @@ within, and embedded with strange objects._
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder \#135: Runeplague pg 86\
 **Subtype:** Native, Water

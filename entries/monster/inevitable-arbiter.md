@@ -32,11 +32,7 @@ of which clutches a knife._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -44,7 +40,7 @@ of which clutches a knife._
 
 **Perception:** +5
 
-**Senses:** Detect chaos
+**Senses:** Darkvision 60 ft., Detect chaos, Low-light vision
 
 **Sources:** Bestiary 2 pg 162\
 **Subtype:** Extraplanar, Inevitable, Lawful

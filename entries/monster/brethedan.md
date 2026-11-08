@@ -34,8 +34,6 @@ dangling down beneath it._
 
 **blindsense:** 120
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -43,6 +41,8 @@ dangling down beneath it._
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 23, Distant Worlds pg 59\
 **Experience points:** 1,600

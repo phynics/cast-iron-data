@@ -32,8 +32,6 @@ its eyes should be._
 
 **aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ its eyes should be._
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 281\
 **Subtype:** Incorporeal

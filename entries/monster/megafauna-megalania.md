@@ -35,13 +35,11 @@ length of its body._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 193\
 **Experience points:** 3,200

@@ -36,19 +36,17 @@ keeps his bow at the ready._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Size:** medium
 
 **othersubs:** Strix
 
 **Perception:** +12 (+14 in dim light or darkness)
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 56\
 **Experience points:** 6,400

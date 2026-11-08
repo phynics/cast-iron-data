@@ -33,13 +33,13 @@ _This enormous owl has a silent gracefulness and wisdom about it despite its con
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Type:** Magical beast
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 213\
 **Experience points:** 1,600

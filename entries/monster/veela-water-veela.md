@@ -30,8 +30,6 @@ _This lithe, androgynous humanoid has unusually colored skin and an otherworldly
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -41,6 +39,8 @@ _This lithe, androgynous humanoid has unusually colored skin and an otherworldly
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 265\
 **Subtype:** Extraplanar, Water

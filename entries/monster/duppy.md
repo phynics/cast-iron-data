@@ -35,13 +35,13 @@ the creature's legs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 100, Isles of the Shackles pg 48\
 **Subtype:** Incorporeal

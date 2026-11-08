@@ -34,17 +34,15 @@ shimmers with heat._
 
 **aura:** radiance (10 ft., DC 15)
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
 **Type:** Magical beast
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#79: The Half-Dead City pg 86\
 **Subtype:** Fire

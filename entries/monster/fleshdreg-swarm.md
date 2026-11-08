@@ -33,15 +33,13 @@ and claws._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
 
-**Senses:** Sin-scent
+**Senses:** Darkvision 60 ft., Sin-scent
 
 **Sources:** Pathfinder \#61: Shards of Sin pg 83\
 **Subtype:** Swarm

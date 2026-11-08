@@ -38,11 +38,11 @@ colors and patterns._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** The First World, Realm of the Fey pg 59\
 **Experience points:** 800

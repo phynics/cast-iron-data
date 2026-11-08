@@ -35,15 +35,13 @@ forms, and long branches made of bones and fibrous fronds._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
 **Type:** plant
 
-**Senses:** Spiritsense
+**Senses:** Low-light vision, Spiritsense
 
 **Sources:** Pathfinder \#139: The Dead Road pg 82\
 **Subtype:** Extraplanar

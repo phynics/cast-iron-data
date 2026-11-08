@@ -32,13 +32,9 @@ maw with a red eye in its throat._
 
 **Challenge rating:** 24
 
-**Sense:** Aav
-
 **aura:** cloak of chaos (DC 24)
 
 **Alignment:** Chaotic evil
-
-**dv:** 60
 
 **Size:** gargantuan
 
@@ -48,7 +44,7 @@ maw with a red eye in its throat._
 
 **Perception:** +35
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** All-around vision, Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 66\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

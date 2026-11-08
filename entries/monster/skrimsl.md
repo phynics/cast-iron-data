@@ -31,19 +31,17 @@ eel-like creature._
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 253\
 **Subtype:** Aquatic

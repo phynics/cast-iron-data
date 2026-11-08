@@ -34,8 +34,6 @@ material._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral
@@ -43,6 +41,8 @@ material._
 **Type:** outsider
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -140,8 +140,6 @@ Plane near the borders of the Elemental Planes.
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -151,6 +149,8 @@ Plane near the borders of the Elemental Planes.
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 106\
 **Subtype:** Aether, Elemental, Extraplanar
@@ -211,8 +211,6 @@ Bonus feat.
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -222,6 +220,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 106\
 **Subtype:** Aether, Elemental, Extraplanar
@@ -288,8 +288,6 @@ Bonus feat.
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +13
@@ -299,6 +297,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 106\
 **Subtype:** Aether, Elemental, Extraplanar
@@ -366,8 +366,6 @@ Bonus feat.
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +14
@@ -377,6 +375,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 107\
 **Subtype:** Aether, Elemental, Extraplanar
@@ -444,8 +444,6 @@ Bonus feat.
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +15
@@ -455,6 +453,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 107\
 **Subtype:** Aether, Elemental, Extraplanar

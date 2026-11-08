@@ -38,9 +38,9 @@ pointed ears twitch at every sound._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Size:** small
 

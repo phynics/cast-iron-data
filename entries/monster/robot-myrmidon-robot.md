@@ -33,19 +33,15 @@ _This metallic creature has pincer-tipped arms, a single red eye, and an array o
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +20
 
-**Senses:** Superior optics
+**Senses:** Darkvision 60 ft., Low-light vision, Superior optics
 
 **Sources:** Bestiary 5 pg 208, Inner Sea Bestiary pg 45\
 **Subtype:** Robot

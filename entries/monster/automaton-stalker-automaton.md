@@ -33,11 +33,7 @@ head constantly shift in color._
 
 **Type:** construct
 
-**dv:** 120
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -46,6 +42,8 @@ head constantly shift in color._
 **othersubs:** Automaton
 
 **Perception:** +11
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 30\
 **Subtype:** Extraplanar

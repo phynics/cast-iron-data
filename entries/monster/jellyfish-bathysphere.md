@@ -32,15 +32,13 @@ with an eerie blue light._
 
 **Challenge rating:** 1/2
 
-**Sense:** Aav
-
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Planes of Power pg 58\
 **Subtype:** Aquatic, Extraplanar

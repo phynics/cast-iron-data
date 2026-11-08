@@ -35,13 +35,11 @@ of the creature's neck._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 94\
 **Experience points:** 2,400

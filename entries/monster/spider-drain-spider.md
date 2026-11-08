@@ -31,13 +31,13 @@ appear quite fearsome._
 
 **Challenge rating:** 1/4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Curse of the Crimson Throne pg 477\
 **Size:** tiny

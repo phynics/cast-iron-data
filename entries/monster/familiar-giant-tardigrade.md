@@ -33,13 +33,13 @@ water._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ultimate Wilderness pg 208\
 **Subtype:** Aquatic

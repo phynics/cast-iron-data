@@ -40,17 +40,15 @@ blue-scaled body._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +12, Mythic Improved Initiative
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +24
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Mythic Adventures pg 188\
 **Subtype:** Earth, Mythic

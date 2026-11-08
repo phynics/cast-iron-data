@@ -28,13 +28,13 @@ _A decaying humanoid head floats silently and ominously, its graying teeth eeril
 
 **Challenge rating:** 1/3
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 17, Pathfinder \#43: Haunting of Harrowstone pg 82\
 **Size:** tiny

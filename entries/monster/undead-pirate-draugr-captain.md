@@ -32,13 +32,13 @@ abilities = ["25", "18", "-", "14", "16", "17"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Isles of the Shackles pg 62\
 **Subtype:** Water

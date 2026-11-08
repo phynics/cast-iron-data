@@ -35,17 +35,15 @@ strands of ice._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 207\
 **Subtype:** Cold, Oni, Giant, Native, Shapechanger

@@ -36,8 +36,6 @@ the thrill of the coming kill._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +8
@@ -46,7 +44,7 @@ the thrill of the coming kill._
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Monster Codex pg 25\
 **Subtype:** Goblinoid

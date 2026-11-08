@@ -32,8 +32,6 @@ creature's orb-like body._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Neutral evil
@@ -42,7 +40,7 @@ creature's orb-like body._
 
 **Perception:** +7
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 60 ft., Detect good, Detect magic
 
 **Sources:** Bestiary 2 pg 64\
 **Subtype:** Daemon, Evil, Extraplanar

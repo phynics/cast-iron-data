@@ -42,7 +42,7 @@ teeth._
 
 **Perception:** +0
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 187\
 **Subtype:** Aquatic

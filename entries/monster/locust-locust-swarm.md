@@ -30,8 +30,6 @@ _Thousands upon thousands of locusts dance and drone in a dark and ravenous clou
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +2
@@ -39,6 +37,8 @@ _Thousands upon thousands of locusts dance and drone in a dark and ravenous clou
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 183\
 **Subtype:** Swarm

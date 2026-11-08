@@ -31,8 +31,6 @@ nuisance._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -41,9 +39,7 @@ nuisance._
 
 **Perception:** +7
 
-**Senses:** Detect good, Detect magic
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 78\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

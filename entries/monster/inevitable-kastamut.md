@@ -32,11 +32,7 @@ strange steel alloy. Its eyes glow with a piercing white light._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -45,6 +41,8 @@ strange steel alloy. Its eyes glow with a piercing white light._
 **Type:** outsider
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 86\
 **Subtype:** Extraplanar, Inevitable, Lawful

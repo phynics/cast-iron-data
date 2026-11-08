@@ -30,13 +30,13 @@ stinger._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

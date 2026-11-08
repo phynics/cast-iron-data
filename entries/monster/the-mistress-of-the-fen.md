@@ -33,19 +33,17 @@ primordial nature, and the abundant plant growth covering its body suggests both
 
 **Female unique water orm**
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Mystery Monsters Revisited pg 56\
 **Subtype:** Aquatic

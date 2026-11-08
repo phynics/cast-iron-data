@@ -33,11 +33,11 @@ _This sleek, furred creature has flaps of skin stretching between its limbs and 
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#85: Fires of Creation pg 82\
 **Size:** tiny

@@ -32,11 +32,11 @@ seem to bear tiny faces._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

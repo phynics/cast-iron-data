@@ -32,17 +32,15 @@ beneath its mottled black hide._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 82\
 **tremorsense:** 120

@@ -31,8 +31,6 @@ branches._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -43,7 +41,7 @@ branches._
 
 **Perception:** +25
 
-**Senses:** Deathwatch, True seeing
+**Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
 **Sources:** Bestiary 3 pg 164\
 **Subtype:** Kami, Native

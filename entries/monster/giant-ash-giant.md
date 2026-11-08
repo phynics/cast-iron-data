@@ -41,9 +41,9 @@ bulbous tumors._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 126\
 **Subtype:** Giant

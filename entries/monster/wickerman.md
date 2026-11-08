@@ -36,15 +36,13 @@ _This humanoid-shaped colossus is a towering fury of burning wicker and wood._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 277\
 **Subtype:** Fire

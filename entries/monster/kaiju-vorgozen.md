@@ -38,13 +38,13 @@ core to reveal a single red eye._
 
 **Size:** colossal
 
-**dv:** 600
-
 **Initiative:** +14
 
 **Type:** ooze
 
 **Perception:** +32
+
+**Senses:** Darkvision 600 ft.
 
 **Sources:** Bestiary 6 pg 172\
 **Subtype:** Kaiju, Water

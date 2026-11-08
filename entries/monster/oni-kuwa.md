@@ -32,19 +32,17 @@ four-fingered claws._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 208\
 **Subtype:** Human, Native, Oni, Shapechanger

@@ -34,13 +34,11 @@ _This stocky quadruped's lowered head puts its intimidating Y-shaped horn on ful
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 184\
 **Experience points:** 4,800

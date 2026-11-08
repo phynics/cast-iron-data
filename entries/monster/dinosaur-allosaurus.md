@@ -35,13 +35,11 @@ sharp claws._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +28
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 90\
 **Experience points:** 3,200

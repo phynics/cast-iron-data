@@ -32,11 +32,7 @@ creature's head._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -45,6 +41,8 @@ creature's head._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 218\
 **Subtype:** Evil, Extraplanar, Sahkil

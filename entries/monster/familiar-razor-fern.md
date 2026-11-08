@@ -30,11 +30,11 @@ _This vaguely human-shaped plant slashes out with dangerous-looking barbed frond
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

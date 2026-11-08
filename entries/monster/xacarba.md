@@ -34,21 +34,15 @@ together into one body._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +29
 
-**Sense:** Scent
-
-**Senses:** Arcane sight, Detect good, True seeing
+**Senses:** Arcane sight, Darkvision 120 ft., Detect good, Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 2 pg 288, Pathfinder \#18: Descent into Midnight pg 88\
 **Subtype:** Chaotic, Evil, Extraplanar

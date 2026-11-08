@@ -35,8 +35,6 @@ tail._
 
 **Ratfolk [gunslinger](ref/class/gunslinger) 3**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +5
@@ -44,6 +42,8 @@ tail._
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

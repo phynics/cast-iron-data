@@ -32,15 +32,13 @@ growths._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

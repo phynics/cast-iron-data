@@ -30,13 +30,13 @@ abilities = ["3", "15", "10", "3", "14", "2"]
 
 **blindsight:** 30
 
-**dv:** 30
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 30 ft.
 
 **Sources:** Pathfinder \#25: The Bastards of Erebus pg 84\
 **Subtype:** Swarm

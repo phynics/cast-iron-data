@@ -29,17 +29,15 @@ _A spiral pattern adorns the hood of this cobra-like serpent. Its gaze betrays a
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 44\
 **Size:** tiny

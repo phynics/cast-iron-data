@@ -36,8 +36,6 @@ frame._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -45,6 +43,8 @@ frame._
 **Type:** Monstrous humanoid
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 243\
 **Subtype:** Aquatic

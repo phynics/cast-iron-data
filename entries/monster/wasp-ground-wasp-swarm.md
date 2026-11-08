@@ -30,8 +30,6 @@ stings._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +1
@@ -39,6 +37,8 @@ stings._
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#79: The Half-Dead City pg 88\
 **Subtype:** Swarm

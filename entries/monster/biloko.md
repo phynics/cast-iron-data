@@ -36,13 +36,11 @@ grass and moss grow from its skin instead._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

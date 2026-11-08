@@ -41,15 +41,11 @@ slender hand._
 
 **Initiative:** +13
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +31
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Low-light vision, Scent, See in darkness
 
 **Sources:** Bestiary 6 pg 279\
 **Subtype:** Wild hunt

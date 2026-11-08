@@ -32,17 +32,15 @@ rises up to support the ceiling._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 46, Bonus Bestiary pg 8\
 **Experience points:** 800

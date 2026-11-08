@@ -39,7 +39,7 @@ stripes._
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 255\
 **Experience points:** 600

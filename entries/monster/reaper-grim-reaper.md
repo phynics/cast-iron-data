@@ -33,17 +33,15 @@ around it._
 
 **aura:** fear aura (40 ft., DC 36)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +35
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#48: Shadows of Gallowspire pg 86\
 **Subtype:** Evil, Extraplanar, Incorporeal

@@ -40,15 +40,13 @@ mountain of madness come to life._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +25
 
 **Alignment:** Neutral evil
 
 **Perception:** +49
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Pathfinder \#114: Black Stars Beckon pg 84\
 **Subtype:** Chaotic, Evil, Great Old One

@@ -36,17 +36,13 @@ tail tipped with four bony spikes._
 
 **Size:** colossal
 
-**dv:** 600
-
 **Initiative:** +17
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
-**Sense:** Mistsight
-
 **Perception:** +34
+
+**Senses:** Darkvision 600 ft., Low-light vision, Mistsight
 
 **Sources:** Bestiary 6 pg 170\
 **Subtype:** Fire, Kaiju

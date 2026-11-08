@@ -36,8 +36,6 @@ layer of crimson slime glistens on its flesh, dripping over its armor in red riv
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -46,7 +44,7 @@ layer of crimson slime glistens on its flesh, dripping over its armor in red riv
 
 **Perception:** +21
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Demons Revisited pg 8\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

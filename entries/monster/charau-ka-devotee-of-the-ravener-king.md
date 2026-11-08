@@ -35,19 +35,15 @@ horrible powers it serves._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
-
-**Sense:** Llv
 
 **othersubs:** Charau-ka
 
 **Perception:** +4
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Size:** small
 

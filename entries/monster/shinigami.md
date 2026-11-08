@@ -33,8 +33,6 @@ protrude from its shoulders._
 
 **aura:** fear aura (60 ft., DC 30)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -45,7 +43,7 @@ protrude from its shoulders._
 
 **Perception:** +31
 
-**Senses:** Detect chaos, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect law, True seeing
 
 **Sources:** Bestiary 3 pg 244\
 **Subtype:** Extraplanar, Lawful

@@ -33,13 +33,13 @@ long, sharp fangs protruding from a breathless mouth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#119: Prisoners of the Blight pg 90\
 **Type:** undead

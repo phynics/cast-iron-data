@@ -34,9 +34,9 @@ dirt, and pallid tubers._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

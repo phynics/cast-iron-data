@@ -31,29 +31,20 @@ atop its humanoid torso._
 
 **Challenge rating:** 15
 
-**Sense:** Aav
-
 **aura:** static aura (5 ft., 2d6 electricity)
 
 **Alignment:** Chaotic evil
-
-**dv:** 90
 
 **Initiative:** +12
 
 **Size:** large
 
-**Sense:** Llv
-
-**Sense:** Mistsight
-
 **Type:** Monstrous humanoid
 
 **Perception:** +22
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** All-around vision, Darkvision 90 ft., Low-light vision, Mistsight, Scent, See in
+darkness
 
 **Sources:** Bestiary 5 pg 236, Pathfinder \#70: The Frozen Stars pg 84\
 **Experience points:** 51,200

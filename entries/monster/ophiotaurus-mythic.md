@@ -34,13 +34,9 @@ hooves._
 
 **Mythic rank:** 7
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +15/-5, [dual initiative](ref/umr/dual-initiative)
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -48,7 +44,7 @@ hooves._
 
 **Perception:** +24
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 185\
 **Subtype:** Mythic

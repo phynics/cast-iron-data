@@ -34,13 +34,9 @@ tree trunk as a club._
 
 **Male sasquatch [ranger](ref/class/ranger) ([warden](ref/arc-ranger/warden)) 3**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -48,7 +44,7 @@ tree trunk as a club._
 
 **Perception:** +15
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mystery Monsters Revisited pg 45\
 **Subtype:** Sasquatch

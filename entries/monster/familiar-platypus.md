@@ -34,13 +34,11 @@ webbed feet._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
 
-**Senses:** Electrolocation 30 ft.
+**Senses:** Electrolocation 30 ft., Low-light vision
 
 **Sources:** Ultimate Wilderness pg 203, Animal Archive pg 30, Bestiary 4 pg 96\
 **Size:** tiny

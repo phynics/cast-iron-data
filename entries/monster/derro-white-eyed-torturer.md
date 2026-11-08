@@ -36,13 +36,13 @@ three of this wild-haired man's limbs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +7
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

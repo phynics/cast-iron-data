@@ -30,19 +30,17 @@ hisses a challenge._
 
 **Challenge rating:** 12
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 244\
 **Subtype:** Aquatic

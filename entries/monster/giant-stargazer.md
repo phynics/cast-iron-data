@@ -35,13 +35,13 @@ protruding._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#124: City in the Deep pg 86\
 **Subtype:** Aquatic

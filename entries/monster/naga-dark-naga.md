@@ -30,8 +30,6 @@ _A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -40,7 +38,7 @@ _A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-
 
 **Perception:** +19
 
-**Senses:** Detect thoughts
+**Senses:** Darkvision 60 ft., Detect thoughts
 
 **Sources:** Pathfinder RPG Bestiary pg 211\
 **Experience points:** 4,800

@@ -31,8 +31,6 @@ _This foul creature looks like an emaciated humanoid with the head of a jackal._
 
 **aura:** consumptive aura (20 ft.)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -43,7 +41,7 @@ _This foul creature looks like an emaciated humanoid with the head of a jackal._
 
 **Perception:** +20
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 60 ft., Detect good, Detect magic
 
 **Sources:** Bestiary 2 pg 69, Beyond the Vault of Souls pg 30\
 **Subtype:** Daemon, Evil, Extraplanar

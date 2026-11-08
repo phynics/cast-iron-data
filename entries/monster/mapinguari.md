@@ -32,19 +32,17 @@ displays knife-like talons._
 
 **aura:** [stench](ref/umr/stench) (30 ft., DC 22, 10 rounds)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 6 pg 183\
 **Experience points:** 12,800

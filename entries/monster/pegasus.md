@@ -31,21 +31,15 @@ grace._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +11
 
-**Sense:** Scent
-
-**Senses:** Detect evil, Detect good
+**Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 225\
 **Experience points:** 800

@@ -35,21 +35,15 @@ cloak around his waist and legs._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +17
 
 **Alignment:** Lawful evil
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +41
 
-**Senses:** Discern lies, True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Discern lies, Low-light vision, See in darkness, True seeing
 
 **Sources:** Pathfinder \#137: The City Outside of Time pg 86\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

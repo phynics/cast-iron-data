@@ -31,21 +31,19 @@ detachment of the owl it resembles._
 
 **Syrinx [adept](ref/npcclass/adept) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** -1
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Syrinx
 
 **Perception:** +3 (+5 at night)
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 51\
 **Experience points:** 135

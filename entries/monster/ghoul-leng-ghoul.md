@@ -33,13 +33,13 @@ gleam of intelligence._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 120\
 **Subtype:** Extraplanar

@@ -35,13 +35,11 @@ the animal itself._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Ultimate Wilderness pg 198\
 **Experience points:** 65

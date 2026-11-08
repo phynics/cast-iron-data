@@ -37,11 +37,11 @@ whole._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Osirion, Legacy of the Pharaohs pg 54\
 **Experience points:** 19,200

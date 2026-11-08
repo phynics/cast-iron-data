@@ -35,13 +35,11 @@ ungulate._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Animal Archive pg 28\
 **Experience points:** 800

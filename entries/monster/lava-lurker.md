@@ -32,8 +32,6 @@ and reforming rock._
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -43,6 +41,8 @@ and reforming rock._
 **Type:** outsider
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** The Emerald Spire Superdungeon pg 155\
 **Subtype:** Elemental, Extraplanar, Fire

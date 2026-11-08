@@ -29,8 +29,6 @@ abilities = ["1", "22", "21", "12", "12", "13"]
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** fine
 
 **Initiative:** +6
@@ -41,7 +39,7 @@ abilities = ["1", "22", "21", "12", "12", "13"]
 
 **Perception:** +18
 
-**Senses:** Sandsight
+**Senses:** Darkvision 60 ft., Sandsight
 
 **Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 86\
 **Subtype:** Earth, Elemental, Swarm

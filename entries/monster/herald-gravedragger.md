@@ -35,8 +35,6 @@ upper half is humanoid-shaped and wields an enormous pick made from a giant's ri
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22), unluck (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -49,9 +47,7 @@ upper half is humanoid-shaped and wields an enormous pick made from a giant's ri
 
 **Perception:** +23
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Scent, See in darkness
 
 **Sources:** Pathfinder \#89: Palace of Fallen Stars pg 86\
 **Subtype:** Evil

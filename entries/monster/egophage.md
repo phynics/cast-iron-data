@@ -33,13 +33,11 @@ _Eight tentacles ending in claws grow from the base of this glistening and grues
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Perception:** +23
 
-**Senses:** Analyze aura
+**Senses:** Analyze aura, Darkvision 60 ft.
 
 **Size:** small
 

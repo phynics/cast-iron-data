@@ -32,21 +32,17 @@ antler-like growths on its head._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
 **Perception:** +22
 
-**Type:** plant
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sense:** Scent
+**Type:** plant
 
 **Sources:** Pathfinder \#105: The Inferno Gate pg 86\
 **Experience points:** 12,800

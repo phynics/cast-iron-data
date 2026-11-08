@@ -30,11 +30,7 @@ abilities = ["12", "12", "15", "18", "14", "8"]
 
 **Gnoll [witch](ref/class/witch) ([bouda](ref/arc-witch/bouda)) 12**
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
-
-**dv:** 60
 
 **Type:** humanoid
 
@@ -45,6 +41,8 @@ abilities = ["12", "12", "15", "18", "14", "8"]
 **othersubs:** Gnoll
 
 **Perception:** +16
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 99\
 **Experience points:** 25,600

@@ -31,8 +31,6 @@ abilities = ["17", "21", "16", "5", "14", "6"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +5
 
 **Size:** medium
@@ -40,6 +38,8 @@ abilities = ["17", "21", "16", "5", "14", "6"]
 **Type:** Monstrous humanoid
 
 **Perception:** +2
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Pathfinder \#117: Assault on Longshadow pg 90\
 **Subtype:** Troop

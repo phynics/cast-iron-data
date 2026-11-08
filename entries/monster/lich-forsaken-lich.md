@@ -38,8 +38,6 @@ dry, stretched skin._
 
 **aura:** delusory aura (100 ft.)
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -47,6 +45,8 @@ dry, stretched skin._
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#48: Shadows of Gallowspire pg 82\
 **Type:** undead

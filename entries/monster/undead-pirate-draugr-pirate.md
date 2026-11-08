@@ -34,13 +34,13 @@ _No flavor text._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Isles of the Shackles pg 62\
 **Subtype:** Water

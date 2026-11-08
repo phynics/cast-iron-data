@@ -29,13 +29,13 @@ _These small, immature water insects are easily supported by the water's surface
 
 **Challenge rating:** 1/4
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

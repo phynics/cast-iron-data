@@ -37,9 +37,9 @@ frame her youthful features._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +18
+
+**Senses:** Low-light vision
 
 **Size:** small
 

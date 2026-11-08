@@ -30,8 +30,6 @@ threateningly._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +1
@@ -39,6 +37,8 @@ threateningly._
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 232\
 **tremorsense:** 60

@@ -33,8 +33,6 @@ with rows of razor-sharp teeth._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -43,7 +41,7 @@ with rows of razor-sharp teeth._
 
 **Perception:** +8
 
-**Senses:** Keen sight
+**Senses:** Darkvision 60 ft., Keen sight
 
 **Sources:** Inner Sea Bestiary pg 60\
 **tremorsense:** 30

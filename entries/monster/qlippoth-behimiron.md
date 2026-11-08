@@ -33,8 +33,6 @@ spiny carapace._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +9
@@ -42,6 +40,8 @@ spiny carapace._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 224\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

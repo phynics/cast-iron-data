@@ -30,8 +30,6 @@ razor-sharp edges and claws._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -39,6 +37,8 @@ razor-sharp edges and claws._
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 200\
 **Type:** vermin

@@ -31,21 +31,17 @@ poisonous cloud that flickers like fire._
 
 **Challenge rating:** 14
 
-**Sense:** Aav
-
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** All-around vision, Darkvision 120 ft., Low-light vision
 
 **Sources:** Cheliax, the Infernal Empire pg 58\
 **Subtype:** Aquatic

@@ -28,17 +28,15 @@ abilities = ["30", "17", "-", "9", "14", "21"]
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
 
-**Sense:** Mistsight
-
 **Alignment:** Neutral evil
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft., Mistsight
 
 **Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 89\
 **Subtype:** Air

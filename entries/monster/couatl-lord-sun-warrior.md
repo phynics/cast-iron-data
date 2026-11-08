@@ -31,8 +31,6 @@ _This brilliantly colored couatl radiates a palpable air of peace and wisdom._
 
 **Unique couatl**
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -43,7 +41,7 @@ _This brilliantly colored couatl radiates a palpable air of peace and wisdom._
 
 **Perception:** +32
 
-**Senses:** Detect chaos/evil/good/law
+**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
 
 **Sources:** Mythical Monsters Revisited pg 14\
 **Subtype:** Native

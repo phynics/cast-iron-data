@@ -30,13 +30,11 @@ abilities = ["11", "12", "15", "2", "13", "4"]
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Size:** small
 

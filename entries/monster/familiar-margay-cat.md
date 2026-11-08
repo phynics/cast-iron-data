@@ -33,13 +33,11 @@ _Black rosettes and streaks mark the brown fur of this slender feline._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Ultimate Wilderness pg 193\
 **Size:** tiny

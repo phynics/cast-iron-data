@@ -37,11 +37,11 @@ in one tremendous bite._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 51\
 **Experience points:** 6,400

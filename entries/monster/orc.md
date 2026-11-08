@@ -35,8 +35,6 @@ greasy black hair._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +0
@@ -44,6 +42,8 @@ greasy black hair._
 **Size:** medium
 
 **Perception:** -1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 222\
 **Experience points:** 135

@@ -45,7 +45,7 @@ coil and writhe beneath it._
 
 **Perception:** +17
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 6 pg 202\
 **Experience points:** 307,200

@@ -36,19 +36,15 @@ gently swaying vines._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +35
 
-**Senses:** Detect animals or plants, Detect evil, True seeing
+**Senses:** Darkvision 60 ft., Detect animals or plants, Detect evil, Low-light vision, True seeing
 
 **Sources:** Bestiary 6 pg 34, Chronicle of the Righteous pg 62\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

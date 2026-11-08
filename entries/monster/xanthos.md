@@ -30,19 +30,17 @@ head, neck, and back._
 
 **Challenge rating:** 14
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 282\
 **Experience points:** 38,400

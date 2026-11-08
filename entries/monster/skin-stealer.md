@@ -36,11 +36,11 @@ stripped of its skin, its pulsing muscles completely exposed._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#44: Trial of the Beast pg 88\
 **Experience points:** 600

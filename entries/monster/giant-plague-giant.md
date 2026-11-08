@@ -37,11 +37,11 @@ _This oversized humanoid is dressed in tattered rags that don't quite cover its 
 
 **Initiative:** +9
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +26
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 6 pg 134\
 **Subtype:** Giant

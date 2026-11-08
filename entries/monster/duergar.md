@@ -34,8 +34,6 @@ rather than reflect the light._
 
 **Duergar [warrior](ref/npcclass/warrior) 1**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** -1
@@ -45,6 +43,8 @@ rather than reflect the light._
 **Size:** medium
 
 **Perception:** +1
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 117\
 **Subtype:** Dwarf

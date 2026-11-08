@@ -33,8 +33,6 @@ covered with rusty metallic feathers, each resembling a weathered dagger._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Lawful evil
@@ -45,9 +43,7 @@ covered with rusty metallic feathers, each resembling a weathered dagger._
 
 **Perception:** +20
 
-**Senses:** Detect good
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect good, See in darkness
 
 **Sources:** Pathfinder \#101: The Kintargo Contract pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

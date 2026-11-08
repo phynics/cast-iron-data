@@ -36,8 +36,6 @@ look upon._
 **aura:** frightful presence (60 ft., DC 18), shroud of flame (15 ft., 2d6 fire, DC 22), smoke cloud
 (10 ft., DC 22)
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +13
@@ -47,6 +45,8 @@ look upon._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 195\
 **Subtype:** Elemental, Extraplanar, Fire, Mythic

@@ -36,13 +36,13 @@ of writhing tentacles._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 46\
 **Subtype:** Aquatic

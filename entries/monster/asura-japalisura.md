@@ -34,8 +34,6 @@ _This lithe, six-armed humanoid has tusks that curve from his chin and carries a
 
 **aura:** elusive (75 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful evil
@@ -46,7 +44,7 @@ _This lithe, six-armed humanoid has tusks that curve from his chin and carries a
 
 **Perception:** +25
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 84\
 **Subtype:** Asura, Evil, Extraplanar, Lawful

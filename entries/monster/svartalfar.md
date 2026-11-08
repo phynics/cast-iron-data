@@ -31,19 +31,17 @@ sword._
 
 **Challenge rating:** 8
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +5
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +18
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 256\
 **Subtype:** Extraplanar

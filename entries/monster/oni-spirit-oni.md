@@ -32,8 +32,6 @@ smile full of fangs._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -42,7 +40,7 @@ smile full of fangs._
 
 **Perception:** +7
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Bestiary 3 pg 209\
 **Subtype:** Native, Oni

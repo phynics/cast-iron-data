@@ -35,8 +35,6 @@ with small bones._
 
 **Female duskwalker [ranger](ref/class/ranger) 1**
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -46,6 +44,8 @@ with small bones._
 **Type:** outsider
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 230\
 **Subtype:** Native

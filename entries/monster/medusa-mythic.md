@@ -34,10 +34,6 @@ feet._
 
 **Mythic rank:** 3
 
-**Sense:** Aav
-
-**dv:** 60
-
 **Initiative:** +10, Mythic Improved Initiative
 
 **Alignment:** Lawful evil
@@ -47,6 +43,8 @@ feet._
 **Type:** Monstrous humanoid
 
 **Perception:** +18
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Mythic Adventures pg 209\
 **Subtype:** Mythic

@@ -32,17 +32,15 @@ some force other than its own rattling gears._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Numeria, Land of Fallen Stars pg 49\
 **Experience points:** 12,800

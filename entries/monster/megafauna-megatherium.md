@@ -35,13 +35,11 @@ foliage._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 187\
 **Experience points:** 1,600

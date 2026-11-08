@@ -31,11 +31,7 @@ its barrel-shaped body._
 
 **Challenge rating:** 5
 
-**Sense:** Aav
-
 **Type:** aberration
-
-**dv:** 60
 
 **Initiative:** +2
 
@@ -44,6 +40,8 @@ its barrel-shaped body._
 **Size:** medium
 
 **Perception:** +13
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 85, Pathfinder \#46: Wake of the Watcher pg 82\
 **Subtype:** Aquatic

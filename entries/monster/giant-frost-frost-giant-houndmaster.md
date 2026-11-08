@@ -38,13 +38,11 @@ abilities = ["28", "10", "20", "13", "23", "14"]
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +29
 
-**Senses:** Snowcaster
+**Senses:** Low-light vision, Snowcaster
 
 **Sources:** Monster Codex pg 74\
 **Subtype:** Cold, Giant

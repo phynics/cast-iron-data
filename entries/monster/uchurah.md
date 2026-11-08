@@ -38,13 +38,13 @@ that dangles under its vertically oriented mouth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Darklands Revisited pg 21\
 **Experience points:** 19,200

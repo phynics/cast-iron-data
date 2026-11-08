@@ -35,11 +35,11 @@ _This small, furry creature has enormous glossy eyes, long legs, and elongated f
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 208\
 **Experience points:** 65

@@ -32,8 +32,6 @@ abilities = ["10", "23", "20", "16", "22", "20"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -42,7 +40,7 @@ abilities = ["10", "23", "20", "16", "22", "20"]
 
 **Perception:** +21
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Monster Codex pg 207\
 **Experience points:** 38,400

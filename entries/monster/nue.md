@@ -30,19 +30,17 @@ of a tiger with a viper as a tail._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 204\
 **Experience points:** 9,600

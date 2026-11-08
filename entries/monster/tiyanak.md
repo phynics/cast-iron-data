@@ -33,13 +33,11 @@ jagged teeth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Size:** small
 

@@ -36,8 +36,6 @@ _This anemic protean wears a wizard's robe and garish jewelry._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -46,7 +44,7 @@ _This anemic protean wears a wizard's robe and garish jewelry._
 
 **Perception:** +18
 
-**Senses:** Arcane sight, Detect law
+**Senses:** Arcane sight, Darkvision 60 ft., Detect law
 
 **Sources:** Concordance of Rivals pg 57\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

@@ -32,8 +32,6 @@ strange wheel-appendage._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -41,6 +39,8 @@ strange wheel-appendage._
 **Type:** Monstrous humanoid
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#127: Crownfall pg 86\
 **Experience points:** 800

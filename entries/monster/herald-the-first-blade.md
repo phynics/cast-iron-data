@@ -36,13 +36,9 @@ some merciless warlord._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
-
-**Sense:** Llv
 
 **othersubs:** Herald
 
@@ -50,7 +46,7 @@ some merciless warlord._
 
 **Perception:** +23
 
-**Senses:** Ironsense 60 ft.
+**Senses:** Darkvision 60 ft., Ironsense 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 288, Pathfinder \#35: War of the River Kings pg 82\
 **Subtype:** Chaotic, Extraplanar

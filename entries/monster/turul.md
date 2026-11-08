@@ -31,8 +31,6 @@ _Flickers of light and energy radiate from this awe-inspiring, bird-like creatur
 
 **Challenge rating:** 19
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +7
@@ -43,7 +41,7 @@ _Flickers of light and energy radiate from this awe-inspiring, bird-like creatur
 
 **Perception:** +37
 
-**Senses:** Detect magic, See invisibility
+**Senses:** Darkvision 60 ft., Detect magic, See invisibility
 
 **Sources:** Bestiary 5 pg 256\
 **Subtype:** Extraplanar

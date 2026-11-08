@@ -38,8 +38,6 @@ _This armored humanoid has skin resembling white bone, carved with images of wea
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -47,6 +45,8 @@ _This armored humanoid has skin resembling white bone, carved with images of wea
 **othersubs:** Udaeus
 
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 267\
 **Subtype:** Mythic

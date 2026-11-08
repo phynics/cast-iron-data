@@ -31,13 +31,13 @@ _This mangy stray animal growls and whimpers miserably. Stinking blue drool drip
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

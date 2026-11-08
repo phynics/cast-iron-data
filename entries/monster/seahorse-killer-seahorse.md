@@ -36,11 +36,11 @@ _This elephant-sized sea creature resembles a horse crossed with a fish, with cr
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 234\
 **Subtype:** Aquatic

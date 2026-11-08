@@ -33,19 +33,17 @@ battle-worn spear._
 
 **aura:** icy aura (10 ft., DC 24)
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
 **Size:** medium
 
 **Perception:** +25
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Irrisen - Land of Eternal Winter pg 53\
 **Experience points:** 25,600

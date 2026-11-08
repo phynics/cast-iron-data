@@ -35,13 +35,13 @@ leering, crudely carved face._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

@@ -35,8 +35,6 @@ eyes._
 
 **Hobgoblin [monk](ref/class/monk) 11**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +8
@@ -46,6 +44,8 @@ eyes._
 **Size:** medium
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 122\
 **Subtype:** Goblinoid

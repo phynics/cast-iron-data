@@ -32,8 +32,6 @@ decorated with skulls._
 
 **Challenge rating:** 13
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -42,9 +40,9 @@ decorated with skulls._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 15, Bestiary 6 pg 135\
 **Subtype:** Extraplanar, Giant

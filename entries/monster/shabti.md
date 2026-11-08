@@ -32,8 +32,6 @@ _Light shimmers across this humanoid figure's bare golden skin, illuminating reg
 
 **Shabti [oracle](ref/class/oracle) 1**
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful neutral
@@ -43,6 +41,8 @@ _Light shimmers across this humanoid figure's bare golden skin, illuminating reg
 **Type:** outsider
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 227, Pathfinder \#84: Pyramid of the Sky Pharaoh pg 90\
 **Subtype:** Native

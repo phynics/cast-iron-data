@@ -35,15 +35,13 @@ _The razor-sharp wings of a thousand stained glass insects jingle with a resonan
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#101: The Kintargo Contract pg 86\
 **Subtype:** Swarm

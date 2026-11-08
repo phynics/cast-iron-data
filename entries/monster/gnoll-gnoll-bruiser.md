@@ -32,8 +32,6 @@ abilities = ["19", "14", "15", "6", "12", "8"]
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -43,6 +41,8 @@ abilities = ["19", "14", "15", "6", "12", "8"]
 **othersubs:** Gnoll
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 95\
 **Experience points:** 800

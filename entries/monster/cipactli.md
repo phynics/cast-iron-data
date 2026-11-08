@@ -34,21 +34,15 @@ open in its body and tail._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 180
-
 **Size:** gargantuan
 
 **Initiative:** +10
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +35
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Darkvision 180 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 6 pg 56\
 **Subtype:** Aquatic

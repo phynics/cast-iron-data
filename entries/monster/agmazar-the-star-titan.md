@@ -42,9 +42,7 @@ arms move with supple grace._
 
 **Perception:** +49
 
-**Senses:** Creaturesense
-
-**Sense:** Sid
+**Senses:** Creaturesense, See in darkness
 
 **Sources:** Mythic Realms pg 46\
 **Subtype:** Cold, Kaiju

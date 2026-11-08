@@ -34,11 +34,7 @@ its stately mouth, and its human-like hands and feet end in stubby but sharp cla
 
 **aura:** fear (30 ft., DC 16)
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -47,6 +43,8 @@ its stately mouth, and its human-like hands and feet end in stubby but sharp cla
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#61: Shards of Sin pg 80\
 **Subtype:** Aquatic, Extraplanar, Good

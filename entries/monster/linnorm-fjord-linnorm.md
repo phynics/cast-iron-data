@@ -36,19 +36,13 @@ flukes._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Perception:** +24
 
-**Sense:** Scent
-
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
 **Sources:** Bestiary 3 pg 183\
 **Subtype:** Aquatic

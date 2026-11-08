@@ -34,8 +34,6 @@ intelligence._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
@@ -44,11 +42,11 @@ intelligence._
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 196\
 **Experience points:** 4,800

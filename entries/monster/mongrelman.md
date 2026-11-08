@@ -30,11 +30,7 @@ shape._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -43,6 +39,8 @@ shape._
 **Type:** Monstrous humanoid
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 191\
 **Experience points:** 400

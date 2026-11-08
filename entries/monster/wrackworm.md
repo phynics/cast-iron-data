@@ -38,13 +38,13 @@ a massive fanged mouth._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Type:** outsider
 
 **Perception:** +33
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 250\
 **Subtype:** Chaotic, Evil, Extraplanar

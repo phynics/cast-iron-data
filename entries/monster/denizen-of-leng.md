@@ -32,8 +32,6 @@ one studies its twitching visage._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** medium
@@ -41,6 +39,8 @@ one studies its twitching visage._
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 82, Pathfinder \#6: Spires of Xin-Shalast pg 78\
 **Subtype:** Chaotic, Evil, Extraplanar

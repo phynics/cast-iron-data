@@ -34,11 +34,7 @@ shape, crackling with energy._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -47,6 +43,8 @@ shape, crackling with energy._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 120, Pathfinder \#59: The Price of Infamy pg 88\
 **Subtype:** Aquatic

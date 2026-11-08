@@ -33,8 +33,6 @@ _A predatory gleam glints in the eyes of this stern-looking aquatic elf._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Lawful evil
@@ -44,6 +42,8 @@ _A predatory gleam glints in the eyes of this stern-looking aquatic elf._
 **Type:** Monstrous humanoid
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 84\
 **Subtype:** Aquatic

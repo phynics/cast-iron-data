@@ -33,8 +33,6 @@ _The dull gray skin of this dwarf ripples with kinetic power._
 
 **Duergar tyrant [geokineticist](ref/class/kineticist) 3**
 
-**dv:** 120
-
 **Type:** humanoid
 
 **Initiative:** +1
@@ -44,6 +42,8 @@ _The dull gray skin of this dwarf ripples with kinetic power._
 **Size:** medium
 
 **Perception:** +8
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Occult Bestiary pg 23\
 **Subtype:** Dwarf

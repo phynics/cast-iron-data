@@ -32,8 +32,6 @@ with a fluid grace._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful neutral
@@ -43,6 +41,8 @@ with a fluid grace._
 **Type:** outsider
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 252, The Emerald Spire Superdungeon pg 158\
 **Subtype:** Earth, Elemental, Extraplanar

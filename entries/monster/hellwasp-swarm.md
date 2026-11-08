@@ -33,13 +33,13 @@ eyes._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful evil
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 146\
 **Subtype:** Extraplanar, Swarm

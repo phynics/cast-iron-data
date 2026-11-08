@@ -36,11 +36,11 @@ placid eyes._
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 263\
 **Experience points:** 4,800

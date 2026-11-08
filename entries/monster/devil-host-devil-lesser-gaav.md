@@ -33,8 +33,6 @@ clawed arms work together to slash the air with a vicious-looking spear._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ clawed arms work together to slash the air with a vicious-looking spear._
 
 **Perception:** +6
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Size:** small
 

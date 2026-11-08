@@ -38,17 +38,13 @@ its chest._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +12
 
-**Sense:** Scent
-
-**Senses:** Taste fear
+**Senses:** Darkvision 60 ft., Scent, Taste fear
 
 **Sources:** Down the Blighted Path pg 56\
 **Experience points:** 3,200

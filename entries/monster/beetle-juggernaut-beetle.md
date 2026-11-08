@@ -28,19 +28,17 @@ _This massive insect lumbers ominously, waving scythe-like mandibles that reek o
 
 **Challenge rating:** 14
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +14
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Monster Codex pg 52\
 **Experience points:** 38,400

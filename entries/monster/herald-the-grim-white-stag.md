@@ -36,19 +36,15 @@ limbs of some ancient, leaf less tree._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful good
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +22
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Sources:** Inner Sea Gods pg 286, Pathfinder \#32: Rivers Run Red pg 82\
 **Subtype:** Extraplanar, Good, Lawful

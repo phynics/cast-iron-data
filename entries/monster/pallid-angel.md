@@ -34,11 +34,7 @@ soaked and splattered with blood, wine, and other fluids._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 21)
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -48,7 +44,7 @@ soaked and splattered with blood, wine, and other fluids._
 
 **Perception:** +18
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision
 
 **Sources:** Pathfinder \#141: Last Watch pg 82\
 **Subtype:** Evil, Extraplanar

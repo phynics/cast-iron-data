@@ -36,11 +36,11 @@ digging claws._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 201\
 **tremorsense:** 15

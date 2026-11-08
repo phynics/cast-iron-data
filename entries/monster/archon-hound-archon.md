@@ -33,13 +33,9 @@ than a common beast._
 
 **aura:** aura of menace (DC 16), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful good
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -47,9 +43,7 @@ than a common beast._
 
 **Perception:** +10
 
-**Sense:** Scent
-
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 19\
 **Subtype:** Archon, Extraplanar, Good, Lawful

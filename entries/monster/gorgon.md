@@ -29,13 +29,9 @@ smoke puff from its mouth._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -43,7 +39,7 @@ smoke puff from its mouth._
 
 **Perception:** +17
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 165\
 **Experience points:** 4,800

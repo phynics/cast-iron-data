@@ -32,17 +32,15 @@ quills._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 212, Pathfinder \#33: The Varnhold Vanishing pg 86\
 **Experience points:** 9,600

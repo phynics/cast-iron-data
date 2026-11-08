@@ -34,8 +34,6 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Kobold [sorcerer](ref/class/sorcerer) 1**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +7
@@ -43,6 +41,8 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 **Alignment:** Lawful neutral
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

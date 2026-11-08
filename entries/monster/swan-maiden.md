@@ -38,11 +38,11 @@ with a winged helm._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 257\
 **Subtype:** Shapechanger

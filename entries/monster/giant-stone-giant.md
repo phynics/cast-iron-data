@@ -31,19 +31,17 @@ it were carved of stone._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 151\
 **Subtype:** Giant

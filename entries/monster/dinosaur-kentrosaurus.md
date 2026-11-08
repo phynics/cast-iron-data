@@ -36,13 +36,11 @@ projecting from its shoulders._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 95\
 **Experience points:** 1,600

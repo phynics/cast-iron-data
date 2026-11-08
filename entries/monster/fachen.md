@@ -34,8 +34,6 @@ unusual grace._
 
 **aura:** fear (30 ft., DC 15)
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -43,6 +41,8 @@ unusual grace._
 **Alignment:** Neutral evil
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 95, Pathfinder \#63: The Asylum Stone pg 88\
 **Experience points:** 1,600

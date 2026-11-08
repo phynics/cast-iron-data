@@ -43,9 +43,9 @@ and a coral-encrusted shield._
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +33
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 56\
 **Subtype:** Giant

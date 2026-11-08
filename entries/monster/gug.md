@@ -34,13 +34,13 @@ into twin clawed hands._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 151, Pathfinder \#11: Skeletons of Scarwall pg 82\
 **Experience points:** 9,600

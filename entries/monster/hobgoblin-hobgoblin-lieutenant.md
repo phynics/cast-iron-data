@@ -35,8 +35,6 @@ eyes._
 
 **Hobgoblin [ranger](ref/class/ranger) 5**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
@@ -46,6 +44,8 @@ eyes._
 **Size:** medium
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 119\
 **Subtype:** Goblinoid

@@ -36,11 +36,7 @@ sleek killer whale._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -49,6 +45,8 @@ sleek killer whale._
 **Type:** outsider
 
 **Perception:** +28
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 17\
 **Subtype:** Agathion, Aquatic, Extraplanar, Good

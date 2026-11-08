@@ -31,19 +31,15 @@ oversized ears stick out from the sides of its head, and it wears its long earlo
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Perception:** +13
 
-**Senses:** Child-scent
+**Senses:** Child-scent, Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 84\
 **Experience points:** 800

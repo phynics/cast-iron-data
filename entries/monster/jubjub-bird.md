@@ -31,13 +31,9 @@ rest of its body is bare and scaly._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -45,7 +41,7 @@ rest of its body is bare and scaly._
 
 **Perception:** +24
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 157\
 **Experience points:** 51,200

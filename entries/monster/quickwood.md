@@ -31,13 +31,9 @@ like any other ragged oak tree._
 
 **aura:** fear aura (variable distance, DC 20)
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
@@ -45,7 +41,7 @@ like any other ragged oak tree._
 
 **Type:** plant
 
-**Senses:** Oaksight
+**Senses:** Darkvision 120 ft., Low-light vision, Oaksight
 
 **Sources:** Bestiary 2 pg 228\
 **Experience points:** 4,800

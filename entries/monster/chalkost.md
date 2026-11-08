@@ -31,8 +31,6 @@ stylized boar tusks._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Lawful good
@@ -42,6 +40,8 @@ stylized boar tusks._
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Gods pg 311\
 **Subtype:** Extraplanar, Good, Lawful, Shapechanger

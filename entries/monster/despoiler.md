@@ -32,13 +32,13 @@ _Three spears of obsidian energy skewer this cadaverous figure._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Seers of the Drowned City pg 56\
 **Type:** undead

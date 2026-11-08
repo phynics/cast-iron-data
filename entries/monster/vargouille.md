@@ -31,8 +31,6 @@ its fanged mouth hangs agape._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
@@ -40,6 +38,8 @@ its fanged mouth hangs agape._
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

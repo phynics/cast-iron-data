@@ -30,8 +30,6 @@ _This grinning spectre has mad eyes and blood-red hands that twitch and jerk lik
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +15
 
 **Size:** medium
@@ -39,6 +37,8 @@ _This grinning spectre has mad eyes and blood-red hands that twitch and jerk lik
 **Alignment:** Neutral evil
 
 **Perception:** +29
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 108\
 **Subtype:** Incorporeal

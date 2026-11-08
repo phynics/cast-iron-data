@@ -43,11 +43,11 @@ and her bestial legs._
 
 **Initiative:** +26, Mythic Improved Initiative
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +37
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 5 pg 124\
 **Subtype:** Earth, Mythic

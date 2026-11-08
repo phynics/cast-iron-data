@@ -34,8 +34,6 @@ ghostly body, which appears stuffed with decaying leaves and other plant matter.
 
 **Challenge rating:** 13
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ ghostly body, which appears stuffed with decaying leaves and other plant matter.
 **Size:** medium
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#40: Vaults of Madness pg 82\
 **Subtype:** Incorporeal

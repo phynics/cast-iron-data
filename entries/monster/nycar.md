@@ -36,15 +36,11 @@ fangs._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 207\
 **Subtype:** Aquatic

@@ -38,17 +38,13 @@ gauntlets fit for oversized talons._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +29
 
-**Senses:** Deathwatch, True seeing
-
-**Sense:** Sid
+**Senses:** Deathwatch, Low-light vision, See in darkness, True seeing
 
 **Sources:** Bestiary 5 pg 268\
 **Subtype:** Shapechanger

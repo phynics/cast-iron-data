@@ -32,15 +32,13 @@ teeth and glowing, orange eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +6
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 142, Pathfinder \#19: Howl of the Carrion King pg 82\
 **Size:** tiny

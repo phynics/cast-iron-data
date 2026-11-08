@@ -35,13 +35,11 @@ glistening teeth._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 41, Pathfinder \#67: The Snows of Summer pg 82\
 **Experience points:** 1,600

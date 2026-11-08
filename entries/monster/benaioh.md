@@ -35,17 +35,15 @@ creature's body, leaking a steady stream of putrescent slime._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** -4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#93: Forge of the Giant God pg 84\
 **tremorsense:** 90

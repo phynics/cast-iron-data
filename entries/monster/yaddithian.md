@@ -36,8 +36,6 @@ vaguely humanoid shape._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -45,6 +43,8 @@ vaguely humanoid shape._
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 285\
 **Experience points:** 4,800

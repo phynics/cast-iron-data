@@ -35,11 +35,11 @@ _An attractive green-skinned woman sits in the depths of this enormous, sweet-sm
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

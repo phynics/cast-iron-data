@@ -35,8 +35,6 @@ welcoming._
 
 **Female [scylla](ref/monster/scylla) [cleric](ref/class/cleric) of [Rovagug](ref/faith/rovagug) 8**
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 27)
@@ -45,17 +43,13 @@ welcoming._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +14
 
-**Sense:** Llv
-
 **Perception:** +34
 
-**Senses:** See invisibility
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 68\
 **Subtype:** Aquatic

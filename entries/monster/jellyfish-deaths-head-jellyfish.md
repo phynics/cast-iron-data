@@ -30,13 +30,13 @@ _This long-tentacled jellyfish has a wide bell with a vaguely skull-shaped patte
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

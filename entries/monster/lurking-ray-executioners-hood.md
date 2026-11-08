@@ -31,15 +31,13 @@ abilities = ["10", "12", "12", "3", "13", "9"]
 
 **blindsense:** 10
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Bestiary 4 pg 186, Misfit Monsters Redeemed pg 50\
 **Size:** tiny

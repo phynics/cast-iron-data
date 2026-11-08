@@ -31,11 +31,7 @@ dirt-stained smock; its pink nose twitches ceaselessly._
 
 **Challenge rating:** 3
 
-**dv:** 120
-
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
@@ -43,7 +39,7 @@ dirt-stained smock; its pink nose twitches ceaselessly._
 
 **Perception:** +12
 
-**Senses:** Detect snares and pits
+**Senses:** Darkvision 120 ft., Detect snares and pits, Low-light vision
 
 **Size:** small
 

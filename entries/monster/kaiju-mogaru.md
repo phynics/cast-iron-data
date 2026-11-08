@@ -37,19 +37,13 @@ glowing with red energy._
 
 **Size:** colossal
 
-**dv:** 600
-
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +45
 
-**Senses:** Sense kaiju
-
-**Senses:** See invisibility
+**Senses:** Darkvision 600 ft., Low-light vision, See invisibility, Sense kaiju
 
 **Sources:** Bestiary 4 pg 170\
 **Subtype:** Kaiju, Water

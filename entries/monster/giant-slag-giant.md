@@ -38,11 +38,11 @@ determination and detachment._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Lawful neutral
 
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 129\
 **Subtype:** Giant

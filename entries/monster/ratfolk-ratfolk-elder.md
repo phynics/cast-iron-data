@@ -35,8 +35,6 @@ tail._
 
 **Ratfolk [cleric](ref/class/cleric) of [Abadar](ref/faith/abadar) 9**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
@@ -44,6 +42,8 @@ tail._
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

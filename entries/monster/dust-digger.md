@@ -32,8 +32,6 @@ circular toothy maw._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
@@ -41,6 +39,8 @@ circular toothy maw._
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 112\
 **tremorsense:** 60

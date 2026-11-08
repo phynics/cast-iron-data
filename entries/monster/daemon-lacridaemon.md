@@ -33,8 +33,6 @@ tears. Frost crusts its flesh._
 
 **aura:** weeping (100 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -45,7 +43,7 @@ tears. Frost crusts its flesh._
 
 **Perception:** +8
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 60 ft., Detect good, Detect magic
 
 **Sources:** Bestiary 6 pg 71, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 48\
 **Subtype:** Daemon, Evil, Extraplanar

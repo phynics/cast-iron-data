@@ -39,11 +39,9 @@ ears._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +6
 
-**Senses:** Detect evil, Detect good
+**Senses:** Detect evil, Detect good, Low-light vision
 
 **Sources:** Bestiary 3 pg 256\
 **Experience points:** 135

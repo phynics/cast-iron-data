@@ -33,13 +33,9 @@ its head independently._
 
 **Mythic rank:** 6
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
-
-**Sense:** Mistsight
 
 **Alignment:** Neutral
 
@@ -47,7 +43,7 @@ its head independently._
 
 **Perception:** +26
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Darkvision 60 ft., Mistsight
 
 **Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 90\
 **Subtype:** Elemental, Extraplanar, Mythic, Water

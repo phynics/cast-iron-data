@@ -39,11 +39,11 @@ skin._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +19
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 88\
 **Experience points:** 9,600

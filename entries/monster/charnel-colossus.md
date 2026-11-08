@@ -33,15 +33,13 @@ amalgamated whole._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral evil
 
 **Perception:** +50
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Inner Sea Bestiary pg 10\
 **Type:** undead

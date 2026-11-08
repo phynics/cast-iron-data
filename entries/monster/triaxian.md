@@ -38,8 +38,6 @@ fur._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
@@ -47,6 +45,8 @@ fur._
 **othersubs:** Triaxian
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#70: The Frozen Stars pg 86\
 **Experience points:** 200

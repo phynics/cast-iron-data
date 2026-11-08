@@ -32,15 +32,13 @@ back, covering it like a cloak._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +9
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Size:** small
 

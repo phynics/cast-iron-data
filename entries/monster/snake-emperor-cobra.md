@@ -35,13 +35,11 @@ flaring in an unmistakable warning._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +13
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 252\
 **Experience points:** 1,600

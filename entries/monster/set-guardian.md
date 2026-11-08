@@ -33,17 +33,15 @@ head of a long-snouted canine. Ruby gems sparkle in its eye sockets._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 88\
 **Experience points:** 25,600

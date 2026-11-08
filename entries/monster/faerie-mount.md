@@ -33,15 +33,13 @@ _Short legs and overlarge ears make this broad-chested canine seem almost comica
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#119: Prisoners of the Blight pg 82\
 **Experience points:** 400

@@ -32,17 +32,15 @@ form of a burning crown._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Magnimar, City of Monuments pg 52\
 **Experience points:** 1,600

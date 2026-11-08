@@ -34,8 +34,6 @@ In one hand, he clutches a great blade, while his other hand holds an idol of so
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +3
 
 **Size:** medium
@@ -44,7 +42,7 @@ In one hand, he clutches a great blade, while his other hand holds an idol of so
 
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Darkvision 120 ft., Scent
 
 **Sources:** Darklands Revisited pg 33\
 **Experience points:** 1,600

@@ -30,17 +30,15 @@ its beak is razor-sharp._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral evil
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

@@ -29,19 +29,17 @@ human woman._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 257\
 **Experience points:** 4,800

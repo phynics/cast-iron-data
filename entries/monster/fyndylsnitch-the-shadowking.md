@@ -35,15 +35,13 @@ delight._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

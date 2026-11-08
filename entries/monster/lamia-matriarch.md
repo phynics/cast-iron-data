@@ -34,17 +34,15 @@ of an immense snake._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Monstrous humanoid
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 175, Pathfinder \#2: The Skinsaw Murders pg 92\
 **Subtype:** Shapechanger

@@ -32,13 +32,9 @@ gnash. Six legs, each ending in spade-like claws, support its bulk._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -46,7 +42,7 @@ gnash. Six legs, each ending in spade-like claws, support its bulk._
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#81: Shifting Sands pg 88\
 **Subtype:** Earth

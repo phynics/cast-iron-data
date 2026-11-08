@@ -30,8 +30,6 @@ thorax._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -39,6 +37,8 @@ thorax._
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 36\
 **Type:** vermin

@@ -33,13 +33,9 @@ bulk._
 
 **Mythic rank:** 3
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +1/-19, [dual initiative](ref/umr/dual-initiative)
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -47,7 +43,7 @@ bulk._
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 204\
 **Subtype:** Mythic

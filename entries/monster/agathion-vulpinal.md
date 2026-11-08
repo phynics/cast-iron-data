@@ -33,11 +33,7 @@ instrument in one hand._
 
 **aura:** calm emotions (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
@@ -45,7 +41,7 @@ instrument in one hand._
 
 **Perception:** +12
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Size:** small
 

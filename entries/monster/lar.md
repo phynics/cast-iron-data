@@ -32,19 +32,17 @@ and curious._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful good
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 86\
 **Subtype:** Good, Incorporeal, Lawful, Native

@@ -40,11 +40,7 @@ crown its head._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +21, Mythic Improved Initiative
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -52,9 +48,7 @@ crown its head._
 
 **Perception:** +30
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, See in darkness
 
 **Sources:** Bestiary 4 pg 164\
 **Subtype:** Aquatic, Extraplanar, Mythic, Shapechanger

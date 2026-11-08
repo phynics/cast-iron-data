@@ -35,19 +35,15 @@ spurting from its flesh._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +38
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Pathfinder RPG Bestiary pg 58\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

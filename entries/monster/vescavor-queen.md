@@ -37,8 +37,6 @@ noxious slime._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
@@ -46,6 +44,8 @@ noxious slime._
 **Type:** outsider
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 266, Pathfinder \#74: Sword of Valor pg 90\
 **Subtype:** Chaotic, Evil, Extraplanar

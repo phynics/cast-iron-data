@@ -35,8 +35,6 @@ buccaneer._
 
 **Urdefhan [swashbuckler](ref/class/swashbuckler) 1**
 
-**dv:** 120
-
 **Initiative:** +3
 
 **Size:** medium
@@ -46,6 +44,8 @@ buccaneer._
 **Type:** outsider
 
 **Perception:** +6
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Inner Sea Monster Codex pg 60\
 **Subtype:** Native

@@ -30,8 +30,6 @@ alive, her bloody muscles and sinews pulsing grotesquely._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -42,7 +40,7 @@ alive, her bloody muscles and sinews pulsing grotesquely._
 
 **Perception:** +18
 
-**Senses:** Detect good, Detect magic
+**Senses:** Darkvision 60 ft., Detect good, Detect magic
 
 **Sources:** Isles of the Shackles pg 61\
 **Experience points:** 4,800

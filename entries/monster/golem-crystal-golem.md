@@ -31,17 +31,15 @@ _This burly humanoid figure is cut from blue crystal that shines with an inner l
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 126\
 **thoughtsense:** 60

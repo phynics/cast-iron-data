@@ -37,8 +37,6 @@ sea._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Type:** Magical beast
@@ -46,6 +44,8 @@ sea._
 **Alignment:** Neutral
 
 **Perception:** +34
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 38\
 **Subtype:** Aquatic, Behemoth, Water

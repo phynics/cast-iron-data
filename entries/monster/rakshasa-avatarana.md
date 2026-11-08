@@ -32,8 +32,6 @@ leathery flap covering its face._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Alignment:** Lawful evil
@@ -43,6 +41,8 @@ leathery flap covering its face._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Occult Bestiary pg 49\
 **Subtype:** Native, Rakshasa, Shapechanger

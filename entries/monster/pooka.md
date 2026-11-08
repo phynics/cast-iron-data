@@ -33,15 +33,13 @@ grin gleams on her face._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** fey
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 216\
 **Size:** tiny

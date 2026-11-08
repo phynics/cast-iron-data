@@ -33,17 +33,15 @@ for eyes; and large, powerful hands that end in wicked claws._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 88\
 **Subtype:** Giant

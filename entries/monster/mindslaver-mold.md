@@ -32,11 +32,11 @@ this feral-looking man._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

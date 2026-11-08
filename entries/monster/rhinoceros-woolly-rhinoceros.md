@@ -39,7 +39,7 @@ and brow._
 
 **Perception:** +15
 
-**Sense:** Scent
+**Senses:** Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 235\
 **Experience points:** 2,400

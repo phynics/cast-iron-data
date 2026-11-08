@@ -30,8 +30,6 @@ _This grim band of hobgoblin hunters is equipped with sturdy armor and well-used
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +9
@@ -41,6 +39,8 @@ _This grim band of hobgoblin hunters is equipped with sturdy armor and well-used
 **Size:** medium
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 88\
 **Subtype:** Goblinoid, Troop

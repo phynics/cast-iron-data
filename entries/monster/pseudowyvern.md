@@ -30,17 +30,13 @@ _The sinuous tail of this cat-sized winged, armless dragon is tipped with a scor
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Legacy of Dragons pg 27\
 **Size:** tiny

@@ -35,13 +35,13 @@ rock._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Alignment:** Neutral evil
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 195\
 **Subtype:** Aquatic, Earth

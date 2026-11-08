@@ -32,8 +32,6 @@ mud._
 
 **Challenge rating:** 6
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -43,6 +41,8 @@ mud._
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 195\
 **Subtype:** Earth, Elemental, Water

@@ -34,11 +34,7 @@ feet._
 
 **aura:** protective aura (20 ft.)
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -47,6 +43,8 @@ feet._
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 19\
 **Subtype:** Agathion, Extraplanar, Good

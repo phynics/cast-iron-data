@@ -35,13 +35,13 @@ from its hands and arms._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +8
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -30,13 +30,9 @@ almost white in color._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ almost white in color._
 
 **Perception:** +11
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 280\
 **Subtype:** Cold

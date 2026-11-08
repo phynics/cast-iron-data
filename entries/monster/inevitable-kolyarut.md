@@ -29,11 +29,7 @@ _Beneath its cloak, this man-shaped creature appears to be part statue and part 
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -42,6 +38,8 @@ _Beneath its cloak, this man-shaped creature appears to be part statue and part 
 **Type:** outsider
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 163\
 **Subtype:** Extraplanar, Inevitable, Lawful

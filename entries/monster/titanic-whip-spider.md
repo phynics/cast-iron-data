@@ -32,13 +32,13 @@ appendages lined with spines._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 275\
 **Type:** vermin

@@ -33,8 +33,6 @@ dire flail in its gauntlets, and several pairs of manacles on its belt writhe of
 
 **Challenge rating:** 18
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful evil
@@ -45,7 +43,7 @@ dire flail in its gauntlets, and several pairs of manacles on its belt writhe of
 
 **Perception:** +26
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Pathfinder \#132: The Six-Legend Soul pg 88\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

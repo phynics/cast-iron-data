@@ -33,13 +33,13 @@ _Each member of this horde of blue crab-like things is armed with a menacing, ov
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Type:** Monstrous humanoid
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Plunder and Peril pg 62\
 **Subtype:** Aquatic, Swarm

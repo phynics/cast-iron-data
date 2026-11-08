@@ -28,8 +28,6 @@ abilities = ["20", "20", "-", "-", "10", "10"]
 
 **Advanced heavy horse skeleton**
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** large
@@ -37,6 +35,8 @@ abilities = ["20", "20", "-", "-", "10", "10"]
 **Alignment:** Neutral evil
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#44: Trial of the Beast pg 86\
 **Type:** undead

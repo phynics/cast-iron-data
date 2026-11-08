@@ -41,17 +41,11 @@ luminescent green eyes._
 
 **Initiative:** +11
 
-**Sense:** Llv
-
 **Size:** medium
-
-**Sense:** Mistsight
 
 **Perception:** +37
 
-**Sense:** Scent
-
-**Sense:** Sid
+**Senses:** Low-light vision, Mistsight, Scent, See in darkness
 
 **Sources:** Bestiary 6 pg 282\
 **Subtype:** Wild hunt

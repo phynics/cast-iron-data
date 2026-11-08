@@ -34,8 +34,6 @@ spreads from her shoulders._
 
 **aura:** [frightful presence](ref/umr/frightful-presence), (120 ft., DC 36), unholy aura (DC 28)
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** medium
@@ -46,7 +44,7 @@ spreads from her shoulders._
 
 **Perception:** +46
 
-**Senses:** Detect good, True seeing
+**Senses:** Darkvision 60 ft., Detect good, True seeing
 
 **Sources:** Bestiary 6 pg 164\
 **Subtype:** Daemon, Evil, Extraplanar

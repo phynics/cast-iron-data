@@ -34,13 +34,9 @@ body of a four-armed giant._
 
 **aura:** shield of law (DC 24), unrelenting geometry (300 ft.)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +0
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
@@ -48,7 +44,7 @@ body of a four-armed giant._
 
 **Perception:** +29
 
-**Senses:** Detect chaos, Detect law, Detect magic, True seeing
+**Senses:** Darkvision 60 ft., Detect chaos, Detect law, Detect magic, Low-light vision, True seeing
 
 **Sources:** Concordance of Rivals pg 54\
 **Subtype:** Extraplanar, Inevitable, Lawful

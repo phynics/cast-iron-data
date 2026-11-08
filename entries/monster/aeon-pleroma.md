@@ -34,8 +34,6 @@ encompassed all the night sky._
 
 **blindsight:** 120
 
-**dv:** 120
-
 **Initiative:** +12
 
 **Size:** large
@@ -46,7 +44,7 @@ encompassed all the night sky._
 
 **Perception:** +41
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., True seeing
 
 **Sources:** Bestiary 2 pg 12\
 **Subtype:** Aeon, Extraplanar

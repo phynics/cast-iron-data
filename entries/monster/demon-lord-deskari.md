@@ -36,8 +36,6 @@ are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +14
@@ -46,9 +44,7 @@ are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence
 
 **Perception:** +54
 
-**Senses:** Swarmsight
-
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, Swarmsight, True seeing
 
 **Sources:** Pathfinder \#78: City of Locusts pg 88\
 **Subtype:** Chaotic, Demon, Earth, Evil, Extraplanar

@@ -35,8 +35,6 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 **Kobold [alchemist](ref/class/alchemist)
 ([alchemical trapper](ref/arc-alchemist/alchemical-trapper)) 2**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
@@ -44,6 +42,8 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 **Alignment:** Lawful evil
 
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

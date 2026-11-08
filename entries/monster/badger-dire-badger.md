@@ -33,15 +33,13 @@ its streaked and shaggy fur._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 2 pg 40\
 **Experience points:** 600

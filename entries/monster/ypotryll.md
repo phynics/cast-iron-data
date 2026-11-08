@@ -31,13 +31,9 @@ raw power._
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -45,7 +41,7 @@ raw power._
 
 **Perception:** +12
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 4 pg 285\
 **Experience points:** 51,200

@@ -33,11 +33,7 @@ difficult to look directly at._
 
 **aura:** protective aura
 
-**dv:** 60
-
 **Initiative:** +8
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,6 +42,8 @@ difficult to look directly at._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 10\
 **Subtype:** Angel, Extraplanar, Good

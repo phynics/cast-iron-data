@@ -31,8 +31,6 @@ sinister, noseless face._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -42,6 +40,8 @@ sinister, noseless face._
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 89\
 **Subtype:** Shapechanger

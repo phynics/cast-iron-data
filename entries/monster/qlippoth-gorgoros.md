@@ -33,8 +33,6 @@ yellow._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -42,6 +40,8 @@ yellow._
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 228\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

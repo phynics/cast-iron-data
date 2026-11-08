@@ -32,19 +32,17 @@ eyes gazes from a horned head that ends in an elongated, toothy snout._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 86\
 **Subtype:** Aquatic

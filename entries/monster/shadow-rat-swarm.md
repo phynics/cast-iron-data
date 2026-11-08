@@ -30,15 +30,13 @@ eyes moves toward you. Their semi-translucent skin shows discolored bones and mu
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Neutral evil
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 52, Tome of Horrors Complete (PF) pg 586\
 **Subtype:** Swarm

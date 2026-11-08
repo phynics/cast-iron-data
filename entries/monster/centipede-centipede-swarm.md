@@ -33,13 +33,13 @@ wave._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 43\
 **Subtype:** Swarm

@@ -33,13 +33,13 @@ talons are dark yellow._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral good
 
 **Perception:** +15
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 118\
 **Experience points:** 800

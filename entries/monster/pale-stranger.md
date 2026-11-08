@@ -33,8 +33,6 @@ smells of old decay._
 
 **aura:** fear (10 ft., DC 21)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -42,6 +40,8 @@ smells of old decay._
 **Alignment:** Neutral evil
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 214\
 **Type:** undead

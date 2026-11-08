@@ -33,8 +33,6 @@ between two staring eyes._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -42,6 +40,8 @@ between two staring eyes._
 **Type:** outsider
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 225\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

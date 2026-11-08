@@ -36,9 +36,9 @@ the thing darts from sight._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Perception:** +9
+
+**Senses:** Low-light vision
 
 **Size:** small
 

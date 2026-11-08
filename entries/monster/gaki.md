@@ -30,8 +30,6 @@ elongated, showing sharp, worn teeth._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -40,7 +38,7 @@ elongated, showing sharp, worn teeth._
 
 **Perception:** +13
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil
 
 **Sources:** Bestiary 4 pg 118\
 **Type:** undead

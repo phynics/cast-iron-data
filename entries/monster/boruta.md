@@ -32,13 +32,13 @@ gnarled roots grow, and tangles of vines hang from its moldering chest like spil
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +20
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

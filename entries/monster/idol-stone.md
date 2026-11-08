@@ -37,15 +37,13 @@ sneering lord. Flecks of onyx glisten within its eyes, gazing across the gulf in
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#27: What Lies in Dust pg 84\
 **Experience points:** 800

@@ -34,15 +34,13 @@ _Though obviously a wooden construct, this small, nimble creature moves fluidly 
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

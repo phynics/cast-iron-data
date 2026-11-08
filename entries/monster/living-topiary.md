@@ -29,17 +29,15 @@ _This lumbering topiary has the rough shape of an elephant, complete with brambl
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Type:** plant
 

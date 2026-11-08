@@ -30,8 +30,6 @@ large, serrated, bright red fangs._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +5
@@ -39,6 +37,8 @@ large, serrated, bright red fangs._
 **Alignment:** Neutral
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 256\
 **Type:** vermin

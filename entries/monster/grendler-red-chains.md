@@ -37,13 +37,13 @@ face and neck, soaking its tangled white beard; in its arms looms a rusty but cl
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral evil
 
 **Perception:** +17
+
+**Senses:** Low-light vision
 
 **Sources:** Fey Revisited pg 44\
 **Experience points:** 12,800

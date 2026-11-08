@@ -33,8 +33,6 @@ _Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of thi
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** medium
@@ -43,7 +41,7 @@ _Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of thi
 
 **Perception:** +21
 
-**Senses:** Detect good
+**Senses:** Darkvision 60 ft., Detect good
 
 **Sources:** Pathfinder RPG Bestiary pg 68\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

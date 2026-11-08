@@ -31,8 +31,6 @@ by an eerie red glow._
 
 **Challenge rating:** 18
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +7
@@ -40,6 +38,8 @@ by an eerie red glow._
 **Alignment:** Neutral evil
 
 **Perception:** +33
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 220\
 **Subtype:** Air

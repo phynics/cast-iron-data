@@ -36,13 +36,13 @@ face of a fish._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 179\
 **Subtype:** Aquatic

@@ -37,13 +37,13 @@ spidery legs._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Size:** large
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 285, The Dragon's Demand pg 63\
 **Experience points:** 6,400

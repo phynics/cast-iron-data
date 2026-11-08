@@ -30,11 +30,7 @@ _This enormous snake has glowing green eyes, large fangs, and wide, membranous w
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ _This enormous snake has glowing green eyes, large fangs, and wide, membranous w
 
 **Perception:** +16
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 189\
 **Subtype:** Shapechanger

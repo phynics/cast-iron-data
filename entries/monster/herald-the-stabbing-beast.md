@@ -32,11 +32,7 @@ _This towering, scorpion-tailed man stalks with a soundless grace and murderous 
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Initiative:** +16
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -48,9 +44,7 @@ _This towering, scorpion-tailed man stalks with a soundless grace and murderous 
 
 **Perception:** +26
 
-**Senses:** See invisibility
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Low-light vision, See in darkness, See invisibility
 
 **Sources:** Inner Sea Gods pg 300, Pathfinder \#59: The Price of Infamy pg 90\
 **Subtype:** Evil, Extraplanar, Shapechanger

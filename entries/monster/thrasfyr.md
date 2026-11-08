@@ -34,19 +34,15 @@ covered with scintillating red scales._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Size:** huge
 
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +28
 
-**Senses:** See invisibility
+**Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
 **Sources:** Bestiary 2 pg 263\
 **Subtype:** Fire

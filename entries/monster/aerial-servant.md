@@ -32,8 +32,6 @@ swiftness._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -43,6 +41,8 @@ swiftness._
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 11\
 **Subtype:** Air, Elemental, Extraplanar

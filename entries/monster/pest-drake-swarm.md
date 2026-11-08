@@ -35,15 +35,13 @@ _These songbird-sized drakes declare their territory with an insistent chorus of
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +11
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#141: Last Watch pg 84\
 **Subtype:** Swarm

@@ -34,13 +34,9 @@ composed of wispy blue light._
 
 **aura:** protective aura
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
@@ -48,7 +44,7 @@ composed of wispy blue light._
 
 **Perception:** +38
 
-**Senses:** Detect evil, Detect snares and pits, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Detect snares and pits, Low-light vision, True seeing
 
 **Sources:** Bestiary 5 pg 24\
 **Subtype:** Angel, Extraplanar, Good

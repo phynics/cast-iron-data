@@ -39,9 +39,9 @@ that it wears braided._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 149\
 **Subtype:** Cold, Giant

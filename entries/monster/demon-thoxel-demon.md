@@ -36,8 +36,6 @@ has been flogged and branded a thousand times._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -45,6 +43,8 @@ has been flogged and branded a thousand times._
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#74: Sword of Valor pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

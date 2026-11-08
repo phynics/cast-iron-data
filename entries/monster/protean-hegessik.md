@@ -38,8 +38,6 @@ its back._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -48,7 +46,7 @@ its back._
 
 **Perception:** +26
 
-**Senses:** Detect law
+**Senses:** Darkvision 60 ft., Detect law
 
 **Sources:** Bestiary 6 pg 209, Pathfinder \#101: The Kintargo Contract pg 84\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger

@@ -28,13 +28,13 @@ _A jumble of melted bones and skull fragments float amid an oozing brown and yel
 
 **Challenge rating:** 1/4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 258, Pathfinder \#1: Burnt Offerings pg 125\
 **Size:** tiny

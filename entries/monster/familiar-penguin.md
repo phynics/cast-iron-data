@@ -34,11 +34,11 @@ flippers that lie flat against its sides instead of wings._
 
 **Initiative:** -1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Size:** small
 

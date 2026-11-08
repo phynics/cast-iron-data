@@ -35,11 +35,11 @@ _Two sharp ridges of bone run along the back of this foot-long, black-and-white 
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#115: Trail of the Hunted pg 82\
 **Subtype:** Aquatic

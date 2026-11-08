@@ -39,8 +39,6 @@ rancidly obese body._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -49,7 +47,7 @@ rancidly obese body._
 
 **Perception:** +46
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Demons Revisited pg 49\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

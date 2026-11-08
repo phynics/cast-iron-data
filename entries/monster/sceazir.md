@@ -33,21 +33,19 @@ spiky, manyjointed legs bend in unsettling ways._
 
 **Challenge rating:** 9
 
-**dv:** 120
-
 **Initiative:** +8
 
 **Size:** large
 
 **Lifesense:** present
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder \#141: Last Watch pg 86\
 **Subtype:** Extraplanar

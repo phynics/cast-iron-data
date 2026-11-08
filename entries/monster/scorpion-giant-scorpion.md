@@ -29,8 +29,6 @@ tail arched over its back._
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -38,6 +36,8 @@ tail arched over its back._
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 242\
 **tremorsense:** 60

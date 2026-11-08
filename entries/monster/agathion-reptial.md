@@ -31,17 +31,15 @@ _This iguana-headed scholar wears a robe of frills and scales covered in baubles
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Alignment:** Neutral good
 
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

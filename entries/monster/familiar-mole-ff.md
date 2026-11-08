@@ -34,11 +34,11 @@ thick paws that end in digging claws._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Familiar Folio pg 25\
 **Size:** tiny

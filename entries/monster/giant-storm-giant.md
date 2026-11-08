@@ -40,9 +40,9 @@ sparkling green eyes._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Perception:** +27
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 152\
 **Subtype:** Giant

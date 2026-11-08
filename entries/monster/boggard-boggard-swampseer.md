@@ -30,13 +30,9 @@ abilities = ["15", "13", "12", "10", "15", "12"]
 
 **Boggard [druid](ref/class/druid) 3**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -45,6 +41,8 @@ abilities = ["15", "13", "12", "10", "15", "12"]
 **othersubs:** Boggard
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 13\
 **Experience points:** 1,200

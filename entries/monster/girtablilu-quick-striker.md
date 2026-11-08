@@ -33,8 +33,6 @@ _Foul liquid drips in equal measure from this scorpion-woman's fearsome spear an
 
 **Girtablilu [rogue](ref/class/rogue) ([scout](ref/arc-rogue/scout)) 8**
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
@@ -44,6 +42,8 @@ _Foul liquid drips in equal measure from this scorpion-woman's fearsome spear an
 **Alignment:** Neutral
 
 **Perception:** +25
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Monster Codex pg 38\
 **tremorsense:** 30

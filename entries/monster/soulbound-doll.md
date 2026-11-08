@@ -33,13 +33,11 @@ _This doll's glass eyes glisten with unmistakable curiosity as it comes to life 
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Perception:** +3
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 255, Pathfinder \#7: Edge of Anarchy pg 84\
 **Size:** tiny

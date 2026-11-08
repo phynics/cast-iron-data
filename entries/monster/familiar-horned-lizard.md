@@ -37,13 +37,11 @@ spines._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +0
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Ultimate Wilderness pg 197\
 **Experience points:** 65

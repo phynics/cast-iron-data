@@ -30,13 +30,13 @@ _The cat-sized insect has a long, cigar-shaped body. Its spiny back legs are lon
 
 **Challenge rating:** 1/4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ultimate Wilderness pg 205\
 **Size:** tiny

@@ -34,13 +34,13 @@ from bones and rotting flesh._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 145\
 **Subtype:** Earth

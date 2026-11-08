@@ -32,15 +32,13 @@ _A chilling chorus of howls echoes through the air as a massive, white-furred wo
 
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#67: The Snows of Summer pg 83\
 **Experience points:** 600

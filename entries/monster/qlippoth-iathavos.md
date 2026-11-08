@@ -31,23 +31,19 @@ and two huge claws dangle below._
 
 **Challenge rating:** 20
 
-**Sense:** Aav
-
 **aura:** [stench](ref/umr/stench) (DC 32, 10 rounds), cloak of chaos (DC 26)
 
 **Alignment:** Chaotic evil
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Type:** outsider
 
 **Perception:** +37
+
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 222\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth

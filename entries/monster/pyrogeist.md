@@ -33,13 +33,13 @@ writhe within the flames._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
 
 **Perception:** +23
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#130: City in the Lion's Eye pg 88\
 **Subtype:** Incorporeal

@@ -33,11 +33,7 @@ _With wings and an unearthly glow, this mechanical being could easily be mistake
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -45,7 +41,7 @@ _With wings and an unearthly glow, this mechanical being could easily be mistake
 
 **Perception:** +18
 
-**Senses:** Superior optics
+**Senses:** Darkvision 60 ft., Low-light vision, Superior optics
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 90\
 **Subtype:** Robot

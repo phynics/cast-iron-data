@@ -31,8 +31,6 @@ _Knots of dark, moldering hair spill over the features of this sickly, thin, gre
 
 **Alignment:** Chaotic evil
 
-**dv:** 90
-
 **Initiative:** +1
 
 **Size:** medium
@@ -40,6 +38,8 @@ _Knots of dark, moldering hair spill over the features of this sickly, thin, gre
 **Type:** Monstrous humanoid
 
 **Perception:** +15
+
+**Senses:** Darkvision 90 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 167\
 **Experience points:** 1,600

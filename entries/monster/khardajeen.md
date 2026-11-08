@@ -34,8 +34,6 @@ orbit the floating mass._
 
 **Type:** aberration
 
-**dv:** 120
-
 **Initiative:** +11
 
 **Size:** medium
@@ -44,7 +42,7 @@ orbit the floating mass._
 
 **Perception:** +29
 
-**Senses:** True seeing
+**Senses:** Darkvision 120 ft., True seeing
 
 **Sources:** Pathfinder \#118: Siege of Stone pg 88\
 **Experience points:** 38,400

@@ -36,13 +36,11 @@ head is all teeth._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +37
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 86\
 **Experience points:** 6,400

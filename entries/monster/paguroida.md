@@ -35,8 +35,6 @@ with glinting metal and gems embedded into its surface._
 
 **aura:** nondetection (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -47,7 +45,7 @@ with glinting metal and gems embedded into its surface._
 
 **Perception:** +16
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Pathfinder \#122: Into the Shattered Continent pg 86\
 **Subtype:** Aquatic

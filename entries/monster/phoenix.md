@@ -32,13 +32,9 @@ musical cry as it takes to the air._
 
 **aura:** shroud of flame (20 ft., 4d6 fire, DC 25)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +11
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -46,7 +42,7 @@ musical cry as it takes to the air._
 
 **Perception:** +37
 
-**Senses:** Detect magic, Detect poison, See invisibility
+**Senses:** Darkvision 60 ft., Detect magic, Detect poison, Low-light vision, See invisibility
 
 **Sources:** Pathfinder RPG Bestiary pg 227\
 **Subtype:** Fire

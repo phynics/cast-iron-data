@@ -35,17 +35,15 @@ _This amalgam of mechanical toys clacks and whirs._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Tombs of Golarion pg 23\
 **Subtype:** Clockwork

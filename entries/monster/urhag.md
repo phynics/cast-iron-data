@@ -42,7 +42,7 @@ whip-thin tail ends in a slender stinger._
 
 **Perception:** +10
 
-**Sense:** Sid
+**Senses:** See in darkness
 
 **Sources:** Bestiary 6 pg 269\
 **Experience points:** 800

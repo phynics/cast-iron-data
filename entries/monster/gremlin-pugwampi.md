@@ -32,17 +32,15 @@ creature slinks forward carefully._
 
 **aura:** unluck (20 ft.)
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +6
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 144, Pathfinder \#19: Howl of the Carrion King pg 83\
 **Size:** tiny

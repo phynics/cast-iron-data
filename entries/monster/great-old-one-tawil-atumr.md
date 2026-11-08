@@ -36,8 +36,6 @@ extending from below._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +27
 
 **Size:** large
@@ -46,9 +44,7 @@ extending from below._
 
 **Perception:** +49
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 148\
 **Subtype:** Chaotic, Extraplanar, Great Old One

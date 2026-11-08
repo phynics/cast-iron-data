@@ -41,11 +41,11 @@ his toned muscles and a lingering stench of blood._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +29
+
+**Senses:** Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 21\
 **Subtype:** Giant

@@ -33,8 +33,6 @@ oversized, boneless index finger._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 23)
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** medium
@@ -45,7 +43,7 @@ oversized, boneless index finger._
 
 **Perception:** +24
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Bestiary 6 pg 241\
 **Experience points:** 38,400

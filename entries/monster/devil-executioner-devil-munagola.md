@@ -31,8 +31,6 @@ black eyes smolder like coals._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ black eyes smolder like coals._
 
 **Perception:** +21
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Book of the Damned pg 247\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

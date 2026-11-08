@@ -31,8 +31,6 @@ jagged teeth._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +7
@@ -40,6 +38,8 @@ jagged teeth._
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

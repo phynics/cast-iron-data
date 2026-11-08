@@ -31,19 +31,15 @@ _A series of metal rings rotates around a giant prismatic sphere._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +12
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Tombs of Golarion pg 53\
 **Experience points:** 25,600

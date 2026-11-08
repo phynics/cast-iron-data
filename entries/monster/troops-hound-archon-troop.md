@@ -30,13 +30,9 @@ abilities = ["23", "20", "23", "18", "21", "18"]
 
 **aura:** aura of menace (DC 24)
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Lawful good
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -44,9 +40,7 @@ abilities = ["23", "20", "23", "18", "21", "18"]
 
 **Perception:** +39
 
-**Sense:** Scent
-
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
 
 **Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 91\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Troop

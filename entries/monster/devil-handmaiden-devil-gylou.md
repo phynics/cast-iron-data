@@ -32,8 +32,6 @@ a gown of writhing tendrils._
 
 **Challenge rating:** 14
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ a gown of writhing tendrils._
 
 **Perception:** +23
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Bestiary 2 pg 86\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

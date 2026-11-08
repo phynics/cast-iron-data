@@ -36,8 +36,6 @@ with a fluid grace._
 
 **aura:** frightful presence (30 ft., DC 27)
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful neutral
@@ -47,6 +45,8 @@ with a fluid grace._
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Planar Adventures pg 252, The Emerald Spire Superdungeon pg 159\
 **Subtype:** Earth, Elemental, Extraplanar, Mythic

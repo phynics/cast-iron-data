@@ -33,15 +33,13 @@ aim._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#57: Tempest Rising pg 86\
 **Size:** tiny

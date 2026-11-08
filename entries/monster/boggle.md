@@ -39,9 +39,9 @@ _This small, goat-like man has curved horns, hoofed feet, and a rat-like tail._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Perception:** +14
+
+**Senses:** Low-light vision
 
 **Size:** small
 

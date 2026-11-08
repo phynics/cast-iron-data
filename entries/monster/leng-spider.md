@@ -34,19 +34,15 @@ still moves with fluid grace._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +13
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +21
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 176\
 **Subtype:** Extraplanar

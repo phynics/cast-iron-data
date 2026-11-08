@@ -35,8 +35,6 @@ face._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -45,7 +43,7 @@ face._
 
 **Perception:** +25
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** The Worldwound pg 46\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

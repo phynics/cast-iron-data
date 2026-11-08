@@ -32,8 +32,6 @@ truly hideous._
 
 **Type:** aberration
 
-**dv:** 30
-
 **Initiative:** +3
 
 **Size:** large
@@ -42,7 +40,7 @@ truly hideous._
 
 **Perception:** +21
 
-**Senses:** Bloodsense
+**Senses:** Bloodsense, Darkvision 30 ft.
 
 **Sources:** Bestiary 3 pg 124, Pathfinder \#29: Mother of Flies pg 84\
 **Experience points:** 25,600

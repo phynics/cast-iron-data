@@ -33,17 +33,15 @@ its domain._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 27, Pathfinder \#64: Beyond the Doomsday Door pg 82\
 **Experience points:** 4,800

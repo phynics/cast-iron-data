@@ -32,8 +32,6 @@ _Jagged bolts of lightning crackle within this massive and vaguely humanoid stor
 
 **Challenge rating:** 15
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +16
@@ -45,6 +43,8 @@ _Jagged bolts of lightning crackle within this massive and vaguely humanoid stor
 **Type:** outsider
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Gods pg 290, Pathfinder \#38: Racing to Ruin pg 88\
 **Subtype:** Air, Elemental, Extraplanar, Water

@@ -36,15 +36,13 @@ nearby tomes and pages._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Type:** outsider
 
 **Perception:** +9
 
-**Senses:** Detect law
+**Senses:** Darkvision 60 ft., Detect law
 
 **Size:** small
 

@@ -33,11 +33,11 @@ white-tufted ears._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Size:** small
 

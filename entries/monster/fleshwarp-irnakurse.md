@@ -34,13 +34,13 @@ cacophony of slapping flesh._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 105, Pathfinder \#16: Endless Night pg 86\
 **Experience points:** 6,400

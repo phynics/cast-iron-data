@@ -40,11 +40,11 @@ teeth._
 
 **Keen Scent:** present
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +11
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 241, Pathfinder \#57: Tempest Rising pg 84\
 **Subtype:** Aquatic

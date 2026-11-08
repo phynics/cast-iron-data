@@ -30,15 +30,13 @@ _This large, plump caterpillar is brilliantly colored and has a strangely self-i
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +5
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

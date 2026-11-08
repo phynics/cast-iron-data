@@ -29,8 +29,6 @@ mouth is the size of an ox._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** -2
@@ -40,6 +38,8 @@ mouth is the size of an ox._
 **Alignment:** Neutral
 
 **Perception:** +18
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 230\
 **tremorsense:** 60

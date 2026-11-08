@@ -36,17 +36,15 @@ of death and decay._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 136, Pathfinder \#7: Edge of Anarchy pg 78\
 **Experience points:** 1,200

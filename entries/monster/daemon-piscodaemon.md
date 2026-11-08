@@ -31,8 +31,6 @@ and writhing tentacles._
 
 **Challenge rating:** 10
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -43,7 +41,7 @@ and writhing tentacles._
 
 **Perception:** +16
 
-**Senses:** Detect good, Detect magic, See invisibility
+**Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
 
 **Sources:** Bestiary 2 pg 72\
 **Subtype:** Aquatic, Daemon, Evil, Extraplanar

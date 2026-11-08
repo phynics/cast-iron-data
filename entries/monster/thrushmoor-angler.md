@@ -34,17 +34,15 @@ luminescent organ suspended by a fleshy tether hangs like a lantern above its he
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +1
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#111: Dreams of the Yellow King pg 88\
 **Subtype:** Aquatic

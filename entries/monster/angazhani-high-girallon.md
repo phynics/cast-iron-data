@@ -33,21 +33,15 @@ It carries a strangely shaped throwing axe._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +11
 
-**Sense:** Scent
-
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
 
 **Sources:** Heart of the Jungle pg 58\
 **Experience points:** 6,400

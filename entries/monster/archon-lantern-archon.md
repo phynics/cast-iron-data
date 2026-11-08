@@ -33,17 +33,15 @@ otherworldly grace._
 
 **aura:** aura of menace (DC 13)
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

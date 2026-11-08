@@ -31,15 +31,9 @@ clinging to its back._
 
 **Challenge rating:** 8
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +4
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -47,7 +41,7 @@ clinging to its back._
 
 **Perception:** +10
 
-**Sense:** Scent
+**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 238\
 **Experience points:** 4,800

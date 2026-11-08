@@ -33,13 +33,13 @@ conceal the simple geometric tattoos and ancient battle scars that decorate his 
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 86\
 **Type:** undead

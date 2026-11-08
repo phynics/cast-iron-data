@@ -40,11 +40,9 @@ drizzle a cascade of shimmering dust._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +21
 
-**Sense:** Sid
+**Senses:** Low-light vision, See in darkness
 
 **Sources:** The First World, Realm of the Fey pg 61\
 **Experience points:** 4,800

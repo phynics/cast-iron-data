@@ -33,13 +33,13 @@ a deformed spider._
 
 **Size:** diminutive
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Neutral evil
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 59\
 **Type:** undead

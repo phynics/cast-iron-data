@@ -33,11 +33,7 @@ beautiful visage with an expression of horror bulges from the back of its skull.
 
 **Challenge rating:** 11
 
-**Sense:** Aav
-
 **Alignment:** Chaotic evil
-
-**dv:** 60
 
 **Initiative:** +11
 
@@ -47,7 +43,7 @@ beautiful visage with an expression of horror bulges from the back of its skull.
 
 **Perception:** +27
 
-**Senses:** Detect good
+**Senses:** All-around vision, Darkvision 60 ft., Detect good
 
 **Sources:** Pathfinder \#75: Demon's Heresy pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -33,8 +33,6 @@ _This sphere of elemental matter emits a strange hum that resonates with element
 
 **aura:** resonance (30 ft.)
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
@@ -42,6 +40,8 @@ _This sphere of elemental matter emits a strange hum that resonates with element
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 283\
 **Subtype:** Elemental, Water

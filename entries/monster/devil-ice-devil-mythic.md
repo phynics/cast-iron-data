@@ -31,11 +31,7 @@ _A pair of frozen, multifaceted eyes coldly judge all before this towering, inse
 
 **Mythic rank:** 6
 
-**Sense:** Aav
-
 **aura:** fear (10 ft., DC 24)
-
-**dv:** 60
 
 **Initiative:** +15, Mythic Improved Initiative
 
@@ -47,7 +43,7 @@ _A pair of frozen, multifaceted eyes coldly judge all before this towering, inse
 
 **Perception:** +27
 
-**Sense:** Sid
+**Senses:** All-around vision, Darkvision 60 ft., See in darkness
 
 **Sources:** Mythic Adventures pg 186\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Mythic

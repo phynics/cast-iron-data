@@ -38,15 +38,13 @@ its canyon of a mouth._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Type:** outsider
 
 **Perception:** +52
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., True seeing
 
 **Sources:** Mythic Realms pg 58\
 **Subtype:** Chaotic, Extraplanar

@@ -36,19 +36,13 @@ lined with rows of sharp teeth._
 
 **Initiative:** +15
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +48
 
-**Sense:** Scent
-
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** Low-light vision, Scent, See in darkness, True seeing
 
 **Sources:** Planar Adventures pg 240\
 **Subtype:** Water

@@ -32,19 +32,15 @@ a saddle between its wings._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Lawful neutral
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 98, Distant Worlds pg 61\
 **Experience points:** 6,400

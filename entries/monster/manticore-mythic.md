@@ -34,21 +34,17 @@ and a tail of dripping spikes._
 
 **Mythic rank:** 2
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 208\
 **Subtype:** Mythic

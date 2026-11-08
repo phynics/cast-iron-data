@@ -37,8 +37,6 @@ warhammer._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -47,7 +45,7 @@ warhammer._
 
 **Perception:** +52
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Bestiary 4 pg 48\
 **Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar

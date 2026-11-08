@@ -32,8 +32,6 @@ reservoirs brimming with strange fluids._
 
 **Challenge rating:** 16
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +10
@@ -43,6 +41,8 @@ reservoirs brimming with strange fluids._
 **Size:** medium
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 88\
 **Subtype:** Goblinoid, Troop

@@ -35,13 +35,13 @@ of its eye sockets._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Alignment:** Neutral evil
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 15, Pathfinder \#59: The Price of Infamy pg 84\
 **Subtype:** Aquatic

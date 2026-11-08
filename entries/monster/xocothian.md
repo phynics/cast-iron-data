@@ -31,19 +31,17 @@ storm._
 
 **Challenge rating:** 4
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Type:** outsider
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 291\
 **Subtype:** Air, Extraplanar, Water

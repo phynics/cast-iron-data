@@ -29,8 +29,6 @@ stinger dripping with venom._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** medium
@@ -39,7 +37,7 @@ stinger dripping with venom._
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 16\
 **Type:** vermin

@@ -33,11 +33,7 @@ end of his wings._
 
 **aura:** fear aura (20 ft., DC 17)
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -47,7 +43,7 @@ end of his wings._
 
 **Perception:** +23
 
-**Senses:** Detect magic
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
 **Sources:** Bestiary 2 pg 16, Andoran, Spirit of Liberty pg 21\
 **Subtype:** Agathion, Extraplanar, Good

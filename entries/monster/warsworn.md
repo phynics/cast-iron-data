@@ -34,8 +34,6 @@ steel-girded flesh._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 26)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +3
@@ -43,6 +41,8 @@ steel-girded flesh._
 **Alignment:** Neutral evil
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 272, Pathfinder \#35: War of the River Kings pg 88\
 **Type:** undead

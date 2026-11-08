@@ -31,13 +31,9 @@ mouth at the end of a long stalk._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
@@ -45,7 +41,7 @@ mouth at the end of a long stalk._
 
 **Type:** plant
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Planar Adventures pg 233\
 **Subtype:** Extraplanar

@@ -35,8 +35,6 @@ the beard of an eccentric hermit._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** medium
@@ -44,6 +42,8 @@ the beard of an eccentric hermit._
 **Type:** Monstrous humanoid
 
 **Perception:** +14
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 282\
 **Subtype:** Aquatic

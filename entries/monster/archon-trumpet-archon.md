@@ -33,19 +33,17 @@ and radiates a sense of serenity._
 
 **aura:** aura of menace (DC 22), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Lawful good
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 21\
 **Subtype:** Archon, Extraplanar, Good, Lawful

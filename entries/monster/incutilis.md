@@ -34,13 +34,13 @@ textured like the surface a brain._
 
 **Type:** aberration
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 157, Pathfinder \#55: The Wormwood Mutiny pg 84\
 **Subtype:** Aquatic

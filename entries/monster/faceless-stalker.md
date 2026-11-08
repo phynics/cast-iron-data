@@ -35,13 +35,13 @@ instead of actual features._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +2
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 122, Pathfinder \#2: The Skinsaw Murders pg 88\
 **Subtype:** Shapechanger

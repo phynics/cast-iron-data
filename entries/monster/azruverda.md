@@ -36,13 +36,13 @@ beetle carapace._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +2
 
 **Perception:** +22
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 29\
 **tremorsense:** 100

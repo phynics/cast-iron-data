@@ -28,8 +28,6 @@ _This giant bee is as large as a horse and unusually fat, with light brown strip
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Size:** large
@@ -37,6 +35,8 @@ _This giant bee is as large as a horse and unusually fat, with light brown strip
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 43\
 **Type:** vermin

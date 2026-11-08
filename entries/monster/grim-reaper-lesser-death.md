@@ -31,8 +31,6 @@ _One bleached-bone hand of this robed, skeletal figure grasps a massive, curved 
 
 **aura:** misfortune (10 ft.), [unnatural aura](ref/umr/unnatural-aura)
 
-**dv:** 60
-
 **Initiative:** +14
 
 **Size:** medium
@@ -41,9 +39,7 @@ _One bleached-bone hand of this robed, skeletal figure grasps a massive, curved 
 
 **Perception:** +6
 
-**Senses:** Status sight
-
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility, Status sight
 
 **Sources:** Bestiary 5 pg 134\
 **Subtype:** Extraplanar

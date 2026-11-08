@@ -35,19 +35,15 @@ are mottled with other colors._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +8, Mythic Improved Initiative
 
 **Size:** large
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +18
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Mythic Adventures pg 223\
 **Subtype:** Mythic

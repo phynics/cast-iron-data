@@ -34,21 +34,17 @@ withered, like a preserved corpse._
 
 **blindsense:** 60
 
-**dv:** 120
-
 **Initiative:** +10
 
 **Size:** large
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +25
 
-**Sense:** Scent
+**Senses:** Darkvision 120 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder \#65: Into the Nightmare Rift pg 88\
 **Subtype:** Evil, Extraplanar, Lawful

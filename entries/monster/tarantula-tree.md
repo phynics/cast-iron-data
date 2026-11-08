@@ -38,9 +38,9 @@ _This towering mass of vegetation balances itself upon several long and misshape
 
 **Initiative:** +14
 
-**Sense:** Llv
-
 **Perception:** +36
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

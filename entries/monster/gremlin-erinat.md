@@ -37,9 +37,9 @@ _The pockets of this urchin are stuffed with worthless objects._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +5
+
+**Senses:** Low-light vision
 
 **Sources:** Andoran, Birthplace of Freedom pg 56\
 **Size:** tiny

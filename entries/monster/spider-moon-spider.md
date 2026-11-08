@@ -31,11 +31,7 @@ malign intelligence._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,6 +40,8 @@ malign intelligence._
 **Alignment:** Neutral evil
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** The Emerald Spire Superdungeon pg 156\
 **tremorsense:** 60

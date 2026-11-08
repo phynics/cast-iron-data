@@ -35,13 +35,13 @@ digs into the soft ground._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

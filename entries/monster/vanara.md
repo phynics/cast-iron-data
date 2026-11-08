@@ -40,11 +40,11 @@ prehensile tail._
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 3 pg 280\
 **Subtype:** Vanara

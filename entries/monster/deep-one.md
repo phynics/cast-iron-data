@@ -33,17 +33,15 @@ fish-like maw._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** -1
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** Monstrous humanoid
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 5 pg 68\
 **Subtype:** Aquatic, Deep one

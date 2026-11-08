@@ -40,11 +40,11 @@ dangle tiny fairy skull trophies._
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Size:** small
 

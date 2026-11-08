@@ -35,13 +35,13 @@ _A long tail fitted with a barbed stinger trails from this flat, triangular fish
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 232\
 **Subtype:** Aquatic

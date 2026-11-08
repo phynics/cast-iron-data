@@ -29,8 +29,6 @@ it into ominous shapes._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral
@@ -38,6 +36,8 @@ it into ominous shapes._
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -133,8 +133,6 @@ when underwater.
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Alignment:** Neutral
@@ -142,6 +140,8 @@ when underwater.
 **Type:** outsider
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 
@@ -197,8 +197,6 @@ Bonus feat.
 
 **Challenge rating:** 3
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -208,6 +206,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +7
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
@@ -261,8 +261,6 @@ Bonus feat.
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -272,6 +270,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
@@ -331,8 +331,6 @@ Bonus feat.
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +13
@@ -342,6 +340,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
@@ -402,8 +402,6 @@ Bonus feat.
 
 **Challenge rating:** 9
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +14
@@ -413,6 +411,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 120\
 **Subtype:** Air, Elemental, Extraplanar
@@ -473,8 +473,6 @@ Bonus feat.
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +15
@@ -484,6 +482,8 @@ Bonus feat.
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 121\
 **Subtype:** Air, Elemental, Extraplanar

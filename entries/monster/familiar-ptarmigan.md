@@ -32,11 +32,11 @@ _This small bird has a mix of brown and white feathers and makes a loud croaking
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +2
+
+**Senses:** Low-light vision
 
 **Sources:** Ultimate Wilderness pg 203, Reign of Winter Player's Guide pg 10\
 **Size:** tiny

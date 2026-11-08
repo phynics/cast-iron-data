@@ -39,13 +39,13 @@ monstrous stench._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 251, Carrion Hill pg 30\
 **Subtype:** Extraplanar

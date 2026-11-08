@@ -32,17 +32,15 @@ _Carved from gray stone, this enormous figure is shaped like the head of some pr
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 88\
 **Experience points:** 4,800

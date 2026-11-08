@@ -32,17 +32,15 @@ rotund iron effigy._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 271, Pathfinder \#21: The Jackal's Price pg 86\
 **Experience points:** 9,600

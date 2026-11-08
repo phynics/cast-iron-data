@@ -32,19 +32,15 @@ hideous, tusked underbite._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +2
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +8
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 268\
 **Subtype:** Giant

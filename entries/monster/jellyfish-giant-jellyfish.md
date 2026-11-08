@@ -31,8 +31,6 @@ dangles and writhes below._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -40,6 +38,8 @@ dangles and writhes below._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 170\
 **Subtype:** Aquatic

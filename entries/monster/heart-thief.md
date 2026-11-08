@@ -33,8 +33,6 @@ sack._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
@@ -42,6 +40,8 @@ sack._
 **Type:** outsider
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Seers of the Drowned City pg 57\
 **Subtype:** Chaotic, Evil, Native

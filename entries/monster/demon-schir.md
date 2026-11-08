@@ -32,8 +32,6 @@ muscled frame._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** medium
@@ -42,7 +40,7 @@ muscled frame._
 
 **Perception:** +13
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Bestiary 3 pg 74\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

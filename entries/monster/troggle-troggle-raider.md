@@ -37,17 +37,15 @@ back._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +3
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 160\
 **Subtype:** Giant

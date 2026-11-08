@@ -30,8 +30,6 @@ eyes stare, unblinking but seething with rage._
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
@@ -39,6 +37,8 @@ eyes stare, unblinking but seething with rage._
 **Alignment:** Neutral evil
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#87: The Choking Tower pg 84\
 **Type:** undead

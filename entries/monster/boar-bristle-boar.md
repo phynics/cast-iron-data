@@ -33,13 +33,13 @@ eyes._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 56\
 **Experience points:** 800

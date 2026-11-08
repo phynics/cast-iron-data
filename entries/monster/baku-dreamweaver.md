@@ -31,11 +31,7 @@ a gentle wisdom._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +11
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,6 +40,8 @@ a gentle wisdom._
 **Alignment:** Neutral
 
 **Perception:** +25
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 10\
 **thoughtsense:** 60

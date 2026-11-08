@@ -31,8 +31,6 @@ with dead black eyes._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
@@ -43,9 +41,7 @@ with dead black eyes._
 
 **Perception:** +21
 
-**Senses:** True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness, True seeing
 
 **Sources:** Bestiary 3 pg 90, Pathfinder \#21: The Jackal's Price pg 78\
 **Subtype:** Div, Evil, Extraplanar

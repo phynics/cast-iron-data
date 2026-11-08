@@ -36,8 +36,6 @@ emaciated child with clawed hands._
 
 **Alignment:** Chaotic evil
 
-**dv:** 120
-
 **Initiative:** +7
 
 **Size:** medium
@@ -45,6 +43,8 @@ emaciated child with clawed hands._
 **Type:** outsider
 
 **Perception:** +25
+
+**Senses:** Darkvision 120 ft.
 
 **Sources:** Bestiary 2 pg 245\
 **Subtype:** Evil, Extraplanar

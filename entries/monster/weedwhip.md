@@ -37,13 +37,13 @@ heads._
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

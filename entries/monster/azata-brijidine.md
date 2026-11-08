@@ -35,17 +35,15 @@ _This beautiful woman has flesh made of lava. She soars through the sky on a tra
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +26
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 37\
 **Subtype:** Azata, Chaotic, Earth, Extraplanar, Fire, Good

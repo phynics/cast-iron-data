@@ -34,21 +34,17 @@ in one hand._
 **aura:** aura of courage ([paladin](ref/class/paladin)), aura of menace (DC 27),
 _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
 
 **Alignment:** Lawful good
 
-**Sense:** Llv
-
 **Type:** outsider
 
 **Perception:** +29
 
-**Senses:** Detect evil, True seeing
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, True seeing
 
 **Sources:** Bestiary 2 pg 32\
 **Subtype:** Archon, Extraplanar, Good, Lawful

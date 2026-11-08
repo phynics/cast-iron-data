@@ -33,13 +33,9 @@ great eagle wings._
 
 **Mythic rank:** 4
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -47,7 +43,7 @@ great eagle wings._
 
 **Perception:** +21
 
-**Senses:** Detect magic, See invisibility
+**Senses:** Darkvision 60 ft., Detect magic, Low-light vision, See invisibility
 
 **Sources:** Mythic Adventures pg 217\
 **Subtype:** Mythic

@@ -36,17 +36,15 @@ feet._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 90
-
 **Type:** fey
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Darkvision 90 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 178\
 **Experience points:** 1,600

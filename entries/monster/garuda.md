@@ -34,17 +34,15 @@ dominate its avian face._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Type:** outsider
 
 **Perception:** +20
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 123, Cult of the Ebon Destroyers pg 29\
 **Subtype:** Native

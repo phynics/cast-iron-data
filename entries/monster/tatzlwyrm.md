@@ -32,17 +32,15 @@ end in tiny claws._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 261, Pathfinder \#31: Stolen Land pg 82, Hollow's Last Hope pg 18\
 **Experience points:** 600

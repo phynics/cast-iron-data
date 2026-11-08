@@ -35,13 +35,11 @@ eagerly for the scent of prey._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +17
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 6 pg 185\
 **Experience points:** 25,600

@@ -33,13 +33,11 @@ _Hissing menacingly, this mass of snakes resembles a pile of slithering tentacle
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +9
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 249, Pathfinder \#39: The City of Seven Spears pg 82\
 **Subtype:** Swarm

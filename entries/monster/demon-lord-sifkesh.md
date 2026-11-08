@@ -37,8 +37,6 @@ that float nearby as if they were still attached._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +12
 
 **Size:** medium
@@ -47,7 +45,7 @@ that float nearby as if they were still attached._
 
 **Perception:** +51
 
-**Senses:** Detect good, Detect law, True seeing
+**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
 **Sources:** Pathfinder \#75: Demon's Heresy pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

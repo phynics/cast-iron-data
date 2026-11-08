@@ -31,17 +31,15 @@ unseen light._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral good
 
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#107: Scourge of the Godclaw pg 86\
 **Size:** tiny

@@ -37,11 +37,11 @@ this slithering creature. Its face is disturbingly demonic._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +7
+
+**Senses:** Low-light vision
 
 **Sources:** Gallows of Madness pg 59\
 **Experience points:** 400

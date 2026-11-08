@@ -34,10 +34,6 @@ body of an enormous serpent._
 
 **Female brazen medusa [ranger](ref/class/ranger) 5**
 
-**Sense:** Aav
-
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -47,6 +43,8 @@ body of an enormous serpent._
 **Type:** Monstrous humanoid
 
 **Perception:** +21
+
+**Senses:** All-around vision, Darkvision 60 ft.
 
 **Sources:** Mythical Monsters Revisited pg 44\
 **Experience points:** 25,600

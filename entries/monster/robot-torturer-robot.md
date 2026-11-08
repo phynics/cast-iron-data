@@ -34,15 +34,13 @@ sphere._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

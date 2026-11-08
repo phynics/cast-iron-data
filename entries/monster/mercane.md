@@ -31,8 +31,6 @@ and its hands have too few fingers._
 
 **Challenge rating:** 5
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Size:** large
@@ -42,6 +40,8 @@ and its hands have too few fingers._
 **Type:** outsider
 
 **Perception:** +12
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 188\
 **Subtype:** Extraplanar

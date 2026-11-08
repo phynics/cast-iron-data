@@ -30,8 +30,6 @@ dripping tumorous face._
 
 **Challenge rating:** 1
 
-**dv:** 60
-
 **Initiative:** +0
 
 **Alignment:** Lawful evil
@@ -42,7 +40,7 @@ dripping tumorous face._
 
 **Perception:** +0
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder RPG Bestiary pg 79\
 **Subtype:** Devil, Evil, Extraplanar, Lawful

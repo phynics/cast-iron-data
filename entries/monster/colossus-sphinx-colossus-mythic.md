@@ -38,17 +38,15 @@ _This stone edifice resembles a lion with a regal human face, garbed in royal cl
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision, X-ray vision
 
 **Sources:** Bestiary 5 pg 58, Osirion, Legacy of the Pharaohs pg 56\
 **Subtype:** Colossus, Mythic
@@ -56,8 +54,6 @@ _This stone edifice resembles a lion with a regal human face, garbed in royal cl
 **tremorsense:** 120
 
 **Experience points:** 38,400
-
-**Sense:** Xray
 
 **Armor class:** 31/7/30
 

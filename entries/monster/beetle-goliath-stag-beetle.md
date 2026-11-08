@@ -29,8 +29,6 @@ hungry fervor._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +0
@@ -38,6 +36,8 @@ hungry fervor._
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 44\
 **Type:** vermin

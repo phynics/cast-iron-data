@@ -38,17 +38,13 @@ bulbous eyes glare._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +24
 
 **Size:** large
 
-**Sense:** Llv
-
 **Perception:** +47
 
-**Senses:** True seeing
+**Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Bestiary 6 pg 146\
 **Subtype:** Aquatic, Chaotic, Evil, Great Old One

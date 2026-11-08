@@ -34,13 +34,9 @@ _This stag-headed humanoid has large, sweeping antlers and wields a finely-craft
 
 **aura:** aura of menace (20 ft., DC 15, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** +2
 
 **Alignment:** Lawful good
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -48,7 +44,7 @@ _This stag-headed humanoid has large, sweeping antlers and wields a finely-craft
 
 **Perception:** +11
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
 **Sources:** Inner Sea Gods pg 287\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Shapechanger

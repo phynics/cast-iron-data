@@ -28,13 +28,9 @@ _This sleek and graceful doe possesses long, metallic antlers and a shiny, golde
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +18
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -42,9 +38,7 @@ _This sleek and graceful doe possesses long, metallic antlers and a shiny, golde
 
 **Perception:** +17
 
-**Sense:** Scent
-
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
 
 **Sources:** Bestiary 5 pg 53\
 **Experience points:** 3,200

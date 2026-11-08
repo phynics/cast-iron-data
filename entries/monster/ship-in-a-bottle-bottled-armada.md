@@ -33,15 +33,13 @@ one, coordinating their attacks._
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#57: Tempest Rising pg 86\
 **Subtype:** Swarm

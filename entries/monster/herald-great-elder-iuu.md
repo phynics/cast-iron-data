@@ -35,21 +35,19 @@ glinting metallic ore._
 
 **aura:** courage (20 ft.)
 
-**dv:** 120
-
 **Initiative:** +3
 
 **Size:** large
 
 **Alignment:** Lawful evil
 
-**Sense:** Llv
-
 **othersubs:** Herald
 
 **Type:** outsider
 
 **Perception:** +21
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Pathfinder \#93: Forge of the Giant God pg 86\
 **Subtype:** Evil, Giant, Lawful

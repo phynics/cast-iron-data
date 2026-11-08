@@ -35,13 +35,11 @@ _This feathered bipedal saurian looks somewhat comical - save for its outlandish
 
 **Initiative:** +7
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +25
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 84\
 **Experience points:** 9,600

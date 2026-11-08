@@ -32,17 +32,15 @@ rack of sharp antlers on its brow._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Size:** medium
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 207, Pathfinder \#19: Howl of the Carrion King pg 86\
 **Experience points:** 1,200

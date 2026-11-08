@@ -37,8 +37,6 @@ membranous dragonfly wings._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Size:** medium
@@ -47,7 +45,7 @@ membranous dragonfly wings._
 
 **Perception:** +37
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., See invisibility
 
 **Sources:** Pathfinder \#78: City of Locusts pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar

@@ -30,11 +30,7 @@ with soft, green fur._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +2
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ with soft, green fur._
 
 **Perception:** +6
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 5 pg 201\
 **Experience points:** 200

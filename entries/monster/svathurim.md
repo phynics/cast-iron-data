@@ -35,8 +35,6 @@ frost giant._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +3
@@ -44,6 +42,8 @@ frost giant._
 **Type:** Monstrous humanoid
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 76, Pathfinder \#69: Maiden, Mother, Crone pg 90\
 **Subtype:** Cold

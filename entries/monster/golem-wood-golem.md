@@ -31,17 +31,15 @@ _This human-sized automaton resembles a crude humanoid figure made of cast-off p
 
 **Type:** construct
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +0
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 164\
 **Experience points:** 2,400

@@ -34,13 +34,9 @@ eyes._
 
 **Mythic rank:** 6
 
-**Sense:** Aav
-
 **Type:** aberration
 
 **aura:** frightful presence (40 ft., DC 16)
-
-**dv:** 60
 
 **Size:** gargantuan
 
@@ -48,15 +44,10 @@ eyes._
 
 **Alignment:** Lawful neutral
 
-**Sense:** Mistsight
-
 **Perception:** +29
 
-**Senses:** Limitless vision
-
-**Senses:** Arcane sight, Detect scrying, True seeing
-
-**Sense:** Sid
+**Senses:** All-around vision, Arcane sight, Darkvision 60 ft., Detect scrying, Limitless vision,
+Mistsight, See in darkness, True seeing
 
 **Sources:** Bestiary 4 pg 13\
 **Subtype:** Mythic

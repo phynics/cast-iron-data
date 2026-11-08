@@ -35,13 +35,11 @@ incredible speed._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +20
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder \#60: From Hell's Heart pg 88\
 **Experience points:** 9,600

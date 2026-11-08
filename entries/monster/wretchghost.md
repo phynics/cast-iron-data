@@ -34,13 +34,13 @@ almost touch the ground._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#98: Turn of the Torrent pg 90\
 **Subtype:** Incorporeal

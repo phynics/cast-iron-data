@@ -33,8 +33,6 @@ individual with shining eyes._
 
 **aura:** protective aura
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -45,7 +43,7 @@ individual with shining eyes._
 
 **Perception:** +16
 
-**Senses:** Detect evil
+**Senses:** Darkvision 60 ft., Detect evil
 
 **Sources:** Bestiary 5 pg 22, Chronicle of the Righteous pg 59\
 **Subtype:** Angel, Extraplanar, Good

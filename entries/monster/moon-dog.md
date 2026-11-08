@@ -32,8 +32,6 @@ its face seems preternaturally wise._
 
 **Challenge rating:** 9
 
-**dv:** 120
-
 **Initiative:** +2
 
 **Size:** medium
@@ -44,11 +42,7 @@ its face seems preternaturally wise._
 
 **Perception:** +26
 
-**Sense:** Scent
-
-**Senses:** Keen senses
-
-**Senses:** Detect evil, Detect magic, See invisibility
+**Senses:** Darkvision 120 ft., Detect evil, Detect magic, Keen senses, Scent, See invisibility
 
 **Sources:** Bestiary 5 pg 174\
 **Subtype:** Extraplanar, Good

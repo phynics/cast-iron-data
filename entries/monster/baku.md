@@ -31,11 +31,7 @@ elongated trunk for a snout._
 
 **Challenge rating:** 8
 
-**dv:** 60
-
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,6 +40,8 @@ elongated trunk for a snout._
 **Alignment:** Neutral
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 30\
 **Experience points:** 4,800

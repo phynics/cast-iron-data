@@ -36,11 +36,11 @@ honey and fruit drape over the bone-white trees of a dead grove buried under hea
 
 **Initiative:** -2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +10
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

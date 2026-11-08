@@ -34,13 +34,13 @@ its fanged maw._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 120
-
 **Initiative:** +2
 
 **Type:** Monstrous humanoid
 
 **Perception:** +13
+
+**Senses:** Darkvision 120 ft.
 
 **Size:** small
 

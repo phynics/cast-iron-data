@@ -34,8 +34,6 @@ a mouth._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +6
@@ -44,7 +42,7 @@ a mouth._
 
 **Perception:** +27
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 86\
 **Subtype:** Earth, Elemental, Extraplanar

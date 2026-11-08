@@ -32,8 +32,6 @@ rises from its red-hot scales._
 
 **aura:** molten body
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** medium
@@ -43,6 +41,8 @@ rises from its red-hot scales._
 **Type:** outsider
 
 **Perception:** +10
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 262\
 **Subtype:** Earth, Elemental, Extraplanar, Fire

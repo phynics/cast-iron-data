@@ -31,8 +31,6 @@ skirt adorned with gold pendants._
 
 **Challenge rating:** 11
 
-**dv:** 60
-
 **Initiative:** +9
 
 **Alignment:** Lawful evil
@@ -43,7 +41,7 @@ skirt adorned with gold pendants._
 
 **Perception:** +21
 
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., See in darkness
 
 **Sources:** Book of the Damned pg 249\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful

@@ -33,11 +33,11 @@ wickedly sharp wooden branches._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +27
+
+**Senses:** Low-light vision
 
 **Type:** plant
 

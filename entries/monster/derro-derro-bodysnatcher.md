@@ -36,13 +36,13 @@ crossbow and blood-stained manacles enhance his aura of quiet menace._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +4
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

@@ -35,17 +35,15 @@ body._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 120
-
 **Type:** fey
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +16
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 208\
 **Subtype:** Water

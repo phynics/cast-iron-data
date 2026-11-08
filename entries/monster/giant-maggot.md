@@ -30,8 +30,6 @@ teeth._
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** medium
@@ -39,6 +37,8 @@ teeth._
 **Alignment:** Neutral
 
 **Perception:** -3
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 124, Pathfinder \#8: Seven Days to the Grave pg 84\
 **Type:** vermin

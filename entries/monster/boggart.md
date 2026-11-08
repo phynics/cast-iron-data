@@ -36,9 +36,9 @@ a mane of lank hair._
 
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +12
+
+**Senses:** Low-light vision
 
 **Size:** small
 

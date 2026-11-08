@@ -39,8 +39,6 @@ helm made of greasy green metal._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -48,6 +46,8 @@ helm made of greasy green metal._
 **Type:** outsider
 
 **Perception:** +31
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Demons Revisited pg 26\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar

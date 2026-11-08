@@ -32,11 +32,11 @@ abilities = ["26", "9", "20", "-", "13", "2"]
 
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 78, Bestiary 6 pg 122\
 **Subtype:** Aquatic

@@ -38,11 +38,11 @@ immense size._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 282\
 **Experience points:** 9,600

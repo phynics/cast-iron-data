@@ -32,13 +32,11 @@ _A pair of brightly colored butterfly wings sprouts from the back of this miniat
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +3
 
-**Sense:** Llv
-
 **Perception:** +8
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 3 pg 91, Bonus Bestiary pg 9\
 **Size:** tiny

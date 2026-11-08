@@ -27,13 +27,13 @@ abilities = ["1", "17", "10", "-", "10", "2"]
 
 **Challenge rating:** 1/8
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Ultimate Magic pg 119\
 **Size:** tiny

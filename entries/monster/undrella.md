@@ -36,8 +36,6 @@ wicked-looking longbow._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** medium
@@ -45,6 +43,8 @@ wicked-looking longbow._
 **Type:** Monstrous humanoid
 
 **Perception:** +19
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Mythical Monsters Revisited pg 27\
 **Experience points:** 12,800

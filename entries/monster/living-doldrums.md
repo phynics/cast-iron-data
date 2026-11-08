@@ -33,8 +33,6 @@ hum._
 
 **aura:** stagnant (240 ft.)
 
-**dv:** 60
-
 **Size:** gargantuan
 
 **Initiative:** +5
@@ -44,6 +42,8 @@ hum._
 **Type:** outsider
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#123: The Flooded Cathedral pg 88\
 **Subtype:** Air, Elemental, Extraplanar

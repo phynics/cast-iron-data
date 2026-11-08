@@ -31,8 +31,6 @@ within its glaring eyes._
 
 **Challenge rating:** 12
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Alignment:** Lawful evil
@@ -40,6 +38,8 @@ within its glaring eyes._
 **Size:** medium
 
 **Perception:** +21
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 84\
 **Subtype:** Incorporeal

@@ -39,13 +39,13 @@ been filed down to points._
 
 **Initiative:** +0
 
-**Sense:** Llv
-
 **Size:** medium
 
 **othersubs:** Kuru
 
 **Perception:** +6
+
+**Senses:** Low-light vision
 
 **Sources:** Isles of the Shackles pg 51\
 **Experience points:** 200

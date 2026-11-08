@@ -32,8 +32,6 @@ from its body like drops of blood._
 
 **aura:** infestation (5 ft., 1d6 plus poison)
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** large
@@ -41,6 +39,8 @@ from its body like drops of blood._
 **Alignment:** Neutral
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 65, Pathfinder \#4: Fortress of the Stone Giants pg 79\
 **Type:** undead

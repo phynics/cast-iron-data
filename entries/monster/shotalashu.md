@@ -29,19 +29,17 @@ _This large, four-legged reptile has a brown scaled hide and a long, powerful ta
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +7
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Occult Bestiary pg 53\
 **Experience points:** 600

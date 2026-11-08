@@ -33,15 +33,13 @@ sickle-shaped claw._
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Pathfinder RPG Bestiary pg 84\
 **Experience points:** 800

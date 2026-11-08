@@ -33,8 +33,6 @@ _Fine jewelry and clothing accentuate this tiger-headed figure's striped fur and
 
 **Mythic rank:** 5
 
-**dv:** 60
-
 **Initiative:** +14, Mythic Improved Initiative
 
 **Alignment:** Lawful evil
@@ -45,7 +43,7 @@ _Fine jewelry and clothing accentuate this tiger-headed figure's striped fur and
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Mythic Adventures pg 215\
 **Subtype:** Mythic, Native, Shapechanger

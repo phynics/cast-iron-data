@@ -33,8 +33,6 @@ glowing runes._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +8
 
 **Size:** large
@@ -42,6 +40,8 @@ glowing runes._
 **Type:** outsider
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 39, Pathfinder \#66: The Dead Heart of Xin pg 84\
 **Subtype:** Azata, Chaotic, Extraplanar, Good

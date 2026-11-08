@@ -31,8 +31,6 @@ _This small, centaur-like ant creature bears a huge, bulging sack on its armored
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Initiative:** +0 (+4 with hive mind)
 
 **Alignment:** Lawful neutral
@@ -41,7 +39,7 @@ _This small, centaur-like ant creature bears a huge, bulging sack on its armored
 
 **Perception:** +4 (+8 with hive mind)
 
-**Senses:** Hive mind
+**Senses:** Darkvision 60 ft., Hive mind
 
 **Size:** small
 

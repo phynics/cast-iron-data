@@ -29,13 +29,13 @@ _A dog-sized cockroach skitters forth, greedily clicking its filth-slicked mandi
 
 **Challenge rating:** 1/2
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Alignment:** Neutral
 
 **Perception:** +4
+
+**Senses:** Darkvision 60 ft.
 
 **Size:** small
 

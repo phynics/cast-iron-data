@@ -36,13 +36,11 @@ long fingers and nails._
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Alignment:** Neutral evil
 
 **Perception:** +15
 
-**Senses:** Hear heartbeat
+**Senses:** Hear heartbeat, Low-light vision
 
 **Size:** small
 

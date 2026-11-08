@@ -38,15 +38,13 @@ center of its maw rests a glowing evil eye._
 
 **Size:** colossal
 
-**dv:** 60
-
 **Initiative:** +5
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +27
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 47\
 **tremorsense:** 180

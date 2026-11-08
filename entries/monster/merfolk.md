@@ -38,13 +38,13 @@ slender fish._
 
 **Initiative:** +1
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 204\
 **Subtype:** Aquatic

@@ -31,8 +31,6 @@ looms taller than a human._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +1
 
 **Size:** large
@@ -40,6 +38,8 @@ looms taller than a human._
 **Type:** Monstrous humanoid
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 16, Bonus Bestiary pg 11\
 **Experience points:** 2,400

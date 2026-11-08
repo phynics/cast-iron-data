@@ -34,8 +34,6 @@ mace of black metal._
 
 **aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), shield of law (DC 29)
 
-**dv:** 60
-
 **Initiative:** +13
 
 **Size:** large
@@ -46,9 +44,7 @@ mace of black metal._
 
 **Perception:** +46
 
-**Senses:** Detect chaos, Detect good, True seeing
-
-**Sense:** Sid
+**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
 
 **Sources:** Bestiary 6 pg 22\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger

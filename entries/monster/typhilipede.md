@@ -34,8 +34,6 @@ of oversized mandibles that glisten with green ichor._
 
 **aura:** shadow (10 ft.)
 
-**dv:** 120
-
 **Initiative:** +6
 
 **Alignment:** Lawful evil
@@ -44,7 +42,7 @@ of oversized mandibles that glisten with green ichor._
 
 **Perception:** +7
 
-**Sense:** Sid
+**Senses:** Darkvision 120 ft., See in darkness
 
 **Sources:** Pathfinder \#103: The Hellfire Compact pg 88\
 **Subtype:** Evil, Extraplanar, Lawful

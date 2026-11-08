@@ -34,8 +34,6 @@ bell vibrates with an electrical charge._
 
 **blindsense:** 30
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +4
@@ -43,6 +41,8 @@ bell vibrates with an electrical charge._
 **Alignment:** Neutral
 
 **Perception:** +1
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 3 pg 155\
 **Subtype:** Aquatic

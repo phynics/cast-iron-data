@@ -32,8 +32,6 @@ itself and reshaping into new forms._
 
 **Alignment:** Chaotic neutral
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
@@ -41,6 +39,8 @@ itself and reshaping into new forms._
 **Type:** outsider
 
 **Perception:** +13
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 2 pg 54\
 **Subtype:** Chaotic, Extraplanar

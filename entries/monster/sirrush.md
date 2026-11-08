@@ -37,17 +37,15 @@ appear to be made of solid sunlight._
 
 **Type:** dragon
 
-**dv:** 120
-
 **Size:** gargantuan
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Alignment:** Neutral good
 
 **Perception:** +38
+
+**Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Planar Adventures pg 245\
 **Subtype:** Extraplanar, Good

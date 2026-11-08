@@ -43,9 +43,9 @@ and blackened stone._
 
 **Initiative:** +8
 
-**Sense:** Llv
-
 **Perception:** +23
+
+**Senses:** Low-light vision
 
 **Sources:** Giants Revisited pg 62\
 **Subtype:** Giant

@@ -34,13 +34,13 @@ deeper into and escape from its fleshy husk._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +6
 
 **Size:** medium
 
 **Perception:** +15
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder \#46: Wake of the Watcher pg 88\
 **Experience points:** 6,400

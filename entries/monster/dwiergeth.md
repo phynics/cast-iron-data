@@ -35,13 +35,13 @@ gnashing, ophidian maws._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +11
 
 **Size:** large
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 102, The Worldwound pg 54\
 **Subtype:** Extraplanar

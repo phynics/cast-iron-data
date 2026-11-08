@@ -32,11 +32,7 @@ hooked, and its webbed feet bear sharp talons._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +3
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -44,7 +40,7 @@ hooked, and its webbed feet bear sharp talons._
 
 **Perception:** +5
 
-**Senses:** Arcane sight
+**Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 82\
 **Size:** tiny

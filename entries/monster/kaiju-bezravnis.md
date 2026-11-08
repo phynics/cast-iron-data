@@ -36,15 +36,13 @@ molten heat._
 
 **Size:** colossal
 
-**dv:** 600
-
 **Initiative:** +9
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Perception:** +37
+
+**Senses:** Darkvision 600 ft., Low-light vision
 
 **Sources:** Bestiary 4 pg 168\
 **Subtype:** Earth, Kaiju

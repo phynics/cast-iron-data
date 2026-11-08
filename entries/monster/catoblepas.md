@@ -31,19 +31,17 @@ and cloven hooves on its stumpy legs._
 
 **aura:** [stench](ref/umr/stench) (30 ft., DC 23, 10 rounds)
 
-**dv:** 60
-
 **Initiative:** -1
 
 **Size:** large
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
 **Alignment:** Neutral
 
 **Perception:** +25
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 52\
 **Experience points:** 19,200

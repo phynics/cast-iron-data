@@ -32,19 +32,15 @@ sword in its metal fists._
 
 **Type:** construct
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +0
-
-**Sense:** Llv
 
 **Alignment:** Neutral
 
 **Perception:** +1
 
-**Senses:** See invisibility
+**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
 **Sources:** Bestiary 3 pg 134, Pathfinder \#24: The Final Wish pg 84\
 **Experience points:** 38,400

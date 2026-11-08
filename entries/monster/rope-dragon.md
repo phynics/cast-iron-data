@@ -34,13 +34,11 @@ _This small dragon, which appears to be composed of coils of rope, bristles with
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +4
 
-**Sense:** Llv
-
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Size:** small
 

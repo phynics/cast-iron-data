@@ -30,11 +30,7 @@ with sparks of lightning._
 
 **Challenge rating:** 2
 
-**dv:** 60
-
 **Initiative:** +6
-
-**Sense:** Llv
 
 **Type:** Magical beast
 
@@ -42,7 +38,7 @@ with sparks of lightning._
 
 **Perception:** +8
 
-**Senses:** Electricity sense
+**Senses:** Darkvision 60 ft., Electricity sense, Low-light vision
 
 **Size:** small
 

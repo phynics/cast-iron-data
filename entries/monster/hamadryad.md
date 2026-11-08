@@ -36,11 +36,11 @@ _This regal woman exhibits the grace and pride of the forest's most ancient tree
 
 **Initiative:** +6
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Perception:** +31
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 148\
 **Experience points:** 51,200

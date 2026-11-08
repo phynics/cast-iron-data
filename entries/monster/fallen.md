@@ -35,8 +35,6 @@ armor and weapons seem quite solid._
 
 **blindsense:** 60
 
-**dv:** 60
-
 **Initiative:** +3
 
 **Alignment:** Lawful evil
@@ -44,6 +42,8 @@ armor and weapons seem quite solid._
 **Size:** medium
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 6 pg 126, Pathfinder \#75: Demon's Heresy pg 90\
 **Subtype:** Incorporeal

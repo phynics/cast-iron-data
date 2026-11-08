@@ -31,8 +31,6 @@ _This elderly figure looks out with heavy-lidded eyes, and seems lost in its own
 
 **Challenge rating:** 16
 
-**dv:** 60
-
 **Initiative:** +10
 
 **Alignment:** Lawful good
@@ -42,6 +40,8 @@ _This elderly figure looks out with heavy-lidded eyes, and seems lost in its own
 **Type:** outsider
 
 **Perception:** +28
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 164\
 **Subtype:** Extraplanar, Good, Lawful, Manasaputra

@@ -36,13 +36,11 @@ wingspan._
 
 **Size:** large
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +14
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 284\
 **Experience points:** 1,200

@@ -32,8 +32,6 @@ _A merging of an emaciated man and a porcupine, this sinister creature smells of
 
 **Challenge rating:** 7
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** Monstrous humanoid
@@ -42,7 +40,7 @@ _A merging of an emaciated man and a porcupine, this sinister creature smells of
 
 **Perception:** +13
 
-**Senses:** Deathwatch, Detect good, Detect magic
+**Senses:** Darkvision 60 ft., Deathwatch, Detect good, Detect magic
 
 **Size:** small
 

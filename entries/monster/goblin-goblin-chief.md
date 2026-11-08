@@ -32,8 +32,6 @@ abilities = ["18", "16", "14", "10", "12", "6"]
 
 **Oversized goblin [fighter](ref/class/fighter) 10**
 
-**dv:** 60
-
 **Type:** humanoid
 
 **Initiative:** +7
@@ -43,6 +41,8 @@ abilities = ["18", "16", "14", "10", "12", "6"]
 **Alignment:** Neutral evil
 
 **Perception:** +11
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 108\
 **Subtype:** Goblinoid

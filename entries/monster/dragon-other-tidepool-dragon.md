@@ -36,13 +36,11 @@ it snaps crustacean-like claws._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +5
 
-**Sense:** Llv
-
 **Perception:** +9
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder \#55: The Wormwood Mutiny pg 82\
 **Subtype:** Aquatic

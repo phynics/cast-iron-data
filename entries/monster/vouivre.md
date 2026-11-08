@@ -33,8 +33,6 @@ dragon._
 
 **Alignment:** Chaotic evil
 
-**dv:** 60
-
 **Initiative:** +5
 
 **Size:** large
@@ -42,6 +40,8 @@ dragon._
 **Type:** Monstrous humanoid
 
 **Perception:** +17
+
+**Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 4 pg 270, Pathfinder \#30: The Twice-Damned Prince pg 88\
 **Subtype:** Aquatic

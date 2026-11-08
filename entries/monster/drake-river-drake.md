@@ -34,11 +34,7 @@ sea and sky._
 
 **Type:** dragon
 
-**dv:** 60
-
 **Initiative:** +7
-
-**Sense:** Llv
 
 **Size:** medium
 
@@ -46,7 +42,7 @@ sea and sky._
 
 **Perception:** +7
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Bestiary 3 pg 107\
 **Subtype:** Aquatic, Water

@@ -32,15 +32,13 @@ _This large, regal canine looks like a juvenile mastiff. It has red fur and vibr
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Initiative:** +4
 
 **Type:** outsider
 
 **Perception:** +5
 
-**Sense:** Scent
+**Senses:** Darkvision 60 ft., Scent
 
 **Size:** small
 

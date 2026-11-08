@@ -35,17 +35,15 @@ trails behind the creature._
 
 **Alignment:** Chaotic good
 
-**dv:** 60
-
 **Size:** huge
 
 **Initiative:** +10
 
-**Sense:** Llv
-
 **Type:** Magical beast
 
 **Perception:** +16
+
+**Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 50\
 **Experience points:** 6,400

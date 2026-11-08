@@ -36,13 +36,13 @@ _This elegantly dressed woman has the head and bushy tail of well-groomed fox._
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Size:** medium
 
 **Alignment:** Neutral
 
 **Perception:** +3
+
+**Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 175\
 **Subtype:** Kitsune, Shapechanger

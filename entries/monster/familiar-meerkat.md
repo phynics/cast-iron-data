@@ -33,13 +33,11 @@ _This curious, sand-colored, weasel-like creature has dark bands around its inqu
 
 **Initiative:** +2
 
-**Sense:** Llv
-
 **Alignment:** Neutral
 
 **Perception:** +1
 
-**Sense:** Scent
+**Senses:** Low-light vision, Scent
 
 **Sources:** Ultimate Wilderness pg 200\
 **Size:** tiny
