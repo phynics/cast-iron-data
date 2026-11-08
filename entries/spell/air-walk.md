@@ -66,10 +66,3 @@ the air walk spell is dispelled, but not if it is negated by an antimagic field.
 You can cast air walk on a specially trained mount so it can be ridden through the air. You can
 train a mount to move with the aid of air walk (counts as a trick; see Handle Animal skill) with 1
 week of work and a DC 25 Handle Animal check.
-
-### Communal Air Walk
-
-**Sources:** Ultimate Combat pg 222
-
-This spell functions like air walk, except divide the duration in 10-minute intervals among the
-creatures touched.

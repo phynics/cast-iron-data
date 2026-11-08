@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_fortune_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/heroic-fortune" },
+]
 
 [fields]
 kind = "spell"
@@ -42,16 +45,8 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 :::
 
-## Heroic Fortune
-
-**Sources:** Advanced Player's Guide pg 324
-
-This spell grants 1 hero point to the target. This hero point must be spent before the duration
-expires, or it is lost. The bonus hero point is spent before any other hero points the target might
-possess.
-
 ### Mass Heroic Fortune
 
 **Sources:** Advanced Player's Guide pg 324
 
-This spell functions like heroic fortune, except as noted above.
+This spell functions like [heroic fortune](ref/spell/heroic-fortune), except as noted above.

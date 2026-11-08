@@ -60,9 +60,3 @@ points per Hit Die. The undead creature's destructive instincts take hold for th
 spell, and any attempts to control or command the undead creature have a 50% chance of failing; if
 uncontrolled, the undead creature attacks any living creatures it sees. This spell has no effect on
 undead creatures that already have the advanced creature template.
-
-### Mass Umbral Infusion
-
-**Sources:** Blood of Shadows pg 31
-
-This spell functions as umbral infusion, except it can affect multiple mindless undead creatures.

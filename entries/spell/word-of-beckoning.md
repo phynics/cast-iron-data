@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "pathfinder-131-the-reapers-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_beckoning", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/sending" },
+]
 
 [fields]
 kind = "spell"
@@ -55,20 +58,6 @@ Spell resistance: no
 Target: one creature
 :::
 
-## Sending
-
-**Sources:** PRPG Core Rulebook pg 339
-
-You contact a particular creature with which you are familiar and send a short message of 25 words
-or less to the subject. The subject recognizes you if it knows you. It can answer in like manner
-immediately. A creature with an Intelligence score as low as 1 can understand the sending, though
-the subject's ability to react is limited as normal by its Intelligence. Even if the sending is
-received, the subject is not obligated to act upon it in any manner.
-
-If the creature in question is not on the same plane of existence as you are, there is a 5% chance
-that the sending does not arrive. (Local conditions on other planes may worsen this chance
-considerably.)
-
 ### Mythic Sending
 
 **Sources:** Mythic Adventures pg 107
@@ -88,12 +77,13 @@ receive the message.
 
 **Sources:** Pathfinder \#131: The Reaper's Right Hand pg 72
 
-This spell functions like sending, except the subject also receives knowledge of a command word
-that, when spoken, summons you to the open space nearest to the subject. The subject must speak the
-command word within 1 round of knowing it to summon you, although the subject isn't obligated to
-speak it. You can be transported any distance within a plane but cannot travel between planes. You
-can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring
-one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load)
-or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge
-creature counts as four Medium creatures, and so forth. All creatures to be transported must be in
-contact with one another, and at least one of those creatures must be in contact with you.
+This spell functions like [sending](ref/spell/sending), except the subject also receives knowledge
+of a command word that, when spoken, summons you to the open space nearest to the subject. The
+subject must speak the command word within 1 round of knowing it to summon you, although the subject
+isn't obligated to speak it. You can be transported any distance within a plane but cannot travel
+between planes. You can bring along objects as long as their weight doesn't exceed your maximum
+load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects
+up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two
+Medium creatures, a Huge creature counts as four Medium creatures, and so forth. All creatures to be
+transported must be in contact with one another, and at least one of those creatures must be in
+contact with you.

@@ -73,23 +73,3 @@ A lesser geas (and all ability score penalties) can be ended by
 [break enchantment](ref/spell/break-enchantment), [limited wish](ref/spell/limited-wish),
 [remove curse](ref/spell/remove-curse), [miracle](ref/spell/miracle), or [wish](ref/spell/wish).
 [Dispel magic](ref/spell/dispel-magic) does not affect a lesser geas.
-
-### Geas/Quest
-
-**Sources:** PRPG Core Rulebook pg 288
-
-This spell functions similarly to lesser geas, except that it affects a creature of any HD and
-allows no saving throw.
-
-If the subject is prevented from obeying the geas/quest for 24 hours, it takes a -3 penalty to each
-of its ability scores. Each day, another -3 penalty accumulates, up to a total of -12. No ability
-score can be reduced to less than 1 by this effect. The ability score penalties are removed 24 hours
-after the subject resumes obeying the geas/quest.
-
-A [remove curse](ref/spell/remove-curse) spell ends a geas/quest spell only if its caster level is
-at least two higher than your caster level. [Break enchantment](ref/spell/break-enchantment) does
-not end a geas/quest, but [limited wish](ref/spell/limited-wish), [miracle](ref/spell/miracle), and
-[wish](ref/spell/wish) do.
-
-Bards, sorcerers, and wizards usually refer to this spell as geas, while clerics call the same spell
-quest.

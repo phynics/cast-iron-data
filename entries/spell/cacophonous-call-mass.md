@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cacophonous_call_mass", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/cacophonous-call" },
+]
 
 [fields]
 kind = "spell"
@@ -42,16 +45,9 @@ Subschool: Compulsion
 Descriptors: mind-affecting
 :::
 
-## Cacophonous Call
-
-**Sources:** Advanced Player's Guide pg 208
-
-You fill your target's mind with a blaring cacophony of discordant sounds, making it hard for the
-target to act and concentrate. The creature gains the nauseated condition for the duration of the
-spell if it fails its Will save.
-
 ### Mass Cacophonous Call
 
 **Sources:** Advanced Player's Guide pg 208
 
-This spell functions as cacophonous call, except that it affects multiple creatures.
+This spell functions as [cacophonous call](ref/spell/cacophonous-call), except that it affects
+multiple creatures.

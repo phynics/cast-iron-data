@@ -68,10 +68,3 @@ _Sonic:_ Creatures hit by the attack or within 20 feet of the attack must succee
 saving throw or be deafened for one hour. The DC of this effect is the same as the spell DC.
 
 _Force:_ No extra effect.
-
-### Greater Energy Siege Shot
-
-**Sources:** Ultimate Combat pg 229
-
-This spell functions like energy shot, except it can target siege engines of any size, not just
-Large siege engines.

@@ -91,25 +91,3 @@ out of range or destroyed). If the spell ends while you are in a host, you retur
 die, if it is out of range of your current position), and the soul in the magic jar returns to its
 body (or dies if it is out of range). Destroying the receptacle ends the spell, and the spell can be
 dispelled at either the magic jar or the host's location.
-
-### Parasitic Soul
-
-**Sources:** Book of the Damned pg 185, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-39
-
-This spell functions like magic jar except as noted above, and instead of your own soul, you can
-transfer a trapped soul (such as one trapped in a soul gem or trapped with soul bind or trap the
-soul) from the receptacle into an unwilling target's body. If the target creature fails its saving
-throw, it dies and the trapped soul in the receptacle permanently inhabits the body as if using
-magic jar. The trapped soul does not get a saving throw to resist this transfer. To dismiss the
-spell, you must be within range of the possessed body.
-
-### Possess Object
-
-**Sources:** Ultimate Magic pg 232
-
-This spell functions as magic jar, except you transfer your mind to a single object, animating it as
-if using animate objects, except your mind controls the object as if it were your own body. You
-cannot speak or cast spells while possessing the object. Because your original body is effectively
-dead while under the effect of this spell, this temporarily suspends disease, poisons, and other
-afflictions affecting you.

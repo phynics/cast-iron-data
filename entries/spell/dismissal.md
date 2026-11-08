@@ -56,9 +56,3 @@ Target: one extraplanar creature
 This spell forces an extraplanar creature back to its proper plane if it fails a Will save. If the
 spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually
 sending the subject to a plane other than its own.
-
-### Homeward Bound
-
-**Sources:** Planar Adventures pg 41
-
-This spell functions as dismissal, except as noted above.

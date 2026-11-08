@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owls_wisdom_mass", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/owls-wisdom" },
+]
 
 [fields]
 kind = "spell"
@@ -49,17 +52,9 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 :::
 
-## Owl's Wisdom
-
-**Sources:** PRPG Core Rulebook pg 318
-
-The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the
-usual benefit to Wisdom-related skills. Clerics, druids, and rangers (and other Wisdom-based
-spellcasters) who receive owl's wisdom do not gain any additional bonus spells for the increased
-Wisdom, but the save DCs for their spells increase.
-
 ### Mass Owl's Wisdom
 
 **Sources:** PRPG Core Rulebook pg 318
 
-This spell functions like owl's wisdom, except that it affects multiple creatures.
+This spell functions like [owl's wisdom](ref/spell/owls-wisdom), except that it affects multiple
+creatures.

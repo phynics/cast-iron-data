@@ -61,11 +61,3 @@ creature is instead dazzled for 1 round).
 
 Despite its shiny appearance, a dazzling blade grants no extra benefit against creatures that are
 vulnerable to silver.
-
-### Mass Dazzling Blade
-
-**Sources:** Rival Guide pg 5
-
-This spell functions like dazzling blade, except that it affects multiple weapons. Each wielder of a
-dazzling blade can discharge the weapon's effect to attempt to blind a foe independently of the
-others.

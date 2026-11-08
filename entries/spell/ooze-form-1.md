@@ -57,27 +57,3 @@ attack (1d3 plus 1d3 acid), and constrict (1d3), and take, a -4 penalty to your 
 
 _Medium Ooze:_ If you assume this form, you gain a +6 size bonus to your Constitution score, a -6
 penalty to your Dexterity score, a slam attack (1d4 plus 1d4 acid), and constrict (1d4).
-
-### Ooze Form II
-
-**Sources:** Ultimate Wilderness pg 233
-
-This spell functions as ooze form I except you can also assume the form of a Large ooze. You gain
-[blindsight](ref/rule/blindsight-and-blindsense) 30 feet and immunity to critical hits and precision
-damage as well.
-
-_Large Ooze:_ If you assume this form, you gain a +2 size bonus to your Strength score, a +8 size
-bonus to your Constitution score, a slam attack (2d4 plus 1d6 acid and grab), and constrict (2d4),
-and you take a -8 penalty to your Dexterity score.
-
-### Ooze Form III
-
-**Sources:** Ultimate Wilderness pg 233
-
-This spell functions as ooze form II except you can also assume the form of a Huge ooze. You gain
-[blindsight](ref/rule/blindsight-and-blindsense) 60 feet and a +8 resistance bonus on saving throws
-against mind-affecting effects and poison as well.
-
-_Huge Ooze:_ If you assume this form, you gain a +4 size bonus to your Strength, a +10 size bonus to
-your Constitution score, a -10 penalty to your Dexterity score, base speed 20 feet, climb speed 20
-feet, swim speed 30 feet, a slam attack (2d6 plus 2d6 acid and grab), and constrict (2d6).

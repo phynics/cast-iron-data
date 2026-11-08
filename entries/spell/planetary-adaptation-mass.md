@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planetary_adaptation_mass", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/planetary-adaptation" },
+]
 
 [fields]
 kind = "spell"
@@ -45,16 +48,9 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 :::
 
-## Planetary Adaptation
-
-**Sources:** People of the Stars pg 29, Distant Worlds pg 55
-
-This spell functions as planar adaptation, except that it works only on worlds of the Material
-Plane. The cold void of space is considered a single world for the purpose of this spell, allowing
-you to survive in vacuum.
-
 ### Mass Planetary Adaptation
 
 **Sources:** People of the Stars pg 29
 
-This spell functions as planetary adaptation, except as noted above.
+This spell functions as [planetary adaptation](ref/spell/planetary-adaptation), except as noted
+above.

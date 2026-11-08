@@ -44,9 +44,3 @@ benefit of one of your active judgments (as do you). If you cannot use a judgmen
 you are not in combat, are frightened or unconscious, and so on) or change judgments, the ally loses
 the benefit of the judgment. If you have multiple judgments active, the ally gains only one, chosen
 when you cast this spell.
-
-### Greater Lend Judgment
-
-**Sources:** Ultimate Magic pg 227
-
-This functions as lend judgment, except the ally gains the benefit of all your active judgments.

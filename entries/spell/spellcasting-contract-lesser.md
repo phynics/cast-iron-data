@@ -6,6 +6,9 @@ source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcasting_contract_lesser", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
+]
 
 [fields]
 kind = "spell"
@@ -43,10 +46,10 @@ Spell resistance: yes (harmless)
 > _These three spells are associated with [Asmodeus](ref/faith/asmodeus), but there are no
 > restrictions on its use by others._
 
-This spell functions exactly like imbue with spell ability, except that you can imbue the target
-with any spell you have prepared (instead of just abjuration, divination, or conjuration \[healing\]
-spells) and the target may have more than one use of the imbued spells, depending upon the
-arrangements made when it is cast.
+This spell functions exactly like [imbue with spell ability](ref/spell/imbue-with-spell-ability),
+except that you can imbue the target with any spell you have prepared (instead of just abjuration,
+divination, or conjuration \[healing\] spells) and the target may have more than one use of the
+imbued spells, depending upon the arrangements made when it is cast.
 
 Casting this spell requires a contract between you and the target, explaining what spells are to be
 imbued and the circumstances that cause the contract to expire. The contract may be as simple as
@@ -79,17 +82,3 @@ your spells. Until the contract ends, your 5th-level spell slot used to cast thi
 expended and cannot be filled with a new spell. Because you imbued your cohort with a 2nd-level
 spell, you gain a +2 profane bonus to attacks, saves, and checks while the contract remains in
 effect.
-
-### Spellcasting Contract
-
-**Sources:** Pathfinder \#29: Mother of Flies pg 68
-
-This spell functions like lesser spellcasting contract, except if the target has 9 HD or more, you
-can imbue him with one or two 2nd-level spells and one 3rd-level spell.
-
-### Greater Spellcasting Contract
-
-**Sources:** Pathfinder \#29: Mother of Flies pg 68
-
-This spell functions like lesser spellcasting contract, except if the target has 13 HD or more you
-can imbue him with one or two 4th-level spells and one 5th-level spell.

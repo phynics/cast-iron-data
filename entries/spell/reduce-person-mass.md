@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reduce_person_mass", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/reduce-person" },
+]
 
 [fields]
 kind = "spell"
@@ -46,33 +49,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 :::
 
-## Reduce Person
-
-**Sources:** PRPG Core Rulebook pg 330
-
-This spell causes instant diminution of a humanoid creature, halving its height, length, and width
-and dividing its weight by 8. This decrease changes the creature's size category to the next smaller
-one. The target gains a +2 size bonus to Dexterity, a -2 size penalty to Strength (to a minimum of
-1), and a +1 bonus on attack rolls and AC due to its reduced size.
-
-A Small humanoid creature whose size decreases to Tiny has a space of 2-1/2 feet and a natural reach
-of 0 feet (meaning that it must enter an opponent's square to attack). A Large humanoid creature
-whose size decreases to Medium has a space of 5 feet and a natural reach of 5 feet. This spell
-doesn't change the target's speed.
-
-All equipment worn or carried by a creature is similarly reduced by the spell.
-
-Melee and projectile weapons [deal less damage](ref/misc/damage-die-adjustments). Other magical
-properties are not affected by this spell. Any reduced item that leaves the reduced creature's
-possession (including a projectile or thrown weapon) instantly returns to its normal size. This
-means that thrown weapons deal their normal damage (projectiles deal damage based on the size of the
-weapon that fired them).
-
-Multiple magical effects that reduce size do not stack. Reduce person counters and dispels
-[enlarge person](ref/spell/enlarge-person).
-
-Reduce person can be made permanent with a [permanency](ref/spell/permanency) spell.
-
 ### Mythic Reduce Person
 
 **Sources:** Mythic Adventures pg 105
@@ -89,4 +65,5 @@ Mythic reduce person counters and dispels mythic [enlarge person](ref/spell/enla
 
 **Sources:** PRPG Core Rulebook pg 331
 
-This spell functions like reduce person, except that it affects multiple creatures.
+This spell functions like [reduce person](ref/spell/reduce-person), except that it affects multiple
+creatures.

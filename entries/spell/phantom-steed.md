@@ -88,24 +88,3 @@ increase to 10 plus 2 per caster level, and its speed increases to 30 feet per 2
 
 _Augmented (3rd):_ If you expend two uses of mythic power, the phantom steed is incorporeal, but its
 rider can interact with it normally.
-
-### Flame Steed
-
-**Sources:** Wilderness Origins pg 28
-
-You conjure a Large, quasi-real creature made of flame. It functions like phantom steed, except as
-follows.
-
-The flame steed is immune to fire and has acid, cold, and electricity resistance 10. If it or its
-rider is attacked, it automatically exhales a 15-foot cone of smoke and ash on your turn as a free
-action. Anyone in the cone must succeed at a Fortitude save (DC equal to the spell DC) or become
-sickened for 1d6 rounds after leaving the area. This smoke acts as
-[obscuring mist](ref/spell/obscuring-mist) for the purpose of [concealment](ref/rule/concealment).
-The smoke persists for 1 round.
-
-### Communal Phantom Steed
-
-**Sources:** Ultimate Combat pg 239
-
-This spell functions like phantom steed, except you can summon up to six steeds, and you divide the
-duration in 1-hour intervals among the steeds summoned.

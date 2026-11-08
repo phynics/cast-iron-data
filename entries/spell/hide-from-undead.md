@@ -51,13 +51,3 @@ it fails, the subject can't see any of the warded creatures. If it has reason to
 opponents are present, however, it can attempt to find or strike them. If a warded creature attempts
 to channel positive energy, turn or command undead, touches an undead creature, or attacks any
 creature (even with a spell), the spell ends for all recipients.
-
-### Greater Hide from Undead
-
-**Sources:** People of the Wastes pg 29
-
-This spell functions as hide from undead, except the spell does not immediately end if a warded
-creature attempts to turn or command undead, channels positive energy, touches an undead creature,
-or attacks any creature. Instead, when the warded creature takes one of these actions, an
-intelligent undead creature can attempt another Will saving throw to negate the effects of the
-spell.

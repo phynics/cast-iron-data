@@ -58,19 +58,3 @@ unless specific magic yielding false information is at work.
 
 As with augury, multiple divinations about the same topic by the same caster use the same dice
 result as the first divination spell and yield the same answer each time.
-
-### Prognostication
-
-**Sources:** Ultimate Intrigue pg 223
-
-You glimpse the future. Prognostication functions as divination except that the spell can see up to
-a year and a day into the future. Because of the increased unpredictability of the distant future,
-prognostication is significantly more cryptic than the already-cryptic divination spell.
-
-### True Prognostication
-
-**Sources:** Ultimate Intrigue pg 228
-
-True prognostication functions as divination except that the spell can see up to 100 years into the
-future. Because of the extreme unpredictability of the far-distant future, true prognostication is
-incredibly cryptic when used to learn about events on such large a scale.

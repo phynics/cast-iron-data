@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "align_weapon_communal", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/align-weapon" },
+]
 
 [fields]
 kind = "spell"
@@ -40,22 +43,11 @@ Spell resistance: yes (harmless) (object)
 Target: weapon touched or 50 projectiles (all of which must be together at the time of casting)
 :::
 
-## Align Weapon
-
-**Sources:** PRPG Core Rulebook pg 240
-
-Align weapon makes a weapon chaotic, evil, good, or lawful, as you choose. A weapon that is aligned
-can bypass the [damage reduction](ref/rule/damage-reduction) of certain creatures. This spell has no
-effect on a weapon that already has an alignment.
-
-You can't cast this spell on a natural weapon, such as an unarmed strike. When you make a weapon
-chaotic, evil, good, or lawful, align weapon is a chaotic, evil, good, or lawful spell,
-respectively.
-
 ### Communal Align Weapon
 
 **Sources:** Advanced Class Guide pg 173
 
-This spell functions as align weapon, except you divide the duration in 1-minute increments between
-any number of touched weapons. Every group of up to 50 projectiles (which must be together at the
-time of casting) counts as one weapon for the purpose of dividing the spell's duration.
+This spell functions as [align weapon](ref/spell/align-weapon), except you divide the duration in
+1-minute increments between any number of touched weapons. Every group of up to 50 projectiles
+(which must be together at the time of casting) counts as one weapon for the purpose of dividing the
+spell's duration.

@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_worm_4", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/thought-worm-3" },
+]
 
 [fields]
 kind = "spell"
@@ -43,6 +46,6 @@ Descriptors: mind-affecting
 
 **Sources:** Psychic Anthology pg 11
 
-This functions as per thought worm III, except that the penalty on Will saves is -6 and a target
-that succeeds at its Will save still takes a -3 penalty on Will saves against your mind-affecting
-spells and effects for the same duration. This spell can be undercast.
+This functions as per [thought worm III](ref/spell/thought-worm-3), except that the penalty on Will
+saves is -6 and a target that succeeds at its Will save still takes a -3 penalty on Will saves
+against your mind-affecting spells and effects for the same duration. This spell can be undercast.

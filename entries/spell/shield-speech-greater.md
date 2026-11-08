@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_speech_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shield-speech" },
+]
 
 [fields]
 kind = "spell"
@@ -44,22 +47,10 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 :::
 
-## Shield Speech
-
-**Sources:** Taldor, Echoes of Glory pg 25
-
-You can securely communicate with one creature within range. So long as your target remains within
-10 feet of you, you and it can speak freely to each other without fear of being overheard.
-Communications that involve shield speech cannot be spied on, such as with a divination spell, and
-observers of the conversation can tell you are communicating but cannot read lips or hear the
-conversation unless they are the target of the spell. If you or the target speak to any other
-creatures, they can hear you normally (only communication between you and the target is protected).
-The spell does not shield writing, sign language, or any form of communication other than speaking.
-
 ### Greater Shield Speech
 
 **Sources:** Taldor, Echoes of Glory pg 25
 
-This spell functions as shield speech, except all creatures within the dome may communicate with
-each other as if linked by shield speech. If they speak with anyone outside the area, those outside
-the area hear them normally.
+This spell functions as [shield speech](ref/spell/shield-speech), except all creatures within the
+dome may communicate with each other as if linked by shield speech. If they speak with anyone
+outside the area, those outside the area hear them normally.

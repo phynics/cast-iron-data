@@ -70,16 +70,3 @@ its height changes to 100 feet. Winds can't dissipate the fog unless the area of
 the entire area of the augmented mythic fog cloud. If you're at least 6th tier and instead expend
 three uses of mythic power, the range increases to 1 mile, the fog's radius changes to 1 mile, and
 its height changes to 500 feet. The cloud is as resistant to wind as the 3rd-tier augmented version.
-
-### Poisonous Cloud
-
-**Sources:** Potions and Poisons pg 11
-
-Poisonous cloud creates a bank of fog like that created by fog cloud, except that the vapors are
-toxic. The cloud deals 1d2 points of Constitution damage per round to living creatures that fail
-their Fortitude saves. A creature that succeeds at its save but remains in the cloud must continue
-to attempt a new saving throw each round on your turn.
-
-Poisonous cloud can be made permanent with a [permanency](ref/spell/permanency) spell cast by a
-caster of 13th level or higher, at a cost of 12,500 gp. A permanent poisonous cloud dispersed by
-wind re-forms in 10 minutes.

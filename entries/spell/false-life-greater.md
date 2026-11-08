@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_life_greater", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/false-life" },
+]
 
 [fields]
 kind = "spell"
@@ -50,13 +53,6 @@ Saving throw: none
 Spell resistance: no
 :::
 
-## False Life
-
-**Sources:** PRPG Core Rulebook pg 280
-
-You harness the power of unlife to grant yourself a limited ability to avoid death. While this spell
-is in effect, you gain temporary hit points equal to 1d10 + 1 per caster level (maximum +10).
-
 ### Mythic False Life
 
 **Sources:** Mythic Adventures pg 93
@@ -73,5 +69,6 @@ from that attack.
 
 **Sources:** Ultimate Magic pg 219
 
-This spell functions as false life, except you gain temporary hit points equal to 2d10 + 1 point per
-caster level (maximum +20). The effects of this spell do not stack with those of false life.
+This spell functions as [false life](ref/spell/false-life), except you gain temporary hit points
+equal to 2d10 + 1 point per caster level (maximum +20). The effects of this spell do not stack with
+those of false life.

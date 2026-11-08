@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagion_greater", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/contagion" },
+]
 
 [fields]
 kind = "spell"
@@ -48,15 +51,6 @@ Spell resistance: yes
 Descriptors: disease, evil
 :::
 
-## Contagion
-
-**Sources:** PRPG Core Rulebook pg 259
-
-The subject contracts one of the following diseases: blinding sickness, bubonic plague, cackle
-fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. The disease is contracted
-immediately (the onset period does not apply). Use the disease's listed frequency and save DC to
-determine further effects. For more information see Diseases.
-
 ### Mythic Contagion
 
 **Sources:** Mythic Adventures pg 89
@@ -73,6 +67,6 @@ these creatures are unaffected by the spell.
 
 **Sources:** Ultimate Magic pg 211
 
-This spell functions as contagion, except the victim cannot overcome the disease without
-magic-making the required number of saves does not cure it. The DC to remove the disease with magic
-is equal to the save DC + 5.
+This spell functions as [contagion](ref/spell/contagion), except the victim cannot overcome the
+disease without magic-making the required number of saves does not cure it. The DC to remove the
+disease with magic is equal to the save DC + 5.

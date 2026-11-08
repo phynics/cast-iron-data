@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "homeward_bound", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dismissal" },
+]
 
 [fields]
 kind = "spell"
@@ -43,16 +46,8 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 :::
 
-## Dismissal
-
-**Sources:** PRPG Core Rulebook pg 271
-
-This spell forces an extraplanar creature back to its proper plane if it fails a Will save. If the
-spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually
-sending the subject to a plane other than its own.
-
 ### Homeward Bound
 
 **Sources:** Planar Adventures pg 41
 
-This spell functions as dismissal, except as noted above.
+This spell functions as [dismissal](ref/spell/dismissal), except as noted above.

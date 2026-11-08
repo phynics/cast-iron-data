@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_skin_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/share-skin" },
+]
 
 [fields]
 kind = "spell"
@@ -33,18 +36,8 @@ Saving throw: none
 Spell resistance: no
 :::
 
-## Share Skin
-
-**Sources:** Blood of the Moon pg 11
-
-> _The following spells are common among [werebears](ref/template/lycanthrope) coldborn
-> [skinwalkers](ref/race/skinwalker), and those who associate with them._
-
-You can possess an animal's body in a manner that functions like magic jar, except as noted here.
-Your body vanishes while the effect lasts and you don't require a receptacle.
-
 ### Greater Share Skin
 
 **Sources:** Blood of the Moon pg 11
 
-This spell functions like share skin, except as noted here.
+This spell functions like [share skin](ref/spell/share-skin), except as noted here.

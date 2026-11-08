@@ -103,23 +103,3 @@ points of damage, and you reroll on the chart to see where you wind up. For thes
 |Seen casually|01-88|89-94|95-98|99-100|
 |Viewed once|01-76|77-88|89-96|97-100|
 |False destination|-|-|81-92|93-100|
-
-### Greater Teleport
-
-**Sources:** PRPG Core Rulebook pg 359
-
-This spell functions like teleport, except that there is no range limit and there is no chance you
-arrive off target. In addition, you need not have seen the destination, but in that case you must
-have at least a reliable description of the place to which you are teleporting. If you attempt to
-teleport with insufficient information (or with misleading information), you disappear and simply
-reappear in your original location. Interplanar travel is not possible.
-
-### Treacherous Teleport
-
-**Sources:** Ultimate Intrigue pg 227
-
-This spell functions as teleport except that you can opt to intentionally cause any number of the
-creatures traveling with you to suffer a mishap or arrive in a specific different location you
-visualize simultaneously with the original destination, or both.
-
-Attempts to identify treacherous teleport with a skill check incorrectly identify it as teleport.

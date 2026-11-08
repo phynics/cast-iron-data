@@ -55,12 +55,3 @@ eldritch conduit as the point of origin for that spell. Doing so ends the spell 
 target must be within close range (25 feet + 5 feet/2 levels) in order for you to use the conduit -
 if the target moves out of range, the eldritch conduit effect persists but cannot be utilized by you
 until you get back within range.
-
-### Greater Eldritch Conduit
-
-**Sources:** Inner Sea Magic pg 54
-
-This spell functions like eldritch conduit save for the differences listed above and that the target
-must be within medium range (100 ft. + 10 ft./level) in order for you to use the conduit. Using a
-creature as a conduit for a spell ends the greater eldritch conduit effect on that creature, but
-does not end the effect for other eldritch conduits.

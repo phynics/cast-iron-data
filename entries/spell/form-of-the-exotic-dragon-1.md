@@ -83,38 +83,3 @@ undead creatures), cold resistance 20, +4 on saves vs. death effects.
 
 _Underworld Dragon:_ 30-foot cone of fire, fire resistance 20, vulnerability to cold, burrow 20
 feet.
-
-### Form of the Exotic Dragon II
-
-**Sources:** Legacy of Dragons pg 31
-
-This spell functions as per form of the exotic dragon I, except it also allows you to assume the
-form of a Large imperial or primal dragon. Druids can choose from the primal dragon (brine, cloud,
-crystal, magma, or umbral) forms only. You gain the following abilities: a +6 size bonus to your
-Strength, a +4 size bonus to your Constitution, a +6 natural armor bonus, a fly speed of 90 feet
-(poor), [darkvision](ref/rule/darkvision) with a range of 60 feet, a breath weapon,
-[damage reduction](ref/rule/damage-reduction) 5/magic, and resistance to one form of energy or some
-other bonus. You gain one bite attack (2d6), two claw attacks (1d8), a tail slap attack (1d8), and
-either a gore attack (2d6) if you assume the form of an imperial dragon or two wing attacks (1d6) if
-you assume the form of a primal dragon. All breath weapons deal 8d8 points of damage unless noted
-and allow a Reflex save to halve the normal damage. Line breath weapons increase to 80-foot lines
-and cones increase to 40-foot cones.
-
-### Form of the Exotic Dragon III
-
-**Sources:** Legacy of Dragons pg 31
-
-This spell functions as per form of the exotic dragon II except that it also allows you to take the
-form of a Huge imperial or primal dragon. Druids can choose from the primal dragon (brine, cloud,
-crystal, magma, or umbral) forms only. You gain the following abilities: a +10 size bonus to your
-Strength, a +8 size bonus to your Constitution, a +8 natural armor bonus, a fly speed of 120 feet
-(poor), [blindsense](ref/rule/blindsight-and-blindsense) with a range of 60 feet,
-[darkvision](ref/rule/darkvision) with a range of 120 feet, a breath weapon,
-[damage reduction](ref/rule/damage-reduction) 10/magic, frightful presence (DC = DC for this spell),
-and immunity to one form of energy (of the same type form of the exotic dragon I grants a resistance
-to, if any). You gain one bite attack (2d8), two claw attacks (2d6), a one tail slap attack (2d6),
-and either a gore attack (2d8) if you assume the form of an imperial dragon or two wing attacks
-(1d8) if you assume the form of a primal dragon. You can use the breath weapon as often as you like,
-but must wait 1d4 rounds between uses. All breath weapons deal 12d8 points of damage unless noted
-otherwise and allow a Reflex save to halve the normal damage. Line breath weapons increase to
-100-foot lines and cones increase to 50-foot cones.

@@ -65,9 +65,3 @@ The spell does not provide the abilities or mannerisms of the chosen form, nor d
 perceived tactile (touch) or audible (sound) properties of you or your equipment. If you use this
 spell to create a disguise, you get a +10 bonus on the Disguise check. A creature that interacts
 with the glamer gets a Will save to recognize it as an illusion.
-
-### Disguise Other
-
-**Sources:** Ultimate Magic pg 217
-
-This spell functions as disguise self, except you can disguise either yourself or another creature.

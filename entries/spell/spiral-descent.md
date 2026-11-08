@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiral_descent", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spiral-ascent" },
+]
 
 [fields]
 kind = "spell"
@@ -42,24 +45,9 @@ Target: you and touched objects
 Subschool: Teleportation
 :::
 
-## Spiral Ascent
-
-**Sources:** Inner Sea Temples pg 43
-
-You transform yourself into a helical beam of divine energy that instantly transports you upward to
-a spot within range. The destination must be a square in the spell's range that's within 10 feet of
-a point directly above you. The destination must be within your line of sight or familiar to you.
-After using this spell, you can't take any other actions until your next turn. You can bring along
-objects as long as their weight doesn't exceed your maximum load.
-
-If you arrive in a place that is already occupied by a solid body, you are teleported to a random
-open space on a suitable surface within the range and other limitations of the spell. If no such
-space is available, the spell simply fails. This spell does not function on a plane lacking gravity.
-On a plane with subjective directional gravity, you can use this spell to teleport in any direction.
-
 ### Spiral Descent
 
 **Sources:** Inner Sea Temples pg 43
 
-This spell functions as spiral ascent, except the destination and direction of travel is downward
-from your current location.
+This spell functions as [spiral ascent](ref/spell/spiral-ascent), except the destination and
+direction of travel is downward from your current location.

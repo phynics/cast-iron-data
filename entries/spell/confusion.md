@@ -87,9 +87,3 @@ When you roll on the table above, use the values below to see what it does in th
 
 _Augmented:_ If you expend two uses of mythic power when casting the spell, you force one affected
 creature per round to roll on the table twice and take the higher result.
-
-### Lesser Confusion
-
-**Sources:** PRPG Core Rulebook pg 258
-
-This spell causes a single creature to become confused for 1 round.

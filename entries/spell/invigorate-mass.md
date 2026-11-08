@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorate_mass", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/invigorate" },
+]
 
 [fields]
 kind = "spell"
@@ -43,19 +46,8 @@ Spell resistance: yes (harmless)
 Subschool: Figment
 :::
 
-## Invigorate
-
-**Sources:** Advanced Player's Guide pg 230
-
-This spell banishes feelings of weariness. For the duration, the subject takes no penalties from the
-fatigued or exhausted conditions. The effect of invigorate is merely an illusion, however, not a
-substitute for actual rest or respite. When the spell ends, the subject takes 1d6 points of
-nonlethal damage, along with the return of the original condition(s). A creature can be under the
-effects of only one invigorate spell at a time; if it is cast a second time on that creature, the
-first effect immediately ends.
-
 ### Mass Invigorate
 
 **Sources:** Advanced Player's Guide pg 230
 
-This spell works as invigorate, except that it affects multiple creatures.
+This spell works as [invigorate](ref/spell/invigorate), except that it affects multiple creatures.

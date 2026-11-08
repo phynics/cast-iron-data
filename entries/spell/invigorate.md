@@ -51,9 +51,3 @@ substitute for actual rest or respite. When the spell ends, the subject takes 1d
 nonlethal damage, along with the return of the original condition(s). A creature can be under the
 effects of only one invigorate spell at a time; if it is cast a second time on that creature, the
 first effect immediately ends.
-
-### Mass Invigorate
-
-**Sources:** Advanced Player's Guide pg 230
-
-This spell works as invigorate, except that it affects multiple creatures.

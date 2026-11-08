@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tongues_communal", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/tongues" },
+]
 
 [fields]
 kind = "spell"
@@ -58,22 +61,9 @@ Spell resistance: no
 Target: creature touched
 :::
 
-## Tongues
-
-**Sources:** PRPG Core Rulebook pg 360
-
-This spell grants the creature touched the ability to speak and understand the language of any
-intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak
-only one language at a time, although it may be able to understand several languages. Tongues does
-not enable the subject to speak with creatures who don't speak. The subject can make itself
-understood as far as its voice carries. This spell does not predispose any creature addressed toward
-the subject in any way.
-
-Tongues can be made permanent with a [permanency](ref/spell/permanency) spell.
-
 ### Communal Tongues
 
 **Sources:** Ultimate Combat pg 248
 
-This spell functions like tongues, except you divide the duration in 10-minute intervals among the
-creatures touched.
+This spell functions like [tongues](ref/spell/tongues), except you divide the duration in 10-minute
+intervals among the creatures touched.

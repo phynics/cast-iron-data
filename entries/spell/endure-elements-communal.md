@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endure_elements_communal", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/endure-elements" },
+]
 
 [fields]
 kind = "spell"
@@ -55,17 +58,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 :::
 
-## Endure Elements
-
-**Sources:** PRPG Core Rulebook pg 277
-
-A creature protected by endure elements suffers no harm from being in a hot or cold environment. It
-can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make
-Fortitude saves. The creature's equipment is likewise protected.
-
-Endure elements doesn't provide any protection from fire or cold damage, nor does it protect against
-other environmental hazards such as smoke, lack of air, and so forth.
-
 ### Mythic Endure Elements
 
 **Sources:** Mythic Adventures pg 93
@@ -78,5 +70,5 @@ weapon attacks from hail, rain, sleet, and snow. They treat wind as one category
 
 **Sources:** Ultimate Combat pg 228
 
-This spell functions like endure elements, except you divide the duration in 1-hour increments among
-the creatures touched.
+This spell functions like [endure elements](ref/spell/endure-elements), except you divide the
+duration in 1-hour increments among the creatures touched.

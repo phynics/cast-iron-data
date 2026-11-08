@@ -52,12 +52,3 @@ Target: one siege engine touched
 This spell permits an indirect fire siege engine to bombard its targets with greater accuracy,
 delivering more damage. The siege weapon receives a +1 enhancement bonus on targeting rolls and
 damage rolls. If used on a direct fire siege weapon, this spell acts a magic weapon.
-
-### Greater Magic Siege Engine
-
-**Sources:** Ultimate Combat pg 236
-
-This spell functions like magic siege weapon, except it gives an indirect fire siege weapon an
-enhancement bonus on targeting and damage rolls of +1 per four caster levels (maximum +5). If used
-on a direct-fire siege weapon, this spell functions as
-[greater magic weapon](ref/spell/magic-weapon-greater).

@@ -56,17 +56,3 @@ ignore the -1 penalties to Strength, Dexterity, and Constitution that accrue onc
 middle-aged. You retain the age-related bonuses to Intelligence, Wisdom, and Charisma while under
 the effects of this spell. Additional penalties that you accrue upon becoming old or venerable apply
 in full.
-
-### Age Resistance
-
-**Sources:** Ultimate Magic pg 205
-
-This spell functions as lesser age resistance, except you ignore the Strength, Dexterity, and
-Constitution penalties gained at middle and old age.
-
-### Greater Age Resistance
-
-**Sources:** Ultimate Magic pg 205
-
-This spell functions as lesser age resistance, except you ignore all Strength, Dexterity, and
-Constitution penalties gained from middle age, old age, and venerable age.

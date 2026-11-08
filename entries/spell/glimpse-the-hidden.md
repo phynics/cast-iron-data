@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_the_hidden", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/see-invisibility" },
+]
 
 [fields]
 kind = "spell"
@@ -54,23 +57,9 @@ Spell resistance: no
 Target: you
 :::
 
-## See Invisibility
-
-**Sources:** PRPG Core Rulebook pg 339
-
-You can see any objects or beings that are invisible within your range of vision, as well as any
-that are ethereal, as if they were normally visible. Such creatures are visible to you as
-translucent shapes, allowing you easily to discern the difference between visible, invisible, and
-ethereal creatures.
-
-The spell does not reveal the method used to obtain invisibility. It does not reveal illusions or
-enable you to see through opaque objects. It does not reveal creatures who are simply hiding,
-concealed, or otherwise hard to see.
-
-See invisibility can be made permanent with a [permanency](ref/spell/permanency) spell.
-
 ### Glimpse the Hidden
 
 **Sources:** Potions and Poisons pg 17
 
-This spell functions as see invisibility, except as noted here. This spell cannot be made permanent.
+This spell functions as [see invisibility](ref/spell/see-invisibility), except as noted here. This
+spell cannot be made permanent.

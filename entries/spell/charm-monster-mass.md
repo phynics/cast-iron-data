@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_monster_mass", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/charm-monster" },
+]
 
 [fields]
 kind = "spell"
@@ -51,18 +54,11 @@ Subschool: Charm
 Descriptors: mind-affecting
 :::
 
-## Charm Monster
-
-**Sources:** PRPG Core Rulebook pg 254
-
-This spell functions like charm person, except that the effect is not restricted by creature type or
-size.
-
 ### Mass Charm Monster
 
 **Sources:** PRPG Core Rulebook pg 254
 
-This spell functions like charm monster, except that mass charm monster affects a number of
-creatures whose combined HD do not exceed twice your level, or at least one creature regardless of
-HD. If there are more potential targets than you can affect, you choose them one at a time until you
-must choose a creature with too many HD to affect.
+This spell functions like [charm monster](ref/spell/charm-monster), except that mass charm monster
+affects a number of creatures whose combined HD do not exceed twice your level, or at least one
+creature regardless of HD. If there are more potential targets than you can affect, you choose them
+one at a time until you must choose a creature with too many HD to affect.

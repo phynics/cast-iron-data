@@ -70,10 +70,3 @@ raft), but does not consciously attempt to move (including not directing a mount
 
 The target is free to take any actions not forbidden by the caster. For example, a target affected
 by this spell's demand to not move is still free to cast spells, make attacks, or shout for help.
-
-### Greater Forbid Action
-
-**Sources:** Ultimate Magic pg 220
-
-This spell functions as forbid action, except up to one creature per level may be affected. Each
-creature must receive the same forbidden action.

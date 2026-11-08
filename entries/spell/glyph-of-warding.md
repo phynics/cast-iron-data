@@ -94,16 +94,3 @@ level of the spell stored in the glyph.
 Add your tier to the DC to detect or disable the glyph. Blast glyph damage increases to 1d6 points
 of damage per caster level (maximum 20d6). Add half your tier to the maximum spell level you can
 store in a spell glyph.
-
-### Greater Glyph of Warding
-
-**Sources:** PRPG Core Rulebook pg 291
-
-This spell functions like glyph of warding, except that a greater blast glyph deals up to 10d8
-points of damage, and a greater spell glyph can store a spell of 6th level or lower.
-
-[Read magic](ref/spell/read-magic) allows you to identify a greater glyph of warding with a DC 16
-Spellcraft check.
-
-_Material Component:_ You trace the glyph with incense, which must first be sprinkled with powdered
-diamond worth at least 400 gp.

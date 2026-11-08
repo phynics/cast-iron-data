@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_moderate_wounds_mass", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/inflict-light-wounds-mass" },
+]
 
 [fields]
 kind = "spell"
@@ -43,13 +46,6 @@ Duration: instantaneous
 Saving throw: Will half
 Spell resistance: yes
 :::
-
-## Inflict Moderate Wounds
-
-**Sources:** PRPG Core Rulebook pg 300
-
-This spell functions like [inflict light wounds](ref/spell/inflict-light-wounds), except that you
-deal 2d8 points of damage + 1 point per caster level (maximum +10).
 
 ### Mythic Inflict Moderate Wounds
 

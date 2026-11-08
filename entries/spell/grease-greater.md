@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grease_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/grease" },
+]
 
 [fields]
 kind = "spell"
@@ -45,25 +48,6 @@ Spell resistance: no
 Subschool: Creation
 :::
 
-## Grease
-
-**Sources:** PRPG Core Rulebook pg 291
-
-A grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when
-the spell is cast must make a successful Reflex save or fall. A creature can walk within or through
-the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move
-that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls
-(see the [Acrobatics](ref/skill/acrobatics) skill for details). Creatures that do not move on their
-turn do not need to make this check and are not considered flat-footed.
-
-The spell can also be used to create a greasy coating on an item. Material objects not in use are
-always affected by this spell, while an object wielded or employed by a creature requires its bearer
-to make a Reflex saving throw to avoid the effect. If the initial saving throw fails, the creature
-immediately drops the item. A saving throw must be made in each round that the creature attempts to
-pick up or use the greased item. A creature wearing greased armor or clothing gains a +10
-circumstance bonus on Escape Artist checks and combat maneuver checks made to escape a grapple, and
-to their CMD to avoid being grappled.
-
 ### Mythic Grease
 
 **Sources:** Mythic Adventures pg 96
@@ -82,8 +66,8 @@ ignited, it takes 2d6 points of fire damage, and might catch on fire; add your t
 
 **Sources:** Dirty Tactics Toolbox pg 30
 
-This spell functions like grease, except as noted here. When you use this spell to cover a solid
-surface with slippery grease, the 10-foot squares must form a continuous area, each part of which
-must be within the spell's range. When you use this spell to create a greasy coating on items, no
-two of the targeted items can be more than 30 feet apart. You cannot target both items and surfaces
-with a single casting of this spell.
+This spell functions like [grease](ref/spell/grease), except as noted here. When you use this spell
+to cover a solid surface with slippery grease, the 10-foot squares must form a continuous area, each
+part of which must be within the spell's range. When you use this spell to create a greasy coating
+on items, no two of the targeted items can be more than 30 feet apart. You cannot target both items
+and surfaces with a single casting of this spell.

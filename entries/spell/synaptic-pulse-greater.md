@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synaptic_pulse_greater", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/synaptic-pulse" },
+]
 
 [fields]
 kind = "spell"
@@ -42,13 +45,6 @@ Spell resistance: yes
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-## Synaptic Pulse
-
-**Sources:** Occult Adventures pg 187
-
-You emit a pulsating mental blast that stuns all creatures in range of your psychic shriek for 1
-round.
 
 ### Greater Synaptic Pulse
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_eidolon", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/restoration" },
+]
 
 [fields]
 kind = "spell"
@@ -39,13 +42,6 @@ Spell resistance: yes (harmless)
 Target: eidolon touched
 Subschool: Healing
 :::
-
-## Lesser Restore Eidolon
-
-**Sources:** Ultimate Magic pg 235
-
-This spell functions as [lesser restoration](ref/spell/restoration-lesser), except it only affects
-an eidolon.
 
 ### Restore Eidolon
 

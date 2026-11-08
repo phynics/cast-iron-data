@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "path_of_glory_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/path-of-glory" },
+]
 
 [fields]
 kind = "spell"
@@ -43,19 +46,9 @@ Spell resistance: no
 Subschool: Healing
 :::
 
-## Path of Glory
-
-**Sources:** Advanced Class Guide pg 189
-
-You cause four 5-foot squares (one of which must be your space) to glow with dim illumination.
-Starting on your next turn, as a swift action you can extend the glowing area by an additional four
-5-foot squares; each new square must be adjacent to a square that was previously glowing. Allies
-that end their turns on a glowing square (including one who falls unconscious in the square) are
-healed of 1 point of damage.
-
 ### Greater Path of Glory
 
 **Sources:** Advanced Class Guide pg 189
 
-This spell functions as path of glory, except as noted above, and a square provides 5 points of
-healing instead of 1.
+This spell functions as [path of glory](ref/spell/path-of-glory), except as noted above, and a
+square provides 5 points of healing instead of 1.

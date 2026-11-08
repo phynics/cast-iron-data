@@ -61,10 +61,3 @@ For the duration of the spell, the target weapon acts as if it had the returning
 ability.
 
 This spell can be used as the prerequisite for the returning weapon special ability.
-
-### Communal Returning Weapon
-
-**Sources:** Ultimate Combat pg 243
-
-This spell functions like returning weapon, except you divide the duration in 1-minute intervals
-among the targeted weapons.

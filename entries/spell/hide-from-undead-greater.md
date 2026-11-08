@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_from_undead_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hide-from-undead" },
+]
 
 [fields]
 kind = "spell"
@@ -40,26 +43,12 @@ Saving throw: Will negates (harmless); see text
 Spell resistance: yes
 :::
 
-## Hide from Undead
-
-**Sources:** PRPG Core Rulebook pg 296
-
-Undead cannot see, hear, or smell creatures warded by this spell. Even extraordinary or supernatural
-sensory capabilities, such as [blindsense](ref/rule/blindsight-and-blindsense), blindsight, scent,
-and [tremorsense](ref/umr/tremorsense), cannot detect or locate warded creatures. Nonintelligent
-undead creatures (such as skeletons or zombies) are automatically affected and act as though the
-warded creatures are not there. An intelligent undead creature gets a single Will saving throw. If
-it fails, the subject can't see any of the warded creatures. If it has reason to believe unseen
-opponents are present, however, it can attempt to find or strike them. If a warded creature attempts
-to channel positive energy, turn or command undead, touches an undead creature, or attacks any
-creature (even with a spell), the spell ends for all recipients.
-
 ### Greater Hide from Undead
 
 **Sources:** People of the Wastes pg 29
 
-This spell functions as hide from undead, except the spell does not immediately end if a warded
-creature attempts to turn or command undead, channels positive energy, touches an undead creature,
-or attacks any creature. Instead, when the warded creature takes one of these actions, an
-intelligent undead creature can attempt another Will saving throw to negate the effects of the
-spell.
+This spell functions as [hide from undead](ref/spell/hide-from-undead), except the spell does not
+immediately end if a warded creature attempts to turn or command undead, channels positive energy,
+touches an undead creature, or attacks any creature. Instead, when the warded creature takes one of
+these actions, an intelligent undead creature can attempt another Will saving throw to negate the
+effects of the spell.

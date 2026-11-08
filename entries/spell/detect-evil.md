@@ -91,39 +91,6 @@ of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dir
 |Cleric or paladin of an aligned deity^[2](ref/spell/detect-evil#footnote-a)^ (class levels)|-|1|2-4|05-10|11 or higher|
 |Aligned magic item or spell (caster level)|5th or lower|6th-10th|11th-15th|16th-20th|21st or higher|
 
-### Detect Chaos
-
-**Sources:** PRPG Core Rulebook pg 267
-
-This spell functions like _detect evil,_ except that it detects the auras of chaotic creatures,
-clerics of chaotic deities, chaotic spells, and chaotic magic items, and you are vulnerable to an
-overwhelming chaotic aura if you are lawful.
-
-### Detect Good
-
-**Sources:** PRPG Core Rulebook pg 267
-
-This spell functions like _detect evil,_ except that it detects the auras of good creatures, clerics
-or paladins of good deities, good spells, and good magic items, and you are vulnerable to an
-overwhelming good aura if you are evil.
-
-### Detect Law
-
-**Sources:** PRPG Core Rulebook pg 267
-
-This spell functions like _detect evil,_ except that it detects the auras of lawful creatures,
-clerics of lawful deities, lawful spells, and lawful magic items, and you are vulnerable to an
-overwhelming lawful aura if you are chaotic.
-
-### Detect Fiendish Presence
-
-**Sources:** Agents of Evil pg 16
-
-This spell functions like _detect evil,_ except that it detects only outsiders with the evil
-subtype, as well as the lingering effects caused by their gifts, presence, and spells. It can also
-detect clerics and paladins of fiendish deities, including [Asmodeus](ref/faith/asmodeus),
-archdevils, daemonic harbingers, and demon lords.
-
 ###### ^2^ {#footnote-a}
 
 Some characters who are not clerics may radiate an aura of equivalent power. The class description

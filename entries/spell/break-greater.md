@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "mythic-adventures", "ultimate-intrigue"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break_greater", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/break" },
+]
 
 [fields]
 kind = "spell"
@@ -42,14 +45,6 @@ Duration: instantaneous
 Saving throw: none
 Spell resistance: yes (object)
 :::
-
-## Break
-
-**Sources:** Advanced Player's Guide pg 207
-
-You can attempt to break or at least damage any one Medium or smaller object within range. If the
-target fails its Fortitude saving throw, it gains the broken condition. If cast on a broken item,
-that item is destroyed on a failed save.
 
 ### Mythic Break
 

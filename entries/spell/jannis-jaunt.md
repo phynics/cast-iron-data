@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jannis_jaunt", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/plane-shift" },
+]
 
 [fields]
 kind = "spell"
@@ -54,18 +57,6 @@ Target: creature touched, or up to eight willing creatures joining hands
 Subschool: Teleportation
 :::
 
-## Plane Shift
-
-**Sources:** PRPG Core Rulebook pg 322
-
-You move yourself or some other creature to another plane of existence or alternate dimension. If
-several willing persons link hands in a circle, as many as eight can be affected by the plane shift
-at the same time. Precise accuracy as to a particular arrival location on the intended plane is nigh
-impossible. From the Material Plane, you can reach any other plane, though you appear 5 to 500 miles
-(5d%) from your intended destination. Plane shift transports creatures instantaneously and then
-ends. The creatures need to find other means if they are to travel back (including casting plane
-shift again).
-
 ### Mythic Plane Shift
 
 **Sources:** Mythic Adventures pg 103
@@ -80,6 +71,6 @@ a planar adaptation spell upon arrival, lasting for 1 hour.
 
 **Sources:** Planes of Power pg 9
 
-This spell functions as per plane shift, but with the following exceptions. First, you are able to
-transport only willing creatures. Second, the spell can transport you and any other willing targets
-only to an Elemental Plane, the Astral Plane, or the Material Plane.
+This spell functions as per [plane shift](ref/spell/plane-shift), but with the following exceptions.
+First, you are able to transport only willing creatures. Second, the spell can transport you and any
+other willing targets only to an Elemental Plane, the Astral Plane, or the Material Plane.

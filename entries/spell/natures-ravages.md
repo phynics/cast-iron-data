@@ -53,10 +53,3 @@ In addition to hindering mundane autopsies and investigations, this spell may ef
 the use of [raise dead](ref/spell/raise-dead) on the target, though more powerful magic such as
 [resurrection](ref/spell/resurrection) or [true resurrection](ref/spell/true-resurrection) may still
 work.
-
-### Greater Nature's Ravages
-
-**Sources:** Dungeoneer's Handbook pg 31
-
-This spell functions like nature's ravages, except the target corpse ages a number of years equal to
-up to 1 year per caster level (maximum 20 years at 20th level).

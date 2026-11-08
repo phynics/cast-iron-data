@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unlife_current", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/life-current" },
+]
 
 [fields]
 kind = "spell"
@@ -48,17 +51,9 @@ Subschool: Healing
 Descriptors: water
 :::
 
-## Life Current
-
-**Sources:** Aquatic Adventures pg 60
-
-You infuse the current with positive energy. At the start of their turn when the current moves them,
-living creatures in the current's area heal 1d6 hit points per 10 feet of the current's speed
-(maximum 6d6). Undead creatures in the current instead take an equal amount of damage.
-
 ### Unlife Current
 
 **Sources:** Aquatic Adventures pg 61
 
-This functions as life current except you infuse the current with negative energy, so it heals
-undead and harms living creatures.
+This functions as [life current](ref/spell/life-current) except you infuse the current with negative
+energy, so it heals undead and harms living creatures.

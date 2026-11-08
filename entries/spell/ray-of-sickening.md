@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic", "dark-markets-a-guide-to-katape
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_of_sickening", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ray-of-exhaustion" },
+]
 
 [fields]
 kind = "spell"
@@ -44,24 +47,9 @@ Spell resistance: yes
 Effect: ray
 :::
 
-## Ray of Exhaustion
-
-**Sources:** PRPG Core Rulebook pg 330
-
-A black ray projects from your pointing finger. You must succeed on a ranged touch attack with the
-ray to strike a target.
-
-The subject is immediately exhausted for the spell's duration. A successful Fortitude save means the
-creature is only fatigued.
-
-A character that is already fatigued instead becomes exhausted.
-
-This spell has no effect on a creature that is already exhausted. Unlike normal exhaustion or
-fatigue, the effect ends as soon as the spell's duration expires.
-
 ### Ray of Sickening
 
 **Sources:** Ultimate Magic pg 234, Dark Markets - A Guide to Katapesh pg 57
 
-This spell functions as ray of exhaustion, except the target is sickened if it fails its save and
-unaffected if it makes its save.
+This spell functions as [ray of exhaustion](ref/spell/ray-of-exhaustion), except the target is
+sickened if it fails its save and unaffected if it makes its save.

@@ -54,9 +54,3 @@ of spell being cast.
 
 In addition, the affected creature is considered distracted for the purpose of attempting Perception
 checks. Effects that negate or reduce concealment do not affect the miss chance from synesthesia.
-
-### Mass Synesthesia
-
-**Sources:** Occult Adventures pg 188
-
-This spell functions like synesthesia, except as noted above.

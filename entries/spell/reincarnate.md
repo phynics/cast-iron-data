@@ -188,34 +188,3 @@ the same regardless of the final ethnicity or heritage.
 |96-97|[Wayang](ref/race/wayang)|+0|+2|+0|
 |98-99|[Wyvaran](ref/race/wyvaran)|+0|+2|+0|
 |100|GM's choice|?|?|?|
-
-### Cyclic Reincarnation
-
-**Sources:** Arcane Anthology pg 13
-
-This spell allows a dead creature that died no more than 1 year before the casting of the spell to
-return to life in a body that closely resembles its original body; it functions as reincarnate
-except as noted. Cyclic reincarnation returns the dead creature to life in a new body of the same
-race that the target belonged to in life, and the new body appears physically similar to the
-creature's previous one, to the extent that the creature could be easily mistaken for its own
-offspring or kin. If the affected creature isn't a humanoid, there is a 75% chance that the creature
-returns to life as a youth of its race, gaining the young creature simple template instead (or
-becomes a juvenile, in the case of dragons and other creatures whose power is determined by their
-age category).
-
-You can use cyclic reincarnation on someone who was killed by a death effect or turned into an
-undead creature and then destroyed, but non-humanoids so restored always return to life with the
-young creature simple template (or as a juvenile, in the case of creatures whose power is determined
-by their age category).
-
-### Reincarnate Spy
-
-**Sources:** Ultimate Intrigue pg 223
-
-This spell functions as reincarnate except that you can cause the new body to resemble a particular
-creature, matching its age category and sex and rerolling any race result that would be the wrong
-size category. The subject further gains a +5 bonus on Disguise checks to impersonate the chosen
-creature due to similar features, although it might take a penalty for being the wrong race.
-
-The spell automatically leaves you with a small piece of the creature's new body, typically a lock
-of hair (useful for scrying and other such spells).

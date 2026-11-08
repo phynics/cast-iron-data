@@ -69,12 +69,3 @@ normal damage from the target's natural attacks or special abilities granted by 
 form (if any), and the target's special abilities that don't deal damage have only a 20% chance of
 working against them. Creatures that succeed at their saves see the shadow transmutation as
 transparent images superimposed over the target.
-
-### Greater Shadow Transmutation
-
-**Sources:** Blood of Shadows pg 31
-
-This spell functions like shadow transmutation, except it can mimic greater polymorph instead of
-polymorph. The illusory attacks and special abilities of any shape assumed using greater shadow
-transmutation deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are 60%
-likely to work against nonbelievers.

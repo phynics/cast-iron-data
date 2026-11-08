@@ -57,9 +57,3 @@ any round that its eyes are dilated, the target is blinded if exposed to bright 
 exposed to normal light. During any round its eyes are contracted, the target is blinded if exposed
 to darkness or dazzled if exposed to dim light. In addition, any creature can attempt a Stealth
 check to avoid detection from the target, even if the creature lacks cover or concealment.
-
-### Mass Mydriatic Spontaneity
-
-**Sources:** Blood of Shadows pg 29
-
-This spell functions as mydriatic spontaneity, except it can affect multiple creatures.

@@ -63,11 +63,3 @@ prevents all damage from a ranged weapon attack, it turns the projectile or weap
 attacker, using the same attack roll result. If the attacker is also protected by mythic protection
 from arrows and its spell completely prevents the damage from the rebounded attack, the weapon or
 projectile is destroyed.
-
-### Communal Protection from Arrows
-
-**Sources:** Ultimate Combat pg 240
-
-This spell functions like protection from arrows, except you divide the duration in 1-hour intervals
-among the creatures touched. Once the spell absorbs 10 points of damage per caster level (maximum
-100 points) for a subject, the spell's effects end for that subject.

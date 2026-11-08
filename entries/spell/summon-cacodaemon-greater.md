@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_cacodaemon_greater", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-cacodaemon" },
+]
 
 [fields]
 kind = "spell"
@@ -50,14 +53,9 @@ Subschool: Summoning
 Descriptors: evil
 :::
 
-## Summon Cacodaemon
-
-**Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 39
-
-This spell functions like summon monster, except it summons a single cacodaemon.
-
 ### Greater Summon Cacodaemon
 
 **Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 39
 
-This spell functions like summon cacodaemon, except that it summons 1d4+1 cacodaemons.
+This spell functions like [summon cacodaemon](ref/spell/summon-cacodaemon), except that it summons
+1d4+1 cacodaemons.

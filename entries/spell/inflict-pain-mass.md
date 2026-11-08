@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_pain_mass", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/inflict-pain" },
+]
 
 [fields]
 kind = "spell"
@@ -54,4 +57,4 @@ Descriptors: mind-affecting, pain
 
 **Sources:** Occult Adventures pg 174
 
-This spell functions like inflict pain except as noted above.
+This spell functions like [inflict pain](ref/spell/inflict-pain) except as noted above.

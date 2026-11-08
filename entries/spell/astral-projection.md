@@ -75,10 +75,3 @@ breaking of the silver cord, or the destruction of your body back on the Materia
 you).
 
 When this spell ends, your astral body and all of its gear, vanishes.
-
-### Lesser Astral Projection
-
-**Sources:** Ultimate Magic pg 207
-
-This spell functions as astral projection, except you cannot leave the Astral Plane and explore
-other planes (though you can still return to the plane you were on when you cast this spell).

@@ -54,10 +54,3 @@ spells when they are used in such a way as to gain information about the target.
 scrying that scans an area the creature is in, such as [arcane eye](ref/spell/arcane-eye), the spell
 works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the
 subject do not work at all.
-
-### Communal Mind Blank
-
-**Sources:** Ultimate Combat pg 236
-
-This spell functions like mind blank, except you divide the duration in 1-hour increments among the
-creatures touched.

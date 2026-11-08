@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_monument_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/guardian-monument-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -45,22 +48,9 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 :::
 
-## Lesser Guardian Monument
-
-**Sources:** Arcane Anthology pg 8
-
-You touch an unattended, nonmagical object to create a touchstone for humans defending the area.
-Such human defenders are protected by a shimmering aura as long as they are in the area. The spell
-grants each subject [damage reduction](ref/rule/damage-reduction) 2/magic. Humans who leave the area
-and reenter regain the damage reduction. The spell is suppressed if the object is moved from its
-place, but resumes if the object is put back. Its duration continues to elapse while it is
-suppressed this way.
-
-Normally, the area of effect is 40 feet from the touched object. If the touched object is a monument
-to human achievement, the area increases to a 60-foot radius.
-
 ### Greater Guardian Monument
 
 **Sources:** Arcane Anthology pg 9
 
-This spell functions as lesser guardian monument, except it grants DR 4/magic.
+This spell functions as [lesser guardian monument](ref/spell/guardian-monument-lesser), except it
+grants DR 4/magic.

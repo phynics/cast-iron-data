@@ -59,10 +59,3 @@ as if it were normal ground.
 If the spell is cast underwater (or while the subjects are partially or wholly submerged in whatever
 liquid they are in), the subjects are borne toward the surface at 60 feet per round until they can
 stand on it.
-
-### Communal Water Walk
-
-**Sources:** Ultimate Combat pg 249
-
-This spell functions like water walk, except you divide the duration in 10-minute intervals among
-the creatures touched.

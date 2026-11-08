@@ -55,11 +55,3 @@ observers of the conversation can tell you are communicating but cannot read lip
 conversation unless they are the target of the spell. If you or the target speak to any other
 creatures, they can hear you normally (only communication between you and the target is protected).
 The spell does not shield writing, sign language, or any form of communication other than speaking.
-
-### Greater Shield Speech
-
-**Sources:** Taldor, Echoes of Glory pg 25
-
-This spell functions as shield speech, except all creatures within the dome may communicate with
-each other as if linked by shield speech. If they speak with anyone outside the area, those outside
-the area hear them normally.

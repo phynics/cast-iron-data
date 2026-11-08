@@ -63,34 +63,3 @@ it can't be resurrected).
 You can resurrect someone killed by a death effect or someone who has been turned into an undead
 creature and then destroyed. You cannot resurrect someone who has died of old age. Constructs,
 elementals, outsiders, and undead creatures can't be resurrected.
-
-### False Resurrection
-
-**Sources:** Ultimate Intrigue pg 214
-
-This spell functions as resurrection except that instead of recalling the dead soul to life, the
-spell calls a shadow demon with the advanced simple template to possess the body. If you fail to
-overcome the subject's [spell resistance](ref/rule/spell-resistance), the subject's soul can negate
-the calling and gain the option to return to life (as resurrection) in the restored body. The
-possession otherwise functions (as possession) except that the subject's soul is not present to
-resist. When false resurrection ends or the demon is removed from the subject, the demon returns to
-the Abyss, leaving the body alive but soulless (like that created by clone). If the soul hasn't been
-returned to life already, it has the option to return in the now-empty body if it still lives (as
-resurrection). If the body was killed, the demon is sent back to the Abyss but the subject remains
-dead.
-
-Attempts to identify false resurrection with a skill check incorrectly identify it as resurrection
-(see the [ruse](ref/spelldef/ruse) descriptor). A fooled viewer mistakes false resurrection's aura
-as the lingering aura of an instantaneous conjuration effect.
-
-### Greater False Resurrection
-
-**Sources:** Ultimate Intrigue pg 214
-
-This spell functions as false resurrection except that it calls a belier devil with the young simple
-template to possess the body and all parts of false resurrection that function like resurrection
-instead function like [true resurrection](ref/spell/true-resurrection).
-
-Attempts to identify greater false resurrection with a skill check incorrectly identify it as true
-resurrection (see the [ruse](ref/spelldef/ruse) descriptor). A fooled viewer mistakes greater false
-resurrection's aura as the lingering aura of an instantaneous conjuration effect.

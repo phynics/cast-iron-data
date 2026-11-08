@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_climb_communal", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spider-climb" },
+]
 
 [fields]
 kind = "spell"
@@ -51,17 +54,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 :::
 
-## Spider Climb
-
-**Sources:** PRPG Core Rulebook pg 347
-
-The subject can climb and travel on vertical surfaces or even traverse ceilings as well as a spider
-does. The affected creature must have its hands free to climb in this manner. The subject gains a
-climb speed of 20 feet and a +8 racial bonus on Climb skill checks; furthermore, it need not make
-Climb checks to traverse a vertical or horizontal surface (even upside down). A spider climbing
-creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no
-special bonus to their attacks against it. It cannot, however, use the run action while climbing.
-
 ### Mythic Spider Climb
 
 **Sources:** Mythic Adventures pg 109
@@ -76,5 +68,5 @@ adhesives of 2nd level or less (including tanglefoot bags) as if it were using f
 
 **Sources:** Ultimate Combat pg 245
 
-This spell functions like spider climb, except you divide the duration in 10-minute intervals among
-the creatures touched.
+This spell functions like [spider climb](ref/spell/spider-climb), except you divide the duration in
+10-minute intervals among the creatures touched.

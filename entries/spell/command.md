@@ -81,12 +81,3 @@ If the subject can't carry out your command on its next turn, the spell automati
 
 You can target up to one creature per level, each of which must receive the same command. Creatures
 that succeed at their saving throws are staggered for 1 round (this is a mind-affecting effect).
-
-### Greater Command
-
-**Sources:** PRPG Core Rulebook pg 257
-
-This spell functions like command, except that up to one creature per level may be affected, and the
-activities continue beyond 1 round. At the start of each commanded creature's action after the
-first, it gets another Will save to attempt to break free from the spell. Each creature must receive
-the same command.

@@ -99,20 +99,3 @@ appearance can reveal the invisible target's presence.
 _Augmented (3rd):_ If you expend two uses of mythic power, the invisible target is undetectable by
 [blindsense](ref/rule/blindsight-and-blindsense), blindsight, scent, and
 [tremorsense](ref/umr/tremorsense).
-
-### Greater Invisibility
-
-**Sources:** PRPG Core Rulebook pg 302
-
-This spell functions like invisibility, except that it doesn't end if the subject attacks.
-
-### Mass Invisibility
-
-**Sources:** PRPG Core Rulebook pg 302
-
-This spell functions like invisibility, except that the effect moves with the group and is broken
-when anyone in the group attacks. Individuals in the group cannot see each other. The spell is
-broken for any individual who moves more than 180 feet from the nearest member of the group. If only
-two individuals are affected, the one moving away from the other one loses its invisibility. If both
-are moving away from each other, they both become visible when the distance between them exceeds 180
-feet.

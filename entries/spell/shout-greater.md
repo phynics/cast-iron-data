@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shout_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shout" },
+]
 
 [fields]
 kind = "spell"
@@ -46,18 +49,6 @@ Spell resistance: yes (object)
 Descriptors: sonic
 :::
 
-## Shout
-
-**Sources:** PRPG Core Rulebook pg 343
-
-You emit an ear-splitting yell that deafens and damages creatures in its path. Any creature within
-the area is deafened for 2d6 rounds and takes 5d6 points of sonic damage. A successful save negates
-the deafness and reduces the damage by half. Any exposed brittle or crystalline object or
-crystalline creature takes 1d6 points of sonic damage per caster level (maximum 15d6). An affected
-creature is allowed a Fortitude save to reduce the damage by half, and a creature holding fragile
-objects can negate damage to them with a successful Reflex save. A shout spell cannot penetrate a
-silence spell.
-
 ### Mythic Shout
 
 **Sources:** Mythic Adventures pg 108
@@ -72,9 +63,9 @@ turn for a number of rounds equal to your tier.
 
 **Sources:** PRPG Core Rulebook pg 343
 
-This spell functions like shout, except that the cone deals 10d6 points of sonic damage (or 1d6
-points of sonic damage per caster level, maximum 20d6, against exposed brittle or crystalline
-objects or crystalline creatures). It also causes creatures to be stunned for 1 round and deafened
-for 4d6 rounds. A creature in the area of the cone can negate the stunning and halve both the damage
-and the duration of the deafness with a successful Fortitude save. A creature holding vulnerable
-objects can attempt a Reflex save to negate the damage to those objects.
+This spell functions like [shout](ref/spell/shout), except that the cone deals 10d6 points of sonic
+damage (or 1d6 points of sonic damage per caster level, maximum 20d6, against exposed brittle or
+crystalline objects or crystalline creatures). It also causes creatures to be stunned for 1 round
+and deafened for 4d6 rounds. A creature in the area of the cone can negate the stunning and halve
+both the damage and the duration of the deafness with a successful Fortitude save. A creature
+holding vulnerable objects can attempt a Reflex save to negate the damage to those objects.

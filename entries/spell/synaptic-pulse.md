@@ -46,10 +46,3 @@ Descriptors: mind-affecting
 
 You emit a pulsating mental blast that stuns all creatures in range of your psychic shriek for 1
 round.
-
-### Greater Synaptic Pulse
-
-**Sources:** Occult Adventures pg 187
-
-You emit a pulsating mental blast that stuns all creatures in range of your psychic shriek for 1d4
-rounds. On a successful save, a creature is instead sickened for 1 round.

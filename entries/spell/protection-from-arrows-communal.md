@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_arrows_communal", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/protection-from-arrows" },
+]
 
 [fields]
 kind = "spell"
@@ -46,15 +49,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 :::
 
-## Protection from Arrows
-
-**Sources:** PRPG Core Rulebook pg 327
-
-The warded creature gains resistance to ranged weapons. The subject gains
-[damage reduction](ref/rule/damage-reduction) 10/magic against ranged weapons. This spell doesn't
-grant you the ability to damage creatures with similar damage reduction. Once the spell has
-prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged.
-
 ### Mythic Protection from Arrows
 
 **Sources:** Mythic Adventures pg 104
@@ -70,6 +64,7 @@ projectile is destroyed.
 
 **Sources:** Ultimate Combat pg 240
 
-This spell functions like protection from arrows, except you divide the duration in 1-hour intervals
-among the creatures touched. Once the spell absorbs 10 points of damage per caster level (maximum
-100 points) for a subject, the spell's effects end for that subject.
+This spell functions like [protection from arrows](ref/spell/protection-from-arrows), except you
+divide the duration in 1-hour intervals among the creatures touched. Once the spell absorbs 10
+points of damage per caster level (maximum 100 points) for a subject, the spell's effects end for
+that subject.

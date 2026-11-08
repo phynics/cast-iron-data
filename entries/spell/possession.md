@@ -80,11 +80,3 @@ The old [magic jar](ref/spell/magic-jar) spell is unwieldy, particularly with re
 like ghosts and shadow demons that don't really use a jar at all. Consider replacing magic jar with
 the new possession spells for both spellcasters and monsters. Likewise, consider using spells based
 on possession rather than magic jar.
-
-### Greater Possession
-
-**Sources:** Occult Adventures pg 181
-
-This spell functions as possession, but when you possess a host, you enter the host's body and your
-physical body vanishes. You are ejected to the closest empty square upon expiration of the spell or
-upon the host's death.

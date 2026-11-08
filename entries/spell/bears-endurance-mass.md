@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bears_endurance_mass", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bears-endurance" },
+]
 
 [fields]
 kind = "spell"
@@ -50,18 +53,9 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 :::
 
-## Bear's Endurance
-
-**Sources:** PRPG Core Rulebook pg 246
-
-The affected creature gains greater vitality and stamina. The spell grants the subject a +4
-enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves,
-Constitution checks, and so forth. Hit points gained by a temporary increase in Constitution score
-are not temporary hit points. They go away when the subject's Constitution drops back to normal.
-They are not lost first as temporary hit points are.
-
 ### Mass Bear's Endurance
 
 **Sources:** PRPG Core Rulebook pg 247
 
-Mass bear's endurance works like bear's endurance, except that it affects multiple creatures.
+Mass [bear's endurance](ref/spell/bears-endurance) works like bear's endurance, except that it
+affects multiple creatures.

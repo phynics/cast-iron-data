@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_blade_mass", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dazzling-blade" },
+]
 
 [fields]
 kind = "spell"
@@ -42,30 +45,10 @@ Spell resistance: yes (harmless, object)
 Subschool: Pattern
 :::
 
-## Dazzling Blade
-
-**Sources:** Rival Guide pg 5
-
-Dazzling blade makes a weapon appear dazzlingly shiny, as if crafted from pure silver and heavily
-polished. In combat, the flashing movements of a dazzling blade become almost hypnotic. The wielder
-of a weapon under the effects of dazzling blade gains a +1 competence bonus on all Bluff checks made
-to feint in combat. The wielder also gains a +1 competence bonus on all CMB checks made to disarm a
-foe, and a +1 competence bonus to his CMD against disarm attempts made against the weapon bearing
-the dazzling blade effect. This bonus increases by +1 for every 3 caster levels, to a maximum bonus
-of +5 at 12th level.
-
-The wielder of a dazzling blade can discharge the spell into a blinding burst of silvery light as a
-free action. The wielder selects an adjacent opponent as the focal point of this burst of light-that
-creature must make a Will save to avoid being blinded for 1 round (with a successful save, the
-creature is instead dazzled for 1 round).
-
-Despite its shiny appearance, a dazzling blade grants no extra benefit against creatures that are
-vulnerable to silver.
-
 ### Mass Dazzling Blade
 
 **Sources:** Rival Guide pg 5
 
-This spell functions like dazzling blade, except that it affects multiple weapons. Each wielder of a
-dazzling blade can discharge the weapon's effect to attempt to blind a foe independently of the
-others.
+This spell functions like [dazzling blade](ref/spell/dazzling-blade), except that it affects
+multiple weapons. Each wielder of a dazzling blade can discharge the weapon's effect to attempt to
+blind a foe independently of the others.

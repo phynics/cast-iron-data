@@ -59,12 +59,3 @@ cast the spell or threw the weapon. Witnesses who can see only the target see it
 apparent source. The subject of this spell doesn't provoke attacks of opportunity from these
 illusory actions. Each target of the attack or spell counts as interacting with the illusion and
 thus receives a save to disbelieve.
-
-### Greater Illusion of Treachery
-
-**Sources:** Ultimate Intrigue pg 217
-
-This spell functions as illusion of treachery except that it also conceals your own actions (as
-illusion of calm) and renders invisible all spell effects and ranged attacks originating from you
-until they reach the attack's target (this doesn't cause the attack's target to be unable to avoid
-the attack, as they still see the attack originating from the spell's target).

@@ -52,11 +52,3 @@ any one creature you are adjacent to at any point along this 30 feet. You gain a
 on your attack roll equal to your Intelligence or Charisma modifier, whichever is higher. You must
 end the bonus movement granted by this spell in an unoccupied square. If no such space is available
 along the trajectory, the spell fails. Despite the name, the spell works with any melee weapon.
-
-### Greater Bladed Dash
-
-**Sources:** Inner Sea Magic pg 52
-
-This spell functions like bladed dash, save that you can make a single melee attack against every
-creature you pass during the 30 feet of your dash. You cannot attack an individual creature more
-than once with spell.

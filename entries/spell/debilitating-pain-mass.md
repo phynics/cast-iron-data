@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating_pain_mass", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/debilitating-pain" },
+]
 
 [fields]
 kind = "spell"
@@ -42,16 +45,9 @@ Subschool: Compulsion
 Descriptors: mind-affecting, pain
 :::
 
-## Debilitating Pain
-
-**Sources:** Psychic Anthology pg 10
-
-The target is overcome with intense pain, causing it to be stunned on a failed save or dazed for 1
-round on a successful save.
-
 ### Mass Debilitating Pain
 
 **Sources:** Psychic Anthology pg 10
 
-This spell functions as per debilitating pain, except you can target one creature for every 4 caster
-levels you have.
+This spell functions as per [debilitating pain](ref/spell/debilitating-pain), except you can target
+one creature for every 4 caster levels you have.

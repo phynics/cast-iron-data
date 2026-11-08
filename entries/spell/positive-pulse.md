@@ -60,10 +60,3 @@ damage.
 This spell does not heal creatures healed by positive energy; such creatures instead gain a +2 bonus
 on saving throws against death effects, energy drain, negative energy, and effects directly caused
 by haunts. This bonus lasts for 1 round.
-
-### Greater Positive Pulse
-
-**Sources:** Planar Adventures pg 43
-
-This spell functions like positive pulse, except that the damage dealt increases to 3d6 plus your
-caster level, and the bonus on saving throws increases to +8.

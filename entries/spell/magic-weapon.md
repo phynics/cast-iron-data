@@ -58,19 +58,6 @@ does not stack with a masterwork weapon's +1 bonus on attack rolls.
 You can't cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang).
 A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell.
 
-### Greater Magic Weapon
-
-**Sources:** PRPG Core Rulebook pg 310
-
-This spell functions like magic weapon, except that it gives a weapon an enhancement bonus on attack
-and damage rolls of +1 per four caster levels (maximum +5). This bonus does not allow a weapon to
-bypass [damage reduction](ref/rule/damage-reduction) aside from magic.
-
-Alternatively, you can affect as many as 50 arrows, bolts, or bullets. The projectiles must be of
-the same kind, and they have to be together (in the same quiver or other container). Projectiles,
-but not thrown weapons, lose their transmutation after they are used. Treat shuriken as projectiles,
-rather than as thrown weapons, for the purpose of this spell.
-
 ### Greater Mythic Magic Weapon
 
 **Sources:** Mythic Adventures pg 100

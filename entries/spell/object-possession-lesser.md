@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_possession_lesser", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/possession" },
+]
 
 [fields]
 kind = "spell"
@@ -60,24 +63,3 @@ A spiritual tether connects your body to the possessed object, in a manner simil
 [silver cord](ref/rule/astral-plane-oa). If the possessed object and your body are ever farther than
 close range (25 ft. + 5 ft./2 levels) from one another, this tether breaks, returning your
 consciousness to your body.
-
-### Object Possession
-
-**Sources:** Occult Adventures pg 179
-
-This spell functions as lesser object possession, except as noted above. The possessed animated
-object has a number of Construction Points appropriate for its size (up to 3 CP for Large objects).
-
-You can return your consciousness to your body as a standard action. On your next turn, you can
-attempt to possess a different object as a standard action instead of ending the spell.
-
-### Greater Object Possession
-
-**Sources:** Occult Adventures pg 179
-
-This spell functions as object possession, except as noted above. The possessed animated object has
-a number of Construction Points appropriate for its size (up to 5 CP for Gargantuan objects). Your
-silver cord extends to medium range (100 ft. + 10 ft./level).
-
-You can attempt to possess a construct instead of an unattended object as your first possession with
-this spell. If you do, this spell acts as control construct, except as noted above.

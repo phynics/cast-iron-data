@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhallowed_blows_greater", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/unhallowed-blows" },
+]
 
 [fields]
 kind = "spell"
@@ -47,26 +50,13 @@ Spell resistance: yes (harmless)
 Descriptors: evil
 :::
 
-## Unhallowed Blows
-
-**Sources:** People of the Wastes pg 29
-
-This spell empowers the natural attacks or unarmed strikes of undead creatures, granting a +1
-enhancement bonus on attack and damage rolls made by the target with its unarmed strikes or attacks
-with one natural attack. This spell can cause an undead creature's unarmed strike to deal lethal
-damage, but in this case, the attack does not gain an enhancement bonus.
-
-Unhallowed blows can be made permanent with a [permanency](ref/spell/permanency) spell. In this
-case, the caster must be at least 9th level and must expend 2,500 gp worth of diamond dust as a
-material component.
-
 ### Greater Unhallowed Blows
 
 **Sources:** People of the Wastes pg 29
 
-This spell functions as unhallowed blows, except the enhancement bonus is +1 per 4 caster levels
-(maximum +5). Alternatively, you can imbue all of a creature's natural weapons with a +1 enhancement
-bonus (regardless of your caster level).
+This spell functions as [unhallowed blows](ref/spell/unhallowed-blows), except the enhancement bonus
+is +1 per 4 caster levels (maximum +5). Alternatively, you can imbue all of a creature's natural
+weapons with a +1 enhancement bonus (regardless of your caster level).
 
 Greater unhallowed blows can be made permanent with a [permanency](ref/spell/permanency) spell. In
 this case, the caster must be at least 11th level and must expend 7,500 gp worth of diamond dust as

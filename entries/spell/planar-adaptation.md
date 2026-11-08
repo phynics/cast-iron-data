@@ -58,9 +58,3 @@ existence, including such hazards as toxicity, extreme temperatures, and lack of
 you gain energy resistance 20 to a single energy type prevalent on that plane (choose one if more
 than one type is equally prevalent). Planar adaptation has no effect when cast upon your native
 plane.
-
-### Mass Planar Adaptation
-
-**Sources:** Advanced Player's Guide pg 236
-
-This spell functions like planar adaptation, except as noted above.

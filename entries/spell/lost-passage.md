@@ -60,10 +60,3 @@ lose the benefit of all effects that allow them to ignore difficult terrain, and
 to Dexterity.
 
 Lost passage can be made permanent with [permanency](ref/spell/permanency) at a cost of 10,000 gp.
-
-### Lost Locale
-
-**Sources:** Inner Sea Races pg 220
-
-This spell functions as lost passage, except that it affects a larger area. Lost locale can be made
-permanent with [permanency](ref/spell/permanency) at a cost of 90,000 gp.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_whole_greater", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/make-whole" },
+]
 
 [fields]
 kind = "spell"
@@ -43,19 +46,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 :::
 
-## Make Whole
-
-**Sources:** PRPG Core Rulebook pg 311
-
-This spell functions as [mending](ref/spell/mending), except that it repairs 1d6 points of damage
-per level when cast on a construct creature (maximum 5d6).
-
-Make whole can fix destroyed magic items (at 0 hit points or less), and restores the magic
-properties of the item if your caster level is at least twice that of the item. Items with charges
-(such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way.
-When make whole is used on a construct creature, the spell bypasses any immunity to magic as if the
-spell did not allow [spell resistance](ref/rule/spell-resistance).
-
 ### Mythic Make Whole
 
 **Sources:** Mythic Adventures pg 100
@@ -70,6 +60,7 @@ has to equal to only the caster level of the magic item, not double the caster l
 **Sources:** Technology Guide pg 10
 
 This spell repairs 1d6 points of damage plus 1 point per level when cast on a construct creature
-(maximum 10d6+10). Greater make whole can fix destroyed magic items or technological items (items at
-0 hit points or fewer), and restores the magic properties of the item if your caster level at least
-equal to that of the item. This spell otherwise functions as make whole.
+(maximum 10d6+10). Greater [make whole](ref/spell/make-whole) can fix destroyed magic items or
+technological items (items at 0 hit points or fewer), and restores the magic properties of the item
+if your caster level at least equal to that of the item. This spell otherwise functions as make
+whole.

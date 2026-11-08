@@ -51,10 +51,3 @@ Subschool: Summoning
 
 You summon a light horse or a pony (your choice) to serve you as a mount. The steed serves willingly
 and well. The mount comes with a bit and bridle and a riding saddle.
-
-### Communal Mount
-
-**Sources:** Ultimate Combat pg 237
-
-This spell functions like mount, except you can summon up to six light horses or ponies, and you
-divide the duration in 2-hour increments among the steeds summoned.

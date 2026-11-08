@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_planar_infusion_2", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bestow-planar-infusion-1" },
+]
 
 [fields]
 kind = "spell"
@@ -50,32 +53,9 @@ Spell resistance: yes
 Target: creature touched
 :::
 
-## Bestow Planar Infusion I
-
-**Sources:** Planar Adventures pg 39
-
-This spell draws upon the latent planar energy of the caster's surroundings, allowing her to
-temporarily infuse a creature with the plane's power. The touched creature gains that plane's basic
-infusion for the spell's duration. This spell has no effect if cast on the Material Plane, and it
-ends as soon as the spell's target leaves the plane with which it has been infused. Details on
-planar infusions can be found in each plane's Infusion section (listed
-[here](ref/feat/planar-infusion)).
-
-Once a creature gains the benefits of bestow planar infusion I, it remains attuned to that plane for
-24 hours. Additional castings of bestow planar infusion I during this time bestow the same infusion
-that was granted by the initial casting that day. Planar infusions that can be used a limited number
-of times per day are not refreshed by multiple castings of bestow planar infusion I.
-
 ### Bestow Planar Infusion II
 
 **Sources:** Planar Adventures pg 39
 
-This functions as bestow planar infusion I, except that the touched creature gains the improved
-infusion of the current plane.
-
-### Bestow Planar Infusion III
-
-**Sources:** Planar Adventures pg 39
-
-This functions as bestow planar infusion I, except that the touched creature gains the greater
-infusion of the current plane.
+This functions as [bestow planar infusion I](ref/spell/bestow-planar-infusion-1), except that the
+touched creature gains the improved infusion of the current plane.

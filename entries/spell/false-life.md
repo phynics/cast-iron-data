@@ -65,10 +65,3 @@ effect after the attack hits you and the damage is rolled, but before you take t
 example, if you have 22 temporary hit points from mythic false life and a wyvern stings you for 3
 points of Constitution damage, you can dismiss the spell to prevent 2 points of Constitution damage
 from that attack.
-
-### Greater False Life
-
-**Sources:** Ultimate Magic pg 219
-
-This spell functions as false life, except you gain temporary hit points equal to 2d10 + 1 point per
-caster level (maximum +20). The effects of this spell do not stack with those of false life.

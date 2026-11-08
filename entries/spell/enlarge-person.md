@@ -89,9 +89,3 @@ takes a -4 size penalty to Dexterity and a -2 penalty on attack rolls and to AC 
 increased size. A Medium humanoid creature whose size increases to Huge has a space of 15 feet and a
 natural reach of 10 feet. Mythic enlarge person counters and dispels mythic
 _[reduce person](ref/spell/reduce-person)._
-
-### Mass Enlarge Person
-
-**Sources:** PRPG Core Rulebook pg 278
-
-This spell functions like enlarge person, except that it affects multiple creatures.

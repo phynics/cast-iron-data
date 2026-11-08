@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sealed_life_greater", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/sealed-life" },
+]
 
 [fields]
 kind = "spell"

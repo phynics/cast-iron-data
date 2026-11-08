@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_waves", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/stone-tell" },
+]
 
 [fields]
 kind = "spell"
@@ -41,19 +44,10 @@ Spell resistance: no
 Target: you
 :::
 
-## Stone Tell
-
-**Sources:** PRPG Core Rulebook pg 349
-
-You gain the ability to speak with stones, which relate to you who or what has touched them as well
-as revealing what is covered or concealed behind or under them. The stones relate complete
-descriptions if asked. A stone's perspective, perception, and knowledge may prevent the stone from
-providing the details you are looking for. You can speak with natural or worked stone.
-
 ### Speak with Waves
 
 **Sources:** Elemental Master's Handbook pg 14
 
-This spell functions as stone tell but allows conversations only with a body of standing or flowing
-fresh water at least as large as you are. Flowing water can generally speak about events happening
-upstream but not events happening downstream.
+This spell functions as [stone tell](ref/spell/stone-tell) but allows conversations only with a body
+of standing or flowing fresh water at least as large as you are. Flowing water can generally speak
+about events happening upstream but not events happening downstream.

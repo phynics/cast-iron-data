@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flare_burst", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/flare" },
+]
 
 [fields]
 kind = "spell"
@@ -50,17 +53,9 @@ Effect: burst of light
 Descriptors: light
 :::
 
-## Flare
-
-**Sources:** PRPG Core Rulebook pg 284
-
-This cantrip creates a burst of light. If you cause the light to burst in front of a single
-creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save.
-Sightless creatures, as well as creatures already dazzled, are not affected by flare.
-
 ### Flare Burst
 
 **Sources:** Advanced Player's Guide pg 223
 
-This spell functions as flare, except it affects all creatures in a 10-foot-radius burst from the
-target point.
+This spell functions as [flare](ref/spell/flare), except it affects all creatures in a
+10-foot-radius burst from the target point.

@@ -46,10 +46,3 @@ Descriptors: mind-affecting, pain
 
 The target is overcome with intense pain, causing it to be stunned on a failed save or dazed for 1
 round on a successful save.
-
-### Mass Debilitating Pain
-
-**Sources:** Psychic Anthology pg 10
-
-This spell functions as per debilitating pain, except you can target one creature for every 4 caster
-levels you have.

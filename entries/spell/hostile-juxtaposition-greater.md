@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hostile_juxtaposition_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hostile-juxtaposition" },
+]
 
 [fields]
 kind = "spell"
@@ -46,24 +49,12 @@ Spell resistance: yes
 Subschool: Teleportation
 :::
 
-## Hostile Juxtaposition
-
-**Sources:** Ultimate Combat pg 231
-
-You create a dimensional link to the target creature. When attacked or the subject of a spell that
-deals damage to you, you can spend an immediate action to cause yourself and the target creature to
-teleport and switch places. The target then becomes the target of the triggering attack or spell
-instead of you. If you fail to teleport out of the area of an effect, that effect might still affect
-you. If the target creature cannot fit safely into the new space without squeezing, or you try to
-teleport the target into an occupied space or a space it could not normally stand within, the
-juxtaposition fails. Further, if the target is unconscious or dead when you attempt to switch
-places, the juxtaposition fails. Once you have used it to teleport once, this spell is discharged.
-
 ### Greater Hostile Juxtaposition
 
 **Sources:** Ultimate Combat pg 231
 
-This spell functions like hostile juxtaposition, except you can target one creature for every four
-caster levels you have or you can target a single creature that is larger than you are. You can
-switch places with each target only once while the effect lasts. Once you have used it to teleport
-and switch places with each affected target, the spell is discharged.
+This spell functions like [hostile juxtaposition](ref/spell/hostile-juxtaposition), except you can
+target one creature for every four caster levels you have or you can target a single creature that
+is larger than you are. You can switch places with each target only once while the effect lasts.
+Once you have used it to teleport and switch places with each affected target, the spell is
+discharged.

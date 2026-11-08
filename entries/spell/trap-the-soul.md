@@ -66,17 +66,3 @@ trigger object when the gem is enspelled. A sympathy spell can also be placed on
 As soon as the subject picks up or accepts the trigger object, its life force is automatically
 transferred to the gem without the benefit of [spell resistance](ref/rule/spell-resistance) or a
 save.
-
-### Soul Transfer
-
-**Sources:** Book of the Damned pg 186, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-39
-
-This spell functions like the spell completion option of trap the soul, except it works only on
-bodiless souls (such as incorporeal undead or a soul trapped in a gem) and creatures whose substance
-is a physical incarnation of a soul (such as a petitioner). It does not work on creatures formed
-from souls or planar material (such as most outsiders). Soul transfer is mainly used to transfer
-souls from one receptacle to another, but it can also be used to capture vulnerable souls that
-aren't bound to mortal flesh (such as incorporeal creatures and petitioners). When used to capture a
-petitioner, the petitioner's physical body vanishes, reappearing only when its soul is released from
-the receptacle.

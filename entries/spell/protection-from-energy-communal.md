@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_energy_communal", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/protection-from-energy" },
+]
 
 [fields]
 kind = "spell"
@@ -56,22 +59,11 @@ Spell resistance: yes (harmless)
 Target: creature touched
 :::
 
-## Protection from Energy
-
-**Sources:** PRPG Core Rulebook pg 327
-
-Protection from energy grants temporary immunity to the type of energy you specify when you cast it
-(acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of
-energy damage (to a maximum of 120 points at 10th level), it is discharged.
-
-Protection from energy overlaps (and does not stack with) [resist energy](ref/spell/resist-energy).
-If a character is warded by protection from energy and resist energy, the protection spell absorbs
-damage until its power is exhausted.
-
 ### Communal Protection from Energy
 
 **Sources:** Ultimate Combat pg 240
 
-This spell functions like protection from energy, except you divide the duration in 10-minute
-intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster
-level (maximum 120 points) for a subject, the spell's effects end for that subject.
+This spell functions like [protection from energy](ref/spell/protection-from-energy), except you
+divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12
+points of energy damage per caster level (maximum 120 points) for a subject, the spell's effects end
+for that subject.

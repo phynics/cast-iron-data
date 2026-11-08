@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knock_mass", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/knock" },
+]
 
 [fields]
 kind = "spell"
@@ -46,21 +49,6 @@ Saving throw: none
 Spell resistance: no
 :::
 
-## Knock
-
-**Sources:** PRPG Core Rulebook pg 303
-
-Knock opens stuck, barred, or locked doors, as well as those subject to
-[hold portal](ref/spell/hold-portal) or [arcane lock](ref/spell/arcane-lock). When you complete the
-casting of this spell, make a caster level check against the DC of the lock with a +10 bonus. If
-successful, knock opens up to two means of closure. This spell opens secret doors, as well as locked
-or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to
-hold something shut). If used to open an arcane locked door, the spell does not remove the arcane
-lock but simply suspends its functioning for 10 minutes. In all other cases, the door does not
-relock itself or become stuck again on its own. Knock does not raise barred gates or similar
-impediments (such as a portcullis), nor does it affect ropes, vines, and the like. The effect is
-limited by the area. Each casting can undo as many as two means of preventing access.
-
 ### Mythic Knock
 
 **Sources:** Mythic Adventures pg 99
@@ -84,5 +72,5 @@ locked doors.
 
 **Sources:** Inner Sea Temples pg 23
 
-Also known as "unshackle," this spell functions as knock, but works on multiple means of closure at
-once.
+Also known as "unshackle," this spell functions as [knock](ref/spell/knock), but works on multiple
+means of closure at once.

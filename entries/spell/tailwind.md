@@ -61,10 +61,3 @@ feet of movement each round in the chosen direction does not count against their
 round. Each creature remains affected only while within 120 feet of every other subject. You can
 change the tailwind's direction once per hour by concentrating as a standard action. This spell has
 no effect underwater.
-
-### Tail Current
-
-**Sources:** Ultimate Wilderness pg 236
-
-This spell functions as tailwind except it creates a helpful current in water instead of in the air.
-It grants free movement while swimming rather than while flying and functions only underwater.

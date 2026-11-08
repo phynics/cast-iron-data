@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rain_of_frogs", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-swarm" },
+]
 
 [fields]
 kind = "spell"
@@ -49,16 +52,6 @@ Effect: one swarm of bats, rats, or spiders
 Subschool: Summoning
 :::
 
-## Summon Swarm
-
-**Sources:** PRPG Core Rulebook pg 354
-
-You summon a swarm of [bats](ref/monster/bat-bat-swarm), [rats](ref/monster/rat-rat-swarm), or
-[spiders](ref/monster/spider-spider-swarm) (your choice), which attacks all other creatures within
-its area. (You may summon the swarm so that it shares the area of other creatures.) If no living
-creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The
-caster has no control over its target or direction of travel.
-
 ### Mythic Summon Swarm
 
 **Sources:** Mythic Adventures pg 109
@@ -74,6 +67,7 @@ behind a similar trail that lasts for 2 rounds but doesn't have a disease or poi
 
 **Sources:** Ultimate Magic pg 233
 
-This spell functions as summon swarm, except you summon a swarm of poisonous frogs. This swarm has
-the statistics of a [centipede swarm](ref/monster/centipede-centipede-swarm), except it has the
-animal type and its poison deals Constitution damage instead of Dexterity damage.
+This spell functions as [summon swarm](ref/spell/summon-swarm), except you summon a swarm of
+poisonous frogs. This swarm has the statistics of a
+[centipede swarm](ref/monster/centipede-centipede-swarm), except it has the animal type and its
+poison deals Constitution damage instead of Dexterity damage.

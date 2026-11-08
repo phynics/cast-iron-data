@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rejuvenate_eidolon_greater", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/rejuvenate-eidolon-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -40,23 +43,9 @@ Spell resistance: no
 Subschool: Healing
 :::
 
-## Lesser Rejuvenate Eidolon
-
-**Sources:** Advanced Player's Guide pg 238
-
-By laying your hand upon an eidolon, you cause its wounds to close and its form to solidify. This
-spell cures 1d10 points of damage +1 point per caster level (maximum +5).
-
-### Rejuvenate Eidolon
-
-**Sources:** Advanced Player's Guide pg 238
-
-This spell functions as lesser rejuvenate eidolon, except that it cures 3d10 points of damage +1
-point per caster level (maximum +10).
-
 ### Greater Rejuvenate Eidolon
 
 **Sources:** Advanced Player's Guide pg 238
 
-This spell functions as lesser rejuvenate eidolon, except that it cures 5d10 points of damage +1
-point per caster level (maximum +20).
+This spell functions as [lesser rejuvenate eidolon](ref/spell/rejuvenate-eidolon-lesser), except
+that it cures 5d10 points of damage +1 point per caster level (maximum +20).

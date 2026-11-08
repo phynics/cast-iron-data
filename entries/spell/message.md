@@ -62,21 +62,3 @@ barrier if there is an open path between you and the subject, and the path's ent
 within the spell's range. The creatures that receive the message can whisper a reply that you hear.
 The spell transmits sound, not meaning; it doesn't transcend language barriers. To speak a message,
 you must mouth the words and whisper.
-
-### Demanding Message
-
-**Sources:** Ultimate Intrigue pg 210
-
-This spell initially functions as message (allowing no save or
-[spell resistance](ref/rule/spell-resistance)). Once during the message effect, you can concentrate
-as a standard action to issue a suggestion to one target as part of delivering a message. Spell
-resistance and a Will save apply to the suggestion, and it lasts for 1 hour per level or until
-completed.
-
-### Mass Demanding Message
-
-**Sources:** Ultimate Intrigue pg 210
-
-This spell functions as demanding message, except that you can issue one suggestion to each of the
-spell's targets instead of just one. Each time you do so, it takes a standard action. You can issue
-a different suggestion to each target.

@@ -63,17 +63,3 @@ Once a creature gains the benefits of bestow planar infusion I, it remains attun
 24 hours. Additional castings of bestow planar infusion I during this time bestow the same infusion
 that was granted by the initial casting that day. Planar infusions that can be used a limited number
 of times per day are not refreshed by multiple castings of bestow planar infusion I.
-
-### Bestow Planar Infusion II
-
-**Sources:** Planar Adventures pg 39
-
-This functions as bestow planar infusion I, except that the touched creature gains the improved
-infusion of the current plane.
-
-### Bestow Planar Infusion III
-
-**Sources:** Planar Adventures pg 39
-
-This functions as bestow planar infusion I, except that the touched creature gains the greater
-infusion of the current plane.

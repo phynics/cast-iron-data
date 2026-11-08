@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_greater", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/command" },
+]
 
 [fields]
 kind = "spell"
@@ -49,32 +52,6 @@ Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
 
-## Command
-
-**Sources:** PRPG Core Rulebook pg 256
-
-You give the subject a single command, which it obeys to the best of its ability at its earliest
-opportunity. You may select from the following options.
-
-_Approach:_ On its turn, the subject moves toward you as quickly and directly as possible for 1
-round. The creature may do nothing but move during its turn, and it provokes attacks of opportunity
-for this movement as normal.
-
-_Drop:_ On its turn, the subject drops whatever it is holding. It can't pick up any dropped item
-until its next turn.
-
-_Fall:_ On its turn, the subject falls to the ground and remains prone for 1 round. It may act
-normally while prone but takes any appropriate penalties.
-
-_Flee:_ On its turn, the subject moves away from you as quickly as possible for 1 round. It may do
-nothing but move during its turn, and it provokes attacks of opportunity for this movement as
-normal.
-
-_Halt:_ The subject stands in place for 1 round. It may not take any actions but is not considered
-helpless.
-
-If the subject can't carry out your command on its next turn, the spell automatically fails.
-
 ### Mythic Command
 
 **Sources:** Mythic Adventures pg 88
@@ -86,7 +63,7 @@ that succeed at their saving throws are staggered for 1 round (this is a mind-af
 
 **Sources:** PRPG Core Rulebook pg 257
 
-This spell functions like command, except that up to one creature per level may be affected, and the
-activities continue beyond 1 round. At the start of each commanded creature's action after the
-first, it gets another Will save to attempt to break free from the spell. Each creature must receive
-the same command.
+This spell functions like [command](ref/spell/command), except that up to one creature per level may
+be affected, and the activities continue beyond 1 round. At the start of each commanded creature's
+action after the first, it gets another Will save to attempt to break free from the spell. Each
+creature must receive the same command.

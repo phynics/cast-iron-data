@@ -47,17 +47,3 @@ allows you to spend additional evolution points to upgrade that evolution. This 
 to grant an upgrade to an evolution that the eidolon already possesses. The eidolon must meet any
 prerequisites of the selected evolution. This spell does not allow an eidolon to exceed its maximum
 number of natural attacks.
-
-### Evolution Surge
-
-**Sources:** Advanced Player's Guide pg 220
-
-This spell functions as lesser evolution surge, except that you can grant any evolution whose total
-cost does not exceed 4 evolution points.
-
-### Greater Evolution Surge
-
-**Sources:** Advanced Player's Guide pg 220
-
-This spell functions as lesser evolution surge, except that you can grant any two evolutions whose
-total cost does not exceed 6 evolution points.

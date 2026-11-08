@@ -53,13 +53,3 @@ Subschool: Figment
 
 This spell functions like silent image, except that minor image includes some minor sounds but not
 understandable speech.
-
-### Major Image
-
-**Sources:** PRPG Core Rulebook pg 311
-
-This spell functions like silent image, except that sound, smell, and thermal illusions are included
-in the spell effect. While concentrating, you can move the image within the range.
-
-The image disappears when struck by an opponent unless you cause the illusion to react
-appropriately.

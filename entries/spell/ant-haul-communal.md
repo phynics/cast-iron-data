@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ant_haul_communal", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ant-haul" },
+]
 
 [fields]
 kind = "spell"
@@ -53,18 +56,9 @@ Spell resistance: yes (harmless)
 Target: creature touched
 :::
 
-## Ant Haul
-
-**Sources:** Advanced Player's Guide pg 201
-
-The target's carrying capacity triples. This does not affect the creature's actual Strength in any
-way, merely the amount of material it can carry while benefiting from this spell. It also has no
-effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties
-for doing so regardless of how much weight the spell allows it to carry.
-
 ### Communal Ant Haul
 
 **Sources:** Ultimate Combat pg 223
 
-This spell functions like ant haul, except you may divide the duration in 2-hour intervals among the
-creatures touched.
+This spell functions like [ant haul](ref/spell/ant-haul), except you may divide the duration in
+2-hour intervals among the creatures touched.

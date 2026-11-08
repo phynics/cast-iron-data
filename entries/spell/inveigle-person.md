@@ -59,9 +59,3 @@ An inveigled creature attempts to fulfill multiple requests in the same manner a
 for its true friends. If such requests conflict, it usually chooses the more reasonable
 option-overriding this preference requires succeeding at an opposed Charisma check, as if under
 multiple forms of mental control.
-
-### Inveigle Monster
-
-**Sources:** Inner Sea Intrigue pg 60
-
-This spell functions as inveigle person except as noted above.

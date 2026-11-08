@@ -67,11 +67,3 @@ round after the swarm passes through an area. Any creature that moves through th
 also subject to the swarm's disease or poison, as if attacked by the swarm. A prone creature in the
 affected area takes a -4 penalty on its saving throw against this affliction. A bat swarm leaves
 behind a similar trail that lasts for 2 rounds but doesn't have a disease or poison effect.
-
-### Rain of Frogs
-
-**Sources:** Ultimate Magic pg 233
-
-This spell functions as summon swarm, except you summon a swarm of poisonous frogs. This swarm has
-the statistics of a [centipede swarm](ref/monster/centipede-centipede-swarm), except it has the
-animal type and its poison deals Constitution damage instead of Dexterity damage.

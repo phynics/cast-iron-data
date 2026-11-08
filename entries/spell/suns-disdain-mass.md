@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suns_disdain_mass", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/suns-disdain" },
+]
 
 [fields]
 kind = "spell"
@@ -48,19 +51,9 @@ Spell resistance: yes
 Descriptors: curse
 :::
 
-## Sun's Disdain
-
-**Sources:** Adventurer's Guide pg 17
-
-You alter a creature so the touch of the sun is hostile to it. The cursed creature gains light
-blindness and is blinded for 1 round if exposed to bright light, such as sunlight or the
-[daylight](ref/spell/daylight) spell. The cursed creature is dazzled as long as it remains in areas
-of bright light, and it is treated as being particularly susceptible to sunlight for the purposes of
-resolving spells like [searing light](ref/spell/searing-light), [sunbeam](ref/spell/sunbeam), and
-[sunburst](ref/spell/sunburst).
-
 ### Mass Sun's Disdain
 
 **Sources:** Adventurer's Guide pg 17
 
-This spell functions like sun's disdain, except that it can affect multiple creatures.
+This spell functions like [sun's disdain](ref/spell/suns-disdain), except that it can affect
+multiple creatures.

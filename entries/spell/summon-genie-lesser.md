@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_genie_lesser", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-monster-1" },
+]
 
 [fields]
 kind = "spell"
@@ -52,16 +55,3 @@ Subschool: Summoning
 
 This spell functions like [summon monster I](ref/spell/summon-monster-1), except you can summon one
 janni.
-
-### Summon Genie
-
-**Sources:** People of the Sands pg 11
-
-This spell functions like lesser summon genie, except you can summon one djnni or 1d3 jann.
-
-### Greater Summon Genie
-
-**Sources:** People of the Sands pg 11
-
-This spell functions like lesser summon genie, except you can summon one shaitan, 1d3 djnn or 1d4+1
-jann.

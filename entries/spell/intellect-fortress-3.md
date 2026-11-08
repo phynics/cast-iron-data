@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intellect_fortress_3", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/intellect-fortress-2" },
+]
 
 [fields]
 kind = "spell"
@@ -37,26 +40,10 @@ Spell resistance: yes
 Area: 20-ft.-radius emanation centered on you
 :::
 
-## Intellect Fortress I
-
-**Sources:** Occult Adventures pg 174
-
-Using the power of pure logic, you disrupt mental attacks. Intellect fortress I suppresses all
-effects with the emotion and fear descriptors for its duration.
-
-### Intellect Fortress II
-
-**Sources:** Occult Adventures pg 175
-
-This spell functions as intellect fortress I, but in addition, any mind-affecting effects that deal
-damage have their damage reduced by half (before any reduction due to a successful save or other
-effect). This applies to both hit point damage and ability score damage. This spell can be
-undercast.
-
 ### Intellect Fortress III
 
 **Sources:** Occult Adventures pg 175
 
-This spell functions as intellect fortress II, but creatures within the area who succeed at a saving
-throw against a fear or emotion effect suffer no effects, even if there is usually a partial effect
-on a successful saving throw. This spell can be undercast.
+This spell functions as [intellect fortress II](ref/spell/intellect-fortress-2), but creatures
+within the area who succeed at a saving throw against a fear or emotion effect suffer no effects,
+even if there is usually a partial effect on a successful saving throw. This spell can be undercast.

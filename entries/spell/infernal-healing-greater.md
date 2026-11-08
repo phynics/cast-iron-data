@@ -6,6 +6,9 @@ source_ids = ["hells-vengeance-players-guide", "pathfinder-29-mother-of-flies", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_healing_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/infernal-healing" },
+]
 
 [fields]
 kind = "spell"
@@ -50,20 +53,9 @@ Subschool: Healing
 Descriptors: evil
 :::
 
-## Infernal Healing
-
-**Sources:** Hell's Vengeance Player's Guide pg 11, Pathfinder \#29: Mother of Flies pg 67, Gods and
-Magic pg 7, Inner Sea World Guide pg 295
-
-You anoint a wounded creature with devil's blood or unholy water, giving it
-[fast healing](ref/umr/fast-healing) 1. This ability cannot repair damage caused by silver weapons,
-good-aligned weapons, or spells or effects with the good descriptor. The target detects as evil for
-the duration of the spell and can sense the evil of the magic, though this has no long-term effect
-on the target's alignment.
-
 ### Greater Infernal Healing
 
 **Sources:** Hell's Vengeance Player's Guide pg 11
 
-As per infernal healing, except the target gains [fast healing](ref/umr/fast-healing) 4 and the
-target detects as an evil cleric.
+As per [infernal healing](ref/spell/infernal-healing), except the target gains
+[fast healing](ref/umr/fast-healing) 4 and the target detects as an evil cleric.

@@ -51,12 +51,3 @@ instead use this spell to assist your own or an ally's Bluff, Diplomacy, Intimid
 Sense Motive check, granting that check a +5 insight bonus against the target of your telempathic
 projection with no save. In this case, the spell's duration expires immediately when the skill check
 is complete.
-
-### Implanted Projection
-
-**Sources:** Occult Origins pg 13
-
-This spell functions as telempathic projection, except its mood-altering effects remain dormant in
-the target's mind. Upon casting this spell, the caster designates a command word or phrase, of which
-the target retains no memory. The next creature to speak the command word or phrase to the target
-triggers the implanted telempathic projection, treating the speaker as the original spellcaster.

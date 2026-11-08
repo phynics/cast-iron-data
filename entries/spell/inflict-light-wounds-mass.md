@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_light_wounds_mass", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/inflict-light-wounds" },
+]
 
 [fields]
 kind = "spell"
@@ -43,16 +46,6 @@ Duration: instantaneous
 Saving throw: Will half
 Spell resistance: yes
 :::
-
-## Inflict Light Wounds
-
-**Sources:** PRPG Core Rulebook pg 300
-
-When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +
-1 point per caster level (maximum +5).
-
-Since undead are powered by negative energy, this spell cures such a creature of a like amount of
-damage, rather than harming it.
 
 ### Mythic Inflict Light Wounds
 

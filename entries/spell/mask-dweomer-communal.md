@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_dweomer_communal", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mask-dweomer" },
+]
 
 [fields]
 kind = "spell"
@@ -43,20 +46,9 @@ Subschool: Glamer
 Descriptors: glamer
 :::
 
-## Mask Dweomer
-
-**Sources:** Advanced Player's Guide pg 232
-
-You mask and manipulate a spell's magic aura to make it harder to detect. Select one spell effect on
-the target creature or object. You must have either cast this spell yourself or have perceived it by
-means such as detect magic or arcane sight. Both the desired spell effect and mask dweomer are
-hidden from detect magic, although more powerful spells (such as arcane sight) pierce the deception
-if the caster succeeds on a Will save. Analyze dweomer automatically detects both mask dweomer and
-any masked spell effects.
-
 ### Communal Mask Dweomer
 
 **Sources:** Ultimate Combat pg 236
 
-This spell functions like mask dweomer, except you divide the duration in 1-day increments among the
-creatures or objects touched.
+This spell functions like [mask dweomer](ref/spell/mask-dweomer), except you divide the duration in
+1-day increments among the creatures or objects touched.

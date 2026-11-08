@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "controlled_fireball", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fireball" },
+]
 
 [fields]
 kind = "spell"
@@ -44,26 +47,6 @@ Area: 20-ft.-radius spread
 Descriptors: fire
 :::
 
-## Fireball
-
-**Sources:** PRPG Core Rulebook pg 283
-
-A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6
-points of fire damage per caster level (maximum 10d6) to every creature within the area. Unattended
-objects also take this damage. The explosion creates almost no pressure.
-
-You point your finger and determine the range (distance and height) at which the fireball is to
-burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a
-material body or solid barrier prior to attaining the prescribed range, blossoms into the fireball
-at that point. An early impact results in an early detonation. If you attempt to send the bead
-through a narrow passage, such as through an arrow slit, you must "hit" the opening with a ranged
-touch attack, or else the bead strikes the barrier and detonates prematurely.
-
-The fireball sets fire to combustibles and damages objects in the area. It can melt metals with low
-melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an
-interposing barrier shatters or breaks through it, the fireball may continue beyond the barrier if
-the area permits; otherwise it stops at the barrier just as any other spell effect does.
-
 ### Mythic Fireball
 
 **Sources:** Mythic Adventures pg 94
@@ -80,10 +63,11 @@ resistance and fire immunity.
 
 **Sources:** Ultimate Intrigue pg 208
 
-This spell functions as fireball except you can cause the bead of fire to originate from anywhere
-you can see within range. You can choose a number of squares within the area up to your Intelligence
-bonus (for magi, occultists, or wizards) or Charisma bonus (for bloodragers or sorcerers) to be
-struck by weaker flames; the controlled fireball deals minimum damage in those squares.
+This spell functions as [fireball](ref/spell/fireball) except you can cause the bead of fire to
+originate from anywhere you can see within range. You can choose a number of squares within the area
+up to your Intelligence bonus (for magi, occultists, or wizards) or Charisma bonus (for bloodragers
+or sorcerers) to be struck by weaker flames; the controlled fireball deals minimum damage in those
+squares.
 
 Attempts to identify controlled fireball with a skill check incorrectly identify it as fireball (see
 the [ruse](ref/spelldef/ruse) descriptor).

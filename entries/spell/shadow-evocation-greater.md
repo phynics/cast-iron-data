@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_evocation_greater", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shadow-evocation" },
+]
 
 [fields]
 kind = "spell"
@@ -43,29 +46,11 @@ Subschool: Shadow
 Descriptors: shadow
 :::
 
-## Shadow Evocation
-
-**Sources:** PRPG Core Rulebook pg 340
-
-You tap energy from the Plane of Shadow to cast a quasi-real, illusory version of a sorcerer or
-wizard evocation spell of 4th level or lower. Spells that deal damage have normal effects unless an
-affected creature succeeds on a Will save. Each disbelieving creature takes only one-fifth damage
-from the attack. If the disbelieved attack has a special effect other than damage, that effect is
-one-fifth as strong (if applicable) or only 20% likely to occur. If recognized as a shadow
-evocation, a damaging spell deals only one-fifth (20%) damage. Regardless of the result of the save
-to disbelieve, an affected creature is also allowed any save (or
-[spell resistance](ref/rule/spell-resistance)) that the spell being simulated allows, but the save
-DC is set according to shadow evocation's level (5th) rather than the spell's normal level.
-
-Non-damaging effects have normal effects except against those who disbelieve them. Against
-disbelievers, they have no effect.
-
-Objects automatically succeed on their Will saves against this spell.
-
 ### Greater Shadow Evocation
 
 **Sources:** PRPG Core Rulebook pg 340
 
-This spell functions like shadow evocation, except that it enables you to create partially real,
-illusory versions of sorcerer or wizard evocation spells of 7th level or lower. If recognized as a
-greater shadow evocation, a damaging spell deals only three-fifths (60%) damage.
+This spell functions like [shadow evocation](ref/spell/shadow-evocation), except that it enables you
+to create partially real, illusory versions of sorcerer or wizard evocation spells of 7th level or
+lower. If recognized as a greater shadow evocation, a damaging spell deals only three-fifths (60%)
+damage.

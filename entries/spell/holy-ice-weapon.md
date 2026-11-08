@@ -52,10 +52,3 @@ holy water. If the weapon leaves your hands for more than 1 round, it melts and 
 
 At caster level 6th, the weapon gains the returning weapon special ability when thrown, melting away
 after an attack and re-forming in your hand just before your next turn.
-
-### Unholy Ice Weapon
-
-**Sources:** Advanced Class Guide pg 198
-
-This spell functions as holy ice weapon, except the weapon is made of frozen unholy water, and
-instead deals additional damage to creatures that are susceptible to unholy water.

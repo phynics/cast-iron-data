@@ -51,12 +51,3 @@ creature's behavior every round at the beginning of its turn.) A creature that d
 nearest neighbor is free to act normally for that round. Creatures forced by a song of discord to
 attack their fellows employ all methods at their disposal, choosing their deadliest spells and most
 advantageous combat tactics. They do not, however, harm targets that have fallen unconscious.
-
-### Greater Song of Discord
-
-**Sources:** Chronicle of Legends pg 14
-
-This spell functions as song of discord except that affected creatures automatically attack the
-nearest target each round. In addition, all affected creatures gain a +4 morale bonus to Strength
-for the duration of the spell. A creature that succeeds at the Will save reduces the effect's
-duration to 1 round.

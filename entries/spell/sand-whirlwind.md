@@ -48,9 +48,3 @@ speak while affected by the spell, the target must make a [concentration](ref/ru
 check (DC equal to the DC of this spell). If the target tries to cast a spell, the Concentration DC
 increases by the level of the spell being cast. A successful Will save negates the blindness but not
 the speechhampering effect.
-
-### Greater Sand Whirlwind
-
-**Sources:** Taldor, Echoes of Glory pg 25
-
-This spell functions as sand whirlwind except as noted above.

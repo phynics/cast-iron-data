@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_lightning_storm", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/call-lightning" },
+]
 
 [fields]
 kind = "spell"
@@ -42,27 +45,6 @@ Effect: one or more 30-ft.-long vertical lines of lightning
 Descriptors: electricity
 :::
 
-## Call Lightning
-
-**Sources:** PRPG Core Rulebook pg 251
-
-Immediately upon completion of the spell, and once per round thereafter, you may call down a
-5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage.
-The bolt of lightning flashes down in a vertical stroke at whatever target point you choose within
-the spell's range (measured from your position at the time). Any creature in the target square or in
-the path of the bolt is affected.
-
-You need not call a bolt of lightning immediately; other actions, even spellcasting, can be
-performed first. Each round after the first you may use a standard action (concentrating on the
-spell) to call a bolt. You may call a total number of bolts equal to your caster level (maximum 10
-bolts).
-
-If you are outdoors and in a stormy area - a rain shower, clouds and wind, hot and cloudy
-conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at
-least Large size)-each bolt deals 3d10 points of electricity damage instead of 3d6.
-
-This spell functions indoors or underground but not underwater.
-
 ### Mythic Call Lightning
 
 **Sources:** Mythic Adventures pg 87
@@ -76,5 +58,6 @@ throws are dazzled and deafened for 1 minute.
 
 **Sources:** PRPG Core Rulebook pg 252
 
-This spell functions like call lightning, except that each bolt deals 5d6 points of electricity
-damage (or 5d10 if created outdoors in a stormy area), and you may call a maximum of 15 bolts.
+This spell functions like [call lightning](ref/spell/call-lightning), except that each bolt deals
+5d6 points of electricity damage (or 5d10 if created outdoors in a stormy area), and you may call a
+maximum of 15 bolts.

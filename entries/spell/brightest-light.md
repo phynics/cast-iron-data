@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "adventurers-guide", "inner-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brightest_light", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/daylight" },
+]
 
 [fields]
 kind = "spell"
@@ -54,26 +57,6 @@ Target: object touched
 Descriptors: light
 :::
 
-## Daylight
-
-**Sources:** PRPG Core Rulebook pg 264
-
-You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot
-radius. This illumination increases the light level for an additional 60 feet by one step (darkness
-becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures
-that take penalties in bright light take them while within the 60-foot radius of this magical light.
-Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that
-are damaged or destroyed by such light.
-
-If daylight is cast on a small object that is then placed inside or under a light-proof covering,
-the spell's effects are blocked until the covering is removed.
-
-Daylight brought into an area of magical darkness (or vice versa) is temporarily negated, so that
-the otherwise prevailing light conditions exist in the overlapping areas of effect.
-
-Daylight counters or dispels any darkness spell of equal or lower level, such as
-[darkness](ref/spell/darkness).
-
 ### Mythic Daylight
 
 **Sources:** Mythic Adventures pg 90
@@ -87,9 +70,10 @@ of bright light gain a +2 circumstance bonus on Perception checks and saves to r
 
 **Sources:** Adventurer's Guide pg 115, Inner Sea Intrigue pg 58
 
-This trademark spell of the [Lantern Bearers](ref/rule/aff-lights) functions as daylight, except it
-lasts longer. In addition, as a swift action once during the spell's duration, you can will the
-light to try to end a magical darkness effect located within 60 feet of the light this spell emits.
-Attempt a dispel check (1d20 + your caster level), with a DC equal to 11 + the caster level of the
-darkness effect. If you succeed, the darkness effect ends. Regardless of whether you are successful,
-the light from this spell dims to the brightness of a torch for the spell's remaining duration.
+This trademark spell of the [Lantern Bearers](ref/rule/aff-lights) functions as
+[daylight](ref/spell/daylight), except it lasts longer. In addition, as a swift action once during
+the spell's duration, you can will the light to try to end a magical darkness effect located within
+60 feet of the light this spell emits. Attempt a dispel check (1d20 + your caster level), with a DC
+equal to 11 + the caster level of the darkness effect. If you succeed, the darkness effect ends.
+Regardless of whether you are successful, the light from this spell dims to the brightness of a
+torch for the spell's remaining duration.

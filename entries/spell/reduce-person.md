@@ -86,9 +86,3 @@ size. A Medium or Small humanoid creature whose size decreases to Tiny has a spa
 a natural reach of 0 feet.
 
 Mythic reduce person counters and dispels mythic [enlarge person](ref/spell/enlarge-person).
-
-### Mass Reduce Person
-
-**Sources:** PRPG Core Rulebook pg 331
-
-This spell functions like reduce person, except that it affects multiple creatures.

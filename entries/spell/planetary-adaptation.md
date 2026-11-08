@@ -52,9 +52,3 @@ Target: you
 This spell functions as planar adaptation, except that it works only on worlds of the Material
 Plane. The cold void of space is considered a single world for the purpose of this spell, allowing
 you to survive in vacuum.
-
-### Mass Planetary Adaptation
-
-**Sources:** People of the Stars pg 29
-
-This spell functions as planetary adaptation, except as noted above.

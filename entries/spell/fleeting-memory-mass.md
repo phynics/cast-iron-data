@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleeting_memory_mass", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fleeting-memory" },
+]
 
 [fields]
 kind = "spell"
@@ -46,21 +49,9 @@ Subschool: Compulsion
 Descriptors: mind-affecting
 :::
 
-## Fleeting Memory
-
-**Sources:** Black Markets pg 24
-
-You create a gap in the target's memory, preventing the target from remembering anything that
-happens from the moment you cast this spell until the moment its complete duration ends. Fleeting
-memory doesn't wipe out its target's memories until the end of its duration, so the target can
-remember the preceding rounds until the spell's duration ends. If the spell ends prematurely, either
-because you dismiss it or because it is dispelled, it disperses without affecting its target's
-memory.
-
-Whether or not the target's save is successful, the target forgets that you cast a spell.
-
 ### Mass Fleeting Memory
 
 **Sources:** Black Markets pg 25
 
-This spell functions as fleeting memory, except that it affects multiple creatures.
+This spell functions as [fleeting memory](ref/spell/fleeting-memory), except that it affects
+multiple creatures.

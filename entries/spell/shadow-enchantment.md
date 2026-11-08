@@ -60,11 +60,3 @@ affected creature is also allowed any save (or [spell resistance](ref/rule/spell
 the spell being simulated allows, but the save DC is set according to shadow enchantment's level
 (3rd) rather than the spell's normal level. Objects, mindless creatures, and creatures immune to
 mind-affecting effects automatically succeed at their Will saves against this spell.
-
-### Greater Shadow Enchantment
-
-**Sources:** Occult Realms pg 17
-
-This spell functions like shadow enchantment, except that it enables you to create partially real,
-illusory versions of psychic, sorcerer, or wizard enchantment spells of 5th level or lower. If the
-spell is recognized as a greater shadow enchantment, it's only three-fifths (60%) as effective.

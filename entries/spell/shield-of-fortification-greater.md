@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_fortification_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shield-of-fortification" },
+]
 
 [fields]
 kind = "spell"
@@ -43,19 +46,10 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 :::
 
-## Shield of Fortification
-
-**Sources:** Advanced Class Guide pg 192
-
-You create a magical barrier that protects a target's vital areas. When the target is struck by a
-critical hit or a sneak attack, there is a 25% chance that the critical hit or sneak attack is
-negated and damage is instead rolled normally. This benefit does not stack with other effects that
-can turn critical hits or sneak attacks into normal attacks, such as the fortification armor special
-ability.
-
 ### Greater Shield of Fortification
 
 **Sources:** Advanced Class Guide pg 192
 
-This spell functions as shield of fortification, except there is a 50% chance that the critical hit
-or sneak attack is negated and damage is instead be rolled normally, rather than 25%.
+This spell functions as [shield of fortification](ref/spell/shield-of-fortification), except there
+is a 50% chance that the critical hit or sneak attack is negated and damage is instead be rolled
+normally, rather than 25%.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_greater_demon", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-monster" },
+]
 
 [fields]
 kind = "spell"
@@ -48,5 +51,5 @@ Descriptors: chaotic, evil
 
 **Sources:** Pathfinder \#74: Sword of Valor pg 75
 
-This spell functions like summon monster, except it allows you to summon a single coloxus, an omox
-demon, or 1d3 kalavakus demons.
+This spell functions like [summon monster](ref/spell/summon-monster), except it allows you to summon
+a single coloxus, an omox demon, or 1d3 kalavakus demons.

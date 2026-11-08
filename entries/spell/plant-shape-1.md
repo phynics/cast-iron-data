@@ -57,27 +57,3 @@ Constitution and a +2 natural armor bonus.
 
 _Medium plant:_ If the form you take is that of a Medium plant, you gain a +2 size bonus to your
 Strength, a +2 enhancement bonus to your Constitution, and a +2 natural armor bonus.
-
-### Plant Shape II
-
-**Sources:** PRPG Core Rulebook pg 323
-
-This spell functions as plant shape I except that it also allows you to assume the form of a Large
-creature of the plant type. If the creature has immunity or resistance to any elements, you gain
-resistance 20 to those elements. If the creature has vulnerability to an element, you gain that
-vulnerability.
-
-_Large plant:_ If the form you take is that of a Large plant, you gain a +4 size bonus to your
-Strength, a +2 size bonus to your Constitution, and a +4 natural armor bonus.
-
-### Plant Shape III
-
-**Sources:** PRPG Core Rulebook pg 323
-
-This spell functions as plant shape II except that it also allows you to assume the form of a Huge
-creature of the plant type. If the form you assume has any of the following abilities, you gain the
-listed ability: DR, regeneration 5, and trample.
-
-_Huge plant:_ If the form you take is that of a Huge plant, you gain a +8 size bonus to your
-Strength, a -2 penalty to your Dexterity, a +4 size bonus to your Constitution, and a +6 natural
-armor bonus.

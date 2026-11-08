@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_tentacles", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/black-tentacles" },
+]
 
 [fields]
 kind = "spell"
@@ -49,32 +52,6 @@ Area: 20-ft.-radius spread
 Subschool: Creation
 :::
 
-## Black Tentacles
-
-**Sources:** PRPG Core Rulebook pg 248
-
-This spell causes a field of rubbery black tentacles to appear, burrowing up from the floor and
-reaching for any creature in the area.
-
-Every creature within the area of the spell is the target of a combat maneuver check made to grapple
-each round at the beginning of your turn, including the round that black tentacles is cast.
-Creatures that enter the area of effect are also automatically attacked. The tentacles do not
-provoke attacks of opportunity. When determining the tentacles' CMB, the tentacles use your caster
-level as their base attack bonus and receive a +4 bonus due to their Strength and a +1 size bonus.
-Roll only once for the entire spell effect each round and apply the result to all creatures in the
-area of effect.
-
-If the tentacles succeed in grappling a foe, that foe takes 1d6+4 points of damage and gains the
-grappled condition. Grappled opponents cannot move without first breaking the grapple. All other
-movement is prohibited unless the creature breaks the grapple first. The black tentacles spell
-receives a +5 bonus on grapple checks made against opponents it is already grappling, but cannot
-move foes or pin foes. Each round that black tentacles succeeds on a grapple check, it deals an
-additional 1d6+4 points of damage. The CMD of black tentacles, for the purposes of escaping the
-grapple, is equal to 10 + its CMB.
-
-The tentacles created by this spell cannot be damaged, but they can be dispelled as normal. The
-entire area of effect is considered difficult terrain while the tentacles last.
-
 ### Mythic Black Tentacles
 
 **Sources:** Mythic Adventures pg 85
@@ -91,11 +68,11 @@ combat maneuver checks to grapple such creatures take a -5 penalty.
 
 **Sources:** Dirty Tactics Toolbox pg 30
 
-This spell functions as black tentacles, except the tentacles blindly grasp at the targets' eyes and
-ears, and tug at their hair, clothes, and equipment. Instead of grapple attempts, the tentacles
-attempt dirty trick combat maneuver checks (CMB = your caster level + 4 \[the tentacles' Strength
-bonus\] + 1 \[the tentacles' size bonus\]). Roll on the following table to determine the effect of a
-successful dirty trick combat maneuver check.
+This spell functions as [black tentacles](ref/spell/black-tentacles), except the tentacles blindly
+grasp at the targets' eyes and ears, and tug at their hair, clothes, and equipment. Instead of
+grapple attempts, the tentacles attempt dirty trick combat maneuver checks (CMB = your caster
+level + 4 \[the tentacles' Strength bonus\] + 1 \[the tentacles' size bonus\]). Roll on the
+following table to determine the effect of a successful dirty trick combat maneuver check.
 
 |d%|Effect|
 | --- | --- |

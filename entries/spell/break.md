@@ -58,12 +58,3 @@ You can target up to 1 Medium or smaller object per caster level.
 _Augmented (3rd):_ If you expend two uses of mythic power, target objects gain the broken condition
 on a successful save and are destroyed on a failed save. This doesn't affect mythic objects or
 objects held or carried by mythic creatures.
-
-### Greater Break
-
-**Sources:** Ultimate Intrigue pg 205
-
-You release a burst of destructive energy. Each Medium or smaller object in the area gains the
-broken condition unless it succeeds at a Fortitude saving throw. If a broken object fails this save,
-it is instead destroyed. Magic items can be broken by this spell, but not destroyed. Objects in your
-possession are not immune.

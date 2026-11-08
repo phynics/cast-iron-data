@@ -60,9 +60,3 @@ Target: creature touched
 The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4
 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the
 Dexterity modifier.
-
-### Mass Cat's Grace
-
-**Sources:** PRPG Core Rulebook pg 252
-
-This spell functions like cat's grace, except it affects multiple creatures.

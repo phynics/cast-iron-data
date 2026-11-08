@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human_potential_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/human-potential" },
+]
 
 [fields]
 kind = "spell"
@@ -43,18 +46,9 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 :::
 
-## Human Potential
-
-**Sources:** Arcane Anthology pg 9
-
-The target shares in humanity's great potential as encouraged by Aroden. The target chooses one
-ability score and gains a +2 enhancement bonus to that ability score. The bonus confers the usual
-benefit to skills and abilities based on the ability enhanced, but does not affect bonus spells or
-skill ranks.
-
 ### Mass Human Potential
 
 **Sources:** Arcane Anthology pg 9
 
-This spell functions like human potential, except it affects multiple creatures. Each target can
-choose a different ability score to be enhanced by this spell.
+This spell functions like [human potential](ref/spell/human-potential), except it affects multiple
+creatures. Each target can choose a different ability score to be enhanced by this spell.

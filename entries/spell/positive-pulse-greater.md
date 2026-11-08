@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_pulse_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/positive-pulse" },
+]
 
 [fields]
 kind = "spell"
@@ -49,23 +52,9 @@ Saving throw: Will negates or Will negates (harmless); see text
 Spell resistance: yes
 :::
 
-## Positive Pulse
-
-**Sources:** Planar Adventures pg 43
-
-This spell causes a wave of positive energy to spread from a point you designate, damaging foes
-vulnerable to positive energy and bolstering living creatures. Each creature damaged by positive
-energy in the area (such as undead) must succeed at a Will save or take 1d6 points of damage, plus 1
-point for every 2 caster levels (maximum +5). Haunts manifesting in the spell's area also take this
-damage.
-
-This spell does not heal creatures healed by positive energy; such creatures instead gain a +2 bonus
-on saving throws against death effects, energy drain, negative energy, and effects directly caused
-by haunts. This bonus lasts for 1 round.
-
 ### Greater Positive Pulse
 
 **Sources:** Planar Adventures pg 43
 
-This spell functions like positive pulse, except that the damage dealt increases to 3d6 plus your
-caster level, and the bonus on saving throws increases to +8.
+This spell functions like [positive pulse](ref/spell/positive-pulse), except that the damage dealt
+increases to 3d6 plus your caster level, and the bonus on saving throws increases to +8.

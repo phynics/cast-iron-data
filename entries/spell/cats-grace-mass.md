@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cats_grace_mass", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/cats-grace" },
+]
 
 [fields]
 kind = "spell"
@@ -48,16 +51,8 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 :::
 
-## Cat's Grace
-
-**Sources:** PRPG Core Rulebook pg 252
-
-The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4
-enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the
-Dexterity modifier.
-
 ### Mass Cat's Grace
 
 **Sources:** PRPG Core Rulebook pg 252
 
-This spell functions like cat's grace, except it affects multiple creatures.
+This spell functions like [cat's grace](ref/spell/cats-grace), except it affects multiple creatures.

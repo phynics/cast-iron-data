@@ -54,10 +54,3 @@ is not considered to have the fragile quality for the spell's duration. Normal a
 weapons subjected to this spell instead gain the masterwork quality for the spell's duration and
 their [hardness](ref/umr/hardness) is doubled. If this spell is cast on masterwork or magical armor
 or weapons, their hardness is doubled for the duration of the spell.
-
-### Communal Reinforce Armaments
-
-**Sources:** Ultimate Combat pg 241
-
-This spell functions like reinforce armaments, except you divide the duration in 10-minute intervals
-among the objects touched.

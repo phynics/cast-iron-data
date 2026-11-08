@@ -47,9 +47,3 @@ restore hit points or grant temporary hit points. In addition, any healing provi
 ignore spell resistance (such as [fast healing](ref/umr/fast-healing), regeneration, and some
 spells) are halved. If the target succeeds on a Fortitude saving throw, fester lasts only a single
 round.
-
-### Mass Fester
-
-**Sources:** Advanced Player's Guide pg 221
-
-This spell functions as fester, except that it affects multiple foes.

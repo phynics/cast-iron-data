@@ -58,12 +58,3 @@ Descriptors: mind-affecting
 This spell is similar to [possession](ref/spell/possession), except you switch minds with the
 target, so instead of the target's soul sharing its body with yours and being unable to act, the
 target's mind moves to your body and can control it as if you each had cast possession on the other.
-
-### Major Mind Swap
-
-**Sources:** Occult Adventures pg 176
-
-The spell functions as mind swap, except as noted above. In addition, after 24 hours, instead of
-using each other's hit points, you each revert to your original hit points, modified by your new
-Constitution modifiers. This spell can be reversed only with miracle, wish, or another major mind
-swap.

@@ -46,9 +46,3 @@ on all rolls, including damage rolls and special ability DCs, a +4 bonus to AC a
 points per HD. The animal's primal instincts take hold for the duration of this spell - if the
 animal knows tricks granted by the Handle Animal skill, it loses access to all of those tricks save
 for "attack." This spell has no effect on animals that already have the advanced creature template.
-
-### Mass Atavism
-
-**Sources:** Ultimate Magic pg 207
-
-This spell functions as atavism, except that it affects multiple creatures.

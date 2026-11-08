@@ -68,10 +68,3 @@ maintain line of effect to the projected image at all times. If your line of eff
 the spell ends. If you use [dimension door](ref/spell/dimension-door),
 [teleport](ref/spell/teleport), [plane shift](ref/spell/plane-shift), or a similar spell that breaks
 your line of effect, even momentarily, the spell ends.
-
-### Familiar Double
-
-**Sources:** Advanced Class Guide pg 181
-
-This spell functions as project image, except the image appears in your familiar's square and moves
-when your familiar moves.

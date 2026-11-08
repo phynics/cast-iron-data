@@ -67,13 +67,3 @@ damage). When you use your surge ability to modify a saving throw against an eff
 affects your linked ally, the ally also applies your surge bonus die result to the ally's saving
 throw. If the ally also uses its own surge ability, it takes either your result or its result,
 whichever is higher.
-
-### Shield Companion (AA)
-
-**Sources:** Animal Archive pg 25
-
-This spell functions as [shield other](ref/spell/shield-other) but affects only the caster's animal
-companion or familiar. Spellcasters from classes that do not normally gain an animal companion,
-familiar, or fiendish servant but who gain one through an alternate class feature, archetype, or
-prestige class can prepare and cast this spell as a 1st-level spell if they are capable of casting
-spells.

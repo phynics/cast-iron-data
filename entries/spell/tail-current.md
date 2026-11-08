@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_current", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/tailwind" },
+]
 
 [fields]
 kind = "spell"
@@ -53,20 +56,10 @@ Targets: one or more creatures, no two of which can be more than 120 feet apart
 Descriptors: air
 :::
 
-## Tailwind
-
-**Sources:** Ultimate Wilderness pg 236
-
-You compel the wind to push the targets in a direction of your choice. The subjects can hustle
-during local and overland movement without risk of fatigue. If the subjects are flying, the first 20
-feet of movement each round in the chosen direction does not count against their movement for the
-round. Each creature remains affected only while within 120 feet of every other subject. You can
-change the tailwind's direction once per hour by concentrating as a standard action. This spell has
-no effect underwater.
-
 ### Tail Current
 
 **Sources:** Ultimate Wilderness pg 236
 
-This spell functions as tailwind except it creates a helpful current in water instead of in the air.
-It grants free movement while swimming rather than while flying and functions only underwater.
+This spell functions as [tailwind](ref/spell/tailwind) except it creates a helpful current in water
+instead of in the air. It grants free movement while swimming rather than while flying and functions
+only underwater.

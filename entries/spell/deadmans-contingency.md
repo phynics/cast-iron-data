@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadmans_contingency", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/contingency" },
+]
 
 [fields]
 kind = "spell"
@@ -41,29 +44,6 @@ Spell resistance: no
 Target: you
 :::
 
-## Contingency
-
-**Sources:** PRPG Core Rulebook pg 259
-
-You can place another spell upon your person so that it comes into effect under some condition you
-dictate when casting contingency. The contingency spell and the companion spell are cast at the same
-time. The 10-minute casting time is the minimum total for both castings; if the companion spell has
-a casting time longer than 10 minutes, use that instead. You must pay any costs associated with the
-companion spell when you cast contingency.
-
-The spell to be brought into effect by the contingency must be one that affects your person and be
-of a spell level no higher than one-third your caster level (rounded down, maximum 6th level).
-
-The conditions needed to bring the spell into effect must be clear, although they can be general. In
-all cases, the contingency immediately brings into effect the companion spell, the latter being
-"cast" instantaneously when the prescribed circumstances occur. If complicated or convoluted
-conditions are prescribed, the whole spell combination (contingency and the companion magic) may
-fail when triggered. The companion spell occurs based solely on the stated conditions, regardless of
-whether you want it to.
-
-You can use only one contingency spell at a time; if a second is cast, the first one (if still
-active) is dispelled.
-
 ### Mythic Contingency
 
 **Sources:** Mythic Adventures pg 89
@@ -82,11 +62,12 @@ hour per level or until discharged.
 
 **Sources:** Ultimate Intrigue pg 210
 
-This spell functions as contingency, except as noted above. This spell also only comes into effect
-after your death and works only with certain spells. The companion spell triggers 1d6 rounds after
-your death. All decisions made involving the companion spell must be made when deadman's contingency
-is cast (including messages and recipients for spells like magic mouth or sending). If the spell
-targets an object or appears in a certain location, it must target or be centered on your corpse.
+This spell functions as [contingency](ref/spell/contingency), except as noted above. This spell also
+only comes into effect after your death and works only with certain spells. The companion spell
+triggers 1d6 rounds after your death. All decisions made involving the companion spell must be made
+when deadman's contingency is cast (including messages and recipients for spells like magic mouth or
+sending). If the spell targets an object or appears in a certain location, it must target or be
+centered on your corpse.
 
 The following spells can be companion spells for deadman's contingency:
 [animate dead](ref/spell/animate-dead) (animating your corpse as an uncontrolled skeleton or

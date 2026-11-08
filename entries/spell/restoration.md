@@ -59,22 +59,3 @@ one permanent negative level possessed by a target in a 1-week period.
 Restoration cures all temporary ability damage, and it restores all points permanently drained from
 a single ability score (your choice if more than one is drained). It also eliminates any fatigue or
 exhaustion suffered by the target.
-
-### Greater Restoration
-
-**Sources:** PRPG Core Rulebook pg 334
-
-This spell functions like lesser restoration, except that it dispels all permanent and temporary
-negative levels afflicting the healed creature. Greater restoration also dispels all magical effects
-penalizing the creature's abilities, cures all temporary ability damage, and restores all points
-permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes
-all forms of insanity, confusion, and similar mental effects.
-
-### Lesser Restoration
-
-**Sources:** PRPG Core Rulebook pg 334
-
-Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures
-1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates
-any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not
-restore permanent ability drain.

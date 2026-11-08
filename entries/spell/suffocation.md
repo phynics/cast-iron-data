@@ -55,11 +55,3 @@ save, but the spell effect continues for 3 rounds, and each time a target fails 
 he moves one step further along the track to suffocation. This spell only affects living creatures
 that must breathe. It is impossible to defeat the effects of this spell by simply holding one's
 breath - if the victim fails the initial saving throw, the air in his lungs is extracted.
-
-### Mass Suffocation
-
-**Sources:** Advanced Player's Guide pg 248
-
-This spell functions as suffocation except as noted above. Note that the duration of this spell is
-much longer, forcing those suffering from the effect to make far more Fortitude saves to stave off
-eventual suffocation.

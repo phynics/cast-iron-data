@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_absorption_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spell-absorption" },
+]
 
 [fields]
 kind = "spell"
@@ -39,20 +42,9 @@ Saving throw: none
 Spell resistance: no
 :::
 
-## Spell Absorption
-
-**Sources:** Inner Sea Magic pg 61
-
-If you successfully counterspell a 3rd-level or lower level spell (through either
-[dispel magic](ref/spell/dispel-magic) or normal means) while spell absorption is in effect, you
-absorb the countered spell and use it to regain spells you have already cast. If you're a wizard,
-you regain the use of any single spell that you have cast since the last time you prepared spells.
-If you're a sorcerer, you regain a single spell slot. The spell recovered or spell slot regained
-must be of an equal level or lower than the spell you counterspelled.
-
 ### Greater Spell Absorption
 
 **Sources:** Inner Sea Magic pg 61
 
-This spell functions as spell absorption, save that you can absorb countered spells of 6th level or
-lower.
+This spell functions as [spell absorption](ref/spell/spell-absorption), save that you can absorb
+countered spells of 6th level or lower.

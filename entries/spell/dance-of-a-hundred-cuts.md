@@ -46,9 +46,3 @@ bonus is equal to +1 per 3 caster levels (maximum +5 at 15th level). The bonus t
 any circumstances that would cause you to lose your Dexterity bonus to AC. You must remain moving
 for the spell to stay in effect. If in any round you do not either move at least 10 feet or make a
 melee attack, the spell's duration ends.
-
-### Dance of a Thousand Cuts
-
-**Sources:** Ultimate Magic pg 216
-
-This spell functions as dance of a hundred cuts, except you also gain the benefits of haste.

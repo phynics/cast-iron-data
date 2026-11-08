@@ -46,9 +46,3 @@ Target: one creature
 
 For the duration of this spell, the subject ignores the adverse movement effects of difficult
 terrain, and can even take 5-foot steps in difficult terrain.
-
-### Mass Feather Step
-
-**Sources:** Advanced Player's Guide pg 221
-
-As feather step, except this spell affects multiple creatures.

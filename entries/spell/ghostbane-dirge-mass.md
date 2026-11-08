@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghostbane_dirge_mass", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ghostbane-dirge" },
+]
 
 [fields]
 kind = "spell"
@@ -47,16 +50,9 @@ Saving throw: Will negates
 Spell resistance: yes
 :::
 
-## Ghostbane Dirge
-
-**Sources:** Advanced Player's Guide pg 225
-
-The target coalesces into a semi-physical form for a short period of time. While subject to the
-spell, the incorporeal creature takes half damage (50%) from nonmagical attack forms, and full
-damage from magic weapons, spells, spell-like effects, and supernatural effects.
-
 ### Mass Ghostbane Dirge
 
 **Sources:** Advanced Player's Guide pg 225
 
-This spell functions as ghostbane dirge, except that it affects multiple targets.
+This spell functions as [ghostbane dirge](ref/spell/ghostbane-dirge), except that it affects
+multiple targets.

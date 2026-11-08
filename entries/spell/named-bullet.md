@@ -70,10 +70,3 @@ _Augmented (2nd):_ If you expend two uses of mythic power, the target ammunition
 to the creature that shot or threw it just before that creature's next turn (similar to a returning
 weapon). The spell isn't discharged until the target is used to attempt a second attack against the
 named creature. Ammunition that hits is destroyed and doesn't return.
-
-### Greater Named Bullet
-
-**Sources:** Ultimate Combat pg 238
-
-This spell functions like named bullet, except it deals 2 extra points of damage per caster level
-(maximum 40).

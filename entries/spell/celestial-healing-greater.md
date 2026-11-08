@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_healing_greater", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/celestial-healing" },
+]
 
 [fields]
 kind = "spell"
@@ -52,5 +55,5 @@ Descriptors: good
 
 **Sources:** Arcane Anthology pg 13
 
-As per celestial healing, except the target gains [fast healing](ref/umr/fast-healing) 4 and the
-target radiates the aura of a good cleric.
+As per [celestial healing](ref/spell/celestial-healing), except the target gains
+[fast healing](ref/umr/fast-healing) 4 and the target radiates the aura of a good cleric.

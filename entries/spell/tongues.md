@@ -68,10 +68,3 @@ understood as far as its voice carries. This spell does not predispose any creat
 the subject in any way.
 
 Tongues can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Communal Tongues
-
-**Sources:** Ultimate Combat pg 248
-
-This spell functions like tongues, except you divide the duration in 10-minute intervals among the
-creatures touched.

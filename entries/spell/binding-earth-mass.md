@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding_earth_mass", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/binding-earth" },
+]
 
 [fields]
 kind = "spell"
@@ -41,28 +44,10 @@ Spell resistance: yes
 Descriptors: earth
 :::
 
-## Binding Earth
-
-**Sources:** Advanced Race Guide pg 149
-
-> _[Oreads](ref/race/oread) have access to the following spell._
-
-If the target of this spell fails its Fortitude save, areas of earth and stone floor act as a
-snapping quagmire that pulls the target down and damages it if it attempts to move through such
-terrain.
-
-If the target is a creature, it treats all areas of earth and stone it moves through as difficult
-terrain. Furthermore, for each 5 feet a creature moves through such areas, it takes 1d6 points of
-damage. Creatures with a burrow speed or the earth glide ability are unaffected by binding earth.
-
-If cast on an unattended object resting on an area of stone or earth, the stone or earth warps and
-wraps around it, pulling it firmly to the ground. A DC 15 Strength check is required to pull the
-object free from snapping earth or stone.
-
 ### Mass Binding Earth
 
 **Sources:** Advanced Race Guide pg 149
 
 > _[Oreads](ref/race/oread) have access to the following spell._
 
-This spell functions as binding earth, except as noted above.
+This spell functions as [binding earth](ref/spell/binding-earth), except as noted above.

@@ -59,9 +59,3 @@ creatures. Passing fancy has no effect on a creature with an Intelligence of 2 o
 
 Because the target talks and interacts with its usual cadence, onlookers take a -10 penalty on Sense
 Motive checks to notice that anything is amiss with the target's behavior.
-
-### Mass Passing Fancy
-
-**Sources:** Spymaster's Handbook pg 29
-
-This spell functions as per passing fancy except as noted above.

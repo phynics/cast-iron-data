@@ -66,11 +66,3 @@ benefit from improved evasion and similar mitigating effects.
 
 After taking damage, the target is shaken for 1 minute. If the target was already shaken, it becomes
 frightened instead.
-
-### Die for Your Master
-
-This spell functions as Bleed for Your Master, but it allows your companion or familiar to intercept
-any attack that targets you, including those that do not require attack rolls (e.g.
-[chain lightning](ref/spell/chain-lightning), [hold monster](ref/spell/hold-monster), and
-[magic missile](ref/spell/magic-missile)). Your companion or familiar cannot intercept effects that
-do not affect creatures of its type (e.g. [dominate person](ref/spell/dominate-person)).

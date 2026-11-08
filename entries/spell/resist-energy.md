@@ -82,10 +82,3 @@ The target gains a +4 bonus on saves against effects that deal damage of the sel
 Once each round as a free action, the target can choose one adjacent ally to gain energy resistance
 5 against the chosen energy type for 1 round. This increases to energy resistance 10 at caster level
 7 and energy resistance 15 at caster level 11.
-
-### Communal Resist Energy
-
-**Sources:** Ultimate Combat pg 242
-
-This spell functions like resist energy, except you divide the duration in 10-minute intervals among
-the creatures touched.

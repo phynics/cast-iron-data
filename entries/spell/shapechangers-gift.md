@@ -51,12 +51,3 @@ monstrous humanoid (as per monstrous physique I). The chosen form can't have a f
 subject's statistics change as per the appropriate spell except the creature's ability scores and
 natural armor do not change. The creature can change between its natural form and the chosen form at
 will as a standard action.
-
-### Greater Shapechanger's Gift
-
-**Sources:** Ultimate Wilderness pg 235
-
-This spell functions as shapechanger's gift except the chosen form can be an animal (as per beast
-shape I), elemental (as per elemental body I), fey (as per fey form I), humanoid (as per alter
-self), monstrous humanoid (as per monstrous physique I), or vermin (as per vermin shape I) and the
-chosen form can have a fly speed.

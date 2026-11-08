@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_blank_communal", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mind-blank" },
+]
 
 [fields]
 kind = "spell"
@@ -42,24 +45,9 @@ Spell resistance: yes (harmless)
 Target: one creature
 :::
 
-## Mind Blank
-
-**Sources:** PRPG Core Rulebook pg 313
-
-The subject is protected from all devices and spells that gather information about the target
-through divination magic (such as [detect evil](ref/spell/detect-evil),
-[locate creature](ref/spell/locate-creature), [scrying](ref/spell/scrying), and
-[see invisibility](ref/spell/see-invisibility)). This spell also grants a +8 resistance bonus on
-saving throws against all mind-affecting spells and effects. Mind blank even foils
-[limited wish](ref/spell/limited-wish), [miracle](ref/spell/miracle), and [wish](ref/spell/wish)
-spells when they are used in such a way as to gain information about the target. In the case of
-scrying that scans an area the creature is in, such as [arcane eye](ref/spell/arcane-eye), the spell
-works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the
-subject do not work at all.
-
 ### Communal Mind Blank
 
 **Sources:** Ultimate Combat pg 236
 
-This spell functions like mind blank, except you divide the duration in 1-hour increments among the
-creatures touched.
+This spell functions like [mind blank](ref/spell/mind-blank), except you divide the duration in
+1-hour increments among the creatures touched.

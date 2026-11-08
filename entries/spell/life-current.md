@@ -53,10 +53,3 @@ Descriptors: water
 You infuse the current with positive energy. At the start of their turn when the current moves them,
 living creatures in the current's area heal 1d6 hit points per 10 feet of the current's speed
 (maximum 6d6). Undead creatures in the current instead take an equal amount of damage.
-
-### Unlife Current
-
-**Sources:** Aquatic Adventures pg 61
-
-This functions as life current except you infuse the current with negative energy, so it heals
-undead and harms living creatures.

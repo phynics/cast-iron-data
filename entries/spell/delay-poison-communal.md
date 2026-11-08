@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_poison_communal", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/delay-poison" },
+]
 
 [fields]
 kind = "spell"
@@ -56,17 +59,9 @@ Target: creature touched
 Subschool: Healing
 :::
 
-## Delay Poison
-
-**Sources:** PRPG Core Rulebook pg 265
-
-The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it
-is exposed during the spell's duration does not affect the subject until the spell's duration has
-expired. Delay poison does not cure any damage that poison may have already done.
-
 ### Communal Delay Poison
 
 **Sources:** Ultimate Combat pg 227
 
-This spell functions like delay poison, except you divide the duration in 1-hour intervals among the
-creatures touched.
+This spell functions like [delay poison](ref/spell/delay-poison), except you divide the duration in
+1-hour intervals among the creatures touched.

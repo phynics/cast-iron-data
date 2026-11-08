@@ -65,11 +65,3 @@ energy damage (to a maximum of 120 points at 10th level), it is discharged.
 Protection from energy overlaps (and does not stack with) [resist energy](ref/spell/resist-energy).
 If a character is warded by protection from energy and resist energy, the protection spell absorbs
 damage until its power is exhausted.
-
-### Communal Protection from Energy
-
-**Sources:** Ultimate Combat pg 240
-
-This spell functions like protection from energy, except you divide the duration in 10-minute
-intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster
-level (maximum 120 points) for a subject, the spell's effects end for that subject.

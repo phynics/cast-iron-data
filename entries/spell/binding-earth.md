@@ -56,11 +56,3 @@ damage. Creatures with a burrow speed or the earth glide ability are unaffected 
 If cast on an unattended object resting on an area of stone or earth, the stone or earth warps and
 wraps around it, pulling it firmly to the ground. A DC 15 Strength check is required to pull the
 object free from snapping earth or stone.
-
-### Mass Binding Earth
-
-**Sources:** Advanced Race Guide pg 149
-
-> _[Oreads](ref/race/oread) have access to the following spell._
-
-This spell functions as binding earth, except as noted above.

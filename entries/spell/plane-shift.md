@@ -73,11 +73,3 @@ location and arrive on target at that location with anyone else you transport wi
 
 _Augmented:_ If you expend two uses of mythic power, you grant transported creatures the effects of
 a planar adaptation spell upon arrival, lasting for 1 hour.
-
-### Janni's Jaunt
-
-**Sources:** Planes of Power pg 9
-
-This spell functions as per plane shift, but with the following exceptions. First, you are able to
-transport only willing creatures. Second, the spell can transport you and any other willing targets
-only to an Elemental Plane, the Astral Plane, or the Material Plane.
