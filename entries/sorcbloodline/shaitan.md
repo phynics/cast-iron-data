@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/shaitan"
 kind = "class_option"
 title = "Shaitan"
-source_ids = ["ultimate-magic", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -45,10 +45,6 @@ You were born with the power of earth genies, and the magic of the
 (Knowledge \[planes\])\~[Weapon Finesse](ref/feat/weapon-finesse))
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Power Attack and Weapon Finesse with [Agile Combatant](ref/feat/agile-maneuvers) and
-[Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

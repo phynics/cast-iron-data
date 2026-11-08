@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/astral"
 kind = "class_option"
 title = "Astral"
-source_ids = ["distant-realms", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -50,9 +50,6 @@ day.
 (Knowledge \[planes\])\~[Weapon Finesse](ref/feat/weapon-finesse)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Weapon Finesse with [Agile Combatant](ref/feat/agile-maneuvers).
 
 **Bloodline Arcana**
 

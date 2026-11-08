@@ -2,7 +2,7 @@
 id = "ref/sidekick/animal-companion"
 kind = "rule"
 title = "Animal Companion"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "advanced-players-guide"]
+source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_companion", path = "json/sidekicks.json" },
 ]
@@ -168,15 +168,6 @@ Animal companions can select from the following feats.
 
 Animal companions with an Intelligence of 3 or higher can select any feat they are physically
 capable of using. GMs might expand this list to include feats from other sources.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Animal companions can select from the following feats: Acrobatic, Armor Proficiency (light, medium,
-and heavy), Athletic, Blind-Fight, Combat Reflexes, Diehard, Dodge, Endurance, Great Fortitude,
-Improved Initiative, Improved Natural Attack, Intimidating Prowess, Iron Will, Lightning Reflexes,
-[Powerful Maneuvers](ref/rule/powerful-maneuvers), Run, Skill Focus, Spring Attack, Stealthy,
-Toughness, and Weapon Focus. Animal companions with an Intelligence of 3 or higher can select any
-feat they are physically capable of using. GMs may expand this list to include feats from other
-sources.
 
 ### Archetypes
 

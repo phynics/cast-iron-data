@@ -2,7 +2,7 @@
 id = "ref/magic-enh/agile"
 kind = "item"
 title = "Agile"
-source_ids = ["pathfinder-100-a-song-of-silver", "pathfinder-society-field-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["pathfinder-100-a-song-of-silver", "pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agile", path = "json/magic_enhancements.json" },
 ]
@@ -30,10 +30,3 @@ ability can be placed only on melee weapons usable with Weapon Finesse.
 
 **Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
 [cat's grace](ref/spell/cats-grace); **Price** -
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when
-wielding an agile weapon sized for you, even though it isn't a [finesse](ref/rule/equipment-errata)
-weapon.
-
-This is a weapon quality, rather than a magical enhancement.

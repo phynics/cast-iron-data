@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/elemental"
 kind = "class_option"
 title = "Elemental"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "ultimate-magic", "blood-of-the-elements"]
+source_ids = ["core-rulebook", "ultimate-magic", "blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -49,10 +49,6 @@ these spells changes to match the energy type of your element.
 (Knowledge \[planes\])\~[Weapon Finesse](ref/feat/weapon-finesse))
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Power Attack and Weapon Finesse with [Agile Combatant](ref/feat/agile-maneuvers) and
-[Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

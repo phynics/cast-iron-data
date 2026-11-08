@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/nanite"
 kind = "class_option"
 title = "Nanite"
-source_ids = ["people-of-the-river", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nanite", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -46,10 +46,6 @@ through your blood.
 (Knowledge \[engineering\])
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Combat Expertise and Improved Disarm with [Deft Maneuvers](ref/rule/deft-maneuvers) and
-[Greater Disarm](ref/feat/greater-disarm).
 
 **Bloodline Arcana**
 

@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/dreamspun"
 kind = "class_option"
 title = "Dreamspun"
-source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "ultimate-magic"]
+source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamspun", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -47,10 +47,6 @@ a life of adventure.
 (Sense Motive)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Combat Expertise and Improved Feint with [Deft Maneuvers](ref/rule/deft-maneuvers) and
-[Greater Feint](ref/feat/greater-feint).
 
 **Bloodline Arcana**
 

@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/aberrant"
 kind = "class_option"
 title = "Aberrant"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "ultimate-magic"]
+source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aberrant", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -46,11 +46,6 @@ itself in your physical form.
 (Knowledge \[dungeoneering\])
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Improved Disarm, Improved Grapple, and Improved Unarmed Strike with
-[Greater Disarm](ref/feat/greater-disarm), [Greater Grapple](ref/feat/greater-grapple), and,
-[Unarmed Combatant](ref/rule/unarmed-combatant).
 
 **Bloodline Arcana**
 

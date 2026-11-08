@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/salamander"
 kind = "class_option"
 title = "Salamander"
-source_ids = ["elemental-masters-handbook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "salamander", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -45,9 +45,6 @@ wield flame as a weapon and a tool, and your smithing skills are unrivaled.
 (Acrobatics)Skill Focus (Perception)[Toughness](ref/feat/toughness)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Power Attack with [Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 
