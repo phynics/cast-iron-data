@@ -56,5 +56,5 @@ Target: creature touched
 
 **Sources:** Ultimate Combat pg 226
 
-This spell functions like [darkvision](ref/rule/darkvision), except you may divide the duration in
+This spell functions like [darkvision](ref/spell/darkvision), except you may divide the duration in
 1-hour intervals among the creatures touched.

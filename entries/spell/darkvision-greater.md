@@ -55,5 +55,5 @@ Spell resistance: yes (harmless)
 
 **Sources:** Ultimate Magic pg 216
 
-This spell functions as [darkvision](ref/rule/darkvision), except the target's darkvision has a
+This spell functions as [darkvision](ref/spell/darkvision), except the target's darkvision has a
 range of 120 feet.
