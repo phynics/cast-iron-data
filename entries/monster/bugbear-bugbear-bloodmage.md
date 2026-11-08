@@ -82,7 +82,7 @@ the thrill of the coming kill._
 **Per day:**
 
 - 6/day: elemental ray, 1d6+5 fire
-- 1/day: elemental blast, 10d6 fire; DC 18
+- 1/day: elemental blast (10d6 fire, DC 18)
 
 **Spells Known**
 

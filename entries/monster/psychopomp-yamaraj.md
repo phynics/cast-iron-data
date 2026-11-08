@@ -105,7 +105,7 @@ slap +30 (2d6+4), 2 wings +30 (1d8+4)
 
 **Per day:**
 
-- 3/day: circle of death (DC 26), forcecage (DC 27), miracle, DC 29; see final judgment, &Q
+- 3/day: circle of death (DC 26), forcecage (DC 27), miracle (DC 29) (see final judgment), &Q
   lightning bolt (DC 23), undeath to death (DC 26)
 - 1/day: soul bind, &S level 9; any one CR 19 or lower psychopomp 100%, wail of the banshee (DC 29)
 

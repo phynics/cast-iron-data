@@ -101,8 +101,8 @@ dart from the creature's mouth._
 
 **At will:**
 
-- blistering invective (DC 18), dispel good (DC 21), fire shield, mass charm monster, creatures of
-  the fire subtype only; DC 24
+- blistering invective (DC 18), dispel good (DC 21), fire shield, mass charm monster (creatures of
+  the fire subtype only) (DC 24)
 
 **Per day:**
 

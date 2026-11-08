@@ -88,7 +88,7 @@ wiry._
 
 **Per day:**
 
-- 1/day: cause fear, 30-foot radius; DC 11
+- 1/day: cause fear (30-foot radius, DC 11)
 
 **Per week:**
 

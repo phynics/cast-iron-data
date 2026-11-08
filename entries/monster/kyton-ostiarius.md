@@ -92,8 +92,8 @@ pleasure or titillating torture._
 **Per day:**
 
 - 3/day: crushing despair (DC 17), shadow walk, silence (DC 16)
-- 1/day: plane shift, DC 21; to the Material Plane and the Plane of Shadow only; lawful evil
-  creatures only, shout (DC 18)
+- 1/day: plane shift (DC 21; to the Material Plane and the Plane of Shadow only, lawful evil
+  creatures only), shout (DC 18)
 
 **Statistics**
 

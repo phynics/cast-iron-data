@@ -87,7 +87,7 @@ warhammer._
 
 **Per day:**
 
-- 1/day: enlarge person, self only; DC 9, invisibility, self only
+- 1/day: enlarge person (self only) (DC 9), invisibility, self only
 
 **Prepared Spells**
 

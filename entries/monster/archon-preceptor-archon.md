@@ -90,8 +90,8 @@ white robes contrast starkly with its black feathers, and its willow staff sheds
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, invisibility, self only, veil, self only; DC
-  20
+- greater teleport, self plus 50 lbs. of objects only, invisibility, self only, veil (self only) (DC
+  20)
 
 **Per day:**
 

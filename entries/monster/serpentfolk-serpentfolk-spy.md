@@ -80,7 +80,7 @@ abilities = ["12", "23", "19", "18", "13", "20"]
 
 **At will:**
 
-- disguise self (DC 16), humanoid form only, ventriloquism (DC 16)
+- disguise self (DC 16, humanoid form only), ventriloquism (DC 16)
 
 **Per day:**
 

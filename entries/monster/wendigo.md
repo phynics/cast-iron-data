@@ -96,7 +96,7 @@ plus 4d6 cold)
 
 **At will:**
 
-- wind walk, DC 23; see below
+- wind walk (DC 23; see below)
 
 **Per day:**
 

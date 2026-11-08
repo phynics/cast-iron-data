@@ -91,8 +91,8 @@ tentacles._
 
 **Per day:**
 
-- 1/day: blight (DC 22), command plants (DC 21), dominate monster, animals and magical beasts only;
-  DC 26, greater curse terrain, hallucinatory terrain (DC 21), waves of fatigue
+- 1/day: blight (DC 22), command plants (DC 21), dominate monster (animals and magical beasts only,
+  DC 26), greater curse terrain, hallucinatory terrain (DC 21), waves of fatigue
 
 **Statistics**
 

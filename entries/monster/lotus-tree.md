@@ -99,7 +99,7 @@ scent._
 
 **Per day:**
 
-- 1/day: animate plants, DC 26; self unaffected, weird (DC 28)
+- 1/day: animate plants (DC 26; self unaffected), weird (DC 28)
 
 **Psychic Magic**
 

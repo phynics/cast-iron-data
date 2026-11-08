@@ -102,7 +102,7 @@ of pale blue mist._
 **Per day:**
 
 - 3/day: call spirit (DC 23), confusion (DC 22)
-- 1/day: plane shift, swarm counts as one creature; DC 27
+- 1/day: plane shift (swarm counts as one creature; DC 27)
 
 **Statistics**
 

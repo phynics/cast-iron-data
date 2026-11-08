@@ -94,7 +94,7 @@ abilities = ["13", "10", "14", "8", "20", "12"]
 
 **At will:**
 
-- charming smile, 13 rounds/day; DC 16, master's illusion, 13 rounds/day; DC 21
+- charming smile (13 rounds/day, DC 16), master's illusion (13 rounds/day, DC 21)
 
 **Per day:**
 

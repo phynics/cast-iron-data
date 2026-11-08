@@ -103,8 +103,9 @@ proboscis clutching a dagger._
 
 **At will:**
 
-- confusion, single target only; DC 15, daze monster, no HD limit; DC 12, inflict serious wounds (DC
-  14), invisibility, !_reduce size_, as per [reduce person](ref/spell/reduce-person) but self only
+- confusion (single target only) (DC 15), daze monster (no HD limit) (DC 12), inflict serious wounds
+  (DC 14), invisibility, !_reduce size_, as per [reduce person](ref/spell/reduce-person) but self
+  only
 
 **Per day:**
 
