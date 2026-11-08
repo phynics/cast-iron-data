@@ -2,7 +2,7 @@
 id = "ref/feat/point-blank-master"
 kind = "feat"
 title = "Point-Blank Master"
-source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "point_blank_master", path = "json/feat12.json" },
 ]
@@ -31,12 +31,3 @@ the selected weapon while threatened.\
 [combat style](ref/ability/combat-styles) may select Point Blank Master as a combat style feat, but
 he must have [Weapon Focus](ref/feat/weapon-focus) instead of Weapon Specialization in the selected
 weapon.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-You are adept at firing ranged weapons in close quarters.\
-**Prerequisites:** [Weapon Specialization](ref/feat/weapon-specialization) with selected weapon
-group.\
-**Benefit:** Choose the bows, crossbows, or thrown [group](ref/ability/weapon-groups) listed under
-the fighter's Weapon Training class feature. You do not provoke attacks of opportunity when firing
-the selected weapon while threatened.\
-**Normal:** Using a ranged weapon while you are threatened provokes attacks of opportunity.

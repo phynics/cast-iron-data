@@ -2,7 +2,7 @@
 id = "ref/feat/dazzling-display"
 kind = "feat"
 title = "Dazzling Display"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_display", path = "json/feat04.json" },
 ]
@@ -24,10 +24,3 @@ Your skill with your favored weapon can frighten enemies.\
 **Benefit:** While wielding the weapon in which you have Weapon Focus, you can perform a bewildering
 show of prowess as a full-round action. Make an [Intimidate](ref/skill/intimidate) check to
 demoralize all foes within 30 feet who can see your display.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Your skill with your favored weapon can frighten enemies.\
-**Prerequisites:** [Weapon Focus](ref/feat/weapon-focus).\
-**Benefit:** While wielding a weapon from the group in which you have Weapon Focus, you can perform
-a bewildering show of prowess as a full-round action. Make an [Intimidate](ref/skill/intimidate)
-check to demoralize all foes within 30 feet who can see your display.

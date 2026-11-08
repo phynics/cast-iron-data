@@ -2,7 +2,7 @@
 id = "ref/feat/improved-steal"
 kind = "feat"
 title = "Improved Steal"
-source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_steal", path = "json/feat09.json" },
 ]
@@ -26,6 +26,3 @@ combat maneuver. In addition, you receive a +2 bonus on checks made to steal an 
 also receive a +2 bonus to your Combat Maneuver Defense when an opponent tries to steal an item from
 you.\
 **Normal:** You provoke an attack of opportunity when performing a steal combat maneuver.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat **may** be removed, replaced with the new [Deft Maneuvers](ref/rule/deft-maneuvers) feat.

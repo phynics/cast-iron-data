@@ -1,0 +1,22 @@
++++
+id = "ref/feat/point-blank-shot/teitr"
+kind = "feat"
+title = "Point-Blank Shot"
+source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+relations = [
+  { kind = "revision", target = "ref/feat/point-blank-shot" },
+]
+
+[fields]
+kind = "feat"
+feat_types = ["Combat"]
+prerequisites = "Precise Shot."
+prerequisite_feats = ["ref/feat/precise-shot"]
+benefit = "You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30 feet."
++++
+
+**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
+You are especially accurate when making ranged attacks against close targets.\
+**Prerequisites:** [Precise Shot](ref/feat/precise-shot).\
+**Benefit:** You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30
+feet.

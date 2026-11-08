@@ -2,7 +2,7 @@
 id = "ref/feat/weapon-finesse"
 kind = "feat"
 title = "Weapon Finesse"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_finesse", path = "json/feat17.json" },
 ]
@@ -36,10 +36,3 @@ Sometimes there are restrictions on this behavior: check the weapon entry to be 
 - [Estoc](ref/eq-weapon/estoc)
 - [Spiral rapier](ref/eq-weapon/spiral-rapier)
 - [Sword cane](ref/eq-weapon/sword-cane)
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-The Weapon Finesse feat has been removed, and now any character may choose to use their dexterity
-bonus to hit with light melee weapons. As a consequence, the Light Melee Weapons designation has
-been renamed to [Finesse](ref/rule/equipment-errata) Melee Weapons. A new special weapon feature
-called [agile](ref/rule/equipment-errata) has been added for melee weapons that are one-handed or
-two-handed but can still be finessed, such as the [rapier](ref/eq-weapon/rapier).

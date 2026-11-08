@@ -2,7 +2,7 @@
 id = "ref/feat/greater-shield-focus"
 kind = "feat"
 title = "Greater Shield Focus"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_shield_focus", path = "json/feat08.json" },
 ]
@@ -24,10 +24,3 @@ You are skilled at deflecting blows with your shield.\
 [Shield Proficiency](ref/feat/shield-proficiency), base attack bonus +1, 8th-level fighter.\
 **Benefit:** Increase the AC bonus granted by any shield you are using by 1. This bonus stacks with
 the bonus granted by Shield Focus.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-You are skilled at deflecting blows with your shield.\
-**Prerequisites:** Shield Focus, Shield Proficiency, base attack bonus +1, 8th-level fighter.\
-**Benefit:** Increase the AC bonus granted by any shield you are using by 1. This bonus stacks with
-the bonus granted by Shield Focus. Additionally, the AC bonus against ranged weapons granted by
-Shield Focus now affects ranged touch attacks (including rays and similar magical effects).

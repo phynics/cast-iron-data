@@ -2,7 +2,7 @@
 id = "ref/feat/improved-dirty-trick"
 kind = "feat"
 title = "Improved Dirty Trick"
-source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_dirty_trick", path = "json/feat09.json" },
 ]
@@ -26,6 +26,3 @@ You are skilled at pulling dirty tricks on your foes.\
 made to attempt a dirty trick. You also receive a +2 bonus to your Combat Maneuver Defense when an
 opponent tries a dirty trick on you.\
 **Normal:** You provoke an attack of opportunity when performing a dirty trick combat maneuver.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat **may** be removed, replaced with the new [Deft Maneuvers](ref/rule/deft-maneuvers) feat.

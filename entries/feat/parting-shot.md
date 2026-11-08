@@ -2,7 +2,7 @@
 id = "ref/feat/parting-shot"
 kind = "feat"
 title = "Parting Shot"
-source_ids = ["advanced-players-guide", "pathfinder-campaign-setting", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parting_shot", path = "json/feat11.json" },
 ]
@@ -30,12 +30,3 @@ single ranged attack at any point during your movement.\
 **Normal:** You cannot attack when using the withdraw action.\
 **Special:** Starting at 6th level, a ranger with the archery combat style may select Parting Shot
 as a combat style feat.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-You are an expert skirmisher, able to rain missiles upon your enemies whether advancing or
-retreating.\
-**Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Shot on the Run](ref/feat/shot-on-the-run),
-base attack bonus +6.\
-**Benefit:** Once per encounter, when using the [withdraw](ref/rule/withdraw) action, you can make a
-single ranged attack at any point during your movement.\
-**Normal:** You cannot attack when using the withdraw action.

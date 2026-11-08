@@ -175096,304 +175096,608 @@ title = "Agile Maneuvers"
 entry = "ref/feat/agile-maneuvers"
 
 [[books.chapters.children]]
+title = "Agile Maneuvers (The Elephant in the Room)"
+entry = "ref/feat/agile-maneuvers/teitr"
+
+[[books.chapters.children]]
 title = "Awesome Blow"
 entry = "ref/feat/awesome-blow"
+
+[[books.chapters.children]]
+title = "Awesome Blow (The Elephant in the Room)"
+entry = "ref/feat/awesome-blow/teitr"
 
 [[books.chapters.children]]
 title = "Catch Off-Guard"
 entry = "ref/feat/catch-off-guard"
 
 [[books.chapters.children]]
+title = "Catch Off-Guard (The Elephant in the Room)"
+entry = "ref/feat/catch-off-guard/teitr"
+
+[[books.chapters.children]]
 title = "Cleave"
 entry = "ref/feat/cleave"
+
+[[books.chapters.children]]
+title = "Cleave (The Elephant in the Room)"
+entry = "ref/feat/cleave/teitr"
 
 [[books.chapters.children]]
 title = "Combat Expertise"
 entry = "ref/feat/combat-expertise"
 
 [[books.chapters.children]]
+title = "Combat Expertise (The Elephant in the Room)"
+entry = "ref/feat/combat-expertise/teitr"
+
+[[books.chapters.children]]
 title = "Dazzling Display"
 entry = "ref/feat/dazzling-display"
+
+[[books.chapters.children]]
+title = "Dazzling Display (The Elephant in the Room)"
+entry = "ref/feat/dazzling-display/teitr"
 
 [[books.chapters.children]]
 title = "Deadly Aim"
 entry = "ref/feat/deadly-aim"
 
 [[books.chapters.children]]
+title = "Deadly Aim (The Elephant in the Room)"
+entry = "ref/feat/deadly-aim/teitr"
+
+[[books.chapters.children]]
 title = "Deadly Stroke"
 entry = "ref/feat/deadly-stroke"
+
+[[books.chapters.children]]
+title = "Deadly Stroke (The Elephant in the Room)"
+entry = "ref/feat/deadly-stroke/teitr"
 
 [[books.chapters.children]]
 title = "Deflect Arrows"
 entry = "ref/feat/deflect-arrows"
 
 [[books.chapters.children]]
+title = "Deflect Arrows (The Elephant in the Room)"
+entry = "ref/feat/deflect-arrows/teitr"
+
+[[books.chapters.children]]
 title = "Dodge"
 entry = "ref/feat/dodge"
+
+[[books.chapters.children]]
+title = "Dodge (The Elephant in the Room)"
+entry = "ref/feat/dodge/teitr"
 
 [[books.chapters.children]]
 title = "Elemental Spell"
 entry = "ref/feat/elemental-spell"
 
 [[books.chapters.children]]
+title = "Elemental Spell (The Elephant in the Room)"
+entry = "ref/feat/elemental-spell/teitr"
+
+[[books.chapters.children]]
 title = "Exotic Weapon Proficiency"
 entry = "ref/feat/exotic-weapon-proficiency"
+
+[[books.chapters.children]]
+title = "Exotic Weapon Proficiency (The Elephant in the Room)"
+entry = "ref/feat/exotic-weapon-proficiency/teitr"
 
 [[books.chapters.children]]
 title = "Far Shot"
 entry = "ref/feat/far-shot"
 
 [[books.chapters.children]]
+title = "Far Shot (The Elephant in the Room)"
+entry = "ref/feat/far-shot/teitr"
+
+[[books.chapters.children]]
 title = "Gorgon's Fist"
 entry = "ref/feat/gorgons-fist"
+
+[[books.chapters.children]]
+title = "Gorgon's Fist (The Elephant in the Room)"
+entry = "ref/feat/gorgons-fist/teitr"
 
 [[books.chapters.children]]
 title = "Great Cleave"
 entry = "ref/feat/great-cleave"
 
 [[books.chapters.children]]
+title = "Great Cleave (The Elephant in the Room)"
+entry = "ref/feat/great-cleave/teitr"
+
+[[books.chapters.children]]
 title = "Greater Bull Rush"
 entry = "ref/feat/greater-bull-rush"
+
+[[books.chapters.children]]
+title = "Greater Bull Rush (The Elephant in the Room)"
+entry = "ref/feat/greater-bull-rush/teitr"
 
 [[books.chapters.children]]
 title = "Greater Disarm"
 entry = "ref/feat/greater-disarm"
 
 [[books.chapters.children]]
+title = "Greater Disarm (The Elephant in the Room)"
+entry = "ref/feat/greater-disarm/teitr"
+
+[[books.chapters.children]]
 title = "Greater Feint"
 entry = "ref/feat/greater-feint"
+
+[[books.chapters.children]]
+title = "Greater Feint (The Elephant in the Room)"
+entry = "ref/feat/greater-feint/teitr"
 
 [[books.chapters.children]]
 title = "Greater Grapple"
 entry = "ref/feat/greater-grapple"
 
 [[books.chapters.children]]
+title = "Greater Grapple (The Elephant in the Room)"
+entry = "ref/feat/greater-grapple/teitr"
+
+[[books.chapters.children]]
 title = "Greater Overrun"
 entry = "ref/feat/greater-overrun"
+
+[[books.chapters.children]]
+title = "Greater Overrun (The Elephant in the Room)"
+entry = "ref/feat/greater-overrun/teitr"
 
 [[books.chapters.children]]
 title = "Greater Penetrating Strike"
 entry = "ref/feat/greater-penetrating-strike"
 
 [[books.chapters.children]]
+title = "Greater Penetrating Strike (The Elephant in the Room)"
+entry = "ref/feat/greater-penetrating-strike/teitr"
+
+[[books.chapters.children]]
 title = "Greater Shield Focus"
 entry = "ref/feat/greater-shield-focus"
+
+[[books.chapters.children]]
+title = "Greater Shield Focus (The Elephant in the Room)"
+entry = "ref/feat/greater-shield-focus/teitr"
 
 [[books.chapters.children]]
 title = "Greater Sunder"
 entry = "ref/feat/greater-sunder"
 
 [[books.chapters.children]]
+title = "Greater Sunder (The Elephant in the Room)"
+entry = "ref/feat/greater-sunder/teitr"
+
+[[books.chapters.children]]
 title = "Greater Trip"
 entry = "ref/feat/greater-trip"
+
+[[books.chapters.children]]
+title = "Greater Trip (The Elephant in the Room)"
+entry = "ref/feat/greater-trip/teitr"
 
 [[books.chapters.children]]
 title = "Greater Two-Weapon Fighting"
 entry = "ref/feat/greater-two-weapon-fighting"
 
 [[books.chapters.children]]
+title = "Greater Two-Weapon Fighting (The Elephant in the Room)"
+entry = "ref/feat/greater-two-weapon-fighting/teitr"
+
+[[books.chapters.children]]
 title = "Greater Weapon Focus"
 entry = "ref/feat/greater-weapon-focus"
+
+[[books.chapters.children]]
+title = "Greater Weapon Focus (The Elephant in the Room)"
+entry = "ref/feat/greater-weapon-focus/teitr"
 
 [[books.chapters.children]]
 title = "Greater Weapon Specialization"
 entry = "ref/feat/greater-weapon-specialization"
 
 [[books.chapters.children]]
+title = "Greater Weapon Specialization (The Elephant in the Room)"
+entry = "ref/feat/greater-weapon-specialization/teitr"
+
+[[books.chapters.children]]
 title = "Improved Bull Rush"
 entry = "ref/feat/improved-bull-rush"
+
+[[books.chapters.children]]
+title = "Improved Bull Rush (The Elephant in the Room)"
+entry = "ref/feat/improved-bull-rush/teitr"
 
 [[books.chapters.children]]
 title = "Improved Critical"
 entry = "ref/feat/improved-critical"
 
 [[books.chapters.children]]
+title = "Improved Critical (The Elephant in the Room)"
+entry = "ref/feat/improved-critical/teitr"
+
+[[books.chapters.children]]
 title = "Improved Dirty Trick"
 entry = "ref/feat/improved-dirty-trick"
+
+[[books.chapters.children]]
+title = "Improved Dirty Trick (The Elephant in the Room)"
+entry = "ref/feat/improved-dirty-trick/teitr"
 
 [[books.chapters.children]]
 title = "Improved Disarm"
 entry = "ref/feat/improved-disarm"
 
 [[books.chapters.children]]
+title = "Improved Disarm (The Elephant in the Room)"
+entry = "ref/feat/improved-disarm/teitr"
+
+[[books.chapters.children]]
 title = "Improved Drag"
 entry = "ref/feat/improved-drag"
+
+[[books.chapters.children]]
+title = "Improved Drag (The Elephant in the Room)"
+entry = "ref/feat/improved-drag/teitr"
 
 [[books.chapters.children]]
 title = "Improved Feint"
 entry = "ref/feat/improved-feint"
 
 [[books.chapters.children]]
+title = "Improved Feint (The Elephant in the Room)"
+entry = "ref/feat/improved-feint/teitr"
+
+[[books.chapters.children]]
 title = "Improved Grapple"
 entry = "ref/feat/improved-grapple"
+
+[[books.chapters.children]]
+title = "Improved Grapple (The Elephant in the Room)"
+entry = "ref/feat/improved-grapple/teitr"
 
 [[books.chapters.children]]
 title = "Improved Overrun"
 entry = "ref/feat/improved-overrun"
 
 [[books.chapters.children]]
+title = "Improved Overrun (The Elephant in the Room)"
+entry = "ref/feat/improved-overrun/teitr"
+
+[[books.chapters.children]]
 title = "Improved Reposition"
 entry = "ref/feat/improved-reposition"
+
+[[books.chapters.children]]
+title = "Improved Reposition (The Elephant in the Room)"
+entry = "ref/feat/improved-reposition/teitr"
 
 [[books.chapters.children]]
 title = "Improved Steal"
 entry = "ref/feat/improved-steal"
 
 [[books.chapters.children]]
+title = "Improved Steal (The Elephant in the Room)"
+entry = "ref/feat/improved-steal/teitr"
+
+[[books.chapters.children]]
 title = "Improved Sunder"
 entry = "ref/feat/improved-sunder"
+
+[[books.chapters.children]]
+title = "Improved Sunder (The Elephant in the Room)"
+entry = "ref/feat/improved-sunder/teitr"
 
 [[books.chapters.children]]
 title = "Improved Trip"
 entry = "ref/feat/improved-trip"
 
 [[books.chapters.children]]
+title = "Improved Trip (The Elephant in the Room)"
+entry = "ref/feat/improved-trip/teitr"
+
+[[books.chapters.children]]
 title = "Improved Two-Weapon Fighting"
 entry = "ref/feat/improved-two-weapon-fighting"
+
+[[books.chapters.children]]
+title = "Improved Two-Weapon Fighting (The Elephant in the Room)"
+entry = "ref/feat/improved-two-weapon-fighting/teitr"
 
 [[books.chapters.children]]
 title = "Improved Unarmed Strike"
 entry = "ref/feat/improved-unarmed-strike"
 
 [[books.chapters.children]]
+title = "Improved Unarmed Strike (The Elephant in the Room)"
+entry = "ref/feat/improved-unarmed-strike/teitr"
+
+[[books.chapters.children]]
 title = "Improvised Weapon Mastery"
 entry = "ref/feat/improvised-weapon-mastery"
+
+[[books.chapters.children]]
+title = "Improvised Weapon Mastery (The Elephant in the Room)"
+entry = "ref/feat/improvised-weapon-mastery/teitr"
 
 [[books.chapters.children]]
 title = "Manyshot"
 entry = "ref/feat/manyshot"
 
 [[books.chapters.children]]
+title = "Manyshot (The Elephant in the Room)"
+entry = "ref/feat/manyshot/teitr"
+
+[[books.chapters.children]]
 title = "Martial Mastery"
 entry = "ref/feat/martial-mastery"
+
+[[books.chapters.children]]
+title = "Martial Mastery (The Elephant in the Room)"
+entry = "ref/feat/martial-mastery/teitr"
 
 [[books.chapters.children]]
 title = "Martial Weapon Proficiency"
 entry = "ref/feat/martial-weapon-proficiency"
 
 [[books.chapters.children]]
+title = "Martial Weapon Proficiency (The Elephant in the Room)"
+entry = "ref/feat/martial-weapon-proficiency/teitr"
+
+[[books.chapters.children]]
 title = "Medusa's Wrath"
 entry = "ref/feat/medusas-wrath"
+
+[[books.chapters.children]]
+title = "Medusa's Wrath (The Elephant in the Room)"
+entry = "ref/feat/medusas-wrath/teitr"
 
 [[books.chapters.children]]
 title = "Mobility"
 entry = "ref/feat/mobility"
 
 [[books.chapters.children]]
+title = "Mobility (The Elephant in the Room)"
+entry = "ref/feat/mobility/teitr"
+
+[[books.chapters.children]]
 title = "Natural Spell"
 entry = "ref/feat/natural-spell"
+
+[[books.chapters.children]]
+title = "Natural Spell (The Elephant in the Room)"
+entry = "ref/feat/natural-spell/teitr"
 
 [[books.chapters.children]]
 title = "Parting Shot"
 entry = "ref/feat/parting-shot"
 
 [[books.chapters.children]]
+title = "Parting Shot (The Elephant in the Room)"
+entry = "ref/feat/parting-shot/teitr"
+
+[[books.chapters.children]]
 title = "Penetrating Strike"
 entry = "ref/feat/penetrating-strike"
+
+[[books.chapters.children]]
+title = "Penetrating Strike (The Elephant in the Room)"
+entry = "ref/feat/penetrating-strike/teitr"
 
 [[books.chapters.children]]
 title = "Point-Blank Master"
 entry = "ref/feat/point-blank-master"
 
 [[books.chapters.children]]
+title = "Point-Blank Master (The Elephant in the Room)"
+entry = "ref/feat/point-blank-master/teitr"
+
+[[books.chapters.children]]
 title = "Point-Blank Shot"
 entry = "ref/feat/point-blank-shot"
+
+[[books.chapters.children]]
+title = "Point-Blank Shot (The Elephant in the Room)"
+entry = "ref/feat/point-blank-shot/teitr"
 
 [[books.chapters.children]]
 title = "Power Attack"
 entry = "ref/feat/power-attack"
 
 [[books.chapters.children]]
+title = "Power Attack (The Elephant in the Room)"
+entry = "ref/feat/power-attack/teitr"
+
+[[books.chapters.children]]
 title = "Precise Shot"
 entry = "ref/feat/precise-shot"
+
+[[books.chapters.children]]
+title = "Precise Shot (The Elephant in the Room)"
+entry = "ref/feat/precise-shot/teitr"
 
 [[books.chapters.children]]
 title = "Rapid Reload"
 entry = "ref/feat/rapid-reload"
 
 [[books.chapters.children]]
+title = "Rapid Reload (The Elephant in the Room)"
+entry = "ref/feat/rapid-reload/teitr"
+
+[[books.chapters.children]]
 title = "Rapid Shot"
 entry = "ref/feat/rapid-shot"
+
+[[books.chapters.children]]
+title = "Rapid Shot (The Elephant in the Room)"
+entry = "ref/feat/rapid-shot/teitr"
 
 [[books.chapters.children]]
 title = "Scorpion Style"
 entry = "ref/feat/scorpion-style"
 
 [[books.chapters.children]]
+title = "Scorpion Style (The Elephant in the Room)"
+entry = "ref/feat/scorpion-style/teitr"
+
+[[books.chapters.children]]
 title = "Shatter Defenses"
 entry = "ref/feat/shatter-defenses"
+
+[[books.chapters.children]]
+title = "Shatter Defenses (The Elephant in the Room)"
+entry = "ref/feat/shatter-defenses/teitr"
 
 [[books.chapters.children]]
 title = "Shield Focus"
 entry = "ref/feat/shield-focus"
 
 [[books.chapters.children]]
+title = "Shield Focus (The Elephant in the Room)"
+entry = "ref/feat/shield-focus/teitr"
+
+[[books.chapters.children]]
 title = "Shield Master"
 entry = "ref/feat/shield-master"
+
+[[books.chapters.children]]
+title = "Shield Master (The Elephant in the Room)"
+entry = "ref/feat/shield-master/teitr"
 
 [[books.chapters.children]]
 title = "Shield Slam"
 entry = "ref/feat/shield-slam"
 
 [[books.chapters.children]]
+title = "Shield Slam (The Elephant in the Room)"
+entry = "ref/feat/shield-slam/teitr"
+
+[[books.chapters.children]]
 title = "Shot on the Run"
 entry = "ref/feat/shot-on-the-run"
+
+[[books.chapters.children]]
+title = "Shot on the Run (The Elephant in the Room)"
+entry = "ref/feat/shot-on-the-run/teitr"
 
 [[books.chapters.children]]
 title = "Snatch Arrows"
 entry = "ref/feat/snatch-arrows"
 
 [[books.chapters.children]]
+title = "Snatch Arrows (The Elephant in the Room)"
+entry = "ref/feat/snatch-arrows/teitr"
+
+[[books.chapters.children]]
 title = "Spirited Charge"
 entry = "ref/feat/spirited-charge"
+
+[[books.chapters.children]]
+title = "Spirited Charge (The Elephant in the Room)"
+entry = "ref/feat/spirited-charge/teitr"
 
 [[books.chapters.children]]
 title = "Spring Attack"
 entry = "ref/feat/spring-attack"
 
 [[books.chapters.children]]
+title = "Spring Attack (The Elephant in the Room)"
+entry = "ref/feat/spring-attack/teitr"
+
+[[books.chapters.children]]
 title = "Stand Still"
 entry = "ref/feat/stand-still"
+
+[[books.chapters.children]]
+title = "Stand Still (The Elephant in the Room)"
+entry = "ref/feat/stand-still/teitr"
 
 [[books.chapters.children]]
 title = "Stunning Fist"
 entry = "ref/feat/stunning-fist"
 
 [[books.chapters.children]]
+title = "Stunning Fist (The Elephant in the Room)"
+entry = "ref/feat/stunning-fist/teitr"
+
+[[books.chapters.children]]
 title = "Throw Anything"
 entry = "ref/feat/throw-anything"
+
+[[books.chapters.children]]
+title = "Throw Anything (The Elephant in the Room)"
+entry = "ref/feat/throw-anything/teitr"
 
 [[books.chapters.children]]
 title = "Two-Weapon Defense"
 entry = "ref/feat/two-weapon-defense"
 
 [[books.chapters.children]]
+title = "Two-Weapon Defense (The Elephant in the Room)"
+entry = "ref/feat/two-weapon-defense/teitr"
+
+[[books.chapters.children]]
 title = "Two-Weapon Fighting"
 entry = "ref/feat/two-weapon-fighting"
+
+[[books.chapters.children]]
+title = "Two-Weapon Fighting (The Elephant in the Room)"
+entry = "ref/feat/two-weapon-fighting/teitr"
 
 [[books.chapters.children]]
 title = "Two-Weapon Rend"
 entry = "ref/feat/two-weapon-rend"
 
 [[books.chapters.children]]
+title = "Two-Weapon Rend (The Elephant in the Room)"
+entry = "ref/feat/two-weapon-rend/teitr"
+
+[[books.chapters.children]]
 title = "Unseat"
 entry = "ref/feat/unseat"
+
+[[books.chapters.children]]
+title = "Unseat (The Elephant in the Room)"
+entry = "ref/feat/unseat/teitr"
 
 [[books.chapters.children]]
 title = "Weapon Finesse"
 entry = "ref/feat/weapon-finesse"
 
 [[books.chapters.children]]
+title = "Weapon Finesse (The Elephant in the Room)"
+entry = "ref/feat/weapon-finesse/teitr"
+
+[[books.chapters.children]]
 title = "Weapon Focus"
 entry = "ref/feat/weapon-focus"
+
+[[books.chapters.children]]
+title = "Weapon Focus (The Elephant in the Room)"
+entry = "ref/feat/weapon-focus/teitr"
 
 [[books.chapters.children]]
 title = "Weapon Specialization"
 entry = "ref/feat/weapon-specialization"
 
 [[books.chapters.children]]
+title = "Weapon Specialization (The Elephant in the Room)"
+entry = "ref/feat/weapon-specialization/teitr"
+
+[[books.chapters.children]]
 title = "Whirlwind Attack"
 entry = "ref/feat/whirlwind-attack"
+
+[[books.chapters.children]]
+title = "Whirlwind Attack (The Elephant in the Room)"
+entry = "ref/feat/whirlwind-attack/teitr"
 
 [[books.chapters.children]]
 title = "Agile"

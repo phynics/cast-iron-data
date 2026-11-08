@@ -2,7 +2,7 @@
 id = "ref/feat/improved-grapple"
 kind = "feat"
 title = "Improved Grapple"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_grapple", path = "json/feat09.json" },
 ]
@@ -26,7 +26,3 @@ You are skilled at grappling opponents.\
 grapple a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent
 tries to grapple you.\
 **Normal:** You provoke an attack of opportunity when performing a grapple combat maneuver.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the new [Unarmed Combatant](ref/rule/unarmed-combatant)
-feat.

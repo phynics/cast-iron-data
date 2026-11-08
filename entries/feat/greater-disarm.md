@@ -2,7 +2,7 @@
 id = "ref/feat/greater-disarm"
 kind = "feat"
 title = "Greater Disarm"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_disarm", path = "json/feat08.json" },
 ]
@@ -24,13 +24,5 @@ You can knock weapons far from an enemy's grasp.\
 [Improved Disarm](ref/feat/improved-disarm), base attack bonus +6, Int 13.\
 **Benefit:** You receive a +2 bonus on checks made to [disarm](ref/rule/disarm) a foe. This bonus
 stacks with the bonus granted by Improved Disarm. Whenever you successfully disarm an opponent, the
-weapon lands 15 feet away from its previous wielder, in a random direction.\
-**Normal:** Disarmed weapons and gear land at the feet of the disarmed creature.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-You can knock weapons far from an enemy's grasp.\
-**Prerequisites:** [Deft Maneuvers](ref/rule/deft-maneuvers), base attack bonus +6, Int 13.\
-**Benefit:** You receive a +2 bonus on checks made to [disarm](ref/rule/disarm) a foe. This bonus
-stacks with the bonus granted by Deft Manauvers. Whenever you successfully disarm an opponent, the
 weapon lands 15 feet away from its previous wielder, in a random direction.\
 **Normal:** Disarmed weapons and gear land at the feet of the disarmed creature.
