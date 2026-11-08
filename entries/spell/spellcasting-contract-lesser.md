@@ -7,7 +7,7 @@ provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcasting_contract_lesser", path = "json/spells9.json" },
 ]
 relations = [
-  { kind = "variant", target = "ref/spell/imbue-army-special-ability" },
+  { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
 ]
 
 [fields]
@@ -46,7 +46,7 @@ Spell resistance: yes (harmless)
 > _These three spells are associated with [Asmodeus](ref/faith/asmodeus), but there are no
 > restrictions on its use by others._
 
-This spell functions exactly like [imbue](ref/spell/imbue-army-special-ability) with spell ability,
+This spell functions exactly like [imbue with spell ability](ref/spell/imbue-with-spell-ability),
 except that you can imbue the target with any spell you have prepared (instead of just abjuration,
 divination, or conjuration \[healing\] spells) and the target may have more than one use of the
 imbued spells, depending upon the arrangements made when it is cast.
