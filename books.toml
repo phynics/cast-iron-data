@@ -43314,16 +43314,12 @@ title = "Legendary Item Abilities"
 entry = "ref/rule/legendary-item-abilities"
 
 [[books.chapters.children]]
-title = "Lich"
-entry = "ref/monster/lich-mythic"
+title = "Mythic Lich"
+entry = "ref/template/mythic-lich"
 
 [[books.chapters.children]]
 title = "Mythic Skeleton"
 entry = "ref/template/mythic-skeleton"
-
-[[books.chapters.children]]
-title = "Vampire"
-entry = "ref/monster/vampire-mythic"
 
 [[books.chapters.children]]
 title = "Mythic Vampire"

@@ -31716,6 +31716,11 @@ target = "ref/carried/mythic-adventures/monsters/lamia/mythic"
 basis = "shared"
 
 [[entries]]
+old = "ref/monster/lich-mythic"
+target = "ref/carried/mythic-adventures/monsters/lich/mythic"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/manticore-mythic"
 target = "ref/carried/mythic-adventures/monsters/manticore/mythic"
 basis = "shared"
@@ -31798,6 +31803,11 @@ basis = "shared"
 [[entries]]
 old = "ref/monster/troll-mythic"
 target = "ref/carried/mythic-adventures/monsters/troll/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/vampire-mythic"
+target = "ref/carried/mythic-adventures/monsters/vampire/mythic"
 basis = "shared"
 
 [[entries]]
