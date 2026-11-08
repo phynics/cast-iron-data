@@ -81820,64 +81820,212 @@ title = "Ambush Awareness"
 entry = "ref/feat/ambush-awareness"
 
 [[books.chapters.children]]
+title = "Ambush Awareness (Stamina)"
+entry = "ref/feat/ambush-awareness/stamina"
+
+[[books.chapters.children]]
 title = "Armored Athlete"
 entry = "ref/feat/armored-athlete"
+
+[[books.chapters.children]]
+title = "Armored Athlete (Stamina)"
+entry = "ref/feat/armored-athlete/stamina"
 
 [[books.chapters.children]]
 title = "Artful Dodge"
 entry = "ref/feat/artful-dodge"
 
 [[books.chapters.children]]
+title = "Artful Dodge (Stamina)"
+entry = "ref/feat/artful-dodge/stamina"
+
+[[books.chapters.children]]
 title = "Covering Shield"
 entry = "ref/feat/covering-shield"
+
+[[books.chapters.children]]
+title = "Covering Shield (Stamina)"
+entry = "ref/feat/covering-shield/stamina"
 
 [[books.chapters.children]]
 title = "Extend the Bulwark"
 entry = "ref/feat/extend-the-bulwark"
 
 [[books.chapters.children]]
+title = "Extend the Bulwark (Stamina)"
+entry = "ref/feat/extend-the-bulwark/stamina"
+
+[[books.chapters.children]]
 title = "Got Your Back"
 entry = "ref/feat/got-your-back"
+
+[[books.chapters.children]]
+title = "Got Your Back (Stamina)"
+entry = "ref/feat/got-your-back/stamina"
 
 [[books.chapters.children]]
 title = "Harrying Partners"
 entry = "ref/feat/harrying-partners"
 
 [[books.chapters.children]]
+title = "Harrying Partners (Stamina)"
+entry = "ref/feat/harrying-partners/stamina"
+
+[[books.chapters.children]]
+title = "Armor Trick (Stamina)"
+entry = "ref/feat/armor-trick/stamina"
+
+[[books.chapters.children]]
+title = "Armor Focus (Stamina)"
+entry = "ref/feat/armor-focus/stamina"
+
+[[books.chapters.children]]
+title = "Armor Material Expertise (Stamina)"
+entry = "ref/feat/armor-material-expertise/stamina"
+
+[[books.chapters.children]]
+title = "Armor Material Mastery (Stamina)"
+entry = "ref/feat/armor-material-mastery/stamina"
+
+[[books.chapters.children]]
+title = "Cushioning Armor (Stamina)"
+entry = "ref/feat/cushioning-armor/stamina"
+
+[[books.chapters.children]]
+title = "Greater Ironclad Reactions (Stamina)"
+entry = "ref/feat/greater-ironclad-reactions/stamina"
+
+[[books.chapters.children]]
+title = "Improved Armor Focus (Stamina)"
+entry = "ref/feat/improved-armor-focus/stamina"
+
+[[books.chapters.children]]
+title = "Imposing Bearing (Stamina)"
+entry = "ref/feat/imposing-bearing/stamina"
+
+[[books.chapters.children]]
+title = "Cushioning Shield (Stamina)"
+entry = "ref/feat/cushioning-shield/stamina"
+
+[[books.chapters.children]]
+title = "Defended Movement (Stamina)"
+entry = "ref/feat/defended-movement/stamina"
+
+[[books.chapters.children]]
+title = "Feint Defender (Stamina)"
+entry = "ref/feat/feint-defender/stamina"
+
+[[books.chapters.children]]
+title = "Greater Ray Shield (Stamina)"
+entry = "ref/feat/greater-ray-shield/stamina"
+
+[[books.chapters.children]]
 title = "Just Out of Reach"
 entry = "ref/feat/just-out-of-reach"
+
+[[books.chapters.children]]
+title = "Just Out of Reach (Stamina)"
+entry = "ref/feat/just-out-of-reach/stamina"
 
 [[books.chapters.children]]
 title = "Leaping Evasion"
 entry = "ref/feat/leaping-evasion"
 
 [[books.chapters.children]]
+title = "Leaping Evasion (Stamina)"
+entry = "ref/feat/leaping-evasion/stamina"
+
+[[books.chapters.children]]
 title = "Mirror Move"
 entry = "ref/feat/mirror-move"
+
+[[books.chapters.children]]
+title = "Mirror Move (Stamina)"
+entry = "ref/feat/mirror-move/stamina"
 
 [[books.chapters.children]]
 title = "Porcupine Defense"
 entry = "ref/feat/porcupine-defense"
 
 [[books.chapters.children]]
+title = "Porcupine Defense (Stamina)"
+entry = "ref/feat/porcupine-defense/stamina"
+
+[[books.chapters.children]]
 title = "Quillbreaker Defense"
 entry = "ref/feat/quillbreaker-defense"
+
+[[books.chapters.children]]
+title = "Quillbreaker Defense (Stamina)"
+entry = "ref/feat/quillbreaker-defense/stamina"
 
 [[books.chapters.children]]
 title = "Reach Defense"
 entry = "ref/feat/reach-defense"
 
 [[books.chapters.children]]
+title = "Reach Defense (Stamina)"
+entry = "ref/feat/reach-defense/stamina"
+
+[[books.chapters.children]]
 title = "Redirect Attack"
 entry = "ref/feat/redirect-attack"
+
+[[books.chapters.children]]
+title = "Redirect Attack (Stamina)"
+entry = "ref/feat/redirect-attack/stamina"
 
 [[books.chapters.children]]
 title = "Shield Snag"
 entry = "ref/feat/shield-snag"
 
 [[books.chapters.children]]
+title = "Shield Snag (Stamina)"
+entry = "ref/feat/shield-snag/stamina"
+
+[[books.chapters.children]]
 title = "Tandem Evasion"
 entry = "ref/feat/tandem-evasion"
+
+[[books.chapters.children]]
+title = "Tandem Evasion (Stamina)"
+entry = "ref/feat/tandem-evasion/stamina"
+
+[[books.chapters.children]]
+title = "Intense Blows (Stamina)"
+entry = "ref/feat/intense-blows/stamina"
+
+[[books.chapters.children]]
+title = "Ironclad Reactions (Stamina)"
+entry = "ref/feat/ironclad-reactions/stamina"
+
+[[books.chapters.children]]
+title = "Knocking Blows (Stamina)"
+entry = "ref/feat/knocking-blows/stamina"
+
+[[books.chapters.children]]
+title = "Poised Bearing (Stamina)"
+entry = "ref/feat/poised-bearing/stamina"
+
+[[books.chapters.children]]
+title = "Secured Armor (Stamina)"
+entry = "ref/feat/secured-armor/stamina"
+
+[[books.chapters.children]]
+title = "Sprightly Armor (Stamina)"
+entry = "ref/feat/sprightly-armor/stamina"
+
+[[books.chapters.children]]
+title = "Improved Shield Focus (Stamina)"
+entry = "ref/feat/improved-shield-focus/stamina"
+
+[[books.chapters.children]]
+title = "Shield Brace (Stamina)"
+entry = "ref/feat/shield-brace/stamina"
+
+[[books.chapters.children]]
+title = "Toppling Bash (Stamina)"
+entry = "ref/feat/toppling-bash/stamina"
 
 [[books.chapters.children]]
 title = "Guardian Armor"
@@ -183130,180 +183278,360 @@ title = "Aldori Dueling Disciple"
 entry = "ref/feat/aldori-dueling-disciple"
 
 [[books.chapters.children]]
+title = "Aldori Dueling Disciple (Stamina)"
+entry = "ref/feat/aldori-dueling-disciple/stamina"
+
+[[books.chapters.children]]
 title = "Aldori Dueling Mastery"
 entry = "ref/feat/aldori-dueling-mastery"
+
+[[books.chapters.children]]
+title = "Aldori Dueling Mastery (Stamina)"
+entry = "ref/feat/aldori-dueling-mastery/stamina"
 
 [[books.chapters.children]]
 title = "Awe-Inspiring Smash"
 entry = "ref/feat/awe-inspiring-smash"
 
 [[books.chapters.children]]
+title = "Awe-Inspiring Smash (Stamina)"
+entry = "ref/feat/awe-inspiring-smash/stamina"
+
+[[books.chapters.children]]
 title = "Black Powder Spectacle"
 entry = "ref/feat/black-powder-spectacle"
+
+[[books.chapters.children]]
+title = "Black Powder Spectacle (Stamina)"
+entry = "ref/feat/black-powder-spectacle/stamina"
 
 [[books.chapters.children]]
 title = "Bloodletting"
 entry = "ref/feat/bloodletting"
 
 [[books.chapters.children]]
+title = "Bloodletting (Stamina)"
+entry = "ref/feat/bloodletting/stamina"
+
+[[books.chapters.children]]
 title = "Bloody Sabres"
 entry = "ref/feat/bloody-sabres"
+
+[[books.chapters.children]]
+title = "Bloody Sabres (Stamina)"
+entry = "ref/feat/bloody-sabres/stamina"
 
 [[books.chapters.children]]
 title = "Bullseye Shot"
 entry = "ref/feat/bullseye-shot"
 
 [[books.chapters.children]]
+title = "Bullseye Shot (Stamina)"
+entry = "ref/feat/bullseye-shot/stamina"
+
+[[books.chapters.children]]
 title = "Butterfly's Sting"
 entry = "ref/feat/butterflys-sting"
+
+[[books.chapters.children]]
+title = "Butterfly's Sting (Stamina)"
+entry = "ref/feat/butterflys-sting/stamina"
 
 [[books.chapters.children]]
 title = "Cannon Master"
 entry = "ref/feat/cannon-master"
 
 [[books.chapters.children]]
+title = "Cannon Master (Stamina)"
+entry = "ref/feat/cannon-master/stamina"
+
+[[books.chapters.children]]
 title = "Casterbane Shot"
 entry = "ref/feat/casterbane-shot"
+
+[[books.chapters.children]]
+title = "Casterbane Shot (Stamina)"
+entry = "ref/feat/casterbane-shot/stamina"
 
 [[books.chapters.children]]
 title = "Charge of the Righteous"
 entry = "ref/feat/charge-of-the-righteous"
 
 [[books.chapters.children]]
+title = "Charge of the Righteous (Stamina)"
+entry = "ref/feat/charge-of-the-righteous/stamina"
+
+[[books.chapters.children]]
 title = "Demon Hunter"
 entry = "ref/feat/demon-hunter"
+
+[[books.chapters.children]]
+title = "Demon Hunter (Stamina)"
+entry = "ref/feat/demon-hunter/stamina"
 
 [[books.chapters.children]]
 title = "Desperate Battler"
 entry = "ref/feat/desperate-battler"
 
 [[books.chapters.children]]
+title = "Desperate Battler (Stamina)"
+entry = "ref/feat/desperate-battler/stamina"
+
+[[books.chapters.children]]
 title = "Destroy Identity"
 entry = "ref/feat/destroy-identity"
+
+[[books.chapters.children]]
+title = "Destroy Identity (Stamina)"
+entry = "ref/feat/destroy-identity/stamina"
 
 [[books.chapters.children]]
 title = "Duelist of the Roaring Falls"
 entry = "ref/feat/duelist-of-the-roaring-falls"
 
 [[books.chapters.children]]
+title = "Duelist of the Roaring Falls (Stamina)"
+entry = "ref/feat/duelist-of-the-roaring-falls/stamina"
+
+[[books.chapters.children]]
 title = "Duelist of the Shrouded Lake"
 entry = "ref/feat/duelist-of-the-shrouded-lake"
+
+[[books.chapters.children]]
+title = "Duelist of the Shrouded Lake (Stamina)"
+entry = "ref/feat/duelist-of-the-shrouded-lake/stamina"
 
 [[books.chapters.children]]
 title = "Falling Water Gambit"
 entry = "ref/feat/falling-water-gambit"
 
 [[books.chapters.children]]
+title = "Falling Water Gambit (Stamina)"
+entry = "ref/feat/falling-water-gambit/stamina"
+
+[[books.chapters.children]]
 title = "Flagbearer"
 entry = "ref/feat/flagbearer"
+
+[[books.chapters.children]]
+title = "Flagbearer (Stamina)"
+entry = "ref/feat/flagbearer/stamina"
 
 [[books.chapters.children]]
 title = "Focused Discipline"
 entry = "ref/feat/focused-discipline"
 
 [[books.chapters.children]]
+title = "Focused Discipline (Stamina)"
+entry = "ref/feat/focused-discipline/stamina"
+
+[[books.chapters.children]]
 title = "Hamatulatsu"
 entry = "ref/feat/hamatulatsu"
+
+[[books.chapters.children]]
+title = "Hamatulatsu (Stamina)"
+entry = "ref/feat/hamatulatsu/stamina"
 
 [[books.chapters.children]]
 title = "Heroic Interposition"
 entry = "ref/feat/heroic-interposition"
 
 [[books.chapters.children]]
+title = "Heroic Interposition (Stamina)"
+entry = "ref/feat/heroic-interposition/stamina"
+
+[[books.chapters.children]]
 title = "Intrepid Rescuer"
 entry = "ref/feat/intrepid-rescuer"
+
+[[books.chapters.children]]
+title = "Intrepid Rescuer (Stamina)"
+entry = "ref/feat/intrepid-rescuer/stamina"
 
 [[books.chapters.children]]
 title = "Measured Response"
 entry = "ref/feat/measured-response"
 
 [[books.chapters.children]]
+title = "Measured Response (Stamina)"
+entry = "ref/feat/measured-response/stamina"
+
+[[books.chapters.children]]
 title = "Ostentatious Weakness"
 entry = "ref/feat/ostentatious-weakness"
+
+[[books.chapters.children]]
+title = "Ostentatious Weakness (Stamina)"
+entry = "ref/feat/ostentatious-weakness/stamina"
 
 [[books.chapters.children]]
 title = "Perfect Style"
 entry = "ref/feat/perfect-style"
 
 [[books.chapters.children]]
+title = "Perfect Style (Stamina)"
+entry = "ref/feat/perfect-style/stamina"
+
+[[books.chapters.children]]
 title = "Redirected Shot"
 entry = "ref/feat/redirected-shot"
+
+[[books.chapters.children]]
+title = "Redirected Shot (Stamina)"
+entry = "ref/feat/redirected-shot/stamina"
 
 [[books.chapters.children]]
 title = "Riptide Attack"
 entry = "ref/feat/riptide-attack"
 
 [[books.chapters.children]]
+title = "Riptide Attack (Stamina)"
+entry = "ref/feat/riptide-attack/stamina"
+
+[[books.chapters.children]]
 title = "Savage Surge"
 entry = "ref/feat/savage-surge"
+
+[[books.chapters.children]]
+title = "Savage Surge (Stamina)"
+entry = "ref/feat/savage-surge/stamina"
 
 [[books.chapters.children]]
 title = "Shrewd Tactician"
 entry = "ref/feat/shrewd-tactician"
 
 [[books.chapters.children]]
+title = "Shrewd Tactician (Stamina)"
+entry = "ref/feat/shrewd-tactician/stamina"
+
+[[books.chapters.children]]
 title = "Spear Dancer"
 entry = "ref/feat/spear-dancer"
+
+[[books.chapters.children]]
+title = "Spear Dancer (Stamina)"
+entry = "ref/feat/spear-dancer/stamina"
 
 [[books.chapters.children]]
 title = "Spectacular Exit"
 entry = "ref/feat/spectacular-exit"
 
 [[books.chapters.children]]
+title = "Spectacular Exit (Stamina)"
+entry = "ref/feat/spectacular-exit/stamina"
+
+[[books.chapters.children]]
 title = "Spiked Destroyer"
 entry = "ref/feat/spiked-destroyer"
+
+[[books.chapters.children]]
+title = "Spiked Destroyer (Stamina)"
+entry = "ref/feat/spiked-destroyer/stamina"
 
 [[books.chapters.children]]
 title = "Squash Flat"
 entry = "ref/feat/squash-flat"
 
 [[books.chapters.children]]
+title = "Squash Flat (Stamina)"
+entry = "ref/feat/squash-flat/stamina"
+
+[[books.chapters.children]]
 title = "Steady Engagement"
 entry = "ref/feat/steady-engagement"
+
+[[books.chapters.children]]
+title = "Steady Engagement (Stamina)"
+entry = "ref/feat/steady-engagement/stamina"
 
 [[books.chapters.children]]
 title = "Sun Striker"
 entry = "ref/feat/sun-striker"
 
 [[books.chapters.children]]
+title = "Sun Striker (Stamina)"
+entry = "ref/feat/sun-striker/stamina"
+
+[[books.chapters.children]]
 title = "Taldan Duelist"
 entry = "ref/feat/taldan-duelist"
+
+[[books.chapters.children]]
+title = "Taldan Duelist (Stamina)"
+entry = "ref/feat/taldan-duelist/stamina"
 
 [[books.chapters.children]]
 title = "Thrilling Vengeance"
 entry = "ref/feat/thrilling-vengeance"
 
 [[books.chapters.children]]
+title = "Thrilling Vengeance (Stamina)"
+entry = "ref/feat/thrilling-vengeance/stamina"
+
+[[books.chapters.children]]
 title = "Torch Bearer"
 entry = "ref/feat/torch-bearer"
+
+[[books.chapters.children]]
+title = "Torch Bearer (Stamina)"
+entry = "ref/feat/torch-bearer/stamina"
 
 [[books.chapters.children]]
 title = "To the Last"
 entry = "ref/feat/to-the-last"
 
 [[books.chapters.children]]
+title = "To the Last (Stamina)"
+entry = "ref/feat/to-the-last/stamina"
+
+[[books.chapters.children]]
 title = "Unblinking Flame Feint"
 entry = "ref/feat/unblinking-flame-feint"
+
+[[books.chapters.children]]
+title = "Unblinking Flame Feint (Stamina)"
+entry = "ref/feat/unblinking-flame-feint/stamina"
 
 [[books.chapters.children]]
 title = "Unblinking Flame Fist"
 entry = "ref/feat/unblinking-flame-fist"
 
 [[books.chapters.children]]
+title = "Unblinking Flame Fist (Stamina)"
+entry = "ref/feat/unblinking-flame-fist/stamina"
+
+[[books.chapters.children]]
 title = "Unfolding Wind Rush"
 entry = "ref/feat/unfolding-wind-rush"
+
+[[books.chapters.children]]
+title = "Unfolding Wind Rush (Stamina)"
+entry = "ref/feat/unfolding-wind-rush/stamina"
 
 [[books.chapters.children]]
 title = "Unfolding Wind Strike"
 entry = "ref/feat/unfolding-wind-strike"
 
 [[books.chapters.children]]
+title = "Unfolding Wind Strike (Stamina)"
+entry = "ref/feat/unfolding-wind-strike/stamina"
+
+[[books.chapters.children]]
 title = "Untwisting Iron Skin"
 entry = "ref/feat/untwisting-iron-skin"
 
 [[books.chapters.children]]
+title = "Untwisting Iron Skin (Stamina)"
+entry = "ref/feat/untwisting-iron-skin/stamina"
+
+[[books.chapters.children]]
 title = "Untwisting Iron Strength"
 entry = "ref/feat/untwisting-iron-strength"
+
+[[books.chapters.children]]
+title = "Untwisting Iron Strength (Stamina)"
+entry = "ref/feat/untwisting-iron-strength/stamina"
 
 [[books.chapters.children]]
 title = "Compulsion Mastery"
