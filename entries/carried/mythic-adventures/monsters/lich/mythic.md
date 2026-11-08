@@ -78,5 +78,5 @@ MR: 7
 
 _This armored undead human wields a heavy mace and wears the trappings of a devil-worshiper._
 
-A mythic lich is an undead spellcaster who gave up standard mythic path abilities in favor of
-abilities that preserve her existence and enhance her unnatural power.
+A [mythic lich](ref/template/mythic-lich) is an undead spellcaster who gave up standard mythic path
+abilities in favor of abilities that preserve her existence and enhance her unnatural power.

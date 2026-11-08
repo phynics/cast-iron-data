@@ -1,196 +1,32 @@
 +++
-id = "ref/monster/lich-mythic"
-kind = "creature"
-title = "Lich"
+id = "ref/template/mythic-lich"
+kind = "rule"
+title = "Mythic Lich"
 source_ids = ["mythic-adventures"]
 provenance = [
-  { dataset = "pathfinder-data-1-e", record = "lich_mythic", path = "json/monsters_mythic2.json" },
+  { dataset = "pathfinder-data-1-e", record = "mythic_lich", path = "json/monster_template3.json" },
 ]
 
 [fields]
-kind = "creature"
-cr = "17"
-creature_type = "undead"
-subtypes = ["augmented humanoid", "human", "mythic"]
-size = "medium"
-alignment = "lawful evil"
-ac = "36/14/34"
-hp = "209~13d8+147"
-fortitude = "+16"
-reflex = "+9"
-will = "+21"
-melee = "+1 heavy mace +9/+4 (1d8), touch +3 (1d8+6 plus paralyzing touch)"
-special_attacks = "hand of the acolyte (11/day)~inspired spell~mythic spells 2/day~paralyzing touch (DC 28)~scythe of evil (6 rounds, 2/day)"
-special_qualities = "mythic phylactery, rejuvenation"
-abilities = ["8", "14", "-", "15", "26", "20"]
+kind = "none"
 +++
-
-_This armored undead human wields a heavy mace and wears the trappings of a devil-worshiper._
 
 **Mythic Lich**
 
-**Challenge rating:** 17
+**Acquired:** present
 
-**Mythic rank:** 7
+**Challenge rating:** Varies
 
-**Human [lich](ref/template/lich) [cleric](ref/class/cleric) of [Asmodeus](ref/faith/asmodeus) 13**
+**Source:** Mythic Adventures/206
 
-**aura:** fear (60 ft., DC 28)
-
-**Initiative:** +13, Mythic Improved Initiative
-
-**Alignment:** Lawful evil
-
-**Size:** medium
-
-**Perception:** +29
-
-**Senses:** Darkvision 60 ft., Spell perception
-
-**Sources:** Mythic Adventures pg 206\
-**Subtype:** Augmented humanoid, Human, Mythic
-
-**Type:** undead
-
-**Experience points:** 102,400
-
-**Armor class:** 36/14/34
-
-**Chan Res:** +8
-
-**Defensive abilities:** creeping paralysis
-
-**Dr:** 15/bludgeoning and epic and magic
-
-**Fort:** +16
-
-**Hit points:** 209 (13d8+147)
-
-**Immune:** cold, electricity, [undead traits](ref/umr/undead-traits)
-
-**Mod:** +7 armor, +2 deflection, +2 Dex, +15 natural
-
-**Ref:** +9
-
-**Sr:** 32
-
-**Will:** +21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 10/day, DC 23, 7d6
-
-**M Power:** 7/day, surge +1d10
-
-**Melee:** +1 heavy mace +9/+4 (1d8), touch +3 (1d8+6 plus paralyzing touch)
-
-**Spec Att:** hand of the acolyte (11/day), inspired spell, mythic spells 2/day, paralyzing touch
-(DC 28), scythe of evil (6 rounds, 2/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +21
-
-**Per day:**
-
-- 11/day: touch of evil, 6 rounds
-- 2/day: dispelling touch
-
-**Prepared Spells**
-
-**Caster level:** 13
-
-**Concentration:** +21
-
-**7th-level spells:**
-
-- blasphemy (domain spell) (DC 25), destruction (DC 27), ethereal jaunt
-
-**6th-level spells:**
-
-- antimagic field (domain spell), blade barrier (mythic spell) (DC 24), harm (mythic spell) (2, DC
-  26)
-
-**5th-level spells:**
-
-- dispel good (domain spell), flame strike (mythic spell) (DC 23), greater command (DC 23), slay
-  living (2, DC 25)
-
-**4th-level spells:**
-
-- chaos hammer (mythic spell) (DC 22), freedom of movement, poison (DC 24), spell immunity, unholy
-  blight (domain spell) (mythic spell) (2, DC 22)
-
-**3rd-level spells:**
-
-- bestow curse (2, DC 23), contagion (mythic spell) (DC 23), dispel magic (domain spell),
-  invisibility purge, meld into stone, protection from energy
-
-**2nd-level spells:**
-
-- align weapon (domain spell), evil only, calm emotions (DC 20), darkness, desecrate, hold person
-  (DC 20), resist energy, spiritual weapon
-
-**1st-level spells:**
-
-- bane (DC 19), cause fear (DC 21), deathwatch, entropic shield, identify (domain spell), obscuring
-  mist, 2
-
-**Cantrips:**
-
-- bleed (DC 20), detect magic, purify food and drink, read magic
-
-**Domains**
-
-**Data:** Evil, Magic
-
-###### D {#footnote-d}
-
-Domain spell\|M\~Mythic spell
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con -, Int 15, Wis 26, Cha 20
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Casting, Craft Wondrous Item, Extra Channel, Mythic Improved Channel, Mythic
-Improved Initiative, Iron Will, Mythic Spell Lore, Mythic Spell Focus (necromancy), Mythic Toughness
-
-**Skills:** Heal +16, Intimidate +18, Knowledge (arcana, religion) +18, Perception +29, Sense Motive
-+27, Spellcraft +26, Stealth +9
-
-**Racial Modifiers:** +8 Perception, +8 Sense Motive, +8 Spellcraft, +8 Stealth
-
-**Languages:** Abyssal, Common
-
-**Special qualities:** mythic phylactery, rejuvenation
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** NPC gear (2 potion of invisibility, +3 chain shirt, +1 heavy mace, Iamu3, Iboid2,
-Iclk3, Ihbmp4wc, ring of prot2); other treasure
-
-### Description
+_This armored undead human wields a heavy mace and wears the trappings of a devil-worshiper._
 
 A mythic lich is an undead spellcaster who gave up standard mythic path abilities in favor of
 abilities that preserve her existence and enhance her unnatural power.
 
-"Mythic lich" is an acquired template that can be added to any creature with the lich template
-(referred to hereafter as the base lich). A mythic lich uses the base lich's stats and abilities
-except as noted here.
+"Mythic lich" is an acquired template that can be added to any creature with the
+[lich template](ref/template/lich) (referred to hereafter as the base lich). A mythic lich uses the
+base lich's stats and abilities except as noted here.
 
 **Mythic Subtype:** A mythic lich gains the mythic subtype, with a rank equal to half the CR of the
 base lich. A mythic lich gains additional abilities depending on the base lich's CR instead of the
@@ -255,10 +91,12 @@ points equal to three times the level of the spell slot used to cast the spell.
 the lich rolls twice and uses the lower result. Anytime the lich attempts a dispel check, it rolls
 twice and uses the higher result.
 
+### Table 6-1
+
 |Base Lich's CR|Mythic Rank|Mythic Abilities|
 | --- | --- | --- |
 |12-13|6th|[Channel resistance](ref/rule/channel-resistance) +8, creeping paralysis, mythic phylactery, mythic potency, mythic spells, [spell resistance](ref/rule/spell-resistance)|
 |14-15|7th|Augmented spellcasting, spell perception|
 |16-17|8th|[Channel resistance](ref/rule/channel-resistance) +12, immediate counterspell|
 |18-19|9th|Enhanced spellcasting, sustained by magic|
-|20+ 10th [Channel resistance](ref/rule/channel-resistance) (immunity), formidable animation|||
+|20+|10th|[Channel resistance](ref/rule/channel-resistance) (immunity), formidable animation|
