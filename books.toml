@@ -40375,12 +40375,12 @@ title = "Boiling Blood, Mythic"
 entry = "ref/spell/boiling-blood/mythic"
 
 [[books.chapters.children]]
-title = "Break Enchantment, Mythic"
-entry = "ref/spell/break-enchantment/mythic"
-
-[[books.chapters.children]]
 title = "Break, Mythic"
 entry = "ref/spell/break/mythic"
+
+[[books.chapters.children]]
+title = "Break Enchantment, Mythic"
+entry = "ref/spell/break-enchantment/mythic"
 
 [[books.chapters.children]]
 title = "Breath of Life, Mythic"
