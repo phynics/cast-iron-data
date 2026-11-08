@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_double", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/project-image" },
+]
 
 [fields]
 kind = "spell"
@@ -75,5 +78,5 @@ your line of effect, even momentarily, the spell ends.
 
 **Sources:** Advanced Class Guide pg 181
 
-This spell functions as project image, except the image appears in your familiar's square and moves
-when your familiar moves.
+This spell functions as [project image](ref/spell/project-image), except the image appears in your
+familiar's square and moves when your familiar moves.

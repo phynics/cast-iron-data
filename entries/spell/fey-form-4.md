@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_form_4", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fey-form-3" },
+]
 
 [fields]
 kind = "spell"
@@ -127,14 +130,14 @@ scores and take a -4 penalty to your Dexterity score.
 
 **Sources:** Ultimate Wilderness pg 230
 
-This spell functions as fey form III except it doesn't limit your base speed and also allows you to
-use more abilities. If the form you assume has any of the following abilities, you gain those
-abilities: burrow speed 60 feet, climb speed 90 feet, fly speed 120 feet (good maneuverability),
-swim speed 120 feet, all-around vision, [blindsense](ref/rule/blindsight-and-blindsense) 60 feet,
-blindsight 30 feet, [darkvision](ref/rule/darkvision) 90 feet,
-[low-light vision](ref/rule/low-light-vision), scent, see in darkness,
-[tremorsense](ref/umr/tremorsense) 60 feet, abduct, animated hair, beguiling aura, bleed, blood
-rage, boot stomp, burn, compression, constrict, crushing leap, DR 5/cold iron,
+This spell functions as [fey form III](ref/spell/fey-form-3) except it doesn't limit your base speed
+and also allows you to use more abilities. If the form you assume has any of the following
+abilities, you gain those abilities: burrow speed 60 feet, climb speed 90 feet, fly speed 120 feet
+(good maneuverability), swim speed 120 feet, all-around vision,
+[blindsense](ref/rule/blindsight-and-blindsense) 60 feet, blindsight 30 feet,
+[darkvision](ref/rule/darkvision) 90 feet, [low-light vision](ref/rule/low-light-vision), scent, see
+in darkness, [tremorsense](ref/umr/tremorsense) 60 feet, abduct, animated hair, beguiling aura,
+bleed, blood rage, boot stomp, burn, compression, constrict, crushing leap, DR 5/cold iron,
 [fast healing](ref/umr/fast-healing) 5, fear aura, frightful presence, grab, heavy weapons, hide in
 plain sight, icewalking, kneecapper, luminous, nasal spray, no shadow, oversized weapons, poison,
 putrid vomit, rend, rock throwing (120 feet, 2d10 damage), sound mimicry, supernatural speed, tear

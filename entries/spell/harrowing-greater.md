@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide", "mythic-origins", "the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrowing_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/harrowing" },
+]
 
 [fields]
 kind = "spell"
@@ -126,9 +129,10 @@ spell ends and any penalties are removed.
 
 **Sources:** The Harrow Handbook pg 9
 
-This spell functions as harrowing, except it can affect an entire group of creatures and allows its
-subjects some measure of control over their destiny. Subjects of a greater harrowing spell record
-and spend their accumulated bonuses and penalties individually, according to their own alignment.
+This spell functions as [harrowing](ref/spell/harrowing), except it can affect an entire group of
+creatures and allows its subjects some measure of control over their destiny. Subjects of a greater
+harrowing spell record and spend their accumulated bonuses and penalties individually, according to
+their own alignment.
 
 Each participant in a greater harrowing can gain a special ability to seize control of fate if a
 card that matches that participant's alignment is drawn. Like the bonuses and penalties granted by

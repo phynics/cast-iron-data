@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip_of_ants", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/whip-of-spiders" },
+]
 
 [fields]
 kind = "spell"
@@ -76,8 +79,8 @@ spell's duration, whichever comes first.
 
 **Sources:** Advanced Class Guide pg 199
 
-This spell functions as whip of spiders, except it summons army ants, and any creature you strike
-with the whip takes swarm damage as if it were attacked by an
+This spell functions as [whip of spiders](ref/spell/whip-of-spiders), except it summons army ants,
+and any creature you strike with the whip takes swarm damage as if it were attacked by an
 [army ant swarm](ref/monster/ant-army-ant-swarm) (3d6 points of damage plus poison and distraction).
 If you transform the whip into an army ant swarm, it has 16 hit points.
 

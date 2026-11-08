@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_storms", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/symbol-of-death" },
+]
 
 [fields]
 kind = "spell"
@@ -116,10 +119,11 @@ is 25 + spell level, or 33 for symbol of death.
 
 **Sources:** Blood of the Ancients pg 28
 
-This spell functions as symbol of death, except that when triggered, a 30-foot-radius centered on
-the symbol fills with hurricane-force winds (75 mph). Each round, a bolt of lightning that deals
-10d6 points of electricity damage strikes a random creature within the area. A successful Reflex
-save halves this damage. Unlike symbol of death, symbol of storms has no hit point limit. Regardless
-of the trigger method or methods chosen, a creature more than 30 feet from a symbol of storms can't
-trigger it (even if it meets one or more of the triggering conditions, such as reading the rune).
-Once triggered, a symbol of storms remains active for 1 minute per caster level.
+This spell functions as [symbol of death](ref/spell/symbol-of-death), except that when triggered, a
+30-foot-radius centered on the symbol fills with hurricane-force winds (75 mph). Each round, a bolt
+of lightning that deals 10d6 points of electricity damage strikes a random creature within the area.
+A successful Reflex save halves this damage. Unlike symbol of death, symbol of storms has no hit
+point limit. Regardless of the trigger method or methods chosen, a creature more than 30 feet from a
+symbol of storms can't trigger it (even if it meets one or more of the triggering conditions, such
+as reading the rune). Once triggered, a symbol of storms remains active for 1 minute per caster
+level.

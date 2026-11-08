@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_possession_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/object-possession" },
+]
 
 [fields]
 kind = "spell"
@@ -75,9 +78,9 @@ attempt to possess a different object as a standard action instead of ending the
 
 **Sources:** Occult Adventures pg 179
 
-This spell functions as object possession, except as noted above. The possessed animated object has
-a number of Construction Points appropriate for its size (up to 5 CP for Gargantuan objects). Your
-silver cord extends to medium range (100 ft. + 10 ft./level).
+This spell functions as [object possession](ref/spell/object-possession), except as noted above. The
+possessed animated object has a number of Construction Points appropriate for its size (up to 5 CP
+for Gargantuan objects). Your silver cord extends to medium range (100 ft. + 10 ft./level).
 
 You can attempt to possess a construct instead of an unattended object as your first possession with
 this spell. If you do, this spell acts as control construct, except as noted above.

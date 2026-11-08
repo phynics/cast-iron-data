@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_dweomer_communal", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mask-dweomer" },
+]
 
 [fields]
 kind = "spell"
@@ -58,5 +61,5 @@ any masked spell effects.
 
 **Sources:** Ultimate Combat pg 236
 
-This spell functions like mask dweomer, except you divide the duration in 1-day increments among the
-creatures or objects touched.
+This spell functions like [mask dweomer](ref/spell/mask-dweomer), except you divide the duration in
+1-day increments among the creatures or objects touched.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulls_strength_mass", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bulls-strength" },
+]
 
 [fields]
 kind = "spell"
@@ -61,4 +64,5 @@ benefits to melee attack rolls, melee damage rolls, and other uses of the Streng
 
 **Sources:** PRPG Core Rulebook pg 251
 
-This spell functions like bull's strength, except that it affects multiple creatures.
+This spell functions like [bull's strength](ref/spell/bulls-strength), except that it affects
+multiple creatures.

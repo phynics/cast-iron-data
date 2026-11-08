@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "adventurers-guide", "andoran-spirit-of-liberty",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_magic_greater", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/detect-magic" },
+]
 
 [fields]
 kind = "spell"

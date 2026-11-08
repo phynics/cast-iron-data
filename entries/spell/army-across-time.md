@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "army_across_time", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ally-across-time" },
+]
 
 [fields]
 kind = "spell"
@@ -76,6 +79,6 @@ one duplicate in existence at once.
 
 **Sources:** Legacy of the First World pg 30
 
-This spell functions as ally across time as noted above with two exceptions. First, you can summon
-one duplicate per caster level before the spell ends. Second, you can have up to one duplicate in
-existence at a time for every 3 caster levels you have.
+This spell functions as [ally across time as noted above](ref/spell/ally-across-time) with two
+exceptions. First, you can summon one duplicate per caster level before the spell ends. Second, you
+can have up to one duplicate in existence at a time for every 3 caster levels you have.

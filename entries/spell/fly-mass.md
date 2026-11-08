@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fly_mass", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fly" },
+]
 
 [fields]
 kind = "spell"
@@ -73,4 +76,5 @@ and as a dodge bonus to AC. It gains these bonuses only while flying.
 
 **Sources:** Advanced Player's Guide pg 223
 
-This spell functions as fly, save that it can target numerous creatures and lasts longer.
+This spell functions as [fly](ref/spell/fly), save that it can target numerous creatures and lasts
+longer.

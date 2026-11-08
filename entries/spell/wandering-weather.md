@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wandering_weather", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/control-weather" },
+]
 
 [fields]
 kind = "spell"
@@ -86,5 +89,5 @@ regardless of the season, and the weather changes after 1 round.
 
 **Sources:** Ultimate Wilderness pg 237
 
-This spell functions as control weather except you can opt for the weather to remain centered on you
-as you move.
+This spell functions as [control weather](ref/spell/control-weather) except you can opt for the
+weather to remain centered on you as you move.

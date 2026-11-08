@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrying_greater", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/scrying" },
+]
 
 [fields]
 kind = "spell"
@@ -92,8 +95,8 @@ If the save succeeds, you can't attempt to scry on that subject again for at lea
 
 **Sources:** PRPG Core Rulebook pg 337
 
-This spell functions like scrying, except as noted above. Additionally, all of the following spells
-function reliably through the sensor: [detect chaos](ref/spell/detect-chaos),
+This spell functions like [scrying](ref/spell/scrying), except as noted above. Additionally, all of
+the following spells function reliably through the sensor: [detect chaos](ref/spell/detect-chaos),
 [detect evil](ref/spell/detect-evil), [detect good](ref/spell/detect-good),
 [detect law](ref/spell/detect-law), [detect magic](ref/spell/detect-magic),
 [message](ref/spell/message), [read magic](ref/spell/read-magic), and [tongues](ref/spell/tongues).

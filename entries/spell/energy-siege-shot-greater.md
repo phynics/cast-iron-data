@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_siege_shot_greater", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/energy-siege-shot" },
+]
 
 [fields]
 kind = "spell"
@@ -75,5 +78,5 @@ _Force:_ No extra effect.
 
 **Sources:** Ultimate Combat pg 229
 
-This spell functions like energy shot, except it can target siege engines of any size, not just
-Large siege engines.
+This spell functions like [energy siege shot](ref/spell/energy-siege-shot), except it can target
+siege engines of any size, not just Large siege engines.

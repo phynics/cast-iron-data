@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walk_the_plank", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/create-pit" },
+]
 
 [fields]
 kind = "spell"
@@ -66,15 +69,15 @@ bottom of the pit until they are standing on the surface over the course of a si
 
 **Sources:** Advanced Player's Guide pg 204
 
-This spell functions as create pit, except that it places a 5-foot-deep pool of acid at the bottom
-of the pit. The pit has a maximum depth of 100 feet. Creatures who fall into the pit take falling
-damage as normal (the acid counts as a yielding surface), plus 2d6 points of acid damage per round
-spent in contact with the acid. In addition, exposed items carried by a creature in the pit may be
-harmed. Refer to [Table 9-2](ref/rule/saving-throw). Items are affected one at a time in the order
-listed on the table, and must make Fortitude saves after 3 consecutive rounds in the acid or gain
-the broken condition. Objects with the broken condition (regardless of how they became broken) must
-make a Fortitude saving throw each round spent within the acid or be destroyed. The walls of the pit
-are quite slippery and have a Climb DC of 30.
+This spell functions as [create pit](ref/spell/create-pit), except that it places a 5-foot-deep pool
+of acid at the bottom of the pit. The pit has a maximum depth of 100 feet. Creatures who fall into
+the pit take falling damage as normal (the acid counts as a yielding surface), plus 2d6 points of
+acid damage per round spent in contact with the acid. In addition, exposed items carried by a
+creature in the pit may be harmed. Refer to [Table 9-2](ref/rule/saving-throw). Items are affected
+one at a time in the order listed on the table, and must make Fortitude saves after 3 consecutive
+rounds in the acid or gain the broken condition. Objects with the broken condition (regardless of
+how they became broken) must make a Fortitude saving throw each round spent within the acid or be
+destroyed. The walls of the pit are quite slippery and have a Climb DC of 30.
 
 ### Hungry Pit
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undeath_sense", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/detect-undead" },
+]
 
 [fields]
 kind = "spell"
@@ -95,6 +98,6 @@ order that are specific to the living dead, granting the target the ability to s
 undead creatures. The target is constantly aware of whether there are any undead auras within 60
 feet of her in any direction. If at least one undead aura is present, the target can concentrate on
 the spell's effects in order to gain more information on the auras present. This functions similarly
-to detect undead, except the number of rounds of concentration needed to learn about the undead
-auras is reduced by 1 (1 round to learn the number of auras, and 2 rounds to learn the strength and
-location of each aura).
+to [detect undead](ref/spell/detect-undead), except the number of rounds of concentration needed to
+learn about the undead auras is reduced by 1 (1 round to learn the number of auras, and 2 rounds to
+learn the strength and location of each aura).

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tongues_communal", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/tongues" },
+]
 
 [fields]
 kind = "spell"
@@ -75,5 +78,5 @@ Tongues can be made permanent with a [permanency](ref/spell/permanency) spell.
 
 **Sources:** Ultimate Combat pg 248
 
-This spell functions like tongues, except you divide the duration in 10-minute intervals among the
-creatures touched.
+This spell functions like [tongues](ref/spell/tongues), except you divide the duration in 10-minute
+intervals among the creatures touched.

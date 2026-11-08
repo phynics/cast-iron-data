@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_natures_ally_9", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-natures-ally-1" },
+]
 
 [fields]
 kind = "spell"
@@ -176,8 +179,8 @@ This spell functions as summon nature's ally V, except you can summon one kodama
 
 **Sources:** PRPG Core Rulebook pg 354
 
-This spell functions as summon nature's ally I, except that you summon one 2nd-level creature or 1d3
-1st-level creatures of the same kind.
+This spell functions as [summon nature's ally I](ref/spell/summon-natures-ally-1), except that you
+summon one 2nd-level creature or 1d3 1st-level creatures of the same kind.
 
 ### Summon Nature's Ally III
 

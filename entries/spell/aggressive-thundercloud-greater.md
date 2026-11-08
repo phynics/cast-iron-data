@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aggressive_thundercloud_greater", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/aggressive-thundercloud" },
+]
 
 [fields]
 kind = "spell"
@@ -65,6 +68,6 @@ exert any force on corporeal creatures or objects. It disperses if it exceeds th
 
 **Sources:** Advanced Class Guide pg 172
 
-This spell functions as aggressive thundercloud, except it deals 6d6 points of electricity damage to
-any creature it strikes. The first creature damaged by the cloud is also stunned for 1 round
-(Fortitude negates); this is a sonic effect.
+This spell functions as [aggressive thundercloud](ref/spell/aggressive-thundercloud), except it
+deals 6d6 points of electricity damage to any creature it strikes. The first creature damaged by the
+cloud is also stunned for 1 round (Fortitude negates); this is a sonic effect.

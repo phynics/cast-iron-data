@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_giant_ally_3", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-giant-ally-1" },
+]
 
 [fields]
 kind = "spell"
@@ -53,8 +56,9 @@ casting time is shorter and you can summon one cave, hill, marsh, river, slag, s
 
 **Sources:** Inner Sea Races pg 223
 
-This spell functions as summon giant ally I, except you can summon one desert, fire, frost, or
-jungle giant or 1d3 cave, hill, marsh, river, slag, stone, or wood giants.
+This spell functions as [summon giant ally I](ref/spell/summon-giant-ally-1), except you can summon
+one desert, fire, frost, or jungle giant or 1d3 cave, hill, marsh, river, slag, stone, or wood
+giants.
 
 ### Summon Giant Ally III
 

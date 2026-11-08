@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knock_mass", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/knock" },
+]
 
 [fields]
 kind = "spell"
@@ -84,5 +87,5 @@ locked doors.
 
 **Sources:** Inner Sea Temples pg 23
 
-Also known as "unshackle," this spell functions as knock, but works on multiple means of closure at
-once.
+Also known as "unshackle," this spell functions as [knock](ref/spell/knock), but works on multiple
+means of closure at once.

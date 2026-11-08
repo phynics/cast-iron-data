@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-wilderness", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tectonic_communion", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/commune" },
+]
 
 [fields]
 kind = "spell"
@@ -61,11 +64,11 @@ construction or settlement, such as in dungeons and towns.
 
 **Sources:** Ultimate Wilderness pg 235
 
-This spell functions as commune with nature except it reveals up to three details about the
-territory you currently occupy from the following list: bodies of water, features, minerals, or
-plants. For each feature you learn about, you automatically know the skills you can use to discover
-that feature and you gain 1d6 [Discovery Points](ref/rule/discovery-and-exploration) toward finding
-it.
+This spell functions as [commune](ref/spell/commune) with nature except it reveals up to three
+details about the territory you currently occupy from the following list: bodies of water, features,
+minerals, or plants. For each feature you learn about, you automatically know the skills you can use
+to discover that feature and you gain 1d6 [Discovery Points](ref/rule/discovery-and-exploration)
+toward finding it.
 
 ### Tectonic Communion
 

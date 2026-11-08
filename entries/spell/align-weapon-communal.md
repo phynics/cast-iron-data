@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "align_weapon_communal", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/align-weapon" },
+]
 
 [fields]
 kind = "spell"
@@ -56,6 +59,7 @@ respectively.
 
 **Sources:** Advanced Class Guide pg 173
 
-This spell functions as align weapon, except you divide the duration in 1-minute increments between
-any number of touched weapons. Every group of up to 50 projectiles (which must be together at the
-time of casting) counts as one weapon for the purpose of dividing the spell's duration.
+This spell functions as [align weapon](ref/spell/align-weapon), except you divide the duration in
+1-minute increments between any number of touched weapons. Every group of up to 50 projectiles
+(which must be together at the time of casting) counts as one weapon for the purpose of dividing the
+spell's duration.

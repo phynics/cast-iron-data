@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_demiplane", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/create-demiplane-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -102,12 +105,12 @@ casting's area requires its own permanency spell.
 
 **Sources:** Ultimate Magic pg 213
 
-This spell functions as create lesser demiplane, except the area is larger and you can add more
-features to the plane. You can use this spell to expand a demiplane you created with create lesser
-demiplane (you do not need to create an entirely new plane using this spell), in which case it has a
-duration of 1 day/level. Alternatively, when cast within your demiplane, you may add (or remove) one
-of the following features to your demiplane with each casting of the spell, in which case it has an
-instantaneous duration.
+This spell functions as [create lesser demiplane](ref/spell/create-demiplane-lesser), except the
+area is larger and you can add more features to the plane. You can use this spell to expand a
+demiplane you created with create lesser demiplane (you do not need to create an entirely new plane
+using this spell), in which case it has a duration of 1 day/level. Alternatively, when cast within
+your demiplane, you may add (or remove) one of the following features to your demiplane with each
+casting of the spell, in which case it has an instantaneous duration.
 
 **Alignment:** Your plane gains the (mildly) chaos-, good-, evil-, law-, or neutral-aligned
 alignment trait (see [Alignment Traits](ref/rule/alignment-traits)). You cannot give your demiplane

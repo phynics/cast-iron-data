@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_sight_greater", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/arcane-sight" },
+]
 
 [fields]
 kind = "spell"
@@ -70,7 +73,7 @@ Arcane sight can be made permanent with a [permanency](ref/spell/permanency) spe
 
 **Sources:** PRPG Core Rulebook pg 244
 
-This spell functions like arcane sight, except that you automatically know which spells or magical
-effects are active upon any individual or object you see.
+This spell functions like [arcane sight](ref/spell/arcane-sight), except that you automatically know
+which spells or magical effects are active upon any individual or object you see.
 
 Unlike arcane sight, this spell cannot be made permanent with a permanency spell.

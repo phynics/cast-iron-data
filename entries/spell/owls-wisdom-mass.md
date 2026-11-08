@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owls_wisdom_mass", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/owls-wisdom" },
+]
 
 [fields]
 kind = "spell"
@@ -62,4 +65,5 @@ Wisdom, but the save DCs for their spells increase.
 
 **Sources:** PRPG Core Rulebook pg 318
 
-This spell functions like owl's wisdom, except that it affects multiple creatures.
+This spell functions like [owl's wisdom](ref/spell/owls-wisdom), except that it affects multiple
+creatures.

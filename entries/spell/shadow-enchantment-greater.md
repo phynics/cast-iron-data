@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_enchantment_greater", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shadow-enchantment" },
+]
 
 [fields]
 kind = "spell"
@@ -69,6 +72,7 @@ mind-affecting effects automatically succeed at their Will saves against this sp
 
 **Sources:** Occult Realms pg 17
 
-This spell functions like shadow enchantment, except that it enables you to create partially real,
-illusory versions of psychic, sorcerer, or wizard enchantment spells of 5th level or lower. If the
-spell is recognized as a greater shadow enchantment, it's only three-fifths (60%) as effective.
+This spell functions like [shadow enchantment](ref/spell/shadow-enchantment), except that it enables
+you to create partially real, illusory versions of psychic, sorcerer, or wizard enchantment spells
+of 5th level or lower. If the spell is recognized as a greater shadow enchantment, it's only
+three-fifths (60%) as effective.

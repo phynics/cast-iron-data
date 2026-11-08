@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_conduit_greater", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/eldritch-conduit" },
+]
 
 [fields]
 kind = "spell"
@@ -61,7 +64,7 @@ until you get back within range.
 
 **Sources:** Inner Sea Magic pg 54
 
-This spell functions like eldritch conduit save for the differences listed above and that the target
-must be within medium range (100 ft. + 10 ft./level) in order for you to use the conduit. Using a
-creature as a conduit for a spell ends the greater eldritch conduit effect on that creature, but
-does not end the effect for other eldritch conduits.
+This spell functions like [eldritch conduit](ref/spell/eldritch-conduit) save for the differences
+listed above and that the target must be within medium range (100 ft. + 10 ft./level) in order for
+you to use the conduit. Using a creature as a conduit for a spell ends the greater eldritch conduit
+effect on that creature, but does not end the effect for other eldritch conduits.

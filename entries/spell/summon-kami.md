@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_kami", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-natures-ally-5" },
+]
 
 [fields]
 kind = "spell"
@@ -169,8 +172,8 @@ the summoning spell's type match your alignment.
 
 > _The following spell is available to the indicated race or ethnicity: Tian_
 
-This spell functions as summon nature's ally V, except you can summon one kodama, 1d3 fukujin, or
-1d4+1 shikigami.
+This spell functions as [summon nature's ally V](ref/spell/summon-natures-ally-5), except you can
+summon one kodama, 1d3 fukujin, or 1d4+1 shikigami.
 
 ### Summon Nature's Ally II
 

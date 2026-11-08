@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_summons_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/instant-summons" },
+]
 
 [fields]
 kind = "spell"
@@ -67,8 +70,8 @@ it.
 
 **Sources:** Ultimate Intrigue pg 217
 
-This spell functions as instant summons, except that you can target multiple objects. You must use a
-separate sapphire worth 1,000 gp for each one. For each item you target, you can touch a creature,
-granting that creature the ability to speak the special word for that item (each item has its own
-special word) while crushing the matched gem to call the item to hand. Only you or the touched
-creature can activate the gem or see the arcane mark upon it.
+This spell functions as [instant summons](ref/spell/instant-summons), except that you can target
+multiple objects. You must use a separate sapphire worth 1,000 gp for each one. For each item you
+target, you can touch a creature, granting that creature the ability to speak the special word for
+that item (each item has its own special word) while crushing the matched gem to call the item to
+hand. Only you or the touched creature can activate the gem or see the arcane mark upon it.

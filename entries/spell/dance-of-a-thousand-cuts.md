@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dance_of_a_thousand_cuts", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dance-of-a-hundred-cuts" },
+]
 
 [fields]
 kind = "spell"
@@ -53,4 +56,5 @@ melee attack, the spell's duration ends.
 
 **Sources:** Ultimate Magic pg 216
 
-This spell functions as dance of a hundred cuts, except you also gain the benefits of haste.
+This spell functions as [dance of a hundred cuts](ref/spell/dance-of-a-hundred-cuts), except you
+also gain the benefits of haste.

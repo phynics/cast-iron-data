@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prognostication", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/divination" },
+]
 
 [fields]
 kind = "spell"
@@ -65,9 +68,10 @@ result as the first divination spell and yield the same answer each time.
 
 **Sources:** Ultimate Intrigue pg 223
 
-You glimpse the future. Prognostication functions as divination except that the spell can see up to
-a year and a day into the future. Because of the increased unpredictability of the distant future,
-prognostication is significantly more cryptic than the already-cryptic divination spell.
+You glimpse the future. Prognostication functions as [divination](ref/spell/divination) except that
+the spell can see up to a year and a day into the future. Because of the increased unpredictability
+of the distant future, prognostication is significantly more cryptic than the already-cryptic
+divination spell.
 
 ### True Prognostication
 

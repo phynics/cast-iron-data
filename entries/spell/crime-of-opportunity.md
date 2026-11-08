@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crime_of_opportunity", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/crime-wave" },
+]
 
 [fields]
 kind = "spell"
@@ -54,8 +57,8 @@ Descriptors: mind-affecting
 **Sources:** Ultimate Intrigue pg 208
 
 You instill overwhelming avarice in the targets and impel them toward a wild spree of larceny.
-Creatures affected by a crime wave must roll percentile dice each round to determine what action
-they take.
+Creatures affected by a [crime wave](ref/spell/crime-wave) must roll percentile dice each round to
+determine what action they take.
 
 |d%|Behavior|
 | --- | --- |

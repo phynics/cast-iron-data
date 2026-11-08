@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_walk_communal", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/air-walk" },
+]
 
 [fields]
 kind = "spell"
@@ -73,5 +76,5 @@ week of work and a DC 25 Handle Animal check.
 
 **Sources:** Ultimate Combat pg 222
 
-This spell functions like air walk, except divide the duration in 10-minute intervals among the
-creatures touched.
+This spell functions like [air walk](ref/spell/air-walk), except divide the duration in 10-minute
+intervals among the creatures touched.

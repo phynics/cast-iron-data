@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleeting_memory_mass", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fleeting-memory" },
+]
 
 [fields]
 kind = "spell"
@@ -63,4 +66,5 @@ Whether or not the target's save is successful, the target forgets that you cast
 
 **Sources:** Black Markets pg 25
 
-This spell functions as fleeting memory, except that it affects multiple creatures.
+This spell functions as [fleeting memory](ref/spell/fleeting-memory), except that it affects
+multiple creatures.

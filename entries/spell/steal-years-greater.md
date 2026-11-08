@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_years_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/steal-years" },
+]
 
 [fields]
 kind = "spell"
@@ -64,5 +67,5 @@ When the spell ends, the sudden weight of aging makes you fatigued for 1d4 hours
 
 **Sources:** Blood of the Night pg 30
 
-This spell functions like steal years, except you drain 1d6 years per two caster levels (maximum
-10d6).
+This spell functions like [steal years](ref/spell/steal-years), except you drain 1d6 years per two
+caster levels (maximum 10d6).

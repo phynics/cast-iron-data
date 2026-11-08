@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "inner-sea-intrigue", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nexs_secret_workshop", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/nondetection" },
+]
 
 [fields]
 kind = "spell"
@@ -72,8 +75,8 @@ If cast on a creature, nondetection wards the creature's gear as well as the cre
 **Sources:** Inner Sea Intrigue pg 60
 
 Designed to protect a large number of items from rivals of the Arclords of Nex, this spell functions
-as nondetection except as noted above. You can exclude any creatures or objects in the spell's range
-when casting this spell, if you wish.
+as [nondetection](ref/spell/nondetection) except as noted above. You can exclude any creatures or
+objects in the spell's range when casting this spell, if you wish.
 
 ### Communal Nondetection
 

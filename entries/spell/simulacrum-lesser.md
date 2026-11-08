@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simulacrum_lesser", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/simulacrum" },
+]
 
 [fields]
 kind = "spell"
@@ -67,6 +70,6 @@ simulacrum.
 
 **Sources:** Ultimate Magic pg 238
 
-This spell functions as simulacrum, except you can't create a simulacrum of a creature whose HD or
-levels exceed your caster level, and it has no magical abilities. The creature is not under your
-control, though it recognizes you are its creator.
+This spell functions as [simulacrum](ref/spell/simulacrum), except you can't create a simulacrum of
+a creature whose HD or levels exceed your caster level, and it has no magical abilities. The
+creature is not under your control, though it recognizes you are its creator.

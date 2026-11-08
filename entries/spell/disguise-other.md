@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disguise_other", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/disguise-self" },
+]
 
 [fields]
 kind = "spell"
@@ -72,4 +75,5 @@ with the glamer gets a Will save to recognize it as an illusion.
 
 **Sources:** Ultimate Magic pg 217
 
-This spell functions as disguise self, except you can disguise either yourself or another creature.
+This spell functions as [disguise self](ref/spell/disguise-self), except you can disguise either
+yourself or another creature.

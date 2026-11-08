@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_immunity_communal", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spell-immunity" },
+]
 
 [fields]
 kind = "spell"
@@ -65,8 +68,8 @@ spell immunity spell in effect on it at a time.
 
 **Sources:** Ultimate Combat pg 244
 
-This spell functions like spell immunity, except you divide the duration in 10-minute intervals
-among the creatures touched.
+This spell functions like [spell immunity](ref/spell/spell-immunity), except you divide the duration
+in 10-minute intervals among the creatures touched.
 
 ### Greater Spell Immunity
 

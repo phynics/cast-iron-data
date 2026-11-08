@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_from_undead_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hide-from-undead" },
+]
 
 [fields]
 kind = "spell"
@@ -58,8 +61,8 @@ creature (even with a spell), the spell ends for all recipients.
 
 **Sources:** People of the Wastes pg 29
 
-This spell functions as hide from undead, except the spell does not immediately end if a warded
-creature attempts to turn or command undead, channels positive energy, touches an undead creature,
-or attacks any creature. Instead, when the warded creature takes one of these actions, an
-intelligent undead creature can attempt another Will saving throw to negate the effects of the
-spell.
+This spell functions as [hide from undead](ref/spell/hide-from-undead), except the spell does not
+immediately end if a warded creature attempts to turn or command undead, channels positive energy,
+touches an undead creature, or attacks any creature. Instead, when the warded creature takes one of
+these actions, an intelligent undead creature can attempt another Will saving throw to negate the
+effects of the spell.

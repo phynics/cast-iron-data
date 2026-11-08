@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_physique_4", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/monstrous-physique-3" },
+]
 
 [fields]
 kind = "spell"
@@ -164,9 +167,9 @@ to touch and the target to one creature per tier.
 
 **Sources:** Ultimate Magic pg 229
 
-This spell functions as monstrous physique III except it allows you to use more abilities. If the
-form you assume has any of the following abilities, you gain the listed ability: burrow 60 feet,
-climb 90 feet, fly 120 feet (good maneuverability), swim 120 feet,
+This spell functions as [monstrous physique III](ref/spell/monstrous-physique-3) except it allows
+you to use more abilities. If the form you assume has any of the following abilities, you gain the
+listed ability: burrow 60 feet, climb 90 feet, fly 120 feet (good maneuverability), swim 120 feet,
 [blindsense](ref/rule/blindsight-and-blindsense) 60 feet, [darkvision](ref/rule/darkvision) 90 feet,
 [low-light vision](ref/rule/low-light-vision), scent, [tremorsense](ref/umr/tremorsense) 60 feet,
 blood frenzy, breath weapon, cold vigor, constrict, ferocity, freeze, grab, horrific appearance,

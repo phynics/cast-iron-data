@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_barrier_3", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mental-barrier-1" },
+]
 
 [fields]
 kind = "spell"
@@ -49,9 +52,9 @@ a successful Will save).
 
 **Sources:** Occult Adventures pg 175
 
-This spell functions as mental barrier I, but the shield bonus to AC increases to +6. In addition,
-you take half damage from mind thrust I, II, and III (reduced to one-quarter on a successful Will
-save). This spell can be undercast.
+This spell functions as [mental barrier I](ref/spell/mental-barrier-1), but the shield bonus to AC
+increases to +6. In addition, you take half damage from mind thrust I, II, and III (reduced to
+one-quarter on a successful Will save). This spell can be undercast.
 
 ### Mental Barrier III
 

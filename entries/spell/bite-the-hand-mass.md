@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bite_the_hand_mass", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bite-the-hand" },
+]
 
 [fields]
 kind = "spell"
@@ -63,5 +66,5 @@ creatures not explicitly summoned, such as a paladin's mount or wizard's familia
 
 **Sources:** Pathfinder Society Field Guide pg 57
 
-This spell functions like bite the hand, except as noted above. The target creatures do not need to
-have all been summoned by the same being.
+This spell functions like [bite the hand](ref/spell/bite-the-hand), except as noted above. The
+target creatures do not need to have all been summoned by the same being.

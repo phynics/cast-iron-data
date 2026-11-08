@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_speech_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shield-speech" },
+]
 
 [fields]
 kind = "spell"
@@ -60,6 +63,6 @@ The spell does not shield writing, sign language, or any form of communication o
 
 **Sources:** Taldor, Echoes of Glory pg 25
 
-This spell functions as shield speech, except all creatures within the dome may communicate with
-each other as if linked by shield speech. If they speak with anyone outside the area, those outside
-the area hear them normally.
+This spell functions as [shield speech](ref/spell/shield-speech), except all creatures within the
+dome may communicate with each other as if linked by shield speech. If they speak with anyone
+outside the area, those outside the area hear them normally.

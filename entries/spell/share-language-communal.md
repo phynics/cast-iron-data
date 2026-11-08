@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "black-markets", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_language_communal", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/share-language" },
+]
 
 [fields]
 kind = "spell"
@@ -75,10 +78,10 @@ threats, or outright bribery.
 
 **Sources:** Black Markets pg 24
 
-This spell functions as share language, granting a creature the ability to read, understand, and
-communicate to the best of its ability in any one language you know. For the spell's entire
-duration, the target can speak and write only in the language imparted, but its ability to
-understand other languages is unaffected.
+This spell functions as [share language](ref/spell/share-language), granting a creature the ability
+to read, understand, and communicate to the best of its ability in any one language you know. For
+the spell's entire duration, the target can speak and write only in the language imparted, but its
+ability to understand other languages is unaffected.
 
 ### Communal Share Language
 

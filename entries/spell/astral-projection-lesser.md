@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral_projection_lesser", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/astral-projection" },
+]
 
 [fields]
 kind = "spell"
@@ -82,5 +85,6 @@ When this spell ends, your astral body and all of its gear, vanishes.
 
 **Sources:** Ultimate Magic pg 207
 
-This spell functions as astral projection, except you cannot leave the Astral Plane and explore
-other planes (though you can still return to the plane you were on when you cast this spell).
+This spell functions as [astral projection](ref/spell/astral-projection), except you cannot leave
+the Astral Plane and explore other planes (though you can still return to the plane you were on when
+you cast this spell).

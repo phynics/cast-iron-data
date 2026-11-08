@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "audiovisual_hallucination", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/auditory-hallucination" },
+]
 
 [fields]
 kind = "spell"
@@ -65,10 +68,10 @@ targets hear the same hallucination. You can change the sound as part of concent
 
 **Sources:** Ultimate Intrigue pg 204
 
-This spell functions as auditory hallucination, except that you can include the image of any object,
-creature, or force you imagine or identify for the targets to imagine. You can move the image while
-you concentrate. After you cease concentration, you can define simple movements or changes for the
-phantasm to perform that can be explained in 25 words or fewer.
+This spell functions as [auditory hallucination](ref/spell/auditory-hallucination), except that you
+can include the image of any object, creature, or force you imagine or identify for the targets to
+imagine. You can move the image while you concentrate. After you cease concentration, you can define
+simple movements or changes for the phantasm to perform that can be explained in 25 words or fewer.
 
 The image disappears when struck by an opponent unless you cause the illusion to react appropriately
 or instruct it to do so. Its AC is equal to 10 + the level of this spell.

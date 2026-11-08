@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rend_body_4", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/rend-body-3" },
+]
 
 [fields]
 kind = "spell"
@@ -72,6 +75,6 @@ as the bleed damage persists. This spell can be undercast.
 
 **Sources:** Psychic Anthology pg 10
 
-This functions as per rend body III, but the target takes 1d8 points of damage per caster level
-(maximum 20d8), and one of the target's limbs is ripped off if the amount of damage dealt is greater
-than 1/4 of its maximum hit point total. This spell can be undercast.
+This functions as per [rend body III](ref/spell/rend-body-3), but the target takes 1d8 points of
+damage per caster level (maximum 20d8), and one of the target's limbs is ripped off if the amount of
+damage dealt is greater than 1/4 of its maximum hit point total. This spell can be undercast.

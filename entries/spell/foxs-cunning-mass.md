@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foxs_cunning_mass", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/foxs-cunning" },
+]
 
 [fields]
 kind = "spell"
@@ -59,4 +62,5 @@ under this spell's effect do increase. This spell doesn't grant extra skill rank
 
 **Sources:** PRPG Core Rulebook pg 286
 
-This spell functions like fox's cunning, except that it affects multiple creatures.
+This spell functions like [fox's cunning](ref/spell/foxs-cunning), except that it affects multiple
+creatures.

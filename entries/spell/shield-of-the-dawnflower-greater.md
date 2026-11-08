@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide", "gods-and-magic", "mythic-origins", "inne
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_the_dawnflower_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shield-of-the-dawnflower" },
+]
 
 [fields]
 kind = "spell"

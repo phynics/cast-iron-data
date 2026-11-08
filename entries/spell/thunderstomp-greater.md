@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderstomp_greater", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/thunderstomp" },
+]
 
 [fields]
 kind = "spell"
@@ -62,6 +65,6 @@ target is not in contact with the ground or floor.
 
 **Sources:** Advanced Class Guide pg 196
 
-This spell functions as thunderstomp, except as noted, and it affects all creatures in the area,
-regardless of size. When you attempt the combat maneuver check, apply its result to each creature
-within the area.
+This spell functions as [thunderstomp](ref/spell/thunderstomp), except as noted, and it affects all
+creatures in the area, regardless of size. When you attempt the combat maneuver check, apply its
+result to each creature within the area.

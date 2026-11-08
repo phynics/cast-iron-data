@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinforce_armaments_communal", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/reinforce-armaments" },
+]
 
 [fields]
 kind = "spell"
@@ -61,5 +64,5 @@ or weapons, their hardness is doubled for the duration of the spell.
 
 **Sources:** Ultimate Combat pg 241
 
-This spell functions like reinforce armaments, except you divide the duration in 10-minute intervals
-among the objects touched.
+This spell functions like [reinforce armaments](ref/spell/reinforce-armaments), except you divide
+the duration in 10-minute intervals among the objects touched.

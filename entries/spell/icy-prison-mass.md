@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icy_prison_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/icy-prison" },
+]
 
 [fields]
 kind = "spell"
@@ -57,4 +60,4 @@ with a successful Strength check (DC 15 + your caster level).
 
 **Sources:** Ultimate Magic pg 224
 
-This spell functions as icy prison, except as noted above.
+This spell functions as [icy prison](ref/spell/icy-prison), except as noted above.

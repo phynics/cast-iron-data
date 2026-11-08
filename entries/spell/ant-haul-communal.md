@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ant_haul_communal", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ant-haul" },
+]
 
 [fields]
 kind = "spell"
@@ -66,5 +69,5 @@ for doing so regardless of how much weight the spell allows it to carry.
 
 **Sources:** Ultimate Combat pg 223
 
-This spell functions like ant haul, except you may divide the duration in 2-hour intervals among the
-creatures touched.
+This spell functions like [ant haul](ref/spell/ant-haul), except you may divide the duration in
+2-hour intervals among the creatures touched.

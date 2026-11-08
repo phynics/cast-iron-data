@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue", "adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathetic_aura", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-aura" },
+]
 
 [fields]
 kind = "spell"
@@ -70,8 +73,8 @@ make, for example, looks suspicious if it has a magical aura.
 
 **Sources:** Ultimate Intrigue pg 219
 
-If cast on an object, this spell functions as magic aura, except that if you have identified the
-unique spellcasting signatures of a specific individual with
+If cast on an object, this spell functions as [magic aura](ref/spell/magic-aura), except that if you
+have identified the unique spellcasting signatures of a specific individual with
 [greater detect magic](ref/spell/detect-magic-greater) or a similar spell, you can make the magic
 aura appear to have been created by that individual. Alternatively, you can simply obscure all
 identifiers, making it more difficult to determine who cast the spell. In either case, if the object

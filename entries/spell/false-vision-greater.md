@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_vision_greater", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/false-vision" },
+]
 
 [fields]
 kind = "spell"
@@ -62,12 +65,13 @@ concentrating, the image remains static.
 
 **Sources:** Ultimate Intrigue pg 214
 
-This functions similarly to false vision, but instead of placing the illusion on a nearby area, you
-can tie it to a specific individual, and can do so from great distances. The spell can be cast at
-any distance. The difficulty of the save depends on your knowledge of the subject and what sort of
-physical connection (if any) you have to that creature. The target gains the same bonuses and
-penalties on its Will save to resist this spell as the bonuses and penalties that apply to the
-scrying spell (including a +5 bonus if the target is on another plane).
+This functions similarly to [false vision](ref/spell/false-vision), but instead of placing the
+illusion on a nearby area, you can tie it to a specific individual, and can do so from great
+distances. The spell can be cast at any distance. The difficulty of the save depends on your
+knowledge of the subject and what sort of physical connection (if any) you have to that creature.
+The target gains the same bonuses and penalties on its Will save to resist this spell as the bonuses
+and penalties that apply to the scrying spell (including a +5 bonus if the target is on another
+plane).
 
 The illusion created by the spell moves with the target, and is not stationary. The image can affect
 the way the target is perceived, the way the target's surroundings are perceived, and the way that

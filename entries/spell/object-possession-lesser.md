@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_possession_lesser", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/possession" },
+]
 
 [fields]
 kind = "spell"

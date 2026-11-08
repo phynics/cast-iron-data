@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synesthesia_mass", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/synesthesia" },
+]
 
 [fields]
 kind = "spell"
@@ -62,4 +65,4 @@ checks. Effects that negate or reduce concealment do not affect the miss chance 
 
 **Sources:** Occult Adventures pg 188
 
-This spell functions like synesthesia, except as noted above.
+This spell functions like [synesthesia](ref/spell/synesthesia), except as noted above.

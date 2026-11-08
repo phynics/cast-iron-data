@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_glyph_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hex-glyph" },
+]
 
 [fields]
 kind = "spell"
@@ -55,9 +58,9 @@ hex, but does not indicate the effect of that hex.
 
 **Sources:** Advanced Class Guide pg 184
 
-This spell functions as hex glyph, except you can store a hex or a major hex (but not a grand hex).
-You trace the glyph with incense, which must first be sprinkled with powdered diamond (as noted in
-the material line).
+This spell functions as [hex glyph](ref/spell/hex-glyph), except you can store a hex or a major hex
+(but not a grand hex). You trace the glyph with incense, which must first be sprinkled with powdered
+diamond (as noted in the material line).
 
 [Read magic](ref/spell/read-magic) allows its caster to identify a greater hex glyph with a DC 16
 Spellcraft check.

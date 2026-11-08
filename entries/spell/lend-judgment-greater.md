@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lend_judgment_greater", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/lend-judgment" },
+]
 
 [fields]
 kind = "spell"
@@ -51,4 +54,5 @@ when you cast this spell.
 
 **Sources:** Ultimate Magic pg 227
 
-This functions as lend judgment, except the ally gains the benefit of all your active judgments.
+This functions as [lend judgment](ref/spell/lend-judgment), except the ally gains the benefit of all
+your active judgments.

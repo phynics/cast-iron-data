@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_fortune_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/heroic-fortune" },
+]
 
 [fields]
 kind = "spell"
@@ -54,4 +57,4 @@ possess.
 
 **Sources:** Advanced Player's Guide pg 324
 
-This spell functions like heroic fortune, except as noted above.
+This spell functions like [heroic fortune](ref/spell/heroic-fortune), except as noted above.

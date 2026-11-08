@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_body_2", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/elemental-body-1" },
+]
 
 [fields]
 kind = "spell"
@@ -95,8 +98,9 @@ earth: acid, fire: fire, water: cold).
 
 **Sources:** PRPG Core Rulebook pg 276
 
-This spell functions as elemental body I, except that it also allows you to assume the form of a
-Medium air, earth, fire, or water elemental. The abilities you gain depend upon the elemental.
+This spell functions as [elemental body I](ref/spell/elemental-body-1), except that it also allows
+you to assume the form of a Medium air, earth, fire, or water elemental. The abilities you gain
+depend upon the elemental.
 
 _Air elemental:_ As elemental body I except that you gain a +4 size bonus to your Dexterity and a +3
 natural armor bonus.

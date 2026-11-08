@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-wilderness", "the-first-world-realm-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_gate", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/gate" },
+]
 
 [fields]
 kind = "spell"
@@ -107,8 +110,9 @@ lawful, or water creature, it becomes a spell of that type.
 
 **Sources:** Ultimate Wilderness pg 230, The First World, Realm of the Fey pg 12
 
-This spell functions as the planar travel function of gate, except it can be used to travel only
-between points on the Material Plane and the First World, and it comes with additional dangers.
+This spell functions as [the planar travel function of gate](ref/spell/gate), except it can be used
+to travel only between points on the Material Plane and the First World, and it comes with
+additional dangers.
 
 This spell forms a circular portal between 5 and 20 feet in diameter (your choice) oriented in the
 direction you desire when it comes into being (typically vertical and facing you). The portal is

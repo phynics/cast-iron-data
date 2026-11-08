@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_tentacles", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/black-tentacles" },
+]
 
 [fields]
 kind = "spell"
@@ -91,11 +94,11 @@ combat maneuver checks to grapple such creatures take a -5 penalty.
 
 **Sources:** Dirty Tactics Toolbox pg 30
 
-This spell functions as black tentacles, except the tentacles blindly grasp at the targets' eyes and
-ears, and tug at their hair, clothes, and equipment. Instead of grapple attempts, the tentacles
-attempt dirty trick combat maneuver checks (CMB = your caster level + 4 \[the tentacles' Strength
-bonus\] + 1 \[the tentacles' size bonus\]). Roll on the following table to determine the effect of a
-successful dirty trick combat maneuver check.
+This spell functions as [black tentacles](ref/spell/black-tentacles), except the tentacles blindly
+grasp at the targets' eyes and ears, and tug at their hair, clothes, and equipment. Instead of
+grapple attempts, the tentacles attempt dirty trick combat maneuver checks (CMB = your caster
+level + 4 \[the tentacles' Strength bonus\] + 1 \[the tentacles' size bonus\]). Roll on the
+following table to determine the effect of a successful dirty trick combat maneuver check.
 
 |d%|Effect|
 | --- | --- |

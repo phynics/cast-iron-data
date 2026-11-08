@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_of_discord_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/song-of-discord" },
+]
 
 [fields]
 kind = "spell"
@@ -60,7 +63,7 @@ advantageous combat tactics. They do not, however, harm targets that have fallen
 
 **Sources:** Chronicle of Legends pg 14
 
-This spell functions as song of discord except that affected creatures automatically attack the
-nearest target each round. In addition, all affected creatures gain a +4 morale bonus to Strength
-for the duration of the spell. A creature that succeeds at the Will save reduces the effect's
-duration to 1 round.
+This spell functions as [song of discord](ref/spell/song-of-discord) except that affected creatures
+automatically attack the nearest target each round. In addition, all affected creatures gain a +4
+morale bonus to Strength for the duration of the spell. A creature that succeeds at the Will save
+reduces the effect's duration to 1 round.

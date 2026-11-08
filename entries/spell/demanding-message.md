@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demanding_message", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/message" },
+]
 
 [fields]
 kind = "spell"
@@ -69,7 +72,7 @@ you must mouth the words and whisper.
 
 **Sources:** Ultimate Intrigue pg 210
 
-This spell initially functions as message (allowing no save or
+This spell initially functions as [message (allowing no](ref/spell/message) save or
 [spell resistance](ref/rule/spell-resistance)). Once during the message effect, you can concentrate
 as a standard action to issue a suggestion to one target as part of delivering a message. Spell
 resistance and a Will save apply to the suggestion, and it lasts for 1 hour per level or until

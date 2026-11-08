@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_walk_communal", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/water-walk" },
+]
 
 [fields]
 kind = "spell"
@@ -66,5 +69,5 @@ stand on it.
 
 **Sources:** Ultimate Combat pg 249
 
-This spell functions like water walk, except you divide the duration in 10-minute intervals among
-the creatures touched.
+This spell functions like [water walk](ref/spell/water-walk), except you divide the duration in
+10-minute intervals among the creatures touched.

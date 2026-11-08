@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_physique_3", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/monstrous-physique-2" },
+]
 
 [fields]
 kind = "spell"
@@ -123,15 +126,15 @@ to touch and the target to one creature per tier.
 
 **Sources:** Ultimate Magic pg 229
 
-This spell functions as monstrous physique II, except it also allows you to assume the form of a
-Diminutive or Huge creature of the monstrous humanoid type. If the form you assume has any of the
-following abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly 90 feet (good
-maneuverability), swim 90 feet, all-around vision, [blindsense](ref/rule/blindsight-and-blindsense)
-30 feet, [darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision),
-scent, blood frenzy, cold vigor, constrict, ferocity, freeze, grab, horrific appearance, jet, leap
-attack, mimicry, natural cunning, overwhelming, poison, pounce, rake, sound mimicry, speak with
-sharks, trample, trip, and web. If the creature has the undersized weapons special quality, you gain
-that quality.
+This spell functions as [monstrous physique II](ref/spell/monstrous-physique-2), except it also
+allows you to assume the form of a Diminutive or Huge creature of the monstrous humanoid type. If
+the form you assume has any of the following abilities, you gain the listed ability: burrow 30 feet,
+climb 90 feet, fly 90 feet (good maneuverability), swim 90 feet, all-around vision,
+[blindsense](ref/rule/blindsight-and-blindsense) 30 feet, [darkvision](ref/rule/darkvision) 60 feet,
+[low-light vision](ref/rule/low-light-vision), scent, blood frenzy, cold vigor, constrict, ferocity,
+freeze, grab, horrific appearance, jet, leap attack, mimicry, natural cunning, overwhelming, poison,
+pounce, rake, sound mimicry, speak with sharks, trample, trip, and web. If the creature has the
+undersized weapons special quality, you gain that quality.
 
 _Diminutive monstrous humanoid:_ If the form you take is that of a Diminutive monstrous humanoid,
 you gain a +6 size bonus to your Dexterity, a -4 penalty to your Strength, and a +1 natural armor

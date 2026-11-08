@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fester_mass", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fester" },
+]
 
 [fields]
 kind = "spell"
@@ -53,4 +56,4 @@ round.
 
 **Sources:** Advanced Player's Guide pg 221
 
-This spell functions as fester, except that it affects multiple foes.
+This spell functions as [fester](ref/spell/fester), except that it affects multiple foes.

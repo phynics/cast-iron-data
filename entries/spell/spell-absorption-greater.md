@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_absorption_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spell-absorption" },
+]
 
 [fields]
 kind = "spell"
@@ -54,5 +57,5 @@ must be of an equal level or lower than the spell you counterspelled.
 
 **Sources:** Inner Sea Magic pg 61
 
-This spell functions as spell absorption, save that you can absorb countered spells of 6th level or
-lower.
+This spell functions as [spell absorption](ref/spell/spell-absorption), save that you can absorb
+countered spells of 6th level or lower.

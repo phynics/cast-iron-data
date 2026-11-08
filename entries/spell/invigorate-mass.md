@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorate_mass", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/invigorate" },
+]
 
 [fields]
 kind = "spell"
@@ -58,4 +61,4 @@ first effect immediately ends.
 
 **Sources:** Advanced Player's Guide pg 230
 
-This spell works as invigorate, except that it affects multiple creatures.
+This spell works as [invigorate](ref/spell/invigorate), except that it affects multiple creatures.

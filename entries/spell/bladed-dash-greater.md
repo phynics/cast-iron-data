@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladed_dash_greater", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bladed-dash" },
+]
 
 [fields]
 kind = "spell"
@@ -59,6 +62,6 @@ along the trajectory, the spell fails. Despite the name, the spell works with an
 
 **Sources:** Inner Sea Magic pg 52
 
-This spell functions like bladed dash, save that you can make a single melee attack against every
-creature you pass during the 30 feet of your dash. You cannot attack an individual creature more
-than once with spell.
+This spell functions like [bladed dash](ref/spell/bladed-dash), save that you can make a single
+melee attack against every creature you pass during the 30 feet of your dash. You cannot attack an
+individual creature more than once with spell.

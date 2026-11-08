@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "path_of_glory_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/path-of-glory" },
+]
 
 [fields]
 kind = "spell"
@@ -57,5 +60,5 @@ healed of 1 point of damage.
 
 **Sources:** Advanced Class Guide pg 189
 
-This spell functions as path of glory, except as noted above, and a square provides 5 points of
-healing instead of 1.
+This spell functions as [path of glory](ref/spell/path-of-glory), except as noted above, and a
+square provides 5 points of healing instead of 1.

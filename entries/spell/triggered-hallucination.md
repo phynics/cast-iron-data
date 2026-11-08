@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triggered_hallucination", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/audiovisual-hallucination" },
+]
 
 [fields]
 kind = "spell"
@@ -77,8 +80,8 @@ or instruct it to do so. Its AC is equal to 10 + the level of this spell.
 
 **Sources:** Ultimate Intrigue pg 206
 
-This spell functions as audiovisual hallucination, except that the phantasm you create can also
-include olfactory, tactile, and thermal effects.
+This spell functions as [audiovisual hallucination](ref/spell/audiovisual-hallucination), except
+that the phantasm you create can also include olfactory, tactile, and thermal effects.
 
 ### Permanent Hallucination
 

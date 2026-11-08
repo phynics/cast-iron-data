@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_shape_2", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/naga-shape-1" },
+]
 
 [fields]
 kind = "spell"
@@ -70,10 +73,10 @@ This spell is only availaable to Nagaji and characters who have the naga bloodli
 
 **Sources:** Blood of the Beast pg 19
 
-This spell functions as naga shape I. Additionally, if the form you assume has any of the following
-abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly 90 feet (good
-maneuverability), swim 90 feet, [blindsense](ref/rule/blindsight-and-blindsense) 30 feet,
-[darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision),
+This spell functions as [naga shape I](ref/spell/naga-shape-1). Additionally, if the form you assume
+has any of the following abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly
+90 feet (good maneuverability), swim 90 feet, [blindsense](ref/rule/blindsight-and-blindsense) 30
+feet, [darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision),
 compression, constrict, detect thoughts, dreamsight, grab, hypnosis, poison, sneak attack +2d6, and
 spit.
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "blood-of-the-beast", "advan
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triggered_suggestion", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/suggestion" },
+]
 
 [fields]
 kind = "spell"
@@ -78,14 +81,14 @@ creatures in a 10-foot-radius burst.
 
 **Sources:** Blood of the Beast pg 14
 
-This spell functions as per suggestion, except the target can pass on the enchantment to other
-targets. The target is compelled to communicate your suggestion to another creature, forcing the new
-target to attempt a saving throw as if it were the initial target. If a secondary target
-successfully saves, the suggestion effect on the initial target isn't negated. If a secondary target
-fails, it is placed under the same compulsion as the initial target and can further spread the
-suggestion. This spell can affect a total number of Hit Dice of creatures equal to your caster
-level. Creatures that save against this spell cannot be affected by that particular casting of
-contagious suggestion for 24 hours.
+This spell functions as per [suggestion](ref/spell/suggestion), except the target can pass on the
+enchantment to other targets. The target is compelled to communicate your suggestion to another
+creature, forcing the new target to attempt a saving throw as if it were the initial target. If a
+secondary target successfully saves, the suggestion effect on the initial target isn't negated. If a
+secondary target fails, it is placed under the same compulsion as the initial target and can further
+spread the suggestion. This spell can affect a total number of Hit Dice of creatures equal to your
+caster level. Creatures that save against this spell cannot be affected by that particular casting
+of contagious suggestion for 24 hours.
 
 ### Mass Suggestion
 

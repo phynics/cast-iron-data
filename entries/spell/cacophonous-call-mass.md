@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cacophonous_call_mass", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/cacophonous-call" },
+]
 
 [fields]
 kind = "spell"
@@ -54,4 +57,5 @@ spell if it fails its Will save.
 
 **Sources:** Advanced Player's Guide pg 208
 
-This spell functions as cacophonous call, except that it affects multiple creatures.
+This spell functions as [cacophonous call](ref/spell/cacophonous-call), except that it affects
+multiple creatures.

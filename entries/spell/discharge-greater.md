@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discharge_greater", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/discharge" },
+]
 
 [fields]
 kind = "spell"
@@ -63,8 +66,8 @@ affected by this spell receives a new saving throw at the end of each round to s
 
 **Sources:** Technology Guide pg 9
 
-This spell functions as discharge, except it can discharge multiple technological objects and can be
-used to target an area.
+This spell functions as [discharge](ref/spell/discharge), except it can discharge multiple
+technological objects and can be used to target an area.
 
 You choose to use greater discharge in one of two ways: an area discharge or a targeted discharge.
 

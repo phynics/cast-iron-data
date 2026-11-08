@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze_form_2", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ooze-form-1" },
+]
 
 [fields]
 kind = "spell"
@@ -64,9 +67,9 @@ penalty to your Dexterity score, a slam attack (1d4 plus 1d4 acid), and constric
 
 **Sources:** Ultimate Wilderness pg 233
 
-This spell functions as ooze form I except you can also assume the form of a Large ooze. You gain
-[blindsight](ref/rule/blindsight-and-blindsense) 30 feet and immunity to critical hits and precision
-damage as well.
+This spell functions as [ooze form I](ref/spell/ooze-form-1) except you can also assume the form of
+a Large ooze. You gain [blindsight](ref/rule/blindsight-and-blindsense) 30 feet and immunity to
+critical hits and precision damage as well.
 
 _Large Ooze:_ If you assume this form, you gain a +2 size bonus to your Strength score, a +8 size
 bonus to your Constitution score, a slam attack (2d4 plus 1d6 acid and grab), and constrict (2d4),

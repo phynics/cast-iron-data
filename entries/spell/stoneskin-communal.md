@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "potions-and-poisons", "ulti
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoneskin_communal", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/stoneskin" },
+]
 
 [fields]
 kind = "spell"
@@ -83,6 +86,6 @@ discharged and the spell ends.
 
 **Sources:** Ultimate Combat pg 245
 
-This spell functions like stoneskin, except you divide the duration in 10 minute intervals among the
-creatures touched. Once the spell has prevented 10 points of damage per caster level (maximum 150
-points) for a subject, the spell's effects end for that subject.
+This spell functions like [stoneskin](ref/spell/stoneskin), except you divide the duration in 10
+minute intervals among the creatures touched. Once the spell has prevented 10 points of damage per
+caster level (maximum 150 points) for a subject, the spell's effects end for that subject.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_monster_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hold-person" },
+]
 
 [fields]
 kind = "spell"
@@ -49,8 +52,8 @@ Descriptors: mind-affecting
 
 **Sources:** PRPG Core Rulebook pg 296
 
-This spell functions like hold person, except that it affects any living creature that fails its
-Will save.
+This spell functions like [hold person](ref/spell/hold-person), except that it affects any living
+creature that fails its Will save.
 
 ### Mass Hold Monster
 

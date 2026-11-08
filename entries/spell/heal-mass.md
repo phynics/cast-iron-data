@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heal_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/heal" },
+]
 
 [fields]
 kind = "spell"
@@ -68,5 +71,5 @@ _Augmented:_ If you expend two uses of mythic power, the spell also acts as
 
 **Sources:** PRPG Core Rulebook pg 294
 
-This spell functions like heal, except as noted above. The maximum number of hit points restored to
-each creature is 250.
+This spell functions like [heal](ref/spell/heal), except as noted above. The maximum number of hit
+points restored to each creature is 250.

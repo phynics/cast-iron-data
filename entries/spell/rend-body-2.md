@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rend_body_2", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/rend-body-1" },
+]
 
 [fields]
 kind = "spell"
@@ -57,8 +60,8 @@ Creatures without discernible anatomy or limbs are unaffected by rend body.
 
 **Sources:** Psychic Anthology pg 10
 
-This spell functions as per rend body I, but the target takes 1d8 points of damage per caster level
-you have (maximum 10d8). This spell can be undercast.
+This spell functions as per [rend body I](ref/spell/rend-body-1), but the target takes 1d8 points of
+damage per caster level you have (maximum 10d8). This spell can be undercast.
 
 ### Rend Body III
 

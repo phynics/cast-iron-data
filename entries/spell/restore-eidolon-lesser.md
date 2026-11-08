@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_eidolon_lesser", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/restoration-lesser" },
+]
 
 [fields]
 kind = "spell"

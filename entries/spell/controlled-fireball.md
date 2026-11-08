@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "controlled_fireball", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fireball" },
+]
 
 [fields]
 kind = "spell"
@@ -80,10 +83,11 @@ resistance and fire immunity.
 
 **Sources:** Ultimate Intrigue pg 208
 
-This spell functions as fireball except you can cause the bead of fire to originate from anywhere
-you can see within range. You can choose a number of squares within the area up to your Intelligence
-bonus (for magi, occultists, or wizards) or Charisma bonus (for bloodragers or sorcerers) to be
-struck by weaker flames; the controlled fireball deals minimum damage in those squares.
+This spell functions as [fireball](ref/spell/fireball) except you can cause the bead of fire to
+originate from anywhere you can see within range. You can choose a number of squares within the area
+up to your Intelligence bonus (for magi, occultists, or wizards) or Charisma bonus (for bloodragers
+or sorcerers) to be struck by weaker flames; the controlled fireball deals minimum damage in those
+squares.
 
 Attempts to identify controlled fireball with a skill check incorrectly identify it as fireball (see
 the [ruse](ref/spelldef/ruse) descriptor).

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcrash", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spellcrash-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -74,8 +77,8 @@ regains spell slots.
 
 **Sources:** Advanced Class Guide pg 193
 
-This spell functions as lesser spellcrash, except that it affects 5th-level or lower prepared spells
-or spell slots.
+This spell functions as [lesser spellcrash](ref/spell/spellcrash-lesser), except that it affects
+5th-level or lower prepared spells or spell slots.
 
 ### Greater Spellcrash
 

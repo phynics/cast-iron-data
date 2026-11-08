@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resist_energy_communal", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/resist-energy" },
+]
 
 [fields]
 kind = "spell"
@@ -89,5 +92,5 @@ Once each round as a free action, the target can choose one adjacent ally to gai
 
 **Sources:** Ultimate Combat pg 242
 
-This spell functions like resist energy, except you divide the duration in 10-minute intervals among
-the creatures touched.
+This spell functions like [resist energy](ref/spell/resist-energy), except you divide the duration
+in 10-minute intervals among the creatures touched.

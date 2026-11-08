@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_evocation_greater", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shadow-evocation" },
+]
 
 [fields]
 kind = "spell"
@@ -66,6 +69,7 @@ Objects automatically succeed on their Will saves against this spell.
 
 **Sources:** PRPG Core Rulebook pg 340
 
-This spell functions like shadow evocation, except that it enables you to create partially real,
-illusory versions of sorcerer or wizard evocation spells of 7th level or lower. If recognized as a
-greater shadow evocation, a damaging spell deals only three-fifths (60%) damage.
+This spell functions like [shadow evocation](ref/spell/shadow-evocation), except that it enables you
+to create partially real, illusory versions of sorcerer or wizard evocation spells of 7th level or
+lower. If recognized as a greater shadow evocation, a damaging spell deals only three-fifths (60%)
+damage.

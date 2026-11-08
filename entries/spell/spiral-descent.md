@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiral_descent", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spiral-ascent" },
+]
 
 [fields]
 kind = "spell"
@@ -61,5 +64,5 @@ On a plane with subjective directional gravity, you can use this spell to telepo
 
 **Sources:** Inner Sea Temples pg 43
 
-This spell functions as spiral ascent, except the destination and direction of travel is downward
-from your current location.
+This spell functions as [spiral ascent](ref/spell/spiral-ascent), except the destination and
+direction of travel is downward from your current location.

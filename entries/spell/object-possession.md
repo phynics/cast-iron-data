@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_possession", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/object-possession-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -67,8 +70,9 @@ consciousness to your body.
 
 **Sources:** Occult Adventures pg 179
 
-This spell functions as lesser object possession, except as noted above. The possessed animated
-object has a number of Construction Points appropriate for its size (up to 3 CP for Large objects).
+This spell functions as [lesser object possession](ref/spell/object-possession-lesser), except as
+noted above. The possessed animated object has a number of Construction Points appropriate for its
+size (up to 3 CP for Large objects).
 
 You can return your consciousness to your body as a standard action. On your next turn, you can
 attempt to possess a different object as a standard action instead of ending the spell.

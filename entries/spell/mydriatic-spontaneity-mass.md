@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mydriatic_spontaneity_mass", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mydriatic-spontaneity" },
+]
 
 [fields]
 kind = "spell"
@@ -65,4 +68,5 @@ check to avoid detection from the target, even if the creature lacks cover or co
 
 **Sources:** Blood of Shadows pg 29
 
-This spell functions as mydriatic spontaneity, except it can affect multiple creatures.
+This spell functions as [mydriatic spontaneity](ref/spell/mydriatic-spontaneity), except it can
+affect multiple creatures.

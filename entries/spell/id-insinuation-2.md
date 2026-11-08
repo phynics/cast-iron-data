@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "id_insinuation_2", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/id-insinuation-1" },
+]
 
 [fields]
 kind = "spell"
@@ -53,9 +56,9 @@ concentrate on it plus 1 additional round. A successful Will save negates this e
 
 **Sources:** Occult Adventures pg 173
 
-This functions as id insinuation I, except as noted above. In addition, on the first round of the
-effect, the targets of this spell must roll twice to determine the result of their confused
-condition. You select which roll is used. This spell can be undercast.
+This functions as [id insinuation I](ref/spell/id-insinuation-1), except as noted above. In
+addition, on the first round of the effect, the targets of this spell must roll twice to determine
+the result of their confused condition. You select which roll is used. This spell can be undercast.
 
 ### Id Insinuation III
 

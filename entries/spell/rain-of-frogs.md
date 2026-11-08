@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rain_of_frogs", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-swarm" },
+]
 
 [fields]
 kind = "spell"
@@ -74,6 +77,7 @@ behind a similar trail that lasts for 2 rounds but doesn't have a disease or poi
 
 **Sources:** Ultimate Magic pg 233
 
-This spell functions as summon swarm, except you summon a swarm of poisonous frogs. This swarm has
-the statistics of a [centipede swarm](ref/monster/centipede-centipede-swarm), except it has the
-animal type and its poison deals Constitution damage instead of Dexterity damage.
+This spell functions as [summon swarm](ref/spell/summon-swarm), except you summon a swarm of
+poisonous frogs. This swarm has the statistics of a
+[centipede swarm](ref/monster/centipede-centipede-swarm), except it has the animal type and its
+poison deals Constitution damage instead of Dexterity damage.

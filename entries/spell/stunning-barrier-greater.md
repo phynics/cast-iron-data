@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_barrier_greater", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/stunning-barrier" },
+]
 
 [fields]
 kind = "spell"
@@ -57,6 +60,6 @@ stunned for 1 round (Will negates). Once the field has stunned an opponent, the 
 
 **Sources:** Advanced Class Guide pg 195
 
-This spell functions as stunning barrier, except as noted above, and it provides a +2 bonus to AC
-and on saving throws. It is not discharged until it has stunned a number of creatures equal to your
-caster level.
+This spell functions as [stunning barrier](ref/spell/stunning-barrier), except as noted above, and
+it provides a +2 bonus to AC and on saving throws. It is not discharged until it has stunned a
+number of creatures equal to your caster level.

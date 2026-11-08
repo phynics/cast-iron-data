@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "black-markets", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compel_tongue_mass", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/compel-tongue" },
+]
 
 [fields]
 kind = "spell"
@@ -88,6 +91,6 @@ the creatures touched.
 
 **Sources:** Black Markets pg 24
 
-This spell functions as compel tongue, except it affects multiple creatures. The same language
-restriction applies to all creatures, and the same language must be imparted to all creatures
-affected by the same casting on this spell.
+This spell functions as [compel tongue](ref/spell/compel-tongue), except it affects multiple
+creatures. The same language restriction applies to all creatures, and the same language must be
+imparted to all creatures affected by the same casting on this spell.

@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unlife_current", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/life-current" },
+]
 
 [fields]
 kind = "spell"
@@ -60,5 +63,5 @@ living creatures in the current's area heal 1d6 hit points per 10 feet of the cu
 
 **Sources:** Aquatic Adventures pg 61
 
-This functions as life current except you infuse the current with negative energy, so it heals
-undead and harms living creatures.
+This functions as [life current](ref/spell/life-current) except you infuse the current with negative
+energy, so it heals undead and harms living creatures.

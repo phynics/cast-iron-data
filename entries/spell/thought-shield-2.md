@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_shield_2", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/thought-shield-1" },
+]
 
 [fields]
 kind = "spell"
@@ -50,8 +53,8 @@ information from you.
 
 **Sources:** Occult Adventures pg 189
 
-This functions as thought shield I, but the circumstance bonus on Will saves to resist
-mind-affecting effects increases to +6. This spell can be undercast.
+This functions as [thought shield I](ref/spell/thought-shield-1), but the circumstance bonus on Will
+saves to resist mind-affecting effects increases to +6. This spell can be undercast.
 
 ### Thought Shield III
 

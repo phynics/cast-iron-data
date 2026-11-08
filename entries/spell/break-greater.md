@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "mythic-adventures", "ultimate-intrigue"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break_greater", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/break" },
+]
 
 [fields]
 kind = "spell"

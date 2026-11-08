@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_law", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/protection-from-evil" },
+]
 
 [fields]
 kind = "spell"

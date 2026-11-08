@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possession_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/possession" },
+]
 
 [fields]
 kind = "spell"
@@ -83,6 +86,6 @@ on possession rather than magic jar.
 
 **Sources:** Occult Adventures pg 181
 
-This spell functions as possession, but when you possess a host, you enter the host's body and your
-physical body vanishes. You are ejected to the closest empty square upon expiration of the spell or
-upon the host's death.
+This spell functions as [possession](ref/spell/possession), but when you possess a host, you enter
+the host's body and your physical body vanishes. You are ejected to the closest empty square upon
+expiration of the spell or upon the host's death.

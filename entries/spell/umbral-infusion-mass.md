@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_infusion_mass", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/umbral-infusion" },
+]
 
 [fields]
 kind = "spell"
@@ -60,4 +63,5 @@ undead creatures that already have the advanced creature template.
 
 **Sources:** Blood of Shadows pg 31
 
-This spell functions as umbral infusion, except it can affect multiple mindless undead creatures.
+This spell functions as [umbral infusion](ref/spell/umbral-infusion), except it can affect multiple
+mindless undead creatures.

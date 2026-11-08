@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atavism_mass", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/atavism" },
+]
 
 [fields]
 kind = "spell"
@@ -52,4 +55,4 @@ for "attack." This spell has no effect on animals that already have the advanced
 
 **Sources:** Ultimate Magic pg 207
 
-This spell functions as atavism, except that it affects multiple creatures.
+This spell functions as [atavism](ref/spell/atavism), except that it affects multiple creatures.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-wilderness", "anim
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_shapes", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/beast-shape-3" },
+]
 
 [fields]
 kind = "spell"
@@ -168,15 +171,15 @@ tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beas
 
 **Sources:** PRPG Core Rulebook pg 247
 
-This spell functions as beast shape III except that it also allows you to assume the form of a Tiny
-or Large creature of the magical beast type. If the form you assume has any of the following
-abilities, you gain the listed ability: burrow 60 feet, climb 90 feet, fly 120 feet (good
-maneuverability), swim 120 feet, [blindsense](ref/rule/blindsight-and-blindsense) 60 feet,
-[darkvision](ref/rule/darkvision) 90 feet, [low-light vision](ref/rule/low-light-vision), scent,
-[tremorsense](ref/umr/tremorsense) 60 feet, breath weapon, constrict, ferocity, grab, jet, poison,
-pounce, rake, rend, roar, spikes, trample, trip, and web. If the creature has immunity or resistance
-to any elements, you gain resistance 20 to those elements. If the creature has vulnerability to an
-element, you gain that vulnerability.
+This spell functions as [beast shape III](ref/spell/beast-shape-3) except that it also allows you to
+assume the form of a Tiny or Large creature of the magical beast type. If the form you assume has
+any of the following abilities, you gain the listed ability: burrow 60 feet, climb 90 feet, fly 120
+feet (good maneuverability), swim 120 feet, [blindsense](ref/rule/blindsight-and-blindsense) 60
+feet, [darkvision](ref/rule/darkvision) 90 feet, [low-light vision](ref/rule/low-light-vision),
+scent, [tremorsense](ref/umr/tremorsense) 60 feet, breath weapon, constrict, ferocity, grab, jet,
+poison, pounce, rake, rend, roar, spikes, trample, trip, and web. If the creature has immunity or
+resistance to any elements, you gain resistance 20 to those elements. If the creature has
+vulnerability to an element, you gain that vulnerability.
 
 _Tiny magical beast:_ If the form you take is that of a Tiny magical beast, you gain a -2 penalty to
 your Strength, a +8 size bonus to your Dexterity, and a +3 natural armor bonus.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_anatomy_2", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/undead-anatomy-1" },
+]
 
 [fields]
 kind = "spell"
@@ -74,12 +77,12 @@ Strength and a +2 natural armor bonus.
 
 **Sources:** Ultimate Magic pg 244
 
-This spell functions as undead anatomy I, except it also allows you to assume the form of a Tiny or
-Large corporeal creature of the undead type. If the form you assume has any of the following
-abilities, you gain the listed ability: climb 60 feet, fly 60 feet (good maneuverability), swim 60
-feet, [darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision),
-blood drain, DR 5/bludgeoning, scent, freeze, grab, mimicry, pounce, shadowless, sound mimicry, and
-trip.
+This spell functions as [undead anatomy I](ref/spell/undead-anatomy-1), except it also allows you to
+assume the form of a Tiny or Large corporeal creature of the undead type. If the form you assume has
+any of the following abilities, you gain the listed ability: climb 60 feet, fly 60 feet (good
+maneuverability), swim 60 feet, [darkvision](ref/rule/darkvision) 60 feet,
+[low-light vision](ref/rule/low-light-vision), blood drain, DR 5/bludgeoning, scent, freeze, grab,
+mimicry, pounce, shadowless, sound mimicry, and trip.
 
 In this form, you gain a +4 bonus on saves against mind-affecting effects, disease, poison, sleep,
 and stunning. If the form has a vulnerability to an attack (such as sunlight), you gain that

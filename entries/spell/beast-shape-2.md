@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-wilderness", "anim
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_shape_2", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/beast-shape-1" },
+]
 
 [fields]
 kind = "spell"
@@ -86,11 +89,11 @@ tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beas
 
 **Sources:** PRPG Core Rulebook pg 247
 
-This spell functions as beast shape I, except that it also allows you to assume the form of a Tiny
-or Large creature of the animal type. If the form you assume has any of the following abilities, you
-gain the listed ability: climb 60 feet, fly 60 feet (good maneuverability), swim 60 feet,
-[darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision), scent,
-grab, pounce, and trip.
+This spell functions as [beast shape I](ref/spell/beast-shape-1), except that it also allows you to
+assume the form of a Tiny or Large creature of the animal type. If the form you assume has any of
+the following abilities, you gain the listed ability: climb 60 feet, fly 60 feet (good
+maneuverability), swim 60 feet, [darkvision](ref/rule/darkvision) 60 feet,
+[low-light vision](ref/rule/low-light-vision), scent, grab, pounce, and trip.
 
 _Tiny animal:_ If the form you take is that of a Tiny animal, you gain a +4 size bonus to your
 Dexterity, a -2 penalty to your Strength, and a +1 natural armor bonus.

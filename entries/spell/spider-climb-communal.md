@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_climb_communal", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spider-climb" },
+]
 
 [fields]
 kind = "spell"
@@ -76,5 +79,5 @@ adhesives of 2nd level or less (including tanglefoot bags) as if it were using f
 
 **Sources:** Ultimate Combat pg 245
 
-This spell functions like spider climb, except you divide the duration in 10-minute intervals among
-the creatures touched.
+This spell functions like [spider climb](ref/spell/spider-climb), except you divide the duration in
+10-minute intervals among the creatures touched.

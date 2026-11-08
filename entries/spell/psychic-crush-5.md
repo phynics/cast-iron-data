@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_crush_5", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/psychic-crush-4" },
+]
 
 [fields]
 kind = "spell"
@@ -84,7 +87,7 @@ Fortitude save. This spell can be undercast.
 
 **Sources:** Occult Adventures pg 183
 
-This functions as psychic crush IV, but on a successful Fortitude or Will save, the target takes
-11d6 points of damage + 1 point of damage per caster level. If it is at fewer than half its total
-hit points, the target takes a -2 penalty on the Will save to resist this spell. This spell can be
-undercast.
+This functions as [psychic crush IV](ref/spell/psychic-crush-4), but on a successful Fortitude or
+Will save, the target takes 11d6 points of damage + 1 point of damage per caster level. If it is at
+fewer than half its total hit points, the target takes a -2 penalty on the Will save to resist this
+spell. This spell can be undercast.

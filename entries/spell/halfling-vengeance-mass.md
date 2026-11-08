@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_vengeance_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/halfling-vengeance" },
+]
 
 [fields]
 kind = "spell"
@@ -71,4 +74,5 @@ A creature can benefit from only one halfling vengeance spell at a time.
 
 **Sources:** Pathfinder \#131: The Reaper's Right Hand pg 72
 
-This spell functions like halfling vengeance, except that it affects multiple creatures.
+This spell functions like [halfling vengeance](ref/spell/halfling-vengeance), except that it affects
+multiple creatures.

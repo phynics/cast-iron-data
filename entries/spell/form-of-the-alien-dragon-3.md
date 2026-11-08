@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "form_of_the_alien_dragon_3", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/form-of-the-alien-dragon-2" },
+]
 
 [fields]
 kind = "spell"
@@ -102,12 +105,12 @@ cones increase to 40-foot cones.
 
 **Sources:** Legacy of Dragons pg 30
 
-This spell functions as per form of the alien dragon II, except it also allows you to take the form
-of a Huge esoteric or outer dragon. Psychics can choose from the esoteric dragon (astral, dream,
-etheric, nightmare, or occult) forms only. You gain the following: a +10 size bonus to your
-Strength, a +8 size bonus to your Constitution, a +8 natural armor bonus, a fly speed of 120 feet
-(poor), [blindsense](ref/rule/blindsight-and-blindsense) with a range of 60 feet,
-[darkvision](ref/rule/darkvision) with a range of 120 feet, a breath weapon,
+This spell functions as per [form of the alien dragon II](ref/spell/form-of-the-alien-dragon-2),
+except it also allows you to take the form of a Huge esoteric or outer dragon. Psychics can choose
+from the esoteric dragon (astral, dream, etheric, nightmare, or occult) forms only. You gain the
+following: a +10 size bonus to your Strength, a +8 size bonus to your Constitution, a +8 natural
+armor bonus, a fly speed of 120 feet (poor), [blindsense](ref/rule/blindsight-and-blindsense) with a
+range of 60 feet, [darkvision](ref/rule/darkvision) with a range of 120 feet, a breath weapon,
 [damage reduction](ref/rule/damage-reduction) 10/magic, frightful presence (DC = DC for this spell),
 and immunity to one form of energy or effect (of the same type form of the alien dragon I grants
 either a bonus against or resistance to, if any). You also gain one bite attack (2d8), two claw

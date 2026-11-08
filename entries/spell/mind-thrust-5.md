@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_thrust_5", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mind-thrust-4" },
+]
 
 [fields]
 kind = "spell"
@@ -73,8 +76,9 @@ This functions as mind thrust I, but the target takes 1d8 points of damage per c
 
 **Sources:** Occult Adventures pg 177
 
-This functions as mind thrust IV, but the target is also exhausted for 1 round if it fails its save
-and fatigued for 1 round if it succeeds at its save. This spell can be undercast.
+This functions as [mind thrust IV](ref/spell/mind-thrust-4), but the target is also exhausted for 1
+round if it fails its save and fatigued for 1 round if it succeeds at its save. This spell can be
+undercast.
 
 ### Mind Thrust VI
 

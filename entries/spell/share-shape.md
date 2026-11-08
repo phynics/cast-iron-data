@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-wilderness", "anim
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_shape", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/beast-shape-2" },
+]
 
 [fields]
 kind = "spell"
@@ -123,11 +126,11 @@ tier, you can use the Natural Spell feat for 2 rounds per casting of mythic beas
 
 **Sources:** PRPG Core Rulebook pg 247
 
-This spell functions as beast shape II, except that it also allows you to assume the form of a
-Diminutive or Huge creature of the animal type. This spell also allows you to take on the form of a
-Small or Medium creature of the magical beast type. If the form you assume has any of the following
-abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly 90 feet (good
-maneuverability), swim 90 feet, [blindsense](ref/rule/blindsight-and-blindsense) 30 feet,
+This spell functions as [beast shape II](ref/spell/beast-shape-2), except that it also allows you to
+assume the form of a Diminutive or Huge creature of the animal type. This spell also allows you to
+take on the form of a Small or Medium creature of the magical beast type. If the form you assume has
+any of the following abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly 90
+feet (good maneuverability), swim 90 feet, [blindsense](ref/rule/blindsight-and-blindsense) 30 feet,
 [darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision), scent,
 constrict, ferocity, grab, jet, poison, pounce, rake, trample, trip, and web.
 

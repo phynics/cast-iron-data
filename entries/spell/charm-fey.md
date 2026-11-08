@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "the-first-world-realm-of-the-fey", "ultimate-int
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_fey", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/charm-person" },
+]
 
 [fields]
 kind = "spell"
@@ -70,7 +73,8 @@ language to communicate your commands, or else be good at pantomiming.
 
 **Sources:** The First World, Realm of the Fey pg 12
 
-This spell functions as charm person, except it affects a fey instead of a humanoid.
+This spell functions as [charm person](ref/spell/charm-person), except it affects a fey instead of a
+humanoid.
 
 ### Mass Charm Person
 

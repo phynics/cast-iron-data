@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_good_communal", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/protection-from-good" },
+]
 
 [fields]
 kind = "spell"
@@ -98,7 +101,7 @@ target.
 
 **Sources:** Ultimate Combat pg 240
 
-This spell functions like _[protection from evil](ref/spell/protection-from-evil),_ except you
+This spell functions like _[protection from good](ref/spell/protection-from-good),_ except you
 divide the duration in 1-minute intervals among the creatures touched.
 
 ### Protection from Chaos

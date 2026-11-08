@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "castigate_mass", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/castigate" },
+]
 
 [fields]
 kind = "spell"
@@ -55,4 +58,4 @@ saving throw.
 
 **Sources:** Advanced Player's Guide pg 210
 
-This spell functions as castigate, except it affects many creatures.
+This spell functions as [castigate](ref/spell/castigate), except it affects many creatures.

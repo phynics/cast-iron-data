@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunger_for_flesh_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hunger-for-flesh" },
+]
 
 [fields]
 kind = "spell"
@@ -71,6 +74,7 @@ beginning of its next turn.
 
 **Sources:** Horror Adventures pg 121
 
-This spell functions like hunger for flesh, except that it affects multiple targets. When forced to
-feed by the spell, affected creatures attack creatures not affected by this spell if there are any
-such appropriate creatures nearby, but otherwise they attack other affected creatures.
+This spell functions like [hunger for flesh](ref/spell/hunger-for-flesh), except that it affects
+multiple targets. When forced to feed by the spell, affected creatures attack creatures not affected
+by this spell if there are any such appropriate creatures nearby, but otherwise they attack other
+affected creatures.

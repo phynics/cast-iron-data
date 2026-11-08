@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violent_misfire_greater", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/violent-misfire" },
+]
 
 [fields]
 kind = "spell"
@@ -57,4 +60,4 @@ described.
 
 **Sources:** People of the Wastes pg 29
 
-This spell functions as violent misfire except as noted above.
+This spell functions as [violent misfire](ref/spell/violent-misfire) except as noted above.

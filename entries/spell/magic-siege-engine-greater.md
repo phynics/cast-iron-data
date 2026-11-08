@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_siege_engine_greater", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-siege-engine" },
+]
 
 [fields]
 kind = "spell"
@@ -60,7 +63,7 @@ damage rolls. If used on a direct fire siege weapon, this spell acts a magic wea
 
 **Sources:** Ultimate Combat pg 236
 
-This spell functions like magic siege weapon, except it gives an indirect fire siege weapon an
-enhancement bonus on targeting and damage rolls of +1 per four caster levels (maximum +5). If used
-on a direct-fire siege weapon, this spell functions as
+This spell functions like [magic siege weapon](ref/spell/magic-siege-engine), except it gives an
+indirect fire siege weapon an enhancement bonus on targeting and damage rolls of +1 per four caster
+levels (maximum +5). If used on a direct-fire siege weapon, this spell functions as
 [greater magic weapon](ref/spell/magic-weapon-greater).

@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_ravages_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/natures-ravages" },
+]
 
 [fields]
 kind = "spell"
@@ -59,5 +62,5 @@ work.
 
 **Sources:** Dungeoneer's Handbook pg 31
 
-This spell functions like nature's ravages, except the target corpse ages a number of years equal to
-up to 1 year per caster level (maximum 20 years at 20th level).
+This spell functions like [nature's ravages](ref/spell/natures-ravages), except the target corpse
+ages a number of years equal to up to 1 year per caster level (maximum 20 years at 20th level).

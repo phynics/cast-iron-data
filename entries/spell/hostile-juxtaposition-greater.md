@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hostile_juxtaposition_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hostile-juxtaposition" },
+]
 
 [fields]
 kind = "spell"
@@ -63,7 +66,8 @@ places, the juxtaposition fails. Once you have used it to teleport once, this sp
 
 **Sources:** Ultimate Combat pg 231
 
-This spell functions like hostile juxtaposition, except you can target one creature for every four
-caster levels you have or you can target a single creature that is larger than you are. You can
-switch places with each target only once while the effect lasts. Once you have used it to teleport
-and switch places with each affected target, the spell is discharged.
+This spell functions like [hostile juxtaposition](ref/spell/hostile-juxtaposition), except you can
+target one creature for every four caster levels you have or you can target a single creature that
+is larger than you are. You can switch places with each target only once while the effect lasts.
+Once you have used it to teleport and switch places with each affected target, the spell is
+discharged.

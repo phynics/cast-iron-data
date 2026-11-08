@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_adaptation_mass", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/planar-adaptation" },
+]
 
 [fields]
 kind = "spell"
@@ -62,4 +65,4 @@ plane.
 
 **Sources:** Advanced Player's Guide pg 236
 
-This spell functions like planar adaptation, except as noted above.
+This spell functions like [planar adaptation](ref/spell/planar-adaptation), except as noted above.

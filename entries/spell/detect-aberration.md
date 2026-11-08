@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_aberration", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/detect-animals-or-plants" },
+]
 
 [fields]
 kind = "spell"

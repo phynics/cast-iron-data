@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_greater_undead", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/create-undead" },
+]
 
 [fields]
 kind = "spell"
@@ -46,9 +49,9 @@ Descriptors: evil
 
 **Sources:** PRPG Core Rulebook pg 261
 
-This spell functions like create undead, except that you can create more powerful and intelligent
-sorts of undead: shadows, wraiths, spectres, and devourers. The type or types of undead created is
-based on caster level, as shown below.
+This spell functions like [create undead](ref/spell/create-undead), except that you can create more
+powerful and intelligent sorts of undead: shadows, wraiths, spectres, and devourers. The type or
+types of undead created is based on caster level, as shown below.
 
 |Caster Level|Undead Created|
 | --- | --- |

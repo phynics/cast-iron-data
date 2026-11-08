@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutralize_poison_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/neutralize-poison" },
+]
 
 [fields]
 kind = "spell"
@@ -69,10 +72,10 @@ the effect.
 
 **Sources:** Dirty Tactics Toolbox pg 28
 
-This spell functions as neutralize poison, except as noted here. You automatically succeed at all
-caster level checks to neutralize any poisons affecting the target creature. The spell also reverses
-all instantaneous or permanent effects caused by poisons, such as temporary ability damage or
-permanent ability drain (it does not heal ability drain caused by anything other than poison,
-however). If you use the spell to neutralize the poison in a poisonous creature or object, the
-duration is 1 hour per level rather than 10 minutes per level. If the spell is cast on a creature,
-the creature can negate the effect by succeeding at a Will saving throw.
+This spell functions as [neutralize poison](ref/spell/neutralize-poison), except as noted here. You
+automatically succeed at all caster level checks to neutralize any poisons affecting the target
+creature. The spell also reverses all instantaneous or permanent effects caused by poisons, such as
+temporary ability damage or permanent ability drain (it does not heal ability drain caused by
+anything other than poison, however). If you use the spell to neutralize the poison in a poisonous
+creature or object, the duration is 1 hour per level rather than 10 minutes per level. If the spell
+is cast on a creature, the creature can negate the effect by succeeding at a Will saving throw.

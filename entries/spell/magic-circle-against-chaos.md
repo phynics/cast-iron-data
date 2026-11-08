@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_circle_against_chaos", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-circle-against-evil" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "die_for_your_master", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bleed-for-your-master" },
+]
 
 [fields]
 kind = "spell"
@@ -71,8 +74,9 @@ frightened instead.
 
 ### Die for Your Master
 
-This spell functions as Bleed for Your Master, but it allows your companion or familiar to intercept
-any attack that targets you, including those that do not require attack rolls (e.g.
-[chain lightning](ref/spell/chain-lightning), [hold monster](ref/spell/hold-monster), and
-[magic missile](ref/spell/magic-missile)). Your companion or familiar cannot intercept effects that
-do not affect creatures of its type (e.g. [dominate person](ref/spell/dominate-person)).
+This spell functions as [Bleed for Your Master](ref/spell/bleed-for-your-master), but it allows your
+companion or familiar to intercept any attack that targets you, including those that do not require
+attack rolls (e.g. [chain lightning](ref/spell/chain-lightning),
+[hold monster](ref/spell/hold-monster), and [magic missile](ref/spell/magic-missile)). Your
+companion or familiar cannot intercept effects that do not affect creatures of its type (e.g.
+[dominate person](ref/spell/dominate-person)).

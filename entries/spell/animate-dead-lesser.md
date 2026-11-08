@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_dead_lesser", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/animate-dead" },
+]
 
 [fields]
 kind = "spell"
@@ -104,5 +107,5 @@ permanently gain the [mythic skeleton](ref/template/mythic-skeleton) template.
 
 **Sources:** Ultimate Magic pg 205
 
-This spell functions as animate dead, except you can only create a single Small or Medium skeleton
-or zombie. You cannot create variant skeletons or zombies with this spell.
+This spell functions as [animate dead](ref/spell/animate-dead), except you can only create a single
+Small or Medium skeleton or zombie. You cannot create variant skeletons or zombies with this spell.

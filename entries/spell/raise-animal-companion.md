@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raise_animal_companion", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/raise-dead" },
+]
 
 [fields]
 kind = "spell"
@@ -77,5 +80,5 @@ cannot bring back a creature that has died of old age.
 
 **Sources:** Ultimate Magic pg 233
 
-This spell functions as raise dead, but it only affects an animal companion, familiar, or paladin's
-bonded mount.
+This spell functions as [raise dead](ref/spell/raise-dead), but it only affects an animal companion,
+familiar, or paladin's bonded mount.

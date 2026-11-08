@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shout_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shout" },
+]
 
 [fields]
 kind = "spell"
@@ -72,9 +75,9 @@ turn for a number of rounds equal to your tier.
 
 **Sources:** PRPG Core Rulebook pg 343
 
-This spell functions like shout, except that the cone deals 10d6 points of sonic damage (or 1d6
-points of sonic damage per caster level, maximum 20d6, against exposed brittle or crystalline
-objects or crystalline creatures). It also causes creatures to be stunned for 1 round and deafened
-for 4d6 rounds. A creature in the area of the cone can negate the stunning and halve both the damage
-and the duration of the deafness with a successful Fortitude save. A creature holding vulnerable
-objects can attempt a Reflex save to negate the damage to those objects.
+This spell functions like [shout](ref/spell/shout), except that the cone deals 10d6 points of sonic
+damage (or 1d6 points of sonic damage per caster level, maximum 20d6, against exposed brittle or
+crystalline objects or crystalline creatures). It also causes creatures to be stunned for 1 round
+and deafened for 4d6 rounds. A creature in the area of the cone can negate the stunning and halve
+both the damage and the duration of the deafness with a successful Fortitude save. A creature
+holding vulnerable objects can attempt a Reflex save to negate the damage to those objects.

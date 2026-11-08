@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daze_mass", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/daze" },
+]
 
 [fields]
 kind = "spell"
@@ -67,4 +70,4 @@ the effects of this spell for 1 minute.
 
 **Sources:** Ultimate Magic pg 216
 
-This spell functions as daze, except as noted above.
+This spell functions as [daze](ref/spell/daze), except as noted above.

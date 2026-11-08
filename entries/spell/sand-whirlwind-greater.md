@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sand_whirlwind_greater", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/sand-whirlwind" },
+]
 
 [fields]
 kind = "spell"
@@ -55,4 +58,4 @@ the speechhampering effect.
 
 **Sources:** Taldor, Echoes of Glory pg 25
 
-This spell functions as sand whirlwind except as noted above.
+This spell functions as [sand whirlwind](ref/spell/sand-whirlwind) except as noted above.

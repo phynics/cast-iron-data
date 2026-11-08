@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reduce_person_mass", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/reduce-person" },
+]
 
 [fields]
 kind = "spell"
@@ -89,4 +92,5 @@ Mythic reduce person counters and dispels mythic [enlarge person](ref/spell/enla
 
 **Sources:** PRPG Core Rulebook pg 331
 
-This spell functions like reduce person, except that it affects multiple creatures.
+This spell functions like [reduce person](ref/spell/reduce-person), except that it affects multiple
+creatures.

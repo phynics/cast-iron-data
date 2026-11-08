@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_resurrection_greater", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/false-resurrection" },
+]
 
 [fields]
 kind = "spell"
@@ -86,9 +89,10 @@ as the lingering aura of an instantaneous conjuration effect.
 
 **Sources:** Ultimate Intrigue pg 214
 
-This spell functions as false resurrection except that it calls a belier devil with the young simple
-template to possess the body and all parts of false resurrection that function like resurrection
-instead function like [true resurrection](ref/spell/true-resurrection).
+This spell functions as [false resurrection](ref/spell/false-resurrection) except that it calls a
+belier devil with the young simple template to possess the body and all parts of false resurrection
+that function like resurrection instead function like
+[true resurrection](ref/spell/true-resurrection).
 
 Attempts to identify greater false resurrection with a skill check incorrectly identify it as true
 resurrection (see the [ruse](ref/spelldef/ruse) descriptor). A fooled viewer mistakes greater false

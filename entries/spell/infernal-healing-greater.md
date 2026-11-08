@@ -6,6 +6,9 @@ source_ids = ["hells-vengeance-players-guide", "pathfinder-29-mother-of-flies", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_healing_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/infernal-healing" },
+]
 
 [fields]
 kind = "spell"
@@ -65,5 +68,5 @@ on the target's alignment.
 
 **Sources:** Hell's Vengeance Player's Guide pg 11
 
-As per infernal healing, except the target gains [fast healing](ref/umr/fast-healing) 4 and the
-target detects as an evil cleric.
+As per [infernal healing](ref/spell/infernal-healing), except the target gains
+[fast healing](ref/umr/fast-healing) 4 and the target detects as an evil cleric.

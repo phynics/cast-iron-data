@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_entity_4", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/contact-entity-3" },
+]
 
 [fields]
 kind = "spell"

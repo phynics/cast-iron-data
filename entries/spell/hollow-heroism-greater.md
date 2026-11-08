@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_heroism_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/heroism-greater" },
+]
 
 [fields]
 kind = "spell"
@@ -89,12 +92,12 @@ Attempts to identify hollow heroism with a skill check incorrectly identify it a
 
 **Sources:** Ultimate Intrigue pg 216
 
-This spell functions as greater heroism, except that you can reverse the spell by issuing a special
-command as a standard action if you are within medium range (100 feet + 10 feet per caster level) of
-the target. The target loses the bonuses and instead takes a -4 penalty on attack rolls, saving
-throws, and skill checks until the spell's duration ends (no save), increasing to a -8 penalty
-against fear effects. Additionally, she takes damage equal to your caster level when you reverse the
-spell.
+This spell functions as [greater heroism](ref/spell/heroism-greater), except that you can reverse
+the spell by issuing a special command as a standard action if you are within medium range (100
+feet + 10 feet per caster level) of the target. The target loses the bonuses and instead takes a -4
+penalty on attack rolls, saving throws, and skill checks until the spell's duration ends (no save),
+increasing to a -8 penalty against fear effects. Additionally, she takes damage equal to your caster
+level when you reverse the spell.
 
 Attempts to identify greater hollow heroism with a skill check incorrectly identify it as greater
 heroism.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_of_truth", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/true-seeing" },
+]
 
 [fields]
 kind = "spell"
@@ -82,4 +85,4 @@ conjunction with clairaudience/clairvoyance.
 
 **Sources:** Ultimate Intrigue pg 215
 
-This spell functions like true seeing, except as noted above.
+This spell functions like [true seeing](ref/spell/true-seeing), except as noted above.

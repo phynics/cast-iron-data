@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_anatomy_4", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/undead-anatomy-3" },
+]
 
 [fields]
 kind = "spell"
@@ -119,9 +122,9 @@ Strength, a -4 penalty to your Dexterity, and a +6 natural armor bonus.
 
 **Sources:** Ultimate Magic pg 245
 
-This spell functions as undead anatomy III, except it allows you to use more abilities. If the form
-you assume has any of the following abilities, you gain the listed ability: burrow 60 feet, climb 90
-feet, fly 120 feet (good maneuverability), swim 120 feet,
+This spell functions as [undead anatomy III](ref/spell/undead-anatomy-3), except it allows you to
+use more abilities. If the form you assume has any of the following abilities, you gain the listed
+ability: burrow 60 feet, climb 90 feet, fly 120 feet (good maneuverability), swim 120 feet,
 [blindsense](ref/rule/blindsight-and-blindsense) 60 feet, [darkvision](ref/rule/darkvision) 90 feet,
 lifesense 60 feet, [low-light vision](ref/rule/low-light-vision), scent,
 [tremorsense](ref/umr/tremorsense) 60 feet, breath weapon, constrict, DR 10/magic and silver, DR

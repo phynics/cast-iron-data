@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze_form_3", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ooze-form-2" },
+]
 
 [fields]
 kind = "spell"
@@ -76,9 +79,9 @@ and you take a -8 penalty to your Dexterity score.
 
 **Sources:** Ultimate Wilderness pg 233
 
-This spell functions as ooze form II except you can also assume the form of a Huge ooze. You gain
-[blindsight](ref/rule/blindsight-and-blindsense) 60 feet and a +8 resistance bonus on saving throws
-against mind-affecting effects and poison as well.
+This spell functions as [ooze form II](ref/spell/ooze-form-2) except you can also assume the form of
+a Huge ooze. You gain [blindsight](ref/rule/blindsight-and-blindsense) 60 feet and a +8 resistance
+bonus on saving throws against mind-affecting effects and poison as well.
 
 _Huge Ooze:_ If you assume this form, you gain a +4 size bonus to your Strength, a +10 size bonus to
 your Constitution score, a -10 penalty to your Dexterity score, base speed 20 feet, climb speed 20

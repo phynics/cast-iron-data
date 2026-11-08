@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "form_of_the_exotic_dragon_3", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/form-of-the-exotic-dragon-2" },
+]
 
 [fields]
 kind = "spell"
@@ -106,11 +109,12 @@ and cones increase to 40-foot cones.
 
 **Sources:** Legacy of Dragons pg 31
 
-This spell functions as per form of the exotic dragon II except that it also allows you to take the
-form of a Huge imperial or primal dragon. Druids can choose from the primal dragon (brine, cloud,
-crystal, magma, or umbral) forms only. You gain the following abilities: a +10 size bonus to your
-Strength, a +8 size bonus to your Constitution, a +8 natural armor bonus, a fly speed of 120 feet
-(poor), [blindsense](ref/rule/blindsight-and-blindsense) with a range of 60 feet,
+This spell functions as per [form of the exotic dragon II](ref/spell/form-of-the-exotic-dragon-2)
+except that it also allows you to take the form of a Huge imperial or primal dragon. Druids can
+choose from the primal dragon (brine, cloud, crystal, magma, or umbral) forms only. You gain the
+following abilities: a +10 size bonus to your Strength, a +8 size bonus to your Constitution, a +8
+natural armor bonus, a fly speed of 120 feet (poor),
+[blindsense](ref/rule/blindsight-and-blindsense) with a range of 60 feet,
 [darkvision](ref/rule/darkvision) with a range of 120 feet, a breath weapon,
 [damage reduction](ref/rule/damage-reduction) 10/magic, frightful presence (DC = DC for this spell),
 and immunity to one form of energy (of the same type form of the exotic dragon I grants a resistance

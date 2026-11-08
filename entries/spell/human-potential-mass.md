@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human_potential_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/human-potential" },
+]
 
 [fields]
 kind = "spell"
@@ -56,5 +59,5 @@ skill ranks.
 
 **Sources:** Arcane Anthology pg 9
 
-This spell functions like human potential, except it affects multiple creatures. Each target can
-choose a different ability score to be enhanced by this spell.
+This spell functions like [human potential](ref/spell/human-potential), except it affects multiple
+creatures. Each target can choose a different ability score to be enhanced by this spell.

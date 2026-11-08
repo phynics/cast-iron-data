@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_the_hidden", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/see-invisibility" },
+]
 
 [fields]
 kind = "spell"
@@ -73,4 +76,5 @@ See invisibility can be made permanent with a [permanency](ref/spell/permanency)
 
 **Sources:** Potions and Poisons pg 17
 
-This spell functions as see invisibility, except as noted here. This spell cannot be made permanent.
+This spell functions as [see invisibility](ref/spell/see-invisibility), except as noted here. This
+spell cannot be made permanent.

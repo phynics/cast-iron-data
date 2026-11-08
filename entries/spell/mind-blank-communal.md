@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_blank_communal", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mind-blank" },
+]
 
 [fields]
 kind = "spell"
@@ -61,5 +64,5 @@ subject do not work at all.
 
 **Sources:** Ultimate Combat pg 236
 
-This spell functions like mind blank, except you divide the duration in 1-hour increments among the
-creatures touched.
+This spell functions like [mind blank](ref/spell/mind-blank), except you divide the duration in
+1-hour increments among the creatures touched.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcasting_contract", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spellcasting-contract-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -87,8 +90,9 @@ effect.
 
 **Sources:** Pathfinder \#29: Mother of Flies pg 68
 
-This spell functions like lesser spellcasting contract, except if the target has 9 HD or more, you
-can imbue him with one or two 2nd-level spells and one 3rd-level spell.
+This spell functions like [lesser spellcasting contract](ref/spell/spellcasting-contract-lesser),
+except if the target has 9 HD or more, you can imbue him with one or two 2nd-level spells and one
+3rd-level spell.
 
 ### Greater Spellcasting Contract
 

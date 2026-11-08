@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "last_azlantis_defending_sword_mass", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/last-azlantis-defending-sword" },
+]
 
 [fields]
 kind = "spell"
@@ -61,5 +64,6 @@ restore the spell's shield bonus to AC.
 
 **Sources:** Arcane Anthology pg 9
 
-This spell functions as Last Azlanti's defending sword, except you can create one sword per 5 caster
-levels, each of which must defend a different creature within range.
+This spell functions as [Last Azlanti's defending sword](ref/spell/last-azlantis-defending-sword),
+except you can create one sword per 5 caster levels, each of which must defend a different creature
+within range.

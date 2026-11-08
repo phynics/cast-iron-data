@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_companion_aa", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shield-other" },
+]
 
 [fields]
 kind = "spell"

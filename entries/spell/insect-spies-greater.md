@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insect_spies_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/insect-spies" },
+]
 
 [fields]
 kind = "spell"
@@ -79,7 +82,7 @@ and relative distance of each of the insects.
 
 **Sources:** Ultimate Intrigue pg 217
 
-As insect spies, but you can also borrow the senses of the summoned insects. As a move action, you
-can choose to receive sensory input from one of the insects, seeing what it sees and hearing what it
-hears. While doing so, you are treated as being blind and deaf. You can change to another insect, or
-return to your own senses, with another move action.
+As [insect spies](ref/spell/insect-spies), but you can also borrow the senses of the summoned
+insects. As a move action, you can choose to receive sensory input from one of the insects, seeing
+what it sees and hearing what it hears. While doing so, you are treated as being blind and deaf. You
+can change to another insect, or return to your own senses, with another move action.

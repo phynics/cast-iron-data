@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "named_bullet_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/named-bullet" },
+]
 
 [fields]
 kind = "spell"
@@ -77,5 +80,5 @@ named creature. Ammunition that hits is destroyed and doesn't return.
 
 **Sources:** Ultimate Combat pg 238
 
-This spell functions like named bullet, except it deals 2 extra points of damage per caster level
-(maximum 40).
+This spell functions like [named bullet](ref/spell/named-bullet), except it deals 2 extra points of
+damage per caster level (maximum 40).

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bears_endurance_mass", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bears-endurance" },
+]
 
 [fields]
 kind = "spell"
@@ -64,4 +67,5 @@ They are not lost first as temporary hit points are.
 
 **Sources:** PRPG Core Rulebook pg 247
 
-Mass bear's endurance works like bear's endurance, except that it affects multiple creatures.
+Mass [bear's endurance](ref/spell/bears-endurance) works like bear's endurance, except that it
+affects multiple creatures.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flare_burst", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/flare" },
+]
 
 [fields]
 kind = "spell"
@@ -62,5 +65,5 @@ Sightless creatures, as well as creatures already dazzled, are not affected by f
 
 **Sources:** Advanced Player's Guide pg 223
 
-This spell functions as flare, except it affects all creatures in a 10-foot-radius burst from the
-target point.
+This spell functions as [flare](ref/spell/flare), except it affects all creatures in a
+10-foot-radius burst from the target point.

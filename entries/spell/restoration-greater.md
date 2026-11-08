@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restoration_greater", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/restoration-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -45,10 +48,11 @@ Subschool: Healing
 
 **Sources:** PRPG Core Rulebook pg 334
 
-This spell functions like lesser restoration, except that it also dispels temporary negative levels
-or one permanent negative level. If this spell is used to dispel a permanent negative level, it has
-a material component of diamond dust worth 1,000 gp. This spell cannot be used to dispel more than
-one permanent negative level possessed by a target in a 1-week period.
+This spell functions like [lesser restoration](ref/spell/restoration-lesser), except that it also
+dispels temporary negative levels or one permanent negative level. If this spell is used to dispel a
+permanent negative level, it has a material component of diamond dust worth 1,000 gp. This spell
+cannot be used to dispel more than one permanent negative level possessed by a target in a 1-week
+period.
 
 Restoration cures all temporary ability damage, and it restores all points permanently drained from
 a single ability score (your choice if more than one is drained). It also eliminates any fatigue or

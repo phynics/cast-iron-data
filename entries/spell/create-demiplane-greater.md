@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_demiplane_greater", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/create-demiplane" },
+]
 
 [fields]
 kind = "spell"
@@ -148,12 +151,13 @@ area requires its own permanency spell.
 
 **Sources:** Ultimate Magic pg 213
 
-This spell functions as create demiplane, except the area is larger and you can add more features to
-the plane. You can use this spell to expand a demiplane you created with lesser create demiplane or
-create demiplane (you do not need to create an entirely new plane using this spell), in which case
-it has a duration of 1 day/level. Alternatively, when cast within your demiplane, you may add to
-your demiplane (or remove from it) one of the following features (or any of the features described
-in create demiplane) with each casting of the spell, in which case it has an instantaneous duration.
+This spell functions as [create demiplane](ref/spell/create-demiplane), except the area is larger
+and you can add more features to the plane. You can use this spell to expand a demiplane you created
+with lesser create demiplane or create demiplane (you do not need to create an entirely new plane
+using this spell), in which case it has a duration of 1 day/level. Alternatively, when cast within
+your demiplane, you may add to your demiplane (or remove from it) one of the following features (or
+any of the features described in create demiplane) with each casting of the spell, in which case it
+has an instantaneous duration.
 
 **Energy:** Your plane gains the (minor) negative- or positive-dominant energy trait (see Elemental
 and Energy Traits). A plane cannot have both the negative-dominant and positive-dominant energy

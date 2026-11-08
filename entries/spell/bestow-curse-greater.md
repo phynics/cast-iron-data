@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "pathfinder-82-secrets-of-the-sphinx", "ultimate-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_curse_greater", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bestow-curse" },
+]
 
 [fields]
 kind = "spell"

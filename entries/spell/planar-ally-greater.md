@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_ally_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/planar-ally-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -82,9 +85,9 @@ water creature, it is a spell of that type.
 
 **Sources:** PRPG Core Rulebook pg 320
 
-This spell functions like lesser planar ally, except you may call a single creature of 12 HD or
-less, or two creatures of the same kind whose HD total no more than 12. The creatures agree to help
-you and request your return payment together.
+This spell functions like [lesser planar ally](ref/spell/planar-ally-lesser), except you may call a
+single creature of 12 HD or less, or two creatures of the same kind whose HD total no more than 12.
+The creatures agree to help you and request your return payment together.
 
 ### Greater Planar Ally
 

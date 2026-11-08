@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_reversion", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/minor-reversion" },
+]
 
 [fields]
 kind = "spell"

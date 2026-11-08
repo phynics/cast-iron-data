@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_body_4", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/elemental-body-3" },
+]
 
 [fields]
 kind = "spell"
@@ -173,10 +176,10 @@ earth: acid, fire: fire, water: cold).
 
 **Sources:** PRPG Core Rulebook pg 277
 
-This spell functions as elemental body III, except that it also allows you to assume the form of a
-Huge air, earth, fire, or water elemental. The abilities you gain depend upon the type of elemental
-into which you change. You are also immune to bleed damage, critical hits, and sneak attacks while
-in elemental form and gain DR 5/-.
+This spell functions as [elemental body III](ref/spell/elemental-body-3), except that it also allows
+you to assume the form of a Huge air, earth, fire, or water elemental. The abilities you gain depend
+upon the type of elemental into which you change. You are also immune to bleed damage, critical
+hits, and sneak attacks while in elemental form and gain DR 5/-.
 
 _Air elemental:_ As elemental body I except that you gain a +4 size bonus to your Strength, +6 size
 bonus to your Dexterity, and a +4 natural armor bonus. You also gain fly 120 feet (perfect).

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forbid_action_greater", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/forbid-action" },
+]
 
 [fields]
 kind = "spell"
@@ -78,5 +81,5 @@ by this spell's demand to not move is still free to cast spells, make attacks, o
 
 **Sources:** Ultimate Magic pg 220
 
-This spell functions as forbid action, except up to one creature per level may be affected. Each
-creature must receive the same forbidden action.
+This spell functions as [forbid action](ref/spell/forbid-action), except up to one creature per
+level may be affected. Each creature must receive the same forbidden action.

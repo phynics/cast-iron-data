@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oneiric_horror_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/oneiric-horror" },
+]
 
 [fields]
 kind = "spell"
@@ -65,6 +68,7 @@ fatigued for 1 minute after the spell ends.
 
 **Sources:** Occult Adventures pg 179
 
-This spell functions as oneiric horror except each round the subject fails its Will save, it takes 1
-point of Strength damage, and after the spell ends, the subject must succeed at a Fortitude save or
-be fatigued for a number of minutes equal to the number of rounds spent under the spell's effect.
+This spell functions as [oneiric horror](ref/spell/oneiric-horror) except each round the subject
+fails its Will save, it takes 1 point of Strength damage, and after the spell ends, the subject must
+succeed at a Fortitude save or be fatigued for a number of minutes equal to the number of rounds
+spent under the spell's effect.

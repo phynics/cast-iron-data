@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlarge_person_mass", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/enlarge-person" },
+]
 
 [fields]
 kind = "spell"
@@ -92,4 +95,5 @@ _[reduce person](ref/spell/reduce-person)._
 
 **Sources:** PRPG Core Rulebook pg 278
 
-This spell functions like enlarge person, except that it affects multiple creatures.
+This spell functions like [enlarge person](ref/spell/enlarge-person), except that it affects
+multiple creatures.

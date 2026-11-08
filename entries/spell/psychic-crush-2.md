@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_crush_2", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/psychic-crush-1" },
+]
 
 [fields]
 kind = "spell"
@@ -56,10 +59,11 @@ This attack has no effect on creatures without an Intelligence score.
 
 **Sources:** Occult Adventures pg 182
 
-This functions as psychic crush I, but on a successful Fortitude save, the target takes 5d6 points
-of damage + 1 point of damage per caster level. In addition, the target receives a +4 circumstance
-bonus on the Fortitude save only if it is at full hit points; otherwise, it gains a +2 bonus if it
-has more than half its total hit points remaining. This spell can be undercast.
+This functions as [psychic crush I](ref/spell/psychic-crush-1), but on a successful Fortitude save,
+the target takes 5d6 points of damage + 1 point of damage per caster level. In addition, the target
+receives a +4 circumstance bonus on the Fortitude save only if it is at full hit points; otherwise,
+it gains a +2 bonus if it has more than half its total hit points remaining. This spell can be
+undercast.
 
 ### Psychic Crush III
 

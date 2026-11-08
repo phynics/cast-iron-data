@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_conduit_improved", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/life-conduit" },
+]
 
 [fields]
 kind = "spell"
@@ -53,7 +56,8 @@ moves farther than 50 feet from you, this spell ends.
 
 **Sources:** Ultimate Combat pg 234
 
-This spell functions like life conduit, except you can transfer 3d6 hit points as a swift action.
+This spell functions like [life conduit](ref/spell/life-conduit), except you can transfer 3d6 hit
+points as a swift action.
 
 ### Improved Life Conduit
 

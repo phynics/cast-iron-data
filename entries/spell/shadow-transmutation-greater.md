@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_transmutation_greater", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shadow-transmutation" },
+]
 
 [fields]
 kind = "spell"
@@ -71,7 +74,7 @@ transparent images superimposed over the target.
 
 **Sources:** Blood of Shadows pg 31
 
-This spell functions like shadow transmutation, except it can mimic greater polymorph instead of
-polymorph. The illusory attacks and special abilities of any shape assumed using greater shadow
-transmutation deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are 60%
-likely to work against nonbelievers.
+This spell functions like [shadow transmutation](ref/spell/shadow-transmutation), except it can
+mimic greater polymorph instead of polymorph. The illusory attacks and special abilities of any
+shape assumed using greater shadow transmutation deal three-fifths (60%) damage to nonbelievers, and
+non-damaging effects are 60% likely to work against nonbelievers.

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures", "villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "appearance_of_life_greater", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/appearance-of-life" },
+]
 
 [fields]
 kind = "spell"
@@ -76,9 +79,9 @@ of 12th level or higher for the cost of 10,000 gp.
 
 **Sources:** Villain Codex pg 8
 
-This spell functions as appearance of life, except that you can disguise a single undead creature
-regardless of its number of Hit Dice, and the illusion also creates relevant smells, sounds,
-textures, and temperatures to match the appearance. If you disguise the target as a living version
-of itself, creatures that interact with the target take a -5 penalty on their Will saving throws to
-disbelieve the illusion, though if the target attacks a creature, the attacked creature no longer
-takes this penalty.
+This spell functions as [appearance of life](ref/spell/appearance-of-life), except that you can
+disguise a single undead creature regardless of its number of Hit Dice, and the illusion also
+creates relevant smells, sounds, textures, and temperatures to match the appearance. If you disguise
+the target as a living version of itself, creatures that interact with the target take a -5 penalty
+on their Will saving throws to disbelieve the illusion, though if the target attacks a creature, the
+attacked creature no longer takes this penalty.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "returning_weapon_communal", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/returning-weapon" },
+]
 
 [fields]
 kind = "spell"
@@ -68,5 +71,5 @@ This spell can be used as the prerequisite for the returning weapon special abil
 
 **Sources:** Ultimate Combat pg 243
 
-This spell functions like returning weapon, except you divide the duration in 1-minute intervals
-among the targeted weapons.
+This spell functions like [returning weapon](ref/spell/returning-weapon), except you divide the
+duration in 1-minute intervals among the targeted weapons.

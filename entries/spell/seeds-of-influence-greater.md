@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeds_of_influence_greater", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/seeds-of-influence" },
+]
 
 [fields]
 kind = "spell"
@@ -71,10 +74,10 @@ seeds of influence remove any previous casting.
 
 **Sources:** Inner Sea Intrigue pg 62
 
-This spell functions as seeds of influence, except that if the target is protected by a spell that
-grants immunity, [spell resistance](ref/rule/spell-resistance), or a saving throw bonus against a
-divination or mind-affecting spell you cast on the target, you can attempt caster level checks to
-dispel each such effect before applying the effects of those protections against the spell. The DC
-of the caster level check to dispel each effect is equal to 11 + the effect's caster level. Such
-spells cast on the target while greater seeds of influence is active grant no protection against
-greater seeds of influence.
+This spell functions as [seeds of influence](ref/spell/seeds-of-influence), except that if the
+target is protected by a spell that grants immunity, [spell resistance](ref/rule/spell-resistance),
+or a saving throw bonus against a divination or mind-affecting spell you cast on the target, you can
+attempt caster level checks to dispel each such effect before applying the effects of those
+protections against the spell. The DC of the caster level check to dispel each effect is equal to
+11 + the effect's caster level. Such spells cast on the target while greater seeds of influence is
+active grant no protection against greater seeds of influence.

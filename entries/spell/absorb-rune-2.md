@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorb_rune_2", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/absorb-rune-1" },
+]
 
 [fields]
 kind = "spell"
@@ -73,8 +76,8 @@ touch it.
 
 **Sources:** Adventurer's Guide pg 60
 
-This spell functions like absorb rune I, but it can affect runes equivalent to a spell of 5th level
-or lower.
+This spell functions like [absorb rune I](ref/spell/absorb-rune-1), but it can affect runes
+equivalent to a spell of 5th level or lower.
 
 ### Absorb Rune III
 

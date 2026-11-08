@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "elemental-masters-handbook"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blast_of_wind", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/gust-of-wind" },
+]
 
 [fields]
 kind = "spell"
@@ -100,7 +103,8 @@ another use of mythic power to extend the duration by 1 round and the range by a
 **Sources:** Elemental Master's Handbook pg 17
 
 With a spiraling gesture of your hand and a forceful exhalation, you create a brief but fierce (90
-mph) blast of wind. This spell functions as gust of wind, except all creatures within the area are
-treated as though they were one size category smaller for the purpose of determining how the spell
-affects them. For every 4 caster levels beyond 7th, creatures in the area are treated as an
-additional size category smaller (to a maximum of three size categories smaller at 15th level).
+mph) blast of wind. This spell functions as [gust of wind](ref/spell/gust-of-wind), except all
+creatures within the area are treated as though they were one size category smaller for the purpose
+of determining how the spell affects them. For every 4 caster levels beyond 7th, creatures in the
+area are treated as an additional size category smaller (to a maximum of three size categories
+smaller at 15th level).

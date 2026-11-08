@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assume_appearance_greater", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/assume-appearance" },
+]
 
 [fields]
 kind = "spell"
@@ -74,13 +77,13 @@ immediately ends.
 
 **Sources:** Horror Adventures pg 109
 
-This spell functions similar to assume appearance, except that you can imitate a creature even if
-you have only a likeness (such as a sketch or painting) that is fairly accurate. If there is an age
-difference between the likeness and the actual creature, you take on the appearance of the creature
-near the end of its life. If you have heard the creature whose form you plan to assume speak aloud,
-you can also copy its voice as vocal alteration ([speak with dead](ref/spell/speak-with-dead) can
-also be used to fulfill this requirement). The spell doesn't grant insight into the dead creature's
-mannerisms
+This spell functions similar to [assume appearance](ref/spell/assume-appearance), except that you
+can imitate a creature even if you have only a likeness (such as a sketch or painting) that is
+fairly accurate. If there is an age difference between the likeness and the actual creature, you
+take on the appearance of the creature near the end of its life. If you have heard the creature
+whose form you plan to assume speak aloud, you can also copy its voice as vocal alteration
+([speak with dead](ref/spell/speak-with-dead) can also be used to fulfill this requirement). The
+spell doesn't grant insight into the dead creature's mannerisms
 
 Additionally, if a likeness used as a focus for the spell is kept on your person or within 30 feet
 at all times, the aura of greater ssume appearance is redirected to the likeness instead of to you,

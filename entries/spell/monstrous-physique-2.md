@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_physique_2", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/monstrous-physique-1" },
+]
 
 [fields]
 kind = "spell"
@@ -86,12 +89,13 @@ to touch and the target to one creature per tier.
 
 **Sources:** Ultimate Magic pg 229
 
-This spell functions as monstrous physique I, except it also allows you to assume the form of a Tiny
-or Large creature of the monstrous humanoid type. If the form you assume has any of the following
-abilities, you gain the listed ability: climb 60 feet, fly 60 feet (good maneuverability), swim 60
-feet, [darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision),
-scent, freeze, grab, leap attack, mimicry, pounce, sound mimicry, speak with sharks, and trip. If
-the creature has the undersized weapons special quality, you gain that quality.
+This spell functions as [monstrous physique I](ref/spell/monstrous-physique-1), except it also
+allows you to assume the form of a Tiny or Large creature of the monstrous humanoid type. If the
+form you assume has any of the following abilities, you gain the listed ability: climb 60 feet, fly
+60 feet (good maneuverability), swim 60 feet, [darkvision](ref/rule/darkvision) 60 feet,
+[low-light vision](ref/rule/low-light-vision), scent, freeze, grab, leap attack, mimicry, pounce,
+sound mimicry, speak with sharks, and trip. If the creature has the undersized weapons special
+quality, you gain that quality.
 
 _Tiny monstrous humanoid:_ If the form you take is that of a Tiny monstrous humanoid, you gain a +4
 size bonus to your Dexterity, a -2 penalty to your Strength, and a +1 natural armor bonus.

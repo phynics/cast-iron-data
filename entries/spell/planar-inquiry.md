@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_inquiry", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/planar-ally-lesser" },
+]
 
 [fields]
 kind = "spell"

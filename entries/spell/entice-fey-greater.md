@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entice_fey_greater", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/entice-fey-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -61,8 +64,9 @@ either the offerings or the payment.
 
 **Sources:** Ultimate Intrigue pg 213
 
-This spell functions as lesser entice fey, except that the spell's whimsical calling can produce a
-single fey of 12 Hit Dice or less, or two fey of the same kind whose Hit Dice total no more than 12.
+This spell functions as [lesser entice fey](ref/spell/entice-fey-lesser), except that the spell's
+whimsical calling can produce a single fey of 12 Hit Dice or less, or two fey of the same kind whose
+Hit Dice total no more than 12.
 
 ### Greater Entice Fey
 

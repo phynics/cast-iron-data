@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suns_disdain_mass", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/suns-disdain" },
+]
 
 [fields]
 kind = "spell"
@@ -63,4 +66,5 @@ resolving spells like [searing light](ref/spell/searing-light), [sunbeam](ref/sp
 
 **Sources:** Adventurer's Guide pg 17
 
-This spell functions like sun's disdain, except that it can affect multiple creatures.
+This spell functions like [sun's disdain](ref/spell/suns-disdain), except that it can affect
+multiple creatures.

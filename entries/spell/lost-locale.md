@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_locale", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/lost-passage" },
+]
 
 [fields]
 kind = "spell"
@@ -67,5 +70,6 @@ Lost passage can be made permanent with [permanency](ref/spell/permanency) at a 
 
 **Sources:** Inner Sea Races pg 220
 
-This spell functions as lost passage, except that it affects a larger area. Lost locale can be made
-permanent with [permanency](ref/spell/permanency) at a cost of 90,000 gp.
+This spell functions as [lost passage](ref/spell/lost-passage), except that it affects a larger
+area. Lost locale can be made permanent with [permanency](ref/spell/permanency) at a cost of 90,000
+gp.

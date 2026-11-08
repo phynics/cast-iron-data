@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_pulse_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/positive-pulse" },
+]
 
 [fields]
 kind = "spell"
@@ -67,5 +70,5 @@ by haunts. This bonus lasts for 1 round.
 
 **Sources:** Planar Adventures pg 43
 
-This spell functions like positive pulse, except that the damage dealt increases to 3d6 plus your
-caster level, and the bonus on saving throws increases to +8.
+This spell functions like [positive pulse](ref/spell/positive-pulse), except that the damage dealt
+increases to 3d6 plus your caster level, and the bonus on saving throws increases to +8.

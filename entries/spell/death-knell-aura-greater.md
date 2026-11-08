@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_knell_aura_greater", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/death-knell-aura" },
+]
 
 [fields]
 kind = "spell"
@@ -58,7 +61,8 @@ its turn, it must save or die, granting you the benefits of death knell.
 
 **Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 38
 
-This spell functions as death knell aura, except a dying creature in the area cannot stabilize on
-its own and automatically takes 1 point of bleed damage on its turn each round. An incorporeal
-undead or living spirit traveling outside the body (such as a person using astral projection or
-magic jar) within the aura at the start of its turn takes 1d8 points of damage.
+This spell functions as [death knell aura](ref/spell/death-knell-aura), except a dying creature in
+the area cannot stabilize on its own and automatically takes 1 point of bleed damage on its turn
+each round. An incorporeal undead or living spirit traveling outside the body (such as a person
+using astral projection or magic jar) within the aura at the start of its turn takes 1d8 points of
+damage.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jannis_jaunt", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/plane-shift" },
+]
 
 [fields]
 kind = "spell"
@@ -80,6 +83,6 @@ a planar adaptation spell upon arrival, lasting for 1 hour.
 
 **Sources:** Planes of Power pg 9
 
-This spell functions as per plane shift, but with the following exceptions. First, you are able to
-transport only willing creatures. Second, the spell can transport you and any other willing targets
-only to an Elemental Plane, the Astral Plane, or the Material Plane.
+This spell functions as per [plane shift](ref/spell/plane-shift), but with the following exceptions.
+First, you are able to transport only willing creatures. Second, the spell can transport you and any
+other willing targets only to an Elemental Plane, the Astral Plane, or the Material Plane.

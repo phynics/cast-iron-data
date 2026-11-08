@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_person_mass", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hold-person" },
+]
 
 [fields]
 kind = "spell"
@@ -60,7 +63,8 @@ creature who is paralyzed cannot flap its wings and falls. A swimmer can't swim 
 
 **Sources:** The First World, Realm of the Fey pg 12
 
-This spell functions as per hold person, except it affects a fey instead of a humanoid.
+This spell functions as per [hold person](ref/spell/hold-person), except it affects a fey instead of
+a humanoid.
 
 ### Mass Hold Person
 

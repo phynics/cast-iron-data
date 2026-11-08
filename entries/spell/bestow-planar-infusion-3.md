@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_planar_infusion_3", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bestow-planar-infusion-1" },
+]
 
 [fields]
 kind = "spell"
@@ -70,8 +73,8 @@ of times per day are not refreshed by multiple castings of bestow planar infusio
 
 **Sources:** Planar Adventures pg 39
 
-This functions as bestow planar infusion I, except that the touched creature gains the improved
-infusion of the current plane.
+This functions as [bestow planar infusion I](ref/spell/bestow-planar-infusion-1), except that the
+touched creature gains the improved infusion of the current plane.
 
 ### Bestow Planar Infusion III
 

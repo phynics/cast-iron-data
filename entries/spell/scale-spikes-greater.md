@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scale_spikes_greater", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/scale-spikes" },
+]
 
 [fields]
 kind = "spell"
@@ -59,7 +62,7 @@ armor spikes. The subject is automatically considered proficient with these scal
 
 **Sources:** Monster Codex pg 141
 
-This spell functions like scale spikes, except that the spikes growing out of the scales have an
-enhancement bonus on attack and damage rolls equal to +1 for every 4 caster levels (maximum +5).
-This bonus does not allow the spikes to bypass [damage reduction](ref/rule/damage-reduction) aside
-from magic.
+This spell functions like [scale spikes](ref/spell/scale-spikes), except that the spikes growing out
+of the scales have an enhancement bonus on attack and damage rolls equal to +1 for every 4 caster
+levels (maximum +5). This bonus does not allow the spikes to bypass
+[damage reduction](ref/rule/damage-reduction) aside from magic.

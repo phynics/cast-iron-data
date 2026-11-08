@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longstrider_greater", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/longstrider" },
+]
 
 [fields]
 kind = "spell"
@@ -50,7 +53,7 @@ modes of movement, such as burrow, climb, fly, or swim.
 
 **Sources:** Advanced Class Guide pg 186
 
-This functions as longstrider, except it gives you a +20 foot enhancement bonus to your base speed
-and a +10 foot enhancement bonus to your other modes of movement (burrow, climb, fly, swim, and so
-on). It does not affect movement modes you do not actually have-for example, if you do not have a
-swim speed, this spell does not grant you a swim speed.
+This functions as [longstrider](ref/spell/longstrider), except it gives you a +20 foot enhancement
+bonus to your base speed and a +10 foot enhancement bonus to your other modes of movement (burrow,
+climb, fly, swim, and so on). It does not affect movement modes you do not actually have-for
+example, if you do not have a swim speed, this spell does not grant you a swim speed.

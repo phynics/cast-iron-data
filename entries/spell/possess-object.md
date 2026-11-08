@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possess_object", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-jar" },
+]
 
 [fields]
 kind = "spell"
@@ -94,12 +97,12 @@ dispelled at either the magic jar or the host's location.
 **Sources:** Book of the Damned pg 185, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
 39
 
-This spell functions like magic jar except as noted above, and instead of your own soul, you can
-transfer a trapped soul (such as one trapped in a soul gem or trapped with soul bind or trap the
-soul) from the receptacle into an unwilling target's body. If the target creature fails its saving
-throw, it dies and the trapped soul in the receptacle permanently inhabits the body as if using
-magic jar. The trapped soul does not get a saving throw to resist this transfer. To dismiss the
-spell, you must be within range of the possessed body.
+This spell functions like [magic jar](ref/spell/magic-jar) except as noted above, and instead of
+your own soul, you can transfer a trapped soul (such as one trapped in a soul gem or trapped with
+soul bind or trap the soul) from the receptacle into an unwilling target's body. If the target
+creature fails its saving throw, it dies and the trapped soul in the receptacle permanently inhabits
+the body as if using magic jar. The trapped soul does not get a saving throw to resist this
+transfer. To dismiss the spell, you must be within range of the possessed body.
 
 ### Possess Object
 

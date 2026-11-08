@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "book-of-the-damned", "book-of-the-damned-volume-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_transfer", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/trap-the-soul" },
+]
 
 [fields]
 kind = "spell"
@@ -74,11 +77,11 @@ save.
 **Sources:** Book of the Damned pg 186, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
 39
 
-This spell functions like the spell completion option of trap the soul, except it works only on
-bodiless souls (such as incorporeal undead or a soul trapped in a gem) and creatures whose substance
-is a physical incarnation of a soul (such as a petitioner). It does not work on creatures formed
-from souls or planar material (such as most outsiders). Soul transfer is mainly used to transfer
-souls from one receptacle to another, but it can also be used to capture vulnerable souls that
-aren't bound to mortal flesh (such as incorporeal creatures and petitioners). When used to capture a
-petitioner, the petitioner's physical body vanishes, reappearing only when its soul is released from
-the receptacle.
+This spell functions like [the spell completion option of trap the soul](ref/spell/trap-the-soul),
+except it works only on bodiless souls (such as incorporeal undead or a soul trapped in a gem) and
+creatures whose substance is a physical incarnation of a soul (such as a petitioner). It does not
+work on creatures formed from souls or planar material (such as most outsiders). Soul transfer is
+mainly used to transfer souls from one receptacle to another, but it can also be used to capture
+vulnerable souls that aren't bound to mortal flesh (such as incorporeal creatures and petitioners).
+When used to capture a petitioner, the petitioner's physical body vanishes, reappearing only when
+its soul is released from the receptacle.

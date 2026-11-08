@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "pathfinder-82-secrets-of-the-sphinx", "ultimate-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conditional_curse", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bestow-curse" },
+]
 
 [fields]
 kind = "spell"
@@ -101,13 +104,14 @@ remove the curse with break enchantment increases by 5.
 
 **Sources:** Ultimate Intrigue pg 206
 
-This spell functions as bestow curse, except that you must state a condition under which the curse
-is broken, ending its effect. An intelligent target, even one of animal intelligence, innately
-understands this condition even if it doesn't understand your language. The condition must be
-possible for the target to bring about within a year and a day without ensuring its own death and
-stated in 25 or fewer words. The curse is more difficult to remove via magic. The DC to remove
-conditional curse with [break enchantment](ref/spell/break-enchantment) or
-[remove curse](ref/spell/remove-curse) increases by 5.
+This spell functions as [bestow curse](ref/spell/bestow-curse), except that you must state a
+condition under which the curse is broken, ending its effect. An intelligent target, even one of
+animal intelligence, innately understands this condition even if it doesn't understand your
+language. The condition must be possible for the target to bring about within a year and a day
+without ensuring its own death and stated in 25 or fewer words. The curse is more difficult to
+remove via magic. The DC to remove conditional curse with
+[break enchantment](ref/spell/break-enchantment) or [remove curse](ref/spell/remove-curse) increases
+by 5.
 
 ### Major Curse
 

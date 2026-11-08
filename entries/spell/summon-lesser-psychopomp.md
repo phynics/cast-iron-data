@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_lesser_psychopomp", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-monster" },
+]
 
 [fields]
 kind = "spell"
@@ -50,6 +53,6 @@ Subschool: Summoning
 
 **Sources:** Pathfinder \#80: Empty Graves pg 28
 
-This spell functions like summon monster, except that it summons 1d3
+This spell functions like [summon monster](ref/spell/summon-monster), except that it summons 1d3
 [esobok psychopomps](ref/monster/psychopomp-esobok) or 1d4+1
 [nosoi psychopomps](ref/monster/psychopomp-nosoi).

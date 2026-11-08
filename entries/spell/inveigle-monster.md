@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inveigle_monster", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/inveigle-person" },
+]
 
 [fields]
 kind = "spell"
@@ -66,4 +69,4 @@ multiple forms of mental control.
 
 **Sources:** Inner Sea Intrigue pg 60
 
-This spell functions as inveigle person except as noted above.
+This spell functions as [inveigle person](ref/spell/inveigle-person) except as noted above.

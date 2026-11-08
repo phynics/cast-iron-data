@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endure_elements_communal", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/endure-elements" },
+]
 
 [fields]
 kind = "spell"
@@ -78,5 +81,5 @@ weapon attacks from hail, rain, sleet, and snow. They treat wind as one category
 
 **Sources:** Ultimate Combat pg 228
 
-This spell functions like endure elements, except you divide the duration in 1-hour increments among
-the creatures touched.
+This spell functions like [endure elements](ref/spell/endure-elements), except you divide the
+duration in 1-hour increments among the creatures touched.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treacherous_teleport", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/teleport" },
+]
 
 [fields]
 kind = "spell"
@@ -110,11 +113,12 @@ points of damage, and you reroll on the chart to see where you wind up. For thes
 
 **Sources:** PRPG Core Rulebook pg 359
 
-This spell functions like teleport, except that there is no range limit and there is no chance you
-arrive off target. In addition, you need not have seen the destination, but in that case you must
-have at least a reliable description of the place to which you are teleporting. If you attempt to
-teleport with insufficient information (or with misleading information), you disappear and simply
-reappear in your original location. Interplanar travel is not possible.
+This spell functions like [teleport](ref/spell/teleport), except that there is no range limit and
+there is no chance you arrive off target. In addition, you need not have seen the destination, but
+in that case you must have at least a reliable description of the place to which you are
+teleporting. If you attempt to teleport with insufficient information (or with misleading
+information), you disappear and simply reappear in your original location. Interplanar travel is not
+possible.
 
 ### Treacherous Teleport
 

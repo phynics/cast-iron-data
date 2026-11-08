@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grease_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/grease" },
+]
 
 [fields]
 kind = "spell"
@@ -82,8 +85,8 @@ ignited, it takes 2d6 points of fire damage, and might catch on fire; add your t
 
 **Sources:** Dirty Tactics Toolbox pg 30
 
-This spell functions like grease, except as noted here. When you use this spell to cover a solid
-surface with slippery grease, the 10-foot squares must form a continuous area, each part of which
-must be within the spell's range. When you use this spell to create a greasy coating on items, no
-two of the targeted items can be more than 30 feet apart. You cannot target both items and surfaces
-with a single casting of this spell.
+This spell functions like [grease](ref/spell/grease), except as noted here. When you use this spell
+to cover a solid surface with slippery grease, the 10-foot squares must form a continuous area, each
+part of which must be within the spell's range. When you use this spell to create a greasy coating
+on items, no two of the targeted items can be more than 30 feet apart. You cannot target both items
+and surfaces with a single casting of this spell.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_stallion", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/sea-steed" },
+]
 
 [fields]
 kind = "spell"
@@ -55,8 +58,8 @@ the target's base speed is reduced by 10 feet (minimum 10 feet).
 
 **Sources:** Ultimate Wilderness pg 234
 
-This spell functions as sea steed, but as long as you stay mounted on the target, you also gain the
-amphibious quality and your melee attacks function as if you were under the effect of freedom of
-movement. The benefits you gain from this spell are not polymorph effects. If you dismount from the
-target, you retain the amphibious quality for up to 1 minute, but not the other benefits. You regain
-all of the benefits once you mount the target creature again.
+This spell functions as [sea steed](ref/spell/sea-steed), but as long as you stay mounted on the
+target, you also gain the amphibious quality and your melee attacks function as if you were under
+the effect of freedom of movement. The benefits you gain from this spell are not polymorph effects.
+If you dismount from the target, you retain the amphibious quality for up to 1 minute, but not the
+other benefits. You regain all of the benefits once you mount the target creature again.

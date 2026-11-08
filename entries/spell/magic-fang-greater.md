@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_fang_greater", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-fang" },
+]
 
 [fields]
 kind = "spell"
@@ -63,9 +66,10 @@ example, if you're 3rd tier, it could affect two claws and one bite).
 
 **Sources:** PRPG Core Rulebook pg 309
 
-This spell functions like magic fang, except that the enhancement bonus on attack and damage rolls
-is +1 per four caster levels (maximum +5). This bonus does not allow a natural weapon or unarmed
-strike to bypass [damage reduction](ref/rule/damage-reduction) aside from magic.
+This spell functions like [magic fang](ref/spell/magic-fang), except that the enhancement bonus on
+attack and damage rolls is +1 per four caster levels (maximum +5). This bonus does not allow a
+natural weapon or unarmed strike to bypass [damage reduction](ref/rule/damage-reduction) aside from
+magic.
 
 Alternatively, you may imbue all of the creature's natural weapons with a +1 enhancement bonus
 (regardless of your caster level).

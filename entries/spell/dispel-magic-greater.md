@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_magic_greater", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dispel-magic" },
+]
 
 [fields]
 kind = "spell"
@@ -121,8 +124,8 @@ twice and take the higher result.
 
 **Sources:** PRPG Core Rulebook pg 272
 
-This spell functions like dispel magic, except that it can end more than one spell on a target and
-it can be used to target multiple creatures.
+This spell functions like [dispel magic](ref/spell/dispel-magic), except that it can end more than
+one spell on a target and it can be used to target multiple creatures.
 
 You choose to use greater dispel magic in one of three ways: a targeted dispel, area dispel, or a
 counterspell:

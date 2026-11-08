@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant_shape_3", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/plant-shape-2" },
+]
 
 [fields]
 kind = "spell"
@@ -76,9 +79,9 @@ Strength, a +2 size bonus to your Constitution, and a +4 natural armor bonus.
 
 **Sources:** PRPG Core Rulebook pg 323
 
-This spell functions as plant shape II except that it also allows you to assume the form of a Huge
-creature of the plant type. If the form you assume has any of the following abilities, you gain the
-listed ability: DR, regeneration 5, and trample.
+This spell functions as [plant shape II](ref/spell/plant-shape-2) except that it also allows you to
+assume the form of a Huge creature of the plant type. If the form you assume has any of the
+following abilities, you gain the listed ability: DR, regeneration 5, and trample.
 
 _Huge plant:_ If the form you take is that of a Huge plant, you gain a +8 size bonus to your
 Strength, a -2 penalty to your Dexterity, a +4 size bonus to your Constitution, and a +6 natural

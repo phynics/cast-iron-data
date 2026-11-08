@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_shield_5", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/thought-shield-4" },
+]
 
 [fields]
 kind = "spell"
@@ -74,5 +77,6 @@ at your save against a psychic crush spell, you take no damage. This spell can b
 
 **Sources:** Occult Adventures pg 190
 
-This functions as thought shield IV, except as noted above. This spell immediately ends if you fail
-a Will saving throw against a mind-affecting effect. This spell can be undercast.
+This functions as [thought shield IV](ref/spell/thought-shield-4), except as noted above. This spell
+immediately ends if you fail a Will saving throw against a mind-affecting effect. This spell can be
+undercast.

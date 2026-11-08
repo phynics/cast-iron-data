@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passing_fancy_mass", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/passing-fancy" },
+]
 
 [fields]
 kind = "spell"
@@ -66,4 +69,4 @@ Motive checks to notice that anything is amiss with the target's behavior.
 
 **Sources:** Spymaster's Handbook pg 29
 
-This spell functions as per passing fancy except as noted above.
+This spell functions as per [passing fancy](ref/spell/passing-fancy) except as noted above.

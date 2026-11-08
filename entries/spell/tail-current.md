@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_current", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/tailwind" },
+]
 
 [fields]
 kind = "spell"
@@ -68,5 +71,6 @@ no effect underwater.
 
 **Sources:** Ultimate Wilderness pg 236
 
-This spell functions as tailwind except it creates a helpful current in water instead of in the air.
-It grants free movement while swimming rather than while flying and functions only underwater.
+This spell functions as [tailwind](ref/spell/tailwind) except it creates a helpful current in water
+instead of in the air. It grants free movement while swimming rather than while flying and functions
+only underwater.

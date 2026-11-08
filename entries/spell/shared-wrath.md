@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_wrath", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/wrath" },
+]
 
 [fields]
 kind = "spell"
@@ -57,5 +60,6 @@ that expands the threat range of a weapon.
 
 **Sources:** Advanced Player's Guide pg 243
 
-This spell functions as wrath, except that you grant multiple creatures the bonuses against your
-designated foe. All subjects of shared wrath receive their bonuses against the same creature.
+This spell functions as [wrath](ref/spell/wrath), except that you grant multiple creatures the
+bonuses against your designated foe. All subjects of shared wrath receive their bonuses against the
+same creature.

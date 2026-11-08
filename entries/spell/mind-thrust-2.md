@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_thrust_2", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mind-thrust-1" },
+]
 
 [fields]
 kind = "spell"
@@ -52,8 +55,8 @@ Intelligence score.
 
 **Sources:** Occult Adventures pg 177
 
-This functions as mind thrust I, but the target takes 1d8 points of damage per caster level (maximum
-5d8). This spell can be undercast.
+This functions as [mind thrust I](ref/spell/mind-thrust-1), but the target takes 1d8 points of
+damage per caster level (maximum 5d8). This spell can be undercast.
 
 ### Mind Thrust III
 

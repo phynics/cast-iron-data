@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_anxieties", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/detect-thoughts" },
+]
 
 [fields]
 kind = "spell"
@@ -80,8 +83,9 @@ foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood o
 
 **Sources:** Ultimate Intrigue pg 211
 
-This spell functions as detect thoughts except that you sense significant anxieties of creatures
-with an Intelligence score of 1 or higher, regardless of whether they are conscious or not.
+This spell functions as [detect thoughts](ref/spell/detect-thoughts) except that you sense
+significant anxieties of creatures with an Intelligence score of 1 or higher, regardless of whether
+they are conscious or not.
 
 Instead of Intelligence, the second round of concentration reveals each mind's Wisdom score and
 current degree of fear (shaken, frightened, panicked, cowering, or paralyzed with fear). If the

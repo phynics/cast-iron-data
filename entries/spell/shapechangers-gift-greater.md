@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechangers_gift_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shapechangers-gift" },
+]
 
 [fields]
 kind = "spell"
@@ -55,7 +58,7 @@ will as a standard action.
 
 **Sources:** Ultimate Wilderness pg 235
 
-This spell functions as shapechanger's gift except the chosen form can be an animal (as per beast
-shape I), elemental (as per elemental body I), fey (as per fey form I), humanoid (as per alter
-self), monstrous humanoid (as per monstrous physique I), or vermin (as per vermin shape I) and the
-chosen form can have a fly speed.
+This spell functions as [shapechanger's gift](ref/spell/shapechangers-gift) except the chosen form
+can be an animal (as per beast shape I), elemental (as per elemental body I), fey (as per fey form
+I), humanoid (as per alter self), monstrous humanoid (as per monstrous physique I), or vermin (as
+per vermin shape I) and the chosen form can have a fly speed.

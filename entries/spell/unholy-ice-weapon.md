@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_ice_weapon", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/holy-ice-weapon" },
+]
 
 [fields]
 kind = "spell"
@@ -59,5 +62,6 @@ after an attack and re-forming in your hand just before your next turn.
 
 **Sources:** Advanced Class Guide pg 198
 
-This spell functions as holy ice weapon, except the weapon is made of frozen unholy water, and
-instead deals additional damage to creatures that are susceptible to unholy water.
+This spell functions as [holy ice weapon](ref/spell/holy-ice-weapon), except the weapon is made of
+frozen unholy water, and instead deals additional damage to creatures that are susceptible to unholy
+water.

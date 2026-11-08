@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_monster_7", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-monster-1" },
+]
 
 [fields]
 kind = "spell"
@@ -190,8 +193,8 @@ spell's type match your alignment.
 
 **Sources:** PRPG Core Rulebook pg 352
 
-This spell functions like summon monster I, except that you can summon one creature from the
-2nd-level list or 1d3 creatures of the same kind from the 1st-level list.
+This spell functions like [summon monster I](ref/spell/summon-monster-1), except that you can summon
+one creature from the 2nd-level list or 1d3 creatures of the same kind from the 1st-level list.
 
 ### Summon Monster III
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repair_undead_mass", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/repair-undead" },
+]
 
 [fields]
 kind = "spell"

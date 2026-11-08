@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_of_treachery_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/illusion-of-treachery" },
+]
 
 [fields]
 kind = "spell"
@@ -67,7 +70,8 @@ thus receives a save to disbelieve.
 
 **Sources:** Ultimate Intrigue pg 217
 
-This spell functions as illusion of treachery except that it also conceals your own actions (as
-illusion of calm) and renders invisible all spell effects and ranged attacks originating from you
-until they reach the attack's target (this doesn't cause the attack's target to be unable to avoid
-the attack, as they still see the attack originating from the spell's target).
+This spell functions as [illusion of treachery](ref/spell/illusion-of-treachery) except that it also
+conceals your own actions (as illusion of calm) and renders invisible all spell effects and ranged
+attacks originating from you until they reach the attack's target (this doesn't cause the attack's
+target to be unable to avoid the attack, as they still see the attack originating from the spell's
+target).

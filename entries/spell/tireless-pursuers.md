@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tireless_pursuers", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/tireless-pursuit" },
+]
 
 [fields]
 kind = "spell"
@@ -53,4 +56,4 @@ already fatigued.
 
 **Sources:** Advanced Player's Guide pg 249
 
-This spell functions as tireless pursuit, except as noted above.
+This spell functions as [tireless pursuit](ref/spell/tireless-pursuit), except as noted above.

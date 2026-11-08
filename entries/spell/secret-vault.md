@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "black-markets", "heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_vault", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/secret-chest" },
+]
 
 [fields]
 kind = "spell"
@@ -75,11 +78,11 @@ water, or whatever they need to survive.
 
 **Sources:** Black Markets pg 31, Heroes of the Streets pg 31
 
-This spell functions like secret chest, except the coffer is only 1 foot square and can contain only
-1 cubic foot of goods, and the container can remain safely hidden on the Ethereal Plane for only 14
-days before it risks becoming lost. The spell automatically fails if a living creature enters the
-coffer. The coffer used as a focus for secret coffer must cost at least 500 gp, and its replica
-costs 5 gp.
+This spell functions like [secret chest](ref/spell/secret-chest), except the coffer is only 1 foot
+square and can contain only 1 cubic foot of goods, and the container can remain safely hidden on the
+Ethereal Plane for only 14 days before it risks becoming lost. The spell automatically fails if a
+living creature enters the coffer. The coffer used as a focus for secret coffer must cost at least
+500 gp, and its replica costs 5 gp.
 
 ### Secret Vault
 

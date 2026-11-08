@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_weapon_greater", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-weapon" },
+]
 
 [fields]
 kind = "spell"
@@ -65,9 +68,9 @@ A monk's unarmed strike is considered a weapon, and thus it can be enhanced by t
 
 **Sources:** PRPG Core Rulebook pg 310
 
-This spell functions like magic weapon, except that it gives a weapon an enhancement bonus on attack
-and damage rolls of +1 per four caster levels (maximum +5). This bonus does not allow a weapon to
-bypass [damage reduction](ref/rule/damage-reduction) aside from magic.
+This spell functions like [magic weapon](ref/spell/magic-weapon), except that it gives a weapon an
+enhancement bonus on attack and damage rolls of +1 per four caster levels (maximum +5). This bonus
+does not allow a weapon to bypass [damage reduction](ref/rule/damage-reduction) aside from magic.
 
 Alternatively, you can affect as many as 50 arrows, bolts, or bullets. The projectiles must be of
 the same kind, and they have to be together (in the same quiver or other container). Projectiles,

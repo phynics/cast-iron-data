@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intellect_fortress_2", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/intellect-fortress-1" },
+]
 
 [fields]
 kind = "spell"
@@ -48,10 +51,10 @@ effects with the emotion and fear descriptors for its duration.
 
 **Sources:** Occult Adventures pg 175
 
-This spell functions as intellect fortress I, but in addition, any mind-affecting effects that deal
-damage have their damage reduced by half (before any reduction due to a successful save or other
-effect). This applies to both hit point damage and ability score damage. This spell can be
-undercast.
+This spell functions as [intellect fortress I](ref/spell/intellect-fortress-1), but in addition, any
+mind-affecting effects that deal damage have their damage reduced by half (before any reduction due
+to a successful save or other effect). This applies to both hit point damage and ability score
+damage. This spell can be undercast.
 
 ### Intellect Fortress III
 

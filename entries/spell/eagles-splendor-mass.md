@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagles_splendor_mass", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/eagles-splendor" },
+]
 
 [fields]
 kind = "spell"
@@ -51,4 +54,5 @@ Target: one creature/level, no two of which can be more than 30 ft. apart
 
 **Sources:** PRPG Core Rulebook pg 275
 
-This spell functions like eagle's splendor, except that it affects multiple creatures.
+This spell functions like [eagle's splendor](ref/spell/eagles-splendor), except that it affects
+multiple creatures.

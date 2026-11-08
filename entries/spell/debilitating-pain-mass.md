@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating_pain_mass", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/debilitating-pain" },
+]
 
 [fields]
 kind = "spell"
@@ -53,5 +56,5 @@ round on a successful save.
 
 **Sources:** Psychic Anthology pg 10
 
-This spell functions as per debilitating pain, except you can target one creature for every 4 caster
-levels you have.
+This spell functions as per [debilitating pain](ref/spell/debilitating-pain), except you can target
+one creature for every 4 caster levels you have.

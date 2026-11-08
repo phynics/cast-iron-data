@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spindrift_spritz_mass", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/spindrift-spritz" },
+]
 
 [fields]
 kind = "spell"
@@ -63,4 +66,4 @@ saving throw twice and take the higher result.
 
 **Sources:** Elemental Master's Handbook pg 14
 
-This spell functions as spindrift spritz, except as noted above.
+This spell functions as [spindrift spritz](ref/spell/spindrift-spritz), except as noted above.

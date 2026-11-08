@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkvision_greater", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/darkvision" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "age_resistance", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/age-resistance-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -63,8 +66,8 @@ in full.
 
 **Sources:** Ultimate Magic pg 205
 
-This spell functions as lesser age resistance, except you ignore the Strength, Dexterity, and
-Constitution penalties gained at middle and old age.
+This spell functions as [lesser age resistance](ref/spell/age-resistance-lesser), except you ignore
+the Strength, Dexterity, and Constitution penalties gained at middle and old age.
 
 ### Greater Age Resistance
 

@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_blade_mass", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dazzling-blade" },
+]
 
 [fields]
 kind = "spell"
@@ -66,6 +69,6 @@ vulnerable to silver.
 
 **Sources:** Rival Guide pg 5
 
-This spell functions like dazzling blade, except that it affects multiple weapons. Each wielder of a
-dazzling blade can discharge the weapon's effect to attempt to blind a foe independently of the
-others.
+This spell functions like [dazzling blade](ref/spell/dazzling-blade), except that it affects
+multiple weapons. Each wielder of a dazzling blade can discharge the weapon's effect to attempt to
+blind a foe independently of the others.

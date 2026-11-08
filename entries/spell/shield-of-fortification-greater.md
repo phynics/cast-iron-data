@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_fortification_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shield-of-fortification" },
+]
 
 [fields]
 kind = "spell"
@@ -57,5 +60,6 @@ ability.
 
 **Sources:** Advanced Class Guide pg 192
 
-This spell functions as shield of fortification, except there is a 50% chance that the critical hit
-or sneak attack is negated and damage is instead be rolled normally, rather than 25%.
+This spell functions as [shield of fortification](ref/spell/shield-of-fortification), except there
+is a 50% chance that the critical hit or sneak attack is negated and damage is instead be rolled
+normally, rather than 25%.

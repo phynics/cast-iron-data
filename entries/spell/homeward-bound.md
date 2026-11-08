@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "homeward_bound", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dismissal" },
+]
 
 [fields]
 kind = "spell"
@@ -55,4 +58,4 @@ sending the subject to a plane other than its own.
 
 **Sources:** Planar Adventures pg 41
 
-This spell functions as dismissal, except as noted above.
+This spell functions as [dismissal](ref/spell/dismissal), except as noted above.

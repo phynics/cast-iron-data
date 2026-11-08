@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cats_grace_mass", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/cats-grace" },
+]
 
 [fields]
 kind = "spell"
@@ -60,4 +63,4 @@ Dexterity modifier.
 
 **Sources:** PRPG Core Rulebook pg 252
 
-This spell functions like cat's grace, except it affects multiple creatures.
+This spell functions like [cat's grace](ref/spell/cats-grace), except it affects multiple creatures.

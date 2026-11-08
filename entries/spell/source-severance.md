@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "source_severance", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/antimagic-field" },
+]
 
 [fields]
 kind = "spell"
@@ -94,10 +97,10 @@ are unaffected by the antimagic field.
 
 You create an invisible barrier that surrounds you and moves with you, inhibiting one category of
 magic. When you cast this spell, choose either arcane or divine magic. This spell functions like
-antimagic field, but it suppresses only spells of the chosen type and supernatural and spell-like
-class abilities from classes that grant spellcasting of the selected type. Magic items, other
-[spell-like abilities](ref/umr/spell-like-abilities), and other supernatural abilities are
-unaffected.
+[antimagic field](ref/spell/antimagic-field), but it suppresses only spells of the chosen type and
+supernatural and spell-like class abilities from classes that grant spellcasting of the selected
+type. Magic items, other [spell-like abilities](ref/umr/spell-like-abilities), and other
+supernatural abilities are unaffected.
 
 While this spell is in effect, you must succeed at a [concentration](ref/rule/concentration) check
 (DC 20 + twice the spell level) to cast any spell, whether arcane or divine. If you fail at the

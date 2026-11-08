@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planetary_adaptation_mass", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/planetary-adaptation" },
+]
 
 [fields]
 kind = "spell"
@@ -57,4 +60,5 @@ you to survive in vacuum.
 
 **Sources:** People of the Stars pg 29
 
-This spell functions as planetary adaptation, except as noted above.
+This spell functions as [planetary adaptation](ref/spell/planetary-adaptation), except as noted
+above.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_anatomy_3", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/undead-anatomy-2" },
+]
 
 [fields]
 kind = "spell"
@@ -95,13 +98,13 @@ Strength, a -2 penalty to your Dexterity, and a +4 natural armor bonus.
 
 **Sources:** Ultimate Magic pg 245
 
-This spell functions as undead anatomy II, except it also allows you to assume the form of a
-Diminutive or Huge corporeal creature of the undead type. If the form you assume has any of the
-following abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly 90 feet (good
-maneuverability), swim 90 feet, all-around vision, [blindsense](ref/rule/blindsight-and-blindsense)
-30 feet, [darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision),
-scent, constrict, disease, DR 5/-, fear aura, grab, jet, natural cunning, overwhelming, poison,
-pounce, rake, trample, trip, unnatural aura, and web.
+This spell functions as [undead anatomy II](ref/spell/undead-anatomy-2), except it also allows you
+to assume the form of a Diminutive or Huge corporeal creature of the undead type. If the form you
+assume has any of the following abilities, you gain the listed ability: burrow 30 feet, climb 90
+feet, fly 90 feet (good maneuverability), swim 90 feet, all-around vision,
+[blindsense](ref/rule/blindsight-and-blindsense) 30 feet, [darkvision](ref/rule/darkvision) 60 feet,
+[low-light vision](ref/rule/low-light-vision), scent, constrict, disease, DR 5/-, fear aura, grab,
+jet, natural cunning, overwhelming, poison, pounce, rake, trample, trip, unnatural aura, and web.
 
 If the creature has immunity or resistance to any energy types, you gain resistance 20 to those
 energy types. If the creature has vulnerability to an energy type, you gain that vulnerability. In

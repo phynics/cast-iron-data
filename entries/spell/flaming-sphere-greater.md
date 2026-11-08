@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaming_sphere_greater", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/flaming-sphere" },
+]
 
 [fields]
 kind = "spell"
@@ -67,7 +70,7 @@ flaming sphere winks out if it exceeds the spell's range.
 
 **Sources:** Advanced Class Guide pg 182
 
-This spell functions as flaming sphere, except that it deals 6d6 points of fire damage to any
-creature it strikes. Any creature that fails its save against the sphere
+This spell functions as [flaming sphere](ref/spell/flaming-sphere), except that it deals 6d6 points
+of fire damage to any creature it strikes. Any creature that fails its save against the sphere
 [catches on fire](ref/rule/catching-on-fire). If a creature catches on fire, the DC to extinguish
 the flames is equal to the DC of this spell.

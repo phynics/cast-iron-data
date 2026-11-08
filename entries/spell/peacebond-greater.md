@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peacebond_greater", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/peacebond" },
+]
 
 [fields]
 kind = "spell"
@@ -57,11 +60,12 @@ fails.
 
 **Sources:** Ultimate Intrigue pg 221
 
-If a target weapon is sheathed or slung as the spell is cast, this functions as peacebond, locking
-the target's weapon in place on its owner's body or within the weapon's sheath or holster. Anyone
-who then tries to draw the weapon must spend a standard action and succeed at a Strength check to do
-so, provoking attacks of opportunity whether the attempt succeeds or fails. The DC for Strength
-checks required by this spell is equal to the spell's save DC.
+If a target weapon is sheathed or slung as the spell is cast, this functions as
+[peacebond](ref/spell/peacebond), locking the target's weapon in place on its owner's body or within
+the weapon's sheath or holster. Anyone who then tries to draw the weapon must spend a standard
+action and succeed at a Strength check to do so, provoking attacks of opportunity whether the
+attempt succeeds or fails. The DC for Strength checks required by this spell is equal to the spell's
+save DC.
 
 If a target weapon is not currently sheathed or slung as the spell is cast, the weapon immediately
 attempts to sheathe itself, and its wielder must succeed at a Strength check to prevent it from

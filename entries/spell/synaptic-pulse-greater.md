@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synaptic_pulse_greater", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/synaptic-pulse" },
+]
 
 [fields]
 kind = "spell"

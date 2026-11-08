@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_skin_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/share-skin" },
+]
 
 [fields]
 kind = "spell"
@@ -47,4 +50,4 @@ Your body vanishes while the effect lasts and you don't require a receptacle.
 
 **Sources:** Blood of the Moon pg 11
 
-This spell functions like share skin, except as noted here.
+This spell functions like [share skin](ref/spell/share-skin), except as noted here.

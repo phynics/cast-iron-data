@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagion_greater", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/contagion" },
+]
 
 [fields]
 kind = "spell"
@@ -73,6 +76,6 @@ these creatures are unaffected by the spell.
 
 **Sources:** Ultimate Magic pg 211
 
-This spell functions as contagion, except the victim cannot overcome the disease without
-magic-making the required number of saves does not cure it. The DC to remove the disease with magic
-is equal to the save DC + 5.
+This spell functions as [contagion](ref/spell/contagion), except the victim cannot overcome the
+disease without magic-making the required number of saves does not cure it. The DC to remove the
+disease with magic is equal to the save DC + 5.

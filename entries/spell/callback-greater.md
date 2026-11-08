@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "callback_greater", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/callback" },
+]
 
 [fields]
 kind = "spell"
@@ -57,4 +60,4 @@ has teleported back to you, the spell ends.
 
 **Sources:** Ultimate Wilderness pg 228
 
-This spell functions as callback, except as noted above.
+This spell functions as [callback](ref/spell/callback), except as noted above.

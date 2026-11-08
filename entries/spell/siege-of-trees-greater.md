@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_of_trees_greater", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/siege-of-trees" },
+]
 
 [fields]
 kind = "spell"
@@ -56,5 +59,5 @@ energy selected is fire.
 
 **Sources:** Ultimate Combat pg 244
 
-As siege of trees, but you can affect larger-sized plants. Each plant acts as a catapult of its
-size.
+As [siege of trees](ref/spell/siege-of-trees), but you can affect larger-sized plants. Each plant
+acts as a catapult of its size.

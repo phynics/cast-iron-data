@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "major_creation", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/minor-creation" },
+]
 
 [fields]
 kind = "spell"
@@ -63,9 +66,10 @@ Attempting to use any created object as a material component causes the spell to
 
 **Sources:** PRPG Core Rulebook pg 311
 
-This spell functions like minor creation, except that you can also create an object of mineral
-nature: stone, crystal, metal, or the like. The duration of the created item varies with its
-relative [hardness](ref/umr/hardness) and rarity, as indicated on the following table.
+This spell functions like [minor creation](ref/spell/minor-creation), except that you can also
+create an object of mineral nature: stone, crystal, metal, or the like. The duration of the created
+item varies with its relative [hardness](ref/umr/hardness) and rarity, as indicated on the following
+table.
 
 |Hardness and Rarity Examples|Duration|
 | --- | --- |

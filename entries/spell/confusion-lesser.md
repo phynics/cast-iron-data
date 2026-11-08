@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confusion_lesser", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/confusion" },
+]
 
 [fields]
 kind = "spell"

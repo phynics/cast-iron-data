@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_lightning_storm", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/call-lightning" },
+]
 
 [fields]
 kind = "spell"
@@ -76,5 +79,6 @@ throws are dazzled and deafened for 1 minute.
 
 **Sources:** PRPG Core Rulebook pg 252
 
-This spell functions like call lightning, except that each bolt deals 5d6 points of electricity
-damage (or 5d10 if created outdoors in a stormy area), and you may call a maximum of 15 bolts.
+This spell functions like [call lightning](ref/spell/call-lightning), except that each bolt deals
+5d6 points of electricity damage (or 5d10 if created outdoors in a stormy area), and you may call a
+maximum of 15 bolts.

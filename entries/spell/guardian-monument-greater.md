@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_monument_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/guardian-monument-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -63,4 +66,5 @@ to human achievement, the area increases to a 60-foot radius.
 
 **Sources:** Arcane Anthology pg 9
 
-This spell functions as lesser guardian monument, except it grants DR 4/magic.
+This spell functions as [lesser guardian monument](ref/spell/guardian-monument-lesser), except it
+grants DR 4/magic.

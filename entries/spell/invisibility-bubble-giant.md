@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_bubble_giant", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/invisibility-bubble" },
+]
 
 [fields]
 kind = "spell"
@@ -78,8 +81,9 @@ a telltale glow.
 
 **Sources:** Aquatic Adventures pg 60
 
-This functions as per invisibility bubble, but the bubble is larger, which allows you to target a
-creature of up to size Gargantuan, or allows more creatures into the bubble.
+This functions as per [invisibility bubble](ref/spell/invisibility-bubble), but the bubble is
+larger, which allows you to target a creature of up to size Gargantuan, or allows more creatures
+into the bubble.
 
 ### Mass Invisibility Bubble
 

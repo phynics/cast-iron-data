@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suffocation_mass", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/suffocation" },
+]
 
 [fields]
 kind = "spell"
@@ -61,6 +64,6 @@ breath - if the victim fails the initial saving throw, the air in his lungs is e
 
 **Sources:** Advanced Player's Guide pg 248
 
-This spell functions as suffocation except as noted above. Note that the duration of this spell is
-much longer, forcing those suffering from the effect to make far more Fortitude saves to stave off
-eventual suffocation.
+This spell functions as [suffocation](ref/spell/suffocation) except as noted above. Note that the
+duration of this spell is much longer, forcing those suffering from the effect to make far more
+Fortitude saves to stave off eventual suffocation.

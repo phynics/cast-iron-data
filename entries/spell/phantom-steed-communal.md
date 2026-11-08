@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "wilderness-origins", "ultim
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_steed_communal", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/phantom-steed" },
+]
 
 [fields]
 kind = "spell"
@@ -95,8 +98,8 @@ rider can interact with it normally.
 
 **Sources:** Wilderness Origins pg 28
 
-You conjure a Large, quasi-real creature made of flame. It functions like phantom steed, except as
-follows.
+You conjure a Large, quasi-real creature made of flame. It functions like
+[phantom steed](ref/spell/phantom-steed), except as follows.
 
 The flame steed is immune to fire and has acid, cold, and electricity resistance 10. If it or its
 rider is attacked, it automatically exhales a 15-foot cone of smoke and ash on your turn as a free

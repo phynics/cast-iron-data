@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glyph_of_warding_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/glyph-of-warding" },
+]
 
 [fields]
 kind = "spell"
@@ -100,8 +103,9 @@ store in a spell glyph.
 
 **Sources:** PRPG Core Rulebook pg 291
 
-This spell functions like glyph of warding, except that a greater blast glyph deals up to 10d8
-points of damage, and a greater spell glyph can store a spell of 6th level or lower.
+This spell functions like [glyph of warding](ref/spell/glyph-of-warding), except that a greater
+blast glyph deals up to 10d8 points of damage, and a greater spell glyph can store a spell of 6th
+level or lower.
 
 [Read magic](ref/spell/read-magic) allows you to identify a greater glyph of warding with a DC 16
 Spellcraft check.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "adventurers-guide", "inner-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brightest_light", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/daylight" },
+]
 
 [fields]
 kind = "spell"
@@ -87,9 +90,10 @@ of bright light gain a +2 circumstance bonus on Perception checks and saves to r
 
 **Sources:** Adventurer's Guide pg 115, Inner Sea Intrigue pg 58
 
-This trademark spell of the [Lantern Bearers](ref/rule/aff-lights) functions as daylight, except it
-lasts longer. In addition, as a swift action once during the spell's duration, you can will the
-light to try to end a magical darkness effect located within 60 feet of the light this spell emits.
-Attempt a dispel check (1d20 + your caster level), with a DC equal to 11 + the caster level of the
-darkness effect. If you succeed, the darkness effect ends. Regardless of whether you are successful,
-the light from this spell dims to the brightness of a torch for the spell's remaining duration.
+This trademark spell of the [Lantern Bearers](ref/rule/aff-lights) functions as
+[daylight](ref/spell/daylight), except it lasts longer. In addition, as a swift action once during
+the spell's duration, you can will the light to try to end a magical darkness effect located within
+60 feet of the light this spell emits. Attempt a dispel check (1d20 + your caster level), with a DC
+equal to 11 + the caster level of the darkness effect. If you succeed, the darkness effect ends.
+Regardless of whether you are successful, the light from this spell dims to the brightness of a
+torch for the spell's remaining duration.

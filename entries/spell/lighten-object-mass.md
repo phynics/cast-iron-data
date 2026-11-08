@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lighten_object_mass", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/lighten-object" },
+]
 
 [fields]
 kind = "spell"
@@ -55,8 +58,8 @@ penalty decreases by 1, though its categorization as light, medium, or heavy doe
 
 **Sources:** Inner Sea Gods pg 236
 
-This spell functions like lighten object, except that it affects a number of objects equal to half
-your caster level.
+This spell functions like [lighten object](ref/spell/lighten-object), except that it affects a
+number of objects equal to half your caster level.
 
 Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity
 always treat the spell as common, and need not research it in order to prepare or learn it. This

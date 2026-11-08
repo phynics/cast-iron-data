@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_aspect_greater", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/animal-aspect" },
+]
 
 [fields]
 kind = "spell"
@@ -99,8 +102,9 @@ the non-mythic form of this spell on a touched willing creature.
 
 **Sources:** Ultimate Combat pg 223
 
-This spell functions like animal aspect, except you can either gain two aspects at once or one
-aspect that adds effects to the aspects that animal aspect grants, as described below.
+This spell functions like [animal aspect](ref/spell/animal-aspect), except you can either gain two
+aspects at once or one aspect that adds effects to the aspects that animal aspect grants, as
+described below.
 
 _Frog:_ You gain a Swim speed equal to half your normal speed, and all the benefits of having a swim
 speed.

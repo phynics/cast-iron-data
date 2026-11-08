@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_form_3", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fey-form-2" },
+]
 
 [fields]
 kind = "spell"
@@ -102,20 +105,21 @@ scores and take a -2 penalty to your Dexterity score.
 
 **Sources:** Ultimate Wilderness pg 230
 
-This spell functions as fey form II except it allows you to assume the form of a Diminutive or Huge
-creature of the fey type. If the form you assume has any of the following abilities, you gain those
-abilities: burrow speed 60 feet, climb speed 90 feet, fly speed 90 feet (good maneuverability), swim
-speed 90 feet, all-around vision, [blindsense](ref/rule/blindsight-and-blindsense) 60 feet,
-blindsight 30 feet, [darkvision](ref/rule/darkvision) 90 feet,
-[low-light vision](ref/rule/low-light-vision), scent, see in darkness,
-[tremorsense](ref/umr/tremorsense) 60 feet, abduct, animated hair, bleed, blood rage, boot stomp,
-burn, compression, constrict, crushing leap, DR 5/cold iron, fear aura, frightful presence, grab,
-heavy weapons, icewalking, kneecapper, luminous, nasal spray, no shadow, oversized weapons, poison,
-putrid vomit, rend, rock throwing (100 feet, 2d6 damage), sound mimicry, supernatural speed, tear
-shadow, trackless step, trample, tree meld, undersized weapons, and woodland stride. If the creature
-has immunity or resistance to any energy types, you gain resistance 20 to those energy types. If the
-creature has immunity to mind-affecting effects or poison, you gain a +8 resistance bonus on saves
-against those effects. If the creature has any weaknesses, you gain those weaknesses.
+This spell functions as [fey form II](ref/spell/fey-form-2) except it allows you to assume the form
+of a Diminutive or Huge creature of the fey type. If the form you assume has any of the following
+abilities, you gain those abilities: burrow speed 60 feet, climb speed 90 feet, fly speed 90 feet
+(good maneuverability), swim speed 90 feet, all-around vision,
+[blindsense](ref/rule/blindsight-and-blindsense) 60 feet, blindsight 30 feet,
+[darkvision](ref/rule/darkvision) 90 feet, [low-light vision](ref/rule/low-light-vision), scent, see
+in darkness, [tremorsense](ref/umr/tremorsense) 60 feet, abduct, animated hair, bleed, blood rage,
+boot stomp, burn, compression, constrict, crushing leap, DR 5/cold iron, fear aura, frightful
+presence, grab, heavy weapons, icewalking, kneecapper, luminous, nasal spray, no shadow, oversized
+weapons, poison, putrid vomit, rend, rock throwing (100 feet, 2d6 damage), sound mimicry,
+supernatural speed, tear shadow, trackless step, trample, tree meld, undersized weapons, and
+woodland stride. If the creature has immunity or resistance to any energy types, you gain resistance
+20 to those energy types. If the creature has immunity to mind-affecting effects or poison, you gain
+a +8 resistance bonus on saves against those effects. If the creature has any weaknesses, you gain
+those weaknesses.
 
 _Diminutive Fey:_ If you assume this form, you gain a +8 size bonus to your Dexterity score and take
 a -4 penalty to your Strength score.

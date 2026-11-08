@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadmans_contingency", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/contingency" },
+]
 
 [fields]
 kind = "spell"
@@ -82,11 +85,12 @@ hour per level or until discharged.
 
 **Sources:** Ultimate Intrigue pg 210
 
-This spell functions as contingency, except as noted above. This spell also only comes into effect
-after your death and works only with certain spells. The companion spell triggers 1d6 rounds after
-your death. All decisions made involving the companion spell must be made when deadman's contingency
-is cast (including messages and recipients for spells like magic mouth or sending). If the spell
-targets an object or appears in a certain location, it must target or be centered on your corpse.
+This spell functions as [contingency](ref/spell/contingency), except as noted above. This spell also
+only comes into effect after your death and works only with certain spells. The companion spell
+triggers 1d6 rounds after your death. All decisions made involving the companion spell must be made
+when deadman's contingency is cast (including messages and recipients for spells like magic mouth or
+sending). If the spell targets an object or appears in a certain location, it must target or be
+centered on your corpse.
 
 The following spells can be companion spells for deadman's contingency:
 [animate dead](ref/spell/animate-dead) (animating your corpse as an uncontrolled skeleton or

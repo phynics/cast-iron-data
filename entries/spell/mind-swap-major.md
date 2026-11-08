@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_swap_major", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mind-swap" },
+]
 
 [fields]
 kind = "spell"
@@ -65,7 +68,7 @@ target's mind moves to your body and can control it as if you each had cast poss
 
 **Sources:** Occult Adventures pg 176
 
-The spell functions as mind swap, except as noted above. In addition, after 24 hours, instead of
-using each other's hit points, you each revert to your original hit points, modified by your new
-Constitution modifiers. This spell can be reversed only with miracle, wish, or another major mind
-swap.
+The spell functions as [mind swap](ref/spell/mind-swap), except as noted above. In addition, after
+24 hours, instead of using each other's hit points, you each revert to your original hit points,
+modified by your new Constitution modifiers. This spell can be reversed only with miracle, wish, or
+another major mind swap.

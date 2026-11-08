@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implanted_projection", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/telempathic-projection" },
+]
 
 [fields]
 kind = "spell"
@@ -58,7 +61,8 @@ is complete.
 
 **Sources:** Occult Origins pg 13
 
-This spell functions as telempathic projection, except its mood-altering effects remain dormant in
-the target's mind. Upon casting this spell, the caster designates a command word or phrase, of which
-the target retains no memory. The next creature to speak the command word or phrase to the target
-triggers the implanted telempathic projection, treating the speaker as the original spellcaster.
+This spell functions as [telempathic projection](ref/spell/telempathic-projection), except its
+mood-altering effects remain dormant in the target's mind. Upon casting this spell, the caster
+designates a command word or phrase, of which the target retains no memory. The next creature to
+speak the command word or phrase to the target triggers the implanted telempathic projection,
+treating the speaker as the original spellcaster.

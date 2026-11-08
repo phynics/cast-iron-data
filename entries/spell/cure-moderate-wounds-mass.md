@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cure_moderate_wounds_mass", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/cure-light-wounds-mass" },
+]
 
 [fields]
 kind = "spell"
@@ -51,5 +54,5 @@ Subschool: Healing
 
 **Sources:** PRPG Core Rulebook pg 263
 
-This spell functions like mass cure light wounds, except that it cures 2d8 points of damage + 1
-point per caster level (maximum +30).
+This spell functions like [mass cure light wounds](ref/spell/cure-light-wounds-mass), except that it
+cures 2d8 points of damage + 1 point per caster level (maximum +30).

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demanding_message_mass", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/demanding-message" },
+]
 
 [fields]
 kind = "spell"
@@ -76,6 +79,6 @@ completed.
 
 **Sources:** Ultimate Intrigue pg 210
 
-This spell functions as demanding message, except that you can issue one suggestion to each of the
-spell's targets instead of just one. Each time you do so, it takes a standard action. You can issue
-a different suggestion to each target.
+This spell functions as [demanding message](ref/spell/demanding-message), except that you can issue
+one suggestion to each of the spell's targets instead of just one. Each time you do so, it takes a
+standard action. You can issue a different suggestion to each target.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "mythic-adventures", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_step", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dimension-door" },
+]
 
 [fields]
 kind = "spell"
@@ -92,5 +95,5 @@ action). A creature that passes through the portal can't take any other actions 
 **Sources:** Potions and Poisons pg 17
 
 You instantly transfer the touched creature to a point you designate within range. This otherwise
-functions as the spell dimension door, except that you must have line of sight and line of effect to
-the target's destination for this spell's effects to properly function.
+functions as [the spell dimension door](ref/spell/dimension-door), except that you must have line of
+sight and line of effect to the target's destination for this spell's effects to properly function.

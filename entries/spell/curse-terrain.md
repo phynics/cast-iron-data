@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_terrain", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/curse-terrain-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -81,8 +84,9 @@ become dangerous again at each midnight.
 
 **Sources:** Horror Adventures pg 114
 
-By touching the ground, you curse the land with four unnatural hazards. This functions as lesser
-curse terrain, but with the effects of the major perilous demesne curse (see below).
+By touching the ground, you curse the land with four unnatural hazards. This functions as
+[lesser curse terrain](ref/spell/curse-terrain-lesser), but with the effects of the major perilous
+demesne curse (see below).
 
 #### Major Perilous Demesne
 

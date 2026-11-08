@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_worm_2", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/thought-worm-1" },
+]
 
 [fields]
 kind = "spell"
@@ -43,5 +46,5 @@ Descriptors: mind-affecting
 
 **Sources:** Psychic Anthology pg 11
 
-This spell functions as per thought worm I, but the penalty on Will saves is -4. This spell can be
-undercast.
+This spell functions as per [thought worm I](ref/spell/thought-worm-1), but the penalty on Will
+saves is -4. This spell can be undercast.

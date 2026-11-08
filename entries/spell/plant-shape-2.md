@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant_shape_2", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/plant-shape-1" },
+]
 
 [fields]
 kind = "spell"
@@ -64,10 +67,10 @@ Strength, a +2 enhancement bonus to your Constitution, and a +2 natural armor bo
 
 **Sources:** PRPG Core Rulebook pg 323
 
-This spell functions as plant shape I except that it also allows you to assume the form of a Large
-creature of the plant type. If the creature has immunity or resistance to any elements, you gain
-resistance 20 to those elements. If the creature has vulnerability to an element, you gain that
-vulnerability.
+This spell functions as [plant shape I](ref/spell/plant-shape-1) except that it also allows you to
+assume the form of a Large creature of the plant type. If the creature has immunity or resistance to
+any elements, you gain resistance 20 to those elements. If the creature has vulnerability to an
+element, you gain that vulnerability.
 
 _Large plant:_ If the form you take is that of a Large plant, you gain a +4 size bonus to your
 Strength, a +2 size bonus to your Constitution, and a +4 natural armor bonus.

@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_aspect", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/angelic-aspect-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -58,7 +61,7 @@ benefits of [protection from evil](ref/spell/protection-from-evil).
 
 **Sources:** Champions of Purity pg 28
 
-This spell functions like lesser angelic aspect, except you gain
+This spell functions like [lesser angelic aspect](ref/spell/angelic-aspect-lesser), except you gain
 [low-light vision](ref/rule/low-light-vision), [darkvision](ref/rule/darkvision) 60, resistance to
 acid 10, resistance to cold 10, and DR 5/evil, and you sprout white feathered wings allowing you to
 fly at a speed of 30 feet with average maneuverability. In addition, your natural weapons and any

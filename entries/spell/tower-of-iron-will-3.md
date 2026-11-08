@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_of_iron_will_3", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/tower-of-iron-will-1" },
+]
 
 [fields]
 kind = "spell"
@@ -51,7 +54,8 @@ protection against your spells or special abilities.
 
 **Sources:** Occult Adventures pg 190
 
-This functions as tower of iron will I, except as noted above. This spell can be undercast.
+This functions as [tower of iron will I](ref/spell/tower-of-iron-will-1), except as noted above.
+This spell can be undercast.
 
 ### Tower of Iron Will III
 

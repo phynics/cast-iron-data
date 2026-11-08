@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chameleon_stride_greater", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/chameleon-stride" },
+]
 
 [fields]
 kind = "spell"
@@ -54,8 +57,8 @@ and have concealment from creatures more than 5 feet away (attacks have a 20% mi
 
 **Sources:** Advanced Class Guide pg 177
 
-This spell functions as chameleon stride, except it confers its bonuses upon all allies within 10
-feet of you at the time the spell is cast. Those affected by this spell are able to see each other
-and themselves as if they were unaffected by the spell. If an affected creature moves out of the
-area, it loses the benefit of the spell. Creatures that move into the area after the spell is cast
-do not gain its benefit.
+This spell functions as [chameleon stride](ref/spell/chameleon-stride), except it confers its
+bonuses upon all allies within 10 feet of you at the time the spell is cast. Those affected by this
+spell are able to see each other and themselves as if they were unaffected by the spell. If an
+affected creature moves out of the area, it loses the benefit of the spell. Creatures that move into
+the area after the spell is cast do not gain its benefit.

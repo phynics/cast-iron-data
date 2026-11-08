@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evolution_surge_greater", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/evolution-surge-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -54,8 +57,8 @@ number of natural attacks.
 
 **Sources:** Advanced Player's Guide pg 220
 
-This spell functions as lesser evolution surge, except that you can grant any evolution whose total
-cost does not exceed 4 evolution points.
+This spell functions as [lesser evolution surge](ref/spell/evolution-surge-lesser), except that you
+can grant any evolution whose total cost does not exceed 4 evolution points.
 
 ### Greater Evolution Surge
 

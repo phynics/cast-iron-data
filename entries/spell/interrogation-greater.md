@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interrogation_greater", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/interrogation" },
+]
 
 [fields]
 kind = "spell"
@@ -53,6 +56,6 @@ penalty on Bluff checks to convince you when it is lying.
 
 **Sources:** Ultimate Magic pg 225
 
-This spell functions as interrogation, except you may ask one question per caster level and the
-spell deals damage equal to 1d8 points plus your Wisdom bonus if the target doesn't answer a
-question.
+This spell functions as [interrogation](ref/spell/interrogation), except you may ask one question
+per caster level and the spell deals damage equal to 1d8 points plus your Wisdom bonus if the target
+doesn't answer a question.

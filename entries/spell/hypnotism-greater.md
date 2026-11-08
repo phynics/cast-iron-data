@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnotism_greater", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hypnotism" },
+]
 
 [fields]
 kind = "spell"
@@ -76,7 +79,7 @@ A creature that fails its saving throw does not remember that you enspelled it.
 > spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them
 > further._
 
-This functions as hypnotism, except it affects 2 Hit Die of creatures per caster level you have. You
-can make up to five requests (instead of a single request) to each creature affected by the spell,
-and the requests can be as long and as complicated as you desire (though they still must be
-reasonable).
+This functions as [hypnotism](ref/spell/hypnotism), except it affects 2 Hit Die of creatures per
+caster level you have. You can make up to five requests (instead of a single request) to each
+creature affected by the spell, and the requests can be as long and as complicated as you desire
+(though they still must be reasonable).

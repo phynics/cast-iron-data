@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_genie_greater", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-genie-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -59,7 +62,8 @@ janni.
 
 **Sources:** People of the Sands pg 11
 
-This spell functions like lesser summon genie, except you can summon one djnni or 1d3 jann.
+This spell functions like [lesser summon genie](ref/spell/summon-genie-lesser), except you can
+summon one djnni or 1d3 jann.
 
 ### Greater Summon Genie
 

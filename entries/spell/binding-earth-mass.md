@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding_earth_mass", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/binding-earth" },
+]
 
 [fields]
 kind = "spell"
@@ -65,4 +68,4 @@ object free from snapping earth or stone.
 
 > _[Oreads](ref/race/oread) have access to the following spell._
 
-This spell functions as binding earth, except as noted above.
+This spell functions as [binding earth](ref/spell/binding-earth), except as noted above.
