@@ -11806,6 +11806,14 @@ entry = "ref/carried/bestiary/rules/introduction"
 title = "Introduction"
 entry = "ref/carried/bestiary/rules/introduction/introduction"
 
+[[books.chapters.children]]
+title = "Monster Rules"
+entry = "ref/rule/monster-rules"
+
+[[books.chapters.children]]
+title = "Stat Block"
+entry = "ref/rule/stat-block"
+
 [[books.chapters]]
 title = "Monsters A to Z"
 
@@ -11822,14 +11830,18 @@ title = "Aboleth"
 entry = "ref/monster/alghollthu-aboleth"
 
 [[books.chapters.children]]
+title = "Angel"
+entry = "ref/family/angel"
+
+[[books.chapters.children.children]]
 title = "Angel, Astral Deva"
 entry = "ref/monster/angel-astral-deva"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Angel, Planetar"
 entry = "ref/monster/angel-planetar"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Angel, Solar"
 entry = "ref/monster/angel-solar"
 
@@ -11840,26 +11852,6 @@ entry = "ref/monster/animated-object"
 [[books.chapters.children]]
 title = "Ankheg"
 entry = "ref/monster/ankheg"
-
-[[books.chapters.children]]
-title = "Ape, Gorilla"
-entry = "ref/monster/ape-gorilla"
-
-[[books.chapters.children]]
-title = "Ape, Dire"
-entry = "ref/monster/ape-dire-ape-gigantopithecus"
-
-[[books.chapters.children]]
-title = "Archon, Hound"
-entry = "ref/monster/archon-hound-archon"
-
-[[books.chapters.children]]
-title = "Archon, Lantern"
-entry = "ref/monster/archon-lantern-archon"
-
-[[books.chapters.children]]
-title = "Archon, Trumpet"
-entry = "ref/monster/archon-trumpet-archon"
 
 [[books.chapters.children]]
 title = "Swarm, Army Ant"
@@ -11881,19 +11873,51 @@ anchor = "poison"
 title = "Giant Ant Venom"
 entry = "ref/carried/bestiary/monsters/army-ant-swarm/ant/giant/special-abilities/poison/giant-ant-venom"
 
+[[books.chapters.children.children]]
+title = "Poison (Ex)"
+entry = "ref/affliction/ant-giant-ant/poison-ex"
+
+[[books.chapters.children]]
+title = "Ape, Gorilla"
+entry = "ref/monster/ape-gorilla"
+
+[[books.chapters.children]]
+title = "Ape, Dire"
+entry = "ref/monster/ape-dire-ape-gigantopithecus"
+
+[[books.chapters.children]]
+title = "Archon"
+entry = "ref/family/archon"
+
+[[books.chapters.children.children]]
+title = "Archon, Hound"
+entry = "ref/monster/archon-hound-archon"
+
+[[books.chapters.children.children]]
+title = "Archon, Lantern"
+entry = "ref/monster/archon-lantern-archon"
+
+[[books.chapters.children.children]]
+title = "Archon, Trumpet"
+entry = "ref/monster/archon-trumpet-archon"
+
 [[books.chapters.children]]
 title = "Assassin Vine"
 entry = "ref/monster/assassin-vine"
 
 [[books.chapters.children]]
+title = "Azata"
+entry = "ref/family/azata"
+
+[[books.chapters.children.children]]
 title = "Azata, Bralani"
 entry = "ref/monster/azata-bralani"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Azata, Ghaele"
 entry = "ref/monster/azata-ghaele"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Azata, Lillend"
 entry = "ref/monster/azata-lillend"
 
@@ -11928,6 +11952,10 @@ entry = "ref/monster/basilisk"
 [[books.chapters.children]]
 title = "Bat, Dire"
 entry = "ref/monster/bat-dire-bat"
+
+[[books.chapters.children.children]]
+title = "Dire Bat"
+entry = "ref/companion/dire-bat"
 
 [[books.chapters.children]]
 title = "Swarm, Bat"
@@ -12102,10 +12130,6 @@ title = "Black Smear, Dark Creeper"
 entry = "ref/carried/bestiary/monsters/dark-creeper/special-abilities/poison-use/black-smear/dark-creeper"
 
 [[books.chapters.children]]
-title = "Darkmantle"
-entry = "ref/monster/darkmantle"
-
-[[books.chapters.children]]
 title = "Dark Stalker"
 entry = "ref/monster/dark-folk-dark-stalker"
 
@@ -12121,63 +12145,75 @@ anchor = "poison-use"
 title = "Black Smear, Dark Stalker"
 entry = "ref/carried/bestiary/monsters/dark-stalker/special-abilities/poison-use/black-smear/dark-stalker"
 
+[[books.chapters.children.children]]
+title = "Black Smear"
+entry = "ref/eq-poison/black-smear"
+
 [[books.chapters.children]]
+title = "Darkmantle"
+entry = "ref/monster/darkmantle"
+
+[[books.chapters.children]]
+title = "Demon"
+entry = "ref/family/demon"
+
+[[books.chapters.children.children]]
 title = "Demon, Babau"
 entry = "ref/monster/demon-babau"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Balor"
 entry = "ref/monster/demon-balor"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Dretch"
 entry = "ref/monster/demon-dretch"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Glabrezu"
 entry = "ref/monster/demon-glabrezu"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Hezrou"
 entry = "ref/monster/demon-hezrou"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Marilith"
 entry = "ref/monster/demon-marilith"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Nabasu"
 entry = "ref/monster/demon-nabasu"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Nalfeshnee"
 entry = "ref/monster/demon-nalfeshnee"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Quasit"
 entry = "ref/monster/demon-quasit"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Special Abilities"
 anchor = "special-abilities"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Poison"
 anchor = "poison"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Quasit Poison"
 entry = "ref/carried/bestiary/monsters/demon/quasit/special-abilities/poison/quasit-poison"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Shadow"
 entry = "ref/monster/demon-shadow-demon"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Succubus"
 entry = "ref/monster/demon-succubus"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Demon, Vrock"
 entry = "ref/monster/demon-vrock"
 
@@ -12186,94 +12222,98 @@ title = "Derro"
 entry = "ref/monster/derro"
 
 [[books.chapters.children]]
+title = "Devil"
+entry = "ref/family/devil"
+
+[[books.chapters.children.children]]
 title = "Devil, Barbed"
 entry = "ref/monster/devil-barbed-devil-hamatula"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Devil, Bearded"
 entry = "ref/monster/devil-bearded-devil-barbazu"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Special Abilities"
 anchor = "special-abilities"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Beard"
 anchor = "beard"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Devil Chills, Bearded Devil"
 entry = "ref/carried/bestiary/monsters/devil/bearded/special-abilities/beard/devil-chills/bearded-devil"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Devil, Bone"
 entry = "ref/monster/devil-bone-devil-osyluth"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Special Abilities"
 anchor = "special-abilities"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Poison"
 anchor = "poison"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Bone Devil Venom"
 entry = "ref/carried/bestiary/monsters/devil/bone/special-abilities/poison/bone-devil-venom"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Devil, Erinyes"
 entry = "ref/monster/devil-erinyes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Devil, Horned"
 entry = "ref/monster/devil-horned-devil-cornugon"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Devil, Ice"
 entry = "ref/monster/devil-ice-devil-gelugon"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Devil, Imp"
 entry = "ref/monster/devil-imp"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Special Abilities"
 anchor = "special-abilities"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Poison"
 anchor = "poison"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Imp Venom"
 entry = "ref/carried/bestiary/monsters/devil/imp/special-abilities/poison/imp-venom"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Devil, Lemure"
 entry = "ref/monster/devil-lemure"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Pit Fiend"
 entry = "ref/monster/devil-pit-fiend"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Special Abilities"
 anchor = "special-abilities"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Disease"
 anchor = "disease"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Devil Chills, Pit Fiend"
 entry = "ref/carried/bestiary/monsters/devil/pit-fiend/pit-fiend/special-abilities/disease/devil-chills/pit-fiend"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Poison"
 anchor = "poison"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Pit Fiend Venom"
 entry = "ref/carried/bestiary/monsters/devil/pit-fiend/pit-fiend/special-abilities/poison/pit-fiend-venom"
 
@@ -12285,9 +12325,17 @@ entry = "ref/monster/devourer"
 title = "Dinosaur, Ankylosaurus"
 entry = "ref/monster/dinosaur-ankylosaurus"
 
+[[books.chapters.children.children]]
+title = "Ankylosaurus"
+entry = "ref/companion/ankylosaurus"
+
 [[books.chapters.children]]
 title = "Dinosaur, Brachiosaurus"
 entry = "ref/monster/dinosaur-brachiosaurus"
+
+[[books.chapters.children.children]]
+title = "Brachiosaurus"
+entry = "ref/companion/brachiosaurus"
 
 [[books.chapters.children]]
 title = "Dinosaur, Deinonychus"
@@ -12297,21 +12345,41 @@ entry = "ref/monster/dinosaur-deinonychus"
 title = "Dinosaur, Elasmosaurus"
 entry = "ref/monster/dinosaur-elasmosaurus"
 
+[[books.chapters.children.children]]
+title = "Elasmosaurus"
+entry = "ref/companion/elasmosaurus"
+
 [[books.chapters.children]]
 title = "Dinosaur, Pteranodon"
 entry = "ref/monster/dinosaur-pteranodon"
+
+[[books.chapters.children.children]]
+title = "Pteranodon"
+entry = "ref/companion/pteranodon"
 
 [[books.chapters.children]]
 title = "Dinosaur, Stegosaurus"
 entry = "ref/monster/dinosaur-stegosaurus"
 
+[[books.chapters.children.children]]
+title = "Stegosaurus"
+entry = "ref/companion/stegosaurus"
+
 [[books.chapters.children]]
 title = "Dinosaur, Triceratops"
 entry = "ref/monster/dinosaur-triceratops"
 
+[[books.chapters.children.children]]
+title = "Triceratops"
+entry = "ref/companion/triceratops"
+
 [[books.chapters.children]]
 title = "Dinosaur, Tyrannosaurus"
 entry = "ref/monster/dinosaur-tyrannosaurus"
+
+[[books.chapters.children.children]]
+title = "Tyrannosaurus"
+entry = "ref/companion/tyrannosaurus"
 
 [[books.chapters.children]]
 title = "Dog"
@@ -12321,6 +12389,10 @@ entry = "ref/monster/dog"
 title = "Rabies"
 entry = "ref/carried/bestiary/monsters/dog/dog/dog/rabies"
 
+[[books.chapters.children.children]]
+title = "Rabies"
+entry = "ref/disease/rabies"
+
 [[books.chapters.children]]
 title = "Dog, Riding"
 entry = "ref/monster/dog-riding-dog"
@@ -12329,171 +12401,223 @@ entry = "ref/monster/dog-riding-dog"
 title = "Dolphin"
 entry = "ref/monster/dolphin"
 
+[[books.chapters.children.children]]
+title = "Dolphin"
+entry = "ref/companion/dolphin"
+
 [[books.chapters.children]]
 title = "Dolphin, Orca"
 entry = "ref/monster/dolphin-orca"
+
+[[books.chapters.children.children]]
+title = "Orca"
+entry = "ref/companion/orca"
 
 [[books.chapters.children]]
 title = "Doppelganger"
 entry = "ref/monster/doppelganger"
 
 [[books.chapters.children]]
+title = "Dragon (True)"
+entry = "ref/family/dragon-true"
+
+[[books.chapters.children.children]]
+title = "Dragon (Black)"
+entry = "ref/family/dragon-black"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Black"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/black/dragon/chromatic/black"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Black, Young"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/black/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Black, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/black/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Black, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/black/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (Blue)"
+entry = "ref/family/dragon-blue"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Blue"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/blue/dragon/chromatic/blue"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Blue, Young"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/blue/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Blue, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/blue/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Blue, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/blue/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (Green)"
+entry = "ref/family/dragon-green"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Green"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/green/dragon/chromatic/green"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Green, Young"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/green/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Green, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/green/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Green, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/green/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (Red)"
+entry = "ref/family/dragon-red"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Red"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/red/dragon/chromatic/red"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Red, Young"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/red/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Red, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/red/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, Red, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/red/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (White)"
+entry = "ref/family/dragon-white"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, White"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/white/dragon/chromatic/white"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, White, Young"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/white/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, White, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/white/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Chromatic, White, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/chromatic/white/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (Brass)"
+entry = "ref/family/dragon-brass"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Brass"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/brass/dragon/metallic/brass"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Brass, Young"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/brass/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Brass, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/brass/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Brass, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/brass/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (Bronze)"
+entry = "ref/family/dragon-bronze"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Bronze"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/bronze/dragon/metallic/bronze"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Bronze, Young"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/bronze/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Bronze, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/bronze/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Bronze, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/bronze/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (Copper)"
+entry = "ref/family/dragon-copper"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Copper"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/copper/dragon/metallic/copper"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Copper, Young"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/copper/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Copper, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/copper/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Copper, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/copper/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (Gold)"
+entry = "ref/family/dragon-gold"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Gold"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/gold/dragon/metallic/gold"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Gold, Young"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/gold/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Gold, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/gold/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Gold, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/gold/ancient"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Dragon (Silver)"
+entry = "ref/family/dragon-silver"
+
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Silver"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/silver/dragon/metallic/silver"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Silver, Young"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/silver/young"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Silver, Adult"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/silver/adult"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Dragon, Metallic, Silver, Ancient"
 entry = "ref/carried/bestiary/monsters/dragon/metallic/silver/ancient"
 
@@ -12537,6 +12661,10 @@ entry = "ref/carried/bestiary/monsters/drow/drow/special-abilities/poison-use/dr
 title = "Drow"
 entry = "ref/race/drow"
 
+[[books.chapters.children.children.children]]
+title = "Drow"
+entry = "ref/rule/race-drow/drow"
+
 [[books.chapters.children]]
 title = "Drow Noble"
 entry = "ref/monster/drow-drow-noble"
@@ -12557,6 +12685,10 @@ entry = "ref/monster/duergar"
 title = "Duergar"
 entry = "ref/race/duergar"
 
+[[books.chapters.children.children.children]]
+title = "Duergar"
+entry = "ref/rule/race-duergar/duergar"
+
 [[books.chapters.children]]
 title = "Eagle"
 entry = "ref/monster/eagle"
@@ -12569,125 +12701,141 @@ entry = "ref/monster/eagle-giant-eagle"
 title = "Eel, Electric"
 entry = "ref/monster/eel-electric-eel"
 
+[[books.chapters.children.children]]
+title = "Electric Eel"
+entry = "ref/companion/electric-eel"
+
 [[books.chapters.children]]
 title = "Eel, Giant Moray"
 entry = "ref/monster/eel-giant-moray-eel"
 
+[[books.chapters.children.children]]
+title = "Moray Eel"
+entry = "ref/companion/moray-eel"
+
 [[books.chapters.children]]
+title = "Elemental"
+entry = "ref/family/elemental"
+
+[[books.chapters.children.children]]
 title = "Elemental, Air"
 entry = "ref/monster/air-elemental"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Air, Small"
 entry = "ref/carried/bestiary/monsters/elemental/air/small"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Air, Medium"
 entry = "ref/carried/bestiary/monsters/elemental/air/medium"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Air, Large"
 entry = "ref/carried/bestiary/monsters/elemental/air/large"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Air, Huge"
 entry = "ref/carried/bestiary/monsters/elemental/air/huge"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Air, Greater"
 entry = "ref/carried/bestiary/monsters/elemental/air/greater"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Air, Elder"
 entry = "ref/carried/bestiary/monsters/elemental/air/elder"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elemental, Earth"
 entry = "ref/monster/earth-elemental"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Earth, Small"
 entry = "ref/carried/bestiary/monsters/elemental/earth/small"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Earth, Medium"
 entry = "ref/carried/bestiary/monsters/elemental/earth/medium"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Earth, Large"
 entry = "ref/carried/bestiary/monsters/elemental/earth/large"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Earth, Huge"
 entry = "ref/carried/bestiary/monsters/elemental/earth/huge"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Earth, Greater"
 entry = "ref/carried/bestiary/monsters/elemental/earth/greater"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Earth, Elder"
 entry = "ref/carried/bestiary/monsters/elemental/earth/elder"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elemental, Fire"
 entry = "ref/monster/fire-elemental"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Fire, Small"
 entry = "ref/carried/bestiary/monsters/elemental/fire/small"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Fire, Medium"
 entry = "ref/carried/bestiary/monsters/elemental/fire/medium"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Fire, Large"
 entry = "ref/carried/bestiary/monsters/elemental/fire/large"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Fire, Huge"
 entry = "ref/carried/bestiary/monsters/elemental/fire/huge"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Fire, Greater"
 entry = "ref/carried/bestiary/monsters/elemental/fire/greater"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Fire, Elder"
 entry = "ref/carried/bestiary/monsters/elemental/fire/elder"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elemental, Water"
 entry = "ref/monster/water-elemental"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Water, Small"
 entry = "ref/carried/bestiary/monsters/elemental/water/small"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Water, Medium"
 entry = "ref/carried/bestiary/monsters/elemental/water/medium"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Water, Large"
 entry = "ref/carried/bestiary/monsters/elemental/water/large"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Water, Huge"
 entry = "ref/carried/bestiary/monsters/elemental/water/huge"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Water, Greater"
 entry = "ref/carried/bestiary/monsters/elemental/water/greater"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Elemental, Water, Elder"
 entry = "ref/carried/bestiary/monsters/elemental/water/elder"
 
 [[books.chapters.children]]
 title = "Elephant"
 entry = "ref/monster/elephant"
+
+[[books.chapters.children.children]]
+title = "Elephant/Mastodon"
+entry = "ref/companion/elephant-mastodon"
 
 [[books.chapters.children]]
 title = "Elephant, Mastodon"
@@ -12730,58 +12878,62 @@ title = "Ettin"
 entry = "ref/monster/ettin"
 
 [[books.chapters.children]]
+title = "Familiar"
+entry = "ref/family/familiar"
+
+[[books.chapters.children.children]]
 title = "Familiar, Bat"
 entry = "ref/monster/familiar-bat"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Cat"
 entry = "ref/monster/familiar-cat"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Hawk"
 entry = "ref/monster/familiar-hawk"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Lizard"
 entry = "ref/monster/familiar-lizard"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Monkey"
 entry = "ref/monster/familiar-monkey"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Owl"
 entry = "ref/monster/familiar-owl"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Rat"
 entry = "ref/monster/familiar-rat"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Raven"
 entry = "ref/monster/familiar-raven"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Toad"
 entry = "ref/monster/familiar-toad"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Viper"
 entry = "ref/monster/familiar-viper"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Special Abilities"
 anchor = "special-abilities"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Poison"
 anchor = "poison"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Viper Venom"
 entry = "ref/carried/bestiary/monsters/familiar/viper/special-abilities/poison/viper-venom"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Familiar, Weasel"
 entry = "ref/monster/familiar-weasel"
 
@@ -12790,12 +12942,12 @@ title = "Flytrap, Giant"
 entry = "ref/monster/giant-flytrap"
 
 [[books.chapters.children]]
-title = "Froghemoth"
-entry = "ref/monster/froghemoth"
-
-[[books.chapters.children]]
 title = "Frog, Giant"
 entry = "ref/monster/frog-giant-frog"
+
+[[books.chapters.children.children]]
+title = "Frog"
+entry = "ref/companion/frog"
 
 [[books.chapters.children]]
 title = "Frog, Poison"
@@ -12812,6 +12964,10 @@ anchor = "poison"
 [[books.chapters.children.children.children.children]]
 title = "Frog Poison"
 entry = "ref/carried/bestiary/monsters/frog/poison/special-abilities/poison/frog-poison"
+
+[[books.chapters.children]]
+title = "Froghemoth"
+entry = "ref/monster/froghemoth"
 
 [[books.chapters.children]]
 title = "Gargoyle"
@@ -12843,6 +12999,10 @@ entry = "ref/monster/genie-shaitan"
 
 [[books.chapters.children]]
 title = "Ghost"
+entry = "ref/template/ghost"
+
+[[books.chapters.children.children]]
+title = "Ghost"
 entry = "ref/carried/bestiary/monsters/ghost"
 
 [[books.chapters.children]]
@@ -12860,6 +13020,10 @@ anchor = "disease"
 [[books.chapters.children.children.children.children]]
 title = "Ghoul Fever"
 entry = "ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
+
+[[books.chapters.children.children]]
+title = "Ghoul Fever"
+entry = "ref/disease/ghoul-fever"
 
 [[books.chapters.children]]
 title = "Giant, Cloud"
@@ -12898,10 +13062,6 @@ title = "Gnoll"
 entry = "ref/monster/gnoll"
 
 [[books.chapters.children]]
-title = "Goblin Dog"
-entry = "ref/monster/goblin-dog"
-
-[[books.chapters.children]]
 title = "Goblin"
 entry = "ref/monster/goblin"
 
@@ -12910,62 +13070,96 @@ title = "Goblin"
 entry = "ref/race/goblin"
 
 [[books.chapters.children]]
+title = "Goblin Dog"
+entry = "ref/monster/goblin-dog"
+
+[[books.chapters.children.children]]
+title = "Goblin Dog"
+entry = "ref/companion/goblin-dog"
+
+[[books.chapters.children]]
+title = "Golem"
+entry = "ref/family/golem"
+
+[[books.chapters.children.children]]
+title = "Shield Guardian"
+entry = "ref/family/shield-guardian"
+
+[[books.chapters.children.children]]
 title = "Golem, Clay"
 entry = "ref/monster/golem-clay-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
+title = "Construction"
+
+[[books.chapters.children.children.children.children]]
 title = "Clay Golem"
 entry = "ref/carried/bestiary/monsters/golem/clay/construction/clay-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Golem, Flesh"
 entry = "ref/monster/golem-flesh-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
+title = "Construction"
+
+[[books.chapters.children.children.children.children]]
 title = "Flesh Golem"
 entry = "ref/carried/bestiary/monsters/golem/flesh/construction/flesh-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Golem, Ice"
 entry = "ref/monster/golem-ice-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
+title = "Construction"
+
+[[books.chapters.children.children.children.children]]
 title = "Ice Golem"
 entry = "ref/carried/bestiary/monsters/golem/ice/construction/ice-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Golem, Iron"
 entry = "ref/monster/golem-iron-golem"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Special Abilities"
 anchor = "special-abilities"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Breath Weapon"
 anchor = "breath-weapon"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Breath weapon, Iron Golem"
 entry = "ref/carried/bestiary/monsters/golem/iron/golem/iron/special-abilities/breath-weapon/breath-weapon/iron-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
+title = "Construction"
+
+[[books.chapters.children.children.children.children]]
 title = "Iron Golem"
 entry = "ref/carried/bestiary/monsters/golem/iron/construction/iron-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Golem, Stone"
 entry = "ref/monster/golem-stone-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
+title = "Construction"
+
+[[books.chapters.children.children.children.children]]
 title = "Stone Golem"
 entry = "ref/carried/bestiary/monsters/golem/stone/construction/stone-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Golem, Wood"
 entry = "ref/monster/golem-wood-golem"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
+title = "Construction"
+
+[[books.chapters.children.children.children.children]]
 title = "Wood Golem"
 entry = "ref/carried/bestiary/monsters/golem/wood/construction/wood-golem"
 
@@ -12987,13 +13181,25 @@ entry = "ref/monster/griffon"
 
 [[books.chapters.children]]
 title = "Half-Celestial"
+entry = "ref/template/half-celestial"
+
+[[books.chapters.children.children]]
+title = "Half-Celestial"
 entry = "ref/carried/bestiary/monsters/half-celestial"
 
 [[books.chapters.children]]
+title = "Half-Dragon"
+entry = "ref/template/half-dragon"
+
+[[books.chapters.children.children]]
 title = "Dracolisk"
 entry = "ref/carried/bestiary/monsters/half-dragon/dracolisk"
 
 [[books.chapters.children]]
+title = "Half-Fiend"
+entry = "ref/template/half-fiend"
+
+[[books.chapters.children.children]]
 title = "Half-Fiend"
 entry = "ref/carried/bestiary/monsters/half-fiend"
 
@@ -13012,6 +13218,22 @@ entry = "ref/carried/bestiary/monsters/hell-hound/nessian"
 [[books.chapters.children]]
 title = "Herd Animal, Aurochs"
 entry = "ref/monster/herd-animal-aurochs"
+
+[[books.chapters.children.children]]
+title = "Trample and Stampede"
+entry = "ref/umr/trample"
+
+[[books.chapters.children.children]]
+title = "Oxen (Herd Animal)"
+entry = "ref/monster/herd-animal-oxen"
+
+[[books.chapters.children.children]]
+title = "Yak (Herd Animal)"
+entry = "ref/monster/yak"
+
+[[books.chapters.children.children]]
+title = "Aurochs"
+entry = "ref/companion/aurochs"
 
 [[books.chapters.children]]
 title = "Herd Animal, Bison"
@@ -13053,7 +13275,11 @@ entry = "ref/carried/bestiary/monsters/homunculus/construction/homunculus"
 title = "Horse"
 entry = "ref/monster/horse"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Pony"
+entry = "ref/monster/horse-pony"
+
+[[books.chapters.children.children]]
 title = "Horse, Pony"
 entry = "ref/carried/bestiary/monsters/horse/pony"
 
@@ -13064,6 +13290,10 @@ entry = "ref/monster/hydra"
 [[books.chapters.children]]
 title = "Hyena"
 entry = "ref/monster/hyena"
+
+[[books.chapters.children.children]]
+title = "Hyena"
+entry = "ref/companion/hyena"
 
 [[books.chapters.children]]
 title = "Hyena, Dire"
@@ -13125,6 +13355,10 @@ anchor = "ink-cloud"
 title = "Kraken Ink Cloud"
 entry = "ref/carried/bestiary/monsters/kraken/special-abilities/ink-cloud/kraken-ink-cloud"
 
+[[books.chapters.children.children]]
+title = "Kraken Ink"
+entry = "ref/affliction/kraken/kraken-ink"
+
 [[books.chapters.children]]
 title = "Kyton"
 entry = "ref/monster/kyton"
@@ -13154,6 +13388,10 @@ title = "Leech Swarm Venom"
 entry = "ref/carried/bestiary/monsters/swarm/leech/special-abilities/poison/leech-swarm-venom"
 
 [[books.chapters.children]]
+title = "Lich"
+entry = "ref/template/lich"
+
+[[books.chapters.children.children]]
 title = "Lich"
 entry = "ref/carried/bestiary/monsters/lich"
 
@@ -13214,10 +13452,6 @@ title = "Lion, Dire"
 entry = "ref/monster/lion-dire-lion-spotted-lion"
 
 [[books.chapters.children]]
-title = "Lizardfolk"
-entry = "ref/monster/lizardfolk"
-
-[[books.chapters.children]]
 title = "Lizard, Monitor"
 entry = "ref/monster/lizard-monitor-lizard"
 
@@ -13233,39 +13467,59 @@ anchor = "poison"
 title = "Monitor Lizard Venom"
 entry = "ref/carried/bestiary/monsters/lizard/monitor/special-abilities/poison/monitor-lizard-venom"
 
+[[books.chapters.children.children]]
+title = "Poison (Ex)"
+entry = "ref/affliction/lizard-monitor-lizard/poison-ex"
+
+[[books.chapters.children.children]]
+title = "Lizard (Monitor Lizard)"
+entry = "ref/companion/lizard-monitor-lizard"
+
 [[books.chapters.children]]
 title = "Lizard, Giant Frilled"
 entry = "ref/monster/lizard-giant-frilled-lizard"
 
 [[books.chapters.children]]
+title = "Lizardfolk"
+entry = "ref/monster/lizardfolk"
+
+[[books.chapters.children]]
+title = "Lycanthrope"
+entry = "ref/family/lycanthrope"
+
+[[books.chapters.children.children]]
+title = "Lycanthrope"
+entry = "ref/template/lycanthrope"
+
+[[books.chapters.children.children]]
 title = "Wererat (Human Form)"
 entry = "ref/carried/bestiary/monsters/lycanthrope/wererat/wererat-human-form"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Wererat (Hybrid Form)"
 entry = "ref/carried/bestiary/monsters/lycanthrope/wererat/wererat-hybrid-form"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Special Abilities"
 anchor = "special-abilities"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Disease"
 anchor = "disease"
 
-[[books.chapters.children.children.children.children]]
+[[books.chapters.children.children.children.children.children]]
 title = "Filth Fever, Wererat"
 entry = "ref/carried/bestiary/monsters/lycanthrope/wererat/wererat-hybrid-form/special-abilities/disease/filth-fever/wererat"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Werewolf"
 entry = "ref/carried/bestiary/monsters/lycanthrope/werewolf/werewolf"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Werewolf (Hybrid Form)"
 entry = "ref/carried/bestiary/monsters/lycanthrope/werewolf/werewolf-hybrid-form"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Lycanthropic Player Characters"
 entry = "ref/carried/bestiary/monsters/lycanthrope/werewolf/werewolf-hybrid-form/lycanthropic-player-characters"
 
@@ -13393,6 +13647,10 @@ entry = "ref/carried/bestiary/monsters/naga/spirit/special-abilities/poison/spir
 title = "Neothelid"
 entry = "ref/monster/neothelid"
 
+[[books.chapters.children.children]]
+title = "The Moldering Emperor"
+entry = "ref/monster/moldering-emperor"
+
 [[books.chapters.children]]
 title = "Night Hag"
 entry = "ref/carried/bestiary/monsters/night-hag"
@@ -13440,6 +13698,14 @@ anchor = "poison"
 [[books.chapters.children.children.children.children]]
 title = "Octopus Venom"
 entry = "ref/carried/bestiary/monsters/octopus/octopus/special-abilities/poison/octopus-venom"
+
+[[books.chapters.children.children]]
+title = "Ink Cloud"
+entry = "ref/umr/ink-cloud"
+
+[[books.chapters.children.children]]
+title = "Octopus"
+entry = "ref/companion/octopus"
 
 [[books.chapters.children]]
 title = "Octopus, Giant"
@@ -13573,6 +13839,10 @@ anchor = "disease"
 title = "Filth Fever, Dire Rat"
 entry = "ref/carried/bestiary/monsters/rat/dire/special-abilities/disease/filth-fever/dire-rat"
 
+[[books.chapters.children.children]]
+title = "Dire Rat"
+entry = "ref/companion/dire-rat"
+
 [[books.chapters.children]]
 title = "Swarm, Rat"
 entry = "ref/monster/rat-rat-swarm"
@@ -13601,6 +13871,10 @@ entry = "ref/monster/retriever"
 title = "Rhinoceros"
 entry = "ref/monster/rhinoceros"
 
+[[books.chapters.children.children]]
+title = "Rhinoceros"
+entry = "ref/companion/rhinoceros"
+
 [[books.chapters.children]]
 title = "Rhinoceros, Woolly"
 entry = "ref/monster/rhinoceros-woolly-rhinoceros"
@@ -13608,6 +13882,10 @@ entry = "ref/monster/rhinoceros-woolly-rhinoceros"
 [[books.chapters.children]]
 title = "Roc"
 entry = "ref/monster/roc"
+
+[[books.chapters.children.children]]
+title = "Roc"
+entry = "ref/companion/roc"
 
 [[books.chapters.children]]
 title = "Roper"
@@ -13620,6 +13898,10 @@ entry = "ref/monster/rust-monster"
 [[books.chapters.children]]
 title = "Sahuagin"
 entry = "ref/monster/sahuagin"
+
+[[books.chapters.children.children]]
+title = "Sahuagin"
+entry = "ref/rule/monster-sahuagin/sahuagin"
 
 [[books.chapters.children]]
 title = "Salamander"
@@ -13661,6 +13943,10 @@ anchor = "evil-eye"
 title = "Evil Eye"
 entry = "ref/carried/bestiary/monsters/sea-hag/special-abilities/evil-eye/evil-eye"
 
+[[books.chapters.children.children]]
+title = "Evil Eye Curse"
+entry = "ref/affliction/hag-sea-hag/evil-eye-curse"
+
 [[books.chapters.children]]
 title = "Sea Serpent"
 entry = "ref/monster/sea-serpent"
@@ -13668,6 +13954,10 @@ entry = "ref/monster/sea-serpent"
 [[books.chapters.children]]
 title = "Shadow"
 entry = "ref/monster/shadow"
+
+[[books.chapters.children.children]]
+title = "Shadow blight"
+entry = "ref/affliction/shadow/shadow-blight"
 
 [[books.chapters.children]]
 title = "Shadow, Greater"
@@ -13694,12 +13984,20 @@ title = "Shoggoth"
 entry = "ref/monster/shoggoth"
 
 [[books.chapters.children]]
-title = "Skeletal Champion"
-entry = "ref/carried/bestiary/monsters/skeletal-champion"
+title = "Skeleton"
+entry = "ref/template/skeleton"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Human Skeleton"
 entry = "ref/carried/bestiary/monsters/skeleton/skeleton/human-skeleton"
+
+[[books.chapters.children]]
+title = "Skeletal Champion"
+entry = "ref/template/skeletal-champion"
+
+[[books.chapters.children.children]]
+title = "Skeletal Champion"
+entry = "ref/carried/bestiary/monsters/skeletal-champion"
 
 [[books.chapters.children]]
 title = "Skum"
@@ -13737,6 +14035,10 @@ entry = "ref/monster/spectre"
 title = "Sphinx"
 entry = "ref/carried/bestiary/monsters/sphinx"
 
+[[books.chapters.children.children]]
+title = "Gynosphinx (Sphinx)"
+entry = "ref/monster/sphinx-gynosphinx"
+
 [[books.chapters.children]]
 title = "Spider, Giant"
 entry = "ref/monster/spider-giant-spider"
@@ -13772,6 +14074,10 @@ entry = "ref/carried/bestiary/monsters/swarm/spider/special-abilities/poison/spi
 [[books.chapters.children]]
 title = "Squid"
 entry = "ref/monster/squid"
+
+[[books.chapters.children.children]]
+title = "Squid"
+entry = "ref/companion/squid"
 
 [[books.chapters.children]]
 title = "Squid, Giant"
@@ -13834,6 +14140,10 @@ title = "Unicorn"
 entry = "ref/monster/unicorn"
 
 [[books.chapters.children]]
+title = "Vampire"
+entry = "ref/template/vampire"
+
+[[books.chapters.children.children]]
 title = "Vampire"
 entry = "ref/carried/bestiary/monsters/vampire"
 
@@ -13974,10 +14284,22 @@ title = "Yeti"
 entry = "ref/monster/yeti"
 
 [[books.chapters.children]]
+title = "Zombie"
+entry = "ref/template/zombie"
+
+[[books.chapters.children.children]]
+title = "Deathspore Toxin"
+entry = "ref/affliction/zombie/deathspore-toxin"
+
+[[books.chapters.children.children]]
+title = "Zombie Curse (Su)"
+entry = "ref/affliction/zombie/zombie-curse-su"
+
+[[books.chapters.children.children]]
 title = "Human Zombie"
 entry = "ref/carried/bestiary/monsters/zombie/zombie/human-zombie"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Zombie Rot"
 entry = "ref/affliction/zombie/zombie-rot"
 
@@ -14348,6 +14670,46 @@ entry = "ref/rule/monster-creation"
 title = "Building the Monster"
 entry = "ref/carried/bestiary/rules/monster-creation/building-the-monster"
 
+[[books.chapters.children.children]]
+title = "Step 1: Concept"
+entry = "ref/rule/step-1-concept"
+
+[[books.chapters.children.children]]
+title = "Step 2: Target Statistics"
+entry = "ref/rule/step-2-target-statistics"
+
+[[books.chapters.children.children]]
+title = "Step 3: Hit Dice"
+entry = "ref/rule/step-3-hit-dice"
+
+[[books.chapters.children.children]]
+title = "Step 4: Size"
+entry = "ref/rule/step-4-size"
+
+[[books.chapters.children.children]]
+title = "Step 5: Abilities"
+entry = "ref/rule/step-5-abilities"
+
+[[books.chapters.children.children]]
+title = "Step 6: Skills and Feats"
+entry = "ref/rule/step-6-skills-and-feats"
+
+[[books.chapters.children.children]]
+title = "Step 7: Other Statistics"
+entry = "ref/rule/step-7-other-statistics"
+
+[[books.chapters.children.children]]
+title = "Step 8: Special Abilities and Qualities"
+entry = "ref/rule/step-8-special-abilities-and-qualities"
+
+[[books.chapters.children.children]]
+title = "Step 9: Treasure"
+entry = "ref/rule/step-9-treasure"
+
+[[books.chapters.children.children]]
+title = "Step 10: Details"
+entry = "ref/rule/step-10-details"
+
 [[books.chapters]]
 title = "Monster Advancement"
 
@@ -14363,6 +14725,26 @@ entry = "ref/rule/templates"
 title = "Simple Templates"
 entry = "ref/carried/bestiary/rules/monster-advancement/simple-templates"
 
+[[books.chapters.children.children]]
+title = "Advanced"
+entry = "ref/template/advanced"
+
+[[books.chapters.children.children]]
+title = "Celestial"
+entry = "ref/template/celestial"
+
+[[books.chapters.children.children]]
+title = "Fiendish"
+entry = "ref/template/fiendish"
+
+[[books.chapters.children.children]]
+title = "Giant"
+entry = "ref/template/giant"
+
+[[books.chapters.children.children]]
+title = "Young"
+entry = "ref/template/young"
+
 [[books.chapters.children]]
 title = "Adding Racial Hit Dice"
 entry = "ref/rule/adding-racial-hit-dice"
@@ -14371,9 +14753,25 @@ entry = "ref/rule/adding-racial-hit-dice"
 title = "Adding Class Levels"
 entry = "ref/rule/adding-class-levels"
 
+[[books.chapters.children.children]]
+title = "Step 1: Determine Creature's Role"
+entry = "ref/rule/step-1-determine-creatures-role"
+
+[[books.chapters.children.children]]
+title = "Step 2: Add Class Levels"
+entry = "ref/rule/step-2-add-class-levels"
+
+[[books.chapters.children.children]]
+title = "Step 3: Determine CR"
+entry = "ref/rule/step-3-determine-cr"
+
 [[books.chapters]]
 title = "Monsters as PCs"
 entry = "ref/carried/bestiary/rules/misc-monster-rules"
+
+[[books.chapters.children]]
+title = "Monsters as PCs"
+entry = "ref/rule/monsters-as-pcs"
 
 [[books.chapters.children]]
 title = "Monster As PCs"
@@ -14434,6 +14832,10 @@ entry = "ref/feat/snatch"
 title = "Wingover"
 entry = "ref/feat/wingover"
 
+[[books.chapters.children]]
+title = "Damage Die Adjustments"
+entry = "ref/misc/damage-die-adjustments"
+
 [[books.chapters]]
 title = "Monster Cohorts"
 entry = "ref/carried/bestiary/rules/misc-monster-rules/monster-cohorts"
@@ -14446,9 +14848,181 @@ entry = "ref/carried/bestiary/rules/creature-types"
 title = "Creature Types"
 entry = "ref/carried/bestiary/rules/creature-types/creature-types"
 
+[[books.chapters.children.children]]
+title = "Aberration"
+entry = "ref/type/aberration"
+
+[[books.chapters.children.children]]
+title = "Animal"
+entry = "ref/type/animal"
+
+[[books.chapters.children.children]]
+title = "Construct"
+entry = "ref/type/construct"
+
+[[books.chapters.children.children]]
+title = "Dragon"
+entry = "ref/type/dragon"
+
+[[books.chapters.children.children]]
+title = "Fey"
+entry = "ref/type/fey"
+
+[[books.chapters.children.children]]
+title = "Humanoid"
+entry = "ref/type/humanoid"
+
+[[books.chapters.children.children]]
+title = "Magical Beast"
+entry = "ref/type/magical-beast"
+
+[[books.chapters.children.children]]
+title = "Monstrous Humanoid"
+entry = "ref/type/monstrous-humanoid"
+
+[[books.chapters.children.children]]
+title = "Ooze"
+entry = "ref/type/ooze"
+
+[[books.chapters.children.children]]
+title = "Outsider"
+entry = "ref/type/outsider"
+
+[[books.chapters.children.children]]
+title = "Plant"
+entry = "ref/type/plant"
+
+[[books.chapters.children.children]]
+title = "Undead"
+entry = "ref/type/undead"
+
+[[books.chapters.children.children]]
+title = "Vermin"
+entry = "ref/type/vermin"
+
 [[books.chapters.children]]
 title = "Creature SubTypes"
 entry = "ref/carried/bestiary/rules/creature-types/creature-subtypes"
+
+[[books.chapters.children.children]]
+title = "Air"
+entry = "ref/subtype/air"
+
+[[books.chapters.children.children]]
+title = "Angel"
+entry = "ref/subtype/angel"
+
+[[books.chapters.children.children]]
+title = "Aquatic"
+entry = "ref/subtype/aquatic"
+
+[[books.chapters.children.children]]
+title = "Archon"
+entry = "ref/subtype/archon"
+
+[[books.chapters.children.children]]
+title = "Augmented"
+entry = "ref/subtype/augmented"
+
+[[books.chapters.children.children]]
+title = "Azata"
+entry = "ref/subtype/azata"
+
+[[books.chapters.children.children]]
+title = "Chaotic"
+entry = "ref/subtype/chaotic"
+
+[[books.chapters.children.children]]
+title = "Cold"
+entry = "ref/subtype/cold"
+
+[[books.chapters.children.children]]
+title = "Demon"
+entry = "ref/subtype/demon"
+
+[[books.chapters.children.children]]
+title = "Devil"
+entry = "ref/subtype/devil"
+
+[[books.chapters.children.children]]
+title = "Dwarf"
+entry = "ref/subtype/dwarf"
+
+[[books.chapters.children.children]]
+title = "Earth"
+entry = "ref/subtype/earth"
+
+[[books.chapters.children.children]]
+title = "Elemental"
+entry = "ref/subtype/elemental"
+
+[[books.chapters.children.children]]
+title = "Elf"
+entry = "ref/subtype/elf"
+
+[[books.chapters.children.children]]
+title = "Evil"
+entry = "ref/subtype/evil"
+
+[[books.chapters.children.children]]
+title = "Extraplanar"
+entry = "ref/subtype/extraplanar"
+
+[[books.chapters.children.children]]
+title = "Fire"
+entry = "ref/subtype/fire"
+
+[[books.chapters.children.children]]
+title = "Giant"
+entry = "ref/subtype/giant"
+
+[[books.chapters.children.children]]
+title = "Gnome"
+entry = "ref/subtype/gnome"
+
+[[books.chapters.children.children]]
+title = "Goblinoid"
+entry = "ref/subtype/goblinoid"
+
+[[books.chapters.children.children]]
+title = "Good"
+entry = "ref/subtype/good"
+
+[[books.chapters.children.children]]
+title = "Halfling"
+entry = "ref/subtype/halfling"
+
+[[books.chapters.children.children]]
+title = "Human"
+entry = "ref/subtype/human"
+
+[[books.chapters.children.children]]
+title = "Lawful"
+entry = "ref/subtype/lawful"
+
+[[books.chapters.children.children]]
+title = "Native"
+entry = "ref/subtype/native"
+
+[[books.chapters.children.children]]
+title = "Orc"
+entry = "ref/subtype/orc"
+
+[[books.chapters.children.children]]
+title = "Reptilian"
+entry = "ref/subtype/reptilian"
+
+[[books.chapters.children.children]]
+title = "Shapechanger"
+entry = "ref/subtype/shapechanger"
+
+[[books.chapters.children.children]]
+title = "Swarm"
+entry = "ref/subtype/swarm"
+
+[[books.chapters.children.children]]
+title = "Water"
+entry = "ref/subtype/water"
 
 [[books.chapters]]
 title = "Monster Roles"
@@ -14539,576 +15113,20 @@ title = "New entries (page order)"
 review = "Canonical entries of this publication that the curated PSRD tree does not place. They follow their page number; this is a page-ordered list, not a chapter position."
 
 [[books.chapters.children]]
-title = "Evil Eye Curse"
-entry = "ref/affliction/hag-sea-hag/evil-eye-curse"
-
-[[books.chapters.children]]
-title = "Kraken Ink"
-entry = "ref/affliction/kraken/kraken-ink"
-
-[[books.chapters.children]]
-title = "Poison (Ex)"
-entry = "ref/affliction/ant-giant-ant/poison-ex"
-
-[[books.chapters.children]]
-title = "Poison (Ex)"
-entry = "ref/affliction/lizard-monitor-lizard/poison-ex"
-
-[[books.chapters.children]]
-title = "Shadow blight"
-entry = "ref/affliction/shadow/shadow-blight"
-
-[[books.chapters.children]]
 title = "Skaveling Ghoul Fever"
 entry = "ref/carried/bestiary-2/monsters/bat/skaveling/special-abilities/disease/skaveling-ghoul-fever"
-
-[[books.chapters.children]]
-title = "Gynosphinx (Sphinx)"
-entry = "ref/monster/sphinx-gynosphinx"
-
-[[books.chapters.children]]
-title = "Oxen (Herd Animal)"
-entry = "ref/monster/herd-animal-oxen"
-
-[[books.chapters.children]]
-title = "Pony"
-entry = "ref/monster/horse-pony"
-
-[[books.chapters.children]]
-title = "The Moldering Emperor"
-entry = "ref/monster/moldering-emperor"
-
-[[books.chapters.children]]
-title = "Yak (Herd Animal)"
-entry = "ref/monster/yak"
-
-[[books.chapters.children]]
-title = "Black Smear"
-entry = "ref/eq-poison/black-smear"
-
-[[books.chapters.children]]
-title = "Aberration"
-entry = "ref/type/aberration"
-
-[[books.chapters.children]]
-title = "Advanced"
-entry = "ref/template/advanced"
-
-[[books.chapters.children]]
-title = "Air"
-entry = "ref/subtype/air"
-
-[[books.chapters.children]]
-title = "Angel"
-entry = "ref/family/angel"
-
-[[books.chapters.children]]
-title = "Angel"
-entry = "ref/subtype/angel"
-
-[[books.chapters.children]]
-title = "Animal"
-entry = "ref/type/animal"
-
-[[books.chapters.children]]
-title = "Ankylosaurus"
-entry = "ref/companion/ankylosaurus"
-
-[[books.chapters.children]]
-title = "Aquatic"
-entry = "ref/subtype/aquatic"
-
-[[books.chapters.children]]
-title = "Archon"
-entry = "ref/family/archon"
-
-[[books.chapters.children]]
-title = "Archon"
-entry = "ref/subtype/archon"
-
-[[books.chapters.children]]
-title = "Augmented"
-entry = "ref/subtype/augmented"
-
-[[books.chapters.children]]
-title = "Aurochs"
-entry = "ref/companion/aurochs"
-
-[[books.chapters.children]]
-title = "Azata"
-entry = "ref/family/azata"
-
-[[books.chapters.children]]
-title = "Azata"
-entry = "ref/subtype/azata"
-
-[[books.chapters.children]]
-title = "Brachiosaurus"
-entry = "ref/companion/brachiosaurus"
-
-[[books.chapters.children]]
-title = "Celestial"
-entry = "ref/template/celestial"
-
-[[books.chapters.children]]
-title = "Chaotic"
-entry = "ref/subtype/chaotic"
-
-[[books.chapters.children]]
-title = "Cold"
-entry = "ref/subtype/cold"
-
-[[books.chapters.children]]
-title = "Construct"
-entry = "ref/type/construct"
-
-[[books.chapters.children]]
-title = "Damage Die Adjustments"
-entry = "ref/misc/damage-die-adjustments"
-
-[[books.chapters.children]]
-title = "Demon"
-entry = "ref/family/demon"
-
-[[books.chapters.children]]
-title = "Demon"
-entry = "ref/subtype/demon"
-
-[[books.chapters.children]]
-title = "Devil"
-entry = "ref/family/devil"
-
-[[books.chapters.children]]
-title = "Devil"
-entry = "ref/subtype/devil"
-
-[[books.chapters.children]]
-title = "Dire Bat"
-entry = "ref/companion/dire-bat"
-
-[[books.chapters.children]]
-title = "Dire Rat"
-entry = "ref/companion/dire-rat"
-
-[[books.chapters.children]]
-title = "Dolphin"
-entry = "ref/companion/dolphin"
-
-[[books.chapters.children]]
-title = "Dragon"
-entry = "ref/type/dragon"
-
-[[books.chapters.children]]
-title = "Dragon (Black)"
-entry = "ref/family/dragon-black"
-
-[[books.chapters.children]]
-title = "Dragon (Blue)"
-entry = "ref/family/dragon-blue"
-
-[[books.chapters.children]]
-title = "Dragon (Brass)"
-entry = "ref/family/dragon-brass"
-
-[[books.chapters.children]]
-title = "Dragon (Bronze)"
-entry = "ref/family/dragon-bronze"
-
-[[books.chapters.children]]
-title = "Dragon (Copper)"
-entry = "ref/family/dragon-copper"
-
-[[books.chapters.children]]
-title = "Dragon (Gold)"
-entry = "ref/family/dragon-gold"
-
-[[books.chapters.children]]
-title = "Dragon (Green)"
-entry = "ref/family/dragon-green"
-
-[[books.chapters.children]]
-title = "Dragon (Red)"
-entry = "ref/family/dragon-red"
-
-[[books.chapters.children]]
-title = "Dragon (Silver)"
-entry = "ref/family/dragon-silver"
-
-[[books.chapters.children]]
-title = "Dragon (True)"
-entry = "ref/family/dragon-true"
-
-[[books.chapters.children]]
-title = "Dragon (White)"
-entry = "ref/family/dragon-white"
-
-[[books.chapters.children]]
-title = "Drow"
-entry = "ref/rule/race-drow/drow"
-
-[[books.chapters.children]]
-title = "Duergar"
-entry = "ref/rule/race-duergar/duergar"
-
-[[books.chapters.children]]
-title = "Dwarf"
-entry = "ref/subtype/dwarf"
-
-[[books.chapters.children]]
-title = "Earth"
-entry = "ref/subtype/earth"
-
-[[books.chapters.children]]
-title = "Elasmosaurus"
-entry = "ref/companion/elasmosaurus"
-
-[[books.chapters.children]]
-title = "Electric Eel"
-entry = "ref/companion/electric-eel"
-
-[[books.chapters.children]]
-title = "Elemental"
-entry = "ref/family/elemental"
-
-[[books.chapters.children]]
-title = "Elemental"
-entry = "ref/subtype/elemental"
-
-[[books.chapters.children]]
-title = "Elephant/Mastodon"
-entry = "ref/companion/elephant-mastodon"
-
-[[books.chapters.children]]
-title = "Elf"
-entry = "ref/subtype/elf"
-
-[[books.chapters.children]]
-title = "Evil"
-entry = "ref/subtype/evil"
-
-[[books.chapters.children]]
-title = "Extraplanar"
-entry = "ref/subtype/extraplanar"
-
-[[books.chapters.children]]
-title = "Familiar"
-entry = "ref/family/familiar"
-
-[[books.chapters.children]]
-title = "Fey"
-entry = "ref/type/fey"
-
-[[books.chapters.children]]
-title = "Fiendish"
-entry = "ref/template/fiendish"
-
-[[books.chapters.children]]
-title = "Fire"
-entry = "ref/subtype/fire"
-
-[[books.chapters.children]]
-title = "Frog"
-entry = "ref/companion/frog"
 
 [[books.chapters.children]]
 title = "Gamemastery"
 entry = "ref/rule/gamemastery"
 
 [[books.chapters.children]]
-title = "Ghost"
-entry = "ref/template/ghost"
-
-[[books.chapters.children]]
-title = "Ghoul Fever"
-entry = "ref/disease/ghoul-fever"
-
-[[books.chapters.children]]
-title = "Giant"
-entry = "ref/subtype/giant"
-
-[[books.chapters.children]]
-title = "Giant"
-entry = "ref/template/giant"
-
-[[books.chapters.children]]
-title = "Gnome"
-entry = "ref/subtype/gnome"
-
-[[books.chapters.children]]
-title = "Goblin Dog"
-entry = "ref/companion/goblin-dog"
-
-[[books.chapters.children]]
-title = "Goblinoid"
-entry = "ref/subtype/goblinoid"
-
-[[books.chapters.children]]
-title = "Golem"
-entry = "ref/family/golem"
-
-[[books.chapters.children]]
-title = "Good"
-entry = "ref/subtype/good"
-
-[[books.chapters.children]]
-title = "Half-Celestial"
-entry = "ref/template/half-celestial"
-
-[[books.chapters.children]]
-title = "Half-Dragon"
-entry = "ref/template/half-dragon"
-
-[[books.chapters.children]]
-title = "Half-Fiend"
-entry = "ref/template/half-fiend"
-
-[[books.chapters.children]]
-title = "Halfling"
-entry = "ref/subtype/halfling"
-
-[[books.chapters.children]]
-title = "Human"
-entry = "ref/subtype/human"
-
-[[books.chapters.children]]
-title = "Humanoid"
-entry = "ref/type/humanoid"
-
-[[books.chapters.children]]
-title = "Hyena"
-entry = "ref/companion/hyena"
-
-[[books.chapters.children]]
-title = "Ink Cloud"
-entry = "ref/umr/ink-cloud"
-
-[[books.chapters.children]]
-title = "Lawful"
-entry = "ref/subtype/lawful"
-
-[[books.chapters.children]]
-title = "Lich"
-entry = "ref/template/lich"
-
-[[books.chapters.children]]
-title = "Lizard (Monitor Lizard)"
-entry = "ref/companion/lizard-monitor-lizard"
-
-[[books.chapters.children]]
-title = "Lycanthrope"
-entry = "ref/family/lycanthrope"
-
-[[books.chapters.children]]
-title = "Lycanthrope"
-entry = "ref/template/lycanthrope"
-
-[[books.chapters.children]]
-title = "Magical Beast"
-entry = "ref/type/magical-beast"
-
-[[books.chapters.children]]
-title = "Monster Rules"
-entry = "ref/rule/monster-rules"
-
-[[books.chapters.children]]
-title = "Monsters as PCs"
-entry = "ref/rule/monsters-as-pcs"
-
-[[books.chapters.children]]
-title = "Monstrous Humanoid"
-entry = "ref/type/monstrous-humanoid"
-
-[[books.chapters.children]]
-title = "Moray Eel"
-entry = "ref/companion/moray-eel"
-
-[[books.chapters.children]]
-title = "Native"
-entry = "ref/subtype/native"
-
-[[books.chapters.children]]
-title = "Octopus"
-entry = "ref/companion/octopus"
-
-[[books.chapters.children]]
-title = "Ooze"
-entry = "ref/type/ooze"
-
-[[books.chapters.children]]
-title = "Orc"
-entry = "ref/subtype/orc"
-
-[[books.chapters.children]]
-title = "Orca"
-entry = "ref/companion/orca"
-
-[[books.chapters.children]]
-title = "Outsider"
-entry = "ref/type/outsider"
-
-[[books.chapters.children]]
-title = "Plant"
-entry = "ref/type/plant"
-
-[[books.chapters.children]]
-title = "Pteranodon"
-entry = "ref/companion/pteranodon"
-
-[[books.chapters.children]]
-title = "Rabies"
-entry = "ref/disease/rabies"
-
-[[books.chapters.children]]
 title = "Rare Races"
 entry = "ref/rule/rare-races"
 
 [[books.chapters.children]]
-title = "Reptilian"
-entry = "ref/subtype/reptilian"
-
-[[books.chapters.children]]
-title = "Rhinoceros"
-entry = "ref/companion/rhinoceros"
-
-[[books.chapters.children]]
-title = "Roc"
-entry = "ref/companion/roc"
-
-[[books.chapters.children]]
-title = "Sahuagin"
-entry = "ref/rule/monster-sahuagin/sahuagin"
-
-[[books.chapters.children]]
-title = "Shapechanger"
-entry = "ref/subtype/shapechanger"
-
-[[books.chapters.children]]
-title = "Shield Guardian"
-entry = "ref/family/shield-guardian"
-
-[[books.chapters.children]]
-title = "Skeletal Champion"
-entry = "ref/template/skeletal-champion"
-
-[[books.chapters.children]]
-title = "Skeleton"
-entry = "ref/template/skeleton"
-
-[[books.chapters.children]]
 title = "Slimes, Molds, and Fungi"
 entry = "ref/rule/slimes-molds-and-fungi"
-
-[[books.chapters.children]]
-title = "Squid"
-entry = "ref/companion/squid"
-
-[[books.chapters.children]]
-title = "Stat Block"
-entry = "ref/rule/stat-block"
-
-[[books.chapters.children]]
-title = "Stegosaurus"
-entry = "ref/companion/stegosaurus"
-
-[[books.chapters.children]]
-title = "Step 10: Details"
-entry = "ref/rule/step-10-details"
-
-[[books.chapters.children]]
-title = "Step 1: Concept"
-entry = "ref/rule/step-1-concept"
-
-[[books.chapters.children]]
-title = "Step 1: Determine Creature's Role"
-entry = "ref/rule/step-1-determine-creatures-role"
-
-[[books.chapters.children]]
-title = "Step 2: Add Class Levels"
-entry = "ref/rule/step-2-add-class-levels"
-
-[[books.chapters.children]]
-title = "Step 2: Target Statistics"
-entry = "ref/rule/step-2-target-statistics"
-
-[[books.chapters.children]]
-title = "Step 3: Determine CR"
-entry = "ref/rule/step-3-determine-cr"
-
-[[books.chapters.children]]
-title = "Step 3: Hit Dice"
-entry = "ref/rule/step-3-hit-dice"
-
-[[books.chapters.children]]
-title = "Step 4: Size"
-entry = "ref/rule/step-4-size"
-
-[[books.chapters.children]]
-title = "Step 5: Abilities"
-entry = "ref/rule/step-5-abilities"
-
-[[books.chapters.children]]
-title = "Step 6: Skills and Feats"
-entry = "ref/rule/step-6-skills-and-feats"
-
-[[books.chapters.children]]
-title = "Step 7: Other Statistics"
-entry = "ref/rule/step-7-other-statistics"
-
-[[books.chapters.children]]
-title = "Step 8: Special Abilities and Qualities"
-entry = "ref/rule/step-8-special-abilities-and-qualities"
-
-[[books.chapters.children]]
-title = "Step 9: Treasure"
-entry = "ref/rule/step-9-treasure"
-
-[[books.chapters.children]]
-title = "Swarm"
-entry = "ref/subtype/swarm"
-
-[[books.chapters.children]]
-title = "Trample and Stampede"
-entry = "ref/umr/trample"
-
-[[books.chapters.children]]
-title = "Triceratops"
-entry = "ref/companion/triceratops"
-
-[[books.chapters.children]]
-title = "Tyrannosaurus"
-entry = "ref/companion/tyrannosaurus"
-
-[[books.chapters.children]]
-title = "Undead"
-entry = "ref/type/undead"
-
-[[books.chapters.children]]
-title = "Vampire"
-entry = "ref/template/vampire"
-
-[[books.chapters.children]]
-title = "Vermin"
-entry = "ref/type/vermin"
-
-[[books.chapters.children]]
-title = "Water"
-entry = "ref/subtype/water"
-
-[[books.chapters.children]]
-title = "Young"
-entry = "ref/template/young"
-
-[[books.chapters.children]]
-title = "Zombie"
-entry = "ref/template/zombie"
-
-[[books.chapters.children.children]]
-title = "Deathspore Toxin"
-entry = "ref/affliction/zombie/deathspore-toxin"
-
-[[books.chapters.children.children]]
-title = "Zombie Curse (Su)"
-entry = "ref/affliction/zombie/zombie-curse-su"
 
 [[books]]
 source = "bestiary-2"
