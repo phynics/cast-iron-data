@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resilient_sphere", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/wall-of-force" },
+]
 
 [fields]
 kind = "spell"

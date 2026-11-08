@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_decay", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
+]
 
 [fields]
 kind = "spell"

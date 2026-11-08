@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heatstroke", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ray-of-exhaustion" },
+]
 
 [fields]
 kind = "spell"

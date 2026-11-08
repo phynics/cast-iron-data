@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_wolf", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/phantom-steed" },
+]
 
 [fields]
 kind = "spell"

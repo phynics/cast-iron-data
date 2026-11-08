@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seers_bane", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/nondetection" },
+]
 
 [fields]
 kind = "spell"

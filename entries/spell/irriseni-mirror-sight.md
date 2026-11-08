@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer", "cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irriseni_mirror_sight", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/scrying" },
+]
 
 [fields]
 kind = "spell"
@@ -46,8 +49,9 @@ Subschool: Scrying
 
 This spell lets you look into a mirror near you and see an image that is reflected in another
 specific mirror (chosen by you) or an individual reflected in any other mirror. This works like a
-scrying spell, except you can only view creatures on the same plane as you. Each time you cast the
-spell, you can choose to see one of three types of reflections in your mirror.
+[scrying](ref/spell/scrying) spell, except you can only view creatures on the same plane as you.
+Each time you cast the spell, you can choose to see one of three types of reflections in your
+mirror.
 
 _Known Mirror:_ The current reflection in another mirror with which you are familiar.
 

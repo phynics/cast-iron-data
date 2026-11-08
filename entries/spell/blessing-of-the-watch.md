@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-8-seven-days-to-the-grave", "gods-an
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_the_watch", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bless" },
+]
 
 [fields]
 kind = "spell"
@@ -48,10 +51,10 @@ Descriptors: mind-affecting
 **Sources:** Inner Sea Gods pg 230, Pathfinder \#8: Seven Days to the Grave pg 71, Gods and Magic pg
 5
 
-This spell functions like bless, except as noted. It works only in the caster's home city, and in
-areas under the jurisdiction of the city watch. For example, if the watch patrols a shantytown
-outside the city walls but not the ruined subterranean tunnels that lie beneath the city, the spell
-works in the former area but not the latter.
+This spell functions like [bless](ref/spell/bless), except as noted. It works only in the caster's
+home city, and in areas under the jurisdiction of the city watch. For example, if the watch patrols
+a shantytown outside the city walls but not the ruined subterranean tunnels that lie beneath the
+city, the spell works in the former area but not the latter.
 
 Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity
 always treat the spell as common, and need not research it in order to prepare or learn it. This

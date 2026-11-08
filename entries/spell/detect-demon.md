@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_demon", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/detect-evil" },
+]
 
 [fields]
 kind = "spell"

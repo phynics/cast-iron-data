@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_hand", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/interposing-hand" },
+]
 
 [fields]
 kind = "spell"

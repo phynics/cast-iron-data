@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_vanth", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-monster" },
+]
 
 [fields]
 kind = "spell"
@@ -50,5 +53,5 @@ Subschool: Summoning
 
 **Sources:** Pathfinder \#80: Empty Graves pg 28
 
-This spell functions like summon monster, except that it summons a single
-[vanth psychopomp](ref/monster/psychopomp-vanth).
+This spell functions like [summon monster](ref/spell/summon-monster), except that it summons a
+single [vanth psychopomp](ref/monster/psychopomp-vanth).

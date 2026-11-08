@@ -6,6 +6,9 @@ source_ids = ["faction-guide", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tomb_legion", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shambler" },
+]
 
 [fields]
 kind = "spell"
@@ -45,8 +48,8 @@ Descriptors: evil
 
 **Sources:** Faction Guide pg 61, Osirion, Land of the Pharaohs pg 27
 
-This spell functions like shambler, except that it calls into existence 1d4+2 advanced mummies
-rather than shambling mounds.
+This spell functions like [shambler](ref/spell/shambler), except that it calls into existence 1d4+2
+advanced mummies rather than shambling mounds.
 
 Though the spell has fallen out of favor among the [Risen Guard](ref/rule/f-second-life) because the
 Ruby Prince frowns on the use of undead, this spell is popular among followers of the

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vitriolic_mist", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fire-shield" },
+]
 
 [fields]
 kind = "spell"

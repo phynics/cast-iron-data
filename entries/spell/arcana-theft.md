@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcana_theft", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dispel-magic" },
+]
 
 [fields]
 kind = "spell"

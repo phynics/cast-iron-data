@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sundered_serpent_coil", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/black-tentacles" },
+]
 
 [fields]
 kind = "spell"
@@ -47,7 +50,7 @@ Subschool: Creation
 
 **Sources:** Monster Codex pg 200
 
-This spell functions like black tentacles, except it creates a Large decapitated snake, which erupts
-from the ground and grapples a creature you specify within its 5-foot reach. As a standard action,
-you can command the snake to release its grappled target and direct it to attack a different
-creature.
+This spell functions like [black tentacles](ref/spell/black-tentacles), except it creates a Large
+decapitated snake, which erupts from the ground and grapples a creature you specify within its
+5-foot reach. As a standard action, you can command the snake to release its grappled target and
+direct it to attack a different creature.

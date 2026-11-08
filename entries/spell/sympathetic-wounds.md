@@ -6,6 +6,9 @@ source_ids = ["gods-and-magic", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathetic_wounds", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shield-other" },
+]
 
 [fields]
 kind = "spell"

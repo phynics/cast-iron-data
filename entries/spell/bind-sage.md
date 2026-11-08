@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bind_sage", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/planar-binding" },
+]
 
 [fields]
 kind = "spell"

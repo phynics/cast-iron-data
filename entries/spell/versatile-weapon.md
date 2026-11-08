@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_weapon", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-weapon-greater" },
+]
 
 [fields]
 kind = "spell"
@@ -51,9 +54,9 @@ Target: one weapon or 50 projectiles, all of which must be together at the time 
 
 **Sources:** Advanced Player's Guide pg 254
 
-You transform the physical makeup of a weapon as you desire. This spell functions like greater magic
-weapon, except that it subtly alters the physical properties of a weapon, enabling it to bypass
-[damage reduction](ref/rule/damage-reduction) of one the following types: bludgeoning, cold iron,
-piercing, silver, or slashing. The affected weapon still inflicts damage of its normal type and its
-[hardness](ref/umr/hardness) and hit points are unchanged. This spell can be cast on a natural
-weapon or unarmed strike.
+You transform the physical makeup of a weapon as you desire. This spell functions like
+[greater magic weapon](ref/spell/magic-weapon-greater), except that it subtly alters the physical
+properties of a weapon, enabling it to bypass [damage reduction](ref/rule/damage-reduction) of one
+the following types: bludgeoning, cold iron, piercing, silver, or slashing. The affected weapon
+still inflicts damage of its normal type and its [hardness](ref/umr/hardness) and hit points are
+unchanged. This spell can be cast on a natural weapon or unarmed strike.

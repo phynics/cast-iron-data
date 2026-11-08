@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weird", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/phantasmal-killer" },
+]
 
 [fields]
 kind = "spell"
@@ -46,9 +49,9 @@ Descriptors: emotion, fear, mind-affecting
 
 **Sources:** PRPG Core Rulebook pg 369
 
-This spell functions like phantasmal killer, except it can affect more than one creature. Only the
-affected creatures see the phantasmal creatures attacking them, though you see the attackers as
-shadowy shapes.
+This spell functions like [phantasmal killer](ref/spell/phantasmal-killer), except it can affect
+more than one creature. Only the affected creatures see the phantasmal creatures attacking them,
+though you see the attackers as shadowy shapes.
 
 If a subject's Fortitude save succeeds, it still takes 3d6 points of damage and is stunned for 1
 round. The subject also takes 1d4 points of Strength damage.

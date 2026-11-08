@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloud_shape", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/gaseous-form" },
+]
 
 [fields]
 kind = "spell"
@@ -49,9 +52,9 @@ Descriptors: air
 
 > _[Sylphs](ref/race/sylph) have access to the following spell._
 
-This spell functions like gaseous form, except you assume the shape of a Colossal cloud with a space
-of 30 feet. You choose the general appearance of the cloud (white, stormy, fluffy, flat, and so on),
-after which your appearance cannot be changed. Even the closest inspection cannot reveal that the
-cloud in question is actually a magically concealed creature. To all normal tests you are, in fact,
-a cloud, although a detect magic spell reveals a moderate transmutation aura on the cloud. Your fly
-speed in cloud form is 30 feet.
+This spell functions like [gaseous form](ref/spell/gaseous-form), except you assume the shape of a
+Colossal cloud with a space of 30 feet. You choose the general appearance of the cloud (white,
+stormy, fluffy, flat, and so on), after which your appearance cannot be changed. Even the closest
+inspection cannot reveal that the cloud in question is actually a magically concealed creature. To
+all normal tests you are, in fact, a cloud, although a detect magic spell reveals a moderate
+transmutation aura on the cloud. Your fly speed in cloud form is 30 feet.

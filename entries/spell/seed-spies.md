@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seed_spies", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/insect-spies" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conversing_wind", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/whispering-wind" },
+]
 
 [fields]
 kind = "spell"

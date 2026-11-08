@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miserable_pity", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/sanctuary" },
+]
 
 [fields]
 kind = "spell"

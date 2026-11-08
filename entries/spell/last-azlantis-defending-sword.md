@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "last_azlantis_defending_sword", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mages-sword" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assume_appearance", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/alter-self" },
+]
 
 [fields]
 kind = "spell"
@@ -56,10 +59,10 @@ Subschool: Polymorph
 
 **Sources:** Horror Adventures pg 108
 
-This spell functions similarly to alter self, except for the following differences. You assume the
-exact form of a deceased Small or Medium creature of the humanoid type. Your voice changes to match
-that of the form you assume. The creature whose form you assume must be dead and you must have
-access to its fresh corpse (either dead less than 24 hours, or preserved via
+This spell functions similarly to [alter self](ref/spell/alter-self), except for the following
+differences. You assume the exact form of a deceased Small or Medium creature of the humanoid type.
+Your voice changes to match that of the form you assume. The creature whose form you assume must be
+dead and you must have access to its fresh corpse (either dead less than 24 hours, or preserved via
 [gentle repose](ref/spell/gentle-repose) or similar effect). Any attempt to copy the form of a
 living creature causes the spell to fail. You do not have access to the assumed form's abilities,
 memories, mannerisms, or speech patterns. The spell grants a +10 bonus on Disguise checks to appear

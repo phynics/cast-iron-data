@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_alibi", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/modify-memory" },
+]
 
 [fields]
 kind = "spell"

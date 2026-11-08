@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emergency_force_sphere", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/wall-of-force" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgetful_slumber", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/deep-slumber" },
+]
 
 [fields]
 kind = "spell"

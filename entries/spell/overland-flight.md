@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overland_flight", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/fly" },
+]
 
 [fields]
 kind = "spell"
@@ -52,8 +55,8 @@ Target: you
 
 **Sources:** PRPG Core Rulebook pg 317
 
-This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing
-medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly skill checks equal
-to half your caster level. When using this spell for long-distance movement, you can hustle without
-taking nonlethal damage (a forced march still requires Constitution checks). This means you can
-cover 64 miles in an 8-hour period of flight (or 48 miles at a speed of 30 feet).
+This spell functions like a [fly](ref/spell/fly) spell, except you can fly at a speed of 40 feet (30
+feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly
+skill checks equal to half your caster level. When using this spell for long-distance movement, you
+can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This
+means you can cover 64 miles in an 8-hour period of flight (or 48 miles at a speed of 30 feet).

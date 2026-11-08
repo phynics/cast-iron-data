@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "permanent_image", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/silent-image" },
+]
 
 [fields]
 kind = "spell"
@@ -48,6 +51,6 @@ Subschool: Figment
 
 **Sources:** PRPG Core Rulebook pg 319
 
-This spell functions like silent image, except that the figment includes visual, auditory,
-olfactory, and thermal elements, and the spell is permanent. By concentrating, you can move the
-image within the limits of the range, but it is static while you are not concentrating.
+This spell functions like [silent image](ref/spell/silent-image), except that the figment includes
+visual, auditory, olfactory, and thermal elements, and the spell is permanent. By concentrating, you
+can move the image within the limits of the range, but it is static while you are not concentrating.

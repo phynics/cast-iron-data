@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daze_monster", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/daze" },
+]
 
 [fields]
 kind = "spell"
@@ -56,5 +59,5 @@ Descriptors: mind-affecting
 
 **Sources:** PRPG Core Rulebook pg 264
 
-This spell functions like daze, but can affect any one living creature of any type. Creatures of 7
-or more HD are not affected.
+This spell functions like [daze](ref/spell/daze), but can affect any one living creature of any
+type. Creatures of 7 or more HD are not affected.

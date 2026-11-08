@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_debauchery", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/symbol-of-death" },
+]
 
 [fields]
 kind = "spell"

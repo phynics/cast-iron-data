@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulswitch", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-jar" },
+]
 
 [fields]
 kind = "spell"

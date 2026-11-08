@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_transport", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mirror-hideaway" },
+]
 
 [fields]
 kind = "spell"

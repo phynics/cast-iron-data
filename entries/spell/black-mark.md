@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_mark", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mark-of-justice" },
+]
 
 [fields]
 kind = "spell"

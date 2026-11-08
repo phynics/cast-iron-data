@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deeper_darkness", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/darkness" },
+]
 
 [fields]
 kind = "spell"

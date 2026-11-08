@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miasmatic_form", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/gaseous-form" },
+]
 
 [fields]
 kind = "spell"
@@ -48,9 +51,10 @@ Descriptors: air, poison
 
 > _[Sylphs](ref/race/sylph) have access to the following spell._
 
-This spell functions like gaseous form, except the target's vaporous body is dangerous to creatures
-that touch it. A creature can make a Fortitude save (DC 14 + your Intelligence modifier) on its turn
-to resist the vapors. When you cast this spell, you select one of the following options.
+This spell functions like [gaseous form](ref/spell/gaseous-form), except the target's vaporous body
+is dangerous to creatures that touch it. A creature can make a Fortitude save (DC 14 + your
+Intelligence modifier) on its turn to resist the vapors. When you cast this spell, you select one of
+the following options.
 
 _Stinking cloud:_ The target's body nauseates creatures that fail their saving throws, as stinking
 cloud (Fortitude negates, see text). This form of the spell does not require a material component.

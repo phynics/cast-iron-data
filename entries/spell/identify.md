@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "identify", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/detect-magic" },
+]
 
 [fields]
 kind = "spell"

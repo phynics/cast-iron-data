@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_object", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/teleport" },
+]
 
 [fields]
 kind = "spell"
@@ -45,8 +48,8 @@ Subschool: Teleportation
 
 **Sources:** PRPG Core Rulebook pg 359
 
-This spell functions like teleport, except that it teleports an object, not you. Creatures and
-magical forces cannot be teleported.
+This spell functions like [teleport](ref/spell/teleport), except that it teleports an object, not
+you. Creatures and magical forces cannot be teleported.
 
 If desired, the target object can be sent to a distant location on the Ethereal Plane. In this case,
 the point from which the object was teleported remains faintly magical until the item is retrieved.

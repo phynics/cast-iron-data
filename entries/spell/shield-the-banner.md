@@ -6,6 +6,9 @@ source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_the_banner", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/sanctuary" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etherealness", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ethereal-jaunt" },
+]
 
 [fields]
 kind = "spell"

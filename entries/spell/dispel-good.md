@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_good", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dispel-evil" },
+]
 
 [fields]
 kind = "spell"

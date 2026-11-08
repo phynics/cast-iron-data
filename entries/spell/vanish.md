@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanish", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/invisibility" },
+]
 
 [fields]
 kind = "spell"
@@ -52,6 +55,6 @@ Descriptors: glamer
 
 **Sources:** Advanced Player's Guide pg 253
 
-This spell functions like invisibility, except the effect only lasts for 1 round per caster level
-(maximum of 5 rounds). Like invisibility, the spell immediately ends if the subject attacks any
-creature.
+This spell functions like [invisibility](ref/spell/invisibility), except the effect only lasts for 1
+round per caster level (maximum of 5 rounds). Like invisibility, the spell immediately ends if the
+subject attacks any creature.

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_song", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
+]
 
 [fields]
 kind = "spell"

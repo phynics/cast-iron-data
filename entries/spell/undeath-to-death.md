@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undeath_to_death", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/circle-of-death" },
+]
 
 [fields]
 kind = "spell"

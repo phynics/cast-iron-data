@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_from_divination", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/nondetection" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_candle", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/death-knell" },
+]
 
 [fields]
 kind = "spell"
@@ -49,8 +52,8 @@ Descriptors: death, evil, fire
 
 > _[Ifrits](ref/race/ifrit) have access to the following spell._
 
-This spell functions like death knell, except instead of using the slain target's life energy to
-enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version
-of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you
-had summoned it with [summon monster II](ref/spell/summon-monster-2). The elemental remains for a
-number of rounds equal to the Hit Dice of the slain creature.
+This spell functions like [death knell](ref/spell/death-knell), except instead of using the slain
+target's life energy to enhance yourself, you use it to summon a Small fire elemental resembling a
+burning, howling version of the slain creature. The elemental acts immediately on your turn and
+otherwise behaves as if you had summoned it with [summon monster II](ref/spell/summon-monster-2).
+The elemental remains for a number of rounds equal to the Hit Dice of the slain creature.

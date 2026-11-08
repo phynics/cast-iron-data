@@ -6,6 +6,9 @@ source_ids = ["guide-to-the-river-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silverlight", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/daylight" },
+]
 
 [fields]
 kind = "spell"

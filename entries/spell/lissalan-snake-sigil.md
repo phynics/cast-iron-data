@@ -6,6 +6,9 @@ source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lissalan_snake_sigil", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/sepia-snake-sigil" },
+]
 
 [fields]
 kind = "spell"

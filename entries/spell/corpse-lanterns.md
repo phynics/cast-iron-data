@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_lanterns", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dancing-lights" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scare", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/cause-fear" },
+]
 
 [fields]
 kind = "spell"
@@ -53,5 +56,5 @@ Descriptors: emotion, fear, mind-affecting
 
 **Sources:** PRPG Core Rulebook pg 336
 
-This spell functions like cause fear, except that it causes all targeted creatures of less than 6 HD
-to become frightened.
+This spell functions like [cause fear](ref/spell/cause-fear), except that it causes all targeted
+creatures of less than 6 HD to become frightened.

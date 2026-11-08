@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_crystal_teleport", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/teleport" },
+]
 
 [fields]
 kind = "spell"

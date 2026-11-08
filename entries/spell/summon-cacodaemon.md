@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_cacodaemon", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-monster" },
+]
 
 [fields]
 kind = "spell"
@@ -51,4 +54,5 @@ Descriptors: evil
 
 **Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 39
 
-This spell functions like summon monster, except it summons a single cacodaemon.
+This spell functions like [summon monster](ref/spell/summon-monster), except it summons a single
+cacodaemon.

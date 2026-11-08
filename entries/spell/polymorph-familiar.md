@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polymorph_familiar", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/beast-shape-1" },
+]
 
 [fields]
 kind = "spell"

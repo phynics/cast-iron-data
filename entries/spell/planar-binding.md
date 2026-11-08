@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_binding", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/planar-binding-lesser" },
+]
 
 [fields]
 kind = "spell"
@@ -48,7 +51,7 @@ Subschool: Calling
 
 **Sources:** PRPG Core Rulebook pg 321
 
-This spell functions like lesser planar binding, except that you may call a single creature of 12 HD
-or less, or up to three creatures of the same kind whose Hit Dice total no more than 12. Each
-creature gets a saving throw, makes an independent attempt to escape, and must be individually
-persuaded to aid you.
+This spell functions like [lesser planar binding](ref/spell/planar-binding-lesser), except that you
+may call a single creature of 12 HD or less, or up to three creatures of the same kind whose Hit
+Dice total no more than 12. Each creature gets a saving throw, makes an independent attempt to
+escape, and must be individually persuaded to aid you.

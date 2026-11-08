@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarping_swarm", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-swarm" },
+]
 
 [fields]
 kind = "spell"

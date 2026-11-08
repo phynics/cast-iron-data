@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_glyph", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/glyph-of-warding" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["conquest-of-bloodsworn-vale"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorn_snare", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/snare" },
+]
 
 [fields]
 kind = "spell"
@@ -42,9 +45,9 @@ Target: touched nonmagical circle of vine, rope, or thong with a 2 ft. diameter 
 
 **Sources:** Conquest of Bloodsworn Vale pg 29
 
-This spell functions just like the spell snare but those caught in it take 1 point of damage per
-round, as the thorn-covered vine slowly cuts into them. In addition, any attempt to escape or
-destroy the snare deals 1d6 points of damage to the trapped creature.
+This spell functions just like the spell [snare](ref/spell/snare) but those caught in it take 1
+point of damage per round, as the thorn-covered vine slowly cuts into them. In addition, any attempt
+to escape or destroy the snare deals 1d6 points of damage to the trapped creature.
 
 A thorn snare can only be found with a DC 24 Perception check. A trapped creature can escape by
 making a DC 24 Escape Artist check or a DC 24 Strength check as a full-round action.

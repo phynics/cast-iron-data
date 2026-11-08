@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_voyage", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dream-travel" },
+]
 
 [fields]
 kind = "spell"

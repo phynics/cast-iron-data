@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watchful_eye", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/shield-other" },
+]
 
 [fields]
 kind = "spell"

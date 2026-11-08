@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_ward", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/protection-from-energy" },
+]
 
 [fields]
 kind = "spell"
@@ -46,6 +49,7 @@ Target: one touched object of up to 10 pounds/level
 
 **Sources:** Seekers of Secrets pg 17
 
-As protection from energy, except as noted above and that the spell only protects against acid and
-fire damage. While the energy protection remains, the item is also completely waterproof (this
-protection extends to other liquids as well, such as alcohol and oil).
+As [protection from energy](ref/spell/protection-from-energy), except as noted above and that the
+spell only protects against acid and fire damage. While the energy protection remains, the item is
+also completely waterproof (this protection extends to other liquids as well, such as alcohol and
+oil).

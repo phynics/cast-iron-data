@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowy_haven", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/rope-trick" },
+]
 
 [fields]
 kind = "spell"
@@ -45,8 +48,8 @@ Target: one 5-foot square of floor touched
 
 > _[Fetchlings](ref/race/fetchling) have access to the following spell._
 
-This spell functions like rope trick, except the point of entry is through a 5-foot-square instead
-of a rope. The space holds as many as 10 creatures of any size.
+This spell functions like [rope trick](ref/spell/rope-trick), except the point of entry is through a
+5-foot-square instead of a rope. The space holds as many as 10 creatures of any size.
 
 When this spell is cast upon a 5-foot-square part of a wall, it creates an extradimensional space
 adjacent to the Plane of Shadow. Creatures in the extradimensional space are hidden beyond the reach

@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_pact", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dominate-person" },
+]
 
 [fields]
 kind = "spell"

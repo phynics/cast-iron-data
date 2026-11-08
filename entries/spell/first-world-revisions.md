@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_world_revisions", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ancestral-regression" },
+]
 
 [fields]
 kind = "spell"

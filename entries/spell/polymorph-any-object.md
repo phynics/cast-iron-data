@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polymorph_any_object", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/polymorph-greater" },
+]
 
 [fields]
 kind = "spell"
@@ -43,11 +46,11 @@ Subschool: Polymorph
 
 **Sources:** PRPG Core Rulebook pg 323
 
-This spell functions like greater polymorph, except that it changes one object or creature into
-another. You can use this spell to transform all manner of objects and creatures into new forms-you
-aren't limited to transforming a living creature into another living form. The duration of the spell
-depends on how radical a change is made from the original state to its transmuted state. The
-duration is determined by using the following guidelines.
+This spell functions like [greater polymorph](ref/spell/polymorph-greater), except that it changes
+one object or creature into another. You can use this spell to transform all manner of objects and
+creatures into new forms-you aren't limited to transforming a living creature into another living
+form. The duration of the spell depends on how radical a change is made from the original state to
+its transmuted state. The duration is determined by using the following guidelines.
 
 |Changed Subject Is...|Increase to Duration Factor^[1](ref/spell/polymorph-any-object#footnote-n)^|
 | --- | --- |

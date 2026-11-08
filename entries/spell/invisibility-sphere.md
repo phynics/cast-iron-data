@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_sphere", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/invisibility" },
+]
 
 [fields]
 kind = "spell"
@@ -52,9 +55,9 @@ Descriptors: glamer
 
 **Sources:** PRPG Core Rulebook pg 302
 
-This spell functions like invisibility, except that this spell confers invisibility upon all
-creatures within 10 feet of the recipient at the time the spell is cast. The center of the effect is
-mobile with the recipient.
+This spell functions like [invisibility](ref/spell/invisibility), except that this spell confers
+invisibility upon all creatures within 10 feet of the recipient at the time the spell is cast. The
+center of the effect is mobile with the recipient.
 
 Those affected by this spell can see each other and themselves as if unaffected by the spell. Any
 affected creature moving out of the area becomes visible, but creatures moving into the area after

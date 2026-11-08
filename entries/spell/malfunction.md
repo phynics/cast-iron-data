@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malfunction", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/confusion" },
+]
 
 [fields]
 kind = "spell"

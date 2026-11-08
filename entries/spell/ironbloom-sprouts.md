@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironbloom_sprouts", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/goodberry" },
+]
 
 [fields]
 kind = "spell"
@@ -43,10 +46,10 @@ Targets: 2d4 fresh mushrooms touched
 
 **Sources:** Pathfinder \#62: Curse of the Lady's Light pg 75
 
-This spell functions like goodberry, except as noted above and that it transforms 2d4 mushrooms into
-magical ironbloom mushrooms rather than transforming common berries into magical berries.
-Alternatively, you may create twice as many mushrooms, but each only has the nourishment ability of
-a goodberry and not the healing properties.
+This spell functions like [goodberry](ref/spell/goodberry), except as noted above and that it
+transforms 2d4 mushrooms into magical ironbloom mushrooms rather than transforming common berries
+into magical berries. Alternatively, you may create twice as many mushrooms, but each only has the
+nourishment ability of a goodberry and not the healing properties.
 
 Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity
 always treat the spell as common, and need not research it in order to prepare or learn it. This

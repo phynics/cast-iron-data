@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reduce_animal", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/reduce-person" },
+]
 
 [fields]
 kind = "spell"
@@ -42,6 +45,6 @@ Target: one willing animal of Small, Medium, Large, or Huge size
 
 **Sources:** PRPG Core Rulebook pg 330
 
-This spell functions like reduce person, except that it affects a single willing animal. Reduce the
-damage dealt by the animal's natural attacks
+This spell functions like [reduce person](ref/spell/reduce-person), except that it affects a single
+willing animal. Reduce the damage dealt by the animal's natural attacks
 [as appropriate for its new size](ref/umr/natural-attacks).
