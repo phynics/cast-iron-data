@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Summon monster I", "III", "V", "VII", "and IX", "Summon monster II", "Summon monster IV", "Summon monster VI and VIII spell-like"]
+replaces = ["Summon monster I", "III", "V", "VII", "and IX", "Summon monster II", "Summon monster IV", "Summon monster VI and VIII spell-like abilities"]
 +++
 
 **Sources:** Advanced Race Guide pg 53\
@@ -115,4 +115,4 @@ _raging_ (whether from the _avatar gambit_ ability or actual barbarian _rage_).
 
 **At 15th Level:** He selects a second rage power.
 
-**Replaces:** Summon monster VI and VIII spell-like
+**Replaces:** Summon monster VI and VIII spell-like abilities

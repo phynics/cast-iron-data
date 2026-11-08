@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bonus combat feats gained at 2nd, 8th, 14th, and 20th levels", "Close weapon mastery", "Bonus combat feats gained at 5th, 11th, and 17th levels"]
+replaces = ["Bonus combat feats gained at 2nd, 5th, 11th, and 14th levels", "Close weapon mastery", "Bonus combat feats gained at 5th, 8th, 11th, 14th, 17th, and 20th levels"]
 alters = ["Maneuver training"]
 +++
 
@@ -30,7 +30,7 @@ adventures. A wild child can begin play with any of the animals available to a d
 uses his brawler level as his effective druid level for determining the abilities of his
 [animal companion](ref/sidekick/animal-companion).
 
-**Replaces:** Bonus combat feats gained at 2nd, 8th, 14th, and 20th levels
+**Replaces:** Bonus combat feats gained at 2nd, 5th, 11th, and 14th levels
 
 **Hunter's Tricks**
 
@@ -69,7 +69,7 @@ companion, as well as to hinder his opponents.
 **At 5th Level:** The wild child learns one _hunter's trick_ from the ranger skirmisher archetype.
 He cannot choose a trick that relies on ranged attacks.
 
-**Replaces:** Bonus combat feats gained at 5th, 11th, and 17th levels
+**Replaces:** Bonus combat feats gained at 5th, 8th, 11th, 14th, 17th, and 20th levels
 
 **Special:** The wild child can use these tricks a number of times per day equal to
 [half](ref/misc/fractions-and-rounding) his brawler level + his Constitution modifier. This ability
