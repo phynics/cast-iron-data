@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/sulesh-the-great"
-kind = "rule"
+kind = "class_option"
 title = "Sulesh the Great"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
+replaces = ["Arcane surge"]
 +++
 
 **Sources:** Occult Realms pg 11\

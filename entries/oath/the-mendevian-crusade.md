@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/the-mendevian-crusade"
-kind = "rule"
+kind = "class_option"
 title = "Oath of the Mendevian Crusade"
 source_ids = ["divine-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
 +++
 
 **Sources:** Divine Anthology pg 20\
