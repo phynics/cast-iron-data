@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "4"
 creature_type = "humanoid"
-subtypes = ["mythic"]
+subtypes = ["mythic", "udaeus"]
 size = "medium"
 alignment = "neutral"
 ac = "22/11/21"
@@ -42,14 +42,12 @@ _This armored humanoid has skin resembling white bone, carved with images of wea
 
 **Alignment:** Neutral
 
-**othersubs:** Udaeus
-
 **Perception:** +5
 
 **Senses:** Low-light vision
 
 **Sources:** Bestiary 4 pg 267\
-**Subtype:** Mythic
+**Subtype:** Mythic, Udaeus
 
 **Experience points:** 1,200
 

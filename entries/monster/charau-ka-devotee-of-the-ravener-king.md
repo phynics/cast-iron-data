@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "7"
 creature_type = "humanoid"
+subtypes = ["charau-ka"]
 size = "small"
 alignment = "chaotic evil"
 ac = "22/14/20"
@@ -39,8 +40,6 @@ horrible powers it serves._
 
 **Initiative:** +2
 
-**othersubs:** Charau-ka
-
 **Perception:** +4
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
@@ -48,6 +47,7 @@ horrible powers it serves._
 **Size:** small
 
 **Sources:** Inner Sea Monster Codex pg 14\
+**Subtype:** Charau-ka\
 **Experience points:** 3,200
 
 **Armor class:** 22/14/20

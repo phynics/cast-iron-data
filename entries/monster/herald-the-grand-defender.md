@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "construct"
-subtypes = ["extraplanar"]
+subtypes = ["extraplanar", "herald"]
 size = "huge"
 alignment = "lawful good"
 ac = "32/7/32"
@@ -40,14 +40,12 @@ shield bearing Torag's symbol._
 
 **Alignment:** Lawful good
 
-**othersubs:** Herald
-
 **Perception:** +20
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 310\
-**Subtype:** Extraplanar
+**Subtype:** Extraplanar, Herald
 
 **Experience points:** 51,200
 

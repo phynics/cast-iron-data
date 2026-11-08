@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "1"
 creature_type = "humanoid"
+subtypes = ["gnoll"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "15/10/15"
@@ -38,13 +39,12 @@ human._
 
 **Size:** medium
 
-**othersubs:** Gnoll
-
 **Perception:** +2
 
 **Senses:** Darkvision 60 ft.
 
 **Sources:** Pathfinder RPG Bestiary pg 155\
+**Subtype:** Gnoll\
 **Experience points:** 400
 
 **Armor class:** 15/10/15

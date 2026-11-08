@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["devil", "evil", "extraplanar", "lawful"]
+subtypes = ["devil", "evil", "extraplanar", "herald", "lawful"]
 size = "medium"
 alignment = "lawful evil"
 ac = "28/16/22"
@@ -37,8 +37,6 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 
 **Size:** medium
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +23
@@ -46,7 +44,7 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 **Senses:** Darkvision 60 ft., Low-light vision, See in darkness
 
 **Sources:** Inner Sea Gods pg 278, Pathfinder \#29: Mother of Flies pg 78\
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+**Subtype:** Devil, Evil, Extraplanar, Herald, Lawful
 
 **Experience points:** 51,200
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["chaotic", "extraplanar"]
+subtypes = ["chaotic", "extraplanar", "herald"]
 size = "large"
 alignment = "chaotic neutral"
 ac = "30/10/29"
@@ -40,8 +40,6 @@ some merciless warlord._
 
 **Size:** large
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +23
@@ -49,7 +47,7 @@ some merciless warlord._
 **Senses:** Darkvision 60 ft., Ironsense 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 288, Pathfinder \#35: War of the River Kings pg 82\
-**Subtype:** Chaotic, Extraplanar
+**Subtype:** Chaotic, Extraplanar, Herald
 
 **Experience points:** 51,200
 

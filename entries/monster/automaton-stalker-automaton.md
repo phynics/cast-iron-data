@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "5"
 creature_type = "construct"
-subtypes = ["extraplanar"]
+subtypes = ["automaton", "extraplanar"]
 size = "medium"
 alignment = "lawful neutral"
 ac = "18/13/15"
@@ -39,14 +39,12 @@ head constantly shift in color._
 
 **Size:** medium
 
-**othersubs:** Automaton
-
 **Perception:** +11
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 30\
-**Subtype:** Extraplanar
+**Subtype:** Automaton, Extraplanar
 
 **Experience points:** 1,600
 

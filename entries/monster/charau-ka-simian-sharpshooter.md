@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "6"
 creature_type = "humanoid"
+subtypes = ["charau-ka"]
 size = "small"
 alignment = "chaotic evil"
 ac = "24/17/18"
@@ -39,8 +40,6 @@ _This long-furred ape-person wears a battered snakeskin poncho and carries a wor
 
 **Initiative:** +6
 
-**othersubs:** Charau-ka
-
 **Perception:** +11
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
@@ -48,6 +47,7 @@ _This long-furred ape-person wears a battered snakeskin poncho and carries a wor
 **Size:** small
 
 **Sources:** Inner Sea Monster Codex pg 13\
+**Subtype:** Charau-ka\
 **Experience points:** 2,400
 
 **Armor class:** 24/17/18

@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "3"
 creature_type = "humanoid"
+subtypes = ["gnoll"]
 size = "medium"
 alignment = "neutral evil"
 ac = "17/12/15"
@@ -39,13 +40,12 @@ cruel gaze._
 
 **Alignment:** Neutral evil
 
-**othersubs:** Gnoll
-
 **Perception:** +6
 
 **Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 100\
+**Subtype:** Gnoll\
 **Experience points:** 800
 
 **Armor class:** 17/12/15

@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["evil", "extraplanar", "shapechanger"]
+subtypes = ["evil", "extraplanar", "herald", "shapechanger"]
 size = "medium"
 alignment = "neutral evil"
 ac = "31/23/18"
@@ -38,8 +38,6 @@ _This towering, scorpion-tailed man stalks with a soundless grace and murderous 
 
 **Alignment:** Neutral evil
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +26
@@ -47,7 +45,7 @@ _This towering, scorpion-tailed man stalks with a soundless grace and murderous 
 **Senses:** Darkvision 60 ft., Low-light vision, See in darkness, See invisibility
 
 **Sources:** Inner Sea Gods pg 300, Pathfinder \#59: The Price of Infamy pg 90\
-**Subtype:** Evil, Extraplanar, Shapechanger
+**Subtype:** Evil, Extraplanar, Herald, Shapechanger
 
 **Experience points:** 51,200
 

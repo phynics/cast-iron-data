@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["chaotic", "evil", "extraplanar"]
+subtypes = ["chaotic", "evil", "extraplanar", "herald"]
 size = "large"
 alignment = "chaotic evil"
 ac = "32/14/27"
@@ -38,8 +38,6 @@ and smoking eye sockets._
 
 **Size:** large
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +33
@@ -47,7 +45,7 @@ and smoking eye sockets._
 **Senses:** Darkvision 60 ft., Scent
 
 **Sources:** Inner Sea Gods pg 296\
-**Subtype:** Chaotic, Evil, Extraplanar
+**Subtype:** Chaotic, Evil, Extraplanar, Herald
 
 **Experience points:** 51,200
 

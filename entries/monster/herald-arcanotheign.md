@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["incorporeal"]
+subtypes = ["herald", "incorporeal"]
 size = "medium"
 alignment = "neutral"
 ac = "27/27/18"
@@ -42,8 +42,6 @@ form._
 
 **Alignment:** Neutral
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +25
@@ -51,7 +49,7 @@ form._
 **Senses:** Arcane sight, Darkvision 60 ft.
 
 **Sources:** Inner Sea Gods pg 298, Pathfinder \#41: The Thousand Fangs Below pg 82\
-**Subtype:** Incorporeal
+**Subtype:** Herald, Incorporeal
 
 **Experience points:** 51,200
 

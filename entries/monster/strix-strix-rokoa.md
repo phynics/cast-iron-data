@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "11"
 creature_type = "humanoid"
+subtypes = ["strix"]
 size = "medium"
 alignment = "lawful neutral"
 ac = "20/12/19"
@@ -43,13 +44,12 @@ on her crown and staff._
 
 **Size:** medium
 
-**othersubs:** Strix
-
 **Perception:** +12 (+14 in dim light or darkness)
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 57\
+**Subtype:** Strix\
 **Experience points:** 12,800
 
 **Armor class:** 20/12/19

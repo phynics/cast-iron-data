@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "2"
 creature_type = "humanoid"
+subtypes = ["charau-ka"]
 size = "small"
 alignment = "chaotic evil"
 ac = "14/12/13"
@@ -37,8 +38,6 @@ man._
 
 **Initiative:** +1
 
-**othersubs:** Charau-ka
-
 **Perception:** +2
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
@@ -46,6 +45,7 @@ man._
 **Size:** small
 
 **Sources:** Inner Sea World Guide pg 308\
+**Subtype:** Charau-ka\
 **Experience points:** 600
 
 **Armor class:** 14/12/13

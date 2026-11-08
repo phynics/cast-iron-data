@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "construct"
-subtypes = ["extraplanar", "lawful"]
+subtypes = ["extraplanar", "herald", "lawful"]
 size = "gargantuan"
 alignment = "lawful neutral"
 ac = "34/7/33"
@@ -38,14 +38,12 @@ _This titanic golden statue of a great knight moves of its own accord and hefts 
 
 **Alignment:** Lawful neutral
 
-**othersubs:** Herald
-
 **Perception:** +29
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See in darkness
 
 **Sources:** Inner Sea Gods pg 276\
-**Subtype:** Extraplanar, Lawful
+**Subtype:** Extraplanar, Herald, Lawful
 
 **Experience points:** 51,200
 

@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "1/2"
 creature_type = "humanoid"
+subtypes = ["lashunta"]
 size = "medium"
 alignment = "neutral good"
 ac = "11/11/10"
@@ -41,11 +42,10 @@ _Delicate antennae extend from the forehead of this lithe woman._
 
 **Alignment:** Neutral good
 
-**othersubs:** Lashunta
-
 **Perception:** +2
 
 **Sources:** Inner Sea Bestiary pg 25\
+**Subtype:** Lashunta\
 **Experience points:** 200
 
 **Armor class:** 11/11/10

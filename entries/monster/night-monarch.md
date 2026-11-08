@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["chaotic", "extraplanar", "good"]
+subtypes = ["chaotic", "extraplanar", "good", "herald"]
 size = "huge"
 alignment = "chaotic good"
 ac = "31/15/24"
@@ -40,8 +40,6 @@ drifts from its gigantic wings._
 
 **Initiative:** +10
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +29
@@ -49,7 +47,7 @@ drifts from its gigantic wings._
 **Senses:** Darkvision 120 ft.
 
 **Sources:** Inner Sea Gods pg 284\
-**Subtype:** Chaotic, Extraplanar, Good
+**Subtype:** Chaotic, Extraplanar, Good, Herald
 
 **Experience points:** 51,200
 

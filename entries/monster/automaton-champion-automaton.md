@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "10"
 creature_type = "construct"
-subtypes = ["extraplanar"]
+subtypes = ["automaton", "extraplanar"]
 size = "large"
 alignment = "lawful neutral"
 ac = "24/14/22"
@@ -40,14 +40,12 @@ glows with an unrivaled ferocity._
 
 **Alignment:** Lawful neutral
 
-**othersubs:** Automaton
-
 **Perception:** +19
 
 **Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
 **Sources:** Construct Handbook pg 22\
-**Subtype:** Extraplanar
+**Subtype:** Automaton, Extraplanar
 
 **Experience points:** 9,600
 

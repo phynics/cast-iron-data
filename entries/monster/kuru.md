@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "1/2"
 creature_type = "humanoid"
+subtypes = ["kuru"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "12/8/12"
@@ -41,13 +42,12 @@ been filed down to points._
 
 **Size:** medium
 
-**othersubs:** Kuru
-
 **Perception:** +6
 
 **Senses:** Low-light vision
 
 **Sources:** Isles of the Shackles pg 51\
+**Subtype:** Kuru\
 **Experience points:** 200
 
 **Armor class:** 12/8/12
