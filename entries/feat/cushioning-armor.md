@@ -22,9 +22,3 @@ You twist in your armor, allowing it to mitigate your fall.\
 **Prerequisites:** Armor training class feature, proficiency with medium or heavy armor.\
 **Benefit:** When you take [falling](ref/rule/falling) damage, you can direct half of the damage to
 your armor. This damage ignores the armor's [hardness](ref/umr/hardness).
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 5 stamina points to utilize your armor's [hardness](ref/umr/hardness) when directing
-falling damage to it.

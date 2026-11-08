@@ -2,7 +2,7 @@
 id = "ref/feat/demon-hunter"
 kind = "feat"
 title = "Demon Hunter"
-source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting", "weapon-masters-handbook"]
+source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hunter", path = "json/feat04.json" },
 ]
@@ -24,10 +24,3 @@ You are well-versed in demonic lore.\
 [demons](ref/family/demon). You gain a +2 morale bonus on all attack rolls and a +2 morale bonus on
 caster level checks to penetrate [spell resistance](ref/rule/spell-resistance) made against
 creatures with the demon subtype you recognize as demons.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-When you successfully identify a demon using Knowledge (planes), you can spend up to 9 stamina
-points to increase the morale bonus on attack rolls and caster level checks from Demon Hunter by 1
-per 3 stamina points spent.

@@ -2,7 +2,7 @@
 id = "ref/feat/untwisting-iron-skin"
 kind = "feat"
 title = "Untwisting Iron Skin"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untwisting_iron_skin", path = "json/feat16.json" },
 ]
@@ -30,8 +30,3 @@ item's hit points (maximum 10 rounds); the value of this
 [damage reduction](ref/rule/damage-reduction) increases by 1 for every 5 points of hardness above 10
 the broken item had. You can spend 1 ki point as a swift action to double either of the damage
 reduction values granted by this feat for 1 round.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend 2 stamina points instead of 1 ki point when using Untwisting Iron Skin.

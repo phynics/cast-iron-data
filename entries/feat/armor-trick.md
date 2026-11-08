@@ -139,9 +139,3 @@ features or feats) on Strength checks to break doors and objects with less
 [hardness](ref/umr/hardness) than your armor. When your base attack bonus reaches +8, this bonus
 increases to 1/2 your armor's armor check penalty. When your base attack bonus reaches +16, this
 bonus increases to equal your armor's full armor check penalty.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 5 stamina points to use an armor trick while wearing armor with which you are not
-proficient, or without meeting the trick's additional prerequisites.

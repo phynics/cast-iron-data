@@ -2,7 +2,7 @@
 id = "ref/feat/hamatulatsu"
 kind = "feat"
 title = "Hamatulatsu"
-source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting", "weapon-masters-handbook"]
+source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatulatsu", path = "json/feat08.json" },
 ]
@@ -33,9 +33,3 @@ condition.\
 **Special:** Hamatulatsu may be selected as a substitute bonus feat at 6th level by a monk even if
 the monk does not otherwise meet the prerequisites. This fighting style is normally only taught to
 women of the Sisterhood of the Golden Erinyes.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-By spending 5 stamina points, you can treat a hit with an unarmed strike as a critical hit for the
-purpose of determining the benefits that you gain from Hamatulatsu.

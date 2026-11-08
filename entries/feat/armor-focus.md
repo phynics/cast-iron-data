@@ -28,9 +28,3 @@ it.\
 feat, it applies to a new type of armor. The Armor Focus feat counts as the armor training class
 feature for the purpose of [armor mastery feat](ref/rule/feats-mastery) prerequisites and determines
 what types of armor you can use with armor mastery feats.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 2 stamina points to increase the additional armor bonus granted by this feat to +2 for
-1 round.

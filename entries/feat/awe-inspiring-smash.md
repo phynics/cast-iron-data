@@ -2,7 +2,7 @@
 id = "ref/feat/awe-inspiring-smash"
 kind = "feat"
 title = "Awe-Inspiring Smash"
-source_ids = ["inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awe_inspiring_smash", path = "json/feat01.json" },
 ]
@@ -28,10 +28,3 @@ In addition, when you spend a swift action to attempt a performance combat check
 by a successful bull rush or sunder combat maneuver check, you gain a +2 bonus on the performance
 combat check. For every 5 points by which your attack exceeded your opponent's CMD, this bonus
 increases by 2.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-After successfully performing a bull rush or sunder combat maneuver, you can spend up to 5 stamina
-points to increase the bonus on performance combat checks that you gain from Awe-Inspiring Smash by
-1 per stamina point spent.

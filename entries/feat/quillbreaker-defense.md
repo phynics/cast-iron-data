@@ -2,7 +2,7 @@
 id = "ref/feat/quillbreaker-defense"
 kind = "feat"
 title = "Quillbreaker Defense"
-source_ids = ["magical-marketplace", "armor-masters-handbook"]
+source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quillbreaker_defense", path = "json/feat12.json" },
 ]
@@ -26,10 +26,3 @@ nonmagical attack, you can give your armor spikes the [broken](ref/misc/broken) 
 the amount of damage you take by 5. If your armor spikes are already broken, they are destroyed when
 you take the damage. If you are wearing masterwork armor spikes, you instead reduce the damage taken
 by 10.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-If you choose to spend 5 stamina points when using this feat, there is a 50% chance that your armor
-spikes do not gain the broken condition. This combat trick has no effect if your armor spikes
-already have the broken condition.

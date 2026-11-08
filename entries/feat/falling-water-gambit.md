@@ -2,7 +2,7 @@
 id = "ref/feat/falling-water-gambit"
 kind = "feat"
 title = "Falling Water Gambit"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falling_water_gambit", path = "json/feat06.json" },
 ]
@@ -36,10 +36,3 @@ during a duel, you can make an attack of opportunity against the foe who attacke
 [shaken](ref/misc/shaken), [frightened](ref/misc/frightened), or [panicked](ref/misc/panicked). To
 gain these benefits, you must be wielding only an Aldori dueling sword (not using a shield, an
 off-hand weapon, armor spikes, unarmed strikes, or natural weapons).
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-By spending 4 stamina points, you gain the ability to attempt a dueling dodge or a dueling parry
-against attacks made by a shaken, frightened, or panicked opponent, even if you aren't participating
-in a duel.

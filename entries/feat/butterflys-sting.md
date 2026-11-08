@@ -2,7 +2,7 @@
 id = "ref/feat/butterflys-sting"
 kind = "feat"
 title = "Butterfly's Sting"
-source_ids = ["inner-sea-gods", "faiths-of-purity", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "butterflys_sting", path = "json/feat02.json" },
 ]
@@ -26,9 +26,3 @@ You can forgo a critical hit in order to pass it on to an ally.\
 of the critical hit and grant a critical hit to the next ally who hits that creature with a melee
 attack before the start of your next turn. Your attack only deals normal damage, and the next ally
 to hit the target automatically confirms the attack as a critical hit.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-When you confirm a critical hit, you can spend 10 stamina points to use Butterfly's Sting without
-forgoing your own critical hit.

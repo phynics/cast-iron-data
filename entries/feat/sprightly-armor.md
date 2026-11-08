@@ -22,9 +22,3 @@ You make the most of your armor's magical capabilities.\
 **Prerequisites:** Dex 13, base attack bonus +11 or fighter level 8th, armor training class feature,
 proficiency with light armor.\
 **Benefit:** You add your armor's enhancement bonus as a bonus on your initiative checks.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 5 stamina points as an immediate action to gain a circumstance bonus on your Reflex
-saves equal to your armor's enhancement bonus for 1 turn.

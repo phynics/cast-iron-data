@@ -2,7 +2,7 @@
 id = "ref/feat/duelist-of-the-shrouded-lake"
 kind = "feat"
 title = "Duelist of the Shrouded Lake"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duelist_of_the_shrouded_lake", path = "json/feat05.json" },
 ]
@@ -31,10 +31,3 @@ bull rush and reposition attempts. When you attempt a [dueling dodge](ref/rule/d
 a duel, your bonus to AC increases to +6. To gain these benefits, you must be wielding only an
 [Aldori dueling sword](ref/eq-weapon/aldori-dueling-sword) (not using a shield, an off-hand weapon,
 armor spikes, unarmed strikes, or natural weapons).
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-By spending 5 stamina points when you attempt a combat maneuver check with an Aldori dueling sword,
-you gain a +4 bonus to your AC against attacks made by that target until the beginning of your next
-turn.

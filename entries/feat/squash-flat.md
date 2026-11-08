@@ -2,7 +2,7 @@
 id = "ref/feat/squash-flat"
 kind = "feat"
 title = "Squash Flat"
-source_ids = ["inner-sea-gods", "faiths-of-corruption", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squash_flat", path = "json/feat15.json" },
 ]
@@ -25,9 +25,3 @@ You can bull rush an opponent straight to the ground.\
 **Benefit:** Whenever you make a [bull rush](ref/rule/bull-rush) attack and your combat maneuver
 check exceeds the target's CMD by 5 or more, you can attempt to [trip](ref/rule/trip) the target as
 part of your bull rush as a free action. This does not provoke an attack of opportunity.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-After succeeding at a bull rush combat maneuver check, you can spend 4 stamina points to attempt to
-trip the target with Squash Flat regardless of your bull rush combat maneuver check's result.

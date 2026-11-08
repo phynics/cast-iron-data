@@ -2,7 +2,7 @@
 id = "ref/feat/spectacular-exit"
 kind = "feat"
 title = "Spectacular Exit"
-source_ids = ["inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectacular_exit", path = "json/feat14.json" },
 ]
@@ -27,10 +27,3 @@ opponent's CMD before the performance combat check. Success allows you to withdr
 the standard -5 penalty on your check. In addition, for every 5 points by which your Acrobatics
 check result exceeds your opponent's CMD, you gain a +1 bonus on all Perform checks you make for the
 remainder of the round.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-When you use Spectacular Exit to withdraw without taking the -5 penalty on performance combat checks
-and you spend 5 stamina points, you don't need to succeed at an Acrobatics check in order to avoid
-the penalty.

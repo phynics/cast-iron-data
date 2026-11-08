@@ -2,7 +2,7 @@
 id = "ref/feat/bloody-sabres"
 kind = "feat"
 title = "Bloody Sabres"
-source_ids = ["inner-sea-gods", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_sabres", path = "json/feat02.json" },
 ]
@@ -27,9 +27,3 @@ sabre), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), worshiper of
 of the same attack action, and both of those weapons are
 [sawtooth sabres](ref/eq-weapon/sawtooth-sabre), you deal 1 point of [bleed](ref/rule/bleed) damage
 in addition to the normal damage dealt by these attacks.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-You can spend 2 stamina points when dealing bleed damage with the Bloody Sabres feat to increase the
-amount of bleed damage your opponent takes by 1.

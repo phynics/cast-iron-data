@@ -2,7 +2,7 @@
 id = "ref/feat/desperate-battler"
 kind = "feat"
 title = "Desperate Battler"
-source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting", "weapon-masters-handbook"]
+source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_battler", path = "json/feat04.json" },
 ]
@@ -22,9 +22,3 @@ and family have forced you to excel at fighting on your own.\
 **Benefit:** When no ally is within 10 feet of you and you are not receiving benefits from the
 [aid another](ref/rule/aid-another-2) action, you gain a +1 morale bonus on melee attack and damage
 rolls.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-You can spend 2 stamina points to gain the benefits of Desperate Battler even while an ally is
-within 10 feet of you (but not when receiving the benefits of the aid another action).

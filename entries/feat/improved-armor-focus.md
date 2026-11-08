@@ -28,8 +28,3 @@ also use your character level in place of your base attack bonus for the purpose
 [armor mastery feat](ref/rule/feats-mastery) prerequisites.\
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the
 feat, it applies to a new type of armor.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 5 stamina points to negate your armor's armor check penalty for 1 skill check.

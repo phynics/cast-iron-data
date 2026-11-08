@@ -2,7 +2,7 @@
 id = "ref/feat/redirect-attack"
 kind = "feat"
 title = "Redirect Attack"
-source_ids = ["melee-tactics-toolbox", "armor-masters-handbook"]
+source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redirect_attack", path = "json/feat13.json" },
 ]
@@ -26,9 +26,3 @@ redirect the attack to target another foe. The new target must be adjacent to yo
 of the opponent that missed you. Attempt a combat maneuver check; if the result exceeds both the
 Combat Maneuver Defense of the opponent who missed you and the Armor Class of the new target, the
 attack strikes and deals its normal damage.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend up to 5 stamina points to grant yourself a bonus on the combat maneuver check equal to
-the number of stamina points you spent.

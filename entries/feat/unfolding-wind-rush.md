@@ -2,7 +2,7 @@
 id = "ref/feat/unfolding-wind-rush"
 kind = "feat"
 title = "Unfolding Wind Rush"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfolding_wind_rush", path = "json/feat16.json" },
 ]
@@ -29,8 +29,3 @@ action with a single move action. You must forgo the attack at your highest bonu
 remaining attacks as normal at any point during your movement. You can spend 1 ki point as a swift
 action to create a path of wind along your path of movement that functions as
 [wind wall](ref/spell/wind-wall) for 1 round; this effect does not affect your ranged attacks.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend 2 stamina points instead of 1 ki point when using Unfolding Wind Rush.

@@ -2,7 +2,7 @@
 id = "ref/feat/taldan-duelist"
 kind = "feat"
 title = "Taldan Duelist"
-source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting", "weapon-masters-handbook"]
+source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taldan_duelist", path = "json/feat15.json" },
 ]
@@ -27,10 +27,3 @@ fighting with the falcata and buckler.\
 **Benefit:** When fighting with the [falcata](ref/eq-weapon/falcata) and
 [buckler](ref/eq-armor/buckler), your shield bonus to AC increases by +1 and you gain a +2 bonus on
 Acrobatics checks.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-When you make an attack with a falcata using two hands while wearing a buckler, you can spend 3
-stamina points to ignore the -1 penalty on attack rolls for using your shield arm to wield a weapon
-while wearing a buckler and to retain the buckler's shield bonus for 1 round.

@@ -2,7 +2,7 @@
 id = "ref/feat/bloodletting"
 kind = "feat"
 title = "Bloodletting"
-source_ids = ["inner-sea-gods", "faiths-of-corruption", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodletting", path = "json/feat02.json" },
 ]
@@ -23,9 +23,3 @@ When you attack with a piercing or slashing weapon, the wounds you cause bleed p
 **Benefit:** Whenever you threaten a critical hit with a piercing or slashing weapon (regardless of
 whether you confirm the critical hit or not), you deal 1 point of [bleed](ref/rule/bleed) damage to
 the targeted creature.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-When you confirm a critical hit with a piercing or slashing weapon, you can spend up to 2 stamina
-points to increase the bleed damage dealt by Bloodletting by 1 per stamina point spent.

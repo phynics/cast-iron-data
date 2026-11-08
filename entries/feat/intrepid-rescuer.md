@@ -2,7 +2,7 @@
 id = "ref/feat/intrepid-rescuer"
 kind = "feat"
 title = "Intrepid Rescuer"
-source_ids = ["inner-sea-gods", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrepid_rescuer", path = "json/feat09.json" },
 ]
@@ -26,10 +26,3 @@ You instinctively react to interfere with foes that attack your allies or innoce
 ally or any attack against a noncombatant, that opponent provokes an attack of opportunity from you.
 If your attack of opportunity hits your foe, she takes a -4 penalty on the attack roll that provoked
 this attack of opportunity.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-When an opponent provokes an attack of opportunity from you as a result of the Intrepid Rescuer
-feat, if your attack of opportunity hits, you can spend 5 stamina points to cause the opponent's
-attack to automatically miss your ally.

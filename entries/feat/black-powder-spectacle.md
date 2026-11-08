@@ -2,7 +2,7 @@
 id = "ref/feat/black-powder-spectacle"
 kind = "feat"
 title = "Black Powder Spectacle"
-source_ids = ["inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_powder_spectacle", path = "json/feat02.json" },
 ]
@@ -31,9 +31,3 @@ amount of black powder required for a single shot to make either a loud sound or
 flash. If you choose to make your weapon's report louder, you gain a +4 bonus on all Intimidate
 checks you attempt for 1 round. If you choose to create an impressive flash, you gain a +4 bonus on
 any Perform checks you attempt for 1 round.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-You can spend 2 stamina points when using Black Powder Spectacle in order to gain a +4 bonus on
-Intimidate checks and Perform checks for 1 round.

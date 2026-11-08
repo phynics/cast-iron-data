@@ -2,7 +2,7 @@
 id = "ref/feat/perfect-style"
 kind = "feat"
 title = "Perfect Style"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_style", path = "json/feat12.json" },
 ]
@@ -35,9 +35,3 @@ points from this feat.
 
 **Special:** You can select Perfect Style multiple times. Each time you do so, you must select a
 different House of Perfection to belong to.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend up to 5 stamina points to increase the resistance granted to you by Perfect Style by 2
-per stamina point spent.

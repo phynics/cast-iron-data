@@ -2,7 +2,7 @@
 id = "ref/feat/covering-shield"
 kind = "feat"
 title = "Covering Shield"
-source_ids = ["dragonslayers-handbook", "armor-masters-handbook"]
+source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_shield", path = "json/feat03.json" },
 ]
@@ -26,9 +26,3 @@ You can use your shield to protect your most vulnerable parts from area effects.
 bonus on Reflex saves against area of effect attacks equal to your shield's base bonus to armor
 class plus any bonuses granted by feats or class abilities. This does not transfer any enhancement
 bonuses on a shield to Reflex saves.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 3 stamina points to also gain the enhancement bonus of your shield on your Reflex save
-against one attack or hazard.

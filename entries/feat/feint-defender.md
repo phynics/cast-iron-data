@@ -23,9 +23,3 @@ You use your shield to conceal your own body language and keep your attention fo
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6 or fighter level 4th,
 Sense Motive 1 rank.\
 **Benefit:** You add your shield's bonus to AC to the DC of feint attempts against you.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 5 stamina points to force a foe to attempt two Bluff checks when trying to feint
-against you in combat, and use the lower of the two results.

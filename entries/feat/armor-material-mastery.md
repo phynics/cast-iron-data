@@ -24,9 +24,3 @@ You bring the most out of your armor's special material.\
 +11 or fighter level 8th, armor training class feature.\
 **Benefit:** You can use the ability granted by Armor Material Expertise two additional times per
 day.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 5 stamina points to use an armor material ability without it counting against your
-daily limit.

@@ -2,7 +2,7 @@
 id = "ref/feat/unblinking-flame-fist"
 kind = "feat"
 title = "Unblinking Flame Fist"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unblinking_flame_fist", path = "json/feat16.json" },
 ]
@@ -27,8 +27,3 @@ You can exploit the weaknesses in your opponents' defenses, like a flame seeking
 against [flat-footed](ref/rule/flat-footed) targets. When you spend 1 ki point to gain the benefits
 of [Improved Feint](ref/feat/improved-feint) for 1 round, you can attempt a [feint](ref/rule/feint)
 as part of your movement when [charging](ref/rule/charge).
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend 2 stamina points instead of 1 ki point when using Unblinking Flame Fist.

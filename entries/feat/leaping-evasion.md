@@ -2,7 +2,7 @@
 id = "ref/feat/leaping-evasion"
 kind = "feat"
 title = "Leaping Evasion"
-source_ids = ["melee-tactics-toolbox", "armor-masters-handbook"]
+source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leaping_evasion", path = "json/feat10.json" },
 ]
@@ -29,8 +29,3 @@ equal to the number of feet you must move to escape the area, and you can't trav
 normal movement. If you use this feat, you are [staggered](ref/misc/staggered) on your next turn.
 This movement doesn't provoke attacks of opportunity from creatures in the area of the effect you
 are escaping.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 5 stamina points to ignore the staggered condition normally imparted by this feat.

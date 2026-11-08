@@ -26,9 +26,3 @@ You deftly block attacks with your shield while moving through battle.\
 **Special:** Defended Movement counts as both [Dodge](ref/feat/dodge) and
 [Mobility](ref/feat/mobility) for the purposes of feats that have Dodge and Mobility as
 prerequisites.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 3 stamina points as an immediate action to increase the bonus to your AC to +4 against
-a single attack.

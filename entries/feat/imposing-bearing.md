@@ -25,10 +25,3 @@ Your armor allows you to push your opponents around.\
 **Benefit:** You treat your size as two categories larger for the purposes of determining the size
 of creatures against which you can attempt [bull rush](ref/rule/bull-rush), [drag](ref/rule/drag),
 [overrun](ref/rule/overrun), and [trip](ref/rule/trip) combat maneuvers.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 5 stamina points as a swift action to add half your armor bonus to your next combat
-maneuver check this turn. Alternatively, you can spend 5 stamina points as an immediate action to
-add half your armor bonus to your CMD against a single combat maneuver this turn.

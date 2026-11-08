@@ -23,9 +23,3 @@ You let your shield absorb some of the damage from a fall.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6 or fighter level 4th.\
 **Benefit:** When you fall 10 or more feet, you can direct half of the [falling](ref/rule/falling)
 damage you would take to your shield. This damage ignores the shield's [hardness](ref/umr/hardness).
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 5 stamina points to utilize your shield's [hardness](ref/umr/hardness) when directing
-falling damage to it.

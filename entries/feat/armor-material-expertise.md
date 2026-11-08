@@ -54,9 +54,3 @@ can use the living steel's ability to damage metal weapons, as if the attacker h
 transmutation spells equal to 5 + the armor's enhancement bonus + your character level for 1 round.
 
 **Noqual:** The armor's resistance bonus on saves increases to +4 for 1 round.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 5 stamina points to use an ability for a material, even though your armor isn't made
-of it. This still counts against your daily limit of armor material abilities.

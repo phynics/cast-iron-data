@@ -2,7 +2,7 @@
 id = "ref/feat/porcupine-defense"
 kind = "feat"
 title = "Porcupine Defense"
-source_ids = ["dragonslayers-handbook", "armor-masters-handbook"]
+source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "porcupine_defense", path = "json/feat12.json" },
 ]
@@ -26,11 +26,3 @@ You are a threat to opponents that try to overwhelm you.\
 combat maneuver attack against you, you gain a +2 bonus on any allowed attacks of opportunity. If
 your opponent may make such attacks without provoking attacks of opportunity, you instead gain a +2
 bonus to CMD against such maneuvers.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 5 stamina points to make an attack of opportunity against an opponent at least one
-size category larger than you if that opponent attempts a combat maneuver check against you. You can
-perform this attack of opportunity even if your opponent can attempt such combat maneuvers without
-normally provoking attacks of opportunity.
