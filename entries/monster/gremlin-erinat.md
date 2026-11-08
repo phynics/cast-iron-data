@@ -84,11 +84,11 @@ _The pockets of this urchin are stuffed with worthless objects._
 
 **At will:**
 
-- alter self, Small humanoid child only, ghost sound, DC 12
+- alter self, Small humanoid child only, ghost sound (DC 12)
 
 **Per day:**
 
-- 1/day: lesser confusion, DC 13, murderous command, DC 13, rage
+- 1/day: lesser confusion (DC 13), murderous command (DC 13), rage
 
 **Statistics**
 

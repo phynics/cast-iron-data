@@ -101,12 +101,12 @@ clinging to its nightmarish form._
 
 **At will:**
 
-- bestow curse, DC 24, deeper darkness
+- bestow curse (DC 24), deeper darkness
 
 **Per day:**
 
-- 3/day: animate dead, contagion, DC 24, greater teleport, haste
-- 1/day: create undead, temporal stasis, DC 28, wail of the banshee, DC 29
+- 3/day: animate dead, contagion (DC 24), greater teleport, haste
+- 1/day: create undead, temporal stasis (DC 28), wail of the banshee (DC 29)
 
 **Statistics**
 

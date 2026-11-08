@@ -100,23 +100,23 @@ abilities = ["36", "11", "24", "23", "20", "25"]
 
 **7th-level spells:**
 
-- 5/day: control weather, plane shift, DC 24
+- 5/day: control weather, plane shift (DC 24)
 
 **6th-level spells:**
 
-- 7/day: chain lightning, DC 23, greater dispel magic, mislead
+- 7/day: chain lightning (DC 23), greater dispel magic, mislead
 
 **5th-level spells:**
 
-- 7/day: break enchantment, dismissal, DC 22, dominate person, DC 23, wall of force
+- 7/day: break enchantment, dismissal (DC 22), dominate person (DC 23), wall of force
 
 **4th-level spells:**
 
-- 7/day: charm monster, DC 22, dimension door, fear, DC 21, greater invisibility
+- 7/day: charm monster (DC 22), dimension door, fear (DC 21), greater invisibility
 
 **3rd-level spells:**
 
-- 8/day: dispel magic, lightning bolt, DC 20, protection from energy, tongues
+- 8/day: dispel magic, lightning bolt (DC 20), protection from energy, tongues
 
 **2nd-level spells:**
 
@@ -124,7 +124,7 @@ abilities = ["36", "11", "24", "23", "20", "25"]
 
 **1st-level spells:**
 
-- 8/day: charm person, DC 19, color spray, DC 18, mage armor, magic missile, shield
+- 8/day: charm person (DC 19), color spray (DC 18), mage armor, magic missile, shield
 
 **Cantrips:**
 

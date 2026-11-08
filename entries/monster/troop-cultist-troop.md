@@ -89,7 +89,7 @@ _A band of violet-skinned elves raises their hands high as vile magic swirls in 
 
 **Per day:**
 
-- 3/day: &Q blindness/deafness, DC 14
+- 3/day: &Q blindness/deafness (DC 14)
 - 1/day: resist energy, shield of faith
 
 **Statistics**

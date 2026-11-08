@@ -75,7 +75,7 @@ _A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-
 
 **3rd-level spells:**
 
-- 5/day: displacement, lightning bolt, DC 16
+- 5/day: displacement, lightning bolt (DC 16)
 
 **2nd-level spells:**
 
@@ -83,7 +83,7 @@ _A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-
 
 **1st-level spells:**
 
-- 7/day: expeditious retreat, magic missile, ray of enfeeblement, DC 14, shield, silent image
+- 7/day: expeditious retreat, magic missile, ray of enfeeblement (DC 14), shield, silent image
 
 **Cantrips:**
 

@@ -88,8 +88,8 @@ fire) or 2 slams +14 (1d4+5 plus 2d6 fire)
 
 **Per day:**
 
-- 3/day: cure serious wounds, suggestion, DC 18
-- 1/day: dispel magic, fire snake, DC 20
+- 3/day: cure serious wounds, suggestion (DC 18)
+- 1/day: dispel magic, fire snake (DC 20)
 
 **Statistics**
 

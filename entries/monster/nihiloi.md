@@ -90,7 +90,7 @@ strange, wriggling wings._
 
 **At will:**
 
-- detect thoughts, DC 16
+- detect thoughts (DC 16)
 
 **Per day:**
 

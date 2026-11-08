@@ -90,7 +90,7 @@ carries an oversized pair of pliers._
 
 **Per day:**
 
-- 1/day: invisibility, self only, sleep, DC 13
+- 1/day: invisibility, self only, sleep (DC 13)
 
 **Statistics**
 

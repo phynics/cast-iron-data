@@ -91,7 +91,7 @@ eerie agility._
 
 **Per day:**
 
-- 3/day: spike stones, DC 17, stone shape
+- 3/day: spike stones (DC 17), stone shape
 - 1/day: wall of stone
 
 **Statistics**

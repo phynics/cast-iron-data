@@ -97,18 +97,18 @@ bite +43 (2d6+5)
 
 **Constant:**
 
-- detect chaos, detect evil, detect good, detect law, detect thoughts, DC 23, detect undead, freedom
-  of movement, mage armor, true seeing
+- detect chaos, detect evil, detect good, detect law, detect thoughts (DC 23), detect undead,
+  freedom of movement, mage armor, true seeing
 
 **At will:**
 
-- beguiling gift, DC 23, calm spirit, DC 23, dimension door, dimensional anchor, greater dispel
-  magic, greater teleport, mage's magnificent mansion, major image, DC 24, mirage arcana, DC 26,
+- beguiling gift (DC 23), calm spirit (DC 23), dimension door, dimensional anchor, greater dispel
+  magic, greater teleport, mage's magnificent mansion, major image (DC 24), mirage arcana (DC 26),
   mirror image
 
 **Per day:**
 
-- 3/day: banishment, DC 28, &EM circle of death, DC 28
+- 3/day: banishment (DC 28), &EM circle of death (DC 28)
 - 1/day: freedom, phase door
 
 **Statistics**

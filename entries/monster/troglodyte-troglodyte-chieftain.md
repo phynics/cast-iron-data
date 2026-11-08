@@ -92,7 +92,7 @@ not plant form)
 
 **3rd-level spells:**
 
-- fireball (domain spell), DC 16, greater magic fang, 2, swarm of fangs, DC 16
+- fireball (domain spell) (DC 16), greater magic fang, 2, swarm of fangs (DC 16)
 
 **2nd-level spells:**
 
@@ -100,7 +100,7 @@ not plant form)
 
 **1st-level spells:**
 
-- burning hands (domain spell), DC 14, cure light wounds, 2, longstrider, pass without trace
+- burning hands (domain spell) (DC 14), cure light wounds, 2, longstrider, pass without trace
 
 **Cantrips:**
 

@@ -92,8 +92,8 @@ _This disembodied and bestial head covered in lashing hair and curling horns fli
 
 **Per day:**
 
-- 3/day: charm person, DC 13, minor image, DC 14
-- 1/day: suggestion, DC 15
+- 3/day: charm person (DC 13), minor image (DC 14)
+- 1/day: suggestion (DC 15)
 
 **Per week:**
 

@@ -100,7 +100,7 @@ trails brilliant colors._
 
 **At will:**
 
-- calm emotions, DC 18, good hope, cure moderate wounds, teleport, self plus 50 lbs. only
+- calm emotions (DC 18), good hope, cure moderate wounds, teleport, self plus 50 lbs. only
 
 **Statistics**
 

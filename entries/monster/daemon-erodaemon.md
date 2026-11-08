@@ -90,14 +90,14 @@ ends in a hissing viper's head._
 
 **At will:**
 
-- death knell, DC 18, detect thoughts, DC 18, greater teleport, self plus 50 lbs. of objects only,
-  unnatural lust, DC 18
+- death knell (DC 18), detect thoughts (DC 18), greater teleport, self plus 50 lbs. of objects only,
+  unnatural lust (DC 18)
 
 **Per day:**
 
-- 3/day: desecrate, crushing despair, DC 20, enervation, &Q suggestion, DC 19
-- 1/day: modify memory, DC 20, &S level 4; 1d3 [ceustodaemons](ref/monster/daemon-ceustodaemon) 35%,
-  utter contempt, DC 20
+- 3/day: desecrate, crushing despair (DC 20), enervation, &Q suggestion (DC 19)
+- 1/day: modify memory (DC 20), &S level 4; 1d3 [ceustodaemons](ref/monster/daemon-ceustodaemon)
+  35%, utter contempt (DC 20)
 
 **Statistics**
 

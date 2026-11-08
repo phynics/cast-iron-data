@@ -88,7 +88,7 @@ front legs end in clawed hands._
 
 **At will:**
 
-- contagion, DC 17, greater teleport, self plus 50 lbs. of objects only, gust of wind
+- contagion (DC 17), greater teleport, self plus 50 lbs. of objects only, gust of wind
 
 **Per day:**
 

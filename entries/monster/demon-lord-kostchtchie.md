@@ -109,19 +109,19 @@ slam +48 (1d8+19 plus [grab](ref/umr/grab))
 
 **Constant:**
 
-- air walk, detect good, detect law, freedom of movement, true seeing, unholy aura, DC 26
+- air walk, detect good, detect law, freedom of movement, true seeing, unholy aura (DC 26)
 
 **At will:**
 
-- astral projection, blasphemy (mythic spell), DC 25, cone of cold (mythic spell), DC 23, desecrate
-  (mythic spell), enlarge person (mythic spell), greater dispel magic, greater teleport, telekinesis
-  (mythic spell), DC 23, shapechange, unhallow, unholy blight (mythic spell), DC 22
+- astral projection, blasphemy (mythic spell) (DC 25), cone of cold (mythic spell) (DC 23),
+  desecrate (mythic spell), enlarge person (mythic spell), greater dispel magic, greater teleport,
+  telekinesis (mythic spell) (DC 23), shapechange, unhallow, unholy blight (mythic spell) (DC 22)
 
 **Per day:**
 
-- 3/day: polar ray (mythic spell), power word stun (mythic spell), summon demons, symbol of
-  stunning, DC 25
-- 1/day: mass icy prison, DC 27, polar midnight, DC 27, time stop (mythic spell)
+- 3/day: polar ray (mythic spell), power word stun (mythic spell), summon demons, symbol of stunning
+  (DC 25)
+- 1/day: mass icy prison (DC 27), polar midnight (DC 27), time stop (mythic spell)
 
 ###### M {#footnote-m}
 

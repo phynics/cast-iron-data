@@ -101,8 +101,8 @@ some merciless warlord._
 
 **Per day:**
 
-- 3/day: chill metal, DC 13, heat metal, DC 13, repel metal or stone, wall of iron
-- 1/day: blade barrier, DC 17
+- 3/day: chill metal (DC 13), heat metal (DC 13), repel metal or stone, wall of iron
+- 1/day: blade barrier (DC 17)
 
 **Statistics**
 

@@ -99,7 +99,7 @@ abilities = ["21", "12", "25", "8", "13", "10"]
 
 **Cantrips:**
 
-- bleed, DC 11, detect magic, resistance, spark
+- bleed (DC 11), detect magic, resistance, spark
 
 **Domains**
 

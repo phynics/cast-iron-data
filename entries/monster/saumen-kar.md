@@ -83,7 +83,7 @@ frostbite stretches taught over a misshapen skull crowned with a pair of ivory h
 
 **Per day:**
 
-- 3/day: wall of ice, DC 14
+- 3/day: wall of ice (DC 14)
 - 1/day: summon nature's ally VI, polar bear \[dire bear\] only
 
 **Statistics**

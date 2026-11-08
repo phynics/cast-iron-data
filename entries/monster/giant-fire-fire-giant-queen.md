@@ -98,21 +98,21 @@ abilities = ["31", "15", "25", "17", "14", "20"]
 
 **3rd-level spells:**
 
-- 6/day: dispel magic, fireball, DC 18, fly
+- 6/day: dispel magic, fireball (DC 18), fly
 
 **2nd-level spells:**
 
-- 7/day: bull's strength, dust of twilight, DC 17, invisibility, scorching ray
+- 7/day: bull's strength, dust of twilight (DC 17), invisibility, scorching ray
 
 **1st-level spells:**
 
-- 8/day: burning hands, DC 16, color spray, DC 16, endure elements, identify, ray of enfeeblement,
-  DC 16, summon monster I
+- 8/day: burning hands (DC 16), color spray (DC 16), endure elements, identify, ray of enfeeblement
+  (DC 16), summon monster I
 
 **Cantrips:**
 
-- At will: acid splash, bleed, DC 15, daze, DC 15, detect magic, detect poison, flare, DC 15, read
-  magic, touch of fatigue, DC 15
+- At will: acid splash, bleed (DC 15), daze (DC 15), detect magic, detect poison, flare (DC 15),
+  read magic, touch of fatigue (DC 15)
 
 **Bloodline**
 

@@ -93,7 +93,7 @@ place of an insectile head._
 
 **Per day:**
 
-- 3/day: alter self, blindness/deafness, DC 18, blur, inflict pain, DC 18
+- 3/day: alter self, blindness/deafness (DC 18), blur, inflict pain (DC 18)
 - 1/day: enervation
 
 **Statistics**

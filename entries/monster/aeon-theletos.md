@@ -89,13 +89,13 @@ creature's crystalline body._
 
 **At will:**
 
-- augury, command, DC 12, doom, DC 12, sanctuary, DC 12
+- augury, command (DC 12), doom (DC 12), sanctuary (DC 12)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 14, enthrall, DC 13, touch of idiocy, DC 13, dispel magic, remove curse,
-  suggestion, DC 14
-- 1/day: charm monster, DC 15, lesser geas, DC 15
+- 3/day: bestow curse (DC 14), enthrall (DC 13), touch of idiocy (DC 13), dispel magic, remove
+  curse, suggestion (DC 14)
+- 1/day: charm monster (DC 15), lesser geas (DC 15)
 
 **Statistics**
 

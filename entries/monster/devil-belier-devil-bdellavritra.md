@@ -97,13 +97,13 @@ three human heads at the other._
 **At will:**
 
 - acid arrow, greater dispel magic, greater teleport, self plus 50 pounds of objects only,
-  persistent image, DC 22
+  persistent image (DC 22)
 
 **Per day:**
 
-- 3/day: acid fog, dimensional anchor, dominate person, DC 22, greater scrying, DC 24, mass
-  suggestion, DC 23
-- 1/day: blasphemy, DC 24, demand, DC 25, magic jar, DC 22, plane shift, DC 22, &S level 6; 3
+- 3/day: acid fog, dimensional anchor, dominate person (DC 22), greater scrying (DC 24), mass
+  suggestion (DC 23)
+- 1/day: blasphemy (DC 24), demand (DC 25), magic jar (DC 22), plane shift (DC 22), &S level 6; 3
   [barbed devils](ref/monster/devil-barbed-devil-hamatula) 45%, waves of exhaustion
 
 **Statistics**

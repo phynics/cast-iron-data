@@ -91,8 +91,8 @@ _This spider-like monstrosity watches quietly, skittering about on six needle-sh
 
 **Per day:**
 
-- 3/day: air walk, freezing sphere, DC 21
-- 1/day: polar ray, DC 23, wall of ice
+- 3/day: air walk, freezing sphere (DC 21)
+- 1/day: polar ray (DC 23), wall of ice
 
 **Statistics**
 

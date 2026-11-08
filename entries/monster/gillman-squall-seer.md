@@ -88,23 +88,23 @@ effects, +2 vs. non-aboleth enchantments, -2 vs. aboleth enchantments
 
 **4th-level spells:**
 
-- 1/day: legend lore, shadow conjuration, DC 17
+- 1/day: legend lore, shadow conjuration (DC 17)
 
 **3rd-level spells:**
 
-- 4/day: charm monster, DC 16, elemental speech, seek thoughts, DC 16, summon monster III
+- 4/day: charm monster (DC 16), elemental speech, seek thoughts (DC 16), summon monster III
 
 **2nd-level spells:**
 
-- 5/day: create treasure map, enthrall, DC 15, heroism, suggestion, DC 15, whispering wind
+- 5/day: create treasure map, enthrall (DC 15), heroism, suggestion (DC 15), whispering wind
 
 **1st-level spells:**
 
-- 6/day: animate rope, comprehend languages, invigorate, remove fear, sleep, DC 14
+- 6/day: animate rope, comprehend languages, invigorate, remove fear, sleep (DC 14)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 13, know direction, mage hand, message, resistance
+- At will: dancing lights, daze (DC 13), know direction, mage hand, message, resistance
 
 **Statistics**
 

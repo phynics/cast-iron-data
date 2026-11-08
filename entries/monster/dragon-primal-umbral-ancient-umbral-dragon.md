@@ -95,7 +95,7 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **Per day:**
 
-- 3/day: finger of death, DC 24
+- 3/day: finger of death (DC 24)
 
 **Spells Known**
 
@@ -105,35 +105,36 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **7th-level spells:**
 
-- 5/day: destruction, DC 24, limited wish
+- 5/day: destruction (DC 24), limited wish
 
 **6th-level spells:**
 
-- 7/day: harm, DC 23, mislead, veil, DC 23
+- 7/day: harm (DC 23), mislead, veil (DC 23)
 
 **5th-level spells:**
 
-- 7/day: greater command, DC 22, slay living, DC 22, teleport, unhallow
+- 7/day: greater command (DC 22), slay living (DC 22), teleport, unhallow
 
 **4th-level spells:**
 
-- 7/day: enervation, inflict critical wounds, DC 21, phantasmal killer, DC 21, unholy blight, DC 21
+- 7/day: enervation, inflict critical wounds (DC 21), phantasmal killer (DC 21), unholy blight (DC
+  21)
 
 **3rd-level spells:**
 
-- 8/day: dispel magic, haste, inflict serious wounds, DC 20, lightning bolt, DC 20
+- 8/day: dispel magic, haste, inflict serious wounds (DC 20), lightning bolt (DC 20)
 
 **2nd-level spells:**
 
-- 8/day: alter self, blur, command undead, DC 19, invisibility, web, DC 17
+- 8/day: alter self, blur, command undead (DC 19), invisibility, web (DC 17)
 
 **1st-level spells:**
 
-- 8/day: inflict light wounds, DC 18, grease, DC 18, magic missile, reduce person, DC 18, shield
+- 8/day: inflict light wounds (DC 18), grease (DC 18), magic missile, reduce person (DC 18), shield
 
 **Cantrips:**
 
-- At will: acid splash, bleed, DC 17, detect magic, detect poison, disrupt undead, DC 17, ghost
+- At will: acid splash, bleed (DC 17), detect magic, detect poison, disrupt undead (DC 17), ghost
   sound, mage hand, ray of frost, read magic
 
 **Statistics**

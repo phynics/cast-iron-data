@@ -105,19 +105,19 @@ abilities = ["25", "11", "20", "20", "19", "22"]
 
 **3rd-level spells:**
 
-- 5/day: clairaudience/clairvoyance, deep slumber, DC 18
+- 5/day: clairaudience/clairvoyance, deep slumber (DC 18)
 
 **2nd-level spells:**
 
-- 7/day: aversion, DC 17, calm emotions, DC 17, mind thrust II
+- 7/day: aversion (DC 17), calm emotions (DC 17), mind thrust II
 
 **1st-level spells:**
 
-- 8/day: blurred movement, color spray, DC 16, shield, sleep, DC 16, true strike
+- 8/day: blurred movement, color spray (DC 16), shield, sleep (DC 16), true strike
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 15, detect magic, ghost sound, DC 15, mage hand, message,
+- At will: dancing lights, daze (DC 15), detect magic, ghost sound (DC 15), mage hand, message,
   resistance
 
 **Statistics**

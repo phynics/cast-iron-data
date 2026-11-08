@@ -93,7 +93,7 @@ _This serene dragon's feathered form emits a comforting warmth._
 
 **7th-level spells:**
 
-- 5/day: holy word, DC 26, waves of ecstasy, DC 28
+- 5/day: holy word (DC 26), waves of ecstasy (DC 28)
 
 **6th-level spells:**
 
@@ -101,11 +101,11 @@ _This serene dragon's feathered form emits a comforting warmth._
 
 **5th-level spells:**
 
-- 8/day: dispel evil, life bubble, DC 24, serenity, DC 26, true seeing
+- 8/day: dispel evil, life bubble (DC 24), serenity (DC 26), true seeing
 
 **4th-level spells:**
 
-- 8/day: dismissal, DC 23, freedom of movement, holy smite, DC 23, ride the waves, DC 23
+- 8/day: dismissal (DC 23), freedom of movement, holy smite (DC 23), ride the waves (DC 23)
 
 **3rd-level spells:**
 
@@ -113,11 +113,11 @@ _This serene dragon's feathered form emits a comforting warmth._
 
 **2nd-level spells:**
 
-- 8/day: bull's strength, calm emotions, DC 23, grace, resist energy, status
+- 8/day: bull's strength, calm emotions (DC 23), grace, resist energy, status
 
 **1st-level spells:**
 
-- 9/day: deathwatch, divine favor, remove fear, sanctuary, DC 20, shield of faith
+- 9/day: deathwatch, divine favor, remove fear, sanctuary (DC 20), shield of faith
 
 **Cantrips:**
 

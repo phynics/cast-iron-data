@@ -86,12 +86,12 @@ nightmare._
 
 **At will:**
 
-- detect thoughts, DC 15
+- detect thoughts (DC 15)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 17, dimension door
-- 1/day: feeblemind, DC 18, lesser geas, DC 17
+- 3/day: bestow curse (DC 17), dimension door
+- 1/day: feeblemind (DC 18), lesser geas (DC 17)
 
 **Statistics**
 

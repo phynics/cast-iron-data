@@ -79,7 +79,7 @@ tentacles sporting razor-edged ridges protrudes from the sides of its mouth._
 
 **Per day:**
 
-- 3/day: hidden presence, DC 13
+- 3/day: hidden presence (DC 13)
 
 **Statistics**
 

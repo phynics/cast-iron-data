@@ -78,11 +78,11 @@ and curling horns on his head._
 
 **At will:**
 
-- ghost sound, DC 13
+- ghost sound (DC 13)
 
 **Per day:**
 
-- 1/day: hideous laughter, DC 15, sleep, DC 14
+- 1/day: hideous laughter (DC 15), sleep (DC 14)
 
 **Statistics**
 

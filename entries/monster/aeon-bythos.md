@@ -91,12 +91,12 @@ in its torso._
 
 **At will:**
 
-- augury, greater teleport, slow, DC 18
+- augury, greater teleport, slow (DC 18)
 
 **Per day:**
 
-- 3/day: dimensional anchor, haste, plane shift, DC 20
-- 1/day: dimensional lock, moment of prescience, temporal stasis, DC 23
+- 3/day: dimensional anchor, haste, plane shift (DC 20)
+- 1/day: dimensional lock, moment of prescience, temporal stasis (DC 23)
 
 **Statistics**
 

@@ -104,18 +104,18 @@ mind-affecting effects, paralysis, petrification, sonic
 
 **Constant:**
 
-- cloak of chaos, DC 30, freedom of movement, tongues, true seeing
+- cloak of chaos (DC 30), freedom of movement, tongues, true seeing
 
 **At will:**
 
 - astral projection, dimensional lock (mythic spell), dream (mythic spell), greater dispel magic,
-  interplanetary teleport, nightmare (mythic spell), plane shift (mythic spell), DC 29, sending
-  (mythic spell), teleport object, DC 29
+  interplanetary teleport, nightmare (mythic spell), plane shift (mythic spell) (DC 29), sending
+  (mythic spell), teleport object (DC 29)
 
 **Per day:**
 
-- 3/day: demand, DC 30, &Q disintegrate (mythic spell), DC 28
-- 1/day: gate, microcosm, DC 31, &S, level 9; 2 ancient ones 100%, time stop (mythic spell), wish
+- 3/day: demand (DC 30), &Q disintegrate (mythic spell) (DC 28)
+- 1/day: gate, microcosm (DC 31), &S, level 9; 2 ancient ones 100%, time stop (mythic spell), wish
   (mythic spell)
 
 ###### M {#footnote-m}

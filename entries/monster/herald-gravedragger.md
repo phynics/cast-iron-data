@@ -106,9 +106,9 @@ upper half is humanoid-shaped and wields an enormous pick made from a giant's ri
 
 **Per day:**
 
-- 3/day: bestow curse, DC 18, greater invisibility, self only, gust of wind, DC 16, ice storm, slay
-  living, DC 19
-- 1/day: animate dead, chain lightning, DC 20, telekinesis, DC 19
+- 3/day: bestow curse (DC 18), greater invisibility, self only, gust of wind (DC 16), ice storm,
+  slay living (DC 19)
+- 1/day: animate dead, chain lightning (DC 20), telekinesis (DC 19)
 
 **Statistics**
 

@@ -111,24 +111,25 @@ abilities = ["37", "9", "28", "20", "22", "23"]
 
 **4th-level spells:**
 
-- 7/day: agonize, DC 19, crushing despair, DC 19, phantasmal killer, DC 19, stoneskin
+- 7/day: agonize (DC 19), crushing despair (DC 19), phantasmal killer (DC 19), stoneskin
 
 **3rd-level spells:**
 
-- 7/day: deep slumber, DC 18, major image, DC 18, vision of Hell, wall of nausea
+- 7/day: deep slumber (DC 18), major image (DC 18), vision of Hell, wall of nausea
 
 **2nd-level spells:**
 
-- 7/day: haunting mists, mind thrust II, mirror image, scare, DC 17, touch of idiocy
+- 7/day: haunting mists, mind thrust II, mirror image, scare (DC 17), touch of idiocy
 
 **1st-level spells:**
 
-- 8/day: command, DC 16, compel hostility, detect thoughts, DC 16, ill omen, unwitting ally, DC 16
+- 8/day: command (DC 16), compel hostility, detect thoughts (DC 16), ill omen, unwitting ally (DC
+  16)
 
 **Cantrips:**
 
-- At will: bleed, DC 15, dancing lights, daze, DC 15, detect magic, detect psychic significance,
-  lullaby, DC 15, resistance, telekinetic projectile
+- At will: bleed (DC 15), dancing lights, daze (DC 15), detect magic, detect psychic significance,
+  lullaby (DC 15), resistance, telekinetic projectile
 
 **Statistics**
 

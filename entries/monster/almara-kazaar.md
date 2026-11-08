@@ -101,15 +101,15 @@ warhammer._
 
 **3rd-level spells:**
 
-- bestow curse, DC 16, blindness/deafness, DC 16, cure serious wounds, dispel magic, wind wall
+- bestow curse (DC 16), blindness/deafness (DC 16), cure serious wounds, dispel magic, wind wall
 
 **2nd-level spells:**
 
-- cure moderate wounds, hold person, DC 15, shatter, DC 15, sound burst, DC 15, spiritual weapon
+- cure moderate wounds, hold person (DC 15), shatter (DC 15), sound burst (DC 15), spiritual weapon
 
 **1st-level spells:**
 
-- bless, command, DC 14, divine favor, doom, DC 14, protection from good, shield of faith
+- bless, command (DC 14), divine favor, doom (DC 14), protection from good, shield of faith
 
 **Cantrips:**
 

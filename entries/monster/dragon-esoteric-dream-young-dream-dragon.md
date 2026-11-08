@@ -99,11 +99,11 @@ _Clouds trail from the edges of this graceful, nearly fanciful creature in hypno
 
 **1st-level spells:**
 
-- 4/day: shield, sleep, DC 15
+- 4/day: shield, sleep (DC 15)
 
 **Cantrips:**
 
-- At will: daze, DC 14, ghost sound, DC 14, light, message
+- At will: daze (DC 14), ghost sound (DC 14), light, message
 
 **Statistics**
 

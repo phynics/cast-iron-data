@@ -95,14 +95,14 @@ _[mind blank](ref/spell/mind-blank)_, mirror garb
 
 **At will:**
 
-- breath of life, greater dispel magic, greater scrying, DC 27, greater teleport, self plus 50 lbs.
+- breath of life, greater dispel magic, greater scrying (DC 27), greater teleport, self plus 50 lbs.
   of objects only, prognostication
 
 **Per day:**
 
-- 3/day: haste, mass cure critical wounds, DC 28
-- 1/day: moment of prescience, plane shift, self plus 50 lbs. of objects only, temporal stasis, DC
-  28, wail of the banshee, DC 29
+- 3/day: haste, mass cure critical wounds (DC 28)
+- 1/day: moment of prescience, plane shift, self plus 50 lbs. of objects only, temporal stasis (DC
+  28), wail of the banshee (DC 29)
 
 **Statistics**
 

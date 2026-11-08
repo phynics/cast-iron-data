@@ -95,30 +95,30 @@ abilities = ["18", "8", "14", "8", "16", "14"]
 
 **5th-level spells:**
 
-- breath of life, righteous might (domain spell), slay living, DC 18
+- breath of life, righteous might (domain spell), slay living (DC 18)
 
 **4th-level spells:**
 
-- confusion, DC 17, divine power, freedom of movement, unholy blight (domain spell), DC 17
+- confusion (DC 17), divine power, freedom of movement, unholy blight (domain spell) (DC 17)
 
 **3rd-level spells:**
 
-- bestow curse, DC 16, blindness/deafness, DC 16, cure serious wounds, magic vestment (domain
-  spell), vision of hell, DC 16, wind wall
+- bestow curse (DC 16), blindness/deafness (DC 16), cure serious wounds, magic vestment (domain
+  spell), vision of hell (DC 16), wind wall
 
 **2nd-level spells:**
 
-- aid, blinding ray, DC 15, bull's strength (domain spell), death knell, DC 15, hold person, DC 15,
-  sound burst, DC 15
+- aid, blinding ray (DC 15), bull's strength (domain spell), death knell (DC 15), hold person (DC
+  15), sound burst (DC 15)
 
 **1st-level spells:**
 
-- cause fear, DC 14, enlarge person, DC 14, entropic shield, forbid action, DC 14, murderous
-  command, DC 14, protection from good (domain spell)
+- cause fear (DC 14), enlarge person (DC 14), entropic shield, forbid action (DC 14), murderous
+  command (DC 14), protection from good (domain spell)
 
 **Cantrips:**
 
-- bleed, DC 13, detect magic, read magic, stabilize
+- bleed (DC 13), detect magic, read magic, stabilize
 
 **Domains**
 

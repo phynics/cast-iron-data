@@ -97,12 +97,12 @@ with ruinous power._
 
 **At will:**
 
-- bestow curse, DC 21, break enchantment, divination, greater dispel magic, sending
+- bestow curse (DC 21), break enchantment, divination, greater dispel magic, sending
 
 **Per day:**
 
-- 3/day: disintegrate, DC 23, greater scrying, DC 24, heal, mass suggestion, DC 23
-- 1/day: greater planar ally, imprisonment, DC 26, meteor swarm, DC 26, true resurrection
+- 3/day: disintegrate (DC 23), greater scrying (DC 24), heal, mass suggestion (DC 23)
+- 1/day: greater planar ally, imprisonment (DC 26), meteor swarm (DC 26), true resurrection
 
 **Statistics**
 

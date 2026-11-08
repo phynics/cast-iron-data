@@ -88,11 +88,11 @@ massive giant._
 
 **At will:**
 
-- daylight, deeper darkness, harm, DC 20, heal
+- daylight, deeper darkness, harm (DC 20), heal
 
 **Per day:**
 
-- 3/day: &Q harm, DC 20, &Q heal
+- 3/day: &Q harm (DC 20), &Q heal
 - 1/day: lunar veil, polar midnight
 
 **Statistics**

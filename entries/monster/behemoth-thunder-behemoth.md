@@ -107,7 +107,7 @@ negative levels, paralysis, permanent wounds, petrification, poison, polymorph
 
 **Per day:**
 
-- 3/day: earthquake, DC 20
+- 3/day: earthquake (DC 20)
 
 **Statistics**
 

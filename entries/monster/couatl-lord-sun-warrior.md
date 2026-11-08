@@ -86,7 +86,7 @@ _This brilliantly colored couatl radiates a palpable air of peace and wisdom._
 
 **At will:**
 
-- alter self, detect thoughts, DC 18, ethereal jaunt, CL 18th, invisibility, plane shift, DC 23
+- alter self, detect thoughts (DC 18), ethereal jaunt, CL 18th, invisibility, plane shift (DC 23)
 
 **Per year:**
 
@@ -100,15 +100,15 @@ _This brilliantly colored couatl radiates a palpable air of peace and wisdom._
 
 **6th-level spells:**
 
-- 4/day: chain lightning, DC 22
+- 4/day: chain lightning (DC 22)
 
 **5th-level spells:**
 
-- 6/day: breath of life, flame strike, DC 21
+- 6/day: breath of life, flame strike (DC 21)
 
 **4th-level spells:**
 
-- 7/day: charm monster, DC 20, freedom of movement, lesser geas
+- 7/day: charm monster (DC 20), freedom of movement, lesser geas
 
 **3rd-level spells:**
 
@@ -116,7 +116,7 @@ _This brilliantly colored couatl radiates a palpable air of peace and wisdom._
 
 **2nd-level spells:**
 
-- 8/day: cure moderate wounds, eagle's splendor, glitterdust, DC 18, scorching ray, silence, DC 18
+- 8/day: cure moderate wounds, eagle's splendor, glitterdust (DC 18), scorching ray, silence (DC 18)
 
 **1st-level spells:**
 

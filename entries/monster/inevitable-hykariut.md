@@ -89,17 +89,17 @@ hammer._
 
 **Constant:**
 
-- detect chaos, shield of law, DC 26, true seeing
+- detect chaos, shield of law (DC 26), true seeing
 
 **At will:**
 
-- enthrall, DC 20, mark of justice, order's wrath, DC 22
+- enthrall (DC 20), mark of justice, order's wrath (DC 22)
 
 **Per day:**
 
-- 3/day: dimension door, dispel chaos, fly, greater command, DC 23, greater dispel magic, plane
-  shift, DC 23
-- 1/day: dictum, DC 25
+- 3/day: dimension door, dispel chaos, fly, greater command (DC 23), greater dispel magic, plane
+  shift (DC 23)
+- 1/day: dictum (DC 25)
 
 **Statistics**
 

@@ -96,36 +96,36 @@ sweep
 
 **7th-level spells:**
 
-- 5/day: blasphemy, DC 25, destruction, DC 25
+- 5/day: blasphemy (DC 25), destruction (DC 25)
 
 **6th-level spells:**
 
-- 7/day: epidemic, DC 24, harm, DC 24, heal
+- 7/day: epidemic (DC 24), harm (DC 24), heal
 
 **5th-level spells:**
 
-- 7/day: cure critical wounds, dispel good, plane shift, DC 23, true seeing
+- 7/day: cure critical wounds, dispel good, plane shift (DC 23), true seeing
 
 **4th-level spells:**
 
-- 8/day: dismissal, DC 22, divine power, freedom of movement, unholy blight, DC 22
+- 8/day: dismissal (DC 22), divine power, freedom of movement, unholy blight (DC 22)
 
 **3rd-level spells:**
 
-- 8/day: contagion, DC 21, cure serious wounds, deeper darkness, dispel magic
+- 8/day: contagion (DC 21), cure serious wounds, deeper darkness, dispel magic
 
 **2nd-level spells:**
 
-- 8/day: death knell, DC 20, desecrate, hold person, DC 20, shatter, DC 20, sound burst, DC 20
+- 8/day: death knell (DC 20), desecrate, hold person (DC 20), shatter (DC 20), sound burst (DC 20)
 
 **1st-level spells:**
 
-- 8/day: bane, DC 19, cure light wounds, murderous command, DC 19, obscuring mist, shield of faith
+- 8/day: bane (DC 19), cure light wounds, murderous command (DC 19), obscuring mist, shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 18, create water, detect magic, detect poison, guidance, read magic,
-  resistance, spark, DC 18, virtue
+- At will: bleed (DC 18), create water, detect magic, detect poison, guidance, read magic,
+  resistance, spark (DC 18), virtue
 
 **Statistics**
 

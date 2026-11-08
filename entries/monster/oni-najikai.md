@@ -92,12 +92,12 @@ _This scaly-skinned humanoid has long venomous fangs, claws, and unblinking rept
 
 **At will:**
 
-- command, DC 14, darkness, invisibility, self only
+- command (DC 14), darkness, invisibility, self only
 
 **Per day:**
 
-- 3/day: charm monster, DC 17
-- 1/day: cloudkill, DC 18
+- 3/day: charm monster (DC 17)
+- 1/day: cloudkill (DC 18)
 
 **Statistics**
 

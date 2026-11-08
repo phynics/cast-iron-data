@@ -85,13 +85,13 @@ and a fang-filled mouth._
 
 **At will:**
 
-- command undead, DC 18, invisibility, ray of enfeeblement, DC 19
+- command undead (DC 18), invisibility, ray of enfeeblement (DC 19)
 
 **Per day:**
 
-- 3/day: charm monster, DC 20, &Q invisibility, &Q ray of enfeeblement, DC 19, ray of exhaustion,
+- 3/day: charm monster (DC 20), &Q invisibility, &Q ray of enfeeblement (DC 19), ray of exhaustion,
   vampiric touch
-- 1/day: mirage arcana, DC 21, veil, self only, waves of fatigue, wind walk
+- 1/day: mirage arcana (DC 21), veil, self only, waves of fatigue, wind walk
 
 **Statistics**
 

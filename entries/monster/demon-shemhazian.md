@@ -97,12 +97,12 @@ tail slap +23 (2d6+6)
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, invisibility, telekinesis, DC 18
+- greater teleport, self plus 50 lbs. of objects only, invisibility, telekinesis (DC 18)
 
 **Per day:**
 
-- 3/day: clairaudience/clairvoyance, mass inflict serious wounds, DC 20, prying eyes
-- 1/day: blasphemy, DC 20, &S level 5; 1 shemhazian 30% or 1d4 vrocks 60%
+- 3/day: clairaudience/clairvoyance, mass inflict serious wounds (DC 20), prying eyes
+- 1/day: blasphemy (DC 20), &S level 5; 1 shemhazian 30% or 1d4 vrocks 60%
 
 **Statistics**
 

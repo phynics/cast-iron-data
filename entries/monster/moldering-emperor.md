@@ -98,12 +98,12 @@ blood, 6d6 cold, Reflex DC 29 half, once every 1d4 rounds
 
 **At will:**
 
-- detect thoughts, DC 18, charm monster, DC 20, clairvoyance/clairaudience, suggestion, DC 19,
-  telekinesis, DC 21, teleport, poison, DC 20
+- detect thoughts (DC 18), charm monster (DC 20), clairvoyance/clairaudience, suggestion (DC 19),
+  telekinesis (DC 21), teleport, poison (DC 20)
 
 **Per day:**
 
-- 3/day: &Q suggestion, DC 19
+- 3/day: &Q suggestion (DC 19)
 
 **Statistics**
 

@@ -89,8 +89,8 @@ jewels._
 
 **Per day:**
 
-- 3/day: lightning bolt, DC 16
-- 1/day: chain lightning, DC 19
+- 3/day: lightning bolt (DC 16)
+- 1/day: chain lightning (DC 19)
 
 **Statistics**
 

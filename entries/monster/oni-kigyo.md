@@ -90,7 +90,7 @@ staring eyes and hideous fangs._
 
 **Per day:**
 
-- 3/day: charm person, DC 13, enthrall, DC 14, hydraulic push
+- 3/day: charm person (DC 13), enthrall (DC 14), hydraulic push
 - 1/day: freedom of movement, self only
 
 **Statistics**

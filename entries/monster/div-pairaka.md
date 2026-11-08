@@ -86,7 +86,7 @@ manner of debased pleasures._
 
 **At will:**
 
-- charm monster, DC 21, dimension door, self plus 50 lbs. of objects only, misdirection, DC 19
+- charm monster (DC 21), dimension door, self plus 50 lbs. of objects only, misdirection (DC 19)
 
 **Per day:**
 

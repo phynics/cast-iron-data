@@ -95,19 +95,20 @@ _Gangrenous wounds mar this dragon's twisted body._
 
 **3rd-level spells:**
 
-- 5/day: bestow curse, DC 18, contagion, DC 18
+- 5/day: bestow curse (DC 18), contagion (DC 18)
 
 **2nd-level spells:**
 
-- 7/day: aid, darkness, disfiguring touch, DC 17
+- 7/day: aid, darkness, disfiguring touch (DC 17)
 
 **1st-level spells:**
 
-- 8/day: doom, DC 16, endure elements, obscuring mist, protection from good, ray of sickening, DC 16
+- 8/day: doom (DC 16), endure elements, obscuring mist, protection from good, ray of sickening (DC
+  16)
 
 **Cantrips:**
 
-- At will: bleed, DC 15, detect magic, detect poison, guidance, light, read magic, spark
+- At will: bleed (DC 15), detect magic, detect poison, guidance, light, read magic, spark
 
 **Statistics**
 

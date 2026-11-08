@@ -86,11 +86,11 @@ or touch +16 (1d4 Wisdom drain)
 
 **At will:**
 
-- charm monster, DC 19, ventriloquism, DC 16
+- charm monster (DC 19), ventriloquism (DC 16)
 
 **Per day:**
 
-- 3/day: deep slumber, DC 18, dream, major image, DC 18, mirror image, suggestion, DC 18
+- 3/day: deep slumber (DC 18), dream, major image (DC 18), mirror image, suggestion (DC 18)
 
 **Spells Known**
 
@@ -104,7 +104,7 @@ or touch +16 (1d4 Wisdom drain)
 
 **2nd-level spells:**
 
-- 6/day: death knell, DC 17, invisibility
+- 6/day: death knell (DC 17), invisibility
 
 **1st-level spells:**
 
@@ -112,7 +112,7 @@ or touch +16 (1d4 Wisdom drain)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 15, detect magic, ghost sound, DC 15, mage hand, mending,
+- At will: dancing lights, daze (DC 15), detect magic, ghost sound (DC 15), mage hand, mending,
   prestidigitation
 
 **Statistics**

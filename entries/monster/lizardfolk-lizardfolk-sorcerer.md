@@ -78,24 +78,24 @@ abilities = ["17", "10", "15", "11", "8", "18"]
 
 **5th-level spells:**
 
-- 4/day: acidic spray, DC 19, [spell resistance](ref/rule/spell-resistance), wall of stone, DC 19
+- 4/day: acidic spray (DC 19), [spell resistance](ref/rule/spell-resistance), wall of stone (DC 19)
 
 **4th-level spells:**
 
-- 7/day: black tentacles, fear, DC 18, remove curse, vitriolic mist
+- 7/day: black tentacles, fear (DC 18), remove curse, vitriolic mist
 
 **3rd-level spells:**
 
-- 7/day: dispel magic, fly, haste, major image, DC 17, wind wall
+- 7/day: dispel magic, fly, haste, major image (DC 17), wind wall
 
 **2nd-level spells:**
 
-- 7/day: acid arrow, create pit, DC 16, [darkvision](ref/rule/darkvision), frigid touch, resist
-  energy, web, DC 16
+- 7/day: acid arrow, create pit (DC 16), [darkvision](ref/rule/darkvision), frigid touch, resist
+  energy, web (DC 16)
 
 **1st-level spells:**
 
-- 7/day: corrosive touch, endure elements, grease, DC 15, mage armor, ray of enfeeblement, DC 15,
+- 7/day: corrosive touch, endure elements, grease (DC 15), mage armor, ray of enfeeblement (DC 15),
   shocking grasp
 
 **Cantrips:**

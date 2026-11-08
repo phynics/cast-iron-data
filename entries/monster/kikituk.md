@@ -84,7 +84,7 @@ scrimshaw patterns._
 
 **At will:**
 
-- dimension door, enervation, DC 18, invisibility
+- dimension door, enervation (DC 18), invisibility
 
 **Per day:**
 

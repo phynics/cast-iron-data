@@ -99,12 +99,13 @@ control, viper rod
 
 **At will:**
 
-- divination, flesh to stone, DC 26, greater shout, DC 28, stone shape
+- divination, flesh to stone (DC 26), greater shout (DC 28), stone shape
 
 **Per day:**
 
-- 3/day: delayed blast fireball, sonic damage; DC 27, &Q flesh to stone, DC 26, sonic thrust, DC 25
-- 1/day: commune, wail of the banshee, DC 29
+- 3/day: delayed blast fireball, sonic damage; DC 27, &Q flesh to stone (DC 26), sonic thrust (DC
+  25)
+- 1/day: commune, wail of the banshee (DC 29)
 
 **Spells Known**
 
@@ -114,15 +115,15 @@ control, viper rod
 
 **9th-level spells:**
 
-- 4/day: clashing rocks, DC 29
+- 4/day: clashing rocks (DC 29)
 
 **8th-level spells:**
 
-- 6/day: greater spell immunity, unholy aura, DC 28
+- 6/day: greater spell immunity, unholy aura (DC 28)
 
 **7th-level spells:**
 
-- 7/day: ethereal jaunt, greater scrying, DC 27, statue
+- 7/day: ethereal jaunt, greater scrying (DC 27), statue
 
 **6th-level spells:**
 
@@ -130,7 +131,7 @@ control, viper rod
 
 **5th-level spells:**
 
-- 8/day: life bubble, plane shift, DC 25, righteous might, slay living, DC 25
+- 8/day: life bubble, plane shift (DC 25), righteous might, slay living (DC 25)
 
 **4th-level spells:**
 
@@ -142,15 +143,15 @@ control, viper rod
 
 **2nd-level spells:**
 
-- 9/day: cure moderate wounds, eagle's splendor, resist energy, sound burst, DC 22, stone call
+- 9/day: cure moderate wounds, eagle's splendor, resist energy, sound burst (DC 22), stone call
 
 **1st-level spells:**
 
-- 9/day: command, DC 21, cure light wounds, endure elements, sanctuary, DC 21, shield of faith
+- 9/day: command (DC 21), cure light wounds, endure elements, sanctuary (DC 21), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 20, create water, detect magic, guidance, light, purify food and drink,
+- At will: bleed (DC 20), create water, detect magic, guidance, light, purify food and drink,
   resistance, stabilize, virtue
 
 **Statistics**

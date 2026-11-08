@@ -86,11 +86,11 @@ _An attractive green-skinned woman sits in the depths of this enormous, sweet-sm
 
 **At will:**
 
-- charm monster, DC 19, detect thoughts, DC 17, suggestion, DC 18
+- charm monster (DC 19), detect thoughts (DC 17), suggestion (DC 18)
 
 **Per day:**
 
-- 3/day: &Q glitterdust, DC 17, hold monster, DC 20
+- 3/day: &Q glitterdust (DC 17), hold monster (DC 20)
 - 1/day: commune with nature, mind fog, wall of thorns
 
 **Statistics**

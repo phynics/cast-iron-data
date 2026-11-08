@@ -80,12 +80,12 @@ elongated trunk for a snout._
 
 **At will:**
 
-- invisibility, lullaby, sleep, DC 18
+- invisibility, lullaby, sleep (DC 18)
 
 **Per day:**
 
-- 3/day: deep slumber, DC 20, dream
-- 1/day: ethereal jaunt, modify memory, DC 21
+- 3/day: deep slumber (DC 20), dream
+- 1/day: ethereal jaunt, modify memory (DC 21)
 
 **Statistics**
 

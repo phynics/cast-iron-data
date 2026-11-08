@@ -86,11 +86,11 @@ weapon glistens with poison._
 
 **At will:**
 
-- darkness, ghost sound, DC 12
+- darkness, ghost sound (DC 12)
 
 **Per day:**
 
-- 1/day: daze, DC 12, sound burst, DC 14
+- 1/day: daze (DC 12), sound burst (DC 14)
 
 **Statistics**
 

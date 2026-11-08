@@ -90,7 +90,7 @@ dirt-stained smock; its pink nose twitches ceaselessly._
 
 **Per day:**
 
-- 3/day: create pit, DC 13
+- 3/day: create pit (DC 13)
 - 1/day: move earth, &S level 4; 1 [silvanshee](ref/monster/agathion-silvanshee) 35%
 
 **Prepared Spells**
@@ -101,7 +101,7 @@ dirt-stained smock; its pink nose twitches ceaselessly._
 
 **2nd-level spells:**
 
-- control vermin, DC 17, soften earth and stone, summon swarm
+- control vermin (DC 17), soften earth and stone, summon swarm
 
 **1st-level spells:**
 
@@ -109,7 +109,7 @@ dirt-stained smock; its pink nose twitches ceaselessly._
 
 **Cantrips:**
 
-- detect poison, know direction, purify food and drink, DC 15, stabilize
+- detect poison, know direction, purify food and drink (DC 15), stabilize
 
 **Statistics**
 

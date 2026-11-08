@@ -104,13 +104,14 @@ poison)
 
 **At will:**
 
-- poison, DC 20, teleport
+- poison (DC 20), teleport
 
 **Per day:**
 
-- 3/day: accelerate poison, DC 18, blindness/deafness, DC 18, blur, dominate person, DC 21, major
-  image, DC 19, mirror image, suggestion, DC 19
-- 1/day: chaos hammer, DC 20, dream, mass suggestion, DC 22, nightmare, DC 21, unholy blight, DC 20
+- 3/day: accelerate poison (DC 18), blindness/deafness (DC 18), blur, dominate person (DC 21), major
+  image (DC 19), mirror image, suggestion (DC 19)
+- 1/day: chaos hammer (DC 20), dream, mass suggestion (DC 22), nightmare (DC 21), unholy blight (DC
+  20)
 
 **Statistics**
 

@@ -83,12 +83,12 @@ fingers on each hand._
 
 **Constant:**
 
-- detect magic, detect thoughts, DC 16, read magic
+- detect magic, detect thoughts (DC 16), read magic
 
 **Per day:**
 
-- 3/day: charm monster, DC 18, daze monster, DC 16, hold monster, DC 19, hypnotic pattern, DC 16,
-  vampiric touch, DC 17
+- 3/day: charm monster (DC 18), daze monster (DC 16), hold monster (DC 19), hypnotic pattern (DC
+  16), vampiric touch (DC 17)
 
 **Per week:**
 

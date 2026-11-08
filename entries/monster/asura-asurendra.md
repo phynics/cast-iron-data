@@ -98,13 +98,13 @@ glowing weaponry._
 
 **At will:**
 
-- death knell, DC 22, greater dispel magic, greater scrying, greater teleport, self plus 50 lbs. of
+- death knell (DC 22), greater dispel magic, greater scrying, greater teleport, self plus 50 lbs. of
   objects only
 
 **Per day:**
 
-- 3/day: &Q baleful polymorph, DC 25, blasphemy, DC 27, &Q death knell, DC 22, deeper darkness,
-  demand, DC 28
+- 3/day: &Q baleful polymorph (DC 25), blasphemy (DC 27), &Q death knell (DC 22), deeper darkness,
+  demand (DC 28)
 - 1/day: power word stun, &S level 9; any 1 CR 19 or lower [asura](ref/family/asura) 100%, time stop
 
 **Statistics**

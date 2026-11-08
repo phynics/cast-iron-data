@@ -99,27 +99,27 @@ abilities = ["18", "9", "16", "10", "20", "14"]
 
 **5th-level spells:**
 
-- dispel good (domain spell), DC 20, insect plague, righteous might, slay living, DC 20
+- dispel good (domain spell) (DC 20), insect plague, righteous might, slay living (DC 20)
 
 **4th-level spells:**
 
 - control water (domain spell), cure critical wounds, divine power, freedom of movement, unholy
-  blight, DC 19
+  blight (DC 19)
 
 **3rd-level spells:**
 
-- bestow curse, DC 18, dispel magic, invisibility purge, magic circle against good (domain spell),
+- bestow curse (DC 18), dispel magic, invisibility purge, magic circle against good (domain spell),
   magic vestment
 
 **2nd-level spells:**
 
-- bear's endurance, death knell, DC 17, enthrall, DC 17, fog cloud (domain spell), resist energy,
-  sound burst, DC 17
+- bear's endurance, death knell (DC 17), enthrall (DC 17), fog cloud (domain spell), resist energy,
+  sound burst (DC 17)
 
 **1st-level spells:**
 
-- bane, DC 16, bless, cure light wounds, divine favor, protection from good (domain spell),
-  sanctuary, DC 16, shield of faith
+- bane (DC 16), bless, cure light wounds, divine favor, protection from good (domain spell),
+  sanctuary (DC 16), shield of faith
 
 **Cantrips:**
 

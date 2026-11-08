@@ -93,15 +93,15 @@ abilities = ["31", "8", "25", "20", "25", "20"]
 
 **3rd-level spells:**
 
-- 5/day: bestow curse, DC 18, dispel magic
+- 5/day: bestow curse (DC 18), dispel magic
 
 **2nd-level spells:**
 
-- 7/day: calm emotions, DC 17, cure moderate wounds, resist energy
+- 7/day: calm emotions (DC 17), cure moderate wounds, resist energy
 
 **1st-level spells:**
 
-- 8/day: command, DC 16, comprehend languages, detect chaos, remove fear, shield of faith
+- 8/day: command (DC 16), comprehend languages, detect chaos, remove fear, shield of faith
 
 **Cantrips:**
 

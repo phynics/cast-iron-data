@@ -88,11 +88,11 @@ _This dark-scaled dragon has massive claws, and foul-smelling acid drips from it
 
 **1st-level spells:**
 
-- 4/day: bane, DC 15, murderous command, DC 15
+- 4/day: bane (DC 15), murderous command (DC 15)
 
 **Cantrips:**
 
-- At will: bleed, DC 14, detect magic, read magic, resistance
+- At will: bleed (DC 14), detect magic, read magic, resistance
 
 **Statistics**
 

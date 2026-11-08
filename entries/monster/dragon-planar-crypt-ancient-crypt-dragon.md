@@ -95,7 +95,7 @@ breath (1d6 negative levels), tail sweep
 
 **7th-level spells:**
 
-- 5/day: destruction, DC 24, repulsion, DC 24
+- 5/day: destruction (DC 24), repulsion (DC 24)
 
 **6th-level spells:**
 
@@ -103,27 +103,27 @@ breath (1d6 negative levels), tail sweep
 
 **5th-level spells:**
 
-- 7/day: break enchantment, slay living, DC 22, true seeing, wall of stone
+- 7/day: break enchantment, slay living (DC 22), true seeing, wall of stone
 
 **4th-level spells:**
 
-- 7/day: cure critical wounds, dismissal, DC 21, divination, spell immunity
+- 7/day: cure critical wounds, dismissal (DC 21), divination, spell immunity
 
 **3rd-level spells:**
 
-- 8/day: glyph of warding, meld into stone, searing light, speak with dead, DC 20
+- 8/day: glyph of warding, meld into stone, searing light, speak with dead (DC 20)
 
 **2nd-level spells:**
 
-- 8/day: augury, cure moderate wounds, gentle repose, resist energy, silence, DC 19
+- 8/day: augury, cure moderate wounds, gentle repose, resist energy, silence (DC 19)
 
 **1st-level spells:**
 
-- 8/day: bless, cure light wounds, hide from undead, sanctuary, DC 18, shield of faith
+- 8/day: bless, cure light wounds, hide from undead, sanctuary (DC 18), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 17, create water, detect magic, guidance, light, mending, read magic,
+- At will: bleed (DC 17), create water, detect magic, guidance, light, mending, read magic,
   resistance, stabilize
 
 **Statistics**

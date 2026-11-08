@@ -90,7 +90,7 @@ its chest and neck._
 
 **At will:**
 
-- animal trance, DC 13, liberating command, message, remove paralysis
+- animal trance (DC 13), liberating command, message, remove paralysis
 
 **Per day:**
 

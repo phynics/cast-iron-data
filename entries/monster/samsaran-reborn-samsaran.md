@@ -81,7 +81,7 @@ _The pale-blue skin of this dark-haired humanoid seems to subtly change hue from
 
 **Cantrips:**
 
-- At will: ghost sound, DC 13, telekinetic projectile
+- At will: ghost sound (DC 13), telekinetic projectile
 
 **Implements**
 

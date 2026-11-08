@@ -93,16 +93,16 @@ intelligence._
 
 **Constant:**
 
-- cloak of winds, DC 18
+- cloak of winds (DC 18)
 
 **At will:**
 
-- fog cloud, gust of wind, DC 17, invisibility, self only, whispering wind
+- fog cloud, gust of wind (DC 17), invisibility, self only, whispering wind
 
 **Per day:**
 
 - 3/day: control weather, plant growth, sleet storm
-- 1/day: chain lightning, DC 21
+- 1/day: chain lightning (DC 21)
 
 **Statistics**
 

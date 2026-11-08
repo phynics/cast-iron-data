@@ -75,7 +75,7 @@ grass and moss grow from its skin instead._
 
 **Per day:**
 
-- 3/day: charm person, DC 13
+- 3/day: charm person (DC 13)
 
 **Statistics**
 

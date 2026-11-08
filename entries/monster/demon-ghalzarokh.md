@@ -96,12 +96,12 @@ sprout from its back._
 
 **At will:**
 
-- charm monster, DC 20, greater command, DC 21
+- charm monster (DC 20), greater command (DC 21)
 
 **Per day:**
 
-- 3/day: dominate person, DC 21, &Q fireball, DC 19, rage, DC 19, song of discord, DC 21
-- 1/day: demand, DC 24, mass suggestion, DC 22, &S level 6; 1 succubus 35%
+- 3/day: dominate person (DC 21), &Q fireball (DC 19), rage (DC 19), song of discord (DC 21)
+- 1/day: demand (DC 24), mass suggestion (DC 22), &S level 6; 1 succubus 35%
 
 **Statistics**
 

@@ -93,8 +93,8 @@ neck._
 
 **Per day:**
 
-- 1/day: dancing lights, deeper darkness, detect thoughts, DC 14, disguise self, dispel magic,
-  entangle, DC 13, shield
+- 1/day: dancing lights, deeper darkness, detect thoughts (DC 14), disguise self, dispel magic,
+  entangle (DC 13), shield
 
 **Statistics**
 

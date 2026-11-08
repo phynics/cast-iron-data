@@ -86,8 +86,8 @@ cold) or 2 slams +14 (1d4+5 plus 1d6 cold)
 
 **Per day:**
 
-- 3/day: cure serious wounds, suggestion, DC 18
-- 1/day: cone of cold, DC 20, dispel magic
+- 3/day: cure serious wounds, suggestion (DC 18)
+- 1/day: cone of cold (DC 20), dispel magic
 
 **Statistics**
 

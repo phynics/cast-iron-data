@@ -93,7 +93,7 @@ stretches across the creature's chest._
 
 **Per day:**
 
-- 1/day: cloudkill, DC 18
+- 1/day: cloudkill (DC 18)
 
 **Statistics**
 

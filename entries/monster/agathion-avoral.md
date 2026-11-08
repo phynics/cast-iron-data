@@ -88,12 +88,12 @@ end of his wings._
 
 **At will:**
 
-- aid, blur, self only, command, DC 14, detect magic, dimension door, dispel magic, gust of wind, DC
-  15, hold person, DC 16, light, magic circle against evil, self only
+- aid, blur, self only, command (DC 14), detect magic, dimension door, dispel magic, gust of wind
+  (DC 15), hold person (DC 16), light, magic circle against evil, self only
 
 **Per day:**
 
-- 3/day: lightning bolt, DC 16, &EM magic missile
+- 3/day: lightning bolt (DC 16), &EM magic missile
 
 **Statistics**
 

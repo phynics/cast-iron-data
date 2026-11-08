@@ -84,7 +84,7 @@ of an elven woman._
 
 **Per day:**
 
-- 3/day: disguise self, entangle, DC 13, invisibility, self only, pyrotechnics, DC 14
+- 3/day: disguise self, entangle (DC 13), invisibility, self only, pyrotechnics (DC 14)
 
 **Statistics**
 

@@ -88,12 +88,12 @@ skin._
 
 **At will:**
 
-- daylight, plant growth, enrichment only, touch of fatigue, DC 14
+- daylight, plant growth, enrichment only, touch of fatigue (DC 14)
 
 **Per day:**
 
-- 3/day: blur, dimension door, rainbow pattern, DC 18, searing light
-- 1/day: sunbeam, DC 21, waves of fatigue
+- 3/day: blur, dimension door, rainbow pattern (DC 18), searing light
+- 1/day: sunbeam (DC 21), waves of fatigue
 
 **Statistics**
 

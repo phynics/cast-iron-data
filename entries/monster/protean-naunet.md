@@ -100,11 +100,11 @@ plus confusion)
 
 **At will:**
 
-- acid arrow, fog cloud, dimension door, self plus 50 lbs. of objects only, shatter, DC 14
+- acid arrow, fog cloud, dimension door, self plus 50 lbs. of objects only, shatter (DC 14)
 
 **Per day:**
 
-- 1/day: chaos hammer, DC 16
+- 1/day: chaos hammer (DC 16)
 
 **Statistics**
 

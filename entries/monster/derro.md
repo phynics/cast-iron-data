@@ -81,11 +81,11 @@ club._
 
 **At will:**
 
-- darkness, ghost sound, DC 13
+- darkness, ghost sound (DC 13)
 
 **Per day:**
 
-- 1/day: daze, DC 13, sound burst, DC 15
+- 1/day: daze (DC 13), sound burst (DC 15)
 
 **Statistics**
 

@@ -78,12 +78,12 @@ from her brow like a thunderhead._
 
 **At will:**
 
-- bleed, gust of wind, DC 15, whispering wind
+- bleed, gust of wind (DC 15), whispering wind
 
 **Per day:**
 
-- 3/day: invisibility, lightning bolt, DC 16, river of wind, DC 17, sleet storm
-- 1/day: control winds, DC 18
+- 3/day: invisibility, lightning bolt (DC 16), river of wind (DC 17), sleet storm
+- 1/day: control winds (DC 18)
 
 **Statistics**
 

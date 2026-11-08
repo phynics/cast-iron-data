@@ -85,7 +85,7 @@ drizzle a cascade of shimmering dust._
 
 **At will:**
 
-- death knell, DC 14, dimension door, self plus 50 lbs. of objects only, glitterdust, DC 14,
+- death knell (DC 14), dimension door, self plus 50 lbs. of objects only, glitterdust (DC 14),
   scorching ray
 
 **Per day:**

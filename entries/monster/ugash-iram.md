@@ -86,12 +86,12 @@ terrifying malignance, and the thing has a fanged maw where its beak should be._
 
 **At will:**
 
-- disfiguring touch, DC 17
+- disfiguring touch (DC 17)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 18, freedom of movement, protection from energy
-- 1/day: dominate monster, DC 24, rage
+- 3/day: bestow curse (DC 18), freedom of movement, protection from energy
+- 1/day: dominate monster (DC 24), rage
 
 **Statistics**
 

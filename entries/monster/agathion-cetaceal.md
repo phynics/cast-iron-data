@@ -98,13 +98,13 @@ sleek killer whale._
 
 **At will:**
 
-- detect thoughts, DC 15, light, lightning bolt, DC 16, hold monster, DC 18, message, greater
+- detect thoughts (DC 15), light, lightning bolt (DC 16), hold monster (DC 18), message, greater
   teleport, self plus 50 lbs. of objects only
 
 **Per day:**
 
 - 7/day: break enchantment, cure serious wounds, neutralize poison, remove disease
-- 3/day: cone of cold, DC 18, cure critical wounds, greater restoration, heal
+- 3/day: cone of cold (DC 18), cure critical wounds, greater restoration, heal
 - 1/day: awaken, , [water elementals](ref/monster/water-elemental) only
 
 **Statistics**

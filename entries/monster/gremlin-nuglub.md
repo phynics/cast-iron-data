@@ -79,7 +79,7 @@ back, covering it like a cloak._
 
 **Per hour:**
 
-- heat metal, DC 13, shocking grasp, snare
+- heat metal (DC 13), shocking grasp, snare
 
 **Statistics**
 

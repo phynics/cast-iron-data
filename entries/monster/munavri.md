@@ -93,11 +93,11 @@ _Jade armor covers this lean albino humanoid, and her pale eyes have an eerie gl
 
 **1st-level spells:**
 
-- 2/day: demand offering, DC 14, thought echo
+- 2/day: demand offering (DC 14), thought echo
 
 **Cantrips:**
 
-- At will: detect magic, mage hand, prestidigitation, DC 13, unwitting ally, DC 13
+- At will: detect magic, mage hand, prestidigitation (DC 13), unwitting ally (DC 13)
 
 **Statistics**
 

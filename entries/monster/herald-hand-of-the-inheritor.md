@@ -93,14 +93,14 @@ bull rush)
 
 **At will:**
 
-- aid, detect evil, dispel magic, lesser restoration, magic weapon, plane shift, DC 23, remove fear
+- aid, detect evil, dispel magic, lesser restoration, magic weapon, plane shift (DC 23), remove fear
 
 **Per day:**
 
-- 3/day: bull's strength, burst of glory, cure moderate wounds, flame strike, DC 21, holy smite, DC
-  20, mark of justice, DC 21, order's wrath, DC 20, power word stun, prayer, raise dead, resist
+- 3/day: bull's strength, burst of glory, cure moderate wounds, flame strike (DC 21), holy smite (DC
+  20), mark of justice (DC 21), order's wrath (DC 20), power word stun, prayer, raise dead, resist
   energy, see invisibility
-- 1/day: blade barrier, DC 22, death ward, dispel evil, DC 21, greater magic weapon, greater
+- 1/day: blade barrier (DC 22), death ward, dispel evil (DC 21), greater magic weapon, greater
   restoration, heal
 
 **Statistics**

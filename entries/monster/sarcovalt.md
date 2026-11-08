@@ -103,8 +103,8 @@ vulture skull._
 
 **Per day:**
 
-- 3/day: death knell, DC 10, lesser animate dead, vomit swarm, see below
-- 1/day: acid arrow, contagion, DC 11, stinking cloud, DC 10
+- 3/day: death knell (DC 10), lesser animate dead, vomit swarm, see below
+- 1/day: acid arrow, contagion (DC 11), stinking cloud (DC 10)
 
 **Statistics**
 

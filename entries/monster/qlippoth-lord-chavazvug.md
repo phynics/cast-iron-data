@@ -103,18 +103,18 @@ searing flesh
 
 **Constant:**
 
-- cloak of chaos, DC 24, detect good, detect law, fly, freedom of movement, true seeing
+- cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing
 
 **At will:**
 
-- contagious flame, desecrate (mythic spell), fireball (mythic spell), DC 19, greater dispel magic,
+- contagious flame, desecrate (mythic spell), fireball (mythic spell) (DC 19), greater dispel magic,
   greater teleport, wall of fire (mythic spell)
 
 **Per day:**
 
-- 3/day: &Q contagious flame, delayed blast fireball, DC 23, harm (mythic spell), DC 22,
+- 3/day: &Q contagious flame, delayed blast fireball (DC 23), harm (mythic spell) (DC 22),
   resurrection, see tainted resurrection, wall of lava
-- 1/day: meteor swarm (mythic spell), DC 25, summon qlippoth
+- 1/day: meteor swarm (mythic spell) (DC 25), summon qlippoth
 
 ###### M {#footnote-m}
 

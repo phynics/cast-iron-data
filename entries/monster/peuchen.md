@@ -89,7 +89,7 @@ _This enormous snake has glowing green eyes, large fangs, and wide, membranous w
 
 **Per day:**
 
-- 3/day: hold person, DC 18
+- 3/day: hold person (DC 18)
 
 **Statistics**
 

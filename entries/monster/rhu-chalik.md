@@ -84,11 +84,11 @@ bulging, lidless eye._
 
 **At will:**
 
-- detect thoughts, DC 14, invisibility, share memory, DC 14
+- detect thoughts (DC 14), invisibility, share memory (DC 14)
 
 **Per day:**
 
-- 1/day: modify memory, DC 16
+- 1/day: modify memory (DC 16)
 
 **Statistics**
 

@@ -90,8 +90,8 @@ tears. Frost crusts its flesh._
 
 **Per day:**
 
-- 3/day: overwhelming grief, DC 15, teleport, self plus 50 lbs. of objects only
-- 1/day: hold person, DC 14, invisibility, snare, &S level 3; 1 lacridaemon 50%
+- 3/day: overwhelming grief (DC 15), teleport, self plus 50 lbs. of objects only
+- 1/day: hold person (DC 14), invisibility, snare, &S level 3; 1 lacridaemon 50%
 
 **Statistics**
 

@@ -112,20 +112,21 @@ her clothing and staff._
 
 **3rd-level spells:**
 
-- 5/day: blood biography, DC 16, dimensional anchor, dispel magic, halt undead, DC 16
+- 5/day: blood biography (DC 16), dimensional anchor, dispel magic, halt undead (DC 16)
 
 **2nd-level spells:**
 
-- 6/day: confess, DC 15, detect thoughts, DC 15, hold person, DC 15, invisibility, see invisibility
+- 6/day: confess (DC 15), detect thoughts (DC 15), hold person (DC 15), invisibility, see
+  invisibility
 
 **1st-level spells:**
 
-- 6/day: bane, DC 14, command, DC 14, comprehend languages, expeditious retreat, sanctuary, DC 14,
-  wrath
+- 6/day: bane (DC 14), command (DC 14), comprehend languages, expeditious retreat, sanctuary (DC
+  14), wrath
 
 **Cantrips:**
 
-- At will: bleed, DC 13, detect magic, disrupt undead, read magic, sift, stabilize
+- At will: bleed (DC 13), detect magic, disrupt undead, read magic, sift, stabilize
 
 **Statistics**
 

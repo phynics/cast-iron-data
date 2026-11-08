@@ -91,7 +91,7 @@ fury
 
 - 5/day: control water, gaseous form, obscuring mist, water breathing
 - 3/day: see invisibility
-- 1/day: persistent image, DC 18
+- 1/day: persistent image (DC 18)
 
 **Per year:**
 

@@ -93,21 +93,21 @@ wings._
 
 **Constant:**
 
-- detect evil, detect snares and pits, discern lies, DC 21, true seeing
+- detect evil, detect snares and pits, discern lies (DC 21), true seeing
 
 **At will:**
 
 - aid, animate objects, commune, continual flame, dimensional anchor, greater dispel magic, holy
-  smite, DC 21, imprisonment, DC 26, invisibility, self only, lesser restoration, remove curse,
-  remove disease, remove fear, resist energy, summon monster VII, speak with dead, DC 20, waves of
+  smite (DC 21), imprisonment (DC 26), invisibility, self only, lesser restoration, remove curse,
+  remove disease, remove fear, resist energy, summon monster VII, speak with dead (DC 20), waves of
   fatigue
 
 **Per day:**
 
-- 3/day: blade barrier, DC 23, earthquake, DC 25, heal, mass charm monster, DC 25, permanency,
+- 3/day: blade barrier (DC 23), earthquake (DC 25), heal, mass charm monster (DC 25), permanency,
   resurrection, waves of exhaustion
-- 1/day: greater restoration, power word blind, power word kill, power word stun, prismatic spray,
-  DC 24, wish
+- 1/day: greater restoration, power word blind, power word kill, power word stun, prismatic spray
+  (DC 24), wish
 
 **Prepared Spells**
 
@@ -115,29 +115,29 @@ wings._
 
 **9th-level spells:**
 
-- etherealness, mass heal, miracle, storm of vengeance, DC 27
+- etherealness, mass heal, miracle, storm of vengeance (DC 27)
 
 **8th-level spells:**
 
-- fire storm, DC 26, holy aura, 2 (DC 26), mass cure critical wounds, 2
+- fire storm (DC 26), holy aura, 2 (DC 26), mass cure critical wounds, 2
 
 **7th-level spells:**
 
-- destruction, DC 25, dictum, DC 25, ethereal jaunt, holy word, DC 25, regenerate
+- destruction (DC 25), dictum (DC 25), ethereal jaunt, holy word (DC 25), regenerate
 
 **6th-level spells:**
 
-- banishment, DC 24, heroes' feast, mass cure moderate wounds, undeath to death, DC 24, word of
+- banishment (DC 24), heroes' feast, mass cure moderate wounds, undeath to death (DC 24), word of
   recall
 
 **5th-level spells:**
 
-- break enchantment, breath of life, dispel evil, DC 23, plane shift, DC 23, righteous might, symbol
-  of sleep, DC 23
+- break enchantment, breath of life, dispel evil (DC 23), plane shift (DC 23), righteous might,
+  symbol of sleep (DC 23)
 
 **4th-level spells:**
 
-- cure critical wounds, 3, death ward, dismissal, DC 22, neutralize poison, 2 (DC 22)
+- cure critical wounds, 3, death ward, dismissal (DC 22), neutralize poison, 2 (DC 22)
 
 **3rd-level spells:**
 

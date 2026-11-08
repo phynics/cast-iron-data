@@ -86,7 +86,7 @@ vulture._
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, telekinesis, DC 18
+- greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 18)
 
 **Per day:**
 

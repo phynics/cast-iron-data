@@ -94,31 +94,31 @@ tail sweep
 
 **7th-level spells:**
 
-- 5/day: dictum, DC 24, repulsion, DC 24
+- 5/day: dictum (DC 24), repulsion (DC 24)
 
 **6th-level spells:**
 
-- 7/day: geas/quest, heal, symbol of fear, DC 23
+- 7/day: geas/quest, heal, symbol of fear (DC 23)
 
 **5th-level spells:**
 
-- 7/day: dispel chaos, mark of justice, symbol of pain, DC 22, true seeing
+- 7/day: dispel chaos, mark of justice, symbol of pain (DC 22), true seeing
 
 **4th-level spells:**
 
-- 7/day: dimensional anchor, dismissal, DC 21, order's wrath, DC 21, sending
+- 7/day: dimensional anchor, dismissal (DC 21), order's wrath (DC 21), sending
 
 **3rd-level spells:**
 
-- 8/day: bestow curse, DC 20, dispel magic, glyph of warding, DC 20, stone shape
+- 8/day: bestow curse (DC 20), dispel magic, glyph of warding (DC 20), stone shape
 
 **2nd-level spells:**
 
-- 8/day: calm emotions, DC 19, cure moderate wounds, make whole, resist energy, silence, DC 19
+- 8/day: calm emotions (DC 19), cure moderate wounds, make whole, resist energy, silence (DC 19)
 
 **1st-level spells:**
 
-- 8/day: command, DC 18, comprehend languages, detect chaos, remove fear, shield of faith
+- 8/day: command (DC 18), comprehend languages, detect chaos, remove fear, shield of faith
 
 **Cantrips:**
 

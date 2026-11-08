@@ -96,14 +96,14 @@ liquid shadow._
 
 **At will:**
 
-- deeper darkness, detect thoughts, DC 17, dust of twilight, DC 17, ray of enfeeblement, DC 16,
-  shadow step, silence, DC 17
+- deeper darkness, detect thoughts (DC 17), dust of twilight (DC 17), ray of enfeeblement (DC 16),
+  shadow step, silence (DC 17)
 
 **Per day:**
 
-- 3/day: dominate person, DC 20, plane shift, to or from the Shadow Plane only; DC 20, &Q shadow
-  step, shadow evocation, DC 20
-- 1/day: greater shadow conjuration, DC 22, shadow walk, DC 20
+- 3/day: dominate person (DC 20), plane shift, to or from the Shadow Plane only; DC 20, &Q shadow
+  step, shadow evocation (DC 20)
+- 1/day: greater shadow conjuration (DC 22), shadow walk (DC 20)
 
 **Statistics**
 

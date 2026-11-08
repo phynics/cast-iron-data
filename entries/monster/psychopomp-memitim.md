@@ -91,12 +91,12 @@ black-winged woman._
 **At will:**
 
 - dimensional anchor, dispel magic, gaseous form, greater teleport, self plus 50 lbs. of objects
-  only, invisibility, self only, plane shift, self only, speak with dead, status, veil, DC 21
+  only, invisibility, self only, plane shift, self only, speak with dead, status, veil (DC 21)
 
 **Per day:**
 
-- 3/day: &Q dispel magic, finger of death, DC 22, forbiddance, undeath to death, DC 21
-- 1/day: energy drain, DC 24
+- 3/day: &Q dispel magic, finger of death (DC 22), forbiddance, undeath to death (DC 21)
+- 1/day: energy drain (DC 24)
 
 **Statistics**
 

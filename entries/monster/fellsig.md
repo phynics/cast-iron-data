@@ -90,7 +90,7 @@ stone body glow with a fiery inner heat._
 **Per day:**
 
 - 5/day: pyrotechnics
-- 3/day: burning hands, DC 12
+- 3/day: burning hands (DC 12)
 
 **Statistics**
 

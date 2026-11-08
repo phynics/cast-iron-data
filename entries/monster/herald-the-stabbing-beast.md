@@ -98,12 +98,13 @@ sting +24 (1d6+4 plus bleed and poison)
 
 **At will:**
 
-- absorbing touch, alchemical allocation, charm person, DC 13, keen edge, poison, DC 16, true strike
+- absorbing touch, alchemical allocation, charm person (DC 13), keen edge, poison (DC 16), true
+  strike
 
 **Per day:**
 
-- 3/day: false alibi, DC 15, greater teleport, self plus 50 lbs. of objects only, invisibility,
-  modify memory, DC 16, suggestion, DC 15, &S, level 6; 1 fiendish deadfall scorpion 100%
+- 3/day: false alibi (DC 15), greater teleport, self plus 50 lbs. of objects only, invisibility,
+  modify memory (DC 16), suggestion (DC 15), &S, level 6; 1 fiendish deadfall scorpion 100%
 
 **Statistics**
 

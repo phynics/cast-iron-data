@@ -109,11 +109,11 @@ demonic face._
 
 **1st-level spells:**
 
-- 7/day: grease, ray of enfeeblement, DC 14, true strike, vanish, DC 14
+- 7/day: grease, ray of enfeeblement (DC 14), true strike, vanish (DC 14)
 
 **Cantrips:**
 
-- At will: acid splash, arcane mark, daze, DC 13, message, open/close, DC 13, read magic
+- At will: acid splash, arcane mark, daze (DC 13), message, open/close (DC 13), read magic
 
 **Bloodline**
 

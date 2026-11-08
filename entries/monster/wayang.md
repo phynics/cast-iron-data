@@ -78,7 +78,7 @@ _Spiralling patterns cover this shadowy humanoid's skin, and its black hair trai
 
 **Per day:**
 
-- 1/day: ghost sound, DC 11, pass without trace, ventriloquism, DC 12
+- 1/day: ghost sound (DC 11), pass without trace, ventriloquism (DC 12)
 
 **Spell-Like Abilities**
 
@@ -98,11 +98,11 @@ _Spiralling patterns cover this shadowy humanoid's skin, and its black hair trai
 
 **1st-level spells:**
 
-- hypnotism, DC 14, silent image, DC 14, vanish
+- hypnotism (DC 14), silent image (DC 14), vanish
 
 **Cantrips:**
 
-- detect magic, ghost sound, DC 13, read magic
+- detect magic, ghost sound (DC 13), read magic
 
 **Opposition Schools**
 

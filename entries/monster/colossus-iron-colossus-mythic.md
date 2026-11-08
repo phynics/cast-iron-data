@@ -93,8 +93,8 @@ _A siege engineer's nightmare, this giant machine emits noxious fumes from its g
 
 **Per day:**
 
-- 3/day: wall of fire, DC 16
-- 1/day: delayed blast fireball, DC 19
+- 3/day: wall of fire (DC 16)
+- 1/day: delayed blast fireball (DC 19)
 
 **Statistics**
 

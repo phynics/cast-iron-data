@@ -93,11 +93,12 @@ by an eerie red glow._
 
 **At will:**
 
-- call spirit, only creatures slain by the saxra, DC 21, desecrate, enervation, gust of wind, DC 20
+- call spirit (only creatures slain by the saxra, DC 21), desecrate, enervation, gust of wind (DC
+  20)
 
 **Per day:**
 
-- 3/day: finger of death, DC 25, horrid wilting, DC 26, telekinesis, DC 23, unholy blight, DC 22
+- 3/day: finger of death (DC 25), horrid wilting (DC 26), telekinesis (DC 23), unholy blight (DC 22)
 - 1/day: legend lore
 
 **Statistics**

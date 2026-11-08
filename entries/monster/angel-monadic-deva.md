@@ -86,14 +86,14 @@ mace._
 
 **At will:**
 
-- aid, charm monster, DC 18, elementals only, discern lies, DC 18, dispel evil, DC 19, dispel magic,
-  holy smite, DC 18, invisibility, self only, plane shift, DC 19, remove curse, remove disease,
-  remove fear
+- aid, charm monster (DC 18), elementals only, discern lies (DC 18), dispel evil (DC 19), dispel
+  magic, holy smite (DC 18), invisibility, self only, plane shift (DC 19), remove curse, remove
+  disease, remove fear
 
 **Per day:**
 
-- 3/day: cure serious wounds, holy word, DC 21, mirror image
-- 1/day: heal, hold monster, DC 19, holy aura, DC 22
+- 3/day: cure serious wounds, holy word (DC 21), mirror image
+- 1/day: heal, hold monster (DC 19), holy aura (DC 22)
 
 **Statistics**
 

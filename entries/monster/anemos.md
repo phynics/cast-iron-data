@@ -107,7 +107,7 @@ pushing infusion, thundering infusion), manifest thunderbolt, wind orchestra
 
 **Per day:**
 
-- 1/day: storm of vengeance, DC 29, summon monster IX, 1d3 elder air elementals only
+- 1/day: storm of vengeance (DC 29), summon monster IX, 1d3 elder air elementals only
 
 **Statistics**
 

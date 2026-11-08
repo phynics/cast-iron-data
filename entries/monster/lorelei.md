@@ -85,11 +85,11 @@ sprouting from its scalp._
 
 **At will:**
 
-- ghost sound, DC 15, speak with dead, DC 18, ventriloquism, DC 16, whispering wind
+- ghost sound (DC 15), speak with dead (DC 18), ventriloquism (DC 16), whispering wind
 
 **Per day:**
 
-- 3/day: command undead, DC 17, control water, fog cloud
+- 3/day: command undead (DC 17), control water, fog cloud
 
 **Statistics**
 

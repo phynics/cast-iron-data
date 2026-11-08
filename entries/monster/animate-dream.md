@@ -76,8 +76,8 @@ _This indistinct figure suddenly takes on a nightmarish shape, not quite human o
 
 **Per day:**
 
-- 3/day: deep slumber, DC 18, dimension door, nightmare, DC 20
-- 1/day: confusion, DC 19, fear, DC 19, phantasmal killer, DC 19
+- 3/day: deep slumber (DC 18), dimension door, nightmare (DC 20)
+- 1/day: confusion (DC 19), fear (DC 19), phantasmal killer (DC 19)
 
 **Statistics**
 

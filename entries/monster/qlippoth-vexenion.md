@@ -98,7 +98,7 @@ amorphous form, its body pulsating with a horrid vitality._
 **Per day:**
 
 - 3/day: acid arrow
-- 1/day: slow, DC 16
+- 1/day: slow (DC 16)
 
 **Statistics**
 

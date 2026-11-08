@@ -97,7 +97,7 @@ energy, poison
 
 **Per day:**
 
-- 3/day: destruction, DC 26, energy drain, greater scrying, DC 26, soul bind, DC 28
+- 3/day: destruction (DC 26), energy drain, greater scrying (DC 26), soul bind (DC 28)
 
 **Statistics**
 

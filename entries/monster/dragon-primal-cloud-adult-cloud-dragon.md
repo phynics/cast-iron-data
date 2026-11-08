@@ -104,7 +104,7 @@ abilities = ["24", "9", "21", "16", "20", "19"]
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 15, detect secret doors, shield, true strike
+- 7/day: charm person (DC 15), detect secret doors, shield, true strike
 
 **Cantrips:**
 

@@ -81,11 +81,11 @@ in fearsome armor._
 
 **At will:**
 
-- death knell, DC 16, protection from good, speak with dead, DC 17
+- death knell (DC 16), protection from good, speak with dead (DC 17)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 17
+- 3/day: bestow curse (DC 17)
 
 **Statistics**
 

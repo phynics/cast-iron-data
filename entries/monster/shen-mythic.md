@@ -110,40 +110,41 @@ madness, tail sweep (DC 34, 2d6+22), wild arcana
 
 **8th-level spells:**
 
-- 4/day: maze, greater shadow evocation, DC 28
+- 4/day: maze, greater shadow evocation (DC 28)
 
 **7th-level spells:**
 
-- 6/day: control weather (mythic spell), greater shadow conjuration, DC 27, prismatic spray (mythic
-  spell), DC 23
+- 6/day: control weather (mythic spell), greater shadow conjuration (DC 27), prismatic spray (mythic
+  spell) (DC 23)
 
 **6th-level spells:**
 
-- 7/day: globe of invulnerability (mythic spell), greater dispel magic, mass suggestion, DC 22,
-  programmed image, DC 26
+- 7/day: globe of invulnerability (mythic spell), greater dispel magic, mass suggestion (DC 22),
+  programmed image (DC 26)
 
 **5th-level spells:**
 
-- 7/day: dominate person, DC 21, persistent image, DC 25, shadow evocation, DC 25, telekinesis
-  (mythic spell), DC 21
+- 7/day: dominate person (DC 21), persistent image (DC 25), shadow evocation (DC 25), telekinesis
+  (mythic spell) (DC 21)
 
 **4th-level spells:**
 
-- 7/day: dimension door (mythic spell), greater invisibility, rainbow pattern, DC 24, shadow
-  conjuration, DC 24
+- 7/day: dimension door (mythic spell), greater invisibility, rainbow pattern (DC 24), shadow
+  conjuration (DC 24)
 
 **3rd-level spells:**
 
-- 7/day: deep slumber (mythic spell), DC 19, dispel magic, haste (mythic spell), major image, DC 23
+- 7/day: deep slumber (mythic spell) (DC 19), dispel magic, haste (mythic spell), major image (DC
+  23)
 
 **2nd-level spells:**
 
-- 8/day: euphoric cloud, DC 18, hypnotic pattern, DC 22, minor image (mythic spell), DC 22, mirror
-  image, invisibility (mythic spell)
+- 8/day: euphoric cloud (DC 18), hypnotic pattern (DC 22), minor image (mythic spell) (DC 22),
+  mirror image, invisibility (mythic spell)
 
 **1st-level spells:**
 
-- 8/day: comprehend languages, obscuring mist, silent image, DC 21, unseen servant, vanish
+- 8/day: comprehend languages, obscuring mist, silent image (DC 21), unseen servant, vanish
 
 ###### M {#footnote-m}
 

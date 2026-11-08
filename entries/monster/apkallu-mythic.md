@@ -105,11 +105,11 @@ crafted from opalescent scales._
 **At will:**
 
 - control water, greater teleport, self plus 50 lbs. of objects only, major creation, order's wrath
-  (mythic spell), DC 23, plane shift, DC 24
+  (mythic spell) (DC 23), plane shift (DC 24)
 
 **Per day:**
 
-- 3/day: &Q order's wrath (mythic spell), DC 23
+- 3/day: &Q order's wrath (mythic spell) (DC 23)
 - 1/day: commune
 
 **Psychic Magic**
@@ -135,15 +135,15 @@ crafted from opalescent scales._
 
 **9th-level spells:**
 
-- 5/day: miracle, overwhelming presence, DC 28
+- 5/day: miracle, overwhelming presence (DC 28)
 
 **8th-level spells:**
 
-- 7/day: dimensional lock (mythic spell), mass cure critical wounds, DC 27, shield of law
+- 7/day: dimensional lock (mythic spell), mass cure critical wounds (DC 27), shield of law
 
 **7th-level spells:**
 
-- 7/day: destruction, DC 26, dictum (mythic spell), repulsion, DC 26
+- 7/day: destruction (DC 26), dictum (mythic spell), repulsion (DC 26)
 
 **6th-level spells:**
 
@@ -151,8 +151,8 @@ crafted from opalescent scales._
 
 **5th-level spells:**
 
-- 8/day: greater command, DC 24, greater forbid action, DC 24, mass cure light wounds, DC 24, wall
-  of stone
+- 8/day: greater command (DC 24), greater forbid action (DC 24), mass cure light wounds (DC 24),
+  wall of stone
 
 **4th-level spells:**
 
@@ -160,17 +160,17 @@ crafted from opalescent scales._
 
 **3rd-level spells:**
 
-- 8/day: create food and water, invisibility purge, speak with dead, DC 22, wind wall
+- 8/day: create food and water, invisibility purge, speak with dead (DC 22), wind wall
 
 **2nd-level spells:**
 
-- 8/day: calm emotions, DC 21, hold person, DC 21, silence, DC 21, sound burst, DC 21, zone of
-  truth, DC 21
+- 8/day: calm emotions (DC 21), hold person (DC 21), silence (DC 21), sound burst (DC 21), zone of
+  truth (DC 21)
 
 **1st-level spells:**
 
 - 9/day: comprehend languages, divine favor (mythic spell), obscuring mist (mythic spell), sanctuary
-  (mythic spell), DC 20, shield of faith (mythic spell)
+  (mythic spell) (DC 20), shield of faith (mythic spell)
 
 **Cantrips:**
 

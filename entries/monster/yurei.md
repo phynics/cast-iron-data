@@ -91,8 +91,8 @@ jerks._
 
 **Per day:**
 
-- 3/day: suffocation, DC 21
-- 1/day: mislead, DC 22, nightmare, DC 21
+- 3/day: suffocation (DC 21)
+- 1/day: mislead (DC 22), nightmare (DC 21)
 
 **Statistics**
 

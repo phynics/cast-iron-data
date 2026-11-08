@@ -101,13 +101,13 @@ death effects, energy drain, petrification
 
 **At will:**
 
-- command (mythic spell), DC 16, greater teleport, haste (mythic spell), paladin's sacrifice, pain
-  strike, DC 18
+- command (mythic spell) (DC 16), greater teleport, haste (mythic spell), paladin's sacrifice, pain
+  strike (DC 18)
 
 **Per day:**
 
-- 3/day: discern location, geas/quest, DC 21, heal, holy word (mythic spell), DC 22, mark of
-  justice, DC 20, mass pain strike, DC 20, searing light (mythic spell)
+- 3/day: discern location, geas/quest (DC 21), heal, holy word (mythic spell) (DC 22), mark of
+  justice (DC 20), mass pain strike (DC 20), searing light (mythic spell)
 
 **Prepared Spells**
 
@@ -117,11 +117,11 @@ death effects, energy drain, petrification
 
 **4th-level spells:**
 
-- blaze of glory, DC 19, break enchantment, death ward, king's castle
+- blaze of glory (DC 19), break enchantment, death ward, king's castle
 
 **3rd-level spells:**
 
-- dispel magic, fire of judgment, DC 18, prayer, righteous vigor
+- dispel magic, fire of judgment (DC 18), prayer, righteous vigor
 
 **2nd-level spells:**
 

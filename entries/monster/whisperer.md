@@ -95,14 +95,14 @@ be._
 
 **At will:**
 
-- animate plants, arboreal hammer, control water, control weather, dominate animal, DC 22, dream,
-  etherealness, greater dispel magic, nightmare, DC 24, telekinesis, DC 24, transport via plants,
-  triggered suggestion, DC 23, wind walk
+- animate plants, arboreal hammer, control water, control weather, dominate animal (DC 22), dream,
+  etherealness, greater dispel magic, nightmare (DC 24), telekinesis (DC 24), transport via plants,
+  triggered suggestion (DC 23), wind walk
 
 **Per day:**
 
-- 3/day: commune with nature, &Q confusion, DC 23, &Q greater dispel magic, green caress, DC 25
-- 1/day: earthquake, reverse gravity, whirlwind, DC 27, wish, to duplicate druid spells of 7th or
+- 3/day: commune with nature, &Q confusion (DC 23), &Q greater dispel magic, green caress (DC 25)
+- 1/day: earthquake, reverse gravity, whirlwind (DC 27), wish, to duplicate druid spells of 7th or
   lower level only
 
 **Statistics**

@@ -87,8 +87,8 @@ eyes search for a target._
 
 **At will:**
 
-- fear, single target, DC 19, greater teleport, self plus 50 lbs. of objects only, minor image, DC
-  17, unholy blight, DC 19
+- fear (single target, DC 19), greater teleport, self plus 50 lbs. of objects only, minor image (DC
+  17), unholy blight (DC 19)
 
 **Per day:**
 

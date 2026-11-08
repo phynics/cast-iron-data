@@ -88,16 +88,16 @@ delight._
 
 **2nd-level spells:**
 
-- 5/day: [darkvision](ref/rule/darkvision), dust of twilight, DC 17, haunting mists, DC 17
+- 5/day: [darkvision](ref/rule/darkvision), dust of twilight (DC 17), haunting mists (DC 17)
 
 **1st-level spells:**
 
-- 8/day: bungle, DC 16, lock gaze, DC 16, mage armor, ray of enfeeblement, DC 16, shadow weapon, DC
-  16
+- 8/day: bungle (DC 16), lock gaze (DC 16), mage armor, ray of enfeeblement (DC 16), shadow weapon
+  (DC 16)
 
 **Cantrips:**
 
-- At will: arcane mark, daze, DC 15, detect magic, haunted fey aspect, message, read magic
+- At will: arcane mark, daze (DC 15), detect magic, haunted fey aspect, message, read magic
 
 **Bloodline**
 

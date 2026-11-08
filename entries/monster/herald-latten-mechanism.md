@@ -105,7 +105,7 @@ rounds
 
 **Per day:**
 
-- 3/day: control construct, fabricate, haste, lightning bolt, DC 18, major creation, slow, DC 18,
+- 3/day: control construct, fabricate, haste, lightning bolt (DC 18), major creation, slow (DC 18),
   unbreakable construct, wall of iron
 
 **Statistics**

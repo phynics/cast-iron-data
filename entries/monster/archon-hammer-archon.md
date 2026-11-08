@@ -99,11 +99,11 @@ hammer-headed polearm with a wicked spike on its reverse side._
 
 **At will:**
 
-- break, DC 15, protection from chaos, shield
+- break (DC 15), protection from chaos, shield
 
 **Per day:**
 
-- 1/day: dictum, enemy hammer, DC 20, sympathetic vibration
+- 1/day: dictum, enemy hammer (DC 20), sympathetic vibration
 
 **Statistics**
 

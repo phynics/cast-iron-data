@@ -83,13 +83,13 @@ emaciated child with clawed hands._
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, light, major image, DC 20
+- greater teleport, self plus 50 lbs. of objects only, light, major image (DC 20)
 
 **Per day:**
 
-- 3/day: greater dispel magic, mirage arcana, DC 20, rainbow pattern, DC 22, spell turning, sunbeam,
-  wall of force
-- 1/day: scintillating pattern, DC 25, screen, DC 25, symbol of insanity, DC 25
+- 3/day: greater dispel magic, mirage arcana (DC 20), rainbow pattern (DC 22), spell turning,
+  sunbeam, wall of force
+- 1/day: scintillating pattern (DC 25), screen (DC 25), symbol of insanity (DC 25)
 
 **Statistics**
 

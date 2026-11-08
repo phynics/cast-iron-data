@@ -93,12 +93,12 @@ greasy skin._
 
 **At will:**
 
-- dimensional anchor, fear, DC 18, protection from good, seek thoughts, DC 17
+- dimensional anchor, fear (DC 18), protection from good, seek thoughts (DC 17)
 
 **Per day:**
 
-- 3/day: &Q excruciating deformation, DC 17
-- 1/day: mass pain strike, DC 19, &S level 6; 1d4 tarry demodands or 1d2 stringy demodands 55%,
+- 3/day: &Q excruciating deformation (DC 17)
+- 1/day: mass pain strike (DC 19), &S level 6; 1d4 tarry demodands or 1d2 stringy demodands 55%,
   waves of exhaustion
 
 **Statistics**

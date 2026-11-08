@@ -100,16 +100,16 @@ maw with a red eye in its throat._
 
 **Constant:**
 
-- cloak of chaos, DC 24, detect good, detect law, fly, freedom of movement, true seeing
+- cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing
 
 **At will:**
 
-- desecrate, greater dispel magic, greater teleport, statue, stone shape, telekinesis, DC 21
+- desecrate, greater dispel magic, greater teleport, statue, stone shape, telekinesis (DC 21)
 
 **Per day:**
 
-- 3/day: &Q baleful polymorph, DC 21, flesh to stone, DC 22, phase door, polymorph any object, DC
-  24, wall of stone
+- 3/day: &Q baleful polymorph (DC 21), flesh to stone (DC 22), phase door, polymorph any object (DC
+  24), wall of stone
 - 1/day: earthquake, &S level 9; any qlippoth or combination of qlippoth whose total combined CR is
   20 or lower 100%
 

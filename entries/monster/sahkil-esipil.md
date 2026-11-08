@@ -85,7 +85,7 @@ dangle from its face._
 
 **At will:**
 
-- cause fear, DC 14, mage hand
+- cause fear (DC 14), mage hand
 
 **Per day:**
 

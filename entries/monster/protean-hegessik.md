@@ -102,13 +102,13 @@ its back._
 
 **At will:**
 
-- confusion, DC 20, greater dispel magic, greater teleport, self plus 50 lbs. of objects only, slow,
-  DC 19
+- confusion (DC 20), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, slow
+  (DC 19)
 
 **Per day:**
 
-- 3/day: baleful polymorph, DC 21, chaos hammer, DC 20, &Q displacement
-- 1/day: plane shift, DC 23, polymorph any object, DC 24
+- 3/day: baleful polymorph (DC 21), chaos hammer (DC 20), &Q displacement
+- 1/day: plane shift (DC 23), polymorph any object (DC 24)
 
 **Statistics**
 

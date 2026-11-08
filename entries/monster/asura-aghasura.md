@@ -100,7 +100,7 @@ poison), bite +19 (2d8+6 plus [grab](ref/umr/grab) and poison)
 **Per day:**
 
 - 3/day: deeper darkness
-- 1/day: cloudkill, DC 19, &S level 4; 1d4+1 [adhukaits](ref/monster/asura-adhukait); 45%; or 1
+- 1/day: cloudkill (DC 19), &S level 4; 1d4+1 [adhukaits](ref/monster/asura-adhukait); 45%; or 1
   aghasura; 20%
 
 **Statistics**

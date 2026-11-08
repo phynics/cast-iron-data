@@ -87,13 +87,13 @@ ghostly body, which appears stuffed with decaying leaves and other plant matter.
 
 **At will:**
 
-- entangle, DC 18, enthrall, DC 19, goodberry, mage hand, obscuring mist
+- entangle (DC 18), enthrall (DC 19), goodberry, mage hand, obscuring mist
 
 **Per day:**
 
-- 3/day: command plants, DC 21, giant vermin, hallucinatory terrain, DC 21, helping hand, move
-  earth, rainbow pattern, DC 21, soften earth and stone, DC 19, spike growth, DC 20, tree stride
-- 1/day: animate plants, creeping doom, DC 24, find the path, legend lore, mage's magnificent
+- 3/day: command plants (DC 21), giant vermin, hallucinatory terrain (DC 21), helping hand, move
+  earth, rainbow pattern (DC 21), soften earth and stone (DC 19), spike growth (DC 20), tree stride
+- 1/day: animate plants, creeping doom (DC 24), find the path, legend lore, mage's magnificent
   mansion, reincarnate
 
 **Statistics**

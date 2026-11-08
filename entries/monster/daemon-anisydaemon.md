@@ -96,12 +96,12 @@ eyeless face._
 
 **At will:**
 
-- detect thoughts, DC 17, greater teleport, self plus 50 lbs. of objects only, invisibility
+- detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, invisibility
 
 **Per day:**
 
-- 3/day: crushing despair, DC 19, deeper darkness, nightmare, DC 20, suggestion, DC 18
-- 1/day: eyebite, DC 22, &S level 4; 2d4 [ceustodaemons](ref/monster/daemon-ceustodaemon) 80% or 1
+- 3/day: crushing despair (DC 19), deeper darkness, nightmare (DC 20), suggestion (DC 18)
+- 1/day: eyebite (DC 22), &S level 4; 2d4 [ceustodaemons](ref/monster/daemon-ceustodaemon) 80% or 1
   anisydaemon 35%
 
 **Psychic Magic**

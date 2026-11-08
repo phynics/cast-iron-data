@@ -89,8 +89,8 @@ intelligence and cruelty._
 
 **At will:**
 
-- chaos hammer, DC 19, confusion, DC 19, dispel magic, mirror image, reverse gravity, DC 22, greater
-  teleport, self plus 50 lbs. of objects only, veil, self only, unholy blight
+- chaos hammer (DC 19), confusion (DC 19), dispel magic, mirror image, reverse gravity (DC 22),
+  greater teleport, self plus 50 lbs. of objects only, veil, self only, unholy blight
 
 **Per day:**
 

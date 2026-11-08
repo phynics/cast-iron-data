@@ -98,8 +98,8 @@ abilities = ["13", "17", "12", "12", "16", "4"]
 
 **Per day:**
 
-- 2/day: shadow illusion, DC 8
-- 1/day: shadow call, DC 11
+- 2/day: shadow illusion (DC 8)
+- 1/day: shadow call (DC 11)
 
 **Statistics**
 

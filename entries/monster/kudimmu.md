@@ -105,7 +105,7 @@ pull)
 **Per day:**
 
 - 3/day: wall of thorns
-- 1/day: animate plants, DC 20
+- 1/day: animate plants (DC 20)
 
 **Statistics**
 

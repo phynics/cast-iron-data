@@ -85,11 +85,11 @@ _Two slimy tentacles protrude from the sides of this brain-shaped mass of quiver
 
 **At will:**
 
-- charm monster, DC 18, dominate animal, DC 17, dominate person, DC 19
+- charm monster (DC 18), dominate animal (DC 17), dominate person (DC 19)
 
 **Per day:**
 
-- 3/day: dispel magic, modify memory, DC 18
+- 3/day: dispel magic, modify memory (DC 18)
 
 **Statistics**
 

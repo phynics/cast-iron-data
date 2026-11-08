@@ -89,11 +89,12 @@ stunning
 
 **At will:**
 
-- create water, greater teleport, self plus 50 lbs. of objects only, liquid leap, telekinesis, DC 19
+- create water, greater teleport, self plus 50 lbs. of objects only, liquid leap, telekinesis (DC
+  19)
 
 **Per day:**
 
-- 3/day: gaseous form, control water, poison, DC 18, stinking cloud, DC 17
+- 3/day: gaseous form, control water, poison (DC 18), stinking cloud (DC 17)
 - 1/day: acid fog, &S level 4; 1 omox 30% or 1d4 babaus 60%
 
 **Statistics**

@@ -90,7 +90,7 @@ abilities = ["27", "10", "21", "20", "21", "20"]
 
 **At will:**
 
-- detect evil, feather fall, gust of wind, DC 17
+- detect evil, feather fall, gust of wind (DC 17)
 
 **Spells Known**
 
@@ -100,11 +100,11 @@ abilities = ["27", "10", "21", "20", "21", "20"]
 
 **3rd-level spells:**
 
-- 5/day: blink, lightning bolt, DC 18
+- 5/day: blink, lightning bolt (DC 18)
 
 **2nd-level spells:**
 
-- 7/day: glitterdust, DC 17, invisibility, resist energy
+- 7/day: glitterdust (DC 17), invisibility, resist energy
 
 **1st-level spells:**
 

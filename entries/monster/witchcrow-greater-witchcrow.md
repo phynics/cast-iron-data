@@ -78,7 +78,7 @@ abilities = ["12", "17", "12", "17", "16", "13"]
 
 **Per day:**
 
-- 3/day: perceive cues, vanish, ventriloquism, DC 14
+- 3/day: perceive cues, vanish, ventriloquism (DC 14)
 - 1/day: ill omen, mirror image
 
 **Statistics**

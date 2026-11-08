@@ -105,7 +105,7 @@ poison, sleep, stun
 
 **Per day:**
 
-- 3/day: heroism, waves of fatigue, DC 18
+- 3/day: heroism, waves of fatigue (DC 18)
 - 1/day: temporary resurrection
 
 **Statistics**

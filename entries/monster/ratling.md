@@ -85,7 +85,7 @@ with a toothy mouth._
 
 **Per day:**
 
-- 3/day: cause fear, DC 12, dimension door, invisibility, self only
+- 3/day: cause fear (DC 12), dimension door, invisibility, self only
 - 1/day: summon swarm, rat swarm only
 
 **Per week:**

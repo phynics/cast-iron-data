@@ -97,7 +97,7 @@ bite +16 (1d8+5), 4 claws +16 (1d6+5 plus rend)
 
 **Per day:**
 
-- 3/day: dominate monster, DC 21, fear, DC 16
+- 3/day: dominate monster (DC 21), fear (DC 16)
 
 **Statistics**
 

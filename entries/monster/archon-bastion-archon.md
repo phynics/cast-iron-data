@@ -103,8 +103,8 @@ shimmering, pulsating globe of holy light._
 
 **Per day:**
 
-- 3/day: prismatic spray, DC 22, sunbeam, DC 22
-- 1/day: meteor swarm, DC 24, polar ray, DC 23, sunburst, DC 23
+- 3/day: prismatic spray (DC 22), sunbeam (DC 22)
+- 1/day: meteor swarm (DC 24), polar ray (DC 23), sunburst (DC 23)
 
 **Prepared Spells**
 
@@ -118,19 +118,19 @@ shimmering, pulsating globe of holy light._
 
 **8th-level spells:**
 
-- holy aura, DC 25, mass cure critical wounds
+- holy aura (DC 25), mass cure critical wounds
 
 **7th-level spells:**
 
-- greater restoration, holy word, DC 24, mass cure serious wounds, regenerate
+- greater restoration, holy word (DC 24), mass cure serious wounds, regenerate
 
 **6th-level spells:**
 
-- blade barrier, DC 23, greater dispel magic, heal, mass cure moderate wounds, 2
+- blade barrier (DC 23), greater dispel magic, heal, mass cure moderate wounds, 2
 
 **5th-level spells:**
 
-- break enchantment, breath of life, 2, flame strike, DC 22, wall of stone
+- break enchantment, breath of life, 2, flame strike (DC 22), wall of stone
 
 **4th-level spells:**
 
@@ -146,7 +146,7 @@ shimmering, pulsating globe of holy light._
 
 **1st-level spells:**
 
-- cure light wounds, 4, divine favor, sanctuary, DC 18
+- cure light wounds, 4, divine favor, sanctuary (DC 18)
 
 **Cantrips:**
 

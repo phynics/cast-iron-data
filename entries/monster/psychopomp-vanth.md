@@ -88,7 +88,7 @@ its face should be._
 
 **Per day:**
 
-- 3/day: bestow curse, DC 17, locate creature, searing light
+- 3/day: bestow curse (DC 17), locate creature, searing light
 
 **Statistics**
 

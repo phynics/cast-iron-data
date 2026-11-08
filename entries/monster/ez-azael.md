@@ -98,8 +98,8 @@ thread is tangled between its curled ram horns._
 
 **Per day:**
 
-- 3/day: break enchantment, dispel chaos, DC 21, dispel evil, DC 21, find the path, holy smite, DC
-  17
+- 3/day: break enchantment, dispel chaos (DC 21), dispel evil (DC 21), find the path, holy smite (DC
+  17)
 - 1/day: atonement
 
 **Statistics**

@@ -89,11 +89,11 @@ span the length of its body._
 
 **At will:**
 
-- detect thoughts, DC 15, invisibility, plane shift, self plus 50 lbs. of objects only
+- detect thoughts (DC 15), invisibility, plane shift, self plus 50 lbs. of objects only
 
 **Per day:**
 
-- 1/day: modify memory, DC 17
+- 1/day: modify memory (DC 17)
 
 **Prepared Spells**
 
@@ -103,7 +103,7 @@ span the length of its body._
 
 **4th-level spells:**
 
-- flame strike, DC 18, summon nature's ally IV
+- flame strike (DC 18), summon nature's ally IV
 
 **3rd-level spells:**
 
@@ -111,15 +111,15 @@ span the length of its body._
 
 **2nd-level spells:**
 
-- bear's endurance, flaming sphere, DC 15, lesser restoration, resist energy
+- bear's endurance, flaming sphere (DC 15), lesser restoration, resist energy
 
 **1st-level spells:**
 
-- endure elements, faerie fire, DC 14, pass without trace, produce flame, speak with animals
+- endure elements, faerie fire (DC 14), pass without trace, produce flame, speak with animals
 
 **Cantrips:**
 
-- flare, DC 13, guidance, stabilize, virtue
+- flare (DC 13), guidance, stabilize, virtue
 
 **Statistics**
 

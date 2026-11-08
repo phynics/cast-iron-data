@@ -89,12 +89,12 @@ covered in patches of sleek black fur._
 
 **At will:**
 
-- call animal, charm animal, DC 15
+- call animal, charm animal (DC 15)
 
 **Per day:**
 
-- 3/day: dominate animal, DC 17, moonstruck, DC 18
-- 1/day: baleful polymorph, DC 19, commune with nature
+- 3/day: dominate animal (DC 17), moonstruck (DC 18)
+- 1/day: baleful polymorph (DC 19), commune with nature
 
 **Statistics**
 

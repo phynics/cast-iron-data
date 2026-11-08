@@ -109,7 +109,7 @@ starscape that whirls in mad patterns._
 
 **At will:**
 
-- astral gloom, blur, ray of enfeeblement, DC 16, ray of exhaustion, DC 18
+- astral gloom, blur, ray of enfeeblement (DC 16), ray of exhaustion (DC 18)
 
 **Spells Known**
 
@@ -127,7 +127,7 @@ starscape that whirls in mad patterns._
 
 **1st-level spells:**
 
-- 8/day: cause fear, DC 16, hypnotism, DC 16, mage armor, obscuring mist, true strike
+- 8/day: cause fear (DC 16), hypnotism (DC 16), mage armor, obscuring mist, true strike
 
 **Statistics**
 

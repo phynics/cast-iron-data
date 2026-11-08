@@ -83,8 +83,8 @@ into vapor below the waist._
 
 **Per day:**
 
-- 3/day: bestow curse, DC 20, suffocation, DC 21
-- 1/day: mass pain strike, DC 21, waves of fatigue
+- 3/day: bestow curse (DC 20), suffocation (DC 21)
+- 1/day: mass pain strike (DC 21), waves of fatigue
 
 **Statistics**
 

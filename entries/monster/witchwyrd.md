@@ -88,8 +88,8 @@ three-fingered hand._
 
 **Per day:**
 
-- 3/day: dispel magic, displacement, suggestion, DC 18
-- 1/day: dimension door, resilient sphere, DC 19
+- 3/day: dispel magic, displacement, suggestion (DC 18)
+- 1/day: dimension door, resilient sphere (DC 19)
 
 **Statistics**
 

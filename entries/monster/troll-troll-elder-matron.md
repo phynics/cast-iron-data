@@ -86,27 +86,27 @@ abilities = ["19", "14", "27", "16", "11", "8"]
 
 **5th-level spells:**
 
-- flame strike, DC 20, mass pain strike, DC 18
+- flame strike (DC 20), mass pain strike (DC 18)
 
 **4th-level spells:**
 
-- confusion, DC 17, enervation, wall of ice, DC 17
+- confusion (DC 17), enervation, wall of ice (DC 17)
 
 **3rd-level spells:**
 
-- fireball, 2, DC 18, ray of exhaustion, DC 16, screech, DC 16
+- fireball (2, DC 18), ray of exhaustion (DC 16), screech (DC 16)
 
 **2nd-level spells:**
 
-- bull's strength, burning gaze, DC 17, enthrall, DC 15, flaming sphere, DC 17, touch of idiocy
+- bull's strength, burning gaze (DC 17), enthrall (DC 15), flaming sphere (DC 17), touch of idiocy
 
 **1st-level spells:**
 
-- burning hands, DC 16, cause fear, DC 14, ray of enfeeblement, DC 14, reduce person, DC 14
+- burning hands (DC 16), cause fear (DC 14), ray of enfeeblement (DC 14), reduce person (DC 14)
 
 **Cantrips:**
 
-- bleed, DC 13, detect magic, purify food and drink, touch of fatigue, DC 13
+- bleed (DC 13), detect magic, purify food and drink, touch of fatigue (DC 13)
 
 **Patron**
 

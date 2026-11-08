@@ -94,18 +94,18 @@ and two huge claws dangle below._
 
 **Constant:**
 
-- cloak of chaos, DC 26, foresight, freedom of movement, true seeing
+- cloak of chaos (DC 26), foresight, freedom of movement, true seeing
 
 **At will:**
 
-- dimension door, dispel law, greater dispel magic, magic missile, plane shift, DC 25, wind walk,
+- dimension door, dispel law, greater dispel magic, magic missile, plane shift (DC 25), wind walk,
   word of recall
 
 **Per day:**
 
-- 3/day: black tentacles, dimensional lock, horrid wilting, DC 26, insanity, DC 25, word of chaos,
-  DC 25
-- 1/day: &Q heal, imprisonment, DC 27
+- 3/day: black tentacles, dimensional lock, horrid wilting (DC 26), insanity (DC 25), word of chaos
+  (DC 25)
+- 1/day: &Q heal, imprisonment (DC 27)
 
 **Statistics**
 

@@ -95,8 +95,9 @@ while in one hand it clutches the twisted, dagger-like horn of some infernal ter
 
 **Per day:**
 
-- 3/day: blur, self only, darkness, dimension door, dispel magic, silence, DC 16, suggestion, DC 17
-- 1/day: mislead, DC 20, passwall, statue, self only, &S (level 3; 4 [imps](ref/monster/devil-imp);
+- 3/day: blur, self only, darkness, dimension door, dispel magic, silence (DC 16), suggestion (DC
+  17)
+- 1/day: mislead (DC 20), passwall, statue, self only, &S (level 3; 4 [imps](ref/monster/devil-imp);
   35%)
 
 **Statistics**

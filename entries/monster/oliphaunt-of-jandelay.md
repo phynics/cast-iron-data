@@ -106,7 +106,7 @@ its canyon of a mouth._
 
 **At will:**
 
-- greater shout, DC 29
+- greater shout (DC 29)
 
 **Per day:**
 

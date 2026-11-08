@@ -91,7 +91,7 @@ afire with murderous intent._
 
 **Per day:**
 
-- 1/day: charm monster, DC 17, cone of cold, DC 18, gaseous form, deep slumber, DC 16
+- 1/day: charm monster (DC 17), cone of cold (DC 18), gaseous form, deep slumber (DC 16)
 
 **Statistics**
 

@@ -100,19 +100,19 @@ fire, memory loss effects, petrification, poison
 
 **Constant:**
 
-- air walk, detect chaos, detect good, mind blank, shield of law, DC 29, true seeing
+- air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
 
 **At will:**
 
-- astral projection, black tentacles (mythic spell), desecrate (mythic spell), dictum (mythic
-  spell), DC 28, greater dispel magic, greater teleport, mindwipe, DC 25, modify memory (mythic
-  spell), DC 25, order's wrath (mythic spell), DC 25, unhallow, wall of ice
+- astral projection, black tentacles (mythic spell), desecrate (mythic spell), dictum (mythic spell)
+  (DC 28), greater dispel magic, greater teleport, mindwipe (DC 25), modify memory (mythic spell)
+  (DC 25), order's wrath (mythic spell) (DC 25), unhallow, wall of ice
 
 **Per day:**
 
-- 3/day: feeblemind, DC 26, &Q mindwipe, DC 25, mislead, persistent image, DC 26, summon devils,
+- 3/day: feeblemind (DC 26), &Q mindwipe (DC 25), mislead, persistent image (DC 26), summon devils,
   vision
-- 1/day: prediction of failure, DC 29, time stop (mythic spell), wish (mythic spell)
+- 1/day: prediction of failure (DC 29), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

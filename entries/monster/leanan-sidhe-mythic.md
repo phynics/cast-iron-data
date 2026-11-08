@@ -83,11 +83,11 @@ of twigs._
 
 **At will:**
 
-- calm emotions, DC 18, crushing despair, DC 20, dimension door, self plus 50 lbs. of objects only
+- calm emotions (DC 18), crushing despair (DC 20), dimension door, self plus 50 lbs. of objects only
 
 **Per day:**
 
-- 3/day: animal trance, DC 18, &Q charm person, DC 17
+- 3/day: animal trance (DC 18), &Q charm person (DC 17)
 
 **Statistics**
 

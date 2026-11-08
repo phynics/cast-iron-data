@@ -99,11 +99,11 @@ abilities = ["39", "7", "30", "13", "18", "14"]
 
 **2nd-level spells:**
 
-- aspect of the bear, spike growth, DC 16
+- aspect of the bear, spike growth (DC 16)
 
 **1st-level spells:**
 
-- entangle, DC 15, longstrider, resist energy
+- entangle (DC 15), longstrider, resist energy
 
 ### Tactics
 

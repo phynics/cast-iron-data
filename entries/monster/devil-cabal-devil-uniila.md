@@ -92,8 +92,8 @@ the faintest outlines of a veiled face and a pair of eyes flickering with barely
 
 **Per day:**
 
-- 3/day: bestow curse, DC 19, blink, detect thoughts, DC 17, dispel magic, invisibility
-- 1/day: blasphemy, DC 22, mark of justice, summon devils
+- 3/day: bestow curse (DC 19), blink, detect thoughts (DC 17), dispel magic, invisibility
+- 1/day: blasphemy (DC 22), mark of justice, summon devils
 
 **Spells Known**
 
@@ -105,20 +105,20 @@ the faintest outlines of a veiled face and a pair of eyes flickering with barely
 
 **3rd-level spells:**
 
-- 5/day: fireball, DC 18, gaseous form
+- 5/day: fireball (DC 18), gaseous form
 
 **2nd-level spells:**
 
-- 6/day: fog cloud, glitterdust, DC 17, mirror image, DC 17
+- 6/day: fog cloud, glitterdust (DC 17), mirror image (DC 17)
 
 **1st-level spells:**
 
-- 6/day: disguise self, identify, magic missile, ray of enfeeblement, DC 16, shield
+- 6/day: disguise self, identify, magic missile, ray of enfeeblement (DC 16), shield
 
 **Cantrips:**
 
-- At will: arcane mark, bleed, DC 15, dancing lights, detect magic, disrupt undead, mage hand,
-  prestidigitation, touch of fatigue, DC 15
+- At will: arcane mark, bleed (DC 15), dancing lights, detect magic, disrupt undead, mage hand,
+  prestidigitation, touch of fatigue (DC 15)
 
 **Statistics**
 

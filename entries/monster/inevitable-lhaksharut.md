@@ -98,7 +98,7 @@ plus 1 bleed) or 4 slams +30 (2d8+10)
 
 **Constant:**
 
-- detect chaos, detect magic, shield of law, DC 23, true seeing
+- detect chaos, detect magic, shield of law (DC 23), true seeing
 
 **At will:**
 
@@ -106,9 +106,9 @@ plus 1 bleed) or 4 slams +30 (2d8+10)
 
 **Per day:**
 
-- 3/day: dictum, DC 22, dimensional anchor, DC 19, dimensional lock, DC 23, disintegrate, DC 21,
-  dismissal, DC 20, greater scrying, DC 22, plane shift, DC 20, wall of force
-- 1/day: imprisonment, DC 24
+- 3/day: dictum (DC 22), dimensional anchor (DC 19), dimensional lock (DC 23), disintegrate (DC 21),
+  dismissal (DC 20), greater scrying (DC 22), plane shift (DC 20), wall of force
+- 1/day: imprisonment (DC 24)
 
 **Statistics**
 

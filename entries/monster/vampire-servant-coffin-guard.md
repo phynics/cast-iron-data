@@ -83,7 +83,7 @@ abilities = ["12", "18", "12", "12", "13", "8"]
 
 **1st-level spells:**
 
-- entangle, DC 12
+- entangle (DC 12)
 
 **Statistics**
 

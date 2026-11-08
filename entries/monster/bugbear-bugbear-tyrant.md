@@ -99,11 +99,11 @@ the thrill of the coming kill._
 
 **3rd-level spells:**
 
-- isolate, DC 15
+- isolate (DC 15)
 
 **2nd-level spells:**
 
-- corruption resistance, litany of warding, scare, DC 14
+- corruption resistance, litany of warding, scare (DC 14)
 
 **1st-level spells:**
 

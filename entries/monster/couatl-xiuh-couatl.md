@@ -96,7 +96,7 @@ _Wreathed in flame, this winged serpent sports brightly colored feathers sparkin
 
 **At will:**
 
-- detect thoughts, DC 18, invisibility, plane shift, DC 23
+- detect thoughts (DC 18), invisibility, plane shift (DC 23)
 
 **Per week:**
 
@@ -114,11 +114,11 @@ _Wreathed in flame, this winged serpent sports brightly colored feathers sparkin
 
 **6th-level spells:**
 
-- 7/day: greater dispel magic, legend lore, veil, DC 22
+- 7/day: greater dispel magic, legend lore, veil (DC 22)
 
 **5th-level spells:**
 
-- 7/day: commune with nature, mind thrust V, DC 21, psychic crush I, DC 21, wall of force
+- 7/day: commune with nature, mind thrust V (DC 21), psychic crush I (DC 21), wall of force
 
 **4th-level spells:**
 
@@ -126,19 +126,21 @@ _Wreathed in flame, this winged serpent sports brightly colored feathers sparkin
 
 **3rd-level spells:**
 
-- 7/day: clairaudience/clairvoyance, deep slumber, DC 20, dispel magic, haste
+- 7/day: clairaudience/clairvoyance, deep slumber (DC 20), dispel magic, haste
 
 **2nd-level spells:**
 
-- 8/day: anticipate thoughts, DC 18, augury, aversion, DC 18, demand offering, DC 18, scare, DC 19
+- 8/day: anticipate thoughts (DC 18), augury, aversion (DC 18), demand offering (DC 18), scare (DC
+  19)
 
 **1st-level spells:**
 
-- 8/day: anticipate peril, DC 17, charm person, DC 18, forbid action, DC 18, mindlink, sleep, DC 18
+- 8/day: anticipate peril (DC 17), charm person (DC 18), forbid action (DC 18), mindlink, sleep (DC
+  18)
 
 **Cantrips:**
 
-- At will: bleed, DC 17, detect magic, detect poison, ghost sound, DC 17, know direction, light,
+- At will: bleed (DC 17), detect magic, detect poison, ghost sound (DC 17), know direction, light,
   mage hand, read magic, stabilize
 
 **Statistics**

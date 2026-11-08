@@ -99,21 +99,21 @@ precision damage
 
 **Constant:**
 
-- detect chaos, detect good, discern lies, DC 28, freedom of movement, mind blank, shield of law, DC
-  32, true seeing
+- detect chaos, detect good, discern lies (DC 28), freedom of movement, mind blank, shield of law
+  (DC 32), true seeing
 
 **At will:**
 
-- astral projection, deeper darkness, desecrate (mythic spell), dictum (mythic spell), DC 31,
-  dominate person (mythic spell), DC 29, greater dispel magic, greater scrying, DC 31, greater
-  teleport, order's wrath (mythic spell), DC 28, secret page, unhallow
+- astral projection, deeper darkness, desecrate (mythic spell), dictum (mythic spell) (DC 31),
+  dominate person (mythic spell) (DC 29), greater dispel magic, greater scrying (DC 31), greater
+  teleport, order's wrath (mythic spell) (DC 28), secret page, unhallow
 
 **Per day:**
 
-- 3/day: &Q dominate person (mythic spell), DC 29, fire storm (mythic spell), DC 32, globe of
-  invulnerability (mythic spell), mass charm monster, DC 32, mislead (mythic spell), DC 30, summon
+- 3/day: &Q dominate person (mythic spell) (DC 29), fire storm (mythic spell) (DC 32), globe of
+  invulnerability (mythic spell), mass charm monster (DC 32), mislead (mythic spell) (DC 30), summon
   devils
-- 1/day: soul bind, DC 33, time stop (mythic spell), wish (mythic spell)
+- 1/day: soul bind (DC 33), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

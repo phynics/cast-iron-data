@@ -100,13 +100,13 @@ tooth-filled beak._
 
 **At will:**
 
-- antiplant shell, contagion, DC 21, desecrate, greater dispel magic, greater teleport, within
-  Tanglebriar only, telekinesis, DC 22, unholy blight, DC 21
+- antiplant shell, contagion (DC 21), desecrate, greater dispel magic, greater teleport, within
+  Tanglebriar only, telekinesis (DC 22), unholy blight (DC 21)
 
 **Per day:**
 
-- 3/day: control plants, DC 25, &Q greater dispel magic, wall of thorns
-- 1/day: horrid wilting, DC 25, summon demons, symbol of death, DC 25, time stop
+- 3/day: control plants (DC 25), &Q greater dispel magic, wall of thorns
+- 1/day: horrid wilting (DC 25), summon demons, symbol of death (DC 25), time stop
 
 **Statistics**
 

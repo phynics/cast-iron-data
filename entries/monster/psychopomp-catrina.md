@@ -92,7 +92,7 @@ beautiful, despite having no flesh._
 
 **Per day:**
 
-- 3/day: major image, DC 20
+- 3/day: major image (DC 20)
 
 **Statistics**
 

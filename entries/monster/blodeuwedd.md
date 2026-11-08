@@ -84,12 +84,12 @@ itself whispers around her feet as patches of clover, heather, and milkweed mark
 
 **At will:**
 
-- dancing lights, entangle, DC 15, plant growth, whispering wind
+- dancing lights, entangle (DC 15), plant growth, whispering wind
 
 **Per day:**
 
-- 3/day: deep slumber, DC 17, modify memory, DC 18, spike growth, DC 17
-- 1/day: goodberry, hallucinatory terrain, DC 18, lesser geas, DC 17
+- 3/day: deep slumber (DC 17), modify memory (DC 18), spike growth (DC 17)
+- 1/day: goodberry, hallucinatory terrain (DC 18), lesser geas (DC 17)
 
 **Statistics**
 

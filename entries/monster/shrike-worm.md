@@ -93,8 +93,8 @@ its throat, below a circular, toothy maw dripping with luminescent spittle._
 
 **Per day:**
 
-- 3/day: hallucinatory terrain, DC 20, persistent image, DC 21
-- 1/day: scintillating pattern, DC 24
+- 3/day: hallucinatory terrain (DC 20), persistent image (DC 21)
+- 1/day: scintillating pattern (DC 24)
 
 **Statistics**
 

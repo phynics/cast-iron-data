@@ -83,7 +83,7 @@ most of its body from view._
 
 **At will:**
 
-- animate rope, shatter, DC 13, stone shape
+- animate rope, shatter (DC 13), stone shape
 
 **Per day:**
 

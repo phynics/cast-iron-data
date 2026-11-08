@@ -92,8 +92,8 @@ motions of her physical arms._
 
 **Per day:**
 
-- 3/day: calm emotions, lesser confusion, DC 13, remove fear, saving finale
-- 1/day: eagle's splendor, gallant inspiration, ghostbane dirge, DC 14, invisibility, self only
+- 3/day: calm emotions, lesser confusion (DC 13), remove fear, saving finale
+- 1/day: eagle's splendor, gallant inspiration, ghostbane dirge (DC 14), invisibility, self only
 
 **Statistics**
 

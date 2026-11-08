@@ -87,11 +87,11 @@ _Cruel horns frame this dragon's head. Its body glows faintly with malicious hea
 
 **1st-level spells:**
 
-- 4/day: bane, DC 14, command, DC 14
+- 4/day: bane (DC 14), command (DC 14)
 
 **Cantrips:**
 
-- At will: detect magic, guidance, read magic, spark, DC 13
+- At will: detect magic, guidance, read magic, spark (DC 13)
 
 **Statistics**
 

@@ -90,7 +90,7 @@ flesh and shifting shadowstuff._
 
 **At will:**
 
-- bleed, DC 11, dancing lights, detect magic
+- bleed (DC 11), dancing lights, detect magic
 
 **Per day:**
 

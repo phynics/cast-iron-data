@@ -99,7 +99,7 @@ lengths of razor-sharp, bloodstained icicles._
 
 **Per day:**
 
-- 3/day: cone of cold, DC 18, dimension door, ice storm
+- 3/day: cone of cold (DC 18), dimension door, ice storm
 - 1/day: polar ray
 
 **Statistics**

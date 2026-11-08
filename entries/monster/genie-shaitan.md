@@ -87,7 +87,7 @@ _This being resembles a towering human with skin of polished stone and glitterin
 
 **Per day:**
 
-- 3/day: &Q glitterdust, DC 14, stoneskin, rusting grasp, stone tell, wall of stone
+- 3/day: &Q glitterdust (DC 14), stoneskin, rusting grasp, stone tell, wall of stone
 - 1/day: transmute mud to rock, transmute rock to mud
 
 **Statistics**

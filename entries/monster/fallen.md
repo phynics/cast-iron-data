@@ -95,7 +95,7 @@ armor and weapons seem quite solid._
 
 **Per day:**
 
-- 3/day: deeper darkness, telekinesis, DC 19
+- 3/day: deeper darkness, telekinesis (DC 19)
 
 **Statistics**
 

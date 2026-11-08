@@ -87,11 +87,11 @@ shape._
 
 **At will:**
 
-- continual flame, dancing lights, DC 14, searing light, suggestion, DC 19, whispering wind
+- continual flame, dancing lights (DC 14), searing light, suggestion (DC 19), whispering wind
 
 **Per day:**
 
-- 1/day: dispel magic, freedom of movement, fly, locate creature, plane shift, slay living, DC 19
+- 1/day: dispel magic, freedom of movement, fly, locate creature, plane shift, slay living (DC 19)
 
 **Statistics**
 

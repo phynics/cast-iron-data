@@ -104,15 +104,15 @@ abilities = ["30", "11", "22", "19", "16", "17"]
 
 **2nd-level spells:**
 
-- 5/day: blindness/deafness, DC 15, false life
+- 5/day: blindness/deafness (DC 15), false life
 
 **1st-level spells:**
 
-- 7/day: anticipate peril, detect thoughts, DC 14, magic missile, shield
+- 7/day: anticipate peril, detect thoughts (DC 14), magic missile, shield
 
 **Cantrips:**
 
-- At will: bleed, DC 13, detect magic, detect poison, ghost sound, DC 13, grave words
+- At will: bleed (DC 13), detect magic, detect poison, ghost sound (DC 13), grave words
 
 **Statistics**
 

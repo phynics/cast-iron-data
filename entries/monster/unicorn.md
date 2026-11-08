@@ -84,8 +84,8 @@ horn on its brow._
 **Per day:**
 
 - 3/day: cure light wounds
-- 1/day: cure moderate wounds, greater teleport, within its forest territory, neutralize poison, DC
-  21
+- 1/day: cure moderate wounds, greater teleport, within its forest territory, neutralize poison (DC
+  21)
 
 **Statistics**
 

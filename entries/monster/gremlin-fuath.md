@@ -93,7 +93,7 @@ _This waterlogged gremlin has lobster claws for hands and an almost canine face 
 
 **Per day:**
 
-- 1/day: sleep, DC 10
+- 1/day: sleep (DC 10)
 
 **Statistics**
 

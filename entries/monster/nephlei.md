@@ -83,9 +83,9 @@ electricity) or slam +14 (1d6+1)
 
 **Per day:**
 
-- 5/day: alter winds, DC 16, fog cloud, frigid touch, DC 17, gust of wind, DC 17, obscuring mist
-- 3/day: cloak of winds, lightning bolt, DC 18, river of wind, DC 19, wind wall, DC 18
-- 1/day: ball lightning, DC 19, control winds, DC 20, lightning arc, DC 20
+- 5/day: alter winds (DC 16), fog cloud, frigid touch (DC 17), gust of wind (DC 17), obscuring mist
+- 3/day: cloak of winds, lightning bolt (DC 18), river of wind (DC 19), wind wall (DC 18)
+- 1/day: ball lightning (DC 19), control winds (DC 20), lightning arc (DC 20)
 
 **Statistics**
 

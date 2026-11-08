@@ -82,11 +82,11 @@ _This bloated spider has a hunchbacked body and a gleam of intelligence in its m
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 14, mage armor, 1 already cast, silent image, DC 14, sleep, DC 14
+- 7/day: charm person (DC 14), mage armor, 1 already cast, silent image (DC 14), sleep (DC 14)
 
 **Cantrips:**
 
-- At will: daze, DC 13, detect magic, ghost sound, DC 13, light, mage hand, resistance
+- At will: daze (DC 13), detect magic, ghost sound (DC 13), light, mage hand, resistance
 
 **Statistics**
 

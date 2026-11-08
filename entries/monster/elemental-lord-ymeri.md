@@ -98,12 +98,13 @@ plus 1d10 fire plus trip)
 
 **At will:**
 
-- fireball\#P, DC 23, greater teleport, pyrotechnics, DC 22, scorching ray\#P, wall of fire\#P
+- fireball\#P (DC 23), greater teleport, pyrotechnics (DC 22), scorching ray\#P, wall of fire\#P
 
 **Per day:**
 
-- 3/day: delayed blast fireball, DC 27, fire storm\#P, DC 27, incendiary cloud, DC 28, wall of lava
-- 1/day: meteor swarm\#P, DC 29, &S level 9; 2d4 fiendish elder fire elementals 100%
+- 3/day: delayed blast fireball (DC 27), fire storm\#P (DC 27), incendiary cloud (DC 28), wall of
+  lava
+- 1/day: meteor swarm\#P (DC 29), &S level 9; 2d4 fiendish elder fire elementals 100%
 
 **Statistics**
 

@@ -88,12 +88,13 @@ one deadly predator._
 
 **At will:**
 
-- burst of nettles, DC 20, entangle, DC 18, tree shape, tree stride, ventriloquism, warp wood, DC 19
+- burst of nettles (DC 20), entangle (DC 18), tree shape, tree stride, ventriloquism, warp wood (DC
+  19)
 
 **Per day:**
 
 - 7/day: diminish plants, plant growth, wall of thorns
-- 3/day: control plants, DC 25, move earth, true seeing
+- 3/day: control plants (DC 25), move earth, true seeing
 
 **Statistics**
 

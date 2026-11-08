@@ -92,17 +92,17 @@ immense, cruel-looking halberd._
 
 **Constant:**
 
-- deathwatch, true seeing, unholy aura, DC 25
+- deathwatch, true seeing, unholy aura (DC 25)
 
 **At will:**
 
-- cloudkill, DC 22, greater teleport, self plus 50 lbs. of objects only
+- cloudkill (DC 22), greater teleport, self plus 50 lbs. of objects only
 
 **Per day:**
 
-- 3/day: &Q cloudkill, DC 22, destruction, DC 24, fire storm, DC 25, incendiary cloud, DC 25, spell
-  turning
-- 1/day: mass hold person, DC 24, meteor swarm, DC 26, &S level 9; 1
+- 3/day: &Q cloudkill (DC 22), destruction (DC 24), fire storm (DC 25), incendiary cloud (DC 25),
+  spell turning
+- 1/day: mass hold person (DC 24), meteor swarm (DC 26), &S level 9; 1
   [purrodaemon](ref/monster/daemon-purrodaemon) 50%
 
 **Statistics**

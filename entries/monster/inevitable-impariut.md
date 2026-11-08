@@ -84,11 +84,11 @@ _Dressed in noble regalia, this humanoid creature of metal and wood has a pierci
 
 **At will:**
 
-- arcane mark, discern lies, DC 19, dispel magic
+- arcane mark, discern lies (DC 19), dispel magic
 
 **Per day:**
 
-- 3/day: dimension door, hold monster, DC 20, invisibility, magic missile, mark of justice
+- 3/day: dimension door, hold monster (DC 20), invisibility, magic missile, mark of justice
 - 1/day: plane shift, willing targets only, true seeing
 
 **Statistics**

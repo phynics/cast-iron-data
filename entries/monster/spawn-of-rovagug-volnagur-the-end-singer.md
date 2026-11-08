@@ -94,7 +94,7 @@ bleed, and blood rage), 6 wings +24 (2d8+6)
 
 **At will:**
 
-- acid fog, greater invisibility, song of discord, DC 20
+- acid fog, greater invisibility, song of discord (DC 20)
 
 **Per day:**
 

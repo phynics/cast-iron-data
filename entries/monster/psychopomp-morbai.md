@@ -86,11 +86,11 @@ opposite sides of her head._
 
 **At will:**
 
-- bleed, DC 11, delay poison, detect poison, disrupt undead, resistance, stabilize
+- bleed (DC 11), delay poison, detect poison, disrupt undead, resistance, stabilize
 
 **Per day:**
 
-- 1/day: accelerate poison, DC 13, contagion, DC 14, neutralize poison, poison, DC 14, remove
+- 1/day: accelerate poison (DC 13), contagion (DC 14), neutralize poison, poison (DC 14), remove
   disease
 
 **Statistics**

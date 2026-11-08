@@ -85,12 +85,12 @@ into terrifying jaws._
 
 **Constant:**
 
-- detect magic, detect thoughts, DC 18, read magic
+- detect magic, detect thoughts (DC 18), read magic
 
 **Per day:**
 
-- 3/day: charm monster, DC 19, daze monster, DC 17, hold monster, DC 20, hypnotic pattern, DC 18,
-  vampiric touch
+- 3/day: charm monster (DC 19), daze monster (DC 17), hold monster (DC 20), hypnotic pattern (DC
+  18), vampiric touch
 
 **Per week:**
 

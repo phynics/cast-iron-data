@@ -93,47 +93,47 @@ metamagic mastery (7/day), mythic spellpower, permanent shapechange, rapid prepa
 
 **8th-level spells:**
 
-- &maximized cone of cold, maze (mythic spell), polymorph any object, DC 33, power word stun, summon
-  monster VIII, =empty slot\#F
+- &maximized cone of cold, maze (mythic spell), polymorph any object (DC 33), power word stun,
+  summon monster VIII, =empty slot\#F
 
 **7th-level spells:**
 
-- &Q fireball (mythic spell), 2, DC 32, forcecage, DC 33, mage's sword, mass invisibility, summon
+- &Q fireball (mythic spell) (2, DC 32), forcecage (DC 33), mage's sword, mass invisibility, summon
   monster VII, =empty slot\#F
 
 **6th-level spells:**
 
-- chain lightning (mythic spell), DC 32, globe of invulnerability (mythic spell), mislead (mythic
-  spell), DC 31, &Q scorching ray (mythic spell), summon monster VI, true seeing, =empty slot\#F
+- chain lightning (mythic spell) (DC 32), globe of invulnerability (mythic spell), mislead (mythic
+  spell) (DC 31), &Q scorching ray (mythic spell), summon monster VI, true seeing, =empty slot\#F
 
 **5th-level spells:**
 
-- baleful polymorph, DC 30, cloudkill, DC 31, communal stoneskin, &Q entangle (mythic spell), DC 30,
-  mage's faithful hound, overland flight, =empty slot\#F
+- baleful polymorph (DC 30), cloudkill (DC 31), communal stoneskin, &Q entangle (mythic spell) (DC
+  30), mage's faithful hound, overland flight, =empty slot\#F
 
 **4th-level spells:**
 
-- communal protection from energy, DC 29, dimension door, enervation, mass enlarge person, DC 29,
+- communal protection from energy (DC 29), dimension door, enervation, mass enlarge person (DC 29),
   &maximized magic missile (mythic spell), wall of fire, =empty slot\#F
 
 **3rd-level spells:**
 
-- call lightning (mythic spell), 2, DC 29, communal resist energy, DC 28, fireball (mythic spell),
-  DC 29, haste (mythic spell), 2, lightning bolt, DC 29, =empty slot\#F
+- call lightning (mythic spell) (2, DC 29), communal resist energy (DC 28), fireball (mythic spell)
+  (DC 29), haste (mythic spell), 2, lightning bolt (DC 29), =empty slot\#F
 
 **2nd-level spells:**
 
-- barkskin, blur, communal protection from evil, forest friend, glitterdust, DC 28, mirror image, 2,
-  =empty slot\#F
+- barkskin, blur, communal protection from evil, forest friend, glitterdust (DC 28), mirror image,
+  2, =empty slot\#F
 
 **1st-level spells:**
 
-- entangle (mythic spell), 2, DC 26, expeditious retreat, feather fall, magic missile (mythic
+- entangle (mythic spell) (2, DC 26), expeditious retreat, feather fall, magic missile (mythic
   spell), obscuring mist (mythic spell), true strike, =empty slot\#F
 
 **Cantrips:**
 
-- ghost sound, DC 25, light, mage hand, prestidigitation
+- ghost sound (DC 25), light, mage hand, prestidigitation
 
 ###### F {#footnote-f}
 

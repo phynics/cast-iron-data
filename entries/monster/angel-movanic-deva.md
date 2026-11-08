@@ -87,13 +87,13 @@ greatsword._
 
 **At will:**
 
-- aid, discern lies, DC 18, dispel evil, DC 19, dispel magic, holy smite, DC 18, invisibility, self
-  only, plane shift, DC 19, remove curse, remove disease, remove fear
+- aid, discern lies (DC 18), dispel evil (DC 19), dispel magic, holy smite (DC 18), invisibility,
+  self only, plane shift (DC 19), remove curse, remove disease, remove fear
 
 **Per day:**
 
 - 7/day: cure serious wounds
-- 1/day: antimagic field, awaken, holy aura, DC 22
+- 1/day: antimagic field, awaken, holy aura (DC 22)
 
 **Statistics**
 

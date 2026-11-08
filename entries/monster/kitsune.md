@@ -95,7 +95,7 @@ _This elegantly dressed woman has the head and bushy tail of well-groomed fox._
 
 **1st-level spells:**
 
-- 4/day: charm person, DC 15, sleep, DC 17
+- 4/day: charm person (DC 15), sleep (DC 17)
 
 **Cantrips:**
 

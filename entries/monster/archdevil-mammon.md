@@ -93,19 +93,19 @@ drain, fire, necromancy effects, paralysis, petrification, poison, sleep effects
 
 **Constant:**
 
-- air walk, detect chaos, detect good, mind blank, shield of law, DC 29, true seeing
+- air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
 
 **At will:**
 
-- astral projection, beguiling gift, DC 22, desecrate (mythic spell), dictum (mythic spell), DC 28,
-  enter image, greater dispel magic, greater object possession, DC 30, greater teleport, order's
-  wrath (mythic spell), DC 25, possession, DC 26, unhallow
+- astral projection, beguiling gift (DC 22), desecrate (mythic spell), dictum (mythic spell) (DC
+  28), enter image, greater dispel magic, greater object possession (DC 30), greater teleport,
+  order's wrath (mythic spell) (DC 25), possession (DC 26), unhallow
 
 **Per day:**
 
-- 3/day: awaken construct, greater scrying, DC 28, polymorph any object, DC 29, &Q possession, DC
-  26, summon devils, sympathy, DC 29
-- 1/day: microcosm, DC 30, time stop (mythic spell), wish (mythic spell)
+- 3/day: awaken construct, greater scrying (DC 28), polymorph any object (DC 29), &Q possession (DC
+  26), summon devils, sympathy (DC 29)
+- 1/day: microcosm (DC 30), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

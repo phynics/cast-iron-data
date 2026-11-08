@@ -82,8 +82,8 @@ _This woman's fox-like tail and the wood-lined hollow inside her back reveal her
 
 **Per day:**
 
-- 3/day: charm person, DC 15, daze monster, DC 16, wood shape
-- 1/day: deep slumber, DC 17
+- 3/day: charm person (DC 15), daze monster (DC 16), wood shape
+- 1/day: deep slumber (DC 17)
 
 **Statistics**
 

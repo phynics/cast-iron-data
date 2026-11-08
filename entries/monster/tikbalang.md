@@ -89,12 +89,12 @@ long forelimbs with clawed fingers._
 
 **At will:**
 
-- ventriloquism, DC 15, invisibility
+- ventriloquism (DC 15), invisibility
 
 **Per day:**
 
-- 3/day: major image, DC 17
-- 1/day: fly, self only, mirage arcana, DC 19
+- 3/day: major image (DC 17)
+- 1/day: fly, self only, mirage arcana (DC 19)
 
 **Per week:**
 

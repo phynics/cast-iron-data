@@ -83,7 +83,7 @@ along its back that hold human brains._
 
 **3rd-level spells:**
 
-- 5/day: lightning bolt, DC 16, hold person, DC 16
+- 5/day: lightning bolt (DC 16), hold person (DC 16)
 
 **2nd-level spells:**
 
@@ -91,7 +91,7 @@ along its back that hold human brains._
 
 **1st-level spells:**
 
-- 7/day: grease, DC 14, magic missile, ray of enfeeblement, DC 14, shield, unseen servant
+- 7/day: grease (DC 14), magic missile, ray of enfeeblement (DC 14), shield, unseen servant
 
 **Cantrips:**
 

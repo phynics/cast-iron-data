@@ -80,7 +80,7 @@ _This great serpent has multicolored wings and eyes that glimmer with intense aw
 
 **At will:**
 
-- detect thoughts, DC 15, ethereal jaunt, CL 16th, invisibility, plane shift, DC 20
+- detect thoughts (DC 15), ethereal jaunt, CL 16th, invisibility, plane shift (DC 20)
 
 **Spells Known**
 
@@ -88,7 +88,7 @@ _This great serpent has multicolored wings and eyes that glimmer with intense aw
 
 **4th-level spells:**
 
-- 4/day: charm monster, DC 17, freedom of movement
+- 4/day: charm monster (DC 17), freedom of movement
 
 **3rd-level spells:**
 
@@ -96,7 +96,7 @@ _This great serpent has multicolored wings and eyes that glimmer with intense aw
 
 **2nd-level spells:**
 
-- 7/day: cure moderate wounds, eagle's splendor, scorching ray, silence, DC 15
+- 7/day: cure moderate wounds, eagle's splendor, scorching ray, silence (DC 15)
 
 **1st-level spells:**
 

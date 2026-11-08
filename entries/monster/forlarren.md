@@ -74,7 +74,7 @@ with a sinister expression._
 
 **Per day:**
 
-- 3/day: heat metal, DC 11
+- 3/day: heat metal (DC 11)
 
 **Statistics**
 

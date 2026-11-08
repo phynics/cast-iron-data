@@ -82,7 +82,7 @@ beak and powerful talons are instead adorned with dried blood and gore._
 
 **Per day:**
 
-- 3/day: entropic shield, ventriloquism, DC 13
+- 3/day: entropic shield, ventriloquism (DC 13)
 
 **Statistics**
 

@@ -95,7 +95,7 @@ its skin._
 
 **At will:**
 
-- remove paralysis, water breathing, zone of truth, DC 18
+- remove paralysis, water breathing, zone of truth (DC 18)
 
 **Per day:**
 

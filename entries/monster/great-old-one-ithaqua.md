@@ -111,13 +111,14 @@ mind-affecting effects, paralysis, petrification, storms
 
 **At will:**
 
-- control weather, as druid, control winds, dimension door, dream, gust of wind, DC 22, ice storm,
-  nightmare, DC 25, whispering wind, wind walk, DC 36
+- control weather, as druid, control winds, dimension door, dream, gust of wind (DC 22), ice storm,
+  nightmare (DC 25), whispering wind, wind walk (DC 36)
 
 **Per day:**
 
-- 3/day: demand, DC 28, &Q feeblemind, DC 25, &Q gust of wind, DC 22, &S, level 9; 2d4 wendigos 100%
-- 1/day: interplanetary teleport, arctic regions only, storm of vengeance, DC 29, whirlwind, DC 28
+- 3/day: demand (DC 28), &Q feeblemind (DC 25), &Q gust of wind (DC 22), &S, level 9; 2d4 wendigos
+  100%
+- 1/day: interplanetary teleport, arctic regions only, storm of vengeance (DC 29), whirlwind (DC 28)
 
 **Statistics**
 

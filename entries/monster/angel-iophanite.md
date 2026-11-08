@@ -96,7 +96,7 @@ _This disc of flying metal is about the size of a wagon wheel and burns with yel
 
 **Per day:**
 
-- 3/day: burning hands, DC 12, expeditious retreat
+- 3/day: burning hands (DC 12), expeditious retreat
 - 1/day: scorching ray
 
 **Statistics**

@@ -90,7 +90,7 @@ spidery legs._
 
 **At will:**
 
-- darkness, telekinesis, DC 18, tree shape
+- darkness, telekinesis (DC 18), tree shape
 
 **Per year:**
 

@@ -110,7 +110,7 @@ negative levels, paralysis, permanent wounds, petrification, poison, polymorph
 
 **Per day:**
 
-- 3/day: tsunami, DC 21
+- 3/day: tsunami (DC 21)
 
 **Statistics**
 

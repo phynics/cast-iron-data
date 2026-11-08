@@ -92,7 +92,7 @@ abilities = ["37", "8", "26", "20", "21", "20"]
 
 **At will:**
 
-- animate plants, entangle, DC 16, blight, DC 20, pass without trace, tree stride
+- animate plants, entangle (DC 16), blight (DC 20), pass without trace, tree stride
 
 **Spells Known**
 
@@ -102,35 +102,35 @@ abilities = ["37", "8", "26", "20", "21", "20"]
 
 **7th-level spells:**
 
-- 4/day: power word blind, waves of exhaustion, DC 22
+- 4/day: power word blind, waves of exhaustion (DC 22)
 
 **6th-level spells:**
 
-- 6/day: acid fog, disintegrate, DC 21, move earth
+- 6/day: acid fog, disintegrate (DC 21), move earth
 
 **5th-level spells:**
 
-- 7/day: baleful polymorph, DC 20, cloudkill, DC 20, feeblemind, DC 20, passwall
+- 7/day: baleful polymorph (DC 20), cloudkill (DC 20), feeblemind (DC 20), passwall
 
 **4th-level spells:**
 
-- 7/day: bestow curse, DC 19, charm monster, DC 19, solid fog, stone shape
+- 7/day: bestow curse (DC 19), charm monster (DC 19), solid fog, stone shape
 
 **3rd-level spells:**
 
-- 7/day: lightning bolt, DC 18, wind wall, slow, DC 18, stinking cloud, DC 18
+- 7/day: lightning bolt (DC 18), wind wall, slow (DC 18), stinking cloud (DC 18)
 
 **2nd-level spells:**
 
-- 7/day: fog cloud, glitterdust, DC 17, hideous laughter, DC 17, invisibility, touch of idiocy
+- 7/day: fog cloud, glitterdust (DC 17), hideous laughter (DC 17), invisibility, touch of idiocy
 
 **1st-level spells:**
 
-- 8/day: hypnotism, DC 16, obscuring mist, magic missile, ray of enfeeblement, DC 16, shield
+- 8/day: hypnotism (DC 16), obscuring mist, magic missile, ray of enfeeblement (DC 16), shield
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 15, detect magic, ghost sound, mage hand, mending, read magic,
+- At will: dancing lights, daze (DC 15), detect magic, ghost sound, mage hand, mending, read magic,
   resistance, touch of fatigue
 
 **Statistics**

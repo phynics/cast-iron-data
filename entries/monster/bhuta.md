@@ -85,11 +85,11 @@ and its eyes glow with blue fire._
 
 **At will:**
 
-- animal trance, DC 18, speak with animals, veil, self only, as animal with backward feet; DC 22
+- animal trance (DC 18), speak with animals, veil, self only, as animal with backward feet; DC 22
 
 **Per day:**
 
-- 3/day: charm animal, DC 17
+- 3/day: charm animal (DC 17)
 - 1/day: magic jar, animals only; DC 21
 
 **Statistics**

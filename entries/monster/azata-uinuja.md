@@ -98,7 +98,7 @@ tangle of night-blue hair._
 
 **At will:**
 
-- deep slumber, DC 18, invisibility
+- deep slumber (DC 18), invisibility
 
 **Psychic Magic**
 

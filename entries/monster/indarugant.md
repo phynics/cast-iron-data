@@ -97,8 +97,8 @@ flesh)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 18, blindness/deafness, DC 17
-- 1/day: cone of cold, DC 19
+- 3/day: bestow curse (DC 18), blindness/deafness (DC 17)
+- 1/day: cone of cold (DC 19)
 
 **Statistics**
 

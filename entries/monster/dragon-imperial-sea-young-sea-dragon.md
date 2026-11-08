@@ -97,7 +97,7 @@ ocean's waves._
 
 **1st-level spells:**
 
-- 4/day: color spray, DC 14, sleep, DC 14
+- 4/day: color spray (DC 14), sleep (DC 14)
 
 **Cantrips:**
 

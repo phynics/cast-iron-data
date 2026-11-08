@@ -96,9 +96,9 @@ in the center of its chest._
 
 **Per day:**
 
-- 3/day: &Q hold person, DC 16
+- 3/day: &Q hold person (DC 16)
 - 1/day: &S level 4; 1d4 [dire apes](ref/monster/ape-dire-ape-gigantopithecus) 50% or 1d2
-  [girallons](ref/monster/girallon) 35%, unholy blight, DC 17
+  [girallons](ref/monster/girallon) 35%, unholy blight (DC 17)
 
 **Statistics**
 

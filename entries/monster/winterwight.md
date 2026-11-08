@@ -93,7 +93,7 @@ in jagged sheets of ice._
 
 **At will:**
 
-- cone of cold, DC 24, dimension door, greater dispel magic, sleet storm, wall of ice
+- cone of cold (DC 24), dimension door, greater dispel magic, sleet storm, wall of ice
 
 **Per day:**
 

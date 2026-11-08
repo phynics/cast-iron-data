@@ -81,7 +81,7 @@ and its hands have too few fingers._
 **Per day:**
 
 - 3/day: dimension door, invisibility, self only
-- 1/day: plane shift, DC 17
+- 1/day: plane shift (DC 17)
 
 **Statistics**
 

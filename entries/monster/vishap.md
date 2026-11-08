@@ -111,7 +111,7 @@ wings +28 (2d8+6), 2 claws +30 (2d8+13 plus grab)
 
 **Per day:**
 
-- 5/day: greater create mindscape, greater possession, DC 25
+- 5/day: greater create mindscape, greater possession (DC 25)
 
 **Spells Known**
 
@@ -121,34 +121,34 @@ wings +28 (2d8+6), 2 claws +30 (2d8+13 plus grab)
 
 **7th-level spells:**
 
-- 1/day: ethereal envelopment, DC 24, psychic crush III, DC 24
+- 1/day: ethereal envelopment (DC 24), psychic crush III (DC 24)
 
 **6th-level spells:**
 
-- 2/day: ego whip IV, DC 23, psychic surgery
+- 2/day: ego whip IV (DC 23), psychic surgery
 
 **5th-level spells:**
 
-- 3/day: etheric shards, DC 22, explode head, DC 22, id insinuation IV, DC 22, wall of ectoplasm
+- 3/day: etheric shards (DC 22), explode head (DC 22), id insinuation IV (DC 22), wall of ectoplasm
 
 **4th-level spells:**
 
-- 5/day: condensed ether, mind probe, DC 21, mindwipe, DC 21, synaptic scramble, DC 21, thought
+- 5/day: condensed ether, mind probe (DC 21), mindwipe (DC 21), synaptic scramble (DC 21), thought
   shield III, thoughtsense
 
 **3rd-level spells:**
 
-- 6/day: analyze aura, ectoplasmic snare, node of blasting, DC 20, purge spirit, mindscape door,
-  synaptic pulse, DC 20
+- 6/day: analyze aura, ectoplasmic snare, node of blasting (DC 20), purge spirit, mindscape door,
+  synaptic pulse (DC 20)
 
 **2nd-level spells:**
 
-- 7/day: anticipate thoughts, aversion, DC 19, demand offering, DC 19, detect mindscape,
-  hypercognition, instigate psychic duel, DC 19, mental block, DC 19
+- 7/day: anticipate thoughts, aversion (DC 19), demand offering (DC 19), detect mindscape,
+  hypercognition, instigate psychic duel (DC 19), mental block (DC 19)
 
 **1st-level spells:**
 
-- 7/day: burst of adrenaline, charge object, decrepit disguise, DC 18, deja vu, mindlink, psychic
+- 7/day: burst of adrenaline, charge object, decrepit disguise (DC 18), deja vu, mindlink, psychic
   reading, telempathic projection
 
 **Statistics**

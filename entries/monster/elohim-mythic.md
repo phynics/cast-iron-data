@@ -107,14 +107,14 @@ single winged entity._
 
 **At will:**
 
-- baleful polymorph, DC 22, charm monster, DC 21, etherealness, rest eternal, shapechange, stone
+- baleful polymorph (DC 22), charm monster (DC 21), etherealness, rest eternal, shapechange, stone
   shape, greater teleport, self plus 50 lbs. of objects only
 
 **Per day:**
 
-- 5/day: control weather, greater dispel magic, greater polymorph, heal, plane shift, DC 24,
+- 5/day: control weather, greater dispel magic, greater polymorph, heal, plane shift (DC 24),
   terraform
-- 3/day: circle of death, DC 23, disintegrate, DC 23, power word stun
+- 3/day: circle of death (DC 23), disintegrate (DC 23), power word stun
 - 1/day: create demiplane, mage's disjunction
 
 **Statistics**

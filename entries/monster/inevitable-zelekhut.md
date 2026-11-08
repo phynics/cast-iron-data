@@ -90,16 +90,16 @@ its arms end in barbed chains._
 
 **At will:**
 
-- clairaudience/clairvoyance, dimensional anchor, dispel magic, fear, DC 17, hold person, DC 16,
+- clairaudience/clairvoyance, dimensional anchor, dispel magic, fear (DC 17), hold person (DC 16),
   locate creature
 
 **Per day:**
 
-- 3/day: hold monster, DC 18, mark of justice
+- 3/day: hold monster (DC 18), mark of justice
 
 **Per week:**
 
-- lesser geas, DC 17
+- lesser geas (DC 17)
 
 **Statistics**
 

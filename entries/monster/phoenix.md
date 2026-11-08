@@ -97,7 +97,7 @@ musical cry as it takes to the air._
 
 **Per day:**
 
-- 3/day: fire storm, DC 24, greater restoration, heal, mass cure critical wounds, &Q wall of fire
+- 3/day: fire storm (DC 24), greater restoration, heal, mass cure critical wounds, &Q wall of fire
 
 **Statistics**
 

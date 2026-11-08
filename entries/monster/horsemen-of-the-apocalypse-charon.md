@@ -106,20 +106,20 @@ mind-affecting effects, petrification, poison
 
 **Constant:**
 
-- air walk, detect good, freedom of movement, true seeing, unholy aura, DC 30, water walk
+- air walk, detect good, freedom of movement, true seeing, unholy aura (DC 30), water walk
 
 **At will:**
 
-- animate dead (mythic spell), astral projection, blasphemy (mythic spell), DC 29, circle of death
-  (mythic spell), DC 28, control undead, DC 29, create greater undead, create undead, desecrate
-  (mythic spell), greater dispel magic, greater teleport, shapechange, telekinesis (mythic spell),
-  DC 27, unhallow, unholy blight (mythic spell), DC 26
+- animate dead (mythic spell), astral projection, blasphemy (mythic spell) (DC 29), circle of death
+  (mythic spell) (DC 28), control undead (DC 29), create greater undead, create undead, desecrate
+  (mythic spell), greater dispel magic, greater teleport, shapechange, telekinesis (mythic spell)
+  (DC 27), unhallow, unholy blight (mythic spell) (DC 26)
 
 **Per day:**
 
-- 3/day: &Q circle of death (mythic spell), DC 28, plane shift (mythic spell), DC 29, soul bind, DC
-  31, summon daemon, symbol of death, DC 30, &Q telekinesis (mythic spell), DC 27, wail of the
-  banshee, DC 31
+- 3/day: &Q circle of death (mythic spell) (DC 28), plane shift (mythic spell) (DC 29), soul bind
+  (DC 31), summon daemon, symbol of death (DC 30), &Q telekinesis (mythic spell) (DC 27), wail of
+  the banshee (DC 31)
 - 1/day: time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}

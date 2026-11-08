@@ -96,8 +96,8 @@ glistening with blue energy._
 
 **Per day:**
 
-- 3/day: chain lightning, DC 21, dominate person, DC 20, summon monster IX, 1d4+1 dire sharks only
-- 1/day: call lightning storm, DC 20, control weather, control winds, dominate monster, DC 24;
+- 3/day: chain lightning (DC 21), dominate person (DC 20), summon monster IX, 1d4+1 dire sharks only
+- 1/day: call lightning storm (DC 20), control weather, control winds, dominate monster, DC 24;
   animal only, greater teleport, resist energy
 
 **Statistics**

@@ -78,11 +78,11 @@ _This graceful creature combines the features of a human and a river dolphin._
 
 **At will:**
 
-- charm person, DC 16, suggestion, DC 18, unnatural lust, DC 17
+- charm person (DC 16), suggestion (DC 18), unnatural lust (DC 17)
 
 **Per day:**
 
-- 3/day: charm monster, DC 18, confusion, DC 19, daze monster, DC 17
+- 3/day: charm monster (DC 18), confusion (DC 19), daze monster (DC 17)
 
 **Per week:**
 

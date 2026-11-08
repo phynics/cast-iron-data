@@ -89,12 +89,12 @@ origin._
 
 **At will:**
 
-- charm person, DC 16, detect thoughts, DC 17, greater teleport, self plus 50 lbs. of objects only,
-  suggestion, DC 18
+- charm person (DC 16), detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects
+  only, suggestion (DC 18)
 
 **Per day:**
 
-- 1/day: crushing despair, DC 19, &S level 3; 2 schirs 40%
+- 1/day: crushing despair (DC 19), &S level 3; 2 schirs 40%
 
 **Statistics**
 

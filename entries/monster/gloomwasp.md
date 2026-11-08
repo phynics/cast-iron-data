@@ -86,7 +86,7 @@ _The stinger and antennae of this dog-sized wasp pulsate with a dim, violet ligh
 
 **Per day:**
 
-- 1/day: dancing lights, dust of twilight, DC 15, light
+- 1/day: dancing lights, dust of twilight (DC 15), light
 
 **Statistics**
 

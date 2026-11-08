@@ -90,7 +90,7 @@ eyes that glow with ancient, forbidden power._
 
 **At will:**
 
-- astral projection, self only, detect thoughts, DC 18, hold monster, DC 21, modify memory, DC 21
+- astral projection, self only, detect thoughts (DC 18), hold monster (DC 21), modify memory (DC 21)
 
 **Psychic Magic**
 

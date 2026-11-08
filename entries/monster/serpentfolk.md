@@ -73,11 +73,11 @@ _This serpentine humanoid has bright scaly skin, a long sinuous tail, and a fang
 
 **At will:**
 
-- disguise self, humanoid form only, DC 14, ventriloquism
+- disguise self (humanoid form only, DC 14), ventriloquism
 
 **Per day:**
 
-- 1/day: blur, mirror image, suggestion, DC 16
+- 1/day: blur, mirror image, suggestion (DC 16)
 
 **Statistics**
 

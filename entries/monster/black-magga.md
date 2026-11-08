@@ -99,12 +99,12 @@ Massacre pg 88\
 
 **At will:**
 
-- death knell, DC 17, prayer
+- death knell (DC 17), prayer
 
 **Per day:**
 
-- 3/day: demand, DC 23, dimensional anchor, divination, dominate person, DC 20, greater command, DC
-  20
+- 3/day: demand (DC 23), dimensional anchor, divination, dominate person (DC 20), greater command
+  (DC 20)
 - 1/day: commune, dream, unhallow
 
 **Statistics**

@@ -87,7 +87,7 @@ than a colorful silk sarong and a thin, flexible blade worn as a belt._
 
 **5th-level spells:**
 
-- 3/day: wall of stone, DC 17
+- 3/day: wall of stone (DC 17)
 
 **4th-level spells:**
 
@@ -95,7 +95,7 @@ than a colorful silk sarong and a thin, flexible blade worn as a belt._
 
 **3rd-level spells:**
 
-- 6/day: dispel magic, lightning bolt, DC 15, protection from energy
+- 6/day: dispel magic, lightning bolt (DC 15), protection from energy
 
 **2nd-level spells:**
 
@@ -103,12 +103,12 @@ than a colorful silk sarong and a thin, flexible blade worn as a belt._
 
 **1st-level spells:**
 
-- 7/day: expeditious retreat, identify, mage armor, magic aura, ray of enfeeblement, DC 13
+- 7/day: expeditious retreat, identify, mage armor, magic aura, ray of enfeeblement (DC 13)
 
 **Cantrips:**
 
-- At will: acid splash, bleed, DC 12, detect magic, ghost sound, DC 12, mage hand, mending, message,
-  open/close, read magic
+- At will: acid splash, bleed (DC 12), detect magic, ghost sound (DC 12), mage hand, mending,
+  message, open/close, read magic
 
 **Statistics**
 

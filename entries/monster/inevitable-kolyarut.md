@@ -80,12 +80,12 @@ _Beneath its cloak, this man-shaped creature appears to be part statue and part 
 
 **At will:**
 
-- discern lies, DC 17, disguise self, enervation, fear, DC 17, hold person, DC 16, invisibility,
-  self only, locate creature, suggestion, DC 16, vampiric touch
+- discern lies (DC 17), disguise self, enervation, fear (DC 17), hold person (DC 16), invisibility,
+  self only, locate creature, suggestion (DC 16), vampiric touch
 
 **Per day:**
 
-- 3/day: hold monster, DC 18, mark of justice, &Q suggestion, DC 16
+- 3/day: hold monster (DC 18), mark of justice, &Q suggestion (DC 16)
 
 **Per week:**
 

@@ -86,7 +86,7 @@ wings are sheets of flexible glass._
 
 **At will:**
 
-- color spray, DC 15
+- color spray (DC 15)
 
 **Statistics**
 

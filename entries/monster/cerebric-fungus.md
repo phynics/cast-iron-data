@@ -93,15 +93,15 @@ mouth bisects the bulb's crown._
 
 **Constant:**
 
-- detect thoughts, DC 14
+- detect thoughts (DC 14)
 
 **At will:**
 
-- touch of madness, DC 14
+- touch of madness (DC 14)
 
 **Per day:**
 
-- 3/day: calm emotions, DC 14, touch of idiocy, DC 14
+- 3/day: calm emotions (DC 14), touch of idiocy (DC 14)
 
 **Statistics**
 

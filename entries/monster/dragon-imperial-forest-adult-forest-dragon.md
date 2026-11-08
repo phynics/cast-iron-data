@@ -92,7 +92,7 @@ abilities = ["29", "10", "22", "16", "17", "16"]
 
 **At will:**
 
-- blight, DC 18, entangle, DC 14, pass without trace
+- blight (DC 18), entangle (DC 14), pass without trace
 
 **Spells Known**
 
@@ -102,19 +102,19 @@ abilities = ["29", "10", "22", "16", "17", "16"]
 
 **3rd-level spells:**
 
-- 5/day: wind wall, stinking cloud, DC 16
+- 5/day: wind wall, stinking cloud (DC 16)
 
 **2nd-level spells:**
 
-- 7/day: fog cloud, hideous laughter, DC 15, touch of idiocy
+- 7/day: fog cloud, hideous laughter (DC 15), touch of idiocy
 
 **1st-level spells:**
 
-- 7/day: hypnotism, DC 14, obscuring mist, magic missile, ray of enfeeblement, DC 14, shield
+- 7/day: hypnotism (DC 14), obscuring mist, magic missile, ray of enfeeblement (DC 14), shield
 
 **Cantrips:**
 
-- At will: daze, DC 13, detect magic, ghost sound, mage hand, read magic, resistance, touch of
+- At will: daze (DC 13), detect magic, ghost sound, mage hand, read magic, resistance, touch of
   fatigue
 
 **Statistics**

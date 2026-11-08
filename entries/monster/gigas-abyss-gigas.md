@@ -95,11 +95,11 @@ wrenching spasms)
 
 **At will:**
 
-- deeper darkness, fear, DC 15, mirror image
+- deeper darkness, fear (DC 15), mirror image
 
 **Per day:**
 
-- 3/day: dispel magic, dominate person, DC 17, telekinesis, DC 17, true seeing
+- 3/day: dispel magic, dominate person (DC 17), telekinesis (DC 17), true seeing
 
 **Statistics**
 

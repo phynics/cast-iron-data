@@ -78,11 +78,11 @@ _Delicate antennae extend from the forehead of this lithe woman._
 
 **At will:**
 
-- daze, DC 13, mage hand
+- daze (DC 13), mage hand
 
 **Per day:**
 
-- 1/day: detect thoughts, DC 15
+- 1/day: detect thoughts (DC 15)
 
 **Prepared Spells**
 
@@ -92,11 +92,11 @@ _Delicate antennae extend from the forehead of this lithe woman._
 
 **1st-level spells:**
 
-- charm person, DC 14, mage armor, magic missile
+- charm person (DC 14), mage armor, magic missile
 
 **Cantrips:**
 
-- acid splash, detect magic, flare, DC 13, read magic
+- acid splash, detect magic, flare (DC 13), read magic
 
 **Statistics**
 

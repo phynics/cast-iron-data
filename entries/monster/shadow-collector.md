@@ -80,13 +80,13 @@ frame her youthful features._
 
 **At will:**
 
-- dancing lights, disguise self, major image, DC 17, shadow evocation, simulating leashed shackles
+- dancing lights, disguise self, major image (DC 17), shadow evocation, simulating leashed shackles
   only; DC 19, shadow step
 
 **Per day:**
 
-- 3/day: shadow conjuration, DC 18
-- 1/day: shadow evocation, DC 19, shadow walk
+- 3/day: shadow conjuration (DC 18)
+- 1/day: shadow evocation (DC 19), shadow walk
 
 **Statistics**
 

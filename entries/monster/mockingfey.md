@@ -74,7 +74,7 @@ _This tiny avian has the head of a humanoid and the body of a brilliantly colore
 
 **At will:**
 
-- daze, DC 11
+- daze (DC 11)
 
 **Statistics**
 

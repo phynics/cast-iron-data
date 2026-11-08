@@ -107,7 +107,7 @@ serpent slithers forward with a silent, unearthly grace._
 
 **Per day:**
 
-- 1/day: horrid wilting, DC 24, waves of exhaustion
+- 1/day: horrid wilting (DC 24), waves of exhaustion
 
 **Statistics**
 

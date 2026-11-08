@@ -98,14 +98,14 @@ island heaved up from below._
 
 **At will:**
 
-- confusion, DC 21, contagion, DC 21, deeper darkness, greater dispel magic, invisibility, unholy
-  blight, DC 21
+- confusion (DC 21), contagion (DC 21), deeper darkness, greater dispel magic, invisibility, unholy
+  blight (DC 21)
 
 **Per day:**
 
-- 3/day: &Q cone of cold, DC 22, finger of death, DC 24, haste, hold monster, DC 22
-- 1/day: mass hold monster, DC 26, plane shift, DC 24, &S level 9; 1 nightwing, wail of the banshee,
-  DC 26
+- 3/day: &Q cone of cold (DC 22), finger of death (DC 24), haste, hold monster (DC 22)
+- 1/day: mass hold monster (DC 26), plane shift (DC 24), &S level 9; 1 nightwing, wail of the
+  banshee (DC 26)
 
 **Statistics**
 

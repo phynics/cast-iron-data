@@ -96,8 +96,8 @@ wield several exotic weapons._
 
 **Per day:**
 
-- 3/day: deeper darkness, levitate, rainbow pattern, DC 18
-- 1/day: haste, hold monster, DC 19, &S level 4; 2 [adhukaits](ref/monster/asura-adhukait) 45% or 1
+- 3/day: deeper darkness, levitate, rainbow pattern (DC 18)
+- 1/day: haste, hold monster (DC 19), &S level 4; 2 [adhukaits](ref/monster/asura-adhukait) 45% or 1
   upasunda 20%
 
 **Statistics**

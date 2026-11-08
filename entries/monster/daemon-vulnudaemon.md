@@ -89,8 +89,8 @@ childlike horror._
 
 **Per day:**
 
-- 3/day: blur, death knell, DC 15, invisibility, minor image, DC 15
-- 1/day: inflict critical wounds, DC 17, &S level 2; 1d4
+- 3/day: blur, death knell (DC 15), invisibility, minor image (DC 15)
+- 1/day: inflict critical wounds (DC 17), &S level 2; 1d4
   [cacodaemons](ref/monster/daemon-cacodaemon) 40%
 
 **Statistics**

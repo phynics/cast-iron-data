@@ -102,8 +102,8 @@ temporal insight, temporal mastery
 
 **Per day:**
 
-- 3/day: disintegrate, DC 23, &Q dispel magic, persistent image, DC 22, &Q slow, DC 20
-- 1/day: divination, heal, temporal stasis, DC 25, time stop
+- 3/day: disintegrate (DC 23), &Q dispel magic, persistent image (DC 22), &Q slow (DC 20)
+- 1/day: divination, heal, temporal stasis (DC 25), time stop
 
 **Per year:**
 

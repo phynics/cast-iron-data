@@ -85,11 +85,11 @@ hands are visible._
 
 **At will:**
 
-- bleed, DC 12, chill touch, DC 13, darkness, spectral hand
+- bleed (DC 12), chill touch (DC 13), darkness, spectral hand
 
 **Per day:**
 
-- 3/day: daze monster, DC 14, death knell, DC 14, inflict moderate wounds, DC 14
+- 3/day: daze monster (DC 14), death knell (DC 14), inflict moderate wounds (DC 14)
 
 **Statistics**
 

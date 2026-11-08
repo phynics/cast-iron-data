@@ -100,7 +100,7 @@ craters on its rock-like surface._
 **Per day:**
 
 - 3/day: clairaudience/clairvoyance, control water, divination
-- 1/day: commune, dream, scrying, DC 18
+- 1/day: commune, dream, scrying (DC 18)
 
 **Statistics**
 

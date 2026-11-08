@@ -83,7 +83,7 @@ looks unsettlingly like that of a gnome._
 
 **Per day:**
 
-- 3/day: entangle, DC 16
+- 3/day: entangle (DC 16)
 - 1/day: plant growth
 
 **Statistics**

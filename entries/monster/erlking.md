@@ -104,7 +104,7 @@ _[protection from evil](ref/spell/protection-from-evil)_ and _law_
 
 - 3/day: animate plants, black tentacles, cure critical wounds, haste, ironwood, move earth, plant
   growth, summon nature's ally VI, &S level 6; 1d4+1 centaurs or 1 treant 100%, tree stride
-- 1/day: finger of death, DC 23, repel metal or stone, summon nature's ally IX
+- 1/day: finger of death (DC 23), repel metal or stone, summon nature's ally IX
 
 **Statistics**
 

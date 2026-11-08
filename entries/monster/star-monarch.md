@@ -100,8 +100,8 @@ trails behind the creature._
 
 **Per day:**
 
-- 3/day: deep slumber, DC 17, dream, wandering star motes, DC 18
-- 1/day: cloak of dreams, DC 20
+- 3/day: deep slumber (DC 17), dream, wandering star motes (DC 18)
+- 1/day: cloak of dreams (DC 20)
 
 **Statistics**
 

@@ -99,7 +99,7 @@ _Within this elaborate suit of armor can be seen the partial form of a determine
 
 - 3/day: alarm, breath of life, dispel magic, neutralize poison, remove curse, remove disease,
   restoration
-- 1/day: dispel evil, DC 20, heal, true seeing
+- 1/day: dispel evil (DC 20), heal, true seeing
 
 **Statistics**
 

@@ -102,7 +102,7 @@ and AC, +7 damage
 
 **1st-level spells:**
 
-- disguise self, inflict light wounds, DC 15
+- disguise self, inflict light wounds (DC 15)
 
 ### Tactics
 

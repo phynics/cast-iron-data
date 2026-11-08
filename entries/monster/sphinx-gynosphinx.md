@@ -85,8 +85,9 @@ human woman._
 
 **Per week:**
 
-- \^any one of the following:, symbol of fear, DC 20, symbol of pain, DC 19, symbol of persuasion,
-  DC 20, symbol of sleep, DC 19, symbol of stunning, DC 21, $; all symbols last for 1 week maximum
+- \^any one of the following:, symbol of fear (DC 20), symbol of pain (DC 19), symbol of persuasion
+  (DC 20), symbol of sleep (DC 19), symbol of stunning (DC 21), $; all symbols last for 1 week
+  maximum
 
 **Statistics**
 

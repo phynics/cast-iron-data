@@ -87,7 +87,7 @@ one studies its twitching visage._
 
 **Per day:**
 
-- 3/day: detect thoughts, DC 17, hypnotic pattern, DC 17, levitate, minor image, DC 17
+- 3/day: detect thoughts (DC 17), hypnotic pattern (DC 17), levitate, minor image (DC 17)
 - 1/day: locate object, plane shift, DC 20; self only
 
 **Statistics**

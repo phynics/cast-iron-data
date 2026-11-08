@@ -86,12 +86,12 @@ soil._
 
 **At will:**
 
-- ghost sound, DC 15, telekinesis, DC 20
+- ghost sound (DC 15), telekinesis (DC 20)
 
 **Per day:**
 
-- 3/day: &Q death knell, DC 17, phantasmal killer, DC 19, wall of ectoplasm, DC 20
-- 1/day: harm, DC 21
+- 3/day: &Q death knell (DC 17), phantasmal killer (DC 19), wall of ectoplasm (DC 20)
+- 1/day: harm (DC 21)
 
 **Statistics**
 

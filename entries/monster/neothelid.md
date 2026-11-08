@@ -89,12 +89,12 @@ head rises like a snake's._
 
 **At will:**
 
-- detect thoughts, DC 17, charm monster, DC 19, clairvoyance/clairaudience, suggestion, DC 18,
-  telekinesis, DC 20, teleport, poison, DC 19
+- detect thoughts (DC 17), charm monster (DC 19), clairvoyance/clairaudience, suggestion (DC 18),
+  telekinesis (DC 20), teleport, poison (DC 19)
 
 **Per day:**
 
-- 3/day: &Q suggestion, DC 18
+- 3/day: &Q suggestion (DC 18)
 
 **Statistics**
 

@@ -116,13 +116,13 @@ crown its head._
 
 **At will:**
 
-- bestow curse, DC 18, bless, control water, create water, move earth, neutralize poison, prayer,
+- bestow curse (DC 18), bless, control water, create water, move earth, neutralize poison, prayer,
   water breathing
 
 **Per day:**
 
-- 3/day: antipathy, DC 24, baleful polymorph, DC 20, control weather, rain only, greater teleport,
-  self only, haste, heal, polymorph, prismatic wall, DC 23, raise dead, slow, DC 18
+- 3/day: antipathy (DC 24), baleful polymorph (DC 20), control weather, rain only, greater teleport,
+  self only, haste, heal, polymorph, prismatic wall (DC 23), raise dead, slow (DC 18)
 
 **Statistics**
 

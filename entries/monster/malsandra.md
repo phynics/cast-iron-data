@@ -110,11 +110,11 @@ touch +17 (stagger), 4 tresses +17 (2d6+3 plus [grab](ref/umr/grab))
 
 **At will:**
 
-- entangle, DC 19, fog cloud, invisibility
+- entangle (DC 19), fog cloud, invisibility
 
 **Per day:**
 
-- 3/day: &Q charm monster, DC 22, control water
+- 3/day: &Q charm monster (DC 22), control water
 - 1/day: summon nature's ally VI, water elementals only
 
 **Statistics**

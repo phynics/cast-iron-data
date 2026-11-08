@@ -97,11 +97,11 @@ of pale blue mist._
 
 **At will:**
 
-- mass invisibility, self only, speak with dead, DC 21
+- mass invisibility, self only, speak with dead (DC 21)
 
 **Per day:**
 
-- 3/day: call spirit, DC 23, confusion, DC 22
+- 3/day: call spirit (DC 23), confusion (DC 22)
 - 1/day: plane shift, swarm counts as one creature; DC 27
 
 **Statistics**

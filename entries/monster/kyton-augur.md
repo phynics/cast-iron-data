@@ -92,11 +92,11 @@ exterior of this tiny flying orb._
 
 **At will:**
 
-- bleed, DC 8, mage hand, open/close
+- bleed (DC 8), mage hand, open/close
 
 **Per day:**
 
-- 3/day: inflict light wounds, DC 9
+- 3/day: inflict light wounds (DC 9)
 
 **Per week:**
 

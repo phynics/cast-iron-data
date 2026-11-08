@@ -74,11 +74,11 @@ abilities = ["10", "22", "21", "22", "13", "18"]
 
 **At will:**
 
-- disguise self, DC 15, humanoid form only, ventriloquism, DC 15
+- disguise self (DC 15), humanoid form only, ventriloquism (DC 15)
 
 **Per day:**
 
-- 1/day: blur, dominate person, DC 19, major image, DC 17, mirror image, suggestion, DC 17
+- 1/day: blur, dominate person (DC 19), major image (DC 17), mirror image, suggestion (DC 17)
 
 **Spell-Like Abilities**
 
@@ -98,12 +98,12 @@ abilities = ["10", "22", "21", "22", "13", "18"]
 
 **2nd-level spells:**
 
-- blindness/deafness, DC 18, detect thoughts, DC 18, illusion of calm, DC 19, invisibility,
+- blindness/deafness (DC 18), detect thoughts (DC 18), illusion of calm (DC 19), invisibility,
   pernicious poison
 
 **1st-level spells:**
 
-- color spray, 2, DC 18, hypnotism, DC 18, shield, silent image, DC 18, vanish
+- color spray (2, DC 18), hypnotism (DC 18), shield, silent image (DC 18), vanish
 
 **Cantrips:**
 

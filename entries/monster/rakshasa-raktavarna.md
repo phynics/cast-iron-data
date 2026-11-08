@@ -85,7 +85,7 @@ red-eyed serpent._
 
 **Per day:**
 
-- 1/day: charm person, DC 13, suggestion, DC 15
+- 1/day: charm person (DC 13), suggestion (DC 15)
 
 **Per week:**
 

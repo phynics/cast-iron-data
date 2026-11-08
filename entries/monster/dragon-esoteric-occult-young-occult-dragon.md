@@ -96,7 +96,7 @@ always on the lookout._
 
 **1st-level spells:**
 
-- 4/day: mage armor, sleep, DC 14
+- 4/day: mage armor, sleep (DC 14)
 
 **Cantrips:**
 

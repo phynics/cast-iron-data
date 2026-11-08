@@ -94,23 +94,23 @@ _This snake-bodied creature has five necks, each with a regal, humanoid face in 
 
 **4th-level spells:**
 
-- 5/day: arcane eye, charm monster, DC 18
+- 5/day: arcane eye, charm monster (DC 18)
 
 **3rd-level spells:**
 
-- 7/day: blink, dispel magic, suggestion, DC 17
+- 7/day: blink, dispel magic, suggestion (DC 17)
 
 **2nd-level spells:**
 
-- 7/day: enthrall, DC 16, hold person, DC 16, invisibility, scorching ray
+- 7/day: enthrall (DC 16), hold person (DC 16), invisibility, scorching ray
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 15, mage armor, magic missile, ray of enfeeblement, DC 15, shield
+- 7/day: charm person (DC 15), mage armor, magic missile, ray of enfeeblement (DC 15), shield
 
 **Cantrips:**
 
-- At will: daze, DC 14, detect magic, flare, DC 14, mage hand, message, open/close, read magic,
+- At will: daze (DC 14), detect magic, flare (DC 14), mage hand, message, open/close, read magic,
   touch of fatigue
 
 **Statistics**

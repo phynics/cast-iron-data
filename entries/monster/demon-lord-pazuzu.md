@@ -101,19 +101,19 @@ electricity, energy drain, petrification, and poison
 **Constant:**
 
 - detect good, detect law, freedom of movement, speak with animals, winged animals only, true
-  seeing, unholy aura, DC 31
+  seeing, unholy aura (DC 31)
 
 **At will:**
 
-- astral projection, blasphemy (mythic spell), DC 30, control winds, desecrate (mythic spell),
-  dominate person (mythic spell), DC 28, greater dispel magic, greater teleport, shapechange,
-  telekinesis (mythic spell), DC 28, unhallow, unholy blight (mythic spell), DC 27
+- astral projection, blasphemy (mythic spell) (DC 30), control winds, desecrate (mythic spell),
+  dominate person (mythic spell) (DC 28), greater dispel magic, greater teleport, shapechange,
+  telekinesis (mythic spell) (DC 28), unhallow, unholy blight (mythic spell) (DC 27)
 
 **Per day:**
 
-- 3/day: &Q dominate person (mythic spell), DC 28, summon demons, symbol of persuasion, DC 29,
-  sympathy, DC 31, whirlwind (mythic spell)
-- 1/day: dominate monster, DC 32, time stop (mythic spell), wish (mythic spell)
+- 3/day: &Q dominate person (mythic spell) (DC 28), summon demons, symbol of persuasion (DC 29),
+  sympathy (DC 31), whirlwind (mythic spell)
+- 1/day: dominate monster (DC 32), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

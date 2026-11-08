@@ -92,12 +92,12 @@ bulges in its throat._
 
 **At will:**
 
-- repel vermin, DC 16, vomit swarm, must wait 1d4 rounds before using this ability again
+- repel vermin (DC 16), vomit swarm, must wait 1d4 rounds before using this ability again
 
 **Per day:**
 
-- 3/day: entangle, DC 13
-- 1/day: creeping doom, DC 19, insect plague
+- 3/day: entangle (DC 13)
+- 1/day: creeping doom (DC 19), insect plague
 
 **Statistics**
 

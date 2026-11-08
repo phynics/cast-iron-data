@@ -118,7 +118,7 @@ lightning-infused spear._
 
 **2nd-level spells:**
 
-- 8/day: darkness, gust of wind, inflict moderate wounds, oracle's burden, DC 18, share language,
+- 8/day: darkness, gust of wind, inflict moderate wounds, oracle's burden (DC 18), share language,
   shatter, silence
 
 **1st-level spells:**

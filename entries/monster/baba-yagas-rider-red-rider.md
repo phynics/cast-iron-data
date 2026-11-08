@@ -84,13 +84,13 @@ a goat, ending in cloven hooves._
 
 **At will:**
 
-- chill touch, DC 16, detect thoughts, DC 17, zone of truth, DC 17
+- chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
 
 **Per day:**
 
 - 5/day: ice storm
-- 3/day: cone of cold, DC 20, flame strike, DC 20
-- 1/day: fire storm, DC 23
+- 3/day: cone of cold (DC 20), flame strike (DC 20)
+- 1/day: fire storm (DC 23)
 
 **Statistics**
 

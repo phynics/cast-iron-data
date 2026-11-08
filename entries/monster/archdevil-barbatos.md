@@ -99,18 +99,19 @@ disease)
 
 **Constant:**
 
-- air walk, detect chaos, detect good, mind blank, speak with animals, true seeing, unholy aura, DC
-  28
+- air walk, detect chaos, detect good, mind blank, speak with animals, true seeing, unholy aura (DC
+  28)
 
 **At will:**
 
-- astral projection, blasphemy (mythic spell), DC 27, desecrate (mythic spell), dominate person
-  (mythic spell), DC 25, greater dispel magic, dominate animal, DC 23, greater scrying, DC 27,
-  greater teleport, plane shift (mythic spell), DC 27, unhallow, unholy blight (mythic spell), DC 24
+- astral projection, blasphemy (mythic spell) (DC 27), desecrate (mythic spell), dominate person
+  (mythic spell) (DC 25), greater dispel magic, dominate animal (DC 23), greater scrying (DC 27),
+  greater teleport, plane shift (mythic spell) (DC 27), unhallow, unholy blight (mythic spell) (DC
+  24)
 
 **Per day:**
 
-- 3/day: banishment, DC 27, &Q contagion (mythic spell), DC 24, dimensional lock (mythic spell),
+- 3/day: banishment (DC 27), &Q contagion (mythic spell) (DC 24), dimensional lock (mythic spell),
   maze (mythic spell), summon devils
 - 1/day: gate, time stop (mythic spell), wish (mythic spell)
 

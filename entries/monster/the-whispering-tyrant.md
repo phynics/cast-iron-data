@@ -100,8 +100,8 @@ spells (2/day), paralyzing touch (DC 39), wild arcana
 
 **9th-level spells:**
 
-- energy drain, DC 36, foresight, mage's disjunction, meteor swarm, DC 32, time stop, wail of the
-  banshee, DC 36, wish
+- energy drain (DC 36), foresight, mage's disjunction, meteor swarm (DC 32), time stop, wail of the
+  banshee (DC 36), wish
 
 **8th-level spells:**
 
@@ -109,12 +109,12 @@ spells (2/day), paralyzing touch (DC 39), wild arcana
 
 **6th-level spells:**
 
-- acid fog, disintegrate, DC 29, greater dispel magic, 2, repulsion, DC 29, true seeing, &EM
-  vampiric touch, dismissal, DC 28, dominate person, DC 28, &Q magic missile, 2
+- acid fog, disintegrate (DC 29), greater dispel magic, 2, repulsion (DC 29), true seeing, &EM
+  vampiric touch, dismissal (DC 28), dominate person (DC 28), &Q magic missile, 2
 
 **1st-level spells:**
 
-- expeditious retreat, grease, magic missile, 3, ray of enfeeblement, 2, DC 28, true strike, 2
+- expeditious retreat, grease, magic missile, 3, ray of enfeeblement (2, DC 28), true strike, 2
 
 **Cantrips:**
 

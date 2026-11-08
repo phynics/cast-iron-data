@@ -85,25 +85,25 @@ belt that encircles her chiton._
 
 **4th-level spells:**
 
-- 3/day: arcane sight, inflict critical wounds, DC 17, summon monster IV
+- 3/day: arcane sight, inflict critical wounds (DC 17), summon monster IV
 
 **3rd-level spells:**
 
-- 6/day: bestow curse, DC 16, detect thoughts, DC 16, inflict serious wounds, DC 16, speak with
-  dead, DC 16
+- 6/day: bestow curse (DC 16), detect thoughts (DC 16), inflict serious wounds (DC 16), speak with
+  dead (DC 16)
 
 **2nd-level spells:**
 
-- 7/day: aid, cure moderate wounds, inflict moderate wounds, DC 15, silence, DC 15, true strike
+- 7/day: aid, cure moderate wounds, inflict moderate wounds (DC 15), silence (DC 15), true strike
 
 **1st-level spells:**
 
-- 7/day: command, DC 14, comprehend languages, detect poison, divine favor, obscuring mist, shield
+- 7/day: command (DC 14), comprehend languages, detect poison, divine favor, obscuring mist, shield
   of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 13, create water, detect magic, guidance, know direction, purify food and
+- At will: bleed (DC 13), create water, detect magic, guidance, know direction, purify food and
   drink, stabilize, virtue
 
 **Statistics**

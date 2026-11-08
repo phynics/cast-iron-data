@@ -87,7 +87,7 @@ opossum._
 
 **Per day:**
 
-- 3/day: grease, DC 9, mage hand, open/close
+- 3/day: grease (DC 9), mage hand, open/close
 
 **Statistics**
 

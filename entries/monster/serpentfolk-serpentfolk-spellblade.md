@@ -80,12 +80,12 @@ abilities = ["16", "23", "21", "20", "13", "16"]
 
 **At will:**
 
-- disguise self, DC 14, humanoid form only, ventriloquism, DC 14
+- disguise self (DC 14), humanoid form only, ventriloquism (DC 14)
 
 **Per day:**
 
-- 1/day: blur, dominate person, DC 18, major image, DC 16, mass suggestion, DC 19, mirror image,
-  suggestion, DC 16, teleport
+- 1/day: blur, dominate person (DC 18), major image (DC 16), mass suggestion (DC 19), mirror image,
+  suggestion (DC 16), teleport
 
 **Prepared Spells**
 
@@ -99,16 +99,16 @@ abilities = ["16", "23", "21", "20", "13", "16"]
 
 **2nd-level spells:**
 
-- acid arrow, defensive shock, frigid touch, invisibility, web, DC 17
+- acid arrow, defensive shock, frigid touch, invisibility, web (DC 17)
 
 **1st-level spells:**
 
-- burning hands, DC 16, chill touch, DC 16, corrosive touch, magic missile, ray of enfeeblement, DC
-  16, shocking grasp
+- burning hands (DC 16), chill touch (DC 16), corrosive touch, magic missile, ray of enfeeblement
+  (DC 16), shocking grasp
 
 **Cantrips:**
 
-- arcane mark, detect magic, mage hand, prestidigitation, DC 15, read magic
+- arcane mark, detect magic, mage hand, prestidigitation (DC 15), read magic
 
 ### Tactics
 

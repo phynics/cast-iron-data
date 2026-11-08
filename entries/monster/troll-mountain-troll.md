@@ -96,8 +96,8 @@ tusked underbite._
 
 **Per day:**
 
-- 3/day: spike stones, DC 13, stone tell
-- 1/day: earthquake, DC 17, flesh to stone, DC 15, summon monster VIII, earth elemental only
+- 3/day: spike stones (DC 13), stone tell
+- 1/day: earthquake (DC 17), flesh to stone (DC 15), summon monster VIII, earth elemental only
 
 **Statistics**
 

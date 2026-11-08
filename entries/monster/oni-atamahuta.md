@@ -89,7 +89,7 @@ and tattoos decorating its forehead._
 
 **Per day:**
 
-- 3/day: chill touch, DC 14, dimension door, fireball, DC 16, haste, rage, shocking grasp
+- 3/day: chill touch (DC 14), dimension door, fireball (DC 16), haste, rage, shocking grasp
 - 1/day: black tentacles, stoneskin, wall of fire
 
 **Statistics**

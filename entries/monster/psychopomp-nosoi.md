@@ -91,7 +91,7 @@ _This strange black bird wears a leather long-nosed mask like a plague doctor._
 **Per day:**
 
 - 3/day: speak with dead, 6 questions; CL 12th
-- 1/day: hide from undead, DC 14, sound burst, DC 15
+- 1/day: hide from undead (DC 14), sound burst (DC 15)
 
 **Statistics**
 

@@ -88,12 +88,12 @@ primeval scowl._
 
 **At will:**
 
-- detect animals or plants\#S, warp wood, DC 13
+- detect animals or plants\#S, warp wood (DC 13)
 
 **Per day:**
 
 - 3/day: create water, goodberry, tree shape\#S
-- 1/day: barkskin, entangle, DC 12
+- 1/day: barkskin, entangle (DC 12)
 
 ###### S {#footnote-s}
 

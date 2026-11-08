@@ -77,11 +77,11 @@ what appear to be the shadowy silhouettes of scissors and a sewing needle._
 
 **At will:**
 
-- crushing despair, DC 19
+- crushing despair (DC 19)
 
 **Per day:**
 
-- 3/day: overwhelming grief, DC 20, ray of exhaustion, shadow conjuration, shadow step
+- 3/day: overwhelming grief (DC 20), ray of exhaustion, shadow conjuration, shadow step
 
 **Statistics**
 

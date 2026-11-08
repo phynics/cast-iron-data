@@ -85,12 +85,12 @@ intelligence and confidence._
 
 **At will:**
 
-- charm monster, DC 17, clairaudience/clairvoyance, detect thoughts, DC 15
+- charm monster (DC 17), clairaudience/clairvoyance, detect thoughts (DC 15)
 
 **Per day:**
 
-- 3/day: hold monster, DC 18
-- 1/day: feeblemind, DC 18
+- 3/day: hold monster (DC 18)
+- 1/day: feeblemind (DC 18)
 
 **Statistics**
 

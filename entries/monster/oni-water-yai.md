@@ -99,7 +99,7 @@ robes are soaking wet._
 
 **Per day:**
 
-- 3/day: charm monster, DC 20, cone of cold, DC 21, control water, polar ray
+- 3/day: charm monster (DC 20), cone of cold (DC 21), control water, polar ray
 
 **Statistics**
 

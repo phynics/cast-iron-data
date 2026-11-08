@@ -79,12 +79,12 @@ hand and a club in the other._
 
 **At will:**
 
-- dancing lights, ghost sound, DC 13, invisibility, self only, mage hand, major image, visual and
-  auditory elements only, DC 16, prestidigitation, ventriloquism, DC 14
+- dancing lights, ghost sound (DC 13), invisibility, self only, mage hand, major image (visual and
+  auditory elements only, DC 16), prestidigitation, ventriloquism (DC 14)
 
 **Per day:**
 
-- 3/day: color spray, DC 14, fabricate, 1 cubic foot of material only
+- 3/day: color spray (DC 14), fabricate, 1 cubic foot of material only
 - 1/day: major creation
 
 **Statistics**

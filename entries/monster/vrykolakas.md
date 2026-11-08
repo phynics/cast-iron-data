@@ -89,7 +89,7 @@ mouth full of fangs._
 
 **Per day:**
 
-- 3/day: charm animal, DC 17, fear, DC 20, vampiric touch
+- 3/day: charm animal (DC 17), fear (DC 20), vampiric touch
 
 **Statistics**
 

@@ -104,7 +104,7 @@ blazing white flames._
 
 **Per day:**
 
-- 3/day: cure light wounds, daylight, flaming sphere, DC 14
+- 3/day: cure light wounds, daylight, flaming sphere (DC 14)
 - 1/day: dimension door, self only, lesser restoration, see invisibility
 
 **Statistics**

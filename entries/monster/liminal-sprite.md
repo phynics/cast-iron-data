@@ -84,11 +84,11 @@ wings on its back._
 
 **At will:**
 
-- daze, DC 12, prestidigitation
+- daze (DC 12), prestidigitation
 
 **Per day:**
 
-- 3/day: fumbletongue, DC 13, invisibility, self only, memory lapse, DC 13
+- 3/day: fumbletongue (DC 13), invisibility, self only, memory lapse (DC 13)
 
 **Statistics**
 

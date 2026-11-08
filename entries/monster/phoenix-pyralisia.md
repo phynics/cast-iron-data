@@ -99,12 +99,12 @@ fire)
 
 **At will:**
 
-- bestow curse, DC 21, chain lightning, DC 23, continual flame, greater dispel magic, wall of fire
+- bestow curse (DC 21), chain lightning (DC 23), continual flame, greater dispel magic, wall of fire
 
 **Per day:**
 
-- 3/day: fire storm, DC 25, mass inflict critical wounds, DC 25, &Q wall of fire
-- 1/day: destruction, DC 24, meteor swarm, DC 26
+- 3/day: fire storm (DC 25), mass inflict critical wounds (DC 25), &Q wall of fire
+- 1/day: destruction (DC 24), meteor swarm (DC 26)
 
 **Statistics**
 

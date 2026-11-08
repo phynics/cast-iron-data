@@ -94,12 +94,12 @@ rancidly obese body._
 
 **Constant:**
 
-- true seeing, unholy aura, DC 28
+- true seeing, unholy aura (DC 28)
 
 **At will:**
 
-- call lightning, DC 23, feeblemind, DC 25, greater dispel magic, greater teleport, self plus 50
-  lbs. of objects only, slow, DC 23
+- call lightning (DC 23), feeblemind (DC 25), greater dispel magic, greater teleport, self plus 50
+  lbs. of objects only, slow (DC 23)
 
 **Per day:**
 
@@ -113,29 +113,29 @@ rancidly obese body._
 
 **8th-level spells:**
 
-- &Q confusion, DC 27, prismatic spray, project image, DC 30
+- &Q confusion (DC 27), prismatic spray, project image (DC 30)
 
 **6th-level spells:**
 
-- flesh to stone, DC 29, geas/quest, mass suggestion, DC 29, &Q mirror image, mislead
+- flesh to stone (DC 29), geas/quest, mass suggestion (DC 29), &Q mirror image, mislead
 
 **5th-level spells:**
 
-- &EX charm monster, DC 27, beast shape I, hold person, DC 26, major image, DC 26, nondetection,
-  suggestion, DC 26
+- &EX charm monster (DC 27), beast shape I, hold person (DC 26), major image (DC 26), nondetection,
+  suggestion (DC 26)
 
 **2nd-level spells:**
 
-- alter self, detect thoughts, DC 25, invisibility, minor image, DC 25, misdirection, scorching ray,
-  2
+- alter self, detect thoughts (DC 25), invisibility, minor image (DC 25), misdirection, scorching
+  ray, 2
 
 **1st-level spells:**
 
-- charm person, 2, DC 24, magic missile, 4, reduce person, DC 24, silent image, DC 24
+- charm person (2, DC 24), magic missile, 4, reduce person (DC 24), silent image (DC 24)
 
 **Cantrips:**
 
-- bleed, DC 23, dancing lights, ghost sound, DC 23, message
+- bleed (DC 23), dancing lights, ghost sound (DC 23), message
 
 **Statistics**
 

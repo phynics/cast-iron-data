@@ -96,12 +96,12 @@ face._
 
 **At will:**
 
-- contagion, DC 17, grease, DC 14, greater teleport, self plus 50 lbs. of objects only, unholy
-  blight, DC 17
+- contagion (DC 17), grease (DC 14), greater teleport, self plus 50 lbs. of objects only, unholy
+  blight (DC 17)
 
 **Per day:**
 
-- 3/day: stinking cloud, DC 16
+- 3/day: stinking cloud (DC 16)
 - 1/day: &S level 4; 1 gibrileth 35%, waves of fatigue
 
 **Statistics**

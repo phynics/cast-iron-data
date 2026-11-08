@@ -109,11 +109,11 @@ abilities = ["33", "9", "24", "24", "23", "26"]
 
 **6th-level spells:**
 
-- 7/day: cloak of dreams, DC 23, dream council, mental barrier V
+- 7/day: cloak of dreams (DC 23), dream council, mental barrier V
 
 **5th-level spells:**
 
-- 7/day: dismissal, DC 22, major creation, wall of force, waves of fatigue
+- 7/day: dismissal (DC 22), major creation, wall of force, waves of fatigue
 
 **4th-level spells:**
 
@@ -121,19 +121,19 @@ abilities = ["33", "9", "24", "24", "23", "26"]
 
 **3rd-level spells:**
 
-- 8/day: clairaudience/clairvoyance, deep slumber, DC 20, displacement, purge spirit
+- 8/day: clairaudience/clairvoyance, deep slumber (DC 20), displacement, purge spirit
 
 **2nd-level spells:**
 
-- 8/day: aversion, augury, blindness/deafness, DC 19, calm emotions, DC 19, mind thrust II
+- 8/day: aversion, augury, blindness/deafness (DC 19), calm emotions (DC 19), mind thrust II
 
 **1st-level spells:**
 
-- 8/day: blurred movement, color spray, DC 18, shield, sleep, DC 18, true strike
+- 8/day: blurred movement, color spray (DC 18), shield, sleep (DC 18), true strike
 
 **Cantrips:**
 
-- At will: arcane mark, dancing lights, detect magic, daze, DC 17, ghost sound, DC 17, mage hand,
+- At will: arcane mark, dancing lights, detect magic, daze (DC 17), ghost sound (DC 17), mage hand,
   mending, message, resistance
 
 **Statistics**

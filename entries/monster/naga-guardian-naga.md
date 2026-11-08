@@ -79,11 +79,11 @@ colored serpent._
 
 **3rd-level spells:**
 
-- 7/day: cure serious wounds, dispel magic, lightning bolt, DC 17
+- 7/day: cure serious wounds, dispel magic, lightning bolt (DC 17)
 
 **2nd-level spells:**
 
-- 7/day: detect thoughts, DC 16, lesser restoration, see invisibility, scorching ray
+- 7/day: detect thoughts (DC 16), lesser restoration, see invisibility, scorching ray
 
 **1st-level spells:**
 
@@ -91,7 +91,7 @@ colored serpent._
 
 **Cantrips:**
 
-- At will: daze, DC 14, detect magic, light, mage hand, open/close, ray of frost, read magic,
+- At will: daze (DC 14), detect magic, light, mage hand, open/close, ray of frost, read magic,
   stabilize
 
 **Statistics**

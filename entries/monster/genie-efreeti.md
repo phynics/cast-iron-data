@@ -86,13 +86,13 @@ from its flesh._
 **At will:**
 
 - plane shift, willing targets to elemental planes, Astral Plane, or Material Plane only, produce
-  flame, pyrotechnics, DC 14, scorching ray
+  flame, pyrotechnics (DC 14), scorching ray
 
 **Per day:**
 
-- 3/day: invisibility, &Q scorching ray, wall of fire, DC 16
-- 1/day: !grant up to 3 [wishes](ref/spell/wish) (to non-genies only), gaseous form, permanent
-  image, DC 18
+- 3/day: invisibility, &Q scorching ray, wall of fire (DC 16)
+- 1/day: !grant up to 3 [wishes](ref/spell/wish) (to non-genies only), gaseous form, permanent image
+  (DC 18)
 
 **Statistics**
 

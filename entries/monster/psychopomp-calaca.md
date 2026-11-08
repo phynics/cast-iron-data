@@ -91,7 +91,7 @@ creature's face is hidden by an intricately decorated skull mask._
 **Per day:**
 
 - 3/day: good hope, heroes' feast
-- 1/day: irresistible dance, DC 20, modify memory, DC 18
+- 1/day: irresistible dance (DC 20), modify memory (DC 18)
 
 **Statistics**
 

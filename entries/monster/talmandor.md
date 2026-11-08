@@ -104,16 +104,16 @@ slasher, twin talons
 
 **At will:**
 
-- aid, daylight, dimension door, dispel evil, DC 22, displacement, self only, greater command, DC
-  22, greater dispel magic, greater teleport, self plus 50 lbs. of objects only, hold monster, DC
-  22, magic missile, remove fear, river of wind, DC 21, wind wall
+- aid, daylight, dimension door, dispel evil (DC 22), displacement, self only, greater command (DC
+  22), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, hold monster (DC
+  22), magic missile, remove fear, river of wind (DC 21), wind wall
 
 **Per day:**
 
-- 3/day: break enchantment, control winds, divine power, eagle aerie, chain lightning, DC 23, holy
-  aura, DC 25, holy word, DC 24, miracle, plane shift, DC 24, spell turning
-- 1/day: control weather, mass heal, overwhelming presence, DC 26, &S level 8; 1d4+1 advanced
-  avorals 100%, sunburst, DC 25, whirlwind, DC 25
+- 3/day: break enchantment, control winds, divine power, eagle aerie, chain lightning (DC 23), holy
+  aura (DC 25), holy word (DC 24), miracle, plane shift (DC 24), spell turning
+- 1/day: control weather, mass heal, overwhelming presence (DC 26), &S level 8; 1d4+1 advanced
+  avorals 100%, sunburst (DC 25), whirlwind (DC 25)
 
 **Statistics**
 

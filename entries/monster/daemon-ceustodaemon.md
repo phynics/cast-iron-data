@@ -96,7 +96,7 @@ effects, sleep effects
 **Per day:**
 
 - 3/day: dispel magic, fly
-- 1/day: hold monster, DC 17, slow, DC 15
+- 1/day: hold monster (DC 17), slow (DC 15)
 
 **Statistics**
 

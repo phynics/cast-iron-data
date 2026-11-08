@@ -92,7 +92,7 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Per day:**
 
-- 1/day: dispel magic, divine favor, suggestion, DC 15
+- 1/day: dispel magic, divine favor, suggestion (DC 15)
 
 **Spell-Like Abilities**
 
@@ -116,16 +116,16 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **2nd-level spells:**
 
-- align weapon (domain spell), evil only, dread bolt, DC 16, hold person, DC 16, spiritual weapon
+- align weapon (domain spell), evil only, dread bolt (DC 16), hold person (DC 16), spiritual weapon
 
 **1st-level spells:**
 
-- cure light wounds, entropic shield, murderous command, DC 15, protection from good (domain spell),
-  shield of faith
+- cure light wounds, entropic shield, murderous command (DC 15), protection from good (domain
+  spell), shield of faith
 
 **Cantrips:**
 
-- bleed, DC 14, detect magic, detect poison, read magic
+- bleed (DC 14), detect magic, detect poison, read magic
 
 **Domains**
 

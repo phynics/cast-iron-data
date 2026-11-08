@@ -94,12 +94,12 @@ and energy drain)
 
 **At will:**
 
-- call spirit, DC 23
+- call spirit (DC 23)
 
 **Per day:**
 
-- 3/day: finger of death, DC 26, power word kill
-- 1/day: plane shift, DC 23
+- 3/day: finger of death (DC 26), power word kill
+- 1/day: plane shift (DC 23)
 
 **Statistics**
 

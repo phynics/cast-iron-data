@@ -95,17 +95,17 @@ poison)
 
 **Constant:**
 
-- detect good, detect law, freedom of movement, true seeing, unholy aura, DC 27
+- detect good, detect law, freedom of movement, true seeing, unholy aura (DC 27)
 
 **At will:**
 
-- astral projection, blasphemy, DC 26, desecrate, flesh to stone, DC 25, greater dispel magic,
-  greater teleport, shapechange, stone shape, telekinesis, DC 24, unhallow, unholy blight, DC 23
+- astral projection, blasphemy (DC 26), desecrate, flesh to stone (DC 25), greater dispel magic,
+  greater teleport, shapechange, stone shape, telekinesis (DC 24), unhallow, unholy blight (DC 23)
 
 **Per day:**
 
-- 3/day: earthquake, &Q flesh to stone, DC 25, reverse gravity, symbol of weakness, DC 26
-- 1/day: implosion, DC 28, imprisonment, DC 28, time stop
+- 3/day: earthquake, &Q flesh to stone (DC 25), reverse gravity, symbol of weakness (DC 26)
+- 1/day: implosion (DC 28), imprisonment (DC 28), time stop
 
 **Statistics**
 

@@ -89,7 +89,7 @@ backward-facing hands._
 
 **Per day:**
 
-- 1/day: dominate monster, DC 28
+- 1/day: dominate monster (DC 28)
 
 **Spells Known**
 
@@ -99,7 +99,7 @@ backward-facing hands._
 
 **9th-level spells:**
 
-- 4/day: weird, DC 28
+- 4/day: weird (DC 28)
 
 **8th-level spells:**
 
@@ -111,31 +111,31 @@ backward-facing hands._
 
 **6th-level spells:**
 
-- 7/day: greater dispel magic, mass suggestion, DC 25, true seeing
+- 7/day: greater dispel magic, mass suggestion (DC 25), true seeing
 
 **5th-level spells:**
 
-- 8/day: baleful polymorph, DC 24, feeblemind, DC 24, mind fog, DC 24, teleport
+- 8/day: baleful polymorph (DC 24), feeblemind (DC 24), mind fog (DC 24), teleport
 
 **4th-level spells:**
 
-- 8/day: charm monster, DC 23, dimension door, lesser globe of invulnerability, scrying
+- 8/day: charm monster (DC 23), dimension door, lesser globe of invulnerability, scrying
 
 **3rd-level spells:**
 
-- 8/day: dispel magic, nondetection, suggestion, DC 22, vampiric touch, DC 22
+- 8/day: dispel magic, nondetection, suggestion (DC 22), vampiric touch (DC 22)
 
 **2nd-level spells:**
 
-- 8/day: darkness, knock, misdirection, DC 21, resist energy, see invisibility
+- 8/day: darkness, knock, misdirection (DC 21), resist energy, see invisibility
 
 **1st-level spells:**
 
-- 9/day: charm person, DC 20, identify, mage armor, magic missile, ventriloquism, DC 20
+- 9/day: charm person (DC 20), identify, mage armor, magic missile, ventriloquism (DC 20)
 
 **Cantrips:**
 
-- At will: arcane mark, bleed, DC 19, daze, DC 19, detect magic, ghost sound, mage hand, message,
+- At will: arcane mark, bleed (DC 19), daze (DC 19), detect magic, ghost sound, mage hand, message,
   prestidigitation, read magic
 
 **Statistics**

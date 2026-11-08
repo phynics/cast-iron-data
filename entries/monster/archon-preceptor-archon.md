@@ -95,9 +95,9 @@ white robes contrast starkly with its black feathers, and its willow staff sheds
 
 **Per day:**
 
-- 3/day: instigate psychic duel, DC 16, magic circle against evil, plane shift, seek thoughts, DC
-  17, sending, shout, DC 18
-- 1/day: greater create mindscape, DC 21, vision, creatures only
+- 3/day: instigate psychic duel (DC 16), magic circle against evil, plane shift, seek thoughts (DC
+  17), sending, shout (DC 18)
+- 1/day: greater create mindscape (DC 21), vision, creatures only
 
 **Statistics**
 

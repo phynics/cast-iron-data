@@ -86,7 +86,7 @@ the ground. A hood of damp moss and crusty bark conceals the monster's face._
 
 **At will:**
 
-- scare, DC 15, scorching ray
+- scare (DC 15), scorching ray
 
 **Per day:**
 

@@ -100,15 +100,15 @@ cold), 4 vines +32 (1d8+9/19-20 plus [grab](ref/umr/grab))
 
 **Constant:**
 
-- air walk, detect animals or plants, detect evil, holy aura, DC 27, speak with plants, true seeing
+- air walk, detect animals or plants, detect evil, holy aura (DC 27), speak with plants, true seeing
 
 **At will:**
 
-- blight, DC 24, cure serious wounds, diminish plants, entangle, DC 20, plant growth
+- blight (DC 24), cure serious wounds, diminish plants, entangle (DC 20), plant growth
 
 **Per day:**
 
-- 3/day: animate plants, awaken, control plants, DC 27, grove of respite, repel metal or stone, &Q
+- 3/day: animate plants, awaken, control plants (DC 27), grove of respite, repel metal or stone, &Q
   wall of thorns
 - 1/day: regenerate, shambler
 
@@ -120,29 +120,29 @@ cold), 4 vines +32 (1d8+9/19-20 plus [grab](ref/umr/grab))
 
 **9th-level spells:**
 
-- implosion, DC 27, mass heal, storm of vengeance, DC 27, true resurrection
+- implosion (DC 27), mass heal, storm of vengeance (DC 27), true resurrection
 
 **8th-level spells:**
 
-- dimensional lock, earthquake, mass cure critical wounds, reverse gravity, sunburst, DC 26
+- dimensional lock, earthquake, mass cure critical wounds, reverse gravity, sunburst (DC 26)
 
 **7th-level spells:**
 
-- destruction, DC 25, fire storm, DC 25, greater restoration, mass cure serious wounds, sunbeam, DC
-  25
+- destruction (DC 25), fire storm (DC 25), greater restoration, mass cure serious wounds, sunbeam
+  (DC 25)
 
 **6th-level spells:**
 
-- antilife shell, banishment, DC 24, greater dispel magic, heal, word of recall
+- antilife shell, banishment (DC 24), greater dispel magic, heal, word of recall
 
 **5th-level spells:**
 
-- breath of life, call lightning storm, DC 23, dispel evil, DC 23, greater command, DC 23, insect
+- breath of life, call lightning storm (DC 23), dispel evil (DC 23), greater command (DC 23), insect
   plague
 
 **4th-level spells:**
 
-- antiplant shell, chaos hammer, DC 22, freedom of movement, holy smite, DC 22, ice storm,
+- antiplant shell, chaos hammer (DC 22), freedom of movement, holy smite (DC 22), ice storm,
   neutralize poison
 
 **3rd-level spells:**
@@ -151,12 +151,12 @@ cold), 4 vines +32 (1d8+9/19-20 plus [grab](ref/umr/grab))
 
 **2nd-level spells:**
 
-- align weapon, barkskin, calm emotions, DC 20, enthrall, DC 20, gentle repose, lesser restoration
+- align weapon, barkskin, calm emotions (DC 20), enthrall (DC 20), gentle repose, lesser restoration
 
 **1st-level spells:**
 
-- divine favor, endure elements, entropic shield, protection from evil, remove fear, sanctuary, DC
-  19
+- divine favor, endure elements, entropic shield, protection from evil, remove fear, sanctuary (DC
+  19)
 
 **Cantrips:**
 

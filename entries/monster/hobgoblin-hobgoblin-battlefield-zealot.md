@@ -90,7 +90,7 @@ eyes._
 
 **1st-level spells:**
 
-- cure light wounds, magic weapon (domain spell), sanctuary, DC 13, shield of faith
+- cure light wounds, magic weapon (domain spell), sanctuary (DC 13), shield of faith
 
 **Cantrips:**
 

@@ -81,7 +81,7 @@ hands than a wolf's paws._
 
 **Per day:**
 
-- 1/day: charm monster, DC 16, crushing despair, DC 16, dimension door
+- 1/day: charm monster (DC 16), crushing despair (DC 16), dimension door
 
 **Statistics**
 

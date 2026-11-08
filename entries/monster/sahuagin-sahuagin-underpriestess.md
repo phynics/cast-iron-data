@@ -97,7 +97,7 @@ piscine head features a toothy maw._
 
 **2nd-level spells:**
 
-- blood in the water, darkness, hold person, DC 16, shatter (domain spell), DC 16
+- blood in the water, darkness, hold person (DC 16), shatter (domain spell) (DC 16)
 
 **1st-level spells:**
 
@@ -105,7 +105,7 @@ piscine head features a toothy maw._
 
 **Cantrips:**
 
-- bleed, DC 14, detect magic, guidance, resistance
+- bleed (DC 14), detect magic, guidance, resistance
 
 **Domains**
 

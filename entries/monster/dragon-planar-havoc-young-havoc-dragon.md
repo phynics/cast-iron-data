@@ -88,7 +88,7 @@ stirred by an unseen breeze._
 
 **1st-level spells:**
 
-- 4/day: entropic shield, grease, DC 15
+- 4/day: entropic shield, grease (DC 15)
 
 **Cantrips:**
 

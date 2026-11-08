@@ -90,13 +90,13 @@ projecting an air of cruelty._
 
 **At will:**
 
-- calm emotions, DC 16, charm monster, DC 18, clairaudience/clairvoyance, clairvoyance only, daze
-  monster, DC 16, feather fall
+- calm emotions (DC 16), charm monster (DC 18), clairaudience/clairvoyance, clairvoyance only, daze
+  monster (DC 16), feather fall
 
 **Per day:**
 
-- 3/day: dispel magic, lightning bolt, DC 17
-- 1/day: dominate monster, DC 23
+- 3/day: dispel magic, lightning bolt (DC 17)
+- 1/day: dominate monster (DC 23)
 
 **Per month:**
 

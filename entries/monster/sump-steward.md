@@ -84,12 +84,12 @@ woven grass._
 
 **At will:**
 
-- entangle, DC 12, plant growth
+- entangle (DC 12), plant growth
 
 **Per day:**
 
-- 3/day: &Q entangle, DC 12
-- 1/day: cloudkill, DC 16
+- 3/day: &Q entangle (DC 12)
+- 1/day: cloudkill (DC 16)
 
 **Statistics**
 

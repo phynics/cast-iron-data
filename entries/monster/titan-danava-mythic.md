@@ -105,12 +105,12 @@ mace._
 
 **At will:**
 
-- bestow curse, DC 26, break enchantment, divination, greater dispel magic, sending
+- bestow curse (DC 26), break enchantment, divination, greater dispel magic, sending
 
 **Per day:**
 
-- 3/day: &Q chain lightning, DC 28, mass suggestion, DC 28
-- 1/day: greater planar ally, mass heal, DC 31, soul bind, DC 31, tsunami, DC 31
+- 3/day: &Q chain lightning (DC 28), mass suggestion (DC 28)
+- 1/day: greater planar ally, mass heal (DC 31), soul bind (DC 31), tsunami (DC 31)
 
 **Statistics**
 

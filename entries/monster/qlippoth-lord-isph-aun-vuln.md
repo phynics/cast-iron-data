@@ -93,17 +93,17 @@ soul shell
 
 **Constant:**
 
-- cloak of chaos, DC 27, detect good, detect law, freedom of movement, tongues, true seeing
+- cloak of chaos (DC 27), detect good, detect law, freedom of movement, tongues, true seeing
 
 **At will:**
 
-- charm monster, DC 23, desecrate (mythic spell), greater command, DC 25, greater dispel magic,
-  greater object possession, DC 26, greater teleport
+- charm monster (DC 23), desecrate (mythic spell), greater command (DC 25), greater dispel magic,
+  greater object possession (DC 26), greater teleport
 
 **Per day:**
 
-- 3/day: dominate monster, DC 28, greater possession, DC 27, &Q mass suggestion, DC 25, whirlwind
-  (mythic spell), DC 27
+- 3/day: dominate monster (DC 28), greater possession (DC 27), &Q mass suggestion (DC 25), whirlwind
+  (mythic spell) (DC 27)
 - 1/day: summon qlippoth, wish (mythic spell)
 
 ###### M {#footnote-m}

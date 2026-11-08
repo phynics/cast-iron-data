@@ -95,12 +95,13 @@ entirely of swarming locusts._
 
 **At will:**
 
-- feast of ashes, DC 17, greater teleport, self plus 50 lbs. of objects only, putrefy food and drink
+- feast of ashes (DC 17), greater teleport, self plus 50 lbs. of objects only, putrefy food and
+  drink
 
 **Per day:**
 
-- 3/day: sirocco, DC 21, summon swarm
-- 1/day: horrid wilting, DC 23
+- 3/day: sirocco (DC 21), summon swarm
+- 1/day: horrid wilting (DC 23)
 
 **Statistics**
 

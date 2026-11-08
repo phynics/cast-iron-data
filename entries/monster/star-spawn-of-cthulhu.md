@@ -96,11 +96,11 @@ writhing mass of tentacles._
 
 **At will:**
 
-- dream, insanity, DC 24, nightmare, DC 22, sending
+- dream, insanity (DC 24), nightmare (DC 22), sending
 
 **Per day:**
 
-- 3/day: demand, DC 25
+- 3/day: demand (DC 25)
 - 1/day: gate
 
 **Statistics**

@@ -82,7 +82,7 @@ four-fingered claws._
 **Per day:**
 
 - 3/day: darkness, fly
-- 1/day: charm person, DC 14, deep slumber, DC 16, invisibility, self only
+- 1/day: charm person (DC 14), deep slumber (DC 16), invisibility, self only
 
 **Statistics**
 

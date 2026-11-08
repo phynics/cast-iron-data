@@ -97,18 +97,18 @@ _This beautiful woman has flesh made of lava. She soars through the sky on a tra
 
 **Constant:**
 
-- holy aura, DC 24
+- holy aura (DC 24)
 
 **At will:**
 
-- flaming sphere, DC 18, heat metal, DC 18, meld into stone, self only, soften earth and stone,
+- flaming sphere (DC 18), heat metal (DC 18), meld into stone, self only, soften earth and stone,
   stone shape
 
 **Per day:**
 
-- 5/day: cure serious wounds, flame strike, DC 21, move earth, spike stones, DC 20, stone tell,
-  summon nature's ally V, earth and fire elementals only, wall of stone, DC 22
-- 3/day: earthquake, fire storm, DC 23, heal, stoneskin, wall of fire
+- 5/day: cure serious wounds, flame strike (DC 21), move earth, spike stones (DC 20), stone tell,
+  summon nature's ally V, earth and fire elementals only, wall of stone (DC 22)
+- 3/day: earthquake, fire storm (DC 23), heal, stoneskin, wall of fire
 
 **Statistics**
 

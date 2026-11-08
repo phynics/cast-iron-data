@@ -99,17 +99,17 @@ _This crimson-haired demonic woman has wings of fire. She carries a slender bow 
 **Constant:**
 
 - detect good, detect law, fire shield, warm shield only, freedom of movement, true seeing, unholy
-  aura, DC 31
+  aura (DC 31)
 
 **At will:**
 
-- charm monster, DC 27, desecrate, greater dispel magic, greater teleport, mass suggestion, DC 29,
-  telekinesis, DC 28, unholy blight, DC 27
+- charm monster (DC 27), desecrate, greater dispel magic, greater teleport, mass suggestion (DC 29),
+  telekinesis (DC 28), unholy blight (DC 27)
 
 **Per day:**
 
-- 3/day: &EM delayed blast fireball, DC 30, symbol of persuasion, DC 29
-- 1/day: meteor swarm, DC 32, nightmare, DC 28, summon demons, time stop
+- 3/day: &EM delayed blast fireball (DC 30), symbol of persuasion (DC 29)
+- 1/day: meteor swarm (DC 32), nightmare (DC 28), summon demons, time stop
 
 **Statistics**
 

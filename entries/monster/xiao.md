@@ -75,7 +75,7 @@ _This snarling blue-white monkey flies through the air on a pair of bird-like wi
 
 **Per day:**
 
-- 3/day: burning hands, DC 12, spark
+- 3/day: burning hands (DC 12), spark
 
 **Statistics**
 

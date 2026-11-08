@@ -91,7 +91,7 @@ bite +22 (1d8+4)
 **Per day:**
 
 - 3/day: dispel magic
-- 1/day: chaos hammer, DC 17, &S level 4; 1d2 tarry demodands 40%
+- 1/day: chaos hammer (DC 17), &S level 4; 1d2 tarry demodands 40%
 
 **Statistics**
 

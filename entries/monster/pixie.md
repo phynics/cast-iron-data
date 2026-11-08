@@ -83,8 +83,8 @@ _This tiny, whimsical-looking humanoid darts about swiftly on wildly colored gos
 
 **Per day:**
 
-- 1/day: dancing lights, detect thoughts, DC 15, dispel magic, entangle, DC 14, lesser confusion, DC
-  14, permanent image, DC 19; visual and auditory elements only, shield
+- 1/day: dancing lights, detect thoughts (DC 15), dispel magic, entangle (DC 14), lesser confusion
+  (DC 14), permanent image, DC 19; visual and auditory elements only, shield
 
 **Statistics**
 

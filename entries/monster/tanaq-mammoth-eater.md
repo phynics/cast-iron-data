@@ -92,25 +92,25 @@ and blackened stone._
 
 **5th-level spells:**
 
-- aspect of the wolf (domain spell), baleful polymorph, DC 20, control winds, DC 20, snake staff
+- aspect of the wolf (domain spell), baleful polymorph (DC 20), control winds (DC 20), snake staff
 
 **4th-level spells:**
 
-- air walk, bloody claws, DC 19, dispel magic, rusting grasp, wall of ice (domain spell), DC 19
+- air walk, bloody claws (DC 19), dispel magic, rusting grasp, wall of ice (domain spell) (DC 19)
 
 **3rd-level spells:**
 
-- cloak of winds, DC 18, dominate animal, DC 18, greater magic fang, protection from energy, DC 18,
-  sleet storm (domain spell)
+- cloak of winds (DC 18), dominate animal (DC 18), greater magic fang, protection from energy (DC
+  18), sleet storm (domain spell)
 
 **2nd-level spells:**
 
-- aspect of the bear (domain spell), barkskin, bear's endurance, eagle eye, gust of wind, DC 17,
+- aspect of the bear (domain spell), barkskin, bear's endurance, eagle eye, gust of wind (DC 17),
   stone call
 
 **1st-level spells:**
 
-- cure light wounds, DC 16, endure elements, feather step (domain spell), DC 16, frostbite,
+- cure light wounds (DC 16), endure elements, feather step (domain spell) (DC 16), frostbite,
   longstrider, obscuring mist, shillelagh
 
 **Cantrips:**

@@ -92,7 +92,7 @@ body of an enormous serpent._
 
 **1st-level spells:**
 
-- entangle, DC 12, pass without trace
+- entangle (DC 12), pass without trace
 
 **Statistics**
 

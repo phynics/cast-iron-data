@@ -111,14 +111,14 @@ dread decay)
 
 **At will:**
 
-- animate dead, control undead, DC 24, dimension door, dream, greater dispel magic, nightmare, DC
-  22, wall of thorns
+- animate dead, control undead (DC 24), dimension door, dream, greater dispel magic, nightmare (DC
+  22), wall of thorns
 
 **Per day:**
 
-- 3/day: control plants, DC 25, create greater undead, create undead, demand, DC 25, &Q feeblemind,
-  DC 22
-- 1/day: cursed earth, microcosm, DC 26, symbol of insanity, DC 25
+- 3/day: control plants (DC 25), create greater undead, create undead, demand (DC 25), &Q feeblemind
+  (DC 22)
+- 1/day: cursed earth, microcosm (DC 26), symbol of insanity (DC 25)
 
 **Statistics**
 

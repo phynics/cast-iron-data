@@ -93,13 +93,13 @@ snout ending in pink tentacles._
 
 **At will:**
 
-- detect thoughts, DC 19
+- detect thoughts (DC 19)
 
 **Per day:**
 
-- 3/day: charm monster, DC 21, dispel magic, dominate person, DC 22, shadow conjuration, DC 21,
-  shadow evocation, DC 22, veil, DC 23
-- 1/day: confusion, DC 21, major image, DC 20, mirage arcana, DC 22, plane shift, self only
+- 3/day: charm monster (DC 21), dispel magic, dominate person (DC 22), shadow conjuration (DC 21),
+  shadow evocation (DC 22), veil (DC 23)
+- 1/day: confusion (DC 21), major image (DC 20), mirage arcana (DC 22), plane shift, self only
 
 **Statistics**
 

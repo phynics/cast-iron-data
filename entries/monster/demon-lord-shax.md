@@ -104,14 +104,14 @@ electricity, energy drain, poison, petrification
 
 **At will:**
 
-- astral projection, blasphemy, DC 27, blood biography, DC 23, desecrate, greater dispel magic,
-  greater teleport, telekinesis, DC 25, shapechange, spiritual weapon, unhallow, unholy blight, DC
-  24
+- astral projection, blasphemy (DC 27), blood biography (DC 23), desecrate, greater dispel magic,
+  greater teleport, telekinesis (DC 25), shapechange, spiritual weapon, unhallow, unholy blight (DC
+  24)
 
 **Per day:**
 
-- 3/day: blade barrier, DC 26, mage's sword, summon demons, symbol of pain, DC 25
-- 1/day: finger of death, DC 27, time stop, weird, DC 29
+- 3/day: blade barrier (DC 26), mage's sword, summon demons, symbol of pain (DC 25)
+- 1/day: finger of death (DC 27), time stop, weird (DC 29)
 
 **Statistics**
 

@@ -87,7 +87,7 @@ taloned hand._
 
 **Per day:**
 
-- 3/day: cause fear, DC 12, shatter, DC 13
+- 3/day: cause fear (DC 12), shatter (DC 13)
 - 1/day: &S level 1; 1 abrikandilu 50%
 
 **Statistics**

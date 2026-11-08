@@ -86,11 +86,11 @@ small but infinite pits of malice._
 
 **At will:**
 
-- fog cloud, ventriloquism, DC 14
+- fog cloud, ventriloquism (DC 14)
 
 **Per day:**
 
-- 3/day: major image, DC 16, solid fog
+- 3/day: major image (DC 16), solid fog
 
 **Statistics**
 

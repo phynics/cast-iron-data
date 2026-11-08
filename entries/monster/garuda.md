@@ -91,7 +91,7 @@ dominate its avian face._
 
 **1st-level spells:**
 
-- 7/day: grease, DC 14, mage armor, shield, shocking grasp, true strike
+- 7/day: grease (DC 14), mage armor, shield, shocking grasp, true strike
 
 **Cantrips:**
 

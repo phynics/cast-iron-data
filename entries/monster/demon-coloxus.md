@@ -90,12 +90,12 @@ and shivering insectile wings._
 
 **At will:**
 
-- contagion, DC 20, invisibility, suggestion, DC 19
+- contagion (DC 20), invisibility, suggestion (DC 19)
 
 **Per day:**
 
-- 3/day: confusion, DC 20, haste, &Q invisibility, mind fog, DC 21
-- 1/day: giant vermin, shadow evocation, DC 21
+- 3/day: confusion (DC 20), haste, &Q invisibility, mind fog (DC 21)
+- 1/day: giant vermin, shadow evocation (DC 21)
 
 **Statistics**
 

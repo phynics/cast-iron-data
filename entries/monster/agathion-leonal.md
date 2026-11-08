@@ -95,7 +95,7 @@ feet._
 
 **At will:**
 
-- detect thoughts, fireball, DC 15, hold monster, DC 7
+- detect thoughts, fireball (DC 15), hold monster (DC 7)
 
 **Per day:**
 

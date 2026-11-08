@@ -82,12 +82,12 @@ sneering lord. Flecks of onyx glisten within its eyes, gazing across the gulf in
 
 **At will:**
 
-- animal trance\#S, DC 14, detect snares and pits\#S, magic stone
+- animal trance\#S (DC 14), detect snares and pits\#S, magic stone
 
 **Per day:**
 
-- 3/day: doom, DC 13, hypnotic pattern\#S, DC 14, reduce person, DC 13
-- 1/day: bear's endurance, hold person, DC 14
+- 3/day: doom (DC 13), hypnotic pattern\#S (DC 14), reduce person (DC 13)
+- 1/day: bear's endurance, hold person (DC 14)
 
 ###### S {#footnote-s}
 

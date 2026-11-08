@@ -88,8 +88,8 @@ white light._
 
 **Per day:**
 
-- 3/day: suggestion, DC 18
-- 1/day: greater command, DC 20
+- 3/day: suggestion (DC 18)
+- 1/day: greater command (DC 20)
 
 **Statistics**
 

@@ -98,16 +98,16 @@ lengthy contracts._
 
 **At will:**
 
-- bestow curse, DC 20, detect thoughts, DC 18, dimension door, erase, identify, major image, DC 19,
-  produce flame, sending
+- bestow curse (DC 20), detect thoughts (DC 18), dimension door, erase, identify, major image (DC
+  19), produce flame, sending
 
 **Per day:**
 
 - 3/day: arcane eye, break enchantment, greater teleport, self plus 50 lbs. of objects only, hold
-  person, DC 19, locate creature, mage's private sanctum, scorching ray, silence, DC 18, vision
-- 1/day: contact other plane, delayed blast fireball, DC 23, dismissal, DC 21, plane shift, DC 23,
-  &S level 4; 1d6 [bearded devils](ref/monster/devil-bearded-devil-barbazu) or 1
-  [bone devil](ref/monster/devil-bone-devil-osyluth) 50%, symbol of pain, DC 21
+  person (DC 19), locate creature, mage's private sanctum, scorching ray, silence (DC 18), vision
+- 1/day: contact other plane, delayed blast fireball (DC 23), dismissal (DC 21), plane shift (DC
+  23), &S level 4; 1d6 [bearded devils](ref/monster/devil-bearded-devil-barbazu) or 1
+  [bone devil](ref/monster/devil-bone-devil-osyluth) 50%, symbol of pain (DC 21)
 
 **Statistics**
 

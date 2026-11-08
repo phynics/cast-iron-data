@@ -94,11 +94,12 @@ confusion)
 
 **At will:**
 
-- bestow curse, DC 19, death knell, DC 17, gaseous form, passwall, stone shape, telekinesis, DC 20
+- bestow curse (DC 19), death knell (DC 17), gaseous form, passwall, stone shape, telekinesis (DC
+  20)
 
 **Per day:**
 
-- 3/day: disintegrate, DC 21, greater dispel magic, illusory wall, DC 19, suggestion, DC 18
+- 3/day: disintegrate (DC 21), greater dispel magic, illusory wall (DC 19), suggestion (DC 18)
 - 1/day: &S level 5; 1 temerdaemon 30%
 
 **Statistics**

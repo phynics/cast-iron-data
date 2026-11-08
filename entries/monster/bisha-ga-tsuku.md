@@ -94,7 +94,7 @@ DC 20)
 **Per day:**
 
 - 3/day: detonate, DC 18; cold only
-- 1/day: cold ice strike, DC 20, freezing sphere, DC 20, wall of ice, DC 18
+- 1/day: cold ice strike (DC 20), freezing sphere (DC 20), wall of ice (DC 18)
 
 **Statistics**
 

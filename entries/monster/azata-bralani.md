@@ -86,11 +86,11 @@ swirling with vibrant colors._
 
 **At will:**
 
-- blur, charm person, DC 13, gust of wind, DC 14, mirror image, wind wall
+- blur, charm person (DC 13), gust of wind (DC 14), mirror image, wind wall
 
 **Per day:**
 
-- 2/day: lightning bolt, DC 15, cure serious wounds
+- 2/day: lightning bolt (DC 15), cure serious wounds
 
 **Statistics**
 

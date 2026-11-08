@@ -84,22 +84,22 @@ and bone and the skull of a larger reptile as a menacing mask._
 
 **3rd-level spells:**
 
-- 1/day: poison, DC 14, stone shape, summon nature's ally III
+- 1/day: poison (DC 14), stone shape, summon nature's ally III
 
 **2nd-level spells:**
 
-- 3/day: chill metal, DC 13, protection from energy, spider climb, summon nature's ally II, summon
+- 3/day: chill metal (DC 13), protection from energy, spider climb, summon nature's ally II, summon
   swarm
 
 **1st-level spells:**
 
-- 5/day: entangle, DC 12, magic fang, obscuring mist, speak with animals, summon nature's ally I,
+- 5/day: entangle (DC 12), magic fang, obscuring mist, speak with animals, summon nature's ally I,
   thorn javelin
 
 **Cantrips:**
 
-- At will: create water, detect poison, guidance, purify food and drink, DC 11, resistance, spark,
-  DC 11
+- At will: create water, detect poison, guidance, purify food and drink (DC 11), resistance, spark
+  (DC 11)
 
 **Statistics**
 

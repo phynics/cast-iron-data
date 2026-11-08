@@ -77,7 +77,7 @@ _Light shimmers across this humanoid figure's bare golden skin, illuminating reg
 
 **Per day:**
 
-- 1/day: suggestion, DC 16
+- 1/day: suggestion (DC 16)
 
 **Spells Known**
 
@@ -87,11 +87,11 @@ _Light shimmers across this humanoid figure's bare golden skin, illuminating reg
 
 **1st-level spells:**
 
-- 4/day: command, DC 14, cure light wounds, summon monster I
+- 4/day: command (DC 14), cure light wounds, summon monster I
 
 **Cantrips:**
 
-- At will: bleed, DC 13, create water, detect magic, ghost sound, DC 13, mage hand, stabilize
+- At will: bleed (DC 13), create water, detect magic, ghost sound (DC 13), mage hand, stabilize
 
 **Mystery**
 

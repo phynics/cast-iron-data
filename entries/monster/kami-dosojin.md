@@ -85,12 +85,12 @@ reverence and patience._
 
 **Constant:**
 
-- know direction, misdirection, DC 15, speak with plants
+- know direction, misdirection (DC 15), speak with plants
 
 **Per day:**
 
 - 3/day: dispel magic, fog cloud, &Q invisibility, longstrider, pass without trace, stone shape
-- 1/day: locate object, mirage arcana, DC 18, nondetection
+- 1/day: locate object, mirage arcana (DC 18), nondetection
 
 **Statistics**
 

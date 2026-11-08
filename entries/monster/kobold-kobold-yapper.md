@@ -87,19 +87,19 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **3rd-level spells:**
 
-- 2/day: confusion, DC 15, deep slumber, DC 15, haste
+- 2/day: confusion (DC 15), deep slumber (DC 15), haste
 
 **2nd-level spells:**
 
-- 5/day: blur, heroism, hold person, DC 14, mirror image
+- 5/day: blur, heroism, hold person (DC 14), mirror image
 
 **1st-level spells:**
 
-- 5/day: alarm, charm person, DC 13, grease, DC 13, silent image, DC 13, ventriloquism, DC 13
+- 5/day: alarm, charm person (DC 13), grease (DC 13), silent image (DC 13), ventriloquism (DC 13)
 
 **Cantrips:**
 
-- At will: dancing lights, detect magic, ghost sound, DC 12, mage hand, prestidigitation, DC 12,
+- At will: dancing lights, detect magic, ghost sound (DC 12), mage hand, prestidigitation (DC 12),
   resistance
 
 **Statistics**

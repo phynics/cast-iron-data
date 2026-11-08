@@ -88,7 +88,7 @@ piscine head features a toothy maw._
 
 **1st-level spells:**
 
-- hunter's howl, DC 12
+- hunter's howl (DC 12)
 
 ### Tactics
 

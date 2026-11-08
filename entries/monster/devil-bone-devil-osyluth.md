@@ -90,7 +90,7 @@ moves in unsettling lurches._
 **At will:**
 
 - dimensional anchor, greater teleport, self plus 50 lbs. of objects only, invisibility, self only,
-  major image, DC 17, wall of ice
+  major image (DC 17), wall of ice
 
 **Per day:**
 

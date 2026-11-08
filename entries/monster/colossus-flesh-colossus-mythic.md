@@ -95,7 +95,7 @@ pinning stomp)
 **Per day:**
 
 - 3/day: waves of fatigue
-- 1/day: circle of death, DC 17
+- 1/day: circle of death (DC 17)
 
 **Statistics**
 

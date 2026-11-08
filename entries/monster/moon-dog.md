@@ -96,7 +96,7 @@ its face seems preternaturally wise._
 **Per day:**
 
 - 3/day: alter self, mirror image
-- 1/day: darkness, dispel magic, greater invisibility, greater shadow conjuration, DC 20,
+- 1/day: darkness, dispel magic, greater invisibility, greater shadow conjuration (DC 20),
   nondetection, obscuring mist
 
 **Statistics**

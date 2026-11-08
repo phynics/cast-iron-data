@@ -76,11 +76,11 @@ jagged teeth._
 
 **At will:**
 
-- suggestion, DC 16
+- suggestion (DC 16)
 
 **Per day:**
 
-- 1/day: crushing despair, DC 17, dimension door, shout, DC 18
+- 1/day: crushing despair (DC 17), dimension door, shout (DC 18)
 
 **Statistics**
 

@@ -84,11 +84,11 @@ ears._
 
 **At will:**
 
-- dancing lights, daze, DC 10
+- dancing lights, daze (DC 10)
 
 **Per day:**
 
-- 1/day: color spray, DC 11
+- 1/day: color spray (DC 11)
 
 **Statistics**
 

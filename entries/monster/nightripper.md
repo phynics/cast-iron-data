@@ -98,18 +98,18 @@ bleed), 2 talons +31 (1d6+4/19-20 plus 2d6 bleed)
 
 **Constant:**
 
-- air walk, detect good, detect law, freedom of movement, true seeing, unholy aura, DC 25
+- air walk, detect good, detect law, freedom of movement, true seeing, unholy aura (DC 25)
 
 **At will:**
 
-- greater dispel magic, greater teleport, phantasmal killer, DC 21, spiked pit, DC 20, telekinesis,
-  DC 22
+- greater dispel magic, greater teleport, phantasmal killer (DC 21), spiked pit (DC 20), telekinesis
+  (DC 22)
 
 **Per day:**
 
-- 3/day: acid pit, DC 21, &Q blade barrier, DC 23, harm, DC 23, hungry pit, DC 22
+- 3/day: acid pit (DC 21), &Q blade barrier (DC 23), harm (DC 23), hungry pit (DC 22)
 - 1/day: reverse gravity, &S level 9; any demon or combination of demons whose total combined CR is
-  20 or lower 100%, time stop, weird, DC 26
+  20 or lower 100%, time stop, weird (DC 26)
 
 **Statistics**
 

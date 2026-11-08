@@ -85,11 +85,11 @@ it whirs as if mechanical._
 
 **At will:**
 
-- detect thoughts, DC 17, fear, DC 20
+- detect thoughts (DC 17), fear (DC 20)
 
 **Per day:**
 
-- 3/day: major image, DC 19
+- 3/day: major image (DC 19)
 
 **Statistics**
 

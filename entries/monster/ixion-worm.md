@@ -94,12 +94,13 @@ _A cyclopean face stretches grotesquely across the hub of a tall, knobby wheel o
 
 **At will:**
 
-- castigate, DC 17, enthrall, DC 17, hypnotism, DC 17, lock gaze, DC 16, mage hand
+- castigate (DC 17), enthrall (DC 17), hypnotism (DC 17), lock gaze (DC 16), mage hand
 
 **Per day:**
 
-- 3/day: mass suggestion, DC 20, miserable pity, DC 18, persistent image, DC 19, telekinesis, DC 20
-- 1/day: synapse overload, DC 21
+- 3/day: mass suggestion (DC 20), miserable pity (DC 18), persistent image (DC 19), telekinesis (DC
+  20)
+- 1/day: synapse overload (DC 21)
 
 **Statistics**
 

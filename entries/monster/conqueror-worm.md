@@ -100,7 +100,7 @@ four long, hook-like jaws._
 
 **At will:**
 
-- detect thoughts, DC 21
+- detect thoughts (DC 21)
 
 **Spells Known**
 
@@ -110,35 +110,36 @@ four long, hook-like jaws._
 
 **9th-level spells:**
 
-- 5/day: dominate monster, DC 29, implosion, DC 29, time stop
+- 5/day: dominate monster (DC 29), implosion (DC 29), time stop
 
 **8th-level spells:**
 
-- 7/day: demand, DC 28, mass charm monster, DC 28, psychic crush IV, DC 27
+- 7/day: demand (DC 28), mass charm monster (DC 28), psychic crush IV (DC 27)
 
 **7th-level spells:**
 
-- 8/day: ego whip V, DC 26, insanity, DC 27, project image, DC 27
+- 8/day: ego whip V (DC 26), insanity (DC 27), project image (DC 27)
 
 **6th-level spells:**
 
-- 8/day: mass inflict pain, DC 25, mind thrust VI, DC 25, veil, DC 26
+- 8/day: mass inflict pain (DC 25), mind thrust VI (DC 25), veil (DC 26)
 
 **5th-level spells:**
 
-- 8/day: greater command, DC 25, greater synaptic pulse, DC 24, mind fog, DC 25, possession, DC 24
+- 8/day: greater command (DC 25), greater synaptic pulse (DC 24), mind fog (DC 25), possession (DC
+  24)
 
 **4th-level spells:**
 
-- 8/day: dream, hallucinatory terrain, DC 24, mind probe, DC 23, scrying, DC 24
+- 8/day: dream, hallucinatory terrain (DC 24), mind probe (DC 23), scrying (DC 24)
 
 **3rd-level spells:**
 
-- 9/day: clairaudience/clairvoyance, dispel magic, illusory script, DC 23, telekinetic maneuver
+- 9/day: clairaudience/clairvoyance, dispel magic, illusory script (DC 23), telekinetic maneuver
 
 **2nd-level spells:**
 
-- 9/day: enthrall, DC 22, share memory, DC 22, status, suggestion, DC 22, undetectable alignment
+- 9/day: enthrall (DC 22), share memory (DC 22), status, suggestion (DC 22), undetectable alignment
 
 **1st-level spells:**
 
@@ -146,7 +147,7 @@ four long, hook-like jaws._
 
 **Cantrips:**
 
-- At will: arcane mark, daze, DC 20, detect magic, detect psychic significance, mage hand, message,
+- At will: arcane mark, daze (DC 20), detect magic, detect psychic significance, mage hand, message,
   open/close, read magic, telekinetic projectile
 
 **Statistics**

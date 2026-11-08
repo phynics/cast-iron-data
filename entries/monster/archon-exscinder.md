@@ -91,14 +91,14 @@ wings._
 
 **At will:**
 
-- cure light wounds, detect thoughts, DC 17, discern lies, DC 19, hold monster, DC 20, holy smite,
-  DC 19, invisibility, self only, locate creature, locate object, modify memory, DC 19, protection
-  from evil, DC 16, repress memory, DC 21, stabilize, zone of truth, DC 17
+- cure light wounds, detect thoughts (DC 17), discern lies (DC 19), hold monster (DC 20), holy smite
+  (DC 19), invisibility, self only, locate creature, locate object, modify memory (DC 19),
+  protection from evil (DC 16), repress memory (DC 21), stabilize, zone of truth (DC 17)
 
 **Per day:**
 
-- 3/day: dispel evil, DC 20, fireball, DC 18, flame strike, DC 20, plane shift, DC 20
-- 1/day: discern location, DC 23, find the path, DC 21
+- 3/day: dispel evil (DC 20), fireball (DC 18), flame strike (DC 20), plane shift (DC 20)
+- 1/day: discern location (DC 23), find the path (DC 21)
 
 **Statistics**
 

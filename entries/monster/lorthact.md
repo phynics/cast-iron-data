@@ -96,16 +96,16 @@ Intelligence drain)
 
 **At will:**
 
-- alter self, blasphemy, DC 30, dominate person, DC 28, freedom of movement, greater arcane sight,
-  greater dispel magic, greater invisibility, greater scrying, DC 30, greater shadow conjuration, DC
-  30, greater shadow evocation, DC 31, greater teleport, mass suggestion, DC 29, programmed image,
-  DC 29, unholy aura, DC 31
+- alter self, blasphemy (DC 30), dominate person (DC 28), freedom of movement, greater arcane sight,
+  greater dispel magic, greater invisibility, greater scrying (DC 30), greater shadow conjuration
+  (DC 30), greater shadow evocation (DC 31), greater teleport, mass suggestion (DC 29), programmed
+  image (DC 29), unholy aura (DC 31)
 
 **Per day:**
 
-- 3/day: banishment, DC 29, &Q greater dispel magic, &EM horrid wilting, DC 31, polymorph any
-  object, DC 31, spell turning
-- 1/day: dominate monster, DC 32, limited wish, mage's disjunction, DC 32, prismatic sphere, time
+- 3/day: banishment (DC 29), &Q greater dispel magic, &EM horrid wilting (DC 31), polymorph any
+  object (DC 31), spell turning
+- 1/day: dominate monster (DC 32), limited wish, mage's disjunction (DC 32), prismatic sphere, time
   stop
 
 **Statistics**

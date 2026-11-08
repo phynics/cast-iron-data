@@ -99,12 +99,12 @@ maw for a belly._
 
 **At will:**
 
-- chaos hammer, DC 18, darkness
+- chaos hammer (DC 18), darkness
 
 **Per day:**
 
-- 3/day: confusion, DC 18, &Q darkness, dispel magic, protection from law
-- 1/day: plane shift, DC 21
+- 3/day: confusion (DC 18), &Q darkness, dispel magic, protection from law
+- 1/day: plane shift (DC 21)
 
 **Statistics**
 

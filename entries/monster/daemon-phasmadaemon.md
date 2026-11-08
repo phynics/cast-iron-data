@@ -98,14 +98,14 @@ projecting from its sinuous body._
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, persistent image, DC 21
+- greater teleport, self plus 50 lbs. of objects only, persistent image (DC 21)
 
 **Per day:**
 
-- 3/day: greater shadow conjuration, DC 23, greater shadow evocation, DC 24, mirage arcana, DC 21,
-  nightmare, DC 21, permanent image, DC 22, &Q phantasmal killer, DC 20
-- 1/day: mislead, DC 22, &S level 8; 1 [temerdaemon](ref/monster/daemon-temerdaemon) or 1d3
-  [suspiridaemons](ref/monster/daemon-suspiridaemon) 50%, symbol of fear, DC 22, weird, DC 25
+- 3/day: greater shadow conjuration (DC 23), greater shadow evocation (DC 24), mirage arcana (DC
+  21), nightmare (DC 21), permanent image (DC 22), &Q phantasmal killer (DC 20)
+- 1/day: mislead (DC 22), &S level 8; 1 [temerdaemon](ref/monster/daemon-temerdaemon) or 1d3
+  [suspiridaemons](ref/monster/daemon-suspiridaemon) 50%, symbol of fear (DC 22), weird (DC 25)
 
 **Statistics**
 

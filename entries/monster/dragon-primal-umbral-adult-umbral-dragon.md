@@ -100,19 +100,19 @@ abilities = ["27", "10", "21", "20", "21", "20"]
 
 **3rd-level spells:**
 
-- 5/day: dispel magic, inflict serious wounds, DC 18
+- 5/day: dispel magic, inflict serious wounds (DC 18)
 
 **2nd-level spells:**
 
-- 7/day: command undead, DC 17, invisibility, web, DC 17
+- 7/day: command undead (DC 17), invisibility, web (DC 17)
 
 **1st-level spells:**
 
-- 8/day: grease, DC 16, inflict light wounds, DC 16, magic missile, reduce person, DC 16, shield
+- 8/day: grease (DC 16), inflict light wounds (DC 16), magic missile, reduce person (DC 16), shield
 
 **Cantrips:**
 
-- At will: bleed, DC 15, detect magic, detect poison, disrupt undead, DC 15, mage hand, ray of
+- At will: bleed (DC 15), detect magic, detect poison, disrupt undead (DC 15), mage hand, ray of
   frost, read magic
 
 **Statistics**

@@ -83,12 +83,13 @@ waters._
 
 **At will:**
 
-- create water, detect thoughts, DC 15, invisibility, plane shift, self plus 50 lbs. of objects only
+- create water, detect thoughts (DC 15), invisibility, plane shift, self plus 50 lbs. of objects
+  only
 
 **Per day:**
 
-- 3/day: hydraulic push, DC 14, obscuring mist, touch of the sea, water breathing
-- 1/day: call lightning, DC 16, gust of wind, DC 15, hydraulic torrent, DC 16
+- 3/day: hydraulic push (DC 14), obscuring mist, touch of the sea, water breathing
+- 1/day: call lightning (DC 16), gust of wind (DC 15), hydraulic torrent (DC 16)
 
 **Statistics**
 

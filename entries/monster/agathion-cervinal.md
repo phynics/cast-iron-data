@@ -102,9 +102,9 @@ lower body of a majestic elk._
 
 **Per day:**
 
-- 5/day: clairaudience/clairvoyance, cure critical wounds, dismissal, DC 18, dispel magic
-- 3/day: breath of life, mass bull's strength, plane shift, DC 19
-- 1/day: discern location, greater scrying, DC 21
+- 5/day: clairaudience/clairvoyance, cure critical wounds, dismissal (DC 18), dispel magic
+- 3/day: breath of life, mass bull's strength, plane shift (DC 19)
+- 1/day: discern location, greater scrying (DC 21)
 
 **Statistics**
 

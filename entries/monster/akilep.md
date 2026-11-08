@@ -95,8 +95,9 @@ _This beautiful female sphinx appears both wise and thoughtful._
 
 **Per week:**
 
-- \^any three of the following:, symbol of fear, DC 21, symbol of pain, DC 20, symbol of persuasion,
-  DC 21, symbol of sleep, DC 20, symbol of stunning, DC 22, $; all symbols last for 1 week maximum
+- \^any three of the following:, symbol of fear (DC 21), symbol of pain (DC 20), symbol of
+  persuasion (DC 21), symbol of sleep (DC 20), symbol of stunning (DC 22), $; all symbols last for 1
+  week maximum
 
 **Statistics**
 

@@ -86,13 +86,13 @@ _This small, goat-like man has curved horns, hoofed feet, and a rat-like tail._
 
 **At will:**
 
-- dancing lights, ghost sound, DC 13, lesser confusion, DC 14, scarecrow form
+- dancing lights, ghost sound (DC 13), lesser confusion (DC 14), scarecrow form
 
 **Per day:**
 
-- 3/day: charm person, DC 14, confusion, DC 17, dimension door, hideous laughter, DC 15,
+- 3/day: charm person (DC 14), confusion (DC 17), dimension door, hideous laughter (DC 15),
   invisibility
-- 1/day: baleful polymorph, DC 18, fear, DC 17
+- 1/day: baleful polymorph (DC 18), fear (DC 17)
 
 **Statistics**
 

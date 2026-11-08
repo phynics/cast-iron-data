@@ -89,7 +89,7 @@ abilities = ["23", "12", "21", "16", "17", "22"]
 
 **At will:**
 
-- color spray, DC 17, glitterdust, DC 18, rainbow pattern, DC 20
+- color spray (DC 17), glitterdust (DC 18), rainbow pattern (DC 20)
 
 **Spells Known**
 

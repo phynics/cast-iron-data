@@ -83,11 +83,11 @@ speak to great age and danger._
 
 **At will:**
 
-- bleed, DC 14, blood biography, DC 16, bloodhound, pain strike, DC 19
+- bleed (DC 14), blood biography (DC 16), bloodhound, pain strike (DC 19)
 
 **Per day:**
 
-- 3/day: charm person, DC 15, modify memory, DC 18, rage, DC 17
+- 3/day: charm person (DC 15), modify memory (DC 18), rage (DC 17)
 
 **Statistics**
 

@@ -94,12 +94,12 @@ its twin tentacle tails._
 
 **At will:**
 
-- detect thoughts, DC 16, levitate
+- detect thoughts (DC 16), levitate
 
 **Per day:**
 
-- 3/day: confusion, DC 18, dispel magic, suggestion, DC 17
-- 1/day: mind fog, DC 19, phantasmal killer, DC 18
+- 3/day: confusion (DC 18), dispel magic, suggestion (DC 17)
+- 1/day: mind fog (DC 19), phantasmal killer (DC 18)
 
 **Statistics**
 

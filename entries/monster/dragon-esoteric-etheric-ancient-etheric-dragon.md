@@ -109,28 +109,28 @@ abilities = ["38", "9", "26", "23", "20", "21"]
 
 **5th-level spells:**
 
-- 7/day: hold monster, DC 20, plane shift, DC 20, wall of ectoplasm, DC 20
+- 7/day: hold monster (DC 20), plane shift (DC 20), wall of ectoplasm (DC 20)
 
 **4th-level spells:**
 
-- 7/day: arcane eye, condensed ether, dimension door, phantasmal killer, DC 19
+- 7/day: arcane eye, condensed ether, dimension door, phantasmal killer (DC 19)
 
 **3rd-level spells:**
 
-- 7/day: aura sight, deep slumber, DC 18, heroism, thought shield II
+- 7/day: aura sight, deep slumber (DC 18), heroism, thought shield II
 
 **2nd-level spells:**
 
-- 8/day: blindness/deafness, DC 17, false life, pain strike, see invisibility, silence, DC 17
+- 8/day: blindness/deafness (DC 17), false life, pain strike, see invisibility, silence (DC 17)
 
 **1st-level spells:**
 
-- 8/day: anticipate peril, detect thoughts, DC 16, shield, silent image, DC 16, magic missile
+- 8/day: anticipate peril, detect thoughts (DC 16), shield, silent image (DC 16), magic missile
 
 **Cantrips:**
 
-- At will: bleed, DC 15, dancing lights, daze, DC 15, detect magic, detect poison, ghost sound, DC
-  15, grave words, resistance, virtue
+- At will: bleed (DC 15), dancing lights, daze (DC 15), detect magic, detect poison, ghost sound (DC
+  15), grave words, resistance, virtue
 
 **Statistics**
 

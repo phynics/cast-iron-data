@@ -83,7 +83,7 @@ hypnotically._
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 14, expeditious retreat, magic missile, ray of enfeeblement, DC 14
+- 7/day: charm person (DC 14), expeditious retreat, magic missile, ray of enfeeblement (DC 14)
 
 **Cantrips:**
 

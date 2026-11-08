@@ -93,11 +93,11 @@ nearby tomes and pages._
 
 **At will:**
 
-- arcane mark, erase, DC 13, dimension door
+- arcane mark, erase (DC 13), dimension door
 
 **Per day:**
 
-- 1/day: explosive runes, DC 15, sepia snake sigil, DC 15
+- 1/day: explosive runes (DC 15), sepia snake sigil (DC 15)
 
 **Statistics**
 

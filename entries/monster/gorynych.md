@@ -91,12 +91,12 @@ behind three sets of fangs._
 
 **At will:**
 
-- charm person, DC 15, dancing lights, message
+- charm person (DC 15), dancing lights, message
 
 **Per day:**
 
-- 3/day: alter self, bestow curse, DC 18, greater dispel magic
-- 1/day: lesser geas, DC 18, limited wish, mislead, DC 20
+- 3/day: alter self, bestow curse (DC 18), greater dispel magic
+- 1/day: lesser geas (DC 18), limited wish, mislead (DC 20)
 
 **Statistics**
 

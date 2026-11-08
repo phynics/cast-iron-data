@@ -92,8 +92,8 @@ _This iguana-headed scholar wears a robe of frills and scales covered in baubles
 
 **Per day:**
 
-- 3/day: color spray, DC 15, hypnotism, DC 15, protection from evil, DC 15, object reading
-- 1/day: hideous laughter, DC 16
+- 3/day: color spray (DC 15), hypnotism (DC 15), protection from evil (DC 15), object reading
+- 1/day: hideous laughter (DC 16)
 
 **Statistics**
 

@@ -90,7 +90,7 @@ wings +17 (1d6+4)
 
 **At will:**
 
-- burning hands, DC 14, scorching ray, wall of fire
+- burning hands (DC 14), scorching ray, wall of fire
 
 **Spells Known**
 
@@ -100,19 +100,19 @@ wings +17 (1d6+4)
 
 **3rd-level spells:**
 
-- 5/day: dispel magic, fireball, DC 16
+- 5/day: dispel magic, fireball (DC 16)
 
 **2nd-level spells:**
 
-- 7/day: dust of twilight, flaming sphere, DC 15, glitterdust, DC 15, pyrotechnics, DC 15
+- 7/day: dust of twilight, flaming sphere (DC 15), glitterdust (DC 15), pyrotechnics (DC 15)
 
 **1st-level spells:**
 
-- 7/day: feather fall, flare burst, DC 14, grease, DC 14, shield, true strike
+- 7/day: feather fall, flare burst (DC 14), grease (DC 14), shield, true strike
 
 **Cantrips:**
 
-- At will: bleed, DC 13, detect magic, detect poison, open/close, read magic, spark, touch of
+- At will: bleed (DC 13), detect magic, detect poison, open/close, read magic, spark, touch of
   fatigue
 
 **Statistics**

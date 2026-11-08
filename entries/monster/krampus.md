@@ -100,12 +100,13 @@ effects, paralysis
 
 **At will:**
 
-- bestow curse, DC 24, control weather, dimension door, discern location, ice storm, sleet storm
+- bestow curse (DC 24), control weather, dimension door, discern location, ice storm, sleet storm
 
 **Per day:**
 
-- 3/day: animate objects, baleful polymorph, DC 25, phantasmal killer, DC 24
-- 1/day: polymorph any object, DC 28, sympathy, DC 28, weird, DC 29, wish, to other creatures only
+- 3/day: animate objects, baleful polymorph (DC 25), phantasmal killer (DC 24)
+- 1/day: polymorph any object (DC 28), sympathy (DC 28), weird (DC 29), wish, to other creatures
+  only
 
 **Statistics**
 

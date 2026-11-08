@@ -83,7 +83,7 @@ this feral-looking man._
 
 **Per day:**
 
-- 1/day: dominate person, DC 16
+- 1/day: dominate person (DC 16)
 
 **Statistics**
 

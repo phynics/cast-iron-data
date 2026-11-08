@@ -87,11 +87,11 @@ tail and crests on its head and back._
 
 **1st-level spells:**
 
-- 7/day: cause fear, DC 15, corrosive touch, ray of enfeeblement, DC 15, summon monster I
+- 7/day: cause fear (DC 15), corrosive touch, ray of enfeeblement (DC 15), summon monster I
 
 **Cantrips:**
 
-- At will: acid splash, daze, DC 13, detect magic, ghost sound, DC 13, mage hand, mending
+- At will: acid splash, daze (DC 13), detect magic, ghost sound (DC 13), mage hand, mending
 
 **Bloodline**
 

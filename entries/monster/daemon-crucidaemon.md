@@ -94,13 +94,13 @@ in curved blades._
 
 **At will:**
 
-- fear, DC 23, greater teleport, self plus 50 lbs. of objects only, invisibility
+- fear (DC 23), greater teleport, self plus 50 lbs. of objects only, invisibility
 
 **Per day:**
 
-- 3/day: greater glyph of warding, DC 25, hold monster, DC 24
-- 1/day: insanity, DC 26, &S level 4; 2 [piscodaemons](ref/monster/daemon-piscodaemon) 50%, symbol
-  of pain, DC 24
+- 3/day: greater glyph of warding (DC 25), hold monster (DC 24)
+- 1/day: insanity (DC 26), &S level 4; 2 [piscodaemons](ref/monster/daemon-piscodaemon) 50%, symbol
+  of pain (DC 24)
 
 **Statistics**
 

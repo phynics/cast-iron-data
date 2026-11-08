@@ -90,20 +90,21 @@ scythe-like claw._
 
 **3rd-level spells:**
 
-- bestow curse, DC 16, contagion, DC 16, dispel magic (domain spell), inflict serious wounds, DC 16
+- bestow curse (DC 16), contagion (DC 16), dispel magic (domain spell), inflict serious wounds (DC
+  16)
 
 **2nd-level spells:**
 
-- death knell (domain spell), DC 15, hold person, DC 15, inflict moderate wounds, DC 15, resist
+- death knell (domain spell) (DC 15), hold person (DC 15), inflict moderate wounds (DC 15), resist
   energy, spiritual weapon
 
 **1st-level spells:**
 
-- cause fear (domain spell), DC 14, command, DC 14, divine favor, obscuring mist, shield of faith
+- cause fear (domain spell) (DC 14), command (DC 14), divine favor, obscuring mist, shield of faith
 
 **Cantrips:**
 
-- bleed, DC 13, detect magic, guidance, resistance
+- bleed (DC 13), detect magic, guidance, resistance
 
 **Domains**
 

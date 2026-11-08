@@ -86,13 +86,13 @@ battle-worn spear._
 
 **At will:**
 
-- chill touch, DC 16, detect thoughts, DC 17, zone of truth, DC 17
+- chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
 
 **Per day:**
 
 - 5/day: deeper darkness, ice storm
-- 3/day: cone of cold, DC 20, dust of twilight, DC 17, moonstruck, DC 19
-- 1/day: cloak of dreams, DC 21
+- 3/day: cone of cold (DC 20), dust of twilight (DC 17), moonstruck (DC 19)
+- 1/day: cloak of dreams (DC 21)
 
 **Statistics**
 

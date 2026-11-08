@@ -92,11 +92,11 @@ between her hands._
 
 **At will:**
 
-- wandering star motes, DC 20
+- wandering star motes (DC 20)
 
 **Per day:**
 
-- 3/day: &Q wandering star motes, DC 20
+- 3/day: &Q wandering star motes (DC 20)
 
 **Statistics**
 

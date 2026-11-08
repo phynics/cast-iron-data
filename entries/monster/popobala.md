@@ -90,12 +90,12 @@ popobala fever), 2 wings +20 (1d6+3)
 
 **At will:**
 
-- clairaudience/clairvoyance, ghost sound, DC 16, ventriloquism, DC 17
+- clairaudience/clairvoyance, ghost sound (DC 16), ventriloquism (DC 17)
 
 **Per day:**
 
-- 3/day: dominate person, DC 21; can only dominate and control one person at a time, eyebite, DC 22,
-  feeblemind, DC 21, spell turning, suggestion, DC 19, telekinesis, DC 21
+- 3/day: dominate person, DC 21; can only dominate and control one person at a time, eyebite (DC
+  22), feeblemind (DC 21), spell turning, suggestion (DC 19), telekinesis (DC 21)
 - 1/day: animate objects
 
 **Statistics**

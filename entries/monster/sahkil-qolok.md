@@ -100,13 +100,13 @@ claws +26 (1d6+9)
 
 **At will:**
 
-- air walk, calm emotions, DC 19, detect magic, detect good, greater dispel magic, greater teleport,
-  self plus 50 lbs. of objects only, magic circle against good, suggestion, DC 18
+- air walk, calm emotions (DC 19), detect magic, detect good, greater dispel magic, greater
+  teleport, self plus 50 lbs. of objects only, magic circle against good, suggestion (DC 18)
 
 **Per day:**
 
-- 3/day: blink, deeper darkness, disintegrate, DC 21, mass suggestion, DC 21, nondetection
-- 1/day: mind blank, plane shift, DC 22, &S level 7; 1d3 pakalchis 40%
+- 3/day: blink, deeper darkness, disintegrate (DC 21), mass suggestion (DC 21), nondetection
+- 1/day: mind blank, plane shift (DC 22), &S level 7; 1d3 pakalchis 40%
 
 **Statistics**
 

@@ -93,12 +93,13 @@ soaked and splattered with blood, wine, and other fluids._
 
 **At will:**
 
-- acid arrow, contagion, DC 18, dispel magic, greater teleport, self plus 50 lbs. of gear only, rage
+- acid arrow, contagion (DC 18), dispel magic, greater teleport, self plus 50 lbs. of gear only,
+  rage
 
 **Per day:**
 
-- 3/day: fireball, DC 18, magic missile, vampiric touch
-- 1/day: cleanse, mass inflict moderate wounds, DC 21, plane shift, self plus 50 lbs. of gear only,
+- 3/day: fireball (DC 18), magic missile, vampiric touch
+- 1/day: cleanse, mass inflict moderate wounds (DC 21), plane shift, self plus 50 lbs. of gear only,
   wall of thorns
 
 **Statistics**

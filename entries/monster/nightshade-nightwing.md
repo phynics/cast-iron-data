@@ -93,12 +93,12 @@ blackest night._
 
 **At will:**
 
-- contagion, DC 19, deeper darkness, unholy blight, DC 19
+- contagion (DC 19), deeper darkness, unholy blight (DC 19)
 
 **Per day:**
 
-- 3/day: confusion, DC 19, greater dispel magic, haste, hold monster, DC 20, invisibility
-- 1/day: cone of cold, DC 20, finger of death, DC 22, plane shift, DC 22, &S level 6; 2 greater
+- 3/day: confusion (DC 19), greater dispel magic, haste, hold monster (DC 20), invisibility
+- 1/day: cone of cold (DC 20), finger of death (DC 22), plane shift (DC 22), &S level 6; 2 greater
   shadows
 
 **Statistics**

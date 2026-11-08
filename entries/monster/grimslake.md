@@ -91,8 +91,8 @@ _This maggot-like creature has a long tail covered with frightening hooked sucke
 
 **Per day:**
 
-- 3/day: death knell, DC 12, ray of exhaustion, DC 13
-- 1/day: slow, DC 13
+- 3/day: death knell (DC 12), ray of exhaustion (DC 13)
+- 1/day: slow (DC 13)
 
 **Statistics**
 

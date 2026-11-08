@@ -96,11 +96,11 @@ hefting its grisly armor with ease._
 
 **At will:**
 
-- disguise self, levitate, major image, DC 15, pyrotechnics
+- disguise self, levitate, major image (DC 15), pyrotechnics
 
 **Per day:**
 
-- 3/day: animate dead, dispel magic, unholy blight, DC 16, wall of fire
+- 3/day: animate dead, dispel magic, unholy blight (DC 16), wall of fire
 
 **Statistics**
 

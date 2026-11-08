@@ -95,7 +95,7 @@ antler-like growths on its head._
 
 **Per day:**
 
-- 3/day: command plants, DC 16
+- 3/day: command plants (DC 16)
 - 1/day: tree stride, wall of thorns
 
 **Statistics**

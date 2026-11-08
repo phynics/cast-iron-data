@@ -92,7 +92,7 @@ veins, organs, and twisted flesh._
 
 **At will:**
 
-- bleed, DC 15, plane shift, from the Material Plane to the Plane of Shadow Plane, self only,
+- bleed (DC 15), plane shift, from the Material Plane to the Plane of Shadow Plane, self only,
   stabilize
 
 **Per day:**

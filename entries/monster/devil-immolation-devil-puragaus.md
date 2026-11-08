@@ -96,12 +96,12 @@ _Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-
 
 **At will:**
 
-- fireball, DC 20, greater teleport, self plus 50 lbs. of objects only, persistent image, DC 22,
+- fireball (DC 20), greater teleport, self plus 50 lbs. of objects only, persistent image (DC 22),
   wall of fire
 
 **Per day:**
 
-- 3/day: dictum, DC 24, fire storm, DC 25, mass charm monster, DC 25
+- 3/day: dictum (DC 24), fire storm (DC 25), mass charm monster (DC 25)
 - 1/day: &S level 9; any 2d4 devils of CR 10 or lower; 90%
 
 **Statistics**

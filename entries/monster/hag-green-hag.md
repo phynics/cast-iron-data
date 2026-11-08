@@ -74,7 +74,7 @@ _Knots of dark, moldering hair spill over the features of this sickly, thin, gre
 
 **At will:**
 
-- alter self, dancing lights, ghost sound, DC 12, invisibility, pyrotechnics, DC 14, tree shape,
+- alter self, dancing lights, ghost sound (DC 12), invisibility, pyrotechnics (DC 14), tree shape,
   whispering wind
 
 **Statistics**

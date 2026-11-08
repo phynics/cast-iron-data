@@ -96,11 +96,11 @@ abilities = ["17", "8", "12", "8", "13", "12"]
 
 **1st-level spells:**
 
-- bane, DC 12, magic weapon, murderous command, DC 12, protection from good (domain spell)
+- bane (DC 12), magic weapon, murderous command (DC 12), protection from good (domain spell)
 
 **Cantrips:**
 
-- bleed, DC 11, detect magic, guidance, read magic
+- bleed (DC 11), detect magic, guidance, read magic
 
 **Domains**
 

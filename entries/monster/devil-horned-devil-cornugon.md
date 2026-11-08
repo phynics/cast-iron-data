@@ -89,12 +89,12 @@ wound)
 
 **At will:**
 
-- dispel chaos, DC 21, dispel good, DC 21, magic circle against good, greater teleport, self plus 50
-  lbs. of objects only, persistent image, DC 21
+- dispel chaos (DC 21), dispel good (DC 21), magic circle against good, greater teleport, self plus
+  50 lbs. of objects only, persistent image (DC 21)
 
 **Per day:**
 
-- 3/day: fireball, DC 19, lightning bolt, DC 19
+- 3/day: fireball (DC 19), lightning bolt (DC 19)
 - 1/day: &S level 6; 3 [barbed devils](ref/monster/devil-barbed-devil-hamatula); 35%
 
 **Statistics**

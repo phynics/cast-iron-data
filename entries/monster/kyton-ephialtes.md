@@ -105,7 +105,7 @@ usable every 1d4 rounds
 
 **Per day:**
 
-- 3/day: deeper darkness, shadow walk, DC 19, silence, DC 15
+- 3/day: deeper darkness, shadow walk (DC 19), silence (DC 15)
 - 1/day: discern location
 
 **Statistics**

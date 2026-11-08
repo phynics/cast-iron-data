@@ -81,8 +81,8 @@ energy._
 
 **At will:**
 
-- burning hands, DC 12, color spray, DC 12, hold portal, ray of enfeeblement, DC 12, reduce person,
-  DC 12, sleep, DC 12, summon monster I
+- burning hands (DC 12), color spray (DC 12), hold portal, ray of enfeeblement (DC 12), reduce
+  person (DC 12), sleep (DC 12), summon monster I
 
 **Statistics**
 

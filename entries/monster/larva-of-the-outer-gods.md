@@ -94,9 +94,9 @@ writhing tentacles._
 
 **Per day:**
 
-- 5/day: chaos hammer, DC 20, dispel magic, magic circle against law
-- 3/day: control summoned creature, DC 20, deafening song bolt, song of discord, DC 21
-- 1/day: summon monster VIII, word of chaos, DC 23
+- 5/day: chaos hammer (DC 20), dispel magic, magic circle against law
+- 3/day: control summoned creature (DC 20), deafening song bolt, song of discord (DC 21)
+- 1/day: summon monster VIII, word of chaos (DC 23)
 
 **Statistics**
 

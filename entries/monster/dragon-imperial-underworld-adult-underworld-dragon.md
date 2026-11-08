@@ -92,7 +92,7 @@ abilities = ["27", "10", "21", "16", "17", "16"]
 
 **At will:**
 
-- soften earth and stone, spike stones, DC 17, stone shape
+- soften earth and stone, spike stones (DC 17), stone shape
 
 **Spells Known**
 
@@ -102,15 +102,15 @@ abilities = ["27", "10", "21", "16", "17", "16"]
 
 **2nd-level spells:**
 
-- 5/day: flaming sphere, DC 15, scorching ray
+- 5/day: flaming sphere (DC 15), scorching ray
 
 **1st-level spells:**
 
-- 7/day: burning hands, DC 14, cause fear, DC 14, magic missile, ray of enfeeblement, DC 14
+- 7/day: burning hands (DC 14), cause fear (DC 14), magic missile, ray of enfeeblement (DC 14)
 
 **Cantrips:**
 
-- At will: acid splash, bleed, DC 13, detect magic, flare, DC 13, read magic, resistance
+- At will: acid splash, bleed (DC 13), detect magic, flare (DC 13), read magic, resistance
 
 **Statistics**
 

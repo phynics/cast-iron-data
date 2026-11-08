@@ -91,11 +91,11 @@ lights and gentle rainbow arcs._
 
 **At will:**
 
-- dancing lights, daze, DC 15, summon instrument, ventriloquism, DC 16
+- dancing lights, daze (DC 15), summon instrument, ventriloquism (DC 16)
 
 **Per day:**
 
-- 1/day: cure light wounds, lesser confusion, DC 16, silent image, DC 16
+- 1/day: cure light wounds, lesser confusion (DC 16), silent image (DC 16)
 
 **Per week:**
 

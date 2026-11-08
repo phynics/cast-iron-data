@@ -98,11 +98,11 @@ coil and writhe beneath it._
 
 **At will:**
 
-- deeper darkness, disintegrate, DC 21
+- deeper darkness, disintegrate (DC 21)
 
 **Per day:**
 
-- 3/day: &Q disintegrate, DC 21
+- 3/day: &Q disintegrate (DC 21)
 - 1/day: time stop
 
 **Statistics**

@@ -79,12 +79,12 @@ _No flavor text._
 
 **At will:**
 
-- dancing lights, DC 15, deep slumber, DC 18, ghost sound, DC 15, suggestion, DC 18
+- dancing lights (DC 15), deep slumber (DC 18), ghost sound (DC 15), suggestion (DC 18)
 
 **Per day:**
 
-- 3/day: major image, DC 18, reckless infatuation, DC 18
-- 1/day: charm monster, DC 19, summon nature's ally IV
+- 3/day: major image (DC 18), reckless infatuation (DC 18)
+- 1/day: charm monster (DC 19), summon nature's ally IV
 
 **Statistics**
 

@@ -80,15 +80,15 @@ scrolls and wands. Winding, swirling tattoos climb across his body and face._
 
 **4th-level spells:**
 
-- charm monster, DC 18, summon monster IV
+- charm monster (DC 18), summon monster IV
 
 **3rd-level spells:**
 
-- fly, haste, &merciful lightning bolt, DC 17
+- fly, haste, &merciful lightning bolt (DC 17)
 
 **2nd-level spells:**
 
-- alter self, cat's grace, glitterdust, DC 16, web, DC 16
+- alter self, cat's grace, glitterdust (DC 16), web (DC 16)
 
 **1st-level spells:**
 
@@ -96,7 +96,7 @@ scrolls and wands. Winding, swirling tattoos climb across his body and face._
 
 **Cantrips:**
 
-- ghost sound, DC 14, light, message, resistance
+- ghost sound (DC 14), light, message, resistance
 
 **Statistics**
 

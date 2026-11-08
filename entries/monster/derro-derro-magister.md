@@ -85,7 +85,7 @@ gem-encrusted coronet._
 
 **At will:**
 
-- id insinuation II, DC 16, modify memory, DC 17
+- id insinuation II (DC 16), modify memory (DC 17)
 
 **Psychic Magic**
 

@@ -100,12 +100,12 @@ helm made of greasy green metal._
 
 **At will:**
 
-- chaos hammer, DC 20, greater teleport, self plus 50 lbs. of objects only, unholy blight, DC 20
+- chaos hammer (DC 20), greater teleport, self plus 50 lbs. of objects only, unholy blight (DC 20)
 
 **Per day:**
 
 - 3/day: gaseous form
-- 1/day: blasphemy, DC 23, &S level 4; 1 hezrou 35%
+- 1/day: blasphemy (DC 23), &S level 4; 1 hezrou 35%
 
 **Statistics**
 

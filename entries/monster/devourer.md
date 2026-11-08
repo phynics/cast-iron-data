@@ -86,10 +86,10 @@ tormented ghostly form._
 
 **At will:**
 
-- animate dead\#4, bestow curse\#4, DC 19, confusion\#4, DC 19, control undead\#7, DC 22, death
-  knell\#2, DC 17, ghoul touch\#2, DC 17, inflict serious wounds\#3, DC 18, lesser planar ally\#4,
-  ray of enfeeblement\#1, spectral hand\#2, suggestion\#3, DC 18, true seeing\#6, vampiric touch\#3,
-  DC 18
+- animate dead\#4, bestow curse\#4 (DC 19), confusion\#4 (DC 19), control undead\#7 (DC 22), death
+  knell\#2 (DC 17), ghoul touch\#2 (DC 17), inflict serious wounds\#3 (DC 18), lesser planar
+  ally\#4, ray of enfeeblement\#1, spectral hand\#2, suggestion\#3 (DC 18), true seeing\#6, vampiric
+  touch\#3 (DC 18)
 
 **Statistics**
 

@@ -80,7 +80,7 @@ oversized ears stick out from the sides of its head, and it wears its long earlo
 
 **Per day:**
 
-- 3/day: sleep, DC 13, spider climb, self only, ventriloquism, DC 13
+- 3/day: sleep (DC 13), spider climb, self only, ventriloquism (DC 13)
 - 1/day: dimension door
 
 **Statistics**

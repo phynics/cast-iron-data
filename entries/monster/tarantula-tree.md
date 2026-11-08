@@ -97,11 +97,11 @@ _This towering mass of vegetation balances itself upon several long and misshape
 
 **At will:**
 
-- entangle, DC 14, hallucinatory terrain, DC 17
+- entangle (DC 14), hallucinatory terrain (DC 17)
 
 **Per day:**
 
-- 3/day: &Q entangle, DC 14
+- 3/day: &Q entangle (DC 14)
 - 1/day: wall of thorns
 
 **Statistics**

@@ -81,12 +81,12 @@ covers most of her face._
 
 **At will:**
 
-- lullaby, DC 13
+- lullaby (DC 13)
 
 **Per day:**
 
-- 3/day: calm emotions, DC 15, charm person, DC 14, hypnotism, DC 14
-- 1/day: deep slumber, DC 16, suggestion, DC 15
+- 3/day: calm emotions (DC 15), charm person (DC 14), hypnotism (DC 14)
+- 1/day: deep slumber (DC 16), suggestion (DC 15)
 
 **Statistics**
 

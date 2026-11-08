@@ -92,11 +92,11 @@ curtains._
 
 **At will:**
 
-- ghost sound, DC 18, scare, DC 20, distracting cacophony, DC 21
+- ghost sound (DC 18), scare (DC 20), distracting cacophony (DC 21)
 
 **Per day:**
 
-- 3/day: &Q fear, DC 22, phantasmal killer, DC 22
+- 3/day: &Q fear (DC 22), phantasmal killer (DC 22)
 
 **Statistics**
 

@@ -101,11 +101,11 @@ ft.)
 
 **2nd-level spells:**
 
-- 7/day: hideous laughter, DC 15, protection from arrows, suggestion, DC 17
+- 7/day: hideous laughter (DC 15), protection from arrows, suggestion (DC 17)
 
 **1st-level spells:**
 
-- 8/day: burst of adrenaline, burst of insight, interrogation, DC 16, mage armor, sleep, DC 16
+- 8/day: burst of adrenaline, burst of insight, interrogation (DC 16), mage armor, sleep (DC 16)
 
 **Cantrips:**
 

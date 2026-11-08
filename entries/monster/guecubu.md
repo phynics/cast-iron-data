@@ -93,8 +93,8 @@ from bones and rotting flesh._
 
 **Per day:**
 
-- 3/day: soften earth and stone, spike growth, DC 18
-- 1/day: spike stones, DC 19, transmute mud to rock, DC 20, transmute rock to mud, DC 20
+- 3/day: soften earth and stone, spike growth (DC 18)
+- 1/day: spike stones (DC 19), transmute mud to rock (DC 20), transmute rock to mud (DC 20)
 
 **Statistics**
 

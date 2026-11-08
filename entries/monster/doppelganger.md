@@ -74,7 +74,7 @@ sinister, noseless face._
 
 **At will:**
 
-- detect thoughts, DC 13
+- detect thoughts (DC 13)
 
 **Statistics**
 

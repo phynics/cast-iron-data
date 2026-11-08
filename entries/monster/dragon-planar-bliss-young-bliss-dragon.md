@@ -86,7 +86,7 @@ _This serene dragon's feathered form emits a comforting warmth._
 
 **1st-level spells:**
 
-- 5/day: remove fear, sanctuary, DC 16
+- 5/day: remove fear, sanctuary (DC 16)
 
 **Cantrips:**
 

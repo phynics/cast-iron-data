@@ -94,16 +94,16 @@ spawn, dominate (DC 18)
 
 **2nd-level spells:**
 
-- 4/day: darkness, enthrall, DC 20, share memory, DC 18
+- 4/day: darkness, enthrall (DC 20), share memory (DC 18)
 
 **1st-level spells:**
 
-- 6/day: charm person, DC 19, ear-piercing scream, lesser confusion, DC 19, memory lapse, DC 19
+- 6/day: charm person (DC 19), ear-piercing scream, lesser confusion (DC 19), memory lapse (DC 19)
 
 **Cantrips:**
 
-- At will: daze, DC 18, detect magic, mage hand, open/close, prestidigitation, DC 16, unwitting
-  ally, DC 18
+- At will: daze (DC 18), detect magic, mage hand, open/close, prestidigitation (DC 16), unwitting
+  ally (DC 18)
 
 ### Tactics
 

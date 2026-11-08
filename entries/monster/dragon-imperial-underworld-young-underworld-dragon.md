@@ -99,11 +99,11 @@ stone-like horns and scales._
 
 **1st-level spells:**
 
-- 4/day: burning hands, DC 12, cause fear, DC 12
+- 4/day: burning hands (DC 12), cause fear (DC 12)
 
 **Cantrips:**
 
-- At will: acid splash, bleed, DC 11, flare, DC 11, read magic
+- At will: acid splash, bleed (DC 11), flare (DC 11), read magic
 
 **Statistics**
 

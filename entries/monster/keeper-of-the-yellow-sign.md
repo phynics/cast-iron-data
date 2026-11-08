@@ -84,7 +84,7 @@ parts intensity and insanity._
 **Per day:**
 
 - 3/day: darkness, invisibility, self only
-- 1/day: bestow curse, DC 17, dream, DC 19, rusting grasp, warp wood
+- 1/day: bestow curse (DC 17), dream (DC 19), rusting grasp, warp wood
 
 **Statistics**
 

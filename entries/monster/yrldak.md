@@ -98,11 +98,11 @@ glowing moon, and her ebon eyes deeply pensive._
 
 **At will:**
 
-- bestow curse, DC 18, divination, greater dispel magic, wind walk, self only
+- bestow curse (DC 18), divination, greater dispel magic, wind walk, self only
 
 **Per day:**
 
-- 1/day: maze, moment of prescience, phantasmal killer, DC 19
+- 1/day: maze, moment of prescience, phantasmal killer (DC 19)
 
 **Statistics**
 

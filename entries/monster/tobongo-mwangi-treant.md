@@ -91,7 +91,7 @@ into arms ending in massive claws._
 
 **At will:**
 
-- entangle, DC 15
+- entangle (DC 15)
 
 **Statistics**
 

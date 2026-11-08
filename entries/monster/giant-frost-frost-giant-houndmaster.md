@@ -91,23 +91,23 @@ abilities = ["28", "10", "20", "13", "23", "14"]
 
 **5th-level spells:**
 
-- animal growth, DC 21, cure critical wounds, transmute rock to mud, DC 21
+- animal growth (DC 21), cure critical wounds, transmute rock to mud (DC 21)
 
 **4th-level spells:**
 
-- cure serious wounds, flame strike, DC 21, ice storm, spike stones, DC 20
+- cure serious wounds, flame strike (DC 21), ice storm, spike stones (DC 20)
 
 **3rd-level spells:**
 
-- call lightning, DC 20, dominate animal, DC 19, protection from energy, sleet storm
+- call lightning (DC 20), dominate animal (DC 19), protection from energy, sleet storm
 
 **2nd-level spells:**
 
-- animal trance, DC 18, barkskin, bull's strength, chill metal, delay poison, hold animal, DC 18
+- animal trance (DC 18), barkskin, bull's strength, chill metal, delay poison, hold animal (DC 18)
 
 **1st-level spells:**
 
-- charm animal, DC 17, entangle, DC 17, frostbite, obscuring mist, speak with animals, 2
+- charm animal (DC 17), entangle (DC 17), frostbite, obscuring mist, speak with animals, 2
 
 **Cantrips:**
 

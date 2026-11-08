@@ -91,8 +91,8 @@ usable every 1d4 rounds), penumbral
 
 **Per day:**
 
-- 3/day: shadow conjuration, DC 19, shadow evocation, DC 20, shadow walk, DC 21, spell turning
-- 1/day: greater shadow evocation, DC 23, power word blind
+- 3/day: shadow conjuration (DC 19), shadow evocation (DC 20), shadow walk (DC 21), spell turning
+- 1/day: greater shadow evocation (DC 23), power word blind
 
 **Statistics**
 

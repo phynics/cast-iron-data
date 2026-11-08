@@ -79,7 +79,7 @@ its fiendish nature._
 
 **3rd-level spells:**
 
-- 5/day: lightning bolt, DC 16, suggestion, DC 16
+- 5/day: lightning bolt (DC 16), suggestion (DC 16)
 
 **2nd-level spells:**
 
@@ -87,11 +87,11 @@ its fiendish nature._
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 14, mage armor, magic missile, shield, silent image
+- 7/day: charm person (DC 14), mage armor, magic missile, shield, silent image
 
 **Cantrips:**
 
-- At will: dancing lights, detect magic, ghost sound, DC 13, mage hand, mending, message,
+- At will: dancing lights, detect magic, ghost sound (DC 13), mage hand, mending, message,
   prestidigitation
 
 **Statistics**

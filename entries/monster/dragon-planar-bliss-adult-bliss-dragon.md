@@ -96,11 +96,11 @@ _This serene dragon's feathered form emits a comforting warmth._
 
 **2nd-level spells:**
 
-- 8/day: bull's strength, calm emotions, DC 19, status
+- 8/day: bull's strength, calm emotions (DC 19), status
 
 **1st-level spells:**
 
-- 8/day: deathwatch, divine favor, remove fear, sanctuary, DC 18, shield of faith
+- 8/day: deathwatch, divine favor, remove fear, sanctuary (DC 18), shield of faith
 
 **Cantrips:**
 

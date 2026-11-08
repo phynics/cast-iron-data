@@ -80,7 +80,7 @@ hands._
 
 **Per day:**
 
-- 3/day: ghoul touch, scare, DC 14
+- 3/day: ghoul touch, scare (DC 14)
 - 1/day: animate dead, ray of exhaustion, &S level 3; 1d3 bat or bird swarms \[use the same stats\];
   1d2 constrictor snakes; 1d3 venomous snakes; or 1d4 wolves
 

@@ -77,11 +77,11 @@ of a fox from the neck up._
 
 **At will:**
 
-- ghost sound, DC 11, mage hand, open/close, DC 11
+- ghost sound (DC 11), mage hand, open/close (DC 11)
 
 **Per day:**
 
-- 3/day: blurred movement, calm animals, DC 12, sonic scream, DC 13
+- 3/day: blurred movement, calm animals (DC 12), sonic scream (DC 13)
 
 **Statistics**
 

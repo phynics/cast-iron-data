@@ -87,7 +87,7 @@ _A hideous, pale, worm-like head pushes violently up and out of a corpulent man'
 
 **Per day:**
 
-- 3/day: mass inflict light wounds, DC 16, spider climb
+- 3/day: mass inflict light wounds (DC 16), spider climb
 - 1/day: gentle repose, &S level 2; 1d4 dretches 50%
 
 **Statistics**

@@ -95,11 +95,11 @@ abilities = ["31", "10", "25", "20", "21", "26"]
 
 **At will:**
 
-- color spray, DC 19, glitterdust, DC 20, rainbow pattern, DC 22
+- color spray (DC 19), glitterdust (DC 20), rainbow pattern (DC 22)
 
 **Per day:**
 
-- 3/day: prismatic spray, DC 25, stone to flesh, DC 24
+- 3/day: prismatic spray (DC 25), stone to flesh (DC 24)
 
 **Spells Known**
 
@@ -109,19 +109,19 @@ abilities = ["31", "10", "25", "20", "21", "26"]
 
 **4th-level spells:**
 
-- 6/day: dimension door, phantasmal killer, DC 22
+- 6/day: dimension door, phantasmal killer (DC 22)
 
 **3rd-level spells:**
 
-- 8/day: displacement, lightning bolt, DC 21, major image, DC 21
+- 8/day: displacement, lightning bolt (DC 21), major image (DC 21)
 
 **2nd-level spells:**
 
-- 8/day: blindness/deafness, DC 20, invisibility, minor image, DC 20, mirror image
+- 8/day: blindness/deafness (DC 20), invisibility, minor image (DC 20), mirror image
 
 **1st-level spells:**
 
-- 8/day: alarm, feather fall, magic aura, silent image, DC 19, unseen servant
+- 8/day: alarm, feather fall, magic aura, silent image (DC 19), unseen servant
 
 **Cantrips:**
 

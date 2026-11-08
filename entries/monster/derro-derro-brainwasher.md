@@ -90,11 +90,11 @@ eyes twinkle with madness._
 
 **At will:**
 
-- darkness, ghost sound, DC 15
+- darkness, ghost sound (DC 15)
 
 **Per day:**
 
-- 1/day: daze, DC 15, sound burst, DC 17
+- 1/day: daze (DC 15), sound burst (DC 17)
 
 **Spells Known**
 
@@ -104,11 +104,11 @@ eyes twinkle with madness._
 
 **1st-level spells:**
 
-- 4/day: cause fear, DC 16, memory lapse, DC 16, sleep, DC 16
+- 4/day: cause fear (DC 16), memory lapse (DC 16), sleep (DC 16)
 
 **Cantrips:**
 
-- At will: detect magic, flare, DC 15, lullaby, DC 15, mage hand, message
+- At will: detect magic, flare (DC 15), lullaby (DC 15), mage hand, message
 
 **Statistics**
 

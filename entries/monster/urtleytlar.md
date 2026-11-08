@@ -112,12 +112,12 @@ welcoming._
 
 **At will:**
 
-- acid arrow, control water, fog cloud, greater dispel magic, major image, DC 20
+- acid arrow, control water, fog cloud, greater dispel magic, major image (DC 20)
 
 **Per day:**
 
-- 3/day: black tentacles, charm monster, DC 21, insanity, DC 24, mirage arcana, DC 22, solid fog
-- 1/day: control weather, power word stun, project image, DC 24, &S level 8; 1 charybdis 100%
+- 3/day: black tentacles, charm monster (DC 21), insanity (DC 24), mirage arcana (DC 22), solid fog
+- 1/day: control weather, power word stun, project image (DC 24), &S level 8; 1 charybdis 100%
 
 **Prepared Spells**
 
@@ -127,26 +127,26 @@ welcoming._
 
 **4th-level spells:**
 
-- cure critical wounds, DC 23, divine power, inflict critical wounds (domain spell), DC 23, tongues,
-  unholy blight, DC 23
+- cure critical wounds (DC 23), divine power, inflict critical wounds (domain spell) (DC 23),
+  tongues, unholy blight (DC 23)
 
 **3rd-level spells:**
 
-- call lightning (domain spell), DC 22, cure serious wounds, DC 22, 2, invisibility purge, magic
+- call lightning (domain spell) (DC 22), cure serious wounds (DC 22), 2, invisibility purge, magic
   circle against good, water breathing
 
 **2nd-level spells:**
 
-- darkness, death knell, DC 21, gust of wind (domain spell), DC 21, shatter, 2, spiritual weapon
+- darkness, death knell (DC 21), gust of wind (domain spell) (DC 21), shatter, 2, spiritual weapon
 
 **1st-level spells:**
 
-- cause fear, DC 20, command, DC 20, 2, divine favor, entropic shield, obscuring mist, shield of
+- cause fear (DC 20), command (DC 20), 2, divine favor, entropic shield, obscuring mist, shield of
   faith, true strike (domain spell)
 
 **Cantrips:**
 
-- bleed, DC 19, detect magic, guidance, virtue
+- bleed (DC 19), detect magic, guidance, virtue
 
 **Domains**
 

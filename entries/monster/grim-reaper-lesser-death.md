@@ -88,8 +88,8 @@ _One bleached-bone hand of this robed, skeletal figure grasps a massive, curved 
 
 **Per day:**
 
-- 3/day: call spirit, DC 22, slay living, DC 22
-- 1/day: finger of death, DC 25, plane shift, DC 22
+- 3/day: call spirit (DC 22), slay living (DC 22)
+- 1/day: finger of death (DC 25), plane shift (DC 22)
 
 **Statistics**
 

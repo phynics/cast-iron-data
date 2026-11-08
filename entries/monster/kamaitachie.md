@@ -90,7 +90,7 @@ the air astride a vortex of dust._
 
 **At will:**
 
-- status, DC 18, wind wall
+- status (DC 18), wind wall
 
 **Per day:**
 

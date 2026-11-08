@@ -85,11 +85,11 @@ burning with malevolence._
 
 **At will:**
 
-- prestidigitation, ventriloquism, DC 12
+- prestidigitation, ventriloquism (DC 12)
 
 **Per day:**
 
-- 1/day: scare, DC 13
+- 1/day: scare (DC 13)
 
 **Statistics**
 

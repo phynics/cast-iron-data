@@ -96,7 +96,7 @@ paralysis, permanent wounds, petrification, poison, polymorph
 
 **At will:**
 
-- disintegrate, DC 21
+- disintegrate (DC 21)
 
 **Per day:**
 

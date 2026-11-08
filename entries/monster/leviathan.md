@@ -101,8 +101,8 @@ paralysis, sleep
 
 **Per day:**
 
-- 3/day: plane shift, DC 27
-- 1/day: tsunami, DC 29
+- 3/day: plane shift (DC 27)
+- 1/day: tsunami (DC 29)
 
 **Statistics**
 

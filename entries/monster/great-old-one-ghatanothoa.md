@@ -121,12 +121,13 @@ grab)
 **At will:**
 
 - black tentacles, control weather, create undead, mummies only, dream, greater dispel magic,
-  insanity, DC 27, nightmare, DC 25, project image, DC 27, sending
+  insanity (DC 27), nightmare (DC 25), project image (DC 27), sending
 
 **Per day:**
 
-- 3/day: demand, DC 28, earthquake, &Q feeblemind, DC 25, vortex, DC 27, weird, DC 29
-- 1/day: imprisonment, DC 29, storm of vengeance, DC 29, symbol of insanity, DC 28, tsunami, DC 29
+- 3/day: demand (DC 28), earthquake, &Q feeblemind (DC 25), vortex (DC 27), weird (DC 29)
+- 1/day: imprisonment (DC 29), storm of vengeance (DC 29), symbol of insanity (DC 28), tsunami (DC
+  29)
 
 **Statistics**
 

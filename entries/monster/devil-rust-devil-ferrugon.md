@@ -98,15 +98,15 @@ covered with rusty metallic feathers, each resembling a weathered dagger._
 
 **At will:**
 
-- detect thoughts, DC 17, greater teleport, self plus 50 lbs. of objects only, heat metal, DC 17,
-  make whole, shatter, DC 17, shrink item, DC 18
+- detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, heat metal (DC 17),
+  make whole, shatter (DC 17), shrink item (DC 18)
 
 **Per day:**
 
-- 3/day: fabricate, major creation, iron objects only, rusting grasp, suggestion, DC 18, wall of
+- 3/day: fabricate, major creation, iron objects only, rusting grasp, suggestion (DC 18), wall of
   iron
-- 1/day: flesh to iron, DC 21, &S level 4; 1 [barbed devil](ref/monster/devil-barbed-devil-hamatula)
-  50%, sympathetic vibration
+- 1/day: flesh to iron (DC 21), &S level 4; 1
+  [barbed devil](ref/monster/devil-barbed-devil-hamatula) 50%, sympathetic vibration
 
 **Statistics**
 

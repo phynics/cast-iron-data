@@ -92,13 +92,13 @@ poison)
 
 **At will:**
 
-- daylight, detect thoughts, DC 21, greater scrying, DC 26, neutralize poison, remove disease, speak
-  with dead, DC 22
+- daylight, detect thoughts (DC 21), greater scrying (DC 26), neutralize poison, remove disease,
+  speak with dead (DC 22)
 
 **Per day:**
 
-- 3/day: charm monster, DC 23, find the path, giant vermin, 8 bees or 6 wasps, mass cure critical
-  wounds, poison, DC 23, restoration, &Q slow, DC 22
+- 3/day: charm monster (DC 23), find the path, giant vermin, 8 bees or 6 wasps, mass cure critical
+  wounds, poison (DC 23), restoration, &Q slow (DC 22)
 - 1/day: foresight, mass heal, regenerate
 
 **Statistics**

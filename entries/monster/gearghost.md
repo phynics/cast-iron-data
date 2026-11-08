@@ -83,7 +83,7 @@ above the clanging mess._
 
 **At will:**
 
-- detect magic, mending, telekinesis, DC 18
+- detect magic, mending, telekinesis (DC 18)
 
 **Per day:**
 

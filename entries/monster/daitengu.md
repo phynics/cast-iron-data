@@ -90,7 +90,7 @@ _This winged, humanoid ascetic's face is bright red and boasts a prodigiously lo
 
 **Per day:**
 
-- 3/day: bestow curse, DC 18, gust of wind, remove curse, stone shape
+- 3/day: bestow curse (DC 18), gust of wind, remove curse, stone shape
 - 1/day: wind walk
 
 **Statistics**

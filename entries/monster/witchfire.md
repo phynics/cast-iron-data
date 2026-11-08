@@ -83,8 +83,8 @@ off the ground._
 
 **At will:**
 
-- dancing lights, disguise self, ghost sound, DC 17, invisibility, pyrotechnics, DC 19, ray of
-  enfeeblement, DC 18
+- dancing lights, disguise self, ghost sound (DC 17), invisibility, pyrotechnics (DC 19), ray of
+  enfeeblement (DC 18)
 
 **Per day:**
 

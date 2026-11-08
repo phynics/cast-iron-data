@@ -90,7 +90,7 @@ abilities = ["27", "10", "21", "20", "21", "20"]
 
 **At will:**
 
-- call lightning, DC 18, create water, hydraulic push
+- call lightning (DC 18), create water, hydraulic push
 
 **Spells Known**
 
@@ -100,19 +100,19 @@ abilities = ["27", "10", "21", "20", "21", "20"]
 
 **3rd-level spells:**
 
-- 5/day: hold person, DC 18, sleet storm
+- 5/day: hold person (DC 18), sleet storm
 
 **2nd-level spells:**
 
-- 7/day: gust of wind, DC 17, mirror image, see invisibility
+- 7/day: gust of wind (DC 17), mirror image, see invisibility
 
 **1st-level spells:**
 
-- 8/day: charm person, DC 16, chill touch, color spray, DC 16, expeditious retreat, sleep, DC 16
+- 8/day: charm person (DC 16), chill touch, color spray (DC 16), expeditious retreat, sleep (DC 16)
 
 **Cantrips:**
 
-- At will: acid splash, daze, DC 15, detect magic, mage hand, ray of frost, read magic, resistance
+- At will: acid splash, daze (DC 15), detect magic, mage hand, ray of frost, read magic, resistance
 
 **Statistics**
 

@@ -93,46 +93,46 @@ abilities = ["31", "15", "23", "10", "16", "22"]
 
 **8th-level spells:**
 
-- 3/day: fire storm, DC 24, incendiary cloud, DC 24, mass inflict critical wounds, DC 24
+- 3/day: fire storm (DC 24), incendiary cloud (DC 24), mass inflict critical wounds (DC 24)
 
 **7th-level spells:**
 
-- 5/day: blasphemy, DC 23, destruction, DC 23, mass inflict serious wounds, DC 23, vision, DC 23
+- 5/day: blasphemy (DC 23), destruction (DC 23), mass inflict serious wounds (DC 23), vision (DC 23)
 
 **6th-level spells:**
 
-- 7/day: blade barrier, circle of death, DC 22, harm, DC 22, mass bull's strength, mass inflict
-  moderate wounds, DC 22
+- 7/day: blade barrier, circle of death (DC 22), harm (DC 22), mass bull's strength, mass inflict
+  moderate wounds (DC 22)
 
 **5th-level spells:**
 
-- 7/day: dispel good, DC 21, greater command, DC 21, insect plague, DC 21, mass inflict light
-  wounds, DC 21, righteous might, slay living, DC 21
+- 7/day: dispel good (DC 21), greater command (DC 21), insect plague (DC 21), mass inflict light
+  wounds (DC 21), righteous might, slay living (DC 21)
 
 **4th-level spells:**
 
-- 7/day: blessing of fervor, greater magic weapon, ice storm, DC 20, imbue with spell ability,
-  inflict critical wounds, DC 20, unholy blight, DC 20
+- 7/day: blessing of fervor, greater magic weapon, ice storm (DC 20), imbue with spell ability,
+  inflict critical wounds (DC 20), unholy blight (DC 20)
 
 **3rd-level spells:**
 
-- 7/day: dispel magic, inflict serious wounds, DC 19, invisibility purge, magic circle against good,
-  stone shape, explosive runes
+- 7/day: dispel magic, inflict serious wounds (DC 19), invisibility purge, magic circle against
+  good, stone shape, explosive runes
 
 **2nd-level spells:**
 
-- 8/day: bear's endurance, darkness, death knell, DC 18, inflict moderate wounds, oracle's burden,
-  DC 18, share language, summon swarm
+- 8/day: bear's endurance, darkness, death knell (DC 18), inflict moderate wounds, oracle's burden
+  (DC 18), share language, summon swarm
 
 **1st-level spells:**
 
-- 8/day: bane, DC 17, cause fear, DC 17, deathwatch, doom, DC 17, inflict light wounds, DC 17,
+- 8/day: bane (DC 17), cause fear (DC 17), deathwatch, doom (DC 17), inflict light wounds (DC 17),
   obscuring mist, shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 16, create water, detect magic, detect poison, purify food and drink, guidance,
-  read magic, resistance, spark
+- At will: bleed (DC 16), create water, detect magic, detect poison, purify food and drink,
+  guidance, read magic, resistance, spark
 
 **Mystery**
 

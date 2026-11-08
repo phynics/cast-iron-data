@@ -98,11 +98,11 @@ illusions, sight-based attacks
 
 **At will:**
 
-- dimensional anchor, freedom of movement, irresistible dance, DC 25
+- dimensional anchor, freedom of movement, irresistible dance (DC 25)
 
 **Per day:**
 
-- 3/day: blink, dimension door, incendiary cloud, DC 25
+- 3/day: blink, dimension door, incendiary cloud (DC 25)
 
 **Statistics**
 

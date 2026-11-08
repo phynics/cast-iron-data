@@ -95,20 +95,20 @@ predator._
 
 **Constant:**
 
-- cloak of chaos, DC 22, freedom of movement
+- cloak of chaos (DC 22), freedom of movement
 
 **At will:**
 
-- dream, hold monster, DC 19
+- dream, hold monster (DC 19)
 
 **Per day:**
 
-- 3/day: black tentacles, demand, DC 22, insanity, DC 21, nightmare, DC 19
-- 1/day: dominate monster, DC 23, symbol of insanity, DC 22
+- 3/day: black tentacles, demand (DC 22), insanity (DC 21), nightmare (DC 19)
+- 1/day: dominate monster (DC 23), symbol of insanity (DC 22)
 
 **Per week:**
 
-- binding, DC 22
+- binding (DC 22)
 
 **Statistics**
 

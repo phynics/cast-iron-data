@@ -88,7 +88,7 @@ mouth with ill-fitting teeth._
 
 **5th-level spells:**
 
-- 5/day: breath of life, mass inflict light wounds, righteous might, wall of stone, DC 18
+- 5/day: breath of life, mass inflict light wounds, righteous might, wall of stone (DC 18)
 
 **4th-level spells:**
 
@@ -105,12 +105,12 @@ mouth with ill-fitting teeth._
 
 **1st-level spells:**
 
-- 7/day: cure light wounds, divine favor, enlarge person, DC 14, entropic shield, inflict light
+- 7/day: cure light wounds, divine favor, enlarge person (DC 14), entropic shield, inflict light
   wounds, obscuring mist, protection from good
 
 **Cantrips:**
 
-- At will: bleed, DC 13, create water, detect magic, guidance, mending, purify food and drink,
+- At will: bleed (DC 13), create water, detect magic, guidance, mending, purify food and drink,
   spark, stabilize, virtue
 
 **Mystery**

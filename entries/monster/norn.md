@@ -100,12 +100,12 @@ flat-footed
 
 **At will:**
 
-- bestow curse, DC 23, divination, greater dispel magic, geas/quest, vision, wind walk, self only
+- bestow curse (DC 23), divination, greater dispel magic, geas/quest, vision, wind walk, self only
 
 **Per day:**
 
-- 1/day: maze, moment of prescience, &Q phantasmal killer, DC 24, power word kill, time stop, weird,
-  DC 29
+- 1/day: maze, moment of prescience, &Q phantasmal killer (DC 24), power word kill, time stop, weird
+  (DC 29)
 
 **Statistics**
 

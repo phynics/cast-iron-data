@@ -90,18 +90,18 @@ _This serpentine monster has six arms and is crowned by a halo of ever-changing 
 
 **Constant:**
 
-- cloak of chaos, DC 27, detect law, true seeing
+- cloak of chaos (DC 27), detect law, true seeing
 
 **At will:**
 
-- confusion, DC 23, greater dispel magic, greater teleport, self plus 50 lbs. of objects only, major
-  creation, plane shift, DC 26, telekinesis, DC 34
+- confusion (DC 23), greater dispel magic, greater teleport, self plus 50 lbs. of objects only,
+  major creation, plane shift (DC 26), telekinesis (DC 34)
 
 **Per day:**
 
-- 3/day: &Q confusion, DC 23, &Q disintegrate, DC 25, prismatic spray, DC 26, reshape reality, DC
-  26, &Q telekinesis, DC 24, word of chaos, DC 26
-- 1/day: heal, implosion, DC 28, mage's disjunction, prismatic sphere, DC 28
+- 3/day: &Q confusion (DC 23), &Q disintegrate (DC 25), prismatic spray (DC 26), reshape reality (DC
+  26), &Q telekinesis (DC 24), word of chaos (DC 26)
+- 1/day: heal, implosion (DC 28), mage's disjunction, prismatic sphere (DC 28)
 
 **Per year:**
 

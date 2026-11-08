@@ -78,11 +78,11 @@ it._
 
 **At will:**
 
-- daze, DC 15, detect thoughts, DC 17, ghost sound, DC 15, magic missile
+- daze (DC 15), detect thoughts (DC 17), ghost sound (DC 15), magic missile
 
 **Per day:**
 
-- 1/day: telekinesis, DC 20
+- 1/day: telekinesis (DC 20)
 
 **Statistics**
 

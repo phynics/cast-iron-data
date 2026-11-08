@@ -92,12 +92,12 @@ strike)
 
 **At will:**
 
-- burning hands, DC 16, disguise self
+- burning hands (DC 16), disguise self
 
 **Per day:**
 
-- 3/day: invisibility, produce flame, unholy blight, DC 19
-- 1/day: confusion, DC 19, fireball, DC 18, nondetection, wall of fire
+- 3/day: invisibility, produce flame, unholy blight (DC 19)
+- 1/day: confusion (DC 19), fireball (DC 18), nondetection, wall of fire
 
 **Statistics**
 

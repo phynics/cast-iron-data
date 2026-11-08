@@ -93,7 +93,7 @@ transparent flesh._
 
 **Per day:**
 
-- 3/day: align weapon, death knell, DC 16, ray of enfeeblement, DC 16
+- 3/day: align weapon, death knell (DC 16), ray of enfeeblement (DC 16)
 - 8/day: grave touch, 5 rounds
 
 **Prepared Spells**
@@ -104,23 +104,23 @@ transparent flesh._
 
 **6th-level spells:**
 
-- eyebite, DC 23, globe of invulnerability
+- eyebite (DC 23), globe of invulnerability
 
 **5th-level spells:**
 
-- cloudkill, DC 20, magic jar, DC 22, suffocation, DC 22, teleport
+- cloudkill (DC 20), magic jar (DC 22), suffocation (DC 22), teleport
 
 **4th-level spells:**
 
-- bestow curse, DC 21, enervation, 2, shadow projection, &reach vampiric touch
+- bestow curse (DC 21), enervation, 2, shadow projection, &reach vampiric touch
 
 **3rd-level spells:**
 
-- dispel magic, &reach ghoul touch, DC 19
+- dispel magic, &reach ghoul touch (DC 19)
 
 **Cantrips:**
 
-- bleed, DC 17, detect magic, read magic, touch of fatigue, DC 17
+- bleed (DC 17), detect magic, read magic, touch of fatigue (DC 17)
 
 **Opposition Schools**
 

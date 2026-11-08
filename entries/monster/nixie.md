@@ -81,7 +81,7 @@ decorated with shells._
 
 **Per day:**
 
-- 3/day: charm person, DC 15
+- 3/day: charm person (DC 15)
 - 1/day: water breathing, CL 12th
 
 **Statistics**

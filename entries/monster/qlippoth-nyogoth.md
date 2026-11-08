@@ -89,7 +89,7 @@ coils also end in toothy maws._
 
 **Per day:**
 
-- 7/day: fear, DC 17, protection from law
+- 7/day: fear (DC 17), protection from law
 - 1/day: acid fog, dimension door
 
 **Statistics**

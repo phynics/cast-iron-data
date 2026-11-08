@@ -80,7 +80,7 @@ unnatural gleam in its otherworldly eyes._
 
 **Per day:**
 
-- 3/day: perceive cues, vanish, ventriloquism, DC 12
+- 3/day: perceive cues, vanish, ventriloquism (DC 12)
 - 1/day: ill omen, mirror image
 
 **Statistics**

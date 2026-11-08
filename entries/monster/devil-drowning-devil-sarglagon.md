@@ -99,7 +99,7 @@ tentacles._
 
 **Per day:**
 
-- 3/day: hydraulic torrent, poison, DC 18, protection from good
+- 3/day: hydraulic torrent, poison (DC 18), protection from good
 - 1/day: freedom of movement, &S level 4; 1 drowning devil 35%
 
 **Statistics**

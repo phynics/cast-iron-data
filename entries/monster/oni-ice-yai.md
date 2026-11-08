@@ -100,7 +100,7 @@ strands of ice._
 
 **Per day:**
 
-- 3/day: charm monster, DC 18, cone of cold, DC 19, deep slumber, DC 17, gaseous form, self only
+- 3/day: charm monster (DC 18), cone of cold (DC 19), deep slumber (DC 17), gaseous form, self only
 - 1/day: polar ray, solid fog
 
 **Statistics**

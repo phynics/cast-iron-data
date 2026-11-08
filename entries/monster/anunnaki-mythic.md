@@ -102,13 +102,13 @@ back._
 
 **At will:**
 
-- etherealness, greater teleport, self plus 50 lbs. of objects only, mental block, DC 20, mindlink
+- etherealness, greater teleport, self plus 50 lbs. of objects only, mental block (DC 20), mindlink
 
 **Per day:**
 
 - 5/day: greater dispel magic
-- 3/day: &Q baleful polymorph, DC 23, primal regression, DC 24
-- 1/day: divide mind, overwhelming presence, DC 27
+- 3/day: &Q baleful polymorph (DC 23), primal regression (DC 24)
+- 1/day: divide mind, overwhelming presence (DC 27)
 
 **Statistics**
 

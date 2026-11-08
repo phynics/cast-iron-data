@@ -93,7 +93,7 @@ and writhing tentacles._
 
 **Per day:**
 
-- 3/day: fly, stinking cloud, DC 16
+- 3/day: fly, stinking cloud (DC 16)
 - 1/day: &S level 4; 1d3 [hydrodaemons](ref/monster/daemon-hydrodaemon) 35%
 
 **Statistics**

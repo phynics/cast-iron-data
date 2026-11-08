@@ -91,12 +91,12 @@ _The facets of this crystalline dragon's body reflect fascinating and sparkling 
 
 **At will:**
 
-- analyze aura, color spray, DC 19, glitterdust, DC 20, mirror image, DC 19
+- analyze aura, color spray (DC 19), glitterdust (DC 20), mirror image (DC 19)
 
 **Per day:**
 
-- 3/day: invisibility, DC 20, major image, DC 21, rainbow pattern, DC 22
-- 1/day: phantasmal killer, DC 22, prismatic spray, DC 25
+- 3/day: invisibility (DC 20), major image (DC 21), rainbow pattern (DC 22)
+- 1/day: phantasmal killer (DC 22), prismatic spray (DC 25)
 
 **Psychic Magic**
 

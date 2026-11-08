@@ -94,7 +94,7 @@ head and crest. Its wings let forth thin clouds of golden pollen and showers of 
 
 **At will:**
 
-- detect thoughts, DC 19, ethereal jaunt, invisibility, plane shift, DC 24
+- detect thoughts (DC 19), ethereal jaunt, invisibility, plane shift (DC 24)
 
 **Per week:**
 
@@ -108,11 +108,11 @@ head and crest. Its wings let forth thin clouds of golden pollen and showers of 
 
 **9th-level spells:**
 
-- antipathy, DC 28, regenerate, summon nature's ally IX
+- antipathy (DC 28), regenerate, summon nature's ally IX
 
 **8th-level spells:**
 
-- control plants, DC 27, mass cure serious wounds, repel metal or stone, whirlwind, DC 27
+- control plants (DC 27), mass cure serious wounds, repel metal or stone, whirlwind (DC 27)
 
 **7th-level spells:**
 
@@ -124,32 +124,32 @@ head and crest. Its wings let forth thin clouds of golden pollen and showers of 
 
 **5th-level spells:**
 
-- animal growth, DC 24, awaken, DC 24, commune with nature, control winds, DC 24, hallow, wall of
+- animal growth (DC 24), awaken (DC 24), commune with nature, control winds (DC 24), hallow, wall of
   thorns
 
 **4th-level spells:**
 
-- antiplant shell, command plants, DC 23, control water, dispel magic, freedom of movement, repel
+- antiplant shell, command plants (DC 23), control water, dispel magic, freedom of movement, repel
   vermin
 
 **3rd-level spells:**
 
-- daylight, dominate animal, DC 22, neutralize poison, quench, DC 22, remove disease, speak with
+- daylight, dominate animal (DC 22), neutralize poison, quench (DC 22), remove disease, speak with
   plants
 
 **2nd-level spells:**
 
-- animal messenger, gust of wind, DC 21, lesser restoration, soften earth and stone, warp wood, DC
-  21, wood shape, DC 21
+- animal messenger, gust of wind (DC 21), lesser restoration, soften earth and stone, warp wood (DC
+  21), wood shape (DC 21)
 
 **1st-level spells:**
 
-- calm animals, DC 20, charm animal, DC 20, detect animals or plants, entangle, DC 20, faerie fire,
-  obscuring mist, speak with animals
+- calm animals (DC 20), charm animal (DC 20), detect animals or plants, entangle (DC 20), faerie
+  fire, obscuring mist, speak with animals
 
 **Cantrips:**
 
-- create water, detect magic, know direction, purify food and drink, DC 19
+- create water, detect magic, know direction, purify food and drink (DC 19)
 
 **Statistics**
 

@@ -76,20 +76,20 @@ the thrill of the coming kill._
 
 **3rd-level spells:**
 
-- 3/day: bestow curse, DC 16, inflict serious wounds, DC 15, magic vestment
+- 3/day: bestow curse (DC 16), inflict serious wounds (DC 15), magic vestment
 
 **2nd-level spells:**
 
-- 6/day: fog cloud, inflict moderate wounds, DC 14, resist energy, summon monster II
+- 6/day: fog cloud, inflict moderate wounds (DC 14), resist energy, summon monster II
 
 **1st-level spells:**
 
-- 7/day: cure light wounds, enlarge person, inflict light wounds, DC 13, protection from good, ray
-  of sickening, DC 14, shield of faith, DC 13
+- 7/day: cure light wounds, enlarge person, inflict light wounds (DC 13), protection from good, ray
+  of sickening (DC 14), shield of faith (DC 13)
 
 **Cantrips:**
 
-- At will: bleed, DC 13, create water, detect magic, detect poison, guidance, spark, virtue
+- At will: bleed (DC 13), create water, detect magic, detect poison, guidance, spark, virtue
 
 **Mystery**
 

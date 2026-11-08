@@ -104,12 +104,12 @@ heads and writhing tentacles._
 
 **At will:**
 
-- acid arrow, control water, fog cloud, greater dispel magic, major image, DC 19
+- acid arrow, control water, fog cloud, greater dispel magic, major image (DC 19)
 
 **Per day:**
 
-- 3/day: black tentacles, charm monster, DC 20, insanity, DC 23, mirage arcana, DC 21, solid fog
-- 1/day: control weather, power word stun, project image, DC 23, &S level 8; 1 charybdis
+- 3/day: black tentacles, charm monster (DC 20), insanity (DC 23), mirage arcana (DC 21), solid fog
+- 1/day: control weather, power word stun, project image (DC 23), &S level 8; 1 charybdis
 
 **Statistics**
 

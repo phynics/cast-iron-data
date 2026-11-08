@@ -91,7 +91,7 @@ reminiscent of sickle blades._
 
 **Per day:**
 
-- 1/day: deeper darkness, slow, DC 15, unholy blight, DC 16
+- 1/day: deeper darkness, slow (DC 15), unholy blight (DC 16)
 
 **Statistics**
 

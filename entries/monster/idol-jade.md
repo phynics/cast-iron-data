@@ -91,7 +91,7 @@ miniature._
 **Per day:**
 
 - 3/day: pass without trace, summon monster I, viper only
-- 1/day: neutralize poison, poison, DC 16, true strike
+- 1/day: neutralize poison, poison (DC 16), true strike
 
 ###### S {#footnote-s}
 

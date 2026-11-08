@@ -98,7 +98,7 @@ tactician 2/day (Outflank)
 
 **Per day:**
 
-- 3/day: align weapon, death knell, DC 14, ray of enfeeblement, DC 14
+- 3/day: align weapon, death knell (DC 14), ray of enfeeblement (DC 14)
 
 **Statistics**
 

@@ -98,7 +98,7 @@ abilities = ["20", "11", "16", "8", "9", "14"]
 
 **1st-level spells:**
 
-- death knell, DC 13, doom, DC 13
+- death knell (DC 13), doom (DC 13)
 
 **Statistics**
 

@@ -95,19 +95,19 @@ _Cruel horns frame this dragon's head. Its body glows faintly with malicious hea
 
 **3rd-level spells:**
 
-- 5/day: blindness/deafness, DC 18, vision of hell, DC 19
+- 5/day: blindness/deafness (DC 18), vision of hell (DC 19)
 
 **2nd-level spells:**
 
-- 7/day: cure moderate wounds, darkness, hold person, DC 17
+- 7/day: cure moderate wounds, darkness, hold person (DC 17)
 
 **1st-level spells:**
 
-- 8/day: bane, DC 16, command, DC 18, forbid action, DC 18, sanctuary, DC 16, shield of faith
+- 8/day: bane (DC 16), command (DC 18), forbid action (DC 18), sanctuary (DC 16), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 15, detect magic, guidance, mending, read magic, resistance, spark, DC 15
+- At will: bleed (DC 15), detect magic, guidance, mending, read magic, resistance, spark (DC 15)
 
 **Statistics**
 

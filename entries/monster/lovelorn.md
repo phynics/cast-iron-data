@@ -86,11 +86,11 @@ spider. Blood oozes from the glistening organ._
 
 **At will:**
 
-- ghost sound, DC 13, open/close, silent image, DC 14
+- ghost sound (DC 13), open/close, silent image (DC 14)
 
 **Per day:**
 
-- 3/day: crushing despair, DC 16, entangle, DC 14, memory lapse, DC 14, vanish
+- 3/day: crushing despair (DC 16), entangle (DC 14), memory lapse (DC 14), vanish
 - 1/day: animate dead
 
 **Statistics**

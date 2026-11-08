@@ -84,11 +84,12 @@ for a large eye ringed by fangs._
 
 **At will:**
 
-- bestow curse, DC 18, detect good, detect magic, dimension door, minor image, DC 16, spectral hand
+- bestow curse (DC 18), detect good, detect magic, dimension door, minor image (DC 16), spectral
+  hand
 
 **Per day:**
 
-- 1/day: suggestion, DC 17, &S level 3; 1d2 [dorus](ref/monster/div-doru) 25%
+- 1/day: suggestion (DC 17), &S level 3; 1d2 [dorus](ref/monster/div-doru) 25%
 
 **Statistics**
 

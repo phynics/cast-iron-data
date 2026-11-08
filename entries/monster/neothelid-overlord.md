@@ -96,12 +96,12 @@ tentacles._
 
 **At will:**
 
-- clairvoyance/clairaudience, detect thoughts, DC 19, mass charm monster, DC 25, mass suggestion, DC
-  23, poison, DC 20, telekinesis, teleport
+- clairvoyance/clairaudience, detect thoughts (DC 19), mass charm monster (DC 25), mass suggestion
+  (DC 23), poison (DC 20), telekinesis, teleport
 
 **Per day:**
 
-- 3/day: &Q mass suggestion, DC 23
+- 3/day: &Q mass suggestion (DC 23)
 
 **Psychic Magic**
 

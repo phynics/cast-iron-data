@@ -81,7 +81,7 @@ pearlescent breastplate and wields a shimmering longspear._
 
 **Per day:**
 
-- 5/day: cure light wounds, sanctuary, DC 16
+- 5/day: cure light wounds, sanctuary (DC 16)
 - 3/day: calm emotions, cure moderate wounds
 
 **Statistics**

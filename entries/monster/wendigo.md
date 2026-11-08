@@ -100,7 +100,7 @@ plus 4d6 cold)
 
 **Per day:**
 
-- 1/day: control weather, as druid, nightmare, DC 22
+- 1/day: control weather, as druid, nightmare (DC 22)
 
 **Statistics**
 

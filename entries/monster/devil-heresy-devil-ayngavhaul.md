@@ -94,14 +94,14 @@ off the ground._
 
 **At will:**
 
-- alter self, dream, DC 24, greater teleport, self plus 50 lbs. of objects only, major image, DC 22,
-  mirage arcana, DC 24, ventriloquism, DC 19
+- alter self, dream (DC 24), greater teleport, self plus 50 lbs. of objects only, major image (DC
+  22), mirage arcana (DC 24), ventriloquism (DC 19)
 
 **Per day:**
 
-- 3/day: blasphemy, DC 26, dominate person, DC 24, hold monster, DC 24, insanity, DC 26, touch of
-  idiocy, veil, DC 25
-- 1/day: mind fog, DC 24, screen, DC 27, &S level 8; 1d6
+- 3/day: blasphemy (DC 26), dominate person (DC 24), hold monster (DC 24), insanity (DC 26), touch
+  of idiocy, veil (DC 25)
+- 1/day: mind fog (DC 24), screen (DC 27), &S level 8; 1d6
   [bone devils](ref/monster/devil-bone-devil-osyluth) or 2d4
   [bearded devils](ref/monster/devil-bearded-devil-barbazu) 50% or 1
   [ice devil](ref/monster/devil-ice-devil-gelugon) 20%

@@ -92,7 +92,7 @@ covered in a viscous slime._
 
 **At will:**
 
-- detect thoughts, DC 15, fear, DC 17
+- detect thoughts (DC 15), fear (DC 17)
 
 **Per day:**
 

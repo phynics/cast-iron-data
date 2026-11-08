@@ -92,7 +92,7 @@ the thrill of the coming kill._
 
 **5th-level spells:**
 
-- 3/day: fire snake, DC 18
+- 3/day: fire snake (DC 18)
 
 **4th-level spells:**
 
@@ -100,7 +100,8 @@ the thrill of the coming kill._
 
 **3rd-level spells:**
 
-- 6/day: fireball, DC 16, howling agony, DC 16, protection from energy, rage, stinking cloud, DC 16
+- 6/day: fireball (DC 16), howling agony (DC 16), protection from energy, rage, stinking cloud (DC
+  16)
 
 **2nd-level spells:**
 
@@ -108,13 +109,13 @@ the thrill of the coming kill._
 
 **1st-level spells:**
 
-- 7/day: burning hands, DC 14, color spray, DC 14, enlarge person, DC 14, magic missile, ray of
-  enfeeblement, DC 14, shield
+- 7/day: burning hands (DC 14), color spray (DC 14), enlarge person (DC 14), magic missile, ray of
+  enfeeblement (DC 14), shield
 
 **Cantrips:**
 
-- At will: acid splash, daze, DC 13, detect magic, detect poison, ghost sound, DC 13, mage hand,
-  read magic, resistance, touch of fatigue, DC 13
+- At will: acid splash, daze (DC 13), detect magic, detect poison, ghost sound (DC 13), mage hand,
+  read magic, resistance, touch of fatigue (DC 13)
 
 **Bloodline**
 

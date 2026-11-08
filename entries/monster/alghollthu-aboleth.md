@@ -77,12 +77,12 @@ glistens with thick, clear slime._
 
 **At will:**
 
-- hypnotic pattern, DC 15, illusory wall, DC 17, mirage arcana, DC 18, persistent image, DC 18,
-  programmed image, DC 19, project image, DC 20, veil, DC 19
+- hypnotic pattern (DC 15), illusory wall (DC 17), mirage arcana (DC 18), persistent image (DC 18),
+  programmed image (DC 19), project image (DC 20), veil (DC 19)
 
 **Per day:**
 
-- 3/day: dominate monster, DC 22
+- 3/day: dominate monster (DC 22)
 
 **Statistics**
 

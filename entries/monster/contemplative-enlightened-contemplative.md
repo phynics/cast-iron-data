@@ -84,7 +84,7 @@ pulses with energy._
 
 **At will:**
 
-- detect thoughts, DC 17
+- detect thoughts (DC 17)
 
 **Psychic Magic**
 

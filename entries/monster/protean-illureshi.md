@@ -93,13 +93,13 @@ _This anemic protean wears a wizard's robe and garish jewelry._
 
 **At will:**
 
-- dispel magic, DC 17, greater teleport, self plus 50 lbs. of objects only, major creation,
-  telekinesis, DC 19
+- dispel magic (DC 17), greater teleport, self plus 50 lbs. of objects only, major creation,
+  telekinesis (DC 19)
 
 **Per day:**
 
-- 3/day: chaos hammer, DC 18
-- 1/day: break enchantment, plane shift, DC 21
+- 3/day: chaos hammer (DC 18)
+- 1/day: break enchantment, plane shift (DC 21)
 
 **Spells Known**
 
@@ -109,7 +109,7 @@ _This anemic protean wears a wizard's robe and garish jewelry._
 
 **3rd-level spells:**
 
-- 3/day: lightning bolt, DC 16
+- 3/day: lightning bolt (DC 16)
 
 **2nd-level spells:**
 

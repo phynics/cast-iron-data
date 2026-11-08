@@ -81,27 +81,27 @@ vaguely humanoid shape._
 
 **5th-level spells:**
 
-- feeblemind, DC 19
+- feeblemind (DC 19)
 
 **4th-level spells:**
 
-- detect scrying, dimension door, scrying, DC 18
+- detect scrying, dimension door, scrying (DC 18)
 
 **3rd-level spells:**
 
-- displacement, fly, lightning bolt, DC 17, sleet storm
+- displacement, fly, lightning bolt (DC 17), sleet storm
 
 **2nd-level spells:**
 
-- alter self, blindness/deafness, 3, DC 16, mirror image
+- alter self, blindness/deafness (3, DC 16), mirror image
 
 **1st-level spells:**
 
-- mage armor, magic missile, 2, shield, ventriloquism, DC 15
+- mage armor, magic missile, 2, shield, ventriloquism (DC 15)
 
 **Cantrips:**
 
-- arcane mark, daze, DC 14, detect magic, read magic
+- arcane mark, daze (DC 14), detect magic, read magic
 
 **Statistics**
 

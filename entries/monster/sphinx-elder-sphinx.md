@@ -96,15 +96,15 @@ acquired through untold ages of experience._
 
 **Per day:**
 
-- 3/day: clairaudience/clairvoyance, greater dispel magic, hallucinatory terrain, DC 21, locate
-  object, remove curse, sirocco, DC 23
+- 3/day: clairaudience/clairvoyance, greater dispel magic, hallucinatory terrain (DC 21), locate
+  object, remove curse, sirocco (DC 23)
 - 1/day: commune, contact other plane, legend lore
 
 **Per week:**
 
-- \^any one of the following:, symbol of fear, DC 22, symbol of persuasion, DC 23, symbol of sleep,
-  DC 23, symbol of vulnerability, DC 26, symbol of weakness, DC 24, $; all symbols last for 1 week
-  maximum
+- \^any one of the following:, symbol of fear (DC 22), symbol of persuasion (DC 23), symbol of sleep
+  (DC 23), symbol of vulnerability (DC 26), symbol of weakness (DC 24), $; all symbols last for 1
+  week maximum
 
 **Statistics**
 

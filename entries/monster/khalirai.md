@@ -102,8 +102,8 @@ stunning
 
 **1st-level spells:**
 
-- charm animal, DC 16, endure elements, entangle, DC 16, obscuring mist, pass without trace, produce
-  flame
+- charm animal (DC 16), endure elements, entangle (DC 16), obscuring mist, pass without trace,
+  produce flame
 
 **Cantrips:**
 
@@ -117,21 +117,21 @@ stunning
 
 **4th-level spells:**
 
-- 5/day: cure critical wounds, DC 24, fear, DC 24, restoration
+- 5/day: cure critical wounds (DC 24), fear (DC 24), restoration
 
 **3rd-level spells:**
 
-- 7/day: animate dead, cure serious wounds, DC 23, remove disease, searing light
+- 7/day: animate dead, cure serious wounds (DC 23), remove disease, searing light
 
 **2nd-level spells:**
 
-- 9/day: align weapon, cure moderate wounds, DC 22, false life, gentle repose, remove
+- 9/day: align weapon, cure moderate wounds (DC 22), false life, gentle repose, remove
   blindness/deafness
 
 **1st-level spells:**
 
-- 9/day: bless, cause fear, DC 21, command, DC 21, cure light wounds, DC 21, detect undead, hide
-  from undead, sanctuary, DC 21
+- 9/day: bless, cause fear (DC 21), command (DC 21), cure light wounds (DC 21), detect undead, hide
+  from undead, sanctuary (DC 21)
 
 **Cantrips:**
 

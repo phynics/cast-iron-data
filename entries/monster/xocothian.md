@@ -88,8 +88,8 @@ storm._
 
 **Per day:**
 
-- 3/day: chill metal, DC 13, cure light wounds, faerie fire, obscuring mist
-- 1/day: dimension door, self plus 50 lbs. of objects only, hydraulic torrent, DC 13
+- 3/day: chill metal (DC 13), cure light wounds, faerie fire, obscuring mist
+- 1/day: dimension door, self plus 50 lbs. of objects only, hydraulic torrent (DC 13)
 
 **Statistics**
 

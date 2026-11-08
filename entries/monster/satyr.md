@@ -76,11 +76,11 @@ from his temples._
 
 **At will:**
 
-- charm person, DC 15, dancing lights, ghost sound, DC 14, sleep, DC 15, suggestion, DC 17
+- charm person (DC 15), dancing lights, ghost sound (DC 14), sleep (DC 15), suggestion (DC 17)
 
 **Per day:**
 
-- 1/day: fear, DC 18, summon nature's ally III
+- 1/day: fear (DC 18), summon nature's ally III
 
 **Statistics**
 

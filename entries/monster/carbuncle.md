@@ -75,7 +75,7 @@ both surprised and perplexed._
 
 **Per day:**
 
-- 3/day: daze, DC 10, jump, levitate, self only; up to 10 feet
+- 3/day: daze (DC 10), jump, levitate, self only; up to 10 feet
 
 **Statistics**
 

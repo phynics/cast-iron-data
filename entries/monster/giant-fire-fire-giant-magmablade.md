@@ -95,28 +95,28 @@ concentration, double bonus), spellstrike
 
 **5th-level spells:**
 
-- geyser, DC 20, telekinesis, DC 20, wall of stone, DC 20
+- geyser (DC 20), telekinesis (DC 20), wall of stone (DC 20)
 
 **4th-level spells:**
 
-- arcana theft, ball lightning, DC 19, black tentacles, stoneskin, wall of fire
+- arcana theft, ball lightning (DC 19), black tentacles, stoneskin, wall of fire
 
 **3rd-level spells:**
 
-- blink, dispel magic, fireball, DC 18, flame arrow, fly
+- blink, dispel magic, fireball (DC 18), flame arrow, fly
 
 **2nd-level spells:**
 
-- alter self, blur, effortless armor, elemental touch, DC 17, invisibility, scorching ray
+- alter self, blur, effortless armor, elemental touch (DC 17), invisibility, scorching ray
 
 **1st-level spells:**
 
-- burning hands, DC 16, enlarge person, DC 16, expeditious retreat, flare burst, DC 16, magic
-  missile, mirror strike, reduce person, DC 16
+- burning hands (DC 16), enlarge person (DC 16), expeditious retreat, flare burst (DC 16), magic
+  missile, mirror strike, reduce person (DC 16)
 
 **Cantrips:**
 
-- acid splash, detect magic, flare, DC 15, light, spark
+- acid splash, detect magic, flare (DC 15), light, spark
 
 ### Tactics
 

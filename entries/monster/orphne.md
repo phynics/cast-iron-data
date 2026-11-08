@@ -86,7 +86,7 @@ palpable aura of death._
 
 **At will:**
 
-- command undead, hide from undead, DC 15
+- command undead, hide from undead (DC 15)
 
 **Per day:**
 

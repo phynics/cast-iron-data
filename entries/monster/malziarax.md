@@ -94,12 +94,12 @@ _This enormous, ebon-skinned giant is covered in glowing red runes and exotic pl
 
 **At will:**
 
-- charm person, DC 19, suggestion, DC 21
+- charm person (DC 19), suggestion (DC 21)
 
 **Per day:**
 
-- 3/day: dominate person, DC 23, mass charm person, DC 26
-- 1/day: demand, DC 26, true seeing
+- 3/day: dominate person (DC 23), mass charm person (DC 26)
+- 1/day: demand (DC 26), true seeing
 
 **Statistics**
 

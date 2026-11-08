@@ -100,42 +100,42 @@ spell
 
 **9th-level spells:**
 
-- dominate monster, DC 37, foresight, gate, time stop, wail of the banshee, DC 37, weird, DC 37,
+- dominate monster (DC 37), foresight, gate, time stop, wail of the banshee (DC 37), weird (DC 37),
   wish
 
 **8th-level spells:**
 
-- binding, DC 36&Q dimension door, maze, &Q phantasmal killer, DC 36, chain lightning, DC 34,
-  disintegrate, DC 34, eyebite, DC 34, greater dispel magic, slay living, DC 34, true seeing
+- binding, DC 36&Q dimension door, maze, &Q phantasmal killer (DC 36), chain lightning (DC 34),
+  disintegrate (DC 34), eyebite (DC 34), greater dispel magic, slay living (DC 34), true seeing
 
 **5th-level spells:**
 
-- baleful polymorph, DC 33, break enchantment, dominate person, DC 33, feeblemind, DC 33, greater
-  forbid action, DC 33, major curse, DC 33, smug narcissism, steal power, DC 33
+- baleful polymorph (DC 33), break enchantment, dominate person (DC 33), feeblemind (DC 33), greater
+  forbid action (DC 33), major curse (DC 33), smug narcissism, steal power (DC 33)
 
 **4th-level spells:**
 
-- bestow curse, DC 32, charm monster, DC 32, confusion, DC 32, dimensional anchor, ice storm,
-  greater invisibility, stoneskin, terrible remorse, DC 32
+- bestow curse (DC 32), charm monster (DC 32), confusion (DC 32), dimensional anchor, ice storm,
+  greater invisibility, stoneskin, terrible remorse (DC 32)
 
 **3rd-level spells:**
 
-- cackling skull, DC 31, dispel magic, fireball, DC 31, fly, haste, lightning bolt, DC 31,
-  protection from energy, suggestion, DC 31
+- cackling skull (DC 31), dispel magic, fireball (DC 31), fly, haste, lightning bolt (DC 31),
+  protection from energy, suggestion (DC 31)
 
 **2nd-level spells:**
 
-- anticipate peril, DC 30, glitterdust, DC 30, mad hallucination, DC 30, mirror image, miserable
-  pity, DC 30, pox pustules, DC 30, touch of idiocy, web, DC 30
+- anticipate peril (DC 30), glitterdust (DC 30), mad hallucination (DC 30), mirror image, miserable
+  pity (DC 30), pox pustules (DC 30), touch of idiocy, web (DC 30)
 
 **1st-level spells:**
 
-- beguiling gift, DC 30, bungle, DC 30, charm person, DC 29, disguise self, DC 29, feather fall,
-  fumbletongue, DC 30, magic missile, 2
+- beguiling gift (DC 30), bungle (DC 30), charm person (DC 29), disguise self (DC 29), feather fall,
+  fumbletongue (DC 30), magic missile, 2
 
 **Cantrips:**
 
-- daze, DC 28, mending, prestidigitation, read magic
+- daze (DC 28), mending, prestidigitation, read magic
 
 **Patron**
 

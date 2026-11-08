@@ -88,17 +88,17 @@ white-feathered wings._
 
 **Constant:**
 
-- detect evil, detect snares and pits, discern lies, DC 20, true seeing
+- detect evil, detect snares and pits, discern lies (DC 20), true seeing
 
 **At will:**
 
-- continual flame, dispel magic, holy smite, DC 21, invisibility, self only, lesser restoration,
-  remove curse, remove disease, remove fear, DC 18, speak with dead, DC 20
+- continual flame, dispel magic, holy smite (DC 21), invisibility, self only, lesser restoration,
+  remove curse, remove disease, remove fear (DC 18), speak with dead (DC 20)
 
 **Per day:**
 
-- 3/day: blade barrier, DC 21, flame strike, DC 22, power word stun, raise dead, waves of fatigue
-- 1/day: earthquake, DC 25, greater restoration, mass charm monster, DC 25, waves of exhaustion
+- 3/day: blade barrier (DC 21), flame strike (DC 22), power word stun, raise dead, waves of fatigue
+- 1/day: earthquake (DC 25), greater restoration, mass charm monster (DC 25), waves of exhaustion
 
 **Prepared Spells**
 
@@ -106,23 +106,23 @@ white-feathered wings._
 
 **8th-level spells:**
 
-- earthquake, DC 25, fire storm, DC 25
+- earthquake (DC 25), fire storm (DC 25)
 
 **7th-level spells:**
 
-- holy word, DC 24, regenerate, 2
+- holy word (DC 24), regenerate, 2
 
 **6th-level spells:**
 
-- banishment, DC 23, greater dispel magic, heal, mass cure moderate wounds, DC 23
+- banishment (DC 23), greater dispel magic, heal, mass cure moderate wounds (DC 23)
 
 **5th-level spells:**
 
-- break enchantment, dispel evil, 2, DC 22, plane shift, DC 22, righteous might
+- break enchantment, dispel evil (2, DC 22), plane shift (DC 22), righteous might
 
 **4th-level spells:**
 
-- death ward, dismissal, DC 21, neutralize poison, DC 21, summon monster IV
+- death ward, dismissal (DC 21), neutralize poison (DC 21), summon monster IV
 
 **3rd-level spells:**
 

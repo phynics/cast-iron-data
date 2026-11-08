@@ -87,13 +87,13 @@ pleasure or titillating torture._
 
 **At will:**
 
-- calm emotions, DC 16, darkness, enthrall, DC 16, major image, DC 17
+- calm emotions (DC 16), darkness, enthrall (DC 16), major image (DC 17)
 
 **Per day:**
 
-- 3/day: crushing despair, DC 17, shadow walk, silence, DC 16
+- 3/day: crushing despair (DC 17), shadow walk, silence (DC 16)
 - 1/day: plane shift, DC 21; to the Material Plane and the Plane of Shadow only; lawful evil
-  creatures only, shout, DC 18
+  creatures only, shout (DC 18)
 
 **Statistics**
 

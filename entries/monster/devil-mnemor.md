@@ -87,7 +87,7 @@ tongue snaking out over its distended jaw._
 
 **At will:**
 
-- greater teleport, suggestion, DC 15
+- greater teleport, suggestion (DC 15)
 
 **Per day:**
 

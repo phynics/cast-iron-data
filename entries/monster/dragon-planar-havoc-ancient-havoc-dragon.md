@@ -98,27 +98,27 @@ stirred by an unseen breeze._
 
 **6th-level spells:**
 
-- 7/day: mass charm monster, DC 24, heroes' feast, wind walk
+- 7/day: mass charm monster (DC 24), heroes' feast, wind walk
 
 **5th-level spells:**
 
-- 7/day: break enchantment, greater command, DC 23, life bubble, mass cure light wounds, DC 23
+- 7/day: break enchantment, greater command (DC 23), life bubble, mass cure light wounds (DC 23)
 
 **4th-level spells:**
 
-- 8/day: dimension door, dismissal, DC 22, freedom of movement, tongues
+- 8/day: dimension door, dismissal (DC 22), freedom of movement, tongues
 
 **3rd-level spells:**
 
-- 8/day: charm monster, DC 18, dispel magic, stone shape, wind wall
+- 8/day: charm monster (DC 18), dispel magic, stone shape, wind wall
 
 **2nd-level spells:**
 
-- 8/day: bear's endurance, cure moderate wounds, enthrall, DC 20, grace, sound burst, DC 20
+- 8/day: bear's endurance, cure moderate wounds, enthrall (DC 20), grace, sound burst (DC 20)
 
 **1st-level spells:**
 
-- 8/day: detect evil, divine favor, entropic shield, grease, DC 15, obscuring mist
+- 8/day: detect evil, divine favor, entropic shield, grease (DC 15), obscuring mist
 
 **Cantrips:**
 

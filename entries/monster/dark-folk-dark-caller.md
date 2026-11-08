@@ -84,12 +84,12 @@ _Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent 
 
 **At will:**
 
-- bleed, DC 14
+- bleed (DC 14)
 
 **Per day:**
 
 - 3/day: deeper darkness, shadow step
-- 1/day: shadow conjuration, DC 18
+- 1/day: shadow conjuration (DC 18)
 
 **Statistics**
 

@@ -96,12 +96,12 @@ dance in the cracks of its bark._
 
 **At will:**
 
-- control weather, lightning bolt, DC 20, tree shape, Colossal tree, transport via plants
+- control weather, lightning bolt (DC 20), tree shape, Colossal tree, transport via plants
 
 **Per day:**
 
-- 3/day: chain lightning, DC 23, &Q lightning bolt, DC 20
-- 1/day: storm of vengeance, DC 26, whirlwind, DC 25
+- 3/day: chain lightning (DC 23), &Q lightning bolt (DC 20)
+- 1/day: storm of vengeance (DC 26), whirlwind (DC 25)
 
 **Statistics**
 

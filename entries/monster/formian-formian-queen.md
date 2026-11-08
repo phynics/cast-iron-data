@@ -92,9 +92,9 @@ brood._
 
 **Per day:**
 
-- 1/day: invisibility, feeblemind, DC 21
-- 3/day: commune with nature, &EM cone of cold, DC 22, permanent image, &Q magic missile, repulsion,
-  DC 23, teleport
+- 1/day: invisibility, feeblemind (DC 21)
+- 3/day: commune with nature, &EM cone of cold (DC 22), permanent image, &Q magic missile, repulsion
+  (DC 23), teleport
 
 **Statistics**
 

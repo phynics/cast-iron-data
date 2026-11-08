@@ -103,12 +103,12 @@ weapons and fangs drip with blood._
 
 **At will:**
 
-- charm monster, DC 28, detect thoughts, DC 26, ethereal jaunt, self plus 50 lbs. of objects only,
-  greater teleport, self plus 50 lbs. of objects only, suggestion, DC 27
+- charm monster (DC 28), detect thoughts (DC 26), ethereal jaunt, self plus 50 lbs. of objects only,
+  greater teleport, self plus 50 lbs. of objects only, suggestion (DC 27)
 
 **Per day:**
 
-- 1/day: dominate person, DC 29, &S level 3; 1 babau 50%
+- 1/day: dominate person (DC 29), &S level 3; 1 babau 50%
 
 **Spells Known**
 
@@ -118,37 +118,37 @@ weapons and fangs drip with blood._
 
 **6th-level spells:**
 
-- 8/day: mass charm monster, DC 30, geas/quest, irresistible dance, project image, DC 30, veil, DC
-  30
+- 8/day: mass charm monster (DC 30), geas/quest, irresistible dance, project image (DC 30), veil (DC
+  30)
 
 **5th-level spells:**
 
-- 8/day: mind fog, DC 29, nightmare, DC 29, persistent image, DC 29, song of discord, DC 29, mass
-  suggestion, DC 29
+- 8/day: mind fog (DC 29), nightmare (DC 29), persistent image (DC 29), song of discord (DC 29),
+  mass suggestion (DC 29)
 
 **4th-level spells:**
 
-- 8/day: cure critical wounds, dominate person, DC 28, freedom of movement, invisibility, modify
-  memory, DC 28, zone of silence
+- 8/day: cure critical wounds, dominate person (DC 28), freedom of movement, invisibility, modify
+  memory (DC 28), zone of silence
 
 **3rd-level spells:**
 
-- 8/day: confusion, DC 27, cure serious wounds, dispel magic, displacement, major image, DC 27,
-  scrying, DC 27
+- 8/day: confusion (DC 27), cure serious wounds, dispel magic, displacement, major image (DC 27),
+  scrying (DC 27)
 
 **2nd-level spells:**
 
-- 9/day: blindness/deafness, DC 26, cure moderate wounds, hold person, DC 26, mirror image,
-  misdirection, sound burst, DC 26
+- 9/day: blindness/deafness (DC 26), cure moderate wounds, hold person (DC 26), mirror image,
+  misdirection, sound burst (DC 26)
 
 **1st-level spells:**
 
-- 9/day: animate rope, cure light wounds, feather fall, hideous laughter, DC 25, silent image, DC
-  25, undetectable alignment
+- 9/day: animate rope, cure light wounds, feather fall, hideous laughter (DC 25), silent image (DC
+  25), undetectable alignment
 
 **Cantrips:**
 
-- At will: dancing lights, detect magic, ghost sound, DC 24, message, prestidigitation, summon
+- At will: dancing lights, detect magic, ghost sound (DC 24), message, prestidigitation, summon
   instrument
 
 **Statistics**

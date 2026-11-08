@@ -100,12 +100,12 @@ made all the more disturbing by its apparent lack of a crew._
 
 **At will:**
 
-- commune with nature, dancing lights, know direction, telekinesis, DC 18
+- commune with nature, dancing lights, know direction, telekinesis (DC 18)
 
 **Per day:**
 
-- 3/day: charm person, DC 14, cloudkill, DC 18, control winds, invisibility sphere, major image, DC
-  16; within its reach only, plane shift, DC 18, seeming, DC 18; other creatures only, teleport,
+- 3/day: charm person (DC 14), cloudkill (DC 18), control winds, invisibility sphere, major image,
+  DC 16; within its reach only, plane shift (DC 18), seeming, DC 18; other creatures only, teleport,
   water breathing, &widened fog cloud
 - 1/day: &S level 7; 11-20 draugr 100%
 

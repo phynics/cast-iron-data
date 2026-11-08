@@ -88,13 +88,13 @@ shadows._
 
 **At will:**
 
-- calm emotions, DC 18, charm person, DC 17, detect thoughts, DC 22, greater teleport, self plus 50
-  lbs. of objects only, invisibility, modify memory, DC 19, sending
+- calm emotions (DC 18), charm person (DC 17), detect thoughts (DC 22), greater teleport, self plus
+  50 lbs. of objects only, invisibility, modify memory (DC 19), sending
 
 **Per day:**
 
-- 3/day: hold person, DC 19, &Q invisibility, suggestion, DC 19
-- 1/day: dream, feeblemind, DC 21, nightmare, DC 21, &S level 4; 1 oolioddroo 35% or 1d4 shadow
+- 3/day: hold person (DC 19), &Q invisibility, suggestion (DC 19)
+- 1/day: dream, feeblemind (DC 21), nightmare (DC 21), &S level 4; 1 oolioddroo 35% or 1d4 shadow
   demons 35%
 
 **Statistics**

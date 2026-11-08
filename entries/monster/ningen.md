@@ -87,8 +87,8 @@ _This enormous flippered creature is as pale as an iceberg and is nearly as larg
 
 **Per day:**
 
-- 3/day: freezing sphere, DC 19
-- 1/day: vortex, DC 20
+- 3/day: freezing sphere (DC 19)
+- 1/day: vortex (DC 20)
 
 **Statistics**
 

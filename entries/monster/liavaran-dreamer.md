@@ -89,8 +89,8 @@ tentacles dangling down in a line._
 
 **Per day:**
 
-- 3/day: mental block, DC 14, synesthesia, DC 15
-- 1/day: id insinuation IV, DC 17
+- 3/day: mental block (DC 14), synesthesia (DC 15)
+- 1/day: id insinuation IV (DC 17)
 
 **Statistics**
 

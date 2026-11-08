@@ -99,8 +99,8 @@ dislocated and hanging freely. A hood of the same jaundiced fabric obscures its 
 
 **Per day:**
 
-- 3/day: confusion, DC 17, mass hold person, DC 20, plane shift, silence, DC 15, teleport, self plus
-  50 lbs. of objects only
+- 3/day: confusion (DC 17), mass hold person (DC 20), plane shift, silence (DC 15), teleport, self
+  plus 50 lbs. of objects only
 - 1/day: freedom of movement
 
 **Statistics**

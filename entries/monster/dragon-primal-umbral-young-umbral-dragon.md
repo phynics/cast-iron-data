@@ -94,11 +94,11 @@ within by crimson embers._
 
 **1st-level spells:**
 
-- 4/day: inflict light wounds, DC 14, shield
+- 4/day: inflict light wounds (DC 14), shield
 
 **Cantrips:**
 
-- At will: bleed, DC 13, detect magic, detect poison, read magic
+- At will: bleed (DC 13), detect magic, detect poison, read magic
 
 **Statistics**
 

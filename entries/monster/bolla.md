@@ -87,7 +87,7 @@ don't quite touch the ground._
 
 **Per day:**
 
-- 1/day: call lightning storm, DC 19, horrid wilting, DC 22
+- 1/day: call lightning storm (DC 19), horrid wilting (DC 22)
 
 **Statistics**
 

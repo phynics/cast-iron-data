@@ -88,12 +88,12 @@ rest is lost in darkness._
 
 **At will:**
 
-- deeper darkness, fear, DC 18, greater teleport, self only, telekinesis, DC 19
+- deeper darkness, fear (DC 18), greater teleport, self only, telekinesis (DC 19)
 
 **Per day:**
 
-- 3/day: shadow conjuration, DC 18, shadow evocation, DC 19
-- 1/day: magic jar, DC 19, &S level 3; 1 shadow demon 50%
+- 3/day: shadow conjuration (DC 18), shadow evocation (DC 19)
+- 1/day: magic jar (DC 19), &S level 3; 1 shadow demon 50%
 
 **Statistics**
 

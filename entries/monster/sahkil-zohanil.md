@@ -93,9 +93,9 @@ needle-like tips of its long, hooked arms._
 
 **Per day:**
 
-- 3/day: foe to friend, DC 19, greater invisibility, overwhelming grief, DC 20, protection from
-  good, suggestion, DC 17
-- 1/day: nightmare, DC 19
+- 3/day: foe to friend (DC 19), greater invisibility, overwhelming grief (DC 20), protection from
+  good, suggestion (DC 17)
+- 1/day: nightmare (DC 19)
 
 **Statistics**
 

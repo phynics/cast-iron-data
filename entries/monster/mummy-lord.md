@@ -102,25 +102,25 @@ slashing), scythe of evil (4 rounds, 1/day), undead mastery (DC 19)
 
 **5th-level spells:**
 
-- dispel good (domain spell), DC 20, greater contagion, DC 21, slay living, DC 21
+- dispel good (domain spell) (DC 20), greater contagion (DC 21), slay living (DC 21)
 
 **4th-level spells:**
 
-- divine power, poison, DC 20, shadow conjuration (domain spell), DC 19, spit venom, DC 19
+- divine power, poison (DC 20), shadow conjuration (domain spell) (DC 19), spit venom (DC 19)
 
 **3rd-level spells:**
 
-- animate dead, bestow curse, DC 19, deeper darkness (domain spell), magic vestment, sands of time
+- animate dead, bestow curse (DC 19), deeper darkness (domain spell), magic vestment, sands of time
 
 **2nd-level spells:**
 
-- align weapon (domain spell), evil only, bull's strength, desecrate, dread bolt, DC 17, hold
-  person, DC 18, silence, DC 17
+- align weapon (domain spell), evil only, bull's strength, desecrate, dread bolt (DC 17), hold
+  person (DC 18), silence (DC 17)
 
 **1st-level spells:**
 
-- bane, DC 17, cause fear, DC 17, command, DC 17, detect good, divine favor, protection from good
-  (domain spell), sanctuary, DC 16
+- bane (DC 17), cause fear (DC 17), command (DC 17), detect good, divine favor, protection from good
+  (domain spell), sanctuary (DC 16)
 
 **Cantrips:**
 

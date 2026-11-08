@@ -95,7 +95,7 @@ wings +33 (2d6+7)
 
 **Per day:**
 
-- 1/day: fire storm, DC 25, infernal aide, meteor swarm, DC 26
+- 1/day: fire storm (DC 25), infernal aide, meteor swarm (DC 26)
 
 **Spells Known**
 
@@ -105,36 +105,37 @@ wings +33 (2d6+7)
 
 **7th-level spells:**
 
-- 5/day: dictum, DC 26, repulsion, DC 24
+- 5/day: dictum (DC 26), repulsion (DC 24)
 
 **6th-level spells:**
 
-- 7/day: antilife shell, dispel magic, harm, DC 23
+- 7/day: antilife shell, dispel magic, harm (DC 23)
 
 **5th-level spells:**
 
-- 7/day: greater command, DC 24, scrying, DC 22, slay living, DC 22, true seeing
+- 7/day: greater command (DC 24), scrying (DC 22), slay living (DC 22), true seeing
 
 **4th-level spells:**
 
-- 7/day: dimensional anchor, dismissal, DC 21, order's wrath, DC 21, tongues
+- 7/day: dimensional anchor, dismissal (DC 21), order's wrath (DC 21), tongues
 
 **3rd-level spells:**
 
-- 8/day: blindness/deafness, DC 20, bestow curse, DC 20, invisibility purge, vision of hell, DC 21
+- 8/day: blindness/deafness (DC 20), bestow curse (DC 20), invisibility purge, vision of hell (DC
+  21)
 
 **2nd-level spells:**
 
-- 8/day: cure moderate wounds, darkness, enthrall, DC 21, hold person, DC 19, silence, DC 19
+- 8/day: cure moderate wounds, darkness, enthrall (DC 21), hold person (DC 19), silence (DC 19)
 
 **1st-level spells:**
 
-- 8/day: bane, DC 18, command, DC 20, forbid action, DC 20, sanctuary, DC 18, shield of faith
+- 8/day: bane (DC 18), command (DC 20), forbid action (DC 20), sanctuary (DC 18), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 17, detect magic, detect poison, guidance, light, mending, read magic,
-  resistance, spark, DC 17
+- At will: bleed (DC 17), detect magic, detect poison, guidance, light, mending, read magic,
+  resistance, spark (DC 17)
 
 **Statistics**
 

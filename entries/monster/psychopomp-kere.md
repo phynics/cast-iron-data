@@ -91,12 +91,12 @@ a lengthy black veil._
 
 **At will:**
 
-- ghost sound, DC 14, grave tell, greater invisibility, hide from undead, DC 15, minor image, DC 16,
-  searing light, whispering wind
+- ghost sound (DC 14), grave tell, greater invisibility, hide from undead (DC 15), minor image (DC
+  16), searing light, whispering wind
 
 **Per day:**
 
-- 3/day: fog cloud, mage's faithful hound, mirage arcana, DC 19, speak with dead, DC 17, waves of
+- 3/day: fog cloud, mage's faithful hound, mirage arcana (DC 19), speak with dead (DC 17), waves of
   fatigue
 - 1/day: gate, to the Boneyard or Material Plane only; planar travel only
 

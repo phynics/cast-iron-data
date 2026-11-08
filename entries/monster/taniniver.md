@@ -96,8 +96,8 @@ plus disease)
 
 **Per day:**
 
-- 3/day: animate dead, inflict serious wounds, DC 18
-- 1/day: eyebite, DC 21, horrid wilting, DC 23, symbol of pain, DC 20
+- 3/day: animate dead, inflict serious wounds (DC 18)
+- 1/day: eyebite (DC 21), horrid wilting (DC 23), symbol of pain (DC 20)
 
 **Statistics**
 

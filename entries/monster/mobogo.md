@@ -94,12 +94,12 @@ pull)
 
 **At will:**
 
-- charm animal, DC 14, create water, sound burst, DC 15
+- charm animal (DC 14), create water, sound burst (DC 15)
 
 **Per day:**
 
-- 3/day: control water, fog cloud, gust of wind, DC 15, plant growth, quench, DC 16, soften earth
-  and stone, DC 15
+- 3/day: control water, fog cloud, gust of wind (DC 15), plant growth, quench (DC 16), soften earth
+  and stone (DC 15)
 
 **Statistics**
 

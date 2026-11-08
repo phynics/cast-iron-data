@@ -94,13 +94,13 @@ Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head._
 **At will:**
 
 - enter image, greater teleport, self plus 50 lbs. of objects only, meld into stone, possess object,
-  ventriloquism, DC 17
+  ventriloquism (DC 17)
 
 **Per day:**
 
-- 3/day: charm monster, DC 20, &Q dominate person, DC 21, stone shape, vengeful outrage, DC 22
-- 1/day: mass suggestion, DC 22, statue, &S level 7; 1 shachath or 1d3 succubi 50%, symbol of
-  persuasion, DC 22
+- 3/day: charm monster (DC 20), &Q dominate person (DC 21), stone shape, vengeful outrage (DC 22)
+- 1/day: mass suggestion (DC 22), statue, &S level 7; 1 shachath or 1d3 succubi 50%, symbol of
+  persuasion (DC 22)
 
 **Statistics**
 

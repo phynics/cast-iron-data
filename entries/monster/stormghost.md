@@ -95,8 +95,8 @@ darkness
 
 **Per day:**
 
-- 3/day: deeper darkness, greater invisibility, gust of wind, DC 15, ice storm
-- 1/day: control weather, plague storm, DC 19, sirocco, DC 19
+- 3/day: deeper darkness, greater invisibility, gust of wind (DC 15), ice storm
+- 1/day: control weather, plague storm (DC 19), sirocco (DC 19)
 
 **Statistics**
 

@@ -80,12 +80,12 @@ leaves and blossoms._
 
 **At will:**
 
-- entangle, DC 15, tree shape, wood shape, 1 lb. only
+- entangle (DC 15), tree shape, wood shape, 1 lb. only
 
 **Per day:**
 
-- 3/day: charm person, DC 15, deep slumber, DC 17, tree stride
-- 1/day: suggestion, DC 17
+- 3/day: charm person (DC 15), deep slumber (DC 17), tree stride
+- 1/day: suggestion (DC 17)
 
 **Statistics**
 

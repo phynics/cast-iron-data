@@ -98,9 +98,9 @@ glinting metallic ore._
 
 **Per day:**
 
-- 5/day: bull's strength, cure serious wounds, DC 16, invisibility purge, levitate
-- 3/day: dimension door, dispel magic, fly, gravel vortex, neutralize poison, order's wrath, DC 17,
-  spike stones, DC 17
+- 5/day: bull's strength, cure serious wounds (DC 16), invisibility purge, levitate
+- 3/day: dimension door, dispel magic, fly, gravel vortex, neutralize poison, order's wrath (DC 17),
+  spike stones (DC 17)
 - 1/day: breath of life, fabricate, stone tell, stoneskin, wall of stone
 
 **Statistics**
