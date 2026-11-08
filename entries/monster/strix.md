@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "1/3"
 creature_type = "humanoid"
+subtypes = ["strix"]
 size = "medium"
 alignment = "neutral"
 ac = "12/12/10"
@@ -40,13 +41,12 @@ _Monstrous black-feathered wings cloak this leanly muscled, onyx-skinned humanoi
 
 **Alignment:** Neutral
 
-**othersubs:** Strix
-
 **Perception:** +0 (+2 at night)
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea World Guide pg 313, Pathfinder \#25: The Bastards of Erebus pg 82\
+**Subtype:** Strix\
 **Experience points:** 135
 
 **Armor class:** 12/12/10

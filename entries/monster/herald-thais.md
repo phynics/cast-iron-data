@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["chaotic", "extraplanar", "good", "shapechanger"]
+subtypes = ["chaotic", "extraplanar", "good", "herald", "shapechanger"]
 size = "large"
 alignment = "chaotic good"
 ac = "32/25/23"
@@ -40,8 +40,6 @@ halberd._
 
 **Size:** large
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +24
@@ -49,7 +47,7 @@ halberd._
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 282, Pathfinder \#14: Children of the Void pg 86\
-**Subtype:** Chaotic, Extraplanar, Good, Shapechanger
+**Subtype:** Chaotic, Extraplanar, Good, Herald, Shapechanger
 
 **Experience points:** 51,200
 

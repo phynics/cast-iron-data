@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "2"
 creature_type = "construct"
-subtypes = ["extraplanar"]
+subtypes = ["automaton", "extraplanar"]
 size = "tiny"
 alignment = "lawful neutral"
 ac = "14/12/12"
@@ -37,14 +37,12 @@ glows with a warm light._
 
 **Alignment:** Lawful neutral
 
-**othersubs:** Automaton
-
 **Perception:** +6
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
 **Sources:** Construct Handbook pg 24\
-**Subtype:** Extraplanar
+**Subtype:** Automaton, Extraplanar
 
 **Size:** tiny
 

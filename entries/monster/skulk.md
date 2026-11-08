@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "1"
 creature_type = "humanoid"
+subtypes = ["skulk"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "12/12/10"
@@ -39,13 +40,12 @@ mimic his surroundings._
 
 **Size:** medium
 
-**othersubs:** Skulk
-
 **Perception:** +5
 
 **Senses:** Low-light vision
 
 **Sources:** Bestiary 2 pg 248\
+**Subtype:** Skulk\
 **Experience points:** 400
 
 **Armor class:** 12/12/10

@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["extraplanar", "lawful"]
+subtypes = ["extraplanar", "herald", "lawful"]
 size = "medium"
 alignment = "lawful neutral"
 ac = "37/35/26"
@@ -41,8 +41,6 @@ adorned with metal rings._
 
 **Size:** medium
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +30
@@ -50,7 +48,7 @@ adorned with metal rings._
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 294, Pathfinder \#53: Tide of Honor pg 86\
-**Subtype:** Extraplanar, Lawful
+**Subtype:** Extraplanar, Herald, Lawful
 
 **Experience points:** 51,200
 

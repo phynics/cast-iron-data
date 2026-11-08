@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "5"
 creature_type = "humanoid"
+subtypes = ["strix"]
 size = "medium"
 alignment = "neutral"
 ac = "19/12/17"
@@ -42,13 +43,12 @@ stark-white bones commonly worn by his people._
 
 **Alignment:** Neutral
 
-**othersubs:** Strix
-
 **Perception:** +9 (+11 in dim light or darkness)
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 55\
+**Subtype:** Strix\
 **Experience points:** 1,600
 
 **Armor class:** 19/12/17

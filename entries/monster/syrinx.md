@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "1/3"
 creature_type = "humanoid"
+subtypes = ["syrinx"]
 size = "medium"
 alignment = "lawful evil"
 ac = "9/9/9"
@@ -39,13 +40,12 @@ detachment of the owl it resembles._
 
 **Size:** medium
 
-**othersubs:** Syrinx
-
 **Perception:** +3 (+5 at night)
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Bestiary pg 51\
+**Subtype:** Syrinx\
 **Experience points:** 135
 
 **Armor class:** 9/9/9

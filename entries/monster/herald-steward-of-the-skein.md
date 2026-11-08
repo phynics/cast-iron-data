@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["extraplanar", "psychopomp", "shapechanger"]
+subtypes = ["extraplanar", "herald", "psychopomp", "shapechanger"]
 size = "medium"
 alignment = "neutral"
 ac = "31/23/27"
@@ -42,8 +42,6 @@ glowing eyes._
 
 **Alignment:** Neutral
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +27
@@ -51,7 +49,7 @@ glowing eyes._
 **Senses:** Darkvision 60 ft., Detect chaos/evil/good/law, Spiritsense
 
 **Sources:** Inner Sea Gods pg 302, Pathfinder \#44: Trial of the Beast pg 90\
-**Subtype:** Extraplanar, Psychopomp, Shapechanger
+**Subtype:** Extraplanar, Herald, Psychopomp, Shapechanger
 
 **Experience points:** 51,200
 

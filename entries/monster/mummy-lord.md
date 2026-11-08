@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "10"
 creature_type = "undead"
+subtypes = ["augmented human"]
 size = "medium"
 alignment = "lawful evil"
 ac = "24/14/21"
@@ -33,8 +34,6 @@ unholy light._
 
 **Male human mummy lord [cleric](ref/class/cleric) 9**
 
-**augment:** Humanoid
-
 **aura:** great despair (30 ft., DC 19)
 
 **Initiative:** +2
@@ -48,6 +47,7 @@ unholy light._
 **Senses:** Darkvision 60 ft.
 
 **Sources:** Bestiary 5 pg 176, Pathfinder \#84: Pyramid of the Sky Pharaoh pg 84\
+**Subtype:** Augmented human\
 **Type:** undead
 
 **Experience points:** 9,600

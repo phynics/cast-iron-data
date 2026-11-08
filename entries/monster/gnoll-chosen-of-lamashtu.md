@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "12"
 creature_type = "humanoid"
+subtypes = ["gnoll"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "22/10/22"
@@ -38,13 +39,12 @@ abilities = ["18", "8", "14", "8", "16", "14"]
 
 **Size:** medium
 
-**othersubs:** Gnoll
-
 **Perception:** +8
 
 **Senses:** Darkvision 60 ft.
 
 **Sources:** Monster Codex pg 98\
+**Subtype:** Gnoll\
 **Experience points:** 19,200
 
 **Armor class:** 22/10/22

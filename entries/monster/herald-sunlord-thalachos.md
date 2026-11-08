@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["angel", "extraplanar", "good", "shapechanger"]
+subtypes = ["angel", "extraplanar", "good", "herald", "shapechanger"]
 size = "large"
 alignment = "neutral good"
 ac = "29/13/25"
@@ -41,8 +41,6 @@ flaming scimitars and a bow._
 
 **Alignment:** Neutral good
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +24
@@ -50,7 +48,7 @@ flaming scimitars and a bow._
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 306, Pathfinder \#20: House of the Beast pg 86\
-**Subtype:** Angel, Extraplanar, Good, Shapechanger
+**Subtype:** Angel, Extraplanar, Good, Herald, Shapechanger
 
 **Experience points:** 51,200
 

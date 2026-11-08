@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "1/2"
 creature_type = "humanoid"
+subtypes = ["tengu"]
 size = "medium"
 alignment = "neutral"
 ac = "15/13/12"
@@ -40,13 +41,12 @@ _Black feathers cover this crow-headed humanoid, and its hands and legs end in p
 
 **Alignment:** Neutral
 
-**othersubs:** Tengu
-
 **Perception:** +8
 
 **Senses:** Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 263\
+**Subtype:** Tengu\
 **Experience points:** 200
 
 **Armor class:** 15/13/12

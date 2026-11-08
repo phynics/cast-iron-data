@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "8"
 creature_type = "humanoid"
+subtypes = ["boggard"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "20/10/20"
@@ -41,13 +42,12 @@ abilities = ["20", "11", "16", "8", "9", "14"]
 
 **Size:** medium
 
-**othersubs:** Boggard
-
 **Perception:** +3
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Monster Codex pg 11\
+**Subtype:** Boggard\
 **Experience points:** 4,800
 
 **Armor class:** 20/10/20

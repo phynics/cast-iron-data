@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "3"
 creature_type = "outsider"
+subtypes = ["varies"]
 size = "small"
 alignment = "neutral"
 ac = "17/14/14"
@@ -32,8 +33,6 @@ _This small humanoid creature has thin, leathery wings, small horns, and a misch
 
 **Alignment:** Neutral
 
-**othersubs:** Varies
-
 **Type:** outsider
 
 **Perception:** +6
@@ -43,6 +42,7 @@ _This small humanoid creature has thin, leathery wings, small horns, and a misch
 **Size:** small
 
 **Sources:** Pathfinder RPG Bestiary pg 202\
+**Subtype:** Varies\
 **Experience points:** 800
 
 **Armor class:** 17/14/14

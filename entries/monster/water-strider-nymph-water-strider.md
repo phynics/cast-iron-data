@@ -39,10 +39,9 @@ _These small, immature water insects are easily supported by the water's surface
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 273\
-**tremorParens:** see [giant water strider](ref/monster/water-strider-giant-water-strider)
+**Sources:** Bestiary 4 pg 273
 
-**tremorsense:** 60
+**tremorsense:** 60 ft. (see [giant water strider](ref/monster/water-strider-giant-water-strider))
 
 **Type:** vermin
 

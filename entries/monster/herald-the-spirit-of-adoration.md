@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["extraplanar", "good", "shapechanger"]
+subtypes = ["extraplanar", "good", "herald", "shapechanger"]
 size = "large"
 alignment = "neutral good"
 ac = "30/20/25"
@@ -41,8 +41,6 @@ trails brilliant colors._
 
 **Alignment:** Neutral good
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +31
@@ -50,7 +48,7 @@ trails brilliant colors._
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 308\
-**Subtype:** Extraplanar, Good, Shapechanger
+**Subtype:** Extraplanar, Good, Herald, Shapechanger
 
 **Experience points:** 51,200
 

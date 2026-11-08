@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "construct"
-subtypes = ["extraplanar"]
+subtypes = ["automaton", "extraplanar"]
 size = "medium"
 alignment = "lawful neutral"
 ac = "29/14/25"
@@ -41,14 +41,12 @@ apparent mechanism._
 
 **Size:** medium
 
-**othersubs:** Automaton
-
 **Perception:** +27
 
 **Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
 **Sources:** Construct Handbook pg 28\
-**Subtype:** Extraplanar
+**Subtype:** Automaton, Extraplanar
 
 **Experience points:** 51,200
 

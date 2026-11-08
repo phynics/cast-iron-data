@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "1/2"
 creature_type = "humanoid"
+subtypes = ["dhampir"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "17/13/14"
@@ -39,13 +40,12 @@ blade he effortlessly wields._
 
 **Size:** medium
 
-**othersubs:** Dhampir
-
 **Perception:** +1
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Bestiary 2 pg 89\
+**Subtype:** Dhampir\
 **Experience points:** 200
 
 **Armor class:** 17/13/14

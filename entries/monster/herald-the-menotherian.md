@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["chaotic", "extraplanar", "shapechanger"]
+subtypes = ["chaotic", "extraplanar", "herald", "shapechanger"]
 size = "large"
 alignment = "chaotic neutral"
 ac = "31/14/26"
@@ -40,8 +40,6 @@ stingers the length of a human arm._
 
 **Size:** large
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +22
@@ -49,7 +47,7 @@ stingers the length of a human arm._
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
 **Sources:** Inner Sea Gods pg 280\
-**Subtype:** Chaotic, Extraplanar, Shapechanger
+**Subtype:** Chaotic, Extraplanar, Herald, Shapechanger
 
 **Experience points:** 51,200
 

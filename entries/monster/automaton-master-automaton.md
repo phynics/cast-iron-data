@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "20"
 creature_type = "construct"
-subtypes = ["extraplanar"]
+subtypes = ["automaton", "extraplanar"]
 size = "huge"
 alignment = "lawful neutral"
 ac = "38/20/34"
@@ -39,14 +39,12 @@ in its head glows with light._
 
 **Alignment:** Lawful neutral
 
-**othersubs:** Automaton
-
 **Perception:** +34
 
 **Senses:** Automaton sense, Darkvision 60 ft., Low-light vision, True seeing
 
 **Sources:** Construct Handbook pg 26\
-**Subtype:** Extraplanar
+**Subtype:** Automaton, Extraplanar
 
 **Experience points:** 307,200
 

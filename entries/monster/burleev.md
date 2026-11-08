@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "4"
 creature_type = "outsider"
-subtypes = ["cold or fire, extraplanar"]
+subtypes = ["cold or fire", "extraplanar"]
 size = "medium"
 alignment = "neutral"
 ac = "16/10/16"
@@ -43,7 +43,7 @@ replaces its missing flesh._
 **Senses:** Darkvision 60 ft., Detect magic
 
 **Sources:** Inner Sea Gods pg 299\
-**subtypes:** [cold](ref/subtype/cold) or [fire](ref/subtype/fire),
+**Subtype:** [cold](ref/subtype/cold) or [fire](ref/subtype/fire),
 [extraplanar](ref/subtype/extraplanar)
 
 **Experience points:** 1,200

@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "2"
 creature_type = "humanoid"
+subtypes = ["boggard"]
 size = "medium"
 alignment = "chaotic evil"
 ac = "14/9/14"
@@ -39,13 +40,12 @@ decorate its greenish skin._
 
 **Size:** medium
 
-**othersubs:** Boggard
-
 **Perception:** +4
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Pathfinder RPG Bestiary pg 37, Pathfinder \#2: The Skinsaw Murders pg 84\
+**Subtype:** Boggard\
 **Experience points:** 600
 
 **Armor class:** 14/9/14

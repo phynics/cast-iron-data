@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "3"
 creature_type = "humanoid"
+subtypes = ["strix"]
 size = "medium"
 alignment = "neutral"
 ac = "17/13/14"
@@ -41,13 +42,12 @@ _Seemingly human at first glance, this feathered woman conceals wings beneath a 
 
 **Alignment:** Neutral
 
-**othersubs:** Strix
-
 **Perception:** +6 (+8 in dim light or darkness)
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Monster Codex pg 54\
+**Subtype:** Strix\
 **Experience points:** 800
 
 **Armor class:** 17/13/14

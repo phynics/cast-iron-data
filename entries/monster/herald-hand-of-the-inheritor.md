@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["angel", "extraplanar", "good", "lawful"]
+subtypes = ["angel", "extraplanar", "good", "herald", "lawful"]
 size = "large"
 alignment = "lawful good"
 ac = "32/14/27"
@@ -39,8 +39,6 @@ radiant shield._
 
 **Alignment:** Lawful good
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +28
@@ -48,7 +46,7 @@ radiant shield._
 **Senses:** Darkvision 60 ft., Low-light vision
 
 **Sources:** Inner Sea Gods pg 292, Pathfinder \#26: The Sixfold Trial pg 86\
-**Subtype:** Angel, Extraplanar, Good, Lawful
+**Subtype:** Angel, Extraplanar, Good, Herald, Lawful
 
 **Experience points:** 51,200
 

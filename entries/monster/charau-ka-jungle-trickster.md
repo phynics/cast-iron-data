@@ -11,6 +11,7 @@ provenance = [
 kind = "creature"
 cr = "8"
 creature_type = "humanoid"
+subtypes = ["charau-ka"]
 size = "small"
 alignment = "chaotic evil"
 ac = "22/13/20"
@@ -39,8 +40,6 @@ _This lean ape-person is bedecked with a rattling collection of whistles, drums,
 
 **Initiative:** +2
 
-**othersubs:** Charau-ka
-
 **Perception:** +10
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
@@ -48,6 +47,7 @@ _This lean ape-person is bedecked with a rattling collection of whistles, drums,
 **Size:** small
 
 **Sources:** Inner Sea Monster Codex pg 15\
+**Subtype:** Charau-ka\
 **Experience points:** 4,800
 
 **Armor class:** 22/13/20

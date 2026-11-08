@@ -48,9 +48,7 @@ body._
 **Sources:** Bestiary 4 pg 208\
 **Subtype:** Water
 
-**tremorParens:** in water only
-
-**tremorsense:** 30
+**tremorsense:** 30 ft. (in water only)
 
 **Experience points:** 3,200
 

@@ -11,7 +11,7 @@ provenance = [
 kind = "creature"
 cr = "15"
 creature_type = "outsider"
-subtypes = ["air", "elemental", "extraplanar", "water"]
+subtypes = ["air", "elemental", "extraplanar", "herald", "water"]
 size = "huge"
 alignment = "neutral"
 ac = "30/21/17"
@@ -38,8 +38,6 @@ _Jagged bolts of lightning crackle within this massive and vaguely humanoid stor
 
 **Alignment:** Neutral
 
-**othersubs:** Herald
-
 **Type:** outsider
 
 **Perception:** +22
@@ -47,7 +45,7 @@ _Jagged bolts of lightning crackle within this massive and vaguely humanoid stor
 **Senses:** Darkvision 60 ft.
 
 **Sources:** Inner Sea Gods pg 290, Pathfinder \#38: Racing to Ruin pg 88\
-**Subtype:** Air, Elemental, Extraplanar, Water
+**Subtype:** Air, Elemental, Extraplanar, Herald, Water
 
 **Experience points:** 51,200
 
