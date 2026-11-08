@@ -2,7 +2,7 @@
 id = "ref/eq-weapon/elven-curve-blade"
 kind = "item"
 title = "Elven curve blade"
-source_ids = ["ultimate-equipment", "pathfinder-campaign-setting", "core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["ultimate-equipment", "pathfinder-campaign-setting", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_curve_blade", path = "json/equipment_weapons2.json" },
 ]
@@ -27,10 +27,3 @@ even though it isn't a light weapon.
 **Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special** -\
 **Category** Two-Handed; **Proficiency** Exotic\
 **[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-The Elven curved blade has the [_agile_ weapon quality](ref/rule/equipment-errata).
-
-You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when
-wielding an agile weapon sized for you, even though it isn't a [finesse](ref/rule/equipment-errata)
-weapon.

@@ -2,7 +2,7 @@
 id = "ref/class/unchained-monk"
 kind = "class"
 title = "Unchained Monk"
-source_ids = ["pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "advanced-players-guide", "chronicle-of-legends", "blood-of-the-beast"]
+source_ids = ["pathfinder-unchained", "advanced-players-guide", "chronicle-of-legends", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unchained_monk", path = "json/classes3.json" },
 ]
@@ -125,18 +125,6 @@ not have any of the prerequisites normally required for these feats to select th
 
 **Repeat:** You gain another bonus feat from the list., 2, 4
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-At 1st level, 2nd level, and every 4 levels thereafter, a monk can select a bonus feat. These feats
-must be taken from the following list: [Catch Off-Guard](ref/feat/catch-off-guard),
-[Combat Reflexes](ref/feat/combat-reflexes), [Deflect Arrows](ref/feat/deflect-arrows),
-[Dodge](ref/feat/dodge), and [Scorpion Stance](ref/rule/scorpion-stance). At 6th level, the
-following feats are added to the list: [Deft Maneuvers](ref/rule/deft-maneuvers),
-[Gorgon's Fist](ref/feat/gorgons-fist), [Greater Grapple](ref/feat/greater-grapple), and
-[Powerful Maneuvers](ref/rule/powerful-maneuvers). At 10th level, the following feats are added to
-the list: [Improved Critical](ref/feat/improved-critical), [Medusa's Wrath](ref/feat/medusas-wrath),
-[Snatch Arrows](ref/feat/snatch-arrows), and [Spring Attack](ref/feat/spring-attack). A monk need
-not have any of the prerequisites normally required for these feats to select them.
-
 **Flurry of Blows (Ex)**
 
 **Fullround:** You can make a flurry of blows as a full-attack action. When doing this, you can make
@@ -209,10 +197,6 @@ You can make this choice while grappling as well.
 
 You also deal more damage with your unarmed strikes than a normal person would. The unarmed damage
 values listed on the table above are for Medium monks only.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Instead of Improved Unarmed Strike, monks gain [Unarmed Combatant](ref/rule/unarmed-combatant) as a
-bonus feat.
 
 **Evasion (Ex)**
 
