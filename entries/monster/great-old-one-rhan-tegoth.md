@@ -49,9 +49,7 @@ bulbous eyes glare._
 **Sources:** Bestiary 6 pg 146\
 **Subtype:** Aquatic, Chaotic, Evil, Great Old One
 
-**tremorParens:** 640 ft. when in statue form
-
-**tremorsense:** 120
+**tremorsense:** 120 ft. (640 ft. when in statue form)
 
 **Experience points:** 4,915,200
 
