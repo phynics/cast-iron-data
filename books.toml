@@ -40875,6 +40875,14 @@ title = "Lightning Arc, Mythic"
 entry = "ref/spell/lightning-arc/mythic"
 
 [[books.chapters.children]]
+title = "Greater Magic Fang, Mythic"
+entry = "ref/spell/magic-fang-greater/mythic"
+
+[[books.chapters.children]]
+title = "Greater Magic Weapon, Mythic"
+entry = "ref/spell/magic-weapon-greater/mythic"
+
+[[books.chapters.children]]
 title = "Lightning Bolt, Mythic"
 entry = "ref/spell/lightning-bolt/mythic"
 
