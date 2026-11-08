@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Bravery", "fighter bonus feat gained at 2nd level", "Armor training", "armor mastery"]
+replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Bravery and the fighter bonus feat gained at 2nd level", "Armor training", "armor mastery"]
 +++
 
 **Sources:** Adventurer's Guide pg 144\
@@ -44,7 +44,7 @@ includes Combat Expertise as a prerequisite (and for which she otherwise qualifi
 **Passive:** A lore warden qualifies for feats and other abilities as though she had the
 [Combat Expertise](ref/feat/combat-expertise) feat.
 
-**Replaces:** Bravery, fighter bonus feat gained at 2nd level
+**Replaces:** Bravery and the fighter bonus feat gained at 2nd level
 
 **Swords Secret (Ex)**
 
