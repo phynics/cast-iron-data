@@ -2,7 +2,7 @@
 source = "advanced-players-guide"
 title = "Advanced Player's Guide"
 basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of the Advanced Player's Guide. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The dataset splits the printed Classes chapter into Base Classes and Core Classes.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+review = ["Base Classes and Core Classes are dataset splits kept as sub-groups inside the printed Classes chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Races"
@@ -280,433 +280,436 @@ title = "Heart of the Wilderness"
 entry = "ref/carried/advanced-players-guide/rules/races/humans/alternate-racial-traits/heart-of-the-wilderness"
 
 [[books.chapters]]
-title = "Base Classes"
+title = "Classes"
 
 [[books.chapters.children]]
+title = "Base Classes"
+
+[[books.chapters.children.children]]
 title = "Base Classes"
 entry = "ref/rule/base-classes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Alchemist"
 entry = "ref/class/alchemist"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Cavalier"
 entry = "ref/class/cavalier"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Inquisitor"
 entry = "ref/class/inquisitor"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Oracle"
 entry = "ref/class/oracle"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Summoner"
 entry = "ref/class/summoner"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Witch"
 entry = "ref/class/witch"
 
-[[books.chapters]]
+[[books.chapters.children]]
 title = "Core Classes"
 entry = "ref/carried/advanced-players-guide/rules/core-classes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Core Classes"
 entry = "ref/carried/advanced-players-guide/rules/core-classes/core-classes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Barbarian"
 entry = "ref/rule/class-barbarian/barbarian"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Barbarian Archetypes"
 anchor = "barbarian-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Breaker"
 entry = "ref/arc-barbarian/breaker"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Brutal Pugilist"
 entry = "ref/arc-barbarian/brutal-pugilist"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Drunken Brute"
 entry = "ref/arc-barbarian/drunken-brute"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Elemental Kin"
 entry = "ref/arc-barbarian/elemental-kin"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Hurler"
 entry = "ref/arc-barbarian/hurler"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Invulnerable Rager"
 entry = "ref/arc-barbarian/invulnerable-rager"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Mounted Fury"
 entry = "ref/arc-barbarian/mounted-fury"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Savage Barbarian"
 entry = "ref/arc-barbarian/savage-barbarian"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Superstitious"
 entry = "ref/arc-barbarian/superstitious"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Totem Warrior"
 entry = "ref/carried/advanced-players-guide/rules/core-classes/barbarian/barbarian-archetypes/totem-warrior"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Bard"
 entry = "ref/rule/class-bard/bard"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Bard Archetypes"
 anchor = "bard-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Arcane Duelist"
 entry = "ref/arc-bard/arcane-duelist"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Archivist"
 entry = "ref/arc-bard/archivist"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Court Bard"
 entry = "ref/arc-bard/court-bard"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Detective"
 entry = "ref/arc-bard/detective"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Magician"
 entry = "ref/arc-bard/magician"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sandman"
 entry = "ref/arc-bard/sandman"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Savage Skald"
 entry = "ref/arc-bard/savage-skald"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sea Singer"
 entry = "ref/arc-bard/sea-singer"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Street Performer"
 entry = "ref/arc-bard/street-performer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Cleric"
 entry = "ref/rule/class-cleric/cleric"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Druid"
 entry = "ref/rule/class-druid/druid"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Druid Archetypes"
 anchor = "druid-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Aquatic Druid"
 entry = "ref/arc-druid/aquatic-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Arctic Druid"
 entry = "ref/arc-druid/arctic-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Blight Druid"
 entry = "ref/arc-druid/blight-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Cave Druid"
 entry = "ref/arc-druid/cave-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Desert Druid"
 entry = "ref/arc-druid/desert-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Jungle Druid"
 entry = "ref/arc-druid/jungle-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Mountain Druid"
 entry = "ref/arc-druid/mountain-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Plains Druid"
 entry = "ref/arc-druid/plains-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Swamp Druid"
 entry = "ref/arc-druid/swamp-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Urban Druid"
 entry = "ref/arc-druid/urban-druid"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Animal Shamans"
 entry = "ref/carried/advanced-players-guide/rules/core-classes/druid/druid-archetypes/animal-shamans"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Fighter"
 entry = "ref/rule/class-fighter/fighter"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Fighter Archetypes"
 anchor = "fighter-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Archer"
 entry = "ref/arc-fighter/archer"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Crossbowman"
 entry = "ref/arc-fighter/crossbowman"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Free Hand Fighter"
 entry = "ref/arc-fighter/free-hand-fighter"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Mobile Fighter"
 entry = "ref/arc-fighter/mobile-fighter"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Phalanx Soldier"
 entry = "ref/arc-fighter/phalanx-soldier"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Polearm Master"
 entry = "ref/arc-fighter/polearm-master"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Roughrider"
 entry = "ref/arc-fighter/roughrider"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Savage Warrior"
 entry = "ref/arc-fighter/savage-warrior"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Shielded Fighter"
 entry = "ref/arc-fighter/shielded-fighter"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Two-Handed Fighter"
 entry = "ref/arc-fighter/two-handed-fighter"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Two-Weapon Warrior"
 entry = "ref/arc-fighter/two-weapon-warrior"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Weapon Master"
 entry = "ref/arc-fighter/weapon-master"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Monk"
 entry = "ref/rule/class-monk/monk"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Monk Archetypes"
 anchor = "monk-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Drunken Master"
 entry = "ref/arc-monk/drunken-master"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Hungry Ghost Monk"
 entry = "ref/arc-monk/hungry-ghost-monk"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Ki Mystic"
 entry = "ref/arc-monk/ki-mystic"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Monk of the Empty Hand"
 entry = "ref/arc-monk/monk-of-the-empty-hand"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Monk of the Four Winds"
 entry = "ref/arc-monk/monk-of-the-four-winds"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Monk of the Healing Hand"
 entry = "ref/arc-monk/monk-of-the-healing-hand"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Monk of the Lotus"
 entry = "ref/arc-monk/monk-of-the-lotus"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Monk of the Sacred Mountain"
 entry = "ref/arc-monk/monk-of-the-sacred-mountain"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Weapon Adept"
 entry = "ref/arc-monk/weapon-adept"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Zen Archer"
 entry = "ref/arc-monk/zen-archer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Paladin"
 entry = "ref/rule/class-paladin/paladin"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Paladin Archetypes"
 anchor = "paladin-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Divine Defender"
 entry = "ref/arc-paladin/divine-defender"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Hospitaler"
 entry = "ref/arc-paladin/hospitaler"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sacred Servant"
 entry = "ref/arc-paladin/sacred-servant"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Shining Knight"
 entry = "ref/arc-paladin/shining-knight"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Undead Scourge"
 entry = "ref/arc-paladin/undead-scourge"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Warrior of the Holy Light"
 entry = "ref/arc-paladin/warrior-of-the-holy-light"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Antipaladin"
 entry = "ref/class/antipaladin"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Ranger"
 entry = "ref/rule/class-ranger/ranger"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Ranger Archetypes"
 anchor = "ranger-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Beast Master"
 entry = "ref/arc-ranger/beast-master"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Guide"
 entry = "ref/arc-ranger/guide"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Horse Lord"
 entry = "ref/arc-ranger/horse-lord"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Infiltrator"
 entry = "ref/arc-ranger/infiltrator"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Shapeshifter"
 entry = "ref/arc-ranger/shapeshifter"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Skirmisher"
 entry = "ref/arc-ranger/skirmisher"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Spirit Ranger"
 entry = "ref/arc-ranger/spirit-ranger"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Urban Ranger"
 entry = "ref/arc-ranger/urban-ranger"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Rogue"
 entry = "ref/rule/class-rogue/rogue"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Rogue Archetypes"
 anchor = "rogue-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Acrobat"
 entry = "ref/arc-rogue/acrobat"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Burglar"
 entry = "ref/arc-rogue/burglar"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Cutpurse"
 entry = "ref/arc-rogue/cutpurse"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Investigator"
 entry = "ref/arc-rogue/investigator"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Poisoner"
 entry = "ref/arc-rogue/poisoner"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Rake"
 entry = "ref/arc-rogue/rake"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Scout"
 entry = "ref/arc-rogue/scout"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sniper"
 entry = "ref/arc-rogue/sniper"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Spy"
 entry = "ref/arc-rogue/spy"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Swashbuckler"
 entry = "ref/arc-rogue/swashbuckler"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Thug"
 entry = "ref/arc-rogue/thug"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Trapsmith"
 entry = "ref/arc-rogue/trapsmith"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sorcerer"
 entry = "ref/rule/class-sorcerer/sorcerer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Wizard"
 entry = "ref/rule/class-wizard/wizard"
 
@@ -6491,7 +6494,7 @@ entry = "ref/trait/mathematical-prodigy"
 source = "advanced-race-guide"
 title = "Advanced Race Guide"
 basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of the Advanced Race Guide. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The dataset combines the printed Appendix 1: Age and Appendix 2: Height and Weight into one chapter, and has no chapter for Appendix 3: Spells.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+review = ["Appendix 1 Age and Appendix 2 Height and Weight are separate top-level appendices, split from the dataset's combined chapter. The dataset has no chapter for Appendix 3: Spells.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Core Races"
@@ -10318,15 +10321,15 @@ title = "Example Races"
 entry = "ref/carried/advanced-race-guide/rules/race-builder/example-races"
 
 [[books.chapters]]
-title = "Age, Height & Weight"
+title = "Age"
 entry = "ref/carried/advanced-race-guide/rules/age/height-and-weight"
 
 [[books.chapters.children]]
 title = "Age"
 entry = "ref/carried/advanced-race-guide/rules/age/height-and-weight/age"
 
-[[books.chapters.children]]
-title = "Appendix 2: Height and Weight"
+[[books.chapters]]
+title = "Height and Weight"
 entry = "ref/carried/advanced-race-guide/rules/age/height-and-weight/appendix-2-height-and-weight"
 
 [[books.chapters]]
@@ -11749,7 +11752,7 @@ entry = "ref/talent/vicious-claws"
 source = "bestiary"
 title = "Bestiary"
 basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of the Bestiary, and the appendix chapters are reordered to match its appendix sequence where they map to a printed appendix. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The dataset has no chapter for printed Appendix 3: Glossary, Appendix 7: Animal Companions, or Appendices 9-12, and combines printed Appendices 4 and 6 in Miscellaneous Monster Rules.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+review = ["The dataset holds no entries for printed Appendix 3: Glossary, Appendix 7: Animal Companions, or Appendices 9-12. Appendices 4 and 6 are separate top-level appendices; Universal Monster Rules is a dataset appendix after Monsters A to Z.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Introduction"
@@ -11760,7 +11763,7 @@ title = "Introduction"
 entry = "ref/carried/bestiary/rules/introduction/introduction"
 
 [[books.chapters]]
-title = "Monsters"
+title = "Monsters A to Z"
 
 [[books.chapters.children]]
 title = "Aasimar"
@@ -14325,16 +14328,12 @@ title = "Adding Class Levels"
 entry = "ref/rule/adding-class-levels"
 
 [[books.chapters]]
-title = "Miscellaneous Monster Rules"
+title = "Monsters as PCs"
 entry = "ref/carried/bestiary/rules/misc-monster-rules"
 
 [[books.chapters.children]]
 title = "Monster As PCs"
 entry = "ref/carried/bestiary/rules/misc-monster-rules/monster-as-pcs"
-
-[[books.chapters.children]]
-title = "Monster Cohorts"
-entry = "ref/carried/bestiary/rules/misc-monster-rules/monster-cohorts"
 
 [[books.chapters]]
 title = "Monster Feats"
@@ -14392,7 +14391,11 @@ title = "Wingover"
 entry = "ref/feat/wingover"
 
 [[books.chapters]]
-title = "Creature Types"
+title = "Monster Cohorts"
+entry = "ref/carried/bestiary/rules/misc-monster-rules/monster-cohorts"
+
+[[books.chapters]]
+title = "Monsters by Type"
 entry = "ref/carried/bestiary/rules/creature-types"
 
 [[books.chapters.children]]
@@ -15070,7 +15073,7 @@ basis = "The main chapter titles, their order, and their first pages are checked
 review = ["Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
-title = "Monsters"
+title = "Monsters A to Z"
 
 [[books.chapters.children]]
 title = "Achaierai"
@@ -17519,7 +17522,7 @@ basis = "The main chapter titles, their order, and their first pages are checked
 review = ["Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
-title = "Monsters"
+title = "Monsters A to Z"
 
 [[books.chapters.children]]
 title = "Adaro"
@@ -19792,7 +19795,7 @@ basis = "The main chapter titles, their order, and their first pages are checked
 review = ["Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
-title = "Monsters"
+title = "Monsters A to Z"
 
 [[books.chapters.children]]
 title = "Abaia"
@@ -21573,7 +21576,7 @@ entry = "ref/subtype/wayang"
 [[books]]
 source = "core-rulebook"
 title = "Core Rulebook"
-basis = "The first 15 chapter titles, their order, and their first pages are checked against the printed contents page of the Core Rulebook; its appendices are Special Abilities, Conditions, Inspiring Reading, and Game Aids. Nested record placement and the upstream Glossary aggregate are not a faithful reconstruction of all printed sections. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
+basis = "The 15 chapter titles, their order, and their first pages are checked against the printed contents page of the Core Rulebook. Its appendices are Special Abilities, Conditions, Inspiring Reading, and Game Aids; the first two are top-level groups and the last two have no corpus entries. The dataset's Glossary aggregate opens Special Abilities. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
 review = ["The dataset merges the printed chapters Gamemastering and Creating NPCs into one tree. The NPC classes are placed in a separate Creating NPCs chapter; the Gamemastering tree also holds a section of that name.", "The Classes tree holds an introduction to prestige classes that the printed book puts in the Prestige Classes chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
@@ -28182,9 +28185,8 @@ title = "Magic Item Creation"
 entry = "ref/rule/magic-item-creation"
 
 [[books.chapters]]
-title = "Glossary"
+title = "Special Abilities"
 entry = "ref/carried/core-rulebook/rules/glossary"
-review = "Upstream aggregate. The printed contents has separate appendices for Special Abilities, Conditions, Inspiring Reading, and Game Aids, rather than one Glossary chapter."
 
 [[books.chapters.children]]
 title = "Special Abilities"
@@ -28410,7 +28412,7 @@ entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wolfs
 title = "Wyvern Poison"
 entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wyvern-poison"
 
-[[books.chapters.children]]
+[[books.chapters]]
 title = "Conditions"
 entry = "ref/rule/conditions"
 
@@ -47556,8 +47558,8 @@ entry = "ref/rule/gm-specific-campaigns"
 [[books]]
 source = "ultimate-campaign"
 title = "Ultimate Campaign"
-basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of Ultimate Campaign. The dataset splits the printed Character Background chapter into Character Background and Story Feats. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The dataset splits the printed Character Background chapter into Character Background and Story Feats.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of Ultimate Campaign. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
+review = ["Story Feats is a dataset split kept as a sub-group inside the printed Character Background chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Character Background"
@@ -48519,118 +48521,118 @@ entry = "ref/trait/xenophobic"
 title = "Zealous"
 entry = "ref/trait/zealous-drawback"
 
-[[books.chapters]]
+[[books.chapters.children]]
 title = "Story Feats"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Accursed"
 entry = "ref/feat/accursed"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Arisen"
 entry = "ref/feat/arisen"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Battlefield Healer"
 entry = "ref/feat/battlefield-healer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Champion"
 entry = "ref/feat/champion"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Damned"
 entry = "ref/feat/damned"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Deny the Reaper"
 entry = "ref/feat/deny-the-reaper"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Eldritch Researcher"
 entry = "ref/feat/eldritch-researcher"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Fearless Zeal"
 entry = "ref/feat/fearless-zeal"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Feral Heart"
 entry = "ref/feat/feral-heart"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Foeslayer"
 entry = "ref/feat/foeslayer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Forgotten Past"
 entry = "ref/feat/forgotten-past"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Glimpse Beyond"
 entry = "ref/feat/glimpse-beyond"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Innocent Blood"
 entry = "ref/feat/innocent-blood"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Liberator"
 entry = "ref/feat/liberator"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Lost Legacy"
 entry = "ref/feat/lost-legacy"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Magnum Opus"
 entry = "ref/feat/magnum-opus"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Monument Builder"
 entry = "ref/feat/monument-builder"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Nation Builder"
 entry = "ref/feat/nation-builder"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Nemesis"
 entry = "ref/feat/nemesis"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Prophet"
 entry = "ref/feat/prophet"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Redemption"
 entry = "ref/feat/redemption"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Shamed"
 entry = "ref/feat/shamed"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Stronghold"
 entry = "ref/feat/stronghold"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Thief of Legend"
 entry = "ref/feat/thief-of-legend"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Town Tamer"
 entry = "ref/feat/town-tamer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "True Love"
 entry = "ref/feat/true-love"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Unforgotten"
 entry = "ref/feat/unforgotten"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Vengeance"
 entry = "ref/feat/vengeance"
 
@@ -50880,7 +50882,7 @@ entry = "ref/trait/wrecking-wrath"
 source = "ultimate-combat"
 title = "Ultimate Combat"
 basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of Ultimate Combat. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The dataset splits the printed Classes chapter into Classes and Class Archetypes.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+review = ["Class Archetypes is a dataset split kept as a sub-group inside the printed Classes chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Classes"
@@ -50897,451 +50899,451 @@ entry = "ref/class/samurai"
 title = "Gunslinger"
 entry = "ref/class/gunslinger"
 
-[[books.chapters]]
+[[books.chapters.children]]
 title = "Class Archetypes"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Class Archetypes"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/class-archetypes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Alchemist"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/alchemist"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Alchemist Archetypes"
 anchor = "alchemist-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Beastmorph"
 entry = "ref/arc-alchemist/beastmorph"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Ragechemist"
 entry = "ref/arc-alchemist/ragechemist"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Barbarian"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/barbarian"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Barbarian Archetypes"
 anchor = "barbarian-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Armored Hulk"
 entry = "ref/arc-barbarian/armored-hulk"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Scarred Rager"
 entry = "ref/arc-barbarian/scarred-rager"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sea Reaver"
 entry = "ref/arc-barbarian/sea-reaver"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Titan Mauler"
 entry = "ref/arc-barbarian/titan-mauler"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "True Primitive"
 entry = "ref/arc-barbarian/true-primitive"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Urban Barbarian"
 entry = "ref/arc-barbarian/urban-barbarian"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Wild Rager"
 entry = "ref/arc-barbarian/wild-rager"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Bard"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/bard"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Bard Archetypes"
 anchor = "bard-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Archaeologist"
 entry = "ref/arc-bard/archaeologist"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Daredevil"
 entry = "ref/arc-bard/daredevil"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Dervish Dancer"
 entry = "ref/arc-bard/dervish-dancer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Cavalier"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/cavalier"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Cavalier Archetypes"
 anchor = "cavalier-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Beast Rider"
 entry = "ref/arc-cavalier/beast-rider"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Emissary"
 entry = "ref/arc-cavalier/emissary"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Gendarme"
 entry = "ref/arc-cavalier/gendarme"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Honor Guard"
 entry = "ref/arc-cavalier/honor-guard"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Luring Cavalier"
 entry = "ref/arc-cavalier/luring-cavalier"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Musketeer"
 entry = "ref/arc-cavalier/musketeer"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Standard Bearer"
 entry = "ref/arc-cavalier/standard-bearer"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Strategist"
 entry = "ref/arc-cavalier/strategist"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Cleric"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/cleric"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Cleric Archetypes"
 anchor = "cleric-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Crusader"
 entry = "ref/arc-cleric/crusader"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Divine Strategist"
 entry = "ref/arc-cleric/divine-strategist"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Evangelist"
 entry = "ref/arc-cleric/evangelist"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Merciful Healer"
 entry = "ref/arc-cleric/merciful-healer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Druid"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/druid"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Druid Archetypes"
 anchor = "druid-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Ape Shaman"
 entry = "ref/arc-druid/ape-shaman"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Bat Shaman"
 entry = "ref/arc-druid/bat-shaman"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Boar Shaman"
 entry = "ref/arc-druid/boar-shaman"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "World Walker"
 entry = "ref/arc-druid/world-walker"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Fighter"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/fighter"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Fighter Archetypes"
 anchor = "fighter-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Armor Master"
 entry = "ref/arc-fighter/armor-master"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Brawler"
 entry = "ref/arc-fighter/brawler"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Cad"
 entry = "ref/arc-fighter/cad"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Dragoon"
 entry = "ref/arc-fighter/dragoon"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Gladiator"
 entry = "ref/arc-fighter/gladiator"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Tactician"
 entry = "ref/arc-fighter/tactician"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Thunderstriker"
 entry = "ref/arc-fighter/thunderstriker"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Tower Shield Specialist"
 entry = "ref/arc-fighter/tower-shield-specialist"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Unarmed Fighter"
 entry = "ref/arc-fighter/unarmed-fighter"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Unbreakable"
 entry = "ref/arc-fighter/unbreakable"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Gunslinger"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/gunslinger"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Gunslinger Archetypes"
 anchor = "gunslinger-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Gun Tank"
 entry = "ref/arc-gunslinger/gun-tank"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Musket Master"
 entry = "ref/arc-gunslinger/musket-master"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Mysterious Stranger"
 entry = "ref/arc-gunslinger/mysterious-stranger"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Pistolero"
 entry = "ref/arc-gunslinger/pistolero"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Inquisitor"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/inquisitor"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Inquisitor Archetypes"
 anchor = "inquisitor-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Iconoclast"
 entry = "ref/arc-inquisitor/iconoclast"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Spellbreaker"
 entry = "ref/arc-inquisitor/spellbreaker"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Witch Hunter"
 entry = "ref/arc-inquisitor/witch-hunter"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Magus"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/magus"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Magus Archetypes"
 anchor = "magus-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Kensai"
 entry = "ref/arc-magus/kensai"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Myrmidarch"
 entry = "ref/arc-magus/myrmidarch"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Skirnir"
 entry = "ref/arc-magus/skirnir"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Soul Forger"
 entry = "ref/arc-magus/soul-forger"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Monk"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/monk"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Monk Archetypes"
 anchor = "monk-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Flowing Monk"
 entry = "ref/arc-monk/flowing-monk"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Maneuver Master"
 entry = "ref/arc-monk/maneuver-master"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Martial Artist"
 entry = "ref/arc-monk/martial-artist"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Master of Many Styles"
 entry = "ref/arc-monk/master-of-many-styles"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sensei"
 entry = "ref/arc-monk/sensei"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sohei"
 entry = "ref/arc-monk/sohei"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Tetori"
 entry = "ref/arc-monk/tetori"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Paladin"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/paladin"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Paladin Archetypes"
 anchor = "paladin-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Divine Hunter"
 entry = "ref/arc-paladin/divine-hunter"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Empyreal Knight"
 entry = "ref/arc-paladin/empyreal-knight"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Holy Gun"
 entry = "ref/arc-paladin/holy-gun"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Holy Tactician"
 entry = "ref/arc-paladin/holy-tactician"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Knight of the Sepulcher"
 entry = "ref/arc-antipaladin/knight-of-the-sepulcher"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sacred Shield"
 entry = "ref/arc-paladin/sacred-shield"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Ranger"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/ranger"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Ranger Archetypes"
 anchor = "ranger-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Battle Scout"
 entry = "ref/arc-ranger/battle-scout"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Deep Walker"
 entry = "ref/arc-ranger/deep-walker"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Falconer"
 entry = "ref/arc-ranger/falconer"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Trophy Hunter"
 entry = "ref/arc-ranger/trophy-hunter"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Warden"
 entry = "ref/arc-ranger/warden"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Wild stalker"
 entry = "ref/arc-ranger/wild-stalker"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Rogue"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/rogue"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Rogue Archetypes"
 anchor = "rogue-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Bandit"
 entry = "ref/arc-rogue/bandit"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Chameleon"
 entry = "ref/arc-rogue/chameleon"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Charlatan"
 entry = "ref/arc-rogue/charlatan"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Driver"
 entry = "ref/arc-rogue/driver"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Knife master"
 entry = "ref/arc-rogue/knife-master"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Pirate"
 entry = "ref/arc-rogue/pirate"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Roof Runner"
 entry = "ref/arc-rogue/roof-runner"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Sanctified Rogue"
 entry = "ref/arc-rogue/sanctified-rogue"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Survivalist"
 entry = "ref/arc-rogue/survivalist"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Wizard"
 entry = "ref/carried/ultimate-combat/rules/class-archetypes/wizard"
 
-[[books.chapters.children.children]]
+[[books.chapters.children.children.children]]
 title = "Wizard Archetypes"
 anchor = "wizard-archetypes"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Arcane Bomber"
 entry = "ref/arc-wizard/arcane-bomber"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Siege Mage"
 entry = "ref/arc-wizard/siege-mage"
 
-[[books.chapters.children.children.children]]
+[[books.chapters.children.children.children.children]]
 title = "Spellslinger"
 entry = "ref/arc-wizard/spellslinger"
 
@@ -67479,7 +67481,7 @@ entry = "ref/trait/savage-breaker"
 source = "ultimate-magic"
 title = "Ultimate Magic"
 basis = "The main chapter titles, their order, and their first pages are checked against the printed contents page of Ultimate Magic. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The dataset splits the printed Mastering Magic chapter into Mastering Magic and New Familiars, and places the printed appendix material in Updates.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+review = ["New Familiars is a dataset split kept as a sub-group inside the printed Mastering Magic chapter; the printed appendix is the Appendix chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Spellcasters"
@@ -67953,63 +67955,63 @@ title = "Binding Outsiders"
 entry = "ref/rule/binding-outsiders"
 
 [[books.chapters.children]]
+title = "New Familiars"
+
+[[books.chapters.children.children]]
+title = "Familiar, Octopus, Blue-Ringed"
+entry = "ref/monster/familiar-blue-ringed-octopus"
+
+[[books.chapters.children.children]]
+title = "Familiar, Donkey Rat"
+entry = "ref/monster/familiar-donkey-rat"
+
+[[books.chapters.children.children]]
+title = "Familiar, Fox"
+entry = "ref/monster/familiar-fox"
+
+[[books.chapters.children.children]]
+title = "Familiar, Goat"
+entry = "ref/monster/familiar-goat"
+
+[[books.chapters.children.children]]
+title = "Familiar, Scorpion, Greensting"
+entry = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting"
+
+[[books.chapters.children.children]]
+title = "Familiar, Hedgehog"
+entry = "ref/monster/familiar-hedgehog"
+
+[[books.chapters.children.children]]
+title = "Familiar, Centipede, House"
+entry = "ref/monster/familiar-house-centipede"
+
+[[books.chapters.children.children]]
+title = "Familiar, Crab, King"
+entry = "ref/monster/familiar-king-crab"
+
+[[books.chapters.children.children]]
+title = "Familiar, Pig"
+entry = "ref/monster/familiar-pig"
+
+[[books.chapters.children.children]]
+title = "Familiar, Spider, Scarlet"
+entry = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet"
+
+[[books.chapters.children.children]]
+title = "Familiar, Thrush"
+entry = "ref/monster/familiar-thrush"
+
+[[books.chapters.children.children]]
+title = "Familiar, Turtle"
+entry = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/turtle"
+
+[[books.chapters.children]]
 title = "Spellbooks"
 entry = "ref/carried/ultimate-magic/rules/mastering-magic/spellbooks"
 
 [[books.chapters.children]]
 title = "Designing Spells"
 entry = "ref/rule/designing-spells"
-
-[[books.chapters]]
-title = "New Familiars"
-
-[[books.chapters.children]]
-title = "Familiar, Octopus, Blue-Ringed"
-entry = "ref/monster/familiar-blue-ringed-octopus"
-
-[[books.chapters.children]]
-title = "Familiar, Donkey Rat"
-entry = "ref/monster/familiar-donkey-rat"
-
-[[books.chapters.children]]
-title = "Familiar, Fox"
-entry = "ref/monster/familiar-fox"
-
-[[books.chapters.children]]
-title = "Familiar, Goat"
-entry = "ref/monster/familiar-goat"
-
-[[books.chapters.children]]
-title = "Familiar, Scorpion, Greensting"
-entry = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/scorpion/greensting"
-
-[[books.chapters.children]]
-title = "Familiar, Hedgehog"
-entry = "ref/monster/familiar-hedgehog"
-
-[[books.chapters.children]]
-title = "Familiar, Centipede, House"
-entry = "ref/monster/familiar-house-centipede"
-
-[[books.chapters.children]]
-title = "Familiar, Crab, King"
-entry = "ref/monster/familiar-king-crab"
-
-[[books.chapters.children]]
-title = "Familiar, Pig"
-entry = "ref/monster/familiar-pig"
-
-[[books.chapters.children]]
-title = "Familiar, Spider, Scarlet"
-entry = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet"
-
-[[books.chapters.children]]
-title = "Familiar, Thrush"
-entry = "ref/monster/familiar-thrush"
-
-[[books.chapters.children]]
-title = "Familiar, Turtle"
-entry = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/turtle"
 
 [[books.chapters]]
 title = "Feats"
@@ -69466,7 +69468,7 @@ title = "Vermin Shape II"
 entry = "ref/spell/vermin-shape-2"
 
 [[books.chapters]]
-title = "Updates"
+title = "Appendix"
 entry = "ref/carried/ultimate-magic/rules/updates"
 
 [[books.chapters.children]]
@@ -103352,18 +103354,14 @@ entry = "ref/spell/soothing-word"
 [[books]]
 source = "gamemastery-guide"
 title = "GameMastery Guide"
-basis = "Entries are ordered by the page each Pf Data record attributes to this publication. No printed chapter boundaries are known for this publication; this is a page-ordered list, not a chapter structure."
-review = ["Page attribution orders entries; it does not establish chapter boundaries or titles.", "Entries on the same page are not in printed order."]
+basis = "The chapter titles, their order, and their first pages are checked against the printed contents page of the GameMastery Guide. Entries are grouped by the page each Pf Data record attributes to this publication. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
+review = ["Nested placement is not checked against the printed subheadings.", "The printed Appendix (310) has no corpus entries.", "Entries on the same page are not in printed order."]
 
 [[books.chapters]]
-title = "Page order"
-review = "Entries follow their page number. Entries on the same page, and a child nested under its host, are not printed-order evidence."
-
-[[books.chapters.children]]
-title = "GameMastery Guide"
+title = "Introduction"
 entry = "ref/rule/gamemastery-guide"
 
-[[books.chapters.children]]
+[[books.chapters]]
 title = "Getting Started"
 entry = "ref/rule/getting-started"
 
@@ -103567,6 +103565,10 @@ entry = "ref/rule/voice"
 title = "Publication"
 entry = "ref/rule/publication"
 
+[[books.chapters]]
+title = "Running a Game"
+entry = "ref/rule/running-a-game"
+
 [[books.chapters.children]]
 title = "GMing Style Choices"
 entry = "ref/rule/gming-style-choices"
@@ -103574,10 +103576,6 @@ entry = "ref/rule/gming-style-choices"
 [[books.chapters.children]]
 title = "Pre-Game Preparation"
 entry = "ref/rule/pregame-preparation"
-
-[[books.chapters.children]]
-title = "Running a Game"
-entry = "ref/rule/running-a-game"
 
 [[books.chapters.children]]
 title = "Running the Game"
@@ -103827,6 +103825,10 @@ entry = "ref/rule/tools-for-game-masters"
 title = "Words Every Game Master Should Known"
 entry = "ref/rule/words-every-game-master-should-known"
 
+[[books.chapters]]
+title = "Player Characters"
+entry = "ref/rule/player-characters"
+
 [[books.chapters.children]]
 title = "Before the Game"
 entry = "ref/rule/before-the-game"
@@ -103834,10 +103836,6 @@ entry = "ref/rule/before-the-game"
 [[books.chapters.children]]
 title = "Group Composition"
 entry = "ref/rule/group-composition"
-
-[[books.chapters.children]]
-title = "Player Characters"
-entry = "ref/rule/player-characters"
 
 [[books.chapters.children]]
 title = "Starting Characters"
@@ -104031,6 +104029,10 @@ entry = "ref/rule/tagalong"
 title = "Thespian"
 entry = "ref/rule/thespian"
 
+[[books.chapters]]
+title = "Nonplayer Characters"
+entry = "ref/rule/non-player-characters"
+
 [[books.chapters.children]]
 title = "Cast of Characters"
 entry = "ref/rule/cast-of-characters"
@@ -104038,10 +104040,6 @@ entry = "ref/rule/cast-of-characters"
 [[books.chapters.children]]
 title = "Designing NPCs"
 entry = "ref/rule/designing-npcs"
-
-[[books.chapters.children]]
-title = "Non-Player Characters"
-entry = "ref/rule/non-player-characters"
 
 [[books.chapters.children]]
 title = "NPC Roles"
@@ -104215,6 +104213,10 @@ entry = "ref/rule/npc-toolbox-3"
 title = "Rewards and Random Name Generator"
 entry = "ref/rule/npc-toolbox-4"
 
+[[books.chapters]]
+title = "Rewards"
+entry = "ref/rule/rewards"
+
 [[books.chapters.children]]
 title = "Backgrounded Experience"
 entry = "ref/rule/backgrounded-experience"
@@ -104222,10 +104224,6 @@ entry = "ref/rule/backgrounded-experience"
 [[books.chapters.children]]
 title = "Experience"
 entry = "ref/rule/experience"
-
-[[books.chapters.children]]
-title = "Rewards"
-entry = "ref/rule/rewards"
 
 [[books.chapters.children]]
 title = "The Role of Rewards"
@@ -104431,13 +104429,13 @@ entry = "ref/rule/random-divine-spells"
 title = "Random Wands"
 entry = "ref/rule/random-wands"
 
+[[books.chapters]]
+title = "Creating a World"
+entry = "ref/rule/creating-a-world"
+
 [[books.chapters.children]]
 title = "Building a City"
 entry = "ref/rule/building-a-city"
-
-[[books.chapters.children]]
-title = "Creating a World"
-entry = "ref/rule/creating-a-world"
 
 [[books.chapters.children]]
 title = "Defining a Setting"
@@ -104723,7 +104721,7 @@ entry = "ref/rule/sample-parallel-worlds"
 title = "Going Home"
 entry = "ref/rule/going-home"
 
-[[books.chapters.children]]
+[[books.chapters]]
 title = "Adventures"
 entry = "ref/rule/adventures"
 
@@ -105211,7 +105209,7 @@ entry = "ref/rule/wt-5"
 title = "Encounters: Volcano, Wasteland"
 entry = "ref/rule/wt-6"
 
-[[books.chapters.children]]
+[[books.chapters]]
 title = "Advanced Topics"
 entry = "ref/rule/advanced-topics"
 
@@ -105479,11 +105477,11 @@ entry = "ref/madness/phobia"
 title = "Schizophrenia"
 entry = "ref/madness/schizophrenia"
 
-[[books.chapters.children]]
+[[books.chapters]]
 title = "NPC Gallery"
 entry = "ref/rule/npc-gallery"
 
-[[books.chapters.children.children]]
+[[books.chapters.children]]
 title = "NPC Boons"
 entry = "ref/rule/rule-npc-gallery/npc-boons"
 

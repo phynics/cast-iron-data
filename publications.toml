@@ -2803,6 +2803,7 @@ publication_date = "2013-09-01"
 id = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 title = "The Elephant in the Room: Feat Taxes in Pathfinder"
 copyright = "The Elephant in the Room: Feat Taxes in Pathfinder. © 2012, Matthew Iantorno and Michael Iantorno."
+third_party = true
 suffix = "teitr"
 
 [[publication]]
@@ -2914,6 +2915,7 @@ publication_date = "2015-03-15"
 id = "tome-of-horrors-complete-pf"
 title = "Tome of Horrors Complete (PF)"
 copyright = "Tome of Horrors Complete. © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene."
+third_party = true
 
 [[publication]]
 id = "treasure-of-chimera-cove"
