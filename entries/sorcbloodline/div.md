@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/div"
 kind = "class_option"
 title = "Div"
-source_ids = ["people-of-the-sands", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -43,9 +43,6 @@ You can trace your ancestry to one of the foul, corrupted genies known as [divs]
 [Blind-Fight](ref/feat/blind-fight)[Deceitful](ref/feat/deceitful)[Empower Spell](ref/feat/empower-spell)[Improved Initiative](ref/feat/improved-initiative)[Iron Will](ref/feat/iron-will)[Lightning Reflexes](ref/feat/lightning-reflexes)[Persuasive](ref/feat/persuasive)\~[Power Attack](ref/feat/power-attack)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Power Attack with [Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

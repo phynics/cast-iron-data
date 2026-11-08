@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/orc"
 kind = "class_option"
 title = "Orc"
-source_ids = ["orcs-of-golarion", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -45,10 +45,6 @@ you to seek greater power.
 [Diehard](ref/feat/diehard)[Endurance](ref/feat/endurance)[Great Fortitude](ref/feat/great-fortitude)[Intimidating Prowess](ref/feat/intimidating-prowess)[Improved Overrun](ref/feat/improved-overrun)[Power Attack](ref/feat/power-attack)[Toughness](ref/feat/toughness)\~[Widen Spell](ref/feat/widen-spell)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Improved Overrun and Power Attack with [Greater Overrun](ref/feat/greater-overrun) and
-[Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

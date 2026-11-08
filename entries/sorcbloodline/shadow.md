@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/shadow"
 kind = "class_option"
 title = "Shadow"
-source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "ultimate-magic"]
+source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -47,9 +47,6 @@ cultivating an air of mystery and majesty that is all your own.
 (Stealth)[Stealthy](ref/feat/stealthy)\~[Weapon Finesse](ref/feat/weapon-finesse)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Weapon Finesse with [Agile Combatant](ref/feat/agile-maneuvers).
 
 **Bloodline Arcana**
 
