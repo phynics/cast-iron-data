@@ -80,7 +80,7 @@ dirty fingers._
 
 **At will:**
 
-- detect thoughts (DC 16), fear, single target only; DC 18
+- detect thoughts (DC 16), fear (single target only) (DC 18)
 
 **Per day:**
 

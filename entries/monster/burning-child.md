@@ -87,7 +87,7 @@ and smoldering ash._
 
 **Constant:**
 
-- elemental aura, fire only; DC 17, fire trail (DC 17)
+- elemental aura (fire only; DC 17), fire trail (DC 17)
 
 **At will:**
 

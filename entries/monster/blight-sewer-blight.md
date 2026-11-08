@@ -89,8 +89,8 @@ two long, slimy, claw-tipped tentacles._
 
 **Per day:**
 
-- 1/day: blight (DC 20), cloudkill (DC 20), command plants (DC 19), dominate monster, animals,
-  magical beasts, and mindless oozes only; DC 24, greater curse terrain, hallucinatory terrain (DC
+- 1/day: blight (DC 20), cloudkill (DC 20), command plants (DC 19), dominate monster (animals,
+  magical beasts, and mindless oozes only, DC 24), greater curse terrain, hallucinatory terrain (DC
   19)
 
 **Statistics**

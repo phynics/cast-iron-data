@@ -90,7 +90,7 @@ snow._
 
 **Per day:**
 
-- 3/day: cone of cold (DC 21), eyebite, comatose and panicked only; DC 22, ice storm
+- 3/day: cone of cold (DC 21), eyebite (comatose and panicked only, DC 22), ice storm
 
 **Statistics**
 

@@ -97,7 +97,7 @@ split by a wide, toothy mouth._
 **Per day:**
 
 - 3/day: charm monster (DC 18), &Q confusion (DC 18)
-- 1/day: bestow curse, DC 18; ranged touch attack; 30 ft.
+- 1/day: bestow curse (DC 18, ranged touch attack, 30 ft.)
 
 **Statistics**
 

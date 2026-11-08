@@ -88,7 +88,7 @@ bite +26 (2d8+10)
 
 **Per day:**
 
-- 1/day: control weather, control winds, dominate monster, DC 24; animal only, resist energy
+- 1/day: control weather, control winds, dominate monster (DC 24, animal only), resist energy
 
 **Statistics**
 

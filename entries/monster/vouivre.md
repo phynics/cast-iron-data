@@ -91,7 +91,7 @@ dragon._
 
 **Per day:**
 
-- 1/day: charm animal, DC 15; snakes only, shout (DC 18), song of discord (DC 19)
+- 1/day: charm animal (DC 15, snakes only), shout (DC 18), song of discord (DC 19)
 
 **Statistics**
 

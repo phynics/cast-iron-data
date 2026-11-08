@@ -83,7 +83,7 @@ made from seashells._
 
 **Per day:**
 
-- 1/day: entangle, in water only; DC 12
+- 1/day: entangle (in water only, DC 12)
 
 **Statistics**
 

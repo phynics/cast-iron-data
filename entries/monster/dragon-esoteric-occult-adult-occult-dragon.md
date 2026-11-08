@@ -87,7 +87,8 @@ ft.)
 
 **Psychoactive powers:**
 
-- augury, 2 PE, blood biography, 3 PE, forbid action, 1 PE; DC 16, invisibility, 2 PE, mending, 0 PE
+- augury, 2 PE, blood biography, 3 PE, forbid action (1 PE; DC 16), invisibility, 2 PE, mending, 0
+  PE
 
 **Spells Known**
 

@@ -92,7 +92,7 @@ hissing, triangular heads._
 
 **Per day:**
 
-- 3/day: fire shield, chill shield only, &EM ice storm, incendiary cloud, DC 25; deals cold damage,
+- 3/day: fire shield, chill shield only, &EM ice storm, incendiary cloud (DC 25, deals cold damage),
   suggestion (DC 20)
 - 1/day: control weather, polar ray
 

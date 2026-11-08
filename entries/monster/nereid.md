@@ -92,8 +92,8 @@ diaphanous, wet shawl._
 
 **At will:**
 
-- control water, suggestion, DC 18; only against creatures that are currently fascinated by her
-  beguiling aura
+- control water, suggestion (DC 18; only against creatures that are currently fascinated by her
+  beguiling aura)
 
 **Per day:**
 

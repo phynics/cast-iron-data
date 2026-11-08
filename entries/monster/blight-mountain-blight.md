@@ -89,8 +89,8 @@ with a stony club._
 
 **Per day:**
 
-- 1/day: blight (DC 20), call lightning storm (DC 20), command plants (DC 19), dominate monster,
-  animals and magical beasts only; DC 24, greater curse terrain, hallucinatory terrain (DC 19)
+- 1/day: blight (DC 20), call lightning storm (DC 20), command plants (DC 19), dominate monster
+  (animals and magical beasts only, DC 24), greater curse terrain, hallucinatory terrain (DC 19)
 
 **Statistics**
 
