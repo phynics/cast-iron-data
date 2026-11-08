@@ -31376,6 +31376,16 @@ target = "ref/rule/magic"
 basis = "direct"
 
 [[entries]]
+old = "ref/monster/aboleth-mythic"
+target = "ref/carried/mythic-adventures/monsters/aboleth/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/cockatrice-mythic"
+target = "ref/carried/mythic-adventures/monsters/cockatrice/mythic"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/cyclops-great-cyclops-mythic"
 target = "ref/carried/mythic-adventures/monsters/cyclops/great/mythic"
 basis = "shared"
@@ -31401,6 +31411,11 @@ target = "ref/carried/mythic-adventures/monsters/devil/bone/mythic"
 basis = "shared"
 
 [[entries]]
+old = "ref/monster/devil-ice-devil-mythic"
+target = "ref/carried/mythic-adventures/monsters/devil/ice/mythic"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/dragon-chromatic-black-adult-black-dragon"
 target = "ref/carried/bestiary/monsters/dragon/chromatic/black/adult"
 basis = "shared"
@@ -31408,6 +31423,11 @@ basis = "shared"
 [[entries]]
 old = "ref/monster/dragon-chromatic-black-ancient-black-dragon"
 target = "ref/carried/bestiary/monsters/dragon/chromatic/black/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-black-mature-adult-black-dragon-mythic"
+target = "ref/carried/mythic-adventures/monsters/dragon/black/mythic"
 basis = "shared"
 
 [[entries]]
@@ -31426,6 +31446,11 @@ target = "ref/carried/bestiary/monsters/dragon/chromatic/blue/ancient"
 basis = "shared"
 
 [[entries]]
+old = "ref/monster/dragon-chromatic-blue-mature-adult-blue-dragon-mythic"
+target = "ref/carried/mythic-adventures/monsters/dragon/blue/mythic"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/dragon-chromatic-blue-young-blue-dragon"
 target = "ref/carried/bestiary/monsters/dragon/chromatic/blue/young"
 basis = "shared"
@@ -31438,6 +31463,11 @@ basis = "shared"
 [[entries]]
 old = "ref/monster/dragon-chromatic-green-ancient-green-dragon"
 target = "ref/carried/bestiary/monsters/dragon/chromatic/green/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-green-very-old-green-dragon-mythic"
+target = "ref/carried/mythic-adventures/monsters/dragon/green/mythic"
 basis = "shared"
 
 [[entries]]
@@ -31478,6 +31508,11 @@ basis = "shared"
 [[entries]]
 old = "ref/monster/dragon-chromatic-white-ancient-white-dragon"
 target = "ref/carried/bestiary/monsters/dragon/chromatic/white/ancient"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/dragon-chromatic-white-juvenile-white-dragon-mythic"
+target = "ref/carried/mythic-adventures/monsters/dragon/white/mythic"
 basis = "shared"
 
 [[entries]]
@@ -31601,6 +31636,36 @@ target = "ref/carried/bestiary-4/monsters/dragon/outer/vortex/young"
 basis = "shared"
 
 [[entries]]
+old = "ref/monster/elemental-air-elder-air-elemental-mythic"
+target = "ref/carried/mythic-adventures/monsters/elemental/air/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/elemental-earth-elder-earth-elemental-mythic"
+target = "ref/carried/mythic-adventures/monsters/elemental/earth/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/elemental-fire-elder-fire-elemental-mythic"
+target = "ref/carried/mythic-adventures/monsters/elemental/fire/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/elemental-water-elder-water-elemental-mythic"
+target = "ref/carried/mythic-adventures/monsters/elemental/water/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/ettin-mythic"
+target = "ref/carried/mythic-adventures/monsters/ettin/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/gargoyle-mythic"
+target = "ref/carried/mythic-adventures/monsters/gargoyle/mythic"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/giant-fire-giant-mythic"
 target = "ref/carried/mythic-adventures/monsters/giant/fire/mythic"
 basis = "shared"
@@ -31608,6 +31673,16 @@ basis = "shared"
 [[entries]]
 old = "ref/monster/giant-hill-giant-mythic"
 target = "ref/carried/mythic-adventures/monsters/giant/hill/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/greater-barghest-mythic"
+target = "ref/carried/mythic-adventures/monsters/barghest/greater/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/griffon-mythic"
+target = "ref/carried/mythic-adventures/monsters/griffon/mythic"
 basis = "shared"
 
 [[entries]]
@@ -31621,8 +31696,68 @@ target = "ref/carried/bestiary/monsters/hell-hound/nessian"
 basis = "shared"
 
 [[entries]]
+old = "ref/monster/hell-hound-nessian-warhound-mythic"
+target = "ref/carried/mythic-adventures/monsters/hell-hound/nessian-warhound/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/human-skeleton-mythic"
+target = "ref/carried/mythic-adventures/monsters/skeleton/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/hydra-mythic"
+target = "ref/carried/mythic-adventures/monsters/hydra/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/lamia-mythic"
+target = "ref/carried/mythic-adventures/monsters/lamia/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/manticore-mythic"
+target = "ref/carried/mythic-adventures/monsters/manticore/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/medusa-mythic"
+target = "ref/carried/mythic-adventures/monsters/medusa/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/minotaur-mythic"
+target = "ref/carried/mythic-adventures/monsters/minotaur/mythic"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/monkey-swarm"
 target = "ref/carried/bestiary-2/monsters/swarm/primate/monkey"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/mummy-mythic"
+target = "ref/carried/mythic-adventures/monsters/mummy/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/ogre-mythic"
+target = "ref/carried/mythic-adventures/monsters/ogre/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/owlbear-mythic"
+target = "ref/carried/mythic-adventures/monsters/owlbear/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/phoenix-mythic"
+target = "ref/carried/mythic-adventures/monsters/phoenix/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/rakshasa-mythic"
+target = "ref/carried/mythic-adventures/monsters/rakshasa/mythic"
 basis = "shared"
 
 [[entries]]
@@ -31641,6 +31776,11 @@ target = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-fam
 basis = "shared"
 
 [[entries]]
+old = "ref/monster/sphinx-mythic"
+target = "ref/carried/mythic-adventures/monsters/sphinx/mythic"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/spider-scarlet-spider"
 target = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/spider/scarlet"
 basis = "shared"
@@ -31651,8 +31791,28 @@ target = "ref/carried/mythic-adventures/monsters/owlbear/the-first/mythic"
 basis = "shared"
 
 [[entries]]
+old = "ref/monster/treant-mythic"
+target = "ref/carried/mythic-adventures/monsters/treant/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/troll-mythic"
+target = "ref/carried/mythic-adventures/monsters/troll/mythic"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/winter-wolf-mythic"
 target = "ref/carried/mythic-adventures/monsters/worg/winter-wolf"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/worg-mythic"
+target = "ref/carried/mythic-adventures/monsters/worg/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/monster/wyvern-mythic"
+target = "ref/carried/mythic-adventures/monsters/wyvern/mythic"
 basis = "shared"
 
 [[entries]]

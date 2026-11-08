@@ -76,4 +76,4 @@ manipulated affect it normally.
 
 ### Mythic Members of This Family:
 
-- [Very Old Green Dragon](ref/monster/dragon-chromatic-green-very-old-green-dragon-mythic)
+- [Very Old Green Dragon](ref/carried/mythic-adventures/monsters/dragon/green/mythic)

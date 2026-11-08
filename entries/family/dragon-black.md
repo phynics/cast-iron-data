@@ -77,4 +77,4 @@ breath weapon, spells, and other abilities while submerged.
 
 ### Mythic Members of This Family:
 
-- [Mature Adult Black Dragon](ref/monster/dragon-chromatic-black-mature-adult-black-dragon-mythic)
+- [Mature Adult Black Dragon](ref/carried/mythic-adventures/monsters/dragon/black/mythic)

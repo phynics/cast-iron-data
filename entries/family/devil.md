@@ -119,4 +119,4 @@ the infernal realm's best-known denizens.
 ### Mythic Members of This Family:
 
 - [Bone Devil](ref/carried/mythic-adventures/monsters/devil/bone/mythic)
-- [Ice Devil](ref/monster/devil-ice-devil-mythic)
+- [Ice Devil](ref/carried/mythic-adventures/monsters/devil/ice/mythic)
