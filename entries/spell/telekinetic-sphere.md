@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_sphere", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/resilient-sphere" },
+]
 
 [fields]
 kind = "spell"
@@ -45,12 +48,12 @@ Descriptors: force
 
 **Sources:** PRPG Core Rulebook pg 358
 
-This spell functions like resilient sphere, but the creatures or objects caught inside the globe
-created by the spell are made nearly weightless. Anything contained within a telekinetic sphere
-weighs only one-sixteenth of its normal weight. You can telekinetically lift anything in the sphere
-that normally weighs 5,000 pounds or less. The telekinetic control extends from you out to medium
-range (100 feet + 10 feet per caster level) after the sphere has succeeded in encapsulating its
-contents.
+This spell functions like [resilient sphere](ref/spell/resilient-sphere), but the creatures or
+objects caught inside the globe created by the spell are made nearly weightless. Anything contained
+within a telekinetic sphere weighs only one-sixteenth of its normal weight. You can telekinetically
+lift anything in the sphere that normally weighs 5,000 pounds or less. The telekinetic control
+extends from you out to medium range (100 feet + 10 feet per caster level) after the sphere has
+succeeded in encapsulating its contents.
 
 You can move the sphere, along with the objects and creatures it contains that weigh a total of
 5,000 pounds or less, by concentrating on the sphere. You can begin moving a sphere in the round

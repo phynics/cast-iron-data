@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bards_escape", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dimension-door" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_ward", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/death-ward" },
+]
 
 [fields]
 kind = "spell"
@@ -49,5 +52,5 @@ Target: living creature touched
 
 **Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 38
 
-This spell functions like death ward, except as noted above and it only protects against these
-attacks from daemons.
+This spell functions like [death ward](ref/spell/death-ward), except as noted above and it only
+protects against these attacks from daemons.

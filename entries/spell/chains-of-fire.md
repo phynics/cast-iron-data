@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chains_of_fire", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/chain-lightning" },
+]
 
 [fields]
 kind = "spell"
@@ -46,5 +49,5 @@ Descriptors: fire
 
 > _[Ifrits](ref/race/ifrit) have access to the following spell._
 
-This spell functions like chain lightning, except as noted above, and the spell deals fire damage
-instead of electricity damage.
+This spell functions like [chain lightning](ref/spell/chain-lightning), except as noted above, and
+the spell deals fire damage instead of electricity damage.

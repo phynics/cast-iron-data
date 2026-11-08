@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_minor_ally", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/summon-natures-ally-1" },
+]
 
 [fields]
 kind = "spell"

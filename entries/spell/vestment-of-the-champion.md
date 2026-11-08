@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vestment_of_the_champion", path = "json/spells11.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-vestment" },
+]
 
 [fields]
 kind = "spell"

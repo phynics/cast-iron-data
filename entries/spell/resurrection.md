@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resurrection", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/raise-dead" },
+]
 
 [fields]
 kind = "spell"

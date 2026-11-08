@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_elemental_might", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
+]
 
 [fields]
 kind = "spell"
@@ -47,8 +50,8 @@ Target: creature touched; see text
 
 **Sources:** Advanced Race Guide pg 203
 
-This spell functions like imbue with spell ability, except you transfer the use of your elemental
-assault ability to the target. The target must have an Intelligence score of at least 5 to use the
-ability. The imbued elemental assault functions exactly like yours, except the ability's duration is
-based on the target's level or Hit Dice. Once you cast this spell, you cannot use your elemental
-assault ability until the duration of the spell is over.
+This spell functions like [imbue with spell ability](ref/spell/imbue-with-spell-ability), except you
+transfer the use of your elemental assault ability to the target. The target must have an
+Intelligence score of at least 5 to use the ability. The imbued elemental assault functions exactly
+like yours, except the ability's duration is based on the target's level or Hit Dice. Once you cast
+this spell, you cannot use your elemental assault ability until the duration of the spell is over.

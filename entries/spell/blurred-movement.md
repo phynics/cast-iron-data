@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blurred_movement", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/blur" },
+]
 
 [fields]
 kind = "spell"

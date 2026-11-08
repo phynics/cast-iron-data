@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_orientation", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/know-direction" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heal_mount", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/heal" },
+]
 
 [fields]
 kind = "spell"
@@ -41,4 +44,5 @@ Subschool: Healing
 
 **Sources:** PRPG Core Rulebook pg 294
 
-This spell functions like heal, but it affects only the paladin's special mount (typically a horse).
+This spell functions like [heal](ref/spell/heal), but it affects only the paladin's special mount
+(typically a horse).

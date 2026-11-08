@@ -6,6 +6,9 @@ source_ids = ["taldor-echoes-of-glory", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sign_of_the_dawnflower", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/message" },
+]
 
 [fields]
 kind = "spell"
@@ -46,9 +49,9 @@ Target: one creature/level
 
 **Sources:** Taldor, Echoes of Glory pg 25
 
-As message, except the only information you can transmit is that you are a worshiper of Sarenrae.
-Once notified, the target can reply that he understands your sign. The spell transmits meaning, not
-sound, and transcends language barriers.
+As [message](ref/spell/message), except the only information you can transmit is that you are a
+worshiper of Sarenrae. Once notified, the target can reply that he understands your sign. The spell
+transmits meaning, not sound, and transcends language barriers.
 
 Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity
 always treat the spell as common, and need not research it in order to prepare or learn it. This

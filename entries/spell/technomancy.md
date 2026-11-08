@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technomancy", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/detect-magic" },
+]
 
 [fields]
 kind = "spell"

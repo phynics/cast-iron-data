@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baleful_polymorph", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/beast-shape-3" },
+]
 
 [fields]
 kind = "spell"
@@ -52,9 +55,9 @@ Subschool: Polymorph
 
 **Sources:** PRPG Core Rulebook pg 246
 
-As beast shape III, except that you change the subject into a Small or smaller animal of no more
-than 1 HD. If the new form would prove fatal to the creature, such as an aquatic creature not in
-water, the subject gets a +4 bonus on the save.
+As [beast shape III](ref/spell/beast-shape-3), except that you change the subject into a Small or
+smaller animal of no more than 1 HD. If the new form would prove fatal to the creature, such as an
+aquatic creature not in water, the subject gets a +4 bonus on the save.
 
 If the spell succeeds, the subject must also make a Will save. If this second save fails, the
 creature loses its extraordinary, supernatural, and

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "programmed_image", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/silent-image" },
+]
 
 [fields]
 kind = "spell"
@@ -47,9 +50,9 @@ Subschool: Figment
 
 **Sources:** PRPG Core Rulebook pg 327
 
-This spell functions like silent image, except that this spell's figment activates when a specific
-condition occurs. The figment includes visual, auditory, olfactory, and thermal elements, including
-intelligible speech.
+This spell functions like [silent image](ref/spell/silent-image), except that this spell's figment
+activates when a specific condition occurs. The figment includes visual, auditory, olfactory, and
+thermal elements, including intelligible speech.
 
 You set the triggering condition (which may be a special word) when casting the spell. The event
 that triggers the illusion can be as general or as specific and detailed as desired but must be

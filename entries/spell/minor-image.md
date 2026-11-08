@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_image", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/silent-image" },
+]
 
 [fields]
 kind = "spell"
@@ -51,5 +54,5 @@ Subschool: Figment
 
 **Sources:** PRPG Core Rulebook pg 314
 
-This spell functions like silent image, except that minor image includes some minor sounds but not
-understandable speech.
+This spell functions like [silent image](ref/spell/silent-image), except that minor image includes
+some minor sounds but not understandable speech.

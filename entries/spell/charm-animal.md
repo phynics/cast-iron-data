@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_animal", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/charm-person" },
+]
 
 [fields]
 kind = "spell"
@@ -47,4 +50,5 @@ Descriptors: mind-affecting
 
 **Sources:** PRPG Core Rulebook pg 254
 
-This spell functions like charm person, except that it affects a creature of the animal type.
+This spell functions like [charm person](ref/spell/charm-person), except that it affects a creature
+of the animal type.

@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twine_double", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/simulacrum" },
+]
 
 [fields]
 kind = "spell"
@@ -44,13 +47,13 @@ Subschool: Shadow
 
 **Sources:** Cheliax, Empire of Devils pg 23
 
-As simulacrum, except you can only duplicate yourself, and the duplicate is created from cloth and
-twine rather than ice and snow. The double looks exactly like you except its eyes are balls of twine
-(DC 10 Perception check to recognize double's strange eyes). It wears clothing and gear that appear
-exactly like what you are wearing at the time of casting. Its copies of your magic items are
-non-functional but radiate magic and have the same auras as your items. Its aura is identical to
-yours. Attempts to scry you while the double exists have a 50% chance of targeting the double
-instead of you.
+As [simulacrum](ref/spell/simulacrum), except you can only duplicate yourself, and the duplicate is
+created from cloth and twine rather than ice and snow. The double looks exactly like you except its
+eyes are balls of twine (DC 10 Perception check to recognize double's strange eyes). It wears
+clothing and gear that appear exactly like what you are wearing at the time of casting. Its copies
+of your magic items are non-functional but radiate magic and have the same auras as your items. Its
+aura is identical to yours. Attempts to scry you while the double exists have a 50% chance of
+targeting the double instead of you.
 
 The double cannot attack, has no special abilities, and has a +0 bonus on all saves and checks. You
 may verbally give the double orders as a free action, or control it telepathically as a standard

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-14-children-of-the-void", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunkards_breath", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/stinking-cloud" },
+]
 
 [fields]
 kind = "spell"
@@ -45,10 +48,10 @@ Subschool: Creation
 
 **Sources:** Pathfinder \#14: Children of the Void pg 61
 
-This spell emanates from your mouth and functions like stinking cloud, except as noted above. The
-effect is barely visible and does not obscure vision. The nausea effect resembles that of an extreme
-hangover. This is a poison effect. Cayden Cailean's church uses this spell to disperse angry crowds,
-such as when celebrations get out of hand.
+This spell emanates from your mouth and functions like [stinking cloud](ref/spell/stinking-cloud),
+except as noted above. The effect is barely visible and does not obscure vision. The nausea effect
+resembles that of an extreme hangover. This is a poison effect. Cayden Cailean's church uses this
+spell to disperse angry crowds, such as when celebrations get out of hand.
 
 Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity
 always treat the spell as common, and need not research it in order to prepare or learn it. This

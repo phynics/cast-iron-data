@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planetary_adaptation", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/planar-adaptation" },
+]
 
 [fields]
 kind = "spell"
@@ -49,6 +52,6 @@ Target: you
 
 **Sources:** People of the Stars pg 29, Distant Worlds pg 55
 
-This spell functions as planar adaptation, except that it works only on worlds of the Material
-Plane. The cold void of space is considered a single world for the purpose of this spell, allowing
-you to survive in vacuum.
+This spell functions as [planar adaptation](ref/spell/planar-adaptation), except that it works only
+on worlds of the Material Plane. The cold void of space is considered a single world for the purpose
+of this spell, allowing you to survive in vacuum.

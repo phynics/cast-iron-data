@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domination_link", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/detect-thoughts" },
+]
 
 [fields]
 kind = "spell"
@@ -47,11 +50,11 @@ Descriptors: mind-affecting
 
 **Sources:** Blood of the Night pg 30
 
-This spell functions like detect thoughts, with the additional ability to find echoes of the
-thoughts of a creature mentally controlling the target. For example, if the target has been
-dominated by a vampire, you can use evidence left in the target's mind to learn about that vampire.
-Each minute you concentrate on the spell, you can learn your choice of one of the following pieces
-of information.
+This spell functions like [detect thoughts](ref/spell/detect-thoughts), with the additional ability
+to find echoes of the thoughts of a creature mentally controlling the target. For example, if the
+target has been dominated by a vampire, you can use evidence left in the target's mind to learn
+about that vampire. Each minute you concentrate on the spell, you can learn your choice of one of
+the following pieces of information.
 
 _Direction:_ The controller's general direction and distance.
 

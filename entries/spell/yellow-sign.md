@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yellow_sign", path = "json/spells16.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/symbol-of-death" },
+]
 
 [fields]
 kind = "spell"

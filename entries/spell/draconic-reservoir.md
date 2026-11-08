@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_reservoir", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/protection-from-energy" },
+]
 
 [fields]
 kind = "spell"

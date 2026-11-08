@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "badgers_ferocity", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/keen-edge" },
+]
 
 [fields]
 kind = "spell"
@@ -50,6 +53,6 @@ Target: one weapon/3 levels
 
 **Sources:** Ultimate Magic pg 207
 
-This functions like keen edge, except it affects multiple weapons and requires your concentration.
-You select the weapons to be affected, and can only affect one weapon per creature. If a creature's
-weapon exceeds the spell's range, the spell ends for that weapon.
+This functions like [keen edge](ref/spell/keen-edge), except it affects multiple weapons and
+requires your concentration. You select the weapons to be affected, and can only affect one weapon
+per creature. If a creature's weapon exceeds the spell's range, the spell ends for that weapon.

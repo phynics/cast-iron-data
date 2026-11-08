@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_sphere", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/prismatic-wall" },
+]
 
 [fields]
 kind = "spell"
@@ -41,9 +44,9 @@ Effect: 10-ft.-radius sphere centered on you
 
 **Sources:** PRPG Core Rulebook pg 325
 
-This spell functions like prismatic wall, except you conjure up an immobile, opaque globe of
-shimmering, multicolored light that surrounds you and protects you from all forms of attack. The
-sphere flashes in all colors of the visible spectrum.
+This spell functions like [prismatic wall](ref/spell/prismatic-wall), except you conjure up an
+immobile, opaque globe of shimmering, multicolored light that surrounds you and protects you from
+all forms of attack. The sphere flashes in all colors of the visible spectrum.
 
 The sphere's blindness effect on creatures with less than 8 HD lasts 2d4 × 10 minutes.
 

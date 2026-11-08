@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic", "pathfinder-14-children-of-the-void", "inner-sea
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interplanetary_teleport", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/teleport" },
+]
 
 [fields]
 kind = "spell"

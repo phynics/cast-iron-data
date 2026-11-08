@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incendiary_runes", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/explosive-runes" },
+]
 
 [fields]
 kind = "spell"

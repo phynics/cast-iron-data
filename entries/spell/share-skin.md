@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_skin", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-jar" },
+]
 
 [fields]
 kind = "spell"
@@ -44,5 +47,5 @@ Target: one animal touched
 > _The following spells are common among [werebears](ref/template/lycanthrope) coldborn
 > [skinwalkers](ref/race/skinwalker), and those who associate with them._
 
-You can possess an animal's body in a manner that functions like magic jar, except as noted here.
-Your body vanishes while the effect lasts and you don't require a receptacle.
+You can possess an animal's body in a manner that functions like [magic jar](ref/spell/magic-jar),
+except as noted here. Your body vanishes while the effect lasts and you don't require a receptacle.

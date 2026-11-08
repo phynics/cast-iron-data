@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_step", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/air-walk" },
+]
 
 [fields]
 kind = "spell"

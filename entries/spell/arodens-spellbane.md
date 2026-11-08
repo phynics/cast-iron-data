@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodens_spellbane", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/antimagic-field" },
+]
 
 [fields]
 kind = "spell"

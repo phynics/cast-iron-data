@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ether_step", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/ethereal-jaunt" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_warding", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/glyph-of-warding" },
+]
 
 [fields]
 kind = "spell"
@@ -42,6 +45,6 @@ Target: doorway or portal touched
 **Sources:** Dwarves of Golarion pg 25
 
 You inscribe a series of runes upon the surface of a door or around the border of an entryway. They
-function as a glyph of warding (blast glyph), though unlike a glyph of warding, these runes are
-always visible. The runes count as a glyph of warding for the purpose of what spells can defeat it,
-placing multiple glyphs in the same area, and so on.
+function as a [glyph of warding](ref/spell/glyph-of-warding) (blast glyph), though unlike a glyph of
+warding, these runes are always visible. The runes count as a glyph of warding for the purpose of
+what spells can defeat it, placing multiple glyphs in the same area, and so on.

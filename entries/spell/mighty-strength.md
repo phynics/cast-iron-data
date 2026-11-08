@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_strength", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/bulls-strength" },
+]
 
 [fields]
 kind = "spell"
@@ -47,4 +50,4 @@ Target: you
 > [Trudd](ref/faith/trudd). For 24 hours after the ritual, the caster may prepare spells of the
 > requested deity. The caster may only attune himself to one additional deity at a time._
 
-As bull's strength, except it grants a +8 enhancement bonus to Strength.
+As [bull's strength](ref/spell/bulls-strength), except it grants a +8 enhancement bonus to Strength.

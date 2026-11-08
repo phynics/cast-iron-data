@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_drain", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/enervation" },
+]
 
 [fields]
 kind = "spell"
@@ -44,9 +47,9 @@ Effect: ray of negative energy
 
 **Sources:** PRPG Core Rulebook pg 277
 
-This spell functions like enervation, except that the creature struck gains 2d4 temporary negative
-levels. Twenty-four hours after gaining them, the subject must make a Fortitude saving throw (DC =
-energy drain spell's save DC) for each negative level. If the save succeeds, that negative level is
-removed. If it fails, that negative level becomes permanent.
+This spell functions like [enervation](ref/spell/enervation), except that the creature struck gains
+2d4 temporary negative levels. Twenty-four hours after gaining them, the subject must make a
+Fortitude saving throw (DC = energy drain spell's save DC) for each negative level. If the save
+succeeds, that negative level is removed. If it fails, that negative level becomes permanent.
 
 An undead creature struck by the ray gains 2d4 × 5 temporary hit points for 1 hour.

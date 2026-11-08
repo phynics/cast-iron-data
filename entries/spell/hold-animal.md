@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_animal", path = "json/spells5.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hold-person" },
+]
 
 [fields]
 kind = "spell"
@@ -47,4 +50,5 @@ Descriptors: mind-affecting
 
 **Sources:** PRPG Core Rulebook pg 296
 
-This spell functions like hold person, except that it affects an animal instead of a humanoid.
+This spell functions like [hold person](ref/spell/hold-person), except that it affects an animal
+instead of a humanoid.

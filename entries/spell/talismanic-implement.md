@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talismanic_implement", path = "json/spells10.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/contingency" },
+]
 
 [fields]
 kind = "spell"

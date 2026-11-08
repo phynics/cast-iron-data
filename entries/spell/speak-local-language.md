@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_local_language", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/tongues" },
+]
 
 [fields]
 kind = "spell"

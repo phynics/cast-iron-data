@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sabotage_construct", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/confusion" },
+]
 
 [fields]
 kind = "spell"

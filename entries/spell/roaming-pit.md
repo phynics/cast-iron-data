@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roaming_pit", path = "json/spells8.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/create-pit" },
+]
 
 [fields]
 kind = "spell"

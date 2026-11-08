@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earsend", path = "json/spells13.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/skinsend" },
+]
 
 [fields]
 kind = "spell"
@@ -44,7 +47,7 @@ Target: creature touched
 **Sources:** Magic Tactics Toolbox pg 25
 
 You cause one of your ears to tear itself free of your body and transform into a fly-like magical
-creature you control. This functions like skinsend, except your ear is a Fine construct with a fly
-speed equal to your base speed and a bonus on Fly checks equal to half your caster level. Your sense
-of hearing functions from your animated ear as if it were connected to your head, allowing you to
-hear as well as you normally could from your animated ear's vantage point.
+creature you control. This functions like [skinsend](ref/spell/skinsend), except your ear is a Fine
+construct with a fly speed equal to your base speed and a bonus on Fly checks equal to half your
+caster level. Your sense of hearing functions from your animated ear as if it were connected to your
+head, allowing you to hear as well as you normally could from your animated ear's vantage point.

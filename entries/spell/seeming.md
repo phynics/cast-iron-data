@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeming", path = "json/spells15.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/disguise-self" },
+]
 
 [fields]
 kind = "spell"
@@ -52,7 +55,7 @@ Descriptors: glamer
 
 **Sources:** PRPG Core Rulebook pg 339
 
-This spell functions like disguise self, except that you can change the appearance of other people
-as well. Affected creatures resume their normal appearances if slain. Unwilling targets can negate
-the spell's effect on them by making Will saves or with
+This spell functions like [disguise self](ref/spell/disguise-self), except that you can change the
+appearance of other people as well. Affected creatures resume their normal appearances if slain.
+Unwilling targets can negate the spell's effect on them by making Will saves or with
 [spell resistance](ref/rule/spell-resistance).

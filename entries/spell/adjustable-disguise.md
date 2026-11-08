@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adjustable_disguise", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/disguise-self" },
+]
 
 [fields]
 kind = "spell"

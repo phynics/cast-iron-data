@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_variant_mummy", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/create-undead" },
+]
 
 [fields]
 kind = "spell"

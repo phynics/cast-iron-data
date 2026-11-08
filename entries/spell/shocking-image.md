@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocking_image", path = "json/spells9.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mirror-image" },
+]
 
 [fields]
 kind = "spell"
@@ -51,8 +54,8 @@ Descriptors: electricity
 
 **Sources:** Ultimate Combat pg 243
 
-This spell works like mirror image, except the illusory doubles it creates discharge an electric
-shock when destroyed. An opponent that uses a melee attack to destroy one of your images takes 2d6
-points of electricity damage. You must overcome a target's
+This spell works like [mirror image](ref/spell/mirror-image), except the illusory doubles it creates
+discharge an electric shock when destroyed. An opponent that uses a melee attack to destroy one of
+your images takes 2d6 points of electricity damage. You must overcome a target's
 [spell resistance](ref/rule/spell-resistance) the first time you deal this electricity damage to it.
 Failure renders the target immune to damage from this spell.

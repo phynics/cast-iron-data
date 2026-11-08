@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apport_animal", path = "json/spells.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/apport-object" },
+]
 
 [fields]
 kind = "spell"
@@ -51,5 +54,5 @@ Subschool: Teleportation
 
 **Sources:** Occult Adventures pg 157
 
-This spell functions like apport object except the target is an animal. Only normal, nonmagical
-creatures of the animal type can be teleported.
+This spell functions like [apport object](ref/spell/apport-object) except the target is an animal.
+Only normal, nonmagical creatures of the animal type can be teleported.

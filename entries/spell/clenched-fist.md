@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clenched_fist", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/interposing-hand" },
+]
 
 [fields]
 kind = "spell"
@@ -44,10 +47,10 @@ Descriptors: force
 
 **Sources:** PRPG Core Rulebook pg 255
 
-This spell functions like interposing hand, except that the hand can also push or strike one
-opponent that you select. The floating hand can move as far as 60 feet and can attack in the same
-round. Since this hand is directed by you, its ability to notice or attack invisible or concealed
-creatures is no better than yours.
+This spell functions like [interposing hand](ref/spell/interposing-hand), except that the hand can
+also push or strike one opponent that you select. The floating hand can move as far as 60 feet and
+can attack in the same round. Since this hand is directed by you, its ability to notice or attack
+invisible or concealed creatures is no better than yours.
 
 The hand attacks once per round, and its attack bonus equals your caster level + your Intelligence,
 Wisdom, or Charisma modifier (for a wizard, cleric, or sorcerer, respectively) + 11 for the hand's

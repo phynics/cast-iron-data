@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defile_armor", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/sanctify-armor" },
+]
 
 [fields]
 kind = "spell"
@@ -43,4 +46,5 @@ Descriptors: evil
 
 **Sources:** Advanced Player's Guide pg 215
 
-As sanctify armor, except you gain DR 5/good when using your judgment or smite ability.
+As [sanctify armor](ref/spell/sanctify-armor), except you gain DR 5/good when using your judgment or
+smite ability.

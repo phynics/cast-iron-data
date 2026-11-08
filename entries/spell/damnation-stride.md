@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damnation_stride", path = "json/spells3.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/dimension-door" },
+]
 
 [fields]
 kind = "spell"
@@ -51,6 +54,6 @@ Descriptors: fire
 
 > _[Tieflings](ref/race/tiefling) have access to the following spell._
 
-This spell functions like dimension door, except you leave behind a burst of fire. Choose one corner
-of your starting square. A 10-foot-radius burst of flame explodes from that corner the moment you
-leave, dealing 4d6 points of fire damage.
+This spell functions like [dimension door](ref/spell/dimension-door), except you leave behind a
+burst of fire. Choose one corner of your starting square. A 10-foot-radius burst of flame explodes
+from that corner the moment you leave, dealing 4d6 points of fire damage.

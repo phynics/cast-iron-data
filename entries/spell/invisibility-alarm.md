@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_alarm", path = "json/spells14.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/alarm" },
+]
 
 [fields]
 kind = "spell"

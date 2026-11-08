@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cackling_skull", path = "json/spells2.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/magic-mouth" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "major_phantom_object", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/major-creation" },
+]
 
 [fields]
 kind = "spell"

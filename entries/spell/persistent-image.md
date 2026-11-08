@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persistent_image", path = "json/spells7.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/silent-image" },
+]
 
 [fields]
 kind = "spell"
@@ -50,7 +53,7 @@ Subschool: Figment
 
 **Sources:** PRPG Core Rulebook pg 319
 
-This spell functions like silent image, except that the figment includes visual, auditory,
-olfactory, and thermal components, and the figment follows a script determined by you. The figment
-follows that script without your having to concentrate on it. The illusion can include intelligible
-speech if you wish.
+This spell functions like [silent image](ref/spell/silent-image), except that the figment includes
+visual, auditory, olfactory, and thermal components, and the figment follows a script determined by
+you. The figment follows that script without your having to concentrate on it. The illusion can
+include intelligible speech if you wish.

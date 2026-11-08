@@ -6,6 +6,9 @@ source_ids = ["dungeon-denizens-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesh_to_ooze", path = "json/spells4.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/baleful-polymorph" },
+]
 
 [fields]
 kind = "spell"
@@ -43,10 +46,11 @@ Subschool: Polymorph
 
 **Sources:** Dungeon Denizens Revisited pg 19
 
-This functions like baleful polymorph, except the target becomes an ooze. A creature of 3 HD or less
-becomes a gray ooze, 4-9 HD becomes a gelatinous cube or ochre jelly, and 10+ HD becomes a black
-pudding. Alternatively, instead of a creature you may target a quantity of inert flesh (such as that
-created by the stone to flesh spell) of sufficient mass, which becomes an ooze of your choice.
+This functions like [baleful polymorph](ref/spell/baleful-polymorph), except the target becomes an
+ooze. A creature of 3 HD or less becomes a gray ooze, 4-9 HD becomes a gelatinous cube or ochre
+jelly, and 10+ HD becomes a black pudding. Alternatively, instead of a creature you may target a
+quantity of inert flesh (such as that created by the stone to flesh spell) of sufficient mass, which
+becomes an ooze of your choice.
 
 Because a target's gear does not transform with it, any items fall under or within the ooze's body,
 which may mean the items are destroyed. If the ooze has the split ability, splitting the ooze

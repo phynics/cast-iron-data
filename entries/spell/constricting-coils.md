@@ -6,6 +6,9 @@ source_ids = ["pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "constricting_coils", path = "json/spells12.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/hold-monster" },
+]
 
 [fields]
 kind = "spell"

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_whole", path = "json/spells6.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/mending" },
+]
 
 [fields]
 kind = "spell"
