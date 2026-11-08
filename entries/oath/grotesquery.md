@@ -10,7 +10,6 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
-replaces = ["Divine health"]
 +++
 
 **Sources:** Inner Sea Combat pg 15\

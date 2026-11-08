@@ -10,7 +10,6 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
-replaces = ["Detect evil"]
 +++
 
 **Sources:** Inner Sea Combat pg 15\

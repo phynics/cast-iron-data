@@ -10,7 +10,6 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
-replaces = ["Detect evil"]
 +++
 
 **Sources:** Divine Anthology pg 20\
