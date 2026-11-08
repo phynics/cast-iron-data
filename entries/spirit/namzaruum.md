@@ -11,6 +11,7 @@ provenance = [
 kind = "class_option"
 group = "medium-spirit"
 replaces = ["Decisive strike"]
+alters = ["Marshal's order"]
 +++
 
 **Sources:** Blood of the Ancients pg 24\

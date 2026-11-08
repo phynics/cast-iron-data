@@ -10,6 +10,7 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
+replaces = ["Aura of courage", "Aura of justice", "Holy champion"]
 +++
 
 **Sources:** Ultimate Magic pg 60\

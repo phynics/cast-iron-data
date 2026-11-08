@@ -10,6 +10,7 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
+replaces = ["Aura of resolve", "9th-level mercy"]
 +++
 
 **Sources:** Ultimate Magic pg 61\

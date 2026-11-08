@@ -10,6 +10,7 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "medium-spirit"
+alters = ["Inspiring call"]
 +++
 
 **Sources:** Horror Adventures pg 59\

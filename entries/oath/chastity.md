@@ -10,6 +10,7 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
+replaces = ["Divine grace", "Aura of resolve"]
 +++
 
 **Sources:** Ultimate Magic pg 62\

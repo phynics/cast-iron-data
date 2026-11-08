@@ -10,6 +10,7 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "medium-spirit"
+alters = ["Champion's prowess", "Legendary champion"]
 +++
 
 **Sources:** Occult Realms pg 11\

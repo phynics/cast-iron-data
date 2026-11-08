@@ -11,6 +11,7 @@ provenance = [
 kind = "class_option"
 group = "medium-spirit"
 replaces = ["Overflowing grace"]
+alters = ["Divine surge"]
 +++
 
 **Sources:** Occult Realms pg 10\

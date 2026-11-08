@@ -10,6 +10,7 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
+replaces = ["Detect evil", "Smite evil", "Channel positive energy"]
 +++
 
 **Sources:** Inner Sea Combat pg 15\

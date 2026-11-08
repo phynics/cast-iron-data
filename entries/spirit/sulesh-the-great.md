@@ -11,6 +11,7 @@ provenance = [
 kind = "class_option"
 group = "medium-spirit"
 replaces = ["Arcane surge"]
+alters = ["Archmage arcana"]
 +++
 
 **Sources:** Occult Realms pg 11\

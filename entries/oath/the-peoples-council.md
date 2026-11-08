@@ -10,6 +10,8 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
+replaces = ["Smite evil", "Aura of justice"]
+alters = ["Holy champion"]
 +++
 
 **Sources:** Divine Anthology pg 20\

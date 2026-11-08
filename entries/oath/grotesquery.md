@@ -10,6 +10,7 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
+replaces = ["Divine health", "Aura of faith"]
 +++
 
 **Sources:** Inner Sea Combat pg 15\

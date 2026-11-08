@@ -10,6 +10,7 @@ provenance = [
 [fields]
 kind = "class_option"
 group = "paladin-oath"
+replaces = ["Channel positive energy", "Divine bond", "Holy champion"]
 +++
 
 **Sources:** Ultimate Magic pg 62\
