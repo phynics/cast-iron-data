@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spellstrike"]
 +++
 
 **Sources:** Ultimate Magic pg 49\

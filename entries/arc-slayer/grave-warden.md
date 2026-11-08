@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Slayer talent gained at 2nd level", "Stalker", "Advanced slayer talent gained at 10th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 120\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Poison lore", "Poison resistance", "Trap sense"]
 +++
 
 **Sources:** Blood of the Ancients pg 33\

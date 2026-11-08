@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge", "Damage reduction"]
+alters = ["The barbarian's 2nd-level rage power"]
 +++
 
 **Sources:** Ultimate Wilderness pg 38, Champions of Corruption pg 27\

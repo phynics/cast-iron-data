@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Lore master", "Dirge of doom", "Frightening tune"]
+alters = ["Versatile performance"]
 +++
 
 **Sources:** Familiar Folio pg 6\

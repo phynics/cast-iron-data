@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Expert trainer", "Greater banner", "The cavalier's 18th-level bonus feat"]
+alters = ["Tactician"]
 +++
 
 **Sources:** Ultimate Combat pg 39\

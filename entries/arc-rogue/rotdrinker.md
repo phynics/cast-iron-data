@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "Improved uncanny dodge", "uncanny dodge"]
 +++
 
 **Sources:** Potions and Poisons pg 12\

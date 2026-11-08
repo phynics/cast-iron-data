@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane school"]
+alters = ["Arcane bond"]
 +++
 
 **Sources:** Adventurer's Guide pg 58\

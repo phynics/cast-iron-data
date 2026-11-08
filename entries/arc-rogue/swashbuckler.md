@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense"]
 +++
 
 > _**Note:** This is a rogue archetype, and has no relation to the

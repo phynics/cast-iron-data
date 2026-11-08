@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature bond", "The 6th-level additional use of wild shape"]
 +++
 
 **Sources:** Ultimate Magic pg 38\

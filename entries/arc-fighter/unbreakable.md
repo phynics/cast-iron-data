@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The fighter's 1st-level bonus feat", "Bravery", "Weapon training 1", "Weapon training 2", "Armor training 3", "Weapon training 3", "Armor training 4", "Weapon training 4", "Weapon mastery"]
 +++
 
 **Sources:** Ultimate Combat pg 49\

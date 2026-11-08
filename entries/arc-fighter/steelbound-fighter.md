@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The fighter's 1st-level bonus feat", "Weapon training"]
 +++
 
 **Sources:** Haunted Heroes Handbook pg 22\

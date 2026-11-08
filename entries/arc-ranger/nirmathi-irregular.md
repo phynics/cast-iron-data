@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor and weapon proficiency", "Wild empathy"]
+alters = ["Favored enemy", "Favored terrain"]
 +++
 
 **Sources:** Inner Sea Magic pg 37\

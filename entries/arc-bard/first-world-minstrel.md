@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Inspire courage", "Dirge of doom", "Well-versed"]
+alters = ["Spell list"]
 +++
 
 **Sources:** Legacy of the First World pg 11\

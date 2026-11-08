@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspire courage", "Lore master", "Dirge of doom"]
 +++
 
 **Sources:** Ultimate Magic pg 25\

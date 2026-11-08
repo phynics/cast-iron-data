@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Well-versed", "Bardic knowledge", "lore master"]
+alters = ["Weapon proficiencies"]
 +++
 
 **Sources:** Dragon Empires Primer pg 22\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "improved uncanny dodge", "the 2nd- and 8th-level rage powers", "Greater rage", "The 14th-level rage power", "Mighty rage"]
+alters = ["Rage"]
 +++
 
 **Sources:** Occult Adventures pg 114\

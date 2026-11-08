@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The bonus feat gained at 2nd level"]
+alters = ["Martial flexibility", "Close weapon mastery"]
 +++
 
 **Sources:** Inner Sea Taverns pg 58\

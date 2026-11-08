@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Standard bonus feats", "Flurry of blows", "Perfect self"]
 +++
 
 **Sources:** Ultimate Combat pg 59\

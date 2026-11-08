@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspire courage", "Suggestion", "Mass suggestion", "Versatile performance", "Well-versed", "Lore master", "Jack of all trades"]
 +++
 
 **Sources:** Advanced Player's Guide pg 80\

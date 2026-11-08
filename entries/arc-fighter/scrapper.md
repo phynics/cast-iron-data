@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor training", "Weapon training 1"]
 +++
 
 **Sources:** Construct Handbook pg 14\

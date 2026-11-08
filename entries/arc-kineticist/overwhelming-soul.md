@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Internal buffer", "Elemental overflow"]
+alters = ["Key ability score of wild talents", "Burn"]
 +++
 
 **Sources:** Occult Adventures pg 91\

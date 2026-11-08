@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Deadeye deed", "Gunslinger's dodge deed", "Gunslinger initiative deed", "Startling shot deed", "Expert loading deed"]
 +++
 
 **Sources:** Martial Arts Handbook pg 10\

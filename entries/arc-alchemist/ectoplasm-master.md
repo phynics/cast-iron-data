@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew Potion"]
+alters = ["Extracts"]
 +++
 
 **Sources:** Haunted Heroes Handbook pg 14\

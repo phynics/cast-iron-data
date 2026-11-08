@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon proficiencies", "Armor proficiencies", "Spell recall"]
 +++
 
 **Sources:** Inner Sea Magic pg 39\

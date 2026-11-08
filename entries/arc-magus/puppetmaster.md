@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Knowledge pool", "greater spell access", "Spellstrike", "fighter training", "counterstrike", "Medium armor", "heavy armor", "True magus"]
+alters = ["Skills", "Arcane pool", "Spell combat", "improved spell combat", "greater spell combat"]
 +++
 
 **Sources:** Arcane Anthology pg 27\

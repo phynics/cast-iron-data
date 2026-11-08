@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trance of three"]
+alters = ["Spirit", "spirit mastery", "Spirit surge", "Taboo"]
 +++
 
 **Sources:** Disciple's Doctrine pg 7\

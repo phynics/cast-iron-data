@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Proficiency with heavy armor and tower shields", "Bravery"]
 +++
 
 **Sources:** Ultimate Combat pg 47\

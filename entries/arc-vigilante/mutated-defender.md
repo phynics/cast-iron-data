@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Vigilante specialization"]
+alters = ["Vigilante talent"]
 +++
 
 **Sources:** People of the Wastes pg 9\

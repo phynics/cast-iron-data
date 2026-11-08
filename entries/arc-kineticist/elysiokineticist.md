@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Expanded element", "Basic phytokinesis utility wild talent granted by the wood element", "Infusion gained at 1st level", "Flesh of wood defense wild talent granted by the wood element"]
+alters = ["Elemental focus"]
 +++
 
 **Sources:** People of the Wastes pg 18\

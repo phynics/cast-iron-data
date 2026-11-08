@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mental potency"]
+alters = ["Hypnotic stare"]
 +++
 
 **Sources:** Psychic Anthology pg 17\

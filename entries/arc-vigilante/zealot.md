@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", "Vigilante specialization"]
+alters = ["Weapon proficiencies", "Vigilante talents"]
 +++
 
 **Sources:** Ultimate Intrigue pg 62, Inner Sea Intrigue pg 33\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Lay on hands", "Mercy", "Channel positive energy"]
 +++
 
 **Sources:** Occult Origins pg 20\

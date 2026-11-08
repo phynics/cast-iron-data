@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Tactician", "greater tactician", "master tactician", "Cavalier's charge", "Expert trainer", "banner", "Mighty charge", "greater banner"]
 +++
 
 **Sources:** Occult Adventures pg 117\

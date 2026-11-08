@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Bravery", "fighter bonus feat gained at 2nd level", "Armor training", "armor mastery"]
 +++
 
 **Sources:** Adventurer's Guide pg 144\

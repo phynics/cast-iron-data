@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense"]
 +++
 
 **Sources:** Ultimate Wilderness pg 76\

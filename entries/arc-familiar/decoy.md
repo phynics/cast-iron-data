@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alertness", "Speak with master", "speak with animals of its kind", "Spell resistance"]
 +++
 
 **Sources:** Familiar Folio pg 10\

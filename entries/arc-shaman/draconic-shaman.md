@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit", "spirit animal", "hexes gained at 4th and 10th levels"]
+alters = ["Spirit magic"]
 +++
 
 **Sources:** Legacy of Dragons pg 24\

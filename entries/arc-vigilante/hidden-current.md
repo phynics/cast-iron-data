@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level social talent", "Frightening appearance", "2nd-level vigilante talent"]
 +++
 
 **Sources:** Blood of the Sea pg 8\

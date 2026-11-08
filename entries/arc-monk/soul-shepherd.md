@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Evasion", "improved evasion", "Abundant step", "Quivering palm"]
 +++
 
 **Sources:** Pathfinder \#139: The Dead Road pg 65\

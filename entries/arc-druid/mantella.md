@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spontaneous casting"]
+alters = ["Wild shape", "Venom immunity"]
 +++
 
 **Sources:** Potions and Poisons pg 4\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["6th-level hex", "8th-level hex"]
+alters = ["1st-level hex"]
 +++
 
 **Sources:** Legacy of the First World pg 16\

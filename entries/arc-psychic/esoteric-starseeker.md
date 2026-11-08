@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Discipline spells, 1st- and 11th-level phrenic amplifications"]
 +++
 
 **Sources:** Wilderness Origins pg 30\

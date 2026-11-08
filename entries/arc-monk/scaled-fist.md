@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Still mind", "Maneuver training", "Quivering palm"]
+alters = ["Bonus feats"]
 +++
 
 **Sources:** Legacy of Dragons pg 14\

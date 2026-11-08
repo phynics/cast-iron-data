@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "armor mastery"]
+alters = ["The fighter's armor proficiencies", "Weapon training", "Weapon mastery"]
 +++
 
 **Sources:** Martial Arts Handbook pg 11\

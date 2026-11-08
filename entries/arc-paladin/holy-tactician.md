@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Smite evil", "Divine health", "divine bond", "Aura of courage", "Aura of resolve", "Aura of justice", "Holy champion"]
 +++
 
 **Sources:** Ultimate Combat pg 64\

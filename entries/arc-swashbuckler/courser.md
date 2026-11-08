@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Opportune parry and riposte", "4th-level bonus feat", "Menacing swordplay", "Superior feint", "Bleeding wound"]
+alters = ["Nimble"]
 +++
 
 **Sources:** Blood of the Beast pg 24\

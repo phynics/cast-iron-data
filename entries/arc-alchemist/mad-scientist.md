@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-level discovery", "4th-level discovery"]
+alters = ["Alchemy", "Mutagen"]
 +++
 
 **Sources:** Horror Adventures pg 45\

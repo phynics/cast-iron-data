@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Phantom"]
 +++
 
 **Sources:** Distant Realms pg 53\

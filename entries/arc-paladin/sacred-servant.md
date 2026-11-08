@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Smite evil", "Aura of resolve"]
+alters = ["Divine bond"]
 +++
 
 **Sources:** Advanced Player's Guide pg 117\

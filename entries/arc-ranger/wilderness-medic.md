@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Endurance", "evasion", "Improved evasion"]
+alters = ["Hunter's bond"]
 +++
 
 **Sources:** Healer's Handbook pg 5\

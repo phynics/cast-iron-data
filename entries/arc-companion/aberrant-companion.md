@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Share Spells", "Devotion", "Multiattack", "The +2 natural armor increase at 9th level"]
 +++
 
 **Sources:** Ultimate Wilderness pg 186\

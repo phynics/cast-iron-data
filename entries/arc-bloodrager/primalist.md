@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Bloodline"]
 +++
 
 **Sources:** Advanced Class Guide pg 84\

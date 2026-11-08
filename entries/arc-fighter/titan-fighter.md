@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The fighter's 1st level bonus feat", "Armor training", "Weapon training"]
 +++
 
 **Sources:** Giant Hunter's Handbook pg 21\

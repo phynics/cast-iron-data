@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bravery", "Bonus feats gained at 2nd and 12th level", "Armor mastery", "Weapon mastery"]
 +++
 
 **Sources:** Blood of the Ancients pg 27\

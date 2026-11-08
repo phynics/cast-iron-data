@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor training 1", "Armor training 2", "Armor training 3", "Armor training 4"]
 +++
 
 **Sources:** Inner Sea Primer pg 25\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Sacred armor, 3rd-level bonus feat"]
+alters = ["Weapon and armor proficiencies", "Sacred weapon", "Blessings", "Blessings (major)"]
 +++
 
 **Sources:** Cohorts and Companions pg 24\

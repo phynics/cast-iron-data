@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mercy"]
 +++
 
 **Sources:** Armor Master's Handbook pg 6\

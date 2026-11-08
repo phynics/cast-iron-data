@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar", "1st-level hex"]
 +++
 
 **Sources:** Advanced Race Guide pg 140\

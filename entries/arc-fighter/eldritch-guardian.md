@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The bonus feat gained at 1st level", "The bonus feat gained at 2nd level", "Bravery"]
 +++
 
 **Sources:** Familiar Folio pg 7\

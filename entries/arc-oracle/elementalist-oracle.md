@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The bonus spells gained at 4th, 6th, 8th, 10th, 12th and 18th levels from the oracle's mystery", "Final revelation"]
 +++
 
 **Sources:** Ultimate Wilderness pg 68, People of the Sands pg 15\

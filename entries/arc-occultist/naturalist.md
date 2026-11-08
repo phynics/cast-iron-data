@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magic circles", "fast circles", "Outside contact", "Binding circles"]
+alters = ["Mental focus"]
 +++
 
 **Sources:** Ultimate Wilderness pg 66\

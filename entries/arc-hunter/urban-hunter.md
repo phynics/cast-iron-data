@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter tactics", "teamwork feat", "Woodland stride", "One with the wild"]
+alters = ["Animal companion"]
 +++
 
 **Sources:** Heroes of the Streets pg 25\

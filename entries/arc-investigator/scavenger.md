@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "Poison resistance", "poison immunity"]
+alters = ["Alchemy", "Inspiration"]
 +++
 
 **Sources:** Blood of the Beast pg 21\

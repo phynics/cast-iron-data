@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The bonus combat feat gained at 2nd level", "Knockout", "Close weapon mastery"]
+alters = ["The brawler's armor proficiencies"]
 +++
 
 **Sources:** Blood of the Ancients pg 11\

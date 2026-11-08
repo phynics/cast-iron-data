@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Knockout", "close weapon mastery"]
+alters = ["Unarmed strike"]
 +++
 
 **Sources:** Ultimate Wilderness pg 43\

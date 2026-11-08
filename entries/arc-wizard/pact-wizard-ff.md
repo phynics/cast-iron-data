@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Arcane bond", "Arcane school"]
 +++
 
 **Sources:** Familiar Folio pg 8\

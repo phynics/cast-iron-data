@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Proficiency with the rapier and whip", "Suggestion", "mass suggestion", "Dirge of doom", "Frightening performance", "Bardic knowledge", "lore master", "Versatile performance", "Soothing performance", "Deadly performance"]
+alters = ["Bardic performance"]
 +++
 
 **Sources:** Ultimate Combat pg 32\

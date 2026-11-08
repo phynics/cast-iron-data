@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wandering spirit gained at 4th level", "Spirit magic spells gained from the shaman's wandering spirit", "Wandering hex gained at 6th level", "Greater version of wandering spirit gained at 12th level", "true version of wandering spirit gained at 20th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 112\

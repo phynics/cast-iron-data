@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Order"]
+alters = ["The cavalier's weapon proficiencies", "Mount"]
 +++
 
 **Sources:** Blood of the Beast pg 17\

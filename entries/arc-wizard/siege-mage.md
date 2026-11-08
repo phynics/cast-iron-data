@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe scroll", "Arcane bond", "Cantrips", "Arcane school"]
 +++
 
 **Sources:** Ultimate Combat pg 75\

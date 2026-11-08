@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild shape"]
+alters = ["Nature's bond"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 6\

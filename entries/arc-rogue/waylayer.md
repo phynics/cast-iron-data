@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge", "Rogue talent gained at 12th level", "Rogue talent gained at 20th level"]
 +++
 
 **Sources:** Dirty Tactics Toolbox pg 13\

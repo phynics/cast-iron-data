@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Utility shot deed", "Expert loading deed", "Lightning reload deed", "Slinger's luck deed", "Nimble", "The bonus feat gained at 4th level"]
+alters = ["Gun training"]
 +++
 
 **Sources:** Ultimate Wilderness pg 91\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fascinate", "suggestion", "mass suggestion", "Inspire competence", "The use of lore master gained at 5th level"]
 +++
 
 **Sources:** Advanced Race Guide pg 176\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Banner", "Mighty charge", "Supreme charge"]
 +++
 
 **Sources:** Ultimate Combat pg 39, Chronicle of Legends pg 4\

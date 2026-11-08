@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature bond"]
+alters = ["Spontaneous casting", "Wild shape"]
 +++
 
 **Sources:** Planar Adventures pg 19\

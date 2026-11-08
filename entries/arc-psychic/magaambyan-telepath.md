@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Discipline spells", "1st- and 11th-level phrenic amplifications", "Telepathic bond"]
+alters = ["Telepathy"]
 +++
 
 **Sources:** Wilderness Origins pg 27\

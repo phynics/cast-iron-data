@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shifter aspect", "chimeric aspect", "greater chimeric aspect", "final aspect", "Wild empathy", "track", "woodland stride", "trackless step", "Wild shape"]
+alters = ["Shifter claws"]
 +++
 
 **Sources:** Distant Realms pg 12\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shaman hex gained at 8th level", "Manifestation"]
+alters = ["Spirit animal", "Wandering spirit"]
 +++
 
 **Sources:** Heroes of the Darklands pg 22\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The 1st-, 8th-, and 16th-level bloodline powers", "9th-level and 15th-level bloodline feats", "The 12th-level bloodline feat"]
+alters = ["The 4th-, 16th-, and 20th-level bloodline powers", "Greater bloodrage", "mighty bloodrage"]
 +++
 
 **Sources:** Blood of the Beast pg 4\

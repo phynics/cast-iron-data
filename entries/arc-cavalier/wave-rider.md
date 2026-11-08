@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies"]
+alters = ["Mount"]
 +++
 
 **Sources:** Inner Sea Combat pg 47\

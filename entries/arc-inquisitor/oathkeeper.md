@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "Track"]
+alters = ["Alignment requirements"]
 +++
 
 **Sources:** Merchant's Manifest pg 30\

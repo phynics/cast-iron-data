@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bravery", "Armor training", "armor mastery", "Weapon training"]
+alters = ["Armor proficiency", "Bonus feats", "weapon mastery"]
 +++
 
 **Sources:** Aquatic Adventures pg 51\

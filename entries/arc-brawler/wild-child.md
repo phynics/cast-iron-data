@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus combat feats gained at 2nd, 8th, 14th, and 20th levels", "Close weapon mastery", "Bonus combat feats gained at 5th, 11th, and 17th levels"]
+alters = ["Maneuver training"]
 +++
 
 **Sources:** Advanced Class Guide pg 89\

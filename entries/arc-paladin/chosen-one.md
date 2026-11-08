@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Divine grace", "smite evil", "Lay on hands", "channel positive energy"]
 +++
 
 **Sources:** Familiar Folio pg 6\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Summon monster I"]
+alters = ["Spell list of the summoner"]
 +++
 
 **Sources:** Advanced Race Guide pg 44\

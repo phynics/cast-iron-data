@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Still mind", "7th- and 10th-level ki pool abilities", "Improved evasion", "The slow fall improvement; it remains at 70 feet"]
+alters = ["Alignment requirement", "Slow fall", "Perfect self"]
 +++
 
 **Sources:** Occult Adventures pg 122\

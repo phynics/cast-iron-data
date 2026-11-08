@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["6th-level mercy", "9th-level mercy"]
+alters = ["Smite evil"]
 +++
 
 **Sources:** Occult Adventures pg 123\

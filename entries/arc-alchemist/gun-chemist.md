@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Bombs", "Brew Potion", "Throw Anything", "Poison resistance", "Swift poisoning"]
 +++
 
 **Sources:** People of the Wastes pg 11\

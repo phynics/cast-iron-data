@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "Improved Evasion", "Multiattack"]
 +++
 
 **Sources:** Plane-Hopper's Handbook pg 26\

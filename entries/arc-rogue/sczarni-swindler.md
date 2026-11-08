@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Evasion", "Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
 **Sources:** The Harrow Handbook pg 13\

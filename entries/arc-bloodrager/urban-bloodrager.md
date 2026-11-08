@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Blood sanctuary", "Damage reduction"]
+alters = ["Weapon and armor proficiencies", "Bloodrage"]
 +++
 
 **Sources:** Heroes of the Streets pg 24\

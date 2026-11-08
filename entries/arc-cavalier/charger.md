@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Mount", "Cavalier's charge", "Expert trainer", "Mighty charge"]
 +++
 
 **Sources:** Inner Sea Monster Codex pg 5\

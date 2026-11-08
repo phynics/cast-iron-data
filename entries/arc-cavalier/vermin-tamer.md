@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Expert training", "Demanding challenge"]
+alters = ["Mount"]
 +++
 
 **Sources:** Heroes of the Darklands pg 17\

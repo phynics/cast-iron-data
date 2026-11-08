@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["School powers granted by the wizard's arcane school", "Scribe Scroll", "5th-, 10th-, 15th-, and 20th-level bonus feats"]
+alters = ["Arcane bond"]
 +++
 
 **Sources:** Construct Handbook pg 10\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor training 1", "Weapon training 1", "Armor training 2", "Weapon training 2", "Armor training 3", "Weapon training 3", "Armor training 4", "Weapon training 4", "Armor mastery"]
+alters = ["Weapon mastery"]
 +++
 
 **Sources:** Advanced Player's Guide pg 104\

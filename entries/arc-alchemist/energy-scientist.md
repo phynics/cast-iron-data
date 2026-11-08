@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew potion", "Poison resistance", "poison immunity", "Poison use", "swift poisoning"]
+alters = ["Bombs", "Alchemy"]
 +++
 
 **Sources:** Elemental Master's Handbook pg 30\

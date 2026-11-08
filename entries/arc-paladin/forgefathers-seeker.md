@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "Aura of faith", "Holy champion"]
+alters = ["Smite evil", "Aura of justice"]
 +++
 
 **Sources:** Construct Handbook pg 13\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magus arcana gained at 3rd level"]
+alters = ["Arcane Pool"]
 +++
 
 **Sources:** Ultimate Magic pg 47\

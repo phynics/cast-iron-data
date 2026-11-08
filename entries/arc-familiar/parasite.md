@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Improved evasion", "share spells", "Deliver touch spells", "speak with animals of its kind", "spell resistance", "scry on familiar"]
 +++
 
 **Sources:** Wilderness Origins pg 21\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon training 1", "Armor training 2 and 4", "Armor mastery"]
 +++
 
 **Sources:** Technology Guide pg 12\

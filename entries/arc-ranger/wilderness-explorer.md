@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Hunter's bond", "Swift tracker", "Quarry", "Improved quarry"]
+alters = ["Favored terrain", "Favored terrain", "Favored terrain"]
 +++
 
 **Sources:** Ultimate Wilderness pg 74\

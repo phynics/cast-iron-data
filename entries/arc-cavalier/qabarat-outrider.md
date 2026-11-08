@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Tactician", "greater tactician", "master tactician", "Banner", "Greater banner"]
 +++
 
 **Sources:** People of the Stars pg 11\

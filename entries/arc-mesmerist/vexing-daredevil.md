@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level mesmerist trick", "Touch treatment", "Bold stare", "Glib lie"]
 +++
 
 **Sources:** Occult Adventures pg 98\

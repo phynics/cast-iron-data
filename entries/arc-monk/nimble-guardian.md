@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "Still mind", "Purity of body", "Wholeness of body", "Improved evasion"]
 +++
 
 **Sources:** Advanced Race Guide pg 92\

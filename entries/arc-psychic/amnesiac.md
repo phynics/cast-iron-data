@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Occult Adventures pg 104\

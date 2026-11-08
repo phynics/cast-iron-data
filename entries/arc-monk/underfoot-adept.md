@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus feat gained at 1st level", "Stunning fist", "High jump"]
 +++
 
 **Sources:** Advanced Race Guide pg 65\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter's bond (but see text)"]
 +++
 
 **Sources:** Inner Sea Combat pg 43, Paizo Blog - Sable Company Marine\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit animal", "Wandering spirit", "wandering hex", "8th-level hex"]
 +++
 
 **Sources:** Occult Origins pg 23\

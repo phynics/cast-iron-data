@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon proficiency", "Bonus feats gained at 6th and 10th levels", "Empty body"]
+alters = ["Unarmed strike", "Wholeness of body", "Quivering palm"]
 +++
 
 **Sources:** Martial Arts Handbook pg 6\

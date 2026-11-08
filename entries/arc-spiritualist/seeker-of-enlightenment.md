@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shared consciousness", "Detect undead", "Calm spirit", "See invisibility", "Fused consciousness", "Call spirit"]
 +++
 
 **Sources:** Disciple's Doctrine pg 22\

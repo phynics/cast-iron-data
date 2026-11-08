@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew potion", "Mutagen", "Persistent mutagen"]
+alters = ["Extracts", "Bomb"]
 +++
 
 **Sources:** Wilderness Origins pg 17\

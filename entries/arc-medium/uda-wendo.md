@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shared seance", "Haunt channeler", "location channel", "connection channel"]
+alters = ["Spirit"]
 +++
 
 **Sources:** Haunted Heroes Handbook pg 23\

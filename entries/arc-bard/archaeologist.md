@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Versatile performance", "Well-versed"]
 +++
 
 **Sources:** Ultimate Combat pg 32\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison resistance +2", "Swift poisoning", "Poison resistance +6", "the discovery gained at 8th level"]
 +++
 
 **Sources:** Healer's Handbook pg 10\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore"]
 +++
 
 **Sources:** Ultimate Magic pg 45\

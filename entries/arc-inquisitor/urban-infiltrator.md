@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "Stalwart"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 18\

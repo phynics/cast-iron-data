@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Maneuver training", "Abundant step", "quivering palm"]
 +++
 
 **Sources:** Inner Sea Combat pg 40\

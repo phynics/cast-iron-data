@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning Fist", "Abundant step", "Quivering palm", "Tongue of the sun and the moon"]
 +++
 
 **Sources:** Advanced Player's Guide pg 114\

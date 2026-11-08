@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "mesmerist trick gained at 2nd level", "manifold tricks", "Touch treatment", "rule minds"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Psychic Anthology pg 18\

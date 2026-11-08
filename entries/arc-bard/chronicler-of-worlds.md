@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspire greatness", "Inspire heroics", "Well-versed", "Versatile performance"]
+alters = ["Bardic knowledge"]
 +++
 
 **Sources:** Planar Adventures pg 11\

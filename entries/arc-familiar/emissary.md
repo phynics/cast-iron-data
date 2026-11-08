@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alertness", "Share spells", "Deliver touch spells"]
 +++
 
 **Sources:** Ultimate Wilderness pg 210, Familiar Folio pg 10\

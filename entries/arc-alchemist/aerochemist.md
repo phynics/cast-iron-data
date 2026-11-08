@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "swift poisoning", "persistent mutagen", "Poison use", "swift alchemy", "Poison resistance"]
 +++
 
 **Sources:** Blood of the Ancients pg 27\

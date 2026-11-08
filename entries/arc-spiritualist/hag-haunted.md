@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shared consciousness", "fused consciousness", "Spiritual interference", "greater spiritual interference"]
+alters = ["Phantom"]
 +++
 
 **Sources:** Blood of the Coven pg 23\

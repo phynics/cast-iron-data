@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["6th-level hex"]
+alters = ["Patron spells", "Hex", "major hex", "grand hex"]
 +++
 
 **Sources:** Heroes of the Darklands pg 16\

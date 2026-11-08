@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "trap sense", "Alchemy", "Poison resistance", "Poison immunity"]
+alters = ["Inspiration"]
 +++
 
 **Sources:** Blood of the Coven pg 28\

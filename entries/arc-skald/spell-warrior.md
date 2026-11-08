@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "Inspired rage", "Spell kenning", "Dirge of doom", "Master skald"]
 +++
 
 **Sources:** Advanced Class Guide pg 116\

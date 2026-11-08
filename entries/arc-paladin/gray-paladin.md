@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Aura of good", "divine grace", "Code of conduct and associated abilities", "Divine health", "Channel positive energy", "Aura of justice"]
+alters = ["Alignment restrictions", "Smite evil", "aura of courage", "aura of resolve", "aura of righteousness", "Ex-paladin", "Smite evil"]
 +++
 
 **Sources:** Ultimate Intrigue pg 69\

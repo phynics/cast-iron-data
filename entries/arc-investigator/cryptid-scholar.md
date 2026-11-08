@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "poison resistance", "Studied combat", "Studied strike"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 18\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Deadeye deed", "Startling shot deed", "Bleeding wound deed", "Menacing shot deed", "The bonus feat gained at 4th level"]
 +++
 
 **Sources:** Pathfinder \#139: The Dead Road pg 65\

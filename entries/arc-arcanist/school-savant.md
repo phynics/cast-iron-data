@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The arcanist exploits gained at 1st, 3rd, and 7th levels"]
 +++
 
 **Sources:** Advanced Class Guide pg 78\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Swift tracker", "Slayer's advance"]
+alters = ["Studied target", "stalker", "Quarry", "improved quarry"]
 +++
 
 **Sources:** Pathfinder \#124: City in the Deep pg 80\

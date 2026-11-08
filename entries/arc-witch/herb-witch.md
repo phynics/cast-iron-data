@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st- and 10th-level hexes"]
+alters = ["Patron"]
 +++
 
 **Sources:** Ultimate Wilderness pg 89, Heroes of the Wild pg 11\

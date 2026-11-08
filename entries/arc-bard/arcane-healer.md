@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Versatile performance", "Loremaster"]
 +++
 
 **Sources:** Faiths and Philosophies pg 13\

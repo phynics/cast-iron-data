@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bloodline powers gained at 1st, 9th, and 15th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 122\

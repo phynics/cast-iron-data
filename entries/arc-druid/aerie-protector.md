@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride", "Resist nature's lure", "Venom immunity"]
+alters = ["Weapon and armor proficiency", "Nature bond", "Wild empathy", "Wild shape"]
 +++
 
 **Sources:** Ultimate Wilderness pg 47\

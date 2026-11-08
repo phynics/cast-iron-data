@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magic item skill", "Shift focus, 7th-level focus power", "Aura sight, 5th-level focus power"]
+alters = ["Implements", "implement mastery", "Magic circles"]
 +++
 
 **Sources:** Plane-Hopper's Handbook pg 7\

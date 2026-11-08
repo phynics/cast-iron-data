@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Gunslinger's dodge deed", "Gunslinger initiative", "Nimble +1"]
 +++
 
 **Sources:** Knights of the Inner Sea pg 20\

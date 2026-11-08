@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "Stern gaze", "Solo tactics"]
 +++
 
 **Sources:** Dirty Tactics Toolbox pg 17\

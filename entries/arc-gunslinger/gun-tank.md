@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Gunslinger's dodge deed", "Evasive deed", "Nimble", "All bonus combat/grit feats"]
 +++
 
 **Sources:** Ultimate Combat pg 50\

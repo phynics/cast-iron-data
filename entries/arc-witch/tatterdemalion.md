@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level hex", "4th-, 8th-, 12th-, and 16th-level hexes"]
+alters = ["Weapon proficiencies", "Cantrips", "Spells"]
 +++
 
 **Sources:** Horror Adventures pg 73\

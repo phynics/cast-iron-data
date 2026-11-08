@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Ninja trick gained at 2nd level", "Uncanny dodge", "Improved uncanny dodge"]
+alters = ["Ki pool"]
 +++
 
 **Sources:** Heroes from the Fringe pg 30\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Spell kenning", "Damage reduction"]
+alters = ["Rage powers"]
 +++
 
 **Sources:** Disciple's Doctrine pg 24\

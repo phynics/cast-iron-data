@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll, 5th-, 10th-, 15th-, and 20th-level bonus feats", "Hand of the apprentice universalist school ability", "Metamagic mastery universalist school ability"]
+alters = ["Arcane school"]
 +++
 
 **Sources:** Blood of the Ancients pg 14\

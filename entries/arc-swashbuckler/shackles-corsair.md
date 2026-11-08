@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nimble", "Swashbuckler initiative", "Targeted strike"]
 +++
 
 **Sources:** Advanced Class Origins pg 22\

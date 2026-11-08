@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Trackless step", "resist nature's lure", "Venom immunity", "A thousand faces"]
+alters = ["Nature bond"]
 +++
 
 **Sources:** Advanced Player's Guide pg 98\

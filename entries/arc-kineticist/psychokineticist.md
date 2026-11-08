@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Class skills", "key ability score of wild talents", "Burn", "Elemental overflow"]
 +++
 
 **Sources:** Horror Adventures pg 56\

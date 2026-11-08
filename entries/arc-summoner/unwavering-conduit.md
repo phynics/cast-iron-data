@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Eidolon", "Summon monster", "Spells known"]
 +++
 
 **Sources:** Monster Summoner's Handbook pg 17\

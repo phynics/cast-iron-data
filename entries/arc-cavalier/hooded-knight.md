@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Tactician", "Greater tactician", "Master tactician"]
+alters = ["The cavalier's mount"]
 +++
 
 **Sources:** Legacy of the First World pg 26\

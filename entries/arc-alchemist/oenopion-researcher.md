@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison use", "Swift alchemy"]
 +++
 
 **Sources:** Inner Sea Magic pg 37\

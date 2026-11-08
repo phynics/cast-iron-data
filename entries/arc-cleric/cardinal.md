@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor proficiencies", "Spontaneous casting ability"]
+alters = ["Domains", "class skills", "skill ranks per level", "base attack bonus"]
 +++
 
 **Sources:** Ultimate Intrigue pg 64\

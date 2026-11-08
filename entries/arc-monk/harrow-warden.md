@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Improved evasion", "Diamond body", "Quivering palm"]
 +++
 
 **Sources:** The Harrow Handbook pg 7\

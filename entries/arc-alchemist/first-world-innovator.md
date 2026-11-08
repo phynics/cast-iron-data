@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew Potion", "poison use", "swift poisoning", "poison immunity", "Poison resistance"]
+alters = ["Bombs"]
 +++
 
 **Sources:** Legacy of the First World pg 6\

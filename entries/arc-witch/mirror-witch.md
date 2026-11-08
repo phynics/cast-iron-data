@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar"]
 +++
 
 **Sources:** Villain Codex pg 152\

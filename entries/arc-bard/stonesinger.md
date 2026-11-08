@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Countersong", "Dirge of doom"]
+alters = ["Spellcasting", "Bardic performance"]
 +++
 
 **Sources:** Heroes of the Darklands pg 11\

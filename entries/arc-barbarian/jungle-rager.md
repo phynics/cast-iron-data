@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
+alters = ["Damage reduction"]
 +++
 
 **Sources:** Inner Sea Combat pg 39\

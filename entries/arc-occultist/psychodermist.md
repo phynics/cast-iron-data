@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magic item skill", "Object reading", "Aura sight", "Outside contact", "Binding circles", "fast circles"]
+alters = ["Implements"]
 +++
 
 **Sources:** Monster Hunter's Handbook pg 25\

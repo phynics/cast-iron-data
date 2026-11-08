@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The discovery at 2nd level", "The discovery at 4th level"]
 +++
 
 **Sources:** Monster Codex pg 128\

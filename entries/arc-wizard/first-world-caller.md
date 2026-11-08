@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane school", "Scribe Scroll", "10th- and 15th-level bonus feats"]
+alters = ["Arcane bond"]
 +++
 
 **Sources:** Heroes from the Fringe pg 17\

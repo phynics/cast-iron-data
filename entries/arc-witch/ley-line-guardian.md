@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar, 1st- and 8th-level hexes"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Occult Adventures pg 125\

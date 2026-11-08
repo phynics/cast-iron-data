@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Expanded element", "Omnikinesis"]
+alters = ["Elemental focus", "kinetic blast", "Elemental defense"]
 +++
 
 **Sources:** Ultimate Wilderness pg 63\

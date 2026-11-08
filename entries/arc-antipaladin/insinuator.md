@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Aura of evil", "Smite good", "Touch of corruption", "Aura of cowardice", "Plague bringer", "Cruelty", "Antipaladin spells", "Aura of despair", "Aura of vengeance", "Aura of sin", "Aura of depravity", "Unholy champion"]
+alters = ["Detect good", "Channel negative energy"]
 +++
 
 **Sources:** Agents of Evil pg 20\

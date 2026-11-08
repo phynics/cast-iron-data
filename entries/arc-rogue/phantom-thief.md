@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Debilitating injury", "sneak attack", "trapfinding", "Trap sense", "Master strike"]
+alters = ["Rogue's edge (unchained rogue only)", "Rogue talent"]
 +++
 
 **Sources:** Ultimate Intrigue pg 46\

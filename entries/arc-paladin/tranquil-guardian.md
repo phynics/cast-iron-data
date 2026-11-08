@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Smite evil", "Aura of courage", "Aura of resolve", "Aura of justice", "Holy champion"]
 +++
 
 **Sources:** Advanced Race Guide pg 86\

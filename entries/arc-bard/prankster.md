@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fascinate", "Suggestion", "Mass suggestion", "Lore master"]
 +++
 
 **Sources:** Advanced Race Guide pg 35\

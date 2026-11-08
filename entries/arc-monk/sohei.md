@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Fast movement", "increased unarmed damage", "Slow fall", "abundant step", "Purity of body", "diamond body", "quivering palm", "timeless body", "tongue of sun and moon"]
+alters = ["Weapon and armor proficiencies"]
 +++
 
 **Sources:** Ultimate Combat pg 60\

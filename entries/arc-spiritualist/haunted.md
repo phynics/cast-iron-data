@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Dual bond", "Bonded manifestation"]
 +++
 
 **Sources:** Occult Adventures pg 110\

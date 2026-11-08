@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride", "Swift tracker"]
 +++
 
 **Sources:** Undead Slayer's Handbook pg 24\

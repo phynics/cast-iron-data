@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "Painful stare"]
 +++
 
 **Sources:** Legacy of Dragons pg 13\

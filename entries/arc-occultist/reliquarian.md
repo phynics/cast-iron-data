@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Knacks"]
+alters = ["Spells", "Focus powers", "Implements", "Mental focus"]
 +++
 
 **Sources:** Occult Origins pg 14\

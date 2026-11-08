@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Versatile performance selections normally gained at 7th, 12th, and 17th levels"]
+alters = ["Raging song", "versatile performance"]
 +++
 
 **Sources:** Blood of the Beast pg 26\

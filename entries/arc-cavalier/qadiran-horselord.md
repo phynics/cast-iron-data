@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Tactician", "Cavalier's charge", "The bonus feat gained at 6th level", "Greater tactician", "Master tactician"]
+alters = ["Mount"]
 +++
 
 **Sources:** Adventurer's Guide pg 12, Inner Sea Combat pg 42\

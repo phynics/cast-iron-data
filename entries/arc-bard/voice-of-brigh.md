@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fascinate", "Dirge of doom", "Soothing performance", "Frightening tune"]
 +++
 
 **Sources:** Construct Handbook pg 14\

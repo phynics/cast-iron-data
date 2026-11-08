@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "trap sense", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
 **Sources:** Blood of Shadows pg 9\

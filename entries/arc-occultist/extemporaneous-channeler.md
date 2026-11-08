@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magic circles", "outside contact", "binding circles", "fast circles"]
+alters = ["Weapon proficiencies", "Mental focus", "Shift focus"]
 +++
 
 **Sources:** Martial Arts Handbook pg 8\

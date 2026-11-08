@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bravery", "Weapon training 1 and 3", "armor mastery", "Weapon training 2 and 4", "Weapon mastery"]
 +++
 
 **Sources:** Ultimate Combat pg 44\

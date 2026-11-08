@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Spellcasting", "Hexes"]
 +++
 
 **Sources:** Healer's Handbook pg 26\

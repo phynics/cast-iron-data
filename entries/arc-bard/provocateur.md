@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "The versatile performance gained at 2nd level", "Suggestion", "mass suggestion"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 45\

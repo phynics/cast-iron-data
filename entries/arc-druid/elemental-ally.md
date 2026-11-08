@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature's bond", "wild shape", "Wild empathy", "Resist nature's lure"]
 +++
 
 **Sources:** Monster Summoner's Handbook pg 16\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Vigilante talent gained at 2nd level", "Unshakable", "Vigilante talent gained at 8th level"]
+alters = ["Dual identity"]
 +++
 
 **Sources:** Heroes from the Fringe pg 26\

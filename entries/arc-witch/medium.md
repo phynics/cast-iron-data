@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-level hex", "6th-level hex", "20th-level hex"]
 +++
 
 > _**Note:** This is a witch archetype, and has no relation to the [medium](ref/class/medium) occult

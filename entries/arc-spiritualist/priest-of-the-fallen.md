@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shared consciousness", "Bonded manifestation", "Phantom recall", "Dual bond"]
+alters = ["Phantom", "Fused consciousness", "Empowered consciousness"]
 +++
 
 **Sources:** Heroes of Golarion pg 17\

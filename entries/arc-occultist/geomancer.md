@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magic item skill", "Aura sight", "7th-level focus power", "13th-level focus power"]
+alters = ["Mental focus", "Implements"]
 +++
 
 **Sources:** Ultimate Wilderness pg 66\

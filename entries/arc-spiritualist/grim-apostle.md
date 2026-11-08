@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The phantom's emotional focus", "Shared consciousness", "fused consciousness"]
+alters = ["Phantom"]
 +++
 
 **Sources:** Pathfinder \#144: Midwives to Death pg 72\

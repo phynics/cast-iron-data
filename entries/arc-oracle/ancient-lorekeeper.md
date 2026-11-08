@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus skills from the oracle's mystery", "Bonus spells gained from the oracle's mystery"]
 +++
 
 **Sources:** Advanced Race Guide pg 24\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Expert trainer", "Tactician", "banner", "greater tactician", "greater banner", "master tactician", "bonus feats"]
+alters = ["Mount", "Cavalier's charge"]
 +++
 
 **Sources:** Wilderness Origins pg 15\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "A thousand faces"]
+alters = ["Bonus languages", "Wild shape"]
 +++
 
 **Sources:** Dirty Tactics Toolbox pg 16\

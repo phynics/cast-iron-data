@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Blessings", "Spontaneous casting", "Bonus languages", "Channel"]
 +++
 
 **Sources:** Blood of the Ancients pg 17\

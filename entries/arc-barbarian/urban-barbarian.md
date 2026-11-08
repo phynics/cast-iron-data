@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement"]
+alters = ["Rage"]
 +++
 
 **Sources:** Ultimate Combat pg 31\

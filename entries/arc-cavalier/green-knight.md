@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Tactician", "Mount", "Cavalier's charge", "Expert trainer", "banner", "Greater tactician", "Mighty charge", "greater banner", "Master tactician", "Supreme charge"]
+alters = ["Order"]
 +++
 
 **Sources:** Ultimate Wilderness pg 44\

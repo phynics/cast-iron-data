@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Social talent gained at 1st level", "Vigilante talents gained at 4th, 14th, and 18th levels", "Vigilante talent gained at 6th level", "Vigilante talent gained at 12th level"]
+alters = ["Dual identity"]
 +++
 
 **Sources:** Martial Arts Handbook pg 18\

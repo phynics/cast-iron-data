@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-level hex"]
+alters = ["Hex"]
 +++
 
 **Sources:** Advanced Class Guide pg 132\

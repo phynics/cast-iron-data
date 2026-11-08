@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Justice judgment", "Stern gaze"]
+alters = ["Domain", "Exploit weakness"]
 +++
 
 **Sources:** Ultimate Intrigue pg 31\

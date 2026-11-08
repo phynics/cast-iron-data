@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track"]
 +++
 
 **Sources:** Advanced Class Guide pg 120\

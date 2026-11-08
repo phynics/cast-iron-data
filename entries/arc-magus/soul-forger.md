@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Knowledge pool", "Spell recall", "Improved spell recall", "Counterstrike", "Greater spell access"]
+alters = ["Spell combat", "Spellstrike"]
 +++
 
 **Sources:** Ultimate Combat pg 57\

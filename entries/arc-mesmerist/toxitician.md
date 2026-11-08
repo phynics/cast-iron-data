@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "Hypnotic stare", "Painful stare", "Bold stare", "Glib lie"]
+alters = ["Touch treatment"]
 +++
 
 **Sources:** Occult Adventures pg 98\

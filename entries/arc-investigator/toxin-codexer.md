@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Keen recollection", "trap sense"]
+alters = ["Poison lore", "Alchemy and replaces", "trapfinding", "investigator talent gained at 3rd level"]
 +++
 
 **Sources:** Potions and Poisons pg 14\

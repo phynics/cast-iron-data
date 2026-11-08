@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "lore master", "Countersong", "Versatile performance", "Jack-of-all-trades"]
 +++
 
 **Sources:** Healer's Handbook pg 18\

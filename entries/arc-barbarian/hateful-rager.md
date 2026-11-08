@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd, 8th, 14th, and 20th level rage powers", "Improved uncanny dodge", "Trap sense +3"]
 +++
 
 **Sources:** Advanced Race Guide pg 54\

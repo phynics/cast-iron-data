@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spellbooks"]
+alters = ["Spells"]
 +++
 
 **Sources:** Advanced Class Guide pg 79\

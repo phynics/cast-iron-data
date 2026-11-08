@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Resist nature's lure", "Venom immunity"]
+alters = ["Nature bond"]
 +++
 
 **Sources:** Horror Adventures pg 50\

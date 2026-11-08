@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiency", "Unarmed strike", "ki strike", "Stunning fist", "high jump", "quivering palm"]
+alters = ["Alignment requirement", "Ki pool", "Furry of blows"]
 +++
 
 **Sources:** Ultimate Wilderness pg 64\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Shifter claws", "Shifter aspect"]
 +++
 
 **Sources:** Ultimate Wilderness pg 18\

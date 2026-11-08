@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Towering ego, 10th-level mesmerist trick", "touch treatment (break enchantment)", "Touch treatment (minor)", "touch treatment (moderate)", "Touch treatment (major)"]
+alters = ["Spellcasting", "Hypnotic stare"]
 +++
 
 **Sources:** Ultimate Intrigue pg 39\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Metakinesis", "metakinetic master", "3rd-level infusion", "supercharge"]
+alters = ["Kinetic blast", "infusions", "Elemental defense"]
 +++
 
 **Sources:** Psychic Anthology pg 25\

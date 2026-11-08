@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy, 6th-level combat style feat", "Track", "camouflage", "Woodland stride", "Improved evasion"]
+alters = ["Favored terrain"]
 +++
 
 **Sources:** Ultimate Wilderness pg 73\

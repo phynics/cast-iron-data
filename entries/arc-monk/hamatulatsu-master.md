@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Purity of body"]
 +++
 
 **Sources:** Inner Sea Combat pg 38\

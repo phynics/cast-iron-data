@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "persistent mutagen"]
 +++
 
 **Sources:** Monster Codex pg 104\

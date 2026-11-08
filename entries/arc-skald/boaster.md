@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "Uncanny dodge", "Lore master", "Song of the fallen", "Rage power gained at 6th level"]
+alters = ["Song of marching", "Rage powers"]
 +++
 
 **Sources:** Ultimate Wilderness pg 84\

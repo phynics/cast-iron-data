@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar", "1st-level hex", "10th-level major hex"]
 +++
 
 **Sources:** Monster Codex pg 92\

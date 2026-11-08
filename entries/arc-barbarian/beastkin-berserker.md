@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "4th, 8th, and 12th level rage powers"]
 +++
 
 **Sources:** Heroes of the Darklands pg 21\

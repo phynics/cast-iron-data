@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bloodline feats gained at 7th, 13th, and 19th level"]
+alters = ["Bloodline", "bloodline powers", "bloodline spells"]
 +++
 
 **Sources:** Advanced Class Guide pg 122\

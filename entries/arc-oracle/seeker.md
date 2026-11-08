@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus skills from the oracle's mystery", "Revelation gained at 3rd level", "Revelation gained at 15th level"]
 +++
 
 **Sources:** Pathfinder Society Field Guide pg 29\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level hex", "6th-level hex"]
+alters = ["Patron", "patron spells"]
 +++
 
 **Sources:** Heroes of the Streets pg 20\

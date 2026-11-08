@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "3rd-, 9th-, and 15th-level mercies"]
+alters = ["Skill ranks per level"]
 +++
 
 **Sources:** Merchant's Manifest pg 28\

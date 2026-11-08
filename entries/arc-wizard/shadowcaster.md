@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane bond", "5th-level bonus feat", "10th-level bonus feat"]
 +++
 
 **Sources:** Inner Sea Magic pg 39\

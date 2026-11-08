@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison use", "poison resistance +2", "Poison resistance +4", "poison resistance +6", "Swift poisoning", "Poison immunity"]
 +++
 
 **Sources:** Dungeoneer's Handbook pg 23\

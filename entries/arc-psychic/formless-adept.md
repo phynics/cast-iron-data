@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Psychic discipline", "discipline powers", "1st-level phrenic amplification", "Discipline spells", "15th-level phrenic amplification", "Remade self"]
+alters = ["Phrenic pool"]
 +++
 
 **Sources:** Occult Adventures pg 104\

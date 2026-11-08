@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Wild shape", "Venom immunity"]
 +++
 
 **Sources:** Advanced Race Guide pg 176\

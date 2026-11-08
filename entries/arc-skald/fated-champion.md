@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Well-versed", "Dirge of doom raging song", "Master skald"]
+alters = ["Spell kenning"]
 +++
 
 **Sources:** Advanced Class Guide pg 114\

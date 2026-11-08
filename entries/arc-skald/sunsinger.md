@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Song of marching", "Spell kenning"]
 +++
 
 **Sources:** Qadira, Jewel of the East pg 33\

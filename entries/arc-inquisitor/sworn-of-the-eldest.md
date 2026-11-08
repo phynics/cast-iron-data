@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "Stern gaze", "Solo tactics", "All teamwork feats"]
+alters = ["Domain"]
 +++
 
 **Sources:** Wilderness Origins pg 11\

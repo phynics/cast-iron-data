@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Basic hydrokinesis", "2nd and 6th level utility wild talents", "Defense wild talent from elemental defense"]
+alters = ["Expanded element", "Elemental focus", "Cold simple blast"]
 +++
 
 **Sources:** Aquatic Adventures pg 50\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Slayer talent gained at 2nd level", "Slayer talent gained at 6th level"]
+alters = ["Sneak attack", "Studied target"]
 +++
 
 **Sources:** Horror Adventures pg 66\

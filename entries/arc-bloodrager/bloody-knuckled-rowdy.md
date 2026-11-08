@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Melee Tactics Toolbox pg 13\

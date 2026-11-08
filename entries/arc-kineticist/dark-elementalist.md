@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Internal buffer"]
+alters = ["Base saving throws", "the key ability score of wild talents", "Burn", "elemental overflow"]
 +++
 
 **Sources:** Horror Adventures pg 56\

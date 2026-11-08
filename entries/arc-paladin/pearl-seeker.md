@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "Aura of courage", "aura of resolve", "Channel positive energy"]
+alters = ["Armor proficiency", "Spells", "Divine bond"]
 +++
 
 **Sources:** Aquatic Adventures pg 54\

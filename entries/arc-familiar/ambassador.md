@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alertness", "The familiar's Intelligence score advancement"]
 +++
 
 **Sources:** Ultimate Wilderness pg 210\

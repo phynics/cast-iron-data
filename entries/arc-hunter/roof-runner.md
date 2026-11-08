@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Woodland stride", "Swift tracker"]
+alters = ["Master hunter"]
 +++
 
 **Sources:** Ultimate Intrigue pg 65\

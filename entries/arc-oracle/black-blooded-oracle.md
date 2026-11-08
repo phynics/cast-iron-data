@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Oracle's curse"]
 +++
 
 **Sources:** Inner Sea Magic pg 32\

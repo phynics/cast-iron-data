@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "wild empathy", "Woodland stride", "trackless step", "A thousand faces"]
 +++
 
 **Sources:** Ultimate Magic pg 38\

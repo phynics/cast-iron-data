@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Speak with master", "speak with animals of its kind", "Deliver touch spells", "Spell resistance"]
+alters = ["The familiar's Intelligence score advancement"]
 +++
 
 **Sources:** Ultimate Wilderness pg 212, Familiar Folio pg 11\

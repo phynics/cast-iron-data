@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["AC bonus", "the ability to add his Wisdom bonus to his AC", "Dodge", "Mobility", "and Spring Attack on the monk's bonus feat list", "Evasion", "The ability to increase speed with ki", "High jump", "Fast movement", "slow fall", "Improved evasion", "Tongue of the sun and moon", "Perfect self"]
 +++
 
 **Sources:** Advanced Race Guide pg 122\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Proficiency with light and medium armor"]
+alters = ["Channel energy", "Domains"]
 +++
 
 **Sources:** Healer's Handbook pg 4\

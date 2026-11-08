@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Transposition", "Aspect", "Greater aspect", "Twin eidolon"]
+alters = ["Life link"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 40\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Slow fall", "still mind", "High jump", "bonus feat gained at 6th level", "Wholeness of body", "Abundant step", "Quivering palm", "Tongue of the sun and moon", "empty body"]
 +++
 
 **Sources:** Advanced Race Guide pg 187\

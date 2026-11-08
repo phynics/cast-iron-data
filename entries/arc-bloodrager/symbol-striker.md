@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "Bloodline feats gained at 6th, 12th, and 18th levels", "Bloodline feat gained at 9th level"]
 +++
 
 **Sources:** Heroes from the Fringe pg 7\

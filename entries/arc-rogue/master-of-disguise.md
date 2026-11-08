@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "rogue talent gained at 2nd level", "Rogue talent gained at 10th level"]
 +++
 
 **Sources:** Ultimate Intrigue pg 46\

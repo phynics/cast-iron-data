@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Spirit"]
 +++
 
 **Sources:** Blood of the Beast pg 5\

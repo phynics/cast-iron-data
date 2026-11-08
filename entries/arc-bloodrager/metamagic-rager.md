@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Improved uncanny dodge"]
 +++
 
 **Sources:** Advanced Class Guide pg 83\

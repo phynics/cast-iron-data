@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter's bond, 2nd favored enemy", "swift tracker"]
 +++
 
 **Sources:** Legacy of Dragons pg 24\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
+alters = ["Nature bond", "Wild empathy"]
 +++
 
 **Sources:** Ultimate Combat pg 42\

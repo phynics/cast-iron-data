@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Throw anything"]
 +++
 
 **Sources:** Advanced Race Guide pg 191\

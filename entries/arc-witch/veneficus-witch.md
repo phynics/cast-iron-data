@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd- and 10th-level hexes"]
 +++
 
 **Sources:** People of the River pg 8\

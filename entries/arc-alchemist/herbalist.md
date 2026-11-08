@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Throw Anything", "Bombs", "poison use", "poison resistance", "poison immunity"]
+alters = ["Alchemy", "the alchemist's key ability score"]
 +++
 
 **Sources:** Ultimate Wilderness pg 22\

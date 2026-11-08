@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Seamless guise", "Social talents gained at 3rd, 7th, 11th, 15th, and 19th levels"]
+alters = ["Weapon and armor proficiencies", "Dual identity"]
 +++
 
 **Sources:** Adventurer's Guide pg 82\

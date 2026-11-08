@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Divine bond", "Aura of resolve", "Aura of justice"]
+alters = ["Divine grace"]
 +++
 
 **Sources:** Adventurer's Guide pg 74\

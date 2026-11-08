@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "lore master", "Versatile performance", "Well-versed", "soothing performance"]
+alters = ["Weapon and armor proficiencies"]
 +++
 
 **Sources:** Ranged Tactics Toolbox pg 7\

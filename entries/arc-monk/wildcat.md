@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Still mind", "Ki pool", "high jump", "All instances of slow fall", "Improved evasion", "abundant step", "Diamond soul", "Empty body"]
 +++
 
 **Sources:** Advanced Class Guide pg 105\

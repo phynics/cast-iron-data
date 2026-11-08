@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "mesmerist trick gained at 1st level", "All instances of touch treatment", "Mental potency", "Glib lie"]
 +++
 
 **Sources:** Ultimate Intrigue pg 36\

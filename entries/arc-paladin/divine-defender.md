@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mercy"]
 +++
 
 **Sources:** Advanced Player's Guide pg 116\

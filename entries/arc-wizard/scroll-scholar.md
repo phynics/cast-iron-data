@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Diviner's fortune (if a diviner) or hand of the apprentice (if a universalist)", "5th-level bonus feat", "The normal addition of a new 4th-level spell slot; from this point on", "the wizard has one fewer 4th-level spell slot than other wizards"]
 +++
 
 **Sources:** Pathfinder Society Field Guide pg 26\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Channel energy"]
+alters = ["Bonus languages", "Spontaneous casting"]
 +++
 
 **Sources:** Blood of the Sea pg 23\

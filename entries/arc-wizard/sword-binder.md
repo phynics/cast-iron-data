@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane school", "bonus school spell slots", "10th-level bonus feat"]
+alters = ["Arcane bond"]
 +++
 
 **Sources:** Arcane Anthology pg 11\

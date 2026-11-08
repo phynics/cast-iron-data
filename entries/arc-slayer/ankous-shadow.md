@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Studied target", "Stalker"]
+alters = ["Quarry", "improved quarry"]
 +++
 
 **Sources:** Legacy of the First World pg 14\

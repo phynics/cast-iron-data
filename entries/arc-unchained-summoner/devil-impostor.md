@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bond senses", "Shield ally", "Greater shield ally", "Transposition"]
+alters = ["Eidolon", "Summon monster"]
 +++
 
 **Sources:** Agents of Evil pg 17\

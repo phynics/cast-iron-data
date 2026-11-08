@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level social talent", "Unshakable", "Startling appearance", "Frightening appearance", "Stunning appearance"]
+alters = ["Social talents"]
 +++
 
 **Sources:** Heroes of the High Court pg 24\

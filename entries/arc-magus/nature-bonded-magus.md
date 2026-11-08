@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane pool", "Spell recall", "Knowledge pool", "Improved spell recall"]
 +++
 
 **Sources:** Ultimate Wilderness pg 92\

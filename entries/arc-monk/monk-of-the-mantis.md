@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-, 6th-, 10th-, 14th-, and 18th-level bonus feats", "Wholeness of body", "diamond body", "diamond soul"]
+alters = ["Quivering palm"]
 +++
 
 **Sources:** Dirty Tactics Toolbox pg 11\

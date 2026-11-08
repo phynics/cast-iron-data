@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Unarmed strike", "brawler's flurry", "AC bonus", "Awesome blow", "improved awesome blow"]
+alters = ["Knockout"]
 +++
 
 **Sources:** Advanced Class Guide pg 88\

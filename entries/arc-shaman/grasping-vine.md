@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit magic spells granted by the shaman's spirit", "Shaman's hex gained at 2nd level", "Shaman's hex gained at 8th level"]
+alters = ["Spirit animal"]
 +++
 
 **Sources:** Legacy of the First World pg 16\

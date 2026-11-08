@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spellstrike", "Magus arcana gained at 3rd level"]
+alters = ["Arcane pool"]
 +++
 
 **Sources:** The Harrow Handbook pg 24\

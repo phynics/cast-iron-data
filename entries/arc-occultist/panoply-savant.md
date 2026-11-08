@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shift focus", "Outside contact", "Magic circles", "Binding circles", "Fast circles"]
 +++
 
 **Sources:** Psychic Anthology pg 28\

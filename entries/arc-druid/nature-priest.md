@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "Resist nature's lure", "Venom immunity"]
+alters = ["Weapon proficiencies", "Nature bond"]
 +++
 
 **Sources:** Healer's Handbook pg 23\

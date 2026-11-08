@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Countersong", "Jack-of-all-trades"]
+alters = ["The bard's class skills", "Spells"]
 +++
 
 **Sources:** Heroes of Golarion pg 8\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spontaneous casting", "Nature sense", "Trackless step", "Resist nature's lure", "Venom immunity"]
+alters = ["Armor and weapon proficiencies", "Nature bond"]
 +++
 
 **Sources:** Adventurer's Guide pg 183, Inner Sea Magic pg 41\

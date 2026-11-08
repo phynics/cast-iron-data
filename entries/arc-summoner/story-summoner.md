@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bond senses", "Transposition"]
 +++
 
 **Sources:** The Harrow Handbook pg 25\

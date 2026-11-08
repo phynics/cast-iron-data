@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "mental potency", "3rd- and 14th-level touch treatments", "6th- and 10th-level touch treatments", "Rule minds"]
+alters = ["Spell list"]
 +++
 
 **Sources:** Occult Adventures pg 97\

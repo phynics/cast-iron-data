@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Witch's familiar"]
 +++
 
 **Sources:** Legacy of Dragons pg 15\

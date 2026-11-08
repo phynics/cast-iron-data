@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspire courage", "Suggestion", "Dirge of doom", "Inspire heroics", "Deadly performance"]
+alters = ["Armor and weapon proficiencies", "Spellcasting"]
 +++
 
 **Sources:** Ultimate Wilderness pg 40\

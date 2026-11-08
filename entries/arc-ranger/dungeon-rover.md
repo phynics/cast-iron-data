@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Wild empathy", "Woodland stride", "Swift tracker"]
+alters = ["Hunter's bond"]
 +++
 
 **Sources:** Dungeoneer's Handbook pg 22\

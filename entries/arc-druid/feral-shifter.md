@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature bond", "Venom immunity", "a thousand faces", "timeless body"]
 +++
 
 **Sources:** Advanced Class Guide pg 92\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Ki pool", "alters high jump", "Wholeness of body", "Abundant step", "Empty body", "Perfect self"]
 +++
 
 **Sources:** Antihero's Handbook pg 14\

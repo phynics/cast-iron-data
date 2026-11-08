@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Divine health", "Mercy", "Divine bond"]
+alters = ["Armor proficiency"]
 +++
 
 **Sources:** Wilderness Origins pg 30\

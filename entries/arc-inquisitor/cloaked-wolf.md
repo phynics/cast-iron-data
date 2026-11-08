@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stern gaze", "Monster lore", "Solo tactics", "teamwork feats"]
+alters = ["Cunning initiative"]
 +++
 
 **Sources:** Ultimate Intrigue pg 28\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "Trap sense", "6th- and 12th-level rage powers"]
 +++
 
 **Sources:** Ultimate Wilderness pg 39\

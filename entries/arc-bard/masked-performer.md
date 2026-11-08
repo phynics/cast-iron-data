@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Countersong", "Inspire competence", "Suggestion", "Mass suggestion", "Versatile performance", "Lore master"]
 +++
 
 **Sources:** Ultimate Intrigue pg 20\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison use", "Instant alchemy", "Swift poisoning"]
+alters = ["Swift alchemy"]
 +++
 
 **Sources:** Advanced Race Guide pg 205\

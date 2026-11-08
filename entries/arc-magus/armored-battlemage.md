@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spell combat", "Magus arcana gained at 3rd and 18th levels", "improved spell combat", "Greater spell combat"]
+alters = ["Medium armor", "Arcane pool", "Heavy armor"]
 +++
 
 **Sources:** Armor Master's Handbook pg 4\

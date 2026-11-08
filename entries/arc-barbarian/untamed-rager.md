@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge", "Damage reduction"]
 +++
 
 **Sources:** Dirty Tactics Toolbox pg 15\

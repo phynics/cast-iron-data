@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit bonus", "Shared seance", "taboo", "haunt channeler", "propitiation", "trance of three", "Connection channel", "spirit mastery", "Astral beacon"]
+alters = ["Spirit", "Spirit surge"]
 +++
 
 **Sources:** Occult Adventures pg 95\

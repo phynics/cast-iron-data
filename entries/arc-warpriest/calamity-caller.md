@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Focus weapon", "sacred weapon", "bonus feats", "Aspect of war"]
+alters = ["Blessings"]
 +++
 
 **Sources:** Heroes from the Fringe pg 12\

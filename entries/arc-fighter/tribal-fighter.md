@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The fighter feat gained at 1st level"]
+alters = ["Armor proficiency", "Weapon training"]
 +++
 
 **Sources:** Ultimate Wilderness pg 50\

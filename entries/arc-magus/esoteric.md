@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spell recall", "Bonus feats", "Medium armor", "heavy armor", "Improved spell recall"]
+alters = ["Weapon and armor proficiency", "Spellcasting", "Arcane pool", "Spellstrike"]
 +++
 
 **Sources:** Occult Adventures pg 120\

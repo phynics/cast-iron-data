@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "2nd-level rogue talent", "4th-level rogue talent"]
 +++
 
 **Sources:** Dungeoneer's Handbook pg 21\

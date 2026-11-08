@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Object reading", "Outside contact"]
+alters = ["Implements"]
 +++
 
 **Sources:** Ultimate Intrigue pg 67\

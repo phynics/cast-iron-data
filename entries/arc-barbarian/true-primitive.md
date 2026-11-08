@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "Trap sense"]
+alters = ["The barbarian's armor and weapon proficiencies"]
 +++
 
 **Sources:** Ultimate Combat pg 30\

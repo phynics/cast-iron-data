@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st favored terrain", "wild empathy", "Hunter's bond", "Woodland stride"]
 +++
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 72\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspired rage", "Song of strength", "Well-versed"]
 +++
 
 **Sources:** Heroes of the High Court pg 6\

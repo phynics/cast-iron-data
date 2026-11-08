@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Still mind", "Slow fall", "Tongue of the sun and moon"]
+alters = ["Perfect self"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 44\

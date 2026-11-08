@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "Smite evil"]
+alters = ["Aura of faith", "Aura of righteousness", "holy champion"]
 +++
 
 **Sources:** Divine Anthology pg 6\

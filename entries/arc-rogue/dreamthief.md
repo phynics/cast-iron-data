@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Sneak attack", "master strike", "Trap sense", "Uncanny dodge", "Improved uncanny dodge", "rogue talent gained at 12th level"]
 +++
 
 **Sources:** Planar Adventures pg 12\

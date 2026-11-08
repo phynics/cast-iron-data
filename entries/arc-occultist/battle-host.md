@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiency", "Shift focus", "magic circles", "binding circles", "fast circles", "Aura sight", "Outside contact"]
+alters = ["Implements", "mental focus", "spellcasting", "implement mastery", "Magic item skill", "Object reading"]
 +++
 
 **Sources:** Occult Adventures pg 100\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Favored enemy", "Hunter's bond", "Evasion", "Quarry", "improved quarry", "Improved evasion"]
 +++
 
 **Sources:** Advanced Player's Guide pg 125\

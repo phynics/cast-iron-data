@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Swift tracker", "Master hunter"]
+alters = ["Hunter's bond"]
 +++
 
 **Sources:** Distant Realms pg 22\

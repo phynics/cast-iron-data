@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The ability score boosts granted by elemental overflow"]
+alters = ["Elemental focus", "Basic telekinesis utility wild talent granted by the aether element", "Internal buffer"]
 +++
 
 **Sources:** Blood of the Ancients pg 12\

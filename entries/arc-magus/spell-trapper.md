@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spell recall", "Fighter training"]
+alters = ["Magus arcana"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 15\

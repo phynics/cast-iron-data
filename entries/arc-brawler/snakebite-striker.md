@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Martial flexibility", "Maneuver training gained at 3rd and 7th levels", "Maneuver training gained at 11th and 19th levels"]
 +++
 
 **Sources:** Advanced Class Guide pg 88\

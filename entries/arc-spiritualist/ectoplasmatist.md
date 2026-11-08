@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Etheric tether", "phantom", "shared consciousness", "fused consciousness", "spiritual bond", "empowered consciousness", "Bonded manifestation", "phantom recall", "dual bond", "Spiritual interference", "greater spiritual interference"]
 +++
 
 **Sources:** Occult Adventures pg 108\

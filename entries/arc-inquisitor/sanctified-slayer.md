@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Judgment 1/day", "Later iterations of the judgment ability", "Second judgment", "third judgment", "slayer", "true judgment"]
 +++
 
 **Sources:** Advanced Class Guide pg 99\

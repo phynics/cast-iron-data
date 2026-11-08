@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "Detect alignment", "Bane", "Second judgment", "Greater bane", "Third judgment"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Advanced Race Guide pg 13\

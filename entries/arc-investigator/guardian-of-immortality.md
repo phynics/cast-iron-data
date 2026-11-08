@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "Poison resistance", "Investigator talent gained at 7th level", "Immunity to poison", "Investigator talent gained at 13th level"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 41\

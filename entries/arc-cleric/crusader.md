@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Domain", "spellcasting"]
 +++
 
 **Sources:** Ultimate Combat pg 40\

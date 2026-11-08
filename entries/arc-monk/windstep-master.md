@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Slow fall", "The ability to spend ki to increase his base speed"]
+alters = ["Ki pool"]
 +++
 
 **Sources:** Elemental Master's Handbook pg 17\

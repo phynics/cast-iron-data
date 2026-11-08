@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Focus weapon"]
+alters = ["Sacred weapon", "sacred armor"]
 +++
 
 **Sources:** Armor Master's Handbook pg 7\

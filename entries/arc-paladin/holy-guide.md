@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["3rd-level mercy", "6th-level mercy"]
 +++
 
 **Sources:** Advanced Class Guide pg 107\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Code of conduct and associated abilities", "ex-antipaladins", "Fiendish boon"]
 +++
 
 **Sources:** Ultimate Intrigue pg 64\

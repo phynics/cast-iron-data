@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "bloodline feats gained at 6th and 18th levels", "Improved uncanny dodge", "the bloodline feat gained at 12th level"]
 +++
 
 **Sources:** Monster Summoner's Handbook pg 6\

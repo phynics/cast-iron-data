@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Poison lore", "Swift alchemy"]
+alters = ["Investigator talents"]
 +++
 
 **Sources:** Advanced Class Guide pg 103\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Focus weapon", "Sacred weapon", "Bonus feat gained at 6th level", "Bonus feat gained at 12th level", "Bonus feat gained at 18th level"]
+alters = ["Weapon and armor proficiencies", "Sacred armor"]
 +++
 
 **Sources:** Distant Realms pg 32\

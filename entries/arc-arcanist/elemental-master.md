@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The arcanist exploit gained at 1st level", "The arcanist exploit gained at 3rd level", "The arcanist exploit gained at 9th level", "The arcanist exploit gained at 11th level", "The arcanist exploit gained at 15th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 78\

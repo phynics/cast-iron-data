@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge"]
+alters = ["Armor and weapon proficiencies"]
 +++
 
 **Sources:** Ultimate Magic pg 27\

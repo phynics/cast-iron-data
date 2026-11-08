@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Endurance", "Quarry", "Improved quarry"]
 +++
 
 **Sources:** Ranged Tactics Toolbox pg 11\

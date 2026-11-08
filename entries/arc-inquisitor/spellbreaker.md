@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "Teamwork feats", "Solo tactics", "True judgment"]
 +++
 
 **Sources:** Ultimate Combat pg 52\

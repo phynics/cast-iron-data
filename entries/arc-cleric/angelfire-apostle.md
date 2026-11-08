@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["The cleric's armor proficiency", "The cleric's spellcasting", "Channel energy"]
 +++
 
 **Sources:** Healer's Handbook pg 7\

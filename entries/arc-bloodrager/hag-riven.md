@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "uncanny dodge", "Improved uncanny dodge", "Damage reduction"]
+alters = ["Weapon and armor proficiencies"]
 +++
 
 **Sources:** Blood of the Coven pg 27\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "Indomitable will"]
+alters = ["Bloodline feats"]
 +++
 
 **Sources:** Advanced Class Guide pg 82\

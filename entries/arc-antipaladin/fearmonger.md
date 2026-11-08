@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Touch of corruption"]
+alters = ["Cruelty"]
 +++
 
 **Sources:** Monster Codex pg 20\

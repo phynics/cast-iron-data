@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bomb", "Throw Anything", "Mutagen", "persistent mutagen", "The discovery gained at 4th level"]
 +++
 
 **Sources:** Black Markets pg 28\

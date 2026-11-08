@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "still mind"]
 +++
 
 **Sources:** Ultimate Intrigue pg 67\

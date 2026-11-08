@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magic item skill", "Shift focus", "Magic circles", "Binding circles", "Fast circles"]
+alters = ["Implements", "implement mastery"]
 +++
 
 **Sources:** Ultimate Intrigue pg 68\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
 +++
 
 **Sources:** Ultimate Combat pg 29\

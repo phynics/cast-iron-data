@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "The bonus feat gained at 2nd level", "Fast movement", "Purity of body", "diamond body", "Quivering palm"]
 +++
 
 **Sources:** Ultimate Combat pg 58\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Dirge of doom", "Soothing performance", "Well-versed"]
+alters = ["Bardic performance", "Fascinate"]
 +++
 
 **Sources:** Monster Hunter's Handbook pg 11\

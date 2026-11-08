@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Summon monster I", "Bond senses", "shield ally", "transposition", "greater shield ally", "merge forms", "twin eidolon", "Maker's call", "eidolon's devotion ability"]
+alters = ["Eidolon"]
 +++
 
 **Sources:** Adventurer's Guide pg 94\

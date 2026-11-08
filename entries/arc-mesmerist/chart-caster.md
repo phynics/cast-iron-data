@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Touch treatment"]
+alters = ["Mesmerist tricks", "manifold tricks"]
 +++
 
 **Sources:** Blood of the Ancients pg 10\

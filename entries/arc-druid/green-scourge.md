@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "Trackless step", "Resist nature's lure"]
+alters = ["Spontaneous casting"]
 +++
 
 **Sources:** Monster Hunter's Handbook pg 7\

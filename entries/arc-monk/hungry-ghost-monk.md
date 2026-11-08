@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning Fist", "Purity of body", "Wholeness of body", "Diamond body", "Diamond soul"]
 +++
 
 **Sources:** Advanced Player's Guide pg 110\

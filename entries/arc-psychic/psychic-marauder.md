@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect thoughts", "3rd-, 11th-, and 19th-level phrenic amplifications", "Telepathic bond", "Remade self"]
 +++
 
 **Sources:** Heroes of the Darklands pg 22\

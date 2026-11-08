@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Domain", "Stern gaze", "Monster lore", "Exploit weakness"]
 +++
 
 **Sources:** People of the Wastes pg 27\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison immunity", "2nd-level discovery", "swift poisoning", "Poison resistance"]
+alters = ["Extracts", "Bombs", "Throw anything"]
 +++
 
 **Sources:** Planar Adventures pg 13\

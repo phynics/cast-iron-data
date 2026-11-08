@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "wild empathy", "woodland stride", "Wild shape", "Resist nature's lure", "Venom immunity"]
 +++
 
 **Sources:** Advanced Class Guide pg 92\

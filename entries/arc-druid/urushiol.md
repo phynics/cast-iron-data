@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature bond", "resist nature's lure"]
+alters = ["Venom immunity"]
 +++
 
 **Sources:** Ultimate Intrigue pg 27\

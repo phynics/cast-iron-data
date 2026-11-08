@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit bonus", "spirit surge", "Taboo", "Connection channel"]
+alters = ["Spellcasting", "Spirit"]
 +++
 
 **Sources:** Haunted Heroes Handbook pg 21\

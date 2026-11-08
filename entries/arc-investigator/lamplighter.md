@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "poison resistance", "poison immunity", "Keen recollection", "trap sense"]
 +++
 
 **Sources:** Heroes of the Streets pg 17\

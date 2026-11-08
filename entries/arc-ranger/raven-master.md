@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride", "Swift tracker", "Camouflage"]
+alters = ["Wild empathy", "Hunter's bond", "Spellcasting"]
 +++
 
 **Sources:** Adventurer's Guide pg 175\

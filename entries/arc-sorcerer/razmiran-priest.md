@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Eschew Materials bonus feat", "Bloodline spells gained at 3rd level and 5th level", "9th-level bloodline power"]
 +++
 
 **Sources:** Inner Sea Magic pg 38\

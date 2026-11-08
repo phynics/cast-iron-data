@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Utility shot deed", "Targeting deed", "Bonus feats the gunslinger gains at 4th, 8th, 12th, 16th, and 20th level"]
+alters = ["Grit", "Deeds"]
 +++
 
 **Sources:** Advanced Race Guide pg 134\

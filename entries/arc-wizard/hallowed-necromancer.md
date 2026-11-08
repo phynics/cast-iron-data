@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Grave touch necromancy school ability", "Scribe Scroll", "5th-level bonus feat", "10th-level bonus feat", "15th-level bonus feat"]
+alters = ["Arcane school", "spells", "Power over undead necromancy school ability"]
 +++
 
 **Sources:** Horror Adventures pg 74\

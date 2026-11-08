@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Heroes of the High Court pg 9\

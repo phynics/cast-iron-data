@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "Painful stare", "3rd- and 6th-level touch treatments", "7th-level bold stare", "10th- and 14th-level touch treatments", "Rule minds"]
+alters = ["Mesmerist tricks", "Masterful tricks"]
 +++
 
 **Sources:** Occult Adventures pg 96\

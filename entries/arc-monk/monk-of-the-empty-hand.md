@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon proficiencies", "Still mind", "Purity of body", "diamond body"]
+alters = ["Flurry of blows"]
 +++
 
 **Sources:** Advanced Player's Guide pg 111\

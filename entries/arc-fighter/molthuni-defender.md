@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor training 1 through 4"]
 +++
 
 **Sources:** Armor Master's Handbook pg 6\

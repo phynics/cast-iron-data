@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Cavalier's charge", "Mighty charge", "Demanding challenge"]
+alters = ["Challenge"]
 +++
 
 **Sources:** Ultimate Combat pg 37\

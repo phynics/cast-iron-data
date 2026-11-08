@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "track", "woodland stride", "trackless step"]
+alters = ["Shifter claws"]
 +++
 
 **Sources:** Heroes of Golarion pg 12\

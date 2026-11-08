@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trackless step", "Daily use of wild shape gained at 6th level", "Venom immunity", "Daily use of wild shape gained at 10th level", "A thousand faces"]
 +++
 
 **Sources:** Ultimate Wilderness pg 141, Faiths and Philosophies pg 10\

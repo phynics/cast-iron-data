@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Banner", "Mighty charge", "supreme charge", "Greater banner"]
 +++
 
 **Sources:** Heroes of the Streets pg 17\

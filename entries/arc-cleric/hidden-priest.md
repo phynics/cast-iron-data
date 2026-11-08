@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["One of the cleric's two 1st-level domain powers (her choice)", "One of the cleric's two 8th-level domain powers (his choice)"]
 +++
 
 **Sources:** Inner Sea Magic pg 35\

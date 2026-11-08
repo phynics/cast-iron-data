@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane bond", "10th-level bonus feat"]
 +++
 
 **Sources:** Ultimate Magic pg 89\

@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "Devotion", "Multiattack", "Improved Evasion"]
 +++
 
 **Sources:** Ultimate Wilderness pg 189, Animal Archive pg 21\

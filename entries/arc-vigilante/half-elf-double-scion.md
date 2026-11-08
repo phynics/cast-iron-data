@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Dual identity"]
 +++
 
 **Sources:** Heroes from the Fringe pg 22\

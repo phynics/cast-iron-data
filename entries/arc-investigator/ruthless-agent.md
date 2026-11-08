@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense", "Swift alchemy", "Investigator talent gained at 7th level", "Investigator talents gained at 11th and 17th levels"]
+alters = ["Inspiration"]
 +++
 
 **Sources:** Antihero's Handbook pg 27\

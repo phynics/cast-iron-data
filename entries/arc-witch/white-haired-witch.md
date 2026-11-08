@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hex", "Major hex", "grand hex"]
 +++
 
 **Sources:** Dragon Empires Primer pg 23\

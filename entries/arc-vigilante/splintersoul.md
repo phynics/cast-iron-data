@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Unshakable"]
+alters = ["Dual identity", "Social talents gained at 3rd and 7th levels", "Startling appearance", "frightening appearance", "stunning appearance"]
 +++
 
 **Sources:** Antihero's Handbook pg 17\

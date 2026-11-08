@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Rogue talents gained at 2nd, 4th, and 6th level", "Trap sense"]
+alters = ["Sneak attack"]
 +++
 
 **Sources:** Animal Archive pg 6\

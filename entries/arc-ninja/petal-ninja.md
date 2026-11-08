@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Ninja trick gained at 2nd level", "No trace", "uncanny dodge", "improved uncanny dodge", "Light steps"]
 +++
 
 **Sources:** Wilderness Origins pg 13\

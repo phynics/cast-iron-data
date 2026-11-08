@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Improved evasion", "Speak with animals of its kind"]
 +++
 
 **Sources:** Plane-Hopper's Handbook pg 26\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Maneuver training", "AC bonus"]
 +++
 
 **Sources:** Advanced Class Origins pg 10\

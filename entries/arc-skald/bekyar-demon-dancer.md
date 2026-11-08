@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Rage power gained at 3rd level"]
+alters = ["Versatile performance", "Rage powers gained at 6th and 9th levels"]
 +++
 
 **Sources:** Advanced Class Origins pg 18\

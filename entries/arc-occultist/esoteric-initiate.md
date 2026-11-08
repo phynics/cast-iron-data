@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Aura sight"]
+alters = ["Mental focus", "implements", "shift focus"]
 +++
 
 **Sources:** Disciple's Doctrine pg 8\

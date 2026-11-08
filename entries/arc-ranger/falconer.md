@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "6th-level combat style feat"]
 +++
 
 **Sources:** Ultimate Combat pg 67\

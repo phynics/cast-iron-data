@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "poison resistance", "Keen recollection", "Swift alchemy"]
 +++
 
 **Sources:** Ultimate Wilderness pg 56\

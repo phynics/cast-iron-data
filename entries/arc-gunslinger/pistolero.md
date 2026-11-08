@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Deadeye deed", "Startling shot deed", "Bleeding wound deed", "Gun training 1-4"]
+alters = ["Gunsmith"]
 +++
 
 **Source** Ultimate Combat pg. 51

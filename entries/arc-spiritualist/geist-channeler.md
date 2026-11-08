@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The phantom's emotional focus"]
+alters = ["Phantom", "Bonded manifestation", "Phantom"]
 +++
 
 **Sources:** Occult Adventures pg 109\

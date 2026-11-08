@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Versatile performance", "Frightening tune", "Deadly performance"]
 +++
 
 **Sources:** Ultimate Magic pg 27\

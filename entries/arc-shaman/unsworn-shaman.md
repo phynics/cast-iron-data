@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit", "Wandering hex"]
+alters = ["Hex", "Spirit animal", "Wandering spirit", "Spirit magic"]
 +++
 
 **Sources:** Advanced Class Guide pg 112\

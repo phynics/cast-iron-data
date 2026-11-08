@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Aura", "Channel energy", "Alignment", "spells", "Domains"]
 +++
 
 **Sources:** Agents of Evil pg 15\

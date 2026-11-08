@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe scroll, 5th- and 10th-level bonus feats"]
+alters = ["Arcane bond", "Spellbook"]
 +++
 
 **Sources:** Familiar Folio pg 8\

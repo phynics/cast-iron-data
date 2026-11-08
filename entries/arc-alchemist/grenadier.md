@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew Potion", "Poison resistance", "Poison use", "Swift poisoning", "Poison immunity"]
 +++
 
 **Sources:** Pathfinder Society Field Guide pg 30\

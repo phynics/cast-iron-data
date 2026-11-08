@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Tactician", "The 2nd-level order ability", "Cavalier's charge"]
 +++
 
 **Sources:** Knights of the Inner Sea pg 21\

@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alertness", "the familiar's ability to share its master's skill ranks"]
+alters = ["The familiar's Intelligence score and natural armor adjustment"]
 +++
 
 **Sources:** Ultimate Wilderness pg 213, Familiar Folio pg 11\

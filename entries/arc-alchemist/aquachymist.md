@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The discovery at 2nd level"]
+alters = ["Alchemy", "Bombs"]
 +++
 
 **Sources:** Aquatic Adventures pg 49\

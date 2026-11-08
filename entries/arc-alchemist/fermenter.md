@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison resistance", "the discovery gained at 10th level", "Poison use", "Swift poisoning"]
 +++
 
 **Sources:** Potions and Poisons pg 8\

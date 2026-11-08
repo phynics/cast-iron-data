@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Eschew Materials", "3rd-level bloodline power", "15th-level bloodline power"]
 +++
 
 **Sources:** Pathfinder Society Field Guide pg 29\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonded senses", "Detect undead", "calm spirit", "see invisibility", "call spirit"]
+alters = ["Phantom", "shared consciousness", "etheric tether", "bonded manifestation"]
 +++
 
 **Sources:** Aquatic Adventures pg 52\

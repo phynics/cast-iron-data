@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Haunt channeler", "connection channel", "Location channel", "Astral journey"]
+alters = ["Spirit", "spirit power (intermediate)", "Taboo", "Shared seance", "Ask the spirits"]
 +++
 
 **Sources:** Psychic Anthology pg 12\

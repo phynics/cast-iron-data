@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "The increase to channel energy gained at 3rd level"]
+alters = ["The normal domain ability"]
 +++
 
 **Sources:** Advanced Class Guide pg 91\

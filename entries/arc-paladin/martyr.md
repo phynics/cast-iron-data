@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Smite evil", "Divine grace", "Divine health"]
+alters = ["Aura of courage", "aura of resolve", "aura of righteousness", "Lay on hands", "mercy"]
 +++
 
 **Sources:** Horror Adventures pg 64\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bloodline spell"]
 +++
 
 **Sources:** Blood of the Beast pg 13\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect alignment"]
+alters = ["Purity and Smiting judgments", "Bane"]
 +++
 
 **Sources:** Inner Sea Magic pg 41\

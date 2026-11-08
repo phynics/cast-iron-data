@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "swift tracker", "6th-level slayer talent", "Quarry", "improved quarry"]
 +++
 
 **Sources:** Ultimate Wilderness pg 87\

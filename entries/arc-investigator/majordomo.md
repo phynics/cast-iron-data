@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "All instances of trap sense"]
+alters = ["Alchemy", "swift alchemy"]
 +++
 
 **Sources:** Ultimate Intrigue pg 35\

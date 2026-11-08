@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Inspire competence", "Suggestion", "mass suggestion", "Dirge of doom", "Frightening tune"]
 +++
 
 **Sources:** Ultimate Wilderness pg 41, Varisia, Birthplace of Legends pg 11\

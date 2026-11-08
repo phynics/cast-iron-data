@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Countersong", "distraction", "Well-versed", "Dirge of doom"]
+alters = ["Spell list", "Bardic performance"]
 +++
 
 **Sources:** Villain Codex pg 32\

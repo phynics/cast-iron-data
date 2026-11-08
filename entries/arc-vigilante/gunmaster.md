@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Vigilante specialization", "Unshakable"]
+alters = ["Weapon and armor proficiencies", "Vigilante talents"]
 +++
 
 **Sources:** Ultimate Intrigue pg 57\

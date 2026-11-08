@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonded senses", "phantom recall", "greater spiritual interference"]
+alters = ["Phantom", "Spellcasting"]
 +++
 
 **Sources:** Wilderness Origins pg 18\

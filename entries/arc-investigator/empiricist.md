@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "poison resistance", "Swift alchemy", "True inspiration"]
 +++
 
 **Sources:** Advanced Class Guide pg 100\

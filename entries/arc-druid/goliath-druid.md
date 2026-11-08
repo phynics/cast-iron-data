@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "Resist nature's lure"]
+alters = ["Nature bond", "Wild empathy", "Wild shape"]
 +++
 
 **Sources:** Giant Hunter's Handbook pg 20\

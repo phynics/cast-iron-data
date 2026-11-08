@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "Woodland stride", "Trackless step", "Resist nature's lure", "Timeless body"]
+alters = ["Class skills", "Wild shape"]
 +++
 
 **Sources:** Ultimate Wilderness pg 48, People of the River pg 14\

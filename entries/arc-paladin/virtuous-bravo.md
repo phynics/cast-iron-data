@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mercy", "Spellcasting", "Aura of justice", "Holy champion"]
+alters = ["Armor proficiency", "Smite evil"]
 +++
 
 **Sources:** Heroes of the High Court pg 12\

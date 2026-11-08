@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature's bond", "Resist nature's lure", "Wild shape"]
+alters = ["Spells", "A druid's spontaneous casting"]
 +++
 
 **Sources:** Antihero's Handbook pg 13\

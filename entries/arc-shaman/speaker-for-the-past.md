@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar", "Wandering spirit", "wandering hex"]
 +++
 
 **Sources:** Advanced Class Guide pg 111\

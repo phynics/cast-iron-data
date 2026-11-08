@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st- and 10th-level hexes", "4th-level hex", "8th-level hex", "12th-level hex", "16th-level hex"]
+alters = ["Familiar"]
 +++
 
 **Sources:** Horror Adventures pg 72\

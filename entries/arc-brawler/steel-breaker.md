@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brawler's strike"]
+alters = ["Maneuver training"]
 +++
 
 **Sources:** Advanced Class Guide pg 88\

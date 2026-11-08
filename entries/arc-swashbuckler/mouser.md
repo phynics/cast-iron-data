@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Opportune parry and riposte", "Menacing swordplay", "Targeted strike", "Bleeding wound"]
 +++
 
 **Sources:** Advanced Class Guide pg 125\

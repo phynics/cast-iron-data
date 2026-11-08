@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Bravery 1", "Armor training 1", "Armor training 2", "Armor training 3", "Armor training 4", "Armor mastery"]
 +++
 
 **Sources:** Pathfinder Society Field Guide pg 31\

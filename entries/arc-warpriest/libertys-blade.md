@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Blessings", "Sacred weapon", "Channel energy", "Sacred armor"]
 +++
 
 **Sources:** Advanced Class Origins pg 24\

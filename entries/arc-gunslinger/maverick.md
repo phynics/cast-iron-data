@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Gunslinger's dodge deed", "Pistol whip deed", "Gunslinger initiative deed"]
 +++
 
 **Sources:** Ultimate Intrigue pg 64\

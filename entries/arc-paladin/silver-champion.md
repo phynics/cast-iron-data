@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Divine bond", "channel energy", "aura of justice", "aura of righteousness"]
+alters = ["Smite evil", "mercy", "Spellcasting"]
 +++
 
 **Sources:** Legacy of Dragons pg 25\

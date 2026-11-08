@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alchemy", "Swift alchemy"]
 +++
 
 **Sources:** Advanced Class Guide pg 101\

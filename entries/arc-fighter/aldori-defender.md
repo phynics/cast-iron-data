@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor training", "6th level fighter bonus feat", "8th level fighter bonus feat", "10th level fighter bonus feat"]
 +++
 
 **Sources:** Adventurer's Guide pg 22, Inner Sea Primer pg 24\

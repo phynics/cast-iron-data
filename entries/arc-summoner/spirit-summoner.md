@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Summon monster", "Aspect", "maker's call", "merge forms", "transposition"]
+alters = ["Eidolon"]
 +++
 
 **Sources:** Advanced Class Guide pg 123\

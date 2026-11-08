@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "1st favored terrain", "Endurance"]
+alters = ["Favored enemy", "Favored terrain"]
 +++
 
 **Sources:** People of the Wastes pg 17\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Favored terrain", "Woodland stride", "Camouflage", "Hide in plain sight"]
 +++
 
 **Sources:** Ultimate Combat pg 66\

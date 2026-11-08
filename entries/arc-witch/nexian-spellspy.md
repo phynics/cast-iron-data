@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar's ability to deliver touch spells", "4th-level hex"]
+alters = ["Familiar"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 43\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fast movement", "Uncanny dodge", "Improved uncanny dodge", "Indomitable will", "Tireless rage"]
 +++
 
 **Sources:** Legacy of the First World pg 28\

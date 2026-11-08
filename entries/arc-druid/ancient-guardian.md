@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Trackless step", "woodland stride", "Spontaneous casting", "Resist nature's lure", "A thousand faces"]
+alters = ["Weapon proficiencies", "Nature bond"]
 +++
 
 **Sources:** Monster Codex pg 140\

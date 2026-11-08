@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spell recall", "Knowledge pool", "Medium armor", "Magus arcana gained at 9th level", "Improved spell recall", "Heavy armor", "Greater spell access", "True magus"]
 +++
 
 **Sources:** Ultimate Combat pg 55, Adventurer's Armory 2 pg 11\

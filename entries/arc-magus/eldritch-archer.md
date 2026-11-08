@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Counterstrike"]
+alters = ["Arcane pool", "Spell combat", "Spellstrike"]
 +++
 
 **Sources:** Heroes of the Streets pg 11\

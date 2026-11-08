@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Countersong", "fascinate", "Inspire competence", "Soothing performance", "Inspire heroics", "Lore master", "Jack-of-all-trades"]
 +++
 
 **Sources:** Kobolds of Golarion pg 22\

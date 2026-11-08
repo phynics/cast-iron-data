@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Suggestion", "Inspire greatness", "Mass suggestion", "Well-versed", "The 2nd-level versatile performance"]
 +++
 
 **Sources:** Occult Adventures pg 115\

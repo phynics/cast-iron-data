@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Favored terrain", "Woodland stride", "Swift tracker", "Camouflage", "hide in plain sight"]
 +++
 
 **Sources:** Heroes of the Darklands pg 27\

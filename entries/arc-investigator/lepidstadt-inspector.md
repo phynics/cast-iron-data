@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense", "poison resistance", "poison immunity", "Swift alchemy", "investigator talent gained at 5th level"]
 +++
 
 **Sources:** Advanced Class Origins pg 15\

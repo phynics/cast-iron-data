@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Sacred armor", "Channel energy"]
+alters = ["Spellcasting", "Fervor"]
 +++
 
 **Sources:** People of the Wastes pg 19\

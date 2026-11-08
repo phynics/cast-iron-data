@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Social talent gained at 2nd level", "Social talent gained at 6th level", "Vigilante talent gained at 7th level", "Vigilante talent gained at 15th level"]
 +++
 
 **NOTE:** The levels given for social and vigilante talents are incorrect, saying the abilities

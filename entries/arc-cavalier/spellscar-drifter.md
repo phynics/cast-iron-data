@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Tactician", "Cavalier's charge", "The cavalier's normal bonus feats", "Greater tactician", "Mighty charge", "Demanding challenge", "Master tactician", "Supreme charge"]
+alters = ["Banner"]
 +++
 
 **Sources:** Inner Sea Combat pg 45\

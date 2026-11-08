@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Sneak attack (but see below)", "Trapfinding", "Master strike"]
 +++
 
 **Sources:** Kobolds of Golarion pg 23\

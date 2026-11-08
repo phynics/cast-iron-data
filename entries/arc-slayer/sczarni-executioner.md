@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Swift tracker", "Quarry", "improved quarry"]
+alters = ["Studied target", "Slayer talent received at 4th level", "Slayer talent received at 10th level"]
 +++
 
 **Sources:** Advanced Class Origins pg 21\

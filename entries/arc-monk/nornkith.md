@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Bonus feat gained at 1st level", "Purity of body", "bonus feat gained at 10th level", "Diamond soul", "Quivering palm", "Empty body", "Perfect self"]
 +++
 
 **Sources:** Legacy of the First World pg 24\

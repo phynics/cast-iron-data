@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Unarmed strike", "close weapon mastery", "Maneuver training", "AC bonus", "Brawler's strike"]
 +++
 
 **Sources:** Advanced Class Guide pg 86\

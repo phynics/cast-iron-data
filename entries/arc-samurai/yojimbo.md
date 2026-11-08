@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Weapon expertise", "Mounted archer"]
 +++
 
 **Sources:** Armor Master's Handbook pg 7\

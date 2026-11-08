@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Favored enemy", "Endurance", "Quarry", "Improved quarry"]
 +++
 
 **Sources:** Inner Sea Combat pg 46\

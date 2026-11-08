@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The magus arcana gained at 3rd level"]
+alters = ["Spellcasting", "Arcane pool", "Cantrips", "Spellstrike"]
 +++
 
 **Sources:** Blood of the Ancients pg 17\

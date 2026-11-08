@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature bond", "Nature sense", "Wild empathy", "Spontaneous casting", "Wild shape", "Resist nature's lure", "A thousand faces"]
+alters = ["Class skills"]
 +++
 
 **Sources:** Adventurer's Guide pg 121\

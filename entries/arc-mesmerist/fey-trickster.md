@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Towering ego", "Touch treatment", "Rule minds"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Ultimate Intrigue pg 37\

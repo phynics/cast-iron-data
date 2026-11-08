@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Vigilante talent gained at 2nd level"]
+alters = ["Vigilante specialization", "Vigilante talents"]
 +++
 
 **Sources:** Spymaster's Handbook pg 26\

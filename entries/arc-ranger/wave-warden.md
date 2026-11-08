@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "All combat style bonus feats", "Favored terrain", "Woodland stride", "Swift tracker"]
 +++
 
 **Sources:** Advanced Race Guide pg 194\

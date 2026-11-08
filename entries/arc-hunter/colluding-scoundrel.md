@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Animal focus", "Second animal focus", "Master hunter"]
 +++
 
 **Sources:** Antihero's Handbook pg 11\

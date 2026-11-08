@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-level rogue talent", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
 **Sources:** Blood of the Sea pg 5\

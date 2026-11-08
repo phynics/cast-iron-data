@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Domain"]
 +++
 
 **Sources:** Inner Sea Magic pg 36\

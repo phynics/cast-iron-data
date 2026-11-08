@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "The discovery gained at 2nd level", "Persistent mutagen"]
+alters = ["Alchemy", "brew potion", "Poison resistance"]
 +++
 
 **Sources:** Inner Sea Taverns pg 57\

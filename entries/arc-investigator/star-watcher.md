@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "trap sense", "Swift alchemy"]
+alters = ["Weapon and armor proficiency", "Alchemy", "Investigator talents"]
 +++
 
 **Sources:** Ultimate Wilderness pg 57\

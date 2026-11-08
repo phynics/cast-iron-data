@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bravery", "The bonus feat gained at 4th level", "The bonus feat gained at 8th level", "The bonus feat gained at 12th level", "The bonus feat gained at 16th level"]
+alters = ["Bonus fighter feats"]
 +++
 
 **Sources:** Inner Sea Combat pg 36\

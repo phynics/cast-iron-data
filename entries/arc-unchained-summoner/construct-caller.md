@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Summon monster I"]
+alters = ["Eidolon"]
 +++
 
 **Sources:** Construct Handbook pg 10\

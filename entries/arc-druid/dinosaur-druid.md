@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Resist nature's lure"]
+alters = ["Nature's bond", "Wild shape"]
 +++
 
 **Sources:** Ultimate Wilderness pg 47\

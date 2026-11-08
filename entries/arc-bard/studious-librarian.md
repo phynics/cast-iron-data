@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Distraction", "Suggestion", "jack-of-all-trades", "Dirge of doom", "Mass suggestion", "Deadly performance"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 46\

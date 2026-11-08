@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Domains", "channel energy", "armor proficiency"]
 +++
 
 **Sources:** Undead Slayer's Handbook pg 18\
