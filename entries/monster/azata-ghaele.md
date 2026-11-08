@@ -88,18 +88,18 @@ crackling with power._
 
 **Constant:**
 
-- detect evil, holy aura, DC 21, see invisibility
+- detect evil, holy aura (DC 21), see invisibility
 
 **At will:**
 
-- aid, charm monster, DC 17, continual flame, cure light wounds, dancing lights, detect thoughts, DC
-  15, disguise self, dispel magic, hold monster, DC 18, greater invisibility, self only, major
-  image, DC 16, greater teleport, self plus 50 lbs. of objects only
+- aid, charm monster (DC 17), continual flame, cure light wounds, dancing lights, detect thoughts
+  (DC 15), disguise self, dispel magic, hold monster (DC 18), greater invisibility, self only, major
+  image (DC 16), greater teleport, self plus 50 lbs. of objects only
 
 **Per day:**
 
 - 3/day: globe of invulnerability
-- 1/day: chain lightning, DC 19, prismatic spray, DC 20, wall of force
+- 1/day: chain lightning (DC 19), prismatic spray (DC 20), wall of force
 
 **Prepared Spells**
 
@@ -107,15 +107,15 @@ crackling with power._
 
 **7th-level spells:**
 
-- holy word, DC 21
+- holy word (DC 21)
 
 **6th-level spells:**
 
-- banishment, DC 20, heal, DC 20
+- banishment (DC 20), heal (DC 20)
 
 **5th-level spells:**
 
-- flame strike, DC 19, raise dead, true seeing
+- flame strike (DC 19), raise dead, true seeing
 
 **4th-level spells:**
 
@@ -131,7 +131,7 @@ crackling with power._
 
 **1st-level spells:**
 
-- bless, command, DC 15, divine favor, obscuring mist, shield of faith
+- bless, command (DC 15), divine favor, obscuring mist, shield of faith
 
 **Cantrips:**
 

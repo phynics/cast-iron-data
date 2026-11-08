@@ -88,7 +88,7 @@ painful in its perfection._
 
 **3rd-level spells:**
 
-- call lightning, DC 16, cure moderate wounds, water breathing
+- call lightning (DC 16), cure moderate wounds, water breathing
 
 **2nd-level spells:**
 
@@ -96,7 +96,7 @@ painful in its perfection._
 
 **1st-level spells:**
 
-- charm animal, DC 14, endure elements, entangle, DC 14, obscuring mist, produce flame
+- charm animal (DC 14), endure elements, entangle (DC 14), obscuring mist, produce flame
 
 **Cantrips:**
 

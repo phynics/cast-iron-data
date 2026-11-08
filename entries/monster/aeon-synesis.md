@@ -88,12 +88,12 @@ cosmic starstuff._
 
 **At will:**
 
-- daze, DC 13
+- daze (DC 13)
 
 **Per day:**
 
-- 3/day: id insinuation I, DC 14, touch of idiocy
-- 1/day: cognitive block, DC 15, fox's cunning, mental block, DC 14
+- 3/day: id insinuation I (DC 14), touch of idiocy
+- 1/day: cognitive block (DC 15), fox's cunning, mental block (DC 14)
 
 **Statistics**
 

@@ -92,7 +92,7 @@ nuisance._
 
 **Per day:**
 
-- 1/day: augury, suggestion, DC 15
+- 1/day: augury, suggestion (DC 15)
 
 **Per week:**
 

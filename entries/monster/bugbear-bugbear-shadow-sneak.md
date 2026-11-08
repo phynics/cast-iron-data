@@ -85,8 +85,8 @@ the thrill of the coming kill._
 
 **Per day:**
 
-- 2/day: shadow illusion, DC 11
-- 1/day: shadow call, DC 15
+- 2/day: shadow illusion (DC 11)
+- 1/day: shadow call (DC 15)
 
 ### Tactics
 

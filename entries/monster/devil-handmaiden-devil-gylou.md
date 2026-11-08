@@ -95,12 +95,12 @@ a gown of writhing tendrils._
 
 **At will:**
 
-- alter self, dispel good, DC 20, enthrall, DC 17, greater teleport, self plus 1 entrapped creature
-  and 50 lbs. of goods only, persistent image, DC 20
+- alter self, dispel good (DC 20), enthrall (DC 17), greater teleport, self plus 1 entrapped
+  creature and 50 lbs. of goods only, persistent image (DC 20)
 
 **Per day:**
 
-- 3/day: black tentacles, charm monster, DC 19
+- 3/day: black tentacles, charm monster (DC 19)
 - 1/day: &S level 5; 3 [erinyes](ref/monster/devil-erinyes) 65%
 
 **Statistics**

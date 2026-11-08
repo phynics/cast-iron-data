@@ -84,7 +84,7 @@ quills emerge from each knuckle of its clawed upper hands._
 
 **Constant:**
 
-- detect thoughts, DC 13
+- detect thoughts (DC 13)
 
 **At will:**
 
@@ -92,8 +92,8 @@ quills emerge from each knuckle of its clawed upper hands._
 
 **Per day:**
 
-- 3/day: acid arrow, dispel magic, greater teleport, slow, DC 14
-- 1/day: corrosive consumption, lesser geas, DC 16, misdirection, modify memory, DC 16
+- 3/day: acid arrow, dispel magic, greater teleport, slow (DC 14)
+- 1/day: corrosive consumption, lesser geas (DC 16), misdirection, modify memory (DC 16)
 
 **Statistics**
 

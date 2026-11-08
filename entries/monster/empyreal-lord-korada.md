@@ -99,12 +99,12 @@ flurry of blows +38/+38/+33/+33/+28/+28/+23 (2d10+8)
 
 **Constant:**
 
-- detect evil, detect thoughts, foresight (mythic spell), sanctuary (mythic spell), DC 25, water
+- detect evil, detect thoughts, foresight (mythic spell), sanctuary (mythic spell) (DC 25), water
   walk
 
 **At will:**
 
-- augury, bless (mythic spell), calm animals, DC 25, calm emotions, DC 26, cure serious wounds
+- augury, bless (mythic spell), calm animals (DC 25), calm emotions (DC 26), cure serious wounds
   (mythic spell), greater teleport, mirror image (mythic spell)
 
 **Per day:**

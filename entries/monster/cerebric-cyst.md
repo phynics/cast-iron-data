@@ -89,7 +89,7 @@ ectoplasm._
 
 **At will:**
 
-- charm monster, DC 18, dominate person, DC 19, mind thrust II, DC 16, synesthesia, DC 17,
+- charm monster (DC 18), dominate person (DC 19), mind thrust II (DC 16), synesthesia (DC 17),
   telekinetic projectile
 
 **Psychic Magic**

@@ -77,7 +77,7 @@ flips a gold coin in its hand._
 
 **At will:**
 
-- prestidigitation, putrefy food and drink, DC 11, ghost sound, DC 12, silent image, DC 12
+- prestidigitation, putrefy food and drink (DC 11), ghost sound (DC 12), silent image (DC 12)
 
 **Per day:**
 

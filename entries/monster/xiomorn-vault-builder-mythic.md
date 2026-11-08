@@ -103,12 +103,12 @@ with a fluid grace._
 
 **At will:**
 
-- dispel magic, greater teleport, self plus 50 lbs. of objects only, shatter, DC 20, statue, DC 25,
-  stone shape, stone tell
+- dispel magic, greater teleport, self plus 50 lbs. of objects only, shatter (DC 20), statue (DC
+  25), stone shape, stone tell
 
 **Per day:**
 
-- 3/day: command stone, DC 27, flesh to stone, DC 24, spike stones, DC 22, wall of stone
+- 3/day: command stone (DC 27), flesh to stone (DC 24), spike stones (DC 22), wall of stone
 - 1/day: permanency, summon monster VII, earth elementals only, symbol of scrying
 
 **Prepared Spells**
@@ -123,7 +123,7 @@ with a fluid grace._
 
 **6th-level spells:**
 
-- disintegrate, DC 24, flesh to stone (DC 24)
+- disintegrate (DC 24), flesh to stone (DC 24)
 
 **3rd-level spells:**
 

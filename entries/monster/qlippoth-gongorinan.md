@@ -103,8 +103,8 @@ a different method of inflicting pain._
 
 **Per day:**
 
-- 3/day: baleful polymorph, DC 20, protection from law
-- 1/day: dimension door, mass reduce person, DC 19, polymorph any object, DC 23
+- 3/day: baleful polymorph (DC 20), protection from law
+- 1/day: dimension door, mass reduce person (DC 19), polymorph any object (DC 23)
 
 **Statistics**
 

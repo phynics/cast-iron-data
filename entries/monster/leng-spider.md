@@ -101,8 +101,8 @@ still moves with fluid grace._
 
 **Per day:**
 
-- 3/day: air walk, invisibility, major image, DC 19
-- 1/day: charm monster, DC 20, insanity, DC 23, mirage arcana, DC 21, veil, DC 22
+- 3/day: air walk, invisibility, major image (DC 19)
+- 1/day: charm monster (DC 20), insanity (DC 23), mirage arcana (DC 21), veil (DC 22)
 
 **Statistics**
 

@@ -95,7 +95,7 @@ abilities = ["23", "10", "18", "6", "12", "13"]
 
 **1st-level spells:**
 
-- doom, DC 12, litany of sloth, protection from good
+- doom (DC 12), litany of sloth, protection from good
 
 ### Tactics
 

@@ -95,7 +95,7 @@ beetle carapace._
 
 **Per day:**
 
-- 3/day: daylight, giant vermin, insect plague, repel vermin, DC 21, summon swarm
+- 3/day: daylight, giant vermin, insect plague, repel vermin (DC 21), summon swarm
 
 **Statistics**
 

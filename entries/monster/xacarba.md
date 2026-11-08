@@ -95,13 +95,13 @@ together into one body._
 
 **At will:**
 
-- detect thoughts, DC 19, greater teleport, self plus 50 lbs. of objects only, invisibility,
-  suggestion, DC 20
+- detect thoughts (DC 19), greater teleport, self plus 50 lbs. of objects only, invisibility,
+  suggestion (DC 20)
 
 **Per day:**
 
-- 3/day: charm monster, DC 21, mass suggestion, DC 23, scrying, DC 21, symbol of pain, DC 22, touch
-  of idiocy, vision
+- 3/day: charm monster (DC 21), mass suggestion (DC 23), scrying (DC 21), symbol of pain (DC 22),
+  touch of idiocy, vision
 - 1/day: &S level 5; 1 hezrou or 1d4 succubi; 50%
 
 **Statistics**

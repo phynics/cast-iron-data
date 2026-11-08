@@ -89,11 +89,11 @@ simple robes._
 
 **1st-level spells:**
 
-- 4/day: command, DC 13, cure light wounds, sanctuary, DC 13
+- 4/day: command (DC 13), cure light wounds, sanctuary (DC 13)
 
 **Cantrips:**
 
-- At will: ghost sound, DC 12, guidance, light, mage hand, read magic, resistance
+- At will: ghost sound (DC 12), guidance, light, mage hand, read magic, resistance
 
 **Mystery**
 

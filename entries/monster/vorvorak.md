@@ -84,12 +84,12 @@ and green hide, and a muscular tail sways menacingly behind it._
 
 **At will:**
 
-- decrepit disguise, DC 15, major image, DC 17, quintessence, DC 15
+- decrepit disguise (DC 15), major image (DC 17), quintessence (DC 15)
 
 **Per day:**
 
-- 3/day: control water, fog cloud, shadow conjuration, DC 18
-- 1/day: mirage arcana, DC 19, shadow evocation, DC 19
+- 3/day: control water, fog cloud, shadow conjuration (DC 18)
+- 1/day: mirage arcana (DC 19), shadow evocation (DC 19)
 
 **Statistics**
 

@@ -97,7 +97,7 @@ creature's orb-like body._
 
 **Per day:**
 
-- 3/day: lesser confusion, DC 12
+- 3/day: lesser confusion (DC 12)
 
 **Per week:**
 

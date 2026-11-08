@@ -98,8 +98,8 @@ darkness of a starry night that swirls continuously about her._
 
 **Per day:**
 
-- 3/day: control weather, &Q shout, DC 19, wind wall
-- 1/day: chain lightning, DC 21, whirlwind, DC 23
+- 3/day: control weather, &Q shout (DC 19), wind wall
+- 1/day: chain lightning (DC 21), whirlwind (DC 23)
 
 **Statistics**
 

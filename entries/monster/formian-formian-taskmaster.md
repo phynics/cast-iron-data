@@ -80,7 +80,7 @@ _This centaur-like creature is equipped with an ant's mandibles and antennae._
 
 **Per day:**
 
-- 3/day: detect thoughts, DC 16, sending, to the hive queen only
+- 3/day: detect thoughts (DC 16), sending, to the hive queen only
 
 **Spells Known**
 
@@ -90,20 +90,20 @@ _This centaur-like creature is equipped with an ant's mandibles and antennae._
 
 **3rd-level spells:**
 
-- 2/day: confusion, DC 18, good hope
+- 2/day: confusion (DC 18), good hope
 
 **2nd-level spells:**
 
-- 4/day: heroism, invisibility, sound burst, DC 16, suggestion, DC 17
+- 4/day: heroism, invisibility, sound burst (DC 16), suggestion (DC 17)
 
 **1st-level spells:**
 
-- 5/day: charm person, DC 16, comprehend languages, cure light wounds, hideous laughter, DC 16,
-  silent image, DC 15
+- 5/day: charm person (DC 16), comprehend languages, cure light wounds, hideous laughter (DC 16),
+  silent image (DC 15)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 15, detect magic, mending, message, prestidigitation
+- At will: dancing lights, daze (DC 15), detect magic, mending, message, prestidigitation
 
 **Statistics**
 

@@ -93,7 +93,7 @@ carries a shining spear._
 
 **Per day:**
 
-- 3/day: call lightning storm, DC 21, divine power, geas/quest
+- 3/day: call lightning storm (DC 21), divine power, geas/quest
 - 1/day: breath of life, heal, &S level 8; 1 sleipnir 100%
 
 **Statistics**

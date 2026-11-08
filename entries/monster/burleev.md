@@ -99,15 +99,15 @@ replaces its missing flesh._
 
 **2nd-level spells:**
 
-- 5/day: acid arrow, daze monster, DC 15
+- 5/day: acid arrow, daze monster (DC 15)
 
 **1st-level spells:**
 
-- 7/day: chill touch, DC 14, color spray, DC 14, magic missile, sleep, DC 14
+- 7/day: chill touch (DC 14), color spray (DC 14), magic missile, sleep (DC 14)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 13, disrupt undead, ghost sound, DC 13, mage hand,
+- At will: dancing lights, daze (DC 13), disrupt undead, ghost sound (DC 13), mage hand,
   prestidigitation
 
 **Statistics**

@@ -91,7 +91,7 @@ of which clutches a knife._
 
 **Per day:**
 
-- 3/day: command, DC 13, make whole, protection from chaos
+- 3/day: command (DC 13), make whole, protection from chaos
 
 **Per week:**
 

@@ -94,7 +94,7 @@ negative levels)
 
 **3rd-level spells:**
 
-- 5/day: searing light, speak with dead, DC 18
+- 5/day: searing light, speak with dead (DC 18)
 
 **2nd-level spells:**
 
@@ -102,11 +102,11 @@ negative levels)
 
 **1st-level spells:**
 
-- 8/day: bless, cure light wounds, hide from undead, sanctuary, DC 16, shield of faith
+- 8/day: bless, cure light wounds, hide from undead, sanctuary (DC 16), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 15, detect magic, guidance, mending, read magic, resistance, stabilize
+- At will: bleed (DC 15), detect magic, guidance, mending, read magic, resistance, stabilize
 
 **Statistics**
 

@@ -71,8 +71,8 @@ _This large, plump caterpillar is brilliantly colored and has a strangely self-i
 
 **Per day:**
 
-- 3/day: command, DC 12, detect magic
-- 1/day: invisibility, suggestion, DC 14
+- 3/day: command (DC 12), detect magic
+- 1/day: invisibility, suggestion (DC 14)
 
 **Statistics**
 

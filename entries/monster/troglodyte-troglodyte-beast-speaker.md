@@ -79,11 +79,11 @@ tail and crests on its head and back._
 
 **2nd-level spells:**
 
-- hold animal, DC 14, spider climb, summon swarm
+- hold animal (DC 14), spider climb, summon swarm
 
 **1st-level spells:**
 
-- calm animals, DC 13, charm animal, DC 13, cure light wounds, entangle, DC 13
+- calm animals (DC 13), charm animal (DC 13), cure light wounds, entangle (DC 13)
 
 **Cantrips:**
 

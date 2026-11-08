@@ -97,12 +97,12 @@ erupt from the towering bulk._
 
 **At will:**
 
-- feast on fear, DC 23, putrefy food and drink, DC 16
+- feast on fear (DC 23), putrefy food and drink (DC 16)
 
 **Per day:**
 
-- 3/day: cloudkill, DC 21, &Q displacement, suggestion, DC 19
-- 1/day: horrid wilting, DC 24, imprisonment, DC 25, maze, sequester
+- 3/day: cloudkill (DC 21), &Q displacement, suggestion (DC 19)
+- 1/day: horrid wilting (DC 24), imprisonment (DC 25), maze, sequester
 
 **Statistics**
 

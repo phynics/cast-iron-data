@@ -74,11 +74,11 @@ abilities = ["12", "19", "20", "18", "19", "20"]
 
 **At will:**
 
-- disguise self, DC 16, humanoid form only, ventriloquism, DC 16
+- disguise self (DC 16), humanoid form only, ventriloquism (DC 16)
 
 **Per day:**
 
-- 1/day: blur, dominate person, DC 20, major image, DC 18, mirror image, suggestion, DC 18
+- 1/day: blur, dominate person (DC 20), major image (DC 18), mirror image, suggestion (DC 18)
 
 **Spells Known**
 
@@ -88,21 +88,21 @@ abilities = ["12", "19", "20", "18", "19", "20"]
 
 **3rd-level spells:**
 
-- 5/day: animate dead, bestow curse, DC 18, chain of perdition, inflict serious wounds
+- 5/day: animate dead, bestow curse (DC 18), chain of perdition, inflict serious wounds
 
 **2nd-level spells:**
 
-- 7/day: dread bolt, DC 17, false life, hold person, DC 17, inflict moderate wounds, instrument of
+- 7/day: dread bolt (DC 17), false life, hold person (DC 17), inflict moderate wounds, instrument of
   agony
 
 **1st-level spells:**
 
-- 8/day: cause fear, DC 16, cure light wounds, inflict light wounds, murderous command, DC 16,
-  obscuring mist, ray of sickening, DC 16, shield of faith
+- 8/day: cause fear (DC 16), cure light wounds, inflict light wounds, murderous command (DC 16),
+  obscuring mist, ray of sickening (DC 16), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 15, detect magic, detect poison, guidance, light, resistance, stabilize
+- At will: bleed (DC 15), detect magic, detect poison, guidance, light, resistance, stabilize
 
 **Mystery**
 

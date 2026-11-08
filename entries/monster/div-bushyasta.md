@@ -92,12 +92,12 @@ save for her wide, fang-filled mouth._
 
 **At will:**
 
-- dimension door, self plus 50 lbs. of objects only, touch of fatigue, DC 14
+- dimension door, self plus 50 lbs. of objects only, touch of fatigue (DC 14)
 
 **Per day:**
 
-- 3/day: deep slumber, DC 17, gust of wind, DC 16
-- 1/day: slow, DC 17, suggestion, DC 17, &S level 4; 2 [aghashes](ref/monster/div-aghash) 50%
+- 3/day: deep slumber (DC 17), gust of wind (DC 16)
+- 1/day: slow (DC 17), suggestion (DC 17), &S level 4; 2 [aghashes](ref/monster/div-aghash) 50%
 
 **Statistics**
 

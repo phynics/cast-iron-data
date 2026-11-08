@@ -92,13 +92,13 @@ ring of huge drums and storm clouds._
 
 **At will:**
 
-- invisibility, self only, shatter, DC 19, sound burst, DC 19
+- invisibility, self only, shatter (DC 19), sound burst (DC 19)
 
 **Per day:**
 
 - 3/day: control weather, deafening song bolt, discordant blast, greater dispel magic, mass
-  cacophonous call, DC 22
-- 1/day: &EM chain lightning, DC 23, greater shout, DC 25, storm of vengeance, DC 26
+  cacophonous call (DC 22)
+- 1/day: &EM chain lightning (DC 23), greater shout (DC 25), storm of vengeance (DC 26)
 
 **Statistics**
 

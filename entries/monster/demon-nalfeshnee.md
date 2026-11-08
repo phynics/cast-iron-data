@@ -88,11 +88,11 @@ four-fingered hands._
 
 **Constant:**
 
-- true seeing, unholy aura, DC 23
+- true seeing, unholy aura (DC 23)
 
 **At will:**
 
-- call lightning, DC 18, feeblemind, DC 20, greater dispel magic, slow, DC 18, greater teleport,
+- call lightning (DC 18), feeblemind (DC 20), greater dispel magic, slow (DC 18), greater teleport,
   self plus 50 lbs. of objects only
 
 **Per day:**

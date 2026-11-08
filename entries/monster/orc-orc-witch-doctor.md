@@ -85,24 +85,24 @@ abilities = ["12", "14", "16", "12", "12", "8"]
 
 **5th-level spells:**
 
-- cloudkill, DC 16
+- cloudkill (DC 16)
 
 **4th-level spells:**
 
-- enervation, shout, DC 15
+- enervation, shout (DC 15)
 
 **3rd-level spells:**
 
-- fly, lightning bolt, DC 14, pain strike, DC 14, screech, DC 14
+- fly, lightning bolt (DC 14), pain strike (DC 14), screech (DC 14)
 
 **2nd-level spells:**
 
-- blindness/deafness, DC 13, blood blaze, false life, sentry skull, touch of idiocy
+- blindness/deafness (DC 13), blood blaze, false life, sentry skull, touch of idiocy
 
 **1st-level spells:**
 
-- burning hands, DC 12, chill touch, DC 12, enlarge person, DC 12, mage armor, ray of enfeeblement,
-  DC 12
+- burning hands (DC 12), chill touch (DC 12), enlarge person (DC 12), mage armor, ray of
+  enfeeblement (DC 12)
 
 **Cantrips:**
 

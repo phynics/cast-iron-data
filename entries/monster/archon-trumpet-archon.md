@@ -98,15 +98,15 @@ and radiates a sense of serenity._
 
 **6th-level spells:**
 
-- banishment, DC 21, heal, 2
+- banishment (DC 21), heal, 2
 
 **5th-level spells:**
 
-- dispel evil, DC 20, mass cure light wounds, plane shift, DC 20, raise dead
+- dispel evil (DC 20), mass cure light wounds, plane shift (DC 20), raise dead
 
 **4th-level spells:**
 
-- dismissal, DC 19, divine power, neutralize poison, DC 19, spell immunity
+- dismissal (DC 19), divine power, neutralize poison (DC 19), spell immunity
 
 **3rd-level spells:**
 
@@ -118,7 +118,7 @@ and radiates a sense of serenity._
 
 **1st-level spells:**
 
-- bless, cure light wounds, 3, divine favor, sanctuary, DC 16, shield of faith
+- bless, cure light wounds, 3, divine favor, sanctuary (DC 16), shield of faith
 
 **Cantrips:**
 

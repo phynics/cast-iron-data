@@ -83,7 +83,7 @@ the thing darts from sight._
 
 **Per day:**
 
-- 1/day: dancing lights, flare, DC 12, levitate, shatter, DC 14, ventriloquism, DC 13
+- 1/day: dancing lights, flare (DC 12), levitate, shatter (DC 14), ventriloquism (DC 13)
 
 **Statistics**
 

@@ -88,7 +88,7 @@ tentacles stretch from its shoulders._
 **Per day:**
 
 - 8/day: calming touch, 1d6+8, rebuke death, 1d4+4
-- 3/day: aid, cure moderate wounds, enthrall, DC 16, major image, DC 17
+- 3/day: aid, cure moderate wounds, enthrall (DC 16), major image (DC 17)
 - 1/day: create food and water, mass cure light wounds, plane shift, self only
 
 **Statistics**

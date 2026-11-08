@@ -92,11 +92,11 @@ brilliant flower petals._
 
 **1st-level spells:**
 
-- 2/day: charm person, DC 14, sleep, DC 14
+- 2/day: charm person (DC 14), sleep (DC 14)
 
 **Cantrips:**
 
-- At will: daze, DC 13, light, mending, message
+- At will: daze (DC 13), light, mending, message
 
 **Statistics**
 

@@ -91,7 +91,7 @@ above its grotesque, misshapen head and its mouth is open in a silent scream._
 
 **Per day:**
 
-- 3/day: shatter, DC 15
+- 3/day: shatter (DC 15)
 
 **Statistics**
 

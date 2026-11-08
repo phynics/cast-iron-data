@@ -101,7 +101,7 @@ _This massive, red-skinned creature surges with roiling waves of brilliant fire.
 
 **Per day:**
 
-- 1/day: miracle, DC 28, true resurrection, wish (mythic spell), DC 28
+- 1/day: miracle (DC 28), true resurrection, wish (mythic spell) (DC 28)
 
 **Psychic Magic**
 

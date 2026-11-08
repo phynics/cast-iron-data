@@ -90,12 +90,12 @@ _This foul creature looks like an emaciated humanoid with the head of a jackal._
 
 **At will:**
 
-- cause fear, DC 15, deeper darkness, greater teleport, self plus 50 lbs. of objects only
+- cause fear (DC 15), deeper darkness, greater teleport, self plus 50 lbs. of objects only
 
 **Per day:**
 
-- 3/day: blight, DC 19, diminish plants, &Q magic missile
-- 1/day: horrid wilting, DC 22, waves of fatigue
+- 3/day: blight (DC 19), diminish plants, &Q magic missile
+- 1/day: horrid wilting (DC 22), waves of fatigue
 
 **Statistics**
 

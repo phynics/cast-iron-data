@@ -88,11 +88,11 @@ slap +30 (2d8+18)
 
 **At will:**
 
-- blur, dimension door, ray of enfeeblement, DC 18, ray of exhaustion, DC 20
+- blur, dimension door, ray of enfeeblement (DC 18), ray of exhaustion (DC 20)
 
 **Per day:**
 
-- 1/day: nightmare, DC 22
+- 1/day: nightmare (DC 22)
 
 **Spells Known**
 
@@ -102,31 +102,31 @@ slap +30 (2d8+18)
 
 **7th-level spells:**
 
-- 5/day: prismatic spray, DC 24, vision
+- 5/day: prismatic spray (DC 24), vision
 
 **6th-level spells:**
 
-- 7/day: disintegrate, DC 23, eyebite, DC 23, shadow walk
+- 7/day: disintegrate (DC 23), eyebite (DC 23), shadow walk
 
 **5th-level spells:**
 
-- 7/day: break enchantment, dismissal, DC 22, dominate person, DC 22, feeblemind, DC 22
+- 7/day: break enchantment, dismissal (DC 22), dominate person (DC 22), feeblemind (DC 22)
 
 **4th-level spells:**
 
-- 7/day: charm monster, DC 21, confusion, DC 21, dimensional anchor, scrying, DC 21
+- 7/day: charm monster (DC 21), confusion (DC 21), dimensional anchor, scrying (DC 21)
 
 **3rd-level spells:**
 
-- 8/day: dispel magic, haste, heroism, lightning bolt, DC 20
+- 8/day: dispel magic, haste, heroism, lightning bolt (DC 20)
 
 **2nd-level spells:**
 
-- 7/day: invisibility, locate object, resist energy, touch of idiocy, DC 19, share memory, DC 19
+- 7/day: invisibility, locate object, resist energy, touch of idiocy (DC 19), share memory (DC 19)
 
 **1st-level spells:**
 
-- 8/day: alarm, cause fear, DC 18, hypnotism, DC 18, mage armor, obscuring mist
+- 8/day: alarm, cause fear (DC 18), hypnotism (DC 18), mage armor, obscuring mist
 
 **Cantrips:**
 

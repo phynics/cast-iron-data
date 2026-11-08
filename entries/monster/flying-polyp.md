@@ -96,12 +96,12 @@ vortex of sucking wind._
 
 **At will:**
 
-- alter winds, gust of wind, DC 17, whispering wind, wind walk
+- alter winds, gust of wind (DC 17), whispering wind, wind walk
 
 **Per day:**
 
-- 3/day: control winds, DC 20, river of wind, DC 19, wind wall
-- 1/day: control weather, whirlwind, DC 23
+- 3/day: control winds (DC 20), river of wind (DC 19), wind wall
+- 1/day: control weather, whirlwind (DC 23)
 
 **Statistics**
 

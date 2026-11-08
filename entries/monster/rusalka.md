@@ -95,11 +95,11 @@ her as if she were underwater._
 
 **At will:**
 
-- entangle, DC 18, fog cloud, invisibility
+- entangle (DC 18), fog cloud, invisibility
 
 **Per day:**
 
-- 3/day: &Q charm monster, DC 21, control water
+- 3/day: &Q charm monster (DC 21), control water
 - 1/day: summon nature's ally VI, water elementals only
 
 **Statistics**

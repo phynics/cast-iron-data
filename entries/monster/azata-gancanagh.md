@@ -81,7 +81,7 @@ _This incredibly handsome man's pointed ears and otherworldly grace betray an in
 
 **At will:**
 
-- charm person, DC 16, mirror image, suggestion, DC 17
+- charm person (DC 16), mirror image, suggestion (DC 17)
 
 **Per day:**
 

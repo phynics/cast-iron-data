@@ -86,15 +86,15 @@ abilities = ["23", "14", "27", "8", "16", "4"]
 
 **3rd-level spells:**
 
-- call lightning, DC 18, fireball, DC 18, poison, 2, DC 16
+- call lightning (DC 18), fireball (DC 18), poison (2, DC 16)
 
 **2nd-level spells:**
 
-- barkskin, bull's strength, flaming sphere, DC 17, hold animal, DC 15, produce flame
+- barkskin, bull's strength, flaming sphere (DC 17), hold animal (DC 15), produce flame
 
 **1st-level spells:**
 
-- burning hands, DC 16, entangle, DC 14, magic fang, obscuring mist, pass without trace
+- burning hands (DC 16), entangle (DC 14), magic fang, obscuring mist, pass without trace
 
 **Cantrips:**
 

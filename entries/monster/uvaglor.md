@@ -93,7 +93,7 @@ talons +30 (1d6+5)
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, telekinesis, DC 22
+- greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 22)
 
 **Per day:**
 
@@ -108,40 +108,40 @@ talons +30 (1d6+5)
 
 **7th-level spells:**
 
-- 5/day: destruction, DC 24, insanity, DC 24, mass cure serious wounds, refuge, reverse gravity
+- 5/day: destruction (DC 24), insanity (DC 24), mass cure serious wounds, refuge, reverse gravity
 
 **6th-level spells:**
 
-- 7/day: blade barrier, DC 23, geas/quest, heal, mass cure moderate wounds, planar binding, DC 23
+- 7/day: blade barrier (DC 23), geas/quest, heal, mass cure moderate wounds, planar binding (DC 23)
 
 **5th-level spells:**
 
-- 7/day: breath of life, greater command, DC 22, insect plague, lesser planar binding, DC 22, mass
+- 7/day: breath of life, greater command (DC 22), insect plague, lesser planar binding (DC 22), mass
   cure light wounds, telekinesis, unhallow
 
 **4th-level spells:**
 
-- 7/day: confusion, DC 21, cure critical wounds, dimensional anchor, freedom of movement, poison, DC
-  21, sending
+- 7/day: confusion (DC 21), cure critical wounds, dimensional anchor, freedom of movement, poison
+  (DC 21), sending
 
 **3rd-level spells:**
 
-- 8/day: blindness/deafness, DC 20, cure serious wounds, dispel magic, searing light, vermin shape
+- 8/day: blindness/deafness (DC 20), cure serious wounds, dispel magic, searing light, vermin shape
   I, water breathing
 
 **2nd-level spells:**
 
-- 8/day: bull's strength, cure moderate wounds, death knell, DC 19, hold person, DC 19, levitate,
-  minor image, DC 19, resist energy, sound burst, DC 19, status
+- 8/day: bull's strength, cure moderate wounds, death knell (DC 19), hold person (DC 19), levitate,
+  minor image (DC 19), resist energy, sound burst (DC 19), status
 
 **1st-level spells:**
 
-- 8/day: command, DC 18, cure light wounds, divine favor, endure elements, entropic shield,
-  sanctuary, DC 18, shield of faith
+- 8/day: command (DC 18), cure light wounds, divine favor, endure elements, entropic shield,
+  sanctuary (DC 18), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 17, create water, detect magic, ghost sound, guidance, light, mage hand,
+- At will: bleed (DC 17), create water, detect magic, ghost sound, guidance, light, mage hand,
   mending, read magic, resistance, stabilize
 
 **Mystery**

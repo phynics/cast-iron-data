@@ -84,11 +84,12 @@ plus mind sting)
 
 **At will:**
 
-- calm emotions, DC 20, detect thoughts, DC 20, sound burst, DC 20
+- calm emotions (DC 20), detect thoughts (DC 20), sound burst (DC 20)
 
 **Per day:**
 
-- 3/day: divination, invisibility purge, locate object, misdirection, DC 20, symbol of sleep, DC 23
+- 3/day: divination, invisibility purge, locate object, misdirection (DC 20), symbol of sleep (DC
+  23)
 - 1/day: &S level 5; 1d3 giant queen bees or 1d4 wasp swarms, true seeing
 
 **Statistics**

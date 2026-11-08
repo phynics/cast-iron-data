@@ -89,7 +89,7 @@ disease)
 
 **At will:**
 
-- contagion, DC 17, dimension door
+- contagion (DC 17), dimension door
 
 **Per day:**
 

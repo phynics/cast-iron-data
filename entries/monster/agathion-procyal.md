@@ -82,13 +82,13 @@ darting eyes._
 
 **At will:**
 
-- calm emotions, DC 15, magic aura, DC 14, suggestion, DC 16
+- calm emotions (DC 15), magic aura (DC 14), suggestion (DC 16)
 
 **Per day:**
 
-- 3/day: charm monster, DC 17, dispel magic, dimension door, self plus 50 lbs. of objects only,
-  heroism, invisibility, shadow conjuration, DC 17
-- 1/day: blood biography, DC 16, dominate person, DC 18, spiritual ally
+- 3/day: charm monster (DC 17), dispel magic, dimension door, self plus 50 lbs. of objects only,
+  heroism, invisibility, shadow conjuration (DC 17)
+- 1/day: blood biography (DC 16), dominate person (DC 18), spiritual ally
 
 **Statistics**
 

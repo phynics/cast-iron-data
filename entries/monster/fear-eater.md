@@ -76,11 +76,11 @@ _A distressingly humanoid face and stubby arms grow from this maggot-like creatu
 
 **At will:**
 
-- cause fear, DC 13, dancing lights
+- cause fear (DC 13), dancing lights
 
 **Per day:**
 
-- 3/day: faerie fire, paranoia, DC 14
+- 3/day: faerie fire, paranoia (DC 14)
 - 1/day: fear, feather fall
 
 **Statistics**

@@ -99,7 +99,7 @@ man._
 
 **1st-level spells:**
 
-- 7/day: bless, command, DC 13, cure light wounds, detect evil, divine favor
+- 7/day: bless, command (DC 13), cure light wounds, detect evil, divine favor
 
 **Cantrips:**
 

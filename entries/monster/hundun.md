@@ -100,14 +100,14 @@ _The wrinkled, blotchy skin of this giant hangs from its body like hooded robes,
 
 **At will:**
 
-- chaos hammer, DC 22, dimension door, enervation, greater dispel magic, mass inflict moderate
-  wounds, DC 24, plane shift, DC 23
+- chaos hammer (DC 22), dimension door, enervation, greater dispel magic, mass inflict moderate
+  wounds (DC 24), plane shift (DC 23)
 
 **Per day:**
 
-- 3/day: &Q dimension door, disintegrate, DC 24, &Q mass inflict moderate wounds, DC 24, word of
-  chaos, DC 25
-- 1/day: orb of the void, DC 26
+- 3/day: &Q dimension door, disintegrate (DC 24), &Q mass inflict moderate wounds (DC 24), word of
+  chaos (DC 25)
+- 1/day: orb of the void (DC 26)
 
 **Statistics**
 

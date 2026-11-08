@@ -97,14 +97,14 @@ glowing eyes._
 
 **At will:**
 
-- augury, cure light wounds, dancing lights, death ward, detect thoughts, DC 18, disguise self,
-  major image, DC 19, greater teleport, self plus 50 lbs. of objects only
+- augury, cure light wounds, dancing lights, death ward, detect thoughts (DC 18), disguise self,
+  major image (DC 19), greater teleport, self plus 50 lbs. of objects only
 
 **Per day:**
 
-- 3/day: breath of life, chain lightning, DC 22, globe of invulnerability, greater dispel magic,
-  greater invisibility, self only, heal, hold monster, DC 21, limited wish, DC 23, plane shift,
-  undeath to death, DC 22, wall of force
+- 3/day: breath of life, chain lightning (DC 22), globe of invulnerability, greater dispel magic,
+  greater invisibility, self only, heal, hold monster (DC 21), limited wish (DC 23), plane shift,
+  undeath to death (DC 22), wall of force
 
 **Statistics**
 

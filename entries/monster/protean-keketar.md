@@ -104,14 +104,14 @@ plus [grab](ref/umr/grab))
 
 **At will:**
 
-- chaos hammer, DC 21, greater dispel magic, greater teleport, self plus 50 lbs. of objects only,
-  major creation, move earth, shatter, DC 19
+- chaos hammer (DC 21), greater dispel magic, greater teleport, self plus 50 lbs. of objects only,
+  major creation, move earth, shatter (DC 19)
 
 **Per day:**
 
-- 3/day: &Q confusion, DC 21, dispel law, DC 22, &EM chaos hammer, DC 21, polymorph any object, DC
-  25
-- 1/day: disintegrate, DC 23, prismatic spray, DC 24, prismatic sphere, DC 26, reshape reality
+- 3/day: &Q confusion (DC 21), dispel law (DC 22), &EM chaos hammer (DC 21), polymorph any object
+  (DC 25)
+- 1/day: disintegrate (DC 23), prismatic spray (DC 24), prismatic sphere (DC 26), reshape reality
 
 **Statistics**
 

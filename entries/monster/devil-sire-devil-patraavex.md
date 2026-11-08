@@ -90,7 +90,7 @@ fanged mouth running vertically across its torso._
 
 **At will:**
 
-- detect thoughts, DC 16, greater teleport, self plus 50 lbs. of objects only
+- detect thoughts (DC 16), greater teleport, self plus 50 lbs. of objects only
 
 **Per day:**
 

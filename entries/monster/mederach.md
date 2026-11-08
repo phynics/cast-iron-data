@@ -95,8 +95,8 @@ and massive mandibles._
 
 **Per day:**
 
-- 3/day: calm emotions, DC 16, glitterdust, DC 16
-- 1/day: break enchantment, DC 18, hold monster, DC 18
+- 3/day: calm emotions (DC 16), glitterdust (DC 16)
+- 1/day: break enchantment (DC 18), hold monster (DC 18)
 
 **Statistics**
 

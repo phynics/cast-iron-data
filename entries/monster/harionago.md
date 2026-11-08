@@ -89,8 +89,8 @@ flowing tangle of hair._
 
 **Per day:**
 
-- 3/day: feather fall, levitate, ray of enfeeblement, DC 17, unnatural lust, DC 18
-- 1/day: charm monster, DC 19, vampiric touch, DC 19
+- 3/day: feather fall, levitate, ray of enfeeblement (DC 17), unnatural lust (DC 18)
+- 1/day: charm monster (DC 19), vampiric touch (DC 19)
 
 **Statistics**
 

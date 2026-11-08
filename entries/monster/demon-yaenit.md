@@ -91,7 +91,7 @@ _Patches of fur adorn the sickly flesh of this gangly but muscular hyena-headed 
 
 **Per day:**
 
-- 3/day: hold person, DC 16, vampiric touch
+- 3/day: hold person (DC 16), vampiric touch
 - 1/day: &S level 3; 1 yaenit 40%
 
 **Statistics**

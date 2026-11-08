@@ -82,7 +82,7 @@ _This slime-covered serpentine creature has a humanoid head resembling that of a
 
 **3rd-level spells:**
 
-- 5/day: lightning bolt, DC 17, stinking cloud, DC 17
+- 5/day: lightning bolt (DC 17), stinking cloud (DC 17)
 
 **2nd-level spells:**
 
@@ -90,12 +90,12 @@ _This slime-covered serpentine creature has a humanoid head resembling that of a
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 15, grease, DC 15, hydraulic push, mage armor, magic missile
+- 7/day: charm person (DC 15), grease (DC 15), hydraulic push, mage armor, magic missile
 
 **Cantrips:**
 
-- At will: acid splash, bleed, DC 14, dancing lights, ghost sound, DC 14, mage hand, open/close,
-  touch of fatigue, DC 14
+- At will: acid splash, bleed (DC 14), dancing lights, ghost sound (DC 14), mage hand, open/close,
+  touch of fatigue (DC 14)
 
 **Statistics**
 

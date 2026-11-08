@@ -91,7 +91,7 @@ a mouth._
 
 **Per day:**
 
-- 3/day: waves of exhaustion, DC 18
+- 3/day: waves of exhaustion (DC 18)
 
 **Statistics**
 

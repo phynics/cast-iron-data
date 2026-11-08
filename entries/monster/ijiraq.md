@@ -80,12 +80,12 @@ adorned with scrimshaw talismans._
 
 **At will:**
 
-- dimension door, fly, hallucinatory terrain, DC 20
+- dimension door, fly, hallucinatory terrain (DC 20)
 
 **Per day:**
 
-- 3/day: baleful polymorph, DC 21, control winds, cure critical wounds, DC 20, ice storm, DC 20,
-  sleet storm, DC 19, summon nature's ally IV
+- 3/day: baleful polymorph (DC 21), control winds, cure critical wounds (DC 20), ice storm (DC 20),
+  sleet storm (DC 19), summon nature's ally IV
 
 **Statistics**
 

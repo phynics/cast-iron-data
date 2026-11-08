@@ -86,7 +86,7 @@ _This lithe, androgynous humanoid has unusually colored skin and an otherworldly
 
 **Per day:**
 
-- 3/day: cure serious wounds, suggestion, DC 18
+- 3/day: cure serious wounds, suggestion (DC 18)
 - 1/day: dispel magic, transmute rock to mud
 
 **Statistics**

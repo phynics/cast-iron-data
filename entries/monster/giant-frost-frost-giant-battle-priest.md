@@ -104,8 +104,8 @@ abilities = ["34", "8", "18", "13", "23", "14"]
 
 **4th-level spells:**
 
-- blessing of fervor, communal protection from energy, divine power (domain spell), unholy blight,
-  DC 20
+- blessing of fervor, communal protection from energy, divine power (domain spell), unholy blight
+  (DC 20)
 
 **3rd-level spells:**
 
@@ -114,13 +114,13 @@ abilities = ["34", "8", "18", "13", "23", "14"]
 
 **2nd-level spells:**
 
-- align weapon, death knell, DC 18, hold person, DC 18, magic boulder, spiritual weapon (domain
+- align weapon, death knell (DC 18), hold person (DC 18), magic boulder, spiritual weapon (domain
   spell), weapon of awe
 
 **1st-level spells:**
 
-- bane, DC 17, bless, command, DC 17, cure light wounds, divine favor, enlarge person (domain
-  spell), DC 17, shield of faith
+- bane (DC 17), bless, command (DC 17), cure light wounds, divine favor, enlarge person (domain
+  spell) (DC 17), shield of faith
 
 **Cantrips:**
 

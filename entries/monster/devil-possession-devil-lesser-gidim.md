@@ -89,16 +89,16 @@ looming malevolence and faint foul breath._
 
 **At will:**
 
-- bleed, DC 13, ghost sound (domain spell), DC 13, greater teleport, self plus 50 lbs. of objects
-  only, knock (domain spell), DC 15, levitate (domain spell), DC 15, open/close (domain spell), DC
-  13, prestidigitation (domain spell), DC 13, mage hand (domain spell), DC 13
+- bleed (DC 13), ghost sound (domain spell) (DC 13), greater teleport, self plus 50 lbs. of objects
+  only, knock (domain spell) (DC 15), levitate (domain spell) (DC 15), open/close (domain spell) (DC
+  13), prestidigitation (domain spell) (DC 13), mage hand (domain spell) (DC 13)
 
 **Per day:**
 
-- 3/day: animate rope (domain spell), DC 14, dancing lights (domain spell), DC 13, ethereal jaunt,
+- 3/day: animate rope (domain spell) (DC 14), dancing lights (domain spell) (DC 13), ethereal jaunt,
   Ethereal Plane to Material Plane and vice versa, minor creation, plane shift, self only; to
-  Ethereal Plane, Hell, or Material Plane only, produce flame (domain spell), DC 14, silent image
-  (domain spell), DC 14, suggestion, DC 16, unseen servant (domain spell), DC 14
+  Ethereal Plane, Hell, or Material Plane only, produce flame (domain spell) (DC 14), silent image
+  (domain spell) (DC 14), suggestion (DC 16), unseen servant (domain spell) (DC 14)
 - 1/day: &S level 4; 1 lesser possession devil; 40%
 
 ###### D {#footnote-d}

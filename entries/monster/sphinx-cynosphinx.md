@@ -80,12 +80,12 @@ _A jackal's head draped in a tattered headdress extends from a winged, leonine b
 
 **At will:**
 
-- speak with dead, DC 15
+- speak with dead (DC 15)
 
 **Per day:**
 
-- 3/day: detect thoughts, DC 14
-- 1/day: animate dead, seek thoughts, DC 15
+- 3/day: detect thoughts (DC 14)
+- 1/day: animate dead, seek thoughts (DC 15)
 
 **Statistics**
 

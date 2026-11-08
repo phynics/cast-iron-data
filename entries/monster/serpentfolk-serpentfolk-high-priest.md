@@ -81,12 +81,12 @@ abilities = ["10", "23", "20", "16", "22", "20"]
 
 **At will:**
 
-- disguise self, DC 16, humanoid form only, ventriloquism, DC 16
+- disguise self (DC 16), humanoid form only, ventriloquism (DC 16)
 
 **Per day:**
 
-- 1/day: blur, dominate person, DC 20, major image, DC 18, mass suggestion, DC 21, mirror image,
-  suggestion, DC 18, teleport
+- 1/day: blur, dominate person (DC 20), major image (DC 18), mass suggestion (DC 21), mirror image,
+  suggestion (DC 18), teleport
 
 **Spell-Like Abilities**
 
@@ -106,12 +106,12 @@ abilities = ["10", "23", "20", "16", "22", "20"]
 
 **5th-level spells:**
 
-- flame strike (domain spell), 2, DC 21, righteous might, slay living, DC 21
+- flame strike (domain spell) (2, DC 21), righteous might, slay living (DC 21)
 
 **4th-level spells:**
 
-- cure critical wounds, divine power, freedom of movement, spit venom, DC 20, unholy blight (domain
-  spell), DC 20
+- cure critical wounds, divine power, freedom of movement, spit venom (DC 20), unholy blight (domain
+  spell) (DC 20)
 
 **3rd-level spells:**
 
@@ -120,17 +120,17 @@ abilities = ["10", "23", "20", "16", "22", "20"]
 
 **2nd-level spells:**
 
-- bear's endurance, calm emotions, DC 18, darkness, dread bolt, DC 18, hold person, 2, DC 18,
+- bear's endurance, calm emotions (DC 18), darkness, dread bolt (DC 18), hold person (2, DC 18),
   spiritual weapon (domain spell)
 
 **1st-level spells:**
 
-- bane, DC 17, forbid action, DC 17, murderous command, 2, DC 17, protection from good (domain
+- bane (DC 17), forbid action (DC 17), murderous command (2, DC 17), protection from good (domain
   spell), shield of faith, 2
 
 **Cantrips:**
 
-- bleed, DC 16, detect magic, resistance, stabilize
+- bleed (DC 16), detect magic, resistance, stabilize
 
 **Domains**
 

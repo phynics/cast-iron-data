@@ -89,12 +89,12 @@ long fingers and nails._
 
 **At will:**
 
-- detect thoughts, DC 16
+- detect thoughts (DC 16)
 
 **Per day:**
 
-- 3/day: animal trance, DC 16, invisibility, self only, snare, DC 17
-- 1/day: control weather, dominate animal, DC 17, speak with dead, DC 17
+- 3/day: animal trance (DC 16), invisibility, self only, snare (DC 17)
+- 1/day: control weather, dominate animal (DC 17), speak with dead (DC 17)
 
 **Statistics**
 

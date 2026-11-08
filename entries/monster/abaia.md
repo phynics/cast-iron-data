@@ -88,7 +88,7 @@ _This multi-eyed eel's brightly colored markings shift in complex, ever-changing
 
 **At will:**
 
-- control water, hydraulic torrent, rainbow pattern, DC 17
+- control water, hydraulic torrent, rainbow pattern (DC 17)
 
 **Per day:**
 

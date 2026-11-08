@@ -94,7 +94,7 @@ resembling a starry night sky._
 **Per day:**
 
 - 3/day: cure light wounds, locate creature, magic missile, message
-- 1/day: blindness/deafness, DC 15, neutralize poison, true strike
+- 1/day: blindness/deafness (DC 15), neutralize poison, true strike
 
 **Statistics**
 

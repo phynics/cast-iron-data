@@ -77,11 +77,11 @@ gnarled roots grow, and tangles of vines hang from its moldering chest like spil
 
 **At will:**
 
-- entangle, DC 14
+- entangle (DC 14)
 
 **Per day:**
 
-- 3/day: command plants, DC 17
+- 3/day: command plants (DC 17)
 - 1/day: summon nature's ally V, 1 shambling mound only
 
 **Prepared Spells**
@@ -92,15 +92,15 @@ gnarled roots grow, and tangles of vines hang from its moldering chest like spil
 
 **4th-level spells:**
 
-- spike stones, DC 17
+- spike stones (DC 17)
 
 **3rd-level spells:**
 
-- call lightning, 2, DC 16, plant growth
+- call lightning (2, DC 16), plant growth
 
 **2nd-level spells:**
 
-- fog cloud, soften earth and stone, tree shape, wood shape, DC 15
+- fog cloud, soften earth and stone, tree shape, wood shape (DC 15)
 
 **1st-level spells:**
 

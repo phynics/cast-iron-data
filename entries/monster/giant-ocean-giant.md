@@ -91,9 +91,9 @@ _This blue-skinned giant's clothing and beard whip about like sails caught in a 
 
 **Per day:**
 
-- 3/day: aqueous orb, DC 17, control winds, DC 19, shout, DC 18, summon nature's ally VII, swimming
-  creatures only, water breathing
-- 1/day: vortex, DC 20
+- 3/day: aqueous orb (DC 17), control winds (DC 19), shout (DC 18), summon nature's ally VII,
+  swimming creatures only, water breathing
+- 1/day: vortex (DC 20)
 
 **Statistics**
 

@@ -95,7 +95,7 @@ obscure its head._
 
 **Per day:**
 
-- 3/day: alchemical allocation, death knell, DC 12, invisibility, self only, obscuring mist, vomit
+- 3/day: alchemical allocation, death knell (DC 12), invisibility, self only, obscuring mist, vomit
   swarm, spiders only
 
 **Statistics**

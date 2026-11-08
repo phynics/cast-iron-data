@@ -79,7 +79,7 @@ _This small, blue-gray humanoid has glowing eyes and huge ears on its round, ove
 
 **At will:**
 
-- dancing lights, ghost sound, DC 12, silent image, DC 13
+- dancing lights, ghost sound (DC 12), silent image (DC 13)
 
 **Statistics**
 

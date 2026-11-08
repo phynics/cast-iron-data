@@ -93,13 +93,13 @@ sides of its wide mouth, and its slimy skin undulates with sickening shudders._
 
 **At will:**
 
-- crushing despair, DC 20, detect thoughts, DC 18, inflict pain, DC 19, project image, DC 23
+- crushing despair (DC 20), detect thoughts (DC 18), inflict pain (DC 19), project image (DC 23)
 
 **Per day:**
 
-- 3/day: &scarring crushing despair, DC 20, emotive block, DC 19, mad hallucination, DC 18, mind
-  thrust IV, DC 20, modify memory, DC 20
-- 1/day: eyebite, DC 22
+- 3/day: &scarring crushing despair (DC 20), emotive block (DC 19), mad hallucination (DC 18), mind
+  thrust IV (DC 20), modify memory (DC 20)
+- 1/day: eyebite (DC 22)
 
 **Statistics**
 

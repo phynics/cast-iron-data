@@ -85,11 +85,11 @@ long, red hair and a bushy beard._
 
 **At will:**
 
-- reduce person, DC 13
+- reduce person (DC 13)
 
 **Per day:**
 
-- 1/day: alter self, confusion, DC 16, detect magic, know direction
+- 1/day: alter self, confusion (DC 16), detect magic, know direction
 
 **Statistics**
 

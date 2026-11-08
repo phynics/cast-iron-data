@@ -97,12 +97,13 @@ whip._
 
 **At will:**
 
-- invisibility, major image, DC 20, modify memory, DC 20, suggestion, DC 19
+- invisibility, major image (DC 20), modify memory (DC 20), suggestion (DC 19)
 
 **Per day:**
 
-- 3/day: charm monster, DC 20, phantasmal vengeance, DC 20, teleport, self plus 50 lbs. of gear only
-- 1/day: mislead, DC 22, true seeing
+- 3/day: charm monster (DC 20), phantasmal vengeance (DC 20), teleport, self plus 50 lbs. of gear
+  only
+- 1/day: mislead (DC 22), true seeing
 
 **Statistics**
 

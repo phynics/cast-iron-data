@@ -80,11 +80,11 @@ mouth filled with sharp teeth._
 
 **1st-level spells:**
 
-- 2/day: hypnotism, DC 14, innocence
+- 2/day: hypnotism (DC 14), innocence
 
 **Cantrips:**
 
-- At will: daze, DC 13, detect magic, message, prestidigitation
+- At will: daze (DC 13), detect magic, message, prestidigitation
 
 **Statistics**
 

@@ -83,15 +83,15 @@ _This lean ape-person is bedecked with a rattling collection of whistles, drums,
 
 **2nd-level spells:**
 
-- 4/day: cure moderate wounds, detect thoughts, DC 15, invisibility, suggestion, DC 15
+- 4/day: cure moderate wounds, detect thoughts (DC 15), invisibility, suggestion (DC 15)
 
 **1st-level spells:**
 
-- 5/day: charm person, DC 14, disguise self, DC 14, expeditious retreat, hideous laughter, DC 14
+- 5/day: charm person (DC 14), disguise self (DC 14), expeditious retreat, hideous laughter (DC 14)
 
 **Cantrips:**
 
-- At will: detect magic, ghost sound, DC 13, lullaby, DC 13, mage hand, prestidigitation, DC 13,
+- At will: detect magic, ghost sound (DC 13), lullaby (DC 13), mage hand, prestidigitation (DC 13),
   read magic
 
 **Statistics**

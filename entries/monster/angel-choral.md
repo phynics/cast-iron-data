@@ -93,12 +93,12 @@ slowly ripples through the air._
 
 **At will:**
 
-- aid, ghost sound, DC 13, dispel evil, DC 18, dispel magic, invisibility, self only, plane shift,
+- aid, ghost sound (DC 13), dispel evil (DC 18), dispel magic, invisibility, self only, plane shift,
   self only, remove curse, remove disease, remove fear
 
 **Per day:**
 
-- 3/day: cure moderate wounds, sculpt sound, DC 16, sound burst, DC 15
+- 3/day: cure moderate wounds, sculpt sound (DC 16), sound burst (DC 15)
 
 **Statistics**
 

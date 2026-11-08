@@ -100,18 +100,19 @@ burn), bite +40 (1d8+6)
 
 **Constant:**
 
-- detect good, detect law, freedom of movement, speak with animals, true seeing, unholy aura, DC 30
+- detect good, detect law, freedom of movement, speak with animals, true seeing, unholy aura (DC 30)
 
 **At will:**
 
-- astral projection, baleful polymorph, DC 27, blasphemy, DC 29, desecrate, dominate person, DC 27,
-  greater dispel magic, greater teleport, telekinesis, DC 27, shapechange, unhallow, unholy blight,
-  DC 26
+- astral projection, baleful polymorph (DC 27), blasphemy (DC 29), desecrate, dominate person (DC
+  27), greater dispel magic, greater teleport, telekinesis (DC 27), shapechange, unhallow, unholy
+  blight (DC 26)
 
 **Per day:**
 
-- 3/day: &Q greater dispel magic, maze, summon demons, summon minotaurs, symbol of persuasion, DC 28
-- 1/day: imprisonment, DC 31, mass charm monster, DC 30, time stop
+- 3/day: &Q greater dispel magic, maze, summon demons, summon minotaurs, symbol of persuasion (DC
+  28)
+- 1/day: imprisonment (DC 31), mass charm monster (DC 30), time stop
 
 **Statistics**
 

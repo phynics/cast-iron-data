@@ -80,11 +80,11 @@ _This regal, bird-winged lion has a human's head, clad in the golden raiment of 
 
 **3rd-level spells:**
 
-- bestow curse, DC 16, searing light, speak with dead
+- bestow curse (DC 16), searing light, speak with dead
 
 **2nd-level spells:**
 
-- bull's strength, calm emotions, DC 15, cure moderate wounds, resist energy
+- bull's strength, calm emotions (DC 15), cure moderate wounds, resist energy
 
 **1st-level spells:**
 

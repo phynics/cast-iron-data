@@ -95,7 +95,7 @@ the open cover of some great tome like a metal- and leather-bound mask._
 
 **Per day:**
 
-- 3/day: comprehend languages, daze monster, DC 14, detect thoughts, DC 14, protection from chaos
+- 3/day: comprehend languages, daze monster (DC 14), detect thoughts (DC 14), protection from chaos
 
 **Statistics**
 

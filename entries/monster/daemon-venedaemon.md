@@ -88,11 +88,11 @@ face is a disturbing, toothless maw._
 
 **At will:**
 
-- command cacodaemon, DC 18
+- command cacodaemon (DC 18)
 
 **Per day:**
 
-- 3/day: dimension door, dispel magic, slow, DC 16
+- 3/day: dimension door, dispel magic, slow (DC 16)
 - 1/day: &S level 3; 1 venedaemon 50% or 2d4 [cacodaemons](ref/monster/daemon-cacodaemon) 70%
 
 **Spells Known**
@@ -103,7 +103,7 @@ face is a disturbing, toothless maw._
 
 **3rd-level spells:**
 
-- 4/day: hold person, DC 16
+- 4/day: hold person (DC 16)
 
 **2nd-level spells:**
 
@@ -111,11 +111,11 @@ face is a disturbing, toothless maw._
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 14, mage armor, magic missile, shield
+- 7/day: charm person (DC 14), mage armor, magic missile, shield
 
 **Cantrips:**
 
-- At will: acid splash, arcane mark, bleed, DC 13, mage hand, prestidigitation, ray of frost, read
+- At will: acid splash, arcane mark, bleed (DC 13), mage hand, prestidigitation, ray of frost, read
   magic
 
 **Statistics**

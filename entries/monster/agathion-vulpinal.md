@@ -94,9 +94,9 @@ instrument in one hand._
 
 **Per day:**
 
-- 3/day: charm monster, DC 17, dispel evil, DC 18, flame arrow, holy smite, DC 17, dimension door,
-  self plus 50 lbs. of objects only, remove disease
-- 1/day: major image, DC 16
+- 3/day: charm monster (DC 17), dispel evil (DC 18), flame arrow, holy smite (DC 17), dimension
+  door, self plus 50 lbs. of objects only, remove disease
+- 1/day: major image (DC 16)
 
 **Statistics**
 

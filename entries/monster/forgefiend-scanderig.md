@@ -91,12 +91,12 @@ Giants pg 86\
 
 **At will:**
 
-- major image, DC 15, passwall, shatter, DC 14, stone shape
+- major image (DC 15), passwall, shatter (DC 14), stone shape
 
 **Per day:**
 
-- 3/day: deeper darkness, dimensional anchor, flesh to stone, DC 18, &Q produce flame, wall of fire,
-  wall of stone
+- 3/day: deeper darkness, dimensional anchor, flesh to stone (DC 18), &Q produce flame, wall of
+  fire, wall of stone
 
 **Statistics**
 

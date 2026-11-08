@@ -94,16 +94,16 @@ back, and its head bears three faces._
 
 **At will:**
 
-- chill metal, DC 16, heat metal, DC 16
+- chill metal (DC 16), heat metal (DC 16)
 
 **Per day:**
 
-- 3/day: locate object, modify memory, DC 18, rusting grasp, wall of force
-- 1/day: disintegrate, DC 20, feeblemind, mark of justice
+- 3/day: locate object, modify memory (DC 18), rusting grasp, wall of force
+- 1/day: disintegrate (DC 20), feeblemind, mark of justice
 
 **Per week:**
 
-- lesser geas, DC 18
+- lesser geas (DC 18)
 
 **Statistics**
 

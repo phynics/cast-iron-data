@@ -86,7 +86,7 @@ lower half is in tatters._
 
 **Per day:**
 
-- 1/day: command undead, DC 13
+- 1/day: command undead (DC 13)
 
 **Statistics**
 

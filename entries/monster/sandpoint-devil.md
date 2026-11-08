@@ -88,11 +88,11 @@ complete its vile appearance._
 
 **At will:**
 
-- fog cloud, gust of wind, pyrotechnics, DC 15
+- fog cloud, gust of wind, pyrotechnics (DC 15)
 
 **Per day:**
 
-- 3/day: dimension door, phantasmal killer, DC 17
+- 3/day: dimension door, phantasmal killer (DC 17)
 
 **Statistics**
 

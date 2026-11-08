@@ -85,7 +85,7 @@ dangle tiny fairy skull trophies._
 
 **Per day:**
 
-- 3/day: fear, DC 13
+- 3/day: fear (DC 13)
 
 **Statistics**
 

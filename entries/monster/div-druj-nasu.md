@@ -95,7 +95,7 @@ wings fill the air with a dreadful drone even when the creature is still._
 
 **Per day:**
 
-- 3/day: bestow curse, DC 20, command undead, DC 18, enervation
+- 3/day: bestow curse (DC 20), command undead (DC 18), enervation
 - 1/day: animate dead, insect plague, &S level 6; 1 [pairaka](ref/monster/div-pairaka) or 1d6
   [fiendish](ref/template/fiendish) [giant flies](ref/monster/giant-fly) 50%
 

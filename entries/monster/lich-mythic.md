@@ -108,40 +108,41 @@ _This armored undead human wields a heavy mace and wears the trappings of a devi
 
 **7th-level spells:**
 
-- blasphemy (domain spell), DC 25, destruction, DC 27, ethereal jaunt
+- blasphemy (domain spell) (DC 25), destruction (DC 27), ethereal jaunt
 
 **6th-level spells:**
 
-- antimagic field (domain spell), blade barrier (mythic spell), DC 24, harm (mythic spell), 2, DC 26
+- antimagic field (domain spell), blade barrier (mythic spell) (DC 24), harm (mythic spell) (2, DC
+  26)
 
 **5th-level spells:**
 
-- dispel good (domain spell), flame strike (mythic spell), DC 23, greater command, DC 23, slay
-  living, 2, DC 25
+- dispel good (domain spell), flame strike (mythic spell) (DC 23), greater command (DC 23), slay
+  living (2, DC 25)
 
 **4th-level spells:**
 
-- chaos hammer (mythic spell), DC 22, freedom of movement, poison, DC 24, spell immunity, unholy
-  blight (domain spell) (mythic spell), 2, DC 22
+- chaos hammer (mythic spell) (DC 22), freedom of movement, poison (DC 24), spell immunity, unholy
+  blight (domain spell) (mythic spell) (2, DC 22)
 
 **3rd-level spells:**
 
-- bestow curse, 2, DC 23, contagion (mythic spell), DC 23, dispel magic (domain spell), invisibility
-  purge, meld into stone, protection from energy
+- bestow curse (2, DC 23), contagion (mythic spell) (DC 23), dispel magic (domain spell),
+  invisibility purge, meld into stone, protection from energy
 
 **2nd-level spells:**
 
-- align weapon (domain spell), evil only, calm emotions, DC 20, darkness, desecrate, hold person, DC
-  20, resist energy, spiritual weapon
+- align weapon (domain spell), evil only, calm emotions (DC 20), darkness, desecrate, hold person
+  (DC 20), resist energy, spiritual weapon
 
 **1st-level spells:**
 
-- bane, DC 19, cause fear, DC 21, deathwatch, entropic shield, identify (domain spell), obscuring
+- bane (DC 19), cause fear (DC 21), deathwatch, entropic shield, identify (domain spell), obscuring
   mist, 2
 
 **Cantrips:**
 
-- bleed, DC 20, detect magic, purify food and drink, read magic
+- bleed (DC 20), detect magic, purify food and drink, read magic
 
 **Domains**
 

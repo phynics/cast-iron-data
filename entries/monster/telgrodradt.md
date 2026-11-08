@@ -88,7 +88,7 @@ has four elongated tentacles and a toothy maw._
 
 **Per day:**
 
-- 3/day: darkness, death knell, inflict moderate wounds, DC 14
+- 3/day: darkness, death knell, inflict moderate wounds (DC 14)
 - 1/day: animate dead, desecrate, see invisibility, silence
 
 **Statistics**

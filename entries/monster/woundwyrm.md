@@ -95,7 +95,7 @@ polymorph, visual effects
 
 **Per day:**
 
-- 1/day: polymorph any object, DC 23
+- 1/day: polymorph any object (DC 23)
 
 **Statistics**
 

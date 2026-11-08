@@ -97,9 +97,9 @@ stingers the length of a human arm._
 
 **Per day:**
 
-- 5/day: crushing despair, DC 19, cat's grace, cure moderate wounds, remove disease, suggestion, DC
-  18, summon swarm, telekinesis, teleport, wall of thorns
-- 1/day: heal, insect plague, scrying, DC 19
+- 5/day: crushing despair (DC 19), cat's grace, cure moderate wounds, remove disease, suggestion (DC
+  18), summon swarm, telekinesis, teleport, wall of thorns
+- 1/day: heal, insect plague, scrying (DC 19)
 
 **Statistics**
 

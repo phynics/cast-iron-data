@@ -98,15 +98,15 @@ _This dragon seems to be made of parts from different creatures._
 
 **2nd-level spells:**
 
-- 7/day: eagle's splendor, grace, shatter, DC 17
+- 7/day: eagle's splendor, grace, shatter (DC 17)
 
 **1st-level spells:**
 
-- 8/day: bless, entropic shield, obscuring mist, ray of sickening, DC 16, shield of faith
+- 8/day: bless, entropic shield, obscuring mist, ray of sickening (DC 16), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 15, create water, detect magic, guidance, read magic, resistance, spark
+- At will: bleed (DC 15), create water, detect magic, guidance, read magic, resistance, spark
 
 **Statistics**
 

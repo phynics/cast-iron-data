@@ -83,11 +83,11 @@ abilities = ["13", "22", "-", "15", "16", "22"]
 
 **6th-level spells:**
 
-- 4/day: mislead, DC 22, move earth
+- 4/day: mislead (DC 22), move earth
 
 **5th-level spells:**
 
-- 6/day: dominate person, DC 21, hungry earth, DC 21, suffocation, DC 21
+- 6/day: dominate person (DC 21), hungry earth (DC 21), suffocation (DC 21)
 
 **4th-level spells:**
 
@@ -95,22 +95,22 @@ abilities = ["13", "22", "-", "15", "16", "22"]
 
 **3rd-level spells:**
 
-- 7/day: gaseous form, lightning bolt, DC 19, nondetection, stinking cloud, DC 19, vampiric touch
+- 7/day: gaseous form, lightning bolt (DC 19), nondetection, stinking cloud (DC 19), vampiric touch
 
 **2nd-level spells:**
 
-- 8/day: alter self, command undead, DC 18, false life, feast of ashes, DC 18, invisibility, mirror
-  image
+- 8/day: alter self, command undead (DC 18), false life, feast of ashes (DC 18), invisibility,
+  mirror image
 
 **1st-level spells:**
 
-- 8/day: burning hands, DC 17, grease, DC 17, mage armor, obscuring mist, ray of enfeeblement, DC
-  17, silent image
+- 8/day: burning hands (DC 17), grease (DC 17), mage armor, obscuring mist, ray of enfeeblement (DC
+  17), silent image
 
 **Cantrips:**
 
-- At will: arcane mark, dancing lights, daze, DC 16, detect magic, light, mage hand,
-  prestidigitation, DC 16, ray of frost, read magic
+- At will: arcane mark, dancing lights, daze (DC 16), detect magic, light, mage hand,
+  prestidigitation (DC 16), ray of frost, read magic
 
 **Bloodline**
 

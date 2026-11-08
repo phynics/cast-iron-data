@@ -84,9 +84,9 @@ elemental font
 
 **Per day:**
 
-- 3/day: calm emotions, DC 15, delusional pride, DC 14, reckless infatuation, DC 16, unadulterated
-  loathing, DC 16, unnatural lust, DC 15
-- 1/day: charm monster, DC 17, overwhelming grief, DC 17, rage, DC 16
+- 3/day: calm emotions (DC 15), delusional pride (DC 14), reckless infatuation (DC 16),
+  unadulterated loathing (DC 16), unnatural lust (DC 15)
+- 1/day: charm monster (DC 17), overwhelming grief (DC 17), rage (DC 16)
 
 **Statistics**
 

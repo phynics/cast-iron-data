@@ -83,7 +83,7 @@ its puffy blue face is._
 
 **Per day:**
 
-- 1/day: doom, DC 10
+- 1/day: doom (DC 10)
 
 **Statistics**
 

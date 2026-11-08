@@ -105,8 +105,8 @@ other arms end in pincers._
 
 **At will:**
 
-- chaos hammer, DC 21, confusion, DC 21, dispel magic, mirror image, reverse gravity, DC 24, greater
-  teleport, self plus 50 lbs. of objects only, veil, self only, unholy blight, DC 21
+- chaos hammer (DC 21), confusion (DC 21), dispel magic, mirror image, reverse gravity (DC 24),
+  greater teleport, self plus 50 lbs. of objects only, veil, self only, unholy blight (DC 21)
 
 **Per day:**
 

@@ -99,7 +99,7 @@ levels, poison
 
 **Constant:**
 
-- air walk, unholy aura, DC 25
+- air walk, unholy aura (DC 25)
 
 **At will:**
 

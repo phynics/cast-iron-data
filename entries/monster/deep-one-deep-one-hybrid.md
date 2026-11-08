@@ -88,11 +88,11 @@ his bloodline._
 
 **1st-level spells:**
 
-- cause fear, DC 14, cure light wounds, lesser confusion (domain spell), DC 14
+- cause fear (DC 14), cure light wounds, lesser confusion (domain spell) (DC 14)
 
 **Cantrips:**
 
-- bleed, DC 13, light, resistance
+- bleed (DC 13), light, resistance
 
 **Domains**
 

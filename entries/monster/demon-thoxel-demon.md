@@ -85,11 +85,11 @@ has been flogged and branded a thousand times._
 
 **At will:**
 
-- alter self, greater teleport, self plus 50 pounds of objects only, lesser confusion, DC 13
+- alter self, greater teleport, self plus 50 pounds of objects only, lesser confusion (DC 13)
 
 **Per day:**
 
-- 3/day: murderous command, DC 13
+- 3/day: murderous command (DC 13)
 
 **Statistics**
 

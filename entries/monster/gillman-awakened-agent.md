@@ -91,35 +91,35 @@ sickly gillman. Abnormal muscles and joints flex just beneath his flesh._
 
 **6th-level spells:**
 
-- 3/day: mass suggestion, DC 22
+- 3/day: mass suggestion (DC 22)
 
 **5th-level spells:**
 
-- 6/day: dominate person, DC 21, feeblemind, DC 21, polymorph, DC 20
+- 6/day: dominate person (DC 21), feeblemind (DC 21), polymorph (DC 20)
 
 **4th-level spells:**
 
-- 7/day: black tentacles, charm monster, DC 20, locate creature, scrying, DC 21
+- 7/day: black tentacles, charm monster (DC 20), locate creature, scrying (DC 21)
 
 **3rd-level spells:**
 
-- 7/day: clairaudience/clairvoyance, deep slumber, DC 19, greater invisibility, ray of exhaustion,
-  DC 18, tongues
+- 7/day: clairaudience/clairvoyance, deep slumber (DC 19), greater invisibility, ray of exhaustion
+  (DC 18), tongues
 
 **2nd-level spells:**
 
-- 7/day: alter self, blur, detect thoughts, DC 19, false life, hideous laughter, DC 18, see
+- 7/day: alter self, blur, detect thoughts (DC 19), false life, hideous laughter (DC 18), see
   invisibility
 
 **1st-level spells:**
 
-- 8/day: comprehend languages, enlarge person, DC 16, expeditious retreat, hypnotism, DC 17,
+- 8/day: comprehend languages, enlarge person (DC 16), expeditious retreat, hypnotism (DC 17),
   identify, shield
 
 **Cantrips:**
 
-- At will: acid splash, daze, DC 16, detect magic, light, mage hand, message, read magic,
-  resistance, touch of fatigue, DC 15
+- At will: acid splash, daze (DC 16), detect magic, light, mage hand, message, read magic,
+  resistance, touch of fatigue (DC 15)
 
 **Bloodline**
 

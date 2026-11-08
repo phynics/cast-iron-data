@@ -83,19 +83,19 @@ her rictus grin._
 
 **3rd-level spells:**
 
-- 5/day: confusion, DC 20, crushing despair, DC 20, fear, DC 20, see invisibility
+- 5/day: confusion (DC 20), crushing despair (DC 20), fear (DC 20), see invisibility
 
 **2nd-level spells:**
 
-- 6/day: darkness, glitterdust, DC 19, hold person, DC 19, minor image, DC 19, silence, DC 19
+- 6/day: darkness, glitterdust (DC 19), hold person (DC 19), minor image (DC 19), silence (DC 19)
 
 **1st-level spells:**
 
-- 7/day: disguise self, feather fall, hideous laughter, DC 18, silent image, DC 18, vanish, DC 18
+- 7/day: disguise self, feather fall, hideous laughter (DC 18), silent image (DC 18), vanish (DC 18)
 
 **Cantrips:**
 
-- At will: dancing lights, detect magic, ghost sound, DC 17, mage hand, open/close, DC 17,
+- At will: dancing lights, detect magic, ghost sound (DC 17), mage hand, open/close (DC 17),
   prestidigitation
 
 **Statistics**

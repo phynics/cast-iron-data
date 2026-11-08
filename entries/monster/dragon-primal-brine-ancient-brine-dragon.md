@@ -97,7 +97,7 @@ abilities = ["38", "9", "23", "23", "20", "21"]
 
 **Per day:**
 
-- 3/day: horrid wilting, DC 23
+- 3/day: horrid wilting (DC 23)
 
 **Spells Known**
 
@@ -119,19 +119,20 @@ abilities = ["38", "9", "23", "23", "20", "21"]
 
 **4th-level spells:**
 
-- 7/day: ball lightning, DC 19, ice storm, greater invisibility, solid fog
+- 7/day: ball lightning (DC 19), ice storm, greater invisibility, solid fog
 
 **3rd-level spells:**
 
-- 7/day: aqueous orb, DC 18, deep slumber, DC 18, dispel magic, sleet storm, DC 18
+- 7/day: aqueous orb (DC 18), deep slumber (DC 18), dispel magic, sleet storm (DC 18)
 
 **2nd-level spells:**
 
-- 7/day: alter self, detect thoughts, DC 17, invisibility, make whole, slipstream
+- 7/day: alter self, detect thoughts (DC 17), invisibility, make whole, slipstream
 
 **1st-level spells:**
 
-- 8/day: color spray, DC 16, feather fall, flare burst, DC 16, ray of enfeeblement, touch of the sea
+- 8/day: color spray (DC 16), feather fall, flare burst (DC 16), ray of enfeeblement, touch of the
+  sea
 
 **Cantrips:**
 

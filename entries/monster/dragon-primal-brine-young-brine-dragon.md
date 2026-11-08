@@ -88,7 +88,7 @@ and fin-like crests._
 
 **1st-level spells:**
 
-- 4/day: color spray, DC 12, touch of the sea
+- 4/day: color spray (DC 12), touch of the sea
 
 **Cantrips:**
 

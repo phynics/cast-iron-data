@@ -90,12 +90,13 @@ beautiful visage with an expression of horror bulges from the back of its skull.
 
 **At will:**
 
-- detect thoughts, DC 17, greater teleport, self plus 50 lbs. of objects only, telekinesis, DC 20
+- detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 20)
 
 **Per day:**
 
-- 3/day: chaos hammer, DC 19, desecrate, greater invisibility, major image, DC 18, suggestion, DC 18
-- 1/day: blasphemy, DC 22, scrying, DC 19, &S level 4; 1 succubus or 1 incubus 65%
+- 3/day: chaos hammer (DC 19), desecrate, greater invisibility, major image (DC 18), suggestion (DC
+  18)
+- 1/day: blasphemy (DC 22), scrying (DC 19), &S level 4; 1 succubus or 1 incubus 65%
 
 **Per week:**
 

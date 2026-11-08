@@ -83,7 +83,7 @@ alive, her bloody muscles and sinews pulsing grotesquely._
 
 **At will:**
 
-- chill touch, DC 15, deep slumber, DC 16, scorching ray, DC 16, spider climb
+- chill touch (DC 15), deep slumber (DC 16), scorching ray (DC 16), spider climb
 
 **Statistics**
 

@@ -88,8 +88,8 @@ _Muscular tentacles ending in stalagmite-like stingers extend from this pale bro
 
 **Per day:**
 
-- 1/day: blight, DC 22, command plants, DC 21, dominate monster, aberrations, animals, and magical
-  beasts only; DC 26, greater curse terrain, hallucinatory terrain, DC 21, hungry pit, DC 22
+- 1/day: blight (DC 22), command plants (DC 21), dominate monster, aberrations, animals, and magical
+  beasts only; DC 26, greater curse terrain, hallucinatory terrain (DC 21), hungry pit (DC 22)
 
 **Statistics**
 

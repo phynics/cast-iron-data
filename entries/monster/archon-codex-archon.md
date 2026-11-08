@@ -91,13 +91,13 @@ watchfully as though alive._
 
 **At will:**
 
-- aid, continual flame, forbid action, DC 14, greater teleport, self plus 50 lbs. of objects only,
+- aid, continual flame, forbid action (DC 14), greater teleport, self plus 50 lbs. of objects only,
   mage hand, message
 
 **Per day:**
 
-- 1/day: calm emotions, DC 15, clairaudience/clairvoyance, commune, CL 9th; 1 question, daylight,
-  silence, DC 15
+- 1/day: calm emotions (DC 15), clairaudience/clairvoyance, commune, CL 9th; 1 question, daylight,
+  silence (DC 15)
 
 **Statistics**
 

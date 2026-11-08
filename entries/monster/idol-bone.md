@@ -85,8 +85,8 @@ together. The thing's misshapen head leers forward, carved with a demonic, ape-l
 
 **Per day:**
 
-- 3/day: bane, DC 12, cause fear, DC 12, deathwatch\#S, hide from undead, DC 12
-- 1/day: animate dead, death knell\#S, DC 14
+- 3/day: bane (DC 12), cause fear (DC 12), deathwatch\#S, hide from undead (DC 12)
+- 1/day: animate dead, death knell\#S (DC 14)
 
 ###### S {#footnote-s}
 

@@ -92,8 +92,8 @@ glowing runes._
 
 **Per day:**
 
-- 3/day: dimension door, modify memory, DC 17
-- 1/day: greater teleport, self plus 50 lbs. of objects only, plane shift, DC 21
+- 3/day: dimension door, modify memory (DC 17)
+- 1/day: greater teleport, self plus 50 lbs. of objects only, plane shift (DC 21)
 
 **Spells Known**
 
@@ -103,25 +103,25 @@ glowing runes._
 
 **5th-level spells:**
 
-- 4/day: seeming, sending, symbol of pain, DC 20, symbol of sleep, DC 20
+- 4/day: seeming, sending, symbol of pain (DC 20), symbol of sleep (DC 20)
 
 **4th-level spells:**
 
-- 7/day: confusion, DC 18, greater invisibility, scrying, DC 18
+- 7/day: confusion (DC 18), greater invisibility, scrying (DC 18)
 
 **3rd-level spells:**
 
-- 7/day: beast shape I, explosive runes, DC 18, glyph of warding, DC 18, haste, lightning bolt, DC
-  17, sepia snake sigil, DC 18, suggestion, DC 17
+- 7/day: beast shape I, explosive runes (DC 18), glyph of warding (DC 18), haste, lightning bolt (DC
+  17), sepia snake sigil (DC 18), suggestion (DC 17)
 
 **2nd-level spells:**
 
-- 7/day: detect thoughts, DC 16, hypnotic pattern, DC 16, invisibility, scorching ray, see
+- 7/day: detect thoughts (DC 16), hypnotic pattern (DC 16), invisibility, scorching ray, see
   invisibility
 
 **1st-level spells:**
 
-- 7/day: erase, feather fall, hypnotism, silent image, DC 15, ventriloquism, DC 15
+- 7/day: erase, feather fall, hypnotism, silent image (DC 15), ventriloquism (DC 15)
 
 **Cantrips:**
 

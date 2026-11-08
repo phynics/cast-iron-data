@@ -104,33 +104,33 @@ ft.)
 
 **6th-level spells:**
 
-- 7/day: blade barrier, DC 23, permanent image, DC 23, repress memory
+- 7/day: blade barrier (DC 23), permanent image (DC 23), repress memory
 
 **5th-level spells:**
 
-- 7/day: dismissal, DC 22, mind fog, DC 22, psychic crush I, synapse overload
+- 7/day: dismissal (DC 22), mind fog (DC 22), psychic crush I, synapse overload
 
 **4th-level spells:**
 
-- 7/day: confusion, DC 21, dimension door, dream, spell immunity
+- 7/day: confusion (DC 21), dimension door, dream, spell immunity
 
 **3rd-level spells:**
 
-- 8/day: clairaudience/clairvoyance, gaseous form, mental barrier II, speak with dead, DC 20
+- 8/day: clairaudience/clairvoyance, gaseous form, mental barrier II, speak with dead (DC 20)
 
 **2nd-level spells:**
 
-- 8/day: hideous laughter, DC 19, hold person, DC 19, protection from arrows, suggestion, DC 19,
-  zone of truth, DC 19
+- 8/day: hideous laughter (DC 19), hold person (DC 19), protection from arrows, suggestion (DC 19),
+  zone of truth (DC 19)
 
 **1st-level spells:**
 
-- 8/day: burst of adrenaline, charm person, DC 18, burst of insight, interrogation, DC 18, mage
+- 8/day: burst of adrenaline, charm person (DC 18), burst of insight, interrogation (DC 18), mage
   armor
 
 **Cantrips:**
 
-- At will: detect poison, ghost sound, DC 17, grave words, mage hand, message, read magic,
+- At will: detect poison, ghost sound (DC 17), grave words, mage hand, message, read magic,
   resistance, telekinetic projectile, virtue
 
 **Statistics**

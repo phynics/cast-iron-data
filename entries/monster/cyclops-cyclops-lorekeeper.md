@@ -97,24 +97,24 @@ consume spells
 
 **4th-level spells:**
 
-- enervation, greater invisibility, scrying, DC 19
+- enervation, greater invisibility, scrying (DC 19)
 
 **3rd-level spells:**
 
-- air geyser, DC 18, arcane sight, dispel magic, lightning bolt, DC 18
+- air geyser (DC 18), arcane sight, dispel magic, lightning bolt (DC 18)
 
 **2nd-level spells:**
 
-- aggressive thundercloud, DC 17, blindness/deafness, DC 17, locate object, resist energy, scorching
-  ray
+- aggressive thundercloud (DC 17), blindness/deafness (DC 17), locate object, resist energy,
+  scorching ray
 
 **1st-level spells:**
 
-- comprehend languages, mage armor, magic missile, ray of enfeeblement, DC 16, shield
+- comprehend languages, mage armor, magic missile, ray of enfeeblement (DC 16), shield
 
 **Cantrips:**
 
-- acid splash, arcane mark, daze, DC 15, detect magic, detect poison, ghost sound, DC 15, light,
+- acid splash, arcane mark, daze (DC 15), detect magic, detect poison, ghost sound (DC 15), light,
   mage hand, read magic
 
 **Statistics**

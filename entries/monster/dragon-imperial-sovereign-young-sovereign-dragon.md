@@ -94,11 +94,11 @@ crown._
 
 **1st-level spells:**
 
-- 4/day: charm person, DC 14, color spray, DC 14
+- 4/day: charm person (DC 14), color spray (DC 14)
 
 **Cantrips:**
 
-- At will: daze, DC 13, detect magic, read magic, resistance
+- At will: daze (DC 13), detect magic, read magic, resistance
 
 **Statistics**
 

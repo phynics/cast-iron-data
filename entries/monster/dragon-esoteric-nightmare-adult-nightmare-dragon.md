@@ -102,16 +102,16 @@ abilities = ["29", "11", "24", "16", "18", "19"]
 
 **2nd-level spells:**
 
-- 5/day: mirror image, scare, DC 15
+- 5/day: mirror image, scare (DC 15)
 
 **1st-level spells:**
 
-- 7/day: command, DC 14, detect thoughts, ill omen, unwitting ally, DC 14
+- 7/day: command (DC 14), detect thoughts, ill omen, unwitting ally (DC 14)
 
 **Cantrips:**
 
-- At will: bleed, DC 13, dancing lights, daze, DC 13, detect psychic significance, lullaby, DC 13,
-  resistance
+- At will: bleed (DC 13), dancing lights, daze (DC 13), detect psychic significance, lullaby (DC
+  13), resistance
 
 **Statistics**
 

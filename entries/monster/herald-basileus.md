@@ -92,13 +92,13 @@ _This comely man is clad in fine silken robes. His eyes smolder with infernal fl
 
 **At will:**
 
-- cloudkill, DC 22, false vision, greater teleport, self plus 50 lbs. of objects only, mirage
-  arcana, DC 22, persistent image, DC 22, scorching ray
+- cloudkill (DC 22), false vision, greater teleport, self plus 50 lbs. of objects only, mirage
+  arcana (DC 22), persistent image (DC 22), scorching ray
 
 **Per day:**
 
-- 3/day: crushing despair, DC 21, dimensional anchor, DC 21, ethereal jaunt, greater dispel magic,
-  greater invisibility, legend lore, nightmare, DC 22, phantasmal killer, DC 21, true seeing
+- 3/day: crushing despair (DC 21), dimensional anchor (DC 21), ethereal jaunt, greater dispel magic,
+  greater invisibility, legend lore, nightmare (DC 22), phantasmal killer (DC 21), true seeing
 - 1/day: geas/quest, !grant 1 [wish](ref/spell/wish) (to mortals only), &S, level 5; 2 bone devils
   75%
 

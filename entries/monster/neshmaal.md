@@ -99,8 +99,8 @@ air, giving off an aura of dark, alien menace._
 
 **Per day:**
 
-- 3/day: confusion, DC 21, control summoned creature, DC 21
-- 1/day: dominate person, DC 22
+- 3/day: confusion (DC 21), control summoned creature (DC 21)
+- 1/day: dominate person (DC 22)
 
 **Statistics**
 

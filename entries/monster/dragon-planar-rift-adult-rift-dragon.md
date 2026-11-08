@@ -95,19 +95,20 @@ _This dark-scaled dragon has massive claws, and foul-smelling acid drips from it
 
 **3rd-level spells:**
 
-- 5/day: contagion, DC 19, deeper darkness
+- 5/day: contagion (DC 19), deeper darkness
 
 **2nd-level spells:**
 
-- 8/day: death knell, DC 18, hold person, DC 18, shatter, DC 18
+- 8/day: death knell (DC 18), hold person (DC 18), shatter (DC 18)
 
 **1st-level spells:**
 
-- 8/day: bane, DC 17, cure light wounds, murderous command, DC 17, obscuring mist, shield of faith
+- 8/day: bane (DC 17), cure light wounds, murderous command (DC 17), obscuring mist, shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 16, detect magic, detect poison, guidance, read magic, resistance, spark, DC 16
+- At will: bleed (DC 16), detect magic, detect poison, guidance, read magic, resistance, spark (DC
+  16)
 
 **Statistics**
 

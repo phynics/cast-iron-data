@@ -99,19 +99,19 @@ plus 1d6 cold) or 2 slams +47 (8d6+13)
 
 **Constant:**
 
-- detect chaos, detect good, mind blank, shield of law, DC 30, true seeing
+- detect chaos, detect good, mind blank, shield of law (DC 30), true seeing
 
 **At will:**
 
-- astral projection, curse of disgust, DC 27, desecrate (mythic spell), dictum (mythic spell), DC
-  29, greater dispel magic, greater invisibility, greater teleport, icy prison, DC 27, insect
-  plague, order's wrath (mythic spell), DC 26, unhallow
+- astral projection, curse of disgust (DC 27), desecrate (mythic spell), dictum (mythic spell) (DC
+  29), greater dispel magic, greater invisibility, greater teleport, icy prison (DC 27), insect
+  plague, order's wrath (mythic spell) (DC 26), unhallow
 
 **Per day:**
 
-- 3/day: demand, DC 30, finger of death (mythic spell), DC 29, &Q freezing sphere, &EM cone of cold
-  (mythic spell), summon devils
-- 1/day: mass suffocation, DC 31, time stop (mythic spell), wish (mythic spell)
+- 3/day: demand (DC 30), finger of death (mythic spell) (DC 29), &Q freezing sphere, &EM cone of
+  cold (mythic spell), summon devils
+- 1/day: mass suffocation (DC 31), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

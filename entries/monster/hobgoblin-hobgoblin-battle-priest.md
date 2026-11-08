@@ -93,7 +93,7 @@ eyes._
 
 **5th-level spells:**
 
-- flame strike (domain spell), DC 18, righteous might
+- flame strike (domain spell) (DC 18), righteous might
 
 **4th-level spells:**
 
@@ -101,12 +101,12 @@ eyes._
 
 **3rd-level spells:**
 
-- blindness/deafness, DC 16, cure serious wounds, dispel magic, magic circle against chaos (domain
+- blindness/deafness (DC 16), cure serious wounds, dispel magic, magic circle against chaos (domain
   spell), prayer
 
 **2nd-level spells:**
 
-- aid, bear's endurance, death knell, DC 15, lesser restoration, sound burst, DC 15, spiritual
+- aid, bear's endurance, death knell (DC 15), lesser restoration, sound burst (DC 15), spiritual
   weapon (domain spell)
 
 **1st-level spells:**
@@ -115,7 +115,7 @@ eyes._
 
 **Cantrips:**
 
-- bleed, DC 13, detect magic, guidance, stabilize
+- bleed (DC 13), detect magic, guidance, stabilize
 
 **Domains**
 

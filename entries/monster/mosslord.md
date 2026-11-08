@@ -93,12 +93,12 @@ and mouthless._
 
 **At will:**
 
-- command plants, DC 20, fear, DC 20, mind thrust VI, DC 22, transport via plants, tree shape
+- command plants (DC 20), fear (DC 20), mind thrust VI (DC 22), transport via plants, tree shape
 
 **Per day:**
 
-- 3/day: animate plants, displacement, &Q fungal infestation, DC 19
-- 1/day: control plants, DC 24, microcosm, DC 25
+- 3/day: animate plants, displacement, &Q fungal infestation (DC 19)
+- 1/day: control plants (DC 24), microcosm (DC 25)
 
 **Statistics**
 

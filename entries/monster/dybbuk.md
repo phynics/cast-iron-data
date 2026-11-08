@@ -85,12 +85,12 @@ _This grinning spectre has mad eyes and blood-red hands that twitch and jerk lik
 
 **At will:**
 
-- detect thoughts, DC 19, telekinesis, DC 22
+- detect thoughts (DC 19), telekinesis (DC 22)
 
 **Per day:**
 
-- 3/day: dominate monster, DC 26, feeblemind, DC 22, inflict serious wounds, DC 20
-- 1/day: greater heroism, modify memory, DC 21, tongues
+- 3/day: dominate monster (DC 26), feeblemind (DC 22), inflict serious wounds (DC 20)
+- 1/day: greater heroism, modify memory (DC 21), tongues
 
 **Statistics**
 

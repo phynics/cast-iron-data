@@ -93,7 +93,7 @@ and ivory bones inside its body._
 
 **Per day:**
 
-- 3/day: align weapon, death knell, DC 14, ray of enfeeblement, DC 13
+- 3/day: align weapon, death knell (DC 14), ray of enfeeblement (DC 13)
 
 **Statistics**
 

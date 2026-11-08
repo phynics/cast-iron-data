@@ -86,11 +86,11 @@ woven reeds and leaves._
 
 **1st-level spells:**
 
-- 2/day: charm person, DC 14, cure light wounds
+- 2/day: charm person (DC 14), cure light wounds
 
 **Cantrips:**
 
-- At will: detect magic, light, message, prestidigitation, DC 13
+- At will: detect magic, light, message, prestidigitation (DC 13)
 
 **Statistics**
 

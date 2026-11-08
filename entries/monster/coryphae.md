@@ -83,12 +83,12 @@ figure._
 
 **At will:**
 
-- charm person, DC 16, dancing lights, ghost sound, DC 15, lesser confusion, DC 16
+- charm person (DC 16), dancing lights, ghost sound (DC 15), lesser confusion (DC 16)
 
 **Per day:**
 
-- 3/day: &Q ghost sound, DC 15, suggestion, DC 17
-- 1/day: dominate person, DC 19
+- 3/day: &Q ghost sound (DC 15), suggestion (DC 17)
+- 1/day: dominate person (DC 19)
 
 **Statistics**
 

@@ -86,7 +86,7 @@ somewhat primitive visage._
 
 **Per day:**
 
-- 3/day: charm animal, DC 12, quench, tree shape
+- 3/day: charm animal (DC 12), quench, tree shape
 - 1/day: enlarge person, self only, spike growth
 
 **Statistics**

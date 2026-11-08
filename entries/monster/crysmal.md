@@ -82,11 +82,11 @@ into an aggressive stance._
 
 **At will:**
 
-- detect magic, ghost sound, DC 12, mage hand, silent image, DC 13
+- detect magic, ghost sound (DC 12), mage hand, silent image (DC 13)
 
 **Per day:**
 
-- 3/day: dimension door, sanctuary, DC 13, touch of idiocy, DC 14
+- 3/day: dimension door, sanctuary (DC 13), touch of idiocy (DC 14)
 
 **Statistics**
 

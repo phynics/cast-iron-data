@@ -93,11 +93,11 @@ mouth and fangs._
 
 **1st-level spells:**
 
-- 5/day: charm person, DC 13, ventriloquism, DC 13
+- 5/day: charm person (DC 13), ventriloquism (DC 13)
 
 **Cantrips:**
 
-- At will: bleed, DC 12, daze, DC 12, detect magic, ghost sound, DC 12, mage hand
+- At will: bleed (DC 12), daze (DC 12), detect magic, ghost sound (DC 12), mage hand
 
 **Statistics**
 

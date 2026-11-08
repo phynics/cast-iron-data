@@ -99,8 +99,8 @@ longbow +26/+21/+16 (1d8+10/19-20/&times&3 plus 1d6 cold)
 
 **Per day:**
 
-- 3/day: black tentacles, haste, slay living, DC 20, sleet storm, stone tell
-- 1/day: cloudkill, DC 20, disintegrate, DC 21, freezing sphere, DC 21
+- 3/day: black tentacles, haste, slay living (DC 20), sleet storm, stone tell
+- 1/day: cloudkill (DC 20), disintegrate (DC 21), freezing sphere (DC 21)
 
 **Statistics**
 

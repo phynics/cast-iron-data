@@ -99,7 +99,7 @@ slams +27 (2d6+15)
 **Per day:**
 
 - 3/day: dimension door
-- 1/day: mislead, DC 19
+- 1/day: mislead (DC 19)
 
 **Statistics**
 

@@ -92,18 +92,18 @@ spiky armor._
 
 **Constant:**
 
-- cloak of chaos, DC 25, true seeing
+- cloak of chaos (DC 25), true seeing
 
 **At will:**
 
-- confusion, DC 21, fear, DC 21, geas/quest, greater teleport, self plus 50 lbs. of objects only,
-  telekinesis, DC 22
+- confusion (DC 21), fear (DC 21), geas/quest, greater teleport, self plus 50 lbs. of objects only,
+  telekinesis (DC 22)
 
 **Per day:**
 
-- 3/day: dimensional lock, &Q hold monster, DC 22, song of discord, DC 22
-- 1/day: mass hold monster, DC 26, &S level 7; 1 gallu 20%; 1 marilith 35%; or 1d4 nalfeshnees 60%,
-  symbol of insanity, DC 25, word of chaos, DC 24
+- 3/day: dimensional lock, &Q hold monster (DC 22), song of discord (DC 22)
+- 1/day: mass hold monster (DC 26), &S level 7; 1 gallu 20%; 1 marilith 35%; or 1d4 nalfeshnees 60%,
+  symbol of insanity (DC 25), word of chaos (DC 24)
 
 **Statistics**
 

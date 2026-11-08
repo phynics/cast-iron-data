@@ -97,11 +97,11 @@ abilities = ["35", "10", "25", "22", "22", "21"]
 
 **At will:**
 
-- burning hands, DC 16, scorching ray, wall of fire
+- burning hands (DC 16), scorching ray, wall of fire
 
 **Per day:**
 
-- 3/day: delayed blast fireball, DC 22
+- 3/day: delayed blast fireball (DC 22)
 
 **Spells Known**
 
@@ -111,35 +111,36 @@ abilities = ["35", "10", "25", "22", "22", "21"]
 
 **7th-level spells:**
 
-- 4/day: greater polymorph, prismatic spray, DC 22
+- 4/day: greater polymorph, prismatic spray (DC 22)
 
 **6th-level spells:**
 
-- 6/day: chain lightning, DC 21, contagious flame, DC 21, eyebite, DC 21
+- 6/day: chain lightning (DC 21), contagious flame (DC 21), eyebite (DC 21)
 
 **5th-level spells:**
 
-- 7/day: hungry pit, DC 20, polymorph, teleport, wall of force
+- 7/day: hungry pit (DC 20), polymorph, teleport, wall of force
 
 **4th-level spells:**
 
-- 7/day: confusion, DC 19, acid pit, DC 19, dimensional anchor, fire shield
+- 7/day: confusion (DC 19), acid pit (DC 19), dimensional anchor, fire shield
 
 **3rd-level spells:**
 
-- 7/day: displacement, dispel magic, fireball, DC 18, wind wall
+- 7/day: displacement, dispel magic, fireball (DC 18), wind wall
 
 **2nd-level spells:**
 
-- 7/day: darkness, dust of twilight, flaming sphere, DC 17, glitterdust, DC 17, pyrotechnics, DC 17
+- 7/day: darkness, dust of twilight, flaming sphere (DC 17), glitterdust (DC 17), pyrotechnics (DC
+  17)
 
 **1st-level spells:**
 
-- 8/day: feather fall, flare burst, DC 16, grease, DC 16, shield, true strike
+- 8/day: feather fall, flare burst (DC 16), grease (DC 16), shield, true strike
 
 **Cantrips:**
 
-- At will: bleed, DC 15, detect magic, detect poison, ghost sound, light, open/close, read magic,
+- At will: bleed (DC 15), detect magic, detect poison, ghost sound, light, open/close, read magic,
   spark, touch of fatigue
 
 **Statistics**

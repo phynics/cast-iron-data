@@ -81,15 +81,15 @@ body._
 
 **Constant:**
 
-- detect thoughts, DC 16
+- detect thoughts (DC 16)
 
 **At will:**
 
-- alter winds, DC 15, invisibility, lesser confusion, DC 15
+- alter winds (DC 15), invisibility, lesser confusion (DC 15)
 
 **Per day:**
 
-- 1/day: cloak of winds, DC 17, confusion, DC 17, river of wind, DC 18
+- 1/day: cloak of winds (DC 17), confusion (DC 17), river of wind (DC 18)
 
 **Statistics**
 

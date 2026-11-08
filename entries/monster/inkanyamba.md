@@ -79,7 +79,7 @@ of different-sized fangs. As it hisses, lightning slashes the storm-gray sky beh
 
 **Per day:**
 
-- 1/day: call lightning, DC 18, control weather
+- 1/day: call lightning (DC 18), control weather
 
 **Statistics**
 

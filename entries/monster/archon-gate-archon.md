@@ -87,12 +87,12 @@ _This masked humanoid being has wings and armor of rune-carved gray stone, and i
 
 **At will:**
 
-- bestow curse, DC 18, detect evil, dimensional anchor, dismissal, DC 19, greater teleport, self
+- bestow curse (DC 18), detect evil, dimensional anchor, dismissal (DC 19), greater teleport, self
   plus 50 lbs. of objects only
 
 **Per day:**
 
-- 3/day: calcific touch, DC 19, glyph of warding, DC 18, plane shift, DC 20
+- 3/day: calcific touch (DC 19), glyph of warding (DC 18), plane shift (DC 20)
 - 1/day: gate
 
 **Prepared Spells**
@@ -103,7 +103,7 @@ _This masked humanoid being has wings and armor of rune-carved gray stone, and i
 
 **9th-level spells:**
 
-- mass heal, DC 24
+- mass heal (DC 24)
 
 **8th-level spells:**
 
@@ -111,15 +111,15 @@ _This masked humanoid being has wings and armor of rune-carved gray stone, and i
 
 **7th-level spells:**
 
-- greater scrying, DC 22, holy word, 2, DC 22
+- greater scrying (DC 22), holy word (2, DC 22)
 
 **6th-level spells:**
 
-- antilife shell, banishment, 2, DC 22, blade barrier, DC 21, greater dispel magic, heal
+- antilife shell, banishment (2, DC 22), blade barrier (DC 21), greater dispel magic, heal
 
 **5th-level spells:**
 
-- break enchantment, 2, breath of life, dispel evil, DC 20, righteous might, wall of stone
+- break enchantment, 2, breath of life, dispel evil (DC 20), righteous might, wall of stone
 
 **4th-level spells:**
 
@@ -131,7 +131,8 @@ _This masked humanoid being has wings and armor of rune-carved gray stone, and i
 
 **2nd-level spells:**
 
-- calm emotions, DC 17, consecrate, eagle's splendor, owl's wisdom, remove paralysis, silence, DC 17
+- calm emotions (DC 17), consecrate, eagle's splendor, owl's wisdom, remove paralysis, silence (DC
+  17)
 
 **1st-level spells:**
 

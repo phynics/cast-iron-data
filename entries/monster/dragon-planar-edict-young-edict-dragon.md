@@ -85,7 +85,7 @@ abilities = ["25", "10", "21", "16", "21", "16"]
 
 **1st-level spells:**
 
-- 4/day: command, DC 14, comprehend languages
+- 4/day: command (DC 14), comprehend languages
 
 **Cantrips:**
 

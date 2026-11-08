@@ -82,11 +82,11 @@ transparent wings._
 
 **At will:**
 
-- dancing lights, flare, DC 13, ghost sound, DC 13, light, mage hand
+- dancing lights, flare (DC 13), ghost sound (DC 13), light, mage hand
 
 **Per day:**
 
-- 3/day: daylight, blindness/deafness, DC 16
+- 3/day: daylight, blindness/deafness (DC 16)
 
 **Statistics**
 

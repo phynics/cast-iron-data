@@ -96,9 +96,9 @@ of shimmering dust._
 
 **Per day:**
 
-- 3/day: greater teleport, self plus 50 lbs. of gear only, glitterdust, DC 17, dispel evil, plane
-  shift, DC 22
-- 1/day: cloak of dreams, DC 21, confusion, DC 19, dream travel
+- 3/day: greater teleport, self plus 50 lbs. of gear only, glitterdust (DC 17), dispel evil, plane
+  shift (DC 22)
+- 1/day: cloak of dreams (DC 21), confusion (DC 19), dream travel
 
 **Statistics**
 

@@ -93,8 +93,8 @@ _This immense stone figure appears to be a keep that uprooted itself and went fo
 
 **Per day:**
 
-- 3/day: wall of stone, DC 16
-- 1/day: repulsion, DC 17
+- 3/day: wall of stone (DC 16)
+- 1/day: repulsion (DC 17)
 
 **Statistics**
 

@@ -97,7 +97,7 @@ abilities = ["30", "11", "19", "19", "16", "17"]
 
 **3rd-level spells:**
 
-- 5/day: aqueous orb, DC 16, sleet storm, DC 16
+- 5/day: aqueous orb (DC 16), sleet storm (DC 16)
 
 **2nd-level spells:**
 
@@ -105,8 +105,8 @@ abilities = ["30", "11", "19", "19", "16", "17"]
 
 **1st-level spells:**
 
-- 7/day: color spray, DC 14, feather fall, flare burst, DC 14, ray of enfeeblement, DC 14, touch of
-  the sea
+- 7/day: color spray (DC 14), feather fall, flare burst (DC 14), ray of enfeeblement (DC 14), touch
+  of the sea
 
 **Cantrips:**
 

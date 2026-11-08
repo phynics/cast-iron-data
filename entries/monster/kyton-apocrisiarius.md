@@ -90,7 +90,7 @@ Slender surgical lancets pierce her body in numerous locations, yet these wounds
 
 **Constant:**
 
-- aura of truth, DC 14
+- aura of truth (DC 14)
 
 **At will:**
 
@@ -98,9 +98,9 @@ Slender surgical lancets pierce her body in numerous locations, yet these wounds
 
 **Per day:**
 
-- 3/day: cure moderate wounds, poison, DC 16, sending, tongues
-- 1/day: order's wrath, DC 16, plane shift, self only; to or from the Material Plane or the Plane of
-  Shadow
+- 3/day: cure moderate wounds, poison (DC 16), sending, tongues
+- 1/day: order's wrath (DC 16), plane shift, self only; to or from the Material Plane or the Plane
+  of Shadow
 
 **Statistics**
 

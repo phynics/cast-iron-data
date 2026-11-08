@@ -97,13 +97,13 @@ equally huge staff._
 
 **At will:**
 
-- detect thoughts, DC 22, greater teleport, self only, only within the boundaries of its ward, stone
-  shape, wood shape
+- detect thoughts (DC 22), greater teleport, self only, only within the boundaries of its ward,
+  stone shape, wood shape
 
 **Per day:**
 
-- 3/day: control plants, DC 28, earthquake, DC 28, heal, repel metal or stone, summon nature's ally
-  IX
+- 3/day: control plants (DC 28), earthquake (DC 28), heal, repel metal or stone, summon nature's
+  ally IX
 - 1/day: true resurrection
 
 **Statistics**

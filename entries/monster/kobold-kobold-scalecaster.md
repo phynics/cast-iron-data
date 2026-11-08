@@ -83,11 +83,11 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **1st-level spells:**
 
-- 4/day: burning hands, DC 13, charm person, DC 13
+- 4/day: burning hands (DC 13), charm person (DC 13)
 
 **Cantrips:**
 
-- At will: dancing lights, detect magic, flare, DC 12, ray of frost
+- At will: dancing lights, detect magic, flare (DC 12), ray of frost
 
 **Bloodline**
 

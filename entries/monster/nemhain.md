@@ -84,7 +84,7 @@ _A cloud of translucent humanoid spirits whirls around this ghostly desiccated c
 
 **Per day:**
 
-- 3/day: harm, DC 23, slay living, DC 22, telekinesis, DC 22
+- 3/day: harm (DC 23), slay living (DC 22), telekinesis (DC 22)
 - 1/day: antilife shell, wall of force
 
 **Statistics**

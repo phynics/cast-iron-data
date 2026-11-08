@@ -93,11 +93,11 @@ plus banishing swipe)
 
 **At will:**
 
-- daylight, zone of truth, DC 18
+- daylight, zone of truth (DC 18)
 
 **Per day:**
 
-- 3/day: flame strike, DC 21, mass cure critical wounds
+- 3/day: flame strike (DC 21), mass cure critical wounds
 
 **Statistics**
 

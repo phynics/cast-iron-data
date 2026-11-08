@@ -93,7 +93,7 @@ benevolence._
 
 **1st-level spells:**
 
-- bless, command, DC 14, protection from evil (domain spell)
+- bless, command (DC 14), protection from evil (domain spell)
 
 **Cantrips:**
 

@@ -81,11 +81,11 @@ energy
 
 **At will:**
 
-- command undead, DC 16, ghost sound, DC 14, mage hand, open/close
+- command undead (DC 16), ghost sound (DC 14), mage hand, open/close
 
 **Per day:**
 
-- 3/day: charm person, DC 15, halt undead, DC 17, telekinesis, DC 19
+- 3/day: charm person (DC 15), halt undead (DC 17), telekinesis (DC 19)
 
 **Statistics**
 

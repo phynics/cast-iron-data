@@ -89,17 +89,17 @@ flaming whip +30/+25/+20 (1d4+7 plus 1d6 fire and entangle) or 2 slams +31 (1d10
 
 **Constant:**
 
-- true seeing, unholy aura, DC 26
+- true seeing, unholy aura (DC 26)
 
 **At will:**
 
-- dominate monster, DC 27, greater dispel magic, greater teleport, self plus 50 lbs. of objects
-  only, power word stun, telekinesis, DC 23
+- dominate monster (DC 27), greater dispel magic, greater teleport, self plus 50 lbs. of objects
+  only, power word stun, telekinesis (DC 23)
 
 **Per day:**
 
-- 3/day: &Q telekinesis, DC 23
-- 1/day: blasphemy, DC 25, fire storm, DC 26, implosion, DC 27, &S level 9; any 1 CR 19 or lower
+- 3/day: &Q telekinesis (DC 23)
+- 1/day: blasphemy (DC 25), fire storm (DC 26), implosion (DC 27), &S level 9; any 1 CR 19 or lower
   demon 100%
 
 **Statistics**

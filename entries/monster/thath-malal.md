@@ -89,12 +89,12 @@ its open, lily-shaped maw._
 
 **At will:**
 
-- charm monster, DC 19, detect thoughts, DC 17, poison, DC 19, suggestion, DC 18, teleport
+- charm monster (DC 19), detect thoughts (DC 17), poison (DC 19), suggestion (DC 18), teleport
 
 **Per day:**
 
-- 3/day: clairvoyance/clairaudience, telekinesis, DC 20
-- 1/day: &Q suggestion, DC 18
+- 3/day: clairvoyance/clairaudience, telekinesis (DC 20)
+- 1/day: &Q suggestion (DC 18)
 
 **Statistics**
 

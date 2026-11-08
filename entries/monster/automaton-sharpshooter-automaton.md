@@ -100,11 +100,11 @@ apparent mechanism._
 
 **At will:**
 
-- hold person, DC 16, mirror image, web, DC 16
+- hold person (DC 16), mirror image, web (DC 16)
 
 **Per day:**
 
-- 3/day: chain lightning, DC 20, wall of force
+- 3/day: chain lightning (DC 20), wall of force
 - 1/day: plane shift, self plus 50 lbs. of objects only, reverse gravity
 
 **Statistics**

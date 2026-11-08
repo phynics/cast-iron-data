@@ -82,7 +82,7 @@ the wee creature aloft._
 
 **At will:**
 
-- dancing lights, reduce person, DC 15
+- dancing lights, reduce person (DC 15)
 
 **Per day:**
 

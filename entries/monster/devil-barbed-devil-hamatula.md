@@ -84,12 +84,12 @@ fiery-eyed sentinel bristles with barbs._
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, hold person, DC 17, major image, DC 17,
-  produce flame, pyrotechnics, DC 16, scorching ray, 2 rays only
+- greater teleport, self plus 50 lbs. of objects only, hold person (DC 17), major image (DC 17),
+  produce flame, pyrotechnics (DC 16), scorching ray, 2 rays only
 
 **Per day:**
 
-- 1/day: order's wrath, DC 18, &S level 4; 1 barbed devil 35%, unholy blight, DC 18
+- 1/day: order's wrath (DC 18), &S level 4; 1 barbed devil 35%, unholy blight (DC 18)
 
 **Statistics**
 

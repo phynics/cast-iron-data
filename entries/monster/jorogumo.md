@@ -82,13 +82,13 @@ beautiful black-haired woman._
 
 **At will:**
 
-- charm person, DC 18, detect thoughts, DC 19
+- charm person (DC 18), detect thoughts (DC 19)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 21, suggestion, DC 20
-- 1/day: hold monster, DC 22, summon nature's ally V, 1 ogre spider or 1d3 giant black widow spiders
-  or 1d4+1 giant spiders
+- 3/day: bestow curse (DC 21), suggestion (DC 20)
+- 1/day: hold monster (DC 22), summon nature's ally V, 1 ogre spider or 1d3 giant black widow
+  spiders or 1d4+1 giant spiders
 
 **Statistics**
 

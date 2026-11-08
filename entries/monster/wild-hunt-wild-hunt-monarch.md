@@ -95,14 +95,14 @@ reincarnation
 
 **At will:**
 
-- charm monster, DC 22, command, DC 19, dominate person, DC 23, ghost sound, DC 18, major image, DC
-  21
+- charm monster (DC 22), command (DC 19), dominate person (DC 23), ghost sound (DC 18), major image
+  (DC 21)
 
 **Per day:**
 
-- 3/day: &Q charm monster, DC 22, greater command, DC 23, hallucinatory terrain, DC 22, mass
-  suggestion, DC 24, plane shift, DC 25, stone tell, veil
-- 1/day: dominate monster, DC 27, &S level 9; 1 wild hunt horse 100%, wind walk
+- 3/day: &Q charm monster (DC 22), greater command (DC 23), hallucinatory terrain (DC 22), mass
+  suggestion (DC 24), plane shift (DC 25), stone tell, veil
+- 1/day: dominate monster (DC 27), &S level 9; 1 wild hunt horse 100%, wind walk
 
 **Prepared Spells**
 
@@ -116,11 +116,11 @@ reincarnation
 
 **8th-level spells:**
 
-- finger of death, DC 26, mass cure serious wounds, word of recall
+- finger of death (DC 26), mass cure serious wounds, word of recall
 
 **7th-level spells:**
 
-- control weather, fire storm, DC 25, heal, sunbeam, DC 25
+- control weather, fire storm (DC 25), heal, sunbeam (DC 25)
 
 **6th-level spells:**
 
@@ -128,11 +128,11 @@ reincarnation
 
 **5th-level spells:**
 
-- baleful polymorph, DC 23, call lightning storm, DC 23, death ward, tree stride, wall of thorns
+- baleful polymorph (DC 23), call lightning storm (DC 23), death ward, tree stride, wall of thorns
 
 **4th-level spells:**
 
-- air walk, cure serious wounds, 2, dispel magic, flame strike, DC 22, freedom of movement
+- air walk, cure serious wounds, 2, dispel magic, flame strike (DC 22), freedom of movement
 
 **3rd-level spells:**
 
@@ -140,11 +140,11 @@ reincarnation
 
 **2nd-level spells:**
 
-- barkskin, hold animal, DC 20, lesser restoration, resist energy, stone call, tree shape
+- barkskin, hold animal (DC 20), lesser restoration, resist energy, stone call, tree shape
 
 **1st-level spells:**
 
-- cure light wounds, 2, entangle, DC 19, faerie fire, obscuring mist, produce flame
+- cure light wounds, 2, entangle (DC 19), faerie fire, obscuring mist, produce flame
 
 **Cantrips:**
 

@@ -80,8 +80,8 @@ the beard of an eccentric hermit._
 
 **Per day:**
 
-- 3/day: control water, dancing lights, grease, DC 12, hydraulic push, DC 12, water breathing
-- 1/day: aqueous orb, DC 14, neutralize poison, remove disease
+- 3/day: control water, dancing lights, grease (DC 12), hydraulic push (DC 12), water breathing
+- 1/day: aqueous orb (DC 14), neutralize poison, remove disease
 
 **Statistics**
 

@@ -100,11 +100,11 @@ in its head glows with light._
 
 **At will:**
 
-- cloudkill, DC 23, fireball, DC 21, lightning bolt, DC 21, teleport
+- cloudkill (DC 23), fireball (DC 21), lightning bolt (DC 21), teleport
 
 **Per day:**
 
-- 3/day: banishment, DC 25, blade barrier, DC 24, plane shift, power word stun, DC 26
+- 3/day: banishment (DC 25), blade barrier (DC 24), plane shift, power word stun (DC 26)
 - 1/day: reverse gravity, prismatic wall, time stop
 
 **Statistics**

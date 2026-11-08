@@ -100,13 +100,13 @@ looking longbow in her hands._
 
 **At will:**
 
-- align weapon, chaos only, animate dead, cause fear, DC 23, chaos hammer, DC 26, death knell, death
-  ward, dispel law, magic circle against law, protection from law, slay living, DC 27
+- align weapon, chaos only, animate dead, cause fear (DC 23), chaos hammer (DC 26), death knell,
+  death ward, dispel law, magic circle against law, protection from law, slay living (DC 27)
 
 **Per day:**
 
-- 3/day: animate objects, cloak of chaos, DC 30, create greater undead, create undead, destruction,
-  DC 29, word of chaos, DC 29
+- 3/day: animate objects, cloak of chaos (DC 30), create greater undead, create undead, destruction
+  (DC 29), word of chaos (DC 29)
 - 1/day: summon monster
 
 **Statistics**

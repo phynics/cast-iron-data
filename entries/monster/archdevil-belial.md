@@ -94,20 +94,20 @@ petrification, poison, polymorph effects
 
 **Constant:**
 
-- detect chaos, detect good, mind blank, shield of law, DC 31, true seeing
+- detect chaos, detect good, mind blank, shield of law (DC 31), true seeing
 
 **At will:**
 
-- astral projection, baleful polymorph (mythic spell), DC 28, desecrate (mythic spell), dictum
-  (mythic spell), DC 30, dominate person (mythic spell), DC 28, greater dispel magic, greater
-  teleport, matchmaker, DC 26, modify memory (mythic spell), DC 27, order's wrath (mythic spell), DC
-  27, unhallow
+- astral projection, baleful polymorph (mythic spell) (DC 28), desecrate (mythic spell), dictum
+  (mythic spell) (DC 30), dominate person (mythic spell) (DC 28), greater dispel magic, greater
+  teleport, matchmaker (DC 26), modify memory (mythic spell) (DC 27), order's wrath (mythic spell)
+  (DC 27), unhallow
 
 **Per day:**
 
-- 3/day: &Q mass suggestion, DC 29, prismatic spray (mythic spell), DC 30, summon devils, sympathy,
-  DC 31, waves of ecstasy, DC 30
-- 1/day: overwhelming presence, DC 32, time stop (mythic spell), wish (mythic spell)
+- 3/day: &Q mass suggestion (DC 29), prismatic spray (mythic spell) (DC 30), summon devils, sympathy
+  (DC 31), waves of ecstasy (DC 30)
+- 1/day: overwhelming presence (DC 32), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

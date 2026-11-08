@@ -91,12 +91,12 @@ amplify the light around her._
 
 **At will:**
 
-- daylight, eagle eye, remove blindness/deafness, sunburst, DC 21
+- daylight, eagle eye, remove blindness/deafness, sunburst (DC 21)
 
 **Per day:**
 
-- 3/day: &Q blistering invective, DC 15
-- 1/day: flame strike, DC 18, waves of exhaustion
+- 3/day: &Q blistering invective (DC 15)
+- 1/day: flame strike (DC 18), waves of exhaustion
 
 **Statistics**
 

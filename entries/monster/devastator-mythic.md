@@ -102,12 +102,12 @@ _Each of this mechanical horror's four monstrous limbs ends in a terrible weapon
 
 **At will:**
 
-- blade barrier, DC 22, dimensional anchor
+- blade barrier (DC 22), dimensional anchor
 
 **Per day:**
 
-- 3/day: blasphemy, DC 23, plane shift, DC 21
-- 1/day: destruction, DC 23, earthquake, implosion, DC 25
+- 3/day: blasphemy (DC 23), plane shift (DC 21)
+- 1/day: destruction (DC 23), earthquake, implosion (DC 25)
 
 **Statistics**
 

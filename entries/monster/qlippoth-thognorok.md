@@ -92,7 +92,7 @@ hairy, wriggling legs._
 **Per day:**
 
 - 3/day: acid arrow, protection from law, vomit swarm
-- 1/day: excruciating deformation, DC 14
+- 1/day: excruciating deformation (DC 14)
 
 **Statistics**
 

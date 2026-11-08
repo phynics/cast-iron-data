@@ -86,7 +86,7 @@ a tentacled, spherical head._
 
 **At will:**
 
-- astral projection, self only, detect thoughts, DC 16, hold monster, DC 19, modify memory, DC 18
+- astral projection, self only, detect thoughts (DC 16), hold monster (DC 19), modify memory (DC 18)
 
 **Statistics**
 

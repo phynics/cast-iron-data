@@ -114,7 +114,7 @@ open in its body and tail._
 
 **Per day:**
 
-- 3/day: horrid wilting, DC 26, incendiary cloud, DC 26, meteor swarm, DC 27, polar ray, vision
+- 3/day: horrid wilting (DC 26), incendiary cloud (DC 26), meteor swarm (DC 27), polar ray, vision
 
 **Statistics**
 

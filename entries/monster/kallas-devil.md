@@ -95,7 +95,7 @@ disease)
 
 **Per day:**
 
-- 3/day: black tentacles, call lightning, stinking cloud, DC 17
+- 3/day: black tentacles, call lightning, stinking cloud (DC 17)
 
 **Statistics**
 

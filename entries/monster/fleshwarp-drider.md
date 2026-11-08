@@ -90,7 +90,7 @@ centaurian fusion of drow and spider._
 
 **Per day:**
 
-- 1/day: clairaudience/clairvoyance, deeper darkness, dispel magic, levitate, suggestion, DC 16
+- 1/day: clairaudience/clairvoyance, deeper darkness, dispel magic, levitate, suggestion (DC 16)
 
 **Spells Known**
 
@@ -98,19 +98,19 @@ centaurian fusion of drow and spider._
 
 **3rd-level spells:**
 
-- 4/day: lightning bolt, DC 16
+- 4/day: lightning bolt (DC 16)
 
 **2nd-level spells:**
 
-- 6/day: invisibility, web, DC 15
+- 6/day: invisibility, web (DC 15)
 
 **1st-level spells:**
 
-- 7/day: mage armor, magic missile, ray of enfeeblement, DC 14, silent image, DC 14
+- 7/day: mage armor, magic missile, ray of enfeeblement (DC 14), silent image (DC 14)
 
 **Cantrips:**
 
-- At will: bleed, DC 13, daze, DC 13, ghost sound, mage hand, ray of frost, read magic, resistance
+- At will: bleed (DC 13), daze (DC 13), ghost sound, mage hand, ray of frost, read magic, resistance
 
 **Statistics**
 

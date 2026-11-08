@@ -83,11 +83,11 @@ look vaguely like human heads._
 
 **At will:**
 
-- share memory, with a range of 55 feet, targeting the jinmenju and 1 creature in range, DC 14
+- share memory (with a range of 55 feet, targeting the jinmenju and 1 creature in range, DC 14)
 
 **Per day:**
 
-- 3/day: sculpt sound, DC 15, shout, DC 16
+- 3/day: sculpt sound (DC 15), shout (DC 16)
 
 **Statistics**
 

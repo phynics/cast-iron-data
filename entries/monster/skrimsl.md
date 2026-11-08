@@ -89,8 +89,8 @@ eel-like creature._
 
 **Per day:**
 
-- 3/day: lightning bolt, DC 17
-- 1/day: chain lightning, DC 20
+- 3/day: lightning bolt (DC 17)
+- 1/day: chain lightning (DC 20)
 
 **Statistics**
 

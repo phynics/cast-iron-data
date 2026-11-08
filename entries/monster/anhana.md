@@ -82,7 +82,7 @@ gardening shears._
 
 **Per day:**
 
-- 3/day: deep slumber, DC 17, entangle, DC 15, hideous laughter, DC 16
+- 3/day: deep slumber (DC 17), entangle (DC 15), hideous laughter (DC 16)
 - 1/day: thorn body
 
 **Statistics**

@@ -90,11 +90,11 @@ tufted ears, a short tail, and keen, piercing eyes._
 
 **At will:**
 
-- daylight, major image, DC 18, mirror image, rainbow pattern, DC 19
+- daylight, major image (DC 18), mirror image, rainbow pattern (DC 19)
 
 **Per day:**
 
-- 3/day: &Q dispel magic, prismatic spray, DC 22, scintillating pattern
+- 3/day: &Q dispel magic, prismatic spray (DC 22), scintillating pattern
 
 **Statistics**
 

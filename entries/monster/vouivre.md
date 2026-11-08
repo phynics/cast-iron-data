@@ -87,11 +87,11 @@ dragon._
 
 **At will:**
 
-- charm person, DC 15, comprehend languages, ghost sound, DC 14, speak with animals, snakes only
+- charm person (DC 15), comprehend languages, ghost sound (DC 14), speak with animals, snakes only
 
 **Per day:**
 
-- 1/day: charm animal, DC 15; snakes only, shout, DC 18, song of discord, DC 19
+- 1/day: charm animal, DC 15; snakes only, shout (DC 18), song of discord (DC 19)
 
 **Statistics**
 

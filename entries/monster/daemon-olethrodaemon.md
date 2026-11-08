@@ -94,7 +94,7 @@ gore +28 (2d8+12)
 
 **Constant:**
 
-- air walk, true seeing, unholy aura, DC 25
+- air walk, true seeing, unholy aura (DC 25)
 
 **At will:**
 
@@ -102,8 +102,9 @@ gore +28 (2d8+12)
 
 **Per day:**
 
-- 3/day: &Q disintegrate, DC 23, wall of force
-- 1/day: blasphemy, DC 24, &S level 9; any 1 CR 19 or lower daemon; 100%, wail of the banshee, DC 26
+- 3/day: &Q disintegrate (DC 23), wall of force
+- 1/day: blasphemy (DC 24), &S level 9; any 1 CR 19 or lower daemon; 100%, wail of the banshee (DC
+  26)
 
 **Statistics**
 

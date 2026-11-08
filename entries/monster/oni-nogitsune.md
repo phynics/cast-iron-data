@@ -89,7 +89,7 @@ teeth flecked with blood._
 
 **Constant:**
 
-- detect thoughts, DC 16
+- detect thoughts (DC 16)
 
 **At will:**
 

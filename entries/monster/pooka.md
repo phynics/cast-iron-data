@@ -88,8 +88,8 @@ grin gleams on her face._
 
 **Per day:**
 
-- 3/day: minor image, DC 13, sleep, DC 12
-- 1/day: suggestion, DC 13
+- 3/day: minor image (DC 13), sleep (DC 12)
+- 1/day: suggestion (DC 13)
 
 **Statistics**
 

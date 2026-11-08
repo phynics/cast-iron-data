@@ -97,19 +97,20 @@ abilities = ["31", "10", "23", "20", "21", "20"]
 
 **3rd-level spells:**
 
-- 5/day: lightning bolt, DC 18, suggestion, DC 18
+- 5/day: lightning bolt (DC 18), suggestion (DC 18)
 
 **2nd-level spells:**
 
-- 7/day: detect thoughts, DC 17, hideous laughter, DC 17, scorching ray
+- 7/day: detect thoughts (DC 17), hideous laughter (DC 17), scorching ray
 
 **1st-level spells:**
 
-- 8/day: charm person, DC 16, chill touch, DC 16, color spray, DC 16, endure elements, true strike
+- 8/day: charm person (DC 16), chill touch (DC 16), color spray (DC 16), endure elements, true
+  strike
 
 **Cantrips:**
 
-- At will: daze, DC 15, detect magic, flare, DC 15, ghost sound, message, read magic, resistance
+- At will: daze (DC 15), detect magic, flare (DC 15), ghost sound, message, read magic, resistance
 
 **Statistics**
 

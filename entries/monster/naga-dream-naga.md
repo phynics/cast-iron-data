@@ -77,20 +77,20 @@ _This large, flying serpent has a humanoid head outlined by a colorful, frilled 
 
 **3rd-level spells:**
 
-- 5/day: synaptic pulse, DC 16, synesthesia, DC 16
+- 5/day: synaptic pulse (DC 16), synesthesia (DC 16)
 
 **2nd-level spells:**
 
-- 7/day: misdirection, oneiric horror, DC 15, see invisibility
+- 7/day: misdirection, oneiric horror (DC 15), see invisibility
 
 **1st-level spells:**
 
-- 7/day: deja vu, ill omen, mind thrust I, DC 14, shield, silent image, DC 14
+- 7/day: deja vu, ill omen, mind thrust I (DC 14), shield, silent image (DC 14)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 13, detect psychic significance, ghost sound, DC 13, mage hand,
-  read magic, telekinetic maneuver
+- At will: dancing lights, daze (DC 13), detect psychic significance, ghost sound (DC 13), mage
+  hand, read magic, telekinetic maneuver
 
 **Statistics**
 

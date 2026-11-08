@@ -88,11 +88,11 @@ _Gangrenous wounds mar this dragon's twisted body._
 
 **1st-level spells:**
 
-- 4/day: protection from good, ray of sickening, DC 14
+- 4/day: protection from good, ray of sickening (DC 14)
 
 **Cantrips:**
 
-- At will: bleed, DC 13, detect magic, resistance, spark
+- At will: bleed (DC 13), detect magic, resistance, spark
 
 **Statistics**
 

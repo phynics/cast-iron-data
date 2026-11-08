@@ -101,7 +101,7 @@ energy drain)
 **Per day:**
 
 - 3/day: make whole, sculpt corpse
-- 1/day: animate dead, control undead, DC 19
+- 1/day: animate dead, control undead (DC 19)
 
 **Statistics**
 

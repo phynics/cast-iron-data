@@ -93,7 +93,7 @@ electricity crackling between them._
 
 **Per day:**
 
-- 3/day: lightning bolt, DC 14
+- 3/day: lightning bolt (DC 14)
 
 **Statistics**
 

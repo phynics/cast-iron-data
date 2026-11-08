@@ -84,7 +84,7 @@ obese giant._
 
 **Per day:**
 
-- 3/day: augury, bestow curse, DC 15, fog cloud
+- 3/day: augury, bestow curse (DC 15), fog cloud
 
 **Statistics**
 

@@ -97,7 +97,7 @@ like the sun._
 
 **At will:**
 
-- dancing lights, fire shield, sunbeam, DC 16
+- dancing lights, fire shield, sunbeam (DC 16)
 
 **Statistics**
 

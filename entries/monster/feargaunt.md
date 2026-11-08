@@ -85,11 +85,11 @@ hands, and writhing tentacles._
 
 **At will:**
 
-- fear, DC 17, ghost sound, DC 14
+- fear (DC 17), ghost sound (DC 14)
 
 **Per day:**
 
-- 3/day: confusion, DC 17, nightmare, DC 19, phantasmal killer, DC 18
+- 3/day: confusion (DC 17), nightmare (DC 19), phantasmal killer (DC 18)
 
 **Statistics**
 

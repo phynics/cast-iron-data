@@ -101,13 +101,13 @@ _This muscular giant has two ferocious lion heads, each with a long, black, lash
 **At will:**
 
 - greater teleport, self plus 50 lbs. of objects only, invisibility, magic aura, veil, self only,
-  ventriloquism, DC 16
+  ventriloquism (DC 16)
 
 **Per day:**
 
 - 3/day: bless, cure serious wounds, good hope, neutralize poison, remove blindness/deafness, remove
   curse, remove disease
-- 1/day: blasphemy, DC 22, dream, limited wish, &S level 6; 1d3
+- 1/day: blasphemy (DC 22), dream, limited wish, &S level 6; 1d3
   [upasundas](ref/monster/asura-upasunda) 50%
 
 **Statistics**

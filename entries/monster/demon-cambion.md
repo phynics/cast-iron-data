@@ -85,8 +85,8 @@ brow._
 
 **Per day:**
 
-- 3/day: command, DC 13
-- 1/day: charm person, DC 13, death knell, DC 14, enthrall, DC 14
+- 3/day: command (DC 13)
+- 1/day: charm person (DC 13), death knell (DC 14), enthrall (DC 14)
 
 **Statistics**
 

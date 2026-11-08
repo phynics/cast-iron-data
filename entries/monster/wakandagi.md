@@ -96,11 +96,11 @@ _This antlered beast combines the features of an elegant deer and a slithering s
 
 **At will:**
 
-- detect evil, detect magic, fog cloud, quench, DC 19
+- detect evil, detect magic, fog cloud, quench (DC 19)
 
 **Per day:**
 
-- 3/day: aqueous orb, DC 19, neutralize poison
+- 3/day: aqueous orb (DC 19), neutralize poison
 
 **Statistics**
 

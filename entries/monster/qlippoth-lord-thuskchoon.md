@@ -105,18 +105,18 @@ gaping, sludge-dripping mouth._
 
 **Constant:**
 
-- cloak of chaos, DC 23, detect good, detect law, fly, freedom of movement, true seeing
+- cloak of chaos (DC 23), detect good, detect law, fly, freedom of movement, true seeing
 
 **At will:**
 
-- acid fog, blindness/deafness (mythic spell), DC 17, desecrate (mythic spell), greater dispel
-  magic, greater teleport, slow (mythic spell), DC 18
+- acid fog, blindness/deafness (mythic spell) (DC 17), desecrate (mythic spell), greater dispel
+  magic, greater teleport, slow (mythic spell) (DC 18)
 
 **Per day:**
 
-- 3/day: foresight (mythic spell), mass hunger for flesh, DC 21, power word blind (mythic spell), &Q
-  slow, DC 18, vision, waves of exhaustion
-- 1/day: imprisonment, DC 24, summon qlippoth
+- 3/day: foresight (mythic spell), mass hunger for flesh (DC 21), power word blind (mythic spell),
+  &Q slow (DC 18), vision, waves of exhaustion
+- 1/day: imprisonment (DC 24), summon qlippoth
 
 ###### M {#footnote-m}
 

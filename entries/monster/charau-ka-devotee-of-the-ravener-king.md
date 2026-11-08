@@ -93,19 +93,19 @@ horrible powers it serves._
 
 **3rd-level spells:**
 
-- bestow curse, DC 16, blindness/deafness, DC 16, magic circle against good (domain spell)
+- bestow curse (DC 16), blindness/deafness (DC 16), magic circle against good (domain spell)
 
 **2nd-level spells:**
 
-- aid, align weapon (domain spell), desecrate, silence, DC 15
+- aid, align weapon (domain spell), desecrate, silence (DC 15)
 
 **1st-level spells:**
 
-- bane, DC 14, cure light wounds, 2, magic stone, protection from good (domain spell)
+- bane (DC 14), cure light wounds, 2, magic stone, protection from good (domain spell)
 
 **Cantrips:**
 
-- bleed, DC 13, detect magic, detect poison, purify food and drink
+- bleed (DC 13), detect magic, detect poison, purify food and drink
 
 **Domains**
 

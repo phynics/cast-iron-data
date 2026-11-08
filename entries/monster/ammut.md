@@ -103,7 +103,7 @@ comparison to the danger of its mighty jaws._
 
 **Per day:**
 
-- 3/day: &Q ear-piercing scream, DC 20
+- 3/day: &Q ear-piercing scream (DC 20)
 - 1/day: dominate monster
 
 **Statistics**

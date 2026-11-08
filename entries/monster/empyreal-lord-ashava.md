@@ -102,15 +102,15 @@ electricity, energy drain, petrification
 
 **At will:**
 
-- break enchantment, calm spirit, DC 27, faerie fire (mythic spell), find the path, flare burst, DC
-  26, greater dispel magic, greater teleport, haste (mythic spell), hide from undead, holy word
-  (mythic spell), DC 32, moonstruck, DC 29
+- break enchantment, calm spirit (DC 27), faerie fire (mythic spell), find the path, flare burst (DC
+  26), greater dispel magic, greater teleport, haste (mythic spell), hide from undead, holy word
+  (mythic spell) (DC 32), moonstruck (DC 29)
 
 **Per day:**
 
-- 3/day: chaos hammer (mythic spell), DC 29, halt undead, DC 28, irresistible dance, DC 33, lunar
-  veil, DC 32, mass cat's grace, &Q moonstruck, DC 29
-- 1/day: freedom, time stop, undeath to death, DC 31
+- 3/day: chaos hammer (mythic spell) (DC 29), halt undead (DC 28), irresistible dance (DC 33), lunar
+  veil (DC 32), mass cat's grace, &Q moonstruck (DC 29)
+- 1/day: freedom, time stop, undeath to death (DC 31)
 
 ###### M {#footnote-m}
 

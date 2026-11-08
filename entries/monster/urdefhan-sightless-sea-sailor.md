@@ -99,7 +99,7 @@ damage
 
 **Per day:**
 
-- 3/day: align weapon, death knell, DC 15, ray of enfeeblement, DC 15
+- 3/day: align weapon, death knell (DC 15), ray of enfeeblement (DC 15)
 
 **Statistics**
 

@@ -87,7 +87,7 @@ creature slinks forward carefully._
 
 **Per day:**
 
-- 1/day: shatter, DC 10
+- 1/day: shatter (DC 10)
 
 **Statistics**
 

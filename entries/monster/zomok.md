@@ -98,11 +98,11 @@ rounds
 
 **At will:**
 
-- command plants, DC 22, plant growth, quench, DC 21
+- command plants (DC 22), plant growth, quench (DC 21)
 
 **Per day:**
 
-- 3/day: entangle, DC 19, liveoak, transmute mud to rock, transmute rock to mud, wall of thorns
+- 3/day: entangle (DC 19), liveoak, transmute mud to rock, transmute rock to mud, wall of thorns
 - 1/day: shambler
 
 **Statistics**

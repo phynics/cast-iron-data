@@ -94,12 +94,12 @@ poison)
 
 **At will:**
 
-- hold animal, DC 15, greater teleport, self plus 50 lbs. of objects only, unnatural lust, DC 14
+- hold animal (DC 15), greater teleport, self plus 50 lbs. of objects only, unnatural lust (DC 14)
 
 **Per day:**
 
-- 3/day: air walk, &Q unnatural lust, DC 14
-- 1/day: baleful polymorph, DC 18, &S level 3; 1 kithangian 35%
+- 3/day: air walk, &Q unnatural lust (DC 14)
+- 1/day: baleful polymorph (DC 18), &S level 3; 1 kithangian 35%
 
 **Statistics**
 

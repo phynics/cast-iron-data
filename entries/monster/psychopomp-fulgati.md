@@ -106,10 +106,10 @@ legs._
 
 **Per day:**
 
-- 3/day: align weapon, self only, chain lightning, DC 21, greater shout, DC 20, plane shift, DC 21,
-  undeath to death, DC 19
-- 1/day: control water, control weather, creeping doom, DC 20, earthquake, epidemic, incendiary
-  cloud, DC 22
+- 3/day: align weapon, self only, chain lightning (DC 21), greater shout (DC 20), plane shift (DC
+  21), undeath to death (DC 19)
+- 1/day: control water, control weather, creeping doom (DC 20), earthquake, epidemic, incendiary
+  cloud (DC 22)
 
 **Statistics**
 

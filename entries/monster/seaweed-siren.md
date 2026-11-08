@@ -92,11 +92,11 @@ split by a wide, toothy mouth._
 
 **At will:**
 
-- shatter, DC 16
+- shatter (DC 16)
 
 **Per day:**
 
-- 3/day: charm monster, DC 18, &Q confusion, DC 18
+- 3/day: charm monster (DC 18), &Q confusion (DC 18)
 - 1/day: bestow curse, DC 18; ranged touch attack; 30 ft.
 
 **Statistics**

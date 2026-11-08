@@ -93,8 +93,8 @@ of plate armor._
 
 **Per day:**
 
-- 3/day: greater shout, DC 23
-- 1/day: destruction, DC 22, earthquake, DC 23, power word stun
+- 3/day: greater shout (DC 23)
+- 1/day: destruction (DC 22), earthquake (DC 23), power word stun
 
 **Statistics**
 

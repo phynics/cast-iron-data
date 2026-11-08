@@ -83,13 +83,13 @@ _This regal woman exhibits the grace and pride of the forest's most ancient tree
 
 **At will:**
 
-- entangle, DC 17, hold animal, DC 18, rusting grasp, tree shape, wood shape, 10 lbs. only
+- entangle (DC 17), hold animal (DC 18), rusting grasp, tree shape, wood shape, 10 lbs. only
 
 **Per day:**
 
-- 5/day: charm monster, DC 20, charm person, DC 17, confusion, DC 19, deep slumber, DC 19,
-  neutralize poison, sending, dryads only, suggestion, DC 19, tree stride
-- 1/day: call lightning storm, DC 21, changestaff, greater heroism, heal, liveoak, summon nature's
+- 5/day: charm monster (DC 20), charm person (DC 17), confusion (DC 19), deep slumber (DC 19),
+  neutralize poison, sending, dryads only, suggestion (DC 19), tree stride
+- 1/day: call lightning storm (DC 21), changestaff, greater heroism, heal, liveoak, summon nature's
   ally VIII
 
 **Statistics**

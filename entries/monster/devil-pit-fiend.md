@@ -93,14 +93,14 @@ tail slap +30 (2d8+6 plus [grab](ref/umr/grab))
 
 **At will:**
 
-- blasphemy, DC 25, create undead, fireball, DC 21, greater dispel magic, greater teleport, self
-  plus 50 lbs. of objects only, greater scrying, DC 25, invisibility, magic circle against good,
-  mass hold monster, DC 27, persistent image, DC 23, power word stun, scorching ray, trap the soul,
-  DC 26, unholy aura, DC 26, wall of fire
+- blasphemy (DC 25), create undead, fireball (DC 21), greater dispel magic, greater teleport, self
+  plus 50 lbs. of objects only, greater scrying (DC 25), invisibility, magic circle against good,
+  mass hold monster (DC 27), persistent image (DC 23), power word stun, scorching ray, trap the soul
+  (DC 26), unholy aura (DC 26), wall of fire
 
 **Per day:**
 
-- 3/day: &Q fireball, DC 21
+- 3/day: &Q fireball (DC 21)
 - 1/day: meteor swarm, &S level 9; any 1 CR 19 or lower devil; 100%
 
 **Per year:**

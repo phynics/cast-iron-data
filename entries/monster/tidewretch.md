@@ -79,12 +79,12 @@ clumps of seaweed serve as her hair._
 
 **At will:**
 
-- entangle, DC 16, tree shape, dead tree only, wood shape, DC 16
+- entangle (DC 16), tree shape, dead tree only, wood shape (DC 16)
 
 **Per day:**
 
-- 3/day: aqueous orb, DC 17, crushing despair, DC 17, enervation
-- 1/day: blight, DC 18
+- 3/day: aqueous orb (DC 17), crushing despair (DC 17), enervation
+- 1/day: blight (DC 18)
 
 **Statistics**
 

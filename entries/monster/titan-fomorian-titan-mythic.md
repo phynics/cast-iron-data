@@ -116,8 +116,8 @@ push), slam +26 (2d8+24 plus push)
 
 **Per day:**
 
-- 3/day: disintegrate, DC 24, greater scrying, DC 25, heal, mass suggestion, DC 24
-- 1/day: cursed earth, greater planar ally, mage's disjunction, DC 27, spell turning, wish
+- 3/day: disintegrate (DC 24), greater scrying (DC 25), heal, mass suggestion (DC 24)
+- 1/day: cursed earth, greater planar ally, mage's disjunction (DC 27), spell turning, wish
 
 **Statistics**
 

@@ -89,11 +89,11 @@ about using squirming tentacles, each moving independently in a mesmerizing moti
 
 **At will:**
 
-- detect thoughts, DC 12, hypnotic pattern, DC 13
+- detect thoughts (DC 12), hypnotic pattern (DC 13)
 
 **Per day:**
 
-- 3/day: unwilling shield, DC 17
+- 3/day: unwilling shield (DC 17)
 
 **Statistics**
 

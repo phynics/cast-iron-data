@@ -103,11 +103,11 @@ abilities = ["35", "10", "25", "24", "23", "24"]
 
 **7th-level spells:**
 
-- 5/day: forcecage, DC 24, spell turning
+- 5/day: forcecage (DC 24), spell turning
 
 **6th-level spells:**
 
-- 7/day: forceful hand, shadow walk, DC 23, true seeing
+- 7/day: forceful hand, shadow walk (DC 23), true seeing
 
 **5th-level spells:**
 
@@ -115,7 +115,7 @@ abilities = ["35", "10", "25", "24", "23", "24"]
 
 **4th-level spells:**
 
-- 7/day: fear, DC 21, scrying, DC 21, solid fog, stoneskin
+- 7/day: fear (DC 21), scrying (DC 21), solid fog, stoneskin
 
 **3rd-level spells:**
 

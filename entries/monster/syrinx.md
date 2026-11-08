@@ -74,11 +74,11 @@ detachment of the owl it resembles._
 
 **1st-level spells:**
 
-- command, DC 13
+- command (DC 13)
 
 **Cantrips:**
 
-- detect magic, ghost sound, DC 12, read magic, stabilize
+- detect magic, ghost sound (DC 12), read magic, stabilize
 
 **Statistics**
 

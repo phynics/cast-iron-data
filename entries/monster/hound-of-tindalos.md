@@ -89,7 +89,7 @@ with a predatory grace._
 
 **Per day:**
 
-- 3/day: dimensional anchor, discern location, greater scrying, DC 20, haste, slow, DC 16
+- 3/day: dimensional anchor, discern location, greater scrying (DC 20), haste, slow (DC 16)
 
 **Statistics**
 

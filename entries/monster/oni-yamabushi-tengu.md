@@ -88,12 +88,12 @@ prodigious nose, and large raven-like wings._
 
 **Constant:**
 
-- see invisibility, ventriloquism, DC 14
+- see invisibility, ventriloquism (DC 14)
 
 **Per day:**
 
-- 3/day: dimension door, hideous laughter, DC 15, ray of enfeeblement, DC 14, scorching ray
-- 1/day: blur, glitterdust, DC 15
+- 3/day: dimension door, hideous laughter (DC 15), ray of enfeeblement (DC 14), scorching ray
+- 1/day: blur, glitterdust (DC 15)
 
 **Statistics**
 

@@ -99,11 +99,12 @@ _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
 **At will:**
 
-- aid, continual flame, greater teleport, self plus 50 lbs. of objects only, message, sunbeam, DC 23
+- aid, continual flame, greater teleport, self plus 50 lbs. of objects only, message, sunbeam (DC
+  23)
 
 **Per day:**
 
-- 1/day: meteor swarm, DC 25, polar ray, DC 24, prismatic spray, DC 23, sunburst, DC 24
+- 1/day: meteor swarm (DC 25), polar ray (DC 24), prismatic spray (DC 23), sunburst (DC 24)
 
 **Prepared Spells**
 
@@ -113,15 +114,15 @@ _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
 **9th-level spells:**
 
-- implosion, DC 26, mass heal, miracle
+- implosion (DC 26), mass heal, miracle
 
 **8th-level spells:**
 
-- dimensional lock, fire storm, DC 25, holy aura, DC 25
+- dimensional lock, fire storm (DC 25), holy aura (DC 25)
 
 **7th-level spells:**
 
-- destruction, 2, DC 24, holy word, 2, DC 24, resurrection
+- destruction (2, DC 24), holy word (2, DC 24), resurrection
 
 **6th-level spells:**
 
@@ -129,7 +130,7 @@ _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
 **5th-level spells:**
 
-- break enchantment, 2, breath of life, 2, flame strike, DC 22
+- break enchantment, 2, breath of life, 2, flame strike (DC 22)
 
 **4th-level spells:**
 
@@ -145,7 +146,7 @@ _[magic circle against evil](ref/spell/magic-circle-against-evil)_
 
 **1st-level spells:**
 
-- cure light wounds, 4, divine favor, sanctuary, DC 18
+- cure light wounds, 4, divine favor, sanctuary (DC 18)
 
 **Cantrips:**
 

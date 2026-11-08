@@ -126,20 +126,20 @@ vine._
 
 **9th-level spells:**
 
-- antipathy, DC 30, &Q cure serious wounds
+- antipathy (DC 30), &Q cure serious wounds
 
 **8th-level spells:**
 
-- control plants, DC 29, &Q dispel magic, heal, 2, greater scrying, &Q quench, DC 24, death ward,
+- control plants (DC 29), &Q dispel magic, heal, 2, greater scrying, &Q quench (DC 24), death ward,
   tree stride, wall of thorns
 
 **4th-level spells:**
 
-- arboreal hammer, command plants, 2, DC 25, dispel magic, freedom of movement, grove of respite
+- arboreal hammer, command plants (2, DC 25), dispel magic, freedom of movement, grove of respite
 
 **3rd-level spells:**
 
-- call lightning, DC 24, cure moderate wounds, 3, quench, 2, DC 24, spike growth, DC 24
+- call lightning (DC 24), cure moderate wounds, 3, quench (2, DC 24), spike growth (DC 24)
 
 **2nd-level spells:**
 
@@ -147,7 +147,7 @@ vine._
 
 **1st-level spells:**
 
-- cure light wounds, 3, entangle, 3, DC 22, faerie fire
+- cure light wounds, 3, entangle (3, DC 22), faerie fire
 
 **Cantrips:**
 

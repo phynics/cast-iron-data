@@ -87,12 +87,12 @@ _Cloaked by wings of darkness, this horrific, skeletal creature appears to burn 
 
 **At will:**
 
-- deeper darkness, ray of exhaustion, DC 20, silence, self only
+- deeper darkness, ray of exhaustion (DC 20), silence, self only
 
 **Per day:**
 
 - 3/day: dimensional anchor, greater teleport, true seeing
-- 1/day: circle of death, DC 23, discern location, prismatic spray, DC 24
+- 1/day: circle of death (DC 23), discern location, prismatic spray (DC 24)
 
 **Statistics**
 

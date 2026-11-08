@@ -98,11 +98,11 @@ _Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this t
 
 **At will:**
 
-- cause fear, DC 13, lesser confusion, DC 13, message, obscuring mist
+- cause fear (DC 13), lesser confusion (DC 13), message, obscuring mist
 
 **Per day:**
 
-- 1/day: crushing despair, DC 16, dispel magic, meld into stone, move earth
+- 1/day: crushing despair (DC 16), dispel magic, meld into stone, move earth
 
 **Statistics**
 

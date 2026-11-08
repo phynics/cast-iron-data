@@ -104,9 +104,9 @@ ember._
 
 **Per day:**
 
-- 3/day: charm monster, DC 16, deep slumber, DC 15, fireball, DC 15, fire shield, warm shield only,
-  wall of fire
-- 1/day: incendiary cloud, DC 20
+- 3/day: charm monster (DC 16), deep slumber (DC 15), fireball (DC 15), fire shield, warm shield
+  only, wall of fire
+- 1/day: incendiary cloud (DC 20)
 
 **Statistics**
 

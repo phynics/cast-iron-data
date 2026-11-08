@@ -87,20 +87,20 @@ center of the mass._
 
 **3rd-level spells:**
 
-- 4/day: synaptic pulse, DC 16
+- 4/day: synaptic pulse (DC 16)
 
 **2nd-level spells:**
 
-- 6/day: paranoia, DC 15, spontaneous immolation, DC 16
+- 6/day: paranoia (DC 15), spontaneous immolation (DC 16)
 
 **1st-level spells:**
 
-- 7/day: charm animal, DC 14, charm person, DC 14, mind thrust I, DC 14, unseen servant
+- 7/day: charm animal (DC 14), charm person (DC 14), mind thrust I (DC 14), unseen servant
 
 **Cantrips:**
 
-- At will: bleed, DC 13, daze, DC 13, ghost sound, DC 13, haunted fey aspect, DC 13, mage hand,
-  open/close, telekinetic projectile, DC 13
+- At will: bleed (DC 13), daze (DC 13), ghost sound (DC 13), haunted fey aspect (DC 13), mage hand,
+  open/close, telekinetic projectile (DC 13)
 
 **Statistics**
 

@@ -97,12 +97,12 @@ reptilian maw is filled with tiny, sharp teeth._
 
 **At will:**
 
-- dimension door, shatter, DC 15
+- dimension door, shatter (DC 15)
 
 **Per day:**
 
-- 3/day: dispel magic, hideous laughter, DC 15
-- 1/day: chaos hammer, DC 17
+- 3/day: dispel magic, hideous laughter (DC 15)
+- 1/day: chaos hammer (DC 17)
 
 **Statistics**
 

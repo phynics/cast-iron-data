@@ -91,11 +91,11 @@ crossbow and blood-stained manacles enhance his aura of quiet menace._
 
 **At will:**
 
-- darkness, ghost sound, DC 14
+- darkness, ghost sound (DC 14)
 
 **Per day:**
 
-- 1/day: daze, DC 14, sound burst, DC 16
+- 1/day: daze (DC 14), sound burst (DC 16)
 
 **Statistics**
 

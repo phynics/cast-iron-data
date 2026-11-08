@@ -96,13 +96,13 @@ misfortune, retribution, speak in dreams), soul eater
 
 **At will:**
 
-- bestow curse, DC 20, crushing despair, DC 19, detect thoughts, DC 18, dispel magic, fear, DC 20,
-  scrying, DC 20, suggestion, DC 19
+- bestow curse (DC 20), crushing despair (DC 19), detect thoughts (DC 18), dispel magic, fear (DC
+  20), scrying (DC 20), suggestion (DC 19)
 
 **Per day:**
 
-- 1/day: circle of death, DC 22, ethereal jaunt, geas/quest, mass suggestion, DC 22, modify memory,
-  DC 20
+- 1/day: circle of death (DC 22), ethereal jaunt, geas/quest, mass suggestion (DC 22), modify memory
+  (DC 20)
 
 **Per month:**
 

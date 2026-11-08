@@ -95,7 +95,7 @@ piercing blue eyes._
 
 **Per day:**
 
-- 3/day: aqueous orb, DC 17, control water, hydraulic torrent, neutralize poison, remove disease
+- 3/day: aqueous orb (DC 17), control water, hydraulic torrent, neutralize poison, remove disease
 
 **Statistics**
 

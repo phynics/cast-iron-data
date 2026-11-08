@@ -120,13 +120,13 @@ poison
 **At will:**
 
 - discern location, false vision, see aura of security, fog cloud, greater dispel magic, locate
-  object, major curse, DC 22, persuasive goad, DC 18
+  object, major curse (DC 22), persuasive goad (DC 18)
 
 **Per day:**
 
-- 3/day: geas/quest, DC 23, leashed shackles, DC 21, maze, plant growth, spell turning, wall of
+- 3/day: geas/quest (DC 23), leashed shackles (DC 21), maze, plant growth, spell turning, wall of
   stone, wall of thorns
-- 1/day: breath of life, dimensional lock, limited wish, DC 24, mage's disjunction, DC 26, plane
+- 1/day: breath of life, dimensional lock, limited wish (DC 24), mage's disjunction (DC 26), plane
   shift, word of recall
 
 **Statistics**

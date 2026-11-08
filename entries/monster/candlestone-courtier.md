@@ -82,11 +82,11 @@ carries himself with a dancer's grace._
 
 **At will:**
 
-- disfiguring touch, DC 18, disguise self, faerie fire, touch of idiocy, whispering wind
+- disfiguring touch (DC 18), disguise self, faerie fire, touch of idiocy, whispering wind
 
 **Per day:**
 
-- 3/day: excruciating deformation, DC 19, major image, DC 19, sands of time
+- 3/day: excruciating deformation (DC 19), major image (DC 19), sands of time
 - 1/day: ethereal jaunt, phantom steed, shadow walk
 
 **Statistics**

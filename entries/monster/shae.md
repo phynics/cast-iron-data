@@ -83,7 +83,7 @@ body._
 
 **At will:**
 
-- lesser shadow evocation, DC 16
+- lesser shadow evocation (DC 16)
 
 **Statistics**
 

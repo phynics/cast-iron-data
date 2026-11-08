@@ -91,17 +91,17 @@ negative energy)
 
 **Constant:**
 
-- entropic shield, hide from undead, DC 14
+- entropic shield, hide from undead (DC 14)
 
 **At will:**
 
-- bleed, DC 13, dimension door, self only, dispel magic
+- bleed (DC 13), dimension door, self only, dispel magic
 
 **Per day:**
 
-- 3/day: death knell, DC 15, deeper darkness, enervation, inflict serious wounds, DC 16, silence
-- 1/day: antilife shell, greater teleport, self plus 50 lbs. of objects only, harm, DC 19, slay
-  living, DC 18
+- 3/day: death knell (DC 15), deeper darkness, enervation, inflict serious wounds (DC 16), silence
+- 1/day: antilife shell, greater teleport, self plus 50 lbs. of objects only, harm (DC 19), slay
+  living (DC 18)
 
 **Statistics**
 

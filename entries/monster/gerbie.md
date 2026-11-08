@@ -80,11 +80,11 @@ of goodwill._
 
 **At will:**
 
-- calm animals, DC 16, calm emotions, DC 17, charm monster, DC 18, tongues, DC 17
+- calm animals (DC 16), calm emotions (DC 17), charm monster (DC 18), tongues (DC 17)
 
 **Per day:**
 
-- 3/day: detect thoughts, DC 17
+- 3/day: detect thoughts (DC 17)
 
 **Statistics**
 

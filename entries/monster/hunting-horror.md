@@ -98,12 +98,13 @@ allow the creature to fly._
 
 **At will:**
 
-- gaseous form, locate creature, locate object, telekinesis, DC 20
+- gaseous form, locate creature, locate object, telekinesis (DC 20)
 
 **Per day:**
 
-- 3/day: demand, DC 23, limited wish, to duplicate sorcerer/wizard spells of 6th level or lower only
-- 1/day: discern location, ethereal jaunt, scrying, DC 19, vision
+- 3/day: demand (DC 23), limited wish, to duplicate sorcerer/wizard spells of 6th level or lower
+  only
+- 1/day: discern location, ethereal jaunt, scrying (DC 19), vision
 
 **Per year:**
 

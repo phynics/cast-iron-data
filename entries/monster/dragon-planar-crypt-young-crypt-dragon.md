@@ -87,11 +87,11 @@ over its emaciated form._
 
 **1st-level spells:**
 
-- 4/day: sanctuary, DC 14, shield of faith
+- 4/day: sanctuary (DC 14), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 13, detect magic, guidance, stabilize
+- At will: bleed (DC 13), detect magic, guidance, stabilize
 
 **Statistics**
 

@@ -100,8 +100,8 @@ _[flame strike](ref/spell/flame-strike)_), electricity 30, fire 30, sonic 30
 
 **Per day:**
 
-- 3/day: cloudkill, DC 23, cure critical wounds, lightning bolt, DC 21, telekinesis, DC 23
-- 1/day: harm, DC 24, heal, limited wish, DC 25, plane shift, DC 25
+- 3/day: cloudkill (DC 23), cure critical wounds, lightning bolt (DC 21), telekinesis (DC 23)
+- 1/day: harm (DC 24), heal, limited wish (DC 25), plane shift (DC 25)
 
 **Statistics**
 

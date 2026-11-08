@@ -96,14 +96,14 @@ plus vicious critical)
 
 **At will:**
 
-- death knell, DC 17, deeper darkness, desecrate, shadow walk
+- death knell (DC 17), deeper darkness, desecrate, shadow walk
 
 **Per day:**
 
-- 3/day: bestow curse, DC 18, blindness/deafness, DC 18, crushing despair, DC 19, eyebite, DC 21,
-  greater invisibility, greater shadow conjuration, DC 22, find the path, plane shift, DC 20, symbol
-  of pain, DC 20
-- 1/day: blasphemy, DC 22, slay living, DC 20, unhallow
+- 3/day: bestow curse (DC 18), blindness/deafness (DC 18), crushing despair (DC 19), eyebite (DC
+  21), greater invisibility, greater shadow conjuration (DC 22), find the path, plane shift (DC 20),
+  symbol of pain (DC 20)
+- 1/day: blasphemy (DC 22), slay living (DC 20), unhallow
 
 **Statistics**
 

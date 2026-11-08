@@ -86,7 +86,7 @@ fresh blood._
 
 **Per day:**
 
-- 3/day: command undead, DC 17, dominate person, DC 20, fog cloud, gaseous form, invisibility
+- 3/day: command undead (DC 17), dominate person (DC 20), fog cloud, gaseous form, invisibility
 
 **Statistics**
 

@@ -81,7 +81,7 @@ cap for a head._
 
 **Per day:**
 
-- 1/day: spore domination, DC 14
+- 1/day: spore domination (DC 14)
 
 **Statistics**
 

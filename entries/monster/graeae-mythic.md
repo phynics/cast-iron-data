@@ -93,9 +93,9 @@ eyeball she clutches in her claws._
 
 **Per day:**
 
-- 5/day: ill omen, DC 17
-- 3/day: augury, enthrall, DC 18, feast of ashes, DC 18
-- 1/day: ray of exhaustion, DC 19
+- 5/day: ill omen (DC 17)
+- 3/day: augury, enthrall (DC 18), feast of ashes (DC 18)
+- 1/day: ray of exhaustion (DC 19)
 
 **Statistics**
 

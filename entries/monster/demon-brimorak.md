@@ -93,9 +93,9 @@ hooves._
 
 **Per day:**
 
-- 3/day: dispel magic, heat metal, DC 14, produce flame
-- 1/day: air walk, fireball, DC 15, greater teleport, self plus 50 lbs. of objects only, &S level 3;
-  1 brimorak 50%
+- 3/day: dispel magic, heat metal (DC 14), produce flame
+- 1/day: air walk, fireball (DC 15), greater teleport, self plus 50 lbs. of objects only, &S level
+  3; 1 brimorak 50%
 
 **Statistics**
 

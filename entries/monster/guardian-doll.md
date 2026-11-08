@@ -88,8 +88,8 @@ disturbing curiosity._
 
 **Per day:**
 
-- 3/day: alarm, charm person, DC 11, light, mage hand, open/close, prestidigitation
-- 1/day: frost fall, DC 12, levitate
+- 3/day: alarm, charm person (DC 11), light, mage hand, open/close, prestidigitation
+- 1/day: frost fall (DC 12), levitate
 
 **Statistics**
 

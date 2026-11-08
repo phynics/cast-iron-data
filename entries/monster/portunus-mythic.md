@@ -103,8 +103,8 @@ its head independently._
 
 **Per day:**
 
-- 3/day: control water, DC 21, dispel magic (mythic spell), &Q rusting grasp, warp wood, DC 19
-- 1/day: control weather, as druid, vortex, DC 24
+- 3/day: control water (DC 21), dispel magic (mythic spell), &Q rusting grasp, warp wood (DC 19)
+- 1/day: control weather, as druid, vortex (DC 24)
 
 ###### M {#footnote-m}
 

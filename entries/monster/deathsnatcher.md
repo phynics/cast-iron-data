@@ -89,12 +89,12 @@ four arms ends in a clawed hand._
 
 **At will:**
 
-- animate dead, command undead, DC 19, death knell, DC 19, deeper darkness
+- animate dead, command undead (DC 19), death knell (DC 19), deeper darkness
 
 **Per day:**
 
-- 3/day: control undead, DC 24, &Q death knell, DC 19
-- 1/day: create greater undead, create undead, finger of death, DC 24
+- 3/day: control undead (DC 24), &Q death knell (DC 19)
+- 1/day: create greater undead, create undead, finger of death (DC 24)
 
 **Statistics**
 

@@ -106,17 +106,17 @@ energy drain, mind-affecting effects, paralysis, and petrification
 
 **Constant:**
 
-- speak with dead, DC 26, true seeing
+- speak with dead (DC 26), true seeing
 
 **At will:**
 
-- astral projection, create undead, death knell, DC 25, deeper darkness, dream, greater dispel
-  magic, greater teleport, nightmare, DC 28, sending
+- astral projection, create undead, death knell (DC 25), deeper darkness, dream, greater dispel
+  magic, greater teleport, nightmare (DC 28), sending
 
 **Per day:**
 
-- 3/day: demand, DC 31, &Q deeper darkness, energy drain, DC 32, &Q feeblemind, DC 28
-- 1/day: destruction, DC 30, power word kill, symbol of death, DC 31, symbol of insanity, DC 31,
+- 3/day: demand (DC 31), &Q deeper darkness, energy drain (DC 32), &Q feeblemind (DC 28)
+- 1/day: destruction (DC 30), power word kill, symbol of death (DC 31), symbol of insanity (DC 31),
   true resurrection
 
 **Statistics**

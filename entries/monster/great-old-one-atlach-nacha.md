@@ -108,13 +108,13 @@ mind-affecting effects, paralysis, petrification, poison
 
 **At will:**
 
-- astral projection, dimension door, dream, greater dispel magic, insanity, DC 27, levitate,
-  nightmare, DC 24, sending, telekinesis, DC 24
+- astral projection, dimension door, dream, greater dispel magic, insanity (DC 27), levitate,
+  nightmare (DC 24), sending, telekinesis (DC 24)
 
 **Per day:**
 
-- 3/day: creeping doom, demand, DC 27, &Q feeblemind, DC 24
-- 1/day: imprisonment, DC 28, symbol of insanity, DC 27, dominate monster, DC 28
+- 3/day: creeping doom, demand (DC 27), &Q feeblemind (DC 24)
+- 1/day: imprisonment (DC 28), symbol of insanity (DC 27), dominate monster (DC 28)
 
 **Statistics**
 

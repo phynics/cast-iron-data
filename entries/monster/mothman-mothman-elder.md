@@ -98,8 +98,8 @@ into complex patterns._
 
 **Per day:**
 
-- 3/day: cloudkill, DC 20, hold monster, DC 20, phantasmal killer, DC 19, scrying, DC 19
-- 1/day: earthquake, DC 23, incendiary cloud, DC 23
+- 3/day: cloudkill (DC 20), hold monster (DC 20), phantasmal killer (DC 19), scrying (DC 19)
+- 1/day: earthquake (DC 23), incendiary cloud (DC 23)
 
 **Statistics**
 

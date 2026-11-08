@@ -79,9 +79,9 @@ multicolored wings of a parrot._
 
 **Per day:**
 
-- 5/day: burning hands, DC 14, gust of wind, DC 15
-- 3/day: hallucinatory terrain, DC 17, invisibility, solid fog, suggestion, DC 15
-- 1/day: cone of cold, DC 18, mirage arcana, DC 18
+- 5/day: burning hands (DC 14), gust of wind (DC 15)
+- 3/day: hallucinatory terrain (DC 17), invisibility, solid fog, suggestion (DC 15)
+- 1/day: cone of cold (DC 18), mirage arcana (DC 18)
 
 **Statistics**
 

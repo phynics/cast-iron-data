@@ -91,19 +91,19 @@ combat, improved spell combat, spell combat (-2 attack, +2 concentration, double
 
 **5th-level spells:**
 
-- baleful polymorph, DC 19, monstrous physique III
+- baleful polymorph (DC 19), monstrous physique III
 
 **4th-level spells:**
 
-- fire shield, greater invisibility, ice storm, shout, DC 18, stoneskin
+- fire shield, greater invisibility, ice storm, shout (DC 18), stoneskin
 
 **3rd-level spells:**
 
-- cloak of winds, dispel magic, fireball, DC 17, haste, slow, DC 17
+- cloak of winds, dispel magic, fireball (DC 17), haste, slow (DC 17)
 
 **2nd-level spells:**
 
-- darkness, frigid touch, mirror image, scorching ray, 2, web, DC 16
+- darkness, frigid touch, mirror image, scorching ray, 2, web (DC 16)
 
 **1st-level spells:**
 
@@ -111,7 +111,7 @@ combat, improved spell combat, spell combat (-2 attack, +2 concentration, double
 
 **Cantrips:**
 
-- arcane mark, dancing lights, detect magic, ghost sound, DC 14, ray of frost
+- arcane mark, dancing lights, detect magic, ghost sound (DC 14), ray of frost
 
 ### Tactics
 

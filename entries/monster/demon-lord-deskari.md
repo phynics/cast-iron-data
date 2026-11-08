@@ -98,18 +98,18 @@ poison), sting +41 (2d6+8 plus poison)
 
 **Constant:**
 
-- detect good, detect law, freedom of movement, true seeing, unholy aura, DC 28
+- detect good, detect law, freedom of movement, true seeing, unholy aura (DC 28)
 
 **At will:**
 
-- astral projection, blasphemy, DC 27, control winds, desecrate, greater dispel magic, greater
-  teleport, hungry pit, DC 25, insect plague, shapechange, telekinesis, DC 25, unhallow, unholy
-  blight, DC 24
+- astral projection, blasphemy (DC 27), control winds, desecrate, greater dispel magic, greater
+  teleport, hungry pit (DC 25), insect plague, shapechange, telekinesis (DC 25), unhallow, unholy
+  blight (DC 24)
 
 **Per day:**
 
-- 3/day: control weather, creeping doom, reverse gravity, summon demons, symbol of weakness, DC 27
-- 1/day: imprisonment, DC 29, earthquake, time stop
+- 3/day: control weather, creeping doom, reverse gravity, summon demons, symbol of weakness (DC 27)
+- 1/day: imprisonment (DC 29), earthquake, time stop
 
 **Statistics**
 

@@ -80,8 +80,8 @@ lower body is that of a lion._
 
 **Per day:**
 
-- 3/day: charm monster, DC 15, major image, DC 14, mirror image, suggestion, DC 14
-- 1/day: deep slumber, DC 14
+- 3/day: charm monster (DC 15), major image (DC 14), mirror image, suggestion (DC 14)
+- 1/day: deep slumber (DC 14)
 
 **Statistics**
 

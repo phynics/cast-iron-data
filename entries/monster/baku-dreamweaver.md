@@ -86,7 +86,7 @@ a gentle wisdom._
 
 **At will:**
 
-- dream council, invisibility, lullaby, sleep, DC 21
+- dream council, invisibility, lullaby, sleep (DC 21)
 
 **Psychic Magic**
 

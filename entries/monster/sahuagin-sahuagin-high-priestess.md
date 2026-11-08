@@ -88,7 +88,7 @@ piscine head features a toothy maw._
 
 **4th-level spells:**
 
-- dimension door (domain spell), gift of the deep, unholy blight, DC 19
+- dimension door (domain spell), gift of the deep, unholy blight (DC 19)
 
 **3rd-level spells:**
 
@@ -96,17 +96,17 @@ piscine head features a toothy maw._
 
 **2nd-level spells:**
 
-- bear's endurance, cure moderate wounds, dread bolt, DC 17, hold person, DC 17, shatter (domain
-  spell), DC 17
+- bear's endurance, cure moderate wounds, dread bolt (DC 17), hold person (DC 17), shatter (domain
+  spell) (DC 17)
 
 **1st-level spells:**
 
-- command, DC 16, cure light wounds, 2, divine favor, murderous command, DC 16, sanctuary, true
+- command (DC 16), cure light wounds, 2, divine favor, murderous command (DC 16), sanctuary, true
   strike (domain spell)
 
 **Cantrips:**
 
-- bleed, DC 15, detect magic, guidance, read magic
+- bleed (DC 15), detect magic, guidance, read magic
 
 **Domains**
 

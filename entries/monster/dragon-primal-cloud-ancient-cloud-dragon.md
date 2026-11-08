@@ -95,7 +95,7 @@ wings +29 (2d6+5)
 
 **Per day:**
 
-- 3/day: cloudkill, DC 21
+- 3/day: cloudkill (DC 21)
 
 **Spells Known**
 
@@ -105,27 +105,27 @@ wings +29 (2d6+5)
 
 **6th-level spells:**
 
-- 5/day: chain lightning, DC 22, greater dispel magic
+- 5/day: chain lightning (DC 22), greater dispel magic
 
 **5th-level spells:**
 
-- 7/day: cone of cold, DC 21, dismissal, DC 21, teleport
+- 7/day: cone of cold (DC 21), dismissal (DC 21), teleport
 
 **4th-level spells:**
 
-- 7/day: elemental body I, ice storm, lesser geas, DC 20, river of wind
+- 7/day: elemental body I, ice storm, lesser geas (DC 20), river of wind
 
 **3rd-level spells:**
 
-- 7/day: arcane sight, cloak of winds, stinking cloud, DC 19, suggestion, DC 19
+- 7/day: arcane sight, cloak of winds, stinking cloud (DC 19), suggestion (DC 19)
 
 **2nd-level spells:**
 
-- 8/day: eagle's splendor, glitterdust, DC 18, gust of wind, locate object, see invisibility
+- 8/day: eagle's splendor, glitterdust (DC 18), gust of wind, locate object, see invisibility
 
 **1st-level spells:**
 
-- 8/day: alter winds, charm person, DC 17, detect secret doors, erase, true strike
+- 8/day: alter winds, charm person (DC 17), detect secret doors, erase, true strike
 
 **Cantrips:**
 

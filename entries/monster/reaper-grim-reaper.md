@@ -94,13 +94,13 @@ around it._
 
 **At will:**
 
-- circle of death, DC 25, control undead, DC 26, invisibility, plane shift, DC 26, polymorph
+- circle of death (DC 25), control undead (DC 26), invisibility, plane shift (DC 26), polymorph
 
 **Per day:**
 
-- 3/day: energy drain, DC 28, finger of death, DC 26, soul bind, DC 28, summon minor reapers, level
-  8; 1d4 minor reapers, unwilling shield, DC 25
-- 1/day: &Q destruction, DC 26, wail of the banshee, DC 28
+- 3/day: energy drain (DC 28), finger of death (DC 26), soul bind (DC 28), summon minor reapers,
+  level 8; 1d4 minor reapers, unwilling shield (DC 25)
+- 1/day: &Q destruction (DC 26), wail of the banshee (DC 28)
 
 **Statistics**
 

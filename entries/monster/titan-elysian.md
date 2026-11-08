@@ -92,12 +92,12 @@ gleaming metal._
 
 **At will:**
 
-- bestow curse, DC 21, break enchantment, divination, greater dispel magic, sending
+- bestow curse (DC 21), break enchantment, divination, greater dispel magic, sending
 
 **Per day:**
 
-- 3/day: greater scrying, DC 24, heal, mass suggestion, DC 23
-- 1/day: freedom, greater planar ally, meteor swarm, DC 26
+- 3/day: greater scrying (DC 24), heal, mass suggestion (DC 23)
+- 1/day: freedom, greater planar ally, meteor swarm (DC 26)
 
 **Statistics**
 

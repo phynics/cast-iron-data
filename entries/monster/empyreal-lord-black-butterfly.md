@@ -109,14 +109,14 @@ touch (10d6 cold plus steal breath)
 **At will:**
 
 - break enchantment, deeper darkness, dimensional anchor, greater dispel magic, haste (mythic
-  spell), holy smite (mythic spell), DC 25, holy word (mythic spell), DC 28, interplanetary
-  teleport, wandering star motes, DC 25
+  spell), holy smite (mythic spell) (DC 25), holy word (mythic spell) (DC 28), interplanetary
+  teleport, wandering star motes (DC 25)
 
 **Per day:**
 
 - 3/day: antimagic field (mythic spell), &Q heal (mythic spell), reverse gravity (mythic spell), &Q
-  wandering star motes, DC 25
-- 1/day: gate, implosion, DC 30, mage's disjunction (mythic spell), moment of prescience, time stop
+  wandering star motes (DC 25)
+- 1/day: gate, implosion (DC 30), mage's disjunction (mythic spell), moment of prescience, time stop
   (mythic spell)
 
 ###### M {#footnote-m}

@@ -92,7 +92,7 @@ The molten core in the creature's torso glows through rugged cracks in its dark 
 **Per day:**
 
 - 3/day: meld into stone, scorching ray
-- 1/day: fireball, DC 14, flesh to stone, DC 17, wall of fire
+- 1/day: fireball (DC 14), flesh to stone (DC 17), wall of fire
 
 **Statistics**
 

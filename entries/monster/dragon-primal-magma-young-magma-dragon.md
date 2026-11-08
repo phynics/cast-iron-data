@@ -80,7 +80,7 @@ shine in the membranes of its wings._
 
 **At will:**
 
-- burning hands, DC 12
+- burning hands (DC 12)
 
 **Spells Known**
 
@@ -90,11 +90,11 @@ shine in the membranes of its wings._
 
 **1st-level spells:**
 
-- 4/day: flare burst, DC 12, grease, DC 12
+- 4/day: flare burst (DC 12), grease (DC 12)
 
 **Cantrips:**
 
-- At will: bleed, DC 11, detect magic, open/close, spark
+- At will: bleed (DC 11), detect magic, open/close, spark
 
 **Statistics**
 

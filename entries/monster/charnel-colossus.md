@@ -96,12 +96,12 @@ amalgamated whole._
 
 **At will:**
 
-- augury, blindness/deafness, DC 20, doom, DC 18
+- augury, blindness/deafness (DC 20), doom (DC 18)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 20, speak with dead, DC 20, unholy blight, DC 21
-- 1/day: blasphemy, DC 24, horrid wilting, DC 25
+- 3/day: bestow curse (DC 20), speak with dead (DC 20), unholy blight (DC 21)
+- 1/day: blasphemy (DC 24), horrid wilting (DC 25)
 
 **Statistics**
 

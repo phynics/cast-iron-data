@@ -82,13 +82,13 @@ peppered with globs of what appear to be ashes._
 
 **At will:**
 
-- alter self, beguiling gift, DC 14, burning hands, DC 14, detect magic, infernal healing
+- alter self, beguiling gift (DC 14), burning hands (DC 14), detect magic, infernal healing
 
 **Per day:**
 
-- 3/day: burning gaze, DC 15, feast of ashes, DC 15, inflict moderate wounds, DC 15, invisibility,
-  self only
-- 1/day: ash storm, cup of dust, DC 16, inflict serious wounds, DC 17, phantasmal killer, DC 17
+- 3/day: burning gaze (DC 15), feast of ashes (DC 15), inflict moderate wounds (DC 15),
+  invisibility, self only
+- 1/day: ash storm, cup of dust (DC 16), inflict serious wounds (DC 17), phantasmal killer (DC 17)
 
 **Statistics**
 

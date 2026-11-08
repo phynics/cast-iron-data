@@ -93,7 +93,7 @@ hollow pits for eyes._
 
 **Per day:**
 
-- 3/day: charm animal, DC 14, entangle, DC 14, tree stride, self plus 50 lbs. of objects only
+- 3/day: charm animal (DC 14), entangle (DC 14), tree stride, self plus 50 lbs. of objects only
 
 **Statistics**
 

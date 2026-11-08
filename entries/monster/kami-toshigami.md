@@ -94,8 +94,8 @@ _[haste](ref/spell/haste)_)
 
 **Per day:**
 
-- 3/day: greater restoration, slow, DC 20
-- 1/day: finger of death, DC 24, time stop, waves of exhaustion
+- 3/day: greater restoration, slow (DC 20)
+- 1/day: finger of death (DC 24), time stop, waves of exhaustion
 
 **Statistics**
 

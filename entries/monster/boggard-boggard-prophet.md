@@ -84,11 +84,11 @@ abilities = ["20", "9", "16", "10", "9", "14"]
 
 **1st-level spells:**
 
-- 7/day: burning hands, DC 13, cause fear, DC 13, mage armor, summon monster I
+- 7/day: burning hands (DC 13), cause fear (DC 13), mage armor, summon monster I
 
 **Cantrips:**
 
-- At will: acid splash, detect magic, detect poison, ghost sound, DC 12, message, resistance
+- At will: acid splash, detect magic, detect poison, ghost sound (DC 12), message, resistance
 
 **Bloodline**
 

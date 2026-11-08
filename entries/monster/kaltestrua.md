@@ -98,15 +98,15 @@ flesh, and the skulladorned flails she wields drip black liquid._
 
 **Constant:**
 
-- true seeing, unholy aura, DC 28
+- true seeing, unholy aura (DC 28)
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, project image, DC 27, telekinesis, DC 25
+- greater teleport, self plus 50 lbs. of objects only, project image (DC 27), telekinesis (DC 25)
 
 **Per day:**
 
-- 3/day: blade barrier, DC 26, fly
+- 3/day: blade barrier (DC 26), fly
 - 1/day: &S level 5; 1 marilith 20%; 1 nalfeshnee 35%; or 1d4 hezrous 60%
 
 **Spell-Like Abilities**
@@ -127,20 +127,21 @@ flesh, and the skulladorned flails she wields drip black liquid._
 
 **3rd-level spells:**
 
-- 6/day: haste, major image, DC 23, vampiric touch
+- 6/day: haste, major image (DC 23), vampiric touch
 
 **2nd-level spells:**
 
-- 9/day: alter self, command undead, DC 22, false life, invisibility
+- 9/day: alter self, command undead (DC 22), false life, invisibility
 
 **1st-level spells:**
 
-- 9/day: chill touch, DC 21, mage armor, magic missile, shield, silent image, DC 21, unseen servant
+- 9/day: chill touch (DC 21), mage armor, magic missile, shield, silent image (DC 21), unseen
+  servant
 
 **Cantrips:**
 
-- At will: bleed, DC 20, detect magic, disrupt undead, ghost sound, DC 20, message, read magic,
-  touch of fatigue, DC 20
+- At will: bleed (DC 20), detect magic, disrupt undead, ghost sound (DC 20), message, read magic,
+  touch of fatigue (DC 20)
 
 **Bloodline**
 

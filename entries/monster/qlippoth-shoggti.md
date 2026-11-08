@@ -94,12 +94,12 @@ between two staring eyes._
 
 **At will:**
 
-- command, DC 13
+- command (DC 13)
 
 **Per day:**
 
-- 3/day: charm person, DC 13, protection from law
-- 1/day: charm monster, DC 16, dimension door
+- 3/day: charm person (DC 13), protection from law
+- 1/day: charm monster (DC 16), dimension door
 
 **Statistics**
 

@@ -99,12 +99,12 @@ flesh._
 
 **At will:**
 
-- wind walk, DC 25
+- wind walk (DC 25)
 
 **Per day:**
 
-- 3/day: &EM sirocco, DC 24
-- 1/day: control weather, as druid, nightmare, DC 24
+- 3/day: &EM sirocco (DC 24)
+- 1/day: control weather, as druid, nightmare (DC 24)
 
 **Statistics**
 

@@ -97,7 +97,7 @@ glowing eyes._
 
 **Per day:**
 
-- 3/day: command, DC 13
+- 3/day: command (DC 13)
 - 1/day: resist energy
 
 **Statistics**

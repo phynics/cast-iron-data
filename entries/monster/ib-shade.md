@@ -80,7 +80,7 @@ frog-like face, yet only empty sockets stare from where its eyes should be._
 
 **At will:**
 
-- doom, DC 15
+- doom (DC 15)
 
 **Statistics**
 

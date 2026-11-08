@@ -112,7 +112,7 @@ insubstantial fire._
 
 **Per day:**
 
-- 1/day: plane shift, DC 20, resilient sphere, DC 19
+- 1/day: plane shift (DC 20), resilient sphere (DC 19)
 
 **Statistics**
 

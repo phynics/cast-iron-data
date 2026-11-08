@@ -96,7 +96,7 @@ destination._
 
 **At will:**
 
-- telekinesis, DC 21
+- telekinesis (DC 21)
 
 **Statistics**
 

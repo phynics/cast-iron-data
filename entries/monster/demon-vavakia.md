@@ -95,16 +95,16 @@ wound), 2 claws +27 (1d8+11), tail slap +22 (2d8+5 plus stun)
 
 **Constant:**
 
-- true seeing, unholy aura, DC 24
+- true seeing, unholy aura (DC 24)
 
 **At will:**
 
 - enervation, greater teleport, self plus worn armor plus 50 additional lbs. of objects only,
-  telekinesis, DC 21
+  telekinesis (DC 21)
 
 **Per day:**
 
-- 3/day: blasphemy, DC 23, &Q enervation, power word stun, DC 24
+- 3/day: blasphemy (DC 23), &Q enervation, power word stun (DC 24)
 - 1/day: earthquake, &S level 6; 1 marilith 40% or 1d3 nalfeshnees 60%
 
 **Statistics**

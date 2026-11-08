@@ -101,7 +101,7 @@ glows with an unrivaled ferocity._
 
 **At will:**
 
-- force hook charge, shatter, DC 16
+- force hook charge, shatter (DC 16)
 
 **Per day:**
 

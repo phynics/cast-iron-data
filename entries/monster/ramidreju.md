@@ -75,7 +75,7 @@ with soft, green fur._
 
 **Per day:**
 
-- 1/day: create pit, DC 12
+- 1/day: create pit (DC 12)
 
 **Statistics**
 

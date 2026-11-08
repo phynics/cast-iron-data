@@ -102,20 +102,20 @@ disease, energy drain, petrification, poison
 
 **Constant:**
 
-- detect good, freedom of movement, true seeing, unholy aura, DC 28
+- detect good, freedom of movement, true seeing, unholy aura (DC 28)
 
 **At will:**
 
-- astral projection, blasphemy (mythic spell), DC 27, desecrate (mythic spell), greater dispel
-  magic, greater teleport, shapechange, telekinesis (mythic spell), DC 25, unhallow, unholy blight
-  (mythic spell), DC 24
+- astral projection, blasphemy (mythic spell) (DC 27), desecrate (mythic spell), greater dispel
+  magic, greater teleport, shapechange, telekinesis (mythic spell) (DC 25), unhallow, unholy blight
+  (mythic spell) (DC 24)
 
 **Per day:**
 
-- 3/day: control weather (mythic spell), horrid wilting, DC 28, &Q hunger for flesh, DC 24,
-  insanity, DC 27, mass hunger for flesh, DC 27, plane shift, DC 27, soul bind, DC 29, summon
+- 3/day: control weather (mythic spell), horrid wilting (DC 28), &Q hunger for flesh (DC 24),
+  insanity (DC 27), mass hunger for flesh (DC 27), plane shift (DC 27), soul bind (DC 29), summon
   daemon, waves of fatigue
-- 1/day: imprisonment, DC 29, time stop (mythic spell), wish (mythic spell)
+- 1/day: imprisonment (DC 29), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

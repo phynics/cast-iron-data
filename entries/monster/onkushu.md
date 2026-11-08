@@ -94,13 +94,13 @@ humanoid face._
 
 **At will:**
 
-- detect evil, discern lies, DC 19, invisibility, self only, remove curse, remove disease, remove
+- detect evil, discern lies (DC 19), invisibility, self only, remove curse, remove disease, remove
   fear
 
 **Per day:**
 
-- 3/day: fire breath, DC 17, burning gaze, DC 17
-- 1/day: fire snake, DC 20
+- 3/day: fire breath (DC 17), burning gaze (DC 17)
+- 1/day: fire snake (DC 20)
 
 **Statistics**
 

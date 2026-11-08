@@ -80,11 +80,11 @@ abilities = ["12", "23", "19", "18", "13", "20"]
 
 **At will:**
 
-- disguise self, DC 16, humanoid form only, ventriloquism, DC 16
+- disguise self (DC 16), humanoid form only, ventriloquism (DC 16)
 
 **Per day:**
 
-- 1/day: blur, mirror image, suggestion, DC 18
+- 1/day: blur, mirror image, suggestion (DC 18)
 
 ### Tactics
 

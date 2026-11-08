@@ -78,7 +78,7 @@ aquatic snake._
 
 **3rd-level spells:**
 
-- 5/day: protection from energy, suggestion, DC 17
+- 5/day: protection from energy, suggestion (DC 17)
 
 **2nd-level spells:**
 
@@ -90,7 +90,7 @@ aquatic snake._
 
 **Cantrips:**
 
-- At will: acid splash, daze, DC 14, detect magic, light, mage hand, open/close, read magic
+- At will: acid splash, daze (DC 14), detect magic, light, mage hand, open/close, read magic
 
 **Statistics**
 

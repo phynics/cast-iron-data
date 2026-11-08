@@ -108,15 +108,15 @@ abilities = ["35", "10", "24", "25", "24", "20"]
 
 **7th-level spells:**
 
-- 5/day: insanity, DC 24, repulsion, DC 24
+- 5/day: insanity (DC 24), repulsion (DC 24)
 
 **6th-level spells:**
 
-- 7/day: blade barrier, DC 23, disintegrate, DC 23, create mindscape
+- 7/day: blade barrier (DC 23), disintegrate (DC 23), create mindscape
 
 **5th-level spells:**
 
-- 7/day: dismissal, DC 22, remote viewing, wall of force, waves of fatigue, DC 22
+- 7/day: dismissal (DC 22), remote viewing, wall of force, waves of fatigue (DC 22)
 
 **4th-level spells:**
 
@@ -124,19 +124,20 @@ abilities = ["35", "10", "24", "25", "24", "20"]
 
 **3rd-level spells:**
 
-- 8/day: displacement, ego whip I, DC 20, haste, major image, DC 20
+- 8/day: displacement, ego whip I (DC 20), haste, major image (DC 20)
 
 **2nd-level spells:**
 
-- 8/day: hideous laughter, DC 19, hypercognition, locate object, mirror image, touch of idiocy
+- 8/day: hideous laughter (DC 19), hypercognition, locate object, mirror image, touch of idiocy
 
 **1st-level spells:**
 
-- 8/day: burst of insight, feather fall, sundering shards, DC 18, true strike, unwitting ally, DC 18
+- 8/day: burst of insight, feather fall, sundering shards (DC 18), true strike, unwitting ally (DC
+  18)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 17, detect magic, detect psychic significance, know direction,
+- At will: dancing lights, daze (DC 17), detect magic, detect psychic significance, know direction,
   mage hand, message, open/close, virtue
 
 **Statistics**

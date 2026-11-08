@@ -87,12 +87,12 @@ _A merging of an emaciated man and a porcupine, this sinister creature smells of
 
 **At will:**
 
-- command undead, DC 16, produce flame
+- command undead (DC 16), produce flame
 
 **Per day:**
 
-- 3/day: animate dead, death knell, DC 16, invisibility, ray of enfeeblement, DC 15, scare, DC 16
-- 1/day: nondetection, DC 17
+- 3/day: animate dead, death knell (DC 16), invisibility, ray of enfeeblement (DC 15), scare (DC 16)
+- 1/day: nondetection (DC 17)
 
 **Statistics**
 

@@ -80,11 +80,11 @@ abilities = ["13", "11", "14", "12", "13", "14"]
 
 **1st-level spells:**
 
-- 3/day: alarm, grease, DC 13, ventriloquism, DC 13
+- 3/day: alarm, grease (DC 13), ventriloquism (DC 13)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 12, flare, DC 12, ghost sound, DC 12, message
+- At will: dancing lights, daze (DC 12), flare (DC 12), ghost sound (DC 12), message
 
 **Statistics**
 

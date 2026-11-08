@@ -103,13 +103,13 @@ claws._
 
 **At will:**
 
-- dimension door, self plus 50 lbs. of objects only, make whole, major creation, shatter, DC 17,
+- dimension door, self plus 50 lbs. of objects only, make whole, major creation, shatter (DC 17),
   shrink item
 
 **Per day:**
 
-- 3/day: chaos hammer, DC 19, dispel magic, slow, DC 18
-- 1/day: break enchantment, dispel law, DC 20, haste, polymorph any object, DC 23
+- 3/day: chaos hammer (DC 19), dispel magic, slow (DC 18)
+- 1/day: break enchantment, dispel law (DC 20), haste, polymorph any object (DC 23)
 
 **Statistics**
 

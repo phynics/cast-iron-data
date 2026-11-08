@@ -102,11 +102,11 @@ _This majestic dragon seems to shimmer as if surrounded by thousands of eddies o
 
 **1st-level spells:**
 
-- 4/day: burst of insight, sundering shards, DC 14
+- 4/day: burst of insight, sundering shards (DC 14)
 
 **Cantrips:**
 
-- At will: daze, DC 13, detect magic, mage hand, open/close
+- At will: daze (DC 13), detect magic, mage hand, open/close
 
 **Statistics**
 

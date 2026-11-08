@@ -92,7 +92,7 @@ abilities = ["35", "8", "25", "20", "21", "20"]
 
 **At will:**
 
-- repel metal or stone, soften earth and stone, spike stones, DC 19, stone shape, wall of stone
+- repel metal or stone, soften earth and stone, spike stones (DC 19), stone shape, wall of stone
 
 **Spells Known**
 
@@ -102,7 +102,7 @@ abilities = ["35", "8", "25", "20", "21", "20"]
 
 **6th-level spells:**
 
-- 4/day: disintegrate, DC 21, flesh to stone, DC 21
+- 4/day: disintegrate (DC 21), flesh to stone (DC 21)
 
 **5th-level spells:**
 
@@ -110,25 +110,25 @@ abilities = ["35", "8", "25", "20", "21", "20"]
 
 **4th-level spells:**
 
-- 7/day: enervation, shout, DC 19, solid fog, stone shape
+- 7/day: enervation, shout (DC 19), solid fog, stone shape
 
 **3rd-level spells:**
 
-- 7/day: displacement, fireball, DC 18, protection from good, rage, slow
+- 7/day: displacement, fireball (DC 18), protection from good, rage, slow
 
 **2nd-level spells:**
 
-- 7/day: acid arrow, daze monster, DC 17, flaming sphere, DC 17, scorching ray
+- 7/day: acid arrow, daze monster (DC 17), flaming sphere (DC 17), scorching ray
 
 **1st-level spells:**
 
-- 8/day: burning hands, DC 16, cause fear, DC 16, magic missile, ray of enfeeblement, DC 16, true
+- 8/day: burning hands (DC 16), cause fear (DC 16), magic missile, ray of enfeeblement (DC 16), true
   strike
 
 **Cantrips:**
 
-- At will: acid splash, bleed, DC 15, detect magic, flare, DC 15, ghost sound, mage hand, read
-  magic, resistance, touch of fatigue, DC 15
+- At will: acid splash, bleed (DC 15), detect magic, flare (DC 15), ghost sound, mage hand, read
+  magic, resistance, touch of fatigue (DC 15)
 
 **Statistics**
 

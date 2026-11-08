@@ -88,8 +88,8 @@ features of a pig. Its porcine face is eyeless and its nose never stops sniffing
 
 **Per day:**
 
-- 3/day: confess, DC 14, zone of truth, DC 14
-- 1/day: follow aura, seek thoughts, DC 15
+- 3/day: confess (DC 14), zone of truth (DC 14)
+- 1/day: follow aura, seek thoughts (DC 15)
 
 **Statistics**
 

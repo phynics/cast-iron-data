@@ -96,15 +96,15 @@ tail._
 
 **3rd-level spells:**
 
-- dispel magic, haste, lightning bolt, DC 18, tongues
+- dispel magic, haste, lightning bolt (DC 18), tongues
 
 **2nd-level spells:**
 
-- glitterdust, DC 17, invisibility, scorching ray, see invisibility, spider climb
+- glitterdust (DC 17), invisibility, scorching ray, see invisibility, spider climb
 
 **1st-level spells:**
 
-- alarm, comprehend languages, expeditious retreat, grease, DC 16, mage armor, magic missile, 2
+- alarm, comprehend languages, expeditious retreat, grease (DC 16), mage armor, magic missile, 2
 
 **Cantrips:**
 

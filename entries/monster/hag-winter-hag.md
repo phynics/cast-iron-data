@@ -90,13 +90,13 @@ gems._
 
 **At will:**
 
-- chill metal, DC 16, detect magic, fog cloud, frostbite, whispering wind
+- chill metal (DC 16), detect magic, fog cloud, frostbite, whispering wind
 
 **Per day:**
 
-- 3/day: alter self, charm monster, DC 18, invisibility, self only, major image, DC 17
+- 3/day: alter self, charm monster (DC 18), invisibility, self only, major image (DC 17)
 - 1/day: cone of cold, DC 19; see ice staff, control weather, windy or cold weather only, wall of
-  ice, DC 18, waves of fatigue
+  ice (DC 18), waves of fatigue
 
 **Statistics**
 

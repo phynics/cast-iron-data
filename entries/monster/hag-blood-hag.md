@@ -89,11 +89,11 @@ skin._
 
 **At will:**
 
-- inflict moderate wounds, DC 16, scorching ray, spider climb, self only
+- inflict moderate wounds (DC 16), scorching ray, spider climb, self only
 
 **Per day:**
 
-- 3/day: deep slumber, DC 17
+- 3/day: deep slumber (DC 17)
 
 **Statistics**
 

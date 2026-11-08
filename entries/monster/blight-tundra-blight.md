@@ -89,8 +89,8 @@ icy stingers._
 
 **Per day:**
 
-- 1/day: blight, DC 22, command plants, DC 21, cone of cold, DC 22, dominate monster, animals and
-  magical beasts only; DC 26, greater curse terrain, hallucinatory terrain, DC 21
+- 1/day: blight (DC 22), command plants (DC 21), cone of cold (DC 22), dominate monster, animals and
+  magical beasts only; DC 26, greater curse terrain, hallucinatory terrain (DC 21)
 
 **Statistics**
 

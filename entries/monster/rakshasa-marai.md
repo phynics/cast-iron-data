@@ -88,11 +88,11 @@ tongue in its fanged mouth._
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 15, jump, mage armor, magic missile
+- 7/day: charm person (DC 15), jump, mage armor, magic missile
 
 **Cantrips:**
 
-- At will: bleed, DC 14, detect magic, ghost sound, DC 14, mage hand, open/close, read magic
+- At will: bleed (DC 14), detect magic, ghost sound (DC 14), mage hand, open/close, read magic
 
 **Statistics**
 

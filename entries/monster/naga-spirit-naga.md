@@ -74,7 +74,7 @@ _Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpe
 
 **3rd-level spells:**
 
-- 5/day: displacement, fireball, DC 16
+- 5/day: displacement, fireball (DC 16)
 
 **2nd-level spells:**
 
@@ -82,11 +82,11 @@ _Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpe
 
 **1st-level spells:**
 
-- 7/day: charm person, DC 14, cure light wounds, divine favor, magic missile, shield of faith
+- 7/day: charm person (DC 14), cure light wounds, divine favor, magic missile, shield of faith
 
 **Cantrips:**
 
-- At will: bleed, daze, DC 13, detect magic, mage hand, open/close, ray of frost, read magic
+- At will: bleed, daze (DC 13), detect magic, mage hand, open/close, ray of frost, read magic
 
 **Statistics**
 

@@ -109,7 +109,7 @@ hooves._
 
 **Per day:**
 
-- 3/day: restore mythic power, share glory, steal power, DC 19
+- 3/day: restore mythic power, share glory, steal power (DC 19)
 - 1/day: ascension
 
 **Statistics**

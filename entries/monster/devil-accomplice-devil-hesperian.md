@@ -89,13 +89,13 @@ occasional dart of a forked tongue._
 
 **At will:**
 
-- guidance, hypnotism, DC 13, light, message, prestidigitation, read magic
+- guidance, hypnotism (DC 13), light, message, prestidigitation, read magic
 
 **Per day:**
 
-- 3/day: beguiling gift, DC 13, burning hands, DC 13, darkness, daylight, greater teleport, self
+- 3/day: beguiling gift (DC 13), burning hands (DC 13), darkness, daylight, greater teleport, self
   plus 50 lbs. of objects only
-- 1/day: charm person, DC 13, eagle's splendor, suggestion, DC 15
+- 1/day: charm person (DC 13), eagle's splendor, suggestion (DC 15)
 
 **Statistics**
 

@@ -95,7 +95,7 @@ drifts from its gigantic wings._
 
 **At will:**
 
-- cure serious wounds, dream, freedom of movement, hypnotic pattern, DC 19
+- cure serious wounds, dream, freedom of movement, hypnotic pattern (DC 19)
 
 **Per day:**
 

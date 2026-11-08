@@ -95,13 +95,13 @@ single red eye._
 
 **At will:**
 
-- control weather, plane shift, DC 22, telekinesis, DC 20
+- control weather, plane shift (DC 22), telekinesis (DC 20)
 
 **Per day:**
 
-- 3/day: call lightning storm, DC 21, earthquake, DC 22, &Q teleport, sirocco, DC 21, vortex, DC 22,
-  whirlwind, DC 23
-- 1/day: meteor swarm, DC 24, storm of vengeance, DC 24, time stop, tsunami, DC 24
+- 3/day: call lightning storm (DC 21), earthquake (DC 22), &Q teleport, sirocco (DC 21), vortex (DC
+  22), whirlwind (DC 23)
+- 1/day: meteor swarm (DC 24), storm of vengeance (DC 24), time stop, tsunami (DC 24)
 
 **Statistics**
 

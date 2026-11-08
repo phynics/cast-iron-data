@@ -102,27 +102,28 @@ abilities = ["38", "11", "28", "23", "22", "23"]
 
 **7th-level spells:**
 
-- 4/day: plane shift, DC 23, sequester
+- 4/day: plane shift (DC 23), sequester
 
 **6th-level spells:**
 
-- 7/day: disintegrate, DC 22, greater dispel magic, true seeing
+- 7/day: disintegrate (DC 22), greater dispel magic, true seeing
 
 **5th-level spells:**
 
-- 7/day: dominate person, DC 21, feeblemind, DC 21, telepathic bond, teleport
+- 7/day: dominate person (DC 21), feeblemind (DC 21), telepathic bond, teleport
 
 **4th-level spells:**
 
-- 7/day: fear, DC 20, scrying, DC 20, stone shape, stoneskin
+- 7/day: fear (DC 20), scrying (DC 20), stone shape, stoneskin
 
 **3rd-level spells:**
 
-- 7/day: blink, dispel magic, slow, DC 19, tongues
+- 7/day: blink, dispel magic, slow (DC 19), tongues
 
 **2nd-level spells:**
 
-- 8/day: arcane lock, blindness/deafness, DC 18, blur, detect thoughts, DC 18, memory lapse, DC 18
+- 8/day: arcane lock, blindness/deafness (DC 18), blur, detect thoughts (DC 18), memory lapse (DC
+  18)
 
 **1st-level spells:**
 

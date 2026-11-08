@@ -101,8 +101,8 @@ it snaps crustacean-like claws._
 
 **Cantrips:**
 
-- At will: acid splash, dancing lights, daze, DC 12, detect poison, mage hand, touch of fatigue, DC
-  12
+- At will: acid splash, dancing lights, daze (DC 12), detect poison, mage hand, touch of fatigue (DC
+  12)
 
 **Statistics**
 

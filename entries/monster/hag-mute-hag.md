@@ -87,17 +87,17 @@ gray-skinned crone._
 
 **Constant:**
 
-- detect good, detect magic, detect thoughts, DC 16
+- detect good, detect magic, detect thoughts (DC 16)
 
 **At will:**
 
-- contagion, DC 17, cure light wounds, diminish plants, inflict light wounds, DC 15, invisibility,
-  self only, minor creation, poison, DC 17
+- contagion (DC 17), cure light wounds, diminish plants, inflict light wounds (DC 15), invisibility,
+  self only, minor creation, poison (DC 17)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 17, blindness/deafness, DC 16, &EM cone of cold, DC 19, crushing despair,
-  DC 17, silence, DC 16
+- 3/day: bestow curse (DC 17), blindness/deafness (DC 16), &EM cone of cold (DC 19), crushing
+  despair (DC 17), silence (DC 16)
 - 1/day: control weather
 
 **Statistics**

@@ -103,12 +103,12 @@ white gas occasionally escape the roiling fluid._
 
 **At will:**
 
-- enthrall, DC 17, sending, telekinesis, DC 20
+- enthrall (DC 17), sending, telekinesis (DC 20)
 
 **Per day:**
 
 - 3/day: &Q touch of idiocy
-- 1/day: confusion, DC 19, crushing despair, DC 19
+- 1/day: confusion (DC 19), crushing despair (DC 19)
 
 **Statistics**
 

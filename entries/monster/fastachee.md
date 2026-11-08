@@ -79,7 +79,7 @@ basket filled with corn._
 
 **At will:**
 
-- plant growth, speak with plants, thorny entanglement, DC 16, transport via plants
+- plant growth, speak with plants, thorny entanglement (DC 16), transport via plants
 
 **Spell-Like Abilities**
 
@@ -103,21 +103,21 @@ basket filled with corn._
 
 **5th-level spells:**
 
-- baleful polymorph, DC 21, breath of life (domain spell), commune with nature, wall of thorns
+- baleful polymorph (DC 21), breath of life (domain spell), commune with nature, wall of thorns
 
 **4th-level spells:**
 
-- command plants, DC 20, cure critical wounds (domain spell), flame strike, DC 20, freedom of
-  movement, spike stones, DC 20
+- command plants (DC 20), cure critical wounds (domain spell), flame strike (DC 20), freedom of
+  movement, spike stones (DC 20)
 
 **3rd-level spells:**
 
-- aqueous orb, DC 20, call lightning, DC 19, cure serious wounds (domain spell), protection from
-  energy, remove disease, spike growth, DC 19
+- aqueous orb (DC 20), call lightning (DC 19), cure serious wounds (domain spell), protection from
+  energy, remove disease, spike growth (DC 19)
 
 **2nd-level spells:**
 
-- barkskin, cat's grace, cure moderate wounds (domain spell), flaming sphere, DC 18, lesser
+- barkskin, cat's grace, cure moderate wounds (domain spell), flaming sphere (DC 18), lesser
   restoration, soften earth and stone, tree shape
 
 **1st-level spells:**

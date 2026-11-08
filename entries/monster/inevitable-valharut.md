@@ -93,7 +93,7 @@ traceries of blue lines._
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, order's wrath, DC 19
+- greater teleport, self plus 50 lbs. of objects only, order's wrath (DC 19)
 
 **Per day:**
 

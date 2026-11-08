@@ -102,11 +102,11 @@ rounds
 
 **At will:**
 
-- control water, create water, greater dispel magic, modify memory, DC 18, slipstream
+- control water, create water, greater dispel magic, modify memory (DC 18), slipstream
 
 **Per day:**
 
-- 3/day: aqueous orb, DC 17, &Q telekinesis, DC 19
+- 3/day: aqueous orb (DC 17), &Q telekinesis (DC 19)
 - 1/day: break enchantment
 
 **Statistics**

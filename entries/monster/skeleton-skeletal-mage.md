@@ -92,15 +92,15 @@ touch (by touch spell)
 
 **2nd-level spells:**
 
-- ghoul touch, DC 17, scorching ray, spectral hand
+- ghoul touch (DC 17), scorching ray, spectral hand
 
 **1st-level spells:**
 
-- chill touch, DC 16, mage armor, magic missile, ray of enfeeblement, DC 16
+- chill touch (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16)
 
 **Cantrips:**
 
-- detect magic, mage hand, ray of frost, read magic, touch of fatigue, DC 15
+- detect magic, mage hand, ray of frost, read magic, touch of fatigue (DC 15)
 
 **Opposition Schools**
 

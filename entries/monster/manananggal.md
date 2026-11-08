@@ -79,11 +79,11 @@ mask._
 
 **At will:**
 
-- bleed, DC 14, dancing lights, touch of fatigue, DC 14
+- bleed (DC 14), dancing lights, touch of fatigue (DC 14)
 
 **Per day:**
 
-- 3/day: darkness, deep slumber, DC 17, fear, DC 18
+- 3/day: darkness, deep slumber (DC 17), fear (DC 18)
 
 **Statistics**
 

@@ -87,7 +87,7 @@ smile full of fangs._
 
 **Per day:**
 
-- 1/day: command, DC 13, sleep, DC 13
+- 1/day: command (DC 13), sleep (DC 13)
 
 **Per week:**
 

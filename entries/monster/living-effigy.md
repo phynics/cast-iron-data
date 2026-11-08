@@ -83,17 +83,17 @@ _Carved from gray stone, this enormous figure is shaped like the head of some pr
 
 **At will:**
 
-- detect thoughts, DC 15, obscuring mist, sound burst, DC 15
+- detect thoughts (DC 15), obscuring mist, sound burst (DC 15)
 
 **Per day:**
 
-- 3/day: calm emotions, DC 15, crushing despair, DC 17, good hope, &EM sound burst, DC 15, stone
-  shape, thundering drums, DC 16
-- 1/day: arcane concordance, fear, DC 17, witness, DC 16
+- 3/day: calm emotions (DC 15), crushing despair (DC 17), good hope, &EM sound burst (DC 15), stone
+  shape, thundering drums (DC 16)
+- 1/day: arcane concordance, fear (DC 17), witness (DC 16)
 
 **Per week:**
 
-- dream, nightmare, DC 18
+- dream, nightmare (DC 18)
 
 **Statistics**
 

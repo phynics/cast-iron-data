@@ -86,7 +86,7 @@ gemstone eyes._
 
 **At will:**
 
-- command, DC 13, stabilize
+- command (DC 13), stabilize
 
 **Per day:**
 

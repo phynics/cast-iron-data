@@ -100,13 +100,13 @@ adamantine quarterstaff +32/+27/+22 (3d6+29 plus energy drain) or +3 [cruel](ref
 
 **At will:**
 
-- fear, DC 20
+- fear (DC 20)
 
 **Per day:**
 
-- 3/day: chain lightning, DC 22, cone of cold, DC 21, dimensional anchor, flame strike, DC 21,
-  greater dispel magic, horrid wilting, DC 24, unholy blight, DC 20
-- 1/day: destruction, DC 23, energy drain, DC 25
+- 3/day: chain lightning (DC 22), cone of cold (DC 21), dimensional anchor, flame strike (DC 21),
+  greater dispel magic, horrid wilting (DC 24), unholy blight (DC 20)
+- 1/day: destruction (DC 23), energy drain (DC 25)
 
 **Statistics**
 

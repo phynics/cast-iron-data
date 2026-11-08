@@ -103,8 +103,8 @@ ever-changing patterns._
 
 **Per day:**
 
-- 3/day: hypnotic pattern, DC 16, pilfering hand
-- 1/day: chaos hammer, DC 18
+- 3/day: hypnotic pattern (DC 16), pilfering hand
+- 1/day: chaos hammer (DC 18)
 
 **Statistics**
 

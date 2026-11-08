@@ -77,32 +77,33 @@ abilities = ["12", "12", "15", "18", "14", "8"]
 
 **6th-level spells:**
 
-- mass suggestion, DC 21, slay living, DC 20
+- mass suggestion (DC 21), slay living (DC 20)
 
 **5th-level spells:**
 
-- baleful polymorph, DC 19, cloudkill, DC 19, waves of fatigue
+- baleful polymorph (DC 19), cloudkill (DC 19), waves of fatigue
 
 **4th-level spells:**
 
-- cape of wasps, crushing despair, DC 19, cure serious wounds, dimension door
+- cape of wasps, crushing despair (DC 19), cure serious wounds, dimension door
 
 **3rd-level spells:**
 
-- bestow curse, DC 17, countless eyes, dispel magic, stinking cloud, DC 17, vampiric touch
+- bestow curse (DC 17), countless eyes, dispel magic, stinking cloud (DC 17), vampiric touch
 
 **2nd-level spells:**
 
-- blindness/deafness, DC 16, burning gaze, DC 16, glitterdust, DC 16, see invisibility, touch of
+- blindness/deafness (DC 16), burning gaze (DC 16), glitterdust (DC 16), see invisibility, touch of
   idiocy
 
 **1st-level spells:**
 
-- beguiling gift, DC 16, bungle, DC 16, burning hands, DC 15, mage armor, ray of enfeeblement, DC 15
+- beguiling gift (DC 16), bungle (DC 16), burning hands (DC 15), mage armor, ray of enfeeblement (DC
+  15)
 
 **Cantrips:**
 
-- bleed, DC 14, detect magic, putrefy food and drink, touch of fatigue, DC 14
+- bleed (DC 14), detect magic, putrefy food and drink, touch of fatigue (DC 14)
 
 **Patron**
 

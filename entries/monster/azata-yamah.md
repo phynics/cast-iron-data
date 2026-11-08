@@ -93,7 +93,7 @@ sky._
 **Per day:**
 
 - 3/day: cure moderate wounds, invisibility
-- 1/day: charm person, DC 16, remove paralysis
+- 1/day: charm person (DC 16), remove paralysis
 
 **Statistics**
 

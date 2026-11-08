@@ -93,12 +93,12 @@ _[freedom of movement](ref/spell/freedom-of-movement)_, negative energy affinity
 
 **At will:**
 
-- command undead, DC 17, suggestion, DC 18
+- command undead (DC 17), suggestion (DC 18)
 
 **Per day:**
 
-- 3/day: clairaudience/clairvoyance, deeper darkness, hold person, DC 19, phantasmal killer, DC 19
-- 1/day: gaseous form, greater scrying, DC 22, shadow walk
+- 3/day: clairaudience/clairvoyance, deeper darkness, hold person (DC 19), phantasmal killer (DC 19)
+- 1/day: gaseous form, greater scrying (DC 22), shadow walk
 
 **Statistics**
 

@@ -76,12 +76,13 @@ brown skin. His hair is unkempt and his flesh is weathered, but his large eyes g
 
 **At will:**
 
-- charm animal, DC 15, create water, endure elements
+- charm animal (DC 15), create water, endure elements
 
 **Per day:**
 
-- 3/day: detect thoughts, DC 16, entangle, DC 15, invisibility, self only
-- 1/day: call lightning, DC 17, confusion, DC 18, gust of wind, DC 16, hallucinatory terrain, DC 18
+- 3/day: detect thoughts (DC 16), entangle (DC 15), invisibility, self only
+- 1/day: call lightning (DC 17), confusion (DC 18), gust of wind (DC 16), hallucinatory terrain (DC
+  18)
 
 **Statistics**
 

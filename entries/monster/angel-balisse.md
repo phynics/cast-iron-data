@@ -90,12 +90,12 @@ individual with shining eyes._
 
 **At will:**
 
-- aid, dispel evil, DC 19, dispel magic, holy smite, DC 18, invisibility, self only, plane shift,
+- aid, dispel evil (DC 19), dispel magic, holy smite (DC 18), invisibility, self only, plane shift,
   self only, remove curse, remove disease, remove fear
 
 **Per day:**
 
-- 3/day: cure serious wounds, hold person, DC 16
+- 3/day: cure serious wounds, hold person (DC 16)
 - 1/day: atonement, mark of justice
 
 **Statistics**

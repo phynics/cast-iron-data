@@ -109,11 +109,11 @@ rot \[DC 26\])
 
 **At will:**
 
-- contagion, DC 19, dimension door, ghoul hunger, DC 18, inflict critical wounds, DC 20
+- contagion (DC 19), dimension door, ghoul hunger (DC 18), inflict critical wounds (DC 20)
 
 **Per day:**
 
-- 1/day: animate dead, create undead, eyebite, DC 22, plane shift
+- 1/day: animate dead, create undead, eyebite (DC 22), plane shift
 
 **Statistics**
 

@@ -84,7 +84,7 @@ unseen light._
 
 **Per day:**
 
-- 3/day: hypnotism, DC 12, remove sickness, sanctuary, DC 12
+- 3/day: hypnotism (DC 12), remove sickness, sanctuary (DC 12)
 - 1/day: neutralize poison, remove disease
 
 **Statistics**

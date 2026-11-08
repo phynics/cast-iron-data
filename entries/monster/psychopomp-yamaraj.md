@@ -96,18 +96,18 @@ slap +30 (2d6+4), 2 wings +30 (1d8+4)
 
 **Constant:**
 
-- detect thoughts, DC 22, mage armor, true seeing
+- detect thoughts (DC 22), mage armor, true seeing
 
 **At will:**
 
 - greater dispel magic, greater teleport, self plus 50 lbs. of objects only, reincarnate, rest
-  eternal, scrying, share language, telekinesis, DC 25, tongues
+  eternal, scrying, share language, telekinesis (DC 25), tongues
 
 **Per day:**
 
-- 3/day: circle of death, DC 26, forcecage, DC 27, miracle, DC 29; see final judgment, &Q lightning
-  bolt, DC 23, undeath to death, DC 26
-- 1/day: soul bind, &S level 9; any one CR 19 or lower psychopomp 100%, wail of the banshee, DC 29
+- 3/day: circle of death (DC 26), forcecage (DC 27), miracle, DC 29; see final judgment, &Q
+  lightning bolt (DC 23), undeath to death (DC 26)
+- 1/day: soul bind, &S level 9; any one CR 19 or lower psychopomp 100%, wail of the banshee (DC 29)
 
 **Statistics**
 

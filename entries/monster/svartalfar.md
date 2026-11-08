@@ -86,12 +86,12 @@ sword._
 
 **At will:**
 
-- chill touch, DC 16, corrosive touch
+- chill touch (DC 16), corrosive touch
 
 **Per day:**
 
 - 3/day: frigid touch, shadow step, vanish
-- 1/day: force punch, DC 18, greater invisibility, ray of exhaustion, DC 18
+- 1/day: force punch (DC 18), greater invisibility, ray of exhaustion (DC 18)
 
 **Statistics**
 

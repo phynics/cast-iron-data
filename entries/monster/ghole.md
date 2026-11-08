@@ -88,7 +88,7 @@ visage._
 
 **Per day:**
 
-- 3/day: ghoul touch, DC 15, hide from undead
+- 3/day: ghoul touch (DC 15), hide from undead
 - 1/day: haste
 
 **Statistics**

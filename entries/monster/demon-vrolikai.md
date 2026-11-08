@@ -94,14 +94,14 @@ knives +29 (1d6+6/19-20 plus energy drain), bite +23 (1d8+5), sting +23 (1d6+5 p
 
 **At will:**
 
-- deeper darkness, enervation, greater teleport, self plus 50 lbs. of objects only, telekinesis, DC
-  23
+- deeper darkness, enervation, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC
+  23)
 
 **Per day:**
 
-- 3/day: &Q enervation, regenerate, silence, DC 20, vampiric touch
-- 1/day: mass hold monster, DC 27, &S level 6; 1 marilith 50% or 1d4 glabrezus 75%, symbol of death,
-  DC 26
+- 3/day: &Q enervation, regenerate, silence (DC 20), vampiric touch
+- 1/day: mass hold monster (DC 27), &S level 6; 1 marilith 50% or 1d4 glabrezus 75%, symbol of death
+  (DC 26)
 
 **Statistics**
 

@@ -89,11 +89,11 @@ appendage dangles._
 
 **At will:**
 
-- cure serious wounds, gentle repose, inflict serious wounds, DC 17, sanctuary, DC 15
+- cure serious wounds, gentle repose, inflict serious wounds (DC 17), sanctuary (DC 15)
 
 **Per day:**
 
-- 3/day: restoration, slay living, DC 19
+- 3/day: restoration, slay living (DC 19)
 - 1/day: raise dead
 
 **Statistics**

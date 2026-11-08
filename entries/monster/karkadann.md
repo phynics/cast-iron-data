@@ -84,8 +84,8 @@ _A single wicked horn grows from the forehead of this stocky, oryx-like creature
 
 **Per day:**
 
-- 3/day: cause fear, DC 16
-- 1/day: dimension door, neutralize poison, DC 19
+- 3/day: cause fear (DC 16)
+- 1/day: dimension door, neutralize poison (DC 19)
 
 **Statistics**
 

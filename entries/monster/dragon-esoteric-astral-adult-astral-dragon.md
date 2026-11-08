@@ -112,15 +112,16 @@ abilities = ["27", "12", "20", "21", "20", "16"]
 
 **2nd-level spells:**
 
-- 7/day: blur, hideous laughter, DC 17, locate object
+- 7/day: blur, hideous laughter (DC 17), locate object
 
 **1st-level spells:**
 
-- 8/day: burst of insight, feather fall, sundering shards, DC 16, true strike, unwitting ally, DC 16
+- 8/day: burst of insight, feather fall, sundering shards (DC 16), true strike, unwitting ally (DC
+  16)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 15, detect magic, detect poison, mage hand, message, open/close
+- At will: dancing lights, daze (DC 15), detect magic, detect poison, mage hand, message, open/close
 
 **Statistics**
 

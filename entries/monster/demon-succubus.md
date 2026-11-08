@@ -86,12 +86,12 @@ _Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of thi
 
 **At will:**
 
-- charm monster, DC 22, detect thoughts, DC 20, ethereal jaunt, self plus 50 lbs. of objects only,
-  suggestion, DC 21, greater teleport, self plus 50 lbs. of objects only, vampiric touch
+- charm monster (DC 22), detect thoughts (DC 20), ethereal jaunt, self plus 50 lbs. of objects only,
+  suggestion (DC 21), greater teleport, self plus 50 lbs. of objects only, vampiric touch
 
 **Per day:**
 
-- 1/day: dominate person, DC 23, &S level 3; 1 babau 50%
+- 1/day: dominate person (DC 23), &S level 3; 1 babau 50%
 
 **Statistics**
 

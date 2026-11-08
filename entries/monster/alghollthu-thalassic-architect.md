@@ -95,13 +95,13 @@ claws, flank its fanged jaws._
 
 **At will:**
 
-- detect magic, detect thoughts, DC 16, hydraulic torrent, project image, DC 21, telekinesis
+- detect magic, detect thoughts (DC 16), hydraulic torrent, project image (DC 21), telekinesis
 
 **Per day:**
 
-- 3/day: illusory wall, DC 18, mirage arcana, DC 19, &Q hydraulic torrent, stone shape, wall of
+- 3/day: illusory wall (DC 18), mirage arcana (DC 19), &Q hydraulic torrent, stone shape, wall of
   force
-- 1/day: disintegrate, DC 20, fabricate, make whole, move earth
+- 1/day: disintegrate (DC 20), fabricate, make whole, move earth
 
 **Statistics**
 

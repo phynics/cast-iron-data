@@ -97,16 +97,16 @@ dart from the creature's mouth._
 
 **Constant:**
 
-- blur, true seeing, unholy aura, DC 24
+- blur, true seeing, unholy aura (DC 24)
 
 **At will:**
 
-- blistering invective, DC 18, dispel good, DC 21, fire shield, mass charm monster, creatures of the
-  fire subtype only; DC 24
+- blistering invective (DC 18), dispel good (DC 21), fire shield, mass charm monster, creatures of
+  the fire subtype only; DC 24
 
 **Per day:**
 
-- 3/day: &EM fire storm, DC 24, incendiary cloud, DC 24, &Q contagious flame, sirocco, DC 22
+- 3/day: &EM fire storm (DC 24), incendiary cloud (DC 24), &Q contagious flame, sirocco (DC 22)
 - 1/day: &S level 9; 2 fiendish elder fire elementals or any daemon of 20 Hit Dice or fewer 100%
 
 **Statistics**

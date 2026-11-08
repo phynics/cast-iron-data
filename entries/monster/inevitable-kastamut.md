@@ -85,14 +85,14 @@ strange steel alloy. Its eyes glow with a piercing white light._
 
 **At will:**
 
-- bane, DC 13, command, DC 13, forbid action, DC 13, litany of sloth, DC 13
+- bane (DC 13), command (DC 13), forbid action (DC 13), litany of sloth (DC 13)
 
 **Per day:**
 
-- 5/day: litany of weakness, DC 13
-- 3/day: divine favor, enthrall, DC 14, litany of entanglement, DC 15, protection from chaos, DC 13,
-  zone of truth, DC 14
-- 1/day: bestow curse, DC 15, litany of vengeance, DC 17, terrible remorse, DC 16
+- 5/day: litany of weakness (DC 13)
+- 3/day: divine favor, enthrall (DC 14), litany of entanglement (DC 15), protection from chaos (DC
+  13), zone of truth (DC 14)
+- 1/day: bestow curse (DC 15), litany of vengeance (DC 17), terrible remorse (DC 16)
 
 **Per week:**
 

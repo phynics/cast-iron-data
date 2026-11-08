@@ -80,11 +80,11 @@ eyes suggest insanity._
 
 **At will:**
 
-- murderous command, DC 16, polypurpose panacea, rage
+- murderous command (DC 16), polypurpose panacea, rage
 
 **Per day:**
 
-- 3/day: bull's strength, charm monster, DC 19, mad hallucination, DC 17, vampiric touch
+- 3/day: bull's strength, charm monster (DC 19), mad hallucination (DC 17), vampiric touch
 
 **Statistics**
 

@@ -79,11 +79,11 @@ different color._
 
 **1st-level spells:**
 
-- hypnotism, DC 14, sleep, DC 14
+- hypnotism (DC 14), sleep (DC 14)
 
 **Cantrips:**
 
-- daze, DC 13, light, touch of fatigue, DC 13
+- daze (DC 13), light, touch of fatigue (DC 13)
 
 **Patron**
 

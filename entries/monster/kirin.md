@@ -103,7 +103,7 @@ grace._
 
 **3rd-level spells:**
 
-- 4/day: lightning bolt, DC 19
+- 4/day: lightning bolt (DC 19)
 
 **2nd-level spells:**
 
@@ -111,7 +111,7 @@ grace._
 
 **1st-level spells:**
 
-- 8/day: color spray, DC 17, cure light wounds, disguise self, remove fear, sanctuary, DC 17
+- 8/day: color spray (DC 17), cure light wounds, disguise self, remove fear, sanctuary (DC 17)
 
 **Cantrips:**
 

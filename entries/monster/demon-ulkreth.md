@@ -100,7 +100,7 @@ back._
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, shatter, DC 14
+- greater teleport, self plus 50 lbs. of objects only, shatter (DC 14)
 
 **Per day:**
 

@@ -108,13 +108,13 @@ mind-affecting effects, paralysis, petrification
 
 **At will:**
 
-- astral projection, dimension door, dream, greater dispel magic, insanity, DC 29, nightmare, DC 27,
-  sending
+- astral projection, dimension door, dream, greater dispel magic, insanity (DC 29), nightmare (DC
+  27), sending
 
 **Per day:**
 
-- 3/day: demand, DC 30, &Q feeblemind, DC 27, hungry pit, DC 27, power word stun
-- 1/day: maze, weird, DC 31, wish
+- 3/day: demand (DC 30), &Q feeblemind (DC 27), hungry pit (DC 27), power word stun
+- 1/day: maze, weird (DC 31), wish
 
 **Spells Known**
 
@@ -124,15 +124,15 @@ mind-affecting effects, paralysis, petrification
 
 **9th-level spells:**
 
-- 7/day: imprisonment, DC 31, time stop
+- 7/day: imprisonment (DC 31), time stop
 
 **8th-level spells:**
 
-- 8/day: polymorph any object, DC 30, prismatic wall, DC 30
+- 8/day: polymorph any object (DC 30), prismatic wall (DC 30)
 
 **7th-level spells:**
 
-- 8/day: greater teleport, word of chaos, DC 29
+- 8/day: greater teleport, word of chaos (DC 29)
 
 **6th-level spells:**
 
@@ -140,7 +140,7 @@ mind-affecting effects, paralysis, petrification
 
 **5th-level spells:**
 
-- 8/day: dominate person, DC 27, wall of force
+- 8/day: dominate person (DC 27), wall of force
 
 **4th-level spells:**
 
@@ -152,15 +152,15 @@ mind-affecting effects, paralysis, petrification
 
 **2nd-level spells:**
 
-- 9/day: command undead, DC 24, invisibility
+- 9/day: command undead (DC 24), invisibility
 
 **1st-level spells:**
 
-- 9/day: mage armor, reduce person, DC 23
+- 9/day: mage armor, reduce person (DC 23)
 
 **Cantrips:**
 
-- At will: arcane mark, bleed, dancing lights, detect magic, ghost sound, DC 22, prestidigitation
+- At will: arcane mark, bleed, dancing lights, detect magic, ghost sound (DC 22), prestidigitation
 
 **Statistics**
 

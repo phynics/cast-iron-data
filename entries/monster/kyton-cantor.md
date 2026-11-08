@@ -82,7 +82,7 @@ musculature. Its eyes burn with a red glow._
 
 **Per day:**
 
-- 3/day: ego whip I, DC 16, nightmare, DC 18, paranoia, DC 15
+- 3/day: ego whip I (DC 16), nightmare (DC 18), paranoia (DC 15)
 - 1/day: shadow body
 
 **Statistics**

@@ -115,13 +115,13 @@ mind-affecting effects, paralysis, petrification, poison
 **At will:**
 
 - clairaudience/clairvoyance, dimension door (mythic spell), dream (mythic spell), greater dispel
-  magic, nightmare (mythic spell), statue, DC 26, sympathetic vibration
+  magic, nightmare (mythic spell), statue (DC 26), sympathetic vibration
 
 **Per day:**
 
-- 3/day: demand, DC 27, &Q feeblemind, DC 24, &Q flesh to stone (mythic spell), DC 25, stone to
+- 3/day: demand (DC 27), &Q feeblemind (DC 24), &Q flesh to stone (mythic spell) (DC 25), stone to
   flesh
-- 1/day: earthquake (mythic spell), imprisonment, DC 28, symbol of strife, DC 28
+- 1/day: earthquake (mythic spell), imprisonment (DC 28), symbol of strife (DC 28)
 
 ###### M {#footnote-m}
 

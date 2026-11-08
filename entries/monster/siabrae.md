@@ -103,21 +103,21 @@ and its eyes are polished white orbs._
 
 **7th-level spells:**
 
-- &Q contagion, DC 20, transmute rock to mud, wall of stone (domain spell)
+- &Q contagion (DC 20), transmute rock to mud, wall of stone (domain spell)
 
 **4th-level spells:**
 
-- blight, DC 21, dispel magic, freedom of movement, &EX greater magic fang, call lightning, DC 20,
-  contagion, DC 20, meld into stone, poison, DC 20, &EX spider climb, soften earth and stone (domain
-  spell), tree shape
+- blight (DC 21), dispel magic, freedom of movement, &EX greater magic fang, call lightning (DC 20),
+  contagion (DC 20), meld into stone, poison (DC 20), &EX spider climb, soften earth and stone
+  (domain spell), tree shape
 
 **1st-level spells:**
 
-- entangle, 2, DC 18, faerie fire, magic stone (domain spell), obscuring mist, produce flame, 2
+- entangle (2, DC 18), faerie fire, magic stone (domain spell), obscuring mist, produce flame, 2
 
 **Cantrips:**
 
-- detect magic, flare, DC 17, guidance, light
+- detect magic, flare (DC 17), guidance, light
 
 **Domain**
 

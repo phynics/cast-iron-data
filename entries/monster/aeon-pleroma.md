@@ -91,14 +91,14 @@ encompassed all the night sky._
 
 **At will:**
 
-- create food and water, mending, rusting grasp, DC 21, stone shape, wood shape, DC 19
+- create food and water, mending, rusting grasp (DC 21), stone shape, wood shape (DC 19)
 
 **Per day:**
 
-- 7/day: fabricate, plant growth, sculpt sound, shout, DC 21
+- 7/day: fabricate, plant growth, sculpt sound, shout (DC 21)
 - 5/day: break enchantment, daylight, deeper darkness, freedom of movement, major creation
-- 3/day: disintegrate, DC 23, horrid wilting, DC 25
-- 1/day: mage's disjunction, DC 26, wish, DC 26
+- 3/day: disintegrate (DC 23), horrid wilting (DC 25)
+- 1/day: mage's disjunction (DC 26), wish (DC 26)
 
 **Prepared Spells**
 
@@ -108,40 +108,40 @@ encompassed all the night sky._
 
 **9th-level spells:**
 
-- astral projection, gate, implosion, 3, DC 29
+- astral projection, gate, implosion (3, DC 29)
 
 **8th-level spells:**
 
-- cloak of chaos, DC 28, holy aura, DC 28, shield of law, DC 28, summon monster VIII, unholy aura,
-  DC 28
+- cloak of chaos (DC 28), holy aura (DC 28), shield of law (DC 28), summon monster VIII, unholy aura
+  (DC 28)
 
 **7th-level spells:**
 
-- blasphemy, DC 27, destruction, DC 27, dictum, DC 27, holy word, DC 27, word of chaos, DC 27
+- blasphemy (DC 27), destruction (DC 27), dictum (DC 27), holy word (DC 27), word of chaos (DC 27)
 
 **6th-level spells:**
 
-- banishment, DC 26, forbiddance, DC 26, geas, legend lore, repulsion, DC 26, veil, DC 26
+- banishment (DC 26), forbiddance (DC 26), geas, legend lore, repulsion (DC 26), veil (DC 26)
 
 **5th-level spells:**
 
-- contact other plane, dispel chaos, DC 25, dispel evil, DC 25, dispel good, DC 25, dispel law, DC
-  25, teleport
+- contact other plane, dispel chaos (DC 25), dispel evil (DC 25), dispel good (DC 25), dispel law
+  (DC 25), teleport
 
 **4th-level spells:**
 
-- chaos hammer, DC 24, holy smite, DC 24, order's wrath, DC 21, restoration, scrying, DC 24, unholy
-  blight, DC 24
+- chaos hammer (DC 24), holy smite (DC 24), order's wrath (DC 21), restoration, scrying (DC 24),
+  unholy blight (DC 24)
 
 **3rd-level spells:**
 
 - clairaudience/clairvoyance, magic circle against chaos, magic circle against evil, magic circle
-  against good, magic circle against law, suggestion, DC 23
+  against good, magic circle against law, suggestion (DC 23)
 
 **2nd-level spells:**
 
-- align weapon, detect thoughts, DC 22, enthrall, DC 22, make whole, see invisibility, undetectable
-  alignment, zone of truth, DC 22
+- align weapon, detect thoughts (DC 22), enthrall (DC 22), make whole, see invisibility,
+  undetectable alignment, zone of truth (DC 22)
 
 **1st-level spells:**
 

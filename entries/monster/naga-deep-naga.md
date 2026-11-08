@@ -87,15 +87,15 @@ every 1d4 rounds
 
 **4th-level spells:**
 
-- 6/day: bestow curse, DC 17, cure serious wounds, illusory wall, DC 17
+- 6/day: bestow curse (DC 17), cure serious wounds, illusory wall (DC 17)
 
 **3rd-level spells:**
 
-- 7/day: aversion, DC 16, dispel magic, greater magic fang, snare
+- 7/day: aversion (DC 16), dispel magic, greater magic fang, snare
 
 **2nd-level spells:**
 
-- 7/day: barkskin, false life, resist energy, scare, DC 15, web, DC 15
+- 7/day: barkskin, false life, resist energy, scare (DC 15), web (DC 15)
 
 **1st-level spells:**
 
@@ -103,7 +103,7 @@ every 1d4 rounds
 
 **Cantrips:**
 
-- At will: bleed, DC 13, detect magic, ghost sound, DC 13, guidance, mage hand, open/close, read
+- At will: bleed (DC 13), detect magic, ghost sound (DC 13), guidance, mage hand, open/close, read
   magic, resistance, virtue
 
 **Statistics**

@@ -91,11 +91,11 @@ _This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, s
 
 **At will:**
 
-- cause fear, DC 12, detect magic, ray of enfeeblement, DC 12, read magic
+- cause fear (DC 12), detect magic, ray of enfeeblement (DC 12), read magic
 
 **Per day:**
 
-- 3/day: charm animal, DC 12, invisibility, self only
+- 3/day: charm animal (DC 12), invisibility, self only
 - 1/day: rage, waters of Lamashtu
 
 **Statistics**

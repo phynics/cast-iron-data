@@ -92,16 +92,16 @@ revealing flesh of black stone._
 
 **At will:**
 
-- dimension door, fear, DC 21, greater command, DC 22, greater dispel magic, mass inflict light
-  wounds, DC 22, locate creature
+- dimension door, fear (DC 21), greater command (DC 22), greater dispel magic, mass inflict light
+  wounds (DC 22), locate creature
 
 **Per day:**
 
-- 1/day: chain lightning, DC 23, circle of death, DC 23, mark of justice, wall of force
+- 1/day: chain lightning (DC 23), circle of death (DC 23), mark of justice, wall of force
 
 **Per week:**
 
-- earthquake, DC 25, geas/quest, plane shift, DC 22
+- earthquake (DC 25), geas/quest, plane shift (DC 22)
 
 **Statistics**
 

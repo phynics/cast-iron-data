@@ -89,7 +89,7 @@ vortex of mist and wind._
 
 - 1/day: create food and water, !_create wine_, as [create water](ref/spell/create-water) but wine
   instead, gaseous form, for up to 1 hour, major creation, created vegetable matter is permanent,
-  persistent image, DC 17, wind walk
+  persistent image (DC 17), wind walk
 
 **Statistics**
 

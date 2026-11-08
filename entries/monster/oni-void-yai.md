@@ -103,9 +103,9 @@ champion of countless wars._
 
 **Per day:**
 
-- 3/day: cone of cold, DC 22, demand, DC 25, dominate person, DC 22, major creation, mass charm
-  monster, DC 25, polar ray, teleport object, DC 24
-- 1/day: implosion, DC 26, plane shift, DC 24
+- 3/day: cone of cold (DC 22), demand (DC 25), dominate person (DC 22), major creation, mass charm
+  monster (DC 25), polar ray, teleport object (DC 24)
+- 1/day: implosion (DC 26), plane shift (DC 24)
 
 **Statistics**
 

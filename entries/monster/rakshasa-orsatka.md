@@ -92,7 +92,7 @@ many knuckles._
 **Per day:**
 
 - 3/day: dispel magic, magic circle against good
-- 1/day: true form, DC 18
+- 1/day: true form (DC 18)
 
 **Statistics**
 

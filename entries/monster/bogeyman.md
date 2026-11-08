@@ -85,12 +85,12 @@ aura of horror._
 
 **At will:**
 
-- darkness, gaseous form, ghost sound, DC 17, invisibility, suggestion, DC 20
+- darkness, gaseous form, ghost sound (DC 17), invisibility, suggestion (DC 20)
 
 **Per day:**
 
-- 3/day: crushing despair, DC 21, hold person, DC 20, &Q phantasmal killer, DC 21
-- 1/day: nightmare, DC 22
+- 3/day: crushing despair (DC 21), hold person (DC 20), &Q phantasmal killer (DC 21)
+- 1/day: nightmare (DC 22)
 
 **Statistics**
 

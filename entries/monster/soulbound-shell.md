@@ -78,27 +78,27 @@ _This white statue of a bald human is marbled with glowing green veins of energy
 
 **6th-level spells:**
 
-- beast shape IV, disintegrate, DC 21
+- beast shape IV, disintegrate (DC 21)
 
 **5th-level spells:**
 
-- cloudkill, 2, DC 22, dominate person, DC 21, passwall
+- cloudkill (2, DC 22), dominate person (DC 21), passwall
 
 **4th-level spells:**
 
-- black tentacles, 2, fire shield, shout, DC 19
+- black tentacles, 2, fire shield, shout (DC 19)
 
 **3rd-level spells:**
 
-- fly, lightning bolt, 2, DC 18, stinking cloud, 2, DC 20
+- fly, lightning bolt (2, DC 18), stinking cloud (2, DC 20)
 
 **2nd-level spells:**
 
-- false life, already cast, glitterdust, DC 19, hideous laughter, DC 18, make whole, mirror image
+- false life, already cast, glitterdust (DC 19), hideous laughter (DC 18), make whole, mirror image
 
 **1st-level spells:**
 
-- charm person, 2, DC 17, expeditious retreat, grease, DC 18, mage armor, already cast, unseen
+- charm person (2, DC 17), expeditious retreat, grease (DC 18), mage armor, already cast, unseen
   servant
 
 **Cantrips:**

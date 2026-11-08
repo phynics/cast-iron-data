@@ -89,11 +89,11 @@ _This oversized humanoid is dressed in tattered rags that don't quite cover its 
 
 **At will:**
 
-- contagion, DC 17, death knell, DC 15
+- contagion (DC 17), death knell (DC 15)
 
 **Per day:**
 
-- 3/day: plague carrier, DC 18, plague storm, DC 20, wither limb, DC 19
+- 3/day: plague carrier (DC 18), plague storm (DC 20), wither limb (DC 19)
 - 1/day: &S level 6; 1 tick swarm 100%
 
 **Statistics**

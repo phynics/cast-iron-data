@@ -89,7 +89,7 @@ creature's head._
 
 **Per day:**
 
-- 1/day: see invisibility, suggestion, DC 15, unholy blight, DC 16
+- 1/day: see invisibility, suggestion (DC 15), unholy blight (DC 16)
 
 **Statistics**
 

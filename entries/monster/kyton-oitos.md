@@ -87,12 +87,12 @@ skirt adorned with gold pendants._
 **At will:**
 
 - deeper darkness, plane shift, between the Material Plane, Shadow Plane, and evil-aligned planes
-  only; lawful creatures only, speak with dead, DC 18
+  only; lawful creatures only, speak with dead (DC 18)
 
 **Per day:**
 
-- 3/day: charm monster, DC 19, dimensional anchor, fabricate, shadow walk
-- 1/day: eyebite, DC 21, summon monster V, evil creatures only
+- 3/day: charm monster (DC 19), dimensional anchor, fabricate, shadow walk
+- 1/day: eyebite (DC 21), summon monster V, evil creatures only
 
 **Statistics**
 

@@ -79,11 +79,11 @@ or incorporeal touch +10 (1d4 [Con damage](ref/rule/ability-damage-drain))
 
 **At will:**
 
-- bleed, ghost sound, DC 14
+- bleed, ghost sound (DC 14)
 
 **Per day:**
 
-- 3/day: alter self, charm person, DC 15
+- 3/day: alter self, charm person (DC 15)
 
 **Statistics**
 

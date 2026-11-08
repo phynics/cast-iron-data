@@ -80,7 +80,7 @@ hand._
 
 **At will:**
 
-- daze, DC 13, produce flame
+- daze (DC 13), produce flame
 
 **Per month:**
 

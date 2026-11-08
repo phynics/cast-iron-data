@@ -91,7 +91,7 @@ almost touch the ground._
 
 **Per day:**
 
-- 1/day: ray of exhaustion, DC 15, touch of idiocy
+- 1/day: ray of exhaustion (DC 15), touch of idiocy
 
 **Statistics**
 

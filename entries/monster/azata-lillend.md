@@ -84,8 +84,8 @@ from the waist down._
 
 **Per day:**
 
-- 3/day: darkness, hallucinatory terrain, DC 18, knock, light
-- 1/day: charm person, DC 15, speak with animals, speak with plants
+- 3/day: darkness, hallucinatory terrain (DC 18), knock, light
+- 1/day: charm person (DC 15), speak with animals, speak with plants
 
 **Spells Known**
 
@@ -93,19 +93,19 @@ from the waist down._
 
 **3rd-level spells:**
 
-- 2/day: charm monster, DC 17, cure serious wounds
+- 2/day: charm monster (DC 17), cure serious wounds
 
 **2nd-level spells:**
 
-- 4/day: hold person, DC 16, invisibility, sound burst, DC 16, suggestion, DC 16
+- 4/day: hold person (DC 16), invisibility, sound burst (DC 16), suggestion (DC 16)
 
 **1st-level spells:**
 
-- 5/day: charm person, DC 15, cure light wounds, identify, sleep, DC 15
+- 5/day: charm person (DC 15), cure light wounds, identify, sleep (DC 15)
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 14, detect magic, lullaby, DC 14, mage hand, read magic
+- At will: dancing lights, daze (DC 14), detect magic, lullaby (DC 14), mage hand, read magic
 
 **Statistics**
 

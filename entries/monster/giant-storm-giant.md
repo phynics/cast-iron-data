@@ -88,7 +88,7 @@ sparkling green eyes._
 **Per day:**
 
 - 2/day: control weather, levitate
-- 1/day: call lightning, DC 15, chain lightning, DC 18
+- 1/day: call lightning (DC 15), chain lightning (DC 18)
 
 **Statistics**
 

@@ -90,11 +90,11 @@ _This beautiful albino woman is wreathed in wings of brilliant flame._
 
 **At will:**
 
-- aid, flame jump, pyrotechnics, DC 20, scorching ray
+- aid, flame jump, pyrotechnics (DC 20), scorching ray
 
 **Per day:**
 
-- 3/day: fireball, DC 21, flame strike, DC 23, wall of fire
+- 3/day: fireball (DC 21), flame strike (DC 23), wall of fire
 
 **Statistics**
 

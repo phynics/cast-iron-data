@@ -99,17 +99,17 @@ hooves +43 (1d4+6 plus 1d6 fire and burn), 2 wings +43 (1d4+6)
 
 **Constant:**
 
-- detect good, detect law, freedom of movement, tongues, true seeing, unholy aura, DC 33
+- detect good, detect law, freedom of movement, tongues, true seeing, unholy aura (DC 33)
 
 **At will:**
 
-- astral projection, blasphemy, DC 32, chaos hammer, DC 29, deeper darkness, desecrate, greater
-  dispel magic, greater teleport, power word blind, telekinesis, DC 30, shapechange, unhallow
+- astral projection, blasphemy (DC 32), chaos hammer (DC 29), deeper darkness, desecrate, greater
+  dispel magic, greater teleport, power word blind, telekinesis (DC 30), shapechange, unhallow
 
 **Per day:**
 
-- 3/day: finger of death, DC 32, &Q mass suggestion, DC 31, summon demons, symbol of death, DC 33
-- 1/day: soul bind, DC 34, time stop, wail of the banshee, DC 34
+- 3/day: finger of death (DC 32), &Q mass suggestion (DC 31), summon demons, symbol of death (DC 33)
+- 1/day: soul bind (DC 34), time stop, wail of the banshee (DC 34)
 
 **Statistics**
 

@@ -100,7 +100,8 @@ good, Strength damage
 
 **Per day:**
 
-- 3/day: align weapon, darkness, death knell, DC 17, poison, ray of enfeeblement, DC 17, unholy aura
+- 3/day: align weapon, darkness, death knell (DC 17), poison, ray of enfeeblement (DC 17), unholy
+  aura
 - 1/day: blasphemy, contagion, desecrate, horrid wilting, unhallow, unholy blight
 
 **Prepared Spells**
@@ -111,25 +112,25 @@ good, Strength damage
 
 **4th-level spells:**
 
-- dismissal, DC 21, divine power, inflict critical wounds, DC 21, summon monster IV
+- dismissal (DC 21), divine power, inflict critical wounds (DC 21), summon monster IV
 
 **3rd-level spells:**
 
-- bestow curse, DC 20, contagion, DC 20, deeper darkness, magic circle against good, protection from
-  energy, summon monster III
+- bestow curse (DC 20), contagion (DC 20), deeper darkness, magic circle against good, protection
+  from energy, summon monster III
 
 **2nd-level spells:**
 
-- augury, bull's strength, enthrall, DC 19, lesser restoration, spiritual weapon, summon monster II,
-  2
+- augury, bull's strength, enthrall (DC 19), lesser restoration, spiritual weapon, summon monster
+  II, 2
 
 **1st-level spells:**
 
-- bless, cause fear, DC 18, command, DC 18, divine favor, shield of faith, summon monster I, 2
+- bless, cause fear (DC 18), command (DC 18), divine favor, shield of faith, summon monster I, 2
 
 **Cantrips:**
 
-- bleed, DC 17, detect magic, guidance, read magic, resistance
+- bleed (DC 17), detect magic, guidance, read magic, resistance
 
 **Statistics**
 

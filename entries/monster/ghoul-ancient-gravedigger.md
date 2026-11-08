@@ -83,30 +83,30 @@ cold, disease, and paralysis)
 
 **5th-level spells:**
 
-- 3/day: flame strike, DC 19, mass inflict light wounds, stoneskin
+- 3/day: flame strike (DC 19), mass inflict light wounds, stoneskin
 
 **4th-level spells:**
 
-- 6/day: divine power, inflict critical wounds, summon monster IV, wall of stone, DC 18
+- 6/day: divine power, inflict critical wounds, summon monster IV, wall of stone (DC 18)
 
 **3rd-level spells:**
 
-- 7/day: animate dead, blindness/deafness, DC 17, dispel magic, inflict serious wounds, meld into
+- 7/day: animate dead, blindness/deafness (DC 17), dispel magic, inflict serious wounds, meld into
   stone
 
 **2nd-level spells:**
 
-- 7/day: darkness, desecrate, hold person, DC 16, inflict moderate wounds, spiritual weapon, stone
+- 7/day: darkness, desecrate, hold person (DC 16), inflict moderate wounds, spiritual weapon, stone
   call
 
 **1st-level spells:**
 
-- 7/day: command, DC 15, entropic shield, inflict light wounds, liberating command, magic stone,
+- 7/day: command (DC 15), entropic shield, inflict light wounds, liberating command, magic stone,
   obscuring mist, shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 14, create water, detect magic, detect poison, guidance, mending, read magic,
+- At will: bleed (DC 14), create water, detect magic, detect poison, guidance, mending, read magic,
   resistance, spark
 
 **Mystery**

@@ -99,33 +99,33 @@ a brain floating in thick green fluid._
 
 **6th-level spells:**
 
-- 4/day: disintegrate, DC 21
+- 4/day: disintegrate (DC 21)
 
 **5th-level spells:**
 
-- 6/day: sending, suffocation, DC 22
+- 6/day: sending, suffocation (DC 22)
 
 **4th-level spells:**
 
-- 8/day: confusion, DC 19, contagion, DC 21, dimension door
+- 8/day: confusion (DC 19), contagion (DC 21), dimension door
 
 **3rd-level spells:**
 
-- 8/day: clairaudience/clairvoyance, dispel magic, slow, DC 18, vampiric touch
+- 8/day: clairaudience/clairvoyance, dispel magic, slow (DC 18), vampiric touch
 
 **2nd-level spells:**
 
-- 8/day: detect thoughts, DC 17, ghoul touch, DC 19, mirror image, scorching ray, spectral hand
+- 8/day: detect thoughts (DC 17), ghoul touch (DC 19), mirror image, scorching ray, spectral hand
 
 **1st-level spells:**
 
-- 8/day: chill touch, DC 18, magic missile, ray of enfeeblement, DC 18, shocking grasp, unseen
+- 8/day: chill touch (DC 18), magic missile, ray of enfeeblement (DC 18), shocking grasp, unseen
   servant
 
 **Cantrips:**
 
-- At will: acid splash, detect magic, flare, DC 15, ghost sound, DC 15, mage hand, open/close,
-  prestidigitation, read magic, touch of fatigue, DC 17
+- At will: acid splash, detect magic, flare (DC 15), ghost sound (DC 15), mage hand, open/close,
+  prestidigitation, read magic, touch of fatigue (DC 17)
 
 **Statistics**
 

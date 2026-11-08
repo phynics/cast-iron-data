@@ -102,11 +102,11 @@ abilities = ["30", "13", "24", "19", "18", "19"]
 
 **3rd-level spells:**
 
-- 5/day: dispel magic, slow, DC 17
+- 5/day: dispel magic, slow (DC 17)
 
 **2nd-level spells:**
 
-- 7/day: arcane lock, blur, detect thoughts, DC 16
+- 7/day: arcane lock, blur, detect thoughts (DC 16)
 
 **1st-level spells:**
 

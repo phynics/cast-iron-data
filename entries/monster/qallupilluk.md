@@ -90,7 +90,7 @@ a curiously sweet smell._
 
 **Per day:**
 
-- 3/day: charm animal, DC 13, charm person, DC 13, chill metal, DC 14, sleet storm
+- 3/day: charm animal (DC 13), charm person (DC 13), chill metal (DC 14), sleet storm
 - 1/day: commune with nature, divination
 
 **Statistics**

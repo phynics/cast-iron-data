@@ -92,13 +92,13 @@ present, or a possible future._
 
 **At will:**
 
-- dimension door, greater teleport, self plus 50 lbs. of objects only, haste, memory lapse, DC 14,
-  modify memory, DC 17, plane shift, self only
+- dimension door, greater teleport, self plus 50 lbs. of objects only, haste, memory lapse (DC 14),
+  modify memory (DC 17), plane shift, self only
 
 **Per day:**
 
-- 3/day: disintegrate, DC 19, sands of time, DC 16
-- 1/day: temporal stasis, DC 21, time stop
+- 3/day: disintegrate (DC 19), sands of time (DC 16)
+- 1/day: temporal stasis (DC 21), time stop
 
 **Statistics**
 

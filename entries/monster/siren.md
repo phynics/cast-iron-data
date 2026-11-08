@@ -76,7 +76,7 @@ _This creature has the body of a hawk and the head of a beautiful woman with lon
 
 **Per day:**
 
-- 3/day: cause fear, DC 16, charm person, DC 16, deep slumber, DC 18, shout, DC 19
+- 3/day: cause fear (DC 16), charm person (DC 16), deep slumber (DC 18), shout (DC 19)
 
 **Statistics**
 

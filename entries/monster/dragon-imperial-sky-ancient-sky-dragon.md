@@ -88,7 +88,8 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **At will:**
 
-- call lightning storm, DC 22, control winds, DC 22, detect evil, feather fall, gust of wind, DC 19
+- call lightning storm (DC 22), control winds (DC 22), detect evil, feather fall, gust of wind (DC
+  19)
 
 **Spells Known**
 
@@ -98,27 +99,27 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **7th-level spells:**
 
-- 5/day: forcecage, DC 24, mass hold person, DC 24
+- 5/day: forcecage (DC 24), mass hold person (DC 24)
 
 **6th-level spells:**
 
-- 7/day: acid fog, chain lightning, DC 23, legend lore
+- 7/day: acid fog, chain lightning (DC 23), legend lore
 
 **5th-level spells:**
 
-- 7/day: break enchantment, cloudkill, DC 22, dream, teleport
+- 7/day: break enchantment, cloudkill (DC 22), dream, teleport
 
 **4th-level spells:**
 
-- 7/day: dimension door, greater invisibility, ice storm, rainbow pattern, DC 21
+- 7/day: dimension door, greater invisibility, ice storm, rainbow pattern (DC 21)
 
 **3rd-level spells:**
 
-- 8/day: blink, lightning bolt, DC 20, sleet storm, DC 20, wind wall
+- 8/day: blink, lightning bolt (DC 20), sleet storm (DC 20), wind wall
 
 **2nd-level spells:**
 
-- 8/day: daze monster, DC 19, fog cloud, glitterdust, DC 19, invisibility, resist energy
+- 8/day: daze monster (DC 19), fog cloud, glitterdust (DC 19), invisibility, resist energy
 
 **1st-level spells:**
 
@@ -126,7 +127,7 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 17, detect magic, disrupt undead, mage hand, mending, message,
+- At will: dancing lights, daze (DC 17), detect magic, disrupt undead, mage hand, mending, message,
   ray of frost, read magic
 
 **Statistics**

@@ -113,8 +113,8 @@ electricity, energy drain, petrification
 
 **Per day:**
 
-- 3/day: break enchantment (mythic spell), breath of life (mythic spell), dimensional anchor, DC 19
-- 1/day: discern location, mage's disjunction (mythic spell), DC 24, time stop (mythic spell)
+- 3/day: break enchantment (mythic spell), breath of life (mythic spell), dimensional anchor (DC 19)
+- 1/day: discern location, mage's disjunction (mythic spell) (DC 24), time stop (mythic spell)
 
 **Prepared Spells**
 
@@ -128,35 +128,35 @@ electricity, energy drain, petrification
 
 **8th-level spells:**
 
-- control plants, DC 24, repel metal or stone, sunburst, DC 24, whirlwind, DC 24
+- control plants (DC 24), repel metal or stone, sunburst (DC 24), whirlwind (DC 24)
 
 **7th-level spells:**
 
-- control weather, creeping doom, DC 23, heal, sunbeam, DC 23
+- control weather, creeping doom (DC 23), heal, sunbeam (DC 23)
 
 **6th-level spells:**
 
-- antilife shell, greater dispel magic, 2, move earth, wall of stone, DC 22
+- antilife shell, greater dispel magic, 2, move earth, wall of stone (DC 22)
 
 **5th-level spells:**
 
-- atonement, baleful polymorph, DC 21, death ward, transmute rock to mud, wall of thorns
+- atonement, baleful polymorph (DC 21), death ward, transmute rock to mud, wall of thorns
 
 **4th-level spells:**
 
-- cure serious wounds, 2, freedom of movement, rusting grasp, true form, DC 20
+- cure serious wounds, 2, freedom of movement, rusting grasp, true form (DC 20)
 
 **3rd-level spells:**
 
-- call lightning, DC 19, cure moderate wounds, neutralize poison, 2, remove disease
+- call lightning (DC 19), cure moderate wounds, neutralize poison, 2, remove disease
 
 **2nd-level spells:**
 
-- chill metal, DC 18, fog cloud, heat metal, DC 18, lesser restoration, resist energy, 2
+- chill metal (DC 18), fog cloud, heat metal (DC 18), lesser restoration, resist energy, 2
 
 **1st-level spells:**
 
-- calm animals, DC 17, 2, cure light wounds, 2, pass without trace, 2
+- calm animals (DC 17), 2, cure light wounds, 2, pass without trace, 2
 
 **Cantrips:**
 

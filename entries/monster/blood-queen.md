@@ -95,10 +95,10 @@ arch from its hindquarters._
 
 **Per day:**
 
-- 5/day: cacophonous call, DC 25, deeper darkness, dispel good, DC 28, inflict critical wounds, DC
-  27
-- 3/day: greater command, DC 28
-- 1/day: mass suffocation, DC 32
+- 5/day: cacophonous call (DC 25), deeper darkness, dispel good (DC 28), inflict critical wounds (DC
+  27)
+- 3/day: greater command (DC 28)
+- 1/day: mass suffocation (DC 32)
 
 **Statistics**
 

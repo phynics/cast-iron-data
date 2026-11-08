@@ -86,7 +86,7 @@ and curious._
 
 **Per day:**
 
-- 3/day: bless, bless water, dancing lights, produce flame, protection from evil, sanctuary, DC 13,
+- 3/day: bless, bless water, dancing lights, produce flame, protection from evil, sanctuary (DC 13),
   unseen servant
 - 1/day: calm emotions, continual flame, gust of wind, pyrotechnics, whispering wind
 

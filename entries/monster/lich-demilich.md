@@ -88,7 +88,7 @@ dust and shimmering magic._
 
 **At will:**
 
-- greater bestow curse, DC 21, telekinesis, DC 20, wail of the banshee, 20-ft.-radius spread
+- greater bestow curse (DC 21), telekinesis (DC 20), wail of the banshee, 20-ft.-radius spread
   centered on the demilich; DC 24
 
 **Statistics**

@@ -77,11 +77,11 @@ _Barely knee-high, this small creature looks like a hairy old man with more bear
 
 **At will:**
 
-- invisibility, lullaby, DC 12, mage hand, mending, prestidigitation
+- invisibility, lullaby (DC 12), mage hand, mending, prestidigitation
 
 **Per day:**
 
-- 3/day: reduce person, DC 13, sleep, DC 13
+- 3/day: reduce person (DC 13), sleep (DC 13)
 
 **Per week:**
 

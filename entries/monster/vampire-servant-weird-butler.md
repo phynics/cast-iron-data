@@ -76,16 +76,16 @@ abilities = ["6", "16", "12", "13", "10", "18"]
 
 **2nd-level spells:**
 
-- 5/day: desecrate, false life, hold person, DC 16, inflict moderate wounds, DC 16
+- 5/day: desecrate, false life, hold person (DC 16), inflict moderate wounds (DC 16)
 
 **1st-level spells:**
 
-- 7/day: cause fear, DC 15, compel hostility, DC 15, cure light wounds, inflict light wounds, DC 15,
-  obscuring mist, shield of faith
+- 7/day: cause fear (DC 15), compel hostility (DC 15), cure light wounds, inflict light wounds (DC
+  15), obscuring mist, shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 14, detect magic, mending, resistance, stabilize, virtue
+- At will: bleed (DC 14), detect magic, mending, resistance, stabilize, virtue
 
 **Mystery**
 

@@ -88,15 +88,17 @@ _This creature has the body of a middle-aged human man and the pointed ears and 
 
 **At will:**
 
-- commune with nature, confusion, DC 23, crushing despair, DC 23, dancing lights, DC 19, divination,
-  fear, DC 21, good hope, mass suggestion, DC 25, mirage arcana, DC 24, persistent image, DC 24,
-  polymorph any object, DC 27, reckless infatuation, DC 22, waves of ecstasy, DC 26
+- commune with nature, confusion (DC 23), crushing despair (DC 23), dancing lights (DC 19),
+  divination, fear (DC 21), good hope, mass suggestion (DC 25), mirage arcana (DC 24), persistent
+  image (DC 24), polymorph any object (DC 27), reckless infatuation (DC 22), waves of ecstasy (DC
+  26)
 
 **Per day:**
 
-- 3/day: &Q greater heroism, vengeful outrage, DC 25
-- 1/day: cloak of dreams, DC 25, freedom, insanity, DC 26, mass charm monster, DC 27, plant growth,
-  reincarnate, &S level 9; 4d4 advanced dire tigers; 4d4 advanced maenads; or 2 storm giants 100%
+- 3/day: &Q greater heroism, vengeful outrage (DC 25)
+- 1/day: cloak of dreams (DC 25), freedom, insanity (DC 26), mass charm monster (DC 27), plant
+  growth, reincarnate, &S level 9; 4d4 advanced dire tigers; 4d4 advanced maenads; or 2 storm giants
+  100%
 
 **Statistics**
 

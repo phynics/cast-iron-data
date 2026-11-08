@@ -99,11 +99,11 @@ sting +21 (1d6+3 plus poison)
 
 **5th-level spells:**
 
-- baleful polymorph, DC 20, commune with nature (domain spell), cure critical wounds, stoneskin
+- baleful polymorph (DC 20), commune with nature (domain spell), cure critical wounds, stoneskin
 
 **4th-level spells:**
 
-- dispel magic, freedom of movement, giant vermin, rusting grasp (domain spell), scrying, DC 19
+- dispel magic, freedom of movement, giant vermin, rusting grasp (domain spell), scrying (DC 19)
 
 **3rd-level spells:**
 

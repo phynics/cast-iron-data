@@ -92,8 +92,8 @@ stinger._
 
 **Per day:**
 
-- 1/day: bestow curse, DC 16, blur, contagion, DC 16, diminish plants, gust of wind, hold monster,
-  DC 17
+- 1/day: bestow curse (DC 16), blur, contagion (DC 16), diminish plants, gust of wind, hold monster
+  (DC 17)
 
 **Statistics**
 

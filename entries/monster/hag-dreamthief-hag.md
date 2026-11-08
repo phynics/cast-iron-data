@@ -87,7 +87,7 @@ with green light._
 
 **At will:**
 
-- deep slumber, DC 18, etherealness, invisibility, magic missile
+- deep slumber (DC 18), etherealness, invisibility, magic missile
 
 **Psychic Magic**
 

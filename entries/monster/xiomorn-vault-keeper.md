@@ -89,12 +89,12 @@ with a fluid grace._
 
 **At will:**
 
-- dispel magic, greater teleport, self plus 50 lbs. of objects only, shatter, DC 19, statue, DC 24,
-  stone shape, stone tell
+- dispel magic, greater teleport, self plus 50 lbs. of objects only, shatter (DC 19), statue (DC
+  24), stone shape, stone tell
 
 **Per day:**
 
-- 3/day: command stone, DC 26, flesh to stone, DC 23, spike stones, DC 21, wall of stone
+- 3/day: command stone (DC 26), flesh to stone (DC 23), spike stones (DC 21), wall of stone
 - 1/day: summon monster VII, earth elementals only, symbol of scrying
 
 **Statistics**

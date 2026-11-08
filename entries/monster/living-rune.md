@@ -86,11 +86,11 @@ before finally assembling into an arcane symbol that flares with untold magical 
 
 **At will:**
 
-- arcane mark, illusory script, DC 18, telekinesis, sustained force only, DC 20
+- arcane mark, illusory script (DC 18), telekinesis (sustained force only, DC 20)
 
 **Per day:**
 
-- 3/day: explosive runes, DC 18, greater glyph of warding, DC 21, sepia snake sigil, DC 18
+- 3/day: explosive runes (DC 18), greater glyph of warding (DC 21), sepia snake sigil (DC 18)
 
 **Statistics**
 

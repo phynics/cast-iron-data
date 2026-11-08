@@ -103,13 +103,13 @@ dispelling), 2 incorporeal wings +24 (2d6), incorporeal tail slap +24 (2d8)
 
 **At will:**
 
-- animate dead, command undead, DC 18, desecrate, detect undead, protection from good
+- animate dead, command undead (DC 18), desecrate, detect undead, protection from good
 
 **Per day:**
 
-- 5/day: create undead, control undead, DC 23, unhallow, unholy blight, DC 20
-- 3/day: create greater undead, &Q finger of death, DC 23, waves of exhaustion
-- 1/day: energy drain, DC 25, soul bind, DC 25
+- 5/day: create undead, control undead (DC 23), unhallow, unholy blight (DC 20)
+- 3/day: create greater undead, &Q finger of death (DC 23), waves of exhaustion
+- 1/day: energy drain (DC 25), soul bind (DC 25)
 
 **Statistics**
 

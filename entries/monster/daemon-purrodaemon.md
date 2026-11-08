@@ -90,7 +90,7 @@ vulture-like head._
 
 **Constant:**
 
-- true seeing, unholy aura, DC 23
+- true seeing, unholy aura (DC 23)
 
 **At will:**
 
@@ -98,7 +98,7 @@ vulture-like head._
 
 **Per day:**
 
-- 3/day: chain lightning, DC 21, cone of cold, DC 20, flame strike, DC 20
+- 3/day: chain lightning (DC 21), cone of cold (DC 20), flame strike (DC 20)
 - 1/day: &S level 5; 2 [derghodaemons](ref/monster/daemon-derghodaemon) 50%
 
 **Statistics**

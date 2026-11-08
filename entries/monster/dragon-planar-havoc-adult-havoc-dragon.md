@@ -94,15 +94,15 @@ stirred by an unseen breeze._
 
 **3rd-level spells:**
 
-- 5/day: charm monster, DC 18, dispel magic
+- 5/day: charm monster (DC 18), dispel magic
 
 **2nd-level spells:**
 
-- 8/day: cure moderate wounds, grace, sound burst, DC 18
+- 8/day: cure moderate wounds, grace, sound burst (DC 18)
 
 **1st-level spells:**
 
-- 8/day: detect evil, divine favor, entropic shield, grease, DC 15, obscuring mist
+- 8/day: detect evil, divine favor, entropic shield, grease (DC 15), obscuring mist
 
 **Cantrips:**
 

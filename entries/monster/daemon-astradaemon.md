@@ -101,12 +101,12 @@ energy drain), tail slap +18 (1d12+2 plus energy drain)
 
 **At will:**
 
-- enervation, fear, DC 21, greater teleport, self plus 50 lbs. of objects only, vampiric touch
+- enervation, fear (DC 21), greater teleport, self plus 50 lbs. of objects only, vampiric touch
 
 **Per day:**
 
-- 3/day: locate creature, plane shift, DC 24
-- 1/day: energy drain, DC 24, finger of death, DC 24, &S level 6; 1d3
+- 3/day: locate creature, plane shift (DC 24)
+- 1/day: energy drain (DC 24), finger of death (DC 24), &S level 6; 1d3
   [derghodaemons](ref/monster/daemon-derghodaemon) 50%
 
 **Statistics**

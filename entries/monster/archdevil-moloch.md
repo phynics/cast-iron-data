@@ -109,19 +109,20 @@ burn)
 
 **Constant:**
 
-- air walk, detect chaos, detect good, mind blank, shield of law, DC 29, true seeing
+- air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
 
 **At will:**
 
-- astral projection, desecrate (mythic spell), dictum (mythic spell), DC 28, dominate person (mythic
-  spell), DC 26, fireball (mythic spell), DC 24, greater dispel magic, greater teleport, order's
-  wrath (mythic spell), DC 25, slow (mythic spell), DC 24, unhallow, wall of fire (mythic spell)
+- astral projection, desecrate (mythic spell), dictum (mythic spell) (DC 28), dominate person
+  (mythic spell) (DC 26), fireball (mythic spell) (DC 24), greater dispel magic, greater teleport,
+  order's wrath (mythic spell) (DC 25), slow (mythic spell) (DC 24), unhallow, wall of fire (mythic
+  spell)
 
 **Per day:**
 
-- 3/day: &Q blade barrier (mythic spell), DC 27, &EM fire storm, DC 29, mass charm monster, DC 29,
-  mass hold person, DC 28, summon devils
-- 1/day: meteor swarm (mythic spell), DC 30, time stop (mythic spell), wish (mythic spell)
+- 3/day: &Q blade barrier (mythic spell) (DC 27), &EM fire storm (DC 29), mass charm monster (DC
+  29), mass hold person (DC 28), summon devils
+- 1/day: meteor swarm (mythic spell) (DC 30), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

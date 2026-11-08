@@ -92,13 +92,13 @@ _This monstrous eel-like creature has jaws within jaws, each bearing transparent
 
 **At will:**
 
-- detect magic, detect thoughts, DC 19, dominate person, DC 22
+- detect magic, detect thoughts (DC 19), dominate person (DC 22)
 
 **Per day:**
 
-- 3/day: arcane eye, dominate monster, DC 26, geas/quest, DC 23, mind fog, DC 22, mirage arcana, DC
-  22
-- 1/day: astral projection, veil, DC 23
+- 3/day: arcane eye, dominate monster (DC 26), geas/quest (DC 23), mind fog (DC 22), mirage arcana
+  (DC 22)
+- 1/day: astral projection, veil (DC 23)
 
 **Spells Known**
 
@@ -108,27 +108,27 @@ _This monstrous eel-like creature has jaws within jaws, each bearing transparent
 
 **7th-level spells:**
 
-- 5/day: ectoplasmic eruption, DC 24, psychic crush III, DC 24
+- 5/day: ectoplasmic eruption (DC 24), psychic crush III (DC 24)
 
 **6th-level spells:**
 
-- 7/day: incorporeal chains, mind thrust VI, DC 23, primal regression, DC 23
+- 7/day: incorporeal chains, mind thrust VI (DC 23), primal regression (DC 23)
 
 **5th-level spells:**
 
-- 7/day: etheric shards, DC 22, explode head, DC 22, mind swap, DC 22, possession, DC 22
+- 7/day: etheric shards (DC 22), explode head (DC 22), mind swap (DC 22), possession (DC 22)
 
 **4th-level spells:**
 
-- 7/day: condensed ether, mindwipe, DC 21, riding possession, DC 21, stoneskin
+- 7/day: condensed ether, mindwipe (DC 21), riding possession (DC 21), stoneskin
 
 **3rd-level spells:**
 
-- 8/day: babble, DC 20, catatonia, displacement, synesthesia, DC 20
+- 8/day: babble (DC 20), catatonia, displacement, synesthesia (DC 20)
 
 **2nd-level spells:**
 
-- 8/day: aversion, DC 19, invisibility, paranoia, DC 19, resist energy, touch of idiocy
+- 8/day: aversion (DC 19), invisibility, paranoia (DC 19), resist energy, touch of idiocy
 
 **1st-level spells:**
 
@@ -136,7 +136,7 @@ _This monstrous eel-like creature has jaws within jaws, each bearing transparent
 
 **Cantrips:**
 
-- At will: arcane mark, bleed, DC 17, detect magic, grave words, mage hand, open/close,
+- At will: arcane mark, bleed (DC 17), detect magic, grave words, mage hand, open/close,
   prestidigitation, read magic, telekinetic projectile
 
 **Statistics**

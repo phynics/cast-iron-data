@@ -93,12 +93,12 @@ pg 84\
 
 **At will:**
 
-- grease, DC 15, major image, DC 17, ventriloquism, DC 15
+- grease (DC 15), major image (DC 17), ventriloquism (DC 15)
 
 **Per day:**
 
-- 3/day: charm monster, DC 18, gust of wind, DC 16, &Q stinking cloud, DC 17, suggestion, DC 17
-- 1/day: deep slumber, DC 17, mass charm monster, DC 22, mirror image
+- 3/day: charm monster (DC 18), gust of wind (DC 16), &Q stinking cloud (DC 17), suggestion (DC 17)
+- 1/day: deep slumber (DC 17), mass charm monster (DC 22), mirror image
 
 **Statistics**
 

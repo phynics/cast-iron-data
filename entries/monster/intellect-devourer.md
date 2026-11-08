@@ -89,8 +89,8 @@ looks like a large, glistening brain._
 
 **At will:**
 
-- confusion, DC 17, single target only, daze monster, DC 15, no HD limit, inflict serious wounds, DC
-  16, invisibility, !_reduce size_, as [reduce person](ref/spell/reduce-person) but self only
+- confusion (DC 17), single target only, daze monster (DC 15), no HD limit, inflict serious wounds
+  (DC 16), invisibility, !_reduce size_, as [reduce person](ref/spell/reduce-person) but self only
 
 **Per day:**
 

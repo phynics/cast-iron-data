@@ -93,7 +93,7 @@ her fiendish nature._
 
 **Per day:**
 
-- 3/day: &Q blindness/deafness, DC 20, charm person, DC 19
+- 3/day: &Q blindness/deafness (DC 20), charm person (DC 19)
 - 1/day: !_dominate thrall_
 
 **Spell-Like Abilities**
@@ -118,12 +118,12 @@ her fiendish nature._
 
 **At will:**
 
-- deeper darkness, fear, DC 22, greater teleport, self only, telekinesis, DC 23
+- deeper darkness, fear (DC 22), greater teleport, self only, telekinesis (DC 23)
 
 **Per day:**
 
-- 3/day: shadow conjuration, DC 22, shadow evocation, DC 23
-- 1/day: magic jar, DC 23, &S level 3, 1 [shadow demon](ref/monster/demon-shadow-demon) 50%
+- 3/day: shadow conjuration (DC 22), shadow evocation (DC 23)
+- 1/day: magic jar (DC 23), &S level 3, 1 [shadow demon](ref/monster/demon-shadow-demon) 50%
 
 **Prepared Spells**
 
@@ -133,43 +133,43 @@ her fiendish nature._
 
 **8th-level spells:**
 
-- demand (domain spell), 23, rift of ruin, DC 23
+- demand (domain spell), 23, rift of ruin (DC 23)
 
 **7th-level spells:**
 
-- &Q cure critical wounds, desctruction, DC 22, power word blind (domain spell)
+- &Q cure critical wounds, desctruction (DC 22), power word blind (domain spell)
 
 **6th-level spells:**
 
-- blade barrier, DC 21, &Q death knell, DC 17, geas/quest (domain spell), heal
+- blade barrier (DC 21), &Q death knell (DC 17), geas/quest (domain spell), heal
 
 **5th-level spells:**
 
-- breath of life, &Q command, DC 16, flame strike, DC 20, greater command, DC 20, slay living, DC
-  20, summon monster V (domain spell), summons 1d3 shadows
+- breath of life, &Q command (DC 16), flame strike (DC 20), greater command (DC 20), slay living (DC
+  20), summon monster V (domain spell), summons 1d3 shadows
 
 **4th-level spells:**
 
-- cure critical wounds, discern lies, DC 19, poison, DC 19, sending, shadow conjuration (domain
-  spell), DC 19, unholy blight, DC 19
+- cure critical wounds, discern lies (DC 19), poison (DC 19), sending, shadow conjuration (domain
+  spell) (DC 19), unholy blight (DC 19)
 
 **3rd-level spells:**
 
-- bestow curse, DC 18, cure serious wounds, 2, dispel magic, speak with dead, DC 18, suggestion
-  (domain spell), DC 18
+- bestow curse (DC 18), cure serious wounds, 2, dispel magic, speak with dead (DC 18), suggestion
+  (domain spell) (DC 18)
 
 **2nd-level spells:**
 
-- blindness/deafness (domain spell), DC 17, only to cause blindness, cure moderate wounds, 2, hold
-  person, DC 17, silence, DC 17, undetectable alignment
+- blindness/deafness (domain spell) (DC 17), only to cause blindness, cure moderate wounds, 2, hold
+  person (DC 17), silence (DC 17), undetectable alignment
 
 **1st-level spells:**
 
-- charm person (domain spell), DC 16, command, DC 16, cure light wounds, 5, divine favor
+- charm person (domain spell) (DC 16), command (DC 16), cure light wounds, 5, divine favor
 
 **Cantrips:**
 
-- bleed, DC 15, detect magic, guidance, read magic
+- bleed (DC 15), detect magic, guidance, read magic
 
 **Domains**
 

@@ -96,13 +96,13 @@ tentacles +12 touch (2d6 electricity plus thoughtlance)
 
 **At will:**
 
-- detect thoughts, DC 18, dominate person, DC 21, hypnotic pattern, DC 18, illusory wall, DC 20,
-  mirage arcana, DC 21, persistent image, DC 21, programmed image, DC 22, project image, DC 23,
-  veil, DC 22
+- detect thoughts (DC 18), dominate person (DC 21), hypnotic pattern (DC 18), illusory wall (DC 20),
+  mirage arcana (DC 21), persistent image (DC 21), programmed image (DC 22), project image (DC 23),
+  veil (DC 22)
 
 **Per day:**
 
-- 3/day: dominate monster, DC 25, &Q dominate person, DC 21, geas/quest, mass suggestion, DC 22
+- 3/day: dominate monster (DC 25), &Q dominate person (DC 21), geas/quest, mass suggestion (DC 22)
 
 **Spells Known**
 
@@ -112,34 +112,34 @@ tentacles +12 touch (2d6 electricity plus thoughtlance)
 
 **6th-level spells:**
 
-- 4/day: symbol of persuasion, DC 23
+- 4/day: symbol of persuasion (DC 23)
 
 **5th-level spells:**
 
-- 6/day: symbol of pain, DC 22, teleport
+- 6/day: symbol of pain (DC 22), teleport
 
 **4th-level spells:**
 
-- 7/day: dimension door, phantasmal killer, DC 20, symbol of slowing, DC 21
+- 7/day: dimension door, phantasmal killer (DC 20), symbol of slowing (DC 21)
 
 **3rd-level spells:**
 
-- 7/day: clairaudience/clairvoyance, explosive runes, DC 20, hold person, DC 19, secret page
+- 7/day: clairaudience/clairvoyance, explosive runes (DC 20), hold person (DC 19), secret page
 
 **2nd-level spells:**
 
-- 8/day: blindness/deafness, DC 18, invisibility, levitate, symbol of mirroring, DC 19, touch of
+- 8/day: blindness/deafness (DC 18), invisibility, levitate, symbol of mirroring (DC 19), touch of
   idiocy
 
 **1st-level spells:**
 
-- 8/day: charm person, DC 17, comprehend languages, erase, ray of enfeeblement, DC 17, silent image,
-  DC 17
+- 8/day: charm person (DC 17), comprehend languages, erase, ray of enfeeblement (DC 17), silent
+  image (DC 17)
 
 **Cantrips:**
 
-- At will: arcane mark, dancing lights, daze, DC 16, detect magic, ghost sound, DC 16, mage hand,
-  message, read magic, touch of fatigue, DC 16
+- At will: arcane mark, dancing lights, daze (DC 16), detect magic, ghost sound (DC 16), mage hand,
+  message, read magic, touch of fatigue (DC 16)
 
 **Statistics**
 

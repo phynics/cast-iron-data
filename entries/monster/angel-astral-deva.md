@@ -84,14 +84,14 @@ difficult to look directly at._
 
 **At will:**
 
-- aid, continual flame, detect evil, discern lies, DC 20, dispel evil, DC 21, dispel magic, holy
-  aura, DC 24, holy smite, DC 20, holy word, DC 23, invisibility, self only, plane shift, DC 23,
+- aid, continual flame, detect evil, discern lies (DC 20), dispel evil (DC 21), dispel magic, holy
+  aura (DC 24), holy smite (DC 20), holy word (DC 23), invisibility, self only, plane shift (DC 23),
   remove curse, remove disease, remove fear
 
 **Per day:**
 
 - 7/day: cure light wounds, see invisibility
-- 1/day: blade barrier, DC 22, heal
+- 1/day: blade barrier (DC 22), heal
 
 **Statistics**
 

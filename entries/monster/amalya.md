@@ -84,12 +84,12 @@ waist. She's adorned in trinkets made from a great white pine's needles and cone
 
 **At will:**
 
-- entangle, DC 16, tree shape, wood shape, 1 lb. only
+- entangle (DC 16), tree shape, wood shape, 1 lb. only
 
 **Per day:**
 
-- 3/day: charm person, DC 16, deep slumber, DC 18, tree stride
-- 1/day: suggestion, DC 18
+- 3/day: charm person (DC 16), deep slumber (DC 18), tree stride
+- 1/day: suggestion (DC 18)
 
 **Prepared Spells**
 

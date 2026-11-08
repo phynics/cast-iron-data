@@ -103,14 +103,14 @@ stun)
 
 **At will:**
 
-- bestow curse, DC 21, break enchantment, chain lightning, DC 23, greater dispel magic, find the
+- bestow curse (DC 21), break enchantment, chain lightning (DC 23), greater dispel magic, find the
   path, sending
 
 **Per day:**
 
-- 3/day: greater scrying, DC 24, heal, mass suggestion, DC 23
-- 1/day: dominate monster, DC 26, greater spell immunity, imprisonment, DC 26, storm of vengeance,
-  DC 26
+- 3/day: greater scrying (DC 24), heal, mass suggestion (DC 23)
+- 1/day: dominate monster (DC 26), greater spell immunity, imprisonment (DC 26), storm of vengeance
+  (DC 26)
 
 **Statistics**
 

@@ -100,14 +100,14 @@ flaming scimitars and a bow._
 
 **At will:**
 
-- aid, continual flame, detect evil, discern lies, DC 20, dispel evil, DC 21, dispel magic, holy
-  aura, DC 24, holy smite, DC 20, holy word, DC 23, invisibility, self only, plane shift, DC 21,
+- aid, continual flame, detect evil, discern lies (DC 20), dispel evil (DC 21), dispel magic, holy
+  aura (DC 24), holy smite (DC 20), holy word (DC 23), invisibility, self only, plane shift (DC 21),
   remove curse, remove disease, remove fear
 
 **Per day:**
 
 - 7/day: cure light wounds, daylight, see invisibility
-- 1/day: blade barrier, DC 22, fire shield, flame strike, DC 21, heal, sunburst, DC 24
+- 1/day: blade barrier (DC 22), fire shield, flame strike (DC 21), heal, sunburst (DC 24)
 
 **Statistics**
 

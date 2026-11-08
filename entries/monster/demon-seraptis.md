@@ -89,17 +89,17 @@ slashes on her four arms._
 
 **Constant:**
 
-- deathwatch, true seeing, unholy aura, DC 23
+- deathwatch, true seeing, unholy aura (DC 23)
 
 **At will:**
 
-- crushing despair, DC 18, dispel magic, greater teleport, self plus 50 lbs. of objects only,
-  telekinesis, DC 20
+- crushing despair (DC 18), dispel magic, greater teleport, self plus 50 lbs. of objects only,
+  telekinesis (DC 20)
 
 **Per day:**
 
-- 3/day: confusion, DC 19, demand, DC 23, dominate person, DC 19, fly
-- 1/day: symbol of insanity, DC 23, &S level 5; 1 seraptis 20% or 1 glabrezu 40%
+- 3/day: confusion (DC 19), demand (DC 23), dominate person (DC 19), fly
+- 1/day: symbol of insanity (DC 23), &S level 5; 1 seraptis 20% or 1 glabrezu 40%
 
 **Statistics**
 

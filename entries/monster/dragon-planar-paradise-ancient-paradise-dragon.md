@@ -93,7 +93,7 @@ _This sleek dragon carries itself with regal dignity. Its eyes glow with heavenl
 
 **7th-level spells:**
 
-- 5/day: circle of clarity, holy word, DC 24
+- 5/day: circle of clarity, holy word (DC 24)
 
 **6th-level spells:**
 
@@ -101,11 +101,11 @@ _This sleek dragon carries itself with regal dignity. Its eyes glow with heavenl
 
 **5th-level spells:**
 
-- 7/day: atonement, dispel evil, flame strike, DC 22, mark of justice
+- 7/day: atonement, dispel evil, flame strike (DC 22), mark of justice
 
 **4th-level spells:**
 
-- 7/day: dismissal, DC 21, divine power, holy smite, DC 21, restoration
+- 7/day: dismissal (DC 21), divine power, holy smite (DC 21), restoration
 
 **3rd-level spells:**
 

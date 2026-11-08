@@ -95,8 +95,8 @@ almost to be made of glass._
 
 **Per day:**
 
-- 3/day: spike growth, DC 17, spike stones, DC 18, telekinesis, DC 19
-- 1/day: telekinetic sphere, DC 22, wall of force
+- 3/day: spike growth (DC 17), spike stones (DC 18), telekinesis (DC 19)
+- 1/day: telekinetic sphere (DC 22), wall of force
 
 **Statistics**
 

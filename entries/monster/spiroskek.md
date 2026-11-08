@@ -81,7 +81,7 @@ propels itself forward with balance and grace._
 
 **Per day:**
 
-- 3/day: glitterdust, DC 15, silent image, DC 14
+- 3/day: glitterdust (DC 15), silent image (DC 14)
 
 **Statistics**
 

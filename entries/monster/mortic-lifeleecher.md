@@ -89,7 +89,7 @@ vulnerable to _[resurrection](ref/spell/resurrection)_
 
 **Per day:**
 
-- 3/day: death knell, DC 17
+- 3/day: death knell (DC 17)
 
 **Statistics**
 

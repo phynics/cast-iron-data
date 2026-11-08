@@ -77,7 +77,7 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Per day:**
 
-- 6/day: trap rune, DC 16
+- 6/day: trap rune (DC 16)
 
 **Spells Known**
 
@@ -87,7 +87,7 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **3rd-level spells:**
 
-- 4/day: lightning bolt, DC 16
+- 4/day: lightning bolt (DC 16)
 
 **2nd-level spells:**
 
@@ -95,11 +95,11 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **1st-level spells:**
 
-- 7/day: alarm, charm person, DC 14, mage armor, magic missile, ray of enfeeblement, DC 14
+- 7/day: alarm, charm person (DC 14), mage armor, magic missile, ray of enfeeblement (DC 14)
 
 **Cantrips:**
 
-- At will: arcane mark, daze, detect magic, open/close, prestidigitation, DC 13, resistance, spark
+- At will: arcane mark, daze, detect magic, open/close, prestidigitation (DC 13), resistance, spark
 
 **Bloodline**
 

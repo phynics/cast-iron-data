@@ -86,12 +86,12 @@ fat in its socket._
 
 **At will:**
 
-- augury, deathwatch, doom, DC 15
+- augury, deathwatch, doom (DC 15)
 
 **Per day:**
 
-- 3/day: death knell, DC 16, rage, speak with dead, DC 17
-- 1/day: bestow curse, DC 18, confusion, DC 18, divination, fear, DC 18, tongues
+- 3/day: death knell (DC 16), rage, speak with dead (DC 17)
+- 1/day: bestow curse (DC 18), confusion (DC 18), divination, fear (DC 18), tongues
 
 **Statistics**
 

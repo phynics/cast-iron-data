@@ -86,12 +86,12 @@ against the skin._
 
 **At will:**
 
-- detect thoughts, DC 16, suggestion, DC 17
+- detect thoughts (DC 16), suggestion (DC 17)
 
 **Per day:**
 
-- 3/day: crushing despair, DC 18
-- 1/day: charm monster, DC 18, deep slumber, DC 17, dominate person, DC 19, status, DC 16
+- 3/day: crushing despair (DC 18)
+- 1/day: charm monster (DC 18), deep slumber (DC 17), dominate person (DC 19), status (DC 16)
 
 **Statistics**
 

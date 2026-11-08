@@ -88,7 +88,7 @@ expressive._
 
 **Per day:**
 
-- 1/day: blindness/deafness, DC 12, blur, disguise self
+- 1/day: blindness/deafness (DC 12), blur, disguise self
 
 **Statistics**
 

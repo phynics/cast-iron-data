@@ -110,23 +110,23 @@ with crystals._
 
 **5th-level spells:**
 
-- 4/day: hungry pit, DC 22
+- 4/day: hungry pit (DC 22)
 
 **4th-level spells:**
 
-- 6/day: calcific touch, DC 20, mass enlarge person, DC 20, stoneskin
+- 6/day: calcific touch (DC 20), mass enlarge person (DC 20), stoneskin
 
 **3rd-level spells:**
 
-- 7/day: fireball, DC 19, greater magic weapon, haste, DC 19, shifting sand
+- 7/day: fireball (DC 19), greater magic weapon, haste (DC 19), shifting sand
 
 **2nd-level spells:**
 
-- 8/day: [darkvision](ref/rule/darkvision), glitterdust, DC 19, share language, shatter, stone call
+- 8/day: [darkvision](ref/rule/darkvision), glitterdust (DC 19), share language, shatter, stone call
 
 **1st-level spells:**
 
-- 8/day: crafter's fortune, expeditious excavation, feather fall, mage armor, reduce person, DC 17,
+- 8/day: crafter's fortune, expeditious excavation, feather fall, mage armor, reduce person (DC 17),
   shocking grasp
 
 **Cantrips:**

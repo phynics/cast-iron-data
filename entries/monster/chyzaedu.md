@@ -89,7 +89,7 @@ vestments._
 
 **5th-level spells:**
 
-- greater command, DC 20, mass inflict light wounds, DC 20, scrying, DC 20
+- greater command (DC 20), mass inflict light wounds (DC 20), scrying (DC 20)
 
 **4th-level spells:**
 
@@ -97,15 +97,15 @@ vestments._
 
 **3rd-level spells:**
 
-- blindness/deafness, DC 18, deeper darkness, magic circle against good, prayer
+- blindness/deafness (DC 18), deeper darkness, magic circle against good, prayer
 
 **2nd-level spells:**
 
-- enthrall, DC 17, shatter, DC 17, silence, DC 17, sound burst, DC 17, spiritual weapon
+- enthrall (DC 17), shatter (DC 17), silence (DC 17), sound burst (DC 17), spiritual weapon
 
 **1st-level spells:**
 
-- cause fear, DC 16, command, DC 16, cure light wounds, divine favor, sanctuary, DC 16, shield of
+- cause fear (DC 16), command (DC 16), cure light wounds, divine favor, sanctuary (DC 16), shield of
   faith
 
 **Cantrips:**

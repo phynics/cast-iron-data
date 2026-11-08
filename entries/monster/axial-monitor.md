@@ -106,9 +106,9 @@ torsos are topped with a single head bearing three faces, each set in a bland, s
 
 **Per day:**
 
-- 3/day: detect thoughts, DC 15, dimension door, dimensional anchor, dispel chaos, DC 18, hold
-  monster, DC 18, order's wrath, DC 17, sending
-- 1/day: break enchantment, dictum, DC 20, mass hold monster, DC 22
+- 3/day: detect thoughts (DC 15), dimension door, dimensional anchor, dispel chaos (DC 18), hold
+  monster (DC 18), order's wrath (DC 17), sending
+- 1/day: break enchantment, dictum (DC 20), mass hold monster (DC 22)
 
 **Statistics**
 

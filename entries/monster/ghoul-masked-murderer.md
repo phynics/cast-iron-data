@@ -87,20 +87,20 @@ abilities = ["15", "17", "-", "17", "14", "22"]
 
 **3rd-level spells:**
 
-- 3/day: confusion, DC 19, crushing despair, DC 19, glibness
+- 3/day: confusion (DC 19), crushing despair (DC 19), glibness
 
 **2nd-level spells:**
 
-- 6/day: allegro, fleshy facade, DC 18, inflict moderate wounds, DC 18, mirror image
+- 6/day: allegro, fleshy facade (DC 18), inflict moderate wounds (DC 18), mirror image
 
 **1st-level spells:**
 
-- 6/day: disguise self, expeditious retreat, hideous laughter, DC 17, ray of enfeeblement, DC 17,
-  silent image, DC 17
+- 6/day: disguise self, expeditious retreat, hideous laughter (DC 17), ray of enfeeblement (DC 17),
+  silent image (DC 17)
 
 **Cantrips:**
 
-- At will: detect magic, ghost sound, DC 16, mage hand, message, prestidigitation, DC 16, summon
+- At will: detect magic, ghost sound (DC 16), mage hand, message, prestidigitation (DC 16), summon
   instrument
 
 ### Tactics

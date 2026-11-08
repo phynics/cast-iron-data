@@ -92,12 +92,12 @@ writhe within the flames._
 
 **At will:**
 
-- ghost sound, DC 17, hold portal, mage hand
+- ghost sound (DC 17), hold portal, mage hand
 
 **Per day:**
 
-- 3/day: major image, DC 20
-- 1/day: nightmare, DC 22
+- 3/day: major image (DC 20)
+- 1/day: nightmare (DC 22)
 
 **Statistics**
 

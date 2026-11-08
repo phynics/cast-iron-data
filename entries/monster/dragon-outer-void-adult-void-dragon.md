@@ -88,7 +88,7 @@ slap +20 (2d6+12)
 
 **At will:**
 
-- blur, ray of enfeeblement, DC 16, ray of exhaustion, DC 18
+- blur, ray of enfeeblement (DC 16), ray of exhaustion (DC 18)
 
 **Spells Known**
 
@@ -98,15 +98,15 @@ slap +20 (2d6+12)
 
 **3rd-level spells:**
 
-- 5/day: dispel magic, lightning bolt, DC 18
+- 5/day: dispel magic, lightning bolt (DC 18)
 
 **2nd-level spells:**
 
-- 7/day: invisibility, resist energy, touch of idiocy, DC 17
+- 7/day: invisibility, resist energy, touch of idiocy (DC 17)
 
 **1st-level spells:**
 
-- 8/day: alarm, cause fear, DC 17, hypnotism, DC 17, mage armor, obscuring mist
+- 8/day: alarm, cause fear (DC 17), hypnotism (DC 17), mage armor, obscuring mist
 
 **Cantrips:**
 

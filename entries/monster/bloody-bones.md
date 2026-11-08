@@ -90,7 +90,7 @@ of fresh gore._
 
 **Per day:**
 
-- 3/day: mass inflict moderate wounds, DC 21
+- 3/day: mass inflict moderate wounds (DC 21)
 
 **Statistics**
 

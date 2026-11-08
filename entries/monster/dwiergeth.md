@@ -98,11 +98,11 @@ gnashing, ophidian maws._
 
 **At will:**
 
-- gust of wind, DC 15
+- gust of wind (DC 15)
 
 **Per day:**
 
-- 1/day: control winds, DC 18, wind wall
+- 1/day: control winds (DC 18), wind wall
 
 **Statistics**
 

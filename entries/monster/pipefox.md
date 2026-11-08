@@ -79,7 +79,7 @@ _This furry, minute serpent has a fox-like head and tiny eyes that glitter with 
 **Per day:**
 
 - 3/day: augury, vanish
-- 1/day: detect thoughts, DC 14, divination, greater invisibility, self only
+- 1/day: detect thoughts (DC 14), divination, greater invisibility, self only
 
 **Statistics**
 

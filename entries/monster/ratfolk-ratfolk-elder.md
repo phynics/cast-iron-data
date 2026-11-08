@@ -98,11 +98,11 @@ tail._
 
 **5th-level spells:**
 
-- teleport (domain spell), wall of stone, DC 19
+- teleport (domain spell), wall of stone (DC 19)
 
 **4th-level spells:**
 
-- dimension door (domain spell), dismissal, DC 18, freedom of movement, summon monster IV
+- dimension door (domain spell), dismissal (DC 18), freedom of movement, summon monster IV
 
 **3rd-level spells:**
 
@@ -110,12 +110,12 @@ tail._
 
 **2nd-level spells:**
 
-- bull's strength, calm emotions, DC 16, darkness, shield other (domain spell), sound burst, DC 16,
-  zone of truth, DC 16
+- bull's strength, calm emotions (DC 16), darkness, shield other (domain spell), sound burst (DC
+  16), zone of truth (DC 16)
 
 **1st-level spells:**
 
-- bless, command, DC 15, endure elements, longstrider (domain spell), sanctuary, DC 15, shield of
+- bless, command (DC 15), endure elements, longstrider (domain spell), sanctuary (DC 15), shield of
   faith
 
 **Cantrips:**

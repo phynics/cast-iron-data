@@ -101,14 +101,14 @@ staff, unearthly cold
 
 **At will:**
 
-- frost fall, DC 16, !_ice missile_, as [magic missile](ref/spell/magic-missile) but deals cold
-  damage, obscuring mist, screech, DC 17
+- frost fall (DC 16), !_ice missile_, as [magic missile](ref/spell/magic-missile) but deals cold
+  damage, obscuring mist, screech (DC 17)
 
 **Per day:**
 
-- 3/day: bestow curse, DC 17, crushing despair, DC 18, ice storm, unshakable chill, DC 16, wall of
-  ice, DC 18
-- 1/day: cone of cold, DC 19, freezing sphere, DC 20, polar ray
+- 3/day: bestow curse (DC 17), crushing despair (DC 18), ice storm, unshakable chill (DC 16), wall
+  of ice (DC 18)
+- 1/day: cone of cold (DC 19), freezing sphere (DC 20), polar ray
 
 **Statistics**
 

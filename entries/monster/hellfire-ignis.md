@@ -85,11 +85,11 @@ wicked grin on its foul, warped face._
 
 **At will:**
 
-- flare, DC 10, spark, DC 10
+- flare (DC 10), spark (DC 10)
 
 **Per day:**
 
-- 3/day: pyrotechnics, DC 12
+- 3/day: pyrotechnics (DC 12)
 
 **Statistics**
 

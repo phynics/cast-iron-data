@@ -79,7 +79,7 @@ wears elaborate heavy armor, and wields an ornate metal club._
 
 **Per day:**
 
-- 3/day: command, DC 13, doom, DC 13, fly, magic weapon
+- 3/day: command (DC 13), doom (DC 13), fly, magic weapon
 - 1/day: bull's strength
 
 **Statistics**

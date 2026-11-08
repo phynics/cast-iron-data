@@ -96,9 +96,9 @@ appear to have burst forth from rugged stone._
 
 **Per day:**
 
-- 3/day: spike stones, DC 16, stone shape, stone tell
-- 1/day: earthquake, repel metal or stone, transmute mud to rock, DC 17, transmute rock to mud, DC
-  17
+- 3/day: spike stones (DC 16), stone shape, stone tell
+- 1/day: earthquake, repel metal or stone, transmute mud to rock (DC 17), transmute rock to mud (DC
+  17)
 
 **Statistics**
 

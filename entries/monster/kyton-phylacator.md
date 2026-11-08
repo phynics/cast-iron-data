@@ -95,12 +95,12 @@ dire flail in its gauntlets, and several pairs of manacles on its belt writhe of
 
 **At will:**
 
-- deeper darkness, detect thoughts, DC 19, discern lies, DC 21, order's wrath, DC 21
+- deeper darkness, detect thoughts (DC 19), discern lies (DC 21), order's wrath (DC 21)
 
 **Per day:**
 
-- 3/day: greater command, DC 22, greater teleport
-- 1/day: imprisonment, DC 26, greater prying eyes
+- 3/day: greater command (DC 22), greater teleport
+- 1/day: imprisonment (DC 26), greater prying eyes
 
 **Statistics**
 

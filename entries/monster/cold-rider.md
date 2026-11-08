@@ -91,8 +91,8 @@ gore +4 (2d6+1 plus 1d6 cold)
 
 **At will:**
 
-- chill metal, DC 15, deep slumber, DC 16, ghost sound, DC 13, obscuring mist, phantom steed, ray of
-  frost
+- chill metal (DC 15), deep slumber (DC 16), ghost sound (DC 13), obscuring mist, phantom steed, ray
+  of frost
 
 **Per day:**
 

@@ -82,7 +82,7 @@ expressive face._
 
 **Per day:**
 
-- 1/day: lesser confusion, DC 14, dimension door, self only, mirror image, ventriloquism, DC 14
+- 1/day: lesser confusion (DC 14), dimension door, self only, mirror image, ventriloquism (DC 14)
 
 **Statistics**
 

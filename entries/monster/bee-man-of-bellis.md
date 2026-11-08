@@ -86,7 +86,7 @@ _This shabby-cloaked figure is surrounded by hundreds of bees._
 
 **Per day:**
 
-- 3/day: glibness, lesser geas, DC 17, &S level 4; 1 wasp swarm or 1d4+1 giant bees 100%
+- 3/day: glibness, lesser geas (DC 17), &S level 4; 1 wasp swarm or 1d4+1 giant bees 100%
 - 1/day: commune with nature, contact other plane, reincarnate
 
 **Statistics**

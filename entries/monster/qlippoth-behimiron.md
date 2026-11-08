@@ -92,11 +92,11 @@ spiny carapace._
 
 **At will:**
 
-- ray of exhaustion, DC 16
+- ray of exhaustion (DC 16)
 
 **Per day:**
 
-- 3/day: enervation, hold monster, DC 18
+- 3/day: enervation, hold monster (DC 18)
 - 1/day: power word stun
 
 **Statistics**

@@ -97,8 +97,8 @@ roots ending in hooves, and its trunk decorated with numerous drooling maws._
 
 **Per day:**
 
-- 3/day: entangle, DC 16, command plants, DC 19
-- 1/day: insanity, DC 22, tree stride
+- 3/day: entangle (DC 16), command plants (DC 19)
+- 1/day: insanity (DC 22), tree stride
 
 **Statistics**
 

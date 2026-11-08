@@ -91,7 +91,7 @@ shell along with several hooked legs._
 
 **At will:**
 
-- bleed, DC 11
+- bleed (DC 11)
 
 **Per day:**
 

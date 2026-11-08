@@ -97,13 +97,13 @@ arms that end in claws._
 
 **At will:**
 
-- death knell, DC 15, ghoul touch, DC 15, greater teleport, self plus 50 lbs. of objects only, ray
-  of enfeeblement, DC 14
+- death knell (DC 15), ghoul touch (DC 15), greater teleport, self plus 50 lbs. of objects only, ray
+  of enfeeblement (DC 14)
 
 **Per day:**
 
-- 3/day: stinking cloud, DC 16, vampiric touch
-- 1/day: cloudkill, DC 18, &S level 4; 1d3 [lacridaemons](ref/monster/daemon-lacridaemon) 35%
+- 3/day: stinking cloud (DC 16), vampiric touch
+- 1/day: cloudkill (DC 18), &S level 4; 1d3 [lacridaemons](ref/monster/daemon-lacridaemon) 35%
 
 **Statistics**
 

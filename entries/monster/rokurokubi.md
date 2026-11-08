@@ -88,15 +88,15 @@ teeth filling her gaping maw._
 
 **6th-level spells:**
 
-- 3/day: permanent image, DC 21
+- 3/day: permanent image (DC 21)
 
 **5th-level spells:**
 
-- 6/day: feeblemind, DC 20, nightmare, DC 20
+- 6/day: feeblemind (DC 20), nightmare (DC 20)
 
 **4th-level spells:**
 
-- 7/day: charm monster, DC 19, confusion, DC 19, locate creature
+- 7/day: charm monster (DC 19), confusion (DC 19), locate creature
 
 **3rd-level spells:**
 
@@ -104,15 +104,15 @@ teeth filling her gaping maw._
 
 **2nd-level spells:**
 
-- 7/day: ghoul touch, DC 17, invisibility, knock, touch of idiocy
+- 7/day: ghoul touch (DC 17), invisibility, knock, touch of idiocy
 
 **1st-level spells:**
 
-- 8/day: charm person, DC 16, disguise self, obscuring mist, shocking grasp, sleep, DC 16
+- 8/day: charm person (DC 16), disguise self, obscuring mist, shocking grasp, sleep (DC 16)
 
 **Cantrips:**
 
-- At will: arcane mark, detect magic, detect poison, ghost sound, DC 15, mage hand, message,
+- At will: arcane mark, detect magic, detect poison, ghost sound (DC 15), mage hand, message,
   open/close, prestidigitation, read magic
 
 **Statistics**

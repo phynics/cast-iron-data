@@ -99,33 +99,33 @@ on her crown and staff._
 
 **6th-level spells:**
 
-- cone of cold, DC 21, greater dispel magic, sirocco\#S, DC 21
+- cone of cold (DC 21), greater dispel magic, sirocco\#S (DC 21)
 
 **5th-level spells:**
 
-- baleful polymorph, DC 19, control winds\#S, DC 19, dominate person, DC 19, wall of fire
+- baleful polymorph (DC 19), control winds\#S (DC 19), dominate person (DC 19), wall of fire
 
 **4th-level spells:**
 
-- air geyser, DC 19, cure critical wounds, ice storm, poison, DC 18, river of wind\#S, DC 19
+- air geyser (DC 19), cure critical wounds, ice storm, poison (DC 18), river of wind\#S (DC 19)
 
 **3rd-level spells:**
 
-- bestow curse, DC 17, call lightning, DC 18, cloak of winds\#S, DC 17, deep slumber, DC 17, dispel
-  magic, speak with dead, DC 17
+- bestow curse (DC 17), call lightning (DC 18), cloak of winds\#S (DC 17), deep slumber (DC 17),
+  dispel magic, speak with dead (DC 17)
 
 **2nd-level spells:**
 
-- aid, focused scrutiny, gust of wind\#S, DC 17, hold person, DC 16, lesser restoration, summon
+- aid, focused scrutiny, gust of wind\#S (DC 17), hold person (DC 16), lesser restoration, summon
   swarm
 
 **1st-level spells:**
 
-- alter winds\#S, DC 15, bless, hide from animals, magic weapon, obscuring mist, sense spirit magic
+- alter winds\#S (DC 15), bless, hide from animals, magic weapon, obscuring mist, sense spirit magic
 
 **Cantrips:**
 
-- detect magic, guidance, purify food and drink, DC 14, read magic
+- detect magic, guidance, purify food and drink (DC 14), read magic
 
 **Spirit**
 

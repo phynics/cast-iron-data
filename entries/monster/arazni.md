@@ -106,45 +106,45 @@ hand of the apprentice (17/day), inspire minions, marshal's order (advance), met
 
 **9th-level spells:**
 
-- gate, overwhelming presence, DC 36, power word kill (mythic spell), 2, time stop (mythic spell),
+- gate, overwhelming presence (DC 36), power word kill (mythic spell), 2, time stop (mythic spell),
   wish
 
 **8th-level spells:**
 
-- &Q charm monster, mass fly, power word blind, spell turning, waves of ecstasy, DC 34
+- &Q charm monster, mass fly, power word blind, spell turning, waves of ecstasy (DC 34)
 
 **6th-level spells:**
 
-- antimagic field (mythic spell), circle of death, DC 31, disintegrate, DC 30, greater dispel magic,
-  greater heroism, mass eagle's splendor, mass suggestion, DC 33
+- antimagic field (mythic spell), circle of death (DC 31), disintegrate (DC 30), greater dispel
+  magic, greater heroism, mass eagle's splendor, mass suggestion (DC 33)
 
 **5th-level spells:**
 
-- dominate person, 2, DC 32, feeblemind, DC 32, overland flight, already cast, &Q true strike, 3
+- dominate person (2, DC 32), feeblemind (DC 32), overland flight, already cast, &Q true strike, 3
 
 **4th-level spells:**
 
-- detect scrying, already cast, dimension door, fear, DC 29, greater invisibility, phantasmal
-  killer, 2, DC 29, terrible remorse, DC 31
+- detect scrying, already cast, dimension door, fear (DC 29), greater invisibility, phantasmal
+  killer (2, DC 29), terrible remorse (DC 31)
 
 **3rd-level spells:**
 
-- fireball (mythic spell), DC 27, fly, greater magic weapon, already cast, haste (mythic spell), 2,
-  heroism (mythic spell), stinking cloud, DC 27
+- fireball (mythic spell) (DC 27), fly, greater magic weapon, already cast, haste (mythic spell), 2,
+  heroism (mythic spell), stinking cloud (DC 27)
 
 **2nd-level spells:**
 
-- detect thoughts, DC 26, false life, already cast, mirror image, 2, resist energy, 2, see
+- detect thoughts (DC 26), false life, already cast, mirror image, 2, resist energy, 2, see
   invisibility, spectral hand
 
 **1st-level spells:**
 
-- disguise self, feather fall, mage armor (mythic spell), ray of enfeeblement, DC 26, shield, true
+- disguise self, feather fall, mage armor (mythic spell), ray of enfeeblement (DC 26), shield, true
   strike, vanish, 2
 
 **Cantrips:**
 
-- detect magic, ghost sound, DC 25, mage hand, open/close
+- detect magic, ghost sound (DC 25), mage hand, open/close
 
 ###### M {#footnote-m}
 

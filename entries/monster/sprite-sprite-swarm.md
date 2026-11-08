@@ -93,7 +93,7 @@ buzzing, writhing swarm._
 
 **Per day:**
 
-- 1/day: mass daze, DC 14
+- 1/day: mass daze (DC 14)
 
 **Statistics**
 

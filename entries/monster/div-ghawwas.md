@@ -103,8 +103,8 @@ emerged from some poisoned sea._
 
 **Per day:**
 
-- 3/day: hallucinatory terrain, DC 16, stinking cloud, DC 15, &S level 6; 1
-  [pairaka](ref/monster/div-pairaka) 60%, quench, DC 15
+- 3/day: hallucinatory terrain (DC 16), stinking cloud (DC 15), &S level 6; 1
+  [pairaka](ref/monster/div-pairaka) 60%, quench (DC 15)
 
 **Statistics**
 

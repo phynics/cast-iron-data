@@ -90,8 +90,8 @@ encircle it, each fragment reflecting younger or older versions of itself._
 
 **Per day:**
 
-- 3/day: &Q deja vu, hold monster, DC 21, mirror image, temporal stasis, DC 24
-- 1/day: time stop, DC 25
+- 3/day: &Q deja vu, hold monster (DC 21), mirror image, temporal stasis (DC 24)
+- 1/day: time stop (DC 25)
 
 **Statistics**
 

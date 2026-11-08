@@ -95,7 +95,7 @@ amplification ([defensive prognostication](ref/phrenicamp/defensive-prognosticat
 
 **Per day:**
 
-- 1/day: detect thoughts, DC 14
+- 1/day: detect thoughts (DC 14)
 
 **Spells Known**
 
@@ -105,11 +105,11 @@ amplification ([defensive prognostication](ref/phrenicamp/defensive-prognosticat
 
 **1st-level spells:**
 
-- 5/day: charm person, DC 12, mind thrust I, DC 12, true strike
+- 5/day: charm person (DC 12), mind thrust I (DC 12), true strike
 
 **Cantrips:**
 
-- At will: detect magic, ghost sound, DC 11, know direction, mage hand, mending
+- At will: detect magic, ghost sound (DC 11), know direction, mage hand, mending
 
 **Psychic Discipline**
 

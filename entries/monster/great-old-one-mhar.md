@@ -102,13 +102,13 @@ mind-affecting effects, paralysis, petrification, [plane shift](ref/spell/plane-
 
 **At will:**
 
-- dimension door, dream, greater dispel magic, insanity, DC 26, mindwipe, DC 23, nightmare, DC 24,
-  synesthesia, DC 22, wall of fire, wall of stone
+- dimension door, dream, greater dispel magic, insanity (DC 26), mindwipe (DC 23), nightmare (DC
+  24), synesthesia (DC 22), wall of fire, wall of stone
 
 **Per day:**
 
-- 3/day: demand, DC 27, earthquake, DC 27, &Q feeblemind, DC 24
-- 1/day: meteor swarm, DC 28, microcosm, DC 28, symbol of insanity, DC 27
+- 3/day: demand (DC 27), earthquake (DC 27), &Q feeblemind (DC 24)
+- 1/day: meteor swarm (DC 28), microcosm (DC 28), symbol of insanity (DC 27)
 
 **Statistics**
 

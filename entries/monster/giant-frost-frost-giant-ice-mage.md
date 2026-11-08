@@ -103,7 +103,7 @@ abilities = ["26", "11", "22", "14", "14", "16"]
 
 **2nd-level spells:**
 
-- 6/day: frigid touch, ice slick, rage, DC 16
+- 6/day: frigid touch, ice slick, rage (DC 16)
 
 **1st-level spells:**
 
@@ -111,8 +111,8 @@ abilities = ["26", "11", "22", "14", "14", "16"]
 
 **Cantrips:**
 
-- At will: detect magic, ghost sound, DC 13, flare, DC 13, mage hand, message, ray of frost, touch
-  of fatigue, DC 13
+- At will: detect magic, ghost sound (DC 13), flare (DC 13), mage hand, message, ray of frost, touch
+  of fatigue (DC 13)
 
 **Bloodline**
 

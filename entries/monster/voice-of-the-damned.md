@@ -97,19 +97,19 @@ distraction)
 
 **Constant:**
 
-- detect good, freedom of movement, tongues, true seeing, unholy aura, DC 26
+- detect good, freedom of movement, tongues, true seeing, unholy aura (DC 26)
 
 **At will:**
 
-- blasphemy, DC 25, dimension door, greater dispel magic, greater shadow evocation, greater
-  teleport, legend lore, mirage arcana, persistent image, shapechange, symbol of fear, DC 24,
-  telekinesis, DC 23, unholy blight, DC 22
+- blasphemy (DC 25), dimension door, greater dispel magic, greater shadow evocation, greater
+  teleport, legend lore, mirage arcana, persistent image, shapechange, symbol of fear (DC 24),
+  telekinesis (DC 23), unholy blight (DC 22)
 
 **Per day:**
 
-- 3/day: &Q heal, mislead, symbol of insanity, DC 26, symbol of weakness, DC 25
-- 1/day: &Q symbol of death, DC 26, &S level 9; 1 balor; 1 olethrodaemon; or 1 pit fiend 100%,
-  weird, DC 27
+- 3/day: &Q heal, mislead, symbol of insanity (DC 26), symbol of weakness (DC 25)
+- 1/day: &Q symbol of death (DC 26), &S level 9; 1 balor; 1 olethrodaemon; or 1 pit fiend 100%,
+  weird (DC 27)
 
 **Statistics**
 

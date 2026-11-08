@@ -100,7 +100,7 @@ effects, negative levels, paralysis, permanent wounds, petrification, poison, po
 
 **Per day:**
 
-- 3/day: storm of vengeance, DC 21
+- 3/day: storm of vengeance (DC 21)
 
 **Statistics**
 

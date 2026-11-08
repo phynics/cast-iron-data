@@ -101,27 +101,27 @@ exaggerated features._
 
 **5th-level spells:**
 
-- 6/day: flame strike, DC 20, telekinesis, DC 20
+- 6/day: flame strike (DC 20), telekinesis (DC 20)
 
 **4th-level spells:**
 
-- 7/day: charm monster, DC 19, dimension door, freedom of movement
+- 7/day: charm monster (DC 19), dimension door, freedom of movement
 
 **3rd-level spells:**
 
-- 7/day: dispel magic, fireball, DC 18, haste, rage
+- 7/day: dispel magic, fireball (DC 18), haste, rage
 
 **2nd-level spells:**
 
-- 7/day: acid arrow, cure moderate wounds, death knell, DC 17, invisibility, misdirection
+- 7/day: acid arrow, cure moderate wounds, death knell (DC 17), invisibility, misdirection
 
 **1st-level spells:**
 
-- 8/day: command, DC 16, mage armor, magic missile, ray of enfeeblement, DC 16, shield of faith
+- 8/day: command (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16), shield of faith
 
 **Cantrips:**
 
-- At will: acid splash, bleed, DC 15, light, mage hand, mending, message, open/close,
+- At will: acid splash, bleed (DC 15), light, mage hand, mending, message, open/close,
   prestidigitation, read magic
 
 **Statistics**

@@ -91,15 +91,15 @@ eyes._
 
 **Constant:**
 
-- true seeing, unholy aura, DC 25
+- true seeing, unholy aura (DC 25)
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, project image, DC 24, telekinesis, DC 22
+- greater teleport, self plus 50 lbs. of objects only, project image (DC 24), telekinesis (DC 22)
 
 **Per day:**
 
-- 3/day: blade barrier, DC 23, fly
+- 3/day: blade barrier (DC 23), fly
 - 1/day: &S level 5; 1 marilith 20%; 1 nalfeshnee at 35%; or 1d4 hezrous at 60%
 
 **Statistics**

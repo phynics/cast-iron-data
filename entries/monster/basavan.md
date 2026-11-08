@@ -85,7 +85,7 @@ countenance._
 
 **Per day:**
 
-- 3/day: forest's sense, DC 17, make whole, soothing mud, stone shape, stoneskin
+- 3/day: forest's sense (DC 17), make whole, soothing mud, stone shape, stoneskin
 - 1/day: commune with nature, transmute rock to mud, tree stride
 
 **Statistics**

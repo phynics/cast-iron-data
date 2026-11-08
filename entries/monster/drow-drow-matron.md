@@ -93,7 +93,7 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Per day:**
 
-- 1/day: dispel magic, divine favor, suggestion, DC 15
+- 1/day: dispel magic, divine favor, suggestion (DC 15)
 
 **Spell-Like Abilities**
 
@@ -114,39 +114,39 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **8th-level spells:**
 
-- fire storm, DC 25, unholy aura (domain spell), DC 25
+- fire storm (DC 25), unholy aura (domain spell) (DC 25)
 
 **7th-level spells:**
 
-- blasphemy (domain spell), DC 24, destruction, DC 25, ethereal jaunt, summon monster VII
+- blasphemy (domain spell) (DC 24), destruction (DC 25), ethereal jaunt, summon monster VII
 
 **6th-level spells:**
 
-- antilife shell, antimagic field (domain spell), greater dispel magic, harm, DC 24, heal
+- antilife shell, antimagic field (domain spell), greater dispel magic, harm (DC 24), heal
 
 **5th-level spells:**
 
-- communal spell immunity, dispel good (domain spell), DC 22, fickle winds, flame strike, DC 22,
-  slay living, DC 23, wall of stone, DC 22
+- communal spell immunity, dispel good (domain spell) (DC 22), fickle winds, flame strike (DC 22),
+  slay living (DC 23), wall of stone (DC 22)
 
 **4th-level spells:**
 
 - cure critical wounds, dimensional anchor, divine power, freedom of movement, imbue with spell
-  ability (domain spell), summoner conduit, DC 22
+  ability (domain spell), summoner conduit (DC 22)
 
 **3rd-level spells:**
 
-- bestow curse, DC 21, chain of perdition, dispel magic, invisibility purge, magic circle against
+- bestow curse (DC 21), chain of perdition, dispel magic, invisibility purge, magic circle against
   good (domain spell), protection from energy, water breathing
 
 **2nd-level spells:**
 
-- align weapon (domain spell), evil only, delay poison, dread bolt, DC 19, hold person, DC 19,
-  lesser restoration, protective penumbra, sound burst, DC 19
+- align weapon (domain spell), evil only, delay poison, dread bolt (DC 19), hold person (DC 19),
+  lesser restoration, protective penumbra, sound burst (DC 19)
 
 **1st-level spells:**
 
-- cure light wounds, 2, entropic shield, murderous command, 2, DC 18, protection from good (domain
+- cure light wounds, 2, entropic shield, murderous command (2, DC 18), protection from good (domain
   spell), shield of faith
 
 **Cantrips:**

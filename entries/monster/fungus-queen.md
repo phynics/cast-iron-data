@@ -93,12 +93,12 @@ pulsating mound of fungus._
 
 **At will:**
 
-- veil, DC 23, self only
+- veil (DC 23), self only
 
 **Per day:**
 
-- 3/day: charm monster, DC 21, detect thoughts, DC 19, suggestion, DC 20
-- 1/day: dominate person, DC 22, mind fog, DC 22slow, DC 20
+- 3/day: charm monster (DC 21), detect thoughts (DC 19), suggestion (DC 20)
+- 1/day: dominate person (DC 22), mind fog (DC 22), slow (DC 20)
 
 **Statistics**
 

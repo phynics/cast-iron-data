@@ -92,7 +92,7 @@ heat._
 
 **At will:**
 
-- dancing lights, ghost sound, DC 11, prestidigitation
+- dancing lights, ghost sound (DC 11), prestidigitation
 
 **Per day:**
 

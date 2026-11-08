@@ -82,17 +82,17 @@ abilities = ["-", "26", "24", "17", "20", "20"]
 
 **At will:**
 
-- bleed, DC 15, ghost sound (domain spell), DC 15, greater teleport, self plus 50 lbs. of objects
-  only, knock (domain spell), DC 17, levitate (domain spell), DC 17, major image (domain spell), DC
-  18, prestidigitation (domain spell), DC 15, unseen servant (domain spell), DC 16
+- bleed (DC 15), ghost sound (domain spell) (DC 15), greater teleport, self plus 50 lbs. of objects
+  only, knock (domain spell) (DC 17), levitate (domain spell) (DC 17), major image (domain spell)
+  (DC 18), prestidigitation (domain spell) (DC 15), unseen servant (domain spell) (DC 16)
 
 **Per day:**
 
-- 3/day: animate dead, animate rope (domain spell), DC 16, bestow curse, DC 19, contagion, DC 19,
-  dancing lights (domain spell), DC 15, ethereal jaunt, Ethereal Plane to Material Plane and vice
-  versa, gust of wind (domain spell), DC 17, major creation, plane shift, self only; to Ethereal
-  Plane, Hell, or Material Plane only, produce flame (domain spell), DC 16, stinking cloud, DC 18,
-  suggestion, DC 18
+- 3/day: animate dead, animate rope (domain spell) (DC 16), bestow curse (DC 19), contagion (DC 19),
+  dancing lights (domain spell) (DC 15), ethereal jaunt, Ethereal Plane to Material Plane and vice
+  versa, gust of wind (domain spell) (DC 17), major creation, plane shift, self only; to Ethereal
+  Plane, Hell, or Material Plane only, produce flame (domain spell) (DC 16), stinking cloud (DC 18),
+  suggestion (DC 18)
 - 1/day: &S level 5; 1d4
   [lesser possession devils](ref/monster/devil-possession-devil-lesser-gidim); 40%
 

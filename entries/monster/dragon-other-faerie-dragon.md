@@ -89,11 +89,11 @@ _A pair of brightly colored butterfly wings sprouts from the back of this miniat
 
 **1st-level spells:**
 
-- 6/day: grease, DC 14, silent image, DC 14, sleep, DC 14
+- 6/day: grease (DC 14), silent image (DC 14), sleep (DC 14)
 
 **Cantrips:**
 
-- At will: dancing lights, flare, DC 13, ghost sound, DC 13, mage hand, open/close
+- At will: dancing lights, flare (DC 13), ghost sound (DC 13), mage hand, open/close
 
 **Statistics**
 

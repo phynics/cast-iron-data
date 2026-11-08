@@ -91,7 +91,7 @@ and skin the color of a snow-buried corpse._
 
 **Per day:**
 
-- 3/day: cause fear, DC 13, locate creature, teleport, self plus 50 lbs. of objects only
+- 3/day: cause fear (DC 13), locate creature, teleport, self plus 50 lbs. of objects only
 - 1/day: righteous might, &S level 3; 1 andrazku 25%
 
 **Statistics**

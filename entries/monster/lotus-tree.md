@@ -91,15 +91,15 @@ scent._
 
 **Constant:**
 
-- detect thoughts, DC 23
+- detect thoughts (DC 23)
 
 **At will:**
 
-- mass suggestion, DC 25, mind thrust VI, DC 27
+- mass suggestion (DC 25), mind thrust VI (DC 27)
 
 **Per day:**
 
-- 1/day: animate plants, DC 26; self unaffected, weird, DC 28
+- 1/day: animate plants, DC 26; self unaffected, weird (DC 28)
 
 **Psychic Magic**
 

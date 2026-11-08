@@ -105,11 +105,11 @@ crowning its broad head._
 **At will:**
 
 - align weapon, detect magic, greater teleport, self plus 50 lbs. of objects only, magic circle
-  against good, telekinesis, DC 23
+  against good, telekinesis (DC 23)
 
 **Per day:**
 
-- 3/day: blasphemy, DC 25, disintegrate, DC 24, dispel magic, forcecage, DC 25, protection from
+- 3/day: blasphemy (DC 25), disintegrate (DC 24), dispel magic, forcecage (DC 25), protection from
   energy
 - 1/day: geas/quest, plane shift, &S level 6; 1d2 [sepids](ref/monster/div-sepid) 100%
 

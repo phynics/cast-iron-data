@@ -88,13 +88,13 @@ _A tall, handsome woman sits astride a white horse. She grips an elegant longbow
 
 **At will:**
 
-- chill touch, DC 16, detect thoughts, DC 17, zone of truth, DC 17
+- chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
 
 **Per day:**
 
 - 5/day: ice storm, daybreak arrow
-- 3/day: charm monster, DC 19, cone of cold, DC 20
-- 1/day: mass suggestion, DC 21
+- 3/day: charm monster (DC 19), cone of cold (DC 20)
+- 1/day: mass suggestion (DC 21)
 
 **Statistics**
 

@@ -107,35 +107,35 @@ tail._
 
 **9th-level spells:**
 
-- 6/day: dominate monster, DC 26, foresight, time stop
+- 6/day: dominate monster (DC 26), foresight, time stop
 
 **8th-level spells:**
 
-- 6/day: greater prying eyes, maze, sunburst, DC 25
+- 6/day: greater prying eyes, maze, sunburst (DC 25)
 
 **7th-level spells:**
 
-- 7/day: greater arcane sight, greater scrying, DC 24, greater teleport
+- 7/day: greater arcane sight, greater scrying (DC 24), greater teleport
 
 **6th-level spells:**
 
-- 7/day: disintegrate, DC 23, mass suggestion, DC 23, shadow walk, DC 23
+- 7/day: disintegrate (DC 23), mass suggestion (DC 23), shadow walk (DC 23)
 
 **5th-level spells:**
 
-- 7/day: cone of cold, DC 22, feeblemind, DC 22, hold monster, DC 22, wall of force
+- 7/day: cone of cold (DC 22), feeblemind (DC 22), hold monster (DC 22), wall of force
 
 **4th-level spells:**
 
-- 7/day: arcane eye, bestow curse, DC 21, dimension door, stone shape
+- 7/day: arcane eye, bestow curse (DC 21), dimension door, stone shape
 
 **3rd-level spells:**
 
-- 8/day: clairaudience/clairvoyance, dispel magic, haste, ray of exhaustion, DC 20
+- 8/day: clairaudience/clairvoyance, dispel magic, haste, ray of exhaustion (DC 20)
 
 **2nd-level spells:**
 
-- 8/day: blur, glitterdust, DC 19, invisibility, mirror image, whispering wind
+- 8/day: blur, glitterdust (DC 19), invisibility, mirror image, whispering wind
 
 **1st-level spells:**
 
@@ -143,7 +143,7 @@ tail._
 
 **Cantrips:**
 
-- At will: arcane mark, bleed, DC 17, dancing lights, detect magic, ghost sound, DC 17, mage hand,
+- At will: arcane mark, bleed (DC 17), dancing lights, detect magic, ghost sound (DC 17), mage hand,
   message, prestidigitation, read magic
 
 **Statistics**

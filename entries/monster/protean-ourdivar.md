@@ -93,7 +93,7 @@ ends in a serpentine tail._
 
 **Per day:**
 
-- 3/day: color spray, DC 13
+- 3/day: color spray (DC 13)
 - 1/day: dispel magic, rage
 
 **Statistics**

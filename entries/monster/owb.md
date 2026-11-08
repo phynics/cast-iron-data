@@ -89,7 +89,7 @@ clearly revealing its shape._
 
 **At will:**
 
-- deeper darkness, detect thoughts, dust of twilight, DC 15
+- deeper darkness, detect thoughts, dust of twilight (DC 15)
 
 **Per day:**
 

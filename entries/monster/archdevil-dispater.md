@@ -98,19 +98,19 @@ petrification, poison
 
 **Constant:**
 
-- detect chaos, detect good, fly, mind blank, shield of law, DC 29, true seeing
+- detect chaos, detect good, fly, mind blank, shield of law (DC 29), true seeing
 
 **At will:**
 
-- astral projection, charm monster, DC 27, desecrate (mythic spell), dictum (mythic spell), DC 28,
-  dominate person, DC 28, greater dispel magic, greater teleport, iron body, order's wrath (mythic
-  spell), DC 25, unhallow, wall of iron
+- astral projection, charm monster (DC 27), desecrate (mythic spell), dictum (mythic spell) (DC 28),
+  dominate person (DC 28), greater dispel magic, greater teleport, iron body, order's wrath (mythic
+  spell) (DC 25), unhallow, wall of iron
 
 **Per day:**
 
-- 3/day: &Q blade barrier (mythic spell), DC 27, forcecage, DC 28, geas/quest, summon devils, symbol
-  of pain, DC 27
-- 1/day: imprisonment, DC 30, time stop (mythic spell), wish (mythic spell)
+- 3/day: &Q blade barrier (mythic spell) (DC 27), forcecage (DC 28), geas/quest, summon devils,
+  symbol of pain (DC 27)
+- 1/day: imprisonment (DC 30), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

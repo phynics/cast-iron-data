@@ -94,13 +94,13 @@ her._
 
 **At will:**
 
-- charm person, DC 16, detect magic, detect good, greater teleport, self plus 50 lbs. of objects
+- charm person (DC 16), detect magic, detect good, greater teleport, self plus 50 lbs. of objects
   only, protection from good
 
 **Per day:**
 
-- 3/day: blink, calm emotions, DC 19, fly
-- 1/day: dominate person, DC 20, &S level 6; 1 wihsaak 40%
+- 3/day: blink, calm emotions (DC 19), fly
+- 1/day: dominate person (DC 20), &S level 6; 1 wihsaak 40%
 
 **Statistics**
 

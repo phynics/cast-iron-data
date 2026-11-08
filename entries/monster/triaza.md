@@ -98,7 +98,7 @@ combat, spell recall, spellstrike, strength damage
 
 **Per day:**
 
-- 3/day: align weapon, death knell, DC 12, ray of enfeeblement, DC 12
+- 3/day: align weapon, death knell (DC 12), ray of enfeeblement (DC 12)
 
 **Prepared Spells**
 
@@ -112,15 +112,15 @@ combat, spell recall, spellstrike, strength damage
 
 **2nd-level spells:**
 
-- glitterdust, DC 16, scorching ray, shatter, DC 16, spider climb
+- glitterdust (DC 16), scorching ray, shatter (DC 16), spider climb
 
 **1st-level spells:**
 
-- shield, shocking grasp, 2, true strike, vanish, DC 15
+- shield, shocking grasp, 2, true strike, vanish (DC 15)
 
 **Cantrips:**
 
-- daze, DC 14, detect magic, ghost sound, DC 14, mage hand, read magic
+- daze (DC 14), detect magic, ghost sound (DC 14), mage hand, read magic
 
 **Statistics**
 

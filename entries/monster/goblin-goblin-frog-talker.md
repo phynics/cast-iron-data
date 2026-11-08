@@ -81,19 +81,19 @@ abilities = ["6", "17", "14", "16", "12", "8"]
 
 **3rd-level spells:**
 
-- blink, lightning bolt, DC 16, spit venom, DC 16
+- blink, lightning bolt (DC 16), spit venom (DC 16)
 
 **2nd-level spells:**
 
-- feast of ashes, DC 15, frost fall, DC 15, invisibility, vomit swarm
+- feast of ashes (DC 15), frost fall (DC 15), invisibility, vomit swarm
 
 **1st-level spells:**
 
-- command, DC 14, mage armor, obscuring mist, sleep, DC 14
+- command (DC 14), mage armor, obscuring mist, sleep (DC 14)
 
 **Cantrips:**
 
-- dancing lights, daze, DC 13, detect magic, touch of fatigue, DC 13
+- dancing lights, daze (DC 13), detect magic, touch of fatigue (DC 13)
 
 **Patron**
 

@@ -100,9 +100,9 @@ withered, like a preserved corpse._
 
 **Per day:**
 
-- 3/day: cure serious wounds, dispel magic, displacement, fireball, DC 20, greater teleport, self
-  plus 50 lbs. of objects only, hold person, DC 20, lightning bolt, DC 20, limited wish, magic
-  missile, plane shift, DC 24, slow, DC 20, stinking cloud, DC 20, vampiric touch
+- 3/day: cure serious wounds, dispel magic, displacement, fireball (DC 20), greater teleport, self
+  plus 50 lbs. of objects only, hold person (DC 20), lightning bolt (DC 20), limited wish, magic
+  missile, plane shift (DC 24), slow (DC 20), stinking cloud (DC 20), vampiric touch
 
 **Statistics**
 

@@ -84,15 +84,15 @@ _This beautiful, woman moves with impossible grace, a knowing smile on her lips.
 
 **6th-level spells:**
 
-- 2/day: brilliant inspiration, irresistible dance, DC 25
+- 2/day: brilliant inspiration, irresistible dance (DC 25)
 
 **5th-level spells:**
 
-- 5/day: greater dispel magic, greater heroism, frozen note, DC 25, shadowbard
+- 5/day: greater dispel magic, greater heroism, frozen note (DC 25), shadowbard
 
 **4th-level spells:**
 
-- 6/day: break enchantment, heroic finale, legend lore, modify memory, DC 23, virtuoso performance
+- 6/day: break enchantment, heroic finale, legend lore, modify memory (DC 23), virtuoso performance
 
 **3rd-level spells:**
 
@@ -100,17 +100,17 @@ _This beautiful, woman moves with impossible grace, a knowing smile on her lips.
 
 **2nd-level spells:**
 
-- 7/day: calm emotions, DC 21, eagle's splendor, gallant inspiration, honeyed tongue, share memory,
-  DC 21, tactical acumen
+- 7/day: calm emotions (DC 21), eagle's splendor, gallant inspiration, honeyed tongue, share memory
+  (DC 21), tactical acumen
 
 **1st-level spells:**
 
-- 8/day: hideous laughter, DC 20, identify, liberating command, saving finale, solid note, timely
+- 8/day: hideous laughter (DC 20), identify, liberating command, saving finale, solid note, timely
   inspiration
 
 **Cantrips:**
 
-- At will: detect magic, ghost sound, DC 19, lullaby, DC 19, message, prestidigitation, summon
+- At will: detect magic, ghost sound (DC 19), lullaby (DC 19), message, prestidigitation, summon
   instrument
 
 **Statistics**

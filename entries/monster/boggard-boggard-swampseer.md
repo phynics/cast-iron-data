@@ -79,11 +79,11 @@ abilities = ["15", "13", "12", "10", "15", "12"]
 
 **1st-level spells:**
 
-- entangle, DC 13, hydraulic push (domain spell), longstrider, shillelagh
+- entangle (DC 13), hydraulic push (domain spell), longstrider, shillelagh
 
 **Cantrips:**
 
-- flare, DC 12, guidance, mending, resistance
+- flare (DC 12), guidance, mending, resistance
 
 **Domain**
 

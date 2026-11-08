@@ -77,7 +77,7 @@ eyes on its bulbous body._
 
 **At will:**
 
-- minor image, DC 13
+- minor image (DC 13)
 
 **Statistics**
 

@@ -94,19 +94,19 @@ _This dragon seems to be made of parts from different creatures._
 
 **7th-level spells:**
 
-- 5/day: destruction, DC 24, word of chaos
+- 5/day: destruction (DC 24), word of chaos
 
 **6th-level spells:**
 
-- 7/day: animate objects, harm, DC 23, heal
+- 7/day: animate objects, harm (DC 23), heal
 
 **5th-level spells:**
 
-- 7/day: dispel law, insect plague, plane shift, DC 22, wall of stone
+- 7/day: dispel law, insect plague, plane shift (DC 22), wall of stone
 
 **4th-level spells:**
 
-- 7/day: chaos hammer, DC 21, dismissal, DC 21, freedom of movement, tongues
+- 7/day: chaos hammer (DC 21), dismissal (DC 21), freedom of movement, tongues
 
 **3rd-level spells:**
 
@@ -114,15 +114,15 @@ _This dragon seems to be made of parts from different creatures._
 
 **2nd-level spells:**
 
-- 8/day: eagle's splendor, enthrall, DC 19, grace, lesser restoration, shatter, DC 19
+- 8/day: eagle's splendor, enthrall (DC 19), grace, lesser restoration, shatter (DC 19)
 
 **1st-level spells:**
 
-- 8/day: bless, entropic shield, obscuring mist, ray of sickening, DC 18, shield of faith
+- 8/day: bless, entropic shield, obscuring mist, ray of sickening (DC 18), shield of faith
 
 **Cantrips:**
 
-- At will: bleed, DC 17, create water, detect magic, guidance, light, read magic, resistance, spark
+- At will: bleed (DC 17), create water, detect magic, guidance, light, read magic, resistance, spark
 
 **Statistics**
 

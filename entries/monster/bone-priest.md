@@ -79,11 +79,11 @@ blue light dances in its empty eye sockets._
 
 **2nd-level spells:**
 
-- hold person, DC 15, spiritual weapon, touch of idiocy (domain spell), DC 15
+- hold person (DC 15), spiritual weapon, touch of idiocy (domain spell) (DC 15)
 
 **1st-level spells:**
 
-- cause fear, DC 14, command, DC 14, lesser confusion (domain spell), DC 14, protection from good
+- cause fear (DC 14), command (DC 14), lesser confusion (domain spell) (DC 14), protection from good
 
 **Cantrips:**
 

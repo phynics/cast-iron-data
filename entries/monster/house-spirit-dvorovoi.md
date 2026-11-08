@@ -82,12 +82,12 @@ toothy grin._
 
 **At will:**
 
-- charm animal, DC 14, hide from animals, invisibility
+- charm animal (DC 14), hide from animals, invisibility
 
 **Per day:**
 
-- 3/day: break, DC 14, reduce person, DC 14
-- 1/day: entangle, DC 14
+- 3/day: break (DC 14), reduce person (DC 14)
+- 1/day: entangle (DC 14)
 
 **Statistics**
 

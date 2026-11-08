@@ -96,19 +96,19 @@ energy drain)
 
 **Constant:**
 
-- detect good, fire shield, warm shield, freedom of movement, true seeing, unholy aura, DC 28
+- detect good, fire shield, warm shield, freedom of movement, true seeing, unholy aura (DC 28)
 
 **At will:**
 
-- astral projection, blasphemy (mythic spell), DC 27, desecrate (mythic spell), greater dispel
-  magic, greater teleport, shapechange, spiritual weapon (mythic spell), telekinesis (mythic spell),
-  DC 25, unhallow, unholy blight (mythic spell), DC 24
+- astral projection, blasphemy (mythic spell) (DC 27), desecrate (mythic spell), greater dispel
+  magic, greater teleport, shapechange, spiritual weapon (mythic spell), telekinesis (mythic spell)
+  (DC 25), unhallow, unholy blight (mythic spell) (DC 24)
 
 **Per day:**
 
-- 3/day: blade barrier (mythic spell), DC 26, fire storm (mythic spell), DC 28, incendiary cloud, DC
-  28, plane shift, DC 27, summon daemon, &Q telekinesis (mythic spell), DC 25
-- 1/day: meteor swarm (mythic spell), DC 29, time stop (mythic spell), wish (mythic spell)
+- 3/day: blade barrier (mythic spell) (DC 26), fire storm (mythic spell) (DC 28), incendiary cloud
+  (DC 28), plane shift (DC 27), summon daemon, &Q telekinesis (mythic spell) (DC 25)
+- 1/day: meteor swarm (mythic spell) (DC 29), time stop (mythic spell), wish (mythic spell)
 
 ###### M {#footnote-m}
 

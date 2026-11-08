@@ -77,7 +77,7 @@ _This muscular, fiery-skinned man has flaming hair and spotted horns upon his br
 
 **Per day:**
 
-- 6/day: burning hands, DC 15, elemental ray, 1d6 fire
+- 6/day: burning hands (DC 15), elemental ray, 1d6 fire
 
 **Spells Known**
 
@@ -87,11 +87,11 @@ _This muscular, fiery-skinned man has flaming hair and spotted horns upon his br
 
 **1st-level spells:**
 
-- 4/day: burning hands, DC 15, mage armor
+- 4/day: burning hands (DC 15), mage armor
 
 **Cantrips:**
 
-- At will: acid splash, detect magic, flare, DC 14, prestidigitation
+- At will: acid splash, detect magic, flare (DC 14), prestidigitation
 
 **Bloodline**
 

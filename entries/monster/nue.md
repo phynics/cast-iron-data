@@ -79,8 +79,8 @@ of a tiger with a viper as a tail._
 
 **Per day:**
 
-- 3/day: contagion, DC 14, hold person, DC 13
-- 1/day: nightmare, DC 15, shout, DC 14, waves of fatigue
+- 3/day: contagion (DC 14), hold person (DC 13)
+- 1/day: nightmare (DC 15), shout (DC 14), waves of fatigue
 
 **Statistics**
 

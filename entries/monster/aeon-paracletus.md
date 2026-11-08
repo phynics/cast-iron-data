@@ -82,11 +82,11 @@ gemstones._
 
 **At will:**
 
-- sanctuary, DC 12
+- sanctuary (DC 12)
 
 **Per day:**
 
-- 3/day: calm emotions, DC 13
+- 3/day: calm emotions (DC 13)
 
 **Per week:**
 

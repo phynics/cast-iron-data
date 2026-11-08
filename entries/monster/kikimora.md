@@ -79,8 +79,8 @@ feet._
 
 **Per day:**
 
-- 3/day: break, DC 16, charm animal, DC 16, deep slumber, DC 18, pain strike, DC 16
-- 1/day: major image, DC 18, make whole, summon swarm
+- 3/day: break (DC 16), charm animal (DC 16), deep slumber (DC 18), pain strike (DC 16)
+- 1/day: major image (DC 18), make whole, summon swarm
 
 **Statistics**
 

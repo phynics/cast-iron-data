@@ -95,11 +95,11 @@ burn and stoke flames)
 
 **At will:**
 
-- detect thoughts, DC 17, ethereal jaunt, invisibility, plane shift, DC 22
+- detect thoughts (DC 17), ethereal jaunt, invisibility, plane shift (DC 22)
 
 **Per day:**
 
-- 1/day: sunburst, DC 24
+- 1/day: sunburst (DC 24)
 
 **Spells Known**
 
@@ -109,34 +109,34 @@ burn and stoke flames)
 
 **6th-level spells:**
 
-- 4/day: holy word, DC 22
+- 4/day: holy word (DC 22)
 
 **5th-level spells:**
 
-- 6/day: dismissal, DC 21, flame strike
+- 6/day: dismissal (DC 21), flame strike
 
 **4th-level spells:**
 
-- 7/day: dispel evil, DC 20, holy smite, wall of fire
+- 7/day: dispel evil (DC 20), holy smite, wall of fire
 
 **3rd-level spells:**
 
-- 7/day: daylight, dispel magic, fireball, DC 19, searing light, DC 19
+- 7/day: daylight, dispel magic, fireball (DC 19), searing light (DC 19)
 
 **2nd-level spells:**
 
-- 8/day: castigate, DC 18, eagle's splendor, flaming sphere, DC 18, gust of wind, DC 18, scorching
-  ray
+- 8/day: castigate (DC 18), eagle's splendor, flaming sphere (DC 18), gust of wind (DC 18),
+  scorching ray
 
 **1st-level spells:**
 
-- 8/day: burning hands, DC 17, charm person, DC 17, comprehend languages, magic missile, protection
-  from evil
+- 8/day: burning hands (DC 17), charm person (DC 17), comprehend languages, magic missile,
+  protection from evil
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 16, detect magic, flare, DC 16, light, mage hand, message, read
-  magic, resistance
+- At will: dancing lights, daze (DC 16), detect magic, flare (DC 16), light, mage hand, message,
+  read magic, resistance
 
 **Statistics**
 

@@ -110,13 +110,13 @@ vengeful dreams
 
 **At will:**
 
-- cloudkill, DC 23, dimension door, dream, greater dispel magic, hallucinatory terrain, nightmare,
-  DC 23, plane shift, transmute rock to mud, wind walk
+- cloudkill (DC 23), dimension door, dream, greater dispel magic, hallucinatory terrain, nightmare
+  (DC 23), plane shift, transmute rock to mud, wind walk
 
 **Per day:**
 
-- 3/day: demand, &Q feeblemind, DC 23, horrid wilting, DC 26
-- 1/day: control weather, symbol of insanity, DC 26, tsunami, DC 26
+- 3/day: demand, &Q feeblemind (DC 23), horrid wilting (DC 26)
+- 1/day: control weather, symbol of insanity (DC 26), tsunami (DC 26)
 
 **Statistics**
 

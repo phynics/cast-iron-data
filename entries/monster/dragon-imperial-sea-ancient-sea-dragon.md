@@ -90,7 +90,7 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **At will:**
 
-- control water, call lightning, DC 20, create water, hydraulic push, water walk
+- control water, call lightning (DC 20), create water, hydraulic push, water walk
 
 **Spells Known**
 
@@ -100,35 +100,35 @@ abilities = ["35", "8", "25", "24", "25", "24"]
 
 **7th-level spells:**
 
-- 5/day: insanity, DC 24, plane shift, DC 24
+- 5/day: insanity (DC 24), plane shift (DC 24)
 
 **6th-level spells:**
 
-- 7/day: chain lightning, DC 23, freezing sphere, DC 23, forceful hand
+- 7/day: chain lightning (DC 23), freezing sphere (DC 23), forceful hand
 
 **5th-level spells:**
 
-- 7/day: cone of cold, DC 22, dream, mind fog, DC 22, persistent image, DC 22
+- 7/day: cone of cold (DC 22), dream, mind fog (DC 22), persistent image (DC 22)
 
 **4th-level spells:**
 
-- 7/day: black tentacles, confusion, DC 21, lesser geas, DC 21, rainbow pattern, DC 21
+- 7/day: black tentacles, confusion (DC 21), lesser geas (DC 21), rainbow pattern (DC 21)
 
 **3rd-level spells:**
 
-- 8/day: haste, hold person, DC 20, lightning bolt, DC 20, sleet storm
+- 8/day: haste, hold person (DC 20), lightning bolt (DC 20), sleet storm
 
 **2nd-level spells:**
 
-- 8/day: gust of wind, DC 19, mirror image, obscure object, scare, DC 19, see invisibility
+- 8/day: gust of wind (DC 19), mirror image, obscure object, scare (DC 19), see invisibility
 
 **1st-level spells:**
 
-- 8/day: charm person, DC 18, chill touch, color spray, DC 18, expeditious retreat, sleep
+- 8/day: charm person (DC 18), chill touch, color spray (DC 18), expeditious retreat, sleep
 
 **Cantrips:**
 
-- At will: acid splash, daze, DC 17, detect magic, ghost sound, mage hand, message, ray of frost,
+- At will: acid splash, daze (DC 17), detect magic, ghost sound, mage hand, message, ray of frost,
   read magic, resistance
 
 **Statistics**

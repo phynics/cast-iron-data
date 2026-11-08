@@ -79,7 +79,7 @@ pointed ears twitch at every sound._
 
 **At will:**
 
-- flare, DC 10, scare, DC 12, shatter, DC 12
+- flare (DC 10), scare (DC 12), shatter (DC 12)
 
 **Statistics**
 

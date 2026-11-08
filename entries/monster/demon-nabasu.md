@@ -84,12 +84,12 @@ scaly hide._
 
 **At will:**
 
-- deeper darkness, greater teleport, self plus 50 lbs. of objects only, telekinesis, DC 19
+- deeper darkness, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 19)
 
 **Per day:**
 
-- 3/day: enervation, silence, DC 16, vampiric touch
-- 1/day: mass hold person, DC 21, regenerate, &S level 4; 1 nabasu 30% or 1d4 babaus 30%
+- 3/day: enervation, silence (DC 16), vampiric touch
+- 1/day: mass hold person (DC 21), regenerate, &S level 4; 1 nabasu 30% or 1d4 babaus 30%
 
 **Statistics**
 

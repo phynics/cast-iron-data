@@ -103,16 +103,16 @@ body of a four-armed giant._
 
 **Constant:**
 
-- detect chaos, detect law, detect magic, shield of law, DC 24, true seeing
+- detect chaos, detect law, detect magic, shield of law (DC 24), true seeing
 
 **At will:**
 
-- arrow of law, DC 18, greater dispel magic, order's wrath, DC 20
+- arrow of law (DC 18), greater dispel magic, order's wrath (DC 20)
 
 **Per day:**
 
-- 3/day: circle of clarity, dispel chaos, DC 21, greater forbid action, DC 21, hold monster, DC 21,
-  dictum, DC 23, summon monster IX, lawful creatures only
+- 3/day: circle of clarity, dispel chaos (DC 21), greater forbid action (DC 21), hold monster (DC
+  21), dictum (DC 23), summon monster IX, lawful creatures only
 - 1/day: gate, planar travel only
 
 **Statistics**

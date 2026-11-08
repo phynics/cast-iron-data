@@ -89,14 +89,14 @@ _Twice the height of a human, this horned monstrous warrior wields a massive bla
 **At will:**
 
 - comprehend languages, deeper darkness, greater teleport, self plus 50 lbs. of objects only,
-  nondetection, speak with dead, DC 19
+  nondetection, speak with dead (DC 19)
 
 **Per day:**
 
-- 3/day: blindness/deafness, DC 18, fly, ice storm, invisibility, mirror image, scorching ray, touch
-  of idiocy, true strike
-- 1/day: animate dead, baleful polymorph, DC 21, bestow curse, DC 20, break enchantment, create
-  undead, disintegrate, DC 22, enervation, fireball, DC 19, hold monster, DC 21, &S level 4; 1
+- 3/day: blindness/deafness (DC 18), fly, ice storm, invisibility, mirror image, scorching ray,
+  touch of idiocy, true strike
+- 1/day: animate dead, baleful polymorph (DC 21), bestow curse (DC 20), break enchantment, create
+  undead, disintegrate (DC 22), enervation, fireball (DC 19), hold monster (DC 21), &S level 4; 1
   [ghawwas](ref/monster/div-ghawwas) or 1 [shira](ref/monster/div-shira) 40%, true seeing
 
 **Statistics**

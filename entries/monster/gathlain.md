@@ -83,11 +83,11 @@ _Wings composed of wood and vines grow out of the body of this lithesome fey._
 
 **1st-level spells:**
 
-- 4/day: color spray, DC 14, magic missile
+- 4/day: color spray (DC 14), magic missile
 
 **Cantrips:**
 
-- At will: dancing lights, daze, DC 15, ghost sound, DC 13, ray of frost
+- At will: dancing lights, daze (DC 15), ghost sound (DC 13), ray of frost
 
 **Bloodline**
 

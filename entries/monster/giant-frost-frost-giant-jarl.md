@@ -100,7 +100,7 @@ abilities = ["32", "19", "27", "12", "12", "10"]
 
 **1st-level spells:**
 
-- call animal, charm animal, DC 12, lead blades
+- call animal, charm animal (DC 12), lead blades
 
 ### Tactics
 

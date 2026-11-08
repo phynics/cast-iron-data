@@ -83,7 +83,7 @@ clawed arms work together to slash the air with a vicious-looking spear._
 **At will:**
 
 - dancing lights, detect magic, greater teleport, self plus 50 lbs. of objects only, mage hand,
-  ventriloquism, DC 10
+  ventriloquism (DC 10)
 
 **Statistics**
 

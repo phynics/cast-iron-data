@@ -86,15 +86,15 @@ or effects
 
 **2nd-level spells:**
 
-- 4/day: eagle's splendor, minor image, DC 14, mirror image, summon monster II
+- 4/day: eagle's splendor, minor image (DC 14), mirror image, summon monster II
 
 **1st-level spells:**
 
-- 5/day: charm person, DC 13, cure light wounds, disguise self, summon monster I
+- 5/day: charm person (DC 13), cure light wounds, disguise self, summon monster I
 
 **Cantrips:**
 
-- At will: dancing lights, detect magic, flare, DC 12, mending, prestidigitation, resistance
+- At will: dancing lights, detect magic, flare (DC 12), mending, prestidigitation, resistance
 
 **Statistics**
 

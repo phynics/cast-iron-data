@@ -90,12 +90,12 @@ _This giant's skin is black and pitted, like roughly cast iron, and etched with 
 
 **At will:**
 
-- charm person, DC 15, suggestion, DC 17
+- charm person (DC 15), suggestion (DC 17)
 
 **Per day:**
 
-- 3/day: mass charm monster, DC 22, dominate person, DC 19
-- 1/day: demand, DC 22, true seeing
+- 3/day: mass charm monster (DC 22), dominate person (DC 19)
+- 1/day: demand (DC 22), true seeing
 
 **Statistics**
 

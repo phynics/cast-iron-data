@@ -103,18 +103,18 @@ a whip of flames._
 
 **Constant:**
 
-- true seeing, unholy aura, DC 27
+- true seeing, unholy aura (DC 27)
 
 **At will:**
 
-- dominate monster, DC 28, greater dispel magic, greater teleport, self plus 50 lbs. of objects
-  only, power word stun, telekinesis, DC 24
+- dominate monster (DC 28), greater dispel magic, greater teleport, self plus 50 lbs. of objects
+  only, power word stun, telekinesis (DC 24)
 
 **Per day:**
 
-- 3/day: &Q telekinesis, DC 24
-- 1/day: blasphemy, DC 26, fire storm, DC 27, implosion, DC 28, &S level 9; any one CR 19 or lower
-  demon 100%
+- 3/day: &Q telekinesis (DC 24)
+- 1/day: blasphemy (DC 26), fire storm (DC 27), implosion (DC 28), &S level 9; any one CR 19 or
+  lower demon 100%
 
 **Statistics**
 

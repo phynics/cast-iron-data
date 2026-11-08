@@ -97,11 +97,11 @@ rotting wings of a carrion bird._
 
 **At will:**
 
-- contagion, DC 17, dispel magic, greater teleport, self plus 50 lbs. of objects only
+- contagion (DC 17), dispel magic, greater teleport, self plus 50 lbs. of objects only
 
 **Per day:**
 
-- 1/day: harm, DC 19, &S level 3; 1 leukodaemon only; 35%
+- 1/day: harm (DC 19), &S level 3; 1 leukodaemon only; 35%
 
 **Statistics**
 

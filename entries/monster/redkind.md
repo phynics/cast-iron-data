@@ -74,11 +74,11 @@ _Vicious shadows wrap around the form of this pudgy, white-eyed child._
 
 **At will:**
 
-- dancing lights, darkness, detect thoughts, DC 13, ghost sound, DC 12, lullaby, DC 12
+- dancing lights, darkness, detect thoughts (DC 13), ghost sound (DC 12), lullaby (DC 12)
 
 **Per day:**
 
-- 1/day: grease, minor image, DC 14, snare
+- 1/day: grease, minor image (DC 14), snare
 
 **Statistics**
 

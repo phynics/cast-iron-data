@@ -90,7 +90,7 @@ Low-light vision, Spirit-sense
 
 **At will:**
 
-- etherealness, invisibility, self only, mass cure moderate wounds, DC 19, harm undead only,
+- etherealness, invisibility, self only, mass cure moderate wounds (DC 19), harm undead only,
   protection from evil, protection from good, searing light
 
 **Per day:**

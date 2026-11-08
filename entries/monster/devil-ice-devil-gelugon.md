@@ -91,8 +91,8 @@ tail +14 (3d6+3 plus slow)
 
 **At will:**
 
-- cone of cold, DC 20, ice storm, greater teleport, self plus 50 lbs. of objects only, persistent
-  image, DC 20, wall of ice, DC 19
+- cone of cold (DC 20), ice storm, greater teleport, self plus 50 lbs. of objects only, persistent
+  image (DC 20), wall of ice (DC 19)
 
 **Per day:**
 

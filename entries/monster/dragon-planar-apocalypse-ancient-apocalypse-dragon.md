@@ -95,35 +95,36 @@ _Gangrenous wounds mar this dragon's twisted body._
 
 **7th-level spells:**
 
-- 5/day: blasphemy, DC 24, control weather
+- 5/day: blasphemy (DC 24), control weather
 
 **6th-level spells:**
 
-- 7/day: heal, plague storm, DC 23, word of recall
+- 7/day: heal, plague storm (DC 23), word of recall
 
 **5th-level spells:**
 
-- 7/day: cleanse, dispel good, flame strike, DC 22, plane shift, DC 22
+- 7/day: cleanse, dispel good, flame strike (DC 22), plane shift (DC 22)
 
 **4th-level spells:**
 
-- 7/day: dimensional anchor, dismissal, DC 21, giant vermin, unholy blight, DC 21
+- 7/day: dimensional anchor, dismissal (DC 21), giant vermin, unholy blight (DC 21)
 
 **3rd-level spells:**
 
-- 8/day: bestow curse, DC 20, blindness/deafness, DC 20, contagion, DC 20, dispel magic
+- 8/day: bestow curse (DC 20), blindness/deafness (DC 20), contagion (DC 20), dispel magic
 
 **2nd-level spells:**
 
-- 8/day: aid, darkness, death knell, DC 19, disfiguring touch, DC 19, silence, DC 19
+- 8/day: aid, darkness, death knell (DC 19), disfiguring touch (DC 19), silence (DC 19)
 
 **1st-level spells:**
 
-- 8/day: doom, DC 18, endure elements, obscuring mist, protection from good, ray of sickening, DC 18
+- 8/day: doom (DC 18), endure elements, obscuring mist, protection from good, ray of sickening (DC
+  18)
 
 **Cantrips:**
 
-- At will: bleed, DC 17, create water, detect magic, detect poison, guidance, light, read magic,
+- At will: bleed (DC 17), create water, detect magic, detect poison, guidance, light, read magic,
   spark
 
 **Statistics**

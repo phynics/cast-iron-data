@@ -85,12 +85,12 @@ _This muscular, violet demon walks upon elephantine feet. Large, razor-sharp hor
 
 **At will:**
 
-- command, DC 14, greater teleport, self plus 50 lbs. of objects only, telekinesis, DC 18
+- command (DC 14), greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 18)
 
 **Per day:**
 
-- 3/day: air walk, dominate person, DC 18, haste
-- 1/day: greater command, DC 18, &S level 4; 1 kalavakus 40%, symbol of persuasion, DC 19
+- 3/day: air walk, dominate person (DC 18), haste
+- 1/day: greater command (DC 18), &S level 4; 1 kalavakus 40%, symbol of persuasion (DC 19)
 
 **Statistics**
 

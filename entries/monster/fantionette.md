@@ -87,12 +87,12 @@ arms._
 
 **At will:**
 
-- bleed, DC 14, charm person, DC 14, dancing lights, ghost sound, DC 14
+- bleed (DC 14), charm person (DC 14), dancing lights, ghost sound (DC 14)
 
 **Per day:**
 
 - 3/day: darkness, dimension door, spiritual weapon
-- 1/day: glitterdust, DC 15, scare, DC 15
+- 1/day: glitterdust (DC 15), scare (DC 15)
 
 **Statistics**
 

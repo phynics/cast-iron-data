@@ -87,8 +87,8 @@ with a winged helm._
 
 **Per day:**
 
-- 1/day: confusion, DC 16, deep slumber, DC 15, entangle, DC 13, glitterdust, DC 14, major image, DC
-  15
+- 1/day: confusion (DC 16), deep slumber (DC 15), entangle (DC 13), glitterdust (DC 14), major image
+  (DC 15)
 
 **Statistics**
 

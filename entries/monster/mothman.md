@@ -79,13 +79,13 @@ from its narrow face._
 
 **At will:**
 
-- detect thoughts, DC 16, ghost sound, DC 14, misdirection, DC 16
+- detect thoughts (DC 16), ghost sound (DC 14), misdirection (DC 16)
 
 **Per day:**
 
-- 3/day: greater invisibility, major image, DC 17, modify memory, DC 18, nightmare, DC 19,
-  phantasmal killer, DC 18, shadow walk, DC 20, suggestion, DC 17
-- 1/day: agent of fate, false vision, mind fog, DC 19, mislead, DC 20, project image, DC 21
+- 3/day: greater invisibility, major image (DC 17), modify memory (DC 18), nightmare (DC 19),
+  phantasmal killer (DC 18), shadow walk (DC 20), suggestion (DC 17)
+- 1/day: agent of fate, false vision, mind fog (DC 19), mislead (DC 20), project image (DC 21)
 
 **Statistics**
 

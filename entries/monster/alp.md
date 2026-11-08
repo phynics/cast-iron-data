@@ -90,11 +90,11 @@ mouth._
 
 **At will:**
 
-- deep slumber, DC 16, prestidigitation
+- deep slumber (DC 16), prestidigitation
 
 **Per day:**
 
-- 3/day: nightmare, DC 18, putrefy food and drink
+- 3/day: nightmare (DC 18), putrefy food and drink
 - 1/day: greater invisibility, self only
 
 **Statistics**

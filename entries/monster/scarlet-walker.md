@@ -103,8 +103,8 @@ but some horrid mix of the two._
 
 **Per day:**
 
-- 3/day: confusion, DC 19, demand, DC 23, &Q lesser confusion, DC 16
-- 1/day: feeblemind, DC 20, insanity, DC 22, true seeing
+- 3/day: confusion (DC 19), demand (DC 23), &Q lesser confusion (DC 16)
+- 1/day: feeblemind (DC 20), insanity (DC 22), true seeing
 
 **Statistics**
 

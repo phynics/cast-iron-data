@@ -81,11 +81,11 @@ made of humanoid teeth and clutches a tooth-studded scepter._
 
 **At will:**
 
-- fumbletongue, DC 13, mage hand, open/close
+- fumbletongue (DC 13), mage hand, open/close
 
 **Per day:**
 
-- 1/day: hold animal, DC 14, hold person, DC 14, invisibility, self only, ventriloquism, DC 13
+- 1/day: hold animal (DC 14), hold person (DC 14), invisibility, self only, ventriloquism (DC 13)
 
 **Statistics**
 

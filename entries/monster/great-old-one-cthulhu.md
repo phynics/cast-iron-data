@@ -108,13 +108,13 @@ grab)
 
 **At will:**
 
-- astral projection, control weather, dream, greater dispel magic, greater teleport, insanity, DC
-  29, nightmare, DC 29, sending
+- astral projection, control weather, dream, greater dispel magic, greater teleport, insanity (DC
+  29), nightmare (DC 29), sending
 
 **Per day:**
 
-- 3/day: antipathy, DC 30, demand, DC 30, &Q feeblemind, gate, weird, DC 31
-- 1/day: implosion, DC 31, &S, level 9; 2d4 star-spawn of Cthulhu 100%, symbol of insanity, DC 30,
+- 3/day: antipathy (DC 30), demand (DC 30), &Q feeblemind, gate, weird (DC 31)
+- 1/day: implosion (DC 31), &S, level 9; 2d4 star-spawn of Cthulhu 100%, symbol of insanity (DC 30),
   wish
 
 **Statistics**

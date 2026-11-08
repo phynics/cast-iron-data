@@ -91,22 +91,22 @@ her most disturbing feature._
 
 **Constant:**
 
-- fly, tongues, true seeing, unholy aura, DC 26
+- fly, tongues, true seeing, unholy aura (DC 26)
 
 **At will:**
 
-- charm monster, DC 22, detect thoughts, DC 20, greater teleport, self plus 50 lbs. of objects only,
-  suggestion, DC 21, telekinesis, DC 23
+- charm monster (DC 22), detect thoughts (DC 20), greater teleport, self plus 50 lbs. of objects
+  only, suggestion (DC 21), telekinesis (DC 23)
 
 **Per day:**
 
-- 3/day: &Q charm monster, DC 22, persistent image, DC 23, seeming, DC 23
-- 1/day: demand, DC 26, dominate monster, DC 27, project image, DC 25, &S level 5; 1 lilitu 20%; 1d2
-  glabrezus 40%; or 1d6 vrocks 50%
+- 3/day: &Q charm monster (DC 22), persistent image (DC 23), seeming (DC 23)
+- 1/day: demand (DC 26), dominate monster (DC 27), project image (DC 25), &S level 5; 1 lilitu 20%;
+  1d2 glabrezus 40%; or 1d6 vrocks 50%
 
 **Per week:**
 
-- binding, DC 26, wish, granted to a mortal humanoid only
+- binding (DC 26), wish, granted to a mortal humanoid only
 
 **Statistics**
 

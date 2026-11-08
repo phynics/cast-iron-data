@@ -93,15 +93,15 @@ slap +26 (2d6+6)\#N
 
 **At will:**
 
-- gaseous form, greater invisibility, DC 21, greater teleport, self plus 50 lbs. of objects only,
+- gaseous form, greater invisibility (DC 21), greater teleport, self plus 50 lbs. of objects only,
   scorching ray, whispering wind
 
 **Per day:**
 
-- 3/day: blasphemy, DC 24, dispel magic, ethereal jaunt, harm, DC 23, heal, DC 23, hold monster, DC
-  22, wall of stone
-- 1/day: greater scrying, DC 21, &S level 7; [horned devil](ref/monster/devil-horned-devil-cornugon)
-  60%, unhallow
+- 3/day: blasphemy (DC 24), dispel magic, ethereal jaunt, harm (DC 23), heal (DC 23), hold monster
+  (DC 22), wall of stone
+- 1/day: greater scrying (DC 21), &S level 7;
+  [horned devil](ref/monster/devil-horned-devil-cornugon) 60%, unhallow
 
 ###### N {#footnote-n}
 

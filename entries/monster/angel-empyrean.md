@@ -98,7 +98,7 @@ composed of wispy blue light._
 
 **Constant:**
 
-- detect evil, detect snares and pits, discern lies, DC 21, true seeing
+- detect evil, detect snares and pits, discern lies (DC 21), true seeing
 
 **At will:**
 
@@ -108,8 +108,8 @@ composed of wispy blue light._
 
 **Per day:**
 
-- 3/day: blade barrier, DC 23, dispel evil, DC 22, heal, DC 23, mass charm monster, DC 25,
-  permanency, resurrection, sympathy, DC 25
+- 3/day: blade barrier (DC 23), dispel evil (DC 22), heal (DC 23), mass charm monster (DC 25),
+  permanency, resurrection, sympathy (DC 25)
 - 1/day: greater restoration, power word stun, wish
 
 **Prepared Spells**
@@ -120,16 +120,16 @@ composed of wispy blue light._
 
 **9th-level spells:**
 
-- gate, mass heal, DC 29, miracle, overwhelming presence, DC 29, &Q righteous might
+- gate, mass heal (DC 29), miracle, overwhelming presence (DC 29), &Q righteous might
 
 **8th-level spells:**
 
-- antimagic field, discern location, &Q divine power, fickle winds, greater command, DC 25, plane
-  shift, DC 25, serenity, DC 25
+- antimagic field, discern location, &Q divine power, fickle winds, greater command (DC 25), plane
+  shift (DC 25), serenity (DC 25)
 
 **4th-level spells:**
 
-- death ward, dismissal, DC 24, divine power, freedom of movement, greater magic weapon, 2
+- death ward, dismissal (DC 24), divine power, freedom of movement, greater magic weapon, 2
 
 **3rd-level spells:**
 
@@ -137,7 +137,7 @@ composed of wispy blue light._
 
 **2nd-level spells:**
 
-- consecrate, find traps, grace, 2, make whole, remove paralysis, silence, DC 22
+- consecrate, find traps, grace, 2, make whole, remove paralysis, silence (DC 22)
 
 **1st-level spells:**
 

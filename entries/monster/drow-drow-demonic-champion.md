@@ -115,11 +115,11 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **2nd-level spells:**
 
-- invisibility, silence, DC 15
+- invisibility, silence (DC 15)
 
 **1st-level spells:**
 
-- litany of sloth, murderous command, DC 14, protection from good
+- litany of sloth, murderous command (DC 14), protection from good
 
 ### Tactics
 

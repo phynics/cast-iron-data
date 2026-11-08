@@ -95,11 +95,11 @@ membranous dragonfly wings._
 **At will:**
 
 - blink, dimension door, dimensional anchor, greater teleport, self plus 50 lbs. of objects only,
-  plane shift, DC 23
+  plane shift (DC 23)
 
 **Per day:**
 
-- 3/day: banishment, DC 23, &EM disintegrate, DC 22, maze
+- 3/day: banishment (DC 23), &EM disintegrate (DC 22), maze
 - 1/day: gate, &S level 7; 1d4 fiendish army ant swarms 50%, summon monster IX
 
 **Statistics**

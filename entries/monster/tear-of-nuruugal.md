@@ -91,7 +91,7 @@ searing mirage._
 
 **At will:**
 
-- detect thoughts, DC 7, produce flame
+- detect thoughts (DC 7), produce flame
 
 **Per day:**
 

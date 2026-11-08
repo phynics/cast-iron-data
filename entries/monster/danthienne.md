@@ -78,13 +78,13 @@ hands, and a mischievous grin._
 
 **At will:**
 
-- auditory hallucination, DC 16, detect desires, DC 17, invisibility, prestidigitation, remove fear,
-  shocking grasp
+- auditory hallucination (DC 16), detect desires (DC 17), invisibility, prestidigitation, remove
+  fear, shocking grasp
 
 **Per day:**
 
-- 3/day: charm person, DC 16, deflect blame, DC 17, rumormonger, DC 18, suggestion, DC 18
-- 1/day: glibness, heroism, shout, DC 19
+- 3/day: charm person (DC 16), deflect blame (DC 17), rumormonger (DC 18), suggestion (DC 18)
+- 1/day: glibness, heroism, shout (DC 19)
 
 **Statistics**
 

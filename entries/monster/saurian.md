@@ -92,7 +92,7 @@ bite +23 (2d6+4/19-20) or bite +28 (2d6+9), 2 claws +28 (1d8+9)
 **Per day:**
 
 - 3/day: animal growth, volcanic storm
-- 1/day: commune with nature, heal, meteor swarm, DC 24, summon nature's ally VIII, dinosaurs only
+- 1/day: commune with nature, heal, meteor swarm (DC 24), summon nature's ally VIII, dinosaurs only
 
 **Statistics**
 

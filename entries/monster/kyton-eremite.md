@@ -90,15 +90,15 @@ pain), 2 wings +25 (1d8+5 plus pain)
 
 **At will:**
 
-- greater teleport, self plus 50 lbs. of objects only, inflict critical wounds, DC 25, shadow walk,
-  telekinesis, DC 26
+- greater teleport, self plus 50 lbs. of objects only, inflict critical wounds (DC 25), shadow walk,
+  telekinesis (DC 26)
 
 **Per day:**
 
-- 3/day: blade barrier, DC 27, dimensional lock, forcecage, DC 28, greater shadow evocation, DC 29,
-  heal, self only, insanity, DC 28, mass inflict critical wounds, DC 29, plane shift, DC 28, shades,
-  DC 30, symbol of pain, DC 26, wall of force
-- 1/day: binding, DC 29, trap the soul, DC 29
+- 3/day: blade barrier (DC 27), dimensional lock, forcecage (DC 28), greater shadow evocation (DC
+  29), heal, self only, insanity (DC 28), mass inflict critical wounds (DC 29), plane shift (DC 28),
+  shades (DC 30), symbol of pain (DC 26), wall of force
+- 1/day: binding (DC 29), trap the soul (DC 29)
 
 **Statistics**
 

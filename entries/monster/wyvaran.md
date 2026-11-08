@@ -87,11 +87,11 @@ snarl._
 
 **1st-level spells:**
 
-- 2/day: cause fear, DC 15, shield of faith
+- 2/day: cause fear (DC 15), shield of faith
 
 **Cantrips:**
 
-- At will: acid splash, daze, DC 14, disrupt undead, guidance
+- At will: acid splash, daze (DC 14), disrupt undead, guidance
 
 **Domain**
 

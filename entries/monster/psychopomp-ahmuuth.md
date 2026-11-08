@@ -88,13 +88,13 @@ shields._
 
 **At will:**
 
-- bleed, deathwatch, detect undead, disrupt undead, ghost sound, DC 11, &S level 1; 1 great horned
+- bleed, deathwatch, detect undead, disrupt undead, ghost sound (DC 11), &S level 1; 1 great horned
   owl 100%
 
 **Per day:**
 
-- 3/day: chill touch, DC 12, ghostbane dirge, DC 13, greater teleport, self plus 50 lbs. of objects
-  only, silence, DC 13, spectral hand
+- 3/day: chill touch (DC 12), ghostbane dirge (DC 13), greater teleport, self plus 50 lbs. of
+  objects only, silence (DC 13), spectral hand
 - 1/day: ghostly disguise, locate creature, speak with dead
 
 **Statistics**

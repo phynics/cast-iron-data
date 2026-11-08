@@ -98,14 +98,14 @@ a crown of horns._
 
 **At will:**
 
-- beast shape II, command, DC 17, detect thoughts, elemental body III, air or water elementals only,
-  greater teleport, self plus 50 lbs. of objects only, gust of wind, hold monster, DC 20, identify,
-  light, lightning bolt, DC 19, mage hand, message
+- beast shape II, command (DC 17), detect thoughts, elemental body III, air or water elementals
+  only, greater teleport, self plus 50 lbs. of objects only, gust of wind, hold monster (DC 20),
+  identify, light, lightning bolt (DC 19), mage hand, message
 
 **Per day:**
 
 - 7/day: break enchantment, cure serious wounds, neutralize poison, remove disease
-- 3/day: control water, control weather, control winds, heal, plane shift, DC 23
+- 3/day: control water, control weather, control winds, heal, plane shift (DC 23)
 
 **Prepared Spells**
 
@@ -115,35 +115,35 @@ a crown of horns._
 
 **9th-level spells:**
 
-- implosion, DC 26, storm of vengeance (domain spell), DC 26
+- implosion (DC 26), storm of vengeance (domain spell) (DC 26)
 
 **8th-level spells:**
 
-- demand (domain spell), earthquake, &Q holy smite, DC 21, holy word, DC 24, &Q invisibility purge
+- demand (domain spell), earthquake, &Q holy smite (DC 21), holy word (DC 24), &Q invisibility purge
 
 **5th-level spells:**
 
-- breath of life, dispel evil (domain spell), flame strike, DC 22, greater command, DC 22,
+- breath of life, dispel evil (domain spell), flame strike (DC 22), greater command (DC 22),
   [spell resistance](ref/rule/spell-resistance), true seeing
 
 **4th-level spells:**
 
-- cure critical wounds, 3, freedom of movement, holy smite (domain spell), DC 21, repel vermin, DC
-  21
+- cure critical wounds, 3, freedom of movement, holy smite (domain spell) (DC 21), repel vermin (DC
+  21)
 
 **3rd-level spells:**
 
-- bestow curse, DC 20, daylight, dispel magic, helping hand, magic vestment (domain spell), prayer,
+- bestow curse (DC 20), daylight, dispel magic, helping hand, magic vestment (domain spell), prayer,
   protection from energy
 
 **2nd-level spells:**
 
-- align weapon (domain spell), good only, calm emotions, DC 19, enthrall, hold person, DC 19, lesser
-  restoration, 2, shield other
+- align weapon (domain spell), good only, calm emotions (DC 19), enthrall, hold person (DC 19),
+  lesser restoration, 2, shield other
 
 **1st-level spells:**
 
-- bless, detect undead, divine favor (domain spell), obscuring mist, remove fear, sanctuary, DC 18,
+- bless, detect undead, divine favor (domain spell), obscuring mist, remove fear, sanctuary (DC 18),
   shield of faith
 
 **Cantrips:**

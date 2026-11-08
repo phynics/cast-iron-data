@@ -93,7 +93,7 @@ flies._
 
 **Per day:**
 
-- 3/day: grease, DC 14, sense fear
+- 3/day: grease (DC 14), sense fear
 - 1/day: remove disease
 
 **Statistics**

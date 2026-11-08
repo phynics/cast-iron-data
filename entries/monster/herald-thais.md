@@ -104,8 +104,8 @@ halberd._
 **Per day:**
 
 - 3/day: break enchantment, displacement, greater dispel magic, plane shift, self and willing
-  targets only, shout, DC 21
-- 1/day: greater planar ally, one bralani or ghaele azata only, hallow, word of chaos, DC 24
+  targets only, shout (DC 21)
+- 1/day: greater planar ally, one bralani or ghaele azata only, hallow, word of chaos (DC 24)
 
 **Statistics**
 

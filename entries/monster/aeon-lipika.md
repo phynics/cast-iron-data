@@ -92,7 +92,7 @@ elbow, and an eye on each of its eight palms._
 
 **At will:**
 
-- plane shift, DC 23, telekinesis, DC 21
+- plane shift (DC 23), telekinesis (DC 21)
 
 **Per day:**
 
