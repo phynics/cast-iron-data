@@ -2,7 +2,7 @@
 id = "ref/feat/pummeling-style"
 kind = "feat"
 title = "Pummeling Style"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pummeling_style", path = "json/feat12.json" },
 ]
@@ -27,9 +27,3 @@ with the last hit.\
 against a single opponent with unarmed strikes, total the damage from all hits before applying
 [damage reduction](ref/rule/damage-reduction). This ability works only with unarmed strikes, no
 matter what other abilities you might possess.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-While using this style, you can spend 5 stamina points to pool all of your attacks as a standard
-action, instead of a full-round action.

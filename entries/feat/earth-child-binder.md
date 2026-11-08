@@ -2,7 +2,7 @@
 id = "ref/feat/earth-child-binder"
 kind = "feat"
 title = "Earth Child Binder"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child_binder", path = "json/feat05.json" },
 ]
@@ -33,9 +33,3 @@ provokes an attack of opportunity from you, if you make an unarmed strike, you c
 making a Stunning Fist attempt after the attack hits. You gain a +4 bonus to the DC of any Stunning
 Fist effect you deliver in this way.\
 **Normal:** You can only trip opponents who are one size category larger than you.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-You can spend 5 stamina points to use Stunning Fist without expending a normal use of Stunning Fist
-when a creature with the giant subtype provokes an attack of opportunity by standing up.

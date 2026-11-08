@@ -2,7 +2,7 @@
 id = "ref/feat/felling-smash"
 kind = "feat"
 title = "Felling Smash"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "felling_smash", path = "json/feat07.json" },
 ]
@@ -26,11 +26,3 @@ You commit all your focus to a devastating blow, trying to crush your opponent t
 **Benefit:** If you use the attack action to make a single melee attack at your highest base attack
 bonus while using Power Attack and you hit an opponent, you can spend a swift action to attempt a
 trip combat maneuver against that opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefit of this feat only as long as you have at least 1 stamina point in your stamina
-pool. You can spend 5 stamina points to make the trip attempt from this feat as a free action
-instead of a swift action.

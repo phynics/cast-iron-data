@@ -2,7 +2,7 @@
 id = "ref/feat/crane-wing"
 kind = "feat"
 title = "Crane Wing"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crane_wing", path = "json/feat03.json" },
 ]
@@ -30,10 +30,3 @@ you lose this dodge bonus until the beginning of your next turn. If you are usin
 normally hit you. An attack so deflected deals no damage and has no other effect (instead treat it
 as a miss). You do not expend an action when using this feat, but you must be aware of the attack
 and not flat-footed.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-When fighting defensively with at least one hand free, you can spend 5 stamina points to designate a
-second opponent for your Crane Wing feat. You also gain a +2 dodge bonus to AC against that
-opponent's attacks.

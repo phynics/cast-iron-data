@@ -2,7 +2,7 @@
 id = "ref/feat/binding-throw"
 kind = "feat"
 title = "Binding Throw"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding_throw", path = "json/feat02.json" },
 ]
@@ -29,9 +29,3 @@ You can strike your enemy and use the blow as an opportunity to grab and hold hi
 to attempt a grapple combat maneuver against that opponent.\
 **Normal:** The grapple combat maneuver is a standard action.\
 **Special:** A monk can gain Binding Throw as a bonus feat starting at 14th level.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-You can spend 1 stamina point to gain a +2 bonus on a grapple check made as a swift action with this
-feat.

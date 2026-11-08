@@ -2,7 +2,7 @@
 id = "ref/feat/crossbow-mastery"
 kind = "feat"
 title = "Crossbow Mastery"
-source_ids = ["advanced-players-guide", "curse-of-the-crimson-throne-players-guide", "pathfinder-campaign-setting", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide", "curse-of-the-crimson-throne-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crossbow_mastery", path = "json/feat04.json" },
 ]
@@ -30,9 +30,3 @@ action as you could attack if you were using a bow. Reloading a crossbow for the
 you chose when you took Rapid Reload no longer provokes attacks of opportunity.\
 **Special:** Starting at 6th level, a [ranger](ref/class/ranger) with the archery combat style may
 select Crossbow Mastery as a combat style feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-As long as you have at least 1 stamina point in your stamina pool, reloading any kind of crossbow no
-longer provokes attacks of opportunity.

@@ -2,7 +2,7 @@
 id = "ref/feat/school-strike"
 kind = "feat"
 title = "School Strike"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "school_strike", path = "json/feat13.json" },
 ]
@@ -30,9 +30,3 @@ to deliver the effects of the chosen school power to that opponent. Doing so pro
 opportunity.\
 **Special:** You can take this feat multiple times. Each time you take it, you apply it to a
 different qualifying arcane school power.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 130\
-After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your
-chosen arcane school power as a free action instead of a swift action.

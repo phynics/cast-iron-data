@@ -2,7 +2,7 @@
 id = "ref/feat/net-trickery"
 kind = "feat"
 title = "Net Trickery"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_trickery", path = "json/feat11.json" },
 ]
@@ -28,10 +28,3 @@ opponent. If you have an opponent entangled in your net, you can attempt to [tri
 that opponent as long as he is within your net's reach or you control the trailing rope on your net.
 You also gain a +2 bonus on [drag](ref/rule/drag) and [reposition](ref/rule/reposition) combat
 maneuver checks you make using your net.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-As long as you have at least 1 stamina point in your stamina pool, you can
-[dazzle](ref/misc/dazzled) or [sicken](ref/misc/sickened) the opponent with a dirty trick combat
-maneuver instead of blinding it.

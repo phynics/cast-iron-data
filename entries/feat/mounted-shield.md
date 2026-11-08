@@ -2,7 +2,7 @@
 id = "ref/feat/mounted-shield"
 kind = "feat"
 title = "Mounted Shield"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_shield", path = "json/feat11.json" },
 ]
@@ -24,9 +24,3 @@ Your defensive tactics defend both you and your mount.\
 **Benefit:** You may add your base shield bonus (including the bonus from Shield Focus but not
 including enhancement bonuses) to your mount's AC. In addition, you may add this bonus when making a
 Ride check to negate a hit against your mount using the Mounted Combat feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-As long as you have at least 1 stamina point in your stamina pool, you can add your shield's
-enhancement bonus to your mount's Armor Class.

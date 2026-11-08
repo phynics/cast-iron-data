@@ -2,7 +2,7 @@
 id = "ref/feat/neckbreaker"
 kind = "feat"
 title = "Neckbreaker"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neckbreaker", path = "json/feat11.json" },
 ]
@@ -31,9 +31,3 @@ that opponent's neck, dealing 2d6 Strength or Dexterity damage. If the targeted 
 reduced to 0, any remaining damage is dealt to that opponent's Constitution score. A creature that
 is immune to critical hits or that has no discernible head and neck is immune to the effects of this
 feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When using this feat, you can spend 10 stamina points to deal 1d6 points of Constitution damage
-instead of 2d6 points of Strength or Dexterity damage.

@@ -2,7 +2,7 @@
 id = "ref/feat/bludgeoner"
 kind = "feat"
 title = "Bludgeoner"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bludgeoner", path = "json/feat02.json" },
 ]
@@ -26,11 +26,3 @@ nonlethal damage.\
 damage. You cannot use a lethal weapon to deal nonlethal damage in a sneak attack.\
 **Special:** A rogue with this feat can use a lethal bludgeoning weapon to deal nonlethal damage
 with a sneak attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-When you make an attack with a lethal bludgeoning weapon to deal nonlethal damage, you can spend 2
-stamina points to treat the weapon's damage as if the weapon were one size category larger. This
-does not stack with any other effects that treat the weapon's damage as if the weapon were a larger
-size.

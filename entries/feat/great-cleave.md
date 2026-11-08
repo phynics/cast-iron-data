@@ -2,7 +2,7 @@
 id = "ref/feat/great-cleave"
 kind = "feat"
 title = "Great Cleave"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_cleave", path = "json/feat07.json" },
 ]
@@ -29,12 +29,6 @@ within reach. If you hit, you can continue to make attacks against foes adjacent
 foe, so long as they are within your reach. You cannot attack an individual foe more than once
 during this attack action. When you use this feat, you take a -2 penalty to your Armor Class until
 your next turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-Once per round when you miss a foe with an attack gained from Cleave, you can spend 5 stamina points
-to make another Cleave attack anyway.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can strike many adjacent foes with a single blow.\

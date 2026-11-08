@@ -2,7 +2,7 @@
 id = "ref/feat/improved-devastating-strike"
 kind = "feat"
 title = "Improved Devastating Strike"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_devastating_strike", path = "json/feat08.json" },
 ]
@@ -25,10 +25,3 @@ The fury and power channeled through your attack is enough to kill a lesser bein
 **Benefit:** Whenever you use Vital Strike, [Improved Vital Strike](ref/feat/improved-vital-strike),
 or [Greater Vital Strike](ref/feat/greater-vital-strike), you gain a bonus on attack rolls to
 confirm a critical hit equal to the bonus on damage rolls you gain from Devastating Strike.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 123\
-Whenever you use the Devastating Strike combat trick, increase the bonus damage to +6 on each of the
-extra sets of weapon damage dice. For weapons with more than one damage die, count all the weapon's
-base damage dice together as one set.

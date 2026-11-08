@@ -2,7 +2,7 @@
 id = "ref/feat/body-shield"
 kind = "feat"
 title = "Body Shield"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_shield", path = "json/feat02.json" },
 ]
@@ -27,8 +27,3 @@ grapple combat maneuver check against that creature to gain [cover](ref/rule/cov
 attack. If you are successful and the attack misses you, that attack targets the creature you used
 as cover, using the same attack roll. You cannot use this feat against a creature grappling you, and
 the cover you gain ends after the attack you gained cover against is resolved.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-You can spend 5 stamina points to use this feat against a creature grappling you.

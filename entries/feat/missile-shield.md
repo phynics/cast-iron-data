@@ -2,7 +2,7 @@
 id = "ref/feat/missile-shield"
 kind = "feat"
 title = "Missile Shield"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "missile_shield", path = "json/feat10.json" },
 ]
@@ -25,10 +25,3 @@ this feat. Once per round when you would normally be hit with an attack from a r
 including spell effects, natural attacks, or massive ranged weapons), you may deflect it so that you
 take no damage, as if you had the [Deflect Arrows](ref/feat/deflect-arrows) feat. You must be aware
 of the attack and not [flat-footed](ref/rule/flat-footed).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-As long as you have at least 1 stamina point in your stamina pool, you can use this feat with a
-[buckler](ref/eq-armor/buckler). You can spend 5 stamina points to deflect an arrow even while
-you're flat-footed. You must still be aware of the attack.

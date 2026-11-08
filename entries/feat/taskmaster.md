@@ -2,7 +2,7 @@
 id = "ref/feat/taskmaster"
 kind = "feat"
 title = "Taskmaster"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taskmaster", path = "json/feat16.json" },
 ]
@@ -29,9 +29,3 @@ rolls, and Will saves against mind-affecting effects. However, the ally also tak
 AC and on skill checks. To affect an unwilling ally, you must succeed at an Intimidate check with
 the same DC used to demoralize your ally.\
 **Special:** If you have 10 or more ranks in Intimidate, the morale bonus increases to +2.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When using this feat, you can spend 5 stamina points to affect a creature with up to 5 more Hit Dice
-than you possess.

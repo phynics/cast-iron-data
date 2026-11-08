@@ -2,7 +2,7 @@
 id = "ref/feat/final-embrace-horror"
 kind = "feat"
 title = "Final Embrace Horror"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_embrace_horror", path = "json/feat07.json" },
 ]
@@ -25,9 +25,3 @@ the [constrict](ref/umr/constrict) special attack; [Final Embrace](ref/feat/fina
 attack bonus +6.\
 **Benefit:** A creature that takes damage from your constrict attack is also
 [shaken](ref/misc/shaken) until the start of your next turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When a creature is damaged by your constrict ability, you can spend 5 stamina points to sicken that
-creature until the start of your next turn.

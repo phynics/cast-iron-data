@@ -2,7 +2,7 @@
 id = "ref/feat/underfoot"
 kind = "feat"
 title = "Underfoot"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underfoot", path = "json/feat16.json" },
 ]
@@ -26,9 +26,3 @@ provoking attacks of opportunity, so long as they are larger than you. In additi
 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a
 larger opponent's threatened area (this stacks with the +4 bonus provided by Mobility, for a total
 bonus of +6).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-You can spend 2 stamina points to use the benefit of this feat against opponents of your size until
-the end of your turn.

@@ -2,7 +2,7 @@
 id = "ref/feat/intercept-charge"
 kind = "feat"
 title = "Intercept Charge"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intercept_charge", path = "json/feat09.json" },
 ]
@@ -23,9 +23,3 @@ action you can move up to your speed toward any square in the path of the charge
 movement in the path of the charge, the opponent must stop when it becomes adjacent to you and then
 attack you instead of your ally. Your movement from using this feat counts toward your movement on
 your next turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-When using this feat, you can spend 5 stamina points to not have your movement count toward your
-movement on your next turn.

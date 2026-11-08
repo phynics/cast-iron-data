@@ -2,7 +2,7 @@
 id = "ref/feat/landing-roll"
 kind = "feat"
 title = "Landing Roll"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "landing_roll", path = "json/feat10.json" },
 ]
@@ -24,9 +24,3 @@ You have learned the technique of rolling safely away when an enemy trips you.\
 **Benefit:** If you are [tripped](ref/rule/trip), you can spend an immediate action to move 5 feet
 without provoking an attack of opportunity. This does not count as taking a 5-foot step. You fall
 [prone](ref/rule/prone) after this movement.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-When using this feat, you can spend 5 stamina points to stand up as part of your immediate action
-after you move. Standing up provokes attacks of opportunity.

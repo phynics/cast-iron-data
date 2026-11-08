@@ -2,7 +2,7 @@
 id = "ref/feat/precise-strike"
 kind = "feat"
 title = "Precise Strike"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precise_strike", path = "json/feat12.json" },
 ]
@@ -24,9 +24,3 @@ You are skilled at striking where it counts, as long as an ally distracts your f
 same the creature, you deal an additional 1d6 points of precision damage with each successful melee
 attack. This bonus damage stacks with other sources of precision damage, such as
 [sneak attack](ref/ability/sneak-attack). This bonus damage is not multiplied on a critical hit.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When dealing precision damage with this feat, you can spend 2 stamina points to increase that
-precision damage to 2d6.

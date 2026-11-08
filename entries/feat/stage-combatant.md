@@ -2,7 +2,7 @@
 id = "ref/feat/stage-combatant"
 kind = "feat"
 title = "Stage Combatant"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stage_combatant", path = "json/feat15.json" },
 ]
@@ -27,9 +27,3 @@ penalty on the attack roll when you are attempting to make an attack that deals 
 nonlethal damage.\
 **Normal:** When making attacks that deal no damage or nonlethal damage, you take a -4 penalty on
 attack rolls.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-If you have at least 1 stamina point in your stamina pool, you gain a +2 bonus on attack rolls with
-a weapon with which you have Weapon Focus when you attempt to make an attack that deals no damage.

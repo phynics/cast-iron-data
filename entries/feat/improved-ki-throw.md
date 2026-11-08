@@ -2,7 +2,7 @@
 id = "ref/feat/improved-ki-throw"
 kind = "feat"
 title = "Improved Ki Throw"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_ki_throw", path = "json/feat09.json" },
 ]
@@ -33,10 +33,3 @@ If you throw a Large or larger creature into an area containing multiple seconda
 an additional penalty of -4 on your combat maneuver check for each target after the first.
 
 **Special:** A monk may take this as a bonus feat at 14th level.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 123\
-When using this feat to throw a target into another creature's space, you can spend up to 6 stamina
-points to reduce the penalty on the bull rush attempt against the secondary target by an amount
-equal to the number of stamina points you spent.

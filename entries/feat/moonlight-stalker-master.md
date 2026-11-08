@@ -2,7 +2,7 @@
 id = "ref/feat/moonlight-stalker-master"
 kind = "feat"
 title = "Moonlight Stalker Master"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonlight_stalker_master", path = "json/feat11.json" },
 ]
@@ -29,9 +29,3 @@ You leave your opponents swinging at shadows while you slide elusively through t
 you increases by 10%. If an opponent misses you due to your concealment, you can spend an immediate
 action to move 5 feet, this movement does not provoke attacks of opportunity and does not count as a
 5-foot step.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When an opponent makes an attack against you while you have concealment, you can spend 5 stamina
-points to increase that attack's miss chance by an additional 20%.

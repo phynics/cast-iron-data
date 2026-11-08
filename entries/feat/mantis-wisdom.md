@@ -2,7 +2,7 @@
 id = "ref/feat/mantis-wisdom"
 kind = "feat"
 title = "Mantis Wisdom"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_wisdom", path = "json/feat10.json" },
 ]
@@ -29,10 +29,3 @@ effect you have applied to a target.
 
 While using Mantis Style, you gain a +2 bonus on unarmed attack rolls with which you are using
 Stunning Fist attempts.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 126\
-You can spend 2 stamina points and take a standard action to remove any Stunning Fist effect you
-have applied to a creature without making a touch attack. You can use this ability no matter where
-the affected creature is located.

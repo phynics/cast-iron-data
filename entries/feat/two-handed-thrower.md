@@ -2,7 +2,7 @@
 id = "ref/feat/two-handed-thrower"
 kind = "feat"
 title = "Two-Handed Thrower"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_handed_thrower", path = "json/feat16.json" },
 ]
@@ -28,10 +28,3 @@ requires only a standard action for you. If you also have the [Quick Draw](ref/f
 feat, you can throw two-handed weapons at your full normal rate of attacks.\
 **Normal:** You add your Strength bonus on thrown weapon damage, regardless of available hands.
 Throwing a two-handed weapon is a full-round action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-When you throw a one-handed thrown weapon with two hands or throw a two-handed thrown weapon, you
-can spend 2 stamina points to add twice your Strength bonus to that attack's damage instead of 1-1/2
-times your Strength bonus.

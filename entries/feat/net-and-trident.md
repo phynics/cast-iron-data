@@ -2,7 +2,7 @@
 id = "ref/feat/net-and-trident"
 kind = "feat"
 title = "Net and Trident"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_and_trident", path = "json/feat11.json" },
 ]
@@ -28,10 +28,3 @@ wield a light or one-handed melee weapon and still make ranged attacks with your
 your light or one-handed melee weapon to attack an entangled opponent, you gain a +2 bonus on damage
 rolls and on attack rolls to confirm a critical hit.\
 **Normal:** A net is a two-handed ranged weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When you use a light or one-handed melee weapon to attack an opponent entangled by your net, you can
-spend up to 5 stamina points when you hit the opponent to gain a bonus on the damage roll equal to
-double the number of stamina points you spent.

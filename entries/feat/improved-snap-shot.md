@@ -2,7 +2,7 @@
 id = "ref/feat/improved-snap-shot"
 kind = "feat"
 title = "Improved Snap Shot"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_snap_shot", path = "json/feat09.json" },
 ]
@@ -27,10 +27,3 @@ exposing yourself.\
 [Weapon Focus](ref/feat/weapon-focus), base attack bonus +9.\
 **Benefit:** You threaten an additional 5 feet with Snap Shot.\
 **Normal:** Making a ranged attack provokes attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 123\
-At the end of your turn, you can spend 5 stamina points to threaten an additional 15 feet with Snap
-Shot (instead of an additional 10 feet) until you take an attack of opportunity against an opponent
-in the expanded threat range or the beginning of your next turn, whichever comes first.

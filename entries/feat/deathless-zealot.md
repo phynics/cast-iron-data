@@ -2,7 +2,7 @@
 id = "ref/feat/deathless-zealot"
 kind = "feat"
 title = "Deathless Zealot"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless_zealot", path = "json/feat04.json" },
 ]
@@ -26,9 +26,3 @@ Only the most serious wounds can stop you.\
 attack bonus +12.\
 **Benefit:** Whenever a creature rolls to confirm a critical hit against you, it must roll twice and
 take the lowest result.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 117\
-Whenever a creature threatens a critical hit against you and neither of its confirmation rolls would
-succeed, you can spend 5 stamina points to make an attack of opportunity against that creature.

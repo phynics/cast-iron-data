@@ -2,7 +2,7 @@
 id = "ref/feat/quick-draw"
 kind = "feat"
 title = "Quick Draw"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_draw", path = "json/feat12.json" },
 ]
@@ -29,9 +29,3 @@ this feat.\
 **Normal:** Without this feat, you may draw a weapon as a move action, or (if your base attack bonus
 is +1 or higher) as a free action as part of movement. Without this feat, you can draw a hidden
 weapon as a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-As long as you have at least 1 stamina point in your stamina pool, you can sheathe a weapon as a
-swift action.

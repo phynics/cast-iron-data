@@ -2,7 +2,7 @@
 id = "ref/feat/mantis-style"
 kind = "feat"
 title = "Mantis Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_style", path = "json/feat10.json" },
 ]
@@ -24,9 +24,3 @@ You have learned to target vital areas with crippling accuracy.\
 [Stunning Fist](ref/feat/stunning-fist), Heal 3 ranks.\
 **Benefit:** You gain one additional Stunning Fist attempt per day. While using this style, you gain
 a +2 bonus to the DC of effects you deliver with your Stunning Fist.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-While using this style, you can spend 5 stamina points to use Stunning Fist without expending a use
-of Stunning Fist for the day.

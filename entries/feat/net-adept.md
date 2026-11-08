@@ -2,7 +2,7 @@
 id = "ref/feat/net-adept"
 kind = "feat"
 title = "Net Adept"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_adept", path = "json/feat11.json" },
 ]
@@ -28,8 +28,3 @@ weapon with a 10-foot reach. Further, you take no penalty on melee attack rolls 
 unfolded net, and you can use one full-round action or two move actions to fold a net.\
 **Normal:** A net is a ranged weapon that imposes a -4 penalty on ranged attack rolls if it is
 unfolded. Folding a net takes a proficient user 2 rounds.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-You can spend 2 stamina points to fold a net as a standard action.

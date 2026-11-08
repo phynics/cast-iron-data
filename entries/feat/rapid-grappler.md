@@ -2,7 +2,7 @@
 id = "ref/feat/rapid-grappler"
 kind = "feat"
 title = "Rapid Grappler"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_grappler", path = "json/feat13.json" },
 ]
@@ -26,9 +26,3 @@ You are a quick hand at grappling.\
 **Benefit:** Whenever you use Greater Grapple to successfully maintain a [grapple](ref/rule/grapple)
 as a move action, you can then spend a swift action to make a grapple combat maneuver check at a -5
 penalty.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 130\
-You can spend 2 stamina points to gain a +2 bonus on a grapple check made as a swift action with
-this feat.

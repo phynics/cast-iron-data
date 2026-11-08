@@ -2,7 +2,7 @@
 id = "ref/feat/revelation-strike"
 kind = "feat"
 title = "Revelation Strike"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revelation_strike", path = "json/feat13.json" },
 ]
@@ -29,10 +29,3 @@ your unarmed strike damage, you can use a swift action to deliver the effects of
 revelation to that opponent. Doing so provokes no attacks of opportunity.\
 **Special:** You can take this feat multiple times. Each time you take it, you apply it to a
 different qualifying revelation.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 130\
-After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your
-chosen revelation as a free action instead of a swift action. If the chosen revelation has unlimited
-daily uses, this combat trick costs 5 stamina points instead.

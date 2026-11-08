@@ -2,7 +2,7 @@
 id = "ref/feat/improved-rending-fury"
 kind = "feat"
 title = "Improved Rending Fury"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_rending_fury", path = "json/feat09.json" },
 ]
@@ -24,9 +24,3 @@ Honing the deadliness of your claws, you are a living hurricane of rending fury.
 special attack.\
 **Benefit:** Whenever you successfully rend an opponent, you deal an extra 1d6 damage. This damage
 is not multiplied on a critical hit.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 123\
-As long as you have at least 1 stamina point in your stamina pool, the extra damage from this feat
-is multiplied on a critical hit.

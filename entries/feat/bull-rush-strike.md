@@ -2,7 +2,7 @@
 id = "ref/feat/bull-rush-strike"
 kind = "feat"
 title = "Bull Rush Strike"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull_rush_strike", path = "json/feat02.json" },
 ]
@@ -35,12 +35,3 @@ Bull Rush Strike, [Disarming Strike](ref/feat/disarming-strike),
 [Repositioning Strike](ref/feat/repositioning-strike),
 [Sundering Strike](ref/feat/sundering-strike), or [Tripping Strike](ref/feat/tripping-strike). You
 may choose to use this feat after you make your confirmation roll.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to
-attempt to bull rush the target anyway. If you do, reroll the confirmation roll to determine if the
-bull rush attempt exceeds the opponent's CMD. This reroll is only for the bull rush combat maneuver;
-it can't cause the critical hit to be confirmed. You still can't make the attempt if the target is
-immune to critical hits.

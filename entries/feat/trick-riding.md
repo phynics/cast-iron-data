@@ -2,7 +2,7 @@
 id = "ref/feat/trick-riding"
 kind = "feat"
 title = "Trick Riding"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trick_riding", path = "json/feat16.json" },
 ]
@@ -25,9 +25,3 @@ You are not only skilled at controlling a horse in combat; you can make it look 
 listed in the [Ride](ref/skill/ride) skill with a DC of 15 or lower. You do not take a -5 penalty
 for riding a mount bareback. You can make a check using Mounted Combat to negate a hit on your mount
 twice per round instead of just once.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-As long as you have 1 stamina point in your stamina pool, you gain the effects of this feat when
-wearing medium armor.

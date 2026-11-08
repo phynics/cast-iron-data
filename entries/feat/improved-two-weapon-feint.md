@@ -2,7 +2,7 @@
 id = "ref/feat/improved-two-weapon-feint"
 kind = "feat"
 title = "Improved Two-Weapon Feint"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_two_weapon_feint", path = "json/feat09.json" },
 ]
@@ -27,11 +27,3 @@ defenses.\
 you can forgo your first primary-hand melee attack to make a Bluff check to [feint](ref/rule/feint)
 an opponent. If you successfully feint, that opponent is denied his Dexterity bonus to AC until the
 end of your turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
-pool. You can spend 5 stamina points to increase the duration for which the opponent is denied its
-Dexterity bonus until the start of your next turn.

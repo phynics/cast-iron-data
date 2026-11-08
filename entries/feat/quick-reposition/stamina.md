@@ -1,0 +1,19 @@
++++
+id = "ref/feat/quick-reposition/stamina"
+kind = "rule"
+title = "Quick Reposition (Stamina)"
+source_ids = ["pathfinder-unchained"]
+relations = [
+  { kind = "addon", target = "ref/feat/quick-reposition", label = "stamina" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Pathfinder Unchained pg 129\
+You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
+You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
+pool. You can spend 2 stamina points to change an attack that does not have your highest base attack
+bonus into a reposition combat maneuver. You can use this combat trick only once per round, but you
+can use it even if you already used your attack at the highest base attack bonus to reposition.

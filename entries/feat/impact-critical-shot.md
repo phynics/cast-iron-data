@@ -2,7 +2,7 @@
 id = "ref/feat/impact-critical-shot"
 kind = "feat"
 title = "Impact Critical Shot"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impact_critical_shot", path = "json/feat08.json" },
 ]
@@ -29,10 +29,3 @@ opponent back as if from the [bull rush](ref/rule/bull-rush) combat maneuver or 
 rush, you cannot move with the target. Your maneuver does not provoke an attack of opportunity.\
 **Normal:** You must perform a bull rush combat maneuver to bull rush an opponent, and you must
 perform a trip combat maneuver to trip an opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When you confirm a critical hit and use this feat to either bull rush or trip the target, you can
-spend 5 stamina points to perform the other combat maneuver as well. Use the confirmation roll for
-the combat maneuver check of both maneuvers.

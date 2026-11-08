@@ -2,7 +2,7 @@
 id = "ref/feat/earth-child-style"
 kind = "feat"
 title = "Earth Child Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child_style", path = "json/feat05.json" },
 ]
@@ -25,10 +25,3 @@ racial trait, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Acrob
 **Benefit:** While using this style, your defensive training dodge bonus to AC increases to +6.
 Further, against creatures of the giant subtype, you can add your Wisdom bonus on your unarmed
 strike damage rolls.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-When you make a successful unarmed strike attack against a creature that has the giant subtype, you
-can spend up to 5 stamina points to gain a bonus on the damage roll equal to double the number of
-stamina points you spent.

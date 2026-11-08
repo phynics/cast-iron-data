@@ -2,7 +2,7 @@
 id = "ref/feat/greater-weapon-focus"
 kind = "feat"
 title = "Greater Weapon Focus"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_focus", path = "json/feat08.json" },
 ]
@@ -28,12 +28,6 @@ selected weapon, base attack bonus +1, 8th-level fighter.\
 stacks with other bonuses on attack rolls, including those from Weapon Focus.\
 **Special:** You can gain Greater Weapon Focus multiple times. Its effects do not stack. Each time
 you take the feat, it applies to a new type of weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-Once per round, you can spend 2 stamina points to gain your Greater Weapon Focus bonus on attack
-rolls with another weapon. This bonus lasts until the start of your next turn.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Choose one [weapon group](ref/ability/weapon-groups) listed under the fighter's Weapon Training

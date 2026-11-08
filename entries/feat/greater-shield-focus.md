@@ -2,7 +2,7 @@
 id = "ref/feat/greater-shield-focus"
 kind = "feat"
 title = "Greater Shield Focus"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_shield_focus", path = "json/feat08.json" },
 ]
@@ -24,13 +24,6 @@ You are skilled at deflecting blows with your shield.\
 [Shield Proficiency](ref/feat/shield-proficiency), base attack bonus +1, 8th-level fighter.\
 **Benefit:** Increase the AC bonus granted by any shield you are using by 1. This bonus stacks with
 the bonus granted by Shield Focus.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 121\
-When an attack is made against you while you are using a shield, you can spend up to 4 stamina
-points. For that attack, your shield bonus increases by an amount equal to the number of stamina
-points you spent. This increase does not stack with any gained from the Shield Focus combat trick.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at deflecting blows with your shield.\

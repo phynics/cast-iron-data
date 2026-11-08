@@ -2,7 +2,7 @@
 id = "ref/feat/shatterspell"
 kind = "feat"
 title = "Shatterspell"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatterspell", path = "json/feat14.json" },
 ]
@@ -26,9 +26,3 @@ Your mighty blows shatter your enemy's magic.\
 effect as if you had the [spell sunder](ref/ragepower/spell-sunder) rage power. You may use this
 feat once per day, plus one additional time per day for every 5 points by which your base attack
 bonus exceeds +10.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-When you have depleted all uses of this feat for a day, you can spend 5 stamina points to use this
-feat one additional time that day.

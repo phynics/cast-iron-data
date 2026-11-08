@@ -2,7 +2,7 @@
 id = "ref/feat/snapping-turtle-shell"
 kind = "feat"
 title = "Snapping Turtle Shell"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_turtle_shell", path = "json/feat14.json" },
 ]
@@ -27,10 +27,3 @@ Your guarding hand is almost magical in its skill at deflecting incoming blows.\
 **Benefit:** While you are using the Snapping Turtle Style feat, the shield bonus the style grants
 to your AC increases to +2, and your enemies take a -4 penalty on critical confirmation rolls
 against you.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-While using Snapping Turtle Style, you can spend up to 5 stamina points to cause an enemy to take an
-additional penalty on one critical confirmation roll against you equal to the number of stamina
-points you spent.

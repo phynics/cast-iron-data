@@ -2,7 +2,7 @@
 id = "ref/feat/spinning-throw"
 kind = "feat"
 title = "Spinning Throw"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spinning_throw", path = "json/feat14.json" },
 ]
@@ -37,9 +37,3 @@ you used the Improved Ki Throw feat to throw the opponent into that space.
 
 **Special:** Per the Ki Throw feat, a monk can use ki to affect creatures larger than himself with
 this feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-If you succeed at the bull rush check, you can spend 2 stamina points to push the opponent 5
-additional feet, or 4 stamina points to push the target 10 additional feet.

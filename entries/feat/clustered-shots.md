@@ -2,7 +2,7 @@
 id = "ref/feat/clustered-shots"
 kind = "feat"
 title = "Clustered Shots"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clustered_shots", path = "json/feat03.json" },
 ]
@@ -29,10 +29,3 @@ same opponent, total the damage from all hits before applying that opponent's
 **Special:** If the massive damage optional rule is being used, that rule applies if the total
 damage you deal with this feat is equal to or exceeds half the opponent's full normal hit points
 (minimum 50 points of damage).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When using this feat, you can spend up to 2 stamina points for each attack that hit the same target.
-Increase the damage pooled by this feat by an amount equal to the number of stamina points you
-spent.

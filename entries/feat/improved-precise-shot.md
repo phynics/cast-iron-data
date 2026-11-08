@@ -2,7 +2,7 @@
 id = "ref/feat/improved-precise-shot"
 kind = "feat"
 title = "Improved Precise Shot"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_precise_shot", path = "json/feat09.json" },
 ]
@@ -27,8 +27,3 @@ cover, and the miss chance granted to targets by anything less than total concea
 and total concealment provide their normal benefits against your ranged attacks.\
 **Normal:** See the normal rules on the effects of [cover](ref/rule/cover) and
 [concealment](ref/rule/concealment) in Combat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 123\
-When you use the ability of the Precise Shot combat trick, the bonuses increase to +4.

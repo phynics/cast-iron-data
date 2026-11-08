@@ -2,7 +2,7 @@
 id = "ref/feat/martial-versatility"
 kind = "feat"
 title = "Martial Versatility"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_versatility", path = "json/feat10.json" },
 ]
@@ -25,10 +25,3 @@ You further broaden your study of weapons to encompass multiple similar weapons.
 [Weapon Focus](ref/feat/weapon-focus)). You can use that feat with any weapon within the same
 [weapon group](ref/ability/weapon-groups).\
 **Special:** You may take this feat more than once. Each time it applies to a different feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 126\
-At the start of your turn, you can spend 2 stamina points to apply the selected feat to another
-weapon that is not of the same weapon group. You gain this benefit until the start of your next
-turn.

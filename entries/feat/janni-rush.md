@@ -2,7 +2,7 @@
 id = "ref/feat/janni-rush"
 kind = "feat"
 title = "Janni Rush"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "janni_rush", path = "json/feat09.json" },
 ]
@@ -29,8 +29,3 @@ against the designated opponent, a hit allows you to roll the unarmed strike's d
 add the results together before adding modifiers (such as from Strength) or extra dice (such as
 precision-based damage or dice from weapon abilities). The extra damage dice are not multiplied on a
 successful critical hit.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-You can spend 5 stamina points to multiply the extra damage dice from this feat on a critical hit.

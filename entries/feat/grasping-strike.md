@@ -2,7 +2,7 @@
 id = "ref/feat/grasping-strike"
 kind = "feat"
 title = "Grasping Strike"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_strike", path = "json/feat07.json" },
 ]
@@ -35,9 +35,3 @@ saving throw DC), whichever comes first.
 You can use this benefit a number of times per day equal to your Wisdom modifier (minimum 1). You
 can choose to use this ability as a free action after you hit the enemy with the attack. This is a
 supernatural ability.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-When using this feat, you can spend up to 5 stamina points to increase the DC of the effect by an
-amount equal to the number of stamina points you spent.

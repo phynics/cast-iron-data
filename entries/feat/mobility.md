@@ -2,7 +2,7 @@
 id = "ref/feat/mobility"
 kind = "feat"
 title = "Mobility"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobility", path = "json/feat11.json" },
 ]
@@ -25,12 +25,6 @@ move out of or within a threatened area. A condition that makes you lose your De
 Armor Class (if any) also makes you lose dodge bonuses.
 
 Dodge bonuses stack with each other, unlike most types of bonuses.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-Your dodge bonus to AC from the Dodge feat combat trick is doubled against attacks of opportunity
-provoked by movement. If you don't have the Dodge feat, you can still use its combat trick.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat has been merged into the [Dodge](ref/feat/dodge) feat.

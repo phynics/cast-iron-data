@@ -2,7 +2,7 @@
 id = "ref/feat/low-profile"
 kind = "feat"
 title = "Low Profile"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_profile", path = "json/feat10.json" },
 ]
@@ -22,10 +22,3 @@ Yours small stature helps you avoid ranged attacks.\
 **Prerequisites:** Dex 13, Small size or smaller.\
 **Benefit:** You gain a +1 dodge bonus to AC against ranged attacks. In addition, you do not provide
 soft cover to creatures when ranged attacks pass through your square.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-When targeted by a ranged attack, you can spend a number of stamina points up to your Dexterity
-bonus. For each stamina point you spend in this way, your dodge bonus to AC against that attack
-increases by 1.

@@ -2,7 +2,7 @@
 id = "ref/feat/under-and-over"
 kind = "feat"
 title = "Under and Over"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "under_and_over", path = "json/feat16.json" },
 ]
@@ -24,9 +24,3 @@ You can slip under a foe trying to grab you, knocking him off balance.\
 **Benefit:** If an opponent larger than you attempts to grapple you and fails, you may make a
 [trip](ref/rule/trip) attack as an immediate action against that opponent with a +2 bonus. This does
 not provoke an attack of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-When using this feat, you can spend a number of stamina points up to your Dexterity bonus to
-increase the bonus on the trip attempt by 2 for each stamina point spent.

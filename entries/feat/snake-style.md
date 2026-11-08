@@ -2,7 +2,7 @@
 id = "ref/feat/snake-style"
 kind = "feat"
 title = "Snake Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_style", path = "json/feat14.json" },
 ]
@@ -29,10 +29,3 @@ ranged attack, you can spend an immediate action to make a Sense Motive check. Y
 result as your AC or touch AC against that attack. You must be aware of the attack and not
 flat-footed.\
 **Normal:** An unarmed strike deals bludgeoning damage.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When targeted by a melee or ranged attack, you can spend 5 stamina points to attempt the Sense
-Motive check by using one of your attacks of opportunity for the round instead of taking an
-immediate action.

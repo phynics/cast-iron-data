@@ -2,7 +2,7 @@
 id = "ref/feat/demoralizing-lash"
 kind = "feat"
 title = "Demoralizing Lash"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoralizing_lash", path = "json/feat04.json" },
 ]
@@ -26,9 +26,3 @@ flails fighter [weapon group](ref/ability/weapon-groups)) to attack a foe demora
 Intimidate check. If the attack hits, you extend the duration the creature is
 [shaken](ref/misc/shaken) by 1 round. This feat has no effect on creatures whose shaken conditions
 are from sources other than Intimidate checks.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 117\
-When you hit a demoralized foe with a weapon in the flails fighter group, you can spend 2 stamina
-points to extend the duration of the shaken condition by 1d4 rounds instead of 1 round.

@@ -2,7 +2,7 @@
 id = "ref/feat/rebuffing-reduction"
 kind = "feat"
 title = "Rebuffing Reduction"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuffing_reduction", path = "json/feat13.json" },
 ]
@@ -27,9 +27,3 @@ Your [damage reduction](ref/rule/damage-reduction) can turn the force of blows b
 attack, you can spend an immediate action to attempt a [bull rush](ref/rule/bull-rush) combat
 maneuver against that opponent. If you succeed, you cannot move with the opponent.\
 **Normal:** A bull rush combat maneuver is a standard action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 130\
-When you succeed at a bull rush combat maneuver check with this feat, you can spend 2 stamina points
-to move up to 5 feet with the target.

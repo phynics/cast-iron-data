@@ -2,7 +2,7 @@
 id = "ref/feat/tripping-twirl"
 kind = "feat"
 title = "Tripping Twirl"
-source_ids = ["ultimate-magic", "pathfinder-unchained"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_twirl", path = "json/feat16.json" },
 ]
@@ -29,10 +29,3 @@ two-handed, you can attempt a [trip](ref/rule/trip) combat maneuver against each
 you.\
 **Special:** If you are a magus with the [staff magus](ref/arc-magus/staff-magus) archetype, you can
 use spellstrike on any one trip combat maneuver you make with the staff.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
-pool.

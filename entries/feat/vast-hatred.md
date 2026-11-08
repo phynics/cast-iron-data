@@ -2,7 +2,7 @@
 id = "ref/feat/vast-hatred"
 kind = "feat"
 title = "Vast Hatred"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vast_hatred", path = "json/feat17.json" },
 ]
@@ -26,10 +26,3 @@ Your rage stretches beyond normal bounds.\
 from the hatred racial trait applies to creatures of the selected types (and subtypes).\
 **Special:** You may take this feat more than once. Its benefits do not stack. Each time you select
 this feat, you select two additional creature types to which your hatred racial trait applies.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-You can spend 5 stamina points to designate a creature type (and subtype, if appropriate) from the
-Ranger Favored Enemies table. Your attack bonus from the hatred racial trait also applies to
-creatures of the selected type (and subtype, if appropriate) until the start of your next turn.

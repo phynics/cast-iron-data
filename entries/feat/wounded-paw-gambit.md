@@ -2,7 +2,7 @@
 id = "ref/feat/wounded-paw-gambit"
 kind = "feat"
 title = "Wounded Paw Gambit"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wounded_paw_gambit", path = "json/feat17.json" },
 ]
@@ -29,10 +29,3 @@ thrown in order to make this attack possible.
 An ally who has this feat and Broken Wing Gambit can instead use Broken Wing Gambit to attempt an
 attack of opportunity against the foe, but cannot attempt both that attack of opportunity and this
 ranged attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-When you make a ranged attack granted by this feat, you can spend 5 stamina points to make that
-ranged attack as an attack of opportunity instead of as an immediate action. You can still use this
-feat to make an extra attack only once per round.

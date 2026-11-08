@@ -2,7 +2,7 @@
 id = "ref/feat/slashing-grace"
 kind = "feat"
 title = "Slashing Grace"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slashing_grace", path = "json/feat14.json" },
 ]
@@ -29,9 +29,3 @@ as a one-handed piercing melee weapon for all feats and class abilities that req
 strike) and you can add your Dexterity modifier instead of your Strength modifier to that weapon's
 damage. The weapon must be one appropriate for your size. You do not gain this benefit while
 fighting with two weapons or using flurry of blows, or any time another hand is otherwise occupied.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-You can spend 2 stamina points to select another light or one-handed slashing weapon. That weapon
-counts as a chosen weapon for Slashing Grace until the start of your next turn.

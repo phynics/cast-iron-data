@@ -2,7 +2,7 @@
 id = "ref/feat/shot-on-the-run"
 kind = "feat"
 title = "Shot on the Run"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shot_on_the_run", path = "json/feat14.json" },
 ]
@@ -26,11 +26,6 @@ You can move, fire a ranged weapon, and move again before your foes can react.\
 **Benefit:** As a full-round action, you can move up to your speed and make a single ranged attack
 at any point during your movement.\
 **Normal:** You cannot move before and after an attack with a ranged weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-You can spend 5 stamina points to use this feat as a standard action instead of a full-round action.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can move, fire a ranged weapon, and move again before your foes can react.\

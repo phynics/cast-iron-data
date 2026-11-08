@@ -2,7 +2,7 @@
 id = "ref/feat/stabbing-shot"
 kind = "feat"
 title = "Stabbing Shot"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabbing_shot", path = "json/feat15.json" },
 ]
@@ -29,9 +29,3 @@ target, or at another target within range. This melee attack replaces the extra 
 Shot, and all of your attack rolls for the round (the melee attack and the ranged attacks) take a -2
 penalty. If your initial attack leaves you with no enemies threatening you, you can make the
 subsequent ranged attack or attacks without provoking attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When using this feat, you can spend 2 stamina points to negate the -2 penalty on all attacks for 1
-round.

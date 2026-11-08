@@ -2,7 +2,7 @@
 id = "ref/feat/shield-specialization"
 kind = "feat"
 title = "Shield Specialization"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_specialization", path = "json/feat14.json" },
 ]
@@ -29,9 +29,3 @@ addition, you may add your base shield bonus (including the bonus from Shield Fo
 including enhancement bonuses) to your CMD.\
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the
 feat, it applies to a new type of shield.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-When you are the target of a combat maneuver, you can spend 2 stamina points to add your shield's
-enhancement bonus to your CMD for that combat maneuver.

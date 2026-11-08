@@ -2,7 +2,7 @@
 id = "ref/feat/shield-focus"
 kind = "feat"
 title = "Shield Focus"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_focus", path = "json/feat14.json" },
 ]
@@ -22,13 +22,6 @@ benefit = "Increase the AC bonus granted by any shield you are using by 1."
 You are skilled at deflecting blows with your shield.\
 **Prerequisites:** [Shield Proficiency](ref/feat/shield-proficiency), base attack bonus +1.\
 **Benefit:** Increase the AC bonus granted by any shield you are using by 1.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-When an attack is made against you while you are using a shield, you can spend up to 2 stamina
-points. If you do, the shield's bonus to AC against that attack increases by an amount equal to the
-number of stamina points you spent.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at deflecting blows with your shield.\

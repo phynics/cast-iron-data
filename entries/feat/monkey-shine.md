@@ -2,7 +2,7 @@
 id = "ref/feat/monkey-shine"
 kind = "feat"
 title = "Monkey Shine"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_shine", path = "json/feat11.json" },
 ]
@@ -32,11 +32,3 @@ on melee attack rolls against that opponent. If otherwise unhindered, the oppone
 from you, but if he does, he provokes an attack of opportunity from you even if his choice of
 movement does not normally do so.\
 **Normal:** You cannot enter an opponent's space.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-After you have used this feat to enter an opponent's space, if that opponent moves away from you,
-you can spend stamina points to move along with the opponent. You must spend 2 stamina points per 5
-feet you move. The opponent's movement doesn't provoke attacks of opportunity from you if you move
-with the opponent, nor do you provoke attacks of opportunity when moving in this way.

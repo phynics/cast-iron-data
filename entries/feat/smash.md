@@ -2,7 +2,7 @@
 id = "ref/feat/smash"
 kind = "feat"
 title = "Smash"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smash", path = "json/feat14.json" },
 ]
@@ -27,10 +27,3 @@ You overcome obstacles by breaking them.\
 break open doors.\
 **Special:** The benefits of this feat do not apply to [sunder](ref/rule/sunder) attempts or attacks
 against constructs, only attacks on inanimate, unattended objects.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When attempting a sunder combat maneuver or making an attack against a construct that has a
-[hardness](ref/umr/hardness), you can spend 5 stamina points to ignore the first 10 points of the
-target's hardness.

@@ -2,7 +2,7 @@
 id = "ref/feat/hard-headed"
 kind = "feat"
 title = "Hard-Headed"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hard_headed", path = "json/feat08.json" },
 ]
@@ -23,10 +23,3 @@ Your thick skull is almost a weapon unto itself.\
 **Benefit:** You gain a +1 bonus on attack rolls and combat maneuver checks made using a helmet. You
 receive a +2 bonus on saves against spells and special abilities that cause you to become
 [staggered](ref/misc/staggered) or [stunned](ref/misc/stunned).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When targeted by a spell or a special ability that could cause you to become staggered or stunned,
-you can spend up to 2 stamina points before attempting the save to gain a bonus on the saving throw
-equal to the number of stamina points you spent.

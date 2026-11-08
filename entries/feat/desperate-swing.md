@@ -2,7 +2,7 @@
 id = "ref/feat/desperate-swing"
 kind = "feat"
 title = "Desperate Swing"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_swing", path = "json/feat04.json" },
 ]
@@ -26,9 +26,3 @@ You land your most telling blows in desperate situations.\
 [total defense](ref/misc/total-defense) action. You take a -4 penalty on attack rolls when making
 this attack. You also gain a +4 bonus on critical confirmation rolls made while fighting defensively
 or making an attack of opportunity using this feat.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 117\
-You can spend 5 stamina points to use this feat an additional time per day. Each time you use this
-combat trick, you must spend 5 stamina points.

@@ -2,7 +2,7 @@
 id = "ref/feat/mantis-torment"
 kind = "feat"
 title = "Mantis Torment"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_torment", path = "json/feat10.json" },
 ]
@@ -29,9 +29,3 @@ make an unarmed attack that expends two daily attempts of your Stunning Fist. If
 opponent must succeed at a saving throw against your Stunning Fist or become
 [dazzled](ref/misc/dazzled) and [staggered](ref/misc/staggered) with crippling pain until the start
 of your next turn, and at that point the opponent becomes [fatigued](ref/misc/fatigued).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-Instead of expending two uses of Stunning Fist to make the Mantis Torment unarmed strike, you can
-choose to spend either 5 stamina points or one use of Stunning Fist and 2 stamina points.

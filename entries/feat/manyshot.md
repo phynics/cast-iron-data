@@ -2,7 +2,7 @@
 id = "ref/feat/manyshot"
 kind = "feat"
 title = "Manyshot"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manyshot", path = "json/feat10.json" },
 ]
@@ -27,12 +27,6 @@ attack hits, both arrows hit. Apply precision-based damage (such as
 bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other
 damage bonuses, such as a ranger's [favored enemy](ref/ability/favored-enemy) bonus.
 [Damage reduction](ref/rule/damage-reduction) and resistances apply separately to each arrow.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 126\
-When using this feat, you can spend 5 stamina points to fire two arrows with your final iterative
-attack during the full attack.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can fire multiple arrows at a single target.\

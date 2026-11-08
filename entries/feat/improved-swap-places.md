@@ -2,7 +2,7 @@
 id = "ref/feat/improved-swap-places"
 kind = "feat"
 title = "Improved Swap Places"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_swap_places", path = "json/feat09.json" },
 ]
@@ -31,11 +31,3 @@ available adjacent squares to accommodate the rest of the ally's space, the ally
 would occupy, but this bull rush cannot move the creature more than 5 feet.\
 **Normal:** Using Swap Places requires you and your ally to be the same size, and your movement into
 the ally's square provokes attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-When you attempt a bull rush when using this feat, you can spend 2 stamina points to gain the
-ability to move the target of that combat maneuver more than 5 feet if necessary to create space for
-your ally (you must still roll high enough on the bull rush attempt to move the target an extra
-distance, as normal).

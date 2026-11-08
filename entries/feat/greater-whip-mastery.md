@@ -2,7 +2,7 @@
 id = "ref/feat/greater-whip-mastery"
 kind = "feat"
 title = "Greater Whip Mastery"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_whip_mastery", path = "json/feat08.json" },
 ]
@@ -46,10 +46,3 @@ with the following changes.
 > **Tie Up:** While adjacent to your opponent, you can attempt to use your whip to tie him up. If
 > you do so to an opponent you have grappled rather than pinned, you take only a -5 penalty on the
 > combat maneuver check rather than the normal -10.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When you initiate a grapple with a whip, you can spend 5 stamina points to attempt a second grapple
-check as a swift action to either move or damage the creature you are grappling. This is not a check
-to maintain the grapple.

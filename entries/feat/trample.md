@@ -2,7 +2,7 @@
 id = "ref/feat/trample"
 kind = "feat"
 title = "Trample"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trample", path = "json/feat16.json" },
 ]
@@ -23,10 +23,3 @@ While mounted, you can ride down opponents and trample them under your mount.\
 **Benefit:** When you attempt to [overrun](ref/rule/overrun) an opponent while mounted, your target
 may not choose to avoid you. Your mount may make one hoof attack against any target you knock down,
 gaining the standard +4 bonus on attack rolls against prone targets.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-When you attempt to overrun an opponent while mounted and you don't succeed at the overrun combat
-maneuver check, you can spend 2 stamina points and continue to move as if the target of the overrun
-had moved out of the way.

@@ -148254,28 +148254,56 @@ title = "Adder Strike"
 entry = "ref/feat/adder-strike"
 
 [[books.chapters.children]]
+title = "Adder Strike (Stamina)"
+entry = "ref/feat/adder-strike/stamina"
+
+[[books.chapters.children]]
 title = "Agile Maneuvers"
 entry = "ref/feat/agile-maneuvers"
+
+[[books.chapters.children]]
+title = "Agile Maneuvers (Stamina)"
+entry = "ref/feat/agile-maneuvers/stamina"
 
 [[books.chapters.children]]
 title = "Amateur Gunslinger"
 entry = "ref/feat/amateur-gunslinger"
 
 [[books.chapters.children]]
+title = "Amateur Gunslinger (Stamina)"
+entry = "ref/feat/amateur-gunslinger/stamina"
+
+[[books.chapters.children]]
 title = "Amateur Swashbuckler"
 entry = "ref/feat/amateur-swashbuckler"
+
+[[books.chapters.children]]
+title = "Amateur Swashbuckler (Stamina)"
+entry = "ref/feat/amateur-swashbuckler/stamina"
 
 [[books.chapters.children]]
 title = "Anticipate Dodge"
 entry = "ref/feat/anticipate-dodge"
 
 [[books.chapters.children]]
+title = "Anticipate Dodge (Stamina)"
+entry = "ref/feat/anticipate-dodge/stamina"
+
+[[books.chapters.children]]
 title = "Arcane Armor Mastery"
 entry = "ref/feat/arcane-armor-mastery"
 
 [[books.chapters.children]]
+title = "Arcane Armor Mastery (Stamina)"
+entry = "ref/feat/arcane-armor-mastery/stamina"
+
+[[books.chapters.children]]
 title = "Arc Slinger"
 entry = "ref/feat/arc-slinger"
+
+[[books.chapters.children]]
+title = "Arc Slinger (Stamina)"
+entry = "ref/feat/arc-slinger/stamina"
 
 [[books.chapters.children]]
 title = "Extra Stamina"
@@ -148290,1832 +148318,3664 @@ title = "Arcane Armor Training"
 entry = "ref/feat/arcane-armor-training"
 
 [[books.chapters.children]]
+title = "Arcane Armor Training (Stamina)"
+entry = "ref/feat/arcane-armor-training/stamina"
+
+[[books.chapters.children]]
 title = "Arcane Strike"
 entry = "ref/feat/arcane-strike"
+
+[[books.chapters.children]]
+title = "Arcane Strike (Stamina)"
+entry = "ref/feat/arcane-strike/stamina"
 
 [[books.chapters.children]]
 title = "Barroom Brawler"
 entry = "ref/feat/barroom-brawler"
 
 [[books.chapters.children]]
+title = "Barroom Brawler (Stamina)"
+entry = "ref/feat/barroom-brawler/stamina"
+
+[[books.chapters.children]]
 title = "Bashing Finish"
 entry = "ref/feat/bashing-finish"
+
+[[books.chapters.children]]
+title = "Bashing Finish (Stamina)"
+entry = "ref/feat/bashing-finish/stamina"
 
 [[books.chapters.children]]
 title = "Battle Cry"
 entry = "ref/feat/battle-cry"
 
 [[books.chapters.children]]
+title = "Battle Cry (Stamina)"
+entry = "ref/feat/battle-cry/stamina"
+
+[[books.chapters.children]]
 title = "Befuddling Strike"
 entry = "ref/feat/befuddling-strike"
+
+[[books.chapters.children]]
+title = "Befuddling Strike (Stamina)"
+entry = "ref/feat/befuddling-strike/stamina"
 
 [[books.chapters.children]]
 title = "Binding Throw"
 entry = "ref/feat/binding-throw"
 
 [[books.chapters.children]]
+title = "Binding Throw (Stamina)"
+entry = "ref/feat/binding-throw/stamina"
+
+[[books.chapters.children]]
 title = "Blazing Aura (ARG)"
 entry = "ref/feat/blazing-aura-arg"
+
+[[books.chapters.children]]
+title = "Blazing Aura (ARG) (Stamina)"
+entry = "ref/feat/blazing-aura-arg/stamina"
 
 [[books.chapters.children]]
 title = "Bleeding Critical"
 entry = "ref/feat/bleeding-critical"
 
 [[books.chapters.children]]
+title = "Bleeding Critical (Stamina)"
+entry = "ref/feat/bleeding-critical/stamina"
+
+[[books.chapters.children]]
 title = "Blind-Fight"
 entry = "ref/feat/blind-fight"
+
+[[books.chapters.children]]
+title = "Blind-Fight (Stamina)"
+entry = "ref/feat/blind-fight/stamina"
 
 [[books.chapters.children]]
 title = "Blinding Critical"
 entry = "ref/feat/blinding-critical"
 
 [[books.chapters.children]]
+title = "Blinding Critical (Stamina)"
+entry = "ref/feat/blinding-critical/stamina"
+
+[[books.chapters.children]]
 title = "Blistering Feint"
 entry = "ref/feat/blistering-feint"
+
+[[books.chapters.children]]
+title = "Blistering Feint (Stamina)"
+entry = "ref/feat/blistering-feint/stamina"
 
 [[books.chapters.children]]
 title = "Blood Beak"
 entry = "ref/feat/blood-beak"
 
 [[books.chapters.children]]
+title = "Blood Beak (Stamina)"
+entry = "ref/feat/blood-beak/stamina"
+
+[[books.chapters.children]]
 title = "Blooded Arcane Strike"
 entry = "ref/feat/blooded-arcane-strike"
+
+[[books.chapters.children]]
+title = "Blooded Arcane Strike (Stamina)"
+entry = "ref/feat/blooded-arcane-strike/stamina"
 
 [[books.chapters.children]]
 title = "Bloody Assault"
 entry = "ref/feat/bloody-assault"
 
 [[books.chapters.children]]
+title = "Bloody Assault (Stamina)"
+entry = "ref/feat/bloody-assault/stamina"
+
+[[books.chapters.children]]
 title = "Bludgeoner"
 entry = "ref/feat/bludgeoner"
+
+[[books.chapters.children]]
+title = "Bludgeoner (Stamina)"
+entry = "ref/feat/bludgeoner/stamina"
 
 [[books.chapters.children]]
 title = "Blundering Defense"
 entry = "ref/feat/blundering-defense"
 
 [[books.chapters.children]]
+title = "Blundering Defense (Stamina)"
+entry = "ref/feat/blundering-defense/stamina"
+
+[[books.chapters.children]]
 title = "Boar Ferocity"
 entry = "ref/feat/boar-ferocity"
+
+[[books.chapters.children]]
+title = "Boar Ferocity (Stamina)"
+entry = "ref/feat/boar-ferocity/stamina"
 
 [[books.chapters.children]]
 title = "Boar Shred"
 entry = "ref/feat/boar-shred"
 
 [[books.chapters.children]]
+title = "Boar Shred (Stamina)"
+entry = "ref/feat/boar-shred/stamina"
+
+[[books.chapters.children]]
 title = "Boar Style"
 entry = "ref/feat/boar-style"
+
+[[books.chapters.children]]
+title = "Boar Style (Stamina)"
+entry = "ref/feat/boar-style/stamina"
 
 [[books.chapters.children]]
 title = "Bodyguard"
 entry = "ref/feat/bodyguard"
 
 [[books.chapters.children]]
+title = "Bodyguard (Stamina)"
+entry = "ref/feat/bodyguard/stamina"
+
+[[books.chapters.children]]
 title = "Body Shield"
 entry = "ref/feat/body-shield"
+
+[[books.chapters.children]]
+title = "Body Shield (Stamina)"
+entry = "ref/feat/body-shield/stamina"
 
 [[books.chapters.children]]
 title = "Bonebreaker"
 entry = "ref/feat/bonebreaker"
 
 [[books.chapters.children]]
+title = "Bonebreaker (Stamina)"
+entry = "ref/feat/bonebreaker/stamina"
+
+[[books.chapters.children]]
 title = "Break Guard"
 entry = "ref/feat/break-guard"
+
+[[books.chapters.children]]
+title = "Break Guard (Stamina)"
+entry = "ref/feat/break-guard/stamina"
 
 [[books.chapters.children]]
 title = "Broken Wing Gambit"
 entry = "ref/feat/broken-wing-gambit"
 
 [[books.chapters.children]]
+title = "Broken Wing Gambit (Stamina)"
+entry = "ref/feat/broken-wing-gambit/stamina"
+
+[[books.chapters.children]]
 title = "Bull Rush Strike"
 entry = "ref/feat/bull-rush-strike"
+
+[[books.chapters.children]]
+title = "Bull Rush Strike (Stamina)"
+entry = "ref/feat/bull-rush-strike/stamina"
 
 [[books.chapters.children]]
 title = "Bullying Blow"
 entry = "ref/feat/bullying-blow"
 
 [[books.chapters.children]]
+title = "Bullying Blow (Stamina)"
+entry = "ref/feat/bullying-blow/stamina"
+
+[[books.chapters.children]]
 title = "Canny Tumble"
 entry = "ref/feat/canny-tumble"
+
+[[books.chapters.children]]
+title = "Canny Tumble (Stamina)"
+entry = "ref/feat/canny-tumble/stamina"
 
 [[books.chapters.children]]
 title = "Catch Off-Guard"
 entry = "ref/feat/catch-off-guard"
 
 [[books.chapters.children]]
+title = "Catch Off-Guard (Stamina)"
+entry = "ref/feat/catch-off-guard/stamina"
+
+[[books.chapters.children]]
 title = "Cautious Fighter"
 entry = "ref/feat/cautious-fighter"
+
+[[books.chapters.children]]
+title = "Cautious Fighter (Stamina)"
+entry = "ref/feat/cautious-fighter/stamina"
 
 [[books.chapters.children]]
 title = "Cavalry Formation"
 entry = "ref/feat/cavalry-formation"
 
 [[books.chapters.children]]
+title = "Cavalry Formation (Stamina)"
+entry = "ref/feat/cavalry-formation/stamina"
+
+[[books.chapters.children]]
 title = "Channeling Force"
 entry = "ref/feat/channeling-force"
+
+[[books.chapters.children]]
+title = "Channeling Force (Stamina)"
+entry = "ref/feat/channeling-force/stamina"
 
 [[books.chapters.children]]
 title = "Channel Smite"
 entry = "ref/feat/channel-smite"
 
 [[books.chapters.children]]
+title = "Channel Smite (Stamina)"
+entry = "ref/feat/channel-smite/stamina"
+
+[[books.chapters.children]]
 title = "Charge Through"
 entry = "ref/feat/charge-through"
+
+[[books.chapters.children]]
+title = "Charge Through (Stamina)"
+entry = "ref/feat/charge-through/stamina"
 
 [[books.chapters.children]]
 title = "Charging Hurler"
 entry = "ref/feat/charging-hurler"
 
 [[books.chapters.children]]
+title = "Charging Hurler (Stamina)"
+entry = "ref/feat/charging-hurler/stamina"
+
+[[books.chapters.children]]
 title = "Chokehold"
 entry = "ref/feat/chokehold"
+
+[[books.chapters.children]]
+title = "Chokehold (Stamina)"
+entry = "ref/feat/chokehold/stamina"
 
 [[books.chapters.children]]
 title = "Claw Pounce"
 entry = "ref/feat/claw-pounce"
 
 [[books.chapters.children]]
+title = "Claw Pounce (Stamina)"
+entry = "ref/feat/claw-pounce/stamina"
+
+[[books.chapters.children]]
 title = "Cleave"
 entry = "ref/feat/cleave"
+
+[[books.chapters.children]]
+title = "Cleave (Stamina)"
+entry = "ref/feat/cleave/stamina"
 
 [[books.chapters.children]]
 title = "Cleave Through"
 entry = "ref/feat/cleave-through"
 
 [[books.chapters.children]]
+title = "Cleave Through (Stamina)"
+entry = "ref/feat/cleave-through/stamina"
+
+[[books.chapters.children]]
 title = "Cleaving Finish"
 entry = "ref/feat/cleaving-finish"
+
+[[books.chapters.children]]
+title = "Cleaving Finish (Stamina)"
+entry = "ref/feat/cleaving-finish/stamina"
 
 [[books.chapters.children]]
 title = "Close-Quarters Thrower"
 entry = "ref/feat/close-quarters-thrower"
 
 [[books.chapters.children]]
+title = "Close-Quarters Thrower (Stamina)"
+entry = "ref/feat/close-quarters-thrower/stamina"
+
+[[books.chapters.children]]
 title = "Cloven Helm"
 entry = "ref/feat/cloven-helm"
+
+[[books.chapters.children]]
+title = "Cloven Helm (Stamina)"
+entry = "ref/feat/cloven-helm/stamina"
 
 [[books.chapters.children]]
 title = "Clustered Shots"
 entry = "ref/feat/clustered-shots"
 
 [[books.chapters.children]]
+title = "Clustered Shots (Stamina)"
+entry = "ref/feat/clustered-shots/stamina"
+
+[[books.chapters.children]]
 title = "Cockatrice Strike"
 entry = "ref/feat/cockatrice-strike"
+
+[[books.chapters.children]]
+title = "Cockatrice Strike (Stamina)"
+entry = "ref/feat/cockatrice-strike/stamina"
 
 [[books.chapters.children]]
 title = "Combat Expertise"
 entry = "ref/feat/combat-expertise"
 
 [[books.chapters.children]]
+title = "Combat Expertise (Stamina)"
+entry = "ref/feat/combat-expertise/stamina"
+
+[[books.chapters.children]]
 title = "Combat Patrol"
 entry = "ref/feat/combat-patrol"
+
+[[books.chapters.children]]
+title = "Combat Patrol (Stamina)"
+entry = "ref/feat/combat-patrol/stamina"
 
 [[books.chapters.children]]
 title = "Combat Reflexes"
 entry = "ref/feat/combat-reflexes"
 
 [[books.chapters.children]]
+title = "Combat Reflexes (Stamina)"
+entry = "ref/feat/combat-reflexes/stamina"
+
+[[books.chapters.children]]
 title = "Combat Style Master"
 entry = "ref/feat/combat-style-master"
+
+[[books.chapters.children]]
+title = "Combat Style Master (Stamina)"
+entry = "ref/feat/combat-style-master/stamina"
 
 [[books.chapters.children]]
 title = "Coordinated Charge"
 entry = "ref/feat/coordinated-charge"
 
 [[books.chapters.children]]
+title = "Coordinated Charge (Stamina)"
+entry = "ref/feat/coordinated-charge/stamina"
+
+[[books.chapters.children]]
 title = "Coordinated Defense"
 entry = "ref/feat/coordinated-defense"
+
+[[books.chapters.children]]
+title = "Coordinated Defense (Stamina)"
+entry = "ref/feat/coordinated-defense/stamina"
 
 [[books.chapters.children]]
 title = "Coordinated Maneuvers"
 entry = "ref/feat/coordinated-maneuvers"
 
 [[books.chapters.children]]
+title = "Coordinated Maneuvers (Stamina)"
+entry = "ref/feat/coordinated-maneuvers/stamina"
+
+[[books.chapters.children]]
 title = "Coordinated Shot"
 entry = "ref/feat/coordinated-shot"
+
+[[books.chapters.children]]
+title = "Coordinated Shot (Stamina)"
+entry = "ref/feat/coordinated-shot/stamina"
 
 [[books.chapters.children]]
 title = "Counterpunch"
 entry = "ref/feat/counterpunch"
 
 [[books.chapters.children]]
+title = "Counterpunch (Stamina)"
+entry = "ref/feat/counterpunch/stamina"
+
+[[books.chapters.children]]
 title = "Counter Reflexes"
 entry = "ref/feat/counter-reflexes"
+
+[[books.chapters.children]]
+title = "Counter Reflexes (Stamina)"
+entry = "ref/feat/counter-reflexes/stamina"
 
 [[books.chapters.children]]
 title = "Covering Defense"
 entry = "ref/feat/covering-defense"
 
 [[books.chapters.children]]
+title = "Covering Defense (Stamina)"
+entry = "ref/feat/covering-defense/stamina"
+
+[[books.chapters.children]]
 title = "Crane Riposte"
 entry = "ref/feat/crane-riposte"
+
+[[books.chapters.children]]
+title = "Crane Riposte (Stamina)"
+entry = "ref/feat/crane-riposte/stamina"
 
 [[books.chapters.children]]
 title = "Crane Style"
 entry = "ref/feat/crane-style"
 
 [[books.chapters.children]]
+title = "Crane Style (Stamina)"
+entry = "ref/feat/crane-style/stamina"
+
+[[books.chapters.children]]
 title = "Crane Wing"
 entry = "ref/feat/crane-wing"
+
+[[books.chapters.children]]
+title = "Crane Wing (Stamina)"
+entry = "ref/feat/crane-wing/stamina"
 
 [[books.chapters.children]]
 title = "Crippling Critical"
 entry = "ref/feat/crippling-critical"
 
 [[books.chapters.children]]
+title = "Crippling Critical (Stamina)"
+entry = "ref/feat/crippling-critical/stamina"
+
+[[books.chapters.children]]
 title = "Critical Focus"
 entry = "ref/feat/critical-focus"
+
+[[books.chapters.children]]
+title = "Critical Focus (Stamina)"
+entry = "ref/feat/critical-focus/stamina"
 
 [[books.chapters.children]]
 title = "Critical Mastery"
 entry = "ref/feat/critical-mastery"
 
 [[books.chapters.children]]
+title = "Critical Mastery (Stamina)"
+entry = "ref/feat/critical-mastery/stamina"
+
+[[books.chapters.children]]
 title = "Critical Versatility"
 entry = "ref/feat/critical-versatility"
+
+[[books.chapters.children]]
+title = "Critical Versatility (Stamina)"
+entry = "ref/feat/critical-versatility/stamina"
 
 [[books.chapters.children]]
 title = "Crossbow Mastery"
 entry = "ref/feat/crossbow-mastery"
 
 [[books.chapters.children]]
+title = "Crossbow Mastery (Stamina)"
+entry = "ref/feat/crossbow-mastery/stamina"
+
+[[books.chapters.children]]
 title = "Crusader's Fist"
 entry = "ref/feat/crusaders-fist"
+
+[[books.chapters.children]]
+title = "Crusader's Fist (Stamina)"
+entry = "ref/feat/crusaders-fist/stamina"
 
 [[books.chapters.children]]
 title = "Crushing Blow"
 entry = "ref/feat/crushing-blow"
 
 [[books.chapters.children]]
+title = "Crushing Blow (Stamina)"
+entry = "ref/feat/crushing-blow/stamina"
+
+[[books.chapters.children]]
 title = "Dastardly Finish"
 entry = "ref/feat/dastardly-finish"
+
+[[books.chapters.children]]
+title = "Dastardly Finish (Stamina)"
+entry = "ref/feat/dastardly-finish/stamina"
 
 [[books.chapters.children]]
 title = "Dazing Assault"
 entry = "ref/feat/dazing-assault"
 
 [[books.chapters.children]]
+title = "Dazing Assault (Stamina)"
+entry = "ref/feat/dazing-assault/stamina"
+
+[[books.chapters.children]]
 title = "Dazing Fist"
 entry = "ref/feat/dazing-fist"
+
+[[books.chapters.children]]
+title = "Dazing Fist (Stamina)"
+entry = "ref/feat/dazing-fist/stamina"
 
 [[books.chapters.children]]
 title = "Dazzling Display"
 entry = "ref/feat/dazzling-display"
 
 [[books.chapters.children]]
+title = "Dazzling Display (Stamina)"
+entry = "ref/feat/dazzling-display/stamina"
+
+[[books.chapters.children]]
 title = "Deadly Aim"
 entry = "ref/feat/deadly-aim"
+
+[[books.chapters.children]]
+title = "Deadly Aim (Stamina)"
+entry = "ref/feat/deadly-aim/stamina"
 
 [[books.chapters.children]]
 title = "Deadly Finish"
 entry = "ref/feat/deadly-finish"
 
 [[books.chapters.children]]
+title = "Deadly Finish (Stamina)"
+entry = "ref/feat/deadly-finish/stamina"
+
+[[books.chapters.children]]
 title = "Deadly Stroke"
 entry = "ref/feat/deadly-stroke"
+
+[[books.chapters.children]]
+title = "Deadly Stroke (Stamina)"
+entry = "ref/feat/deadly-stroke/stamina"
 
 [[books.chapters.children]]
 title = "Deafening Critical"
 entry = "ref/feat/deafening-critical"
 
 [[books.chapters.children]]
+title = "Deafening Critical (Stamina)"
+entry = "ref/feat/deafening-critical/stamina"
+
+[[books.chapters.children]]
 title = "Death from Above"
 entry = "ref/feat/death-from-above"
+
+[[books.chapters.children]]
+title = "Death from Above (Stamina)"
+entry = "ref/feat/death-from-above/stamina"
 
 [[books.chapters.children]]
 title = "Deathless Initiate"
 entry = "ref/feat/deathless-initiate"
 
 [[books.chapters.children]]
+title = "Deathless Initiate (Stamina)"
+entry = "ref/feat/deathless-initiate/stamina"
+
+[[books.chapters.children]]
 title = "Deathless Master"
 entry = "ref/feat/deathless-master"
+
+[[books.chapters.children]]
+title = "Deathless Master (Stamina)"
+entry = "ref/feat/deathless-master/stamina"
 
 [[books.chapters.children]]
 title = "Deathless Zealot"
 entry = "ref/feat/deathless-zealot"
 
 [[books.chapters.children]]
+title = "Deathless Zealot (Stamina)"
+entry = "ref/feat/deathless-zealot/stamina"
+
+[[books.chapters.children]]
 title = "Death or Glory"
 entry = "ref/feat/death-or-glory"
+
+[[books.chapters.children]]
+title = "Death or Glory (Stamina)"
+entry = "ref/feat/death-or-glory/stamina"
 
 [[books.chapters.children]]
 title = "Defensive Combat Training"
 entry = "ref/feat/defensive-combat-training"
 
 [[books.chapters.children]]
+title = "Defensive Combat Training (Stamina)"
+entry = "ref/feat/defensive-combat-training/stamina"
+
+[[books.chapters.children]]
 title = "Defensive Weapon Training"
 entry = "ref/feat/defensive-weapon-training"
+
+[[books.chapters.children]]
+title = "Defensive Weapon Training (Stamina)"
+entry = "ref/feat/defensive-weapon-training/stamina"
 
 [[books.chapters.children]]
 title = "Deflect Arrows"
 entry = "ref/feat/deflect-arrows"
 
 [[books.chapters.children]]
+title = "Deflect Arrows (Stamina)"
+entry = "ref/feat/deflect-arrows/stamina"
+
+[[books.chapters.children]]
 title = "Demoralizing Lash"
 entry = "ref/feat/demoralizing-lash"
+
+[[books.chapters.children]]
+title = "Demoralizing Lash (Stamina)"
+entry = "ref/feat/demoralizing-lash/stamina"
 
 [[books.chapters.children]]
 title = "Dented Helm"
 entry = "ref/feat/dented-helm"
 
 [[books.chapters.children]]
+title = "Dented Helm (Stamina)"
+entry = "ref/feat/dented-helm/stamina"
+
+[[books.chapters.children]]
 title = "Desperate Swing"
 entry = "ref/feat/desperate-swing"
+
+[[books.chapters.children]]
+title = "Desperate Swing (Stamina)"
+entry = "ref/feat/desperate-swing/stamina"
 
 [[books.chapters.children]]
 title = "Destroyer's Blessing"
 entry = "ref/feat/destroyers-blessing"
 
 [[books.chapters.children]]
+title = "Destroyer's Blessing (Stamina)"
+entry = "ref/feat/destroyers-blessing/stamina"
+
+[[books.chapters.children]]
 title = "Devastating Strike"
 entry = "ref/feat/devastating-strike"
+
+[[books.chapters.children]]
+title = "Devastating Strike (Stamina)"
+entry = "ref/feat/devastating-strike/stamina"
 
 [[books.chapters.children]]
 title = "Disarming Strike"
 entry = "ref/feat/disarming-strike"
 
 [[books.chapters.children]]
+title = "Disarming Strike (Stamina)"
+entry = "ref/feat/disarming-strike/stamina"
+
+[[books.chapters.children]]
 title = "Disengaging Feint"
 entry = "ref/feat/disengaging-feint"
+
+[[books.chapters.children]]
+title = "Disengaging Feint (Stamina)"
+entry = "ref/feat/disengaging-feint/stamina"
 
 [[books.chapters.children]]
 title = "Disengaging Flourish"
 entry = "ref/feat/disengaging-flourish"
 
 [[books.chapters.children]]
+title = "Disengaging Flourish (Stamina)"
+entry = "ref/feat/disengaging-flourish/stamina"
+
+[[books.chapters.children]]
 title = "Disengaging Shot"
 entry = "ref/feat/disengaging-shot"
+
+[[books.chapters.children]]
+title = "Disengaging Shot (Stamina)"
+entry = "ref/feat/disengaging-shot/stamina"
 
 [[books.chapters.children]]
 title = "Disheartening Display"
 entry = "ref/feat/disheartening-display"
 
 [[books.chapters.children]]
+title = "Disheartening Display (Stamina)"
+entry = "ref/feat/disheartening-display/stamina"
+
+[[books.chapters.children]]
 title = "Disrupting Shot"
 entry = "ref/feat/disrupting-shot"
+
+[[books.chapters.children]]
+title = "Disrupting Shot (Stamina)"
+entry = "ref/feat/disrupting-shot/stamina"
 
 [[books.chapters.children]]
 title = "Disruptive"
 entry = "ref/feat/disruptive"
 
 [[books.chapters.children]]
+title = "Disruptive (Stamina)"
+entry = "ref/feat/disruptive/stamina"
+
+[[books.chapters.children]]
 title = "Distance Thrower"
 entry = "ref/feat/distance-thrower"
+
+[[books.chapters.children]]
+title = "Distance Thrower (Stamina)"
+entry = "ref/feat/distance-thrower/stamina"
 
 [[books.chapters.children]]
 title = "Distracting Charge"
 entry = "ref/feat/distracting-charge"
 
 [[books.chapters.children]]
+title = "Distracting Charge (Stamina)"
+entry = "ref/feat/distracting-charge/stamina"
+
+[[books.chapters.children]]
 title = "Djinni Spin"
 entry = "ref/feat/djinni-spin"
+
+[[books.chapters.children]]
+title = "Djinni Spin (Stamina)"
+entry = "ref/feat/djinni-spin/stamina"
 
 [[books.chapters.children]]
 title = "Djinni Spirit"
 entry = "ref/feat/djinni-spirit"
 
 [[books.chapters.children]]
+title = "Djinni Spirit (Stamina)"
+entry = "ref/feat/djinni-spirit/stamina"
+
+[[books.chapters.children]]
 title = "Djinni Style"
 entry = "ref/feat/djinni-style"
+
+[[books.chapters.children]]
+title = "Djinni Style (Stamina)"
+entry = "ref/feat/djinni-style/stamina"
 
 [[books.chapters.children]]
 title = "Dodge"
 entry = "ref/feat/dodge"
 
 [[books.chapters.children]]
+title = "Dodge (Stamina)"
+entry = "ref/feat/dodge/stamina"
+
+[[books.chapters.children]]
 title = "Domain Strike"
 entry = "ref/feat/domain-strike"
+
+[[books.chapters.children]]
+title = "Domain Strike (Stamina)"
+entry = "ref/feat/domain-strike/stamina"
 
 [[books.chapters.children]]
 title = "Double Slice"
 entry = "ref/feat/double-slice"
 
 [[books.chapters.children]]
+title = "Double Slice (Stamina)"
+entry = "ref/feat/double-slice/stamina"
+
+[[books.chapters.children]]
 title = "Drag Down"
 entry = "ref/feat/drag-down"
+
+[[books.chapters.children]]
+title = "Drag Down (Stamina)"
+entry = "ref/feat/drag-down/stamina"
 
 [[books.chapters.children]]
 title = "Dragon Ferocity"
 entry = "ref/feat/dragon-ferocity"
 
 [[books.chapters.children]]
+title = "Dragon Ferocity (Stamina)"
+entry = "ref/feat/dragon-ferocity/stamina"
+
+[[books.chapters.children]]
 title = "Dragon Roar"
 entry = "ref/feat/dragon-roar"
+
+[[books.chapters.children]]
+title = "Dragon Roar (Stamina)"
+entry = "ref/feat/dragon-roar/stamina"
 
 [[books.chapters.children]]
 title = "Dragon Style"
 entry = "ref/feat/dragon-style"
 
 [[books.chapters.children]]
+title = "Dragon Style (Stamina)"
+entry = "ref/feat/dragon-style/stamina"
+
+[[books.chapters.children]]
 title = "Draining Strike"
 entry = "ref/feat/draining-strike"
+
+[[books.chapters.children]]
+title = "Draining Strike (Stamina)"
+entry = "ref/feat/draining-strike/stamina"
 
 [[books.chapters.children]]
 title = "Dramatic Display"
 entry = "ref/feat/dramatic-display"
 
 [[books.chapters.children]]
+title = "Dramatic Display (Stamina)"
+entry = "ref/feat/dramatic-display/stamina"
+
+[[books.chapters.children]]
 title = "Dreadful Carnage"
 entry = "ref/feat/dreadful-carnage"
+
+[[books.chapters.children]]
+title = "Dreadful Carnage (Stamina)"
+entry = "ref/feat/dreadful-carnage/stamina"
 
 [[books.chapters.children]]
 title = "Earth Child Binder"
 entry = "ref/feat/earth-child-binder"
 
 [[books.chapters.children]]
+title = "Earth Child Binder (Stamina)"
+entry = "ref/feat/earth-child-binder/stamina"
+
+[[books.chapters.children]]
 title = "Earth Child Style"
 entry = "ref/feat/earth-child-style"
+
+[[books.chapters.children]]
+title = "Earth Child Style (Stamina)"
+entry = "ref/feat/earth-child-style/stamina"
 
 [[books.chapters.children]]
 title = "Earth Child Topple"
 entry = "ref/feat/earth-child-topple"
 
 [[books.chapters.children]]
+title = "Earth Child Topple (Stamina)"
+entry = "ref/feat/earth-child-topple/stamina"
+
+[[books.chapters.children]]
 title = "Efreeti Stance"
 entry = "ref/feat/efreeti-stance"
+
+[[books.chapters.children]]
+title = "Efreeti Stance (Stamina)"
+entry = "ref/feat/efreeti-stance/stamina"
 
 [[books.chapters.children]]
 title = "Efreeti Style"
 entry = "ref/feat/efreeti-style"
 
 [[books.chapters.children]]
+title = "Efreeti Style (Stamina)"
+entry = "ref/feat/efreeti-style/stamina"
+
+[[books.chapters.children]]
 title = "Efreeti Touch"
 entry = "ref/feat/efreeti-touch"
+
+[[books.chapters.children]]
+title = "Efreeti Touch (Stamina)"
+entry = "ref/feat/efreeti-touch/stamina"
 
 [[books.chapters.children]]
 title = "Eldritch Claws"
 entry = "ref/feat/eldritch-claws"
 
 [[books.chapters.children]]
+title = "Eldritch Claws (Stamina)"
+entry = "ref/feat/eldritch-claws/stamina"
+
+[[books.chapters.children]]
 title = "Elemental Fist"
 entry = "ref/feat/elemental-fist"
+
+[[books.chapters.children]]
+title = "Elemental Fist (Stamina)"
+entry = "ref/feat/elemental-fist/stamina"
 
 [[books.chapters.children]]
 title = "Elven Accuracy"
 entry = "ref/feat/elven-accuracy"
 
 [[books.chapters.children]]
+title = "Elven Accuracy (Stamina)"
+entry = "ref/feat/elven-accuracy/stamina"
+
+[[books.chapters.children]]
 title = "Elven Battle Training"
 entry = "ref/feat/elven-battle-training"
+
+[[books.chapters.children]]
+title = "Elven Battle Training (Stamina)"
+entry = "ref/feat/elven-battle-training/stamina"
 
 [[books.chapters.children]]
 title = "Enfilading Fire"
 entry = "ref/feat/enfilading-fire"
 
 [[books.chapters.children]]
+title = "Enfilading Fire (Stamina)"
+entry = "ref/feat/enfilading-fire/stamina"
+
+[[books.chapters.children]]
 title = "Enforcer"
 entry = "ref/feat/enforcer"
+
+[[books.chapters.children]]
+title = "Enforcer (Stamina)"
+entry = "ref/feat/enforcer/stamina"
 
 [[books.chapters.children]]
 title = "Exhausting Critical"
 entry = "ref/feat/exhausting-critical"
 
 [[books.chapters.children]]
+title = "Exhausting Critical (Stamina)"
+entry = "ref/feat/exhausting-critical/stamina"
+
+[[books.chapters.children]]
 title = "Extreme Prejudice"
 entry = "ref/feat/extreme-prejudice"
+
+[[books.chapters.children]]
+title = "Extreme Prejudice (Stamina)"
+entry = "ref/feat/extreme-prejudice/stamina"
 
 [[books.chapters.children]]
 title = "Faerie's Strike"
 entry = "ref/feat/faeries-strike"
 
 [[books.chapters.children]]
+title = "Faerie's Strike (Stamina)"
+entry = "ref/feat/faeries-strike/stamina"
+
+[[books.chapters.children]]
 title = "False Opening"
 entry = "ref/feat/false-opening"
+
+[[books.chapters.children]]
+title = "False Opening (Stamina)"
+entry = "ref/feat/false-opening/stamina"
 
 [[books.chapters.children]]
 title = "Far Shot"
 entry = "ref/feat/far-shot"
 
 [[books.chapters.children]]
+title = "Far Shot (Stamina)"
+entry = "ref/feat/far-shot/stamina"
+
+[[books.chapters.children]]
 title = "Feint Partner"
 entry = "ref/feat/feint-partner"
+
+[[books.chapters.children]]
+title = "Feint Partner (Stamina)"
+entry = "ref/feat/feint-partner/stamina"
 
 [[books.chapters.children]]
 title = "Felling Escape"
 entry = "ref/feat/felling-escape"
 
 [[books.chapters.children]]
+title = "Felling Escape (Stamina)"
+entry = "ref/feat/felling-escape/stamina"
+
+[[books.chapters.children]]
 title = "Felling Smash"
 entry = "ref/feat/felling-smash"
+
+[[books.chapters.children]]
+title = "Felling Smash (Stamina)"
+entry = "ref/feat/felling-smash/stamina"
 
 [[books.chapters.children]]
 title = "Feral Combat Training"
 entry = "ref/feat/feral-combat-training"
 
 [[books.chapters.children]]
+title = "Feral Combat Training (Stamina)"
+entry = "ref/feat/feral-combat-training/stamina"
+
+[[books.chapters.children]]
 title = "Ferocious Tenacity"
 entry = "ref/feat/ferocious-tenacity"
+
+[[books.chapters.children]]
+title = "Ferocious Tenacity (Stamina)"
+entry = "ref/feat/ferocious-tenacity/stamina"
 
 [[books.chapters.children]]
 title = "Final Embrace"
 entry = "ref/feat/final-embrace"
 
 [[books.chapters.children]]
+title = "Final Embrace (Stamina)"
+entry = "ref/feat/final-embrace/stamina"
+
+[[books.chapters.children]]
 title = "Final Embrace Horror"
 entry = "ref/feat/final-embrace-horror"
+
+[[books.chapters.children]]
+title = "Final Embrace Horror (Stamina)"
+entry = "ref/feat/final-embrace-horror/stamina"
 
 [[books.chapters.children]]
 title = "Final Embrace Master"
 entry = "ref/feat/final-embrace-master"
 
 [[books.chapters.children]]
+title = "Final Embrace Master (Stamina)"
+entry = "ref/feat/final-embrace-master/stamina"
+
+[[books.chapters.children]]
 title = "Fire Hand"
 entry = "ref/feat/fire-hand"
+
+[[books.chapters.children]]
+title = "Fire Hand (Stamina)"
+entry = "ref/feat/fire-hand/stamina"
 
 [[books.chapters.children]]
 title = "Flanking Foil"
 entry = "ref/feat/flanking-foil"
 
 [[books.chapters.children]]
+title = "Flanking Foil (Stamina)"
+entry = "ref/feat/flanking-foil/stamina"
+
+[[books.chapters.children]]
 title = "Focused Shot"
 entry = "ref/feat/focused-shot"
+
+[[books.chapters.children]]
+title = "Focused Shot (Stamina)"
+entry = "ref/feat/focused-shot/stamina"
 
 [[books.chapters.children]]
 title = "Following Step"
 entry = "ref/feat/following-step"
 
 [[books.chapters.children]]
+title = "Following Step (Stamina)"
+entry = "ref/feat/following-step/stamina"
+
+[[books.chapters.children]]
 title = "Fortified Armor Training"
 entry = "ref/feat/fortified-armor-training"
+
+[[books.chapters.children]]
+title = "Fortified Armor Training (Stamina)"
+entry = "ref/feat/fortified-armor-training/stamina"
 
 [[books.chapters.children]]
 title = "Furious Focus"
 entry = "ref/feat/furious-focus"
 
 [[books.chapters.children]]
+title = "Furious Focus (Stamina)"
+entry = "ref/feat/furious-focus/stamina"
+
+[[books.chapters.children]]
 title = "Gang Up"
 entry = "ref/feat/gang-up"
+
+[[books.chapters.children]]
+title = "Gang Up (Stamina)"
+entry = "ref/feat/gang-up/stamina"
 
 [[books.chapters.children]]
 title = "Giant Killer"
 entry = "ref/feat/giant-killer"
 
 [[books.chapters.children]]
+title = "Giant Killer (Stamina)"
+entry = "ref/feat/giant-killer/stamina"
+
+[[books.chapters.children]]
 title = "Gloom Strike"
 entry = "ref/feat/gloom-strike"
+
+[[books.chapters.children]]
+title = "Gloom Strike (Stamina)"
+entry = "ref/feat/gloom-strike/stamina"
 
 [[books.chapters.children]]
 title = "Gnome Weapon Focus"
 entry = "ref/feat/gnome-weapon-focus"
 
 [[books.chapters.children]]
+title = "Gnome Weapon Focus (Stamina)"
+entry = "ref/feat/gnome-weapon-focus/stamina"
+
+[[books.chapters.children]]
 title = "Goblin Cleaver"
 entry = "ref/feat/goblin-cleaver"
+
+[[books.chapters.children]]
+title = "Goblin Cleaver (Stamina)"
+entry = "ref/feat/goblin-cleaver/stamina"
 
 [[books.chapters.children]]
 title = "Goblin Gunslinger"
 entry = "ref/feat/goblin-gunslinger"
 
 [[books.chapters.children]]
+title = "Goblin Gunslinger (Stamina)"
+entry = "ref/feat/goblin-gunslinger/stamina"
+
+[[books.chapters.children]]
 title = "Gorgon's Fist"
 entry = "ref/feat/gorgons-fist"
+
+[[books.chapters.children]]
+title = "Gorgon's Fist (Stamina)"
+entry = "ref/feat/gorgons-fist/stamina"
 
 [[books.chapters.children]]
 title = "Gory Finish"
 entry = "ref/feat/gory-finish"
 
 [[books.chapters.children]]
+title = "Gory Finish (Stamina)"
+entry = "ref/feat/gory-finish/stamina"
+
+[[books.chapters.children]]
 title = "Grabbing Drag"
 entry = "ref/feat/grabbing-drag"
+
+[[books.chapters.children]]
+title = "Grabbing Drag (Stamina)"
+entry = "ref/feat/grabbing-drag/stamina"
 
 [[books.chapters.children]]
 title = "Grabbing Master"
 entry = "ref/feat/grabbing-master"
 
 [[books.chapters.children]]
+title = "Grabbing Master (Stamina)"
+entry = "ref/feat/grabbing-master/stamina"
+
+[[books.chapters.children]]
 title = "Grabbing Style"
 entry = "ref/feat/grabbing-style"
+
+[[books.chapters.children]]
+title = "Grabbing Style (Stamina)"
+entry = "ref/feat/grabbing-style/stamina"
 
 [[books.chapters.children]]
 title = "Grasping Strike"
 entry = "ref/feat/grasping-strike"
 
 [[books.chapters.children]]
+title = "Grasping Strike (Stamina)"
+entry = "ref/feat/grasping-strike/stamina"
+
+[[books.chapters.children]]
 title = "Great Cleave"
 entry = "ref/feat/great-cleave"
+
+[[books.chapters.children]]
+title = "Great Cleave (Stamina)"
+entry = "ref/feat/great-cleave/stamina"
 
 [[books.chapters.children]]
 title = "Greater Blind-Fight"
 entry = "ref/feat/greater-blind-fight"
 
 [[books.chapters.children]]
+title = "Greater Blind-Fight (Stamina)"
+entry = "ref/feat/greater-blind-fight/stamina"
+
+[[books.chapters.children]]
 title = "Greater Bull Rush"
 entry = "ref/feat/greater-bull-rush"
+
+[[books.chapters.children]]
+title = "Greater Bull Rush (Stamina)"
+entry = "ref/feat/greater-bull-rush/stamina"
 
 [[books.chapters.children]]
 title = "Greater Dirty Trick"
 entry = "ref/feat/greater-dirty-trick"
 
 [[books.chapters.children]]
+title = "Greater Dirty Trick (Stamina)"
+entry = "ref/feat/greater-dirty-trick/stamina"
+
+[[books.chapters.children]]
 title = "Greater Disarm"
 entry = "ref/feat/greater-disarm"
+
+[[books.chapters.children]]
+title = "Greater Disarm (Stamina)"
+entry = "ref/feat/greater-disarm/stamina"
 
 [[books.chapters.children]]
 title = "Great Hatred"
 entry = "ref/feat/great-hatred"
 
 [[books.chapters.children]]
+title = "Great Hatred (Stamina)"
+entry = "ref/feat/great-hatred/stamina"
+
+[[books.chapters.children]]
 title = "Greater Drag"
 entry = "ref/feat/greater-drag"
+
+[[books.chapters.children]]
+title = "Greater Drag (Stamina)"
+entry = "ref/feat/greater-drag/stamina"
 
 [[books.chapters.children]]
 title = "Greater Feint"
 entry = "ref/feat/greater-feint"
 
 [[books.chapters.children]]
+title = "Greater Feint (Stamina)"
+entry = "ref/feat/greater-feint/stamina"
+
+[[books.chapters.children]]
 title = "Greater Grapple"
 entry = "ref/feat/greater-grapple"
+
+[[books.chapters.children]]
+title = "Greater Grapple (Stamina)"
+entry = "ref/feat/greater-grapple/stamina"
 
 [[books.chapters.children]]
 title = "Greater Overrun"
 entry = "ref/feat/greater-overrun"
 
 [[books.chapters.children]]
+title = "Greater Overrun (Stamina)"
+entry = "ref/feat/greater-overrun/stamina"
+
+[[books.chapters.children]]
 title = "Greater Penetrating Strike"
 entry = "ref/feat/greater-penetrating-strike"
+
+[[books.chapters.children]]
+title = "Greater Penetrating Strike (Stamina)"
+entry = "ref/feat/greater-penetrating-strike/stamina"
 
 [[books.chapters.children]]
 title = "Greater Rending Fury"
 entry = "ref/feat/greater-rending-fury"
 
 [[books.chapters.children]]
+title = "Greater Rending Fury (Stamina)"
+entry = "ref/feat/greater-rending-fury/stamina"
+
+[[books.chapters.children]]
 title = "Greater Reposition"
 entry = "ref/feat/greater-reposition"
+
+[[books.chapters.children]]
+title = "Greater Reposition (Stamina)"
+entry = "ref/feat/greater-reposition/stamina"
 
 [[books.chapters.children]]
 title = "Greater Shield Focus"
 entry = "ref/feat/greater-shield-focus"
 
 [[books.chapters.children]]
+title = "Greater Shield Focus (Stamina)"
+entry = "ref/feat/greater-shield-focus/stamina"
+
+[[books.chapters.children]]
 title = "Greater Shield Specialization"
 entry = "ref/feat/greater-shield-specialization"
+
+[[books.chapters.children]]
+title = "Greater Shield Specialization (Stamina)"
+entry = "ref/feat/greater-shield-specialization/stamina"
 
 [[books.chapters.children]]
 title = "Greater Snap Shot"
 entry = "ref/feat/greater-snap-shot"
 
 [[books.chapters.children]]
+title = "Greater Snap Shot (Stamina)"
+entry = "ref/feat/greater-snap-shot/stamina"
+
+[[books.chapters.children]]
 title = "Greater Steal"
 entry = "ref/feat/greater-steal"
+
+[[books.chapters.children]]
+title = "Greater Steal (Stamina)"
+entry = "ref/feat/greater-steal/stamina"
 
 [[books.chapters.children]]
 title = "Greater Sunder"
 entry = "ref/feat/greater-sunder"
 
 [[books.chapters.children]]
+title = "Greater Sunder (Stamina)"
+entry = "ref/feat/greater-sunder/stamina"
+
+[[books.chapters.children]]
 title = "Greater Trip"
 entry = "ref/feat/greater-trip"
+
+[[books.chapters.children]]
+title = "Greater Trip (Stamina)"
+entry = "ref/feat/greater-trip/stamina"
 
 [[books.chapters.children]]
 title = "Greater Two-Weapon Fighting"
 entry = "ref/feat/greater-two-weapon-fighting"
 
 [[books.chapters.children]]
+title = "Greater Two-Weapon Fighting (Stamina)"
+entry = "ref/feat/greater-two-weapon-fighting/stamina"
+
+[[books.chapters.children]]
 title = "Greater Vital Strike"
 entry = "ref/feat/greater-vital-strike"
+
+[[books.chapters.children]]
+title = "Greater Vital Strike (Stamina)"
+entry = "ref/feat/greater-vital-strike/stamina"
 
 [[books.chapters.children]]
 title = "Greater Weapon Focus"
 entry = "ref/feat/greater-weapon-focus"
 
 [[books.chapters.children]]
+title = "Greater Weapon Focus (Stamina)"
+entry = "ref/feat/greater-weapon-focus/stamina"
+
+[[books.chapters.children]]
 title = "Greater Weapon of the Chosen"
 entry = "ref/feat/greater-weapon-of-the-chosen"
+
+[[books.chapters.children]]
+title = "Greater Weapon of the Chosen (Stamina)"
+entry = "ref/feat/greater-weapon-of-the-chosen/stamina"
 
 [[books.chapters.children]]
 title = "Greater Weapon Specialization"
 entry = "ref/feat/greater-weapon-specialization"
 
 [[books.chapters.children]]
+title = "Greater Weapon Specialization (Stamina)"
+entry = "ref/feat/greater-weapon-specialization/stamina"
+
+[[books.chapters.children]]
 title = "Greater Whip Mastery"
 entry = "ref/feat/greater-whip-mastery"
+
+[[books.chapters.children]]
+title = "Greater Whip Mastery (Stamina)"
+entry = "ref/feat/greater-whip-mastery/stamina"
 
 [[books.chapters.children]]
 title = "Grudge Fighter"
 entry = "ref/feat/grudge-fighter"
 
 [[books.chapters.children]]
+title = "Grudge Fighter (Stamina)"
+entry = "ref/feat/grudge-fighter/stamina"
+
+[[books.chapters.children]]
 title = "Gruesome Slaughter"
 entry = "ref/feat/gruesome-slaughter"
+
+[[books.chapters.children]]
+title = "Gruesome Slaughter (Stamina)"
+entry = "ref/feat/gruesome-slaughter/stamina"
 
 [[books.chapters.children]]
 title = "Hammer the Gap"
 entry = "ref/feat/hammer-the-gap"
 
 [[books.chapters.children]]
+title = "Hammer the Gap (Stamina)"
+entry = "ref/feat/hammer-the-gap/stamina"
+
+[[books.chapters.children]]
 title = "Hard-Headed"
 entry = "ref/feat/hard-headed"
+
+[[books.chapters.children]]
+title = "Hard-Headed (Stamina)"
+entry = "ref/feat/hard-headed/stamina"
 
 [[books.chapters.children]]
 title = "Haunted Gnome"
 entry = "ref/feat/haunted-gnome"
 
 [[books.chapters.children]]
+title = "Haunted Gnome (Stamina)"
+entry = "ref/feat/haunted-gnome/stamina"
+
+[[books.chapters.children]]
 title = "Haunted Gnome Assault"
 entry = "ref/feat/haunted-gnome-assault"
+
+[[books.chapters.children]]
+title = "Haunted Gnome Assault (Stamina)"
+entry = "ref/feat/haunted-gnome-assault/stamina"
 
 [[books.chapters.children]]
 title = "Haunted Gnome Shroud"
 entry = "ref/feat/haunted-gnome-shroud"
 
 [[books.chapters.children]]
+title = "Haunted Gnome Shroud (Stamina)"
+entry = "ref/feat/haunted-gnome-shroud/stamina"
+
+[[books.chapters.children]]
 title = "Hero's Display"
 entry = "ref/feat/heros-display"
+
+[[books.chapters.children]]
+title = "Hero's Display (Stamina)"
+entry = "ref/feat/heros-display/stamina"
 
 [[books.chapters.children]]
 title = "Hex Strike"
 entry = "ref/feat/hex-strike"
 
 [[books.chapters.children]]
+title = "Hex Strike (Stamina)"
+entry = "ref/feat/hex-strike/stamina"
+
+[[books.chapters.children]]
 title = "Horse Master"
 entry = "ref/feat/horse-master"
+
+[[books.chapters.children]]
+title = "Horse Master (Stamina)"
+entry = "ref/feat/horse-master/stamina"
 
 [[books.chapters.children]]
 title = "Impact Critical Shot"
 entry = "ref/feat/impact-critical-shot"
 
 [[books.chapters.children]]
+title = "Impact Critical Shot (Stamina)"
+entry = "ref/feat/impact-critical-shot/stamina"
+
+[[books.chapters.children]]
 title = "Impaling Critical"
 entry = "ref/feat/impaling-critical"
+
+[[books.chapters.children]]
+title = "Impaling Critical (Stamina)"
+entry = "ref/feat/impaling-critical/stamina"
 
 [[books.chapters.children]]
 title = "Improved Awesome Blow"
 entry = "ref/feat/improved-awesome-blow"
 
 [[books.chapters.children]]
+title = "Improved Awesome Blow (Stamina)"
+entry = "ref/feat/improved-awesome-blow/stamina"
+
+[[books.chapters.children]]
 title = "Improved Blind-Fight"
 entry = "ref/feat/improved-blind-fight"
+
+[[books.chapters.children]]
+title = "Improved Blind-Fight (Stamina)"
+entry = "ref/feat/improved-blind-fight/stamina"
 
 [[books.chapters.children]]
 title = "Improved Bull Rush"
 entry = "ref/feat/improved-bull-rush"
 
 [[books.chapters.children]]
+title = "Improved Bull Rush (Stamina)"
+entry = "ref/feat/improved-bull-rush/stamina"
+
+[[books.chapters.children]]
 title = "Improved Charging Hurler"
 entry = "ref/feat/improved-charging-hurler"
+
+[[books.chapters.children]]
+title = "Improved Charging Hurler (Stamina)"
+entry = "ref/feat/improved-charging-hurler/stamina"
 
 [[books.chapters.children]]
 title = "Improved Cleaving Finish"
 entry = "ref/feat/improved-cleaving-finish"
 
 [[books.chapters.children]]
+title = "Improved Cleaving Finish (Stamina)"
+entry = "ref/feat/improved-cleaving-finish/stamina"
+
+[[books.chapters.children]]
 title = "Improved Critical"
 entry = "ref/feat/improved-critical"
+
+[[books.chapters.children]]
+title = "Improved Critical (Stamina)"
+entry = "ref/feat/improved-critical/stamina"
 
 [[books.chapters.children]]
 title = "Improved Devastating Strike"
 entry = "ref/feat/improved-devastating-strike"
 
 [[books.chapters.children]]
+title = "Improved Devastating Strike (Stamina)"
+entry = "ref/feat/improved-devastating-strike/stamina"
+
+[[books.chapters.children]]
 title = "Improved Dirty Trick"
 entry = "ref/feat/improved-dirty-trick"
+
+[[books.chapters.children]]
+title = "Improved Dirty Trick (Stamina)"
+entry = "ref/feat/improved-dirty-trick/stamina"
 
 [[books.chapters.children]]
 title = "Improved Disarm"
 entry = "ref/feat/improved-disarm"
 
 [[books.chapters.children]]
+title = "Improved Disarm (Stamina)"
+entry = "ref/feat/improved-disarm/stamina"
+
+[[books.chapters.children]]
 title = "Improved Drag"
 entry = "ref/feat/improved-drag"
+
+[[books.chapters.children]]
+title = "Improved Drag (Stamina)"
+entry = "ref/feat/improved-drag/stamina"
 
 [[books.chapters.children]]
 title = "Improved Feint"
 entry = "ref/feat/improved-feint"
 
 [[books.chapters.children]]
+title = "Improved Feint (Stamina)"
+entry = "ref/feat/improved-feint/stamina"
+
+[[books.chapters.children]]
 title = "Improved Feint Partner"
 entry = "ref/feat/improved-feint-partner"
+
+[[books.chapters.children]]
+title = "Improved Feint Partner (Stamina)"
+entry = "ref/feat/improved-feint-partner/stamina"
 
 [[books.chapters.children]]
 title = "Improved Grapple"
 entry = "ref/feat/improved-grapple"
 
 [[books.chapters.children]]
+title = "Improved Grapple (Stamina)"
+entry = "ref/feat/improved-grapple/stamina"
+
+[[books.chapters.children]]
 title = "Improved Impaling Critical"
 entry = "ref/feat/improved-impaling-critical"
+
+[[books.chapters.children]]
+title = "Improved Impaling Critical (Stamina)"
+entry = "ref/feat/improved-impaling-critical/stamina"
 
 [[books.chapters.children]]
 title = "Improved Initiative"
 entry = "ref/feat/improved-initiative"
 
 [[books.chapters.children]]
+title = "Improved Initiative (Stamina)"
+entry = "ref/feat/improved-initiative/stamina"
+
+[[books.chapters.children]]
 title = "Improved Ki Throw"
 entry = "ref/feat/improved-ki-throw"
+
+[[books.chapters.children]]
+title = "Improved Ki Throw (Stamina)"
+entry = "ref/feat/improved-ki-throw/stamina"
 
 [[books.chapters.children]]
 title = "Improved Low Blow"
 entry = "ref/feat/improved-low-blow"
 
 [[books.chapters.children]]
+title = "Improved Low Blow (Stamina)"
+entry = "ref/feat/improved-low-blow/stamina"
+
+[[books.chapters.children]]
 title = "Improved Overrun"
 entry = "ref/feat/improved-overrun"
+
+[[books.chapters.children]]
+title = "Improved Overrun (Stamina)"
+entry = "ref/feat/improved-overrun/stamina"
 
 [[books.chapters.children]]
 title = "Improved Precise Shot"
 entry = "ref/feat/improved-precise-shot"
 
 [[books.chapters.children]]
+title = "Improved Precise Shot (Stamina)"
+entry = "ref/feat/improved-precise-shot/stamina"
+
+[[books.chapters.children]]
 title = "Improved Rending Fury"
 entry = "ref/feat/improved-rending-fury"
+
+[[books.chapters.children]]
+title = "Improved Rending Fury (Stamina)"
+entry = "ref/feat/improved-rending-fury/stamina"
 
 [[books.chapters.children]]
 title = "Improved Reposition"
 entry = "ref/feat/improved-reposition"
 
 [[books.chapters.children]]
+title = "Improved Reposition (Stamina)"
+entry = "ref/feat/improved-reposition/stamina"
+
+[[books.chapters.children]]
 title = "Improved Second Chance"
 entry = "ref/feat/improved-second-chance"
+
+[[books.chapters.children]]
+title = "Improved Second Chance (Stamina)"
+entry = "ref/feat/improved-second-chance/stamina"
 
 [[books.chapters.children]]
 title = "Improved Shield Bash"
 entry = "ref/feat/improved-shield-bash"
 
 [[books.chapters.children]]
+title = "Improved Shield Bash (Stamina)"
+entry = "ref/feat/improved-shield-bash/stamina"
+
+[[books.chapters.children]]
 title = "Improved Sidestep"
 entry = "ref/feat/improved-sidestep"
+
+[[books.chapters.children]]
+title = "Improved Sidestep (Stamina)"
+entry = "ref/feat/improved-sidestep/stamina"
 
 [[books.chapters.children]]
 title = "Improved Snap Shot"
 entry = "ref/feat/improved-snap-shot"
 
 [[books.chapters.children]]
+title = "Improved Snap Shot (Stamina)"
+entry = "ref/feat/improved-snap-shot/stamina"
+
+[[books.chapters.children]]
 title = "Improved Steal"
 entry = "ref/feat/improved-steal"
+
+[[books.chapters.children]]
+title = "Improved Steal (Stamina)"
+entry = "ref/feat/improved-steal/stamina"
 
 [[books.chapters.children]]
 title = "Improved Sunder"
 entry = "ref/feat/improved-sunder"
 
 [[books.chapters.children]]
+title = "Improved Sunder (Stamina)"
+entry = "ref/feat/improved-sunder/stamina"
+
+[[books.chapters.children]]
 title = "Improved Surprise Follow-Through"
 entry = "ref/feat/improved-surprise-follow-through"
+
+[[books.chapters.children]]
+title = "Improved Surprise Follow-Through (Stamina)"
+entry = "ref/feat/improved-surprise-follow-through/stamina"
 
 [[books.chapters.children]]
 title = "Improved Swap Places"
 entry = "ref/feat/improved-swap-places"
 
 [[books.chapters.children]]
+title = "Improved Swap Places (Stamina)"
+entry = "ref/feat/improved-swap-places/stamina"
+
+[[books.chapters.children]]
 title = "Improved Trip"
 entry = "ref/feat/improved-trip"
+
+[[books.chapters.children]]
+title = "Improved Trip (Stamina)"
+entry = "ref/feat/improved-trip/stamina"
 
 [[books.chapters.children]]
 title = "Improved Two-Weapon Feint"
 entry = "ref/feat/improved-two-weapon-feint"
 
 [[books.chapters.children]]
+title = "Improved Two-Weapon Feint (Stamina)"
+entry = "ref/feat/improved-two-weapon-feint/stamina"
+
+[[books.chapters.children]]
 title = "Improved Two-Weapon Fighting"
 entry = "ref/feat/improved-two-weapon-fighting"
+
+[[books.chapters.children]]
+title = "Improved Two-Weapon Fighting (Stamina)"
+entry = "ref/feat/improved-two-weapon-fighting/stamina"
 
 [[books.chapters.children]]
 title = "Improved Unarmed Strike"
 entry = "ref/feat/improved-unarmed-strike"
 
 [[books.chapters.children]]
+title = "Improved Unarmed Strike (Stamina)"
+entry = "ref/feat/improved-unarmed-strike/stamina"
+
+[[books.chapters.children]]
 title = "Improved Vital Strike"
 entry = "ref/feat/improved-vital-strike"
+
+[[books.chapters.children]]
+title = "Improved Vital Strike (Stamina)"
+entry = "ref/feat/improved-vital-strike/stamina"
 
 [[books.chapters.children]]
 title = "Improved Weapon of the Chosen"
 entry = "ref/feat/improved-weapon-of-the-chosen"
 
 [[books.chapters.children]]
+title = "Improved Weapon of the Chosen (Stamina)"
+entry = "ref/feat/improved-weapon-of-the-chosen/stamina"
+
+[[books.chapters.children]]
 title = "Improved Whip Mastery"
 entry = "ref/feat/improved-whip-mastery"
+
+[[books.chapters.children]]
+title = "Improved Whip Mastery (Stamina)"
+entry = "ref/feat/improved-whip-mastery/stamina"
 
 [[books.chapters.children]]
 title = "Improvised Weapon Mastery"
 entry = "ref/feat/improvised-weapon-mastery"
 
 [[books.chapters.children]]
+title = "Improvised Weapon Mastery (Stamina)"
+entry = "ref/feat/improvised-weapon-mastery/stamina"
+
+[[books.chapters.children]]
 title = "In Harm's Way"
 entry = "ref/feat/in-harms-way"
+
+[[books.chapters.children]]
+title = "In Harm's Way (Stamina)"
+entry = "ref/feat/in-harms-way/stamina"
 
 [[books.chapters.children]]
 title = "Inner Flame"
 entry = "ref/feat/inner-flame"
 
 [[books.chapters.children]]
+title = "Inner Flame (Stamina)"
+entry = "ref/feat/inner-flame/stamina"
+
+[[books.chapters.children]]
 title = "Intercept Charge"
 entry = "ref/feat/intercept-charge"
+
+[[books.chapters.children]]
+title = "Intercept Charge (Stamina)"
+entry = "ref/feat/intercept-charge/stamina"
 
 [[books.chapters.children]]
 title = "Intimidating Prowess"
 entry = "ref/feat/intimidating-prowess"
 
 [[books.chapters.children]]
+title = "Intimidating Prowess (Stamina)"
+entry = "ref/feat/intimidating-prowess/stamina"
+
+[[books.chapters.children]]
 title = "Jabbing Dancer"
 entry = "ref/feat/jabbing-dancer"
+
+[[books.chapters.children]]
+title = "Jabbing Dancer (Stamina)"
+entry = "ref/feat/jabbing-dancer/stamina"
 
 [[books.chapters.children]]
 title = "Jabbing Master"
 entry = "ref/feat/jabbing-master"
 
 [[books.chapters.children]]
+title = "Jabbing Master (Stamina)"
+entry = "ref/feat/jabbing-master/stamina"
+
+[[books.chapters.children]]
 title = "Jabbing Style"
 entry = "ref/feat/jabbing-style"
+
+[[books.chapters.children]]
+title = "Jabbing Style (Stamina)"
+entry = "ref/feat/jabbing-style/stamina"
 
 [[books.chapters.children]]
 title = "Janni Rush"
 entry = "ref/feat/janni-rush"
 
 [[books.chapters.children]]
+title = "Janni Rush (Stamina)"
+entry = "ref/feat/janni-rush/stamina"
+
+[[books.chapters.children]]
 title = "Janni Style"
 entry = "ref/feat/janni-style"
+
+[[books.chapters.children]]
+title = "Janni Style (Stamina)"
+entry = "ref/feat/janni-style/stamina"
 
 [[books.chapters.children]]
 title = "Janni Tempest"
 entry = "ref/feat/janni-tempest"
 
 [[books.chapters.children]]
+title = "Janni Tempest (Stamina)"
+entry = "ref/feat/janni-tempest/stamina"
+
+[[books.chapters.children]]
 title = "Jawbreaker"
 entry = "ref/feat/jawbreaker"
+
+[[books.chapters.children]]
+title = "Jawbreaker (Stamina)"
+entry = "ref/feat/jawbreaker/stamina"
 
 [[books.chapters.children]]
 title = "Kick Up"
 entry = "ref/feat/kick-up"
 
 [[books.chapters.children]]
+title = "Kick Up (Stamina)"
+entry = "ref/feat/kick-up/stamina"
+
+[[books.chapters.children]]
 title = "Killing Flourish"
 entry = "ref/feat/killing-flourish"
+
+[[books.chapters.children]]
+title = "Killing Flourish (Stamina)"
+entry = "ref/feat/killing-flourish/stamina"
 
 [[books.chapters.children]]
 title = "Kirin Path"
 entry = "ref/feat/kirin-path"
 
 [[books.chapters.children]]
+title = "Kirin Path (Stamina)"
+entry = "ref/feat/kirin-path/stamina"
+
+[[books.chapters.children]]
 title = "Kirin Strike"
 entry = "ref/feat/kirin-strike"
+
+[[books.chapters.children]]
+title = "Kirin Strike (Stamina)"
+entry = "ref/feat/kirin-strike/stamina"
 
 [[books.chapters.children]]
 title = "Kirin Style"
 entry = "ref/feat/kirin-style"
 
 [[books.chapters.children]]
+title = "Kirin Style (Stamina)"
+entry = "ref/feat/kirin-style/stamina"
+
+[[books.chapters.children]]
 title = "Ki Throw"
 entry = "ref/feat/ki-throw"
+
+[[books.chapters.children]]
+title = "Ki Throw (Stamina)"
+entry = "ref/feat/ki-throw/stamina"
 
 [[books.chapters.children]]
 title = "Kobold Ambusher"
 entry = "ref/feat/kobold-ambusher"
 
 [[books.chapters.children]]
+title = "Kobold Ambusher (Stamina)"
+entry = "ref/feat/kobold-ambusher/stamina"
+
+[[books.chapters.children]]
 title = "Kobold Sniper"
 entry = "ref/feat/kobold-sniper"
+
+[[books.chapters.children]]
+title = "Kobold Sniper (Stamina)"
+entry = "ref/feat/kobold-sniper/stamina"
 
 [[books.chapters.children]]
 title = "Landing Roll"
 entry = "ref/feat/landing-roll"
 
 [[books.chapters.children]]
+title = "Landing Roll (Stamina)"
+entry = "ref/feat/landing-roll/stamina"
+
+[[books.chapters.children]]
 title = "Lightning Stance"
 entry = "ref/feat/lightning-stance"
+
+[[books.chapters.children]]
+title = "Lightning Stance (Stamina)"
+entry = "ref/feat/lightning-stance/stamina"
 
 [[books.chapters.children]]
 title = "Lookout"
 entry = "ref/feat/lookout"
 
 [[books.chapters.children]]
+title = "Lookout (Stamina)"
+entry = "ref/feat/lookout/stamina"
+
+[[books.chapters.children]]
 title = "Low Profile"
 entry = "ref/feat/low-profile"
+
+[[books.chapters.children]]
+title = "Low Profile (Stamina)"
+entry = "ref/feat/low-profile/stamina"
 
 [[books.chapters.children]]
 title = "Lucky Strike"
 entry = "ref/feat/lucky-strike"
 
 [[books.chapters.children]]
+title = "Lucky Strike (Stamina)"
+entry = "ref/feat/lucky-strike/stamina"
+
+[[books.chapters.children]]
 title = "Lunge"
 entry = "ref/feat/lunge"
+
+[[books.chapters.children]]
+title = "Lunge (Stamina)"
+entry = "ref/feat/lunge/stamina"
 
 [[books.chapters.children]]
 title = "Mantis Style"
 entry = "ref/feat/mantis-style"
 
 [[books.chapters.children]]
+title = "Mantis Style (Stamina)"
+entry = "ref/feat/mantis-style/stamina"
+
+[[books.chapters.children]]
 title = "Mantis Torment"
 entry = "ref/feat/mantis-torment"
+
+[[books.chapters.children]]
+title = "Mantis Torment (Stamina)"
+entry = "ref/feat/mantis-torment/stamina"
 
 [[books.chapters.children]]
 title = "Mantis Wisdom"
 entry = "ref/feat/mantis-wisdom"
 
 [[books.chapters.children]]
+title = "Mantis Wisdom (Stamina)"
+entry = "ref/feat/mantis-wisdom/stamina"
+
+[[books.chapters.children]]
 title = "Manyshot"
 entry = "ref/feat/manyshot"
+
+[[books.chapters.children]]
+title = "Manyshot (Stamina)"
+entry = "ref/feat/manyshot/stamina"
 
 [[books.chapters.children]]
 title = "Marid Coldsnap"
 entry = "ref/feat/marid-coldsnap"
 
 [[books.chapters.children]]
+title = "Marid Coldsnap (Stamina)"
+entry = "ref/feat/marid-coldsnap/stamina"
+
+[[books.chapters.children]]
 title = "Marid Spirit"
 entry = "ref/feat/marid-spirit"
+
+[[books.chapters.children]]
+title = "Marid Spirit (Stamina)"
+entry = "ref/feat/marid-spirit/stamina"
 
 [[books.chapters.children]]
 title = "Marid Style"
 entry = "ref/feat/marid-style"
 
 [[books.chapters.children]]
+title = "Marid Style (Stamina)"
+entry = "ref/feat/marid-style/stamina"
+
+[[books.chapters.children]]
 title = "Martial Mastery"
 entry = "ref/feat/martial-mastery"
+
+[[books.chapters.children]]
+title = "Martial Mastery (Stamina)"
+entry = "ref/feat/martial-mastery/stamina"
 
 [[books.chapters.children]]
 title = "Martial Versatility"
 entry = "ref/feat/martial-versatility"
 
 [[books.chapters.children]]
+title = "Martial Versatility (Stamina)"
+entry = "ref/feat/martial-versatility/stamina"
+
+[[books.chapters.children]]
 title = "Master Combat Performer"
 entry = "ref/feat/master-combat-performer"
+
+[[books.chapters.children]]
+title = "Master Combat Performer (Stamina)"
+entry = "ref/feat/master-combat-performer/stamina"
 
 [[books.chapters.children]]
 title = "Masterful Display"
 entry = "ref/feat/masterful-display"
 
 [[books.chapters.children]]
+title = "Masterful Display (Stamina)"
+entry = "ref/feat/masterful-display/stamina"
+
+[[books.chapters.children]]
 title = "Master Siege Engineer"
 entry = "ref/feat/master-siege-engineer"
+
+[[books.chapters.children]]
+title = "Master Siege Engineer (Stamina)"
+entry = "ref/feat/master-siege-engineer/stamina"
 
 [[books.chapters.children]]
 title = "Medusa's Wrath"
 entry = "ref/feat/medusas-wrath"
 
 [[books.chapters.children]]
+title = "Medusa's Wrath (Stamina)"
+entry = "ref/feat/medusas-wrath/stamina"
+
+[[books.chapters.children]]
 title = "Merciless Butchery"
 entry = "ref/feat/merciless-butchery"
+
+[[books.chapters.children]]
+title = "Merciless Butchery (Stamina)"
+entry = "ref/feat/merciless-butchery/stamina"
 
 [[books.chapters.children]]
 title = "Missile Shield"
 entry = "ref/feat/missile-shield"
 
 [[books.chapters.children]]
+title = "Missile Shield (Stamina)"
+entry = "ref/feat/missile-shield/stamina"
+
+[[books.chapters.children]]
 title = "Mobility"
 entry = "ref/feat/mobility"
+
+[[books.chapters.children]]
+title = "Mobility (Stamina)"
+entry = "ref/feat/mobility/stamina"
 
 [[books.chapters.children]]
 title = "Mocking Dance"
 entry = "ref/feat/mocking-dance"
 
 [[books.chapters.children]]
+title = "Mocking Dance (Stamina)"
+entry = "ref/feat/mocking-dance/stamina"
+
+[[books.chapters.children]]
 title = "Monastic Legacy"
 entry = "ref/feat/monastic-legacy"
+
+[[books.chapters.children]]
+title = "Monastic Legacy (Stamina)"
+entry = "ref/feat/monastic-legacy/stamina"
 
 [[books.chapters.children]]
 title = "Monkey Moves"
 entry = "ref/feat/monkey-moves"
 
 [[books.chapters.children]]
+title = "Monkey Moves (Stamina)"
+entry = "ref/feat/monkey-moves/stamina"
+
+[[books.chapters.children]]
 title = "Monkey Shine"
 entry = "ref/feat/monkey-shine"
+
+[[books.chapters.children]]
+title = "Monkey Shine (Stamina)"
+entry = "ref/feat/monkey-shine/stamina"
 
 [[books.chapters.children]]
 title = "Monkey Style"
 entry = "ref/feat/monkey-style"
 
 [[books.chapters.children]]
+title = "Monkey Style (Stamina)"
+entry = "ref/feat/monkey-style/stamina"
+
+[[books.chapters.children]]
 title = "Moonlight Stalker"
 entry = "ref/feat/moonlight-stalker"
+
+[[books.chapters.children]]
+title = "Moonlight Stalker (Stamina)"
+entry = "ref/feat/moonlight-stalker/stamina"
 
 [[books.chapters.children]]
 title = "Moonlight Stalker Feint"
 entry = "ref/feat/moonlight-stalker-feint"
 
 [[books.chapters.children]]
+title = "Moonlight Stalker Feint (Stamina)"
+entry = "ref/feat/moonlight-stalker-feint/stamina"
+
+[[books.chapters.children]]
 title = "Moonlight Stalker Master"
 entry = "ref/feat/moonlight-stalker-master"
+
+[[books.chapters.children]]
+title = "Moonlight Stalker Master (Stamina)"
+entry = "ref/feat/moonlight-stalker-master/stamina"
 
 [[books.chapters.children]]
 title = "Mounted Archery"
 entry = "ref/feat/mounted-archery"
 
 [[books.chapters.children]]
+title = "Mounted Archery (Stamina)"
+entry = "ref/feat/mounted-archery/stamina"
+
+[[books.chapters.children]]
 title = "Mounted Combat"
 entry = "ref/feat/mounted-combat"
+
+[[books.chapters.children]]
+title = "Mounted Combat (Stamina)"
+entry = "ref/feat/mounted-combat/stamina"
 
 [[books.chapters.children]]
 title = "Mounted Shield"
 entry = "ref/feat/mounted-shield"
 
 [[books.chapters.children]]
+title = "Mounted Shield (Stamina)"
+entry = "ref/feat/mounted-shield/stamina"
+
+[[books.chapters.children]]
 title = "Mounted Skirmisher"
 entry = "ref/feat/mounted-skirmisher"
+
+[[books.chapters.children]]
+title = "Mounted Skirmisher (Stamina)"
+entry = "ref/feat/mounted-skirmisher/stamina"
 
 [[books.chapters.children]]
 title = "Murderer's Circle"
 entry = "ref/feat/murderers-circle"
 
 [[books.chapters.children]]
+title = "Murderer's Circle (Stamina)"
+entry = "ref/feat/murderers-circle/stamina"
+
+[[books.chapters.children]]
 title = "Neckbreaker"
 entry = "ref/feat/neckbreaker"
+
+[[books.chapters.children]]
+title = "Neckbreaker (Stamina)"
+entry = "ref/feat/neckbreaker/stamina"
 
 [[books.chapters.children]]
 title = "Net Adept"
 entry = "ref/feat/net-adept"
 
 [[books.chapters.children]]
+title = "Net Adept (Stamina)"
+entry = "ref/feat/net-adept/stamina"
+
+[[books.chapters.children]]
 title = "Net and Trident"
 entry = "ref/feat/net-and-trident"
+
+[[books.chapters.children]]
+title = "Net and Trident (Stamina)"
+entry = "ref/feat/net-and-trident/stamina"
 
 [[books.chapters.children]]
 title = "Net Maneuvering"
 entry = "ref/feat/net-maneuvering"
 
 [[books.chapters.children]]
+title = "Net Maneuvering (Stamina)"
+entry = "ref/feat/net-maneuvering/stamina"
+
+[[books.chapters.children]]
 title = "Net Trickery"
 entry = "ref/feat/net-trickery"
+
+[[books.chapters.children]]
+title = "Net Trickery (Stamina)"
+entry = "ref/feat/net-trickery/stamina"
 
 [[books.chapters.children]]
 title = "Nightmare Fist"
 entry = "ref/feat/nightmare-fist"
 
 [[books.chapters.children]]
+title = "Nightmare Fist (Stamina)"
+entry = "ref/feat/nightmare-fist/stamina"
+
+[[books.chapters.children]]
 title = "Nightmare Striker"
 entry = "ref/feat/nightmare-striker"
+
+[[books.chapters.children]]
+title = "Nightmare Striker (Stamina)"
+entry = "ref/feat/nightmare-striker/stamina"
 
 [[books.chapters.children]]
 title = "Nightmare Weaver"
 entry = "ref/feat/nightmare-weaver"
 
 [[books.chapters.children]]
+title = "Nightmare Weaver (Stamina)"
+entry = "ref/feat/nightmare-weaver/stamina"
+
+[[books.chapters.children]]
 title = "Nimble Striker"
 entry = "ref/feat/nimble-striker"
+
+[[books.chapters.children]]
+title = "Nimble Striker (Stamina)"
+entry = "ref/feat/nimble-striker/stamina"
 
 [[books.chapters.children]]
 title = "Opening Volley"
 entry = "ref/feat/opening-volley"
 
 [[books.chapters.children]]
+title = "Opening Volley (Stamina)"
+entry = "ref/feat/opening-volley/stamina"
+
+[[books.chapters.children]]
 title = "Orc Hewer"
 entry = "ref/feat/orc-hewer"
+
+[[books.chapters.children]]
+title = "Orc Hewer (Stamina)"
+entry = "ref/feat/orc-hewer/stamina"
 
 [[books.chapters.children]]
 title = "Orc Weapon Expertise"
 entry = "ref/feat/orc-weapon-expertise"
 
 [[books.chapters.children]]
+title = "Orc Weapon Expertise (Stamina)"
+entry = "ref/feat/orc-weapon-expertise/stamina"
+
+[[books.chapters.children]]
 title = "Outflank"
 entry = "ref/feat/outflank"
+
+[[books.chapters.children]]
+title = "Outflank (Stamina)"
+entry = "ref/feat/outflank/stamina"
 
 [[books.chapters.children]]
 title = "Pack Attack"
 entry = "ref/feat/pack-attack"
 
 [[books.chapters.children]]
+title = "Pack Attack (Stamina)"
+entry = "ref/feat/pack-attack/stamina"
+
+[[books.chapters.children]]
 title = "Paired Opportunists"
 entry = "ref/feat/paired-opportunists"
+
+[[books.chapters.children]]
+title = "Paired Opportunists (Stamina)"
+entry = "ref/feat/paired-opportunists/stamina"
 
 [[books.chapters.children]]
 title = "Panther Claw"
 entry = "ref/feat/panther-claw"
 
 [[books.chapters.children]]
+title = "Panther Claw (Stamina)"
+entry = "ref/feat/panther-claw/stamina"
+
+[[books.chapters.children]]
 title = "Panther Parry"
 entry = "ref/feat/panther-parry"
+
+[[books.chapters.children]]
+title = "Panther Parry (Stamina)"
+entry = "ref/feat/panther-parry/stamina"
 
 [[books.chapters.children]]
 title = "Panther Style"
 entry = "ref/feat/panther-style"
 
 [[books.chapters.children]]
+title = "Panther Style (Stamina)"
+entry = "ref/feat/panther-style/stamina"
+
+[[books.chapters.children]]
 title = "Paralyzing Strike"
 entry = "ref/feat/paralyzing-strike"
+
+[[books.chapters.children]]
+title = "Paralyzing Strike (Stamina)"
+entry = "ref/feat/paralyzing-strike/stamina"
 
 [[books.chapters.children]]
 title = "Parting Shot"
 entry = "ref/feat/parting-shot"
 
 [[books.chapters.children]]
+title = "Parting Shot (Stamina)"
+entry = "ref/feat/parting-shot/stamina"
+
+[[books.chapters.children]]
 title = "Passing Trick"
 entry = "ref/feat/passing-trick"
+
+[[books.chapters.children]]
+title = "Passing Trick (Stamina)"
+entry = "ref/feat/passing-trick/stamina"
 
 [[books.chapters.children]]
 title = "Penetrating Strike"
 entry = "ref/feat/penetrating-strike"
 
 [[books.chapters.children]]
+title = "Penetrating Strike (Stamina)"
+entry = "ref/feat/penetrating-strike/stamina"
+
+[[books.chapters.children]]
 title = "Perfect Strike"
 entry = "ref/feat/perfect-strike"
+
+[[books.chapters.children]]
+title = "Perfect Strike (Stamina)"
+entry = "ref/feat/perfect-strike/stamina"
 
 [[books.chapters.children]]
 title = "Performance Weapon Mastery"
 entry = "ref/feat/performance-weapon-mastery"
 
 [[books.chapters.children]]
+title = "Performance Weapon Mastery (Stamina)"
+entry = "ref/feat/performance-weapon-mastery/stamina"
+
+[[books.chapters.children]]
 title = "Performing Combatant"
 entry = "ref/feat/performing-combatant"
+
+[[books.chapters.children]]
+title = "Performing Combatant (Stamina)"
+entry = "ref/feat/performing-combatant/stamina"
 
 [[books.chapters.children]]
 title = "Pin Down"
 entry = "ref/feat/pin-down"
 
 [[books.chapters.children]]
+title = "Pin Down (Stamina)"
+entry = "ref/feat/pin-down/stamina"
+
+[[books.chapters.children]]
 title = "Pinning Knockout"
 entry = "ref/feat/pinning-knockout"
+
+[[books.chapters.children]]
+title = "Pinning Knockout (Stamina)"
+entry = "ref/feat/pinning-knockout/stamina"
 
 [[books.chapters.children]]
 title = "Pinning Rend"
 entry = "ref/feat/pinning-rend"
 
 [[books.chapters.children]]
+title = "Pinning Rend (Stamina)"
+entry = "ref/feat/pinning-rend/stamina"
+
+[[books.chapters.children]]
 title = "Pinpoint Poisoner"
 entry = "ref/feat/pinpoint-poisoner"
+
+[[books.chapters.children]]
+title = "Pinpoint Poisoner (Stamina)"
+entry = "ref/feat/pinpoint-poisoner/stamina"
 
 [[books.chapters.children]]
 title = "Pinpoint Targeting"
 entry = "ref/feat/pinpoint-targeting"
 
 [[books.chapters.children]]
+title = "Pinpoint Targeting (Stamina)"
+entry = "ref/feat/pinpoint-targeting/stamina"
+
+[[books.chapters.children]]
 title = "Point-Blank Master"
 entry = "ref/feat/point-blank-master"
+
+[[books.chapters.children]]
+title = "Point-Blank Master (Stamina)"
+entry = "ref/feat/point-blank-master/stamina"
 
 [[books.chapters.children]]
 title = "Point-Blank Shot"
 entry = "ref/feat/point-blank-shot"
 
 [[books.chapters.children]]
+title = "Point-Blank Shot (Stamina)"
+entry = "ref/feat/point-blank-shot/stamina"
+
+[[books.chapters.children]]
 title = "Power Attack"
 entry = "ref/feat/power-attack"
+
+[[books.chapters.children]]
+title = "Power Attack (Stamina)"
+entry = "ref/feat/power-attack/stamina"
 
 [[books.chapters.children]]
 title = "Precise Shot"
 entry = "ref/feat/precise-shot"
 
 [[books.chapters.children]]
+title = "Precise Shot (Stamina)"
+entry = "ref/feat/precise-shot/stamina"
+
+[[books.chapters.children]]
 title = "Precise Strike"
 entry = "ref/feat/precise-strike"
+
+[[books.chapters.children]]
+title = "Precise Strike (Stamina)"
+entry = "ref/feat/precise-strike/stamina"
 
 [[books.chapters.children]]
 title = "Prone Shooter"
 entry = "ref/feat/prone-shooter"
 
 [[books.chapters.children]]
+title = "Prone Shooter (Stamina)"
+entry = "ref/feat/prone-shooter/stamina"
+
+[[books.chapters.children]]
 title = "Prone Slinger"
 entry = "ref/feat/prone-slinger"
+
+[[books.chapters.children]]
+title = "Prone Slinger (Stamina)"
+entry = "ref/feat/prone-slinger/stamina"
 
 [[books.chapters.children]]
 title = "Pummeling Bully"
 entry = "ref/feat/pummeling-bully"
 
 [[books.chapters.children]]
+title = "Pummeling Bully (Stamina)"
+entry = "ref/feat/pummeling-bully/stamina"
+
+[[books.chapters.children]]
 title = "Pummeling Charge"
 entry = "ref/feat/pummeling-charge"
+
+[[books.chapters.children]]
+title = "Pummeling Charge (Stamina)"
+entry = "ref/feat/pummeling-charge/stamina"
 
 [[books.chapters.children]]
 title = "Pummeling Style"
 entry = "ref/feat/pummeling-style"
 
 [[books.chapters.children]]
+title = "Pummeling Style (Stamina)"
+entry = "ref/feat/pummeling-style/stamina"
+
+[[books.chapters.children]]
 title = "Punishing Kick"
 entry = "ref/feat/punishing-kick"
+
+[[books.chapters.children]]
+title = "Punishing Kick (Stamina)"
+entry = "ref/feat/punishing-kick/stamina"
 
 [[books.chapters.children]]
 title = "Pushing Assault"
 entry = "ref/feat/pushing-assault"
 
 [[books.chapters.children]]
+title = "Pushing Assault (Stamina)"
+entry = "ref/feat/pushing-assault/stamina"
+
+[[books.chapters.children]]
 title = "Quarterstaff Master"
 entry = "ref/feat/quarterstaff-master"
+
+[[books.chapters.children]]
+title = "Quarterstaff Master (Stamina)"
+entry = "ref/feat/quarterstaff-master/stamina"
 
 [[books.chapters.children]]
 title = "Quick Bull Rush"
 entry = "ref/feat/quick-bull-rush"
 
 [[books.chapters.children]]
+title = "Quick Bull Rush (Stamina)"
+entry = "ref/feat/quick-bull-rush/stamina"
+
+[[books.chapters.children]]
 title = "Quick Dirty Trick"
 entry = "ref/feat/quick-dirty-trick"
+
+[[books.chapters.children]]
+title = "Quick Dirty Trick (Stamina)"
+entry = "ref/feat/quick-dirty-trick/stamina"
 
 [[books.chapters.children]]
 title = "Quick Drag"
 entry = "ref/feat/quick-drag"
 
 [[books.chapters.children]]
+title = "Quick Drag (Stamina)"
+entry = "ref/feat/quick-drag/stamina"
+
+[[books.chapters.children]]
 title = "Quick Draw"
 entry = "ref/feat/quick-draw"
+
+[[books.chapters.children]]
+title = "Quick Draw (Stamina)"
+entry = "ref/feat/quick-draw/stamina"
 
 [[books.chapters.children]]
 title = "Quick Reposition"
 entry = "ref/feat/quick-reposition"
 
 [[books.chapters.children]]
+title = "Quick Reposition (Stamina)"
+entry = "ref/feat/quick-reposition/stamina"
+
+[[books.chapters.children]]
 title = "Quick Steal"
 entry = "ref/feat/quick-steal"
+
+[[books.chapters.children]]
+title = "Quick Steal (Stamina)"
+entry = "ref/feat/quick-steal/stamina"
 
 [[books.chapters.children]]
 title = "Rapid Grappler"
 entry = "ref/feat/rapid-grappler"
 
 [[books.chapters.children]]
+title = "Rapid Grappler (Stamina)"
+entry = "ref/feat/rapid-grappler/stamina"
+
+[[books.chapters.children]]
 title = "Rapid Reload"
 entry = "ref/feat/rapid-reload"
+
+[[books.chapters.children]]
+title = "Rapid Reload (Stamina)"
+entry = "ref/feat/rapid-reload/stamina"
 
 [[books.chapters.children]]
 title = "Rapid Shot"
 entry = "ref/feat/rapid-shot"
 
 [[books.chapters.children]]
+title = "Rapid Shot (Stamina)"
+entry = "ref/feat/rapid-shot/stamina"
+
+[[books.chapters.children]]
 title = "Ray Shield"
 entry = "ref/feat/ray-shield"
+
+[[books.chapters.children]]
+title = "Ray Shield (Stamina)"
+entry = "ref/feat/ray-shield/stamina"
 
 [[books.chapters.children]]
 title = "Rebounding Leap"
 entry = "ref/feat/rebounding-leap"
 
 [[books.chapters.children]]
+title = "Rebounding Leap (Stamina)"
+entry = "ref/feat/rebounding-leap/stamina"
+
+[[books.chapters.children]]
 title = "Rebuffing Reduction"
 entry = "ref/feat/rebuffing-reduction"
+
+[[books.chapters.children]]
+title = "Rebuffing Reduction (Stamina)"
+entry = "ref/feat/rebuffing-reduction/stamina"
 
 [[books.chapters.children]]
 title = "Rending Claws"
 entry = "ref/feat/rending-claws"
 
 [[books.chapters.children]]
+title = "Rending Claws (Stamina)"
+entry = "ref/feat/rending-claws/stamina"
+
+[[books.chapters.children]]
 title = "Rending Fury"
 entry = "ref/feat/rending-fury"
+
+[[books.chapters.children]]
+title = "Rending Fury (Stamina)"
+entry = "ref/feat/rending-fury/stamina"
 
 [[books.chapters.children]]
 title = "Repositioning Strike"
 entry = "ref/feat/repositioning-strike"
 
 [[books.chapters.children]]
+title = "Repositioning Strike (Stamina)"
+entry = "ref/feat/repositioning-strike/stamina"
+
+[[books.chapters.children]]
 title = "Revelation Strike"
 entry = "ref/feat/revelation-strike"
+
+[[books.chapters.children]]
+title = "Revelation Strike (Stamina)"
+entry = "ref/feat/revelation-strike/stamina"
 
 [[books.chapters.children]]
 title = "Reverse-Feint"
 entry = "ref/feat/reverse-feint"
 
 [[books.chapters.children]]
+title = "Reverse-Feint (Stamina)"
+entry = "ref/feat/reverse-feint/stamina"
+
+[[books.chapters.children]]
 title = "Ride-By Attack"
 entry = "ref/feat/ride-by-attack"
+
+[[books.chapters.children]]
+title = "Ride-By Attack (Stamina)"
+entry = "ref/feat/ride-by-attack/stamina"
 
 [[books.chapters.children]]
 title = "Risky Striker"
 entry = "ref/feat/risky-striker"
 
 [[books.chapters.children]]
+title = "Risky Striker (Stamina)"
+entry = "ref/feat/risky-striker/stamina"
+
+[[books.chapters.children]]
 title = "Riving Strike"
 entry = "ref/feat/riving-strike"
+
+[[books.chapters.children]]
+title = "Riving Strike (Stamina)"
+entry = "ref/feat/riving-strike/stamina"
 
 [[books.chapters.children]]
 title = "Sap Adept"
 entry = "ref/feat/sap-adept"
 
 [[books.chapters.children]]
+title = "Sap Adept (Stamina)"
+entry = "ref/feat/sap-adept/stamina"
+
+[[books.chapters.children]]
 title = "Sap Master"
 entry = "ref/feat/sap-master"
+
+[[books.chapters.children]]
+title = "Sap Master (Stamina)"
+entry = "ref/feat/sap-master/stamina"
 
 [[books.chapters.children]]
 title = "Savage Display"
 entry = "ref/feat/savage-display"
 
 [[books.chapters.children]]
+title = "Savage Display (Stamina)"
+entry = "ref/feat/savage-display/stamina"
+
+[[books.chapters.children]]
 title = "Saving Shield"
 entry = "ref/feat/saving-shield"
+
+[[books.chapters.children]]
+title = "Saving Shield (Stamina)"
+entry = "ref/feat/saving-shield/stamina"
 
 [[books.chapters.children]]
 title = "School Strike"
 entry = "ref/feat/school-strike"
 
 [[books.chapters.children]]
+title = "School Strike (Stamina)"
+entry = "ref/feat/school-strike/stamina"
+
+[[books.chapters.children]]
 title = "Scorching Weapons"
 entry = "ref/feat/scorching-weapons"
+
+[[books.chapters.children]]
+title = "Scorching Weapons (Stamina)"
+entry = "ref/feat/scorching-weapons/stamina"
 
 [[books.chapters.children]]
 title = "Scorpion Style"
 entry = "ref/feat/scorpion-style"
 
 [[books.chapters.children]]
+title = "Scorpion Style (Stamina)"
+entry = "ref/feat/scorpion-style/stamina"
+
+[[books.chapters.children]]
 title = "Sea Hunter"
 entry = "ref/feat/sea-hunter"
+
+[[books.chapters.children]]
+title = "Sea Hunter (Stamina)"
+entry = "ref/feat/sea-hunter/stamina"
 
 [[books.chapters.children]]
 title = "Second Chance"
 entry = "ref/feat/second-chance"
 
 [[books.chapters.children]]
+title = "Second Chance (Stamina)"
+entry = "ref/feat/second-chance/stamina"
+
+[[books.chapters.children]]
 title = "Seething Hatred"
 entry = "ref/feat/seething-hatred"
+
+[[books.chapters.children]]
+title = "Seething Hatred (Stamina)"
+entry = "ref/feat/seething-hatred/stamina"
 
 [[books.chapters.children]]
 title = "Seize Advantage"
 entry = "ref/feat/seize-advantage"
 
 [[books.chapters.children]]
+title = "Seize Advantage (Stamina)"
+entry = "ref/feat/seize-advantage/stamina"
+
+[[books.chapters.children]]
 title = "Seize the Moment"
 entry = "ref/feat/seize-the-moment"
+
+[[books.chapters.children]]
+title = "Seize the Moment (Stamina)"
+entry = "ref/feat/seize-the-moment/stamina"
 
 [[books.chapters.children]]
 title = "Shadow Strike"
 entry = "ref/feat/shadow-strike"
 
 [[books.chapters.children]]
+title = "Shadow Strike (Stamina)"
+entry = "ref/feat/shadow-strike/stamina"
+
+[[books.chapters.children]]
 title = "Shaitan Earthblast"
 entry = "ref/feat/shaitan-earthblast"
+
+[[books.chapters.children]]
+title = "Shaitan Earthblast (Stamina)"
+entry = "ref/feat/shaitan-earthblast/stamina"
 
 [[books.chapters.children]]
 title = "Shaitan Skin"
 entry = "ref/feat/shaitan-skin"
 
 [[books.chapters.children]]
+title = "Shaitan Skin (Stamina)"
+entry = "ref/feat/shaitan-skin/stamina"
+
+[[books.chapters.children]]
 title = "Shaitan Style"
 entry = "ref/feat/shaitan-style"
+
+[[books.chapters.children]]
+title = "Shaitan Style (Stamina)"
+entry = "ref/feat/shaitan-style/stamina"
 
 [[books.chapters.children]]
 title = "Sharpclaw"
 entry = "ref/feat/sharpclaw"
 
 [[books.chapters.children]]
+title = "Sharpclaw (Stamina)"
+entry = "ref/feat/sharpclaw/stamina"
+
+[[books.chapters.children]]
 title = "Shatter Defenses"
 entry = "ref/feat/shatter-defenses"
+
+[[books.chapters.children]]
+title = "Shatter Defenses (Stamina)"
+entry = "ref/feat/shatter-defenses/stamina"
 
 [[books.chapters.children]]
 title = "Shatterspell"
 entry = "ref/feat/shatterspell"
 
 [[books.chapters.children]]
+title = "Shatterspell (Stamina)"
+entry = "ref/feat/shatterspell/stamina"
+
+[[books.chapters.children]]
 title = "Shield Focus"
 entry = "ref/feat/shield-focus"
+
+[[books.chapters.children]]
+title = "Shield Focus (Stamina)"
+entry = "ref/feat/shield-focus/stamina"
 
 [[books.chapters.children]]
 title = "Shield Master"
 entry = "ref/feat/shield-master"
 
 [[books.chapters.children]]
+title = "Shield Master (Stamina)"
+entry = "ref/feat/shield-master/stamina"
+
+[[books.chapters.children]]
 title = "Shield of Swings"
 entry = "ref/feat/shield-of-swings"
+
+[[books.chapters.children]]
+title = "Shield of Swings (Stamina)"
+entry = "ref/feat/shield-of-swings/stamina"
 
 [[books.chapters.children]]
 title = "Shield Slam"
 entry = "ref/feat/shield-slam"
 
 [[books.chapters.children]]
+title = "Shield Slam (Stamina)"
+entry = "ref/feat/shield-slam/stamina"
+
+[[books.chapters.children]]
 title = "Shield Specialization"
 entry = "ref/feat/shield-specialization"
+
+[[books.chapters.children]]
+title = "Shield Specialization (Stamina)"
+entry = "ref/feat/shield-specialization/stamina"
 
 [[books.chapters.children]]
 title = "Shield Wall"
 entry = "ref/feat/shield-wall"
 
 [[books.chapters.children]]
+title = "Shield Wall (Stamina)"
+entry = "ref/feat/shield-wall/stamina"
+
+[[books.chapters.children]]
 title = "Shot on the Run"
 entry = "ref/feat/shot-on-the-run"
+
+[[books.chapters.children]]
+title = "Shot on the Run (Stamina)"
+entry = "ref/feat/shot-on-the-run/stamina"
 
 [[books.chapters.children]]
 title = "Sickening Critical"
 entry = "ref/feat/sickening-critical"
 
 [[books.chapters.children]]
+title = "Sickening Critical (Stamina)"
+entry = "ref/feat/sickening-critical/stamina"
+
+[[books.chapters.children]]
 title = "Sidestep"
 entry = "ref/feat/sidestep"
+
+[[books.chapters.children]]
+title = "Sidestep (Stamina)"
+entry = "ref/feat/sidestep/stamina"
 
 [[books.chapters.children]]
 title = "Siege Commander"
 entry = "ref/feat/siege-commander"
 
 [[books.chapters.children]]
+title = "Siege Commander (Stamina)"
+entry = "ref/feat/siege-commander/stamina"
+
+[[books.chapters.children]]
 title = "Siege Engineer"
 entry = "ref/feat/siege-engineer"
+
+[[books.chapters.children]]
+title = "Siege Engineer (Stamina)"
+entry = "ref/feat/siege-engineer/stamina"
 
 [[books.chapters.children]]
 title = "Siege Gunner"
 entry = "ref/feat/siege-gunner"
 
 [[books.chapters.children]]
+title = "Siege Gunner (Stamina)"
+entry = "ref/feat/siege-gunner/stamina"
+
+[[books.chapters.children]]
 title = "Silent Kill"
 entry = "ref/feat/silent-kill"
+
+[[books.chapters.children]]
+title = "Silent Kill (Stamina)"
+entry = "ref/feat/silent-kill/stamina"
 
 [[books.chapters.children]]
 title = "Slashing Grace"
 entry = "ref/feat/slashing-grace"
 
 [[books.chapters.children]]
+title = "Slashing Grace (Stamina)"
+entry = "ref/feat/slashing-grace/stamina"
+
+[[books.chapters.children]]
 title = "Slayer's Feint"
 entry = "ref/feat/slayers-feint"
+
+[[books.chapters.children]]
+title = "Slayer's Feint (Stamina)"
+entry = "ref/feat/slayers-feint/stamina"
 
 [[books.chapters.children]]
 title = "Sling Flail"
 entry = "ref/feat/sling-flail"
 
 [[books.chapters.children]]
+title = "Sling Flail (Stamina)"
+entry = "ref/feat/sling-flail/stamina"
+
+[[books.chapters.children]]
 title = "Smash"
 entry = "ref/feat/smash"
+
+[[books.chapters.children]]
+title = "Smash (Stamina)"
+entry = "ref/feat/smash/stamina"
 
 [[books.chapters.children]]
 title = "Snake Fang"
 entry = "ref/feat/snake-fang"
 
 [[books.chapters.children]]
+title = "Snake Fang (Stamina)"
+entry = "ref/feat/snake-fang/stamina"
+
+[[books.chapters.children]]
 title = "Snake Sidewind"
 entry = "ref/feat/snake-sidewind"
+
+[[books.chapters.children]]
+title = "Snake Sidewind (Stamina)"
+entry = "ref/feat/snake-sidewind/stamina"
 
 [[books.chapters.children]]
 title = "Snake Style"
 entry = "ref/feat/snake-style"
 
 [[books.chapters.children]]
+title = "Snake Style (Stamina)"
+entry = "ref/feat/snake-style/stamina"
+
+[[books.chapters.children]]
 title = "Snapping Turtle Clutch"
 entry = "ref/feat/snapping-turtle-clutch"
+
+[[books.chapters.children]]
+title = "Snapping Turtle Clutch (Stamina)"
+entry = "ref/feat/snapping-turtle-clutch/stamina"
 
 [[books.chapters.children]]
 title = "Snapping Turtle Shell"
 entry = "ref/feat/snapping-turtle-shell"
 
 [[books.chapters.children]]
+title = "Snapping Turtle Shell (Stamina)"
+entry = "ref/feat/snapping-turtle-shell/stamina"
+
+[[books.chapters.children]]
 title = "Snapping Turtle Style"
 entry = "ref/feat/snapping-turtle-style"
+
+[[books.chapters.children]]
+title = "Snapping Turtle Style (Stamina)"
+entry = "ref/feat/snapping-turtle-style/stamina"
 
 [[books.chapters.children]]
 title = "Snap Shot"
 entry = "ref/feat/snap-shot"
 
 [[books.chapters.children]]
+title = "Snap Shot (Stamina)"
+entry = "ref/feat/snap-shot/stamina"
+
+[[books.chapters.children]]
 title = "Snatch Arrows"
 entry = "ref/feat/snatch-arrows"
+
+[[books.chapters.children]]
+title = "Snatch Arrows (Stamina)"
+entry = "ref/feat/snatch-arrows/stamina"
 
 [[books.chapters.children]]
 title = "Sorcerous Strike"
 entry = "ref/feat/sorcerous-strike"
 
 [[books.chapters.children]]
+title = "Sorcerous Strike (Stamina)"
+entry = "ref/feat/sorcerous-strike/stamina"
+
+[[books.chapters.children]]
 title = "Spellbreaker"
 entry = "ref/feat/spellbreaker"
+
+[[books.chapters.children]]
+title = "Spellbreaker (Stamina)"
+entry = "ref/feat/spellbreaker/stamina"
 
 [[books.chapters.children]]
 title = "Spinning Throw"
 entry = "ref/feat/spinning-throw"
 
 [[books.chapters.children]]
+title = "Spinning Throw (Stamina)"
+entry = "ref/feat/spinning-throw/stamina"
+
+[[books.chapters.children]]
 title = "Spirited Charge"
 entry = "ref/feat/spirited-charge"
+
+[[books.chapters.children]]
+title = "Spirited Charge (Stamina)"
+entry = "ref/feat/spirited-charge/stamina"
 
 [[books.chapters.children]]
 title = "Spit Venom"
 entry = "ref/feat/spit-venom"
 
 [[books.chapters.children]]
+title = "Spit Venom (Stamina)"
+entry = "ref/feat/spit-venom/stamina"
+
+[[books.chapters.children]]
 title = "Spring Attack"
 entry = "ref/feat/spring-attack"
+
+[[books.chapters.children]]
+title = "Spring Attack (Stamina)"
+entry = "ref/feat/spring-attack/stamina"
 
 [[books.chapters.children]]
 title = "Stabbing Shot"
 entry = "ref/feat/stabbing-shot"
 
 [[books.chapters.children]]
+title = "Stabbing Shot (Stamina)"
+entry = "ref/feat/stabbing-shot/stamina"
+
+[[books.chapters.children]]
 title = "Stage Combatant"
 entry = "ref/feat/stage-combatant"
+
+[[books.chapters.children]]
+title = "Stage Combatant (Stamina)"
+entry = "ref/feat/stage-combatant/stamina"
 
 [[books.chapters.children]]
 title = "Staggering Critical"
 entry = "ref/feat/staggering-critical"
 
 [[books.chapters.children]]
+title = "Staggering Critical (Stamina)"
+entry = "ref/feat/staggering-critical/stamina"
+
+[[books.chapters.children]]
 title = "Staggering Fist"
 entry = "ref/feat/staggering-fist"
+
+[[books.chapters.children]]
+title = "Staggering Fist (Stamina)"
+entry = "ref/feat/staggering-fist/stamina"
 
 [[books.chapters.children]]
 title = "Stand Still"
 entry = "ref/feat/stand-still"
 
 [[books.chapters.children]]
+title = "Stand Still (Stamina)"
+entry = "ref/feat/stand-still/stamina"
+
+[[books.chapters.children]]
 title = "Step Up"
 entry = "ref/feat/step-up"
+
+[[books.chapters.children]]
+title = "Step Up (Stamina)"
+entry = "ref/feat/step-up/stamina"
 
 [[books.chapters.children]]
 title = "Step Up and Strike"
 entry = "ref/feat/step-up-and-strike"
 
 [[books.chapters.children]]
+title = "Step Up and Strike (Stamina)"
+entry = "ref/feat/step-up-and-strike/stamina"
+
+[[books.chapters.children]]
 title = "Strike Back"
 entry = "ref/feat/strike-back"
+
+[[books.chapters.children]]
+title = "Strike Back (Stamina)"
+entry = "ref/feat/strike-back/stamina"
 
 [[books.chapters.children]]
 title = "Stunning Assault"
 entry = "ref/feat/stunning-assault"
 
 [[books.chapters.children]]
+title = "Stunning Assault (Stamina)"
+entry = "ref/feat/stunning-assault/stamina"
+
+[[books.chapters.children]]
 title = "Stunning Critical"
 entry = "ref/feat/stunning-critical"
+
+[[books.chapters.children]]
+title = "Stunning Critical (Stamina)"
+entry = "ref/feat/stunning-critical/stamina"
 
 [[books.chapters.children]]
 title = "Stunning Fist"
 entry = "ref/feat/stunning-fist"
 
 [[books.chapters.children]]
+title = "Stunning Fist (Stamina)"
+entry = "ref/feat/stunning-fist/stamina"
+
+[[books.chapters.children]]
 title = "Stunning Pin"
 entry = "ref/feat/stunning-pin"
+
+[[books.chapters.children]]
+title = "Stunning Pin (Stamina)"
+entry = "ref/feat/stunning-pin/stamina"
 
 [[books.chapters.children]]
 title = "Sundering Strike"
 entry = "ref/feat/sundering-strike"
 
 [[books.chapters.children]]
+title = "Sundering Strike (Stamina)"
+entry = "ref/feat/sundering-strike/stamina"
+
+[[books.chapters.children]]
 title = "Surprise Follow-Through"
 entry = "ref/feat/surprise-follow-through"
+
+[[books.chapters.children]]
+title = "Surprise Follow-Through (Stamina)"
+entry = "ref/feat/surprise-follow-through/stamina"
 
 [[books.chapters.children]]
 title = "Surprise Strike"
 entry = "ref/feat/surprise-strike"
 
 [[books.chapters.children]]
+title = "Surprise Strike (Stamina)"
+entry = "ref/feat/surprise-strike/stamina"
+
+[[books.chapters.children]]
 title = "Swap Places"
 entry = "ref/feat/swap-places"
+
+[[books.chapters.children]]
+title = "Swap Places (Stamina)"
+entry = "ref/feat/swap-places/stamina"
 
 [[books.chapters.children]]
 title = "Swift Aid"
 entry = "ref/feat/swift-aid"
 
 [[books.chapters.children]]
+title = "Swift Aid (Stamina)"
+entry = "ref/feat/swift-aid/stamina"
+
+[[books.chapters.children]]
 title = "Sword and Pistol"
 entry = "ref/feat/sword-and-pistol"
+
+[[books.chapters.children]]
+title = "Sword and Pistol (Stamina)"
+entry = "ref/feat/sword-and-pistol/stamina"
 
 [[books.chapters.children]]
 title = "Sympathetic Rage"
 entry = "ref/feat/sympathetic-rage"
 
 [[books.chapters.children]]
+title = "Sympathetic Rage (Stamina)"
+entry = "ref/feat/sympathetic-rage/stamina"
+
+[[books.chapters.children]]
 title = "Tail Terror"
 entry = "ref/feat/tail-terror"
+
+[[books.chapters.children]]
+title = "Tail Terror (Stamina)"
+entry = "ref/feat/tail-terror/stamina"
 
 [[books.chapters.children]]
 title = "Tandem Trip"
 entry = "ref/feat/tandem-trip"
 
 [[books.chapters.children]]
+title = "Tandem Trip (Stamina)"
+entry = "ref/feat/tandem-trip/stamina"
+
+[[books.chapters.children]]
 title = "Tangle Feet"
 entry = "ref/feat/tangle-feet"
+
+[[books.chapters.children]]
+title = "Tangle Feet (Stamina)"
+entry = "ref/feat/tangle-feet/stamina"
 
 [[books.chapters.children]]
 title = "Target of Opportunity"
 entry = "ref/feat/target-of-opportunity"
 
 [[books.chapters.children]]
+title = "Target of Opportunity (Stamina)"
+entry = "ref/feat/target-of-opportunity/stamina"
+
+[[books.chapters.children]]
 title = "Taskmaster"
 entry = "ref/feat/taskmaster"
+
+[[books.chapters.children]]
+title = "Taskmaster (Stamina)"
+entry = "ref/feat/taskmaster/stamina"
 
 [[books.chapters.children]]
 title = "Team Up"
 entry = "ref/feat/team-up"
 
 [[books.chapters.children]]
+title = "Team Up (Stamina)"
+entry = "ref/feat/team-up/stamina"
+
+[[books.chapters.children]]
 title = "Teleport Tactician"
 entry = "ref/feat/teleport-tactician"
+
+[[books.chapters.children]]
+title = "Teleport Tactician (Stamina)"
+entry = "ref/feat/teleport-tactician/stamina"
 
 [[books.chapters.children]]
 title = "Terrorizing Display"
 entry = "ref/feat/terrorizing-display"
 
 [[books.chapters.children]]
+title = "Terrorizing Display (Stamina)"
+entry = "ref/feat/terrorizing-display/stamina"
+
+[[books.chapters.children]]
 title = "Throw Anything"
 entry = "ref/feat/throw-anything"
+
+[[books.chapters.children]]
+title = "Throw Anything (Stamina)"
+entry = "ref/feat/throw-anything/stamina"
 
 [[books.chapters.children]]
 title = "Tiger Claws"
 entry = "ref/feat/tiger-claws"
 
 [[books.chapters.children]]
+title = "Tiger Claws (Stamina)"
+entry = "ref/feat/tiger-claws/stamina"
+
+[[books.chapters.children]]
 title = "Tiger Pounce"
 entry = "ref/feat/tiger-pounce"
+
+[[books.chapters.children]]
+title = "Tiger Pounce (Stamina)"
+entry = "ref/feat/tiger-pounce/stamina"
 
 [[books.chapters.children]]
 title = "Tiger Style"
 entry = "ref/feat/tiger-style"
 
 [[books.chapters.children]]
+title = "Tiger Style (Stamina)"
+entry = "ref/feat/tiger-style/stamina"
+
+[[books.chapters.children]]
 title = "Tiring Critical"
 entry = "ref/feat/tiring-critical"
+
+[[books.chapters.children]]
+title = "Tiring Critical (Stamina)"
+entry = "ref/feat/tiring-critical/stamina"
 
 [[books.chapters.children]]
 title = "Touch of Serenity"
 entry = "ref/feat/touch-of-serenity"
 
 [[books.chapters.children]]
+title = "Touch of Serenity (Stamina)"
+entry = "ref/feat/touch-of-serenity/stamina"
+
+[[books.chapters.children]]
 title = "Trample"
 entry = "ref/feat/trample"
+
+[[books.chapters.children]]
+title = "Trample (Stamina)"
+entry = "ref/feat/trample/stamina"
 
 [[books.chapters.children]]
 title = "Tree Hanger"
 entry = "ref/feat/tree-hanger"
 
 [[books.chapters.children]]
+title = "Tree Hanger (Stamina)"
+entry = "ref/feat/tree-hanger/stamina"
+
+[[books.chapters.children]]
 title = "Trick Riding"
 entry = "ref/feat/trick-riding"
+
+[[books.chapters.children]]
+title = "Trick Riding (Stamina)"
+entry = "ref/feat/trick-riding/stamina"
 
 [[books.chapters.children]]
 title = "Tripping Staff"
 entry = "ref/feat/tripping-staff"
 
 [[books.chapters.children]]
+title = "Tripping Staff (Stamina)"
+entry = "ref/feat/tripping-staff/stamina"
+
+[[books.chapters.children]]
 title = "Tripping Strike"
 entry = "ref/feat/tripping-strike"
+
+[[books.chapters.children]]
+title = "Tripping Strike (Stamina)"
+entry = "ref/feat/tripping-strike/stamina"
 
 [[books.chapters.children]]
 title = "Tripping Twirl"
 entry = "ref/feat/tripping-twirl"
 
 [[books.chapters.children]]
+title = "Tripping Twirl (Stamina)"
+entry = "ref/feat/tripping-twirl/stamina"
+
+[[books.chapters.children]]
 title = "Twinned Feint"
 entry = "ref/feat/twinned-feint"
+
+[[books.chapters.children]]
+title = "Twinned Feint (Stamina)"
+entry = "ref/feat/twinned-feint/stamina"
 
 [[books.chapters.children]]
 title = "Twin Thunders"
 entry = "ref/feat/twin-thunders"
 
 [[books.chapters.children]]
+title = "Twin Thunders (Stamina)"
+entry = "ref/feat/twin-thunders/stamina"
+
+[[books.chapters.children]]
 title = "Twin Thunders Flurry"
 entry = "ref/feat/twin-thunders-flurry"
+
+[[books.chapters.children]]
+title = "Twin Thunders Flurry (Stamina)"
+entry = "ref/feat/twin-thunders-flurry/stamina"
 
 [[books.chapters.children]]
 title = "Twin Thunders Master"
 entry = "ref/feat/twin-thunders-master"
 
 [[books.chapters.children]]
+title = "Twin Thunders Master (Stamina)"
+entry = "ref/feat/twin-thunders-master/stamina"
+
+[[books.chapters.children]]
 title = "Two-Handed Thrower"
 entry = "ref/feat/two-handed-thrower"
+
+[[books.chapters.children]]
+title = "Two-Handed Thrower (Stamina)"
+entry = "ref/feat/two-handed-thrower/stamina"
 
 [[books.chapters.children]]
 title = "Two-Weapon Defense"
 entry = "ref/feat/two-weapon-defense"
 
 [[books.chapters.children]]
+title = "Two-Weapon Defense (Stamina)"
+entry = "ref/feat/two-weapon-defense/stamina"
+
+[[books.chapters.children]]
 title = "Two-Weapon Feint"
 entry = "ref/feat/two-weapon-feint"
+
+[[books.chapters.children]]
+title = "Two-Weapon Feint (Stamina)"
+entry = "ref/feat/two-weapon-feint/stamina"
 
 [[books.chapters.children]]
 title = "Two-Weapon Fighting"
 entry = "ref/feat/two-weapon-fighting"
 
 [[books.chapters.children]]
+title = "Two-Weapon Fighting (Stamina)"
+entry = "ref/feat/two-weapon-fighting/stamina"
+
+[[books.chapters.children]]
 title = "Two-Weapon Rend"
 entry = "ref/feat/two-weapon-rend"
+
+[[books.chapters.children]]
+title = "Two-Weapon Rend (Stamina)"
+entry = "ref/feat/two-weapon-rend/stamina"
 
 [[books.chapters.children]]
 title = "Uncanny Defense"
 entry = "ref/feat/uncanny-defense"
 
 [[books.chapters.children]]
+title = "Uncanny Defense (Stamina)"
+entry = "ref/feat/uncanny-defense/stamina"
+
+[[books.chapters.children]]
 title = "Under and Over"
 entry = "ref/feat/under-and-over"
+
+[[books.chapters.children]]
+title = "Under and Over (Stamina)"
+entry = "ref/feat/under-and-over/stamina"
 
 [[books.chapters.children]]
 title = "Underfoot"
 entry = "ref/feat/underfoot"
 
 [[books.chapters.children]]
+title = "Underfoot (Stamina)"
+entry = "ref/feat/underfoot/stamina"
+
+[[books.chapters.children]]
 title = "Undersized Mount"
 entry = "ref/feat/undersized-mount"
+
+[[books.chapters.children]]
+title = "Undersized Mount (Stamina)"
+entry = "ref/feat/undersized-mount/stamina"
 
 [[books.chapters.children]]
 title = "Unseat"
 entry = "ref/feat/unseat"
 
 [[books.chapters.children]]
+title = "Unseat (Stamina)"
+entry = "ref/feat/unseat/stamina"
+
+[[books.chapters.children]]
 title = "Vast Hatred"
 entry = "ref/feat/vast-hatred"
+
+[[books.chapters.children]]
+title = "Vast Hatred (Stamina)"
+entry = "ref/feat/vast-hatred/stamina"
 
 [[books.chapters.children]]
 title = "Vicious Stomp"
 entry = "ref/feat/vicious-stomp"
 
 [[books.chapters.children]]
+title = "Vicious Stomp (Stamina)"
+entry = "ref/feat/vicious-stomp/stamina"
+
+[[books.chapters.children]]
 title = "Vital Strike"
 entry = "ref/feat/vital-strike"
+
+[[books.chapters.children]]
+title = "Vital Strike (Stamina)"
+entry = "ref/feat/vital-strike/stamina"
 
 [[books.chapters.children]]
 title = "Wave Strike"
 entry = "ref/feat/wave-strike"
 
 [[books.chapters.children]]
+title = "Wave Strike (Stamina)"
+entry = "ref/feat/wave-strike/stamina"
+
+[[books.chapters.children]]
 title = "Weapon Finesse"
 entry = "ref/feat/weapon-finesse"
+
+[[books.chapters.children]]
+title = "Weapon Finesse (Stamina)"
+entry = "ref/feat/weapon-finesse/stamina"
 
 [[books.chapters.children]]
 title = "Weapon Focus"
 entry = "ref/feat/weapon-focus"
 
 [[books.chapters.children]]
+title = "Weapon Focus (Stamina)"
+entry = "ref/feat/weapon-focus/stamina"
+
+[[books.chapters.children]]
 title = "Weapon of the Chosen"
 entry = "ref/feat/weapon-of-the-chosen"
+
+[[books.chapters.children]]
+title = "Weapon of the Chosen (Stamina)"
+entry = "ref/feat/weapon-of-the-chosen/stamina"
 
 [[books.chapters.children]]
 title = "Weapon Specialization"
 entry = "ref/feat/weapon-specialization"
 
 [[books.chapters.children]]
+title = "Weapon Specialization (Stamina)"
+entry = "ref/feat/weapon-specialization/stamina"
+
+[[books.chapters.children]]
 title = "Whip Mastery"
 entry = "ref/feat/whip-mastery"
+
+[[books.chapters.children]]
+title = "Whip Mastery (Stamina)"
+entry = "ref/feat/whip-mastery/stamina"
 
 [[books.chapters.children]]
 title = "Whirlwind Attack"
 entry = "ref/feat/whirlwind-attack"
 
 [[books.chapters.children]]
+title = "Whirlwind Attack (Stamina)"
+entry = "ref/feat/whirlwind-attack/stamina"
+
+[[books.chapters.children]]
 title = "Wind Stance"
 entry = "ref/feat/wind-stance"
+
+[[books.chapters.children]]
+title = "Wind Stance (Stamina)"
+entry = "ref/feat/wind-stance/stamina"
 
 [[books.chapters.children]]
 title = "Winter's Strike"
 entry = "ref/feat/winters-strike"
 
 [[books.chapters.children]]
+title = "Winter's Strike (Stamina)"
+entry = "ref/feat/winters-strike/stamina"
+
+[[books.chapters.children]]
 title = "Wounded Paw Gambit"
 entry = "ref/feat/wounded-paw-gambit"
+
+[[books.chapters.children]]
+title = "Wounded Paw Gambit (Stamina)"
+entry = "ref/feat/wounded-paw-gambit/stamina"
 
 [[books.chapters.children]]
 title = "Setup"

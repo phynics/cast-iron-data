@@ -2,7 +2,7 @@
 id = "ref/feat/draining-strike"
 kind = "feat"
 title = "Draining Strike"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draining_strike", path = "json/feat05.json" },
 ]
@@ -32,9 +32,3 @@ heals hit point damage. If you have a base attack bonus of +14 or higher, the ta
 Strike once per day for every 4 character levels you have, but you can use it no more than once per
 round. Constructs, incorporeal creatures, plants, undead, and creatures that are immune to critical
 hits cannot be affected by this ability.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-You can spend 5 stamina points to declare that you are using Draining Strike after you've hit with
-an unarmed strike attack.

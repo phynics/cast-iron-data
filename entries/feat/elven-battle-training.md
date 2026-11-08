@@ -2,7 +2,7 @@
 id = "ref/feat/elven-battle-training"
 kind = "feat"
 title = "Elven Battle Training"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_battle_training", path = "json/feat05.json" },
 ]
@@ -29,10 +29,3 @@ any weapon with the word "elven" in its name). You receive a +2 bonus to your CM
 you are wielding. In addition, if you are wielding one of these melee weapons, you may make an
 additional attack of opportunity each round (this bonus stacks with
 [Combat Reflexes](ref/feat/combat-reflexes)).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When you are wielding a traditional elven weapon as defined in the feat, you can spend 5 stamina
-points to make one additional attack of opportunity with that weapon. This stacks with additional
-attacks of opportunity granted by this feat, Combat Reflexes, and similar abilities.

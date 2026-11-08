@@ -2,7 +2,7 @@
 id = "ref/feat/break-guard"
 kind = "feat"
 title = "Break Guard"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break_guard", path = "json/feat02.json" },
 ]
@@ -26,9 +26,3 @@ other.\
 **Benefit:** While wielding two weapons, whenever you successfully use one weapon to
 [disarm](ref/rule/disarm) an opponent, you can spend a swift action to attack the opponent you
 attempted to disarm using your other weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-You can spend 5 stamina points to attack the opponent you disarmed with a free action instead of a
-swift action.

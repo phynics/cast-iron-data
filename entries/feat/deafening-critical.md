@@ -2,7 +2,7 @@
 id = "ref/feat/deafening-critical"
 kind = "feat"
 title = "Deafening Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deafening_critical", path = "json/feat04.json" },
 ]
@@ -30,10 +30,3 @@ creatures. This deafness can be cured by [heal](ref/spell/heal),
 similar ability.\
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you
 possess [Critical Mastery](ref/feat/critical-mastery).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-When you confirm a critical hit and attempt to deafen an opponent with this feat, you can spend up
-to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number
-of stamina points you spent.

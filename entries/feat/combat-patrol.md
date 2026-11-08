@@ -2,7 +2,7 @@
 id = "ref/feat/combat-patrol"
 kind = "feat"
 title = "Combat Patrol"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_patrol", path = "json/feat03.json" },
 ]
@@ -27,10 +27,3 @@ by 5 feet for every 5 points of your base attack bonus. Until the beginning of y
 may make attacks of opportunity against any opponent in this threatened area that provokes attacks
 of opportunity. You may move as part of these attacks, provided your total movement before your next
 turn does not exceed your speed. Any movement you make provokes attacks of opportunity as normal.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When moving before or after making an attack of opportunity while using Combat Patrol, you can spend
-1 stamina point per 5 feet moved. When you do, that movement does not provoke attacks of
-opportunity.

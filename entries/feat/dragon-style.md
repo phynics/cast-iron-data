@@ -2,7 +2,7 @@
 id = "ref/feat/dragon-style"
 kind = "feat"
 title = "Dragon Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_style", path = "json/feat05.json" },
 ]
@@ -33,10 +33,3 @@ first unarmed strike on a given round.\
 **Normal:** You cannot charge or run through difficult terrain, and you cannot charge through a
 square that contains an ally. With an unarmed strike, you usually add your Strength bonus on damage
 rolls.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-On your second and all subsequent unarmed strike attacks made in a round, you can spend 3 stamina
-points before making each attack to add 1-1/2 times your Strength modifier to that attack's damage
-roll.

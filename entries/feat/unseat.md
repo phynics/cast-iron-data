@@ -2,7 +2,7 @@
 id = "ref/feat/unseat"
 kind = "feat"
 title = "Unseat"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseat", path = "json/feat16.json" },
 ]
@@ -27,13 +27,6 @@ attack bonus +1.\
 resolve the attack as normal. If it hits, you may immediately make a free
 [bull rush](ref/rule/bull-rush) attempt in addition to the normal damage. If successful, the target
 is knocked off his horse and lands [prone](ref/rule/prone) in a space adjacent to his mount that is
-directly away from you.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-When you use this feat to successfully unseat a foe, you can spend 5 stamina points to make the
-rider fall prone in an unoccupied space of your choice adjacent to the mount instead of a space
 directly away from you.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\

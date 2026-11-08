@@ -2,7 +2,7 @@
 id = "ref/feat/merciless-butchery"
 kind = "feat"
 title = "Merciless Butchery"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciless_butchery", path = "json/feat10.json" },
 ]
@@ -26,9 +26,3 @@ Your talent for slaughter lets you dispatch helpless opponents before they can r
 [coup de grace](ref/misc/helpless) against a [cowering](ref/misc/cowering),
 [helpless](ref/misc/helpless), or [stunned](ref/misc/stunned) opponent that you have designated as
 your studied target.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-You can spend 10 stamina points when you use this feat to increase your weapon's critical multiplier
-by 1 (×2 becomes ×3, and ×3 becomes ×4) for your _coup de grace._

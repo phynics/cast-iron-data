@@ -2,7 +2,7 @@
 id = "ref/feat/stunning-assault"
 kind = "feat"
 title = "Stunning Assault"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_assault", path = "json/feat15.json" },
 ]
@@ -25,9 +25,3 @@ You powerful but imprecise attacks can stun your enemies.\
 checks to stun targets you hit with your melee attacks for 1 round. A successful Fortitude save
 negates the effect. The DC of this save is 10 + your base attack bonus. You must choose to use this
 feat before making the attack roll, and its effects last until your next turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-You can spend 2 stamina points to end the effects of this feat at the end of your turn instead of
-the start of your next turn.

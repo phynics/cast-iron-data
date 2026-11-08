@@ -2,7 +2,7 @@
 id = "ref/feat/rapid-reload"
 kind = "feat"
 title = "Rapid Reload"
-source_ids = ["ultimate-combat", "inner-sea-world-guide", "core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["ultimate-combat", "inner-sea-world-guide", "core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_reload", path = "json/feat13.json" },
 ]
@@ -39,16 +39,6 @@ two-handed firearm.
 
 **Special:** You can gain Rapid Reload multiple times. Each time you take the feat, it applies to a
 new type of crossbow or a new type of firearm.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 130\
-When reloading a crossbow or firearm, you can spend 5 stamina points to reduce the reload time by
-one step; a standard action becomes a move action, a move action becomes a swift action, and a swift
-action becomes a free action. The weapon you are reloading doesn't need to be the one you chose when
-you took this feat. If the weapon already has a reload time of one free action, when you make a full
-attack with the weapon, you can spend 2 stamina points to gain a +1 bonus on all damage rolls with
-the weapon during that full attack.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Choose the crossbows or thrown [weapon groups](ref/ability/weapon-groups) listed under the fighter's

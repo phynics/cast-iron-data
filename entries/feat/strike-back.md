@@ -2,7 +2,7 @@
 id = "ref/feat/strike-back"
 kind = "feat"
 title = "Strike Back"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strike_back", path = "json/feat15.json" },
 ]
@@ -23,10 +23,3 @@ weapons as they come at you.\
 **Prerequisites:** Base attack bonus +11.\
 **Benefit:** You can [ready an action](ref/rule/ready) to make a melee attack against any foe that
 attacks you in melee, even if the foe is outside of your reach.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When you ready an action to attack someone outside of your melee reach, you can spend 5 stamina
-points to take a 5-foot step, but you must move closer to the attacking creature. You can take this
-5-foot step even if your readied action includes a 5-foot step.

@@ -2,7 +2,7 @@
 id = "ref/feat/staggering-critical"
 kind = "feat"
 title = "Staggering Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggering_critical", path = "json/feat15.json" },
 ]
@@ -28,10 +28,3 @@ to 1 round. The DC of this Fortitude save is equal to 10 + your base attack bonu
 this feat do not stack. Additional hits instead add to the duration.\
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you
 possess [Critical Mastery](ref/feat/critical-mastery).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When you score a critical hit and attempt to stagger an opponent with this feat, you can spend up to
-5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number of
-stamina points you spent.

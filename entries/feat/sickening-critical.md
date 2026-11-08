@@ -2,7 +2,7 @@
 id = "ref/feat/sickening-critical"
 kind = "feat"
 title = "Sickening Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickening_critical", path = "json/feat14.json" },
 ]
@@ -27,11 +27,3 @@ for 1 minute. The effects of this feat do not stack. Additional hits instead add
 duration.\
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you
 possess [Critical Mastery](ref/feat/critical-mastery).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-When you threaten a critical hit using this feat, before rolling the confirmation roll, you can
-spend 5 stamina points. If you do and the critical hit is confirmed, the foe is
-[nauseated](ref/misc/nauseated) for 1d4+1 rounds unless it succeeds at a Fortitude save with a DC
-equal to 10 + your base attack bonus, which reduces the effect to the normal sickened condition.

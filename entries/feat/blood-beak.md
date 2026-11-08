@@ -2,7 +2,7 @@
 id = "ref/feat/blood-beak"
 kind = "feat"
 title = "Blood Beak"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_beak", path = "json/feat02.json" },
 ]
@@ -26,9 +26,3 @@ critical hit with your beak attack, you also deal 1 point of [bleed](ref/rule/bl
 **Special:** The bleed effect from this feat stacks with that of the
 [Bleeding Critical](ref/feat/bleeding-critical) feat and similar effects, adding 1 point to your
 bleed damage.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-You can spend 1 stamina point when you confirm a critical hit with your beak to increase the bleed
-damage to 1d4 points of bleed damage.

@@ -2,7 +2,7 @@
 id = "ref/feat/kobold-sniper"
 kind = "feat"
 title = "Kobold Sniper"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_sniper", path = "json/feat09.json" },
 ]
@@ -25,9 +25,3 @@ You snipe quickly, making it harder for others to find the location of your atta
 checks to stay hidden.\
 **Normal:** You take a -20 penalty on your Stealth check to maintain your obscured location while
 sniping.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-When you are sniping, you can spend 5 stamina points to decrease the penalty on Stealth checks to
-stay hidden to -5 until the start of your next turn.

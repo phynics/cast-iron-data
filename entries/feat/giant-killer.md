@@ -2,7 +2,7 @@
 id = "ref/feat/giant-killer"
 kind = "feat"
 title = "Giant Killer"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_killer", path = "json/feat07.json" },
 ]
@@ -26,9 +26,3 @@ Your cleaving strokes menace giants and larger foes.\
 **Benefit:** This functions as Goblin Cleaver, but your additional attacks can be made against
 creatures one size category larger than you or smaller. In addition, any such attacks made against
 humanoids (giant) gain a +2 circumstance bonus on attack rolls.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks made
-against humanoids with the giant subtype increases to +4.

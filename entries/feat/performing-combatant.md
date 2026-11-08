@@ -2,7 +2,7 @@
 id = "ref/feat/performing-combatant"
 kind = "feat"
 title = "Performing Combatant"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performing_combatant", path = "json/feat12.json" },
 ]
@@ -26,9 +26,3 @@ When making a performance check outside of performance combat, you can pick a si
 feat to use. You automatically gain any bonus on the performance combat check the feat grants, and
 then you make a DC 20 performance combat check. On a success, you gain the full effect of the
 performance feat you chose.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 128\
-When using this feat, you can spend up to 5 stamina points to gain a bonus on your performance
-combat check equal to the number of stamina points you spent.

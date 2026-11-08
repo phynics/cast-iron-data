@@ -2,7 +2,7 @@
 id = "ref/feat/improvised-weapon-mastery"
 kind = "feat"
 title = "Improvised Weapon Mastery"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvised_weapon_mastery", path = "json/feat09.json" },
 ]
@@ -28,13 +28,6 @@ flour.\
 improvised weapon [by one step](ref/misc/damage-die-adjustments) (for example, 1d4 becomes 1d6) to a
 maximum of 1d8 (2d6 if the improvised weapon is two-handed). The improvised weapon has a critical
 threat range of 19-20, with a critical multiplier of ×2.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-When making an improvised weapon attack, you can spend 2 stamina points to increase the damage of
-the attack by an additional step (to a maximum of 1d10, or 2d8 if the improvised weapon is
-two-handed).
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can turn nearly any object into a deadly weapon, from a razor-sharp chair leg to a sack of

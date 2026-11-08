@@ -2,7 +2,7 @@
 id = "ref/feat/impaling-critical"
 kind = "feat"
 title = "Impaling Critical"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impaling_critical", path = "json/feat08.json" },
 ]
@@ -31,9 +31,3 @@ opponent is ever outside your reach, you must spend a free action to let go of y
 it out of him. Your opponent can also spend a move action to pull your weapon out. When the weapon
 comes out, your opponent takes damage as if starting his turn impaled. While you impale your
 opponent with your weapon, you cannot use it to attack, and you must hold on to it.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 122\
-When you impale a foe with this feat, you can spend 5 stamina points to make the weapon require a
-standard action to remove (rather than a move action).

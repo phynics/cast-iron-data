@@ -2,7 +2,7 @@
 id = "ref/feat/combat-style-master"
 kind = "feat"
 title = "Combat Style Master"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_style_master", path = "json/feat03.json" },
 ]
@@ -26,9 +26,3 @@ feats, base attack bonus +6 or monk level 5th.\
 **Benefit:** You can switch your style as a free action. At the start of combat, pick one of your
 styles. You start the combat in that style, even in the surprise round.\
 **Normal:** It takes a swift action to begin or switch your styles.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When it is not your turn, you can spend 2 stamina points to take the free action to switch your
-style.

@@ -2,7 +2,7 @@
 id = "ref/feat/twin-thunders-master"
 kind = "feat"
 title = "Twin Thunders Master"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_thunders_master", path = "json/feat16.json" },
 ]
@@ -31,9 +31,3 @@ saving throw (DC 10 + half your level + your Str modifier) or become [staggered]
 for 1 round. If you use this feat to render staggered an opponent that is already staggered, you
 [daze](ref/misc/dazed) that opponent instead. In a similar way, you can [stun](ref/misc/stunned) an
 opponent that is already dazed.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-When you use the Twin Thunders feat to deal extra damage to an opponent, you can spend 2 stamina
-points to make that opponent shaken for 1d4 rounds.

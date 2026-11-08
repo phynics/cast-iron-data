@@ -2,7 +2,7 @@
 id = "ref/feat/crane-style"
 kind = "feat"
 title = "Crane Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crane_style", path = "json/feat03.json" },
 ]
@@ -26,11 +26,3 @@ Your unarmed fighting techniques blend poise with graceful defense.\
 [fighting defensively](ref/misc/fighting-defensively). While using this style and fighting
 defensively or using the [total defense](ref/misc/total-defense) action, you gain an additional +1
 dodge bonus to your Armor Class.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-While using this style and fighting defensively or using the total defense action, when you are
-targeted with a melee attack, you can spend up to 3 stamina points and take an immediate action to
-increase your dodge bonus to AC against that attack by an amount equal to the number of stamina
-points you spent.

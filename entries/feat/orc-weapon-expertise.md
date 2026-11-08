@@ -2,7 +2,7 @@
 id = "ref/feat/orc-weapon-expertise"
 kind = "feat"
 title = "Orc Weapon Expertise"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_weapon_expertise", path = "json/feat11.json" },
 ]
@@ -46,9 +46,3 @@ This feat has no effect if you are not proficient with the weapon you're using.
 **Special:** You can gain this feat multiple times. Each time you take this feat, you must choose a
 different benefit. You may only apply one of these benefits per round (chosen as a free action at
 the start of your turn).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 128\
-When wielding a weapon with "orc" in its name that you are proficient with, you can spend 5 stamina
-points to gain one of the benefits for this feat that you don't already have for 1 minute.

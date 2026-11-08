@@ -2,7 +2,7 @@
 id = "ref/feat/kobold-ambusher"
 kind = "feat"
 title = "Kobold Ambusher"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_ambusher", path = "json/feat09.json" },
 ]
@@ -27,9 +27,3 @@ on the check to do so.\
 **Normal:** When moving greater than half speed up to your full speed, you take a -5 penalty on
 Stealth checks. When you are able to run or charge while using Stealth, you take a -20 penalty on
 the Stealth check.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-When you use the run or charge action and wish to remain hidden, you can spend 2 stamina points to
-decrease the penalty for doing so to -5.

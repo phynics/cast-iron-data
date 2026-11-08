@@ -2,7 +2,7 @@
 id = "ref/feat/greater-reposition"
 kind = "feat"
 title = "Greater Reposition"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_reposition", path = "json/feat08.json" },
 ]
@@ -27,11 +27,3 @@ When you reposition foes, they are left vulnerable to the attacks of your allies
 bonus stacks with the bonus granted by Improved Reposition. Whenever you reposition a foe, his
 movement provokes attacks of opportunity from all of your allies (but not you).\
 **Normal:** Creatures moved by reposition do not provoke attacks of opportunity.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 121\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
-pool. When attempting to reposition a foe, you can spend 5 stamina points to increase your melee
-reach by 5 feet for the purpose of determining where you can move the foe.

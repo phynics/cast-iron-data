@@ -2,7 +2,7 @@
 id = "ref/feat/improved-critical"
 kind = "feat"
 title = "Improved Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_critical", path = "json/feat08.json" },
 ]
@@ -25,14 +25,6 @@ Attacks made with your chosen weapon are quite deadly.\
 **Special:** You can gain Improved Critical multiple times. The effects do not stack. Each time you
 take the feat, it applies to a new type of weapon. This effect doesn't stack with any other effect
 that expands the threat range of a weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 123\
-When you hit with an attack and the roll fails to threaten a critical hit by 3 or less, you can
-spend 5 stamina points to attempt to deal double damage anyway. Roll as if confirming a critical
-hit. If this confirmation roll succeeds, your attack is still not a critical hit, but it deals
-double damage.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Choose one [weapon group](ref/ability/weapon-groups) listed under the fighter's Weapon Training

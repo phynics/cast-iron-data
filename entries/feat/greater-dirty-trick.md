@@ -2,7 +2,7 @@
 id = "ref/feat/greater-dirty-trick"
 kind = "feat"
 title = "Greater Dirty Trick"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_dirty_trick", path = "json/feat08.json" },
 ]
@@ -31,12 +31,3 @@ standard action.\
 **Normal:** The condition imposed by a dirty trick lasts for 1 round plus 1 round for every 5 by
 which your attack exceeds the target's CMD. Removing the condition requires the target to spend a
 move action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
-You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
-pool. When you successfully complete a dirty trick combat maneuver, you can spend 5 stamina points
-to make the condition you inflicted with that maneuver require a full-round action to remove
-(instead of a standard action).

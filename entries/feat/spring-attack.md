@@ -2,7 +2,7 @@
 id = "ref/feat/spring-attack"
 kind = "feat"
 title = "Spring Attack"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_attack", path = "json/feat15.json" },
 ]
@@ -29,11 +29,6 @@ before and after the attack, but you must move at least 10 feet before the attac
 distance that you move cannot be greater than your speed. You cannot use this ability to attack a
 foe that is adjacent to you at the start of your turn.\
 **Normal:** You cannot move before and after an attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-You can spend 5 stamina points to use this feat as a standard action instead of a full-round action.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can deftly move up to a foe, strike, and withdraw before he can react.\

@@ -2,7 +2,7 @@
 id = "ref/feat/undersized-mount"
 kind = "feat"
 title = "Undersized Mount"
-source_ids = ["gallows-of-madness", "advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["gallows-of-madness", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undersized_mount", path = "json/feat16.json" },
 ]
@@ -24,9 +24,3 @@ You've learned techniques that allow you to ride beasts of smaller sizes than no
 **Benefit:** You can ride creatures of your size category, although encumbrance or other factors
 might limit how you can use this ability.\
 **Normal:** Typically a mount suited for you is at least one size category larger than you.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-While you have at least 1 stamina point in your stamina pool, the DCs of your Ride checks to leap
-with a mount of your size, and to perform a fast mount or dismount with such a mount, decrease by 5.

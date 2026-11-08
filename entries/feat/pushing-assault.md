@@ -2,7 +2,7 @@
 id = "ref/feat/pushing-assault"
 kind = "feat"
 title = "Pushing Assault"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pushing_assault", path = "json/feat12.json" },
 ]
@@ -27,9 +27,3 @@ dealing the extra damage from Power Attack. If you score a critical hit, you can
 target 10 feet directly away from you. This movement does not provoke attacks of opportunities, and
 the target must end this move in a safe space it can stand in. You choose which effect to apply
 after the attack roll has been made, but before the damage is rolled.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-You can spend 5 stamina points to gain the effects of this feat and still deal the extra damage from
-Power Attack.

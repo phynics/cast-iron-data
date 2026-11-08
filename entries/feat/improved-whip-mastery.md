@@ -2,7 +2,7 @@
 id = "ref/feat/improved-whip-mastery"
 kind = "feat"
 title = "Improved Whip Mastery"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_whip_mastery", path = "json/feat09.json" },
 ]
@@ -29,10 +29,3 @@ attack. Further, you can use the whip to grasp onto an object within your whip's
 of your whip as if it were a [grappling hook](ref/eq-misc/grappling-hook), allowing you to use the
 rest of your whip to swing on like a rope. As a free action, you can release the object your whip is
 grasping, but you cannot use the whip to attack while the whip is grasping an object.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-At the start of your turn, you can spend 5 stamina points to increase the radius of the area you
-threaten while wielding a whip by an additional 5 feet until you make an attack against an opponent
-in the expanded reach or the beginning of your next turn, whichever comes first.

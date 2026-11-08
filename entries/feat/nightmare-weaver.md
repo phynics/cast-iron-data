@@ -2,7 +2,7 @@
 id = "ref/feat/nightmare-weaver"
 kind = "feat"
 title = "Nightmare Weaver"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_weaver", path = "json/feat11.json" },
 ]
@@ -29,9 +29,3 @@ make [Intimidate](ref/skill/intimidate) checks to demoralize all foes in the spe
 **Special:** This feat counts as [Dazzling Display](ref/feat/dazzling-display) for purposes of
 qualifying for [Deadly Stroke](ref/feat/deadly-stroke) and
 [Shatter Defenses](ref/feat/shatter-defenses).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When you cast _[darkness](ref/spell/darkness)_ as a standard action, you can spend 5 stamina points
-to also attempt Intimidate checks to demoralize all foes in the spell's initial area.

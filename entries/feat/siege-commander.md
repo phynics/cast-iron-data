@@ -2,7 +2,7 @@
 id = "ref/feat/siege-commander"
 kind = "feat"
 title = "Siege Commander"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_commander", path = "json/feat14.json" },
 ]
@@ -24,10 +24,3 @@ Under your leadership, the time required to assemble and move a siege engine is 
 **Benefit:** When you lead a [siege engine](ref/rule/siege-engine-rules) assembly crew, you grant
 all of its members a +4 competence bonus on checks to assemble or move the weapon. You also halve
 the time required to assemble a siege engine.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-As long as you have at least 1 stamina point in your stamina pool, when you lead a siege engine
-assembly crew, even those among the crew who are not trained in Craft (siege engine) can take 10 on
-the check to assemble the siege engine.

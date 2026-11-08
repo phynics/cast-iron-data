@@ -2,7 +2,7 @@
 id = "ref/feat/weapon-specialization"
 kind = "feat"
 title = "Weapon Specialization"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_specialization", path = "json/feat17.json" },
 ]
@@ -28,13 +28,6 @@ selected weapon, fighter level 4th.\
 **Benefit:** You gain a +2 bonus on all damage rolls you make using the selected weapon.\
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the
 feat, it applies to a new type of weapon.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-Once per round, you can spend 2 stamina points to gain your Weapon Specialization bonus on damage
-rolls with a weapon with which you don't have Weapon Specialization. This bonus lasts until the
-start of your next turn.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at dealing damage with one type of weapon. Choose one

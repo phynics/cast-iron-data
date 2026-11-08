@@ -2,7 +2,7 @@
 id = "ref/feat/crippling-critical"
 kind = "feat"
 title = "Crippling Critical"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crippling_critical", path = "json/feat03.json" },
 ]
@@ -29,10 +29,3 @@ choose which movement type to affect. A flying creature hit by this attack must 
 check to remain airborne, and has its maneuverability reduced by one step.\
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you
 possess [Critical Mastery](ref/feat/critical-mastery).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 116\
-When you confirm a critical hit and attempt to cripple an opponent with this feat, you can spend up
-to 5 stamina points to increase the DC of this feat's saving throw by an amount equal to the number
-of stamina points you spent.

@@ -2,7 +2,7 @@
 id = "ref/feat/stunning-fist"
 kind = "feat"
 title = "Stunning Fist"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_fist", path = "json/feat15.json" },
 ]
@@ -34,12 +34,6 @@ critical hits cannot be stunned.\
 **Special:** A monk receives Stunning Fist as a bonus feat at 1st level, even if he does not meet
 the prerequisites. A monk may attempt a stunning attack a number of times per day equal to his monk
 level, plus one more time per day for every four levels he has in classes other than monk.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-You can spend 5 stamina points to declare that you are using Stunning Fist after you've hit with an
-unarmed strike.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You know just where to strike to temporarily stun a foe.\

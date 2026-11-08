@@ -2,7 +2,7 @@
 id = "ref/feat/monkey-moves"
 kind = "feat"
 title = "Monkey Moves"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_moves", path = "json/feat11.json" },
 ]
@@ -31,9 +31,3 @@ action to take a 5-foot step even if you have moved this round.\
 **Normal:** You climb at one-quarter your speed, and you lose your Dexterity bonus to AC while doing
 so. A 5-foot step is made using your normal movement modes, and you can take one only if you have
 not otherwise moved this round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-At the start of your turn, you can spend 5 stamina points to gain a climb speed equal to your land
-speed until the start of your next turn.

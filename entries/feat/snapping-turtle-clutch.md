@@ -2,7 +2,7 @@
 id = "ref/feat/snapping-turtle-clutch"
 kind = "feat"
 title = "Snapping Turtle Clutch"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_turtle_clutch", path = "json/feat14.json" },
 ]
@@ -27,9 +27,3 @@ Your unarmed style allows you to turn your opponent's attack into an opportunity
 to your AC applies to your CMD and touch AC. Whenever an opponent misses you with a melee attack
 while you are using the Snapping Turtle Style feat, you can use an immediate action to attempt a
 [grapple](ref/rule/grapple) combat maneuver against that opponent, but with a -2 penalty.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When you attempt a grapple combat maneuver as an immediate action as a result of this feat, you can
-spend 2 stamina points to negate the -2 penalty on that combat maneuver check.

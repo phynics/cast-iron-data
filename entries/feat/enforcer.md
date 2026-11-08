@@ -2,7 +2,7 @@
 id = "ref/feat/enforcer"
 kind = "feat"
 title = "Enforcer"
-source_ids = ["advanced-players-guide", "pathfinder-campaign-setting", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enforcer", path = "json/feat05.json" },
 ]
@@ -25,9 +25,3 @@ check to demoralize your target as a free action. If you are successful, the tar
 [shaken](ref/misc/shaken) for a number of rounds equal to the damage dealt. If your attack was a
 critical hit, your target is frightened for 1 round with a successful Intimidate check, as well as
 being shaken for a number of rounds equal to the damage dealt.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When you score a critical hit with a weapon dealing nonlethal damage, you can spend 5 stamina points
-to frighten the target for 1d4 rounds instead of 1 round.

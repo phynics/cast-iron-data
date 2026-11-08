@@ -2,7 +2,7 @@
 id = "ref/feat/dragon-roar"
 kind = "feat"
 title = "Dragon Roar"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_roar", path = "json/feat05.json" },
 ]
@@ -31,9 +31,3 @@ your Wis modifier) reduces the damage by half and prevents a target from being s
 **Special:** If you have the [Elemental Fist](ref/feat/elemental-fist) feat, you can expend a daily
 use of that feat to deal your Elemental Fist damage to those caught in the cone. This damage is not
 halved even on a save.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-Instead of spending two uses of Stunning Fist to unleash a concussive roar, you can spend one use of
-Stunning Fist and 5 stamina points to do so.

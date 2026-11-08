@@ -2,7 +2,7 @@
 id = "ref/feat/distance-thrower"
 kind = "feat"
 title = "Distance Thrower"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distance_thrower", path = "json/feat04.json" },
 ]
@@ -21,9 +21,3 @@ benefit = "With a thrown weapon, you reduce your penalty on ranged attack rolls 
 You are accurate with thrown weapons at longer ranges than normal.\
 **Prerequisites:** Str 13.\
 **Benefit:** With a thrown weapon, you reduce your penalty on ranged attack rolls due to range by 2.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 118\
-When making an attack with a thrown weapon, you can spend 2 stamina points to reduce your penalty on
-ranged attack rolls due to range by an additional 4.

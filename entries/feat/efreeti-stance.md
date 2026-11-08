@@ -2,7 +2,7 @@
 id = "ref/feat/efreeti-stance"
 kind = "feat"
 title = "Efreeti Stance"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efreeti_stance", path = "json/feat05.json" },
 ]
@@ -31,9 +31,3 @@ gained from levels in classes other than monk, whichever is higher. While denied
 bonus to AC you are also denied this resistance. Creatures that take fire damage from your Elemental
 Fist attack must succeed at a Reflex save (DC 10 + 1/2 your character level + your Wis modifier) or
 catch on fire.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When making an Elemental Fist attack, you can spend up to 5 stamina points to increase the DC of the
-saving throw to avoid catching on fire by an amount equal to the number of stamina points you spent.

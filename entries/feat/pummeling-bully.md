@@ -2,7 +2,7 @@
 id = "ref/feat/pummeling-bully"
 kind = "feat"
 title = "Pummeling Bully"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pummeling_bully", path = "json/feat12.json" },
 ]
@@ -28,9 +28,3 @@ Your punch has the chance to trip or move your target.\
 **Benefit:** When you use Pummeling Style to make an entire full attack or flurry of blows against a
 single target, if you hit with any of your attacks, you can attempt a
 [reposition](ref/rule/reposition) or [trip](ref/rule/trip) combat maneuver check as a free action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When you hit with a Pummeling Style attack, you can spend 2 stamina points to make a bull rush
-attempt as a free action instead of a reposition attempt.

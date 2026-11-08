@@ -2,7 +2,7 @@
 id = "ref/feat/net-maneuvering"
 kind = "feat"
 title = "Net Maneuvering"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_maneuvering", path = "json/feat11.json" },
 ]
@@ -27,9 +27,3 @@ With sweeping movements and brute force, you can use your net to put foes at a d
 made to use a net in this way. Further, if you have an opponent entangled in your net, you can
 attempt to [drag](ref/rule/drag) or [reposition](ref/rule/reposition) that opponent as long as he is
 within your net's reach or you control the trailing rope on your net.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-As long as you have at least 1 stamina point in your stamina pool, you can also use a net to drag or
-reposition an opponent.

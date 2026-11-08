@@ -2,7 +2,7 @@
 id = "ref/feat/twinned-feint"
 kind = "feat"
 title = "Twinned Feint"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twinned_feint", path = "json/feat16.json" },
 ]
@@ -28,9 +28,3 @@ action with this feat. When you use this feat, you take a -2 penalty to your AC 
 turn.\
 **Special:** If you have the [Improved Feint](ref/feat/improved-feint) feat, you can use this feat
 as a move action instead.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 134\
-After succeeding at the first feint while using this feat, you can spend 2 stamina points to attempt
-a second feint against any foe within your reach, even if it's not adjacent to the first foe.

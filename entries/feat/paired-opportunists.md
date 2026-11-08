@@ -2,7 +2,7 @@
 id = "ref/feat/paired-opportunists"
 kind = "feat"
 title = "Paired Opportunists"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paired_opportunists", path = "json/feat11.json" },
 ]
@@ -24,9 +24,3 @@ provoke attacks of opportunity from your ally also provoke attacks of opportunit
 as you threaten them (even if the situation or an ability would normally deny you the attack of
 opportunity). This does not allow you to take more than one attack of opportunity against a creature
 for a given action.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 128\
-As long as an ally that also has this feat is within your melee reach, you can spend 2 stamina
-points to gain this feat's benefits until the end of your next turn.

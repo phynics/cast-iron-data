@@ -2,7 +2,7 @@
 id = "ref/feat/boar-ferocity"
 kind = "feat"
 title = "Boar Ferocity"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_ferocity", path = "json/feat02.json" },
 ]
@@ -26,9 +26,3 @@ Your flesh-ripping unarmed strikes terrify your victims.\
 Further, you gain a +2 bonus on Intimidate checks to demoralize opponents. While using Boar Style,
 whenever you tear an opponent's flesh, you can spend a free action to make an Intimidate check to
 demoralize that opponent.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-If your foe is demoralized before you tear its flesh with Boar Style, you can spend 5 stamina points
-to sicken it for 1 round.

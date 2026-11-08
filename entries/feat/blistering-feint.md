@@ -2,7 +2,7 @@
 id = "ref/feat/blistering-feint"
 kind = "feat"
 title = "Blistering Feint"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blistering_feint", path = "json/feat02.json" },
 ]
@@ -26,9 +26,3 @@ defenses.\
 **Benefit:** You gain a +2 bonus on feint checks made while wielding a weapon that deals fire
 damage. Anytime you successfully feint a creature while using such a weapon, you may deal its fire
 damage to the enemy.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-When you attempt a feint while you're wielding a weapon that deals fire damage, you can spend up to
-5 stamina points to gain a bonus on the Bluff check equal to the number of stamina points you spent.

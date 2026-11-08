@@ -2,7 +2,7 @@
 id = "ref/feat/kick-up"
 kind = "feat"
 title = "Kick Up"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kick_up", path = "json/feat09.json" },
 ]
@@ -27,9 +27,3 @@ single unattended item or weapon that weighs 10 pounds or less from the ground, 
 square or in any adjacent square not occupied or threatened by an enemy. Additionally, when you kick
 up a weapon and attempt a [feint](ref/rule/feint) before the end of your turn, you receive a +2
 circumstance bonus on the feint attempt.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-You can spend 2 stamina points to kick up an unattended object in an adjacent space occupied by an
-enemy.

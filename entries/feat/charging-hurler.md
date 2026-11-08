@@ -2,7 +2,7 @@
 id = "ref/feat/charging-hurler"
 kind = "feat"
 title = "Charging Hurler"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charging_hurler", path = "json/feat03.json" },
 ]
@@ -26,9 +26,3 @@ charge apply, except that you must only move closer to your opponent, and you mu
 within 30 feet of that opponent. If you do, you can make a single thrown weapon attack against that
 opponent, gaining the +2 bonus on the attack roll and taking a -2 penalty to your AC until the start
 of your next turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When using this feat, you can spend 2 stamina points to end your movement within 50 feet of your
-target instead of 30 feet.

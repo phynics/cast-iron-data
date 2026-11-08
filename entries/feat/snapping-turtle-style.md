@@ -2,7 +2,7 @@
 id = "ref/feat/snapping-turtle-style"
 kind = "feat"
 title = "Snapping Turtle Style"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_turtle_style", path = "json/feat14.json" },
 ]
@@ -24,9 +24,3 @@ Your deft unarmed style allows you to shield your body from harm.\
 or monk level 1st.\
 **Benefit:** While using the Snapping Turtle Style feat with at least one hand free, you gain a +1
 shield bonus to AC.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-When using this style, as long as you have at least 1 stamina point in your stamina pool, your
-shield bonus to AC increases by 1.

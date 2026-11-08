@@ -2,7 +2,7 @@
 id = "ref/feat/lightning-stance"
 kind = "feat"
 title = "Lightning Stance"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_stance", path = "json/feat10.json" },
 ]
@@ -24,9 +24,3 @@ The speed at which you move makes it nearly impossible for opponents to strike y
 bonus +11.\
 **Benefit:** If you take two actions to move or use a [withdraw](ref/rule/withdraw) action in a
 turn, you gain 50% [concealment](ref/rule/concealment) for 1 round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 125\
-When you take a single move action and move no less than your speed, you can spend 5 stamina points
-to benefit from a 50% miss chance until the start of your next turn.

@@ -2,7 +2,7 @@
 id = "ref/feat/shield-wall"
 kind = "feat"
 title = "Shield Wall"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_wall", path = "json/feat14.json" },
 ]
@@ -29,9 +29,3 @@ these bonuses even if your ally loses his shield bonus due to making a
 [shield bash](ref/misc/shield-bash) attack. If an adjacent ally with this feat uses a tower shield
 to grant total cover, you also benefit if an attack targeting you passes through the edge of the
 shield.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 131\
-You can spend 2 stamina points to increase the bonus you grant to your ally with this feat by 1
-until the end of your next turn.

@@ -2,7 +2,7 @@
 id = "ref/feat/bleeding-critical"
 kind = "feat"
 title = "Bleeding Critical"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleeding_critical", path = "json/feat02.json" },
 ]
@@ -27,9 +27,3 @@ dealt by the critical hit. Bleed damage can be stopped by a DC 15 Heal skill che
 magical healing. The effects of this feat stack.\
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you
 possess [Critical Mastery](ref/feat/critical-mastery).
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 114\
-When you deal bleed damage with this feat, you can spend up to 3 stamina points to increase the
-amount of bleed damage dealt by double the number of stamina points you spent.

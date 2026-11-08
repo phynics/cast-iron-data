@@ -2,7 +2,7 @@
 id = "ref/feat/coordinated-charge"
 kind = "feat"
 title = "Coordinated Charge"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_charge", path = "json/feat03.json" },
 ]
@@ -23,10 +23,3 @@ You are an expert at leading your allies into the fray.\
 **Benefit:** When an ally with this feat charges a creature that is no further away from you than
 your speed, you can, as an immediate action, charge that creature. You must be able to follow all of
 the normal charge rules.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When an ally with this feat charges a creature, and that creature is farther than your speed but no
-farther than double your speed, you can spend 5 stamina points to charge that creature. You must
-still be able to follow all the rules for a charge.

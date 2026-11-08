@@ -2,7 +2,7 @@
 id = "ref/feat/goblin-cleaver"
 kind = "feat"
 title = "Goblin Cleaver"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_cleaver", path = "json/feat07.json" },
 ]
@@ -26,9 +26,3 @@ You are ferocious at hewing smaller opponents.\
 hits, you may take your additional attacks against any creature smaller than you that you threaten;
 your targets need not be adjacent to one another. Additional attacks you make against humanoids
 (goblinoid) gain a +2 circumstance bonus on attack rolls.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 120\
-As long as you have at least 1 stamina point in your stamina pool, the bonus on Cleave attacks made
-against goblinoids increases to +4.

@@ -2,7 +2,7 @@
 id = "ref/feat/two-weapon-fighting"
 kind = "feat"
 title = "Two-Weapon Fighting"
-source_ids = ["core-rulebook", "pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_fighting", path = "json/feat16.json" },
 ]
@@ -29,13 +29,6 @@ for your primary hand lessens by 2 and the one for your off hand lessens by 6. S
 with that weapon. When fighting in this way you suffer a -6 penalty with your regular attack or
 attacks with your primary hand and a -10 penalty to the attack with your off hand. If your off-hand
 weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 135\
-You can spend any number of stamina points to reduce the penalty from Two-Weapon Fighting on attacks
-made with a weapon in your primary hand by 1 for every 2 stamina points you spent. This benefit
-lasts until the start of your next turn. You can't reduce the penalty below 0.
 
 **Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can fight with a weapon wielded in each of your hands. You can make one extra attack each round

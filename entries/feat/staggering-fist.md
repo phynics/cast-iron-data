@@ -2,7 +2,7 @@
 id = "ref/feat/staggering-fist"
 kind = "feat"
 title = "Staggering Fist"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggering_fist", path = "json/feat15.json" },
 ]
@@ -29,9 +29,3 @@ modifier). You must declare that you are using this feat before you make your at
 failed attack roll ruins the attempt. You can attempt to use this feat once per day for every 4
 character levels you have, but no more than once per round. Constructs, incorporeal creatures,
 plants, undead, and creatures that are immune to critical hits cannot be affected by this ability.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-You can spend 5 stamina points to declare that you are using this feat after you've hit with an
-unarmed strike.

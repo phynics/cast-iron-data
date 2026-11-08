@@ -2,7 +2,7 @@
 id = "ref/feat/inner-flame"
 kind = "feat"
 title = "Inner Flame"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_flame", path = "json/feat09.json" },
 ]
@@ -26,9 +26,3 @@ Your body generates so much heat that your mere touch scorches your enemies.\
 descriptor increases to +4. When you use Scorching Weapons, the affected weapons deal an additional
 1d6 points of fire damage instead of 1, and when you are grappling, you deal this damage to your
 grappling opponent on your turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-When you fail a saving throw against an effect that has the fire or light descriptor, you can spend
-5 stamina points to reroll the saving throw. You must take the second result, even if it is worse.

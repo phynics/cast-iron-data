@@ -2,7 +2,7 @@
 id = "ref/feat/jabbing-dancer"
 kind = "feat"
 title = "Jabbing Dancer"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jabbing_dancer", path = "json/feat09.json" },
 ]
@@ -28,9 +28,3 @@ You've learned to bend and shift your body to avoid attacks and reposition yours
 without provoking an attack of opportunity as long as you move to a space adjacent to the opponent
 you hit with the unarmed strike. If you use this feat, you cannot take a 5-foot step during your
 next turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 124\
-After you use Jabbing Style to move 5 feet without provoking attacks of opportunity, if you have at
-least 1 stamina point in your stamina pool, you can still take a 5-foot step on your next turn.

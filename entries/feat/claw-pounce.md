@@ -2,7 +2,7 @@
 id = "ref/feat/claw-pounce"
 kind = "feat"
 title = "Claw Pounce"
-source_ids = ["advanced-race-guide", "pathfinder-unchained"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claw_pounce", path = "json/feat03.json" },
 ]
@@ -29,8 +29,3 @@ You can charge and make an attack with your paws.\
 [Aspect of the Beast](ref/feat/aspect-of-the-beast) (claws of the beast manifestation).\
 **Benefit:** When you make a charge, you can make a full attack with your claws.\
 **Normal:** Charging is a special full-round action that limits you to a single attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-When you charge, you can spend 5 stamina points to make a second attack with one of your claws.

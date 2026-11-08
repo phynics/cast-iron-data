@@ -2,7 +2,7 @@
 id = "ref/feat/ride-by-attack"
 kind = "feat"
 title = "Ride-By Attack"
-source_ids = ["core-rulebook", "pathfinder-unchained"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_by_attack", path = "json/feat13.json" },
 ]
@@ -24,9 +24,3 @@ While mounted and charging, you can move, strike at a foe, and then continue mov
 attack as if with a standard charge and then move again (continuing the straight line of the
 charge). Your total movement for the round can't exceed double your mounted speed. You and your
 mount do not provoke an attack of opportunity from the opponent that you attack.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 130\
-After making a mounted charge attack using this feat, you can spend 5 stamina points to change the
-direction of your movement instead of continuing to move in a straight line.

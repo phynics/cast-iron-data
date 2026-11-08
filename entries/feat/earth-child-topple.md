@@ -2,7 +2,7 @@
 id = "ref/feat/earth-child-topple"
 kind = "feat"
 title = "Earth Child Topple"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child_topple", path = "json/feat05.json" },
 ]
@@ -29,9 +29,3 @@ racial trait, [Earth Child Style](ref/feat/earth-child-style),
 using Earth Child Style, you add your Wisdom bonus on combat maneuver checks made to trip a creature
 of the giant subtype, as well as on attack rolls to confirm a critical hit against such a creature.\
 **Normal:** You can trip only those opponents that are one size category larger than you.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When you trip a creature with the giant subtype, you can spend 3 stamina points to cause the
-creature to also take 2d6 points of falling damage.

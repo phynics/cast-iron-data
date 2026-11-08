@@ -2,7 +2,7 @@
 id = "ref/feat/riving-strike"
 kind = "feat"
 title = "Riving Strike"
-source_ids = ["advanced-class-guide", "pathfinder-unchained"]
+source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riving_strike", path = "json/feat13.json" },
 ]
@@ -25,9 +25,3 @@ When you infuse your weapon with arcane might, your attacks make foes more susce
 creature with an attack made with that weapon, that creature takes a -2 penalty on saving throws
 against spells and [spell-like abilities](ref/umr/spell-like-abilities). This effect lasts for 1
 round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 130\
-When you use this feat, you can spend up to 3 stamina points to increase the duration of the effect
-by 1 round for each stamina point spent.

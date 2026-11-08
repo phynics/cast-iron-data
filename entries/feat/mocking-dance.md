@@ -2,7 +2,7 @@
 id = "ref/feat/mocking-dance"
 kind = "feat"
 title = "Mocking Dance"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mocking_dance", path = "json/feat11.json" },
 ]
@@ -25,9 +25,3 @@ You do a little dance that mocks your foe and entertains the crowd.\
 move 5 feet without provoking attacks of opportunity, or you can move your speed and provoke attacks
 of opportunity. You cannot end this move in a space where you threaten an enemy. If you do move at
 least 5 feet, you gain a +2 bonus on the performance combat check.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 127\
-When using this feat, you can spend 5 stamina points to move up to half your speed (instead of only
-5 feet) without provoking attacks of opportunity.

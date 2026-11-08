@@ -2,7 +2,7 @@
 id = "ref/feat/marid-spirit"
 kind = "feat"
 title = "Marid Spirit"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid_spirit", path = "json/feat10.json" },
 ]
@@ -32,10 +32,3 @@ must succeed at a Fortitude save (DC 10 + 1/2 your character level + your Wis mo
 your base attack bonus or monk level, whichever is higher, and a break DC of 15 + your base attack
 bonus or monk level, whichever is higher. Destroying or breaking the ice ends the entangled
 condition.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 126\
-When a creature takes cold damage from your Elemental Fist attack, you can spend up to 5 stamina
-points to increase the DC of the saving throw to avoid becoming entangled by an amount equal to the
-number of stamina points you spent.

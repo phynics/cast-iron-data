@@ -2,7 +2,7 @@
 id = "ref/feat/cockatrice-strike"
 kind = "feat"
 title = "Cockatrice Strike"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockatrice_strike", path = "json/feat03.json" },
 ]
@@ -27,8 +27,3 @@ With a single strike, you transmute flesh to stone.\
 flat-footed, paralyzed, staggered, stunned, or unconscious foe. If that attack is a critical hit,
 the target is [petrified](ref/rule/petrified) unless it succeeds on a Fortitude saving throw with a
 DC of 10 + 1/2 your character level + your Wisdom modifier. This is a supernatural polymorph effect.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 115\
-You can spend 5 stamina points to make a Cockatrice Strike attack against a foe you are flanking.

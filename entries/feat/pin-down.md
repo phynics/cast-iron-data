@@ -2,7 +2,7 @@
 id = "ref/feat/pin-down"
 kind = "feat"
 title = "Pin Down"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pin_down", path = "json/feat12.json" },
 ]
@@ -26,9 +26,3 @@ You easily block enemy escapes.\
 [withdraw](ref/rule/withdraw) action, that opponent provokes an attack of opportunity from you. If
 the attack hits, you deal no damage, but the targeted creature is prevented from making the move
 action that granted a 5-foot step or the withdraw action and does not move.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 129\
-When using this feat, you can spend 5 stamina points to gain its benefits and still deal damage with
-the attack of opportunity.

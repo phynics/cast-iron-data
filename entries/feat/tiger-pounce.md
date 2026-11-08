@@ -2,7 +2,7 @@
 id = "ref/feat/tiger-pounce"
 kind = "feat"
 title = "Tiger Pounce"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_pounce", path = "json/feat16.json" },
 ]
@@ -28,10 +28,3 @@ foes with blinding speed.\
 AC instead of attack rolls. Additionally, once per round as a swift action, you can move up to half
 your speed closer to a target you hit with an unarmed strike or made a successful combat maneuver
 against on this turn or your last turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 133\
-When using Tiger Style, you can spend 2 stamina points and take a swift action to move closer to an
-enemy you've hit with an unarmed strike or made a successful combat maneuver against at any point
-during this combat, instead of one you hit on this or your last turn.

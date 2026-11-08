@@ -2,7 +2,7 @@
 id = "ref/feat/step-up-and-strike"
 kind = "feat"
 title = "Step Up and Strike"
-source_ids = ["advanced-players-guide", "pathfinder-unchained"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_up_and_strike", path = "json/feat15.json" },
 ]
@@ -28,9 +28,3 @@ make a single melee attack against that foe at your highest base attack bonus. T
 one of your attacks of opportunity for the round. Using this feat does not count toward the number
 of actions you can usually take each round.\
 **Normal:** You can usually only take one standard action and one 5-foot step each round.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 132\
-You can spend 5 stamina points to make this feat's attack without having that attack count as one of
-your attacks of opportunity for the round.

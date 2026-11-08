@@ -2,7 +2,7 @@
 id = "ref/feat/false-opening"
 kind = "feat"
 title = "False Opening"
-source_ids = ["ultimate-combat", "pathfinder-unchained"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_opening", path = "json/feat06.json" },
 ]
@@ -33,10 +33,3 @@ selected ranged weapon.\
 weapon, you can choose to provoke an attack of opportunity from one or more opponents who threaten
 you. You gain a +4 dodge bonus against such attacks. An opponent that makes such an attack and
 misses you loses his Dexterity bonus to AC against you until the end of your turn.
-
-### Stamina
-
-**Sources:** Pathfinder Unchained pg 119\
-When you use this feat, you can spend 5 stamina points to make an attack of opportunity against an
-opponent who misses you with the provoked attack (after it loses its Dexterity bonus to AC against
-you).
