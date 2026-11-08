@@ -27,9 +27,3 @@ proficiency with medium or heavy armor.\
 attack is negated and damage is instead rolled normally.\
 **Special:** This chance stacks with the [light fortification](ref/magic-enh/fortification-light)
 and [moderate fortification](ref/magic-enh/fortification-moderate) armor special abilities.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-If you fail to negate a critical hit against you, you can spend 5 stamina points to cause the attack
-to deal half damage.

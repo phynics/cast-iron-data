@@ -2,7 +2,7 @@
 id = "ref/feat/steady-engagement"
 kind = "feat"
 title = "Steady Engagement"
-source_ids = ["inner-sea-gods", "faiths-of-balance", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steady_engagement", path = "json/feat15.json" },
 ]
@@ -25,9 +25,3 @@ worshiper of [Irori](ref/faith/irori).\
 **Benefit:** If you use Stand Still to prevent an opponent from moving, you may make a
 [disarm](ref/rule/disarm) or [trip](ref/rule/trip) combat maneuver against your target as an
 immediate action.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend up to 4 stamina points to gain a +1 bonus per stamina point spent on any combat
-maneuver check that you attempt as part of Steady Engagement.

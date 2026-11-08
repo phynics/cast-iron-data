@@ -2,7 +2,7 @@
 id = "ref/feat/harrying-partners"
 kind = "feat"
 title = "Harrying Partners"
-source_ids = ["melee-tactics-toolbox", "armor-masters-handbook"]
+source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrying_partners", path = "json/feat08.json" },
 ]
@@ -27,10 +27,3 @@ until the beginning of your next turn.\
 **Normal:** The bonus granted by aid another either grants your ally a +2 bonus on her next attack
 roll against an opponent or grants your ally a +2 bonus to AC against that opponent's next attack
 made before the beginning of your next turn.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-When using the aid another action to help an ally who also has this feat, you can spend 5 stamina
-points to grant a +4 bonus instead of the normal +2. Alternatively, you can grant your ally a +2
-bonus both on her next attack roll and to her AC against the next attack against her.

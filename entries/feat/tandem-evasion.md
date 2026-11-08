@@ -2,7 +2,7 @@
 id = "ref/feat/tandem-evasion"
 kind = "feat"
 title = "Tandem Evasion"
-source_ids = ["dragonslayers-handbook", "armor-masters-handbook"]
+source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tandem_evasion", path = "json/feat16.json" },
 ]
@@ -24,9 +24,3 @@ You and your allies help each other evade deadly attacks.\
 **Benefit:** When adjacent to an ally who also has this feat, you gain
 [evasion](ref/ability/evasion) against a dragon's breath weapon and tail sweep special attacks. If
 you already have evasion, you gain [improved evasion](ref/ability/improved-evasion) instead.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 5 stamina points to benefit from this feat even if there are no adjacent allies who
-also have this feat. However, if you fail your save, you are knocked [prone](ref/rule/prone).

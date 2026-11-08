@@ -2,7 +2,7 @@
 id = "ref/feat/flagbearer"
 kind = "feat"
 title = "Flagbearer"
-source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting", "weapon-masters-handbook"]
+source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flagbearer", path = "json/feat07.json" },
 ]
@@ -27,9 +27,3 @@ weapon damage rolls, and saving throws against fear and charm effects. You must 
 hand in order to grant this bonus. If the standard is taken by the enemy or destroyed, this bonus
 becomes a penalty, affecting all creatures that the bonus previously affected for 1 hour (or until
 you reclaim the lost flag).
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-Whenever you can see your flag but aren't holding it, you can spend 1 stamina point to gain the
-benefits of Flagbearer for 1 minute as if you were holding it.

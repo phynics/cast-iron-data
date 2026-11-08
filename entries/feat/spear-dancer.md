@@ -2,7 +2,7 @@
 id = "ref/feat/spear-dancer"
 kind = "feat"
 title = "Spear Dancer"
-source_ids = ["inner-sea-gods", "faiths-of-purity", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancer", path = "json/feat14.json" },
 ]
@@ -24,9 +24,3 @@ You incorporate your two-handed reach weapon into a dizzying martial dance.\
 (dance) 4 ranks.\
 **Benefit:** Each time you hit a creature with a two-handed reach weapon that you have Weapon Focus
 in, the creature is [dazzled](ref/misc/dazzled) for 1 round.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-When you inflict the dazzled condition on an opponent using the Spear Dancer feat, you can spend up
-to 5 stamina points to increase the duration of the effect by 1 round per stamina point spent.

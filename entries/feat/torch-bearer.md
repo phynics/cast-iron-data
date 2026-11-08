@@ -2,7 +2,7 @@
 id = "ref/feat/torch-bearer"
 kind = "feat"
 title = "Torch Bearer"
-source_ids = ["inner-sea-gods", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torch_bearer", path = "json/feat16.json" },
 ]
@@ -25,9 +25,3 @@ and you do not incur penalties as you would for using it as an
 [improvised weapon](ref/misc/improvised-weapons).\
 **Normal:** A torch used in combat is treated as a one-handed improvised weapon that deals
 bludgeoning damage equal to that of a gauntlet of its size plus 1 point of fire damage.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-By spending 2 stamina points when you hit an opponent with a torch, you can increase the amount of
-fire damage dealt by the torch to 1d4.

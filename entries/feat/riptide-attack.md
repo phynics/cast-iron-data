@@ -2,7 +2,7 @@
 id = "ref/feat/riptide-attack"
 kind = "feat"
 title = "Riptide Attack"
-source_ids = ["inner-sea-gods", "faiths-of-balance", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riptide_attack", path = "json/feat13.json" },
 ]
@@ -24,9 +24,3 @@ You can immediately drag opponents you successfully trip.\
 worshiper of [Gozreh](ref/faith/gozreh).\
 **Benefit:** Whenever you succeed at a [trip](ref/rule/trip) combat maneuver, you can automatically
 attempt a [drag](ref/rule/drag) combat maneuver against your tripped target as a swift action.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-By spending 4 stamina points, you can attempt a drag combat maneuver check against any opponent that
-you successfully trip using Riptide Attack as a free action instead of a swift action.

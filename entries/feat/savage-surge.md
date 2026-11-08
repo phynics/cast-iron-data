@@ -2,7 +2,7 @@
 id = "ref/feat/savage-surge"
 kind = "feat"
 title = "Savage Surge"
-source_ids = ["inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_surge", path = "json/feat13.json" },
 ]
@@ -27,8 +27,3 @@ you may, as a free action, expend a number of your daily rounds of rage up to ha
 performance combat check equal to half the number of rounds expended, rounded down. If you expend
 all your remaining rounds of rage in this manner, thus ending your rage, you gain an additional +2
 bonus on the check.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend stamina points instead of rounds of rage when using Savage Surge.

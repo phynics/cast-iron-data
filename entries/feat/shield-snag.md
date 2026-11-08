@@ -2,7 +2,7 @@
 id = "ref/feat/shield-snag"
 kind = "feat"
 title = "Shield Snag"
-source_ids = ["magical-marketplace", "armor-masters-handbook"]
+source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_snag", path = "json/feat14.json" },
 ]
@@ -31,9 +31,3 @@ works.
 
 When using a shield, you gain a +4 bonus on Strength checks to avoid being blown away by a strong
 wind and on Climb checks to catch yourself on a wall or slope when falling.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 5 stamina points to use this feat in the same round as a bull rush combat maneuver
-performed with the Shield Slam feat.

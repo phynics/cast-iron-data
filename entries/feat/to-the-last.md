@@ -2,7 +2,7 @@
 id = "ref/feat/to-the-last"
 kind = "feat"
 title = "To the Last"
-source_ids = ["inner-sea-gods", "weapon-masters-handbook"]
+source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "to_the_last", path = "json/feat16.json" },
 ]
@@ -25,8 +25,3 @@ Your devotion to battle inspires you to fight competently until death claims you
 **Benefit:** When you are [disabled](ref/misc/disabled), you are not
 [staggered](ref/misc/staggered), though performing standard actions still deals 1 point of damage to
 you. Taking a full-round action deals 2 points of damage to you.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend 1 stamina when disabled to take a standard action without losing a hit point.

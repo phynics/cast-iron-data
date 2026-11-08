@@ -2,7 +2,7 @@
 id = "ref/feat/duelist-of-the-roaring-falls"
 kind = "feat"
 title = "Duelist of the Roaring Falls"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duelist_of_the_roaring_falls", path = "json/feat05.json" },
 ]
@@ -33,10 +33,3 @@ competence bonus on damage rolls made with an Aldori dueling sword. When you att
 [dueling parry](ref/rule/dueling-parry) during a duel, the penalty on your attack roll to parry is
 reduced from -5 to -3. To gain these benefits, you must be wielding only an Aldori dueling sword
 (not using a shield, an off-hand weapon, armor spikes, unarmed strikes, or natural weapons).
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-When you hit a foe with a melee attack made using an Aldori dueling sword, you can spend 4 stamina
-points to treat that foe as being shaken for the purpose of gaining a bonus from Duelist of the
-Roaring Falls until the start of your next turn.

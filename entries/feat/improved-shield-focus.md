@@ -24,8 +24,3 @@ Your mastery makes the most of your shield.\
 **Benefit:** You reduce the armor check penalty of any shield you are using by 1. You also use your
 character level in place of your base attack bonus for the purpose of
 [shield mastery feat](ref/rule/feats-mastery) prerequisites.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 3 stamina points to negate your shield's armor check penalty for one skill check.

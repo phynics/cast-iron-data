@@ -2,7 +2,7 @@
 id = "ref/feat/mirror-move"
 kind = "feat"
 title = "Mirror Move"
-source_ids = ["melee-tactics-toolbox", "armor-masters-handbook"]
+source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_move", path = "json/feat10.json" },
 ]
@@ -29,9 +29,3 @@ prerequisites. If a feat has a daily use limitation, as does
 [Stunning Fist](ref/feat/stunning-fist), any uses of that feat while you're using Mirror Move count
 toward that feat's daily limit for you. You can use Mirror Move once per day for every 4 levels you
 have attained.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend up to 5 stamina points to extend the duration that you benefit from a mirrored feat by
-1 round per stamina point spent.

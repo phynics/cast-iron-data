@@ -26,8 +26,3 @@ class feature, proficiency with heavy armor.\
 **Benefit:** If you hit a creature that is no more than one size category larger than you with a
 Power Attack, the creature you attacked is also knocked off balance. Until the beginning of your
 next turn, it takes a -4 penalty to its CMD against combat maneuvers that move it or knock it prone.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 5 stamina points when using this feat to change the target's penalty to CMD to -6.

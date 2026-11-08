@@ -2,7 +2,7 @@
 id = "ref/feat/got-your-back"
 kind = "feat"
 title = "Got Your Back"
-source_ids = ["melee-tactics-toolbox", "armor-masters-handbook"]
+source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "got_your_back", path = "json/feat07.json" },
 ]
@@ -28,9 +28,3 @@ considered [flanked](ref/rule/flanking) or [flat-footed](ref/rule/flat-footed) a
 until the beginning of your next turn.\
 **Normal:** You can use aid another to grant an ally a +2 bonus to AC against the next attack from
 an adjacent foe.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-If you spend 3 stamina points when you use this feat, your ally benefits from the AC bonus until the
-beginning of your next turn.

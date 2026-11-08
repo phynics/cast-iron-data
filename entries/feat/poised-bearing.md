@@ -24,10 +24,3 @@ proficiency with medium or heavy armor.\
 **Benefit:** You treat your size as one category larger for the purposes of determining the size of
 creatures against which you can attempt [bull rush](ref/rule/bull-rush), [drag](ref/rule/drag),
 [overrun](ref/rule/overrun), and [trip](ref/rule/trip) combat maneuvers.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 3 stamina points as a swift action to have this feat's effect on your size for the
-purposes of specific combat maneuvers also determine what size a creature must be to perform the
-combat maneuvers against you.

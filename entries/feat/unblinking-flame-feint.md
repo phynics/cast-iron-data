@@ -2,7 +2,7 @@
 id = "ref/feat/unblinking-flame-feint"
 kind = "feat"
 title = "Unblinking Flame Feint"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unblinking_flame_feint", path = "json/feat16.json" },
 ]
@@ -25,8 +25,3 @@ You move as swiftly and unpredictably as a flickering flame.\
 **Benefit:** While using Perfect Style, you can use your Wisdom modifier in place of your Charisma
 modifier when attempting Bluff checks to [feint](ref/rule/feint). You can spend 1 ki point as a
 swift action to gain the benefits of [Improved Feint](ref/feat/improved-feint) for 1 round.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend 2 stamina points instead of 1 ki point when using Unblinking Flame Feint.

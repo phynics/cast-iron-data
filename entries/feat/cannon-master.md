@@ -2,7 +2,7 @@
 id = "ref/feat/cannon-master"
 kind = "feat"
 title = "Cannon Master"
-source_ids = ["inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannon_master", path = "json/feat02.json" },
 ]
@@ -26,9 +26,3 @@ You have learned how to keep firearm siege engines ready for battle despite harr
 firearm siege engine. In addition, if you are the crew leader for a firearm siege engine with the
 broken condition, that siege engine's misfire range is increased by only 2 instead of by 4, and the
 broken siege engine must misfire twice before it explodes.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 24\
-While acting as the leader of a firearm siege engine crew, you can spend 5 stamina points as an
-immediate action when the siege engine rolls a misfire to negate the misfire.

@@ -2,7 +2,7 @@
 id = "ref/feat/reach-defense"
 kind = "feat"
 title = "Reach Defense"
-source_ids = ["dragonslayers-handbook", "armor-masters-handbook"]
+source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reach_defense", path = "json/feat13.json" },
 ]
@@ -25,8 +25,3 @@ You are proficient at avoiding polearms and long-limbed creatures.\
 that are not adjacent to you.\
 **Special:** This feat counts as [Dodge](ref/feat/dodge) for the purposes of qualifying for the
 [Mobility](ref/feat/mobility) and [Spring Attack](ref/feat/spring-attack) feats.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 5 stamina points to grant the benefit of this feat to any adjacent allies for 1 round.

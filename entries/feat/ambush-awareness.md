@@ -2,7 +2,7 @@
 id = "ref/feat/ambush-awareness"
 kind = "feat"
 title = "Ambush Awareness"
-source_ids = ["ultimate-wilderness", "dirty-tactics-toolbox", "armor-masters-handbook"]
+source_ids = ["ultimate-wilderness", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambush_awareness", path = "json/feat01.json" },
 ]
@@ -25,8 +25,3 @@ you can still act on your initiative count in the surprise round, but only to ta
 [total defense](ref/misc/total-defense) action.\
 **Normal:** If you are unable to act in the surprise round because you failed a Perception check,
 you can't take any actions during the surprise round.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 3 stamina points to grant the benefit of this feat to an adjacent ally.

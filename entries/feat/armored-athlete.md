@@ -2,7 +2,7 @@
 id = "ref/feat/armored-athlete"
 kind = "feat"
 title = "Armored Athlete"
-source_ids = ["melee-tactics-toolbox", "armor-masters-handbook"]
+source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armored_athlete", path = "json/feat01.json" },
 ]
@@ -31,9 +31,3 @@ proficient with heavy armor, this benefit also applies to armor check penalties 
 armor.\
 **Special:** You can gain this feat multiple times. Each time you take the feat, it applies to a new
 skill.
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 20\
-You can spend 3 stamina points to take 10 on a Dexterity- or Strength-based skill that is associated
-with this feat even when doing so would not normally allowed because of the strenuous circumstances.

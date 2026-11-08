@@ -2,7 +2,7 @@
 id = "ref/feat/unfolding-wind-strike"
 kind = "feat"
 title = "Unfolding Wind Strike"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfolding_wind_strike", path = "json/feat16.json" },
 ]
@@ -26,8 +26,3 @@ The wind through which your thrown weapons fly directs them to their targets or 
 wield. You can spend 1 ki point as a swift action to imbue a number of thrown weapons equal to your
 Wisdom bonus with the [returning](ref/magic-enh/returning) or [seeking](ref/magic-enh/seeking)
 weapon special ability for 1 round.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend 2 stamina points instead of 1 ki point when using Unfolding Wind Strike.

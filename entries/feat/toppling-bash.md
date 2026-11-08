@@ -27,9 +27,3 @@ Your shield bash throws your enemies off balance.\
 you can attempt a [trip](ref/rule/trip) combat maneuver against that creature at a -5 penalty. This
 does not provoke an attack of opportunity, and if your attempt fails by 10 or more, you are not
 knocked [prone](ref/rule/prone).
-
-### Stamina
-
-**Sources:** Armor Master's Handbook pg 21\
-You can spend 5 stamina points to negate the penalty on your combat maneuver check to knock a
-creature prone.

@@ -2,7 +2,7 @@
 id = "ref/feat/untwisting-iron-strength"
 kind = "feat"
 title = "Untwisting Iron Strength"
-source_ids = ["adventurers-guide", "inner-sea-combat", "weapon-masters-handbook"]
+source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untwisting_iron_strength", path = "json/feat17.json" },
 ]
@@ -26,8 +26,3 @@ monk level 9th.\
 equal to your character level. Additionally, you gain a +4 bonus on Strength checks to break
 objects. If you spend 1 ki point as a swift action, you also gain the benefits of
 [Improved Sunder](ref/feat/improved-sunder) for 1 round.
-
-### Stamina
-
-**Sources:** Weapon Master's Handbook pg 25\
-You can spend 2 stamina points instead of 1 ki point when using Untwisting Iron Strength.
