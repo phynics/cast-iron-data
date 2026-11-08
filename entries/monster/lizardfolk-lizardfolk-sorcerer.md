@@ -103,9 +103,7 @@ abilities = ["17", "10", "15", "11", "8", "18"]
 - At will: acid splash, detect magic, detect poison, open/close, read magic, resistance, spark,
   mending, message
 
-**Bloodline**
-
-**Data:** [draconic](ref/sorcbloodline/draconic) (black)
+**Bloodline:** [draconic](ref/sorcbloodline/draconic) (black)
 
 ### Tactics
 

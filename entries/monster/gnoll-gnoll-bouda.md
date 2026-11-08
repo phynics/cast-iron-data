@@ -105,9 +105,7 @@ abilities = ["12", "12", "15", "18", "14", "8"]
 
 - bleed (DC 14), detect magic, putrefy food and drink, touch of fatigue (DC 14)
 
-**Patron**
-
-**Data:** [trickery](ref/patron/trickery)
+**Patron:** [trickery](ref/patron/trickery)
 
 ### Tactics
 

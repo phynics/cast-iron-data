@@ -96,9 +96,7 @@ eyes._
 
 - guidance, light, stabilize, virtue
 
-**Domains**
-
-**Data:** Strength, [War](ref/domain/war)
+**Domains:** Strength, [War](ref/domain/war)
 
 ###### D {#footnote-d}
 

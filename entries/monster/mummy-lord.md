@@ -126,9 +126,7 @@ slashing), scythe of evil (4 rounds, 1/day), undead mastery (DC 19)
 
 - detect magic, guidance, read magic, resistance
 
-**Domains**
-
-**Data:** Darkness, Evil
+**Domains:** Darkness, Evil
 
 ###### D {#footnote-d}
 

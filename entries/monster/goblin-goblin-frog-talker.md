@@ -95,9 +95,7 @@ abilities = ["6", "17", "14", "16", "12", "8"]
 
 - dancing lights, daze (DC 13), detect magic, touch of fatigue (DC 13)
 
-**Patron**
-
-**Data:** [deception](ref/patron/deception)
+**Patron:** [deception](ref/patron/deception)
 
 ### Tactics
 

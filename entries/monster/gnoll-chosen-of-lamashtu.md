@@ -120,9 +120,7 @@ abilities = ["18", "8", "14", "8", "16", "14"]
 
 - bleed (DC 13), detect magic, read magic, stabilize
 
-**Domains**
-
-**Data:** Evil, Strength
+**Domains:** Evil, Strength
 
 ###### D {#footnote-d}
 

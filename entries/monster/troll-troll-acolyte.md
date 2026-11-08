@@ -101,9 +101,7 @@ abilities = ["21", "12", "25", "8", "13", "10"]
 
 - bleed (DC 11), detect magic, resistance, spark
 
-**Domains**
-
-**Data:** [Destruction](ref/domain/destruction), [Weather](ref/domain/weather)
+**Domains:** [Destruction](ref/domain/destruction), [Weather](ref/domain/weather)
 
 ###### D {#footnote-d}
 

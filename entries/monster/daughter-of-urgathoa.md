@@ -106,9 +106,7 @@ scythe-like claw._
 
 - bleed (DC 13), detect magic, guidance, resistance
 
-**Domains**
-
-**Data:** Death, Magic
+**Domains:** Death, Magic
 
 ###### D {#footnote-d}
 

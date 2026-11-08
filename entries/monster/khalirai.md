@@ -138,9 +138,7 @@ stunning
 - At will: create water, detect magic, detect poison, mending, purify food and drink, resistance,
   stabilize, virtue
 
-**Mystery**
-
-**Data:** [bones](ref/mystery/bones)
+**Mystery:** [bones](ref/mystery/bones)
 
 **Statistics**
 

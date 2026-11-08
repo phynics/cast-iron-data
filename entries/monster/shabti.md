@@ -93,9 +93,7 @@ _Light shimmers across this humanoid figure's bare golden skin, illuminating reg
 
 - At will: bleed (DC 13), create water, detect magic, ghost sound (DC 13), mage hand, stabilize
 
-**Mystery**
-
-**Data:** [heavens](ref/mystery/heavens)
+**Mystery:** [heavens](ref/mystery/heavens)
 
 **Statistics**
 

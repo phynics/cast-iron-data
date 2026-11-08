@@ -111,9 +111,7 @@ and feet are webbed._
 
 - create water, guidance, stabilize
 
-**Domains**
-
-**Data:** [Charm](ref/domain/charm), [Water](ref/domain/water)
+**Domains:** [Charm](ref/domain/charm), [Water](ref/domain/water)
 
 ###### D {#footnote-d}
 

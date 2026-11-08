@@ -113,9 +113,7 @@ mouth with ill-fitting teeth._
 - At will: bleed (DC 13), create water, detect magic, guidance, mending, purify food and drink,
   spark, stabilize, virtue
 
-**Mystery**
-
-**Data:** [battle](ref/mystery/battle)
+**Mystery:** [battle](ref/mystery/battle)
 
 ### Tactics
 

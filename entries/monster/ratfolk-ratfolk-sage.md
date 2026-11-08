@@ -110,9 +110,7 @@ tail._
 
 - acid splash, dancing lights, detect magic, message
 
-**Opposition Schools**
-
-**Data:** enchantment, necromancy
+**Opposition Schools:** enchantment, necromancy
 
 ### Tactics
 

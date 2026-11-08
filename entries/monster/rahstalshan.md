@@ -134,9 +134,7 @@ with crystals._
 - At will: acid splash, arcane mark, detect magic, light, mage hand, mending, message,
   prestidigitation, read magic
 
-**Bloodline**
-
-**Data:** [Deep Earth](ref/sorcbloodline/deep-earth)
+**Bloodline:** [Deep Earth](ref/sorcbloodline/deep-earth)
 
 **Statistics**
 

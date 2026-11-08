@@ -143,9 +143,7 @@ flesh, and the skulladorned flails she wields drip black liquid._
 - At will: bleed (DC 20), detect magic, disrupt undead, ghost sound (DC 20), message, read magic,
   touch of fatigue (DC 20)
 
-**Bloodline**
-
-**Data:** [undead](ref/sorcbloodline/undead)
+**Bloodline:** [undead](ref/sorcbloodline/undead)
 
 **Statistics**
 

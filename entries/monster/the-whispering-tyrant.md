@@ -120,9 +120,7 @@ spells (2/day), paralyzing touch (DC 39), wild arcana
 
 - detect magic, mage hand, message, read magic
 
-**Opposition Schools**
-
-**Data:** enchantment, illusion
+**Opposition Schools:** enchantment, illusion
 
 **Statistics**
 

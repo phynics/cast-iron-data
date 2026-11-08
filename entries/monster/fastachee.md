@@ -129,9 +129,7 @@ basket filled with corn._
 
 - create water, detect magic, purify food and drink, stabilize
 
-**Domain**
-
-**Data:** [Healing](ref/domain/healing)
+**Domain:** [Healing](ref/domain/healing)
 
 ###### D {#footnote-d}
 

@@ -106,9 +106,7 @@ tail and crests on its head and back._
 
 - bleed (DC 12), detect magic, guidance, spark
 
-**Domains**
-
-**Data:** Demon, Strength
+**Domains:** Demon, Strength
 
 ###### D {#footnote-d}
 

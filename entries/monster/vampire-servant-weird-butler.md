@@ -87,9 +87,7 @@ abilities = ["6", "16", "12", "13", "10", "18"]
 
 - At will: bleed (DC 14), detect magic, mending, resistance, stabilize, virtue
 
-**Mystery**
-
-**Data:** [bones](ref/mystery/bones)
+**Mystery:** [bones](ref/mystery/bones)
 
 **Statistics**
 

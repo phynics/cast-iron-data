@@ -108,9 +108,7 @@ abilities = ["12", "14", "16", "12", "12", "8"]
 
 - arcane mark, detect magic, read magic, spark
 
-**Patron**
-
-**Data:** [vengeance](ref/patron/vengeance)
+**Patron:** [vengeance](ref/patron/vengeance)
 
 ### Tactics
 

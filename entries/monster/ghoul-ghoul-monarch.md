@@ -112,9 +112,7 @@ abilities = ["13", "22", "-", "15", "16", "22"]
 - At will: arcane mark, dancing lights, daze (DC 16), detect magic, light, mage hand,
   prestidigitation (DC 16), ray of frost, read magic
 
-**Bloodline**
-
-**Data:** [ghoul](ref/sorcbloodline/ghoul)
+**Bloodline:** [ghoul](ref/sorcbloodline/ghoul)
 
 ### Tactics
 

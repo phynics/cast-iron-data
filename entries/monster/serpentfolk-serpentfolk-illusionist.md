@@ -109,9 +109,7 @@ abilities = ["10", "22", "21", "22", "13", "18"]
 
 - dancing lights, detect magic, mage hand, read magic
 
-**Opposition Schools**
-
-**Data:** conjuration, evocation
+**Opposition Schools:** conjuration, evocation
 
 ### Tactics
 

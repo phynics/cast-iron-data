@@ -131,9 +131,7 @@ lightning-infused spear._
 - At will: bleed, create water, detect magic, detect poison, guidance, light, mending, purify food
   and drink, read magic
 
-**Mystery**
-
-**Data:** [wind](ref/mystery/wind)
+**Mystery:** [wind](ref/mystery/wind)
 
 **Statistics**
 

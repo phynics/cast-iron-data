@@ -88,9 +88,7 @@ into its chest._
 - 3/day: cure moderate wounds, wood shape (DC 16)
 - 1/day: cure serious wounds, stone shape
 
-**Domain**
-
-**Data:** Artifice
+**Domain:** Artifice
 
 **Statistics**
 

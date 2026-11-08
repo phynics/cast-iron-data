@@ -85,9 +85,7 @@ different color._
 
 - daze (DC 13), light, touch of fatigue (DC 13)
 
-**Patron**
-
-**Data:** [transformation](ref/patron/transformation)
+**Patron:** [transformation](ref/patron/transformation)
 
 **Statistics**
 

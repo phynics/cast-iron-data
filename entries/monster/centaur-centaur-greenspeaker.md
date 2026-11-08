@@ -91,9 +91,7 @@ carries a variety of wands and talismans in addition to his weapons._
 
 - detect poison, guidance, purify food and drink (DC 14), resistance
 
-**Spirit**
-
-**Data:** [Life](ref/shamanspirit/life)
+**Spirit:** [Life](ref/shamanspirit/life)
 
 ###### S {#footnote-s}
 

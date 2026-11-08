@@ -99,9 +99,7 @@ delight._
 
 - At will: arcane mark, daze (DC 15), detect magic, haunted fey aspect, message, read magic
 
-**Bloodline**
-
-**Data:** [shadow](ref/sorcbloodline/shadow)
+**Bloodline:** [shadow](ref/sorcbloodline/shadow)
 
 **Statistics**
 

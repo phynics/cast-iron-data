@@ -89,9 +89,7 @@ _Wings composed of wood and vines grow out of the body of this lithesome fey._
 
 - At will: dancing lights, daze (DC 15), ghost sound (DC 13), ray of frost
 
-**Bloodline**
-
-**Data:** [fey](ref/sorcbloodline/fey)
+**Bloodline:** [fey](ref/sorcbloodline/fey)
 
 **Statistics**
 

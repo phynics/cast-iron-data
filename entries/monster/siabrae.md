@@ -119,9 +119,7 @@ and its eyes are polished white orbs._
 
 - detect magic, flare (DC 17), guidance, light
 
-**Domain**
-
-**Data:** [Earth](ref/domain/earth)
+**Domain:** [Earth](ref/domain/earth)
 
 ###### D {#footnote-d}
 

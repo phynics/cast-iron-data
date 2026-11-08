@@ -144,9 +144,7 @@ talons +30 (1d6+5)
 - At will: bleed (DC 17), create water, detect magic, ghost sound, guidance, light, mage hand,
   mending, read magic, resistance, stabilize
 
-**Mystery**
-
-**Data:** [outer rifts](ref/mystery/outer-rifts)
+**Mystery:** [outer rifts](ref/mystery/outer-rifts)
 
 **Statistics**
 

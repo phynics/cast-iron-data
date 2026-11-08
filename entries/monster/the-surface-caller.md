@@ -115,9 +115,7 @@ demonic face._
 
 - At will: acid splash, arcane mark, daze (DC 13), message, open/close (DC 13), read magic
 
-**Bloodline**
-
-**Data:** [Accursed](ref/sorcbloodline/accursed)
+**Bloodline:** [Accursed](ref/sorcbloodline/accursed)
 
 **Statistics**
 

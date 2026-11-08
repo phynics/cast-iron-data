@@ -91,9 +91,7 @@ the thrill of the coming kill._
 
 - At will: bleed (DC 13), create water, detect magic, detect poison, guidance, spark, virtue
 
-**Mystery**
-
-**Data:** [battle](ref/mystery/battle)
+**Mystery:** [battle](ref/mystery/battle)
 
 ### Tactics
 

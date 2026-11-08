@@ -150,9 +150,7 @@ a crown of horns._
 
 - detect poison, guidance, purify food and drink, stabilize
 
-**Domains**
-
-**Data:** Good, Nobility
+**Domains:** Good, Nobility
 
 ###### D {#footnote-d}
 

@@ -125,9 +125,7 @@ abilities = ["18", "9", "16", "10", "20", "14"]
 
 - create water, detect poison, guidance, purify food and drink
 
-**Domains**
-
-**Data:** Evil, [Water](ref/domain/water)
+**Domains:** Evil, [Water](ref/domain/water)
 
 ###### D {#footnote-d}
 

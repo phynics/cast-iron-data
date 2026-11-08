@@ -80,9 +80,7 @@ _The dull gray skin of this dwarf ripples with kinetic power._
 
 **Spec Att:** kinetic blast
 
-**Kineticist Wild Talents Known**
-
-**Data:**
+**Kineticist Wild Talents Known:**
 _Defense_-[flesh of stone](ref/kinetic/flesh-of-stone)_Infusions_-[extended range](ref/kinetic/extended-range),
 [kinetic blade](ref/kinetic/kinetic-blade) (2d6)_Kinetic
 Blasts_-[earth blast](ref/kinetic/earth-blast)

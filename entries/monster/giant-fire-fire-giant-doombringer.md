@@ -134,9 +134,7 @@ abilities = ["31", "15", "23", "10", "16", "22"]
 - At will: bleed (DC 16), create water, detect magic, detect poison, purify food and drink,
   guidance, read magic, resistance, spark
 
-**Mystery**
-
-**Data:** [apocalypse](ref/mystery/apocalypse)
+**Mystery:** [apocalypse](ref/mystery/apocalypse)
 
 **Statistics**
 

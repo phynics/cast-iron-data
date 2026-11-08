@@ -124,9 +124,7 @@ sting +21 (1d6+3 plus poison)
 
 - create water, guidance, mending, read magic
 
-**Domain**
-
-**Data:** [Ruins](ref/druiddomain/ruins)
+**Domain:** [Ruins](ref/druiddomain/ruins)
 
 ###### D {#footnote-d}
 

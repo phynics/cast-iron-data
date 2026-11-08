@@ -97,9 +97,7 @@ abilities = ["17", "12", "10", "8", "16", "12"]
 
 - bleed (DC 13), guidance, resistance, stabilize
 
-**Domains**
-
-**Data:** Strength, Trickery
+**Domains:** Strength, Trickery
 
 ###### D {#footnote-d}
 

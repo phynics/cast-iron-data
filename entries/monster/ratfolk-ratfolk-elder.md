@@ -122,9 +122,7 @@ tail._
 
 - create water, detect poison, guidance, mending
 
-**Domains**
-
-**Data:** [Protection](ref/domain/protection), [Travel](ref/domain/travel)
+**Domains:** [Protection](ref/domain/protection), [Travel](ref/domain/travel)
 
 ###### D {#footnote-d}
 

@@ -99,9 +99,7 @@ benevolence._
 
 - detect magic, guidance, stabilize
 
-**Domains**
-
-**Data:** Good, [Healing](ref/domain/healing)
+**Domains:** Good, [Healing](ref/domain/healing)
 
 ###### D {#footnote-d}
 

@@ -117,9 +117,7 @@ and blackened stone._
 
 - detect magic, guidance, purify food and drink, stabilize
 
-**Domain**
-
-**Data:** [Arctic](ref/druiddomain/arctic)
+**Domain:** [Arctic](ref/druiddomain/arctic)
 
 ###### D {#footnote-d}
 

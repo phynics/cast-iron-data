@@ -117,9 +117,7 @@ eyes._
 
 - bleed (DC 13), detect magic, guidance, stabilize
 
-**Domains**
-
-**Data:** Law, [War](ref/domain/war)
+**Domains:** Law, [War](ref/domain/war)
 
 ###### D {#footnote-d}
 

@@ -93,9 +93,7 @@ _This muscular, fiery-skinned man has flaming hair and spotted horns upon his br
 
 - At will: acid splash, detect magic, flare (DC 14), prestidigitation
 
-**Bloodline**
-
-**Data:** [elemental](ref/sorcbloodline/elemental) (fire)
+**Bloodline:** [elemental](ref/sorcbloodline/elemental) (fire)
 
 **Statistics**
 

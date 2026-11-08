@@ -102,9 +102,7 @@ touch (by touch spell)
 
 - detect magic, mage hand, ray of frost, read magic, touch of fatigue (DC 15)
 
-**Opposition Schools**
-
-**Data:** Enchantment, Illusion
+**Opposition Schools:** Enchantment, Illusion
 
 **Statistics**
 

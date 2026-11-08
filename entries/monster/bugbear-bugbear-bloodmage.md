@@ -117,9 +117,7 @@ the thrill of the coming kill._
 - At will: acid splash, daze (DC 13), detect magic, detect poison, ghost sound (DC 13), mage hand,
   read magic, resistance, touch of fatigue (DC 13)
 
-**Bloodline**
-
-**Data:** [elemental](ref/sorcbloodline/elemental) (fire)
+**Bloodline:** [elemental](ref/sorcbloodline/elemental) (fire)
 
 ### Tactics
 

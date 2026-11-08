@@ -100,9 +100,7 @@ mouth with ill-fitting teeth._
 
 - create water, detect magic, mending, stabilize
 
-**Domains**
-
-**Data:** [Madness](ref/domain/madness), Strength
+**Domains:** [Madness](ref/domain/madness), Strength
 
 ###### D {#footnote-d}
 

@@ -108,9 +108,7 @@ abilities = ["19", "14", "27", "16", "11", "8"]
 
 - bleed (DC 13), detect magic, purify food and drink, touch of fatigue (DC 13)
 
-**Patron**
-
-**Data:** [elements](ref/patron/elements)
+**Patron:** [elements](ref/patron/elements)
 
 ### Tactics
 

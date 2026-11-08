@@ -142,9 +142,7 @@ and a coral-encrusted shield._
 
 - detect magic, guidance, light, purify food and drink
 
-**Domains**
-
-**Data:** [Oceans](ref/domain/water), [Storms](ref/domain/weather)
+**Domains:** [Oceans](ref/domain/water), [Storms](ref/domain/weather)
 
 ###### D {#footnote-d}
 

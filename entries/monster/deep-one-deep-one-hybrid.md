@@ -94,9 +94,7 @@ his bloodline._
 
 - bleed (DC 13), light, resistance
 
-**Domains**
-
-**Data:** Chaos, [Madness](ref/domain/madness)
+**Domains:** Chaos, [Madness](ref/domain/madness)
 
 ###### D {#footnote-d}
 

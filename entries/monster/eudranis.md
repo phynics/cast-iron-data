@@ -102,9 +102,7 @@ In one hand, he clutches a great blade, while his other hand holds an idol of so
 
 - bleed (DC 14), create water, detect magic, purify food and drink (DC 14)
 
-**Domains**
-
-**Data:** Chaos, [Madness](ref/domain/madness)
+**Domains:** Chaos, [Madness](ref/domain/madness)
 
 ###### D {#footnote-d}
 

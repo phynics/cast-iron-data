@@ -109,9 +109,7 @@ cold, disease, and paralysis)
 - At will: bleed (DC 14), create water, detect magic, detect poison, guidance, mending, read magic,
   resistance, spark
 
-**Mystery**
-
-**Data:** [stone](ref/mystery/stone)
+**Mystery:** [stone](ref/mystery/stone)
 
 ### Tactics
 

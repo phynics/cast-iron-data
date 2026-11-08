@@ -104,9 +104,7 @@ _Spiralling patterns cover this shadowy humanoid's skin, and its black hair trai
 
 - detect magic, ghost sound (DC 13), read magic
 
-**Opposition Schools**
-
-**Data:** necromancy, transmutation
+**Opposition Schools:** necromancy, transmutation
 
 **Statistics**
 

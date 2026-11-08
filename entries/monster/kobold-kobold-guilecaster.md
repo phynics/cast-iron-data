@@ -101,9 +101,7 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 - At will: arcane mark, daze, detect magic, open/close, prestidigitation (DC 13), resistance, spark
 
-**Bloodline**
-
-**Data:** [kobold](ref/sorcbloodline/kobold-sorcerer)
+**Bloodline:** [kobold](ref/sorcbloodline/kobold-sorcerer)
 
 **Statistics**
 

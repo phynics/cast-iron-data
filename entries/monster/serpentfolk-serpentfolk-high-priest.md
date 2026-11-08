@@ -132,9 +132,7 @@ abilities = ["10", "23", "20", "16", "22", "20"]
 
 - bleed (DC 16), detect magic, resistance, stabilize
 
-**Domains**
-
-**Data:** Evil, [War](ref/domain/war)
+**Domains:** Evil, [War](ref/domain/war)
 
 ###### D {#footnote-d}
 

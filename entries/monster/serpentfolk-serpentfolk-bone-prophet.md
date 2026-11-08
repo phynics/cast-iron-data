@@ -104,9 +104,7 @@ abilities = ["12", "19", "20", "18", "19", "20"]
 
 - At will: bleed (DC 15), detect magic, detect poison, guidance, light, resistance, stabilize
 
-**Mystery**
-
-**Data:** [bones](ref/mystery/bones)
+**Mystery:** [bones](ref/mystery/bones)
 
 ### Tactics
 

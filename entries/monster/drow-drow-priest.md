@@ -127,9 +127,7 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 - bleed (DC 14), detect magic, detect poison, read magic
 
-**Domains**
-
-**Data:** Evil, Magic
+**Domains:** Evil, Magic
 
 ###### D {#footnote-d}
 
