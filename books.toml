@@ -175061,13 +175061,29 @@ entry = "ref/class/ranger"
 title = "Ranger"
 entry = "ref/rule/class-ranger/ranger"
 
+[[books.chapters.children.children]]
+title = "Ranger (The Elephant in the Room)"
+entry = "ref/rule/class-ranger/ranger/teitr"
+
+[[books.chapters.children]]
+title = "Ranger (The Elephant in the Room)"
+entry = "ref/class/ranger/teitr"
+
 [[books.chapters.children]]
 title = "Unchained Monk"
 entry = "ref/class/unchained-monk"
 
 [[books.chapters.children]]
+title = "Unchained Monk (The Elephant in the Room)"
+entry = "ref/class/unchained-monk/teitr"
+
+[[books.chapters.children]]
 title = "Unchained Rogue"
 entry = "ref/class/unchained-rogue"
+
+[[books.chapters.children]]
+title = "Unchained Rogue (The Elephant in the Room)"
+entry = "ref/class/unchained-rogue/teitr"
 
 [[books.chapters.children]]
 title = "Agile Maneuvers"
@@ -175378,40 +175394,80 @@ title = "Agile"
 entry = "ref/magic-enh/agile"
 
 [[books.chapters.children]]
+title = "Agile (The Elephant in the Room)"
+entry = "ref/magic-enh/agile/teitr"
+
+[[books.chapters.children]]
 title = "Elven curve blade"
 entry = "ref/eq-weapon/elven-curve-blade"
+
+[[books.chapters.children]]
+title = "Elven curve blade (The Elephant in the Room)"
+entry = "ref/eq-weapon/elven-curve-blade/teitr"
 
 [[books.chapters.children]]
 title = "Rapier"
 entry = "ref/eq-weapon/rapier"
 
 [[books.chapters.children]]
+title = "Rapier (The Elephant in the Room)"
+entry = "ref/eq-weapon/rapier/teitr"
+
+[[books.chapters.children]]
 title = "Spiked chain"
 entry = "ref/eq-weapon/spiked-chain"
+
+[[books.chapters.children]]
+title = "Spiked chain (The Elephant in the Room)"
+entry = "ref/eq-weapon/spiked-chain/teitr"
 
 [[books.chapters.children]]
 title = "Whip"
 entry = "ref/eq-weapon/whip"
 
 [[books.chapters.children]]
+title = "Whip (The Elephant in the Room)"
+entry = "ref/eq-weapon/whip/teitr"
+
+[[books.chapters.children]]
 title = "Aberrant"
 entry = "ref/sorcbloodline/aberrant"
+
+[[books.chapters.children]]
+title = "Aberrant (The Elephant in the Room)"
+entry = "ref/sorcbloodline/aberrant/teitr"
 
 [[books.chapters.children]]
 title = "Abyssal"
 entry = "ref/sorcbloodline/abyssal"
 
 [[books.chapters.children]]
+title = "Abyssal (The Elephant in the Room)"
+entry = "ref/sorcbloodline/abyssal/teitr"
+
+[[books.chapters.children]]
 title = "Animal Companion"
 entry = "ref/sidekick/animal-companion"
+
+[[books.chapters.children]]
+title = "Animal Companion (The Elephant in the Room)"
+entry = "ref/sidekick/animal-companion/teitr"
 
 [[books.chapters.children]]
 title = "Aquatic"
 entry = "ref/sorcbloodline/aquatic"
 
 [[books.chapters.children]]
+title = "Aquatic (The Elephant in the Room)"
+entry = "ref/sorcbloodline/aquatic/teitr"
+
+[[books.chapters.children]]
 title = "Astral"
 entry = "ref/sorcbloodline/astral"
+
+[[books.chapters.children]]
+title = "Astral (The Elephant in the Room)"
+entry = "ref/sorcbloodline/astral/teitr"
 
 [[books.chapters.children]]
 title = "Bestiary Errata"
@@ -175422,8 +175478,16 @@ title = "Boreal"
 entry = "ref/sorcbloodline/boreal"
 
 [[books.chapters.children]]
+title = "Boreal (The Elephant in the Room)"
+entry = "ref/sorcbloodline/boreal/teitr"
+
+[[books.chapters.children]]
 title = "Celestial"
 entry = "ref/sorcbloodline/celestial"
+
+[[books.chapters.children]]
+title = "Celestial (The Elephant in the Room)"
+entry = "ref/sorcbloodline/celestial/teitr"
 
 [[books.chapters.children]]
 title = "Class Errata"
@@ -175450,16 +175514,32 @@ title = "Div"
 entry = "ref/sorcbloodline/div"
 
 [[books.chapters.children]]
+title = "Div (The Elephant in the Room)"
+entry = "ref/sorcbloodline/div/teitr"
+
+[[books.chapters.children]]
 title = "Djinni"
 entry = "ref/sorcbloodline/djinni"
+
+[[books.chapters.children]]
+title = "Djinni (The Elephant in the Room)"
+entry = "ref/sorcbloodline/djinni/teitr"
 
 [[books.chapters.children]]
 title = "Draconic"
 entry = "ref/sorcbloodline/draconic"
 
 [[books.chapters.children]]
+title = "Draconic (The Elephant in the Room)"
+entry = "ref/sorcbloodline/draconic/teitr"
+
+[[books.chapters.children]]
 title = "Dreamspun"
 entry = "ref/sorcbloodline/dreamspun"
+
+[[books.chapters.children]]
+title = "Dreamspun (The Elephant in the Room)"
+entry = "ref/sorcbloodline/dreamspun/teitr"
 
 [[books.chapters.children]]
 title = "Druid"
@@ -175470,8 +175550,16 @@ title = "Efreeti"
 entry = "ref/sorcbloodline/efreeti"
 
 [[books.chapters.children]]
+title = "Efreeti (The Elephant in the Room)"
+entry = "ref/sorcbloodline/efreeti/teitr"
+
+[[books.chapters.children]]
 title = "Elemental"
 entry = "ref/sorcbloodline/elemental"
+
+[[books.chapters.children]]
+title = "Elemental (The Elephant in the Room)"
+entry = "ref/sorcbloodline/elemental/teitr"
 
 [[books.chapters.children]]
 title = "Equipment Errata"
@@ -175482,8 +175570,16 @@ title = "Fey"
 entry = "ref/sorcbloodline/fey"
 
 [[books.chapters.children]]
+title = "Fey (The Elephant in the Room)"
+entry = "ref/sorcbloodline/fey/teitr"
+
+[[books.chapters.children]]
 title = "Ghoul"
 entry = "ref/sorcbloodline/ghoul"
+
+[[books.chapters.children]]
+title = "Ghoul (The Elephant in the Room)"
+entry = "ref/sorcbloodline/ghoul/teitr"
 
 [[books.chapters.children]]
 title = "Greater Hamstring (Combat)"
@@ -175494,12 +175590,20 @@ title = "Infernal"
 entry = "ref/sorcbloodline/infernal"
 
 [[books.chapters.children]]
+title = "Infernal (The Elephant in the Room)"
+entry = "ref/sorcbloodline/infernal/teitr"
+
+[[books.chapters.children]]
 title = "Iron Guard (Combat)"
 entry = "ref/rule/iron-guard"
 
 [[books.chapters.children]]
 title = "Marid"
 entry = "ref/sorcbloodline/marid"
+
+[[books.chapters.children]]
+title = "Marid (The Elephant in the Room)"
+entry = "ref/sorcbloodline/marid/teitr"
 
 [[books.chapters.children]]
 title = "Monk (Unchained)"
@@ -175510,12 +175614,20 @@ title = "Nanite"
 entry = "ref/sorcbloodline/nanite"
 
 [[books.chapters.children]]
+title = "Nanite (The Elephant in the Room)"
+entry = "ref/sorcbloodline/nanite/teitr"
+
+[[books.chapters.children]]
 title = "New Feats"
 entry = "ref/rule/new-feats"
 
 [[books.chapters.children]]
 title = "Oni"
 entry = "ref/sorcbloodline/oni"
+
+[[books.chapters.children]]
+title = "Oni (The Elephant in the Room)"
+entry = "ref/sorcbloodline/oni/teitr"
 
 [[books.chapters.children]]
 title = "Optional Skill/Feat Changes"
@@ -175526,12 +175638,20 @@ title = "Orc"
 entry = "ref/sorcbloodline/orc"
 
 [[books.chapters.children]]
+title = "Orc (The Elephant in the Room)"
+entry = "ref/sorcbloodline/orc/teitr"
+
+[[books.chapters.children]]
 title = "Overview"
 entry = "ref/rule/elephant-overview"
 
 [[books.chapters.children]]
 title = "Phoenix"
 entry = "ref/sorcbloodline/phoenix"
+
+[[books.chapters.children]]
+title = "Phoenix (The Elephant in the Room)"
+entry = "ref/sorcbloodline/phoenix/teitr"
 
 [[books.chapters.children]]
 title = "Powerful Maneuvers (Combat)"
@@ -175554,6 +175674,10 @@ title = "Salamander"
 entry = "ref/sorcbloodline/salamander"
 
 [[books.chapters.children]]
+title = "Salamander (The Elephant in the Room)"
+entry = "ref/sorcbloodline/salamander/teitr"
+
+[[books.chapters.children]]
 title = "Savage Charge (Combat)"
 entry = "ref/rule/savage-charge"
 
@@ -175566,8 +175690,16 @@ title = "Shadow"
 entry = "ref/sorcbloodline/shadow"
 
 [[books.chapters.children]]
+title = "Shadow (The Elephant in the Room)"
+entry = "ref/sorcbloodline/shadow/teitr"
+
+[[books.chapters.children]]
 title = "Shaitan"
 entry = "ref/sorcbloodline/shaitan"
+
+[[books.chapters.children]]
+title = "Shaitan (The Elephant in the Room)"
+entry = "ref/sorcbloodline/shaitan/teitr"
 
 [[books.chapters.children]]
 title = "Sorcerer"
@@ -175584,6 +175716,10 @@ entry = "ref/rule/unarmed-combatant"
 [[books.chapters.children]]
 title = "Weapon Encumbrance and Size"
 entry = "ref/rule/weapon-encumbrance"
+
+[[books.chapters.children]]
+title = "Weapon Encumbrance and Size (The Elephant in the Room)"
+entry = "ref/rule/weapon-encumbrance/teitr"
 
 [[books.chapters.children]]
 title = "Weapon Proficiency (Combat)"

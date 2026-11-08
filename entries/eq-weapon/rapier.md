@@ -2,7 +2,7 @@
 id = "ref/eq-weapon/rapier"
 kind = "item"
 title = "Rapier"
-source_ids = ["ultimate-equipment", "core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapier", path = "json/equipment_weapons.json" },
 ]
@@ -24,10 +24,3 @@ modifier to its damage.
 **Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/×2; **Range** -; **Type** P; **Special** -\
 **Category** One-Handed; **Proficiency** Martial\
 **[Weapon Group](ref/ability/weapon-groups)** Blades, Light
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-The rapier has the [_agile_ weapon quality](ref/rule/equipment-errata).
-
-You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when
-wielding an agile weapon sized for you, even though it isn't a [finesse](ref/rule/equipment-errata)
-weapon.

@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/oni"
 kind = "class_option"
 title = "Oni"
-source_ids = ["dragon-empires-primer", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -46,10 +46,6 @@ desires, inevitably tainting their descendents with oni blood. Now, you wield th
 (Intimidate)[Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (katana)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Combat Expertise and Power Attack with, [Deft Maneuvers](ref/rule/deft-maneuvers) and
-[Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 
