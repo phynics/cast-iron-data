@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Phantom", "See invisibility", "Dual bond"]
+alters = ["Shared consciousness"]
 +++
 
 **Sources:** Psychic Anthology pg 6\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Animal focus"]
+alters = ["Animal companion"]
 +++
 
 **Sources:** Adventurer's Guide pg 131\

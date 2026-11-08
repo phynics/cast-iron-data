@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-", "12th-", "16th-level discoveries", "Throw Anything", "Poison resistance", "poison use", "swift poisoning"]
+alters = ["Mutagen"]
 +++
 
 **Sources:** Legacy of Dragons pg 12\

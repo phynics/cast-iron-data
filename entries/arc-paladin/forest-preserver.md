@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Aura of courage", "Divine health", "Channel positive energy", "Aura of resolve", "Aura of justice", "Aura of faith"]
 +++
 
 **Sources:** Ultimate Wilderness pg 70\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spells", "Aura of sin"]
 +++
 
 **Sources:** Champions of Corruption pg 22\

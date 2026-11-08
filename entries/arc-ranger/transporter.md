@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Favored terrain", "Woodland stride"]
+alters = ["Hunter's bond"]
 +++
 
 **Sources:** Ultimate Intrigue pg 43\

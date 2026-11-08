@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Martial flexibility"]
 +++
 
 **Sources:** Ultimate Wilderness pg 42\

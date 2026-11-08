@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["6th-level phantom recall", "Ability to manifest his phantom", "ability to use emotional focus abilities that require a manifested phantom", "Etheric tether", "Bonded senses", "10th-", "14th-", "and 18th-level phantom recall", "spiritual bond", "Spiritual interference", "Fused consciousness", "Greater spiritual interference"]
+alters = ["Phantom", "emotional focus"]
 +++
 
 **Sources:** Horror Adventures pg 68\

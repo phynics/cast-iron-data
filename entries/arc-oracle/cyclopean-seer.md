@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus skills from the oracle's mystery", "Revelation gained at 1st level", "Revelation gained at 7th level", "Final revelation"]
+alters = ["Bonus spells granted by the oracle's mystery", "Revelations"]
 +++
 
 **Sources:** Inner Sea Monster Codex pg 17\

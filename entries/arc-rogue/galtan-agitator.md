@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense", "Rogue talent gained at 4th level", "Rogue talent gained at 8th level", "Rogue talent gained at 12th level"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 39\

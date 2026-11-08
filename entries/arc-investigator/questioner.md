@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alchemy", "Poison lore"]
+alters = ["Inspiration", "Investigator talents"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 26\

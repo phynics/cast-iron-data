@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Divine health", "Aura of faith"]
+alters = ["Smite evil", "Divine bond"]
 +++
 
 **Sources:** Blood of the Sea pg 15\

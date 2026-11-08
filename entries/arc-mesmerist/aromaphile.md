@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hypnotic stare", "painful stare", "towering ego", "Bold stare", "Mental potency"]
+alters = ["Touch treatment"]
 +++
 
 **Sources:** Ultimate Wilderness pg 18\

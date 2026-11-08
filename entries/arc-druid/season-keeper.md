@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trackless step", "venom immunity", "timeless body"]
+alters = ["Nature bond", "Wild shape"]
 +++
 
 **Sources:** People of the Stars pg 13\

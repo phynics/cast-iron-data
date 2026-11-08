@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Sacred armor"]
+alters = ["Blessings", "Sacred weapon"]
 +++
 
 **Sources:** Ultimate Wilderness pg 97\

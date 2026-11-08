@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "uncanny dodge", "Improved evasion", "Master strike"]
 +++
 
 **Sources:** Ultimate Intrigue pg 45\

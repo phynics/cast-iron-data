@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Domains"]
 +++
 
 **Sources:** Blood of the Ancients pg 11\

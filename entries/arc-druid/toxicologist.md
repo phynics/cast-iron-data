@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spontaneous casting", "Wild empathy", "woodland stride", "Trackless step", "resist nature's lure"]
+alters = ["Spells", "Wild shape"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 23\

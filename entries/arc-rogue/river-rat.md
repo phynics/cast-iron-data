@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense"]
 +++
 
 **Sources:** Ultimate Wilderness pg 76, People of the River pg 21\

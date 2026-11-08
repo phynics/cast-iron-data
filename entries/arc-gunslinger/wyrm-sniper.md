@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Startling shot deed", "Lightning reload deed", "Menacing shot deed"]
+alters = ["Gun training"]
 +++
 
 **Sources:** Dragonslayer's Handbook pg 23\

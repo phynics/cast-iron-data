@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spells", "blood casting", "eschew materials", "bloodline spells"]
 +++
 
 **Sources:** Advanced Class Guide pg 85\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspire competence", "Suggestion"]
 +++
 
 **Source** Ultimate Magic pg. 27, errata

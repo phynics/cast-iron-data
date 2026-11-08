@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Wild empathy", "Favored terrain", "Woodland stride", "Swift tracker", "Master hunter"]
+alters = ["Weapon and armor proficiencies"]
 +++
 
 **Sources:** Elemental Master's Handbook pg 12\

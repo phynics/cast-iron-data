@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Menacing swordplay", "Precise strike", "Targeted strike", "Bleeding wound", "Charmed life", "Nimble", "Bonus feats"]
 +++
 
 **Sources:** Planar Adventures pg 10\

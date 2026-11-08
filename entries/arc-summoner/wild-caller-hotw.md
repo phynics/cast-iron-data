@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Aspect", "Greater aspect"]
+alters = ["Summon monster"]
 +++
 
 **Sources:** Heroes of the Wild pg 25\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Well-versed", "All types of versatile performance", "Spell kenning"]
 +++
 
 **Sources:** Arcane Anthology pg 25\

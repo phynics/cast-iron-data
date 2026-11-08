@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Banner", "Greater banner"]
+alters = ["The cavalier's order"]
 +++
 
 **Sources:** Heroes of the High Court pg 12\

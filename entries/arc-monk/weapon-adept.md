@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning Fist", "Evasion", "Improved evasion", "Timeless body", "Perfect self"]
 +++
 
 **Sources:** Advanced Player's Guide pg 114\

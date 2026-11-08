@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Regain panache from a killing blow", "Bonus feats", "Menacing swordplay", "Dizzying defense"]
+alters = ["Derring-do", "swashbuckler's edge", "Panache"]
 +++
 
 **Sources:** Adventurer's Guide pg 51\

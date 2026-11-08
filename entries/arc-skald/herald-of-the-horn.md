@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "The first daily use of spell kenning gained at 5th level", "Lore master", "The second and third daily uses of spell kenning gained at 11th and 17th levels"]
 +++
 
 **Sources:** Advanced Class Guide pg 115\

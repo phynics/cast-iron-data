@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "Track", "Discern lies"]
+alters = ["Stern gaze"]
 +++
 
 **Sources:** Ultimate Magic pg 45\

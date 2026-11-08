@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect undead", "Calm spirit", "See invisibility", "Fused consciousness", "Call spirit"]
+alters = ["Phantom", "shared consciousness", "Spiritual interference", "Greater spiritual interference"]
 +++
 
 **Sources:** Heroes of Golarion pg 12\

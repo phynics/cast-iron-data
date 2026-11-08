@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "fast tracker", "Studied target", "Stalker", "slayer talent gained at 4th level", "Slayer talent gained at 8th level", "Master slayer"]
 +++
 
 **Sources:** Ultimate Wilderness pg 86\

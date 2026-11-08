@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bloodline", "all bloodline spells", "all bloodline powers", "Eschew materials", "All bloodline feats"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Occult Origins pg 23\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil"]
+alters = ["Lay on hands", "Aura of courage"]
 +++
 
 **Sources:** Cohorts and Companions pg 23\

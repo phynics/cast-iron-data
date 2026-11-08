@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mesmerist tricks gained at 4th and 8th levels", "Mental potency"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Psychic Anthology pg 18\

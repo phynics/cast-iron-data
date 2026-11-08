@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Rogue talent gained at 8th level", "Rogue talent gained at 14th level", "Master strike"]
 +++
 
 **Sources:** Legacy of the First World pg 15\

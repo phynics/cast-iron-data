@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Haunt channeler", "Location channel", "connection channel"]
 +++
 
 **Sources:** Heroes of Golarion pg 24\

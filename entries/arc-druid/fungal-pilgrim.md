@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild shape", "Wild shape", "Timeless body"]
+alters = ["Nature bond"]
 +++
 
 **Sources:** Heroes of the Darklands pg 16\

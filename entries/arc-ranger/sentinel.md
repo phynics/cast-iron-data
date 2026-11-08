@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Hunter's bond", "woodland stride", "Combat style feat gained at 6th level"]
+alters = ["Combat style feats", "Quarry", "improved quarry"]
 +++
 
 **Sources:** Ultimate Intrigue pg 42\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "5th-", "10th-", "and 15th-level bonus feats", "20th-level bonus feat"]
+alters = ["Arcane school", "alignment", "Arcane bond"]
 +++
 
 **Sources:** Horror Adventures pg 75\

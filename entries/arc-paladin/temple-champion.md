@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Divine bond", "aura of justice"]
 +++
 
 **Sources:** Advanced Class Guide pg 107\

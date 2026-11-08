@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Sacred weapon", "Sacred armor"]
+alters = ["Aspect of war"]
 +++
 
 **Sources:** Adventurer's Guide pg 157, Advanced Class Origins pg 25\

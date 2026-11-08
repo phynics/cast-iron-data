@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spell recall"]
 +++
 
 **Sources:** Advanced Race Guide pg 203\

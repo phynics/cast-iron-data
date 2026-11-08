@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Vigilante specialization", "Social talent gained at 1st level", "Vigilante talent gained at 2nd level"]
+alters = ["Dual identity"]
 +++
 
 **Sources:** Adventurer's Guide pg 42, Spymaster's Handbook pg 25\

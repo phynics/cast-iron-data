@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Charmed life", "Swashbuckler initiative", "Menacing swordplay", "Bleeding wound"]
+alters = ["Bonus feats"]
 +++
 
 **Sources:** Advanced Class Guide pg 124\

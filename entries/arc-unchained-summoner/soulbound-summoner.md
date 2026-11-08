@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Eidolon", "Life link"]
 +++
 
 **Sources:** Pathfinder \#144: Midwives to Death pg 83\

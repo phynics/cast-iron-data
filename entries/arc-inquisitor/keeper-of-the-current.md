@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Discern lies"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Blood of the Sea pg 24\

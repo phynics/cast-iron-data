@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew Potion", "Throw Anything", "Bombs", "mutagen"]
 +++
 
 **Sources:** Occult Adventures pg 112\

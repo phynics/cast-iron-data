@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The magus's ability to expend points from his arcane pool as a swift action to grant any weapon he is holding magic bonuses for 1 minute", "5th-level bonus feat", "Medium armor", "Heavy armor"]
 +++
 
 **Sources:** Advanced Race Guide pg 24\

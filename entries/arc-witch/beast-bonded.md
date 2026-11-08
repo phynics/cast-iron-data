@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["4th-level hex", "8th-level hex", "Major hex at 10th-level"]
 +++
 
 **Sources:** Ultimate Magic pg 83\

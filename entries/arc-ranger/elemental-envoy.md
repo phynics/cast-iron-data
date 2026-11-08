@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Combat style feats", "Favored terrain"]
 +++
 
 **Sources:** Disciple's Doctrine pg 5\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus fighter combat feat gained at 1st level", "Bonus feat gained at 2nd level", "Weapon training", "bonus feats gained at 8th", "12th", "16th", "and 20th level"]
+alters = ["Weapon and armor proficiency", "Skills", "Armor training"]
 +++
 
 **Sources:** Arcane Anthology pg 10\

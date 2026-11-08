@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Inspire competence", "Frightening tune", "Inspire heroics", "Mass suggestion", "Versatile performance", "Well-versed", "Jack-of-all-trades"]
 +++
 
 **Sources:** Horror Realms pg 9\

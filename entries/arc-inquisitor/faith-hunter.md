@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Domain", "justice and destruction judgments", "Detect alignment"]
+alters = ["Judgment", "Bane"]
 +++
 
 **Sources:** Ultimate Intrigue pg 28\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "the 5th- and 10th-level bonus feats", "The school ability gained at 8th level"]
+alters = ["Arcane bond", "The 1st-level arcane school ability", "Spellbook"]
 +++
 
 **Sources:** Horror Adventures pg 74\

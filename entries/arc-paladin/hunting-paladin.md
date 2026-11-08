@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level use of smite evil", "Aura of resolve"]
+alters = ["Armor proficiencies", "Detect evil", "Smite evil", "Spells"]
 +++
 
 **Sources:** Ultimate Wilderness pg 70\

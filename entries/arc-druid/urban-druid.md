@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spontaneous casting", "Woodland stride", "trackless step", "Resist nature's lure", "Venom immunity"]
 +++
 
 **Sources:** Advanced Player's Guide pg 101\

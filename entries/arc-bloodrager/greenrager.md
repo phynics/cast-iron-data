@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Blood sanctuary", "The bloodline feat gained at 6th level", "The bloodline feat at 9th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 83\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-level rogue talent", "Trap sense", "Uncanny dodge", "Improved uncanny dodge", "10th-level rogue talent"]
 +++
 
 **Sources:** Pathfinder Society Field Guide pg 27\

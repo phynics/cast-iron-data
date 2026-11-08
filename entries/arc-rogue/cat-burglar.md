@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
 **Sources:** Advanced Race Guide pg 92\

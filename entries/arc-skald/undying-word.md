@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe scroll", "lore master", "Inspired rage", "Song of strength", "Dirge of doom", "Spell kenning"]
 +++
 
 **Sources:** People of the Wastes pg 5\

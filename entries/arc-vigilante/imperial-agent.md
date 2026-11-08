@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Social talent gained at 1st level", "Unshakable", "Social talent gained at 5th level"]
 +++
 
 **Sources:** Blood of the Ancients pg 21\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Elemental form of the true spirit ability"]
+alters = ["Spirit", "spirit animal", "Hexes", "Spirit ability", "greater spirit ability"]
 +++
 
 **Sources:** Aquatic Adventures pg 51\

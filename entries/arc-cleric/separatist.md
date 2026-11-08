@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Domains"]
 +++
 
 **Sources:** Ultimate Magic pg 32\

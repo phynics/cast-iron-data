@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Still mind", "Wholeness of body", "Quivering palm"]
+alters = ["Ki pool"]
 +++
 
 **Sources:** Advanced Class Guide pg 105\

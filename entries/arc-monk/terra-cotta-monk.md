@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "High jump", "Improved evasion", "Abundant step", "Quivering palm", "Empty body"]
 +++
 
 **Sources:** Dungeoneer's Handbook pg 22\

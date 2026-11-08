@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Throw Anything", "Swift alchemy", "Swift poisoning"]
 +++
 
 **Sources:** Ultimate Magic pg 18\

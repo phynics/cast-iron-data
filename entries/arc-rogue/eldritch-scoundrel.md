@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trap sense"]
+alters = ["Armor proficiencies", "Skills", "Sneak attack progression", "Rogue talent progression", "advanced talent", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
 **Sources:** Arcane Anthology pg 23\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
 **Sources:** Technology Guide pg 13\

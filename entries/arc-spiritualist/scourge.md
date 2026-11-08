@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spiritual interference", "Devotion", "Calm spirit", "Greater spiritual interference"]
 +++
 
 **Sources:** Haunted Heroes Handbook pg 22\

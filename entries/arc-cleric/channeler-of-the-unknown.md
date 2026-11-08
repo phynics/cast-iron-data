@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Aura"]
+alters = ["Weapon and armor proficiency", "Spells", "Channel energy", "Domains", "Spontaneous casting"]
 +++
 
 **Sources:** Antihero's Handbook pg 12\

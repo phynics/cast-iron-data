@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Destruction judgment", "Detect alignment"]
+alters = ["Teamwork feats"]
 +++
 
 **Sources:** Advanced Race Guide pg 98\

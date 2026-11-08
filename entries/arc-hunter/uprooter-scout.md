@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Improved empathic link", "speak with master", "greater empathic link", "Raise animal companion", "One with the wild"]
 +++
 
 **Sources:** Advanced Class Origins pg 13\

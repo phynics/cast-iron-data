@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Mount", "weapon expertise", "banner", "greater banner", "Mounted archer", "demanding challenge", "Bonus combat feats"]
+alters = ["Challenge"]
 +++
 
 **Sources:** Heroes from the Fringe pg 13\

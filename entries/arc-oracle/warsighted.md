@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Revelations gained at 1st", "7th", "11th", "and 15th levels"]
 +++
 
 **Sources:** Advanced Class Guide pg 106\

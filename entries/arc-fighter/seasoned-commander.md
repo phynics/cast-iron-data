@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus fighter combat feat gained at 1st level", "proficiency with heavy armor and tower shields", "Armor training 1", "Weapon training 1 and 3", "Weapon training 2", "Armor training 3", "Armor training 4", "Weapon training 4"]
+alters = ["Skill ranks per level", "class skills"]
 +++
 
 **Sources:** Villain Codex pg 164\

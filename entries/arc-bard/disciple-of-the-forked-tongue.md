@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspire courage", "Inspire greatness", "Versatile performance"]
 +++
 
 **Sources:** Potions and Poisons pg 7\

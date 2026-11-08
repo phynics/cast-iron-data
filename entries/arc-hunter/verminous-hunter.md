@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Animal focus", "Woodland stride"]
+alters = ["Animal companion", "hunter tactics", "Wild empathy"]
 +++
 
 **Sources:** Advanced Class Guide pg 98\

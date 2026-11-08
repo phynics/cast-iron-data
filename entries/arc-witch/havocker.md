@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level hex", "All 2nd-level and higher hexes", "major hex", "grand hex"]
+alters = ["Familiar"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 11\

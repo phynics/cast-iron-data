@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature training", "wild empathy", "Hunter tactics", "Teamwork feats", "Raise animal companion"]
 +++
 
 **Sources:** Ultimate Wilderness pg 53, Magic Tactics Toolbox pg 14\

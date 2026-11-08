@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "2nd-level rogue talent", "Trap sense"]
 +++
 
 **Sources:** Ultimate Combat pg 73\

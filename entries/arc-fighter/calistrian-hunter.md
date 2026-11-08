@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor and weapon proficiencies", "Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "Weapon mastery"]
 +++
 
 **Sources:** Inner Sea Combat pg 36\

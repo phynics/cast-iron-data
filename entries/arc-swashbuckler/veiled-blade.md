@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Opportune parry and riposte", "Menacing swordplay", "Swashbuckler's grace", "Swashbuckler's edge"]
 +++
 
 **Sources:** Ultimate Intrigue pg 53\

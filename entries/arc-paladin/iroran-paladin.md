@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Aura of good", "Detect evil", "Smite evil", "Aura of courage", "Channel positive energy", "Divine bond", "Aura of justice"]
 +++
 
 **Sources:** Inner Sea Combat pg 39\

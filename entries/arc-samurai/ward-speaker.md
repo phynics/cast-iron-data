@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Resolve", "greater resolve", "true resolve"]
+alters = ["Honorable stand"]
 +++
 
 **Sources:** Disciple's Doctrine pg 26\

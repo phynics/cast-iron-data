@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Utility wild talent gained at 4th level", "Utility wild talents gained at 6th and 8th levels", "Utility wild talent gained at 13th level"]
 +++
 
 **Sources:** Blood of the Coven pg 22\

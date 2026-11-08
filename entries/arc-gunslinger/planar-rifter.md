@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Deadeye deed", "Dead shot deed", "Menacing shot deed", "Death's shot deed", "Nimble", "Gun training"]
+alters = ["Grit"]
 +++
 
 **Sources:** Plane-Hopper's Handbook pg 6\

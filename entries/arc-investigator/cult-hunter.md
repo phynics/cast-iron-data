@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Poison resistance", "poison immunity", "Poison lore", "Trap sense", "Swift alchemy", "The 7th-level investigator talent", "The 13th-level investigator talent"]
+alters = ["Studied combat", "Studied strike"]
 +++
 
 **Sources:** Horror Adventures pg 54\

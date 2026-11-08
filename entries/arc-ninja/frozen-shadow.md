@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Ability to treat Acrobatics jump checks as if he had a running start", "ability to reduce Acrobatics jump checks by half", "Uncanny dodge", "Improved uncanny dodge"]
+alters = ["Ki pool"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 38\

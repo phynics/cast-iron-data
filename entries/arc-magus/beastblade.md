@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magus arcana gained at 3rd level", "Spell recall", "Knowledge pool", "Improved spell recall"]
 +++
 
 **Sources:** Familiar Folio pg 8\

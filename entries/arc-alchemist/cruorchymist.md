@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "Brew Potion"]
 +++
 
 **Sources:** Construct Handbook pg 12\

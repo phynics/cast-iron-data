@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus feat gained at 2nd level", "Close weapon mastery", "The combat feat gained at 11th level"]
+alters = ["Maneuver training"]
 +++
 
 **Sources:** Ultimate Wilderness pg 43\

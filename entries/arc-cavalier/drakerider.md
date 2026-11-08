@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "tactician", "expert trainer", "banner", "greater tactician", "greater banner", "master tactician"]
+alters = ["Cavalier's charge"]
 +++
 
 **Sources:** Legacy of Dragons pg 24\

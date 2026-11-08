@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Rogue talent gained at 4th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 109\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Summon monster", "Bond senses", "Aspect", "Greater aspect"]
 +++
 
 **Sources:** Monster Summoner's Handbook pg 8\

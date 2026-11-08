@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar", "1st-level hex", "4th-level hex", "8th-level hex"]
+alters = ["Patron spells"]
 +++
 
 **Sources:** Ultimate Magic pg 84\

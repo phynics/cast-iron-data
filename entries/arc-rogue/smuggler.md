@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Evasion", "Trap sense"]
 +++
 
 **Sources:** Pirates of the Inner Sea pg 23\

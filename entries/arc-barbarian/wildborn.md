@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trap sense"]
+alters = ["The barbarian's normal weapon and armor proficiencies", "Rage powers", "Damage reduction"]
 +++
 
 **Sources:** Ultimate Wilderness pg 39\

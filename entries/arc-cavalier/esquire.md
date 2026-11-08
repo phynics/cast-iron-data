@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "Supreme charge"]
+alters = ["Banner"]
 +++
 
 **Sources:** Cohorts and Companions pg 30\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level hex", "2nd-", "8th-", "and 14th-level hexes", "4th- and 12th-level hexes", "10th-level hex", "20th-level hex"]
 +++
 
 **Sources:** Blood of the Coven pg 16\

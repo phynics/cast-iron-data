@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The discovery gained at 6th level", "The discovery gained at 12th level", "Persistent mutagen", "The discovery gained at 18th level"]
+alters = ["Bombs", "Bombs"]
 +++
 
 **Sources:** Heroes of the Darklands pg 10\

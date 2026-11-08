@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Expert trainer"]
+alters = ["Armor proficiency", "Mount"]
 +++
 
 **Sources:** Aquatic Adventures pg 53\

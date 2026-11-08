@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Well-versed", "Song of strength", "song of the fallen", "rage power gained at 18th level", "Spell kenning", "Rage power gained at 6th level"]
 +++
 
 **Sources:** Ultimate Wilderness pg 85\

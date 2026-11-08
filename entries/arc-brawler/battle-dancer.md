@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brawler's cunning", "AC bonus", "Knockout"]
+alters = ["The brawler's armor proficiencies", "Brawler's flurry"]
 +++
 
 **Sources:** Martial Arts Handbook pg 4\

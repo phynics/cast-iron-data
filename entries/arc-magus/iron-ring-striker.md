@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Medium armor", "heavy armor", "Knowledge pool", "Counterstrike"]
+alters = ["Weapon proficiency", "Spellcasting", "Arcane pool", "Spellstrike", "5th-level bonus feat"]
 +++
 
 **Sources:** Martial Arts Handbook pg 5\

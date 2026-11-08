@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spontaneous casting", "Resist nature's lure", "Wild Shape", "Venom immunity", "a thousand faces", "timeless body", "Wildshape (at will)"]
 +++
 
 **Sources:** Advanced Race Guide pg 196\

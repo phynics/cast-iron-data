@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Favored enemy", "master hunter", "Wild empathy", "Hunter's bond"]
+alters = ["Combat style feat"]
 +++
 
 **Sources:** Blood of the Beast pg 9\

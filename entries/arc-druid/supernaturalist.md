@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "trackless step", "resist nature's lure", "Wild shape", "Nature bond", "Wild empathy"]
+alters = ["Weapon and armor proficiencies"]
 +++
 
 **Sources:** Occult Origins pg 21\

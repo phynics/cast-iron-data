@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Smite evil", "Channel positive energy", "Aura of justice", "Holy champion"]
 +++
 
 **Sources:** Ultimate Combat pg 65\

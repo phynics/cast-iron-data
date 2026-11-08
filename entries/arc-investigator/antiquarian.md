@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "Swift alchemy"]
+alters = ["Alchemy (including Extracts)"]
 +++
 
 **Sources:** Blood of the Ancients pg 16\

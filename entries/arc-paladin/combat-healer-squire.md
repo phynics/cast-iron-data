@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "Divine grace", "Divine health"]
 +++
 
 **Sources:** Knights of the Inner Sea pg 20\

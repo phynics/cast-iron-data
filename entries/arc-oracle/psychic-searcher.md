@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The bonus spells gained at 4th", "6th", "8th", "12th", "16th", "and 18th levels from the oracle's mystery", "Mystery spell gained at 2nd level", "Revelation gained at 3rd level"]
+alters = ["Revelations gained after 3rd level"]
 +++
 
 **Sources:** Advanced Class Guide pg 106\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon proficiencies", "Trapfinding", "Trap sense", "rogue talent gained at 6th level", "Uncanny dodge", "improved uncanny dodge"]
+alters = ["Sneak attack"]
 +++
 
 **Sources:** People of the Wastes pg 13\

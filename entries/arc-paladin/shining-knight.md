@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Divine health", "Aura of justice"]
+alters = ["Divine bond"]
 +++
 
 **Sources:** Advanced Player's Guide pg 117\

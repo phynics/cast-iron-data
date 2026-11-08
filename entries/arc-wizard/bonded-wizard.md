@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "5th- and 15th-level bonus feats", "10th-level bonus feat"]
+alters = ["Arcane bond"]
 +++
 
 **Sources:** Cohorts and Companions pg 17\

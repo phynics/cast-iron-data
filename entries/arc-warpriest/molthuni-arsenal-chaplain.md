@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Sacred armor", "Channel energy"]
+alters = ["Blessing", "Sacred weapon"]
 +++
 
 **Sources:** Weapon Master's Handbook pg 6\

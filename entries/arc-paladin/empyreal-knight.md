@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Divine grace", "Mercy", "Lay on hands", "channel positive energy", "Holy champion"]
+alters = ["Divine bond"]
 +++
 
 **Sources:** Ultimate Combat pg 62\

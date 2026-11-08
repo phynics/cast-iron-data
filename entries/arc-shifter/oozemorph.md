@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Chimeric aspect", "greater chimeric aspect", "wild shape", "shifter aspect", "Shifter claws", "Defensive instinct", "Woodland stride"]
+alters = ["Wild empathy"]
 +++
 
 **Source** Ultimate Wilderness pg. 81, official Paizo FAQ\

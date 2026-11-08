@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Class skills", "Domains", "armor proficiencies"]
 +++
 
 **Sources:** Monster Summoner's Handbook pg 7\

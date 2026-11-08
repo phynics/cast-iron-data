@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Abilities the spirit animal gains from the shaman's chosen spirit", "Hex gained at 8th level", "Hexes gained at 4th and 12th levels"]
+alters = ["Spirit magic", "Hexes"]
 +++
 
 **Sources:** People of the Wastes pg 7\

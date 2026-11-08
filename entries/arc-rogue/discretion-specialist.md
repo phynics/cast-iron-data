@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense (for a core rogue)", "danger sense (for an unchained rogue)", "Rogue talents gained at 4th and 12th levels", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
 **Sources:** Antihero's Handbook pg 25\

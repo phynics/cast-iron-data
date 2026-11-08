@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The fighter's 2nd-level bonus feat", "Armor training", "The fighter's 6th-level bonus feat"]
 +++
 
 **Sources:** Pirates of the Inner Sea pg 22\

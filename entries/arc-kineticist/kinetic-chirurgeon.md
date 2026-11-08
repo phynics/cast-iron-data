@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Infusions", "Metakinesis", "infusion specialization"]
+alters = ["Internal buffer"]
 +++
 
 **Sources:** Occult Adventures pg 90\

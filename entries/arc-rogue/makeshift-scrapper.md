@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense", "Rogue talent gained at 12th level"]
 +++
 
 **Sources:** Melee Tactics Toolbox pg 15\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter tactics", "The teamwork feat gained at 3rd level", "Woodland stride", "The teamwork feat gained at 6th level", "Swift tracker", "The teamwork feat gained at 9th level", "The teamwork feat gained at 12th level", "The teamwork feat gained at 15th level", "The teamwork feat gained at 18th level"]
 +++
 
 **Sources:** People of the Wastes pg 20\

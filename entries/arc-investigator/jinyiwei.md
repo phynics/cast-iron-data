@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alchemy", "Trapfinding", "Trap sense", "Swift alchemy"]
+alters = ["Inspiration"]
 +++
 
 **Sources:** Blood of the Ancients pg 21\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Judgment", "Discern lies", "second judgment", "third judgment", "slayer", "true judgment"]
 +++
 
 **Sources:** Monster Summoner's Handbook pg 7\

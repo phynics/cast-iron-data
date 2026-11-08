@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Gunsmith", "Deadeye", "Quick clear", "Utility shot", "Startling shot", "Expert loading", "Lightning reload", "Menacing shot", "Gun training"]
+alters = ["Weapon proficiencies", "Grit"]
 +++
 
 **Sources:** Advanced Class Guide pg 94\

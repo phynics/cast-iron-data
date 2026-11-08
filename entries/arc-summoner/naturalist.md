@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Summon monster I", "Shield ally", "greater shield ally", "Aspect", "Life bond", "Greater aspect"]
 +++
 
 **Sources:** Advanced Class Guide pg 123\

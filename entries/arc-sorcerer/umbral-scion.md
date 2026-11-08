@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level bloodline power", "7th-level bloodline feat", "13th-level bloodline feat"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Blood of Shadows pg 19\

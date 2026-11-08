@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trap sense", "6th-level rage power"]
+alters = ["Rage power"]
 +++
 
 **Sources:** Ultimate Wilderness pg 38\

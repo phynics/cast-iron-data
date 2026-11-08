@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trackless step", "resist nature's lure", "Venom immunity", "timeless body"]
 +++
 
 **Sources:** Ultimate Combat pg 43\

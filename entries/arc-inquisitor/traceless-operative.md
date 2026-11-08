@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "stern gaze", "Track", "Bane", "Greater bane"]
 +++
 
 **Sources:** Ultimate Intrigue pg 30\

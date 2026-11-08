@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 6th", "10th", "12th", "16th", "and 18th levels from the oracle's mystery"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 42\

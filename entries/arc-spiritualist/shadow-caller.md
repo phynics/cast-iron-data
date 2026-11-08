@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shared consciousness", "Etheric tether", "Phantom recall", "See invisibility", "Fused consciousness", "Empowered consciousness"]
+alters = ["Spellcasting", "Phantom"]
 +++
 
 **Sources:** Ultimate Intrigue pg 50\

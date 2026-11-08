@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Maker's call", "Transposition", "Greater shield ally"]
 +++
 
 **Sources:** Ultimate Magic pg 79\

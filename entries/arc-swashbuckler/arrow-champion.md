@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Opportune parry and riposte", "Swashbuckler initiative", "Superior feint", "Swashbuckler weapon training"]
+alters = ["Panache", "Precise strike", "Swashbuckler weapon mastery"]
 +++
 
 **Sources:** Ultimate Wilderness pg 95\

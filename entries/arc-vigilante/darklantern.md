@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level social talent", "Vigilante talent gained at 4th level"]
+alters = ["Dual identity"]
 +++
 
 **Sources:** Heroes of the Darklands pg 11\

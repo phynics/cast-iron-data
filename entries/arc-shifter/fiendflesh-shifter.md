@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild shape", "shifter aspect", "Defensive instinct", "Chimeric aspect", "Greater chimeric aspect"]
+alters = ["Alignment", "Shifter claws"]
 +++
 
 **Sources:** Ultimate Wilderness pg 80\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["3rd-level mercy"]
+alters = ["Smite evil", "Aura of justice"]
 +++
 
 **Sources:** Monster Hunter's Handbook pg 18\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Tactician", "greater tactician", "master tactician", "cavalier bonus feats", "Supreme charge"]
 +++
 
 **Sources:** Ultimate Combat pg 37\

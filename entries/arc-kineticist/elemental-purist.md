@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Expanded element", "11th- and 19th-level infusions", "Omnikinesis"]
 +++
 
 **Sources:** Planes of Power pg 7\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Still mind", "Slow fall", "Ki pool", "Purity of body", "diamond body", "perfect self", "Wholeness of body", "timeless body", "tongue of sun and moon", "Abundant step", "Diamond soul", "Empty body"]
+alters = ["Quivering palm"]
 +++
 
 **Sources:** Ultimate Combat pg 59\

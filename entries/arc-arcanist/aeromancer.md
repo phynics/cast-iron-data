@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The arcane exploit gained at 1st level", "The arcane exploit gained at 5th level", "The arcane exploit gained at 11th level"]
 +++
 
 **Sources:** Blood of the Ancients pg 26\

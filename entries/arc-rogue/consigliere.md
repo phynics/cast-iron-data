@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "evasion", "Uncanny dodge", "improved uncanny dodge", "Trap sense", "Rogue talent normally gained at 10th level"]
 +++
 
 **Sources:** Ultimate Intrigue pg 44\

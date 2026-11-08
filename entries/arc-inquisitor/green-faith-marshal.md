@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stern gaze", "Monster lore", "Discern lies", "Stalwart"]
+alters = ["Domain"]
 +++
 
 **Sources:** Ultimate Wilderness pg 141, Heroes of the Wild pg 24\

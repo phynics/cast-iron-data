@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hexes gained at 4th and 12th levels", "Hex gained at 8th level", "Hex gained at 10th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 113\

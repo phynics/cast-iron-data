@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Mounted charge", "Banner", "Greater banner"]
 +++
 
 **Sources:** Dragon Empires Primer pg 22\

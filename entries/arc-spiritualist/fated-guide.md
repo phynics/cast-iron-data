@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Phantom's antagonistic ability", "See invisibility", "Call spirit"]
+alters = ["Bonded manifestation"]
 +++
 
 **Sources:** Occult Origins pg 18\

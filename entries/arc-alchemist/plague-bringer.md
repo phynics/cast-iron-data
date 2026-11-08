@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "Poison resistance", "poison immunity"]
 +++
 
 **Sources:** Advanced Race Guide pg 153\

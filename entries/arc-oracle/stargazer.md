@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 2nd", "4th", "6th", "8th", "and 18th levels from the oracle's mystery"]
 +++
 
 **Sources:** Ultimate Magic pg 59\

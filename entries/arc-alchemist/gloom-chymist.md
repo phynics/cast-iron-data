@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bomb", "Poison resistance", "poison use", "swift poisoning"]
 +++
 
 **Sources:** Blood of Shadows pg 18\

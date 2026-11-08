@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
 **Sources:** Ultimate Wilderness pg 77\

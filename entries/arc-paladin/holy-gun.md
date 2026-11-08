@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "Smite evil", "Divine bond"]
+alters = ["Holy champion"]
 +++
 
 **Sources:** Ultimate Combat pg 63\

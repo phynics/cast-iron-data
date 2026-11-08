@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level hex", "6th-level hex", "10th-level hex"]
+alters = ["Patron spells"]
 +++
 
 **Sources:** Ultimate Wilderness pg 89\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Song of marching", "damage reduction", "Dirge of doom"]
+alters = ["Weapon and armor proficiencies", "Inspired rage"]
 +++
 
 **Sources:** Heroes of the Streets pg 25\

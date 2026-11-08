@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Dodging panache", "Kip-up", "Subtle blade"]
+alters = ["Derring-do", "swashbuckler's edge"]
 +++
 
 **Sources:** Ultimate Wilderness pg 96\

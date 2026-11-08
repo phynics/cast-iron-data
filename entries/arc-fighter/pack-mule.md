@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The bonus feat gained at 1st level", "Bravery", "Armor training 1 through 4", "Armor mastery"]
+alters = ["The fighter's skill ranks per level"]
 +++
 
 **Sources:** Black Markets pg 26\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Martial flexibility"]
+alters = ["Bonus combat feats"]
 +++
 
 **Sources:** People of the Wastes pg 8\

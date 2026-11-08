@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Countersong", "Inspire competence", "Lore master"]
 +++
 
 **Sources:** Heroes of the High Court pg 6\

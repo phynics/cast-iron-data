@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nimble", "The bonus feat gained at 4th level", "Startling shot deed", "Bleeding wound deed"]
 +++
 
 **Sources:** Heroes of the High Court pg 8\

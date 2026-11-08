@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar", "2nd-level hex"]
 +++
 
 **Sources:** The Harrow Handbook pg 15\

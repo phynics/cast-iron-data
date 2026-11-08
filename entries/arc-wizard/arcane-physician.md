@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane school", "Scribe scroll"]
 +++
 
 **Sources:** Healer's Handbook pg 6\

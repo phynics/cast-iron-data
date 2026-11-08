@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Aura of cowardice", "Fiendish boon", "Aura of despair", "Aura of vengeance"]
 +++
 
 **Sources:** Inner Sea Combat pg 43\

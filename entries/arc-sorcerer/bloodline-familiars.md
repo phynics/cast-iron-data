@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level bloodline power"]
 +++
 
 **Sources:** Familiar Folio pg 16\

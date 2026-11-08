@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Patron", "6th-level hex"]
+alters = ["Familiar"]
 +++
 
 **Sources:** Planar Adventures pg 16\

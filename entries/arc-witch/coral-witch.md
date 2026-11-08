@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["8th-level hex"]
+alters = ["Familiar", "Hex"]
 +++
 
 **Sources:** Blood of the Sea pg 22\

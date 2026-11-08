@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["4th-level discipline spell", "7th-level phrenic amplification", "Telepathic bond", "Telepathy"]
+alters = ["Phrenic amplifications"]
 +++
 
 **Sources:** Occult Adventures pg 107\

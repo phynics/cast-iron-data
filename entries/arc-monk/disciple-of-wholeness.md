@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The ability to spend ki to gain an extra attack during a flurry of blows", "Purity of body", "Diamond body", "Diamond soul"]
+alters = ["Ki pool"]
 +++
 
 **Sources:** Healer's Handbook pg 4\

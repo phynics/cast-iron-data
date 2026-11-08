@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nimble", "Deadeye deed", "Gunslinger initiative deed", "The gunslinger's normal bonus feats"]
 +++
 
 **Sources:** Inner Sea Combat pg 45\

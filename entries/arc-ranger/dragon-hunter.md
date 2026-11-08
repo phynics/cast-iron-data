@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "5th-level favored enemy", "10th-level favored enemy", "15th-level favored enemy", "20th-level favored enemy"]
 +++
 
 **Sources:** Dragonslayer's Handbook pg 22\

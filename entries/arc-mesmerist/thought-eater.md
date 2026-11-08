@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "Towering ego", "Touch treatment", "Rule minds"]
 +++
 
 **Sources:** Ultimate Intrigue pg 38\

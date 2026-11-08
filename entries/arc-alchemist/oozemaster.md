@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew Potion", "Poison resistance", "poison immunity"]
 +++
 
 **Sources:** Monster Hunter's Handbook pg 17\

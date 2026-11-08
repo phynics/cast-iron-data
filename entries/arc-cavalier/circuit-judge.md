@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Tactician", "greater tactician", "master tactician", "Challenge", "Demanding challenge"]
 +++
 
 **Sources:** Path of the Hellknight pg 32\

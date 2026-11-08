@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["High jump", "wholeness of body", "abundant step", "empty body", "the ability to spend ki points to do anything other than what's described below"]
+alters = ["Ki pool"]
 +++
 
 **Sources:** Horror Realms pg 12\

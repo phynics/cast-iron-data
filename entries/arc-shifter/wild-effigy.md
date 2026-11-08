@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "track", "woodland stride", "trackless step", "Defensive instinct"]
 +++
 
 **Sources:** Construct Handbook pg 15\

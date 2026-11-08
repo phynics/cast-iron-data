@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect undead", "calm spirit", "see invisibility", "call spirit"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Occult Adventures pg 109\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Dodging panache", "Superior feint", "Subtle blade", "Charmed life"]
 +++
 
 **Sources:** Ultimate Intrigue pg 52\

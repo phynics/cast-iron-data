@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bombs", "Poison resistance +4", "Poison resistance +6", "Poison immunity", "15th-level bomb damage increase", "17th-level bomb damage increase"]
 +++
 
 **Sources:** Ultimate Magic pg 19\

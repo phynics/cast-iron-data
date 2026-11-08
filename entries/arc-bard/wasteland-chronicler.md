@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Inspire competence"]
 +++
 
 **Sources:** People of the Wastes pg 25\

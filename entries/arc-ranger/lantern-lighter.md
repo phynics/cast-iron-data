@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Endurance", "Woodland stride", "8th-level favored terrain", "Camouflage", "Favored terrain gained at 13th level", "Hide in plain sight", "Favored terrain gained at 18th level"]
+alters = ["Spells", "Favored terrain"]
 +++
 
 **Sources:** Adventurer's Guide pg 113, Inner Sea Intrigue pg 42\

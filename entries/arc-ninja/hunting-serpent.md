@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["No trace", "Uncanny dodge", "improved uncanny dodge", "ninja tricks gained at 12th and 16th levels", "Ninja trick gained at 10th level"]
 +++
 
 **Sources:** Villain Codex pg 104\

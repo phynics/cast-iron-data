@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Deadeye deed", "Utility shot deed", "Dead shot deed", "Targeting deed"]
+alters = ["Gunsmith"]
 +++
 
 **Sources:** People of the Wastes pg 12\

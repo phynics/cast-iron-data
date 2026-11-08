@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Cavalier's charge", "Expert trainer", "Banner", "Mighty charge", "Greater banner", "Supreme charge"]
+alters = ["Mount"]
 +++
 
 **Sources:** Advanced Race Guide pg 122\

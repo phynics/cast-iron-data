@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison use", "Spend ki to make an additional attack", "No trace"]
+alters = ["Weapon and armor proficiency", "Ki pool"]
 +++
 
 **Sources:** Disciple's Doctrine pg 20\

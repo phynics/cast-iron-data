@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspire competence", "Dirge of doom", "Versatile performance", "well-versed"]
 +++
 
 **Sources:** Bastards of Golarion pg 15\

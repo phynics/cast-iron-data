@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Versatile performance"]
 +++
 
 **Sources:** Guide to the River Kingdoms pg 40\

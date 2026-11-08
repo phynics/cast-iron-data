@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew Potion", "Throw Anything", "Poison use"]
+alters = ["Discoveries", "Bombs", "Bombs"]
 +++
 
 **Sources:** Villain Codex pg 236\

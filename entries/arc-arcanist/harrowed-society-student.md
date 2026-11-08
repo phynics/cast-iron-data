@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The 1st-level arcanist exploit", "Consume spells", "The 9th-level arcanist exploit"]
 +++
 
 **Sources:** Occult Origins pg 22\

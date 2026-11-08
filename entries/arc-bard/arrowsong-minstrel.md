@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "dirge of doom", "distraction", "fascinate", "inspire competence", "lore master", "soothing performance", "The versatile performance gained at 2nd level", "well-versed", "Suggestion", "mass suggestion"]
+alters = ["Weapon proficiencies", "Spellcasting"]
 +++
 
 **Sources:** Arcane Anthology pg 30\

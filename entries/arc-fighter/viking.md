@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bravery", "Armor training", "Weapon training"]
+alters = ["Weapon and armor proficiencies", "The fighter's bonus feats"]
 +++
 
 **Sources:** Ultimate Wilderness pg 51, People of the North pg 24\

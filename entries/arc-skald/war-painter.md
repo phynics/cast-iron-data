@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spell kenning", "Lore master"]
+alters = ["Raging song"]
 +++
 
 **Sources:** Blood of the Beast pg 10\

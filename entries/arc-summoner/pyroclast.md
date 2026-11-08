@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Maker's call", "Transposition"]
+alters = ["Spells"]
 +++
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 72\

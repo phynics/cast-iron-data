@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Fascinate", "Dirge of doom"]
 +++
 
 **Sources:** Monster Codex pg 128\

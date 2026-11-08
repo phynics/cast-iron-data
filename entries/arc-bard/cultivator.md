@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Countersong", "Well-versed"]
+alters = ["The bard's spells", "Lore master"]
 +++
 
 **Sources:** Ultimate Wilderness pg 40\

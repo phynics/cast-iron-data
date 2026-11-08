@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild shape", "A thousand faces"]
 +++
 
 **Sources:** Ultimate Intrigue pg 26\

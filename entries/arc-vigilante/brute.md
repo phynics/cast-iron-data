@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Vigilante specialization", "Vengeance strike"]
+alters = ["Dual identity", "Base saving throws", "Armor and weapon proficiencies", "Vigilante talents"]
 +++
 
 **Sources:** Ultimate Intrigue pg 54\

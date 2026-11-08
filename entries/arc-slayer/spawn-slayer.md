@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The ability to study an opponent as a swift action at 7th level", "Stalker", "Master slayer"]
+alters = ["Studied target"]
 +++
 
 **Sources:** Blood of the Ancients pg 24\

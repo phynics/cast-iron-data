@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Deadeye", "Quick clear", "Expert loading", "Gun training"]
 +++
 
 **Sources:** Technology Guide pg 13\

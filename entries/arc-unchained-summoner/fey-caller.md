@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Summon monster"]
 +++
 
 **Sources:** Ultimate Intrigue pg 71\

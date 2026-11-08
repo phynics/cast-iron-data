@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Armor training", "proficiency with heavy armor and shields"]
+alters = ["Weapon training"]
 +++
 
 **Sources:** Planar Adventures pg 14\

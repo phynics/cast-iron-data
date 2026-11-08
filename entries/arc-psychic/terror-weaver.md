@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect thoughts", "Telepathic bond", "11th- and 19th-level phrenic amplifications", "15th-level phrenic amplification"]
 +++
 
 **Sources:** Heroes from the Fringe pg 26\

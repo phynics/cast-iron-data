@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense (core rogue)", "danger sense (unchained rogue)"]
 +++
 
 **Sources:** Potions and Poisons pg 4\

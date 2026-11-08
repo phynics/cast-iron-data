@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Tactician", "Expert trainer", "Greater tactician", "Demanding challenge", "Greater tactician"]
+alters = ["Banner"]
 +++
 
 **Sources:** Armor Master's Handbook pg 5\

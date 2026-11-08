@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "2nd-level discovery", "Poison resistance", "poison use", "poison immunity", "The discovery gained at 4th level", "Persistent mutagen"]
+alters = ["Bombs"]
 +++
 
 **Sources:** Ultimate Wilderness pg 35, Heroes of the Wild pg 24\

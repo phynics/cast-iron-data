@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Haunt channeler"]
+alters = ["Spirit", "Spirit surge", "Taboo"]
 +++
 
 **Sources:** Villain Codex pg 212\

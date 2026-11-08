@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Precise companion", "Hunter tactics", "the hunter's bonus teamwork feats", "Bonus tricks"]
+alters = ["Animal companion", "Animal focus"]
 +++
 
 **Sources:** Ultimate Intrigue pg 64\

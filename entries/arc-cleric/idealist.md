@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Spontaneous casting", "Channel energy"]
 +++
 
 **Sources:** Planar Adventures pg 15\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The monk's normal bonus feats", "Stunning Fist", "Evasion", "Maneuver training", "Still mind", "Purity of body", "Improved evasion", "Diamond body", "Tongue of the sun and moon"]
+alters = ["Flurry of blows", "Ki pool"]
 +++
 
 **Sources:** Advanced Player's Guide pg 115\

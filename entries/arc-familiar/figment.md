@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Improved evasion", "Deliver touch spells", "speak with animals of its kind", "scry on familiar"]
 +++
 
 **Sources:** Ultimate Wilderness pg 211, Familiar Folio pg 10\

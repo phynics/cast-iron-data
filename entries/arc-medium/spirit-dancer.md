@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit bonus", "spirit surge", "Shared seance", "Trance of three", "Spacious soul", "Astral beacon"]
+alters = ["Spirit"]
 +++
 
 **Sources:** Occult Adventures pg 94\

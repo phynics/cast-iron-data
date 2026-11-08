@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Favored enemy", "Woodland stride", "Camouflage"]
 +++
 
 **Sources:** Dragon Empires Primer pg 23\

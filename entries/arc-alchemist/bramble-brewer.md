@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "The 2nd-level discovery"]
 +++
 
 **Sources:** Advanced Race Guide pg 44\

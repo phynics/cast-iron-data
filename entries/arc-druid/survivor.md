@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Resist nature's lure", "Wild shape", "Venom immunity"]
+alters = ["Spellcasting", "Nature bond"]
 +++
 
 **Sources:** Champions of Balance pg 24\

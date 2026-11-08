@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "poison lore", "poison resistance", "poison immunity", "trap sense", "Swift alchemy", "investigator talent gained at 9th level", "Investigator talents gained at 3rd and 11th levels", "Investigator talent gained at 7th level"]
+alters = ["Class skills", "inspiration", "Studied strike", "the investigator talent gained at 5th level"]
 +++
 
 **Sources:** Ultimate Intrigue pg 32\

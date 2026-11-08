@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Versatile performance", "Inspire courage", "suggestion"]
+alters = ["Weapon and armor proficiency"]
 +++
 
 **Sources:** Blood of the Ancients pg 30\

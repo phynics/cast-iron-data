@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiency", "Swashbuckler finesse", "Menacing swordplay", "Superior feint", "Bleeding wound", "Dizzying defense"]
+alters = ["Panache", "Bonus feats"]
 +++
 
 **Sources:** Martial Arts Handbook pg 11\

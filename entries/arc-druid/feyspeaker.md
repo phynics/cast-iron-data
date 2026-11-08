@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "The druid's proficiency with medium armor"]
+alters = ["Spellcasting", "Base attack bonus", "class skills", "skills ranks per level", "Wild shape"]
 +++
 
 **Sources:** Ultimate Intrigue pg 26\

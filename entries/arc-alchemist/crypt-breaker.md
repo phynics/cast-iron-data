@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bombs", "Mutagen", "Brew potion", "Persistent mutagen"]
 +++
 
 **Sources:** Inner Sea Magic pg 33\

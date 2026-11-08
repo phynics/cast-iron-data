@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Domains", "Aura"]
 +++
 
 **Sources:** Divine Anthology pg 15\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["4th-level discovery"]
+alters = ["Discovery", "Discovery"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 14\

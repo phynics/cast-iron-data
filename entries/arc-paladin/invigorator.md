@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Smite evil", "Aura of justice", "Holy champion"]
 +++
 
 **Sources:** Healer's Handbook pg 24\

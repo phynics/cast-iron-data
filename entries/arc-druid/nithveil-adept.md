@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spontaneous casting", "Resist nature's lure"]
+alters = ["Nature bond"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 44\

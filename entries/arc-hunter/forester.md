@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Precise companion", "Hunter tactics", "Improved empathic link", "Animal companion", "Bonus tricks", "Raise animal companion", "Speak with master", "Greater empathic link"]
+alters = ["Animal focus"]
 +++
 
 **Sources:** Ultimate Wilderness pg 52\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "Improved uncanny dodge", "Indomitable will"]
 +++
 
 **Sources:** People of the River pg 6\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Slayer talent gained at 2nd level", "Stalker"]
 +++
 
 **Sources:** Haunted Heroes Handbook pg 15\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison use", "Poison resistance +4", "Poison immunity"]
 +++
 
 **Sources:** Ultimate Magic pg 18\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "Touch treatment (minor)", "Touch treatment (moderate)", "Touch treatment (greater)", "Touch treatment (break enchantment)"]
+alters = ["Painful stare"]
 +++
 
 **Sources:** Horror Adventures pg 60\

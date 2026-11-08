@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Dodging panache", "Kip-up", "Menacing swordplay", "Targeted strike", "Perfect thrust", "Swashbuckler weapon training", "Swashbuckler weapon mastery"]
+alters = ["Panache", "Bleeding wound"]
 +++
 
 **Sources:** Advanced Class Guide pg 124\

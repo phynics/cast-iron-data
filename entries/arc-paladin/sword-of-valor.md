@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Divine grace", "6th-level mercy", "Aura of justice"]
 +++
 
 **Sources:** Inner Sea Magic pg 39\

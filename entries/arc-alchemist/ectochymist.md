@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bombs", "Poison resistance", "Poison use", "Swift poisoning", "The 8th-level alchemist discovery", "Poison immunity"]
 +++
 
 **Sources:** Occult Adventures pg 112\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "Poison resistance", "Investigator talents gained at 3rd and 9th levels"]
+alters = ["Studied strike"]
 +++
 
 **Sources:** Heroes of Golarion pg 18\

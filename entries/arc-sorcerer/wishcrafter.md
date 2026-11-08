@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bloodline arcana", "All bloodline spells", "7th-level bloodline feat", "13th-level bloodline feat", "19th-level bloodline feat"]
 +++
 
 **Sources:** Advanced Race Guide pg 128\

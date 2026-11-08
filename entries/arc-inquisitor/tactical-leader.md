@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stern gaze", "Solo tactics", "teamwork feats", "Exploit weakness"]
 +++
 
 **Sources:** Ultimate Intrigue pg 29\

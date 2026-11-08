@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Slayer talent gained at 2nd level", "Slayer talent gained at 4th level", "Slayer talents gained at 6th", "8th", "12th", "14th", "16th", "18th", "and 20th levels", "Slayer talent gained at 10th level"]
+alters = ["Weapon and armor proficiency", "Studied target"]
 +++
 
 **Sources:** People of the Wastes pg 27\

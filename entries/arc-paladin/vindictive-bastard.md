@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "Smite evil", "Divine grace", "Lay on hands", "Divine health", "Mercy", "channel energy", "Divine bond", "Aura of justice", "Aura of faith", "Aura of righteousness", "Holy champion"]
+alters = ["Aura"]
 +++
 
 **Sources:** Antihero's Handbook pg 14\

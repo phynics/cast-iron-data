@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nimble", "4th-level bonus feat", "Swashbuckler weapon training"]
+alters = ["Weapon and armor proficiency", "Swashbuckler finesse"]
 +++
 
 **Sources:** Advanced Class Guide pg 126\

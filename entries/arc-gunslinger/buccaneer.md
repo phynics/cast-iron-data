@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Quick clear deed", "Pistol whip deed", "Dead shot deed", "Lightning reload deed", "Nimble", "Gun training 1", "Gun training 2", "Gun training 3", "Gun training 4"]
+alters = ["Grit"]
 +++
 
 **Sources:** Advanced Race Guide pg 73\

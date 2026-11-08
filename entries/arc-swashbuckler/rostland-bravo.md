@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Menacing swordplay", "Superior feint", "Bleeding wound", "Swashbuckler's edge"]
+alters = ["Armor proficiencies"]
 +++
 
 **Sources:** Adventurer's Guide pg 23\

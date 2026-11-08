@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Channel energy"]
+alters = ["Domains"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 23\

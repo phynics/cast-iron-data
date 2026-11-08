@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter's bond", "6th-level combat style feat", "Camouflage"]
 +++
 
 **Sources:** Advanced Player's Guide pg 124\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "stern gaze", "Cunning initiative", "Teamwork feats", "Solo tactics"]
+alters = ["Domain", "Spellcasting"]
 +++
 
 **Sources:** Horror Adventures pg 52\

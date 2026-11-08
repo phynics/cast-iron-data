@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bloodline arcana", "1st-level bloodline power", "7th-level bloodline feat", "13th-level bloodline feat", "19th-level bloodline feat"]
 +++
 
 **Sources:** Dragonslayer's Handbook pg 22\

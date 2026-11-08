@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Channel energy"]
 +++
 
 **Sources:** Advanced Race Guide pg 15\

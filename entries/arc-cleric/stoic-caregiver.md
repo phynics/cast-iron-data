@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Channel energy", "Domains"]
 +++
 
 **Sources:** Healer's Handbook pg 6\

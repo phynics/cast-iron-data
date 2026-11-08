@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "improved uncanny dodge", "damage reduction", "Dirge of doom"]
+alters = ["Bardic knowledge"]
 +++
 
 **Sources:** Ultimate Intrigue pg 48\

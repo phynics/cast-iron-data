@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Domain", "Monster lore", "Discern lies"]
 +++
 
 **Sources:** Haunted Heroes Handbook pg 14\

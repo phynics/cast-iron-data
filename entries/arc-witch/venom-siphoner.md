@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level hex", "the familiar's alertness special ability", "2nd-level hex", "6th-level hex"]
 +++
 
 **Sources:** Potions and Poisons pg 10\

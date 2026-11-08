@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Slam damage increase gained at 5th level", "Devotion", "Slam damage increase gained at 13th level", "Spiritual interference", "Greater spiritual interference"]
+alters = ["Alignment", "Bonded manifestation", "Shared consciousness", "Share spells"]
 +++
 
 **Sources:** Horror Adventures pg 69\

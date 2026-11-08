@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spellstrike", "Medium armor", "heavy armor"]
 +++
 
 **Sources:** Adventurer's Guide pg 59\

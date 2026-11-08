@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride", "trackless step", "resist nature's lure", "The additional use of wild shape at 6th level", "The additional use of wild shape at 8th level"]
+alters = ["Wild shape"]
 +++
 
 **Sources:** Advanced Class Guide pg 92\

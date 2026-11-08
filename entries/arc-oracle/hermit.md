@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The bonus spells gained at 4th", "8th", "12th", "and 16th levels from the oracle's mystery"]
 +++
 
 **Sources:** Legacy of the First World pg 22\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Touch of corruption", "Cruelty", "Channel negative energy", "Fiendish boon"]
 +++
 
 **Sources:** Armor Master's Handbook pg 4\

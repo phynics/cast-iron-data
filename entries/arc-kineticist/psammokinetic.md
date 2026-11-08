@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Elemental overflow"]
+alters = ["Elemental focus", "Expanded element"]
 +++
 
 **Sources:** Heroes from the Fringe pg 6\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The 1st-level fighter bonus feat", "Bravery", "The 4th-level fighter bonus feat", "Weapon training 1", "3", "and 4", "Weapon training 2"]
+alters = ["Weapon mastery"]
 +++
 
 **Sources:** Advanced Race Guide pg 104\

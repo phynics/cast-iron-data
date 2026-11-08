@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level hex", "All spells granted by the witch's patron"]
 +++
 
 **Sources:** Arcane Anthology pg 25\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Lay on hands", "Mercy", "Aura of faith"]
 +++
 
 **Sources:** Plane-Hopper's Handbook pg 18\

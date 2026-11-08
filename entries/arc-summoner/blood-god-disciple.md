@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Summon monster I", "III", "V", "VII", "and IX", "Summon monster II", "Summon monster IV", "Summon monster VI and VIII spell-like"]
 +++
 
 **Sources:** Advanced Race Guide pg 53\

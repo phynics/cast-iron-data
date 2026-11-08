@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Slayer talent gained at 2nd level", "Stalker", "Swift tracker"]
+alters = ["Studied target"]
 +++
 
 **Sources:** Blood of the Coven pg 26\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spell recall", "Improved spell recall"]
 +++
 
 **Sources:** Blood of the Coven pg 27\

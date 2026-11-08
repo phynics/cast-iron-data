@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magical symbol that identifies the summoner and his eidolon"]
+alters = ["Eidolon"]
 +++
 
 **Sources:** Advanced Race Guide pg 110\

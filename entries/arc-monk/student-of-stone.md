@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "Fast movement", "High jump", "Improved evasion", "Abundant step"]
+alters = ["Bonus feats"]
 +++
 
 **Sources:** Advanced Race Guide pg 146\

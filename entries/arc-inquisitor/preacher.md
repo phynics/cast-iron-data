@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Solo tactics"]
+alters = ["Teamwork feats"]
 +++
 
 **Sources:** Ultimate Magic pg 46\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The bloodrager's armor proficiency", "Fast movement", "Uncanny dodge", "Improved uncanny dodge", "Damage reduction"]
 +++
 
 **Sources:** Advanced Class Guide pg 85\

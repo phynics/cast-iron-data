@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "divine grace", "Aura of justice"]
+alters = ["Spellcasting", "smite evil", "lay on hands", "Class skills", "skill ranks per level", "Smite evil", "Lay on hands", "channel energy", "divine bond", "aura of courage", "aura of resolve", "aura of faith", "aura of righteousness", "Lay on hands", "mercy"]
 +++
 
 **Sources:** Horror Adventures pg 65\

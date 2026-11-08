@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Mounted archer", "Bonus feats gained at 6th", "12th", "and 18th level"]
 +++
 
 **Sources:** Legacy of Dragons pg 14\

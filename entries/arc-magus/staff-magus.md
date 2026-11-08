@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Medium armor", "heavy armor", "Fighter training"]
 +++
 
 **Sources:** Ultimate Magic pg 49\

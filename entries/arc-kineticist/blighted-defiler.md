@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Internal buffer", "Elemental defense", "Omnikinesis"]
+alters = ["Alignment", "Gather power", "The key ability score of wild talents", "elemental overflow"]
 +++
 
 **Sources:** Ultimate Wilderness pg 62\

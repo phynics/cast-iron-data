@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Domains", "Proficiency with medium armor and shields - she retains proficiency with light armor only", "An 8th-level domain power of the Varisian pilgrim's choice"]
 +++
 
 **Sources:** Inner Sea Magic pg 42\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Stalker", "Swift tracker", "slayer's advance"]
+alters = ["Sneak attack"]
 +++
 
 **Sources:** Ultimate Wilderness pg 87\

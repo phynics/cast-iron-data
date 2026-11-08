@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
+alters = ["Weapon proficiencies"]
 +++
 
 **Sources:** Adventurer's Guide pg 75\

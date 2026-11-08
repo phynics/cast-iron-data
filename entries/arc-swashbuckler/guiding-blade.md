@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus feats", "1st-", "7th-", "and 15th-level deeds", "Nimble", "Kip-up"]
+alters = ["Panache", "Charmed life"]
 +++
 
 **Sources:** Ultimate Intrigue pg 52\

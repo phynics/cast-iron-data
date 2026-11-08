@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Proficiency with the rapier and whip", "Bardic knowledge", "Lore master", "Dirge of doom"]
+alters = ["Bardic performance"]
 +++
 
 **Sources:** Inner Sea Magic pg 34\

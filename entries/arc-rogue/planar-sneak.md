@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trap sense", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
 **Sources:** Planes of Power pg 8\

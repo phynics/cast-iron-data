@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Vigilante specialization", "Vigilante talent gained at 6th level", "Vigilante talent gained at 12th level"]
+alters = ["Dual identity", "Vengeance strike"]
 +++
 
 **Sources:** Ultimate Intrigue pg 58\

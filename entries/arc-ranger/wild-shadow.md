@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter's bond", "Woodland stride", "Quarry", "Camouflage", "Improved quarry"]
+alters = ["Track", "wild empathy", "Favored terrain"]
 +++
 
 **Sources:** Advanced Race Guide pg 45\

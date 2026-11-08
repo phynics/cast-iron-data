@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit magic spells gained from the shaman's spirit", "Hex gained at 2nd level", "Hex gained at 10th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 112\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Monster lore", "Cunning initiative", "Judgment", "Bane", "greater bane", "second judgment", "third judgment", "True judgment"]
+alters = ["Orisons", "spellcasting"]
 +++
 
 **Sources:** Horror Adventures pg 53\

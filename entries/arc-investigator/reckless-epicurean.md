@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Investigator talent gained at 5th level", "Investigator talent gained at 13th level"]
+alters = ["Poison resistance", "poison immunity"]
 +++
 
 **Sources:** Potions and Poisons pg 14\

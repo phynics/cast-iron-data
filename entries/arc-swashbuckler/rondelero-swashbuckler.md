@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Derring-do", "Kip-up", "Bleeding wound", "Perfect thrust"]
+alters = ["Charmed life"]
 +++
 
 **Sources:** Weapon Master's Handbook pg 6\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Domains"]
 +++
 
 **Sources:** Dirty Tactics Toolbox pg 16\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon proficiencies", "Stunning fist", "fast movement", "Evasion", "purity of body", "improved evasion", "Slow fall", "still mind", "Wholeness of body", "diamond body"]
+alters = ["Alignment requirements", "Bonus feat", "Ki pool"]
 +++
 
 **Sources:** Villain Codex pg 92\

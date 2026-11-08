@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Domain", "Teamwork feat gained at 6th level", "Exploit weakness"]
 +++
 
 **Sources:** Ultimate Magic pg 46\

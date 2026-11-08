@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Deadeye deed", "Dead shot deed", "Bonus feats gained at 4th", "8th", "12th", "16th", "and 20th levels", "Gun training"]
+alters = ["Gunsmith", "Grit"]
 +++
 
 **Sources:** Elemental Master's Handbook pg 4\

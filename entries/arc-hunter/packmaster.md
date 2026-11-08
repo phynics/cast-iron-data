@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Animal companion", "Animal focus", "Second animal focus", "Master hunter"]
+alters = ["Precise companion", "woodland stride", "teamwork feats", "Teamwork feats"]
 +++
 
 **Sources:** Advanced Class Guide pg 96\

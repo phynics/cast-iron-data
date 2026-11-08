@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit surge", "Haunt channeler", "Location channel", "Connection channel"]
 +++
 
 **Sources:** Adventurer's Guide pg 182\

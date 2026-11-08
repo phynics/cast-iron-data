@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Heavy Armor Proficiency", "Aura of courage", "Divine bond", "6th-level mercy", "Aura of resolve", "Aura of justice", "Aura of righteousness"]
 +++
 
 **Sources:** Ultimate Combat pg 62\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Resist nature's lure", "Wild shape"]
+alters = ["Bonus languages"]
 +++
 
 **Sources:** Blood of the Sea pg 25\

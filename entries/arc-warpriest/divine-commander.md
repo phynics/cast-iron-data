@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Blessings", "Bonus feat gained at 3rd level", "Bonus feat gained at 6th level", "Bonus feat gained at 12th level", "Bonus feat gained at 15th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 129\

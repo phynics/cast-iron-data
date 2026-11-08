@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Versatile performance"]
 +++
 
 **Sources:** Healer's Handbook pg 19\

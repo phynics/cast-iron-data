@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["6th-level mercy", "Aura of justice", "12th-level mercy"]
 +++
 
 **Sources:** Horror Adventures pg 65\

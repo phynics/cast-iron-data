@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Countersong", "distraction", "Bardic knowledge", "Well-versed", "Versatile performance", "Lore master"]
 +++
 
 **Sources:** Adventurer's Guide pg 50\

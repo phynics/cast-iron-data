@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane bond"]
 +++
 
 **Sources:** Advanced Race Guide pg 25\

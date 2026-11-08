@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spellcasting ability"]
 +++
 
 **Sources:** Ultimate Magic pg 65\

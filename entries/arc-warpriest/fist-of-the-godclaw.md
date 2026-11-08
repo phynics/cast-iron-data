@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus feat gained at 3rd level", "Bonus feats gained at 6th level and 12th level", "Aspect of war"]
+alters = ["Blessings"]
 +++
 
 **Sources:** Disciple's Doctrine pg 12\

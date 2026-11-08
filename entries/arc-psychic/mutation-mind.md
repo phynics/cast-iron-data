@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level phrenic amplification"]
+alters = ["Phrenic amplifications", "Major amplifications"]
 +++
 
 **Sources:** Occult Adventures pg 105\

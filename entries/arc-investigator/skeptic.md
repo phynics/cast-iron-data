@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Poison resistance", "Swift alchemy", "Investigator talent gained at 7th level"]
 +++
 
 **Sources:** Haunted Heroes Handbook pg 11\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Familiar", "2nd-level hex", "6th-level hex"]
 +++
 
 **Sources:** Qadira, Jewel of the East pg 14\

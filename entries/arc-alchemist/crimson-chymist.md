@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Mutagen", "Discovery"]
 +++
 
 **Sources:** Adventurer's Guide pg 156\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew Potion", "Poison use", "The alchemist's 4th-level discovery"]
 +++
 
 **Sources:** Dungeoneer's Handbook pg 21\

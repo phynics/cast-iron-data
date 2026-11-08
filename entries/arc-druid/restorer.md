@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature sense", "Spontaneous casting", "Resist nature's lure", "A thousand faces"]
 +++
 
 **Sources:** Healer's Handbook pg 22\

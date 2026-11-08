@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The trapfinding", "poison lore", "poison resistance", "Trap sense"]
 +++
 
 **Sources:** Construct Handbook pg 13\

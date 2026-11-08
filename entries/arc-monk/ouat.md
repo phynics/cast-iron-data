@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "and the greed and hatred dwarf racial traits", "The defensive training", "stonecunning", "and weapon familiarity dwarf racial traits", "Wholeness of body"]
 +++
 
 **Sources:** Inner Sea Combat pg 41\

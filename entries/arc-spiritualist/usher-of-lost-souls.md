@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonded senses", "Spiritual interference", "greater spiritual interference", "See invisibility", "Spiritual bond"]
 +++
 
 **Sources:** Psychic Anthology pg 7\

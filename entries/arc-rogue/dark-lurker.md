@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "Rogue talent gained at 2nd level", "Rogue talent gained at 8th level", "Rogue talent gained at 14th level", "Rogue talent gained at 20th level"]
 +++
 
 **Sources:** Heroes of the Streets pg 26\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Endurance", "Favored terrain", "Camouflage", "hide in plain sight"]
+alters = ["6th-level combat style feat"]
 +++
 
 **Sources:** People of the Stars pg 8\

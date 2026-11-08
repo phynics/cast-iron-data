@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Throw anything", "Mutagen", "Bombs", "Poison resistance", "Poison use"]
+alters = ["Alchemy"]
 +++
 
 **Sources:** Distant Realms pg 52\

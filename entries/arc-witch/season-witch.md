@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["Patron", "1st-level hex"]
 +++
 
 **Sources:** Ultimate Wilderness pg 90\

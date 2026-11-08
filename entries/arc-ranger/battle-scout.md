@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd favored enemy", "3rd favored enemy", "4th favored enemy", "Master hunter"]
+alters = ["Hunter's bond"]
 +++
 
 **Sources:** Ultimate Combat pg 66\

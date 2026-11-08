@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride"]
+alters = ["Animal companion", "Animal focus"]
 +++
 
 **Sources:** Aquatic Adventures pg 54\

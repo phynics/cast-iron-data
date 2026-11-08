@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Evasion", "Slow fall", "Improved evasion", "Quivering palm"]
 +++
 
 **Sources:** Ultimate Wilderness pg 64\

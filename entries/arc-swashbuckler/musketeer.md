@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon proficiencies", "Swashbuckler finesse", "Dodging panache"]
 +++
 
 **Sources:** Advanced Class Guide pg 126\

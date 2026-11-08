@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shield ally", "greater shield ally", "Aspect", "Greater aspect", "Twin eidolon"]
 +++
 
 **Sources:** Advanced Race Guide pg 146\

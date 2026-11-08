@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Channel energy", "Bonus feat gained at 6th level"]
+alters = ["Bonus feats"]
 +++
 
 **Sources:** Advanced Class Guide pg 129\

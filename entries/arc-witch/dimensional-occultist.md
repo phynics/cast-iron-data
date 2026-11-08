@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-level hex", "8th-level hex", "12th-level hex"]
 +++
 
 **Sources:** Pathfinder Society Field Guide pg 28\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspire greatness", "Bardic knowledge", "well-versed", "Lore master"]
 +++
 
 ## Plant Speaker (Vine Leshy only)

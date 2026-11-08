@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Domain", "Teamwork feat gained at 3rd level"]
+alters = ["Spells"]
 +++
 
 **Sources:** Blood of the Beast pg 4\

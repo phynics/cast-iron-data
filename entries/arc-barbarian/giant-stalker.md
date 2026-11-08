@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Uncanny dodge", "Trap sense"]
+alters = ["Rage"]
 +++
 
 **Sources:** Adventurer's Guide pg 130\

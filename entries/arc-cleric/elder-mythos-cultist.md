@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spontaneous casting", "Increases to channel energy gained at 5th", "11th", "and 19th levels"]
+alters = ["Alignment", "Domains", "Channel energy"]
 +++
 
 **Sources:** Horror Adventures pg 48\

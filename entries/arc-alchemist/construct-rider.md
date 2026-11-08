@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Brew Potion", "mutagen", "the discovery gained at 4th level"]
 +++
 
 **Sources:** Cohorts and Companions pg 12\

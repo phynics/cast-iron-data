@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning fist", "Bonus feat gained at 10th level", "Abundant step"]
+alters = ["Bonus feats"]
 +++
 
 **Sources:** Martial Arts Handbook pg 23\

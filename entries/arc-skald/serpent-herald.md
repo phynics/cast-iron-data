@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Rage power gained at 3rd level", "Spell kenning"]
 +++
 
 **Sources:** Legacy of the First World pg 28\

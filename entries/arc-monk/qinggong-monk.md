@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The monk class abilities the qinggong monk gives up for a ki power"]
 +++
 
 **Sources:** Ultimate Magic pg 51, Martial Arts Handbook pg 21, Advanced Race Guide pg 149\

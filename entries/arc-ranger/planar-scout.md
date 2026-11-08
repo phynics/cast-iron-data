@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter's bond", "Evasion", "improved evasion"]
+alters = ["Wild empathy", "Favored terrain"]
 +++
 
 **Sources:** Planar Adventures pg 17\

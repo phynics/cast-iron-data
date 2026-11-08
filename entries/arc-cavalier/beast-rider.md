@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "expert trainer"]
 +++
 
 **Sources:** Ultimate Combat pg 36\

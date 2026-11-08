@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Eidolon", "Summon monster I", "shield ally", "Bond senses"]
 +++
 
 **Sources:** Ultimate Magic pg 80\

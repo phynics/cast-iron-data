@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Flurry of blows", "Still mind", "Slow fall", "Purity of body", "Diamond body", "Quivering palm"]
 +++
 
 **Sources:** Ultimate Combat pg 58\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Phantom's emotional focus", "Detect undead", "Additional uses of calm spirit available at 11th", "15th", "and 19th levels"]
+alters = ["Spellcasting", "Phantom", "Bonded manifestation"]
 +++
 
 **Sources:** Adventurer's Guide pg 167\

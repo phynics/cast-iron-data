@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "speak with master", "Improved empathic link", "One with the wild"]
+alters = ["Animal focus"]
 +++
 
 **Sources:** Legacy of the First World pg 13\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit animal", "Spirit magic spells gained from the shaman's spirit", "Wandering spirit", "Wandering hex"]
 +++
 
 **Sources:** Adventurer's Guide pg 145\

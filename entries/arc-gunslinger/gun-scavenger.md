@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Quick clear deed", "Targeting deed", "Nimble"]
+alters = ["Gunsmith"]
 +++
 
 **Sources:** Inner Sea Combat pg 38\

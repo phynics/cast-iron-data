@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride"]
+alters = ["Animal focus"]
 +++
 
 **Sources:** Ultimate Wilderness pg 55, Advanced Class Origins pg 13\

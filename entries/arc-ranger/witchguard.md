@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter's bond", "Endurance", "Woodland stride"]
 +++
 
 **Sources:** People of the North pg 25\

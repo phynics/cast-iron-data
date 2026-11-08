@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shield ally", "greater shield ally", "Maker's call", "transposition"]
+alters = ["Eidolon"]
 +++
 
 **Sources:** Elemental Master's Handbook pg 16\

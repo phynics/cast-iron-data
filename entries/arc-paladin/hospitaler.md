@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Channel positive energy", "Aura of justice"]
+alters = ["Smite evil"]
 +++
 
 **Sources:** Advanced Player's Guide pg 116\

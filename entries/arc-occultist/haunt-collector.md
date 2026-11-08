@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Aura sight", "Outside contact", "Magic circles", "binding circles", "fast circles"]
+alters = ["Implements"]
 +++
 
 **Sources:** Horror Adventures pg 62\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shield ally", "greater shield ally", "Maker's call", "transposition", "Merge forms"]
 +++
 
 **Sources:** Legacy of the First World pg 18\

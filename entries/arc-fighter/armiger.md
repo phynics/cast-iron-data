@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus feats gained at 1st and 10th levels", "Bravery"]
+alters = ["Bonus feats", "Class skills", "skill points per level"]
 +++
 
 **Sources:** Adventurer's Guide pg 94\

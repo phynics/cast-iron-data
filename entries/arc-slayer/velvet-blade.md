@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Swift tracker"]
+alters = ["Armor proficiency", "Studied target"]
 +++
 
 **Sources:** Ultimate Intrigue pg 70\

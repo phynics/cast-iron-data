@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Judgment", "Domain", "bane", "greater bane", "second judgment", "third judgment"]
+alters = ["Spellcasting"]
 +++
 
 **Sources:** Occult Adventures pg 119\

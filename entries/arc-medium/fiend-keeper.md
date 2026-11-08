@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Haunt channeler", "location channel", "connection channel", "ask the spirits"]
+alters = ["Spirit"]
 +++
 
 **Sources:** Blood of the Beast pg 8\

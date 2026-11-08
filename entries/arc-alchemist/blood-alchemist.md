@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "Bombs"]
 +++
 
 **Sources:** Horror Adventures pg 44\

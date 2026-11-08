@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Knacks", "Outside contact", "Magic circles", "Binding circles", "Fast circles"]
+alters = ["Spells", "Implements", "Mental focus", "Implements", "weapon and armor proficiencies", "Implement mastery"]
 +++
 
 **Sources:** Heroes of the High Court pg 29\

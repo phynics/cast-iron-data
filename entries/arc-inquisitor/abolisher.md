@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stern gaze", "Detect alignment", "Discern lies"]
+alters = ["Domains", "Bane"]
 +++
 
 **Sources:** Monster Hunter's Handbook pg 7\

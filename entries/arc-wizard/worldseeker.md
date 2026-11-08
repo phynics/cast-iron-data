@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "The school ability normally gained at 6th or 8th level", "5th-level bonus feat", "15th-level bonus feat"]
+alters = ["Arcane bond"]
 +++
 
 **Sources:** Planar Adventures pg 21\

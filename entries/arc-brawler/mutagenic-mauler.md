@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Martial flexibility", "AC bonus"]
 +++
 
 **Sources:** Advanced Class Guide pg 86\

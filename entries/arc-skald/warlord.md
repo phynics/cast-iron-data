@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll feat", "Well-versed", "Spell kenning", "Lore master", "Improved uncanny dodge"]
 +++
 
 **Sources:** Ultimate Intrigue pg 49\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Sneak attack", "Stalker", "swift tracker", "quarry", "Improved quarry"]
+alters = ["Studied target", "Slayer talents"]
 +++
 
 **Sources:** Heroes of the High Court pg 24\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect undead", "calm spirit", "see invisibility", "call spirit", "Bonded senses", "fused consciousness"]
+alters = ["Phantom"]
 +++
 
 **Sources:** Ultimate Intrigue pg 51\

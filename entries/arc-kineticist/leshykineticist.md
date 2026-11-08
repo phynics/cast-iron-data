@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["6th- and 10th-level utility wild talents", "maximize metakinesis", "Omnikinesis"]
+alters = ["Element", "expanded element", "Basic phytokinesis", "Internal buffer"]
 +++
 
 **Sources:** Ultimate Wilderness pg 23\

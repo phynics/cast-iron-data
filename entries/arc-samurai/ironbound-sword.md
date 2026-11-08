@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon expertise", "Banner", "Greater banner"]
 +++
 
 **Sources:** Blood of the Ancients pg 20\

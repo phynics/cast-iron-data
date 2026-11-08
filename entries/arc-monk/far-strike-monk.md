@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Stunning Fist", "Still mind", "Purity of body", "Diamond body"]
+alters = ["Flurry of blows"]
 +++
 
 **Sources:** Ranged Tactics Toolbox pg 9\

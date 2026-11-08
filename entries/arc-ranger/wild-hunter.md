@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Favored enemy", "Woodland stride", "swift tracker"]
 +++
 
 **Sources:** Advanced Class Guide pg 108\

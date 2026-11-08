@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature bond", "Woodland stride", "Nature sense", "Resist nature's lure", "The normal wild shape options gained at 12th level"]
 +++
 
 **Sources:** Blood of the Beast pg 21\

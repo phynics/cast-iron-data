@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "Poison resistance +2", "poison use", "poison resistance +4", "Swift poisoning", "Poison resistance +6", "Poison immunity", "Persistent mutagen"]
 +++
 
 **Sources:** Inner Sea Intrigue pg 46\

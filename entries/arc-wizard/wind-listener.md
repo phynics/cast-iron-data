@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane bond", "5th-level bonus feat", "10th-level bonus feat", "15th-level bonus feat"]
 +++
 
 **Sources:** Advanced Race Guide pg 158\

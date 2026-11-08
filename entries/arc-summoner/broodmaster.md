@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Eidolon", "Life link", "Life bond", "Merge forms"]
 +++
 
 **Sources:** Ultimate Magic pg 78\

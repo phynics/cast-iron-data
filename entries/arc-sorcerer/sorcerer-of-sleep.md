@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bloodline arcana", "Eschew materials", "1st-level bloodline power"]
 +++
 
 **Sources:** Black Markets pg 26\

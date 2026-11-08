@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spellcasting"]
 +++
 
 **Sources:** Weapon Master's Handbook pg 7\

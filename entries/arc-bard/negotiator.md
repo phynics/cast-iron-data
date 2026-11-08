@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Inspire courage", "Inspire greatness", "Versatile performance", "Lore master"]
 +++
 
 **Sources:** Champions of Balance pg 18\

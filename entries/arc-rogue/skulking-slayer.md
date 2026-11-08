@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense +1 and +4", "Trap sense +2", "Trap sense +3"]
 +++
 
 **Sources:** Advanced Race Guide pg 55\

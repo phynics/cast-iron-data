@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Phantom", "phantom recall", "spiritual bond", "dual bond", "Etheric tether", "shared consciousness", "fused consciousness", "empowered consciousness", "Bonded senses", "Bonded manifestation", "Spiritual interference", "greater spiritual interference"]
+alters = ["Weapon", "armor proficiency"]
 +++
 
 **Sources:** Psychic Anthology pg 4\

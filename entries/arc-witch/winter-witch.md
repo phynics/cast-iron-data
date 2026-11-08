@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["4th-level hex"]
 +++
 
 **Sources:** Reign of Winter Player's Guide pg 11, Inner Sea Magic pg 43\

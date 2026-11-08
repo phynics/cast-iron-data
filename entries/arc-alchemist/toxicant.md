@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "Persistent mutagen"]
 +++
 
 **Sources:** Dirty Tactics Toolbox pg 7\

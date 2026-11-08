@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Weapon and armor proficiencies", "Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "Supreme charge"]
 +++
 
 **Sources:** Advanced Class Guide pg 90\

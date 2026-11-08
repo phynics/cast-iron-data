@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+alters = ["The cleric's armor proficiencies", "Alignment", "Channel energy", "domains"]
 +++
 
 **Sources:** Adventurer's Guide pg 112\

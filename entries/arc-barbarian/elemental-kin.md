@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trap sense"]
 +++
 
 **Sources:** Advanced Player's Guide pg 78\

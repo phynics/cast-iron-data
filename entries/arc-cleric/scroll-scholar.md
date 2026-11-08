@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["One of the 1st-level granted powers from her domains - the character gets to choose which of her two 1st-level granted powers it replaces", "Channel energy damage boost at 5th level", "The normal addition of a new 4th-level spell slot to the character's spells per day"]
 +++
 
 **Sources:** Pathfinder Society Field Guide pg 26\

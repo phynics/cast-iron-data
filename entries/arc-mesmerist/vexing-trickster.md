@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Consummate liar", "Towering ego", "Touch treatment (minor)", "touch treatment (greater)", "Touch treatment (moderate)", "touch treatment (break enchantment)"]
 +++
 
 **Sources:** Psychic Anthology pg 19\

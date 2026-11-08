@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Favored terrain", "Woodland stride", "Swift tracker", "camouflage", "Hide in plain sight"]
+alters = ["Favored enemy"]
 +++
 
 **Sources:** People of the River pg 25\

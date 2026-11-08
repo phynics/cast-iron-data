@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Suggestion", "Lore master", "Mass suggestion"]
 +++
 
 **Sources:** Pirates of the Inner Sea pg 22\

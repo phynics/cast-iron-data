@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["7th-level bomb damage increase", "13th-level bomb damage increase", "15th-level bomb damage increase"]
+alters = ["Bombs"]
 +++
 
 **Sources:** Ultimate Magic pg 20\

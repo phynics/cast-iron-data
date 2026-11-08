@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The 1st-level infusion", "The 5th-level infusion", "The 6th-level utility wild talent", "The 8th-level utility wild talent", "The 9th-level infusion", "The 11th-level infusion", "Omnikinesis"]
+alters = ["Expanded element"]
 +++
 
 **Sources:** Occult Adventures pg 88\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "Swift alchemy"]
 +++
 
 **Sources:** Healer's Handbook pg 11\

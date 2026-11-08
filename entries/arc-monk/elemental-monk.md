@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alignment requirement", "All bonus feats", "stunning fist", "Evasion", "purity of body", "diamond body"]
+alters = ["Ki pool"]
 +++
 
 **Sources:** Disciple's Doctrine pg 4\

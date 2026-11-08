@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus feat gained at 1st level", "Bonus feat the invested regent gives up for the vested power"]
 +++
 
 **Sources:** Heroes of the High Court pg 22\

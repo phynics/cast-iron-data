@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Elemental overflow", "Elemental defense", "5th-", "9th-", "and 13th-level infusions"]
+alters = ["Kinetic blast", "Key ability scores of wild talents"]
 +++
 
 **Sources:** Occult Adventures pg 90\

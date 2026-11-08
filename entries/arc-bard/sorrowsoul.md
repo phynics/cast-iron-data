@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Soothing performance", "versatile performance", "Well-versed", "Lore master"]
+alters = ["Bardic performance"]
 +++
 
 **Sources:** Ultimate Intrigue pg 22\

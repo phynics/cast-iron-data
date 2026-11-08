@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "Uncanny dodge", "Rogue talent gained at 6th level", "Improved uncanny dodge"]
 +++
 
 **Sources:** Potions and Poisons pg 12\

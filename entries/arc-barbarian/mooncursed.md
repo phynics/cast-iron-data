@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Improved uncanny dodge", "Greater rage", "Mighty rage"]
+alters = ["Rage"]
 +++
 
 **Sources:** Horror Adventures pg 47\

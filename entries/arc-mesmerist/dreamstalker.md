@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["1st-level mesmerist trick", "Towering ego", "Manifold tricks", "Glib lie"]
+alters = ["Painful stare", "Mesmerist tricks", "Touch treatment"]
 +++
 
 **Sources:** Horror Adventures pg 60\

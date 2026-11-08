@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Hunter's bond", "Camouflage"]
 +++
 
 **Sources:** Advanced Player's Guide pg 129\

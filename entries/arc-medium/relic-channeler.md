@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Haunt channeler", "Location channel"]
+alters = ["Spirit", "Spirit", "Connection channel"]
 +++
 
 **Sources:** Occult Adventures pg 93\

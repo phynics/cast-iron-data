@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Wild empathy", "Resist nature's lure", "Venom immunity"]
 +++
 
 **Sources:** Monster Codex pg 224\

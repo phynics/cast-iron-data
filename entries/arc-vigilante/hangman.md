@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd-level vigilante talent", "Unshakable", "4th-level vigilante talent", "Startling appearance", "Frightening appearance", "Stunning appearance"]
+alters = ["Weapon and armor proficiencies", "Vigilante specialization"]
 +++
 
 **Sources:** Horror Adventures pg 70\

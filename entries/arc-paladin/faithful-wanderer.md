@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect evil", "Aura of good", "aura of justice", "Smite evil", "Holy champion"]
+alters = ["Skills per level", "Aura of courage", "aura of resolve", "aura of faith", "aura of righteousness", "Divine bond"]
 +++
 
 **Sources:** People of the Wastes pg 18\

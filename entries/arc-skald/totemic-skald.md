@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Rage power gained at 3rd level", "Uncanny dodge", "improved uncanny dodge", "Spell kenning"]
 +++
 
 **Sources:** Advanced Class Guide pg 117\

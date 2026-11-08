@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "Inspired rage", "song of strength", "dirge of doom", "Versatile performance", "well-versed", "Lore master", "Master skald"]
 +++
 
 **Sources:** Heroes from the Fringe pg 12\

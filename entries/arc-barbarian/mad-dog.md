@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["2nd", "6th", "10th", "14th", "and 18th level rage powers", "Uncanny dodge", "Improved uncanny dodge", "Indomitable will"]
+alters = ["Rage"]
 +++
 
 **Sources:** Animal Archive pg 7\

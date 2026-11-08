@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense"]
+alters = ["Sneak attack"]
 +++
 
 **Sources:** Ultimate Combat pg 72\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Channel positive energy", "Divine bond", "Aura of resolve", "Aura of justice"]
+alters = ["Smite evil"]
 +++
 
 **Sources:** Blood of Shadows pg 18\

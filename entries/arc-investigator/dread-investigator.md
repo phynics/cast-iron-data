@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison lore", "Poison resistance", "immunity", "Investigator talents gained at 7th", "13th", "and 19th level"]
+alters = ["Inspiration", "studied combat", "studied strike"]
 +++
 
 **Sources:** Cohorts and Companions pg 14\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Smiting judgment", "Bane", "greater bane"]
+alters = ["True judgment"]
 +++
 
 **Sources:** Advanced Race Guide pg 128\

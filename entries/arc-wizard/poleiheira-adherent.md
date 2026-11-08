@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Arcane bond", "Arcane school"]
 +++
 
 **Sources:** Blood of the Ancients pg 18\

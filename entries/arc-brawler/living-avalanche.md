@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus feats gained at 2nd and 5th levels", "The brawler's AC bonus", "Awesome blow", "Improved awesome blow"]
+alters = ["Maneuver training"]
 +++
 
 **Sources:** Ultimate Wilderness pg 42\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison use", "Swift poisoning", "Poison immunity"]
 +++
 
 **Sources:** Ultimate Combat pg 25\

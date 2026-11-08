@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Resist nature's lure", "Daily use of wild shape at 6th level", "venom immunity", "Venom immunity"]
 +++
 
 **Sources:** Pathfinder \#5: Sins of the Saviors pg 71\

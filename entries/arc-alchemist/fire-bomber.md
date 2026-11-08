@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The alchemist's 4th-level discovery", "Poison resistance +6", "Poison immunity", "Persistent mutagen"]
+alters = ["Bomb", "throw anything"]
 +++
 
 **Sources:** Advanced Race Guide pg 117\

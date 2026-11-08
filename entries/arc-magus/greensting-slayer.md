@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Medium armor", "Heavy armor"]
+alters = ["Arcane pool"]
 +++
 
 **Sources:** Bastards of Golarion pg 9\

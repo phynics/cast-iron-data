@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "Versatile performance", "Song of marching", "Dirge of doom"]
 +++
 
 **Sources:** Ultimate Wilderness pg 84\

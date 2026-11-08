@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Banner", "greater banner", "Mighty charge", "Supreme charge"]
 +++
 
 **Sources:** Monster Hunter's Handbook pg 13\

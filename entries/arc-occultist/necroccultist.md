@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Object reading", "Aura sight", "Outside contact"]
+alters = ["Implements", "implement mastery"]
 +++
 
 **Sources:** Occult Adventures pg 100\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spells", "Aura of faith"]
 +++
 
 **Sources:** Advanced Player's Guide pg 118\

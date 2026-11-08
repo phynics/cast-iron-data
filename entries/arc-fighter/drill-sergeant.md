@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bravery", "Weapon training 2", "Weapon training 3", "Weapon training 4"]
+alters = ["Weapon training 1"]
 +++
 
 **Sources:** Melee Tactics Toolbox pg 11\

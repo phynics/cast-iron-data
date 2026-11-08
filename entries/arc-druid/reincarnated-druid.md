@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Woodland stride", "Resist nature's lure", "Wild shape", "Venom immunity", "Timeless body"]
 +++
 
 **Sources:** Ultimate Magic pg 39\

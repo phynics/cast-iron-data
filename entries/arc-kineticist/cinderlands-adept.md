@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Infusion gained at 1st level", "Utility wild talents gained at 4th", "8th", "and 12th levels"]
+alters = ["Elemental focus", "expanded element", "Gather power"]
 +++
 
 **Sources:** Wilderness Origins pg 28\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shield ally", "Transposition", "Greater shield ally", "Merge forms"]
 +++
 
 **Sources:** Champions of Corruption pg 24\

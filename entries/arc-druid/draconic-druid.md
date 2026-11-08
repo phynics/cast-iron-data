@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Nature bond", "wild empathy", "woodland stride", "venom immunity", "a thousand faces", "timeless body", "Nature sense", "Resist nature's lure"]
 +++
 
 **Sources:** Legacy of Dragons pg 24\

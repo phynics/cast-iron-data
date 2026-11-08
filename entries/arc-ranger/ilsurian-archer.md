@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "wild empathy", "Spellcasting ability", "Swift tracking", "Quarry", "Improved quarry"]
+alters = ["Combat style"]
 +++
 
 **Sources:** Weapon Master's Handbook pg 6\

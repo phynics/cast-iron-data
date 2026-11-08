@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magus arcana gained at 3rd level", "Greater spell combat", "Greater spell access"]
+alters = ["Improved spell combat"]
 +++
 
 **Sources:** Adventurer's Guide pg 123, Inner Sea Intrigue pg 42\

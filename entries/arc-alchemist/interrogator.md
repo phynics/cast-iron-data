@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bomb", "Mutagen", "persistent mutagen"]
 +++
 
 **Sources:** Ultimate Intrigue pg 18\

@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shared seance", "Trance of three"]
+alters = ["Armor proficiency", "Spirit", "Spirit surge", "Spirit power (lesser)", "Spirit power (intermediate)", "Spirit power (supreme)"]
 +++
 
 **Sources:** Martial Arts Handbook pg 5\

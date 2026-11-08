@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Inspired rage", "Song of the fallen", "Rage power gained at 12th level"]
 +++
 
 **Sources:** Legacy of Dragons pg 14\

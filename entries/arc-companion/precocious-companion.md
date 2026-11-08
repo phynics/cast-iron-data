@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Evasion", "Improved Evasion", "The 4th- or 7th-level ability score advancement"]
 +++
 
 **Sources:** Ultimate Wilderness pg 188\

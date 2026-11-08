@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Detect alignment", "True judgment"]
+alters = ["Judgment", "second judgment", "third judgment"]
 +++
 
 **Sources:** The Harrow Handbook pg 22\

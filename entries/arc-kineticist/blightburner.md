@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Basic geokinesis wild talent", "Utility wild talent gained at 2nd level", "Ability score boosts granted by elemental overflow", "earth's elemental defense"]
+alters = ["Elemental focus", "Gather power", "internal buffer"]
 +++
 
 **Sources:** Heroes of the Darklands pg 25\

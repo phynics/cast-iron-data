@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Rogue talent gained at 2nd level", "Trap sense", "Improved uncanny dodge"]
 +++
 
 **Sources:** Advanced Race Guide pg 208\

@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Class skills gained from the oracle's mystery", "Revelation gained at 1st level", "Revelation gained at 7th level"]
 +++
 
 **Sources:** Healer's Handbook pg 20\

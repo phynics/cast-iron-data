@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Favored enemy", "Hunter's bond", "Woodland stride"]
 +++
 
 **Sources:** Pirates of the Inner Sea pg 23\

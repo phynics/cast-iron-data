@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bonus feats", "Flurry of blows", "Slow fall", "High jump", "Abundant step", "improved evasion", "timeless body", "tongue of sun and moon", "Diamond soul", "Empty body"]
 +++
 
 **Sources:** Ultimate Combat pg 61

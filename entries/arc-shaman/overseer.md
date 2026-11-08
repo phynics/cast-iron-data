@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Spirit magic spells gained from the shaman's spirit"]
+alters = ["Deliver touch spells spirit animal ability"]
 +++
 
 **Sources:** Magic Tactics Toolbox pg 23\

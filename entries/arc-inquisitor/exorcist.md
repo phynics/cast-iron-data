@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Second judgment", "Third judgment", "Slayer", "True judgment"]
 +++
 
 **Sources:** Ultimate Magic pg 44\

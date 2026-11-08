@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Improved empathic link"]
+alters = ["Animal focus", "Wild Empathy"]
 +++
 
 **Sources:** Blood of the Sea pg 22\

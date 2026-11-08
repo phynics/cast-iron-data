@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Shifter aspect", "chimeric aspect", "greater chimeric aspect", "final aspect"]
+alters = ["Armor proficiencies", "Shifter claws", "Wild shape"]
 +++
 
 **Sources:** Martial Arts Handbook pg 16\

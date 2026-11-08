@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Cavalier's charge", "Banner", "Cavalier bonus feats", "Mighty charge", "Greater banner", "Supreme charge"]
+alters = ["Challenge", "Tactician", "greater tactician", "master tactician", "Expert trainer"]
 +++
 
 **Sources:** Animal Archive pg 6\

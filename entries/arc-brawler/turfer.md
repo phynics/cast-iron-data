@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Maneuver training", "Knockout"]
 +++
 
 **Sources:** Ultimate Wilderness pg 42\

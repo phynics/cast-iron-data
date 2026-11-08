@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Bardic knowledge", "lore master", "Inspire courage", "Versatile performance"]
 +++
 
 **Sources:** Elemental Master's Handbook pg 5\

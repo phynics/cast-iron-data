@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense", "investigator talent gained at 3rd level", "Investigator talent gained at 5th level"]
+alters = ["Inspiration"]
 +++
 
 **Sources:** Ultimate Intrigue pg 33\

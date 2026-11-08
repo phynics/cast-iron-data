@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "trap sense", "Uncanny dodge", "4th-level rogue talent", "Improved uncanny dodge", "8th-level rogue talent"]
+alters = ["Sneak attack"]
 +++
 
 **Sources:** Aquatic Adventures pg 55\

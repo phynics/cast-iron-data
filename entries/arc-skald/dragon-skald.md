@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Scribe Scroll", "Bardic knowledge", "Well-versed", "Song of marching"]
 +++
 
 **Sources:** Advanced Class Origins pg 19\

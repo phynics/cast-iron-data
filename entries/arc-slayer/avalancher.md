@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Studied target", "Track", "swift tracker", "Stalker", "Quarry", "improved quarry", "Master slayer"]
 +++
 
 **Sources:** Ultimate Wilderness pg 86\

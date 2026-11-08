@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["10th-level use of smite good", "Aura of vengeance", "The cruelty gained at 15th level"]
+alters = ["Smite good", "Fiendish boon", "Unholy champion"]
 +++
 
 **Sources:** Ultimate Wilderness pg 91\

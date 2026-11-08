@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mutagen", "Poison resistance", "Swift alchemy", "The discovery gained at 6th level", "Poison immunity"]
+alters = ["Extracts", "Bomb"]
 +++
 
 **Sources:** Ultimate Intrigue pg 18\

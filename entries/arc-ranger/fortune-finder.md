@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Track", "Hunter's bond", "Woodland stride", "Quarry", "improved quarry", "Master hunter"]
 +++
 
 **Sources:** Blood of the Beast pg 29\

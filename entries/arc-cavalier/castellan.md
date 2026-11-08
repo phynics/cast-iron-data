@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "Demanding challenge", "Supreme charge"]
 +++
 
 **Sources:** Melee Tactics Toolbox pg 9\

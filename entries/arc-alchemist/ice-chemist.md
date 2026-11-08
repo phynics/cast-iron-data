@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison resistance", "poison immunity", "2nd-level discovery"]
+alters = ["Bombs"]
 +++
 
 **Sources:** Ultimate Wilderness pg 35\

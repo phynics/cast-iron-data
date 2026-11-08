@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Poison use", "swift poisoning"]
 +++
 
 **Sources:** Heroes of the High Court pg 11\

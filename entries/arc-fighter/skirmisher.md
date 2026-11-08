@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["The fighter's armor proficiency", "2nd level fighter bonus feat", "Bravery", "Armor training", "Armor mastery"]
+alters = ["Class skills", "skill ranks per level"]
 +++
 
 **Source** Ultimate Wilderness pg. 50, errata

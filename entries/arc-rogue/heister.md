@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Rogue talent gained at 2nd level", "Uncanny dodge", "rogue talent gained at 4th level", "Improved uncanny dodge", "rogue talent gained at 8th level"]
 +++
 
 **Sources:** Ultimate Intrigue pg 45\

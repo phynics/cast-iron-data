@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Alchemy", "Poison lore", "Poison resistance", "Trap sense", "Swift alchemy", "Poison immunity"]
 +++
 
 > _**Note:** This is an investigator archetype, and has no relation to the

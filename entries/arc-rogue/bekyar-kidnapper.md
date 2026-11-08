@@ -11,7 +11,8 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Trapfinding", "Trap sense"]
 +++
 
 **Sources:** Inner Sea Combat pg 36\

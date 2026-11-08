@@ -11,7 +11,9 @@ relations = [
 ]
 
 [fields]
-kind = "none"
+kind = "archetype"
+replaces = ["Magus arcana gained at 3rd level"]
+alters = ["Armor proficiencies", "medium armor", "heavy armor", "Spellcasting", "Arcane pool", "spell combat", "spellstrike"]
 +++
 
 **Sources:** Arcane Anthology pg 28\
