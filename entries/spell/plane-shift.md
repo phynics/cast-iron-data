@@ -2,7 +2,7 @@
 id = "ref/spell/plane-shift"
 kind = "spell"
 title = "Plane Shift"
-source_ids = ["core-rulebook", "mythic-adventures", "planes-of-power"]
+source_ids = ["core-rulebook", "planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_shift", path = "json/spells7.json" },
 ]
@@ -63,13 +63,3 @@ impossible. From the Material Plane, you can reach any other plane, though you a
 (5d%) from your intended destination. Plane shift transports creatures instantaneously and then
 ends. The creatures need to find other means if they are to travel back (including casting plane
 shift again).
-
-### Mythic Plane Shift
-
-**Sources:** Mythic Adventures pg 103
-
-If you've been to the destination plane and are familiar with a location there, you may choose that
-location and arrive on target at that location with anyone else you transport with the spell.
-
-_Augmented:_ If you expend two uses of mythic power, you grant transported creatures the effects of
-a planar adaptation spell upon arrival, lasting for 1 hour.

@@ -2,7 +2,7 @@
 id = "ref/spell/walk-through-space"
 kind = "spell"
 title = "Walk through Space"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walk_through_space", path = "json/spells11.json" },
 ]
@@ -54,9 +54,3 @@ When under the effects of this spell, you can teleport up to 30 feet as a move a
 this movement in an unoccupied space that you can stand on within line of sight. Alternatively, you
 can spend a move action to teleport to a standing position from lying prone. Teleporting does not
 provoke attacks of opportunity.
-
-### Mythic Walk through Space
-
-**Sources:** Mythic Adventures pg 111\
-You can teleport as either a move action or a swift action, but never more than once per round. If
-you expend a move action and a swift action, you may teleport up to 60 feet.

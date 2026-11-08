@@ -2,7 +2,7 @@
 id = "ref/spell/harm"
 kind = "spell"
 title = "Harm"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harm", path = "json/spells5.json" },
 ]
@@ -52,10 +52,3 @@ maximum of 150 points at 15th level). If the creature successfully saves, harm d
 amount. Harm cannot reduce the target's hit points to less than 1.
 
 If used on an undead creature, harm acts like heal.
-
-### Mythic Harm
-
-**Sources:** Mythic Adventures pg 97\
-The damage dealt increases to 15 points of damage per caster level (maximum 225 points).
-
-_Augmented:_ If you expend two uses of mythic power, the spell also acts as poison.

@@ -2,7 +2,7 @@
 id = "ref/spell/enemy-hammer"
 kind = "spell"
 title = "Enemy Hammer"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_hammer", path = "json/spells4.json" },
 ]
@@ -70,14 +70,3 @@ the round and ends its turn prone in a square adjacent to the target of your att
 creature chooses to resist your efforts to move it, taking no other actions for the round, it gets a
 +4 circumstance bonus on its saving throw. The spell ends immediately if the target creature dies or
 is destroyed.
-
-### Mythic Enemy Hammer
-
-**Sources:** Mythic Adventures pg 93\
-The target becomes entangled whether or not it succeeds at its saving throw. When using the target
-as a weapon, add half your tier to your attack roll, and add your tier to the damage roll.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, when you use the target to hit a
-creature, you can attempt a free bull rush combat maneuver against that creature. Your CMB for this
-maneuver is equal to your attack bonus for mythic enemy hammer, except you add your tier instead of
-half your tier.

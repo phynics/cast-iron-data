@@ -2,7 +2,7 @@
 id = "ref/spell/protection-from-arrows"
 kind = "spell"
 title = "Protection from Arrows"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
+source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_arrows", path = "json/spells15.json" },
 ]
@@ -52,14 +52,3 @@ The warded creature gains resistance to ranged weapons. The subject gains
 [damage reduction](ref/rule/damage-reduction) 10/magic against ranged weapons. This spell doesn't
 grant you the ability to damage creatures with similar damage reduction. Once the spell has
 prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged.
-
-### Mythic Protection from Arrows
-
-**Sources:** Mythic Adventures pg 104
-
-The [damage reduction](ref/rule/damage-reduction) increases to 15/magic. The maximum damage
-prevented by the spell increases to 15 points per caster level (maximum 150 points). If the spell
-prevents all damage from a ranged weapon attack, it turns the projectile or weapon back on the
-attacker, using the same attack roll result. If the attacker is also protected by mythic protection
-from arrows and its spell completely prevents the damage from the rebounded attack, the weapon or
-projectile is destroyed.

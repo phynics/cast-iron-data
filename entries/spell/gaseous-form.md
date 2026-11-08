@@ -2,7 +2,7 @@
 id = "ref/spell/gaseous-form"
 kind = "spell"
 title = "Gaseous Form"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaseous_form", path = "json/spells13.json" },
 ]
@@ -67,15 +67,3 @@ was wearing or holding in its hands, as long as the spell persists. The creature
 effects of wind, and it can't enter water or other liquid. It also can't manipulate objects or
 activate items, even those carried along with its gaseous form. Continuously active items remain
 active, though in some cases their effects may be moot.
-
-### Mythic Gaseous Form
-
-**Sources:** Mythic Adventures pg 96\
-The [damage reduction](ref/rule/damage-reduction) changes to DR 10/epic and magic, and the fly speed
-increases to 30 feet. The target can expand itself as a free action, filling an area equal to double
-its normal space and height (a Medium creature fills a 10-foot-by-10-foot space to a height of about
-10 feet) and blocking vision as obscuring mist. Returning from expanded to normal size is also a
-free action.
-
-_Augmented:_ If you expend two uses of mythic power, the target can shift into or out of gaseous
-form as a move action.

@@ -2,7 +2,7 @@
 id = "ref/spell/finger-of-death"
 kind = "spell"
 title = "Finger of Death"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finger_of_death", path = "json/spells4.json" },
 ]
@@ -49,10 +49,3 @@ Descriptors: death
 This spell instantly delivers 10 points of damage per caster level. If the target's Fortitude saving
 throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might
 die from damage even if it succeeds on its saving throw.
-
-### Mythic Finger of Death
-
-**Sources:** Mythic Adventures pg 94\
-The damage dealt increases to 15 points of damage per caster level plus 1d8 points of Constitution
-damage. A creature that succeeds at its saving throw takes 3d8 points of damage + 1 point per caster
-level, takes 1d4 points of Constitution damage, and is staggered for 1 round.

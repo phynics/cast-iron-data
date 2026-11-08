@@ -2,7 +2,7 @@
 id = "ref/spell/inflict-light-wounds"
 kind = "spell"
 title = "Inflict Light Wounds"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_light_wounds", path = "json/spells14.json" },
 ]
@@ -52,11 +52,3 @@ When laying your hand upon a creature, you channel negative energy that deals 1d
 
 Since undead are powered by negative energy, this spell cures such a creature of a like amount of
 damage, rather than harming it.
-
-### Mythic Inflict Light Wounds
-
-**Sources:** Mythic Adventures pg 99
-
-The damage dealt increases to 2d8 points of damage + 2 points per caster level (maximum +10). A
-living target is sickened for 1 round per caster level (maximum 5 rounds) if it fails its saving
-throw.

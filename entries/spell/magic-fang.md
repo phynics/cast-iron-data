@@ -2,7 +2,7 @@
 id = "ref/spell/magic-fang"
 kind = "spell"
 title = "Magic Fang"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_fang", path = "json/spells6.json" },
 ]
@@ -49,28 +49,3 @@ attack and damage rolls. The spell can affect a slam attack, fist, bite, or othe
 The spell does not change an unarmed strike's damage from nonlethal damage to lethal damage.
 
 Magic fang can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Mythic Magic Fang
-
-**Sources:** Mythic Adventures pg 100
-
-The spell affects an additional number of the target's natural weapons equal to your tier. For
-example, if you're 3rd tier, it could affect two claws and one bite).
-
-### Greater Mythic Magic Fang
-
-**Sources:** Mythic Adventures pg 100
-
-This functions like mythic magic fang. You can add one of the following weapon special abilities to
-natural attacks or unarmed strikes affected by the spell: [flaming](ref/magic-enh/flaming),
-[frost](ref/magic-enh/frost), [keen](ref/magic-enh/keen), [merciful](ref/magic-enh/merciful),
-[shock](ref/magic-enh/shock), or [thundering](ref/magic-enh/thundering). You must choose only one
-with each casting of the spell. For example, you can't add flaming to a tiger's bite and keen to its
-claws with the same casting. If the target has an Intelligence score less than 3, these abilities
-are always on (the target can't activate or deactivate the effect) and it might react with fear if
-its attacks make noise or create visible energy.
-
-_Augmented (5th):_ If you expend two uses of mythic power, you can reduce the granted enhancement
-bonuses by 1 to add two of the above abilities or one of the following abilities:
-[flaming burst](ref/magic-enh/flaming-burst), [icy burst](ref/magic-enh/icy-burst), or
-[shocking burst](ref/magic-enh/shocking-burst).

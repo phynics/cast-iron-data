@@ -2,7 +2,7 @@
 id = "ref/spell/devolution"
 kind = "spell"
 title = "Devolution"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devolution", path = "json/spells3.json" },
 ]
@@ -49,9 +49,3 @@ This spell causes an eidolon to lose one evolution plus one additional evolution
 caster levels. Evolutions with the highest total cost are lost first. If there is a tie, randomly
 determine which is lost. If this spell causes an eidolon to fail to meet the prerequisites for other
 evolutions or abilities, those evolutions or abilities are lost as long as this spell persists.
-
-### Mythic Devolution
-
-**Sources:** Mythic Adventures pg 91\
-The saving throw changes to Will (partial). If it succeeds at its save, the eidolon loses one
-evolution, chosen at random.

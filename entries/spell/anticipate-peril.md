@@ -2,7 +2,7 @@
 id = "ref/spell/anticipate-peril"
 kind = "spell"
 title = "Anticipate Peril"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_peril", path = "json/spells.json" },
 ]
@@ -56,8 +56,3 @@ A creature affected by anticipate peril gains a preternatural sense of danger. T
 this spell's duration that the target has to make an initiative check, the creature adds an insight
 bonus on that initiative check equal to the spell's caster level (maximum +5). Once this bonus
 applies, the effects of the spell end.
-
-### Mythic Anticipate Peril
-
-**Sources:** Mythic Adventures pg 84\
-Add your tier to the spell's initiative bonus and the maximum initiative bonus the spell can grant.

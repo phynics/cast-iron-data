@@ -2,7 +2,7 @@
 id = "ref/spell/blinding-ray"
 kind = "spell"
 title = "Blinding Ray"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_ray", path = "json/spells2.json" },
 ]
@@ -56,13 +56,3 @@ otherwise vulnerable to bright light, it instead must save or be blinded for 1d4
 points of damage per two caster levels (maximum 5d4). Any creature blinded by a ray sheds light as a
 sunrod for the duration of its blindness. The rays may be fired at the same or different targets,
 but all rays must be aimed at targets within 30 feet of each other and fired simultaneously.
-
-### Mythic Blinding Ray
-
-**Sources:** Mythic Adventures pg 86\
-On a successful saving throw, the target is dazzled for 1 round. On a failed saving throw, the
-target is instead blinded for 1d4 rounds.
-
-A target with light blindness, light sensitivity, or any other vulnerability to light is instead
-blinded for 1d4 rounds on a successful saving throw and permanently blinded on a failed saving
-throw.

@@ -2,7 +2,7 @@
 id = "ref/spell/unholy-blight"
 kind = "spell"
 title = "Unholy Blight"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_blight", path = "json/spells11.json" },
 ]
@@ -56,11 +56,3 @@ negated by [remove disease](ref/spell/remove-disease) or [heal](ref/spell/heal),
 The spell deals only half damage to creatures who are neither evil nor good, and they are not
 sickened. Such a creature can reduce the damage by half again (down to one-quarter) with a
 successful Will save.
-
-### Mythic Unholy Blight
-
-**Sources:** Mythic Adventures pg 110\
-The damage dealt to good outsiders increases to 1d10 points of damage per caster level (maximum
-10d10) and the damage dealt to other good creatures increases to 1d12 points of damage per 2 caster
-levels (maximum 5d12). The duration that creatures within the area are sickened increases to 2d4
-rounds. On a successful save, a good creature is slowed for 1 round.

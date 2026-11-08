@@ -2,7 +2,7 @@
 id = "ref/spell/inflict-light-wounds-mass"
 kind = "spell"
 title = "Mass Inflict Light Wounds"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_light_wounds_mass", path = "json/spells14.json" },
 ]
@@ -46,14 +46,6 @@ Duration: instantaneous
 Saving throw: Will half
 Spell resistance: yes
 :::
-
-### Mythic Inflict Light Wounds
-
-**Sources:** Mythic Adventures pg 99
-
-The damage dealt increases to 2d8 points of damage + 2 points per caster level (maximum +10). A
-living target is sickened for 1 round per caster level (maximum 5 rounds) if it fails its saving
-throw.
 
 ### Mass Inflict Light Wounds
 

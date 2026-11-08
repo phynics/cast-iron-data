@@ -2,7 +2,7 @@
 id = "ref/spell/grease"
 kind = "spell"
 title = "Grease"
-source_ids = ["core-rulebook", "mythic-adventures", "dirty-tactics-toolbox"]
+source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grease", path = "json/spells5.json" },
 ]
@@ -63,17 +63,3 @@ immediately drops the item. A saving throw must be made in each round that the c
 pick up or use the greased item. A creature wearing greased armor or clothing gains a +10
 circumstance bonus on Escape Artist checks and combat maneuver checks made to escape a grapple, and
 to their CMD to avoid being grappled.
-
-### Mythic Grease
-
-**Sources:** Mythic Adventures pg 96
-
-If you cast mythic grease on an area, add your tier to the Acrobatics DC to move within or through
-the area. If you cast it on a creature's armor or clothing, add your tier to its Escape Artist
-checks and combat maneuver checks attempted to escape a grapple and to its CMD to avoid being
-grappled.
-
-_Augmented:_ You can expend two uses of mythic power to make the grease flammable. It ignites from
-any fire at least the size of a candle flame. If a greased area is ignited, any creature in the area
-on your turn takes 1d3 points of fire damage and might catch on fire. If a greased creature is
-ignited, it takes 2d6 points of fire damage, and might catch on fire; add your tier to the save DC.

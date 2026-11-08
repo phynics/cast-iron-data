@@ -2,7 +2,7 @@
 id = "ref/spell/fly-mass"
 kind = "spell"
 title = "Mass Fly"
-source_ids = ["core-rulebook", "mythic-adventures", "advanced-players-guide"]
+source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fly_mass", path = "json/spells4.json" },
 ]
@@ -43,17 +43,6 @@ Duration: 10 minutes/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 :::
-
-### Mythic Fly
-
-**Sources:** Mythic Adventures pg 95
-
-The fly speed changes to 120 feet (or 80 feet if the target is wearing medium or heavy armor, or
-carrying a medium or heavy load) with perfect maneuverability. When the duration expires, the target
-is protected by feather fall for a number of rounds equal to your caster level.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the target adds your tier on Reflex saves
-and as a dodge bonus to AC. It gains these bonuses only while flying.
 
 ### Mass Fly
 

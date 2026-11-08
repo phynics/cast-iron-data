@@ -2,7 +2,7 @@
 id = "ref/spell/glyph-of-warding"
 kind = "spell"
 title = "Glyph of Warding"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glyph_of_warding", path = "json/spells5.json" },
 ]
@@ -86,11 +86,3 @@ effect, the area or effect is centered on the intruder. If the spell summons cre
 as close as possible to the intruder and attack. Saving throws and
 [spell resistance](ref/rule/spell-resistance) operate as normal, except that the DC is based on the
 level of the spell stored in the glyph.
-
-### Mythic Glyph of Warding
-
-**Sources:** Mythic Adventures pg 96
-
-Add your tier to the DC to detect or disable the glyph. Blast glyph damage increases to 1d6 points
-of damage per caster level (maximum 20d6). Add half your tier to the maximum spell level you can
-store in a spell glyph.

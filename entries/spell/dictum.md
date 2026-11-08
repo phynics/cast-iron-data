@@ -2,7 +2,7 @@
 id = "ref/spell/dictum"
 kind = "spell"
 title = "Dictum"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dictum", path = "json/spells3.json" },
 ]
@@ -75,11 +75,3 @@ return for at least 24 hours. This effect takes place regardless of whether the 
 dictum or not. The banishment effect allows a Will save (at a -4 penalty) to negate.
 
 Creatures whose Hit Dice exceed your caster level are unaffected by dictum.
-
-### Mythic Dictum
-
-**Sources:** Mythic Adventures pg 91\
-When determining the spell's effect on non-mythic creatures, add your tier to your caster level.
-Nonlawful creatures that fail their saves against the spell also take a -4 penalty on attack rolls
-and saving throws, and their [spell resistance](ref/rule/spell-resistance) decreases by 5 for as
-long as the spell's other effects last.

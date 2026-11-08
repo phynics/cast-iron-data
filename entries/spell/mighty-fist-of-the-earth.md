@@ -2,7 +2,7 @@
 id = "ref/spell/mighty-fist-of-the-earth"
 kind = "spell"
 title = "Mighty Fist of the Earth"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_fist_of_the_earth", path = "json/spells14.json" },
 ]
@@ -57,9 +57,3 @@ a ki pool, as long as you have at least 1 point in your ki pool, the rock counts
 At 4th level, a [qinggong monk](ref/arc-monk/qinggong-monk) may select this spell as a ki power
 costing 1 ki point to activate (if the monk has 0 ki points after activating this ki power, the rock
 does not count as a ki strike).
-
-### Mythic Mighty Fist of the Earth
-
-**Sources:** Mythic Adventures pg 101\
-Add your tier to the rock's attack roll and damage roll. Increase the critical multiplier of the
-attack by 1 (maximum ×4).

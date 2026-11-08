@@ -2,7 +2,7 @@
 id = "ref/spell/resonating-word"
 kind = "spell"
 title = "Resonating Word"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resonating_word", path = "json/spells8.json" },
 ]
@@ -61,9 +61,3 @@ On the third round, the target takes 10d6 points of damage and is stunned for 1d
 successful save halves the damage and negates the stunning effect.
 
 The resonating word has no power after the third round, even if the spell's duration is increased.
-
-### Mythic Resonating Word
-
-**Sources:** Mythic Adventures pg 105\
-The damage dealt increases to 8d6 points on the 1st and 2nd rounds and 15d6 on the 3rd round. The
-target takes a -4 penalty on saving throws against all sonic effects.

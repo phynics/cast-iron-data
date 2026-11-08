@@ -2,7 +2,7 @@
 id = "ref/spell/changestaff"
 kind = "spell"
 title = "Changestaff"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changestaff", path = "json/spells2.json" },
 ]
@@ -48,12 +48,3 @@ hit points, it crumbles to powder and the staff is destroyed. Otherwise, the sta
 normal form when the spell duration expires (or when the spell is dismissed), and it can be used as
 the focus for another casting of the spell. The staff-treant is always at full strength when
 created, despite any wounds it may have incurred the last time it appeared.
-
-### Mythic Changestaff
-
-**Sources:** Mythic Adventures pg 88\
-The treant-like creature created with this spell is considered a mythic creature, and it gains DR
-10/epic and slashing instead of gaining DR 10/slashing.
-
-_Augmented (7th):_ If you expend two uses of mythic power, the creature gains the savage
-[mythic template](ref/rule/mythic-simple-templates).

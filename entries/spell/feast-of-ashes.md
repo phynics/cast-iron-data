@@ -2,7 +2,7 @@
 id = "ref/spell/feast-of-ashes"
 kind = "spell"
 title = "Feast of Ashes"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feast_of_ashes", path = "json/spells4.json" },
 ]
@@ -54,13 +54,3 @@ ashes can be removed with a [break enchantment](ref/spell/break-enchantment),
 [limited wish](ref/spell/limited-wish), [miracle](ref/spell/miracle),
 [remove curse](ref/spell/remove-curse), or [wish](ref/spell/wish) spell, but effects suffered as a
 result of starvation must be healed by normal means.
-
-### Mythic Feast of Ashes
-
-**Sources:** Mythic Adventures pg 93\
-On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your
-tier to the DC of any further Constitution checks the target attempts to resist the effects of
-starvation as part of this spell's effects. While the curse is in effect, the target gains no
-benefit from any spell, effect, or item that requires eating, such as the food from a
-[heroes' feast](ref/spell/heroes-feast) spell (though the food is still used up when the target eats
-it).

@@ -2,7 +2,7 @@
 id = "ref/spell/scorching-ray"
 kind = "spell"
 title = "Scorching Ray"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorching_ray", path = "json/spells8.json" },
 ]
@@ -51,9 +51,3 @@ for every four levels beyond 3rd (to a maximum of three rays at 11th level). Eac
 ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or
 different targets, but all rays must be aimed at targets within 30 feet of each other and fired
 simultaneously.
-
-### Mythic Scorching Ray
-
-**Sources:** Mythic Adventures pg 107\
-Each ray's damage increases to 6d6 points of fire damage. The first ray bypasses fire resistance and
-immunity.

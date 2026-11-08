@@ -2,7 +2,7 @@
 id = "ref/spell/slow"
 kind = "spell"
 title = "Slow"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slow", path = "json/spells9.json" },
 ]
@@ -60,10 +60,3 @@ and Reflex saves. A slowed creature moves at half its normal speed (round down t
 increment), which affects the creature's jumping distance as normal for decreased speed.
 
 Multiple slow effects don't stack. Slow counters and dispels [haste](ref/spell/haste).
-
-### Mythic Slow
-
-**Sources:** Mythic Adventures pg 109\
-The penalty on attack rolls, on Reflex saves, and to AC increases to -2, and affected creatures move
-at one-fourth speed. Select one affected creature; this creature is denied its Dexterity bonus to
-AC.

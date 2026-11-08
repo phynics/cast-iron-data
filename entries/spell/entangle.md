@@ -2,7 +2,7 @@
 id = "ref/spell/entangle"
 kind = "spell"
 title = "Entangle"
-source_ids = ["core-rulebook", "mythic-adventures", "villain-codex", "advanced-class-guide", "legacy-of-the-first-world"]
+source_ids = ["core-rulebook", "villain-codex", "advanced-class-guide", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entangle", path = "json/spells4.json" },
 ]
@@ -53,11 +53,3 @@ the spell. The entire area of effect is considered difficult terrain while the e
 If the plants in the area are covered in thorns, those in the area take 1 point of damage each time
 they fail a save against the entangle or fail a check made to break free. Other effects, depending
 on the local plants, might be possible at GM discretion.
-
-### Mythic Entangle
-
-**Sources:** Mythic Adventures pg 93
-
-The spell functions in areas without any vegetation, causing plants to spring up out of the ground.
-These plants can reach creatures that are up to 10 feet in the air. Plants affected or created by
-the spell sprout thorns that deal 1d6 points of damage each round to creatures in the area.

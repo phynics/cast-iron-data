@@ -2,7 +2,7 @@
 id = "ref/spell/arodens-spellbane"
 kind = "spell"
 title = "Aroden's Spellbane"
-source_ids = ["inner-sea-magic", "mythic-origins"]
+source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodens_spellbane", path = "json/spells.json" },
 ]
@@ -58,10 +58,3 @@ specifies immunity to antimagic field (such as wall of force, prismatic sphere, 
 Multiple spellbane effects can overlap. Their effects stack, preventing the functioning of every
 spell targeted by any of the multiple spellbane emanations. Spell effects created by artifacts or
 deities cannot be suppressed by Aroden's spellbane.
-
-### Mythic Aroden's Spellbane
-
-**Sources:** Mythic Origins pg 12\
-Add half your tier to the number of spells you can select to not function in the area. As a
-full-round action, you can expend one use of mythic power to change one of the spells blocked by
-this effect. You can do this as often as you wish during the spell's duration.

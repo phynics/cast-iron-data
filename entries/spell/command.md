@@ -2,7 +2,7 @@
 id = "ref/spell/command"
 kind = "spell"
 title = "Command"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command", path = "json/spells12.json" },
 ]
@@ -74,10 +74,3 @@ _Halt:_ The subject stands in place for 1 round. It may not take any actions but
 helpless.
 
 If the subject can't carry out your command on its next turn, the spell automatically fails.
-
-### Mythic Command
-
-**Sources:** Mythic Adventures pg 88
-
-You can target up to one creature per level, each of which must receive the same command. Creatures
-that succeed at their saving throws are staggered for 1 round (this is a mind-affecting effect).

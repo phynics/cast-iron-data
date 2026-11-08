@@ -2,7 +2,7 @@
 id = "ref/spell/make-whole"
 kind = "spell"
 title = "Make Whole"
-source_ids = ["core-rulebook", "mythic-adventures", "technology-guide"]
+source_ids = ["core-rulebook", "technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_whole", path = "json/spells6.json" },
 ]
@@ -55,12 +55,3 @@ properties of the item if your caster level is at least twice that of the item. 
 (such as wands) and single-use items (such as potions and scrolls) cannot be repaired in this way.
 When make whole is used on a construct creature, the spell bypasses any immunity to magic as if the
 spell did not allow [spell resistance](ref/rule/spell-resistance).
-
-### Mythic Make Whole
-
-**Sources:** Mythic Adventures pg 100
-
-The damage the spell repairs increases to 2d6 points of damage per caster level when cast on a
-construct creature (maximum 10d6). A construct repaired with this spell gains a +2 enhancement bonus
-on an ability score of your choice for the next 24 hours. To repair a magic item, your caster level
-has to equal to only the caster level of the magic item, not double the caster level.

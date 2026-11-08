@@ -2,7 +2,7 @@
 id = "ref/spell/heroism-greater"
 kind = "spell"
 title = "Greater Heroism"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-intrigue"]
+source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroism_greater", path = "json/spells5.json" },
 ]
@@ -53,17 +53,6 @@ Spell resistance: yes (harmless)
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-### Mythic Heroism
-
-**Sources:** Mythic Adventures pg 98
-
-The morale bonus increases to +4 and applies on all checks, attack rolls, saves, and weapon damage
-rolls. Allies adjacent to the target gain a +4 morale bonus on saves against fear effects.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the target can attempt one additional
-attack per round when taking a full attack action (as if using a haste spell). The target can use
-this additional attack ability a number of times equal to your tier.
 
 ### Greater Heroism
 

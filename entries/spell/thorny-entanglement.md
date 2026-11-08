@@ -2,7 +2,7 @@
 id = "ref/spell/thorny-entanglement"
 kind = "spell"
 title = "Thorny Entanglement"
-source_ids = ["core-rulebook", "mythic-adventures", "villain-codex", "advanced-class-guide", "legacy-of-the-first-world"]
+source_ids = ["core-rulebook", "villain-codex", "advanced-class-guide", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorny_entanglement", path = "json/spells4.json" },
 ]
@@ -42,14 +42,6 @@ Saving throw: Reflex partial; see text
 Spell resistance: no
 Area: plants in a 40-ft.-radius spread
 :::
-
-### Mythic Entangle
-
-**Sources:** Mythic Adventures pg 93
-
-The spell functions in areas without any vegetation, causing plants to spring up out of the ground.
-These plants can reach creatures that are up to 10 feet in the air. Plants affected or created by
-the spell sprout thorns that deal 1d6 points of damage each round to creatures in the area.
 
 ### Thorny Entanglement
 

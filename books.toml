@@ -40255,8 +40255,1084 @@ title = "Tiers in Mythic Spell Descriptions"
 entry = "ref/carried/mythic-adventures/rules/mythic-spells/tiers-in-mythic-spell-descriptions"
 
 [[books.chapters.children]]
+title = "Ablative Barrier, Mythic"
+entry = "ref/spell/ablative-barrier/mythic"
+
+[[books.chapters.children]]
+title = "Animal Aspect, Mythic"
+entry = "ref/spell/animal-aspect/mythic"
+
+[[books.chapters.children]]
+title = "Animate Dead, Mythic"
+entry = "ref/spell/animate-dead/mythic"
+
+[[books.chapters.children]]
+title = "Animate Objects, Mythic"
+entry = "ref/spell/animate-objects/mythic"
+
+[[books.chapters.children]]
+title = "Animate Plants, Mythic"
+entry = "ref/spell/animate-plants/mythic"
+
+[[books.chapters.children]]
+title = "Anticipate Peril, Mythic"
+entry = "ref/spell/anticipate-peril/mythic"
+
+[[books.chapters.children]]
+title = "Antimagic Field, Mythic"
+entry = "ref/spell/antimagic-field/mythic"
+
+[[books.chapters.children]]
+title = "Arboreal Hammer, Mythic"
+entry = "ref/spell/arboreal-hammer/mythic"
+
+[[books.chapters.children]]
+title = "Arcane Cannon, Mythic"
+entry = "ref/spell/arcane-cannon/mythic"
+
+[[books.chapters.children]]
+title = "Baleful Polymorph, Mythic"
+entry = "ref/spell/baleful-polymorph/mythic"
+
+[[books.chapters.children]]
+title = "Bane, Mythic"
+entry = "ref/spell/bane/mythic"
+
+[[books.chapters.children]]
+title = "Barkskin, Mythic"
+entry = "ref/spell/barkskin/mythic"
+
+[[books.chapters.children]]
+title = "Battle Trance, Mythic"
+entry = "ref/spell/battle-trance/mythic"
+
+[[books.chapters.children]]
+title = "Battlemind Link, Mythic"
+entry = "ref/spell/battlemind-link/mythic"
+
+[[books.chapters.children]]
+title = "Beast Shape I, Mythic"
+entry = "ref/spell/beast-shape-1/mythic"
+
+[[books.chapters.children]]
+title = "Beast Shape II, Mythic"
+entry = "ref/spell/beast-shape-2/mythic"
+
+[[books.chapters.children]]
+title = "Beast Shape III, Mythic"
+entry = "ref/spell/beast-shape-3/mythic"
+
+[[books.chapters.children]]
+title = "Beast Shape IV, Mythic"
+entry = "ref/spell/beast-shape-4/mythic"
+
+[[books.chapters.children]]
+title = "Black Mark, Mythic"
+entry = "ref/spell/black-mark/mythic"
+
+[[books.chapters.children]]
+title = "Black Tentacles, Mythic"
+entry = "ref/spell/black-tentacles/mythic"
+
+[[books.chapters.children]]
+title = "Blade Barrier, Mythic"
+entry = "ref/spell/blade-barrier/mythic"
+
+[[books.chapters.children]]
+title = "Blasphemy, Mythic"
+entry = "ref/spell/blasphemy/mythic"
+
+[[books.chapters.children]]
+title = "Bless, Mythic"
+entry = "ref/spell/bless/mythic"
+
+[[books.chapters.children]]
+title = "Blessing of Fervor, Mythic"
+entry = "ref/spell/blessing-of-fervor/mythic"
+
+[[books.chapters.children]]
+title = "Blinding Ray, Mythic"
+entry = "ref/spell/blinding-ray/mythic"
+
+[[books.chapters.children]]
+title = "Blindness/Deafness, Mythic"
+entry = "ref/spell/blindness-deafness/mythic"
+
+[[books.chapters.children]]
+title = "Blink, Mythic"
+entry = "ref/spell/blink/mythic"
+
+[[books.chapters.children]]
+title = "Blistering Invective, Mythic"
+entry = "ref/spell/blistering-invective/mythic"
+
+[[books.chapters.children]]
+title = "Blood Crow Strike, Mythic"
+entry = "ref/spell/blood-crow-strike/mythic"
+
+[[books.chapters.children]]
+title = "Boiling Blood, Mythic"
+entry = "ref/spell/boiling-blood/mythic"
+
+[[books.chapters.children]]
+title = "Break, Mythic"
+entry = "ref/spell/break/mythic"
+
+[[books.chapters.children]]
+title = "Break Enchantment, Mythic"
+entry = "ref/spell/break-enchantment/mythic"
+
+[[books.chapters.children]]
+title = "Breath of Life, Mythic"
+entry = "ref/spell/breath-of-life/mythic"
+
+[[books.chapters.children]]
+title = "Burning Gaze, Mythic"
+entry = "ref/spell/burning-gaze/mythic"
+
+[[books.chapters.children]]
+title = "Burning Hands, Mythic"
+entry = "ref/spell/burning-hands/mythic"
+
+[[books.chapters.children]]
+title = "Burrow, Mythic"
+entry = "ref/spell/burrow/mythic"
+
+[[books.chapters.children]]
+title = "Call Animal, Mythic"
+entry = "ref/spell/call-animal/mythic"
+
+[[books.chapters.children]]
+title = "Call Lightning, Mythic"
+entry = "ref/spell/call-lightning/mythic"
+
+[[books.chapters.children]]
+title = "Cape of Wasps, Mythic"
+entry = "ref/spell/cape-of-wasps/mythic"
+
+[[books.chapters.children]]
+title = "Chain Lightning, Mythic"
+entry = "ref/spell/chain-lightning/mythic"
+
+[[books.chapters.children]]
+title = "Changestaff, Mythic"
+entry = "ref/spell/changestaff/mythic"
+
+[[books.chapters.children]]
+title = "Chaos Hammer, Mythic"
+entry = "ref/spell/chaos-hammer/mythic"
+
+[[books.chapters.children]]
+title = "Chill Metal, Mythic"
+entry = "ref/spell/chill-metal/mythic"
+
+[[books.chapters.children]]
+title = "Chord of Shards, Mythic"
+entry = "ref/spell/chord-of-shards/mythic"
+
+[[books.chapters.children]]
+title = "Circle of Death, Mythic"
+entry = "ref/spell/circle-of-death/mythic"
+
+[[books.chapters.children]]
+title = "Cloudkill, Mythic"
+entry = "ref/spell/cloudkill/mythic"
+
+[[books.chapters.children]]
+title = "Color Spray, Mythic"
+entry = "ref/spell/color-spray/mythic"
+
+[[books.chapters.children]]
+title = "Command, Mythic"
+entry = "ref/spell/command/mythic"
+
+[[books.chapters.children]]
+title = "Companion Mind Link, Mythic"
+entry = "ref/spell/companion-mind-link/mythic"
+
+[[books.chapters.children]]
+title = "Cone of Cold, Mythic"
+entry = "ref/spell/cone-of-cold/mythic"
+
+[[books.chapters.children]]
+title = "Confusion, Mythic"
+entry = "ref/spell/confusion/mythic"
+
+[[books.chapters.children]]
+title = "Conjure Black Pudding, Mythic"
+entry = "ref/spell/conjure-black-pudding/mythic"
+
+[[books.chapters.children]]
+title = "Consecrate, Mythic"
+entry = "ref/spell/consecrate/mythic"
+
+[[books.chapters.children]]
+title = "Contagion, Mythic"
+entry = "ref/spell/contagion/mythic"
+
+[[books.chapters.children]]
+title = "Contingency, Mythic"
+entry = "ref/spell/contingency/mythic"
+
+[[books.chapters.children]]
+title = "Control Weather, Mythic"
+entry = "ref/spell/control-weather/mythic"
+
+[[books.chapters.children]]
+title = "Cup of Dust, Mythic"
+entry = "ref/spell/cup-of-dust/mythic"
+
+[[books.chapters.children]]
+title = "Cure Critical Wounds, Mythic"
+entry = "ref/spell/cure-critical-wounds/mythic"
+
+[[books.chapters.children]]
+title = "Cure Light Wounds, Mythic"
+entry = "ref/spell/cure-light-wounds/mythic"
+
+[[books.chapters.children]]
+title = "Cure Moderate Wounds, Mythic"
+entry = "ref/spell/cure-moderate-wounds/mythic"
+
+[[books.chapters.children]]
+title = "Cure Serious Wounds, Mythic"
+entry = "ref/spell/cure-serious-wounds/mythic"
+
+[[books.chapters.children]]
+title = "Damnation Stride, Mythic"
+entry = "ref/spell/damnation-stride/mythic"
+
+[[books.chapters.children]]
+title = "Darkness, Mythic"
+entry = "ref/spell/darkness/mythic"
+
+[[books.chapters.children]]
+title = "Daybreak Arrow, Mythic"
+entry = "ref/spell/daybreak-arrow/mythic"
+
+[[books.chapters.children]]
+title = "Daylight, Mythic"
+entry = "ref/spell/daylight/mythic"
+
+[[books.chapters.children]]
+title = "Death Knell, Mythic"
+entry = "ref/spell/death-knell/mythic"
+
+[[books.chapters.children]]
+title = "Deep Slumber, Mythic"
+entry = "ref/spell/deep-slumber/mythic"
+
+[[books.chapters.children]]
+title = "Defile Armor, Mythic"
+entry = "ref/spell/defile-armor/mythic"
+
+[[books.chapters.children]]
+title = "Desecrate, Mythic"
+entry = "ref/spell/desecrate/mythic"
+
+[[books.chapters.children]]
+title = "Detect Scrying, Mythic"
+entry = "ref/spell/detect-scrying/mythic"
+
+[[books.chapters.children]]
+title = "Devolution, Mythic"
+entry = "ref/spell/devolution/mythic"
+
+[[books.chapters.children]]
+title = "Dictum, Mythic"
+entry = "ref/spell/dictum/mythic"
+
+[[books.chapters.children]]
+title = "Dimension Door, Mythic"
+entry = "ref/spell/dimension-door/mythic"
+
+[[books.chapters.children]]
+title = "Dimensional Lock, Mythic"
+entry = "ref/spell/dimensional-lock/mythic"
+
+[[books.chapters.children]]
+title = "Discordant Blast, Mythic"
+entry = "ref/spell/discordant-blast/mythic"
+
+[[books.chapters.children]]
+title = "Disfiguring Touch, Mythic"
+entry = "ref/spell/disfiguring-touch/mythic"
+
+[[books.chapters.children]]
+title = "Disintegrate, Mythic"
+entry = "ref/spell/disintegrate/mythic"
+
+[[books.chapters.children]]
+title = "Dispel Magic, Mythic"
+entry = "ref/spell/dispel-magic/mythic"
+
+[[books.chapters.children]]
+title = "Divine Favor, Mythic"
+entry = "ref/spell/divine-favor/mythic"
+
+[[books.chapters.children]]
+title = "Divine Pursuit, Mythic"
+entry = "ref/spell/divine-pursuit/mythic"
+
+[[books.chapters.children]]
+title = "Dominate Person, Mythic"
+entry = "ref/spell/dominate-person/mythic"
+
+[[books.chapters.children]]
+title = "Draconic Reservoir, Mythic"
+entry = "ref/spell/draconic-reservoir/mythic"
+
+[[books.chapters.children]]
+title = "Dragon's Breath, Mythic"
+entry = "ref/spell/dragons-breath/mythic"
+
+[[books.chapters.children]]
+title = "Dream, Mythic"
+entry = "ref/spell/dream/mythic"
+
+[[books.chapters.children]]
+title = "Dust of Twilight, Mythic"
+entry = "ref/spell/dust-of-twilight/mythic"
+
+[[books.chapters.children]]
+title = "Ear-Piercing Scream, Mythic"
+entry = "ref/spell/ear-piercing-scream/mythic"
+
+[[books.chapters.children]]
+title = "Earthquake, Mythic"
+entry = "ref/spell/earthquake/mythic"
+
+[[books.chapters.children]]
+title = "Elemental Body I, Mythic"
+entry = "ref/spell/elemental-body-1/mythic"
+
+[[books.chapters.children]]
+title = "Elemental Body II, Mythic"
+entry = "ref/spell/elemental-body-2/mythic"
+
+[[books.chapters.children]]
+title = "Elemental Body III, Mythic"
+entry = "ref/spell/elemental-body-3/mythic"
+
+[[books.chapters.children]]
+title = "Elemental Body IV, Mythic"
+entry = "ref/spell/elemental-body-4/mythic"
+
+[[books.chapters.children]]
+title = "Endure Elements, Mythic"
+entry = "ref/spell/endure-elements/mythic"
+
+[[books.chapters.children]]
+title = "Enemy Hammer, Mythic"
+entry = "ref/spell/enemy-hammer/mythic"
+
+[[books.chapters.children]]
+title = "Enervation, Mythic"
+entry = "ref/spell/enervation/mythic"
+
+[[books.chapters.children]]
+title = "Enlarge Person, Mythic"
+entry = "ref/spell/enlarge-person/mythic"
+
+[[books.chapters.children]]
+title = "Entangle, Mythic"
+entry = "ref/spell/entangle/mythic"
+
+[[books.chapters.children]]
+title = "Entropic Shield, Mythic"
+entry = "ref/spell/entropic-shield/mythic"
+
+[[books.chapters.children]]
+title = "Expeditious Retreat, Mythic"
+entry = "ref/spell/expeditious-retreat/mythic"
+
+[[books.chapters.children]]
+title = "Faerie Fire, Mythic"
+entry = "ref/spell/faerie-fire/mythic"
+
+[[books.chapters.children]]
+title = "False Life, Mythic"
+entry = "ref/spell/false-life/mythic"
+
+[[books.chapters.children]]
+title = "Feast of Ashes, Mythic"
+entry = "ref/spell/feast-of-ashes/mythic"
+
+[[books.chapters.children]]
+title = "Feather Fall, Mythic"
+entry = "ref/spell/feather-fall/mythic"
+
+[[books.chapters.children]]
+title = "Finger of Death, Mythic"
+entry = "ref/spell/finger-of-death/mythic"
+
+[[books.chapters.children]]
+title = "Fire Seeds, Mythic"
+entry = "ref/spell/fire-seeds/mythic"
+
+[[books.chapters.children]]
+title = "Fire Shield, Mythic"
+entry = "ref/spell/fire-shield/mythic"
+
+[[books.chapters.children]]
+title = "Fire Snake, Mythic"
+entry = "ref/spell/fire-snake/mythic"
+
+[[books.chapters.children]]
+title = "Fire Storm, Mythic"
+entry = "ref/spell/fire-storm/mythic"
+
+[[books.chapters.children]]
+title = "Fireball, Mythic"
+entry = "ref/spell/fireball/mythic"
+
+[[books.chapters.children]]
+title = "Firestream, Mythic"
+entry = "ref/spell/firestream/mythic"
+
+[[books.chapters.children]]
+title = "Flame Blade, Mythic"
+entry = "ref/spell/flame-blade/mythic"
+
+[[books.chapters.children]]
+title = "Flame Strike, Mythic"
+entry = "ref/spell/flame-strike/mythic"
+
+[[books.chapters.children]]
+title = "Flames of the Faithful, Mythic"
+entry = "ref/spell/flames-of-the-faithful/mythic"
+
+[[books.chapters.children]]
+title = "Flesh to Stone, Mythic"
+entry = "ref/spell/flesh-to-stone/mythic"
+
+[[books.chapters.children]]
+title = "Floating Disk, Mythic"
+entry = "ref/spell/floating-disk/mythic"
+
+[[books.chapters.children]]
+title = "Fly, Mythic"
+entry = "ref/spell/fly/mythic"
+
+[[books.chapters.children]]
+title = "Fog Cloud, Mythic"
+entry = "ref/spell/fog-cloud/mythic"
+
+[[books.chapters.children]]
+title = "Force Punch, Mythic"
+entry = "ref/spell/force-punch/mythic"
+
+[[books.chapters.children]]
+title = "Foresight, Mythic"
+entry = "ref/spell/foresight/mythic"
+
+[[books.chapters.children]]
+title = "Form of the Dragon I, Mythic"
+entry = "ref/spell/form-of-the-dragon-1/mythic"
+
+[[books.chapters.children]]
+title = "Form of the Dragon II, Mythic"
+entry = "ref/spell/form-of-the-dragon-2/mythic"
+
+[[books.chapters.children]]
+title = "Form of the Dragon III, Mythic"
+entry = "ref/spell/form-of-the-dragon-3/mythic"
+
+[[books.chapters.children]]
+title = "Gaseous Form, Mythic"
+entry = "ref/spell/gaseous-form/mythic"
+
+[[books.chapters.children]]
+title = "Giant Vermin, Mythic"
+entry = "ref/spell/giant-vermin/mythic"
+
+[[books.chapters.children]]
+title = "Globe of Invulnerability, Mythic"
+entry = "ref/spell/globe-of-invulnerability/mythic"
+
+[[books.chapters.children]]
+title = "Glyph of Warding, Mythic"
+entry = "ref/spell/glyph-of-warding/mythic"
+
+[[books.chapters.children]]
+title = "Goodberry, Mythic"
+entry = "ref/spell/goodberry/mythic"
+
+[[books.chapters.children]]
+title = "Grease, Mythic"
+entry = "ref/spell/grease/mythic"
+
+[[books.chapters.children]]
+title = "Guards and Wards, Mythic"
+entry = "ref/spell/guards-and-wards/mythic"
+
+[[books.chapters.children]]
+title = "Gust of Wind, Mythic"
+entry = "ref/spell/gust-of-wind/mythic"
+
+[[books.chapters.children]]
+title = "Harm, Mythic"
+entry = "ref/spell/harm/mythic"
+
+[[books.chapters.children]]
+title = "Haste, Mythic"
+entry = "ref/spell/haste/mythic"
+
+[[books.chapters.children]]
+title = "Heal, Mythic"
+entry = "ref/spell/heal/mythic"
+
+[[books.chapters.children]]
+title = "Healing Thief, Mythic"
+entry = "ref/spell/healing-thief/mythic"
+
+[[books.chapters.children]]
+title = "Heat Metal, Mythic"
+entry = "ref/spell/heat-metal/mythic"
+
+[[books.chapters.children]]
+title = "Heroism, Mythic"
+entry = "ref/spell/heroism/mythic"
+
+[[books.chapters.children]]
+title = "Hex Ward, Mythic"
+entry = "ref/spell/hex-ward/mythic"
+
+[[books.chapters.children]]
+title = "Hideous Laughter, Mythic"
+entry = "ref/spell/hideous-laughter/mythic"
+
+[[books.chapters.children]]
+title = "Hold Portal, Mythic"
+entry = "ref/spell/hold-portal/mythic"
+
+[[books.chapters.children]]
+title = "Holy Smite, Mythic"
+entry = "ref/spell/holy-smite/mythic"
+
+[[books.chapters.children]]
+title = "Holy Word, Mythic"
+entry = "ref/spell/holy-word/mythic"
+
+[[books.chapters.children]]
+title = "Hydraulic Push, Mythic"
+entry = "ref/spell/hydraulic-push/mythic"
+
+[[books.chapters.children]]
+title = "Hydraulic Torrent, Mythic"
+entry = "ref/spell/hydraulic-torrent/mythic"
+
+[[books.chapters.children]]
+title = "Ice Storm, Mythic"
+entry = "ref/spell/ice-storm/mythic"
+
+[[books.chapters.children]]
+title = "Ill Omen, Mythic"
+entry = "ref/spell/ill-omen/mythic"
+
+[[books.chapters.children]]
+title = "Inflict Critical Wounds, Mythic"
+entry = "ref/spell/inflict-critical-wounds/mythic"
+
+[[books.chapters.children]]
+title = "Inflict Light Wounds, Mythic"
+entry = "ref/spell/inflict-light-wounds/mythic"
+
+[[books.chapters.children]]
+title = "Inflict Moderate Wounds, Mythic"
+entry = "ref/spell/inflict-moderate-wounds/mythic"
+
+[[books.chapters.children]]
+title = "Inflict Serious Wounds, Mythic"
+entry = "ref/spell/inflict-serious-wounds/mythic"
+
+[[books.chapters.children]]
+title = "Invisibility, Mythic"
+entry = "ref/spell/invisibility/mythic"
+
+[[books.chapters.children]]
+title = "Irresistible Dance, Mythic"
+entry = "ref/spell/irresistible-dance/mythic"
+
+[[books.chapters.children]]
+title = "Jitterbugs, Mythic"
+entry = "ref/spell/jitterbugs/mythic"
+
+[[books.chapters.children]]
+title = "Knock, Mythic"
+entry = "ref/spell/knock/mythic"
+
+[[books.chapters.children]]
+title = "Know the Enemy, Mythic"
+entry = "ref/spell/know-the-enemy/mythic"
+
+[[books.chapters.children]]
+title = "Levitate, Mythic"
+entry = "ref/spell/levitate/mythic"
+
+[[books.chapters.children]]
+title = "Lightning Arc, Mythic"
+entry = "ref/spell/lightning-arc/mythic"
+
+[[books.chapters.children]]
+title = "Greater Magic Fang, Mythic"
+entry = "ref/spell/magic-fang-greater/mythic"
+
+[[books.chapters.children]]
+title = "Greater Magic Weapon, Mythic"
+entry = "ref/spell/magic-weapon-greater/mythic"
+
+[[books.chapters.children]]
+title = "Lightning Bolt, Mythic"
+entry = "ref/spell/lightning-bolt/mythic"
+
+[[books.chapters.children]]
+title = "Limited Wish, Mythic"
+entry = "ref/spell/limited-wish/mythic"
+
+[[books.chapters.children]]
+title = "Mage Armor, Mythic"
+entry = "ref/spell/mage-armor/mythic"
+
+[[books.chapters.children]]
+title = "Mage's Disjunction, Mythic"
+entry = "ref/spell/mages-disjunction/mythic"
+
+[[books.chapters.children]]
+title = "Magic Fang, Mythic"
+entry = "ref/spell/magic-fang/mythic"
+
+[[books.chapters.children]]
+title = "Magic Missile, Mythic"
+entry = "ref/spell/magic-missile/mythic"
+
+[[books.chapters.children]]
+title = "Magic Vestment, Mythic"
+entry = "ref/spell/magic-vestment/mythic"
+
+[[books.chapters.children]]
+title = "Make Whole, Mythic"
+entry = "ref/spell/make-whole/mythic"
+
+[[books.chapters.children]]
+title = "Maze, Mythic"
+entry = "ref/spell/maze/mythic"
+
+[[books.chapters.children]]
+title = "Memory Lapse, Mythic"
+entry = "ref/spell/memory-lapse/mythic"
+
+[[books.chapters.children]]
+title = "Meteor Swarm, Mythic"
+entry = "ref/spell/meteor-swarm/mythic"
+
+[[books.chapters.children]]
+title = "Mighty Fist of the Earth, Mythic"
+entry = "ref/spell/mighty-fist-of-the-earth/mythic"
+
+[[books.chapters.children]]
+title = "Mirror Image, Mythic"
+entry = "ref/spell/mirror-image/mythic"
+
+[[books.chapters.children]]
+title = "Mislead, Mythic"
+entry = "ref/spell/mislead/mythic"
+
+[[books.chapters.children]]
+title = "Modify Memory, Mythic"
+entry = "ref/spell/modify-memory/mythic"
+
+[[books.chapters.children]]
+title = "Monstrous Physique I, Mythic"
+entry = "ref/spell/monstrous-physique-1/mythic"
+
+[[books.chapters.children]]
+title = "Monstrous Physique II, Mythic"
+entry = "ref/spell/monstrous-physique-2/mythic"
+
+[[books.chapters.children]]
+title = "Monstrous Physique III, Mythic"
+entry = "ref/spell/monstrous-physique-3/mythic"
+
+[[books.chapters.children]]
+title = "Monstrous Physique IV, Mythic"
+entry = "ref/spell/monstrous-physique-4/mythic"
+
+[[books.chapters.children]]
+title = "Move Earth, Mythic"
+entry = "ref/spell/move-earth/mythic"
+
+[[books.chapters.children]]
+title = "Murderous Command, Mythic"
+entry = "ref/spell/murderous-command/mythic"
+
+[[books.chapters.children]]
+title = "Named Bullet, Mythic"
+entry = "ref/spell/named-bullet/mythic"
+
+[[books.chapters.children]]
+title = "Nightmare, Mythic"
+entry = "ref/spell/nightmare/mythic"
+
+[[books.chapters.children]]
+title = "Oath of Peace, Mythic"
+entry = "ref/spell/oath-of-peace/mythic"
+
+[[books.chapters.children]]
+title = "Obscuring Mist, Mythic"
+entry = "ref/spell/obscuring-mist/mythic"
+
+[[books.chapters.children]]
+title = "Orb of the Void, Mythic"
+entry = "ref/spell/orb-of-the-void/mythic"
+
+[[books.chapters.children]]
+title = "Order's Wrath, Mythic"
+entry = "ref/spell/orders-wrath/mythic"
+
+[[books.chapters.children]]
+title = "Pernicious Poison, Mythic"
+entry = "ref/spell/pernicious-poison/mythic"
+
+[[books.chapters.children]]
+title = "Phantasmal Killer, Mythic"
+entry = "ref/spell/phantasmal-killer/mythic"
+
+[[books.chapters.children]]
+title = "Phantom Steed, Mythic"
+entry = "ref/spell/phantom-steed/mythic"
+
+[[books.chapters.children]]
+title = "Pillar of Life, Mythic"
+entry = "ref/spell/pillar-of-life/mythic"
+
+[[books.chapters.children]]
+title = "Plane Shift, Mythic"
+entry = "ref/spell/plane-shift/mythic"
+
+[[books.chapters.children]]
+title = "Polar Ray, Mythic"
+entry = "ref/spell/polar-ray/mythic"
+
+[[books.chapters.children]]
+title = "Power Word Blind, Mythic"
+entry = "ref/spell/power-word-blind/mythic"
+
+[[books.chapters.children]]
+title = "Power Word Kill, Mythic"
+entry = "ref/spell/power-word-kill/mythic"
+
+[[books.chapters.children]]
+title = "Power Word Stun, Mythic"
+entry = "ref/spell/power-word-stun/mythic"
+
+[[books.chapters.children]]
+title = "Pox Pustules, Mythic"
+entry = "ref/spell/pox-pustules/mythic"
+
+[[books.chapters.children]]
+title = "Prayer, Mythic"
+entry = "ref/spell/prayer/mythic"
+
+[[books.chapters.children]]
+title = "Prismatic Sphere, Mythic"
+entry = "ref/spell/prismatic-sphere/mythic"
+
+[[books.chapters.children]]
+title = "Prismatic Spray, Mythic"
+entry = "ref/spell/prismatic-spray/mythic"
+
+[[books.chapters.children]]
+title = "Protection from Arrows, Mythic"
+entry = "ref/spell/protection-from-arrows/mythic"
+
+[[books.chapters.children]]
+title = "Protection from Chaos, Mythic"
+entry = "ref/spell/protection-from-chaos/mythic"
+
+[[books.chapters.children]]
+title = "Protection from Evil, Mythic"
+entry = "ref/spell/protection-from-evil/mythic"
+
+[[books.chapters.children]]
+title = "Protection from Good, Mythic"
+entry = "ref/spell/protection-from-good/mythic"
+
+[[books.chapters.children]]
+title = "Protection from Law, Mythic"
+entry = "ref/spell/protection-from-law/mythic"
+
+[[books.chapters.children]]
+title = "Ray of Enfeeblement, Mythic"
+entry = "ref/spell/ray-of-enfeeblement/mythic"
+
+[[books.chapters.children]]
+title = "Reduce Person, Mythic"
+entry = "ref/spell/reduce-person/mythic"
+
+[[books.chapters.children]]
+title = "Regenerate, Mythic"
+entry = "ref/spell/regenerate/mythic"
+
+[[books.chapters.children]]
+title = "Repel Wood, Mythic"
+entry = "ref/spell/repel-wood/mythic"
+
+[[books.chapters.children]]
+title = "Resist Energy, Mythic"
+entry = "ref/spell/resist-energy/mythic"
+
+[[books.chapters.children]]
+title = "Resonating Word, Mythic"
+entry = "ref/spell/resonating-word/mythic"
+
+[[books.chapters.children]]
+title = "Reverse Gravity, Mythic"
+entry = "ref/spell/reverse-gravity/mythic"
+
+[[books.chapters.children]]
+title = "Ricochet Shot, Mythic"
+entry = "ref/spell/ricochet-shot/mythic"
+
+[[books.chapters.children]]
+title = "Sacred Bond, Mythic"
+entry = "ref/spell/sacred-bond/mythic"
+
+[[books.chapters.children]]
+title = "Sanctify Armor, Mythic"
+entry = "ref/spell/sanctify-armor/mythic"
+
+[[books.chapters.children]]
+title = "Sanctuary, Mythic"
+entry = "ref/spell/sanctuary/mythic"
+
+[[books.chapters.children]]
+title = "Sands of Time, Mythic"
+entry = "ref/spell/sands-of-time/mythic"
+
+[[books.chapters.children]]
+title = "Saving Finale, Mythic"
+entry = "ref/spell/saving-finale/mythic"
+
+[[books.chapters.children]]
+title = "Scorching Ash Form, Mythic"
+entry = "ref/spell/scorching-ash-form/mythic"
+
+[[books.chapters.children]]
+title = "Scorching Ray, Mythic"
+entry = "ref/spell/scorching-ray/mythic"
+
+[[books.chapters.children]]
+title = "Scouring Winds, Mythic"
+entry = "ref/spell/scouring-winds/mythic"
+
+[[books.chapters.children]]
+title = "Searing Light, Mythic"
+entry = "ref/spell/searing-light/mythic"
+
+[[books.chapters.children]]
+title = "Sending, Mythic"
+entry = "ref/spell/sending/mythic"
+
+[[books.chapters.children]]
+title = "Shadow Anchor, Mythic"
+entry = "ref/spell/shadow-anchor/mythic"
+
+[[books.chapters.children]]
+title = "Shadow Weapon, Mythic"
+entry = "ref/spell/shadow-weapon/mythic"
+
+[[books.chapters.children]]
+title = "Shatter, Mythic"
+entry = "ref/spell/shatter/mythic"
+
+[[books.chapters.children]]
+title = "Shield of Faith, Mythic"
+entry = "ref/spell/shield-of-faith/mythic"
+
+[[books.chapters.children]]
+title = "Shield Other, Mythic"
+entry = "ref/spell/shield-other/mythic"
+
+[[books.chapters.children]]
+title = "Shocking Grasp, Mythic"
+entry = "ref/spell/shocking-grasp/mythic"
+
+[[books.chapters.children]]
+title = "Shout, Mythic"
+entry = "ref/spell/shout/mythic"
+
+[[books.chapters.children]]
+title = "Silence, Mythic"
+entry = "ref/spell/silence/mythic"
+
+[[books.chapters.children]]
+title = "Silent Image, Mythic"
+entry = "ref/spell/silent-image/mythic"
+
+[[books.chapters.children]]
+title = "Sleep, Mythic"
+entry = "ref/spell/sleep/mythic"
+
+[[books.chapters.children]]
+title = "Slow, Mythic"
+entry = "ref/spell/slow/mythic"
+
+[[books.chapters.children]]
+title = "Solid Fog, Mythic"
+entry = "ref/spell/solid-fog/mythic"
+
+[[books.chapters.children]]
+title = "Spider Climb, Mythic"
+entry = "ref/spell/spider-climb/mythic"
+
+[[books.chapters.children]]
+title = "Spike Stones, Mythic"
+entry = "ref/spell/spike-stones/mythic"
+
+[[books.chapters.children]]
+title = "Spiritual Weapon, Mythic"
+entry = "ref/spell/spiritual-weapon/mythic"
+
+[[books.chapters.children]]
+title = "Stinking Cloud, Mythic"
+entry = "ref/spell/stinking-cloud/mythic"
+
+[[books.chapters.children]]
+title = "Stone Shape, Mythic"
+entry = "ref/spell/stone-shape/mythic"
+
+[[books.chapters.children]]
+title = "Stoneskin, Mythic"
+entry = "ref/spell/stoneskin/mythic"
+
+[[books.chapters.children]]
+title = "Storm of Vengeance, Mythic"
+entry = "ref/spell/storm-of-vengeance/mythic"
+
+[[books.chapters.children]]
+title = "Strangling Hair, Mythic"
+entry = "ref/spell/strangling-hair/mythic"
+
+[[books.chapters.children]]
+title = "Suggestion, Mythic"
+entry = "ref/spell/suggestion/mythic"
+
+[[books.chapters.children]]
+title = "Summon Swarm, Mythic"
+entry = "ref/spell/summon-swarm/mythic"
+
+[[books.chapters.children]]
+title = "Sun Metal, Mythic"
+entry = "ref/spell/sun-metal/mythic"
+
+[[books.chapters.children]]
+title = "Sunbeam, Mythic"
+entry = "ref/spell/sunbeam/mythic"
+
+[[books.chapters.children]]
+title = "Surmount Affliction, Mythic"
+entry = "ref/spell/surmount-affliction/mythic"
+
+[[books.chapters.children]]
+title = "Telekinesis, Mythic"
+entry = "ref/spell/telekinesis/mythic"
+
+[[books.chapters.children]]
+title = "Theft Ward, Mythic"
+entry = "ref/spell/theft-ward/mythic"
+
+[[books.chapters.children]]
+title = "Time Stop, Mythic"
+entry = "ref/spell/time-stop/mythic"
+
+[[books.chapters.children]]
+title = "Touch Injection, Mythic"
+entry = "ref/spell/touch-injection/mythic"
+
+[[books.chapters.children]]
+title = "Transformation, Mythic"
+entry = "ref/spell/transformation/mythic"
+
+[[books.chapters.children]]
+title = "True Form, Mythic"
+entry = "ref/spell/true-form/mythic"
+
+[[books.chapters.children]]
+title = "True Strike, Mythic"
+entry = "ref/spell/true-strike/mythic"
+
+[[books.chapters.children]]
+title = "Tsunami, Mythic"
+entry = "ref/spell/tsunami/mythic"
+
+[[books.chapters.children]]
+title = "Unholy Blight, Mythic"
+entry = "ref/spell/unholy-blight/mythic"
+
+[[books.chapters.children]]
+title = "Unshakable Chill, Mythic"
+entry = "ref/spell/unshakable-chill/mythic"
+
+[[books.chapters.children]]
+title = "Vampiric Touch, Mythic"
+entry = "ref/spell/vampiric-touch/mythic"
+
+[[books.chapters.children]]
+title = "Vomit Twin, Mythic"
+entry = "ref/spell/vomit-twin/mythic"
+
+[[books.chapters.children]]
+title = "Walk through Space, Mythic"
+entry = "ref/spell/walk-through-space/mythic"
+
+[[books.chapters.children]]
+title = "Wall of Fire, Mythic"
+entry = "ref/spell/wall-of-fire/mythic"
+
+[[books.chapters.children]]
+title = "Wall of Force, Mythic"
+entry = "ref/spell/wall-of-force/mythic"
+
+[[books.chapters.children]]
+title = "Wall of Ice, Mythic"
+entry = "ref/spell/wall-of-ice/mythic"
+
+[[books.chapters.children]]
+title = "Wall of Iron, Mythic"
+entry = "ref/spell/wall-of-iron/mythic"
+
+[[books.chapters.children]]
+title = "Wall of Stone, Mythic"
+entry = "ref/spell/wall-of-stone/mythic"
+
+[[books.chapters.children]]
+title = "Wall of Thorns, Mythic"
+entry = "ref/spell/wall-of-thorns/mythic"
+
+[[books.chapters.children]]
+title = "Web, Mythic"
+entry = "ref/spell/web/mythic"
+
+[[books.chapters.children]]
+title = "Whirlwind, Mythic"
+entry = "ref/spell/whirlwind/mythic"
+
+[[books.chapters.children]]
+title = "Wish, Mythic"
+entry = "ref/spell/wish/mythic"
+
+[[books.chapters.children]]
+title = "Word of Chaos, Mythic"
+entry = "ref/spell/word-of-chaos/mythic"
+
+[[books.chapters.children]]
 title = "Ascension"
 entry = "ref/spell/ascension"
+
+[[books.chapters.children]]
+title = "Ascension, Mythic"
+entry = "ref/spell/ascension/mythic"
 
 [[books.chapters.children]]
 title = "Bleed Glory"
@@ -40265,6 +41341,10 @@ entry = "ref/spell/bleed-glory"
 [[books.chapters.children]]
 title = "Deathless"
 entry = "ref/spell/deathless"
+
+[[books.chapters.children]]
+title = "Deathless, Mythic"
+entry = "ref/spell/deathless/mythic"
 
 [[books.chapters.children]]
 title = "Lend Path"
@@ -115384,6 +116464,10 @@ title = "Spawn Calling"
 entry = "ref/spell/spawn-calling"
 
 [[books.chapters.children]]
+title = "Spawn Calling, Mythic"
+entry = "ref/spell/spawn-calling/mythic"
+
+[[books.chapters.children]]
 title = "Spell Gauge"
 entry = "ref/spell/spell-gauge"
 
@@ -128722,28 +129806,56 @@ title = "Aroden's Spellbane"
 entry = "ref/spell/arodens-spellbane"
 
 [[books.chapters.children]]
+title = "Aroden's Spellbane, Mythic"
+entry = "ref/spell/arodens-spellbane/mythic"
+
+[[books.chapters.children]]
 title = "Covetous Aura"
 entry = "ref/spell/covetous-aura"
+
+[[books.chapters.children]]
+title = "Covetous Aura, Mythic"
+entry = "ref/spell/covetous-aura/mythic"
 
 [[books.chapters.children]]
 title = "Crusader's Edge"
 entry = "ref/spell/crusaders-edge"
 
 [[books.chapters.children]]
+title = "Crusader's Edge, Mythic"
+entry = "ref/spell/crusaders-edge/mythic"
+
+[[books.chapters.children]]
 title = "Dirge of the Victorious Knights"
 entry = "ref/spell/dirge-of-the-victorious-knights"
+
+[[books.chapters.children]]
+title = "Dirge of the Victorious Knights, Mythic"
+entry = "ref/spell/dirge-of-the-victorious-knights/mythic"
 
 [[books.chapters.children]]
 title = "Fleshcurdle"
 entry = "ref/spell/fleshcurdle"
 
 [[books.chapters.children]]
+title = "Fleshcurdle, Mythic"
+entry = "ref/spell/fleshcurdle/mythic"
+
+[[books.chapters.children]]
 title = "Geniekind"
 entry = "ref/spell/geniekind"
 
 [[books.chapters.children]]
+title = "Geniekind, Mythic"
+entry = "ref/spell/geniekind/mythic"
+
+[[books.chapters.children]]
 title = "Gorum's Armor"
 entry = "ref/spell/gorums-armor"
+
+[[books.chapters.children]]
+title = "Gorum's Armor, Mythic"
+entry = "ref/spell/gorums-armor/mythic"
 
 [[books.chapters.children]]
 title = "Greater Harrowing"
@@ -128754,6 +129866,10 @@ title = "Harrowing"
 entry = "ref/spell/harrowing"
 
 [[books.chapters.children]]
+title = "Harrowing, Mythic"
+entry = "ref/spell/harrowing/mythic"
+
+[[books.chapters.children]]
 title = "Greater Shield of the Dawnflower"
 entry = "ref/spell/shield-of-the-dawnflower-greater"
 
@@ -128762,32 +129878,64 @@ title = "Shield of the Dawnflower"
 entry = "ref/spell/shield-of-the-dawnflower"
 
 [[books.chapters.children]]
+title = "Shield of the Dawnflower, Mythic"
+entry = "ref/spell/shield-of-the-dawnflower/mythic"
+
+[[books.chapters.children]]
 title = "Vermin Shape I"
 entry = "ref/spell/vermin-shape-1"
+
+[[books.chapters.children]]
+title = "Vermin Shape I, Mythic"
+entry = "ref/spell/vermin-shape-1/mythic"
 
 [[books.chapters.children]]
 title = "Vermin Shape II"
 entry = "ref/spell/vermin-shape-2"
 
 [[books.chapters.children]]
+title = "Vermin Shape II, Mythic"
+entry = "ref/spell/vermin-shape-2/mythic"
+
+[[books.chapters.children]]
 title = "Waters of Lamashtu"
 entry = "ref/spell/waters-of-lamashtu"
+
+[[books.chapters.children]]
+title = "Waters of Lamashtu, Mythic"
+entry = "ref/spell/waters-of-lamashtu/mythic"
 
 [[books.chapters.children]]
 title = "Borrowed Time"
 entry = "ref/spell/borrowed-time"
 
 [[books.chapters.children]]
+title = "Borrowed Time, Mythic"
+entry = "ref/spell/borrowed-time/mythic"
+
+[[books.chapters.children]]
 title = "Elemental Bombardment"
 entry = "ref/spell/elemental-bombardment"
+
+[[books.chapters.children]]
+title = "Elemental Bombardment, Mythic"
+entry = "ref/spell/elemental-bombardment/mythic"
 
 [[books.chapters.children]]
 title = "Imbue with Flight"
 entry = "ref/spell/imbue-with-flight"
 
 [[books.chapters.children]]
+title = "Imbue with Flight, Mythic"
+entry = "ref/spell/imbue-with-flight/mythic"
+
+[[books.chapters.children]]
 title = "Soulreaver"
 entry = "ref/spell/soulreaver"
+
+[[books.chapters.children]]
+title = "Soulreaver, Mythic"
+entry = "ref/spell/soulreaver/mythic"
 
 [[books.chapters.children]]
 title = "Sustaining Legend"

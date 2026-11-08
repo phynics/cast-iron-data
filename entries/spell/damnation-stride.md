@@ -2,7 +2,7 @@
 id = "ref/spell/damnation-stride"
 kind = "spell"
 title = "Damnation Stride"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damnation_stride", path = "json/spells3.json" },
 ]
@@ -54,15 +54,3 @@ Descriptors: fire
 This spell functions like dimension door, except you leave behind a burst of fire. Choose one corner
 of your starting square. A 10-foot-radius burst of flame explodes from that corner the moment you
 leave, dealing 4d6 points of fire damage.
-
-### Mythic Damnation Stride
-
-**Sources:** Mythic Adventures pg 90\
-The burst of fire created reeks of sulfur and brimstone and also acts like stinking cloud (with the
-same duration as that spell and a separate Fortitude save).
-
-_Augmented (6th):_ If you expend two uses of mythic power, you bring one unwilling adjacent creature
-with you. You may bring additional creatures, but each must be adjacent to you and each requires you
-to expend one additional use of mythic power. These creatures must first attempt a saving throw
-against the burst of flame and stinking cloud, then can attempt a Will saving throw to resist being
-teleported with you.

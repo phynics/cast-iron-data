@@ -2,7 +2,7 @@
 id = "ref/spell/hideous-laughter"
 kind = "spell"
 title = "Hideous Laughter"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hideous_laughter", path = "json/spells5.json" },
 ]
@@ -61,19 +61,3 @@ for the entire duration.
 A creature with an Intelligence score of 2 or lower is not affected. A creature whose type is
 different from the caster's receives a +4 bonus on its saving throw, because humor doesn't
 "translate" well.
-
-### Mythic Hideous Laughter
-
-**Sources:** Mythic Adventures pg 98\
-A creature of a type different than your own doesn't gain a bonus on its saving throws against this
-spell. The affected target laughs so hard it hurts, and takes 1d6 points of nonlethal damage each
-round it spends laughing.
-
-If the target fails its initial save, it must succeed at two follow-up saving throws (each a
-full-round action that doesn't provoke attacks of opportunity) to end the spell. Succeeding at only
-one save means the spell no longer deals damage, but the target is still unable to take actions.
-
-_Augmented:_ If you expend two uses of mythic power, the target's laughter becomes contagious. When
-the target's allies are within 30 feet and can hear the laugh, they must successfully save against
-the spell or be sickened until the target stops laughing. The sickened effect ends if the ally moves
-more than 30 feet from the target or is unable to hear the target's laughter for an entire round.

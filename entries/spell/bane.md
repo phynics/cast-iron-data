@@ -2,7 +2,7 @@
 id = "ref/spell/bane"
 kind = "spell"
 title = "Bane"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bane", path = "json/spells12.json" },
 ]
@@ -52,9 +52,3 @@ Descriptors: emotion, fear, mind-affecting
 Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack
 rolls and a -1 penalty on saving throws against fear effects. Bane counters and dispels
 [bless](ref/spell/bless).
-
-### Mythic Bane
-
-**Sources:** Mythic Adventures pg 85\
-The -1 penalty applies on attack rolls, weapon damage rolls, and all saving throws. Each affected
-creature must roll its next attack roll or saving throw twice and take the lower result.

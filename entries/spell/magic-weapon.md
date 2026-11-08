@@ -2,7 +2,7 @@
 id = "ref/spell/magic-weapon"
 kind = "spell"
 title = "Magic Weapon"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_weapon", path = "json/spells6.json" },
 ]
@@ -57,14 +57,3 @@ does not stack with a masterwork weapon's +1 bonus on attack rolls.
 
 You can't cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang).
 A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell.
-
-### Greater Mythic Magic Weapon
-
-**Sources:** Mythic Adventures pg 100
-
-You can add one of the following weapon special abilities to the weapon: flaming, frost, keen,
-merciful, shock, or thundering.
-
-_Augmented (5th):_ If you expend two uses of mythic power, you can reduce the granted enhancement
-bonus by 1 to add two of the above abilities or one of the following abilities: anarchic, axiomatic,
-flaming burst, holy, icy burst, shocking burst, or unholy.

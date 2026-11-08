@@ -2,7 +2,7 @@
 id = "ref/spell/divine-favor"
 kind = "spell"
 title = "Divine Favor"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_favor", path = "json/spells13.json" },
 ]
@@ -46,10 +46,3 @@ Target: you
 Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon
 damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't
 apply to spell damage.
-
-### Mythic Divine Favor
-
-**Sources:** Mythic Adventures pg 92\
-You also gain the luck bonus on saving throws and skill checks. Alternatively, you can cast this
-spell on another willing creature, changing the range to touch and target to living creature
-touched.

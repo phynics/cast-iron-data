@@ -2,7 +2,7 @@
 id = "ref/spell/cape-of-wasps"
 kind = "spell"
 title = "Cape of Wasps"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_wasps", path = "json/spells2.json" },
 ]
@@ -51,13 +51,3 @@ free action on your turn, you may have the swarm cling to you tightly, giving yo
 feet (poor maneuverability); when using the swarm to fly, it does not provide concealment or harm
 creatures that strike you. You can return the swarm to its protective shape as a free action on your
 turn.
-
-### Mythic Cape of Wasps
-
-**Sources:** Mythic Adventures pg 87\
-The wasp swarm fills a 15-foot-by-15-foot space centered on you (or on 1 of your squares, if your
-space is larger than 1 square). Creatures in the area of the swarm are affected by it normally
-(including the swarm's distraction ability). Add your tier to the swarm's distraction DC.
-
-When you use the swarm to fly, it fills only your space, your fly speed is 30 feet (average
-maneuverability), and the swarm still provides partial concealment against ranged attacks.

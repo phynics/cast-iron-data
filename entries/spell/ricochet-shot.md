@@ -2,7 +2,7 @@
 id = "ref/spell/ricochet-shot"
 kind = "spell"
 title = "Ricochet Shot"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ricochet_shot", path = "json/spells8.json" },
 ]
@@ -55,13 +55,3 @@ While the spell lasts, the target weapon's wielder can ricochet one projectile p
 levels you possess, to a maximum of six at caster level 18th. Once the target weapon's wielder
 ricochets that many shots, the spell is discharged. If the weapon's wielder fails to use all the
 ricochets before the spell end, those ricochets are wasted.
-
-### Mythic Ricochet Shot
-
-**Sources:** Mythic Adventures pg 106\
-If the attack hits the secondary target, the wielder can select a tertiary target within 20 feet of
-the secondary target. This functions like a ricochet off the primary target. The tertiary target
-must be a different creature than the primary target.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the secondary and tertiary attacks gain
-the enhancement bonus and magic qualities of the attack against the primary target.

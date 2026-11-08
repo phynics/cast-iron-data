@@ -2,7 +2,7 @@
 id = "ref/spell/touch-injection"
 kind = "spell"
 title = "Touch Injection"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_injection", path = "json/spells10.json" },
 ]
@@ -58,9 +58,3 @@ for you to use later.
 This spell protects you from poison in the sac, but unless you have the poison use class feature,
 you suffer a 5% chance of exposing yourself to the poison when you first cast the spell. If you roll
 a natural 1 while attempting to inject the poison into an enemy, you are exposed to it.
-
-### Mythic Touch Injection
-
-**Sources:** Mythic Adventures pg 110\
-Add half your tier to the DC of a poison or potion you inject into another creature with this spell.
-If you do this with a substance that grants a skill bonus, add your tier to that skill bonus.

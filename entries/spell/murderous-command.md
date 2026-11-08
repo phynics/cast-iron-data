@@ -2,7 +2,7 @@
 id = "ref/spell/murderous-command"
 kind = "spell"
 title = "Murderous Command"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_command", path = "json/spells7.json" },
 ]
@@ -55,14 +55,3 @@ ability. The target attacks its nearest ally on its next turn with a melee weapo
 If necessary, it moves to or charges to the nearest ally in order to make this attack. If it is
 unable to reach its closest ally on its next turn, the target uses its turn to get as close as
 possible to the ally.
-
-### Mythic Murderous Command
-
-**Sources:** Mythic Adventures pg 102\
-This spell lasts for a number of rounds equal to your tier. Each round after the first, the target
-can attempt a new saving throw at the beginning of its turn to break free of the spell.
-
-_Augmented:_ If you expend two uses of mythic power, the target attacks its nearest ally with its
-most powerful spell, [spell-like ability](ref/umr/spell-like-abilities), or supernatural ability. If
-it has no such ability, it attacks the ally with a melee weapon or natural weapon as normal and
-gains a +4 morale bonus on the attack and damage rolls.

@@ -2,7 +2,7 @@
 id = "ref/spell/spiritual-weapon"
 kind = "spell"
 title = "Spiritual Weapon"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_weapon", path = "json/spells9.json" },
 ]
@@ -84,10 +84,3 @@ without a deity gets a weapon based on his alignment. A neutral cleric without a
 spiritual weapon of any alignment, provided he is acting at least generally in accord with that
 alignment at the time. The weapons associated with each alignment are as follows: chaos (battleaxe),
 evil (light flail), good (warhammer), law (longsword).
-
-### Mythic Spiritual Weapon
-
-**Sources:** Mythic Adventures pg 109\
-The weapon gains your choice of one of the following magic weapon special abilities: flaming, frost,
-keen, merciful, shock, or thundering. Before or after the weapon attempts all of its attacks for the
-round, you can redirect it to a different target as a swift action instead of a move action

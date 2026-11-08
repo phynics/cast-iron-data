@@ -2,7 +2,7 @@
 id = "ref/spell/nightmare"
 kind = "spell"
 title = "Nightmare"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare", path = "json/spells7.json" },
 ]
@@ -92,17 +92,6 @@ You are defenseless, both physically and mentally, while in the trance. (You alw
 Will saving throws, for example.)
 
 Creatures who don't sleep (such as outsiders) or dream are immune to this spell.
-
-### Mythic Nightmare
-
-**Sources:** Mythic Adventures pg 102\
-The spell's damage increases to 4d6 points of damage, and the target is also shaken for 24 hours.
-
-_Augmented (6th):_ You can deliver a mind-affecting spell through a mythic nightmare. The maximum
-level of the delivered spell is equal to half your tier, and you must expend one use of mythic power
-for each spell level of the imbued spell in addition to the one use needed to cast mythic nightmare.
-You choose whether the delivered spell affects the creature immediately or when it awakens. The
-delivered spell affects only the target, even if it normally affects multiple creatures or an area.
 
 ###### ^1^ {#footnote-n}
 

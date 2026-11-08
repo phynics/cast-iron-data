@@ -2,7 +2,7 @@
 id = "ref/spell/move-earth"
 kind = "spell"
 title = "Move Earth"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "move_earth", path = "json/spells7.json" },
 ]
@@ -61,11 +61,3 @@ The spell cannot be used for tunneling and is generally too slow to trap or bury
 primary use is for digging or filling moats or for adjusting terrain contours before a battle.
 
 This spell has no effect on earth creatures.
-
-### Mythic Move Earth
-
-**Sources:** Mythic Adventures pg 102\
-This spell can move earth much more quickly, with each full round of casting allowing you to reshape
-a 25-foot-square area up to 10 feet deep. All creatures on or under the ground within that area are
-knocked prone and moved to the closest square outside the area being shaped. A successful Reflex
-save prevents a creature from being knocked prone, but it's still moved.

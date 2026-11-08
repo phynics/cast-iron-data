@@ -2,7 +2,7 @@
 id = "ref/spell/holy-smite"
 kind = "spell"
 title = "Holy Smite"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_smite", path = "json/spells5.json" },
 ]
@@ -55,11 +55,3 @@ blinded effect.
 The spell deals only half damage to creatures who are neither good nor evil, and they are not
 blinded. Such a creature can reduce that damage by half (down to one-quarter of the roll) with a
 successful Will save.
-
-### Mythic Holy Smite
-
-**Sources:** Mythic Adventures pg 98\
-The damage dealt to evil outsiders increases to 1d10 points of damage per caster level (maximum
-10d10) and the damage dealt to other evil creatures increases to 1d12 points of damage per 2 caster
-levels (maximum 5d12). The duration that creatures in the area are blinded increases to 2 rounds. On
-a successful save, an evil creature is blinded for 1 round.

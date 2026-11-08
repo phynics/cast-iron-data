@@ -2,7 +2,7 @@
 id = "ref/spell/fire-seeds"
 kind = "spell"
 title = "Fire Seeds"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_seeds", path = "json/spells4.json" },
 ]
@@ -64,12 +64,3 @@ tossed only 5 feet). If you are within 200 feet and speak a word of command, eac
 bursts into flame, causing 1d8 points of fire damage + 1 point per caster level to every creature in
 a 5-foot-radius burst and igniting any combustible materials within 5 feet. A creature in the area
 that makes a successful Reflex saving throw takes only half damage.
-
-### Mythic Fire Seeds
-
-**Sources:** Mythic Adventures pg 94\
-Each acorn's damage increases to 1d6 points of fire damage per caster level (maximum 20d6 for all
-acorns, no more than 10d6 for any particular acorn). Each holly berry's damage increases to 2d6
-points of fire damage + 2 points per caster level. Any creature that fails its Reflex save against
-an acorn or holly berry catches on fire, taking 2d6 points of fire damage each round until the fire
-is extinguished. Attempts to extinguish this fire use the spell's save DC.

@@ -2,7 +2,7 @@
 id = "ref/spell/desecrate"
 kind = "spell"
 title = "Desecrate"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desecrate", path = "json/spells3.json" },
 ]
@@ -64,10 +64,3 @@ connection with the associated deity or power. This secondary function, if used,
 the bonuses and penalties relating to undead, as given above.
 
 Desecrate counters and dispels [consecrate](ref/spell/consecrate).
-
-### Mythic Desecrate
-
-**Sources:** Mythic Adventures pg 90\
-Select one alignment component that you have (chaotic, evil, or lawful). Outsiders with the opposite
-alignment subtype of the chosen alignment component take a -1 penalty on attack rolls, damage rolls,
-and saves in the area.

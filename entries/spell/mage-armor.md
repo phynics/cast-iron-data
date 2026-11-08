@@ -2,7 +2,7 @@
 id = "ref/spell/mage-armor"
 kind = "spell"
 title = "Mage Armor"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mage_armor", path = "json/spells6.json" },
 ]
@@ -58,10 +58,3 @@ armor bonus to AC.
 Unlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or
 speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way
 they do normal armor.
-
-### Mythic Mage Armor
-
-**Sources:** Mythic Adventures pg 100\
-The armor bonus increases to +6. There is a 50% chance that any critical hit or sneak attack made
-against the target is negated and treated as a normal hit, as if the target were wearing moderate
-fortification armor.

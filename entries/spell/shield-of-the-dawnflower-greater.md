@@ -2,7 +2,7 @@
 id = "ref/spell/shield-of-the-dawnflower-greater"
 kind = "spell"
 title = "Greater Shield of the Dawnflower"
-source_ids = ["inner-sea-world-guide", "gods-and-magic", "mythic-origins", "inner-sea-gods"]
+source_ids = ["inner-sea-world-guide", "gods-and-magic", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_the_dawnflower_greater", path = "json/spells9.json" },
 ]
@@ -45,17 +45,6 @@ Saving throw: see text
 Spell resistance: no
 Descriptors: fire, good, light
 :::
-
-### Mythic Shield of the Dawnflower
-
-**Sources:** Mythic Origins pg 13
-
-The disk of sunlight protects you as a buckler with a +1 enhancement bonus per 4 caster levels
-(maximum +5).
-
-You can make a melee touch attack with your shield of the Dawnflower in place of a normal attack to
-deal its fire damage to a creature. Creatures taking damage from your shield catch on fire (Reflex
-negates); the save DC to extinguish the fire is equal to the DC of the spell.
 
 ### Greater Shield of the Dawnflower
 

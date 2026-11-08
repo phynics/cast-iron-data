@@ -2,7 +2,7 @@
 id = "ref/spell/disintegrate"
 kind = "spell"
 title = "Disintegrate"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disintegrate", path = "json/spells13.json" },
 ]
@@ -62,17 +62,3 @@ entirely disintegrated.
 
 Only the first creature or object struck can be affected; that is, the ray affects only one target
 per casting.
-
-### Mythic Disintegrate
-
-**Sources:** Mythic Adventures pg 91\
-The damage dealt increases to 3d6 points of damage per caster level (maximum 60d6) plus 1d4 points
-of Constitution damage.
-
-A creature that succeeds at its saving throw takes 5d8 points of damage plus 1 point of Constitution
-damage. A creature whose Constitution score is reduced to 0 by this spell is entirely disintegrated.
-
-_Augmented (7th):_ If you expend two uses of mythic power, you fire two rays.
-
-Alternatively, you may fire only one ray, but if the target is a non-mythic creature and it fails
-its saving throw, it's automatically disintegrated regardless of its current hp.

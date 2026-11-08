@@ -54,11 +54,3 @@ The targets retain their mythic tier only while they're within 100 feet of the s
 component. A target that goes outside this range loses its mythic tier, but instantly regains it if
 it moves into range again. If the focus component is destroyed while the spell is in effect, the
 spell immediately ends and all targets gain 1d4 permanent negative levels.
-
-### Mythic Ascension
-
-**Sources:** Mythic Adventures pg 113\
-If you expend one use of mythic power when casting this spell, the duration increases to 1 day per
-level, and you can use yourself as the focus for this spell instead of a lesser artifact. If you're
-the focus, the targets retain their mythic tier only while they're within 100 feet of you, and if
-you die, the spell immediately ends and all targets gain 1d4 permanent negative levels.

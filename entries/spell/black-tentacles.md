@@ -2,7 +2,7 @@
 id = "ref/spell/black-tentacles"
 kind = "spell"
 title = "Black Tentacles"
-source_ids = ["core-rulebook", "mythic-adventures", "dirty-tactics-toolbox"]
+source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_tentacles", path = "json/spells12.json" },
 ]
@@ -72,15 +72,3 @@ grapple, is equal to 10 + its CMB.
 
 The tentacles created by this spell cannot be damaged, but they can be dispelled as normal. The
 entire area of effect is considered difficult terrain while the tentacles last.
-
-### Mythic Black Tentacles
-
-**Sources:** Mythic Adventures pg 85
-
-Add your tier to the base attack bonus of the tentacles. The tentacles also deal an additional 2d6
-points of acid damage with a successful grapple.
-
-_Augmented (6th):_ If you expend two uses of mythic power, the spell creates twice as many tentacles
-in the same area, meaning each creature in the area is attacked twice per round. The tentacles can
-grapple creatures that are immune to grappling if that immunity is from a non-mythic source, but
-combat maneuver checks to grapple such creatures take a -5 penalty.

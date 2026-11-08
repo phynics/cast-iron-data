@@ -1,0 +1,21 @@
++++
+id = "ref/spell/protection-from-evil/mythic"
+kind = "rule"
+title = "Protection from Evil, Mythic"
+source_ids = ["mythic-adventures"]
+relations = [
+  { kind = "addon", target = "ref/spell/protection-from-evil", label = "mythic" },
+]
+
+[fields]
+kind = "none"
++++
+
+**Sources:** Mythic Adventures pg 105
+
+The bonuses to AC and on saves increase to +4. Any evil creature attempting to possess or exercise
+mental control over the target must attempt a Will save against this spell. If it fails, the
+creature takes 1d6 points of damage per 2 caster levels (maximum 5d6) from mental feedback. An evil
+creature that uses [spell resistance](ref/rule/spell-resistance) to bypass the spell's protection
+against contact must successfully save or take this damage once each round it attacks the protected
+target.

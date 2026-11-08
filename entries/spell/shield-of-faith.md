@@ -2,7 +2,7 @@
 id = "ref/spell/shield-of-faith"
 kind = "spell"
 title = "Shield of Faith"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_faith", path = "json/spells9.json" },
 ]
@@ -45,8 +45,3 @@ Target: creature touched
 This spell creates a shimmering, magical field around the target that averts and deflects attacks.
 The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for
 every six levels you have (maximum +5 deflection bonus at 18th level).
-
-### Mythic Shield of Faith
-
-**Sources:** Mythic Adventures pg 108\
-Add half your tier to the spell's deflection bonus.

@@ -2,7 +2,7 @@
 id = "ref/spell/time-stop"
 kind = "spell"
 title = "Time Stop"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_stop", path = "json/spells10.json" },
 ]
@@ -56,15 +56,3 @@ affect any item that is not in another creature's possession.
 
 You are undetectable while time stop lasts. You cannot enter an area protected by an antimagic field
 while under the effect of time stop.
-
-### Mythic Time Stop
-
-**Sources:** Mythic Adventures pg 110\
-Select a number of creatures equal to half your tier or fewer within close range (25 feet + 5 feet
-per 2 caster levels). Mythic time stop has the same effect on these creatures as it does on you,
-allowing them to act for the same number of rounds of apparent time that you can. You and these
-creatures can all interact with one another normally while time appears to be stopped.
-
-_Augmented (10th):_ If you expend three uses of mythic power, the duration increases to 1 hour per
-level of apparent time. You and other affected creatures gain no benefit from rest or sleep while
-the spell is active.

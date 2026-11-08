@@ -2,7 +2,7 @@
 id = "ref/spell/transformation"
 kind = "spell"
 title = "Transformation"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transformation", path = "json/spells10.json" },
 ]
@@ -57,10 +57,3 @@ weapons. Your base attack bonus equals your character level (which may give you 
 
 You lose your spellcasting ability, including your ability to use spell activation or spell
 completion magic items, just as if the spells were no longer on your class list.
-
-### Mythic Transformation
-
-**Sources:** Mythic Adventures pg 110\
-You can still cast spells and use spell completion and spell trigger items, but the level of the
-spell you're casting or using must be equal to or less than your tier. You gain a number of
-temporary hit points equal to your caster level.

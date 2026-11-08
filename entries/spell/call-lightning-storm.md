@@ -2,7 +2,7 @@
 id = "ref/spell/call-lightning-storm"
 kind = "spell"
 title = "Call Lightning Storm"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_lightning_storm", path = "json/spells2.json" },
 ]
@@ -44,15 +44,6 @@ Spell resistance: yes
 Effect: one or more 30-ft.-long vertical lines of lightning
 Descriptors: electricity
 :::
-
-### Mythic Call Lightning
-
-**Sources:** Mythic Adventures pg 87
-
-Each lightning bolt's damage increases to 3d10 points of damage (or 5d10 points outdoors in stormy
-weather). Half of this damage is electricity damage, and the other half is sonic. Creatures that
-succeed at their saving throws are dazzled and deafened for 1 round. Those that fail at their saving
-throws are dazzled and deafened for 1 minute.
 
 ### Call Lightning Storm
 

@@ -2,7 +2,7 @@
 id = "ref/spell/firestream"
 kind = "spell"
 title = "Firestream"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firestream", path = "json/spells4.json" },
 ]
@@ -55,16 +55,3 @@ Firestream sets fire to combustibles and damages objects in the area. It can mel
 melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an
 interposing barrier shatters or breaks through it, the firestream may continue beyond the barrier if
 the area permits; otherwise it stops at the barrier just as any other spell effect does.
-
-### Mythic Firestream
-
-**Sources:** Mythic Adventures pg 94\
-The damage dealt increases to 2d10 points of fire damage. Any creature that fails its saving throw
-also catches fire. The continuous line of fire pushes against all creatures, making them treat the
-spell's area as difficult terrain.
-
-_Augmented (4th):_ If you expend two uses of mythic power, you create a second line of fire using
-your other hand. If you overlap the lines, creatures in the overlap must attempt two saving throws
-and take the lower result, but don't take damage from both lines. You may stop either line of fire
-as a free action on your turn, but once you stop maintaining a line, you must cast mythic firestream
-again to recreate it.

@@ -2,7 +2,7 @@
 id = "ref/spell/battle-trance"
 kind = "spell"
 title = "Battle Trance"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_trance", path = "json/spells12.json" },
 ]
@@ -63,12 +63,3 @@ willingly move away from a creature that has attacked you.
 When you use this spell, you immediately take 4 points of Intelligence damage. You must make a DC 20
 [concentration](ref/rule/concentration) check to cast spells, and all other concentration checks to
 cast spells have a -5 penalty.
-
-### Mythic Battle Trance
-
-**Sources:** Mythic Adventures pg 85\
-The number of temporary hit points you gain increases to 2d6 + your caster level (maximum +10) +
-your tier. The morale bonus on saving throws against mind-affecting effects increases to +6.
-
-_Augmented (5th):_ If you expend two uses of mythic power, you gain a +4 morale bonus to Strength,
-immunity to non-mythic mind-affecting effects, and DR 5/epic.

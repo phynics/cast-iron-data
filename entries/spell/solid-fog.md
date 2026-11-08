@@ -2,7 +2,7 @@
 id = "ref/spell/solid-fog"
 kind = "spell"
 title = "Solid Fog"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solid_fog", path = "json/spells9.json" },
 ]
@@ -61,12 +61,3 @@ Unlike normal fog, only a severe wind (31+ mph) disperses these vapors, and it d
 
 Solid fog can be made permanent with a [permanency](ref/spell/permanency) spell. A permanent solid
 fog dispersed by wind reforms in 10 minutes.
-
-### Mythic Solid Fog
-
-**Sources:** Mythic Adventures pg 109\
-The penalty on melee attack and damage rolls increases to -4. The cloud's radius and height both
-increase to 50 feet.
-
-_Augmented:_ The augmented version of mythic solid fog has the same additional benefits as the
-augmented version of mythic fog cloud.

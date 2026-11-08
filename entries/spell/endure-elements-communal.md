@@ -2,7 +2,7 @@
 id = "ref/spell/endure-elements-communal"
 kind = "spell"
 title = "Communal Endure Elements"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
+source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endure_elements_communal", path = "json/spells4.json" },
 ]
@@ -57,14 +57,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-### Mythic Endure Elements
-
-**Sources:** Mythic Adventures pg 93
-
-The target changes to one creature touched per level. Affected creatures gain cold resistance 5 and
-fire resistance 5. They're not slowed by snow, and ignore penalties on Perception checks and ranged
-weapon attacks from hail, rain, sleet, and snow. They treat wind as one category weaker.
 
 ### Communal Endure Elements
 

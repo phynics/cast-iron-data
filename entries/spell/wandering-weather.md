@@ -2,7 +2,7 @@
 id = "ref/spell/wandering-weather"
 kind = "spell"
 title = "Wandering Weather"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-wilderness"]
+source_ids = ["core-rulebook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wandering_weather", path = "json/spells12.json" },
 ]
@@ -46,16 +46,6 @@ Saving throw: none
 Spell resistance: no
 Area: 2-mile-radius circle, centered on you; see text
 :::
-
-### Mythic Control Weather
-
-**Sources:** Mythic Adventures pg 89
-
-The casting time changes to 1 standard action, and the duration doubles. The weather changes after a
-number of rounds equal to 11 - your tier.
-
-_Augmented (6th):_ If you expend two uses of mythic power, you can create weather of any type
-regardless of the season, and the weather changes after 1 round.
 
 ### Wandering Weather
 

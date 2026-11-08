@@ -2,7 +2,7 @@
 id = "ref/spell/bless"
 kind = "spell"
 title = "Bless"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bless", path = "json/spells12.json" },
 ]
@@ -53,10 +53,3 @@ Bless fills your allies with courage. Each ally gains a +1 morale bonus on attac
 saving throws against fear effects.
 
 Bless counters and dispels [bane](ref/spell/bane).
-
-### Mythic Bless
-
-**Sources:** Mythic Adventures pg 85\
-The +1 morale bonus applies on attack rolls, weapon damage rolls, and all saving throws. Once during
-the spell's duration, an affected creature can roll an attack roll or saving throw twice and take
-the higher result. The target must decide to use this ability before the first roll is attempted.

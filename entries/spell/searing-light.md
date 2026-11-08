@@ -2,7 +2,7 @@
 id = "ref/spell/searing-light"
 kind = "spell"
 title = "Searing Light"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_light", path = "json/spells15.json" },
 ]
@@ -48,13 +48,3 @@ takes 1d8 points of damage per two caster levels (maximum 5d8). An undead creatu
 of damage per caster level (maximum 10d6), and an undead creature particularly vulnerable to bright
 light takes 1d8 points of damage per caster level (maximum 10d8). A construct or inanimate object
 takes only 1d6 points of damage per two caster levels (maximum 5d6).
-
-### Mythic Searing Light
-
-**Sources:** Mythic Adventures pg 107\
-The spell's damage increases to 1d6 per caster level (maximum 10d6). The damage dealt to an undead
-creature increases to 1d8 points of damage per caster level (maximum 10d8), or 2d6 per caster level
-(maximum 20d6) if the undead is vulnerable to bright light. The damage dealt to constructs increases
-to 1d8 points of damage per 2 caster levels (maximum 5d8). If a creature struck has light
-sensitivity or light blindness, it takes the penalty from that weakness for 1 round after being
-struck by the light.

@@ -2,7 +2,7 @@
 id = "ref/spell/spike-stones"
 kind = "spell"
 title = "Spike Stones"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spike_stones", path = "json/spells9.json" },
 ]
@@ -59,9 +59,3 @@ on a Heal check against the spell's save DC.
 Magic traps such as spike stones are hard to detect. A rogue (only) can use the Perception skill to
 find spike stones. The DC is 25 + spell level, or DC 29 for spike stones. Spike stones is a magic
 trap that can't be disabled with the Disable Device skill.
-
-### Mythic Spike Stones
-
-**Sources:** Mythic Adventures pg 109\
-The damage dealt increases to 2d6 points of piercing damage plus 1 point of bleed damage. Add your
-tier to the DC to detect the magical trap.

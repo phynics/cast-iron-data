@@ -2,7 +2,7 @@
 id = "ref/spell/fireball"
 kind = "spell"
 title = "Fireball"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-intrigue"]
+source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fireball", path = "json/spells4.json" },
 ]
@@ -61,15 +61,3 @@ The fireball sets fire to combustibles and damages objects in the area. It can m
 melting points, such as lead, gold, copper, silver, and bronze. If the damage caused to an
 interposing barrier shatters or breaks through it, the fireball may continue beyond the barrier if
 the area permits; otherwise it stops at the barrier just as any other spell effect does.
-
-### Mythic Fireball
-
-**Sources:** Mythic Adventures pg 94
-
-The damage dealt increases to 1d10 points of fire damage per caster level (maximum 10d10). Any
-creature that fails its Reflex saving throw catches on fire, taking 2d6 points of fire damage each
-round until the fire is extinguished. Attempts to extinguish this fire use the spell's save DC.
-
-_Augmented (6th):_ If you expend two uses of mythic power, the maximum damage increases to 20d10,
-the area increases to a 40-foot radius spread, and any fire damage dealt by the spell bypasses fire
-resistance and fire immunity.

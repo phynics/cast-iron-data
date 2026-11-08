@@ -2,7 +2,7 @@
 id = "ref/spell/shield-of-the-dawnflower"
 kind = "spell"
 title = "Shield of the Dawnflower"
-source_ids = ["inner-sea-world-guide", "gods-and-magic", "mythic-origins", "inner-sea-gods"]
+source_ids = ["inner-sea-world-guide", "gods-and-magic", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_the_dawnflower", path = "json/spells9.json" },
 ]
@@ -55,14 +55,3 @@ Creatures with reach weapons are not subject to this damage if they attack you. 
 illumination as if it were a [continual flame](ref/spell/continual-flame) spell. You can only have
 one instance of this spell in effect at a time. It does not stack with similar damaging aura spells
 such as fire shield.
-
-### Mythic Shield of the Dawnflower
-
-**Sources:** Mythic Origins pg 13
-
-The disk of sunlight protects you as a buckler with a +1 enhancement bonus per 4 caster levels
-(maximum +5).
-
-You can make a melee touch attack with your shield of the Dawnflower in place of a normal attack to
-deal its fire damage to a creature. Creatures taking damage from your shield catch on fire (Reflex
-negates); the save DC to extinguish the fire is equal to the DC of the spell.

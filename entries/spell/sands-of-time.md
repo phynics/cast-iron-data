@@ -2,7 +2,7 @@
 id = "ref/spell/sands-of-time"
 kind = "spell"
 title = "Sands of Time"
-source_ids = ["ultimate-magic", "osirion-land-of-the-pharaohs", "mythic-adventures"]
+source_ids = ["ultimate-magic", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sands_of_time", path = "json/spells8.json" },
 ]
@@ -59,18 +59,3 @@ spell.
 If you cast this on an object, construct, or undead creature, it takes 3d6 points of damage + 1
 point per caster level (maximum +15) as time weathers and corrodes it. This version of the spell has
 an instantaneous duration.
-
-### Mythic Sands of Time
-
-**Sources:** Mythic Adventures pg 107\
-You age the target by two categories instead of one. The damage dealt to objects, constructs, and
-undead increases to 5d6 points of damage + 1 point per caster level (maximum +20).
-
-_Augmented (8th):_ If you expend four uses of mythic power, the duration changes to instantaneous.
-If the target is a living creature, its age increases to venerable, regardless of its current age. A
-non-mythic creature receives no saving throw against this, but a mythic creature can attempt a
-Fortitude save against the spell's DC to reduce the duration to 10 minutes per level and the effect
-to two age categories instead of automatically changing to venerable.
-
-If the target is an object, construct, or undead, it takes 30 points of damage per caster level. A
-mythic creature that succeeds at a Fortitude takes only half damage.

@@ -2,7 +2,7 @@
 id = "ref/spell/burning-gaze"
 kind = "spell"
 title = "Burning Gaze"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_gaze", path = "json/spells2.json" },
 ]
@@ -63,13 +63,3 @@ If a creature or object is already on fire, it suffers no additional effects fro
 
 Note that this spell does not grant an actual gaze attack-foes and allies are not in danger of
 catching on fire simply by meeting your gaze.
-
-### Mythic Burning Gaze
-
-**Sources:** Mythic Adventures pg 87\
-You may focus your burning gaze on a creature or object as a move action instead of as a standard
-action. The target takes 1d8 points of fire damage for failing its save and for each round it's on
-fire.
-
-_Augmented:_ If you expend two uses of mythic power, once during the spell's duration you can, as a
-full-round action, direct your burning gaze at up to one creature per caster level.

@@ -2,7 +2,7 @@
 id = "ref/spell/silence"
 kind = "spell"
 title = "Silence"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silence", path = "json/spells9.json" },
 ]
@@ -61,11 +61,3 @@ creature can attempt a Will save to negate the spell and can use
 items that emit sound receive the benefits of saves and spell resistance, but unattended objects and
 points in space do not. Creatures in an area of a silence spell are immune to sonic or
 language-based attacks, spells, and effects.
-
-### Mythic Silence
-
-**Sources:** Mythic Adventures pg 108\
-This spell also applies to telepathy, cutting off any mental communication within the area. At the
-time of casting, you can choose to be immune to your own mythic silence effect and can designate up
-to one creature per tier to also gain this immunity. Creatures immune to the mythic silence are
-subject to sonic effects as normal.

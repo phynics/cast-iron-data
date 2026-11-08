@@ -2,7 +2,7 @@
 id = "ref/spell/magic-vestment"
 kind = "spell"
 title = "Magic Vestment"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_vestment", path = "json/spells6.json" },
 ]
@@ -48,13 +48,3 @@ You imbue a suit of armor or a shield with an enhancement bonus of +1 per four c
 (maximum +5 at 20th level).
 
 An outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell.
-
-### Mythic Magic Vestment
-
-**Sources:** Mythic Adventures pg 100\
-You can add one armor special ability to the target if it's armor or one shield special ability if
-it's a shield. The special ability must have a base price modifier no greater than a +1 enhancement
-bonus or 4,000 gp.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, you can add any number of special
-abilities with a total base price modifier no greater than a +2 enhancement bonus or 15,000 gp.

@@ -2,7 +2,7 @@
 id = "ref/spell/sun-metal"
 kind = "spell"
 title = "Sun Metal"
-source_ids = ["ultimate-combat", "faiths-of-purity", "mythic-adventures"]
+source_ids = ["ultimate-combat", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_metal", path = "json/spells16.json" },
 ]
@@ -53,10 +53,3 @@ immediately ends if the weapon is submerged in water. This effect does not stack
 flaming burst weapon special ability or any other effect that grants the weapon extra fire damage.
 It does not function on weapons with the frost or icy burst weapon special ability or any other
 effect that grants a weapon extra cold damage.
-
-### Mythic Sun Metal
-
-**Sources:** Mythic Adventures pg 109\
-The additional damage dealt by the weapon increases to 1d6 points of fire damage. Any creature
-struck by the weapon is dazzled for 1 round (no saving throw). On a critical hit, the target is
-blinded for 1 round (Fortitude negates, DC equal to the DC of the spell).

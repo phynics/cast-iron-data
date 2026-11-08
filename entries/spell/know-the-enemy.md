@@ -2,7 +2,7 @@
 id = "ref/spell/know-the-enemy"
 kind = "spell"
 title = "Know the Enemy"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_enemy", path = "json/spells6.json" },
 ]
@@ -47,10 +47,3 @@ Target: you
 
 You commune with the divine, reflecting on one type of creature you encountered in the last day. You
 may make a Knowledge check regarding that creature type with a +10 insight bonus.
-
-### Mythic Know the Enemy
-
-**Sources:** Mythic Adventures pg 99\
-The insight bonus increases to +15 plus your tier. If the check is successful, you gain a +5 insight
-bonus on your next attack roll or saving throw against a creature of that type, as long as the roll
-occurs within 24 hours of casting the spell.

@@ -2,7 +2,7 @@
 id = "ref/spell/word-of-beckoning"
 kind = "spell"
 title = "Word of Beckoning"
-source_ids = ["core-rulebook", "mythic-adventures", "pathfinder-131-the-reapers-right-hand"]
+source_ids = ["core-rulebook", "pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_beckoning", path = "json/spells15.json" },
 ]
@@ -57,21 +57,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature
 :::
-
-### Mythic Sending
-
-**Sources:** Mythic Adventures pg 107
-
-You can contact a number of additional creatures equal to your tier. Each creature must receive the
-same message, and can communicate back only to you.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, you can send the message to unfamiliar
-creatures (using the same number of creatures as non-augmented mythic sending). You must either
-describe the intended recipients in general or specific terms (such as "orcs," "the queen of this
-country," or "left-handed half-elven males") or specify restrictions such as range, creature type,
-and alignment (such as "all good-aligned humanoids in the castle on the hill"). If a greater number
-of creatures meet your description than the maximum number you can send to, the closest ones to you
-receive the message.
 
 ### Word of Beckoning
 

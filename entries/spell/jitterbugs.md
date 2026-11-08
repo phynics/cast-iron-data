@@ -2,7 +2,7 @@
 id = "ref/spell/jitterbugs"
 kind = "spell"
 title = "Jitterbugs"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jitterbugs", path = "json/spells6.json" },
 ]
@@ -57,9 +57,3 @@ You cause the target to perceive itself as being covered in creeping, crawling, 
 causes the target to become jittery and unable to stay still, forcing it to constantly move and
 twitch. The target takes a -4 penalty on all Dexterity checks and Dexterity-based skill checks, and
 cannot take the delay, ready, or total defense actions.
-
-### Mythic Jitterbugs
-
-**Sources:** Mythic Adventures pg 99\
-Starting on the second round of the spell, the affected target must succeed at a Fortitude save on
-your turn or be nauseated for 1 round, as if distracted by an actual swarm.

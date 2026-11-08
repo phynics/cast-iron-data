@@ -2,7 +2,7 @@
 id = "ref/spell/modify-memory"
 kind = "spell"
 title = "Modify Memory"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "modify_memory", path = "json/spells14.json" },
 ]
@@ -66,23 +66,3 @@ the spell is lost.
 A modified memory does not necessarily affect the subject's actions, particularly if it contradicts
 the creature's natural inclinations. An illogical modified memory is dismissed by the creature as a
 bad dream, too much wine, or another similar excuse.
-
-### Mythic Modify Memory
-
-**Sources:** Mythic Adventures pg 102\
-You can modify an additional 5 minutes of the subject's memory per tier. You may affect multiple
-memories with one casting of the spell, as long as the total number of minutes doesn't exceed this
-limit. Each affected memory counts as a minimum of 5 minutes. For example, you could implant a
-memory of having a brief meeting with the mayor before lunch and another brief meeting just after
-dinner, even though the two events would have been hours apart.
-
-_Augmented (8th):_ If you expend four uses of mythic power, instead of altering the target's
-memories, you alter all other creatures' memories of the target (only the target gets a saving throw
-against the spell). All creatures on the same plane as the target forget his name, their
-relationship to him, and everything he has done; he is essentially a stranger to them. Any important
-acts by the target are attributed to someone else. Everyone's memories of history are rewritten to
-incorporate this change. The target's memories are unaffected. You can exclude a number of other
-creatures up to your tier from the effects of this spell (so they remember the truth), including
-yourself if you wish. Written records are unchanged unless you expend an additional six uses of
-mythic power when you cast the spell, and written records on other planes remain unchanged
-regardless.

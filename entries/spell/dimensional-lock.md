@@ -2,7 +2,7 @@
 id = "ref/spell/dimensional-lock"
 kind = "spell"
 title = "Dimensional Lock"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_lock", path = "json/spells3.json" },
 ]
@@ -57,18 +57,3 @@ Once dimensional lock is in place, extradimensional travel into or out of the ar
 A dimensional lock does not interfere with the movement of creatures already in ethereal or astral
 form when the spell is cast, nor does it block extradimensional perception or attack forms. Also,
 the spell does not prevent summoned creatures from disappearing at the end of a summoning spell.
-
-### Mythic Dimensional Lock
-
-**Sources:** Mythic Adventures pg 91\
-The spell doesn't interfere with your extradimensional travel spells and effects.
-
-_Augmented (4th):_ You can augment mythic dimensional lock to redirect teleporting creatures to
-another location. If you expend two uses of mythic power, designate a location that you're very
-familiar with. This location must be on the same plane as you. Any creature attempting to use
-extradimensional travel from outside the spell's area into that area is instead redirected to this
-other location.
-
-The creature can attempt a Spellcraft check against your caster level. If it succeeds, it's aware of
-the redirection (though not the destination) and can interrupt its spellcasting, losing the spell
-but not teleporting.

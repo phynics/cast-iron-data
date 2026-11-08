@@ -2,7 +2,7 @@
 id = "ref/spell/animate-objects"
 kind = "spell"
 title = "Animate Objects"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_objects", path = "json/spells.json" },
 ]
@@ -58,10 +58,3 @@ active spell.
 This spell cannot affect objects carried or worn by a creature.
 
 Animate objects can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Mythic Animate Objects
-
-**Sources:** Mythic Adventures pg 84\
-Animated objects you create with this spell get the maximum number of hit points per level, gain a
-+4 bonus to their Strength ability scores, and have 1-1/2 times the normal number of construction
-points.

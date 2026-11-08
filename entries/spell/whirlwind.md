@@ -2,7 +2,7 @@
 id = "ref/spell/whirlwind"
 kind = "spell"
 title = "Whirlwind"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlwind", path = "json/spells16.json" },
 ]
@@ -55,18 +55,3 @@ succeed on a second one or be picked up bodily by the cyclone and held suspended
 winds, taking 1d8 points of damage each round on your turn with no save allowed. You may direct the
 cyclone to eject any carried creatures whenever you wish, depositing the hapless souls wherever the
 cyclone happens to be when they are released.
-
-### Mythic Whirlwind
-
-**Sources:** Mythic Adventures pg 112\
-The cyclone becomes 15 feet wide at the base, 40 feet wide at the top, and 40 feet tall. The
-cyclone's effect on Large or smaller creatures also applies to Huge creatures, and its damage
-increases to 3d8 points of damage. The effect on Medium or smaller creatures also applies to Large
-creatures, and the damage it deals each turn increases to 2d6 points of damage.
-
-_Augmented (8th):_ If you expend three uses of mythic power, the cyclone's size increases to 50 feet
-wide at the base, 150 feet wide at the top, and 150 feet tall. Creatures and objects of all sizes
-touched by the whirlwind take 8d8 points of damage (Reflex negates), and the damage dealt to those
-trapped in the cyclone increases to 6d6 points of damage per round. Additionally, unattended objects
-smaller than 30 feet to a side are swept up in the effect. The area within 20 feet of the whirlwind
-is treated as severe wind, and within 40 feet it is treated as strong wind.

@@ -2,7 +2,7 @@
 id = "ref/spell/repel-wood"
 kind = "spell"
 title = "Repel Wood"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repel_wood", path = "json/spells8.json" },
 ]
@@ -56,12 +56,3 @@ magic items with wooden sections are repelled, although an antimagic field block
 The waves of energy continue to sweep down the set path for the spell's duration. After you cast the
 spell, the path is set, and you can then do other things or go elsewhere without affecting the
 spell's power.
-
-### Mythic Repel Wood
-
-**Sources:** Mythic Adventures pg 105\
-The casting time changes to 1 immediate action. You may cause one affected wooden object up to 5
-inches in diameter to splinter and break.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the area changes to a 60-foot,
-cone-shaped emanation from you.

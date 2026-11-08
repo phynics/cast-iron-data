@@ -2,7 +2,7 @@
 id = "ref/spell/daylight"
 kind = "spell"
 title = "Daylight"
-source_ids = ["core-rulebook", "mythic-adventures", "adventurers-guide", "inner-sea-intrigue"]
+source_ids = ["core-rulebook", "adventurers-guide", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daylight", path = "json/spells3.json" },
 ]
@@ -71,12 +71,3 @@ the otherwise prevailing light conditions exist in the overlapping areas of effe
 
 Daylight counters or dispels any darkness spell of equal or lower level, such as
 [darkness](ref/spell/darkness).
-
-### Mythic Daylight
-
-**Sources:** Mythic Adventures pg 90
-
-The illumination in the additional 60 foot radius increases to at least normal light regardless of
-the existing lighting conditions. Creatures that take penalties in bright light double those
-penalties while in the area of bright light produced by this spell. All other creatures in the area
-of bright light gain a +2 circumstance bonus on Perception checks and saves to resist fear.

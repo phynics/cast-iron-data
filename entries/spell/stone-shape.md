@@ -2,7 +2,7 @@
 id = "ref/spell/stone-shape"
 kind = "spell"
 title = "Stone Shape"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_shape", path = "json/spells9.json" },
 ]
@@ -55,11 +55,3 @@ Descriptors: earth
 You can form an existing piece of stone into any shape that suits your purpose. While it's possible
 to make crude coffers, doors, and so forth with stone shape, fine detail isn't possible. There is a
 30% chance that any shape including moving parts simply doesn't work.
-
-### Mythic Stone Shape
-
-**Sources:** Mythic Adventures pg 109\
-The duration changes to 1 round/level and instantaneous (see text). Each round after the round you
-cast the spell, you can spend a standard action to shape up to 5 additional cubic feet of stone you
-touch. Shaped stone has an instantaneous duration (meaning it does not revert to its previous form
-when the spell ends).

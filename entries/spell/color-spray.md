@@ -2,7 +2,7 @@
 id = "ref/spell/color-spray"
 kind = "spell"
 title = "Color Spray"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "color_spray", path = "json/spells2.json" },
 ]
@@ -63,11 +63,3 @@ _3 or 4 HD:_ The creature is blinded and stunned for 1d4 rounds, then stunned fo
 _5 or more HD:_ The creature is stunned for 1 round.
 
 Sightless creatures are not affected by color spray.
-
-### Mythic Color Spray
-
-**Sources:** Mythic Adventures pg 88\
-The range increases to 30 feet. Add half your tier to the spell's Hit Dice categories to determine
-its effects on creatures. (At 3rd tier a creature with 3 or fewer HD is unconscious, blinded, and
-stunned; one with 4 or 5 HD is blinded and stunned, and one with 6 or more HD is stunned.) Creatures
-that succeed at their saves are dazzled for 1 minute.

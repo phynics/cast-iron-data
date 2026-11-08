@@ -2,7 +2,7 @@
 id = "ref/spell/heal"
 kind = "spell"
 title = "Heal"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heal", path = "json/spells5.json" },
 ]
@@ -63,12 +63,3 @@ level of the caster, to a maximum of 150 points at 15th level.
 Heal does not remove negative levels or restore permanently drained ability score points.
 
 If used against an undead creature, heal instead acts like [harm](ref/spell/harm).
-
-### Mythic Heal
-
-**Sources:** Mythic Adventures pg 97
-
-The damage cured increases to 15 points of damage per caster level (maximum 225 points).
-
-_Augmented:_ If you expend two uses of mythic power, the spell also acts as
-[restoration](ref/spell/restoration).

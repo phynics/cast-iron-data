@@ -2,7 +2,7 @@
 id = "ref/spell/phase-step"
 kind = "spell"
 title = "Phase Step"
-source_ids = ["core-rulebook", "mythic-adventures", "potions-and-poisons"]
+source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_step", path = "json/spells3.json" },
 ]
@@ -55,18 +55,6 @@ Spell resistance: no and yes (object)
 Target: you and touched objects or other touched willing creatures
 Subschool: Teleportation
 :::
-
-### Mythic Dimension Door
-
-**Sources:** Mythic Adventures pg 91
-
-The duration of this spell changes to 1 round per 2 caster levels, and it creates a temporary,
-invisible, one-way portal in your square to your destination. You immediately pass through the
-portal and arrive at the destination, but you can't take any other creatures with you.
-
-When casting the spell, you can designate a number of creatures equal to your caster level. These
-creatures can see and use the portal, passing through it to arrive at the destination (this isn't an
-action). A creature that passes through the portal can't take any other actions until its next turn.
 
 ### Phase Step
 

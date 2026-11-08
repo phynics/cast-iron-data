@@ -2,7 +2,7 @@
 id = "ref/spell/phantasmal-killer"
 kind = "spell"
 title = "Phantasmal Killer"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_killer", path = "json/spells7.json" },
 ]
@@ -64,14 +64,3 @@ from fear. Even if the Fortitude save is successful, the subject takes 3d6 point
 If the subject of a phantasmal killer attack succeeds in disbelieving and possesses telepathy or is
 wearing a [helm of telepathy](ref/magic-wondrous/helm-of-telepathy), the beast can be turned upon
 you. You must then disbelieve it or become subject to its deadly fear attack.
-
-### Mythic Phantasmal Killer
-
-**Sources:** Mythic Adventures pg 103\
-If the target fails its Will save but succeeds at its Fortitude save, the phantasmal killer persists
-in the target's mind, giving it the dazed condition until your next turn. On your next turn, the
-target must attempt another Fortitude save against the phantasm. Success means it takes 3d6 points
-of damage; failure means it dies from fear.
-
-_Augmented (6th):_ If you expend two uses of mythic power, the spell can affect a living target that
-is immune to fear, illusions, or mind-affecting effects.

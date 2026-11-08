@@ -2,7 +2,7 @@
 id = "ref/spell/blistering-invective"
 kind = "spell"
 title = "Blistering Invective"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blistering_invective", path = "json/spells2.json" },
 ]
@@ -52,14 +52,3 @@ within 30 feet of you. Enemies that are demoralized this way take 1d10 points of
 must succeed at a Reflex save or catch fire. [Spell resistance](ref/rule/spell-resistance) can
 negate the fire damage caused by this spell, but does not protect the creature from the demoralizing
 effect.
-
-### Mythic Blistering Invective
-
-**Sources:** Mythic Adventures pg 86\
-Enemies that are demoralized by your Intimidate check take 2d8 points of fire damage and catch fire
-(no saving throw). Any Reflex save attempted to extinguish the flames automatically fails as long as
-the creature remains demoralized by your Intimidate check.
-
-_Augmented (5th):_ If you expend two uses of mythic power, the spell doesn't have the
-language-dependent descriptor and you don't take a penalty on your Intimidate check to demoralize
-creatures that are larger than you.

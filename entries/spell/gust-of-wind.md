@@ -2,7 +2,7 @@
 id = "ref/spell/gust-of-wind"
 kind = "spell"
 title = "Gust of Wind"
-source_ids = ["core-rulebook", "mythic-adventures", "elemental-masters-handbook"]
+source_ids = ["core-rulebook", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gust_of_wind", path = "json/spells5.json" },
 ]
@@ -79,16 +79,3 @@ delicate awnings or hangings, heel over a small boat, and blow gases or vapors t
 range.
 
 Gust of wind can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Mythic Gust of Wind
-
-**Sources:** Mythic Adventures pg 97
-
-The force of the wind increases to [windstorm](ref/rule/winds) (approximately 70 mph). All effects
-described in the spell affect creatures one size larger. Ranged attacks can't be attempted in the
-area of the spell. The wind automatically blows out unprotected flames and has a 75% chance of
-blowing out protected flames.
-
-_Augmented (2nd):_ If you expend two uses of mythic power, the spell lasts for 1 additional round
-and the range increases by 30 feet. As a swift action at the start of your turn, you can expend
-another use of mythic power to extend the duration by 1 round and the range by another 30 feet.

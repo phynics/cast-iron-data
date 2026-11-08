@@ -2,7 +2,7 @@
 id = "ref/spell/orders-wrath"
 kind = "spell"
 title = "Order's Wrath"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orders_wrath", path = "json/spells7.json" },
 ]
@@ -54,11 +54,3 @@ dazed for 1 round. A successful Will save reduces the damage to half and negates
 The spell deals only half damage to creatures who are neither chaotic nor lawful, and they are not
 dazed. They can reduce the damage in half again (down to one-quarter of the roll) with a successful
 Will save.
-
-### Mythic Order's Wrath
-
-**Sources:** Mythic Adventures pg 103\
-The damage dealt to chaotic outsiders increases to 1d10 points of damage per caster level (maximum
-10d10) and the damage to other chaotic creatures increases to 1d12 points of damage per 2 caster
-levels (maximum 5d12). The duration that creatures in the area are dazed increases to 2 rounds.
-Chaotic creatures that succeed at their saves are dazed for 1 round.

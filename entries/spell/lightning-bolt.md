@@ -2,7 +2,7 @@
 id = "ref/spell/lightning-bolt"
 kind = "spell"
 title = "Lightning Bolt"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_bolt", path = "json/spells6.json" },
 ]
@@ -55,12 +55,3 @@ The lightning bolt sets fire to combustibles and damages objects in its path. It
 with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an
 interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the
 spell's range permits; otherwise, it stops at the barrier just as any other spell effect does.
-
-### Mythic Lightning Bolt
-
-**Sources:** Mythic Adventures pg 100\
-The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 10d8). Any
-creature that fails its save is staggered for 1 round.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, you can bend the line of the spell once
-up to 90 degrees. Any creature that fails its save is stunned for 1 round.

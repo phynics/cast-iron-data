@@ -2,7 +2,7 @@
 id = "ref/spell/heroism"
 kind = "spell"
 title = "Heroism"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-intrigue"]
+source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroism", path = "json/spells5.json" },
 ]
@@ -60,14 +60,3 @@ Descriptors: mind-affecting
 
 This spell imbues a single creature with great bravery and morale in battle. The target gains a +2
 morale bonus on attack rolls, saves, and skill checks.
-
-### Mythic Heroism
-
-**Sources:** Mythic Adventures pg 98
-
-The morale bonus increases to +4 and applies on all checks, attack rolls, saves, and weapon damage
-rolls. Allies adjacent to the target gain a +4 morale bonus on saves against fear effects.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the target can attempt one additional
-attack per round when taking a full attack action (as if using a haste spell). The target can use
-this additional attack ability a number of times equal to your tier.

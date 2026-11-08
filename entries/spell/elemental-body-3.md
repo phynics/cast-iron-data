@@ -2,7 +2,7 @@
 id = "ref/spell/elemental-body-3"
 kind = "spell"
 title = "Elemental Body III"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_body_3", path = "json/spells4.json" },
 ]
@@ -49,44 +49,6 @@ Target: you
 Subschool: Polymorph
 :::
 
-### Mythic Elemental Body I
-
-**Sources:** Mythic Adventures pg 92
-
-Each mythic elemental body spell must be learned individually, and you must know the respective
-non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order,
-and aren't required to know a lower-level mythic elemental body spell before you learn a
-higher-level one (for example, you can learn mythic elemental body II if you know elemental body II,
-even if you don't know mythic elemental body I). Each mythic elemental body spell adds the following
-benefits to its respective non-mythic version. The spell's bonuses to ability scores increase by 2,
-the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum
-penalty of 0). There is a 50% chance any critical hit or sneak attack against you is treated as a
-normal hit, as if you were wearing medium fortification armor.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the ability score bonuses increase by an
-additional 2. You can also, a number of times equal to your tier, add half your tier to the DC of
-one spell you cast with an energy descriptor that matches your elemental type (air: electricity,
-earth: acid, fire: fire, water: cold).
-
-### Mythic Elemental Body II
-
-**Sources:** Mythic Adventures pg 92
-
-Each mythic elemental body spell must be learned individually, and you must know the respective
-non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order,
-and aren't required to know a lower-level mythic elemental body spell before you learn a
-higher-level one (for example, you can learn mythic elemental body II if you know elemental body II,
-even if you don't know mythic elemental body I). Each mythic elemental body spell adds the following
-benefits to its respective non-mythic version. The spell's bonuses to ability scores increase by 2,
-the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum
-penalty of 0). There is a 50% chance any critical hit or sneak attack against you is treated as a
-normal hit, as if you were wearing medium fortification armor.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the ability score bonuses increase by an
-additional 2. You can also, a number of times equal to your tier, add half your tier to the DC of
-one spell you cast with an energy descriptor that matches your elemental type (air: electricity,
-earth: acid, fire: fire, water: cold).
-
 ### Elemental Body III
 
 **Sources:** PRPG Core Rulebook pg 276
@@ -107,41 +69,3 @@ size bonus to your Constitution, and a +4 natural armor bonus.
 
 _Water elemental:_ As elemental body I except that you gain a +2 size bonus to your Strength, a -2
 penalty on your Dexterity, a +6 size bonus to your Constitution, and a +6 natural armor bonus.
-
-### Mythic Elemental Body III
-
-**Sources:** Mythic Adventures pg 92
-
-Each mythic elemental body spell must be learned individually, and you must know the respective
-non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order,
-and aren't required to know a lower-level mythic elemental body spell before you learn a
-higher-level one (for example, you can learn mythic elemental body II if you know elemental body II,
-even if you don't know mythic elemental body I). Each mythic elemental body spell adds the following
-benefits to its respective non-mythic version. The spell's bonuses to ability scores increase by 2,
-the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum
-penalty of 0). There is a 50% chance any critical hit or sneak attack against you is treated as a
-normal hit, as if you were wearing medium fortification armor.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the ability score bonuses increase by an
-additional 2. You can also, a number of times equal to your tier, add half your tier to the DC of
-one spell you cast with an energy descriptor that matches your elemental type (air: electricity,
-earth: acid, fire: fire, water: cold).
-
-### Mythic Elemental Body IV
-
-**Sources:** Mythic Adventures pg 92
-
-Each mythic elemental body spell must be learned individually, and you must know the respective
-non-mythic elemental body spell to learn its mythic version. You don't have to learn them in order,
-and aren't required to know a lower-level mythic elemental body spell before you learn a
-higher-level one (for example, you can learn mythic elemental body II if you know elemental body II,
-even if you don't know mythic elemental body I). Each mythic elemental body spell adds the following
-benefits to its respective non-mythic version. The spell's bonuses to ability scores increase by 2,
-the natural armor bonus increases by 1, and the ability score penalties decrease by 2 (minimum
-penalty of 0). There is a 50% chance any critical hit or sneak attack against you is treated as a
-normal hit, as if you were wearing medium fortification armor.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the ability score bonuses increase by an
-additional 2. You can also, a number of times equal to your tier, add half your tier to the DC of
-one spell you cast with an energy descriptor that matches your elemental type (air: electricity,
-earth: acid, fire: fire, water: cold).

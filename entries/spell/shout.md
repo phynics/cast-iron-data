@@ -2,7 +2,7 @@
 id = "ref/spell/shout"
 kind = "spell"
 title = "Shout"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shout", path = "json/spells9.json" },
 ]
@@ -56,13 +56,3 @@ crystalline creature takes 1d6 points of sonic damage per caster level (maximum 
 creature is allowed a Fortitude save to reduce the damage by half, and a creature holding fragile
 objects can negate damage to them with a successful Reflex save. A shout spell cannot penetrate a
 silence spell.
-
-### Mythic Shout
-
-**Sources:** Mythic Adventures pg 108
-
-The duration that creatures in the area are deafened increases to 4d6 rounds, and the damage dealt
-increases to 5d8 points of sonic damage. The damage dealt to crystalline creatures and exposed
-brittle or crystalline objects increases to 1d8 points of sonic damage per caster level (maximum
-15d8). Crystalline creatures reverberate with sonic energy, taking 4 points of sonic damage on your
-turn for a number of rounds equal to your tier.

@@ -2,7 +2,7 @@
 id = "ref/spell/wall-of-force"
 kind = "spell"
 title = "Wall of Force"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_force", path = "json/spells11.json" },
 ]
@@ -66,13 +66,3 @@ level. The wall must be continuous and unbroken when formed. If its surface is b
 or creature, the spell fails.
 
 Wall of force can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Mythic Wall of Force
-
-**Sources:** Mythic Adventures pg 111\
-The wall's [hardness](ref/umr/hardness) increases to 40, and its hit points increase to 30 per
-caster level. A non-mythic [disintegrate](ref/spell/disintegrate) spell or
-[rod of cancellation](ref/magic-rod/rod-of-cancellation) negates a 10-foot-square section of a
-mythic wall of force for 1 round, after which the wall reforms at full strength. One side of the
-wall (chosen by you) repels creatures within 5 feet as a [repulsion](ref/spell/repulsion) spell
-(using the DC wall of force would have if it allowed a saving throw).

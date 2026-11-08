@@ -2,7 +2,7 @@
 id = "ref/spell/discordant-blast"
 kind = "spell"
 title = "Discordant Blast"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discordant_blast", path = "json/spells3.json" },
 ]
@@ -48,10 +48,3 @@ as if bull rushed. Make a combat maneuver check and apply its results to each cr
 Your CMB for this bull rush is equal to your caster level plus your Charisma modifier. This bull
 rush does not provoke an attack of opportunity. A discordant blast cannot penetrate a
 [silence](ref/spell/silence) spell (or any similar magical silence effect).
-
-### Mythic Discordant Blast
-
-**Sources:** Mythic Adventures pg 91\
-The damage dealt increases to 5d6 points of sonic damage, and you gain a +2 bonus on combat maneuver
-checks to the bull rush opponents. The spell can penetrate non-mythic magical silence and dispels
-any non-mythic silence effect of 4th level or lower.

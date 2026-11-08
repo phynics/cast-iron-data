@@ -2,7 +2,7 @@
 id = "ref/spell/inflict-critical-wounds-mass"
 kind = "spell"
 title = "Mass Inflict Critical Wounds"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_critical_wounds_mass", path = "json/spells14.json" },
 ]
@@ -43,14 +43,6 @@ Duration: instantaneous
 Saving throw: Will half
 Spell resistance: yes
 :::
-
-### Mythic Inflict Critical Wounds
-
-**Sources:** Mythic Adventures pg 98
-
-The damage dealt increases to 8d8 points of damage + 2 points per caster level (maximum +40). A
-living target is sickened for 1 round per caster level (maximum 20 rounds) if it fails its saving
-throw.
 
 ### Mass Inflict Critical Wounds
 

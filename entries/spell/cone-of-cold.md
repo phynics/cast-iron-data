@@ -2,7 +2,7 @@
 id = "ref/spell/cone-of-cold"
 kind = "spell"
 title = "Cone of Cold"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cone_of_cold", path = "json/spells12.json" },
 ]
@@ -50,17 +50,3 @@ Descriptors: cold
 
 Cone of cold creates an area of extreme cold, originating at your hand and extending outward in a
 cone. It drains heat, dealing 1d6 points of cold damage per caster level (maximum 15d6).
-
-### Mythic Cone of Cold
-
-**Sources:** Mythic Adventures pg 89\
-The damage dealt increases to 1d10 points of cold damage per caster level (maximum 15d10). Any
-creature that fails its save is partially encased in ice, reducing its speed by half. Creatures with
-the cold or incorporeal subtype or immunity to being grappled are immune to this effect. The reduced
-movement lasts until the ice is destroyed. Destroying the ice requires a successful Strength or
-dispel check against the spell's DC, or dealing bludgeoning or fire damage equal to 1 point per
-caster level to the creature.
-
-_Augmented:_ You can expend two uses of mythic power to transform the spell's cold into a barrage of
-giant hailstones, icicles, or shards. Half the spell's damage is your choice of bludgeoning,
-piercing, or slashing damage, and the other half is cold damage.

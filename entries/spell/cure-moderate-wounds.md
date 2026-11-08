@@ -2,7 +2,7 @@
 id = "ref/spell/cure-moderate-wounds"
 kind = "spell"
 title = "Cure Moderate Wounds"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cure_moderate_wounds", path = "json/spells3.json" },
 ]
@@ -60,10 +60,3 @@ Subschool: Healing
 
 This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per
 caster level (maximum +10).
-
-### Mythic Cure Moderate Wounds
-
-**Sources:** Mythic Adventures pg 89\
-The damage cured increases to 4d8 points of damage + 2 points per caster level (maximum +20). The
-spell cures up to 2 points of ability damage if the target is a living creature. The target chooses
-what types of ability damage are cured.

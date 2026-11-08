@@ -2,7 +2,7 @@
 id = "ref/spell/animate-plants"
 kind = "spell"
 title = "Animate Plants"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_plants", path = "json/spells.json" },
 ]
@@ -56,10 +56,3 @@ _Entangle:_ Alternatively, you may imbue all plants within range with a degree o
 allows them to entwine around creatures in the area. This usage of the spell duplicates the effect
 of an entangle spell. [Spell resistance](ref/rule/spell-resistance) does not keep creatures from
 being entangled. This effect lasts 1 hour per caster level.
-
-### Mythic Animate Plants
-
-**Sources:** Mythic Adventures pg 84\
-Animated plants you create with this spell get the maximum number of hit points per level, gain a +4
-bonus to their Strength ability scores, and have 1-1/2 times the normal number of construction
-points.

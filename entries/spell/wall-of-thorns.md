@@ -2,7 +2,7 @@
 id = "ref/spell/wall-of-thorns"
 kind = "spell"
 title = "Wall of Thorns"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_thorns", path = "json/spells11.json" },
 ]
@@ -68,15 +68,3 @@ through a wall of thorns at normal speed without taking damage.
 A wall of thorns can be breached by slow work with edged weapons. Chopping away at the wall creates
 a safe passage 1 foot deep for every 10 minutes of work. Normal fire cannot harm the barrier, but
 magical fire burns it away in 10 minutes.
-
-### Mythic Wall of Thorns
-
-**Sources:** Mythic Adventures pg 112\
-The damage dealt increases to 30 minus the creature's AC. Any creature adjacent to the wall is
-automatically grappled by it. Any creature that begins its turn grappled by the wall takes 2d6
-points of damage. Half of this damage is bludgeoning, and the other half is piercing. For the
-purpose of escaping this grapple, the wall's CMD is 10 + your caster level + your tier.
-
-_Augmented (6th):_ If you expend two uses of mythic power, the wall automatically grapples creatures
-other than you within 10 feet. Any creature grappled by the wall takes 2d6 points of bleed damage.
-If a creature doesn't escape the wall's grapple, on its next turn the wall automatically pins it.

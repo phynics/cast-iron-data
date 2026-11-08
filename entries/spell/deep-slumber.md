@@ -2,7 +2,7 @@
 id = "ref/spell/deep-slumber"
 kind = "spell"
 title = "Deep Slumber"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_slumber", path = "json/spells3.json" },
 ]
@@ -53,16 +53,3 @@ Descriptors: mind-affecting
 **Sources:** PRPG Core Rulebook pg 265
 
 This spell functions like [sleep](ref/spell/sleep), except that it affects 10 HD of targets.
-
-### Mythic Deep Slumber
-
-**Sources:** Mythic Adventures pg 90\
-This spell works like mythic sleep, except that it affects up to 20 Hit Dice of creatures.
-Alternatively, you may target one creature rather than an area, increasing the duration to 1 hour
-per level.
-
-_Augmented (5th):_ If you expend two uses of mythic power, creatures affected by the spell can be
-awakened only by mythic effects. If you're 5th tier and expend three uses of mythic power, the
-duration increases to 10 years per tier. If you're 5th tier and expend four uses of mythic power,
-the spell has both augmented effects. Creatures sleeping for years because of this spell age and
-breathe as normal, but don't need to eat or drink while the spell lasts.

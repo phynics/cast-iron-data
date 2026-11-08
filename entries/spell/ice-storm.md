@@ -2,7 +2,7 @@
 id = "ref/spell/ice-storm"
 kind = "spell"
 title = "Ice Storm"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_storm", path = "json/spells5.json" },
 ]
@@ -56,14 +56,3 @@ when the spell is cast. For the remaining duration of the spell, heavy snow and 
 the area. Creatures inside this area take a -4 penalty on Perception skill checks and the entire
 area is treated as difficult terrain. At the end of the duration, the snow and hail disappear,
 leaving no after-effects (other than the damage dealt).
-
-### Mythic Ice Storm
-
-**Sources:** Mythic Adventures pg 98\
-The bludgeoning damage increases to 4d8 points of damage and the cold damage increases to 3d6 points
-of damage. The ground in the area is covered in ice and hailstones, acting as though a grease spell
-were cast on it. Dealing 5 or more points of fire damage to a square melts the ice and hail,
-negating the grease effect.
-
-_Augmented (6th):_ If you expend two uses of mythic power, one creature in the area is paralyzed (as
-if by hold person) and gains vulnerability to fire as long as it's paralyzed.
