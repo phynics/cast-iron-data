@@ -2,7 +2,7 @@
 id = "ref/feat/mobility"
 kind = "feat"
 title = "Mobility"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobility", path = "json/feat11.json" },
 ]
@@ -25,6 +25,3 @@ move out of or within a threatened area. A condition that makes you lose your De
 Armor Class (if any) also makes you lose dodge bonuses.
 
 Dodge bonuses stack with each other, unlike most types of bonuses.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been merged into the [Dodge](ref/feat/dodge) feat.

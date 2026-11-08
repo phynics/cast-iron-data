@@ -2,7 +2,7 @@
 id = "ref/feat/greater-bull-rush"
 kind = "feat"
 title = "Greater Bull Rush"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_bull_rush", path = "json/feat07.json" },
 ]
@@ -24,13 +24,5 @@ Your bull rush attacks throw enemies off balance.\
 [Power Attack](ref/feat/power-attack), base attack bonus +6, Str 13.\
 **Benefit:** You receive a +2 bonus on checks made to [bull rush](ref/rule/bull-rush) a foe. This
 bonus stacks with the bonus granted by Improved Bull Rush. Whenever you bull rush an opponent, his
-movement provokes attacks of opportunity from all of your allies (but not you).\
-**Normal:** Creatures moved by bull rush do not provoke attacks of opportunity.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Your bull rush attacks throw enemies off balance.\
-**Prerequisites:** [Powerful Maneuvers](ref/rule/powerful-maneuvers), base attack bonus +6, Str 13.\
-**Benefit:** You receive a +2 bonus on checks made to [bull rush](ref/rule/bull-rush) a foe. This
-bonus stacks with the bonus granted by Powerful Maneuvers. Whenever you bull rush an opponent, his
 movement provokes attacks of opportunity from all of your allies (but not you).\
 **Normal:** Creatures moved by bull rush do not provoke attacks of opportunity.

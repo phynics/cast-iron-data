@@ -2,7 +2,7 @@
 id = "ref/feat/point-blank-shot"
 kind = "feat"
 title = "Point-Blank Shot"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "point_blank_shot", path = "json/feat12.json" },
 ]
@@ -18,11 +18,5 @@ benefit = "You get a +1 bonus on attack and damage rolls with ranged weapons at 
 **Sources:** PRPG Core Rulebook pg 131
 
 You are especially accurate when making ranged attacks against close targets.\
-**Benefit:** You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30
-feet.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-You are especially accurate when making ranged attacks against close targets.\
-**Prerequisites:** [Precise Shot](ref/feat/precise-shot).\
 **Benefit:** You get a +1 bonus on attack and damage rolls with ranged weapons at ranges of up to 30
 feet.

@@ -2,7 +2,7 @@
 id = "ref/feat/stand-still"
 kind = "feat"
 title = "Stand Still"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stand_still", path = "json/feat15.json" },
 ]
@@ -26,6 +26,3 @@ squares, you can make a [combat maneuver](ref/rule/combat-maneuvers) check as yo
 opportunity. If successful, the enemy cannot move for the rest of his turn. An enemy can still take
 the rest of his action, but cannot move. This feat also applies to any creature that attempts to
 move from a square that is adjacent to you if such movement provokes an attack of opportunity.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the new [Scorpion Stance](ref/rule/scorpion-stance) feat.

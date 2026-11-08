@@ -2,7 +2,7 @@
 id = "ref/feat/deadly-stroke"
 kind = "feat"
 title = "Deadly Stroke"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_stroke", path = "json/feat04.json" },
 ]
@@ -28,14 +28,3 @@ with the selected weapon, base attack bonus +11.\
 Weapon Focus against a [stunned](ref/misc/stunned) or [flat-footed](ref/rule/flat-footed) opponent.
 If you hit, you deal double the normal damage and the target takes 1 point of Constitution
 [bleed](ref/rule/bleed). The additional damage and bleed is not multiplied on a critical hit.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-With a well-placed strike, you can bring a swift and painful end to most foes.\
-**Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),
-[Greater Weapon Focus](ref/feat/greater-weapon-focus),
-[Shatter Defenses](ref/feat/shatter-defenses), base attack bonus +11.\
-**Benefit:** As a standard action, make a single attack with the weapon from the group in which you
-have Greater Weapon Focus against a [stunned](ref/misc/stunned) or
-[flat-footed](ref/rule/flat-footed) opponent. If you hit, you deal double the normal damage and the
-target takes 1 point of Constitution [bleed](ref/rule/bleed). The additional damage and bleed is not
-multiplied on a critical hit.

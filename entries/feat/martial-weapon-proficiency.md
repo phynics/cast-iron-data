@@ -2,7 +2,7 @@
 id = "ref/feat/martial-weapon-proficiency"
 kind = "feat"
 title = "Martial Weapon Proficiency"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_weapon_proficiency", path = "json/feat10.json" },
 ]
@@ -30,7 +30,3 @@ warpriests, and warriors are proficient with all martial weapons. They need not 
 
 You can gain Martial Weapon Proficiency multiple times. Each time you take the feat, it applies to a
 new type of weapon.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the new [Weapon Proficiency](ref/rule/weapon-proficiency)
-feat.

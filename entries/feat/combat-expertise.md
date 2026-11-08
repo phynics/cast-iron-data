@@ -2,7 +2,7 @@
 id = "ref/feat/combat-expertise"
 kind = "feat"
 title = "Combat Expertise"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_expertise", path = "json/feat03.json" },
 ]
@@ -25,6 +25,3 @@ gain a +1 dodge bonus to your Armor Class. When your base attack bonus reaches +
 thereafter, the penalty increases by -1 and the dodge bonus increases by +1. You can only choose to
 use this feat when you declare that you are making an attack or a full-attack action with a melee
 weapon. The effects of this feat last until your next turn.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the [Defensive Stance](ref/rule/combat-errata) action.

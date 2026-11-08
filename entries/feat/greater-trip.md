@@ -2,7 +2,7 @@
 id = "ref/feat/greater-trip"
 kind = "feat"
 title = "Greater Trip"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_trip", path = "json/feat08.json" },
 ]
@@ -24,13 +24,5 @@ You can make free attacks on foes that you knock down.\
 [Improved Trip](ref/feat/improved-trip), base attack bonus +6, Int 13.\
 **Benefit:** You receive a +2 bonus on checks made to [trip](ref/rule/trip) a foe. This bonus stacks
 with the bonus granted by Improved Trip. Whenever you successfully trip an opponent, that opponent
-provokes attacks of opportunity.\
-**Normal:** Creatures do not provoke attacks of opportunity from being tripped.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-You can make free attacks on foes that you knock down.\
-**Prerequisites:** [Deft Maneuvers](ref/rule/deft-maneuvers), base attack bonus +6, Int 13.\
-**Benefit:** You receive a +2 bonus on checks made to [trip](ref/rule/trip) a foe. This bonus stacks
-with the bonus granted by Deft Maneuvers. Whenever you successfully trip an opponent, that opponent
 provokes attacks of opportunity.\
 **Normal:** Creatures do not provoke attacks of opportunity from being tripped.

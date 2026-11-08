@@ -2,7 +2,7 @@
 id = "ref/feat/improved-unarmed-strike"
 kind = "feat"
 title = "Improved Unarmed Strike"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_unarmed_strike", path = "json/feat09.json" },
 ]
@@ -24,7 +24,3 @@ opportunity when you attack foes while unarmed. Your unarmed strikes can deal le
 damage, at your choice.\
 **Normal:** Without this feat, you are considered unarmed when attacking with an unarmed strike, and
 you can deal only nonlethal damage with such an attack.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the new [Unarmed Combatant](ref/rule/unarmed-combatant)
-feat.

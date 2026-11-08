@@ -2,7 +2,7 @@
 id = "ref/feat/improved-disarm"
 kind = "feat"
 title = "Improved Disarm"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_disarm", path = "json/feat09.json" },
 ]
@@ -25,6 +25,3 @@ You are skilled at knocking weapons from a foe's grasp.\
 combat maneuver. In addition, you receive a +2 bonus on checks made to disarm a foe. You also
 receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to disarm you.\
 **Normal:** You provoke an attack of opportunity when performing a disarm combat maneuver.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the new [Deft Maneuvers](ref/rule/deft-maneuvers) feat.
