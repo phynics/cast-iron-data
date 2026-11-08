@@ -7224,6 +7224,190 @@ title = "Urban Grace"
 entry = "ref/spell/urban-grace"
 
 [[books.chapters.children]]
+title = "Half-Orcs"
+entry = "ref/carried/advanced-race-guide/races/half-orcs"
+
+[[books.chapters.children.children]]
+title = "Alternate Racial Rules"
+anchor = "alternate-racial-rules"
+
+[[books.chapters.children.children.children]]
+title = "Alternate Racial Traits"
+anchor = "alternate-racial-traits"
+
+[[books.chapters.children.children.children.children]]
+title = "Acute Darkvision"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/acute-darkvision"
+
+[[books.chapters.children.children.children.children]]
+title = "Beastmaster"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/beastmaster"
+
+[[books.chapters.children.children.children.children]]
+title = "Bestial"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/bestial"
+
+[[books.chapters.children.children.children.children]]
+title = "Cavewight"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/cavewight"
+
+[[books.chapters.children.children.children.children]]
+title = "Chain Fighter"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/chain-fighter"
+
+[[books.chapters.children.children.children.children]]
+title = "City-Raised"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/city-raised"
+
+[[books.chapters.children.children.children.children]]
+title = "Forest Walker"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/forest-walker"
+
+[[books.chapters.children.children.children.children]]
+title = "Gatecrasher"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/gatecrasher"
+
+[[books.chapters.children.children.children.children]]
+title = "Rock Climber"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/rock-climber"
+
+[[books.chapters.children.children.children.children]]
+title = "Sacred Tattoo"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/sacred-tattoo"
+
+[[books.chapters.children.children.children.children]]
+title = "Scavenger"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/scavenger"
+
+[[books.chapters.children.children.children.children]]
+title = "Shaman's Apprentice"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/shamans-apprentice"
+
+[[books.chapters.children.children.children.children]]
+title = "Skilled"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/skilled"
+
+[[books.chapters.children.children.children.children]]
+title = "Toothy"
+entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/toothy"
+
+[[books.chapters.children.children]]
+title = "New Racial Rules"
+anchor = "new-racial-rules"
+
+[[books.chapters.children.children.children]]
+title = "Half-Orc Equipment"
+anchor = "half-orc-equipment"
+
+[[books.chapters.children.children.children.children]]
+title = "Black Fester"
+entry = "ref/eq-misc/black-fester-vial"
+
+[[books.chapters.children.children.children.children]]
+title = "Half-Orc Disguise Kit"
+entry = "ref/eq-misc/half-orc-disguise-kit"
+
+[[books.chapters.children.children.children]]
+title = "Half-Orc Feats"
+anchor = "half-orc-feats"
+
+[[books.chapters.children.children.children.children]]
+title = "Beast Rider"
+entry = "ref/feat/beast-rider"
+
+[[books.chapters.children.children.children.children]]
+title = "Blood Vengeance"
+entry = "ref/feat/blood-vengeance"
+
+[[books.chapters.children.children.children.children]]
+title = "Destroyer's Blessing"
+entry = "ref/feat/destroyers-blessing"
+
+[[books.chapters.children.children.children.children]]
+title = "Ferocious Resolve"
+entry = "ref/feat/ferocious-resolve"
+
+[[books.chapters.children.children.children.children]]
+title = "Ferocious Summons"
+entry = "ref/feat/ferocious-summons"
+
+[[books.chapters.children.children.children.children]]
+title = "Ferocious Tenacity"
+entry = "ref/feat/ferocious-tenacity"
+
+[[books.chapters.children.children.children.children]]
+title = "Gore Fiend"
+entry = "ref/feat/gore-fiend"
+
+[[books.chapters.children.children.children.children]]
+title = "Horde Charge"
+entry = "ref/feat/horde-charge"
+
+[[books.chapters.children.children.children.children]]
+title = "Improved Surprise Follow-Through"
+entry = "ref/feat/improved-surprise-follow-through"
+
+[[books.chapters.children.children.children.children]]
+title = "Resilient Brute"
+entry = "ref/feat/resilient-brute"
+
+[[books.chapters.children.children.children.children]]
+title = "Surprise Follow-Through"
+entry = "ref/feat/surprise-follow-through"
+
+[[books.chapters.children.children.children.children]]
+title = "Sympathetic Rage"
+entry = "ref/feat/sympathetic-rage"
+
+[[books.chapters.children.children.children.children]]
+title = "Tenacious Survivor"
+entry = "ref/feat/tenacious-survivor"
+
+[[books.chapters.children.children.children.children]]
+title = "Thrill of the Kill"
+entry = "ref/feat/thrill-of-the-kill"
+
+[[books.chapters.children.children.children]]
+title = "Half-Orc Magic Items"
+anchor = "half-orc-magic-items"
+
+[[books.chapters.children.children.children.children]]
+title = "Cloak of Human Guise"
+entry = "ref/magic-wondrous/cloak-of-human-guise"
+
+[[books.chapters.children.children.children.children]]
+title = "Ring of Ferocious Action"
+entry = "ref/magic-ring/ring-of-ferocious-action"
+
+[[books.chapters.children.children.children.children]]
+title = "Swift Obsidian Greataxe"
+entry = "ref/magic-weapon/swift-obsidian-greataxe"
+
+[[books.chapters.children.children.children]]
+title = "Half-Orc Spells"
+anchor = "half-orc-spells"
+
+[[books.chapters.children.children.children.children]]
+title = "Battle Trance"
+entry = "ref/spell/battle-trance"
+
+[[books.chapters.children.children.children.children]]
+title = "Ghost Wolf"
+entry = "ref/spell/ghost-wolf"
+
+[[books.chapters.children.children.children.children]]
+title = "Half-Blood Extraction"
+entry = "ref/spell/half-blood-extraction"
+
+[[books.chapters.children.children.children.children]]
+title = "Linebreaker"
+entry = "ref/spell/linebreaker"
+
+[[books.chapters.children.children.children.children]]
+title = "Savage Maw"
+entry = "ref/spell/savage-maw"
+
+[[books.chapters.children]]
 title = "Halflings"
 entry = "ref/carried/advanced-race-guide/races/halflings"
 
@@ -7414,190 +7598,6 @@ entry = "ref/spell/fearsome-duplicate"
 [[books.chapters.children.children.children.children]]
 title = "Village Veil"
 entry = "ref/spell/village-veil"
-
-[[books.chapters.children]]
-title = "Half-Orcs"
-entry = "ref/carried/advanced-race-guide/races/half-orcs"
-
-[[books.chapters.children.children]]
-title = "Alternate Racial Rules"
-anchor = "alternate-racial-rules"
-
-[[books.chapters.children.children.children]]
-title = "Alternate Racial Traits"
-anchor = "alternate-racial-traits"
-
-[[books.chapters.children.children.children.children]]
-title = "Acute Darkvision"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/acute-darkvision"
-
-[[books.chapters.children.children.children.children]]
-title = "Beastmaster"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/beastmaster"
-
-[[books.chapters.children.children.children.children]]
-title = "Bestial"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/bestial"
-
-[[books.chapters.children.children.children.children]]
-title = "Cavewight"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/cavewight"
-
-[[books.chapters.children.children.children.children]]
-title = "Chain Fighter"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/chain-fighter"
-
-[[books.chapters.children.children.children.children]]
-title = "City-Raised"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/city-raised"
-
-[[books.chapters.children.children.children.children]]
-title = "Forest Walker"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/forest-walker"
-
-[[books.chapters.children.children.children.children]]
-title = "Gatecrasher"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/gatecrasher"
-
-[[books.chapters.children.children.children.children]]
-title = "Rock Climber"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/rock-climber"
-
-[[books.chapters.children.children.children.children]]
-title = "Sacred Tattoo"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/sacred-tattoo"
-
-[[books.chapters.children.children.children.children]]
-title = "Scavenger"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/scavenger"
-
-[[books.chapters.children.children.children.children]]
-title = "Shaman's Apprentice"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/shamans-apprentice"
-
-[[books.chapters.children.children.children.children]]
-title = "Skilled"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/skilled"
-
-[[books.chapters.children.children.children.children]]
-title = "Toothy"
-entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/toothy"
-
-[[books.chapters.children.children]]
-title = "New Racial Rules"
-anchor = "new-racial-rules"
-
-[[books.chapters.children.children.children]]
-title = "Half-Orc Equipment"
-anchor = "half-orc-equipment"
-
-[[books.chapters.children.children.children.children]]
-title = "Black Fester"
-entry = "ref/eq-misc/black-fester-vial"
-
-[[books.chapters.children.children.children.children]]
-title = "Half-Orc Disguise Kit"
-entry = "ref/eq-misc/half-orc-disguise-kit"
-
-[[books.chapters.children.children.children]]
-title = "Half-Orc Feats"
-anchor = "half-orc-feats"
-
-[[books.chapters.children.children.children.children]]
-title = "Beast Rider"
-entry = "ref/feat/beast-rider"
-
-[[books.chapters.children.children.children.children]]
-title = "Blood Vengeance"
-entry = "ref/feat/blood-vengeance"
-
-[[books.chapters.children.children.children.children]]
-title = "Destroyer's Blessing"
-entry = "ref/feat/destroyers-blessing"
-
-[[books.chapters.children.children.children.children]]
-title = "Ferocious Resolve"
-entry = "ref/feat/ferocious-resolve"
-
-[[books.chapters.children.children.children.children]]
-title = "Ferocious Summons"
-entry = "ref/feat/ferocious-summons"
-
-[[books.chapters.children.children.children.children]]
-title = "Ferocious Tenacity"
-entry = "ref/feat/ferocious-tenacity"
-
-[[books.chapters.children.children.children.children]]
-title = "Gore Fiend"
-entry = "ref/feat/gore-fiend"
-
-[[books.chapters.children.children.children.children]]
-title = "Horde Charge"
-entry = "ref/feat/horde-charge"
-
-[[books.chapters.children.children.children.children]]
-title = "Improved Surprise Follow-Through"
-entry = "ref/feat/improved-surprise-follow-through"
-
-[[books.chapters.children.children.children.children]]
-title = "Resilient Brute"
-entry = "ref/feat/resilient-brute"
-
-[[books.chapters.children.children.children.children]]
-title = "Surprise Follow-Through"
-entry = "ref/feat/surprise-follow-through"
-
-[[books.chapters.children.children.children.children]]
-title = "Sympathetic Rage"
-entry = "ref/feat/sympathetic-rage"
-
-[[books.chapters.children.children.children.children]]
-title = "Tenacious Survivor"
-entry = "ref/feat/tenacious-survivor"
-
-[[books.chapters.children.children.children.children]]
-title = "Thrill of the Kill"
-entry = "ref/feat/thrill-of-the-kill"
-
-[[books.chapters.children.children.children]]
-title = "Half-Orc Magic Items"
-anchor = "half-orc-magic-items"
-
-[[books.chapters.children.children.children.children]]
-title = "Cloak of Human Guise"
-entry = "ref/magic-wondrous/cloak-of-human-guise"
-
-[[books.chapters.children.children.children.children]]
-title = "Ring of Ferocious Action"
-entry = "ref/magic-ring/ring-of-ferocious-action"
-
-[[books.chapters.children.children.children.children]]
-title = "Swift Obsidian Greataxe"
-entry = "ref/magic-weapon/swift-obsidian-greataxe"
-
-[[books.chapters.children.children.children]]
-title = "Half-Orc Spells"
-anchor = "half-orc-spells"
-
-[[books.chapters.children.children.children.children]]
-title = "Battle Trance"
-entry = "ref/spell/battle-trance"
-
-[[books.chapters.children.children.children.children]]
-title = "Ghost Wolf"
-entry = "ref/spell/ghost-wolf"
-
-[[books.chapters.children.children.children.children]]
-title = "Half-Blood Extraction"
-entry = "ref/spell/half-blood-extraction"
-
-[[books.chapters.children.children.children.children]]
-title = "Linebreaker"
-entry = "ref/spell/linebreaker"
-
-[[books.chapters.children.children.children.children]]
-title = "Savage Maw"
-entry = "ref/spell/savage-maw"
 
 [[books.chapters.children]]
 title = "Humans"
@@ -8017,10 +8017,6 @@ entry = "ref/eq-misc/softpaw-boots"
 [[books.chapters.children.children.children.children]]
 title = "Trailscent Kit"
 entry = "ref/eq-misc/trailscent-kit"
-
-[[books.chapters.children.children]]
-title = "Catfolk Rogue Talents"
-anchor = "catfolk-rogue-talents"
 
 [[books.chapters.children.children.children]]
 title = "Catfolk Feats"
@@ -10352,15 +10348,15 @@ entry = "ref/rule/step-1-concept-arg"
 title = "Step 2: Racial Qualities"
 entry = "ref/rule/step-2-racial-qualities"
 
-[[books.chapters.children]]
-title = "Step 3: Racial Traits"
-entry = "ref/rule/step-3-racial-traits"
-
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Racial Qualities"
 entry = "ref/carried/advanced-race-guide/rules/race-builder/racial-qualities"
 
 [[books.chapters.children]]
+title = "Step 3: Racial Traits"
+entry = "ref/rule/step-3-racial-traits"
+
+[[books.chapters.children.children]]
 title = "Racial Traits"
 entry = "ref/carried/advanced-race-guide/rules/race-builder/racial-traits"
 
