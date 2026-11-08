@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/mighty-ambush"
-kind = "rule"
+kind = "class_option"
 title = "Mighty Ambush"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Mighty Ambush (Ex)**

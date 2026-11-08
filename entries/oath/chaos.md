@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/chaos"
-kind = "rule"
+kind = "class_option"
 title = "Oath against Chaos"
 source_ids = ["inner-sea-combat"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Detect evil", "Smite evil", "Channel positive energy"]
 +++
 
 **Sources:** Inner Sea Combat pg 15\

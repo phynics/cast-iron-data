@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/the-peoples-council"
-kind = "rule"
+kind = "class_option"
 title = "Oath of the People's Council"
 source_ids = ["divine-anthology"]
 provenance = [
@@ -8,7 +8,10 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Smite evil", "Aura of justice"]
+alters = ["Holy champion"]
 +++
 
 **Sources:** Divine Anthology pg 20\

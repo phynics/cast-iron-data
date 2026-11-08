@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/poisoner"
-kind = "rule"
+kind = "class_option"
 title = "Poisoner"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Poisoner (Ex)**

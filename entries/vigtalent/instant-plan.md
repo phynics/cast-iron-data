@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/instant-plan"
-kind = "rule"
+kind = "class_option"
 title = "Instant Plan"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Instant Plan (Ex)**

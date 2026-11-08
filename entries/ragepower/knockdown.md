@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/knockdown"
-kind = "rule"
+kind = "class_option"
 title = "Knockdown"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Knockdown (Ex)**

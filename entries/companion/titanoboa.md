@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/titanoboa"
-kind = "rule"
+kind = "class_option"
 title = "Titanoboa"
 source_ids = ["bestiary-6"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 6 pg 312

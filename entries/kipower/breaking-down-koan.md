@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/breaking-down-koan"
-kind = "rule"
+kind = "class_option"
 title = "Breaking-Down Koan"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Breaking-Down Koan (Su)**

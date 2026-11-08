@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/lasting-poison-unchained-rogue"
-kind = "rule"
+kind = "class_option"
 title = "Lasting Poison (Unchained Rogue)"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Lasting Poison (Unchained Rogue) (Ex)**

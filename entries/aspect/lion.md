@@ -1,6 +1,6 @@
 +++
 id = "ref/aspect/lion"
-kind = "rule"
+kind = "class_option"
 title = "Lion"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shifter-aspect"
 +++
 
 **Sources:** Heroes of Golarion pg 22\

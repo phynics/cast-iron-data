@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/loyal-aid"
-kind = "rule"
+kind = "class_option"
 title = "Loyal Aid"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Loyal Aid (Ex)**

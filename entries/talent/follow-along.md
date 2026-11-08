@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/follow-along"
-kind = "rule"
+kind = "class_option"
 title = "Follow Along"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Follow Along (Ex)**

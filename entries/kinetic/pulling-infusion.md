@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/pulling-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Pulling Infusion"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** void

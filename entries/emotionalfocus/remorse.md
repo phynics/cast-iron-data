@@ -1,6 +1,6 @@
 +++
 id = "ref/emotionalfocus/remorse"
-kind = "rule"
+kind = "class_option"
 title = "Remorse"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "emotional-focus"
 +++
 
 **Sources:** Occult Origins pg 19\

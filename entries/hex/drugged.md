@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/drugged"
-kind = "rule"
+kind = "class_option"
 title = "Drugged"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Drugged (Su)**

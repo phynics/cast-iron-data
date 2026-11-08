@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/stink-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Stink Bomb"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Stink Bomb**

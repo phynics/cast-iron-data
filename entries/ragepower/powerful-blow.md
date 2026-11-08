@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/powerful-blow"
-kind = "rule"
+kind = "class_option"
 title = "Powerful Blow"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Powerful Blow (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/swarming-attack"
-kind = "rule"
+kind = "class_option"
 title = "Swarming Attack"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Swarming Attack**

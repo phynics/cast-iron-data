@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/contagious-rage"
-kind = "rule"
+kind = "class_option"
 title = "Contagious Rage"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Contagious Rage (Su)**

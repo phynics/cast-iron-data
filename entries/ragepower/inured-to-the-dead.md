@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/inured-to-the-dead"
-kind = "rule"
+kind = "class_option"
 title = "Inured to the Dead"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Inured to the Dead**

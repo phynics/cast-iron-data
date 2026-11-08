@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/nature"
-kind = "rule"
+kind = "class_option"
 title = "Nature"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 **Sources:** Advanced Class Guide pg 44\

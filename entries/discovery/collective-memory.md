@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/collective-memory"
-kind = "rule"
+kind = "class_option"
 title = "Collective Memory"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Collective Memory**

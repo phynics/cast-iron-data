@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/knowledge-is-power"
-kind = "rule"
+kind = "class_option"
 title = "Knowledge Is Power"
 source_ids = ["people-of-the-river"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Knowledge Is Power (Ex)**

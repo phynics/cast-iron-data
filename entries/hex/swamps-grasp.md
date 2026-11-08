@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/swamps-grasp"
-kind = "rule"
+kind = "class_option"
 title = "Swamp's Grasp"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Swamp's Grasp**

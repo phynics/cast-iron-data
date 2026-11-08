@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/psychokinetic-tincture"
-kind = "rule"
+kind = "class_option"
 title = "Psychokinetic Tincture"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Psychokinetic Tincture**

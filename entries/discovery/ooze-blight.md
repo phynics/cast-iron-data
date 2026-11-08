@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/ooze-blight"
-kind = "rule"
+kind = "class_option"
 title = "Ooze Blight"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Ooze Blight**

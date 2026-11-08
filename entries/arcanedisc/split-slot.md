@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/split-slot"
-kind = "rule"
+kind = "class_option"
 title = "Split Slot"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Split Slot**

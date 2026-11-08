@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/confusing-strike"
-kind = "rule"
+kind = "class_option"
 title = "Confusing Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Confusing Strike (Ex)**

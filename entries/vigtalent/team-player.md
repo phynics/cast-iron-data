@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/team-player"
-kind = "rule"
+kind = "class_option"
 title = "Team Player"
 source_ids = ["spymasters-handbook", "adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Team Player (Ex)**

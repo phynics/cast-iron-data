@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/twice-damned-prince"
-kind = "rule"
+kind = "class_option"
 title = "Twice-Damned Prince"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Adventurer's Guide pg 52\

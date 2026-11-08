@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/mystic-veil"
-kind = "rule"
+kind = "class_option"
 title = "Mystic Veil"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Mystic Veil (Sp)**

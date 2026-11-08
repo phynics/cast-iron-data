@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/deadly-scratch"
-kind = "rule"
+kind = "class_option"
 title = "Deadly Scratch"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Deadly Scratch (Ex)**

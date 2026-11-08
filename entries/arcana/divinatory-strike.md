@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/divinatory-strike"
-kind = "rule"
+kind = "class_option"
 title = "Divinatory Strike"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Magical Marketplace pg 4

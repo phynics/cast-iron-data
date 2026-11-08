@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/winter"
-kind = "rule"
+kind = "class_option"
 title = "Winter"
 source_ids = ["people-of-the-north"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** People of the North pg 26

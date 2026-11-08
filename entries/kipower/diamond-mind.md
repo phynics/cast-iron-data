@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/diamond-mind"
-kind = "rule"
+kind = "class_option"
 title = "Diamond Mind"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Diamond Mind (Su)**

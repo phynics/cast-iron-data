@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/clear-mind"
-kind = "rule"
+kind = "class_option"
 title = "Clear Mind"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Clear Mind (Ex)**

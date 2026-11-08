@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/yolubilis-heron"
-kind = "rule"
+kind = "class_option"
 title = "Yolubilis Heron"
 source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 83

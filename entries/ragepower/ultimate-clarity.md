@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/ultimate-clarity"
-kind = "rule"
+kind = "class_option"
 title = "Ultimate Clarity"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Ultimate Clarity (Su)**

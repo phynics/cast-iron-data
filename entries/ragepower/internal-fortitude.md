@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/internal-fortitude"
-kind = "rule"
+kind = "class_option"
 title = "Internal Fortitude"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Internal Fortitude (Ex)**

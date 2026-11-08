@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/exploding-trap"
-kind = "rule"
+kind = "class_option"
 title = "Exploding Trap"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Exploding Trap (Ex or Su)

@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanhex/draconic-resilience"
-kind = "rule"
+kind = "class_option"
 title = "Draconic Resilience"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-hex"
 +++
 
 **Draconic Resilience (Ex)**

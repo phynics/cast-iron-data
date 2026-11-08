@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/deinotherium"
-kind = "rule"
+kind = "class_option"
 title = "Deinotherium"
 source_ids = ["bestiary-6", "pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 6 pg 311, Pathfinder \#91: Battle of Bloodmarch Hills pg 87

@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/death-of-heroes"
-kind = "rule"
+kind = "class_option"
 title = "Death of Heroes"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Death of Heroes (Oratory, Sing)

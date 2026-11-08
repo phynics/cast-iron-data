@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/flight-response"
-kind = "rule"
+kind = "class_option"
 title = "Flight Response"
 source_ids = ["horror-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Flight Response**

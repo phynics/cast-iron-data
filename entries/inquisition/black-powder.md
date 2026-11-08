@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/black-powder"
-kind = "rule"
+kind = "class_option"
 title = "Black Powder"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Ultimate Combat pg 52

@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/namzaruum"
-kind = "rule"
+kind = "class_option"
 title = "Namzaruum"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
@@ -8,7 +8,10 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
+replaces = ["Decisive strike"]
+alters = ["Marshal's order"]
 +++
 
 **Sources:** Blood of the Ancients pg 24\

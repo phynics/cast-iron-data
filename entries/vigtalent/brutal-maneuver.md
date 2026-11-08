@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/brutal-maneuver"
-kind = "rule"
+kind = "class_option"
 title = "Brutal Maneuver"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Brutal Maneuver**

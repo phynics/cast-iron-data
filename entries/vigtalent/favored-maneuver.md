@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/favored-maneuver"
-kind = "rule"
+kind = "class_option"
 title = "Favored Maneuver"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Favored Maneuver (Ex)**

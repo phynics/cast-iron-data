@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/no-place-like-home"
-kind = "rule"
+kind = "class_option"
 title = "No Place Like Home"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **No Place Like Home (Su)**

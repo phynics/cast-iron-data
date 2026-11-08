@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/unfolding-wind-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Unfolding Wind Infusion"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** air

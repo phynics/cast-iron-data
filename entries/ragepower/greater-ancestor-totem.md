@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-ancestor-totem"
-kind = "rule"
+kind = "class_option"
 title = "Greater Ancestor Totem"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Ancestor Totem (Su)**

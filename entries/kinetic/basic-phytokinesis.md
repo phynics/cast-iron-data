@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/basic-phytokinesis"
-kind = "rule"
+kind = "class_option"
 title = "Basic Phytokinesis"
 source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Basic Phytokinesis (Sp)

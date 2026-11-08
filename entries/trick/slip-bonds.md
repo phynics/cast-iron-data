@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/slip-bonds"
-kind = "rule"
+kind = "class_option"
 title = "Slip Bonds"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Slip Bonds**

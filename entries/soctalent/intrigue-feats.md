@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/intrigue-feats"
-kind = "rule"
+kind = "class_option"
 title = "Intrigue Feats"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Intrigue Feats (Ex)**

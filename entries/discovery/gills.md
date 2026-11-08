@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/gills"
-kind = "rule"
+kind = "class_option"
 title = "Gills"
 source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Gills**

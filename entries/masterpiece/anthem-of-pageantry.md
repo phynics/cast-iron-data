@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/anthem-of-pageantry"
-kind = "rule"
+kind = "class_option"
 title = "Anthem of Pageantry"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Anthem of Pageantry (String, Wind)

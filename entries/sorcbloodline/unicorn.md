@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/unicorn"
-kind = "rule"
+kind = "class_option"
 title = "Unicorn"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Heroes of Golarion pg 10\

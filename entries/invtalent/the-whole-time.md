@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/the-whole-time"
-kind = "rule"
+kind = "class_option"
 title = "The Whole Time"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **The Whole Time (Su)**

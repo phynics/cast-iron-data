@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/fist-of-the-avenger"
-kind = "rule"
+kind = "class_option"
 title = "Fist of the Avenger"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Fist of the Avenger (Ex)**

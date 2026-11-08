@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/shadow-form"
-kind = "rule"
+kind = "class_option"
 title = "Shadow Form"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Shadow Form (Su)**

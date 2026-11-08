@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/burning-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Burning Infusion"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** fire

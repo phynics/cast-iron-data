@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/grazing-shot"
-kind = "rule"
+kind = "class_option"
 title = "Grazing Shot"
 source_ids = ["agents-of-evil"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Grazing Shot (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-elemental-blood"
-kind = "rule"
+kind = "class_option"
 title = "Greater Elemental Blood"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Elemental Blood (Su)**

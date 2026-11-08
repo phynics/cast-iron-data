@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/from-the-ashes"
-kind = "rule"
+kind = "class_option"
 title = "From the Ashes"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## From the Ashes (Sp)

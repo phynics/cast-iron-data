@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/false-attacker"
-kind = "rule"
+kind = "class_option"
 title = "False Attacker"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **False Attacker (Ex)**

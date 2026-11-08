@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/set-up"
-kind = "rule"
+kind = "class_option"
 title = "Set-Up"
 source_ids = ["cohorts-and-companions"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Set-Up (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/raging-whirlwind"
-kind = "rule"
+kind = "class_option"
 title = "Raging Whirlwind"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Raging Whirlwind (Su)**

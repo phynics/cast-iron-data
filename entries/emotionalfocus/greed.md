@@ -1,6 +1,6 @@
 +++
 id = "ref/emotionalfocus/greed"
-kind = "rule"
+kind = "class_option"
 title = "Greed"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "emotional-focus"
 +++
 
 **Sources:** Occult Realms pg 14\

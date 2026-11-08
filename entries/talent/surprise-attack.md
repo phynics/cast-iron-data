@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/surprise-attack"
-kind = "rule"
+kind = "class_option"
 title = "Surprise Attack"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Surprise Attack (Ex)**

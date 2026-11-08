@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/quick-reflexes"
-kind = "rule"
+kind = "class_option"
 title = "Quick Reflexes"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Quick Reflexes (Ex)**

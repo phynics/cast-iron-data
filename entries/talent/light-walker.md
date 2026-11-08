@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/light-walker"
-kind = "rule"
+kind = "class_option"
 title = "Light Walker"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Light Walker (Ex)**

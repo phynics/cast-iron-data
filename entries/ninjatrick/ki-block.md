@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/ki-block"
-kind = "rule"
+kind = "class_option"
 title = "Ki Block"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Ki Block (Su)**

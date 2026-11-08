@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/smoke-trap"
-kind = "rule"
+kind = "class_option"
 title = "Smoke Trap"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Smoke Trap (Ex or Su)

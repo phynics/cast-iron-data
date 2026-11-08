@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/evocation"
-kind = "rule"
+kind = "class_option"
 title = "Evocation"
 source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** PRPG Core Rulebook pg 81\

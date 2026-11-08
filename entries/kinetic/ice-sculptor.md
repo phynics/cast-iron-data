@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/ice-sculptor"
-kind = "rule"
+kind = "class_option"
 title = "Ice Sculptor"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Ice Sculptor (Sp)

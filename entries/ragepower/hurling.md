@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/hurling"
-kind = "rule"
+kind = "class_option"
 title = "Hurling"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Hurling (Ex)**

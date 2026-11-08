@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/unnatural-aura"
-kind = "rule"
+kind = "class_option"
 title = "Unnatural Aura"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Unnatural Aura (Su)**

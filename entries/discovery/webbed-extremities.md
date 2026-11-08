@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/webbed-extremities"
-kind = "rule"
+kind = "class_option"
 title = "Webbed Extremities"
 source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Webbed Extremities**

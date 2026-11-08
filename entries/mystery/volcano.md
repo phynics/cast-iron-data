@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/volcano"
-kind = "rule"
+kind = "class_option"
 title = "Volcano"
 source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Pathfinder \#95: Anvil of Fire pg 72

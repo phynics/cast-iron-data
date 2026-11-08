@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/night-queens-fury"
-kind = "rule"
+kind = "class_option"
 title = "Night Queen's Fury"
 source_ids = ["distant-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Night Queen's Fury (Act, Oratory)

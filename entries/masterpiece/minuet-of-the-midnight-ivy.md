@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/minuet-of-the-midnight-ivy"
-kind = "rule"
+kind = "class_option"
 title = "Minuet of the Midnight Ivy"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Minuet of the Midnight Ivy (Dance)

@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/song-of-extinction"
-kind = "rule"
+kind = "class_option"
 title = "Song of Extinction"
 source_ids = ["artifacts-and-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Song of Extinction (Sing, String, Wind)

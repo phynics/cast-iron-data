@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/fire-steed"
-kind = "rule"
+kind = "class_option"
 title = "Fire Steed"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Fire Steed (Sp)

@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/healing"
-kind = "rule"
+kind = "class_option"
 title = "Healing"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Healing**

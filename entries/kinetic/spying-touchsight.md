@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/spying-touchsight"
-kind = "rule"
+kind = "class_option"
 title = "Spying Touchsight"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Spying Touchsight (Sp)

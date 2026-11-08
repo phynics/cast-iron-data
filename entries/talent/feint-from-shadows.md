@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/feint-from-shadows"
-kind = "rule"
+kind = "class_option"
 title = "Feint from Shadows"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Feint from Shadows (Ex)**

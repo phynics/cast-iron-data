@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/symphony-of-sylandurlas-ascent"
-kind = "rule"
+kind = "class_option"
 title = "Symphony of Sylandurla's Ascent"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Symphony of Sylandurla's Ascent (Percussion, Wind)

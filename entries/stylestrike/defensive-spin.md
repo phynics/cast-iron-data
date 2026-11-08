@@ -1,6 +1,6 @@
 +++
 id = "ref/stylestrike/defensive-spin"
-kind = "rule"
+kind = "class_option"
 title = "Defensive Spin"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "style-strike"
 +++
 
 **Defensive Spin**

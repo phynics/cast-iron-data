@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/deadly-excretions"
-kind = "rule"
+kind = "class_option"
 title = "Deadly Excretions"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Deadly Excretions**

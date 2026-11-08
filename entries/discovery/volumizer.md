@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/volumizer"
-kind = "rule"
+kind = "class_option"
 title = "Volumizer"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Volumizer**

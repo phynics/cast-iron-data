@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/slow-reactions"
-kind = "rule"
+kind = "class_option"
 title = "Slow Reactions"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Slow Reactions (Ex)**

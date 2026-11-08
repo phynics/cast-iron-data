@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/archon"
-kind = "rule"
+kind = "class_option"
 title = "Archon"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Summoned from heaven, [archon](ref/family/archon) eidolons are the embodiments of righteousness.

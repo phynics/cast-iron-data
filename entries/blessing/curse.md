@@ -1,6 +1,6 @@
 +++
 id = "ref/blessing/curse"
-kind = "rule"
+kind = "class_option"
 title = "Curse"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "warpriest-blessing"
 +++
 
 **Sources:** Magic Tactics Toolbox pg 22\

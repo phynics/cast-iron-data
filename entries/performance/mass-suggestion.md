@@ -1,6 +1,6 @@
 +++
 id = "ref/performance/mass-suggestion"
-kind = "rule"
+kind = "class_option"
 title = "Mass Suggestion"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-performance"
 +++
 
 **Mass Suggestion (Sp)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/vermin"
-kind = "rule"
+kind = "class_option"
 title = "Vermin"
 source_ids = ["ultimate-wilderness", "inner-sea-monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## Vermin Domain

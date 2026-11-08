@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/revelation"
-kind = "rule"
+kind = "class_option"
 title = "Revelation"
 source_ids = ["blood-of-angels"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Blood of Angels pg 27

@@ -1,6 +1,6 @@
 +++
 id = "ref/implement/mages-paraphernalia"
-kind = "rule"
+kind = "class_option"
 title = "Mage's Paraphernalia (Panoply)"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "occultist-implement"
 +++
 
 ## Mage's Paraphernalia

@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-draconic-blood"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Draconic Blood"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Draconic Blood (Su)**

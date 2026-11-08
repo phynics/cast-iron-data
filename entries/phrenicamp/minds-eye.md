@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/minds-eye"
-kind = "rule"
+kind = "class_option"
 title = "Mind's Eye"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Mind's Eye (Su)**

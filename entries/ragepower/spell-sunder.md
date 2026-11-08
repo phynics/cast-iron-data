@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/spell-sunder"
-kind = "rule"
+kind = "class_option"
 title = "Spell Sunder"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Spell Sunder (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/earth-blast"
-kind = "rule"
+kind = "class_option"
 title = "Earth Blast"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Earth Blast (Sp)

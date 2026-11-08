@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/shield-of-fury"
-kind = "rule"
+kind = "class_option"
 title = "Shield of Fury"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Shield of Fury (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/autumn"
-kind = "rule"
+kind = "class_option"
 title = "Autumn"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Autumn**

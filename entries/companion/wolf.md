@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/wolf"
-kind = "rule"
+kind = "class_option"
 title = "Wolf"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** PRPG Core Rulebook pg 54

@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/torture"
-kind = "rule"
+kind = "class_option"
 title = "Torture"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Ultimate Magic pg 44

@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/fugue-de-rue-dauseil"
-kind = "rule"
+kind = "class_option"
 title = "Fugue de Rue d'Auseil"
 source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 **Sources:** Pathfinder \#114: Black Stars Beckon

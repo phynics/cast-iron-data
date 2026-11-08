@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/ice-tomb"
-kind = "rule"
+kind = "class_option"
 title = "Ice Tomb"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Ice Tomb (Su)**

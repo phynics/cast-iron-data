@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/sweeping-strike"
-kind = "rule"
+kind = "class_option"
 title = "Sweeping Strike"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Sweeping Strike (Ex)**

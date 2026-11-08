@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/jury-rigged-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Jury-Rigged Bomb"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Jury-Rigged Bomb**

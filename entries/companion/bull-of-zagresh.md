@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/bull-of-zagresh"
-kind = "rule"
+kind = "class_option"
 title = "Bull of Zagresh"
 source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 55

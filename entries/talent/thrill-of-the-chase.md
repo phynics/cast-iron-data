@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/thrill-of-the-chase"
-kind = "rule"
+kind = "class_option"
 title = "Thrill of the Chase"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Thrill of the Chase (Ex)**

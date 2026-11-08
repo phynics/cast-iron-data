@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/pygmy-hippopotamus"
-kind = "rule"
+kind = "class_option"
 title = "Pygmy Hippopotamus"
 source_ids = ["heart-of-the-jungle"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Heart of the Jungle pg 60

@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/alarm-trap"
-kind = "rule"
+kind = "class_option"
 title = "Alarm Trap"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Alarm Trap (Ex or Su)

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/void-healer"
-kind = "rule"
+kind = "class_option"
 title = "Void Healer"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Void Healer (Sp)

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-lion"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Lion"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Advanced Player's Guide pg 36

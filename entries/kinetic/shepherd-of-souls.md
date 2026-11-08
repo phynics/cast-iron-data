@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/shepherd-of-souls"
-kind = "rule"
+kind = "class_option"
 title = "Shepherd of Souls"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** universal

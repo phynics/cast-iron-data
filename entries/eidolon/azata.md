@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/azata"
-kind = "rule"
+kind = "class_option"
 title = "Azata"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Embodiments of the untamable beauty and noble passion of Elysium, [azata](ref/family/azata) eidolons

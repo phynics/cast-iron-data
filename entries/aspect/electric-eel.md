@@ -1,6 +1,6 @@
 +++
 id = "ref/aspect/electric-eel"
-kind = "rule"
+kind = "class_option"
 title = "Electric Eel"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shifter-aspect"
 +++
 
 **Sources:** Wilderness Origins pg 4\

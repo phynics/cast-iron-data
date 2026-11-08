@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/aquatic-action"
-kind = "rule"
+kind = "class_option"
 title = "Aquatic Action"
 source_ids = ["people-of-the-wastes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Aquatic Action (Ex)**

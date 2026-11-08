@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/verdant-blast"
-kind = "rule"
+kind = "class_option"
 title = "Verdant Blast"
 source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Verdant Blast (Sp)

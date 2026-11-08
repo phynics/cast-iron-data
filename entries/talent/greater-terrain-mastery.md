@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/greater-terrain-mastery"
-kind = "rule"
+kind = "class_option"
 title = "Greater Terrain Mastery"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Greater Terrain Mastery (Ex)**

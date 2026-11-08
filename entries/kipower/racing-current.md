@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/racing-current"
-kind = "rule"
+kind = "class_option"
 title = "Racing Current"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Racing Current (Su)**

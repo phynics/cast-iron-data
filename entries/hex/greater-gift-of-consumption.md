@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/greater-gift-of-consumption"
-kind = "rule"
+kind = "class_option"
 title = "Greater Gift of Consumption"
 source_ids = ["potions-and-poisons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Greater Gift of Consumption (Su)**

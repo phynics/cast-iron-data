@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/concealed-strike"
-kind = "rule"
+kind = "class_option"
 title = "Concealed Strike"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Concealed Strike (Ex)**

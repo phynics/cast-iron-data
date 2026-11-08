@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greater-self-telekinesis"
-kind = "rule"
+kind = "class_option"
 title = "Greater Self Telekinesis"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Greater Self Telekinesis (Sp)

@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/div"
-kind = "rule"
+kind = "class_option"
 title = "Div"
 source_ids = ["people-of-the-sands", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** People of the Sands pg 23\

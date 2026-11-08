@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/spell-storing"
-kind = "rule"
+kind = "class_option"
 title = "Spell Storing"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Spell Storing (Su)**

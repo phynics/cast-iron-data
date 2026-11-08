@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/claimed-turf"
-kind = "rule"
+kind = "class_option"
 title = "Claimed Turf"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Claimed Turf (Ex)**

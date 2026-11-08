@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/skittergoat"
-kind = "rule"
+kind = "class_option"
 title = "Skittergoat"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 83

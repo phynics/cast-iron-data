@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/solar"
-kind = "rule"
+kind = "class_option"
 title = "Solar"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** The Harrow Handbook pg 26

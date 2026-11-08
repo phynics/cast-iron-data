@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/greater-multitalented"
-kind = "rule"
+kind = "class_option"
 title = "Greater Multitalented"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Greater Multitalented (Ex)**

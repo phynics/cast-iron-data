@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/deadly-range"
-kind = "rule"
+kind = "class_option"
 title = "Deadly Range"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Deadly Range (Ex)**

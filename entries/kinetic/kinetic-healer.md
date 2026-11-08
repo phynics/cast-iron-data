@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/kinetic-healer"
-kind = "rule"
+kind = "class_option"
 title = "Kinetic Healer"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Kinetic Healer (Sp)

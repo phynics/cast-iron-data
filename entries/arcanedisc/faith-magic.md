@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/faith-magic"
-kind = "rule"
+kind = "class_option"
 title = "Faith Magic"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Faith Magic**

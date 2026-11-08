@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/domino-effect"
-kind = "rule"
+kind = "class_option"
 title = "Domino Effect"
 source_ids = ["advanced-class-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Domino Effect (Ex)**

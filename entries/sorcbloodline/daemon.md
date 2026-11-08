@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/daemon"
-kind = "rule"
+kind = "class_option"
 title = "Daemon"
 source_ids = ["blood-of-fiends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Blood of Fiends pg 29\

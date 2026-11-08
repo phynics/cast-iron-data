@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/dragon"
-kind = "rule"
+kind = "class_option"
 title = "Dragon"
 source_ids = ["legacy-of-dragons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Legacy of Dragons pg 8

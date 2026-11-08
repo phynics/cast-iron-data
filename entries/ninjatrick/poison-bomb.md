@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/poison-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Poison Bomb"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Poison Bomb (Ex)**

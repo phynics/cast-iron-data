@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/snatch-arrows"
-kind = "rule"
+kind = "class_option"
 title = "Snatch Arrows"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Snatch Arrows**

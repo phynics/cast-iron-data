@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/unwitting-ally"
-kind = "rule"
+kind = "class_option"
 title = "Unwitting Ally"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Unwitting Ally (Ex)**

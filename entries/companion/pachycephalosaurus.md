@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/pachycephalosaurus"
-kind = "rule"
+kind = "class_option"
 title = "Pachycephalosaurus"
 source_ids = ["bestiary-3"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Dinosaur (Pachycephalosaurus)

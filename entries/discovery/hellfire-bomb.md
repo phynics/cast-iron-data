@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/hellfire-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Hellfire Bomb"
 source_ids = ["agents-of-evil"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Hellfire Bomb**

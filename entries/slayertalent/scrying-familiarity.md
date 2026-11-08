@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/scrying-familiarity"
-kind = "rule"
+kind = "class_option"
 title = "Scrying Familiarity"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Scrying Familiarity (Ex)**

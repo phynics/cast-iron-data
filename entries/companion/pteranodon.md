@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/pteranodon"
-kind = "rule"
+kind = "class_option"
 title = "Pteranodon"
 source_ids = ["bestiary"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Dinosaur (Pteranodon)

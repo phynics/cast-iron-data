@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/ongoing-defense"
-kind = "rule"
+kind = "class_option"
 title = "Ongoing Defense"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Ongoing Defense (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/occult-dungeoneer"
-kind = "rule"
+kind = "class_option"
 title = "Occult Dungeoneer"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Occult Dungeoneer (Su)**

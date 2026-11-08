@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/mental-intrusion"
-kind = "rule"
+kind = "class_option"
 title = "Mental Intrusion"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Mental Intrusion (Sp)**

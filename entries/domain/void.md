@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/void"
-kind = "rule"
+kind = "class_option"
 title = "Void"
 source_ids = ["book-of-the-damned", "gods-and-magic", "horror-adventures", "bestiary-4", "inner-sea-world-guide", "people-of-the-stars", "inner-sea-gods", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** Book of the Damned pg 182, Gods and Magic pg 53, Horror Adventures pg 49, Bestiary 4 pg

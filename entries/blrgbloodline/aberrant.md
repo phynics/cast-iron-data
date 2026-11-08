@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/aberrant"
-kind = "rule"
+kind = "class_option"
 title = "Aberrant"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Aberrant Bloodline

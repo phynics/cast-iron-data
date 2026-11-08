@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/protective-luck"
-kind = "rule"
+kind = "class_option"
 title = "Protective Luck"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Protective Luck (Su)**

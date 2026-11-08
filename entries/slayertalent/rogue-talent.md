@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/rogue-talent"
-kind = "rule"
+kind = "class_option"
 title = "Rogue Talent"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Rogue Talent**

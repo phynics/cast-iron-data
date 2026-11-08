@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/lunar"
-kind = "rule"
+kind = "class_option"
 title = "Lunar"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Blood of the Moon pg 28

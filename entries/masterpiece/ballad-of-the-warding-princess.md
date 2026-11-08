@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/ballad-of-the-warding-princess"
-kind = "rule"
+kind = "class_option"
 title = "Ballad of the Warding Princess"
 source_ids = ["lost-treasures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Ballad of the Warding Princess (Oratory, Sing)

@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/sleeper-agent"
-kind = "rule"
+kind = "class_option"
 title = "Sleeper Agent"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Sleeper Agent**

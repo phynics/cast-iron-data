@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/sandstone-solution"
-kind = "rule"
+kind = "class_option"
 title = "Sandstone Solution"
 source_ids = ["people-of-the-sands"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Sandstone Solution**

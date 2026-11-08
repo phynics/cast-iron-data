@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/invoke-glyph"
-kind = "rule"
+kind = "class_option"
 title = "Invoke Glyph"
 source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Invoke Glyph (Sp and Ex)**

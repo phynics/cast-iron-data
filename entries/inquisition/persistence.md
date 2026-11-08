@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/persistence"
-kind = "rule"
+kind = "class_option"
 title = "Persistence"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Ultimate Magic pg 43

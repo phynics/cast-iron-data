@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/shadow"
-kind = "rule"
+kind = "class_option"
 title = "Shadow"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Summoned from the dreary shadowscapes of the Shadow Plane, shadow eidolons are grim, colorless

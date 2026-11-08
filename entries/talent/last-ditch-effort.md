@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/last-ditch-effort"
-kind = "rule"
+kind = "class_option"
 title = "Last Ditch Effort"
 source_ids = ["people-of-the-sands"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Last Ditch Effort**

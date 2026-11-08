@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/alchemist-discovery"
-kind = "rule"
+kind = "class_option"
 title = "Alchemist Discovery"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Alchemist Discovery (Ex)**

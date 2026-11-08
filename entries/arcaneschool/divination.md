@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/divination"
-kind = "rule"
+kind = "class_option"
 title = "Divination"
 source_ids = ["core-rulebook", "advanced-players-guide", "disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** PRPG Core Rulebook pg 80\

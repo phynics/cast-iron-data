@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/summon-devil"
-kind = "rule"
+kind = "class_option"
 title = "Summon Devil"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Summon Devil (Sp)**

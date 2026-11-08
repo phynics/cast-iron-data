@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/nanite"
-kind = "rule"
+kind = "class_option"
 title = "Nanite"
 source_ids = ["people-of-the-river", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** People of the River pg 19\

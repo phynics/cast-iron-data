@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/marax"
-kind = "rule"
+kind = "class_option"
 title = "Marax"
 source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#90: The Divinity Drive pg 87

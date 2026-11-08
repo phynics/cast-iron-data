@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-suffocating-grip"
-kind = "rule"
+kind = "class_option"
 title = "Greater Suffocating Grip"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Suffocating Grip (Ex)**

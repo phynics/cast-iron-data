@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/ancients-flight"
-kind = "rule"
+kind = "class_option"
 title = "Ancients' Flight"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Ancients' Flight (Oratory)

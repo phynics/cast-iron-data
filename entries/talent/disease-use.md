@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/disease-use"
-kind = "rule"
+kind = "class_option"
 title = "Disease Use"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Disease Use**

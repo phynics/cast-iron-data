@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/snare-trap"
-kind = "rule"
+kind = "class_option"
 title = "Snare Trap"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Snare Trap (Ex or Su)

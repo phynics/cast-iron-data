@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/triple-time"
-kind = "rule"
+kind = "class_option"
 title = "Triple Time"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Triple Time (Percussion, String, Wind)

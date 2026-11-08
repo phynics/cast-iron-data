@@ -1,6 +1,6 @@
 +++
 id = "ref/stylestrike/head-butt"
-kind = "rule"
+kind = "class_option"
 title = "Head-Butt"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "style-strike"
 +++
 
 **Head-Butt**

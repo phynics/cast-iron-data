@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/mad-rush"
-kind = "rule"
+kind = "class_option"
 title = "Mad Rush"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Mad Rush (Ex)**

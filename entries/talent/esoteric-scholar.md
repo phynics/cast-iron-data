@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/esoteric-scholar"
-kind = "rule"
+kind = "class_option"
 title = "Esoteric Scholar"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Esoteric Scholar (Ex)**

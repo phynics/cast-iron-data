@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/genie"
-kind = "rule"
+kind = "class_option"
 title = "Genie"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Genies are elemental beings that take humanoid forms, and genie eidolons often vacillate between

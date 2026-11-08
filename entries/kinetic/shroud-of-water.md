@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/shroud-of-water"
-kind = "rule"
+kind = "class_option"
 title = "Shroud of Water"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Shroud of Water (Su)

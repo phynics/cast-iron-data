@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-animal-fury"
-kind = "rule"
+kind = "class_option"
 title = "Greater Animal Fury"
 source_ids = ["champions-of-corruption"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Animal Fury (Ex)**

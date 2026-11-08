@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/mantis-giant"
-kind = "rule"
+kind = "class_option"
 title = "Giant Mantis"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Ultimate Magic pg 37

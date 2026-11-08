@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-chaos-totem"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Chaos Totem"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Chaos Totem (Su)**

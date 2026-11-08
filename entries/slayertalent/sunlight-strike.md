@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/sunlight-strike"
-kind = "rule"
+kind = "class_option"
 title = "Sunlight Strike"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Sunlight Strike (Ex)**

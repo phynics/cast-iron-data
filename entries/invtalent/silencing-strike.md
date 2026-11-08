@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/silencing-strike"
-kind = "rule"
+kind = "class_option"
 title = "Silencing Strike"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Silencing Strike (Ex)**

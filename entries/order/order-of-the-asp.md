@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-asp"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Asp"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Adventurer's Guide pg 34

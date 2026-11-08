@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/skill-familiarity"
-kind = "rule"
+kind = "class_option"
 title = "Skill Familiarity"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Skill Familiarity (Ex)**

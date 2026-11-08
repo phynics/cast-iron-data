@@ -1,6 +1,6 @@
 +++
 id = "ref/blessing/scalykind"
-kind = "rule"
+kind = "class_option"
 title = "Scalykind"
 source_ids = ["advanced-class-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "warpriest-blessing"
 +++
 
 **Sources:** Advanced Class Origins pg 25\

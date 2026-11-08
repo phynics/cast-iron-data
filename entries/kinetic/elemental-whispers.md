@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/elemental-whispers"
-kind = "rule"
+kind = "class_option"
 title = "Elemental Whispers"
 source_ids = ["horror-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Elemental Whispers (Su)

@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/plane-of-air"
-kind = "rule"
+kind = "class_option"
 title = "Plane of Air"
 source_ids = ["planes-of-power"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## Plane of Air Domain

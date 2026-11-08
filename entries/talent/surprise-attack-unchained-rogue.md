@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/surprise-attack-unchained-rogue"
-kind = "rule"
+kind = "class_option"
 title = "Surprise Attack (Unchained Rogue)"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Surprise Attack (Unchained Rogue) (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/bonded-mask"
-kind = "rule"
+kind = "class_option"
 title = "Bonded Mask"
 source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Bonded Mask**

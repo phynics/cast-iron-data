@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/minor-magic"
-kind = "rule"
+kind = "class_option"
 title = "Minor Magic"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Minor Magic (Sp)**

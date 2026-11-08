@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/strength-surge"
-kind = "rule"
+kind = "class_option"
 title = "Strength Surge"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Strength Surge (Ex)**

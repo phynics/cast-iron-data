@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/world-serpent-totem-unity"
-kind = "rule"
+kind = "class_option"
 title = "World Serpent Totem Unity"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **World Serpent Totem Unity (Su)**

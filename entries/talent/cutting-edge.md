@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/cutting-edge"
-kind = "rule"
+kind = "class_option"
 title = "Cutting Edge"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Cutting Edge (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/domain/protection"
-kind = "rule"
+kind = "class_option"
 title = "Protection"
 source_ids = ["core-rulebook", "advanced-players-guide", "heroes-of-the-streets", "champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "cleric-domain"
 +++
 
 **Sources:** PRPG Core Rulebook pg 46

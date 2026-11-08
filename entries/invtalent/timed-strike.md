@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/timed-strike"
-kind = "rule"
+kind = "class_option"
 title = "Timed Strike"
 source_ids = ["advanced-class-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Timed Strike (Ex)**

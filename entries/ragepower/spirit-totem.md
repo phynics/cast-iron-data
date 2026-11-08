@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/spirit-totem"
-kind = "rule"
+kind = "class_option"
 title = "Spirit Totem"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Spirit Totem (Su)**

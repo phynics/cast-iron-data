@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/anguish-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Anguish Bomb"
 source_ids = ["distant-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Anguish Bomb**

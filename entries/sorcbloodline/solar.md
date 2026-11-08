@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/solar"
-kind = "rule"
+kind = "class_option"
 title = "Solar"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Qadira, Jewel of the East pg 19\

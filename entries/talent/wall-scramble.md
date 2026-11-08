@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/wall-scramble"
-kind = "rule"
+kind = "class_option"
 title = "Wall Scramble"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Wall Scramble (Ex)**

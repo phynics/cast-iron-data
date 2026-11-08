@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/elemental-imbalance"
-kind = "rule"
+kind = "class_option"
 title = "Elemental Imbalance"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Elemental Imbalance**

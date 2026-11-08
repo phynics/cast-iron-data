@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/marking-trap"
-kind = "rule"
+kind = "class_option"
 title = "Marking Trap"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Marking Trap (Ex or Su)

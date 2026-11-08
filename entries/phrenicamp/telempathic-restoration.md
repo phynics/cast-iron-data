@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/telempathic-restoration"
-kind = "rule"
+kind = "class_option"
 title = "Telempathic Restoration"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Telempathic Restoration (Su)**

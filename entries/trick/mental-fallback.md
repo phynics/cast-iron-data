@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/mental-fallback"
-kind = "rule"
+kind = "class_option"
 title = "Mental Fallback"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Mental Fallback**

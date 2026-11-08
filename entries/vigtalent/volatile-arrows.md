@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/volatile-arrows"
-kind = "rule"
+kind = "class_option"
 title = "Volatile Arrows"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Volatile Arrows (Ex)**

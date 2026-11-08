@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/stylish-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Stylish Infusion"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** universal

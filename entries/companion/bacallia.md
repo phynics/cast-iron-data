@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/bacallia"
-kind = "rule"
+kind = "class_option"
 title = "Bacallia"
 source_ids = ["druma-profit-and-prophecy"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Druma, Profit and Prophecy pg 62

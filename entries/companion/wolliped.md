@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/wolliped"
-kind = "rule"
+kind = "class_option"
 title = "Wolliped"
 source_ids = ["bestiary-5"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 5 pg 313

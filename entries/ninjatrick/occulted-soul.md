@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/occulted-soul"
-kind = "rule"
+kind = "class_option"
 title = "Occulted Soul"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Occulted Soul (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/corpse-eater-fungus"
-kind = "rule"
+kind = "class_option"
 title = "Corpse-Eater Fungus"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Ultimate Wilderness pg 182

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/redirect-attack"
-kind = "rule"
+kind = "class_option"
 title = "Redirect Attack"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Redirect Attack (Ex)**

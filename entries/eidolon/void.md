@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/void"
-kind = "rule"
+kind = "class_option"
 title = "Void"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Like the sharp-angled [sceaduinars](ref/monster/sceaduinar) they resemble, void eidolons exult in

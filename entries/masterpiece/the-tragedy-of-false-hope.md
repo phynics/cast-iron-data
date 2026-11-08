@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-tragedy-of-false-hope"
-kind = "rule"
+kind = "class_option"
 title = "The Tragedy of False Hope"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Tragedy of False Hope (Oratory, Sing)

@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/twilight-talon-improvisation"
-kind = "rule"
+kind = "class_option"
 title = "Twilight Talon Improvisation"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Twilight Talon Improvisation (Ex)**

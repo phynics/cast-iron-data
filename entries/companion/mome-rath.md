@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/mome-rath"
-kind = "rule"
+kind = "class_option"
 title = "Mome Rath"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#119: Prisoners of the Blight pg 83

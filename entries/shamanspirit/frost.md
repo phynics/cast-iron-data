@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/frost"
-kind = "rule"
+kind = "class_option"
 title = "Frost"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 **Sources:** Heroes of Golarion pg 10\

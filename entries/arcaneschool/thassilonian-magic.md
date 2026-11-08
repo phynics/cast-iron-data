@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/thassilonian-magic"
-kind = "rule"
+kind = "class_option"
 title = "Thassilonian Magic"
 source_ids = ["adventurers-guide", "inner-sea-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** Adventurer's Guide pg 63, Inner Sea Magic pg 17\

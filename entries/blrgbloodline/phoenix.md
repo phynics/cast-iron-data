@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/phoenix"
-kind = "rule"
+kind = "class_option"
 title = "Phoenix"
 source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Phoenix Bloodline

@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/deep-one"
-kind = "rule"
+kind = "class_option"
 title = "Deep One"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Deep One**

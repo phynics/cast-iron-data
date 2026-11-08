@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/kinetic-awe"
-kind = "rule"
+kind = "class_option"
 title = "Kinetic Awe"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Kinetic Awe (Su)

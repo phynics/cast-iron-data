@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/mighty-swing"
-kind = "rule"
+kind = "class_option"
 title = "Mighty Swing"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Mighty Swing (Ex)**

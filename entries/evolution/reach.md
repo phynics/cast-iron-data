@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/reach"
-kind = "rule"
+kind = "class_option"
 title = "Reach"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Reach (Ex)**

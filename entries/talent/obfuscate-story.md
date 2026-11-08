@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/obfuscate-story"
-kind = "rule"
+kind = "class_option"
 title = "Obfuscate Story"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Obfuscate Story (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/moray-eel"
-kind = "rule"
+kind = "class_option"
 title = "Moray Eel"
 source_ids = ["bestiary"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder RPG Bestiary pg 119

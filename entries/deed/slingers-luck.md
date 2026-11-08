@@ -1,6 +1,6 @@
 +++
 id = "ref/deed/slingers-luck"
-kind = "rule"
+kind = "class_option"
 title = "Slinger's Luck"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "gunslinger-deed"
 +++
 
 **Slinger's Luck (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/yuelrals-blessing"
-kind = "rule"
+kind = "class_option"
 title = "Yuelral's Blessing"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Yuelral's Blessing**

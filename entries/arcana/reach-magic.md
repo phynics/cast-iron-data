@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/reach-magic"
-kind = "rule"
+kind = "class_option"
 title = "Reach Magic"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Ranged Tactics Toolbox pg 13

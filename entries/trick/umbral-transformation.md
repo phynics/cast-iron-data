@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/umbral-transformation"
-kind = "rule"
+kind = "class_option"
 title = "Umbral Transformation"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Umbral Transformation**

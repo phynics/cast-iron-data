@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/assassinate"
-kind = "rule"
+kind = "class_option"
 title = "Assassinate"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Assassinate (Ex)**

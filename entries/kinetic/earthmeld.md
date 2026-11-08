@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/earthmeld"
-kind = "rule"
+kind = "class_option"
 title = "Earthmeld"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Earthmeld (Sp)

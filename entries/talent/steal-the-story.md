@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/steal-the-story"
-kind = "rule"
+kind = "class_option"
 title = "Steal the Story"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Steal the Story (Ex)**

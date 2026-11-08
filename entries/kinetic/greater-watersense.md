@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greater-watersense"
-kind = "rule"
+kind = "class_option"
 title = "Greater Watersense"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Greater Watersense (Su)

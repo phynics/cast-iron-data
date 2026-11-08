@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/blinding-strike"
-kind = "rule"
+kind = "class_option"
 title = "Blinding Strike"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Blinding Strike**

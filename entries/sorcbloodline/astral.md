@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/astral"
-kind = "rule"
+kind = "class_option"
 title = "Astral"
 source_ids = ["distant-realms", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Distant Realms pg 62\

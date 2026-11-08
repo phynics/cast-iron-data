@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/atheist-inspiration"
-kind = "rule"
+kind = "class_option"
 title = "Atheist Inspiration"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Atheist Inspiration (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/magnetic-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Magnetic Infusion"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** air, earth

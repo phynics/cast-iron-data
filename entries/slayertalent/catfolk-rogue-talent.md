@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/catfolk-rogue-talent"
-kind = "rule"
+kind = "class_option"
 title = "Catfolk Rogue Talent"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Catfolk Rogue Talent**

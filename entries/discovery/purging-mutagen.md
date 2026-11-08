@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/purging-mutagen"
-kind = "rule"
+kind = "class_option"
 title = "Purging Mutagen"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Purging Mutagen**

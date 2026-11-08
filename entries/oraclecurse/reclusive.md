@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/reclusive"
-kind = "rule"
+kind = "class_option"
 title = "Reclusive"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Reclusive**

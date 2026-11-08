@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/alien-consciousness"
-kind = "rule"
+kind = "class_option"
 title = "Alien Consciousness"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Alien Consciousness (Ex)**

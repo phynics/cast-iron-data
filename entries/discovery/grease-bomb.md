@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/grease-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Grease Bomb"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Grease Bomb**

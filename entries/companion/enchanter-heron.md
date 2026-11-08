@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/enchanter-heron"
-kind = "rule"
+kind = "class_option"
 title = "Enchanter Heron"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#121: The Lost Outpost pg 82

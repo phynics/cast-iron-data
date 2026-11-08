@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/combat-trick"
-kind = "rule"
+kind = "class_option"
 title = "Combat Trick"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Combat Trick (Ex)**

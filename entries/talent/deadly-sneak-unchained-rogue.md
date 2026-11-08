@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/deadly-sneak-unchained-rogue"
-kind = "rule"
+kind = "class_option"
 title = "Deadly Sneak (Unchained Rogue)"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Deadly Sneak (Unchained Rogue) (Ex)**

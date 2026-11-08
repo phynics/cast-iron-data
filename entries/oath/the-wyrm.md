@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/the-wyrm"
-kind = "rule"
+kind = "class_option"
 title = "Oath against the Wyrm"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Channel positive energy", "Divine bond", "Holy champion"]
 +++
 
 **Sources:** Ultimate Magic pg 62\

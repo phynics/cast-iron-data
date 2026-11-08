@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/superiority"
-kind = "rule"
+kind = "class_option"
 title = "Superiority"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Disciple's Doctrine pg 19\

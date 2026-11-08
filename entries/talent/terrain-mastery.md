@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/terrain-mastery"
-kind = "rule"
+kind = "class_option"
 title = "Terrain Mastery"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Terrain Mastery (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/combat-swipe"
-kind = "rule"
+kind = "class_option"
 title = "Combat Swipe"
 source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Combat Swipe**

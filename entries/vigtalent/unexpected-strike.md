@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/unexpected-strike"
-kind = "rule"
+kind = "class_option"
 title = "Unexpected Strike"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Unexpected Strike (Ex)**

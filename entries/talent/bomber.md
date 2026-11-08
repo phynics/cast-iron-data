@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/bomber"
-kind = "rule"
+kind = "class_option"
 title = "Bomber"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Bomber (Su)**

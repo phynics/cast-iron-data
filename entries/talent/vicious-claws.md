@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/vicious-claws"
-kind = "rule"
+kind = "class_option"
 title = "Vicious Claws"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Vicious Claws (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/angel"
-kind = "rule"
+kind = "class_option"
 title = "Angel"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Hailing from the higher planes, [angel](ref/family/angel) eidolons are creatures of exquisite

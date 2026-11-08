@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/combat-expertise"
-kind = "rule"
+kind = "class_option"
 title = "Combat Expertise"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Combat Expertise (Ex)**

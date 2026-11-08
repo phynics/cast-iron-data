@@ -1,6 +1,6 @@
 +++
 id = "ref/deed/gunslinger-initiative"
-kind = "rule"
+kind = "class_option"
 title = "Gunslinger Initiative"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "gunslinger-deed"
 +++
 
 **Gunslinger Initiative (Ex)**

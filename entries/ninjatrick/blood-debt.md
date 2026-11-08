@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/blood-debt"
-kind = "rule"
+kind = "class_option"
 title = "Blood Debt"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Blood Debt (Su)**

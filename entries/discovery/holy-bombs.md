@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/holy-bombs"
-kind = "rule"
+kind = "class_option"
 title = "Holy Bombs"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Holy Bombs**

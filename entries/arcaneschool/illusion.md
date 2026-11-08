@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/illusion"
-kind = "rule"
+kind = "class_option"
 title = "Illusion"
 source_ids = ["core-rulebook", "adventurers-guide", "advanced-players-guide", "inner-sea-primer"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** PRPG Core Rulebook pg 81\

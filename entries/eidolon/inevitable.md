@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/inevitable"
-kind = "rule"
+kind = "class_option"
 title = "Inevitable"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Implacable and ceaseless in their fight against chaos and those who break natural laws,

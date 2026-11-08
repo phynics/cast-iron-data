@@ -1,6 +1,6 @@
 +++
 id = "ref/mercy/injured"
-kind = "rule"
+kind = "class_option"
 title = "Injured"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-mercy"
 +++
 
 **Details:** The target gains [fast healing](ref/umr/fast-healing) 3 for a number of rounds equal to

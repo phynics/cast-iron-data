@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/toccata-and-fugue-of-the-danse-macabre"
-kind = "rule"
+kind = "class_option"
 title = "Toccata and Fugue of the Danse Macabre"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Toccata and Fugue of the Danse Macabre (Keyboard, Wind)

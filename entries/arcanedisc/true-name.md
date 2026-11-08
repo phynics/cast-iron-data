@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/true-name"
-kind = "rule"
+kind = "class_option"
 title = "True Name"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **True Name (Sp)**

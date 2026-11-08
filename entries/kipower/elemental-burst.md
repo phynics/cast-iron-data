@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/elemental-burst"
-kind = "rule"
+kind = "class_option"
 title = "Elemental Burst"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Elemental Burst (Su)**

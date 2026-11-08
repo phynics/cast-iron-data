@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/reaper"
-kind = "rule"
+kind = "class_option"
 title = "Reaper"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Pathfinder \#139: The Dead Road pg 66

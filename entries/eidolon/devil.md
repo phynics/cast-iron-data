@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/devil"
-kind = "rule"
+kind = "class_option"
 title = "Devil"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Corruptors, tempters, and despoilers, [devil](ref/family/devil) eidolons often serve their summoners

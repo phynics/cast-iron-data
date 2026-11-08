@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/golem-constructor"
-kind = "rule"
+kind = "class_option"
 title = "Golem Constructor"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Golem Constructor**

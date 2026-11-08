@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/hunger"
-kind = "rule"
+kind = "class_option"
 title = "Hunger"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Hunger**

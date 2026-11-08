@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-reins"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Reins"
 source_ids = ["merchants-manifest"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Merchant's Manifest pg 31

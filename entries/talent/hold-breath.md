@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/hold-breath"
-kind = "rule"
+kind = "class_option"
 title = "Hold Breath"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Hold Breath (Ex)**

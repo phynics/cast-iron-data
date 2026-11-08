@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/wild-growth"
-kind = "rule"
+kind = "class_option"
 title = "Wild Growth"
 source_ids = ["ultimate-wilderness", "occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Wild Growth (Sp)

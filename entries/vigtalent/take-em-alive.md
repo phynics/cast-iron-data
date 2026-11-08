@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/take-em-alive"
-kind = "rule"
+kind = "class_option"
 title = "Take 'Em Alive"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Take 'Em Alive (Ex)**

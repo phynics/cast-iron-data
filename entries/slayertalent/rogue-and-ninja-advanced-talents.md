@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/rogue-and-ninja-advanced-talents"
-kind = "rule"
+kind = "class_option"
 title = "Rogue and Ninja Advanced Talents"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Rogue and Ninja Advanced Talents**

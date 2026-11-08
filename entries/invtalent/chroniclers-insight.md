@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/chroniclers-insight"
-kind = "rule"
+kind = "class_option"
 title = "Chronicler's Insight"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Chronicler's Insight (Ex)**

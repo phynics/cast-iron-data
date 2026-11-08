@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/voice-of-reason"
-kind = "rule"
+kind = "class_option"
 title = "Voice of Reason"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Voice of Reason**

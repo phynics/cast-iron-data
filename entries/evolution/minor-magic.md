@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/minor-magic"
-kind = "rule"
+kind = "class_option"
 title = "Minor Magic"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Minor Magic (Sp)**

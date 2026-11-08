@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/ambras-imre"
-kind = "rule"
+kind = "class_option"
 title = "Ambras Imre"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
+replaces = ["Trickster's edge"]
 +++
 
 **Sources:** Occult Realms pg 10\

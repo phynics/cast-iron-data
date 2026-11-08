@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/intuitive-protection"
-kind = "rule"
+kind = "class_option"
 title = "Intuitive Protection"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Monster Summoner's Handbook pg 9

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-whip"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Whip"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Villain Codex pg 20

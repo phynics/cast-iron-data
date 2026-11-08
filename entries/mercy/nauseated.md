@@ -1,6 +1,6 @@
 +++
 id = "ref/mercy/nauseated"
-kind = "rule"
+kind = "class_option"
 title = "Nauseated"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-mercy"
 +++
 
 **Details:** The target is no longer nauseated. The paladin must have the

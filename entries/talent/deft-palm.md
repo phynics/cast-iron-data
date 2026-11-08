@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/deft-palm"
-kind = "rule"
+kind = "class_option"
 title = "Deft Palm"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Deft Palm (Ex)**

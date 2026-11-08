@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/pincers"
-kind = "rule"
+kind = "class_option"
 title = "Pincers"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Pincers (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/negative-admixture"
-kind = "rule"
+kind = "class_option"
 title = "Negative Admixture"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Negative Admixture (Sp)

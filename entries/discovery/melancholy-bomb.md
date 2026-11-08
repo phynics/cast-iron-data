@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/melancholy-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Melancholy Bomb"
 source_ids = ["distant-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Melancholy Bomb**

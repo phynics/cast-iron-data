@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/clamor-of-the-heavens"
-kind = "rule"
+kind = "class_option"
 title = "Clamor of the Heavens"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Clamor of the Heavens (Percussion, Sing)

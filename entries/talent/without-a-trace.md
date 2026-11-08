@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/without-a-trace"
-kind = "rule"
+kind = "class_option"
 title = "Without a Trace"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Without a Trace (Ex)**

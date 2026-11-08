@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/streets"
-kind = "rule"
+kind = "class_option"
 title = "Streets"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Heroes of the Streets pg 20

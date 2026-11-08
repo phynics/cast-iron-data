@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/immolation-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Immolation Bomb"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Immolation Bomb**

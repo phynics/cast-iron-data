@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/restoration"
-kind = "rule"
+kind = "class_option"
 title = "Restoration"
 source_ids = ["advanced-class-guide", "healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 ## Restoration (Life)

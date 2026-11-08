@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/energy-attacks"
-kind = "rule"
+kind = "class_option"
 title = "Energy Attacks"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Energy Attacks (Su)**

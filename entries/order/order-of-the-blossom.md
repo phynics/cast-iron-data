@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-blossom"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Blossom"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Legacy of the First World pg 27

@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/slow-reactions"
-kind = "rule"
+kind = "class_option"
 title = "Slow Reactions"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Slow Reactions (Ex)**

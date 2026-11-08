@@ -1,6 +1,6 @@
 +++
 id = "ref/stare/devilbane-mundanity"
-kind = "rule"
+kind = "class_option"
 title = "Devilbane Mundanity"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-stare"
 +++
 
 **Devilbane Mundanity**

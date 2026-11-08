@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/accurate-stance"
-kind = "rule"
+kind = "class_option"
 title = "Accurate Stance"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Accurate Stance (Ex)**

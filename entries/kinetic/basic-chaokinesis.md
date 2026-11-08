@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/basic-chaokinesis"
-kind = "rule"
+kind = "class_option"
 title = "Basic Chaokinesis"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Basic Chaokinesis (Sp)

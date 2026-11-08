@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/bleaching"
-kind = "rule"
+kind = "class_option"
 title = "Bleaching"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Heroes from the Fringe pg 18\

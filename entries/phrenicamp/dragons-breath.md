@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/dragons-breath"
-kind = "rule"
+kind = "class_option"
 title = "Dragon's Breath"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Dragon's Breath (Su)**

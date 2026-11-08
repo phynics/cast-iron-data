@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/disrupt-connection"
-kind = "rule"
+kind = "class_option"
 title = "Disrupt Connection"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Disrupt Connection (Su)**

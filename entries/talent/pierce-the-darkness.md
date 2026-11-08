@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/pierce-the-darkness"
-kind = "rule"
+kind = "class_option"
 title = "Pierce the Darkness"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Pierce the Darkness (Ex)**

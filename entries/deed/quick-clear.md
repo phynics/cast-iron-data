@@ -1,6 +1,6 @@
 +++
 id = "ref/deed/quick-clear"
-kind = "rule"
+kind = "class_option"
 title = "Quick Clear"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "gunslinger-deed"
 +++
 
 **Quick Clear (Ex)**

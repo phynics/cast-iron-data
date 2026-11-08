@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-first-law"
-kind = "rule"
+kind = "class_option"
 title = "Order of the First Law"
 source_ids = ["people-of-the-sands"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** People of the Sands pg 21

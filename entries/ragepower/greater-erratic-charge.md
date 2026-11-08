@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-erratic-charge"
-kind = "rule"
+kind = "class_option"
 title = "Greater Erratic Charge"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Erratic Charge (Ex)**

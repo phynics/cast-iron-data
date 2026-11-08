@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/shared-evolution"
-kind = "rule"
+kind = "class_option"
 title = "Shared Evolution"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Shared Evolution (Su)**

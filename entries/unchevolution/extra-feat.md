@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/extra-feat"
-kind = "rule"
+kind = "class_option"
 title = "Extra Feat"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Extra Feat (Ex)**

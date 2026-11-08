@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/whip-of-vengeance"
-kind = "rule"
+kind = "class_option"
 title = "Whip of Vengeance"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Whip of Vengeance (Ex)**

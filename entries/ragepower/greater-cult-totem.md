@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-cult-totem"
-kind = "rule"
+kind = "class_option"
 title = "Greater Cult Totem"
 source_ids = ["horror-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Cult Totem (Ex)**

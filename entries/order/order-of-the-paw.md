@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-paw"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Paw"
 source_ids = ["advanced-race-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Advanced Race Guide pg 64

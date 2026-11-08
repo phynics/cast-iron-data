@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/sorico"
-kind = "rule"
+kind = "class_option"
 title = "Sorico"
 source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder \#85: Fires of Creation pg 83

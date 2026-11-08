@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/battle-roar"
-kind = "rule"
+kind = "class_option"
 title = "Battle Roar"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Battle Roar (Su)**

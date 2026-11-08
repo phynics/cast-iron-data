@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/agathion"
-kind = "rule"
+kind = "class_option"
 title = "Agathion"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Patient and enlightened liaisons of the good-aligned Outer Planes, [agathion](ref/family/agathion)

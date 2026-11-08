@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/voice-of-the-wind"
-kind = "rule"
+kind = "class_option"
 title = "Voice of the Wind"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Voice of the Wind (Sp)

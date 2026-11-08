@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/flame-trap"
-kind = "rule"
+kind = "class_option"
 title = "Flame Trap"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Flame Trap (Sp)

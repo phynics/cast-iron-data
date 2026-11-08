@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/infernal-bargain"
-kind = "rule"
+kind = "class_option"
 title = "Infernal Bargain"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Infernal Bargain (Sp)

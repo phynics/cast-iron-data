@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/intermediate-psychic-magic"
-kind = "rule"
+kind = "class_option"
 title = "Intermediate Psychic Magic"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Intermediate Psychic Magic**

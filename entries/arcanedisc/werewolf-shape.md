@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/werewolf-shape"
-kind = "rule"
+kind = "class_option"
 title = "Werewolf Shape"
 source_ids = ["blood-of-the-moon"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Werewolf Shape**

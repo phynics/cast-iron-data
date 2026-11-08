@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/the-skyseeker"
-kind = "rule"
+kind = "class_option"
 title = "Oath of the Skyseeker"
 source_ids = ["divine-anthology"]
 provenance = [
@@ -8,7 +8,10 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Aura of justice", "Aura of faith"]
+alters = ["Smite evil", "Divine bond"]
 +++
 
 **Sources:** Divine Anthology pg 21\

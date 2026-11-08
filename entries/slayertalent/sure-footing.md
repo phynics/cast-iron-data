@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/sure-footing"
-kind = "rule"
+kind = "class_option"
 title = "Sure Footing"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Sure Footing (Ex)**

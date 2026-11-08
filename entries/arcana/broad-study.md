@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/broad-study"
-kind = "rule"
+kind = "class_option"
 title = "Broad Study"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Ultimate Magic pg 11

@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/regenerative-sinew"
-kind = "rule"
+kind = "class_option"
 title = "Regenerative Sinew"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Regenerative Sinew (Su)**

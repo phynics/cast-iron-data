@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/liquid-courage"
-kind = "rule"
+kind = "class_option"
 title = "Liquid Courage"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Liquid Courage (Ex)**

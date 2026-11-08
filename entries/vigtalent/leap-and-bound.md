@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/leap-and-bound"
-kind = "rule"
+kind = "class_option"
 title = "Leap and Bound"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Leap and Bound (Ex)**

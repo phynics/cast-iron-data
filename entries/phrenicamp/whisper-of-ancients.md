@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/whisper-of-ancients"
-kind = "rule"
+kind = "class_option"
 title = "Whisper of Ancients"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Whisper of Ancients (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/blackened"
-kind = "rule"
+kind = "class_option"
 title = "Blackened"
 source_ids = ["blood-of-angels"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Blackened**

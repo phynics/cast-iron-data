@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/head"
-kind = "rule"
+kind = "class_option"
 title = "Head"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Head (Ex)**

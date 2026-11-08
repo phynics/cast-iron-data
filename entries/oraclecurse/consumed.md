@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/consumed"
-kind = "rule"
+kind = "class_option"
 title = "Consumed"
 source_ids = ["blood-of-fiends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Consumed**

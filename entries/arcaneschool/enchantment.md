@@ -1,6 +1,6 @@
 +++
 id = "ref/arcaneschool/enchantment"
-kind = "rule"
+kind = "class_option"
 title = "Enchantment"
 source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-school"
 +++
 
 **Sources:** PRPG Core Rulebook pg 81\

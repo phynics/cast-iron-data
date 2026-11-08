@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/forgotten-trick"
-kind = "rule"
+kind = "class_option"
 title = "Forgotten Trick"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Forgotten Trick (Ex)**

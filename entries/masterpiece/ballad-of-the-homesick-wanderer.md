@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/ballad-of-the-homesick-wanderer"
-kind = "rule"
+kind = "class_option"
 title = "Ballad of the Homesick Wanderer"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 **Sources:** Monster Summoner's Handbook

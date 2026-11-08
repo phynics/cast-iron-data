@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/arcane-backfire"
-kind = "rule"
+kind = "class_option"
 title = "Arcane Backfire"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Arcane Backfire (Su)**

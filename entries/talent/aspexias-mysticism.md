@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/aspexias-mysticism"
-kind = "rule"
+kind = "class_option"
 title = "Aspexia's Mysticism"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Aspexia's Mysticism (Ex)**

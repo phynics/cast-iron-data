@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/trace"
-kind = "rule"
+kind = "class_option"
 title = "Trace"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Trace (Su)**

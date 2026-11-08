@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/greater-ki-venom"
-kind = "rule"
+kind = "class_option"
 title = "Greater Ki Venom"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Greater Ki Venom (Ex)**

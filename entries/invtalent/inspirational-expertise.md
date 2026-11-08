@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/inspirational-expertise"
-kind = "rule"
+kind = "class_option"
 title = "Inspirational Expertise"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Inspirational Expertise (Ex)**

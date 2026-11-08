@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/songbird"
-kind = "rule"
+kind = "class_option"
 title = "Songbird"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Songbird (Su)**

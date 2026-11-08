@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-lullaby-of-ember-the-ancient"
-kind = "rule"
+kind = "class_option"
 title = "The Lullaby of Ember the Ancient"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Lullaby of Ember the Ancient (Sing)

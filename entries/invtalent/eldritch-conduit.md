@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/eldritch-conduit"
-kind = "rule"
+kind = "class_option"
 title = "Eldritch Conduit"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Eldritch Conduit (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/scourge"
-kind = "rule"
+kind = "class_option"
 title = "Scourge"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Scourge**

@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/possessed"
-kind = "rule"
+kind = "class_option"
 title = "Possessed"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Haunted Heroes Handbook pg 19\

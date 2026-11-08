@@ -1,6 +1,6 @@
 +++
 id = "ref/performance/dirge-of-doom"
-kind = "rule"
+kind = "class_option"
 title = "Dirge of Doom"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-performance"
 +++
 
 **Dirge of Doom (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/evil-eye"
-kind = "rule"
+kind = "class_option"
 title = "Evil Eye"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Evil Eye (Su)**

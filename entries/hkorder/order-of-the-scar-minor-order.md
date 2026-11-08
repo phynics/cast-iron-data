@@ -1,6 +1,6 @@
 +++
 id = "ref/hkorder/order-of-the-scar-minor-order"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Scar (Minor Order)"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-order"
 +++
 
 **Sources:** Path of the Hellknight pg 54

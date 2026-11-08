@@ -1,6 +1,6 @@
 +++
 id = "ref/inquisition/seduction"
-kind = "rule"
+kind = "class_option"
 title = "Seduction"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "inquisition"
 +++
 
 **Sources:** Inner Sea Intrigue pg 30

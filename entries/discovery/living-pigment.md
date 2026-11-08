@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/living-pigment"
-kind = "rule"
+kind = "class_option"
 title = "Living Pigment"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Living Pigment**

@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/woodland-stride"
-kind = "rule"
+kind = "class_option"
 title = "Woodland Stride"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Woodland Stride (Ex)**

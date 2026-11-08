@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/oversized-barbs"
-kind = "rule"
+kind = "class_option"
 title = "Oversized Barbs"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Oversized Barbs (Ex or Su)

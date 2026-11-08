@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/ameliorating"
-kind = "rule"
+kind = "class_option"
 title = "Ameliorating"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Ameliorating (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/swamp"
-kind = "rule"
+kind = "class_option"
 title = "Swamp"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## Swamp Domain

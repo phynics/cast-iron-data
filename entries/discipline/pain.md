@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/pain"
-kind = "rule"
+kind = "class_option"
 title = "Pain"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Occult Adventures pg 67\

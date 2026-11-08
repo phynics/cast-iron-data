@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/pallavi-of-nirvanas-blossoming"
-kind = "rule"
+kind = "class_option"
 title = "Pallavi of Nirvana's Blossoming"
 source_ids = ["blood-of-angels"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Pallavi of Nirvana's Blossoming (Dance)

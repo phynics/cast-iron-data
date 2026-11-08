@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/astral"
-kind = "rule"
+kind = "class_option"
 title = "Astral"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 While some resemble ouroboroses, most astral eidolons are spun from raw thought or the husks of

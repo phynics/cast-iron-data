@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/spark-of-life"
-kind = "rule"
+kind = "class_option"
 title = "Spark of Life"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Spark of Life (Sp)

@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/corruption"
-kind = "rule"
+kind = "class_option"
 title = "Oath against Corruption"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Aura of courage", "Aura of justice", "Holy champion"]
 +++
 
 **Sources:** Ultimate Magic pg 60\

@@ -1,6 +1,6 @@
 +++
 id = "ref/performance/soothing-performance"
-kind = "rule"
+kind = "class_option"
 title = "Soothing Performance"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-performance"
 +++
 
 **Soothing Performance (Su)**

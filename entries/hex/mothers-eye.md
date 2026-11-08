@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/mothers-eye"
-kind = "rule"
+kind = "class_option"
 title = "Mother's Eye"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Mother's Eye (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/pull"
-kind = "rule"
+kind = "class_option"
 title = "Pull"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Pull (Ex)**

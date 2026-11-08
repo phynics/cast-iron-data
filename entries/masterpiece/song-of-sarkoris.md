@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/song-of-sarkoris"
-kind = "rule"
+kind = "class_option"
 title = "Song of Sarkoris"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Song of Sarkoris (Oratory, Sing)

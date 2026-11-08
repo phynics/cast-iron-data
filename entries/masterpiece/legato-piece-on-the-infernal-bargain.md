@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/legato-piece-on-the-infernal-bargain"
-kind = "rule"
+kind = "class_option"
 title = "Legato Piece on the Infernal Bargain"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Legato Piece on the Infernal Bargain (String)

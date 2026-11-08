@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/warp"
-kind = "rule"
+kind = "class_option"
 title = "Warp"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Blood of the Beast pg 24\

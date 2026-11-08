@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/alchemical-affinity"
-kind = "rule"
+kind = "class_option"
 title = "Alchemical Affinity"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Alchemical Affinity**

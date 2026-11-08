@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/sneak-training"
-kind = "rule"
+kind = "class_option"
 title = "Sneak Training"
 source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Sneak Training (Ex)**

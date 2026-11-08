@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-quickening-pulse"
-kind = "rule"
+kind = "class_option"
 title = "The Quickening Pulse"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Quickening Pulse (Percussion, Wind)

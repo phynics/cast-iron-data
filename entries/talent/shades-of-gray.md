@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/shades-of-gray"
-kind = "rule"
+kind = "class_option"
 title = "Shades of Gray"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Shades of Gray (Ex)**

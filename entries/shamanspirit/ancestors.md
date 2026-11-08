@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/ancestors"
-kind = "rule"
+kind = "class_option"
 title = "Ancestors"
 source_ids = ["cohorts-and-companions"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 **Sources:** Cohorts and Companions pg 19\

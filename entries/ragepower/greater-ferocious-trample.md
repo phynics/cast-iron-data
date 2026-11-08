@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-ferocious-trample"
-kind = "rule"
+kind = "class_option"
 title = "Greater Ferocious Trample"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Ferocious Trample (Ex)**

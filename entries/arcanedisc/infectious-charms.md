@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/infectious-charms"
-kind = "rule"
+kind = "class_option"
 title = "Infectious Charms"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Infectious Charms**

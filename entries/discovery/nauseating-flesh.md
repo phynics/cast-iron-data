@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/nauseating-flesh"
-kind = "rule"
+kind = "class_option"
 title = "Nauseating Flesh"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Nauseating Flesh**

@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/leave-an-opening"
-kind = "rule"
+kind = "class_option"
 title = "Leave an Opening"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Leave an Opening (Ex)**

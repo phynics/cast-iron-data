@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/charity"
-kind = "rule"
+kind = "class_option"
 title = "Oath of Charity"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Divine bond"]
 +++
 
 **Sources:** Ultimate Magic pg 62\

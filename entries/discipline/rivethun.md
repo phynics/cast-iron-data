@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/rivethun"
-kind = "rule"
+kind = "class_option"
 title = "Rivethun"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Adventurer's Guide pg 168\

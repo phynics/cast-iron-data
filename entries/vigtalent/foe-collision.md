@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/foe-collision"
-kind = "rule"
+kind = "class_option"
 title = "Foe Collision"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Foe Collision (Ex)**

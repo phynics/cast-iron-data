@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/climbing-stunt"
-kind = "rule"
+kind = "class_option"
 title = "Climbing Stunt"
 source_ids = ["inner-sea-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Climbing Stunt (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/hags-eye"
-kind = "rule"
+kind = "class_option"
 title = "Hag's Eye"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Hag's Eye (Su)**

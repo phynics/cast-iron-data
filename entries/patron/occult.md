@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/occult"
-kind = "rule"
+kind = "class_option"
 title = "Occult"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Occult**

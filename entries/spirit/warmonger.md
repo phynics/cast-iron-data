@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/warmonger"
-kind = "rule"
+kind = "class_option"
 title = "Warmonger"
 source_ids = ["horror-adventures"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
+alters = ["Inspiring call"]
 +++
 
 **Sources:** Horror Adventures pg 59\

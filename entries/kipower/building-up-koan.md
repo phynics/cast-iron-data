@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/building-up-koan"
-kind = "rule"
+kind = "class_option"
 title = "Building-Up Koan"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Building-Up Koan (Su)**

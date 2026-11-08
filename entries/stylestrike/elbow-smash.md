@@ -1,6 +1,6 @@
 +++
 id = "ref/stylestrike/elbow-smash"
-kind = "rule"
+kind = "class_option"
 title = "Elbow Smash"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "style-strike"
 +++
 
 **Elbow Smash**

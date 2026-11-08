@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/slick-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Slick Infusion"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** water

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/silencing-strike"
-kind = "rule"
+kind = "class_option"
 title = "Silencing Strike"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Silencing Strike (Su)**

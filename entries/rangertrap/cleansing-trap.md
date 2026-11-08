@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/cleansing-trap"
-kind = "rule"
+kind = "class_option"
 title = "Cleansing Trap"
 source_ids = ["people-of-the-wastes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Cleansing Trap (Ex or Su)

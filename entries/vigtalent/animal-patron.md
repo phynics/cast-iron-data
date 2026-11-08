@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/animal-patron"
-kind = "rule"
+kind = "class_option"
 title = "Animal Patron"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Animal Patron (Ex)**

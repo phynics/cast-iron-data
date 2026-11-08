@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/phoenix"
-kind = "rule"
+kind = "class_option"
 title = "Phoenix"
 source_ids = ["heroes-of-golarion", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Heroes of Golarion pg 24\

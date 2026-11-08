@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/gossip-collector"
-kind = "rule"
+kind = "class_option"
 title = "Gossip Collector"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Gossip Collector (Ex)**

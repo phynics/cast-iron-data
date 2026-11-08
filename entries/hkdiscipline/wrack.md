@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/wrack"
-kind = "rule"
+kind = "class_option"
 title = "Wrack"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Wrack (Su)**

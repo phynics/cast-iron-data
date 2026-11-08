@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/safe-house"
-kind = "rule"
+kind = "class_option"
 title = "Safe House"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Safe House (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/lingering-leitmotif"
-kind = "rule"
+kind = "class_option"
 title = "Lingering Leitmotif"
 source_ids = ["merchants-manifest"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Lingering Leitmotif (Oratory, Sing)

@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/harrow"
-kind = "rule"
+kind = "class_option"
 title = "Harrow"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** The Harrow Handbook pg 28\

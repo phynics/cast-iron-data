@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/ferocious-beast"
-kind = "rule"
+kind = "class_option"
 title = "Ferocious Beast"
 source_ids = ["animal-archive"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Ferocious Beast (Ex)**

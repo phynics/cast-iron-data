@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/overpowering-mind"
-kind = "rule"
+kind = "class_option"
 title = "Overpowering Mind"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Overpowering Mind (Ex)**

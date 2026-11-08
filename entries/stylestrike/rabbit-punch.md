@@ -1,6 +1,6 @@
 +++
 id = "ref/stylestrike/rabbit-punch"
-kind = "rule"
+kind = "class_option"
 title = "Rabbit Punch"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "style-strike"
 +++
 
 **Rabbit Punch**

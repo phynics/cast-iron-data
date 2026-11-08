@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/basic-magic"
-kind = "rule"
+kind = "class_option"
 title = "Basic Magic"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Basic Magic (Sp)**

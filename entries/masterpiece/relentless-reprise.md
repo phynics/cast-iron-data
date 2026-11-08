@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/relentless-reprise"
-kind = "rule"
+kind = "class_option"
 title = "Relentless Reprise"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Relentless Reprise (Keyboard, Sing, String, Wind)

@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/wall-climber"
-kind = "rule"
+kind = "class_option"
 title = "Wall Climber"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Wall Climber (Su)**

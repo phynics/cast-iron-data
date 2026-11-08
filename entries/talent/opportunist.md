@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/opportunist"
-kind = "rule"
+kind = "class_option"
 title = "Opportunist"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Opportunist (Ex)**

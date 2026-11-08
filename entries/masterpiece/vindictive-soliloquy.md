@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/vindictive-soliloquy"
-kind = "rule"
+kind = "class_option"
 title = "Vindictive Soliloquy"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Vindictive Soliloquy (Act, Oratory, Sing)

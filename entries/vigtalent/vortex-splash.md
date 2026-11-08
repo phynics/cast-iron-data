@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/vortex-splash"
-kind = "rule"
+kind = "class_option"
 title = "Vortex Splash"
 source_ids = ["people-of-the-wastes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Vortex Splash (Ex)**

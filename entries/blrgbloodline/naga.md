@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/naga"
-kind = "rule"
+kind = "class_option"
 title = "Naga"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Naga Bloodline

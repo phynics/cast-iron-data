@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/master-thought-koan"
-kind = "rule"
+kind = "class_option"
 title = "Master-Thought Koan"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Master-Thought Koan (Su)**

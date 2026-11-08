@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/crocodile"
-kind = "rule"
+kind = "class_option"
 title = "Crocodile"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## Crocodile Domain

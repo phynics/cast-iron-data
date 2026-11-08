@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/discord"
-kind = "rule"
+kind = "class_option"
 title = "Discord"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Discord (Su)**

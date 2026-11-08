@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/sleight-of-hand-stunt"
-kind = "rule"
+kind = "class_option"
 title = "Sleight of Hand Stunt"
 source_ids = ["inner-sea-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Sleight of Hand Stunt (Ex)**

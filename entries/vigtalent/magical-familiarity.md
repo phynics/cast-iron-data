@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/magical-familiarity"
-kind = "rule"
+kind = "class_option"
 title = "Magical Familiarity"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Magical Familiarity (Sp)**

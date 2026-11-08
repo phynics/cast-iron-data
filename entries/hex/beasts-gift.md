@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/beasts-gift"
-kind = "rule"
+kind = "class_option"
 title = "Beast's Gift"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Beast's Gift (Su)**

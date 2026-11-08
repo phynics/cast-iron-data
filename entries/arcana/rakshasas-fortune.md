@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/rakshasas-fortune"
-kind = "rule"
+kind = "class_option"
 title = "Rakshasa's Fortune"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** The Harrow Handbook pg 25

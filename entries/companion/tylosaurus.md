@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/tylosaurus"
-kind = "rule"
+kind = "class_option"
 title = "Tylosaurus"
 source_ids = ["bestiary-2"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Dinosaur (Tylosaurus)

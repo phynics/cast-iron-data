@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/spiritual-companion"
-kind = "rule"
+kind = "class_option"
 title = "Spiritual Companion"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Spiritual Companion (Ex)**

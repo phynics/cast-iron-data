@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/eternal-opposition"
-kind = "rule"
+kind = "class_option"
 title = "Eternal Opposition"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Eternal Opposition (Ex)**

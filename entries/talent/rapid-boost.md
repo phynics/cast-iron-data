@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/rapid-boost"
-kind = "rule"
+kind = "class_option"
 title = "Rapid Boost"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Rapid Boost (Ex)**

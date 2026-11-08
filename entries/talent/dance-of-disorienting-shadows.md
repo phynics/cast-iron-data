@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/dance-of-disorienting-shadows"
-kind = "rule"
+kind = "class_option"
 title = "Dance of Disorienting Shadows"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Dance of Disorienting Shadows (Ex)**

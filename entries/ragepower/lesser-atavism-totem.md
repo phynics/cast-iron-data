@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-atavism-totem"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Atavism Totem"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Atavism Totem (Su)**

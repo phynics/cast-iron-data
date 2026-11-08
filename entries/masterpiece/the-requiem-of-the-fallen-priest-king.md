@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-requiem-of-the-fallen-priest-king"
-kind = "rule"
+kind = "class_option"
 title = "The Requiem of the Fallen Priest-King"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Requiem of the Fallen Priest-King (Oratory, Sing)

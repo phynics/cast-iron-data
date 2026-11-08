@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/expert-leaper-unchained-rogue"
-kind = "rule"
+kind = "class_option"
 title = "Expert Leaper (Unchained Rogue)"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Expert Leaper (Unchained Rogue) (Ex)**

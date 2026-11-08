@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/unnerving-infusion"
-kind = "rule"
+kind = "class_option"
 title = "Unnerving Infusion"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 **Element:** void

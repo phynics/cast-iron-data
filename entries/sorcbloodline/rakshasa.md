@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/rakshasa"
-kind = "rule"
+kind = "class_option"
 title = "Rakshasa"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Ultimate Magic pg 68\

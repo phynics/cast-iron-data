@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/kamikaze"
-kind = "rule"
+kind = "class_option"
 title = "Kamikaze"
 source_ids = ["champions-of-balance"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Kamikaze (Su)**

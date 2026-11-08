@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/charged-water-blast"
-kind = "rule"
+kind = "class_option"
 title = "Charged Water Blast"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Charged Water Blast (Sp)

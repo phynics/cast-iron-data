@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/hasted-assault"
-kind = "rule"
+kind = "class_option"
 title = "Hasted Assault"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Ultimate Magic pg 12

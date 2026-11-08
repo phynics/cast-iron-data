@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanspirit/slums"
-kind = "rule"
+kind = "class_option"
 title = "Slums"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-spirit"
 +++
 
 **Sources:** Heroes of the Streets pg 21\

@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/destined"
-kind = "rule"
+kind = "class_option"
 title = "Destined"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Destined Bloodline

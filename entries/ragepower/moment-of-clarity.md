@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/moment-of-clarity"
-kind = "rule"
+kind = "class_option"
 title = "Moment of Clarity"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Moment of Clarity (Ex)**

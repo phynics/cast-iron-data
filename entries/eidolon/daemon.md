@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/daemon"
-kind = "rule"
+kind = "class_option"
 title = "Daemon"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 The agents of horrible deaths, [daemon](ref/family/daemon) eidolons desire the utter annihilation of

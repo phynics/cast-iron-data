@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/ostrich"
-kind = "rule"
+kind = "class_option"
 title = "Ostrich"
 source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Osirion, Legacy of the Pharaohs pg 55

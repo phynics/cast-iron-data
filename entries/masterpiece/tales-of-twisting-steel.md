@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/tales-of-twisting-steel"
-kind = "rule"
+kind = "class_option"
 title = "Tales of Twisting Steel"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Tales of Twisting Steel (Act, Oratory)

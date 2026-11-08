@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/purging-flame"
-kind = "rule"
+kind = "class_option"
 title = "Purging Flame"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Purging Flame (Sp)

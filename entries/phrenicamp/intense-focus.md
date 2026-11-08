@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/intense-focus"
-kind = "rule"
+kind = "class_option"
 title = "Intense Focus"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Intense Focus (Ex)**

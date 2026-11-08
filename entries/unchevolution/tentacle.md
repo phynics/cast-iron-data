@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/tentacle"
-kind = "rule"
+kind = "class_option"
 title = "Tentacle"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Tentacle (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-songbird"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Songbird"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Heroes from the Fringe pg 14

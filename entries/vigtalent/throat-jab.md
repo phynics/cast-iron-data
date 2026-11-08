@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/throat-jab"
-kind = "rule"
+kind = "class_option"
 title = "Throat Jab"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Throat Jab (Ex)**

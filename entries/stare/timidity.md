@@ -1,6 +1,6 @@
 +++
 id = "ref/stare/timidity"
-kind = "rule"
+kind = "class_option"
 title = "Timidity"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-stare"
 +++
 
 **Timidity**

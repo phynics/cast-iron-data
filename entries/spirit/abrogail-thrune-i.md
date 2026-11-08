@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/abrogail-thrune-i"
-kind = "rule"
+kind = "class_option"
 title = "Abrogail Thrune I"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,10 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
+replaces = ["Overflowing grace"]
+alters = ["Divine surge"]
 +++
 
 **Sources:** Occult Realms pg 10\

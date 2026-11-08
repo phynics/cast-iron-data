@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-rheumy-refrain"
-kind = "rule"
+kind = "class_option"
 title = "The Rheumy Refrain"
 source_ids = ["blood-of-fiends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Rheumy Refrain (Sing)

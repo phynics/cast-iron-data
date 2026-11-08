@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/angel"
-kind = "rule"
+kind = "class_option"
 title = "Angel"
 source_ids = ["psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Psychic Anthology pg 13\

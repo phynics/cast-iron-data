@@ -1,6 +1,6 @@
 +++
 id = "ref/druiddomain/the-uskbond"
-kind = "rule"
+kind = "class_option"
 title = "The Uskbond"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "druid-domain"
 +++
 
 ## The Uskbond Domain

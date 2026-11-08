@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/break-stupor"
-kind = "rule"
+kind = "class_option"
 title = "Break Stupor"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Break Stupor**

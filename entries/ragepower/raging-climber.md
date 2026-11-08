@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/raging-climber"
-kind = "rule"
+kind = "class_option"
 title = "Raging Climber"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Raging Climber (Ex)**

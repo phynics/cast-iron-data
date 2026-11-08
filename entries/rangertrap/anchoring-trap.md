@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/anchoring-trap"
-kind = "rule"
+kind = "class_option"
 title = "Anchoring Trap"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Anchoring Trap (Su)

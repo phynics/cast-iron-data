@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/twinned"
-kind = "rule"
+kind = "class_option"
 title = "Twinned"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Just like a summoner, a twinned eidolon learns to use weapons and magic. While twinned eidolons are

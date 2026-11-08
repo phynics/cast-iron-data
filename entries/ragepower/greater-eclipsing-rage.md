@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-eclipsing-rage"
-kind = "rule"
+kind = "class_option"
 title = "Greater Eclipsing Rage"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Eclipsing Rage (Su)**

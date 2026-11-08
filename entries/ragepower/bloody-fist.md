@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/bloody-fist"
-kind = "rule"
+kind = "class_option"
 title = "Bloody Fist"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Bloody Fist (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/grand-cognatogen"
-kind = "rule"
+kind = "class_option"
 title = "Grand Cognatogen"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Grand Cognatogen**

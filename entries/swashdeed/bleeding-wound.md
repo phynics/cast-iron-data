@@ -1,6 +1,6 @@
 +++
 id = "ref/swashdeed/bleeding-wound"
-kind = "rule"
+kind = "class_option"
 title = "Bleeding Wound"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "swashbuckler-deed"
 +++
 
 **Bleeding Wound (Ex)**

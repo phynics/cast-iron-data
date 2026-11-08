@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-guarded-life"
-kind = "rule"
+kind = "class_option"
 title = "Greater Guarded Life"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Guarded Life (Ex)**

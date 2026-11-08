@@ -1,6 +1,6 @@
 +++
 id = "ref/mystery/whimsy"
-kind = "rule"
+kind = "class_option"
 title = "Whimsy"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-mystery"
 +++
 
 **Sources:** Legacy of the First World pg 10

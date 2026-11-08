@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/bleed"
-kind = "rule"
+kind = "class_option"
 title = "Bleed"
 source_ids = ["champions-of-corruption"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Bleed (Ex)**

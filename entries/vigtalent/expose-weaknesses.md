@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/expose-weaknesses"
-kind = "rule"
+kind = "class_option"
 title = "Expose Weaknesses"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Expose Weaknesses (Ex)**

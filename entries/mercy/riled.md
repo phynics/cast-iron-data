@@ -1,6 +1,6 @@
 +++
 id = "ref/mercy/riled"
-kind = "rule"
+kind = "class_option"
 title = "Riled"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-mercy"
 +++
 
 **Details:** The paladin's lay on hands also acts as [calm emotions](ref/spell/calm-emotions), but

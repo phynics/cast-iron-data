@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/brontotherium"
-kind = "rule"
+kind = "class_option"
 title = "Brontotherium"
 source_ids = ["bestiary-6"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Bestiary 6 pg 311

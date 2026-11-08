@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/improvised-weapon-proficiency"
-kind = "rule"
+kind = "class_option"
 title = "Improvised Weapon Proficiency"
 source_ids = ["blood-of-the-beast"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Improvised Weapon Proficiency (Ex, Su)**

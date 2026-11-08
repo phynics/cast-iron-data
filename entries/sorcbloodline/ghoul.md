@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/ghoul"
-kind = "rule"
+kind = "class_option"
 title = "Ghoul"
 source_ids = ["monster-codex", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Monster Codex pg 80\

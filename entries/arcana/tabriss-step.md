@@ -1,6 +1,6 @@
 +++
 id = "ref/arcana/tabriss-step"
-kind = "rule"
+kind = "class_option"
 title = "Tabris's Step"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "magus-arcana"
 +++
 
 **Sources:** Disciple's Doctrine pg 9

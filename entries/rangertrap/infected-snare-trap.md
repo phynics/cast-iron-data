@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/infected-snare-trap"
-kind = "rule"
+kind = "class_option"
 title = "Infected Snare Trap"
 source_ids = ["people-of-the-wastes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Infected Snare Trap (Ex or Su)

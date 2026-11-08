@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/mountainside-ambush"
-kind = "rule"
+kind = "class_option"
 title = "Mountainside Ambush"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Mountainside Ambush (Ex)**

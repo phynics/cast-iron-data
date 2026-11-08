@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/healing-burst"
-kind = "rule"
+kind = "class_option"
 title = "Healing Burst"
 source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Healing Burst (Sp)

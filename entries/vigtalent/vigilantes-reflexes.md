@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/vigilantes-reflexes"
-kind = "rule"
+kind = "class_option"
 title = "Vigilante's Reflexes"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Vigilante's Reflexes (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/against-the-wall"
-kind = "rule"
+kind = "class_option"
 title = "Against the Wall"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Against the Wall (Ex)**

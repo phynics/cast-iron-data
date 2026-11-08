@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/tigers-claws"
-kind = "rule"
+kind = "class_option"
 title = "Tiger's Claws"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Tiger's Claws (Ex)**

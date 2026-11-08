@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/bestial-leaper"
-kind = "rule"
+kind = "class_option"
 title = "Bestial Leaper"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Bestial Leaper (Ex)**

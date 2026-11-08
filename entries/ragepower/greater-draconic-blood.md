@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-draconic-blood"
-kind = "rule"
+kind = "class_option"
 title = "Greater Draconic Blood"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Draconic Blood (Su)**

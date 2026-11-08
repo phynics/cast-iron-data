@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/ethereal"
-kind = "rule"
+kind = "class_option"
 title = "Ethereal"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Ethereal**

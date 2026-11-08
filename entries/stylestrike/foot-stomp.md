@@ -1,6 +1,6 @@
 +++
 id = "ref/stylestrike/foot-stomp"
-kind = "rule"
+kind = "class_option"
 title = "Foot Stomp"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "style-strike"
 +++
 
 **Foot Stomp**

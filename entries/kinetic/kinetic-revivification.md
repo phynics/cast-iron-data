@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/kinetic-revivification"
-kind = "rule"
+kind = "class_option"
 title = "Kinetic Revivification"
 source_ids = ["healers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Kinetic Revivification (Su)

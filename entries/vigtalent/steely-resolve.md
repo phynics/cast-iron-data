@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/steely-resolve"
-kind = "rule"
+kind = "class_option"
 title = "Steely Resolve"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Steely Resolve (Ex)**

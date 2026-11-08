@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/doppelganger-simulacrum"
-kind = "rule"
+kind = "class_option"
 title = "Doppelganger Simulacrum"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Doppelganger Simulacrum**

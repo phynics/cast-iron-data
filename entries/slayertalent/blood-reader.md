@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/blood-reader"
-kind = "rule"
+kind = "class_option"
 title = "Blood Reader"
 source_ids = ["advanced-class-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Blood Reader (Ex)**

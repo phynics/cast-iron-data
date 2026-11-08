@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/founders-blessing"
-kind = "rule"
+kind = "class_option"
 title = "Founders' Blessing"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Founders' Blessing**

@@ -1,6 +1,6 @@
 +++
 id = "ref/stare/devilbane-dampening"
-kind = "rule"
+kind = "class_option"
 title = "Devilbane Dampening"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-stare"
 +++
 
 **Devilbane Dampening**

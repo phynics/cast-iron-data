@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/fate"
-kind = "rule"
+kind = "class_option"
 title = "Fate"
 source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Fate**

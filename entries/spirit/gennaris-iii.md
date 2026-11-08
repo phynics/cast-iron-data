@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/gennaris-iii"
-kind = "rule"
+kind = "class_option"
 title = "Gennaris III"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Pathfinder \#132: The Six-Legend Soul pg 71\

@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/water-alteration"
-kind = "rule"
+kind = "class_option"
 title = "Water Alteration"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Water Alteration (Sp)

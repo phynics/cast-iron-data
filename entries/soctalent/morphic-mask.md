@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/morphic-mask"
-kind = "rule"
+kind = "class_option"
 title = "Morphic Mask"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Morphic Mask (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/mercy/staggered"
-kind = "rule"
+kind = "class_option"
 title = "Staggered"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-mercy"
 +++
 
 **Details:** The target is no longer staggered, unless the target is at exactly 0 hit points.

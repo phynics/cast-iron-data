@@ -1,6 +1,6 @@
 +++
 id = "ref/oath/vengeance"
-kind = "rule"
+kind = "class_option"
 title = "Oath of Vengeance"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "paladin-oath"
+replaces = ["Channel positive energy", "Aura of justice"]
 +++
 
 **Sources:** Ultimate Magic pg 63\

@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/incredible-renown"
-kind = "rule"
+kind = "class_option"
 title = "Incredible Renown"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Incredible Renown (Ex)**

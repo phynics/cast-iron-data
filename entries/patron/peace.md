@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/peace"
-kind = "rule"
+kind = "class_option"
 title = "Peace"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Peace**

@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/toxic-blood"
-kind = "rule"
+kind = "class_option"
 title = "Toxic Blood"
 source_ids = ["villain-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Toxic Blood**

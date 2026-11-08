@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/raging-grappler"
-kind = "rule"
+kind = "class_option"
 title = "Raging Grappler"
 source_ids = ["people-of-the-river"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Raging Grappler (Ex)**

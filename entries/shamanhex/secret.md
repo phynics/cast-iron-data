@@ -1,6 +1,6 @@
 +++
 id = "ref/shamanhex/secret"
-kind = "rule"
+kind = "class_option"
 title = "Secret"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "shaman-hex"
 +++
 
 **Secret (Ex)**

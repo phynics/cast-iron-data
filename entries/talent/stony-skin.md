@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/stony-skin"
-kind = "rule"
+kind = "class_option"
 title = "Stony Skin"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Stony Skin (Ex)**

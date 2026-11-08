@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/shadows-speed"
-kind = "rule"
+kind = "class_option"
 title = "Shadow's Speed"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Shadow's Speed (Ex)**

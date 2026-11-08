@@ -1,6 +1,6 @@
 +++
 id = "ref/hkdiscipline/summon-servant-of-law"
-kind = "rule"
+kind = "class_option"
 title = "Summon Servant of Law"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "hellknight-discipline"
 +++
 
 **Summon Servant of Law (Sp)**

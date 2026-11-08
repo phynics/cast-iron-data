@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/breath-of-the-ancestors"
-kind = "rule"
+kind = "class_option"
 title = "Breath of the Ancestors"
 source_ids = ["legacy-of-dragons"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Breath of the Ancestors (Su)**

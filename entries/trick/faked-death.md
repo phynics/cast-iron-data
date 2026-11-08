@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/faked-death"
-kind = "rule"
+kind = "class_option"
 title = "Faked Death"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Faked Death**

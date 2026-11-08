@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/demon-lantern"
-kind = "rule"
+kind = "class_option"
 title = "Demon Lantern"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Demon Lantern (Sp)**

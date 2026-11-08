@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/rolling-dodge"
-kind = "rule"
+kind = "class_option"
 title = "Rolling Dodge"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Rolling Dodge (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/azghaad-i"
-kind = "rule"
+kind = "class_option"
 title = "Azghaad I"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,9 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
+replaces = ["Decisive strike"]
 +++
 
 **Sources:** Occult Realms pg 11\

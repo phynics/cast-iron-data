@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/didactic-strike"
-kind = "rule"
+kind = "class_option"
 title = "Didactic Strike"
 source_ids = ["adventurers-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Didactic Strike**

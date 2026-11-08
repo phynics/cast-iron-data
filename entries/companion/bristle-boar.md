@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/bristle-boar"
-kind = "rule"
+kind = "class_option"
 title = "Bristle Boar"
 source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Belkzen, Hold of the Orc Hordes pg 55

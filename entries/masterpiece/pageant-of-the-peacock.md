@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/pageant-of-the-peacock"
-kind = "rule"
+kind = "class_option"
 title = "Pageant of the Peacock"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Pageant of the Peacock (Act, Dance)

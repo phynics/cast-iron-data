@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/powerful-sneak"
-kind = "rule"
+kind = "class_option"
 title = "Powerful Sneak"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Powerful Sneak (Ex)**

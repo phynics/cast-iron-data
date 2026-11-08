@@ -1,6 +1,6 @@
 +++
 id = "ref/unchevolution/basic-psychic-magic"
-kind = "rule"
+kind = "class_option"
 title = "Basic Psychic Magic"
 source_ids = ["horror-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "unchained-summoner-evolution"
 +++
 
 **Basic Psychic Magic**

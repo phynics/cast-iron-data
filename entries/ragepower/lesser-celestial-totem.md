@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/lesser-celestial-totem"
-kind = "rule"
+kind = "class_option"
 title = "Lesser Celestial Totem"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Lesser Celestial Totem (Su)**

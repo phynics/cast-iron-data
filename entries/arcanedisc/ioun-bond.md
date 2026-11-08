@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/ioun-bond"
-kind = "rule"
+kind = "class_option"
 title = "Ioun Bond"
 source_ids = ["people-of-the-river"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Ioun Bond**

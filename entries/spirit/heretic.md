@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/heretic"
-kind = "rule"
+kind = "class_option"
 title = "Heretic"
 source_ids = ["horror-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Horror Adventures pg 58\

@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/vipers-kiss"
-kind = "rule"
+kind = "class_option"
 title = "Viper's Kiss"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Viper's Kiss (Ex)**

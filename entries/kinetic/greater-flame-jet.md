@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/greater-flame-jet"
-kind = "rule"
+kind = "class_option"
 title = "Greater Flame Jet"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Greater Flame Jet (Sp)

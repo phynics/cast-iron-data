@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/lay-to-rest"
-kind = "rule"
+kind = "class_option"
 title = "Lay to Rest"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Lay to Rest (Sp)**

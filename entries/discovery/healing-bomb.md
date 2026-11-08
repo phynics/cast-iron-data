@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/healing-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Healing Bomb"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Healing Bomb**

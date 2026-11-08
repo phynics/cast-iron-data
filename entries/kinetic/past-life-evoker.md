@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/past-life-evoker"
-kind = "rule"
+kind = "class_option"
 title = "Past Life Evoker"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Past Life Evoker (Su)

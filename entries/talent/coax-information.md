@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/coax-information"
-kind = "rule"
+kind = "class_option"
 title = "Coax Information"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Coax Information (Ex)**

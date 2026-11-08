@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/shackle-smash"
-kind = "rule"
+kind = "class_option"
 title = "Shackle Smash"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Shackle Smash (Ex)**

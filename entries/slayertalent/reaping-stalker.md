@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/reaping-stalker"
-kind = "rule"
+kind = "class_option"
 title = "Reaping Stalker"
 source_ids = ["chronicle-of-legends"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Reaping Stalker (Ex)**

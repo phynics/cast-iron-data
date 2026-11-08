@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/water-lung"
-kind = "rule"
+kind = "class_option"
 title = "Water Lung"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Water Lung (Su)**

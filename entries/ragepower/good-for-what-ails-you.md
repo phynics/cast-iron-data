@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/good-for-what-ails-you"
-kind = "rule"
+kind = "class_option"
 title = "Good for What Ails You"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Good for What Ails You (Ex)**

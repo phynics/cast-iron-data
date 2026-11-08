@@ -1,6 +1,6 @@
 +++
 id = "ref/emotionalfocus/zeal"
-kind = "rule"
+kind = "class_option"
 title = "Zeal"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "emotional-focus"
 +++
 
 **Sources:** Occult Adventures pg 83\

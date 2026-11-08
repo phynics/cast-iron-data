@@ -1,6 +1,6 @@
 +++
 id = "ref/spirit/champion"
-kind = "rule"
+kind = "class_option"
 title = "Champion"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "medium-spirit"
 +++
 
 **Sources:** Occult Adventures pg 34\

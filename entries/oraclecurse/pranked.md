@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/pranked"
-kind = "rule"
+kind = "class_option"
 title = "Pranked"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Pranked**

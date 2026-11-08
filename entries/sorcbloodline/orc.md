@@ -1,6 +1,6 @@
 +++
 id = "ref/sorcbloodline/orc"
-kind = "rule"
+kind = "class_option"
 title = "Orc"
 source_ids = ["orcs-of-golarion", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "sorcerer-bloodline"
 +++
 
 **Sources:** Orcs of Golarion pg 14\

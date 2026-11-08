@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/the-dance-of-23-steps"
-kind = "rule"
+kind = "class_option"
 title = "The Dance of 23 Steps"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## The Dance of 23 Steps (Dance)

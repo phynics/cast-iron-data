@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/greater-air-totem"
-kind = "rule"
+kind = "class_option"
 title = "Greater Air Totem"
 source_ids = ["blood-of-the-elements"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Greater Air Totem (Su)**

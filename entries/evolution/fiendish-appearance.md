@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/fiendish-appearance"
-kind = "rule"
+kind = "class_option"
 title = "Fiendish Appearance"
 source_ids = ["champions-of-corruption"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Fiendish Appearance (Ex)**

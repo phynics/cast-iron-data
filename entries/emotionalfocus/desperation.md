@@ -1,6 +1,6 @@
 +++
 id = "ref/emotionalfocus/desperation"
-kind = "rule"
+kind = "class_option"
 title = "Desperation"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "emotional-focus"
 +++
 
 **Sources:** Elemental Master's Handbook pg 13\

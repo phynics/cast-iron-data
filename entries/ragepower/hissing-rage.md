@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/hissing-rage"
-kind = "rule"
+kind = "class_option"
 title = "Hissing Rage"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Hissing Rage (Su)**

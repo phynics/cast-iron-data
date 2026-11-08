@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/abominate"
-kind = "rule"
+kind = "class_option"
 title = "Abominate"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Abominate (Su)**

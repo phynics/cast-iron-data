@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/symphony-of-the-elysian-heart"
-kind = "rule"
+kind = "class_option"
 title = "Symphony of the Elysian Heart"
 source_ids = ["blood-of-angels"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Symphony of the Elysian Heart (Keyboard, Wind)

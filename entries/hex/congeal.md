@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/congeal"
-kind = "rule"
+kind = "class_option"
 title = "Congeal"
 source_ids = ["people-of-the-wastes"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Congeal (Su)**

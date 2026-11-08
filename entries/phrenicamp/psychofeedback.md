@@ -1,6 +1,6 @@
 +++
 id = "ref/phrenicamp/psychofeedback"
-kind = "rule"
+kind = "class_option"
 title = "Psychofeedback"
 source_ids = ["occult-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "phrenic-amplification"
 +++
 
 **Psychofeedback (Su)**

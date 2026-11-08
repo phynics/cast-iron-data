@@ -1,6 +1,6 @@
 +++
 id = "ref/trick/shadow-blend"
-kind = "rule"
+kind = "class_option"
 title = "Shadow Blend"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-trick"
 +++
 
 **Shadow Blend**

@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/ferocious-mount"
-kind = "rule"
+kind = "class_option"
 title = "Ferocious Mount"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Ferocious Mount (Ex)**

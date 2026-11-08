@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/aurora"
-kind = "rule"
+kind = "class_option"
 title = "Aurora"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Aurora**

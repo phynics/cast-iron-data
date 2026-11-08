@@ -1,6 +1,6 @@
 +++
 id = "ref/blessing/artifice"
-kind = "rule"
+kind = "class_option"
 title = "Artifice"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "warpriest-blessing"
 +++
 
 **Sources:** Advanced Class Guide pg 64\

@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/spire-totem"
-kind = "rule"
+kind = "class_option"
 title = "Spire Totem"
 source_ids = ["wilderness-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Spire Totem (Su)**

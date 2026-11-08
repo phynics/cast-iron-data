@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/jaguars-protection"
-kind = "rule"
+kind = "class_option"
 title = "Jaguar's Protection"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Jaguar's Protection (Ex)**

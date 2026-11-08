@@ -1,6 +1,6 @@
 +++
 id = "ref/rangertrap/selective-trigger"
-kind = "rule"
+kind = "class_option"
 title = "Selective Trigger"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ranger-trap"
 +++
 
 ### Selective Trigger (Ex or Su)

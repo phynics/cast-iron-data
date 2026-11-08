@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/black-market-connections"
-kind = "rule"
+kind = "class_option"
 title = "Black Market Connections"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Black Market Connection (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/sunlight-acclimation"
-kind = "rule"
+kind = "class_option"
 title = "Sunlight Acclimation"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Sunlight Acclimation**

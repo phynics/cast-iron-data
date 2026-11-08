@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/lethal-grace"
-kind = "rule"
+kind = "class_option"
 title = "Lethal Grace"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Lethal Grace (Ex)**

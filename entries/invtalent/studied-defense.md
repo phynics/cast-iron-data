@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/studied-defense"
-kind = "rule"
+kind = "class_option"
 title = "Studied Defense"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Studied Defense (Ex)**

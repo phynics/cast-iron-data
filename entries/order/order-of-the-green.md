@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-green"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Green"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Ultimate Wilderness pg 44, Heroes of the Wild pg 13

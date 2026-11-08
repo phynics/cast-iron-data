@@ -1,0 +1,244 @@
+[groups.alchemist-discovery]
+label = "Alchemist discoveries"
+singular = "Alchemist discovery"
+classes = ["ref/class/alchemist", "ref/class/investigator"]
+
+[groups.animal-companion]
+label = "Animal companions"
+singular = "Animal companion"
+classes = ["ref/class/druid"]
+
+[groups.arcane-discovery]
+label = "Arcane discoveries"
+singular = "Arcane discovery"
+classes = ["ref/class/wizard"]
+
+[groups.arcane-school]
+label = "Arcane schools"
+singular = "Arcane school"
+classes = ["ref/class/wizard"]
+
+[groups.arcanist-exploit]
+label = "Arcanist exploits"
+singular = "Arcanist exploit"
+classes = ["ref/class/arcanist"]
+
+[groups.bardic-masterpiece]
+label = "Bardic masterpieces"
+singular = "Bardic masterpiece"
+classes = ["ref/class/bard", "ref/class/skald"]
+
+[groups.bardic-performance]
+label = "Bardic performances"
+singular = "Bardic performance"
+classes = ["ref/class/bard"]
+
+[groups.bloodrager-bloodline]
+label = "Bloodrager bloodlines"
+singular = "Bloodrager bloodline"
+classes = ["ref/class/bloodrager"]
+
+[groups.cleric-domain]
+label = "Cleric domains"
+singular = "Cleric domain"
+classes = ["ref/class/cleric"]
+
+[groups.druid-domain]
+label = "Druid domains"
+singular = "Druid domain"
+classes = ["ref/class/druid"]
+
+[groups.eidolon-subtype]
+label = "Eidolon subtypes"
+singular = "Eidolon subtype"
+classes = ["ref/class/unchained-summoner"]
+
+[groups.emotional-focus]
+label = "Emotional foci"
+singular = "Emotional focus"
+classes = ["ref/class/spiritualist"]
+
+[groups.gunslinger-deed]
+label = "Gunslinger deeds"
+singular = "Gunslinger deed"
+classes = ["ref/class/gunslinger"]
+
+[groups.hellknight-discipline]
+label = "Hellknight disciplines"
+singular = "Hellknight discipline"
+classes = ["ref/pclass/hellknight"]
+
+[groups.hellknight-order]
+label = "Hellknight orders"
+singular = "Hellknight order"
+classes = ["ref/pclass/hellknight"]
+
+[groups.inquisition]
+label = "Inquisitions"
+singular = "Inquisition"
+classes = ["ref/class/inquisitor"]
+
+[groups.investigator-talent]
+label = "Investigator talents"
+singular = "Investigator talent"
+classes = ["ref/class/investigator"]
+
+[groups.ki-power]
+label = "Ki powers"
+singular = "Ki power"
+classes = ["ref/class/unchained-monk"]
+
+[groups.kineticist-wild-talent]
+label = "Kineticist wild talents"
+singular = "Kineticist wild talent"
+classes = ["ref/class/kineticist"]
+
+[groups.magus-arcana]
+label = "Magus arcana"
+singular = "Magus arcana"
+classes = ["ref/class/magus"]
+
+[groups.medium-spirit]
+label = "Medium spirits"
+singular = "Medium spirit"
+classes = ["ref/class/medium"]
+
+[groups.mesmerist-stare]
+label = "Mesmerist stares"
+singular = "Mesmerist stare"
+classes = ["ref/class/mesmerist"]
+
+[groups.mesmerist-trick]
+label = "Mesmerist tricks"
+singular = "Mesmerist trick"
+classes = ["ref/class/mesmerist"]
+
+[groups.ninja-trick]
+label = "Ninja tricks"
+singular = "Ninja trick"
+classes = ["ref/class/ninja"]
+
+[groups.occultist-implement]
+label = "Occultist implements"
+singular = "Occultist implement"
+classes = ["ref/class/occultist"]
+
+[groups.oracle-curse]
+label = "Oracle curses"
+singular = "Oracle curse"
+classes = ["ref/class/oracle"]
+
+[groups.oracle-mystery]
+label = "Oracle mysteries"
+singular = "Oracle mystery"
+classes = ["ref/class/oracle"]
+
+[groups.order]
+label = "Orders"
+singular = "Order"
+classes = ["ref/class/cavalier", "ref/class/samurai"]
+
+[groups.paladin-mercy]
+label = "Paladin mercies"
+singular = "Paladin mercy"
+classes = ["ref/class/paladin"]
+
+[groups.paladin-oath]
+label = "Paladin oaths"
+singular = "Paladin oath"
+classes = ["ref/class/paladin"]
+
+[groups.phrenic-amplification]
+label = "Phrenic amplifications"
+singular = "Phrenic amplification"
+classes = ["ref/class/psychic"]
+
+[groups.psychic-discipline]
+label = "Psychic disciplines"
+singular = "Psychic discipline"
+classes = ["ref/class/psychic"]
+
+[groups.rage-power]
+label = "Rage powers"
+singular = "Rage power"
+classes = ["ref/class/barbarian", "ref/class/bloodrager", "ref/class/unchained-barbarian", "ref/class/skald"]
+
+[groups.ranger-trap]
+label = "Ranger traps"
+singular = "Ranger trap"
+classes = ["ref/class/ranger"]
+
+[groups.rogue-talent]
+label = "Rogue talents"
+singular = "Rogue talent"
+classes = ["ref/class/rogue", "ref/class/unchained-rogue"]
+
+[groups.shaman-hex]
+label = "Shaman hexes"
+singular = "Shaman hex"
+classes = ["ref/class/shaman"]
+
+[groups.shaman-spirit]
+label = "Shaman spirits"
+singular = "Shaman spirit"
+classes = ["ref/class/shaman"]
+
+[groups.shifter-aspect]
+label = "Shifter aspects"
+singular = "Shifter aspect"
+classes = ["ref/class/shifter"]
+
+[groups.slayer-talent]
+label = "Slayer talents"
+singular = "Slayer talent"
+classes = ["ref/class/slayer"]
+
+[groups.social-talent]
+label = "Social talents"
+singular = "Social talent"
+classes = ["ref/class/vigilante"]
+
+[groups.sorcerer-bloodline]
+label = "Sorcerer bloodlines"
+singular = "Sorcerer bloodline"
+classes = ["ref/class/sorcerer"]
+
+[groups.style-strike]
+label = "Style strikes"
+singular = "Style strike"
+classes = ["ref/class/unchained-monk"]
+
+[groups.summoner-evolution]
+label = "Summoner evolutions"
+singular = "Summoner evolution"
+classes = ["ref/class/summoner"]
+
+[groups.swashbuckler-deed]
+label = "Swashbuckler deeds"
+singular = "Swashbuckler deed"
+classes = ["ref/class/swashbuckler"]
+
+[groups.unchained-summoner-evolution]
+label = "Unchained summoner evolutions"
+singular = "Unchained summoner evolution"
+classes = ["ref/class/unchained-summoner"]
+
+[groups.vigilante-talent]
+label = "Vigilante talents"
+singular = "Vigilante talent"
+classes = ["ref/class/vigilante"]
+
+[groups.warpriest-blessing]
+label = "Warpriest blessings"
+singular = "Warpriest blessing"
+classes = ["ref/class/warpriest"]
+
+[groups.witch-hex]
+label = "Witch hexes"
+singular = "Witch hex"
+classes = ["ref/class/witch"]
+
+[groups.witch-patron]
+label = "Witch patrons"
+singular = "Witch patron"
+classes = ["ref/class/witch"]

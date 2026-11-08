@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/flesh-eating-bomb"
-kind = "rule"
+kind = "class_option"
 title = "Flesh-Eating Bomb"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Flesh-Eating Bomb**

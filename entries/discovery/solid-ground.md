@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/solid-ground"
-kind = "rule"
+kind = "class_option"
 title = "Solid Ground"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Solid Ground**

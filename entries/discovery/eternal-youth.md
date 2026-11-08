@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/eternal-youth"
-kind = "rule"
+kind = "class_option"
 title = "Eternal Youth"
 source_ids = ["advanced-players-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Eternal Youth**

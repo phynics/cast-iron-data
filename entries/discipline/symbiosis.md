@@ -1,6 +1,6 @@
 +++
 id = "ref/discipline/symbiosis"
-kind = "rule"
+kind = "class_option"
 title = "Symbiosis"
 source_ids = ["ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "psychic-discipline"
 +++
 
 **Sources:** Ultimate Wilderness pg 93\

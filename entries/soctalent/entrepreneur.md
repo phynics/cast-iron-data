@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/entrepreneur"
-kind = "rule"
+kind = "class_option"
 title = "Entrepreneur"
 source_ids = ["spymasters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Entrepreneur (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/electric-eel"
-kind = "rule"
+kind = "class_option"
 title = "Electric Eel"
 source_ids = ["bestiary"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 **Sources:** Pathfinder RPG Bestiary pg 119

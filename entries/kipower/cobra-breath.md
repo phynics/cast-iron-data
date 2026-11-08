@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/cobra-breath"
-kind = "rule"
+kind = "class_option"
 title = "Cobra Breath"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Cobra Breath (Su)**

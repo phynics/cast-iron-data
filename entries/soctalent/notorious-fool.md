@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/notorious-fool"
-kind = "rule"
+kind = "class_option"
 title = "Notorious Fool"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Notorious Fool (Ex)**

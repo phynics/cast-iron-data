@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/bombers-discovery"
-kind = "rule"
+kind = "class_option"
 title = "Bomber's Discovery"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Bomber's Discovery (Su)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/spirit-of-the-horse"
-kind = "rule"
+kind = "class_option"
 title = "Spirit of the Horse"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Spirit of the Horse (Strings)

@@ -1,6 +1,6 @@
 +++
 id = "ref/order/order-of-the-monument"
-kind = "rule"
+kind = "class_option"
 title = "Order of the Monument"
 source_ids = ["disciples-doctrine"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "order"
 +++
 
 **Sources:** Disciple's Doctrine pg 15

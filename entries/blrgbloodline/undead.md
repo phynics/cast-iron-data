@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/undead"
-kind = "rule"
+kind = "class_option"
 title = "Undead"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Undead Bloodline

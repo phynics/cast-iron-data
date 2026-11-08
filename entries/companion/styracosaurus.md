@@ -1,6 +1,6 @@
 +++
 id = "ref/companion/styracosaurus"
-kind = "rule"
+kind = "class_option"
 title = "Styracosaurus"
 source_ids = ["bestiary-4"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "animal-companion"
 +++
 
 ## Dinosaur (Styracosaurus)

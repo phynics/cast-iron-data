@@ -1,6 +1,6 @@
 +++
 id = "ref/blrgbloodline/black-blood"
-kind = "rule"
+kind = "class_option"
 title = "Black Blood"
 source_ids = ["advanced-class-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bloodrager-bloodline"
 +++
 
 ## Black Blood Bloodline

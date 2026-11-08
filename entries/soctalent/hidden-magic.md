@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/hidden-magic"
-kind = "rule"
+kind = "class_option"
 title = "Hidden Magic"
 source_ids = ["antiheros-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Hidden Magic (Ex)**

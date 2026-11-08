@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/any-guise"
-kind = "rule"
+kind = "class_option"
 title = "Any Guise"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Any Guise (Su)**

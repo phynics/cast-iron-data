@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/tor-linnorm-death-curse"
-kind = "rule"
+kind = "class_option"
 title = "Tor Linnorm Death Curse"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Tor Linnorm Death Curse (Su)**

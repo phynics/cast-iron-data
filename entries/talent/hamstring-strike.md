@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/hamstring-strike"
-kind = "rule"
+kind = "class_option"
 title = "Hamstring Strike"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Hamstring Strike (Ex)**

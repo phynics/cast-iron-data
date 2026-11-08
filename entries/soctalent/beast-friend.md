@@ -1,6 +1,6 @@
 +++
 id = "ref/soctalent/beast-friend"
-kind = "rule"
+kind = "class_option"
 title = "Beast Friend"
 source_ids = ["heroes-of-golarion"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "social-talent"
 +++
 
 **Beast Friend (Su)**

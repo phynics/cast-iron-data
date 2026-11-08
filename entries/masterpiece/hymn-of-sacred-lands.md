@@ -1,6 +1,6 @@
 +++
 id = "ref/masterpiece/hymn-of-sacred-lands"
-kind = "rule"
+kind = "class_option"
 title = "Hymn of Sacred Lands"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-masterpiece"
 +++
 
 ## Hymn of Sacred Lands (Oratory, Sing)

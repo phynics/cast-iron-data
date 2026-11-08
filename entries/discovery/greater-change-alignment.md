@@ -1,6 +1,6 @@
 +++
 id = "ref/discovery/greater-change-alignment"
-kind = "rule"
+kind = "class_option"
 title = "Greater Change Alignment"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "alchemist-discovery"
 +++
 
 **Greater Change Alignment (Su)**

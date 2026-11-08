@@ -1,6 +1,6 @@
 +++
 id = "ref/slayertalent/deadly-range"
-kind = "rule"
+kind = "class_option"
 title = "Deadly Range"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "slayer-talent"
 +++
 
 **Deadly Range (Ex)**

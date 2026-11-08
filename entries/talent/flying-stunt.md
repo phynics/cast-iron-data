@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/flying-stunt"
-kind = "rule"
+kind = "class_option"
 title = "Flying Stunt"
 source_ids = ["inner-sea-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Flying Stunt (Ex)**

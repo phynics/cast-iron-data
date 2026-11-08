@@ -1,6 +1,6 @@
 +++
 id = "ref/performance/suggestion"
-kind = "rule"
+kind = "class_option"
 title = "Suggestion"
 source_ids = ["core-rulebook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "bardic-performance"
 +++
 
 **Suggestion (Sp)**

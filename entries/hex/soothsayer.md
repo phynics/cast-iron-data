@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/soothsayer"
-kind = "rule"
+kind = "class_option"
 title = "Soothsayer"
 source_ids = ["the-harrow-handbook", "heroes-of-the-high-court"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Soothsayer (Su)**

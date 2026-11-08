@@ -1,6 +1,6 @@
 +++
 id = "ref/stylestrike/hammerblow"
-kind = "rule"
+kind = "class_option"
 title = "Hammerblow"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "style-strike"
 +++
 
 **Hammerblow**

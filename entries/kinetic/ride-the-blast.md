@@ -1,6 +1,6 @@
 +++
 id = "ref/kinetic/ride-the-blast"
-kind = "rule"
+kind = "class_option"
 title = "Ride the Blast"
 source_ids = ["occult-adventures"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "kineticist-wild-talent"
 +++
 
 ## Ride the Blast (Sp)

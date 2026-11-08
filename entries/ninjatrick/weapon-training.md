@@ -1,6 +1,6 @@
 +++
 id = "ref/ninjatrick/weapon-training"
-kind = "rule"
+kind = "class_option"
 title = "Weapon Training"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ninja-trick"
 +++
 
 **Weapon Training (Ex)**

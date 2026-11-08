@@ -1,6 +1,6 @@
 +++
 id = "ref/eidolon/radiant"
-kind = "rule"
+kind = "class_option"
 title = "Radiant"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "eidolon-subtype"
 +++
 
 Practically glowing with the Positive Energy Plane's potential, radiant eidolons make for

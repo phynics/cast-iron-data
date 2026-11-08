@@ -1,6 +1,6 @@
 +++
 id = "ref/kipower/ki-sunder"
-kind = "rule"
+kind = "class_option"
 title = "Ki Sunder"
 source_ids = ["martial-arts-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "ki-power"
 +++
 
 **Ki Sunder (Ex)**

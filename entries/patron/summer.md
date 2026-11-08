@@ -1,6 +1,6 @@
 +++
 id = "ref/patron/summer"
-kind = "rule"
+kind = "class_option"
 title = "Summer"
 source_ids = ["heroes-of-the-wild", "ultimate-wilderness"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-patron"
 +++
 
 **Summer**

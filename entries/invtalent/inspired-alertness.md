@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/inspired-alertness"
-kind = "rule"
+kind = "class_option"
 title = "Inspired Alertness"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Inspired Alertness (Ex)**

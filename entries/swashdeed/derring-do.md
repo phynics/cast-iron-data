@@ -1,6 +1,6 @@
 +++
 id = "ref/swashdeed/derring-do"
-kind = "rule"
+kind = "class_option"
 title = "Derring-Do"
 source_ids = ["advanced-class-guide"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "swashbuckler-deed"
 +++
 
 **Derring-Do (Ex)**

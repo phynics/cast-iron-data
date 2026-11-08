@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/armor-piercer"
-kind = "rule"
+kind = "class_option"
 title = "Armor Piercer"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Armor Piercer (Ex)**

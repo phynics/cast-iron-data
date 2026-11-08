@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/stand-up-unchained-rogue"
-kind = "rule"
+kind = "class_option"
 title = "Stand Up (Unchained Rogue)"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Stand Up (Unchained Rogue) (Ex)**

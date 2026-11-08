@@ -1,6 +1,6 @@
 +++
 id = "ref/deed/gunslingers-dodge"
-kind = "rule"
+kind = "class_option"
 title = "Gunslinger's Dodge"
 source_ids = ["ultimate-combat"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "gunslinger-deed"
 +++
 
 **Gunslinger's Dodge (Ex)**

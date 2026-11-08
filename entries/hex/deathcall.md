@@ -1,6 +1,6 @@
 +++
 id = "ref/hex/deathcall"
-kind = "rule"
+kind = "class_option"
 title = "Deathcall"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "witch-hex"
 +++
 
 **Deathcall (Su)**

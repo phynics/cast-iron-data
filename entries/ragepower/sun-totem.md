@@ -1,6 +1,6 @@
 +++
 id = "ref/ragepower/sun-totem"
-kind = "rule"
+kind = "class_option"
 title = "Sun Totem"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rage-power"
 +++
 
 **Sun Totem (Su)**

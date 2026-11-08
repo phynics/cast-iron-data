@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/focusing-attack"
-kind = "rule"
+kind = "class_option"
 title = "Focusing Attack"
 source_ids = ["blood-of-shadows"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Focusing Attack (Ex)**

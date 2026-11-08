@@ -1,6 +1,6 @@
 +++
 id = "ref/evolution/alignment-smite"
-kind = "rule"
+kind = "class_option"
 title = "Alignment Smite"
 source_ids = ["champions-of-purity"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "summoner-evolution"
 +++
 
 **Alignment Smite (Su)**

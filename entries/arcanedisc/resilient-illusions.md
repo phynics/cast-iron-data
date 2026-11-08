@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/resilient-illusions"
-kind = "rule"
+kind = "class_option"
 title = "Resilient Illusions"
 source_ids = ["magical-marketplace"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Resilient Illusions**

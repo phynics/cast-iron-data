@@ -1,6 +1,6 @@
 +++
 id = "ref/stare/restriction"
-kind = "rule"
+kind = "class_option"
 title = "Restriction"
 source_ids = ["occult-realms"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "mesmerist-stare"
 +++
 
 **Restriction**

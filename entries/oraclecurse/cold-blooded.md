@@ -1,6 +1,6 @@
 +++
 id = "ref/oraclecurse/cold-blooded"
-kind = "rule"
+kind = "class_option"
 title = "Cold-Blooded"
 source_ids = ["monster-codex"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "oracle-curse"
 +++
 
 **Cold-Blooded**

@@ -1,6 +1,6 @@
 +++
 id = "ref/vigtalent/shadows-sight"
-kind = "rule"
+kind = "class_option"
 title = "Shadow's Sight"
 source_ids = ["ultimate-intrigue"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "vigilante-talent"
 +++
 
 **Shadow's Sight (Ex)**

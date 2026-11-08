@@ -1,6 +1,6 @@
 +++
 id = "ref/invtalent/slowing-strike"
-kind = "rule"
+kind = "class_option"
 title = "Slowing Strike"
 source_ids = ["advanced-class-origins"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "investigator-talent"
 +++
 
 **Slowing Strike (Ex)**

@@ -1,6 +1,6 @@
 +++
 id = "ref/arcanedisc/arcane-builder"
-kind = "rule"
+kind = "class_option"
 title = "Arcane Builder"
 source_ids = ["ultimate-magic"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "arcane-discovery"
 +++
 
 **Arcane Builder**

@@ -1,6 +1,6 @@
 +++
 id = "ref/talent/grig-jig"
-kind = "rule"
+kind = "class_option"
 title = "Grig Jig"
 source_ids = ["the-harrow-handbook"]
 provenance = [
@@ -8,7 +8,8 @@ provenance = [
 ]
 
 [fields]
-kind = "none"
+kind = "class_option"
+group = "rogue-talent"
 +++
 
 **Grig Jig (Su)**
