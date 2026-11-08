@@ -93,7 +93,7 @@ pulsating mound of fungus._
 
 **At will:**
 
-- veil (DC 23), self only
+- veil (DC 23, self only)
 
 **Per day:**
 

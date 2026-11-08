@@ -86,7 +86,7 @@ mace._
 
 **At will:**
 
-- aid, charm monster (DC 18), elementals only, discern lies (DC 18), dispel evil (DC 19), dispel
+- aid, charm monster (DC 18, elementals only), discern lies (DC 18), dispel evil (DC 19), dispel
   magic, holy smite (DC 18), invisibility, self only, plane shift (DC 19), remove curse, remove
   disease, remove fear
 

@@ -160,7 +160,7 @@ her fiendish nature._
 
 **2nd-level spells:**
 
-- blindness/deafness (domain spell) (DC 17), only to cause blindness, cure moderate wounds, 2, hold
+- blindness/deafness (domain spell) (DC 17, only to cause blindness), cure moderate wounds, 2, hold
   person (DC 17), silence (DC 17), undetectable alignment
 
 **1st-level spells:**

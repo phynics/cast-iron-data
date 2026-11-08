@@ -112,7 +112,7 @@ mind-affecting effects, paralysis, petrification, poison
 
 **At will:**
 
-- awaken, snakes only, baleful polymorph (mythic spell) (DC 25), into harmless snakes only, commune
+- awaken, snakes only, baleful polymorph (mythic spell) (DC 25, into harmless snakes only), commune
   with nature, dimension door (mythic spell), dream (mythic spell), greater dispel magic, nightmare
   (mythic spell) (DC 25), transport via plants
 
