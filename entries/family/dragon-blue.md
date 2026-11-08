@@ -77,4 +77,4 @@ ability extend the duration by an additional 1d6 rounds.
 
 ### Mythic Members of This Family:
 
-- [Mature Adult Blue Dragon](ref/monster/dragon-chromatic-blue-mature-adult-blue-dragon-mythic)
+- [Mature Adult Blue Dragon](ref/carried/mythic-adventures/monsters/dragon/blue/mythic)

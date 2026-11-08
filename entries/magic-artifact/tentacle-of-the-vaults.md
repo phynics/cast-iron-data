@@ -59,5 +59,5 @@ When animated, the tentacle of the Vaults has the statistics of a Medium
 If the tentacle of the Vaults is soaked in the
 [necromantic fluids](ref/magic-artifact/black-blood-of-orv) from the Vault called the Land of Black
 Blood and then used to cast _[remove disease](ref/spell/remove-disease)_ on a mythic
-[aboleth](ref/monster/aboleth-mythic) within 1 day, the mythic aboleth permanently loses its slime
-ability and the artifact is destroyed.
+[aboleth](ref/carried/mythic-adventures/monsters/aboleth/mythic) within 1 day, the mythic aboleth
+permanently loses its slime ability and the artifact is destroyed.

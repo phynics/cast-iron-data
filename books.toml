@@ -43314,132 +43314,12 @@ title = "Legendary Item Abilities"
 entry = "ref/rule/legendary-item-abilities"
 
 [[books.chapters.children]]
-title = "Aboleth"
-entry = "ref/monster/aboleth-mythic"
-
-[[books.chapters.children]]
-title = "Greater Barghest"
-entry = "ref/monster/greater-barghest-mythic"
-
-[[books.chapters.children]]
-title = "Cockatrice"
-entry = "ref/monster/cockatrice-mythic"
-
-[[books.chapters.children]]
-title = "Ice Devil (Devil)"
-entry = "ref/monster/devil-ice-devil-mythic"
-
-[[books.chapters.children]]
-title = "Mature Adult Black Dragon"
-entry = "ref/monster/dragon-chromatic-black-mature-adult-black-dragon-mythic"
-
-[[books.chapters.children]]
-title = "Mature Adult Blue Dragon"
-entry = "ref/monster/dragon-chromatic-blue-mature-adult-blue-dragon-mythic"
-
-[[books.chapters.children]]
-title = "Very Old Green Dragon"
-entry = "ref/monster/dragon-chromatic-green-very-old-green-dragon-mythic"
-
-[[books.chapters.children]]
-title = "Juvenile White Dragon"
-entry = "ref/monster/dragon-chromatic-white-juvenile-white-dragon-mythic"
-
-[[books.chapters.children]]
-title = "Elder Air Elemental"
-entry = "ref/monster/elemental-air-elder-air-elemental-mythic"
-
-[[books.chapters.children]]
-title = "Elder Earth Elemental"
-entry = "ref/monster/elemental-earth-elder-earth-elemental-mythic"
-
-[[books.chapters.children]]
-title = "Elder Fire Elemental"
-entry = "ref/monster/elemental-fire-elder-fire-elemental-mythic"
-
-[[books.chapters.children]]
-title = "Elder Water Elemental"
-entry = "ref/monster/elemental-water-elder-water-elemental-mythic"
-
-[[books.chapters.children]]
-title = "Ettin"
-entry = "ref/monster/ettin-mythic"
-
-[[books.chapters.children]]
-title = "Human Skeleton"
-entry = "ref/monster/human-skeleton-mythic"
-
-[[books.chapters.children]]
-title = "Gargoyle"
-entry = "ref/monster/gargoyle-mythic"
-
-[[books.chapters.children]]
-title = "Griffon"
-entry = "ref/monster/griffon-mythic"
-
-[[books.chapters.children]]
-title = "Nessian Warhound (Hell Hound)"
-entry = "ref/monster/hell-hound-nessian-warhound-mythic"
-
-[[books.chapters.children]]
-title = "Hydra"
-entry = "ref/monster/hydra-mythic"
-
-[[books.chapters.children]]
-title = "Lamia"
-entry = "ref/monster/lamia-mythic"
-
-[[books.chapters.children]]
 title = "Lich"
 entry = "ref/monster/lich-mythic"
 
 [[books.chapters.children]]
-title = "Manticore"
-entry = "ref/monster/manticore-mythic"
-
-[[books.chapters.children]]
-title = "Medusa"
-entry = "ref/monster/medusa-mythic"
-
-[[books.chapters.children]]
-title = "Minotaur"
-entry = "ref/monster/minotaur-mythic"
-
-[[books.chapters.children]]
-title = "Mummy"
-entry = "ref/monster/mummy-mythic"
-
-[[books.chapters.children]]
-title = "Ogre"
-entry = "ref/monster/ogre-mythic"
-
-[[books.chapters.children]]
-title = "Owlbear"
-entry = "ref/monster/owlbear-mythic"
-
-[[books.chapters.children]]
-title = "Phoenix"
-entry = "ref/monster/phoenix-mythic"
-
-[[books.chapters.children]]
-title = "Rakshasa"
-entry = "ref/monster/rakshasa-mythic"
-
-[[books.chapters.children]]
 title = "Mythic Skeleton"
 entry = "ref/template/mythic-skeleton"
-
-[[books.chapters.children]]
-title = "Sphinx"
-entry = "ref/monster/sphinx-mythic"
-
-[[books.chapters.children]]
-title = "Treant"
-entry = "ref/monster/treant-mythic"
-
-[[books.chapters.children]]
-title = "Troll"
-entry = "ref/monster/troll-mythic"
 
 [[books.chapters.children]]
 title = "Vampire"
@@ -43448,14 +43328,6 @@ entry = "ref/monster/vampire-mythic"
 [[books.chapters.children]]
 title = "Mythic Vampire"
 entry = "ref/template/mythic-vampire"
-
-[[books.chapters.children]]
-title = "Worg"
-entry = "ref/monster/worg-mythic"
-
-[[books.chapters.children]]
-title = "Wyvern"
-entry = "ref/monster/wyvern-mythic"
 
 [[books.chapters.children]]
 title = "Building a Mythic Creature"

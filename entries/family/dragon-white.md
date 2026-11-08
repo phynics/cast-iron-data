@@ -82,4 +82,4 @@ wyrm-[control weather](ref/spell/control-weather).
 
 ### Mythic Members of This Family:
 
-- [Juvenile White Dragon](ref/monster/dragon-chromatic-white-juvenile-white-dragon-mythic)
+- [Juvenile White Dragon](ref/carried/mythic-adventures/monsters/dragon/white/mythic)
