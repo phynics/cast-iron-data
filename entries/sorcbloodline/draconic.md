@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/draconic"
 kind = "class_option"
 title = "Draconic"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "legacy-of-dragons", "ultimate-magic"]
+source_ids = ["core-rulebook", "legacy-of-dragons", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -45,9 +45,6 @@ power flows through your veins.
 (Fly)Skill Focus (Knowledge \[arcana\])[Toughness](ref/feat/toughness)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Power Attack with [Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

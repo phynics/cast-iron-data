@@ -2,7 +2,7 @@
 id = "ref/feat/improved-sunder"
 kind = "feat"
 title = "Improved Sunder"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_sunder", path = "json/feat09.json" },
 ]
@@ -25,7 +25,3 @@ You are skilled at damaging your foes' weapons and armor.\
 combat maneuver. In addition, you receive a +2 bonus on checks made to sunder an item. You also
 receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to sunder your gear.\
 **Normal:** You provoke an attack of opportunity when performing a sunder combat maneuver.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the new [Powerful Maneuvers](ref/rule/powerful-maneuvers)
-feat.

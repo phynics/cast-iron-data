@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/abyssal"
 kind = "class_option"
 title = "Abyssal"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "ultimate-magic"]
+source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abyssal", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -46,11 +46,6 @@ chaos or evil, but your destiny (and alignment) is up to you.
 (Knowledge \[planes\])
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Improved Bull Rush, Improved Sunder, and Power Attack with
-[Greater Bull Rush](ref/feat/greater-bull-rush), [Greater Sunder](ref/feat/greater-sunder), and
-[Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

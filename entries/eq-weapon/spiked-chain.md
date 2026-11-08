@@ -2,7 +2,7 @@
 id = "ref/eq-weapon/spiked-chain"
 kind = "item"
 title = "Spiked chain"
-source_ids = ["ultimate-equipment", "core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiked_chain", path = "json/equipment_weapons2.json" },
 ]
@@ -25,10 +25,3 @@ though it isn't a light weapon.
 [disarm](ref/misc/disarm), [trip](ref/misc/trip)\
 **Category** Two-Handed; **Proficiency** Exotic\
 **[Weapon Group](ref/ability/weapon-groups)** Flails
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-The spiked chain has the [_agile_ weapon quality](ref/rule/equipment-errata).
-
-You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when
-wielding an agile weapon sized for you, even though it isn't a [finesse](ref/rule/equipment-errata)
-weapon.

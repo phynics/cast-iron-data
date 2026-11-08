@@ -2,7 +2,7 @@
 id = "ref/feat/greater-weapon-specialization"
 kind = "feat"
 title = "Greater Weapon Specialization"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_specialization", path = "json/feat08.json" },
 ]
@@ -30,16 +30,3 @@ Specialization feat. Your attacks with the chosen weapon are more devastating th
 to damage stacks with other damage roll bonuses, including any you gain from Weapon Specialization.\
 **Special:** You can gain Greater Weapon Specialization multiple times. Its effects do not stack.
 Each time you take the feat, it applies to a new type of weapon.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Choose one [weapon group](ref/ability/weapon-groups) listed under the fighter's Weapon Training
-class feature for which you possess the Weapon Specialization feat. Your attacks with these weapons
-are more devastating than normal.\
-**Prerequisites:** [Greater Weapon Focus](ref/feat/greater-weapon-focus) with the selected weapon
-group, [Weapon Specialization](ref/feat/weapon-specialization) with the selected weapon group,
-12th-level fighter.\
-**Benefit:** You gain a +2 bonus on all damage rolls you make using any weapon from the selected
-group. This bonus to damage stacks with other damage roll bonuses, including any you gain from
-Weapon Specialization.\
-**Special:** You can gain Greater Weapon Specialization multiple times. Its effects do not stack.
-Each time you take the feat, it applies to a new weapon group.

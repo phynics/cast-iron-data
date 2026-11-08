@@ -2,7 +2,7 @@
 id = "ref/feat/improved-drag"
 kind = "feat"
 title = "Improved Drag"
-source_ids = ["advanced-players-guide", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_drag", path = "json/feat09.json" },
 ]
@@ -25,7 +25,3 @@ You are skilled at dragging foes around the battlefield.\
 combat maneuver. In addition, you receive a +2 bonus on checks made to drag a foe. You also receive
 a +2 bonus to your Combat Maneuver Defense when an opponent tries to drag you.\
 **Normal:** You provoke an attack of opportunity when performing a drag combat maneuver.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat **may** be removed, replaced with the new
-[Powerful Maneuvers](ref/rule/powerful-maneuvers) feat.

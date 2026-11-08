@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/djinni"
 kind = "class_option"
 title = "Djinni"
-source_ids = ["ultimate-magic", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "djinni", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -45,9 +45,6 @@ is strong in you.
 (Knowledge \[planes\])\~[Weapon Focus](ref/feat/weapon-focus)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Power Attack with [Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

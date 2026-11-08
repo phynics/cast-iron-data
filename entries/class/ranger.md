@@ -2,7 +2,7 @@
 id = "ref/class/ranger"
 kind = "class"
 title = "Ranger"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-sea", "monster-codex", "advanced-race-guide", "blood-of-shadows", "advanced-players-guide", "ultimate-wilderness", "goblins-of-golarion", "horror-adventures", "blood-of-the-beast"]
+source_ids = ["core-rulebook", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-sea", "monster-codex", "advanced-race-guide", "blood-of-shadows", "advanced-players-guide", "ultimate-wilderness", "goblins-of-golarion", "horror-adventures", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranger", path = "json/classes7.json" },
 ]
@@ -168,10 +168,6 @@ do not have the normal prerequisites.
 
 **Special:** The benefits of your chosen style feats apply only when you wear light, medium, or no
 armor. You loses all benefits of your combat style feats when wearing heavy armor.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-You can pick archery or two-weapon combat as a combat style,
-[as described here](ref/rule/teitr-ranger).
 
 **Endurance**
 

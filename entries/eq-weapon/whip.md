@@ -2,7 +2,7 @@
 id = "ref/eq-weapon/whip"
 kind = "item"
 title = "Whip"
-source_ids = ["ultimate-equipment", "core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip", path = "json/equipment_weapons2.json" },
 ]
@@ -33,10 +33,3 @@ modifier to damage rolls.
 [trip](ref/misc/trip)\
 **Category** One-Handed; **Proficiency** Exotic\
 **[Weapon Group](ref/ability/weapon-groups)** Flails
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-The whip has the [_agile_ weapon quality](ref/rule/equipment-errata).
-
-You can apply your Dexterity modifier instead of your Strength modifier to attack rolls when
-wielding an agile weapon sized for you, even though it isn't a [finesse](ref/rule/equipment-errata)
-weapon.

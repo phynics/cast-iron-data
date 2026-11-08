@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/marid"
 kind = "class_option"
 title = "Marid"
-source_ids = ["ultimate-magic", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "blood-of-the-elements"]
+source_ids = ["ultimate-magic", "blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -45,10 +45,6 @@ is strong in you.
 (Knowledge \[planes\])\~[Weapon Finesse](ref/feat/weapon-finesse))
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Power Attack and Weapon Finesse with [Agile Combatant](ref/feat/agile-maneuvers) and
-[Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

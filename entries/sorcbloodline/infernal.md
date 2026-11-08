@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/infernal"
 kind = "class_option"
 title = "Infernal"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "ultimate-magic"]
+source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -47,10 +47,6 @@ wonder if your ultimate reward is bound to the Pit.
 (Knowledge \[planes\])\~[Spell Penetration](ref/feat/spell-penetration)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Combat Expertise and Improved Disarm with [Deft Maneuvers](ref/rule/deft-maneuvers) and
-[Greater Disarm](ref/feat/greater-disarm).
 
 **Bloodline Arcana**
 

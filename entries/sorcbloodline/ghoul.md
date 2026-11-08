@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/ghoul"
 kind = "class_option"
 title = "Ghoul"
-source_ids = ["monster-codex", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -45,10 +45,6 @@ Your connection to the hungering undead shapes your magic.
 (necromancy)[Toughness](ref/feat/toughness)[Warren Digger](ref/feat/warren-digger)\~[Weapon Finesse](ref/feat/weapon-finesse)
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Power Attack and Weapon Finesse with [Agile Combatant](ref/feat/agile-maneuvers) and
-[Powerful Maneuvers](ref/rule/powerful-maneuvers).
 
 **Bloodline Arcana**
 

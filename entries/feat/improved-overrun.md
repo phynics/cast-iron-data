@@ -2,7 +2,7 @@
 id = "ref/feat/improved-overrun"
 kind = "feat"
 title = "Improved Overrun"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_overrun", path = "json/feat09.json" },
 ]
@@ -26,7 +26,3 @@ You are skilled at running down your foes.\
 overrrun a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent
 tries to overrun you. Targets of your overrun attempt may not chose to avoid you.\
 **Normal:** You provoke an attack of opportunity when performing an overrun combat maneuver.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the new [Powerful Maneuvers](ref/rule/powerful-maneuvers)
-feat.

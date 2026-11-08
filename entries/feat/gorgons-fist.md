@@ -2,7 +2,7 @@
 id = "ref/feat/gorgons-fist"
 kind = "feat"
 title = "Gorgon's Fist"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorgons_fist", path = "json/feat07.json" },
 ]
@@ -26,12 +26,3 @@ reduced (such as from Scorpion Style). If the attack hits, you deal damage norma
 is [staggered](ref/misc/staggered) until the end of your next turn unless it makes a Fortitude
 saving throw (DC 10 + 1/2 your character level + your Wis modifier). This feat has no effect on
 targets that are staggered.
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-With one well-placed blow, you leave your target reeling.\
-**Prerequisites:** [Unarmed Combatant](ref/rule/unarmed-combatant),
-[Scorpion Stance](ref/rule/scorpion-stance), base attack bonus +6.\
-**Benefit:** As a standard action, make a single unarmed melee attack against a foe who is either
-[entangled](ref/rule/entangled) or [prone](ref/rule/prone). If the attack hits, you deal damage
-normally and the target is [flat-footed](ref/rule/flat-footed) until the end of your next turn
-unless it makes a Fortitude saving throw (DC 10 + 1/2 your character level + your Wis modifier).

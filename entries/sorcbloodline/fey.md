@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/fey"
 kind = "class_option"
 title = "Fey"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder", "people-of-the-river", "ultimate-magic"]
+source_ids = ["core-rulebook", "people-of-the-river", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -45,9 +45,6 @@ magic. You are more emotional than most, prone to bouts of joy and rage.
 (Knowledge \[nature\])
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Mobility with [Spring Attack](ref/feat/spring-attack).
 
 **Bloodline Arcana**
 

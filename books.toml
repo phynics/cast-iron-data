@@ -21625,7 +21625,7 @@ entry = "ref/subtype/wayang"
 source = "core-rulebook"
 title = "Core Rulebook"
 basis = "The 15 chapter titles, their order, and their first pages are checked against the printed contents page of the Core Rulebook. Its appendices are Special Abilities, Conditions, Inspiring Reading, and Game Aids; the first two are top-level groups and the last two have no corpus entries. The dataset's Glossary aggregate opens Special Abilities. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["The dataset merges the printed chapters Gamemastering and Creating NPCs into one tree. The NPC classes are placed in a separate Creating NPCs chapter; the Gamemastering tree also holds a section of that name.", "The Classes tree holds an introduction to prestige classes that the printed book puts in the Prestige Classes chapter.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+review = ["Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
 
 [[books.chapters]]
 title = "Getting Started"
@@ -21855,50 +21855,6 @@ title = "Languages"
 entry = "ref/racial-trait/half-elf/languages"
 
 [[books.chapters.children]]
-title = "Halflings"
-entry = "ref/carried/core-rulebook/races/halflings"
-
-[[books.chapters.children.children]]
-title = "Halfling Racial Traits"
-anchor = "halfling-racial-traits"
-
-[[books.chapters.children.children.children]]
-title = "Attributes"
-entry = "ref/racial-trait/halfling/attributes"
-
-[[books.chapters.children.children.children]]
-title = "Small"
-entry = "ref/racial-trait/halfling/small"
-
-[[books.chapters.children.children.children]]
-title = "Slow Speed"
-entry = "ref/racial-trait/halfling/slow-speed"
-
-[[books.chapters.children.children.children]]
-title = "Fearless"
-entry = "ref/racial-trait/halfling/fearless"
-
-[[books.chapters.children.children.children]]
-title = "Halfling Luck"
-entry = "ref/racial-trait/halfling/halfling-luck"
-
-[[books.chapters.children.children.children]]
-title = "Keen Senses"
-entry = "ref/racial-trait/halfling/keen-senses"
-
-[[books.chapters.children.children.children]]
-title = "Sure-Footed"
-entry = "ref/racial-trait/halfling/sure-footed"
-
-[[books.chapters.children.children.children]]
-title = "Weapon Familiarity"
-entry = "ref/racial-trait/halfling/weapon-familiarity"
-
-[[books.chapters.children.children.children]]
-title = "Languages"
-entry = "ref/racial-trait/halfling/languages"
-
-[[books.chapters.children]]
 title = "Half-Orcs"
 entry = "ref/carried/core-rulebook/races/half-orcs"
 
@@ -21943,6 +21899,50 @@ title = "Languages"
 entry = "ref/racial-trait/half-orc/languages"
 
 [[books.chapters.children]]
+title = "Halflings"
+entry = "ref/carried/core-rulebook/races/halflings"
+
+[[books.chapters.children.children]]
+title = "Halfling Racial Traits"
+anchor = "halfling-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Attributes"
+entry = "ref/racial-trait/halfling/attributes"
+
+[[books.chapters.children.children.children]]
+title = "Small"
+entry = "ref/racial-trait/halfling/small"
+
+[[books.chapters.children.children.children]]
+title = "Slow Speed"
+entry = "ref/racial-trait/halfling/slow-speed"
+
+[[books.chapters.children.children.children]]
+title = "Fearless"
+entry = "ref/racial-trait/halfling/fearless"
+
+[[books.chapters.children.children.children]]
+title = "Halfling Luck"
+entry = "ref/racial-trait/halfling/halfling-luck"
+
+[[books.chapters.children.children.children]]
+title = "Keen Senses"
+entry = "ref/racial-trait/halfling/keen-senses"
+
+[[books.chapters.children.children.children]]
+title = "Sure-Footed"
+entry = "ref/racial-trait/halfling/sure-footed"
+
+[[books.chapters.children.children.children]]
+title = "Weapon Familiarity"
+entry = "ref/racial-trait/halfling/weapon-familiarity"
+
+[[books.chapters.children.children.children]]
+title = "Languages"
+entry = "ref/racial-trait/halfling/languages"
+
+[[books.chapters.children]]
 title = "Humans"
 entry = "ref/carried/core-rulebook/races/humans"
 
@@ -21984,10 +21984,6 @@ entry = "ref/rule/classes"
 [[books.chapters.children]]
 title = "Character Advancement"
 entry = "ref/rule/character-advancement"
-
-[[books.chapters.children]]
-title = "Prestige Classes"
-entry = "ref/rule/prestige-classes"
 
 [[books.chapters.children]]
 title = "Barbarian"
@@ -22428,6 +22424,10 @@ title = "Great Cleave"
 entry = "ref/feat/great-cleave"
 
 [[books.chapters.children]]
+title = "Great Fortitude"
+entry = "ref/feat/great-fortitude"
+
+[[books.chapters.children]]
 title = "Greater Bull Rush"
 entry = "ref/feat/greater-bull-rush"
 
@@ -22486,10 +22486,6 @@ entry = "ref/feat/greater-weapon-focus"
 [[books.chapters.children]]
 title = "Greater Weapon Specialization"
 entry = "ref/feat/greater-weapon-specialization"
-
-[[books.chapters.children]]
-title = "Great Fortitude"
-entry = "ref/feat/great-fortitude"
 
 [[books.chapters.children]]
 title = "Heighten Spell"
@@ -22752,10 +22748,6 @@ title = "Snatch Arrows"
 entry = "ref/feat/snatch-arrows"
 
 [[books.chapters.children]]
-title = "Spellbreaker"
-entry = "ref/feat/spellbreaker"
-
-[[books.chapters.children]]
 title = "Spell Focus"
 entry = "ref/feat/spell-focus"
 
@@ -22766,6 +22758,10 @@ entry = "ref/feat/spell-mastery"
 [[books.chapters.children]]
 title = "Spell Penetration"
 entry = "ref/feat/spell-penetration"
+
+[[books.chapters.children]]
+title = "Spellbreaker"
+entry = "ref/feat/spellbreaker"
 
 [[books.chapters.children]]
 title = "Spirited Charge"
@@ -23976,6 +23972,10 @@ title = "Magic"
 entry = "ref/carried/core-rulebook/rules/magic"
 
 [[books.chapters.children]]
+title = "Magic and Spellcasting"
+entry = "ref/rule/magic"
+
+[[books.chapters.children]]
 title = "Casting Spells"
 entry = "ref/rule/casting-spells"
 
@@ -23994,10 +23994,6 @@ entry = "ref/rule/divine-spells"
 [[books.chapters.children]]
 title = "Special Abilities"
 entry = "ref/rule/special-abilities"
-
-[[books.chapters.children]]
-title = "Magic and Spellcasting"
-entry = "ref/rule/magic"
 
 [[books.chapters]]
 title = "Spells"
@@ -24115,6 +24111,10 @@ title = "Arcane Sight"
 entry = "ref/spell/arcane-sight"
 
 [[books.chapters.children]]
+title = "Arcane Sight, Greater"
+entry = "ref/carried/core-rulebook/spells/arcane-sight/greater"
+
+[[books.chapters.children]]
 title = "Astral Projection"
 entry = "ref/spell/astral-projection"
 
@@ -24157,6 +24157,14 @@ entry = "ref/carried/core-rulebook/spells/bears-endurance/mass"
 [[books.chapters.children]]
 title = "Beast Shape I"
 entry = "ref/spell/beast-shape-1"
+
+[[books.chapters.children]]
+title = "Beast Shape II"
+entry = "ref/spell/beast-shape-2"
+
+[[books.chapters.children]]
+title = "Beast Shape III"
+entry = "ref/spell/beast-shape-3"
 
 [[books.chapters.children]]
 title = "Beast Shape IV"
@@ -24331,6 +24339,10 @@ title = "Command"
 entry = "ref/spell/command"
 
 [[books.chapters.children]]
+title = "Command, Greater"
+entry = "ref/carried/core-rulebook/spells/command/greater"
+
+[[books.chapters.children]]
 title = "Command Plants"
 entry = "ref/spell/command-plants"
 
@@ -24427,6 +24439,10 @@ title = "Crushing Despair"
 entry = "ref/spell/crushing-despair"
 
 [[books.chapters.children]]
+title = "Crushing Hand"
+entry = "ref/spell/crushing-hand"
+
+[[books.chapters.children]]
 title = "Cure Critical Wounds"
 entry = "ref/spell/cure-critical-wounds"
 
@@ -24499,20 +24515,20 @@ title = "Deathwatch"
 entry = "ref/spell/deathwatch"
 
 [[books.chapters.children]]
-title = "Deeper Darkness"
-entry = "ref/spell/deeper-darkness"
-
-[[books.chapters.children]]
 title = "Deep Slumber"
 entry = "ref/spell/deep-slumber"
 
 [[books.chapters.children]]
-title = "Delayed Blast Fireball"
-entry = "ref/spell/delayed-blast-fireball"
+title = "Deeper Darkness"
+entry = "ref/spell/deeper-darkness"
 
 [[books.chapters.children]]
 title = "Delay Poison"
 entry = "ref/spell/delay-poison"
+
+[[books.chapters.children]]
+title = "Delayed Blast Fireball"
+entry = "ref/spell/delayed-blast-fireball"
 
 [[books.chapters.children]]
 title = "Demand"
@@ -24579,16 +24595,16 @@ title = "Dictum"
 entry = "ref/spell/dictum"
 
 [[books.chapters.children]]
+title = "Dimension Door"
+entry = "ref/spell/dimension-door"
+
+[[books.chapters.children]]
 title = "Dimensional Anchor"
 entry = "ref/spell/dimensional-anchor"
 
 [[books.chapters.children]]
 title = "Dimensional Lock"
 entry = "ref/spell/dimensional-lock"
-
-[[books.chapters.children]]
-title = "Dimension Door"
-entry = "ref/spell/dimension-door"
 
 [[books.chapters.children]]
 title = "Diminish Plants"
@@ -24635,16 +24651,20 @@ title = "Dispel Magic"
 entry = "ref/spell/dispel-magic"
 
 [[books.chapters.children]]
+title = "Dispel Magic, Greater"
+entry = "ref/carried/core-rulebook/spells/dispel-magic/greater"
+
+[[books.chapters.children]]
 title = "Displacement"
 entry = "ref/spell/displacement"
 
 [[books.chapters.children]]
-title = "Disrupting Weapon"
-entry = "ref/spell/disrupting-weapon"
-
-[[books.chapters.children]]
 title = "Disrupt Undead"
 entry = "ref/spell/disrupt-undead"
+
+[[books.chapters.children]]
+title = "Disrupting Weapon"
+entry = "ref/spell/disrupting-weapon"
 
 [[books.chapters.children]]
 title = "Divination"
@@ -24693,6 +24713,14 @@ entry = "ref/spell/earthquake"
 [[books.chapters.children]]
 title = "Elemental Body I"
 entry = "ref/spell/elemental-body-1"
+
+[[books.chapters.children]]
+title = "Elemental Body II"
+entry = "ref/spell/elemental-body-2"
+
+[[books.chapters.children]]
+title = "Elemental Body III"
+entry = "ref/spell/elemental-body-3"
 
 [[books.chapters.children]]
 title = "Elemental Body IV"
@@ -24799,10 +24827,6 @@ title = "Finger Of Death"
 entry = "ref/spell/finger-of-death"
 
 [[books.chapters.children]]
-title = "Fireball"
-entry = "ref/spell/fireball"
-
-[[books.chapters.children]]
 title = "Fire Seeds"
 entry = "ref/spell/fire-seeds"
 
@@ -24817,6 +24841,10 @@ entry = "ref/spell/fire-storm"
 [[books.chapters.children]]
 title = "Fire Trap"
 entry = "ref/spell/fire-trap"
+
+[[books.chapters.children]]
+title = "Fireball"
+entry = "ref/spell/fireball"
 
 [[books.chapters.children]]
 title = "Flame Arrow"
@@ -24863,12 +24891,24 @@ title = "Forcecage"
 entry = "ref/spell/forcecage"
 
 [[books.chapters.children]]
+title = "Forceful Hand"
+entry = "ref/spell/forceful-hand"
+
+[[books.chapters.children]]
 title = "Foresight"
 entry = "ref/spell/foresight"
 
 [[books.chapters.children]]
 title = "Form Of The Dragon I"
 entry = "ref/spell/form-of-the-dragon-1"
+
+[[books.chapters.children]]
+title = "Form Of The Dragon II"
+entry = "ref/spell/form-of-the-dragon-2"
+
+[[books.chapters.children]]
+title = "Form Of The Dragon III"
+entry = "ref/spell/form-of-the-dragon-3"
 
 [[books.chapters.children]]
 title = "Fox's Cunning"
@@ -24923,6 +24963,10 @@ title = "Giant Form I"
 entry = "ref/spell/giant-form-1"
 
 [[books.chapters.children]]
+title = "Giant Form II"
+entry = "ref/spell/giant-form-2"
+
+[[books.chapters.children]]
 title = "Giant Vermin"
 entry = "ref/spell/giant-vermin"
 
@@ -24947,12 +24991,20 @@ title = "Glyph Of Warding"
 entry = "ref/spell/glyph-of-warding"
 
 [[books.chapters.children]]
-title = "Goodberry"
-entry = "ref/spell/goodberry"
+title = "Glyph Of Warding, Greater"
+entry = "ref/carried/core-rulebook/spells/glyph-of-warding/greater"
 
 [[books.chapters.children]]
 title = "Good Hope"
 entry = "ref/spell/good-hope"
+
+[[books.chapters.children]]
+title = "Goodberry"
+entry = "ref/spell/goodberry"
+
+[[books.chapters.children]]
+title = "Grasping Hand"
+entry = "ref/spell/grasping-hand"
 
 [[books.chapters.children]]
 title = "Grease"
@@ -25017,6 +25069,10 @@ entry = "ref/spell/heroes-feast"
 [[books.chapters.children]]
 title = "Heroism"
 entry = "ref/spell/heroism"
+
+[[books.chapters.children]]
+title = "Heroism, Greater"
+entry = "ref/carried/core-rulebook/spells/heroism/greater"
 
 [[books.chapters.children]]
 title = "Hide From Animals"
@@ -25167,6 +25223,10 @@ title = "Invisibility"
 entry = "ref/spell/invisibility"
 
 [[books.chapters.children]]
+title = "Invisibility, Greater"
+entry = "ref/carried/core-rulebook/spells/invisibility/greater"
+
+[[books.chapters.children]]
 title = "Invisibility, Mass"
 entry = "ref/carried/core-rulebook/spells/invisibility/mass"
 
@@ -25303,6 +25363,10 @@ title = "Magic Fang"
 entry = "ref/spell/magic-fang"
 
 [[books.chapters.children]]
+title = "Magic Fang, Greater"
+entry = "ref/carried/core-rulebook/spells/magic-fang/greater"
+
+[[books.chapters.children]]
 title = "Magic Jar"
 entry = "ref/spell/magic-jar"
 
@@ -25327,12 +25391,20 @@ title = "Magic Weapon"
 entry = "ref/spell/magic-weapon"
 
 [[books.chapters.children]]
+title = "Magic Weapon, Greater"
+entry = "ref/carried/core-rulebook/spells/magic-weapon/greater"
+
+[[books.chapters.children]]
 title = "Major Creation"
 entry = "ref/spell/major-creation"
 
 [[books.chapters.children]]
 title = "Major Image"
 entry = "ref/spell/major-image"
+
+[[books.chapters.children]]
+title = "Make Whole"
+entry = "ref/spell/make-whole"
 
 [[books.chapters.children]]
 title = "Mark Of Justice"
@@ -25455,12 +25527,12 @@ title = "Owl's Wisdom, Mass"
 entry = "ref/carried/core-rulebook/spells/owls-wisdom/mass"
 
 [[books.chapters.children]]
-title = "Passwall"
-entry = "ref/spell/passwall"
-
-[[books.chapters.children]]
 title = "Pass Without Trace"
 entry = "ref/spell/pass-without-trace"
+
+[[books.chapters.children]]
+title = "Passwall"
+entry = "ref/spell/passwall"
 
 [[books.chapters.children]]
 title = "Permanency"
@@ -25495,12 +25567,20 @@ title = "Planar Ally"
 entry = "ref/spell/planar-ally"
 
 [[books.chapters.children]]
+title = "Planar Ally, Greater"
+entry = "ref/carried/core-rulebook/spells/planar-ally/greater"
+
+[[books.chapters.children]]
 title = "Planar Ally, Lesser"
 entry = "ref/carried/core-rulebook/spells/planar-ally/lesser"
 
 [[books.chapters.children]]
 title = "Planar Binding"
 entry = "ref/spell/planar-binding"
+
+[[books.chapters.children]]
+title = "Planar Binding, Greater"
+entry = "ref/carried/core-rulebook/spells/planar-binding/greater"
 
 [[books.chapters.children]]
 title = "Planar Binding, Lesser"
@@ -25519,6 +25599,14 @@ title = "Plant Shape I"
 entry = "ref/spell/plant-shape-1"
 
 [[books.chapters.children]]
+title = "Plant Shape II"
+entry = "ref/spell/plant-shape-2"
+
+[[books.chapters.children]]
+title = "Plant Shape III"
+entry = "ref/spell/plant-shape-3"
+
+[[books.chapters.children]]
 title = "Poison"
 entry = "ref/spell/poison"
 
@@ -25527,12 +25615,16 @@ title = "Polar Ray"
 entry = "ref/spell/polar-ray"
 
 [[books.chapters.children]]
+title = "Polymorph"
+entry = "ref/spell/polymorph"
+
+[[books.chapters.children]]
 title = "Polymorph Any Object"
 entry = "ref/spell/polymorph-any-object"
 
 [[books.chapters.children]]
-title = "Polymorph"
-entry = "ref/spell/polymorph"
+title = "Polymorph, Greater"
+entry = "ref/spell/polymorph-greater"
 
 [[books.chapters.children]]
 title = "Power Word Blind"
@@ -25609,6 +25701,10 @@ entry = "ref/spell/protection-from-spells"
 [[books.chapters.children]]
 title = "Prying Eyes"
 entry = "ref/spell/prying-eyes"
+
+[[books.chapters.children]]
+title = "Prying Eyes, Greater"
+entry = "ref/spell/prying-eyes-greater"
 
 [[books.chapters.children]]
 title = "Purify Food And Drink"
@@ -25715,16 +25811,20 @@ title = "Resilient Sphere"
 entry = "ref/spell/resilient-sphere"
 
 [[books.chapters.children]]
-title = "Resistance"
-entry = "ref/spell/resistance"
-
-[[books.chapters.children]]
 title = "Resist Energy"
 entry = "ref/spell/resist-energy"
 
 [[books.chapters.children]]
+title = "Resistance"
+entry = "ref/spell/resistance"
+
+[[books.chapters.children]]
 title = "Restoration"
 entry = "ref/spell/restoration"
+
+[[books.chapters.children]]
+title = "Restoration, Greater"
+entry = "ref/carried/core-rulebook/spells/restoration/greater"
 
 [[books.chapters.children]]
 title = "Restoration, Lesser"
@@ -25775,6 +25875,10 @@ title = "Scrying"
 entry = "ref/spell/scrying"
 
 [[books.chapters.children]]
+title = "Scrying, Greater"
+entry = "ref/carried/core-rulebook/spells/scrying/greater"
+
+[[books.chapters.children]]
 title = "Sculpt Sound"
 entry = "ref/spell/sculpt-sound"
 
@@ -25823,8 +25927,16 @@ title = "Shadow Conjuration"
 entry = "ref/spell/shadow-conjuration"
 
 [[books.chapters.children]]
+title = "Shadow Conjuration, Greater"
+entry = "ref/carried/core-rulebook/spells/shadow-conjuration/greater"
+
+[[books.chapters.children]]
 title = "Shadow Evocation"
 entry = "ref/spell/shadow-evocation"
+
+[[books.chapters.children]]
+title = "Shadow Evocation, Greater"
+entry = "ref/carried/core-rulebook/spells/shadow-evocation/greater"
 
 [[books.chapters.children]]
 title = "Shadow Walk"
@@ -25869,6 +25981,10 @@ entry = "ref/spell/shocking-grasp"
 [[books.chapters.children]]
 title = "Shout"
 entry = "ref/spell/shout"
+
+[[books.chapters.children]]
+title = "Shout, Greater"
+entry = "ref/carried/core-rulebook/spells/shout/greater"
 
 [[books.chapters.children]]
 title = "Shrink Item"
@@ -25947,16 +26063,20 @@ title = "Spell Immunity"
 entry = "ref/spell/spell-immunity"
 
 [[books.chapters.children]]
+title = "Spell Immunity, Greater"
+entry = "ref/carried/core-rulebook/spells/spell-immunity/greater"
+
+[[books.chapters.children]]
 title = "Spell Resistance"
 entry = "ref/spell/spell-resistance"
 
 [[books.chapters.children]]
-title = "Spellstaff"
-entry = "ref/spell/spellstaff"
-
-[[books.chapters.children]]
 title = "Spell Turning"
 entry = "ref/spell/spell-turning"
+
+[[books.chapters.children]]
+title = "Spellstaff"
+entry = "ref/spell/spellstaff"
 
 [[books.chapters.children]]
 title = "Spider Climb"
@@ -25995,16 +26115,16 @@ title = "Stone Shape"
 entry = "ref/spell/stone-shape"
 
 [[books.chapters.children]]
-title = "Stoneskin"
-entry = "ref/spell/stoneskin"
-
-[[books.chapters.children]]
 title = "Stone Tell"
 entry = "ref/spell/stone-tell"
 
 [[books.chapters.children]]
 title = "Stone To Flesh"
 entry = "ref/spell/stone-to-flesh"
+
+[[books.chapters.children]]
+title = "Stoneskin"
+entry = "ref/spell/stoneskin"
 
 [[books.chapters.children]]
 title = "Storm Of Vengeance"
@@ -26027,56 +26147,72 @@ title = "Summon Monster I"
 entry = "ref/spell/summon-monster-1"
 
 [[books.chapters.children]]
+title = "Summon Monster II"
+entry = "ref/spell/summon-monster-2"
+
+[[books.chapters.children]]
+title = "Summon Monster III"
+entry = "ref/spell/summon-monster-3"
+
+[[books.chapters.children]]
 title = "Summon Monster IV"
 entry = "ref/spell/summon-monster-4"
-
-[[books.chapters.children]]
-title = "Summon Monster IX"
-entry = "ref/spell/summon-monster-9"
-
-[[books.chapters.children]]
-title = "Summon Monster VIII"
-entry = "ref/spell/summon-monster-8"
-
-[[books.chapters.children]]
-title = "Summon Monster VII"
-entry = "ref/spell/summon-monster-7"
-
-[[books.chapters.children]]
-title = "Summon Monster VI"
-entry = "ref/spell/summon-monster-6"
 
 [[books.chapters.children]]
 title = "Summon Monster V"
 entry = "ref/spell/summon-monster-5"
 
 [[books.chapters.children]]
+title = "Summon Monster VI"
+entry = "ref/spell/summon-monster-6"
+
+[[books.chapters.children]]
+title = "Summon Monster VII"
+entry = "ref/spell/summon-monster-7"
+
+[[books.chapters.children]]
+title = "Summon Monster VIII"
+entry = "ref/spell/summon-monster-8"
+
+[[books.chapters.children]]
+title = "Summon Monster IX"
+entry = "ref/spell/summon-monster-9"
+
+[[books.chapters.children]]
 title = "Summon Nature's Ally I"
 entry = "ref/spell/summon-natures-ally-1"
+
+[[books.chapters.children]]
+title = "Summon Nature's Ally II"
+entry = "ref/spell/summon-natures-ally-2"
+
+[[books.chapters.children]]
+title = "Summon Nature's Ally III"
+entry = "ref/spell/summon-natures-ally-3"
 
 [[books.chapters.children]]
 title = "Summon Nature's Ally IV"
 entry = "ref/spell/summon-natures-ally-4"
 
 [[books.chapters.children]]
-title = "Summon Nature's Ally IX"
-entry = "ref/spell/summon-natures-ally-9"
-
-[[books.chapters.children]]
-title = "Summon Nature's Ally VIII"
-entry = "ref/spell/summon-natures-ally-8"
-
-[[books.chapters.children]]
-title = "Summon Nature's Ally VII"
-entry = "ref/spell/summon-natures-ally-7"
+title = "Summon Nature's Ally V"
+entry = "ref/spell/summon-natures-ally-5"
 
 [[books.chapters.children]]
 title = "Summon Nature's Ally VI"
 entry = "ref/spell/summon-natures-ally-6"
 
 [[books.chapters.children]]
-title = "Summon Nature's Ally V"
-entry = "ref/spell/summon-natures-ally-5"
+title = "Summon Nature's Ally VII"
+entry = "ref/spell/summon-natures-ally-7"
+
+[[books.chapters.children]]
+title = "Summon Nature's Ally VIII"
+entry = "ref/spell/summon-natures-ally-8"
+
+[[books.chapters.children]]
+title = "Summon Nature's Ally IX"
+entry = "ref/spell/summon-natures-ally-9"
 
 [[books.chapters.children]]
 title = "Summon Swarm"
@@ -26143,16 +26279,20 @@ title = "Telepathic Bond"
 entry = "ref/spell/telepathic-bond"
 
 [[books.chapters.children]]
-title = "Teleportation Circle"
-entry = "ref/spell/teleportation-circle"
-
-[[books.chapters.children]]
 title = "Teleport"
 entry = "ref/spell/teleport"
 
 [[books.chapters.children]]
+title = "Teleport, Greater"
+entry = "ref/carried/core-rulebook/spells/teleport/greater"
+
+[[books.chapters.children]]
 title = "Teleport Object"
 entry = "ref/spell/teleport-object"
+
+[[books.chapters.children]]
+title = "Teleportation Circle"
+entry = "ref/spell/teleportation-circle"
 
 [[books.chapters.children]]
 title = "Temporal Stasis"
@@ -26362,152 +26502,9 @@ entry = "ref/spell/zone-of-silence"
 title = "Zone Of Truth"
 entry = "ref/spell/zone-of-truth"
 
-[[books.chapters.children]]
-title = "Arcane Sight, Greater"
-entry = "ref/carried/core-rulebook/spells/arcane-sight/greater"
-
-[[books.chapters.children]]
-title = "Beast Shape III"
-entry = "ref/spell/beast-shape-3"
-
-[[books.chapters.children]]
-title = "Beast Shape II"
-entry = "ref/spell/beast-shape-2"
-
-[[books.chapters.children]]
-title = "Command, Greater"
-entry = "ref/carried/core-rulebook/spells/command/greater"
-
-[[books.chapters.children]]
-title = "Crushing Hand"
-entry = "ref/spell/crushing-hand"
-
-[[books.chapters.children]]
-title = "Dispel Magic, Greater"
-entry = "ref/carried/core-rulebook/spells/dispel-magic/greater"
-
-[[books.chapters.children]]
-title = "Elemental Body III"
-entry = "ref/spell/elemental-body-3"
-
-[[books.chapters.children]]
-title = "Elemental Body II"
-entry = "ref/spell/elemental-body-2"
-
-[[books.chapters.children]]
-title = "Forceful Hand"
-entry = "ref/spell/forceful-hand"
-
-[[books.chapters.children]]
-title = "Form Of The Dragon III"
-entry = "ref/spell/form-of-the-dragon-3"
-
-[[books.chapters.children]]
-title = "Form Of The Dragon II"
-entry = "ref/spell/form-of-the-dragon-2"
-
-[[books.chapters.children]]
-title = "Giant Form II"
-entry = "ref/spell/giant-form-2"
-
-[[books.chapters.children]]
-title = "Glyph Of Warding, Greater"
-entry = "ref/carried/core-rulebook/spells/glyph-of-warding/greater"
-
-[[books.chapters.children]]
-title = "Grasping Hand"
-entry = "ref/spell/grasping-hand"
-
-[[books.chapters.children]]
-title = "Heroism, Greater"
-entry = "ref/carried/core-rulebook/spells/heroism/greater"
-
-[[books.chapters.children]]
-title = "Invisibility, Greater"
-entry = "ref/carried/core-rulebook/spells/invisibility/greater"
-
-[[books.chapters.children]]
-title = "Magic Fang, Greater"
-entry = "ref/carried/core-rulebook/spells/magic-fang/greater"
-
-[[books.chapters.children]]
-title = "Magic Weapon, Greater"
-entry = "ref/carried/core-rulebook/spells/magic-weapon/greater"
-
-[[books.chapters.children]]
-title = "Make Whole"
-entry = "ref/spell/make-whole"
-
-[[books.chapters.children]]
-title = "Planar Ally, Greater"
-entry = "ref/carried/core-rulebook/spells/planar-ally/greater"
-
-[[books.chapters.children]]
-title = "Planar Binding, Greater"
-entry = "ref/carried/core-rulebook/spells/planar-binding/greater"
-
-[[books.chapters.children]]
-title = "Plant Shape III"
-entry = "ref/spell/plant-shape-3"
-
-[[books.chapters.children]]
-title = "Plant Shape II"
-entry = "ref/spell/plant-shape-2"
-
-[[books.chapters.children]]
-title = "Polymorph, Greater"
-entry = "ref/spell/polymorph-greater"
-
-[[books.chapters.children]]
-title = "Prying Eyes, Greater"
-entry = "ref/spell/prying-eyes-greater"
-
-[[books.chapters.children]]
-title = "Restoration, Greater"
-entry = "ref/carried/core-rulebook/spells/restoration/greater"
-
-[[books.chapters.children]]
-title = "Scrying, Greater"
-entry = "ref/carried/core-rulebook/spells/scrying/greater"
-
-[[books.chapters.children]]
-title = "Shadow Conjuration, Greater"
-entry = "ref/carried/core-rulebook/spells/shadow-conjuration/greater"
-
-[[books.chapters.children]]
-title = "Shadow Evocation, Greater"
-entry = "ref/carried/core-rulebook/spells/shadow-evocation/greater"
-
-[[books.chapters.children]]
-title = "Shout, Greater"
-entry = "ref/carried/core-rulebook/spells/shout/greater"
-
-[[books.chapters.children]]
-title = "Spell Immunity, Greater"
-entry = "ref/carried/core-rulebook/spells/spell-immunity/greater"
-
-[[books.chapters.children]]
-title = "Summon Monster III"
-entry = "ref/spell/summon-monster-3"
-
-[[books.chapters.children]]
-title = "Summon Monster II"
-entry = "ref/spell/summon-monster-2"
-
-[[books.chapters.children]]
-title = "Summon Nature's Ally III"
-entry = "ref/spell/summon-natures-ally-3"
-
-[[books.chapters.children]]
-title = "Summon Nature's Ally II"
-entry = "ref/spell/summon-natures-ally-2"
-
-[[books.chapters.children]]
-title = "Teleport, Greater"
-entry = "ref/carried/core-rulebook/spells/teleport/greater"
-
 [[books.chapters]]
 title = "Prestige Classes"
+entry = "ref/rule/prestige-classes"
 
 [[books.chapters.children]]
 title = "Arcane Archer"
@@ -26564,10 +26561,6 @@ entry = "ref/rule/cost-of-living"
 [[books.chapters.children]]
 title = "Beyond 20th Level"
 entry = "ref/rule/beyond-20th-level"
-
-[[books.chapters.children]]
-title = "Creating NPCs"
-entry = "ref/rule/creating-npcs"
 
 [[books.chapters]]
 title = "Environment"
@@ -26739,6 +26732,7 @@ entry = "ref/rule/environmental-rules"
 
 [[books.chapters]]
 title = "Creating NPCs"
+entry = "ref/rule/creating-npcs"
 review = "NPC classes only; the rest of this printed chapter is a section of the Gamemastering tree."
 
 [[books.chapters.children]]
@@ -175115,357 +175109,717 @@ entry = "ref/class/ranger"
 title = "Ranger"
 entry = "ref/rule/class-ranger/ranger"
 
+[[books.chapters.children.children]]
+title = "Ranger (The Elephant in the Room)"
+entry = "ref/rule/class-ranger/ranger/teitr"
+
+[[books.chapters.children]]
+title = "Ranger (The Elephant in the Room)"
+entry = "ref/class/ranger/teitr"
+
 [[books.chapters.children]]
 title = "Unchained Monk"
 entry = "ref/class/unchained-monk"
+
+[[books.chapters.children]]
+title = "Unchained Monk (The Elephant in the Room)"
+entry = "ref/class/unchained-monk/teitr"
 
 [[books.chapters.children]]
 title = "Unchained Rogue"
 entry = "ref/class/unchained-rogue"
 
 [[books.chapters.children]]
+title = "Unchained Rogue (The Elephant in the Room)"
+entry = "ref/class/unchained-rogue/teitr"
+
+[[books.chapters.children]]
 title = "Agile Maneuvers"
 entry = "ref/feat/agile-maneuvers"
+
+[[books.chapters.children]]
+title = "Agile Maneuvers (The Elephant in the Room)"
+entry = "ref/feat/agile-maneuvers/teitr"
 
 [[books.chapters.children]]
 title = "Awesome Blow"
 entry = "ref/feat/awesome-blow"
 
 [[books.chapters.children]]
+title = "Awesome Blow (The Elephant in the Room)"
+entry = "ref/feat/awesome-blow/teitr"
+
+[[books.chapters.children]]
 title = "Catch Off-Guard"
 entry = "ref/feat/catch-off-guard"
+
+[[books.chapters.children]]
+title = "Catch Off-Guard (The Elephant in the Room)"
+entry = "ref/feat/catch-off-guard/teitr"
 
 [[books.chapters.children]]
 title = "Cleave"
 entry = "ref/feat/cleave"
 
 [[books.chapters.children]]
+title = "Cleave (The Elephant in the Room)"
+entry = "ref/feat/cleave/teitr"
+
+[[books.chapters.children]]
 title = "Combat Expertise"
 entry = "ref/feat/combat-expertise"
+
+[[books.chapters.children]]
+title = "Combat Expertise (The Elephant in the Room)"
+entry = "ref/feat/combat-expertise/teitr"
 
 [[books.chapters.children]]
 title = "Dazzling Display"
 entry = "ref/feat/dazzling-display"
 
 [[books.chapters.children]]
+title = "Dazzling Display (The Elephant in the Room)"
+entry = "ref/feat/dazzling-display/teitr"
+
+[[books.chapters.children]]
 title = "Deadly Aim"
 entry = "ref/feat/deadly-aim"
+
+[[books.chapters.children]]
+title = "Deadly Aim (The Elephant in the Room)"
+entry = "ref/feat/deadly-aim/teitr"
 
 [[books.chapters.children]]
 title = "Deadly Stroke"
 entry = "ref/feat/deadly-stroke"
 
 [[books.chapters.children]]
+title = "Deadly Stroke (The Elephant in the Room)"
+entry = "ref/feat/deadly-stroke/teitr"
+
+[[books.chapters.children]]
 title = "Deflect Arrows"
 entry = "ref/feat/deflect-arrows"
+
+[[books.chapters.children]]
+title = "Deflect Arrows (The Elephant in the Room)"
+entry = "ref/feat/deflect-arrows/teitr"
 
 [[books.chapters.children]]
 title = "Dodge"
 entry = "ref/feat/dodge"
 
 [[books.chapters.children]]
+title = "Dodge (The Elephant in the Room)"
+entry = "ref/feat/dodge/teitr"
+
+[[books.chapters.children]]
 title = "Elemental Spell"
 entry = "ref/feat/elemental-spell"
+
+[[books.chapters.children]]
+title = "Elemental Spell (The Elephant in the Room)"
+entry = "ref/feat/elemental-spell/teitr"
 
 [[books.chapters.children]]
 title = "Exotic Weapon Proficiency"
 entry = "ref/feat/exotic-weapon-proficiency"
 
 [[books.chapters.children]]
+title = "Exotic Weapon Proficiency (The Elephant in the Room)"
+entry = "ref/feat/exotic-weapon-proficiency/teitr"
+
+[[books.chapters.children]]
 title = "Far Shot"
 entry = "ref/feat/far-shot"
+
+[[books.chapters.children]]
+title = "Far Shot (The Elephant in the Room)"
+entry = "ref/feat/far-shot/teitr"
 
 [[books.chapters.children]]
 title = "Gorgon's Fist"
 entry = "ref/feat/gorgons-fist"
 
 [[books.chapters.children]]
+title = "Gorgon's Fist (The Elephant in the Room)"
+entry = "ref/feat/gorgons-fist/teitr"
+
+[[books.chapters.children]]
 title = "Great Cleave"
 entry = "ref/feat/great-cleave"
+
+[[books.chapters.children]]
+title = "Great Cleave (The Elephant in the Room)"
+entry = "ref/feat/great-cleave/teitr"
 
 [[books.chapters.children]]
 title = "Greater Bull Rush"
 entry = "ref/feat/greater-bull-rush"
 
 [[books.chapters.children]]
+title = "Greater Bull Rush (The Elephant in the Room)"
+entry = "ref/feat/greater-bull-rush/teitr"
+
+[[books.chapters.children]]
 title = "Greater Disarm"
 entry = "ref/feat/greater-disarm"
+
+[[books.chapters.children]]
+title = "Greater Disarm (The Elephant in the Room)"
+entry = "ref/feat/greater-disarm/teitr"
 
 [[books.chapters.children]]
 title = "Greater Feint"
 entry = "ref/feat/greater-feint"
 
 [[books.chapters.children]]
+title = "Greater Feint (The Elephant in the Room)"
+entry = "ref/feat/greater-feint/teitr"
+
+[[books.chapters.children]]
 title = "Greater Grapple"
 entry = "ref/feat/greater-grapple"
+
+[[books.chapters.children]]
+title = "Greater Grapple (The Elephant in the Room)"
+entry = "ref/feat/greater-grapple/teitr"
 
 [[books.chapters.children]]
 title = "Greater Overrun"
 entry = "ref/feat/greater-overrun"
 
 [[books.chapters.children]]
+title = "Greater Overrun (The Elephant in the Room)"
+entry = "ref/feat/greater-overrun/teitr"
+
+[[books.chapters.children]]
 title = "Greater Penetrating Strike"
 entry = "ref/feat/greater-penetrating-strike"
+
+[[books.chapters.children]]
+title = "Greater Penetrating Strike (The Elephant in the Room)"
+entry = "ref/feat/greater-penetrating-strike/teitr"
 
 [[books.chapters.children]]
 title = "Greater Shield Focus"
 entry = "ref/feat/greater-shield-focus"
 
 [[books.chapters.children]]
+title = "Greater Shield Focus (The Elephant in the Room)"
+entry = "ref/feat/greater-shield-focus/teitr"
+
+[[books.chapters.children]]
 title = "Greater Sunder"
 entry = "ref/feat/greater-sunder"
+
+[[books.chapters.children]]
+title = "Greater Sunder (The Elephant in the Room)"
+entry = "ref/feat/greater-sunder/teitr"
 
 [[books.chapters.children]]
 title = "Greater Trip"
 entry = "ref/feat/greater-trip"
 
 [[books.chapters.children]]
+title = "Greater Trip (The Elephant in the Room)"
+entry = "ref/feat/greater-trip/teitr"
+
+[[books.chapters.children]]
 title = "Greater Two-Weapon Fighting"
 entry = "ref/feat/greater-two-weapon-fighting"
+
+[[books.chapters.children]]
+title = "Greater Two-Weapon Fighting (The Elephant in the Room)"
+entry = "ref/feat/greater-two-weapon-fighting/teitr"
 
 [[books.chapters.children]]
 title = "Greater Weapon Focus"
 entry = "ref/feat/greater-weapon-focus"
 
 [[books.chapters.children]]
+title = "Greater Weapon Focus (The Elephant in the Room)"
+entry = "ref/feat/greater-weapon-focus/teitr"
+
+[[books.chapters.children]]
 title = "Greater Weapon Specialization"
 entry = "ref/feat/greater-weapon-specialization"
+
+[[books.chapters.children]]
+title = "Greater Weapon Specialization (The Elephant in the Room)"
+entry = "ref/feat/greater-weapon-specialization/teitr"
 
 [[books.chapters.children]]
 title = "Improved Bull Rush"
 entry = "ref/feat/improved-bull-rush"
 
 [[books.chapters.children]]
+title = "Improved Bull Rush (The Elephant in the Room)"
+entry = "ref/feat/improved-bull-rush/teitr"
+
+[[books.chapters.children]]
 title = "Improved Critical"
 entry = "ref/feat/improved-critical"
+
+[[books.chapters.children]]
+title = "Improved Critical (The Elephant in the Room)"
+entry = "ref/feat/improved-critical/teitr"
 
 [[books.chapters.children]]
 title = "Improved Dirty Trick"
 entry = "ref/feat/improved-dirty-trick"
 
 [[books.chapters.children]]
+title = "Improved Dirty Trick (The Elephant in the Room)"
+entry = "ref/feat/improved-dirty-trick/teitr"
+
+[[books.chapters.children]]
 title = "Improved Disarm"
 entry = "ref/feat/improved-disarm"
+
+[[books.chapters.children]]
+title = "Improved Disarm (The Elephant in the Room)"
+entry = "ref/feat/improved-disarm/teitr"
 
 [[books.chapters.children]]
 title = "Improved Drag"
 entry = "ref/feat/improved-drag"
 
 [[books.chapters.children]]
+title = "Improved Drag (The Elephant in the Room)"
+entry = "ref/feat/improved-drag/teitr"
+
+[[books.chapters.children]]
 title = "Improved Feint"
 entry = "ref/feat/improved-feint"
+
+[[books.chapters.children]]
+title = "Improved Feint (The Elephant in the Room)"
+entry = "ref/feat/improved-feint/teitr"
 
 [[books.chapters.children]]
 title = "Improved Grapple"
 entry = "ref/feat/improved-grapple"
 
 [[books.chapters.children]]
+title = "Improved Grapple (The Elephant in the Room)"
+entry = "ref/feat/improved-grapple/teitr"
+
+[[books.chapters.children]]
 title = "Improved Overrun"
 entry = "ref/feat/improved-overrun"
+
+[[books.chapters.children]]
+title = "Improved Overrun (The Elephant in the Room)"
+entry = "ref/feat/improved-overrun/teitr"
 
 [[books.chapters.children]]
 title = "Improved Reposition"
 entry = "ref/feat/improved-reposition"
 
 [[books.chapters.children]]
+title = "Improved Reposition (The Elephant in the Room)"
+entry = "ref/feat/improved-reposition/teitr"
+
+[[books.chapters.children]]
 title = "Improved Steal"
 entry = "ref/feat/improved-steal"
+
+[[books.chapters.children]]
+title = "Improved Steal (The Elephant in the Room)"
+entry = "ref/feat/improved-steal/teitr"
 
 [[books.chapters.children]]
 title = "Improved Sunder"
 entry = "ref/feat/improved-sunder"
 
 [[books.chapters.children]]
+title = "Improved Sunder (The Elephant in the Room)"
+entry = "ref/feat/improved-sunder/teitr"
+
+[[books.chapters.children]]
 title = "Improved Trip"
 entry = "ref/feat/improved-trip"
+
+[[books.chapters.children]]
+title = "Improved Trip (The Elephant in the Room)"
+entry = "ref/feat/improved-trip/teitr"
 
 [[books.chapters.children]]
 title = "Improved Two-Weapon Fighting"
 entry = "ref/feat/improved-two-weapon-fighting"
 
 [[books.chapters.children]]
+title = "Improved Two-Weapon Fighting (The Elephant in the Room)"
+entry = "ref/feat/improved-two-weapon-fighting/teitr"
+
+[[books.chapters.children]]
 title = "Improved Unarmed Strike"
 entry = "ref/feat/improved-unarmed-strike"
+
+[[books.chapters.children]]
+title = "Improved Unarmed Strike (The Elephant in the Room)"
+entry = "ref/feat/improved-unarmed-strike/teitr"
 
 [[books.chapters.children]]
 title = "Improvised Weapon Mastery"
 entry = "ref/feat/improvised-weapon-mastery"
 
 [[books.chapters.children]]
+title = "Improvised Weapon Mastery (The Elephant in the Room)"
+entry = "ref/feat/improvised-weapon-mastery/teitr"
+
+[[books.chapters.children]]
 title = "Manyshot"
 entry = "ref/feat/manyshot"
+
+[[books.chapters.children]]
+title = "Manyshot (The Elephant in the Room)"
+entry = "ref/feat/manyshot/teitr"
 
 [[books.chapters.children]]
 title = "Martial Mastery"
 entry = "ref/feat/martial-mastery"
 
 [[books.chapters.children]]
+title = "Martial Mastery (The Elephant in the Room)"
+entry = "ref/feat/martial-mastery/teitr"
+
+[[books.chapters.children]]
 title = "Martial Weapon Proficiency"
 entry = "ref/feat/martial-weapon-proficiency"
+
+[[books.chapters.children]]
+title = "Martial Weapon Proficiency (The Elephant in the Room)"
+entry = "ref/feat/martial-weapon-proficiency/teitr"
 
 [[books.chapters.children]]
 title = "Medusa's Wrath"
 entry = "ref/feat/medusas-wrath"
 
 [[books.chapters.children]]
+title = "Medusa's Wrath (The Elephant in the Room)"
+entry = "ref/feat/medusas-wrath/teitr"
+
+[[books.chapters.children]]
 title = "Mobility"
 entry = "ref/feat/mobility"
+
+[[books.chapters.children]]
+title = "Mobility (The Elephant in the Room)"
+entry = "ref/feat/mobility/teitr"
 
 [[books.chapters.children]]
 title = "Natural Spell"
 entry = "ref/feat/natural-spell"
 
 [[books.chapters.children]]
+title = "Natural Spell (The Elephant in the Room)"
+entry = "ref/feat/natural-spell/teitr"
+
+[[books.chapters.children]]
 title = "Parting Shot"
 entry = "ref/feat/parting-shot"
+
+[[books.chapters.children]]
+title = "Parting Shot (The Elephant in the Room)"
+entry = "ref/feat/parting-shot/teitr"
 
 [[books.chapters.children]]
 title = "Penetrating Strike"
 entry = "ref/feat/penetrating-strike"
 
 [[books.chapters.children]]
+title = "Penetrating Strike (The Elephant in the Room)"
+entry = "ref/feat/penetrating-strike/teitr"
+
+[[books.chapters.children]]
 title = "Point-Blank Master"
 entry = "ref/feat/point-blank-master"
+
+[[books.chapters.children]]
+title = "Point-Blank Master (The Elephant in the Room)"
+entry = "ref/feat/point-blank-master/teitr"
 
 [[books.chapters.children]]
 title = "Point-Blank Shot"
 entry = "ref/feat/point-blank-shot"
 
 [[books.chapters.children]]
+title = "Point-Blank Shot (The Elephant in the Room)"
+entry = "ref/feat/point-blank-shot/teitr"
+
+[[books.chapters.children]]
 title = "Power Attack"
 entry = "ref/feat/power-attack"
+
+[[books.chapters.children]]
+title = "Power Attack (The Elephant in the Room)"
+entry = "ref/feat/power-attack/teitr"
 
 [[books.chapters.children]]
 title = "Precise Shot"
 entry = "ref/feat/precise-shot"
 
 [[books.chapters.children]]
+title = "Precise Shot (The Elephant in the Room)"
+entry = "ref/feat/precise-shot/teitr"
+
+[[books.chapters.children]]
 title = "Rapid Reload"
 entry = "ref/feat/rapid-reload"
+
+[[books.chapters.children]]
+title = "Rapid Reload (The Elephant in the Room)"
+entry = "ref/feat/rapid-reload/teitr"
 
 [[books.chapters.children]]
 title = "Rapid Shot"
 entry = "ref/feat/rapid-shot"
 
 [[books.chapters.children]]
+title = "Rapid Shot (The Elephant in the Room)"
+entry = "ref/feat/rapid-shot/teitr"
+
+[[books.chapters.children]]
 title = "Scorpion Style"
 entry = "ref/feat/scorpion-style"
+
+[[books.chapters.children]]
+title = "Scorpion Style (The Elephant in the Room)"
+entry = "ref/feat/scorpion-style/teitr"
 
 [[books.chapters.children]]
 title = "Shatter Defenses"
 entry = "ref/feat/shatter-defenses"
 
 [[books.chapters.children]]
+title = "Shatter Defenses (The Elephant in the Room)"
+entry = "ref/feat/shatter-defenses/teitr"
+
+[[books.chapters.children]]
 title = "Shield Focus"
 entry = "ref/feat/shield-focus"
+
+[[books.chapters.children]]
+title = "Shield Focus (The Elephant in the Room)"
+entry = "ref/feat/shield-focus/teitr"
 
 [[books.chapters.children]]
 title = "Shield Master"
 entry = "ref/feat/shield-master"
 
 [[books.chapters.children]]
+title = "Shield Master (The Elephant in the Room)"
+entry = "ref/feat/shield-master/teitr"
+
+[[books.chapters.children]]
 title = "Shield Slam"
 entry = "ref/feat/shield-slam"
+
+[[books.chapters.children]]
+title = "Shield Slam (The Elephant in the Room)"
+entry = "ref/feat/shield-slam/teitr"
 
 [[books.chapters.children]]
 title = "Shot on the Run"
 entry = "ref/feat/shot-on-the-run"
 
 [[books.chapters.children]]
+title = "Shot on the Run (The Elephant in the Room)"
+entry = "ref/feat/shot-on-the-run/teitr"
+
+[[books.chapters.children]]
 title = "Snatch Arrows"
 entry = "ref/feat/snatch-arrows"
+
+[[books.chapters.children]]
+title = "Snatch Arrows (The Elephant in the Room)"
+entry = "ref/feat/snatch-arrows/teitr"
 
 [[books.chapters.children]]
 title = "Spirited Charge"
 entry = "ref/feat/spirited-charge"
 
 [[books.chapters.children]]
+title = "Spirited Charge (The Elephant in the Room)"
+entry = "ref/feat/spirited-charge/teitr"
+
+[[books.chapters.children]]
 title = "Spring Attack"
 entry = "ref/feat/spring-attack"
+
+[[books.chapters.children]]
+title = "Spring Attack (The Elephant in the Room)"
+entry = "ref/feat/spring-attack/teitr"
 
 [[books.chapters.children]]
 title = "Stand Still"
 entry = "ref/feat/stand-still"
 
 [[books.chapters.children]]
+title = "Stand Still (The Elephant in the Room)"
+entry = "ref/feat/stand-still/teitr"
+
+[[books.chapters.children]]
 title = "Stunning Fist"
 entry = "ref/feat/stunning-fist"
+
+[[books.chapters.children]]
+title = "Stunning Fist (The Elephant in the Room)"
+entry = "ref/feat/stunning-fist/teitr"
 
 [[books.chapters.children]]
 title = "Throw Anything"
 entry = "ref/feat/throw-anything"
 
 [[books.chapters.children]]
+title = "Throw Anything (The Elephant in the Room)"
+entry = "ref/feat/throw-anything/teitr"
+
+[[books.chapters.children]]
 title = "Two-Weapon Defense"
 entry = "ref/feat/two-weapon-defense"
+
+[[books.chapters.children]]
+title = "Two-Weapon Defense (The Elephant in the Room)"
+entry = "ref/feat/two-weapon-defense/teitr"
 
 [[books.chapters.children]]
 title = "Two-Weapon Fighting"
 entry = "ref/feat/two-weapon-fighting"
 
 [[books.chapters.children]]
+title = "Two-Weapon Fighting (The Elephant in the Room)"
+entry = "ref/feat/two-weapon-fighting/teitr"
+
+[[books.chapters.children]]
 title = "Two-Weapon Rend"
 entry = "ref/feat/two-weapon-rend"
+
+[[books.chapters.children]]
+title = "Two-Weapon Rend (The Elephant in the Room)"
+entry = "ref/feat/two-weapon-rend/teitr"
 
 [[books.chapters.children]]
 title = "Unseat"
 entry = "ref/feat/unseat"
 
 [[books.chapters.children]]
+title = "Unseat (The Elephant in the Room)"
+entry = "ref/feat/unseat/teitr"
+
+[[books.chapters.children]]
 title = "Weapon Finesse"
 entry = "ref/feat/weapon-finesse"
+
+[[books.chapters.children]]
+title = "Weapon Finesse (The Elephant in the Room)"
+entry = "ref/feat/weapon-finesse/teitr"
 
 [[books.chapters.children]]
 title = "Weapon Focus"
 entry = "ref/feat/weapon-focus"
 
 [[books.chapters.children]]
+title = "Weapon Focus (The Elephant in the Room)"
+entry = "ref/feat/weapon-focus/teitr"
+
+[[books.chapters.children]]
 title = "Weapon Specialization"
 entry = "ref/feat/weapon-specialization"
+
+[[books.chapters.children]]
+title = "Weapon Specialization (The Elephant in the Room)"
+entry = "ref/feat/weapon-specialization/teitr"
 
 [[books.chapters.children]]
 title = "Whirlwind Attack"
 entry = "ref/feat/whirlwind-attack"
 
 [[books.chapters.children]]
+title = "Whirlwind Attack (The Elephant in the Room)"
+entry = "ref/feat/whirlwind-attack/teitr"
+
+[[books.chapters.children]]
 title = "Agile"
 entry = "ref/magic-enh/agile"
+
+[[books.chapters.children]]
+title = "Agile (The Elephant in the Room)"
+entry = "ref/magic-enh/agile/teitr"
 
 [[books.chapters.children]]
 title = "Elven curve blade"
 entry = "ref/eq-weapon/elven-curve-blade"
 
 [[books.chapters.children]]
+title = "Elven curve blade (The Elephant in the Room)"
+entry = "ref/eq-weapon/elven-curve-blade/teitr"
+
+[[books.chapters.children]]
 title = "Rapier"
 entry = "ref/eq-weapon/rapier"
+
+[[books.chapters.children]]
+title = "Rapier (The Elephant in the Room)"
+entry = "ref/eq-weapon/rapier/teitr"
 
 [[books.chapters.children]]
 title = "Spiked chain"
 entry = "ref/eq-weapon/spiked-chain"
 
 [[books.chapters.children]]
+title = "Spiked chain (The Elephant in the Room)"
+entry = "ref/eq-weapon/spiked-chain/teitr"
+
+[[books.chapters.children]]
 title = "Whip"
 entry = "ref/eq-weapon/whip"
+
+[[books.chapters.children]]
+title = "Whip (The Elephant in the Room)"
+entry = "ref/eq-weapon/whip/teitr"
 
 [[books.chapters.children]]
 title = "Aberrant"
 entry = "ref/sorcbloodline/aberrant"
 
 [[books.chapters.children]]
+title = "Aberrant (The Elephant in the Room)"
+entry = "ref/sorcbloodline/aberrant/teitr"
+
+[[books.chapters.children]]
 title = "Abyssal"
 entry = "ref/sorcbloodline/abyssal"
+
+[[books.chapters.children]]
+title = "Abyssal (The Elephant in the Room)"
+entry = "ref/sorcbloodline/abyssal/teitr"
 
 [[books.chapters.children]]
 title = "Animal Companion"
 entry = "ref/sidekick/animal-companion"
 
 [[books.chapters.children]]
+title = "Animal Companion (The Elephant in the Room)"
+entry = "ref/sidekick/animal-companion/teitr"
+
+[[books.chapters.children]]
 title = "Aquatic"
 entry = "ref/sorcbloodline/aquatic"
 
 [[books.chapters.children]]
+title = "Aquatic (The Elephant in the Room)"
+entry = "ref/sorcbloodline/aquatic/teitr"
+
+[[books.chapters.children]]
 title = "Astral"
 entry = "ref/sorcbloodline/astral"
+
+[[books.chapters.children]]
+title = "Astral (The Elephant in the Room)"
+entry = "ref/sorcbloodline/astral/teitr"
 
 [[books.chapters.children]]
 title = "Bestiary Errata"
@@ -175476,8 +175830,16 @@ title = "Boreal"
 entry = "ref/sorcbloodline/boreal"
 
 [[books.chapters.children]]
+title = "Boreal (The Elephant in the Room)"
+entry = "ref/sorcbloodline/boreal/teitr"
+
+[[books.chapters.children]]
 title = "Celestial"
 entry = "ref/sorcbloodline/celestial"
+
+[[books.chapters.children]]
+title = "Celestial (The Elephant in the Room)"
+entry = "ref/sorcbloodline/celestial/teitr"
 
 [[books.chapters.children]]
 title = "Class Errata"
@@ -175504,16 +175866,32 @@ title = "Div"
 entry = "ref/sorcbloodline/div"
 
 [[books.chapters.children]]
+title = "Div (The Elephant in the Room)"
+entry = "ref/sorcbloodline/div/teitr"
+
+[[books.chapters.children]]
 title = "Djinni"
 entry = "ref/sorcbloodline/djinni"
+
+[[books.chapters.children]]
+title = "Djinni (The Elephant in the Room)"
+entry = "ref/sorcbloodline/djinni/teitr"
 
 [[books.chapters.children]]
 title = "Draconic"
 entry = "ref/sorcbloodline/draconic"
 
 [[books.chapters.children]]
+title = "Draconic (The Elephant in the Room)"
+entry = "ref/sorcbloodline/draconic/teitr"
+
+[[books.chapters.children]]
 title = "Dreamspun"
 entry = "ref/sorcbloodline/dreamspun"
+
+[[books.chapters.children]]
+title = "Dreamspun (The Elephant in the Room)"
+entry = "ref/sorcbloodline/dreamspun/teitr"
 
 [[books.chapters.children]]
 title = "Druid"
@@ -175524,8 +175902,16 @@ title = "Efreeti"
 entry = "ref/sorcbloodline/efreeti"
 
 [[books.chapters.children]]
+title = "Efreeti (The Elephant in the Room)"
+entry = "ref/sorcbloodline/efreeti/teitr"
+
+[[books.chapters.children]]
 title = "Elemental"
 entry = "ref/sorcbloodline/elemental"
+
+[[books.chapters.children]]
+title = "Elemental (The Elephant in the Room)"
+entry = "ref/sorcbloodline/elemental/teitr"
 
 [[books.chapters.children]]
 title = "Equipment Errata"
@@ -175536,8 +175922,16 @@ title = "Fey"
 entry = "ref/sorcbloodline/fey"
 
 [[books.chapters.children]]
+title = "Fey (The Elephant in the Room)"
+entry = "ref/sorcbloodline/fey/teitr"
+
+[[books.chapters.children]]
 title = "Ghoul"
 entry = "ref/sorcbloodline/ghoul"
+
+[[books.chapters.children]]
+title = "Ghoul (The Elephant in the Room)"
+entry = "ref/sorcbloodline/ghoul/teitr"
 
 [[books.chapters.children]]
 title = "Greater Hamstring (Combat)"
@@ -175548,12 +175942,20 @@ title = "Infernal"
 entry = "ref/sorcbloodline/infernal"
 
 [[books.chapters.children]]
+title = "Infernal (The Elephant in the Room)"
+entry = "ref/sorcbloodline/infernal/teitr"
+
+[[books.chapters.children]]
 title = "Iron Guard (Combat)"
 entry = "ref/rule/iron-guard"
 
 [[books.chapters.children]]
 title = "Marid"
 entry = "ref/sorcbloodline/marid"
+
+[[books.chapters.children]]
+title = "Marid (The Elephant in the Room)"
+entry = "ref/sorcbloodline/marid/teitr"
 
 [[books.chapters.children]]
 title = "Monk (Unchained)"
@@ -175564,12 +175966,20 @@ title = "Nanite"
 entry = "ref/sorcbloodline/nanite"
 
 [[books.chapters.children]]
+title = "Nanite (The Elephant in the Room)"
+entry = "ref/sorcbloodline/nanite/teitr"
+
+[[books.chapters.children]]
 title = "New Feats"
 entry = "ref/rule/new-feats"
 
 [[books.chapters.children]]
 title = "Oni"
 entry = "ref/sorcbloodline/oni"
+
+[[books.chapters.children]]
+title = "Oni (The Elephant in the Room)"
+entry = "ref/sorcbloodline/oni/teitr"
 
 [[books.chapters.children]]
 title = "Optional Skill/Feat Changes"
@@ -175580,12 +175990,20 @@ title = "Orc"
 entry = "ref/sorcbloodline/orc"
 
 [[books.chapters.children]]
+title = "Orc (The Elephant in the Room)"
+entry = "ref/sorcbloodline/orc/teitr"
+
+[[books.chapters.children]]
 title = "Overview"
 entry = "ref/rule/elephant-overview"
 
 [[books.chapters.children]]
 title = "Phoenix"
 entry = "ref/sorcbloodline/phoenix"
+
+[[books.chapters.children]]
+title = "Phoenix (The Elephant in the Room)"
+entry = "ref/sorcbloodline/phoenix/teitr"
 
 [[books.chapters.children]]
 title = "Powerful Maneuvers (Combat)"
@@ -175608,6 +176026,10 @@ title = "Salamander"
 entry = "ref/sorcbloodline/salamander"
 
 [[books.chapters.children]]
+title = "Salamander (The Elephant in the Room)"
+entry = "ref/sorcbloodline/salamander/teitr"
+
+[[books.chapters.children]]
 title = "Savage Charge (Combat)"
 entry = "ref/rule/savage-charge"
 
@@ -175620,8 +176042,16 @@ title = "Shadow"
 entry = "ref/sorcbloodline/shadow"
 
 [[books.chapters.children]]
+title = "Shadow (The Elephant in the Room)"
+entry = "ref/sorcbloodline/shadow/teitr"
+
+[[books.chapters.children]]
 title = "Shaitan"
 entry = "ref/sorcbloodline/shaitan"
+
+[[books.chapters.children]]
+title = "Shaitan (The Elephant in the Room)"
+entry = "ref/sorcbloodline/shaitan/teitr"
 
 [[books.chapters.children]]
 title = "Sorcerer"
@@ -175638,6 +176068,10 @@ entry = "ref/rule/unarmed-combatant"
 [[books.chapters.children]]
 title = "Weapon Encumbrance and Size"
 entry = "ref/rule/weapon-encumbrance"
+
+[[books.chapters.children]]
+title = "Weapon Encumbrance and Size (The Elephant in the Room)"
+entry = "ref/rule/weapon-encumbrance/teitr"
 
 [[books.chapters.children]]
 title = "Weapon Proficiency (Combat)"

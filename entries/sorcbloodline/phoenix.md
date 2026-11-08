@@ -2,7 +2,7 @@
 id = "ref/sorcbloodline/phoenix"
 kind = "class_option"
 title = "Phoenix"
-source_ids = ["heroes-of-golarion", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phoenix", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
@@ -46,9 +46,6 @@ with power.
 (Knowledge \[arcana\])
 
 **Title:** Bonus Feats
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-Replace Mobility with [Spring Attack](ref/feat/spring-attack).
 
 **Bloodline Arcana**
 

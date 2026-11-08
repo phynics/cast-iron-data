@@ -2,7 +2,7 @@
 id = "ref/feat/scorpion-style"
 kind = "feat"
 title = "Scorpion Style"
-source_ids = ["core-rulebook", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_style", path = "json/feat13.json" },
 ]
@@ -24,6 +24,3 @@ You can perform an unarmed strike that greatly hampers your target's movement.\
 unarmed attack hits, you deal damage normally, and the target's base land speed is reduced to 5 feet
 for a number of rounds equal to your Wisdom modifier unless it makes a Fortitude saving throw (DC
 10 + 1/2 your character level + your Wis modifier).
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
-This feat has been removed, replaced with the new [Scorpion Stance](ref/rule/scorpion-stance) feat.
