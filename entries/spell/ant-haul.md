@@ -59,10 +59,3 @@ The target's carrying capacity triples. This does not affect the creature's actu
 way, merely the amount of material it can carry while benefiting from this spell. It also has no
 effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties
 for doing so regardless of how much weight the spell allows it to carry.
-
-### Communal Ant Haul
-
-**Sources:** Ultimate Combat pg 223
-
-This spell functions like ant haul, except you may divide the duration in 2-hour intervals among the
-creatures touched.

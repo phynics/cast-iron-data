@@ -71,10 +71,3 @@ other environmental hazards such as smoke, lack of air, and so forth.
 The target changes to one creature touched per level. Affected creatures gain cold resistance 5 and
 fire resistance 5. They're not slowed by snow, and ignore penalties on Perception checks and ranged
 weapon attacks from hail, rain, sleet, and snow. They treat wind as one category weaker.
-
-### Communal Endure Elements
-
-**Sources:** Ultimate Combat pg 228
-
-This spell functions like endure elements, except you divide the duration in 1-hour increments among
-the creatures touched.

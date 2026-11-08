@@ -55,16 +55,3 @@ The subject gains the ability to see 60 feet even in total darkness. Darkvision 
 only but otherwise like normal sight.
 
 Darkvision can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Communal Darkvision
-
-**Sources:** Ultimate Combat pg 226
-
-This spell functions like darkvision, except you may divide the duration in 1-hour intervals among
-the creatures touched.
-
-### Greater Darkvision
-
-**Sources:** Ultimate Magic pg 216
-
-This spell functions as darkvision, except the target's darkvision has a range of 120 feet.

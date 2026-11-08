@@ -63,15 +63,3 @@ longer to cast and doesn't use a higher-level spell slot). Whenever the target s
 throw against a divination or mind-affecting spell you cast, seeds of influence ends for that
 target. A creature can be subject to only one seeds of influence spell at a time; later castings of
 seeds of influence remove any previous casting.
-
-### Greater Seeds of Influence
-
-**Sources:** Inner Sea Intrigue pg 62
-
-This spell functions as seeds of influence, except that if the target is protected by a spell that
-grants immunity, [spell resistance](ref/rule/spell-resistance), or a saving throw bonus against a
-divination or mind-affecting spell you cast on the target, you can attempt caster level checks to
-dispel each such effect before applying the effects of those protections against the spell. The DC
-of the caster level check to dispel each effect is equal to 11 + the effect's caster level. Such
-spells cast on the target while greater seeds of influence is active grant no protection against
-greater seeds of influence.

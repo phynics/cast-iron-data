@@ -91,29 +91,3 @@ equal to half your normal speed and all the benefits of having a natural climb s
 You gain [low-light vision](ref/rule/low-light-vision), a +2 size bonus to the physical ability
 score of your choice, and a +1 enhancement bonus to your natural armor. Alternatively, you may cast
 the non-mythic form of this spell on a touched willing creature.
-
-### Greater Animal Aspect
-
-**Sources:** Ultimate Combat pg 223
-
-This spell functions like animal aspect, except you can either gain two aspects at once or one
-aspect that adds effects to the aspects that animal aspect grants, as described below.
-
-_Frog:_ You gain a Swim speed equal to half your normal speed, and all the benefits of having a swim
-speed.
-
-_Gorilla:_ You gain a +2 competence bonus on Perception checks, and a +1 competence bonus on
-Fortitude saves.
-
-_Monkey:_ You gain a +4 competence bonus on Acrobatics checks.
-
-_Otter:_ Your swim speed increases to your full normal speed, and you need not make concentration
-checks to cast spells underwater.
-
-_Raccoon:_ Your competence bonuses on Disable Device, Sleight of Hand, and Stealth checks increase
-to +4.
-
-_Raptor:_ Your enhancement bonus to speed increases to +30 feet, and you gain the benefit of the
-[Run](ref/feat/run) feat.
-
-_Tree Lizard:_ You gain a +4 competence bonus on Stealth checks.

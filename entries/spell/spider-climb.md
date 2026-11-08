@@ -69,10 +69,3 @@ target can take the run action while climbing and needs only one hand free to cl
 
 The target can move freely across spider webs (including giant spider webs), web spells, and similar
 adhesives of 2nd level or less (including tanglefoot bags) as if it were using freedom of movement.
-
-### Communal Spider Climb
-
-**Sources:** Ultimate Combat pg 245
-
-This spell functions like spider climb, except you divide the duration in 10-minute intervals among
-the creatures touched.

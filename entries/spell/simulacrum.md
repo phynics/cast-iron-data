@@ -61,11 +61,3 @@ powerful. It cannot increase its level or abilities. If reduced to 0 hit points 
 destroyed, it reverts to snow and melts instantly into nothingness. A complex process requiring at
 least 24 hours, 100 gp per hit point, and a fully equipped magical laboratory can repair damage to a
 simulacrum.
-
-### Lesser Simulacrum
-
-**Sources:** Ultimate Magic pg 238
-
-This spell functions as simulacrum, except you can't create a simulacrum of a creature whose HD or
-levels exceed your caster level, and it has no magical abilities. The creature is not under your
-control, though it recognizes you are its creator.

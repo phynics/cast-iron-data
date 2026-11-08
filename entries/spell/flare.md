@@ -55,10 +55,3 @@ Descriptors: light
 This cantrip creates a burst of light. If you cause the light to burst in front of a single
 creature, that creature is dazzled for 1 minute unless it makes a successful Fortitude save.
 Sightless creatures, as well as creatures already dazzled, are not affected by flare.
-
-### Flare Burst
-
-**Sources:** Advanced Player's Guide pg 223
-
-This spell functions as flare, except it affects all creatures in a 10-foot-radius burst from the
-target point.

@@ -45,13 +45,6 @@ Subschool: Compulsion
 Descriptors: mind-affecting, pain
 :::
 
-## Debilitating Pain
-
-**Sources:** Psychic Anthology pg 10
-
-The target is overcome with intense pain, causing it to be stunned on a failed save or dazed for 1
-round on a successful save.
-
 ### Mass Debilitating Pain
 
 **Sources:** Psychic Anthology pg 10

@@ -49,17 +49,6 @@ Spell resistance: yes (harmless) (object)
 Target: one armor suit or weapon touched
 :::
 
-## Reinforce Armaments
-
-**Sources:** Ultimate Combat pg 241
-
-You reinforce a weapon or armor suit to give it a temporarily upgrade or mitigate the
-[fragile](ref/misc/fragile) quality. A suit of armor or weapon touched that has the fragile quality
-is not considered to have the fragile quality for the spell's duration. Normal armor suits or
-weapons subjected to this spell instead gain the masterwork quality for the spell's duration and
-their [hardness](ref/umr/hardness) is doubled. If this spell is cast on masterwork or magical armor
-or weapons, their hardness is doubled for the duration of the spell.
-
 ### Communal Reinforce Armaments
 
 **Sources:** Ultimate Combat pg 241

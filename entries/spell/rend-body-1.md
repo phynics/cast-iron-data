@@ -50,26 +50,3 @@ restored only by powerful healing effects such as heal or regeneration. If the d
 target's hit points to below 0, all of its limbs are affected in this fashion.
 
 Creatures without discernible anatomy or limbs are unaffected by rend body.
-
-### Rend Body II
-
-**Sources:** Psychic Anthology pg 10
-
-This spell functions as per rend body I, but the target takes 1d8 points of damage per caster level
-you have (maximum 10d8). This spell can be undercast.
-
-### Rend Body III
-
-**Sources:** Psychic Anthology pg 10
-
-This spell functions as per rend body I, but the target takes 1d8 points of damage per caster level
-you have (maximum 15d8), and if a limb is ripped from its body, the target is sickened for as long
-as the bleed damage persists. This spell can be undercast.
-
-### Rend Body IV
-
-**Sources:** Psychic Anthology pg 10
-
-This functions as per rend body III, but the target takes 1d8 points of damage per caster level
-(maximum 20d8), and one of the target's limbs is ripped off if the amount of damage dealt is greater
-than 1/4 of its maximum hit point total. This spell can be undercast.

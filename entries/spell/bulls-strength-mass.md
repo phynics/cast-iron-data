@@ -53,13 +53,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 :::
 
-## Bull's Strength
-
-**Sources:** PRPG Core Rulebook pg 251
-
-The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual
-benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.
-
 ### Mass Bull's Strength
 
 **Sources:** PRPG Core Rulebook pg 251

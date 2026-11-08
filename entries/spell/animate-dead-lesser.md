@@ -51,42 +51,6 @@ Spell resistance: no
 Descriptors: evil
 :::
 
-## Animate Dead
-
-**Sources:** PRPG Core Rulebook pg 241
-
-This spell turns corpses into undead [skeletons](ref/template/skeleton) or
-[zombies](ref/template/zombie) that obey your spoken commands.
-
-The undead can be made to follow you, or they can be made to remain in an area and attack any
-creature (or just a specific kind of creature) entering the place. They remain animated until they
-are destroyed. A destroyed skeleton or zombie can't be animated again.
-
-Regardless of the type of undead you create with this spell, you can't create more HD of undead than
-twice your caster level with a single casting of animate dead. The desecrate spell doubles this
-limit.
-
-The undead you create remain under your control indefinitely. No matter how many times you use this
-spell, however, you can control only 4 HD worth of undead creatures per caster level. If you exceed
-this number, all the newly created creatures fall under your control, and any excess undead from
-previous castings become uncontrolled. You choose which creatures are released. Undead you control
-through the Command Undead feat do not count toward this limit.
-
-> _Skeletons:_ A skeleton can be created only from a mostly intact corpse or skeleton. The corpse
-> must have bones. If a skeleton is made from a corpse, the flesh falls off the bones.
->
-> _Zombies:_ A zombie can be created only from a mostly intact corpse. The corpse must be that of a
-> creature with a physical anatomy.
-
-Other publications have added more creatures that can be created by this spell. They include:
-
-- [Beheaded](ref/monster/beheaded)
-- [Exoskeleton](ref/template/exoskeleton)
-- [Frostfallen Creature](ref/template/frostfallen-creature)
-- [Isitoq](ref/monster/isitoq)
-- [Necrocraft](ref/monster/necrocraft)
-- [Sunbaked Zombie](ref/template/sunbaked-zombie)
-
 ### Mythic Animate Dead
 
 **Sources:** Mythic Adventures pg 84

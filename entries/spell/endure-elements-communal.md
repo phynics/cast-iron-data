@@ -58,17 +58,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 :::
 
-## Endure Elements
-
-**Sources:** PRPG Core Rulebook pg 277
-
-A creature protected by endure elements suffers no harm from being in a hot or cold environment. It
-can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make
-Fortitude saves. The creature's equipment is likewise protected.
-
-Endure elements doesn't provide any protection from fire or cold damage, nor does it protect against
-other environmental hazards such as smoke, lack of air, and so forth.
-
 ### Mythic Endure Elements
 
 **Sources:** Mythic Adventures pg 93

@@ -45,15 +45,6 @@ Target: a creature you are mounted upon
 Subschool: Polymorph
 :::
 
-## Sea Steed
-
-**Sources:** Ultimate Wilderness pg 234, Animal Archive pg 25
-
-The target adapts to life in the water, gaining piscine scales that cover its body and growing fins
-in place of feet. It gains the aquatic subtype, the amphibious quality, and a swim speed equal to
-its base speed before it came under the effect of this spell. While under the effects of this spell,
-the target's base speed is reduced by 10 feet (minimum 10 feet).
-
 ### Sea Stallion
 
 **Sources:** Ultimate Wilderness pg 234

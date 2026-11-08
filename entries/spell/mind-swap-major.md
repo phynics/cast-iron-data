@@ -56,14 +56,6 @@ Subschool: Compulsion
 Descriptors: mind-affecting
 :::
 
-## Mind Swap
-
-**Sources:** Occult Adventures pg 176
-
-This spell is similar to [possession](ref/spell/possession), except you switch minds with the
-target, so instead of the target's soul sharing its body with yours and being unable to act, the
-target's mind moves to your body and can control it as if you each had cast possession on the other.
-
 ### Major Mind Swap
 
 **Sources:** Occult Adventures pg 176

@@ -69,21 +69,3 @@ As a standard action, you can transform the whip into a spider swarm (all square
 be within 15 feet of you); thereafter it functions as [summon swarm](ref/spell/summon-swarm). The
 spider swarm has 3 hit points and persists in that form for 2 rounds or until the end of this
 spell's duration, whichever comes first.
-
-### Whip of Ants
-
-**Sources:** Advanced Class Guide pg 199
-
-This spell functions as whip of spiders, except it summons army ants, and any creature you strike
-with the whip takes swarm damage as if it were attacked by an
-[army ant swarm](ref/monster/ant-army-ant-swarm) (3d6 points of damage plus poison and distraction).
-If you transform the whip into an army ant swarm, it has 16 hit points.
-
-### Whip of Centipedes
-
-**Sources:** Advanced Class Guide pg 199
-
-This spell functions as whip of spiders, except it summons centipedes, and any creature you strike
-with the whip takes swarm damage as if it were attacked by a
-[centipede swarm](ref/monster/centipede-centipede-swarm) (2d6 points of damage plus poison and
-distraction). If you transform the whip into a centipede swarm, it has 10 hit points.

@@ -73,15 +73,3 @@ round until the fire is extinguished. Attempts to extinguish this fire use the s
 _Augmented (6th):_ If you expend two uses of mythic power, the maximum damage increases to 20d10,
 the area increases to a 40-foot radius spread, and any fire damage dealt by the spell bypasses fire
 resistance and fire immunity.
-
-### Controlled Fireball
-
-**Sources:** Ultimate Intrigue pg 208
-
-This spell functions as fireball except you can cause the bead of fire to originate from anywhere
-you can see within range. You can choose a number of squares within the area up to your Intelligence
-bonus (for magi, occultists, or wizards) or Charisma bonus (for bloodragers or sorcerers) to be
-struck by weaker flames; the controlled fireball deals minimum damage in those squares.
-
-Attempts to identify controlled fireball with a skill check incorrectly identify it as fireball (see
-the [ruse](ref/spelldef/ruse) descriptor).

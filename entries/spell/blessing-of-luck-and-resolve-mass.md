@@ -49,17 +49,6 @@ Subschool: Compulsion
 Descriptors: mind-affecting
 :::
 
-## Blessing of Luck and Resolve
-
-**Sources:** Advanced Race Guide pg 68
-
-> _[Halflings](ref/race/halfling) have access to the following spells._
-
-A favored blessing of halfling clerics, this spell grants its target a +2 morale bonus on saving
-throws against fear effects. If the target has the fearless racial trait, it is immune to fear
-instead. If the target fails a saving throw against fear, it can end the spell as an immediate
-action to reroll the save with a +4 morale bonus, and must take the new result, even if it is worse.
-
 ### Mass Blessing of Luck and Resolve
 
 **Sources:** Advanced Race Guide pg 68

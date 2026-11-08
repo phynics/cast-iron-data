@@ -54,14 +54,6 @@ Subschool: Healing
 Descriptors: water
 :::
 
-## Spindrift Spritz
-
-**Sources:** Elemental Master's Handbook pg 14
-
-You can cast this spell only as a response to a target attempting a saving throw against an effect
-that would cause the fatigued, shaken, sickened, or staggered conditions. The target can roll its
-saving throw twice and take the higher result.
-
 ### Mass Spindrift Spritz
 
 **Sources:** Elemental Master's Handbook pg 14

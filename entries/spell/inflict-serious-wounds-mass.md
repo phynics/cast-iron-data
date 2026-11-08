@@ -44,13 +44,6 @@ Saving throw: Will half
 Spell resistance: yes
 :::
 
-## Inflict Serious Wounds
-
-**Sources:** PRPG Core Rulebook pg 301
-
-This spell functions like [inflict light wounds](ref/spell/inflict-light-wounds), except that it
-deals 3d8 + 1 point per caster level (maximum +15).
-
 ### Mythic Inflict Serious Wounds
 
 **Sources:** Mythic Adventures pg 99

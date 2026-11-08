@@ -51,13 +51,6 @@ Saving throw: Fort negates (harmless)
 Spell resistance: yes (harmless)
 :::
 
-## Scale Spikes
-
-**Sources:** Monster Codex pg 141
-
-When the target is affected by this spell, its scales grow jagged spikes. These spikes act like +1
-armor spikes. The subject is automatically considered proficient with these scale spikes.
-
 ### Greater Scale Spikes
 
 **Sources:** Monster Codex pg 141

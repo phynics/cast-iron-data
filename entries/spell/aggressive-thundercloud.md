@@ -58,11 +58,3 @@ The sphere moves as long as you actively direct it (as a move action for you); o
 at rest and crackles with lightning. It can be moved by wind effects and counts as a Small creature
 for the purpose of determining how winds affect it. The sphere has no physical substance and cannot
 exert any force on corporeal creatures or objects. It disperses if it exceeds the spell's range.
-
-### Greater Aggressive Thundercloud
-
-**Sources:** Advanced Class Guide pg 172
-
-This spell functions as aggressive thundercloud, except it deals 6d6 points of electricity damage to
-any creature it strikes. The first creature damaged by the cloud is also stunned for 1 round
-(Fortitude negates); this is a sonic effect.

@@ -45,14 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 :::
 
-## Heroic Fortune
-
-**Sources:** Advanced Player's Guide pg 324
-
-This spell grants 1 hero point to the target. This hero point must be spent before the duration
-expires, or it is lost. The bonus hero point is spent before any other hero points the target might
-possess.
-
 ### Mass Heroic Fortune
 
 **Sources:** Advanced Player's Guide pg 324

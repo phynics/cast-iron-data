@@ -77,13 +77,3 @@ _Augmented:_ You can expend two uses of mythic power to make the grease flammabl
 any fire at least the size of a candle flame. If a greased area is ignited, any creature in the area
 on your turn takes 1d3 points of fire damage and might catch on fire. If a greased creature is
 ignited, it takes 2d6 points of fire damage, and might catch on fire; add your tier to the save DC.
-
-### Greater Grease
-
-**Sources:** Dirty Tactics Toolbox pg 30
-
-This spell functions like grease, except as noted here. When you use this spell to cover a solid
-surface with slippery grease, the 10-foot squares must form a continuous area, each part of which
-must be within the spell's range. When you use this spell to create a greasy coating on items, no
-two of the targeted items can be more than 30 feet apart. You cannot target both items and surfaces
-with a single casting of this spell.

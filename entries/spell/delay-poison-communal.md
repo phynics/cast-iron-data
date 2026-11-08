@@ -59,14 +59,6 @@ Target: creature touched
 Subschool: Healing
 :::
 
-## Delay Poison
-
-**Sources:** PRPG Core Rulebook pg 265
-
-The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it
-is exposed during the spell's duration does not affect the subject until the spell's duration has
-expired. Delay poison does not cure any damage that poison may have already done.
-
 ### Communal Delay Poison
 
 **Sources:** Ultimate Combat pg 227

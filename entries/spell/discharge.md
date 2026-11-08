@@ -56,20 +56,3 @@ suppressed for 1d4 rounds. If the spell targets a creature not of the robot subt
 random charged or electrically powered item in that creature's possession. If the target is a robot,
 the robot is staggered and cannot use any energy-based attacks for 1d4 rounds. A robot that's
 affected by this spell receives a new saving throw at the end of each round to shrug off the effect.
-
-### Greater Discharge
-
-**Sources:** Technology Guide pg 9
-
-This spell functions as discharge, except it can discharge multiple technological objects and can be
-used to target an area.
-
-You choose to use greater discharge in one of two ways: an area discharge or a targeted discharge.
-
-_Area Discharge:_ When greater discharge is used in this way, the spell affects everything within a
-20-foot-radius burst. Each creature in the area is affected as though by discharge (affecting only
-one object in the creature's possession), and each unattended object is similarly affected.
-
-_Targeted Discharge:_ This spell functions as discharge, but if the target is a creature, it can
-discharge one randomly determined object from the target's charged or electrically powered
-possessions for every 4 caster levels you possess.

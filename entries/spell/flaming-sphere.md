@@ -60,12 +60,3 @@ stays at rest and burns. It can be extinguished by any means that would put out 
 size. The surface of the sphere has a spongy, yielding consistency and so does not cause damage
 except by its flame. It cannot push aside unwilling creatures or batter down large obstacles. A
 flaming sphere winks out if it exceeds the spell's range.
-
-### Greater Flaming Sphere
-
-**Sources:** Advanced Class Guide pg 182
-
-This spell functions as flaming sphere, except that it deals 6d6 points of fire damage to any
-creature it strikes. Any creature that fails its save against the sphere
-[catches on fire](ref/rule/catching-on-fire). If a creature catches on fire, the DC to extinguish
-the flames is equal to the DC of this spell.

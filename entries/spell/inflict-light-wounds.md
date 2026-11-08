@@ -60,14 +60,3 @@ damage, rather than harming it.
 The damage dealt increases to 2d8 points of damage + 2 points per caster level (maximum +10). A
 living target is sickened for 1 round per caster level (maximum 5 rounds) if it fails its saving
 throw.
-
-### Mass Inflict Light Wounds
-
-**Sources:** PRPG Core Rulebook pg 300
-
-Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of
-damage + 1 point per caster level (maximum +25) to nearby living enemies.
-
-Like other inflict spells, mass inflict light wounds cures undead in its area rather than damaging
-them. A cleric capable of spontaneously casting inflict spells can also spontaneously cast mass
-inflict spells.

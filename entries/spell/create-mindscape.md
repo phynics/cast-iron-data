@@ -94,15 +94,3 @@ happens to you, the spell also ends, freeing anyone still inside.
 Create mindscape can be made permanent with a [permanency](ref/spell/permanency) spell by a caster
 of 12th level or higher at a cost of 10,000 gp. You and other creatures aware of a permanent
 mindscape can come and go using the mindscape door spell.
-
-### Greater Create Mindscape
-
-**Sources:** Occult Adventures pg 163
-
-This spell functions like create mindscape, except it can affect more creatures, the mindscape lasts
-longer, and you can choose the mindscape's magic trait. You can also direct a number of believable
-creatures at a time equal to your caster level.
-
-Greater create mindscape can be made permanent with a [permanency](ref/spell/permanency) spell by a
-caster of 15th level or higher at a cost of 17,500 gp. You and other creatures aware of a permanent
-mindscape can come and go using the mindscape door spell.

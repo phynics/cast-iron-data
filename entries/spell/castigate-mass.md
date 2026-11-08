@@ -45,15 +45,6 @@ Subschool: Compulsion
 Descriptors: emotion, fear, language-dependant, mind-affecting
 :::
 
-## Castigate
-
-**Sources:** Advanced Player's Guide pg 210
-
-You compel the target to beg for forgiveness. On a failed save, the target cowers with fear. On a
-successful save, it is shaken for 1 round. Each round on its turn, a cowering subject may attempt a
-new save to end the effect. A creature who worships the same god as you takes a -2 penalty on its
-saving throw.
-
 ### Mass Castigate
 
 **Sources:** Advanced Player's Guide pg 210

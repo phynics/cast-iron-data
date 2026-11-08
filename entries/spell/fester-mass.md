@@ -41,17 +41,6 @@ Saving throw: Fortitude partial
 Spell resistance: yes
 :::
 
-## Fester
-
-**Sources:** Advanced Player's Guide pg 221
-
-Necrotic energy permeates the target, blocking healing abilities. The subject gains
-[spell resistance](ref/rule/spell-resistance) equal to 12 + your caster level against effects that
-restore hit points or grant temporary hit points. In addition, any healing provided by effects that
-ignore spell resistance (such as [fast healing](ref/umr/fast-healing), regeneration, and some
-spells) are halved. If the target succeeds on a Fortitude saving throw, fester lasts only a single
-round.
-
 ### Mass Fester
 
 **Sources:** Advanced Player's Guide pg 221

@@ -49,14 +49,6 @@ Spell resistance: yes
 Descriptors: death, evil
 :::
 
-## Death Knell Aura
-
-**Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 38
-
-You gain a shimmering gray aura that feeds on the souls of creatures who die within it. The aura
-sheds light as a candle. If a creature at -1 or fewer hit points is within the aura at the start of
-its turn, it must save or die, granting you the benefits of death knell.
-
 ### Greater Death Knell Aura
 
 **Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 38

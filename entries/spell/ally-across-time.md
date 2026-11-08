@@ -69,11 +69,3 @@ occupied dissipates.
 You can summon only one duplicate before the spell ends. For every 4 caster levels you have beyond
 3rd, you can summon an additional duplicate before the spell ends, though you cannot have more than
 one duplicate in existence at once.
-
-### Army Across Time
-
-**Sources:** Legacy of the First World pg 30
-
-This spell functions as ally across time as noted above with two exceptions. First, you can summon
-one duplicate per caster level before the spell ends. Second, you can have up to one duplicate in
-existence at a time for every 3 caster levels you have.

@@ -44,17 +44,3 @@ Subschool: Healing
 
 By laying your hand upon an eidolon, you cause its wounds to close and its form to solidify. This
 spell cures 1d10 points of damage +1 point per caster level (maximum +5).
-
-### Rejuvenate Eidolon
-
-**Sources:** Advanced Player's Guide pg 238
-
-This spell functions as lesser rejuvenate eidolon, except that it cures 3d10 points of damage +1
-point per caster level (maximum +10).
-
-### Greater Rejuvenate Eidolon
-
-**Sources:** Advanced Player's Guide pg 238
-
-This spell functions as lesser rejuvenate eidolon, except that it cures 5d10 points of damage +1
-point per caster level (maximum +20).

@@ -73,36 +73,3 @@ animal intelligence (Intelligence 1 or 2) have simple, instinctual thoughts.
 
 Each round, you can turn to detect thoughts in a new area. The spell can penetrate barriers, but 1
 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
-
-### Detect Anxieties
-
-**Sources:** Ultimate Intrigue pg 211
-
-This spell functions as detect thoughts except that you sense significant anxieties of creatures
-with an Intelligence score of 1 or higher, regardless of whether they are conscious or not.
-
-Instead of Intelligence, the second round of concentration reveals each mind's Wisdom score and
-current degree of fear (shaken, frightened, panicked, cowering, or paralyzed with fear). If the
-highest Wisdom score is 26 or higher (and at least 10 points higher than your own Wisdom score), you
-are stunned for 1 round and the spell ends.
-
-Instead of surface thoughts, the third round of concentration reveals the most pressing current
-anxiety of any mind in the area (Will negates).
-
-Presenting a creature with the threat of its anxiety grants you a +2 bonus (or higher, at the GM's
-discretion) on checks to Intimidate that creature.
-
-### Detect Desires
-
-**Sources:** Ultimate Intrigue pg 211
-
-This spell functions as per detect thoughts, except you sense significant desires of creatures with
-an Intelligence score of 1 or higher, regardless of whether they are conscious or not.
-
-Instead of Intelligence, the second round of concentration reveals each mind's Charisma score. If
-the highest Charisma score is 26 or higher (and at least 10 points higher than your own Charisma
-score), you are stunned for 1 round and the spell ends. Instead of surface thoughts, the third round
-of concentration reveals the most pressing current desire of any mind in the area (Will negates).
-
-Presenting a creature with an opportunity to fulfill a significant desire grants you a +2
-circumstance bonus (or higher, at the GM's discretion) on Diplomacy checks to influence it.

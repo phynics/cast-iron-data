@@ -46,16 +46,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 :::
 
-## Shield of Fortification
-
-**Sources:** Advanced Class Guide pg 192
-
-You create a magical barrier that protects a target's vital areas. When the target is struck by a
-critical hit or a sneak attack, there is a 25% chance that the critical hit or sneak attack is
-negated and damage is instead rolled normally. This benefit does not stack with other effects that
-can turn critical hits or sneak attacks into normal attacks, such as the fortification armor special
-ability.
-
 ### Greater Shield of Fortification
 
 **Sources:** Advanced Class Guide pg 192

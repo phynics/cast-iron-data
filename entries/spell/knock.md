@@ -76,10 +76,3 @@ nature, and the door is unlocked but doesn't automatically open.
 
 The spell can raise a barred gate, portcullis, or similar impediment, but each one counts as two
 locked doors.
-
-### Mass Knock
-
-**Sources:** Inner Sea Temples pg 23
-
-Also known as "unshackle," this spell functions as knock, but works on multiple means of closure at
-once.

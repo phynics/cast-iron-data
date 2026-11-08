@@ -54,13 +54,6 @@ Subschool: Charm
 Descriptors: mind-affecting
 :::
 
-## Charm Monster
-
-**Sources:** PRPG Core Rulebook pg 254
-
-This spell functions like charm person, except that the effect is not restricted by creature type or
-size.
-
 ### Mass Charm Monster
 
 **Sources:** PRPG Core Rulebook pg 254

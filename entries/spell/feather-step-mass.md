@@ -45,13 +45,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes
 :::
 
-## Feather Step
-
-**Sources:** Advanced Player's Guide pg 221
-
-For the duration of this spell, the subject ignores the adverse movement effects of difficult
-terrain, and can even take 5-foot steps in difficult terrain.
-
 ### Mass Feather Step
 
 **Sources:** Advanced Player's Guide pg 221

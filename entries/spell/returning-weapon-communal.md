@@ -58,15 +58,6 @@ Target: one weapon that can be thrown
 Subschool: Teleportation
 :::
 
-## Returning Weapon
-
-**Sources:** Ultimate Combat pg 242
-
-For the duration of the spell, the target weapon acts as if it had the returning weapon special
-ability.
-
-This spell can be used as the prerequisite for the returning weapon special ability.
-
 ### Communal Returning Weapon
 
 **Sources:** Ultimate Combat pg 243

@@ -47,10 +47,3 @@ absorb the countered spell and use it to regain spells you have already cast. If
 you regain the use of any single spell that you have cast since the last time you prepared spells.
 If you're a sorcerer, you regain a single spell slot. The spell recovered or spell slot regained
 must be of an equal level or lower than the spell you counterspelled.
-
-### Greater Spell Absorption
-
-**Sources:** Inner Sea Magic pg 61
-
-This spell functions as spell absorption, save that you can absorb countered spells of 6th level or
-lower.

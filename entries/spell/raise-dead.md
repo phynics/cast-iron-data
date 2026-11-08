@@ -70,10 +70,3 @@ equipment or possessions are affected in any way by this spell.
 A creature who has been turned into an undead creature or killed by a death effect can't be raised
 by this spell. Constructs, elementals, outsiders, and undead creatures can't be raised. The spell
 cannot bring back a creature that has died of old age.
-
-### Raise Animal Companion
-
-**Sources:** Ultimate Magic pg 233
-
-This spell functions as raise dead, but it only affects an animal companion, familiar, or paladin's
-bonded mount.

@@ -64,9 +64,3 @@ foe for 1 round:
 - The attacked foe can't take 5-foot steps.
 
 A creature can benefit from only one halfling vengeance spell at a time.
-
-### Mass Halfling Vengeance
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 72
-
-This spell functions like halfling vengeance, except that it affects multiple creatures.

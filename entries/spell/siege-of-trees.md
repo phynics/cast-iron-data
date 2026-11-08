@@ -49,10 +49,3 @@ catapults; they will automatically load themselves with rocks and boulders in th
 deep from the ground if need be. You can supply the trees ammunition if you desire. The tree will
 not load flaming ammunition, and these catapult trees cannot be affected by energy siege shot if the
 energy selected is fire.
-
-### Greater Siege of Trees
-
-**Sources:** Ultimate Combat pg 244
-
-As siege of trees, but you can affect larger-sized plants. Each plant acts as a catapult of its
-size.

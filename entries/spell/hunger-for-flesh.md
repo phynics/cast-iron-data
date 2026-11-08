@@ -66,11 +66,3 @@ On any round after the target deals damage to another creature of its own type a
 applicable) with its bite attack, the target loses the staggered condition. If it doesn't continue
 dealing bite damage to applicable creatures, the target regains the staggered condition at the
 beginning of its next turn.
-
-### Mass Hunger for Flesh
-
-**Sources:** Horror Adventures pg 121
-
-This spell functions like hunger for flesh, except that it affects multiple targets. When forced to
-feed by the spell, affected creatures attack creatures not affected by this spell if there are any
-such appropriate creatures nearby, but otherwise they attack other affected creatures.

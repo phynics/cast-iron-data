@@ -57,15 +57,3 @@ damage, but in this case, the attack does not gain an enhancement bonus.
 Unhallowed blows can be made permanent with a [permanency](ref/spell/permanency) spell. In this
 case, the caster must be at least 9th level and must expend 2,500 gp worth of diamond dust as a
 material component.
-
-### Greater Unhallowed Blows
-
-**Sources:** People of the Wastes pg 29
-
-This spell functions as unhallowed blows, except the enhancement bonus is +1 per 4 caster levels
-(maximum +5). Alternatively, you can imbue all of a creature's natural weapons with a +1 enhancement
-bonus (regardless of your caster level).
-
-Greater unhallowed blows can be made permanent with a [permanency](ref/spell/permanency) spell. In
-this case, the caster must be at least 11th level and must expend 7,500 gp worth of diamond dust as
-a material component.

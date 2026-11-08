@@ -56,10 +56,3 @@ A character that is already fatigued instead becomes exhausted.
 
 This spell has no effect on a creature that is already exhausted. Unlike normal exhaustion or
 fatigue, the effect ends as soon as the spell's duration expires.
-
-### Ray of Sickening
-
-**Sources:** Ultimate Magic pg 234, Dark Markets - A Guide to Katapesh pg 57
-
-This spell functions as ray of exhaustion, except the target is sickened if it fails its save and
-unaffected if it makes its save.

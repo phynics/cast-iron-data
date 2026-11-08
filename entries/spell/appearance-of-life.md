@@ -69,14 +69,3 @@ undead.
 
 Appearance of life can be made permanent with a [permanency](ref/spell/permanency) spell by a caster
 of 12th level or higher for the cost of 10,000 gp.
-
-### Greater Appearance of Life
-
-**Sources:** Villain Codex pg 8
-
-This spell functions as appearance of life, except that you can disguise a single undead creature
-regardless of its number of Hit Dice, and the illusion also creates relevant smells, sounds,
-textures, and temperatures to match the appearance. If you disguise the target as a living version
-of itself, creatures that interact with the target take a -5 penalty on their Will saving throws to
-disbelieve the illusion, though if the target attacks a creature, the attacked creature no longer
-takes this penalty.

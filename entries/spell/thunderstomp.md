@@ -55,11 +55,3 @@ modifier you can use your spellcasting ability score modifier (Intelligence for 
 Wisdom for druids and rangers; Charisma for bloodragers and sorcerers). This does not provoke an
 attack of opportunity. This spell has no effect if you cannot reach the ground or floor, or if your
 target is not in contact with the ground or floor.
-
-### Greater Thunderstomp
-
-**Sources:** Advanced Class Guide pg 196
-
-This spell functions as thunderstomp, except as noted, and it affects all creatures in the area,
-regardless of size. When you attempt the combat maneuver check, apply its result to each creature
-within the area.

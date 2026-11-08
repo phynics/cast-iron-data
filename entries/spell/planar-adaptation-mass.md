@@ -51,16 +51,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 :::
 
-## Planar Adaptation
-
-**Sources:** Advanced Player's Guide pg 236
-
-Planar adaptation grants you immunity to the harmful environmental effects of a particular plane of
-existence, including such hazards as toxicity, extreme temperatures, and lack of air. Additionally,
-you gain energy resistance 20 to a single energy type prevalent on that plane (choose one if more
-than one type is equally prevalent). Planar adaptation has no effect when cast upon your native
-plane.
-
 ### Mass Planar Adaptation
 
 **Sources:** Advanced Player's Guide pg 236

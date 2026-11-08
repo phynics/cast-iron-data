@@ -77,12 +77,3 @@ Furthermore, the shadow creature's AC bonuses are just one-fifth as large.
 
 A creature that succeeds on its save sees the shadow conjurations as transparent images superimposed
 on vague, shadowy forms. Objects automatically succeed on their Will saves against this spell.
-
-### Greater Shadow Conjuration
-
-**Sources:** PRPG Core Rulebook pg 340
-
-This spell functions like shadow conjuration, except that it duplicates any sorcerer or wizard
-conjuration (summoning) or conjuration (creation) spell of 6th level or lower. The illusory
-conjurations created deal three-fifths (60%) damage to nonbelievers, and non-damaging effects are
-60% likely to work against nonbelievers.

@@ -51,32 +51,6 @@ Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
 
-## Forbid Action
-
-**Sources:** Ultimate Magic pg 220
-
-You forbid the target a single course of action, which it avoids to the best of its ability. You may
-demand the target not take actions that fall into one of the following options.
-
-_Attack:_ The target cannot take any action that involves an attack roll, or uses a spell or ability
-that targets a foe or an area that includes a foe.
-
-_Cast:_ Target cannot cast spells or use [spell-like abilities](ref/umr/spell-like-abilities).
-
-_Communicate:_ The target cannot take any actions that allow it to communicate with anyone. This
-includes such acts as speaking, Bluff checks to pass secret messages, writing, and using telepathy.
-It does not prevent verbalizations made for purposes other than communication, such as command words
-or the verbal component of spellcasting.
-
-_Draw:_ Target cannot ready or prepare any item, weapon, component, or equipment.
-
-_Move:_ The target can take no act that would cause it to end up in a different location. The target
-does not resist being moved by others (and thus can be picked up or dragged, or can float along on a
-raft), but does not consciously attempt to move (including not directing a mount to move).
-
-The target is free to take any actions not forbidden by the caster. For example, a target affected
-by this spell's demand to not move is still free to cast spells, make attacks, or shout for help.
-
 ### Greater Forbid Action
 
 **Sources:** Ultimate Magic pg 220

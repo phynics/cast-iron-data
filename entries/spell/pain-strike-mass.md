@@ -48,15 +48,6 @@ Spell resistance: yes
 Descriptors: evil, pain
 :::
 
-## Pain Strike
-
-**Sources:** Advanced Player's Guide pg 234
-
-Pain strike racks the targeted creature with agony, inflicting 1d6 points of nonlethal damage per
-round for 1 round per level (maximum 10 rounds). Additionally, the affected creature is sickened for
-the spell's duration, and the caster gains a +4 circumstance bonus on Intimidate checks against the
-target.
-
 ### Mass Pain Strike
 
 **Sources:** Advanced Player's Guide pg 234

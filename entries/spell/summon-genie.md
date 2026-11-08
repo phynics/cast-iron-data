@@ -51,23 +51,9 @@ Effect: one summoned genie
 Subschool: Summoning
 :::
 
-## Lesser Summon Genie
-
-**Sources:** People of the Sands pg 11
-
-This spell functions like [summon monster I](ref/spell/summon-monster-1), except you can summon one
-janni.
-
 ### Summon Genie
 
 **Sources:** People of the Sands pg 11
 
 This spell functions like [lesser summon genie](ref/spell/summon-genie-lesser), except you can
 summon one djnni or 1d3 jann.
-
-### Greater Summon Genie
-
-**Sources:** People of the Sands pg 11
-
-This spell functions like lesser summon genie, except you can summon one shaitan, 1d3 djnn or 1d4+1
-jann.

@@ -52,23 +52,6 @@ Subschool: Glamer
 Descriptors: glamer
 :::
 
-## Magic Aura
-
-**Sources:** PRPG Core Rulebook pg 307
-
-You alter an item's aura so that it registers to detect spells (and spells with similar
-capabilities) as though it were nonmagical, or a magic item of a kind you specify, or the subject of
-a spell you specify. If the object bearing magic aura has identify cast on it or is similarly
-examined, the examiner recognizes that the aura is false and detects the object's actual qualities
-if he succeeds on a Will save. Otherwise, he believes the aura and no amount of testing reveals what
-the true magic is.
-
-If the targeted item's own aura is exceptionally powerful (if it is an artifact, for instance),
-magic aura doesn't work.
-
-_Note:_ A magic weapon, shield, or suit of armor must be a masterwork item, so a sword of average
-make, for example, looks suspicious if it has a magical aura.
-
 ### Greater Magic Aura
 
 **Sources:** Ultimate Intrigue pg 219
@@ -96,14 +79,3 @@ the creature appear to have or not have spellcasting or
 psychic in nature, and the strength of the most powerful spell or spell-like ability they currently
 have available for use. Similarly, you can alter the way the target appears when viewed with greater
 detect magic, causing the last spell that he cast to seem to be any spell of your choice.
-
-### Sympathetic Aura
-
-**Sources:** Adventurer's Guide pg 37
-
-This spell functions like magic aura, except it extends its altered aura to similar items in a
-5-foot radius. For this purpose, similar items must be alike in approximate shape, composition, and
-function, so a potion of cure light wounds targeted by this spell to appear nonmagical would also
-obscure the auras of nearby potions, elixirs, and oils, as well as flasks. Items other than the
-targeted item retain their altered aura for 1 round per caster level after being removed from the
-spell's area.

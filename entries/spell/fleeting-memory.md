@@ -56,9 +56,3 @@ because you dismiss it or because it is dispelled, it disperses without affectin
 memory.
 
 Whether or not the target's save is successful, the target forgets that you cast a spell.
-
-### Mass Fleeting Memory
-
-**Sources:** Black Markets pg 25
-
-This spell functions as fleeting memory, except that it affects multiple creatures.

@@ -56,9 +56,3 @@ blindness and is blinded for 1 round if exposed to bright light, such as sunligh
 of bright light, and it is treated as being particularly susceptible to sunlight for the purposes of
 resolving spells like [searing light](ref/spell/searing-light), [sunbeam](ref/spell/sunbeam), and
 [sunburst](ref/spell/sunburst).
-
-### Mass Sun's Disdain
-
-**Sources:** Adventurer's Guide pg 17
-
-This spell functions like sun's disdain, except that it can affect multiple creatures.

@@ -54,10 +54,3 @@ If you arrive in a place that is already occupied by a solid body, you are telep
 open space on a suitable surface within the range and other limitations of the spell. If no such
 space is available, the spell simply fails. This spell does not function on a plane lacking gravity.
 On a plane with subjective directional gravity, you can use this spell to teleport in any direction.
-
-### Spiral Descent
-
-**Sources:** Inner Sea Temples pg 43
-
-This spell functions as spiral ascent, except the destination and direction of travel is downward
-from your current location.

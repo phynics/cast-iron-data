@@ -52,19 +52,13 @@ Effect: visual figment that cannot extend beyond four 10 ft. cubes + one 10 ft. 
 Subschool: Figment
 :::
 
-## Minor Image
-
-**Sources:** PRPG Core Rulebook pg 314
-
-This spell functions like [silent image](ref/spell/silent-image), except that minor image includes
-some minor sounds but not understandable speech.
-
 ### Major Image
 
 **Sources:** PRPG Core Rulebook pg 311
 
-This spell functions like silent image, except that sound, smell, and thermal illusions are included
-in the spell effect. While concentrating, you can move the image within the range.
+This spell functions like [silent image](ref/spell/silent-image), except that sound, smell, and
+thermal illusions are included in the spell effect. While concentrating, you can move the image
+within the range.
 
 The image disappears when struck by an opponent unless you cause the illusion to react
 appropriately.

@@ -47,16 +47,6 @@ Saving throw: Will half
 Spell resistance: yes
 :::
 
-## Inflict Light Wounds
-
-**Sources:** PRPG Core Rulebook pg 300
-
-When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +
-1 point per caster level (maximum +5).
-
-Since undead are powered by negative energy, this spell cures such a creature of a like amount of
-damage, rather than harming it.
-
 ### Mythic Inflict Light Wounds
 
 **Sources:** Mythic Adventures pg 99

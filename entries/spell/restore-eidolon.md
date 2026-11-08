@@ -43,13 +43,6 @@ Target: eidolon touched
 Subschool: Healing
 :::
 
-## Lesser Restore Eidolon
-
-**Sources:** Ultimate Magic pg 235
-
-This spell functions as [lesser restoration](ref/spell/restoration-lesser), except it only affects
-an eidolon.
-
 ### Restore Eidolon
 
 **Sources:** Ultimate Magic pg 235

@@ -49,14 +49,6 @@ Target: you
 Descriptors: good
 :::
 
-## Lesser Angelic Aspect
-
-**Sources:** Champions of Purity pg 28
-
-You take on an aspect of an angelic being, including some of its physical characteristics. You gain
-[low-light vision](ref/rule/low-light-vision), resistance to acid 5, resistance to cold 5, and the
-benefits of [protection from evil](ref/spell/protection-from-evil).
-
 ### Angelic Aspect
 
 **Sources:** Champions of Purity pg 28
@@ -67,23 +59,3 @@ acid 10, resistance to cold 10, and DR 5/evil, and you sprout white feathered wi
 fly at a speed of 30 feet with average maneuverability. In addition, your natural weapons and any
 weapons you wield are considered good-aligned for the purpose of overcoming
 [damage reduction](ref/rule/damage-reduction).
-
-### Greater Angelic Aspect
-
-**Sources:** Champions of Purity pg 28
-
-This spell functions like lesser angelic aspect, except you gain
-[low-light vision](ref/rule/low-light-vision); [darkvision](ref/rule/darkvision) 60 feet; DR
-10/evil; immunity to acid, cold, and petrification; resistance to electricity 10 and fire 10; a +4
-racial bonus on saves against poison; and protective aura and truespeech as supernatural abilities
-for the duration of the spell. Also, your wings give you a fly speed of 60 feet with good
-maneuverability.
-
-Protective aura provides a +4 deflection bonus to AC and a +4 resistance bonus on saving throws
-against attacks made or effects created by evil creatures to anyone within 20 feet. Otherwise, it
-functions as a [magic circle against evil](ref/spell/magic-circle-against-evil) and a
-[lesser globe of invulnerability](ref/spell/globe-of-invulnerability-lesser), both with a radius of
-20 feet.
-
-Truespeech allows you to speak with any creature that has a language, as though using the tongues
-spell.

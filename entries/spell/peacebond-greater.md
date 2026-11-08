@@ -47,15 +47,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 :::
 
-## Peacebond
-
-**Sources:** Ultimate Combat pg 238
-
-You lock a weapon in place on its owner's body, or within the weapon's sheath or holster. Anyone who
-then tries to draw the weapon must spend a standard action and succeed at a Strength check (DC equal
-to the saving throw DC) to do so, provoking attacks of opportunity whether the attempt succeeds or
-fails.
-
 ### Greater Peacebond
 
 **Sources:** Ultimate Intrigue pg 221

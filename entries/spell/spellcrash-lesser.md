@@ -67,17 +67,3 @@ Any spell or spell slot lost because of this spell is treated as if the caster h
 [concentration](ref/rule/concentration) check while trying to cast it - the spell or spell slot is
 wasted and has no effect, but is recovered normally the next time the character prepares spells or
 regains spell slots.
-
-### Spellcrash
-
-**Sources:** Advanced Class Guide pg 193
-
-This spell functions as lesser spellcrash, except that it affects 5th-level or lower prepared spells
-or spell slots.
-
-### Greater Spellcrash
-
-**Sources:** Advanced Class Guide pg 194
-
-This spell functions as lesser spellcrash, except that it affects 7th-level or lower prepared spells
-or spell slots.

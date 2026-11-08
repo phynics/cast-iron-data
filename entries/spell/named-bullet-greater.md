@@ -48,23 +48,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 :::
 
-## Named Bullet
-
-**Sources:** Ultimate Combat pg 238
-
-You imbue the target with deadly accuracy against a selected creature type (and subtype for
-humanoids or outsiders) or a specific creature you know and can name. When used against the selected
-creature, the ammunition never misfires and is unaffected by [concealment](ref/rule/concealment)
-(but not total concealment), and at a range of 30 feet or less, the attack targets the selected
-creature's touch AC. When the target hits the selected creature, you must overcome that creature's
-[spell resistance](ref/rule/spell-resistance), or this spell has no effect. A normal hit scored
-using the target against the selected creature is considered to be a critical threat and deals 1
-extra point of damage per caster level (maximum 20), which is not multiplied on a critical hit. A
-natural critical hit deals the same extra damage, but that damage is multiplied due to the critical.
-
-Once the target is used to attack the selected creature, successfully or not, this spell is
-discharged.
-
 ### Mythic Named Bullet
 
 **Sources:** Mythic Adventures pg 102

@@ -82,17 +82,3 @@ your spells. Until the contract ends, your 5th-level spell slot used to cast thi
 expended and cannot be filled with a new spell. Because you imbued your cohort with a 2nd-level
 spell, you gain a +2 profane bonus to attacks, saves, and checks while the contract remains in
 effect.
-
-### Spellcasting Contract
-
-**Sources:** Pathfinder \#29: Mother of Flies pg 68
-
-This spell functions like lesser spellcasting contract, except if the target has 9 HD or more, you
-can imbue him with one or two 2nd-level spells and one 3rd-level spell.
-
-### Greater Spellcasting Contract
-
-**Sources:** Pathfinder \#29: Mother of Flies pg 68
-
-This spell functions like lesser spellcasting contract, except if the target has 13 HD or more you
-can imbue him with one or two 4th-level spells and one 5th-level spell.

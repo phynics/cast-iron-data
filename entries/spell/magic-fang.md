@@ -57,19 +57,6 @@ Magic fang can be made permanent with a [permanency](ref/spell/permanency) spell
 The spell affects an additional number of the target's natural weapons equal to your tier. For
 example, if you're 3rd tier, it could affect two claws and one bite).
 
-### Greater Magic Fang
-
-**Sources:** PRPG Core Rulebook pg 309
-
-This spell functions like magic fang, except that the enhancement bonus on attack and damage rolls
-is +1 per four caster levels (maximum +5). This bonus does not allow a natural weapon or unarmed
-strike to bypass [damage reduction](ref/rule/damage-reduction) aside from magic.
-
-Alternatively, you may imbue all of the creature's natural weapons with a +1 enhancement bonus
-(regardless of your caster level).
-
-Greater magic fang can be made permanent with a [permanency](ref/spell/permanency) spell.
-
 ### Greater Mythic Magic Fang
 
 **Sources:** Mythic Adventures pg 100

@@ -41,19 +41,6 @@ Saving throw: see text
 Spell resistance: no (object) and yes (see text)
 :::
 
-## Hex Glyph
-
-**Sources:** Advanced Class Guide pg 184
-
-This spell functions like the spell glyph version of [glyph of warding](ref/spell/glyph-of-warding),
-except you can store a hex you know (but not a major hex or a grand hex) instead of a spell. If the
-hex has a target, it targets the intruder. If the hex has an area or an amorphous effect, the area
-or effect is centered on the intruder. The triggered hex uses this spell's caster level and DC.
-
-[Read magic](ref/spell/read-magic) allows its caster to identify a hex glyph with a successful DC 13
-Knowledge (arcana) check. Identifying the glyph does not discharge it and indicates that it stores a
-hex, but does not indicate the effect of that hex.
-
 ### Greater Hex Glyph
 
 **Sources:** Advanced Class Guide pg 184

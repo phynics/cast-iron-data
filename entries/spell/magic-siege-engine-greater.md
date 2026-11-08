@@ -51,14 +51,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 :::
 
-## Magic Siege Engine
-
-**Sources:** Ultimate Combat pg 236
-
-This spell permits an indirect fire siege engine to bombard its targets with greater accuracy,
-delivering more damage. The siege weapon receives a +1 enhancement bonus on targeting rolls and
-damage rolls. If used on a direct fire siege weapon, this spell acts a magic weapon.
-
 ### Greater Magic Siege Engine
 
 **Sources:** Ultimate Combat pg 236

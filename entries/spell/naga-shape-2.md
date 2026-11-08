@@ -48,27 +48,6 @@ Target: you
 Subschool: Polymorph
 :::
 
-## Naga Shape I
-
-**Sources:** Blood of the Beast pg 19
-
-> _The following spells are the result of generations of [nagaji](ref/race/nagaji) tradition, but
-> spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them
-> further._
-
-Whenever you cast this spell, you can assume the form of any type of Large naga (including most
-nagas, but not royal nagas), though not the form of a specific individual. In effect, you transform
-into a Large serpent, gaining a +4 size bonus to your Strength, a -2 penalty to your Dexterity, and
-a +4 natural armor bonus. Unlike with beast shape II, however, you keep your own head when using
-this spell and can cast spells with verbal and somatic components, even though the naga form doesn't
-have hands.
-
-If the form you assume has any of the following abilities, you gain the listed ability: climb 60
-feet, fly 60 feet (good maneuverability), swim 60 feet, [darkvision](ref/rule/darkvision) 60 feet,
-[low-light vision](ref/rule/low-light-vision), and scent.
-
-This spell is only availaable to Nagaji and characters who have the naga bloodline.
-
 ### Naga Shape II
 
 **Sources:** Blood of the Beast pg 19
@@ -79,14 +58,3 @@ has any of the following abilities, you gain the listed ability: burrow 30 feet,
 feet, [darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision),
 compression, constrict, detect thoughts, dreamsight, grab, hypnosis, poison, sneak attack +2d6, and
 spit.
-
-### Naga Shape III
-
-**Sources:** Blood of the Beast pg 19
-
-This spell functions as naga shape I. Additionally, if the form you assume has any of the following
-abilities, you gain the listed ability: burrow 60 feet, climb 90 feet, fly 120 feet (good
-maneuverability), swim 120 feet, [blindsense](ref/rule/blindsight-and-blindsense) 60 feet,
-[darkvision](ref/rule/darkvision) 90 feet, [low-light vision](ref/rule/low-light-vision),
-[tremorsense](ref/umr/tremorsense) 60 feet, bleed, compression, constrict, detect thoughts,
-dreamsight, grab, hypnosis, poison, sneak attack +3d6, and spit.

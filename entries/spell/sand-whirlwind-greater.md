@@ -44,16 +44,6 @@ Spell resistance: no
 Subschool: Creation
 :::
 
-## Sand Whirlwind
-
-**Sources:** Taldor, Echoes of Glory pg 25
-
-A whirling cloud of sand strikes the target, blinding it and hampering its ability to speak. To
-speak while affected by the spell, the target must make a [concentration](ref/rule/concentration)
-check (DC equal to the DC of this spell). If the target tries to cast a spell, the Concentration DC
-increases by the level of the spell being cast. A successful Will save negates the blindness but not
-the speechhampering effect.
-
 ### Greater Sand Whirlwind
 
 **Sources:** Taldor, Echoes of Glory pg 25

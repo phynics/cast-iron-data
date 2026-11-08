@@ -99,10 +99,3 @@ for a number of days equal to your tier.
 
 Alternatively, if you're 8th tier and expend 10 uses of mythic power, any skeletons you create
 permanently gain the [mythic skeleton](ref/template/mythic-skeleton) template.
-
-### Lesser Animate Dead
-
-**Sources:** Ultimate Magic pg 205
-
-This spell functions as animate dead, except you can only create a single Small or Medium skeleton
-or zombie. You cannot create variant skeletons or zombies with this spell.

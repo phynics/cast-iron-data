@@ -47,13 +47,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 :::
 
-## Lighten Object
-
-**Sources:** Inner Sea Gods pg 236, Faiths of Balance pg 28
-
-The target's weight decreases by half. If this spell is cast on armor, the armor's armor check
-penalty decreases by 1, though its categorization as light, medium, or heavy does not change.
-
 ### Mass Lighten Object
 
 **Sources:** Inner Sea Gods pg 236

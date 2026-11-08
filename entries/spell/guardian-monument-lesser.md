@@ -60,9 +60,3 @@ suppressed this way.
 
 Normally, the area of effect is 40 feet from the touched object. If the touched object is a monument
 to human achievement, the area increases to a 60-foot radius.
-
-### Greater Guardian Monument
-
-**Sources:** Arcane Anthology pg 9
-
-This spell functions as lesser guardian monument, except it grants DR 4/magic.

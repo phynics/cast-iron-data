@@ -48,32 +48,6 @@ Saving throw: none
 Spell resistance: no
 :::
 
-## Lesser Object Possession
-
-**Sources:** Occult Adventures pg 179
-
-This spell functions as [possession](ref/spell/possession), except you possess an object instead of
-a creature.
-
-A possessed object becomes capable of animation, gaining the statistics of an
-[animated object](ref/monster/animated-object) of its size (including 1 CP worth of abilities). You
-can't use any spells or other abilities while possessing an object.
-
-A spiritual tether connects your body to the possessed object, in a manner similar to a
-[silver cord](ref/rule/astral-plane-oa). If the possessed object and your body are ever farther than
-close range (25 ft. + 5 ft./2 levels) from one another, this tether breaks, returning your
-consciousness to your body.
-
-### Object Possession
-
-**Sources:** Occult Adventures pg 179
-
-This spell functions as lesser object possession, except as noted above. The possessed animated
-object has a number of Construction Points appropriate for its size (up to 3 CP for Large objects).
-
-You can return your consciousness to your body as a standard action. On your next turn, you can
-attempt to possess a different object as a standard action instead of ending the spell.
-
 ### Greater Object Possession
 
 **Sources:** Occult Adventures pg 179

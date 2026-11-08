@@ -71,31 +71,3 @@ round. Creatures within a silence spell cannot hear the ringing.
 Ethereal or astral creatures do not trigger the alarm.
 
 Alarm can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Escape Alarm
-
-**Sources:** Villain Codex pg 45
-
-You place a ward on an area that notifies you when a creature exits it. This functions as alarm,
-except as noted. It alerts you when a creature leaves, rather than enters, the area, and you can't
-select a password to bypass its effects. Instead, when you place an escape alarm, you can attune up
-to one additional creature per caster level to the spell. You are automatically attuned to your own
-escape alarm and don't count against the limit. Attuned creatures can enter and exit the spell's
-area without triggering the alarm. If you select a mental alarm rather than an audible one, all
-attuned creatures receive the mental alert when someone exits the warded area.
-
-### Selective Alarm
-
-**Sources:** Ultimate Intrigue pg 224
-
-This spell functions as alarm, except that you can tweak the spell to be more discerning in what
-types of creatures or objects trigger the alarm. Instead of being triggered whenever a creature of
-Tiny size or larger enters the warded area, you can set whatever triggering conditions you wish, as
-long as they are based on observable phenomenon. For example, you could cause the selective alarm to
-trigger when creatures of a certain race (such as orcs, bugbears, or kobolds) enter the area, or
-whenever a group of four or more creatures enters the area together, or when a metal object is
-brought into the area. You can't choose triggering conditions that rely on unobservable information,
-such as having it triggered when creatures of a certain alignment enter the area, nor could you have
-the alarm be triggered by "something worth more than 5,000 gp" entering the area, or even "a weapon"
-entering the area, because an item's value and classification as a weapon is subjective, and might
-vary from one person to the next.

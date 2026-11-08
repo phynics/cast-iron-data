@@ -58,10 +58,3 @@ appear. Likewise, the spell does not add to the target's true age, and cannot ma
 old age.
 
 When the spell ends, the sudden weight of aging makes you fatigued for 1d4 hours.
-
-### Greater Steal Years
-
-**Sources:** Blood of the Night pg 30
-
-This spell functions like steal years, except you drain 1d6 years per two caster levels (maximum
-10d6).

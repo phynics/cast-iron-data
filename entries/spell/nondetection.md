@@ -64,18 +64,3 @@ of 11 + the caster level of the spellcaster who cast nondetection. If you cast n
 yourself or on an item currently in your possession, the DC is 15 + your caster level.
 
 If cast on a creature, nondetection wards the creature's gear as well as the creature itself.
-
-### Nex's Secret Workshop
-
-**Sources:** Inner Sea Intrigue pg 60
-
-Designed to protect a large number of items from rivals of the Arclords of Nex, this spell functions
-as nondetection except as noted above. You can exclude any creatures or objects in the spell's range
-when casting this spell, if you wish.
-
-### Communal Nondetection
-
-**Sources:** Ultimate Combat pg 238
-
-This spell functions like nondetection, except you divide the duration in 1-hour increments among
-the creatures or objects touched.

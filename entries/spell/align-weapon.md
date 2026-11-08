@@ -49,11 +49,3 @@ effect on a weapon that already has an alignment.
 You can't cast this spell on a natural weapon, such as an unarmed strike. When you make a weapon
 chaotic, evil, good, or lawful, align weapon is a chaotic, evil, good, or lawful spell,
 respectively.
-
-### Communal Align Weapon
-
-**Sources:** Advanced Class Guide pg 173
-
-This spell functions as align weapon, except you divide the duration in 1-minute increments between
-any number of touched weapons. Every group of up to 50 projectiles (which must be together at the
-time of casting) counts as one weapon for the purpose of dividing the spell's duration.

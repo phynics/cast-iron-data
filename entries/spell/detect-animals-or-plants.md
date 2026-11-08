@@ -73,10 +73,3 @@ If a creature falls into more than one category, the spell indicates the weaker 
 Each round you can turn to detect a kind of animal or plant in a new area. The spell can penetrate
 barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or
 dirt blocks it.
-
-### Detect Aberration
-
-**Sources:** Advanced Player's Guide pg 215
-
-This spell functions like _detect animals or plants,_ except it detects creatures of the aberration
-type.

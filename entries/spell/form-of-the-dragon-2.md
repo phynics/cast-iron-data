@@ -47,38 +47,6 @@ Target: you
 Subschool: Polymorph
 :::
 
-## Form of the Dragon I
-
-**Sources:** PRPG Core Rulebook pg 286
-
-You become a Medium chromatic or metallic dragon. You gain a +4 size bonus to Strength, a +2 size
-bonus to Constitution, a +4 natural armor bonus, fly 60 feet (poor),
-[darkvision](ref/rule/darkvision) 60 feet, a breath weapon, and resistance to one element. You also
-gain one bite (1d8), two claws (1d6), and two wing attacks (1d4). Your breath weapon and resistance
-depend on the type of dragon. You can only use the breath weapon once per casting of this spell. All
-breath weapons deal 6d8 points of damage and allow a Reflex save for half damage. In addition, some
-of the dragon types grant additional abilities, as noted below.
-
-_Black dragon:_ 60-foot line of acid, resist acid 20, swim 60 feet
-
-_Blue dragon:_ 60-foot line of electricity, resist electricity 20, burrow 20 feet
-
-_Green dragon:_ 30-foot cone of acid, resist acid 20, swim 40 feet
-
-_Red dragon:_ 30-foot cone of fire, resist fire 30, vulnerability to cold
-
-_White dragon:_ 30-foot cone of cold, resist cold 20, swim 60 feet, vulnerability to fire
-
-_Brass dragon:_ 60-foot line of fire, resist fire 20, burrow 30 feet, vulnerability to cold
-
-_Bronze dragon:_ 60-foot line of electricity, resist electricity 20, swim 60 feet
-
-_Copper dragon:_ 60-foot line of acid, resist acid 20, spider climb (always active)
-
-_Gold dragon:_ 30-foot cone of fire, resist fire 20, swim 60 feet
-
-_Silver dragon:_ 30-foot cone of cold, resist cold 30, vulnerability to fire
-
 ### Mythic Form of the Dragon I
 
 **Sources:** Mythic Adventures pg 96
@@ -130,21 +98,6 @@ breath weapon damage increases by 2d8. All of the dragon form's natural attacks 
 _Augmented (3rd):_ If you expend two uses of mythic power, the ability score bonuses increase by an
 additional 2. During each casting of the spell, you can revert to your normal form or back to your
 dragon form without ending the spell a number of times equal to your tier.
-
-### Form of the Dragon III
-
-**Sources:** PRPG Core Rulebook pg 286
-
-This spell functions as form of the dragon II save that it also allows you to take the form of a
-Huge chromatic or metallic dragon. You gain the following abilities: a +10 size bonus to Strength, a
-+8 size bonus to Constitution, a +8 natural armor bonus, fly 120 feet (poor),
-[blindsense](ref/rule/blindsight-and-blindsense) 60 feet, [darkvision](ref/rule/darkvision) 120
-feet, a breath weapon, DR 10/magic, frightful presence (DC equal to the DC for this spell), and
-immunity to one element (of the same type form of the dragon I grants resistance to). You also gain
-one bite (2d8), two claws (2d6), two wing attacks (1d8), and one tail slap attack (2d6). You can use
-the breath weapon as often as you like, but you must wait 1d4 rounds between uses. All breath
-weapons deal 12d8 points of damage and allow a Reflex save for half damage. Line breath weapons
-increase to 100-foot lines and cones increase to 50-foot cones.
 
 ### Mythic Form of the Dragon III
 

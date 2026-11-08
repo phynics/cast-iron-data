@@ -51,10 +51,3 @@ means such as detect magic or arcane sight. Both the desired spell effect and ma
 hidden from detect magic, although more powerful spells (such as arcane sight) pierce the deception
 if the caster succeeds on a Will save. Analyze dweomer automatically detects both mask dweomer and
 any masked spell effects.
-
-### Communal Mask Dweomer
-
-**Sources:** Ultimate Combat pg 236
-
-This spell functions like mask dweomer, except you divide the duration in 1-day increments among the
-creatures or objects touched.

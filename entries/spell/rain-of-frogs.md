@@ -52,16 +52,6 @@ Effect: one swarm of bats, rats, or spiders
 Subschool: Summoning
 :::
 
-## Summon Swarm
-
-**Sources:** PRPG Core Rulebook pg 354
-
-You summon a swarm of [bats](ref/monster/bat-bat-swarm), [rats](ref/monster/rat-rat-swarm), or
-[spiders](ref/monster/spider-spider-swarm) (your choice), which attacks all other creatures within
-its area. (You may summon the swarm so that it shares the area of other creatures.) If no living
-creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The
-caster has no control over its target or direction of travel.
-
 ### Mythic Summon Swarm
 
 **Sources:** Mythic Adventures pg 109

@@ -51,14 +51,6 @@ Subschool: Compulsion
 Descriptors: good, mind-affecting
 :::
 
-## Touch of Mercy
-
-**Sources:** Champions of Purity pg 29
-
-The target creature deals only nonlethal damage with all of its weapon attacks. Damage taken by
-creatures or objects that are not subject to nonlethal damage is not converted to nonlethal and
-remains lethal damage. The weapon retains all of its other normal properties.
-
 ### Hymn of Mercy
 
 **Sources:** Champions of Purity pg 29

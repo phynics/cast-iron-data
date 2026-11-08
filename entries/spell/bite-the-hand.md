@@ -56,10 +56,3 @@ acts normally according to its last task or instructions. This spell has no effe
 creatures, summoned creatures not brought forth by spells or
 [spell-like abilities](ref/umr/spell-like-abilities) (such as a summoner's eidolon), or bonded
 creatures not explicitly summoned, such as a paladin's mount or wizard's familiar.
-
-### Mass Bite the Hand
-
-**Sources:** Pathfinder Society Field Guide pg 57
-
-This spell functions like bite the hand, except as noted above. The target creatures do not need to
-have all been summoned by the same being.

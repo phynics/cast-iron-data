@@ -58,25 +58,3 @@ supernatural or extraordinary abilities, such as breath weapons or gaze attacks.
 Only a particular spell can be protected against, not a certain domain or school of spells or a
 group of spells that are similar in effect. A creature can have only one spell immunity or greater
 spell immunity spell in effect on it at a time.
-
-### Communal Spell Immunity
-
-**Sources:** Ultimate Combat pg 244
-
-This spell functions like spell immunity, except you divide the duration in 10-minute intervals
-among the creatures touched.
-
-### Greater Spell Immunity
-
-**Sources:** PRPG Core Rulebook pg 347
-
-This spell functions like spell immunity, except the immunity applies to spells of 8th level or
-lower. A creature can have only one spell immunity or greater spell immunity spell in effect on it
-at a time.
-
-### Greater Communal Spell Immunity
-
-**Sources:** Ultimate Combat pg 245
-
-This spell functions like greater spell immunity, except you divide the duration among the creatures
-in 10-minute intervals among the creatures touched.

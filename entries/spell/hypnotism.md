@@ -66,16 +66,3 @@ communicate with it). The request must be brief and reasonable. Even after the s
 creature retains its new attitude toward you, but only with respect to that particular request.
 
 A creature that fails its saving throw does not remember that you enspelled it.
-
-### Greater Hypnotism
-
-**Sources:** Blood of the Beast pg 19
-
-> _The following spell is the result of generations of [nagaji](ref/race/nagaji) tradition, but
-> spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them
-> further._
-
-This functions as hypnotism, except it affects 2 Hit Die of creatures per caster level you have. You
-can make up to five requests (instead of a single request) to each creature affected by the spell,
-and the requests can be as long and as complicated as you desire (though they still must be
-reasonable).

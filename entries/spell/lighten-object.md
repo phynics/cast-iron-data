@@ -52,15 +52,3 @@ Target: 1 object of up to 1 cubic ft./level
 
 The target's weight decreases by half. If this spell is cast on armor, the armor's armor check
 penalty decreases by 1, though its categorization as light, medium, or heavy does not change.
-
-### Mass Lighten Object
-
-**Sources:** Inner Sea Gods pg 236
-
-This spell functions like lighten object, except that it affects a number of objects equal to half
-your caster level.
-
-Some spells are more common among the worshipers of a god. Worshipers of a spell's associated deity
-always treat the spell as common, and need not research it in order to prepare or learn it. This
-spell is available to members of other faiths, though some temples or religious organizations may
-proscribe the use of specific spells.

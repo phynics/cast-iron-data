@@ -40,22 +40,6 @@ Spell resistance: yes
 Area: 20-ft.-radius emanation centered on you
 :::
 
-## Intellect Fortress I
-
-**Sources:** Occult Adventures pg 174
-
-Using the power of pure logic, you disrupt mental attacks. Intellect fortress I suppresses all
-effects with the emotion and fear descriptors for its duration.
-
-### Intellect Fortress II
-
-**Sources:** Occult Adventures pg 175
-
-This spell functions as intellect fortress I, but in addition, any mind-affecting effects that deal
-damage have their damage reduced by half (before any reduction due to a successful save or other
-effect). This applies to both hit point damage and ability score damage. This spell can be
-undercast.
-
 ### Intellect Fortress III
 
 **Sources:** Occult Adventures pg 175

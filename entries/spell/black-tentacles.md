@@ -84,21 +84,3 @@ _Augmented (6th):_ If you expend two uses of mythic power, the spell creates twi
 in the same area, meaning each creature in the area is attacked twice per round. The tentacles can
 grapple creatures that are immune to grappling if that immunity is from a non-mythic source, but
 combat maneuver checks to grapple such creatures take a -5 penalty.
-
-### Grasping Tentacles
-
-**Sources:** Dirty Tactics Toolbox pg 30
-
-This spell functions as black tentacles, except the tentacles blindly grasp at the targets' eyes and
-ears, and tug at their hair, clothes, and equipment. Instead of grapple attempts, the tentacles
-attempt dirty trick combat maneuver checks (CMB = your caster level + 4 \[the tentacles' Strength
-bonus\] + 1 \[the tentacles' size bonus\]). Roll on the following table to determine the effect of a
-successful dirty trick combat maneuver check.
-
-|d%|Effect|
-| --- | --- |
-|01-20|Blinded. The tentacles suction over the victim's eyes.|
-|21-40|Deafened. The tentacles clap themselves around the victim's ears.|
-|41-60|Entangled. The tentacles weave around the victim's limbs.|
-|61-80|Shaken. The tentacles menace the victim from all sides. This is a fear effect.|
-|81-100|Sickened. The tentacles give off sickening vapors. This is a poison effect.|

@@ -50,9 +50,3 @@ fire damage per 2 caster levels (maximum 10d6) you have.
 If the target is an advanced firearm, and the firearm misfires a second time in a row while this
 spell is in effect, it does not explode but still deals the additional damage to the wielder as
 described.
-
-### Greater Violent Misfire
-
-**Sources:** People of the Wastes pg 29
-
-This spell functions as violent misfire except as noted above.

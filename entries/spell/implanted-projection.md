@@ -46,17 +46,6 @@ Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
 
-## Telempathic Projection
-
-**Sources:** Occult Adventures pg 188
-
-You alter the target's mood, adjusting its attitude toward you or another creature you designate by
-one step either positively or negatively (see the [Diplomacy skill](ref/skill/diplomacy)). You can
-instead use this spell to assist your own or an ally's Bluff, Diplomacy, Intimidate, Perform, or
-Sense Motive check, granting that check a +5 insight bonus against the target of your telempathic
-projection with no save. In this case, the spell's duration expires immediately when the skill check
-is complete.
-
 ### Implanted Projection
 
 **Sources:** Occult Origins pg 13

@@ -54,16 +54,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 :::
 
-## Magic Weapon
-
-**Sources:** PRPG Core Rulebook pg 310
-
-Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls. An enhancement bonus
-does not stack with a masterwork weapon's +1 bonus on attack rolls.
-
-You can't cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang).
-A monk's unarmed strike is considered a weapon, and thus it can be enhanced by this spell.
-
 ### Greater Magic Weapon
 
 **Sources:** PRPG Core Rulebook pg 310
@@ -76,14 +66,3 @@ Alternatively, you can affect as many as 50 arrows, bolts, or bullets. The proje
 the same kind, and they have to be together (in the same quiver or other container). Projectiles,
 but not thrown weapons, lose their transmutation after they are used. Treat shuriken as projectiles,
 rather than as thrown weapons, for the purpose of this spell.
-
-### Greater Mythic Magic Weapon
-
-**Sources:** Mythic Adventures pg 100
-
-You can add one of the following weapon special abilities to the weapon: flaming, frost, keen,
-merciful, shock, or thundering.
-
-_Augmented (5th):_ If you expend two uses of mythic power, you can reduce the granted enhancement
-bonus by 1 to add two of the above abilities or one of the following abilities: anarchic, axiomatic,
-flaming burst, holy, icy burst, shocking burst, or unholy.

@@ -53,24 +53,6 @@ Target: you
 Subschool: Polymorph
 :::
 
-## Vermin Shape I
-
-**Sources:** Ultimate Magic pg 246, Book of the Damned - Volume 2: Lords of Chaos pg 48, Inner Sea
-World Guide pg 297
-
-When you cast this spell, you assume the form of any Small or Medium creature of the vermin type. If
-the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet,
-fly 30 feet (average maneuverability), swim 30 feet, [darkvision](ref/rule/darkvision) 60 feet,
-[low-light vision](ref/rule/low-light-vision), scent, and lunge. You don't gain full immunity to
-mind-affecting effects, but you do gain a +2 resistance bonus on all saving throws against such
-effects.
-
-_Small vermin:_ If you take the form of a Small vermin, you gain a +2 size bonus to your Dexterity
-and a +2 natural armor bonus.
-
-_Medium vermin:_ If you take the form of a Medium vermin, you gain a +2 size bonus to your Strength
-and a +3 natural armor bonus.
-
 ### Mythic Vermin Shape I
 
 **Sources:** Mythic Origins pg 13

@@ -73,12 +73,3 @@ is, this bonus is reduced by 4 (to a minimum of +0 for Huge or larger creatures)
 You also maintain a faint mystical connection with these insects, which allows you to sense where
 they are. As a full-round action, you can concentrate on the spell in order to learn the direction
 and relative distance of each of the insects.
-
-### Greater Insect Spies
-
-**Sources:** Ultimate Intrigue pg 217
-
-As insect spies, but you can also borrow the senses of the summoned insects. As a move action, you
-can choose to receive sensory input from one of the insects, seeing what it sees and hearing what it
-hears. While doing so, you are treated as being blind and deaf. You can change to another insect, or
-return to your own senses, with another move action.

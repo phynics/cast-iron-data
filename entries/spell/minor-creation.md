@@ -57,22 +57,6 @@ check to make a complex item.
 
 Attempting to use any created object as a material component causes the spell to fail.
 
-### Major Creation
-
-**Sources:** PRPG Core Rulebook pg 311
-
-This spell functions like minor creation, except that you can also create an object of mineral
-nature: stone, crystal, metal, or the like. The duration of the created item varies with its
-relative [hardness](ref/umr/hardness) and rarity, as indicated on the following table.
-
-|Hardness and Rarity Examples|Duration|
-| --- | --- |
-|Vegetable matter|2 hr./level|
-|Stone, crystal, base metals|1 hr./level|
-|Precious metals|20 min./level|
-|Gems|10 min./level|
-|Rare metal^[1](ref/spell/minor-creation#footnote-r)^|1 round/level|
-
 ###### ^1^ {#footnote-r}
 
 Includes adamantine, alchemical silver, and mithral. You can't use major creation to create a cold

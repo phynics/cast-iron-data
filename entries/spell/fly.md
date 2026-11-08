@@ -77,9 +77,3 @@ is protected by feather fall for a number of rounds equal to your caster level.
 
 _Augmented (3rd):_ If you expend two uses of mythic power, the target adds your tier on Reflex saves
 and as a dodge bonus to AC. It gains these bonuses only while flying.
-
-### Mass Fly
-
-**Sources:** Advanced Player's Guide pg 223
-
-This spell functions as fly, save that it can target numerous creatures and lasts longer.

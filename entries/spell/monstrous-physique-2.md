@@ -49,22 +49,6 @@ Target: you
 Subschool: Polymorph
 :::
 
-## Monstrous Physique I
-
-**Sources:** Ultimate Magic pg 229
-
-When you cast this spell, you can assume the form of any Small or Medium creature of the monstrous
-humanoid type. If the form you assume has any of the following abilities, you gain the listed
-ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet,
-[darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision), and scent.
-If the form you assume has the aquatic subtype, you gain the aquatic and amphibious subtypes.
-
-_Small monstrous humanoid:_ If the form you take is that of a Small monstrous humanoid, you gain a
-+2 size bonus to your Dexterity and a +1 natural armor bonus.
-
-_Medium monstrous humanoid:_ If the form you take is that of a Medium monstrous humanoid, you gain a
-+2 size bonus to your Strength and a +2 natural armor bonus.
-
 ### Mythic Monstrous Physique I
 
 **Sources:** Mythic Adventures pg 102
@@ -123,27 +107,6 @@ _Augmented (4th):_ If you expend two uses of mythic power, the ability score bon
 additional 2. Additionally, you can cast this spell on other willing creatures, changing the range
 to touch and the target to one creature per tier.
 
-### Monstrous Physique III
-
-**Sources:** Ultimate Magic pg 229
-
-This spell functions as monstrous physique II, except it also allows you to assume the form of a
-Diminutive or Huge creature of the monstrous humanoid type. If the form you assume has any of the
-following abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly 90 feet (good
-maneuverability), swim 90 feet, all-around vision, [blindsense](ref/rule/blindsight-and-blindsense)
-30 feet, [darkvision](ref/rule/darkvision) 60 feet, [low-light vision](ref/rule/low-light-vision),
-scent, blood frenzy, cold vigor, constrict, ferocity, freeze, grab, horrific appearance, jet, leap
-attack, mimicry, natural cunning, overwhelming, poison, pounce, rake, sound mimicry, speak with
-sharks, trample, trip, and web. If the creature has the undersized weapons special quality, you gain
-that quality.
-
-_Diminutive monstrous humanoid:_ If the form you take is that of a Diminutive monstrous humanoid,
-you gain a +6 size bonus to your Dexterity, a -4 penalty to your Strength, and a +1 natural armor
-bonus.
-
-_Huge monstrous humanoid:_ If the form you take is that of a Huge monstrous humanoid, you gain a +6
-size bonus to your Strength, a -4 penalty to your Dexterity, and a +6 natural armor bonus.
-
 ### Mythic Monstrous Physique III
 
 **Sources:** Mythic Adventures pg 102
@@ -163,22 +126,6 @@ creature.
 _Augmented (4th):_ If you expend two uses of mythic power, the ability score bonuses increase by an
 additional 2. Additionally, you can cast this spell on other willing creatures, changing the range
 to touch and the target to one creature per tier.
-
-### Monstrous Physique IV
-
-**Sources:** Ultimate Magic pg 229
-
-This spell functions as monstrous physique III except it allows you to use more abilities. If the
-form you assume has any of the following abilities, you gain the listed ability: burrow 60 feet,
-climb 90 feet, fly 120 feet (good maneuverability), swim 120 feet,
-[blindsense](ref/rule/blindsight-and-blindsense) 60 feet, [darkvision](ref/rule/darkvision) 90 feet,
-[low-light vision](ref/rule/low-light-vision), scent, [tremorsense](ref/umr/tremorsense) 60 feet,
-blood frenzy, breath weapon, cold vigor, constrict, ferocity, freeze, grab, horrific appearance,
-jet, leap attack, mimicry, natural cunning, overwhelming, poison, pounce, rake, rend, roar, sound
-mimicry, speak with sharks, spikes, trample, trip, and web. If the creature has immunity or
-resistance to any energy types, you gain resistance 20 to those energy types. If the creature has
-vulnerability to an energy type, you gain that vulnerability. If the creature has immunity to
-poison, you gain a +8 bonus on saves against poison.
 
 ### Mythic Monstrous Physique IV
 

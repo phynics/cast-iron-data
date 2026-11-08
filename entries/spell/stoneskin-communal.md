@@ -57,15 +57,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 :::
 
-## Stoneskin
-
-**Sources:** PRPG Core Rulebook pg 350
-
-The warded creature gains resistance to blows, cuts, stabs, and slashes. The subject gains DR
-10/adamantine. It ignores the first 10 points of damage each time it takes damage from a weapon,
-though an adamantine weapon bypasses the reduction. Once the spell has prevented a total of 10
-points of damage per caster level (maximum 150 points), it is discharged.
-
 ### Mythic Stoneskin
 
 **Sources:** Mythic Adventures pg 109
@@ -73,14 +64,6 @@ points of damage per caster level (maximum 150 points), it is discharged.
 The target gains a +4 bonus on saving throws against disease, poison, and stun effects. There is a
 50% chance any critical hit or sneak attack against the target is treated as a normal hit, as if the
 target were wearing medium fortification armor.
-
-### Clay Skin
-
-**Sources:** Potions and Poisons pg 17
-
-The target's skin becomes as thick and tough as clay, granting the target DR 5/adamantine. Once the
-spell has prevented a total of 5 points of damage per caster level (maximum 50 points), it is
-discharged and the spell ends.
 
 ### Communal Stoneskin
 

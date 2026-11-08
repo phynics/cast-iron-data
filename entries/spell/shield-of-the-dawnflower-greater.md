@@ -46,17 +46,6 @@ Spell resistance: no
 Descriptors: fire, good, light
 :::
 
-## Shield of the Dawnflower
-
-**Sources:** Inner Sea World Guide pg 296, Gods and Magic pg 35
-
-You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals
-normal damage, but also takes 1d6 points of fire damage + 1 point per caster level (maximum +15).
-Creatures with reach weapons are not subject to this damage if they attack you. The shield provides
-illumination as if it were a [continual flame](ref/spell/continual-flame) spell. You can only have
-one instance of this spell in effect at a time. It does not stack with similar damaging aura spells
-such as fire shield.
-
 ### Mythic Shield of the Dawnflower
 
 **Sources:** Mythic Origins pg 13

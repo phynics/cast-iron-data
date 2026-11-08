@@ -57,15 +57,6 @@ Subschool: Compulsion
 Descriptors: mind-affecting
 :::
 
-## Daze
-
-**Sources:** PRPG Core Rulebook pg 264
-
-This spell clouds the mind of a humanoid creature with 4 or fewer Hit Dice so that it takes no
-actions. Humanoids of 5 or more HD are not affected. A dazed subject is not stunned, so attackers
-get no special advantage against it. After a creature has been dazed by this spell, it is immune to
-the effects of this spell for 1 minute.
-
 ### Mass Daze
 
 **Sources:** Ultimate Magic pg 216

@@ -109,30 +109,3 @@ creature itself cannot disturb the diagram either directly or indirectly, as not
 
 This spell is not cumulative with [protection from evil](ref/spell/protection-from-evil) and vice
 versa.
-
-### Magic Circle Against Chaos
-
-**Sources:** PRPG Core Rulebook pg 308
-
-This spell functions like _magic circle against evil,_ except that it is similar to
-[protection from chaos](ref/spell/protection-from-chaos) instead of
-_[protection from evil](ref/spell/protection-from-evil),_ and it can imprison a nonlawful called
-creature.
-
-### Magic Circle Against Good
-
-**Sources:** PRPG Core Rulebook pg 308
-
-This spell functions like _magic circle against evil,_ except that it is similar to
-[protection from good](ref/spell/protection-from-good) instead of
-_[protection from evil](ref/spell/protection-from-evil),_ and it can imprison a nonevil called
-creature.
-
-### Magic Circle Against Law
-
-**Sources:** PRPG Core Rulebook pg 308
-
-This spell functions like _magic circle against evil,_ except that it is similar to
-[protection from law](ref/spell/protection-from-law) instead of
-_[protection from evil](ref/spell/protection-from-evil),_ and it can imprison a nonchaotic called
-creature.

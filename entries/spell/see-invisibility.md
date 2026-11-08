@@ -66,9 +66,3 @@ enable you to see through opaque objects. It does not reveal creatures who are s
 concealed, or otherwise hard to see.
 
 See invisibility can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Glimpse the Hidden
-
-**Sources:** Potions and Poisons pg 17
-
-This spell functions as see invisibility, except as noted here. This spell cannot be made permanent.

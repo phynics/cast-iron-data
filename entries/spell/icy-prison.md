@@ -50,9 +50,3 @@ target saves, it takes 1 point of cold damage per caster level each round it is 
 entangled in the ice. The ice has [hardness](ref/umr/hardness) 0 and 3 hit points per inch of
 thickness; if broken, the creature is freed. A creature can break the ice as a full-round action
 with a successful Strength check (DC 15 + your caster level).
-
-### Mass Icy Prison
-
-**Sources:** Ultimate Magic pg 224
-
-This spell functions as icy prison, except as noted above.

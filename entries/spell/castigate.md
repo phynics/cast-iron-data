@@ -48,9 +48,3 @@ You compel the target to beg for forgiveness. On a failed save, the target cower
 successful save, it is shaken for 1 round. Each round on its turn, a cowering subject may attempt a
 new save to end the effect. A creature who worships the same god as you takes a -2 penalty on its
 saving throw.
-
-### Mass Castigate
-
-**Sources:** Advanced Player's Guide pg 210
-
-This spell functions as castigate, except it affects many creatures.

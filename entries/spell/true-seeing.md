@@ -75,9 +75,3 @@ the like. True seeing does not help the viewer see through mundane disguises, sp
 simply hiding, or notice secret doors hidden by mundane means. In addition, the spell effects cannot
 be further enhanced with known magic, so one cannot use true seeing through a crystal ball or in
 conjunction with clairaudience/clairvoyance.
-
-### Glimpse of Truth
-
-**Sources:** Ultimate Intrigue pg 215
-
-This spell functions like true seeing, except as noted above.

@@ -58,10 +58,3 @@ the duration of the spell. This ends the shield bonus. You cannot direct the swo
 a new target once it has begun to attack. If its target moves beyond the sword's range, the sword
 returns to you and hovers until the target is again within range. The sword's return does not
 restore the spell's shield bonus to AC.
-
-### Mass Last Azlanti's Defending Sword
-
-**Sources:** Arcane Anthology pg 9
-
-This spell functions as Last Azlanti's defending sword, except you can create one sword per 5 caster
-levels, each of which must defend a different creature within range.

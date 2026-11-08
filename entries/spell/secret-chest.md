@@ -68,27 +68,3 @@ summoned back, although an extraplanar expedition might be mounted to find it.
 
 Living things in the chest eat, sleep, and age normally, and they die if they run out of food, air,
 water, or whatever they need to survive.
-
-### Secret Coffer
-
-**Sources:** Black Markets pg 31, Heroes of the Streets pg 31
-
-This spell functions like secret chest, except the coffer is only 1 foot square and can contain only
-1 cubic foot of goods, and the container can remain safely hidden on the Ethereal Plane for only 14
-days before it risks becoming lost. The spell automatically fails if a living creature enters the
-coffer. The coffer used as a focus for secret coffer must cost at least 500 gp, and its replica
-costs 5 gp.
-
-### Secret Vault
-
-**Sources:** Black Markets pg 31
-
-This spell functions like secret chest, except it affects a small structure, vault, or oversized
-chest. Living creatures within a secret vault don't cause the spell to fail. While the vault is
-stored on the Ethereal Plane, living creatures within the vault don't need to eat, drink, or
-breathe, but they can't leave the vault except via magic such as plane shift. The vault used as a
-focus for secret vault must cost at least 25,000 gp, and its replica costs 250 gp. A secret vault
-has only a 1% cumulative chance per day of becoming irretrievably lost after 360 days.
-
-> _Note: The original source does not mention a change in duration from *secret chest,* but the text
-> implies a 360-day duration._

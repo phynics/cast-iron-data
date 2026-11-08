@@ -49,18 +49,3 @@ Subschool: Summoning
 
 This spell functions as [summon nature's ally VI](ref/spell/summon-natures-ally-6), except its
 casting time is shorter and you can summon one cave, hill, marsh, river, slag, stone, or wood giant.
-
-### Summon Giant Ally II
-
-**Sources:** Inner Sea Races pg 223
-
-This spell functions as summon giant ally I, except you can summon one desert, fire, frost, or
-jungle giant or 1d3 cave, hill, marsh, river, slag, stone, or wood giants.
-
-### Summon Giant Ally III
-
-**Sources:** Inner Sea Races pg 223
-
-This spell functions as summon giant ally I, except you can summon one ash or cloud giant; 1d3
-desert, fire, frost, or jungle giants; or 1d4+1 cave, hill, marsh, river, slag, stone, or wood
-giants.

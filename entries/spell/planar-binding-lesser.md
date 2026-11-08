@@ -48,24 +48,6 @@ Spell resistance: no and yes; see text
 Subschool: Calling
 :::
 
-## Planar Binding
-
-**Sources:** PRPG Core Rulebook pg 321
-
-This spell functions like lesser planar binding, except that you may call a single creature of 12 HD
-or less, or up to three creatures of the same kind whose Hit Dice total no more than 12. Each
-creature gets a saving throw, makes an independent attempt to escape, and must be individually
-persuaded to aid you.
-
-### Greater Planar Binding
-
-**Sources:** PRPG Core Rulebook pg 321
-
-This spell functions like lesser planar binding, except that you may call a single creature of 18 HD
-or less, or up to three creatures of the same kind whose Hit Dice total no more than 18. Each
-creature gets a saving throw, makes an independent attempt to escape, and must be individually
-persuaded to aid you.
-
 ### Lesser Planar Binding
 
 **Sources:** PRPG Core Rulebook pg 321

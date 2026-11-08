@@ -58,10 +58,3 @@ Descriptors: mind-affecting
 
 This spell functions like hold person, except that it affects any living creature that fails its
 Will save.
-
-### Mass Hold Monster
-
-**Sources:** PRPG Core Rulebook pg 296
-
-This spell functions like hold person, except that it affects multiple creatures and holds any
-living creature that fails its Will save.

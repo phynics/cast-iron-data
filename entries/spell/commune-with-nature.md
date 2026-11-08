@@ -54,27 +54,3 @@ In outdoor settings, the spell operates in a radius of 1 mile per caster level. 
 underground settings - caves, caverns, and the like - the spell is less powerful, and its radius is
 limited to 100 feet per caster level. The spell does not function where nature has been replaced by
 construction or settlement, such as in dungeons and towns.
-
-### Signs of the Land
-
-**Sources:** Ultimate Wilderness pg 235
-
-This spell functions as commune with nature except it reveals up to three details about the
-territory you currently occupy from the following list: bodies of water, features, minerals, or
-plants. For each feature you learn about, you automatically know the skills you can use to discover
-that feature and you gain 1d6 [Discovery Points](ref/rule/discovery-and-exploration) toward finding
-it.
-
-### Tectonic Communion
-
-**Sources:** Faiths and Philosophies pg 29
-
-Tectonic communion functions as commune with nature with an even greater range. In outdoor or
-natural underground settings, the spell operates on a radius of 100 miles per caster level,
-extending even underground without penalty.
-
-For every 2 caster levels above 13th, you may glean an additional fact from the list presented in
-commune with nature. Communities, dungeons, and signs of civilization (such as roads, farms or other
-constructions and settlements) exist as dark and unknowable blots in your perception of the spell's
-area; you're aware of their location and existence, but can't discern any information regarding
-them.

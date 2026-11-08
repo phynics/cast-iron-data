@@ -50,13 +50,6 @@ Effect: one mount
 Subschool: Summoning
 :::
 
-## Mount
-
-**Sources:** PRPG Core Rulebook pg 315
-
-You summon a light horse or a pony (your choice) to serve you as a mount. The steed serves willingly
-and well. The mount comes with a bit and bridle and a riding saddle.
-
 ### Communal Mount
 
 **Sources:** Ultimate Combat pg 237

@@ -51,12 +51,3 @@ Target: one living creature/level that is a reptile, has the dragon type, or has
 
 When the target is affected by this spell, its scales grow jagged spikes. These spikes act like +1
 armor spikes. The subject is automatically considered proficient with these scale spikes.
-
-### Greater Scale Spikes
-
-**Sources:** Monster Codex pg 141
-
-This spell functions like scale spikes, except that the spikes growing out of the scales have an
-enhancement bonus on attack and damage rolls equal to +1 for every 4 caster levels (maximum +5).
-This bonus does not allow the spikes to bypass [damage reduction](ref/rule/damage-reduction) aside
-from magic.

@@ -66,10 +66,3 @@ A character affected by a crime wave who is unable to carry out the indicated ac
 the nearest source of cover or concealment and attempts a Stealth check to hide. Affected creatures
 with the ability to turn invisible (including through the use of magic items or spells) do so
 instead of attempting a Stealth check.
-
-### Crime of Opportunity
-
-**Sources:** Ultimate Intrigue pg 208
-
-You awaken a sudden criminal impulse in the target, compelling it to commit a criminal act as if
-affected by the crime wave spell.

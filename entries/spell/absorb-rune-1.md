@@ -66,17 +66,3 @@ before you place the rune on a new surface, the absorbed rune dissipates harmles
 Absorb rune I affects only runes whose effects are equivalent to a spell of 3rd level or lower. An
 attempt to use absorb rune I on a more powerful effect automatically triggers the rune when you
 touch it.
-
-### Absorb Rune II
-
-**Sources:** Adventurer's Guide pg 60
-
-This spell functions like absorb rune I, but it can affect runes equivalent to a spell of 5th level
-or lower.
-
-### Absorb Rune III
-
-**Sources:** Adventurer's Guide pg 60
-
-This spell functions like absorb rune I, but it can affect runes equivalent to a spell of 8th level
-or lower.

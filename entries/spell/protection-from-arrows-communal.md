@@ -49,15 +49,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 :::
 
-## Protection from Arrows
-
-**Sources:** PRPG Core Rulebook pg 327
-
-The warded creature gains resistance to ranged weapons. The subject gains
-[damage reduction](ref/rule/damage-reduction) 10/magic against ranged weapons. This spell doesn't
-grant you the ability to damage creatures with similar damage reduction. Once the spell has
-prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged.
-
 ### Mythic Protection from Arrows
 
 **Sources:** Mythic Adventures pg 104

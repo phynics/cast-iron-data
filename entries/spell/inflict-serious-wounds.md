@@ -58,10 +58,3 @@ deals 3d8 + 1 point per caster level (maximum +15).
 The damage dealt increases to 6d8 points of damage + 2 points per caster level (maximum +30). A
 living target is sickened for 1 round per caster level (maximum 15 rounds) if it fails its saving
 throw.
-
-### Mass Inflict Serious Wounds
-
-**Sources:** PRPG Core Rulebook pg 301
-
-This spell functions like [mass inflict light wounds](ref/spell/inflict-light-wounds-mass), except
-that it deals 3d8 points of damage + 1 point per caster level (maximum +35).

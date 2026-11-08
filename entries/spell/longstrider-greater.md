@@ -42,13 +42,6 @@ Saving throw: none
 Spell resistance: no
 :::
 
-## Longstrider
-
-**Sources:** PRPG Core Rulebook pg 305
-
-This spell gives you a +10 foot enhancement bonus to your base speed. It has no effect on other
-modes of movement, such as burrow, climb, fly, or swim.
-
 ### Greater Longstrider
 
 **Sources:** Advanced Class Guide pg 186

@@ -53,54 +53,6 @@ Effect: extradimensional demiplane, up to three 10-ft. cubes/level (S)
 Subschool: Creation
 :::
 
-## Lesser Create Demiplane
-
-**Sources:** Ultimate Magic pg 214
-
-You create a small, finite demiplane. You must be on the Astral or Ethereal Plane or on a plane that
-has access to one of those planes (such as the Material Plane) to cast this spell.
-
-When you cast the spell, you decide whether the demiplane is within the Astral or the Ethereal
-Plane. It is filled with air or water (decided by you). The plane is generally flat and featureless,
-such as an earth, stone, water, or wood floor. The "walls" and "ceiling" of the plane may appear
-like solid earth, stone, wood, or water, or they may end in mist, a featureless void, or a similar
-unreal-looking border. The plane's environmental conditions are those of a temperate spring day on
-the Material Plane. You determine the plane's light level (bright, normal, dim, or darkness), which
-affects the entire plane.
-
-There are no native creatures or plants on this plane, though you may bring some there (if the
-plane's light is bright or normal, it counts as sunlight for growing plants). The environment of the
-plane counts as normal terrain for the purpose of effects that target earth, stone, wood, and so on.
-For example, you could use move earth to create a hill or wall of stone to create a barricade.
-
-When you finish casting this spell, you may bring yourself and up to seven other creatures to the
-plane automatically by joining hands in a circle. The demiplane is another plane of existence, and
-therefore is outside the range of any spell or ability that cannot affect or reach other planes.
-Creatures can only enter the plane by the use of planar travel magic such as astral projection,
-etherealness, or plane shift. You are considered "very familiar" with your entire demiplane.
-
-As a standard action, you may eject a creature from your demiplane. The creature may resist with a
-Will saving throw. An ejected creature goes to the closest plane to your demiplane (usually the
-Astral Plane or the Ethereal Plane, but if you cast this spell on the Material Plane, the creature
-is sent to the Material Plane). When the spell ends, the plane dissolves, and all creatures in the
-plane are ejected in this manner with no saving throw. The plane cannot be dispelled, but a creature
-on the plane can destroy it by using [limited wish](ref/spell/limited-wish),
-[mage's disjunction](ref/spell/mages-disjunction), [miracle](ref/spell/miracle), or
-[wish](ref/spell/wish) and making a successful dispel check.
-
-If you are within the demiplane, you can add to its area by casting the spell again. Alternatively,
-you may cast this spell again to reset the duration of an existing area to that of your latest
-casting. If the duration on one area of the demiplane ends and other parts remain, creatures in the
-expiring area are shunted to remaining areas. If a collapsing portion of the demiplane would leave
-one section cut off from other sections of the demiplane (for example, if there were three areas
-connected in a straight line and the center part expired), the stranded sections count as separate
-demiplanes under your control. You may reconnect these stranded sections by casting the spell again
-to create a linked area between the two.
-
-You can make this spell permanent with the [permanency](ref/spell/permanency) spell, at a cost of
-17,500 gp. If you have cast create lesser demiplane multiple times to enlarge the demiplane, each
-casting's area requires its own permanency spell.
-
 ### Create Demiplane
 
 **Sources:** Ultimate Magic pg 213
@@ -151,43 +103,3 @@ every hill, hole, wall, floor, and corner).
 You can make this spell permanent with the [permanency](ref/spell/permanency) spell, at a cost of
 20,000 gp. If you have cast create demiplane multiple times to enlarge the demiplane, each casting's
 area requires its own permanency spell.
-
-### Greater Create Demiplane
-
-**Sources:** Ultimate Magic pg 213
-
-This spell functions as create demiplane, except the area is larger and you can add more features to
-the plane. You can use this spell to expand a demiplane you created with lesser create demiplane or
-create demiplane (you do not need to create an entirely new plane using this spell), in which case
-it has a duration of 1 day/level. Alternatively, when cast within your demiplane, you may add to
-your demiplane (or remove from it) one of the following features (or any of the features described
-in create demiplane) with each casting of the spell, in which case it has an instantaneous duration.
-
-**Energy:** Your plane gains the (minor) negative- or positive-dominant energy trait (see Elemental
-and Energy Traits). A plane cannot have both the negative-dominant and positive-dominant energy
-traits.
-
-**Magic:** Your plane gains the dead magic, enhanced magic, impeded magic, or wild magic planar
-trait (see [Magic Traits](ref/rule/magic-traits)). If you selected dead magic, you are trapped
-within your plane unless it has a permanent planar portal (such as the portal feature, below). If
-you selected enhanced or impeded magic, choose one type of magic to be enhanced or impeded, such as
-"effects with the fire descriptor or that manipulate fire" or "death spells and spells from the
-Death or Repose domains." A plane cannot be enhanced and impeded for the same kinds of spells.
-
-**Morphic:** You may use move earth at will in your demiplane at one-tenth of the spell's normal
-casting time, and can reshape normal plants in the same manner (such as by twisting trees into a
-fence or human-like shapes). You are even able to affect rock formations with this ability, though
-the casting time for this is only half normal.
-
-**Portal:** Your demiplane gains a permanent gate to one location on another plane, which can only
-be used for planar travel. This location must be very familiar to you. This gate is always open and
-usable from both sides, but you can secure it using normal means (such as by building a door around
-it).
-
-**Time:** By default, time passes at the normal rate in your demiplane. By selecting this feature,
-you may make your plane have the erratic time, flowing time (half or double normal time), or
-timeless trait (see [Time Traits](ref/rule/time-traits)).
-
-You can make this spell permanent with the [permanency](ref/spell/permanency) spell, at a cost of
-22,500 gp. If you have cast create greater demiplane multiple times to enlarge the demiplane, each
-casting's area requires its own permanency spell.

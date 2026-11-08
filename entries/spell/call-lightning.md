@@ -69,10 +69,3 @@ Each lightning bolt's damage increases to 3d10 points of damage (or 5d10 points 
 weather). Half of this damage is electricity damage, and the other half is sonic. Creatures that
 succeed at their saving throws are dazzled and deafened for 1 round. Those that fail at their saving
 throws are dazzled and deafened for 1 minute.
-
-### Call Lightning Storm
-
-**Sources:** PRPG Core Rulebook pg 252
-
-This spell functions like call lightning, except that each bolt deals 5d6 points of electricity
-damage (or 5d10 if created outdoors in a stormy area), and you may call a maximum of 15 bolts.

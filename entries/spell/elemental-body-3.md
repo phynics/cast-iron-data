@@ -49,32 +49,6 @@ Target: you
 Subschool: Polymorph
 :::
 
-## Elemental Body I
-
-**Sources:** PRPG Core Rulebook pg 275
-
-When you cast this spell, you can assume the form of a Small air, earth, fire, or water elemental.
-The abilities you gain depend upon the type of elemental into which you change. Elemental abilities
-based on size, such as burn, vortex, and whirlwind, use the size of the elemental you transform into
-to determine their effect.
-
-_Air elemental:_ If the form you take is that of a Small air elemental, you gain a +2 size bonus to
-your Dexterity and a +2 natural armor bonus. You also gain fly 60 feet (perfect),
-[darkvision](ref/rule/darkvision) 60 feet, and the ability to create a whirlwind.
-
-_Earth elemental:_ If the form you take is that of a Small earth elemental, you gain a +2 size bonus
-to your Strength and a +4 natural armor bonus. You also gain [darkvision](ref/rule/darkvision) 60
-feet and the ability to earth glide.
-
-_Fire elemental:_ If the form you take is that of a Small fire elemental, you gain a +2 size bonus
-to your Dexterity and a +2 natural armor bonus. You gain [darkvision](ref/rule/darkvision) 60 feet,
-resist fire 20, vulnerability to cold, and the burn ability.
-
-_Water elemental:_ If the form you take is that of a Small water elemental, you gain a +2 size bonus
-to your Constitution and a +4 natural armor bonus. You also gain swim 60 feet,
-[darkvision](ref/rule/darkvision) 60 feet, the ability to create a vortex, and the ability to
-breathe water.
-
 ### Mythic Elemental Body I
 
 **Sources:** Mythic Adventures pg 92
@@ -93,25 +67,6 @@ _Augmented (3rd):_ If you expend two uses of mythic power, the ability score bon
 additional 2. You can also, a number of times equal to your tier, add half your tier to the DC of
 one spell you cast with an energy descriptor that matches your elemental type (air: electricity,
 earth: acid, fire: fire, water: cold).
-
-### Elemental Body II
-
-**Sources:** PRPG Core Rulebook pg 276
-
-This spell functions as elemental body I, except that it also allows you to assume the form of a
-Medium air, earth, fire, or water elemental. The abilities you gain depend upon the elemental.
-
-_Air elemental:_ As elemental body I except that you gain a +4 size bonus to your Dexterity and a +3
-natural armor bonus.
-
-_Earth elemental:_ As elemental body I except that you gain a +4 size bonus to your Strength and a
-+5 natural armor bonus.
-
-_Fire elemental:_ As elemental body I except that you gain a +4 size bonus to your Dexterity and a
-+3 natural armor bonus.
-
-_Water elemental:_ As elemental body I except that you gain a +4 size bonus to your Constitution and
-a +5 natural armor bonus.
 
 ### Mythic Elemental Body II
 
@@ -171,28 +126,6 @@ _Augmented (3rd):_ If you expend two uses of mythic power, the ability score bon
 additional 2. You can also, a number of times equal to your tier, add half your tier to the DC of
 one spell you cast with an energy descriptor that matches your elemental type (air: electricity,
 earth: acid, fire: fire, water: cold).
-
-### Elemental Body IV
-
-**Sources:** PRPG Core Rulebook pg 277
-
-This spell functions as elemental body III, except that it also allows you to assume the form of a
-Huge air, earth, fire, or water elemental. The abilities you gain depend upon the type of elemental
-into which you change. You are also immune to bleed damage, critical hits, and sneak attacks while
-in elemental form and gain DR 5/-.
-
-_Air elemental:_ As elemental body I except that you gain a +4 size bonus to your Strength, +6 size
-bonus to your Dexterity, and a +4 natural armor bonus. You also gain fly 120 feet (perfect).
-
-_Earth elemental:_ As elemental body I except that you gain a +8 size bonus to your Strength, a -2
-penalty on your Dexterity, a +4 size bonus to your Constitution, and a +6 natural armor bonus.
-
-_Fire elemental:_ As elemental body I except that you gain a +6 size bonus to your Dexterity, a +4
-size bonus to your Constitution, and a +4 natural armor bonus.
-
-_Water elemental:_ As elemental body I except that you gain a +4 size bonus to your Strength, a -2
-penalty on your Dexterity, a +8 size bonus to your Constitution, and a +6 natural armor bonus. You
-also gain swim 120 feet.
 
 ### Mythic Elemental Body IV
 

@@ -79,10 +79,3 @@ number of rounds equal to 11 - your tier.
 
 _Augmented (6th):_ If you expend two uses of mythic power, you can create weather of any type
 regardless of the season, and the weather changes after 1 round.
-
-### Wandering Weather
-
-**Sources:** Ultimate Wilderness pg 237
-
-This spell functions as control weather except you can opt for the weather to remain centered on you
-as you move.

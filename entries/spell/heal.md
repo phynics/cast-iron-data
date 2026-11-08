@@ -72,10 +72,3 @@ The damage cured increases to 15 points of damage per caster level (maximum 225 
 
 _Augmented:_ If you expend two uses of mythic power, the spell also acts as
 [restoration](ref/spell/restoration).
-
-### Mass Heal
-
-**Sources:** PRPG Core Rulebook pg 294
-
-This spell functions like heal, except as noted above. The maximum number of hit points restored to
-each creature is 250.

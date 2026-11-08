@@ -47,11 +47,3 @@ You gain the ability to speak with stones, which relate to you who or what has t
 as revealing what is covered or concealed behind or under them. The stones relate complete
 descriptions if asked. A stone's perspective, perception, and knowledge may prevent the stone from
 providing the details you are looking for. You can speak with natural or worked stone.
-
-### Speak with Waves
-
-**Sources:** Elemental Master's Handbook pg 14
-
-This spell functions as stone tell but allows conversations only with a body of standing or flowing
-fresh water at least as large as you are. Flowing water can generally speak about events happening
-upstream but not events happening downstream.

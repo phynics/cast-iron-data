@@ -64,18 +64,3 @@ high result doesn't allow you to break the HD maximum for the spell, and a resul
 means you can't call a fey at all. If the fey doesn't like the sound of your offer, it can simply
 choose to refuse, in which case you don't expend any of the material components for the spell,
 either the offerings or the payment.
-
-### Entice Fey
-
-**Sources:** Ultimate Intrigue pg 213
-
-This spell functions as lesser entice fey, except that the spell's whimsical calling can produce a
-single fey of 12 Hit Dice or less, or two fey of the same kind whose Hit Dice total no more than 12.
-
-### Greater Entice Fey
-
-**Sources:** Ultimate Intrigue pg 213
-
-This spell functions as lesser entice fey, except the spell's whimsical calling can produce a single
-fey of 18 Hit Dice or less, or up to three fey of the same kind whose Hit Dice total no more
-than 18.

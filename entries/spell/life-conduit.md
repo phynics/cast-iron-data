@@ -46,15 +46,3 @@ You utilize life conduit to share hit points with your eidolon. While this spell
 spend a swift action to transfer 1d6 hit points between you and your eidolon, either taking damage
 yourself and healing your eidolon or healing yourself and damaging your eidolon. If your eidolon
 moves farther than 50 feet from you, this spell ends.
-
-### Greater Life Conduit
-
-**Sources:** Ultimate Combat pg 234
-
-This spell functions like life conduit, except you can transfer 3d6 hit points as a swift action.
-
-### Improved Life Conduit
-
-**Sources:** Ultimate Combat pg 234
-
-This spell functions like life conduit, except you can transfer 2d6 hit points as a swift action.

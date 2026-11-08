@@ -48,14 +48,6 @@ Saving throw: none and Will negates (see text)
 Spell resistance: no and yes (see text)
 :::
 
-## Stunning Barrier
-
-**Sources:** Advanced Class Guide pg 194
-
-You are closely surrounded by a barely visible magical field. The field provides a +1 deflection
-bonus to AC and a +1 resistance bonus on saves. Any creature that strikes you with a melee attack is
-stunned for 1 round (Will negates). Once the field has stunned an opponent, the spell is discharged.
-
 ### Greater Stunning Barrier
 
 **Sources:** Advanced Class Guide pg 195

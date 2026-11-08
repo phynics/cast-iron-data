@@ -46,9 +46,3 @@ Target: one animal touched
 
 You can possess an animal's body in a manner that functions like magic jar, except as noted here.
 Your body vanishes while the effect lasts and you don't require a receptacle.
-
-### Greater Share Skin
-
-**Sources:** Blood of the Moon pg 11
-
-This spell functions like share skin, except as noted here.

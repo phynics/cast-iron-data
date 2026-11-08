@@ -47,9 +47,3 @@ Descriptors: mind-affecting
 You fill your target's mind with a blaring cacophony of discordant sounds, making it hard for the
 target to act and concentrate. The creature gains the nauseated condition for the duration of the
 spell if it fails its Will save.
-
-### Mass Cacophonous Call
-
-**Sources:** Advanced Player's Guide pg 208
-
-This spell functions as cacophonous call, except that it affects multiple creatures.

@@ -51,16 +51,6 @@ Subschool: Glamer
 Descriptors: glamer
 :::
 
-## False Vision
-
-**Sources:** PRPG Core Rulebook pg 280
-
-This spell creates a subtle illusion, causing any divination (scrying) spell used to view anything
-within the area of this spell to instead receive a false image (as the
-[major image](ref/spell/major-image) spell), as defined by you at the time of casting. As long as
-the duration lasts, you can concentrate to change the image as desired. While you aren't
-concentrating, the image remains static.
-
 ### Greater False Vision
 
 **Sources:** Ultimate Intrigue pg 214

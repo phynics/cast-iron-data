@@ -55,9 +55,3 @@ usual benefits to Intelligence-based skill checks and other uses of the Intellig
 Wizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any
 additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while
 under this spell's effect do increase. This spell doesn't grant extra skill ranks.
-
-### Mass Fox's Cunning
-
-**Sources:** PRPG Core Rulebook pg 286
-
-This spell functions like fox's cunning, except that it affects multiple creatures.

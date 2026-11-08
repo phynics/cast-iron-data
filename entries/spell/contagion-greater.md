@@ -51,15 +51,6 @@ Spell resistance: yes
 Descriptors: disease, evil
 :::
 
-## Contagion
-
-**Sources:** PRPG Core Rulebook pg 259
-
-The subject contracts one of the following diseases: blinding sickness, bubonic plague, cackle
-fever, filth fever, leprosy, mindfire, red ache, shakes, or slimy doom. The disease is contracted
-immediately (the onset period does not apply). Use the disease's listed frequency and save DC to
-determine further effects. For more information see Diseases.
-
 ### Mythic Contagion
 
 **Sources:** Mythic Adventures pg 89

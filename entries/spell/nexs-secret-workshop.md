@@ -57,19 +57,6 @@ Spell resistance: yes (harmless) (object)
 Target: creature or object touched
 :::
 
-## Nondetection
-
-**Sources:** PRPG Core Rulebook pg 317
-
-The warded creature or object becomes difficult to detect by divination spells such as
-clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by
-such magic items as crystal balls. If a divination is attempted against the warded creature or item,
-the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC
-of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on
-yourself or on an item currently in your possession, the DC is 15 + your caster level.
-
-If cast on a creature, nondetection wards the creature's gear as well as the creature itself.
-
 ### Nex's Secret Workshop
 
 **Sources:** Inner Sea Intrigue pg 60
@@ -77,10 +64,3 @@ If cast on a creature, nondetection wards the creature's gear as well as the cre
 Designed to protect a large number of items from rivals of the Arclords of Nex, this spell functions
 as [nondetection](ref/spell/nondetection) except as noted above. You can exclude any creatures or
 objects in the spell's range when casting this spell, if you wish.
-
-### Communal Nondetection
-
-**Sources:** Ultimate Combat pg 238
-
-This spell functions like nondetection, except you divide the duration in 1-hour increments among
-the creatures or objects touched.

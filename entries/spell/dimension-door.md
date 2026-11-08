@@ -84,11 +84,3 @@ portal and arrive at the destination, but you can't take any other creatures wit
 When casting the spell, you can designate a number of creatures equal to your caster level. These
 creatures can see and use the portal, passing through it to arrive at the destination (this isn't an
 action). A creature that passes through the portal can't take any other actions until its next turn.
-
-### Phase Step
-
-**Sources:** Potions and Poisons pg 17
-
-You instantly transfer the touched creature to a point you designate within range. This otherwise
-functions as the spell dimension door, except that you must have line of sight and line of effect to
-the target's destination for this spell's effects to properly function.

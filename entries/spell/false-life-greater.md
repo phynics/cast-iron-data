@@ -53,13 +53,6 @@ Saving throw: none
 Spell resistance: no
 :::
 
-## False Life
-
-**Sources:** PRPG Core Rulebook pg 280
-
-You harness the power of unlife to grant yourself a limited ability to avoid death. While this spell
-is in effect, you gain temporary hit points equal to 1d10 + 1 per caster level (maximum +10).
-
 ### Mythic False Life
 
 **Sources:** Mythic Adventures pg 93

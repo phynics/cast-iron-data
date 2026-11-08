@@ -92,43 +92,11 @@ creature that uses [spell resistance](ref/rule/spell-resistance) to bypass the s
 against contact must successfully save or take this damage once each round it attacks the protected
 target.
 
-### Communal Protection from Evil
-
-**Sources:** Ultimate Combat pg 240
-
-This spell functions like _protection from evil,_ except you divide the duration in 1-minute
-intervals among the creatures touched.
-
-### Protection from Chaos
-
-**Sources:** PRPG Core Rulebook pg 327
-
-This spell functions like _protection from evil,_ except that the deflection and resistance bonuses
-apply to attacks made by chaotic creatures. The target receives a new saving throw against control
-by chaotic creatures and chaotic summoned creatures cannot touch the target.
-
 ### Mythic Protection from Chaos
 
 **Sources:** Mythic Adventures pg 104
 
 As mythic protection from evil, except against chaotic creatures.
-
-### Communal Protection from Chaos
-
-**Sources:** Ultimate Combat pg 240
-
-This spell functions like
-_[communal protection from evil](ref/spell/protection-from-evil-communal),_ except it behaves like
-_[protection from chaos](ref/spell/protection-from-chaos)_ and you divide the duration in 1-minute
-intervals among the creatures touched.
-
-### Protection from Good
-
-**Sources:** PRPG Core Rulebook pg 328
-
-This spell functions like _protection from evil,_ except that the deflection and resistance bonuses
-apply to attacks made by good creatures. The target receives a new saving throw against control by
-good creatures and good summoned creatures cannot touch the target.
 
 ### Mythic Protection from Good
 
@@ -136,33 +104,8 @@ good creatures and good summoned creatures cannot touch the target.
 
 As _mythic protection from evil,_ except against good creatures.
 
-### Communal Protection from Good
-
-**Sources:** Ultimate Combat pg 240
-
-This spell functions like _communcal protection from evil,_ except it behaves like
-_[protection from good](ref/spell/protection-from-good)_ and you divide the duration in 1-minute
-intervals among the creatures touched.
-
-### Protection from Law
-
-**Sources:** PRPG Core Rulebook pg 328
-
-This spell functions like _protection from evil,_ except that the deflection and resistance bonuses
-apply to attacks made by lawful creatures. The target receives a new saving throw against control by
-lawful creatures and lawful summoned creatures cannot touch the target.
-
 ### Mythic Protection from Law
 
 **Sources:** Mythic Adventures pg 105
 
 As _mythic protection from evil,_ except against lawful creatures.
-
-### Communal Protection from Law
-
-**Sources:** Ultimate Combat pg 240
-
-This spell functions like
-_[communal protection from evil](ref/spell/protection-from-evil-communal),_ except it behaves like
-_[protection from law](ref/spell/protection-from-law)_ and you divide the duration in 1-minute
-intervals among the creatures touched.

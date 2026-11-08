@@ -184,69 +184,6 @@ spell's type match your alignment.
 |9|Nalfeshnee (demon)|Chaotic, Evil|
 |9|Trumpet archon|Good, Lawful|
 
-### Summon Monster II
-
-**Sources:** PRPG Core Rulebook pg 352
-
-This spell functions like summon monster I, except that you can summon one creature from the
-2nd-level list or 1d3 creatures of the same kind from the 1st-level list.
-
-### Summon Monster III
-
-**Sources:** PRPG Core Rulebook pg 352
-
-This spell functions like summon monster I, except that you can summon one creature from the
-3rd-level list, 1d3 creatures of the same kind from the 2nd-level list, or 1d4+1 creatures of the
-same kind from the 1st-level list.
-
-### Summon Monster IV
-
-**Sources:** PRPG Core Rulebook pg 352
-
-This spell functions like summon monster I, except that you can summon one creature from the
-4th-level list, 1d3 creatures of the same kind from the 3rd-level list, or 1d4+1 creatures of the
-same kind from a lower-level list.
-
-### Summon Monster V
-
-**Sources:** PRPG Core Rulebook pg 352
-
-This spell functions like summon monster I, except that you can summon one creature from the
-5th-level list, 1d3 creatures of the same kind from the 4th-level list, or 1d4+1 creatures of the
-same kind from a lower-level list.
-
-### Summon Monster VI
-
-**Sources:** PRPG Core Rulebook pg 352
-
-This spell functions like summon monster I, except you can summon one creature from the 6th-level
-list, 1d3 creatures of the same kind from the 5th-level list, or 1d4+1 creatures of the same kind
-from a lower-level list.
-
-### Summon Monster VII
-
-**Sources:** PRPG Core Rulebook pg 352
-
-This spell functions like summon monster I, except that you can summon one creature from the
-7th-level list, 1d3 creatures of the same kind from the 6th-level list, or 1d4+1 creatures of the
-same kind from a lower-level list.
-
-### Summon Monster VIII
-
-**Sources:** PRPG Core Rulebook pg 352
-
-This spell functions like summon monster I, except that you can summon one creature from the
-8th-level list, 1d3 creatures of the same kind from the 7th-level list, or 1d4+1 creatures of the
-same kind from a lower-level list.
-
-### Summon Monster IX
-
-**Sources:** PRPG Core Rulebook pg 352
-
-This spell functions like summon monster I, except that you can summon one creature from the
-9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the
-same kind from a lower-level list.
-
 ###### ^1^ {#footnote-1}
 
 By a strict rules-as-written interpretation, regular casters can only apply the celestial or
