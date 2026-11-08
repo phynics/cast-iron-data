@@ -2,7 +2,7 @@
 id = "ref/spell/reduce-person-mass"
 kind = "spell"
 title = "Mass Reduce Person"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reduce_person_mass", path = "json/spells8.json" },
 ]
@@ -48,18 +48,6 @@ Duration: 1 minute/level (D)
 Saving throw: Fortitude negates
 Spell resistance: yes
 :::
-
-### Mythic Reduce Person
-
-**Sources:** Mythic Adventures pg 105
-
-You can decrease the target's size by up to two categories, to a minimum of Tiny. If the target
-shrinks two sizes, its weight decreases by a factor of 16 and it gains a +4 size bonus to Dexterity,
-a -4 size penalty to Strength, and a +2 bonus on attack rolls and to AC because of its decreased
-size. A Medium or Small humanoid creature whose size decreases to Tiny has a space of 2-1/2 feet and
-a natural reach of 0 feet.
-
-Mythic reduce person counters and dispels mythic [enlarge person](ref/spell/enlarge-person).
 
 ### Mass Reduce Person
 

@@ -2,7 +2,7 @@
 id = "ref/spell/fire-snake"
 kind = "spell"
 title = "Fire Snake"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_snake", path = "json/spells4.json" },
 ]
@@ -51,15 +51,3 @@ You create a sinuous line of flames that you may shape as desired. The fire snak
 square per caster level, and each square must be adjacent to the previous square, starting with you.
 The fire snake may not extend beyond its maximum range. Creatures in the path of the fire snake take
 1d6 points of fire damage per caster level (maximum 15d6).
-
-### Mythic Fire Snake
-
-**Sources:** Mythic Adventures pg 94\
-The damage dealt increases to 1d10 points of damage per level (maximum 15d10). Any creature that
-fails its saving throw against the spell is grappled by a snake made of fire that lasts for 1 round
-per caster level. The snake can be dispelled, but not attacked. A grappled creature takes 1d10
-points of fire damage on your turn each round. The snake's CMB is equal to your caster level plus
-your tier, and its CMD is equal to its CMB + 10.
-
-_Augmented (6th):_ If you expend two uses of mythic power, the maximum damage increases to 20d10,
-and any creature that fails its saving throw against the spell is pinned instead of grappled.

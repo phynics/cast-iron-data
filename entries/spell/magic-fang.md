@@ -50,13 +50,6 @@ The spell does not change an unarmed strike's damage from nonlethal damage to le
 
 Magic fang can be made permanent with a [permanency](ref/spell/permanency) spell.
 
-### Mythic Magic Fang
-
-**Sources:** Mythic Adventures pg 100
-
-The spell affects an additional number of the target's natural weapons equal to your tier. For
-example, if you're 3rd tier, it could affect two claws and one bite).
-
 ### Greater Mythic Magic Fang
 
 **Sources:** Mythic Adventures pg 100

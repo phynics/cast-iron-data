@@ -2,7 +2,7 @@
 id = "ref/spell/wall-of-fire"
 kind = "spell"
 title = "Wall of Fire"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_fire", path = "json/spells11.json" },
 ]
@@ -68,16 +68,3 @@ round, that length goes away. (Do not divide cold damage by 2, as normal for obj
 Wall of fire can be made permanent with a [permanency](ref/spell/permanency) spell. A permanent wall
 of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal
 strength.
-
-### Mythic Wall of Fire
-
-**Sources:** Mythic Adventures pg 111\
-The wall's damage increases to 2d6 points of fire damage to creatures within 10 feet, 1d6 points of
-fire damage to those past 10 feet but within 20 feet, and 2d8 points of fire damage + 1 point of
-fire damage per caster level (maximum +20) to any creature passing through it. Any creature that
-passes through the wall or is within 5 feet of the wall when it's created must succeed at a Reflex
-save or catch fire. Attempts to extinguish this fire use the spell's save DC.
-
-_Augmented (5th):_ If you expend two uses of mythic power, you may move the wall 5 feet in any
-direction as a move action on your turn. Moving the wall into a fireproof barrier (such as a stone
-wall) destroys the part of the wall that overlaps the barrier.

@@ -2,7 +2,7 @@
 id = "ref/spell/sending"
 kind = "spell"
 title = "Sending"
-source_ids = ["core-rulebook", "mythic-adventures", "pathfinder-131-the-reapers-right-hand"]
+source_ids = ["core-rulebook", "pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sending", path = "json/spells15.json" },
 ]
@@ -66,18 +66,3 @@ received, the subject is not obligated to act upon it in any manner.
 If the creature in question is not on the same plane of existence as you are, there is a 5% chance
 that the sending does not arrive. (Local conditions on other planes may worsen this chance
 considerably.)
-
-### Mythic Sending
-
-**Sources:** Mythic Adventures pg 107
-
-You can contact a number of additional creatures equal to your tier. Each creature must receive the
-same message, and can communicate back only to you.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, you can send the message to unfamiliar
-creatures (using the same number of creatures as non-augmented mythic sending). You must either
-describe the intended recipients in general or specific terms (such as "orcs," "the queen of this
-country," or "left-handed half-elven males") or specify restrictions such as range, creature type,
-and alignment (such as "all good-aligned humanoids in the castle on the hill"). If a greater number
-of creatures meet your description than the maximum number you can send to, the closest ones to you
-receive the message.

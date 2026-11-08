@@ -2,7 +2,7 @@
 id = "ref/spell/stinking-cloud"
 kind = "spell"
 title = "Stinking Cloud"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stinking_cloud", path = "json/spells9.json" },
 ]
@@ -58,10 +58,3 @@ each round on your turn. This is a poison effect.
 
 Stinking cloud can be made permanent with a [permanency](ref/spell/permanency) spell. A permanent
 stinking cloud dispersed by wind reforms in 10 minutes.
-
-### Mythic Stinking Cloud
-
-**Sources:** Mythic Adventures pg 109\
-Creatures that succeed at their saves are sickened while they remain in the cloud and for 1d4+1
-rounds after they leave. Creatures that fail their saves continue to be sickened for 1 hour after
-leaving the cloud.

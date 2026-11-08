@@ -2,7 +2,7 @@
 id = "ref/spell/healing-thief"
 kind = "spell"
 title = "Healing Thief"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_thief", path = "json/spells5.json" },
 ]
@@ -53,14 +53,3 @@ healing (rounded down) and you receive the other half (also rounded down). You m
 feet (plus 5 feet per two caster levels) of the target to gain this benefit. If you move outside
 that range, the spell is discharged. Once you steal 5 hit points per your caster level (maximum 50
 hit points) of healing from this spell's effect, the spell is discharged.
-
-### Mythic Healing Thief
-
-**Sources:** Mythic Adventures pg 97\
-Instead of stealing half the target's healing, you steal all of it. The amount of damage you steal
-before the spell is discharged increases to 10 points per caster level (maximum 100 points).
-
-_Augmented:_ If you expend two uses of mythic power, the range of the spell changes to close (25
-feet + 5 feet per 2 caster levels). If the target has [fast healing](ref/umr/fast-healing) or
-regeneration, you steal half of its fast healing or regeneration. Healing from these abilities count
-toward the maximum healing stolen before the spell is discharged.

@@ -2,7 +2,7 @@
 id = "ref/spell/hold-portal"
 kind = "spell"
 title = "Hold Portal"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_portal", path = "json/spells5.json" },
 ]
@@ -49,10 +49,3 @@ affects the portal just as if it were securely closed and normally locked. A
 negate a hold portal spell.
 
 Add 5 to the normal DC for forcing open a portal affected by this spell.
-
-### Mythic Hold Portal
-
-**Sources:** Mythic Adventures pg 98\
-The target portal can be as large as 30 square feet per caster level. A creature attempting to force
-open the portal must first succeed at a Will save against the spell's DC. This is a mind-affecting
-effect. Failure means the creature can't open the door while the spell is in effect.

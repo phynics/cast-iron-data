@@ -2,7 +2,7 @@
 id = "ref/spell/inflict-serious-wounds"
 kind = "spell"
 title = "Inflict Serious Wounds"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_serious_wounds", path = "json/spells14.json" },
 ]
@@ -50,11 +50,3 @@ Target: creature touched
 
 This spell functions like [inflict light wounds](ref/spell/inflict-light-wounds), except that it
 deals 3d8 + 1 point per caster level (maximum +15).
-
-### Mythic Inflict Serious Wounds
-
-**Sources:** Mythic Adventures pg 99
-
-The damage dealt increases to 6d8 points of damage + 2 points per caster level (maximum +30). A
-living target is sickened for 1 round per caster level (maximum 15 rounds) if it fails its saving
-throw.

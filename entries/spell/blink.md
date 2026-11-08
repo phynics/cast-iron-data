@@ -2,7 +2,7 @@
 id = "ref/spell/blink"
 kind = "spell"
 title = "Blink"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blink", path = "json/spells2.json" },
 ]
@@ -88,12 +88,3 @@ the Material Plane, but not vice versa. An ethereal creature can't attack materi
 spells you cast while ethereal affect only other ethereal things. Certain material creatures or
 objects have attacks or effects that work on the Ethereal Plane. Treat other ethereal creatures and
 objects as material.
-
-### Mythic Blink
-
-**Sources:** Mythic Adventures pg 86\
-You may spend a move action to remain corporeal or incorporeal until the end of your turn (you
-automatically resume blinking at the end of your turn).
-
-_Augmented (3rd):_ If you expend two uses of mythic power, you can spend either a swift action or a
-move action to remain corporeal or incorporeal until the end of your turn.

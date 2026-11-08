@@ -2,7 +2,7 @@
 id = "ref/spell/ablative-barrier"
 kind = "spell"
 title = "Ablative Barrier"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ablative_barrier", path = "json/spells.json" },
 ]
@@ -59,11 +59,3 @@ bonus to AC. Additionally, the first 5 points of lethal damage the target takes 
 converted into nonlethal damage. Against attacks that already deal nonlethal damage, the target
 gains DR 5/-. Once this spell has converted 5 points of damage to nonlethal damage per caster level
 (maximum 50 points), the spell is discharged.
-
-### Mythic Ablative Barrier
-
-**Sources:** Mythic Adventures pg 84\
-Add half your tier to the spell's armor bonus. Add half your tier to the amount of lethal damage
-from each attack that is converted to nonlethal damage and to the DR against nonlethal damage. Add
-half your tier to your caster level when determining how much damage the spell converts before it's
-discharged.

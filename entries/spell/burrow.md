@@ -2,7 +2,7 @@
 id = "ref/spell/burrow"
 kind = "spell"
 title = "Burrow"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burrow", path = "json/spells2.json" },
 ]
@@ -55,15 +55,3 @@ cast spells normally. The burrowing creature cannot charge or run. Loose materia
 the target 1 round after it leaves the area. This spell does not give the target the ability to
 breathe underground, so when passing through loose material, the creature must hold its breath and
 take only short trips, or else it may suffocate.
-
-### Mythic Burrow
-
-**Sources:** Mythic Adventures pg 87\
-The target can breathe underground while burrowing. If you're 3rd tier, the burrow speed increases
-to 20 feet through sand, soil, or gravel, and to 10 feet through stone. At 6th tier, these speeds
-increase to 30 feet and 15 feet respectively. At 9th tier, these speeds increase to 40 feet and 20
-feet.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the burrowing creature may leave behind
-an open tunnel with a diameter equal to half its space. When the spell's effect ends, this tunnel
-closes up immediately.

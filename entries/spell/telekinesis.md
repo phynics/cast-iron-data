@@ -2,7 +2,7 @@
 id = "ref/spell/telekinesis"
 kind = "spell"
 title = "Telekinesis"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinesis", path = "json/spells10.json" },
 ]
@@ -92,15 +92,3 @@ held possessions are targeted by the spell.
 
 If a telekinesed creature is hurled against a solid surface, it takes damage as if it had fallen 10
 feet (1d6 points).
-
-### Mythic Telekinesis
-
-**Sources:** Mythic Adventures pg 110\
-The duration of this spell changes to 1 round per level. You may spend a move action to use the
-sustained force or combat maneuver effects of the spell.
-
-When using sustained force, you can move a number of objects up to your tier. These must be in the
-same square and together must weigh no more than the weight limit of the spell.
-
-Using the violent thrust effect ends the spell, but the weight restriction increases to 50 pounds
-per caster level (maximum 750 pounds).

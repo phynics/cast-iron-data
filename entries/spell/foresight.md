@@ -2,7 +2,7 @@
 id = "ref/spell/foresight"
 kind = "spell"
 title = "Foresight"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foresight", path = "json/spells13.json" },
 ]
@@ -57,9 +57,3 @@ can be caught unprepared in the absence of such a warning. Shouting a warning, y
 back, and even telepathically communicating (via an appropriate spell) can all be accomplished
 before some danger befalls the subject, provided you act on the warning without delay. The subject,
 however, does not gain the insight bonus to AC and Reflex saves.
-
-### Mythic Foresight
-
-**Sources:** Mythic Adventures pg 96\
-The spell's insight bonus increases to +3. If you cast the spell on another creature, you and the
-target are simultaneously warned by the spell, and the target gains the spell's insight bonuses.

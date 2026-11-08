@@ -2,7 +2,7 @@
 id = "ref/spell/scouring-winds"
 kind = "spell"
 title = "Scouring Winds"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scouring_winds", path = "json/spells8.json" },
 ]
@@ -53,14 +53,3 @@ windstorm (see the [wind effects](ref/rule/winds) table).
 
 If a creature with [spell resistance](ref/rule/spell-resistance) successfully resists this spell, it
 is unaffected by the winds and sand, but still unable to see within the area of the spell.
-
-### Mythic Scouring Winds
-
-**Sources:** Mythic Adventures pg 107\
-The spell's damage increases to 4d8 points of piercing damage. Any creature in the area at the start
-of your turn must succeed at a Reflex save or be blinded for as long as it remains in the area and
-for 1d4 rounds after it leaves.
-
-_Augmented (5th):_ If you expend two uses of mythic power, the sandstorm's radius and height each
-increase to 40 feet, and the damage dealt increases to 6d8 points of piercing damage. Each round,
-you can either move the storm up to 50 feet as a move action or up to 10 feet as a swift action.

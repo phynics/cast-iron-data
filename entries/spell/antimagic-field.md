@@ -2,7 +2,7 @@
 id = "ref/spell/antimagic-field"
 kind = "spell"
 title = "Antimagic Field"
-source_ids = ["core-rulebook", "mythic-adventures", "faiths-and-philosophies"]
+source_ids = ["core-rulebook", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antimagic_field", path = "json/spells.json" },
 ]
@@ -78,10 +78,3 @@ field. Artifacts and deities are unaffected by mortal magic such as this.
 
 Should a creature be larger than the area enclosed by the barrier, any part of it that lies outside
 the barrier is unaffected by the field.
-
-### Mythic Antimagic Field
-
-**Sources:** Mythic Adventures pg 84
-
-Select a number of spell schools equal to half your tier. Spells and effects of the chosen schools
-are unaffected by the antimagic field.

@@ -2,7 +2,7 @@
 id = "ref/spell/unshakable-chill"
 kind = "spell"
 title = "Unshakable Chill"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unshakable_chill", path = "json/spells11.json" },
 ]
@@ -51,13 +51,3 @@ The target is filled with an unshakable chill for the duration of the spell, and
 effects of severe cold. Severe cold means if the initial saving throw fails, the target takes 1d6
 points of nonlethal cold damage and must save every 10 minutes (using the DC of severe cold instead
 of this spell's DC) or take additional damage.
-
-### Mythic Unshakable Chill
-
-**Sources:** Mythic Adventures pg 110\
-On a failed save, the target immediately takes 1d6 points of nonlethal cold damage per tier. Add
-your tier to the DC of any other Fortitude saves the target attempts to resist severe cold as part
-of the spell's effects. The target also takes a -4 penalty on saves against spells or effects with
-the cold descriptor.
-
-_Augmented (5th):_ If you expend two uses of mythic power, the target gains vulnerability to fire.

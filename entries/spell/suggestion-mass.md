@@ -2,7 +2,7 @@
 id = "ref/spell/suggestion-mass"
 kind = "spell"
 title = "Mass Suggestion"
-source_ids = ["core-rulebook", "mythic-adventures", "blood-of-the-beast", "advanced-class-guide"]
+source_ids = ["core-rulebook", "blood-of-the-beast", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suggestion_mass", path = "json/spells16.json" },
 ]
@@ -52,13 +52,6 @@ Spell resistance: yes
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-### Mythic Suggestion
-
-**Sources:** Mythic Adventures pg 109
-
-Mythic suggestion loses the language-dependent descriptor, and can target one or more living
-creatures in a 10-foot-radius burst.
 
 ### Mass Suggestion
 

@@ -2,7 +2,7 @@
 id = "ref/spell/break"
 kind = "spell"
 title = "Break"
-source_ids = ["advanced-players-guide", "mythic-adventures", "ultimate-intrigue"]
+source_ids = ["advanced-players-guide", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break", path = "json/spells2.json" },
 ]
@@ -48,13 +48,3 @@ Target: one Medium or smaller object
 You can attempt to break or at least damage any one Medium or smaller object within range. If the
 target fails its Fortitude saving throw, it gains the broken condition. If cast on a broken item,
 that item is destroyed on a failed save.
-
-### Mythic Break
-
-**Sources:** Mythic Adventures pg 87
-
-You can target up to 1 Medium or smaller object per caster level.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, target objects gain the broken condition
-on a successful save and are destroyed on a failed save. This doesn't affect mythic objects or
-objects held or carried by mythic creatures.

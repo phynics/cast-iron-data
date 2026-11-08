@@ -2,7 +2,7 @@
 id = "ref/spell/brightest-light"
 kind = "spell"
 title = "Brightest Light"
-source_ids = ["core-rulebook", "mythic-adventures", "adventurers-guide", "inner-sea-intrigue"]
+source_ids = ["core-rulebook", "adventurers-guide", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brightest_light", path = "json/spells3.json" },
 ]
@@ -56,15 +56,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: light
 :::
-
-### Mythic Daylight
-
-**Sources:** Mythic Adventures pg 90
-
-The illumination in the additional 60 foot radius increases to at least normal light regardless of
-the existing lighting conditions. Creatures that take penalties in bright light double those
-penalties while in the area of bright light produced by this spell. All other creatures in the area
-of bright light gain a +2 circumstance bonus on Perception checks and saves to resist fear.
 
 ### Brightest Light
 

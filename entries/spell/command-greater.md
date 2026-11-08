@@ -2,7 +2,7 @@
 id = "ref/spell/command-greater"
 kind = "spell"
 title = "Greater Command"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_greater", path = "json/spells12.json" },
 ]
@@ -51,13 +51,6 @@ Spell resistance: yes
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-### Mythic Command
-
-**Sources:** Mythic Adventures pg 88
-
-You can target up to one creature per level, each of which must receive the same command. Creatures
-that succeed at their saving throws are staggered for 1 round (this is a mind-affecting effect).
 
 ### Greater Command
 

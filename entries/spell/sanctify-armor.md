@@ -2,7 +2,7 @@
 id = "ref/spell/sanctify-armor"
 kind = "spell"
 title = "Sanctify Armor"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctify_armor", path = "json/spells8.json" },
 ]
@@ -47,12 +47,3 @@ You imbue your armor with a righteous aura. It gains a +1 enhancement bonus per 
 (maximum +5 at 20th level). When using your judgment or smite ability, you gain DR 5/evil.
 
 An outfit of regular clothing counts as armor that grants no AC bonus for the purpose of this spell.
-
-### Mythic Sanctify Armor
-
-**Sources:** Mythic Adventures pg 106\
-You gain DR 5/evil while wearing the target armor. While you're using your judgment or smite
-ability, this improves to DR 10/evil.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, when you use judgment or smite, add half
-your tier to your AC as a sacred bonus.

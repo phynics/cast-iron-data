@@ -2,7 +2,7 @@
 id = "ref/spell/burning-hands"
 kind = "spell"
 title = "Burning Hands"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_hands", path = "json/spells2.json" },
 ]
@@ -52,9 +52,3 @@ Descriptors: fire
 A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes
 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames
 touch them. A character can extinguish burning items as a full-round action.
-
-### Mythic Burning Hands
-
-**Sources:** Mythic Adventures pg 87\
-The range increases to 20 feet, and the damage dealt increases to 1d6 points of fire damage per
-caster level (maximum 5d6).

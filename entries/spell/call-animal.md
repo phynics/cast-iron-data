@@ -2,7 +2,7 @@
 id = "ref/spell/call-animal"
 kind = "spell"
 title = "Call Animal"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_animal", path = "json/spells2.json" },
 ]
@@ -65,12 +65,3 @@ provoked.
 
 Domesticated animals or animals trained by someone else, including such creatures as familiars or
 animal companions, are unaffected by call animals.
-
-### Mythic Call Animal
-
-**Sources:** Mythic Adventures pg 87\
-You can call up to one animal per 2 caster levels. Animals that answer your call have a starting
-attitude of friendly. Add your tier to Handle Animal checks attempted to influence these animals.
-
-You may use this spell to call magical beasts with Intelligence 1 or 2, but they can attempt Will
-saving throws (with a +4 bonus) to resist the spell.

@@ -2,7 +2,7 @@
 id = "ref/spell/named-bullet"
 kind = "spell"
 title = "Named Bullet"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "named_bullet", path = "json/spells7.json" },
 ]
@@ -59,14 +59,3 @@ natural critical hit deals the same extra damage, but that damage is multiplied 
 
 Once the target is used to attack the selected creature, successfully or not, this spell is
 discharged.
-
-### Mythic Named Bullet
-
-**Sources:** Mythic Adventures pg 102
-
-Increase the critical multiplier of the target weapon by 1 (maximum ×4).
-
-_Augmented (2nd):_ If you expend two uses of mythic power, the target ammunition or weapon returns
-to the creature that shot or threw it just before that creature's next turn (similar to a returning
-weapon). The spell isn't discharged until the target is used to attempt a second attack against the
-named creature. Ammunition that hits is destroyed and doesn't return.

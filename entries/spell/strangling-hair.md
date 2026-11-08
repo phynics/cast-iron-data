@@ -2,7 +2,7 @@
 id = "ref/spell/strangling-hair"
 kind = "spell"
 title = "Strangling Hair"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strangling_hair", path = "json/spells15.json" },
 ]
@@ -58,10 +58,3 @@ Once you choose a target, your hair continues to attack that target independentl
 actions. You may designate a new target as a move action, which causes your hair to release its
 current target (if any) and attack the new target that round. Your hair cannot be targeted as a
 separate creature, but it can be dispelled.
-
-### Mythic Strangling Hair
-
-**Sources:** Mythic Adventures pg 109\
-You may use your hair to attempt dirty trick, disarm, steal, or trip combat maneuvers instead of
-grapple combat maneuvers. Add your tier to combat maneuver checks attempted with your hair and to
-your hair's damage rolls made as part of a grapple.

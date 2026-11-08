@@ -2,7 +2,7 @@
 id = "ref/spell/prayer"
 kind = "spell"
 title = "Prayer"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prayer", path = "json/spells14.json" },
 ]
@@ -50,10 +50,3 @@ Descriptors: mind-affecting
 You bring special favor upon yourself and your allies while bringing disfavor to your enemies. You
 and each of your allies gain a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill
 checks, while each of your foes takes a -1 penalty on such rolls.
-
-### Mythic Prayer
-
-**Sources:** Mythic Adventures pg 104\
-The spell's luck bonus increases to +2, and the penalty for enemies changes to -2. When you cast the
-spell, your affected allies heal an amount of hit point damage equal to double your tier, and
-affected enemies take an amount of damage equal to double your tier.

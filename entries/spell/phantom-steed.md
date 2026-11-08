@@ -2,7 +2,7 @@
 id = "ref/spell/phantom-steed"
 kind = "spell"
 title = "Phantom Steed"
-source_ids = ["core-rulebook", "mythic-adventures", "wilderness-origins", "ultimate-combat"]
+source_ids = ["core-rulebook", "wilderness-origins", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_steed", path = "json/spells7.json" },
 ]
@@ -77,14 +77,3 @@ required to activate this ability) for up to 1 round at a time, after which it f
 
 _14th Level:_ The mount can fly at its speed with a bonus on Fly skill checks equal to your caster
 level.
-
-### Mythic Phantom Steed
-
-**Sources:** Mythic Adventures pg 103
-
-The steed's rider automatically succeeds at Ride checks to remain mounted. The mount's hit points
-increase to 10 plus 2 per caster level, and its speed increases to 30 feet per 2 caster levels
-(maximum 150 feet).
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the phantom steed is incorporeal, but its
-rider can interact with it normally.

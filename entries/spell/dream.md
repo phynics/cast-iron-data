@@ -2,7 +2,7 @@
 id = "ref/spell/dream"
 kind = "spell"
 title = "Dream"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream", path = "json/spells13.json" },
 ]
@@ -77,12 +77,3 @@ Creatures who don't sleep or don't dream cannot be contacted by this spell.
 The messenger is unaware of its own surroundings or of the activities around it while in the trance.
 It is defenseless both physically and mentally (always failing any saving throw) while in the
 trance.
-
-### Mythic Dream
-
-**Sources:** Mythic Adventures pg 92\
-You or the messenger may gain information from the dreamer you contact by asking questions as if
-using [speak with dead](ref/spell/speak-with-dead) to speak with a corpse. An unwilling dreamer can
-attempt to resist this probing with a Will save (as _[speak with dead](ref/spell/speak-with-dead),_
-using the DC dream would have if it allowed a saving throw). Answers to these questions are still
-generally brief and cryptic.

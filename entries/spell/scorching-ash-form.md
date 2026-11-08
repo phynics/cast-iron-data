@@ -2,7 +2,7 @@
 id = "ref/spell/scorching-ash-form"
 kind = "spell"
 title = "Scorching Ash Form"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorching_ash_form", path = "json/spells8.json" },
 ]
@@ -53,12 +53,3 @@ smoke instead of harmless translucent gas. The target gains the fire subtype. An
 begins its turn sharing a space with the target takes 2d6 points of fire damage and must make a
 Fortitude save (DC 15, + 1 per previous check) or suffer the effects of
 [smoke inhalation](ref/rule/forest-fires).
-
-### Mythic Scorching Ash Form
-
-**Sources:** Mythic Adventures pg 107\
-The damage dealt increases to 3d6 points of fire damage. This otherwise makes the same changes as
-mythic gaseous form.
-
-_Augmented:_ If you expend two uses of mythic power, the target can shift into or out of scorching
-ash form as a move action.

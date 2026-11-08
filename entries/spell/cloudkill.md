@@ -2,7 +2,7 @@
 id = "ref/spell/cloudkill"
 kind = "spell"
 title = "Cloudkill"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloudkill", path = "json/spells2.json" },
 ]
@@ -67,14 +67,3 @@ farther away from the point of origin where you cast the spell.
 
 Because the vapors are heavier than air, they sink to the lowest level of the land, even pouring
 down den or sinkhole openings. It cannot penetrate liquids, nor can it be cast underwater.
-
-### Mythic Cloudkill
-
-**Sources:** Mythic Adventures pg 88\
-As a move action, you can move the cloud 10 feet in any direction. Add your tier to the spell's
-level and Hit Dice categories to determine its effect on creatures. (For example, at 3rd tier a
-creature with 6 or fewer HD gets no save, one with 7-9 HD must save or die, and one with 10 or more
-HD must save or take 1d4 points of Con damage.)
-
-_Augmented (6th):_ If you expend two uses of mythic power, the spell bypasses the poison immunity of
-living creatures.

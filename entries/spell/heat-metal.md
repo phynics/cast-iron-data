@@ -2,7 +2,7 @@
 id = "ref/spell/heat-metal"
 kind = "spell"
 title = "Heat Metal"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heat_metal", path = "json/spells5.json" },
 ]
@@ -70,10 +70,3 @@ on a point-for-point basis. If cast underwater, heat metal deals half damage and
 surrounding water.
 
 Heat metal counters and dispels [chill metal](ref/spell/chill-metal).
-
-### Mythic Heat Metal
-
-**Sources:** Mythic Adventures pg 97\
-The damage dealt increases to 1d8 points of fire damage on rounds 2 and 6 and to 2d8 points of fire
-damage per round on rounds 3 through 5. On any round in which a creature takes fire damage from this
-spell, that creature must succeed at a Reflex save or catch on fire.

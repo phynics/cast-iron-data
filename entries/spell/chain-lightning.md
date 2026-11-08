@@ -2,7 +2,7 @@
 id = "ref/spell/chain-lightning"
 kind = "spell"
 title = "Chain Lightning"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_lightning", path = "json/spells2.json" },
 ]
@@ -61,10 +61,3 @@ the secondary bolts is 2 lower than the DC to halve the damage of the primary bo
 secondary targets as you like, but they must all be within 30 feet of the primary target, and no
 target can be struck more than once. You can choose to affect fewer secondary targets than the
 maximum.
-
-### Mythic Chain Lightning
-
-**Sources:** Mythic Adventures pg 87\
-This spell deals 1d10 points of damage per caster level (maximum 20d10) and the save DC isn't
-reduced for secondary targets. Secondary targets have to be within 30 feet of any other target, not
-necessarily the primary target.

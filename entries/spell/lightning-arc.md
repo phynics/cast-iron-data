@@ -2,7 +2,7 @@
 id = "ref/spell/lightning-arc"
 kind = "spell"
 title = "Lightning Arc"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_arc", path = "json/spells6.json" },
 ]
@@ -48,14 +48,3 @@ damage per caster level (maximum 15d6) to both targets and any creatures in a li
 The spell fails if there is no line of effect between the targets. Lightning arc sets fire to
 combustibles and damages objects in its path. It can melt metals that have a low melting point, such
 as lead, gold, copper, silver, or bronze.
-
-### Mythic Lightning Arc
-
-**Sources:** Mythic Adventures pg 99\
-The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 15d8). A
-target that fails its save is blinded by the flash for 1 round and deafened by thunder for 1d4
-rounds.
-
-_Augmented (6th):_ If you expend two uses of mythic power, the two targets can be up to 120 feet
-apart, the lightning can turn once up to 90 degrees to connect the targets, and the spell's
-electrical damage bypasses electricity resistance and electricity immunity.

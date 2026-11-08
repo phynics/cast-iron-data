@@ -2,7 +2,7 @@
 id = "ref/spell/levitate"
 kind = "spell"
 title = "Levitate"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "levitate", path = "json/spells6.json" },
 ]
@@ -64,18 +64,3 @@ clamber along the face of a cliff, for example, or push against a ceiling to mov
 A levitating creature that attacks with a melee or ranged weapon finds itself increasingly unstable;
 the first attack has a -1 penalty on attack rolls, the second -2, and so on, to a maximum penalty of
 -5. A full round spent stabilizing allows the creature to begin again at -1.
-
-### Mythic Levitate
-
-**Sources:** Mythic Adventures pg 99\
-Instead of affecting one creature, you can affect a number of targets up to your caster level, but
-the total weight supported can be no more than 100 pounds per caster level. You can spend a move
-action to mentally direct all targets, but you must move all of them identically.
-
-_Augmented (8th):_ If you expend 10 uses of mythic power, you permanently levitate a 5-foot cube of
-rock, which you can move 20 feet vertically or horizontally as a move action.
-
-If you have created multiple cubes and they are physically touching each other, you can direct them
-all as a single move action (as if they were one object), even if some of them are out of range.
-Each levitating cube can support approximately 1,000 pounds of weight, allowing you to use it as a
-portion of the foundation for a bridge, floating castle, or similar construction project.

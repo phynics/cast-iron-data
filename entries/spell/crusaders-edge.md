@@ -2,7 +2,7 @@
 id = "ref/spell/crusaders-edge"
 kind = "spell"
 title = "Crusader's Edge"
-source_ids = ["inner-sea-magic", "mythic-origins"]
+source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_edge", path = "json/spells3.json" },
 ]
@@ -53,14 +53,3 @@ weapon the bane weapon quality against evil outsiders. Furthermore, whenever you
 critical hit against an outsider with the evil subtype, you not only deal normal critical damage
 with the weapon but also nauseate the outsider for 1d3 rounds - the outsider can reduce this
 nauseated condition to sickened for 1 round with a successful Fortitude save.
-
-### Mythic Crusader's Edge
-
-**Sources:** Mythic Origins pg 12\
-Whenever you confirm a critical hit against an outsider with the evil subtype, you gain 2d6
-temporary hit points. While wielding this weapon, you gain a +2 sacred bonus on saving throws
-against spells, [spell-like abilities](ref/umr/spell-like-abilities), and special abilities
-originating from evil outsiders.
-
-_Augmented (5th):_ You can expend two uses of mythic power to give the touched weapon the holy
-weapon special ability.

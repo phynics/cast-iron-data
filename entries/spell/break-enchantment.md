@@ -2,7 +2,7 @@
 id = "ref/spell/break-enchantment"
 kind = "spell"
 title = "Break Enchantment"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "break_enchantment", path = "json/spells2.json" },
 ]
@@ -69,14 +69,3 @@ or lower.
 
 If the effect comes from a permanent magic item, break enchantment does not remove the curse from
 the item, but it does free the victim from the item's effects.
-
-### Mythic Break Enchantment
-
-**Sources:** Mythic Adventures pg 87\
-Against non-mythic effects, the spell automatically succeeds without requiring a caster level check.
-Against mythic effects, add your tier to your caster level check. The maximum level of spell this
-spell can remove is 5 + half your tier.
-
-_Augmented (7th):_ If you expend two uses of mythic power, you can apply a removed enchantment,
-transmutation, or curse to the creature that originally cast it. The creature must be a valid target
-of the spell and on the same plane as you, and it gets a saving throw at the effect's original DC.

@@ -2,7 +2,7 @@
 id = "ref/spell/blade-barrier"
 kind = "spell"
 title = "Blade Barrier"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_barrier", path = "json/spells12.json" },
 ]
@@ -56,14 +56,3 @@ choice) and thus take no damage by making a successful Reflex save.
 
 A blade barrier provides cover (+4 bonus to AC, +2 bonus on Reflex saves) against attacks made
 through it.
-
-### Mythic Blade Barrier
-
-**Sources:** Mythic Adventures pg 85\
-You may cast this spell as an immediate action. The barrier's damage increases to 1d8 per caster
-level (maximum 20d8).
-
-_Augmented (3rd):_ If you expend two uses of mythic power, you can spend a move action to move the
-barrier up to 10 feet in any direction. The shape (flat or ring) and orientation (vertical or
-horizontal) of the wall must remain the same. If you move the barrier through a creature's space, it
-can attempt a saving throw to avoid the wall, as if you had created it where the creature is.

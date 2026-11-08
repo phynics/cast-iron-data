@@ -2,7 +2,7 @@
 id = "ref/spell/protection-from-evil"
 kind = "spell"
 title = "Protection from Evil"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
+source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_evil", path = "json/spells15.json" },
 ]
@@ -80,32 +80,3 @@ warded creature. Summoned creatures that are not evil are immune to this effect.
 against contact by summoned creatures ends if the warded creature makes an attack against or tries
 to force the barrier against the blocked creature. [Spell resistance](ref/rule/spell-resistance) can
 allow a creature to overcome this protection and touch the warded creature.
-
-### Mythic Protection from Evil
-
-**Sources:** Mythic Adventures pg 105
-
-The bonuses to AC and on saves increase to +4. Any evil creature attempting to possess or exercise
-mental control over the target must attempt a Will save against this spell. If it fails, the
-creature takes 1d6 points of damage per 2 caster levels (maximum 5d6) from mental feedback. An evil
-creature that uses [spell resistance](ref/rule/spell-resistance) to bypass the spell's protection
-against contact must successfully save or take this damage once each round it attacks the protected
-target.
-
-### Mythic Protection from Chaos
-
-**Sources:** Mythic Adventures pg 104
-
-As mythic protection from evil, except against chaotic creatures.
-
-### Mythic Protection from Good
-
-**Sources:** Mythic Adventures pg 105
-
-As _mythic protection from evil,_ except against good creatures.
-
-### Mythic Protection from Law
-
-**Sources:** Mythic Adventures pg 105
-
-As _mythic protection from evil,_ except against lawful creatures.

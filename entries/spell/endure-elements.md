@@ -2,7 +2,7 @@
 id = "ref/spell/endure-elements"
 kind = "spell"
 title = "Endure Elements"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
+source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endure_elements", path = "json/spells4.json" },
 ]
@@ -63,11 +63,3 @@ Fortitude saves. The creature's equipment is likewise protected.
 
 Endure elements doesn't provide any protection from fire or cold damage, nor does it protect against
 other environmental hazards such as smoke, lack of air, and so forth.
-
-### Mythic Endure Elements
-
-**Sources:** Mythic Adventures pg 93
-
-The target changes to one creature touched per level. Affected creatures gain cold resistance 5 and
-fire resistance 5. They're not slowed by snow, and ignore penalties on Perception checks and ranged
-weapon attacks from hail, rain, sleet, and snow. They treat wind as one category weaker.

@@ -2,7 +2,7 @@
 id = "ref/spell/animal-aspect-greater"
 kind = "spell"
 title = "Greater Animal Aspect"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_aspect_greater", path = "json/spells.json" },
 ]
@@ -53,14 +53,6 @@ Saving throw: none
 Spell resistance: yes (harmless)
 Subschool: Polymorph
 :::
-
-### Mythic Animal Aspect
-
-**Sources:** Mythic Adventures pg 84
-
-You gain [low-light vision](ref/rule/low-light-vision), a +2 size bonus to the physical ability
-score of your choice, and a +1 enhancement bonus to your natural armor. Alternatively, you may cast
-the non-mythic form of this spell on a touched willing creature.
 
 ### Greater Animal Aspect
 

@@ -2,7 +2,7 @@
 id = "ref/spell/named-bullet-greater"
 kind = "spell"
 title = "Greater Named Bullet"
-source_ids = ["ultimate-combat", "mythic-adventures"]
+source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "named_bullet_greater", path = "json/spells7.json" },
 ]
@@ -47,17 +47,6 @@ Duration: 10 minutes/level or until discharged
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 :::
-
-### Mythic Named Bullet
-
-**Sources:** Mythic Adventures pg 102
-
-Increase the critical multiplier of the target weapon by 1 (maximum ×4).
-
-_Augmented (2nd):_ If you expend two uses of mythic power, the target ammunition or weapon returns
-to the creature that shot or threw it just before that creature's next turn (similar to a returning
-weapon). The spell isn't discharged until the target is used to attempt a second attack against the
-named creature. Ammunition that hits is destroyed and doesn't return.
 
 ### Greater Named Bullet
 

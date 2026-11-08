@@ -2,7 +2,7 @@
 id = "ref/spell/black-mark"
 kind = "spell"
 title = "Black Mark"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_mark", path = "json/spells12.json" },
 ]
@@ -51,10 +51,3 @@ shaken anytime it is on or in the water more than a 5 feet from shore. In additi
 black mark is active, the target is affected as if subject to nature's exile, but all creatures with
 the aquatic or water subtype or with a swim speed are made hostile, even those not of the animal
 type, though non-aquatic animals are not.
-
-### Mythic Black Mark
-
-**Sources:** Mythic Adventures pg 85\
-Any time the cursed creature travels on or in the water more than 1 mile from shore, each day it (or
-the vessel it's on) is attacked by one or more aquatic or water monsters, as if summoned by
-[summon nature's ally VII](ref/spell/summon-natures-ally-7) (caster level 13th).

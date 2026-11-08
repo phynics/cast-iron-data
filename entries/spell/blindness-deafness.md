@@ -2,7 +2,7 @@
 id = "ref/spell/blindness-deafness"
 kind = "spell"
 title = "Blindness/Deafness"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blindness_deafness", path = "json/spells2.json" },
 ]
@@ -57,9 +57,3 @@ Descriptors: curse
 **Sources:** PRPG Core Rulebook pg 250
 
 You call upon the powers of unlife to render the subject blinded or deafened, as you choose.
-
-### Mythic Blindness/Deafness
-
-**Sources:** Mythic Adventures pg 86\
-You can cause the target to be both blinded and deafened at the same time. The target must attempt a
-saving throw against each effect separately.

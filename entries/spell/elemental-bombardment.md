@@ -76,14 +76,3 @@ use a summoning spell to summon a creature with an elemental subtype, it is a sp
 |Magma|Half bludgeoning, half fire|
 |Mud|Bludgeoning and entrap\*|
 |Water|Bludgeoning and drench\*|
-
-### Mythic Elemental Bombardment
-
-**Sources:** Mythic Origins pg 14\
-If you expend one use of mythic power, you can summon a combination of differently sized elementals
-of up to two different types, as long as their total number does not exceed the original limit. For
-example, you could summon one Huge air elemental and two Large fire elementals, or one Large water
-elemental and six Medium earth elementals.
-
-_Augmented (9th):_ If you expend three uses of mythic power, you summon twice as many elementals as
-normal, each with the advanced simple template.

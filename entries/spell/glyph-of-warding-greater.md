@@ -2,7 +2,7 @@
 id = "ref/spell/glyph-of-warding-greater"
 kind = "spell"
 title = "Greater Glyph of Warding"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glyph_of_warding_greater", path = "json/spells5.json" },
 ]
@@ -42,14 +42,6 @@ Duration: permanent until discharged (D)
 Saving throw: see text
 Spell resistance: no (object) and yes; see text
 :::
-
-### Mythic Glyph of Warding
-
-**Sources:** Mythic Adventures pg 96
-
-Add your tier to the DC to detect or disable the glyph. Blast glyph damage increases to 1d6 points
-of damage per caster level (maximum 20d6). Add half your tier to the maximum spell level you can
-store in a spell glyph.
 
 ### Greater Glyph of Warding
 

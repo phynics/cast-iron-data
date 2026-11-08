@@ -2,7 +2,7 @@
 id = "ref/spell/source-severance"
 kind = "spell"
 title = "Source Severance"
-source_ids = ["core-rulebook", "mythic-adventures", "faiths-and-philosophies"]
+source_ids = ["core-rulebook", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "source_severance", path = "json/spells.json" },
 ]
@@ -47,13 +47,6 @@ Saving throw: none
 Spell resistance: see text
 Area: 10-ft.-radius emanation, centered on you
 :::
-
-### Mythic Antimagic Field
-
-**Sources:** Mythic Adventures pg 84
-
-Select a number of spell schools equal to half your tier. Spells and effects of the chosen schools
-are unaffected by the antimagic field.
 
 ### Source Severance
 

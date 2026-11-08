@@ -2,7 +2,7 @@
 id = "ref/spell/mages-disjunction"
 kind = "spell"
 title = "Mage's Disjunction"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_disjunction", path = "json/spells6.json" },
 ]
@@ -61,9 +61,3 @@ make a DC 25 Will save or permanently lose all spellcasting abilities. These abi
 recovered by mortal magic, not even miracle or wish. Destroying artifacts is a dangerous business,
 and it is 95% likely to attract the attention of some powerful being who has an interest in or
 connection with the device.
-
-### Mythic Mage's Disjunction
-
-**Sources:** Mythic Adventures pg 100\
-The duration increases to 10 minutes per caster level. The chance to destroy an antimagic field
-increases to 2% per caster level.

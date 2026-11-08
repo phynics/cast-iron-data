@@ -2,7 +2,7 @@
 id = "ref/spell/call-lightning"
 kind = "spell"
 title = "Call Lightning"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_lightning", path = "json/spells2.json" },
 ]
@@ -60,12 +60,3 @@ conditions, or even a tornado (including a whirlwind formed by a djinni or an ai
 least Large size)-each bolt deals 3d10 points of electricity damage instead of 3d6.
 
 This spell functions indoors or underground but not underwater.
-
-### Mythic Call Lightning
-
-**Sources:** Mythic Adventures pg 87
-
-Each lightning bolt's damage increases to 3d10 points of damage (or 5d10 points outdoors in stormy
-weather). Half of this damage is electricity damage, and the other half is sonic. Creatures that
-succeed at their saving throws are dazzled and deafened for 1 round. Those that fail at their saving
-throws are dazzled and deafened for 1 minute.

@@ -2,7 +2,7 @@
 id = "ref/spell/blood-crow-strike"
 kind = "spell"
 title = "Blood Crow Strike"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_crow_strike", path = "json/spells2.json" },
 ]
@@ -51,11 +51,3 @@ negative energy (this negative energy does not heal undead). For example, if you
 monk, you can use a flurry of blows to attack five times, creating one energy crow for each
 successful attack against the target, and dealing 2d6 points of damage (plus appropriate unarmed
 strike modifiers) with each crow.
-
-### Mythic Blood Crow Strike
-
-**Sources:** Mythic Adventures pg 87\
-Unarmed strikes attempted with this spell are treated as if you had the
-[Improved Critical](ref/feat/improved-critical) (unarmed strike) feat. Use your tier plus your monk
-level (if any) when determining your unarmed strike damage for this spell. Fire damage from this
-spell bypasses fire resistance.

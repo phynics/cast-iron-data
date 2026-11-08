@@ -2,7 +2,7 @@
 id = "ref/spell/haste"
 kind = "spell"
 title = "Haste"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haste", path = "json/spells5.json" },
 ]
@@ -73,14 +73,3 @@ swim) increase by 30 feet, to a maximum of twice the subject's normal speed usin
 movement. This increase counts as an enhancement bonus, and it affects the creature's jumping
 distance as normal for increased speed. Multiple haste effects don't stack. Haste dispels and
 counters [slow](ref/spell/slow).
-
-### Mythic Haste
-
-**Sources:** Mythic Adventures pg 97\
-Affected creatures gain an additional move action each round. The movement speed increase changes to
-50 feet, to a maximum of three times the creature's normal speed for that movement type.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the movement speed increase changes to 70
-feet, with no limit based on the creature's normal speed. If an affected creature moves at least 30
-feet on its turn, it can travel across liquid as if the liquid were solid. If the liquid deals
-damage on contact, the creature takes only half damage from moving across it.

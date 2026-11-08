@@ -2,7 +2,7 @@
 id = "ref/spell/expeditious-retreat"
 kind = "spell"
 title = "Expeditious Retreat"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expeditious_retreat", path = "json/spells4.json" },
 ]
@@ -60,10 +60,3 @@ This spell increases your base land speed by 30 feet. This adjustment is treated
 bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with
 any effect that increases your speed, this spell affects your jumping distance (see the
 [Acrobatics](ref/skill/acrobatics) skill).
-
-### Mythic Expeditious Retreat
-
-**Sources:** Mythic Adventures pg 93\
-The speed bonus from the spell increases to 40 feet. Add your tier to Acrobatics checks to avoid
-attacks of opportunity from movement, and when your movement provokes an attack of opportunity, add
-your tier to your AC against that attack.

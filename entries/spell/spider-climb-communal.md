@@ -2,7 +2,7 @@
 id = "ref/spell/spider-climb-communal"
 kind = "spell"
 title = "Communal Spider Climb"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
+source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_climb_communal", path = "json/spells9.json" },
 ]
@@ -53,16 +53,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-### Mythic Spider Climb
-
-**Sources:** Mythic Adventures pg 109
-
-The target gains a climb speed equal to its base land speed or 30 feet, whichever is higher. The
-target can take the run action while climbing and needs only one hand free to climb.
-
-The target can move freely across spider webs (including giant spider webs), web spells, and similar
-adhesives of 2nd level or less (including tanglefoot bags) as if it were using freedom of movement.
 
 ### Communal Spider Climb
 

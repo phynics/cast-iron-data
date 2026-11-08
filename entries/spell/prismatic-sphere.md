@@ -2,7 +2,7 @@
 id = "ref/spell/prismatic-sphere"
 kind = "spell"
 title = "Prismatic Sphere"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_sphere", path = "json/spells14.json" },
 ]
@@ -58,10 +58,3 @@ so the lower half is usually occluded by the floor surface you are standing on.
 The colors of the sphere have the same effects as the colors of a prismatic wall.
 
 Prismatic sphere can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Mythic Prismatic Sphere
-
-**Sources:** Mythic Adventures pg 104\
-When you cast the spell, you simultaneously create a prismatic spray that originates from one point
-on the sphere and radiates directly away from you. The save DC of this prismatic spray is the same
-as that of your mythic prismatic sphere.

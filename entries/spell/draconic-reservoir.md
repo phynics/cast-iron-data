@@ -2,7 +2,7 @@
 id = "ref/spell/draconic-reservoir"
 kind = "spell"
 title = "Draconic Reservoir"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_reservoir", path = "json/spells13.json" },
 ]
@@ -58,13 +58,3 @@ has been released, the spell is discharged.
 Draconic reservoir does not stack with protection from energy. Draconic reservoir overlaps (and does
 not stack with) resist energy. If a character is warded by draconic reservoir and resist energy,
 draconic reservoir absorbs damage until it reaches its maximum limit.
-
-### Mythic Draconic Reservoir
-
-**Sources:** Mythic Adventures pg 92\
-The amount of energy damage the spell absorbs increases to 10 points per caster level (maximum 100
-points). The energy damage from the weapons improves as if using a corrosive burst, flaming burst,
-icy burst, or shocking burst weapon.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, spending a swift action applies the
-energy damage to any number of creatures the target hits this round, not just the first.

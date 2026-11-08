@@ -2,7 +2,7 @@
 id = "ref/spell/shadow-weapon"
 kind = "spell"
 title = "Shadow Weapon"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_weapon", path = "json/spells15.json" },
 ]
@@ -66,13 +66,3 @@ enhancement bonus to +2 or add the frost or keen weapon property. The frost and 
 no effect if the target makes its disbelief save.
 
 The spell ends if the weapon leaves your possession.
-
-### Mythic Shadow Weapon
-
-**Sources:** Mythic Adventures pg 107\
-Add your tier to your caster level when determining what enhancement bonus or weapon special
-abilities the weapon can have. The weapon deals half damage to creatures that disbelieve in it and
-to objects, instead of only 1 point.
-
-You can spend a swift action to transform the weapon into a dull black metal ring on your finger, or
-to return it from its ring form to its weapon form in your hand.

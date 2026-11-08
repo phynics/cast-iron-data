@@ -2,7 +2,7 @@
 id = "ref/spell/ear-piercing-scream"
 kind = "spell"
 title = "Ear-Piercing Scream"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ear_piercing_scream", path = "json/spells13.json" },
 ]
@@ -53,12 +53,3 @@ Descriptors: sonic
 You unleash a powerful scream, inaudible to all but a single target. The target is dazed for 1 round
 and takes 1d6 points of sonic damage per two caster levels (maximum 5d6). A successful save negates
 the daze effect and halves the damage.
-
-### Mythic Ear-Piercing Scream
-
-**Sources:** Mythic Adventures pg 92\
-The damage dealt increases to 1d8 points of sonic damage per 2 caster levels (maximum 5d8) and the
-duration that creatures in the area are dazed is a number of rounds equal to your tier.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the spell affects a 30-foot cone rather
-than a single target.

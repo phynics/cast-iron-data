@@ -2,7 +2,7 @@
 id = "ref/spell/dragons-breath"
 kind = "spell"
 title = "Dragon's Breath"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragons_breath", path = "json/spells13.json" },
 ]
@@ -62,12 +62,3 @@ effect and energy type depend on the type of dragon scale used:
 > _Brass dragon:_ 60-foot line of fire.
 >
 > _Copper dragon:_ 60-foot line of acid.
-
-### Mythic Dragon's Breath
-
-**Sources:** Mythic Adventures pg 92\
-The spell's duration changes to 1 minute/level or until discharged. You can use the breath weapon up
-to three times during this duration. On the round you cast the spell, using the breath weapon is a
-free action; later uses require a standard action. You must wait 1d4 rounds between each use of the
-breath weapon. All uses for a particular casting have the same range, area, and energy type. You can
-have only one dragon's breath spell in effect at a time; casting a new one ends the previous one.

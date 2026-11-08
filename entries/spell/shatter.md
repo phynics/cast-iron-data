@@ -2,7 +2,7 @@
 id = "ref/spell/shatter"
 kind = "spell"
 title = "Shatter"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter", path = "json/spells9.json" },
 ]
@@ -64,12 +64,3 @@ Alternatively, you can target shatter against a single solid nonmagical object, 
 composition, weighing up to 10 pounds per caster level. Targeted against a crystalline creature (of
 any weight), shatter deals 1d6 points of sonic damage per caster level (maximum 10d6), with a
 Fortitude save for half damage.
-
-### Mythic Shatter
-
-**Sources:** Mythic Adventures pg 107\
-Add your tier to your caster level when determining the maximum object weight you can affect. When
-targeting a crystalline creature, the spell's damage increases to 1d8 points of sonic damage per
-caster level (maximum 10d8). You may damage a single magical object as if it were a crystalline
-creature. If the spell destroys an object or damages a crystalline creature, broken shards litter
-the spell area or creature's space and act as caltrops.

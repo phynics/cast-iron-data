@@ -2,7 +2,7 @@
 id = "ref/spell/fly"
 kind = "spell"
 title = "Fly"
-source_ids = ["core-rulebook", "mythic-adventures", "advanced-players-guide"]
+source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fly", path = "json/spells4.json" },
 ]
@@ -66,14 +66,3 @@ subject floats downward 60 feet per round for 1d6 rounds. If it reaches the grou
 time, it lands safely. If not, it falls the rest of the distance, taking 1d6 points of damage per 10
 feet of fall. Since dispelling a spell effectively ends it, the subject also descends safely in this
 way if the fly spell is dispelled, but not if it is negated by an antimagic field.
-
-### Mythic Fly
-
-**Sources:** Mythic Adventures pg 95
-
-The fly speed changes to 120 feet (or 80 feet if the target is wearing medium or heavy armor, or
-carrying a medium or heavy load) with perfect maneuverability. When the duration expires, the target
-is protected by feather fall for a number of rounds equal to your caster level.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the target adds your tier on Reflex saves
-and as a dodge bonus to AC. It gains these bonuses only while flying.

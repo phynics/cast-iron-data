@@ -2,7 +2,7 @@
 id = "ref/spell/flame-blade"
 kind = "spell"
 title = "Flame Blade"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_blade", path = "json/spells4.json" },
 ]
@@ -48,12 +48,3 @@ beam as if it were a scimitar. Attacks with the flame blade are melee touch atta
 1d8 points of fire damage + 1 point per two caster levels (maximum +10). Since the blade is
 immaterial, your Strength modifier does not apply to the damage. A flame blade can ignite
 combustible materials such as parchment, straw, dry sticks, and cloth.
-
-### Mythic Flame Blade
-
-**Sources:** Mythic Adventures pg 94\
-The blade's damage increases to 2d6 points of fire damage + 1 point per caster level (maximum +20).
-The blade threatens a critical hit on a natural 18-20 as if it were an actual scimitar.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the blade threatens a critical hit on a
-natural 15-20, and bypasses [hardness](ref/umr/hardness), fire resistance, and fire immunity.

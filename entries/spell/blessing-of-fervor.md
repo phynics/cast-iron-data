@@ -2,7 +2,7 @@
 id = "ref/spell/blessing-of-fervor"
 kind = "spell"
 title = "Blessing of Fervor"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_fervor", path = "json/spells2.json" },
 ]
@@ -56,8 +56,3 @@ following bonuses for that round at the beginning of its turn (their choice).
 These effects are not cumulative with similar effects, such as those provided by haste or a speed
 weapon, nor do they actually grant an extra action, so you can't use it to cast a second spell or
 otherwise take an extra action in the round. Blessing of fervor does not stack with haste.
-
-### Mythic Blessing of Fervor
-
-**Sources:** Mythic Adventures pg 86\
-Affected creatures can choose two of the spell's bonuses each round rather than one.

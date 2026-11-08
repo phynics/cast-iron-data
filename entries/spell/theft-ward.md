@@ -2,7 +2,7 @@
 id = "ref/spell/theft-ward"
 kind = "spell"
 title = "Theft Ward"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "theft_ward", path = "json/spells10.json" },
 ]
@@ -51,9 +51,3 @@ Target: one object
 
 You ward a single object in your possession against theft. You gain a +10 bonus on Perception checks
 to notice someone trying to take the object from you.
-
-### Mythic Theft Ward
-
-**Sources:** Mythic Adventures pg 110\
-Add your tier to the Perception check bonus. Add your tier to your CMD against disarm and steal
-combat maneuvers attempted against the item.

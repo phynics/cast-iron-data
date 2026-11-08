@@ -2,7 +2,7 @@
 id = "ref/spell/faerie-fire"
 kind = "spell"
 title = "Faerie Fire"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faerie_fire", path = "json/spells4.json" },
 ]
@@ -51,12 +51,3 @@ from the [concealment](ref/rule/concealment) normally provided by [darkness](ref
 The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to
 light. The faerie fire can be blue, green, or violet, according to your choice at the time of
 casting. The faerie fire does not cause any harm to the objects or creatures thus outlined.
-
-### Mythic Faerie Fire
-
-**Sources:** Mythic Adventures pg 93\
-Outlined creatures are dazzled. The spell outlines figment illusions in the burst, revealing them as
-such. This effect applies only to figments with a caster level equal to or less than your tier.
-
-_Augmented (2nd):_ If you expend two uses of mythic power, each creature in the burst must succeed
-at a Fortitude save or be blinded for 1 round.

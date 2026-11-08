@@ -2,7 +2,7 @@
 id = "ref/spell/shout-greater"
 kind = "spell"
 title = "Greater Shout"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shout_greater", path = "json/spells9.json" },
 ]
@@ -48,16 +48,6 @@ Saving throw: Fortitude partial or Reflex negates (object); see text
 Spell resistance: yes (object)
 Descriptors: sonic
 :::
-
-### Mythic Shout
-
-**Sources:** Mythic Adventures pg 108
-
-The duration that creatures in the area are deafened increases to 4d6 rounds, and the damage dealt
-increases to 5d8 points of sonic damage. The damage dealt to crystalline creatures and exposed
-brittle or crystalline objects increases to 1d8 points of sonic damage per caster level (maximum
-15d8). Crystalline creatures reverberate with sonic energy, taking 4 points of sonic damage on your
-turn for a number of rounds equal to your tier.
 
 ### Greater Shout
 

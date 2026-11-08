@@ -2,7 +2,7 @@
 id = "ref/spell/entropic-shield"
 kind = "spell"
 title = "Entropic Shield"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entropic_shield", path = "json/spells4.json" },
 ]
@@ -46,10 +46,3 @@ A magical field appears around you, glowing with a chaotic blast of multicolored
 deflects incoming arrows, rays, and other ranged attacks. Each ranged attack directed at you for
 which the attacker must make an attack roll has a 20% miss chance (similar to the effects of
 concealment). Other attacks that simply work at a distance are not affected.
-
-### Mythic Entropic Shield
-
-**Sources:** Mythic Adventures pg 93\
-When a ranged attack misses because of this spell, there is a 50% chance that the attack is
-redirected back at the attacker rather than just being deflected harmlessly. The attack uses the
-same result as the attack roll the attacker made against you.

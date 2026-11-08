@@ -2,7 +2,7 @@
 id = "ref/spell/conjure-black-pudding"
 kind = "spell"
 title = "Conjure Black Pudding"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjure_black_pudding", path = "json/spells12.json" },
 ]
@@ -53,14 +53,3 @@ You summon a black pudding that immediately attacks creatures near it. You have 
 creature, and it may attack you if there are no more obvious opponents. The black pudding is treated
 as a summoned creature and has the extraplanar subtype. The black pudding's split ability works
 normally, but all puddings derived from the summoned one disappear when the spell ends.
-
-### Mythic Conjure Black Pudding
-
-**Sources:** Mythic Adventures pg 89\
-The black pudding has [fast healing](ref/umr/fast-healing) equal to your tier, as do any puddings
-that split off from it. The black puddings from this spell never attack you, though they're
-otherwise uncontrolled and might attack your allies if there are no other obvious opponents.
-
-_Augmented (6th):_ If you expend two uses of mythic power, the pudding gains the
-[savage mythic template](ref/rule/mythic-simple-templates). Puddings that split off from the giant
-pudding don't gain the template.

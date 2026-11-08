@@ -2,7 +2,7 @@
 id = "ref/spell/cure-light-wounds"
 kind = "spell"
 title = "Cure Light Wounds"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cure_light_wounds", path = "json/spells3.json" },
 ]
@@ -62,10 +62,3 @@ When laying your hand upon a living creature, you channel positive energy that c
 damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this
 spell deals damage to them instead of curing their wounds. An undead creature can apply
 [spell resistance](ref/rule/spell-resistance), and can attempt a Will save to take half damage.
-
-### Mythic Cure Light Wounds
-
-**Sources:** Mythic Adventures pg 89\
-The damage cured increases to 2d8 points of damage + 2 points per caster level (maximum +10). The
-spell cures up to 1 point of ability damage if the target is a living creature. The target chooses
-what type of ability damage is cured.

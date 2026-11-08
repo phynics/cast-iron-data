@@ -2,7 +2,7 @@
 id = "ref/spell/disfiguring-touch"
 kind = "spell"
 title = "Disfiguring Touch"
-source_ids = ["ultimate-magic", "book-of-the-damned-volume-2-lords-of-chaos", "mythic-adventures"]
+source_ids = ["ultimate-magic", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disfiguring_touch", path = "json/spells3.json" },
 ]
@@ -63,12 +63,3 @@ takes one of the following penalties.
 - Land speed reduced by 5 feet.
 
 You may also invent other effects, but they should be no more powerful than those described above.
-
-### Mythic Disfiguring Touch
-
-**Sources:** Mythic Adventures pg 91\
-The target takes two different penalties (chosen from the same list) instead of one.
-
-_Augmented:_ If you expend two uses of mythic power, the target also gains the fatigued condition
-because of its painful disfigurement. If this fatigue is negated without removing the curse, it
-returns after 1 hour.

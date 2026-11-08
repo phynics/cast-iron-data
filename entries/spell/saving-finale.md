@@ -2,7 +2,7 @@
 id = "ref/spell/saving-finale"
 kind = "spell"
 title = "Saving Finale"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_finale", path = "json/spells8.json" },
 ]
@@ -46,8 +46,3 @@ You must have a bardic performance in effect to cast this spell. With a flourish
 immediately end your bardic performance when a creature within range affected by your bardic
 performance fails a saving throw, allowing the subject to immediately reroll the failed saving
 throw.
-
-### Mythic Saving Finale
-
-**Sources:** Mythic Adventures pg 107\
-Add your tier as a bonus on the saving throw reroll.

@@ -2,7 +2,7 @@
 id = "ref/spell/dominate-person"
 kind = "spell"
 title = "Dominate Person"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dominate_person", path = "json/spells13.json" },
 ]
@@ -88,14 +88,3 @@ saving throw to throw off the domination.
 [Protection from evil](ref/spell/protection-from-evil) or a similar spell can prevent you from
 exercising control or using the telepathic link while the subject is so warded, but such an effect
 does not automatically dispel it.
-
-### Mythic Dominate Person
-
-**Sources:** Mythic Adventures pg 92\
-The Sense Motive DC to notice your target is dominated increases by double your tier. You can give
-orders to the target even if it's protected by non-mythic effects that block magical control, such
-as protection from evil. If the target is protected by a mythic effect, you can attempt to overcome
-this defense with a caster level check (DC 15 plus the caster level of the effect); add your tier to
-your roll and the opposing caster's tier to the DC. If the target succeeds at its Will save to break
-your control, as an immediate action you can expend one use of mythic power to force it to reroll
-the save and use the lower result.

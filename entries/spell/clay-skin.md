@@ -2,7 +2,7 @@
 id = "ref/spell/clay-skin"
 kind = "spell"
 title = "Clay Skin"
-source_ids = ["core-rulebook", "mythic-adventures", "potions-and-poisons", "ultimate-combat"]
+source_ids = ["core-rulebook", "potions-and-poisons", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clay_skin", path = "json/spells9.json" },
 ]
@@ -53,14 +53,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-### Mythic Stoneskin
-
-**Sources:** Mythic Adventures pg 109
-
-The target gains a +4 bonus on saving throws against disease, poison, and stun effects. There is a
-50% chance any critical hit or sneak attack against the target is treated as a normal hit, as if the
-target were wearing medium fortification armor.
 
 ### Clay Skin
 

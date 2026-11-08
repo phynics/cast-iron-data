@@ -2,7 +2,7 @@
 id = "ref/spell/ill-omen"
 kind = "spell"
 title = "Ill Omen"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ill_omen", path = "json/spells14.json" },
 ]
@@ -54,13 +54,3 @@ A target who can speak and has at least one free hand and who is aware of the sp
 (such as from a Spellcraft check to identify the spell as it is cast) can negate one reroll by
 spending a move action to utter a brief prayer or good luck charm to appease the spirits of ill
 fortune.
-
-### Mythic Ill Omen
-
-**Sources:** Mythic Adventures pg 98\
-For the target's unlucky d20 rolls, it must roll three times and take the lowest result. Spending a
-move action to utter a prayer or good luck charm allows the target to roll twice instead of three
-times.
-
-_Augmented (4th):_ If you expend two uses of mythic power, you afflict the target with especially
-foul luck. Any natural 20 it rolls counts as a natural 1 instead.

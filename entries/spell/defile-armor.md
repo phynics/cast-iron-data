@@ -2,7 +2,7 @@
 id = "ref/spell/defile-armor"
 kind = "spell"
 title = "Defile Armor"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defile_armor", path = "json/spells3.json" },
 ]
@@ -44,12 +44,3 @@ Descriptors: evil
 **Sources:** Advanced Player's Guide pg 215
 
 As sanctify armor, except you gain DR 5/good when using your judgment or smite ability.
-
-### Mythic Defile Armor
-
-**Sources:** Mythic Adventures pg 90\
-You gain DR 5/good while wearing the target armor. While using your judgment or smite ability, this
-improves to DR 10/good.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, while you use your judgment or smite, add
-half your tier to your AC as a profane bonus.

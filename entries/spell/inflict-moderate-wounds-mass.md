@@ -2,7 +2,7 @@
 id = "ref/spell/inflict-moderate-wounds-mass"
 kind = "spell"
 title = "Mass Inflict Moderate Wounds"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_moderate_wounds_mass", path = "json/spells14.json" },
 ]
@@ -46,14 +46,6 @@ Duration: instantaneous
 Saving throw: Will half
 Spell resistance: yes
 :::
-
-### Mythic Inflict Moderate Wounds
-
-**Sources:** Mythic Adventures pg 99
-
-The damage dealt increases to 4d8 points of damage + 2 points per caster level (maximum +20). A
-living target is sickened for 1 round per caster level (maximum 10 rounds) if it fails its saving
-throw.
 
 ### Mass Inflict Moderate Wounds
 

@@ -2,7 +2,7 @@
 id = "ref/spell/silent-image"
 kind = "spell"
 title = "Silent Image"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_image", path = "json/spells9.json" },
 ]
@@ -54,13 +54,3 @@ Subschool: Figment
 This spell creates the visual illusion of an object, creature, or force, as visualized by you. The
 illusion does not create sound, smell, texture, or temperature. You can move the image within the
 limits of the size of the effect.
-
-### Mythic Silent Image
-
-**Sources:** Mythic Adventures pg 108\
-The duration increases to concentration + 1 round per caster level, and the effect increases to a
-visual figment that can't extend beyond eight 10-foot cubes + 1 10-foot cube per caster level.
-
-_Augmented (6th):_ If you expend two uses of mythic power, the duration changes to concentration + 1
-minute per caster level and the effect changes to a visual figment no larger than a 50-foot
-emanation. An augmented mythic silent image can't move.

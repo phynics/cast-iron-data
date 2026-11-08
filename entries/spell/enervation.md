@@ -2,7 +2,7 @@
 id = "ref/spell/enervation"
 kind = "spell"
 title = "Enervation"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enervation", path = "json/spells4.json" },
 ]
@@ -55,14 +55,3 @@ level (maximum 15 hours). Usually, negative levels have a chance of becoming per
 negative levels from enervation don't last long enough to do so.
 
 An undead creature struck by the ray gains 1d4 × 5 temporary hit points for 1 hour.
-
-### Mythic Enervation
-
-**Sources:** Mythic Adventures pg 93\
-The number of negative levels inflicted increases to 1d6, and the target is sickened for 24 hours.
-An undead creature struck by the ray gains 1d6 × 5 temporary hit points for a number of hours equal
-to your caster level.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, any creature attempting to remove the
-target's negative levels must succeed at a caster level check (DC 10 + your caster level + your
-tier).

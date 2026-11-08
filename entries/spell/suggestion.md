@@ -2,7 +2,7 @@
 id = "ref/spell/suggestion"
 kind = "spell"
 title = "Suggestion"
-source_ids = ["core-rulebook", "mythic-adventures", "blood-of-the-beast", "advanced-class-guide"]
+source_ids = ["core-rulebook", "blood-of-the-beast", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suggestion", path = "json/spells16.json" },
 ]
@@ -64,10 +64,3 @@ You can instead specify conditions that will trigger a special activity during t
 condition is not met before the spell duration expires, the activity is not performed.
 
 A very reasonable suggestion causes the save to be made with a penalty (such as -1 or -2).
-
-### Mythic Suggestion
-
-**Sources:** Mythic Adventures pg 109
-
-Mythic suggestion loses the language-dependent descriptor, and can target one or more living
-creatures in a 10-foot-radius burst.

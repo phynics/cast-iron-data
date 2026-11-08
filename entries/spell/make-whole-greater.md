@@ -2,7 +2,7 @@
 id = "ref/spell/make-whole-greater"
 kind = "spell"
 title = "Greater Make Whole"
-source_ids = ["core-rulebook", "mythic-adventures", "technology-guide"]
+source_ids = ["core-rulebook", "technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_whole_greater", path = "json/spells6.json" },
 ]
@@ -45,15 +45,6 @@ Duration: instantaneous
 Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 :::
-
-### Mythic Make Whole
-
-**Sources:** Mythic Adventures pg 100
-
-The damage the spell repairs increases to 2d6 points of damage per caster level when cast on a
-construct creature (maximum 10d6). A construct repaired with this spell gains a +2 enhancement bonus
-on an ability score of your choice for the next 24 hours. To repair a magic item, your caster level
-has to equal to only the caster level of the magic item, not double the caster level.
 
 ### Greater Make Whole
 

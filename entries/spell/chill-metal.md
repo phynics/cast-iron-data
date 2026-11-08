@@ -2,7 +2,7 @@
 id = "ref/spell/chill-metal"
 kind = "spell"
 title = "Chill Metal"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chill_metal", path = "json/spells2.json" },
 ]
@@ -70,10 +70,3 @@ on a point-for-point basis. Underwater, chill metal deals no damage, but ice imm
 around the affected metal, making it float if unattended.
 
 Chill metal counters and dispels [heat metal](ref/spell/heat-metal).
-
-### Mythic Chill Metal
-
-**Sources:** Mythic Adventures pg 88\
-The damage dealt increases to 1d8 points of cold damage on rounds 2 and 6, and to 2d8 points of cold
-damage on rounds 3 through 5. Each round a creature takes cold damage from this spell, it also takes
-1 point of Dexterity damage (Fortitude negates).

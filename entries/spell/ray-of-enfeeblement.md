@@ -2,7 +2,7 @@
 id = "ref/spell/ray-of-enfeeblement"
 kind = "spell"
 title = "Ray of Enfeeblement"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_of_enfeeblement", path = "json/spells8.json" },
 ]
@@ -49,9 +49,3 @@ A coruscating ray springs from your hand. You must succeed on a ranged touch att
 target. The subject takes a penalty to Strength equal to 1d6+1 per two caster levels (maximum
 1d6+5). The subject's Strength score cannot drop below 1. A successful Fortitude save reduces this
 penalty by half. This penalty does not stack with itself. Apply the highest penalty instead.
-
-### Mythic Ray of Enfeeblement
-
-**Sources:** Mythic Adventures pg 105\
-The Strength penalty increases to 1d8 + 1 per 2 caster levels (maximum +10). If the target fails its
-save, it's fatigued.

@@ -2,7 +2,7 @@
 id = "ref/spell/pox-pustules"
 kind = "spell"
 title = "Pox Pustules"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pox_pustules", path = "json/spells14.json" },
 ]
@@ -47,10 +47,3 @@ You inflict a painful, itching rash on the target creature. The target is sicken
 penalty to Dexterity (this penalty cannot lower Dexterity below 0). The target can spend a move
 action scratching furiously at the rash to remove the sickened condition (but not the Dexterity
 penalty) until the start of its next turn.
-
-### Mythic Pox Pustules
-
-**Sources:** Mythic Adventures pg 104\
-The Dexterity penalty increases to -6. The target takes 1 point of bleed damage each round. If the
-target spends a move action scratching, increase its bleed damage each round by 1. If the bleeding
-is stopped, scratching causes it to start again at 1 point of bleed per round.

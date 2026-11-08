@@ -2,7 +2,7 @@
 id = "ref/spell/hydraulic-push"
 kind = "spell"
 title = "Hydraulic Push"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydraulic_push", path = "json/spells5.json" },
 ]
@@ -54,9 +54,3 @@ rush is equal to your caster level plus your Intelligence, Wisdom, or Charisma m
 is highest. This bull rush does not provoke an attack of opportunity. Hydraulic push extinguishes
 any normal fires on a creature, object, or in a single 5-foot square which it is targeted against.
 Magical fires are unaffected.
-
-### Mythic Hydraulic Push
-
-**Sources:** Mythic Adventures pg 98\
-The water is boiling hot or freezing cold, dealing 1d6 points of fire or cold damage per 2 caster
-levels. Add your tier to your CMB for the spell.

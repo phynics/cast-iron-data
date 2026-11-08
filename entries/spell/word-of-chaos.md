@@ -2,7 +2,7 @@
 id = "ref/spell/word-of-chaos"
 kind = "spell"
 title = "Word of Chaos"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_chaos", path = "json/spells16.json" },
 ]
@@ -75,11 +75,3 @@ cannot return for at least 24 hours. This effect takes place regardless of wheth
 hear the word of chaos or not. The banishment effect allows a Will save (at a -4 penalty) to negate.
 
 Creatures whose HD exceed your caster level are unaffected by word of chaos.
-
-### Mythic Word of Chaos
-
-**Sources:** Mythic Adventures pg 112\
-When determining the spell's effect on non-mythic creatures, add your tier to your caster level.
-Non-chaotic creatures that fail their saves against the spell also take a -4 penalty on attack rolls
-and saving throws, and their [spell resistance](ref/rule/spell-resistance) decreases by 5 for as
-long as the spell's other effects last.

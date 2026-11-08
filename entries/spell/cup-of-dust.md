@@ -2,7 +2,7 @@
 id = "ref/spell/cup-of-dust"
 kind = "spell"
 title = "Cup of Dust"
-source_ids = ["advanced-players-guide", "mythic-adventures"]
+source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cup_of_dust", path = "json/spells3.json" },
 ]
@@ -53,12 +53,3 @@ other normal effects of any liquid imbibed (such as poisons or potions). Cup of 
 with a [break enchantment](ref/spell/break-enchantment), [limited wish](ref/spell/limited-wish),
 [miracle](ref/spell/miracle), [remove curse](ref/spell/remove-curse), or [wish](ref/spell/wish)
 spell, but effects suffered as a result of dehydration must be healed by normal means.
-
-### Mythic Cup of Dust
-
-**Sources:** Mythic Adventures pg 89\
-On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your
-tier to the DC of any further Constitution checks the target attempts to resist dehydration as part
-of this spell's effects. While the curse is in effect, the target gains no benefit from any spell,
-effect, or item that requires drinking, such as potions and elixirs (though these are still used up
-when the target drinks them).

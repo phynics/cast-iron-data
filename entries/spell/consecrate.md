@@ -2,7 +2,7 @@
 id = "ref/spell/consecrate"
 kind = "spell"
 title = "Consecrate"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consecrate", path = "json/spells12.json" },
 ]
@@ -58,10 +58,3 @@ This secondary function, if used, does not also grant the bonuses and penalties 
 as given above.
 
 Consecrate counters and dispels [desecrate](ref/spell/desecrate).
-
-### Mythic Consecrate
-
-**Sources:** Mythic Adventures pg 89\
-Select one alignment component that you have (chaotic, good, or lawful). The spell's penalty on
-attack rolls, damage rolls, and saves also affects outsiders with the opposite alignment subtype as
-if they were undead.

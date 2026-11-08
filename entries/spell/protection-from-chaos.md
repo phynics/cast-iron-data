@@ -2,7 +2,7 @@
 id = "ref/spell/protection-from-chaos"
 kind = "spell"
 title = "Protection from Chaos"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-combat"]
+source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_chaos", path = "json/spells15.json" },
 ]
@@ -56,17 +56,6 @@ Target: creature touched
 Descriptors: good
 :::
 
-### Mythic Protection from Evil
-
-**Sources:** Mythic Adventures pg 105
-
-The bonuses to AC and on saves increase to +4. Any evil creature attempting to possess or exercise
-mental control over the target must attempt a Will save against this spell. If it fails, the
-creature takes 1d6 points of damage per 2 caster levels (maximum 5d6) from mental feedback. An evil
-creature that uses [spell resistance](ref/rule/spell-resistance) to bypass the spell's protection
-against contact must successfully save or take this damage once each round it attacks the protected
-target.
-
 ### Protection from Chaos
 
 **Sources:** PRPG Core Rulebook pg 327
@@ -75,21 +64,3 @@ This spell functions like _[protection from evil](ref/spell/protection-from-evil
 deflection and resistance bonuses apply to attacks made by chaotic creatures. The target receives a
 new saving throw against control by chaotic creatures and chaotic summoned creatures cannot touch
 the target.
-
-### Mythic Protection from Chaos
-
-**Sources:** Mythic Adventures pg 104
-
-As mythic protection from evil, except against chaotic creatures.
-
-### Mythic Protection from Good
-
-**Sources:** Mythic Adventures pg 105
-
-As _mythic protection from evil,_ except against good creatures.
-
-### Mythic Protection from Law
-
-**Sources:** Mythic Adventures pg 105
-
-As _mythic protection from evil,_ except against lawful creatures.

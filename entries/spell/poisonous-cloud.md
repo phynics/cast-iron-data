@@ -2,7 +2,7 @@
 id = "ref/spell/poisonous-cloud"
 kind = "spell"
 title = "Poisonous Cloud"
-source_ids = ["core-rulebook", "mythic-adventures", "potions-and-poisons"]
+source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisonous_cloud", path = "json/spells4.json" },
 ]
@@ -49,18 +49,6 @@ Spell resistance: no
 Effect: fog spreads in 20-ft. radius
 Subschool: Creation
 :::
-
-### Mythic Fog Cloud
-
-**Sources:** Mythic Adventures pg 95
-
-The radius of the fog increases to 50 feet.
-
-_Augmented (3rd):_ If you expend two uses of mythic power, the fog's radius changes to 500 feet, and
-its height changes to 100 feet. Winds can't dissipate the fog unless the area of the wind affects
-the entire area of the augmented mythic fog cloud. If you're at least 6th tier and instead expend
-three uses of mythic power, the range increases to 1 mile, the fog's radius changes to 1 mile, and
-its height changes to 500 feet. The cloud is as resistant to wind as the 3rd-tier augmented version.
 
 ### Poisonous Cloud
 

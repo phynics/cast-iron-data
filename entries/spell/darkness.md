@@ -2,7 +2,7 @@
 id = "ref/spell/darkness"
 kind = "spell"
 title = "Darkness"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkness", path = "json/spells3.json" },
 ]
@@ -69,12 +69,3 @@ spell's effect is blocked until the covering is removed.
 
 This spell does not stack with itself. Darkness can be used to counter or dispel any light spell of
 equal or lower spell level.
-
-### Mythic Darkness
-
-**Sources:** Mythic Adventures pg 90\
-The illumination level in the area drops to darkness regardless of the existing lighting conditions.
-Non-mythic spells and effects can't increase the light level in the area. Creatures with
-[darkvision](ref/rule/darkvision) and the power to see in darkness have difficulty seeing through
-this darkness, and can see as well as a human can in dim light. Creatures in the area of darkness
-take a -2 penalty on saves against fear.

@@ -2,7 +2,7 @@
 id = "ref/spell/magic-fang-greater"
 kind = "spell"
 title = "Greater Magic Fang"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_fang_greater", path = "json/spells6.json" },
 ]
@@ -44,13 +44,6 @@ Duration: 1 hour/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 :::
-
-### Mythic Magic Fang
-
-**Sources:** Mythic Adventures pg 100
-
-The spell affects an additional number of the target's natural weapons equal to your tier. For
-example, if you're 3rd tier, it could affect two claws and one bite).
 
 ### Greater Magic Fang
 

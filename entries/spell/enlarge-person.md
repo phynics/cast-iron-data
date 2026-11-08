@@ -2,7 +2,7 @@
 id = "ref/spell/enlarge-person"
 kind = "spell"
 title = "Enlarge Person"
-source_ids = ["core-rulebook", "mythic-adventures"]
+source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlarge_person", path = "json/spells4.json" },
 ]
@@ -78,14 +78,3 @@ Multiple magical effects that increase size do not stack.
 Enlarge person counters and dispels [reduce person](ref/spell/reduce-person).
 
 Enlarge person can be made permanent with a [permanency](ref/spell/permanency) spell.
-
-### Mythic Enlarge Person
-
-**Sources:** Mythic Adventures pg 93
-
-You can increase the target's size by up to two size categories, to a maximum of Huge. If the target
-grows two sizes, its weight increases by a factor of 25, it gains a +4 size bonus to Strength, and
-takes a -4 size penalty to Dexterity and a -2 penalty on attack rolls and to AC because of its
-increased size. A Medium humanoid creature whose size increases to Huge has a space of 15 feet and a
-natural reach of 10 feet. Mythic enlarge person counters and dispels mythic
-_[reduce person](ref/spell/reduce-person)._

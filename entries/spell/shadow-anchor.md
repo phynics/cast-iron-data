@@ -2,7 +2,7 @@
 id = "ref/spell/shadow-anchor"
 kind = "spell"
 title = "Shadow Anchor"
-source_ids = ["advanced-race-guide", "mythic-adventures"]
+source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_anchor", path = "json/spells15.json" },
 ]
@@ -65,12 +65,3 @@ by 10 or more, it is pulled 5 feet toward the tether square and is knocked prone
 check by 10 or more, the spell ends. This spell does not work on creatures that do not cast shadows
 or reflections. If the target uses a teleportation effect or leaves the current plane, the spell
 ends.
-
-### Mythic Shadow Anchor
-
-**Sources:** Mythic Adventures pg 107\
-Add your tier to the CMD of the shadow tether. A creature attempting to escape the shadow tether
-using planar travel or teleportation must succeed at a Will saving throw or be shunted to the Plane
-of Shadow instead of its intended destination, as if it had cast shadow walk (if the target could
-not reach the Shadow Plane from its current location using shadow walk, this aspect of the spell has
-no effect).

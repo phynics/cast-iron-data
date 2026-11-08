@@ -2,7 +2,7 @@
 id = "ref/spell/contagion-greater"
 kind = "spell"
 title = "Greater Contagion"
-source_ids = ["core-rulebook", "mythic-adventures", "ultimate-magic"]
+source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagion_greater", path = "json/spells12.json" },
 ]
@@ -50,18 +50,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Descriptors: disease, evil
 :::
-
-### Mythic Contagion
-
-**Sources:** Mythic Adventures pg 89
-
-The affected target is highly contagious. Any creature it touches or that touches it with natural
-weapons or unarmed strikes must save or contract the disease. The save DC for these targets is equal
-to the spell's DC - 4. The target can't spread this disease to you.
-
-_Augmented (7th):_ If you expend five uses of mythic power, the spell targets every living creature
-within a 1-mile radius. You can select one creature per caster level within your line of sight;
-these creatures are unaffected by the spell.
 
 ### Greater Contagion
 

@@ -2,7 +2,7 @@
 id = "ref/spell/boiling-blood"
 kind = "spell"
 title = "Boiling Blood"
-source_ids = ["ultimate-magic", "mythic-adventures"]
+source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boiling_blood", path = "json/spells2.json" },
 ]
@@ -55,12 +55,3 @@ fire damage per round. This spell has no effect on creatures that don't have blo
 
 If a target has the orc subtype, it doesn't take fire damage and instead gains a +2 morale bonus to
 Strength.
-
-### Mythic Boiling Blood
-
-**Sources:** Mythic Adventures pg 87\
-A target that fails its save takes 1d3 points of fire damage per round. If a target has the orc
-subtype, it also gains fire resistance 5.
-
-_Augmented:_ If you expend two uses of mythic power, you can affect allies as though they had the
-orc subtype.
