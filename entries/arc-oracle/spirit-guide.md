@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bonus skills from the oracle's mystery", "Revelations gained at 3rd", "7th", "and 15th levels"]
+replaces = ["Bonus skills from the oracle's mystery", "Revelations gained at 3rd, 7th, and 15th levels"]
 +++
 
 **Sources:** Advanced Class Guide pg 106\

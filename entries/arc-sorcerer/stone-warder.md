@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Eschew Materials", "3rd-level bloodline spell", "7th-level bloodline feat"]
+replaces = ["Eschew Materials, 3rd-level bloodline spell, 7th-level bloodline feat"]
 +++
 
 **Sources:** Arcane Anthology pg 29\

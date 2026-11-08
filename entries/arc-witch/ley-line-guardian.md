@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Familiar", "1st- and 8th-level hexes"]
+replaces = ["Familiar, 1st- and 8th-level hexes"]
 alters = ["Spellcasting"]
 +++
 

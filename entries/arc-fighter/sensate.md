@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Weapon and armor proficiency", "Bravery", "Armor training 1", "Weapon training 2", "3", "and 4", "Armor training 2", "Armor training 3", "Armor training 4", "Armor mastery", "Weapon mastery"]
+replaces = ["Weapon and armor proficiency", "Bravery", "Armor training 1", "Weapon training 2, 3, and 4", "Armor training 2", "Armor training 3", "Armor training 4", "Armor mastery", "Weapon mastery"]
 +++
 
 **Sources:** Occult Adventures pg 118\

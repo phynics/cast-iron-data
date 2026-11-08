@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Rogue talents gained at 2nd", "4th", "and 6th level", "Trap sense"]
+replaces = ["Rogue talents gained at 2nd, 4th, and 6th level", "Trap sense"]
 alters = ["Sneak attack"]
 +++
 

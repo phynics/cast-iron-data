@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Vigilante talents gained at 4th", "8th", "12th", "and 16th levels", "Vigilante talent gained at 2nd level"]
+replaces = ["Vigilante talents gained at 4th, 8th, 12th, and 16th levels", "Vigilante talent gained at 2nd level"]
 alters = ["Dual identity"]
 +++
 

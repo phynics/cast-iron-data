@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 2nd", "6th", "8th", "10th", "and 18th levels from the oracle's mystery", "Oracle's curse", "Revelations gained at 1st and 11th levels", "Final revelation"]
+replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 2nd, 6th, 8th, 10th, and 18th levels from the oracle's mystery", "Oracle's curse", "Revelations gained at 1st and 11th levels", "Final revelation"]
 +++
 
 **Sources:** Ultimate Wilderness pg 68\

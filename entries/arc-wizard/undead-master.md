@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Scribe Scroll", "5th-", "10th-", "and 15th-level bonus feats", "20th-level bonus feat"]
+replaces = ["Scribe Scroll", "5th-, 10th-, and 15th-level bonus feats", "20th-level bonus feat"]
 alters = ["Arcane school", "alignment", "Arcane bond"]
 +++
 

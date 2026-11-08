@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Sacred armor", "3rd-level bonus feat"]
+replaces = ["Sacred armor, 3rd-level bonus feat"]
 alters = ["Weapon and armor proficiencies", "Sacred weapon", "Blessings", "Blessings (major)"]
 +++
 

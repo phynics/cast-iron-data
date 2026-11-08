@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["1st-level hex", "2nd-level hex", "4th-", "10th-", "and 16th-level hexes", "6th-level hex"]
+replaces = ["1st-level hex", "2nd-level hex", "4th-, 10th-, and 16th-level hexes", "6th-level hex"]
 alters = ["Familiar", "patron"]
 +++
 

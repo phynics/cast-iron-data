@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "4th", "8th", "12th", "and 16th level rage powers", "Improved uncanny dodge"]
+replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "4th, 8th, 12th, and 16th level rage powers", "Improved uncanny dodge"]
 +++
 
 **Sources:** Inner Sea Combat pg 44\

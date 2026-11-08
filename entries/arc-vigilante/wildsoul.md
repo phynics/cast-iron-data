@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Vigilante talents gained at 2nd", "6th", "12th", "and 18th levels"]
+replaces = ["Vigilante talents gained at 2nd, 6th, 12th, and 18th levels"]
 alters = ["Vigilante specialization"]
 +++
 

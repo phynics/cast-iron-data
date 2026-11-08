@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Spontaneous casting", "Increases to channel energy gained at 5th", "11th", "and 19th levels"]
+replaces = ["Spontaneous casting", "Increases to channel energy gained at 5th, 11th, and 19th levels"]
 alters = ["Alignment", "Domains", "Channel energy"]
 +++
 

@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Poison lore", "Poison resistance", "immunity", "Investigator talents gained at 7th", "13th", "and 19th level"]
+replaces = ["Poison lore", "Poison resistance", "immunity", "Investigator talents gained at 7th, 13th, and 19th level"]
 alters = ["Inspiration", "studied combat", "studied strike"]
 +++
 

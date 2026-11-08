@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Evasion", "Trap sense +1", "+2", "+3", "+4", "+5", "and +6", "Uncanny dodge", "Improved uncanny dodge"]
+replaces = ["Evasion", "Trap sense +1, +2, +3, +4, +5, and +6", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
 **Sources:** Advanced Race Guide pg 64\

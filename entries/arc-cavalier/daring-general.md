@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bonus feats gained at 6th", "12th", "and 18th levels", "Demanding challenge", "Supreme charge"]
+replaces = ["Bonus feats gained at 6th, 12th, and 18th levels", "Demanding challenge", "Supreme charge"]
 +++
 
 **Sources:** Ultimate Intrigue pg 24\

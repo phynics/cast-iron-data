@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Flurry of blows", "stunning fist", "quivering palm", "Bonus feat gained at 1st level", "Evasion", "Bonus feats gained at 2nd", "6th", "10th", "14th", "and 18th levels", "Slow fall", "Improved evasion", "Abundant step"]
+replaces = ["Flurry of blows", "stunning fist", "quivering palm", "Bonus feat gained at 1st level", "Evasion", "Bonus feats gained at 2nd, 6th, 10th, 14th, and 18th levels", "Slow fall", "Improved evasion", "Abundant step"]
 alters = ["Unarmed strike"]
 +++
 

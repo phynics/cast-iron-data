@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Hunter tactics", "speak with master", "Bonus tricks", "improved empathic link", "greater empathic link", "master of the wild", "raise animal companion", "Teamwork feats gained at 6th", "9th", "12th", "15th", "and 18th levels"]
+replaces = ["Hunter tactics", "speak with master", "Bonus tricks", "improved empathic link", "greater empathic link", "master of the wild", "raise animal companion", "Teamwork feats gained at 6th, 9th, 12th, 15th, and 18th levels"]
 alters = ["Animal focus", "Precise companion"]
 +++
 

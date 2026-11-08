@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["The bonus feat gained at 1st level", "Bravery", "Armor training 1", "2", "and 3", "Bonus feat gained at 4th level", "Bonus feat gained at 6th level.1-2", "Armor training 4", "armor mastery", "Weapon mastery"]
+replaces = ["The bonus feat gained at 1st level", "Bravery", "Armor training 1, 2, and 3", "Bonus feat gained at 4th level", "Bonus feat gained at 6th level.1-2", "Armor training 4", "armor mastery", "Weapon mastery"]
 +++
 
 **Sources:** Legacy of Dragons pg 12\

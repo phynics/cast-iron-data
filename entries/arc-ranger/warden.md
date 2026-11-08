@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["1st favored enemy", "All combat style feats", "Hunter's bond", "2nd", "3rd", "and 4th favored enemies", "5th favored enemy", "master hunter"]
+replaces = ["1st favored enemy", "All combat style feats", "Hunter's bond", "2nd, 3rd, and 4th favored enemies", "5th favored enemy", "master hunter"]
 +++
 
 **Sources:** Ultimate Combat pg 68\

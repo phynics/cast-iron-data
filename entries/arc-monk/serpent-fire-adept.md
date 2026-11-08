@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Stunning fist", "bonus feat gained at 1st level", "Bonus feat gained at 2nd level", "Slow fall", "high jump", "Bonus feat gained at 6th level", "Wholeness of body", "Bonus feats gained at 10th", "14th", "and 18th level"]
+replaces = ["Stunning fist", "bonus feat gained at 1st level", "Bonus feat gained at 2nd level", "Slow fall", "high jump", "Bonus feat gained at 6th level", "Wholeness of body", "Bonus feats gained at 10th, 14th, and 18th level"]
 +++
 
 **Sources:** Occult Origins pg 20\

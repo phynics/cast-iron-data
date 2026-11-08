@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Utility shot deed", "Targeting deed", "Bonus feats the gunslinger gains at 4th", "8th", "12th", "16th", "and 20th level"]
+replaces = ["Utility shot deed", "Targeting deed", "Bonus feats the gunslinger gains at 4th, 8th, 12th, 16th, and 20th level"]
 alters = ["Grit", "Deeds"]
 +++
 

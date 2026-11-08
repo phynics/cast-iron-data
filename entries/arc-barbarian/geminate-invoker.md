@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Trap sense", "4th", "8th", "and 12th level rage powers"]
+replaces = ["Trap sense", "4th, 8th, and 12th level rage powers"]
 alters = ["The barbarian's class skills", "alignment", "Rage"]
 +++
 

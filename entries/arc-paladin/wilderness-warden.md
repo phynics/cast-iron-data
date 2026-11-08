@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Divine grace", "Aura of courage", "3rd-", "9th-", "and 15th-level mercies", "Aura of resolve", "Aura of justice"]
+replaces = ["Divine grace", "Aura of courage", "3rd-, 9th-, and 15th-level mercies", "Aura of resolve", "Aura of justice"]
 alters = ["Smite evil", "Spells"]
 +++
 

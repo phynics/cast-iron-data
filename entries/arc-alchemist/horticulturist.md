@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Mutagen", "2nd-level discovery", "Poison resistance", "poison use", "poison immunity", "The discovery gained at 4th level", "Persistent mutagen"]
+replaces = ["Mutagen, 2nd-level discovery", "Poison resistance", "poison use", "poison immunity", "The discovery gained at 4th level", "Persistent mutagen"]
 alters = ["Bombs"]
 +++
 

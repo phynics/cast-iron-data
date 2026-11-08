@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["2nd", "6th", "10th", "14th", "and 18th level rage powers", "Damage reduction"]
+replaces = ["2nd, 6th, 10th, 14th, and 18th level rage powers", "Damage reduction"]
 +++
 
 **Sources:** Monster Codex pg 92\

@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Flurry of blows", "fast movement", "improved evasion", "Evasion", "bonus feat gained at 2nd level", "Bonus feats gained at 6th", "10th", "and 14th level"]
+replaces = ["Flurry of blows", "fast movement", "improved evasion", "Evasion", "bonus feat gained at 2nd level", "Bonus feats gained at 6th, 10th, and 14th level"]
 +++
 
 **Sources:** Ultimate Combat pg 60\

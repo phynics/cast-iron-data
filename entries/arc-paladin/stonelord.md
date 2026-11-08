@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Smite evil", "Divine grace", "Divine health", "3rd-", "9th-", "and 15th-level mercies", "Spells", "Channel positive energy", "Divine bond", "Aura of justice", "12th-level mercy", "18th-level mercy", "Holy champion"]
+replaces = ["Smite evil", "Divine grace", "Divine health, 3rd-, 9th-, and 15th-level mercies", "Spells", "Channel positive energy", "Divine bond", "Aura of justice", "12th-level mercy", "18th-level mercy", "Holy champion"]
 +++
 
 **Sources:** Advanced Race Guide pg 16\

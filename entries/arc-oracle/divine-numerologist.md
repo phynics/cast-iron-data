@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["The bonus spells gained at 10th", "12th", "14th", "16th", "and 18th levels from the oracle's mystery", "1st- and 7th-level revelations"]
+replaces = ["The bonus spells gained at 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery", "1st- and 7th-level revelations"]
 +++
 
 **Sources:** Disciple's Doctrine pg 17\

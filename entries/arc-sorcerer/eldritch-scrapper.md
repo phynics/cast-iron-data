@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bloodline powers gained at 1st", "9th", "and 15th level"]
+replaces = ["Bloodline powers gained at 1st, 9th, and 15th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 122\

@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Weapon and armor proficiencies", "Focus weapon", "Bonus feats gained at 3rd", "9th", "and 15th levels", "Channel energy", "Bonus feat gained at 12th level"]
+replaces = ["Weapon and armor proficiencies", "Focus weapon", "Bonus feats gained at 3rd, 9th, and 15th levels", "Channel energy", "Bonus feat gained at 12th level"]
 +++
 
 **Sources:** Advanced Class Guide pg 128\

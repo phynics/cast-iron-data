@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bonus feat gained at 3rd level", "Bonus feats gained at 6th", "12th", "and 18th levels", "Bonus feat gained at 9th level"]
+replaces = ["Bonus feat gained at 3rd level", "Bonus feats gained at 6th, 12th, and 18th levels", "Bonus feat gained at 9th level"]
 +++
 
 **Sources:** Divine Anthology pg 14\

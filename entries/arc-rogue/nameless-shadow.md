@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Trapfinding", "rogue talents gained at 2nd", "6th", "10th", "14th", "and 18th levels", "Rogue talents gained at 4th and 8th levels"]
+replaces = ["Trapfinding", "rogue talents gained at 2nd, 6th, 10th, 14th, and 18th levels", "Rogue talents gained at 4th and 8th levels"]
 +++
 
 **Sources:** Merchant's Manifest pg 30\

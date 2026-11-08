@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Magic item skill", "object reading", "Shift focus", "Aura sight", "5th- and 17th-level focus powers"]
+replaces = ["Magic item skill", "object reading", "Shift focus", "Aura sight, 5th- and 17th-level focus powers"]
 alters = ["Implements"]
 +++
 

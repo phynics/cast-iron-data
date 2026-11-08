@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Proficiency in medium armor and shields", "The 1st-level studied target", "slayer talents gained at 4th", "8th", "12th", "and 16th level", "Slayer talent gained at 6th level", "Swift tracker", "Slayer's advance"]
+replaces = ["Proficiency in medium armor and shields", "The 1st-level studied target", "slayer talents gained at 4th, 8th, 12th, and 16th level", "Slayer talent gained at 6th level", "Swift tracker", "Slayer's advance"]
 alters = ["Studied target"]
 +++
 

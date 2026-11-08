@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Object reading", "aura sight", "3rd-level focus power", "Outside contact 2", "3", "and 4"]
+replaces = ["Object reading", "aura sight", "3rd-level focus power", "Outside contact 2, 3, and 4"]
 +++
 
 **Sources:** Ultimate Wilderness pg 67\

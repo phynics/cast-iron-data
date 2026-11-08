@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["One of the two occultist implements learned at 1st level", "6th- and 14th-level implements", "3rd-level focus power", "Shift focus", "Outsider contact", "Magic circles", "binding circles", "fast circles"]
+replaces = ["One of the two occultist implements learned at 1st level, 6th- and 14th-level implements", "3rd-level focus power", "Shift focus", "Outsider contact", "Magic circles", "binding circles", "fast circles"]
 alters = ["Mental focus"]
 +++
 

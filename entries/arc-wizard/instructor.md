@@ -13,7 +13,7 @@ relations = [
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond"]
-alters = ["5th-", "10th-", "15th-", "and 20th-level bonus feats"]
+alters = ["5th-, 10th-, 15th-, and 20th-level bonus feats"]
 +++
 
 **Sources:** Cohorts and Companions pg 31\

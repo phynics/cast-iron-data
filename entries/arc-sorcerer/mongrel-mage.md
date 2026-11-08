@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bloodline feats gained at 7th", "13th", "and 19th level"]
+replaces = ["Bloodline feats gained at 7th, 13th, and 19th level"]
 alters = ["Bloodline", "bloodline powers", "bloodline spells"]
 +++
 

@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["The cavalier's normal armor proficiencies", "Tactician", "banner", "greater banner", "Bonus feats gained at 6th", "12th", "and 18th levels", "Greater tactician", "Master tactician"]
+replaces = ["The cavalier's normal armor proficiencies", "Tactician", "banner", "greater banner", "Bonus feats gained at 6th, 12th, and 18th levels", "Greater tactician", "Master tactician"]
 +++
 
 **Sources:** Ultimate Intrigue pg 25\

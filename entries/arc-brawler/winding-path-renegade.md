@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bonus feats gained at 2nd", "8th", "and 14th levels", "AC bonus"]
+replaces = ["Bonus feats gained at 2nd, 8th, and 14th levels", "AC bonus"]
 +++
 
 **Sources:** Adventurer's Guide pg 105, Advanced Class Origins pg 11\

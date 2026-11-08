@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Trapfinding", "Evasion", "rogue talents gained at 4th", "8th", "12th", "and 16th levels"]
+replaces = ["Trapfinding", "Evasion", "rogue talents gained at 4th, 8th, 12th, and 16th levels"]
 +++
 
 **Sources:** Elemental Master's Handbook pg 8\

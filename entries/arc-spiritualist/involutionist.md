@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Phantom's emotional focus", "Detect undead", "Additional uses of calm spirit available at 11th", "15th", "and 19th levels"]
+replaces = ["Phantom's emotional focus", "Detect undead", "Additional uses of calm spirit available at 11th, 15th, and 19th levels"]
 alters = ["Spellcasting", "Phantom", "Bonded manifestation"]
 +++
 

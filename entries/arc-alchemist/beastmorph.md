@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Swift alchemy", "Swift poisoning", "Poison resistance +2", "+4", "and +6", "poison immunity", "Persistent mutagen"]
+replaces = ["Swift alchemy", "Swift poisoning", "Poison resistance +2, +4, and +6", "poison immunity", "Persistent mutagen"]
 +++
 
 **Sources:** Ultimate Combat pg 25\

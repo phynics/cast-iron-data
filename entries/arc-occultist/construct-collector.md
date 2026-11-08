@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["3rd-", "9th- and 15th-level focus powers", "Magic circles", "outside contact", "binding circles", "fast circles"]
+replaces = ["3rd-, 9th- and 15th-level focus powers", "Magic circles", "outside contact", "binding circles", "fast circles"]
 +++
 
 **Sources:** Construct Handbook pg 11\

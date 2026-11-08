@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["1st-", "8th-", "and 14th-level hexes"]
+replaces = ["1st-, 8th-, and 14th-level hexes"]
 +++
 
 **Sources:** Familiar Folio pg 9\

@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Towering ego", "10th-level mesmerist trick", "touch treatment (break enchantment)", "Touch treatment (minor)", "touch treatment (moderate)", "Touch treatment (major)"]
+replaces = ["Towering ego, 10th-level mesmerist trick", "touch treatment (break enchantment)", "Touch treatment (minor)", "touch treatment (moderate)", "Touch treatment (major)"]
 alters = ["Spellcasting", "Hypnotic stare"]
 +++
 

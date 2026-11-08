@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Elemental overflow", "Elemental defense", "5th-", "9th-", "and 13th-level infusions"]
+replaces = ["Elemental overflow", "Elemental defense", "5th-, 9th-, and 13th-level infusions"]
 alters = ["Kinetic blast", "Key ability scores of wild talents"]
 +++
 

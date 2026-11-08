@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Spell recall", "improved spell recall", "Magus arcana gained at 6th", "12th", "and 18th levels", "Knowledge pool", "10th-level fighter training", "Improved spell combat", "greater spell combat", "True magus"]
+replaces = ["Spell recall", "improved spell recall", "Magus arcana gained at 6th, 12th, and 18th levels", "Knowledge pool, 10th-level fighter training", "Improved spell combat", "greater spell combat", "True magus"]
 +++
 
 **Sources:** Ultimate Combat pg 56\

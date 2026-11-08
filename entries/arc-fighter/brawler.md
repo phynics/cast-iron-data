@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Armor training 1", "Weapon training 1 and 2", "Armor training 2", "3", "and 4", "armor mastery", "Weapon training 3 and 4"]
+replaces = ["Armor training 1", "Weapon training 1 and 2", "Armor training 2, 3, and 4", "armor mastery", "Weapon training 3 and 4"]
 alters = ["Weapon mastery"]
 +++
 

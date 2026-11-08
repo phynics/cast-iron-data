@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bardic knowledge", "Versatile performance selections normally gained at 7th", "12th", "and 17th levels"]
+replaces = ["Bardic knowledge", "Versatile performance selections normally gained at 7th, 12th, and 17th levels"]
 alters = ["Raging song", "versatile performance"]
 +++
 

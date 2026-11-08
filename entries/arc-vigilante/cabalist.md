@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["4th-", "8th-", "10th-", "14th-", "and 16th-level vigilante talents", "Vigilante specialization", "Startling appearance", "Frightening appearance", "Stunning appearance"]
+replaces = ["4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", "Vigilante specialization", "Startling appearance", "Frightening appearance", "Stunning appearance"]
 alters = ["Skill ranks per level", "Armor and weapon proficiencies", "Vigilante talents"]
 +++
 

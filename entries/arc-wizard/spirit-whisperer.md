@@ -12,8 +12,8 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Spellbook", "Arcane school", "20th-level bonus feat"]
-alters = ["Arcane bond", "5th-", "10th-", "and 15th-level bonus feats"]
+replaces = ["Spellbook", "Arcane school, 20th-level bonus feat"]
+alters = ["Arcane bond", "5th-, 10th-, and 15th-level bonus feats"]
 +++
 
 **Sources:** Advanced Class Guide pg 133\

@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Bonus feats gained at 1st level", "6th level", "10th level", "and 12th level", "weapon training", "weapon mastery", "Armor training"]
+replaces = ["Bonus feats gained at 1st level, 6th level, 10th level, and 12th level", "weapon training", "weapon mastery", "Armor training"]
 +++
 
 **Sources:** Weapon Master's Handbook pg 7\

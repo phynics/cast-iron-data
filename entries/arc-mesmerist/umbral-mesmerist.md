@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Mesmerist tricks gained at 1st", "4th", "8th", "12th", "16th", "and 20th levels", "Towering ego", "Mental potency"]
+replaces = ["Mesmerist tricks gained at 1st, 4th, 8th, 12th, 16th, and 20th levels", "Towering ego", "Mental potency"]
 alters = ["Spellcasting"]
 +++
 

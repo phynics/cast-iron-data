@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Detect evil", "3rd-", "9th-", "and 15th-level mercies"]
+replaces = ["Detect evil", "3rd-, 9th-, and 15th-level mercies"]
 alters = ["Skill ranks per level"]
 +++
 

@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Weapon and armor proficiencies", "Maneuver training at 3rd", "7th", "and 11th levels", "Brawler's strike", "Maneuver training gained at 15th and 19th levels"]
+replaces = ["Weapon and armor proficiencies", "Maneuver training at 3rd, 7th, and 11th levels", "Brawler's strike", "Maneuver training gained at 15th and 19th levels"]
 +++
 
 **Sources:** Advanced Class Guide pg 86\

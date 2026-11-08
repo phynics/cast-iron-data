@@ -12,7 +12,7 @@ relations = [
 
 [fields]
 kind = "archetype"
-replaces = ["Arcane bond", "10th-", "15th-", "and 20th-level bonus feats"]
+replaces = ["Arcane bond, 10th-, 15th-, and 20th-level bonus feats"]
 +++
 
 **Sources:** Legacy of the First World pg 30\
