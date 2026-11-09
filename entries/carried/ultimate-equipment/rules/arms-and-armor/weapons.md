@@ -2469,7 +2469,7 @@ title = "Amentum"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/arrows"
+target = "ref/eq-weapon/arrow"
 title = "Arrows"
 :::
 
@@ -3164,7 +3164,7 @@ title = "Shortspear"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/shortsword"
+target = "ref/eq-weapon/short-sword"
 title = "Shortsword"
 :::
 

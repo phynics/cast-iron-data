@@ -200,7 +200,7 @@ title = "The Moaning Diamond"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-orbs-of-dragonkind"
+target = "ref/magic-artifact/orbs-of-dragonkind"
 title = "The Orbs of Dragonkind"
 :::
 
@@ -210,7 +210,7 @@ title = "Perfection's Key"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-shadowstaff"
+target = "ref/magic-artifact/shadowstaff"
 title = "The Shadowstaff"
 :::
 

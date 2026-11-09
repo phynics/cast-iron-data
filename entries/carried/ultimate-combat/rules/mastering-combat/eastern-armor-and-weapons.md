@@ -228,7 +228,7 @@ title = "Do-Maru"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/four-mirror-armor"
+target = "ref/eq-armor/four-mirror"
 title = "Four-Mirror Armor"
 :::
 
@@ -238,7 +238,7 @@ title = "Haramaki"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/kikko-armor"
+target = "ref/eq-armor/kikko"
 title = "Kikko Armor"
 :::
 
@@ -258,7 +258,7 @@ title = "Lamellar Cuirass"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/mountain-pattern-armor"
+target = "ref/eq-armor/mountain-pattern"
 title = "Mountain Pattern Armor"
 :::
 
@@ -268,7 +268,7 @@ title = "O-Yoroi"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/silken-ceremonial-armor"
+target = "ref/eq-armor/silken-ceremonial"
 title = "Silken Ceremonial Armor"
 :::
 

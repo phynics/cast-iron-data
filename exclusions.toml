@@ -54881,3 +54881,239 @@ reason = "duplicate of ref/arc-rogue/numerian-scavenger"
 [[rejected]]
 path = "ref/tech-misc/silverdisk"
 reason = "duplicate of ref/tech-misc/battery"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/feats/deft-shootist-deed"
+reason = "duplicate of ref/feat/deft-shootist"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/feats/leaping-shot-deed"
+reason = "duplicate of ref/feat/leaping-shot"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/four-mirror-armor"
+reason = "duplicate of ref/eq-armor/four-mirror"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/kikko-armor"
+reason = "duplicate of ref/eq-armor/kikko"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/mountain-pattern-armor"
+reason = "duplicate of ref/eq-armor/mountain-pattern"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/silken-ceremonial-armor"
+reason = "duplicate of ref/eq-armor/silken-ceremonial"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/bullet"
+reason = "duplicate of ref/eq-weapon/firearm-bullet"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/gunsmiths-kit"
+reason = "duplicate of ref/eq-misc/gunsmiths-kit"
+
+[[rejected]]
+path = "ref/eq-weapon/gunsmiths-kit"
+reason = "duplicate of ref/eq-misc/gunsmiths-kit"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/powder-horn"
+reason = "duplicate of ref/eq-misc/powder-horn"
+
+[[rejected]]
+path = "ref/eq-weapon/powder-horn"
+reason = "duplicate of ref/eq-misc/powder-horn"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/adjuring-step"
+reason = "duplicate of ref/spell/abjuring-step"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/shortsword"
+reason = "duplicate of ref/eq-weapon/short-sword"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/arrows"
+reason = "duplicate of ref/eq-weapon/arrow"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/banshee-ballerina-firework"
+reason = "duplicate of ref/eq-weapon/firework-banshee-ballerina"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/flame-fountain-firework"
+reason = "duplicate of ref/eq-weapon/firework-flame-fountain"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/paper-candle-firework"
+reason = "duplicate of ref/eq-weapon/firework-paper-candle"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/skyrocket-firework"
+reason = "duplicate of ref/eq-weapon/firework-skyrocket"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/star-candle-firework"
+reason = "duplicate of ref/eq-weapon/firework-star-candle"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/starfountain-firework"
+reason = "duplicate of ref/eq-weapon/firework-starfountain"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-orbs-of-dragonkind"
+reason = "duplicate of ref/magic-artifact/orbs-of-dragonkind"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-shadowstaff"
+reason = "duplicate of ref/magic-artifact/shadowstaff"
+
+[[rejected]]
+path = "ref/rule/eq-misc-chest-huge/chest"
+reason = "duplicate of ref/eq-misc/chest"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/magic-arms-and-armor/specific-magic-armor-and-shields/specific-magic-armor/adamatine-breastplate"
+reason = "duplicate of ref/eq-armor/adamantine-breastplate"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/air-walk/communal"
+reason = "duplicate of ref/spell/air-walk-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/animal-aspect/greater"
+reason = "duplicate of ref/spell/animal-aspect-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/ant-haul/communal"
+reason = "duplicate of ref/spell/ant-haul-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/darkvision/communal"
+reason = "duplicate of ref/spell/darkvision-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/delay-poison/communal"
+reason = "duplicate of ref/spell/delay-poison-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/endure-elements/communal"
+reason = "duplicate of ref/spell/endure-elements-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/energy-siege-shot/greater"
+reason = "duplicate of ref/spell/energy-siege-shot-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/hostile-juxtaposition/greater"
+reason = "duplicate of ref/spell/hostile-juxtaposition-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/life-conduit/greater"
+reason = "duplicate of ref/spell/life-conduit-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/life-conduit/improved"
+reason = "duplicate of ref/spell/life-conduit-improved"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/magic-siege-engine/greater"
+reason = "duplicate of ref/spell/magic-siege-engine-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/mask-dweomer/communal"
+reason = "duplicate of ref/spell/mask-dweomer-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/mind-blank/communal"
+reason = "duplicate of ref/spell/mind-blank-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/mount/communal"
+reason = "duplicate of ref/spell/mount-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/named-bullet/greater"
+reason = "duplicate of ref/spell/named-bullet-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/nondetection/communal"
+reason = "duplicate of ref/spell/nondetection-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/phantom-steed/communal"
+reason = "duplicate of ref/spell/phantom-steed-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/protection-from-arrows/communal"
+reason = "duplicate of ref/spell/protection-from-arrows-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/protection-from-chaos/communal"
+reason = "duplicate of ref/spell/protection-from-chaos-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/protection-from-energy/communal"
+reason = "duplicate of ref/spell/protection-from-energy-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/protection-from-evil/communal"
+reason = "duplicate of ref/spell/protection-from-evil-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/protection-from-good/communal"
+reason = "duplicate of ref/spell/protection-from-good-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/protection-from-law/communal"
+reason = "duplicate of ref/spell/protection-from-law-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/reinforce-armaments/communal"
+reason = "duplicate of ref/spell/reinforce-armaments-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/resist-energy/communal"
+reason = "duplicate of ref/spell/resist-energy-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/returning-weapon/communal"
+reason = "duplicate of ref/spell/returning-weapon-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/share-language/communal"
+reason = "duplicate of ref/spell/share-language-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/siege-of-trees/greater"
+reason = "duplicate of ref/spell/siege-of-trees-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/spell-immunity/communal"
+reason = "duplicate of ref/spell/spell-immunity-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/spell-immunity/greater-communal"
+reason = "duplicate of ref/spell/spell-immunity-greater-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/spider-climb/communal"
+reason = "duplicate of ref/spell/spider-climb-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/stoneskin/communal"
+reason = "duplicate of ref/spell/stoneskin-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/tongues/communal"
+reason = "duplicate of ref/spell/tongues-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-combat/spells/water-walk/communal"
+reason = "duplicate of ref/spell/water-walk-communal"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/gear/adventuring-gear/powder-horn"
+reason = "duplicate of ref/eq-misc/powder-horn"
