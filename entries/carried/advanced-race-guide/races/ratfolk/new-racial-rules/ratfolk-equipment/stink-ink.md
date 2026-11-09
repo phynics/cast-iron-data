@@ -17,6 +17,8 @@ weight = "1 lb."
 attributes = [
   { label = "Gear Type", value = "Item" },
   { label = "Craft DC", value = "15" },
+  { label = "Arcane: Price", value = "special" },
+  { label = "Arcane: Weight", value = "1 lb." },
 ]
 +++
 
@@ -33,3 +35,9 @@ picked out by those with sensitive enough noses to make it possible to read by s
 creatures with the keen senses trait or scent ability can read stink ink without aid of some form of
 magic. Reading or writing something with stink ink takes twice as long as going through the same
 amount of information written in normal ink.
+
+**Arcane:** Most common among ratfolk alchemists, arcane stink ink is used to inscribe formulae or
+spells into formula books and spellbooks. Like normal stink ink, the arcane version can only be read
+by creatures with the scent ability (although read magic works normally on spells and arcane
+formulae inscribed with stink ink). Using arcane stink ink to inscribe a spell or formula into a
+book costs +10% of the normal amount (Advanced Race Guide pg. 154).

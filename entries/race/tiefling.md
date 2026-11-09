@@ -246,3 +246,60 @@ high Intelligence scores can choose from the following bonus languages: Abyssal,
 Elven, Gnome, Goblin, Halfling, Infernal, and Orc.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all tieflings who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/2 to the alchemist's bomb damage.
+
+### Cleric {#cleric}
+
+Add a +1 bonus on caster level checks made to overcome the
+[spell resistance](ref/rule/spell-resistance) of outsiders.
+
+### Druid {#druid}
+
+Add a +1 bonus on wild empathy checks made to improve the attitude of fiendish animals.
+
+### Inquisitor {#inquisitor}
+
+Add a +1/2 bonus on Intimidate checks and Knowledge checks to identify creatures.
+
+### Magus {#magus}
+
+Add +1/4 point to the magus's arcane pool.
+
+### Paladin {#paladin}
+
+Add +1 to the amount of damage the paladin heals with lay on hands, but only when the paladin uses
+that ability on herself.
+
+### Rogue {#rogue}
+
+Add +1/2 to sneak attack damage dealt to creatures with the outsider type.
+
+### Sorcerer {#sorcerer}
+
+Add +1/2 to the number of times per day a sorcerer can use the corrupting touch infernal bloodline
+power, or +1 to the total number of rounds per day the sorcerer can use the claws abyssal bloodline
+power. The sorcerer must possess the applicable power to select these bonuses.
+
+### Summoner {#summoner}
+
+Add +1 hit point or +1 skill rank to the summoner's eidolon.
+
+### Witch {#witch}
+
+The witch's familiar gains resistance 1 against cold, electricity, or fire. Each time the witch
+selects this reward, increase the familiar's resistance to one of these energy types by 1 (maximum 5
+for any one type). If the witch ever replaces her familiar, the new familiar has these resistances.
+
+### Wizard {#wizard}
+
+Select one arcane school power at 1st level that is normally usable a number of times per day equal
+to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of
+that arcane school power.

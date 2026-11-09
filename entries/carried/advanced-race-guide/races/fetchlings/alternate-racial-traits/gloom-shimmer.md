@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Fetchlings/Alternate Racial Traits/Gloom Shimmer", path = "advanced_race_guide/racial_trait/fetchling/gloom_shimmer.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/fetchlings", label = "alternate" },
+  { kind = "part", target = "ref/race/fetchling", label = "alternate" },
 ]
 
 [fields]

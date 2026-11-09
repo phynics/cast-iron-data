@@ -45,3 +45,29 @@ scores can choose from the following bonus languages: Boggard, Draconic, Elven, 
 Sylvan.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all gripplis who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/4 to the number of toxic skin uses per day.
+
+### Druid {#druid}
+
+Add a +1/2 bonus on concentration checks. This bonus doubles in a forest or swamp terrain.
+
+### Gunslinger {#gunslinger}
+
+Add a +1/4 bonus on attack rolls when making a utility shot or a dead shot.
+
+### Rogue {#rogue}
+
+Add a +1/2 bonus on Perception checks while in a forest or swamp.
+
+### Ranger {#ranger}
+
+Add a +1 racial bonus on Swim skill checks. When this bonus reaches +8, the ranger gains a swim
+speed of 15 feet (this does not grant the ranger another +8 racial bonus on Swim checks).

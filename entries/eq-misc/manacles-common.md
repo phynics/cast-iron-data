@@ -48,7 +48,8 @@ manacles' versatility. However, for their most common uses, GMs might employ the
 rules for breaking, escape, and cost relative to size. A creature in fetters is entangled and can
 move at only half speed. In addition, a fettered creature must succeed at a DC 15 Acrobatics check
 to move more than its (reduced) speed in a round. If it fails the check by 5 or more, the creature
-falls prone. Also see: [Fetters (common)](ref/eq-misc/fetters-common).
+falls prone. Also see:
+[Fetters (common)](ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters).
 
 **Frontal Restraint:** A creature whose wrists are bound with manacles can wield only one melee
 weapon or shield in combat (the weapon may be a two-handed weapon). It cannot make use of ranged

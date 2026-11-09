@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Humans/Alternate Racial Rules/Alternate Racial Traits/Heart of the Slums", path = "advanced_race_guide/racial_trait/human/heart_of_the_slums.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/humans", label = "alternate" },
+  { kind = "part", target = "ref/race/human", label = "alternate" },
 ]
 
 [fields]

@@ -120,3 +120,140 @@ She can use _fiendish divination_ up to 3 times per day.
 **Passive:** When casting _[summon monster](ref/spell/summon-monster)_ spells, a fiendish vessel is
 limited to summoning [fiendish](ref/template/fiendish) creatures and evil outsiders of the same
 alignment as her patron.
+
+## Fiendish Patrons {#fiendish-patrons}
+
+The following describes some of the more common patrons.
+
+### Archdevils {#archdevils}
+
+::: table
+caption = "Archdevils"
+head = [
+  [
+    { text = "Archdevil", header = true },
+    { text = "AL", header = true },
+    { text = "Areas of Concern", header = true },
+    { text = "Domains", header = true },
+    { text = "Favored Weapon", header = true },
+  ],
+  [
+    { text = "Baalzebul" },
+    { text = "LE" },
+    { text = "Arrogance, flies, lies" },
+    { text = "Air, Death, Evil, Law" },
+    { text = "Spear" },
+  ],
+  [
+    { text = "Belial" },
+    { text = "LE" },
+    { text = "Adultery, deception, desire" },
+    { text = "Charm, Destruction, Evil, Law" },
+    { text = "Ranseur" },
+  ],
+  [
+    { text = "Dispater" },
+    { text = "LE" },
+    { text = "Cities, prisons, rulership" },
+    { text = "Evil, Law, Nobility, Trickery" },
+    { text = "Heavy mace" },
+  ],
+  [
+    { text = "Mephistopheles" },
+    { text = "LE" },
+    { text = "Contracts, devils, secrets" },
+    { text = "Evil, Knowledge, Law, Rune" },
+    { text = "Trident" },
+  ],
+]
+:::
+
+### Demon Lords {#demon-lords}
+
+::: table
+caption = "Demon Lords"
+head = [
+  [
+    { text = "Demon Lord", header = true },
+    { text = "AL", header = true },
+    { text = "Areas of Concern", header = true },
+    { text = "Domains", header = true },
+    { text = "Favored Weapon", header = true },
+  ],
+]
+body = [
+  [
+    { text = "Abraxas" },
+    { text = "CE" },
+    { text = "Forbidden lore, magic, snakes" },
+    { text = "Chaos, Evil, Knowledge, Magic" },
+    { text = "Whip" },
+  ],
+  [
+    { text = "Baphomet" },
+    { text = "CE" },
+    { text = "Beasts, labyrinths, minotaurs" },
+    { text = "Animal, Chaos, Evil, Strength" },
+    { text = "Glaive" },
+  ],
+  [
+    { text = "Dagon" },
+    { text = "CE" },
+    { text = "Deformity, the sea, sea monsters" },
+    { text = "Chaos, Destruction, Evil, Water" },
+    { text = "Trident" },
+  ],
+  [
+    { text = "Shax" },
+    { text = "CE" },
+    { text = "Envy, lies, murder" },
+    { text = "Chaos, Destruction, Evil, Nobility" },
+    { text = "Dagger" },
+  ],
+]
+:::
+
+### The Four Horsemen {#the-four-horsemen}
+
+::: table
+caption = "The Four Horsemen"
+head = [
+  [
+    { text = "Horseman", header = true },
+    { text = "AL", header = true },
+    { text = "Areas of Concern", header = true },
+    { text = "Domains", header = true },
+    { text = "Favored Weapon", header = true },
+  ],
+]
+body = [
+  [
+    { text = "Apollyon" },
+    { text = "NE" },
+    { text = "Pestilence" },
+    { text = "Air, Darkness, Destruction, Evil" },
+    { text = "Scythe" },
+  ],
+  [
+    { text = "Charon" },
+    { text = "NE" },
+    { text = "Death" },
+    { text = "Death, Evil, Knowledge, Water" },
+    { text = "Quarterstaff" },
+  ],
+  [
+    { text = "Szuriel" },
+    { text = "NE" },
+    { text = "War" },
+    { text = "Evil, Fire, Strength, War" },
+    { text = "Greatsword" },
+  ],
+  [
+    { text = "Trelmarixian" },
+    { text = "NE" },
+    { text = "Famine" },
+    { text = "Earth, Evil, Madness, Weather" },
+    { text = "Spiked gauntlet" },
+  ],
+]
+:::

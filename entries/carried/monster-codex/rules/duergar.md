@@ -13,7 +13,7 @@ kind = "none"
 +++
 
 ::: entry-link
-target = "ref/rule/race-duergar/duergar"
+target = "ref/race/duergar"
 title = "Duergar"
 :::
 

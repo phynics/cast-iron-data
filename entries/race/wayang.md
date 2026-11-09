@@ -57,3 +57,28 @@ can choose from the following bonus languages: any human language, Abyssal, Aklo
 Infernal, Nagaji, Samsaran, and Tengu.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all wayangs who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Bard {#bard}
+
+Add one spell known from the wizard's illusion school spell list. This spell must be at least one
+level below the highest spell level the bard can cast. The spell is treated as being one level
+higher, unless it is also on the bard spell list.
+
+### Oracle {#oracle}
+
+Add one spell known from the wizard's illusion school spell list. This spell must be at least one
+level below the highest spell level the oracle can cast. That spell is treated as one level higher
+unless it is also on the oracle spell list.
+
+### Sorcerer {#sorcerer}
+
+Add +1/2 point of damage to any illusion spells of the shadow subschool cast by the sorcerer.
+
+### Summoner {#summoner}
+
+Add +1 skill rank to the summoner's eidolon.

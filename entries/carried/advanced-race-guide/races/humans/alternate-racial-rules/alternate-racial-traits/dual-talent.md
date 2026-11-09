@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Humans/Alternate Racial Rules/Alternate Racial Traits/Dual Talent", path = "advanced_race_guide/racial_trait/human/dual_talent.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/humans", label = "alternate" },
+  { kind = "part", target = "ref/race/human", label = "alternate" },
 ]
 
 [fields]

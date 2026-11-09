@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Ifrits/Alternate Racial Traits/Efreeti Magic", path = "advanced_race_guide/racial_trait/ifrit/efreeti_magic.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/ifrits", label = "alternate" },
+  { kind = "part", target = "ref/race/ifrit", label = "alternate" },
 ]
 
 [fields]

@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Orcs/Alternate Racial Traits/Feral", path = "advanced_race_guide/racial_trait/orc/feral.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/orcs", label = "alternate" },
+  { kind = "part", target = "ref/race/orc", label = "alternate" },
 ]
 
 [fields]

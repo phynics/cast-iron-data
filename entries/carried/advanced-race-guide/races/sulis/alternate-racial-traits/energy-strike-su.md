@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Sulis/Alternate Racial Traits/Energy Strike (Su)", path = "advanced_race_guide/racial_trait/suli/energy_strike_su.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/sulis", label = "alternate" },
+  { kind = "part", target = "ref/race/suli", label = "alternate" },
 ]
 
 [fields]

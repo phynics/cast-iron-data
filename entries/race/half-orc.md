@@ -139,3 +139,131 @@ money required to become a wizard.
 - [Languages](ref/racial-trait/half-orc/languages)
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all half-orcs who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/2 to the alchemist's bomb damage.
+
+### Barbarian {#barbarian}
+
+Add +1 to the barbarian's total number of rage rounds per day.
+
+### Bard {#bard}
+
+Add +1 to the bard's total number of bardic performance rounds per day.
+
+### Cavalier {#cavalier}
+
+Add +1 hit point to the cavalier's mount companion. If the cavalier ever replaces his mount, the new
+mount gains these bonus hit points.
+
+### Cleric {#cleric}
+
+Select one domain power granted at 1st level that is normally usable a number of times per day equal
+to 3 + the cleric's Wisdom modifier. The cleric adds +1/2 to the number of uses per day of that
+domain power.
+
+### Druid {#druid}
+
+Add +1/3 to the druid's natural armor bonus when using wild shape.
+
+### Fighter {#fighter}
+
+Add a +2 bonus on rolls to stabilize when dying.
+
+### Gunslinger {#gunslinger}
+
+Add a +1/3 bonus on attack rolls when using the pistol whip deed.
+
+### Inquisitor {#inquisitor}
+
+Add a +1/2 bonus on Intimidate checks and Knowledge checks to identify creatures.
+
+### Magus {#magus}
+
+Add +1/2 point of fire damage to spells that deal fire damage cast by the magus.
+
+### Monk {#monk}
+
+Add +1 to the monk's CMD when resisting a grapple and +1/2 to the number of stunning attacks he can
+attempt per day.
+
+### Oracle {#oracle}
+
+Add one spell known from the oracle spell list. This spell must be at least one level below the
+highest spell level the oracle can cast.
+
+### Paladin {#paladin}
+
+Add +1/3 on critical hit confirmation rolls made while using smite evil (maximum bonus of +5). This
+bonus does not stack with Critical Focus.
+
+### Ranger {#ranger}
+
+Add +1 hit point to the ranger's animal companion. If the ranger ever replaces his animal companion,
+the new animal companion gains these bonus hit points.
+
+### Rogue {#rogue}
+
+Add +1/3 on critical hit confirmation rolls made while using sneak attack (maximum bonus of +5).
+This bonus does not stack with Critical Focus.
+
+### Sorcerer {#sorcerer}
+
+Add +1/2 point of fire damage to spells that deal fire damage cast by the sorcerer.
+
+### Summoner {#summoner}
+
+Add +1 hit point to the summoner's eidolon.
+
+### Witch {#witch}
+
+Add +1 skill rank to the witch's familiar. If the half-orc ever replaces her familiar, the new
+familiar gains these bonus skill ranks.
+
+### Wizard {#wizard}
+
+Add a +1 bonus on concentration checks made due to taking damage while casting wizard spells.
+
+## Racial Subtypes {#racial-subtypes}
+
+You can combine various alternate racial traits to create half-orc subraces or variant races, such
+as the following.
+
+### Arena-Bred {#arena-bred}
+
+Many half-orcs are born and raised to fight in the arena, and in many cases have two half-orc
+parents or even a half-orc and a human parent. These arena-bred half-orcs lose the brutal physical
+appearance of their orc ancestors and look more human. They have the city-raised and skilled
+alternate racial traits.
+
+### Deep Kin {#deep-kin}
+
+Some half-orcs are descended from clans that remained in the eternal darkness below the surface.
+Half-orcs from these clans tend to be smaller and more at home underground than those descended from
+surface-dwelling orcs. These half-orcs have the acute [darkvision](ref/rule/darkvision) and
+cavewight alternate racial traits.
+
+### Feral {#feral}
+
+Half-orc children who are abandoned as infants or small children rarely survive in the wild, but a
+few manage to scrape out a meager existence as "wild children," tough enough to live but completely
+uncivilized. Feral half-orcs have the forest walker and toothy alternate racial traits.
+
+### Mountain Clan {#mountain-clan}
+
+Half-orcs from the more mountainous regions tend to be more agile and alert to the echoing sounds of
+their homeland. Mountain clan half-orcs have the bestial and rock climber racial traits.
+
+### Mystic {#mystic}
+
+Orc shamans are brutal teachers who sometimes kill or maim their most promising students in order to
+eliminate what could be a potential rival. Half-orcs who survive years of abuse by an orc shaman
+master are deeply scarred and altered by the experience. Shaman trainees learn early that cunning
+and luck are often the only things that offer a chance of survival. They have the shaman's
+apprentice and tribal tattoo alternate racial traits.

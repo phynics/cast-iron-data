@@ -77,3 +77,26 @@ painful cracking of the skin, and death within 4d6 hours.
 can choose from the following bonus languages: Aklo, Aquan, Draconic, and Elven.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all gillmen who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting two combat maneuvers of the character's choice.
+
+### Rogue {#rogue}
+
+The rogue gains 1/6 of a new rogue talent.
+
+### Sorcerer {#sorcerer}
+
+Add one spell known from the sorcerer spell list. This spell must be at least one level below the
+highest spell level the sorcerer can cast.
+
+### Wizard {#wizard}
+
+Add one spell from the wizard spell list to the wizard's spellbook. This spell must be at least one
+level below the highest spell level he can cast.

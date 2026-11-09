@@ -108,3 +108,182 @@ melee combat, and as such most dwarves tend toward classes such as fighters and 
 - [Languages](ref/racial-trait/dwarf/languages)
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+Instead of receiving an additional skill rank or hit point whenever they gain a level in a favored
+class, dwarves have the option of choosing from a number of other bonuses, depending upon the
+character's favored class. The following options are available to all dwarves who have the listed
+favored class, and unless otherwise stated, the bonus applies each time you select the listed
+favored class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/4 to the alchemist's natural armor bonus when using his mutagen.
+
+### Barbarian {#barbarian}
+
+Add +1 to the barbarian's total number of rage rounds per day.
+
+### Bard {#bard}
+
+Reduce arcane spell failure chance for casting bard spells when wearing medium armor by +1%. Once
+the total reaches 10%, the bard also receives Medium Armor Proficiency, if he does not already
+possess it.
+
+### Cavalier {#cavalier}
+
+Add +1/2 to the cavalier's bonus to damage against targets of his challenge.
+
+### Cleric {#cleric}
+
+Select one domain power granted at 1st level that is normally usable a number of times per day equal
+to 3 + the cleric's Wisdom modifier. The cleric adds +1/2 to the number of uses per day of that
+domain power.
+
+### Druid {#druid}
+
+Select one domain power granted at 1st level that is normally usable a number of times per day equal
+to 3 + the druid's Wisdom modifier. The druid adds +1/2 to the number of uses per day of that domain
+power.
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting a bull rush or trip.
+
+### Gunslinger {#gunslinger}
+
+Reduce the misfire chance for one type of firearm by 1/4. You cannot reduce the misfire chance of a
+firearm below 1.
+
+### Inquisitor {#inquisitor}
+
+Add +1/2 to the inquisitor's level for the purpose of determining the effects of one type of
+judgment.
+
+### Magus {#magus}
+
+Select one known magus arcana usable only once per day. The magus adds +1/6 to the number of times
+it can be used per day. Once that magus arcana is usable twice per day, the magus must select a
+different magus arcana.
+
+### Monk {#monk}
+
+Reduce the [Hardness](ref/umr/hardness) of any object made of clay, stone, or metal by 1 whenever
+the object is struck by the monk's unarmed strike (minimum of 0).
+
+### Oracle {#oracle}
+
+Reduce the penalty for not being proficient with one weapon by 1. When the nonproficiency penalty
+for a weapon becomes 0 because of this ability, the oracle is treated as having the appropriate
+Martial or Exotic Weapon Proficiency feat with that weapon.
+
+### Paladin {#paladin}
+
+Add a +1 bonus on concentration checks when casting paladin spells.
+
+### Ranger {#ranger}
+
+Add a +1/2 bonus on wild empathy checks to influence animals and magical beasts that live
+underground.
+
+### Rogue {#rogue}
+
+Add a +1/2 bonus on Disable Device checks regarding stone traps and a +1/2 bonus to trap sense
+regarding stone traps.
+
+### Sorcerer {#sorcerer}
+
+Add +1/2 to acid and earth spell or [spell-like ability](ref/umr/spell-like-abilities) damage.
+
+### Summoner {#summoner}
+
+Add a +1/4 natural armor bonus to the AC of the summoner's eidolon.
+
+### Witch {#witch}
+
+Add +1/4 natural armor bonus to the AC of the witch's familiar.
+
+### Wizard {#wizard}
+
+Select one item creation feat known by the wizard. Whenever he crafts an item using that feat, the
+amount of progress he makes in an 8-hour period increases by 200 gp (50 gp if crafting while
+adventuring). This does not reduce the cost of the item; it just increases the rate at which the
+item is crafted.
+
+## Racial Subtypes {#racial-subtypes}
+
+You can combine various alternate racial traits to create dwarven subraces or variant races, such as
+the following.
+
+### Deep Delver {#deep-delver}
+
+Dwarves living far below the earth have the minesight and deep warrior racial traits. Deep delver
+spellcasters may exchange stonecunning for the stonesinger trait.
+
+### Elder Dwarf {#elder-dwarf}
+
+Traditionalist dwarves of ancient lineage have the ancient enmity, lorekeeper, and either the magic
+resistant or stubborn racial traits.
+
+### Exiled Dwarf {#exiled-dwarf}
+
+Dwarves who have lost their homelands usually have the relentless and stubborn racial traits, and
+often have wyrmscourged as well.
+
+### Mountain Dwarf {#mountain-dwarf}
+
+Dwarves living atop high peaks have the mountaineer racial trait and often surface survivalist as
+well. Mountain dwarves are also trained to defend their homes, and may take the sky sentinel and
+xenophobic traits instead.
+
+## Mountaineer {#mountaineer}
+
+Mountain dwarves are skilled at climbing and navigating narrow ledges. Dwarves with this racial
+trait are immune to altitude sickness and do not lose their Dexterity bonus to AC when making Climb
+or Acrobatics checks to cross narrow or slippery surfaces. This racial trait replaces stability.
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/relentless"
+title = "Relentless"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/rock-stepper"
+title = "Rock Stepper"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/saltbeard"
+title = "Saltbeard"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/sky-sentinel"
+title = "Sky Sentinel"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/stonesinger"
+title = "Stonesinger"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/stubborn"
+title = "Stubborn"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/surface-survivalist"
+title = "Surface Survivalist"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/xenophobic"
+title = "Xenophobic"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/wyrmscourged"
+title = "Wyrmscourged"
+:::

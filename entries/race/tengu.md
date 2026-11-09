@@ -57,3 +57,43 @@ rapiers, scimitars, short swords, and two-bladed swords).
 choose any languages they want (except secret languages, such as Druidic).
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all tengus who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Barbarian {#barbarian}
+
+Add +1/3 to the bonus from the superstitious rage power.
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting a grapple or trip attempt.
+
+### Monk {#monk}
+
+Add +1/4 point to the monk's _ki_ pool.
+
+### Oracle {#oracle}
+
+Add +1/2 to the oracle's level for the purpose of determining the effects of the oracle's curse
+ability.
+
+### Rogue {#rogue}
+
+Choose a weapon from those listed under the tengu's swordtrained ability. Add a +1/2 bonus on
+critical hit confirmation rolls with that weapon (maximum bonus +4). This bonus does not stack with
+Critical Focus.
+
+### Sorcerer {#sorcerer}
+
+Select one bloodline power at 1st level that is normally usable a number of times per day equal to
+3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that
+bloodline power.
+
+### Witch {#witch}
+
+Add one spell from the witch spell list to the witch's familiar. This spell must be at least one
+level below the highest spell level she can cast. If the witch ever replaces her familiar, the new
+familiar knows these bonus spells.

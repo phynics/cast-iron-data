@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Gripplis/Alternate Racial Traits/Jumper", path = "advanced_race_guide/racial_trait/grippli/jumper.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/gripplis", label = "alternate" },
+  { kind = "part", target = "ref/race/grippli", label = "alternate" },
 ]
 
 [fields]

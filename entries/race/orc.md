@@ -100,3 +100,41 @@ weapon with the word &quot&orc&quot& in its name as a martial weapon.
 choose from the following bonus languages: Dwarven, Giant, Gnoll, Goblin, and Undercommon.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all orcs who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Alchemist {#alchemist}
+
+Add +10 minutes to the duration of the alchemist's mutagens.
+
+### Barbarian {#barbarian}
+
+Add +1 to the barbarian's total number of rage rounds per day.
+
+### Cavalier {#cavalier}
+
+Add +1 to the cavalier's CMB when making bull rush or overrun combat maneuvers against a challenged
+target.
+
+### Druid {#druid}
+
+Add +1/2 to the damage dealt by the druid's animal companion's natural attacks.
+
+### Fighter {#fighter}
+
+Add +2 to the fighter's Constitution score for the purpose of determining when he dies from negative
+hit points.
+
+### Ranger {#ranger}
+
+Add +1 hit point to the ranger's animal companion. If the ranger ever replaces his animal companion,
+the new animal companion gains these bonus hit points.
+
+### Witch {#witch}
+
+Add one spell from the witch spell list to the witch's familiar. This spell must be at least one
+level below the highest spell level she can cast. If the witch ever replaces her familiar, the new
+familiar knows these bonus spells.

@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Samsarans/Alternate Racial Traits/Mystic Past Life (Su)", path = "advanced_race_guide/racial_trait/samsaran/mystic_past_life_su.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/samsarans", label = "alternate" },
+  { kind = "part", target = "ref/race/samsaran", label = "alternate" },
 ]
 
 [fields]

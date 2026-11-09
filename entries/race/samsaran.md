@@ -54,3 +54,26 @@ scores can choose from the following bonus languages: any human language, Abyssa
 Celestial, Draconic, Giant, Ignan, Infernal, Nagaji, Tengu, and Terran.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all samsarans who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Monk {#monk}
+
+Add a +1/2 bonus on the monk's saving throws to resist death attacks.
+
+### Oracle {#oracle}
+
+Add one spell known from the oracle spell list. This spell must be at least one level below the
+highest spell level the oracle can cast.
+
+### Rogue {#rogue}
+
+The rogue gains 1/6 of a new rogue talent.
+
+### Wizard {#wizard}
+
+Add one spell from the wizard spell list to the wizard's spellbook. This spell must be at least one
+level below the highest spell level the wizard can cast.

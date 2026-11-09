@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Elves/Alternate Racial Rules/Alternate Racial Traits/Envoy", path = "advanced_race_guide/racial_trait/elf/envoy.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/elves", label = "alternate" },
+  { kind = "part", target = "ref/race/elf", label = "alternate" },
 ]
 
 [fields]

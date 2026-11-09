@@ -85,3 +85,45 @@ can choose from the following bonus languages: Aquan, Auran, Dwarven, Elven, Gno
 and Undercommon.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all oreads who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Bard {#bard}
+
+Add +5 feet to the range of one of the bard's bardic performances (max +30 feet to any one
+performance).
+
+### Cleric {#cleric}
+
+Add a +1/2 bonus on Knowledge (planes) checks relating to the Plane of Earth and creatures with the
+earth subtype.
+
+### Druid {#druid}
+
+Add a +1/2 bonus on Knowledge (nature) checks relating to plants and burrowing animals.
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting a bull rush or drag attempt.
+
+### Monk {#monk}
+
+Add +1/3 on critical hit confirmation rolls made with unarmed strikes (maximum bonus of +5). This
+bonus does not stack with Critical Focus.
+
+### Paladin {#paladin}
+
+Add +1/4 to the bonus the paladin grants her allies with her aura of courage and aura of resolve
+special abilities.
+
+### Ranger {#ranger}
+
+Add +1/4 to the natural armor bonus of the ranger's animal companion. If the ranger ever replaces
+his animal companion, the new animal companion gains this bonus.
+
+### Summoner {#summoner}
+
+Add a +1/4 natural armor bonus to the AC of the summoner's eidolon.

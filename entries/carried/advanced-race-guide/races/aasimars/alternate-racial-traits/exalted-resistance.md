@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Aasimars/Alternate Racial Traits/Exalted Resistance", path = "advanced_race_guide/racial_trait/aasimar/exalted_resistance.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/aasimars", label = "alternate" },
+  { kind = "part", target = "ref/race/aasimar", label = "alternate" },
 ]
 
 [fields]

@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Hobgoblins/Alternate Racial Traits/Battle-Hardened", path = "advanced_race_guide/racial_trait/hobgoblin/battle-hardened.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/hobgoblins", label = "alternate" },
+  { kind = "part", target = "ref/race/hobgoblin", label = "alternate" },
 ]
 
 [fields]

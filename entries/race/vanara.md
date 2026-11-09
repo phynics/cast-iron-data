@@ -45,3 +45,32 @@ carried on her person as a swift action.
 can choose from the following bonus languages: Aklo, Celestial, Elven, Gnome, Goblin, and Sylvan.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all vanaras who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/2 to the alchemist's bomb damage.
+
+### Druid {#druid}
+
+Add a +1/2 bonus on wild empathy checks and a +1/2 bonus on Handle Animal skill checks.
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting a reposition or trip attempt.
+
+### Monk {#monk}
+
+Add a +1 bonus on Acrobatics checks made to jump.
+
+### Ranger {#ranger}
+
+Add +1/4 dodge bonus to Armor Class against the ranger's favored enemies.
+
+### Rogue {#rogue}
+
+The rogue gains 1/6 of a new rogue talent.

@@ -93,3 +93,47 @@ Noranillim, Vortiga.
 scores can choose from the following bonus languages: Draconic, Dwarven, Infernal, Giant, and Orc.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all hobgoblins who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/2 to the number of bombs per day the alchemist can create.
+
+### Cavalier {#cavalier}
+
+Add a +1/2 bonus on Intimidate checks and Ride checks.
+
+### Cleric {#cleric}
+
+Add +1/2 to negative energy spell damage, including inflict spells.
+
+### Fighter {#fighter}
+
+Add a +1/2 circumstance bonus on critical hit confirmation rolls with a weapon of the fighter's
+choice (maximum bonus +4). This bonus does not stack with Critical Focus.
+
+### Gunslinger {#gunslinger}
+
+Add +1/4 to the gunslinger's grit points.
+
+### Inquisitor {#inquisitor}
+
+Add a +1 bonus on concentration checks made to cast inquisitor spells.
+
+### Monk {#monk}
+
+Add a +1/4 bonus on combat maneuver checks made to grapple or trip.
+
+### Ranger {#ranger}
+
+Add +1/4 to a single existing favored enemy bonus (maximum bonus +1 per favored enemy).
+
+### Rogue {#rogue}
+
+Reduce the penalty for not being proficient with one weapon by 1. When the nonproficiency penalty
+for a weapon becomes 0 because of this ability, the rogue is treated as having the appropriate
+Martial or Exotic Weapon Proficiency feat for that weapon.

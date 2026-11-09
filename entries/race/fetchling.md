@@ -109,3 +109,36 @@ choose from the following bonus languages: Aklo, Aquan, Auran, Draconic, D'ziria
 only, cannot speak), Ignan, Terran, and any regional human language.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all fetchlings who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Oracle {#oracle}
+
+Treat the oracle's level as +1/3 higher for the purposes of determining which of its racial
+[spell-like abilities](ref/umr/spell-like-abilities) it can use.
+
+### Ranger {#ranger}
+
+Add a +1/2 bonus on Perception and Survival checks made on the Plane of Shadow.
+
+### Rogue {#rogue}
+
+Add a +1/2 bonus on Stealth and Sleight of Hand checks made while in dim light or darkness.
+
+### Sorcerer {#sorcerer}
+
+Add +1/2 to either cold or electricity resistance (maximum resistance 10 for either type).
+
+### Summoner {#summoner}
+
+The summoner's eidolon gains resistance 1 against either cold or electricity. Each time the summoner
+selects this reward, he increases his eidolon's resistance to one of those energy types by 1
+(maximum 10 for any one energy type).
+
+### Wizard {#wizard}
+
+Add one spell from the wizard spell list to wizard's spellbook. The spell must be at or below the
+highest level he can cast and be of the illusion (shadow) subschool or have the darkness descriptor.

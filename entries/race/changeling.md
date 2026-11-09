@@ -79,3 +79,23 @@ societies. Changelings with high Intelligence scores can choose from the followi
 Aklo, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, and Orc.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all changelings who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Oracle {#oracle}
+
+Add +1/2 to the oracle's level for the purpose of determining the effects of the oracle's curse
+ability.
+
+### Rogue {#rogue}
+
+The rogue gains 1/6 of a new rogue talent.
+
+### Witch {#witch}
+
+Add one spell from the witch spell list to the witch's familiar. This spell must be at least one
+level below the highest spell level she can cast. If the witch ever replaces her familiar, the new
+familiar knows these bonus spells.

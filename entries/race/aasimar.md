@@ -241,3 +241,43 @@ scores can choose from the following bonus languages: Draconic, Dwarven, Elven, 
 Sylvan.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all aasimars who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Bard {#bard}
+
+Choose one bardic performance; treat the bard as +1/2 level higher when determining the effects of
+that performance.
+
+### Cavalier {#cavalier}
+
+Add +1/4 to the cavalier's bonus on damage against targets of his challenge.
+
+### Cleric {#cleric}
+
+Add +1/2 to damage when using positive energy against undead or using Alignment Channel to damage
+evil outsiders.
+
+### Inquisitor {#inquisitor}
+
+Add +1/2 on Intimidate, Knowledge, and Sense Motive checks made against outsiders.
+
+### Oracle {#oracle}
+
+Add +1/2 to the oracle's level for the purpose of determining the effects of one revelation.
+
+### Paladin {#paladin}
+
+Add +1/6 to the morale bonus on saving throws provided by the paladin's auras.
+
+### Sorcerer {#sorcerer}
+
+Add +1/4 to the sorcerer's caster level when casting spells with the good descriptor.
+
+### Summoner {#summoner}
+
+Add DR 1/evil to the summoner's eidolon. Each additional time the summoner selects this benefit, the
+DR/evil increases by +1/2 (maximum DR 10/evil).

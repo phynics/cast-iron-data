@@ -45,6 +45,16 @@ attributes = [
   { label = "Razored: Crit", value = "19–20/×2" },
   { label = "Razored: Type", value = "S" },
   { label = "Razored: Dmg (T)", value = "1d4" },
+  { label = "Long Lash: Price", value = "15 gp" },
+  { label = "Long Lash: Weight", value = "1 lb." },
+  { label = "Pounder: Price", value = "1 gp" },
+  { label = "Pounder: Weight", value = "4 lbs." },
+  { label = "Razored: Price", value = "3 gp" },
+  { label = "Razored: Weight", value = "2 lbs." },
+  { label = "Spiked: Price", value = "3 gp" },
+  { label = "Spiked: Weight", value = "2 lbs." },
+  { label = "Sweeper: Price", value = "7 gp" },
+  { label = "Sweeper: Weight", value = "3 lbs." },
   { label = "Proficiency", value = "Exotic Weapons" },
   { label = "Weapon Class", value = "Light Melee Weapons" },
 ]
@@ -85,6 +95,16 @@ Razored\: Dmg (L): 2d6
 Razored\: Crit: 19–20/×2
 Razored\: Type: S
 Razored\: Dmg (T): 1d4
+Long Lash\: Price: 15 gp
+Long Lash\: Weight: 1 lb.
+Pounder\: Price: 1 gp
+Pounder\: Weight: 4 lbs.
+Razored\: Price: 3 gp
+Razored\: Weight: 2 lbs.
+Spiked\: Price: 3 gp
+Spiked\: Weight: 2 lbs.
+Sweeper\: Price: 7 gp
+Sweeper\: Weight: 3 lbs.
 Proficiency: Exotic Weapons
 Weapon Class: Light Melee Weapons
 :::
@@ -113,3 +133,6 @@ masterwork or magic items. There are five types of common tail attachments.
 > _Sweeper_: When properly used, this sharply curved piece of metal can knock opponents off their
 > feet. Unlike most trip weapons, you cannot drop it if you are tripped during your own trip
 > attempt.
+
+Advanced Race Guide pg. 135 lists the price and weight of each common attachment: Long Lash 15 gp, 1
+lb.; Pounder 1 gp, 4 lbs.; Razored 3 gp, 2 lbs.; Spiked 3 gp, 2 lbs.; Sweeper 7 gp, 3 lbs.

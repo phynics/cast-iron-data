@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Goblins/Alternate Racial Traits/Tree Runner", path = "advanced_race_guide/racial_trait/goblin/tree_runner.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/goblins", label = "alternate" },
+  { kind = "part", target = "ref/race/goblin", label = "alternate" },
 ]
 
 [fields]

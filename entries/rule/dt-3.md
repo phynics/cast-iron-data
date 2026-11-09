@@ -56,7 +56,7 @@ kind = "none"
 |37|Fungus|Divan|
 |38|Game board|Dresser|
 |39|Glass|Drysink|
-|40|Globe|[Fetters](ref/eq-misc/fetters-common)|
+|40|Globe|[Fetters](ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters)|
 |41|Gloves|File cabinet|
 |42|Hair|Fireplace/fire pit|
 |43|[Hammer](ref/eq-misc/hammer)|Font|

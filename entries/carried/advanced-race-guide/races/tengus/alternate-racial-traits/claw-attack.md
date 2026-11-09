@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Tengus/Alternate Racial Traits/Claw Attack", path = "advanced_race_guide/racial_trait/tengu/claw_attack.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/tengus", label = "alternate" },
+  { kind = "part", target = "ref/race/tengu", label = "alternate" },
 ]
 
 [fields]

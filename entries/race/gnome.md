@@ -147,3 +147,135 @@ conflicts.
 - [Languages](ref/racial-trait/gnome/languages)
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all gnomes who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/2 to the number of bombs per day the alchemist can create.
+
+### Barbarian {#barbarian}
+
+Add a +1/2 bonus to the barbarian's trap sense.
+
+### Bard {#bard}
+
+Add +1 to the bard's total number of bardic performance rounds per day.
+
+### Cavalier {#cavalier}
+
+Add +1 to the cavalier's mounted base speed. In combat this has no effect unless the cavalier has
+selected this reward five times (or another increment of five). If the cavalier ever replaces his
+mount, the new mount gains this bonus to its speed.
+
+### Cleric {#cleric}
+
+Add +1/2 to the cleric's channeled energy total when healing creatures of the animal, fey, and plant
+types.
+
+### Druid {#druid}
+
+The druid gains energy resistance 1 against acid, cold, electricity, or fire. Each time the druid
+selects this reward, increase her resistance to one of these energy types by +1 (maximum 10 for any
+one type).
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting a dirty trick or steal attempt.
+
+### Gunslinger {#gunslinger}
+
+The gunslinger reduces the amount of time needed to restore a broken firearm using the Gunsmithing
+feat by 5 minutes (maximum reduction of 50 minutes).
+
+### Inquisitor {#inquisitor}
+
+Add a +1 bonus on concentration checks when casting inquisitor spells.
+
+### Magus {#magus}
+
+Add one of the following weapon special abilities to the list of weapon special abilities the magus
+may add to his weapon using his arcane pool: _defending, ghost touch, merciful, mighty cleaving,
+vicious_; _allying, conductive, corrosive, corrosive burst, menacing_. Once an ability has been
+selected with this reward, it cannot be changed.
+
+### Monk {#monk}
+
+Add +1 to the monk's Acrobatics check bonus gained by spending a point from his _ki_ pool. A monk
+must be at least 5th level to select this benefit.
+
+### Oracle {#oracle}
+
+Add +1/2 to the oracle's level for the purpose of determining the effects of the oracle's curse
+ability.
+
+### Paladin {#paladin}
+
+Add +1/2 hit point to the paladin's lay on hands ability (whether using it to heal or harm).
+
+### Ranger {#ranger}
+
+Add DR 1/magic to the ranger's animal companion. Each additional time the ranger selects this
+benefit, the DR/magic increases by +1/2 (maximum DR 10/magic). If the ranger ever replaces his
+animal companion, the new companion gains this DR.
+
+### Rogue {#rogue}
+
+The rogue gains a +1/2 bonus on Disable Device and Use Magic Device checks related to glyphs,
+symbols, scrolls, and other magical writings.
+
+### Sorcerer {#sorcerer}
+
+Select one bloodline power at 1st level that is normally usable a number of times per day equal to
+3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that
+bloodline power.
+
+### Summoner {#summoner}
+
+Add +1 hit point to the summoner's eidolon.
+
+### Witch {#witch}
+
+The witch gains 1/6 of a new witch hex.
+
+### Wizard {#wizard}
+
+Select one arcane school power at 1st level that is normally usable a number of times per day equal
+to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of
+that arcane school power.
+
+## Racial Subtypes {#racial-subtypes}
+
+You can combine various alternate racial traits to create gnome subraces or variant races, such as
+the following.
+
+### Dread Gnomes {#dread-gnomes}
+
+Moodier, less forgiving, and often crueler than other gnomes, dread gnomes trace their heritage to
+the darker, more bloodthirsty lines of fey. Though not all dread gnomes are evil, they all find
+humor in watching others suffer, and have little use for the bright colors and joyful pursuits of
+their more cheerful cousins. Dread gnomes have the fell magic and knack for poison alternate racial
+traits.
+
+### Gear Gnomes {#gear-gnomes}
+
+Sometimes rather than a single gnome becoming obsessed with a project, whole families of gnomes
+undertake a project so massive it requires generations of artisans to complete. Such projects often
+involve complex clockwork devices (or entire clockwork buildings), and those born into families
+dedicated to lifetimes of work on them are known as gear gnomes. Gear gnomes have the academician
+and master tinker alternate racial traits.
+
+### Lava Gnomes {#lava-gnomes}
+
+Fascinated by the power of magma and living in vast caverns beneath active volcanoes, lava gnomes
+are considered hot-tempered and dangerously unstable even by other gnomes. Lava gnomes have the
+[darkvision](ref/rule/darkvision) and pyromaniac alternate racial traits.
+
+### Traveler Gnomes {#traveler-gnomes}
+
+These gnomes were born on the move, their families living on a ship or in a caravan wagon. These
+gnomes have the magical linguist and either the explorer or the gift of tongues alternate racial
+traits.
