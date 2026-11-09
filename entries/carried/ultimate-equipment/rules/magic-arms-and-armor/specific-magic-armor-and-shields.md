@@ -261,7 +261,7 @@ body = [
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/magic-arms-and-armor/specific-magic-armor-and-shields/specific-magic-armor/adamatine-breastplate"
+target = "ref/eq-armor/adamantine-breastplate"
 title = "Adamatine Breastplate"
 :::
 

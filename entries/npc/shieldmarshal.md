@@ -61,7 +61,7 @@ cunning, legal judgment 2/day\
 mwk [musket](ref/eq-weapon/musket),
 [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
 [ring of protection +1](ref/magic-ring/ring-of-protection-1), black
-[powder horn](ref/eq-weapon/powder-horn) with 20 doses of black powder,
+[powder horn](ref/eq-misc/powder-horn) with 20 doses of black powder,
 [gunsmith's kit](ref/eq-misc/gunsmiths-kit), mwk [manacles](ref/eq-misc/manacles-masterwork),
 shieldmarshal's badge (worth 5 gp), 201 gp
 

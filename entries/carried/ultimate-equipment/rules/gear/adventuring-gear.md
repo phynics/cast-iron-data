@@ -1966,7 +1966,7 @@ title = "Powder"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/gear/adventuring-gear/powder-horn"
+target = "ref/eq-misc/powder-horn"
 title = "Powder Horn"
 :::
 

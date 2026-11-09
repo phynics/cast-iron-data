@@ -101,7 +101,7 @@ invisibility, potion of protection from good, 2 [tracer bullets](ref/magic-weapo
 [entangling shot alchemical cartridges](ref/eq-weapon/alchemical-cartridge-entangling-shot), 10
 [salt shot alchemical cartridges](ref/eq-weapon/alchemical-cartridge-salt-shot), 2 tanglefoot bags
 
-**Other gear:** mwk chain shirt, mwk club, m20, Iamu1, [powder horn](ref/eq-weapon/powder-horn) with
+**Other gear:** mwk chain shirt, mwk club, m20, Iamu1, [powder horn](ref/eq-misc/powder-horn) with
 20 doses of black powder
 
 ###### B {#footnote-b}

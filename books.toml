@@ -2782,10 +2782,6 @@ entry = "ref/eq-misc/chest"
 title = "Chest (huge)"
 entry = "ref/eq-misc/chest-huge"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Chest"
-entry = "ref/rule/eq-misc-chest-huge/chest"
-
 [[books.chapters.children.children.children.children]]
 title = "Chest (large)"
 entry = "ref/eq-misc/chest-large"
@@ -52468,10 +52464,6 @@ title = "Deft Shootist"
 entry = "ref/feat/deft-shootist"
 
 [[books.chapters.children]]
-title = "Deft Shootist Deed"
-entry = "ref/carried/ultimate-combat/feats/deft-shootist-deed"
-
-[[books.chapters.children]]
 title = "Destructive Dispel"
 entry = "ref/feat/destructive-dispel"
 
@@ -52838,10 +52830,6 @@ entry = "ref/feat/landing-roll"
 [[books.chapters.children]]
 title = "Leaping Shot"
 entry = "ref/feat/leaping-shot"
-
-[[books.chapters.children]]
-title = "Leaping Shot Deed"
-entry = "ref/carried/ultimate-combat/feats/leaping-shot-deed"
 
 [[books.chapters.children]]
 title = "Mantis Style"
@@ -53340,20 +53328,12 @@ title = "Do-Maru"
 entry = "ref/eq-armor/do-maru"
 
 [[books.chapters.children.children.children]]
-title = "Four-Mirror Armor"
-entry = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/four-mirror-armor"
-
-[[books.chapters.children.children.children]]
 title = "Four-mirror"
 entry = "ref/eq-armor/four-mirror"
 
 [[books.chapters.children.children.children]]
 title = "Haramaki"
 entry = "ref/eq-armor/haramaki"
-
-[[books.chapters.children.children.children]]
-title = "Kikko Armor"
-entry = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/kikko-armor"
 
 [[books.chapters.children.children.children]]
 title = "Kikko"
@@ -53392,20 +53372,12 @@ title = "Lamellar Cuirass"
 entry = "ref/eq-armor/lamellar-cuirass"
 
 [[books.chapters.children.children.children]]
-title = "Mountain Pattern Armor"
-entry = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/mountain-pattern-armor"
-
-[[books.chapters.children.children.children]]
 title = "Mountain pattern"
 entry = "ref/eq-armor/mountain-pattern"
 
 [[books.chapters.children.children.children]]
 title = "O-Yoroi"
 entry = "ref/eq-armor/o-yoroi"
-
-[[books.chapters.children.children.children]]
-title = "Silken Ceremonial Armor"
-entry = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/silken-ceremonial-armor"
 
 [[books.chapters.children.children.children]]
 title = "Silken ceremonial"
@@ -53795,10 +53767,6 @@ title = "Black powder (keg)"
 entry = "ref/eq-weapon/black-powder-keg"
 
 [[books.chapters.children.children.children.children]]
-title = "Bullet"
-entry = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/bullet"
-
-[[books.chapters.children.children.children.children]]
 title = "Firearm bullet"
 entry = "ref/eq-weapon/firearm-bullet"
 
@@ -53819,14 +53787,6 @@ title = "Firearm bullet, silver"
 entry = "ref/eq-weapon/firearm-bullet-silver"
 
 [[books.chapters.children.children.children.children]]
-title = "Gunsmith's Kit"
-entry = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/gunsmiths-kit"
-
-[[books.chapters.children.children.children.children]]
-title = "Gunsmith's kit"
-entry = "ref/eq-weapon/gunsmiths-kit"
-
-[[books.chapters.children.children.children.children]]
 title = "Gunsmith's kit"
 entry = "ref/eq-misc/gunsmiths-kit"
 
@@ -53837,14 +53797,6 @@ entry = "ref/eq-weapon/metal-cartridge"
 [[books.chapters.children.children.children.children]]
 title = "Pellets"
 entry = "ref/eq-weapon/pellets-handful"
-
-[[books.chapters.children.children.children.children]]
-title = "Powder Horn"
-entry = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/powder-horn"
-
-[[books.chapters.children.children.children.children]]
-title = "Powder horn"
-entry = "ref/eq-weapon/powder-horn"
 
 [[books.chapters.children.children.children.children]]
 title = "Powder horn"
@@ -54933,10 +54885,6 @@ title = "Abjuring Step"
 entry = "ref/spell/abjuring-step"
 
 [[books.chapters.children]]
-title = "Adjuring Step"
-entry = "ref/carried/ultimate-combat/spells/adjuring-step"
-
-[[books.chapters.children]]
 title = "Ablative Barrier"
 entry = "ref/spell/ablative-barrier"
 
@@ -54957,10 +54905,6 @@ title = "Air Bubble"
 entry = "ref/spell/air-bubble"
 
 [[books.chapters.children]]
-title = "Air Walk, Communal"
-entry = "ref/carried/ultimate-combat/spells/air-walk/communal"
-
-[[books.chapters.children]]
 title = "Communal Air Walk"
 entry = "ref/spell/air-walk-communal"
 
@@ -54969,16 +54913,8 @@ title = "Animal Aspect"
 entry = "ref/spell/animal-aspect"
 
 [[books.chapters.children]]
-title = "Animal Aspect, Greater"
-entry = "ref/carried/ultimate-combat/spells/animal-aspect/greater"
-
-[[books.chapters.children]]
 title = "Greater Animal Aspect"
 entry = "ref/spell/animal-aspect-greater"
-
-[[books.chapters.children]]
-title = "Ant Haul, Communal"
-entry = "ref/carried/ultimate-combat/spells/ant-haul/communal"
 
 [[books.chapters.children]]
 title = "Communal Ant Haul"
@@ -55041,10 +54977,6 @@ title = "Communal Darkvision"
 entry = "ref/spell/darkvision-communal"
 
 [[books.chapters.children]]
-title = "Darkvision, Communal"
-entry = "ref/carried/ultimate-combat/spells/darkvision/communal"
-
-[[books.chapters.children]]
 title = "Daybreak Arrow"
 entry = "ref/spell/daybreak-arrow"
 
@@ -55063,10 +54995,6 @@ entry = "ref/spell/debilitating-portent"
 [[books.chapters.children]]
 title = "Communal Delay Poison"
 entry = "ref/spell/delay-poison-communal"
-
-[[books.chapters.children]]
-title = "Delay Poison, Communal"
-entry = "ref/carried/ultimate-combat/spells/delay-poison/communal"
 
 [[books.chapters.children]]
 title = "Destabilize Powder"
@@ -55093,16 +55021,8 @@ title = "Communal Endure Elements"
 entry = "ref/spell/endure-elements-communal"
 
 [[books.chapters.children]]
-title = "Endure Elements, Communal"
-entry = "ref/carried/ultimate-combat/spells/endure-elements/communal"
-
-[[books.chapters.children]]
 title = "Energy Siege Shot"
 entry = "ref/spell/energy-siege-shot"
-
-[[books.chapters.children]]
-title = "Energy Siege Shot, Greater"
-entry = "ref/carried/ultimate-combat/spells/energy-siege-shot/greater"
 
 [[books.chapters.children]]
 title = "Greater Energy Siege Shot"
@@ -55157,10 +55077,6 @@ title = "Greater Hostile Juxtaposition"
 entry = "ref/spell/hostile-juxtaposition-greater"
 
 [[books.chapters.children]]
-title = "Hostile Juxtaposition, Greater"
-entry = "ref/carried/ultimate-combat/spells/hostile-juxtaposition/greater"
-
-[[books.chapters.children]]
 title = "Hostile Levitation"
 entry = "ref/spell/hostile-levitation"
 
@@ -55205,16 +55121,8 @@ title = "Improved Life Conduit"
 entry = "ref/spell/life-conduit-improved"
 
 [[books.chapters.children]]
-title = "Life Conduit, Improved"
-entry = "ref/carried/ultimate-combat/spells/life-conduit/improved"
-
-[[books.chapters.children]]
 title = "Greater Life Conduit"
 entry = "ref/spell/life-conduit-greater"
-
-[[books.chapters.children]]
-title = "Life Conduit, Greater"
-entry = "ref/carried/ultimate-combat/spells/life-conduit/greater"
 
 [[books.chapters.children]]
 title = "Lightning Lash Bomb Admixture"
@@ -55289,24 +55197,12 @@ title = "Greater Magic Siege Engine"
 entry = "ref/spell/magic-siege-engine-greater"
 
 [[books.chapters.children]]
-title = "Magic Siege Engine, Greater"
-entry = "ref/carried/ultimate-combat/spells/magic-siege-engine/greater"
-
-[[books.chapters.children]]
 title = "Communal Mask Dweomer"
 entry = "ref/spell/mask-dweomer-communal"
 
 [[books.chapters.children]]
-title = "Mask Dweomer, Communal"
-entry = "ref/carried/ultimate-combat/spells/mask-dweomer/communal"
-
-[[books.chapters.children]]
 title = "Communal Mind Blank"
 entry = "ref/spell/mind-blank-communal"
-
-[[books.chapters.children]]
-title = "Mind Blank, Communal"
-entry = "ref/carried/ultimate-combat/spells/mind-blank/communal"
 
 [[books.chapters.children]]
 title = "Mirror Strike"
@@ -55321,10 +55217,6 @@ title = "Communal Mount"
 entry = "ref/spell/mount-communal"
 
 [[books.chapters.children]]
-title = "Mount, Communal"
-entry = "ref/carried/ultimate-combat/spells/mount/communal"
-
-[[books.chapters.children]]
 title = "Mutagenic Touch"
 entry = "ref/spell/mutagenic-touch"
 
@@ -55337,20 +55229,12 @@ title = "Greater Named Bullet"
 entry = "ref/spell/named-bullet-greater"
 
 [[books.chapters.children]]
-title = "Named Bullet, Greater"
-entry = "ref/carried/ultimate-combat/spells/named-bullet/greater"
-
-[[books.chapters.children]]
 title = "Negative Reaction"
 entry = "ref/spell/negative-reaction"
 
 [[books.chapters.children]]
 title = "Communal Nondetection"
 entry = "ref/spell/nondetection-communal"
-
-[[books.chapters.children]]
-title = "Nondetection, Communal"
-entry = "ref/carried/ultimate-combat/spells/nondetection/communal"
 
 [[books.chapters.children]]
 title = "Obsidian Flow"
@@ -55377,10 +55261,6 @@ title = "Communal Phantom Steed"
 entry = "ref/spell/phantom-steed-communal"
 
 [[books.chapters.children]]
-title = "Phantom Steed, Communal"
-entry = "ref/carried/ultimate-combat/spells/phantom-steed/communal"
-
-[[books.chapters.children]]
 title = "Pilfering Hand"
 entry = "ref/spell/pilfering-hand"
 
@@ -55389,48 +55269,24 @@ title = "Communal Protection from Arrows"
 entry = "ref/spell/protection-from-arrows-communal"
 
 [[books.chapters.children]]
-title = "Protection From Arrows, Communal"
-entry = "ref/carried/ultimate-combat/spells/protection-from-arrows/communal"
-
-[[books.chapters.children]]
 title = "Communal Protection from Chaos"
 entry = "ref/spell/protection-from-chaos-communal"
-
-[[books.chapters.children]]
-title = "Protection From Chaos, Communal"
-entry = "ref/carried/ultimate-combat/spells/protection-from-chaos/communal"
 
 [[books.chapters.children]]
 title = "Communal Protection from Energy"
 entry = "ref/spell/protection-from-energy-communal"
 
 [[books.chapters.children]]
-title = "Protection From Energy, Communal"
-entry = "ref/carried/ultimate-combat/spells/protection-from-energy/communal"
-
-[[books.chapters.children]]
 title = "Communal Protection from Evil"
 entry = "ref/spell/protection-from-evil-communal"
-
-[[books.chapters.children]]
-title = "Protection From Evil, Communal"
-entry = "ref/carried/ultimate-combat/spells/protection-from-evil/communal"
 
 [[books.chapters.children]]
 title = "Communal Protection from Good"
 entry = "ref/spell/protection-from-good-communal"
 
 [[books.chapters.children]]
-title = "Protection From Good, Communal"
-entry = "ref/carried/ultimate-combat/spells/protection-from-good/communal"
-
-[[books.chapters.children]]
 title = "Communal Protection from Law"
 entry = "ref/spell/protection-from-law-communal"
-
-[[books.chapters.children]]
-title = "Protection From Law, Communal"
-entry = "ref/carried/ultimate-combat/spells/protection-from-law/communal"
 
 [[books.chapters.children]]
 title = "Pup Shape"
@@ -55453,10 +55309,6 @@ title = "Communal Reinforce Armaments"
 entry = "ref/spell/reinforce-armaments-communal"
 
 [[books.chapters.children]]
-title = "Reinforce Armaments, Communal"
-entry = "ref/carried/ultimate-combat/spells/reinforce-armaments/communal"
-
-[[books.chapters.children]]
 title = "Reloading Hands"
 entry = "ref/spell/reloading-hands"
 
@@ -55469,20 +55321,12 @@ title = "Communal Resist Energy"
 entry = "ref/spell/resist-energy-communal"
 
 [[books.chapters.children]]
-title = "Resist Energy, Communal"
-entry = "ref/carried/ultimate-combat/spells/resist-energy/communal"
-
-[[books.chapters.children]]
 title = "Returning Weapon"
 entry = "ref/spell/returning-weapon"
 
 [[books.chapters.children]]
 title = "Communal Returning Weapon"
 entry = "ref/spell/returning-weapon-communal"
-
-[[books.chapters.children]]
-title = "Returning Weapon, Communal"
-entry = "ref/carried/ultimate-combat/spells/returning-weapon/communal"
 
 [[books.chapters.children]]
 title = "Ricochet Shot"
@@ -55501,10 +55345,6 @@ title = "Communal Share Language"
 entry = "ref/spell/share-language-communal"
 
 [[books.chapters.children]]
-title = "Share Language, Communal"
-entry = "ref/carried/ultimate-combat/spells/share-language/communal"
-
-[[books.chapters.children]]
 title = "Shock Shield"
 entry = "ref/spell/shock-shield"
 
@@ -55521,32 +55361,16 @@ title = "Greater Siege of Trees"
 entry = "ref/spell/siege-of-trees-greater"
 
 [[books.chapters.children]]
-title = "Siege Of Trees, Greater"
-entry = "ref/carried/ultimate-combat/spells/siege-of-trees/greater"
-
-[[books.chapters.children]]
 title = "Communal Spell Immunity"
 entry = "ref/spell/spell-immunity-communal"
-
-[[books.chapters.children]]
-title = "Spell Immunity, Communal"
-entry = "ref/carried/ultimate-combat/spells/spell-immunity/communal"
 
 [[books.chapters.children]]
 title = "Greater Communal Spell Immunity"
 entry = "ref/spell/spell-immunity-greater-communal"
 
 [[books.chapters.children]]
-title = "Spell Immunity, Greater Communal"
-entry = "ref/carried/ultimate-combat/spells/spell-immunity/greater-communal"
-
-[[books.chapters.children]]
 title = "Communal Spider Climb"
 entry = "ref/spell/spider-climb-communal"
-
-[[books.chapters.children]]
-title = "Spider Climb, Communal"
-entry = "ref/carried/ultimate-combat/spells/spider-climb/communal"
 
 [[books.chapters.children]]
 title = "Spontaneous Immolation"
@@ -55559,10 +55383,6 @@ entry = "ref/spell/stabilize-powder"
 [[books.chapters.children]]
 title = "Communal Stoneskin"
 entry = "ref/spell/stoneskin-communal"
-
-[[books.chapters.children]]
-title = "Stoneskin, Communal"
-entry = "ref/carried/ultimate-combat/spells/stoneskin/communal"
 
 [[books.chapters.children]]
 title = "Summoner Conduit"
@@ -55609,10 +55429,6 @@ title = "Communal Tongues"
 entry = "ref/spell/tongues-communal"
 
 [[books.chapters.children]]
-title = "Tongues, Communal"
-entry = "ref/carried/ultimate-combat/spells/tongues/communal"
-
-[[books.chapters.children]]
 title = "Touch Injection"
 entry = "ref/spell/touch-injection"
 
@@ -55639,10 +55455,6 @@ entry = "ref/spell/warding-weapon"
 [[books.chapters.children]]
 title = "Communal Water Walk"
 entry = "ref/spell/water-walk-communal"
-
-[[books.chapters.children]]
-title = "Water Walk, Communal"
-entry = "ref/carried/ultimate-combat/spells/water-walk/communal"
 
 [[books.chapters.children]]
 title = "Weaken Powder"
@@ -56335,10 +56147,6 @@ title = "Shang Gou"
 entry = "ref/eq-weapon/shang-gou"
 
 [[books.chapters.children.children.children]]
-title = "Shortsword"
-entry = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/shortsword"
-
-[[books.chapters.children.children.children]]
 title = "Sibat"
 entry = "ref/eq-weapon/sibat"
 
@@ -56781,10 +56589,6 @@ entry = "ref/eq-weapon/tetsubo"
 [[books.chapters.children.children.children]]
 title = "Two-Bladed Sword"
 entry = "ref/eq-weapon/two-bladed-sword"
-
-[[books.chapters.children.children.children]]
-title = "Arrows"
-entry = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/arrows"
 
 [[books.chapters.children.children.children]]
 title = "Atlatl Dart"
@@ -57326,6 +57130,22 @@ entry = "ref/eq-misc/chalkboard"
 title = "Chest"
 entry = "ref/eq-misc/chest"
 
+[[books.chapters.children.children.children]]
+title = "Chest (huge)"
+entry = "ref/eq-misc/chest-huge"
+
+[[books.chapters.children.children.children]]
+title = "Chest (large)"
+entry = "ref/eq-misc/chest-large"
+
+[[books.chapters.children.children.children]]
+title = "Chest (medium)"
+entry = "ref/eq-misc/chest-medium"
+
+[[books.chapters.children.children.children]]
+title = "Chest (small)"
+entry = "ref/eq-misc/chest-small"
+
 [[books.chapters.children.children]]
 title = "Chirurgeon's Kit"
 entry = "ref/eq-misc/chirurgeons-kit"
@@ -57541,26 +57361,6 @@ entry = "ref/carried/ultimate-equipment/rules/gear/adventuring-gear/grappling-ar
 [[books.chapters.children.children.children]]
 title = "Arrow (grappling)"
 entry = "ref/eq-misc/arrow-grappling"
-
-[[books.chapters.children.children]]
-title = "Chest"
-entry = "ref/rule/eq-misc-chest-huge/chest"
-
-[[books.chapters.children.children.children]]
-title = "Chest (huge)"
-entry = "ref/eq-misc/chest-huge"
-
-[[books.chapters.children.children.children]]
-title = "Chest (large)"
-entry = "ref/eq-misc/chest-large"
-
-[[books.chapters.children.children.children]]
-title = "Chest (medium)"
-entry = "ref/eq-misc/chest-medium"
-
-[[books.chapters.children.children.children]]
-title = "Chest (small)"
-entry = "ref/eq-misc/chest-small"
 
 [[books.chapters.children.children]]
 title = "Other Goods and Services"
@@ -57919,10 +57719,6 @@ title = "Powder"
 entry = "ref/eq-misc/powder"
 
 [[books.chapters.children.children]]
-title = "Powder Horn"
-entry = "ref/carried/ultimate-equipment/rules/gear/adventuring-gear/powder-horn"
-
-[[books.chapters.children.children]]
 title = "Prosthetic"
 entry = "ref/carried/ultimate-equipment/rules/gear/adventuring-gear/prosthetic"
 
@@ -58133,10 +57929,6 @@ entry = "ref/eq-misc/poison-pill-signet-ring"
 [[books.chapters.children.children]]
 title = "Powder horn"
 entry = "ref/eq-misc/powder-horn"
-
-[[books.chapters.children.children]]
-title = "Powder horn"
-entry = "ref/eq-weapon/powder-horn"
 
 [[books.chapters.children.children]]
 title = "Spider's Silk Rope"
@@ -60039,10 +59831,6 @@ title = "Alkali Flask"
 entry = "ref/eq-weapon/alkali-flask"
 
 [[books.chapters.children.children]]
-title = "Banshee Ballerina Firework"
-entry = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/banshee-ballerina-firework"
-
-[[books.chapters.children.children.children]]
 title = "Firework (banshee ballerina)"
 entry = "ref/eq-weapon/firework-banshee-ballerina"
 
@@ -60055,10 +59843,6 @@ title = "Burst Jar"
 entry = "ref/eq-weapon/burst-jar"
 
 [[books.chapters.children.children]]
-title = "Flame Fountain Firework"
-entry = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/flame-fountain-firework"
-
-[[books.chapters.children.children.children]]
 title = "Firework (flame fountain)"
 entry = "ref/eq-weapon/firework-flame-fountain"
 
@@ -60095,10 +59879,6 @@ title = "Liquid Ice"
 entry = "ref/eq-weapon/liquid-ice"
 
 [[books.chapters.children.children]]
-title = "Paper Candle Firework"
-entry = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/paper-candle-firework"
-
-[[books.chapters.children.children.children]]
 title = "Firework (paper candle)"
 entry = "ref/eq-weapon/firework-paper-candle"
 
@@ -60127,10 +59907,6 @@ title = "Shard Gel"
 entry = "ref/eq-weapon/shard-gel"
 
 [[books.chapters.children.children]]
-title = "Skyrocket Firework"
-entry = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/skyrocket-firework"
-
-[[books.chapters.children.children.children]]
 title = "Firework (skyrocket)"
 entry = "ref/eq-weapon/firework-skyrocket"
 
@@ -60139,18 +59915,10 @@ title = "Sneezing Powder"
 entry = "ref/eq-weapon/sneezing-powder"
 
 [[books.chapters.children.children]]
-title = "Star Candle Firework"
-entry = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/star-candle-firework"
-
-[[books.chapters.children.children.children]]
 title = "Firework (star candle)"
 entry = "ref/eq-weapon/firework-star-candle"
 
 [[books.chapters.children.children]]
-title = "Starfountain Firework"
-entry = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/starfountain-firework"
-
-[[books.chapters.children.children.children]]
 title = "Firework (starfountain)"
 entry = "ref/eq-weapon/firework-starfountain"
 
@@ -60613,10 +60381,6 @@ entry = "ref/carried/ultimate-equipment/rules/magic-arms-and-armor/specific-magi
 [[books.chapters.children.children]]
 title = "Specific Magic Armor"
 anchor = "specific-magic-armor"
-
-[[books.chapters.children.children.children]]
-title = "Adamatine Breastplate"
-entry = "ref/carried/ultimate-equipment/rules/magic-arms-and-armor/specific-magic-armor-and-shields/specific-magic-armor/adamatine-breastplate"
 
 [[books.chapters.children.children.children]]
 title = "Armor Of Insults"
@@ -67234,10 +66998,6 @@ title = "The Moaning Diamond"
 entry = "ref/magic-artifact/the-moaning-diamond"
 
 [[books.chapters.children.children.children]]
-title = "The Orbs of Dragonkind"
-entry = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-orbs-of-dragonkind"
-
-[[books.chapters.children.children.children.children]]
 title = "Orbs of Dragonkind"
 entry = "ref/magic-artifact/orbs-of-dragonkind"
 
@@ -67246,10 +67006,6 @@ title = "Perfection's Key"
 entry = "ref/magic-artifact/perfections-key"
 
 [[books.chapters.children.children.children]]
-title = "The Shadowstaff"
-entry = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-shadowstaff"
-
-[[books.chapters.children.children.children.children]]
 title = "Shadowstaff"
 entry = "ref/magic-artifact/shadowstaff"
 
@@ -76100,10 +75856,6 @@ entry = "ref/eq-misc/chest"
 [[books.chapters.children]]
 title = "Chest (huge)"
 entry = "ref/eq-misc/chest-huge"
-
-[[books.chapters.children.children]]
-title = "Chest"
-entry = "ref/rule/eq-misc-chest-huge/chest"
 
 [[books.chapters.children]]
 title = "Chest (large)"
@@ -123010,10 +122762,6 @@ entry = "ref/eq-misc/perfume-exotic-per-dose"
 [[books.chapters.children]]
 title = "Powder horn"
 entry = "ref/eq-misc/powder-horn"
-
-[[books.chapters.children]]
-title = "Powder horn"
-entry = "ref/eq-weapon/powder-horn"
 
 [[books.chapters.children]]
 title = "Tears of Razmir"

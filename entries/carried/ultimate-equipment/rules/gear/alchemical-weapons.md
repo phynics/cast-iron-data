@@ -338,7 +338,7 @@ title = "Alkali Flask"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/banshee-ballerina-firework"
+target = "ref/eq-weapon/firework-banshee-ballerina"
 title = "Banshee Ballerina Firework"
 :::
 
@@ -353,7 +353,7 @@ title = "Burst Jar"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/flame-fountain-firework"
+target = "ref/eq-weapon/firework-flame-fountain"
 title = "Flame Fountain Firework"
 :::
 
@@ -398,7 +398,7 @@ title = "Liquid Ice"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/paper-candle-firework"
+target = "ref/eq-weapon/firework-paper-candle"
 title = "Paper Candle Firework"
 :::
 
@@ -413,7 +413,7 @@ title = "Shard Gel"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/skyrocket-firework"
+target = "ref/eq-weapon/firework-skyrocket"
 title = "Skyrocket Firework"
 :::
 
@@ -423,12 +423,12 @@ title = "Sneezing Powder"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/star-candle-firework"
+target = "ref/eq-weapon/firework-star-candle"
 title = "Star Candle Firework"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/starfountain-firework"
+target = "ref/eq-weapon/firework-starfountain"
 title = "Starfountain Firework"
 :::
 

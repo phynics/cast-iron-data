@@ -24,7 +24,7 @@ of black powder is enough to power a single shot from most one-handed and two-ha
 hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire,
 electricity, or a misfire explosion causes black powder to explode - a single keg that explodes in
 this manner deals 5d6 points of fire damage to anyone within a 20-foot [burst](ref/misc/burst) (DC
-15 Reflex half). Storing black powder in a [powder horn](ref/eq-weapon/powder-horn) protects the
+15 Reflex half). Storing black powder in a [powder horn](ref/eq-misc/powder-horn) protects the
 powder from explosion.
 
 **Cost** 10 gp (dose)/1,000gp (keg) **Weight** - (dose)/5 lbs. (keg)\

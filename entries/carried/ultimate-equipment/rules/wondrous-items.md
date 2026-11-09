@@ -57,7 +57,7 @@ title = "Body"
 :::
 
 ::: entry-link
-target = "ref/rule/eq-misc-chest-huge/chest"
+target = "ref/eq-misc/chest"
 title = "Chest"
 :::
 
