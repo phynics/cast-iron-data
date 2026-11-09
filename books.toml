@@ -103502,8 +103502,8 @@ entry = "ref/spell/soothing-word"
 [[books]]
 source = "gamemastery-guide"
 title = "GameMastery Guide"
-basis = "The chapter titles, their order, and their first pages are checked against the printed contents page of the GameMastery Guide. Entries are grouped by the page each Pf Data record attributes to this publication. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
-review = ["Nested placement is not checked against the printed subheadings.", "The printed Appendix (310) has no corpus entries.", "Entries on the same page are not in printed order."]
+basis = "The chapter titles, their order, and their first pages are checked against the printed contents page of the GameMastery Guide. Each chapter holds its printed section headings in page order. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
+review = ["Nested placement follows the printed section headings; entries that share a printed page keep the dataset order.", "The printed Appendix (310) has no corpus entries."]
 
 [[books.chapters]]
 title = "Introduction"
@@ -103514,178 +103514,181 @@ title = "Getting Started"
 entry = "ref/rule/getting-started"
 
 [[books.chapters.children]]
+title = "Duties of a GM"
+
+[[books.chapters.children.children]]
 title = "A Game Master's Glossary"
 entry = "ref/rule/a-game-masters-glossary"
-
-[[books.chapters.children]]
-title = "Group Styles"
-entry = "ref/rule/group-styles"
-
-[[books.chapters.children]]
-title = "Retaining Interest"
-entry = "ref/rule/retaining-interest"
-
-[[books.chapters.children]]
-title = "Style of Play"
-entry = "ref/rule/style-of-play"
 
 [[books.chapters.children]]
 title = "Tone and Maturity"
 entry = "ref/rule/tone-and-maturity"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Group Styles"
+entry = "ref/rule/group-styles"
+
+[[books.chapters.children.children]]
+title = "Retaining Interest"
+entry = "ref/rule/retaining-interest"
+
+[[books.chapters.children.children]]
+title = "Style of Play"
+entry = "ref/rule/style-of-play"
+
+[[books.chapters.children.children]]
 title = "Tone and Setting"
 entry = "ref/rule/tone-and-setting"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sensitive Topics"
 entry = "ref/rule/sensitive-topics"
-
-[[books.chapters.children]]
-title = "Finding Players"
-entry = "ref/rule/finding-players"
-
-[[books.chapters.children]]
-title = "Large Groups"
-entry = "ref/rule/large-groups"
-
-[[books.chapters.children]]
-title = "Number of Players"
-entry = "ref/rule/number-of-players"
-
-[[books.chapters.children]]
-title = "Small Groups"
-entry = "ref/rule/small-groups"
 
 [[books.chapters.children]]
 title = "The GM as Host"
 entry = "ref/rule/the-gm-as-host"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Finding Players"
+entry = "ref/rule/finding-players"
+
+[[books.chapters.children.children]]
+title = "Large Groups"
+entry = "ref/rule/large-groups"
+
+[[books.chapters.children.children]]
+title = "Number of Players"
+entry = "ref/rule/number-of-players"
+
+[[books.chapters.children.children]]
+title = "Small Groups"
+entry = "ref/rule/small-groups"
+
+[[books.chapters.children.children]]
 title = "The Building"
 entry = "ref/rule/the-building"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Room"
 entry = "ref/rule/the-room"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "When to Play"
 entry = "ref/rule/when-to-play"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Where to Play"
 entry = "ref/rule/where-to-play"
-
-[[books.chapters.children]]
-title = "Calling off a Session"
-entry = "ref/rule/calling-off-a-session"
-
-[[books.chapters.children]]
-title = "Children and Pets"
-entry = "ref/rule/children-and-pets"
-
-[[books.chapters.children]]
-title = "Food at the Game Table"
-entry = "ref/rule/food-at-the-game-table"
-
-[[books.chapters.children]]
-title = "Player Absence"
-entry = "ref/rule/player-absence"
 
 [[books.chapters.children]]
 title = "Rules of the House"
 entry = "ref/rule/rules-of-the-house"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Calling off a Session"
+entry = "ref/rule/calling-off-a-session"
+
+[[books.chapters.children.children]]
+title = "Children and Pets"
+entry = "ref/rule/children-and-pets"
+
+[[books.chapters.children.children]]
+title = "Food at the Game Table"
+entry = "ref/rule/food-at-the-game-table"
+
+[[books.chapters.children.children]]
+title = "Player Absence"
+entry = "ref/rule/player-absence"
+
+[[books.chapters.children.children]]
 title = "Interplayer Conflict"
 entry = "ref/rule/interplayer-conflict"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Other Activities at the Game Table"
 entry = "ref/rule/other-activities-at-the-game-table"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Out-of-Character Talking"
 entry = "ref/rule/out-of-character-talking"
-
-[[books.chapters.children]]
-title = "Know the Adversaries"
-entry = "ref/rule/know-the-adversaries"
-
-[[books.chapters.children]]
-title = "Know the Characters and the Players"
-entry = "ref/rule/know-the-characters-and-the-players"
-
-[[books.chapters.children]]
-title = "Know the Scene"
-entry = "ref/rule/know-the-scene"
-
-[[books.chapters.children]]
-title = "Know the Story"
-entry = "ref/rule/know-the-story"
 
 [[books.chapters.children]]
 title = "Preparing to Run a Game"
 entry = "ref/rule/preparing-to-run-a-game"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Know the Adversaries"
+entry = "ref/rule/know-the-adversaries"
+
+[[books.chapters.children.children]]
+title = "Know the Characters and the Players"
+entry = "ref/rule/know-the-characters-and-the-players"
+
+[[books.chapters.children.children]]
+title = "Know the Scene"
+entry = "ref/rule/know-the-scene"
+
+[[books.chapters.children.children]]
+title = "Know the Story"
+entry = "ref/rule/know-the-story"
+
+[[books.chapters.children.children]]
 title = "Seven Essentials for Good Preparation"
 entry = "ref/rule/seven-essentials-for-good-preparation"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Things to Have at the Table"
 entry = "ref/rule/things-to-have-at-the-table"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Don't Overdo it"
 entry = "ref/rule/dont-overdo-it"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Know the Rules"
 entry = "ref/rule/know-the-rules"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Lay a Few Alternate Plans"
 entry = "ref/rule/lay-a-few-alternate-plans"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Published or Homegrown"
 entry = "ref/rule/published-or-homegrown"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Campaigns"
 entry = "ref/rule/campaigns"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "One-Shot Games"
 entry = "ref/rule/one-shot-games"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sharing the Load"
 entry = "ref/rule/sharing-the-load"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Campaign Endings"
 entry = "ref/rule/campaign-endings"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Essentials of Good Campaigns"
 entry = "ref/rule/essentials-of-good-campaigns"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Movers and Shakers"
 entry = "ref/rule/movers-and-shakers"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Setting and Scope"
 entry = "ref/rule/setting-and-scope"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Story"
 entry = "ref/rule/story"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Winging It"
 entry = "ref/rule/winging-it"
 
@@ -103693,23 +103696,23 @@ entry = "ref/rule/winging-it"
 title = "Creating a Campaign Guide"
 entry = "ref/rule/creating-a-campaign-guide"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Setting and Scope"
 entry = "ref/rule/setting-and-scope-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Story"
 entry = "ref/rule/story-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "System"
 entry = "ref/rule/system"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Voice"
 entry = "ref/rule/voice"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Publication"
 entry = "ref/rule/publication"
 
@@ -103718,250 +103721,253 @@ title = "Running a Game"
 entry = "ref/rule/running-a-game"
 
 [[books.chapters.children]]
+title = "How to Run a Game"
+
+[[books.chapters.children.children]]
 title = "GMing Style Choices"
 entry = "ref/rule/gming-style-choices"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Pre-Game Preparation"
 entry = "ref/rule/pregame-preparation"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Running the Game"
 entry = "ref/rule/running-the-game"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Post Game"
 entry = "ref/rule/post-game"
-
-[[books.chapters.children]]
-title = "Follow the PCs' Lead"
-entry = "ref/rule/follow-the-pcs-lead"
-
-[[books.chapters.children]]
-title = "Forcing Things"
-entry = "ref/rule/forcing-things"
-
-[[books.chapters.children]]
-title = "Making it Happen"
-entry = "ref/rule/making-it-happen"
 
 [[books.chapters.children]]
 title = "The Art of GMing"
 entry = "ref/rule/the-art-of-gming"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Follow the PCs' Lead"
+entry = "ref/rule/follow-the-pcs-lead"
+
+[[books.chapters.children.children]]
+title = "Forcing Things"
+entry = "ref/rule/forcing-things"
+
+[[books.chapters.children.children]]
+title = "Making it Happen"
+entry = "ref/rule/making-it-happen"
+
+[[books.chapters.children.children]]
 title = "The Illusion of Free Choice"
 entry = "ref/rule/the-illusion-of-free-choice"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "GM as Actor"
 entry = "ref/rule/gm-as-actor"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Volume and Style"
 entry = "ref/rule/volume-and-style"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Giving Direction"
 entry = "ref/rule/giving-direction"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Handouts and Props"
 entry = "ref/rule/handouts-and-props"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Presentation"
 entry = "ref/rule/presentation"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Attention and Distractions"
 entry = "ref/rule/attention-and-distractions"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Description"
 entry = "ref/rule/description"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Lighting"
 entry = "ref/rule/lighting"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Music"
 entry = "ref/rule/music"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Narrative Techniques"
 entry = "ref/rule/narrative-techniques"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Backstory"
 entry = "ref/rule/backstory"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Cliffhangers"
 entry = "ref/rule/cliffhangers"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Cut Scenes"
 entry = "ref/rule/cut-scenes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Flashbacks"
 entry = "ref/rule/flashbacks"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Spotlight"
 entry = "ref/rule/spotlight"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Cheatings"
 entry = "ref/rule/cheatings"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Foreshadowing"
 entry = "ref/rule/foreshadowing"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Secrets"
 entry = "ref/rule/secrets"
-
-[[books.chapters.children]]
-title = "Art"
-entry = "ref/rule/art"
-
-[[books.chapters.children]]
-title = "Combat Grid"
-entry = "ref/rule/grid"
-
-[[books.chapters.children]]
-title = "Dice Mechanics and More"
-entry = "ref/rule/dice-mechanics-and-more"
 
 [[books.chapters.children]]
 title = "The Science of GMing"
 entry = "ref/rule/the-science-of-gming"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Art"
+entry = "ref/rule/art"
+
+[[books.chapters.children.children]]
+title = "Combat Grid"
+entry = "ref/rule/grid"
+
+[[books.chapters.children.children]]
+title = "Dice Mechanics and More"
+entry = "ref/rule/dice-mechanics-and-more"
+
+[[books.chapters.children.children]]
 title = "Face Cards"
 entry = "ref/rule/face-cards"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Initiative Tracker"
 entry = "ref/rule/initiative-tracker"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Item Cards"
 entry = "ref/rule/item-cards"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Miniatures"
 entry = "ref/rule/miniatures"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Creating Adventures"
 entry = "ref/rule/creating-adventures"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Without Accessories"
 entry = "ref/rule/without-accessories"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Running Smooth Combats"
 entry = "ref/rule/running-smooth-combats"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Building Encounters"
 entry = "ref/rule/building-encounters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Play to the PCs' Strengths"
 entry = "ref/rule/play-to-the-pcs-strengths"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "High- and Low-CR Encounters"
 entry = "ref/rule/high-and-low-cr-encounters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Solo Monsters vs. Groups of Monsters"
 entry = "ref/rule/solo-monsters-vs-groups-of-monsters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Don't Stymie the PCs"
 entry = "ref/rule/dont-stymie-the-pcs"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Winning Monster Combos"
 entry = "ref/rule/winning-monster-combos"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "All Spellcasters"
 entry = "ref/rule/all-spellcasters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Large Party"
 entry = "ref/rule/large-party"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "No Healers"
 entry = "ref/rule/no-healers"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "No Spellcasters"
 entry = "ref/rule/no-spellcasters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Small Party"
 entry = "ref/rule/small-party"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Unusual Campaigns"
 entry = "ref/rule/unusual-campaigns"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Convention Play"
 entry = "ref/rule/convention-play"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Solo Campaigns"
 entry = "ref/rule/solo-campaigns"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Variant Play Experiences"
 entry = "ref/rule/variant-play-experiences"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Fixing a 'Broken' Game"
 entry = "ref/rule/fixing-a-broken-game"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Online Games"
 entry = "ref/rule/online-games"
-
-[[books.chapters.children]]
-title = "Game Changers"
-entry = "ref/rule/game-changers"
 
 [[books.chapters.children]]
 title = "GM Considerations"
 entry = "ref/rule/gm-considerations"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Game Changers"
+entry = "ref/rule/game-changers"
+
+[[books.chapters.children.children]]
 title = "Emergency Game Prep"
 entry = "ref/rule/emergency-game-prep"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "TPKs"
 entry = "ref/rule/tpks"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Overpowered PCs"
 entry = "ref/rule/overpowered-pcs"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Converting Content from 3.5 or Other Systems"
 entry = "ref/rule/converting-content-from-35-or-other-systems"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Personalizing Published Adventures"
 entry = "ref/rule/personalizing-published-adventures"
 
@@ -103969,7 +103975,7 @@ entry = "ref/rule/personalizing-published-adventures"
 title = "Tools for Game Masters"
 entry = "ref/rule/tools-for-game-masters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Words Every Game Master Should Known"
 entry = "ref/rule/words-every-game-master-should-known"
 
@@ -103978,58 +103984,58 @@ title = "Player Characters"
 entry = "ref/rule/player-characters"
 
 [[books.chapters.children]]
-title = "Before the Game"
-entry = "ref/rule/before-the-game"
-
-[[books.chapters.children]]
-title = "Group Composition"
-entry = "ref/rule/group-composition"
-
-[[books.chapters.children]]
 title = "Starting Characters"
 entry = "ref/rule/starting-characters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Before the Game"
+entry = "ref/rule/before-the-game"
+
+[[books.chapters.children.children]]
+title = "Group Composition"
+entry = "ref/rule/group-composition"
+
+[[books.chapters.children.children]]
 title = "The Face of the Enemy"
 entry = "ref/rule/the-face-of-the-enemy"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Character Backgrounds"
 entry = "ref/rule/character-backgrounds"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Character Creation"
 entry = "ref/rule/character-creation-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "During the Game"
 entry = "ref/rule/during-the-game-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Fair Gameplay"
 entry = "ref/rule/fair-gameplay"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Player Knowledge"
 entry = "ref/rule/player-knowledge"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Plot Development"
 entry = "ref/rule/plot-development"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "After the Game"
 entry = "ref/rule/after-the-game"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Creativity Between Sessions"
 entry = "ref/rule/creativity-between-sessions"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Feedback"
 entry = "ref/rule/feedback"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Keeping Current"
 entry = "ref/rule/keeping-current"
 
@@ -104038,82 +104044,82 @@ title = "New Players"
 entry = "ref/rule/new-players"
 
 [[books.chapters.children]]
-title = "Gathering A Group"
-entry = "ref/rule/gathering-a-group"
-
-[[books.chapters.children]]
-title = "In Media Res"
-entry = "ref/rule/in-media-res"
-
-[[books.chapters.children]]
-title = "Shared Goal"
-entry = "ref/rule/shared-goal"
-
-[[books.chapters.children]]
-title = "Shared Past"
-entry = "ref/rule/shared-past"
-
-[[books.chapters.children]]
 title = "The Life of a Party"
 entry = "ref/rule/the-life-of-a-party"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Gathering A Group"
+entry = "ref/rule/gathering-a-group"
+
+[[books.chapters.children.children]]
+title = "In Media Res"
+entry = "ref/rule/in-media-res"
+
+[[books.chapters.children.children]]
+title = "Shared Goal"
+entry = "ref/rule/shared-goal"
+
+[[books.chapters.children.children]]
+title = "Shared Past"
+entry = "ref/rule/shared-past"
+
+[[books.chapters.children.children]]
 title = "Flash Forward"
 entry = "ref/rule/flash-forward"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Party Composition"
 entry = "ref/rule/party-composition"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Splitting the Party"
 entry = "ref/rule/splitting-the-party"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Adjusting for Limitations"
 entry = "ref/rule/adjusting-for-limitations"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Handling Treasure"
 entry = "ref/rule/handling-treasure"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Secondary Characters"
 entry = "ref/rule/secondary-characters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Back from the Grave"
 entry = "ref/rule/back-from-the-grave"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Death of a Hero"
 entry = "ref/rule/death-of-a-hero"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "When to Resurrect"
 entry = "ref/rule/when-to-resurrect"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Alignment"
 entry = "ref/rule/alignment-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Defining Deeds"
 entry = "ref/rule/defining-deeds"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Free Will"
 entry = "ref/rule/free-will"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Predestination"
 entry = "ref/rule/predestination"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Changing Alignment"
 entry = "ref/rule/changing-alignment"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Evil Characters"
 entry = "ref/rule/evil-characters"
 
@@ -104121,59 +104127,59 @@ entry = "ref/rule/evil-characters"
 title = "Player Interactions"
 entry = "ref/rule/player-interactions"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Antagonist"
 entry = "ref/rule/antagonist"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Continuity Expert"
 entry = "ref/rule/continuity-expert"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Diva"
 entry = "ref/rule/diva"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Entrepreneur"
 entry = "ref/rule/entrepreneur"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Flake"
 entry = "ref/rule/flake"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Glass Jaw"
 entry = "ref/rule/glass-jaw"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Loner"
 entry = "ref/rule/loner"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Lump"
 entry = "ref/rule/lump"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Multitask Master"
 entry = "ref/rule/multitask-master"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "One-Trick Pony"
 entry = "ref/rule/one-trick-pony"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Power Gamer"
 entry = "ref/rule/power-gamer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Rules Lawyer"
 entry = "ref/rule/rules-lawyer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tagalong"
 entry = "ref/rule/tagalong"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Thespian"
 entry = "ref/rule/thespian"
 
@@ -104185,35 +104191,35 @@ entry = "ref/rule/non-player-characters"
 title = "Cast of Characters"
 entry = "ref/rule/cast-of-characters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Designing NPCs"
 entry = "ref/rule/designing-npcs"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "NPC Roles"
 entry = "ref/rule/npc-roles"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Villain"
 entry = "ref/rule/the-villain"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Donor"
 entry = "ref/rule/the-donor"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "NPC Basics"
 entry = "ref/rule/npc-basics"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Helper"
 entry = "ref/rule/the-helper"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Patron"
 entry = "ref/rule/the-patron"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Victim"
 entry = "ref/rule/the-victim"
 
@@ -104221,43 +104227,43 @@ entry = "ref/rule/the-victim"
 title = "Making NPCs Unique"
 entry = "ref/rule/making-npcs-unique"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Naming NPCs"
 entry = "ref/rule/naming-npcs"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Avoiding NPC Overwork"
 entry = "ref/rule/avoiding-npc-overwork"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Monstrous NPCs"
 entry = "ref/rule/monstrous-npcs"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Stereotypes"
 entry = "ref/rule/stereotypes"
-
-[[books.chapters.children]]
-title = "Building Connections"
-entry = "ref/rule/building-connections"
-
-[[books.chapters.children]]
-title = "Dead Ends"
-entry = "ref/rule/dead-ends"
 
 [[books.chapters.children]]
 title = "Life of an NPC"
 entry = "ref/rule/life-of-an-npc"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Building Connections"
+entry = "ref/rule/building-connections"
+
+[[books.chapters.children.children]]
+title = "Dead Ends"
+entry = "ref/rule/dead-ends"
+
+[[books.chapters.children.children]]
 title = "Beyond Expectations"
 entry = "ref/rule/beyond-expectations"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "NPC Traps"
 entry = "ref/rule/npc-traps"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Who's in Control?"
 entry = "ref/rule/whos-in-control"
 
@@ -104265,99 +104271,99 @@ entry = "ref/rule/whos-in-control"
 title = "NPC Boons"
 entry = "ref/rule/npc-boons"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Adept"
 entry = "ref/rule/adept"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Aristocrat"
 entry = "ref/rule/aristocrat"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Commoner"
 entry = "ref/rule/commoner"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Expert"
 entry = "ref/rule/expert"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Warrior"
 entry = "ref/rule/warrior"
-
-[[books.chapters.children]]
-title = "Crime Lord"
-entry = "ref/rule/crime-lord"
-
-[[books.chapters.children]]
-title = "Evil Overlord"
-entry = "ref/rule/evil-overlord"
-
-[[books.chapters.children]]
-title = "Villainous Archetypes"
-entry = "ref/rule/villainous-archetypes"
 
 [[books.chapters.children]]
 title = "Villains"
 entry = "ref/rule/villains"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Crime Lord"
+entry = "ref/rule/crime-lord"
+
+[[books.chapters.children.children]]
+title = "Evil Overlord"
+entry = "ref/rule/evil-overlord"
+
+[[books.chapters.children.children]]
+title = "Villainous Archetypes"
+entry = "ref/rule/villainous-archetypes"
+
+[[books.chapters.children.children]]
 title = "Evil Priest"
 entry = "ref/rule/evil-priest"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Mad Wizard"
 entry = "ref/rule/mad-wizard"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Advanced Villainy"
 entry = "ref/rule/advanced-villainy"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Scheming Noble"
 entry = "ref/rule/scheming-noble"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "A Bolt-Hole"
 entry = "ref/rule/a-bolt-hole"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Hands-On Management"
 entry = "ref/rule/hands-on-management"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Playing Villains"
 entry = "ref/rule/playing-villains"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Secret Villains"
 entry = "ref/rule/secret-villains"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Disembodied Voice"
 entry = "ref/rule/the-disembodied-voice"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Villain's Escape Kit"
 entry = "ref/rule/the-villains-escape-kit"
-
-[[books.chapters.children]]
-title = "Backgrounds and Goals"
-entry = "ref/rule/npc-toolbox-1"
 
 [[books.chapters.children]]
 title = "NPC Creator's Toolbox"
 entry = "ref/rule/npc-creators-toolbox"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Backgrounds and Goals"
+entry = "ref/rule/npc-toolbox-1"
+
+[[books.chapters.children.children]]
 title = "Physical and Personality Characteristics"
 entry = "ref/rule/npc-toolbox-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Occupations and Secrets"
 entry = "ref/rule/npc-toolbox-3"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Rewards and Random Name Generator"
 entry = "ref/rule/npc-toolbox-4"
 
@@ -104366,214 +104372,214 @@ title = "Rewards"
 entry = "ref/rule/rewards"
 
 [[books.chapters.children]]
-title = "Backgrounded Experience"
-entry = "ref/rule/backgrounded-experience"
-
-[[books.chapters.children]]
-title = "Experience"
-entry = "ref/rule/experience"
-
-[[books.chapters.children]]
 title = "The Role of Rewards"
 entry = "ref/rule/the-role-of-rewards"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Backgrounded Experience"
+entry = "ref/rule/backgrounded-experience"
+
+[[books.chapters.children.children]]
+title = "Experience"
+entry = "ref/rule/experience"
+
+[[books.chapters.children.children]]
 title = "Ad Hoc Experience"
 entry = "ref/rule/ad-hoc-experience"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Downtime Experience"
 entry = "ref/rule/downtime-experience"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Handwaved Experience (Milestones)"
 entry = "ref/rule/handwaved-experience"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Immediate Experience"
 entry = "ref/rule/immediate-experience"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "High or Low Magic?"
 entry = "ref/rule/high-or-low-magic"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Magic Items"
 entry = "ref/rule/magic-items-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Treasure"
 entry = "ref/rule/treasure"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Magic Shops"
 entry = "ref/rule/magic-shops"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Reducing Magic with Rules Adjustments"
 entry = "ref/rule/reducing-magic-with-rules-adjustments"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Reducing Magic with World Description"
 entry = "ref/rule/reducing-magic-with-world-description"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Types of Magic Shops"
 entry = "ref/rule/types-of-magic-shops"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Story Items"
 entry = "ref/rule/story-items"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Trouble Items"
 entry = "ref/rule/trouble-items"
-
-[[books.chapters.children]]
-title = "Heirloom Items"
-entry = "ref/rule/heirloom-items"
-
-[[books.chapters.children]]
-title = "Plot Items"
-entry = "ref/rule/plot-items"
-
-[[books.chapters.children]]
-title = "Setting Items"
-entry = "ref/rule/setting-items"
 
 [[books.chapters.children]]
 title = "Starting Treasure"
 entry = "ref/rule/starting-treasure"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Heirloom Items"
+entry = "ref/rule/heirloom-items"
+
+[[books.chapters.children.children]]
+title = "Plot Items"
+entry = "ref/rule/plot-items"
+
+[[books.chapters.children.children]]
+title = "Setting Items"
+entry = "ref/rule/setting-items"
+
+[[books.chapters.children.children]]
 title = "Starting with Magic Items"
 entry = "ref/rule/starting-with-magic-items"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Mighty Items"
 entry = "ref/rule/mighty-items"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Wealthy Characters"
 entry = "ref/rule/wealthy-characters"
-
-[[books.chapters.children]]
-title = "Making Basic Treasure Interesting"
-entry = "ref/rule/making-basic-treasure-interesting"
 
 [[books.chapters.children]]
 title = "What is a Reward?"
 entry = "ref/rule/what-is-a-reward"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Making Basic Treasure Interesting"
+entry = "ref/rule/making-basic-treasure-interesting"
+
+[[books.chapters.children.children]]
 title = "Burdensome Treasure"
 entry = "ref/rule/burdensome-treasure"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Non-Adventuring Magic Items"
 entry = "ref/rule/non-adventuring-magic-items"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Services, Franchises and Property"
 entry = "ref/rule/services-franchises-and-property"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Special Treasures"
 entry = "ref/rule/special-treasures"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Coins"
 entry = "ref/rule/coins-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Intangible Benefits"
 entry = "ref/rule/intangible-benefits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Story Benefits"
 entry = "ref/rule/story-benefits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Exit Rewards"
 entry = "ref/rule/exit-rewards"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Treasures as Adventures"
 entry = "ref/rule/treasures-as-adventures"
-
-[[books.chapters.children]]
-title = "Creating a Spell"
-entry = "ref/rule/creating-a-spell"
-
-[[books.chapters.children]]
-title = "Good Spells and Bad Spells"
-entry = "ref/rule/good-spells-and-bad-spells"
 
 [[books.chapters.children]]
 title = "PCs Controlling Rewards"
 entry = "ref/rule/pcs-controlling-rewards"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Creating a Spell"
+entry = "ref/rule/creating-a-spell"
+
+[[books.chapters.children.children]]
+title = "Good Spells and Bad Spells"
+entry = "ref/rule/good-spells-and-bad-spells"
+
+[[books.chapters.children.children]]
 title = "Research and Designing Spells"
 entry = "ref/rule/research-and-designing-spells"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Components for New Spells"
 entry = "ref/rule/components-for-new-spells"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Enhanced Components"
 entry = "ref/rule/enhanced-components"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Spell Components"
 entry = "ref/rule/spell-components"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Making Magic Items"
 entry = "ref/rule/making-magic-items"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Wishes"
 entry = "ref/rule/wishes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Ad-Hoc Pricing"
 entry = "ref/rule/ad-hoc-pricing"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Keeping the Balance"
 entry = "ref/rule/keeping-the-balance"
-
-[[books.chapters.children]]
-title = "Random Armor and Shields"
-entry = "ref/rule/random-armor-and-shields"
 
 [[books.chapters.children]]
 title = "Random Item Generators"
 entry = "ref/rule/random-item-generators"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Random Armor and Shields"
+entry = "ref/rule/random-armor-and-shields"
+
+[[books.chapters.children.children]]
 title = "Random Weapons"
 entry = "ref/rule/random-weapons"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Random Potions and Oils"
 entry = "ref/rule/random-potions-and-oils"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Random Arcane Spells"
 entry = "ref/rule/random-arcane-spells"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Random Scrolls"
 entry = "ref/rule/random-scrolls"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Random Divine Spells"
 entry = "ref/rule/random-divine-spells"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Random Wands"
 entry = "ref/rule/random-wands"
 
@@ -104582,174 +104588,174 @@ title = "Creating a World"
 entry = "ref/rule/creating-a-world"
 
 [[books.chapters.children]]
+title = "World Building"
+entry = "ref/rule/world-building"
+
+[[books.chapters.children.children]]
 title = "Building a City"
 entry = "ref/rule/building-a-city"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Defining a Setting"
 entry = "ref/rule/defining-a-setting"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tools of the Trade"
 entry = "ref/rule/tools-of-the-trade"
-
-[[books.chapters.children]]
-title = "World Building"
-entry = "ref/rule/world-building"
 
 [[books.chapters.children]]
 title = "Detailing Your World"
 entry = "ref/rule/detailing-your-world"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Heroic Details"
 entry = "ref/rule/the-heroic-details"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Mundane Details"
 entry = "ref/rule/the-mundane-details"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Scholarly Details"
 entry = "ref/rule/the-scholarly-details"
-
-[[books.chapters.children]]
-title = "Creating a World Map"
-entry = "ref/rule/creating-a-world-map"
 
 [[books.chapters.children]]
 title = "Geography"
 entry = "ref/rule/geography"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Creating a World Map"
+entry = "ref/rule/creating-a-world-map"
+
+[[books.chapters.children.children]]
 title = "Starting Size"
 entry = "ref/rule/starting-size"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Terrain Hierarchy"
 entry = "ref/rule/terrain-hierarchy"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Breaking the Rules"
 entry = "ref/rule/breaking-the-rules"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Coastlines"
 entry = "ref/rule/coastlines"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elevations"
 entry = "ref/rule/elevations"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Rivers"
 entry = "ref/rule/rivers"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tags"
 entry = "ref/rule/tags"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Vegetation"
 entry = "ref/rule/vegetation"
-
-[[books.chapters.children]]
-title = "Core Elements of the People"
-entry = "ref/rule/core-elements-of-the-people"
 
 [[books.chapters.children]]
 title = "Cultural Considerations"
 entry = "ref/rule/cultural-considerations"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Core Elements of the People"
+entry = "ref/rule/core-elements-of-the-people"
+
+[[books.chapters.children.children]]
 title = "Government and Law"
 entry = "ref/rule/government-and-law"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Economics"
 entry = "ref/rule/economics"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Societies"
 entry = "ref/rule/societies"
-
-[[books.chapters.children]]
-title = "Defining Primitive Culture"
-entry = "ref/rule/defining-primitive-culture"
-
-[[books.chapters.children]]
-title = "Leadership and Control"
-entry = "ref/rule/leadership-and-control"
 
 [[books.chapters.children]]
 title = "The Primitive Society"
 entry = "ref/rule/the-primitive-society"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Defining Primitive Culture"
+entry = "ref/rule/defining-primitive-culture"
+
+[[books.chapters.children.children]]
+title = "Leadership and Control"
+entry = "ref/rule/leadership-and-control"
+
+[[books.chapters.children.children]]
 title = "Questions about Your Primitive Society"
 entry = "ref/rule/questions-about-your-primitive-society"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Religion, Taboos, Rituals, and Superstitions"
 entry = "ref/rule/religion-taboos-rituals-and-superstitions"
-
-[[books.chapters.children]]
-title = "Ruling a Feudal Society"
-entry = "ref/rule/ruling-a-feudal-society"
 
 [[books.chapters.children]]
 title = "The Feudal Society"
 entry = "ref/rule/the-feudal-society"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Ruling a Feudal Society"
+entry = "ref/rule/ruling-a-feudal-society"
+
+[[books.chapters.children.children]]
 title = "Questions about Your Feudal Society"
 entry = "ref/rule/questions-about-your-feudal-society"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Religion's Role"
 entry = "ref/rule/religions-role"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Feudal Hierarchy"
 entry = "ref/rule/the-feudal-hierarchy"
-
-[[books.chapters.children]]
-title = "Life in an Agrarian Society"
-entry = "ref/rule/life-in-an-agrarian-society"
 
 [[books.chapters.children]]
 title = "The Rural/Agrarian Society"
 entry = "ref/rule/the-rural-agrarian-society"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Life in an Agrarian Society"
+entry = "ref/rule/life-in-an-agrarian-society"
+
+[[books.chapters.children.children]]
 title = "Challenges"
 entry = "ref/rule/challenges"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Questions about Your Rural/Agrarian Society"
 entry = "ref/rule/questions-about-your-rural-agrarian-society"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Social Structure and Economy"
 entry = "ref/rule/social-structure-and-economy"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Religion of Farmers"
 entry = "ref/rule/the-religion-of-farmers"
-
-[[books.chapters.children]]
-title = "City Requirements"
-entry = "ref/rule/city-requirements"
 
 [[books.chapters.children]]
 title = "The Cosmopolitan Society"
 entry = "ref/rule/the-cosmopolitan-society"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "City Requirements"
+entry = "ref/rule/city-requirements"
+
+[[books.chapters.children.children]]
 title = "Urban Planning"
 entry = "ref/rule/urban-planning"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Questions about Your City"
 entry = "ref/rule/questions-about-your-city"
 
@@ -104758,114 +104764,114 @@ title = "Other Societies"
 entry = "ref/rule/other-societies"
 
 [[books.chapters.children]]
-title = "Contentious Technology"
-entry = "ref/rule/contentious-technology"
-
-[[books.chapters.children]]
 title = "Technology"
 entry = "ref/rule/technology"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Contentious Technology"
+entry = "ref/rule/contentious-technology"
+
+[[books.chapters.children.children]]
 title = "Anachronisms"
 entry = "ref/rule/anachronisms"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Magic and Technology"
 entry = "ref/rule/magic-and-technology"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Multiple Levels of Technology"
 entry = "ref/rule/multiple-levels-of-technology"
-
-[[books.chapters.children]]
-title = "Celebrating Time"
-entry = "ref/rule/celebrating-time"
-
-[[books.chapters.children]]
-title = "Crafting Time"
-entry = "ref/rule/crafting-time"
-
-[[books.chapters.children]]
-title = "The Role of Time"
-entry = "ref/rule/the-role-of-time"
 
 [[books.chapters.children]]
 title = "Time"
 entry = "ref/rule/time"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Celebrating Time"
+entry = "ref/rule/celebrating-time"
+
+[[books.chapters.children.children]]
+title = "Crafting Time"
+entry = "ref/rule/crafting-time"
+
+[[books.chapters.children.children]]
+title = "The Role of Time"
+entry = "ref/rule/the-role-of-time"
+
+[[books.chapters.children.children]]
 title = "Time in Your Game"
 entry = "ref/rule/time-in-your-game"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Ancient Worlds"
 entry = "ref/rule/ancient-worlds"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Age of the World"
 entry = "ref/rule/the-age-of-the-world"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Traps and Opportunities"
 entry = "ref/rule/traps-and-opportunities"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Youthful Worlds"
 entry = "ref/rule/youthful-worlds"
-
-[[books.chapters.children]]
-title = "Creating Your Planet"
-entry = "ref/rule/creating-your-planet"
-
-[[books.chapters.children]]
-title = "Other Worlds"
-entry = "ref/rule/other-worlds"
 
 [[books.chapters.children]]
 title = "The Cosmos"
 entry = "ref/rule/the-cosmos"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Creating Your Planet"
+entry = "ref/rule/creating-your-planet"
+
+[[books.chapters.children.children]]
+title = "Other Worlds"
+entry = "ref/rule/other-worlds"
+
+[[books.chapters.children.children]]
 title = "Extraterrestrials"
 entry = "ref/rule/extraterrestrials"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Space Travel"
 entry = "ref/rule/space-travel"
-
-[[books.chapters.children]]
-title = "Planar Models"
-entry = "ref/rule/planar-models"
 
 [[books.chapters.children]]
 title = "The Planes"
 entry = "ref/rule/the-planes-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Planar Models"
+entry = "ref/rule/planar-models"
+
+[[books.chapters.children.children]]
 title = "The Purpose of Planes"
 entry = "ref/rule/the-purpose-of-planes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Location and Travel"
 entry = "ref/rule/location-and-travel"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Other Considerations"
 entry = "ref/rule/other-considerations"
-
-[[books.chapters.children]]
-title = "Creating a Parallel World"
-entry = "ref/rule/creating-a-parallel-world"
 
 [[books.chapters.children]]
 title = "Parallel Worlds"
 entry = "ref/rule/parallel-worlds"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Creating a Parallel World"
+entry = "ref/rule/creating-a-parallel-world"
+
+[[books.chapters.children.children]]
 title = "Sample Parallel Worlds"
 entry = "ref/rule/sample-parallel-worlds"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Going Home"
 entry = "ref/rule/going-home"
 
@@ -104874,486 +104880,486 @@ title = "Adventures"
 entry = "ref/rule/adventures"
 
 [[books.chapters.children]]
-title = "Choosing Your Adventure"
-entry = "ref/rule/choosing-your-adventure"
-
-[[books.chapters.children]]
 title = "Elements of Adventure"
 entry = "ref/rule/elements-of-adventure"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Choosing Your Adventure"
+entry = "ref/rule/choosing-your-adventure"
+
+[[books.chapters.children.children]]
 title = "What Makes a Great Adventure"
 entry = "ref/rule/what-makes-a-great-adventure"
-
-[[books.chapters.children]]
-title = "Drawing a Dungeon Map"
-entry = "ref/rule/drawing-a-dungeon-map"
 
 [[books.chapters.children]]
 title = "Dungeons"
 entry = "ref/rule/dungeons-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Drawing a Dungeon Map"
+entry = "ref/rule/drawing-a-dungeon-map"
+
+[[books.chapters.children.children]]
 title = "Sketching the Map"
 entry = "ref/rule/sketching-the-map"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Dungeon Concept"
 entry = "ref/rule/the-dungeon-concept"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Inking the Map"
 entry = "ref/rule/inking-the-map"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Adding Details to the Map"
 entry = "ref/rule/adding-details-to-the-map"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Dungeon Ecology"
 entry = "ref/rule/dungeon-ecology"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounter Archetypes"
 entry = "ref/rule/encounter-archetypes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tagging the Map"
 entry = "ref/rule/tagging-the-map"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Resting in the Dungeon"
 entry = "ref/rule/resting-in-the-dungeon"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Dungeon Locations, Types and Entrances"
 entry = "ref/rule/dt-1"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Dungeon Toolbox"
 entry = "ref/rule/dungeon-toolbox"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Dungeon Rooms"
 entry = "ref/rule/dt-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "100 Pieces of Minor and Major Dungeon Dressing"
 entry = "ref/rule/dt-3"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Dragon's Lair, Goblin Den, Graveyard/Necropolis"
 entry = "ref/rule/dt-4"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Lost Jungle City, Planar Stronghold, Underwater Ruin"
 entry = "ref/rule/dt-5"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Unholy Temple, Wizard's Laboratory"
 entry = "ref/rule/dt-6"
-
-[[books.chapters.children]]
-title = "Gravity Traits"
-entry = "ref/rule/gravity-traits"
-
-[[books.chapters.children]]
-title = "Physical Traits"
-entry = "ref/rule/physical-traits"
 
 [[books.chapters.children]]
 title = "Planar"
 entry = "ref/rule/planar"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Gravity Traits"
+entry = "ref/rule/gravity-traits"
+
+[[books.chapters.children.children]]
+title = "Physical Traits"
+entry = "ref/rule/physical-traits"
+
+[[books.chapters.children.children]]
 title = "Planar Traits"
 entry = "ref/rule/planar-traits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "What is a Plane?"
 entry = "ref/rule/what-is-a-plane"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Shape and Size Traits"
 entry = "ref/rule/shape-and-size-traits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Time Traits"
 entry = "ref/rule/time-traits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elemental and Energy Traits"
 entry = "ref/rule/elemental-and-energy-traits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Morphic Traits"
 entry = "ref/rule/morphic-traits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Alignment Traits"
 entry = "ref/rule/alignment-traits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Magic Traits"
 entry = "ref/rule/magic-traits"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Material Plane"
 entry = "ref/rule/material-plane"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Negative Energy Plane"
 entry = "ref/rule/negative-energy-plane"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Positive Energy Plane"
 entry = "ref/rule/positive-energy-plane"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Shadow Plane"
 entry = "ref/rule/shadow-plane"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Great Beyond"
 entry = "ref/rule/the-great-beyond"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Plane of Air"
 entry = "ref/rule/plane-of-air"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Plane of Earth"
 entry = "ref/rule/plane-of-earth"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Plane of Fire"
 entry = "ref/rule/plane-of-fire"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Plane of Water"
 entry = "ref/rule/plane-of-water"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Abaddon (Neutral Evil)"
 entry = "ref/rule/abaddon"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Astral Plane"
 entry = "ref/rule/astral-plane"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elysium (Chaotic Good)"
 entry = "ref/rule/elysium"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Ethereal Plane"
 entry = "ref/rule/ethereal-plane"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Abyss (Chaotic Evil)"
 entry = "ref/rule/the-abyss"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Heaven (Lawful Good)"
 entry = "ref/rule/heaven"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Hell (Lawful Evil)"
 entry = "ref/rule/hell"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Limbo (Chaotic Neutral)"
 entry = "ref/rule/limbo"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Nirvana (Neutral Good)"
 entry = "ref/rule/nirvana"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Purgatory (Neutral)"
 entry = "ref/rule/purgatory"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Utopia (Lawful Neutral)"
 entry = "ref/rule/utopia"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Planar Toolbox"
 entry = "ref/rule/planar-toolbox"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Random Planes, Demiplanes, and Portal Descriptions"
 entry = "ref/rule/pt-1"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Aligned Planes"
 entry = "ref/rule/pt-3"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Astral, Etheral, and Shadow Planes"
 entry = "ref/rule/pt-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Elemental Planes"
 entry = "ref/rule/pt-4"
-
-[[books.chapters.children]]
-title = "Drinks"
-entry = "ref/rule/drinks"
-
-[[books.chapters.children]]
-title = "Entertainment"
-entry = "ref/rule/entertainment"
-
-[[books.chapters.children]]
-title = "Food"
-entry = "ref/rule/food"
-
-[[books.chapters.children]]
-title = "Services"
-entry = "ref/rule/services"
 
 [[books.chapters.children]]
 title = "Taverns"
 entry = "ref/rule/taverns"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Drinks"
+entry = "ref/rule/drinks"
+
+[[books.chapters.children.children]]
+title = "Entertainment"
+entry = "ref/rule/entertainment"
+
+[[books.chapters.children.children]]
+title = "Food"
+entry = "ref/rule/food"
+
+[[books.chapters.children.children]]
+title = "Services"
+entry = "ref/rule/services"
+
+[[books.chapters.children.children]]
 title = "Bedding and Other Amenities"
 entry = "ref/rule/bedding"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Staff and Patrons"
 entry = "ref/rule/staff-and-patrons"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tavern Toolbox"
 entry = "ref/rule/tavern-toolbox"
-
-[[books.chapters.children]]
-title = "Streets and Traffic"
-entry = "ref/rule/streets-and-traffic"
-
-[[books.chapters.children]]
-title = "The Shape of Civilization"
-entry = "ref/rule/the-shape-of-civilization"
 
 [[books.chapters.children]]
 title = "Urban"
 entry = "ref/rule/urban"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Streets and Traffic"
+entry = "ref/rule/streets-and-traffic"
+
+[[books.chapters.children.children]]
+title = "The Shape of Civilization"
+entry = "ref/rule/the-shape-of-civilization"
+
+[[books.chapters.children.children]]
 title = "Purchasing Magic Items"
 entry = "ref/rule/purchasing-magic-items"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Settlements in Play"
 entry = "ref/rule/settlements-in-play"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Settlement Stat Block"
 entry = "ref/rule/the-settlement-stat-block"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Diplomacy"
 entry = "ref/skill/diplomacy"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Settlement Modifiers"
 entry = "ref/rule/settlement-modifiers"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Settlement Alignment"
 entry = "ref/rule/settlement-alignment"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Settlement Government"
 entry = "ref/rule/settlement-government"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Settlement Disadvantages"
 entry = "ref/rule/settlement-disadvantages"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Settlement Qualities"
 entry = "ref/rule/settlement-qualities"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Capital City"
 entry = "ref/rule/settlements-1"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "City of Thieves"
 entry = "ref/rule/settlements-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "City-State of Intrigue"
 entry = "ref/rule/settlements-3"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Creepy Backwoods Hamlet"
 entry = "ref/rule/settlements-4"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Dwarven Trade Town"
 entry = "ref/rule/settlements-5"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elven Town"
 entry = "ref/rule/settlements-6"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Failing Fishing Village"
 entry = "ref/rule/settlements-7"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sample Settlements"
 entry = "ref/rule/sample-settlements"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sleepy Crosswoods Thorp"
 entry = "ref/rule/settlements-8"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Unique City Decorations and Shops"
 entry = "ref/rule/ut-1"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Urban Toolbox"
 entry = "ref/rule/urban-toolbox"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "100 City Locations"
 entry = "ref/rule/ut-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Arena, Castle/Estate, Menagerie/Museum"
 entry = "ref/rule/ut-3"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Rooftop and Sewer"
 entry = "ref/rule/ut-4"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Slum, Tavern, and Thieves' Guild"
 entry = "ref/rule/ut-5"
-
-[[books.chapters.children]]
-title = "Aquatic Adventures"
-entry = "ref/rule/aquatic-adventures"
-
-[[books.chapters.children]]
-title = "Fast-Play Ship Combat"
-entry = "ref/rule/fast-play-ship-combat"
-
-[[books.chapters.children]]
-title = "Nautical Adventures"
-entry = "ref/rule/nautical-adventures"
 
 [[books.chapters.children]]
 title = "Water"
 entry = "ref/rule/water"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Aquatic Adventures"
+entry = "ref/rule/aquatic-adventures"
+
+[[books.chapters.children.children]]
+title = "Fast-Play Ship Combat"
+entry = "ref/rule/fast-play-ship-combat"
+
+[[books.chapters.children.children]]
+title = "Nautical Adventures"
+entry = "ref/rule/nautical-adventures"
+
+[[books.chapters.children.children]]
 title = "Ship Statistics"
 entry = "ref/rule/ship-statistics"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Islands and Flotsam"
 entry = "ref/rule/aqt-1"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Water Toolbox"
 entry = "ref/rule/water-toolbox"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Ghost Ships and Shipwrecks"
 entry = "ref/rule/aqt-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sailors and Boatmen"
 entry = "ref/rule/aqt-3"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Boats and Captains"
 entry = "ref/rule/aqt-4"
-
-[[books.chapters.children]]
-title = "Climate"
-entry = "ref/rule/climate"
-
-[[books.chapters.children]]
-title = "Climate and Weather"
-entry = "ref/rule/climate-and-weather"
-
-[[books.chapters.children]]
-title = "Weather"
-entry = "ref/rule/weather-gg"
 
 [[books.chapters.children]]
 title = "Wilderness"
 entry = "ref/rule/wilderness-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Climate"
+entry = "ref/rule/climate"
+
+[[books.chapters.children.children]]
+title = "Climate and Weather"
+entry = "ref/rule/climate-and-weather"
+
+[[books.chapters.children.children]]
+title = "Weather"
+entry = "ref/rule/weather-gg"
+
+[[books.chapters.children.children]]
 title = "Environment"
 entry = "ref/rule/environment-gg"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Deserts"
 entry = "ref/rule/deserts"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Forests/Jungles"
 entry = "ref/rule/forests-jungles"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Hills"
 entry = "ref/rule/hills"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Marshes, Swamps, and Bogs"
 entry = "ref/rule/marshes-swamps-and-bogs"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Mountains"
 entry = "ref/rule/mountains"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters on a Journey"
 entry = "ref/rule/encounters-on-a-journey"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Plains"
 entry = "ref/rule/plains"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Underground"
 entry = "ref/rule/underground"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Things Found on the Roadside, Types of Weather"
 entry = "ref/rule/wt-1"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Wilderness Toolbox"
 entry = "ref/rule/wilderness-toolbox"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Scenic Spots, Terrain Types"
 entry = "ref/rule/wt-2"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Beach/Coast, Eldritch Forest"
 entry = "ref/rule/wt-3"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Oasis, Polar"
 entry = "ref/rule/wt-4"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Sky, Temperate Plains"
 entry = "ref/rule/wt-5"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Encounters: Volcano, Wasteland"
 entry = "ref/rule/wt-6"
 
@@ -105365,27 +105371,27 @@ entry = "ref/rule/advanced-topics"
 title = "Customizing Your Game"
 entry = "ref/rule/customizing-your-game"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "When to Design?"
 entry = "ref/rule/when-to-design"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "When to Disguise?"
 entry = "ref/rule/when-to-disguise"
-
-[[books.chapters.children]]
-title = "Building a Chase"
-entry = "ref/rule/building-a-chase"
-
-[[books.chapters.children]]
-title = "Chase Obstacles"
-entry = "ref/rule/chase-obstacles"
 
 [[books.chapters.children]]
 title = "Chases"
 entry = "ref/rule/chases"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Building a Chase"
+entry = "ref/rule/building-a-chase"
+
+[[books.chapters.children.children]]
+title = "Chase Obstacles"
+entry = "ref/rule/chase-obstacles"
+
+[[books.chapters.children.children]]
 title = "Running a Chase"
 entry = "ref/rule/running-a-chase"
 
@@ -105393,155 +105399,158 @@ entry = "ref/rule/running-a-chase"
 title = "Disasters"
 entry = "ref/rule/disasters"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tsunamis"
 entry = "ref/rule/tsunamis"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Volcanoes"
 entry = "ref/rule/volcanoes"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Undead Uprising"
 entry = "ref/rule/undead-uprising"
-
-[[books.chapters.children]]
-title = "Addiction"
-entry = "ref/rule/addiction"
-
-[[books.chapters.children]]
-title = "Curing Addiction"
-entry = "ref/rule/curing-addiction"
-
-[[books.chapters.children]]
-title = "Drugs"
-entry = "ref/rule/drugs"
 
 [[books.chapters.children]]
 title = "Drugs and Addiction"
 entry = "ref/rule/drugs-and-addiction"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Addiction"
+entry = "ref/rule/addiction"
+
+[[books.chapters.children.children]]
+title = "Curing Addiction"
+entry = "ref/rule/curing-addiction"
+
+[[books.chapters.children.children]]
+title = "Drugs"
+entry = "ref/rule/drugs"
+
+[[books.chapters.children.children]]
 title = "Aether"
 entry = "ref/drug/aether"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Drunkenness"
 entry = "ref/rule/drunkenness"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Dwarven Fire Ale"
 entry = "ref/drug/dwarven-fire-ale"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elven Absinthe"
 entry = "ref/drug/elven-absinthe"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Flayleaf"
 entry = "ref/drug/flayleaf"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Opium"
 entry = "ref/drug/opium"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Pesh"
 entry = "ref/drug/pesh"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Scour"
 entry = "ref/drug/scour"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Shiver"
 entry = "ref/drug/shiver"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Zerk"
 entry = "ref/drug/zerk"
-
-[[books.chapters.children]]
-title = "Basic Fortune-Telling Methods"
-entry = "ref/rule/basic-fortune-telling-methods"
 
 [[books.chapters.children]]
 title = "Fortune-Telling"
 entry = "ref/rule/fortune-telling"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Basic Fortune-Telling Methods"
+entry = "ref/rule/basic-fortune-telling-methods"
+
+[[books.chapters.children.children]]
 title = "Fortune-Telling Props"
 entry = "ref/rule/fortune-telling-props"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Fortune-Telling as Theater"
 entry = "ref/rule/fortune-telling-as-theater"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Mundane and Magical Fortune-Telling"
 entry = "ref/rule/mundane-and-magical-fortune-telling"
-
-[[books.chapters.children]]
-title = "Creating the Right Atmosphere"
-entry = "ref/rule/creating-the-right-atmosphere"
 
 [[books.chapters.children]]
 title = "Gambling and Games of Chance"
 entry = "ref/rule/gambling-and-games-of-chance"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Creating the Right Atmosphere"
+entry = "ref/rule/creating-the-right-atmosphere"
+
+[[books.chapters.children.children]]
 title = "Gambling and Skill Checks"
 entry = "ref/rule/gambling-and-skill-checks"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Types of Gambling Games"
 entry = "ref/rule/types-of-gambling-games"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Designing a Gambling Game"
 entry = "ref/rule/designing-a-gambling-game"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Games of Chance"
 entry = "ref/rule/games-of-chance"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sample Game: Twenty Bones"
 entry = "ref/rule/sample-game-twenty-bones"
-
-[[books.chapters.children]]
-title = "Haunt Rules"
-entry = "ref/rule/haunt-rules"
 
 [[books.chapters.children]]
 title = "Haunts"
 entry = "ref/rule/haunts"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
+title = "Haunt Rules"
+entry = "ref/rule/haunt-rules"
+
+[[books.chapters.children.children]]
 title = "Bleeding Walls"
 entry = "ref/haunt/bleeding-walls"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Creating a Haunt"
 entry = "ref/rule/creating-a-haunt"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Elements of a Haunt"
 entry = "ref/rule/elements-of-a-haunt"
 
 [[books.chapters.children]]
+title = "Hazards"
+
+[[books.chapters.children.children]]
 title = "Ear Seekers"
 entry = "ref/infestation/ear-seekers"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Rot Grubs"
 entry = "ref/infestation/rot-grubs"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sample Hazards"
 entry = "ref/rule/sample-hazards"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Infestations"
 entry = "ref/rule/infestations"
 
@@ -105549,15 +105558,15 @@ entry = "ref/rule/infestations"
 title = "Mysteries and Investigations"
 entry = "ref/rule/mysteries-and-investigations"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Running a Mystery"
 entry = "ref/rule/running-a-mystery"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Fantasy Mystery"
 entry = "ref/rule/the-fantasy-mystery"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Magical Investigations"
 entry = "ref/rule/magical-investigations"
 
@@ -105565,29 +105574,25 @@ entry = "ref/rule/magical-investigations"
 title = "Puzzles and Riddles"
 entry = "ref/rule/puzzles-and-riddles"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Mechanism"
 entry = "ref/rule/the-mechanism"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Setup"
 entry = "ref/rule/the-setup"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sample Puzzles"
 entry = "ref/rule/sample-puzzles"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Answer"
 entry = "ref/rule/the-answer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "The Clues"
 entry = "ref/rule/the-clues"
-
-[[books.chapters.children]]
-title = "Amnesia"
-entry = "ref/madness/amnesia"
 
 [[books.chapters.children]]
 title = "Sanity and Madness"
@@ -105601,27 +105606,31 @@ entry = "ref/rule/rule-sanity-and-madness/curing-insanity"
 title = "Types of Insanity"
 entry = "ref/rule/rule-sanity-and-madness/types-of-insanity"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
+title = "Amnesia"
+entry = "ref/madness/amnesia"
+
+[[books.chapters.children.children.children]]
 title = "Dissociated Identity"
 entry = "ref/madness/dissociated-identity"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Mania"
 entry = "ref/madness/mania"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Moral Insanity"
 entry = "ref/madness/moral-insanity"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Paranoid"
 entry = "ref/madness/paranoid"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Phobia"
 entry = "ref/madness/phobia"
 
-[[books.chapters.children]]
+[[books.chapters.children.children.children]]
 title = "Schizophrenia"
 entry = "ref/madness/schizophrenia"
 
@@ -105638,326 +105647,407 @@ title = "A List of NPCs"
 entry = "ref/rule/list-of-npcs"
 
 [[books.chapters.children]]
+title = "Adventurers"
+
+[[books.chapters.children.children]]
 title = "Adventurer (Battle Mage)"
 entry = "ref/npc/adventurer-battle-mage"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Adventurer (Monster Hunter)"
 entry = "ref/npc/adventurer-monster-hunter"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Adventurer (Tomb Raider)"
 entry = "ref/npc/adventurer-tomb-raider"
 
 [[books.chapters.children]]
+title = "Brigands"
+
+[[books.chapters.children.children]]
 title = "Brigand (Bandit)"
 entry = "ref/npc/brigand-bandit"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Brigand (Bandit Lord)"
 entry = "ref/npc/brigand-bandit-lord"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Brigand (Highwayman)"
 entry = "ref/npc/brigand-highwayman"
 
 [[books.chapters.children]]
+title = "City Watch"
+
+[[books.chapters.children.children]]
 title = "City Watch (Guard)"
 entry = "ref/npc/city-watch-guard"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "City Watch (Guard Officer)"
 entry = "ref/npc/city-watch-guard-officer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "City Watch (Watch Captain)"
 entry = "ref/npc/city-watch-watch-captain"
 
 [[books.chapters.children]]
+title = "Coliseum"
+
+[[books.chapters.children.children]]
 title = "Coliseum (Gladiator)"
 entry = "ref/npc/coliseum-gladiator"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Coliseum (Beast Master)"
 entry = "ref/npc/coliseum-beast-master"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Coliseum (Champion)"
 entry = "ref/npc/coliseum-champion"
 
 [[books.chapters.children]]
+title = "Criminals I"
+
+[[books.chapters.children.children]]
 title = "Criminal (Pickpocket)"
 entry = "ref/npc/criminal-pickpocket"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Criminal (Burglar)"
 entry = "ref/npc/criminal-burglar"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Criminal (Street Thug)"
 entry = "ref/npc/criminal-street-thug"
 
 [[books.chapters.children]]
+title = "Criminals II"
+
+[[books.chapters.children.children]]
 title = "Criminal (Slaver)"
 entry = "ref/npc/criminal-slaver"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Criminal (Guild Master)"
 entry = "ref/npc/criminal-guild-master"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Criminal (Slayer)"
 entry = "ref/npc/criminal-slayer"
 
 [[books.chapters.children]]
+title = "Crusaders"
+
+[[books.chapters.children.children]]
 title = "Crusader (Squire)"
 entry = "ref/npc/crusader-squire"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Crusader (Holy Warrior)"
 entry = "ref/npc/crusader-holy-warrior"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Crusader (Saint)"
 entry = "ref/npc/crusader-saint"
 
 [[books.chapters.children]]
+title = "Dungeon"
+
+[[books.chapters.children.children]]
 title = "Dungeon (Prisoner)"
 entry = "ref/npc/dungeon-prisoner"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Dungeon (Torturer)"
 entry = "ref/npc/dungeon-torturer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Dungeon (Turnkey)"
 entry = "ref/npc/dungeon-turnkey"
 
 [[books.chapters.children]]
+title = "Entertainers"
+
+[[books.chapters.children.children]]
 title = "Entertainer (Storyteller)"
 entry = "ref/npc/entertainer-storyteller"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Entertainer (Celebrity Bard)"
 entry = "ref/npc/entertainer-celebrity-bard"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Entertainer (Minstrel)"
 entry = "ref/npc/entertainer-minstrel"
 
 [[books.chapters.children]]
+title = "Fighting School"
+
+[[books.chapters.children.children]]
 title = "Fighting School (Initiate)"
 entry = "ref/npc/fighting-school-initiate"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Fighting School (Battle Monk)"
 entry = "ref/npc/fighting-school-battle-monk"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Fighting School (Master)"
 entry = "ref/npc/fighting-school-master"
 
 [[books.chapters.children]]
+title = "Frontier"
+
+[[books.chapters.children.children]]
 title = "Frontier (Trapper)"
 entry = "ref/npc/frontier-trapper"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Frontier (Guide)"
 entry = "ref/npc/frontier-guide"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Frontier (Hermit)"
 entry = "ref/npc/frontier-hermit"
 
 [[books.chapters.children]]
+title = "Heretics"
+
+[[books.chapters.children.children]]
 title = "Heretic (Cultist)"
 entry = "ref/npc/heretic-cultist"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Heretic (Conjurist)"
 entry = "ref/npc/heretic-conjurist"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Heretic (Cult Leader)"
 entry = "ref/npc/heretic-cult-leader"
 
 [[books.chapters.children]]
+title = "Marauders"
+
+[[books.chapters.children.children]]
 title = "Marauder (Raider)"
 entry = "ref/npc/marauder-raider"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Marauder (Pirate Captain)"
 entry = "ref/npc/marauder-pirate-captain"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Marauder (Viking)"
 entry = "ref/npc/marauder-viking"
 
 [[books.chapters.children]]
+title = "Mercenaries"
+
+[[books.chapters.children.children]]
 title = "Mercenary (Caravan Guard)"
 entry = "ref/npc/mercenary-caravan-guard"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Mercenary (Bounty Hunter)"
 entry = "ref/npc/mercenary-bounty-hunter"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Mercenary (Sellsword)"
 entry = "ref/npc/mercenary-sellsword"
 
 [[books.chapters.children]]
+title = "Merchants"
+
+[[books.chapters.children.children]]
 title = "Merchant (Shopkeep)"
 entry = "ref/npc/merchant-shopkeep"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Merchant (Merchant Prince)"
 entry = "ref/npc/merchant-merchant-prince"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Merchant (Traveling Merchant)"
 entry = "ref/npc/merchant-traveling-merchant"
 
 [[books.chapters.children]]
+title = "Military"
+
+[[books.chapters.children.children]]
 title = "Military (Foot Soldier)"
 entry = "ref/npc/military-foot-soldier"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Military (Cavalry)"
 entry = "ref/npc/military-cavalry"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Military (General)"
 entry = "ref/npc/military-general"
 
 [[books.chapters.children]]
+title = "Nobles"
+
+[[books.chapters.children.children]]
 title = "Noble (Noble Scion)"
 entry = "ref/npc/noble-noble-scion"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Noble (Knight)"
 entry = "ref/npc/noble-knight"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Noble (Noble)"
 entry = "ref/npc/noble-noble"
 
 [[books.chapters.children]]
+title = "Road"
+
+[[books.chapters.children.children]]
 title = "Road (Wanderer)"
 entry = "ref/npc/road-wanderer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Road (Pilgrim)"
 entry = "ref/npc/road-pilgrim"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Road (Vagabond)"
 entry = "ref/npc/road-vagabond"
 
 [[books.chapters.children]]
+title = "Royalty"
+
+[[books.chapters.children.children]]
 title = "Royalty (Princess)"
 entry = "ref/npc/royalty-princess"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Royalty (King)"
 entry = "ref/npc/royalty-king"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Royalty (Queen)"
 entry = "ref/npc/royalty-queen"
 
 [[books.chapters.children]]
+title = "Sailors"
+
+[[books.chapters.children.children]]
 title = "Sailor (Shipmate)"
 entry = "ref/npc/sailor-shipmate"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sailor (Captain)"
 entry = "ref/npc/sailor-captain"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Sailor (First Mate)"
 entry = "ref/npc/sailor-first-mate"
 
 [[books.chapters.children]]
+title = "Scholars"
+
+[[books.chapters.children.children]]
 title = "Scholar (Hedge Wizard)"
 entry = "ref/npc/scholar-hedge-wizard"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Scholar (Archaeologist)"
 entry = "ref/npc/scholar-archaeologist"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Scholar (Sage)"
 entry = "ref/npc/scholar-sage"
 
 [[books.chapters.children]]
+title = "Seers"
+
+[[books.chapters.children.children]]
 title = "Seer (Doomsayer)"
 entry = "ref/npc/seer-doomsayer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Seer (Fortune Teller)"
 entry = "ref/npc/seer-fortune-teller"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Seer (Medium)"
 entry = "ref/npc/seer-medium"
 
 [[books.chapters.children]]
+title = "Street"
+
+[[books.chapters.children.children]]
 title = "Street (Beggar)"
 entry = "ref/npc/street-beggar"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Street (Dealer)"
 entry = "ref/npc/street-dealer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Street (Prostitute)"
 entry = "ref/npc/street-prostitute"
 
 [[books.chapters.children]]
+title = "Tavern"
+
+[[books.chapters.children.children]]
 title = "Tavern (Barmaid)"
 entry = "ref/npc/tavern-barmaid"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tavern (Barkeep)"
 entry = "ref/npc/tavern-barkeep"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tavern (Drunkard)"
 entry = "ref/npc/tavern-drunkard"
 
 [[books.chapters.children]]
+title = "Temple"
+
+[[books.chapters.children.children]]
 title = "Temple (Acolyte)"
 entry = "ref/npc/temple-acolyte"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Temple (High Priest)"
 entry = "ref/npc/temple-high-priest"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Temple (Priest)"
 entry = "ref/npc/temple-priest"
 
 [[books.chapters.children]]
+title = "Tribe"
+
+[[books.chapters.children.children]]
 title = "Tribe (Cannibal)"
 entry = "ref/npc/tribe-cannibal"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tribe (Chieftain)"
 entry = "ref/npc/tribe-chieftain"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Tribe (Shaman)"
 entry = "ref/npc/tribe-shaman"
 
 [[books.chapters.children]]
+title = "Villagers"
+
+[[books.chapters.children.children]]
 title = "Villager (Village Idiot)"
 entry = "ref/npc/villager-village-idiot"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Villager (Farmer)"
 entry = "ref/npc/villager-farmer"
 
-[[books.chapters.children]]
+[[books.chapters.children.children]]
 title = "Villager (Mayor)"
 entry = "ref/npc/villager-mayor"
 
