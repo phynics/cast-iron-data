@@ -20,6 +20,8 @@ Adventure Path volume ranges
 Source: the Paizo Pathfinder Adventure Path product line and the volume list at
 https://en.wikipedia.org/wiki/List_of_Pathfinder_Adventure_Paths (PF1, volumes #1-#144).
 The ranges are declared here because the titles name only the volume, never the path.
+`series_number` is the issue within the path (for example, global #85 is issue 1 of Iron
+Gods), not the global Pathfinder volume.
 """
 
 from __future__ import annotations
@@ -68,10 +70,11 @@ SOCIETY_TITLE = re.compile(
 )
 
 
-def adventure_path_name(volume: int) -> str | None:
+def adventure_path_issue(volume: int) -> tuple[str, int] | None:
+    """Return (path name, issue within the path) for a global Pathfinder volume."""
     for first, last, name in ADVENTURE_PATHS:
         if first <= volume <= last:
-            return name
+            return name, volume - first + 1
     return None
 
 
@@ -86,13 +89,14 @@ def parse(title: str, category: str | None) -> tuple[dict[str, object] | None, b
         if not match:
             return None, True
         volume = int(match.group(1))
-        name = adventure_path_name(volume)
-        if name is None:
+        path = adventure_path_issue(volume)
+        if path is None:
             return None, True
+        name, issue = path
         return {
             "series_kind": "adventure-path",
             "series": name,
-            "series_number": str(volume),
+            "series_number": str(issue),
         }, True
 
     if category == "Module":

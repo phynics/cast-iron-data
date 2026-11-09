@@ -1492,7 +1492,7 @@ category = "Adventure Path"
 publication_date = "2008-06-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
-series_number = "10"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-100-a-song-of-silver"
@@ -1502,7 +1502,7 @@ category = "Adventure Path"
 publication_date = "2015-12-16"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
-series_number = "100"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-101-the-kintargo-contract"
@@ -1512,7 +1512,7 @@ category = "Adventure Path"
 publication_date = "2016-01-16"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
-series_number = "101"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-102-breaking-the-bones-of-hell"
@@ -1522,7 +1522,7 @@ category = "Adventure Path"
 publication_date = "2016-02-01"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
-series_number = "102"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-103-the-hellfire-compact"
@@ -1532,7 +1532,7 @@ category = "Adventure Path"
 publication_date = "2016-02-24"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
-series_number = "103"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-104-wrath-of-thrune"
@@ -1542,7 +1542,7 @@ category = "Adventure Path"
 publication_date = "2016-03-23"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
-series_number = "104"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-105-the-inferno-gate"
@@ -1552,7 +1552,7 @@ category = "Adventure Path"
 publication_date = "2016-04-27"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
-series_number = "105"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-106-for-queen-and-empire"
@@ -1562,7 +1562,7 @@ category = "Adventure Path"
 publication_date = "2016-05-27"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
-series_number = "106"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-107-scourge-of-the-godclaw"
@@ -1572,7 +1572,7 @@ category = "Adventure Path"
 publication_date = "2016-06-27"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
-series_number = "107"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-108-hell-comes-to-westcrown"
@@ -1582,7 +1582,7 @@ category = "Adventure Path"
 publication_date = "2016-07-27"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
-series_number = "108"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-109-in-search-of-sanity"
@@ -1592,7 +1592,7 @@ category = "Adventure Path"
 publication_date = "2016-08-31"
 series_kind = "adventure-path"
 series = "Strange Aeons"
-series_number = "109"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-11-skeletons-of-scarwall"
@@ -1602,7 +1602,7 @@ category = "Adventure Path"
 publication_date = "2008-07-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
-series_number = "11"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-110-the-thrushmoor-terror"
@@ -1612,7 +1612,7 @@ category = "Adventure Path"
 publication_date = "2016-09-28"
 series_kind = "adventure-path"
 series = "Strange Aeons"
-series_number = "110"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-111-dreams-of-the-yellow-king"
@@ -1622,7 +1622,7 @@ category = "Adventure Path"
 publication_date = "2016-11-09"
 series_kind = "adventure-path"
 series = "Strange Aeons"
-series_number = "111"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-112-the-whisper-out-of-time"
@@ -1632,7 +1632,7 @@ category = "Adventure Path"
 publication_date = "2016-12-14"
 series_kind = "adventure-path"
 series = "Strange Aeons"
-series_number = "112"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-113-what-grows-within"
@@ -1642,7 +1642,7 @@ category = "Adventure Path"
 publication_date = "2017-01-25"
 series_kind = "adventure-path"
 series = "Strange Aeons"
-series_number = "113"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-114-black-stars-beckon"
@@ -1652,7 +1652,7 @@ category = "Adventure Path"
 publication_date = "2017-02-22"
 series_kind = "adventure-path"
 series = "Strange Aeons"
-series_number = "114"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-115-trail-of-the-hunted"
@@ -1662,7 +1662,7 @@ category = "Adventure Path"
 publication_date = "2017-03-14"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
-series_number = "115"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-116-fangs-of-war"
@@ -1672,7 +1672,7 @@ category = "Adventure Path"
 publication_date = "2017-03-24"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
-series_number = "116"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-117-assault-on-longshadow"
@@ -1682,7 +1682,7 @@ category = "Adventure Path"
 publication_date = "2017-04-26"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
-series_number = "117"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-118-siege-of-stone"
@@ -1692,7 +1692,7 @@ category = "Adventure Path"
 publication_date = "2017-05-14"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
-series_number = "118"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-119-prisoners-of-the-blight"
@@ -1702,7 +1702,7 @@ category = "Adventure Path"
 publication_date = "2017-06-14"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
-series_number = "119"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-12-crown-of-fangs"
@@ -1712,7 +1712,7 @@ category = "Adventure Path"
 publication_date = "2008-08-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
-series_number = "12"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-120-vault-of-the-onyx-citadel"
@@ -1722,7 +1722,7 @@ category = "Adventure Path"
 publication_date = "2017-07-14"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
-series_number = "120"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-121-the-lost-outpost"
@@ -1732,7 +1732,7 @@ category = "Adventure Path"
 publication_date = "2017-08-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
-series_number = "121"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-122-into-the-shattered-continent"
@@ -1742,7 +1742,7 @@ category = "Adventure Path"
 publication_date = "2017-09-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
-series_number = "122"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-123-the-flooded-cathedral"
@@ -1752,7 +1752,7 @@ category = "Adventure Path"
 publication_date = "2017-10-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
-series_number = "123"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-124-city-in-the-deep"
@@ -1762,7 +1762,7 @@ category = "Adventure Path"
 publication_date = "2017-11-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
-series_number = "124"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-125-tower-of-the-drowned-dead"
@@ -1772,7 +1772,7 @@ category = "Adventure Path"
 publication_date = "2017-12-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
-series_number = "125"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-126-beyond-the-veiled-past"
@@ -1782,7 +1782,7 @@ category = "Adventure Path"
 publication_date = "2018-01-31"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
-series_number = "126"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-127-crownfall"
@@ -1792,7 +1792,7 @@ category = "Adventure Path"
 publication_date = "2018-02-28"
 series_kind = "adventure-path"
 series = "War for the Crown"
-series_number = "127"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-128-songbird-scion-saboteur"
@@ -1802,7 +1802,7 @@ category = "Adventure Path"
 publication_date = "2018-03-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
-series_number = "128"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-129-the-twilight-child"
@@ -1812,7 +1812,7 @@ category = "Adventure Path"
 publication_date = "2018-04-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
-series_number = "129"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-13-shadow-in-the-sky"
@@ -1822,7 +1822,7 @@ category = "Adventure Path"
 publication_date = "2008-08-02"
 series_kind = "adventure-path"
 series = "Second Darkness"
-series_number = "13"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-130-city-in-the-lions-eye"
@@ -1832,7 +1832,7 @@ category = "Adventure Path"
 publication_date = "2018-05-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
-series_number = "130"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-131-the-reapers-right-hand"
@@ -1842,7 +1842,7 @@ category = "Adventure Path"
 publication_date = "2018-06-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
-series_number = "131"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-132-the-six-legend-soul"
@@ -1852,7 +1852,7 @@ category = "Adventure Path"
 publication_date = "2018-07-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
-series_number = "132"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-133-secrets-of-roderics-cove"
@@ -1862,7 +1862,7 @@ category = "Adventure Path"
 publication_date = "2018-08-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
-series_number = "133"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-134-it-came-from-hollow-mountain"
@@ -1872,7 +1872,7 @@ category = "Adventure Path"
 publication_date = "2018-09-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
-series_number = "134"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-135-runeplague"
@@ -1882,7 +1882,7 @@ category = "Adventure Path"
 publication_date = "2018-10-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
-series_number = "135"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-136-temple-of-the-peacock-spirit"
@@ -1892,7 +1892,7 @@ category = "Adventure Path"
 publication_date = "2018-11-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
-series_number = "136"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-137-the-city-outside-of-time"
@@ -1902,7 +1902,7 @@ category = "Adventure Path"
 publication_date = "2018-12-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
-series_number = "137"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-138-rise-of-new-thassilon"
@@ -1912,7 +1912,7 @@ category = "Adventure Path"
 publication_date = "2019-01-30"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
-series_number = "138"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-139-the-dead-road"
@@ -1922,7 +1922,7 @@ category = "Adventure Path"
 publication_date = "2019-02-27"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
-series_number = "139"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-14-children-of-the-void"
@@ -1932,7 +1932,7 @@ category = "Adventure Path"
 publication_date = "2008-09-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
-series_number = "14"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-140-eulogy-for-roslars-coffer"
@@ -1942,7 +1942,7 @@ category = "Adventure Path"
 publication_date = "2019-03-27"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
-series_number = "140"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-141-last-watch"
@@ -1952,7 +1952,7 @@ category = "Adventure Path"
 publication_date = "2019-04-24"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
-series_number = "141"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-142-gardens-of-gallowspire"
@@ -1962,7 +1962,7 @@ category = "Adventure Path"
 publication_date = "2019-05-29"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
-series_number = "142"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-143-borne-by-the-suns-grace"
@@ -1972,7 +1972,7 @@ category = "Adventure Path"
 publication_date = "2019-06-26"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
-series_number = "143"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-144-midwives-to-death"
@@ -1982,7 +1982,7 @@ category = "Adventure Path"
 publication_date = "2019-07-26"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
-series_number = "144"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-15-the-armageddon-echo"
@@ -1992,7 +1992,7 @@ category = "Adventure Path"
 publication_date = "2008-10-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
-series_number = "15"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-16-endless-night"
@@ -2002,7 +2002,7 @@ category = "Adventure Path"
 publication_date = "2008-11-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
-series_number = "16"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-17-a-memory-of-darkness"
@@ -2012,7 +2012,7 @@ category = "Adventure Path"
 publication_date = "2008-12-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
-series_number = "17"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-18-descent-into-midnight"
@@ -2022,7 +2022,7 @@ category = "Adventure Path"
 publication_date = "2009-01-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
-series_number = "18"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-19-howl-of-the-carrion-king"
@@ -2032,7 +2032,7 @@ category = "Adventure Path"
 publication_date = "2009-03-02"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
-series_number = "19"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-2-the-skinsaw-murders"
@@ -2052,7 +2052,7 @@ category = "Adventure Path"
 publication_date = "2009-03-03"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
-series_number = "20"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-21-the-jackals-price"
@@ -2062,7 +2062,7 @@ category = "Adventure Path"
 publication_date = "2009-04-01"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
-series_number = "21"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-22-the-end-of-eternity"
@@ -2072,7 +2072,7 @@ category = "Adventure Path"
 publication_date = "2009-05-01"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
-series_number = "22"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-23-the-impossible-eye"
@@ -2082,7 +2082,7 @@ category = "Adventure Path"
 publication_date = "2009-06-01"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
-series_number = "23"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-24-the-final-wish"
@@ -2092,7 +2092,7 @@ category = "Adventure Path"
 publication_date = "2009-07-01"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
-series_number = "24"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-25-the-bastards-of-erebus"
@@ -2102,7 +2102,7 @@ category = "Adventure Path"
 publication_date = "2009-08-02"
 series_kind = "adventure-path"
 series = "Council of Thieves"
-series_number = "25"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-26-the-sixfold-trial"
@@ -2112,7 +2112,7 @@ category = "Adventure Path"
 publication_date = "2009-10-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
-series_number = "26"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-27-what-lies-in-dust"
@@ -2122,7 +2122,7 @@ category = "Adventure Path"
 publication_date = "2009-11-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
-series_number = "27"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-28-the-infernal-syndrome"
@@ -2132,7 +2132,7 @@ category = "Adventure Path"
 publication_date = "2009-12-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
-series_number = "28"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-29-mother-of-flies"
@@ -2142,7 +2142,7 @@ category = "Adventure Path"
 publication_date = "2010-01-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
-series_number = "29"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-3-the-hook-mountain-massacre"
@@ -2162,7 +2162,7 @@ category = "Adventure Path"
 publication_date = "2010-02-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
-series_number = "30"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-31-stolen-land"
@@ -2172,7 +2172,7 @@ category = "Adventure Path"
 publication_date = "2010-03-02"
 series_kind = "adventure-path"
 series = "Kingmaker"
-series_number = "31"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-32-rivers-run-red"
@@ -2182,7 +2182,7 @@ category = "Adventure Path"
 publication_date = "2010-04-01"
 series_kind = "adventure-path"
 series = "Kingmaker"
-series_number = "32"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-33-the-varnhold-vanishing"
@@ -2192,7 +2192,7 @@ category = "Adventure Path"
 publication_date = "2010-05-01"
 series_kind = "adventure-path"
 series = "Kingmaker"
-series_number = "33"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-34-blood-for-blood"
@@ -2202,7 +2202,7 @@ category = "Adventure Path"
 publication_date = "2010-06-01"
 series_kind = "adventure-path"
 series = "Kingmaker"
-series_number = "34"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-35-war-of-the-river-kings"
@@ -2212,7 +2212,7 @@ category = "Adventure Path"
 publication_date = "2010-06-30"
 series_kind = "adventure-path"
 series = "Kingmaker"
-series_number = "35"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-36-sound-of-a-thousand-screams"
@@ -2222,7 +2222,7 @@ category = "Adventure Path"
 publication_date = "2010-07-01"
 series_kind = "adventure-path"
 series = "Kingmaker"
-series_number = "36"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-37-souls-for-smugglers-shiv"
@@ -2232,7 +2232,7 @@ category = "Adventure Path"
 publication_date = "2010-07-02"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
-series_number = "37"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-38-racing-to-ruin"
@@ -2242,7 +2242,7 @@ category = "Adventure Path"
 publication_date = "2010-09-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
-series_number = "38"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-39-the-city-of-seven-spears"
@@ -2252,7 +2252,7 @@ category = "Adventure Path"
 publication_date = "2010-10-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
-series_number = "39"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-4-fortress-of-the-stone-giants"
@@ -2272,7 +2272,7 @@ category = "Adventure Path"
 publication_date = "2010-12-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
-series_number = "40"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-41-the-thousand-fangs-below"
@@ -2282,7 +2282,7 @@ category = "Adventure Path"
 publication_date = "2011-01-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
-series_number = "41"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-42-sanctum-of-the-serpent-god"
@@ -2292,7 +2292,7 @@ category = "Adventure Path"
 publication_date = "2011-02-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
-series_number = "42"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-43-haunting-of-harrowstone"
@@ -2302,7 +2302,7 @@ category = "Adventure Path"
 publication_date = "2011-03-02"
 series_kind = "adventure-path"
 series = "Carrion Crown"
-series_number = "43"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-44-trial-of-the-beast"
@@ -2312,7 +2312,7 @@ category = "Adventure Path"
 publication_date = "2011-04-01"
 series_kind = "adventure-path"
 series = "Carrion Crown"
-series_number = "44"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-45-broken-moon"
@@ -2322,7 +2322,7 @@ category = "Adventure Path"
 publication_date = "2011-05-10"
 series_kind = "adventure-path"
 series = "Carrion Crown"
-series_number = "45"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-46-wake-of-the-watcher"
@@ -2332,7 +2332,7 @@ category = "Adventure Path"
 publication_date = "2011-06-10"
 series_kind = "adventure-path"
 series = "Carrion Crown"
-series_number = "46"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-47-ashes-at-dawn"
@@ -2342,7 +2342,7 @@ category = "Adventure Path"
 publication_date = "2011-07-06"
 series_kind = "adventure-path"
 series = "Carrion Crown"
-series_number = "47"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-48-shadows-of-gallowspire"
@@ -2352,7 +2352,7 @@ category = "Adventure Path"
 publication_date = "2011-07-26"
 series_kind = "adventure-path"
 series = "Carrion Crown"
-series_number = "48"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-49-the-brinewall-legacy"
@@ -2362,7 +2362,7 @@ category = "Adventure Path"
 publication_date = "2011-07-28"
 series_kind = "adventure-path"
 series = "Jade Regent"
-series_number = "49"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-5-sins-of-the-saviors"
@@ -2382,7 +2382,7 @@ category = "Adventure Path"
 publication_date = "2011-09-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
-series_number = "50"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-51-the-hungry-storm"
@@ -2392,7 +2392,7 @@ category = "Adventure Path"
 publication_date = "2011-10-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
-series_number = "51"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-52-forest-of-spirits"
@@ -2402,7 +2402,7 @@ category = "Adventure Path"
 publication_date = "2011-11-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
-series_number = "52"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-53-tide-of-honor"
@@ -2412,7 +2412,7 @@ category = "Adventure Path"
 publication_date = "2011-12-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
-series_number = "53"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-54-the-empty-throne"
@@ -2422,7 +2422,7 @@ category = "Adventure Path"
 publication_date = "2012-01-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
-series_number = "54"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-55-the-wormwood-mutiny"
@@ -2432,7 +2432,7 @@ category = "Adventure Path"
 publication_date = "2012-02-02"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
-series_number = "55"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-56-raiders-of-the-fever-sea"
@@ -2442,7 +2442,7 @@ category = "Adventure Path"
 publication_date = "2012-03-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
-series_number = "56"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-57-tempest-rising"
@@ -2452,7 +2452,7 @@ category = "Adventure Path"
 publication_date = "2012-04-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
-series_number = "57"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-58-island-of-empty-eyes"
@@ -2462,7 +2462,7 @@ category = "Adventure Path"
 publication_date = "2012-05-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
-series_number = "58"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-59-the-price-of-infamy"
@@ -2472,7 +2472,7 @@ category = "Adventure Path"
 publication_date = "2012-06-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
-series_number = "59"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-6-spires-of-xin-shalast"
@@ -2492,7 +2492,7 @@ category = "Adventure Path"
 publication_date = "2012-07-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
-series_number = "60"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-61-shards-of-sin"
@@ -2502,7 +2502,7 @@ category = "Adventure Path"
 publication_date = "2012-08-02"
 series_kind = "adventure-path"
 series = "Shattered Star"
-series_number = "61"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-62-curse-of-the-ladys-light"
@@ -2512,7 +2512,7 @@ category = "Adventure Path"
 publication_date = "2012-09-01"
 series_kind = "adventure-path"
 series = "Shattered Star"
-series_number = "62"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-63-the-asylum-stone"
@@ -2522,7 +2522,7 @@ category = "Adventure Path"
 publication_date = "2012-10-11"
 series_kind = "adventure-path"
 series = "Shattered Star"
-series_number = "63"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-64-beyond-the-doomsday-door"
@@ -2532,7 +2532,7 @@ category = "Adventure Path"
 publication_date = "2012-11-15"
 series_kind = "adventure-path"
 series = "Shattered Star"
-series_number = "64"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-65-into-the-nightmare-rift"
@@ -2542,7 +2542,7 @@ category = "Adventure Path"
 publication_date = "2012-12-06"
 series_kind = "adventure-path"
 series = "Shattered Star"
-series_number = "65"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-66-the-dead-heart-of-xin"
@@ -2552,7 +2552,7 @@ category = "Adventure Path"
 publication_date = "2013-01-22"
 series_kind = "adventure-path"
 series = "Shattered Star"
-series_number = "66"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-67-the-snows-of-summer"
@@ -2562,7 +2562,7 @@ category = "Adventure Path"
 publication_date = "2013-02-13"
 series_kind = "adventure-path"
 series = "Reign of Winter"
-series_number = "67"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-68-the-shackled-hut"
@@ -2572,7 +2572,7 @@ category = "Adventure Path"
 publication_date = "2013-03-08"
 series_kind = "adventure-path"
 series = "Reign of Winter"
-series_number = "68"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-69-maiden-mother-crone"
@@ -2582,7 +2582,7 @@ category = "Adventure Path"
 publication_date = "2013-04-16"
 series_kind = "adventure-path"
 series = "Reign of Winter"
-series_number = "69"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-7-edge-of-anarchy"
@@ -2592,7 +2592,7 @@ category = "Adventure Path"
 publication_date = "2008-02-02"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
-series_number = "7"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-70-the-frozen-stars"
@@ -2602,7 +2602,7 @@ category = "Adventure Path"
 publication_date = "2013-05-17"
 series_kind = "adventure-path"
 series = "Reign of Winter"
-series_number = "70"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-71-rasputin-must-die"
@@ -2612,7 +2612,7 @@ category = "Adventure Path"
 publication_date = "2013-06-13"
 series_kind = "adventure-path"
 series = "Reign of Winter"
-series_number = "71"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-72-the-witch-queens-revenge"
@@ -2622,7 +2622,7 @@ category = "Adventure Path"
 publication_date = "2013-07-11"
 series_kind = "adventure-path"
 series = "Reign of Winter"
-series_number = "72"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-73-the-worldwound-incursion"
@@ -2632,7 +2632,7 @@ category = "Adventure Path"
 publication_date = "2013-08-19"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
-series_number = "73"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-74-sword-of-valor"
@@ -2642,7 +2642,7 @@ category = "Adventure Path"
 publication_date = "2013-09-25"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
-series_number = "74"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-75-demons-heresy"
@@ -2652,7 +2652,7 @@ category = "Adventure Path"
 publication_date = "2013-10-21"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
-series_number = "75"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-76-the-midnight-isles"
@@ -2662,7 +2662,7 @@ category = "Adventure Path"
 publication_date = "2013-12-11"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
-series_number = "76"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-77-herald-of-the-ivory-labyrinth"
@@ -2672,7 +2672,7 @@ category = "Adventure Path"
 publication_date = "2014-01-09"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
-series_number = "77"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-78-city-of-locusts"
@@ -2682,7 +2682,7 @@ category = "Adventure Path"
 publication_date = "2014-02-06"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
-series_number = "78"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-79-the-half-dead-city"
@@ -2692,7 +2692,7 @@ category = "Adventure Path"
 publication_date = "2014-03-25"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
-series_number = "79"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-8-seven-days-to-the-grave"
@@ -2702,7 +2702,7 @@ category = "Adventure Path"
 publication_date = "2008-04-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
-series_number = "8"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-80-empty-graves"
@@ -2712,7 +2712,7 @@ category = "Adventure Path"
 publication_date = "2014-04-29"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
-series_number = "80"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-81-shifting-sands"
@@ -2722,7 +2722,7 @@ category = "Adventure Path"
 publication_date = "2014-05-28"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
-series_number = "81"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-82-secrets-of-the-sphinx"
@@ -2732,7 +2732,7 @@ category = "Adventure Path"
 publication_date = "2014-06-25"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
-series_number = "82"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-83-the-slave-trenches-of-hakotep"
@@ -2742,7 +2742,7 @@ category = "Adventure Path"
 publication_date = "2014-07-25"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
-series_number = "83"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-84-pyramid-of-the-sky-pharaoh"
@@ -2752,7 +2752,7 @@ category = "Adventure Path"
 publication_date = "2014-08-14"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
-series_number = "84"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-85-fires-of-creation"
@@ -2762,7 +2762,7 @@ category = "Adventure Path"
 publication_date = "2014-09-10"
 series_kind = "adventure-path"
 series = "Iron Gods"
-series_number = "85"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-86-lords-of-rust"
@@ -2772,7 +2772,7 @@ category = "Adventure Path"
 publication_date = "2014-10-05"
 series_kind = "adventure-path"
 series = "Iron Gods"
-series_number = "86"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-87-the-choking-tower"
@@ -2782,7 +2782,7 @@ category = "Adventure Path"
 publication_date = "2014-10-22"
 series_kind = "adventure-path"
 series = "Iron Gods"
-series_number = "87"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-88-valley-of-the-brain-collectors"
@@ -2792,7 +2792,7 @@ category = "Adventure Path"
 publication_date = "2014-11-22"
 series_kind = "adventure-path"
 series = "Iron Gods"
-series_number = "88"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-89-palace-of-fallen-stars"
@@ -2802,7 +2802,7 @@ category = "Adventure Path"
 publication_date = "2014-12-17"
 series_kind = "adventure-path"
 series = "Iron Gods"
-series_number = "89"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-9-escape-from-old-korvosa"
@@ -2812,7 +2812,7 @@ category = "Adventure Path"
 publication_date = "2008-05-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
-series_number = "9"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-90-the-divinity-drive"
@@ -2822,7 +2822,7 @@ category = "Adventure Path"
 publication_date = "2015-01-17"
 series_kind = "adventure-path"
 series = "Iron Gods"
-series_number = "90"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-91-battle-of-bloodmarch-hills"
@@ -2832,7 +2832,7 @@ category = "Adventure Path"
 publication_date = "2015-02-25"
 series_kind = "adventure-path"
 series = "Giantslayer"
-series_number = "91"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-92-the-hill-giants-pledge"
@@ -2842,7 +2842,7 @@ category = "Adventure Path"
 publication_date = "2015-04-29"
 series_kind = "adventure-path"
 series = "Giantslayer"
-series_number = "92"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-93-forge-of-the-giant-god"
@@ -2852,7 +2852,7 @@ category = "Adventure Path"
 publication_date = "2015-05-29"
 series_kind = "adventure-path"
 series = "Giantslayer"
-series_number = "93"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-94-ice-tomb-of-the-giant-queen"
@@ -2862,7 +2862,7 @@ category = "Adventure Path"
 publication_date = "2015-06-29"
 series_kind = "adventure-path"
 series = "Giantslayer"
-series_number = "94"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-95-anvil-of-fire"
@@ -2872,7 +2872,7 @@ category = "Adventure Path"
 publication_date = "2015-07-29"
 series_kind = "adventure-path"
 series = "Giantslayer"
-series_number = "95"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-96-shadow-of-the-storm-tyrant"
@@ -2882,7 +2882,7 @@ category = "Adventure Path"
 publication_date = "2015-08-15"
 series_kind = "adventure-path"
 series = "Giantslayer"
-series_number = "96"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-97-in-hells-bright-shadow"
@@ -2892,7 +2892,7 @@ category = "Adventure Path"
 publication_date = "2015-09-10"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
-series_number = "97"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-98-turn-of-the-torrent"
@@ -2902,7 +2902,7 @@ category = "Adventure Path"
 publication_date = "2015-09-30"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
-series_number = "98"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-99-dance-of-the-damned"
@@ -2912,7 +2912,7 @@ category = "Adventure Path"
 publication_date = "2015-11-18"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
-series_number = "99"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-campaign-setting"
