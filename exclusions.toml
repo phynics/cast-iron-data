@@ -54869,3 +54869,15 @@ reason = "no publication with a Section 15 notice or a notice-pending decision (
 [[rejected]]
 path = "ref/spell/summon-barghest-2"
 reason = "no publication with a Section 15 notice or a notice-pending decision (pathfinder-comics-10); redistribution cannot be established"
+
+[[rejected]]
+path = "ref/rule/hierophant"
+reason = "duplicate of ref/carried/mythic-adventures/rules/mythic-heroes/hierophant"
+
+[[rejected]]
+path = "ref/carried/technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
+reason = "duplicate of ref/arc-rogue/numerian-scavenger"
+
+[[rejected]]
+path = "ref/tech-misc/silverdisk"
+reason = "duplicate of ref/tech-misc/battery"

@@ -29,8 +29,8 @@ title = "Iron Priest"
 :::
 
 ::: entry-link
-target = "ref/carried/technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
-title = "Technic Scavenger"
+target = "ref/arc-rogue/numerian-scavenger"
+title = "Numerian Scavenger"
 :::
 
 ::: entry-link

@@ -31376,6 +31376,11 @@ target = "ref/rule/magic"
 basis = "direct"
 
 [[entries]]
+old = "ref/carried/technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
+target = "ref/arc-rogue/numerian-scavenger"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/aboleth-mythic"
 target = "ref/carried/mythic-adventures/monsters/aboleth/mythic"
 basis = "shared"
@@ -31823,6 +31828,16 @@ basis = "shared"
 [[entries]]
 old = "ref/monster/wyvern-mythic"
 target = "ref/carried/mythic-adventures/monsters/wyvern/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/rule/hierophant"
+target = "ref/carried/mythic-adventures/rules/mythic-heroes/hierophant"
+basis = "shared"
+
+[[entries]]
+old = "ref/tech-misc/silverdisk"
+target = "ref/tech-misc/battery"
 basis = "shared"
 
 [[entries]]
@@ -32567,8 +32582,8 @@ basis = "direct"
 
 [[entries]]
 old = "technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
-target = "ref/carried/technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
-basis = "carried"
+target = "ref/arc-rogue/numerian-scavenger"
+basis = "direct"
 
 [[entries]]
 old = "technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/techslinger"

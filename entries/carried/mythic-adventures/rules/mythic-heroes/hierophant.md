@@ -13,6 +13,7 @@ provenance = [
 kind = "none"
 +++
 
+**Sources:** Mythic Adventures pg 32\
 Those who draw upon a god's power find themselves becoming closer to the divine. Some aspire to
 become immortal servants of their gods, and others reach for apotheosis itself. A hierophant could
 be either of these, channeling divine power directly or indirectly—whether from a deity, the spirit
@@ -79,13 +80,15 @@ take these actions in addition to any other actions it takes during its turn.
 Ability Type: Supernatural
 :::
 
-You can expend one use of mythic power to cast any one divine spell, treating your caster level as 2
-levels higher. This spell must be on your divine spell list (or your domain or mystery spell list)
-and must be of a spell level that you can cast using that divine spellcasting class. If you are a
-spontaneous spellcaster, you don't need to have the spell prepared, nor does it need to be on your
-list of spells known. Using this ability does not expend a prepared spell or available spell slot.
-You can apply any metamagic feats you know to this spell, but its total spell slot level must be a
-slot level you can normally cast.
+As a standard action, you can expend one use of mythic power to cast any one divine spell without
+expending a prepared spell or spell slot. The spell must be on one of your divine class spell lists
+(or your domain or mystery spell list), must be of a level that you can cast with that divine
+spellcasting class, and must have a casting time of "1 standard action" (or less). You don't need to
+have the spell prepared, nor does it need to be on your list of spells known. When casting a spell
+in this way, you treat your caster level as 2 levels higher for the purpose of any effect dependent
+on level. You can apply any metamagic feats you know to this spell, but its total adjusted level
+can't be greater than that of the highest-level divine spell you can cast from that spellcasting
+class.
 
 #### Recalled Blessing {#recalled-blessing}
 
@@ -103,10 +106,10 @@ affliction or remove a condition, roll twice and take the higher result.
 ### Path Ability {#path-ability}
 
 At 1st tier and every tier thereafter, select one new path ability from the hierophant path
-abilities lists or from the universal path abilities lists. Once you select an ability, it can't be
-changed. Unless otherwise noted, each ability can be selected only once. Some abilities have
-requirements, such as a class ability or minimum mythic tier, that you must meet before you select
-them.
+abilities lists or from the [universal path abilities lists](ref/rule/universal-path-abilities).
+Once you select an ability, it can't be changed. Unless otherwise noted, each ability can be
+selected only once. Some abilities have requirements, such as a class ability or minimum mythic
+tier, that you must meet before you select them.
 
 ### Divine Vessel {#divine-vessel}
 
