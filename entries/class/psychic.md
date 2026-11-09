@@ -94,7 +94,7 @@ Knowledge (nobility), Knowledge (planes), Knowledge (religion), Linguistics, Spe
 |19th|9|5|5|4|4|4|3|3|3|2|
 |20th|9|5|5|4|4|4|3|3|3|3|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -102,7 +102,7 @@ Knowledge (nobility), Knowledge (planes), Knowledge (religion), Linguistics, Spe
 
 **Shields:** No
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Psychic spells from the psychic list, from 1st level
 
@@ -118,12 +118,12 @@ level as shown on the table. Intelligence does not change the number known.
 **Spell swap:** At 4th, 6th, 8th, and every 2 levels after, one known spell may be exchanged for
 another of the same level that is at least one level below the highest level you can cast.
 
-**Knacks**
+#### Knacks {#knacks}
 
 **Ability:** 0-level psychic spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Phrenic Pool (Su)**
+#### Phrenic Pool (Su) {#phrenic-pool}
 
 **Ability:** You have a pool of supernatural mental energy that you can draw upon to manipulate
 psychic spells as you cast them. The maximum number of points in your _phrenic pool_ is equal to
@@ -137,7 +137,7 @@ these hours don't need to be consecutive. You might be able to recharge points i
 pool_ in additional circumstances dictated by your _psychic discipline._ Points gained in excess of
 the _pool's_ maximum are lost.
 
-**Phrenic Amplifications**
+#### Phrenic Amplifications {#phrenic-amplifications}
 
 **Ability:** You learn a phrenic amplification. You can activate only one amplification each time
 you cast a spell, and doing so is part of the action used to cast the spell. You can use any
@@ -170,7 +170,7 @@ spell being cast is called the linked spell.
 _phrenic amplification_ or a feat. Many of these discoveries use the rules for
 [advanced technology](ref/rule/technological-equipment).
 
-**Psychic Discipline (Ex or Sp)**
+#### Psychic Discipline (Ex or Sp) {#psychic-discipline}
 
 **Ability:** Choose one [discipline](ref/ability/disciplines). Once made, this choice can't be
 changed. You gain an additional spell known based on your selected discipline, and you gain its
@@ -189,7 +189,7 @@ power., 5, 8
 _phrenic amplifications_ abilities. Spells learned from a discipline can't be exchanged for
 different spells at higher levels.
 
-**Detect Thoughts (Sp)**
+#### Detect Thoughts (Sp) {#detect-thoughts}
 
 **Ability:** You can also expend any unused spell slot of 1st level or higher to cast
 _[detect thoughts](ref/spell/detect-thoughts)._ If you do so, you use the level of the spell slot
@@ -204,7 +204,7 @@ of it, losing the old spell in exchange for the new one.
 **Standard:** You can use [detect thoughts](ref/spell/detect-thoughts) as a
 [spell-like ability](ref/umr/spell-like-abilities) once per day.
 
-**Telepathic Bond (Sp)**
+#### Telepathic Bond (Sp) {#telepathic-bond}
 
 **Ability:** You can also expend any unused spell slot of 4th level or higher to cast
 _[telepathic bond](ref/spell/telepathic-bond)._ Casting the spell using a higher-level spell slot
@@ -223,7 +223,7 @@ of it, losing the old spell in exchange for the new one.
 [spell-like ability](ref/umr/spell-like-abilities) once per day, using your psychic level as your
 caster level. You can't leave yourself out of a _bond_ created in this way.
 
-**Major Amplifications**
+#### Major Amplifications {#major-amplifications}
 
 **Section:** Other Abilities
 
@@ -232,7 +232,7 @@ caster level. You can't leave yourself out of a _bond_ created in this way.
 **Passive:** When you would learn a _phrenic amplification_ from gaining a level, you can choose a
 major phrenic amplification instead.
 
-**Telepathy (Su)**
+#### Telepathy (Su) {#telepathy}
 
 **Ability:** You can mentally communicate with any other creature within 100 feet that has a
 language. It is possible to address multiple creatures at once telepathically, although maintaining
@@ -245,7 +245,7 @@ speaking and listening to multiple people at the same time.
 spell, you can learn a different 5th-level spell in place of it, losing the old spell in exchange
 for the new one.
 
-**Remade Self (Sp)**
+#### Remade Self (Sp) {#remade-self}
 
 **Ability:** While you are under the effects of this
 [spell-like ability](ref/umr/spell-like-abilities), each time you cast a psychic spell, you can link

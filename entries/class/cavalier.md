@@ -71,7 +71,7 @@ intrigue and can hold his own in even the most delicate of social situations.
 |19th|+19/+14/+9/+4|+11|+6|+6|Challenge 7/day|
 |20th|+20/+15/+10/+5|+12|+6|+6|Supreme charge|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -79,7 +79,7 @@ intrigue and can hold his own in even the most delicate of social situations.
 
 **Shields:** Yes, except tower shields
 
-**Challenge (Ex)**
+#### Challenge (Ex) {#challenge}
 
 **Special:** The challenge remains in effect until the target is dead or unconscious or until the
 combat ends. Each challenge also includes another effect which is listed in the section describing
@@ -92,7 +92,7 @@ a -2 penalty to your Armor Class, except against attacks made by the target of y
 
 **Usage:** 1 time/day + 1 per 3 cavalier levels beyond 1st
 
-**Mount (Ex)**
+#### Mount (Ex) {#mount}
 
 **Ability:** You gain the service of a loyal and trusty steed to carry you into battle. This mount
 functions as a druid's [animal companion](ref/sidekick/animal-companion), using your level as your
@@ -127,7 +127,7 @@ or [Wolfdog](ref/companion/wolfdog).
 
 The GM might approve other animals as suitable mounts.
 
-**Order (Ex):**
+#### Order (Ex): {#order}
 
 **Ability:** You must pledge yourself to a specific [order](ref/ability/orders). The order grants
 you a number of bonuses, class skills, and special abilities. In addition, each order includes a
@@ -143,7 +143,7 @@ order. You must then follow the edicts of your new order for one entire level wi
 benefits from that order. Once accomplished, you gain all of the bonuses from your new order. (Note
 that the names of these orders might vary depending upon the campaign setting or GM's preference.)
 
-**Tactician (Ex)**
+#### Tactician (Ex) {#tactician}
 
 **Ability:** You receive a teamwork feat as a bonus feat. You must meet the prerequisites for this
 feat.
@@ -157,7 +157,7 @@ prerequisites of these bonus feats.
 
 **Usage:** 1 time/day + 1 per 5 cavalier levels
 
-**Cavalier's Charge (Ex)**
+#### Cavalier's Charge (Ex) {#cavalier-s-charge}
 
 **Gained:** At 3rd Level
 
@@ -165,7 +165,7 @@ prerequisites of these bonus feats.
 mounted (instead of the normal +2). In addition, you do not suffer any penalty to your AC after
 making a charge attack while mounted.
 
-**Expert Trainer (Ex)**
+#### Expert Trainer (Ex) {#expert-trainer}
 
 **Gained:** At 4th Level
 
@@ -176,7 +176,7 @@ In addition, you can reduce the time needed to teach a mount a new
 required by increasing the DC by +5. You can also train more than one mount at once, although each
 mount after the first adds +2 to the DC.
 
-**Banner (Ex)**
+#### Banner (Ex) {#banner}
 
 **Choice:** Choose one of the following standards. The &quot&Original Standard&quot& refers to the
 original _banner_ ability as printed in _Advanced Player's Guide,_ while the other standards were
@@ -192,14 +192,14 @@ specified by your standard.
 **Special:** The banner must be at least Small or larger and must be carried or displayed by you or
 your mount to function.
 
-**Original Standard (Ex)**
+#### Original Standard (Ex) {#original-standard}
 
 **Passive:** An ally who benefits from this standard receives a morale bonus on saving throws
 against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is
 equal to 1 + [one-fifth](ref/misc/fractions-and-rounding) of your cavalier level, while the charge
 bonus is equal to one-fifth of your cavalier level.
 
-**Fleet Standard (Ex)**
+#### Fleet Standard (Ex) {#fleet-standard}
 
 **Passive:** An ally who benefits from this standard increases their land speed by 5 feet and gains
 a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to land
@@ -211,24 +211,24 @@ At 15th level: The bonus to speed +15 feet.
 
 At 20th level: The bonus to speed +20 feet.
 
-**Jinx Standard (Ex)**
+#### Jinx Standard (Ex) {#jinx-standard}
 
 **Passive:** An ally who benefits from this standard gains a bonus on caster level checks to bypass
 [spell resistance](ref/rule/spell-resistance) and a bonus to the DC of their hexes and necromancy or
 enchantment spell they casts. These bonuses are equal to one-fifth of your cavalier level.
 
-**Knave Standard (Ex)**
+#### Knave Standard (Ex) {#knave-standard}
 
 **Passive:** An ally who benefits from this standard gains a dodge bonus (equal to 1 + one-fifth of
 your cavalier level) to AC against attacks of opportunity provoked by movement, and a +1 morale
 bonus on attack rolls that benefit from [flanking](ref/rule/flanking).
 
-**Stalwart Standard (Ex)**
+#### Stalwart Standard (Ex) {#stalwart-standard}
 
 **Passive:** An ally who benefits from this standard gains a morale bonus (equal to 1 + one-fifth
 your cavalier level) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.
 
-**Bonus Feat**
+#### Bonus Feat {#bonus-feat}
 
 **Ability:** You gain a bonus feat in addition to those gained from normal advancement. This bonus
 feat must be selected from those listed as combat feats. You must meet the prerequisites of this
@@ -238,7 +238,7 @@ bonus feat.
 
 **Repeat At:** You gain another bonus feat, following the restrictions above., 12, 18
 
-**Greater Tactician (Ex)**
+#### Greater Tactician (Ex) {#greater-tactician}
 
 **Ability:** You receive an additional teamwork feat as a bonus feat. You must meet the
 prerequisites for this feat. You can grant this feat to your allies using the _tactician_ ability.
@@ -249,7 +249,7 @@ prerequisites for this feat. You can grant this feat to your allies using the _t
 
 **Swift:** Using the _tactician_ ability becomes a **swift action**.
 
-**Mighty Charge (Ex)**
+#### Mighty Charge (Ex) {#mighty-charge}
 
 **Flavor:** A cavalier learns to make devastating charge attacks while mounted.
 
@@ -262,7 +262,7 @@ your charge attack is successful. This does not provoke an attack of opportunity
 **Passive:** You double the threat range of any weapons wielded during a charge while mounted. This
 increase does not stack with other effects that increase the threat range of the weapon.
 
-**Demanding Challenge (Ex)**
+#### Demanding Challenge (Ex) {#demanding-challenge}
 
 **Ability:** Whenever you declare a challenge, your target must pay attention to the threat you
 pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from
@@ -270,7 +270,7 @@ attacks made by anyone other than you.
 
 **Gained:** At 12th Level
 
-**Greater Banner (Ex)**
+#### Greater Banner (Ex) {#greater-banner}
 
 **Flavor:** A cavalier's banner becomes a rallying call to his allies.
 
@@ -283,7 +283,7 @@ attacks made by anyone other than you.
 **Standard:** While your banner is displayed, you can wave the banner through the air, granting all
 allies within 60 feet certain benefits.
 
-**Original Standard (Ex)**
+#### Original Standard (Ex) {#original-standard-2}
 
 **Passive:** An ally benefiting from the banner receives a +2 morale bonus on saving throws against
 charm and compulsion spells and effects.
@@ -293,7 +293,7 @@ against any one spell or effect that is targeting them. This save is made at the
 and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit
 from this ability more than once per day.
 
-**Fleet Standard (Ex)**
+#### Fleet Standard (Ex) {#fleet-standard-2}
 
 **Passive:** An ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws
 against effects that target an area, such as [fireball](ref/spell/fireball) or
@@ -302,7 +302,7 @@ against effects that target an area, such as [fireball](ref/spell/fireball) or
 **Standard:** Waving your _banner_ grants each ally within 60 feet the ability to move up to their
 speed as an **immediate action**.
 
-**Jinx Standard (Ex)**
+#### Jinx Standard (Ex) {#jinx-standard-2}
 
 **Passive:** An ally benefiting from the banner gains a +2 morale bonus on saving throws against
 spells or effects that deal hit point damage.
@@ -311,7 +311,7 @@ spells or effects that deal hit point damage.
 (minimum 1) within 60 feet the ability to attempt an Intimidate check to demoralize a foe as an
 **immediate action**.
 
-**Knave Standard (Ex)**
+#### Knave Standard (Ex) {#knave-standard-2}
 
 **Passive:** An ally benefiting from the banner gains [sneak attack](ref/ability/sneak-attack) +1d6;
 this stacks with other sources of sneak attack.
@@ -320,7 +320,7 @@ this stacks with other sources of sneak attack.
 (minimum 1) within 60 feet the ability to attempt a [feint](ref/rule/feint) against a foe they
 threaten as an **immediate action**.
 
-**Stalwart Standard (Ex)**
+#### Stalwart Standard (Ex) {#stalwart-standard-2}
 
 **Passive:** An ally benefiting from the banner is treated as one size category larger for the
 purposes of determining which creatures can affect them with combat maneuvers.
@@ -329,7 +329,7 @@ purposes of determining which creatures can affect them with combat maneuvers.
 without provoking attacks of opportunities and ignoring
 [difficult terrain](ref/rule/terrain-and-obstacles) as an **immediate action**.
 
-**Master Tactician (Ex)**
+#### Master Tactician (Ex) {#master-tactician}
 
 **Ability:** You receive an additional teamwork feat as a bonus feat. You must meet the
 prerequisites for this feat. You can grant this feat to your allies using the _tactician_ ability.
@@ -339,7 +339,7 @@ prerequisites for this feat. You can grant this feat to your allies using the _t
 **Special:** Whenever you use the _tactician_ ability, you grant any two teamwork feats that you
 know. You can select from **any** of your teamwork feats, not just your bonus feats.
 
-**Supreme Charge (Ex)**
+#### Supreme Charge (Ex) {#supreme-charge}
 
 **Gained:** At 20th Level
 

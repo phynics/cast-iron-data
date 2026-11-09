@@ -101,7 +101,7 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, longsword, rapier, sap, short sword, shortbow, whip
 
@@ -115,7 +115,7 @@ incurs a chance of arcane spell failure if the spell in question has a somatic c
 multiclass bard still incurs the normal arcane spell failure chance for arcane spells received from
 other classes.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Arcane spells from the bard list, from 1st level
 
@@ -133,19 +133,19 @@ another of the same level that is at least one level below the highest level you
 
 **Notes:** Every spell has a verbal component (song, recitation, or music).
 
-**Cantrips**
+#### Cantrips {#cantrips}
 
 **Ability:** 0-level arcane spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Bardic Knowledge (Ex)**
+#### Bardic Knowledge (Ex) {#bardic-knowledge}
 
 **Gained:** At 1st Level
 
 **Passive:** You add [half](ref/misc/fractions-and-rounding) your class level (minimum 1) to all
 Knowledge skill checks and may make all Knowledge skill checks untrained.
 
-**Bardic Performance**
+#### Bardic Performance {#bardic-performance}
 
 **Action:** Standard Action
 
@@ -196,7 +196,7 @@ select it in place of a feat.
 Also, a bard may learn [saga](ref/ability/sagas), which are useable with his bardic performance
 ability.
 
-**Versatile Performance (Ex)**
+#### Versatile Performance (Ex) {#versatile-performance}
 
 **Action:** Choice
 
@@ -227,7 +227,7 @@ Perform skill he previously selected with versatile performance. Some advanced v
 options can be selected only if the bard meets the option's prerequisites. A bard with an archetype
 that replaces versatile performance cannot select advanced versatile performance options.
 
-**Well-Versed (Ex)**
+#### Well-Versed (Ex) {#well-versed}
 
 **Flavor:** You become resistant to the bardic performance of others, and to sonic effects in
 general.
@@ -237,7 +237,7 @@ general.
 **Passive:** You gain a +4 bonus on saving throws made against bardic performance, sonic, and
 language-dependent effects.
 
-**Lore Master (Ex)**
+#### Lore Master (Ex) {#lore-master}
 
 **Ability:** You can take 10 on any Knowledge skill check that you have ranks in even when
 threatened or distracted. You can also choose not to take 10 and can instead roll normally.
@@ -252,7 +252,7 @@ threatened or distracted. You can also choose not to take 10 and can instead rol
 
 **Standard:** Once per day, you can take 20 on any Knowledge skill check.
 
-**Jack-of-All-Trades (Ex)**
+#### Jack-of-All-Trades (Ex) {#jack-of-all-trades}
 
 **At 10th Level:** You can use any skill, even if the skill normally requires you to be trained.
 

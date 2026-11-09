@@ -76,7 +76,7 @@ humor, mocking it with jabbing wit.
 |19th|+19/+14/+9/+4|+6|+11|+6|Deeds, nimble +5|
 |20th|+20/+15/+10/+5|+6|+12|+6|Bonus feat, swashbuckler weapon mastery|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -84,7 +84,7 @@ humor, mocking it with jabbing wit.
 
 **Shields:** [Bucklers](ref/eq-armor/buckler) only
 
-**Panache (Ex)**
+#### Panache (Ex) {#panache}
 
 **Flavor:** More than just a lightly armored warrior, a swashbuckler is a daring combatant. She
 fights with panache: a fluctuating measure of a swashbuckler's ability to perform amazing actions in
@@ -97,21 +97,21 @@ modifier (minimum 1). Your panache goes up or down throughout the day, but usual
 than your Charisma modifier (minimum 1), though feats and magic items can affect this maximum. You
 spend panache to accomplish deeds, and regain panache in the following ways.
 
-**Critical Hit with a Light or One-Handed Piercing Melee Weapon**
+#### Critical Hit with a Light or One-Handed Piercing Melee Weapon {#critical-hit-with-a-light-or-one-handed-piercing-melee-weapon}
 
 **Passive:** Each time you confirm a critical hit with a light or one-handed piercing melee weapon,
 you regain 1 panache point. Confirming a critical hit on a [helpless](ref/misc/helpless) or unaware
 creature or a creature that has fewer Hit Dice than [half](ref/misc/fractions-and-rounding) your
 character level doesn't restore panache.
 
-**Killing Blow with a Light or One-Handed Piercing Melee Weapon**
+#### Killing Blow with a Light or One-Handed Piercing Melee Weapon {#killing-blow-with-a-light-or-one-handed-piercing-melee-weapon}
 
 **Passive:** When you reduce a creature to 0 or fewer hit points with a light or one-handed piercing
 melee weapon attack while in combat, you regain 1 panache point. Destroying an unattended object,
 reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has
 fewer Hit Dice than half your character level to 0 or fewer hit points doesn't restore any panache.
 
-**Deeds**
+#### Deeds {#deeds}
 
 **Ability:** Most deeds grant you a momentary bonus or effect, but some provide longer-lasting
 effects. Some deeds remain in effect while you have at least 1 panache point, but do not require
@@ -126,7 +126,7 @@ required number of panache points to perform the deed.
 Swashbucklers may optionally select a [renowned deed](ref/ability/swashbuckler-renowned-deeds) at
 1st, 3rd, 7th and 11th level. Each of these deeds replace two other deeds.
 
-**Swashbuckler Finesse (Ex)**
+#### Swashbuckler Finesse (Ex) {#swashbuckler-finesse}
 
 **Ability:** You gain the benefits of the [Weapon Finesse](ref/feat/weapon-finesse) feat with light
 or one-handed piercing melee weapons. This ability counts as having the Weapon Finesse feat for
@@ -137,7 +137,7 @@ purposes of meeting feat prerequisites.
 **Passive:** You can use your Charisma score in place of Intelligence as a prerequisite for combat
 feats.
 
-**Charmed Life (Ex)**
+#### Charmed Life (Ex) {#charmed-life}
 
 **Flavor:** A swashbuckler gains a knack for getting out of trouble.
 
@@ -148,7 +148,7 @@ the save. You must choose to do this before the roll is made.
 
 **Usage:** 3 times/day + 1 per 4 swashbuckler levels beyond 2nd
 
-**Nimble (Ex)**
+#### Nimble (Ex) {#nimble}
 
 **Gained:** At 3rd Level
 
@@ -163,7 +163,7 @@ At 15th level: The bonus +4.
 
 At 19th level: The bonus +5.
 
-**Bonus Feats:**
+#### Bonus Feats: {#bonus-feats}
 
 **Ability:** In addition, you can choose to learn a new bonus feat in place of a bonus feat you have
 already learned. In effect, you lose the bonus feat in exchange for the new one. The old feat cannot
@@ -183,7 +183,7 @@ the feat at the time you gain a new bonus feat for the level.
 Optionally, you can pick a dare instead of a bonus feat. These special abilities only activate when
 you have 0 panache points.
 
-**Swashbuckler Weapon Training (Ex)**
+#### Swashbuckler Weapon Training (Ex) {#swashbuckler-weapon-training}
 
 **Gained:** At 5th Level
 
@@ -197,7 +197,7 @@ At 13th level: This bonus +3.
 
 At 17th level: This bonus +4.
 
-**Swashbuckler Weapon Mastery (Ex)**
+#### Swashbuckler Weapon Mastery (Ex) {#swashbuckler-weapon-mastery}
 
 **Gained:** At 20th Level
 

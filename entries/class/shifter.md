@@ -92,7 +92,7 @@ to overcome hardships and support those she befriends or serves.
 |19th|+19/+14/+9/+4|+11|+11|+6|Shifter claws increase|
 |20th|+20/+15/+10/+5|+12|+12|+6|Defensive instinct (+5), final aspect|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling, spear,
 The natural attacks (claw, bite, and so forth) from the _shifter claws_ class feature and of forms
@@ -110,7 +110,7 @@ spell so that it functions as if it were steel.
 _shifter aspect, shifter claws, wild shape,_ and other shifter supernatural or
 [spell-like abilities](ref/umr/spell-like-abilities) while doing so and for 24 hours thereafter.
 
-**Bonus Languages**
+#### Bonus Languages {#bonus-languages}
 
 **Ability:** Your bonus language options include Sylvan, the language of woodland creatures, and
 Aklo, the tongue spoken by certain sinister fey or otherworldly denizens of reaches of the wild
@@ -124,7 +124,7 @@ which you learn upon becoming a 1st-level shifter.
 of languages and it doesn't take up a language slot. Shifters are forbidden to teach this language
 to non-druids or non-shifters.
 
-**Shifter Aspect (Su)**
+#### Shifter Aspect (Su) {#shifter-aspect}
 
 **Ability:** You gain your first [aspect](ref/ability/aspects) - a category of animal to which your
 body and soul have become supernaturally attuned.
@@ -149,7 +149,7 @@ At 10th level: You gain a 3rd aspect.
 
 At 15th level: You gain a 4th aspect.
 
-**Shifter Claws (Su)**
+#### Shifter Claws (Su) {#shifter-claws}
 
 **At 11th Level:** Your claw damage becomes 1d8 (1d6 if Small).
 
@@ -189,7 +189,7 @@ otherwise function exactly as above. For example, the [bat](ref/aspect/bat) prov
 (bludgeoning, piercing, and slashing) and tail slap (bludgeoning) options, while the
 [elephant](ref/aspect/elephant) offers gore (piercing) and slam (bludgeoning) attacks.
 
-**Wild Empathy (Ex)**
+#### Wild Empathy (Ex) {#wild-empathy}
 
 **Ability:** This ability functions just like a [Diplomacy](ref/skill/diplomacy) check made to
 improve the attitude of a person. You roll 1d20 and add your shifter level and your Charisma
@@ -206,7 +206,7 @@ check.
 normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with
 influencing people, it might take more or less time.
 
-**Defensive Instinct (Ex)**
+#### Defensive Instinct (Ex) {#defensive-instinct}
 
 **At 4th Level:** You gain an additional bonus to AC and CMD equal to one-fourth of your shifter
 level.
@@ -221,7 +221,7 @@ instead add [half](ref/misc/fractions-and-rounding) your Wisdom bonus to her AC 
 [flat-footed](ref/rule/flat-footed). You lose these bonuses when immobilized or helpless. These
 bonuses do not stack with the monk AC bonus class feature.
 
-**Track (Ex)**
+#### Track (Ex) {#track}
 
 **Section:** Track and Woodland Stride
 
@@ -229,7 +229,7 @@ bonuses do not stack with the monk AC bonus class feature.
 
 **Passive:** You add half your level as a bonus on Survival checks to follow tracks.
 
-**Woodland Stride (Ex)**
+#### Woodland Stride (Ex) {#woodland-stride}
 
 **Gained:** At 3rd Level
 
@@ -238,7 +238,7 @@ areas, and similar terrain) at your normal speed and without taking damage or su
 impairment. Briars, thorns, and overgrown areas that are enchanted or magically manipulated to
 impede motion still affect you.
 
-**Wild Shape (Su)**
+#### Wild Shape (Su) {#wild-shape}
 
 **Gained:** At 4th Level
 
@@ -262,14 +262,14 @@ _[beast shape II](ref/spell/beast-shape-2)_ abilities that are size dependent.
 **Usage:** shifter level + Wisdom modifier hours/day; these hours need not be consecutive, but must
 be spent in 1-hour increments
 
-**Trackless Step (Ex)**
+#### Trackless Step (Ex) {#trackless-step}
 
 **Gained:** At 5th Level
 
 **Passive:** You leave no trail in natural surroundings and cannot be tracked. You can choose to
 leave a trail if you so desire.
 
-**Shifter's Fury (Ex)**
+#### Shifter's Fury (Ex) {#shifter-s-fury}
 
 **Fullround:** You gain the ability to make several ferocious attacks with the same natural weapon.
 Instead of attacking with all your natural weapons, you can choose a single natural weapon and make
@@ -283,7 +283,7 @@ don't benefit from _shifter's claws._
 
 **Gained:** At 6th Level
 
-**Chimeric Aspect (Su)**
+#### Chimeric Aspect (Su) {#chimeric-aspect}
 
 **Ability:** When you use your shifter aspect ability to take on a minor form, you can choose two
 aspects and assume the minor form of each aspect.
@@ -292,21 +292,21 @@ aspects and assume the minor form of each aspect.
 
 **Gained:** At 9th Level
 
-**Greater Chimeric Aspect (Su)**
+#### Greater Chimeric Aspect (Su) {#greater-chimeric-aspect}
 
 **Ability:** When you use your shifter aspect ability to take on a minor form, you can choose up to
 three aspects and assume the minor form of each aspect.
 
 **Gained:** At 14th Level
 
-**A Thousand Faces (Su)**
+#### A Thousand Faces (Su) {#a-thousand-faces}
 
 **Gained:** At 18th Level
 
 **Standard:** You gain the ability to change your appearance at will, as if using the
 [alter self](ref/spell/alter-self) spell, but only while in your normal form.
 
-**Timeless Body (Ex)**
+#### Timeless Body (Ex) {#timeless-body}
 
 **Gained:** At 18th Level
 
@@ -314,7 +314,7 @@ three aspects and assume the minor form of each aspect.
 [aged](ref/rule/age). Any penalties you may have already incurred, however, remain in place. Bonuses
 still accrue, and you still die of old age when your time is up.
 
-**Final Aspect (Su)**
+#### Final Aspect (Su) {#final-aspect}
 
 **Ability:** You gain access to a fifth aspect, and when you use _shifter's aspect_, you can assume
 the minor forms of all your aspects and you can use your major and minor forms at will.

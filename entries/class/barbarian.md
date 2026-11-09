@@ -78,7 +78,7 @@ way.
 **Weapon and Armor Proficiency:** A barbarian is proficient with all simple and martial weapons,
 light armor, medium armor, and shields (except tower shields).
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -86,7 +86,7 @@ light armor, medium armor, and shields (except tower shields).
 
 **Shields:** Yes, except tower shields
 
-**Fast Movement (Ex)**
+#### Fast Movement (Ex) {#fast-movement}
 
 **Gained:** At 1st Level
 
@@ -96,7 +96,7 @@ light armor, medium armor, and shields (except tower shields).
 and not carrying a heavy load. Apply this bonus before modifying your speed because of any load
 carried or armor worn. This bonus stacks with any other bonuses to your land speed.
 
-**Rage (Ex)**
+#### Rage (Ex) {#rage}
 
 **Flavor:** A barbarian can call upon inner reserves of strength and ferocity, granting her
 additional combat prowess.
@@ -125,7 +125,7 @@ for 8 hours, although these hours do not need to be consecutive.
 
 **Usage:** 2 rounds/day + double your barbarian level + your Constitution modifier
 
-**Rage Powers (Ex)**
+#### Rage Powers (Ex) {#rage-powers}
 
 **Ability:** You gain a rage power. You gain another rage power at every even-numbered level of
 barbarian after this (4th, 6th, 8th, and so on).
@@ -138,7 +138,7 @@ barbarian after this (4th, 6th, 8th, and so on).
 require you to take an action first. Unless otherwise noted, you cannot select an individual power
 more than once.
 
-**Uncanny Dodge (Ex)**
+#### Uncanny Dodge (Ex) {#uncanny-dodge}
 
 **Gained:** At 2nd Level
 
@@ -149,7 +149,7 @@ bonus to AC if the attacker is invisible.
 successfully uses the feint action against you. If you have _uncanny dodge_ from a different class,
 you automatically gain _improved uncanny dodge_ instead.
 
-**Trap Sense (Ex)**
+#### Trap Sense (Ex) {#trap-sense}
 
 **Gained:** At 3rd Level
 
@@ -159,7 +159,7 @@ attacks made by traps. Both of these bonuses are equal to
 
 **Special:** _Trap sense_ bonuses gained from multiple classes stack.
 
-**Improved Uncanny Dodge (Ex)**
+#### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
 **Gained:** At 5th Level
 
@@ -170,7 +170,7 @@ least four more rogue levels than you have barbarian levels.
 **Special:** If you already have _uncanny dodge_ from another class, the levels from the classes
 that grant _uncanny dodge_ stack to determine the minimum rogue level required to flank you.
 
-**Damage Reduction (Ex)**
+#### Damage Reduction (Ex) {#damage-reduction}
 
 **Gained:** At 7th Level
 
@@ -184,7 +184,7 @@ At 16th level: Your DR 4/-.
 
 At 19th level: Your DR 5/-.
 
-**Greater Rage (Ex)**
+#### Greater Rage (Ex) {#greater-rage}
 
 **Free:** When you enter a _rage,_ the morale bonus to your Strength and Constitution increase to +6
 and the morale bonus on your Will saves increases to +3.
@@ -193,20 +193,20 @@ and the morale bonus on your Will saves increases to +3.
 
 **Gained:** At 11th Level
 
-**Indomitable Will (Ex)**
+#### Indomitable Will (Ex) {#indomitable-will}
 
 **Gained:** At 14th Level
 
 **Passive:** You gain a +4 bonus on Will saves to resist enchantment spells. This bonus stacks with
 all other modifiers, including the morale bonus on Will saves you also receive during your _rage._
 
-**Tireless Rage (Ex)**
+#### Tireless Rage (Ex) {#tireless-rage}
 
 **Gained:** At 17th Level
 
 **Passive:** You no longer become fatigued at the end of your _rage._
 
-**Mighty Rage (Ex)**
+#### Mighty Rage (Ex) {#mighty-rage}
 
 **Free:** When you enter a _rage,_ the morale bonus to your Strength and Constitution increase to +8
 and the morale bonus on your Will saves increases to +4.

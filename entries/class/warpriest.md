@@ -73,7 +73,7 @@ law/chaos axis or the good/evil axis.
 |19th|+14/+9/+4|+11|+6|+11|Sacred armor +5|2d6|5|5|5|5|5|5|4|
 |20th|+15/+10/+5|+12|+6|+12|Aspect of war, fervor 7d6, sacred weapon +5|2d8|5|5|5|5|5|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons, The favored weapon of your deity
 
@@ -84,7 +84,7 @@ law/chaos axis or the good/evil axis.
 **Notes:** If you worship a deity with unarmed strike as its favored weapon, you gain
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Divine spells from the warpriest list, from 1st level
 
@@ -96,12 +96,12 @@ a high score grants bonus spells per day.
 **Notes:** Alignment can bar spells opposed to it. Regains spells after 1 hour in contemplation or
 prayer each day; any spell on the list can be prepared.
 
-**Orisons**
+#### Orisons {#orisons}
 
 **Ability:** 0-level divine spells. Prepared like other spells but not expended when cast; one
 placed in a higher slot (for example through metamagic) uses that slot.
 
-**Spontaneous Casting**
+#### Spontaneous Casting {#spontaneous-casting}
 
 **Ability:** If you are good (or a neutral warpriest of a good deity), you can &quot&lose&quot& any
 prepared spell that is not an orison in order to cast any _cure_ spell of the same spell level or
@@ -121,7 +121,7 @@ energy (see below).
 A _cure spell_ is any spell with "cure" in its name, while an _inflict spell_ is one with "inflict"
 in its name. These spells are grouped here.
 
-**Chaotic, Evil, Good, and Lawful Spells**
+#### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
 **Section:** Aligned Spells
 
@@ -129,14 +129,14 @@ in its name. These spells are grouped here.
 one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
 descriptors in their spell descriptions.
 
-**Bonus Languages**
+#### Bonus Languages {#bonus-languages}
 
 **Gained:** At 1st Level
 
 **Passive:** Your bonus language options include Abyssal, Celestial, and Infernal. These choices are
 in addition to the bonus languages available because of your race.
 
-**Aura (Ex)**
+#### Aura (Ex) {#aura}
 
 **Gained:** At 1st Level
 
@@ -144,7 +144,7 @@ in addition to the bonus languages available because of your race.
 particularly powerful aura (as a [cleric](ref/class/cleric)) corresponding to your deity's alignment
 (see [detect evil](ref/spell/detect-evil)).
 
-**Blessings (Su)**
+#### Blessings (Su) {#blessings}
 
 **Ability:** You can select two [blessings](ref/ability/blessings) from among those granted by your
 deity (each deity grants the blessings tied to its domains), obtaining each blessing's **minor**
@@ -171,7 +171,7 @@ daily limit.
 
 **Usage:** 3 times/day + [half](ref/misc/fractions-and-rounding) your warpriest level
 
-**Focus Weapon**
+#### Focus Weapon {#focus-weapon}
 
 **Ability:** You receive [Weapon Focus](ref/feat/weapon-focus) as a bonus feat (you can choose any
 weapon, not just your deity's favored weapon).
@@ -184,7 +184,7 @@ A warpriest may receive the [Modified Weapon Proficiency](ref/feat/modified-weap
 instead of Weapon Focus, but only if he selects his deity's favored weapon. -- _Adventurer's Armory
 2 pg. 11_
 
-**Sacred Weapon (Su)**
+#### Sacred Weapon (Su) {#sacred-weapon}
 
 **Ability:** In addition to the favored weapon of your deity, you can designate a weapon as a sacred
 weapon by selecting that weapon with the Weapon Focus feat; if you have multiple Weapon Focus feats,
@@ -246,7 +246,7 @@ the weapon is thrown). This ability can be ended as a **free action** at the sta
 round). If you use this ability on a [double](ref/misc/double) weapon, the effects apply to only one
 end of the weapon.
 
-**Fervor (Su)**
+#### Fervor (Su) {#fervor}
 
 **Ability:** If you spontaneously cast _cure_ spells, this ability harms undead (no save) and heals
 other creatures as positive energy. Otherwise, it heals undead and harms other creatures (no save)
@@ -283,7 +283,7 @@ At 17th level: The damage you deal or heal 6d6.
 
 At 20th level: The damage you deal or heal 7d6.
 
-**Bonus Feats**
+#### Bonus Feats {#bonus-feats}
 
 **Ability:** You gain a bonus combat feat in addition to those gained from normal advancement. You
 must meet the prerequisites for this feat, but you treat your warpriest level as your base attack
@@ -296,7 +296,7 @@ level.
 
 **Repeat:** You gain another bonus combat feat, following the same restrictions as above., 6, 3
 
-**Channel Energy (Su)**
+#### Channel Energy (Su) {#channel-energy}
 
 **Ability:** You gain the ability to [channel energy](ref/ability/channel-energy) like a cleric, by
 presenting your holy (or unholy) symbol.
@@ -313,7 +313,7 @@ halve the damage. The save DC is 10 + 1/2 your warpriest level + your Wisdom mod
 your _fervor_). The amount of damage healed or dealt is equal to that of your _fervor_ ability. You
 can choose whether or not to include yourself in this effect.
 
-**Sacred Armor (Su)**
+#### Sacred Armor (Su) {#sacred-armor}
 
 **Action:** Special
 
@@ -354,7 +354,7 @@ each day and cannot be changed until the next day. These bonuses apply only whil
 the armor, and end immediately if the armor is removed or leaves your possession. This ability can
 be ended as a **free action** at the start of your turn. This ability cannot be applied to a shield.
 
-**Aspect of War (Su)**
+#### Aspect of War (Su) {#aspect-of-war}
 
 **Flavor:** The warpriest can channel an aspect of war, growing in power and martial ability.
 

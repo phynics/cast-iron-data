@@ -73,7 +73,7 @@ Knowledge (history), Knowledge (planes), Knowledge (religion), Linguistics, Spel
 |19th|+14/+9/+4|+11|+6|+11|Focus power|5|5|5|5|5|4|
 |20th|+15/+10/+5|+12|+6|+12|Implement mastery, outside contact 4|5|5|5|5|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -81,7 +81,7 @@ Knowledge (history), Knowledge (planes), Knowledge (religion), Linguistics, Spel
 
 **Shields:** Yes, except tower shields
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Psychic spells from the occultist list, from 1st level
 
@@ -97,7 +97,7 @@ another of the same level.
 
 **Notes:** Every spell has an implement component.
 
-**Knacks**
+#### Knacks {#knacks}
 
 **Ability:** You learn one knack, or 0-level psychic spell, each time you select an implement school
 (including when you again select a school that you have already learned to use). These spells are
@@ -107,7 +107,7 @@ normal.
 
 **Gained:** At 1st Level
 
-**Implements (Su)**
+#### Implements (Su) {#implements}
 
 **Action:** Ability
 
@@ -147,7 +147,7 @@ Each implement school also grants a **base focus power**. This power is added to
 powers you possess. In addition, each implement school grants access to a number of other focus
 powers that you can select from using your mental focus class feature.
 
-**Mental Focus (Su)**
+#### Mental Focus (Su) {#mental-focus}
 
 **Action:** Ability
 
@@ -187,7 +187,7 @@ twice as much mental focus to use (and to maintain, if applicable). You can expe
 focus through an appropriate implement on any focus power you know, but an implement you didn't
 invest any focus in at the start of the day grants no resonant power.
 
-**Focus Powers (Su)**
+#### Focus Powers (Su) {#focus-powers}
 
 **Ability:** You learn the base focus power from both of your two implement schools and can select
 one more focus power from the list of those available to you through those schools. Whenever you
@@ -205,7 +205,7 @@ for any saving throw against a focus power equals 10 + [half](ref/misc/fractions
 level + your Intelligence modifier. You can't select a focus power more than once. Some focus powers
 require you to reach a specific occultist level before you can choose them.
 
-**Magic Item Skill (Ex)**
+#### Magic Item Skill (Ex) {#magic-item-skill}
 
 **Gained:** At 2nd Level
 
@@ -213,7 +213,7 @@ require you to reach a specific occultist level before you can choose them.
 a bonus on all [Use Magic Device](ref/skill/use-magic-device) checks equal to 1/2 your occultist
 level.
 
-**Object Reading (Su)**
+#### Object Reading (Su) {#object-reading}
 
 **Ability:** You learn how to read information from items you examine. Examining an item in this way
 requires you to spend 1 minute handling the item. If the item is a magic item, you learn its
@@ -231,7 +231,7 @@ used at will.
 
 **Gained:** At 2nd Level
 
-**Shift Focus (Su)**
+#### Shift Focus (Su) {#shift-focus}
 
 **Ability:** You gain the ability to shift your mental focus from one implement to another, though
 some of the focus is lost along the way. Shifting mental focus removes a number of points of mental
@@ -245,14 +245,14 @@ shift generic focus into an implement. Unlike expending focus normally, this shi
 effect of a resonant power in the implement from which the mental focus was taken. It does not,
 however, add to the resonant power of the implement to which the focus is added.
 
-**Aura Sight (Su)**
+#### Aura Sight (Su) {#aura-sight}
 
 **Gained:** At 5th Level
 
 **Standard:** You can read the auras of creatures around you. This functions as the
 [aura sight](ref/spell/aura-sight) spell with a duration of 1 round.
 
-**Magic Circles (Su)**
+#### Magic Circles (Su) {#magic-circles}
 
 **Ability:** You learn how to draw magic circles. To draw a circle, you must have chalk, salt,
 blood, powdered silver, or some other appropriate substance at hand (although you can press a magic
@@ -270,7 +270,7 @@ effects can't break it. You can have only one circle created in this way at a ti
 second circle, the first one loses all its magic powers. This type of magic circle can't normally be
 focused inward to bind an outsider.
 
-**Outside Contact (Su)**
+#### Outside Contact (Su) {#outside-contact}
 
 **Action:** Ability
 
@@ -314,7 +314,7 @@ resents being used in this way, even if you and the outsider share an alignment 
 bargain with the outsider, the magic circle loses all power and the outsider is sent back to its
 home plane.
 
-**Binding Circles (Su)**
+#### Binding Circles (Su) {#binding-circles}
 
 **Ability:** Whenever you create a magic circle you can expend 1 additional point of mental focus to
 make it a binding circle. A binding circle is invisible and counts as a trap. If a living creature
@@ -337,7 +337,7 @@ Perception check (DC = 25 + 1/2 your level). It can also be disarmed using Disab
 same DC. Anything crossing the boundary of the circle from the outside, such as a weapon, spell
 effect, or special ability, immediately breaks the circle and frees the creature trapped inside.
 
-**Fast Circles (Su)**
+#### Fast Circles (Su) {#fast-circles}
 
 **Ability:** You learn to draw magic circles very quickly. You can draw a magic circle as a
 **full-round action**, but any circle drawn in this way has a duration of 1 minute per occultist
@@ -347,7 +347,7 @@ per occultist level.
 
 **Gained:** At 16th Level
 
-**Implement Mastery (Su)**
+#### Implement Mastery (Su) {#implement-mastery}
 
 **Ability:** In addition, you gain 4 extra points of mental focus, but these points must always be
 invested in implements of the mastered school. You can't save these points or expend them for any

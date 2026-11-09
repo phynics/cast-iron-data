@@ -68,7 +68,7 @@ lightly armored enemies, as well as quickly adapting to a rapidly changing battl
 |19th|+19/+14/+9/+4|+11|+11|+6|Maneuver training 5|2d8|
 |20th|+20/+15/+10/+5|+12|+12|+6|Bonus combat feat, improved awesome blow, martial flexibility (any number)|2d10|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, handaxe, short sword, weapons from the close
 [fighter weapon group](ref/ability/weapon-groups)
@@ -77,14 +77,14 @@ lightly armored enemies, as well as quickly adapting to a rapidly changing battl
 
 **Shields:** Yes, except tower shields
 
-**Brawler's Cunning (Ex)**
+#### Brawler's Cunning (Ex) {#brawler-s-cunning}
 
 **Gained:** At 1st Level
 
 **Passive:** If your Intelligence score is less than 13, it counts as 13 for the purpose of meeting
 the prerequisites of combat feats.
 
-**Martial Flexibility (Ex)**
+#### Martial Flexibility (Ex) {#martial-flexibility}
 
 **At 10th Level:** You can use this ability to gain the benefit of three combat feats at the same
 time. You may select one feat as a **free action**, two feats as a **swift action**, or three feats
@@ -117,7 +117,7 @@ count toward that feat's daily limit.
 
 **Usage:** 3 times/day + 1 per 2 brawler levels
 
-**Martial Training (Ex)**
+#### Martial Training (Ex) {#martial-training}
 
 **Gained:** At 1st Level
 
@@ -129,7 +129,7 @@ as _Stunning Fist_ and a [monk's robe](ref/magic-wondrous/monks-robe)).
 **Special:** This ability does not automatically grant feats normally granted to fighters and monks
 based on class level, namely _Stunning Fist._
 
-**Unarmed Strike**
+#### Unarmed Strike {#unarmed-strike}
 
 **Ability:** You gain [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) as a bonus feat.
 You may attack with fists, elbows, knees, and feet. This means that you may make unarmed strikes
@@ -152,7 +152,7 @@ weapons. The damage of your strike is determined by your size and level, shown o
 |16th-19th|2d6|2d8|3d8|
 |20th|2d8|2d10|4d8|
 
-**Bonus Combat Feats**
+#### Bonus Combat Feats {#bonus-combat-feats}
 
 **Ability:** You gain a bonus combat feat in addition to those gained from normal advancement. This
 feat must be one that affect or improve your defenses or melee attacks. You must meet the
@@ -170,7 +170,7 @@ feat.
 **Repeat:** You gain a new bonus combat feat and may swap out a previous combat feat (with the same
 limitations as above)., 8, 3
 
-**Brawler's Flurry (Ex)**
+#### Brawler's Flurry (Ex) {#brawler-s-flurry}
 
 **Fullround:** You can make a _brawler's flurry_ as a full-attack action. When doing so, you have
 the [Two-Weapon Fighting](ref/feat/two-weapon-fighting) feat when attacking with any combination of
@@ -194,7 +194,7 @@ hands. You can substitute [disarm](ref/rule/disarm), [sunder](ref/rule/sunder), 
 use natural weapons as part of _brawler's flurry,_ nor can you make natural weapon attacks in
 addition to your _brawler's flurry_ attacks.
 
-**Maneuver Training (Ex)**
+#### Maneuver Training (Ex) {#maneuver-training}
 
 **At 11th Level:** You select a new combat maneuver and gain the +1 bonuses above, while the
 previous maneuvers' bonuses become +2 and +3.
@@ -214,7 +214,7 @@ maneuver's bonuses become +2.
 training. You gain a +1 bonus on combat maneuver checks when performing that combat maneuver and a
 +1 bonus to your CMD when defending against that maneuver.
 
-**AC Bonus (Ex)**
+#### AC Bonus (Ex) {#ac-bonus}
 
 **Gained:** At 4th Level
 
@@ -224,7 +224,7 @@ to AC apply against touch attacks.
 **Special:** You lose these bonuses while immobilized or [helpless](ref/misc/helpless), wearing
 medium or heavy armor, or carrying a medium or heavy load.
 
-**Knockout (Ex)**
+#### Knockout (Ex) {#knockout}
 
 **Gained:** At 4th Level
 
@@ -240,7 +240,7 @@ Dexterity modifier) or fall unconscious for 1d6 rounds.
 
 **Usage:** 1 time/day + 1 per 6 brawler levels beyond 4th
 
-**Brawler's Strike (Ex)**
+#### Brawler's Strike (Ex) {#brawler-s-strike}
 
 **At 12th Level:** You choose one alignment component: chaotic, evil, good, or lawful; your unarmed
 strikes also count as this alignment for the purpose of overcoming
@@ -259,7 +259,7 @@ overcoming [damage reduction](ref/rule/damage-reduction).
 **Passive:** Your unarmed strikes are treated as magic weapons for the purpose of overcoming
 [damage reduction](ref/rule/damage-reduction).
 
-**Close Weapon Mastery (Ex)**
+#### Close Weapon Mastery (Ex) {#close-weapon-mastery}
 
 **Gained:** At 5th Level
 
@@ -273,7 +273,7 @@ normal 1d4). If the weapon normally deals more damage than this, its damage is u
 weapon's base damage instead of your adjusted unarmed strike damage - this must be declared before
 the attack roll is made.
 
-**Awesome Blow (Ex)**
+#### Awesome Blow (Ex) {#awesome-blow}
 
 **Gained:** At 16th Level
 
@@ -288,7 +288,7 @@ size or smaller. If the combat maneuver check succeeds, the opponent takes damag
 with the _close weapon_ you are wielding or an unarmed strike, it is knocked flying 10 feet in a
 direction of your choice, and it falls [prone](ref/rule/prone).
 
-**Improved Awesome Blow (Ex)**
+#### Improved Awesome Blow (Ex) {#improved-awesome-blow}
 
 **Ability:** You can use your _awesome blow_ ability as an attack rather than as a standard action.
 You may use it on creatures of any size. If the maneuver roll is a natural 20, you can immediately

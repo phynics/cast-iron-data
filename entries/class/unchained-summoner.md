@@ -99,7 +99,7 @@ Knowledge (nobility), Knowledge (planes), Knowledge (religion), Linguistics, Spe
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -113,7 +113,7 @@ heavy armor, or using a shield, incurs a chance of arcane spell failure if the s
 a somatic component. A summoner still incurs the normal arcane spell failure chance for arcane
 spells granted by other classes.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Arcane spells from the unchained summoner list, from 1st level
 
@@ -129,12 +129,12 @@ level as shown on the table. Charisma does not change the number known.
 **Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
 another of the same level that is at least one level below the highest level you can cast.
 
-**Cantrips**
+#### Cantrips {#cantrips}
 
 **Ability:** 0-level arcane spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Eidolon**
+#### Eidolon {#eidolon}
 
 **Action:** Ability
 
@@ -176,7 +176,7 @@ means, it cannot be concealed through magic that changes appearance, such as
 [alter self](ref/spell/alter-self) or [polymorph](ref/spell/polymorph) (although
 [invisibility](ref/spell/invisibility) does conceal it as long as the spell lasts).
 
-**Life Link (Su)**
+#### Life Link (Su) {#life-link}
 
 **Free:** Whenever your eidolon takes enough damage to send it back to its home plane, as a reaction
 to the damage, you can sacrifice any number of hit points without using an action. Each hit point
@@ -193,7 +193,7 @@ your eidolon is more than 10,000 feet away, it is immediately returned to its ho
 hit points lost in this way are not restored when your eidolon gets closer to its summoner, but its
 maximum hit point total does return to normal.
 
-**Summon Monster I (Sp)**
+#### Summon Monster I (Sp) {#summon-monster-i}
 
 **At 19th Level:** This now behaves as either _[summon monster IX](ref/spell/summon-monster-9)_ or
 [gate](ref/spell/gate). If used as _[gate](ref/spell/gate),_ you must pay any required material
@@ -235,7 +235,7 @@ At 15th level: This now behaves as summon monster +8.
 
 At 17th level: This now behaves as summon monster +9.
 
-**Bond Senses (Su)**
+#### Bond Senses (Su) {#bond-senses}
 
 **Gained:** At 2nd Level
 
@@ -245,7 +245,7 @@ must be on the same plane. You can end this effect as a **free action**.
 
 **Usage:** 1 time/day per summoner level
 
-**Shield Ally (Ex)**
+#### Shield Ally (Ex) {#shield-ally}
 
 **Gained:** At 4th Level
 
@@ -255,7 +255,7 @@ is [grappled](ref/rule/grapple-conditions), [helpless](ref/misc/helpless),
 [paralyzed](ref/rule/paralyzed), [stunned](ref/misc/stunned), or
 [unconscious](ref/misc/unconscious).
 
-**Maker's Call (Su)**
+#### Maker's Call (Su) {#maker-s-call}
 
 **Gained:** At 6th Level
 
@@ -266,7 +266,7 @@ out of range, the ability is wasted.
 
 **Usage:** 1 time/day + 1 per 4 summoner levels beyond 6th
 
-**Transposition (Su)**
+#### Transposition (Su) {#transposition}
 
 **Gained:** At 8th Level
 
@@ -274,7 +274,7 @@ out of range, the ability is wasted.
 larger than you, you can appear in any square occupied by your eidolon. The eidolon must occupy the
 square that was occupied by you if able, or as close as possible if it is not able.
 
-**Aspect (Su)**
+#### Aspect (Su) {#aspect}
 
 **Ability:** You can divert up to 2 points from your eidolon's evolution pool to add evolutions to
 yourself. You cannot select any evolution that your eidolon could not possess, and you must be able
@@ -285,7 +285,7 @@ any time you can change your eidolon's evolutions.
 
 **Gained:** At 10th Level
 
-**Greater Shield Ally (Su)**
+#### Greater Shield Ally (Su) {#greater-shield-ally}
 
 **Gained:** At 12th Level
 
@@ -294,7 +294,7 @@ its Armor Class and a +2 circumstance bonus on its saving throws. If this ally i
 increase to +4. This bonus does not apply if your eidolon is grappled, helpless, paralyzed, stunned,
 or unconscious.
 
-**Life Bond (Su)**
+#### Life Bond (Su) {#life-bond}
 
 **Gained:** At 14th Level
 
@@ -307,7 +307,7 @@ ability does not affect spells like [baleful polymorph](ref/spell/baleful-polymo
 [flesh to stone](ref/spell/flesh-to-stone), or [imprisonment](ref/spell/imprisonment), or other
 spells that do not cause actual damage.
 
-**Merge Forms (Su)**
+#### Merge Forms (Su) {#merge-forms}
 
 **Fullround:** You can touch your eidolon and merge forms with it. This transformation includes all
 of your gear. While merged in this way, you are protected from harm and cannot be the target of
@@ -328,7 +328,7 @@ able.
 
 **Usage:** 1 time/day per summoner level
 
-**Greater Aspect (Su)**
+#### Greater Aspect (Su) {#greater-aspect}
 
 **Ability:** You can divert more of your eidolon's evolutions to yourself. This ability functions as
 the _aspect_ ability, but up to 6 evolution points can be taken. In addition, your eidolon loses 1
@@ -337,7 +337,7 @@ losing 1 point from the evolution pool for each point diverted.
 
 **Gained:** At 18th Level
 
-**Twin Eidolon (Su)**
+#### Twin Eidolon (Su) {#twin-eidolon}
 
 **Gained:** At 20th Level
 

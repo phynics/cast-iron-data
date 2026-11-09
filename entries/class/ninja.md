@@ -74,7 +74,7 @@ rogue core class.
 |19th|+14/+9/+4|+6|+11|+6|Sneak attack +10d6|
 |20th|+15/+10/+5|+6|+12|+6|Hidden master, ninja trick|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, kama, katana, kusarigama, nunchaku, sai, shortbow, short sword,
 shuriken, siangham, wakizashi
@@ -83,20 +83,20 @@ shuriken, siangham, wakizashi
 
 **Shields:** No
 
-**Poison Use**
+#### Poison Use {#poison-use}
 
 **Gained:** At 1st Level
 
 **Passive:** You are trained in the use of poison and cannot accidentally poison yourself when
 applying poison to a weapon.
 
-**Sneak Attack**
+#### Sneak Attack {#sneak-attack}
 
 **Ability:** You have the ability to [sneak attack](ref/ability/sneak-attack), the same as a rogue.
 
 **Gained:** At 1st Level
 
-**Ki Pool (Su)**
+#### Ki Pool (Su) {#ki-pool}
 
 **Ability:** You gain a pool of ki points. The number of points in your ki pool is equal to
 [half](ref/misc/fractions-and-rounding) your ninja level + your Charisma modifier.
@@ -126,7 +126,7 @@ these hours do not need to be consecutive.
 additional attack at your highest attack bonus when making a full attack, 2) increase your speed by
 20 feet for one round, or 3) give yourself a +4 insight bonus on Stealth checks for 1 round.
 
-**Ninja Tricks**
+#### Ninja Tricks {#ninja-tricks}
 
 **Ability:** You gain one ninja trick.
 
@@ -144,7 +144,7 @@ confuse her foes and grant her supernatural abilities.
 **Special:** Unless otherwise noted, you cannot select an individual ninja trick more than once. If
 you have multiple tricks that add effects to your sneak attacks, only one may be used per attack.
 
-**No Trace (Ex)**
+#### No Trace (Ex) {#no-trace}
 
 **Flavor:** A ninja learns to cover her tracks, remain hidden, and conceal her presence.
 
@@ -155,7 +155,7 @@ of your ninja level. In addition, your training gives you a insight bonus on Dis
 and on opposed Stealth checks whenever you are stationary and do not take any action for at least 1
 round. This bonus is equal to one-third of your ninja level.
 
-**Uncanny Dodge (Ex)**
+#### Uncanny Dodge (Ex) {#uncanny-dodge}
 
 **Flavor:** A ninja can react to danger before her senses would normally allow her to do so.
 
@@ -168,7 +168,7 @@ immobilized, or if if an opponent successfully uses the [feint](ref/skill/bluff)
 **Special:** If you already possess uncanny dodge from a different class, you automatically gain
 _improved uncanny dodge,_ instead.
 
-**Light Steps (Ex)**
+#### Light Steps (Ex) {#light-steps}
 
 **Flavor:** A ninja learns to move while barely touching the surface underneath you.
 
@@ -184,7 +184,7 @@ location-based trigger.
 
 **Gained:** At 6th Level
 
-**Improved Uncanny Dodge (Ex)**
+#### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
 **Section:** Other Abilities
 
@@ -197,13 +197,13 @@ more ninja (or rogue) levels than you do.
 **Special:** If you already have uncanny dodge from another class, the levels from the classes that
 grant uncanny dodge stack when determining the minimum ninja (or rogue) level required to flank you.
 
-**Master Tricks**
+#### Master Tricks {#master-tricks}
 
 **Ability:** When you would gain a new ninja trick, you can choose a master trick instead.
 
 **Gained:** At 10th Level
 
-**Hidden Master (Su)**
+#### Hidden Master (Su) {#hidden-master}
 
 **Ability:** In addition, whenever you deal sneak attack damage, you can sacrifice additional damage
 dice to apply a penalty to one ability score of the target equal to the number of dice sacrificed

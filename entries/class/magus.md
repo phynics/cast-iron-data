@@ -74,7 +74,7 @@ in their search for perfection.
 |19th|+14/+9/+4|+11|+6|+11|Greater spell access|5|5|5|5|5|5|4|
 |20th|+15/+10/+5|+12|+6|+12|True magus|5|5|5|5|5|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -88,7 +88,7 @@ or a shield incurs a chance of arcane spell failure if the spell in question has
 component. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells
 received from other classes.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Arcane spells from the magus list, from 1st level
 
@@ -100,12 +100,12 @@ Intelligence modifier; a high score grants bonus spells per day.
 **Notes:** Prepares spells after 8 hours of rest and 1 hour with the spellbook; no limit on spells
 known.
 
-**Cantrips**
+#### Cantrips {#cantrips}
 
 **Ability:** 0-level arcane spells. Prepared like other spells but not expended when cast; one
 placed in a higher slot (for example through metamagic) uses that slot.
 
-**Spellbooks**
+#### Spellbooks {#spellbooks}
 
 **Ability:** You must study your spellbook each day to prepare your spells. You cannot prepare any
 spell not recorded in your spellbook except for [read magic](ref/spell/read-magic), which all magi
@@ -120,7 +120,7 @@ new magus spells of any spell level or levels that you can cast (based on your n
 your spellbook. At any time, you can also add spells found in other spellbooks to your own (see
 [Arcane Magical Writing](ref/rule/arcane-magical-writing)).
 
-**Arcane Pool (Su)**
+#### Arcane Pool (Su) {#arcane-pool}
 
 **At 1st Level:** You can expend 1 point from your arcane pool as a **swift action** to grant any
 weapon you are holding enhancement bonuses for 1 minute. These bonuses are equal to 1 + one-fourth
@@ -151,7 +151,7 @@ The pool refreshes once per day when you prepare your spells.
 **Special:** You can only enhance one weapon in this way at one time. If you use this ability again,
 the first use immediately ends.
 
-**Spell Combat (Ex)**
+#### Spell Combat (Ex) {#spell-combat}
 
 **Flavor:** A magus learn to cast spells and wield his weapons at the same time. This functions much
 like two-weapon fighting, but the off-hand weapon is a spell that is being cast.
@@ -170,7 +170,7 @@ cast the spell between weapon attacks.
 **Special:** To use this ability, you must have one hand free (even if the spell being cast does not
 have somatic components), while wielding a light or one-handed melee weapon in the other hand.
 
-**Spellstrike (Su)**
+#### Spellstrike (Su) {#spellstrike}
 
 **Ability:** Whenever you cast a spell with a range of &quot&touch&quot& from the magus spell list,
 you can deliver the spell through any weapon you are wielding as part of a melee attack. Instead of
@@ -186,7 +186,7 @@ by spell combat melee attacks.
 _keen_ weapon property or similar effects), but the spell effect only deals &times&2 damage on a
 successful critical hit, while the weapon damage uses its own critical modifier.
 
-**Magus Arcana**
+#### Magus Arcana {#magus-arcana}
 
 **Ability:** You gain one magus arcana.
 
@@ -201,7 +201,7 @@ blending martial puissance and magical skill.
 particular magus arcana more than once. Magus arcana that affect spells can only be used to modify
 spells from the magus spell list unless otherwise noted.
 
-**Spell Recall (Su)**
+#### Spell Recall (Su) {#spell-recall}
 
 **Gained:** At 4th Level
 
@@ -209,7 +209,7 @@ spells from the magus spell list unless otherwise noted.
 expending a number of points from your _arcane pool_ equal to the spell's level (minimum 1). The
 spell is prepared again, just as if it had not been cast.
 
-**Bonus Feats**
+#### Bonus Feats {#bonus-feats}
 
 **Ability:** You gain a bonus feat in addition to those gained from normal advancement. These bonus
 feats must be selected from those listed as combat, item creation, or metamagic feats. You must meet
@@ -219,7 +219,7 @@ the prerequisites for this feat as normal.
 
 **Repeat At:** You gain another bonus feat, following the restrictions above., 11, 17
 
-**Knowledge Pool (Su)**
+#### Knowledge Pool (Su) {#knowledge-pool}
 
 **Ability:** When you prepare your magus spells, you can decide to expend 1 or more points from your
 _arcane pool,_ up to your Intelligence bonus. For each point you expend, you can treat any one spell
@@ -234,7 +234,7 @@ lose those spells.
 **Special:** You can also cast spells added in this way using your _spell recall_ ability, but only
 until you prepare spells again.
 
-**Medium Armor (Ex)**
+#### Medium Armor (Ex) {#medium-armor}
 
 **Gained:** At 7th Level
 
@@ -244,7 +244,7 @@ armor without incurring the normal arcane spell failure chance.
 **Special:** Like any other arcane spellcaster, a magus wearing heavy armor or using a shield incurs
 a chance of arcane spell failure if the spell in question has a somatic component.
 
-**Improved Spell Combat/ (Ex)**
+#### Improved Spell Combat/ (Ex) {#improved-spell-combat}
 
 **Section:** Improved Spell Combat and Fighter Training
 
@@ -254,14 +254,14 @@ a chance of arcane spell failure if the spell in question has a somatic componen
 concentration checks, in addition to any bonus granted by taking an additional penalty on the attack
 roll.
 
-**Fighter Training (Ex)**
+#### Fighter Training (Ex) {#fighter-training}
 
 **Ability:** You count 1/2 your total magus level as your fighter level for the purpose of
 qualifying for feats. If you have levels in fighter, these levels stack.
 
 **Gained:** At 10th Level
 
-**Improved Spell Recall (Su)**
+#### Improved Spell Recall (Su) {#improved-spell-recall}
 
 **Gained:** At 11th Level
 
@@ -273,7 +273,7 @@ have in your spellbook. You do so by expending a number of points from your arca
 spell's level (minimum 1). You cannot apply metamagic feats to a spell prepared in this way, and you
 do not need to reference your spellbook to prepare a spell in this way.
 
-**Heavy Armor (Ex)**
+#### Heavy Armor (Ex) {#heavy-armor}
 
 **Section:** Other Abilities
 
@@ -285,14 +285,14 @@ armor without incurring the normal arcane spell failure chance.
 **Special:** Like any other arcane spellcaster, a magus using a shield incurs a chance of arcane
 spell failure if the spell in question has a somatic component.
 
-**Greater Spell Combat (Ex)**
+#### Greater Spell Combat (Ex) {#greater-spell-combat}
 
 **Gained:** At 14th Level
 
 **Passive:** Whenever you use the _spell combat_ ability, your concentration check bonus equals
 double the amount of the attack penalty taken.
 
-**Counterstrike (Ex)**
+#### Counterstrike (Ex) {#counterstrike}
 
 **Gained:** At 16th Level
 
@@ -300,7 +300,7 @@ double the amount of the attack penalty taken.
 enemy provokes an attack of opportunity from you after the spell is complete. This attack of
 opportunity cannot disrupt the spell.
 
-**Greater Spell Access (Su)**
+#### Greater Spell Access (Su) {#greater-spell-access}
 
 **Ability:** You gain access to an expanded spell list. You learn and place 14 spells from the
 wizard's spell list into your spellbook as magus spells of their wizard level. You gain two of each
@@ -310,7 +310,7 @@ spells, casting them without the normal chance of spell failure.
 
 **Gained:** At 19th Level
 
-**True Magus (Su)**
+#### True Magus (Su) {#true-magus}
 
 **Gained:** At 20th Level
 

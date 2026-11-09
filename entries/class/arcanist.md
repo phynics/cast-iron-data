@@ -98,7 +98,7 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 |19th|9|5|5|4|4|4|3|3|3|2|
 |20th|9|5|5|4|4|4|3|3|3|3|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -109,7 +109,7 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 **Notes:** Armor interferes with your gestures, which can cause your spells with somatic components
 to fail (see [Arcane Spells and Armor](ref/rule/arcane-spells-and-armor)).
 
-**Spells**
+#### Spells {#spells}
 
 **Ability:** You cast arcane spells drawn from the sorcerer/wizard spell list. You must prepare your
 spells ahead of time, but unlike a wizard, your spells are not expended when they're cast. Instead,
@@ -148,7 +148,7 @@ combine these options - a spell prepared with metamagic feats cannot be further 
 another metamagic feat at the time of casting (unless you have the
 [metamixing](ref/exploit/metamixing) arcanist exploit).
 
-**Cantrips**
+#### Cantrips {#cantrips}
 
 **Ability:** You can prepare a number of cantrips, or 0-level arcane spells, each day. These spells
 are cast like any other spell, but they do not consume spell slots. As with your other spells, these
@@ -156,7 +156,7 @@ spells are not expended when cast.
 
 **Gained:** At 1st Level
 
-**Spellbooks**
+#### Spellbooks {#spellbooks}
 
 **Ability:** You must study your spellbook each day to prepare your spells. You can't prepare any
 spell not recorded in your spellbook, except for [read magic](ref/spell/read-magic) (which all
@@ -171,7 +171,7 @@ spells of any spell level or levels that you can cast (based on your new arcanis
 spellbook. At any time, you can also add spells found in wizards' or other arcanists' spellbooks to
 your own (see [Arcane Magical Writing](ref/rule/arcane-magical-writing)).
 
-**Arcane Reservoir (Su)**
+#### Arcane Reservoir (Su) {#arcane-reservoir}
 
 **Flavor:** You have an innate pool of magical energy that you can draw upon to fuel many of your
 powers.
@@ -190,7 +190,7 @@ through the _consume spells_ class feature and some arcanist exploits. The arcan
 never hold more points than the maximum amount noted above; points gained in excess of this total
 are lost.
 
-**Arcanist Exploits**
+#### Arcanist Exploits {#arcanist-exploits}
 
 **Ability:** You learn one arcanist exploit. By bending and sometimes even breaking the rules of
 magic, you learn to exploit gaps and exceptions in the laws of magic. Some of these
@@ -212,7 +212,7 @@ equal to 10 + 1/2 your level + your Charisma modifier.
 There are also more dangerous [Outer Rifts exploits](ref/ability/outer-rifts-exploits) to choose
 from.
 
-**Consume Spells (Su)**
+#### Consume Spells (Su) {#consume-spells}
 
 **Gained:** At 1st Level
 
@@ -223,7 +223,7 @@ spells) in this way. Points gained in excess of the reservoir's maximum are lost
 
 **Usage:** Cha modifier times/day
 
-**Greater Exploits**
+#### Greater Exploits {#greater-exploits}
 
 **Section:** Other Abilities
 
@@ -232,7 +232,7 @@ spells) in this way. Points gained in excess of the reservoir's maximum are lost
 **Passive:** You can now choose a [greater exploit](ref/ability/greater-exploits) when you gain a a
 new arcanist exploit (described above).
 
-**Magical Supremacy (Su)**
+#### Magical Supremacy (Su) {#magical-supremacy}
 
 **Ability:** You can cast any spell you have prepared by expending a number of points from your
 arcane reservoir equal to 1 + the level of the spell to be cast instead of expending a spell slot.

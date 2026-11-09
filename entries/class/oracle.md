@@ -97,7 +97,7 @@ described below.
 |19th|9|5|5|4|4|4|3|3|3|2|
 |20th|9|5|5|4|4|4|3|3|3|3|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -107,7 +107,7 @@ described below.
 
 **Notes:** Some oracle revelations grant additional proficiencies.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Divine spells from the oracle list, from 1st level
 
@@ -127,12 +127,12 @@ another of the same level.
 
 **Notes:** No divine focus is needed for spells that list DF.
 
-**Orisons**
+#### Orisons {#orisons}
 
 **Ability:** 0-level divine spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Mystery**
+#### Mystery {#mystery}
 
 **Ability:** You must pick one [mystery](ref/ability/mysteries) upon taking your first level of
 oracle. Once made, this choice cannot be changed. This mystery grants additional class skills and
@@ -152,7 +152,7 @@ concept, or a natural calling to champion a cause. For example, an oracle with t
 worship the gods of the oceans, rivers, and lakes, be they benign or malevolent. Regardless of its
 source, the mystery manifests in a number of ways as the oracle gains levels.
 
-**Oracle's Curse (Ex)**
+#### Oracle's Curse (Ex) {#oracle-s-curse}
 
 **Ability:** You must choose a single oracle curse. Once made, this choice cannot be changed, and it
 cannot be removed or dispelled without the aid of a deity. Your curse is based on your oracle level
@@ -162,7 +162,7 @@ plus one for every two levels or Hit Dice other than oracle.
 
 **Gained:** At 1st Level
 
-**Revelation**
+#### Revelation {#revelation}
 
 **Ability:** You select a revelation from the list of revelations available to your mystery. Unless
 otherwise noted, activating the power of a revelation is a **standard action**.
@@ -176,7 +176,7 @@ otherwise noted, activating the power of a revelation is a **standard action**.
 **Special:** If a revelation is chosen after 1st level, you gain all of the abilities and bonuses
 granted by that revelation based on your current level.
 
-**Final Revelation**
+#### Final Revelation {#final-revelation}
 
 **Ability:** You gain the _final revelation_ listed in your mystery. The nature of these bonuses
 depends upon the mystery.

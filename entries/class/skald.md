@@ -98,7 +98,7 @@ Knowledge (engineering), Knowledge (geography), Knowledge (history), Knowledge (
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -112,14 +112,14 @@ failure chance for arcane spells received from other classes. Like other arcane 
 skald wearing heavy armor incurs a chance of arcane spell failure if the spell in question has
 somatic components.
 
-**Bardic Knowledge (Ex)**
+#### Bardic Knowledge (Ex) {#bardic-knowledge}
 
 **Gained:** At 1st Level
 
 **Passive:** You add [half](ref/misc/fractions-and-rounding) your class level (minimum 1) on all
 Knowledge skill checks, and may make all Knowledge skill checks untrained.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Arcane spells from the skald list, from 1st level
 
@@ -137,18 +137,18 @@ another of the same level.
 
 **Notes:** Every spell has a verbal component (song, recitation, or music).
 
-**Cantrips**
+#### Cantrips {#cantrips}
 
 **Ability:** 0-level arcane spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Scribe Scroll**
+#### Scribe Scroll {#scribe-scroll}
 
 **Ability:** You gain [Scribe Scroll](ref/feat/scribe-scroll) as a bonus feat.
 
 **Gained:** At 1st Level
 
-**Raging Song (Su)**
+#### Raging Song (Su) {#raging-song}
 
 **Action:** Standard Action
 
@@ -187,7 +187,7 @@ effects. This is not an action. [Unconscious](ref/misc/unconscious) allies autom
 song. If accepted, the raging song's effects last for that ally's turn or until the song ends,
 whichever comes first.
 
-**Inspired Rage (Su)**
+#### Inspired Rage (Su) {#inspired-rage}
 
 **Action:** At 1st Level
 
@@ -211,7 +211,7 @@ no fatigue afterward). However, _inspired rage_ does not allow the ally to activ
 dependent on other _rage_ class abilities, such as _rage powers, blood casting,_ or _bloodrager
 bloodlines;_ the ally must activate her own _rage_ class ability in order to use these features.
 
-**Song of Marching (Su)**
+#### Song of Marching (Su) {#song-of-marching}
 
 **At 3rd Level:** You can use _raging song_ to inspire your allies to move faster without suffering
 from fatigue. By expending 1 round of _raging song,_ you invigorate allies within 60 feet, who may
@@ -220,13 +220,13 @@ hustle) for the purpose of accruing nonlethal damage and fatigue. You must conti
 song for the remainder of the hour, otherwise its effects end, but only 1 round of _raging song_ is
 expended for that hour.
 
-**Song of Strength (Su)**
+#### Song of Strength (Su) {#song-of-strength}
 
 **At 6th Level:** You can use _raging song_ to inspire your allies to superhuman feats of strength.
 Once each round while you use this performance, allies within 60 feet who can hear you may add 1/2
 your level to a Strength check or Strength-based skill check.
 
-**Dirge of Doom (Su)**
+#### Dirge of Doom (Su) {#dirge-of-doom}
 
 **At 10th Level:** You can create a sense of growing dread in your enemies, causing them to become
 [shaken](ref/misc/shaken). This only affects enemies that are within 30 feet and able to hear your
@@ -236,7 +236,7 @@ already shaken from another effect.
 
 **Special:** This is a sonic mind-affecting fear effect, and relies on audible components.
 
-**Song of the Fallen (Su)**
+#### Song of the Fallen (Su) {#song-of-the-fallen}
 
 **At 14th Level:** You can temporarily revive dead allies to continue fighting, with the same
 limitations as [raise dead](ref/spell/raise-dead). You select a dead ally within 60 feet and expend
@@ -249,7 +249,7 @@ the effect.
 
 A skald may learn bardic masterpieces and [sagas](ref/ability/sagas).
 
-**Versatile Performance (Ex)**
+#### Versatile Performance (Ex) {#versatile-performance}
 
 **Action:** Ability
 
@@ -270,14 +270,14 @@ The types of Perform and their associated skills are:
 - **String:** Bluff, Diplomacy
 - **Wind:** Diplomacy, Handle Animal
 
-**Well-Versed (Ex)**
+#### Well-Versed (Ex) {#well-versed}
 
 **Gained:** At 2nd Level
 
 **Passive:** You gain a +4 bonus on saving throws made against bardic performance, as well as all
 sonic or language-dependent effects.
 
-**Rage Powers (Ex)**
+#### Rage Powers (Ex) {#rage-powers}
 
 **Ability:** You learn a rage power that affects you and any allies under the influence of your
 _inspired rage._
@@ -320,7 +320,7 @@ taken multiple times.
 If you have the ability to _rage_ from another source, you can use your skald rage powers during
 that _rage_ as well.
 
-**Uncanny Dodge (Ex)**
+#### Uncanny Dodge (Ex) {#uncanny-dodge}
 
 **Flavor:** A skald gains the ability to react to danger before his senses would normally allow him
 to do so.
@@ -334,7 +334,7 @@ or if an opponent successfully uses the [feint](ref/skill/bluff) action against 
 **Special:** If you have _uncanny dodge_ from a different class, you automatically gain _improved
 uncanny dodge_ instead.
 
-**Spell Kenning (Su)**
+#### Spell Kenning (Su) {#spell-kenning}
 
 **Ability:** You can cast any spell on the bard, cleric, or sorcerer/wizard spell list as if it were
 one of your skald spells known, expending a skald spell slot of the same spell level to cast the
@@ -348,7 +348,7 @@ duplicate those classes' spells.
 
 **Usage:** 1 time/day + 1 per 6 skald levels beyond 5th
 
-**Lore Master (Ex)**
+#### Lore Master (Ex) {#lore-master}
 
 **Ability:** You can take 10 on any Knowledge skill check that you have ranks in.
 
@@ -362,7 +362,7 @@ duplicate those classes' spells.
 
 **Standard:** Once per day, you can take 20 on any Knowledge skill check.
 
-**Improved Uncanny Dodge (Ex)**
+#### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
 **Section:** Other Abilities
 
@@ -375,7 +375,7 @@ more levels in a class that grants sneak attack than you have skald levels.
 **Special:** If you already have uncanny dodge from another class, the levels from the classes that
 grant uncanny dodge stack to determine the minimum level required to flank you.
 
-**Damage Reduction (Ex)**
+#### Damage Reduction (Ex) {#damage-reduction}
 
 **At 14th Level:** Your DR becomes 2/-.
 
@@ -389,7 +389,7 @@ can reduce damage to 0, but not below 0.
 
 **Special:** You grant this DR to all allies affected by your _inspired rage._
 
-**Master Skald (Su)**
+#### Master Skald (Su) {#master-skald}
 
 **Gained:** At 20th Level
 
