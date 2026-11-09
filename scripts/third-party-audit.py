@@ -4,14 +4,15 @@
 Run from the corpus root:
 
     python3 scripts/third-party-audit.py
+    python3 scripts/third-party-audit.py --self-test
 
 A publication with ``third_party = true`` is not published by Paizo. Its text
 must stay in entries that cite only that publication, in an add-on or revision
 entry, so turning the book off removes it completely. This script reports:
 
-(a) a third-party id in ``source_ids`` whose entry body does not cite it, and a
-    body Source line that cites a third-party publication whose id is missing
-    from ``source_ids``;
+(a) a third-party id in ``source_ids`` with no citation in the entry, and a
+    citation whose third-party publication id is missing from ``source_ids``.
+    A citation is a front-matter ``[[sources]]`` row or a body Source line;
 (b) a long paragraph in a non-third-party entry that exactly or nearly matches
     a paragraph in a third-party-only entry;
 (c) a body link or relation from an entry with no third-party source to an
@@ -71,6 +72,60 @@ def publication_aliases(publication: dict) -> list[str]:
     return sorted(alias for alias in aliases if alias)
 
 
+def front_source_rows(front: str) -> list[tuple[str, int]]:
+    """Publication ids in ``[[sources]]`` rows with their file line numbers.
+
+    The argument is front matter without the opening fence. Its first line is
+    file line 2, so one is added to the relative line.
+    """
+    rows: list[tuple[str, int]] = []
+    inside = False
+    for line_number, line in enumerate(front.splitlines(), start=1):
+        stripped = line.strip()
+        if stripped == "[[sources]]":
+            inside = True
+            continue
+        if stripped.startswith("[") and stripped != "[[sources]]":
+            inside = False
+            continue
+        if not inside or not stripped.startswith("publication = "):
+            continue
+        value = stripped.split("=", 1)[1].strip()
+        if len(value) >= 2 and value[0] == '"' and value[-1] == '"':
+            rows.append((value[1:-1], line_number + 1))
+    return rows
+
+
+def self_test() -> int:
+    """Check the two citation forms independently of the corpus."""
+    front = (
+        'id = "ref/rule/a"\n'
+        "[[sources]]\n"
+        'publication = "front-a"\n'
+        'page = "1"\n'
+        "[[sources]]\n"
+        'publication = "front-b"\n'
+    )
+    rows = front_source_rows(front)
+    assert [publication for publication, _ in rows] == ["front-a", "front-b"], rows
+    assert [line for _, line in rows] == [4, 7], rows
+
+    body = (
+        "**Sources:** Body Book pg 1\\\n"
+        "Text.\n"
+    )
+    lines = source_lines(body)
+    assert len(lines) == 1 and lines[0][0] == 1, lines
+    assert "Body Book" in lines[0][1], lines
+
+    # A paragraph that began with a body Source line must scan the same way as
+    # one whose citation moved to front matter.
+    paragraphs = body_paragraphs(body)
+    assert paragraphs == [(2, "Text.")], paragraphs
+    print("third-party audit self-test ok")
+    return 0
+
+
 def read_entries() -> dict[str, dict]:
     entries: dict[str, dict] = {}
     for path in sorted(ENTRY_DIR.rglob("*.md")):
@@ -92,6 +147,7 @@ def read_entries() -> dict[str, dict]:
             "body": body,
             "body_line": text.count("\n", 0, match.start(2)) + 1,
             "source_ids": list(data.get("source_ids", [])),
+            "source_rows": front_source_rows(front),
             "relations": list(data.get("relations", [])),
         }
     return entries
@@ -116,6 +172,9 @@ def body_paragraphs(body: str) -> list[tuple[int, str]]:
             if current:
                 paragraphs.append((start, " ".join(current)))
                 current = []
+            line += 1
+            continue
+        if stripped.startswith("**Sources:**"):
             line += 1
             continue
         if not current:
@@ -147,6 +206,11 @@ def markdown_cell(text: str) -> str:
 
 
 def main() -> int:
+    if sys.argv[1:] == ["--self-test"]:
+        return self_test()
+    if sys.argv[1:]:
+        print("usage: third-party-audit.py [--self-test]", file=sys.stderr)
+        return 2
     if not PUBLICATIONS.is_file() or not ENTRY_DIR.is_dir():
         print("error: run from the corpus root", file=sys.stderr)
         return 2
@@ -190,22 +254,26 @@ def main() -> int:
     def file_line(entry: dict, body_line: int) -> int:
         return entry["body_line"] + body_line - 1
 
-    # (a) source_ids against body Source lines.
-    stale: list[tuple[dict, str, list[int]]] = []
-    uncited: list[tuple[dict, str, list[int]]] = []
+    # (a) source_ids against the front-matter rows and any remaining body Source lines.
+    stale: list[tuple[dict, str, list[str]]] = []
+    uncited: list[tuple[dict, str, list[str]]] = []
     for entry in entries.values():
         lines = source_lines(entry["body"])
         for publication_id in sorted(third_party):
             listed = publication_id in entry["source_ids"]
-            printed = [line for line, text in lines if named_in_sources(text, publication_id)]
+            printed = [
+                f"front matter:{line}"
+                for publication, line in entry["source_rows"]
+                if publication == publication_id
+            ] + [
+                f"body:{file_line(entry, line)}"
+                for line, text in lines
+                if named_in_sources(text, publication_id)
+            ]
             if listed and not printed:
-                stale.append(
-                    (entry, publication_id, [file_line(entry, line) for line, _ in lines])
-                )
+                stale.append((entry, publication_id, printed))
             if printed and not listed:
-                uncited.append(
-                    (entry, publication_id, [file_line(entry, line) for line in printed])
-                )
+                uncited.append((entry, publication_id, printed))
 
     # (b) uncited third-party text in non-third-party bodies.
     third_party_paragraphs: list[tuple[str, int, str, str]] = []
@@ -339,27 +407,28 @@ def main() -> int:
         title = by_id[publication_id]["title"]
         print(f"| `{publication_id}` ({markdown_cell(title)}) | {with_source} | {only} |")
 
-    print("\n## (a) `source_ids` against body Source lines\n")
-    print(f"- A third-party id in `source_ids` with no body Source line citing it: **{len(stale)}**")
-    if stale:
-        print("\n| Entry | Publication | Source lines |")
-        print("|---|---|---|")
-        for entry, publication_id, lines in stale:
-            line_list = ", ".join(str(line) for line in lines) or "none"
-            print(
-                f"| `{entry['id']}` | `{publication_id}` | {line_list} |"
-            )
+    print("\n## (a) `source_ids` against citations\n")
     print(
-        f"\n- A body Source line citing a third-party publication whose id is not in "
+        f"- A third-party id in `source_ids` with no `[[sources]]` row or body "
+        f"Source line citing it: **{len(stale)}**"
+    )
+    if stale:
+        print("\n| Entry | Publication | Citation |")
+        print("|---|---|---|")
+        for entry, publication_id, places in stale:
+            shown = ", ".join(places) or "none"
+            print(f"| `{entry['id']}` | `{publication_id}` | {shown} |")
+    print(
+        f"\n- A citation naming a third-party publication whose id is not in "
         f"`source_ids`: **{len(uncited)}**"
     )
     if uncited:
-        print("\n| Entry | Publication | Source line |")
-        print("|---|---|---:|")
-        for entry, publication_id, lines in uncited:
+        print("\n| Entry | Publication | Citation |")
+        print("|---|---|---|")
+        for entry, publication_id, places in uncited:
             print(
                 f"| `{entry['id']}` | `{publication_id}` | "
-                f"{', '.join(str(line) for line in lines)} |"
+                f"{', '.join(places)} |"
             )
 
     print("\n## (b) Uncited third-party text in non-third-party bodies\n")
