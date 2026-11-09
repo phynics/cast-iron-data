@@ -17244,6 +17244,24 @@ title = "JuJu Zombie"
 entry = "ref/template/juju-zombie"
 
 [[books.chapters]]
+title = "Universal Monster Rules"
+
+[[books.chapters.children]]
+title = "Lycanthropic Empathy"
+entry = "ref/umr/lycanthropic-empathy"
+
+[[books.chapters.children.children]]
+title = "Lycanthropic Empathy"
+entry = "ref/rule/umr-lycanthropic-empathy/lycanthropic-empathy"
+
+[[books.chapters]]
+title = "Monster Subtypes"
+
+[[books.chapters.children]]
+title = "Grippli"
+entry = "ref/subtype/grippli"
+
+[[books.chapters]]
 title = "New entries (page order)"
 review = "Canonical entries of this publication that the curated PSRD tree does not place. They follow their page number; this is a page-ordered list, not a chapter position."
 
@@ -17258,14 +17276,6 @@ entry = "ref/template/resolute"
 [[books.chapters.children]]
 title = "Step 2: Target Statistics"
 entry = "ref/rule/step-2-target-statistics"
-
-[[books.chapters.children]]
-title = "Lycanthropic Empathy"
-entry = "ref/umr/lycanthropic-empathy"
-
-[[books.chapters.children.children]]
-title = "Lycanthropic Empathy"
-entry = "ref/rule/umr-lycanthropic-empathy/lycanthropic-empathy"
 
 [[books.chapters.children]]
 title = "Nightshade"
@@ -17410,10 +17420,6 @@ entry = "ref/subtype/gnome"
 [[books.chapters.children]]
 title = "Good"
 entry = "ref/subtype/good"
-
-[[books.chapters.children]]
-title = "Grippli"
-entry = "ref/subtype/grippli"
 
 [[books.chapters.children]]
 title = "Heat"
@@ -21349,20 +21355,7 @@ title = "Zomok"
 entry = "ref/monster/zomok"
 
 [[books.chapters]]
-title = "New entries (page order)"
-review = "Canonical entries of this publication that the curated PSRD tree does not place. They follow their page number; this is a page-ordered list, not a chapter position."
-
-[[books.chapters.children]]
-title = "Hellbound Creature"
-entry = "ref/template/hellbound-creature"
-
-[[books.chapters.children]]
-title = "Rare Races"
-entry = "ref/rule/rare-races"
-
-[[books.chapters.children]]
-title = "Void"
-entry = "ref/domain/void"
+title = "Universal Monster Rules"
 
 [[books.chapters.children]]
 title = "Amazing Initiative"
@@ -21467,6 +21460,22 @@ entry = "ref/umr/water-dependency"
 [[books.chapters.children.children]]
 title = "Water Dependency"
 entry = "ref/rule/umr-water-dependency/water-dependency"
+
+[[books.chapters]]
+title = "New entries (page order)"
+review = "Canonical entries of this publication that the curated PSRD tree does not place. They follow their page number; this is a page-ordered list, not a chapter position."
+
+[[books.chapters.children]]
+title = "Hellbound Creature"
+entry = "ref/template/hellbound-creature"
+
+[[books.chapters.children]]
+title = "Rare Races"
+entry = "ref/rule/rare-races"
+
+[[books.chapters.children]]
+title = "Void"
+entry = "ref/domain/void"
 
 [[books.chapters.children]]
 title = "Dimorphodon"
@@ -39650,8 +39659,27 @@ entry = "ref/race/goblin"
 [[books]]
 source = "mythic-adventures"
 title = "Mythic Adventures"
-basis = "The chapter titles, their order, and their first pages are checked against the printed contents page of Mythic Adventures. The Glossary is front matter in print, so it is placed first here. Each chapter holds its printed section headings, and each entry sits in its printed section in page order. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
+basis = "The chapter titles, their order, and their first pages are checked against the printed contents page of Mythic Adventures. The Introduction and Glossary are front matter in print, so they are placed first in printed order. Each chapter holds its printed section headings, and each entry sits in its printed section in page order. See docs/research/book-order-evidence.md. Canonical ids were substituted through the reviewed alias map; chapters and order are unchanged."
 review = ["The printed chapter 7: Fire Over Blackcrag has no corresponding chapter in the dataset.", "The 269 mythic spell records are not part of the library (see coverage).", "Nested placement follows the printed section headings; entries that share a printed page keep the dataset order.", "Canonical ids were substituted through sources/canonical/id-map.toml. A legacy entry with no installed target is omitted and listed in coverage."]
+
+[[books.chapters]]
+title = "Introduction"
+
+[[books.chapters.children]]
+title = "Mythic Rules"
+entry = "ref/rule/mythic-rules"
+
+[[books.chapters.children]]
+title = "What is Mythic?"
+entry = "ref/rule/what-is-mythic"
+
+[[books.chapters.children]]
+title = "Mythic versus Non-Mythic"
+entry = "ref/rule/mythic-versus-non-mythic"
+
+[[books.chapters.children]]
+title = "What Makes Mythic Adventures Different"
+entry = "ref/rule/what-makes-mythic-adventures-different"
 
 [[books.chapters]]
 title = "Glossary"
@@ -42700,22 +42728,6 @@ entry = "ref/rule/evaluating-monster-statistics"
 [[books.chapters]]
 title = "New entries (page order)"
 review = "Canonical entries of this publication that the curated PSRD tree does not place. They follow their page number; this is a page-ordered list, not a chapter position."
-
-[[books.chapters.children]]
-title = "Mythic Rules"
-entry = "ref/rule/mythic-rules"
-
-[[books.chapters.children]]
-title = "What is Mythic?"
-entry = "ref/rule/what-is-mythic"
-
-[[books.chapters.children]]
-title = "Mythic versus Non-Mythic"
-entry = "ref/rule/mythic-versus-non-mythic"
-
-[[books.chapters.children]]
-title = "What Makes Mythic Adventures Different"
-entry = "ref/rule/what-makes-mythic-adventures-different"
 
 [[books.chapters.children]]
 title = "Accursed Hex"
@@ -51078,6 +51090,10 @@ review = ["Class Archetypes is a dataset split kept as a sub-group inside the pr
 title = "Classes"
 
 [[books.chapters.children]]
+title = "Alternate Classes"
+entry = "ref/rule/alternate-classes"
+
+[[books.chapters.children]]
 title = "Gunslinger"
 entry = "ref/class/gunslinger"
 
@@ -55371,10 +55387,6 @@ entry = "ref/spell/wreath-of-blades"
 [[books.chapters]]
 title = "New entries (page order)"
 review = "Canonical entries of this publication that the curated PSRD tree does not place. They follow their page number; this is a page-ordered list, not a chapter position."
-
-[[books.chapters.children]]
-title = "Alternate Classes"
-entry = "ref/rule/alternate-classes"
 
 [[books.chapters.children]]
 title = "Base Classes"

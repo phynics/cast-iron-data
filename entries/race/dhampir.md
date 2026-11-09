@@ -95,7 +95,7 @@ surname derived from a significant event.
 vigor is impeded. Dhampirs of specific heritages (see below) gain different ability score modifiers
 as indicated.
 
-**Humanoid:** Dhampirs are humanoids with the dhampir subtype.
+**Humanoid:** Dhampirs are humanoids with the [dhampir subtype](ref/subtype/dhampir).
 
 **Medium:** Dhampirs are Medium creatures and have no bonuses or penalties due to their size.
 

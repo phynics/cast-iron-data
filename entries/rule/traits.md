@@ -39,3 +39,6 @@ special; they're the stars of the game, after all, and it makes sense that they 
 over the NPCs of the world in this way.
 
 The master list of traits can be found here.
+
+See [Filling Out the Details](ref/rule/traits-and-other-details) for the shared introduction to
+character details and traits.
