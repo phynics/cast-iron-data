@@ -2,7 +2,7 @@
 id = "ref/talent/combat-swipe-unchained-rogue"
 kind = "class_option"
 title = "Combat Swipe (Unchained Rogue)"
-source_ids = ["pathfinder-unchained", "the-elephant-in-the-room-feat-taxes-in-pathfinder"]
+source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_swipe_unchained_rogue", path = "json/class_ability_rogue_talents.json" },
 ]
