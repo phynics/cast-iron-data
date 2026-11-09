@@ -105611,8 +105611,16 @@ title = "Amnesia"
 entry = "ref/madness/amnesia"
 
 [[books.chapters.children.children.children]]
+title = "Dissociated Identity"
+entry = "ref/madness/dissociated-identity"
+
+[[books.chapters.children.children.children]]
 title = "Mania"
 entry = "ref/madness/mania"
+
+[[books.chapters.children.children.children]]
+title = "Moral Insanity"
+entry = "ref/madness/moral-insanity"
 
 [[books.chapters.children.children.children]]
 title = "Paranoid"
@@ -105625,14 +105633,6 @@ entry = "ref/madness/phobia"
 [[books.chapters.children.children.children]]
 title = "Schizophrenia"
 entry = "ref/madness/schizophrenia"
-
-[[books.chapters.children.children]]
-title = "Dissociated Identity"
-entry = "ref/madness/dissociated-identity"
-
-[[books.chapters.children.children]]
-title = "Moral Insanity"
-entry = "ref/madness/moral-insanity"
 
 [[books.chapters]]
 title = "NPC Gallery"
