@@ -54634,16 +54634,8 @@ title = "Taking Control of a Vehicle"
 entry = "ref/rule/vic-taking-control-of-a-vehicle"
 
 [[books.chapters.children.children]]
-title = "Propulsion Devices"
-entry = "ref/rule/propulsion-devices"
-
-[[books.chapters.children.children]]
 title = "Attacks against Vehicles"
 entry = "ref/rule/vic-attacks-against-vehicles"
-
-[[books.chapters.children.children]]
-title = "Driving Devices"
-entry = "ref/rule/driving-devices"
 
 [[books.chapters.children.children]]
 title = "Vehicle Combat Maneuvers"
@@ -54652,6 +54644,14 @@ entry = "ref/rule/vic-vehicle-combat-maneuvers"
 [[books.chapters.children.children]]
 title = "Damaging and Repairing a Vehicle"
 entry = "ref/rule/vic-damaging-a-vehicle"
+
+[[books.chapters.children.children]]
+title = "Propulsion Devices"
+entry = "ref/rule/propulsion-devices"
+
+[[books.chapters.children.children]]
+title = "Driving Devices"
+entry = "ref/rule/driving-devices"
 
 [[books.chapters.children]]
 title = "Vehicle Statistics"
