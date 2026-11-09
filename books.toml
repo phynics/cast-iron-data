@@ -14214,6 +14214,7 @@ entry = "ref/affliction/zombie/zombie-rot"
 [[books.chapters]]
 title = "Universal Monster Rules"
 entry = "ref/carried/bestiary/rules/universal-monster-rules"
+collapse = true
 
 [[books.chapters.children]]
 title = "Ability Damage and Drain"
@@ -17245,6 +17246,7 @@ entry = "ref/template/juju-zombie"
 
 [[books.chapters]]
 title = "Universal Monster Rules"
+collapse = true
 
 [[books.chapters.children]]
 title = "Lycanthropic Empathy"
@@ -19554,6 +19556,7 @@ entry = "ref/monster/zuvembie"
 
 [[books.chapters]]
 title = "Universal Monster Rules"
+collapse = true
 
 [[books.chapters.children]]
 title = "Capsize"
@@ -21356,6 +21359,7 @@ entry = "ref/monster/zomok"
 
 [[books.chapters]]
 title = "Universal Monster Rules"
+collapse = true
 
 [[books.chapters.children]]
 title = "Amazing Initiative"
@@ -28285,6 +28289,7 @@ entry = "ref/carried/core-rulebook/rules/glossary"
 [[books.chapters.children]]
 title = "Special Abilities"
 entry = "ref/carried/core-rulebook/rules/glossary/special-abilities"
+collapse = true
 
 [[books.chapters.children.children]]
 title = "Curses"
