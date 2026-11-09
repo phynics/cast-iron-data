@@ -4,6 +4,7 @@ title = "Academy of Secrets"
 copyright = "Pathfinder Module: Academy of Secrets. © 2011, Paizo Publishing, LLC; Author: Brian Cortijo."
 category = "Module"
 publication_date = "2011-05-01"
+series_kind = "module"
 
 [[publication]]
 id = "advanced-class-guide"
@@ -186,6 +187,7 @@ title = "Beyond the Vault of Souls"
 copyright = "Pathfinder Module J5: Beyond the Vault of Souls, Copyright 2009, Paizo Publishing, LLC. Author: Colin McComb."
 category = "Module"
 publication_date = "2009-07-01"
+series_kind = "module"
 
 [[publication]]
 id = "black-markets"
@@ -207,6 +209,7 @@ title = "Blood of Dragonscar"
 copyright = "Pathfinder Module E2: Blood of Dragonscar, Copyright 2009, Paizo Publishing, LLC. Author: Keith Baker."
 category = "Module"
 publication_date = "2009-06-01"
+series_kind = "module"
 
 [[publication]]
 id = "blood-of-fiends"
@@ -312,6 +315,7 @@ title = "Broken Chains"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Module"
 publication_date = "2013-03-26"
+series_kind = "module"
 
 [[publication]]
 id = "carnival-of-tears"
@@ -319,6 +323,7 @@ title = "Carnival of Tears"
 copyright = "GameMastery Module E1: Carnival of Tears, Copyright 2007 Paizo Publishing, LLC. Authors: Tim Hitchcock and Nicolas Logue."
 category = "Module"
 publication_date = "2008-05-01"
+series_kind = "module"
 
 [[publication]]
 id = "carrion-crown-players-guide"
@@ -333,6 +338,7 @@ title = "Carrion Hill"
 copyright = "Pathfinder Module: Carrion Hill. Copyright 2009, Paizo Publishing, LLC. Author: Richard Pett."
 category = "Module"
 publication_date = "2009-10-01"
+series_kind = "module"
 
 [[publication]]
 id = "castles-of-the-inner-sea"
@@ -403,6 +409,7 @@ title = "City of Golden Death"
 copyright = "Pathfinder Module: City of Golden Death. Copyright 2010, Paizo Publishing, LLC. Author: Joshua J. Frost."
 category = "Module"
 publication_date = "2010-04-01"
+series_kind = "module"
 
 [[publication]]
 id = "city-of-strangers"
@@ -452,6 +459,7 @@ title = "Conquest of Bloodsworn Vale"
 copyright = "GameMastery Module W1: Conquest Of Bloodsworn Vale. Copyright 2007, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Module"
 publication_date = "2007-11-01"
+series_kind = "module"
 
 [[publication]]
 id = "construct-handbook"
@@ -480,6 +488,7 @@ title = "Cradle of Night"
 copyright = "© 2018, Paizo Inc.; Authors: James Jacobs, F. Wesley Schneider, Neil Spicer, and Greg A. Vaughan."
 category = "Module"
 publication_date = "2018-09-15"
+series_kind = "module"
 
 [[publication]]
 id = "crown-of-the-kobold-king"
@@ -487,6 +496,7 @@ title = "Crown of the Kobold King"
 copyright = "GameMastery Module D1: Crown of the Kobold King, Copyright 2007 Paizo Publishing, LLC. Author: Nicolas Logue."
 category = "Module"
 publication_date = "2007-10-01"
+series_kind = "module"
 
 [[publication]]
 id = "crucible-of-chaos"
@@ -494,6 +504,7 @@ title = "Crucible of Chaos"
 copyright = "GameMastery Module J3: Crucible of Chaos, Copyright 2008, Paizo Publishing, LLC. Author: Wolfgang Baur."
 category = "Module"
 publication_date = "2008-08-01"
+series_kind = "module"
 
 [[publication]]
 id = "cult-of-the-ebon-destroyers"
@@ -501,6 +512,7 @@ title = "Cult of the Ebon Destroyers"
 copyright = "Pathfinder Module: Cult of the Ebon Destroyers. © 2011, Paizo Publishing, LLC; Author: Matthew Goodall."
 category = "Module"
 publication_date = "2011-02-01"
+series_kind = "module"
 
 [[publication]]
 id = "curse-of-the-crimson-throne"
@@ -522,6 +534,7 @@ title = "Curse of the Riven Sky"
 copyright = "Pathfinder Module: Curse of the Riven Sky. © 2010, Paizo Publishing, LLC; Author: Monte Cook."
 category = "Module"
 publication_date = "2010-10-01"
+series_kind = "module"
 
 [[publication]]
 id = "dark-markets-a-guide-to-katapesh"
@@ -543,6 +556,7 @@ title = "Daughters of Fury"
 copyright = '© 2015, Paizo Inc.; Authors: Victoria Jaczko, with Tyler Beck, Robert Brookes, J. R. Casey, Casey Clements, Clay Clouser, Tyler Cowart, Terry Dutton, Kenneth "Tripp" Elliott, Brian J. Fruzen, Emmanuel Greene, Sam Harris, Peter Johansen, Mikko Kallio, Joseph L. Kellogg, Mike Kimmel, Michele La Barbera, Brian Lefebvre, Richard Malena, Andrew Marlowe, Jacob W. Michaels, Mark Nordheim, Kalervo Oikarinen, Michael Patrick, Iain Reid, Calder Rooney, Mikael Sebag, Andrew Shumate, Jesse Southwick, Andrew Umphrey, and Christopher Wasko.'
 category = "Module"
 publication_date = "2015-02-25"
+series_kind = "module"
 
 [[publication]]
 id = "demon-hunters-handbook"
@@ -606,6 +620,7 @@ title = "Doom Comes to Dustpawn"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Mike Welham."
 category = "Module"
 publication_date = "2013-06-15"
+series_kind = "module"
 
 [[publication]]
 id = "down-the-blighted-path"
@@ -613,6 +628,7 @@ title = "Down the Blighted Path"
 copyright = "© 2016, Paizo Inc.; Author: Monica Marlowe."
 category = "Module"
 publication_date = "2016-02-24"
+series_kind = "module"
 
 [[publication]]
 id = "dragon-empires-gazetteer"
@@ -690,6 +706,7 @@ title = "Entombed with the Pharaohs"
 copyright = "GameMastery Module J1: Entombed with the Pharaohs, Copyright 2007 Paizo Publishing, LLC. Author: Michael Kortes."
 category = "Module"
 publication_date = "2008-02-01"
+series_kind = "module"
 
 [[publication]]
 id = "faction-guide"
@@ -746,6 +763,7 @@ title = "Fangwood Keep"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Alex Greenshields."
 category = "Module"
 publication_date = "2013-05-04"
+series_kind = "module"
 
 [[publication]]
 id = "feast-of-dust"
@@ -753,6 +771,7 @@ title = "Feast of Dust"
 copyright = "© 2015, Paizo Inc.; Author: Nicolas Logue."
 category = "Module"
 publication_date = "2015-10-21"
+series_kind = "module"
 
 [[publication]]
 id = "feast-of-ravenmoor"
@@ -760,6 +779,7 @@ title = "Feast of Ravenmoor"
 copyright = "Pathfinder Module: Feast of Ravenmoor. © 2011, Paizo Publishing, LLC; Author: Brandon Hodge."
 category = "Module"
 publication_date = "2011-10-01"
+series_kind = "module"
 
 [[publication]]
 id = "fey-revisited"
@@ -774,6 +794,7 @@ title = "Flight of the Red Raven"
 copyright = "© 2008, Paizo Publishing, LLC. Author: David Schwartz."
 category = "Module"
 publication_date = "2008-12-01"
+series_kind = "module"
 
 [[publication]]
 id = "from-shore-to-sea"
@@ -781,6 +802,7 @@ title = "From Shore to Sea"
 copyright = "Pathfinder Module: From Shore to Sea. © 2010, Paizo Publishing, LLC; Author: Brandon Hodge."
 category = "Module"
 publication_date = "2010-06-01"
+series_kind = "module"
 
 [[publication]]
 id = "gallery-of-evil"
@@ -788,6 +810,7 @@ title = "Gallery of Evil"
 copyright = "GameMastery Module U1: Gallery of Evil. Copyright 2007 Paizo Publishing, LLC. Author: Stephen S. Greer."
 category = "Module"
 publication_date = "2008-01-01"
+series_kind = "module"
 
 [[publication]]
 id = "gallows-of-madness"
@@ -795,6 +818,7 @@ title = "Gallows of Madness"
 copyright = "© 2016, Paizo Inc.; Authors: Benjamin Bruck, Mikko Kallio, and Mike Kimmel."
 category = "Module"
 publication_date = "2016-07-28"
+series_kind = "module"
 
 [[publication]]
 id = "game-mastery-guide"
@@ -856,6 +880,7 @@ title = "Guardians of Dragonfall"
 copyright = "GameMastery Module J2: Guardians of Dragonfall, Copyright 2007, Paizo Publishing, LLC. Author: Anson Caralya."
 category = "Module"
 publication_date = "2008-06-01"
+series_kind = "module"
 
 [[publication]]
 id = "guide-to-darkmoon-vale"
@@ -975,6 +1000,7 @@ title = "Hollow's Last Hope"
 copyright = "GameMastery Module D0: Hollow’s Last Hope, Copyright 2007 Paizo Publishing, LLC. Author: Jason Bulmahn and F. Wesley Schneider."
 category = "Module"
 publication_date = "2007-09-01"
+series_kind = "module"
 
 [[publication]]
 id = "horror-adventures"
@@ -1003,6 +1029,7 @@ title = "Hungry are the Dead"
 copyright = "Pathfinder Module D4: Hungry Are the Dead, Copyright 2008, Paizo Publishing, LLC. Author: Tim Hitchcock."
 category = "Module"
 publication_date = "2009-03-01"
+series_kind = "module"
 
 [[publication]]
 id = "inner-sea-bestiary"
@@ -1108,6 +1135,7 @@ title = "Ire of the Storm"
 copyright = "© 2016, Paizo Inc.; Author: Thurston Hillman."
 category = "Module"
 publication_date = "2016-03-25"
+series_kind = "module"
 
 [[publication]]
 id = "iron-gods-players-guide"
@@ -1260,6 +1288,7 @@ title = "Masks of the Living God"
 copyright = "Pathfinder Module: Masks of the Living God. Copyright 2009, Paizo Publishing, LLC. Author: Jason Bulmahn."
 category = "Module"
 publication_date = "2009-12-01"
+series_kind = "module"
 
 [[publication]]
 id = "melee-tactics-toolbox"
@@ -1316,6 +1345,7 @@ title = "Murder's Mark"
 copyright = "Pathfinder Module: Murder's Mark © 2012, Paizo Publishing, LLC; Author: Jim Groves."
 category = "Module"
 publication_date = "2012-10-01"
+series_kind = "module"
 
 [[publication]]
 id = "mystery-monsters-revisited"
@@ -1365,6 +1395,7 @@ title = "No Response from Deepmar"
 copyright = "© 2012, Paizo Publishing, LLC; Author: Stephen S. Greer."
 category = "Module"
 publication_date = "2012-04-01"
+series_kind = "module"
 
 [[publication]]
 id = "npc-codex"
@@ -1449,6 +1480,9 @@ title = "Pathfinder #1: Burnt Offerings"
 copyright = "Pathfinder 1: Burnt Offerings. Copyright 2007, Paizo Publishing, LLC; Author: James Jacobs.; © 2007, Paizo Publishing LLC. Author: James Jacobs."
 category = "Adventure Path"
 publication_date = "2007-09-02"
+series_kind = "adventure-path"
+series = "Rise of the Runelords"
+series_number = "1"
 
 [[publication]]
 id = "pathfinder-10-a-history-of-ashes"
@@ -1456,6 +1490,9 @@ title = "Pathfinder #10: A History of Ashes"
 copyright = "Pathfinder 10: A History of Ashes. Copyright 2008, Paizo Publishing, LLC; Author: Michael Kortes.; © 2008, Paizo Publishing, LLC; Author: Michael Kortes."
 category = "Adventure Path"
 publication_date = "2008-06-01"
+series_kind = "adventure-path"
+series = "Curse of the Crimson Throne"
+series_number = "10"
 
 [[publication]]
 id = "pathfinder-100-a-song-of-silver"
@@ -1463,6 +1500,9 @@ title = "Pathfinder #100: A Song of Silver"
 copyright = "Pathfinder Adventure Path #100: A Song of Silver © 2015, Paizo Inc.; Authors: James Jacobs, with Adam Daigle, Crystal Frasier, Jim Groves, Tim Hitchcock, Brandon Hodge, Nicolas Logue, Stephanie Lorée, Rob McCreary, Erik Mona, Jason Nelson, Richard Pett, Sean K Reynolds, F. Wesley Schneider, Amber E. Scott, Mike Shel, Neil Spicer, and Greg A. Vaughan.; © 2015, Paizo Inc.; Authors: James Jacobs, with Adam Daigle, Crystal Frasier, Jim Groves, Tim Hitchcock, Brandon Hodge, Nicolas Logue, Stephanie Lorée, Rob McCreary, Erik Mona, Jason Nelson, Richard Pett, Sean K Reynolds, F. Wesley Schneider, Amber E. Scott, Mike Shel, Neil Spicer, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2015-12-16"
+series_kind = "adventure-path"
+series = "Hell's Rebels"
+series_number = "100"
 
 [[publication]]
 id = "pathfinder-101-the-kintargo-contract"
@@ -1470,6 +1510,9 @@ title = "Pathfinder #101: The Kintargo Contract"
 copyright = "© 2015, Paizo Inc.; Authors: Jim Groves, with Robert Brookes, Stephanie Lorée, Kalervo Oikarinen, David N. Ross, F. Wesley Schneider, and Todd Stewart."
 category = "Adventure Path"
 publication_date = "2016-01-16"
+series_kind = "adventure-path"
+series = "Hell's Rebels"
+series_number = "101"
 
 [[publication]]
 id = "pathfinder-102-breaking-the-bones-of-hell"
@@ -1477,6 +1520,9 @@ title = "Pathfinder #102: Breaking the Bones of Hell"
 copyright = "© 2016, Paizo Inc.; Authors: Amber E. Scott, with Adam Daigle, James Jacobs, Jenny Jarzabski, Mikko Kallio, Stephanie Lorée, F. Wesley Schneider, and David Schwartz."
 category = "Adventure Path"
 publication_date = "2016-02-01"
+series_kind = "adventure-path"
+series = "Hell's Rebels"
+series_number = "102"
 
 [[publication]]
 id = "pathfinder-103-the-hellfire-compact"
@@ -1484,6 +1530,9 @@ title = "Pathfinder #103: The Hellfire Compact"
 copyright = "© 2016, Paizo Inc.; Authors: F. Wesley Schneider, with Paris Crenshaw, Mikko Kallio, Jason Keeley, Rob McCreary, Mark Moreland, and Josh Vogt."
 category = "Adventure Path"
 publication_date = "2016-02-24"
+series_kind = "adventure-path"
+series = "Hell's Vengeance"
+series_number = "103"
 
 [[publication]]
 id = "pathfinder-104-wrath-of-thrune"
@@ -1491,6 +1540,9 @@ title = "Pathfinder #104: Wrath of Thrune"
 copyright = "© 2016, Paizo Inc.; Authors: Thurston Hillman, with Jason Keeley, Rob McCreary, Kalervo Oikarinen, Josh Vogt, and Linda Zayas-Palmer."
 category = "Adventure Path"
 publication_date = "2016-03-23"
+series_kind = "adventure-path"
+series = "Hell's Vengeance"
+series_number = "104"
 
 [[publication]]
 id = "pathfinder-105-the-inferno-gate"
@@ -1498,6 +1550,9 @@ title = "Pathfinder #105: The Inferno Gate"
 copyright = "© 2016, Paizo Inc.; Authors: Patrick Renie, with Benjamin Bruck, Joe Homes, Jason Keeley, F. Wesley Schneider, Jeffrey Swank, Josh Vogt, and Mike Welham."
 category = "Adventure Path"
 publication_date = "2016-04-27"
+series_kind = "adventure-path"
+series = "Hell's Vengeance"
+series_number = "105"
 
 [[publication]]
 id = "pathfinder-106-for-queen-and-empire"
@@ -1505,6 +1560,9 @@ title = "Pathfinder #106: For Queen and Empire"
 copyright = "© 2016, Paizo Inc.; Authors: Stephen Radney-MacFarland, with Adam Daigle, Crystal Frasier, Dave Gross, Garrett Guillotte, Steven T. Helt, Luis Loza, and Josh Vogt."
 category = "Adventure Path"
 publication_date = "2016-05-27"
+series_kind = "adventure-path"
+series = "Hell's Vengeance"
+series_number = "106"
 
 [[publication]]
 id = "pathfinder-107-scourge-of-the-godclaw"
@@ -1512,6 +1570,9 @@ title = "Pathfinder #107: Scourge of the Godclaw"
 copyright = "© 2016, Paizo Inc.; Authors: Larry Wilhelm, with Benjamin Bruck, Paris Crenshaw, Alex Greenshields, Jason Keeley, F. Wesley Schneider, Owen K.C. Stephens, Greg A. Vaughan, and Josh Vogt."
 category = "Adventure Path"
 publication_date = "2016-06-27"
+series_kind = "adventure-path"
+series = "Hell's Vengeance"
+series_number = "107"
 
 [[publication]]
 id = "pathfinder-108-hell-comes-to-westcrown"
@@ -1519,6 +1580,9 @@ title = "Pathfinder #108: Hell Comes to Westcrown"
 copyright = "© 2016, Paizo Inc.; Authors: Ron Lundeen, with Jason Keeley, Rob McCreary, and Josh Vogt."
 category = "Adventure Path"
 publication_date = "2016-07-27"
+series_kind = "adventure-path"
+series = "Hell's Vengeance"
+series_number = "108"
 
 [[publication]]
 id = "pathfinder-109-in-search-of-sanity"
@@ -1526,6 +1590,9 @@ title = "Pathfinder #109: In Search of Sanity"
 copyright = "© 2016, Paizo Inc.; Authors: F. Wesley Schneider, with Eric Hindley, James Jacobs, Jenny Jarzabski, and Jason Keeley."
 category = "Adventure Path"
 publication_date = "2016-08-31"
+series_kind = "adventure-path"
+series = "Strange Aeons"
+series_number = "109"
 
 [[publication]]
 id = "pathfinder-11-skeletons-of-scarwall"
@@ -1533,6 +1600,9 @@ title = "Pathfinder #11: Skeletons of Scarwall"
 copyright = "Pathfinder 11: Skeletons of Scarwall. Copyright 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2008-07-01"
+series_kind = "adventure-path"
+series = "Curse of the Crimson Throne"
+series_number = "11"
 
 [[publication]]
 id = "pathfinder-110-the-thrushmoor-terror"
@@ -1540,6 +1610,9 @@ title = "Pathfinder #110: The Thrushmoor Terror"
 copyright = "© 2016, Paizo Inc.; Authors: Tito Leati, with James Jacobs, Michelle Jones, and Christopher Rowe."
 category = "Adventure Path"
 publication_date = "2016-09-28"
+series_kind = "adventure-path"
+series = "Strange Aeons"
+series_number = "110"
 
 [[publication]]
 id = "pathfinder-111-dreams-of-the-yellow-king"
@@ -1547,6 +1620,9 @@ title = "Pathfinder #111: Dreams of the Yellow King"
 copyright = "© 2016, Paizo Inc.; Authors: Ron Lundeen, with Liz Courts, James Jacobs, Todd Stewart, and Wendy N. Wagner."
 category = "Adventure Path"
 publication_date = "2016-11-09"
+series_kind = "adventure-path"
+series = "Strange Aeons"
+series_number = "111"
 
 [[publication]]
 id = "pathfinder-112-the-whisper-out-of-time"
@@ -1554,6 +1630,9 @@ title = "Pathfinder #112: The Whisper Out of Time"
 copyright = "© 2016, Paizo Inc.; Authors: Richard Pett, with Jason Scott Aiken, Paris Crenshaw, Ed Grabianowski, James Jacobs, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2016-12-14"
+series_kind = "adventure-path"
+series = "Strange Aeons"
+series_number = "112"
 
 [[publication]]
 id = "pathfinder-113-what-grows-within"
@@ -1561,6 +1640,9 @@ title = "Pathfinder #113: What Grows Within"
 copyright = "© 2016, Paizo Inc.; Authors: John Compton, with Adam Daigle, Arinn Dembo, and James Jacobs."
 category = "Adventure Path"
 publication_date = "2017-01-25"
+series_kind = "adventure-path"
+series = "Strange Aeons"
+series_number = "113"
 
 [[publication]]
 id = "pathfinder-114-black-stars-beckon"
@@ -1568,6 +1650,9 @@ title = "Pathfinder #114: Black Stars Beckon"
 copyright = "© 2017, Paizo Inc.; Authors: Jim Groves, with Adam Daigle, Benjamin Bruck, and James Jacobs."
 category = "Adventure Path"
 publication_date = "2017-02-22"
+series_kind = "adventure-path"
+series = "Strange Aeons"
+series_number = "114"
 
 [[publication]]
 id = "pathfinder-115-trail-of-the-hunted"
@@ -1575,6 +1660,9 @@ title = "Pathfinder #115: Trail of the Hunted"
 copyright = "© 2017, Paizo Inc.; Authors: Amber E. Scott, with Crystal Frasier, Luis Loza, Ron Lundeen, Tonya Woldridge, and Linda Zayas-Palmer."
 category = "Adventure Path"
 publication_date = "2017-03-14"
+series_kind = "adventure-path"
+series = "Ironfang Invasion"
+series_number = "115"
 
 [[publication]]
 id = "pathfinder-116-fangs-of-war"
@@ -1582,6 +1670,9 @@ title = "Pathfinder #116: Fangs of War"
 copyright = "© 2017, Paizo Inc.; Authors: Ron Lundeen, with John Compton, Adam Daigle, Crystal Frasier, Michelle Jones, and Mark Moreland."
 category = "Adventure Path"
 publication_date = "2017-03-24"
+series_kind = "adventure-path"
+series = "Ironfang Invasion"
+series_number = "116"
 
 [[publication]]
 id = "pathfinder-117-assault-on-longshadow"
@@ -1589,6 +1680,9 @@ title = "Pathfinder #117: Assault on Longshadow"
 copyright = "© 2017, Paizo Inc.; Authors: Benjamin Bruck and Thurston Hillman, with Liz Courts, Paris Crenshaw, and Jason Keeley."
 category = "Adventure Path"
 publication_date = "2017-04-26"
+series_kind = "adventure-path"
+series = "Ironfang Invasion"
+series_number = "117"
 
 [[publication]]
 id = "pathfinder-118-siege-of-stone"
@@ -1596,6 +1690,9 @@ title = "Pathfinder #118: Siege of Stone"
 copyright = "© 2017, Paizo Inc.; Authors: Thurston Hillman, with Paris Crenshaw, Crystal Frasier, Patchen Mortimer, and Kalervo Oikarinen."
 category = "Adventure Path"
 publication_date = "2017-05-14"
+series_kind = "adventure-path"
+series = "Ironfang Invasion"
+series_number = "118"
 
 [[publication]]
 id = "pathfinder-119-prisoners-of-the-blight"
@@ -1603,6 +1700,9 @@ title = "Pathfinder #119: Prisoners of the Blight"
 copyright = "© 2017, Paizo Inc.; Authors: Amanda Hamon Kunz, with Paris Crenshaw, Crystal Frasier, Jason Keeley, Isabelle Lee, and Larry Wilhelm."
 category = "Adventure Path"
 publication_date = "2017-06-14"
+series_kind = "adventure-path"
+series = "Ironfang Invasion"
+series_number = "119"
 
 [[publication]]
 id = "pathfinder-12-crown-of-fangs"
@@ -1610,6 +1710,9 @@ title = "Pathfinder #12: Crown of Fangs"
 copyright = "Pathfinder 12: Crown of Fangs. Copyright 2008, Paizo Publishing, LLC; Author: Tito Leati.; © 2008, Paizo Publishing, LLC; Author: Tito Leati."
 category = "Adventure Path"
 publication_date = "2008-08-01"
+series_kind = "adventure-path"
+series = "Curse of the Crimson Throne"
+series_number = "12"
 
 [[publication]]
 id = "pathfinder-120-vault-of-the-onyx-citadel"
@@ -1617,6 +1720,9 @@ title = "Pathfinder #120: Vault of the Onyx Citadel"
 copyright = "© 2017, Paizo Inc.; Authors: Larry Wilhelm, with Paris Crenshaw, Crystal Frasier, Tim Hitchcock, Kalervo Oikarinen, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2017-07-14"
+series_kind = "adventure-path"
+series = "Ironfang Invasion"
+series_number = "120"
 
 [[publication]]
 id = "pathfinder-121-the-lost-outpost"
@@ -1624,6 +1730,9 @@ title = "Pathfinder #121: The Lost Outpost"
 copyright = "© 2017, Paizo Inc.; Authors: Jim Groves, with Adam Daigle, Isabelle Lee, Luis Loza, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2017-08-13"
+series_kind = "adventure-path"
+series = "Ruins of Azlant"
+series_number = "121"
 
 [[publication]]
 id = "pathfinder-122-into-the-shattered-continent"
@@ -1631,6 +1740,9 @@ title = "Pathfinder #122: Into the Shattered Continent"
 copyright = "Pathfinder Adventure Path #122: Into the Shattered Continent © 2017, Paizo Inc.; Authors: Robert Brookes, with Ayla Arthur, Adam Daigle, Lucas J.W. Johnson, Robin Loutzenhiser, Ron Lundeen, and Mark Moreland.; © 2017, Paizo Inc.; Authors: Robert Brookes, with Ayla Arthur, Adam Daigle, Lucas J.W. Johnson, Robin Loutzenhiser, Ron Lundeen, and Mark Moreland."
 category = "Adventure Path"
 publication_date = "2017-09-13"
+series_kind = "adventure-path"
+series = "Ruins of Azlant"
+series_number = "122"
 
 [[publication]]
 id = "pathfinder-123-the-flooded-cathedral"
@@ -1638,6 +1750,9 @@ title = "Pathfinder #123: The Flooded Cathedral"
 copyright = "Pathfinder Adventure Path #123: The Flooded Cathedral © 2017, Paizo Inc.; Authors: Mikko Kallio, with John Compton, Adam Daigle, Kalervo Oikarinen, and David Schwartz.; © 2017, Paizo Inc.; Authors: Mikko Kallio, with John Compton, Adam Daigle, Kalervo Oikarinen, and David Schwartz."
 category = "Adventure Path"
 publication_date = "2017-10-13"
+series_kind = "adventure-path"
+series = "Ruins of Azlant"
+series_number = "123"
 
 [[publication]]
 id = "pathfinder-124-city-in-the-deep"
@@ -1645,6 +1760,9 @@ title = "Pathfinder #124: City in the Deep"
 copyright = "Pathfinder Adventure Path #124: City in the Deep © 2017, Paizo Inc.; Authors: Amber E. Scott, with Alex Greenshields, Mikko Kallio, Mark Moreland, Tim Nightengale, and Kalervo Oikarinen.; © 2017, Paizo Inc.; Authors: Amber E. Scott, with Alex Greenshields, Mikko Kallio, Mark Moreland, Tim Nightengale, and Kalervo Oikarinen."
 category = "Adventure Path"
 publication_date = "2017-11-13"
+series_kind = "adventure-path"
+series = "Ruins of Azlant"
+series_number = "124"
 
 [[publication]]
 id = "pathfinder-125-tower-of-the-drowned-dead"
@@ -1652,6 +1770,9 @@ title = "Pathfinder #125 Tower of the Drowned Dead"
 copyright = "Pathfinder Adventure Path #125: Tower of the Drowned Dead © 2017, Paizo Inc.; Authors: Ron Lundeen, with Nathan King, Isabelle Lee, Erik Mona, Kalervo Oikarinen, and David Schwartz.; © 2017, Paizo Inc.; Authors: Ron Lundeen, with Nathan King, Isabelle Lee, Erik Mona, Kalervo Oikarinen, and David Schwartz."
 category = "Adventure Path"
 publication_date = "2017-12-13"
+series_kind = "adventure-path"
+series = "Ruins of Azlant"
+series_number = "125"
 
 [[publication]]
 id = "pathfinder-126-beyond-the-veiled-past"
@@ -1659,6 +1780,9 @@ title = "Pathfinder #126: Beyond the Veiled Past"
 copyright = "© 2018, Paizo Inc.; Authors: Thurston Hillman, with Robert Brookes, Eleanor Ferron, Crystal Malarsky, and Scott Sharplin."
 category = "Adventure Path"
 publication_date = "2018-01-31"
+series_kind = "adventure-path"
+series = "Ruins of Azlant"
+series_number = "126"
 
 [[publication]]
 id = "pathfinder-127-crownfall"
@@ -1666,6 +1790,9 @@ title = "Pathfinder #127: Crownfall"
 copyright = "© 2018, Paizo Inc.; Authors: Thurston Hillman, with Eleanor Ferron, Crystal Frasier, and Adrian Ng."
 category = "Adventure Path"
 publication_date = "2018-02-28"
+series_kind = "adventure-path"
+series = "War for the Crown"
+series_number = "127"
 
 [[publication]]
 id = "pathfinder-128-songbird-scion-saboteur"
@@ -1673,6 +1800,9 @@ title = "Pathfinder #128: Songbird, Scion, Saboteur"
 copyright = "© 2018, Paizo Inc.; Authors: Crystal Frasier and Richard Pett, with Tim Akers, Logan Bonner, Brian Duckwitz, Amanda Hamon Kunz, Troy Lavallee, Patchen Mortimer, and Linda Zayas-Palmer."
 category = "Adventure Path"
 publication_date = "2018-03-15"
+series_kind = "adventure-path"
+series = "War for the Crown"
+series_number = "128"
 
 [[publication]]
 id = "pathfinder-129-the-twilight-child"
@@ -1680,6 +1810,9 @@ title = "Pathfinder #129: The Twilight Child"
 copyright = "© 2018, Paizo Inc.; Authors: Ron Lundeen, with Patchen Mortimer, Andrew Mullen, Richard Pett, F. Wesley Schneider, and David Schwartz."
 category = "Adventure Path"
 publication_date = "2018-04-15"
+series_kind = "adventure-path"
+series = "War for the Crown"
+series_number = "129"
 
 [[publication]]
 id = "pathfinder-13-shadow-in-the-sky"
@@ -1687,6 +1820,9 @@ title = "Pathfinder #13: Shadow in the Sky"
 copyright = "Pathfinder 13: Shadow in the Sky. Copyright 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2008-08-02"
+series_kind = "adventure-path"
+series = "Second Darkness"
+series_number = "13"
 
 [[publication]]
 id = "pathfinder-130-city-in-the-lions-eye"
@@ -1694,6 +1830,9 @@ title = "Pathfinder #130: City in the Lion's Eye"
 copyright = "© 2018, Paizo Inc.; Authors: Mikko Kallio, with Eleanor Ferron, Mike Headley, Joe Kondrak, Kalervo Oikarinen, and Liz Smith."
 category = "Adventure Path"
 publication_date = "2018-05-15"
+series_kind = "adventure-path"
+series = "War for the Crown"
+series_number = "130"
 
 [[publication]]
 id = "pathfinder-131-the-reapers-right-hand"
@@ -1701,6 +1840,9 @@ title = "Pathfinder #131: The Reaper's Right Hand"
 copyright = "© 2018, Paizo Inc.; Authors: John Compton, with Jason Keeley, Nathan King, Crystal Malarsky, and Greg A. Vaughan.; Pathfinder Adventure Path #131: The Reaper’s Right Hand © 2018, Paizo Inc.; Authors: John Compton, with Jason Keeley, Nathan King, Crystal Malarsky, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2018-06-15"
+series_kind = "adventure-path"
+series = "War for the Crown"
+series_number = "131"
 
 [[publication]]
 id = "pathfinder-132-the-six-legend-soul"
@@ -1708,6 +1850,9 @@ title = "Pathfinder #132: The Six-Legend Soul"
 copyright = "© 2018, Paizo Inc.; Authors: Amber E. Scott, with Kate Baker, Jay Erickson, Crystal Frasier, Tom Hansen, Lyz Liddell, Aerick Lim, Ron Lundeen, and Nathan Reinecke."
 category = "Adventure Path"
 publication_date = "2018-07-15"
+series_kind = "adventure-path"
+series = "War for the Crown"
+series_number = "132"
 
 [[publication]]
 id = "pathfinder-133-secrets-of-roderics-cove"
@@ -1715,6 +1860,9 @@ title = "Pathfinder #133: Secrets of Roderic's Cove"
 copyright = "© 2018, Paizo Inc.; Authors: Adam Daigle, with James Jacobs, Mikko Kallio, Luis Loza, Jacob W. Michaels, and Conor J. Owens.; Pathfinder Adventure Path #133: Secrets of Roderic’s Cove © 2018, Paizo Inc.; Authors: Adam Daigle, with James Jacobs, Mikko Kallio, Luis Loza, Jacob W. Michaels, and Conor J. Owens."
 category = "Adventure Path"
 publication_date = "2018-08-15"
+series_kind = "adventure-path"
+series = "Return of the Runelords"
+series_number = "133"
 
 [[publication]]
 id = "pathfinder-134-it-came-from-hollow-mountain"
@@ -1722,6 +1870,9 @@ title = "Pathfinder #134: It Came from Hollow Mountain"
 copyright = "© 2018, Paizo Inc.; Authors: Mike Shel, with Jason Keeley, Mark Moreland, and Patchen Mortimer."
 category = "Adventure Path"
 publication_date = "2018-09-15"
+series_kind = "adventure-path"
+series = "Return of the Runelords"
+series_number = "134"
 
 [[publication]]
 id = "pathfinder-135-runeplague"
@@ -1729,6 +1880,9 @@ title = "Pathfinder #135: Runeplague"
 copyright = "© 2018, Paizo Inc.; Authors: Richard Pett, with Eleanor Ferron, Jason Keeley, Mike Kimmel, Andrew Mullen, and Jeffrey Swank."
 category = "Adventure Path"
 publication_date = "2018-10-15"
+series_kind = "adventure-path"
+series = "Return of the Runelords"
+series_number = "135"
 
 [[publication]]
 id = "pathfinder-136-temple-of-the-peacock-spirit"
@@ -1736,6 +1890,9 @@ title = "Pathfinder #136: Temple of the Peacock Spirit"
 copyright = "© 2018, Paizo Inc.; Authors: Jason Keeley, with Dan Cascone, John Compton, James Jacobs, Nathan King, and Luis Loza."
 category = "Adventure Path"
 publication_date = "2018-11-15"
+series_kind = "adventure-path"
+series = "Return of the Runelords"
+series_number = "136"
 
 [[publication]]
 id = "pathfinder-137-the-city-outside-of-time"
@@ -1743,6 +1900,9 @@ title = "Pathfinder #137: The City Outside of Time"
 copyright = "© 2018, Paizo Inc.; Authors: Amanda Hamon Kunz, with John Compton, Gregory Hanigan, and Mikko Kallio."
 category = "Adventure Path"
 publication_date = "2018-12-15"
+series_kind = "adventure-path"
+series = "Return of the Runelords"
+series_number = "137"
 
 [[publication]]
 id = "pathfinder-138-rise-of-new-thassilon"
@@ -1750,6 +1910,9 @@ title = "Pathfinder #138: Rise of New Thassilon"
 copyright = "© 2019, Paizo Inc.; Authors: Greg A. Vaughan, with John Compton, Andrew D. Geels, James Jacobs, Lyz Liddell, Luis Loza, and David Schwartz."
 category = "Adventure Path"
 publication_date = "2019-01-30"
+series_kind = "adventure-path"
+series = "Return of the Runelords"
+series_number = "138"
 
 [[publication]]
 id = "pathfinder-139-the-dead-road"
@@ -1757,6 +1920,9 @@ title = "Pathfinder #139: The Dead Road"
 copyright = "© 2019, Paizo Inc.; Authors: Ron Lundeen, with Crystal Frasier, Kyle T. Raes, Matt Morris, Mikhail Rekun, and Mike Welham."
 category = "Adventure Path"
 publication_date = "2019-02-27"
+series_kind = "adventure-path"
+series = "Tyrant's Grasp"
+series_number = "139"
 
 [[publication]]
 id = "pathfinder-14-children-of-the-void"
@@ -1764,6 +1930,9 @@ title = "Pathfinder #14: Children of the Void"
 copyright = "Pathfinder 14: Children of the Void. Copyright 2008, Paizo Publishing, LLC; Author: Mike McArtor.; © 2008, Paizo Publishing, LLC; Author: Mike McArtor."
 category = "Adventure Path"
 publication_date = "2008-09-01"
+series_kind = "adventure-path"
+series = "Second Darkness"
+series_number = "14"
 
 [[publication]]
 id = "pathfinder-140-eulogy-for-roslars-coffer"
@@ -1771,6 +1940,9 @@ title = "Pathfinder #140: Eulogy for Roslar's Coffer"
 copyright = "© 2019, Paizo Inc.; Authors: Jason Keeley, with Eleanor Ferron, Sarah E. Hood, Lyz Liddell, Luis Loza, Crystal Malarsky, Jen McTeague, and Mikhail Rekun.; Pathfinder Adventure Path #140: Eulogy for Roslar’s Coffer © 2019, Paizo Inc.; Authors: Jason Keeley, with Eleanor Ferron, Sarah E. Hood, Lyz Liddell, Luis Loza, Crystal Malarsky, Jen McTeague, and Mikhail Rekun."
 category = "Adventure Path"
 publication_date = "2019-03-27"
+series_kind = "adventure-path"
+series = "Tyrant's Grasp"
+series_number = "140"
 
 [[publication]]
 id = "pathfinder-141-last-watch"
@@ -1778,6 +1950,9 @@ title = "Pathfinder #141: Last Watch"
 copyright = "© 2019, Paizo Inc.; Authors: Larry Wilhelm, with Alexander Augunas, Mike Headley, Isabelle Lee, Meagan Maricle, Patchen Mortimer, Kendra Leigh Speedling, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2019-04-24"
+series_kind = "adventure-path"
+series = "Tyrant's Grasp"
+series_number = "141"
 
 [[publication]]
 id = "pathfinder-142-gardens-of-gallowspire"
@@ -1785,6 +1960,9 @@ title = "Pathfinder #142: Gardens of Gallowspire"
 copyright = "© 2019, Paizo Inc.; Authors: Crystal Frasier, with Ron Lundeen, Andrew Mullen, Emily Parks, Rhett Skubis, and Christopher Wasko."
 category = "Adventure Path"
 publication_date = "2019-05-29"
+series_kind = "adventure-path"
+series = "Tyrant's Grasp"
+series_number = "142"
 
 [[publication]]
 id = "pathfinder-143-borne-by-the-suns-grace"
@@ -1792,6 +1970,9 @@ title = "Pathfinder #143: Borne by the Sun's Grace"
 copyright = "© 2019, Paizo Inc.; Authors: Luis Loza, with Carlos Cabrera, Crystal Frasier, and Mikhail Rekun."
 category = "Adventure Path"
 publication_date = "2019-06-26"
+series_kind = "adventure-path"
+series = "Tyrant's Grasp"
+series_number = "143"
 
 [[publication]]
 id = "pathfinder-144-midwives-to-death"
@@ -1799,6 +1980,9 @@ title = "Pathfinder #144: Midwives to Death"
 copyright = "© 2019, Paizo Inc.; Authors: John Compton, with Adam Daigle, Eleanor Ferron, Thurston Hillman, James Jacobs, Jason Keeley, Luis Loza, Ron Lundeen, Robert G. McCreary, Erik Mona, Michael Sayre, Owen K.C. Stephens, Mark Seifter, and Linda Zayas-Palmer."
 category = "Adventure Path"
 publication_date = "2019-07-26"
+series_kind = "adventure-path"
+series = "Tyrant's Grasp"
+series_number = "144"
 
 [[publication]]
 id = "pathfinder-15-the-armageddon-echo"
@@ -1806,6 +1990,9 @@ title = "Pathfinder #15: The Armageddon Echo"
 copyright = "Pathfinder 15: The Armageddon Echo. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn; © 2008, Paizo Publishing, LLC; Author: Jason Bulmahn."
 category = "Adventure Path"
 publication_date = "2008-10-01"
+series_kind = "adventure-path"
+series = "Second Darkness"
+series_number = "15"
 
 [[publication]]
 id = "pathfinder-16-endless-night"
@@ -1813,6 +2000,9 @@ title = "Pathfinder #16: Endless Night"
 copyright = "Pathfinder 16: Endless Night. Copyright 2008, Paizo Publishing, LLC; Author: F. Wesley Schneider.; © 2008, Paizo Publishing, LLC; Author: F. Wesley Schneider."
 category = "Adventure Path"
 publication_date = "2008-11-01"
+series_kind = "adventure-path"
+series = "Second Darkness"
+series_number = "16"
 
 [[publication]]
 id = "pathfinder-17-a-memory-of-darkness"
@@ -1820,6 +2010,9 @@ title = "Pathfinder #17: A Memory of Darkness"
 copyright = "Pathfinder 17: A Memory of Darkness. Copyright 2009, Paizo Publishing, LLC; Author: J.D. Wiker; © 2008, Paizo Publishing, LLC; Author: J. D. Wiker."
 category = "Adventure Path"
 publication_date = "2008-12-01"
+series_kind = "adventure-path"
+series = "Second Darkness"
+series_number = "17"
 
 [[publication]]
 id = "pathfinder-18-descent-into-midnight"
@@ -1827,6 +2020,9 @@ title = "Pathfinder #18: Descent Into Midnight"
 copyright = "Pathfinder 18: Descent into Midnight. Copyright 2009, Paizo Publishing, LLC; Author: Brian Cortijo.; © 2009, Paizo Publishing, LLC; Author: Brian Cortijo."
 category = "Adventure Path"
 publication_date = "2009-01-01"
+series_kind = "adventure-path"
+series = "Second Darkness"
+series_number = "18"
 
 [[publication]]
 id = "pathfinder-19-howl-of-the-carrion-king"
@@ -1834,6 +2030,9 @@ title = "Pathfinder #19: Howl of the Carrion King"
 copyright = "Pathfinder 19: Howl of the Carrion King. Copyright 2009, Paizo Publishing, LLC; Author: Erik Mona.; © 2009, Paizo Publishing, LLC; Author: Erik Mona."
 category = "Adventure Path"
 publication_date = "2009-03-02"
+series_kind = "adventure-path"
+series = "Legacy of Fire"
+series_number = "19"
 
 [[publication]]
 id = "pathfinder-2-the-skinsaw-murders"
@@ -1841,6 +2040,9 @@ title = "Pathfinder #2: The Skinsaw Murders"
 copyright = "Pathfinder 2: The Skinsaw Murders. Copyright 2007 Paizo Publishing LLC. Author: Richard Pett.; © 2007, Paizo Publishing LLC. Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2007-10-01"
+series_kind = "adventure-path"
+series = "Rise of the Runelords"
+series_number = "2"
 
 [[publication]]
 id = "pathfinder-20-house-of-the-beast"
@@ -1848,6 +2050,9 @@ title = "Pathfinder #20: House of the Beast"
 copyright = "Pathfinder 20: House of the Beast. Copyright 2009, Paizo Publishing, LLC; Author: Tim Hitchcock.; © 2009, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Adventure Path"
 publication_date = "2009-03-03"
+series_kind = "adventure-path"
+series = "Legacy of Fire"
+series_number = "20"
 
 [[publication]]
 id = "pathfinder-21-the-jackals-price"
@@ -1855,6 +2060,9 @@ title = "Pathfinder #21: The Jackal's Price"
 copyright = "© 2009, Paizo Publishing, LLC; Author: Darrin Drader.; Pathfinder 21: The Jackal’s Price. Copyright 2009, Paizo Publishing, LLC; Author: Darrin Drader."
 category = "Adventure Path"
 publication_date = "2009-04-01"
+series_kind = "adventure-path"
+series = "Legacy of Fire"
+series_number = "21"
 
 [[publication]]
 id = "pathfinder-22-the-end-of-eternity"
@@ -1862,6 +2070,9 @@ title = "Pathfinder #22: The End of Eternity"
 copyright = "Pathfinder Adventure Path volume #22: The End of Eternity. Copyright 2009, Paizo Publishing, LLC; Author: Jason Nelson.; © 2009, Paizo Publishing, LLC; Author: Jason Nelson."
 category = "Adventure Path"
 publication_date = "2009-05-01"
+series_kind = "adventure-path"
+series = "Legacy of Fire"
+series_number = "22"
 
 [[publication]]
 id = "pathfinder-23-the-impossible-eye"
@@ -1869,6 +2080,9 @@ title = "Pathfinder #23: The Impossible Eye"
 copyright = "Pathfinder Adventure Path volume #23: The Impossible Eye. Copyright 2009, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2009, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2009-06-01"
+series_kind = "adventure-path"
+series = "Legacy of Fire"
+series_number = "23"
 
 [[publication]]
 id = "pathfinder-24-the-final-wish"
@@ -1876,6 +2090,9 @@ title = "Pathfinder #24: The Final Wish"
 copyright = "Pathfinder Adventure Path volume #24: The Final Wish. © 2009, Paizo Publishing, LLC; Author: Rob McCreary.; © 2009, Paizo Publishing, LLC; Author: Rob McCreary."
 category = "Adventure Path"
 publication_date = "2009-07-01"
+series_kind = "adventure-path"
+series = "Legacy of Fire"
+series_number = "24"
 
 [[publication]]
 id = "pathfinder-25-the-bastards-of-erebus"
@@ -1883,6 +2100,9 @@ title = "Pathfinder #25: The Bastards of Erebus"
 copyright = "Pathfinder Adventure Path volume #25: Bastards of Erebus. © 2009, Paizo Publishing, LLC; Author: Sean K Reynolds.; © 2009, Paizo Publishing, LLC; Author: Sean K Reynolds."
 category = "Adventure Path"
 publication_date = "2009-08-02"
+series_kind = "adventure-path"
+series = "Council of Thieves"
+series_number = "25"
 
 [[publication]]
 id = "pathfinder-26-the-sixfold-trial"
@@ -1890,6 +2110,9 @@ title = "Pathfinder #26: The Sixfold Trial"
 copyright = "Pathfinder Adventure Path volume #26: The Sixfold Trial. © 2009, Paizo Publishing, LLC; Author: Richard Pett.; © 2009, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2009-10-01"
+series_kind = "adventure-path"
+series = "Council of Thieves"
+series_number = "26"
 
 [[publication]]
 id = "pathfinder-27-what-lies-in-dust"
@@ -1897,6 +2120,9 @@ title = "Pathfinder #27: What Lies in Dust"
 copyright = "Pathfinder Adventure Path volume #27: What Lies in Dust. © 2009, Paizo Publishing, LLC; Author: Michael Kortes.; © 2009, Paizo Publishing, LLC; Author: Michael Kortes."
 category = "Adventure Path"
 publication_date = "2009-11-01"
+series_kind = "adventure-path"
+series = "Council of Thieves"
+series_number = "27"
 
 [[publication]]
 id = "pathfinder-28-the-infernal-syndrome"
@@ -1904,6 +2130,9 @@ title = "Pathfinder #28: The Infernal Syndrome"
 copyright = "Pathfinder Adventure Path volume #28: The Infernal Syndrome. © 2009, Paizo Publishing, LLC; Authors: Clinton Boomer and James Jacobs.; © 2009, Paizo Publishing, LLC; Authors: Clinton Boomer and James Jacobs."
 category = "Adventure Path"
 publication_date = "2009-12-01"
+series_kind = "adventure-path"
+series = "Council of Thieves"
+series_number = "28"
 
 [[publication]]
 id = "pathfinder-29-mother-of-flies"
@@ -1911,6 +2140,9 @@ title = "Pathfinder #29: Mother of Flies"
 copyright = "Pathfinder 29: Mother of Flies. Copyright 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan; © 2009, Paizo Publishing, LLC; Authors: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2010-01-01"
+series_kind = "adventure-path"
+series = "Council of Thieves"
+series_number = "29"
 
 [[publication]]
 id = "pathfinder-3-the-hook-mountain-massacre"
@@ -1918,6 +2150,9 @@ title = "Pathfinder #3: The Hook Mountain Massacre"
 copyright = "Pathfinder 3: The Hook Mountain Massacre. Copyright 2007, Paizo Publishing, LLC; Author Nicolas Logue."
 category = "Adventure Path"
 publication_date = "2007-11-01"
+series_kind = "adventure-path"
+series = "Rise of the Runelords"
+series_number = "3"
 
 [[publication]]
 id = "pathfinder-30-the-twice-damned-prince"
@@ -1925,6 +2160,9 @@ title = "Pathfinder #30: The Twice-Damned Prince"
 copyright = "Pathfinder Adventure Path volume #30: The Twice-Damned Prince. © 2010, Paizo Publishing, LLC; Author: Brian Cortijo and James Jacobs.; © 2010, Paizo Publishing, LLC; Author: Brian Cortijo and James Jacobs."
 category = "Adventure Path"
 publication_date = "2010-02-01"
+series_kind = "adventure-path"
+series = "Council of Thieves"
+series_number = "30"
 
 [[publication]]
 id = "pathfinder-31-stolen-land"
@@ -1932,6 +2170,9 @@ title = "Pathfinder #31: Stolen Land"
 copyright = "Pathfinder Adventure Path volume #31: Stolen Land. © 2010, Paizo Publishing, LLC; Author: Tim Hitchcock; © 2010, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Adventure Path"
 publication_date = "2010-03-02"
+series_kind = "adventure-path"
+series = "Kingmaker"
+series_number = "31"
 
 [[publication]]
 id = "pathfinder-32-rivers-run-red"
@@ -1939,6 +2180,9 @@ title = "Pathfinder #32: Rivers Run Red"
 copyright = "Pathfinder Adventure Path volume #32: Rivers Run Red. © 2010, Paizo Publishing, LLC; Author: Rob McCreary; © 2010, Paizo Publishing, LLC; Author: Rob McCreary."
 category = "Adventure Path"
 publication_date = "2010-04-01"
+series_kind = "adventure-path"
+series = "Kingmaker"
+series_number = "32"
 
 [[publication]]
 id = "pathfinder-33-the-varnhold-vanishing"
@@ -1946,6 +2190,9 @@ title = "Pathfinder #33: The Varnhold Vanishing"
 copyright = "Pathfinder Adventure Path volume #33: The Varnhold Vanishing. © 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan; © 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2010-05-01"
+series_kind = "adventure-path"
+series = "Kingmaker"
+series_number = "33"
 
 [[publication]]
 id = "pathfinder-34-blood-for-blood"
@@ -1953,6 +2200,9 @@ title = "Pathfinder #34: Blood for Blood"
 copyright = "Pathfinder Adventure Path #34: Blood for Blood. © 2010, Paizo Publishing, LLC; Author: Neil Spicer.; © 2010, Paizo Publishing, LLC; Author: Neil Spicer."
 category = "Adventure Path"
 publication_date = "2010-06-01"
+series_kind = "adventure-path"
+series = "Kingmaker"
+series_number = "34"
 
 [[publication]]
 id = "pathfinder-35-war-of-the-river-kings"
@@ -1960,6 +2210,9 @@ title = "Pathfinder #35: War of the River Kings"
 copyright = "Pathfinder Adventure Path #35: War of the River Kings. © 2010, Paizo Publishing, LLC; Author: Jason Nelson.; © 2010, Paizo Publishing, LLC; Author: Jason Nelson."
 category = "Adventure Path"
 publication_date = "2010-06-30"
+series_kind = "adventure-path"
+series = "Kingmaker"
+series_number = "35"
 
 [[publication]]
 id = "pathfinder-36-sound-of-a-thousand-screams"
@@ -1967,6 +2220,9 @@ title = "Pathfinder #36: Sound of a Thousand Screams"
 copyright = "Pathfinder Adventure Path #36: Sound of a Thousand Screams. © 2010, Paizo Publishing, LLC; Author: Richard Pett.; © 2010, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2010-07-01"
+series_kind = "adventure-path"
+series = "Kingmaker"
+series_number = "36"
 
 [[publication]]
 id = "pathfinder-37-souls-for-smugglers-shiv"
@@ -1974,6 +2230,9 @@ title = "Pathfinder #37: Souls for Smuggler's Shiv"
 copyright = "© 2010, Paizo Publishing, LLC; Author: James Jacobs.; Pathfinder Adventure Path #37: Souls for Smuggler’s Shiv. © 2010, Paizo Publishing, LLC; Author: James Jacobs."
 category = "Adventure Path"
 publication_date = "2010-07-02"
+series_kind = "adventure-path"
+series = "Serpent's Skull"
+series_number = "37"
 
 [[publication]]
 id = "pathfinder-38-racing-to-ruin"
@@ -1981,6 +2240,9 @@ title = "Pathfinder #38: Racing to Ruin"
 copyright = "Pathfinder Adventure Path #38: Racing to Ruin. © 2010, Paizo Publishing, LLC; Author: Tim Hitchcock.; © 2010, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Adventure Path"
 publication_date = "2010-09-01"
+series_kind = "adventure-path"
+series = "Serpent's Skull"
+series_number = "38"
 
 [[publication]]
 id = "pathfinder-39-the-city-of-seven-spears"
@@ -1988,6 +2250,9 @@ title = "Pathfinder #39: The City of Seven Spears"
 copyright = "Pathfinder Adventure Path #39: City of Seven Spears. © 2010, Paizo Publishing, LLC; Authors: James Jacobs, Kevin Kulp, Rob McCreary, and Owen K.C. Stephens.; © 2010, Paizo Publishing, LLC; Authors: James Jacobs, Kevin Kulp, Rob McCreary, and Owen K.C. Stephens."
 category = "Adventure Path"
 publication_date = "2010-10-01"
+series_kind = "adventure-path"
+series = "Serpent's Skull"
+series_number = "39"
 
 [[publication]]
 id = "pathfinder-4-fortress-of-the-stone-giants"
@@ -1995,6 +2260,9 @@ title = "Pathfinder #4: Fortress of the Stone Giants"
 copyright = "Pathfinder 4: Fortress of the Stone Giants. Copyright 2007, Paizo Publishing, LLC; Author Wolfgang Baur.; © 2007, Paizo Publishing, LLC; Author: Wolfgang Baur."
 category = "Adventure Path"
 publication_date = "2007-12-01"
+series_kind = "adventure-path"
+series = "Rise of the Runelords"
+series_number = "4"
 
 [[publication]]
 id = "pathfinder-40-vaults-of-madness"
@@ -2002,6 +2270,9 @@ title = "Pathfinder #40: Vaults of Madness"
 copyright = "Pathfinder Adventure Path #40: Vaults of Madness. © 2010, Paizo Publishing, LLC; Author Greg A. Vaughan; © 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2010-12-01"
+series_kind = "adventure-path"
+series = "Serpent's Skull"
+series_number = "40"
 
 [[publication]]
 id = "pathfinder-41-the-thousand-fangs-below"
@@ -2009,6 +2280,9 @@ title = "Pathfinder #41: The Thousand Fangs Below"
 copyright = "Pathfinder Adventure Path #41: The Thousand Fangs Below. © 2011, Paizo Publishing, LLC; Authors: Graeme Davis and Rob McCreary.; © 2011, Paizo Publishing, LLC; Authors: Graeme Davis and Rob McCreary."
 category = "Adventure Path"
 publication_date = "2011-01-01"
+series_kind = "adventure-path"
+series = "Serpent's Skull"
+series_number = "41"
 
 [[publication]]
 id = "pathfinder-42-sanctum-of-the-serpent-god"
@@ -2016,6 +2290,9 @@ title = "Pathfinder #42: Sanctum of the Serpent God"
 copyright = "Pathfinder Adventure Path #42: Sanctum of the Serpent God. © 2011, Paizo Publishing, LLC; Author: Neil Spicer.; © 2011, Paizo Publishing, LLC; Author: Neil Spicer."
 category = "Adventure Path"
 publication_date = "2011-02-01"
+series_kind = "adventure-path"
+series = "Serpent's Skull"
+series_number = "42"
 
 [[publication]]
 id = "pathfinder-43-haunting-of-harrowstone"
@@ -2023,6 +2300,9 @@ title = "Pathfinder #43: Haunting of Harrowstone"
 copyright = "Pathfinder Adventure Path #43: Haunting of Harrowstone. Copyright 2011, Paizo Publishing, LLC, Author: Michael Kortes; © 2011, Paizo Publishing, LLC; Author: Michael Kortes."
 category = "Adventure Path"
 publication_date = "2011-03-02"
+series_kind = "adventure-path"
+series = "Carrion Crown"
+series_number = "43"
 
 [[publication]]
 id = "pathfinder-44-trial-of-the-beast"
@@ -2030,6 +2310,9 @@ title = "Pathfinder #44: Trial of the Beast"
 copyright = "© 2011, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2011-04-01"
+series_kind = "adventure-path"
+series = "Carrion Crown"
+series_number = "44"
 
 [[publication]]
 id = "pathfinder-45-broken-moon"
@@ -2037,6 +2320,9 @@ title = "Pathfinder #45: Broken Moon"
 copyright = "Pathfinder Adventure Path #45: Broken Moon. © 2011, Paizo Publishing, LLC; Author: Tim Hitchcock.; © 2011, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Adventure Path"
 publication_date = "2011-05-10"
+series_kind = "adventure-path"
+series = "Carrion Crown"
+series_number = "45"
 
 [[publication]]
 id = "pathfinder-46-wake-of-the-watcher"
@@ -2044,6 +2330,9 @@ title = "Pathfinder #46: Wake of the Watcher"
 copyright = "Pathfinder Adventure Path #46: Wake of the Watcher. © 2011, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2011, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2011-06-10"
+series_kind = "adventure-path"
+series = "Carrion Crown"
+series_number = "46"
 
 [[publication]]
 id = "pathfinder-47-ashes-at-dawn"
@@ -2051,6 +2340,9 @@ title = "Pathfinder #47: Ashes at Dawn"
 copyright = "Pathfinder Adventure Path #47: Ashes at Dawn. © 2011, Paizo Publishing, LLC; Author: Neil Spicer.; © 2011, Paizo Publishing, LLC; Author: Neil Spicer."
 category = "Adventure Path"
 publication_date = "2011-07-06"
+series_kind = "adventure-path"
+series = "Carrion Crown"
+series_number = "47"
 
 [[publication]]
 id = "pathfinder-48-shadows-of-gallowspire"
@@ -2058,6 +2350,9 @@ title = "Pathfinder #48: Shadows of Gallowspire"
 copyright = "Pathfinder Adventure Path #48: Shadows of Gallowspire. © 2011, Paizo Publishing, LLC; Author: Brandon Hodge.; © 2011, Paizo Publishing, LLC; Author: Brandon Hodge."
 category = "Adventure Path"
 publication_date = "2011-07-26"
+series_kind = "adventure-path"
+series = "Carrion Crown"
+series_number = "48"
 
 [[publication]]
 id = "pathfinder-49-the-brinewall-legacy"
@@ -2065,6 +2360,9 @@ title = "Pathfinder #49: The Brinewall Legacy"
 copyright = "Pathfinder Adventure Path #49: The Brinewall Legacy. © 2011, Paizo Publishing, LLC; Author: James Jacobs.; © 2011, Paizo Publishing, LLC; Author: James Jacobs."
 category = "Adventure Path"
 publication_date = "2011-07-28"
+series_kind = "adventure-path"
+series = "Jade Regent"
+series_number = "49"
 
 [[publication]]
 id = "pathfinder-5-sins-of-the-saviors"
@@ -2072,6 +2370,9 @@ title = "Pathfinder #5: Sins of the Saviors"
 copyright = "Pathfinder 5: Sins of the Saviors. Copyright 2007, Paizo Publishing, LLC; Author: Stephen S. Greer.; © 2007, Paizo Publishing, LLC; Author: Stephen S. Greer."
 category = "Adventure Path"
 publication_date = "2008-01-01"
+series_kind = "adventure-path"
+series = "Rise of the Runelords"
+series_number = "5"
 
 [[publication]]
 id = "pathfinder-50-night-of-frozen-shadows"
@@ -2079,6 +2380,9 @@ title = "Pathfinder #50: Night of Frozen Shadows"
 copyright = "Pathfinder Adventure Path #50: Night of Frozen Shadows. © 2011, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2011, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2011-09-01"
+series_kind = "adventure-path"
+series = "Jade Regent"
+series_number = "50"
 
 [[publication]]
 id = "pathfinder-51-the-hungry-storm"
@@ -2086,6 +2390,9 @@ title = "Pathfinder #51: The Hungry Storm"
 copyright = "Pathfinder Adventure Path #51: The Hungry Storm © 2011, Paizo Publishing, LLC; Author: Jason Nelson.; © 2011, Paizo Publishing, LLC; Author: Jason Nelson."
 category = "Adventure Path"
 publication_date = "2011-10-01"
+series_kind = "adventure-path"
+series = "Jade Regent"
+series_number = "51"
 
 [[publication]]
 id = "pathfinder-52-forest-of-spirits"
@@ -2093,6 +2400,9 @@ title = "Pathfinder #52: Forest of Spirits"
 copyright = "Pathfinder Adventure Path #52: Forest of Spirits © 2011, Paizo Publishing, LLC; Author: Richard Pett.; © 2011, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2011-11-01"
+series_kind = "adventure-path"
+series = "Jade Regent"
+series_number = "52"
 
 [[publication]]
 id = "pathfinder-53-tide-of-honor"
@@ -2100,6 +2410,9 @@ title = "Pathfinder #53: Tide of Honor"
 copyright = "Pathfinder Adventure Path #53: Tide of Honor © 2011, Paizo Publishing, LLC; Author: Tito Leati.; © 2011, Paizo Publishing, LLC; Author: Tito Leati."
 category = "Adventure Path"
 publication_date = "2011-12-01"
+series_kind = "adventure-path"
+series = "Jade Regent"
+series_number = "53"
 
 [[publication]]
 id = "pathfinder-54-the-empty-throne"
@@ -2107,6 +2420,9 @@ title = "Pathfinder #54: The Empty Throne"
 copyright = "© 2012, Paizo Publishing, LLC; Author: Neil Spicer."
 category = "Adventure Path"
 publication_date = "2012-01-01"
+series_kind = "adventure-path"
+series = "Jade Regent"
+series_number = "54"
 
 [[publication]]
 id = "pathfinder-55-the-wormwood-mutiny"
@@ -2114,6 +2430,9 @@ title = "Pathfinder #55: The Wormwood Mutiny"
 copyright = "Pathfinder Adventure Path #55: The Wormwood Mutiny © 2012, Paizo Publishing, LLC; Author: Richard Pett.; © 2012, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2012-02-02"
+series_kind = "adventure-path"
+series = "Skull & Shackles"
+series_number = "55"
 
 [[publication]]
 id = "pathfinder-56-raiders-of-the-fever-sea"
@@ -2121,6 +2440,9 @@ title = "Pathfinder #56: Raiders of the Fever Sea"
 copyright = "Pathfinder Adventure Path #56: Raiders of the Fever Sea © 2012, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2012, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2012-03-01"
+series_kind = "adventure-path"
+series = "Skull & Shackles"
+series_number = "56"
 
 [[publication]]
 id = "pathfinder-57-tempest-rising"
@@ -2128,6 +2450,9 @@ title = "Pathfinder #57: Tempest Rising"
 copyright = "Pathfinder Adventure Path #57: Tempest Rising © 2012, Paizo Publishing, LLC; Author: Matthew Goodall.; © 2012, Paizo Publishing, LLC; Author: Matthew Goodall."
 category = "Adventure Path"
 publication_date = "2012-04-01"
+series_kind = "adventure-path"
+series = "Skull & Shackles"
+series_number = "57"
 
 [[publication]]
 id = "pathfinder-58-island-of-empty-eyes"
@@ -2135,6 +2460,9 @@ title = "Pathfinder #58: Island of Empty Eyes"
 copyright = "Pathfinder Adventure Path #58: Island of Empty Eyes © 2012, Paizo Publishing, LLC; Author: Neil Spicer.; © 2012, Paizo Publishing, LLC; Author: Neil Spicer."
 category = "Adventure Path"
 publication_date = "2012-05-01"
+series_kind = "adventure-path"
+series = "Skull & Shackles"
+series_number = "58"
 
 [[publication]]
 id = "pathfinder-59-the-price-of-infamy"
@@ -2142,6 +2470,9 @@ title = "Pathfinder #59: The Price of Infamy"
 copyright = "© 2012, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Adventure Path"
 publication_date = "2012-06-01"
+series_kind = "adventure-path"
+series = "Skull & Shackles"
+series_number = "59"
 
 [[publication]]
 id = "pathfinder-6-spires-of-xin-shalast"
@@ -2149,6 +2480,9 @@ title = "Pathfinder #6: Spires of Xin-Shalast"
 copyright = "Pathfinder 6: Spires of Xin-Shalast. Copyright 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2008-02-01"
+series_kind = "adventure-path"
+series = "Rise of the Runelords"
+series_number = "6"
 
 [[publication]]
 id = "pathfinder-60-from-hells-heart"
@@ -2156,6 +2490,9 @@ title = "Pathfinder #60: From Hell's Heart"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Jason Nelson and Rob McCreary.; Pathfinder Adventure Path #60: From Hell’s Heart © 2012, Paizo Publishing, LLC; Authors: Jason Nelson and Rob McCreary."
 category = "Adventure Path"
 publication_date = "2012-07-01"
+series_kind = "adventure-path"
+series = "Skull & Shackles"
+series_number = "60"
 
 [[publication]]
 id = "pathfinder-61-shards-of-sin"
@@ -2163,6 +2500,9 @@ title = "Pathfinder #61: Shards of Sin"
 copyright = "Pathfinder Adventure Path #61: Shards of Sin © 2012, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2012, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2012-08-02"
+series_kind = "adventure-path"
+series = "Shattered Star"
+series_number = "61"
 
 [[publication]]
 id = "pathfinder-62-curse-of-the-ladys-light"
@@ -2170,6 +2510,9 @@ title = "Pathfinder #62: Curse of the Lady's Light"
 copyright = "© 2012, Paizo Publishing, LLC; Author: Mike Shel.; Pathfinder Adventure Path #62: Curse of the Lady’s Light © 2012, Paizo Publishing, LLC; Author: Mike Shel."
 category = "Adventure Path"
 publication_date = "2012-09-01"
+series_kind = "adventure-path"
+series = "Shattered Star"
+series_number = "62"
 
 [[publication]]
 id = "pathfinder-63-the-asylum-stone"
@@ -2177,6 +2520,9 @@ title = "Pathfinder #63: The Asylum Stone"
 copyright = "Pathfinder Adventure Path #63: The Asylum Stone © 2012, Paizo Publishing, LLC; Author: James L. Sutter."
 category = "Adventure Path"
 publication_date = "2012-10-11"
+series_kind = "adventure-path"
+series = "Shattered Star"
+series_number = "63"
 
 [[publication]]
 id = "pathfinder-64-beyond-the-doomsday-door"
@@ -2184,6 +2530,9 @@ title = "Pathfinder #64: Beyond the Doomsday Door"
 copyright = "Pathfinder Adventure Path #64: Beyond the Doomsday Door © 2012, Paizo Publishing, LLC; Author: Tito Leati."
 category = "Adventure Path"
 publication_date = "2012-11-15"
+series_kind = "adventure-path"
+series = "Shattered Star"
+series_number = "64"
 
 [[publication]]
 id = "pathfinder-65-into-the-nightmare-rift"
@@ -2191,6 +2540,9 @@ title = "Pathfinder #65: Into the Nightmare Rift"
 copyright = "© 2012, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2012-12-06"
+series_kind = "adventure-path"
+series = "Shattered Star"
+series_number = "65"
 
 [[publication]]
 id = "pathfinder-66-the-dead-heart-of-xin"
@@ -2198,6 +2550,9 @@ title = "Pathfinder #66: The Dead Heart of Xin"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Brandon Hodge."
 category = "Adventure Path"
 publication_date = "2013-01-22"
+series_kind = "adventure-path"
+series = "Shattered Star"
+series_number = "66"
 
 [[publication]]
 id = "pathfinder-67-the-snows-of-summer"
@@ -2205,6 +2560,9 @@ title = "Pathfinder #67: The Snows of Summer"
 copyright = "Pathfinder Adventure Path #67: The Snows of Summer © 2013, Paizo Publishing, LLC; Author: Neil Spicer.; © 2013, Paizo Publishing, LLC; Author: Neil Spicer."
 category = "Adventure Path"
 publication_date = "2013-02-13"
+series_kind = "adventure-path"
+series = "Reign of Winter"
+series_number = "67"
 
 [[publication]]
 id = "pathfinder-68-the-shackled-hut"
@@ -2212,6 +2570,9 @@ title = "Pathfinder #68: The Shackled Hut"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Jim Groves."
 category = "Adventure Path"
 publication_date = "2013-03-08"
+series_kind = "adventure-path"
+series = "Reign of Winter"
+series_number = "68"
 
 [[publication]]
 id = "pathfinder-69-maiden-mother-crone"
@@ -2219,6 +2580,9 @@ title = "Pathfinder #69: Maiden, Mother, Crone"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Adventure Path"
 publication_date = "2013-04-16"
+series_kind = "adventure-path"
+series = "Reign of Winter"
+series_number = "69"
 
 [[publication]]
 id = "pathfinder-7-edge-of-anarchy"
@@ -2226,6 +2590,9 @@ title = "Pathfinder #7: Edge of Anarchy"
 copyright = "Pathfinder 7: Edge of Anarchy. Copyright 2008, Paizo Publishing, LLC; Author: Nicolas Logue.; © 2008, Paizo Publishing, LLC; Author: Nicolas Logue."
 category = "Adventure Path"
 publication_date = "2008-02-02"
+series_kind = "adventure-path"
+series = "Curse of the Crimson Throne"
+series_number = "7"
 
 [[publication]]
 id = "pathfinder-70-the-frozen-stars"
@@ -2233,6 +2600,9 @@ title = "Pathfinder #70: The Frozen Stars"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Matthew Goodall."
 category = "Adventure Path"
 publication_date = "2013-05-17"
+series_kind = "adventure-path"
+series = "Reign of Winter"
+series_number = "70"
 
 [[publication]]
 id = "pathfinder-71-rasputin-must-die"
@@ -2240,6 +2610,9 @@ title = "Pathfinder #71: Rasputin Must Die!"
 copyright = "Pathfinder Adventure Path #71: Rasputin Must Die! © 2013, Paizo Publishing, LLC; Author: Brandon Hodge.; © 2013, Paizo Publishing, LLC; Author: Brandon Hodge."
 category = "Adventure Path"
 publication_date = "2013-06-13"
+series_kind = "adventure-path"
+series = "Reign of Winter"
+series_number = "71"
 
 [[publication]]
 id = "pathfinder-72-the-witch-queens-revenge"
@@ -2247,6 +2620,9 @@ title = "Pathfinder #72: The Witch Queen's Revenge"
 copyright = "Pathfinder Adventure Path #72: The Witch Queen's Revenge © 2013, Paizo Publishing, LLC; Author: Greg A. Vaughan.; © 2013, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2013-07-11"
+series_kind = "adventure-path"
+series = "Reign of Winter"
+series_number = "72"
 
 [[publication]]
 id = "pathfinder-73-the-worldwound-incursion"
@@ -2254,6 +2630,9 @@ title = "Pathfinder #73: The Worldwound Incursion"
 copyright = "Pathfinder Adventure Path #73: The Worldwound Incursion © 2013, Paizo Publishing, LLC; Author: Amber E. Scott.; © 2013, Paizo Publishing, LLC; Author: Amber E. Scott."
 category = "Adventure Path"
 publication_date = "2013-08-19"
+series_kind = "adventure-path"
+series = "Wrath of the Righteous"
+series_number = "73"
 
 [[publication]]
 id = "pathfinder-74-sword-of-valor"
@@ -2261,6 +2640,9 @@ title = "Pathfinder #74: Sword of Valor"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: James Jacobs, Jason Klimchok, Robin D. Laws, Ron Lundeen, Jason Nelson, David Schwartz, and Neil Spicer."
 category = "Adventure Path"
 publication_date = "2013-09-25"
+series_kind = "adventure-path"
+series = "Wrath of the Righteous"
+series_number = "74"
 
 [[publication]]
 id = "pathfinder-75-demons-heresy"
@@ -2268,6 +2650,9 @@ title = "Pathfinder #75: Demon's Heresy"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Jim Groves.; Pathfinder Adventure Path #75: Demon’s Heresy © 2013, Paizo Publishing, LLC; Author: Jim Groves."
 category = "Adventure Path"
 publication_date = "2013-10-21"
+series_kind = "adventure-path"
+series = "Wrath of the Righteous"
+series_number = "75"
 
 [[publication]]
 id = "pathfinder-76-the-midnight-isles"
@@ -2275,6 +2660,9 @@ title = "Pathfinder #76: The Midnight Isles"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: James Jacobs and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2013-12-11"
+series_kind = "adventure-path"
+series = "Wrath of the Righteous"
+series_number = "76"
 
 [[publication]]
 id = "pathfinder-77-herald-of-the-ivory-labyrinth"
@@ -2282,6 +2670,9 @@ title = "Pathfinder #77: Herald of the Ivory Labyrinth"
 copyright = "Pathfinder Adventure Path #77: Herald of the Ivory Labyrinth © 2013, Paizo Publishing, LLC; Author: Wolfgang Baur.; © 2013, Paizo Publishing, LLC; Author: Wolfgang Baur."
 category = "Adventure Path"
 publication_date = "2014-01-09"
+series_kind = "adventure-path"
+series = "Wrath of the Righteous"
+series_number = "77"
 
 [[publication]]
 id = "pathfinder-78-city-of-locusts"
@@ -2289,6 +2680,9 @@ title = "Pathfinder #78: City of Locusts"
 copyright = "Pathfinder Adventure Path #78: City of Locusts © 2014, Paizo Publishing, LLC; Author: Richard Pett.; © 2014, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2014-02-06"
+series_kind = "adventure-path"
+series = "Wrath of the Righteous"
+series_number = "78"
 
 [[publication]]
 id = "pathfinder-79-the-half-dead-city"
@@ -2296,6 +2690,9 @@ title = "Pathfinder #79: The Half-Dead City"
 copyright = "© 2014, Paizo Publishing, LLC; Authors: Crystal Frasier, Jim Groves, Will McCardell, Michael McCarthy, and Amber E.Scott."
 category = "Adventure Path"
 publication_date = "2014-03-25"
+series_kind = "adventure-path"
+series = "Mummy's Mask"
+series_number = "79"
 
 [[publication]]
 id = "pathfinder-8-seven-days-to-the-grave"
@@ -2303,6 +2700,9 @@ title = "Pathfinder #8: Seven Days to the Grave"
 copyright = "Pathfinder 8: Seven Days to the Grave. Copyright 2008, Paizo Publishing, LLC; Author: F. Wesley Schneider.; © 2008, Paizo Publishing, LLC; Author: F. Wesley Schneider."
 category = "Adventure Path"
 publication_date = "2008-04-01"
+series_kind = "adventure-path"
+series = "Curse of the Crimson Throne"
+series_number = "8"
 
 [[publication]]
 id = "pathfinder-80-empty-graves"
@@ -2310,6 +2710,9 @@ title = "Pathfinder #80: Empty Graves"
 copyright = "© 2014, Paizo Publishing, LLC; Authors: Crystal Frasier, with Thurston Hillman, Will McCardell, Rob McCreary, and Amber E. Scott."
 category = "Adventure Path"
 publication_date = "2014-04-29"
+series_kind = "adventure-path"
+series = "Mummy's Mask"
+series_number = "80"
 
 [[publication]]
 id = "pathfinder-81-shifting-sands"
@@ -2317,6 +2720,9 @@ title = "Pathfinder #81: Shifting Sands"
 copyright = "Pathfinder Adventure Path #81: Shifting Sands © 2014, Paizo Inc.; Authors: Richard Pett, with Benjamin Bruck, Adam Daigle, Thurston Hillman, Michael McCarthy, Patrick Renie, Amber E. Scott, and Russ Taylor.; © 2014, Paizo Inc.; Authors: Richard Pett, with Benjamin Bruck, Adam Daigle, Thurston Hillman, Michael McCarthy, Patrick Renie, Amber E. Scott, and Russ Taylor."
 category = "Adventure Path"
 publication_date = "2014-05-28"
+series_kind = "adventure-path"
+series = "Mummy's Mask"
+series_number = "81"
 
 [[publication]]
 id = "pathfinder-82-secrets-of-the-sphinx"
@@ -2324,6 +2730,9 @@ title = "Pathfinder #82: Secrets of the Sphinx"
 copyright = "Pathfinder Adventure Path #82: Secrets of the Sphinx © 2014, Paizo Inc.; Authors: Amber E. Scott, with Michael Kortes, Amber E. Scott, David Schwartz, Russ Taylor, Greg A. Vaughan, and Larry Wilhelm.; © 2014, Paizo Inc.; Authors: Amber E. Scott, with Michael Kortes, Amber E. Scott, David Schwartz, Russ Taylor, Greg A. Vaughan, and Larry Wilhelm."
 category = "Adventure Path"
 publication_date = "2014-06-25"
+series_kind = "adventure-path"
+series = "Mummy's Mask"
+series_number = "82"
 
 [[publication]]
 id = "pathfinder-83-the-slave-trenches-of-hakotep"
@@ -2331,6 +2740,9 @@ title = "Pathfinder #83: The Slave Trenches of Hakotep"
 copyright = "© 2014, Paizo Inc.; Authors: Michael Kortes, with Robert Brookes, Adam Daigle, Tim Hitchcock, David N. Ross, Amber E. Scott, and Neil Spicer."
 category = "Adventure Path"
 publication_date = "2014-07-25"
+series_kind = "adventure-path"
+series = "Mummy's Mask"
+series_number = "83"
 
 [[publication]]
 id = "pathfinder-84-pyramid-of-the-sky-pharaoh"
@@ -2338,6 +2750,9 @@ title = "Pathfinder #84: Pyramid of the Sky Pharaoh"
 copyright = "Pathfinder Adventure Path #84: Pyramid of the Sky Pharaoh © 2014, Paizo Inc.; Authors: Mike Shel, with Tyler Beck, Adam Daigle, F. Wesley Schneider, and Amber E. Scott.; © 2014, Paizo Inc.; Authors: Mike Shel, with Tyler Beck, Adam Daigle, F. Wesley Schneider, and Amber E. Scott."
 category = "Adventure Path"
 publication_date = "2014-08-14"
+series_kind = "adventure-path"
+series = "Mummy's Mask"
+series_number = "84"
 
 [[publication]]
 id = "pathfinder-85-fires-of-creation"
@@ -2345,6 +2760,9 @@ title = "Pathfinder #85: Fires of Creation"
 copyright = "Pathfinder Adventure Path #85: Fires of Creation © 2014, Paizo Inc.; Authors: Neil Spicer, with Mark Garringer, Amber E. Scott, Russ Taylor, and Mike Wellham.; © 2014, Paizo Inc.; Authors: Neil Spicer, with Mark Garringer, Amber E. Scott, Russ Taylor, and Mike Wellham."
 category = "Adventure Path"
 publication_date = "2014-09-10"
+series_kind = "adventure-path"
+series = "Iron Gods"
+series_number = "85"
 
 [[publication]]
 id = "pathfinder-86-lords-of-rust"
@@ -2352,6 +2770,9 @@ title = "Pathfinder #86: Lords of Rust"
 copyright = "Pathfinder Adventure Path #86: Lords of Rust © 2014, Paizo Inc.; Authors: Nicolas Logue, with Adam Daigle, Jim Groves, James Jacobs, Sean K Reynolds, and Amber E. Scott.; © 2014, Paizo Inc.; Authors: Nicolas Logue, with Adam Daigle, Jim Groves, James Jacobs, Sean K Reynolds, and Amber E. Scott."
 category = "Adventure Path"
 publication_date = "2014-10-05"
+series_kind = "adventure-path"
+series = "Iron Gods"
+series_number = "86"
 
 [[publication]]
 id = "pathfinder-87-the-choking-tower"
@@ -2359,6 +2780,9 @@ title = "Pathfinder #87: The Choking Tower"
 copyright = "Pathfinder Adventure Path #87: The Choking Tower © 2014, Paizo Inc.; Authors: Ron Lundeen, with Paris Crenshaw, Mark Garringer, Patrick Renie, and Amber E. Scott.; © 2014, Paizo Inc.; Authors: Ron Lundeen, with Paris Crenshaw, Mark Garringer, Patrick Renie, and Amber E. Scott."
 category = "Adventure Path"
 publication_date = "2014-10-22"
+series_kind = "adventure-path"
+series = "Iron Gods"
+series_number = "87"
 
 [[publication]]
 id = "pathfinder-88-valley-of-the-brain-collectors"
@@ -2366,6 +2790,9 @@ title = "Pathfinder #88: Valley of the Brain Collectors"
 copyright = "© 2014, Paizo Inc.; Authors: Mike Shel, with David Schwartz and Amber E. Scott."
 category = "Adventure Path"
 publication_date = "2014-11-22"
+series_kind = "adventure-path"
+series = "Iron Gods"
+series_number = "88"
 
 [[publication]]
 id = "pathfinder-89-palace-of-fallen-stars"
@@ -2373,6 +2800,9 @@ title = "Pathfinder #89: Palace of Fallen Stars"
 copyright = "© 2014, Paizo Inc.; Authors: Tim Hitchcock, with Benjamin Bruck, Sean K Reynolds, Amber E. Scott, and Larry Wilhelm."
 category = "Adventure Path"
 publication_date = "2014-12-17"
+series_kind = "adventure-path"
+series = "Iron Gods"
+series_number = "89"
 
 [[publication]]
 id = "pathfinder-9-escape-from-old-korvosa"
@@ -2380,6 +2810,9 @@ title = "Pathfinder #9: Escape from Old Korvosa"
 copyright = "Pathfinder 9: Escape from Old Korvosa. Copyright 2008, Paizo Publishing, LLC; Author: Richard Pett.; © 2008, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Adventure Path"
 publication_date = "2008-05-01"
+series_kind = "adventure-path"
+series = "Curse of the Crimson Throne"
+series_number = "9"
 
 [[publication]]
 id = "pathfinder-90-the-divinity-drive"
@@ -2387,6 +2820,9 @@ title = "Pathfinder #90: The Divinity Drive"
 copyright = "© 2014, Paizo Inc.; Authors: Crystal Frasier, with Adam Daigle, Thurston Hillman, James Jacobs, Will McCardell, Amber E. Scott, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2015-01-17"
+series_kind = "adventure-path"
+series = "Iron Gods"
+series_number = "90"
 
 [[publication]]
 id = "pathfinder-91-battle-of-bloodmarch-hills"
@@ -2394,6 +2830,9 @@ title = "Pathfinder #91: Battle of Bloodmarch Hills"
 copyright = "Pathfinder Adventure Path #91: Battle of Bloodmarch Hill © 2015, Paizo Inc.; Authors: Patrick Renie, with Tyler Beck, Adam Daigle, Richard Pett, Stephen Radney-MacFarland, and David Schwartz.; © 2015, Paizo Inc.; Authors: Patrick Renie, with Tyler Beck, Adam Daigle, Richard Pett, Stephen Radney-MacFarland, and David Schwartz."
 category = "Adventure Path"
 publication_date = "2015-02-25"
+series_kind = "adventure-path"
+series = "Giantslayer"
+series_number = "91"
 
 [[publication]]
 id = "pathfinder-92-the-hill-giants-pledge"
@@ -2401,6 +2840,9 @@ title = "Pathfinder #92: The Hill Giant's Pledge"
 copyright = "© 2015, Paizo Inc.; Authors: Larry Wilhelm, with Benjamin Bruck, Thurston Hillman, Mikko Kallio, Michael Kortes, David Schwartz, and Russ Taylor."
 category = "Adventure Path"
 publication_date = "2015-04-29"
+series_kind = "adventure-path"
+series = "Giantslayer"
+series_number = "92"
 
 [[publication]]
 id = "pathfinder-93-forge-of-the-giant-god"
@@ -2408,6 +2850,9 @@ title = "Pathfinder #93: Forge of the Giant God"
 copyright = "© 2015, Paizo Inc.; Authors: Tim Hitchcock, with Benjamin Bruck, Mark Moreland, Sean K Reynolds, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2015-05-29"
+series_kind = "adventure-path"
+series = "Giantslayer"
+series_number = "93"
 
 [[publication]]
 id = "pathfinder-94-ice-tomb-of-the-giant-queen"
@@ -2415,6 +2860,9 @@ title = "Pathfinder #94: Ice Tomb of the Giant Queen"
 copyright = "© 2015, Paizo Inc.; Authors: Jim Groves, with Clinton Boomer, Benjamin Bruck, John Compton, Thurston Hillman, and Mark Moreland."
 category = "Adventure Path"
 publication_date = "2015-06-29"
+series_kind = "adventure-path"
+series = "Giantslayer"
+series_number = "94"
 
 [[publication]]
 id = "pathfinder-95-anvil-of-fire"
@@ -2422,6 +2870,9 @@ title = "Pathfinder #95: Anvil of Fire"
 copyright = "Pathfinder Adventure Path #95: Anvil of Fire © 2015, Paizo Inc.; Authors: Sean K Reynolds, with Benjamin Bruck, Mikko Kallio, David Schwartz, Russ Taylor, Jerome Virnych, and Wendy N. Wagner.; © 2015, Paizo Inc.; Authors: Sean K Reynolds, with Benjamin Bruck, Mikko Kallio, David Schwartz, Russ Taylor, Jerome Virnych, and Wendy N. Wagner."
 category = "Adventure Path"
 publication_date = "2015-07-29"
+series_kind = "adventure-path"
+series = "Giantslayer"
+series_number = "95"
 
 [[publication]]
 id = "pathfinder-96-shadow-of-the-storm-tyrant"
@@ -2429,6 +2880,9 @@ title = "Pathfinder #96: Shadow of the Storm Tyrant"
 copyright = "© 2015, Paizo Inc.; Authors: Tito Leati, with Benjamin Bruck, Jim Groves, Steven T. Helt, Mikko Kallio, and Patrick Renie."
 category = "Adventure Path"
 publication_date = "2015-08-15"
+series_kind = "adventure-path"
+series = "Giantslayer"
+series_number = "96"
 
 [[publication]]
 id = "pathfinder-97-in-hells-bright-shadow"
@@ -2436,6 +2890,9 @@ title = "Pathfinder #97: In Hell's Bright Shadow"
 copyright = "Pathfinder Adventure Path #97: In Hell's Bright Shadow © 2015, Paizo Inc.; Authors: Crystal Frasier, with Eric Hindley, Stephanie Lorée, and Michael McCarthy.; © 2015, Paizo Inc.; Authors: Crystal Frasier, with Eric Hindley, Stephanie Lorée, and Michael McCarthy."
 category = "Adventure Path"
 publication_date = "2015-09-10"
+series_kind = "adventure-path"
+series = "Hell's Rebels"
+series_number = "97"
 
 [[publication]]
 id = "pathfinder-98-turn-of-the-torrent"
@@ -2443,6 +2900,9 @@ title = "Pathfinder #98: Turn of the Torrent"
 copyright = "© 2015, Paizo Inc.; Authors: Mike Shel, with Thurston Hillman, Stephanie Lorée, Tim Nightengale, and Todd Stewart."
 category = "Adventure Path"
 publication_date = "2015-09-30"
+series_kind = "adventure-path"
+series = "Hell's Rebels"
+series_number = "98"
 
 [[publication]]
 id = "pathfinder-99-dance-of-the-damned"
@@ -2450,6 +2910,9 @@ title = "Pathfinder #99: Dance of the Damned"
 copyright = "Pathfinder Adventure Path #99: Dance of the Damned © 2015, Paizo Inc.; Authors: Richard Pett, with Stephanie Lorée, Michael McCarthy, Alistair Rigg, F. Wesley Schneider, and Todd Stewart.; © 2015, Paizo Inc.; Authors: Richard Pett, with Stephanie Lorée, Michael McCarthy, Alistair Rigg, F. Wesley Schneider, and Todd Stewart."
 category = "Adventure Path"
 publication_date = "2015-11-18"
+series_kind = "adventure-path"
+series = "Hell's Rebels"
+series_number = "99"
 
 [[publication]]
 id = "pathfinder-campaign-setting"
@@ -2476,6 +2939,9 @@ publication_date = "2013-07-11"
 id = "pathfinder-society-s03-10-the-immortal-connundrum"
 title = "Pathfinder Society S03-10 The Immortal Connundrum"
 copyright = "© 2011, Paizo Publishing, LLC; Author: Larry Wilhelm.; Pathfinder Society Scenario 3–10: The Immortal Conundrum © 2011, Paizo Publishing, LLC; Author: Larry Wilhelm."
+series_kind = "society"
+series_number = "3-10"
+season = 3
 
 [[publication]]
 id = "pathfinder-unchained"
@@ -2567,6 +3033,7 @@ title = "Plunder and Peril"
 copyright = "Pathfinder Module: Plunder & Peril © 2014, Paizo Inc.; Authors: Alex Greenshields, Matthew Goodall, Steven T. Helt, and Ben McFarland."
 category = "Module"
 publication_date = "2014-11-22"
+series_kind = "module"
 
 [[publication]]
 id = "potions-and-poisons"
@@ -2616,6 +3083,7 @@ title = "Realm of the Fellnight Queen"
 copyright = "Pathfinder Module: Realm of the Fellknight Queen. © 2010, Paizo Publishing, LLC; Author: Neil Spicer."
 category = "Module"
 publication_date = "2010-02-01"
+series_kind = "module"
 
 [[publication]]
 id = "reign-of-winter-players-guide"
@@ -2637,6 +3105,7 @@ title = "Revenge of the Kobold King"
 copyright = "Pathfinder Module D1.5: Revenge of the Kobold King, Copyright 2008, Paizo Publishing, LLC. Author: Nicholas Logue."
 category = "Module"
 publication_date = "2008-11-01"
+series_kind = "module"
 
 [[publication]]
 id = "rise-of-the-runelords-anniversary-edition"
@@ -2672,6 +3141,7 @@ title = "Rivers into Darkness"
 copyright = "GameMastery Module W2: River Into Darkness, Copyright 2008, Paizo Publishing, LLC. Author: Greg A. Vaughan."
 category = "Module"
 publication_date = "2008-09-01"
+series_kind = "module"
 
 [[publication]]
 id = "ruins-of-azlant-players-guide"
@@ -2707,6 +3177,7 @@ title = "Seers of the Drowned City"
 copyright = "© 2016, Paizo Inc.; Author: Nicholas Wasko."
 category = "Module"
 publication_date = "2016-11-21"
+series_kind = "module"
 
 [[publication]]
 id = "serpents-skull-players-guide"
@@ -2721,6 +3192,7 @@ title = "Seven Swords of Sin"
 copyright = "GameMastery Module D2: Seven Swords of Sin. Copyright 2007 Paizo Publishing, LLC. Author: James Lafond Sutter."
 category = "Module"
 publication_date = "2007-12-01"
+series_kind = "module"
 
 [[publication]]
 id = "shattered-star-players-guide"
@@ -2777,6 +3249,7 @@ title = "Tears at Bitter Manor"
 copyright = "© 2014, Paizo Publishing, LLC; Authors: Pedro Coelho, Christopher Dudley, Guy Fox, Sam Harris, Landon Hatfield, Steven Helt, Nick Herold, Shawn Kowalke, Marc.Andre Patenaude, and Guy Russell."
 category = "Module"
 publication_date = "2014-03-25"
+series_kind = "module"
 
 [[publication]]
 id = "technology-guide"
@@ -2791,6 +3264,7 @@ title = "The Demon Within"
 copyright = "GameMastery Module D3: The Demon Within, Copyright 2008, Paizo Publishing, LLC. Authors: Stephen S. Greer and Tim Hitchcock."
 category = "Module"
 publication_date = "2008-10-01"
+series_kind = "module"
 
 [[publication]]
 id = "the-dragons-demand"
@@ -2798,6 +3272,7 @@ title = "The Dragon's Demand"
 copyright = "Pathfinder Module: The Dragon's Demand © 2013, Paizo Publishing, LLC; Author: Mike Shel."
 category = "Module"
 publication_date = "2013-09-01"
+series_kind = "module"
 
 [[publication]]
 id = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
@@ -2812,6 +3287,7 @@ title = "The Emerald Spire Superdungeon"
 copyright = "Pathfinder Module: The Emerald Spire Superdungeon © 2014, Paizo Inc.; Authors: Keith Baker, Richard Baker, Wolfgang Baur, Jason Bulmahn, Ed Greenwood, Tim Hitchcock, James Jacobs, Nicolas Logue, Frank Mentzer, Erik Mona, Chris Pramas, Sean K Reynolds, F. Wesley Schneider, Michael A. Stackpole, Lisa Stevens, and James L. Sutter."
 category = "Module"
 publication_date = "2014-06-25"
+series_kind = "module"
 
 [[publication]]
 id = "the-first-world-realm-of-the-fey"
@@ -2826,6 +3302,7 @@ title = "The Godsmouth Heresy"
 copyright = "Pathfinder Module: The Godsmouth Heresy. © 2010, Paizo Publishing, LLC; Author: Rob McCreary."
 category = "Module"
 publication_date = "2011-01-01"
+series_kind = "module"
 
 [[publication]]
 id = "the-great-beyond-a-guide-to-the-multiverse"
@@ -2847,6 +3324,7 @@ title = "The Harrowing"
 copyright = "Pathfinder Module: The Harrowing. © 2011, Paizo Publishing, LLC; Author: Crystal Frasier."
 category = "Module"
 publication_date = "2011-07-22"
+series_kind = "module"
 
 [[publication]]
 id = "the-house-on-hook-street"
@@ -2854,6 +3332,7 @@ title = "The House on Hook Street"
 copyright = "© 2015, Paizo Inc.; Author: Brandon Hodge."
 category = "Module"
 publication_date = "2015-11-18"
+series_kind = "module"
 
 [[publication]]
 id = "the-midnight-mirror"
@@ -2861,6 +3340,7 @@ title = "The Midnight Mirror"
 copyright = "© 2012, Paizo Publishing, LLC; Author: Sam Zeitlin."
 category = "Module"
 publication_date = "2012-02-01"
+series_kind = "module"
 
 [[publication]]
 id = "the-moonscar"
@@ -2868,6 +3348,7 @@ title = "The Moonscar"
 copyright = "Pathfinder Module: The Moonscar © 2012, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Module"
 publication_date = "2012-08-01"
+series_kind = "module"
 
 [[publication]]
 id = "the-pact-stone-pyramid"
@@ -2875,6 +3356,7 @@ title = "The Pact Stone Pyramid"
 copyright = "Pathfinder Module J4: The Pact Stone Pyramid, Copyright 2008, Paizo Publishing, LLC. Author: Michael Kortes."
 category = "Module"
 publication_date = "2009-04-01"
+series_kind = "module"
 
 [[publication]]
 id = "the-ruby-phoenix-tournament"
@@ -2882,6 +3364,7 @@ title = "The Ruby Phoenix Tournament"
 copyright = "Pathfinder Module: The Ruby Phoenix Tournament © 2012, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Module"
 publication_date = "2011-12-01"
+series_kind = "module"
 
 [[publication]]
 id = "the-witchwar-legacy"
@@ -2889,6 +3372,7 @@ title = "The Witchwar Legacy"
 copyright = "Pathfinder Module: The Witchwar Legacy. © 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan."
 category = "Module"
 publication_date = "2010-11-01"
+series_kind = "module"
 
 [[publication]]
 id = "the-worldwound"
@@ -2903,6 +3387,7 @@ title = "Tomb of the Iron Medusa"
 copyright = "Pathfinder Module: Tomb of the Iron Medusa. © 2011, Paizo Publishing, LLC; Author: Mike Shel."
 category = "Module"
 publication_date = "2011-04-01"
+series_kind = "module"
 
 [[publication]]
 id = "tombs-of-golarion"
@@ -2923,6 +3408,7 @@ title = "Treasure of Chimera Cove"
 copyright = "Pathfinder Module LB2: Treasure of Chimera Cove, Copyright 2008, Paizo Publishing, LLC. Author: Anson Caralya."
 category = "Module"
 publication_date = "2009-02-01"
+series_kind = "module"
 
 [[publication]]
 id = "tyrants-grasp-players-guide"
@@ -3021,6 +3507,7 @@ title = "Wardens of the Reborn Forge"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Patrick Renie."
 category = "Module"
 publication_date = "2014-01-09"
+series_kind = "module"
 
 [[publication]]
 id = "we-be-goblins"
@@ -3028,6 +3515,7 @@ title = "We Be Goblins!"
 copyright = "Pathfinder Module: We Be Goblins! © 2011, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Module"
 publication_date = "2011-06-10"
+series_kind = "module"
 
 [[publication]]
 id = "we-be-goblins-free"
@@ -3035,6 +3523,7 @@ title = "We Be Goblins Free!"
 copyright = "© 2015, Paizo Inc.; Author: Richard Pett."
 category = "Module"
 publication_date = "2015-07-29"
+series_kind = "module"
 
 [[publication]]
 id = "we-be-goblins-too"
@@ -3042,6 +3531,7 @@ title = "We Be Goblins Too!"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Module"
 publication_date = "2013-06-15"
+series_kind = "module"
 
 [[publication]]
 id = "weapon-masters-handbook"
