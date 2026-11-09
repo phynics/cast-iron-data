@@ -31381,6 +31381,296 @@ target = "ref/arc-rogue/numerian-scavenger"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/ultimate-combat/feats/deft-shootist-deed"
+target = "ref/feat/deft-shootist"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/feats/leaping-shot-deed"
+target = "ref/feat/leaping-shot"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/four-mirror-armor"
+target = "ref/eq-armor/four-mirror"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/kikko-armor"
+target = "ref/eq-armor/kikko"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/mountain-pattern-armor"
+target = "ref/eq-armor/mountain-pattern"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/silken-ceremonial-armor"
+target = "ref/eq-armor/silken-ceremonial"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/bullet"
+target = "ref/eq-weapon/firearm-bullet"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/gunsmiths-kit"
+target = "ref/eq-misc/gunsmiths-kit"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/powder-horn"
+target = "ref/eq-misc/powder-horn"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/adjuring-step"
+target = "ref/spell/abjuring-step"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/air-walk/communal"
+target = "ref/spell/air-walk-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/animal-aspect/greater"
+target = "ref/spell/animal-aspect-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/ant-haul/communal"
+target = "ref/spell/ant-haul-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/darkvision/communal"
+target = "ref/spell/darkvision-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/delay-poison/communal"
+target = "ref/spell/delay-poison-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/endure-elements/communal"
+target = "ref/spell/endure-elements-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/energy-siege-shot/greater"
+target = "ref/spell/energy-siege-shot-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/hostile-juxtaposition/greater"
+target = "ref/spell/hostile-juxtaposition-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/life-conduit/greater"
+target = "ref/spell/life-conduit-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/life-conduit/improved"
+target = "ref/spell/life-conduit-improved"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/magic-siege-engine/greater"
+target = "ref/spell/magic-siege-engine-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/mask-dweomer/communal"
+target = "ref/spell/mask-dweomer-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/mind-blank/communal"
+target = "ref/spell/mind-blank-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/mount/communal"
+target = "ref/spell/mount-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/named-bullet/greater"
+target = "ref/spell/named-bullet-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/nondetection/communal"
+target = "ref/spell/nondetection-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/phantom-steed/communal"
+target = "ref/spell/phantom-steed-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/protection-from-arrows/communal"
+target = "ref/spell/protection-from-arrows-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/protection-from-chaos/communal"
+target = "ref/spell/protection-from-chaos-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/protection-from-energy/communal"
+target = "ref/spell/protection-from-energy-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/protection-from-evil/communal"
+target = "ref/spell/protection-from-evil-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/protection-from-good/communal"
+target = "ref/spell/protection-from-good-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/protection-from-law/communal"
+target = "ref/spell/protection-from-law-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/reinforce-armaments/communal"
+target = "ref/spell/reinforce-armaments-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/resist-energy/communal"
+target = "ref/spell/resist-energy-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/returning-weapon/communal"
+target = "ref/spell/returning-weapon-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/share-language/communal"
+target = "ref/spell/share-language-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/siege-of-trees/greater"
+target = "ref/spell/siege-of-trees-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/spell-immunity/communal"
+target = "ref/spell/spell-immunity-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/spell-immunity/greater-communal"
+target = "ref/spell/spell-immunity-greater-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/spider-climb/communal"
+target = "ref/spell/spider-climb-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/stoneskin/communal"
+target = "ref/spell/stoneskin-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/tongues/communal"
+target = "ref/spell/tongues-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-combat/spells/water-walk/communal"
+target = "ref/spell/water-walk-communal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/arrows"
+target = "ref/eq-weapon/arrow"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/shortsword"
+target = "ref/eq-weapon/short-sword"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-orbs-of-dragonkind"
+target = "ref/magic-artifact/orbs-of-dragonkind"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-shadowstaff"
+target = "ref/magic-artifact/shadowstaff"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/gear/adventuring-gear/powder-horn"
+target = "ref/eq-misc/powder-horn"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/banshee-ballerina-firework"
+target = "ref/eq-weapon/firework-banshee-ballerina"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/flame-fountain-firework"
+target = "ref/eq-weapon/firework-flame-fountain"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/paper-candle-firework"
+target = "ref/eq-weapon/firework-paper-candle"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/skyrocket-firework"
+target = "ref/eq-weapon/firework-skyrocket"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/star-candle-firework"
+target = "ref/eq-weapon/firework-star-candle"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/starfountain-firework"
+target = "ref/eq-weapon/firework-starfountain"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-equipment/rules/magic-arms-and-armor/specific-magic-armor-and-shields/specific-magic-armor/adamatine-breastplate"
+target = "ref/eq-armor/adamantine-breastplate"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/gunsmiths-kit"
+target = "ref/eq-misc/gunsmiths-kit"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/powder-horn"
+target = "ref/eq-misc/powder-horn"
+basis = "shared"
+
+[[entries]]
 old = "ref/monster/aboleth-mythic"
 target = "ref/carried/mythic-adventures/monsters/aboleth/mythic"
 basis = "shared"
@@ -31828,6 +32118,11 @@ basis = "shared"
 [[entries]]
 old = "ref/monster/wyvern-mythic"
 target = "ref/carried/mythic-adventures/monsters/wyvern/mythic"
+basis = "shared"
+
+[[entries]]
+old = "ref/rule/eq-misc-chest-huge/chest"
+target = "ref/eq-misc/chest"
 basis = "shared"
 
 [[entries]]
@@ -34342,8 +34637,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/feats/deft-shootist-deed"
-target = "ref/carried/ultimate-combat/feats/deft-shootist-deed"
-basis = "carried"
+target = "ref/feat/deft-shootist"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/feats/destructive-dispel"
@@ -34802,8 +35097,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/feats/leaping-shot-deed"
-target = "ref/carried/ultimate-combat/feats/leaping-shot-deed"
-basis = "carried"
+target = "ref/feat/leaping-shot"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/feats/mantis-style"
@@ -35922,8 +36217,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/four-mirror-armor"
-target = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/four-mirror-armor"
-basis = "carried"
+target = "ref/eq-armor/four-mirror"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/haramaki"
@@ -35932,8 +36227,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/kikko-armor"
-target = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/kikko-armor"
-basis = "carried"
+target = "ref/eq-armor/kikko"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/kusari-gusoku"
@@ -35952,8 +36247,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/mountain-pattern-armor"
-target = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/mountain-pattern-armor"
-basis = "carried"
+target = "ref/eq-armor/mountain-pattern"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/o-yoroi"
@@ -35962,8 +36257,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/silken-ceremonial-armor"
-target = "ref/carried/ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/silken-ceremonial-armor"
-basis = "carried"
+target = "ref/eq-armor/silken-ceremonial"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/eastern-armor-and-weapons/eastern-armor/stone-coat"
@@ -36322,8 +36617,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/bullet"
-target = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/bullet"
-basis = "carried"
+target = "ref/eq-weapon/firearm-bullet"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/bullet/adamantine"
@@ -36342,8 +36637,8 @@ basis = "carried"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/gunsmiths-kit"
-target = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/gunsmiths-kit"
-basis = "carried"
+target = "ref/eq-misc/gunsmiths-kit"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/metal-cartridge"
@@ -36357,8 +36652,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/powder-horn"
-target = "ref/carried/ultimate-combat/rules/mastering-combat/firearms/firearm-descriptions/firearm-ammunition-and-adventuring-gear/powder-horn"
-basis = "carried"
+target = "ref/eq-misc/powder-horn"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/rules/mastering-combat/firearms/firearm-magic-items/firearm-ammunition-special-ability/dry-load"
@@ -36877,8 +37172,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/adjuring-step"
-target = "ref/carried/ultimate-combat/spells/adjuring-step"
-basis = "carried"
+target = "ref/spell/abjuring-step"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/adoration"
@@ -36892,8 +37187,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/air-walk/communal"
-target = "ref/carried/ultimate-combat/spells/air-walk/communal"
-basis = "carried"
+target = "ref/spell/air-walk-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/animal-aspect"
@@ -36902,13 +37197,13 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/animal-aspect/greater"
-target = "ref/carried/ultimate-combat/spells/animal-aspect/greater"
-basis = "carried"
+target = "ref/spell/animal-aspect-greater"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/ant-haul/communal"
-target = "ref/carried/ultimate-combat/spells/ant-haul/communal"
-basis = "carried"
+target = "ref/spell/ant-haul-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/arcane-cannon"
@@ -36977,8 +37272,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/darkvision/communal"
-target = "ref/carried/ultimate-combat/spells/darkvision/communal"
-basis = "carried"
+target = "ref/spell/darkvision-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/daybreak-arrow"
@@ -37002,8 +37297,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/delay-poison/communal"
-target = "ref/carried/ultimate-combat/spells/delay-poison/communal"
-basis = "carried"
+target = "ref/spell/delay-poison-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/destabilize-powder"
@@ -37032,8 +37327,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/endure-elements/communal"
-target = "ref/carried/ultimate-combat/spells/endure-elements/communal"
-basis = "carried"
+target = "ref/spell/endure-elements-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/energy-siege-shot"
@@ -37042,8 +37337,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/energy-siege-shot/greater"
-target = "ref/carried/ultimate-combat/spells/energy-siege-shot/greater"
-basis = "carried"
+target = "ref/spell/energy-siege-shot-greater"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/fabricate-bullets"
@@ -37102,8 +37397,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/hostile-juxtaposition/greater"
-target = "ref/carried/ultimate-combat/spells/hostile-juxtaposition/greater"
-basis = "carried"
+target = "ref/spell/hostile-juxtaposition-greater"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/hostile-levitation"
@@ -37157,13 +37452,13 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/life-conduit/greater"
-target = "ref/carried/ultimate-combat/spells/life-conduit/greater"
-basis = "carried"
+target = "ref/spell/life-conduit-greater"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/life-conduit/improved"
-target = "ref/carried/ultimate-combat/spells/life-conduit/improved"
-basis = "carried"
+target = "ref/spell/life-conduit-improved"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/lightning-lash-bomb-admixture"
@@ -37252,18 +37547,18 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/magic-siege-engine/greater"
-target = "ref/carried/ultimate-combat/spells/magic-siege-engine/greater"
-basis = "carried"
+target = "ref/spell/magic-siege-engine-greater"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/mask-dweomer/communal"
-target = "ref/carried/ultimate-combat/spells/mask-dweomer/communal"
-basis = "carried"
+target = "ref/spell/mask-dweomer-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/mind-blank/communal"
-target = "ref/carried/ultimate-combat/spells/mind-blank/communal"
-basis = "carried"
+target = "ref/spell/mind-blank-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/mirror-strike"
@@ -37277,8 +37572,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/mount/communal"
-target = "ref/carried/ultimate-combat/spells/mount/communal"
-basis = "carried"
+target = "ref/spell/mount-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/mutagenic-touch"
@@ -37292,8 +37587,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/named-bullet/greater"
-target = "ref/carried/ultimate-combat/spells/named-bullet/greater"
-basis = "carried"
+target = "ref/spell/named-bullet-greater"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/negative-reaction"
@@ -37302,8 +37597,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/nondetection/communal"
-target = "ref/carried/ultimate-combat/spells/nondetection/communal"
-basis = "carried"
+target = "ref/spell/nondetection-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/obsidian-flow"
@@ -37332,8 +37627,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/phantom-steed/communal"
-target = "ref/carried/ultimate-combat/spells/phantom-steed/communal"
-basis = "carried"
+target = "ref/spell/phantom-steed-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/pilfering-hand"
@@ -37342,33 +37637,33 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/protection-from-arrows/communal"
-target = "ref/carried/ultimate-combat/spells/protection-from-arrows/communal"
-basis = "carried"
+target = "ref/spell/protection-from-arrows-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/protection-from-chaos/communal"
-target = "ref/carried/ultimate-combat/spells/protection-from-chaos/communal"
-basis = "carried"
+target = "ref/spell/protection-from-chaos-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/protection-from-energy/communal"
-target = "ref/carried/ultimate-combat/spells/protection-from-energy/communal"
-basis = "carried"
+target = "ref/spell/protection-from-energy-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/protection-from-evil/communal"
-target = "ref/carried/ultimate-combat/spells/protection-from-evil/communal"
-basis = "carried"
+target = "ref/spell/protection-from-evil-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/protection-from-good/communal"
-target = "ref/carried/ultimate-combat/spells/protection-from-good/communal"
-basis = "carried"
+target = "ref/spell/protection-from-good-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/protection-from-law/communal"
-target = "ref/carried/ultimate-combat/spells/protection-from-law/communal"
-basis = "carried"
+target = "ref/spell/protection-from-law-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/pup-shape"
@@ -37392,8 +37687,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/reinforce-armaments/communal"
-target = "ref/carried/ultimate-combat/spells/reinforce-armaments/communal"
-basis = "carried"
+target = "ref/spell/reinforce-armaments-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/reloading-hands"
@@ -37407,8 +37702,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/resist-energy/communal"
-target = "ref/carried/ultimate-combat/spells/resist-energy/communal"
-basis = "carried"
+target = "ref/spell/resist-energy-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/returning-weapon"
@@ -37417,8 +37712,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/returning-weapon/communal"
-target = "ref/carried/ultimate-combat/spells/returning-weapon/communal"
-basis = "carried"
+target = "ref/spell/returning-weapon-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/ricochet-shot"
@@ -37437,8 +37732,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/share-language/communal"
-target = "ref/carried/ultimate-combat/spells/share-language/communal"
-basis = "carried"
+target = "ref/spell/share-language-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/shock-shield"
@@ -37457,23 +37752,23 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/siege-of-trees/greater"
-target = "ref/carried/ultimate-combat/spells/siege-of-trees/greater"
-basis = "carried"
+target = "ref/spell/siege-of-trees-greater"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/spell-immunity/communal"
-target = "ref/carried/ultimate-combat/spells/spell-immunity/communal"
-basis = "carried"
+target = "ref/spell/spell-immunity-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/spell-immunity/greater-communal"
-target = "ref/carried/ultimate-combat/spells/spell-immunity/greater-communal"
-basis = "carried"
+target = "ref/spell/spell-immunity-greater-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/spider-climb/communal"
-target = "ref/carried/ultimate-combat/spells/spider-climb/communal"
-basis = "carried"
+target = "ref/spell/spider-climb-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/spontaneous-immolation"
@@ -37487,8 +37782,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/stoneskin/communal"
-target = "ref/carried/ultimate-combat/spells/stoneskin/communal"
-basis = "carried"
+target = "ref/spell/stoneskin-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/summoner-conduit"
@@ -37542,8 +37837,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/tongues/communal"
-target = "ref/carried/ultimate-combat/spells/tongues/communal"
-basis = "carried"
+target = "ref/spell/tongues-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/touch-injection"
@@ -37577,8 +37872,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/water-walk/communal"
-target = "ref/carried/ultimate-combat/spells/water-walk/communal"
-basis = "carried"
+target = "ref/spell/water-walk-communal"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-combat/spells/weaken-powder"
@@ -38112,8 +38407,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/arrows"
-target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/arrows"
-basis = "carried"
+target = "ref/eq-weapon/arrow"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/atlatl"
@@ -38807,8 +39102,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/shortsword"
-target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/shortsword"
-basis = "carried"
+target = "ref/eq-weapon/short-sword"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/shotel"
@@ -39112,13 +39407,13 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-orbs-of-dragonkind"
-target = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-orbs-of-dragonkind"
-basis = "carried"
+target = "ref/magic-artifact/orbs-of-dragonkind"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-shadowstaff"
-target = "ref/carried/ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-shadowstaff"
-basis = "carried"
+target = "ref/magic-artifact/shadowstaff"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/artifacts-and-other-items/artifacts/major-artifacts/the-shield-of-the-sun"
@@ -40342,8 +40637,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/adventuring-gear/powder-horn"
-target = "ref/carried/ultimate-equipment/rules/gear/adventuring-gear/powder-horn"
-basis = "carried"
+target = "ref/eq-misc/powder-horn"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/adventuring-gear/prosthetic"
@@ -40927,8 +41222,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/banshee-ballerina-firework"
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/banshee-ballerina-firework"
-basis = "carried"
+target = "ref/eq-weapon/firework-banshee-ballerina"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/bottled-lightning"
@@ -40942,8 +41237,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/flame-fountain-firework"
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/flame-fountain-firework"
-basis = "carried"
+target = "ref/eq-weapon/firework-flame-fountain"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/flash-powder"
@@ -40987,8 +41282,8 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/paper-candle-firework"
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/paper-candle-firework"
-basis = "carried"
+target = "ref/eq-weapon/firework-paper-candle"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/pellet-grenade"
@@ -41002,8 +41297,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/skyrocket-firework"
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/skyrocket-firework"
-basis = "carried"
+target = "ref/eq-weapon/firework-skyrocket"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/sneezing-powder"
@@ -41012,13 +41307,13 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/star-candle-firework"
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/star-candle-firework"
-basis = "carried"
+target = "ref/eq-weapon/firework-star-candle"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/starfountain-firework"
-target = "ref/carried/ultimate-equipment/rules/gear/alchemical-weapons/starfountain-firework"
-basis = "carried"
+target = "ref/eq-weapon/firework-starfountain"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/alchemical-weapons/tangleburn-bag"
@@ -42257,8 +42552,8 @@ basis = "carried"
 
 [[entries]]
 old = "ultimate-equipment/rules/magic-arms-and-armor/specific-magic-armor-and-shields/specific-magic-armor/adamatine-breastplate"
-target = "ref/carried/ultimate-equipment/rules/magic-arms-and-armor/specific-magic-armor-and-shields/specific-magic-armor/adamatine-breastplate"
-basis = "carried"
+target = "ref/eq-armor/adamantine-breastplate"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/magic-arms-and-armor/specific-magic-armor-and-shields/specific-magic-armor/armor-of-insults"
@@ -44902,8 +45197,8 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/wondrous-items/chest"
-target = "ref/rule/eq-misc-chest-huge/chest"
-basis = "derived"
+target = "ref/eq-misc/chest"
+basis = "direct"
 
 [[entries]]
 old = "ultimate-equipment/rules/wondrous-items/chest/chest-slot-wondrous-items/all-tools-vest"

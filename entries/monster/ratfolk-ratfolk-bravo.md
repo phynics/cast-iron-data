@@ -98,7 +98,7 @@ clear, utility shot), gunsmith
 **Combat gear:** oil of silence, potion of cure light wounds, alchemist's fire, 5
 [flare cartridges](ref/eq-weapon/alchemical-cartridge-flare), 10
 [paper cartridges](ref/eq-weapon/alchemical-cartridge-paper-bullet-or-pellet), 2
-[black powder horns](ref/eq-weapon/powder-horn) with 20 doses of black powder
+[black powder horns](ref/eq-misc/powder-horn) with 20 doses of black powder
 
 **Other gear:** mwk studded leather armor, mwk handaxe, mwk m20, gunsmith's kit, 211 gp
 

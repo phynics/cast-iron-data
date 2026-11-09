@@ -64,7 +64,7 @@ shot), gunsmith, rare resources
 [paper alchemical cartridges](ref/eq-weapon/alchemical-cartridge-paper-bullet-or-pellet) \[bullet\],
 [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
 [ring of protection +1](ref/magic-ring/ring-of-protection-1), black
-[powder horn](ref/eq-weapon/powder-horn) with 20 doses of black powder,
+[powder horn](ref/eq-misc/powder-horn) with 20 doses of black powder,
 [everburning torch](ref/eq-misc/everburning-torch), mwk
 [artisan's tools](ref/eq-misc/artisans-tools-masterwork), 5 Numerian silverdisks worth 100 gp each,
 40 gp)
