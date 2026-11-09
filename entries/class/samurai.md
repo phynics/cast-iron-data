@@ -76,7 +76,7 @@ alternate class for the cavalier base class.
 |19th|+19/+14/+9/+4|+11|+6|+6|Challenge 7/day|
 |20th|+20/+15/+10/+5|+12|+6|+6|Last stand|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons, katana, naginata, wakizashi
 
@@ -84,7 +84,7 @@ alternate class for the cavalier base class.
 
 **Shields:** Yes, except tower shields
 
-**Challenge (Ex)**
+#### Challenge (Ex) {#challenge}
 
 **Flavor:** A samurai can challenge a foe to combat.
 
@@ -101,7 +101,7 @@ except against attacks made by the target of your _challenge._
 
 **Usage:** 1 time/day + 1 per 3 samurai levels beyond 1st
 
-**Mount (Ex)**
+#### Mount (Ex) {#mount}
 
 **Action:** Ability
 
@@ -127,7 +127,7 @@ mounts: [pony](ref/companion/pony) or a [wolf](ref/companion/wolf). At 4th level
 [boar](ref/companion/boar) and [dog](ref/companion/dog) to this list. The GM may approve other
 animals as suitable mounts.
 
-**Order (Ex)**
+#### Order (Ex) {#order}
 
 **Ability:** You must pledge yourself to a specific [order](ref/ability/orders), typically the
 [order of the warrior](ref/order/order-of-the-warrior). The order grants you a number of bonuses,
@@ -153,7 +153,7 @@ new benefits from the ronin order. Once a ronin, however, the only way for you t
 order is through the method described above. Note that the names of these orders might vary
 depending upon the campaign setting or GM's preference.
 
-**Resolve (Ex)**
+#### Resolve (Ex) {#resolve}
 
 **At 8th Level:** _Determined_ can now remove the [exhausted](ref/misc/exhausted),
 [frightened](ref/misc/frightened), [nauseated](ref/misc/nauseated), or
@@ -183,7 +183,7 @@ standard action. You do fall unconscious if you take additional damage from any 
 
 **Usage:** 1 time/day + 1 per 2 samurai levels beyond 1st
 
-**Weapon Expertise (Ex)**
+#### Weapon Expertise (Ex) {#weapon-expertise}
 
 **Ability:** Select either the katana, [longbow](ref/eq-weapon/longbow), naginata, or wakizashi.
 Whenever you threaten a critical hit with the selected weapon, you gain a +2 bonus on the
@@ -197,7 +197,7 @@ confirmation roll.
 possess for the purposes of meeting the prerequisites for feats that specifically select your chosen
 weapon, such as [Weapon Specialization](ref/feat/weapon-specialization).
 
-**Mounted Archer (Ex)**
+#### Mounted Archer (Ex) {#mounted-archer}
 
 **Flavor:** A samuari becomes skilled at firing ranged weapons while mounted.
 
@@ -206,7 +206,7 @@ weapon, such as [Weapon Specialization](ref/feat/weapon-specialization).
 **Passive:** You only take a -2 penalty on attack rolls with ranged weapons while your mount takes a
 double move. This penalty increases to -4 while your mount is running.
 
-**Banner (Ex)**
+#### Banner (Ex) {#banner}
 
 **Choice:** Choose one of the following standards. The &quot&Original Standard&quot& refers to the
 original _banner_ ability as printed in _Ultimate Combat,_ while the other standards were introduced
@@ -222,14 +222,14 @@ specified by your standard.
 **Special:** The banner must be at least Small or larger and must be carried or displayed by you or
 your mount to function.
 
-**Original Standard (Ex)**
+#### Original Standard (Ex) {#original-standard}
 
 **Passive:** An ally who benefits from this standard receives a morale bonus on saving throws
 against fear and a smaller morale bonus on attack rolls made as part of a charge. The save bonus is
 equal to 1 + [one-fifth](ref/misc/fractions-and-rounding) of your samurai level, while the charge
 bonus is equal to one-fifth of your samurai level.
 
-**Fleet Standard (Ex)**
+#### Fleet Standard (Ex) {#fleet-standard}
 
 **Passive:** An ally who benefits from this standard increases their land speed by 5 feet and gains
 a +1 dodge bonus to AC during any round in which they moved at least 10 feet. This increase to land
@@ -241,24 +241,24 @@ At 15th level: The bonus to speed +15 feet.
 
 At 20th level: The bonus to speed +20 feet.
 
-**Jinx Standard (Ex)**
+#### Jinx Standard (Ex) {#jinx-standard}
 
 **Passive:** An ally who benefits from this standard gains a bonus on caster level checks to bypass
 [spell resistance](ref/rule/spell-resistance) and a bonus to the DC of their hexes and necromancy or
 enchantment spell they casts. These bonuses are equal to one-fifth of your samurai level.
 
-**Knave Standard (Ex)**
+#### Knave Standard (Ex) {#knave-standard}
 
 **Passive:** An ally who benefits from this standard gains a dodge bonus (equal to 1 + one-fifth of
 your samurai level) to AC against attacks of opportunity provoked by movement, and a +1 morale bonus
 on attack rolls that benefit from [flanking](ref/rule/flanking).
 
-**Stalwart Standard (Ex)**
+#### Stalwart Standard (Ex) {#stalwart-standard}
 
 **Passive:** An ally who benefits from this standard gains a morale bonus (equal to 1 + one-fifth
 your samurai level) to CMD and a +1 morale bonus on attack rolls to creatures threatening an ally.
 
-**Bonus Feat**
+#### Bonus Feat {#bonus-feat}
 
 **Ability:** You gain a bonus combat feat.
 
@@ -270,7 +270,7 @@ At 12th level: You gain a 2nd bonus combat feat.
 
 At 18th level: You gain a 3rd bonus combat feat.
 
-**Greater Resolve (Ex)**
+#### Greater Resolve (Ex) {#greater-resolve}
 
 **Immediate:** After a critical hit is confirmed against you, you can spend one use of your
 _resolve_ to treat that critical hit as a normal hit.
@@ -279,7 +279,7 @@ _resolve_ to treat that critical hit as a normal hit.
 
 **Special:** Effects that only trigger on a critical hit do not trigger when you use this ability.
 
-**Honorable Stand (Ex)**
+#### Honorable Stand (Ex) {#honorable-stand}
 
 **Flavor:** A samurai can make an honorable stand, deciding to fight the target of his _challenge_
 to the bitter end, no matter the cost.
@@ -301,7 +301,7 @@ made. You must take the result of the second roll, even if it is worse.
 
 **Usage:** Once a day.
 
-**Demanding Challenge (Ex)**
+#### Demanding Challenge (Ex) {#demanding-challenge}
 
 **Gained:** At 12th Level
 
@@ -309,7 +309,7 @@ made. You must take the result of the second roll, even if it is worse.
 pose. As long as the target is within your threatened area, it takes a -2 penalty to its AC from
 attacks made by anyone other than you.
 
-**Greater Banner (Ex)**
+#### Greater Banner (Ex) {#greater-banner}
 
 **Flavor:** A samurai's banner becomes a rallying call to his allies.
 
@@ -322,7 +322,7 @@ attacks made by anyone other than you.
 **Standard:** While your banner is displayed, you can wave the banner through the air, granting all
 allies within 60 feet certain benefits.
 
-**Original Standard (Ex)**
+#### Original Standard (Ex) {#original-standard-2}
 
 **Passive:** An ally benefiting from the banner receives a +2 morale bonus on saving throws against
 charm and compulsion spells and effects.
@@ -332,7 +332,7 @@ against any one spell or effect that is targeting them. This save is made at the
 and effects that do not allow saving throws are unaffected by this ability. An ally cannot benefit
 from this ability more than once per day.
 
-**Fleet Standard (Ex)**
+#### Fleet Standard (Ex) {#fleet-standard-2}
 
 **Passive:** An ally benefiting from the banner gains a +2 morale bonus on Reflex saving throws
 against effects that target an area, such as [fireball](ref/spell/fireball) or
@@ -341,7 +341,7 @@ against effects that target an area, such as [fireball](ref/spell/fireball) or
 **Standard:** Waving your _banner_ grants each ally within 60 feet the ability to move up to their
 speed as an **immediate action**.
 
-**Jinx Standard (Ex)**
+#### Jinx Standard (Ex) {#jinx-standard-2}
 
 **Passive:** An ally benefiting from the banner gains a +2 morale bonus on saving throws against
 spells or effects that deal hit point damage.
@@ -350,7 +350,7 @@ spells or effects that deal hit point damage.
 (minimum 1) within 60 feet the ability to attempt an Intimidate check to demoralize a foe as an
 **immediate action**.
 
-**Knave Standard (Ex)**
+#### Knave Standard (Ex) {#knave-standard-2}
 
 **Passive:** An ally benefiting from the banner gains [sneak attack](ref/ability/sneak-attack) +1d6;
 this stacks with other sources of sneak attack.
@@ -359,7 +359,7 @@ this stacks with other sources of sneak attack.
 (minimum 1) within 60 feet the ability to attempt a [feint](ref/rule/feint) against a foe they
 threaten as an **immediate action**.
 
-**Stalwart Standard (Ex)**
+#### Stalwart Standard (Ex) {#stalwart-standard-2}
 
 **Passive:** An ally benefiting from the banner is treated as one size category larger for the
 purposes of determining which creatures can affect them with combat maneuvers.
@@ -368,7 +368,7 @@ purposes of determining which creatures can affect them with combat maneuvers.
 without provoking attacks of opportunities and ignoring
 [difficult terrain](ref/rule/terrain-and-obstacles) as an **immediate action**.
 
-**True Resolve (Ex)**
+#### True Resolve (Ex) {#true-resolve}
 
 **Ability:** If you have at least two uses of your _resolve_ remaining, you can spend all of the
 daily uses of your _resolve_ that you have available to you to avoid death. Regardless of the source
@@ -377,7 +377,7 @@ already below -1), [unconscious](ref/misc/unconscious), and [stable](ref/misc/st
 
 **Gained:** At 17th Level
 
-**Last Stand (Ex)**
+#### Last Stand (Ex) {#last-stand}
 
 **Ability:** You can make a _last stand_ whenever you make a _challenge._ While this _challenge_ is
 in effect, all melee and ranged weapons deal the minimum amount of damage to you, unless the attack

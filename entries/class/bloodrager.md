@@ -97,7 +97,7 @@ enemies' faces, supplying tremendous martial force bolstered by a trace of arcan
 |19th|6|6|6|5|
 |20th|6|6|6|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -111,7 +111,7 @@ chance for arcane spells received from other classes. Like other arcane spellcas
 wielding a shield incurs a chance of arcane spell failure if the spell in question has somatic
 components.
 
-**Bloodline**
+#### Bloodline {#bloodline}
 
 **Action:** Info
 
@@ -166,7 +166,7 @@ discretion, you can change your former bloodline to make them conform.
 Optionally, whenever a bloodrager gains a new bloodline power or bonus feat, he can swap it for a
 [bloodline mutation](ref/ability/bloodline-mutations) whose prerequisites he meets.
 
-**Bloodrage (Su)**
+#### Bloodrage (Su) {#bloodrage}
 
 **Flavor:** Your source of internal power grants you the ability to _bloodrage._
 
@@ -198,7 +198,7 @@ spells like [bear's endurance](ref/spell/bears-endurance)) don't increase this n
 **NOTE:** _Bloodrage_ counts as the [barbarian's](ref/class/barbarian) _rage_ class feature for the
 purpose of feat prerequisites, feat abilities, magic item abilities, and spell effects.
 
-**Fast Movement (Ex)**
+#### Fast Movement (Ex) {#fast-movement}
 
 **Gained:** At 1st Level
 
@@ -208,7 +208,7 @@ only when you are wearing no armor, light armor, or medium armor, and not carryi
 **Special:** Apply this bonus before modifying your speed due to any armor worn or load carried.
 This bonus stacks with any other bonuses to your land speed.
 
-**Uncanny Dodge (Ex)**
+#### Uncanny Dodge (Ex) {#uncanny-dodge}
 
 **Flavor:** You can react to danger before your senses would normally allow you to do so.
 
@@ -221,7 +221,7 @@ different class, you automatically gain _improved uncanny dodge_ (see below) ins
 **Special:** You still lose your Dexterity bonus to AC if immobilized, or if an opponent
 successfully uses the [feint](ref/rule/feint) action against you.
 
-**Blood Sanctuary (Su)**
+#### Blood Sanctuary (Su) {#blood-sanctuary}
 
 **Flavor:** Due to the power of your blood, you can stand confidently amid the effects of spells
 cast by yourself or your allies.
@@ -230,7 +230,7 @@ cast by yourself or your allies.
 
 **Passive:** You gain a +2 bonus on saving throws against spells that you or an ally casts.
 
-**Spells**
+#### Spells {#spells}
 
 **Ability:** You gain the ability to cast a small number of arcane spells drawn from the bloodrager
 spell list. You do not need to prepare these spells in advance; you can cast any spell you know at
@@ -254,7 +254,7 @@ the spell level.
 **Usage:** To learn, prepare, or cast a spell, you must have a Charisma score equal to at least 10 +
 the spell level.
 
-**Blood Casting (Su)**
+#### Blood Casting (Su) {#blood-casting}
 
 **Ability:** You gain the ability to cast spells even while _bloodraging._ You can also cast these
 spells [defensively](ref/rule/concentration) and can make [concentration](ref/rule/concentration)
@@ -265,13 +265,13 @@ checks for these spells while _bloodraging._
 **Special:** While _bloodraging,_ you can cast and concentrate on only your bloodrager spells;
 spells from other classes cannot be cast during this state.
 
-**Eschew Materials**
+#### Eschew Materials {#eschew-materials}
 
 **Gained:** At 4th Level
 
 **Passive:** You gain [Eschew Materials](ref/feat/eschew-materials) as a bonus feat.
 
-**Improved Uncanny Dodge (Ex)**
+#### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
 **Passive:** You can no longer be [flanked](ref/rule/flanking). This defense denies rogues (or other
 classes) the ability to [sneak attack](ref/ability/sneak-attack) you by flanking, unless the
@@ -281,7 +281,7 @@ your bloodrager levels.
 **Special:** If you already have uncanny dodge from another class, the levels from the classes that
 grant uncanny dodge stack when determining the minimum rogue level required to flank you.
 
-**Damage Reduction (Ex)**
+#### Damage Reduction (Ex) {#damage-reduction}
 
 **Gained:** At 7th Level
 
@@ -297,7 +297,7 @@ At 16th level: Your DR 4/-.
 
 At 19th level: Your DR 5/-.
 
-**Greater Bloodrage (Su)**
+#### Greater Bloodrage (Su) {#greater-bloodrage}
 
 **Ability:** When you enter a _bloodrage,_ the morale bonus to Strength and Constitution increases
 to +6 and the morale bonus on Will saves increases to +3. In addition, upon entering a _bloodrage,_
@@ -313,7 +313,7 @@ cast the spell; you must have the spell slot available to take advantage of this
 **Special:** _Greater bloodrage_ counts as the barbarian's _greater rage_ ability for the purposes
 of feat prerequisites, feat abilities, magic item abilities, and spell effects.
 
-**Indomitable Will (Ex)**
+#### Indomitable Will (Ex) {#indomitable-will}
 
 **Gained:** At 14th Level
 
@@ -321,13 +321,13 @@ of feat prerequisites, feat abilities, magic item abilities, and spell effects.
 This bonus stacks with all other modifiers, including the morale bonus on Will saves you also
 receives during your _bloodrage._
 
-**Tireless Bloodrage (Su)**
+#### Tireless Bloodrage (Su) {#tireless-bloodrage}
 
 **Gained:** At 17th Level
 
 **Passive:** You no longer become fatigued at the end of your _bloodrage._
 
-**Mighty Bloodrage (Su)**
+#### Mighty Bloodrage (Su) {#mighty-bloodrage}
 
 **Ability:** When you enter a _bloodrage,_ the morale bonus to Strength and Constitution increases
 to +8, and the morale bonus on Will saves increases to +4. Furthermore, the spell you can apply to

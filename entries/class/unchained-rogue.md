@@ -77,7 +77,7 @@ Linguistics
 |19th|+14/+9/+4|+6|+11|+6|Finesse training, sneak attack +10d6|
 |20th|+15/+10/+5|+6|+12|+6|Master strike, rogue talent, rogue's edge|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, hand crossbow, rapier, sap, shortbow, short sword
 
@@ -85,7 +85,7 @@ Linguistics
 
 **Shields:** No
 
-**Sneak Attack**
+#### Sneak Attack {#sneak-attack}
 
 **Ability:** Your attack deals extra damage any time your target would be denied a Dexterity bonus
 to AC (whether the target actually has a Dexterity bonus or not), or when you
@@ -106,14 +106,14 @@ deals nonlethal damage (like a sap, whip, or an unarmed strike), you can make a 
 deals nonlethal damage instead of lethal damage. You cannot use a weapon that deals lethal damage to
 deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.
 
-**Trapfinding**
+#### Trapfinding {#trapfinding}
 
 **Gained:** At 1st Level
 
 **Passive:** You add 1/2 your level to Perception skill checks made to locate traps and to Disable
 Device skill checks (minimum +1). You can use Disable Device to disarm magic traps.
 
-**Finesse Training (Ex)**
+#### Finesse Training (Ex) {#finesse-training}
 
 **Ability:** You gain [Weapon Finesse](ref/feat/weapon-finesse) as a bonus feat.
 
@@ -129,7 +129,7 @@ adding your Strength modifier to the damage roll, you do not add your Dexterity 
 
 **Gained:** At 1st Level
 
-**Evasion (Ex)**
+#### Evasion (Ex) {#evasion}
 
 **Gained:** At 2nd Level
 
@@ -137,7 +137,7 @@ adding your Strength modifier to the damage roll, you do not add your Dexterity 
 damage on a successful save, you instead take no damage. Evasion can be used only if the you are not
 [helpless](ref/misc/helpless) and are wearing light armor or no armor.
 
-**Rogue Talents**
+#### Rogue Talents {#rogue-talents}
 
 **Ability:** You gain one unchained rogue talent. You gain an additional rogue talent at every
 even-numbered level (4th, 6th, 8th, and so on).
@@ -151,7 +151,7 @@ her foes.
 _sneak attack._ Only one of these talents can be applied to an individual _attack_ and the decision
 must be made before the attack roll is made.
 
-**Danger Sense (Ex)**
+#### Danger Sense (Ex) {#danger-sense}
 
 **Gained:** At 3rd Level
 
@@ -163,7 +163,7 @@ by a foe. These bonuses are equal to one-third of your rogue level.
 or class prerequisite, and can be replaced by any archetype class feature that replaces trap sense.
 The bonuses gained from this ability stack with those gained from trap sense (from another class).
 
-**Debilitating Injury (Ex)**
+#### Debilitating Injury (Ex) {#debilitating-injury}
 
 **Gained:** At 4th Level
 
@@ -177,7 +177,7 @@ attack damage extend the duration by 1 round. A creature cannot suffer from more
 from this ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form
 of healing applied to a target suffering from one of these penalties also removes the penalty.
 
-**Bewildered**
+#### Bewildered {#bewildered}
 
 **At 10th Level:** The additional penalty to AC against you becomes -4 (for a total of -6).
 
@@ -186,7 +186,7 @@ of healing applied to a target suffering from one of these penalties also remove
 **Passive:** The target becomes bewildered, taking a -2 penalty to AC. The target takes an
 additional -2 penalty to AC against all attacks made by you (for a total of -4).
 
-**Disoriented**
+#### Disoriented {#disoriented}
 
 **At 10th Level:** The additional penalty on attacks against you becomes -4 (for a total of -6).
 
@@ -195,12 +195,12 @@ additional -2 penalty to AC against all attacks made by you (for a total of -4).
 **Passive:** The target takes a -2 penalty on attack rolls. In addition, the target takes an
 additional -2 penalty on all attack rolls it makes against the rogue (for a total of -4).
 
-**Hampered**
+#### Hampered {#hampered}
 
 **Passive:** All of the target's speeds are reduced by half (to a minimum of 5 feet). In addition,
 the target cannot [take a 5-foot step](ref/rule/take-5-foot-step).
 
-**Uncanny Dodge (Ex)**
+#### Uncanny Dodge (Ex) {#uncanny-dodge}
 
 **Gained:** At 4th Level
 
@@ -211,7 +211,7 @@ or if an opponent successfully uses the [feint](ref/rule/feint) action against y
 **Special:** If you already have uncanny dodge from a different class, you automatically gain
 improved uncanny dodge instead.
 
-**Rogue's Edge (Ex)**
+#### Rogue's Edge (Ex) {#rogue-s-edge}
 
 **Ability:** Choose a skill. You gain the skill unlock powers for that skill as appropriate for your
 number of ranks in that skill.
@@ -226,7 +226,7 @@ results that others can only dream about.
 **Special:** Skill unlocks can be found in each skill's entry under the heading _Unchained Rogue
 Skill Unlocks._
 
-**Improved Uncanny Dodge (Ex)**
+#### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
 **Gained:** At 8th Level
 
@@ -237,7 +237,7 @@ than you do.
 **Special:** If you already have uncanny dodge from another class, the levels from the classes that
 grant uncanny dodge stack to determine the minimum rogue level required to flank you.
 
-**Advanced Talents**
+#### Advanced Talents {#advanced-talents}
 
 **Ability:** You can choose an advanced unchained rogue talent in place of a _rogue talent._
 
@@ -245,7 +245,7 @@ grant uncanny dodge stack to determine the minimum rogue level required to flank
 
 **Gained:** At 10th Level
 
-**Master Strike (Ex)**
+#### Master Strike (Ex) {#master-strike}
 
 **Ability:** Each time you deal _sneak attack_ damage, you can choose one of the following three
 effects: the target can be put to sleep for 1d4 hours, [paralyzed](ref/rule/paralyzed) for 2d6

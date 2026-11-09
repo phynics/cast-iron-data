@@ -73,7 +73,7 @@ most adventuring groups.
 |19th|+14/+9/+4|+11|+11|+6|Bomb 10d6|5|5|5|5|5|4|
 |20th|+15/+10/+5|+12|+12|+6|Grand discovery|5|5|5|5|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, Bombs
 
@@ -81,7 +81,7 @@ most adventuring groups.
 
 **Shields:** No
 
-**Alchemy (Su)**
+#### Alchemy (Su) {#alchemy}
 
 **Ability:** When using Craft (alchemy) to create an alchemical item, you gain a competence bonus
 equal to your class level on the Craft (alchemy) check. In addition, you can use Craft (alchemy) to
@@ -96,7 +96,7 @@ physical abilities - each of these are detailed in their own sections below.
 
 **Gained:** At 1st Level
 
-**Extracts**
+#### Extracts {#extracts}
 
 **Ability:** You can prepare an extract of any formula you know. To learn or use an extract, you
 must have an Intelligence score equal to at least 10 + the extract's level. The DC for a saving
@@ -160,7 +160,7 @@ material component, that component is expended during the consumption of that pa
 Extracts cannot be made from spells that have focus requirements (alchemist extracts that duplicate
 divine spells never have a divine focus requirement).
 
-**Brew Potion (Ex)**
+#### Brew Potion (Ex) {#brew-potion}
 
 **Ability:** You receive [Brew Potion](ref/feat/brew-potion) as a bonus feat. You can brew potions
 of any formulae you know (up to 3rd level), using your alchemist level as your caster level. The
@@ -169,7 +169,7 @@ feat.
 
 **Gained:** At 1st Level
 
-**Bomb (Su)**
+#### Bomb (Su) {#bomb}
 
 **Action:** Info
 
@@ -232,7 +232,7 @@ Bombs are considered weapons and can be selected using feats such as
 can learn new types of bombs as **discoveries** as they level up. Your bombs, like your extracts,
 become inert if used or carried by anyone else.
 
-**Throw Anything (Ex)**
+#### Throw Anything (Ex) {#throw-anything}
 
 **Gained:** At 1st Level
 
@@ -240,7 +240,7 @@ become inert if used or carried by anyone else.
 your Intelligence modifier to damage done with splash weapons, including the splash damage if any.
 (This bonus damage is already included in the bomb class feature.)
 
-**Mutagen (Su)**
+#### Mutagen (Su) {#mutagen}
 
 **Action:** Info
 
@@ -276,7 +276,7 @@ if you drink it. (Although if the other alchemist creates a different mutagen, t
 "stolen" mutagen immediately cease.) The effects of a mutagen do not stack. Whenever you drink a
 mutagen, the effects of any previous mutagen immediately end.
 
-**Discovery (Su)**
+#### Discovery (Su) {#discovery}
 
 **Ability:** You learn an incredible alchemical discovery, choosing one from the list provided.
 Unless otherwise noted, you cannot select an individual discovery more than once. Some discoveries
@@ -293,7 +293,7 @@ discovery is equal to 10 + 1/2 your alchemist level + the your Intelligence modi
 In addition, an alchemist can choose to learn an [annointing](ref/ability/annointings) instead of a
 discovery.
 
-**Poison Resistance (Ex)**
+#### Poison Resistance (Ex) {#poison-resistance}
 
 **At 10th Level:** You become completely immune to poison.
 
@@ -307,14 +307,14 @@ At 5th level: The bonus +4.
 
 At 8th level: The bonus +6.
 
-**Poison Use (Ex)**
+#### Poison Use (Ex) {#poison-use}
 
 **Gained:** At 2nd Level
 
 **Passive:** You are trained in the use of poison and cannot accidentally poison yourself when
 applying poison to a weapon.
 
-**Swift Alchemy (ex)**
+#### Swift Alchemy (ex) {#swift-alchemy}
 
 **Flavor:** You can create alchemical items with astounding speed.
 
@@ -326,19 +326,19 @@ applying poison to a weapon.
 
 **Passive:** It takes you half the normal amount of time to create alchemical items.
 
-**Swift Poisoning (Ex)**
+#### Swift Poisoning (Ex) {#swift-poisoning}
 
 **Gained:** At 6th Level
 
 **Swift:** You can now apply a dose of poison to a weapon as a **swift action**.
 
-**Persistent Mutagen (Su)**
+#### Persistent Mutagen (Su) {#persistent-mutagen}
 
 **Gained:** At 14th Level
 
 **Passive:** The effects of a mutagen now last for 1 hour per level.
 
-**Instant Alchemy (Ex)**
+#### Instant Alchemy (Ex) {#instant-alchemy}
 
 **Flavor:** You can create alchemical items with almost supernatural speed.
 
@@ -349,7 +349,7 @@ have the appropriate resources at hand to fund the creation.
 
 **Gained:** At 18th Level
 
-**Grand Discovery (Su)**
+#### Grand Discovery (Su) {#grand-discovery}
 
 **Flavor:** For many alchemists, the promise of one of these grand discoveries is the primary goal
 of their experiments and hard work.

@@ -77,7 +77,7 @@ Knowledge (local), Knowledge (nobility)
 |19th|+14/+9/+4|+6|+11|+11|Social talent|
 |20th|+15/+10/+5|+6|+12|+12|Vengeance strike, vigilante talent|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -85,7 +85,7 @@ Knowledge (local), Knowledge (nobility)
 
 **Shields:** Yes, except tower shields
 
-**Dual Identity (Ex)**
+#### Dual Identity (Ex) {#dual-identity}
 
 **Action:** Ability
 
@@ -126,7 +126,7 @@ creature is attempting to locate (or if the creature knows that the two identiti
 individual). Otherwise, the spell or effect has no effect, revealing nothing but darkness, as if the
 target were invalid or did not exist.
 
-**Seamless Guise (Ex)**
+#### Seamless Guise (Ex) {#seamless-guise}
 
 **Ability:** Should anyone suspect you of being anything other than what you appear to be while
 either in your social or vigilante identity, you can attempt a Disguise check with a +20
@@ -135,7 +135,7 @@ circumstance bonus to appear as your current identity, and not as your other ide
 **Flavor:** A vigilante knows how to behave in a way that appears perfectly proper and normal for
 his current identity.
 
-**Social Talent**
+#### Social Talent {#social-talent}
 
 **Ability:** You gain a social talent. Unless otherwise noted, a talent can be selected only once.
 Some talents require you to meet other prerequisites before they can be chosen, such as having
@@ -147,7 +147,7 @@ cannot be changed.
 **Special:** You gain a new _social talent_ at every odd-numbered level (1st, 3rd, 5th, 7th, and so
 on).
 
-**Vigilante Specialization (Ex)**
+#### Vigilante Specialization (Ex) {#vigilante-specialization}
 
 **Ability:** You must choose to be either an avenger or a stalker. Once this choice is made, it
 can't be changed.
@@ -157,13 +157,13 @@ can't be changed.
 **Special:** While many _vigilante talents_ are usable by both specializations, some are unique to
 each specialization.
 
-**Avenger**
+#### Avenger {#avenger}
 
 **Passive:** You gain a base attack bonus equal to your vigilante level instead of using those
 listed above. You add this value to any other base attack bonus gained from other classes or racial
 Hit Dice as normal.
 
-**Stalker**
+#### Stalker {#stalker}
 
 **Ability:** You gain an ability called _hidden strike,_ which allows you to deal an extra 1d8
 points of precision damage on melee attacks (or ranged attacks from within 30 feet) against foes who
@@ -193,7 +193,7 @@ At 17th level: The damage +9d8.
 
 At 19th level: The damage +10d8.
 
-**Vigilante Talent**
+#### Vigilante Talent {#vigilante-talent}
 
 **Ability:** You gain a vigilante talent. Unless otherwise noted, a talent can be selected only
 once. If a talent calls for a saving throw, the DC for that save is equal to 10 +
@@ -210,13 +210,13 @@ Disguise check against the Perception checks of all onlookers (without the +20 c
 from _seamless guise_) or the onlookers will realize that you are more than your social identity
 appears to be and perhaps discover the social and vigilante identities are one and the same.
 
-**Unshakable (Ex)**
+#### Unshakable (Ex) {#unshakable}
 
 **Gained:** At 3rd Level
 
 **Passive:** You add your class level to the DC of any attempts to Intimidate you.
 
-**Startling Appearance (Ex)**
+#### Startling Appearance (Ex) {#startling-appearance}
 
 **Flavor:** A vigilante learns to use the element of surprise to his advantage, startling foes that
 are unaware of his presence.
@@ -229,7 +229,7 @@ your turn ([uncanny dodge](ref/ability/uncanny-dodge) or a similar ability preve
 unless you are at least 4 levels higher than the foe with uncanny dodge). The foe also takes a -4
 penalty on attacks made against you until the start of your next turn.
 
-**Frightening Appearance (Ex)**
+#### Frightening Appearance (Ex) {#frightening-appearance}
 
 **Free:** Whenever you make an attack against a foe that is unaware of your presence, you can
 attempt an [Intimidate](ref/skill/intimidate) check to demoralize the target of your attack and any
@@ -248,7 +248,7 @@ modifier). This effect is in addition to the bonuses gained from the _startling 
 or as a nearby creature, regardless of whether or not it was successful), it is immune to your
 _frightening appearance_ for 24 hours. This is a mind-affecting fear effect.
 
-**Stunning Appearance (Ex)**
+#### Stunning Appearance (Ex) {#stunning-appearance}
 
 **Gained:** At 17th Level
 
@@ -262,7 +262,7 @@ the effects of _startling appearance_ and _frightening appearance._
 saving throw is successful), it is immune to your _stunning appearance_ for 24 hours. This is a
 mind-affecting fear effect.
 
-**Vengeance Strike (Ex)**
+#### Vengeance Strike (Ex) {#vengeance-strike}
 
 **Ability:** You can spend up to 5 **standard actions**, which all must be in consecutive rounds. On
 the following round, you can make a _vengeance strike_ against the studied creature. The target must

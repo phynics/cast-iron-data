@@ -98,7 +98,7 @@ Spellcraft
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, hand crossbow, sap, sword cane, whip
 
@@ -106,7 +106,7 @@ Spellcraft
 
 **Shields:** No
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Psychic spells from the mesmerist list, from 1st level
 
@@ -122,12 +122,12 @@ level as shown on the table. Charisma does not change the number known.
 **Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
 another of the same level that is at least one level below the highest level you can cast.
 
-**Knacks**
+#### Knacks {#knacks}
 
 **Ability:** 0-level psychic spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Consummate Liar**
+#### Consummate Liar {#consummate-liar}
 
 **Passive:** You add [half](ref/misc/fractions-and-rounding) your mesmerist level (minimum 1) as a
 bonus on all Bluff checks. In addition, you qualify for the
@@ -136,7 +136,7 @@ you don't have [Combat Expertise](ref/feat/combat-expertise) or an Intelligence 
 least 13. You can also ignore Combat Expertise and an Intelligence score of 13 as prerequisites for
 other feats that require Improved Feint or Greater Feint.
 
-**Hypnotic Stare (Su)**
+#### Hypnotic Stare (Su) {#hypnotic-stare}
 
 **At 8th Level:** The penalty becomes -3.
 
@@ -158,7 +158,7 @@ feet away, or you fall unconscious or die. You can remove the memory of your _st
 target's mind; the creature doesn't remember that it was affected (nor does it realize that it is
 currently being affected) unless you allow it.
 
-**Mesmerist Tricks (Su)**
+#### Mesmerist Tricks (Su) {#mesmerist-tricks}
 
 **Flavor:** A mesmerist can create hypnotic bonds with his allies, implanting magical suggestions in
 their minds that you can later activate.
@@ -191,7 +191,7 @@ any trick you know.
 
 **Usage:** Half your mesmerist level (minimum 1) + your Charisma bonus (if any) tricks/day.
 
-**Painful Stare (Su)**
+#### Painful Stare (Su) {#painful-stare}
 
 **Free:** When an attack that deals damage hits the target of your _hypnotic stare,_ you can cause
 the target to take an amount of additional damage equal to 1/2 your class level (minimum 1). You can
@@ -202,7 +202,7 @@ round, but a single creature can take damage from multiple mesmerists' _painful 
 
 **Gained:** At 1st Level
 
-**Towering Ego (Su)**
+#### Towering Ego (Su) {#towering-ego}
 
 **Gained:** At 2nd Level
 
@@ -211,7 +211,7 @@ round, but a single creature can take damage from multiple mesmerists' _painful 
 **Special:** If you are under any effect that would prevent you from providing the emotional
 component of psychic spells, you lose this bonus on saving throws.
 
-**Bold Stare (Su)**
+#### Bold Stare (Su) {#bold-stare}
 
 **Ability:** Your _hypnotic stare_ imposes a further effect upon its target, chosen from this list
 of mesmerist stares. The choice can't be changed later.
@@ -227,7 +227,7 @@ _hypnotic stare._
 A mesmerist may take the [Manifold Stare](ref/feat/manifold-stare) feat in place of a bold stare
 improvement. The mesmerist must meet the feat's prerequisites.
 
-**Touch Treatment (Su)**
+#### Touch Treatment (Su) {#touch-treatment}
 
 **At 10th Level:** You can now also remove the _cowering, nauseated, panicked,_ and _stunned_
 conditions. This is the &quot&greater&quot& ability.
@@ -250,7 +250,7 @@ this ability. This is the &quot&minor&quot& ability.
 
 **Usage:** Cha3 modifier times/day
 
-**Manifold Tricks (Su)**
+#### Manifold Tricks (Su) {#manifold-tricks}
 
 **At 5th Level:** You can have 2 _mesmerist tricks_ implanted at a time.
 
@@ -259,7 +259,7 @@ new trick while you already have your maximum number of concurrent tricks implan
 one implanted trick to dismiss without triggering (the dismissed trick still expends a daily use of
 your tricks).
 
-**Mental Potency (Ex)**
+#### Mental Potency (Ex) {#mental-potency}
 
 **Gained:** At 5th Level
 
@@ -279,7 +279,7 @@ At 15th level: The HD limits now increase by 3.
 
 At 20th level: The HD limits now increase by 4.
 
-**Glib Lie (Su)**
+#### Glib Lie (Su) {#glib-lie}
 
 **Gained:** At 11th Level
 
@@ -289,14 +289,14 @@ were under the effect of a [glibness](ref/spell/glibness) spell); failure means 
 detect your lies or force you to speak only the truth. This ability does not give you the
 _[glibness](ref/spell/glibness)_ spell's bonus on Bluff checks.
 
-**Masterful Tricks (Su)**
+#### Masterful Tricks (Su) {#masterful-tricks}
 
 **Gained:** At 12th Level
 
 **Passive:** You can choose a masterful trick in place of a _mesmerist trick._ Using a _masterful
 trick_ consumes two uses of the _mesmerist trick_ class feature instead of one.
 
-**Rule Minds (Su)**
+#### Rule Minds (Su) {#rule-minds}
 
 **Ability:** You can permanently mentally enslave a creature. When you successfully affect the
 target of your _hypnotic stare_ with an enchantment spell that requires a saving throw, you can

@@ -77,7 +77,7 @@ Linguistics
 |19th|+14/+9/+4|+6|+11|+6|Sneak attack +10d6|
 |20th|+15/+10/+5|+6|+12|+6|Master strike, rogue talent|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, hand crossbow, rapier, sap, shortbow, short sword
 
@@ -85,7 +85,7 @@ Linguistics
 
 **Shields:** No
 
-**Sneak Attack**
+#### Sneak Attack {#sneak-attack}
 
 **Ability:** Your attack deals extra damage any time your target would be denied a Dexterity bonus
 to AC (whether the target actually has a Dexterity bonus or not), or when you
@@ -106,14 +106,14 @@ deals nonlethal damage (like a sap, whip, or an unarmed strike), you can make a 
 deals nonlethal damage instead of lethal damage. You cannot use a weapon that deals lethal damage to
 deal nonlethal damage in a sneak attack, not even with the usual -4 penalty.
 
-**Trapfinding**
+#### Trapfinding {#trapfinding}
 
 **Gained:** At 1st Level
 
 **Passive:** You add 1/2 your level to Perception skill checks made to locate traps and to Disable
 Device skill checks (minimum +1). You can use Disable Device to disarm magic traps.
 
-**Evasion (Ex)**
+#### Evasion (Ex) {#evasion}
 
 **Gained:** At 2nd Level
 
@@ -121,7 +121,7 @@ Device skill checks (minimum +1). You can use Disable Device to disarm magic tra
 damage on a successful save, you instead take no damage. Evasion can be used only if the you are not
 [helpless](ref/misc/helpless) and are wearing light armor or no armor.
 
-**Rogue Talents**
+#### Rogue Talents {#rogue-talents}
 
 **Ability:** You gain one rogue talent. You gain an additional rogue talent at every even-numbered
 level (4th, 6th, 8th, and so on).
@@ -135,7 +135,7 @@ her foes.
 _sneak attack._ Only one of these talents can be applied to an individual _attack_ and the decision
 must be made before the attack roll is made.
 
-**Trap Sense (Ex)**
+#### Trap Sense (Ex) {#trap-sense}
 
 **Gained:** At 3rd Level
 
@@ -144,7 +144,7 @@ attacks made by traps. Both of these bonuses are equal to one-third of your rogu
 
 **Special:** Trap sense bonuses gained from multiple classes stack.
 
-**Uncanny Dodge (Ex)**
+#### Uncanny Dodge (Ex) {#uncanny-dodge}
 
 **Gained:** At 4th Level
 
@@ -155,7 +155,7 @@ or if an opponent successfully uses the [feint](ref/rule/feint) action against y
 **Special:** If you already have uncanny dodge from a different class, you automatically gain
 improved uncanny dodge instead.
 
-**Improved Uncanny Dodge (Ex)**
+#### Improved Uncanny Dodge (Ex) {#improved-uncanny-dodge}
 
 **Gained:** At 8th Level
 
@@ -166,7 +166,7 @@ levels than you do.
 **Special:** If you already have uncanny dodge from another class, the levels from the classes that
 grant uncanny dodge stack to determine the minimum rogue level required to flank you.
 
-**Advanced Talents**
+#### Advanced Talents {#advanced-talents}
 
 **Ability:** You can choose an advanced rogue talent in place of a _rogue talent._
 
@@ -174,7 +174,7 @@ grant uncanny dodge stack to determine the minimum rogue level required to flank
 
 **Gained:** At 10th Level
 
-**Master Strike (Ex)**
+#### Master Strike (Ex) {#master-strike}
 
 **Ability:** Each time you deal _sneak attack_ damage, you can choose one of the following three
 effects: the target can be put to sleep for 1d4 hours, [paralyzed](ref/rule/paralyzed) for 2d6

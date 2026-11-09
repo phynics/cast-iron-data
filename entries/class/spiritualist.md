@@ -96,7 +96,7 @@ Knowledge (nobility), Knowledge (planes), Knowledge (religion), Linguistics, Spe
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, kukri, sap, scythe
 
@@ -104,7 +104,7 @@ Knowledge (nobility), Knowledge (planes), Knowledge (religion), Linguistics, Spe
 
 **Shields:** No
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Psychic spells from the spiritualist list, from 1st level
 
@@ -120,12 +120,12 @@ level as shown on the table. Wisdom does not change the number known.
 **Spell swap:** At 5th, 8th, 11th, and every 3 levels after, one known spell may be exchanged for
 another of the same level that is at least one level below the highest level you can cast.
 
-**Knacks**
+#### Knacks {#knacks}
 
 **Ability:** 0-level psychic spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Phantom**
+#### Phantom {#phantom}
 
 **Action:** Ability
 
@@ -188,7 +188,7 @@ again until the eidolon or shadow is dismissed.
 A fully manifested phantom's abilities, feats, Hit Dice, saving throws, and skills are tied to your
 class level and increase as you gain levels.
 
-**Shared Consciousness (Su)**
+#### Shared Consciousness (Su) {#shared-consciousness}
 
 **Immediate:** When you fail a saving throw against a mind-affecting effect, you can shunt that
 effect into the phantom's section of your consciousness instead. When you do so, you are not
@@ -214,7 +214,7 @@ be cast on you to end the effect's duration as if you were affected by the mind-
 
 **Usage:** You can shunt an effect into your phantom once a day.
 
-**Etheric Tether (Su)**
+#### Etheric Tether (Su) {#etheric-tether}
 
 **Action:** Ability
 
@@ -247,7 +247,7 @@ ever 50 feet away from you or outside of line of effect from you for more than 1
 spiritualist level you possess, the tether is automatically broken; the phantom immediately returns
 to the Ethereal Plane and can't be summoned from that plane for 24 hours.
 
-**Bonded Senses (Su)**
+#### Bonded Senses (Su) {#bonded-senses}
 
 **Free:** You can end this effect.
 
@@ -259,7 +259,7 @@ you and the phantom must be on the same plane.
 
 **Usage:** 1 time/day per spiritualist level
 
-**Bonded Manifestation (Su)**
+#### Bonded Manifestation (Su) {#bonded-manifestation}
 
 **Free:** You can dismiss the effects of a _bonded manifestation_ as a free action, but if you do so
 the same round that you activated it, it still counts as 1 round of use.
@@ -277,7 +277,7 @@ manifestation,_ the phantom can't be damaged, dismissed, or banished.
 
 **Usage:** 1 time/day per spiritualist3 level
 
-**Ectoplasmic Bonded Manifestation**
+#### Ectoplasmic Bonded Manifestation {#ectoplasmic-bonded-manifestation}
 
 **Flavor:** The spiritualist gains an ectoplasmic shield that protects her without restricting her
 movement or actions.
@@ -305,7 +305,7 @@ hand.
 **Passive:** You gain a +4 shield bonus to Armor Class; this bonus applies to incorporeal touch
 attacks. The ectoplasmic shield has no armor check penalty or arcane spell failure chance.
 
-**Incorporeal Bonded Manifestation**
+#### Incorporeal Bonded Manifestation {#incorporeal-bonded-manifestation}
 
 **At 13th Level:** You can take a **standard action** to become invisible (as the
 [invisibility](ref/spell/invisibility) spell) until the start of your next turn.
@@ -321,7 +321,7 @@ feet (good) while using this form of bonded manifestation.
 **Passive:** You become shrouded in a haze of insubstantial mist, granting you
 [concealment](ref/rule/concealment) against ranged attacks.
 
-**Spiritual Interference (Ex or Su)**
+#### Spiritual Interference (Ex or Su) {#spiritual-interference}
 
 **Gained:** At 4th Level
 
@@ -334,7 +334,7 @@ these bonuses when the ectoplasmic manifested phantom is [grappled](ref/rule/gra
 circumstance bonus on saving throws against mind-affecting effects. This bonus is a supernatural
 ability and does not apply if the phantom is unconscious.
 
-**Detect Undead (Sp)**
+#### Detect Undead (Sp) {#detect-undead}
 
 **Gained:** At 5th Level
 
@@ -343,7 +343,7 @@ ability and does not apply if the phantom is unconscious.
 [spell-like ability](ref/umr/spell-like-abilities) with a caster level equal to your spiritualist
 level.
 
-**Phantom Recall (Su)**
+#### Phantom Recall (Su) {#phantom-recall}
 
 **Ability:** As either a **swift** or an **immediate action**, you can call your manifested phantom
 to your side or back into your consciousness. This ability functions as
@@ -359,7 +359,7 @@ manifestation._
 
 **Usage:** 1 time/day + 1 per 4 spiritualist levels beyond 6th
 
-**Calm Spirit (Sp)**
+#### Calm Spirit (Sp) {#calm-spirit}
 
 **Gained:** At 7th Level
 
@@ -368,14 +368,14 @@ manifestation._
 
 **Usage:** 1 time/day + 1 per 4 spiritualist levels beyond 7th
 
-**See Invisibility (Sp)**
+#### See Invisibility (Sp) {#see-invisibility}
 
 **Gained:** At 9th Level
 
 **Standard:** You gain the ability to use [see invisibility](ref/spell/see-invisibility) as a
 [spell-like ability](ref/umr/spell-like-abilities) once per day, with a duration of 10 minutes.
 
-**Fused Consciousness (Su)**
+#### Fused Consciousness (Su) {#fused-consciousness}
 
 **Ability:** Lastly, you can shunt the effect of a mind-affecting effect into the consciousness of
 your phantom as the _shared consciousness_ ability even when the phantom is manifested, but doing so
@@ -387,7 +387,7 @@ causes the phantom to immediately retreat back into your consciousness.
 also gain the skill ranks and bonus to mind-affecting spells granted by the spirit's emotional
 focus, even when your phantom is manifested.
 
-**Greater Spiritual Interference (Ex or Su)**
+#### Greater Spiritual Interference (Ex or Su) {#greater-spiritual-interference}
 
 **Section:** Other Abilities
 
@@ -402,7 +402,7 @@ this bonus if the manifested phantom is grappled, helpless, or unconscious.
 receive a +2 circumstance bonus on saving throws against mind-affecting effects. For you, this bonus
 increases to +4. This bonus doesn't apply if the phantom is unconscious.
 
-**Spiritual Bond (Su)**
+#### Spiritual Bond (Su) {#spiritual-bond}
 
 **Flavor:** A spiritualist's life force becomes intrinsically linked with the phantom's spiritual
 essence.
@@ -416,21 +416,21 @@ negative amount of hit points equal to its Constitution score. In the latter cas
 dealt in excess of this limit are dealt to you. This ability affects only effects that deal hit
 point damage.
 
-**Call Spirit (Sp)**
+#### Call Spirit (Sp) {#call-spirit}
 
 **Ability:** You gain the ability to use [call spirit](ref/spell/call-spirit) as a
 [spell-like ability](ref/umr/spell-like-abilities) once per day.
 
 **Gained:** At 16th Level
 
-**Dual Bond (Su)**
+#### Dual Bond (Su) {#dual-bond}
 
 **Gained:** At 17th Level
 
 **Passive:** You can use your _bonded manifestation_ ability a number of rounds per day equal to 3 +
 twice your spiritualist level.
 
-**Empowered Consciousness (Su)**
+#### Empowered Consciousness (Su) {#empowered-consciousness}
 
 **Gained:** At 20th Level
 

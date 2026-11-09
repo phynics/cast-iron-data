@@ -102,7 +102,7 @@ alike.
 |19th|9|5|5|4|4|4|3|3|3|2|
 |20th|9|5|5|4|4|4|3|3|3|3|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -113,7 +113,7 @@ alike.
 **Notes:** Armor interferes with a sorcerer's gestures, which can cause her spells with somatic
 components to fail.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Arcane spells from the sorcerer list, from 1st level
 
@@ -129,12 +129,12 @@ grows by level as shown on the table. Charisma does not change the number known.
 **Spell swap:** At 4th, 6th, 8th, and every 2 levels after, one known spell may be exchanged for
 another of the same level.
 
-**Cantrips**
+#### Cantrips {#cantrips}
 
 **Ability:** 0-level arcane spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Bloodline**
+#### Bloodline {#bloodline}
 
 **Ability:** You must pick one [bloodline](ref/ability/sorcerer-bloodlines) upon taking your first
 level of sorcerer. Once made, this choice cannot be changed. This bloodline grants you a bonus class
@@ -159,7 +159,7 @@ every level. They cannot be exchanged for different spells at higher levels.
 Optionally, when a sorcerer gains a new bloodline power or bonus feat, she can swap it for a
 specific [bloodline mutation](ref/ability/bloodline-mutations) whose prerequisites she meets.
 
-**Eschew Materials**
+#### Eschew Materials {#eschew-materials}
 
 **Ability:** You gain [Eschew Materials](ref/feat/eschew-materials) as a bonus feat at 1st level.
 

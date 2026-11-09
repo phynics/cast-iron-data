@@ -68,7 +68,7 @@ their own or alongside others with extraordinary talents.
 |19th|+14/+9/+4|+11|+11|+6|Infusion, metakinetic master|
 |20th|+15/+10/+5|+12|+12|+6|Infusion specialization 6, omnikinesis, utility wild talent|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons
 
@@ -76,7 +76,7 @@ their own or alongside others with extraordinary talents.
 
 **Shields:** No
 
-**Elemental Focus (Su)**
+#### Elemental Focus (Su) {#elemental-focus}
 
 **Ability:** You gain your selected element's basic utility wild talent as a bonus wild talent.
 
@@ -86,7 +86,7 @@ their own or alongside others with extraordinary talents.
 determines how you access the raw power of the Ethereal Plane, and grants you access to specific
 wild talents and additional class skills.
 
-**Wild Talents**
+#### Wild Talents {#wild-talents}
 
 **Action:** Ability
 
@@ -122,7 +122,7 @@ At 6th, 10th, and 16th levels, you can replace one of your utility wild talents 
 talent of the same level or lower. You can't replace a wild talent that you used to qualify for
 another of your wild talents.
 
-**Burn (Ex)**
+#### Burn (Ex) {#burn}
 
 **Action:** Ability
 
@@ -152,7 +152,7 @@ kineticist incapable of taking nonlethal damage can't accept burn. A kineticist 
 burn never benefits from abilities that allow her to ignore or alter the effects she receives from
 nonlethal damage.
 
-**Kinetic Blast (Sp)**
+#### Kinetic Blast (Sp) {#kinetic-blast}
 
 **Ability:** You gain a [kinetic blast wild talent](ref/ability/simple-kinetic-blasts) of your
 choice. This kinetic blast must be a simple blast that matches your element.
@@ -184,7 +184,7 @@ lower level that shares its descriptor.
 A kinetic blast that deals energy damage of any type (including force) has the corresponding
 descriptor.
 
-**Gather Power (Su)**
+#### Gather Power (Su) {#gather-power}
 
 **Ability:** If you have both hands free (or all of your prehensile appendages free), you can gather
 energy. Gathering energy creates an extremely loud, visible display in a 20-foot radius centered on
@@ -208,7 +208,7 @@ spell level of your kinetic blast) or lose the energy in a wild surge that force
 number of points of burn equal to the number of points by which your gathered power would have
 reduced the burn cost.
 
-**Infusion (Su)**
+#### Infusion (Su) {#infusion}
 
 **Action:** Ability
 
@@ -248,13 +248,13 @@ The DC for a save against an infusion is based on the associated kinetic blast's
 level, not the level of the infusion. The DCs for form infusions are calculated using your Dexterity
 modifier instead of your Constitution modifier.
 
-**Elemental Defense (Su)**
+#### Elemental Defense (Su) {#elemental-defense}
 
 **Ability:** You gain your element's [defense wild talent](ref/ability/defense-wild-talents).
 
 **Gained:** At 2nd Level
 
-**Elemental Overflow (Ex)**
+#### Elemental Overflow (Ex) {#elemental-overflow}
 
 **Flavor:** A kineticist's body surges with energy from her chosen element whenever she accepts
 burn, causing her to glow with a nimbus of fire, weep water from her pores, or experience some other
@@ -282,7 +282,7 @@ on attack rolls.
 round, but doing so suppresses all of this ability's other benefits, as well. The next time you use
 any wild talent, the visual effects and benefits return instantly.
 
-**Infusion Specialization (Ex)**
+#### Infusion Specialization (Ex) {#infusion-specialization}
 
 **Gained:** At 5th Level
 
@@ -299,7 +299,7 @@ At 17th level: You reduce the cost by 5.
 
 At 20th level: You reduce the cost by 6.
 
-**Metakinesis (Su)**
+#### Metakinesis (Su) {#metakinesis}
 
 **Ability:** By accepting 1 point of burn, you can empower a kinetic blast (as if using
 [Empower Spell](ref/feat/empower-spell)).
@@ -319,7 +319,7 @@ blasts, but you need to pay the burn cost only once.
 
 **Gained:** At 5th Level
 
-**Internal Buffer (Su)**
+#### Internal Buffer (Su) {#internal-buffer}
 
 **Ability:** When you would otherwise accept burn, you can spend 1 point from your buffer to avoid
 accepting 1 point of burn. You cannot spend more than 1 point from your buffer in this way for a
@@ -344,7 +344,7 @@ Points spent from the internal buffer don't activate _elemental overflow_ or add
 Similarly, this buffer can be used to exceed the limit on the number of points of burn you can
 accept in a single turn.
 
-**Expanded Element (Su)**
+#### Expanded Element (Su) {#expanded-element}
 
 **Ability:** You can choose any element, including your primary element.
 
@@ -353,7 +353,7 @@ element.
 
 **Gained:** At 7th Level
 
-**New Element**
+#### New Element {#new-element}
 
 **Ability:** You gain one of that element's simple blast wild talents that you do not already
 possess, if any. You also gain all
@@ -368,7 +368,7 @@ element as above. Or, you can choose your primary element and gain the 7th-level
 kineticist level as 4 levels lower for the purpose of determining which wild talents you can learn
 from your expanded element.
 
-**Primary Element**
+#### Primary Element {#primary-element}
 
 **Ability:** You gain an additional utility wild talent or infusion of your choice from that
 element, as if from your _infusion_ or _wild talent_ class feature, as appropriate.
@@ -378,7 +378,7 @@ gain a +1 bonus on attack rolls and damage rolls, as well as to caster level and
 choose a different expanded element, and gain all of the benefits from this new element as if you
 chose it at 7th-level.
 
-**Supercharge (Su)**
+#### Supercharge (Su) {#supercharge}
 
 **Ability:** When using _gather power_ as a move action, you can reduce the total burn cost of a
 single wild talent by 2 points instead of 1. When using _gather power_ for 1 full round, you can
@@ -386,21 +386,21 @@ reduce the burn cost of a single wild talent by 3 points instead of 2.
 
 **Gained:** At 11th Level
 
-**Composite Specialization (Su)**
+#### Composite Specialization (Su) {#composite-specialization}
 
 **Gained:** At 16th Level
 
 **Passive:** You reduce the burn cost of all composite blasts by 1 point. This can't reduce the cost
 of a composite blast below 0 points.
 
-**Metakinetic Master (Su)**
+#### Metakinetic Master (Su) {#metakinetic-master}
 
 **Ability:** Choose one type of metakinesis, such as empower or quicken: you reduce the burn cost of
 that metakinesis by 1 point (to a minimum of 0 points).
 
 **Gained:** At 19th Level
 
-**Omnikinesis (Su)**
+#### Omnikinesis (Su) {#omnikinesis}
 
 **Ability:** By accepting 1 point of burn (in addition to any burn requirement of the kinetic blast
 you choose), you can use any blast wild talent you don't know.

@@ -84,7 +84,7 @@ those that they do not subjugate, unless as part of a ruse to bring ruin from wi
 |19th|+19/+14/+9/+4|+11|+6|+11|Smite good 7/day|4|3|3|2|
 |20th|+20/+15/+10/+5|+12|+6|+12|Unholy champion|4|4|3|3|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -107,7 +107,7 @@ during such an unusual alliance as long as his nefarious goals are met in the en
 about results. An antipaladin may accept only [henchmen, followers, or cohorts](ref/feat/leadership)
 who are chaotic evil.
 
-**Aura of Evil (Ex)**
+#### Aura of Evil (Ex) {#aura-of-evil}
 
 **Section:** Evil and Good
 
@@ -116,7 +116,7 @@ who are chaotic evil.
 **Passive:** The power of your _aura of evil_ (see [detect evil](ref/spell/detect-evil)) is equal to
 your antipaladin level.
 
-**Detect Good (Sp)**
+#### Detect Good (Sp) {#detect-good}
 
 **Ability:** At will, you can use [detect good](ref/spell/detect-good), as the spell.
 
@@ -127,7 +127,7 @@ good, learning the strength of its aura as if having studied it for 3 rounds. Wh
 individual or object, you do not _[detect good](ref/spell/detect-good)_ in any other object or
 individual within range.
 
-**Smite Good (Su)**
+#### Smite Good (Su) {#smite-good}
 
 **Action:** Swift Action
 
@@ -152,13 +152,13 @@ modifier (if any) to your AC against attacks made by the target of the smite.
 The _smite good_ effect remains until the target of the smite is dead or the next time you rest and
 regain your uses of this ability.
 
-**Unholy Resilience (Su)**
+#### Unholy Resilience (Su) {#unholy-resilience}
 
 **Gained:** At 2nd Level
 
 **Passive:** You gain a bonus equal to your Charisma bonus (if any) on all saving throws.
 
-**Touch of Corruption (Su)**
+#### Touch of Corruption (Su) {#touch-of-corruption}
 
 **Action:** Standard Action
 
@@ -179,7 +179,7 @@ a touch attack, you can cause 1d6 points of damage for every two antipaladin lev
 Alternatively, you can use this power to heal undead creatures, restoring 1d6 hit points for every
 two levels the you possess.
 
-**Aura of Cowardice (Su)**
+#### Aura of Cowardice (Su) {#aura-of-cowardice}
 
 **Flavor:** You radiate a palpably daunting aura.
 
@@ -189,7 +189,7 @@ two levels the you possess.
 Creatures that are normally immune to fear lose that immunity while within 10 feet of you. This
 ability functions only while you remain conscious, not if you are unconscious or dead.
 
-**Plague Bringer (Ex)**
+#### Plague Bringer (Ex) {#plague-bringer}
 
 **Flavor:** The powers of darkness make an antipaladin a beacon of corruption and disease.
 
@@ -198,7 +198,7 @@ ability functions only while you remain conscious, not if you are unconscious or
 **Passive:** You do not take any damage or take any penalty from diseases. You can still contract
 diseases and spread them to others, but you're otherwise immune to their effects.
 
-**Cruelty (Su)**
+#### Cruelty (Su) {#cruelty}
 
 **Action:** Ability
 
@@ -265,7 +265,7 @@ These abilities are not cumulative. For example, a 12th-level antipaladin's touc
 ability deals 6d6 points of damage and might also cause the target to become fatigued, dazed,
 poisoned, **or** diseased.
 
-**Channel Negative Energy (Su)**
+#### Channel Negative Energy (Su) {#channel-negative-energy}
 
 **Gained:** At 4th Level
 
@@ -274,7 +274,7 @@ poisoned, **or** diseased.
 uses of your _touch of corruption_ ability. You use your level as your effective cleric level when
 channeling negative energy. This is a Charisma-based ability.
 
-**Channel Energy (Su)**
+#### Channel Energy (Su) {#channel-energy}
 
 **Choice:** An evil cleric (or one who worships an evil deity) channels **negative energy** and can
 choose to deal damage to living creatures or to heal undead creatures.
@@ -313,7 +313,7 @@ Some deities may endow their mortal servants with the power to channel energies 
 more closely mirror their particular focus. If you serve a deity, you may choose one of these
 [variant channeling abilities](ref/ability/variant-channeling) instead.
 
-**Spells**
+#### Spells {#spells}
 
 **Ability:** You gain the ability to cast a small number of divine spells which are drawn from the
 antipaladin spell list. The DC for a saving throw against spells you cast is 10 + the spell level +
@@ -344,7 +344,7 @@ spells of that level, but you must choose which spells to prepare during your da
 Through 3rd level, you have no caster level. At 4th level and higher, your caster level is equal to
 your antipaladin level - 3.
 
-**Fiendish Boon (Sp)**
+#### Fiendish Boon (Sp) {#fiendish-boon}
 
 **Ability:** This boon can take one of two forms. Once the form is chosen, it cannot be changed.
 
@@ -352,7 +352,7 @@ your antipaladin level - 3.
 
 **Gained:** At 5th Level
 
-**Weapon Bond**
+#### Weapon Bond {#weapon-bond}
 
 **Action:** Choice
 
@@ -383,7 +383,7 @@ If a weapon bonded with a fiendish spirit is destroyed, you lose the use of this
 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1
 penalty on attack and weapon damage rolls.
 
-**Fiendish Servant**
+#### Fiendish Servant {#fiendish-servant}
 
 **Action:** Choice
 
@@ -421,7 +421,7 @@ Should your fiendish servant die or be banished, you may not summon another serv
 until you gain an antipaladin level, whichever comes first. During this 30-day period, you take a -1
 penalty on attack and weapon damage rolls.
 
-**Aura of Despair (Su)**
+#### Aura of Despair (Su) {#aura-of-despair}
 
 **Section:** Other Abilities
 
@@ -431,7 +431,7 @@ penalty on attack and weapon damage rolls.
 not stack with the penalty from _aura of cowardice._ This ability functions only while you are
 conscious, not if you're unconscious or dead.
 
-**Aura of Vengeance (Su)**
+#### Aura of Vengeance (Su) {#aura-of-vengeance}
 
 **Free:** You can expend two uses of your _smite good_ ability to grant the ability to _smite good_
 to all allies within 10 feet, using your bonuses. Allies must use this _smite good_ ability by the
@@ -440,7 +440,7 @@ ability.
 
 **Gained:** At 11th Level
 
-**Aura of Sin (Su)**
+#### Aura of Sin (Su) {#aura-of-sin}
 
 **Gained:** At 14th Level
 
@@ -449,7 +449,7 @@ ability.
 you is treated as evil-aligned for the purposes of overcoming damage reduction. This ability
 functions only while you are conscious, not if you're unconscious or dead.
 
-**Aura of Depravity (Su)**
+#### Aura of Depravity (Su) {#aura-of-depravity}
 
 **Gained:** At 17th Level
 
@@ -457,7 +457,7 @@ functions only while you are conscious, not if you're unconscious or dead.
 against compulsion effects. This ability functions only while you are conscious, not if you're
 unconscious or dead.
 
-**Unholy Champion (Su)**
+#### Unholy Champion (Su) {#unholy-champion}
 
 **Flavor:** You become a conduit for the might of the dark powers.
 

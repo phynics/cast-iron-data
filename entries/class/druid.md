@@ -76,7 +76,7 @@ wonders.
 |19th|+14/+9/+4|+11|+6|+11|-|4|4|4|4|4|4|4|4|3|3|
 |20th|+15/+10/+5|+12|+6|+12|Wild shape (at will)|4|4|4|4|4|4|4|4|4|4|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling, spear,
 All natural attacks (claw, bite, and so forth) of any form the druid assumes with wild shape
@@ -93,7 +93,7 @@ that it functions as though it were steel.
 spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours
 thereafter.
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Divine spells from the druid list, from 1st level
 
@@ -105,12 +105,12 @@ a high score grants bonus spells per day.
 **Notes:** Alignment can bar spells opposed to it. Regains spells after 1 hour meditating on nature
 each day; any spell on the list can be prepared.
 
-**Orisons**
+#### Orisons {#orisons}
 
 **Ability:** 0-level divine spells. Prepared like other spells but not expended when cast; one
 placed in a higher slot (for example through metamagic) uses that slot.
 
-**Spontaneous Casting**
+#### Spontaneous Casting {#spontaneous-casting}
 
 **Ability:** You can &quot&lose&quot& a prepared spell in order to cast any
 [summon nature's ally](ref/spell/summon-natures-ally) spell of the same level or lower.
@@ -120,7 +120,7 @@ ahead of time.
 
 **Gained:** At 1st Level
 
-**Chaotic, Evil, Good, and Lawful Spells**
+#### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
 **Section:** Aligned Spells
 
@@ -128,7 +128,7 @@ ahead of time.
 one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
 descriptors in their spell descriptions.
 
-**Bonus Languages**
+#### Bonus Languages {#bonus-languages}
 
 **Gained:** At 1st Level
 
@@ -140,14 +140,14 @@ Druidic, a secret language known only to druids, which you learn upon becoming a
 of languages and it doesn't take up a language slot. Druids are forbidden to teach this language to
 non-druids. Druidic has its own alphabet.
 
-**Nature Bond (Ex)**
+#### Nature Bond (Ex) {#nature-bond}
 
 **Choice:** You form a bond with nature. This bond can take one of three forms: domain, companion,
 or herbalism.
 
 **Gained:** At 1st Level
 
-**Domain**
+#### Domain {#domain}
 
 **Ability:** You gain one of the following cleric domains: [Air](ref/domain/air),
 [Animal](ref/domain/animal), [Earth](ref/domain/earth), [Fire](ref/domain/fire),
@@ -158,7 +158,7 @@ druid that selects this option also receives additional domain spell slots, just
 [cleric](ref/class/cleric). You must prepare the spell from your domain in this slot and this spell
 cannot be used to cast a spell spontaneously.
 
-**Companion**
+#### Companion {#companion}
 
 **Ability:** You may begin play with any of the animals listed in Animal Companions, who becomes a
 loyal companion that accompanies you on your adventures. Unlike normal animals of its kind, an
@@ -172,7 +172,7 @@ companion. If you release your companion from service, you may gain a new one by
 ceremony requiring 24 uninterrupted hours of prayer in the environment where the new companion
 typically lives. This ceremony can also replace an animal companion that has perished.
 
-**Herbalism**
+#### Herbalism {#herbalism}
 
 **Ability:** You can create a free herbal concoction. Additional concoctions cost the same as
 creating an equivalent potion using Brew Potion. You can sell your concoctions just as if they were
@@ -204,13 +204,13 @@ special effects when ingested retain those effects as well as the appropriate sp
 
 **Usage:** Wis modifier times/day
 
-**Nature Sense (Ex)**
+#### Nature Sense (Ex) {#nature-sense}
 
 **Gained:** At 1st Level
 
 **Passive:** You gain a +2 bonus on Knowledge (nature) and Survival checks.
 
-**Wild Empathy (Ex)**
+#### Wild Empathy (Ex) {#wild-empathy}
 
 **Ability:** This ability functions just like a [Diplomacy](ref/skill/diplomacy) check made to
 improve the attitude of a person. You roll 1d20 and add your druid level and your Charisma modifier
@@ -226,7 +226,7 @@ magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on
 normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with
 influencing people, it might take more or less time.
 
-**Woodland Stride (Ex)**
+#### Woodland Stride (Ex) {#woodland-stride}
 
 **Gained:** At 2nd Level
 
@@ -235,14 +235,14 @@ areas, and similar terrain) at your normal speed and without taking damage or su
 impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede
 motion, however, still affect you.
 
-**Trackless Step (Ex)**
+#### Trackless Step (Ex) {#trackless-step}
 
 **Gained:** At 3rd Level
 
 **Passive:** You leave no trail in natural surroundings and cannot be tracked. You may choose to
 leave a trail if so desired.
 
-**Resist Nature's Lure (Ex)**
+#### Resist Nature's Lure (Ex) {#resist-nature-s-lure}
 
 **Gained:** At 4th Level
 
@@ -251,7 +251,7 @@ of fey. This bonus also applies to spells and effects that utilize or target pla
 [blight](ref/spell/blight), [entangle](ref/spell/entangle), [spike growth](ref/spell/spike-growth),
 and [warp wood](ref/spell/warp-wood).
 
-**Wild Shape (Su)**
+#### Wild Shape (Su) {#wild-shape}
 
 **At 10th Level:** You can _wild shape_ 4 times/day, and can choose to change into a Small, Medium,
 or Large elemental (as [elemental body III](ref/spell/elemental-body-3)) or a Small, Medium, or
@@ -297,7 +297,7 @@ you are familiar.
 
 **Usage:** Once a day.
 
-**Venom Immunity (Ex)**
+#### Venom Immunity (Ex) {#venom-immunity}
 
 **Section:** Other Abilities
 
@@ -305,14 +305,14 @@ you are familiar.
 
 **Passive:** You have immunity to all poisons.
 
-**A Thousand Faces (Su)**
+#### A Thousand Faces (Su) {#a-thousand-faces}
 
 **Gained:** At 13th Level
 
 **Standard:** You can change your appearance at will, as if using the
 [alter self](ref/spell/alter-self) spell, but only while in your normal form.
 
-**Timeless Body (Ex)**
+#### Timeless Body (Ex) {#timeless-body}
 
 **Gained:** At 15th Level
 

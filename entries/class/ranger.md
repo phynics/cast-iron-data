@@ -72,7 +72,7 @@ but their skills are valuable against all manner of enemies.
 |19th|+19/+14/+9/+4|+11|+11|+6|Improved quarry|4|3|3|2|
 |20th|+20/+15/+10/+5|+12|+12|+6|5th favored enemy, master hunter|4|4|3|3|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -80,7 +80,7 @@ but their skills are valuable against all manner of enemies.
 
 **Shields:** Yes, except tower shields
 
-**Favored Enemy (Ex)**
+#### Favored Enemy (Ex) {#favored-enemy}
 
 **Gained:** At 1st Level
 
@@ -130,7 +130,7 @@ humanoid to choose from - those called out specifically below are merely the mos
 - Undead
 - Vermin
 
-**Track (Ex)**
+#### Track (Ex) {#track}
 
 **Section:** Track and Empathy
 
@@ -139,7 +139,7 @@ humanoid to choose from - those called out specifically below are merely the mos
 **Passive:** You add [half](ref/misc/fractions-and-rounding) your level (minimum 1) to Survival
 skill checks made to follow or identify tracks.
 
-**Wild Empathy (Ex)**
+#### Wild Empathy (Ex) {#wild-empathy}
 
 **Ability:** This ability functions just like a [Diplomacy](ref/skill/diplomacy) check to improve
 the attitude of a person. You roll 1d20 and add your ranger level and your Charisma bonus to
@@ -155,7 +155,7 @@ magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on
 normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as
 with influencing people, it might take more or less time.
 
-**Combat Style Feat (Ex)**
+#### Combat Style Feat (Ex) {#combat-style-feat}
 
 **Ability:** You must select a [combat style](ref/ability/combat-styles) to pursue. Once you select
 a combat style, it cannot be changed. Your expertise manifests in the form of bonus feats at 2nd,
@@ -169,7 +169,7 @@ do not have the normal prerequisites.
 **Special:** The benefits of your chosen style feats apply only when you wear light, medium, or no
 armor. You loses all benefits of your combat style feats when wearing heavy armor.
 
-**Endurance**
+#### Endurance {#endurance}
 
 **Ability:** You gain [Endurance](ref/feat/endurance) as a bonus feat.
 
@@ -177,7 +177,7 @@ armor. You loses all benefits of your combat style feats when wearing heavy armo
 
 **Gained:** At 3rd Level
 
-**Favored Terrain (Ex)**
+#### Favored Terrain (Ex) {#favored-terrain}
 
 **Action:** Ability
 
@@ -206,21 +206,21 @@ may leave a trail if you so choose).
 - Urban (buildings, streets, and sewers)
 - Water (above and below the surface)
 
-**Hunter's Bond (Ex)**
+#### Hunter's Bond (Ex) {#hunter-s-bond}
 
 **Ability:** You form a bond with your hunting companions. This bond can take one of two forms. Once
 the form is chosen, it cannot be changed.
 
 **Gained:** At 4th Level
 
-**Companions Bond**
+#### Companions Bond {#companions-bond}
 
 **Move:** You grant half your _favored enemy_ bonus against a single target of the appropriate type
 to all allies within 30 feet who can see or hear you. This bonus lasts for a number of rounds equal
 to your Wisdom modifier (minimum 1). This bonus does not stack with any _favored enemy_ bonuses
 possessed by your allies; they use whichever bonus is higher.
 
-**Animal Companion**
+#### Animal Companion {#animal-companion}
 
 **Action:** Ability
 
@@ -241,7 +241,7 @@ If the campaign takes place wholly or partly in an aquatic environment, you may 
 list** instead: [Armorfish](ref/companion/armorfish), [Reef Snake](ref/companion/reef-snake),
 [Shark](ref/companion/shark), [Stingray](ref/companion/stingray).
 
-**Spells**
+#### Spells {#spells}
 
 **Ability:** You gain the ability to cast a small number of divine spells which are drawn from the
 ranger spell list. The DC for a saving throw against spells you cast is 10 + the spell level + your
@@ -271,7 +271,7 @@ spells of that level, but you must choose which spells to prepare during your da
 Through 3rd level, you have no caster level. At 4th level and higher, your caster level is equal to
 your ranger level - 3.
 
-**Woodland Stride (Ex)**
+#### Woodland Stride (Ex) {#woodland-stride}
 
 **Section:** Stride, Tracking, and Evasion
 
@@ -284,7 +284,7 @@ impairment.
 **Special:** Thorns, briars, and overgrown areas that are enchanted or magically manipulated to
 impede motion, however, still affect you.
 
-**Swift Tracker (Ex)**
+#### Swift Tracker (Ex) {#swift-tracker}
 
 **Gained:** At 8th Level
 
@@ -292,7 +292,7 @@ impede motion, however, still affect you.
 the normal -5 penalty. You take only a -10 penalty (instead of the normal -20) when moving at up to
 twice normal speed while tracking.
 
-**Evasion (Ex)**
+#### Evasion (Ex) {#evasion}
 
 **Gained:** At 9th Level
 
@@ -303,7 +303,7 @@ save, you instead take no damage.
 **Special:** Evasion can be used only if you are wearing light armor, medium armor, or no armor. A
 [helpless](ref/misc/helpless) ranger does not gain the benefit of _evasion._
 
-**Quarry (Ex)**
+#### Quarry (Ex) {#quarry}
 
 **Gained:** At 11th Level
 
@@ -319,7 +319,7 @@ select a new quarry after waiting 1 hour.
 
 **Standard:** You can denote one target within your line of sight as your quarry.
 
-**Camouflage (Ex)**
+#### Camouflage (Ex) {#camouflage}
 
 **Ability:** You can use the Stealth skill to hide in any of your _favored terrains,_ even if the
 terrain doesn't grant [cover](ref/rule/cover) or [concealment](ref/rule/concealment).
@@ -328,7 +328,7 @@ terrain doesn't grant [cover](ref/rule/cover) or [concealment](ref/rule/concealm
 
 **Gained:** At 12th Level
 
-**Improved Evasion (Ex)**
+#### Improved Evasion (Ex) {#improved-evasion}
 
 **Gained:** At 16th Level
 
@@ -336,14 +336,14 @@ terrain doesn't grant [cover](ref/rule/cover) or [concealment](ref/rule/concealm
 successful Reflex saving throw against attacks, you henceforth take only half damage on a failed
 save. A helpless ranger does not gain the benefit of _improved evasion._
 
-**Hide in Plain Sight (Ex)**
+#### Hide in Plain Sight (Ex) {#hide-in-plain-sight}
 
 **Ability:** While in any of your _favored terrains,_ you can use the Stealth skill even while being
 observed.
 
 **Gained:** At 17th Level
 
-**Improved Quarry (Ex)**
+#### Improved Quarry (Ex) {#improved-quarry}
 
 **Free:** You can now select a quarry as a free action.
 
@@ -355,7 +355,7 @@ without penalty. Your insight bonus to attack your quarry increases to +4.
 **Special:** If your quarry is killed or dismissed, you can select a new one after 10 minutes have
 passed.
 
-**Master Hunter (Ex)**
+#### Master Hunter (Ex) {#master-hunter}
 
 **Gained:** At 20th Level
 

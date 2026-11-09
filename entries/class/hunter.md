@@ -96,7 +96,7 @@ incredible speed, making them excellent scouts, explorers, and saboteurs.
 |19th|6|6|6|6|5|5|4|
 |20th|6|6|6|6|6|5|5|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -104,7 +104,7 @@ incredible speed, making them excellent scouts, explorers, and saboteurs.
 
 **Shields:** Yes, except tower shields
 
-**Spells**
+#### Spells {#spells}
 
 **Spell list:** Divine spells from the hunter list, from 1st level
 
@@ -124,12 +124,12 @@ another of the same level.
 
 **Notes:** Alignment can bar spells opposed to it.
 
-**Orisons**
+#### Orisons {#orisons}
 
 **Ability:** 0-level divine spells. Cast without using a spell slot; one placed in a higher slot
 (for example through metamagic) uses that slot.
 
-**Chaotic, Evil, Good, and Lawful Spells**
+#### Chaotic, Evil, Good, and Lawful Spells {#chaotic-evil-good-and-lawful-spells}
 
 **Section:** Aligned Spells
 
@@ -137,7 +137,7 @@ another of the same level.
 one). Spells associated with particular alignments are indicated by the chaos, evil, good, and law
 descriptors in their spell descriptions.
 
-**Animal Companion (Ex)**
+#### Animal Companion (Ex) {#animal-companion}
 
 **Action:** Ability
 
@@ -169,14 +169,14 @@ An animal companion can also be taught special
 [animal companion tricks](ref/ability/companion-tricks), though they may need specific
 characteristics to learn them.
 
-**Nature Training (Ex)**
+#### Nature Training (Ex) {#nature-training}
 
 **Gained:** At 1st Level
 
 **Passive:** You count your total hunter level as both druid levels and ranger levels for the
 purpose of qualifying for feats, traits, and options that modify or improve an animal companion.
 
-**Animal Focus (Su)**
+#### Animal Focus (Su) {#animal-focus}
 
 **Action:** Swift Action
 
@@ -205,7 +205,7 @@ per day.
 Characters with the _animal focus_ feature can also gain [ward aspects](ref/ability/ward-aspects) if
 they desire.
 
-**Wild Empathy (Ex)**
+#### Wild Empathy (Ex) {#wild-empathy}
 
 **Ability:** This ability functions just like a [Diplomacy](ref/skill/diplomacy) check made to
 improve the attitude of a person. You roll 1d20 and add your hunter level and your Charisma modifier
@@ -221,7 +221,7 @@ magical beast with an Intelligence score of 1 or 2, but you take a -4 penalty on
 normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with
 influencing people, it might take more or less time.
 
-**Precise Companion (Ex)**
+#### Precise Companion (Ex) {#precise-companion}
 
 **Ability:** Choose either [Precise Shot](ref/feat/precise-shot) or [Outflank](ref/feat/outflank) as
 a bonus feat. You do not need to meet the prerequisites for this feat. If you choose Outflank, you
@@ -231,13 +231,13 @@ automatically grant this feat to your animal companion as well.
 
 **Gained:** At 2nd Level
 
-**Track (Ex)**
+#### Track (Ex) {#track}
 
 **Gained:** At 2nd Level
 
 **Passive:** Add +1/2 your level to Survival skill checks made to follow tracks.
 
-**Teamwork Feat**
+#### Teamwork Feat {#teamwork-feat}
 
 **Ability:** You gain a bonus teamwork feat.
 
@@ -256,14 +256,14 @@ your previous teamwork feats become permanent.
 
 **Usage:** Wis modifier times/day
 
-**Hunter Tactics (Ex)**
+#### Hunter Tactics (Ex) {#hunter-tactics}
 
 **Gained:** At 3rd Level
 
 **Passive:** You automatically grant your teamwork feats to your animal companion. The companion
 doesn't need to meet the prerequisites of these teamwork feats.
 
-**Improved Empathic Link (Su)**
+#### Improved Empathic Link (Su) {#improved-empathic-link}
 
 **Ability:** You gain an empathic link with your animal companion. This functions like an empathic
 link with a [familiar](ref/sidekick/familiar), except you can also see through a companion's eyes as
@@ -273,7 +273,7 @@ maintaining this connection.
 
 **Gained:** At 4th Level
 
-**Woodland Stride (Ex)**
+#### Woodland Stride (Ex) {#woodland-stride}
 
 **Gained:** At 5th Level
 
@@ -284,7 +284,7 @@ or suffering any other impairment.
 **Special:** Thorns, briars, and overgrown areas that are enchanted or magically manipulated to
 impede motion will still affect you both.
 
-**Bonus Tricks (Ex)**
+#### Bonus Tricks (Ex) {#bonus-tricks}
 
 **Ability:** Your animal companion learns a bonus trick (in addition to the bonus tricks gained from
 your effective druid level).
@@ -293,7 +293,7 @@ your effective druid level).
 
 **Repeat At:** Your companion gains another trick., 13, 19
 
-**Second Animal Focus (Su)**
+#### Second Animal Focus (Su) {#second-animal-focus}
 
 **Ability:** Whenever you use your _animal focus_ ability, you select two different animal aspects
 for yourself instead of one, and can assign two aspects to your companion instead of one. As with
@@ -306,7 +306,7 @@ take on an aspect.
 that aspect does not count toward your maximum of two aspects at once. You can still apply only one
 of the dead companion's aspects, not both.
 
-**Swift Tracker (Ex)**
+#### Swift Tracker (Ex) {#swift-tracker}
 
 **Ability:** You can move at your normal speed while using Survival to follow tracks without taking
 the normal -5 penalty. You take only a -10 penalty (instead of the normal -20) when moving at up to
@@ -314,7 +314,7 @@ twice normal speed while tracking.
 
 **Gained:** At 8th Level
 
-**Raise Animal Companion (Sp)**
+#### Raise Animal Companion (Sp) {#raise-animal-companion}
 
 **Ability:** You gain [raise animal companion](ref/spell/raise-animal-companion) as a
 [spell-like ability](ref/umr/spell-like-abilities); this is not restricted to raising only your own
@@ -327,14 +327,14 @@ animal companion. Using this spell-like ability gives you a permanent
 
 **Gained:** At 10th Level
 
-**Speak with Master (Ex)**
+#### Speak with Master (Ex) {#speak-with-master}
 
 **Ability:** You and your animal companion can communicate verbally, as if using a common language.
 Other creatures cannot understand the communication without magical aid.
 
 **Gained:** At 11th Level
 
-**Greater Empathic Link (Su)**
+#### Greater Empathic Link (Su) {#greater-empathic-link}
 
 **Ability:** The range of your _empathic link_ with your animal companion increases to 10 miles. If
 the animal companion is within 1 mile, you can communicate with it telepathically.
@@ -343,7 +343,7 @@ the animal companion is within 1 mile, you can communicate with it telepathicall
 
 **Gained:** At 14th Level
 
-**One with the Wild (Ex)**
+#### One with the Wild (Ex) {#one-with-the-wild}
 
 **Gained:** At 17th Level
 
@@ -357,7 +357,7 @@ if either of you attack it first.
 rolling 1d20 and adding your level and your Charisma modifier to determine the
 [Intimidate](ref/skill/intimidate) check result.
 
-**Master Hunter (Ex)**
+#### Master Hunter (Ex) {#master-hunter}
 
 **Ability:** You can always move at full speed while using Survival to follow tracks without
 penalty. Additionally, each day when you regain your spell slots, you choose one _animal focus_ to

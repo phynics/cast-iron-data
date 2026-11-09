@@ -72,7 +72,7 @@ strength to continue fighting.
 |19th|+19/+14/+9/+4|+11|+6|+11|Smite evil 7/day|4|3|3|2|
 |20th|+20/+15/+10/+5|+12|+6|+12|Holy champion|4|4|3|3|
 
-**Weapon and Armor Proficiencies**
+#### Weapon and Armor Proficiencies {#weapon-and-armor-proficiencies}
 
 **Weapons:** All simple weapons, All martial weapons
 
@@ -95,7 +95,7 @@ such an unusual alliance, and should end the alliance immediately should she fee
 harm than good. A paladin may accept only [henchmen, followers, or cohorts](ref/feat/leadership) who
 are lawful good.
 
-**Aura of Good (Ex)**
+#### Aura of Good (Ex) {#aura-of-good}
 
 **Section:** Good and Evil
 
@@ -104,7 +104,7 @@ are lawful good.
 **Passive:** The power of your _aura of good_ (see [detect good](ref/spell/detect-good)) is equal to
 your paladin level.
 
-**Detect Evil (Sp)**
+#### Detect Evil (Sp) {#detect-evil}
 
 **Ability:** At will, you can use [detect evil](ref/spell/detect-evil), as the spell.
 
@@ -115,7 +115,7 @@ evil, learning the strength of its aura as if having studied it for 3 rounds. Wh
 individual or object, you do not _[detect evil](ref/spell/detect-evil)_ in any other object or
 individual within range.
 
-**Smite Evil (Su)**
+#### Smite Evil (Su) {#smite-evil}
 
 **Action:** Swift Action
 
@@ -158,7 +158,7 @@ additional powers but also gives further edicts she must follow. An oathbound pa
 to eradicate a certain kind of evil. This powerful oath gives her access to new spells and adds to
 or alters typical paladin abilities.
 
-**Divine Grace (Su)**
+#### Divine Grace (Su) {#divine-grace}
 
 **Section:** Grace and Healing
 
@@ -166,7 +166,7 @@ or alters typical paladin abilities.
 
 **Passive:** You gain a bonus equal to your Charisma bonus (if any) on all saving throws.
 
-**Lay On Hands (Su)**
+#### Lay On Hands (Su) {#lay-on-hands}
 
 **Ability:** Alternatively, as a melee touch attack, you can use this healing power to deal damage
 to undead creatures, dealing 1d6 points of damage for every two paladin levels you possess. This
@@ -183,7 +183,7 @@ the name of this ability, you only need one free hand to use this ability.
 
 **Usage:** half your paladin level + Charisma modifier times/day
 
-**Aura of Courage (Su)**
+#### Aura of Courage (Su) {#aura-of-courage}
 
 **Section:** Courage, Health, and Mercy
 
@@ -193,14 +193,14 @@ the name of this ability, you only need one free hand to use this ability.
 [within 10 feet of you](ref/misc/emanation) gains a +4 morale bonus on saving throws against fear
 effects. This ability functions only while you are conscious, not if you're unconscious or dead.
 
-**Divine Health (Ex)**
+#### Divine Health (Ex) {#divine-health}
 
 **Gained:** At 3rd Level
 
 **Passive:** You are immune to all diseases, including supernatural and magical diseases, including
 [mummy rot](ref/curse/mummy-rot).
 
-**Mercy (Su)**
+#### Mercy (Su) {#mercy}
 
 **Ability:** You gain one mercy, which adds an effect to your _lay on hands_ ability. Whenever you
 use _lay on hands_ to heal damage to one target, the target also receives the additional effects
@@ -215,7 +215,7 @@ changed.
 affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction
 that causes the condition.
 
-**Channel Positive Energy (Su)**
+#### Channel Positive Energy (Su) {#channel-positive-energy}
 
 **Gained:** At 4th Level
 
@@ -224,7 +224,7 @@ that causes the condition.
 uses of your _lay on hands_ ability. You use your level as your effective cleric level when
 channeling positive energy. This is a Charisma-based ability.
 
-**Channel Energy (Su)**
+#### Channel Energy (Su) {#channel-energy}
 
 **Choice:** A good cleric (or one who worships a good deity) channels **positive energy** and can
 choose to deal damage to undead creatures or to heal living creatures.
@@ -263,7 +263,7 @@ Some deities may endow their mortal servants with the power to channel energies 
 more closely mirror their particular focus. If you serve a deity, you may choose one of these
 [variant channeling abilities](ref/ability/variant-channeling) instead.
 
-**Spells**
+#### Spells {#spells}
 
 **Ability:** You gain the ability to cast a small number of divine spells which are drawn from the
 paladin spell list. The DC for a saving throw against spells you cast is 10 + the spell level + your
@@ -293,7 +293,7 @@ spells of that level, but you must choose which spells to prepare during your da
 Through 3rd level, you have no caster level. At 4th level and higher, your caster level is equal to
 your paladin level - 3.
 
-**Divine Bond (Sp, Su)**
+#### Divine Bond (Sp, Su) {#divine-bond}
 
 **Ability:** This bond can take one of two forms: bonded weapon or bonded mount. Once the form is
 chosen, it cannot be changed.
@@ -302,7 +302,7 @@ chosen, it cannot be changed.
 
 **Gained:** At 5th Level
 
-**Bonded Weapon**
+#### Bonded Weapon {#bonded-weapon}
 
 **Action:** Choice
 
@@ -333,7 +333,7 @@ If a weapon bonded with a celestial spirit is destroyed, you lose the use of thi
 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1
 penalty on attack and weapon damage rolls.
 
-**Bonded Mount**
+#### Bonded Mount {#bonded-mount}
 
 **Action:** Choice
 
@@ -406,7 +406,7 @@ paladin's archon bond increases by 5 feet, up to a 35-foot radius at 20th level.
 this ability once per day at 5th level, and one additional time per day for every 4 levels beyond
 5th, up to a total of four times per day at 17th level.
 
-**Aura of Resolve/(Su)**
+#### Aura of Resolve/(Su) {#aura-of-resolve}
 
 **Section:** Other Abilities
 
@@ -417,7 +417,7 @@ this ability once per day at 5th level, and one additional time per day for ever
 morale bonus on saving throws against charm effects. This ability functions only while you are
 conscious, not if you are unconscious or dead.
 
-**Aura of Justice (Su)**
+#### Aura of Justice (Su) {#aura-of-justice}
 
 **Free:** You can expend two uses of your _smite evil_ ability to grant the ability to _smite evil_
 to all allies within 10 feet, using your bonuses. Allies must use this _smite evil_ ability by the
@@ -426,7 +426,7 @@ ability.
 
 **Gained:** At 11th Level
 
-**Aura of Faith (Su)**
+#### Aura of Faith (Su) {#aura-of-faith}
 
 **Gained:** At 14th Level
 
@@ -435,7 +435,7 @@ ability.
 you is treated as good-aligned for the purposes of overcoming damage reduction. This ability
 functions only while you are conscious, not if you are unconscious or dead.
 
-**Aura of Righteousness (Su)**
+#### Aura of Righteousness (Su) {#aura-of-righteousness}
 
 **Gained:** At 17th Level
 
@@ -444,7 +444,7 @@ functions only while you are conscious, not if you are unconscious or dead.
 morale bonus on saving throws against compulsion effects. This ability functions only while you are
 conscious, not if you are unconscious or dead.
 
-**Holy Champion (Su)**
+#### Holy Champion (Su) {#holy-champion}
 
 **Flavor:** You become a conduit for the power of your god.
 
