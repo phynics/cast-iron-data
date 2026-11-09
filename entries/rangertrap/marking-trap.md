@@ -12,11 +12,19 @@ kind = "class_option"
 group = "ranger-trap"
 +++
 
+**Sources:** Ultimate Magic pg 64
+
 ### Marking Trap (Ex or Su)
 
-**Modification:**
+::: statblock
+Type: mechanical or magical
+Perception: DC 10 + 1/2 Ranger level + Wisdom bonus (-2 if mechanical)
+Disable Device: DC 10 + 1/2 Ranger level + Wisdom bonus (-2 if mechanical)
+Trigger: location
+Reset: none
+:::
 
-**Details:** If the triggering creature fails its save against the trap, it is marked with a dye
-and/or scent of the ranger's choosing.\~\~\~A scent mark decreases the DC of tracking the marked
-creature by [scent](ref/umr/scent) by 4. The mark can be washed off with vigorous scrubbing, but
-fades on its own over several days.
+**Effect:** If the triggering creature fails its save against the trap, it is marked with a dye
+and/or scent of the ranger's choosing. A scent mark decreases the DC of tracking the marked creature
+by [scent](ref/umr/scent) by 4. The mark can be washed off with vigorous scrubbing, but fades on its
+own over several days.

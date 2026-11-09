@@ -52,52 +52,52 @@ modify the effects of another trap; a ranger can add one of these trap types to 
 trap (this costs 1 additional use of the trap ability).
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/alarm-trap-ex-or-su"
+target = "ref/rangertrap/alarm-trap"
 title = "Alarm Trap* (Ex or Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/burning-trap-ex-or-su"
+target = "ref/rangertrap/burning-trap"
 title = "Burning Trap* (Ex or Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/exploding-trap-ex-or-su"
+target = "ref/rangertrap/exploding-trap"
 title = "Exploding Trap* (Ex or Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/fire-trap-ex-or-su"
+target = "ref/rangertrap/fire-trap"
 title = "Fire Trap (Ex or Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/freezing-trap-su"
+target = "ref/rangertrap/freezing-trap"
 title = "Freezing Trap (Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/marking-trap-ex-or-su"
+target = "ref/rangertrap/marking-trap"
 title = "Marking Trap* (Ex or Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/poison-trap-ex-or-su"
+target = "ref/rangertrap/poison-trap"
 title = "Poison Trap (Ex or Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/sleet-trap-su"
+target = "ref/rangertrap/sleet-trap"
 title = "Sleet Trap (Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/snare-trap-ex-or-su"
+target = "ref/rangertrap/snare-trap"
 title = "Snare Trap (Ex or Su)"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/swarm-trap-ex-or-su"
+target = "ref/rangertrap/swarm-trap"
 title = "Swarm Trap (Ex or Su)"
 :::
 

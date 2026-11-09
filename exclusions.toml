@@ -55373,3 +55373,115 @@ reason = "duplicate of ref/carried/advanced-race-guide/rules/core-races"
 [[rejected]]
 path = "ref/rule/less-common-races"
 reason = "duplicate of ref/carried/advanced-race-guide/rules/featured-races"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/age-resistance/greater"
+reason = "duplicate of ref/spell/age-resistance-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/animate-dead/lesser"
+reason = "duplicate of ref/spell/animate-dead-lesser"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/astral-projection/lesser"
+reason = "duplicate of ref/spell/astral-projection-lesser"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/atavism/mass"
+reason = "duplicate of ref/spell/atavism-mass"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/contagion/greater"
+reason = "duplicate of ref/spell/contagion-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/create-demiplane/greater"
+reason = "duplicate of ref/spell/create-demiplane-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/curse/major"
+reason = "duplicate of ref/spell/curse-major"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/darkvision/greater"
+reason = "duplicate of ref/spell/darkvision-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/daze/mass"
+reason = "duplicate of ref/spell/daze-mass"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/false-life/greater"
+reason = "duplicate of ref/spell/false-life-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/forbid-action/greater"
+reason = "duplicate of ref/spell/forbid-action-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/icy-prison/mass"
+reason = "duplicate of ref/spell/icy-prison-mass"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/interrogation/greater"
+reason = "duplicate of ref/spell/interrogation-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/lend-judgment/greater"
+reason = "duplicate of ref/spell/lend-judgment-greater"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/restore-eidolon"
+reason = "duplicate of ref/spell/restore-eidolon"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/spells/simulacrum/lesser"
+reason = "duplicate of ref/spell/simulacrum-lesser"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/alarm-trap-ex-or-su"
+reason = "duplicate of ref/rangertrap/alarm-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/burning-trap-ex-or-su"
+reason = "duplicate of ref/rangertrap/burning-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/exploding-trap-ex-or-su"
+reason = "duplicate of ref/rangertrap/exploding-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/fire-trap-ex-or-su"
+reason = "duplicate of ref/rangertrap/fire-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/freezing-trap-su"
+reason = "duplicate of ref/rangertrap/freezing-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/marking-trap-ex-or-su"
+reason = "duplicate of ref/rangertrap/marking-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/poison-trap-ex-or-su"
+reason = "duplicate of ref/rangertrap/poison-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/sleet-trap-su"
+reason = "duplicate of ref/rangertrap/sleet-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/snare-trap-ex-or-su"
+reason = "duplicate of ref/rangertrap/snare-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/swarm-trap-ex-or-su"
+reason = "duplicate of ref/rangertrap/swarm-trap"
+
+[[rejected]]
+path = "ref/rule/words-of-power-in-the-worlds"
+reason = "duplicate of ref/carried/ultimate-magic/rules/words-of-power/words-of-power-in-the-world"
+
+[[rejected]]
+path = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/turtle"
+reason = "duplicate of ref/monster/turtle"

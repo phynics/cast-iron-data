@@ -31801,6 +31801,141 @@ target = "ref/eq-armor/adamantine-breastplate"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/turtle"
+target = "ref/monster/turtle"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/alarm-trap-ex-or-su"
+target = "ref/rangertrap/alarm-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/burning-trap-ex-or-su"
+target = "ref/rangertrap/burning-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/exploding-trap-ex-or-su"
+target = "ref/rangertrap/exploding-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/fire-trap-ex-or-su"
+target = "ref/rangertrap/fire-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/freezing-trap-su"
+target = "ref/rangertrap/freezing-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/marking-trap-ex-or-su"
+target = "ref/rangertrap/marking-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/poison-trap-ex-or-su"
+target = "ref/rangertrap/poison-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/sleet-trap-su"
+target = "ref/rangertrap/sleet-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/snare-trap-ex-or-su"
+target = "ref/rangertrap/snare-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/swarm-trap-ex-or-su"
+target = "ref/rangertrap/swarm-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/age-resistance/greater"
+target = "ref/spell/age-resistance-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/animate-dead/lesser"
+target = "ref/spell/animate-dead-lesser"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/astral-projection/lesser"
+target = "ref/spell/astral-projection-lesser"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/atavism/mass"
+target = "ref/spell/atavism-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/contagion/greater"
+target = "ref/spell/contagion-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/create-demiplane/greater"
+target = "ref/spell/create-demiplane-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/curse/major"
+target = "ref/spell/curse-major"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/darkvision/greater"
+target = "ref/spell/darkvision-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/daze/mass"
+target = "ref/spell/daze-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/false-life/greater"
+target = "ref/spell/false-life-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/forbid-action/greater"
+target = "ref/spell/forbid-action-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/icy-prison/mass"
+target = "ref/spell/icy-prison-mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/interrogation/greater"
+target = "ref/spell/interrogation-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/lend-judgment/greater"
+target = "ref/spell/lend-judgment-greater"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/restore-eidolon"
+target = "ref/spell/restore-eidolon"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/ultimate-magic/spells/simulacrum/lesser"
+target = "ref/spell/simulacrum-lesser"
+basis = "shared"
+
+[[entries]]
 old = "ref/eq-misc/fetters-common"
 target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters"
 basis = "shared"
@@ -32438,6 +32573,11 @@ basis = "shared"
 [[entries]]
 old = "ref/rule/race-ratfolk/ratfolk"
 target = "ref/race/ratfolk"
+basis = "shared"
+
+[[entries]]
+old = "ref/rule/words-of-power-in-the-worlds"
+target = "ref/carried/ultimate-magic/rules/words-of-power/words-of-power-in-the-world"
 basis = "shared"
 
 [[entries]]
@@ -49152,7 +49292,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/turtle"
-target = "ref/carried/ultimate-magic/monsters/new-familiars/small-and-vermin-familiars/familiar/turtle"
+target = "ref/monster/turtle"
 basis = "carried"
 
 [[entries]]
@@ -49537,52 +49677,52 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/alarm-trap-ex-or-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/alarm-trap-ex-or-su"
+target = "ref/rangertrap/alarm-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/burning-trap-ex-or-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/burning-trap-ex-or-su"
+target = "ref/rangertrap/burning-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/exploding-trap-ex-or-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/exploding-trap-ex-or-su"
+target = "ref/rangertrap/exploding-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/fire-trap-ex-or-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/fire-trap-ex-or-su"
+target = "ref/rangertrap/fire-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/freezing-trap-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/freezing-trap-su"
+target = "ref/rangertrap/freezing-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/marking-trap-ex-or-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/marking-trap-ex-or-su"
+target = "ref/rangertrap/marking-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/poison-trap-ex-or-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/poison-trap-ex-or-su"
+target = "ref/rangertrap/poison-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/sleet-trap-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/sleet-trap-su"
+target = "ref/rangertrap/sleet-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/snare-trap-ex-or-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/snare-trap-ex-or-su"
+target = "ref/rangertrap/snare-trap"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/swarm-trap-ex-or-su"
-target = "ref/carried/ultimate-magic/rules/spellcasting-class-options/ranger/ranger-traps/swarm-trap-ex-or-su"
+target = "ref/rangertrap/swarm-trap"
 basis = "carried"
 
 [[entries]]
@@ -49787,7 +49927,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/age-resistance/greater"
-target = "ref/carried/ultimate-magic/spells/age-resistance/greater"
+target = "ref/spell/age-resistance-greater"
 basis = "carried"
 
 [[entries]]
@@ -49807,7 +49947,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/animate-dead/lesser"
-target = "ref/carried/ultimate-magic/spells/animate-dead/lesser"
+target = "ref/spell/animate-dead-lesser"
 basis = "carried"
 
 [[entries]]
@@ -49847,7 +49987,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/astral-projection/lesser"
-target = "ref/carried/ultimate-magic/spells/astral-projection/lesser"
+target = "ref/spell/astral-projection-lesser"
 basis = "carried"
 
 [[entries]]
@@ -49857,7 +49997,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/atavism/mass"
-target = "ref/carried/ultimate-magic/spells/atavism/mass"
+target = "ref/spell/atavism-mass"
 basis = "carried"
 
 [[entries]]
@@ -49977,7 +50117,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/contagion/greater"
-target = "ref/carried/ultimate-magic/spells/contagion/greater"
+target = "ref/spell/contagion-greater"
 basis = "carried"
 
 [[entries]]
@@ -50012,7 +50152,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/create-demiplane/greater"
-target = "ref/carried/ultimate-magic/spells/create-demiplane/greater"
+target = "ref/spell/create-demiplane-greater"
 basis = "carried"
 
 [[entries]]
@@ -50032,7 +50172,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/curse/major"
-target = "ref/carried/ultimate-magic/spells/curse/major"
+target = "ref/spell/curse-major"
 basis = "carried"
 
 [[entries]]
@@ -50057,12 +50197,12 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/darkvision/greater"
-target = "ref/carried/ultimate-magic/spells/darkvision/greater"
+target = "ref/spell/darkvision-greater"
 basis = "carried"
 
 [[entries]]
 old = "ultimate-magic/spells/daze/mass"
-target = "ref/carried/ultimate-magic/spells/daze/mass"
+target = "ref/spell/daze-mass"
 basis = "carried"
 
 [[entries]]
@@ -50167,7 +50307,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/false-life/greater"
-target = "ref/carried/ultimate-magic/spells/false-life/greater"
+target = "ref/spell/false-life-greater"
 basis = "carried"
 
 [[entries]]
@@ -50192,7 +50332,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/forbid-action/greater"
-target = "ref/carried/ultimate-magic/spells/forbid-action/greater"
+target = "ref/spell/forbid-action-greater"
 basis = "carried"
 
 [[entries]]
@@ -50292,7 +50432,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/icy-prison/mass"
-target = "ref/carried/ultimate-magic/spells/icy-prison/mass"
+target = "ref/spell/icy-prison-mass"
 basis = "carried"
 
 [[entries]]
@@ -50312,7 +50452,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/interrogation/greater"
-target = "ref/carried/ultimate-magic/spells/interrogation/greater"
+target = "ref/spell/interrogation-greater"
 basis = "carried"
 
 [[entries]]
@@ -50352,7 +50492,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/lend-judgment/greater"
-target = "ref/carried/ultimate-magic/spells/lend-judgment/greater"
+target = "ref/spell/lend-judgment-greater"
 basis = "carried"
 
 [[entries]]
@@ -50562,7 +50702,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/restore-eidolon"
-target = "ref/carried/ultimate-magic/spells/restore-eidolon"
+target = "ref/spell/restore-eidolon"
 basis = "carried"
 
 [[entries]]
@@ -50637,7 +50777,7 @@ basis = "direct"
 
 [[entries]]
 old = "ultimate-magic/spells/simulacrum/lesser"
-target = "ref/carried/ultimate-magic/spells/simulacrum/lesser"
+target = "ref/spell/simulacrum-lesser"
 basis = "carried"
 
 [[entries]]

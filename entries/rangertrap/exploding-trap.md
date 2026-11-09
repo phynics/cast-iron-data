@@ -12,12 +12,20 @@ kind = "class_option"
 group = "ranger-trap"
 +++
 
+**Sources:** Ultimate Magic pg 64
+
 ### Exploding Trap (Ex or Su)
 
-**Modification:**
+::: statblock
+Type: mechanical or magical
+Perception: DC 10 + 1/2 Ranger level + Wisdom bonus (-2 if mechanical)
+Disable Device: DC 10 + 1/2 Ranger level + Wisdom bonus (-2 if mechanical)
+Trigger: location
+Reset: none
+:::
 
-**Details:** A ranger can only add this to a [fire trap](ref/rangertrap/fire-trap).\~\~\~The trap
-explodes in fire, filling all squares adjacent to the trap and dealing a number of points of fire
-damage equal to 1d6 + 1/2 the ranger's level (Reflex negates).\~\~\~If it is an extraordinary trap,
-the ranger must use an explosive material such as [alchemist's fire](ref/eq-weapon/alchemists-fire)
-when setting the trap.
+**Effect:** A ranger can only add this to a [fire trap](ref/rangertrap/fire-trap). The trap explodes
+in fire, filling all squares adjacent to the trap and dealing a number of points of fire damage
+equal to 1d6 + 1/2 the ranger's level (Reflex negates). If it is an extraordinary trap, the ranger
+must use an explosive material such as [alchemist's fire](ref/eq-weapon/alchemists-fire) when
+setting the trap.
