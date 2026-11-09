@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Halflings/Alternate Racial Rules/Alternate Racial Traits/Fleet of Foot", path = "advanced_race_guide/racial_trait/halfling/fleet_of_foot.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/halflings", label = "alternate" },
+  { kind = "part", target = "ref/race/halfling", label = "alternate" },
 ]
 
 [fields]

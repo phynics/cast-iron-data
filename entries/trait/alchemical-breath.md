@@ -20,6 +20,7 @@ category = "Race"
 great lengths to secure alchemical coal.
 
 **Benefit:** As a member of a green kobold tribe, you begin play with three pieces of the
-[choking smoke](ref/eq-weapon/alchemical-coal-choking-smoke) variety of alchemical coal. Eating one
-of these pellets allows you to exhale noxious vapors, damaging and sickening your enemies. These
-pellets do not count against your starting character wealth.
+[choking smoke](ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/alchemical-coal)
+variety of alchemical coal. Eating one of these pellets allows you to exhale noxious vapors,
+damaging and sickening your enemies. These pellets do not count against your starting character
+wealth.

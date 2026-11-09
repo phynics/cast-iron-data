@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Changelings/Alternate Racial Traits/Mist Child", path = "advanced_race_guide/racial_trait/changeling/mist_child.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/changelings", label = "alternate" },
+  { kind = "part", target = "ref/race/changeling", label = "alternate" },
 ]
 
 [fields]

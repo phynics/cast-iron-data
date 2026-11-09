@@ -128,3 +128,123 @@ suspect that halflings deliberately spread these reports for just that reason.
 - [Languages](ref/racial-trait/halfling/languages)
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following favored options are available to all halflings who have the listed favored class, and
+unless otherwise stated, the bonus applies each time you select the class reward.
+
+### Alchemist {#alchemist}
+
+Add one extract formula from the alchemist's list to the alchemist's formula book. This formula must
+be at least one level below the highest formula level the alchemist can create.
+
+### Barbarian {#barbarian}
+
+Add a +1/2 bonus to trap sense or +1/3 to the bonus from the surprise accuracy rage power.
+
+### Bard {#bard}
+
+Add +1/2 on Bluff checks to pass secret messages, +1/2 on Diplomacy checks to gather information,
+and +1/2 on Disguise checks to appear as an elven, half-elven, or human child.
+
+### Cavalier {#cavalier}
+
+Add +1/2 to the cavalier's effective class level for the purposes of determining the damage he deals
+when making an attack of opportunity against a challenged foe.
+
+### Cleric {#cleric}
+
+Select one domain power granted at 1st level that is normally usable a number of times per day equal
+to 3 + the cleric's Wisdom modifier. The cleric adds +1/2 to the number of uses per day of that
+domain power.
+
+### Druid {#druid}
+
+Add a +1/4 luck bonus on the saving throws of the druid's animal companion.
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting a trip or grapple attempt.
+
+### Gunslinger {#gunslinger}
+
+Add +1/4 to the dodge bonus to AC granted by the nimble class feature (maximum +2) or +1/4 to the AC
+bonus gained when using the gunslinger's dodge deed.
+
+### Inquisitor {#inquisitor}
+
+Add +1/4 to the number of times per day that an inquisitor can change her most recent teamwork feat.
+
+### Magus {#magus}
+
+The magus gains 1/6 of a new magus arcana.
+
+### Monk {#monk}
+
+Add +1 to the monk's CMD when resisting a grapple and +1/2 to the number of stunning attacks he can
+attempt per day.
+
+### Oracle {#oracle}
+
+Add +1/2 to the oracle's level for the purpose of determining the effects of the oracle's curse
+ability.
+
+### Paladin {#paladin}
+
+Add +1/2 hit point to the paladin's lay on hands ability (whether using it to heal or harm).
+
+### Ranger {#ranger}
+
+Add a +1/4 dodge bonus to Armor Class against the ranger's favored enemies.
+
+### Rogue {#rogue}
+
+Choose a weapon from the following list: sling, dagger, or any weapon with "halfling" in its name.
+Add a +1/2 bonus on critical hit confirmation rolls with that weapon (maximum bonus +4). This bonus
+does not stack with Critical Focus.
+
+### Sorcerer {#sorcerer}
+
+Select one bloodline power at 1st level that is normally usable a number of times per day equal to
+3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that
+bloodline power.
+
+### Summoner {#summoner}
+
+Add +1 skill rank to the summoner's eidolon.
+
+### Witch {#witch}
+
+Add +1/4 to the witch's caster level when determining the effects of the spells granted to her by
+her patron.
+
+### Wizard {#wizard}
+
+Add +1/2 to the wizard's effective class level for the purposes of determining his familiar's
+natural armor adjustment, Intelligence, and special abilities.
+
+## Racial Subtypes {#racial-subtypes}
+
+You can combine various alternate racial traits to create halfling subraces or variant races, such
+as the following.
+
+### Avenging {#avenging}
+
+Unlike most halflings, members of this subtype actively look for trouble in their quest to avenge
+slights and wrongdoings. Whether resisting a local bully, monster, or troops of an oppressive ruler,
+halfling warriors of this secret subculture don masks and strike back on behalf of their community.
+These halflings have the low blow, underfoot, and warslinger alternate racial traits.
+
+### Nomadic {#nomadic}
+
+These halflings were born on the road and most follow it until the end of their days. They travel
+fast and light and never miss a chance for either profit or adventure. These halflings have the
+fleet-footed, polyglot, and wanderlust alternate racial traits.
+
+### Slave Born {#slave-born}
+
+These halflings come from lineages that have spent countless generations as property. Though usually
+free themselves, the weight of slavery still bears down on their souls, making them eager to please
+and prone to sudden fits of fear. These halflings have the craven and ingratiating alternate racial
+traits.

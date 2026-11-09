@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Elves/Alternate Racial Rules/Alternate Racial Traits/Arcane Focus", path = "advanced_race_guide/racial_trait/elf/arcane_focus.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/elves", label = "alternate" },
+  { kind = "part", target = "ref/race/elf", label = "alternate" },
 ]
 
 [fields]

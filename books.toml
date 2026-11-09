@@ -6573,7 +6573,55 @@ entry = "ref/carried/advanced-race-guide/rules/core-races/new-racial-rules"
 
 [[books.chapters.children]]
 title = "Dwarves"
-entry = "ref/carried/advanced-race-guide/races/dwarves"
+entry = "ref/race/dwarf"
+
+[[books.chapters.children.children]]
+title = "Attributes"
+entry = "ref/racial-trait/dwarf/attributes"
+
+[[books.chapters.children.children]]
+title = "Darkvision"
+entry = "ref/racial-trait/dwarf/darkvision"
+
+[[books.chapters.children.children]]
+title = "Defensive Training"
+entry = "ref/racial-trait/dwarf/defensive-training"
+
+[[books.chapters.children.children]]
+title = "Greed"
+entry = "ref/racial-trait/dwarf/greed"
+
+[[books.chapters.children.children]]
+title = "Hardy"
+entry = "ref/racial-trait/dwarf/hardy"
+
+[[books.chapters.children.children]]
+title = "Hatred"
+entry = "ref/racial-trait/dwarf/hatred"
+
+[[books.chapters.children.children]]
+title = "Languages"
+entry = "ref/racial-trait/dwarf/languages"
+
+[[books.chapters.children.children]]
+title = "Medium"
+entry = "ref/racial-trait/dwarf/medium"
+
+[[books.chapters.children.children]]
+title = "Slow and Steady"
+entry = "ref/racial-trait/dwarf/slow-and-steady"
+
+[[books.chapters.children.children]]
+title = "Stability"
+entry = "ref/racial-trait/dwarf/stability"
+
+[[books.chapters.children.children]]
+title = "Stonecunning"
+entry = "ref/racial-trait/dwarf/stonecunning"
+
+[[books.chapters.children.children]]
+title = "Weapon Familiarity"
+entry = "ref/racial-trait/dwarf/weapon-familiarity"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Rules"
@@ -6769,7 +6817,43 @@ entry = "ref/spell/toilsome-chant"
 
 [[books.chapters.children]]
 title = "Elves"
-entry = "ref/carried/advanced-race-guide/races/elves"
+entry = "ref/race/elf"
+
+[[books.chapters.children.children]]
+title = "Attributes"
+entry = "ref/racial-trait/elf/attributes"
+
+[[books.chapters.children.children]]
+title = "Elven Immunities"
+entry = "ref/racial-trait/elf/elven-immunities"
+
+[[books.chapters.children.children]]
+title = "Elven Magic"
+entry = "ref/racial-trait/elf/elven-magic"
+
+[[books.chapters.children.children]]
+title = "Keen Senses"
+entry = "ref/racial-trait/elf/keen-senses"
+
+[[books.chapters.children.children]]
+title = "Languages"
+entry = "ref/racial-trait/elf/languages"
+
+[[books.chapters.children.children]]
+title = "Low-Light Vision"
+entry = "ref/racial-trait/elf/low-light-vision"
+
+[[books.chapters.children.children]]
+title = "Medium"
+entry = "ref/racial-trait/elf/medium"
+
+[[books.chapters.children.children]]
+title = "Normal Speed"
+entry = "ref/racial-trait/elf/normal-speed"
+
+[[books.chapters.children.children]]
+title = "Weapon Familiarity"
+entry = "ref/racial-trait/elf/weapon-familiarity"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Rules"
@@ -6965,7 +7049,55 @@ entry = "ref/spell/whispering-lore"
 
 [[books.chapters.children]]
 title = "Gnomes"
-entry = "ref/carried/advanced-race-guide/races/gnomes"
+entry = "ref/race/gnome"
+
+[[books.chapters.children.children]]
+title = "Attributes"
+entry = "ref/racial-trait/gnome/attributes"
+
+[[books.chapters.children.children]]
+title = "Defensive Training"
+entry = "ref/racial-trait/gnome/defensive-training"
+
+[[books.chapters.children.children]]
+title = "Gnome Magic"
+entry = "ref/racial-trait/gnome/gnome-magic"
+
+[[books.chapters.children.children]]
+title = "Hatred"
+entry = "ref/racial-trait/gnome/hatred"
+
+[[books.chapters.children.children]]
+title = "Illusion Resistance"
+entry = "ref/racial-trait/gnome/illusion-resistance"
+
+[[books.chapters.children.children]]
+title = "Keen Senses"
+entry = "ref/racial-trait/gnome/keen-senses"
+
+[[books.chapters.children.children]]
+title = "Languages"
+entry = "ref/racial-trait/gnome/languages"
+
+[[books.chapters.children.children]]
+title = "Low-Light Vision"
+entry = "ref/racial-trait/gnome/low-light-vision"
+
+[[books.chapters.children.children]]
+title = "Obsessive"
+entry = "ref/racial-trait/gnome/obsessive"
+
+[[books.chapters.children.children]]
+title = "Slow Speed"
+entry = "ref/racial-trait/gnome/slow-speed"
+
+[[books.chapters.children.children]]
+title = "Small"
+entry = "ref/racial-trait/gnome/small"
+
+[[books.chapters.children.children]]
+title = "Weapon Familiarity"
+entry = "ref/racial-trait/gnome/weapon-familiarity"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Rules"
@@ -7051,10 +7183,6 @@ anchor = "gnome-equipment"
 title = "Dilettante's Outfit"
 entry = "ref/eq-misc/dilettantes-outfit"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Tear-away dilettante's outfit"
-entry = "ref/eq-misc/tear-away-dilettantes-outfit"
-
 [[books.chapters.children.children.children.children]]
 title = "Hound's Blood"
 entry = "ref/eq-misc/hounds-blood-vial"
@@ -7074,10 +7202,6 @@ entry = "ref/eq-misc/scentbane-incense"
 [[books.chapters.children.children.children.children]]
 title = "Sheriff's Whistle"
 entry = "ref/carried/advanced-race-guide/races/gnomes/new-racial-rules/gnome-equipment/sheriffs-whistle"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Sherrif's whistle"
-entry = "ref/eq-misc/sherrifs-whistle"
 
 [[books.chapters.children.children.children]]
 title = "Gnome Feats"
@@ -7153,7 +7277,47 @@ entry = "ref/spell/recharge-innate-magic"
 
 [[books.chapters.children]]
 title = "Half-Elves"
-entry = "ref/carried/advanced-race-guide/races/half-elves"
+entry = "ref/race/half-elf"
+
+[[books.chapters.children.children]]
+title = "Adaptability"
+entry = "ref/racial-trait/half-elf/adaptability"
+
+[[books.chapters.children.children]]
+title = "Attributes"
+entry = "ref/racial-trait/half-elf/attributes"
+
+[[books.chapters.children.children]]
+title = "Elf Blood"
+entry = "ref/racial-trait/half-elf/elf-blood"
+
+[[books.chapters.children.children]]
+title = "Elven Immunities"
+entry = "ref/racial-trait/half-elf/elven-immunities"
+
+[[books.chapters.children.children]]
+title = "Keen Senses"
+entry = "ref/racial-trait/half-elf/keen-senses"
+
+[[books.chapters.children.children]]
+title = "Languages"
+entry = "ref/racial-trait/half-elf/languages"
+
+[[books.chapters.children.children]]
+title = "Low-Light Vision"
+entry = "ref/racial-trait/half-elf/low-light-vision"
+
+[[books.chapters.children.children]]
+title = "Medium"
+entry = "ref/racial-trait/half-elf/medium"
+
+[[books.chapters.children.children]]
+title = "Multitalented"
+entry = "ref/racial-trait/half-elf/multitalented"
+
+[[books.chapters.children.children]]
+title = "Normal Speed"
+entry = "ref/racial-trait/half-elf/normal-speed"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Rules"
@@ -7325,7 +7489,43 @@ entry = "ref/spell/urban-grace"
 
 [[books.chapters.children]]
 title = "Half-Orcs"
-entry = "ref/carried/advanced-race-guide/races/half-orcs"
+entry = "ref/race/half-orc"
+
+[[books.chapters.children.children]]
+title = "Attributes"
+entry = "ref/racial-trait/half-orc/attributes"
+
+[[books.chapters.children.children]]
+title = "Darkvision"
+entry = "ref/racial-trait/half-orc/darkvision"
+
+[[books.chapters.children.children]]
+title = "Intimidating"
+entry = "ref/racial-trait/half-orc/intimidating"
+
+[[books.chapters.children.children]]
+title = "Languages"
+entry = "ref/racial-trait/half-orc/languages"
+
+[[books.chapters.children.children]]
+title = "Medium"
+entry = "ref/racial-trait/half-orc/medium"
+
+[[books.chapters.children.children]]
+title = "Normal Speed"
+entry = "ref/racial-trait/half-orc/normal-speed"
+
+[[books.chapters.children.children]]
+title = "Orc Blood"
+entry = "ref/racial-trait/half-orc/orc-blood"
+
+[[books.chapters.children.children]]
+title = "Orc Ferocity"
+entry = "ref/racial-trait/half-orc/orc-ferocity"
+
+[[books.chapters.children.children]]
+title = "Weapon Familiarity"
+entry = "ref/racial-trait/half-orc/weapon-familiarity"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Rules"
@@ -7529,7 +7729,43 @@ entry = "ref/spell/savage-maw"
 
 [[books.chapters.children]]
 title = "Halflings"
-entry = "ref/carried/advanced-race-guide/races/halflings"
+entry = "ref/race/halfling"
+
+[[books.chapters.children.children]]
+title = "Attributes"
+entry = "ref/racial-trait/halfling/attributes"
+
+[[books.chapters.children.children]]
+title = "Fearless"
+entry = "ref/racial-trait/halfling/fearless"
+
+[[books.chapters.children.children]]
+title = "Halfling Luck"
+entry = "ref/racial-trait/halfling/halfling-luck"
+
+[[books.chapters.children.children]]
+title = "Keen Senses"
+entry = "ref/racial-trait/halfling/keen-senses"
+
+[[books.chapters.children.children]]
+title = "Languages"
+entry = "ref/racial-trait/halfling/languages"
+
+[[books.chapters.children.children]]
+title = "Slow Speed"
+entry = "ref/racial-trait/halfling/slow-speed"
+
+[[books.chapters.children.children]]
+title = "Small"
+entry = "ref/racial-trait/halfling/small"
+
+[[books.chapters.children.children]]
+title = "Sure-Footed"
+entry = "ref/racial-trait/halfling/sure-footed"
+
+[[books.chapters.children.children]]
+title = "Weapon Familiarity"
+entry = "ref/racial-trait/halfling/weapon-familiarity"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Rules"
@@ -7727,10 +7963,6 @@ entry = "ref/spell/blessing-of-luck-and-resolve"
 title = "Blessing Of Luck And Resolve, Mass"
 entry = "ref/carried/advanced-race-guide/races/halflings/new-racial-rules/halfling-spells/blessing-of-luck-and-resolve/mass"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Mass Blessing of Luck and Resolve"
-entry = "ref/spell/blessing-of-luck-and-resolve-mass"
-
 [[books.chapters.children.children.children.children]]
 title = "Escaping Ward"
 entry = "ref/spell/escaping-ward"
@@ -7745,7 +7977,31 @@ entry = "ref/spell/village-veil"
 
 [[books.chapters.children]]
 title = "Humans"
-entry = "ref/carried/advanced-race-guide/races/humans"
+entry = "ref/race/human"
+
+[[books.chapters.children.children]]
+title = "Attributes"
+entry = "ref/racial-trait/human/attributes"
+
+[[books.chapters.children.children]]
+title = "Bonus Feat"
+entry = "ref/racial-trait/human/bonus-feat"
+
+[[books.chapters.children.children]]
+title = "Languages"
+entry = "ref/racial-trait/human/languages"
+
+[[books.chapters.children.children]]
+title = "Medium"
+entry = "ref/racial-trait/human/medium"
+
+[[books.chapters.children.children]]
+title = "Normal Speed"
+entry = "ref/racial-trait/human/normal-speed"
+
+[[books.chapters.children.children]]
+title = "Skilled"
+entry = "ref/racial-trait/human/skilled"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Rules"
@@ -7988,7 +8244,7 @@ entry = "ref/carried/advanced-race-guide/rules/featured-races/new-racial-rules"
 
 [[books.chapters.children]]
 title = "Aasimars"
-entry = "ref/carried/advanced-race-guide/races/aasimars"
+entry = "ref/race/aasimar"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -8288,7 +8544,7 @@ entry = "ref/spell/steal-breath"
 
 [[books.chapters.children]]
 title = "Dhampirs"
-entry = "ref/carried/advanced-race-guide/races/dhampirs"
+entry = "ref/race/dhampir"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -8536,7 +8792,7 @@ entry = "ref/spell/web-cloud"
 
 [[books.chapters.children]]
 title = "Fetchlings"
-entry = "ref/carried/advanced-race-guide/races/fetchlings"
+entry = "ref/race/fetchling"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -8602,10 +8858,6 @@ entry = "ref/eq-misc/gloom-sight-goggles"
 title = "Shadowcloy"
 entry = "ref/carried/advanced-race-guide/races/fetchlings/new-racial-rules/fetchling-equipment/shadowcloy"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Shadowcloy flask"
-entry = "ref/eq-weapon/shadowcloy-flask"
-
 [[books.chapters.children.children.children]]
 title = "Fetchling Feats"
 anchor = "fetchling-feats"
@@ -8664,7 +8916,7 @@ entry = "ref/spell/shadowy-haven"
 
 [[books.chapters.children]]
 title = "Goblins"
-entry = "ref/carried/advanced-race-guide/races/goblins"
+entry = "ref/race/goblin"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -8812,7 +9064,7 @@ entry = "ref/spell/vomit-twin"
 
 [[books.chapters.children]]
 title = "Hobgoblins"
-entry = "ref/carried/advanced-race-guide/races/hobgoblins"
+entry = "ref/race/hobgoblin"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -8882,14 +9134,6 @@ entry = "ref/eq-weapon/brewed-reek"
 title = "Fetters"
 entry = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Fetters (common)"
-entry = "ref/eq-misc/fetters-common"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Fetters (masterwork)"
-entry = "ref/eq-misc/fetters-masterwork"
-
 [[books.chapters.children.children.children.children]]
 title = "Hobgoblin War Draught"
 entry = "ref/eq-misc/hobgoblin-war-draught"
@@ -8897,22 +9141,6 @@ entry = "ref/eq-misc/hobgoblin-war-draught"
 [[books.chapters.children.children.children.children]]
 title = "Manacle Barbs"
 entry = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Manacles with barbs (common)"
-entry = "ref/eq-misc/manacles-with-barbs-common"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Manacles with barbs (masterwork)"
-entry = "ref/eq-misc/manacles-with-barbs-masterwork"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Manacles with barbs (mithral)"
-entry = "ref/eq-misc/manacles-with-barbs-mithral"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Manacles with barbs (quickcatch)"
-entry = "ref/eq-misc/manacles-with-barbs-quickcatch"
 
 [[books.chapters.children.children.children.children]]
 title = "Unstable Accelerant"
@@ -8954,18 +9182,6 @@ anchor = "hobgoblin-magic-items"
 title = "Hobgoblin Battle Standard"
 entry = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-magic-items/hobgoblin-battle-standard"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Hobgoblin Battle Standard (Despair)"
-entry = "ref/magic-wondrous/hobgoblin-battle-standard-despair"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Hobgoblin Battle Standard (Ferocity)"
-entry = "ref/magic-wondrous/hobgoblin-battle-standard-ferocity"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Hobgoblin Battle Standard (Iron Resolve)"
-entry = "ref/magic-wondrous/hobgoblin-battle-standard-iron-resolve"
-
 [[books.chapters.children.children.children.children]]
 title = "Horseshoes of Crushing Blows"
 entry = "ref/magic-wondrous/horseshoes-of-crushing-blows"
@@ -8988,7 +9204,7 @@ entry = "ref/spell/agonizing-rebuke"
 
 [[books.chapters.children]]
 title = "Ifrits"
-entry = "ref/carried/advanced-race-guide/races/ifrits"
+entry = "ref/race/ifrit"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -9124,7 +9340,7 @@ entry = "ref/spell/touch-of-combustion"
 
 [[books.chapters.children]]
 title = "Kobolds"
-entry = "ref/carried/advanced-race-guide/races/kobolds"
+entry = "ref/race/kobold"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -9170,14 +9386,6 @@ anchor = "kobold-equipment"
 title = "Alchemical Coal"
 entry = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/alchemical-coal"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Alchemical coal (blinding cinders)"
-entry = "ref/eq-weapon/alchemical-coal-blinding-cinders"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Alchemical coal (choking smoke)"
-entry = "ref/eq-weapon/alchemical-coal-choking-smoke"
-
 [[books.chapters.children.children.children.children]]
 title = "Cave Whistle"
 entry = "ref/eq-misc/cave-whistle"
@@ -9185,30 +9393,6 @@ entry = "ref/eq-misc/cave-whistle"
 [[books.chapters.children.children.children.children]]
 title = "Kobold Tail Attachments"
 entry = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Kobold Tail Attachment"
-entry = "ref/eq-weapon/kobold-tail"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Kobold tail, long lash"
-entry = "ref/eq-weapon/kobold-tail-long-lash"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Kobold tail, pounder"
-entry = "ref/eq-weapon/kobold-tail-pounder"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Kobold tail, razored"
-entry = "ref/eq-weapon/kobold-tail-razored"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Kobold tail, spiked"
-entry = "ref/eq-weapon/kobold-tail-spiked"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Kobold tail, sweeper"
-entry = "ref/eq-weapon/kobold-tail-sweeper"
 
 [[books.chapters.children.children.children]]
 title = "Kobold Feats"
@@ -9264,7 +9448,7 @@ entry = "ref/spell/improve-trap"
 
 [[books.chapters.children]]
 title = "Orcs"
-entry = "ref/carried/advanced-race-guide/races/orcs"
+entry = "ref/race/orc"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -9388,7 +9572,7 @@ entry = "ref/spell/sentry-skull"
 
 [[books.chapters.children]]
 title = "Oreads"
-entry = "ref/carried/advanced-race-guide/races/oreads"
+entry = "ref/race/oread"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -9453,14 +9637,6 @@ entry = "ref/eq-misc/camouflage-lichen"
 [[books.chapters.children.children.children.children]]
 title = "Fleshgem"
 entry = "ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-equipment/fleshgem"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Fleshgem (decorative)"
-entry = "ref/eq-misc/fleshgem-decorative"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Fleshgem (spikes)"
-entry = "ref/eq-misc/fleshgem-spikes"
 
 [[books.chapters.children.children.children.children]]
 title = "Stonechipper Salve"
@@ -9529,10 +9705,6 @@ entry = "ref/spell/binding-earth"
 [[books.chapters.children.children.children.children]]
 title = "Binding Earth, Mass"
 entry = "ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-spells/binding-earth/mass"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Mass Binding Earth"
-entry = "ref/spell/binding-earth-mass"
 
 [[books.chapters.children.children.children.children]]
 title = "Mighty Fist Of The Earth"
@@ -9614,21 +9786,9 @@ entry = "ref/eq-weapon/pox-burster"
 title = "Stink Ink"
 entry = "ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/stink-ink"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Stink ink (common)"
-entry = "ref/eq-misc/stink-ink-common"
-
-[[books.chapters.children.children.children.children]]
-title = "Stink Ink, Arcane"
-entry = "ref/eq-misc/stink-ink-arcane"
-
 [[books.chapters.children.children.children.children]]
 title = "Tailblade"
 entry = "ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/tailblade"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Tailblade, ratfolk"
-entry = "ref/eq-weapon/tailblade-ratfolk"
 
 [[books.chapters.children.children.children]]
 title = "Ratfolk Feats"
@@ -9688,7 +9848,7 @@ entry = "ref/spell/sickening-strikes"
 
 [[books.chapters.children]]
 title = "Sylphs"
-entry = "ref/carried/advanced-race-guide/races/sylphs"
+entry = "ref/race/sylph"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -9820,7 +9980,7 @@ entry = "ref/spell/windy-escape"
 
 [[books.chapters.children]]
 title = "Tengus"
-entry = "ref/carried/advanced-race-guide/races/tengus"
+entry = "ref/race/tengu"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -9940,7 +10100,7 @@ entry = "ref/spell/winter-feathers"
 
 [[books.chapters.children]]
 title = "Tieflings"
-entry = "ref/carried/advanced-race-guide/races/tieflings"
+entry = "ref/race/tiefling"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10044,7 +10204,7 @@ entry = "ref/spell/hellmouth-lash"
 
 [[books.chapters.children]]
 title = "Undines"
-entry = "ref/carried/advanced-race-guide/races/undines"
+entry = "ref/race/undine"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10207,7 +10367,7 @@ entry = "ref/carried/advanced-race-guide/rules/uncommon-races/new-racial-rules"
 
 [[books.chapters.children]]
 title = "Changelings"
-entry = "ref/carried/advanced-race-guide/races/changelings"
+entry = "ref/race/changeling"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10256,6 +10416,10 @@ entry = "ref/spell/sow-thought"
 [[books.chapters.children]]
 title = "Duergar"
 entry = "ref/race/duergar"
+
+[[books.chapters.children.children]]
+title = "Duergar Tyrant"
+entry = "ref/race/duergar-tyrant"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10315,7 +10479,7 @@ entry = "ref/feat/lingering-invisibility"
 
 [[books.chapters.children]]
 title = "Gillmen"
-entry = "ref/carried/advanced-race-guide/races/gillmen"
+entry = "ref/race/gillman"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10363,7 +10527,7 @@ entry = "ref/spell/aboleths-lung"
 
 [[books.chapters.children]]
 title = "Gripplis"
-entry = "ref/carried/advanced-race-guide/races/gripplis"
+entry = "ref/race/grippli"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10493,18 +10657,6 @@ anchor = "kitsune-magic-items"
 title = "Kitsune Star Gem"
 entry = "ref/carried/advanced-race-guide/races/kitsune/new-racial-rules/kitsune-magic-items/kitsune-star-gem"
 
-[[books.chapters.children.children.children.children.children]]
-title = "Kitsune Star Gem (1st)"
-entry = "ref/magic-wondrous/kitsune-star-gem-1st"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Kitsune Star Gem (2nd)"
-entry = "ref/magic-wondrous/kitsune-star-gem-2nd"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Kitsune Star Gem (3rd)"
-entry = "ref/magic-wondrous/kitsune-star-gem-3rd"
-
 [[books.chapters.children]]
 title = "Merfolk"
 entry = "ref/race/merfolk"
@@ -10611,7 +10763,7 @@ entry = "ref/magic-wondrous/nagaji-scale-polish"
 
 [[books.chapters.children]]
 title = "Samsarans"
-entry = "ref/carried/advanced-race-guide/races/samsarans"
+entry = "ref/race/samsaran"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10739,7 +10891,7 @@ entry = "ref/spell/strong-wings"
 
 [[books.chapters.children]]
 title = "Sulis"
-entry = "ref/carried/advanced-race-guide/races/sulis"
+entry = "ref/race/suli"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10855,7 +11007,7 @@ entry = "ref/spell/earth-glide"
 
 [[books.chapters.children]]
 title = "Vanaras"
-entry = "ref/carried/advanced-race-guide/races/vanaras"
+entry = "ref/race/vanara"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10915,7 +11067,7 @@ entry = "ref/spell/prehensile-pilfer"
 
 [[books.chapters.children]]
 title = "Vishkanyas"
-entry = "ref/carried/advanced-race-guide/races/vishkanyas"
+entry = "ref/race/vishkanya"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -10975,7 +11127,7 @@ entry = "ref/spell/squeeze"
 
 [[books.chapters.children]]
 title = "Wayangs"
-entry = "ref/carried/advanced-race-guide/races/wayangs"
+entry = "ref/race/wayang"
 
 [[books.chapters.children.children]]
 title = "Alternate Racial Traits"
@@ -11004,10 +11156,6 @@ anchor = "wayang-equipment"
 [[books.chapters.children.children.children.children]]
 title = "Shadow Stencils"
 entry = "ref/carried/advanced-race-guide/races/wayangs/new-racial-rules/wayang-equipment/shadow-stencils"
-
-[[books.chapters.children.children.children.children.children]]
-title = "Shadow stencil set"
-entry = "ref/eq-misc/shadow-stencil-set"
 
 [[books.chapters.children.children.children]]
 title = "Wayang Feats"
@@ -11265,322 +11413,6 @@ title = "Races"
 entry = "ref/rule/races"
 
 [[books.chapters.children]]
-title = "The Core Races"
-entry = "ref/rule/core-races"
-
-[[books.chapters.children]]
-title = "Dwarf"
-entry = "ref/race/dwarf"
-
-[[books.chapters.children.children]]
-title = "Attributes"
-entry = "ref/racial-trait/dwarf/attributes"
-
-[[books.chapters.children.children]]
-title = "Darkvision"
-entry = "ref/racial-trait/dwarf/darkvision"
-
-[[books.chapters.children.children]]
-title = "Defensive Training"
-entry = "ref/racial-trait/dwarf/defensive-training"
-
-[[books.chapters.children.children]]
-title = "Greed"
-entry = "ref/racial-trait/dwarf/greed"
-
-[[books.chapters.children.children]]
-title = "Hardy"
-entry = "ref/racial-trait/dwarf/hardy"
-
-[[books.chapters.children.children]]
-title = "Hatred"
-entry = "ref/racial-trait/dwarf/hatred"
-
-[[books.chapters.children.children]]
-title = "Languages"
-entry = "ref/racial-trait/dwarf/languages"
-
-[[books.chapters.children.children]]
-title = "Medium"
-entry = "ref/racial-trait/dwarf/medium"
-
-[[books.chapters.children.children]]
-title = "Slow and Steady"
-entry = "ref/racial-trait/dwarf/slow-and-steady"
-
-[[books.chapters.children.children]]
-title = "Stability"
-entry = "ref/racial-trait/dwarf/stability"
-
-[[books.chapters.children.children]]
-title = "Stonecunning"
-entry = "ref/racial-trait/dwarf/stonecunning"
-
-[[books.chapters.children.children]]
-title = "Weapon Familiarity"
-entry = "ref/racial-trait/dwarf/weapon-familiarity"
-
-[[books.chapters.children]]
-title = "Elf"
-entry = "ref/race/elf"
-
-[[books.chapters.children.children]]
-title = "Attributes"
-entry = "ref/racial-trait/elf/attributes"
-
-[[books.chapters.children.children]]
-title = "Elven Immunities"
-entry = "ref/racial-trait/elf/elven-immunities"
-
-[[books.chapters.children.children]]
-title = "Elven Magic"
-entry = "ref/racial-trait/elf/elven-magic"
-
-[[books.chapters.children.children]]
-title = "Keen Senses"
-entry = "ref/racial-trait/elf/keen-senses"
-
-[[books.chapters.children.children]]
-title = "Languages"
-entry = "ref/racial-trait/elf/languages"
-
-[[books.chapters.children.children]]
-title = "Low-Light Vision"
-entry = "ref/racial-trait/elf/low-light-vision"
-
-[[books.chapters.children.children]]
-title = "Medium"
-entry = "ref/racial-trait/elf/medium"
-
-[[books.chapters.children.children]]
-title = "Normal Speed"
-entry = "ref/racial-trait/elf/normal-speed"
-
-[[books.chapters.children.children]]
-title = "Weapon Familiarity"
-entry = "ref/racial-trait/elf/weapon-familiarity"
-
-[[books.chapters.children]]
-title = "Gnome"
-entry = "ref/race/gnome"
-
-[[books.chapters.children.children]]
-title = "Attributes"
-entry = "ref/racial-trait/gnome/attributes"
-
-[[books.chapters.children.children]]
-title = "Defensive Training"
-entry = "ref/racial-trait/gnome/defensive-training"
-
-[[books.chapters.children.children]]
-title = "Gnome Magic"
-entry = "ref/racial-trait/gnome/gnome-magic"
-
-[[books.chapters.children.children]]
-title = "Hatred"
-entry = "ref/racial-trait/gnome/hatred"
-
-[[books.chapters.children.children]]
-title = "Illusion Resistance"
-entry = "ref/racial-trait/gnome/illusion-resistance"
-
-[[books.chapters.children.children]]
-title = "Keen Senses"
-entry = "ref/racial-trait/gnome/keen-senses"
-
-[[books.chapters.children.children]]
-title = "Languages"
-entry = "ref/racial-trait/gnome/languages"
-
-[[books.chapters.children.children]]
-title = "Low-Light Vision"
-entry = "ref/racial-trait/gnome/low-light-vision"
-
-[[books.chapters.children.children]]
-title = "Obsessive"
-entry = "ref/racial-trait/gnome/obsessive"
-
-[[books.chapters.children.children]]
-title = "Slow Speed"
-entry = "ref/racial-trait/gnome/slow-speed"
-
-[[books.chapters.children.children]]
-title = "Small"
-entry = "ref/racial-trait/gnome/small"
-
-[[books.chapters.children.children]]
-title = "Weapon Familiarity"
-entry = "ref/racial-trait/gnome/weapon-familiarity"
-
-[[books.chapters.children]]
-title = "Half-Elf"
-entry = "ref/race/half-elf"
-
-[[books.chapters.children.children]]
-title = "Adaptability"
-entry = "ref/racial-trait/half-elf/adaptability"
-
-[[books.chapters.children.children]]
-title = "Attributes"
-entry = "ref/racial-trait/half-elf/attributes"
-
-[[books.chapters.children.children]]
-title = "Elf Blood"
-entry = "ref/racial-trait/half-elf/elf-blood"
-
-[[books.chapters.children.children]]
-title = "Elven Immunities"
-entry = "ref/racial-trait/half-elf/elven-immunities"
-
-[[books.chapters.children.children]]
-title = "Keen Senses"
-entry = "ref/racial-trait/half-elf/keen-senses"
-
-[[books.chapters.children.children]]
-title = "Languages"
-entry = "ref/racial-trait/half-elf/languages"
-
-[[books.chapters.children.children]]
-title = "Low-Light Vision"
-entry = "ref/racial-trait/half-elf/low-light-vision"
-
-[[books.chapters.children.children]]
-title = "Medium"
-entry = "ref/racial-trait/half-elf/medium"
-
-[[books.chapters.children.children]]
-title = "Multitalented"
-entry = "ref/racial-trait/half-elf/multitalented"
-
-[[books.chapters.children.children]]
-title = "Normal Speed"
-entry = "ref/racial-trait/half-elf/normal-speed"
-
-[[books.chapters.children]]
-title = "Half-Orc"
-entry = "ref/race/half-orc"
-
-[[books.chapters.children.children]]
-title = "Attributes"
-entry = "ref/racial-trait/half-orc/attributes"
-
-[[books.chapters.children.children]]
-title = "Darkvision"
-entry = "ref/racial-trait/half-orc/darkvision"
-
-[[books.chapters.children.children]]
-title = "Intimidating"
-entry = "ref/racial-trait/half-orc/intimidating"
-
-[[books.chapters.children.children]]
-title = "Languages"
-entry = "ref/racial-trait/half-orc/languages"
-
-[[books.chapters.children.children]]
-title = "Medium"
-entry = "ref/racial-trait/half-orc/medium"
-
-[[books.chapters.children.children]]
-title = "Normal Speed"
-entry = "ref/racial-trait/half-orc/normal-speed"
-
-[[books.chapters.children.children]]
-title = "Orc Blood"
-entry = "ref/racial-trait/half-orc/orc-blood"
-
-[[books.chapters.children.children]]
-title = "Orc Ferocity"
-entry = "ref/racial-trait/half-orc/orc-ferocity"
-
-[[books.chapters.children.children]]
-title = "Weapon Familiarity"
-entry = "ref/racial-trait/half-orc/weapon-familiarity"
-
-[[books.chapters.children]]
-title = "Halfling"
-entry = "ref/race/halfling"
-
-[[books.chapters.children.children]]
-title = "Attributes"
-entry = "ref/racial-trait/halfling/attributes"
-
-[[books.chapters.children.children]]
-title = "Fearless"
-entry = "ref/racial-trait/halfling/fearless"
-
-[[books.chapters.children.children]]
-title = "Halfling Luck"
-entry = "ref/racial-trait/halfling/halfling-luck"
-
-[[books.chapters.children.children]]
-title = "Keen Senses"
-entry = "ref/racial-trait/halfling/keen-senses"
-
-[[books.chapters.children.children]]
-title = "Languages"
-entry = "ref/racial-trait/halfling/languages"
-
-[[books.chapters.children.children]]
-title = "Slow Speed"
-entry = "ref/racial-trait/halfling/slow-speed"
-
-[[books.chapters.children.children]]
-title = "Small"
-entry = "ref/racial-trait/halfling/small"
-
-[[books.chapters.children.children]]
-title = "Sure-Footed"
-entry = "ref/racial-trait/halfling/sure-footed"
-
-[[books.chapters.children.children]]
-title = "Weapon Familiarity"
-entry = "ref/racial-trait/halfling/weapon-familiarity"
-
-[[books.chapters.children]]
-title = "Human"
-entry = "ref/race/human"
-
-[[books.chapters.children.children]]
-title = "Attributes"
-entry = "ref/racial-trait/human/attributes"
-
-[[books.chapters.children.children]]
-title = "Bonus Feat"
-entry = "ref/racial-trait/human/bonus-feat"
-
-[[books.chapters.children.children]]
-title = "Languages"
-entry = "ref/racial-trait/human/languages"
-
-[[books.chapters.children.children]]
-title = "Medium"
-entry = "ref/racial-trait/human/medium"
-
-[[books.chapters.children.children]]
-title = "Normal Speed"
-entry = "ref/racial-trait/human/normal-speed"
-
-[[books.chapters.children.children]]
-title = "Skilled"
-entry = "ref/racial-trait/human/skilled"
-
-[[books.chapters.children]]
-title = "Less-Common Races"
-entry = "ref/rule/less-common-races"
-
-[[books.chapters.children]]
-title = "Aasimar"
-entry = "ref/race/aasimar"
-
-[[books.chapters.children]]
-title = "Dhampir"
-entry = "ref/race/dhampir"
-
-[[books.chapters.children]]
-title = "Drow"
-entry = "ref/rule/race-drow/drow"
-
-[[books.chapters.children]]
 title = "Gecko (riding)"
 entry = "ref/eq-misc/gecko-riding"
 
@@ -11589,20 +11421,8 @@ title = "Gecko (riding, combat trained)"
 entry = "ref/eq-misc/gecko-riding-combat-trained"
 
 [[books.chapters.children]]
-title = "Fetchling"
-entry = "ref/race/fetchling"
-
-[[books.chapters.children]]
 title = "Shadow"
 entry = "ref/template/shadow"
-
-[[books.chapters.children]]
-title = "Goblin"
-entry = "ref/race/goblin"
-
-[[books.chapters.children]]
-title = "Hobgoblin"
-entry = "ref/race/hobgoblin"
 
 [[books.chapters.children]]
 title = "Cruel"
@@ -11633,68 +11453,12 @@ title = "Horseshoes of Crushing Blows (+5)"
 entry = "ref/magic-wondrous/horseshoes-of-crushing-blows-5"
 
 [[books.chapters.children]]
-title = "Ifrit"
-entry = "ref/race/ifrit"
-
-[[books.chapters.children]]
-title = "Kobold"
-entry = "ref/race/kobold"
-
-[[books.chapters.children]]
-title = "Orc"
-entry = "ref/race/orc"
-
-[[books.chapters.children]]
 title = "Furyborn"
 entry = "ref/magic-enh/furyborn"
 
 [[books.chapters.children]]
-title = "Oread"
-entry = "ref/race/oread"
-
-[[books.chapters.children]]
 title = "Qinggong Monk"
 entry = "ref/arc-monk/qinggong-monk"
-
-[[books.chapters.children]]
-title = "Ratfolk"
-entry = "ref/rule/race-ratfolk/ratfolk"
-
-[[books.chapters.children]]
-title = "Sylph"
-entry = "ref/race/sylph"
-
-[[books.chapters.children]]
-title = "Tengu"
-entry = "ref/race/tengu"
-
-[[books.chapters.children]]
-title = "Tiefling"
-entry = "ref/race/tiefling"
-
-[[books.chapters.children]]
-title = "Undine"
-entry = "ref/race/undine"
-
-[[books.chapters.children]]
-title = "Changeling"
-entry = "ref/race/changeling"
-
-[[books.chapters.children]]
-title = "Duergar Tyrant"
-entry = "ref/race/duergar-tyrant"
-
-[[books.chapters.children]]
-title = "Duergar"
-entry = "ref/rule/race-duergar/duergar"
-
-[[books.chapters.children]]
-title = "Gillman"
-entry = "ref/race/gillman"
-
-[[books.chapters.children]]
-title = "Grippli"
-entry = "ref/race/grippli"
 
 [[books.chapters.children]]
 title = "Underwater heavy crossbow"
@@ -11703,26 +11467,6 @@ entry = "ref/eq-weapon/underwater-heavy-crossbow"
 [[books.chapters.children]]
 title = "Underwater light crossbow"
 entry = "ref/eq-weapon/underwater-light-crossbow"
-
-[[books.chapters.children]]
-title = "Samsaran"
-entry = "ref/race/samsaran"
-
-[[books.chapters.children]]
-title = "Suli"
-entry = "ref/race/suli"
-
-[[books.chapters.children]]
-title = "Vanara"
-entry = "ref/race/vanara"
-
-[[books.chapters.children]]
-title = "Vishkanya"
-entry = "ref/race/vishkanya"
-
-[[books.chapters.children]]
-title = "Wayang"
-entry = "ref/race/wayang"
 
 [[books.chapters.children]]
 title = "Alchemist"
@@ -12833,10 +12577,6 @@ entry = "ref/carried/bestiary/monsters/drow/drow/special-abilities/poison-use/dr
 title = "Drow"
 entry = "ref/race/drow"
 
-[[books.chapters.children.children.children]]
-title = "Drow"
-entry = "ref/rule/race-drow/drow"
-
 [[books.chapters.children]]
 title = "Drow Noble"
 entry = "ref/monster/drow-drow-noble"
@@ -12856,10 +12596,6 @@ entry = "ref/monster/duergar"
 [[books.chapters.children.children]]
 title = "Duergar"
 entry = "ref/race/duergar"
-
-[[books.chapters.children.children.children]]
-title = "Duergar"
-entry = "ref/rule/race-duergar/duergar"
 
 [[books.chapters.children]]
 title = "Eagle"
@@ -19357,10 +19093,6 @@ entry = "ref/monster/ratfolk"
 [[books.chapters.children.children]]
 title = "Ratfolk"
 entry = "ref/race/ratfolk"
-
-[[books.chapters.children.children.children]]
-title = "Ratfolk"
-entry = "ref/rule/race-ratfolk/ratfolk"
 
 [[books.chapters.children]]
 title = "Rusalka"
@@ -37411,7 +37143,7 @@ entry = "ref/carried/monster-codex/rules/duergar"
 
 [[books.chapters.children]]
 title = "Duergar"
-entry = "ref/rule/race-duergar/duergar"
+entry = "ref/race/duergar"
 
 [[books.chapters.children]]
 title = "New Rules"
@@ -39021,7 +38753,7 @@ entry = "ref/carried/monster-codex/rules/ratfolk"
 
 [[books.chapters.children]]
 title = "Ratfolk"
-entry = "ref/rule/race-ratfolk/ratfolk"
+entry = "ref/race/ratfolk"
 
 [[books.chapters.children]]
 title = "New Rules"
@@ -39912,16 +39644,8 @@ title = "Ranger"
 entry = "ref/rule/class-ranger/ranger"
 
 [[books.chapters.children]]
-title = "Duergar"
-entry = "ref/race/duergar"
-
-[[books.chapters.children]]
 title = "Goblin"
 entry = "ref/race/goblin"
-
-[[books.chapters.children]]
-title = "Ratfolk"
-entry = "ref/race/ratfolk"
 
 [[books]]
 source = "mythic-adventures"
@@ -59255,10 +58979,6 @@ title = "Tear-away courtier's outfit"
 entry = "ref/eq-misc/tear-away-courtiers-outfit"
 
 [[books.chapters.children.children]]
-title = "Tear-away dilettante's outfit"
-entry = "ref/eq-misc/tear-away-dilettantes-outfit"
-
-[[books.chapters.children.children]]
 title = "Tear-away doctor's outfit"
 entry = "ref/eq-misc/tear-away-doctors-outfit"
 
@@ -76774,10 +76494,6 @@ title = "Tear-away courtier's outfit"
 entry = "ref/eq-misc/tear-away-courtiers-outfit"
 
 [[books.chapters.children]]
-title = "Tear-away dilettante's outfit"
-entry = "ref/eq-misc/tear-away-dilettantes-outfit"
-
-[[books.chapters.children]]
 title = "Tear-away doctor's outfit"
 entry = "ref/eq-misc/tear-away-doctors-outfit"
 
@@ -79726,10 +79442,6 @@ entry = "ref/race/changeling"
 [[books.chapters.children]]
 title = "Drow"
 entry = "ref/race/drow"
-
-[[books.chapters.children.children]]
-title = "Drow"
-entry = "ref/rule/race-drow/drow"
 
 [[books.chapters.children]]
 title = "Fetchling"
@@ -89085,10 +88797,6 @@ entry = "ref/rule/class-wizard/wizard"
 title = "Drow"
 entry = "ref/race/drow"
 
-[[books.chapters.children.children]]
-title = "Drow"
-entry = "ref/rule/race-drow/drow"
-
 [[books.chapters.children]]
 title = "Dwarf"
 entry = "ref/race/dwarf"
@@ -90296,10 +90004,6 @@ entry = "ref/race/nagaji"
 [[books.chapters.children]]
 title = "Ratfolk"
 entry = "ref/race/ratfolk"
-
-[[books.chapters.children.children]]
-title = "Ratfolk"
-entry = "ref/rule/race-ratfolk/ratfolk"
 
 [[books.chapters.children]]
 title = "Tengu"
@@ -97318,10 +97022,6 @@ entry = "ref/class/psychic"
 [[books.chapters.children]]
 title = "Duergar"
 entry = "ref/race/duergar"
-
-[[books.chapters.children.children]]
-title = "Duergar"
-entry = "ref/rule/race-duergar/duergar"
 
 [[books.chapters.children]]
 title = "Half-Elf"
@@ -121837,17 +121537,9 @@ entry = "ref/race/dhampir"
 title = "Drow"
 entry = "ref/race/drow"
 
-[[books.chapters.children.children]]
-title = "Drow"
-entry = "ref/rule/race-drow/drow"
-
 [[books.chapters.children]]
 title = "Duergar"
 entry = "ref/race/duergar"
-
-[[books.chapters.children.children]]
-title = "Duergar"
-entry = "ref/rule/race-duergar/duergar"
 
 [[books.chapters.children]]
 title = "Aquatic Elf"
@@ -121916,10 +121608,6 @@ entry = "ref/race/oread"
 [[books.chapters.children]]
 title = "Ratfolk"
 entry = "ref/race/ratfolk"
-
-[[books.chapters.children.children]]
-title = "Ratfolk"
-entry = "ref/rule/race-ratfolk/ratfolk"
 
 [[books.chapters.children]]
 title = "Samsaran"
@@ -147067,10 +146755,6 @@ entry = "ref/monster/drow"
 title = "Drow"
 entry = "ref/race/drow"
 
-[[books.chapters.children.children]]
-title = "Drow"
-entry = "ref/rule/race-drow/drow"
-
 [[books.chapters.children]]
 title = "Drow Noble"
 entry = "ref/monster/drow-drow-noble"
@@ -147094,10 +146778,6 @@ entry = "ref/monster/duergar"
 [[books.chapters.children]]
 title = "Duergar"
 entry = "ref/race/duergar"
-
-[[books.chapters.children.children]]
-title = "Duergar"
-entry = "ref/rule/race-duergar/duergar"
 
 [[books.chapters.children]]
 title = "Eagle"
@@ -186191,10 +185871,6 @@ entry = "ref/race/dhampir"
 title = "Drow"
 entry = "ref/race/drow"
 
-[[books.chapters.children.children]]
-title = "Drow"
-entry = "ref/rule/race-drow/drow"
-
 [[books.chapters.children]]
 title = "Gathlain"
 entry = "ref/race/gathlain"
@@ -186222,10 +185898,6 @@ entry = "ref/race/orc"
 [[books.chapters.children]]
 title = "Ratfolk"
 entry = "ref/race/ratfolk"
-
-[[books.chapters.children.children]]
-title = "Ratfolk"
-entry = "ref/rule/race-ratfolk/ratfolk"
 
 [[books.chapters.children]]
 title = "Tiefling"

@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Gillmen/Alternate Racial Traits/Riverfolk", path = "advanced_race_guide/racial_trait/gillman/riverfolk.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/gillmen", label = "alternate" },
+  { kind = "part", target = "ref/race/gillman", label = "alternate" },
 ]
 
 [fields]

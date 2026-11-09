@@ -8,6 +8,9 @@ tags = ["enchantment", "compulsion", "mind-affecting"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Halflings/New Racial Rules/Halfling Spells/Blessing Of Luck And Resolve/Mass", path = "advanced_race_guide/spell/blessing_of_luck_and_resolve_mass.json" },
 ]
+relations = [
+  { kind = "variant", target = "ref/spell/blessing-of-luck-and-resolve" },
+]
 
 [fields]
 kind = "spell"
@@ -21,6 +24,8 @@ levels = [
   { class = "Paladin", level = 4 },
   { class = "Warpriest", level = 6 },
 ]
+casting_time = "1 standard action"
+components = "V, S"
 range = "close (25 ft. + 5 ft./2 levels)"
 effects = [
   { label = "Targets", value = "one creature/level, no two of which can be more than 30 ft. apart" },
@@ -31,8 +36,13 @@ effects = [
 School: enchantment (compulsion) \[mind-affecting\]
 Level: 4: Paladin\
 6: Cleric, Inquisitor, Oracle, Warpriest
+Casting time: 1 standard action
+Components: V, S
 Range: close (25 ft. + 5 ft./2 levels)
 Targets: one creature/level, no two of which can be more than 30 ft. apart
+Duration: 1 minute/level (d), special see below
+Saving throw: Will negates (harmless)
+Spell resistance: yes (harmless)
 :::
 
 _Functions like blessing of luck and resolve, except that it affects multiple creatures._

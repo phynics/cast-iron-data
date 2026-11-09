@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Dhampirs/Alternate Racial Traits/Vampiric Empathy", path = "advanced_race_guide/racial_trait/dhampir/vampiric_empathy.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/dhampirs", label = "alternate" },
+  { kind = "part", target = "ref/race/dhampir", label = "alternate" },
 ]
 
 [fields]

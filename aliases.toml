@@ -4877,7 +4877,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/aasimars"
-target = "ref/carried/advanced-race-guide/races/aasimars"
+target = "ref/race/aasimar"
 basis = "carried"
 
 [[entries]]
@@ -5127,7 +5127,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/changelings"
-target = "ref/carried/advanced-race-guide/races/changelings"
+target = "ref/race/changeling"
 basis = "carried"
 
 [[entries]]
@@ -5157,7 +5157,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/dhampirs"
-target = "ref/carried/advanced-race-guide/races/dhampirs"
+target = "ref/race/dhampir"
 basis = "carried"
 
 [[entries]]
@@ -5417,7 +5417,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/dwarves"
-target = "ref/carried/advanced-race-guide/races/dwarves"
+target = "ref/race/dwarf"
 basis = "carried"
 
 [[entries]]
@@ -5602,7 +5602,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/elves"
-target = "ref/carried/advanced-race-guide/races/elves"
+target = "ref/race/elf"
 basis = "carried"
 
 [[entries]]
@@ -5762,7 +5762,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/fetchlings"
-target = "ref/carried/advanced-race-guide/races/fetchlings"
+target = "ref/race/fetchling"
 basis = "carried"
 
 [[entries]]
@@ -5862,7 +5862,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/gillmen"
-target = "ref/carried/advanced-race-guide/races/gillmen"
+target = "ref/race/gillman"
 basis = "carried"
 
 [[entries]]
@@ -5892,7 +5892,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/gnomes"
-target = "ref/carried/advanced-race-guide/races/gnomes"
+target = "ref/race/gnome"
 basis = "carried"
 
 [[entries]]
@@ -6062,7 +6062,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/goblins"
-target = "ref/carried/advanced-race-guide/races/goblins"
+target = "ref/race/goblin"
 basis = "carried"
 
 [[entries]]
@@ -6177,7 +6177,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/gripplis"
-target = "ref/carried/advanced-race-guide/races/gripplis"
+target = "ref/race/grippli"
 basis = "carried"
 
 [[entries]]
@@ -6212,7 +6212,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/half-elves"
-target = "ref/carried/advanced-race-guide/races/half-elves"
+target = "ref/race/half-elf"
 basis = "carried"
 
 [[entries]]
@@ -6362,7 +6362,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/half-orcs"
-target = "ref/carried/advanced-race-guide/races/half-orcs"
+target = "ref/race/half-orc"
 basis = "carried"
 
 [[entries]]
@@ -6557,7 +6557,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/halflings"
-target = "ref/carried/advanced-race-guide/races/halflings"
+target = "ref/race/halfling"
 basis = "carried"
 
 [[entries]]
@@ -6762,7 +6762,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/hobgoblins"
-target = "ref/carried/advanced-race-guide/races/hobgoblins"
+target = "ref/race/hobgoblin"
 basis = "carried"
 
 [[entries]]
@@ -6892,7 +6892,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/humans"
-target = "ref/carried/advanced-race-guide/races/humans"
+target = "ref/race/human"
 basis = "carried"
 
 [[entries]]
@@ -7092,7 +7092,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/ifrits"
-target = "ref/carried/advanced-race-guide/races/ifrits"
+target = "ref/race/ifrit"
 basis = "carried"
 
 [[entries]]
@@ -7242,7 +7242,7 @@ basis = "carried"
 
 [[entries]]
 old = "advanced-race-guide/races/kobolds"
-target = "ref/carried/advanced-race-guide/races/kobolds"
+target = "ref/race/kobold"
 basis = "carried"
 
 [[entries]]
@@ -7392,7 +7392,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/orcs"
-target = "ref/carried/advanced-race-guide/races/orcs"
+target = "ref/race/orc"
 basis = "carried"
 
 [[entries]]
@@ -7502,7 +7502,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/oreads"
-target = "ref/carried/advanced-race-guide/races/oreads"
+target = "ref/race/oread"
 basis = "carried"
 
 [[entries]]
@@ -7672,7 +7672,7 @@ basis = "carried"
 
 [[entries]]
 old = "advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/stink-ink/arcane"
-target = "ref/eq-misc/stink-ink-arcane"
+target = "ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/stink-ink"
 basis = "direct"
 
 [[entries]]
@@ -7737,7 +7737,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/samsarans"
-target = "ref/carried/advanced-race-guide/races/samsarans"
+target = "ref/race/samsaran"
 basis = "carried"
 
 [[entries]]
@@ -7817,7 +7817,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/sulis"
-target = "ref/carried/advanced-race-guide/races/sulis"
+target = "ref/race/suli"
 basis = "carried"
 
 [[entries]]
@@ -7877,7 +7877,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/sylphs"
-target = "ref/carried/advanced-race-guide/races/sylphs"
+target = "ref/race/sylph"
 basis = "carried"
 
 [[entries]]
@@ -7992,7 +7992,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/tengus"
-target = "ref/carried/advanced-race-guide/races/tengus"
+target = "ref/race/tengu"
 basis = "carried"
 
 [[entries]]
@@ -8097,7 +8097,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/tieflings"
-target = "ref/carried/advanced-race-guide/races/tieflings"
+target = "ref/race/tiefling"
 basis = "carried"
 
 [[entries]]
@@ -8182,7 +8182,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/undines"
-target = "ref/carried/advanced-race-guide/races/undines"
+target = "ref/race/undine"
 basis = "carried"
 
 [[entries]]
@@ -8302,7 +8302,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/vanaras"
-target = "ref/carried/advanced-race-guide/races/vanaras"
+target = "ref/race/vanara"
 basis = "carried"
 
 [[entries]]
@@ -8337,7 +8337,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/vishkanyas"
-target = "ref/carried/advanced-race-guide/races/vishkanyas"
+target = "ref/race/vishkanya"
 basis = "carried"
 
 [[entries]]
@@ -8372,7 +8372,7 @@ basis = "direct"
 
 [[entries]]
 old = "advanced-race-guide/races/wayangs"
-target = "ref/carried/advanced-race-guide/races/wayangs"
+target = "ref/race/wayang"
 basis = "carried"
 
 [[entries]]
@@ -26132,7 +26132,7 @@ basis = "direct"
 
 [[entries]]
 old = "monster-codex/rules/duergar/duergar"
-target = "ref/rule/race-duergar/duergar"
+target = "ref/race/duergar"
 basis = "derived"
 
 [[entries]]
@@ -27312,7 +27312,7 @@ basis = "direct"
 
 [[entries]]
 old = "monster-codex/rules/ratfolk/ratfolk"
-target = "ref/rule/race-ratfolk/ratfolk"
+target = "ref/race/ratfolk"
 basis = "derived"
 
 [[entries]]
@@ -31376,6 +31376,146 @@ target = "ref/rule/magic"
 basis = "direct"
 
 [[entries]]
+old = "ref/carried/advanced-race-guide/races/aasimars"
+target = "ref/race/aasimar"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/changelings"
+target = "ref/race/changeling"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/dhampirs"
+target = "ref/race/dhampir"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/dwarves"
+target = "ref/race/dwarf"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/elves"
+target = "ref/race/elf"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/fetchlings"
+target = "ref/race/fetchling"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/gillmen"
+target = "ref/race/gillman"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/gnomes"
+target = "ref/race/gnome"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/goblins"
+target = "ref/race/goblin"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/gripplis"
+target = "ref/race/grippli"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/half-elves"
+target = "ref/race/half-elf"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/half-orcs"
+target = "ref/race/half-orc"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/halflings"
+target = "ref/race/halfling"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/hobgoblins"
+target = "ref/race/hobgoblin"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/humans"
+target = "ref/race/human"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/ifrits"
+target = "ref/race/ifrit"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/kobolds"
+target = "ref/race/kobold"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/orcs"
+target = "ref/race/orc"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/oreads"
+target = "ref/race/oread"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/samsarans"
+target = "ref/race/samsaran"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/sulis"
+target = "ref/race/suli"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/sylphs"
+target = "ref/race/sylph"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/tengus"
+target = "ref/race/tengu"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/tieflings"
+target = "ref/race/tiefling"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/undines"
+target = "ref/race/undine"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/vanaras"
+target = "ref/race/vanara"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/vishkanyas"
+target = "ref/race/vishkanya"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/advanced-race-guide/races/wayangs"
+target = "ref/race/wayang"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/technology-guide/rules/technology-in-the-world/archtypes/technology-themed-archetypes/technic-scavenger"
 target = "ref/arc-rogue/numerian-scavenger"
 basis = "shared"
@@ -31661,13 +31801,158 @@ target = "ref/eq-armor/adamantine-breastplate"
 basis = "shared"
 
 [[entries]]
+old = "ref/eq-misc/fetters-common"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/fetters-masterwork"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/fleshgem-decorative"
+target = "ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-equipment/fleshgem"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/fleshgem-spikes"
+target = "ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-equipment/fleshgem"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/manacles-with-barbs-common"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/manacles-with-barbs-masterwork"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/manacles-with-barbs-mithral"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/manacles-with-barbs-quickcatch"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/shadow-stencil-set"
+target = "ref/carried/advanced-race-guide/races/wayangs/new-racial-rules/wayang-equipment/shadow-stencils"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/sherrifs-whistle"
+target = "ref/carried/advanced-race-guide/races/gnomes/new-racial-rules/gnome-equipment/sheriffs-whistle"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/stink-ink-arcane"
+target = "ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/stink-ink"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/stink-ink-common"
+target = "ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/stink-ink"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-misc/tear-away-dilettantes-outfit"
+target = "ref/eq-misc/dilettantes-outfit"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/alchemical-coal-blinding-cinders"
+target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/alchemical-coal"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/alchemical-coal-choking-smoke"
+target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/alchemical-coal"
+basis = "shared"
+
+[[entries]]
 old = "ref/eq-weapon/gunsmiths-kit"
 target = "ref/eq-misc/gunsmiths-kit"
 basis = "shared"
 
 [[entries]]
+old = "ref/eq-weapon/kobold-tail"
+target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/kobold-tail-long-lash"
+target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/kobold-tail-pounder"
+target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/kobold-tail-razored"
+target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/kobold-tail-spiked"
+target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/kobold-tail-sweeper"
+target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+basis = "shared"
+
+[[entries]]
 old = "ref/eq-weapon/powder-horn"
 target = "ref/eq-misc/powder-horn"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/shadowcloy-flask"
+target = "ref/carried/advanced-race-guide/races/fetchlings/new-racial-rules/fetchling-equipment/shadowcloy"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-weapon/tailblade-ratfolk"
+target = "ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/tailblade"
+basis = "shared"
+
+[[entries]]
+old = "ref/magic-wondrous/hobgoblin-battle-standard-despair"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-magic-items/hobgoblin-battle-standard"
+basis = "shared"
+
+[[entries]]
+old = "ref/magic-wondrous/hobgoblin-battle-standard-ferocity"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-magic-items/hobgoblin-battle-standard"
+basis = "shared"
+
+[[entries]]
+old = "ref/magic-wondrous/hobgoblin-battle-standard-iron-resolve"
+target = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-magic-items/hobgoblin-battle-standard"
+basis = "shared"
+
+[[entries]]
+old = "ref/magic-wondrous/kitsune-star-gem-1st"
+target = "ref/carried/advanced-race-guide/races/kitsune/new-racial-rules/kitsune-magic-items/kitsune-star-gem"
+basis = "shared"
+
+[[entries]]
+old = "ref/magic-wondrous/kitsune-star-gem-2nd"
+target = "ref/carried/advanced-race-guide/races/kitsune/new-racial-rules/kitsune-magic-items/kitsune-star-gem"
+basis = "shared"
+
+[[entries]]
+old = "ref/magic-wondrous/kitsune-star-gem-3rd"
+target = "ref/carried/advanced-race-guide/races/kitsune/new-racial-rules/kitsune-magic-items/kitsune-star-gem"
 basis = "shared"
 
 [[entries]]
@@ -32121,6 +32406,11 @@ target = "ref/carried/mythic-adventures/monsters/wyvern/mythic"
 basis = "shared"
 
 [[entries]]
+old = "ref/rule/core-races"
+target = "ref/carried/advanced-race-guide/rules/core-races"
+basis = "shared"
+
+[[entries]]
 old = "ref/rule/eq-misc-chest-huge/chest"
 target = "ref/eq-misc/chest"
 basis = "shared"
@@ -32128,6 +32418,36 @@ basis = "shared"
 [[entries]]
 old = "ref/rule/hierophant"
 target = "ref/carried/mythic-adventures/rules/mythic-heroes/hierophant"
+basis = "shared"
+
+[[entries]]
+old = "ref/rule/less-common-races"
+target = "ref/carried/advanced-race-guide/rules/featured-races"
+basis = "shared"
+
+[[entries]]
+old = "ref/rule/race-drow/drow"
+target = "ref/race/drow"
+basis = "shared"
+
+[[entries]]
+old = "ref/rule/race-duergar/duergar"
+target = "ref/race/duergar"
+basis = "shared"
+
+[[entries]]
+old = "ref/rule/race-ratfolk/ratfolk"
+target = "ref/race/ratfolk"
+basis = "shared"
+
+[[entries]]
+old = "ref/spell/binding-earth-mass"
+target = "ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-spells/binding-earth/mass"
+basis = "shared"
+
+[[entries]]
+old = "ref/spell/blessing-of-luck-and-resolve-mass"
+target = "ref/carried/advanced-race-guide/races/halflings/new-racial-rules/halfling-spells/blessing-of-luck-and-resolve/mass"
 basis = "shared"
 
 [[entries]]

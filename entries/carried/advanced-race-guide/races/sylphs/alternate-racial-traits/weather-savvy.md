@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Sylphs/Alternate Racial Traits/Weather Savvy", path = "advanced_race_guide/racial_trait/sylph/weather_savvy.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/sylphs", label = "alternate" },
+  { kind = "part", target = "ref/race/sylph", label = "alternate" },
 ]
 
 [fields]

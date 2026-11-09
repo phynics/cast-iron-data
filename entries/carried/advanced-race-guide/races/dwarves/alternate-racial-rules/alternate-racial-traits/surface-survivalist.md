@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Dwarves/Alternate Racial Rules/Alternate Racial Traits/Surface Survivalist", path = "advanced_race_guide/racial_trait/dwarf/surface_survivalist.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/dwarves", label = "alternate" },
+  { kind = "part", target = "ref/race/dwarf", label = "alternate" },
 ]
 
 [fields]

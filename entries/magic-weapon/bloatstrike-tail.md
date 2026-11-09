@@ -21,7 +21,8 @@ caster_level = "3rd"
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 5,901 gp; **Weight** 4 lbs.
 
-Three times per day, the wielder of this +1 [pounder tail](ref/eq-weapon/kobold-tail-pounder)
+Three times per day, the wielder of this +1
+[pounder tail](ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments)
 attachment can force any creature it strikes to increase in size by one size category (Fort DC 11
 negates) for 3 rounds. An enlarged creature takes a -2 penalty to Dexterity (to a minimum of 1), a
 -1 penalty on attack rolls, and -1 penalty to AC because of its increased size, as the spell

@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Half-Elves/Alternate Racial Rules/Alternate Racial Traits/Drow Magic", path = "advanced_race_guide/racial_trait/half_elf/drow_magic.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/half-elves", label = "alternate" },
+  { kind = "part", target = "ref/race/half-elf", label = "alternate" },
 ]
 
 [fields]

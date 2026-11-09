@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Vanaras/Alternate Racial Traits/Whitecape", path = "advanced_race_guide/racial_trait/vanara/whitecape.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/vanaras", label = "alternate" },
+  { kind = "part", target = "ref/race/vanara", label = "alternate" },
 ]
 
 [fields]

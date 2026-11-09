@@ -96,3 +96,68 @@ Stealth checks.
 from the following bonus languages: Common, Draconic, Dwarven, Gnoll, Gnome, Halfling, and Orc.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to any goblins that have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Alchemist {#alchemist}
+
+The alchemist gains fire resistance 1. Each time this reward is selected, increase fire resistance
+by +1. This fire resistance does not stack with fire resistance gained from other sources.
+
+### Barbarian {#barbarian}
+
+Add +1/2 on critical hit confirmation rolls for attacks made with unarmed strikes or natural weapons
+(maximum bonus of +4). This bonus does not stack with Critical Focus.
+
+### Bard {#bard}
+
+Add +1 to the bard's total number of bardic performance rounds per day.
+
+### Cavalier {#cavalier}
+
+Add +1 hit points to the cavalier's mount companion. If the cavalier ever replaces his mount, the
+new mount gains these bonus hit points.
+
+### Druid {#druid}
+
+Add +1 hit points to the druid's animal companion. If the druid ever replaces her animal companion,
+the new animal companion gains these bonus hit points.
+
+### Gunslinger {#gunslinger}
+
+Add +1/3 on critical hit confirmation rolls made with firearms (maximum bonus of +5). This bonus
+does not stack with Critical Focus.
+
+### Oracle {#oracle}
+
+Add +1 on concentration checks made when casting spells with the fire descriptor.
+
+### Ranger {#ranger}
+
+Gain a +1/2 bonus on damage dealt to dogs (and doglike creatures) and horses (and horselike
+creatures).
+
+### Rogue {#rogue}
+
+Add a +1 bonus on the rogue's sneak attack damage rolls during the surprise round or before the
+target has acted in combat.
+
+### Sorcerer {#sorcerer}
+
+Add +1 spell known from the sorcerer spell list. This spell must be at least one level below the
+highest spell level the sorcerer can cast, and must have the fire descriptor.
+
+### Summoner {#summoner}
+
+Add +1/4 evolution point to the eidolon's evolution pool. These bonus evolution points must be spent
+on evolutions that deal fire damage or protect the eidolon from fire (for example, resistance,
+energy attacks, immunity, breath weapon, and so on).
+
+### Witch {#witch}
+
+Add +1 spell from the witch spell list to the witch's familiar. This spell must be at least one
+level below the highest spell level she can cast. If the witch ever replaces her familiar, the new
+familiar knows these bonus spells.

@@ -55117,3 +55117,259 @@ reason = "duplicate of ref/spell/water-walk-communal"
 [[rejected]]
 path = "ref/carried/ultimate-equipment/rules/gear/adventuring-gear/powder-horn"
 reason = "duplicate of ref/eq-misc/powder-horn"
+
+[[rejected]]
+path = "ref/eq-misc/fetters-common"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters"
+
+[[rejected]]
+path = "ref/eq-misc/fetters-masterwork"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters"
+
+[[rejected]]
+path = "ref/eq-misc/manacles-with-barbs-common"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+
+[[rejected]]
+path = "ref/eq-misc/manacles-with-barbs-masterwork"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+
+[[rejected]]
+path = "ref/eq-misc/manacles-with-barbs-mithral"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+
+[[rejected]]
+path = "ref/eq-misc/manacles-with-barbs-quickcatch"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+
+[[rejected]]
+path = "ref/magic-wondrous/hobgoblin-battle-standard-despair"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-magic-items/hobgoblin-battle-standard"
+
+[[rejected]]
+path = "ref/magic-wondrous/hobgoblin-battle-standard-ferocity"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-magic-items/hobgoblin-battle-standard"
+
+[[rejected]]
+path = "ref/magic-wondrous/hobgoblin-battle-standard-iron-resolve"
+reason = "duplicate of ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-magic-items/hobgoblin-battle-standard"
+
+[[rejected]]
+path = "ref/eq-weapon/alchemical-coal-blinding-cinders"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/alchemical-coal"
+
+[[rejected]]
+path = "ref/eq-weapon/alchemical-coal-choking-smoke"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/alchemical-coal"
+
+[[rejected]]
+path = "ref/eq-weapon/kobold-tail"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+
+[[rejected]]
+path = "ref/eq-weapon/kobold-tail-long-lash"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+
+[[rejected]]
+path = "ref/eq-weapon/kobold-tail-pounder"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+
+[[rejected]]
+path = "ref/eq-weapon/kobold-tail-razored"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+
+[[rejected]]
+path = "ref/eq-weapon/kobold-tail-spiked"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+
+[[rejected]]
+path = "ref/eq-weapon/kobold-tail-sweeper"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+
+[[rejected]]
+path = "ref/eq-misc/fleshgem-decorative"
+reason = "duplicate of ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-equipment/fleshgem"
+
+[[rejected]]
+path = "ref/eq-misc/fleshgem-spikes"
+reason = "duplicate of ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-equipment/fleshgem"
+
+[[rejected]]
+path = "ref/magic-wondrous/kitsune-star-gem-1st"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kitsune/new-racial-rules/kitsune-magic-items/kitsune-star-gem"
+
+[[rejected]]
+path = "ref/magic-wondrous/kitsune-star-gem-2nd"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kitsune/new-racial-rules/kitsune-magic-items/kitsune-star-gem"
+
+[[rejected]]
+path = "ref/magic-wondrous/kitsune-star-gem-3rd"
+reason = "duplicate of ref/carried/advanced-race-guide/races/kitsune/new-racial-rules/kitsune-magic-items/kitsune-star-gem"
+
+[[rejected]]
+path = "ref/eq-misc/stink-ink-common"
+reason = "duplicate of ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/stink-ink"
+
+[[rejected]]
+path = "ref/eq-misc/stink-ink-arcane"
+reason = "duplicate of ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/stink-ink"
+
+[[rejected]]
+path = "ref/eq-weapon/tailblade-ratfolk"
+reason = "duplicate of ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/tailblade"
+
+[[rejected]]
+path = "ref/eq-misc/shadow-stencil-set"
+reason = "duplicate of ref/carried/advanced-race-guide/races/wayangs/new-racial-rules/wayang-equipment/shadow-stencils"
+
+[[rejected]]
+path = "ref/eq-weapon/shadowcloy-flask"
+reason = "duplicate of ref/carried/advanced-race-guide/races/fetchlings/new-racial-rules/fetchling-equipment/shadowcloy"
+
+[[rejected]]
+path = "ref/eq-misc/tear-away-dilettantes-outfit"
+reason = "duplicate of ref/eq-misc/dilettantes-outfit"
+
+[[rejected]]
+path = "ref/eq-misc/sherrifs-whistle"
+reason = "duplicate of ref/carried/advanced-race-guide/races/gnomes/new-racial-rules/gnome-equipment/sheriffs-whistle"
+
+[[rejected]]
+path = "ref/spell/binding-earth-mass"
+reason = "duplicate of ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-spells/binding-earth/mass"
+
+[[rejected]]
+path = "ref/spell/blessing-of-luck-and-resolve-mass"
+reason = "duplicate of ref/carried/advanced-race-guide/races/halflings/new-racial-rules/halfling-spells/blessing-of-luck-and-resolve/mass"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/aasimars"
+reason = "duplicate of ref/race/aasimar"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/changelings"
+reason = "duplicate of ref/race/changeling"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/dhampirs"
+reason = "duplicate of ref/race/dhampir"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/dwarves"
+reason = "duplicate of ref/race/dwarf"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/elves"
+reason = "duplicate of ref/race/elf"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/fetchlings"
+reason = "duplicate of ref/race/fetchling"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/gillmen"
+reason = "duplicate of ref/race/gillman"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/gnomes"
+reason = "duplicate of ref/race/gnome"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/goblins"
+reason = "duplicate of ref/race/goblin"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/gripplis"
+reason = "duplicate of ref/race/grippli"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/half-elves"
+reason = "duplicate of ref/race/half-elf"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/half-orcs"
+reason = "duplicate of ref/race/half-orc"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/halflings"
+reason = "duplicate of ref/race/halfling"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/hobgoblins"
+reason = "duplicate of ref/race/hobgoblin"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/humans"
+reason = "duplicate of ref/race/human"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/ifrits"
+reason = "duplicate of ref/race/ifrit"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/kobolds"
+reason = "duplicate of ref/race/kobold"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/orcs"
+reason = "duplicate of ref/race/orc"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/oreads"
+reason = "duplicate of ref/race/oread"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/samsarans"
+reason = "duplicate of ref/race/samsaran"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/sulis"
+reason = "duplicate of ref/race/suli"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/sylphs"
+reason = "duplicate of ref/race/sylph"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/tengus"
+reason = "duplicate of ref/race/tengu"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/tieflings"
+reason = "duplicate of ref/race/tiefling"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/undines"
+reason = "duplicate of ref/race/undine"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/vanaras"
+reason = "duplicate of ref/race/vanara"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/vishkanyas"
+reason = "duplicate of ref/race/vishkanya"
+
+[[rejected]]
+path = "ref/carried/advanced-race-guide/races/wayangs"
+reason = "duplicate of ref/race/wayang"
+
+[[rejected]]
+path = "ref/rule/race-drow/drow"
+reason = "duplicate of ref/race/drow"
+
+[[rejected]]
+path = "ref/rule/race-duergar/duergar"
+reason = "duplicate of ref/race/duergar"
+
+[[rejected]]
+path = "ref/rule/race-ratfolk/ratfolk"
+reason = "duplicate of ref/race/ratfolk"
+
+[[rejected]]
+path = "ref/rule/core-races"
+reason = "duplicate of ref/carried/advanced-race-guide/rules/core-races"
+
+[[rejected]]
+path = "ref/rule/less-common-races"
+reason = "duplicate of ref/carried/advanced-race-guide/rules/featured-races"

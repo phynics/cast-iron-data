@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Kobolds/Alternate Racial Traits/Jester", path = "advanced_race_guide/racial_trait/kobold/jester.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/kobolds", label = "alternate" },
+  { kind = "part", target = "ref/race/kobold", label = "alternate" },
 ]
 
 [fields]

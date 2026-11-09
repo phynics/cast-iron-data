@@ -122,3 +122,136 @@ beliefs and appearances, depending on their origins.
 - [Languages](ref/racial-trait/human/languages)
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all humans who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Alchemist {#alchemist}
+
+Add one extract formula from the alchemist formula list to the character's formula book. This
+formula must be at least one level below the highest formula level the alchemist can create.
+
+### Barbarian {#barbarian}
+
+Add a +1/2 bonus to trap sense or +1/3 to the bonus from the superstitious rage power.
+
+### Bard {#bard}
+
+Add one spell known from the bard spell list. This spell must be at least one level below the
+highest spell level the bard can cast.
+
+### Cavalier {#cavalier}
+
+Add +1/4 to the cavalier's banner bonus.
+
+### Cleric {#cleric}
+
+Add a +1 bonus on caster level checks made to overcome the
+[spell resistance](ref/rule/spell-resistance) of outsiders.
+
+### Druid {#druid}
+
+Add a +1/2 bonus on Diplomacy and Intimidate checks to change a creature's attitude.
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting two combat maneuvers of the character's choice.
+
+### Gunslinger {#gunslinger}
+
+Add +1/4 point to the gunslinger's grit points.
+
+### Inquisitor {#inquisitor}
+
+Add one spell known from the inquisitor spell list. This spell must be at least one level below the
+highest spell level the inquisitor can cast.
+
+### Magus {#magus}
+
+Add +1/4 point to the magus' arcane pool.
+
+### Monk {#monk}
+
+Add +1/4 point to the monk's _ki_ pool.
+
+### Oracle {#oracle}
+
+Add one spell known from the oracle spell list. This spell must be at least one level below the
+highest spell level the oracle can cast.
+
+### Paladin {#paladin}
+
+Add +1 to the paladin's energy resistance to one kind of energy (maximum +10).
+
+### Ranger {#ranger}
+
+Add +1 hit point or +1 skill rank to the ranger's animal companion. If the ranger ever replaces his
+companion, the new companion gains these bonus hit points or skill ranks.
+
+### Rogue {#rogue}
+
+The rogue gains +1/6 of a new rogue talent.
+
+### Sorcerer {#sorcerer}
+
+Add one spell known from the sorcerer spell list. This spell must be at least one level below the
+highest spell level the sorcerer can cast.
+
+### Summoner {#summoner}
+
+Add +1 hit point or +1 skill rank to the summoner's eidolon.
+
+### Witch {#witch}
+
+Add one spell from the witch spell list to the witch's familiar. This spell must be at least one
+level below the highest spell level she can cast. If the witch ever replaces her familiar, the new
+familiar knows these bonus spells.
+
+### Wizard {#wizard}
+
+Add one spell from the wizard spell list to the wizard's spellbook. This spell must be at least one
+level below the highest spell level the wizard can cast.
+
+## Racial Subtypes {#racial-subtypes}
+
+You can combine various alternate racial traits to create human subraces or variant races, such as
+the following.
+
+### Cosmopolitan {#cosmopolitan}
+
+Adept as city living, these humans can navigate crowds and fulfill the need for skilled labor in
+such settlements. Replace the skilled racial trait with heart of the streets and the bonus feat
+racial trait with focused study.
+
+### Country Folk {#country-folk}
+
+These humans are suited to life in the countryside. Replace the skilled racial trait with heart of
+the fields and the bonus feat racial trait with focused study.
+
+### Gutter Rat {#gutter-rat}
+
+Often second-class citizens living in sprawling ghettos and slums, these humans work hard to eke out
+an existence in a city. Replace the skilled racial trait with heart of the slums and the bonus feat
+racial trait with mixed heritage (heart of the streets).
+
+### Imperious Human {#imperious-human}
+
+Hailing from either an empire, an emerging nation, or a controlling city-state, these humans are
+arrogant expansionists, absorbing others to their causes and culture. Replace the skilled racial
+trait with silver tongued and the bonus feat racial trait with eye for talent.
+
+### Trailblazer {#trailblazer}
+
+Adaptive and inventive, these humans must have quick wits and a dose of heroic luck to survive in
+the lands they settle. Replace the skilled racial trait with heart of the wilderness and the bonus
+feat racial trait with heroic. At the GM's discretion, you can swap out the heart of the wilderness
+racial trait for either heart of the mountains, heart of the sea, heart of the snows, or heart of
+the sun, depending on the type of terrain these humans are settling.
+
+### Versatile Human {#versatile-human}
+
+While they lack some of the training of other humans, the natural talents of versatile humans more
+than make up for this lack. Replace the +2 bonus to any ability score, the skilled racial trait, and
+the bonus feat racial trait with dual talent.

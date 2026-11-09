@@ -45,3 +45,20 @@ Terran). Sulis with high Intelligence scores can choose from the following bonus
 Auran, Draconic, Ignan, and Terran.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all sulis who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Magus {#magus}
+
+Add +1/4 point to the magus's arcane pool.
+
+### Monk {#monk}
+
+Add +1/2 point of damage to elemental assault.
+
+### Ranger {#ranger}
+
+Add +1 to acid resistance, cold resistance, electricity resistance, or fire resistance.

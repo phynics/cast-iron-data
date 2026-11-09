@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Vishkanyas/Alternate Racial Traits/Sensual", path = "advanced_race_guide/racial_trait/vishkanya/sensual.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/vishkanyas", label = "alternate" },
+  { kind = "part", target = "ref/race/vishkanya", label = "alternate" },
 ]
 
 [fields]

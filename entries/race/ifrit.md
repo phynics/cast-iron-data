@@ -84,3 +84,46 @@ choose from the following bonus languages: Aquan, Auran, Dwarven, Elven, Gnome, 
 Terran.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all ifrits who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/2 to the alchemist's bomb damage.
+
+### Bard {#bard}
+
+Add +1/6 to the number of people the bard can affect with the fascinate bardic performance.
+
+### Cleric {#cleric}
+
+Add a +1/2 bonus on Knowledge (planes) checks relating to the Plane of Fire and creatures with the
+fire subtype.
+
+### Gunslinger {#gunslinger}
+
+Add +1/2 to the bonus on initiative checks the gunslinger makes while using her gunslinger
+initiative deed.
+
+### Inquisitor {#inquisitor}
+
+Add a +1/2 bonus on Intimidate checks made against creatures with the fire subtype and a +1/2 bonus
+on Knowledge (planes) checks relating to the Plane of Fire.
+
+### Oracle {#oracle}
+
+Add +1/2 to the oracle's level for the purpose of determining the effects of one revelation.
+
+### Rogue {#rogue}
+
+Add a +1/2 bonus on Acrobatics checks to jump and a +1/2 bonus on Intimidate checks to demoralize
+enemies.
+
+### Sorcerer {#sorcerer}
+
+Choose a bloodline power from the elemental (fire) bloodline or the efreeti bloodline that the
+sorcerer can use. The sorcerer treats her class level as though it were +1/2 higher (to a maximum of
++4) when determining the effects of that power.

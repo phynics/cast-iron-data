@@ -131,3 +131,36 @@ levels a dhampir takes are removed without the need for an additional saving thr
 choose any languages they want (except secret languages, such as Druidic).
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all dhampirs who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Alchemist {#alchemist}
+
+Add +10 minutes to the duration of the alchemist's mutagens.
+
+### Cleric {#cleric}
+
+Add +1 to the caster level of any channeling feat used to affect undead.
+
+### Fighter {#fighter}
+
+Add a +2 bonus on rolls to stabilize when dying.
+
+### Inquisitor {#inquisitor}
+
+Add a +1/2 bonus on Intimidate checks to demoralize humanoids.
+
+### Rogue {#rogue}
+
+Add a +1/2 bonus on Stealth checks and Perception checks made in dim light or darkness.
+
+### Sorcerer {#sorcerer}
+
+Add +1/2 point of negative energy damage to spells that deal negative energy damage.
+
+### Wizard {#wizard}
+
+Add +1/4 to the wizard's caster level when casting spells of the necromancy school.

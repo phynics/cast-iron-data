@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Undines/Alternate Racial Traits/Nereid Fascination", path = "advanced_race_guide/racial_trait/undine/nereid_fascination.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/undines", label = "alternate" },
+  { kind = "part", target = "ref/race/undine", label = "alternate" },
 ]
 
 [fields]

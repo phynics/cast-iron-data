@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Fetchlings/Alternate Racial Traits/World Walker", path = "advanced_race_guide/racial_trait/fetchling/world_walker.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/fetchlings", label = "alternate" },
+  { kind = "part", target = "ref/race/fetchling", label = "alternate" },
 ]
 
 [fields]

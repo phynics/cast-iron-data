@@ -57,3 +57,74 @@ checks. Craft (traps) and Stealth are always class skills for a kobold.
 choose from the following bonus languages: Common, Dwarven, Gnome, and Undercommon.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all kobolds who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Alchemist {#alchemist}
+
+Add +1/2 to the number of bombs per day the alchemist can create.
+
+### Bard {#bard}
+
+Treat the bard's level as +1/2 level higher for the purpose of determining the effect of the
+fascinate bardic performance.
+
+### Cavalier {#cavalier}
+
+Add 5 feet (up to 15 feet maximum) to the cavalier's mount's speed when it uses the charge or
+withdraw action.
+
+### Cleric {#cleric}
+
+Add +1 to channel energy damage dealt to creatures denied their Dexterity bonus to AC (whether or
+not the creature has a Dexterity bonus to AC).
+
+### Druid {#druid}
+
+Add +1/2 to the druid's wild empathy bonus.
+
+### Fighter {#fighter}
+
+Add +1/2 to damage rolls the fighter makes with weapon attacks against an opponent he is flanking or
+an opponent that is denied its Dexterity bonus to AC.
+
+### Gunslinger {#gunslinger}
+
+Add +1/4 to the dodge bonus to AC granted by the nimble class feature (maximum +4).
+
+### Magus {#magus}
+
+Add a +1/2 bonus on concentration checks made to cast defensively.
+
+### Monk {#monk}
+
+Add +1/3 to the monk's AC bonus class ability.
+
+### Oracle {#oracle}
+
+Add +1/4 to the armor or natural armor bonus granted by oracle spells she casts on herself.
+
+### Ranger {#ranger}
+
+Add +1/4 to the number of opponents the ranger may select when using hunter's bond to grant a bonus
+to allies. All selected creatures must be of the same type.
+
+### Rogue {#rogue}
+
+Add +1/2 to the rogue's trap sense bonus to AC.
+
+### Sorcerer {#sorcerer}
+
+Choose acid, cold, electricity, or fire damage. Add +1/2 point of the chosen energy damage to spells
+that deal the chosen energy damage cast by the sorcerer.
+
+### Summoner {#summoner}
+
+Add +1/4 to the summoner's shield ally bonus (maximum +2).
+
+### Witch {#witch}
+
+Add +5 feet to the distance at which her familiar grants the Alertness feat (maximum +20 feet).

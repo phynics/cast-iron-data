@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Tieflings/Alternate Racial Traits/Scaled Skin", path = "advanced_race_guide/racial_trait/tiefling/scaled_skin.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/tieflings", label = "alternate" },
+  { kind = "part", target = "ref/race/tiefling", label = "alternate" },
 ]
 
 [fields]

@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Oreads/Alternate Racial Traits/Earth Insight", path = "advanced_race_guide/racial_trait/oread/earth_insight.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/oreads", label = "alternate" },
+  { kind = "part", target = "ref/race/oread", label = "alternate" },
 ]
 
 [fields]

@@ -90,3 +90,46 @@ choose from the following bonus languages: Aquan, Dwarven, Elven, Gnome, Halflin
 Terran.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all sylphs who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Cleric {#cleric}
+
+Add a +1/2 bonus on Knowledge (planes) checks relating to the Plane of Air and creatures with the
+air subtype.
+
+### Druid {#druid}
+
+Add a +1/2 bonus on Knowledge (nature) checks relating to weather and flying animals.
+
+### Inquisitor {#inquisitor}
+
+Add a +1/2 bonus on Stealth checks while motionless and on opposed Perception checks.
+
+### Oracle {#oracle}
+
+Add +1/2 to the oracle's level for the purpose of determining the effects of one revelation.
+
+### Rogue {#rogue}
+
+Add a +1/2 bonus on Acrobatics checks to jump and a +1/2 bonus on Sense Motive checks.
+
+### Sorcerer {#sorcerer}
+
+Choose a bloodline power from the djinni or elemental (air) bloodline that the sorcerer can use. The
+sorcerer treats her class level as though it were +1/2 higher (to a maximum of +4) when determining
+the effects of that power.
+
+### Witch {#witch}
+
+Add a +1/2 bonus on Stealth checks and Perception checks made by the witch's familiar. If the sylph
+ever replaces her familiar, the new familiar gains these bonus skill ranks.
+
+### Wizard {#wizard}
+
+Select one arcane school power from the air or wood elemental schools that the wizard can currently
+use. The wizard treats her class level as though it were +1/2 higher (to a maximum of +4) when
+determining the effects of that power.

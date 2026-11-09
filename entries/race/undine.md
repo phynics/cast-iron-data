@@ -111,3 +111,75 @@ can choose from the following bonus languages: Auran, Dwarven, Elven, Gnome, Hal
 Terran.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all undines who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the class reward.
+
+### Bard {#bard}
+
+Add a +1 bonus on Perform checks to use the countersong bardic performance against creatures with
+the aquatic or water subtypes.
+
+### Cleric {#cleric}
+
+Add a +1 bonus on caster level checks to overcome the [spell resistance](ref/rule/spell-resistance)
+of creatures with the aquatic or water subtype.
+
+### Druid {#druid}
+
+Add a +1 bonus on wild empathy checks to influence animals and magical beasts with the aquatic
+subtype.
+
+### Monk {#monk}
+
+Add +1 to the monk's CMD when resisting a grapple and +1/3 to the number of stunning attacks he can
+attempt per day.
+
+### Sorcerer {#sorcerer}
+
+Add a +1 bonus on caster level checks to cast spells underwater.
+
+### Summoner {#summoner}
+
+If the summoner's eidolon has an aquatic base form , add +5 feet to the range of the summoner's life
+link ability.
+
+### Wizard {#wizard}
+
+Add one spell from the cleric, druid, or wizard spell list with the water descriptor to the wizard's
+spellbook. This spell must be at least one level below the highest spell level he can cast. This
+spell is treated as one level higher unless it also appears on the wizard spell list.
+
+## Flesh Chameleon {#flesh-chameleon}
+
+Some undines can change their coloration to match human skin tones. As a standard action, an undine
+with this racial trait can change her natural blue hue to match any normal human skin tone, and can
+revert to normal as a free action. This grants a +4 racial bonus on Disguise checks to appear human.
+This racial trait replaces energy resistance.
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/undines/alternate-racial-traits/hydrated-vitality"
+title = "Hydrated Vitality"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/undines/alternate-racial-traits/nereid-fascination"
+title = "Nereid Fascination"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/undines/alternate-racial-traits/ooze-breath"
+title = "Ooze Breath"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/undines/alternate-racial-traits/terrain-chameleon"
+title = "Terrain Chameleon"
+:::
+
+::: entry-link
+target = "ref/carried/advanced-race-guide/races/undines/alternate-racial-traits/water-sense"
+title = "Water Sense"
+:::

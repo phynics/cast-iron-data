@@ -130,3 +130,127 @@ years enjoying it.
 - [Languages](ref/racial-trait/half-elf/languages)
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following favored options are available to all half-elves who have the listed favored class, and
+unless otherwise stated, the bonus applies each time you select the class reward.
+
+### Alchemist {#alchemist}
+
+Add +1 foot to the range increment of the alchemist's thrown splash weapons (including the
+alchemist's bombs). This option has no effect unless the alchemist has selected it 5 times (or
+another increment of 5); a range increment of 24 feet is effectively the same as a range increment
+of 20 feet, for example.
+
+### Barbarian {#barbarian}
+
+Add +1/4 to the bonus on Reflex saves and dodge bonus to AC against attacks made by traps granted by
+trap sense.
+
+### Bard {#bard}
+
+Add +1 to the bard's total number of bardic performance rounds per day.
+
+### Cavalier {#cavalier}
+
+Add +1 foot to the cavalier's mount's base speed. This option has no effect unless the cavalier has
+selected it 5 times (or another increment of 5); a speed of 54 feet is effectively a speed of 50
+feet, for example. If the cavalier ever replaces his mount, the new companion gains this base speed
+bonus.
+
+### Cleric {#cleric}
+
+Add +1/3 to the amount of damage dealt or damage healed when the cleric uses channel energy.
+
+### Druid {#druid}
+
+Select one cleric domain power at 1st level that is normally usable a number of times per day equal
+to 3 + the druid's Wisdom modifier. The druid adds +1/2 to the number of uses per day of that domain
+power. For druids whose nature bond gives them an animal companion, add +1 skill rank to the animal
+companion. If the druid ever replaces her animal companion, the new companion gains these bonus
+skill ranks.
+
+### Fighter {#fighter}
+
+Add +1 to the fighter's CMD when resisting a disarm or overrun combat maneuver.
+
+### Gunslinger {#gunslinger}
+
+Add +1/4 to the number of grit points in the gunslinger's grit pool.
+
+### Inquisitor {#inquisitor}
+
+Add +1/4 to the number of times per day the inquisitor can change her most recent teamwork feat.
+
+### Magus {#magus}
+
+Add +1/4 to the magus's arcane pool.
+
+### Monk {#monk}
+
+Add +1/2 on Escape Artist checks and on Acrobatics checks to cross narrow surfaces.
+
+### Oracle {#oracle}
+
+Add one spell known from the oracle spell list. This spell must be at least one level below the
+highest spell level the oracle can cast.
+
+### Paladin {#paladin}
+
+Add +1 foot to the size of all the paladin's aura class features. This option has no effect unless
+the paladin has selected it 5 times (or another increment of 5); an aura of 14 feet is effectively
+the same as a 10-foot aura, for example.
+
+### Ranger {#ranger}
+
+Add +1 skill rank to the ranger's animal companion. If the ranger ever replaces his companion, the
+new companion gains these bonus skill ranks.
+
+### Rogue {#rogue}
+
+Add a +1/2 bonus on Bluff checks to feint and Diplomacy checks to gather information.
+
+### Sorcerer {#sorcerer}
+
+Select one bloodline power at 1st level that is normally usable a number of times per day equal to
+3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that
+bloodline power.
+
+### Summoner {#summoner}
+
+Add +1/4 to the eidolon's evolution pool.
+
+### Witch {#witch}
+
+Add one spell from the witch spell list to the witch's familiar. This spell must be at least one
+level below the highest spell level she can cast. If the witch ever replaces her familiar, the new
+familiar knows these bonus spells.
+
+### Wizard {#wizard}
+
+When casting wizard enchantment spells, add +1/3 to the effective caster level of the spell, but
+only to determine the spell's duration.
+
+## Racial Subtypes {#racial-subtypes}
+
+You can combine various alternate racial traits to create half-elven subraces or variant races, such
+as the following.
+
+### Drow-Descended {#drow-descended}
+
+These half-elves clearly bear the features of their dark elf parents, branding them immediately as a
+potential threat in the eyes of others no matter what their intent or character. These half-elves
+have the drow-blooded and drow magic alternate racial traits.
+
+### Elf-Raised {#elf-raised}
+
+These half-elves represent those embraced by their elven relatives, and raised with all of the
+traditional cultural training and education typical of most full-blooded elves. These half-elves
+have the ancestral arms and arcane training alternate racial traits.
+
+### Human-Raised {#human-raised}
+
+These half-elves were born and raised into accepting human communities, often raised by generations
+of a single family, or through the charity of churches and temples. These half-elves have the
+integrated and wary racial traits.

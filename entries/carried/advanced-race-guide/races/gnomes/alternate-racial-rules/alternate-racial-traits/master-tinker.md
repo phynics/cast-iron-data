@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Gnomes/Alternate Racial Rules/Alternate Racial Traits/Master Tinker", path = "advanced_race_guide/racial_trait/gnome/master_tinker.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/gnomes", label = "alternate" },
+  { kind = "part", target = "ref/race/gnome", label = "alternate" },
 ]
 
 [fields]

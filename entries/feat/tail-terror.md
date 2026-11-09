@@ -22,5 +22,6 @@ You have strengthened your tail enough to make slap attacks with it.\
 **Prerequisites:** Base attack bonus +1, [kobold](ref/race/kobold).\
 **Benefit:** You can make a tail slap attack with your tail. This is a secondary
 [natural attack](ref/umr/natural-attacks) that deals 1d4 points of bludgeoning damage. Furthermore,
-you can augment your tail slap attack with a [kobold tail attachment](ref/eq-weapon/kobold-tail).
+you can augment your tail slap attack with a
+[kobold tail attachment](ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments).
 For the purpose of weapon feats, you are considered proficient with all kobold tail attachments.

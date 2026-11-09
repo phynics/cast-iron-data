@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Dhampirs/Alternate Racial Traits/Dayborn", path = "advanced_race_guide/racial_trait/dhampir/dayborn.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/dhampirs", label = "alternate" },
+  { kind = "part", target = "ref/race/dhampir", label = "alternate" },
 ]
 
 [fields]

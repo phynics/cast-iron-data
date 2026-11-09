@@ -9,7 +9,7 @@ provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Race Guide/Races/Wayangs/Alternate Racial Traits/Dissolutions Child", path = "advanced_race_guide/racial_trait/wayang/dissolutions_child.json" },
 ]
 relations = [
-  { kind = "part", target = "ref/carried/advanced-race-guide/races/wayangs", label = "alternate" },
+  { kind = "part", target = "ref/race/wayang", label = "alternate" },
 ]
 
 [fields]

@@ -66,3 +66,22 @@ Intelligence scores can choose from the following bonus languages: Aklo, Draconi
 Sylvan, and Undercommon.
 
 race options
+
+## Favored Class Options {#favored-class-options}
+
+The following options are available to all vishkanyas who have the listed favored class, and unless
+otherwise stated, the bonus applies each time you select the favored class reward.
+
+### Bard {#bard}
+
+Add +1 to the bard's total number of bardic performance rounds per day.
+
+### Rogue {#rogue}
+
+Add +1 to the rogue's CMD when resisting a grapple or reposition attempt.
+
+### Sorcerer {#sorcerer}
+
+Select one bloodline power at 1st level that is normally usable a number of times per day equal to
+3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that
+bloodline power.
