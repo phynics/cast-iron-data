@@ -6648,6 +6648,26 @@ title = "Wyrmscourged"
 entry = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/wyrmscourged"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Exarch"
+entry = "ref/arc-inquisitor/exarch"
+
+[[books.chapters.children.children.children]]
+title = "Foehammer"
+entry = "ref/arc-fighter/foehammer"
+
+[[books.chapters.children.children.children]]
+title = "Forgemaster"
+entry = "ref/arc-cleric/forgemaster"
+
+[[books.chapters.children.children.children]]
+title = "Stonelord"
+entry = "ref/arc-paladin/stonelord"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -6812,6 +6832,42 @@ title = "Woodcraft"
 entry = "ref/carried/advanced-race-guide/races/elves/alternate-racial-rules/alternate-racial-traits/woodcraft"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Ancient Lorekeeper"
+entry = "ref/arc-oracle/ancient-lorekeeper"
+
+[[books.chapters.children.children.children]]
+title = "Spell Dancer"
+entry = "ref/arc-magus/spell-dancer"
+
+[[books.chapters.children.children.children]]
+title = "Spellbinder"
+entry = "ref/arc-wizard/spellbinder"
+
+[[books.chapters.children.children.children]]
+title = "Treesinger (Druid)"
+anchor = "treesinger-druid"
+
+[[books.chapters.children.children.children.children]]
+title = "Carnivorous Flower"
+entry = "ref/companion/carnivorous-flower"
+
+[[books.chapters.children.children.children.children]]
+title = "Crawling Vine"
+entry = "ref/companion/crawling-vine"
+
+[[books.chapters.children.children.children.children]]
+title = "Puffball (Floating Fungus)"
+entry = "ref/companion/puffball"
+
+[[books.chapters.children.children.children.children]]
+title = "Treant, Sapling"
+entry = "ref/companion/treant-sapling"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -6968,6 +7024,22 @@ title = "Warden of Nature"
 entry = "ref/carried/advanced-race-guide/races/gnomes/alternate-racial-rules/alternate-racial-traits/warden-of-nature"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Experimental Gunsmith"
+entry = "ref/arc-gunslinger/experimental-gunsmith"
+
+[[books.chapters.children.children.children]]
+title = "Prankster"
+entry = "ref/arc-bard/prankster"
+
+[[books.chapters.children.children.children]]
+title = "Saboteur"
+entry = "ref/arc-alchemist/saboteur"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -6978,6 +7050,10 @@ anchor = "gnome-equipment"
 [[books.chapters.children.children.children.children]]
 title = "Dilettante's Outfit"
 entry = "ref/eq-misc/dilettantes-outfit"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Tear-away dilettante's outfit"
+entry = "ref/eq-misc/tear-away-dilettantes-outfit"
 
 [[books.chapters.children.children.children.children]]
 title = "Hound's Blood"
@@ -6998,6 +7074,10 @@ entry = "ref/eq-misc/scentbane-incense"
 [[books.chapters.children.children.children.children]]
 title = "Sheriff's Whistle"
 entry = "ref/carried/advanced-race-guide/races/gnomes/new-racial-rules/gnome-equipment/sheriffs-whistle"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Sherrif's whistle"
+entry = "ref/eq-misc/sherrifs-whistle"
 
 [[books.chapters.children.children.children]]
 title = "Gnome Feats"
@@ -7118,6 +7198,30 @@ entry = "ref/carried/advanced-race-guide/races/half-elves/alternate-racial-rules
 [[books.chapters.children.children.children.children]]
 title = "Water Child"
 entry = "ref/carried/advanced-race-guide/races/half-elves/alternate-racial-rules/alternate-racial-traits/water-child"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Bonded Witch"
+entry = "ref/arc-witch/bonded-witch"
+
+[[books.chapters.children.children.children]]
+title = "Bramble Brewer"
+entry = "ref/arc-alchemist/bramble-brewer"
+
+[[books.chapters.children.children.children.children]]
+title = "Defoliant Bomb"
+entry = "ref/discovery/defoliant-bomb"
+
+[[books.chapters.children.children.children]]
+title = "Wild Caller (ARG)"
+entry = "ref/arc-summoner/wild-caller-arg"
+
+[[books.chapters.children.children.children]]
+title = "Wild Shadow"
+entry = "ref/arc-ranger/wild-shadow"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -7286,6 +7390,26 @@ entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/
 [[books.chapters.children.children.children.children]]
 title = "Toothy"
 entry = "ref/carried/advanced-race-guide/races/half-orcs/alternate-racial-rules/alternate-racial-traits/toothy"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Blood God Disciple"
+entry = "ref/arc-summoner/blood-god-disciple"
+
+[[books.chapters.children.children.children]]
+title = "Hateful Rager"
+entry = "ref/arc-barbarian/hateful-rager"
+
+[[books.chapters.children.children.children]]
+title = "Redeemer"
+entry = "ref/arc-paladin/redeemer"
+
+[[books.chapters.children.children.children]]
+title = "Skulking Slayer"
+entry = "ref/arc-rogue/skulking-slayer"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -7468,6 +7592,26 @@ title = "Warslinger"
 entry = "ref/carried/advanced-race-guide/races/halflings/alternate-racial-rules/alternate-racial-traits/warslinger"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Community Guardian"
+entry = "ref/arc-oracle/community-guardian"
+
+[[books.chapters.children.children.children]]
+title = "Filcher"
+entry = "ref/arc-rogue/filcher"
+
+[[books.chapters.children.children.children]]
+title = "Order of the Paw"
+entry = "ref/order/order-of-the-paw"
+
+[[books.chapters.children.children.children]]
+title = "Underfoot Adept"
+entry = "ref/arc-monk/underfoot-adept"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -7583,6 +7727,10 @@ entry = "ref/spell/blessing-of-luck-and-resolve"
 title = "Blessing Of Luck And Resolve, Mass"
 entry = "ref/carried/advanced-race-guide/races/halflings/new-racial-rules/halfling-spells/blessing-of-luck-and-resolve/mass"
 
+[[books.chapters.children.children.children.children.children]]
+title = "Mass Blessing of Luck and Resolve"
+entry = "ref/spell/blessing-of-luck-and-resolve-mass"
+
 [[books.chapters.children.children.children.children]]
 title = "Escaping Ward"
 entry = "ref/spell/escaping-ward"
@@ -7666,6 +7814,26 @@ entry = "ref/carried/advanced-race-guide/races/humans/alternate-racial-rules/alt
 [[books.chapters.children.children.children.children]]
 title = "Silver Tongued"
 entry = "ref/carried/advanced-race-guide/races/humans/alternate-racial-rules/alternate-racial-traits/silver-tongued"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes & Bloodlines"
+anchor = "racial-archetypes-bloodlines"
+
+[[books.chapters.children.children.children]]
+title = "Buccaneer"
+entry = "ref/arc-gunslinger/buccaneer"
+
+[[books.chapters.children.children.children]]
+title = "Feral Child"
+entry = "ref/arc-druid/feral-child"
+
+[[books.chapters.children.children.children]]
+title = "Imperious"
+entry = "ref/sorcbloodline/imperious"
+
+[[books.chapters.children.children.children]]
+title = "Wanderer"
+entry = "ref/arc-monk/wanderer"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -7863,6 +8031,18 @@ title = "Truespeaker"
 entry = "ref/carried/advanced-race-guide/races/aasimars/alternate-racial-traits/truespeaker"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Purifier"
+entry = "ref/arc-oracle/purifier"
+
+[[books.chapters.children.children.children]]
+title = "Tranquil Guardian"
+entry = "ref/arc-paladin/tranquil-guardian"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -7995,6 +8175,46 @@ title = "Scent"
 entry = "ref/carried/advanced-race-guide/races/catfolk/alternate-racial-traits/scent"
 
 [[books.chapters.children.children]]
+title = "Catfolk Rogue Talents"
+anchor = "catfolk-rogue-talents"
+
+[[books.chapters.children.children.children]]
+title = "Deadly Scratch"
+entry = "ref/talent/deadly-scratch"
+
+[[books.chapters.children.children.children]]
+title = "Disarming Luck"
+entry = "ref/talent/disarming-luck"
+
+[[books.chapters.children.children.children]]
+title = "Graceful Faller"
+entry = "ref/talent/graceful-faller"
+
+[[books.chapters.children.children.children]]
+title = "Nimble Climber"
+entry = "ref/talent/nimble-climber-catfolk"
+
+[[books.chapters.children.children.children]]
+title = "Single-Minded Appraiser"
+entry = "ref/talent/single-minded-appraiser"
+
+[[books.chapters.children.children.children]]
+title = "Vicious Claws"
+entry = "ref/talent/vicious-claws"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Cat Burglar"
+entry = "ref/arc-rogue/cat-burglar"
+
+[[books.chapters.children.children.children]]
+title = "Nimble Guardian"
+entry = "ref/arc-monk/nimble-guardian"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -8085,6 +8305,18 @@ entry = "ref/carried/advanced-race-guide/races/dhampirs/alternate-racial-traits/
 [[books.chapters.children.children.children]]
 title = "Vampiric Empathy"
 entry = "ref/carried/advanced-race-guide/races/dhampirs/alternate-racial-traits/vampiric-empathy"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Cruoromancer"
+entry = "ref/arc-wizard/cruoromancer"
+
+[[books.chapters.children.children.children]]
+title = "Kinslayer"
+entry = "ref/arc-inquisitor/kinslayer"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -8195,6 +8427,18 @@ title = "Surface Infiltrator"
 entry = "ref/carried/advanced-race-guide/races/drow/alternate-racial-traits/surface-infiltrator"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Cavern Sniper"
+entry = "ref/arc-fighter/cavern-sniper"
+
+[[books.chapters.children.children.children]]
+title = "Demonic Apostle"
+entry = "ref/arc-cleric/demonic-apostle"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -8253,6 +8497,10 @@ entry = "ref/feat/spider-summoner"
 [[books.chapters.children.children.children.children]]
 title = "Umbral Scion"
 entry = "ref/feat/umbral-scion"
+
+[[books.chapters.children.children.children.children]]
+title = "Spider Climber"
+entry = "ref/feat/spider-climber"
 
 [[books.chapters.children.children.children]]
 title = "Drow Magic Items"
@@ -8315,6 +8563,26 @@ title = "World Walker"
 entry = "ref/carried/advanced-race-guide/races/fetchlings/alternate-racial-traits/world-walker"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Dusk Stalker"
+entry = "ref/arc-ranger/dusk-stalker"
+
+[[books.chapters.children.children.children]]
+title = "Shadow Caller"
+entry = "ref/arc-summoner/shadow-caller"
+
+[[books.chapters.children.children.children.children]]
+title = "Shadow Blend"
+entry = "ref/evolution/shadow-blend"
+
+[[books.chapters.children.children.children.children]]
+title = "Shadow Form"
+entry = "ref/evolution/shadow-form"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -8333,6 +8601,10 @@ entry = "ref/eq-misc/gloom-sight-goggles"
 [[books.chapters.children.children.children.children]]
 title = "Shadowcloy"
 entry = "ref/carried/advanced-race-guide/races/fetchlings/new-racial-rules/fetchling-equipment/shadowcloy"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Shadowcloy flask"
+entry = "ref/eq-weapon/shadowcloy-flask"
 
 [[books.chapters.children.children.children]]
 title = "Fetchling Feats"
@@ -8425,6 +8697,38 @@ entry = "ref/carried/advanced-race-guide/races/goblins/alternate-racial-traits/t
 [[books.chapters.children.children.children]]
 title = "Weapon Familiarity"
 entry = "ref/carried/advanced-race-guide/races/goblins/alternate-racial-traits/weapon-familiarity"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Feral Gnasher"
+entry = "ref/arc-barbarian/feral-gnasher"
+
+[[books.chapters.children.children.children]]
+title = "Fire Bomber"
+entry = "ref/arc-alchemist/fire-bomber"
+
+[[books.chapters.children.children]]
+title = "Goblin Discoveries"
+anchor = "goblin-discoveries"
+
+[[books.chapters.children.children.children]]
+title = "Fire Brand"
+entry = "ref/discovery/fire-brand"
+
+[[books.chapters.children.children.children]]
+title = "Rag Doll Mutagen"
+entry = "ref/discovery/rag-doll-mutagen"
+
+[[books.chapters.children.children.children]]
+title = "Rocket Bomb"
+entry = "ref/discovery/rocket-bomb"
+
+[[books.chapters.children.children.children]]
+title = "Scrap Bomb"
+entry = "ref/discovery/scrap-bomb"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -8551,6 +8855,18 @@ title = "Unfit"
 entry = "ref/carried/advanced-race-guide/races/hobgoblins/alternate-racial-traits/unfit"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Fell Rider"
+entry = "ref/arc-cavalier/fell-rider"
+
+[[books.chapters.children.children.children]]
+title = "Ironskin Monk"
+entry = "ref/arc-monk/ironskin-monk"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -8566,6 +8882,14 @@ entry = "ref/eq-weapon/brewed-reek"
 title = "Fetters"
 entry = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/fetters"
 
+[[books.chapters.children.children.children.children.children]]
+title = "Fetters (common)"
+entry = "ref/eq-misc/fetters-common"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Fetters (masterwork)"
+entry = "ref/eq-misc/fetters-masterwork"
+
 [[books.chapters.children.children.children.children]]
 title = "Hobgoblin War Draught"
 entry = "ref/eq-misc/hobgoblin-war-draught"
@@ -8573,6 +8897,22 @@ entry = "ref/eq-misc/hobgoblin-war-draught"
 [[books.chapters.children.children.children.children]]
 title = "Manacle Barbs"
 entry = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-equipment/manacle-barbs"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Manacles with barbs (common)"
+entry = "ref/eq-misc/manacles-with-barbs-common"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Manacles with barbs (masterwork)"
+entry = "ref/eq-misc/manacles-with-barbs-masterwork"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Manacles with barbs (mithral)"
+entry = "ref/eq-misc/manacles-with-barbs-mithral"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Manacles with barbs (quickcatch)"
+entry = "ref/eq-misc/manacles-with-barbs-quickcatch"
 
 [[books.chapters.children.children.children.children]]
 title = "Unstable Accelerant"
@@ -8613,6 +8953,18 @@ anchor = "hobgoblin-magic-items"
 [[books.chapters.children.children.children.children]]
 title = "Hobgoblin Battle Standard"
 entry = "ref/carried/advanced-race-guide/races/hobgoblins/new-racial-rules/hobgoblin-magic-items/hobgoblin-battle-standard"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Hobgoblin Battle Standard (Despair)"
+entry = "ref/magic-wondrous/hobgoblin-battle-standard-despair"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Hobgoblin Battle Standard (Ferocity)"
+entry = "ref/magic-wondrous/hobgoblin-battle-standard-ferocity"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Hobgoblin Battle Standard (Iron Resolve)"
+entry = "ref/magic-wondrous/hobgoblin-battle-standard-iron-resolve"
 
 [[books.chapters.children.children.children.children]]
 title = "Horseshoes of Crushing Blows"
@@ -8673,6 +9025,18 @@ entry = "ref/carried/advanced-race-guide/races/ifrits/alternate-racial-traits/hy
 [[books.chapters.children.children.children]]
 title = "Wildfire Heart"
 entry = "ref/carried/advanced-race-guide/races/ifrits/alternate-racial-traits/wildfire-heart"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Immolator"
+entry = "ref/arc-inquisitor/immolator"
+
+[[books.chapters.children.children.children]]
+title = "Wishcrafter"
+entry = "ref/arc-sorcerer/wishcrafter"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -8783,6 +9147,18 @@ title = "Jester"
 entry = "ref/carried/advanced-race-guide/races/kobolds/alternate-racial-traits/jester"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Bushwhacker"
+entry = "ref/arc-gunslinger/bushwhacker"
+
+[[books.chapters.children.children.children]]
+title = "Kobold Sorcerer"
+entry = "ref/sorcbloodline/kobold-sorcerer"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -8794,6 +9170,14 @@ anchor = "kobold-equipment"
 title = "Alchemical Coal"
 entry = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/alchemical-coal"
 
+[[books.chapters.children.children.children.children.children]]
+title = "Alchemical coal (blinding cinders)"
+entry = "ref/eq-weapon/alchemical-coal-blinding-cinders"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Alchemical coal (choking smoke)"
+entry = "ref/eq-weapon/alchemical-coal-choking-smoke"
+
 [[books.chapters.children.children.children.children]]
 title = "Cave Whistle"
 entry = "ref/eq-misc/cave-whistle"
@@ -8801,6 +9185,30 @@ entry = "ref/eq-misc/cave-whistle"
 [[books.chapters.children.children.children.children]]
 title = "Kobold Tail Attachments"
 entry = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Kobold Tail Attachment"
+entry = "ref/eq-weapon/kobold-tail"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Kobold tail, long lash"
+entry = "ref/eq-weapon/kobold-tail-long-lash"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Kobold tail, pounder"
+entry = "ref/eq-weapon/kobold-tail-pounder"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Kobold tail, razored"
+entry = "ref/eq-weapon/kobold-tail-razored"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Kobold tail, spiked"
+entry = "ref/eq-weapon/kobold-tail-spiked"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Kobold tail, sweeper"
+entry = "ref/eq-weapon/kobold-tail-sweeper"
 
 [[books.chapters.children.children.children]]
 title = "Kobold Feats"
@@ -8877,6 +9285,18 @@ entry = "ref/carried/advanced-race-guide/races/orcs/alternate-racial-traits/smel
 [[books.chapters.children.children.children]]
 title = "Squalid"
 entry = "ref/carried/advanced-race-guide/races/orcs/alternate-racial-traits/squalid"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Dirty Fighter"
+entry = "ref/arc-fighter/dirty-fighter"
+
+[[books.chapters.children.children.children]]
+title = "Scarred Witch Doctor"
+entry = "ref/arc-witch/scarred-witch-doctor"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -9007,6 +9427,18 @@ title = "Treacherous Earth"
 entry = "ref/carried/advanced-race-guide/races/oreads/alternate-racial-traits/treacherous-earth"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Shaitan Binder"
+entry = "ref/arc-summoner/shaitan-binder"
+
+[[books.chapters.children.children.children]]
+title = "Student of Stone"
+entry = "ref/arc-monk/student-of-stone"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -9021,6 +9453,14 @@ entry = "ref/eq-misc/camouflage-lichen"
 [[books.chapters.children.children.children.children]]
 title = "Fleshgem"
 entry = "ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-equipment/fleshgem"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Fleshgem (decorative)"
+entry = "ref/eq-misc/fleshgem-decorative"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Fleshgem (spikes)"
+entry = "ref/eq-misc/fleshgem-spikes"
 
 [[books.chapters.children.children.children.children]]
 title = "Stonechipper Salve"
@@ -9067,6 +9507,14 @@ title = "Earthbind Rod"
 entry = "ref/magic-rod/earthbind-rod"
 
 [[books.chapters.children.children.children.children]]
+title = "Greater Guarding"
+entry = "ref/magic-enh/guarding-greater"
+
+[[books.chapters.children.children.children.children]]
+title = "Guarding"
+entry = "ref/magic-enh/guarding"
+
+[[books.chapters.children.children.children.children]]
 title = "Mask of Stony Demeanor"
 entry = "ref/magic-wondrous/mask-of-stony-demeanor"
 
@@ -9081,6 +9529,10 @@ entry = "ref/spell/binding-earth"
 [[books.chapters.children.children.children.children]]
 title = "Binding Earth, Mass"
 entry = "ref/carried/advanced-race-guide/races/oreads/new-racial-rules/oread-spells/binding-earth/mass"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Mass Binding Earth"
+entry = "ref/spell/binding-earth-mass"
 
 [[books.chapters.children.children.children.children]]
 title = "Mighty Fist Of The Earth"
@@ -9119,6 +9571,30 @@ title = "Unnatural"
 entry = "ref/carried/advanced-race-guide/races/ratfolk/alternate-racial-traits/unnatural"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Gulch Gunner"
+entry = "ref/arc-gunslinger/gulch-gunner"
+
+[[books.chapters.children.children.children]]
+title = "Plague Bringer"
+entry = "ref/arc-alchemist/plague-bringer"
+
+[[books.chapters.children.children]]
+title = "Ratfolk Discoveries"
+anchor = "ratfolk-discoveries"
+
+[[books.chapters.children.children.children]]
+title = "Greater Plague Bomb"
+entry = "ref/discovery/greater-plague-bomb"
+
+[[books.chapters.children.children.children]]
+title = "Lingering Plague"
+entry = "ref/discovery/lingering-plague"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -9138,6 +9614,10 @@ entry = "ref/eq-weapon/pox-burster"
 title = "Stink Ink"
 entry = "ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/stink-ink"
 
+[[books.chapters.children.children.children.children.children]]
+title = "Stink ink (common)"
+entry = "ref/eq-misc/stink-ink-common"
+
 [[books.chapters.children.children.children.children]]
 title = "Stink Ink, Arcane"
 entry = "ref/eq-misc/stink-ink-arcane"
@@ -9145,6 +9625,10 @@ entry = "ref/eq-misc/stink-ink-arcane"
 [[books.chapters.children.children.children.children]]
 title = "Tailblade"
 entry = "ref/carried/advanced-race-guide/races/ratfolk/new-racial-rules/ratfolk-equipment/tailblade"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Tailblade, ratfolk"
+entry = "ref/eq-weapon/tailblade-ratfolk"
 
 [[books.chapters.children.children.children]]
 title = "Ratfolk Feats"
@@ -9243,6 +9727,18 @@ title = "Whispering Wind"
 entry = "ref/carried/advanced-race-guide/races/sylphs/alternate-racial-traits/whispering-wind"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Sky Druid"
+entry = "ref/arc-druid/sky-druid"
+
+[[books.chapters.children.children.children]]
+title = "Wind Listener"
+entry = "ref/arc-wizard/wind-listener"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -9285,6 +9781,10 @@ anchor = "sylph-magic-items"
 [[books.chapters.children.children.children.children]]
 title = "Elixir of Forceful Exhalation"
 entry = "ref/magic-wondrous/elixir-of-forceful-exhalation"
+
+[[books.chapters.children.children.children.children]]
+title = "Cloudburst"
+entry = "ref/magic-enh/cloudburst"
 
 [[books.chapters.children.children.children]]
 title = "Sylph Spells"
@@ -9341,6 +9841,18 @@ entry = "ref/carried/advanced-race-guide/races/tengus/alternate-racial-traits/ex
 [[books.chapters.children.children.children]]
 title = "Glide"
 entry = "ref/carried/advanced-race-guide/races/tengus/alternate-racial-traits/glide"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Shigenjo"
+entry = "ref/arc-oracle/shigenjo"
+
+[[books.chapters.children.children.children]]
+title = "Swordmaster"
+entry = "ref/arc-rogue/swordmaster"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -9463,6 +9975,18 @@ title = "Vestigial Wings"
 entry = "ref/carried/advanced-race-guide/races/tieflings/alternate-racial-traits/vestigial-wings"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Fiend Flayer"
+entry = "ref/arc-magus/fiend-flayer"
+
+[[books.chapters.children.children.children]]
+title = "Fiendish Vessel"
+entry = "ref/arc-cleric/fiendish-vessel"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -9557,6 +10081,18 @@ entry = "ref/carried/advanced-race-guide/races/undines/alternate-racial-traits/t
 [[books.chapters.children.children.children]]
 title = "Water Sense"
 entry = "ref/carried/advanced-race-guide/races/undines/alternate-racial-traits/water-sense"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Undine Adept"
+entry = "ref/arc-druid/undine-adept"
+
+[[books.chapters.children.children.children]]
+title = "Watersinger"
+entry = "ref/arc-bard/watersinger"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -9690,6 +10226,14 @@ title = "Ocean's Daughter"
 entry = "ref/carried/advanced-race-guide/races/changelings/alternate-racial-traits/oceans-daughter"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Dreamweaver"
+entry = "ref/arc-witch/dreamweaver"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -9732,6 +10276,14 @@ entry = "ref/carried/advanced-race-guide/races/duergar/alternate-racial-traits/d
 [[books.chapters.children.children.children]]
 title = "Dwarf Traits"
 entry = "ref/carried/advanced-race-guide/races/duergar/alternate-racial-traits/dwarf-traits"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Gray Disciple"
+entry = "ref/arc-monk/gray-disciple"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -9782,6 +10334,14 @@ title = "Throwback"
 entry = "ref/carried/advanced-race-guide/races/gillmen/alternate-racial-traits/throwback"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Eldritch Raider"
+entry = "ref/arc-rogue/eldritch-raider"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -9826,8 +10386,40 @@ title = "Toxic Skin (Ex)"
 entry = "ref/carried/advanced-race-guide/races/gripplis/alternate-racial-traits/toxic-skin-ex"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Bogborn Alchemist"
+entry = "ref/arc-alchemist/bogborn-alchemist"
+
+[[books.chapters.children.children]]
+title = "Grippli Discoveries"
+anchor = "grippli-discoveries"
+
+[[books.chapters.children.children.children]]
+title = "Chameleon"
+entry = "ref/discovery/chameleon"
+
+[[books.chapters.children.children.children]]
+title = "Deadly Excretions"
+entry = "ref/discovery/deadly-excretions"
+
+[[books.chapters.children.children.children]]
+title = "Underwater Demolition"
+entry = "ref/discovery/underwater-demolition"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
+
+[[books.chapters.children.children.children]]
+title = "Grippli Equipment"
+anchor = "grippli-equipment"
+
+[[books.chapters.children.children.children.children]]
+title = "Black spider marsh poison"
+entry = "ref/eq-poison/black-spider-marsh-poison"
 
 [[books.chapters.children.children.children]]
 title = "Grippli Feats"
@@ -9858,6 +10450,26 @@ title = "Gregarious (Ex)"
 entry = "ref/carried/advanced-race-guide/races/kitsune/alternate-racial-traits/gregarious-ex"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Kitsune Trickster"
+entry = "ref/arc-rogue/kitsune-trickster"
+
+[[books.chapters.children.children.children.children]]
+title = "False Friend"
+entry = "ref/talent/false-friend"
+
+[[books.chapters.children.children.children.children]]
+title = "Obfuscate Story"
+entry = "ref/talent/obfuscate-story"
+
+[[books.chapters.children.children.children.children]]
+title = "Steal the Story"
+entry = "ref/talent/steal-the-story"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -9881,6 +10493,18 @@ anchor = "kitsune-magic-items"
 title = "Kitsune Star Gem"
 entry = "ref/carried/advanced-race-guide/races/kitsune/new-racial-rules/kitsune-magic-items/kitsune-star-gem"
 
+[[books.chapters.children.children.children.children.children]]
+title = "Kitsune Star Gem (1st)"
+entry = "ref/magic-wondrous/kitsune-star-gem-1st"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Kitsune Star Gem (2nd)"
+entry = "ref/magic-wondrous/kitsune-star-gem-2nd"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Kitsune Star Gem (3rd)"
+entry = "ref/magic-wondrous/kitsune-star-gem-3rd"
+
 [[books.chapters.children]]
 title = "Merfolk"
 entry = "ref/race/merfolk"
@@ -9900,6 +10524,14 @@ entry = "ref/carried/advanced-race-guide/races/merfolk/alternate-racial-traits/s
 [[books.chapters.children.children.children]]
 title = "Strongtail"
 entry = "ref/carried/advanced-race-guide/races/merfolk/alternate-racial-traits/strongtail"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Wave Warden"
+entry = "ref/arc-ranger/wave-warden"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -9950,6 +10582,14 @@ title = "Hypnotic Gaze (Sp)"
 entry = "ref/carried/advanced-race-guide/races/nagaji/alternate-racial-traits/hypnotic-gaze-sp"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Naga Aspirant"
+entry = "ref/arc-druid/naga-aspirant"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -9980,6 +10620,14 @@ anchor = "alternate-racial-traits"
 [[books.chapters.children.children.children]]
 title = "Mystic Past Life (Su)"
 entry = "ref/carried/advanced-race-guide/races/samsarans/alternate-racial-traits/mystic-past-life-su"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Reincarnated Oracle"
+entry = "ref/arc-oracle/reincarnated-oracle"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -10046,6 +10694,14 @@ title = "Wing-Clipped"
 entry = "ref/carried/advanced-race-guide/races/strix/alternate-racial-traits/wing-clipped"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Airborne Ambusher"
+entry = "ref/arc-fighter/airborne-ambusher"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -10092,6 +10748,14 @@ anchor = "alternate-racial-traits"
 [[books.chapters.children.children.children]]
 title = "Energy Strike (Su)"
 entry = "ref/carried/advanced-race-guide/races/sulis/alternate-racial-traits/energy-strike-su"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Elemental Knight"
+entry = "ref/arc-magus/elemental-knight"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -10142,6 +10806,26 @@ title = "Stoneseer"
 entry = "ref/carried/advanced-race-guide/races/svirfneblin/alternate-racial-traits/stoneseer"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Deep Bomber"
+entry = "ref/arc-alchemist/deep-bomber"
+
+[[books.chapters.children.children]]
+title = "Svirfneblin Discoveries"
+anchor = "svirfneblin-discoveries"
+
+[[books.chapters.children.children.children]]
+title = "Darkness Bomb"
+entry = "ref/discovery/darkness-bomb"
+
+[[books.chapters.children.children.children]]
+title = "Glassfoot Bomb"
+entry = "ref/discovery/glassfoot-bomb"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -10184,6 +10868,14 @@ entry = "ref/carried/advanced-race-guide/races/vanaras/alternate-racial-traits/t
 [[books.chapters.children.children.children]]
 title = "Whitecape"
 entry = "ref/carried/advanced-race-guide/races/vanaras/alternate-racial-traits/whitecape"
+
+[[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Treetop Monk"
+entry = "ref/arc-monk/treetop-monk"
 
 [[books.chapters.children.children]]
 title = "New Racial Rules"
@@ -10238,6 +10930,14 @@ title = "Subtle Appearance"
 entry = "ref/carried/advanced-race-guide/races/vishkanyas/alternate-racial-traits/subtle-appearance"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Deadly Courtesan"
+entry = "ref/arc-rogue/deadly-courtesan"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -10286,6 +10986,14 @@ title = "Dissolution's Child"
 entry = "ref/carried/advanced-race-guide/races/wayangs/alternate-racial-traits/dissolutions-child"
 
 [[books.chapters.children.children]]
+title = "Racial Archetypes"
+anchor = "racial-archetypes"
+
+[[books.chapters.children.children.children]]
+title = "Shadow Puppeteer"
+entry = "ref/arc-bard/shadow-puppeteer"
+
+[[books.chapters.children.children]]
 title = "New Racial Rules"
 anchor = "new-racial-rules"
 
@@ -10296,6 +11004,10 @@ anchor = "wayang-equipment"
 [[books.chapters.children.children.children.children]]
 title = "Shadow Stencils"
 entry = "ref/carried/advanced-race-guide/races/wayangs/new-racial-rules/wayang-equipment/shadow-stencils"
+
+[[books.chapters.children.children.children.children.children]]
+title = "Shadow stencil set"
+entry = "ref/eq-misc/shadow-stencil-set"
 
 [[books.chapters.children.children.children]]
 title = "Wayang Feats"
@@ -10348,6 +11060,38 @@ entry = "ref/rule/step-2-racial-qualities"
 title = "Racial Qualities"
 entry = "ref/carried/advanced-race-guide/rules/race-builder/racial-qualities"
 
+[[books.chapters.children.children]]
+title = "Type Quality"
+entry = "ref/rule/type-quality"
+
+[[books.chapters.children.children.children]]
+title = "Mid-RP Types"
+entry = "ref/rule/mid-rp-types"
+
+[[books.chapters.children.children.children]]
+title = "High-RP Types"
+entry = "ref/rule/high-rp-types"
+
+[[books.chapters.children.children.children]]
+title = "Low-RP Types"
+entry = "ref/rule/low-rp-types"
+
+[[books.chapters.children.children]]
+title = "Base Speed Quality"
+entry = "ref/rule/base-speed-quality"
+
+[[books.chapters.children.children]]
+title = "Size Quality"
+entry = "ref/rule/size-quality"
+
+[[books.chapters.children.children]]
+title = "Ability Score Quality"
+entry = "ref/rule/ability-score-quality"
+
+[[books.chapters.children.children]]
+title = "Language Quality"
+entry = "ref/rule/language-quality"
+
 [[books.chapters.children]]
 title = "Step 3: Racial Traits"
 entry = "ref/rule/step-3-racial-traits"
@@ -10355,6 +11099,146 @@ entry = "ref/rule/step-3-racial-traits"
 [[books.chapters.children.children]]
 title = "Racial Traits"
 entry = "ref/carried/advanced-race-guide/rules/race-builder/racial-traits"
+
+[[books.chapters.children.children]]
+title = "Ability Score Racial Traits"
+entry = "ref/rule/ability-score-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Ability Score Traits"
+entry = "ref/rule/advanced-ability-score-traits"
+
+[[books.chapters.children.children]]
+title = "Defense Racial Traits"
+entry = "ref/rule/defense-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Standard Defense Traits"
+entry = "ref/rule/standard-defense-traits"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Defense Traits"
+entry = "ref/rule/advanced-defense-traits"
+
+[[books.chapters.children.children.children]]
+title = "Monstrous Defense Traits"
+entry = "ref/rule/monstrous-defense-traits"
+
+[[books.chapters.children.children]]
+title = "Feat and Skill Traits"
+entry = "ref/rule/feat-and-skill-traits"
+
+[[books.chapters.children.children.children]]
+title = "Standard Feat and Skill Traits"
+entry = "ref/rule/standard-feat-and-skill-traits"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Feat and Skill Traits"
+entry = "ref/rule/advanced-feat-and-skill-traits"
+
+[[books.chapters.children.children]]
+title = "Magical Racial Traits"
+entry = "ref/rule/magical-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Standard Magical Traits"
+entry = "ref/rule/standard-magical-traits"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Magical Traits"
+entry = "ref/rule/advanced-magical-traits"
+
+[[books.chapters.children.children.children]]
+title = "Monstrous Magical Traits"
+entry = "ref/rule/monstrous-magical-traits"
+
+[[books.chapters.children.children]]
+title = "Movement Racial Traits"
+entry = "ref/rule/movement-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Standard Movement Traits"
+entry = "ref/rule/standard-movement-traits"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Movement Traits"
+entry = "ref/rule/advanced-movement-traits"
+
+[[books.chapters.children.children.children]]
+title = "Monstrous Movement Traits"
+entry = "ref/rule/monstrous-movement-traits"
+
+[[books.chapters.children.children]]
+title = "Offensive Racial Traits"
+entry = "ref/rule/offensive-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Standard Offensive Traits"
+entry = "ref/rule/standard-offensive-traits"
+
+[[books.chapters.children.children.children.children]]
+title = "Life-Stealing Venom"
+entry = "ref/affliction/standard-offensive-traits/life-stealing-venom"
+
+[[books.chapters.children.children.children.children]]
+title = "Paralytic Venom"
+entry = "ref/affliction/standard-offensive-traits/paralytic-venom"
+
+[[books.chapters.children.children.children.children]]
+title = "Weakening Venom"
+entry = "ref/affliction/standard-offensive-traits/weakening-venom"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Offensive Traits"
+entry = "ref/rule/advanced-offensive-traits"
+
+[[books.chapters.children.children.children]]
+title = "Monstrous Offensive Traits"
+entry = "ref/rule/monstrous-offensive-traits"
+
+[[books.chapters.children.children]]
+title = "Senses Racial Traits"
+entry = "ref/rule/senses-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Standard Senses Traits"
+entry = "ref/rule/standard-senses-traits"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Senses Traits"
+entry = "ref/rule/advanced-senses-traits"
+
+[[books.chapters.children.children.children]]
+title = "Monstrous Senses Traits"
+entry = "ref/rule/monstrous-senses-traits"
+
+[[books.chapters.children.children]]
+title = "Weakness Racial Traits"
+entry = "ref/rule/weakness-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Standard Weakness Traits"
+entry = "ref/rule/standard-weakness-traits"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Weakness Traits"
+entry = "ref/rule/advanced-weakness-traits"
+
+[[books.chapters.children.children]]
+title = "Other Racial Traits"
+entry = "ref/rule/other-racial-traits"
+
+[[books.chapters.children.children.children]]
+title = "Standard Other Traits"
+entry = "ref/rule/standard-other-traits"
+
+[[books.chapters.children.children.children]]
+title = "Advanced Other Traits"
+entry = "ref/rule/advanced-other-traits"
+
+[[books.chapters.children.children.children]]
+title = "Monstrous Other Traits"
+entry = "ref/rule/monstrous-other-traits"
 
 [[books.chapters.children]]
 title = "Example Races"
@@ -10437,22 +11321,6 @@ title = "Weapon Familiarity"
 entry = "ref/racial-trait/dwarf/weapon-familiarity"
 
 [[books.chapters.children]]
-title = "Exarch"
-entry = "ref/arc-inquisitor/exarch"
-
-[[books.chapters.children]]
-title = "Foehammer"
-entry = "ref/arc-fighter/foehammer"
-
-[[books.chapters.children]]
-title = "Forgemaster"
-entry = "ref/arc-cleric/forgemaster"
-
-[[books.chapters.children]]
-title = "Stonelord"
-entry = "ref/arc-paladin/stonelord"
-
-[[books.chapters.children]]
 title = "Elf"
 entry = "ref/race/elf"
 
@@ -10491,34 +11359,6 @@ entry = "ref/racial-trait/elf/normal-speed"
 [[books.chapters.children.children]]
 title = "Weapon Familiarity"
 entry = "ref/racial-trait/elf/weapon-familiarity"
-
-[[books.chapters.children]]
-title = "Ancient Lorekeeper"
-entry = "ref/arc-oracle/ancient-lorekeeper"
-
-[[books.chapters.children]]
-title = "Spell Dancer"
-entry = "ref/arc-magus/spell-dancer"
-
-[[books.chapters.children]]
-title = "Spellbinder"
-entry = "ref/arc-wizard/spellbinder"
-
-[[books.chapters.children]]
-title = "Carnivorous Flower"
-entry = "ref/companion/carnivorous-flower"
-
-[[books.chapters.children]]
-title = "Crawling Vine"
-entry = "ref/companion/crawling-vine"
-
-[[books.chapters.children]]
-title = "Puffball (Floating Fungus)"
-entry = "ref/companion/puffball"
-
-[[books.chapters.children]]
-title = "Treant, Sapling"
-entry = "ref/companion/treant-sapling"
 
 [[books.chapters.children]]
 title = "Gnome"
@@ -10573,26 +11413,6 @@ title = "Weapon Familiarity"
 entry = "ref/racial-trait/gnome/weapon-familiarity"
 
 [[books.chapters.children]]
-title = "Experimental Gunsmith"
-entry = "ref/arc-gunslinger/experimental-gunsmith"
-
-[[books.chapters.children]]
-title = "Prankster"
-entry = "ref/arc-bard/prankster"
-
-[[books.chapters.children]]
-title = "Saboteur"
-entry = "ref/arc-alchemist/saboteur"
-
-[[books.chapters.children]]
-title = "Tear-away dilettante's outfit"
-entry = "ref/eq-misc/tear-away-dilettantes-outfit"
-
-[[books.chapters.children]]
-title = "Sherrif's whistle"
-entry = "ref/eq-misc/sherrifs-whistle"
-
-[[books.chapters.children]]
 title = "Half-Elf"
 entry = "ref/race/half-elf"
 
@@ -10637,22 +11457,6 @@ title = "Normal Speed"
 entry = "ref/racial-trait/half-elf/normal-speed"
 
 [[books.chapters.children]]
-title = "Bonded Witch"
-entry = "ref/arc-witch/bonded-witch"
-
-[[books.chapters.children]]
-title = "Bramble Brewer"
-entry = "ref/arc-alchemist/bramble-brewer"
-
-[[books.chapters.children]]
-title = "Wild Caller (ARG)"
-entry = "ref/arc-summoner/wild-caller-arg"
-
-[[books.chapters.children]]
-title = "Wild Shadow"
-entry = "ref/arc-ranger/wild-shadow"
-
-[[books.chapters.children]]
 title = "Half-Orc"
 entry = "ref/race/half-orc"
 
@@ -10691,22 +11495,6 @@ entry = "ref/racial-trait/half-orc/orc-ferocity"
 [[books.chapters.children.children]]
 title = "Weapon Familiarity"
 entry = "ref/racial-trait/half-orc/weapon-familiarity"
-
-[[books.chapters.children]]
-title = "Blood God Disciple"
-entry = "ref/arc-summoner/blood-god-disciple"
-
-[[books.chapters.children]]
-title = "Hateful Rager"
-entry = "ref/arc-barbarian/hateful-rager"
-
-[[books.chapters.children]]
-title = "Redeemer"
-entry = "ref/arc-paladin/redeemer"
-
-[[books.chapters.children]]
-title = "Skulking Slayer"
-entry = "ref/arc-rogue/skulking-slayer"
 
 [[books.chapters.children]]
 title = "Halfling"
@@ -10749,26 +11537,6 @@ title = "Weapon Familiarity"
 entry = "ref/racial-trait/halfling/weapon-familiarity"
 
 [[books.chapters.children]]
-title = "Community Guardian"
-entry = "ref/arc-oracle/community-guardian"
-
-[[books.chapters.children]]
-title = "Filcher"
-entry = "ref/arc-rogue/filcher"
-
-[[books.chapters.children]]
-title = "Order of the Paw"
-entry = "ref/order/order-of-the-paw"
-
-[[books.chapters.children]]
-title = "Underfoot Adept"
-entry = "ref/arc-monk/underfoot-adept"
-
-[[books.chapters.children]]
-title = "Mass Blessing of Luck and Resolve"
-entry = "ref/spell/blessing-of-luck-and-resolve-mass"
-
-[[books.chapters.children]]
 title = "Human"
 entry = "ref/race/human"
 
@@ -10797,22 +11565,6 @@ title = "Skilled"
 entry = "ref/racial-trait/human/skilled"
 
 [[books.chapters.children]]
-title = "Buccaneer"
-entry = "ref/arc-gunslinger/buccaneer"
-
-[[books.chapters.children]]
-title = "Feral Child"
-entry = "ref/arc-druid/feral-child"
-
-[[books.chapters.children]]
-title = "Imperious"
-entry = "ref/sorcbloodline/imperious"
-
-[[books.chapters.children]]
-title = "Wanderer"
-entry = "ref/arc-monk/wanderer"
-
-[[books.chapters.children]]
 title = "Less-Common Races"
 entry = "ref/rule/less-common-races"
 
@@ -10821,44 +11573,12 @@ title = "Aasimar"
 entry = "ref/race/aasimar"
 
 [[books.chapters.children]]
-title = "Purifier"
-entry = "ref/arc-oracle/purifier"
-
-[[books.chapters.children]]
-title = "Tranquil Guardian"
-entry = "ref/arc-paladin/tranquil-guardian"
-
-[[books.chapters.children]]
-title = "Cat Burglar"
-entry = "ref/arc-rogue/cat-burglar"
-
-[[books.chapters.children]]
-title = "Nimble Guardian"
-entry = "ref/arc-monk/nimble-guardian"
-
-[[books.chapters.children]]
 title = "Dhampir"
 entry = "ref/race/dhampir"
 
 [[books.chapters.children]]
-title = "Cruoromancer"
-entry = "ref/arc-wizard/cruoromancer"
-
-[[books.chapters.children]]
-title = "Kinslayer"
-entry = "ref/arc-inquisitor/kinslayer"
-
-[[books.chapters.children]]
 title = "Drow"
 entry = "ref/rule/race-drow/drow"
-
-[[books.chapters.children]]
-title = "Cavern Sniper"
-entry = "ref/arc-fighter/cavern-sniper"
-
-[[books.chapters.children]]
-title = "Demonic Apostle"
-entry = "ref/arc-cleric/demonic-apostle"
 
 [[books.chapters.children]]
 title = "Gecko (riding)"
@@ -10869,76 +11589,20 @@ title = "Gecko (riding, combat trained)"
 entry = "ref/eq-misc/gecko-riding-combat-trained"
 
 [[books.chapters.children]]
-title = "Spider Climber"
-entry = "ref/feat/spider-climber"
-
-[[books.chapters.children]]
 title = "Fetchling"
 entry = "ref/race/fetchling"
-
-[[books.chapters.children]]
-title = "Dusk Stalker"
-entry = "ref/arc-ranger/dusk-stalker"
-
-[[books.chapters.children]]
-title = "Shadow Caller"
-entry = "ref/arc-summoner/shadow-caller"
 
 [[books.chapters.children]]
 title = "Shadow"
 entry = "ref/template/shadow"
 
 [[books.chapters.children]]
-title = "Shadowcloy flask"
-entry = "ref/eq-weapon/shadowcloy-flask"
-
-[[books.chapters.children]]
 title = "Goblin"
 entry = "ref/race/goblin"
 
 [[books.chapters.children]]
-title = "Feral Gnasher"
-entry = "ref/arc-barbarian/feral-gnasher"
-
-[[books.chapters.children]]
-title = "Fire Bomber"
-entry = "ref/arc-alchemist/fire-bomber"
-
-[[books.chapters.children]]
 title = "Hobgoblin"
 entry = "ref/race/hobgoblin"
-
-[[books.chapters.children]]
-title = "Fell Rider"
-entry = "ref/arc-cavalier/fell-rider"
-
-[[books.chapters.children]]
-title = "Ironskin Monk"
-entry = "ref/arc-monk/ironskin-monk"
-
-[[books.chapters.children]]
-title = "Fetters (common)"
-entry = "ref/eq-misc/fetters-common"
-
-[[books.chapters.children]]
-title = "Fetters (masterwork)"
-entry = "ref/eq-misc/fetters-masterwork"
-
-[[books.chapters.children]]
-title = "Manacles with barbs (common)"
-entry = "ref/eq-misc/manacles-with-barbs-common"
-
-[[books.chapters.children]]
-title = "Manacles with barbs (masterwork)"
-entry = "ref/eq-misc/manacles-with-barbs-masterwork"
-
-[[books.chapters.children]]
-title = "Manacles with barbs (mithral)"
-entry = "ref/eq-misc/manacles-with-barbs-mithral"
-
-[[books.chapters.children]]
-title = "Manacles with barbs (quickcatch)"
-entry = "ref/eq-misc/manacles-with-barbs-quickcatch"
 
 [[books.chapters.children]]
 title = "Cruel"
@@ -10947,18 +11611,6 @@ entry = "ref/magic-enh/cruel"
 [[books.chapters.children]]
 title = "Deadly"
 entry = "ref/magic-enh/deadly"
-
-[[books.chapters.children]]
-title = "Hobgoblin Battle Standard (Despair)"
-entry = "ref/magic-wondrous/hobgoblin-battle-standard-despair"
-
-[[books.chapters.children]]
-title = "Hobgoblin Battle Standard (Ferocity)"
-entry = "ref/magic-wondrous/hobgoblin-battle-standard-ferocity"
-
-[[books.chapters.children]]
-title = "Hobgoblin Battle Standard (Iron Resolve)"
-entry = "ref/magic-wondrous/hobgoblin-battle-standard-iron-resolve"
 
 [[books.chapters.children]]
 title = "Horseshoes of Crushing Blows (+1)"
@@ -10985,68 +11637,12 @@ title = "Ifrit"
 entry = "ref/race/ifrit"
 
 [[books.chapters.children]]
-title = "Immolator"
-entry = "ref/arc-inquisitor/immolator"
-
-[[books.chapters.children]]
-title = "Wishcrafter"
-entry = "ref/arc-sorcerer/wishcrafter"
-
-[[books.chapters.children]]
 title = "Kobold"
 entry = "ref/race/kobold"
 
 [[books.chapters.children]]
-title = "Bushwhacker"
-entry = "ref/arc-gunslinger/bushwhacker"
-
-[[books.chapters.children]]
-title = "Kobold Sorcerer"
-entry = "ref/sorcbloodline/kobold-sorcerer"
-
-[[books.chapters.children]]
-title = "Alchemical coal (blinding cinders)"
-entry = "ref/eq-weapon/alchemical-coal-blinding-cinders"
-
-[[books.chapters.children]]
-title = "Alchemical coal (choking smoke)"
-entry = "ref/eq-weapon/alchemical-coal-choking-smoke"
-
-[[books.chapters.children]]
-title = "Kobold Tail Attachment"
-entry = "ref/eq-weapon/kobold-tail"
-
-[[books.chapters.children]]
-title = "Kobold tail, long lash"
-entry = "ref/eq-weapon/kobold-tail-long-lash"
-
-[[books.chapters.children]]
-title = "Kobold tail, pounder"
-entry = "ref/eq-weapon/kobold-tail-pounder"
-
-[[books.chapters.children]]
-title = "Kobold tail, razored"
-entry = "ref/eq-weapon/kobold-tail-razored"
-
-[[books.chapters.children]]
-title = "Kobold tail, spiked"
-entry = "ref/eq-weapon/kobold-tail-spiked"
-
-[[books.chapters.children]]
-title = "Kobold tail, sweeper"
-entry = "ref/eq-weapon/kobold-tail-sweeper"
-
-[[books.chapters.children]]
 title = "Orc"
 entry = "ref/race/orc"
-
-[[books.chapters.children]]
-title = "Dirty Fighter"
-entry = "ref/arc-fighter/dirty-fighter"
-
-[[books.chapters.children]]
-title = "Scarred Witch Doctor"
-entry = "ref/arc-witch/scarred-witch-doctor"
 
 [[books.chapters.children]]
 title = "Furyborn"
@@ -11057,116 +11653,32 @@ title = "Oread"
 entry = "ref/race/oread"
 
 [[books.chapters.children]]
-title = "Shaitan Binder"
-entry = "ref/arc-summoner/shaitan-binder"
-
-[[books.chapters.children]]
-title = "Student of Stone"
-entry = "ref/arc-monk/student-of-stone"
-
-[[books.chapters.children]]
-title = "Fleshgem (decorative)"
-entry = "ref/eq-misc/fleshgem-decorative"
-
-[[books.chapters.children]]
-title = "Fleshgem (spikes)"
-entry = "ref/eq-misc/fleshgem-spikes"
-
-[[books.chapters.children]]
-title = "Greater Guarding"
-entry = "ref/magic-enh/guarding-greater"
-
-[[books.chapters.children]]
-title = "Guarding"
-entry = "ref/magic-enh/guarding"
-
-[[books.chapters.children]]
 title = "Qinggong Monk"
 entry = "ref/arc-monk/qinggong-monk"
-
-[[books.chapters.children]]
-title = "Mass Binding Earth"
-entry = "ref/spell/binding-earth-mass"
 
 [[books.chapters.children]]
 title = "Ratfolk"
 entry = "ref/rule/race-ratfolk/ratfolk"
 
 [[books.chapters.children]]
-title = "Gulch Gunner"
-entry = "ref/arc-gunslinger/gulch-gunner"
-
-[[books.chapters.children]]
-title = "Plague Bringer"
-entry = "ref/arc-alchemist/plague-bringer"
-
-[[books.chapters.children]]
-title = "Stink ink (common)"
-entry = "ref/eq-misc/stink-ink-common"
-
-[[books.chapters.children]]
-title = "Tailblade, ratfolk"
-entry = "ref/eq-weapon/tailblade-ratfolk"
-
-[[books.chapters.children]]
 title = "Sylph"
 entry = "ref/race/sylph"
-
-[[books.chapters.children]]
-title = "Sky Druid"
-entry = "ref/arc-druid/sky-druid"
-
-[[books.chapters.children]]
-title = "Wind Listener"
-entry = "ref/arc-wizard/wind-listener"
-
-[[books.chapters.children]]
-title = "Cloudburst"
-entry = "ref/magic-enh/cloudburst"
 
 [[books.chapters.children]]
 title = "Tengu"
 entry = "ref/race/tengu"
 
 [[books.chapters.children]]
-title = "Shigenjo"
-entry = "ref/arc-oracle/shigenjo"
-
-[[books.chapters.children]]
-title = "Swordmaster"
-entry = "ref/arc-rogue/swordmaster"
-
-[[books.chapters.children]]
 title = "Tiefling"
 entry = "ref/race/tiefling"
-
-[[books.chapters.children]]
-title = "Fiend Flayer"
-entry = "ref/arc-magus/fiend-flayer"
-
-[[books.chapters.children]]
-title = "Fiendish Vessel"
-entry = "ref/arc-cleric/fiendish-vessel"
 
 [[books.chapters.children]]
 title = "Undine"
 entry = "ref/race/undine"
 
 [[books.chapters.children]]
-title = "Undine Adept"
-entry = "ref/arc-druid/undine-adept"
-
-[[books.chapters.children]]
-title = "Watersinger"
-entry = "ref/arc-bard/watersinger"
-
-[[books.chapters.children]]
 title = "Changeling"
 entry = "ref/race/changeling"
-
-[[books.chapters.children]]
-title = "Dreamweaver"
-entry = "ref/arc-witch/dreamweaver"
 
 [[books.chapters.children]]
 title = "Duergar Tyrant"
@@ -11177,48 +11689,12 @@ title = "Duergar"
 entry = "ref/rule/race-duergar/duergar"
 
 [[books.chapters.children]]
-title = "Gray Disciple"
-entry = "ref/arc-monk/gray-disciple"
-
-[[books.chapters.children]]
 title = "Gillman"
 entry = "ref/race/gillman"
 
 [[books.chapters.children]]
-title = "Eldritch Raider"
-entry = "ref/arc-rogue/eldritch-raider"
-
-[[books.chapters.children]]
 title = "Grippli"
 entry = "ref/race/grippli"
-
-[[books.chapters.children]]
-title = "Bogborn Alchemist"
-entry = "ref/arc-alchemist/bogborn-alchemist"
-
-[[books.chapters.children]]
-title = "Black spider marsh poison"
-entry = "ref/eq-poison/black-spider-marsh-poison"
-
-[[books.chapters.children]]
-title = "Kitsune Trickster"
-entry = "ref/arc-rogue/kitsune-trickster"
-
-[[books.chapters.children]]
-title = "Kitsune Star Gem (1st)"
-entry = "ref/magic-wondrous/kitsune-star-gem-1st"
-
-[[books.chapters.children]]
-title = "Kitsune Star Gem (2nd)"
-entry = "ref/magic-wondrous/kitsune-star-gem-2nd"
-
-[[books.chapters.children]]
-title = "Kitsune Star Gem (3rd)"
-entry = "ref/magic-wondrous/kitsune-star-gem-3rd"
-
-[[books.chapters.children]]
-title = "Wave Warden"
-entry = "ref/arc-ranger/wave-warden"
 
 [[books.chapters.children]]
 title = "Underwater heavy crossbow"
@@ -11229,232 +11705,24 @@ title = "Underwater light crossbow"
 entry = "ref/eq-weapon/underwater-light-crossbow"
 
 [[books.chapters.children]]
-title = "Naga Aspirant"
-entry = "ref/arc-druid/naga-aspirant"
-
-[[books.chapters.children]]
 title = "Samsaran"
 entry = "ref/race/samsaran"
-
-[[books.chapters.children]]
-title = "Reincarnated Oracle"
-entry = "ref/arc-oracle/reincarnated-oracle"
-
-[[books.chapters.children]]
-title = "Airborne Ambusher"
-entry = "ref/arc-fighter/airborne-ambusher"
 
 [[books.chapters.children]]
 title = "Suli"
 entry = "ref/race/suli"
 
 [[books.chapters.children]]
-title = "Elemental Knight"
-entry = "ref/arc-magus/elemental-knight"
-
-[[books.chapters.children]]
-title = "Deep Bomber"
-entry = "ref/arc-alchemist/deep-bomber"
-
-[[books.chapters.children]]
-title = "Treetop Monk"
-entry = "ref/arc-monk/treetop-monk"
-
-[[books.chapters.children]]
 title = "Vanara"
 entry = "ref/race/vanara"
-
-[[books.chapters.children]]
-title = "Deadly Courtesan"
-entry = "ref/arc-rogue/deadly-courtesan"
 
 [[books.chapters.children]]
 title = "Vishkanya"
 entry = "ref/race/vishkanya"
 
 [[books.chapters.children]]
-title = "Shadow Puppeteer"
-entry = "ref/arc-bard/shadow-puppeteer"
-
-[[books.chapters.children]]
 title = "Wayang"
 entry = "ref/race/wayang"
-
-[[books.chapters.children]]
-title = "Shadow stencil set"
-entry = "ref/eq-misc/shadow-stencil-set"
-
-[[books.chapters.children]]
-title = "Type Quality"
-entry = "ref/rule/type-quality"
-
-[[books.chapters.children]]
-title = "Mid-RP Types"
-entry = "ref/rule/mid-rp-types"
-
-[[books.chapters.children]]
-title = "High-RP Types"
-entry = "ref/rule/high-rp-types"
-
-[[books.chapters.children]]
-title = "Low-RP Types"
-entry = "ref/rule/low-rp-types"
-
-[[books.chapters.children]]
-title = "Base Speed Quality"
-entry = "ref/rule/base-speed-quality"
-
-[[books.chapters.children]]
-title = "Size Quality"
-entry = "ref/rule/size-quality"
-
-[[books.chapters.children]]
-title = "Ability Score Quality"
-entry = "ref/rule/ability-score-quality"
-
-[[books.chapters.children]]
-title = "Language Quality"
-entry = "ref/rule/language-quality"
-
-[[books.chapters.children]]
-title = "Ability Score Racial Traits"
-entry = "ref/rule/ability-score-racial-traits"
-
-[[books.chapters.children]]
-title = "Advanced Ability Score Traits"
-entry = "ref/rule/advanced-ability-score-traits"
-
-[[books.chapters.children]]
-title = "Defense Racial Traits"
-entry = "ref/rule/defense-racial-traits"
-
-[[books.chapters.children]]
-title = "Standard Defense Traits"
-entry = "ref/rule/standard-defense-traits"
-
-[[books.chapters.children]]
-title = "Advanced Defense Traits"
-entry = "ref/rule/advanced-defense-traits"
-
-[[books.chapters.children]]
-title = "Feat and Skill Traits"
-entry = "ref/rule/feat-and-skill-traits"
-
-[[books.chapters.children]]
-title = "Monstrous Defense Traits"
-entry = "ref/rule/monstrous-defense-traits"
-
-[[books.chapters.children]]
-title = "Standard Feat and Skill Traits"
-entry = "ref/rule/standard-feat-and-skill-traits"
-
-[[books.chapters.children]]
-title = "Advanced Feat and Skill Traits"
-entry = "ref/rule/advanced-feat-and-skill-traits"
-
-[[books.chapters.children]]
-title = "Magical Racial Traits"
-entry = "ref/rule/magical-racial-traits"
-
-[[books.chapters.children]]
-title = "Standard Magical Traits"
-entry = "ref/rule/standard-magical-traits"
-
-[[books.chapters.children]]
-title = "Advanced Magical Traits"
-entry = "ref/rule/advanced-magical-traits"
-
-[[books.chapters.children]]
-title = "Monstrous Magical Traits"
-entry = "ref/rule/monstrous-magical-traits"
-
-[[books.chapters.children]]
-title = "Movement Racial Traits"
-entry = "ref/rule/movement-racial-traits"
-
-[[books.chapters.children]]
-title = "Standard Movement Traits"
-entry = "ref/rule/standard-movement-traits"
-
-[[books.chapters.children]]
-title = "Advanced Movement Traits"
-entry = "ref/rule/advanced-movement-traits"
-
-[[books.chapters.children]]
-title = "Monstrous Movement Traits"
-entry = "ref/rule/monstrous-movement-traits"
-
-[[books.chapters.children]]
-title = "Offensive Racial Traits"
-entry = "ref/rule/offensive-racial-traits"
-
-[[books.chapters.children]]
-title = "Standard Offensive Traits"
-entry = "ref/rule/standard-offensive-traits"
-
-[[books.chapters.children.children]]
-title = "Life-Stealing Venom"
-entry = "ref/affliction/standard-offensive-traits/life-stealing-venom"
-
-[[books.chapters.children.children]]
-title = "Paralytic Venom"
-entry = "ref/affliction/standard-offensive-traits/paralytic-venom"
-
-[[books.chapters.children.children]]
-title = "Weakening Venom"
-entry = "ref/affliction/standard-offensive-traits/weakening-venom"
-
-[[books.chapters.children]]
-title = "Advanced Offensive Traits"
-entry = "ref/rule/advanced-offensive-traits"
-
-[[books.chapters.children]]
-title = "Advanced Senses Traits"
-entry = "ref/rule/advanced-senses-traits"
-
-[[books.chapters.children]]
-title = "Monstrous Offensive Traits"
-entry = "ref/rule/monstrous-offensive-traits"
-
-[[books.chapters.children]]
-title = "Monstrous Senses Traits"
-entry = "ref/rule/monstrous-senses-traits"
-
-[[books.chapters.children]]
-title = "Senses Racial Traits"
-entry = "ref/rule/senses-racial-traits"
-
-[[books.chapters.children]]
-title = "Standard Senses Traits"
-entry = "ref/rule/standard-senses-traits"
-
-[[books.chapters.children]]
-title = "Weakness Racial Traits"
-entry = "ref/rule/weakness-racial-traits"
-
-[[books.chapters.children]]
-title = "Advanced Weakness Traits"
-entry = "ref/rule/advanced-weakness-traits"
-
-[[books.chapters.children]]
-title = "Standard Weakness Traits"
-entry = "ref/rule/standard-weakness-traits"
-
-[[books.chapters.children]]
-title = "Other Racial Traits"
-entry = "ref/rule/other-racial-traits"
-
-[[books.chapters.children]]
-title = "Standard Other Traits"
-entry = "ref/rule/standard-other-traits"
-
-[[books.chapters.children]]
-title = "Advanced Other Traits"
-entry = "ref/rule/advanced-other-traits"
-
-[[books.chapters.children]]
-title = "Monstrous Other Traits"
-entry = "ref/rule/monstrous-other-traits"
 
 [[books.chapters.children]]
 title = "Alchemist"
@@ -11685,108 +11953,16 @@ title = "Basics"
 entry = "ref/rule/basics"
 
 [[books.chapters.children]]
-title = "Chameleon"
-entry = "ref/discovery/chameleon"
-
-[[books.chapters.children]]
-title = "Darkness Bomb"
-entry = "ref/discovery/darkness-bomb"
-
-[[books.chapters.children]]
-title = "Deadly Excretions"
-entry = "ref/discovery/deadly-excretions"
-
-[[books.chapters.children]]
-title = "Deadly Scratch"
-entry = "ref/talent/deadly-scratch"
-
-[[books.chapters.children]]
-title = "Defoliant Bomb"
-entry = "ref/discovery/defoliant-bomb"
-
-[[books.chapters.children]]
 title = "Dhampir"
 entry = "ref/subtype/dhampir"
-
-[[books.chapters.children]]
-title = "Disarming Luck"
-entry = "ref/talent/disarming-luck"
-
-[[books.chapters.children]]
-title = "False Friend"
-entry = "ref/talent/false-friend"
-
-[[books.chapters.children]]
-title = "Fire Brand"
-entry = "ref/discovery/fire-brand"
 
 [[books.chapters.children]]
 title = "Gamemastery"
 entry = "ref/rule/gamemastery"
 
 [[books.chapters.children]]
-title = "Glassfoot Bomb"
-entry = "ref/discovery/glassfoot-bomb"
-
-[[books.chapters.children]]
-title = "Graceful Faller"
-entry = "ref/talent/graceful-faller"
-
-[[books.chapters.children]]
-title = "Greater Plague Bomb"
-entry = "ref/discovery/greater-plague-bomb"
-
-[[books.chapters.children]]
-title = "Lingering Plague"
-entry = "ref/discovery/lingering-plague"
-
-[[books.chapters.children]]
-title = "Nimble Climber"
-entry = "ref/talent/nimble-climber-catfolk"
-
-[[books.chapters.children]]
-title = "Obfuscate Story"
-entry = "ref/talent/obfuscate-story"
-
-[[books.chapters.children]]
-title = "Rag Doll Mutagen"
-entry = "ref/discovery/rag-doll-mutagen"
-
-[[books.chapters.children]]
-title = "Rocket Bomb"
-entry = "ref/discovery/rocket-bomb"
-
-[[books.chapters.children]]
-title = "Scrap Bomb"
-entry = "ref/discovery/scrap-bomb"
-
-[[books.chapters.children]]
-title = "Shadow Blend"
-entry = "ref/evolution/shadow-blend"
-
-[[books.chapters.children]]
-title = "Shadow Form"
-entry = "ref/evolution/shadow-form"
-
-[[books.chapters.children]]
-title = "Single-Minded Appraiser"
-entry = "ref/talent/single-minded-appraiser"
-
-[[books.chapters.children]]
-title = "Steal the Story"
-entry = "ref/talent/steal-the-story"
-
-[[books.chapters.children]]
 title = "Temgu"
 entry = "ref/subtype/tengu"
-
-[[books.chapters.children]]
-title = "Underwater Demolition"
-entry = "ref/discovery/underwater-demolition"
-
-[[books.chapters.children]]
-title = "Vicious Claws"
-entry = "ref/talent/vicious-claws"
 
 [[books]]
 source = "bestiary"
