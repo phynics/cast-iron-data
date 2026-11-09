@@ -18,4 +18,4 @@ You can choose to **fight defensively** as a [standard action](ref/rule/standard
 taking a [full-attack](ref/rule/full-attack) action. If you do so, you take a -4 penalty on all
 attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn.
 
-This option may be replaced with the [Defensive Stance](ref/rule/combat-errata) action.
+This option may be replaced with the Defensive Stance action.
